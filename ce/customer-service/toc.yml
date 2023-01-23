@@ -718,6 +718,8 @@
         href: persistent-chat.md
       - name: Configure reconnection to a previous chat session
         href: configure-reconnect-chat.md
+      - name: Understand disconnected chats
+        href: oc-conv-state-chat-disconnect.md   
       - name: Show customers their position in a queue
         href: show-queue.md
       - name: Show customers their average wait time in a queue
@@ -747,7 +749,7 @@
       - name: Take notes for conversation
         href: oc-take-notes.md
       - name: Understand conversation states
-        href: oc-conversation-state.md
+        href: oc-conversation-state.md     
       - name: View call options and visual engagement in live chat
         href: call-options-visual-engagement.md
       - name: Monitor real-time customer sentiment
@@ -1102,6 +1104,8 @@
         href: customer-service-analytics.md
       - name: Forecast agent, case, and conversation volumes
         href: use-volume-forecasting.md
+      - name: Report filters and groups
+        href: report-filters-groups.md
       - name: Manage report bookmarks
         href: manage-bookmarks.md
       - name: Intraday supervisor experience
