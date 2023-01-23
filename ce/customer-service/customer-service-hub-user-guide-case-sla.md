@@ -1,7 +1,7 @@
 ---
 title: "Track and manage SLAs in Customer Service workspace | Microsoft Docs"
 description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service."
-ms.date: 12/08/2022
+ms.date: 01/23/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -95,6 +95,9 @@ You can view the active duration and elapsed time on the **SLA** tab of the cust
 - **Elapsed Time (min)**: Displays the time for which the SLA KPI Instance timer was paused.
 
 Both **Active Duration (min)** and **Elapsed Time (min)** are calculated based on the current value of the business hours and calendars, similar to warning and failure time calculation. So, changing the calendar working hours might affect the calculation.
+
+> [!NOTE]
+By default, **Active Duration (min)** calculation will be asynchronous as an early access feature in Dynamics 365 Customer Service. You might need to refresh the **Target entity form** after any create or update operation to view the **Active Duration (min)** value. You may need to review any customizations associated with active duration.
 
 :::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elapsed Time duration":::
 
