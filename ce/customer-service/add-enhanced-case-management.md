@@ -71,25 +71,3 @@ For the application to display the Customer details and related cases on the cas
 > [!NOTE]
 > Select **Get more components** if you can't see these options in **Components**.
 
-## Add the Recent cases subgrid to the Conversation form
-
-To retrieve the related cases for a customer to be displayed on  the customer summary form in Customer Service Workspace, perform the following steps:
-
-1. On the Accounts or Contacts form, add new form. Add a new sub grid component with the Recent Cases component. More information: [Add a subgrid component](/power-apps/maker/model-driven-apps/form-designer-add-configure-subgrid#add-a-subgrid-component)
-1.  On the Conversation form, add the Form Component Control. More information: [Add the form component to a table main form](/power-apps/maker/model-driven-apps/form-component-control#add-the-form-component-to-a-table-main-form). 
-1. Specify the **Customer** in the **Lookup column**.
-1. On the **Related forms** select the newly created forms in step 1 for **Account** or the **Contact** table.
-
-## Configure the prior recent cases view in the Conversation table
-
-You can choose to go back to the default Recent Cases display experience in the Conversation Summary form of the Customer Service workspace. To revert back to the default experience, perform the following steps:
-
-1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
-1. Select **Tables**, select the Conversation table, and then select the **Forms** area.
-1. Select the required entity.
-1. Select **Components** and then select **1- column section** in **Popular**. Drag and drop it into a section on the form.
-1. Select **Quick view** and add it to the previously added **1- column section** on the form. Specify the following details:
-    - **Lookup**: Customer
-    - **Account**: Cases for Customer
-    - **Contact**: Cases for Customer
-1. Select **Save** and **Publish**.
