@@ -79,7 +79,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ## Migrate configuration for live chat queues
 
-For migrating queues for live chat, perform the steps outlined in [Export and import data for unified routing-based record queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues).
+For migrating queues for live chat, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues).
 
 ## Migrate configuration for live chat workstreams
 
@@ -99,7 +99,7 @@ Use the Configuration Migration tool to create the schema and migrate the data f
 > [!Important]
 >
 > When you fetch decision rulesets (msdyn_decisionrulesets) containing context variables, some decision rulesets will get created without the dependency mappings. To work around this, perform the following steps:
-> 1. Import data all entities, including the decision ruleset entity (msdyn_decisionrulesets).
+> 1. Import data for all entities including the decision ruleset entity (msdyn_decisionrulesets).
 > 1. Import data for the decision ruleset entity again. This step ensures that all dependency mappings for the decision rulesets get imported.
 
 
@@ -113,13 +113,13 @@ The following assumptions are in place:
 
 - Queues can be exported after live chat configurations and rules definition, to be able to use pre-conversation survey questions as context variables.
 
-- The workstream must already exist; created manually or previously migrated in the destination organization.
+- The workstream must exist whether it was created manually or previously migrated to the destination organization.
 
 **To migrate data for live chat widgets**
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for the live chat widget and related entities.
 
-   - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
+   - **Entity display name**: When you create the schema, select the entities in the sequence as mentioned in the table.
    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't have to select the system-defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if necessary.
 
    | Chat widget((msdyn_livechatconfig) | Attribute display name (Logical name) |
