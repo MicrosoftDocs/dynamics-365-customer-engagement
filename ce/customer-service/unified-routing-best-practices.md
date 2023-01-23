@@ -12,74 +12,67 @@ ms.custom: bap-template
 
 # Guidance to set up unified routing in Customer Service
 
-This article lists discusses some of the important aspects to successfully deploy and manage unified routing that focuses on the most common areas where you might have questions.
+This article discusses some of the important aspects to successfully deploy and manage unified routing, focussing on the most common areas where you might have questions.
 
-## Verify service limits and quotas to provision unified routing
+## Provision unified routing
+
+### Verify service limits and default quotas
 
 Customer Service relies on shared cloud resources for data and processing. You must check the service limits and default quotas for the resources before you provision unified routing. These limits ensure that other tenants performance isn't affected and resources are evenly distributed. Some of the limits are adjustable and we recommend that you request adjustments accordingly. More information: [Service quotas](service-quotas.md)
 
-## Use the recommended process to manage users
+## Manage users
 
-Use the following guidance to set up users:
+Use the following guidance to set up users in bulk:
 
-- Limit Dataverse API calls to set up users in bulk
-- Follow a specific sequence
+- Follow a specific sequence to set up users in bulk using Dataverse API calls
+- Limit number of change requests when setting up users in bulk using Dataverse API calls
 
-### Limit Dataverse API calls when setting up users in bulk
+### Follow a specific sequence to set up users in bulk using Dataverse API calls
+
+To manage the users in bulk, perform the steps in the following sequence:
+
+1. Create or import users to enable them
+1. Added the users to queues. More information: [Create and manage queues](queues-omnichannel.md)
+1. Create bookable resources. More information: [Manage users](users-user-profiles.md#manage-users-using-the-classic-experience)
+1. Add skills. More information: [Set up skills](setup-skills-assign-agents.md)
+1. Assign capacity profiles. More information: [Create and manage capacity profiles](capacity-profiles.md)
+1. Assign required roles. More information: [Assign roles](add-users-assign-roles.md)
+
+### Limit number of change requests when setting up users in bulk using Dataverse API calls
 
 Customer Service lets you make API calls to set-up users in bulk. A single change request is any add or update operation like defining a single skill, capacity profile, or role per user.
 
 We recommend that you make 500 change requests every 15 minutes for the system to process the changes optimally without getting throttled.
 
-For example, if you manage a contact center that has 1000 agents working in it and need to set up each agent by assigning one role, one capacity profile, and two skills. The total number of requests to configure these settings is 4000.
+For example, if you manage a contact center that has 1000 agents working in it and need to set up each agent by assigning two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4000.
 
-Based on our recommendation of 500 requests per 15 minutes, you'll need to run the API calls in eight batches as follows.
+Based on our recommendation of 500 requests per 15 minutes, you'll need to make these requests in eight batches as follows.
 
-|Change request|Number of requests|Number of batches|
+|Change request type|Number of requests|Number of batches|
 |-----------|---------|------------|
-|Two skills|250 requests per batch|Four|
-|One capacity profile|500 requests per batch|Two|
-|One role|500 requests per batch|Two|
+|Two skills per agent|250 requests per batch|Four|
+|One capacity profile per agent|500 requests per batch|Two|
+|One role per agent|500 requests per batch|Two|
 
 For information on using the API, see [Use the Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/overview).
 
-### Follow a specific sequence
-
-To manage the users in bulk, perform the steps in the following sequence:
-
-1. Create or import users to enable them
-1. Added the users to queues
-1. Create bookable resources
-1. Add skills
-1. Assign capacity profiles
-1. Assign required roles
-
 ## Manage queues
 
-- Use automatic assignment if top 100 work items have extended wait times.
+- Manage automatic assignment if top 100 work items have extended wait times.
 - Use skill-based routing to distribute work items to most qualified agents.
 - Set up single or multiple queues with skill-matching to manage different types of work.
 
-### Use automatic assignment if top 100 work items have extended wait times
+### Manage automatic assignment if top 100 work items have extended wait times
 
-The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles.
+The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. For information about auto-assignment process, see [How auto assignment works](assignment-methods.md#how-auto-assignment-works).
 
-Each cycle picks up the top unassigned work items in a default block of 100 items and attempts to match each work item with an appropriate agent. Work items that couldn't be assigned to agents is routed back to the queue. The next assignment cycle picks up another block of 100 top-priority items.
-
-If no eligible agents are found for all the top 100 items in a queue, then each assignment cycle will keep retrying the top 100 items in that queue.
-
-For information about the assignment methods, see [Assignment methods](assignment-methods.md).
-
-If agents aren't available to be assigned the top 100 work items for an extended period of time, we recommend the following options:
+If you have a scenario in which agents aren't available to be assigned the top 100 work items for an extended period of time, we recommend the following options:
 
 - To minimize the wait time, use features like overflow management to manage high load or custom assignment rules to gradually relax rules to expand the eligible agent pool.
-
-Review agent availability and schedules to evaluate staffing more agents.
-
-If there are items lower in priority that might have eligible agents, then contact Microsoft Support with your business scenario to determine if the block size can be increased.  
-
-> [!NOTE]
-> A block size that's larger than the default one might affect performance. Therefore, we recommend that you share your business scenario with the queue backlog and queue staffing projections to help Microsoft Support recommend the most optimized block size for your use case.
+- Review agent availability and schedules to evaluate staffing more agents.
+- If there are items lower in priority that might have eligible agents, then contact Microsoft Support with your business scenario to determine if the block size can be increased.  
+  > [!NOTE]
+  > A block size that's larger than the default one might affect performance. Therefore, we recommend that you share your business scenario with the queue backlog and queue staffing projections to help Microsoft Support recommend the most optimized block size for your use case.
 
 ### Use skill-based routing to distribute work items to the most qualified agents
 
@@ -93,15 +86,14 @@ For example, to address the following scenario in your contact center, we recomm
 
 ### Set up single or multiple queues along with skill-matching to manage different types of work
 
-Similarly, while deciding to set up queues, multiple factors like, line of businesses (LOBs) involved, agents alignment with those LOBs and operating hours of each LOB need to be considered.
+Similarly, while deciding to set up queues, you need to consider multiple factors like, line of businesses (LOBs) involved, agents alignment with those LOBs and operating hours of each LOB.
 
 The following table lists the recommendations to use according to the applicable scenario.
 
 |Scenario|Multiple queues|Match skills|
 |---------|----------|---------|
-|Agents belong to different line of businesses and security isolation is required|Recommended| Not recommended|
+|Agents belong to different line of businesses|Recommended| Not recommended|
 |Line of businesses with different operational hours even if agents are shared|Recommended| Not recommended|
-|Large backlog in queue or more than 100 work items per the following queue type:<br> - Voice queue<br> - Messaging queue<br>- Record queue |Recommended| Can be used but queues will need to be split based on load<br>Can be used with queue overflow|
 |Same agents overlap multiple queues with same profile| Not recommended| Recommended|
 |Gradual relaxation of assignment rules| Not available| Recommended|
 |Prioritization across multiple work types| Not available | Recommended|

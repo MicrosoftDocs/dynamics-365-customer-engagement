@@ -1,7 +1,7 @@
 ---
 title: "Assignment methods for queues | MicrosoftDocs"
 description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
-ms.date: 11/03/2022
+ms.date: 01/23/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -18,6 +18,14 @@ searchScope:
 # Assignment methods in unified routing
 
 Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets.
+
+## How auto assignment works
+
+The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles.
+
+Each cycle picks up the top unassigned work items in a default block of 100 items and attempts to match each work item with an appropriate agent. Work items that couldn't be assigned to agents because of unavailability of agents or right skill match not found is routed back to the queue. The next assignment cycle picks up another block of 100 top-priority items.
+
+If no eligible agents are found for all the top 100 items in a queue, then each assignment cycle will keep retrying the top 100 items in that queue.
 
 ## Types of assignment methods
 
