@@ -4,7 +4,7 @@ description: Create bookmarks for reports and save personalized views of your re
 author: neeranelli
 ms.author: nenellim
 ms.topic: how-to
-ms.date: 01/19/2023
+ms.date: 01/23/2023
 ms.reviewer: nenellim
 ms.custom: bap-template
 ---
