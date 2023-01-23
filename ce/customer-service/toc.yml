@@ -502,6 +502,8 @@
         href: work-knowledge-articles.md
       - name: Set up external knowledge search providers
         href: set-up-search-providers.md
+    - name: Set up integrated search provider
+      items:
       - name: Set up and manage integrated search providers
         href: add-search-provider.md
       - name: Apply authentication for search providers
