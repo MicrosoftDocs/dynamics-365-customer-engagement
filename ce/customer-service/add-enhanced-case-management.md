@@ -66,7 +66,7 @@ For the application to display the Customer details and related cases on the cas
    - **Recent records**: Drag and drop it into a section on the form. On the **Properties** panel: 
         - Specify the **Table** from which the records must be displayed. 
         - Select **Allow users to change view** or **Allow users to change chart** checkbox to let users change the view or chart.
-        - Specify the Maximum number of rows to be displayed on the card, once the card loads. The minimum number of rows displayed 4.
+        - Specify the Maximum number of rows to be displayed on the card, once the card loads. The default numberr of rows displayed is 4.
 
 > [!NOTE]
 > Select **Get more components** if you can't see these options in **Components**.
