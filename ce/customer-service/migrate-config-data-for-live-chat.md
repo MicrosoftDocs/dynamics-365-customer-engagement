@@ -98,9 +98,9 @@ Use the Configuration Migration tool to create the schema and migrate the data f
 
 > [!Important]
 >
-> When you fetch decision rulesets (msdyn_decisionrulesets) containing context variables, some decision rulesets will get created without the dependency mappings. To work around this, perform the following steps:
+> When you fetch decision rulesets (msdyn_decisionrulesets) containing context variables, some decision rulesets are created without the dependency mappings. To work around this, perform the following steps:
 > 1. Import data for all entities including the decision ruleset entity (msdyn_decisionrulesets).
-> 1. Import data for the decision ruleset entity again. This step ensures that all dependency mappings for the decision rulesets get imported.
+> 1. Import data for the decision ruleset entity again. This step ensures that all dependency mappings for the decision rulesets are imported.
 
 
 ## Migrate configuration for live chat widgets
