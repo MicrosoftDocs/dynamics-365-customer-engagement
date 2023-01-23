@@ -48,8 +48,8 @@ You can choose to display the standard case resolution dialog box that appears w
 1.  Go to **Add Existing** > **App** > **Model-driven app**> **Add existing model-driven apps** pane.
 1. Select the **Enable the minimal case resolution dialog** option. The **Enable the minimal case resolution dialog** pane appears.
 1. Set the **Setting environment value** option to **Yes**.
-1. In the **Setting app value** section, the Customer Service Hub and Customer Service workspace apps are displayed. 
-1. Select **New app value** for the app, and set the value to **Yes** for the respective apps.
+1. In the **Setting app value** section, the Customer Service Hub and Customer Service workspace apps are displayed.
+1. Select **New app value** for the app, and set the value to **Yes** for the respective apps. This step is optional. For a specified app, the tab set at the application level overrides the environment level setting.
 1. Select **Publish All Customizations**.
 
 
