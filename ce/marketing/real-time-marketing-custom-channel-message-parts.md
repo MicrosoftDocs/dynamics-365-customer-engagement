@@ -26,7 +26,10 @@ search.app:
 If you're creating a custom channel and you want to describe the message parts that the channel operates with (for example, title, subtitle, text), then you must define records for the **Channel Message Part** entity. At least one message part is required per custom channel.  **At your solution’s import**, a new row for every message part will be created at the **msdyn_channelmessagepart** table.
 
 > [!IMPORTANT]
-> Sms channel type requires exactly one message part with name “text” as it will be used by   the default Marketing SMS editor.
+> SMS channel type requires exactly one message part with the name “text” as it will be used by the default Marketing SMS editor.
+
+> [!IMPORTANT]
+> If you are setting up metadata records directly in the customization file, please make sure that GUIDs are defined in lowercase. 
 
 #### Message parts contract:
 
