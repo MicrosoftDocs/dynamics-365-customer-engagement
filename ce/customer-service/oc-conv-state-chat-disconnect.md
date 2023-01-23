@@ -18,7 +18,7 @@ When an ongoing chat gets disconnected, Omnichannel for Customer Service:
 
 - Moves the chat from an **Open** to **Closed** state, so the agent knows that there's no customer to respond to.
 
-- Moves the chat from an **Active** to **Wrap-up** state, and updates agent capacity, so the agent knows that the customer isn't available. You can block or unblock agent capacity in the workstream. More information: [Wrap-up state](oc-conversation-state.md#wrap-up)
+- Moves the chat from an **Active** to **Wrap-up** state, and updates agent capacity, so the agent knows that the customer isn't available. You can configure agent capacity in the work distributions settings of the workstream. More information: [Wrap-up state](oc-conversation-state.md#wrap-up) and [Configure work distribution](create-workstreams#configure-work-distribution)
 
 - Record an automated message in the transcript to indicate that the customer has disconnected. More information: [Configure automated messages](configure-automated-message.md#preconfigured-automated-message-triggers)
 
