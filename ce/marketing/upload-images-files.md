@@ -24,7 +24,7 @@ Files are an important part of most marketing-page and marketing-email designs. 
 > [!NOTE]
 > The following formats are supported:
 >
-> GIF, BMP, JPEG, PNG, DOC, DOCX, ODT, PDF, RTF, TXT, XLS, XLSX, ODS, PPT, PPTX, ODP, TGZ, TAR, ZIP, XML, CSS, CSV, HTML, HTM
+> BMP, CSS, CSV, DOC, DOCX, GIF, HTM, HTML, JPEG, ODP, ODS, ODT, PDF, PNG, PPT, PPTX, RTF, TAR, TGZ, TXT, XLS, XLSX, XML, ZIP
 >
 > You will see an error message if you attempt to upload a file of an unsupported type.
 >
