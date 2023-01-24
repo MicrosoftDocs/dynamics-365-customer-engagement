@@ -1,7 +1,7 @@
 ---
 title: "Understand conversation states | MicrosoftDocs"
 description: "Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
-ms.date: 01/23/2023
+ms.date: 01/24/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -24,7 +24,7 @@ The conversation can be in an open or closed state, and can have the following s
 
  ![Omnichannel conversation states.](media/oc-conversation-state.png "Conversation states")
 
- *Channel* refers to SMS, social, and Microsoft Teams channels supported in Omnichannel for Customer Service.
+ *Channel* refers to SMS, voice, social, and Microsoft Teams channels supported in Omnichannel for Customer Service.
 
 > [!NOTE]
 > Additionally, the conversation might have the resolved or scheduled status reason, which is for internal use only.
