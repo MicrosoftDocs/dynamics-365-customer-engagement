@@ -91,6 +91,10 @@ To **delete**, select and highlight the time-off and select the delete icon.
 > [!Note]
 > Deleting a time-off request record will not delete the time-off from the schedule board or resource's calendar.
 
+> [!Note]
+> Once Submitted, a Time Off reuquest cannot be edited from the Field Service Mobile application while running in Offline mode. 
+
+
 ## Additional notes
 
 - Users with the **Field Service-Administrator** or **Field Service-Resource** field security profile can approve time-off requests.
