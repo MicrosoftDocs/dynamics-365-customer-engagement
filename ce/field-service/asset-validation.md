@@ -1,41 +1,37 @@
 ---
-title: "Validate customer assets on work orders"
-description: Learn how to configure the system to validate customer assets on work orders in Dynamics 365 Field Service.
-ms.date: 01/18/2023
-ms.reviewer: mhart
-ms.topic: conceptual
-ms.custom: bap-template
+title: Disable customer asset validation on work orders (contains video)
+description: Learn how to allow customer assets on work orders that aren't related to the service account in Dynamics 365 Field Service.
+ms.date: 01/24/2023
 author: jshotts
 ms.author: jasonshotts
 manager: shellyha
+ms.reviewer: mhart
+ms.topic: how-to
+ms.custom: bap-template
+ms.service: dynamics-365-field-service
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Validate customer assets on work orders
+# Disable customer asset validation on work orders
 
-You can configure the system to allow [customer assets](assets.md) on work orders that are related to accounts other than the work order service account.
+Normally, work orders can include only [customer assets](assets.md) that are related to the service account. You can disable customer asset validation and allow work orders to include assets that are related to other accounts. For example, in a rent or lease scenario, a service provider may own an asset, but work orders refer to the customer who's using it.
 
-This configuration can be useful in a rent or lease scenario. Specifically, when a service provider owns the asset and work orders refer to the customer who is currently using the asset.
+1. In Field Service, select the **Settings** area. Under **General**, select **Field Service Settings**.
 
-1. In Field Service, change to the **Settings** area.
+1. In the **Work Order / Booking** tab, turn on **Disable Customer Asset Validation** to allow work orders to search all assets, not just assets related to the service account.
 
-1. Go to **General** > **Field Service Settings**.
+1. Turn on **Suggest Reparenting Customer Assets** to allow work order owners to change the service account of the work order to match the account of the customer asset.
 
-1. In the **Work Order / Booking** section, set **Disable Customer Asset Validation** to _Yes_. This setting enables the search across all assets in the system, not just assets related to the service account of a work order.
+    :::image type="content" source="media/customer-asset-settings-validation.png" alt-text="Screenshot of the Field Service settings page.":::
 
-1. Set **Suggest Reparenting Customer Assets** to _Yes_ to give work order owners the option change the service account of the work order to match the account of the customer asset.
+1. Select **Save**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service settings.](./media/customer-asset-settings-validation.png)
+Watch a brief video on how to [disable customer asset validation and suggest account reparenting](https://youtu.be/kFgGuO_36oI).
 
-1. **Save** your changes.
+### See also
 
-For more information, see the video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Disable customer asset validations and suggest account reparenting](https://youtu.be/kFgGuO_36oI)
-
-## Next steps
-
-- [Create assets in Dynamics 365 Field Service](assets.md)
+[Create assets in Dynamics 365 Field Service](assets.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

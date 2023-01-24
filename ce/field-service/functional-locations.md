@@ -1,149 +1,148 @@
 ---
-title: Functional location in Dynamics 365 Field Service
-description: Learn how to use functional location for assets in Dynamics 365 Field Service.
-ms.date: 01/17/2023
-ms.reviewer: mhart
-ms.topic: how-to
-ms.custom: bap-template
+title: Create functional locations in Field Service (contains video)
+description: Learn how to create and use functional locations for assets in Dynamics 365 Field Service.
+ms.date: 01/24/2023
 author: jshotts
 ms.author: jasonshotts
 manager: shellyha
+ms.reviewer: mhart
+ms.topic: how-to
+ms.custom: bap-template
+ms.service: dynamics-365-field-service
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Functional location in Dynamics 365 Field Service
+# Create functional locations in Field Service
 
-Field service organizations often work for customers that have large or complex worksites. For example, a warehouse or a multi-story office building. It's important that a technician knows exactly where they need to go to perform their work.
+Field service organizations often work with customers that have large or complex worksites like a warehouse or a multi-story office building. Technicians can't waste time looking for a worksite. They need to know exactly where to go to perform their work. That's the purpose of the functional location on a work order.
 
-Functional locations in Field Service allow granular locations and can represent hierarchical relationships. For example, a printer on the third floor in building A on a customer's campus would be represented as the following nested relationship:
+In Field Service, functional locations allow you to specify granular, hierarchical worksites. For example, the following relationship represents the location of a printer named "Acct-10" on the third floor in Building A on a customer's campus:
 
 - Campus
   - Building A
     - Floor 3
-      - Printer
+      - Printer Acct-10
 
 In this article, we'll look at how to define functional locations and relationships in Field Service.
 
 ## Prerequisites
 
-- Field Service v8.8.x.
-- [Service accounts created](accounts.md).
+- Field Service v8.8.x or later
+- [Service accounts are created](accounts.md)
 
 ## Create functional locations
 
-Let's create a functional location on a service account.
+1. In Field Service, select the **Service** area. Under **Customers**, select **Accounts**, and then open a service account record.
 
-1. In Field Service, change to the **Service** area.
+1. Select the **Assets and Locations** tab.
 
-1. Go to **Customers** > **Accounts** and open a service account record.
+1. Select the ellipsis (**&hellip;**), and then select **New location**.
 
-1. Go to the **Assets and Locations** tab, select the ellipsis (...) and select **New location**.
+   :::image type="content" source="media/assets-functional-location-new-location.png" alt-text="Screenshot of the Quick Create: Functional Location pane on an account record, with the ellipsis menu highlighted.":::
 
-   :::image type="content" source="media/assets-functional-location-new-location.png" alt-text="Screenshot of the assets and locations tab on an account record.":::
+1. Enter a **Name** and **Service Address**.
 
-1. Provide a **Name** and other information if needed. Then, **Save** the record.
+1. (Optional) If this location is part of a hierarchy, enter its **Parent Functional Location**.
 
-The new location appears in the list, where you can drag it around and nest it as needed.
+    You can skip this step and drag the location into its place in an existing hierarchy later.
 
-In our example, we've created "Building A Roof" as a location under "Building A," which is located on the Bellows College Campus. The following screenshot shows this relationship in the list of functional locations on the service account.
+1. Select **Save**.
 
-:::image type="content" source="media/assets-functional-location-tree.png" alt-text="Screenshot of the assets and locations on a service account.":::
+The new location appears in the list. You can drag it into an existing hierarchy as needed.
 
-Select any location in the list for more details, such as latitude and longitude.
+- You can't drag a subcomponent of an asset to a functional location that's different from the parent asset's functional location. A hard drive and the computer it's part of can't be located in different places.
+- If you drag a subcomponent under a new parent with a different functional location, the new parent's functional location replaces the asset's original functional location. If you move a display from a computer in Building A to a computer in Building B, the display takes the location of the computer in Building B.
 
-## Create or add assets to the functional location tree
+Select a location in the list to view information about it.
 
-Often, technicians must perform their work on a [customer asset](assets.md), at a specific location.
+## Add assets to a functional location
 
-Assets can also be associated directly to a functional location, which helps technicians to find them and perform their work.
+[Customer assets](assets.md) can be associated with a functional location to help field technicians find them.
 
-From the service account's **Assets and Locations** section, select the **Show Assets** option to see a list of associated assets. Multiple accounts can be associated to a functional location tree.
+In the **Assets and Locations** tab, select **Show assets** to view the list of assets that are associated with each location. Multiple accounts can be associated with a functional location hierarchy.
 
-To add a new asset, select the ellipses (...), and select **New asset** or **Add existing asset**.
+1. Select a functional location, and then select the ellipsis (**&hellip;**).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the option to add a new asset or add an existing asset.](./media/assets-functional-location-tree-edit.png)
+    :::image type="content" source="media/assets-functional-location-tree-edit.png" alt-text="Screenshot of options for adding a new or existing asset to a functional location.":::
 
-> [!TIP]
-> When nesting assets, you can't drag a sub asset to a functional location different from the parent asset's functional location.
-> When dragging an sub asset under a new parent with a different functional location, the asset's functional location will be cleared, and the new parent's functional location will be used instead.
+1. Add a customer asset to the location:
 
-### Search the functional location tree
+    - To associate an existing customer asset with the location, select **Add existing asset**. Search for and select the asset. If the asset doesn't exist yet, select **New Customer Asset** to create it and add it to the location.
 
-Use the search bar to search for functional locations and associated assets. Select the **Show Assets** box to include assets in search. Matching search results are highlighted.
+        :::image type="content" source="media/assets-functional-location-existing-asset.png" alt-text="Screenshot of the Quick Create: Customer Asset pane on an account record.":::
 
-For larger or more complex trees, you can also expand or collapse all the results by using the **Plus** and **Minus** icons at the top of the tree.
+    - To create a customer asset and then associate it with the location, select **New asset**.
 
-For a guided walkthrough, check out the following video.
+        :::image type="content" source="media/assets-functional-location-new-asset.png" alt-text="Screenshot of the Quick Create: Customer Asset pane on an account record.":::
+
+### Search for a functional location
+
+Use the search box to look for a functional location. To search for assets and locations, select **Show assets**. Matching search results are highlighted.
+
+For larger or more complex hierarchies, expand or collapse the results by using the **Expand all** (**&plus;**) and **Collapse all** (**&minus;**) icons.
+
+:::image type="content" source="media/assets-functional-location-search.png" alt-text="Screenshot of the results of a functional location search, with the Expand all and Collapse all icons highlighted.":::
+
+Watch the following video to learn more about searching functional locations and assets.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOjSM]
 
-## Functional location for work orders
+## Add a functional location to a work order
 
-Once defined, functional locations help flesh out [work order details](create-work-order.md), once again making it easier for technicians to see where they must perform their work.
+Associate a functional location with a [work order](create-work-order.md) to make it easier for field technicians to find a customer asset to work on.
 
-Functional locations can be associated directly to the work order.
+:::image type="content" source="media/assets-functional-location-work-order.png" alt-text="Screenshot of the functional location field on a work order.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the functional location field on a work order.](./media/assets-functional-location-work-order.png)
+If you select a functional location, the work order's **Location** tab displays the location's address and latitude and longitude coordinates.
 
-Once the functional location is selected, more detailed information appears in the **Location** tab of the work order.
+### Add multiple functional locations to a work order
 
-### Add multiple functional locations to a single work order
+The **Functional Location** on the work order reflects the location of the primary incident. If more work needs to be done, add incidents to the work order. If some or all of that work involves assets at a different location from the primary incident, you can select a different functional location for each work order incident.
 
-Use more work order incidents to define work that needs to be done in addition to the primary work order incident.
+For example, a technician needs to go to two different buildings to perform maintenance on a customer's HVAC system. The work order would include two incidents, each with its respective functional location.
 
-For each work order incident, you can define a functional location in scenarios where they must be completed at a different location than the one defined on the work order.
+:::image type="content" source="media/assets-functional-location-work-order-new-incident1.png" alt-text="Screenshot of a work order with related incidents.":::
 
-For example, a technician needs to go to three different buildings to perform different tasks. In this scenario, add three work order incidents, each with the respective functional location, to a work order.
+## Functional locations in the mobile app
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a work order with related incidents.](./media/assets-functional-location-work-order-new-incident1.png)
+Technicians can view the functional location of a work order in the Dynamics 365 Field Service Mobile app. If the app is connected to the Internet, they can also view and interact with customer asset and functional location hierarchies.
 
-> [!NOTE]
-> The work order address only reflects the functional location on the work order and on the primary incident type, not the location of the additional incident types.
+:::image type="content" source="media/mobile-2020-functional-location-hierarchy-combined.png" alt-text="Simulated screenshots of the Field Service Mobile app, showing asset hierarchies and functional locations.":::
 
-## Functional locations on the mobile app
+The following video offers a guided walk-through of using functional locations in the Field Service Mobile app.
 
-Technicians can see the functional location of a work order on the Dynamics 365 Field Service mobile app. They can also view and interact with functional location and customer asset hierarchies on the mobile app.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]<!-- EDITOR'S NOTE: I'm not sure why, but the video doesn't appear when I preview the article. -->
 
-> [!div class="mx-imgBorder"]
-> ![Device renders with the Field Service mobile app, showing asset hierarchies and functional locations.](./media/mobile-2020-functional-location-hierarchy-combined.png)
+## Functional locations for cases
 
-> [!NOTE]
-> Internet connectivity is required to view and interact with functional location and customer asset hierarchy trees on the Field Service mobile app.
+If your organization's service workflow starts with a **Case**, you can associate functional locations there as well, in the case record's **Field Service** tab.
 
-For a guided walkthrough of functional locations on the Field Service mobile app, check out the following video.
+:::image type="content" source="media/assets-functional-location-case.png" alt-text="Screenshot of the Field Service tab kn a case.":::
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
+## Functional locations for service agreements
 
-## Functional location for cases
+1. Open an agreement. Under **Booking Setup**, select or [create an agreement booking setup](set-up-customer-agreements.md).
 
-In cases where organizations start with a **Case** in their workflow, functional locations can be associated there as well.
+1. Under **Incidents**, select or create an agreement booking incident, and then select a functional location.
 
-On a case record, go to the Field Service section, and associate a functional location there.
+    :::image type="content" source="media/assets-functional-location-agreement-incident.png" alt-text="Screenshot of an agreement booking incident, with the functional location highlighted.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service tab on a case.](./media/assets-functional-location-case.png)
+## Functional locations in customized solutions
 
-## Functional location for agreements
+If your organization uses [customized forms in Field Service](field-service-customize-forms.md), you'll need to add the **Functional Location** entity to them.
 
-To use functional locations on an agreement, open an agreement. Go to **Agreement Booking Setup**, and then **Agreement Booking Incident**, where you can associate a functional location.
+1. In the app designer, add the **Functional Location** entity in **Add** > **Entities**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an agreement booking incident.](./media/assets-functional-location-agreement-incident.png)
+1. Select form components of functional location entity, uncheck **All** and select only quick create form for functional location.
 
-### Configuration considerations for customized solutions
+1. Publish the app and verify that functional location form will open quick create form in the tree view control.
 
-1. Open any custom app designer where this issue is seen.
-2. Add functional location entity to the app from **Add** > **Entities**.
-3. Select form components of functional location entity, uncheck **All** and select only quick create form for functional location.
-4. Publish the app and verify that functional location form will open quick create form in the tree view control.
-5. Newly created functional locations should appear in tree view control.
+1. Newly created functional locations should appear in tree view control.
+<!-- EDITOR'S NOTE: These instructions aren't at all clear to me. I tried to follow them in app designer for the Field Service app and got nowhere. Please clarify and consider adding a screenshot for context. Thanks! -->
 
-## Next steps
+### See also
 
 - [Create assets in Dynamics 365 Field Service](assets.md)
 - [Create a work order to coordinate and schedule resources and activities](create-work-order.md)

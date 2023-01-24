@@ -1,13 +1,14 @@
 ---
 title: Create and manage accounts in Dynamics 365 Field Service
 description: Learn how to create and use service account and billing accounts in Dynamics 365 Field Service.
-ms.date: 01/18/2023
-ms.reviewer: mhart
-ms.topic: how-to
-ms.custom: bap-template
+ms.date: 01/24/2023
 author: jshotts
 ms.author: jasonshotts
 manager: shellyha
+ms.reviewer: mhart
+ms.topic: how-to
+ms.custom: bap-template
+ms.service: dynamics-365-field-service
 search.app: 
   - D365CE
   - D365FS
@@ -15,101 +16,58 @@ search.app:
 
 # Create and manage accounts in Dynamics 365 Field Service
 
-An account represents a customer that receives service from a field service organization. Accounts are a fundamental entity in Dynamics 365 Field Service and they're used in several areas of the application.
-
-There are two main types of accounts:
+An account represents a customer that receives service from a field service organization. There are two main types of accounts:
 
 - **Service account** is the account that receives the on-site service by a field technician.
 
 - **Billing account** represents the account that receives invoices for the work provided. Usually, it's a shared account for multiple service accounts that belong to a central organization.
 
-Example: Multiple vineyards are owned by a wine producer corporation. Every vineyard is a service account that share the corporation as a billing account.
-
-:::image type="content" source="media/service-account-overview.png" alt-text="Screenshot of an account summary.":::
+For example, a wine producer corporation owns several vineyards. Each vineyard is a service account. The corporation is the billing account.
 
 ## Create a service account
 
-In this section, we'll create a service account with a geocoded address that represents a specific customer location where work orders will be performed.
+1. In Field Service, select the **Service** area. Under **Customers**, select **Accounts**, and then select **New**.
 
-1. In Field Service, open the **Service** area.
+1. Enter the **Account Name** and **Service Address**.
 
-1. Go to **Customers** > **Accounts** and select **+New**.
+1. Select **Geo Code** at the top of the form to get the latitude and longitude of the service address, and then select **OK**.
 
-1. Enter an **Account name** and a **Service address**.
+    You can also [turn on auto-geocoding](turn-on-auto-geocoding.md) to automatically get the coordinates of a service address.
 
-1. Select **Geo Code** at the top of the form. You can also [enable the auto-geocoding setting](turn-on-auto-geocoding.md).
+1. (Optional) Enter as much of the information in the **Summary** tab as you like.
 
-1. Select **Save** to create the account record.
+    Adding or updating an account's summary information won't update existing work orders, but will be reflected in future work orders.
 
-You can add more details and information to the account form as listed in the sections below. Updating values won't update existing work orders, only future work orders.
+1. (Optional) Select the **Details** tab and enter the account's company profile information, contact preferences, and billing and shipping defaults.
 
-## Add account information
+1. (Optional) Select the **Service** tab and enter accounting and service defaults for work orders associated with the account.
 
-On the **Summary** section, you can provide additional information about the account. These fields are optional.
+    - **Billing Account**: Sets the billing account on the work order when this account is selected as the service account. If no billing account is specified, the service account acts as both the service account and the billing account.
 
-- **Phone**
+    - **Product Price List**: Sets the [price list](create-price-list.md) for this account. If a billing account is specified, work orders use the price list in the billing account record. If the selected price list doesn't contain products or services, the list price on the product record is used.
 
-- **Fax**
+    - **Tax Exempt**: Determines whether sales tax is added to the price of work orders. Set to **Yes** to *not* add sales tax. Set to **No** to [specify a sales tax code](set-up-tax-codes.md) for the work order price and invoice.
 
-- **Website**
+    - **Service Territory**: [Territories for accounts, work orders, and resources](set-up-territories.md) are geographical regions, which are used in work orders and resource scheduling.
 
-- **Parent Account**: For larger organizations, you can define parent/child relations between accounts that define the organization hierarchy.
+    - **Travel Charge Type**: Determines pricing and billing for [travel cost charged for a field technician](travel-charges.md) as a work order product.
 
-- **Ticker Symbol**: Stock ticker symbol of the company if it's publicly listed.
+    - **Hourly**: A quantity that represents the **Actual Travel Duration** on the booking for a work order for every 60 minutes. For example, if the unit amount price of the travel charge is `60` and the actual travel duration is 30 minutes, the travel charge work order product will be priced as $30.
 
-## Add contacts for an account
+    - **Mileage**: A quantity that represents the **Miles Traveled** on the booking for a work order. For example, if the unit amount price of the travel charge is `1` and the miles traveled is 20, the travel charge work order product will be priced as $20.
 
-Contacts are individuals that are related to an account. You can add contacts on the **Summary** section.
+    - **Fixed**: This quantity is `1`. For example, if the unit amount price of the **Travel Charge** is `50`, the travel charge work order product will be priced as $50, regardless of the distance or the travel time.
 
-- **Primary Contact**: The individual that is your main point of contact for an account.
+    - **None**: No travel charge will be added to the work order.
 
-- **Contacts**: Create more contacts or add an existing contact as a reference to the account form.
+    - **Work Hour Template**: Work template to use for this account.
 
-## Specify details for an account
+    - **Work Order Instructions**: A text note that populates the **Instructions** field on work orders. Use this note to help technicians follow processes specific to this account.
 
-The **Details** section lets you add more information and preferences to the account record.
-
-- **Company Profile**: Information about the industry and ownership structure of the account.
-
-- **Description**: Text description of the account.
-
-- **Contact Preferences**: Preferred contact method and which contact methods are allowed. This section also lets you defined the primary time zone to ensure you schedule calls and work order at the right time.
-
-- **Billing**: Default billing options for the account.
-
-- **Shipping**: Default shipping method and terms.
-
-## Configure additional details for an account
-
-### Servicing
-
-The **Servicing** section of the account form lists details to provide services to the account and the work orders that are associated to it.
-
-### Accounting
-
-- **Billing Account**: Sets the billing account field on the work order when this account is selected as the service account. If no billing account is selected, the service account acts as both the service account and the billing account.
-
-- **Product Price List**: [Price list configuration](create-price-list.md) for this account. If a billing account is selected, the price list on the billing account record will be used. If products or services aren't listed on the selected price list, the list price on the product record is used.
-
-- **Tax Exempt**: Defines if sales tax gets added to the price of related work orders. Set to **Yes** to *not* add sales tax. Set to **No** to [specify a sales tax code](set-up-tax-codes.md) for the work order price and invoice.
-
-### Service
-
-- **Service Territory**: [Territories for accounts, work orders, and resources](set-up-territories.md) are geographical regions, which are used in work orders and resource scheduling.
-
-- **Travel Charge Type**: Defines pricing and billing for [travel cost charged for a field technician](travel-charges.md) as a work order product.
-
-  - **Hourly:** Quantity is the **Actual Travel Duration** on the booking for a work order per 60 minutes. For example, if the unit amount price of the travel charge is set to 60 and the actual travel duration is 30 minutes. The travel charge work order product will be priced as $30.
-  - **Mileage:** Quantity is the **Miles Traveled** on the booking for a work order. For example, if the unit amount price of the travel charge is 1 and miles traveled is 20, the travel charge work order product will be priced as $20.
-  - **Fixed:** Quantity is **1**. For example, if the unit amount price of the **Travel Charge** is set to 50, the travel charge work order product will be priced as 50, regardless of distance or time spent traveling.
-  - **None:** No travel charge will be added to the work order.
-
-- **Work Hour Template**: Work template to use for this account.
-
-- **Work Order Instructions**: Text note that populates the **Instructions** field on all related work orders. Use this field to help technicians follow processes specific to this account.
+1. Select **Save**.
 
 ## Next steps
 
-- [Create a work order to coordinate and schedule resources and activities](create-work-order.md)
+[Create a work order to coordinate and schedule resources and activities](create-work-order.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
