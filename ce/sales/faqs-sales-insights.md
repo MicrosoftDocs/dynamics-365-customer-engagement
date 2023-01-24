@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions for Sales Premium"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
-ms.date: 11/04/2022
+ms.date: 01/24/2023
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -101,7 +101,7 @@ Sales Premium supports the following languages:
 | Notes analysis | English, French, German, Italian, and Dutch for machine learning models. |
 | Exchange insight cards in Assistant | Only English - United States (en-US) for machine learning models. |
 | Activity-content based Auto capture |- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
-| Conversation intelligence | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, Hebrew, Danish, Swedish, Finnish, Norwegian, and Arabic. |
+| Conversation intelligence | Go to [Languages supported for conversation intelligence](language-support-conversation-intelligence.md) |
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck).
 

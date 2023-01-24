@@ -510,6 +510,8 @@
       items:
         - name: Prerequisites to use Conversation Intelligence
           href: prereq-sales-insights-app.md
+        - name: Languages supported
+          href: language-support-conversation-intelligence.md
         - name: Configure in conversation intelligence app
           items:
             - name: First-run set up
