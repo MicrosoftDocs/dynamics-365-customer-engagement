@@ -33,7 +33,7 @@ You can:
 - Change the layout of the view to either list (grid only) or combo (grid and chart).  
 - Change the metrics displayed at the top of the view.
 
-## Personalize the metrics
+## Personalize metrics
 
 The opportunity pipeline view lists important metrics related to the sales pipeline at the top of the view. You can personalize this space to view metrics that you want to track.  
 

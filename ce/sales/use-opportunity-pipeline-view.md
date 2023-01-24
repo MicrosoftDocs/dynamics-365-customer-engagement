@@ -38,13 +38,13 @@ Watch this short video to know how the opportunity pipeline view helps sellers b
 
     :::image type="content" source="media/opportunity-pipeline-view.png" alt-text="Screenshot of the opportunity pipeline view with its components highlighted and numbered":::  
 
-    1. If you're not seeing the pipeline view, select **Show As** > **Pipeline view**. [Why can't I find the **Pipeline view** option?](faq-sales.yml#why-cant-i-find-the-pipeline-view-option)
+    If you're not seeing the pipeline view, select **Show As** > **Pipeline view**. [Why can't I find the **Pipeline view** option?](faq-sales.yml#why-cant-i-find-the-pipeline-view-option)
 
     :::image type="content" source="media/show-as-pipeline-view.png" alt-text="Screenshot of the menu option to switch to the pipeline view.":::
 
     The following table describes the different aspects of the pipeline view:  
 
-    |Number  |Feature  |Description  |
+    |Number in the screenshot  |Feature  |Description  |
     |---------|---------|---------|
     |1     |  Metrics       |View key metrics or KPIs that you want to track. You can modify the metrics in this section to meet your needs. More information: [Preview: Personalize the opportunity pipeline view](personalize-pipeline-view.md)         |
     |2     |Charts         |Get a visual representation of the pipeline. <br><br>**Bubble chart** <br> The default bubble chart displays the following values:<ul><li>**x-axis:** Displays the opportunity score if you have Sales Insights; otherwise, it displays the deal probability.</li><li>**y-axis:** Displays the close date. A smart column that displays the actual close date or estimated close date, depending on whether the opportunity is closed.</li><li>**Size of the bubble:** Displays revenue. A smart column that displays the actual revenue or estimated revenue, depending on whether the opportunity is closed. </li><li> **Color of the bubble:** Indicates opportunity grade if you have Sales Insights; otherwise, it displays the pipeline phase.</li></ul> You can ask your administrator to customize the chart if you want to see different fields. More information: [Customize the bubble chart](opportunity-pipeline-view-for-admins.md#customize-the-bubble-chart) <br><br> **Sales funnel chart** <br> The Sales funnel chart displays a funnel based on the sum of estimated revenues across different pipeline phases. You can ask your administrator to customize the chart if you want to see different fields. More information: [Customize the funnel chart](opportunity-pipeline-view-for-admins.md#customize-the-funnel-chart)</li></ul> **Note:** The funnel chart can only display up to 50,000 records. When the number of records exceed this limit, a message is displayed. You can apply filters to reduce the record size. <br><br> When you filter the records, the chart is automatically updated.|
@@ -56,5 +56,5 @@ Watch this short video to know how the opportunity pipeline view helps sellers b
 
 ### See also
 
-[Where is the deal manager workspace?](faq-sales.yml#where-is-the-deal-manager-workspace)
+[Where is the deal manager workspace?](faq-sales.yml#where-is-the-deal-manager-workspace)  
 [Preview: Personalize the opportunity pipeline view](personalize-pipeline-view.md)
