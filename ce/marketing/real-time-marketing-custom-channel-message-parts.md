@@ -1,7 +1,7 @@
 ---
 title: "Define your Message parts (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to define your message parts in the real-time marketing area of Dynamics 365 Marketing."
-ms.date: 12/12/2022
+ms.date: 01/23/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -26,7 +26,10 @@ search.app:
 If you're creating a custom channel and you want to describe the message parts that the channel operates with (for example, title, subtitle, text), then you must define records for the **Channel Message Part** entity. At least one message part is required per custom channel.  **At your solution’s import**, a new row for every message part will be created at the **msdyn_channelmessagepart** table.
 
 > [!IMPORTANT]
-> Sms channel type requires exactly one message part with name “text” as it will be used by   the default Marketing SMS editor.
+> The SMS channel type requires exactly one message part with the name “text,” which will be used by the default Marketing SMS editor.
+
+> [!IMPORTANT]
+> If you are setting up metadata records directly in the customization file, make sure that the GUIDs are defined in lowercase. 
 
 #### Message parts contract:
 
