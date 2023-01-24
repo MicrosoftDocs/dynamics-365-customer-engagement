@@ -15,7 +15,7 @@ ms.custom: bap-template
 The opportunity pipeline view (formerly known as deal manager) helps your sellers visualize opportunities in their pipeline, and prioritize and manage them effectively. More information: [Preview: Use the opportunity pipeline view](use-opportunity-pipeline-view.md)
 
 > [!NOTE]
-> This feature is only available if you've [enabled preview features](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature) in your environment.  
+> This feature is available only if you've [enabled preview features](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature) in your environment.  
 
 
 If you've previously configured the deal manager workspace, review [this FAQ](faq-sales.yml#are-there-any-differences-between-the-opportunity-pipeline-view-and-the-deal-manager-workspace) to understand what has changed.
@@ -45,14 +45,15 @@ By default, the **Read-only Grid view** is set as the default view for opportuni
 1. From the **Settings** menu, select **Customizations** > **Customize the system**.
 1. From the Power Apps Default Solution page, select **Entities** > **Opportunity**.
 1. Select the **Controls** tab and select **Pipeline view** for web, phone, and tablet. If you don't see the **Pipeline view** in the **Control** list, select **Add Control**. From the **Add Control** dialog, select **Pipeline view** and then select **Add**.
+
    :::image type="content" source="media/pipeline-set-as-default.png" alt-text="Screenshot of the Controls tab with the Pipeline view set as default for web, phone, and tablet."::: 
-    
-1. Save the changes and select **Publish**.
+
+1. Save the changes and select **Publish**.  
     The opportunities pipeline view is now set as the default view for opportunities.
 1. From the Sales Hub sitemap, select **Opportunities** to verify that the pipeline view is set as the default view.
     :::image type="content" source="media/deal-manager-overview-v1-small.png" alt-text="Screenshot of the opportunity pipeline view.":::
 
-## Customize the charts
+## Customize charts
 
 The charts in the pipeline view help sellers visualize their pipeline better. As an administrator, you can customize various elements in the bubble chart, such as the data on the x-axis and y-axis, the size and color of the bubble, the sort order for the legend, and tooltips. Similarly, you can customize elements in the funnel chart, such as the field used for segmentation, the aggregate function used, and so on.  
 
