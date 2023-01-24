@@ -86,7 +86,7 @@ sections:
           | Access control | Available for all users who have access to the Opportunities page. | Available only for security roles that were granted access to the workspace.|
           | Editable grid | Uses the Power Apps editable grid control and hence can be customized in Power Apps. | Customization was done using a javascript. |
           | Side panel | Uses the default opportunity form in the side panel . | A separate form known as **In Context View** form was used in the side panel with limited customizations. | 
-      - question: Why can't I find the **Pipeline view** option?
+      - question: Why can't I find the Pipeline view option?
         answer: |
           There are several possibilities:
             - The **Show as** option could be hidden in the three-dot menu in **Opportunities** page. 
