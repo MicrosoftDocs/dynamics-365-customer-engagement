@@ -33,7 +33,7 @@ ingestion service. The ingestion service will capture newly or updated articles 
 
 ## Provision integrated search providers
 If you are a first time user, you'll need to enable the integrated search provider provisioning from the Customer Service admin center.
-1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers**> **Manage**.
+1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers** > **Manage**.
 1. On the **Integrated search providers** page, select **Setup my space**.
 You'll see a status message, "Integrated search is provisioning. It will take few minutes to complete."
 
@@ -41,11 +41,9 @@ After the provisioning is complete, you can add an integrated search provider by
 
 ## Add integrated search providers
 
-You must add your search providers using the **Integrated search providers** option from the Customer Service admin center app.
-
-1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
 2.	In the **Integrated search providers** section, select **Manage**.
-3.	Select **New**.
+3.	Select **New**. The **Add a search provider** dialog appears.
 4.	In the **Provider info** section, do the following:
     1. **Search provider name**: Enter the name of the search provider.
     1. **Description**: Enter the description of the search provider.
@@ -55,16 +53,18 @@ You must add your search providers using the **Integrated search providers** opt
 1.	In the **Authentication and testing** section, enter the following information:
     1. **URL**: Provide the root URL of the website along with the protocol (http:// or https://)
     1. **Sitemap URL**: Provide the sitemap URL of the source website.
+    1. **Languages Allowed**: Select the languages you want to specifically include for the ingestion from the dropdown list, and then select **Reset**. By default, all languages are considered for ingestion.
     1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: Apply authentication.
     1. Select **Test connection**. You will get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
     1. Select **Next**.
-1.	In the **Knowledge article schema** section, select either the **Field mapping** or the **JSON method** option.
-    1. **Field mapping**:
-        1. Upload the article HTML file by selecting **Choose File**. You'll view all the meta tags corresponding to the html file in the **Meta tags settings** page.
+1.	In the **Knowledge article schema** section, select from either the **Field mapping** or the **JSON method** option.
+    1. If you select **Field mapping**:
+        1. Upload the article HTML file by selecting **Choose file**. You'll view all the meta tags corresponding to the html file in the **Meta tags settings** section.
         1. Select the required meta tags and then select **Next**.
-        1. On the **Knowledge article schema mapping** section, select the **Type** and **Source properties** for **Knowledge entities**. For more information on **Types**, go to xxx.
+        1. On the **Knowledge article schema mapping** section, select the **Type** and **Source properties** for the **Knowledge entities**. For more information on **Types**, go to xxx.
         1. Select **Validate mapping**.
-    2. **JSON method**:
+        1. Select **Next**.
+    2. If you select **JSON method**:
         1. Copy and paste your article properties and schema JSON in the field provided to you. More information: Develop metadata mapping schema for knowledge articles. Refer to Appendix: Sample metadata mapping template an example.
         1. Select **Validate json**. You will get a message to denote whether the JSON validation has passed or failed. In case of an error, the error message will state the parameter with the incorrect value.
         1. Select **Next**.
@@ -86,7 +86,7 @@ In case of an error, save will fail and you will see a notification. You need to
 
 After you have added the search providers, you can also make changes, if required. Perform the following steps if you want to edit search providers.
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**. The Knowledge page appears.
+1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The Knowledge page appears.
 1. In the **Integrated search providers** section, select **Manage**.
 1. Select the active or inactive search provider that you want to make changes to from the dropdown list and then select **Edit**.
 1. On the **Search provider details** page, select the specific tab where you want to make your changes and select **Save and Close** after you have made your changes.
@@ -99,7 +99,7 @@ When you deactivate a search provider, the ingestion of newly created or updated
 > If you have a custom layer on Knowledge Articles Quick find view, you will need to add msdyn_integratedsearchproviderid in View columns and Find columns for articles to stop appearing in the search results.
 
 Perform the following steps if you want to deactivate search providers.
-1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
 2. In the **Integrated search providers** section, select **Manage**.
 3. From the **Active search providers** list, select the active search provider that you want to deactivate and then select **Deactivate**.
 4. On the confirmation dialog, select **Deactivate**.
@@ -110,7 +110,7 @@ The search provider that you deactivated moves to the **Inactive search provider
 When you activate a search provider, the ingestion of newly created or updated articles from the search provider will be initiated and articles from the search provider will start appearing in the search results.
 
 Perform the following steps if you want to deactivate search providers.
-1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
 2. In the **Integrated search providers** section, select **Manage**.
 3. From the **Inactive search providers** list, select the inactive search provider that you want to
 activate and then select **Activate**.
@@ -119,6 +119,6 @@ On the confirmation dialog, select **Activate**. The search provider that you ac
 
 ## Next steps
 
-After the configuration is done, you can use the insights data to understand whether the data ingestion has been successful and the details of the ingested articles. For more information on insights, go to View and Use Insights.
+After the configuration is done, you can use the insights data to understand whether the data ingestion has been successful and the details of the ingested articles. For more information on insights, go to [View and use insights for search providers](view-and-use-insights.md).
 
 If you want to understand how your agents can view search results for your keywords across your configured search providers, go to [Search knowledge articles](search-knowledge-articles-csh.md#search-knowledge-articles).
