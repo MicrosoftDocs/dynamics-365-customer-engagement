@@ -89,7 +89,8 @@ To **delete**, select and highlight the time-off and select the delete icon.
 > ![Screenshot of the monthly view of a resource's work hours, pointing to the delete option.](./media/time-off-delete.png)
 
 > [!Note]
-> Deleting a time-off request record will not delete the time-off from the schedule board or resource's calendar.
+> - Deleting a time-off request record won't delete the time-off from the schedule board or resource's calendar.
+> - Once submitted, you can't edit a time-off from the Field Service Mobile application while it's running in offline mode. 
 
 ## Additional notes
 
