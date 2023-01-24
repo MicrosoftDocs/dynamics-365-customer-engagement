@@ -98,7 +98,7 @@ Do the following for the channel in which you want to create custom automated me
 | Out of operating hour message to customer | Message displayed to the customer outside of the business hours  | When customer initiates a conversation outside of business hours set up for the Live Chat, channel, or queue |
 | Session ended   | Message displayed to the customer when the agent ends the conversation and closes the session| When the agent ends the conversation and closes the session |
 | Transfer to agent accepted  | Message displayed to the customer when the conversation is transferred successfully | When another agent accepts the transfer request|
-|Offer customer callback |The callback message is played for the customer when the wait times are longer than expected| When the customer calls and wait time is long|
+|Offer customer callback |The callback message played for the customer when the wait times are longer than expected| When the customer calls and wait time is long|
 | Customer callback response | When the customer presses 1 on the call menu, a confirmation message is played to indicate the customer choice.| Customer presses 1 on the call menu. The response to offer customer callback message is played|
 
 ### Add custom automated messages in Omnichannel Administration
