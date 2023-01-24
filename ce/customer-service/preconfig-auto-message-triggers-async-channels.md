@@ -6,7 +6,6 @@ ms.topic: conceptual
 author: mh-jaya
 ms.author: v-jmh
 ms.custom: bap-template
-ms.service: dynamics-365
 ms.reviewer: nenellim
 ---
 # Preconfigured automated message triggers for asynchronous channels
