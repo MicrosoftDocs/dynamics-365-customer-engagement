@@ -1,16 +1,16 @@
 ---
-title: Set up and manage integrated search providers
-description: Learn how to set up, edit, deactivate, and activate integrated search providers.
+title: Provision, add, and manage integrated search providers
+description: Learn how to provision, add, and manage integrated search providers.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365 
 ms.topic: how-to
-ms.date: 01/23/2023
+ms.date: 01/24/2023
 ms.custom: bap-template
 ---
 
-# Set up and manage integrated search providers (preview)
+# Provision, add, and manage integrated search providers (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -118,5 +118,7 @@ On the confirmation dialog, select **Activate**. The search provider that you ac
 **Active search providers** list.
 
 ## Next steps
+
+After the configuration is done, you can use the insights data to understand whether the data ingestion has been successful and the details of the ingested articles. For more information on insights, go to View and Use Insights.
 
 If you want to understand how your agents can view search results for your keywords across your configured search providers, go to [Search knowledge articles](search-knowledge-articles-csh.md#search-knowledge-articles).

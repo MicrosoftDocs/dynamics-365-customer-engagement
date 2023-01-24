@@ -502,12 +502,14 @@
         href: work-knowledge-articles.md
       - name: Set up external knowledge search providers
         href: set-up-search-providers.md
-    - name: Set up integrated search provider
+    - name: Add integrated search providers
       items:
-      - name: Set up and manage integrated search providers
+      - name: Provision, add, and manage integrated search providers
         href: add-search-provider.md
       - name: Apply authentication for search providers
         href: apply-authentication-provider.md
+      - name: View and use insights for search providers
+        href: View and use insights.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
       - name: Create and manage knowledge categories
