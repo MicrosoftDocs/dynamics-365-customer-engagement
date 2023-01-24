@@ -31,13 +31,13 @@ ingestion service. The ingestion service will capture newly or updated articles 
 - You must prepare the metadata mapping schema file with your article properties to be able to validate the knowledge article schema. More information: Develop metadata mapping schema
 - If your website is registered using Azure Active Directory, you’ll need to use OAuth, and provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated from the AAD Application registration page. More information: Apply authentication
 
-## Enable integrated search providers
-If you are a first time user, you'll need to enable the integrated search provider option from the Customer Service admin center.
+## Provision integrated search providers
+If you are a first time user, you'll need to enable the integrated search provider provisioning from the Customer Service admin center.
 1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers**> **Manage**.
 1. On the **Integrated search providers** page, select **Setup my space**.
 You'll see a status message, "Integrated search is provisioning. It will take few minutes to complete."
 
-After the provisioning is complete, you can add an integrated search provider by performing the steps provided.
+After the provisioning is complete, you can add an integrated search provider by performing the steps provided below.
 
 ## Add integrated search providers
 
@@ -77,6 +77,8 @@ You must add your search providers using the **Integrated search providers** opt
 1.	In the **Summary** section, review your search provider setup and make changes, if any, to the **Search provider name**, **URL**, **Authentication type**, **Refresh frequency**, and **Lookback period**.
     1. Select **Add provider**.
     1. Select **Save and close**.
+
+Your newly added search provider will now appear on the **Knowledge > All search providers** page in the Customer Service admin center.
 
 In case of an error, save will fail and you will see a notification. You need to correct the error and try saving the search provider again.
 
