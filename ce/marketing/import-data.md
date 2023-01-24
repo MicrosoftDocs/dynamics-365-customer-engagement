@@ -197,7 +197,7 @@ You must wait for an import job to be completed before you can repair failures.
 
 ### See also
 
-[Business management settings](business-management-settings.md) 
+[Data management settings](data-management-settings.md) 
 [Export data](export-data-Word-Excel.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
