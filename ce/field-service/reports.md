@@ -92,6 +92,39 @@ Now the **Field Service - Dispatcher** can see the corresponding report.
 | India | IND |
 | Great Britain |GBR |
 
+## Data model
+
+The system uses the following list of entities to generate reports. If there is no data for any of the below entities, then the report or parts of it may show blank. If you have customized these entities or don't use the default entities, reports will show blank too.
+
+Field Service entities:
+
+- bookableresource
+- bookableresourcebooking
+- msdyn_resourcerequirement
+- territory
+- calendarrule
+- bookableresourcegroup
+- bookingstatus
+- msdyn_bookingtimestamp
+- organization
+
+Resource Scheduling Optimization entities:
+
+- resource
+- bookableresource
+- territory
+- bookableresourcebooking
+- msdyn_optimizationrequestbooking
+- msdyn_resourcerequirement
+- msdyn_priority
+- msdyn_routingoptimizationrequest
+- msdyn_routingprofileconfiguration
+- calendar
+- calendarrule
+- bookableresourcegroup
+- bookingstatus
+- organization
+
 ## Next steps
 
 - [Resource and utilization report](resource-utilization-report.md)

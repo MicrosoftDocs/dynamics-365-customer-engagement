@@ -24529,6 +24529,11 @@
       "source_path": "ce/customer-service/export-import-config-data-for-voice.md",
       "redirect_url": "migrate-config-data-for-voice-channel",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/scheduling-analytics-reports.md",
+      "redirect_url": "/dynamics365/field-service/reports",
+      "redirect_document_id": "false"
     }
   ]
 }
