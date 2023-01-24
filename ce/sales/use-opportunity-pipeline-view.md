@@ -34,15 +34,15 @@ Watch this short video to know how the opportunity pipeline view helps sellers b
 
 1. From the Sales Hub sitemap, select **Opportunities**.  
 
-    If your administrator has set the pipeline view as the default view, you'll see the pipeline view.  
+    If your administrator has set the pipeline view as the default view, you'll see the pipeline view as shown in the following screenshot:
 
-1. If you're seeing a grid view, select **Show As** > **Pipeline view**.  
+    :::image type="content" source="media/opportunity-pipeline-view.png" alt-text="Screenshot of the opportunity pipeline view with its components highlighted and numbered":::  
+
+    1. If you're not seeing the pipeline view, select **Show As** > **Pipeline view**. [Why can't I find the **Pipeline view** option?](faq-sales.yml#why-cant-i-find-the-pipeline-view-option)
+
     :::image type="content" source="media/show-as-pipeline-view.png" alt-text="Screenshot of the menu option to switch to the pipeline view.":::
 
-    The following screenshot illustrates the different aspects of the pipeline view:  
-
-    :::image type="content" source="media/opportunity-pipeline-view.png" alt-text="Screenshot of the opportunity pipeline view with its components highlighted and numbered":::
-
+    The following table describes the different aspects of the pipeline view:  
 
     |Number  |Feature  |Description  |
     |---------|---------|---------|

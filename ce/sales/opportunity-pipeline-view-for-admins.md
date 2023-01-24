@@ -14,6 +14,10 @@ ms.custom: bap-template
 
 The opportunity pipeline view (formerly known as deal manager) helps your sellers visualize opportunities in their pipeline, and prioritize and manage them effectively. More information: [Preview: Use the opportunity pipeline view](use-opportunity-pipeline-view.md)
 
+> [!NOTE]
+> This feature is only available if you've [enabled preview features](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature) in your environment.  
+
+
 If you've previously configured the deal manager workspace, review [this FAQ](faq-sales.yml#are-there-any-differences-between-the-opportunity-pipeline-view-and-the-deal-manager-workspace) to understand what has changed.
 
 
@@ -35,13 +39,14 @@ Watch this short video to know how the opportunity pipeline view helps sellers b
 ## Set pipeline view as the default opportunities view
 
 By default, the **Read-only Grid view** is set as the default view for opportunities. As an administrator, you can set the **Opportunities pipeline view** as the default, so sellers don't have to switch to it each time they access their opportunities list.  
- 
+
 1. From the Sales Hub app, select **Settings** > **Advanced Settings**.
 
 1. From the **Settings** menu, select **Customizations** > **Customize the system**.
 1. From the Power Apps Default Solution page, select **Entities** > **Opportunity**.
-1. Select the **Controls** tab and select **Pipeline view** for web, phone, and tablet.
+1. Select the **Controls** tab and select **Pipeline view** for web, phone, and tablet. If you don't see the **Pipeline view** in the **Control** list, select **Add Control**. From the **Add Control** dialog, select **Pipeline view** and then select **Add**.
    :::image type="content" source="media/pipeline-set-as-default.png" alt-text="Screenshot of the Controls tab with the Pipeline view set as default for web, phone, and tablet."::: 
+    
 1. Save the changes and select **Publish**.
     The opportunities pipeline view is now set as the default view for opportunities.
 1. From the Sales Hub sitemap, select **Opportunities** to verify that the pipeline view is set as the default view.
@@ -101,15 +106,15 @@ The charts in the pipeline view help sellers visualize their pipeline better. As
 The grid in the Opportunity pipeline view is implemented using the Power Apps editable grid control. The grid can be customized as well as personalized. As an administrator, you can customize the grid to include columns and filters that are applicable for the entire sales organization. Sellers can personalize their view to include columns and filters that they would like to view. 
 
 > [!NOTE]
-> If you have previously customized the editable grid in the deal manager using JavaScript, you will need to redo those customizations for the editable grid in the pipeline view.
+> If you have previously customized the editable grid in the deal manager using JavaScript, you will need to redo those customizations for the editable grid in the pipeline view. 
 
 To customize the editable grid, see the [Power Apps documentation](/power-apps/developer/component-framework/customize-editable-grid-control).
-
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Where is the deal manager workspace?](faq-sales.yml#where-is-the-deal-manager-workspace)
-[Preview: Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)
+[Where is the deal manager workspace?](faq-sales.yml#where-is-the-deal-manager-workspace)  
+[Preview: Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)  
+[Column-level security to control access](/power-platform/admin/field-level-security)
