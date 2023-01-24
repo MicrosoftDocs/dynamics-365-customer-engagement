@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot issues in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this topic to get information on how to resolve issues that you might face when you work with Omnichannel for Customer Service."
-ms.date: 12/27/2022
+ms.date: 01/17/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -30,7 +30,7 @@ Go to the Power Platform admin center (https://admin.powerplatform.microsoft.com
 
 The portal will reload when you change the region. After it has finished reloading, go to **Applications** > **Omnichannel for Customer Service**, and then do the provisioning steps.
 
-The provisioning application you are directed to is associated with the region you chose, and all instances located in that region are displayed as options for provisioning.
+The provisioning application you're directed to is associated with the region you chose, and all instances located in that region are displayed as options for provisioning.
 
    > [!div class=mx-imgBorder]
    > ![Manage Omnichannel environments.](media/oc-region-provision.png "Manage Omnichannel environments")
@@ -39,7 +39,7 @@ The provisioning application you are directed to is associated with the region y
 
 ### Issue
 
- When you are provisioning Omnichannel for Customer Service, the following errors are displayed:
+ When you're provisioning Omnichannel for Customer Service, the following errors are displayed:
 
 -  **Unable to perform the requested operation due to lack of permissions**, if the user is logged in as a System Administrator on a child business unit instead of the root business unit.
 - **Request validation failed. Failed to execute action in CRM for selected environment**, if the user doesn't have read privileges for System roles.
@@ -104,7 +104,7 @@ The Microsoft Teams Service and Skype Teams Calling API Service are removed from
 
 #### Add the service principal for the Permission service app
 
-After removing the expired Microsoft Teams license from the tenant, you can add the chat to the tenant again by doing the following:
+After removing the expired Microsoft Teams license from the tenant, you can add the chat to the tenant again by doing the following steps:
 
 1. Run the following commands in the PowerShell window:
 
@@ -141,11 +141,11 @@ As an agent, when you log in to the Omnichannel for Customer Service application
 
 ### Resolution
 
-When you open the Omnichannel for Customer Service application or Customer Service workspace with Omnichannel enabled, the system performs a variety of tasks including logging in to Omnichannel, preparing for notifications, and setting your presence. If the system encounters any errors while performing these operations, they are displayed on the user interface.
+When you open the Omnichannel for Customer Service application or Customer Service workspace with Omnichannel enabled, the system performs various tasks, including signing in to Omnichannel, preparing for notifications, and setting your presence. If the system encounters any errors while performing these operations, they're displayed on the user interface.
 
 If you get any of the errors listed below, check if Security Defaults is turned on. If it is turned on, the agent should have the right authentication set up. Alternatively, Security Defaults can be switched off if it is not required.
 
-To learn more about Security Defaults, see the topic [What are security defaults?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
+To learn more about Security Defaults, see [What are security defaults?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 
 If your tenant is configured with Azure Security Defaults, make sure your users have multi-factor authentication set up on their accounts. Otherwise, they might run into a single sign-on error. To learn more about Azure Security defaults, see [What are security defaults ?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
@@ -168,11 +168,28 @@ If your tenant is configured with Azure Security Defaults, make sure your users 
 
   - We couldn't get your authentication token — Your Teams subscription has expired, please contact your admin to renew it. If this continues, have your admin contact Microsoft Support with the Client Session ID:{0}. To resolve the issue, follow the steps in [Omnichannel provisioning fails due to expired Teams Service Principal](#omnichannel-provisioning-fails-due-to-expired-teams-service-principal).
 
+## Social data doesn't sync and prevents record identification for return users
+
+### Issue
+
+The data flush for the **Social Profile** entity is blocked. Customer information, including social profiles and contact details, aren't syncing properly in the environment. Data for returning customers isn't available. 
+
+### Resolution
+Ensure that the toggle for preventing social data in Dynamics is turned off. More information: [Manage feature settings](/power-platform/admin/settings-features)
+
+1. Open Power Platform admin center, and then navigate to **Environments** > [select an environment] > **Settings** > **Product** > **Features**.
+
+1. Ensure that in the Power BI **Embedded chat** settings, the toggle for the **Prevent social data in Dynamics** setting is set to **Off**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Prevent social data in Dynamics setting in Power Platform admin center.](media/social-data-setting.png "Prevent social data in Dynamics")
+ 
+
 ## Error occurs when I try to create a chat widget or social channel <a name="chat-widget"></a>
 
 ### Issue
 
-Omnichannel solutions are installed in your environment when you receive a new trial organization. However, when you try to create a chat widget, Facebook page, or social channel in the Omnichannel Administration app, error messages similar to the following might be displayed:
+Omnichannel solutions are installed in your environment when you receive a new trial organization. However, when you try to create a chat widget, Facebook page, or social channel in the Omnichannel Administration app, error messages similar to the following messsages might be displayed:
 
 - An error occurred in the PreLiveChatConfigCreatePlugin plug-in.
 - An error occurred in the PostOperationFacebookCreatePlugin plug-in.
@@ -214,7 +231,7 @@ To configure ending a bot conversation, perform the following steps:
 
 1. In Power Virtual Agents, for the selected bot, configure a new topic.
 2. Select **Go to authoring canvas**, and in **Add node**, select **Call an action**, and then select **Create a flow**.
-3. On the Power Automate window that opens on a new tab, do the following:
+3. On the Power Automate window that opens on a new tab, do the following steps:
    1. In the **Return value(s) to Power Virtual Agents** box, select **Add an input**, and then select **Yes/No**.
    2. In the **Enter title** box, enter CloseOmnichannelConversation, which is the Omnichannel for Customer Service context variable name.
    3. In the **Enter a value to respond** box, select the **Expression** tab, and then enter **bool(true)** to build the expression, and select **OK**.
@@ -232,13 +249,13 @@ Additionally, you can configure automated messages in Omnichannel for Customer S
 
 ### Issue
 
-An error message  similar to the following is displayed on the Power Virtual Agents dashboard when you are configuring the hand-off between Power Virtual Agents bot and the Omnichannel voice workstream:
+An error message  similar to the following message is displayed on the Power Virtual Agents dashboard when you're configuring the handoff between Power Virtual Agents bot and the Omnichannel voice workstream:
 
 "Your bot doesn't have access to all the required variables and actions. Ask your admin about installing the Omnichannel package or follow this step-by-step walkthrough".
 
 ### Resolution
 
-If the following extension aren't installed, you'll see a message that your bot doesn't have access to the variables or actions it needs. These extensions provide out-of-the-box actions or variables in the Power Virtual Agents authoring canvas that make the authoring experience easier for the bot author.
+If the following extensions aren't installed, you'll see a message that your bot doesn't have access to the variables or actions it needs. These extensions provide out-of-the-box actions or variables in the Power Virtual Agents authoring canvas that make the authoring experience easier for the bot author.
 
    - [Power Virtual Agents telephony extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.mspva_telephony_extension)
    - [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension)
@@ -250,7 +267,7 @@ If the following extension aren't installed, you'll see a message that your bot 
 
 ### Issue
 
-Chat icon doesn't load on the portal. The chat icon URL which was configured as default doesn't load.
+Chat icon doesn't load on the portal. The chat icon URL that was configured as default doesn't load.
 
 ### Resolution
 
@@ -260,7 +277,7 @@ You can use an icon of your choice by specifying the link of the icon in the **C
 
 ### Issue
 
-A message stating **Sorry, we're not able to serve you at the moment** is shown to the customers when they start a chart on the portal. The possible issues might be one of the following:
+A message stating **Sorry, we're not able to serve you at the moment** is shown to the customers when they start a chart on the portal. The possible issues might be one of the following scenarios:
 
 - Agents not configured in the queue.
 - Allowed Presence is not updated in the work stream: The default work streams that are shipped out-of-the-box, does not have **Allowed Presence** values in the work stream.
@@ -270,7 +287,7 @@ A message stating **Sorry, we're not able to serve you at the moment** is shown 
 
 ### Resolution
 
-As an administrator, make sure of the following:
+As an administrator, make sure of the following details:
 
 - Check that agents have been added to the queues. For information on adding agents to queues, see [Create queues in Omnichannel admin center](queues-omnichannel.md#create-a-queue-for-unified-routing)
 
@@ -291,7 +308,7 @@ The Location option for the chat widget might be configured incorrectly.
 
 Delete the location in **Widget location**, and then recreate it.
 
-To delete and add **Widget location** for the chat widget, do the following:
+To delete and add **Widget location** for the chat widget, do the following steps:
 
 1. Sign in to the **Omnichannel Administration** app.
 2. Go to **Administration** > **Chat**.
@@ -300,7 +317,7 @@ To delete and add **Widget location** for the chat widget, do the following:
 5. Select a record in the **Widget Location** section, and then select **Delete**.
 6. Select **Save**.
 7. Select **Add** in the **Widget Location** section to add a record. The quick create pane of the chat widget location appears.
-8. Specify the following.
+8. Specify the following details.
 
    | Field | Value |
    |---------------------------|-----------------------------------------|
@@ -322,14 +339,14 @@ Alternatively, try removing the chat widget location.
 
 ### Resolution 3: Clear portal cache
 
-Clear the portal cache by doing the following:
+Clear the portal cache by doing the following steps:
 
 1. Go to your portal and sign in as a portal administrator.
 
     > [!div class="mx-imgBorder"]
     > ![Portal administrator sign-in.](media/chat-portal-sign-in-admin.png "Portal administrator sign-in")
 
-2. Add the following to the end of your portal URL:
+2. Add the following text to the end of your portal URL:
 
       /_services/about
 
@@ -348,7 +365,7 @@ Clear the portal cache by doing the following:
 
 ### Resolution 4: Sync portal configurations
 
-To sync portal configurations, do the following: 
+To sync portal configurations, do the following steps: 
 
 1. Go to [https://make.powerapps.com](https://make.powerapps.com).
 
@@ -364,7 +381,7 @@ To sync portal configurations, do the following:
 
 ### Resolution 5: Restart portal
 
-Restart the portal by doing the following:
+Restart the portal by doing the following steps:
 
 1. Go to [https://make.powerapps.com](https://make.powerapps.com).
 
@@ -440,7 +457,7 @@ The issue might happen due to the following reasons:
 
 ### Resolution
 
-Perform the following:
+Perform the following steps:
 
 - Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. To learn more, see [Provide data access consent](omnichannel-provision-license.md#provide-data-access-consent).
 - Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](add-users-assign-roles.md#understand-roles-and-their-privileges). 
@@ -457,7 +474,7 @@ After you sign in to the Unified Service Desk client application, you see the fo
    > [!div class=mx-imgBorder]
    > ![Unified Service Desk application error.](media/usd-communication-panel-error.png "Unified Service Desk application error")
 
-While signing in to Unified Service Desk you must enter the Customer Service app credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Dataverse server.
+While signing in to Unified Service Desk, you must enter the Customer Service app credentials to sign in, and then again, you're shown a dialog to enter credentials to connect to Dataverse server.
 When you enter different credentials, this issue occurs. 
 
 ### Resolution
@@ -517,7 +534,7 @@ The issue might happen due to the following reasons:
 
 ### Resolution
 
-Perform the following:
+Perform the following steps:
 
 - Ensure that cookies are not blocked in the browser in any mode so that agent and supervisor presence can work properly.
 - Contact your administrator to verify Azure Active Directory consent has been given to the Omnichannel for Customer Service application on your tenant. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
@@ -553,7 +570,7 @@ To delete the solutions, follow these steps:
 
 1. Sign in to the Dynamics 365 instance.
 2. Choose **Settings** > **Solutions** on the nav bar.
-3. Select one of the solutions on the **Solutions** page by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
+3. Select one of the solutions on the **Solutions** page by selecting the check box, and then choose **Delete**. You're prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
    - USDISHCustomization or USDWebClientCustomization (one of these solutions would be present depending on the org template)
    - USDUnifiedInterfaceCustomization
    - DynamicsUnifiedServiceDesk
@@ -615,7 +632,7 @@ The issue occurs when you rename the org URL but don’t update the channel URL 
 4. Select the administrator app (either Customer Service workspace or Customer Service admin center), and then select **Channel provider**.
    The Active Channel Providers list is displayed.
 
-5. Do the following:
+5. Do the following steps:
     - Make sure that the omnichannel channel provider record is listed and is in the active state. 
      If the omnichannel record is not active, select the record, and then select **Activate** on the menu bar.
     - On the **General** tab of the omnichannel record, make sure that the **Channel URL** field includes the org information as shown in the following example: <br>
