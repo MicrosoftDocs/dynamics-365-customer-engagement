@@ -10,7 +10,7 @@ ms.date: 01/24/2023
 ms.custom: bap-template 
 ---
 
-# View and use insights for search providers
+# View and use insights for search providers (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]

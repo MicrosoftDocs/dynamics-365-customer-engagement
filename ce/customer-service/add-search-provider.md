@@ -69,10 +69,12 @@ After the provisioning is complete, you can add an integrated search provider by
         1. Select **Validate json**. You will get a message to denote whether the JSON validation has passed or failed. In case of an error, the error message will state the parameter with the incorrect value.
         1. Select **Next**.
 1.	In the **Refresh Schedule** section, specify the refresh intervals:
-    1. **Refresh frequency**: Select between **15 mnts** and **7 days** from the dropdown. Your selection specifies the frequency at which newly created or updated articles will be ingested from the external search provider.
-    1. **Lookback period**: Select between 2hrs and 8hrs from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during syncing and ingestion.
+    1. **Refresh frequency**: 
+        1. Select between **15 mnts** to **7 days** from the dropdown list. Your selection specifies the frequency at which newly created or updated articles will be ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
+    1. **Lookback period**: 
+        1. Select between **2hrs** to **8hrs** from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during syncing and ingestion.
         
-        For example, if you set the **Refresh frequency** at 15mnts and **Lookback period** at 2hrs, your data will be refreshed for the last 2hrs and 15mnts, in every 15mnts.
+            For example, if you set the **Refresh frequency** at 15mnts and **Lookback period** at 2hrs, your data will be refreshed for the last 2hrs and 15mnts, in every 15mnts.
         1. Select **Next**.
 1.	In the **Summary** section, review your search provider setup and make changes, if any, to the **Search provider name**, **URL**, **Authentication type**, **Refresh frequency**, and **Lookback period**.
     1. Select **Add provider**.
