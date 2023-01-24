@@ -70,9 +70,9 @@ Conversation intelligence can detect and tag short duration calls for the follow
 - Short calls with reschedule requests
 - Short calls in which the contact indicates the call is unwanted
 
-If the tag is inappropriate, you can delete it. 
+If the tag is inappropriate, you can delete it.  
 
-Your administrator must enable the **Call categorization (preview)** feature for the system to tag short duration calls. You can also view these tags in the **Recent conversations** list in the [Conversation intelligence app](https://sales.ai.dynamics.com/). 
+Your administrator must [enable the **Call categorization (preview)**](fre-setup-ci-sales-app.md#configure-microsoft-teams-call-recording) feature for the system to tag short duration calls. You can also view these tags in the [Conversation intelligence app](https://sales.ai.dynamics.com/) under **Seller Details** > **Call History** section. For more information, see [View a seller’s performance to identify best practices and coaching opportunities](conversation-intelligence-seller-details.md).  
 
 
 #### Notes tab

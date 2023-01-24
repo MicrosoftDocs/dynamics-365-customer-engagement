@@ -104,7 +104,10 @@ Before you configure Teams with conversation intelligence, you must enable the T
   
     Under **Call categorization (preview)**, select the type of calls you want the system to detect and tag. If you have chosen **Automatic recording** to record all customer calls, this feature helps your sellers to quickly identify blank or empty calls and ignore them. More information: [Tagging short duration calls (Preview)](view-and-understand-call-summary-sales-app.md#tagging-short-duration-calls-preview)
 
-10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
+    :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features":::
+
+10.	Select **Publish**.  
+    In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
 
 Teams call recording with conversation intelligence is now configured and ready for use in your organization.  
 
