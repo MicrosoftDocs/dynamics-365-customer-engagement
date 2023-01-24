@@ -77,8 +77,6 @@ Depending on the license you have, select one of the following tabs for more inf
 
 For more information on creating forms, see [Create and design model-driven app forms](/powerapps/maker/model-driven-apps/create-design-forms).
 
-To add column-level security, see [Column-level security to control access](/power-platform/admin/field-level-security).
-
 To set a form as the default form in the app, see [Why isn't my form displayed as the default form in the app?](/powerapps/maker/model-driven-apps/create-design-forms#form-display-faq)
 
 ---
@@ -88,7 +86,7 @@ To set a form as the default form in the app, see [Why isn't my form displayed a
 ### See also
 
 [Customize views](customize-views.md)  
-[Customize business process flows](customize-business-process-flows.md)
-
+[Customize business process flows](customize-business-process-flows.md)  
+[Column-level security to control access](/power-platform/admin/field-level-security)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
