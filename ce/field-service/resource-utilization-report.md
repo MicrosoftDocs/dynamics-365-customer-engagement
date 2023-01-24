@@ -29,7 +29,10 @@ To access the report, open the **Field Service** app, change to the **Resources*
 
 All charts adapt to the filters and the formulas assume don't mention them specifically.
 
-Whenever a formula refers to the number of days, it takes several factors into account. First, the system checks how many days a booking lasted and then determines how many of these days are considered work hours. For example, work days are defined Monday to Friday and a booking starts Thursday and ends Monday. The resulting number of days will be 3.
+### Key metrics
+
+- **Number of days**: Takes several factors into account. First, the system checks how many days a booking lasted and then determines how many of these days are considered work hours. For example, work days are defined Monday to Friday and a booking starts Thursday and ends Monday. The resulting number of days will be 3.
+- **Work and travel time**: Depends on the booking status. For scheduled bookings, the estimated duration is taken into account. As soon as a technician starts working on the booking, reports consider the actual work duration.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a resource and utilization report.](./media/scheduling-analytics1.png)
