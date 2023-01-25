@@ -101,15 +101,25 @@ Before you configure Teams with conversation intelligence, you must enable the T
     > ![Enable privacy.](media/ci-admin-enable-privacy.png "Enable privacy")
 
 9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.
-  
-    Under **Call categorization (preview)**, select the type of calls you want the system to detect and tag. If you have chosen **Automatic recording** to record all customer calls, this feature helps your sellers to quickly identify blank or empty calls and ignore them. More information: [Tagging short duration calls (Preview)](view-and-understand-call-summary-sales-app.md#tagging-short-duration-calls-preview)
+      
 
-    :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features":::
 
 10.	Select **Publish**.  
     In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
 
 Teams call recording with conversation intelligence is now configured and ready for use in your organization.  
+
+## Categorize short duration calls (preview)
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+1. Follow steps 1 through 4 in the [Configure Microsoft Teams call recording](#configure-microsoft-teams-call-recording) to open the Teams call recording options.
+
+1. Go to the **New and upcoming features** section, select **Call categorization (preview)**, select the type of calls you want the system to detect and tag.  
+
+    If you have chosen **Automatic recording** to record all customer calls, this feature helps your sellers and sales managers to quickly identify blank or empty calls and ignore them. More information: [View categorization tag for short duration calls (Preview)](view-and-understand-call-summary-sales-app.md#view-categorization-tag-for-short-duration-calls-preview)
+
+    :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features":::
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 

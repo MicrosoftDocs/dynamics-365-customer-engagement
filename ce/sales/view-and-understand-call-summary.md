@@ -53,7 +53,7 @@ A call summary page includes the following sections:
 
 The **Overview** tab displays the names of the people who participated in a conversation, along with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that have been added to the conversation to improve searchability. 
 
-##### Tagging short duration calls (Preview)
+##### View categorization tag for short duration calls (Preview)
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
