@@ -4,9 +4,8 @@ description: This article discusses how to download the FetchXML query and edit 
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 01/23/2023
 ms.custom: bap-template
 ---
 

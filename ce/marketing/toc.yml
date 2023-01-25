@@ -82,8 +82,8 @@
           href: manage-excel-templates.md
         - name: Manage Word templates
           href: manage-word-templates.md
-      - name: Business management settings
-        href: business-management-settings.md
+      - name: Data management settings
+        href: data-management-settings.md
     - name: Marketing settings
       items: 
       - name: Marketing settings overview
@@ -458,8 +458,6 @@
         href: email-design.md
       - name: Add dynamic content to email messages
         href: dynamic-email-content.md
-      - name: How to use conditional content
-        href: conditional-content.md
       - name: Set the sender, receiver, language, and legal designation
         href: email-properties.md
       - name: "Preview: Use AI to kickstart email creation with content ideas"
