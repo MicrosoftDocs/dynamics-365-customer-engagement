@@ -71,7 +71,7 @@ In the **Assets and Locations** tab, select **Show assets** to view the list of 
 
     - To associate an existing customer asset with the location, select **Add existing asset**. Search for and select the asset. If the asset doesn't exist yet, select **New Customer Asset** to create it and add it to the location.
 
-        :::image type="content" source="media/assets-functional-location-existing-asset.png" alt-text="Screenshot of the Quick Create: Customer Asset pane on an account record.":::
+        :::image type="content" source="media/assets-functional-location-existing-asset.png" alt-text="Screenshot of the customer asset lookup pane on an account record.":::
 
     - To create a customer asset and then associate it with the location, select **New asset**.
 
@@ -113,7 +113,7 @@ Technicians can view the functional location of a work order in the Dynamics 365
 
 The following video offers a guided walk-through of using functional locations in the Field Service Mobile app.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]<!-- EDITOR'S NOTE: I'm not sure why, but the video doesn't appear when I preview the article. -->
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]<!-- EDITOR'S NOTE: I'm not sure why, but the video doesn't appear when I preview the article and it's causing a build warning. -->
 
 ## Functional locations for cases
 
