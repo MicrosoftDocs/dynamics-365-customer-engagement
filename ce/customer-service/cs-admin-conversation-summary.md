@@ -8,11 +8,11 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Configure and customize the customer details and recent records cards
+# Configure and customize the customer details and recent cases components on forms
 
  The **Customer360** and **Recent Records** components, when added to a form, display the customer details and related records on the corresponding application page. The **Recent Records** component is added to the Conversation form as **Recent cases** out of the box. Use **Recent Cases** to customize the related cases card that's displayed on the Customer Summary page.
 
-## Add the Customer360 and Recent Records components
+## Add the Customer360 and Recent records components
 
 Perform the following steps to add the Customer360 and Recent Records components:
 
