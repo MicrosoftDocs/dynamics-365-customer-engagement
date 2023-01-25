@@ -82,8 +82,8 @@
           href: manage-excel-templates.md
         - name: Manage Word templates
           href: manage-word-templates.md
-      - name: Business management settings
-        href: business-management-settings.md
+      - name: Data management settings
+        href: data-management-settings.md
     - name: Marketing settings
       items: 
       - name: Marketing settings overview
