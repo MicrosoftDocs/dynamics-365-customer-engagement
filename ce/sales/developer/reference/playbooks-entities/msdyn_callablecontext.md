@@ -9,7 +9,7 @@ manager: shujoshi
 ---
 # msdyn_callablecontext EntityType 
 
-As developer, use this reference information to understand the msdyn_forecastdefinition EntityType and its properties.
+As developer, use this reference information to understand the msdyn_callablecontext EntityType and its properties.
 
 ## License and role requirements
 | Requirement type | You must have |  
