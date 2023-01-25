@@ -28,7 +28,7 @@ In the following table, **Y** indicates native support and **N** indicates non-n
 | Italian       | Y         | Y         | Y   |  N  |  N  |  N  |    N    |  N |   N   |  N |
 | Japanese      | Y         | Y         | Y   |  N  |  N  |  N  |    N    |  N |   N   |  N |
 | Portuguese    | Y         | Y         | Y   |  N  |  N  |  N  |    N    |  N |   N   |  N |
-| Portuguese (Brazil)    | Y         |  N      |  N   |  N  |  N  |  N  |    N    |  N |   N   |  N |
+| Portuguese (Brazil)    | Y         | N      |  N   |  N  |  N  |  N  |    N    |  N |   N   |  N |
 | Hebrew        | Y         | Y         | Y   |  N  |  N  |  N  |    N    |  N |   N   |  N |
 | Danish        | Y         | Y         |  N   |  N  |  N  |  N  |    N    |  N |   N   |  N |
 | Swedish       | Y         | Y         |  N   |  N  |  N  |  N  |    N    |  N |   N   |  N |
