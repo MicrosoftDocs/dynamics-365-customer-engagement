@@ -688,7 +688,7 @@
         href: voice-channel-agent-experience.md
       - name: How to avoid call disconnection
         href: voice-channel-agent-experience.md#how-to-avoid-call-disconnection
-      - name: Manage the received voicemails
+      - name: Manage voicemails
         href: manage-voicemails.md
       - name: Transfer calls and consult with other users
         href: voice-channel-transfer-consult.md
