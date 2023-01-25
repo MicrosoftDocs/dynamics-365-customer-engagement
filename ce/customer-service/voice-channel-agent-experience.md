@@ -31,7 +31,8 @@ The conversation panel in the agent dashboard includes the following call contro
 - **Mute**: Mute your microphone so your voice isn't audible to the customer.
 - **Hold**: Put the customer on hold; the customer will hear the hold music. You can keep only one caller on hold at a time.
 - **Consult**: Select this option to consult with a participant. You can consult with or bring another agent or supervisor into the call. You can have a *public* consultation, where the customer is actively involved in the conversation. Or you can have a *private* consultation, where you can put the customer on hold before you talk to your peers or supervisor.
-> [!NOTE]   
+
+> [!NOTE]
 > When you initiate a consult, you are the primary agent and the new participant has a consult role. Select **Transfer** next to the participant to transfer the call to the consulting agent or supervisor. Once the call is transferred, you are the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call will end for the customer.
 
 - **Transfer**: Select this option is to transfer the call to an agent, queue, a Teams user, or an external phone number. Once you transfer the call, the agent to whom the call is transferred is the primary agent and you will no longer be on the call. 
@@ -46,17 +47,6 @@ The conversation panel in the agent dashboard includes the following call contro
 - **Link to conversation**: You can link another conversation, case, or knowledge article to the conversation.
 - **Transcription**: When the transcription and recording service is enabled by your administrator, the conversation between you and the customer is automatically transcribed in real time, which means that you as an agent don't need to take notes during the call. This feature also helps your supervisor or agent (in a call transfer) to see the call history.
 - **Sentiment analysis**: The transcript also powers *live* sentiment analysis. This means that you or your supervisor can instantly view and gauge the customer's mood and feeling via the sentiment icons.
-
-## Access and listen to voicemails (preview)
-
-> [!NOTE]
-> The voicemail feature is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
-You can access the voicemails recorded by customers on your direct inward dial number or through work items that have been routed to you in one of the following ways:
-
-- On the **Customer Service Agent Dashboard**, in **My Open Activities**, select the vertical ellipses, and then select **Other Activities** > **Voicemail (Preview)**.
-- On the **Omnichannel Agent Dashboard**, in **Open work items**, select the vertical ellipses for your number, and then select **Assign to me**.
-- If inbox is configured for you, you can view the assigned and unassigned voicemails. Go to your inbox, and select **Assigned voicemails**, and then select the voicemail that you want to hear. If you access an unassigned voicemail and then close it, you won't be able to access it again.
 
 ## Report a phone number as spam
 

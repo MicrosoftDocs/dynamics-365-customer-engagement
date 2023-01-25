@@ -1,6 +1,6 @@
 ---
-title: "Use direct callback to manage overflowing queues"
-description: "Learn how to use direct callback in the voice channel in Omnichannel for Customer Service."
+title: "Configure direct callback to manage overflowing queues"
+description: "Learn how to configure and use direct callback in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -8,17 +8,7 @@ ms.date: 10/18/2022
 ms.topic: article
 ---
 
-# Use direct callback (preview)
-
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+# Configure direct callback
 
 Direct callback enables customers to request a callback as soon as an agent is available instead of waiting on the call. You can configure the direct callback option at the queue level by using the overflow action "direct callback" for a specific queue condition. After the call reaches the number one position in the queue, the direct callback work item is assigned to the next available agent just like any regular work item that's waiting in queue. After the agent accepts the work item, a callback to the customer who requested a direct callback is automatically initiated and connected to the agent. In summary, direct callback helps provide better customer experiences by avoiding waiting in queue and helps administrators staff queues more efficiently to handle peak volume periods.
 
@@ -30,7 +20,7 @@ The following prerequisites must be met:
 - Agents must be configured for the queues. More information: [Create queues and add users](queues-omnichannel.md)
 - Unified routing must be enabled. More information: [Provision unified routing](provision-unified-routing.md)
 
-## Use direct callback to manage overflow of voice calls
+## Configure direct callback to manage overflow of voice calls
 
 The customer disconnects the call after acknowledging the message for the direct callback offer. Direct callback can be the action when the queue is in one of the following conditions:
 
@@ -68,7 +58,7 @@ The direct callback is triggered by the queue overflow conditions where the corr
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure routing for the voice channel](voice-channel-route-queues.md)  
 [Manage overflow of work items in queues](manage-overflow.md)  
-[Use voicemail](voice-channel-voicemail.md)  
+[Configure voicemail](voice-channel-voicemail.md)  
 
 
 
