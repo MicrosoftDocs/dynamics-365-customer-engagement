@@ -132,7 +132,7 @@ Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations D
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure routing for the voice channel](voice-channel-route-queues.md)  
 [Manage overflow of work items in queues](manage-overflow.md)  
-[Access voicemails](voice-channel-agent-experience.md#access-and-listen-to-voicemails)  
+[Manage voicemails](manage-voicemails.md)  
 [Configure direct callback](voice-channel-direct-callback.md)  
 [Omnichannel Voicemail dashboard](oc-voicemail-dashboard.md)  
 
