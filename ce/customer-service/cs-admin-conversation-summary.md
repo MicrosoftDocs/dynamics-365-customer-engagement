@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Configure and customize customer details and recent cases on forms
 
- The **Customer360** and **Recent Records** components, when added to a form, display the customer details and related records on the corresponding application page. The **Recent Records** component is added to the Conversation form as **Recent cases** out of the box. Use **Recent Cases** to customize the related cases card that's displayed on the Customer Summary page.
+ The **Customer360** and **Recent Records** components, when added to a form, display the customer details and related records on the corresponding application page. The **Related Cases** component is now available on the Conversation form as **Recent cases** out of the box. Use **Recent Cases** to customize the related cases card that's displayed on the Customer Summary page.
 
 ## Add the Customer360 and Recent records components
 
@@ -33,11 +33,11 @@ Perform the following steps to add the Customer360 and Recent Records components
 
 ## Customize recent cases on the Customer Summary form 
 
- Perform the following steps to customize the recent cases displayed on the Customer Summary form:
+ Perform the following steps to customize the related cases displayed on the Customer Summary form:
 
 1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables**, select **Conversation**, and then select the **Forms** area.
-1. Select the **Customer Summary** form, and then select **Recent Cases** from **Components**. Perform the following steps:
+1. On **Properties**: 
    - Specify the **Table** from which the records must be displayed. 
    - Select the **Default view** and **Default chart**. The views and charts available in the table are displayed.
    - Specify the maximum number of rows to be displayed on the card, when the card loads. The default number of rows displayed is 4.
