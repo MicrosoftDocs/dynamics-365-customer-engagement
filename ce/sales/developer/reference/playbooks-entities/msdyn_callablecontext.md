@@ -1,6 +1,6 @@
 ---
 title: "msdyn_callablecontext EntityType | MicrosoftDocs"
-description: "As developer, use this reference information to understand the msdyn_forecastdefinition EntityType and its properties."
+description: "As developer, use this reference information to understand the msdyn_callablecontext EntityType and its properties."
 ms.date: 04/08/2019
 ms.topic: article
 author: lavanyakr01
@@ -48,8 +48,8 @@ Properties represent fields of data stored in the entity. Some properties are re
 |owningbusinessunit|Owning Business Unit|Edm.Guid|Unique identifier for the business unit that owns the record.|
 |owningteam|Owning Team|Edm.Guid|Unique identifier for the team that owns the record.|
 |owninguser|Owning User|Edm.Guid|Unique identifier for the user who owns the record.|
-|statecode|Status|Edm.Int32|Status of the forecast definition|
-|statuscode|Status reason|Edm.Int32|Reason for the status of the forecast definition.|
+|statecode|Status|Edm.Int32|Status of the Playbook Callable Context|
+|statuscode|Status reason|Edm.Int32|Reason for the status of the Playbook Callable Context.|
 |timezoneruleversionnumber|Time Zone Rule Version Number|Edm.Int32|For internal use only.|
 |utcconversiontimezonecode|UTC Conversion Time Zone Code|Edm.Int32|Time zone code that was in use when the record was created.|
 |versionnumber|Version Number|Edm.Int64|Version number.|
