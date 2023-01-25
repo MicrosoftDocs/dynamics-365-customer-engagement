@@ -120,6 +120,20 @@ If you have chosen **Automatic recording** to record all customer calls, you can
     :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features":::
 
 
+### Hide personal data (preview)
+
+To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as, credit card number, expiry date, and CVV will be masked before saving a transcript.
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+1. Follow steps 1 through 4 in the [Configure Microsoft Teams call recording](#configure-microsoft-teams-call-recording) to open the Teams call recording options.
+
+1. Go to the **New and upcoming features** section, select **Hide credit card info in transcripts**.  
+
+    This option ensures that the credit card information in the transcripts of all future calls are masked and saved. Currently, the credit card number mentions in the audio are not redacted.
+
+    :::image type="content" source="media/hide-pii.png" alt-text="Screenshot of the hide personal data option."::: 
+
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
