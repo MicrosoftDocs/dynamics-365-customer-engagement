@@ -36,8 +36,8 @@ Perform the following steps to add the Customer360 and Recent Records components
  Perform the following steps to customize the recent cases displayed on the Customer Summary form:
 
 1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
-1. Select **Tables**, select Conversation, and then select the **Forms** area.
-1. Select the Customer Summary form, and then select **Recent Cases**.
+1. Select **Tables**, select **Conversation**, and then select the **Forms** area.
+1. Select the **Customer Summary** form, and then select **Recent Cases**.
 1. On the **Properties** panel: <br>
    - Specify the **Table** from which the records must be displayed. 
    - Select the **Default view** and **Default chart**. The views and charts available in the table are displayed.
