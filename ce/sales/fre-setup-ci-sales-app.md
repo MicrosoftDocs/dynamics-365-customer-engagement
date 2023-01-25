@@ -102,6 +102,9 @@ Before you configure Teams with conversation intelligence, you must enable the T
 
 9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.
 
+    - [Enable call categorization for short calls (preview)](#enable-call-categorization-for-short-calls-preview)
+    - [Hide personal data (preview)](#hide-personal-data-preview)
+
 10.	Select **Publish**.  
     In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
 
@@ -120,7 +123,7 @@ If you have chosen **Automatic recording** to record all customer calls, you can
     :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features":::
 
 
-### Hide personal data (preview)
+#### Hide personal data (preview)
 
 To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as, credit card number, expiry date, and CVV will be masked before saving a transcript.
 
