@@ -92,8 +92,8 @@ Before you configure Teams with conversation intelligence, you must enable the T
     - In the **My languages** section, add languages used by sellers during calls with customers. This selection helps ensure accurate transcription, keyword tracking, analysis, insights, and KPIs.
 
         
-    > [!div class="mx-imgBorder"]
-    > ![Configure business setting.](media/ci-admin-conversation-trackers.png "Configure business setting")
+        > [!div class="mx-imgBorder"]
+        > ![Configure business setting.](media/ci-admin-conversation-trackers.png "Configure business setting")
 
 7.	(Optional) In the **Data consent and privacy** section, you can select the checkbox to allow Microsoft to improve the quality of insights by giving read-only access to your organization's data in conversation intelligence.  
 
