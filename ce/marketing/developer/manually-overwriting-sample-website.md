@@ -1,7 +1,7 @@
 ---
 title: "Manually overwriting a sample event  website (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to manually overwrite an event management sample website."
-ms.date: 10/03/2022
+ms.date: 01/23/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

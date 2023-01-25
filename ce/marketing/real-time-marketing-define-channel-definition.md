@@ -1,7 +1,7 @@
 ---
 title: "Define your channel definition (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to define your channel definition for real-time marketing custom channels in Dynamics 365 Marketing."
-ms.date: 12/13/2022
+ms.date: 01/23/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -24,6 +24,9 @@ search.app:
 ### Why you need it:
 
 Now that you have defined all the main parts, it’s time to define your channel where you will connect all the previous pieces in one metadata file, which is a record of **Channel Definition** entity (msdyn_channeldefinition).
+
+> [!IMPORTANT]
+> If you are setting up metadata records directly in the customization file, make sure that the GUIDs are defined in lowercase. 
 
 ### Channel definition Contract:
 

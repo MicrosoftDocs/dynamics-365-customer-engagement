@@ -4,9 +4,8 @@ description: This article provides an overview of data migration in the records 
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.service: dynamics-365
 ms.topic: overview
-ms.date: 12/20/2022
+ms.date: 01/23/2023
 ms.custom: bap-template
 ---
 

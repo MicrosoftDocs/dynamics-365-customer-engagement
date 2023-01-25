@@ -1,7 +1,7 @@
 ---
 title: "Personalize content using pre-defined dynamic text (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content using pre-defined dynamic text in Dynamics 365 Marketing."
-ms.date: 12/12/2022
+ms.date: 01/09/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -170,7 +170,11 @@ The event selection step can then be completed when the message created from thi
 
 #### Limitations
 
-1. The list of tables is limited to commonly used pre-defined tables and can't be changed.
+1. The pick list can only contain 50 tables at any given time. You can, however, change the tables in the pick list. To change the pick list, select some dynamic text, expand the "Other tables (Needs record selection)" category, then select **Manage list**. Select the tables you want to add or remove, then select **Save**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Change the pick list](media/specific-record-manage-list.png "Change the pick list")
+
 1. The additional tables aren't available to define conditions for [conditional content](conditional-content.md) or [journey conditions](real-time-marketing-tile-reference.md#attribute-branch).
 
 > [!TIP]
