@@ -1,7 +1,7 @@
 ---
 title: "Customer support swarming for agents | MicrosoftDocs"
 description: "Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service."
-ms.date: 12/28/2022
+ms.date: 01/24/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -147,6 +147,10 @@ When a swarm has completed, you can close it by completing the following steps:
 1. Select **Resolve swarm**.
 
 After the swarm is resolved, a Dynamics 365 bot posts to the Teams chat to indicate that the swarm has been resolved with a link to the swarm details in Dynamics 365.
+
+  > [!div class="mx-imgBorder"] 
+  > ![View of bot-posted resolved swarm status message.](media/swarm-bot-resolved-status.png "Resolved swarm status message")
+   
 
 ### Reactivate a swarm
 
