@@ -63,9 +63,9 @@ Yes. See the following resources:
 
 After moving on to the new Field Service Mobile application, you can remove the following solutions related to the Xamarin application.
 
-1. Woodford | Resco MobileCRM Woodford
+1. msdyn_GeofenceAlerts
 2. msdyn_FSMNotifications
-3. msdyn_GeofenceAlerts
+3. Woodford | Resco MobileCRM Woodford
 
 Remove the solutions in listed order to properly remove dependencies.
 
