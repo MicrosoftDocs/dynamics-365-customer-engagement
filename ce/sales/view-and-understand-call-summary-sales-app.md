@@ -72,7 +72,7 @@ Conversation intelligence can detect and tag short duration calls for the follow
 
 If the tag is inappropriate, you can delete it.  
 
-Your administrator must [enable the **Call categorization (preview)**](fre-setup-ci-sales-app.md#configure-microsoft-teams-call-recording) feature for the system to tag short duration calls. You can also view these tags in the [Conversation intelligence app](https://sales.ai.dynamics.com/) under **Seller Details** > **Call History** section. For more information, see [View a seller’s performance to identify best practices and coaching opportunities](conversation-intelligence-seller-details.md).  
+Your administrator must [enable the **Call categorization (preview)**](fre-setup-ci-sales-app.md#enable-call-categorization-for-short-calls-preview) feature for the system to tag short duration calls. You can also view these tags in the [Conversation intelligence app](https://sales.ai.dynamics.com/) under **Seller Details** > **Call History** section. For more information, see [View a seller’s performance to identify best practices and coaching opportunities](conversation-intelligence-seller-details.md).  
 
 
 #### Notes tab
