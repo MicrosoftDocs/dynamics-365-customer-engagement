@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: conceptual
-ms.date: 01/24/2023
+ms.date: 01/27/2023
 ms.custom: bap-template
 ---
 
@@ -46,7 +46,7 @@ We recommend that you make 500 change requests every 15 minutes for the system t
 
 For example, if you manage a contact center that has 1000 agents working in it and need to set up each agent by assigning two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4000.
 
-Based on our recommendation of 500 requests per 15 minutes, you'll need to make these requests in eight batches as follows.
+Based on our recommendation of 500 requests per 15 minutes, you'll need to make these requests in eight batches as follows. Beyond these limits, system reliability and performance might be reduced.
 
 |Change request type|Number of requests|Number of batches|
 |-----------|---------|------------|
@@ -84,19 +84,7 @@ For example, to address the following scenario in your contact center, we recomm
 - During standard operations, the team will have two subgroups, and each group will handle one type of incoming work items.
 - During peak load, certain users can handle work items from both types.
 
-### Set up single or multiple queues along with skill-matching to manage different types of work
-
-Similarly, while deciding to set up queues, you need to consider multiple factors like, line of businesses (LOBs) involved, agents alignment with those LOBs and operating hours of each LOB.
-
-The following table lists the recommendations to use according to the applicable scenario.
-
-|Scenario|Multiple queues|Match skills|
-|---------|----------|---------|
-|Agents belong to different line of businesses|Recommended| Not recommended|
-|Line of businesses with different operational hours even if agents are shared|Recommended| Not recommended|
-|Same agents overlap multiple queues with same profile| Not recommended| Recommended|
-|Gradual relaxation of assignment rules| Not available| Recommended|
-|Prioritization across multiple work types| Not available | Recommended|
+Skill-based routing can also help reduce the number of queues in your organization because a single queue can help manage a variety of work items with different skill requirements.
 
 ## Next steps
 

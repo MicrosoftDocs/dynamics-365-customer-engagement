@@ -310,7 +310,7 @@
         href: unified-routing-diagnostics.md
       - name: Manage routing diagnostics data
         href: manage-routing-diagnostics-data.md
-      - name: Guidance to set up unified routing
+      - name: Best practices to set up unified routing
         href: unified-routing-best-practices.md
     - name: Supervisor experience
       items:
