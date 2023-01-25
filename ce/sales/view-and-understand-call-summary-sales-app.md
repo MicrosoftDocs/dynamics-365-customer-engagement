@@ -154,7 +154,7 @@ If the transcript is in a language other than English (and is one of the languag
 
 - Credit card details such as credit card number, expiry date, and CVV are masked before saving a transcript, to comply with the Payment Card Industry (PCI) regulations. The details are masked only for calls that were recorded after the **Hide personal data (preview)** setting was enabled by your administrator. Currently, the credit card number mentions in the audio are not redacted.
     
- [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+    [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 ### Call playback timeline and segmentation   
 
