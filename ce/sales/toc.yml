@@ -101,6 +101,8 @@
       href: print-records.md
     - name: Export sales records to PDF
       href: create-quote-pdf.md
+    - name: Change to focused view  
+      href: focused-view.md
     - name: Work with views
       href: work-with-views.md
 - name: Administration guide
