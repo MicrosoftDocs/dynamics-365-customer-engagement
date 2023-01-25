@@ -3,7 +3,7 @@ title: Change from list view to focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities.
 ms.date: 01/31/2023
 ms.topic: article
-author: udaykirag
+author: udaykirang
 ms.author: udag
 manager: shujoshi
 search.audienceType: 
@@ -69,7 +69,7 @@ Typically, the focused view can be categorized into the following three sections
 
 The following image is an example of the focused view for the lead entity:
 
-    :::image type="content" source="media/focused-view-lead-entity.png" alt-text="Screenshot of focused view appearance for the lead entity.":::
+:::image type="content" source="media/focused-view-lead-entity.png" alt-text="Screenshot of focused view appearance for the lead entity.":::
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
