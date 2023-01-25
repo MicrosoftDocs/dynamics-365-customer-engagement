@@ -1,7 +1,7 @@
 ---
 title: Impact of unified routing on queue items, live work items, and APIs| MicrosoftDocs
 description: How unified routing affects queue items, live work items, and the corresponding APIs.
-ms.date: 01/04/2023
+ms.date: 01/31/2023
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -10,23 +10,33 @@ ms.reviewer: nenellim
 ---
 # How unified routing impacts queue items and live work items
 
-Queue items are at the core of the record routing process. Whenever you route a record using unified routing, a queue item is created based on the route-to-queue rules. At the same time, a live work item (msdyn_ocliveworkitem) is also created for managing agent presence and capacity.
+Whenever you route a record using unified routing, a live work item (msdyn_ocliveworkitem) is also created to track the workstream settings of allowed presence and capacity for the entity. These are later used by unified routing in finding the right queue and the right agent for the records.*
 
-Here are a few important considerations to keep in mind when you work with queue items and live work items:
+*In addition to the live work-item, once the entity has been routed into a queue based on the route-to-queue rules, a queue item is created (QueueItem Entity Reference | Microsoft Learn). This queue-item is a critical part of entity routing with unified routing. The queue-item tracks three main attributes – the queue of which the queue-item is a part of, the agent working on the record (worker ID) and the state of the queue-item (active/inactive).
+When automatic assignment is used, or pick used, unified routing is responsible for updating the identified agent in the entity record as the owner, the agent in the liveworkitem, the worker ID in the queue item.
+The synchronization of updates between live work item and queue-item only happens from the queue-item to the live work-item. Updates to the live work item are currently not automatically reflected in the queue-item.
+Therefore, if updates need to be manually made, we recommend updating only the queue-item so that the live work item is also up-to-date. While updating the queue-item, the following considerations should be kept in mind.*
+
+
+Here are a few important considerations to keep in mind when you work with queue items:
 
 - To change the queue of a queue item from basic to advanced, you must reroute it so that it can be picked up by the unified routing services. If you manually change the queue of the queue item from basic to advanced, then it won't be considered for routing by the unified routing engine. 
 
 - We recommend that you don't add any custom logic on live work items as Microsoft uses them in unified routing services.
 
-- We recommend that you update only one field on the queue item to avoid any routing issues. If you update multiple fields, then the fields are selected in the order of Queue, Worker, and State.
+- 	*Only one field at a time can be updated in a queue-item in a transaction. For example, if the queue and the worker ID fields have to be updated, the queue field should be updated in one transaction and in the next transaction, the worker ID field can be updated.*
 
 ## How unified routing impacts queue items and the corresponding APIs
 
 When you change the status of a queue item that has been routed using unified routing, the queue item is affected in the following ways:
 
+### What happens when you change the Queue field
+
 - When you change a queue item from an advanced queue to another&mdash;by selecting **Add to Queue** on the record (via the [AddToQueue Action](/dynamics365/customer-engagement/web-api/addtoqueue?view=dynamics-ce-odata-9&preserve-view=true)) or by selecting **Route To** on the queue item (via the [**RouteTo Action**](/dynamics365/customer-engagement/web-api/routeto?view=dynamics-ce-odata-9&preserve-view=true)), then the associated queue for the live work item ([msdyn_ocliveworkitem](/dynamics365/customer-service/developer/reference/entities/msdyn_ocliveworkitem)) also gets updated to the same destination queue. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
 
 - When you change a queue item from an advanced queue to a basic queue by selecting **Add to Queue** on the record (via the [AddToQueue Action](/dynamics365/customer-engagement/web-api/addtoqueue?view=dynamics-ce-odata-9&preserve-view=true)) or by selecting **Route To** on the queue item (via the [**RouteTo Action**](/dynamics365/customer-engagement/web-api/routeto?view=dynamics-ce-odata-9&preserve-view=true)), then the associated live work item ([msdyn_ocliveworkitem](/dynamics365/customer-service/developer/reference/entities/msdyn_ocliveworkitem)) is closed and the queue item is no longer considered or picked by the unified routing engine. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
+
+### What happens when you update the Worked By field 
 
 - When you update the **Worked By** field of queue items by selecting **Route To** on the queue items list (via the **RouteTo Action**) or by manually updating the **Worked By** field on the QueueItem details form, then the live work item (msdyn_ocliveworkitem) also gets assigned to the same agent.
 
@@ -36,9 +46,11 @@ When you change the status of a queue item that has been routed using unified ro
 
 - When you resolve a routed record, the corresponding queue item that gets deactivated can't be activated again.
 
-- When you delete a queue item by selecting **Remove** (via the [**RemoveFromQueue Action**](/dynamics365/customer-engagement/web-api/removefromqueue?view=dynamics-ce-odata-9&preserve-view=true)) or by deleting or canceling the underlying record, the associated live work item (msdyn_ocliveworkitem) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
+## What happens when you delete or deactivate a queue item
 
-- When you [deactivate a queue item](deactivate-queue-items.md), the associated live work item (msdyn_ocliveworkitem) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
+When you delete a queue item by selecting **Remove** (via the [**RemoveFromQueue Action**](/dynamics365/customer-engagement/web-api/removefromqueue?view=dynamics-ce-odata-9&preserve-view=true)) or by deleting or canceling the underlying record, the associated live work item (msdyn_ocliveworkitem) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
+
+When you [deactivate a queue item](deactivate-queue-items.md), the associated live work item (msdyn_ocliveworkitem) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
 
 
 > [!Note]
