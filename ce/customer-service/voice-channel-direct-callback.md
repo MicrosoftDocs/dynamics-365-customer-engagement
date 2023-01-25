@@ -4,7 +4,7 @@ description: "Learn how to configure and use direct callback in the voice channe
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/18/2022
+ms.date: 01/27/2023
 ms.topic: article
 ---
 
@@ -47,10 +47,9 @@ The direct callback is triggered by the queue overflow conditions where the corr
    - The customer is connected to an agent
   
 1. If the customer acknowledges the callback option by pressing 1, a second message is played for the customer that acknowledges the customer choice and lets the customer know about receiving a callback.
-
 1. The call ends for the customer but the work item remains in the queue.
-
-1. When the work item reaches the position 1, a voice callback is initiated automatically. This callback is of the type preview dialing, in which the agent has to accept the callback using a call notification before the call is dialed.
+1. When the work item reaches the position 1, a voice callback is initiated automatically.
+1. The callback is of the type preview dialing, in which the agent has to accept the callback using a call notification before the call is dialed. The notification comment indicates that the incoming call is a callback conversation.
 
 ### See also
 

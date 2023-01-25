@@ -143,8 +143,8 @@ More information: [Customize automated messages](configure-automated-message.md#
 
 ### See also
 
-[Use voicemail](voice-channel-voicemail.md)  
-[Use direct callback](voice-channel-direct-callback.md)  
+[Configure voicemail](voice-channel-voicemail.md)  
+[Configure direct callback](voice-channel-direct-callback.md)  
 [Create and manage queues](queues-omnichannel.md)  
 [Configure percentage-based routing](configure-route-to-queue-rules.md#percentage-based-allocation-of-work-to-queues)  
 [Overview of voice channel](voice-channel.md)  
