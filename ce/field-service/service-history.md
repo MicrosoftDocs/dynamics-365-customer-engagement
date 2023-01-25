@@ -1,13 +1,14 @@
 ---
-title: "Build a service history for assets"
-description: Learn about all options to build a service history for assets in Dynamics 365 Field Service.
-ms.date: 01/17/2023
-ms.reviewer: mhart
-ms.topic: how-to
-ms.custom: bap-template
+title: Build a service history for assets
+description: Learn how to build a service history for customer assets from work orders and service agreements in Dynamics 365 Field Service.
+ms.date: 01/23/2023
 author: jshotts
 ms.author: jasonshotts
 manager: shellyha
+ms.reviewer: mhart
+ms.topic: how-to
+ms.service: dynamics-365-field-service
+ms.custom: bap-template
 search.app: 
   - D365CE
   - D365FS
@@ -15,58 +16,28 @@ search.app:
  
 # Build a service history for assets
 
-After [customer assets](assets.md) are created, you can track repairs, inspections, tests, IoT data, and issues to build out a service history. Understanding service history is important for making better repair decisions, maintaining asset lifespan and uptime, and ultimately keeping customers happy.
+If your field service organization records [customer assets](assets.md), you can track repairs, inspections, tests, remote sensor data, and issues to build a service history for them. Understanding an asset's service history is important for making repair decisions, demonstrating compliance with service agreements, and ultimately keeping your customers happy.
 
-## Work order history
+You can build a service history from work order and service agreement incidents.
 
-A standard and more organized way to build service history is to note the customer asset on work order incidents.
+## Work order incidents
 
-Incident types are common and distinct issues that serve as work order templates and automatically add details like work order type, work order products, services, and tasks. For more information, see the article on [creating work order templates with incident types](./configure-incident-types.md).
+A standard and organized way to build a service history is to note the customer asset in [work order incidents](configure-incident-types.md). For example, if the **Primary Incident Type** is an inspection of a specific asset, then associate the asset in **Primary Incident Customer Asset**.
 
-The most important work order incident type can be added directly from the main work order form in the **Primary Incident Type** field. For example, if the incident type is an inspection, and the purpose is to inspect a specific asset at the work order location (service account), then add a **Primary Incident Customer Asset**.
+:::image type="content" source="media/customer-asset-primary-incident.png" alt-text="Screenshot of a work order, with the primary incident customer asset highlighted.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a work order showing the primary incident customer asset.](./media/customer-asset-primary-incident.png)
+You can [add multiple incidents to a work order](configure-incident-types.md#add-multiple-incident-types-to-a-work-order). Each incident can be related to the same or different customer assets, as long as the assets all belong to the same service account.
 
-You can add multiple work order incidents to a work order by going to **Related** >  **Incidents** > **+New Work Order Incidents** and each incident can be related to the same or different customer assets as long as they all belong to the same service account.
+When you add a customer asset to a work order incident, the asset is also noted on all work order products, services, and service tasks that result from the incident.
 
-When you add a customer asset on a work order incident, the asset will also be noted on all work order products, services, and service tasks that result from that work order incident.
+Managers can easily view all work orders that involve the customer asset. Reports can concretely relate asset details like name, category, and product with work order details like service account, work order type, and incident type.
 
-Managers can then easily see a list of all work orders the customer asset is or was the subject of, and helps with reporting because you can concretely relate asset details (name, category, product) with work order details (service account, work order type, incident type).
+## Service agreement incidents
 
-### Work based on agreements
+Similarly to work order incidents, you can note customer assets in [service agreement incidents](set-up-customer-agreements.md). For example, you can note which asset recurring maintenance is intended for and make sure the maintenance tasks are reflected in the asset's service history.
 
-Similar to using work order incidents, you can also use **Agreement Incident** types to:
+:::image type="content" source="media/customer-asset-agreement-incident.png" alt-text="Screenshot of an agreement booking incident, with the customer asset highlighted.":::
 
-1. Note which customer asset recurring maintenance is intended for 
-2. Make sure recurring maintenance is added to the customer asset service history
-
-For more information on agreements, see the article on [setting up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md).  
-
-After creating an agreement, and then adding a related **Agreement Booking Setup**, you can add an **Agreement Booking Incident**.
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an agreement booking incident showing the related customer asset.](./media/customer-asset-agreement-incident.png)
-
-You can then note a customer asset on the **Agreement Booking Incident**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the agreement booking setup showing the related incidents.](./media/customer-asset-agreement-setup.png)
-
-When work orders are generated from the agreement and agreement booking setup, the incidents with their respective customer asset relationships will be added to the work orders as well.
-
-Just like work order incidents, you can add multiple agreement incidents that will all be added to the generated work orders.
-
-## Notes on timeline
-
-The simplest way to build service history is to use notes and the timeline feature available on Dynamics 365 forms.
-
-For example, from Field Service Mobile, the field technician can navigate to the customer asset record and add a note.
-
-Beyond just text, you can also add photos, videos, and voice recordings with notes in Field Service Mobile.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a customer asset showing the timeline with a note.](./media/customer-asset-note-web-install.png)
-
-One drawback of using notes and the timeline is that it's less organized and hard to report on or create metrics for. Using the timeline is better for anecdotal notes that give field technicians context or tips.
+Just like work order incidents, you can add multiple incidents to a service agreement. When work orders are generated, they include the agreement incidents with their associated customer assets.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

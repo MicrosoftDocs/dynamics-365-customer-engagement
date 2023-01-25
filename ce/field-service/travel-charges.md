@@ -1,34 +1,39 @@
 ---
-title: "Travel charges in Dynamics 365 Field Service"
-description: Learn how to create and apply travel charges in Dynamics 365 Field Service
-ms.date: 01/17/2023
-ms.reviewer: mhart
-ms.topic: how-to
-ms.custom: bap-template
+title: Travel charges in Field Service
+description: Learn how to use travel charges in Dynamics 365 Field Service to bill for the cost of traveling to a worksite.
+ms.date: 01/23/2023
 author: jshotts
 ms.author: jasonshotts
 manager: shellyha
+ms.reviewer: mhart
+ms.topic: how-to
+ms.service: dynamics-365-field-service
+ms.custom: bap-template
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Travel charges in Dynamics 365 Field Service
+# Travel charges in Field Service
 
-Use travel charges to bill the cost of travel for the field technician to a customer.
+Use travel charges to bill customers for the cost of traveling to the worksite.
 
-The system adds a travel charge item as a work order product if a [service account (*not* billing account) has a travel charge type set](accounts.md). It's added after scheduling the work order and when the status of the generated booking changes.
+Field Service adds a travel charge item as a work order product if a [service account](accounts.md), *not* a billing account, has a travel charge type set. It's added after the work order is scheduled and when the status of the generated booking changes.
+
+The *unit amount* of the **Travel Charge Item** work order product is the value of the **Travel Charge** that's set for the service account. The *unit amount price* of the travel charge item is dictated by the price list, list price, and travel charge. However, the *quantity* of the **Travel Charge Item** work order product is based on the **Travel Charge Type** set for the service account.<!-- EDITOR'S NOTE: This is hard to follow. Can you provide an example and a screenshot? -->
+
+In cases of multiple bookings for a single work order, multiple travel charge items will be added as work order products.
 
 ## Specify the travel charge item
 
-1. In **Field Service**, open the **Settings** area.
-1. Go to **Field Service Settings**.
-1. On the **Work Order / Booking** tab, choose or create a product in the **Travel Charge Item** field. This product will be added as a work order product.
+1. In Field Service, select the **Settings** area. Under **General**, select **Field Service Settings**.
 
-   :::image type="content" source="media/field-service-settings-travel-charge.png" alt-text="Screenshot of travel charge item in field service settings.":::
+1. In the **Work Order / Booking** tab, search for and select a product in **Travel Charge Item**.
+  
+   If the product doesn't exist yet, select **New Product** to create it and add the product as a travel charge item.
 
-> [!NOTE]
-> The unit amount of the work order product is the **Travel Charge** value provided on the entered in the [service account record](accounts.md). While the *unit amount price* of the travel charge is dictated by the price list, list price, and travel charge, the *quantity* for the travel charge work order product is based on the **Travel Charge Type** set for the service account.
-> In cases of multiple bookings for a single work order, multiple travel charges will be added as work order products.
+   :::image type="content" source="media/field-service-settings-travel-charge.png" alt-text="Screenshot of the Field Service settings page, with a travel charge item highlighted.":::
+
+1. Select **Save**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
