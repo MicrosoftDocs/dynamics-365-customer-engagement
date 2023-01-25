@@ -1,11 +1,11 @@
 ---
-title: "Customize live chat widgets using data tags | MicrosoftDocs"
-description: "Learn to customize chat widgets by using data tags in the chat widget script in the Customer Service admin center or Omnichannel admin center app."
+title: Customize live chat widgets using data tags
+description: Learn to customize chat widgets by using data tags in the chat widget script in the Customer Service admin center or Omnichannel admin center app.
 ms.date: 01/27/2023
-ms.topic: reference
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.custom: bap-template
 ---
 # Customize live chat widgets using data tags
 
@@ -26,6 +26,10 @@ You can customize live chat widgets by using data tags in the widget script. You
 |`data-custom-close-button-text`| Use this data tag to customize the close button of the chat widget. The input is a text string that'll appear in place of the default ‘X’ close button. |  `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-custom-close-button-text="End Chat"></script>`|
 |`data-enable-sso-magic-code` |  Use this data tag to automatically send a magic code to the user after sign in, either in the chat or silently through the client. This is similar to multifactor authentication and helps prevent phishing attacks. You can set this tag to `true` (default value) or `false`. If set to `false`, the code is automatically sent through the client silently, after sign in. If set to `true`, a magic code is displayed to the user to manually enter into the chat, after sign in.| In this example, the magic code is automatically passed through the client after sign in, without needing user input.  <br> </br> `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-enable-sso-magic-code="false"></script>`|
 ||||
+
+
+## Next steps
+[Develop a custom live chat widget](develop-live-chat-widget)  
 
 ### See also
 
