@@ -115,7 +115,7 @@ To comply with the Payment Card Industry (PCI) regulations, organizations must p
 
 1. Follow steps 1 through 4 in the [Configure Microsoft Teams call recording](#configure-microsoft-teams-call-recording) to open the Teams call recording options.
 
-1. Scroll down to the **New and upcoming features** section, select **Hide credit card info in transcripts**.  
+1. Go to the **New and upcoming features** section, select **Hide credit card info in transcripts**.  
 
     This option ensures that the credit card information in the transcripts of all future calls are masked and saved. Currently, the credit card number mentions in the audio are not redacted.
 
