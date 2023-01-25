@@ -37,8 +37,7 @@ Perform the following steps to add the Customer360 and Recent Records components
 
 1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables**, select **Conversation**, and then select the **Forms** area.
-1. Select the **Customer Summary** form, and then select **Recent Cases**.
-1. On the **Properties** panel: <br>
+1. Select the **Customer Summary** form, and then select **Recent Cases** from **Components**. Perform the following steps:
    - Specify the **Table** from which the records must be displayed. 
    - Select the **Default view** and **Default chart**. The views and charts available in the table are displayed.
    - Specify the maximum number of rows to be displayed on the card, when the card loads. The default number of rows displayed is 4.
