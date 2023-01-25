@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 12/16/2022
+ms.date: 01/13/2023
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -27,6 +27,17 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=dfa5b83d-9e4c-e811-a956-000d3a1bef07&forumName=Dynamics%20365%20Marketing).
 
+## January 2023 update
+
+There is no Dynamics 365 Marketing release for January. We will be back in February with new feature improvements, updates, and bug fixes.
+
+### New blogs and scenario docs
+
+Learn about making the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
+
+- [Boost event engagement with real-time journeys - Scenario docs](real-time-marketing-event-registration-journey.md)
+- [Real Time Marketing – Using Conditional Content within your emails! - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/real-time-marketing-using-conditional-content-within-your-emails)
+
 ## December 2022 update
 
 For the December 2022 release, general availability features include custom channels that allow you to extend your outreach in real-time marketing, date and time formatting flexibility for different locales, and access to more personalization data. Public preview features include real-time marketing lead capture forms that convert visitors into customers and filtering for email lists.
@@ -34,13 +45,18 @@ For the December 2022 release, general availability features include custom chan
 Starting this month, we’ll highlight recently published blogs and scenario documentation in addition to the product docs that support the newly released features.
 
 > [!IMPORTANT]
-> This release brings changes to the real-time marketing consent system and underlying Dataverse tables. This change is transparent to users **who do not** have code that directly reads or writes to the **msdynkmt_compliancesettings** or **msdynmkt_contactpointconsent2** Dataverse tables. As part of the upgrade to this release, any user who enables the [Preview: Create and manage real-time marketing forms](real-time-marketing-form-editor.md) feature will have their consent data automatically migrated to use the new tables. Most users will not need to take any action in response to this change.
+> This release brings changes to the real-time marketing consent system and underlying Dataverse tables. This change only impacts users who have customized code that directly reads or writes to the **msdynkmt_compliancesettings** or **msdynmkt_contactpointconsent2** Dataverse tables. As part of the upgrade to this release, any user who enables the [Preview: Create and manage real-time marketing forms](real-time-marketing-form-editor.md) feature will have their consent data automatically migrated to use the new tables. Most users will not need to take any action in response to this change.
 >
 > Users who have code that directly interacts with the **msdynkmt_compliancesettings** and **msdynmkt_contactpointconsent2** Dataverse tables will need to make changes after this release to direct their code to read/write to the new **msdynkmt_compliancesettings3** and **msdynmkt_contactpointconsent3** Dataverse tables.
 >
 > To aid in the transition, we will continuously scan for new rows written to the to-be-deprecated **msdynmkt_contactpointconsent2** tables and automatically copy them to new **msdynkmt_compliancesettings3** tables. Copies may take up to 48 hours to complete. We will disable this automatic copy in a future release.
 >
 > In the future, all users will be migrated to make use of these new tables. For the time being, only users who have opted into the real-time marketing forms preview will have their data automatically migrated.
+
+> [!IMPORTANT]
+> As of December 2022, consent enforcement for real-time customer journeys for **Contacts** was changed to require opt-in for emails sent using the **Restrictive** consent enforcement model. If you continue using the **Restrictive** enforcement setting, this change will result in emails not being sent from Real-time marketing journeys to Contacts who have not opted in. This change will not impact outbound marketing journeys.
+>
+> To revert to the previous behavior, you can change your consent enforcement model to **Non-restrictive**. Alternatively, if you have previously captured consent on **contact** records in outbound marketing, you can **Load consent** to populate the contact point consent records used to enforce consent in real-time marketing. Learn more: [Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md).
 
 ### Version number
 
@@ -67,7 +83,7 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
     - [Docs](real-time-marketing-predefined-dynamic-text.md#communicate-dates-and-times-in-various-formats)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of a variety of date and time format.](media/whats-new-personalization-date-and-time-format.png "Screenshot of a variety of date and time format")
+    > ![Screenshot of a variety of date and time format.](media/whats-new-date-time-format.png "Screenshot of a variety of date and time format")
 
 - **Access even more data to personalize your customer outreach**
     - You're no longer limited to accessing Dataverse tables that are directly related to an Audience or Triggers. Now, you can access any Dataverse table to include information in your communications. For example, for a product launch email, you may want to include product information, image, and SKU number. Such details may be available in a Product table, which you can now use for personalization.
@@ -116,7 +132,7 @@ Learn about making the most of the new Dynamics 365 Marketing features in our la
 - [Trigger a Plugin from Custom Trigger - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/trigger-a-plugin-from-custom-trigger)
 - [Extracting Marketing Interactions in Dynamics 365 Marketing - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
 - [Transition from Outbound to Real-time Marketing Playbook - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/transition-from-outbound-to-real-time-marketing-playbook)
-- [Send a targeted email blast in real-time marketing - Scenario docs](/dynamics365/marketing/real-time-marketing-email-get-started)
+- [Send a targeted email blast in real-time marketing - Scenario docs](real-time-marketing-email-get-started.md)
 
 ## November 2022 update
 

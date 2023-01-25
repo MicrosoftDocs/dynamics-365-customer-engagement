@@ -82,8 +82,8 @@
           href: manage-excel-templates.md
         - name: Manage Word templates
           href: manage-word-templates.md
-      - name: Business management settings
-        href: business-management-settings.md
+      - name: Data management settings
+        href: data-management-settings.md
     - name: Marketing settings
       items: 
       - name: Marketing settings overview
@@ -220,10 +220,12 @@
       items:
       - name: Real-time marketing overview
         href: real-time-marketing-overview.md 
-      - name: Use Customer Insights profiles and segments in real-time marketing
+      - name: Use Customer Insights profiles and segments
         href: real-time-marketing-ci-profile.md
       - name: Send a targeted email blast in real-time marketing
         href: real-time-marketing-email-get-started.md
+      - name: Boost event engagement with real-time journeys
+        href: real-time-marketing-event-registration-journey.md
       - name: Known issues in real-time marketing
         href: real-time-marketing-known-issues.md
     - name: Communication channels
@@ -378,6 +380,8 @@
         href: real-time-marketing-developer-notifications.md
       - name: Reference guide for real-time marketing interactions
         href: real-time-marketing-interactions-reference.md
+      - name: Create a real-time marketing segment using the Web API
+        href: real-time-marketing-api-segment.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
     - name: Real-time marketing troubleshoot + FAQ
@@ -454,8 +458,6 @@
         href: email-design.md
       - name: Add dynamic content to email messages
         href: dynamic-email-content.md
-      - name: How to use conditional content
-        href: conditional-content.md
       - name: Set the sender, receiver, language, and legal designation
         href: email-properties.md
       - name: "Preview: Use AI to kickstart email creation with content ideas"
