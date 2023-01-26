@@ -14,17 +14,17 @@ ms.custom: bap-template
 
 This article includes procedures for migrating configuration data for records. You must migrate the data in the order of:
 
-1. skill-based routing rulesets
-1. capacity profiles
-1. queues
-1. intake rules
-1. workstreams
+1. Skill-based routing rule sets
+1. Capacity profiles
+1. Queues
+1. Intake rules
+1. Workstreams
 
 The procedures include tables with entity information and corresponding sample schemas for each configuration.
 
-## Migrate configuration for skill-based routing rulesets
+## Migrate configuration for skill-based routing rule sets
 
-If skill-based routing rulesets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
+If skill-based routing rule sets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
 
 For sample schema to get all the required records, see [Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml).
 
