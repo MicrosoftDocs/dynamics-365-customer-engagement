@@ -1,8 +1,7 @@
 ---
-title: "Business management settings (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Data management settings (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to import, export, and clean data in Dynamics 365 Marketing."
-ms.date: 03/25/2021
-
+ms.date: 01/24/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -19,9 +18,9 @@ search.app:
   - D365Mktg
 ---
 
-# Business management settings
+# Data management settings
 
-This topic describes what you can do when working in the **Advanced Settings** > **Business Management** section of the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page.
+This topic describes what you can do when working in the **Advanced Settings** > **Data Management** section of the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page.
 
 <a name="import"></a>
 
@@ -34,7 +33,7 @@ Dynamics 365 Marketing processes imports in the background. After an import is c
 Data can be imported from:
 
 - Most list views
-- The **Settings** ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") > **Advanced settings** > **Business management** > **Import data** settings page
+- The **Settings** ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") > **Advanced settings** > **Data management** > **Imports** settings page
 
 When you import data while working in the **Settings** work area, you must select the entity you want to import to (such as a lead or contact).
 
@@ -51,7 +50,7 @@ When you export a template, a ready-made workbook with column headings matching 
 Data and templates can be exported from:
 
 - Most list views
-- The **Settings** ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") > **Advanced settings** > **Business management** > **Export data** page
+- The **Settings** ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") > **Advanced settings** > **Data management** > **Imports** page
 
 When you export data or templates while working in the **Settings** work area, you must select the entity you want to export (such as a lead or contact). You can also choose the view that will be used for exporting. If you don't choose a view, the default view is selected, and the data or template for all the columns in that view are exported.
 
@@ -60,6 +59,9 @@ More information: [Export data](export-data-word-excel.md)
 <a name="duplicate-detection"></a>
 
 ## Keep your data clean by using duplicate detection
+
+> [!IMPORTANT]
+> Duplicate detection settings only apply to outbound marketing, not real-time marketing.
 
 To maintain the integrity of your data, it's a good idea to set up duplicate detection to find duplicate records in the system. By default, duplicate detection is already enabled for Dynamics 365 Marketing.
 
@@ -77,8 +79,8 @@ If any of these rules are deleted, duplicate detection won't work as expected.
 
 If duplicate detection is disabled, duplicates won't be detected. To enable duplicate detection:
 
-1. Go to **Settings** ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") > **Advanced Settings** > **Business Management** > **Duplicate Detection**.
-1. Select **Enable**.
+1. Go to **Settings** ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") > **Advanced Settings** > **Data Management** > **Duplicate Detection Settings**.
+1. Check the box next to **Enable duplicate detection**.
 
 ### When does duplicate detection happen?
 
@@ -94,8 +96,8 @@ If duplicate detection is enabled, duplicates are detected when:
 
 If your system contains a large number of records, checking for duplicates can affect performance. You might want to disable duplicate detection at such times.
 
-1. To disable duplicate detection, go to **Settings** > **Advanced Settings** > **Business Management** > **Duplicate Detection**.
-1. Select **Disable**.
+1. To disable duplicate detection, go to **Settings** > **Advanced Settings** > **Data Management** > **Duplicate Detection Settings**.
+1. Uncheck the box next to **Enable duplicate detection**.
 
 All the duplicate detection rules will be unpublished in the back end.
 

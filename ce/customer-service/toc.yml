@@ -627,7 +627,9 @@
     - name: Administrator experience
       items:
       - name: Install the voice channel
-        href: voice-channel-install.md  
+        href: voice-channel-install.md 
+      - name: Use trial phone numbers
+        href: voice-channel-trial-phone-numbers.md   
       - name: Connect to Azure Communication Services
         items: 
         - name: Connect to Azure Communication Services
@@ -680,8 +682,6 @@
         href: voice-channel-region-availability.md
     - name: Agent experience
       items:
-      - name: Make and receive your first phone call
-        href: voice-channel-first-call.md
       - name: Call a customer
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
@@ -718,6 +718,8 @@
         href: persistent-chat.md
       - name: Configure reconnection to a previous chat session
         href: configure-reconnect-chat.md
+      - name: Understand disconnected chats
+        href: oc-conv-state-chat-disconnect.md   
       - name: Show customers their position in a queue
         href: show-queue.md
       - name: Show customers their average wait time in a queue
@@ -747,7 +749,7 @@
       - name: Take notes for conversation
         href: oc-take-notes.md
       - name: Understand conversation states
-        href: oc-conversation-state.md
+        href: oc-conversation-state.md     
       - name: View call options and visual engagement in live chat
         href: call-options-visual-engagement.md
       - name: Monitor real-time customer sentiment
@@ -770,7 +772,7 @@
         href: oc-view-customer-summary-incoming-conversation-request.md
       - name: Real-time language translation of conversations
         href: oc-real-time-translation.md
-      - name: Use Markdown to format messages
+      - name: Markdown formats for agents
         href: markdown-formats-agents.md
     - name: Developer experience
       items: 
@@ -814,7 +816,7 @@
         href: customize-quick-view-form.md
       - name: Customize session forms
         href: customize-session-form.md
-      - name: Customizations supported by Conversation entity and form
+      - name: Customizations supported by Conversation form and entity
         href: supported-customizations.md  
   - name: Portals
     items: 
@@ -874,14 +876,16 @@
       items: 
       - name: Integrate a custom messaging channel
         items: 
-        - name: "Integrate your own custom channel: Direct Line"
+        - name: Integrate your own custom channel using Direct Line
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: test-custom-channel-sample-html.md
-        - name: "Markdown formats: Direct Line"
+        - name: Markdown formats in custom channels that use Direct Line
           href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
       href: card-support-in-channels.md
+    - name: Preconfigured automated message triggers for asynchronous channels
+      href: preconfig-auto-message-triggers-async-channels.md  
   - name: Advanced settings for chat and channels
     items: 
     - name: Configure operating hours
@@ -1100,6 +1104,8 @@
         href: customer-service-analytics.md
       - name: Forecast agent, case, and conversation volumes
         href: use-volume-forecasting.md
+      - name: Report filters and groups
+        href: report-filters-groups.md
       - name: Manage report bookmarks
         href: manage-bookmarks.md
       - name: Intraday supervisor experience
