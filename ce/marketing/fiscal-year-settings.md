@@ -2,7 +2,6 @@
 title: "Manage fiscal year settings (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Define the fiscal year period used for reporting financial data at your organization in Dynamics 365 Marketing."
 ms.date: 03/18/2021
-
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
