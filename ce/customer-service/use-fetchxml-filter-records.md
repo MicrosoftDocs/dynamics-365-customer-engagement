@@ -9,6 +9,10 @@ ms.date: 01/23/2023
 ms.custom: bap-template
 ---
 
+
+<!-- Just checking: In line 40, is "Configuration Migration tool" correct, or should it be "Configuration Management tool"? -->
+
+
 # Use FetchXML query to filter records
 
 This article discusses how to download the FetchXL query and edit it in the Configuration Management tool.
@@ -17,7 +21,7 @@ This article discusses how to download the FetchXL query and edit it in the Conf
 
 1. Use the **ADVANCED FIND** menu to create a personal view. More information: [Create, edit, or save a view using legacy advanced find](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find)
 
-1. Select one or multiple records of the entity to export. More information: [Share a personal view](/power-apps/user/advanced-find#share-a-personal-view). 
+1. Select one or multiple records of the entity to export. More information: [Share a personal view](/power-apps/user/advanced-find#share-a-personal-view) 
 
 1. Select **Download FetchXML**.
 
