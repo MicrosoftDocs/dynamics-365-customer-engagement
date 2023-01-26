@@ -8,7 +8,6 @@ manager: shellyha
 ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template
-ms.service: dynamics-365-field-service
 search.app: 
   - D365CE
   - D365FS
