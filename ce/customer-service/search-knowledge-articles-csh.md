@@ -34,7 +34,7 @@ You can search knowledge articles in Customer Service Hub, Customer Service work
 
     - Article Public Number
     - Content  
-      The Content field is hidden in the user interface to  avoid unintentional deletion of content leading to disruption in the Dataverse search functionality.
+      The Content field is hidden in the user interface to avoid unintentional deletion of content leading to disruption in the Dataverse search functionality.
     - Created On
     - Keywords
     - Knowledge Article Views
@@ -63,7 +63,7 @@ You can search the knowledge base directly, without viewing a case or conversati
  Legend:
   1. Search box
   1. Visibility and status tags
-  1. The number of attachments, likes, and views and the date the article was most recently updated
+  1. The number of attachments, likes, and views, and the date the article was most recently updated
   1. Article ID
   1. Info card that displays search term matches from keywords, description, attachments, and any other custom fields.
   1. An attachment that includes the search term in its title or contents. The attachment title is displayed only when the search term matches the content in the attachment.
@@ -99,7 +99,7 @@ Legend:
 1. Status and visibility tags for the article
 1. Confirmation that the record is linked to a case
 1.Info card that displays search term matches from keywords, description, attachments, and any other custom fields
-1.Article date
+1. Article date
 1. Article number
 
 > [!NOTE]
