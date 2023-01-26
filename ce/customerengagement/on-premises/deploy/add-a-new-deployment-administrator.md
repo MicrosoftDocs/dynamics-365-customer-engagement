@@ -32,6 +32,19 @@ You can grant or remove the [!INCLUDE[pn_Deployment_Administrator](../includes/p
 1. After the user name is accepted, select **OK**.
 1. [Add the deployment administrator to the PrivUserGroup Active Directory security group](#add-the-deployment-administrator-to-the-privusergroup-active-directory-security-group)
 
+#### Required Privileges for Deployment Administrator
+
+-   Be a member of the Administrators group on all CRM machines that contain the deployment role.  
+  
+-   Have Local Program Files folder read and write permission.  
+  
+-   Be a member of the Administrators group on the local computer where the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] is located that will be used to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases.  
+  
+-   Have sysadmin membership on the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that will be used to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases.  
+  
+-   Have organizational unit and security group creation and add membership permission to those groups in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]. 
+
+
 #### Add the deployment administrator to the PrivUserGroup Active Directory security group
 
 1. Open the Active Directory Users and Computers snap-in on a computer that's in the same domain where Dynamics Server is deployed.
