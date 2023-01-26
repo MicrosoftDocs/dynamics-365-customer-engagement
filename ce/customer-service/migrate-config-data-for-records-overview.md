@@ -22,7 +22,7 @@ For information on how to download and use the Configuration Migration tool, see
 
 Check for the following before you migrate your configuration data:
 
-- In the source organization, if a unified routing rule set refers to the following, then ensure that they exist in the target organization before you proceed with the migration:
+- In the source organization, if a unified routing ruleset refers to the following, then ensure that they exist in the target organization before you proceed with the migration:
   - Custom entities
   - Attributes
   - Relationships
@@ -35,7 +35,7 @@ Check for the following before you migrate your configuration data:
   - Capacity Profile (msdyn_capacityprofile)
   - Queue (queue)
   - Decision contract (msdyn_decisioncontract)
-  - Decision rule set (msdyn_decisionruleset)
+  - Decision ruleset (msdyn_decisionruleset)
   - Assignment Configuration (msdyn_assignmentconfiguration)
   - Assignment Configuration Step (msdyn_assignmentconfigurationstep)
   - Master Entity Routing Configuration (msdyn_masterentityroutingconfiguration)
@@ -49,7 +49,7 @@ Check for the following before you migrate your configuration data:
 Perform the steps in the following order to successfully migrate your configuration data from the source to the target organization. 
 
 1. [Use FetchXML query to filter records](use-fetchxml-filter-records.md)
-1. [Migrate skill-based routing rule sets](migrate-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets)
+1. [Migrate skill-based routing rulesets](migrate-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets)
 1. [Migrate capacity profiles](migrate-config-data-for-records.md#migrate-configuration-for-capacity-profiles)
 1. [Migrate queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues)
 1. [Migrate intake rules](migrate-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
