@@ -7,7 +7,6 @@ ms.reviewer: mhart
 ms.topic: article 
 author: FeifeiQiu
 ms.author: feiqiu
-ms.manager: shellyhaverkamp
 search.app: 
   - D365CE
   - D365FS

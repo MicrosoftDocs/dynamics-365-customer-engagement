@@ -7,7 +7,6 @@ ms.reviewer: mhart
 ms.topic: article
 author: JonBaker007
 ms.author: jobaker
-ms.manager: shellyhaverkamp
 search.app: 
   - D365CE
   - D365FS

@@ -7,7 +7,6 @@ ms.reviewer: mhart
 ms.topic: article
 author: josephshum-msft
 ms.author: jshum
-ms.manager: shellyhaverkamp
 search.app: 
   - D365CE
   - D365FS
