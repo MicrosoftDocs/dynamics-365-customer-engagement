@@ -1,13 +1,14 @@
 ---
 title: Add property logs
-description: Learn work with property logs in Dynamics 365 Field Service.
-ms.date: 01/17/2023
-ms.reviewer: mhart
-ms.topic: how-to
-ms.custom: bap-template
+description: Learn how to work with property logs and property history in Dynamics 365 Field Service.
+ms.date: 01/25/2023
 author: jshotts
 ms.author: jasonshotts
 manager: shellyha
+ms.reviewer: mhart
+ms.topic: how-to
+ms.custom: bap-template
+ms.service: dynamics-365-field-service
 search.app: 
   - D365CE
   - D365FS
@@ -15,47 +16,36 @@ search.app:
 
 # Add property logs
 
-After [associating properties](properties.md#associate-templates-to-assets-or-categories), you can then add specific values as property logs to them. Property logs enable you to build a track record of current and past values of a property.
+After [associating properties with customer assets](properties.md), you can log specific values of a property to build a history of its values.
 
-1. In Field Service, change to the **Service** area.
+## Log a property value
 
-1. Select a customer asset record and go to the **Properties** tab.
+1. In Field Service, select the **Service** area. Under **Assets**, select **Assets**, and then select a customer asset record.
+
+1. Select the **Properties** tab.
 
 1. In the **Current Property Values** section, select **New Property Log**.
 
-1. Choose the **Property** you want to log, and enter the log value. You can only choose from [properties that are associated to the record](properties.md#associate-templates-to-assets-or-categories). The **Reading Time** represents the date and time of reading the value for the log.
+1. Search for and select a property. You can only choose from [properties that are associated with the asset](properties.md).
 
-   :::image type="content" source="media/assets-properties-log-lookup.png" alt-text="Screenshot of associated properties to an asset record.":::
+    The **Reading Time** defaults to the current date and time. You change these values to reflect the actual date and time the value was read.
 
-1. **Save and Close**.
-
-In this example, we create a property log for a laptop and provide a value for RAM.
-
-:::image type="content" source="media/assets-properties-log-lookup2.png" alt-text="Screenshot of the quick create dialog fully populated.":::
-
-## Create a property log history
-
-To update an earlier log value, you can add a new property log. In our example, the laptop we service had some RAM removed.
-
-1. Open a record with a property log.
-
-1. On the **Properties** tab, select **+New Property Log**.
-
-1. Choose the property and add the new value.
+1. Enter the value of the property at the reading time.
 
 1. Select **Save and Close**.
 
-The most recent properties show in the **Current Property Values** list.
+    :::image type="content" source="media/assets-properties-log-lookup2.png" alt-text="Screenshot of the Property Log for a customer asset.":::
 
-The **Delta** value represents the difference between the most recent value and the previous property value.  
+To add a new value to the property history, add another property log.
 
-All previous property values are listed in the **Property Log History** section.
+In the following example, a laptop had some RAM removed. Recall that the original value of the property `RAM (GB)` was 16.00.
 
-:::image type="content" source="media/assets-properties-maintain-new-values.png" alt-text="Screenshot of the asset's property history.":::
+:::image type="content" source="media/assets-properties-maintain-new-values.png" alt-text="Screenshot of an asset's property history.":::
+
+The **Current Property Values** list shows the current value of each property that's associated with the asset. The **Property Log History** list shows the previously logged values of those properties. The **Delta** value in each list represents the difference between the most recent value and the previous value.  
 
 ## Next steps
 
-- [Properties in Dynamics 365 Field Service](properties.md)
 - [Build a service history for assets](service-history.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
