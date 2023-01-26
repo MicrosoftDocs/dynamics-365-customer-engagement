@@ -87,7 +87,7 @@ To learn more about adding a timer control to an SLA-enabled entity, go to [Add 
 > [!NOTE]
 > Active duration calculation will be asynchronous by default, as an early access feature. You can opt in early to enable these features in your environment. This will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
 >
-> You might need to refresh the views that have an **Active Duration (min)** field, after any create or update operation. You may also need to review any customizations associated with the **Active Duration** attribute of the SLA KPI instance.
+> You might need to refresh the views that have an **Active Duration (min)** field after any create or update operation. You may also need to review any customizations associated with the **Active Duration** attribute of the SLA KPI instance.
 
 Track the time taken by SLA KPI Instances to reach their terminal status during business hours to evaluate whether the SLAs are realistic and take decisions about resourcing and efficiency.
 
