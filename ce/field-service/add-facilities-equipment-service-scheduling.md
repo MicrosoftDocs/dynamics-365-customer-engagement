@@ -6,7 +6,6 @@ ms.reviewer: mhart
 ms.topic: article
 author: clearab
 ms.author: anclear
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

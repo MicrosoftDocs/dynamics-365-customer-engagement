@@ -8,7 +8,6 @@ ms.topic: overview
 ms.custom: intro-internal
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
 search.app:
   - D365CE
   - D365FS

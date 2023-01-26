@@ -12,7 +12,6 @@ applies_to:
 ms.custom: intro-internal
 author: Andrea-Orimoto
 ms.author: andreo
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

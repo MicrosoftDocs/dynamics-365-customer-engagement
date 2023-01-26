@@ -8,8 +8,7 @@ ms.reviewer: mhart
 
 ms.subservice: connected-field-service
 ms.topic: overview
-ms.manager: shellyha
-search.app: 
+ms.search.app: 
   - D365CE
   - D365FS
 --- 

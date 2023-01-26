@@ -3,7 +3,6 @@ title: New and upcoming features in Field Service
 description: Find out what's new and planned for Dynamics 365 Field Service.
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
 ms.date: 09/25/2022
 ms.topic: article
 ms.reviewer: mhart

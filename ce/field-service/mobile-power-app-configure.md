@@ -10,7 +10,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: Andrea-Orimoto
 ms.author: andreo
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

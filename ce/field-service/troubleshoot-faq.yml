@@ -10,8 +10,7 @@ metadata:
     - "Dynamics 365 Version 9.x"
   author: jshotts
   ms.author: jasonshotts
-  manager: shellyha
-  search.app: 
+    search.app: 
     - D365CE
     - D365FS
 title: Frequently asked questions for Dynamics 365 Field Service - General

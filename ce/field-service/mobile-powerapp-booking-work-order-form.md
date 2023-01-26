@@ -7,7 +7,6 @@ ms.reviewer: mhart
 ms.topic: article
 author: Andrea-Orimoto
 ms.author: andreo
-manager: shellyha
 search.app:
 - D365CE
 - D365FS

@@ -6,7 +6,6 @@ ms.date: 12/15/2017
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
 ms.reviewer: mhart
 search.audienceType: 
   - admin

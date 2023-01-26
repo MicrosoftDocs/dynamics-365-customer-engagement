@@ -4,7 +4,6 @@ description: Provide pro-active field service with the Connected Field Service s
 ms.reviewer: mhart
 ms.author: keithh
 author: MSKeith
-manager: shellyha
 ms.date: 07/27/2022
 ms.topic: overview
 

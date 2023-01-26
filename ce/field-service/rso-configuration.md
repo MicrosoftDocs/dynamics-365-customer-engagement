@@ -4,7 +4,6 @@ description: Learn how to configure Resource Scheduling Optimization in Dynamics
 author: FeifeiQiu
 ms.author: feiqiu
 ms.reviewer: mhart
-manager: shellyha
 ms.date: 09/14/2022
 ms.topic: article
 ms.subservice: resource-scheduling-optimization

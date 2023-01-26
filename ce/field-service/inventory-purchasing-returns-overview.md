@@ -11,7 +11,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: jacoh
 author: jasonccohen
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

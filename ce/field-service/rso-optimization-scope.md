@@ -4,7 +4,6 @@ description: Learn about how to use scopes in Resource Scheduling Optimization f
 author: FeifeiQiu
 ms.author: feiqiu
 ms.reviewer: mhart
-manager: shellyha
 ms.date: 01/02/2020
 ms.topic: article
 

@@ -7,7 +7,6 @@ ms.reviewer: mhart
 ms.topic: article
 author: lmasieri
 ms.author: lmasieri
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

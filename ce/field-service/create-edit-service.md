@@ -6,7 +6,6 @@ ms.topic: article
 ms.author: jacoh
 author: jasonccohen
 ms.reviewer: mhart
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer

@@ -6,7 +6,6 @@ ms.reviewer: mhart
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

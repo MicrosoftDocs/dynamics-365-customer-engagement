@@ -6,7 +6,6 @@ ms.topic: article
 author: ryanchen8
 ms.author: chenryan
 ms.reviewer: mhart
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer

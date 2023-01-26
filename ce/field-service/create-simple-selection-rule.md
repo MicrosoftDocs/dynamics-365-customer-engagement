@@ -6,7 +6,6 @@ ms.reviewer: mhart
 ms.topic: article
 author: FeifeiQiu
 ms.author: feiqiu
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer

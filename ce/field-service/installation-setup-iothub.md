@@ -7,7 +7,6 @@ ms.subservice: connected-field-service
 ms.topic: article
 ms.author: keithh
 author: MSKeith
-manager: shellyha
 search.app:
   - D365CE
   - D365FS

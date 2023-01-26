@@ -8,7 +8,6 @@ ms.reviewer: mhart
 ms.subservice: resource-scheduling-optimization
 author: FeifeiQiu
 ms.author: feiqiu
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

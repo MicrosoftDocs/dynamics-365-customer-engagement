@@ -6,7 +6,6 @@ ms.reviewer: mhart
 ms.topic: article
 author: Deana-Fuller
 ms.author: drfuller
-manager: shellyha
 search.app:
   - D365CE
   - D365FS

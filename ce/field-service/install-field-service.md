@@ -7,8 +7,7 @@ ms.date: 11/30/2022
 ms.reviewer: mhart
 ms.author: jacoh
 author: jasonccohen
-ms.manager: shellyha
-search.app:
+ms.search.app:
   - D365CE
   - D365FS
 ---

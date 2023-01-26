@@ -8,7 +8,6 @@ ms.custom: intro-internal
 ms.topic: overview
 author: clearab
 ms.author: anclear
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

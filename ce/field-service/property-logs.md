@@ -4,7 +4,6 @@ description: Learn how to work with property logs and property history in Dynami
 ms.date: 01/25/2023
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
 ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template

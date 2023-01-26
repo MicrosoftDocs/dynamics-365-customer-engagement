@@ -11,8 +11,7 @@ metadata:
     - "Dynamics 365 Version 9.x"
   author: JonBaker007
   ms.author: jobaker
-  manager: shellyha
-  search.app: 
+    search.app: 
     - D365CE
     - D365FS
 title: Frequently asked questions for the Field Service (Dynamics 365) mobile app

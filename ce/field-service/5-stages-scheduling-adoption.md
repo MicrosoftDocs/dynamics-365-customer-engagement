@@ -10,7 +10,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: Deana-Fuller
 ms.author: drfuller
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
