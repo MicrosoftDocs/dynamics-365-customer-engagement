@@ -7,7 +7,6 @@ ms.author: jasonshotts
 ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template
-ms.service: dynamics-365-field-service
 search.app: 
   - D365CE
   - D365FS
@@ -17,9 +16,7 @@ search.app:
 
 Properties record important information about customer assets. After you [define properties](#define-properties), you can [create property templates](#create-property-templates) to quickly and easily apply a set of properties to an asset or an entire category of assets.
 
-Watch this video for a guided walk-through of how to create and configure asset properties.
-
-:::video source="https://www.youtube.com/embed?v=dhruNqBXMgw":::
+Watch this short [video about how to create and configure asset properties](https://www.youtube.com/watch?v=dhruNqBXMgw).
 
 ## Define properties
 
@@ -71,11 +68,7 @@ Associate a property template with an asset category to quickly add a set of pro
   
    If the category doesn't exist yet, select **New Customer Asset Category** to create it. You'll need to return to this page to add the category to the template.
 
-   :::image type="content" source="media/assets-properties-templates-categories-lookup.png" alt-text="Screenshot of the Property Template Association lookup pane.":::
-
 1. To add another category to the template, select the caret to the right of **Save and Close**, and then select **Save & Create New**.
-
-    :::image type="content" source="media/assets-properties-templates-categories-lookup-save-new.png" alt-text="Screenshot of the Asset Category Template Association lookup pane, with the Save & Create New button highlighted.":::
 
 1. When you're finished adding categories, select **Save and Close**.
 

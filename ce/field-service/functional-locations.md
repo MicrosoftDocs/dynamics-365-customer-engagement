@@ -113,7 +113,7 @@ Technicians can view the functional location of a work order in the Dynamics 365
 
 The following video offers a guided walk-through of using functional locations in the Field Service Mobile app.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]<!-- EDITOR'S NOTE: I'm not sure why, but the video doesn't appear when I preview the article and it's causing a build warning. -->
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
 
 ## Functional locations for cases
 
@@ -128,19 +128,6 @@ If your organization's service workflow starts with a **Case**, you can associat
 1. Under **Incidents**, select or create an agreement booking incident, and then select a functional location.
 
     :::image type="content" source="media/assets-functional-location-agreement-incident.png" alt-text="Screenshot of an agreement booking incident, with the functional location highlighted.":::
-
-## Functional locations in customized solutions
-
-If your organization uses [customized forms in Field Service](field-service-customize-forms.md), you'll need to add the **Functional Location** entity to them.
-
-1. In the app designer, add the **Functional Location** entity in **Add** > **Entities**.
-
-1. Select form components of functional location entity, uncheck **All** and select only quick create form for functional location.
-
-1. Publish the app and verify that functional location form will open quick create form in the tree view control.
-
-1. Newly created functional locations should appear in tree view control.
-<!-- EDITOR'S NOTE: These instructions aren't at all clear to me. I tried to follow them in app designer for the Field Service app and got nowhere. Please clarify and consider adding a screenshot for context. Thanks! -->
 
 ### See also
 

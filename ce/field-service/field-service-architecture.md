@@ -25,7 +25,7 @@ The most important process in Field Service is the work order process. Work orde
 1. [Performed by field technicians](#a-field-technician-performs-the-work-order)
 1. [Completed and reviewed](#the-work-order-is-reviewed-and-completed)
 
-The following diagram illustrates the entities, attributes, and relationships that make up the work order process. The diagram refers to specific entity names in Field Service. A diagram that shows more commonly used names is provided at the end of this article.<!-- EDITOR'S NOTE: There is no diagram at the end of this article. -->
+The following diagram illustrates the entities, attributes, and relationships that make up the work order process.
 
 :::image type="content" source="media/admin-field-service-architecture.png" alt-text="Diagram of the work order process architecture.":::
 
@@ -52,10 +52,10 @@ Field Service keeps the **Work Order** and the primary resource requirement in s
 Before a work order can be scheduled, a [**Bookable Resource**](set-up-bookable-resources.md) must exist in the system. A bookable resource represents an employee, contractor, equipment, facility, or anything else that needs to be scheduled.
 
 When it's time to schedule a work order, you assign a requirement to a resource. This creates a **Booking**. You can think of a booking as a scheduled time slot for a specific resource. Requirements can be scheduled in several ways:
-<!-- EDITOR'S NOTE: Please include links for the following articles. -->
-- Manually on the schedule board
-- With the schedule assistant
-- Resource Scheduling Optimization
+
+- [Manually on the schedule board](schedule-work-order.md)
+- [With the schedule assistant](schedule-assistant.md)
+- [Resource Scheduling Optimization](rso-overview.md)
 
 A requirement can be booked multiple times, creating multiple booking records. This is useful when you want to schedule the same requirement to multiple resources or to the same resource at different times.
 
@@ -68,7 +68,5 @@ While performing a work order, field technicians may use products and services, 
 ## The work order is reviewed and completed
 
 Finally, the work order is reviewed and closed by a service manager, who updates **Inventory Consumption** and **Financial Information**. Inventory consumption is the quantity of a product that's deducted from a warehouse based on the work order activity. In cases where used products and services must be billed, closing a work order triggers the creation of an invoice for payments and actuals, which are a log of transactions.
-
-The following diagram references the same work order process diagram in the beginning of this article, but with common names instead of entity names.<!-- EDITOR'S NOTE: No diagram. -->
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

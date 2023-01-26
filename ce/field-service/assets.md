@@ -49,7 +49,6 @@ You can [create customer assets individually](#manually-create-customer-assets),
     - **Top-Level Asset**: A read-only field that displays the top-level parent in the relationship automatically. After creating the asset record, add subcomponents or child assets in the **Sub Assets** grid.
 
 1. Select **Save**.
- <!-- EDITOR'S NOTE: I can't find a way to enter or view the functional location on the Assets page. I can only associate an asset with a functional location through the Accounts pages. Am I missing something? -->
 
 ### Import customer assets from Excel
 
@@ -125,7 +124,6 @@ In Connected Field Service, *devices* represent sensors that are connected to th
 To establish an IoT relationship with a device, open a customer asset, select **Connect Device**, and then select the IoT device in the list.
 
 :::image type="content" source="media/customer-asset-connect-device.png" alt-text="Screenshot of a new IoT connection.":::
-<!-- EDITOR'S NOTE: Please retake the screenshot and show more context for the reader, including where to select the asset and show Connect Device highlighted. -->
 
 IoT alerts from a specific sensor also tag the related customer asset. If a work order is created from the alert, it will note both the alert and the asset.
 
