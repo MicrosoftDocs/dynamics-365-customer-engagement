@@ -288,6 +288,9 @@
       "search.audienceType": {
         "omnichannel/**.*": [ "admin", "customizer", "enduser" ],
         "sales/**.*": [ "admin", "customizer", "enduser" ]
+      },
+      "ms.reviewer": {
+        "field-service/**/**.*": "mhart"
       }
     },
     "template": [],
