@@ -20,6 +20,9 @@ This article discusses some of the important aspects to successfully deploy and 
 
 Dynamics 365 Customer Service relies on shared cloud resources for data and processing. You must check the service limits and default quotas for the resources before you provision unified routing. These limits ensure that other tenants performance isn't affected and resources are evenly distributed. Some of the limits are adjustable and we recommend that you request adjustments accordingly. More information: [Service quotas](service-quotas.md)
 
+> [!IMPORTANT]
+> We recommend that wherever applicable, you use the features with the specified limits. Beyond the specified limits, system reliability and performance might be affected.
+
 ## Manage users
 
 Use the following guidance to set up users in bulk:
@@ -46,8 +49,7 @@ We recommend that you make 500 change requests every 15 minutes for the system t
 
 For example, if you manage a contact center that has 1000 agents working in it and need to set up each agent by assigning two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4000.
 
-Based on our recommendation of 500 requests per 15 minutes, you'll need to make these requests in eight batches as follows. Beyond these limits, system reliability and performance might be reduced.
-
+Based on our recommendation of 500 requests per 15 minutes, you'll need to make these requests in eight batches as follows.
 |Change request type|Number of requests|Number of batches|
 |-----------|---------|------------|
 |Two skills per agent|250 requests per batch|Four|
