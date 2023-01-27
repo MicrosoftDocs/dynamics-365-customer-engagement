@@ -1,7 +1,7 @@
 ---
 title: "Create and activate assignment rules for routing"
 description: "Create and activate assignment rules for leads and opportunities by defining conditions to automatically assign records to sellers when the defined conditions are met in Dynamics 365 Sales."
-ms.date: 11/11/2022
+ms.date: 01/31/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -83,6 +83,9 @@ When a lead or opportunity record is created in an organization, assignment rule
 
             >[!div class="mx-imgBorder"]
             >![Add related entity condition.](media/sa-segment-condition-add-related-entity.png "Add related entity condition")
+    -  <a name="considerLeadsCreated"></a>**Consider leads created in a specific timeframe**: Select the **Consider the leads crated in the last *hours*** option to assign records that are created in the application in the specified timeframe to sellers. Also, the rule considers only the records that are created after the rule is activated.   
+        When the sellers' availability is configured under the [Distribute leads by](#distributeLeadsBy) option, the rule first checks for the sellers' availability and then considers to assign in the set timeframe. If no seller is available to take the record with in the set timeframe, the record is marked as overdue with the status reason *Seller not assigned as record is older than the set timeframe*.   
+        To know more about unassigned records and status reasons, see [View unassigned records](manage-unassigned-records.md#view-unassigned-records).  
 
 7. Under **Assign these leads to sellers or a team**, choose one of the options described in the following table.
 
@@ -93,7 +96,7 @@ When a lead or opportunity record is created in an organization, assignment rule
     | Specific sellers | Assign leads to specific sellers. Select the sellers from the **Choose sellers** lookup.<br>**Note**: The security roles for sellers displayed in the list were added through defining team access. More information: [Grant permissions to use assignment rules](manage-sales-teams.md#grant-permissions-to-use-assignment-rules)<br>![Select specific sellers.](media/sa-ar-select-specific-sellers.png "Select specific sellers") |
     | Specific teams | Assign leads to a specific team. The lead will be available for all members of the team you select. The teams must be defined in your organization and added to the security roles through define team access. More information: [Grant permissions to use assignment rules](manage-sales-teams.md#grant-permissions-to-use-assignment-rules)<br>The **Distribute leads by** option won't displayed as the leads are assigned to the teams. |
 
-8. Under **Distribute leads by**, choose one of the following options. This setting is available only when you select a seller option in the **Assign these leads to** section. More information: [Understand lead distributions in assignment rules](understand-lead-distributions-assignment-rules.md)
+8. <a name="distributeLeadsBy"></a>Under **Distribute leads by**, choose one of the following options. This setting is available only when you select a seller option in the **Assign these leads to** section. More information: [Understand lead distributions in assignment rules](understand-lead-distributions-assignment-rules.md)
 
    >[!NOTE]
    >The **Distribute leads by** setting isn't available for teams.
