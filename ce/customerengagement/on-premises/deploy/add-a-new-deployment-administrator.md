@@ -32,19 +32,15 @@ You can grant or remove the [!INCLUDE[pn_Deployment_Administrator](../includes/p
 1. After the user name is accepted, select **OK**.
 1. [Add the deployment administrator to the PrivUserGroup Active Directory security group](#add-the-deployment-administrator-to-the-privusergroup-active-directory-security-group)
 
-#### Required Privileges for Deployment Administrator
+#### Permissions required deployment administration tasks
 
--   Be a member of the Administrators group on all CRM machines that contain the deployment role.  
+In addition to Deployment Administrators role membership, additional permissions are required to perform deployment administration tasks:
 
--   Have Local Program Files folder read and write permission.  
-
--   Be a member of the Administrators group on the local computer where the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] is located that will be used to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases.  
-
--   Have sysadmin membership on the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that will be used to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases.  
-
--   Have organizational unit and security group creation and add membership permission to those groups in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]. 
-
-
+- Be a member of the Administrators group on all computers that are running a Dynamics 365 Server role.
+- Have **Program Files** folder read and write permission on the local computer where Deployment Manager is running.  
+- Be a member of the Administrators group on the local computer where the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] is located that will be used to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases.  
+- Have sysadmin membership on the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that will be used to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases.  
+- Have [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] organizational unit and security group creation and add membership permission to the organizational and security groups used by Dynamics 365 Server.
 
 #### Add the deployment administrator to the PrivUserGroup Active Directory security group
 
