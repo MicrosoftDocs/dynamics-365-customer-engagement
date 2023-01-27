@@ -596,7 +596,7 @@
       items:
         - name: Work with accounts and contacts
           href: accounts-contacts.md
-        - name: Change list viwe to focused view  
+        - name: Change from list view to focused view  
           href: focused-view.md           
         - name: Organize contacts in live org charts for accounts
           href: live-org-chart.md
@@ -701,7 +701,7 @@
       items:
         - name: Create or edit leads
           href: create-edit-lead-sales.md
-        - name: Change list viwe to focused view  
+        - name: Change from list view to focused view  
           href: focused-view.md  
         - name: Manage duplicate leads
           href: manage-duplicate-leads.md
@@ -728,7 +728,7 @@
               href: add-stakeholder.md
             - name: Move the opportunity through different stages
               href: move-opportunity-stages.md
-        - name: Change list viwe to focused view  
+        - name: Change from list view to focused view  
           href: focused-view.md               
         - name: Prioritize opportunities using predictive scores
           href: work-predictive-opportunity-scoring.md
