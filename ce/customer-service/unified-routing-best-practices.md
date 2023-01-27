@@ -1,16 +1,16 @@
 ---
-title: Best practices to set up unified routing in Customer Service
+title: Use best practices to set up unified routing in Customer Service
 description: Use this article to know about the best practices to set up unified routing in Customer Service and things to do and avoid for a successful implementation.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.service: dynamics-365
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/27/2023
 ms.custom: bap-template
 ---
 
-# Best practices to set up unified routing in Customer Service
+# Use best practices to set up unified routing in Customer Service
 
 This article discusses some of the important aspects to successfully deploy and manage unified routing and focuses on the most common areas where you might have questions.
 
@@ -18,7 +18,7 @@ This article discusses some of the important aspects to successfully deploy and 
 
 ### Verify service limits and default quotas
 
-Customer Service relies on shared cloud resources for data and processing. You must check the service limits and default quotas for the resources before you provision unified routing. These limits ensure that other tenants performance isn't affected and resources are evenly distributed. Some of the limits are adjustable and we recommend that you request adjustments accordingly. More information: [Service quotas](service-quotas.md)
+Dynamics 365 Customer Service relies on shared cloud resources for data and processing. You must check the service limits and default quotas for the resources before you provision unified routing. These limits ensure that other tenants performance isn't affected and resources are evenly distributed. Some of the limits are adjustable and we recommend that you request adjustments accordingly. More information: [Service quotas](service-quotas.md)
 
 ## Manage users
 
@@ -31,7 +31,7 @@ Use the following guidance to set up users in bulk:
 
 To manage the users in bulk, perform the steps in the following sequence:
 
-1. Create or import users to enable them
+1. Create or import users to enable them.
 1. Added the users to queues. More information: [Create and manage queues](queues-omnichannel.md)
 1. Create bookable resources. More information: [Manage users](users-user-profiles.md#manage-users-using-the-classic-experience)
 1. Add skills. More information: [Set up skills](setup-skills-assign-agents.md)
@@ -80,7 +80,7 @@ Skill-based routing lets your contact center distribute work items (conversation
 
 For example, to address the following scenario in your contact center, we recommend that you configure skill-based matching to assign work items to the agent who has the necessary skills to handle the cases:
 
-- My service team supports two types of work items: order delivery issues and refund requests. However, most of the users will have the skills for one type only.
+- My service team supports two types of work items&mdash;order delivery issues and refund requests. However, most of the users will have the skills for one type only.
 - During standard operations, the team will have two subgroups, and each group will handle one type of incoming work items.
 - During peak load, certain users can handle work items from both types.
 
@@ -88,5 +88,10 @@ Skill-based routing can also help reduce the number of queues in your organizati
 
 ## Next steps
 
-- [Overview of unified routing](overview-unified-routing.md)  
-- [FAQ about unified routing](unified-routing-faqs.md)
+[Overview of unified routing](overview-unified-routing.md)  
+[FAQ about unified routing](unified-routing-faqs.md)  
+
+### See also
+
+[Provision unified routing](provision-unified-routing.md)  
+[Set up skill-based routing](set-up-skill-based-routing.md)  
