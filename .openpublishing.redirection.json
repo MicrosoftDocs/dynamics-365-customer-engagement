@@ -361,12 +361,12 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "/dynamics365/customer-service/cs-email-template-builder",
+      "source_path": "ce/customer-service/cs-email-template-builder.md",
       "redirect_url": "/powerapps-docs/user/cs-email-template-builder.md",
       "redirect_document_id": false
     },
     {
-      "source_path": "/dynamics365/customer-service/customize-insert-email-template",
+      "source_path": "ce/customer-service/customize-insert-email-template.md",
       "redirect_url": "/powerapps-docs/user/customize-insert-email-template.md",
       "redirect_document_id": "false"
     },
