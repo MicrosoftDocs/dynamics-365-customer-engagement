@@ -98,9 +98,9 @@ Use the view list and queue list to filter and find items in queues.
      > [!NOTE]
      > The **Worked by Lookup** displaying only the members of the private queue is an early access feature.
 
-| Default experience | Legacy experience |
-| ------------ | ------------- |
-|  :::image type="content" source="media/private-queues-members-after.png" alt-text="Worked by field displaying only members of the private queue" lightbox="media/private-queues-members-after.png"::: | :::image type="content" source="media/private-queues-members-before.png" alt-text="Worked by field displaying all the available users" lightbox="media/private-queues-members-before.png"::: |
+     | Default experience | Legacy experience |
+     | ------------ | ------------- |
+     |  :::image type="content" source="media/private-queues-members-after.png" alt-text="Worked by field displaying only members of the private queue" lightbox="media/private-queues-members-after.png"::: | :::image type="content" source="media/private-queues-members-before.png" alt-text="Worked by field displaying all the available users" lightbox="media/private-queues-members-before.png"::: |
         
     
    - Your capacity will be updated. If the work item indicated capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, the available units of capacity in that profile for you will be deducted by one.
