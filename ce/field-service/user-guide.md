@@ -112,7 +112,7 @@ The purpose of this section is to help you explore all the features of Field Ser
 <ul>
 
  <li><a href="schedule-assistant.md" data-raw-source="[Schedule assistant](schedule-assistant.md)">Schedule assistant</a></li>
- <li><a href="configure-set-up-customer-assets.md" data-raw-source="[Customer assets](configure-set-up-customer-assets.md)">Customer assets</a></li>
+ <li><a href="assets.md" data-raw-source="[Customer assets](assets.md)">Customer assets</a></li>
  <li><a href="set-up-customer-agreements.md" data-raw-source="[Agreements](set-up-customer-agreements.md)">Agreements</a></li>
  <li><a href="inventory-purchasing-returns-overview.md" data-raw-source="[Overview of inventory, purchasing, and returns](inventory-purchasing-returns-overview.md)">Overview of inventory, purchasing, and returns</a></li>
 </ul>

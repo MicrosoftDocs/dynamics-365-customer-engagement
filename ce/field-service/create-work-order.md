@@ -78,7 +78,7 @@ The Get Started work order create form doesn’t support switching forms. If add
 
 1. At a minimum, enter information in the following required fields.
 
-    - For **Service Account**, select an account from the list or [create a new service account](work-order-customer-account.md#create-a-service-account).
+    - For **Service Account**, select an account from the list or [create a new service account](accounts.md).
     - For **Work Order Type**, select a work order type from the list or [create a new work order type](create-work-order-types.md).
     - For **System Status**, select **Open-Unscheduled**.
     - For **Price List**, select a price list from list or [create a new price list](create-price-list.md).
