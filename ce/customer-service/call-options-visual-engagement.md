@@ -1,7 +1,7 @@
 ---
 title: "Call options and visual engagement in live chat in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to use visual engagement, such as co-browse and screen sharing, and elevating a chat conversation to voice and video call in Omnichannel for Customer Service."
-ms.date: 08/17/2021
+ms.date: 01/23/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -33,8 +33,8 @@ Make sure that the following prerequisites are met:
 
 - **Browser:** Latest version of Microsoft Edge or Google Chrome. For more information, see the [Supported browsers for live chat widget](system-requirements-omnichannel.md#browsers-for-chat).
 - **Internet bandwidth:**
-  - **Minimum:** 500 KBps upload speed; 1 MBps download speed
-  - **Recommended:** 1 MBps upload speed; 2 MBps download speed
+  - **Minimum:** 500 Kbps upload speed; 1 Mbps download speed
+  - **Recommended:** 1 Mbps upload speed; 2 Mbps download speed
 
 ### Initiate voice and video call
 
