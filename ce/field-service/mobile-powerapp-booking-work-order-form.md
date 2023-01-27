@@ -2,7 +2,6 @@
 title: "Edit the Booking and Work Order form (Form Component Control) | MicrosoftDocs"
 description: Learn how to edit the booking and work order form in Dynamics 365 Field Service.
 ms.date: 12/01/2021
-ms.reviewer: mhart
 
 ms.topic: article
 author: Andrea-Orimoto

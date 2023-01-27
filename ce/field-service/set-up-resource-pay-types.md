@@ -2,7 +2,6 @@
 title: "Set up resource pay types (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set up resource pay types track costs associated with resource bookings in Dynamics 365 Field Service
 ms.date: 07/28/2022
-ms.reviewer: mhart
 
 ms.topic: article
 ms.author: jacoh

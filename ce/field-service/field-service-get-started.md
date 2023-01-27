@@ -2,7 +2,6 @@
 title: "Get started with Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to get started with Dynamics 365 Field Service
 ms.date: 11/30/2022
-ms.reviewer: mhart
 
 applies_to:
 - "Dynamics 365 (online)"

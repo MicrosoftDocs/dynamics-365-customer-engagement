@@ -2,7 +2,6 @@
 title: "Microsoft Azure subscription prerequisites for Connected Field Service with IoT Hub | MicrosoftDocs"
 description: Learn about Microsoft Azure subscription prerequisites for Connected Field Service with IoT Hub
 ms.date: 05/21/2019
-ms.reviewer: mhart
 
 ms.subservice: connected-field-service
 ms.topic: article

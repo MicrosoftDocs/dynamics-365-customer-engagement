@@ -2,7 +2,6 @@
 title: "Overview of the Dynamics 365 Field Service schedule assistant | MicrosoftDocs"
 description: Learn all about the schedule assistant in Dynamics 365 Field Service
 ms.date: 06/18/2020
-ms.reviewer: mhart
 
 
 ms.topic: overview

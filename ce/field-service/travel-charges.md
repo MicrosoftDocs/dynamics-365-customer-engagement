@@ -4,7 +4,6 @@ description: Learn how to use travel charges in Dynamics 365 Field Service to bi
 ms.date: 01/23/2023
 author: jshotts
 ms.author: jasonshotts
-ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template
 search.app: 

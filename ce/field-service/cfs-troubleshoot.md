@@ -2,7 +2,6 @@
 title: "Troubleshoot Connected Field Service | Microsoft Docs"
 description: Troubleshoot issues with Connected Field Service
 ms.date: 06/20/2022
-ms.reviewer: mhart
 ms.topic: troubleshooting
 
 ms.subservice: connected-field-service

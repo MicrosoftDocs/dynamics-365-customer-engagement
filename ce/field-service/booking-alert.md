@@ -2,7 +2,6 @@
 title: "Booking alerts in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to use booking alerts in Dynamics 365 Field Service
 ms.date: 07/25/2019
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 

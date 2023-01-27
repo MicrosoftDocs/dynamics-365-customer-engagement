@@ -2,7 +2,6 @@
 title: "Set up and test IoT alerts from a real device (MXChip) | MicrosoftDocs"
 description: Learn how to set up and test IoT alerts from a real device for Connected Field Service
 ms.date: 5/15/2020
-ms.reviewer: mhart
 
 ms.subservice: connected-field-service
 ms.topic: article

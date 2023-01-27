@@ -2,7 +2,6 @@
 title: "Send commands in Connected Field Service | MicrosoftDocs"
 description: Learn how to send commands using Connected Field Service
 ms.date: 11/19/2020
-ms.reviewer: mhart
 
 ms.subservice: connected-field-service
 applies_to:

@@ -4,7 +4,6 @@ description: Learn how to create and use functional locations for assets in Dyna
 ms.date: 01/24/2023
 author: jshotts
 ms.author: jasonshotts
-ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template
 search.app: 

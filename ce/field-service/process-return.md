@@ -2,7 +2,6 @@
 title: "Process a return (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about how to process a return in Dynamics 365 Field Service
 ms.date: 01/09/2020
-ms.reviewer: mhart
 
 ms.topic: article
 ms.author: jacoh

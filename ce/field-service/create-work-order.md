@@ -2,7 +2,6 @@
 title: Create a work order to coordinate and schedule resources and activities (contains video)
 description: Learn how to create a work order in Dynamics 365 Field Service.
 ms.date: 09/24/2022
-ms.reviewer: mhart
 ms.topic: article
 author: lmasieri
 ms.author: lmasieri

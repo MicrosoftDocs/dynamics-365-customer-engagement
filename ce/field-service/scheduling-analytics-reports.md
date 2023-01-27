@@ -2,7 +2,6 @@
 title: "Resource scheduling and optimization analytics dashboard in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about resource scheduling and optimization analytics dashboard in Dynamics 365 Field Service
 ms.date: 03/20/2020
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 

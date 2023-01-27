@@ -2,7 +2,6 @@
 title: "Share a schedule board tab in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to share a schedule board tab in Dynamics 365 Field Service
 ms.date: 03/29/2019
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 

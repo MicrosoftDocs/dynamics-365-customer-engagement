@@ -4,7 +4,6 @@ description: Learn about Connected Field Service for Azure IoT Central.
 ms.date: 11/08/2018
 ms.author: keithh
 author: MSKeith
-ms.reviewer: mhart
 
 ms.subservice: connected-field-service
 ms.topic: overview

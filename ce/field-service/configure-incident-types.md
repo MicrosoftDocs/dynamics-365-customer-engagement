@@ -2,7 +2,6 @@
 title: Create work order templates with incident types
 description: Learn about configuring incident types in Dynamics 365 Field Service.
 ms.date: 09/27/2022
-ms.reviewer: mhart
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts

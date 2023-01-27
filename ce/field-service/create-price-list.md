@@ -2,7 +2,6 @@
 title: Use price lists
 description: Learn about using price lists in Dynamics 365 Field Service.
 ms.date: 01/12/2023
-ms.reviewer: mhart
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen

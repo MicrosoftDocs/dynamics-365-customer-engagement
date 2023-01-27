@@ -2,7 +2,6 @@
 title: "Schedule work for multiple days in Dynamics 365 Field Service| MicrosoftDocs"
 description: Learn how to schedule work for multiple days in Dynamics 365 Field Service
 ms.date: 10/21/2019
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 

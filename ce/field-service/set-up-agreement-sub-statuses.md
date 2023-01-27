@@ -2,7 +2,6 @@
 title: "Set up agreement substatuses (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set up agreement substatuses in Dynamics 365 Field Service
 ms.date: 09/30/2017
-ms.reviewer: mhart
 
 ms.topic: article
 ms.author: jacoh

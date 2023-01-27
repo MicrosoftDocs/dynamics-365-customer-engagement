@@ -9,7 +9,6 @@ applies_to:
   - "Dynamics 9.x"
 author: JonBaker007
 ms.author: jobaker
-ms.reviewer: mhart
 search.app: 
   - D365CE
   - D365FS

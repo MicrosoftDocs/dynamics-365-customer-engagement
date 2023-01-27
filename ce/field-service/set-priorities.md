@@ -2,7 +2,6 @@
 title: Define priorities for work orders
 description: Learn how to set up priorities in Dynamics 365 Field Service.
 ms.date: 11/30/2022
-ms.reviewer: mhart
 ms.topic: article
 author: lmasieri
 ms.author: lmasieri

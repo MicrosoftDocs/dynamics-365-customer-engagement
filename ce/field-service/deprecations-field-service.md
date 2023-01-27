@@ -2,7 +2,6 @@
 title: "Feature deprecations for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about features that are being deprecated for Dynamics 365 Field Service
 ms.date: 08/20/2021
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 

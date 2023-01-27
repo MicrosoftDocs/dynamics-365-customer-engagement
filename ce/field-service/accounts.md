@@ -4,7 +4,6 @@ description: Learn how to create and use service account and billing accounts in
 ms.date: 01/24/2023
 author: jshotts
 ms.author: jasonshotts
-ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template
 search.app: 

@@ -2,7 +2,6 @@
 title: Specify skills for resources
 description: Learn how to set up characteristics in Dynamics 365 Field Service
 ms.date: 09/26/2022
-ms.reviewer: mhart
 ms.topic: article
 author: ryanchen8
 ms.author: chenryan

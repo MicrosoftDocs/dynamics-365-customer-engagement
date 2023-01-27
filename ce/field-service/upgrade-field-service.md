@@ -2,7 +2,6 @@
 title: "Upgrade Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to upgrade Dynamics 365 Field Service.
 ms.date: 02/22/2021
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 

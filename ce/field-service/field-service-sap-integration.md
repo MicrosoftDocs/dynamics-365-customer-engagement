@@ -2,7 +2,6 @@
 title: "Dynamics 365 Field Service and SAP integration | MicrosoftDocs"
 description: Learn all about Dynamics 365 Field Service and SAP integration
 ms.date: 11/26/2019
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 

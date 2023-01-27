@@ -3,7 +3,6 @@ title: Deploy Resource Scheduling Optimization for Dynamics 365 Field Service
 description: Learn how to deploy Resource Scheduling Optimization for Dynamics 365 Field Service
 ms.date: 09/07/2022
 ms.topic: article
-ms.reviewer: mhart
 
 ms.subservice: resource-scheduling-optimization
 author: FeifeiQiu

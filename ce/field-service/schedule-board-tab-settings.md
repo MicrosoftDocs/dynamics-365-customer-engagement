@@ -2,7 +2,6 @@
 title: "Schedule board tab settings for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to use schedule board tab settings in Dynamics 365 Field Service
 ms.date: 07/15/2019
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 

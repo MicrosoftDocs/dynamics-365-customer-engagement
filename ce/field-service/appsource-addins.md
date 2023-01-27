@@ -6,7 +6,6 @@ ms.date: 9/20/2018
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-ms.reviewer: mhart
 search.app: 
   - D365CE
   - D365FS

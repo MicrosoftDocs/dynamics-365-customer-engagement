@@ -2,7 +2,6 @@
 title: "Dynamics 365 Field Service mobile app | Microsoft Docs"
 description: Learn about the Field Service (Dynamics 365) mobile app.
 ms.date: 09/06/2022
-ms.reviewer: mhart
 ms.subservice: field-service-mobile
 ms.topic: overview
 applies_to: 

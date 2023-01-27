@@ -2,7 +2,6 @@
 title: "Booking maps in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn about how to set up booking maps for frontline workers in Dynamics 365 Field Service.
 ms.date: 10/14/2022
-ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: "article"

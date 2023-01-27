@@ -2,7 +2,6 @@
 title: "Connected Field Service with IoTHub architecture"
 description: Learn about how Connected Field Service uses IoTHub architecture.
 ms.date: 06/16/2022
-ms.reviewer: mhart
 ms.subservice: connected-field-service
 applies_to:
 - "Dynamics 365 (online)"

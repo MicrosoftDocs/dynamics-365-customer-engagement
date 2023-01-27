@@ -2,7 +2,6 @@
 title: "Set up service task types (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set up service task types in Dynamics 365 Field Service
 ms.date: 09/30/2017
-ms.reviewer: mhart
 
 ms.topic: article
 ms.author: jacoh

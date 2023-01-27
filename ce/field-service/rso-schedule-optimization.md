@@ -3,7 +3,6 @@ title: Schedule optimization in Resource Scheduling Optimization with Dynamics 3
 description: Learn about scheduling optimization using Resource Scheduling Optimization with Dynamics 365 Field Service
 author: FeifeiQiu
 ms.author: feiqiu
-ms.reviewer: mhart
 ms.date: 06/08/2018
 ms.topic: article
 

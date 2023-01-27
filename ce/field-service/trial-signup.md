@@ -7,7 +7,6 @@ ms.date: 10/01/2021
 ms.topic: get-started
 
 ms.custom: template-trial-setup
-ms.reviewer: mhart
 ---
 
 # Sign up for a free Dynamics 365 Field Service trial

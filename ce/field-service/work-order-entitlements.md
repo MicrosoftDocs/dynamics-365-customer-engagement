@@ -2,7 +2,6 @@
 title: "Entitlements for work orders - Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to use entitlements for work orders in Dynamics 365 Field Service
 ms.date: 03/17/2020
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 

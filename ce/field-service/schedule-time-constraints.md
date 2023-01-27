@@ -2,7 +2,6 @@
 title: "Schedule with time constraints in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about scheduling with time constraints in Dynamics 365 Field Service
 ms.date: 10/09/2019
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 

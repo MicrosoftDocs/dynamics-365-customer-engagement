@@ -2,7 +2,6 @@
 title: "Display a frontline worker or resource on the schedule board | MicrosoftDocs"
 description: Learn how to display a frontline worker or resource on the schedule board in Dynamics 365 Field Service
 ms.date: 04/01/2021
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to:

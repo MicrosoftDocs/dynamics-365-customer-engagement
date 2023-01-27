@@ -2,7 +2,6 @@
 title: "Create a purchase order (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about creating purchase orders in Dynamics 365 Field Service
 ms.date: 09/05/2022
-ms.reviewer: mhart
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen

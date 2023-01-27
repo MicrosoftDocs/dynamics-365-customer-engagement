@@ -2,7 +2,6 @@
 title: "The five stages of scheduling adoption | MicrosoftDocs"
 description: Learn about the different stages of scheduling adoption for field service organizations.
 ms.date: 09/17/2022
-ms.reviewer: mhart
 
 ms.topic: conceptual
 applies_to: 

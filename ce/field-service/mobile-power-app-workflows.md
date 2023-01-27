@@ -2,7 +2,6 @@
 title: "Create workflows and scripts for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn about workflows and scripts for the Field Service (Dynamics 365) mobile app.
 ms.date: 12/21/2022
-ms.reviewer: mhart
 ms.topic: article
 ms.subservice: field-service-mobile
 applies_to: 

@@ -2,7 +2,6 @@
 title: "Quickstart: Set up users to create, schedule, and view work orders - Dynamics 365 Field Service | MicrosoftDocs"
 description: This quickstart walks through how to set up users to create, schedule, and view work orders in Dynamics 365 Field Service.
 ms.date: 04/01/2021
-ms.reviewer: mhart
 
 ms.topic: article
 author: FeifeiQiu
