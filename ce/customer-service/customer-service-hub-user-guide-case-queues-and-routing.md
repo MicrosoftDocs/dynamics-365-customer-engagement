@@ -41,7 +41,7 @@ If you think another group in your team has expertise on the subject, you can mo
 | Default experience | Legacy experience |
 | ------------ | ------------- |
 |  :::image type="content" source="media/queue-display-name-after.png" alt-text="Screenshot of the default add to queue dialog with queue displayed" lightbox="media/queue-display-name-after.png"::: | :::image type="content" source="media/queue-display-name-before.png" alt-text="Screenshot of the default add to queue dialog without queue displayed" lightbox="media/queue-display-name-before.png"::: |
-|  :::image type="content" source="media/add-to-queue-display-after.png" alt-text="Screenshot of the lookup displaying only relevant queues" lightbox="media/add-to-queue-display-after.png"::: | :::image type="content" source="media/add-to-queue-display-before.png" alt-text="Screenshot of the lookup displaying only relevant queues" lightbox="media/add-to-queue-display-before.png"::: |
+|  :::image type="content" source="media/add-to-queue-display-after.png" alt-text="Screenshot of the lookup displaying only relevant queues" lightbox="media/add-to-queue-display-after.png"::: | :::image type="content" source="media/add-to-queue-display-before.png" alt-text="Screenshot of the lookup displaying all queues" lightbox="media/add-to-queue-display-before.png"::: |
 
 6.   Select the queue you want to add the case to, and then select **Add**.  
 
