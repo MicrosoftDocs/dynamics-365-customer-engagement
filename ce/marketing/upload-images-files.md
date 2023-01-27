@@ -1,7 +1,7 @@
 ---
 title: "Upload and use images and files in online content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to upload, tag, and find images and other files for use in emails and marketing pages in Dynamics 365 Marketing."
-ms.date: 01/20/2023
+ms.date: 01/27/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -19,16 +19,14 @@ search.app:
 
 # Upload and use images and files in online content
 
-Files are an important part of most marketing-page and marketing-email designs. The files you use must be available publicly on the internet so your emails and pages can access and display them. Though you could host your files anywhere, one convenient place to keep them is in the Dynamics 365 Marketing library, which stores the files, hosts them publicly, and provides a file browser that helps you find and place them while working in Dynamics 365 Marketing.
+Files are an important part of most marketing page and marketing email designs. The files you use must be available publicly on the internet so your emails and pages can access and display them. Though you could host your files anywhere, one convenient place to keep them is in the Dynamics 365 Marketing library, which stores the files, hosts them publicly, and provides a file browser that helps you find and place them while working in Dynamics 365 Marketing.
 
 > [!NOTE]
 > The following formats are supported:
 >
 > BMP, CSS, CSV, DOC, DOCX, GIF, HTM, HTML, JPEG, ODP, ODS, ODT, PDF, PNG, PPT, PPTX, RTF, TAR, TGZ, TXT, XLS, XLSX, XML, ZIP
 >
-> You will see an error message if you attempt to upload a file of an unsupported type.
->
-> The maximum file size for uploaded images is 5 MB. The maximum file size for uploaded files other than images is 32 MB.
+> You will see an error message if you attempt to upload a file of an unsupported type. The maximum file size for uploaded images is 5 MB. The maximum file size for uploaded files other than images is 32 MB.
 
 > [!TIP]
 > Files will be stored in the user's Microsoft Dataverse storage and will count against their file storage capacity. For more information on Dataverse storage capacity, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
@@ -37,11 +35,12 @@ Files are an important part of most marketing-page and marketing-email designs. 
 
 Whenever you add an image element to a marketing page or email or link to a file to be downloaded, you can choose to add a file that already exists in your Dynamics 365 Marketing library or upload a new one. After you've uploaded a file in this way, the file will also be available for use in other designs.
 
-![Upload a picture dialog.](media/upload-picture.png "Upload a picture by dragging it to the upload dialog box")
+> [!div class="mx-imgBorder"]
+> ![Upload a picture by dragging it to the upload dialog box.](media/upload-picture.png "Upload a picture by dragging it to the upload dialog box")
 
 You can also add files for later use. You might do this to establish a collection of files that your marketers can use as needed. Go to **Marketing** > **Marketing content** > **Library** to see a list view of all files available to your organization, and then select **New** to upload a new file. You can also find and edit existing files here.
 
-Note that you can apply keywords each time you upload a file. Keywords can make it much easier for other users to find and identify files in the future, so we recommend that you use them.
+You can apply keywords each time you upload a file. Keywords can make it much easier for other users to find and identify files in the future, so it's recommended that you use them.
 
 ## Establish keywords
 
@@ -55,13 +54,14 @@ Be careful when editing or deleting keywords. If you edit an existing keyword, a
 
 ## Use images in your content
 
-To add an image to a marketing page or email, start by dragging an image element onto your design, which positions a placeholder. Then select the element with the placeholder image and open the **Properties** tab, where you can define the source, alt text, and link for the image. Select the browse button ![Browse for picture button.](media/browse-button.png "Browse for picture button") for **Source** to open an image browser where you can find any image already uploaded to Dynamics 365 Marketing.
+To add an image to a marketing page or email, start by dragging an image element onto your design, which positions a placeholder. Then select the placeholder image to open the **Edit image** tab, where you can define the source, alt text, and link for the image. Select **Choose an image** > **Browse library** to open an image browser where you can find any image already uploaded to Dynamics 365 Marketing.
 
-![The picture library.](media/select-picture.png "Select a picture from the library")
+> [!div class="mx-imgBorder"]
+> ![Select a picture from the library.](media/select-picture.png "Select a picture from the library")
 
-To find an image more quickly, try using the **Filter Keyword** drop-down list to show only images that include the keyword you selected.
+To find an image more quickly, try using the **Filter by keyword** search bar to look for specific keywords.
 
-If the image you need isn't there, select **Upload a Picture** to add a new one. We recommend that you apply one or more keywords when uploading the image to make it easier for you and others to find later.
+If the image you need isn't there, select **+Upload** to add a new one. It's recommended that you apply one or more keywords when uploading the image to make it easier for you and others to find later.
 
 ### See also
 
