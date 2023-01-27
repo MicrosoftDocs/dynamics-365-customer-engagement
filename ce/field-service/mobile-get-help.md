@@ -2,7 +2,6 @@
 title: "Get help for Field Service Mobile | MicrosoftDocs"
 description: Learn about the ways you can get help for Field Service Mobile
 ms.date: 10/27/2021
-ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: troubleshooting
