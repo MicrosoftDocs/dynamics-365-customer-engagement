@@ -50,6 +50,7 @@ We recommend that you make 500 change requests every 15 minutes for the system t
 For example, if you manage a contact center that has 1000 agents working in it and need to set up each agent by assigning two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4000.
 
 Based on our recommendation of 500 requests per 15 minutes, you'll need to make these requests in eight batches as follows.
+
 |Change request type|Number of requests|Number of batches|
 |-----------|---------|------------|
 |Two skills per agent|250 requests per batch|Four|
