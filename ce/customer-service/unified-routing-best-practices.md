@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 This article discusses some of the important aspects to successfully deploy and manage unified routing and focuses on the most common areas where you might have questions.
 
+> [!IMPORTANT]
+> We recommend that wherever applicable, you use the features with the specified limits. Beyond the specified limits, system reliability and performance might be affected.
+
 ## Provision unified routing
 
 ### Verify service limits and default quotas
 
 Dynamics 365 Customer Service relies on shared cloud resources for data and processing. You must check the service limits and default quotas for the resources before you provision unified routing. These limits ensure that other tenants performance isn't affected and resources are evenly distributed. Some of the limits are adjustable and we recommend that you request adjustments accordingly. More information: [Service quotas](service-quotas.md)
-
-> [!IMPORTANT]
-> We recommend that wherever applicable, you use the features with the specified limits. Beyond the specified limits, system reliability and performance might be affected.
 
 ## Manage users
 
