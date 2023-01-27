@@ -1,11 +1,13 @@
 ---
-title: "Configure and customize the customer details and recent records | MicrosoftDocs"
-description: "Learn about adding Customer360 and Recent Records cards to forms."
-ms.date: 01/30/2023
-ms.topic: article
-author: neeranelli
-ms.author: nenellim
-manager: shujoshi
+title: Configure and customize the customer details and recent records | MicrosoftDocs 
+description: Learn about adding Customer360 and Recent Records cards to forms
+author: gandhamm 
+ms.author: mgandham
+ms.reviewer: neeranelli
+ms.service: dynamics-365 
+ms.topic: how-to 
+ms.date: 01/30/2023 
+ms.custom: bap-template 
 ---
 
 # Configure and customize customer details and recent cases on forms
@@ -23,10 +25,12 @@ Perform the following steps to add the Customer360 and Recent Records components
    - **Customer 360**: Drag and drop it into a section on the form. On the **Properties** panel:
         - Select the attributes from the table that must be displayed as fields on the form to the user. You can select up to seven columns and three composite attributes. 
         - Specify if the users can edit the fields in the card in the **Enable Editing** drop down. This field is set to **Yes** by default. 
+          :::image type="content" source="media/powerapps-customer360.png" alt-text="Customer details" lightbox="media/powerapps-customer360.png":::
    - **Recent records**: Drag and drop it into a section on the form. On the **Properties** panel: 
         - Specify the **Table** from which the records must be displayed. 
         -  Select the **Default view** and **Default chart**. The views and charts available in the table are displayed.
         - Specify the maximum number of rows to be displayed on the card, when the card loads. The default number of rows displayed is 4.
+           :::image type="content" source="media/powerapps-recent-records.png" alt-text="Default minimal resolve case" lightbox="media/powerapps-recent-records.png":::
 
 > [!NOTE]
 > Select **Get more components** if you can't see these options in **Components**.
@@ -53,3 +57,13 @@ You can also choose to go back to the legacy recent cases experience in the Cust
     - **Account**: Cases for Customer
     - **Contact**: Cases for Customer
 1. Select **Save** and **Publish**.
+
+### See also
+
+[Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)
+
+[Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
+  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

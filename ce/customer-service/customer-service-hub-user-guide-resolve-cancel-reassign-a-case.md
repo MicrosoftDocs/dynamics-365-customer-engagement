@@ -41,10 +41,17 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
      - **Duration**. The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** box.  
      - **Billable Time**: The amount of time spent on the case to be billed to the customer.  
      - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.  
+     
+     | Default experience | Legacy experience |
+     | ------------ | ------------- |
+     |  :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case-after.png"::: | :::image type="content" source="media/minimal-resolve-case-before.png" alt-text="Legacy resolve case" lightbox="media/minimal-resolve-case-before.png"::: |
+     |  :::image type="content" source="media/resolve-case-after.png" alt-text="Open activity warning" lightbox="media/resolve-case-after.png"::: | :::image type="content" source="media/resolve-case-before.png" alt-text="legacy open activity dialog" lightbox="media/resolve-case-before.png"::: |
+
   
 6  Select **Resolve**.
 
 > [!NOTE]
+> - The minimal **Resolve case** dialog and the ehnanced **Resolve case is an early access feature.
 > - While you can't edit or update through the UI any attribute of the case after it is resolved, you can configure an API or a Power Automate flow to be run if the setting in service configuration is enabled. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md). 
 > - The "resolve cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](/power-automate/create-business-process-flow#add-an-on-demand-action-to-a-business-process-flow).
 
