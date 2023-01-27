@@ -9,12 +9,14 @@ ms.date: 12/20/2022
 ms.custom: bap-template
 ---
 
+<!-- note from editor: -->
+
 
 # Migrate configuration data for records
 
 This article includes procedures for migrating configuration data for records. You must migrate the data in the order of:
 
-1. Skill-based routing rule sets
+1. Skill-based routing rulesets
 1. Capacity profiles
 1. Queues
 1. Intake rules
@@ -22,9 +24,9 @@ This article includes procedures for migrating configuration data for records. Y
 
 The procedures include tables with entity information and corresponding sample schemas for each configuration.
 
-## Migrate configuration for skill-based routing rule sets
+## Migrate configuration for skill-based routing rulesets
 
-If skill-based routing rule sets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
+If skill-based routing rulesets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
 
 For sample schema to get all the required records, see [Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml).
 
@@ -45,7 +47,7 @@ For sample schema to get all the required records, see [Sample schema for skill-
 
 1. Generate the schema and save it.
 
-1. Export the data and generate the compressed (zip) file.
+1. Export the data and generate the compressed (ZIP) file.
 
 1. Use the Configuration Migration tool, and select the option to import data into the target organization using the compressed file.
 
@@ -67,9 +69,14 @@ For sample schema to get all the required records, see [Sample schema for capaci
 
 2. Generate the schema and save it.
 
-3. Export the data and generate the compressed (zip) file.
+3. Export the data and generate the compressed (ZIP) file.
 
 4. Use the Configuration Migration tool, and select the option to import data into the target organization.
+
+
+
+
+
 
 ## Migrate configuration for record queues
 
