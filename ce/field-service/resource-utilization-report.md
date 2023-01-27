@@ -16,8 +16,6 @@ search.app:
 
 Resource managers can use the resource and utilization report to gather information that helps them ensure efficient use of resources. They can monitor key information like time spent on bookings, allocation of bookings across territories, or how individual resources are allocated.
 
-To access the report, open the **Field Service** app, change to the **Resources** area, and go to ***Analytics and Insights** > **Reports**.
-
 ## Filters and slicers
 
 - **Date range**: A [relative date range](/power-bi/visuals/desktop-slicer-filter-date-range).
@@ -25,17 +23,19 @@ To access the report, open the **Field Service** app, change to the **Resources*
 - **Resource**: [Active bookable resources](set-up-bookable-resources.md).
 - **Booking status**: Available [Booking statuses](set-up-booking-statuses.md).
 
-## Report metrics
-
-All charts adapt to the filters and the formulas assume don't mention them specifically.
-
-### Key metrics
+## Common metrics
 
 - **Number of days**: Takes several factors into account. First, the system checks how many days a booking lasted and then determines how many of these days are considered work hours. For example, work days are defined Monday to Friday and a booking starts Thursday and ends Monday. The resulting number of days will be 3.
 - **Work and travel time**: Depends on the booking status. For scheduled bookings, the estimated duration is taken into account. As soon as a technician starts working on the booking, reports consider the actual work duration.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a resource and utilization report.](./media/scheduling-analytics1.png)
+## Report metrics
+
+To access the report, open the **Field Service** app, change to the **Resources** area, and go to ***Analytics and Insights** > **Reports**.
+
+:::image type="content" source="media/resource-utilization-report.png" alt-text="Screenshot of a resource and utilization report.":::
+
+> [!NOTE]
+> Visualizations adapt to the filters and the listed formulas don't mention them specifically.
 
 ### Avg. work time per day (hrs.)
 
@@ -99,9 +99,6 @@ Formula:
 ### Duration breakdown
 
 Total work time, travel time, break time, and idle time. You can also drill in to the information to see specific information for in-progress jobs or completed jobs.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of additional sections on the resource and utilization report.](./media/scheduling-analytics2.png)
 
 ### Bookings by territory
 

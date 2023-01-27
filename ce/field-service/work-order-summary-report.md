@@ -37,7 +37,7 @@ Operations managers are responsible for managing work orders in order to provide
 
 To access the work order summary report, open the **Field Service** app, change to the **Resources** area, and go to ***Analytics and Insights** > **Field Service historic analysis**.
 
-![Screenshot showing a sample work order summary report.](./media/report-overview-example.png)
+:::image type="content" source="media/work-order-summary-report.png" alt-text="Screenshot showing a sample work order summary report.":::
 
 ### Work orders
 
@@ -57,39 +57,39 @@ Average time to schedule from the time the work order was created to the time of
 
 ### Mean time to travel (hrs)
 
-Average time taken by an agent to travel to the customer. Calculated for all non-agreement work orders. 
+Average time taken by an agent to travel to the customer. Calculated for all non-agreement work orders.
 
 ### Mean time to complete (hrs)
 
 Average time taken to complete all the bookings for a specific work order from the date the work order was created.
 
-### Number of incidents types
+### Avg. CSAT
 
-Distinct count of the incident types that have been mapped to the work orders.
+Average customer satisfaction rate.
 
 ### Work orders by system status
 
-Represents the number of work orders by   status.
+Number of work orders by status.
 
 ### Work order trends by system status
 
-Represents the trend of work orders created and their associated statuses.
+Work order status over time.
 
 ### Work orders by substatus
 
-Represents the number of work orders created and their current substatuses.
+Number of work orders by substatus.
 
 ### Work order trends by work order type
 
-Represents the trend of work orders created by types.
+Work order type over time.
 
 ### Mean time to complete by work order type (mins)
 
-Represents average time to complete the work   order.
+Average time to complete work order over time.
 
 ### Work orders by primary incident type
 
-Represents  work orders by primary incident type. 
+Number of work orders by primary incident type.
 
 ### Broken promise (%) by work order type
 
@@ -97,15 +97,23 @@ Represents the correlation between broken promise percentage and work order type
 
 ### Broken promise (%) vs mean time to schedule (mins)
 
-Represents the correlation between broken promise percentage and mean time to schedule in minutes.
+Correlation between broken promise percentage and average time to schedule in minutes.
 
 ### Broken promise (%) vs mean time to travel (hrs)
 
-Represents the correlation between broken promise percentage and mean time to travel  in hours.
+Correlation between broken promise percentage and average travel time in hours.
+
+### CSAT Trend
+
+Average CSAT value per month over time.
+
+### CSAT by substatus
+
+Number of work order with CSAT rating by substatus.
 
 ### Territory analysis
 
-Shows a filled map for each territory. Upon hover on a specific territory, you'll see the number of bookings. Note: The territory is based on the territory entity. For this report to properly render, the territory needs to be a physical geolocation rather a logical geolocation.
+Number of bookings by [territory](set-up-territories.md) on a map. The territory needs to be a physical geolocation to show on the map.
 
 <!--
 |    Visuals                                               |    Description                                                                                                                                                                                                                                                                                              |
