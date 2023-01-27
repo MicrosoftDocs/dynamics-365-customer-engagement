@@ -60,6 +60,9 @@ More information: [Export data](export-data-word-excel.md)
 
 ## Keep your data clean by using duplicate detection
 
+> [!IMPORTANT]
+> Duplicate detection settings only apply to outbound marketing, not real-time marketing.
+
 To maintain the integrity of your data, it's a good idea to set up duplicate detection to find duplicate records in the system. By default, duplicate detection is already enabled for Dynamics 365 Marketing.
 
 ### Duplicate detection rules

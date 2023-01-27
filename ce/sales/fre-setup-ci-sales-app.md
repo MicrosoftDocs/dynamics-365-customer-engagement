@@ -1,7 +1,7 @@
 ---
 title: "First-run setup experience for conversation intelligence in sales app"
 description: "Learn about first-run configuration of conversation intelligence for Microsoft Teams for your Dynamics 365 Sales environment."
-ms.date: 01/11/2023
+ms.date: 01/25/2023
 ms.custom: 
 ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
@@ -92,24 +92,27 @@ Before you configure Teams with conversation intelligence, you must enable the T
     - In the **My languages** section, add languages used by sellers during calls with customers. This selection helps ensure accurate transcription, keyword tracking, analysis, insights, and KPIs.
 
         
-    > [!div class="mx-imgBorder"]
-    > ![Configure business setting.](media/ci-admin-conversation-trackers.png "Configure business setting")
+        > [!div class="mx-imgBorder"]
+        > ![Configure business setting.](media/ci-admin-conversation-trackers.png "Configure business setting")
 
 7.	(Optional) In the **Data consent and privacy** section, you can select the checkbox to allow Microsoft to improve the quality of insights by giving read-only access to your organization's data in conversation intelligence.  
 
     > [!div class="mx-imgBorder"]
     > ![Enable privacy.](media/ci-admin-enable-privacy.png "Enable privacy")
 
-9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.  
+9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.
 
-10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
+    - [Enable call categorization for short calls (preview)](#enable-call-categorization-for-short-calls-preview)
+    - [Hide personal data (preview)](#hide-personal-data-preview)
+
+10.	Select **Publish**.  
+    In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
 
 Teams call recording with conversation intelligence is now configured and ready for use in your organization.  
 
+#### Hide personal data (preview)
 
-### Hide personal data (preview)
-
-To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as, credit card number, expiry date, and CVV will be masked before saving a transcript.
+To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as, credit card number, expiry date, and CVV will be masked before saving a transcript. For more information, see 
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
@@ -120,6 +123,19 @@ To comply with the Payment Card Industry (PCI) regulations, organizations must p
     This option ensures that the credit card information in the transcripts of all future calls are masked and saved. Currently, the credit card number mentions in the audio are not redacted.
 
     :::image type="content" source="media/hide-pii.png" alt-text="Screenshot of the hide personal data option."::: 
+
+#### Enable call categorization for short calls (preview)
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+If you have chosen **Automatic recording** to record all customer calls, you can enable call categorization to help your sales team to quickly identify calls that don't have useful content such as calls that went to voicemail and calls that were not answered. More information: [View categorization tag for short duration calls (Preview)](view-and-understand-call-summary-sales-app.md#view-categorization-tag-for-short-duration-calls-preview)
+
+1. Follow steps 1 through 4 in the [Configure Microsoft Teams call recording](#configure-microsoft-teams-call-recording) to open the Teams call recording options.
+
+1. Go to the **New and upcoming features** section, select **Call categorization (preview)**, select the type of calls you want the system to detect and tag.  
+
+    :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features":::
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 

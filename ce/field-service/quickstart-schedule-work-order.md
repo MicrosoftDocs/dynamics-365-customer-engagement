@@ -121,7 +121,7 @@ In the form, fill out relevant details.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the new work order form in Field Service.](./media/getstarted-wo2.png)
 
-- The **Service Account** represents the customer who the work order relates to. 
+- The [**Service Account**](accounts.md) represents the customer who the work order relates to.
 - **Tasks** are a checklist of things that need to be done.
 - **Products** are parts that may be needed to complete the work order.
 - **Services** represents labor that may be needed to complete the work order.
