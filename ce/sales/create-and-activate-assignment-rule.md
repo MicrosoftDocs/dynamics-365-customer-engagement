@@ -83,8 +83,8 @@ When a lead or opportunity record is created in an organization, assignment rule
 
             >[!div class="mx-imgBorder"]
             >![Add related entity condition.](media/sa-segment-condition-add-related-entity.png "Add related entity condition")
-    -  <a name="considerLeadsCreated"></a>**Consider leads created in a specific timeframe**: Select the **Consider the leads crated in the last *hours*** option to assign records that are created in the application in the specified timeframe to sellers. Also, the rule considers only the records that are created after the rule is activated.   
-        When the sellers' availability is configured under the [Distribute leads by](#distributeLeadsBy) option, the rule first checks for the sellers' availability and then considers to assign in the set timeframe. If no seller is available to take the record with in the set timeframe, the record is marked as overdue with the status reason *Seller not assigned as record is older than the set timeframe*.   
+    -  <a name="considerLeadsCreated"></a>**Consider leads created in a specific timeframe**: Select the **Consider the leads created in the last *hours*** option to assign records that are created in the application in the specified timeframe to sellers. Also, the rule considers only the records that are created after the rule is activated.   
+        When the sellers' availability is configured under the [Distribute leads by](#distributeLeadsBy) option, the rule first checks for the sellers' availability and then considers to assign in the set timeframe. If no seller is available to take the record within the set timeframe, the record is marked as overdue with the status reason *Seller not assigned as record is older than the set timeframe*.   
         To know more about unassigned records and status reasons, see [View unassigned records](manage-unassigned-records.md#view-unassigned-records).  
 
 7. Under **Assign these leads to sellers or a team**, choose one of the options described in the following table.
