@@ -2,11 +2,9 @@
 title: "Collaborate on work orders with Microsoft Teams (Dynamics 365 Field Service) (contains video) | MicrosoftDocs"
 description: Collaborate in the context of work orders by integrating with Microsoft Teams
 ms.date: 08/26/2022
-ms.reviewer: mhart
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-manager: shellyha
 search.app:
 - D365CE
 - D365FS
