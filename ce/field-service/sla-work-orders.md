@@ -3,7 +3,6 @@ title: Service level agreements (SLAs) for work orders
 description: Learn about service Level Agreements (SLAs) for work orders in Dynamics 365 Field Service.
 ms.date: 10/10/2022
 ms.reviewer: mhart
-ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
