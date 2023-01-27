@@ -5,7 +5,6 @@ ms.date: 09/07/2022
 ms.topic: article
 ms.author: keithh
 author: MSKeith
-ms.reviewer: mhart
 search.audienceType: 
   - developer
 ms.custom: 

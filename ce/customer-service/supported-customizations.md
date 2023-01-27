@@ -4,9 +4,8 @@ description: Learn about the customizations that are supported by the Conversati
 author: mh-jaya
 ms.author: v-jmh
 ms.reviewer: nenellim
-ms.service: dynamics-365 
 ms.topic: conceptual 
-ms.date: 01/12/2023
+ms.date: 01/19/2023
 ms.custom: bap-template
 ---
 
@@ -16,7 +15,15 @@ This article lists the customizations supported by the Conversation entity and f
 
 ## Customizations supported by the Conversation entity
 
-You can create business rules on the Conversation entity.
+You can create business rules on the Conversation entity. 
+
+
+Here are a few actions that aren't supported on the Conversation entity:
+- You can’t add new forms, views, fields, or charts on the Conversation entity.
+- You can’t edit existing views or fields, but some properties of `msdyn_title` and `msdyn_thirdpartyconversations` can be changed.
+- You can’t add a lookup field (many-to-one relationship or many-to-many relationship) on the Conversation entity.
+
+We recommend that you don't create alternate keys. 
 
 ## Customizations supported by the Conversation form
 
@@ -29,12 +36,19 @@ You can customize the **Conversation** form to:
     - Edit the quick view for customers and cases
     - Remove recent cases subgrid
     - Add web resources and external website controls 
-    - Load **Customer Summary** form as an application tab instead of anchor tab in a session
+    - Load **Customer summary** form as an application tab instead of anchor tab in a session
 
+
+However, you can't add canvas apps. We also recommend that:
+- You don't change the **Conversation** form or the order in which it's displayed, as it's the default form.
+- You don't modify the out-of-the-box JavaScript handlers used in the **Customer summary** form.
 
 ## Next steps
 
-[Conversation entity](developer/reference/entities/msdyn_ocliveworkitem.md)  
-[Customize Customer Summary form](customize-customer-summary.md)  
+[Customize Customer summary form](customize-customer-summary.md)  
 [Customize quick view forms](customize-quick-view-form.md)  
 [Customize session forms](customize-session-form.md)  
+
+### See also
+
+[Conversation entity](developer/reference/entities/msdyn_ocliveworkitem.md)  

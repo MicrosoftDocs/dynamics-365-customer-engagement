@@ -2,7 +2,6 @@
 title: "Work order and booking statuses in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn about work order and booking statuses in Dynamics 365 Field Service
 ms.date: 11/04/2021
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
@@ -10,7 +9,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: clearab
 ms.author: anclear
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
