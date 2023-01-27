@@ -1098,35 +1098,35 @@
                 - name: msdyn_callablecontext
                   href: developer/entities/msdyn_callablecontext.md
         - name: PriceLevel
-          href: pricelevel.md
+          href: developer/entities/pricelevel.md
         - name: Product
-          href: product.md
+          href: developer/entities/product.md
         - name: ProductAssociation
-          href: productassociation.md
+          href: developer/entities/productassociation.md
         - name: ProductPriceLevel
-          href: productpricelevel.md
+          href: developer/entities/productpricelevel.md
         - name: ProductSubstitute
-          href: productsubstitute.md
+          href: developer/entities/productsubstitute.md
         - name: Quote
-          href: quote.md
+          href: developer/entities/quote.md
         - name: QuoteClose
-          href: quoteclose.md
+          href: developer/entities/quoteclose.md
         - name: QuoteDetail
-          href: quotedetail.md
+          href: developer/entities/quotedetail.md
         - name: RollupField
-          href: rollupfield.md
+          href: developer/entities/rollupfield.md
         - name: SalesLiterature
-          href: salesliterature.md
+          href: developer/entities/salesliterature.md
         - name: SalesLiteratureItem
-          href: salesliteratureitem.md
+          href: developer/entities/salesliteratureitem.md
         - name: SalesOrder
-          href: salesorder.md
+          href: developer/entities/salesorder.md
         - name: SalesOrderDetail
-          href: salesorderdetail.md
+          href: developer/entities/salesorderdetail.md
         - name: UoM
-          href: uom.md
+          href: developer/entities/uom.md
         - name: UoMSchedule
-          href: uomschedule.md
+          href: developer/entities/uomschedule.md
     - name: Action Reference
       items:
         - name: RecalculatePrice Action

@@ -1,7 +1,6 @@
 ---
 title: "Sample: Assign a chart to another user | MicrosoftDocs"
 description: Learn how to assign a user-owned visualization, such as a chart, to another using the AssignRequest message with this sample.
-description: ""
 keywords: 
 ms.date: 10/31/2017
 
