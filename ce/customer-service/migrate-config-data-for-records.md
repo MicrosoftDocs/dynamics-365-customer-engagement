@@ -9,7 +9,7 @@ ms.date: 12/20/2022
 ms.custom: bap-template
 ---
 
-<!-- note from editor: -->
+<!-- note from editor: In line 621, it says "Master entity routing configuration for a routed records." Should it be "a routed record"? Or "all routed records"? -->
 
 
 # Migrate configuration data for records
@@ -47,7 +47,7 @@ For sample schema to get all the required records, see [Sample schema for skill-
 
 1. Generate the schema and save it.
 
-1. Export the data and generate the compressed (ZIP) file.
+1. Export the data and generate the compressed (.zip) file.
 
 1. Use the Configuration Migration tool, and select the option to import data into the target organization using the compressed file.
 
@@ -69,14 +69,9 @@ For sample schema to get all the required records, see [Sample schema for capaci
 
 2. Generate the schema and save it.
 
-3. Export the data and generate the compressed (ZIP) file.
+3. Export the data and generate the compressed (.zip) file.
 
 4. Use the Configuration Migration tool, and select the option to import data into the target organization.
-
-
-
-
-
 
 ## Migrate configuration for record queues
 
@@ -102,21 +97,21 @@ For sample schema to get all the required records, see [Sample schema for capaci
 
 2. Generate the schema and save it.
 
-3. Export the data and generate the compressed (zip) file.
+3. Export the data and generate the compressed (.zip) file.
 
-4. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
+4. Extract the .zip file, open the data.xml file present in the extracted folder, and do the following:
 
    - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_assignmentoutput'`
 
-     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In the data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
    - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_selectionruleoutput'`
 
-     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
 5. Package the extracted content again.
 
@@ -462,7 +457,7 @@ Before you migrate intake rules, check for the following:
 
 - If the target organization doesn't have the intake rules for the record type that you want to import, then remove the msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
 - If the target organization has intake rules for the record type with the same GUID, then remove the msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
-- If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you import.
+- If the target organization has intake rules for the record type with a different GUID, then delete all the intake rules in the target organization before you import.
 
 ### Migrate configuration of intake rules
 
@@ -474,27 +469,27 @@ Before you migrate intake rules, check for the following:
     | S.No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |-----|---------|---------|---------|
     | 1. | Decision contract (msdyn_decisioncontract) |  <ul><li>Contract definition (msdyn_contractdefinition)</li><li>Decision contract (msdyn_decisioncontractid) </li><li>Name (msdyn_name) </li><li>Unique name (msdyn_uniquename) </li></ul>  |  [**Sample 1: Decision contract for all routed records**](#BKMK1dc-all-rr) <br><br> [**Sample 2: Decision contract for the incident entity**](#BKMK2dc-incident) <br><br>  [**Sample 3: Decision contract for the incident and task entities**](#BKMK3dc-incident-task)  |
-    | 2. |  Decision ruleset (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li> Description (msdyn_description) </li><li>  Input contract (msdyn_inputcontractid) </li><li>  Is input collection (msdyn_isinputcollection) </li><li> ML model type (msdyn_mlmodeltype) </li><li> Name (msdyn_name) </li><li> Output contract (msdyn_outputcontractid) </li><li>  Rule set definition (msdyn_rulesetdefinition) </li><li>  Rule set type (msdyn_rulesettype) </li><li> Unique name (msdyn_uniquename) </li></ul> |  [**Sample 1: Decision ruleset for all rouced records**](#BKMK1drl-all-rr) <br><br> [**Sample 2: Decision ruleset for the incident entity**](#BKMK2drl-incident) <br><br> [**Sample 3: Decision ruleset for the incident and task entities**](#BKMK3drl-incident-task) <br> <br>  |
+    | 2. |  Decision ruleset (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li> Description (msdyn_description) </li><li>  Input contract (msdyn_inputcontractid) </li><li>  Is input collection (msdyn_isinputcollection) </li><li> ML model type (msdyn_mlmodeltype) </li><li> Name (msdyn_name) </li><li> Output contract (msdyn_outputcontractid) </li><li>  Rule set definition (msdyn_rulesetdefinition) </li><li>  Rule set type (msdyn_rulesettype) </li><li> Unique name (msdyn_uniquename) </li></ul> |  [**Sample 1: Decision ruleset for all routed records**](#BKMK1drl-all-rr) <br><br> [**Sample 2: Decision ruleset for the incident entity**](#BKMK2drl-incident) <br><br> [**Sample 3: Decision ruleset for the incident and task entities**](#BKMK3drl-incident-task) <br> <br>  |
     | 3. | Master Entity Routing Configuration (msdyn_masterentityroutingconfiguration) | <ul><li>Entity (msdyn_entitylogicalname) </li><li> Master Entity Routing Configuration (msdyn_masterentityroutingconfigurationid) </li><li> Name (msdyn_name) </li><li> Rule set (msdyn_rulesetid) </li><li> Unique Name (msdyn_uniquename) </li></ul> |  [**Sample 1: Master entity routing configuration for a routed records**](#BKMK1mer-rr) <br> <br>  [**Sample 2: Master entity routing configuration for the incident entity**](#BKMK2mer-incident) <br> <br> [**Sample 3: Master entity routing configuration for the incident and task entities**](#BKMK3mer-incident-task) |
     |||||
 
 1. Generate the schema and save it.
 
-2. Export the data and generate the compressed (zip) file.
+2. Export the data and generate the compressed (.zip) file.
 
-3. Extract the zip file, open the data.xml file present in the extracted folder, and perform the following operations:
+3. Extract the .zip file, open the data.xml file present in the extracted folder, and perform the following operations:
 
    - In the source and target organizations, run the following OData API call and note the `msdyn_decisioncontractid`:
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfiguration'`
 
-     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
    - In the source and target organizations, run the following OData API call and note the `msdyn_decisioncontractid`:
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfigurationunifiedrouting'`
 
-     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
 4. Package the extracted content again.
 
@@ -669,7 +664,7 @@ For sample schema to get all the required records, see [Sample schema for intake
     [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)] 
     
 	> [!NOTE]
-	> Ensure that the workstreams that're referred in the intake rules exist in the target organization or are present as part of the current migration.
+	> Ensure that the workstreams that are referred in the intake rules exist in the target organization or are present as part of the current migration.
 
 
     | S.No. | Entity display name (Logical name)  | Attribute display name (Logical name)  | Use FetchXML to filter records  |
@@ -684,27 +679,27 @@ For sample schema to get all the required records, see [Sample schema for intake
 
 2. Generate the schema and save it.
 
-3. Export the data and generate the compressed (zip) file.
+3. Export the data and generate the compressed (.zip) file.
 
-4. Extract the zip file, open the data.xml file present in the extracted folder, and perform the following operations:
+4. Extract the .zip file, open the data.xml file present in the extracted folder, and perform the following operations:
 
    - In the source and target organizations, run the following OData API call and note the `msdyn_decisioncontractid`.
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfiguration'`
 
-     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
    - In the source and target organizations, run the following OData API call and note the `msdyn_decisioncontractid`.
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfigurationunifiedrouting'`
 
-     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
    
    - In the source and target organizations, run the following OData API call and note the `msdyn_decisioncontractid`.
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_demandqueueidentificationoutput'`
 
-     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
 5. Package the extracted content again.
 
