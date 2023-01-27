@@ -10,7 +10,7 @@ ms.topic: article
 
 # Configure direct callback
 
-Direct callback enables customers to request a callback as soon as an agent is available instead of waiting on the call. You can configure the direct callback option at the queue level by using the overflow action "direct callback" for a specific queue condition. After the call reaches the number one position in the queue, the direct callback work item is assigned to the next available agent just like any regular work item that's waiting in queue. After the agent accepts the work item, a callback to the customer who requested a direct callback is automatically initiated and connected to the agent. In summary, direct callback helps provide better customer experiences by avoiding waiting in queue and helps administrators staff queues more efficiently to handle peak volume periods.
+Direct callback enables customers to request a callback as soon as an agent is available instead of waiting on the call. You can configure the direct callback option at the queue level by using the overflow action "direct callback" for a specific queue condition. After the call reaches the number one position in the queue, the direct callback work item is assigned to the next available agent through a notification just like any regular work item that's waiting in queue. Except that the notification identifies the work item as a callback versus a regular inbound call.  After the agent accepts the work item, a callback to the customer who requested a direct callback is automatically initiated and connected to the agent. In summary, direct callback helps provide better customer experiences by avoiding waiting in queue and helps administrators staff queues more efficiently to handle peak volume periods.
 
 ## Prerequisites for direct callback
 
@@ -49,7 +49,7 @@ The direct callback is triggered by the queue overflow conditions where the corr
 1. If the customer acknowledges the callback option by pressing 1, a second message is played for the customer that acknowledges the customer choice and lets the customer know about receiving a callback.
 1. The call ends for the customer but the work item remains in the queue.
 1. When the work item reaches the position 1, a voice callback is initiated automatically.
-1. The callback is of the type preview dialing, in which the agent has to accept the callback using a call notification before the call is dialed. The notification comment indicates that the incoming call is a callback conversation.
+1. The callback is of the type preview dialing, in which the agent has to accept the callback using a callback-specific notification before the call is dialed.
 
 ### See also
 
