@@ -30,7 +30,7 @@ search.app:
 
 In addition to the standard effects described [previously](), business units affect segments as follows:
 
-- When [scoping is enabled](https://learn.microsoft.com/dynamics365/marketing/business-units#enable-bu-scopes) for your instance, each [segment](https://learn.microsoft.com/dynamics365/marketing/segmentation-lists-subscriptions) is automatically scoped to the segment owner’s business unit. In addition,
+- When [scoping is enabled](/learn.microsoft.com/dynamics365/marketing/business-units#enable-bu-scopes) for your instance, each [segment](https://learn.microsoft.com/dynamics365/marketing/segmentation-lists-subscriptions) is automatically scoped to the segment owner’s business unit. In addition,
     - Business-unit scoped segments will only include audience members from the same business unit as the segment owner—even if the selection criteria would otherwise identify contacts from all business units.
 
 ## Customer journey scopes, design, processing, and content settings
