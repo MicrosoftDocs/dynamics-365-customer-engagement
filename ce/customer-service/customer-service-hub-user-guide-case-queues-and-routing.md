@@ -1,7 +1,7 @@
 ---
 title: "Cases to queues and routing in Customer Service Hub | MicrosoftDocs"
 description: "Understand cases and SLA in Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 02/01/2023
+ms.date: 01/30/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -19,7 +19,7 @@ search.app:
 
 # Case queues and routing
 
-Customer Service Hub provides you with the ability to add a case to a queue, and save case records and route them to a queue.
+Customer Service allow you to add a case to a queue, save case records, and route them to a queue.
 
 ## Add a case to a queue  
 
@@ -34,6 +34,14 @@ If you think another group in your team has expertise on the subject, you can mo
 3. On the command bar, select **Add to Queue**.  
 
 4. The **Queue** field displays the queue the case is currently added to. The **Lookup** displays only queues that are configured for the specific entity. Voice and messaging queues aren't displayed since cases can't be added to those queues.
+
+> [!NOTE]
+> This is an early access feature.
+
+| Default experience | Legacy experience |
+| ------------ | ------------- |
+|  :::image type="content" source="media/queue-display-name-after.png" alt-text="Screenshot of the default add to queue dialog with queue displayed" lightbox="media/queue-display-name-after.png"::: | :::image type="content" source="media/queue-display-name-before.png" alt-text="Screenshot of the default add to queue dialog without queue displayed" lightbox="media/queue-display-name-before.png"::: |
+|  :::image type="content" source="media/add-to-queue-display-after.png" alt-text="Screenshot of the lookup displaying only relevant queues" lightbox="media/add-to-queue-display-after.png"::: | :::image type="content" source="media/add-to-queue-display-before.png" alt-text="Screenshot of the lookup displaying only relevant queues" lightbox="media/add-to-queue-display-before.png"::: |
 
 6.   Select the queue you want to add the case to, and then select **Add**.  
 
