@@ -4,7 +4,7 @@ description: "Use this article to know about the supported cloud locations, lang
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/14/2022
+ms.date: 01/27/2023
 ms.topic: article
 ---
 # Supported cloud locations, languages, and locale codes
@@ -47,9 +47,9 @@ If you need your data to stay within a region, see the following table for previ
 |----------|---------|-----|
 |United Kingdom **<sup>1</sup>** (crm11.dynamics.com) |June 2022  | October 14, 2022 |
 |Canada **<sup>1, 2</sup>** |August 2022 | November 30, 2022  |
+|Switzerland **<sup>1, 2</sup>** | January 2023 | April 30, 2023|
+|India **<sup>1, 2</sup>** | February 2023 | April 30, 2023  |
 |Japan **<sup>1, 2</sup>** | August 2022 | To be announced  |
-|Switzerland **<sup>1, 2</sup>** | To be announced | To be announced|
-|India **<sup>1, 2</sup>** | To be announced | To be announced  |
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 | United Arab Emirates | To be announced | To be announced |
