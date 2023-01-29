@@ -36,7 +36,9 @@ If you think another group in your team has expertise on the subject, you can mo
 4. The **Queue** field displays the queue the case is currently added to. The **Lookup** displays only queues that are configured for the specific entity. Voice and messaging queues aren't displayed since cases can't be added to those queues.
 
 > [!NOTE]
-> The **Queue** field displaying the current case the queue is added to and the **Lookup** displaying only queues that are configured for the specific entity are  early access features.
+> The following features are early access:
+> - The **Queue** field displays the current queue the case is added to.
+> - The **Lookup** displays only queues that are configured for the specific entity.
 
 | Default experience | Legacy experience |
 | ------------ | ------------- |

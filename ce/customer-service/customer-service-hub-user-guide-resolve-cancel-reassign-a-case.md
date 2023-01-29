@@ -35,7 +35,10 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
 2. On the command bar, select **Resolve case**.  
   Before you resolve a case, make sure that all the case activities are closed. Otherwise, you’ll get a message with the following actions:
   - A link with the number of open activities. You can select the link to view the open activities associated with the case on the tab your Administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md)
-  - **Confirm**: If you select **Confirm** on the warning, the system will automatically cancel the open activities when the case is resolved. Also, performance might be affected when you close a case with lots of cases associated with it.   
+  - **Confirm**: If you select **Confirm** on the warning, the system will automatically cancel the open activities when the case is resolved. Also, performance might be affected when you close a case with lots of cases associated with it. 
+     | Default experience | Legacy experience |
+     | ------------ | ------------- | 
+     |  :::image type="content" source="media/resolve-case-after.png" alt-text="Open activity warning" lightbox="media/resolve-case-after.png"::: | :::image type="content" source="media/resolve-case-before.png" alt-text="legacy open activity dialog" lightbox="media/resolve-case-before.png"::: |
 3. By default, you will only see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog. If your administrator has disabled the **Enable the minimal case resolution dialog** option the standard **Resolve Case** dialog is displayed with the following additional fields. More information: [Disable the standard case resolution dialog](add-enhanced-case-management.md):
 
      - **Duration**. The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** box.  
@@ -45,9 +48,7 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
      | Default experience | Legacy experience |
      | ------------ | ------------- |
      |  :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case-after.png"::: | :::image type="content" source="media/minimal-resolve-case-before.png" alt-text="Legacy resolve case" lightbox="media/minimal-resolve-case-before.png"::: |
-     |  :::image type="content" source="media/resolve-case-after.png" alt-text="Open activity warning" lightbox="media/resolve-case-after.png"::: | :::image type="content" source="media/resolve-case-before.png" alt-text="legacy open activity dialog" lightbox="media/resolve-case-before.png"::: |
-
-  
+     
 6  Select **Resolve**.
 
 > [!NOTE]

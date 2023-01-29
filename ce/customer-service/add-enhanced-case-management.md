@@ -18,23 +18,6 @@ You can use Power Apps to customize the case resolution experience:
 
 - When agents try to close a case with open activities, the application displays a warning message with a redirect link. You can configure the tab agents view when they select this link.
 
-## Disable the minimal case resolution dialog
-
-You can choose to display the legacy case resolution dialog box that appears when an agent selects **Resolve case**. Perform the following steps:
-
-1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
-2. Select **Solutions**, and then select the solution in which you want to turn off the minimal case resolution dialog.
-4. Select **Add Existing** > **More** > **Setting**.
-1. On the **Add existing Setting Definition** pane, select the **Enable minimal case resolution dialog** option and then select **Next**.
-1. Select **Add** on the **Selected Setting Definition** to add the **Enable minimal case resolution dialog** option to your solution. 
-1.  Go to **Add Existing** > **App** > **Model-driven app**> **Add existing model-driven apps** pane.
-1. Select the **Enable minimal case resolution dialog** option. The **Enable minimal case resolution dialog** pane appears.
-1. Set the **Setting environment value** option to **Yes**.
-1. In the **Setting app value** section, the Customer Service Hub and Customer Service workspace apps are displayed.
-1. Select **New app value** for the app, and set the value to **Yes** for the respective apps. This step is optional. For a specified app, the tab set at the application level overrides the environment level setting.
-1. Select **Publish All Customizations**.
-
-:::image type="content" source="media/powerapps-minimal-case.png" alt-text="disable the minimal case resolution dialog" lightbox="media/powerapps-minimal-case.png":::
 
 ## Specify tab to redirect users to close open activities for a case
 
@@ -53,6 +36,25 @@ You can configure the tab users must be redirected to when they select the open 
 1. Select **Publish All Customizations**.
 
 :::image type="content" source="media/powerapps-redirect-user-tab.png" alt-text="Redirect link to tab" lightbox="media/powerapps-redirect-user-tab.png":::
+
+
+## Disable the minimal case resolution dialog
+
+You can choose to display the legacy case resolution dialog box that appears when an agent selects **Resolve case**. Perform the following steps:
+
+1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
+2. Select **Solutions**, and then select the solution in which you want to turn off the minimal case resolution dialog.
+4. Select **Add Existing** > **More** > **Setting**.
+1. On the **Add existing Setting Definition** pane, select the **Enable minimal case resolution dialog** option and then select **Next**.
+1. Select **Add** on the **Selected Setting Definition** to add the **Enable minimal case resolution dialog** option to your solution. 
+1.  Go to **Add Existing** > **App** > **Model-driven app**> **Add existing model-driven apps** pane.
+1. Select the **Enable minimal case resolution dialog** option. The **Enable minimal case resolution dialog** pane appears.
+1. Set the **Setting environment value** option to **Yes**.
+1. In the **Setting app value** section, the Customer Service Hub and Customer Service workspace apps are displayed.
+1. Select **New app value** for the app, and set the value to **Yes** for the respective apps. This step is optional. For a specified app, the tab set at the application level overrides the environment level setting.
+1. Select **Publish All Customizations**.
+
+:::image type="content" source="media/powerapps-minimal-case.png" alt-text="disable the minimal case resolution dialog" lightbox="media/powerapps-minimal-case.png":::
 
 ### See also
 
