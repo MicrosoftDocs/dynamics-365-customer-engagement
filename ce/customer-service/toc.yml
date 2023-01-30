@@ -436,7 +436,7 @@
         href: add-timer-forms-track-time-against-enhanced-sla.md
     - name: Agent experience
       items: 
-      - name: Manage SLAs
+      - name: Understand SLAs
         href: customer-service-hub-user-guide-case-sla.md
   - name: Email
     items: 
