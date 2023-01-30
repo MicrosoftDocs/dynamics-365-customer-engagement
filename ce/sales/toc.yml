@@ -460,6 +460,11 @@
               href: manage-sales-teams.md
             - name: Manage seller attributes
               href: manage-seller-attributes.md
+        - name: Engage with customers through text messages
+          href: sms-sales-engagement.md
+          items:
+            - name: Configure SMS provider
+              htrf: configure-sms-provider.md      
         - name: Manage Campaigns
           href: configure-inapp-marketing.md
     - name: Guided selling
