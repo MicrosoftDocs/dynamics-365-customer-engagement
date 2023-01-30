@@ -33,12 +33,14 @@ If you think another group in your team has expertise on the subject, you can mo
 
 3. On the command bar, select **Add to Queue**.  
 
-4. The **Queue** field displays the queue the case is currently added to. The **Lookup** displays only queues that are configured for the specific entity. Voice and messaging queues aren't displayed since cases can't be added to those queues.
+5. In the **Queue** field, select the queue that you want to add the case to, and then select **Add**. 
+
+If a case is already added to a queue, the **Queue** field displays the current queue by default. The lookup for the **Queue** field displays only the queues that are configured for a specific entity. Voice and messaging queues aren't displayed since cases can't be added to those queues.
 
 > [!NOTE]
 > The following features are early access:
 > - The **Queue** field displays the current queue the case is added to.
-> - The **Lookup** displays only queues that are configured for the specific entity.
+> - The lookup for the **Queue** fields displays only the queues that are configured for a specific entity.
 
 | Default experience | Legacy experience |
 | ------------ | ------------- |
