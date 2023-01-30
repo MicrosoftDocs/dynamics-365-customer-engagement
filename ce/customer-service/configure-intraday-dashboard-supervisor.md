@@ -14,9 +14,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!NOTE]
-> We recommend that you try out Omnichannel real-time analytics, which is the latest analytics capability from Dynamics 365 Customer Service. The real-time analytics reports provide information about the health and key performance indicators for your organization that reflect the current situation in the contact center.
->
-> You can adjust the filters to view relevant insights, personalize views of the reports as bookmarks, and even customize the visual display of the reports.
+> We recommend that you try out the latest analytics capability, which is real-time analytics reports in Omnichannel for Customer Service. The reports provide real-time information about the health and key performance indicators of your organization. You can adjust the filters to view relevant insights, personalize views of the reports as bookmarks, and even customize the visual display of the reports.
 
 > [!Important]
 > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
