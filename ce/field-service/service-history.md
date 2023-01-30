@@ -4,10 +4,7 @@ description: Learn how to build a service history for customer assets from work 
 ms.date: 01/23/2023
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
-ms.reviewer: mhart
 ms.topic: how-to
-ms.service: dynamics-365-field-service
 ms.custom: bap-template
 search.app: 
   - D365CE
