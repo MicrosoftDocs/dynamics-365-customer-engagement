@@ -3,11 +3,9 @@ title: "Field Service Mobile - Xamarin app end of life | MicrosoftDocs"
 description: Information about the end of support for Field Service Mobile Xamarin app.
 ms.subservice: field-service-mobile
 ms.date: 11/07/2022
-ms.reviewer: mhart
 ms.topic: article
 author: JonBaker007
 ms.author: jobaker
-ms.manager: shellyhaverkamp
 search.app: 
   - D365CE
   - D365FS

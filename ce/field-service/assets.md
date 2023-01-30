@@ -4,10 +4,8 @@ description: Learn how to add customer assets to use asset management in Dynamic
 ms.date: 01/23/2023
 author: jshotts
 ms.author: jasonshotts
-ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template
-ms.service: dynamics-365-field-service
 search.app: 
   - D365CE
   - D365FS

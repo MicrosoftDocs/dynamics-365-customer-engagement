@@ -2,7 +2,6 @@
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
 ms.date: 01/09/2023
-ms.reviewer: mhart
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
