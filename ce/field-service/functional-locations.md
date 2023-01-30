@@ -4,11 +4,8 @@ description: Learn how to create and use functional locations for assets in Dyna
 ms.date: 01/24/2023
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
-ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template
-ms.service: dynamics-365-field-service
 search.app: 
   - D365CE
   - D365FS

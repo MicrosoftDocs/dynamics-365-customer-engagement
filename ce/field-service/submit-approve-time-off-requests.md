@@ -2,12 +2,10 @@
 title: "Submit and approve time-off requests in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to submit and approve time-off requests in Dynamics 365 Field Service
 ms.date: 08/24/2022
-ms.reviewer: mhart
 
 ms.topic: article
 author: ryanchen8
 ms.author: chenryan
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
