@@ -96,7 +96,7 @@ Use the view list and queue list to filter and find items in queues.
 8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected **Yes** in the previous step. Also, the following updates will happen if the item is in an advanced queue and is tracked through unified routing:
    - The **Worked By** attribute of the queue item will be updated with your user ID. The unified routing system takes this as an indicator of work assignment. To manually add another user or team, select the **Worked by Lookup** from **Queue Item details** and then select the user. If the queue item is assigned to a private queue, the lookup displays only the members of that queue. 
      > [!NOTE]
-     > The **Worked by Lookup** displaying only the members of the private queue is an early access feature.
+     > The **Worked by Lookup** displaying only the members of a private queue is an early access feature.
 
      | Default experience | Legacy experience |
      | ------------ | ------------- |
