@@ -27,6 +27,9 @@ A **Channel Instance** is the representation of a channel in Marketing after an 
 
 When creating a new custom channel, you need to set up a sender, for example, the sender of the WhatsApp message. Each **Channel Instance** for channels of **Custom type** represents a single sender.
 
+> [!IMPORTANT]
+> In order to allow Marketing to access this entity during submission, you need to add **Read** privileges for the extended configuration entity to the "Cxp Channel Definitions Services User" role.
+
 ### How to define it:
 
 For each custom channel solution, you need to:
