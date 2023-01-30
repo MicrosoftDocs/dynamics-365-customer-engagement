@@ -24,6 +24,9 @@ search.app:
 
 If you're creating a custom SMS channel, you must define an entity representing extended configuration for **Channel Instance Account** (**msdyn_channelinstanceaccount**). For example, you could have a MessageBird   account and have enabled multiple numbers for it. The **Channel Instance Account** has a 1:N relationship with the **Channel Instances** (for example, phone numbers) that we examined in [Step 1](real-time-marketing-define-custom-channel-instance.md).
 
+> [!IMPORTANT]
+> In order to allow Marketing to access this entity during submission, you need to add **Read** privileges for the extended configuration entity to the "Cxp Channel Definitions Services User" role.
+
 ### How to define it:
 
 For each custom channel solution, you need to:
