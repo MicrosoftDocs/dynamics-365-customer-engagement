@@ -2,8 +2,7 @@
 title: "Add a new Deployment Administrator | Microsoft Docs"
 description: Find out how to add a deployment administrator using Deployment Manager
 ms.custom: 
-ms.date: 04/26/2021
-
+ms.date: 01/30/2023
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
