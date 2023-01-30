@@ -25,7 +25,7 @@ The focused view allows you to view records and associated activities on one pag
 
 >[!NOTE]
 >- The focused view is similar to the Sales accelerator workspace view. More information: [Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)
->- When the Sales accelerator feature is enabled and any card customization is done, the work items are displayed according to the customization. More information: [Customize work items](customize-work-list-card#customize-work-items.md)
+>- When the Sales accelerator feature is enabled and any card customization is done, the work items are displayed according to the customization. More information: [Customize work items](customize-work-list-card.md#customize-work-items)
 
 Currently, focused view is available for Account, Contact, Lead, and Opportunity entities.
 
@@ -78,5 +78,5 @@ The following image is an example of the focused view for the lead entity:
 
 [Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)   
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)   
-[Customize work items](customize-work-list-card#customize-work-items.md)
+[Customize work items](customize-work-list-card.md#customize-work-items)
 
