@@ -5,8 +5,6 @@ ms.date: 09/15/2017
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-ms.reviewer: mhart
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer

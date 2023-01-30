@@ -2,7 +2,6 @@
 title: "Field Service (Dynamics 365) app for Windows 10+ devices (contains video) | MicrosoftDocs"
 description: Learn about the Field Service (Dynamics 365) app for Windows 10+ devices.
 ms.date: 09/17/2022
-ms.reviewer: mhart
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to:
@@ -10,7 +9,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
-manager: shellyha
 search.app:
 - D365CE
 - D365FS
