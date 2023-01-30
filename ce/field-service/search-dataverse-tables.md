@@ -1,7 +1,7 @@
 ---
 title: Use Dataverse search to find information
 description: Learn work with the advanced Dataverse search to find relevant information in Dynamics 365 Field Service.
-ms.date: 01/25/2023
+ms.date: 01/30/2023
 ms.reviewer: mhart
 ms.topic: conceptual
 author: lmasieri
@@ -28,27 +28,31 @@ For more information, see [Enable Dataverse search](/power-platform/admin/config
 
 ## Configure search index
 
-With Dataverse search enabled, some [Field Services entities are automatically added](#entities-indexed-by-default) to the search index.
+With Dataverse search enabled, some [Field Services tables are automatically added](#tables-indexed-by-default) to the search index.
 
-You can add or remove tables from the index. While there's no limit on the number of tables in the index, a limit applies to the number of fields you can add.
+You can add or remove tables from the index. While there's no limit on the number of tables in the index, a limit applies to the number of columns you can add. The maximum number of columns shows when you configure the tables to be indexed for Dataverse search.
 
 For example, add the *Work Order* table to the search index to quickly find work orders related to an account you are searching for.
 
 To add or remove tables from the search index, see [Select tables for Dataverse search](/power-platform/admin/configure-relevance-search-organization#select-tables-for-dataverse-search)
 
-### Entities indexed by default
+### Tables indexed by default
 
-The following tables or entities in Field Service are indexed by default:
+The following tables are indexed by default:
 
-- Account
-- Case
-- Contact
-- Lead
-- Product
+- account
+- bookablereourcebooking
+- contact
+- incident
+- invoice
+- msdyn_agreement
+- msdyn_customerasset
+- msdyn_purchaseorder
+- msdyn_workorder
 
 ## Filter search results
 
-When searching in Field Service, you can add filters to the search results. For example, you search for an account name and want to see only the work orders that are in progress. Add the work order status field as a filter.
+When searching in Field Service, users can add filters to the search results. The selected filter options are user-specific. For example, a user wants to search for an account name and only the get work orders that are in progress. They can add the work order status field as a filter.
 
 Fields and filters are defined by a table's Quick Find View. For detailed instructions how define the fields that are available as filters, see [Select searchable fields and filters for each table](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
 
