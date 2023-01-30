@@ -98,7 +98,7 @@ Use the view list and queue list to filter and find items in queues.
      > [!NOTE]
      > When you select a private queue, the lookup for the **Worked By** field that displays the members of the private queue only is in early access.
 
-     | Default experience | Legacy experience |
+     | Current experience | Previous experience |
      | ------------ | ------------- |
      |  :::image type="content" source="media/private-queues-members-after.png" alt-text="Worked by field displaying only members of the private queue" lightbox="media/private-queues-members-after.png"::: | :::image type="content" source="media/private-queues-members-before.png" alt-text="Worked by field displaying all the available users" lightbox="media/private-queues-members-before.png"::: |
         
