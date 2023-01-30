@@ -4,7 +4,6 @@ description: Learn how to install and use features available in preview for Dyna
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/18/2020
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
@@ -12,7 +11,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
