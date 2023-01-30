@@ -1,11 +1,11 @@
 ---
-title: "Track and manage SLAs in Customer Service workspace | Microsoft Docs"
-description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service."
-ms.date: 01/30/2023
-ms.topic: article
+title: Understand SLAs
+description: Understand how to track and view SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.topic: conceptual
+ms.date: 01/30/2023
 search.audienceType: 
   - admin
   - customizer
@@ -15,13 +15,14 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+  - bap-template
 ---
 
-# Manage SLAs
+# Understand SLAs
 
-You can view, track, and manage service-level agreements (SLAs) in Customer Service workspace and Customer Service Hub.
+Understand the various service-level agreements (SLAs) KPI Instances details related to time.
 
-## Track SLA details with Timer control
+## Understand SLA details with Timer control
 
 You can see the SLA details on the SLA-enabled entity record.
 
