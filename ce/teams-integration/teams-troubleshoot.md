@@ -90,7 +90,7 @@ Now, when the user tries to pin the entity to the required Microsoft Teams chann
 
 ### Dynamics 365 app for Teams doesn't connect to Dynamics 365 organization when two-factor authentication is enabled
 
-If the Dynamics 365 organization has two-factor authentication enabled, but Microsoft Teams does not, the Dynamics 365 app will be unable to communicate with Dynamics 365. This is intended to prevent security incidents. When Dynamics 365 has two-factor authentication enabled, any communication from users that logged into an app without two-factor authentication will be considered untrusted. 
+If the Dynamics 365 organization has two-factor authentication enabled, but Microsoft Teams does not, the **Dynamics 365** app for Teams will be unable to communicate with Dynamics 365. This is intended to prevent security incidents. When Dynamics 365 has two-factor authentication enabled, any communication from users that logged into an app without two-factor authentication will be considered as untrusted. 
 
 To solve this problem, you must perform one of the following actions:
 
