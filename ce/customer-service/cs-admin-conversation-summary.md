@@ -40,7 +40,8 @@ Perform the following steps to add the Customer360 and Recent Records components
  Perform the following steps to customize the related cases displayed on the Customer Summary form:
 
 1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
-1. Select **Tables**, select **Conversation**, and then select the **Forms** area.
+1. Select **Tables**, select **Conversation**, and then select the **Customer Summary** form.
+1. Select **Recent cases** on the **Form** area.
 1. On **Properties**: 
    - Specify the **Table** from which the records must be displayed. 
    - Select the **Default view** and **Default chart**. The views and charts available in the table are displayed.
@@ -57,6 +58,10 @@ You can also choose to go back to the legacy recent cases experience in the Cust
     - **Account**: Cases for Customer
     - **Contact**: Cases for Customer
 1. Select **Save** and **Publish**.
+
+     | Current experience | Previous experience |
+     | ------------ | ------------- |  
+     |  :::image type="content" source="media/customer-summary-recent-case.png" alt-text="Recent cases new control experience on UI" lightbox="media/customer-summary-recent-case.png"::: | :::image type="content" source="media/recent-cases-legacy.png" alt-text="Recent cases legacy control experience on UI" lightbox="media/recent-cases-legacy.png"::: |
 
 ### See also
 

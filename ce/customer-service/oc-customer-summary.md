@@ -108,8 +108,9 @@ Use the **Case** section to search for an existing case in Omnichannel for Custo
 
 This section displays recent cases related to the customer. The enhanced recent cases card is displayed by default. Your Administrator can add,edit, or remove the fields displayed on this card or revert back to the legacy experience. More information: [Customize recent cases on the Customer Summary form](cs-admin-conversation-summary.md#customize-recent-cases-on-the-customer-summary-form).
 
-> [!div class='mx-imgBorder']
-> ![Recent cases section in the customer summary form.](media/customer-summary-recent-cases.png "Recent cases section on the Customer summary page")
+     | Current experience | Previous experience |
+     | ------------ | ------------- |  
+     |  :::image type="content" source="media/customer-summary-recent-case.png" alt-text="Recent cases current experience" lightbox="media/customer-summary-recent-case.png"::: | :::image type="content" source="media/recent-cases-legacy.png" alt-text="Recent cases previous experience" lightbox="media/recent-cases-legacy.png"::: |
 
 ## Timeline
 
