@@ -1,7 +1,7 @@
 ---
-title: "Support for Modernized Business Units  (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Support for Modernized Business Units in Dynamics 365 Marketing."
-ms.date: 01/27/2023
+title: "Support for modernized business units  (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Support for modernized business units in Dynamics 365 Marketing."
+ms.date: 01/30/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -16,7 +16,7 @@ search.app:
   - D365CE
   - D365Mktg
 ---
-# Support for Modernized Business Units
+# Support for modernized business units
 
 Sometimes, users need access to data across multiple business units. For example, a marketer responsible for leading the marketing initiatives across both US and European subdivisions of a company, both represented by business units in Dataverse, needs access to data from both the business units. With [Modernized Business Units](https://learn.microsoft.com/power-platform-release-plan/2021wave2/data-platform/modernize-business-units), Dataverse now allows users to be allowed security roles from different business units at the same time. 
 
