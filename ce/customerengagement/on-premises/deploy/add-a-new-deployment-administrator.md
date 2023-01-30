@@ -36,7 +36,7 @@ You can grant or remove the [!INCLUDE[pn_Deployment_Administrator](../includes/p
 
 In addition to Deployment Administrators role membership, additional permissions are required to perform deployment administration tasks:
 
-- Be a member of the Administrators group on all computers that are running a Dynamics 365 Server role.
+- Be a member of the Administrators group on all computers that are running the Dynamics 365 Deployment Administration or Deployment Tools server roles.
 - Have **Program Files** folder read and write permission on the local computer where Deployment Manager is running.  
 - Be a member of the Administrators group on the local computer where the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] is located that will be used to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases.  
 - Have sysadmin membership on the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that will be used to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases.  
