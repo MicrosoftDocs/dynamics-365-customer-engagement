@@ -2,7 +2,6 @@
 title: "Videos about Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn where to find videos about Dynamics 365 Field Service.
 ms.date: 08/30/2021
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 

@@ -244,7 +244,7 @@ More information: [Search across table data using Dataverse search](/powerapps/d
 
 You can help agents improve their productivity by setting the **Enable suggest as you type** toggle to **Yes**. This feature provides suggestions on the most relevant records as agents type keywords in the search box. The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword. 
 
-When an agent selects the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control. More information: [Use the-suggest-as-you-type option to search for knowledge articles](search-knowledge-articles-csh.md#use-the-suggest-as-you-type-option-to-search-for-knowledge-articles)
+When an agent selects the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control. More information: [Use suggest-as-you-type](search-knowledge-articles-csh.md#use-suggest-as-you-type)
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**.
 2. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.

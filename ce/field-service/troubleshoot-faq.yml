@@ -3,17 +3,13 @@ metadata:
   title: "Frequently asked questions for Dynamics 365 Field Service | MicrosoftDocs"
   description: Find answers to frequently asked questions for Dynamics 365 Field Service
   ms.date: 07/06/2020
-  ms.reviewer: mhart
   ms.topic: faq
   applies_to: 
     - "Dynamics 365 (online)"
     - "Dynamics 365 Version 9.x"
   author: jshotts
   ms.author: jasonshotts
-  manager: shellyha
-  search.app: 
-    - D365CE
-    - D365FS
+
 title: Frequently asked questions for Dynamics 365 Field Service - General
 summary: |
   > [!Note]

@@ -2,11 +2,9 @@
 title: Create a simple selection rule (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to create a simple selection rule in Dynamics 365 Customer Service
 ms.date: 09/15/2017
-ms.reviewer: mhart
 ms.topic: article
 author: FeifeiQiu
 ms.author: feiqiu
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer

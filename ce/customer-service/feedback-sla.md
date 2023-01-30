@@ -4,9 +4,8 @@ description: Learn how to manage feedback to your knowledge articles and update 
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
-ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 12/14/2022
+ms.date: 01/23/2023
 ms.custom: bap-template
 ---
 
@@ -18,11 +17,11 @@ Mange feedback received for your articles by adding them to your knowledge artic
 
 1. In the Customer Service app, select **Knowledge Articles**.
 
-1.  Select the article you want to add feedback for.
+1. Select the article you want to add feedback for.
 
 1. In the **Feedback** subgrid, select **Create Feedback**. You can also select ![Add a record button.](../customer-service/media/add-recordbutton.gif "Add a record button") in the navigation bar and then go to **Feedback** to create a feedback.  
   
-2. In the **Quick Create: Feedback** dialog, fill in the information:  
+1. In the **Quick Create: Feedback** dialog, fill in the information:  
   
    - **Title**. Type a descriptive title for the feedback. For example, if the feedback is about customer satisfaction, type that.  
    
@@ -42,7 +41,7 @@ Mange feedback received for your articles by adding them to your knowledge artic
   
    - Dynamics 365 Customer Service automatically calculates the **Normalized Rating** based on the following formula: **(Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating)**.  
   
-3. Select **Save and Close**.
+1. Select **Save and Close**.
 
    ![Knowledge article feedback.](media/ka-feedback.png "Knowledge article feedback.")
 

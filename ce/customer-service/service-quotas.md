@@ -4,7 +4,6 @@ description: Get details about the service quotas for unified routing and omnich
 author: mh-jaya 
 ms.author: v-jmh 
 ms.reviewer: nenellim 
-ms.service: dynamics-365 
 ms.topic: conceptual 
 ms.date: 01/13/2023
 ms.custom: bap-template 

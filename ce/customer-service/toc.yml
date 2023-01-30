@@ -627,7 +627,9 @@
     - name: Administrator experience
       items:
       - name: Install the voice channel
-        href: voice-channel-install.md  
+        href: voice-channel-install.md 
+      - name: Use trial phone numbers
+        href: voice-channel-trial-phone-numbers.md   
       - name: Connect to Azure Communication Services
         items: 
         - name: Connect to Azure Communication Services
@@ -680,8 +682,6 @@
         href: voice-channel-region-availability.md
     - name: Agent experience
       items:
-      - name: Make and receive your first phone call
-        href: voice-channel-first-call.md
       - name: Call a customer
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice

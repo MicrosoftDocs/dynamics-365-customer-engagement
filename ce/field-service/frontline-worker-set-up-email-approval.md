@@ -5,7 +5,6 @@ ms.author: jacoh
 author: jasonccohen
 
 ms.subservice: field-service-mobile
-ms.reviewer: mhart
 ms.date: 04/01/2021
 ms.topic: conceptual
 search.app:

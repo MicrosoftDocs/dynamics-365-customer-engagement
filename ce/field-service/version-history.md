@@ -2,7 +2,6 @@
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
 ms.date: 01/09/2023
-ms.reviewer: mhart
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -23,19 +22,24 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.81.81](/dynamics365/field-service/version-history#888181)  | TBD | 01/20/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.81.89](/dynamics365/field-service/version-history#888189)  | TBD | 01/27/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.80.48](/dynamics365/field-service/version-history#888048)   |  [8.8.81.89](/dynamics365/field-service/version-history#888189)  | 01/20/2023 |
-| | *USG* | [8.8.81.89](/dynamics365/field-service/version-history#888189)  | TBD | 01/27/2023 |
-|**Station 4** |*Europe* |[8.8.80.48](/dynamics365/field-service/version-history#888048)   |  [8.8.81.89](/dynamics365/field-service/version-history#888189)  | 01/27/2023 |
-|**Station 5** |  *North America*| [8.8.79.32](/dynamics365/field-service/version-history#887932)  |  [8.8.80.48](/dynamics365/field-service/version-history#888048)   | 01/20/2023 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.79.32](/dynamics365/field-service/version-history#887932)  |  [8.8.80.48](/dynamics365/field-service/version-history#888048)   | 01/20/2023 |
-| | *Dedicated Scale Groups* | [8.8.79.32](/dynamics365/field-service/version-history#887932)  |  [8.8.80.48](/dynamics365/field-service/version-history#888048)   | 01/27/2023 |
+|**Station 1** |  *First Release*| [8.8.82.35](/dynamics365/field-service/version-history#888235)  | TBD | 02/17/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.82.35](/dynamics365/field-service/version-history#888235)  | TBD | 02/24/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.81.89](/dynamics365/field-service/version-history#888189)  | [8.8.82.35](/dynamics365/field-service/version-history#888235) | 02/03/2023 |
+| | *USG* | [8.8.82.35](/dynamics365/field-service/version-history#888235)  | TBD | 02/24/2023 |
+|**Station 4** |*Europe* |[8.8.81.89](/dynamics365/field-service/version-history#888189)  | [8.8.82.35](/dynamics365/field-service/version-history#888235) | 02/10/2023 |
+|**Station 5** |  *North America*|[8.8.80.48](/dynamics365/field-service/version-history#888048)   |  [8.8.81.89](/dynamics365/field-service/version-history#888189)  | 02/03/2023 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.80.48](/dynamics365/field-service/version-history#888048)   |  [8.8.81.89](/dynamics365/field-service/version-history#888189)  | 02/03/2023 |
+| | *Dedicated Scale Groups* | [8.8.80.48](/dynamics365/field-service/version-history#888048)   |  [8.8.81.89](/dynamics365/field-service/version-history#888189)  | 02/10/2023 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.82.35
+(Includes Universal Resource Scheduling version [3.12.96.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129625)) and Resource Scheduling controls version 1.2.36.230171).
+
+- Greatly improved the performance of the asset and functional location tree control for large hierarchies.
 
 ## 8.8.81.89
 
