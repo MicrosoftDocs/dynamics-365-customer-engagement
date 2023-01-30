@@ -24,7 +24,8 @@ ms.custom:
 The focused view allows you to view records and associated activities on one page, making it more efficient for you to stay focused on your tasks and by reducing the need to navigate between multiple screens. Also allows for better organization and prioritization of tasks.
 
 >[!NOTE]
->The focused view is similar to the Sales accelerator workspace view. More information: [Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)
+>- The focused view is similar to the Sales accelerator workspace view. More information: [Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)
+>- When the Sales accelerator feature is enabled and any card customization is done, the work items are displayed according to the customization. More information: [Customize work items](customize-work-list-card#customize-work-items.md)
 
 Currently, focused view is available for Account, Contact, Lead, and Opportunity entities.
 
@@ -60,7 +61,7 @@ Typically, the focused view can be categorized into the following three sections
     
     Also, you change from focused view to the grid view (list view).
 
--	**Records list**: The list of records is displayed in a card format. You can perform and complete the activities on these cards from the current date and from previous dates. Each card displays information such as, the name of the record, primary contact name, and next best action.   
+-	**Records list**: The list of records (work list) is displayed in a card format. You can perform and complete the activities on these cards from the current date and from previous dates. Each card displays information such as, the name of the record, primary contact name, and next best action.   
     The next best actions include the top two activities with latest due date. To complete the next best action, hover over the action and then select the action icon.   
     When no action items are available for the record, the record displays information such as the name and contact details.   
     When predictive scoring is enabled in your organization, the list also displays the score for that lead or opportunity on the top-right corner of the card. More information: [Prioritize leads through scores](work-predictive-lead-scoring.md) and [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
@@ -76,5 +77,6 @@ The following image is an example of the focused view for the lead entity:
 ### See also
 
 [Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)   
-[Work with opportunities in the Kanban view](opportunity-kanban-view.md)
+[Work with opportunities in the Kanban view](opportunity-kanban-view.md)   
+[Customize work items](customize-work-list-card#customize-work-items.md)
 
