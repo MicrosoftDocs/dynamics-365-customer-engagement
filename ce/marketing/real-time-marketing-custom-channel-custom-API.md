@@ -40,9 +40,8 @@ The contract that the custom API should implement must have one input parameter 
 
 - The response is a serialized JSON with the following contract:
     - ChannelDefinitionId: GUID – The channel definition ID
-    - MessageId:  string – The message ID
-    - RequestId: string – The request ID 
-    - StatusDetails: Dictionary<string, object> - Channel specific information regarding the status.
+    - MessageId (optional):  string – The message ID. Optional, it may exist in the API response of a provider.
+    - RequestId: string – The request ID. Should be equal to the request ID value inside the request payload.
     - Status: string – Possible Values are:
         - NotSent – there was an attempt to execute the submission to the provider, but it was rejected without a possibility to retry 
         - Sent – the submission request was successfully accepted by the provider
