@@ -447,9 +447,9 @@
       - name: Customize the email experience
         href: customer-service-hub-user-guide-email-font-admin.md
       - name: Configure the enhanced insert email template dialog
-        href: customize-insert-email-template.md
-      - name: Enable the enhanced email template editor page
-        href: cs-email-template-builder.md
+        href: /power-apps/user/customize-insert-email-template?context=/dynamics365/context/customer-service-context
+      - name: Configure the enhanced email template editor page
+        href: /power-apps/user/cs-email-template-builder/?context=/dynamics365/context/customer-service-context
       - name: Configure a default signature template for a queue
         href: add-signature-template-queue.md  
     - name: Agent experience
