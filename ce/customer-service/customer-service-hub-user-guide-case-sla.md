@@ -20,7 +20,7 @@ ms.custom:
 
 # Understand SLAs
 
-Understand the various service-level agreements (SLAs) KPI Instances details related to time.
+Understand the various service-level agreements (SLA) KPIs and SLA KPI Instance record details, related to time.
 
 ## Understand SLA details with Timer control
 
@@ -55,7 +55,7 @@ For SLAs that are in the expired status, your administrator can configure the SL
 
 :::image type="content" source="media/sla-negative-countdown-timer.png" alt-text="Display negative countdown for SLAs in expired or terminal status.":::
 
-## View the status of an SLA KPI Instance record
+## Know the status of an SLA KPI Instance record
 
 Based on the business hours, the timer displays the time remaining to meet the SLA or the elapsed time since the SLA failed. For example, if failure time is set to 5 days and business hours are 9:00 AM to 5:00 PM, then you'll see 5 days on the timer. If failure time is set to 10 hours, then you'll see 1 day and 2 hours on the timer. Your system administrator or customizer can add a timer to the SLA-enabled entity form.
 
@@ -83,7 +83,7 @@ You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../inclu
 
 To learn more about adding a timer control to an SLA-enabled entity, go to [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md).
 
-## View active duration and elapsed time for SLA KPI Instances
+## Know active duration and elapsed time for SLA KPI Instances
 
 > [!NOTE]
 > Active duration calculation will be asynchronous by default, as an early access feature. You can opt in early to enable these features in your environment. This will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
