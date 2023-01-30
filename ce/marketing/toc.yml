@@ -354,8 +354,12 @@
         href: manage-sms-keywords.md
       - name: Install add-ons
         href: add-ons.md
-      - name: Business unit support in real-time marketing
-        href: real-time-marketing-business-units.md
+      - name: Business units 
+        items:
+      -   name: Business unit support in real-time marketing
+          href: real-time-marketing-business-units.md
+      -   name: Support for modernized business units 
+          href: real-time-marketing-modernized-business-units.md
     - name: Developer
       items: 
       - name: Manually add a custom channel
