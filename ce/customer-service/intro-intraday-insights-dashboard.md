@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Intraday insights dashboard for supervisor | MicrosoftDocs"
 description: "Introduction to Intraday insights dashboard for supervisor"
-ms.date: 01/23/2023
+ms.date: 01/30/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

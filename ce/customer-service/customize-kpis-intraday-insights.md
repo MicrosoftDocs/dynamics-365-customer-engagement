@@ -1,7 +1,7 @@
 ---
 title: "Add custom KPIs to intraday insights dashboard | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to add custom KPIs to the intraday insights dashboard in Omnichannel for Customer Service."
-ms.date: 01/23/2023
+ms.date: 01/30/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
