@@ -58,7 +58,7 @@ You can choose to display the legacy case resolution dialog box that appears whe
 
 ### See also
 
-[Work with cases](customer-service-hub-user-guide-create-a-case.md) 
+[Work with cases](customer-service-hub-user-guide-create-a-case.md)  
 [Work with queues](work-with-queues.md) 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
