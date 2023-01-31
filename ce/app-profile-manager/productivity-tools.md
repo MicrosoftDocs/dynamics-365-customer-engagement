@@ -21,7 +21,7 @@ The Dynamics 365 Productivity Tools app contains the following functionality to 
 
 ### Macros
 
-With macros, agents can perform repetitive, monotonous tasks—Open model-driven app forms, pre-populate fields with details, send an email to a customer, take notes, and much more—all in a single click. A macro is a set of sequential actions that tells the system how to complete a task. When an agent runs a macro, the system performs each action and this helps save time and accommodate agents to handle more customer issues. Also, macros provide preciseness, clarity, and consistency to the tasks that agents perform.
+With macros, agents can perform repetitive, monotonous tasks—Open model-driven app forms, pre-populate fields with details, send an email to a customer, take notes, and much more—all in a single click. A macro is a set of sequential actions that tells the system how to complete a task. When an agent runs a macro, the system performs each action, and this helps save time and gives agents the freedom to handle more customer issues. Also, macros provide preciseness, clarity, and consistency to the tasks that agents perform.
 
 ### Agent scripts
 
