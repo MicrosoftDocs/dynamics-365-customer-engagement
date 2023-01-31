@@ -361,6 +361,16 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/cs-email-template-builder.md",
+      "redirect_url": "/powerapps-docs/user/cs-email-template-builder.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/customize-insert-email-template.md",
+      "redirect_url": "/powerapps-docs/user/customize-insert-email-template.md",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/admin/add-edit-multiregional-instances.md",
       "redirect_url": "/power-platform/admin/regions-overview",
       "redirect_document_id": "false"
@@ -24533,6 +24543,21 @@
     {
       "source_path": "ce/customer-service/export-import-config-data-for-voice.md",
       "redirect_url": "migrate-config-data-for-voice-channel",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/asset-properties.md",
+      "redirect_url": "/dynamics365/field-service/properties",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/assets-functional-location.md",
+      "redirect_url": "/dynamics365/field-service/functional-locations",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/configure-set-up-customer-assets.md",
+      "redirect_url": "/dynamics365/field-service/assets",
       "redirect_document_id": "false"
     },
     {

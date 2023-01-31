@@ -28,17 +28,17 @@ This article explains how to use Microsoft Teams as an online meeting provider f
 For general information about setting up Microsoft Teams, refer to the [Microsoft Teams deployment overview](/microsoftteams/deploy-overview).
 
 > [!NOTE]
-> To use Microsoft Teams as an online event provider, you must have a [Microsoft 365 license](/office365/servicedescriptions/teams-service-description) that allows you access to the Teams service. If you do not have the correct license, you will not see the Teams webinar, Teams meeting, or Teams live event options as a part of the **Streaming providers** list.
+> To use Microsoft Teams as an online event provider, you must have a [Microsoft 365 license](/office365/servicedescriptions/teams-service-description) that allows you access to the Teams service. If you do not have the correct license, you will not see the Teams webinar, Teams meeting, or Teams live event options as a part of the **Streaming provider** list.
 
 ## Create an online event
 
-To create a Teams event, select **Events** in the left navigation pane of the Marketing app. Then select **+New** in the top ribbon. You’ll see a banner highlighting that Teams is available as a streaming provider.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Azure resource groups.](./media/teams-webinar-stream2.png)
+To create a Teams event, select **Event planning** in the Marketing app area switcher, then select **Events** in the left navigation pane. Select **+New** in the top ribbon.
 
 > [!NOTE]
 > The **Event Format** field is hidden from the event form and is automatically set. To see the streaming options, set the **Do you want to stream this event** toggle to **Yes**. If you are using a custom form, ensure that you hide this field and set the value to **Hybrid event**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Azure resource groups.](./media/teams-webinar-stream2.png)
 
 ## Event streaming options
 

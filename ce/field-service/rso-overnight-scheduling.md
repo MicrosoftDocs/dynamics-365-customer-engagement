@@ -2,7 +2,6 @@
 title: "Overnight scheduling with Resource Scheduling Optimization | MicrosoftDocs"
 description: Learn how to use overnight scheduling with Resource Scheduling Optimization
 ms.date: 11/04/2019
-ms.reviewer: mhart
 
 ms.subservice: resource-scheduling-optimization
 ms.topic: article
