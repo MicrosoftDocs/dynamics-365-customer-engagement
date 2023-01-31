@@ -35,7 +35,7 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 
 ### Microsoft Teams
 
-Microsoft Teams is a way to help agents more easily collaborate with colleagues using the capabilities of Teams within Dynamics 365. Agents can view their chats, and with admin setup, can view chats that are relevant to certain records, also known as connected chats. Connecting all of their chats in one place helps agents work without switching context or leaving the application. Admins can also configure an optional introduction note that agents can use to provide further context when collaborating on Teams.
+Microsoft Teams is a tool that can help agents more easily collaborate with colleagues by letting them use the capabilities of Teams within Dynamics 365. Agents can view their chats, and with admin setup, can view chats that are relevant to certain records, also known as connected chats. Connecting all of their chats in one place helps agents work without switching context or leaving the application. Admins can also configure an optional introduction note that agents can use to provide further context when collaborating on Teams.
 
 ### See also
 
