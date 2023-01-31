@@ -1,7 +1,7 @@
 ---
 title: Customer Service dashboards | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 01/31/2023
+ms.date: 01/18/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -78,6 +78,10 @@ The reports refresh shows the following information.
 - **Data refresh for inactive environments:** Data refresh is paused if the reports aren't used continuously for two weeks. When you access a report after a lengthy period of inactivity, the report will be refreshed in the next refresh cycle.
 - **Data retention:** Data is stored for 24 months.
 
+### Report customizations
+
+Currently, report customizations aren't supported.
+
 ### Supported tables
 
 The following tables are used for Customer Service historical analytics:
@@ -116,7 +120,6 @@ To troubleshoot issues when you try to access or view the reports, do the follow
 [Introduction to Customer Service insights](introduction-customer-service-analytics.md)  
 [Configure Customer Service insights for Customer Service Hub and Customer Service workspace](configure-customer-service-analytics-insights-csh.md)  
 [Manage bookmarks](manage-bookmarks.md)  
-[Customize data models of historical analytics reports in Customer Service](model-customize-reports.md)  
 [Tracked keywords in Dynamics 365 Sales](../sales/dynamics365-sales-insights-app-home-page.md#tracked-keywords)  
 
 
