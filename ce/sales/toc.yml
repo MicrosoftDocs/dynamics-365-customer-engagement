@@ -18,6 +18,8 @@
         href: sales-trial-faq.md
   - name: Install and configure
     items:
+    - name: System requirements
+      href: system-requirements-for-sales-apps.md
     - name: Use the Sales Hub app
       href: intro-saleshub.md
       items:
@@ -510,6 +512,8 @@
       items:
         - name: Prerequisites to use Conversation Intelligence
           href: prereq-sales-insights-app.md
+        - name: Languages supported
+          href: language-support-conversation-intelligence.md
         - name: Configure in conversation intelligence app
           items:
             - name: First-run set up

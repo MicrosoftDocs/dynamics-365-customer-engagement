@@ -80,7 +80,6 @@ Ensure the following behaviors to avoid call drops:
 
 [Overview of the voice channel](voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](voice-consult-microsoft-teams-user.md)  
-[Make and receive your first call](voice-channel-first-call.md)  
 [Call a customer](voice-channel-call-customer.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

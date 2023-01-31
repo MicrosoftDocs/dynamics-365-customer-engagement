@@ -2,11 +2,9 @@
 title: Create a work order to coordinate and schedule resources and activities (contains video)
 description: Learn how to create a work order in Dynamics 365 Field Service.
 ms.date: 09/24/2022
-ms.reviewer: mhart
 ms.topic: article
 author: lmasieri
 ms.author: lmasieri
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -78,7 +76,7 @@ The Get Started work order create form doesn’t support switching forms. If add
 
 1. At a minimum, enter information in the following required fields.
 
-    - For **Service Account**, select an account from the list or [create a new service account](work-order-customer-account.md#create-a-service-account).
+    - For **Service Account**, select an account from the list or [create a new service account](accounts.md).
     - For **Work Order Type**, select a work order type from the list or [create a new work order type](create-work-order-types.md).
     - For **System Status**, select **Open-Unscheduled**.
     - For **Price List**, select a price list from list or [create a new price list](create-price-list.md).

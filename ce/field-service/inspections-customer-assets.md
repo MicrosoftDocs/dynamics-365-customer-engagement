@@ -2,15 +2,13 @@
 title: "Use inspections without work orders in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to use inspections without work orders in Dynamics 365 Field Service.
 ms.date: 03/17/2021
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: josephshum
+author: josephshum-msft
 ms.author: jshum
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -19,8 +17,8 @@ search.app:
 # Use inspections without work orders
 
 Organizations often need to conduct inspections independent of work orders. Currently, inspections can be added to customer assets in Field Service.
-<!--markdownlint-disable MD036-->
-**To enable inspections on customer assets without a work order**
+
+## Enable inspections on customer assets without a work order
 
 1. Go to **Advanced Settings** > **Settings** > **Customization** > **Customize the System** > **Components** > **Entities** > **Customer Asset** > **1:N Relationships**
 
@@ -42,7 +40,7 @@ Organizations often need to conduct inspections independent of work orders. Curr
 
 Inspections are now visible on the **Related** tab for assets.
 
-**To validate that inspections have been enabled**
+## Validate that inspections have been enabled
 
 1. Go to **Service** > **Assets**, and create a new asset or open an existing asset.
 
@@ -51,9 +49,9 @@ Inspections are now visible on the **Related** tab for assets.
   > [!div class="mx-imgBorder"]
   > ![Screenshot of advanced settings showing the Inspections option on the Related tab of the customer asset.](./media/ad-hoc-inspection-asset-related-tab.jpg)
 
-**To create an inspection without a work order**
+## Create an inspection without a work order
 
-- A new inspection instance can be created and an inspection template can be assigned to it. After saving, the inspection responses can be entered and saved. When **Mark Complete** is selected from the ribbon, the inspection becomes read-only and no more responses can be entered or edited.
+- A new inspection instance can be created and an inspection template can be assigned to it. After saving, the inspection responses can be entered and saved. When **Mark Complete** is selected from the ribbon, the inspection becomes read-only, and no more responses can be entered or edited.
 
 - From the Field Service mobile app, a frontline worker can go the asset and perform impromptu inspections in the same way.
 

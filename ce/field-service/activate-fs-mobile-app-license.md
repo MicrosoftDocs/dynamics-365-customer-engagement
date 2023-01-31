@@ -3,11 +3,9 @@ title: "Field Service Mobile - Xamarin app end of life | MicrosoftDocs"
 description: Information about the end of support for Field Service Mobile Xamarin app.
 ms.subservice: field-service-mobile
 ms.date: 11/07/2022
-ms.reviewer: mhart
 ms.topic: article
 author: JonBaker007
 ms.author: jobaker
-ms.manager: shellyhaverkamp
 search.app: 
   - D365CE
   - D365FS
@@ -63,9 +61,9 @@ Yes. See the following resources:
 
 After moving on to the new Field Service Mobile application, you can remove the following solutions related to the Xamarin application.
 
-1. Woodford | Resco MobileCRM Woodford
+1. msdyn_GeofenceAlerts
 2. msdyn_FSMNotifications
-3. msdyn_GeofenceAlerts
+3. Woodford | Resco MobileCRM Woodford
 
 Remove the solutions in listed order to properly remove dependencies.
 
