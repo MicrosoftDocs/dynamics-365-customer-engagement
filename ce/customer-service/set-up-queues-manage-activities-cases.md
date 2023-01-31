@@ -36,6 +36,9 @@ Queues can be useful in:
   
 - Sorting tasks by type, or by people assigned to complete them.  
   
+## Types of queues
+By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
+
 Use queues to categorize and prioritize your activities and cases. You can categorize based on:  
   
 - products or services  
@@ -46,25 +49,29 @@ Use queues to categorize and prioritize your activities and cases. You can categ
   
 - geography  
 
-You can create both basic and advanced queues (for unified routing). For information about creating advanced queues, see [Create and manage queues for unified routing](queues-omnichannel.md).
+Based on assignment method, you can create:
+- **Basic queues** To organize and monitor work items, and distribute them manually to agents. 
+- **Advanced queues** To use the power of unified routing to automatically assign and distribute work to agents. [Create and manage queues for unified routing](queues-omnichannel.md)
 
-By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
+Based on channels, you can create:
+- **Messaging queues** To route all messaging conversations pertaining to the live chat, SMS, and social channels.
+- **Records queues** To route work items pertaining to records, such as cases and emails.
+- **Voice queues** To route calls made to the support numbers listed on the customer portal.
 
-> [!NOTE]
-> You must manually add new Azure AD (Active Directory) team members to the team's default queue.
-  
-## Types of queues
+The queue types allow issues to be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that are available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues will be shown for selection. Similarly, in case of conversation transfer, you can transfer a chat conversation only to a messaging queue, and a case only to an records queue.
 
-You can create the following two types of queues:
+Assign a group number that helps you organize your queues in the list view. The group number won't affect the priority of the queue or incoming conversations.
 
-- **Private queues** For limited set of members to help those members easily view the work items in that queue. Private queues streamline queue items for the members of that queue only and help to remove clutter from other users' views.
+Based on membership/viewership, you can create:
+- **Private queues** For limited set of members to help those members easily view the work items in that queue. Private queues streamline queue items for the members of that queue only and help to remove clutter from other users' views. Be sure to manually add new team members as members of the queue.
 - **Public queues** To let everyone in the organization view the queue and all of its items.
 
 > [!IMPORTANT]
 >
-> - Private queues are a great way to organize cases, but they don't restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options available in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
-> - In private queues, you must manually add new team members as members of the queue.
-> - If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you'll not be able to create a basic queue in Customer Service Hub.
+> Private queues don't restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options available in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
+
+> [!NOTE]
+> You must manually add new Azure AD (Active Directory) team members to the team's default queue.
 
 ## Prerequisites
 

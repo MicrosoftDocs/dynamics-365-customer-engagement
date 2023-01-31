@@ -28,15 +28,7 @@ You can create separate queues for each line of business such as billing, invest
 
 In an enterprise scenario, you can have various supervisors handling different issues, and therefore, different types of queues are required to handle the various scenarios. Accordingly, routing rules are set up based on the complexity of issues that need to be handled.
 
-To simplify the routing experience for administrators and supervisors, queues are categorized based on the channel types as follows:
 
-- **Messaging**: To route all messaging conversations pertaining to the live chat, SMS, and social channels.
-- **Records**: To route work items pertaining to records, such as cases and emails.
-- **Voice**: To route calls made to the support numbers listed on the customer portal.
-
-The queue types allow issues to be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that will be available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues will be shown for selection. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue, and a case only to an entity queue.
-
-Assign a group number that helps you organize your queues in the list view. The group number won't affect the priority of the queue or incoming conversations.
 
 ## Create a queue for unified routing
 
@@ -92,6 +84,9 @@ You can manage queues on the **Queues** page, and perform operations such as sea
 - Select a queue to edit the users, assignment methods, or operating hour record.
 
 - Select a queue on the **Queues** page, select **Copy** on the command menu, and then select **Copy** in the *<queue_name>* dialog. The queue is copied and inherits the settings of the queue you copied from, including its name, prefixed with **Copy of**.
+
+> [!IMPORTANT]
+> If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you'll not be able to create a basic queue in Customer Service Hub.
 
 ### How fallback queues work
 
