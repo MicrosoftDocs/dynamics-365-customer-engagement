@@ -34,7 +34,7 @@ Field Service (Dynamics 365) mobile app is available for iOS, Android, and Windo
 
 To provide the best experience for mobile app users, we recommend using modern devices with high [CPU Benchmark scores on Geekbench](https://browser.geekbench.com/v5/cpu/singlecore).
 
-*The required storage size depends on the [mobile offline profile](mobile-power-app-system-offline.md). It specifies the amount of data that your organization needs to download for when there is no internet access.
+The required storage size depends on the [mobile offline profile](mobile-power-app-system-offline.md). It specifies the amount of data that your organization needs to download for when there is no internet access.
 
 ### iOS
 
