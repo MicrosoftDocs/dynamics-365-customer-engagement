@@ -1,7 +1,7 @@
 ---
 title: "Add custom KPIs to intraday insights dashboard | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to add custom KPIs to the intraday insights dashboard in Omnichannel for Customer Service."
-ms.date: 01/30/2023
+ms.date: 01/31/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,9 +12,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Customize KPIs for intraday insights
 
 > [!NOTE]
-> We recommend that you try out Omnichannel real-time analytics, which is the latest analytics capability from Dynamics 365 Customer Service. The real-time analytics reports provide information about the health and key performance indicators for your organization that reflect the current situation in the contact center.
->
-> You can adjust the filters to view relevant insights, personalize views of the reports as bookmarks, and even customize the visual display of the reports.
+> We recommend that you try out [real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability. These reports provide real-time information about the health and key performance indicators of your organization. You can adjust the filters to view relevant insights, personalize views of the reports as bookmarks, and even customize the visual display of the reports.
 
 To cater to your organizational needs, intraday insights allows you to customize KPIs. This allows supervisors to adapt to your organizational parameters that are designed for your organization. Through the Power BI desktop application, you can customize these KPIs.
 
