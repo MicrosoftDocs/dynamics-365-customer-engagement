@@ -42,7 +42,7 @@ If a case is already added to a queue, the **Queue** field displays the current 
 > - The **Queue** field displays the current queue the case is added to.
 > - The lookup for the **Queue** fields displays only the queues that are configured for a specific entity.
 
-| Default experience | Legacy experience |
+| Current experience | Previous experience |
 | ------------ | ------------- |
 |  :::image type="content" source="media/queue-display-name-after.png" alt-text="Screenshot of the default add to queue dialog with queue displayed" lightbox="media/queue-display-name-after.png"::: | :::image type="content" source="media/queue-display-name-before.png" alt-text="Screenshot of the default add to queue dialog without queue displayed" lightbox="media/queue-display-name-before.png"::: |
 |  :::image type="content" source="media/add-to-queue-display-after.png" alt-text="Screenshot of the lookup displaying only relevant queues" lightbox="media/add-to-queue-display-after.png"::: | :::image type="content" source="media/add-to-queue-display-before.png" alt-text="Screenshot of the lookup displaying all queues" lightbox="media/add-to-queue-display-before.png"::: |
