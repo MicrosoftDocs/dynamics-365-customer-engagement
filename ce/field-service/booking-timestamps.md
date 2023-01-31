@@ -50,10 +50,6 @@ Assume a work order was created and scheduled to a technician.  When the dispatc
 
 Next, the technician sees the booking and work order on their mobile device and updates the booking status to reflect progress by changing it to traveling, in progress, completed, or some other custom booking status.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile on a tablet device, showing the booking status field.](./media/scheduling-timestamps-mobile-status.png)
-
-
 **Timestamps are created to document when the booking status is updated**. 
 
 ## View timestamps
