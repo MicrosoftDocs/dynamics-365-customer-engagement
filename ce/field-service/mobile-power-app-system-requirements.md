@@ -1,9 +1,9 @@
 ---
 title: "System requirements to use the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn about system requirements for the Field Service (Dynamics 365) mobile app.
-ms.date: 03/23/2021
-ms.topic: article
-
+ms.date: 01/31/2023
+ms.topic: conceptual
+ms.custom: bap-template
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
@@ -30,15 +30,18 @@ After installing or upgrading to **Field Service v8.8.22+**, the "Field Service"
 
 ## Mobile device - supported platforms
 
-Field Service (Dynamics 365) mobile app is available for iOS, Android, and Windows platforms. To provide the best experience for mobile app users, we recommend using modern devices with high *CPU Benchmark scores.
+Field Service (Dynamics 365) mobile app is available for iOS, Android, and Windows platforms. 
+
+To provide the best experience for mobile app users, we recommend using modern devices with high [CPU Benchmark scores on Geekbench](https://browser.geekbench.com/v5/cpu/singlecore).
+
+*The required storage size depends on the [mobile offline profile](mobile-power-app-system-offline.md). It specifies the amount of data that your organization needs to download for when there is no internet access.
 
 ### iOS
 
-|   |OS Version |CPU Benchmark Score| Storage**|
+|   |OS Version |CPU Benchmark Score| Storage|
 | --- | --- |--- | --- |
 | Minimum |	14 or later |	400+ |	64 GB	| 
 | Recommended| 15 or later |	1000+	| 64+ GB	| 
-
 
 ### Android
 
@@ -47,22 +50,19 @@ Field Service (Dynamics 365) mobile app is available for iOS, Android, and Windo
 | Minimum  | 9 or later   | 400+   | 4GB   | 64 GB|
 | Recommended  | 10 or later   | 900+   | 8 GB   | 64+ GB|
 
-
 ### Windows
 
-
-|   |OS Version |RAM| Storage**|
+|   |OS Version |RAM| Storage|
 | --- | --- |--- | --- |
 | Minimum |	10 17763.0 or later |	6 GB |	64 GB	| 
-| Recommended| 10 19042.1348 or later |	8 GB	| 128 GB	| 
-
-
-*The number of GBs of storage needed is dependent on how much data your organization needs to download onto the device when there is no internet access. This is controlled by the [mobile offline profile](mobile-power-app-system-offline.md).
-
-**To find a device CPU Benchmark score, you can reference an independent 3rd party reviewer such as [Geekbench](https://browser.geekbench.com/v5/cpu/singlecore).
+| Recommended| 10 19042.1348 or later |	8 GB	| 128 GB	|
 
 > [!NOTE]
 > An important consideration before deploying the Field Service (Dynamics 365) mobile app is the hardware specification of the device used, such as memory and processor. Modifying the app with enhancements such as custom configurations and offline javascript may place additional requirements on system memory and processor. Other factors, such as the amount of applications running on the device may also affect app performance.
 
+## Next steps
+
+- [Install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md)
+- [Field Service (Dynamics 365) app for Windows 10+ devices](mobile-powerapp-windows.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
