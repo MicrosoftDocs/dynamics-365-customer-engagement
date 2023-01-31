@@ -1,7 +1,7 @@
 ---
 title: Automatically route cases using basic routing rulesets | MicrosoftDocs
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
-ms.date: 01/25/2023
+ms.date: 01/27/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -117,7 +117,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
         > - The "in" and "not in" operators for the Single Line of Text and Multiple Lines of Text data types and the "not-on" operator for the Date data type are not supported.
         > - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported.
         > - In the Add related entity list, the "One to Many" and "Many to Many" options are not supported even though the application lets you select them.
-        > - The apps based on Unified Interface don't evaluate a rule if the same related entity is used more than once in the routing rule condition.
+        > - If the same related entity is used more than once in the routing rule condition, when you tr .
 
 
     c. In **Action** > **Route to**, select queue or user/team.
