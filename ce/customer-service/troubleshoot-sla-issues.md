@@ -375,7 +375,7 @@ Avoid using the **modifiedon** and **modifiedby** fields for reporting because t
 
 ### See also
 
-[Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)  
+[Understand SLA details with Timer control](customer-service-hub-user-guide-case-sla.md#understand-sla-details-with-timer-control)
 [Define service-level agreements](define-service-level-agreements.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
