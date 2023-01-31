@@ -41,7 +41,7 @@ Microsoft Teams is a way to help agents more easily collaborate with colleagues 
 
 [Macros](macros.md)  
 [Agent scripts](agent-scripts.md)  
-[Smart assist](smart-assist.md)
+[Smart assist](smart-assist.md)  
 [Microsoft Teams](/customer-service/collaboration)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
