@@ -4,7 +4,7 @@ description: "Use this article to know about the supported cloud locations, lang
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/27/2023
+ms.date: 01/31/2023
 ms.topic: article
 ---
 # Supported cloud locations, languages, and locale codes
