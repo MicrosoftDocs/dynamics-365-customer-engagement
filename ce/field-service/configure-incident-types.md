@@ -2,11 +2,9 @@
 title: Create work order templates with incident types
 description: Learn about configuring incident types in Dynamics 365 Field Service.
 ms.date: 09/27/2022
-ms.reviewer: mhart
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -215,8 +213,6 @@ Use the incident type to fill in detail according to its configuration by adding
 1. Save the work order and schedule it to provide the field technician with all relevant details.
 
 Finally, after it's scheduled, the field technician will receive the booked work order along with the incident and related details.
-
-:::image type="content" source="media/work-order-incident-type-mobile.png" alt-text="Screenshot of Field Service Mobile work order, with the populated information highlighted.":::
 
 ## Add multiple incident types to a work order
 

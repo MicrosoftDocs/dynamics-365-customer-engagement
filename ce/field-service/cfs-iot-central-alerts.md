@@ -4,7 +4,6 @@ description: Learn about how to receive IoT alerts in Connected Field Service fr
 
 ms.subservice: connected-field-service
 ms.date: 09/24/2018
-ms.reviewer: mhart
 ms.topic: article
 ms.author: keithh
 author: MSKeith
