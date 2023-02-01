@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 01/27/2023
+ms.date: 02/02/2023
 ms.custom: bap-template
 ---
 # Manage voicemails
