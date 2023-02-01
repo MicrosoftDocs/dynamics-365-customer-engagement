@@ -51,19 +51,20 @@ This section describes how queue items and live work items are affected when you
 
 ## What happens when you delete or deactivate a queue item
 
-When you delete a queue item by selecting **Remove** (via the [**RemoveFromQueue Action**](/dynamics365/customer-engagement/web-api/removefromqueue?view=dynamics-ce-odata-9&preserve-view=true)) or by deleting or canceling the underlying record, the associated live work item (msdyn_ocliveworkitem) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
+- When you delete a queue item by selecting **Remove** (via the [**RemoveFromQueue Action**](/dynamics365/customer-engagement/web-api/removefromqueue?view=dynamics-ce-odata-9&preserve-view=true)) or by deleting or canceling the underlying record, the associated live work item (msdyn_ocliveworkitem) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
 
-When you [deactivate a queue item](deactivate-queue-items.md), the associated live work item (msdyn_ocliveworkitem) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
+- When you [deactivate a queue item](deactivate-queue-items.md), the associated live work item (msdyn_ocliveworkitem) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes. If the record needs to be reopened, then you must reroute it using **Save & Route**, and not reactivate the queue item. The rerouting creates a new live work item and a new queue item, ensuring all the information needed for routing is available again.
+
+- When you update a queue item using unified routing, you can't remove it from the queue by selecting **Pick** ([**PickFromQueue Action**](/dynamics365/customer-engagement/web-api/pickfromqueue?view=dynamics-ce-odata-9&preserve-view=true)) or **RouteTo Action** on the queue item.
+
 
 
 > [!Note]
 > - Since unified routing also works upon the underlying entity record for the owner field, ensure that you provide the right read privilege to the agents for that entity and any other dependent entity. For information on how to provide the accesses to different roles for the entities, see [Manage user accounts, user licenses, and security roles](/marketing/admin-users-licenses-roles).
 > - To get the capacity released for the agents for entities other than incident (via incident resolution or cancelation), add a custom logic to get the corresponding queue item deactivated. More information: [Create and manage capacity profiles](capacity-profiles.md)
-
-[How about the following two points that were there earlier? I guess these are still valid.]
-- When you update a queue item using unified routing, you can't remove it from the queue by selecting **Pick** ([**PickFromQueue Action**](/dynamics365/customer-engagement/web-api/pickfromqueue?view=dynamics-ce-odata-9&preserve-view=true)) or **RouteTo Action** on the queue item.
-
 - When you resolve a routed record, the corresponding queue item that gets deactivated can't be activated again.
+
+
 
 ## Next steps
 [Close live work items or deactivate queue items](deactivate-queue-items.md)
