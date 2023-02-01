@@ -442,14 +442,10 @@
         href: advanced-tutorials.md
     - name: Digital content design
       items: 
-      - name: Design your digital content
-        href: design-digital-content.md
       - name: Work with email, page, and form templates
         href: email-templates.md
       - name: Use custom attributes to enable designer features
         href: custom-template-attributes.md
-      - name: Design elements reference
-        href: content-blocks-reference.md
     - name: Email campaigns
       items: 
       - name: Email marketing overview

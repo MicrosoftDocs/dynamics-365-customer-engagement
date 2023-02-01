@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/design-digital-content.md",
+      "redirect_url": "real-time-marketing-email",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/content-blocks-reference.md",
+      "redirect_url": "content-blocks",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/business-management-settings.md",
       "redirect_url": "data-management-settings",
       "redirect_document_id": "false"
