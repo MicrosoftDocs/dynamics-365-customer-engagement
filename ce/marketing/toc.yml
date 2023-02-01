@@ -274,7 +274,7 @@
           href: real-time-marketing-test-triggers.md
       - name: Segment-based journeys
         items:
-        - name: "Preview: Build segments in real-time marketing"
+        - name: Build segments in real-time marketing
           href: real-time-marketing-build-segments.md
         - name: "Preview: Use natural language to create segments"
           href: real-time-marketing-natural-language-segments.md
