@@ -8,9 +8,9 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Use relationship analytics to gather KPIs
+# View relationship analytics and KPIs
 
-Use relationship analytics to view customer activity history of contact, opportunity, lead, or account in a graphical display through KPIs and activity histories.
+Relationship analytics uses the activity history of a seller with a contact or account and calculates KPIs based on their interactions. The KPIs are available at various levels such as, contact, account, opportunity, and lead. The graphical display of the KPIs help you quickly identify relationships that need to be nurtured as compared to those that are doing well.  
 
 ## License and role requirements
 
@@ -40,6 +40,7 @@ Relationship analytics help sales professionals and managers answer questions su
 - What is the customer's response rate?    
 - How many activities were initiated by the customer?   
 - How long does it take our team to respond?    
+
 
 ## Get the big picture with relationship analytics in list views
 
@@ -94,14 +95,12 @@ The relationship pipeline chart relies on several values being available for eac
 
 ## Relationship analytics with similar opportunities
 
-The current relationship analytics provides information such as graphs, KPIs, email interaction history, full activity history, and relationship health. This information doesn't offer a comparison with similar deals that were won, what's working, or what isn't working in the deal's engagement practices.    
-
 As a seller, it's important for you to understand what's working better for a deal and learn about the best engagement practices from similar deals that were won in the past. The enhanced relationship analytics displays comparable information on the KPIs, graphs, activity history, and relationship health with similar deals that were won. Also, a list of similar deals that were won is displayed at the bottom. By opening the deals, you can learn what has worked and what didn't work, and implement these learnings in the deal you're currently trying to close.  
 
 An administrator must enable the feature before you can start using it. More information: [Configure relationship analytics](configure-relationship-analytics.md).
 
 > [!NOTE]
-> If relationship analytics can't detect the similar opportunities for the current opportunity, relationship analytics takes top 100 won opportunities and displays KIPs to compare with the current opportunity.
+> If relationship analytics can't detect the similar opportunities for the current opportunity, relationship analytics takes top 100 won opportunities and displays KPIs to compare with the current opportunity.
 
 The following screenshot shows an example of enhanced relationship analytics:   
 > [!div class="mx-imgBorder"]
@@ -143,7 +142,7 @@ The following screenshot shows an example of enhanced relationship analytics:
 1. **Similar won deals**: Shows the list of similar opportunities that have been closed as won. The columns display activities count, time spent, response time, and the response ratio for each opportunity. You can select and open an opportunity to view what has worked better in a deal that was closed as won, and implement these observations in the current deal to help close it as well. The list is refreshed every seven days.  
     To know how the similar won deals are identified, see [How are similar won deals identified?](faqs-sales-insights.md#similar-won-deals-fields)
 
-1. **Relationship activities**: Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, emails received, meetings sent, meetings received, phone calls made, and phone calls received.       
+1. **Relationship activities**: Provides a detailed look at activities over 60 days, broken down by date and activity type, such as emails sent, emails received, meetings sent, meetings received, phone calls made, and phone calls received.       
 
 ## How relationship analytics values are calculated
 
