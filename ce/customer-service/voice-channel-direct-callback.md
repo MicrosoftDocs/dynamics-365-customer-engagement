@@ -3,9 +3,10 @@ title: "Configure direct callback to manage overflowing queues"
 description: "Learn how to configure and use direct callback in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.date: 01/27/2023
-ms.topic: article
+ms.reviewer: shujoshi
+ms.date: 02/02/2023
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Configure direct callback
@@ -51,12 +52,15 @@ The direct callback is triggered by the queue overflow conditions where the corr
 1. When the work item reaches the position 1, a voice callback is initiated automatically.
 1. The callback is of the type preview dialing, in which the agent has to accept the callback using a callback-specific notification before the call is dialed.
 
+## Next steps
+
+[Manage overflow of work items in queues](manage-overflow.md)  
+
 ### See also
 
 [Overview of voice channel](voice-channel.md)  
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure routing for the voice channel](voice-channel-route-queues.md)  
-[Manage overflow of work items in queues](manage-overflow.md)  
 [Configure voicemail](voice-channel-voicemail.md)  
 
 
