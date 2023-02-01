@@ -12,7 +12,7 @@ manager: shujoshi
 
 Sending text messages (SMS) is an effective way for sellers to reach out to potential customers as it is fast, convenient, and allows for quick responses. Also, sellers use SMS to stay in touch with their customers, by responding to questions or concerns, and providing updates and information on products/services.  
 Now, Dynamics 365 Sales enables your sellers to send text messages (SMS) to communicate with customers through the SMS feature. Also, sellers can refer to their past communication in context without leaving the application or losing their view of their customers' details.   
-In the sequences, the SMS can be included as a step to send reminders or updates about key events. More information: <cross-reference to SMS step in Add steps to define activities for sequences>
+In the sequences, the SMS can be included as a step to send reminders or updates about key events. 
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -26,12 +26,12 @@ Depending on your role, you can use the text message feature as described in the
 
 -	System administrator or similar role:
     -	Configure the SMS provider in your organization for sellers to use. More information: [Configure SMS provider](configure-sms-provider.md)
-    -	Add, assign, or remove phone numbers to users. More information: [Edit phone numbers](edit-phone-numbers.md)
+    -	Assign or remove phone numbers to users. More information: [Edit phone numbers](edit-phone-numbers.md)
 - 	Sales manager, seller, or any other similar role: 
     -	Choose a service provider to send and receive SMS.
-    -	Add SMS as a step in a sequence.
-    -	Create and add SMS templates.
-    -	Send SMS from the Sales Accelerator workspace.
+    -	Add text message and automated text message as steps in a sequence. More information: [Send a text message](steps-sequence.md#send-a-text-message) and [Send an automated text message](steps-sequence.md#send-an-automated-text-message)
+    -	Create and add SMS templates. More information: 
+    -	Send SMS from the Sales Accelerator workspace or the Up next widget. More information: 
     -	Access past SMS interactions in context with relevant sales records such as, lead and opportunity.
 
 ## Permissions required 
