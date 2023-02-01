@@ -1,8 +1,6 @@
 ---
 title: Relationship analytics and KPIs overview  #Required; page title displayed in search results. Don't enclose in quotation marks.
 description: Understand the basic and advanced relationship analytics and KPIs available.  
-ms.date: 06/13/2022
-ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
@@ -11,7 +9,7 @@ ms.date: 01/30/2023
 ms.custom: bap-template
 ---
 
-## Relationship analytics and KPIs overview
+# Relationship analytics and KPIs overview
 
 Dynamics 365 Sales offers relationship analytics and KPIs at two-levels:
 
@@ -42,6 +40,7 @@ Advanced relationship insights are available with the Sales Premium license and 
 The following screenshot displays the advanced relationship insights that are available in the Relationship Analytics tab of a lead when. Similar widgets are also available in Contact, Account, and Opportunity entities.
 
 :::image type="content" source="media/relationship-analytics-tab-advanced.png" alt-text="Screenshot of the advanced relationship analytics widgets available with Sales Premium." lightbox="media/relationship-analytics-tab-advanced.png"":::
+
 
 |Number|Widget  |Description  |Available for  |
 |------|---------|---------|---------|
