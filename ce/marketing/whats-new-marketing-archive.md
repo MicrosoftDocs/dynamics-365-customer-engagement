@@ -88,7 +88,7 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 ##### Real-time marketing
 
 - **Asset library**
-    - Copy images from the outbound marketing file library to the real-time marketing asset library. Learn more: [Export assets from outbound marketing to the asset library](real-time-marketing-asset-library.md#export-assets-from-outbound-marketing-to-the-asset-library).
+    - Copy images from the outbound marketing file library to the real-time marketing asset library. Learn more: [Export assets from outbound marketing to the asset library](real-time-marketing-asset-library.md#export-images-from-the-default-outbound-library-to-the-asset-library).
 - **Customer journeys**
     - You can now gain more control over journey branching conditions through increased attribute support by having access to all attributes associated with a contact entity, a lead entity or a trigger. You also have the ability to do relative and partial date time checks such as checking if a customer's birthday is this month or if their membership is up for renewal in the next 90 days.
 - **Marketing emails**
