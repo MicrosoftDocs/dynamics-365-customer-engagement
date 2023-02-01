@@ -40,7 +40,8 @@ Advanced relationship insights are available with the Sales Premium license and 
 
 The following screenshot displays the advanced relationship insights that are available in the Relationship Analytics tab of a lead. Similar widgets are also available in Contact, Account, and Opportunity entities. For Opportunity records, the KPIs are compared with similar won deals. For more information see, [Relationship analytics with similar opportunities](relationship-analytics.md#relationship-analytics-with-similar-opportunities).
 
-:::image type="content" source="media/relationship-analytics-tab-advanced.png" alt-text="Screenshot of the advanced relationship analytics widgets available with Sales Premium." lightbox="media/relationship-analytics-tab-advanced.png"":::
+:::image type="content" source="media/relationship-analytics-tab-advanced.png" alt-text="Screenshot of the advanced relationship analytics widgets available with Sales Premium." lightbox="media/relationship-analytics-tab-advanced.png":::
+
 
 
 |Number|Widget  |Description  |Available for  |
