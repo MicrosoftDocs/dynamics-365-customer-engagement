@@ -18,6 +18,12 @@
       href: get-started.md
     - name: Integrate with Dynamics 365 Customer Insights
       href: ci-get-started.md
+  - name: Key real-time marketing scenarios
+    items:
+    - name: Send a targeted email blast in real-time marketing
+      href: real-time-marketing-email-get-started.md
+    - name: Boost event engagement with real-time journeys
+      href: real-time-marketing-event-registration-journey.md
   - name: Installation and environment management
     items: 
     - name: Install or uninstall
@@ -222,10 +228,6 @@
         href: real-time-marketing-overview.md 
       - name: Use Customer Insights profiles and segments
         href: real-time-marketing-ci-profile.md
-      - name: Send a targeted email blast in real-time marketing
-        href: real-time-marketing-email-get-started.md
-      - name: Boost event engagement with real-time journeys
-        href: real-time-marketing-event-registration-journey.md
       - name: Known issues in real-time marketing
         href: real-time-marketing-known-issues.md
     - name: Communication channels
