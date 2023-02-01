@@ -15,7 +15,7 @@ This article explains how to set up the SMS service provider (Twilio and TeleSig
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional license with the AI Builder add-on <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System administrator<br> More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
 
 ## Prerequisites
@@ -121,10 +121,10 @@ To set up the SMS provider (Twilio or TeleSign) sender number to Dynamics 365 Sa
     The provider is added to your SMS provider list.
 
 
-
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Configure SMS provider](configure-sms-provider.md)
+[Engage with customers through text messages](sms-intro.md)
+[Edit phone numbers](edit-phone-numbers.md)
 

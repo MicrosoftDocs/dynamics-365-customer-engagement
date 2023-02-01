@@ -17,7 +17,7 @@ In the sequences, the SMS can be included as a step to send reminders or updates
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional license with the AI Builder add-on <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br> More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
 
 ## How can I use the text message feature?
@@ -26,13 +26,13 @@ Depending on your role, you can use the text message feature as described in the
 
 -	System administrator or similar role:
     -	Configure the SMS provider in your organization for sellers to use. More information: [Configure SMS provider](configure-sms-provider.md)
-    -	Assign or remove phone numbers to users.
+    -	Add, assign, or remove phone numbers to users. More information: [Edit phone numbers](edit-phone-numbers.md)
 - 	Sales manager, seller, or any other similar role: 
     -	Choose a service provider to send and receive SMS.
     -	Add SMS as a step in a sequence.
-    -	Create and add SMS templates in sequence step.
+    -	Create and add SMS templates.
     -	Send SMS from the Sales Accelerator workspace.
-    -	Access past SMS interactions in context with relevant sales records such as lead and opportunity.
+    -	Access past SMS interactions in context with relevant sales records such as, lead and opportunity.
 
 ## Permissions required 
 
@@ -68,5 +68,6 @@ The following roles are required along with the roles defined in the [Salesperso
 
 ### See also
 
-[Configure SMS provider](configure-sms-provider.md)
+[Configure SMS provider](configure-sms-provider.md)  
+[Edit phone numbers](edit-phone-numbers.md)
 

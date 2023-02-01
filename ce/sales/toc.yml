@@ -464,7 +464,9 @@
           href: sms-intro.md
           items:
             - name: Configure SMS provider
-              htrf: configure-sms-provider.md      
+              href: configure-sms-provider.md      
+            - name: Edit phone numbers
+              href: edit-phone-numbers.md
         - name: Manage Campaigns
           href: configure-inapp-marketing.md
     - name: Guided selling
