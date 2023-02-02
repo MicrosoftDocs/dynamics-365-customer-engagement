@@ -29,7 +29,7 @@ Having this information ready can help support agents reduce the hold time that 
 > [!div class='mx-imgBorder']
 > ![View Customer summary.](media/customer-summary.png "View the Customer summary page")
 
-For active conversations, you can view the **Customer summary** form on the agent dashboard of the Customer Service workspace and Omnichannel for Customer Service apps. The **Customer Summary** form, however, doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard.
+For active conversations, you can view the **Customer summary** form on the agent dashboard of the Customer Service workspace and Omnichannel for Customer Service apps. The **Customer Summary** form, however, doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard. More information: [View agent dashboard and conversations](oc-agent-dashboard.md)
 
 ## Customer (Contact or Account)
 
