@@ -1,7 +1,7 @@
 ---
 title: "Cases to queues and routing in Customer Service Hub | MicrosoftDocs"
 description: "Understand cases and SLA in Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 01/30/2023
+ms.date: 02/06/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -39,7 +39,7 @@ If a case is already added to a queue, the **Queue** field displays the current 
 
 > [!NOTE]
 > The following features are early access:
-> - The **Queue** field displays the current queue the case is added to.
+> - If a case is already added to a queue, the **Queue** field displays the current queue by default.
 > - The lookup for the **Queue** fields displays only the queues that are configured for a specific entity.
 
 | Current experience | Previous experience |
