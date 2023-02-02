@@ -108,6 +108,7 @@ Use the **Case** section to search for an existing case in Omnichannel for Custo
 
 This section displays recent cases related to the customer. 
 
+> [!div class='mx-imgBorder']
 > ![Recent cases section in the customer summary form.](media/customer-summary-recent-cases.png "Recent cases section on the Customer summary page")
 
 
