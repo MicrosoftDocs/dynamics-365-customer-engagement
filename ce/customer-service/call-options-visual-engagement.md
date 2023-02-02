@@ -29,7 +29,7 @@ With calling options in live chat, you can:
 
 ## Prerequisites
 
-You'll need a web browser and network connectivity. For supported browsers and required Internet bandwidth, see [System requirements](system-requirements-omnichannel.md).
+You'll need network connectivity and a web browser. For supported browsers and required Internet bandwidth, see [System requirements](system-requirements-omnichannel.md).
 
 ### Initiate voice and video call
 
