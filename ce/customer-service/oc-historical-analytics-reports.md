@@ -1,7 +1,7 @@
 ---
 title: "Configure Omnichannel historical analytics | MicrosoftDocs"
 description: "Use this article to learn how to configure historical analytics reports for Omnichannel for Customer Service."
-ms.date: 11/15/2022
+ms.date: 02/02/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -58,7 +58,7 @@ You can enable historical analytics for unified routing in the Customer Service 
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for unified routing.
 
 1. Go to one of the apps, and perform the following steps.
-   
+
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
@@ -130,16 +130,15 @@ You can enable the historical analytics dashboard for voice in the Customer Serv
 
 The historical analytics for voice dashboard will be available as a tab in the Omnichannel historical analytics report.
 
-## Enable historical analytics for voicemail (preview) in Omnichannel for Customer Service
+## Enable historical analytics for voicemail in Omnichannel for Customer Service
 
-You can enable the historical analytics dashboard for voicemail (preview) in the Customer Service admin center app. The metrics are available in the dashboard after 24 hours of enabling it.
+You can enable the historical analytics dashboard for voicemail in the Customer Service admin center app. The metrics are available in the dashboard after 24 hours of enabling it.
 
 1. In Customer Service admin center, select **Insights** in **Operations**.
 1. For Omnichannel historical analytics, select **Manage**.
-1. Select **Add historical analytics for voicemail (preview)**. 
+1. Select **Add historical analytics for voicemail**.
 
-The historical analytics for voicemail (preview) dashboard will be available as a tab in the Omnichannel historical analytics report.
-
+The historical analytics for voicemail dashboard will be available as a tab in the Omnichannel historical analytics report.
 
 ### See also
 
