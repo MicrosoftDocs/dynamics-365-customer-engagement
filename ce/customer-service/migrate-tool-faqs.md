@@ -69,6 +69,40 @@ Yes, you can rerun the migration tool for a specific migrated rule based on the 
 
 1. If you want to use SLAs created in the Unified Interface apps on existing records: You'll need to update the SLA field to Unified Interface SLA manually or write the plugin to update the records. For example, the plugin logic could be Modern Flow or Workflow.
 
+**New**
+
+### Why do I see two flows in Power automate, when I have an active modern or migrated ARC rule with only one rule item?
+  
+If you have an active rule with rule items, you should expect to see a flow with name “ARC | <rule name>” and a flow with name “ARC: <rule item name>”. All these flows are required to exist and be turned ON for the ARC rule to work properly. For a given inactive ARC rule, you should only expect to see flows with name “ARC: <rule item name” and you should not expect to see “ARC | <rule name>” as this flow is created during rule activation on the flow, though it will not cause any rule item issue if you do see duplicate flows with name “ARC | <rule name>” for the same rule, even though they have the same name, only one of these flows is actually associated with the ARC rule and only that flow will be invoked during run time.
+
+### What does the flow “ARC | <rule name>” do and can I customize it? 
+
+This flow should not be customized; the purpose of this flow is to evaluate through all rule item conditions to pick the first matching one and invoke it’s associated flow. 
+
+### I see the ARC flow trigger is on email update filtering on importsequencenumber attribute, is this the reason for cases not being created for some emails? 
+
+No, it is expected for all ARC flow trigger to be on the update action with filtering attribute importsequencenumber. This is not the reason if sometimes cases are being created for some emails.  
+
+### Can I change the flow trigger to email create or remove the filtering attribute? 
+
+No, changing the flow trigger to the create action or removing the filtering attribute will cause the ARC flow to run during unexpected scenarios and has high potential to lead to infinite flow run loops.
+
+### When I export an ARC rule from an org, what other required components do I need to include in the same solution? 
+
+It is required to include the rule item’s associated flows with the ARC rules in the exported solution. This can be done by selecting the rule and click “Add required components”. The rule item’s associated flows should be name as “ARC: <rule item name>”. You should NOT include flows with name “ARC | <rule name>” in the solution.
+
+### I imported a modern ARC rule with its associated flows, after I activate the imported rule, I see duplicated flows with name “ARC | <rule name>” in Power automate portal. Will this affect run time issues like creating duplicate cases?  
+
+No, this will not affect runtime and will not cause duplicate cases, the flow with name “ARC | <rule name>” is created during rule activation on the fly, the reason there are duplicates is because those duplicated flows were included in a managed solution and imported to the org. Refer to previous question for what to and not to include when export/import an ARC rule through solution.
+
+### Can I turn off/on ARC flows directly in Power automate portal?  
+
+Though it is allowed, it is not recommended to turn on/off any ARC flows directly in Power automate portal. It is recommended to activate/deactivate the rule from within Dataverse.
+
+### Can I still use my legacy rules after deprecation deadline? 
+
+Yes, any active legacy rules after the deprecation deadline will still run until they are deactivated. However supportability and editing experience will stop after deprecation. 
+
 ## Known condition conversion issues
 
 The following are key scenarios where rules or items won't successfully complete migration:
