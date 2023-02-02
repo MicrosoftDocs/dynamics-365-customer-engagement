@@ -16,7 +16,7 @@ search.app:
 
 # Field Service (Dynamics 365) mobile app overview
 
-The Field Service (Dynamics 365) mobile app enables technicians to view and update work orders, customer assets, accounts, and more on the go. The app is available for Windows 10+, Apple iOS, and Google Android devices at no additional charge.
+The Field Service (Dynamics 365) mobile app enables technicians to view and update work orders, customer assets, accounts, and more on the go. The app is available for Windows 10+, Apple iOS, and Google Android devices at no extra charge.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN1Bb]
 
@@ -66,7 +66,7 @@ Field Service (Dynamics 365) mobile app is available for iOS, Android, and Windo
 
 To provide the best experience for mobile app users, we recommend using modern devices with high [CPU Benchmark scores on Geekbench](https://browser.geekbench.com/v5/cpu/singlecore).
 
-The required storage size depends on the [mobile offline profile](mobile-power-app-system-offline.md). It specifies the amount of data that your organization needs to download for when there is no internet access.
+The required storage size depends on the [mobile offline profile](mobile-power-app-system-offline.md). It specifies the amount of data that your organization needs to download for when there's no internet access.
 
 ### iOS
 
@@ -83,7 +83,7 @@ The required storage size depends on the [mobile offline profile](mobile-power-a
 
 |   | OS Version  | CPU Benchmark Score   | RAM   | Storage   |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Minimum  | 9 or later   | 400+   | 4GB   | 64 GB|
+| Minimum  | 9 or later   | 400+   | 4 GB   | 64 GB|
 | Recommended  | 10 or later   | 900+   | 8 GB   | 64+ GB|
 
 ### Windows
