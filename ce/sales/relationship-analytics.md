@@ -13,17 +13,19 @@ ms.custom: bap-template
 
 Relationship analytics uses the activity history of a seller with a contact or account and calculates KPIs based on their interactions. The KPIs are available at various levels such as, contact, account, opportunity, and lead. The graphical display of the KPIs help you quickly identify relationships that need to be nurtured and the KPIs to be improved for the same.  
 
+Depending on your license and configuration, you'll either see [basic insights](relationship-analytics-overview.md#basic-relationship-insights) or [enhanced insights](relationship-analytics-overview.md#enhanced-relationship-insights).  
+
 ## License and role requirements
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 
 ## View analytics and KPIs for a record
 
-The record-level analytics includes graphs for each KPI and provides a drill-down of the activities. The following steps describe how to access the analytics page for a lead. Use similar steps for viewing relationship analytics for account, contact, and opportunity records.
+The record-level analytics includes graphs for each KPI and provides a drill-down of the activities. The following steps describe how to access the analytics page for a lead. Use similar steps to view relationship analytics for account, contact, and opportunity records.
 
 1. In the Sales Hub app, select **Leads** and open a lead.  
 1. Select the **Sales Insights** form from the drop-down.  
