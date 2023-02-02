@@ -1,7 +1,7 @@
 ---
 title: "Migration tool FAQ | MicrosoftDocs"
 description: "Migration tool FAQ for  Automatic record creation rules and service-level agreement items"
-ms.date: 12/09/2022
+ms.date: 02/02/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
