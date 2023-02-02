@@ -4,7 +4,7 @@ description: "Learn how to create and manage agent experience profiles for custo
 author: gandhamm
 ms.author: mgandham
 manager: shujoshi
-ms.date: 06/09/2022
+ms.date: 02/02/2023
 ms.topic: article
 ---
 

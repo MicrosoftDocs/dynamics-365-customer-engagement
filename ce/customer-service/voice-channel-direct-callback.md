@@ -64,5 +64,4 @@ The direct callback is triggered by the queue overflow conditions where the corr
 [Configure voicemail](voice-channel-voicemail.md)  
 
 
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
