@@ -29,12 +29,7 @@ With calling options in live chat, you can:
 
 ## Prerequisites
 
-Make sure that the following prerequisites are met:
-
-- **Browser:** Latest version of Microsoft Edge or Google Chrome. For more information, see the [Supported browsers for live chat widget](system-requirements-omnichannel.md#browsers-for-chat).
-- **Internet bandwidth:**
-  - **Minimum:** 500 KBps upload speed; 1 MBps download speed
-  - **Recommended:** 1 MBps upload speed; 2 MBps download speed
+You'll need a web browser and network connectivity. For supported browsers and required Internet bandwidth, see [System requirements](system-requirements-omnichannel.md).
 
 ### Initiate voice and video call
 
