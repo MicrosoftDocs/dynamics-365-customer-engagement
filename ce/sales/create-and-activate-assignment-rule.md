@@ -22,7 +22,7 @@ Create and activate assignment rules for leads and opportunities by defining con
 As a sequence manager, you create an assignment rule for lead and opportunity records by defining different conditions such as segment, sellers, and lead or opportunity distribution. After a rule is activated and a record satisfies the conditions that are defined in the rule, the record is automatically assigned to a seller. When records are created in Dynamics 365 Sales, you don't have to manually assign them to sellers. 
 
 >[!NOTE]
->A rule considers only the records that are created after it's activated. 
+>A rule considers only the records that are created or updated after it's activated. 
 
 When a lead or opportunity record is created in an organization, assignment rules are applied from the top of the order in which they're listed. When the record satisfies the conditions defined for a rule, that rule is applied to the record. By default, rules are listed in the order in which they were created, with the most recent at the bottom. You can select and drag the rules into any order you want.
 
@@ -49,10 +49,10 @@ When a lead or opportunity record is created in an organization, assignment rule
       >![Select a new segment from the Choose segment dropdown menu.](media/sa-segment-assignment-rule-specific-lead.png "Select new segment from choose segment dropdown")
 
     - **All incoming leads**: All the new leads that are created will be assigned to sellers in accordance with the conditions defined in the rule.
-    - **Specific lead**: Select a segment from the **Choose segment** dropdown menu to connect leads that are available in the segment to sellers in accordance with the conditions defined in this rule. All the active segments that are related to leads that are displayed in the list. However, if you want to create a segment that's not in the list and is specific to this rule, select **New segment**. More information: [Create and activate a segment](create-and-activate-a-segment.md)
+    - **Specific lead**: Select a segment from the **Choose segment** dropdown menu to connect leads that are available in the segment to sellers in accordance with the conditions defined in this rule. All the active segments related to leads are displayed in the list. However, if you want to create a segment specific to this rule, select **New segment**. More information: [Create and activate a segment](create-and-activate-a-segment.md)
 
       >[!NOTE]
-      >If no segment is selected for a rule, or no segment is defined in the application, you can select the default segment (**My segment**) that's applied on all leads.
+      >If no segment is selected for a rule, or no segment is defined in the application, you can select **None**.
 
       Also, you can configure more settings to determine how the leads in the segment must be assigned to sellers. Select **Additional condition**, and then select **Add**. Configure the conditions as follows:
 
