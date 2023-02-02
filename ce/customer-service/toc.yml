@@ -352,8 +352,6 @@
         href: enable-case-grids.md
       - name: Use Power Apps to customize the case management experience
         href: add-enhanced-case-management.md
-      - name: Configure and customize customer details and recent cases on forms
-        href: cs-admin-conversation-summary.md  
     - name: Agent experience
       items: 
       - name: Create cases
