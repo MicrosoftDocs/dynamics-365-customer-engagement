@@ -846,7 +846,9 @@
               href: track-playbook-activities.md
     - name: Relationship intelligence
       items:
-        - name: View customer activity history
+        - name: Relationship analytics and KPIs overview
+          href: relationship-analytics-overview.md
+        - name: View relationship analytics and KPIs
           href: relationship-analytics.md
         - name: Get introduced to leads and contacts
           href: who-knows-whom.md

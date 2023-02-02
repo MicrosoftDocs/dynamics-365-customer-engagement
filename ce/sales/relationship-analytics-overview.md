@@ -1,5 +1,5 @@
 ---
-title: Relationship analytics and KPIs overview  #Required; page title displayed in search results. Don't enclose in quotation marks.
+title: Relationship analytics and KPIs overview 
 description: Relationship analytics uses the activity history of a seller with a contact or account and calculates KPIs based on their interactions. The KPIs are available at various levels such as, contact, account, opportunity, and lead.  
 author: lavanyakr01
 ms.author: lavanyakr
