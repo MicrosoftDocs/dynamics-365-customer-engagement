@@ -10,7 +10,7 @@ manager: shujoshi
 ---
 # Configure who knows whom 
 
-The Who knows whom feature helps your sales organization quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. Configure the feature to select an email template to use for introductions.  
+The Who knows whom feature helps your sales organization quickly identify colleagues who can introduce them to leads or contacts, based on their interactions through emails and meetings. Configure the feature to select an email template to use for introductions.  
 
 
 >[!NOTE]
