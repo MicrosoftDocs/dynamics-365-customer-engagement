@@ -55,7 +55,7 @@ After you enable who knows whom, you must complete the [next steps](#next-steps)
 
 - Work with your Microsoft 365 admin to [provide consent to use Exchange data](provide-consent-office365.md).
 
-    Make sure to get consent within 14 days of turning on the relationship intelligence features. Otherwise, who knows whom will be automatically turned off on the 14th day.
+    Make sure to get consent within 14 days of turning on the relationship intelligence features. Otherwise, who knows whom will be automatically turned off on the 14th day. You'll continue to get the out-of-the-box who knows whom information from Dynamics 365 data, however.  
 
 - If you'd like roles other than Salesperson and Sales Manager to access the who knows whom information, [grant access to those roles](grant-access-wkw.md).  
 

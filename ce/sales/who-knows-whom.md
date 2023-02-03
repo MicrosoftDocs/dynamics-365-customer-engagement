@@ -23,20 +23,15 @@ Use who knows whom to quickly identify colleagues who can introduce you to a lea
 
 As a sales representative, you often interact with leads whom you've never talked to or even met before. If only you knew someone who knew the lead, an introduction could increase the chances of a positive outcome. Who knows whom in Dynamics 365 Sales does exactly that. Who knows whom suggests the names and email addresses of your colleagues who had interacted with the lead through emails or meetings. It even helps you quickly email your colleagues to request an introduction.
 
-> [!NOTE]
-> For Sales Enterprise users, the who knows whom information is populated based on the emails and meeting data in Dynamics 365. For Sales Premium users, the information is populated based on Exchange data, provided your administrator has [configured the integration](configure-who-knows-whom.md). If you don't want Dynamics 365 to collect your Exchange data, you can [opt out](#turn-off-data-sharing-with-dynamics-365-applications).  
+For Sales Enterprise users, the who knows whom information is populated based on the emails and meeting data in Dynamics 365. For Sales Premium users, the information is populated based on Exchange data, provided your administrator has [configured the integration](configure-who-knows-whom.md). If you don't want Dynamics 365 to collect your Exchange data, you can [opt out](#turn-off-data-sharing-with-dynamics-365-applications) of data sharing.  
  
-You can also search for contacts or leads outside your Exchange organization and, if users in your Exchange organization have added internal users' email addresses to their Exchange address book, inside it, too.
-
-You'll find the **Who Knows Whom** tile in **Contact** and **Lead** forms. When you open a lead or contact and select the **Sales Insights** view, the **Who Knows Whom** tile is displayed. 
-
 ## View who knows whom  
 
-The Who knows whom information is available for contacts and leads.   
+The Who knows whom information is available for contacts and leads.
 
 1. In the Sales Hub app, select a lead or a contact. 
 
-    The Who Knows Whom widget shows up to five people in your organization who have communicated with the lead or contact through calls and emails. It also shows you how strong their connection is. The widget is available in the **Sales Insights** form and the main **Contact** or **Lead** form.
+    The Who Knows Whom widget shows up to five people in your organization who have communicated with the lead or contact through calls and emails. It also shows you how strong their connection is. The widget is available in the **Sales Insights** form and in the main **Contact** or **Lead** form.
 
     :::image type="content" source="media/wkw-widget.png" alt-text="Screenshot of the Who Knows Whom tile.":::
 
@@ -44,7 +39,7 @@ The Who knows whom information is available for contacts and leads.
     > If you see a message that you don't have sufficient privileges, ask your admin to provide [necessary permissions](grant-access-wkw.md). 
 
 2. Select the icon in the upper-right corner of the **Who Knows Whom** tile to switch between graph and list views.
-1. Based on the connection strength, identify a colleague who can introduce you to the lead. Select **Get introduced**.
+1. Based on the connection strength, identify a colleague who can introduce you to the lead and select **Get introduced**.
     An email to the selected colleague is pre-populated with the template text. You can refine the email content and send it.
 
 ## Turn off data sharing with Dynamics 365 applications
