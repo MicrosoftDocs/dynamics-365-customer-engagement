@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 01/27/2023
+ms.date: 02/06/2023
 ms.custom: bap-template
 ---
 
@@ -21,7 +21,7 @@ This article discusses some of the important aspects to successfully deploy and 
 
 ### Verify service limits and default quotas
 
-Dynamics 365 Customer Service relies on shared cloud resources for data and processing. You must check the service limits and default quotas for the resources before you provision unified routing. These limits ensure that other tenants performance isn't affected and resources are evenly distributed. Some of the limits are adjustable and we recommend that you request adjustments accordingly. More information: [Service quotas](service-quotas.md)
+Dynamics 365 Customer Service relies on shared cloud resources for data and processing. You must check the service limits and default quotas for the resources before you provision unified routing. These limits ensure that performance of other tenants isn't affected and resources are evenly distributed. If you need a higher limit on a measure that's indicated as adjustable, contact Microsoft Support to check whether the limit can be increased. More information: [Service quotas](service-quotas.md)
 
 ## Manage users
 
@@ -41,11 +41,13 @@ To manage the users in bulk, perform the steps in the following sequence:
 1. Assign capacity profiles. More information: [Create and manage capacity profiles](capacity-profiles.md)
 1. Assign required roles. More information: [Assign roles](add-users-assign-roles.md)
 
+If you don't follow the recommended order, inconsistencies in the user information might occur, such as missing users or missing skills and capacity profiles.
+
 ### Limit number of change requests when setting up users in bulk using Dataverse API calls
 
 Customer Service lets you make API calls to set-up users in bulk. A single change request is any add or update operation like defining a single skill, capacity profile, or role per user.
 
-We recommend that you make 500 change requests every 15 minutes for the system to process the changes optimally without getting throttled.
+We recommend that you make 500 change requests every 15 minutes for the system to process the changes optimally without getting throttled. Beyond this recommended rate for bulk updates, you might see inconsistencies in user data, such as skills not updated as expected, after the update is over.
 
 For example, if you manage a contact center that has 1000 agents working in it and need to set up each agent by assigning two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4000.
 
@@ -87,7 +89,7 @@ For example, to address the following scenario in your contact center, we recomm
 - During standard operations, the team will have two subgroups, and each group will handle one type of incoming work items.
 - During peak load, certain users can handle work items from both types.
 
-Skill-based routing can also help reduce the number of queues in your organization because a single queue can help manage a variety of work items with different skill requirements.
+Skill-based routing helps reduce the number of queues to be managed in your organization.
 
 ## Next steps
 
