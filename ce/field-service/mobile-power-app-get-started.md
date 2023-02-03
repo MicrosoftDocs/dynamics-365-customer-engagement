@@ -2,7 +2,6 @@
 title: "Install the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to install and set up the Field Service (Dynamics 365) mobile app.
 ms.date: 11/30/2022
-ms.reviewer: mhart
 ms.topic: article
 
 ms.subservice: field-service-mobile
@@ -12,7 +11,6 @@ applies_to:
 ms.custom: intro-internal
 author: Andrea-Orimoto
 ms.author: andreo
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

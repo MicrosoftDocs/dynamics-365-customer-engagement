@@ -4,7 +4,6 @@ description: Learn how to use asset properties in Dynamics 365 Field Service.
 ms.date: 01/25/2023
 author: jshotts
 ms.author: jasonshotts
-ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template
 search.app: 

@@ -3,8 +3,6 @@ title: Apply a calendar to a resource in Dynamics 365 Field Service
 description: How to apply a calendar to a resource in Dynamics 365 Field Service
 author: ryanchen8
 ms.author: chenryan
-manager: shellyha
-ms.reviewer: mhart
 
 ms.date: 09/18/2020
 ms.topic: article

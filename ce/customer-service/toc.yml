@@ -438,7 +438,7 @@
         href: add-timer-forms-track-time-against-enhanced-sla.md
     - name: Agent experience
       items: 
-      - name: Manage SLAs
+      - name: Understand SLAs
         href: customer-service-hub-user-guide-case-sla.md
   - name: Email
     items: 
@@ -449,9 +449,9 @@
       - name: Customize the email experience
         href: customer-service-hub-user-guide-email-font-admin.md
       - name: Configure the enhanced insert email template dialog
-        href: customize-insert-email-template.md
-      - name: Enable the enhanced email template editor page
-        href: cs-email-template-builder.md
+        href: /power-apps/user/customize-insert-email-template?context=/dynamics365/context/customer-service-context
+      - name: Configure the enhanced email template editor page
+        href: /power-apps/user/cs-email-template-builder/?context=/dynamics365/context/customer-service-context
       - name: Configure a default signature template for a queue
         href: add-signature-template-queue.md  
     - name: Agent experience
@@ -650,9 +650,9 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
-      - name: Use voicemail to manage inbound calls
+      - name: Configure voicemail to manage inbound calls
         href: voice-channel-voicemail.md
-      - name: Use direct callback
+      - name: Configure direct callback
         href: voice-channel-direct-callback.md  
       - name: Configure outbound and inbound profiles
         href: configure-outbound-inbound-profiles.md  
@@ -690,6 +690,8 @@
         href: voice-channel-agent-experience.md
       - name: How to avoid call disconnection
         href: voice-channel-agent-experience.md#how-to-avoid-call-disconnection
+      - name: Manage voicemails
+        href: manage-voicemails.md
       - name: Transfer calls and consult with other users
         href: voice-channel-transfer-consult.md
       - name: View call recordings and transcripts

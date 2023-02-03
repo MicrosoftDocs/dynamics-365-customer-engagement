@@ -8,7 +8,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: ryanchen8
 ms.author: chenryan
-ms.reviewer: mhart
 search.app: 
   - D365CE
   - D365FS

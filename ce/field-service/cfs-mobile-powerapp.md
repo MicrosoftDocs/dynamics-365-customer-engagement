@@ -2,7 +2,6 @@
 title: "Connected Field Service on Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to access Connected Field Service from the Field Service (Dynamics 365) mobile app.
 ms.date: 01/19/2021
-ms.reviewer: mhart
 
 ms.subservice: connected-field-service
 ms.topic: article
@@ -11,7 +10,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: keithh
 author: MSKeith
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

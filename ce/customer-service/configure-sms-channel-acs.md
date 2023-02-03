@@ -1,7 +1,7 @@
 ---
 title: Configure an SMS channel using Azure Communication Services | MicrosoftDocs
 description: This article includes instructions for configuring an SMS channel using Azure Communication Services.
-ms.date: 01/23/2023
+ms.date: 02/03/2023
 ms.topic: how-to
 author: mh-jaya
 ms.author: v-jmh
@@ -20,6 +20,7 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 > - SMS is currently available for toll-free numbers in the United States only, and only works for inbound communication. Outbound (agent-initiated) SMS is not currently supported.
 > - SMS is not supported with Azure direct routing. More information: [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
 > - For best SMS delivery experience, we recommend that you submit a toll-free verification application for your toll-free numbers. More information: [How do I submit a toll-free verification?](/azure/communication-services/concepts/sms/sms-faq#toll-free-verification)
+> - File attachments aren't supported in the SMS channel using Azure Communication Services.
 
 ## Prerequisites
 
@@ -43,11 +44,7 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
      - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. More information: [Configure operating hours](create-operating-hours.md)
      - [Configure custom automated messages](configure-automated-message.md).
      - [Configure post-conversation survey](configure-post-conversation-survey.md).
-   4. On the **User features** page, turn on the **File attachments** toggle and select the following options for file exchange.
-     - **Customers can send file attachments**
-     - **Agents can send file attachments**<br>
-        For information about file attachments, see [Configure file attachment](configure-file-attachment.md).
-   5. Verify the settings on the **Summary** page, and then select **Finish**. The SMS channel is now configured.
+   4. Verify the settings on the **Summary** page, and then select **Finish**. The SMS channel is now configured.
 3. [Configure routing rules](configure-work-classification.md).
 4. [Configure work distribution](create-workstreams.md#configure-work-distribution).
 5. [Add a bot](create-workstreams.md#add-a-bot-to-a-workstream).

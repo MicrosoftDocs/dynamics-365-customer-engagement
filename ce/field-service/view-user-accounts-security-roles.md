@@ -2,7 +2,6 @@
 title: "Set up Dynamics 365 Field Service users and security roles | MicrosoftDocs"
 description: Learn how to set up Field Service users and security roles in Dynamics 365 Field Service
 ms.date: 02/18/2021
-ms.reviewer: mhart
 
 ms.topic: article
 ms.author: jacoh
