@@ -152,6 +152,6 @@ For organizations that use:
 > [!NOTE]
 > This functionality is avialable in the 2023 Wave 1 Early Access (EA) release, and not yet Generally Available (GA).
 
-[!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)
+[!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
