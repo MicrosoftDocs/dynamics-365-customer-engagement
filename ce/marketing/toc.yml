@@ -334,7 +334,7 @@
       items: 
       - name: Install the real-time marketing asset library add-on
         href: real-time-marketing-asset-add-on.md
-      - name: Real-time marketing asset library
+      - name: Real-time marketing asset library add-on
         href: real-time-marketing-asset-library.md
     - name: Administration
       items: 
@@ -502,7 +502,7 @@
         href: pages-forms-troubleshoot.md
     - name: Marketing content library management
       items: 
-      - name: Upload and use images and files
+      - name: Upload and use images in online content
         href: upload-images-files.md
       - name: Create a video library and add videos to your designs
         href: video-content.md
