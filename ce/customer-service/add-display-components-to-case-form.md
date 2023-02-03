@@ -16,7 +16,7 @@ Use the **Customer 360** and **Recent records** components to display the custom
 
 ## Add the Customer 360 component to a case form
 
-For example, the **Customer 360** is added to the case form. On the new case page, when an agent selects a customer in the Customer field, the customer details and recent cases can be displayed as follows:
+For example, the **Customer 360** is added to the case form. On the new case page, when an agent selects a customer in the Customer field, the customer details are displayed as follows:
  
  :::image type="content" source="media/customer360-control.png" alt-text="sample image of the customized card" lightbox="media/customer360-control.png":::
 
