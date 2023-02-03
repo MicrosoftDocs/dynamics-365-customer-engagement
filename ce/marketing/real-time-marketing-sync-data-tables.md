@@ -32,7 +32,7 @@ The real-time marketing segment builder allows you to sync data tables without r
 To add the Fax table directly from the Marketing app, go to the real-time marketing segment builder and create or select a segment. Then, in the **Elements** side pane, select **+Add table** next to **Related tables**. Search for the Fax table, select the check box next to it, then select **Next** to add the table to the segment builder. 
 
 > [!div class="mx-imgBorder"]
-> ![add table to segment builder](media/real-time-marketing-add-table-to-segment-builder.png "add table to segment builder")
+> ![Add table to segment builder](media/real-time-marketing-add-table-to-segment-builder.png "Add table to segment builder")
 
 After you add the new table, you can use the attributes from Fax immediately in your segment creation.
 
