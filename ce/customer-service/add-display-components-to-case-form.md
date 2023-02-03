@@ -23,7 +23,7 @@ After you add the **Customer 360** control to a case form, when an agent selects
  Do the following tasks to add the control. You can use these steps to display customer records on any entity where the Customer lookup is available.
 
 1. Add the **Customer 360** component to forms in the **Account** and **Contact** tables.
-1. Add the **Account** and **Contact** forms on which the component is added to the **Case** form. More information: [Edit related table records directly from another table’s main form](/power-apps/maker/model-driven-apps/form-component-control)
+1.On the **Case** form, add the **Account** and **Contact** forms on which the component was added. More information: [Edit related table records directly from another table’s main form](/power-apps/maker/model-driven-apps/form-component-control)
 
 ### Add the Customer 360 component to Contact and Account forms
 
