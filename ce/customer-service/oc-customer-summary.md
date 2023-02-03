@@ -66,7 +66,7 @@ These tabs are described in the following sections.
 
 The **Pre-chat survey** tab displays the customer's answers to the survey questions that were posed by your organization, which helps your interaction with the customer.
 
-### Self-service
+### Self service
 
 The **Self service** tab displays information about the activities that the customer performed before starting a conversation with an agent. This information helps you understand why the customer reached out and helps you provide a personalized service for enhanced customer satisfaction. The activity information, which is categorized into the following action types, appears in reverse chronological order.
 
