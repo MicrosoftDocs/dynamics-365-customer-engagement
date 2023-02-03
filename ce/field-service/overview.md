@@ -1,9 +1,9 @@
 ---
 title: Overview of Dynamics 365 Field Service (contains video)
 description: Learn about Dynamics 365 Field Service and its features.
-ms.date: 02/23/2021
-
+ms.date: 02/03/2023
 ms.topic: overview
+ms.custom: bap-template
 author: jshotts
 ms.author: jasonshotts
 search.app:
@@ -28,6 +28,8 @@ The Field Service application enables you to:
 - Schedule onsite visits when it's convenient for the customer
 - Avoid equipment downtime through preventative maintenance
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs4Cu]
+
 Here are some examples of the types of organizations that use the application to manage their field service:
 
 - **Manufacturing** -  A medical device manufacturer sells machines to hospitals and clinics, and uses the application to manage maintenance services over the lifetime of the machines.
@@ -50,47 +52,6 @@ Field service capabilities include:
 - **Time tracking** to help you track how resources are spending their time, whether they're traveling, on break, or working.
 - **Analytics for reporting** on key performance indicators for managing work orders, scheduling activities, and interacting with customers.
 
-## Customer stories
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sodexo – Facilities Management](https://youtu.be/awSwCtgZvXE)
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [DMS Health Technologies – Health Services](https://www.youtube.com/watch?v=-H4wwuOfdOg&feature=youtu.be)
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Yougenio Italy – Facilities Management](https://www.youtube.com/watch?v=URZueU-eFvo)
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sandvik Coromant](https://www.youtube.com/watch?v=Oq6z3UALoYI)
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Nurse Maude](https://www.youtube.com/watch?v=q0aZsdokOv8)
-
-- [RASCO](https://customers.microsoft.com/story/828538-rasco-discrete-manufacturing-dynamics365-en-croatia?_lrsc=28be62af-daf6-4315-9dc7-845eb10f60a1)
-
-- [Toyota](https://customers.microsoft.com/en-us/story/toyota-industries-corporation)
-
-- [Real Estate & Facilities (within Microsoft)](https://www.microsoft.com/itshowcase/blog/microsoft-field-technicians-get-their-mobility-back-with-dynamics-365-app/?elevate-lv&_lrsc=80ec2291-74e8-4a9f-ab2b-4edf95f2ab48)
-
-- [NAVCO](https://customers.microsoft.com/story/790284-navco-professional-services-dynamics-365)
-
-- [Rockwell Automation](https://customers.microsoft.com/story/786160-rockwell-automation-manufacturing-dynamics-365)
-
-- [Siemens](https://customers.microsoft.com/story/814362-siemens-manufacturing-dynamics-365-field-service)
-
-- [Oasen](https://customers.microsoft.com/story/oasen-nonprofit-azure-hololens-netherlands)
-
-- [Orangebox](https://customers.microsoft.com/story/754861-orangebox-manufacturing-dynamics-365)
-
-- [Posturite](https://customers.microsoft.com/story/759768-posturite)
-
-- [Lexmark](https://customers.microsoft.com/story/735150-lexmark-international-unitedstates-professional-services-microsoft365)
-
-- [Mashreq](https://customers.microsoft.com/story/mashreq-banking-surface-uk)
-
-- [ExxonMobil](https://customers.microsoft.com/story/exxonmobil-mining-oil-gas-azure)
-
-- [EcoLab](https://customers.microsoft.com/story/832498-ecolab-professional-services-dynamics-365)
-
-- [New York City Administration for Children’s Services (ACS)](https://customers.microsoft.com/story/new-york-city-acs-government-surface)
-
-- [Penrith City Council](https://customers.microsoft.com/story/862033-penrith-city-council-government-dynamics-365-field-service)
 
 ## Field Service roles
 
@@ -126,10 +87,8 @@ Work orders describe the work that a technician needs to perform at a customer l
     For example, if an equipment part is installed at a customer's location during an installation or repair, the system will document a reduction in inventory from the related warehouse or truck and document the part as a new customer asset along with installation/repair details. Closing a work order will then generate an invoice for any used parts or labor.
 > ![Screenshot of completed work order.](media/work-order-process-4.png)
 
-## Watch an overview video
+## Additional resources
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs4Cu]
-
-
+Explore analyst research and other [resources to learn more about Dynamics 365 Field Service](https://dynamics.microsoft.com/field-service/resources/).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
