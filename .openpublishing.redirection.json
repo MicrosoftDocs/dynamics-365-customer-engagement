@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/design-digital-content.md",
+      "redirect_url": "real-time-marketing-email",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/content-blocks-reference.md",
+      "redirect_url": "content-blocks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/business-management-settings.md",
+      "redirect_url": "data-management-settings",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/webapi/use-microsoft-dynamics-365-web-api-helper-library-csharp.md",
       "redirect_url": "/power-apps/developer/data-platform/webapi/samples/webapiservice",
       "redirect_document_id": "false"
@@ -19,7 +34,7 @@
       "source_path": "ce/customerengagement/on-premises/developer/webapi/web-api-helper-code-authentication-class.md",
       "redirect_url": "/power-apps/developer/data-platform/webapi/samples/webapiservice",
       "redirect_document_id": "false"
-    },    
+    },
     {
       "source_path": "ce/customerengagement/on-premises/developer/building-extended-xrm-applications.md",
       "redirect_url": "/power-platform/",
@@ -353,6 +368,16 @@
     {
       "source_path": "ce/customer-service/help-hub.md",
       "redirect_url": "landing-page",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/cs-email-template-builder.md",
+      "redirect_url": "/powerapps-docs/user/cs-email-template-builder.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/customize-insert-email-template.md",
+      "redirect_url": "/powerapps-docs/user/customize-insert-email-template.md",
       "redirect_document_id": "false"
     },
     {
@@ -24414,7 +24439,7 @@
       "source_path": "ce/sales/apply-remove-tags-seller.md",
       "redirect_url": "manage-sequences-seller#apply-and-remove-tags-from-your-sequences",
       "redirect_document_id": "false"
-    },    
+    },
     {
       "source_path": "ce/customer-service/oc-search-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
@@ -24528,6 +24553,21 @@
     {
       "source_path": "ce/customer-service/export-import-config-data-for-voice.md",
       "redirect_url": "migrate-config-data-for-voice-channel",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/asset-properties.md",
+      "redirect_url": "/dynamics365/field-service/properties",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/assets-functional-location.md",
+      "redirect_url": "/dynamics365/field-service/functional-locations",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/configure-set-up-customer-assets.md",
+      "redirect_url": "/dynamics365/field-service/assets",
       "redirect_document_id": "false"
     },
     {

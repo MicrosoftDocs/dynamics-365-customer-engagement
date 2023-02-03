@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox | MicrosoftDocs
 description: Learn how to enable the inbox in Dynamics 365 Customer Service App profile manager and configure inbox settings in Customer Service admin center.
-ms.date: 10/03/2022
+ms.date: 02/02/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -64,7 +64,7 @@ You can configure the inbox in the Customer Service admin center by editing the 
      - Assigned to me:
        - Emails sent to me
        - Emails assigned to me
-     - Unassigned
+     - Unassigned:
        - Emails in my team
        - Emails in my queue(s)
        - Emails in a shared mailbox
@@ -113,19 +113,19 @@ To configure multiple views for the inbox, complete the following steps.
 
 1. Select **Save**.
 
-
 ### Simple settings
 
 The following simple settings are available out of the box for the record types.
 
 | Record type | Simple settings |
 |-----------|------------------|
-| Email | - Emails sent to me<br>- Emails assigned to me<br> - Emails in my team(s)<br> - Emails in my queue(s)<br> - Emails in a shared mailbox|
-| Chat | - Assigned<br> - Unassigned<br> - Resolved|
-| Case | - Cases assigned to me<br> - Cases in my team(s)<br> - Case(s) in my queue(s) |
-| Voicemail (preview) | - Assigned<br> - Unassigned<br> - Resolved |
+| Email | - Emails sent to me <br>- Emails assigned to me <br> - Emails in my team(s) <br> - Emails in my queue(s) <br> - Emails in a shared mailbox|
+| Chat | - Assigned <br> - Unassigned <br> - Resolved|
+| Case | - Cases assigned to me <br> - Cases in my team(s) <br> - Case(s) in my queue(s) |
+| Voicemail | - Assigned <br> - Unassigned <br> - Resolved |
 
 ## Real-time translation
+
 For information about how to configure real-time translation for conversations in the inbox, see [Enable real-time translation of conversations](enable-real-time-translation.md)
 
 
@@ -133,4 +133,4 @@ For information about how to configure real-time translation for conversations i
 
 [Create and use agent experience profiles](../app-profile-manager/create-agent-experience-profile.md)  
 [Overview of agent experience profiles](../app-profile-manager/overview.md)  
-[Use voicemail to manage inbound calls](../customer-service/voice-channel-voicemail.md)  
+[Configure voicemail to manage inbound calls](../customer-service/voice-channel-voicemail.md)  

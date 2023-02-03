@@ -1,7 +1,7 @@
 ---
 title: "Define your Custom APIs (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to define your Custom APIs in Dynamics 365 Marketing."
-ms.date: 12/13/2022
+ms.date: 01/30/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -40,14 +40,13 @@ The contract that the custom API should implement must have one input parameter 
 
 - The response is a serialized JSON with the following contract:
     - ChannelDefinitionId: GUID – The channel definition ID
-    - MessageId:  string – The message ID
-    - RequestId: string – The request ID 
-    - StatusDetails: Dictionary<string, object> - Channel specific information regarding the status.
-    - Status: string – Possible Values are:
-        - NotSent – there was an attempt to execute the submission to the provider, but it was rejected without a possibility to retry 
-        - Sent – the submission request was successfully accepted by the provider
-        - Delivered – the accepted message was successfully delivered to the target
-        - NotDelivered – the accepted message was not successfully delivered to the target 
+    - MessageId (optional): string – The message ID. Optional, it may exist in the API response of a provider.
+    - RequestId: string – The request ID. Should be equal to the request ID value inside the request payload.
+    - Status: string – Possible values are:
+        - NotSent – there was an attempt to execute the submission to the provider, but it was rejected without a possibility to retry.
+        - Sent – the submission request was successfully accepted by the provider.
+        - Delivered – the accepted message was successfully delivered to the target.
+        - NotDelivered – the accepted message was not successfully delivered to the target.
 
 ## B. Delivery report custom API
 
