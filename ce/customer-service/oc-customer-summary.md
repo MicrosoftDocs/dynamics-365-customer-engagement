@@ -1,7 +1,7 @@
 ---
 title: "View customer summary in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about customer summary, its sections, and how you can view customer information in Omnichannel for Customer Service."
-ms.date: 04/19/2021
+ms.date: 02/03/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -29,9 +29,7 @@ Having this information ready can help support agents reduce the hold time that 
 > [!div class='mx-imgBorder']
 > ![View Customer summary.](media/customer-summary.png "View the Customer summary page")
 
-Agents can access the **Customer Summary** form by accepting the task assignment notification or from the agent dashboard for only active conversations and only in the Customer Service workspace and Omnichannel for Customer Service apps.
-
-For a closed conversation, you can view details on the closed conversation form from the **Closed work items** section of the agent dashboard.
+For active conversations, you can view the **Customer summary** form on the agent dashboard of the Customer Service workspace and Omnichannel for Customer Service apps. The **Customer Summary** form, however, doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard. More information: [View agent dashboard and conversations](oc-agent-dashboard.md)
 
 ## Customer (Contact or Account)
 
@@ -68,7 +66,7 @@ These tabs are described in the following sections.
 
 The **Pre-chat survey** tab displays the customer's answers to the survey questions that were posed by your organization, which helps your interaction with the customer.
 
-### Self-service
+### Self service
 
 The **Self service** tab displays information about the activities that the customer performed before starting a conversation with an agent. This information helps you understand why the customer reached out and helps you provide a personalized service for enhanced customer satisfaction. The activity information, which is categorized into the following action types, appears in reverse chronological order.
 
