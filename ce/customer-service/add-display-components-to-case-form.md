@@ -16,14 +16,14 @@ Use the **Customer 360** and **Recent records** components to display the custom
 
 ## Add the Customer 360 component to a case form
 
-After you add the **Customer 360** control to a case form, when an agent selects a customer in the Customer field of the new case page, the customer details are displayed as follows:
+After you add the **Customer 360** control to a case form, when an agent selects a customer in the Customer field, the customer details are displayed as follows:
  
  :::image type="content" source="media/customer360-control.png" alt-text="sample image of the customized card" lightbox="media/customer360-control.png":::
 
  Do the following tasks to add the control. You can use these steps to display customer records on any entity where the Customer lookup is available.
 
 1. Add the **Customer 360** component to forms in the **Account** and **Contact** tables.
-1. Add the **Account** and **Contact** forms on which the component's added to the **Case** form. More information: [Edit related table records directly from another table’s main form](/power-apps/maker/model-driven-apps/form-component-control)
+1. Add the **Account** and **Contact** forms on which the component is added to the **Case** form. More information: [Edit related table records directly from another table’s main form](/power-apps/maker/model-driven-apps/form-component-control)
 
 ### Add the Customer 360 component to Contact and Account forms
 
