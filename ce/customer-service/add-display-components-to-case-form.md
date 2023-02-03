@@ -16,7 +16,11 @@ Use the **Customer 360** and **Recent records** components to display the custom
 
 ## Add the Customer 360 component to a case form
 
-When an agent specifies a customer on the case, the application must display the relevant details. For the Customer lookup on the Case form to display records from both the Account and Contact table, perform the following tasks:
+For example, the **Customer 360** is added to the case form. On the new case page, when an agent selects a customer in the Customer field, the customer details and recent cases can be displayed as follows:
+ 
+ :::image type="content" source="media/customer360-control.png" alt-text="sample image of the customized card" lightbox="media/customer360-control.png":::
+
+ For the Customer lookup on the Case form to display records from both the Account and Contact table, perform the following tasks:
 
 1. Add the **Customer 360** component to forms in the **Account** and **Contact** tables.
 1. Add the form component control created on the **Account** and **Contact** forms to the **Case** form. More information: [Edit related table records directly from another table’s main form](/power-apps/maker/model-driven-apps/form-component-control)
@@ -24,7 +28,7 @@ When an agent specifies a customer on the case, the application must display the
 > [!NOTE]
 > You can follow these steps to display customer records on any entity where the Customer lookup is available.
 
-**1. Add the Customer 360 component to Contact and Account forms**
+**Add the Customer 360 component to Contact and Account forms**
 
 1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
 1.  Select **Tables**, select **Account**, and then select the **Forms** area.
@@ -41,7 +45,7 @@ When an agent specifies a customer on the case, the application must display the
 
    :::image type="content" source="media/powerapps-customer360.png" alt-text="Customer details" lightbox="media/powerapps-customer360.png":::
 
-**2. Add the form controls to the Case form**
+**Add the form controls to the Case form**
 
 1. In the same environment, select **Case** from **Tables**, and then select the **Forms** area.
 1. Select the required form.
@@ -56,8 +60,6 @@ When an agent specifies a customer on the case, the application must display the
     1. Perform the steps above to add the **Contact** table and the new form with the **Customer 360** component.
     1. Save and publish the changes.
 
-    :::image type="content" source="media/powerapps-case-form-control.png" alt-text="Add form controls to case" lightbox="media/powerapps-case-form-control.png":::
-
 ## Add the Recent records component
 
 1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
@@ -70,7 +72,12 @@ When an agent specifies a customer on the case, the application must display the
     - Select the **Default view** and **Default chart**. The views and charts available in the table are displayed.
     - Specify the maximum number of rows the card must display when it loads. The default number of rows displayed is four.
 
-    :::image type="content" source="media/powerapps-recent-records.png" alt-text="Default minimal resolve case" lightbox="media/powerapps-recent-records.png":::
+     :::image type="content" source="media/powerapps-recent-records.png" alt-text="Default minimal resolve case" lightbox="media/powerapps-recent-records.png":::
+1. Save and publish the changes.
+ 
+  When added to a form, the Recent records component would display related records as follows:
+
+   :::image type="content" source="media/recent-records-control.png" alt-text="sample image of the customized card" lightbox="media/recent-records-control.png":::
 
 ### See also
 
