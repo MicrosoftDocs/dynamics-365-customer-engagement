@@ -18,6 +18,12 @@
       href: get-started.md
     - name: Integrate with Dynamics 365 Customer Insights
       href: ci-get-started.md
+  - name: Key real-time marketing scenarios
+    items:
+    - name: Send a targeted email blast in real-time marketing
+      href: real-time-marketing-email-get-started.md
+    - name: Boost event engagement with real-time journeys
+      href: real-time-marketing-event-registration-journey.md
   - name: Installation and environment management
     items: 
     - name: Install or uninstall
@@ -222,10 +228,6 @@
         href: real-time-marketing-overview.md 
       - name: Use Customer Insights profiles and segments
         href: real-time-marketing-ci-profile.md
-      - name: Send a targeted email blast in real-time marketing
-        href: real-time-marketing-email-get-started.md
-      - name: Boost event engagement with real-time journeys
-        href: real-time-marketing-event-registration-journey.md
       - name: Known issues in real-time marketing
         href: real-time-marketing-known-issues.md
     - name: Communication channels
@@ -272,7 +274,7 @@
           href: real-time-marketing-test-triggers.md
       - name: Segment-based journeys
         items:
-        - name: "Preview: Build segments in real-time marketing"
+        - name: Build segments in real-time marketing
           href: real-time-marketing-build-segments.md
         - name: "Preview: Use natural language to create segments"
           href: real-time-marketing-natural-language-segments.md
@@ -312,6 +314,8 @@
           href: real-time-marketing-cross-journey-analytics.md
         - name: How to use aggregate channel analytics
           href: real-time-marketing-channel-analytics.md
+        - name: "Preview: Track campaigns with UTM codes"
+          href: real-time-marketing-utm.md
     - name: Personalization
       items:
       - name: Personalize content
@@ -328,10 +332,10 @@
         href: real-time-marketing-personalize-lists.md
     - name: Assets
       items: 
-      - name: Real-time marketing asset library
-        href: real-time-marketing-asset-library.md
       - name: Install the real-time marketing asset library add-on
         href: real-time-marketing-asset-add-on.md
+      - name: Real-time marketing asset library add-on
+        href: real-time-marketing-asset-library.md
     - name: Administration
       items: 
       - name: Journeys
@@ -498,7 +502,7 @@
         href: pages-forms-troubleshoot.md
     - name: Marketing content library management
       items: 
-      - name: Upload and use images and files
+      - name: Upload and use images in online content
         href: upload-images-files.md
       - name: Create a video library and add videos to your designs
         href: video-content.md
