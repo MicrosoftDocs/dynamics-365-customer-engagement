@@ -14,9 +14,6 @@ ms.custom: bap-template
 
 This article discusses some of the important aspects to successfully deploy and manage unified routing and focuses on the most common areas where you might have questions.
 
-> [!IMPORTANT]
-> We recommend that wherever applicable, you use the features with the specified limits. Beyond the specified limits, system reliability and performance might be affected.
-
 ## Provision unified routing
 
 ### Verify service limits and default quotas
