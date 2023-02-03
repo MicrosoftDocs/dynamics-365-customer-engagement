@@ -21,7 +21,7 @@ Multiple updates are released every year.
 
 - **Major updates** are released twice each year in April and October. Major releases include new features, enhancements, and bug fixes.
 
-- **Hot fixes** are rare but occasionally a critical "hot fix" will be released outside of the planned update schedule.
+- **Hot fixes** are rare but occasionally a critical update gets released outside of the planned update schedule.
 
 > [!TIP]
 > The features and changes for upcoming releases are listed in the [Dynamics 365 release plans](/dynamics365/release-plans/).
