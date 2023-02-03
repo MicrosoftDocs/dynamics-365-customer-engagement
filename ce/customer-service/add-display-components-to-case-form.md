@@ -23,7 +23,7 @@ After you add the **Customer 360** control to a case form, when an agent selects
  Do the following tasks to add the control. You can use these steps to display customer records on any entity where the Customer lookup is available.
 
 1. Add the **Customer 360** component to forms in the **Account** and **Contact** tables.
-1. Add the form component control created on the **Account** and **Contact** forms to the **Case** form. More information: [Edit related table records directly from another table’s main form](/power-apps/maker/model-driven-apps/form-component-control)
+1. Add the **Account** and **Contact** forms on which the component's added to the **Case** form. More information: [Edit related table records directly from another table’s main form](/power-apps/maker/model-driven-apps/form-component-control)
 
 ### Add the Customer 360 component to Contact and Account forms
 
@@ -72,7 +72,7 @@ After you add the **Customer 360** control to a case form, when an agent selects
      :::image type="content" source="media/powerapps-recent-records.png" alt-text="Default minimal resolve case" lightbox="media/powerapps-recent-records.png":::
 1. Save and publish the changes.
  
- The Recent records control displays the related records as follows.
+ The Recent records control displays the related records as follows, if you select **Case** in the **Table** field.
 
    :::image type="content" source="media/recent-record-control.png" alt-text="sample image of the recent cases card" lightbox="media/recent-record-control.png":::
 
