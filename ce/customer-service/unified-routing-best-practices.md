@@ -74,7 +74,7 @@ If you have a scenario in which agents aren't available to be assigned the top 1
 - Review agent availability and schedules to evaluate staffing more agents.
 - If there are items lower in priority that might have eligible agents, then contact Microsoft Support with your business scenario to determine if the block size can be increased.  
   > [!NOTE]
-  > A block size that's larger than the default one might affect performance. Therefore, we recommend that you share your business scenario with the queue backlog and queue staffing projections to help Microsoft Support recommend the most optimized block size for your use case.
+  > A block size that's larger than the default one might affect performance and accuracy of prioritization. Therefore, we recommend that you share your business scenario with the queue backlog and queue staffing projections to help Microsoft Support recommend the most optimized block size for your use case.
 
 ### Use skill-based routing to distribute work items to the most qualified agents
 
