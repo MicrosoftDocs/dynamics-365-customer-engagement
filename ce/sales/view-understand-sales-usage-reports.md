@@ -1,7 +1,7 @@
 ---
 title: "View and understand sales usage reports"
 description: "View and understand sales usage reports to analyze the status of contacts, accounts, leads, and opportunities in your organization."
-ms.date: 01/31/2023
+ms.date: 02/03/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
