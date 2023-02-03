@@ -33,9 +33,7 @@ The Field Service app will be updated automatically as part of the Dynamics 365 
 Go to [https://admin.powerplatform.microsoft.com/environments](https://admin.powerplatform.microsoft.com/environments) and select the environment with the Field Service app you want to update. In the top ribbon, select **Resources** > **Dynamics 365 apps**.
 
 Select the **Dynamics 365 Field Service** app and select **Update**. Updating the Field Service app also gets the latest version of other related solutions that are part of the Field Service app.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 apps in Power Platform admin center.](./media/upgrade-fs-new-ppac.jpg)
+:::image type="content" source="media/update-field-service-callouts.png" alt-text="Screenshot of the Dynamics 365 apps in Power Platform admin center.":::
 
 <!-- Before your organization updates to 8.8.6+ or later, you can manually apply updates by going to the Microsoft 365 Admin Center.
 
@@ -69,11 +67,11 @@ To understand what version of the Field Service solution is in your environment,
 
 We recommend enabling automatic app updates on your mobile device. For more information, see these articles: [iOS: automatic app updates iOS](https://support.apple.com/HT202180#automatic) or [Android: automatic app updates](https://support.google.com/googleplay/answer/113412).
 
-If you can't enable automatic updates, regularly check for updates in the app store for Field Service (Dynamics 365) and install the latest version.
+If you can't enable automatic updates, regularly check for updates in the app store for Field Service (Dynamics 365) and [install the latest version](mobile-power-app-overview.md).
 
 ## Universal Resource Scheduling
 
-Universal Resource Scheduling powers the scheduling capabilities in Field Service and other Dynamics 365 apps. You automatically get the latest version with updates for the Dynamics 365 app.
+[Universal Resource Scheduling](universal-resource-scheduling.md) powers the scheduling capabilities in Field Service and other Dynamics 365 apps. You automatically get the latest version with updates for the Dynamics 365 app.
 
 <!-- However, before upgrading Resource Scheduling consider:
 
@@ -101,17 +99,11 @@ It's possible to customize UFX queries based on your specific needs. If a UFX qu
 
 ## Resource Scheduling Optimization add-in
 
-The Resource Scheduling Optimization add-in enables the automated scheduling of work orders, resources, and bookings. Updates are released throughout the year. An administrator has to apply the updates.
+The [Resource Scheduling Optimization add-in](rso-overview.md) enables the automated scheduling of work orders, resources, and bookings. Updates are released throughout the year. An administrator has to apply the updates.
 
 You can check for available updates in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). Go to **Resources** > **Dynamics 365 apps**, select **Resource Scheduling Optimization**, and select **Manage**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center_3.](./media/rso-upgrade-manage-powerapps-admin.png)
-
 In the **RSO Deployment** dialog box, select **Upgrade to new version**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the upgrade resource scheduling optimization option.](./media/upgrade-rso-upgrade-to-new-version.png)
 
 For more information, see [Manage the Resource Scheduling Optimization instance](rso-deployment.md#manage-the-resource-scheduling-optimization-instance).
 
