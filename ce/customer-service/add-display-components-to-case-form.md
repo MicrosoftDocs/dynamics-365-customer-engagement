@@ -77,7 +77,7 @@ For example, the **Customer 360** is added to the case form. On the new case pag
  
   When added to a form, the Recent records component would display related records as follows:
 
-   :::image type="content" source="media/recent-records-control.png" alt-text="sample image of the customized card" lightbox="media/recent-records-control.png":::
+   :::image type="content" source="media/recent-records-control.png" alt-text="sample image of the recent cases card" lightbox="media/recent-records-control.png":::
 
 ### See also
 
