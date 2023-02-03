@@ -115,4 +115,9 @@ In the **RSO Deployment** dialog box, select **Upgrade to new version**.
 
 For more information, see [Manage the Resource Scheduling Optimization instance](rso-deployment.md#manage-the-resource-scheduling-optimization-instance).
 
+## Next steps
+
+- [Get started with Dynamics 365 Field Service](field-service-get-started.md)
+- [Use the Field Service (Dynamics 365) mobile app](mobile-power-app-use.md)
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
