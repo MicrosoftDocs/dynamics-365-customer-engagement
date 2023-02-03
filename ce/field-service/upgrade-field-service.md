@@ -26,7 +26,7 @@ Multiple updates are released every year.
 > [!TIP]
 > The features and changes for upcoming releases are listed in the [Dynamics 365 release plans](/dynamics365/release-plans/).
 
-## Field Service
+## Dynamics 365 Field Service
 
 The Field Service app will be updated automatically as part of the Dynamics 365 platform [One version](https://cloudblogs.microsoft.com/dynamics365/bdm/2018/07/06/modernizing-the-way-we-update-dynamics-365/) initiative. You can manually upgrade the app in the seven days between the update release and when the automatic update applies.
 
