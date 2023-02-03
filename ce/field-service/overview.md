@@ -86,7 +86,7 @@ Work orders describe the work that a technician needs to perform at a customer l
 
     For example, if an equipment part is installed at a customer's location during an installation or repair, the system will document a reduction in inventory from the related warehouse or truck and document the part as a new customer asset along with installation/repair details. Closing a work order will then generate an invoice for any used parts or labor.
 
-> ![Screenshot of completed work order.](media/work-order-process-4.png)
+  > ![Screenshot of completed work order.](media/work-order-process-4.png)
 
 ## Additional resources
 
