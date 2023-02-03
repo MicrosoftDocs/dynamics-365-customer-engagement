@@ -2,7 +2,6 @@
 title: "Integrate Dynamics 365 Field Service and Supply Chain Management | MicrosoftDocs"
 description: Learn about integration between Dynamics 365 Field Service and Dynamics 365 Supply Chain Management.
 ms.date: 10/01/2020
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
@@ -10,7 +9,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: jacoh
 author: jasonccohen
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

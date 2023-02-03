@@ -2,7 +2,6 @@
 title: "Knowledge management in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn about knowledge management in Dynamics 365 Field Service
 ms.date: 02/01/2021
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to:
@@ -10,7 +9,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
 search.app:
 - D365CE
 - D365FS

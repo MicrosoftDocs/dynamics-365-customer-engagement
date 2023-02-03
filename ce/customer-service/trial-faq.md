@@ -72,7 +72,7 @@ You can use a personal email ID. But you won't be able to use the following feat
  
 ### Can I call the trial phone number from outside the US?
 
-No, you can't call the trial phone number because it's a toll-free US number that works within the US only. For more information and a workaround, see [Use trial phone number](voice-channel-manage-phone-numbers.md#use-trial-phone-number).
+No, you can't call the trial phone number because it's a toll-free US number that works within the US only. For more information and a workaround, see [Use trial phone number](voice-channel-trial-phone-numbers.md).
 
 ### Can I use the trial phone numbers for inbound or outbound SMS?
 

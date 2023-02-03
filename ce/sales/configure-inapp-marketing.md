@@ -1,7 +1,7 @@
 ---
 title: "Configure in-app marketing settings"
 description: "Configure in-app marketing settings to define various aspects of campaigning."
-ms.date: 04/04/2022
+ms.date: 01/25/2023
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -32,6 +32,10 @@ Configure the in-app marketing settings to define various aspects of campaigning
 
 ## To configure in-app marketing settings
 
+Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
+
+# [Sales Premium and Sales Enterprise](#tab/SE)
+
 1. In the Sales Hub app, go to the **Change Area** and select **App Settings**.
 
 2. Under **Sales Administration**, select **Marketing settings**.
@@ -46,6 +50,11 @@ Configure the in-app marketing settings to define various aspects of campaigning
     |Template for Acknowledgement Email     | If the previous two options are set to **Yes**, select an email template to use for responding to customers when they unsubscribe.        |
 
 4. Save the changes.
+
+# [Sales Professional](#tab/SP)
+
+1. From the Sales Professional app, go to **Settings** > **Advanced Settings**.
+1. Follow the instructions in the [System Settings Marketing tab](/power-platform/admin/system-settings-dialog-box-marketing-tab) article to open the marketing settings and configure them.  
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
   

@@ -283,11 +283,14 @@
       },
       "search.app": {
         "omnichannel/**.*": [ "D365CE", "D365CS" ],
-        "sales/**.*": [ "D365CE", "D365Sales" ],
+        "sales/**.*": [ "D365CE", "D365Sales" ]
       },
       "search.audienceType": {
         "omnichannel/**.*": [ "admin", "customizer", "enduser" ],
         "sales/**.*": [ "admin", "customizer", "enduser" ]
+      },
+      "ms.reviewer": {
+        "field-service/**.*": "mhart"
       }
     },
     "template": [],
