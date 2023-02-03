@@ -13,7 +13,7 @@ search.app:
 
 # Update apps and solutions
 
-Microsoft releases updates to Dynamics 365 Field Service and related solutions to add new capabilities, enhance the performance and usability of existing features, and fix bugs. This article details on upgrading Field Service, including the related mobile app and resource scheduling solutions.
+Microsoft regularly releases updates to Dynamics 365 Field Service and related solutions. Updates add new capabilities, enhance the performance and usability of existing features, and fix bugs. This article details on upgrading Field Service, including the related mobile app and resource scheduling solutions.
 
 Multiple updates are released every year.
 
@@ -67,7 +67,7 @@ To understand what version of the Field Service solution is in your environment,
 
 ## Field Service (Dynamics 365) mobile app
 
-We recommend to enable automatic app updates on your mobile device. For more information, see these articles: [iOS: automatic app updates iOS](https://support.apple.com/HT202180#automatic) or [Android: automatic app updates](https://support.google.com/googleplay/answer/113412).
+We recommend enabling automatic app updates on your mobile device. For more information, see these articles: [iOS: automatic app updates iOS](https://support.apple.com/HT202180#automatic) or [Android: automatic app updates](https://support.google.com/googleplay/answer/113412).
 
 If you can't enable automatic updates, regularly check for updates in the app store for Field Service (Dynamics 365) and install the latest version.
 
