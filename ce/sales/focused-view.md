@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities.
-ms.date: 01/31/2023
+ms.date: 02/03/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -21,11 +21,11 @@ ms.custom:
 
 [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
-The focused view allows you to view and manage records with their associated activities on one page, making it more efficient for you to stay focused on your tasks and by reducing the need to navigate between multiple screens. Also allows for better organization and prioritization of tasks.
+The focused view allows you to view and manage records with their associated activities on one page. This view makes it more efficient for you to stay focused on your tasks and reduces the need to navigate between multiple screens. It, also allows for better organization and prioritization of tasks.
 
 >[!NOTE]
 >- The focused view is similar to the Sales accelerator workspace view. More information: [Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)
->- When the Sales accelerator feature is enabled and any card customization is done, the work items are displayed according to the customization. More information: [Customize work items](customize-work-list-card.md#customize-work-items)
+>- You can't customize the work items in the focused view. However, if card customization is done in Sales accelerator, the work items are displayed according to the customization. More information: [Customize work items](customize-work-list-card.md#customize-work-items)
 
 >[!IMPORTANT]
 >Currently, focused view is available for Account, Contact, Lead, and Opportunity entities.
@@ -36,9 +36,9 @@ The focused view allows you to view and manage records with their associated act
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## Open the grid in the focused view  
+## Open the focused view  
 
-When you open the account, contact, lead, or opportunity in the application, the records are displayed in a tabular format with limited information such as the name and email of the record. To view more detailed information of a record, you open a specific record to access its detailed view such as, business process flow and activities timeline.
+The focused view is a centralized location for accessing all your open records with activities that are due or pending. This view allows you to see all relevant information in one place, without having to navigate through multiple forms in the application. 
 
 To change to the focused view:
 
@@ -48,14 +48,12 @@ To change to the focused view:
 >[!NOTE]
 >The **Focused view** option will not be displayed if you select any record in the grid. 
 
-The grid transforms into a work list view, which is a centralized location for accessing all records with activities that are due or pending. This view allows you to see all relevant information in one place, without having to navigate through multiple forms in the application. 
-
 ## Understand the focused view
 
-Typically, the focused view can be categorized into the following three sections:
+The focused view can be categorized into the following three sections:
 
 -	**Search, filter, sort, and switch view**: These options are displayed on the top of the work list item view.   
-    You can search, filter, and sort the records that you want to view in the list to quickly identify only the customers that you want to work with.  
+    You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with.  
     
     >[!NOTE]
     >Filters and sort that are available in the control are similar to the list view. Currently, custom filters and sort are not supported. Also, the advanced filter queries are not supported.
