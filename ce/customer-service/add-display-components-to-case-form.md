@@ -16,7 +16,7 @@ The **Customer 360** and **Recent records** components, when added to a form, di
 
 ## Add the Customer 360 component to a case form
 
-For the Customer lookup on the Case form to display records from both the Account and Contact table, perform the following tasks:
+When an agent specifies a customer on the case, the application must display the relevant details. For the Customer lookup on the Case form to display records from both the Account and Contact table, perform the following tasks:
 
 1. Add the **Customer 360** component to the **Account** and **Contact** tables.
 1. Add the form component control created on the **Account** and **Contact** tables to the **Case** form. More information: [Edit related table records directly from another table’s main form](/power-apps/maker/model-driven-apps/form-component-control)
