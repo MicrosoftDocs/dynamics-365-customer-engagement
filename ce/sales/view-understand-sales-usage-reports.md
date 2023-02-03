@@ -33,26 +33,21 @@ Sales usage reports consist of the following dashboards:
 
 ## Data filters
 
-Use can the data filtering options to narrow down the data and view only the information that is relevant to you. On the top of each report, you can select filters and the following filters are available: Date, User, Manager, Business unit, and Role. By default, all data filters are specified and the date range covers the last 20 weeks.
+Use the data filtering options to narrow down the data and view only the information that is relevant to you. On the top of each report, you can select filters. By default, all data filters are specified and the date range covers the last 20 weeks.
 
 ## Opportunity usage report
 
-After you open the sales usage reports, go to the opportunity usage report tab.   
-The following table shows the key performance indicators (KPIs) that are displayed in the report.
+After you open the sales usage reports, go to the **Opportunity usage report** tab.   
 
-| KPI | Description |
-|--------|---------|
-| **Created** | The number of opportunities created by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who created opportunities can be found below the KPI. |
-| **Viewed** | The number of opportunities viewed by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who viewed opportunities can be found below the KPI. |
-| **Updated** | The number of opportunities updated by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who updated opportunities can be found below the KPI. | 
-| **Deleted** | The number of opportunities deleted by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who deleted opportunities can be found below the KPI. |
-| **Opportunities converted** | The number of opportunities converted into win deals by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who converted opportunities can be found below the KPI. |
+### Opportunity KPIs
 
-The following table shows the summary charts that are displayed in the report:
+The opportunity usage report shows a trend chart of the number of opportunities created, viewed, updated, deleted, and opportunities converted by sellers during the selected period. The report displays the number of opportunities under each KPI, with an arrow indicating the trend. For example, a green upward arrow indicates improvement compared to the previous time period. It also includes the number of users worked on these opportunities.
+
+### Opportunity summary charts
 
 | Chart name | Description |
 |------------|-------------|
-| **Actions performed on opportunities over time** | The trend of actions taken on opportunities in the specified time period include created, viewed, updated, and deleted. |
+| **Actions performed on opportunities over time** | The trend of actions taken on opportunities in the specified time period includes created, viewed, updated, and deleted. |
 | **Number of users contributing to actions performed on opportunities** | The number of users who performed various actions on opportunities during the specified time period. |
 | **Users with most opportunities created** | The top four contributors who created opportunities within the specified time period. |
 | **Users with most opportunities updated** | The top four contributors who updated opportunities within the specified time period. |
@@ -61,22 +56,17 @@ The following table shows the summary charts that are displayed in the report:
 
 ## Lead usage report
 
-After you open the sales usage reports, go to the lead usage report tab.   
-The following table shows the key performance indicators (KPIs) that are displayed in the report.
+After you open the sales usage reports, go to the **Lead usage report** tab.   
 
-| KPI | Description |
-|--------|---------|
-| **Created** | The number of leads created by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who created leads can be found below the KPI. |
-| **Viewed** | The number of leads viewed by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who viewed leads can be found below the KPI. |
-| **Updated** | The number of leads updated by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who updated leads can be found below the KPI. | 
-| **Deleted** | The number of leads deleted by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who deleted leads can be found below the KPI. |
-| **Leads qualified** | The number of leads qualified into opportunities by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who qualified leads can be found below the KPI. |
+### Lead KPIs
 
-The following table shows the summary charts that are displayed in the report:
+The lead usage report shows a trend chart of the number of leads created, viewed, updated, deleted, and leads qualified by sellers during the selected period. The report displays the number of leads under each KPI, with an arrow indicating the trend. For example, a green upward arrow indicates improvement compared to the previous time period. It also includes the number of worked on these leads.
+
+### Lead summary charts
 
 | Chart name | Description |
 |------------|-------------|
-| **Actions performed on leads over time** | The trend of actions taken on leads in the specified time period include created, viewed, updated, and deleted. |
+| **Actions performed on leads over time** | The trend of actions taken on leads in the specified time period includes created, viewed, updated, and deleted. |
 | **Number of users contributing to actions performed on leads** | The number of users who performed various actions on leads during the specified time period. |
 | **Users with most leads created** | The top four contributors who created leads within the specified time period. |
 | **Users with most leads updated** | The top four contributors who updated leads within the specified time period. |
@@ -85,46 +75,37 @@ The following table shows the summary charts that are displayed in the report:
 
 ## Account usage report
 
-After you open the sales usage reports, go to the account usage report tab.   
-The following table shows the key performance indicators (KPIs) that are displayed in the report.
+After you open the sales usage reports, go to the **Account usage report** tab.   
 
-| KPI | Description |
-|--------|---------|
-| **Created** | The number of accounts created by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who created accounts can be found below the KPI. |
-| **Viewed** | The number of accounts viewed by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who viewed accounts can be found below the KPI. |
-| **Updated** | The number of accounts updated by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who updated accounts can be found below the KPI. | 
-| **Deleted** | The number of accounts deleted by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who deleted accounts can be found below the KPI. |
+### Account KPIs
 
-The following table shows the summary charts that are displayed in the report:
+The account usage report shows a trend chart of the number of accounts created, viewed, updated, and deleted by sellers during the selected period. The report displays the number of accounts under each KPI, with an arrow indicating the trend. For example, a green upward arrow indicates improvement compared to the previous time period. It also includes the number of users worked on these accounts.
+
+### Account summary charts
 
 | Chart name | Description |
 |------------|-------------|
-| **Actions performed on accounts over time** | The trend of actions taken on accounts in the specified time period include created, viewed, updated, and deleted. |
+| **Actions performed on accounts over time** | The trend of actions taken on accounts in the specified time period includes created, viewed, updated, and deleted. |
 | **Number of users contributing to actions performed on accounts** | The number of users who performed various actions on accounts during the specified time period. |
 | **Users with most accounts created** | The top four contributors who created accounts within the specified time period. |
 | **Users with most accounts updated** | The top four contributors who updated accounts within the specified time period. |
 
 ## Contact usage report
 
-After you open the sales usage reports, go to the contact usage report tab.   
-The following table shows the key performance indicators (KPIs) that are displayed in the report.
+After you open the sales usage reports, go to the **Contact usage report** tab.   
 
-| KPI | Description |
-|--------|---------|
-| **Created** | The number of contacts created by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who created contacts can be found below the KPI. |
-| **Viewed** | The number of contacts viewed by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who viewed contacts can be found below the KPI. |
-| **Updated** | The number of contacts updated by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who updated contacts can be found below the KPI. | 
-| **Deleted** | The number of contacts deleted by sellers during the specified time period. An arrow is used to indicate the trend; for example, a green upward arrow indicates an improvement in the trend when compared to the previous time period. Also, the number of users who deleted contacts can be found below the KPI. |
+### Contact KPIs
 
-The following table shows the summary charts that are displayed in the report:
+The contact usage report shows a trend chart of the number of contacts created, viewed, updated, and deleted by sellers during the selected period. The report displays the number of contacts under each KPI, with an arrow indicating the trend. For example, a green upward arrow indicates improvement compared to the previous time period. It also includes the number of users who worked on these contacts.
+
+### Contact summary charts
 
 | Chart name | Description |
 |------------|-------------|
-| **Actions performed on contacts over time** | The trend of actions taken on contacts in the specified time period include created, viewed, updated, and deleted. |
+| **Actions performed on contacts over time** | The trend of actions taken on contacts in the specified time period includes created, viewed, updated, and deleted. |
 | **Number of users contributing to actions performed on contacts** | The number of users who performed various actions on contacts during the specified time period. |
 | **Users with most contacts created** | The top four contributors who created contacts within the specified time period. |
 | **Users with most contacts updated** | The top four contributors who updated contacts within the specified time period. |
-
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
