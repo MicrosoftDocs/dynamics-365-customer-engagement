@@ -1,14 +1,14 @@
 ---
 title: "Overview of Universal Resource Scheduling in Dynamics 365"
 description: "Schedule any entity using Universal Resource Scheduling. Make sure you meet the prerequisites, then follow these steps for scheduling an entity."
-ms.date: 09/21/2022
+ms.date: 02/02/2023
 ms.reviewer: mhart
 
 ms.subservice: common-scheduler
 ms.topic: overview
 
-author: m-hartmann
-ms.author: mhart
+author: clearab
+ms.author: anclear
 manager: shellyha
 search.app: 
   - D365CE
@@ -146,5 +146,12 @@ For organizations that use:
     4. When the lead form opens, on  the command bar, select **Book**.  
   
     5. Use the schedule assistant  to book the requirement.  
+
+## Enable the legacy schedule board
+
+> [!NOTE]
+> This functionality is avialable in the 2023 Wave 1 Early Access (EA) release, and not yet Generally Available (GA).
+
+[!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

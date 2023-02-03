@@ -1,7 +1,7 @@
 ---
 title: "Use and configure the schedule board in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn about how to configure the schedule board in Dynamics 365 Field Service
-ms.date: 08/15/2022
+ms.date: 02/02/2023
 
 ms.topic: article
 author: clearab
@@ -195,6 +195,13 @@ You can use keyboard shortcuts when viewing the schedule board in the list view,
 |  --- | --- | 
 | Expand collapsed row | SHIFT ALT + | 
 | Collapse expanded row | SHIFT ALT - | 
+
+## Enable the legacy schedule board
+
+> [!NOTE]
+> This functionality is avialable in the 2023 Wave 1 Early Access (EA) release, and not yet Generally Available (GA).
+
+[!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)]
   
 ## Privacy  
 [!INCLUDE[cc_ disclaimer_crm_bing_maps_mapping_location](../includes/cc-disclaimer-crm-bing-maps-mapping-location.md)]   
