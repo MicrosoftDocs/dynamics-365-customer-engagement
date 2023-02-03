@@ -1,7 +1,7 @@
 ---
 title: "Migration tool FAQ | MicrosoftDocs"
 description: "Migration tool FAQ for  Automatic record creation rules and service-level agreement items"
-ms.date: 02/02/2023
+ms.date: 02/03/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -71,9 +71,9 @@ Yes, you can rerun the migration tool for a specific migrated rule based on the 
 
 ### Why do I see two flows in Power Automate, when I have an active modern or migrated ARC rule with only one rule item?
   
-If you have an active rule with rule items, you will see a flow with name **ARC | rule name** and a flow with name **ARC: rule item name**. The ARC rule works properly when these two flows are turned On.
+If you have an active rule with rule items, you will see two flows, one with name **ARC | rule name** and another with name **ARC: rule item name**. These flows get automatically turned on whenever you activate a rule. The ARC rule works only when these two flows are turned on.
 
-For any inactive ARC rule, you will see only one flow with the name **ARC: rule item name**. You won't see **ARC | rule name** as this flow is created during rule activation on the flow, though it won't cause any rule item issue, if you do see duplicate flows with name **ARC | rule name** for the same rule. This is because even though they have the same name, only one of these flows is actually associated with the ARC rule and only that flow will be invoked during run time.
+For any inactive ARC rule, you will see only one flow with the name **ARC: rule item name**. You won't see **ARC | rule name**, as this flow is created during rule activation on the flow. Even if you do see duplicate flows with name **ARC | rule name** for the same rule, it won't cause any rule item issue. This is because even though they have the same name, only one of these flows is actually associated with the ARC rule and only that flow will be invoked during run time.
 
 ### What does the flow ARC | rule name do and can I customize it?
 
