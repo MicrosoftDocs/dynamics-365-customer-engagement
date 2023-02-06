@@ -29,7 +29,16 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 | Web browsers | Supported browsers: <li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li> |
 |||
 
-For hardware and other requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
+### Hardware requirements
+
+| Area | Requirements |
+|----------|----------|
+| Memory (RAM) | <ul><li>**Minimum:** 4 GB</li><li>**Recommended:** 8 GB</li></ul> |
+| Latency  | <ul><li>**Minimum:** less than 150 milliseconds </li><li>**Recommended:** less than 100 milliseconds</li></ul> |
+| Throughput | <ul><li>**Minimum:** greater than 4 Mbps</li><li>**Recommended:** greater than 8 Mbps</li></ul>|
+|||
+
+For more requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
 
 ### See also
 
