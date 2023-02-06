@@ -12,7 +12,6 @@ ms.custom: bap-template
 
 # Customize the case resolution experience
 
-> [!IMPORTANT]
 > [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
 Customize the case resolution experience in Power apps as follows:
