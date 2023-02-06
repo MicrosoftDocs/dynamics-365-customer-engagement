@@ -33,14 +33,16 @@ If you think another group in your team has expertise on the subject, you can mo
 
 3. On the command bar, select **Add to Queue**.  
 
-5. In the **Queue** field, select the queue that you want to add the case to, and then select **Add**. 
+5. In the **Queue** field, select the queue that you want to add the case to, and then select **Add**.
 
 If a case is already added to a queue, the **Queue** field displays the current queue by default. The lookup for the **Queue** field displays only the queues that are configured for a specific entity. Voice and messaging queues aren't displayed since cases can't be added to those queues.
+ >[!NOTE]
+ > These are early access features.
 
 > [!NOTE]
 > The following features are early access:
-> - If a case is already added to a queue, the **Queue** field displays the current queue by default.
-> - The lookup for the **Queue** fields displays only the queues that are configured for a specific entity.
+> - The **Queue** field displays the current queue if a case is already added to it.
+> - The lookup for the **Queue** field displays only the queues that are configured for a specific entity.
 
 | Current experience | Previous experience |
 | ------------ | ------------- |

@@ -1,7 +1,7 @@
 ---
 title: "Work with queues | MicrosoftDocs"
 description: "Use this article to learn how to work with queues, find queue items, and pick work items from queues."
-ms.date: 01/30/2023
+ms.date: 02/06/2023
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -104,7 +104,7 @@ Use the view list and queue list to filter and find items in queues.
         
     
    - Your capacity will be updated. If the work item indicated capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, the available units of capacity in that profile for you will be deducted by one.
-   - Your work schedule, assignment rules, skills, presence, or capacity constraints won't be evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item and start working on it. This ability to manually override preconfigured capacity is to ensure that you're able to pick up work beyond your normal capacity during contingencies. More information: [Capacity profiles](capacity-profiles.md)
+   - Your work schedule, assignment rules, skills, presence, or capacity constraints won't be evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item and start working on it. This ability to manually override pre-configured capacity is to ensure that you're able to pick up work beyond your normal capacity during contingencies. More information: [Capacity profiles](capacity-profiles.md)
    - Your presence will be updated. If you have further capacity left, your presence will be set to "Busy". If you have no capacity left, your presence will be set to "Do not disturb".
 
    > [!NOTE]

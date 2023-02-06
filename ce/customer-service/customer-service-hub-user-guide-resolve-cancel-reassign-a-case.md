@@ -33,16 +33,17 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 1. In the list of active cases, open the one you want to resolve.  
 
 2. On the command bar, select **Resolve case**.  
-  Before you resolve a case, make sure that all the case activities are closed. Otherwise, you’ll get a message with the following actions:
-  - A link with the number of open activities. You can select the link to view the open activities associated with the case on the tab your Administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md)
-  - **Confirm**: If you select **Confirm** on the warning, the system will automatically cancel the open activities when the case is resolved. Also, performance might be affected when you close a case with lots of cases associated with it. 
- 
+
+  If you have open activities linked to the case, you’ll see a message with the following actions:
+  - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md)
+  - **Confirm**: If you select **Confirm** on the warning, the system automatically cancels the open activities when the case is resolved.
+
     | Default experience | Legacy experience |
     | ------------ | ------------- | 
     |  :::image type="content" source="media/resolve-case-after.png" alt-text="Open activity warning" lightbox="media/resolve-case-after.png"::: | :::image type="content" source="media/resolve-case-before.png" alt-text="legacy open activity dialog" lightbox="media/resolve-case-before.png"::: |
      
   > [!NOTE]
-  > The updated message agents see when they try to close cases with open activities is an eafly access feature.
+  > The updated message agents see when they try to close cases with open activities is an early access feature.
   
 3. By default, you will only see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog. If your administrator has disabled the **Enable the minimal case resolution dialog** option the standard **Resolve Case** dialog is displayed with the following additional fields. More information: [Disable the standard case resolution dialog](add-enhanced-case-management.md):
 
@@ -59,7 +60,6 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 6.  Select **Resolve**.
 
 > [!NOTE]
-> - The minimal **Resolve case** dialog and the enhanced **Resolve case** is an early access feature.
 > - While you can't edit or update through the UI any attribute of the case after it is resolved, you can configure an API or a Power Automate flow to be run if the setting in service configuration is enabled. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md). 
 > - The "resolve cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](/power-automate/create-business-process-flow#add-an-on-demand-action-to-a-business-process-flow).
 
@@ -80,10 +80,9 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 > [!IMPORTANT]
 >
 > Before you resolve a parent case with active child cases, make sure that all the case activities are closed. Otherwise, you’ll get a message with the following actions:
-> - A link with the number of open activities. You can select the link to view the open activities associated with the case on the tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md)
+> - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md)
  > - **Confirm**: If you select **Confirm** on the warning, the system will automatically cancel the open activities when the case is resolved. Also, performance may be slow when you close a parent case with lots of active child cases associated with it. 
  
-
 ## Cancel a case
 
  All case activities must be closed before you can cancel a case.  
