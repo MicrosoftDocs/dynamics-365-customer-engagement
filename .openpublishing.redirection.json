@@ -24574,6 +24574,16 @@
       "source_path": "ce/customer-service/voice-channel-first-call.md",
       "redirect_url": "voice-channel",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-power-app-system-requirements.md",
+      "redirect_url": "/dynamics365/field-service/mobile-power-app-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-2020-power-platform.md",
+      "redirect_url": "/dynamics365/field-service/mobile-power-app-overview",
+      "redirect_document_id": "false"
     }
   ]
 }
