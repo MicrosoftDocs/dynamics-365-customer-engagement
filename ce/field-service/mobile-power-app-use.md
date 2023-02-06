@@ -24,6 +24,10 @@ Available natively for Apple iOS and Google Android phones and tablets, as well 
 - Customer signature capture.
 - Offline capabilities so technicians can continue viewing and recording work in areas without internet.
 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HKRL]
+
 ## Prerequisites
 
 Before using the mobile app, a system administrator must [install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md) along with users and security roles.
