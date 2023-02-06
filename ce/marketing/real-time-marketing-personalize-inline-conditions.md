@@ -1,7 +1,7 @@
 ---
-title: "Personalize inline conditions (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to personalize inline conditions in Dynamics 365 Marketing."
-ms.date: 12/06/2022
+title: "How to use inline conditions (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to use inline conditions in Dynamics 365 Marketing."
+ms.date: 02/06/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
