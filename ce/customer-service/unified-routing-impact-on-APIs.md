@@ -1,7 +1,7 @@
 ---
 title: Understand unified routing and its impact on queue items and live work items| MicrosoftDocs
 description: How unified routing affects queue items, live work items, and the corresponding APIs.
-ms.date: 02/03/2023
+ms.date: 02/07/2023
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
