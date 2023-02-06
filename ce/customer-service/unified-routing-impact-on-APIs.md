@@ -40,7 +40,7 @@ This section describes how queue items and live work items are affected when you
 
 - When you change the **Queue** field from an advanced queue to a basic queue by selecting **Add to Queue** on the record (via the [AddToQueue Action](/dynamics365/customer-engagement/web-api/addtoqueue?view=dynamics-ce-odata-9&preserve-view=true)) or by selecting **Route To** on the queue item (via the [**RouteTo Action**](/dynamics365/customer-engagement/web-api/routeto?view=dynamics-ce-odata-9&preserve-view=true)), then the associated live work item ([msdyn_ocliveworkitem](/developer/reference/entities/msdyn_ocliveworkitem.md)) and the entity record are closed, and the queue item is no longer considered or picked by the unified routing engine. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
 
-- When you change the **Queue** field of a queue item from basic queue to advanced queue, then you must reroute the queue items using **Save & Route** so that the corresponding live work item can be picked up by the unified routing services. If you manually change the queue of the queue item from basic to advanced, then the queue item won't be considered for routing by the unified routing engine. 
+- When you change the **Queue** field of a queue item from a basic queue to an advanced queue, then you must reroute the queue items using **Save & Route** so that the corresponding live work item can be picked up by the unified routing services. If you manually change the queue of the queue item from basic to advanced, then the queue item won't be considered for routing by the unified routing engine. 
 
 ### What happens when you update the Worked By field 
 
