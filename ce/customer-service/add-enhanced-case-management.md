@@ -32,7 +32,7 @@ You can configure the tab users must be redirected to when they select the open 
 1.  Go to **Add Existing** > **App** > **Model-driven app**> **Add existing model-driven apps** pane.
 1. Select the **Redirect user to the specified tab to close open activities** option. The **Redirect user to the specified tab to close open activities** pane appears.
 1. Set the **Setting environment value** option to the required tab. You can find the tab's name in the **Display options** > **Name** field of the corresponding form. In the **Setting app value** section, the Customer Service Hub and Customer Service workspace apps are displayed. 
-1. Select **New app value** for the app, and specify the activity tab that the user must be redirected to for the respective apps. This step is optional. For a specified app, the tab set at the application level overrides the environment level setting.
+1. Optionally, select **New app value** for the app. For a specified app, the tab set at the application level overrides the environment level setting.
 1. Select **Publish All Customizations**.
 
   :::image type="content" source="media/powerapps-redirect-user-tab.png" alt-text="Redirect link to tab" lightbox="media/powerapps-redirect-user-tab.png":::
@@ -52,7 +52,7 @@ Perform the following steps:
 1.  Go to **Add Existing** > **App** > **Model-driven app**> **Add existing model-driven apps** pane.
 1. Select the **Enable minimal case resolution dialog** option. The **Enable minimal case resolution dialog** pane appears.
 1. Set the **Setting environment value** option to **Yes**. In the **Setting app value** section, the Customer Service Hub and Customer Service workspace apps are displayed.
-1. Select **New app value** for the app, and set the value to **Yes** for the respective apps. This step is optional. For a specified app, the tab set at the application level overrides the environment level setting.
+1. Optionally, select **New app value** for the app, and set the value to **Yes** for the respective apps. For a specified app, the tab set at the application level overrides the environment level setting.
 1. Select **Publish All Customizations**.
 
   :::image type="content" source="media/powerapps-minimal-case.png" alt-text="disable the minimal case resolution dialog" lightbox="media/powerapps-minimal-case.png":::
