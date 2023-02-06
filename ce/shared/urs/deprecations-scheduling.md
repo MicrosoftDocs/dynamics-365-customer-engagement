@@ -2,8 +2,7 @@ Features that have been deprecated in Universal Resource Scheduling are listed i
 
 Administrators and IT professionals can use this information to prepare for future releases.
 
-> [!Important]
-
+> [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification will span at least six months. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
 ## Deprecated: Legacy schedule board control
