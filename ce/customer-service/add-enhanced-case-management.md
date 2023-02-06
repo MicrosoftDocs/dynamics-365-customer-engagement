@@ -13,7 +13,7 @@ ms.custom: bap-template
 # Use Power Apps to customize the case management experience
 
 > [!IMPORTANT]
-> > [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
+> [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
 You can use Power Apps to customize the case resolution experience as follows:
 
