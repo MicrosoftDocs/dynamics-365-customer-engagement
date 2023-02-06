@@ -37,9 +37,6 @@ For a guided walkthrough, check out the following video.
 Device requirements:
 
 - Windows 10 or 11
-- A device with minimum 3-GB RAM and 64-GB storage.
-
-For more system requirements, see: [System requirements for the Field Service (Dynamics 365) mobile app](mobile-power-app-system-requirements.md)
 
 Also, be sure to [review installation and set up of the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
 
