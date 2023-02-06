@@ -39,11 +39,6 @@ If a case is already added to a queue, the **Queue** field displays the current 
  >[!NOTE]
  > These are early access features.
 
-> [!NOTE]
-> The following features are early access:
-> - The **Queue** field displays the current queue if a case is already added to it.
-> - The lookup for the **Queue** field displays only the queues that are configured for a specific entity.
-
 | Current experience | Previous experience |
 | ------------ | ------------- |
 |  :::image type="content" source="media/queue-display-name-after.png" alt-text="Screenshot of the default add to queue dialog with queue displayed" lightbox="media/queue-display-name-after.png"::: | :::image type="content" source="media/queue-display-name-before.png" alt-text="Screenshot of the default add to queue dialog without queue displayed" lightbox="media/queue-display-name-before.png"::: |
