@@ -57,9 +57,9 @@ After the provisioning is complete, you can add an integrated search provider by
     1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: Apply authentication.
     1. Select **Test connection**. You will get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
     1. Select **Next**.
-1.	In the **Knowledge article schema** section, select from either the **Field mapping** or the **JSON Schema** option.
+1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or the **JSON Schema** option, to configure the knowledge article schema. You won't be allowed to change the configuration method, after you have saved it.
     1. If you select **Field mapping**:
-        1. Upload the article HTML file by selecting **Choose file**. You'll view all the meta tags corresponding to the html file in the **Meta tags settings** section.
+        1. Save the article as an .html file and then upload the article HTML file by selecting **Choose file**. You'll view all the meta tags corresponding to the HTML file in the **Meta tags settings** section.
         1. Select the required meta tags and then select **Next**.
         1. On the **Knowledge article schema mapping** section, select the **Operation Type** and **Source Property** for the knowledge article attributes. For more information on **Operation Type**, go to [Operation type for knowledge article schema mapping](int-data-mapping.md#operation-type-for-knowledge-article-schema-mapping).
         1. Select **Validate mapping**.
