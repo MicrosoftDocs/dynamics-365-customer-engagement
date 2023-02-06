@@ -48,8 +48,8 @@ This section describes how queue items and live work items are affected when you
 
 - When automatic assignment routes the record and the record is assigned to the agent, then the **Worked By** field is set to the agent that's assigned in the queue item, the agent field in the live work item, and the owner field in the record. 
 
-> [!CAUTION]
-> If you're running a custom script, flow or action that updates these three entities at the same time as the automatic assignment, then you might experience assignment errors. We recommend that you run any custom scripts or flows after or before the automatic assignment.
+    > [!CAUTION]
+    > If you're running a custom script, flow or action that updates these three entities at the same time as the automatic assignment, then you might experience assignment errors. We recommend that you run any custom scripts or flows after or before the automatic assignment.
 
 ## What happens when you delete or deactivate a queue item
 
@@ -59,12 +59,13 @@ This section describes how queue items and live work items are affected when you
 
 - When you update a queue item using unified routing, you can't remove it from the queue by selecting **Pick** ([**PickFromQueue Action**](/dynamics365/customer-engagement/web-api/pickfromqueue?view=dynamics-ce-odata-9&preserve-view=true)) or **RouteTo Action** on the queue item.
 
+- When you resolve a routed record, the corresponding queue item that gets deactivated can't be activated again.
 
 
 > [!Note]
-> - Since unified routing also works upon the underlying entity record for the owner field, ensure that you provide the right read privilege to the agents for that entity and any other dependent entity. For information on how to provide the accesses to different roles for the entities, see [Manage user accounts, user licenses, and security roles](/marketing/admin-users-licenses-roles).
+> - Since unified routing also works upon the underlying entity record for the owner field, ensure that you provide **Read** privileges to the agents for that entity and any other dependent entity. For information on how to provide the accesses to different roles for the entities, see [Manage user accounts, user licenses, and security roles](/marketing/admin-users-licenses-roles).
 > - To get the capacity released for the agents for entities other than incident (via incident resolution or cancelation), add a custom logic to get the corresponding queue item deactivated. More information: [Create and manage capacity profiles](capacity-profiles.md)
-- When you resolve a routed record, the corresponding queue item that gets deactivated can't be activated again.
+
 
 
 
