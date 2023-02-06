@@ -42,8 +42,8 @@ After the provisioning is complete, you can add an integrated search provider by
 ## Add integrated search providers
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
-2.	In the **Integrated search providers** section, select **Manage**.
-3.	Select **New**. The **Add a search provider** dialog appears.
+2.	In the **Integrated search providers (Preview)** section, select **Manage**.
+3.	Select **New**. The **Add an integrated search provider** dialog appears.
 4.	In the **Provider info** section, do the following:
     1. **Search provider name**: Enter the name of the search provider.
     1. **Description**: Enter the description of the search provider.
@@ -51,17 +51,17 @@ After the provisioning is complete, you can add an integrated search provider by
     1. Select the authorization check box.
     1. Select **Next**.
 1.	In the **Authentication and testing** section, enter the following information:
-    1. **URL**: Provide the root URL of the website along with the protocol (http:// or https://)
-    1. **Sitemap URL**: Provide the sitemap URL of the source website.
+    1. **Root URL**: Provide the root URL of the website along with the protocol (http:// or https://)
+    1. **Site map URL**: Provide the sitemap URL of the source website.
     1. **Languages mapped**: Select the languages you want to specifically map for the ingestion from the dropdown list, and then select **Reset**. By default, all languages are considered for ingestion.
     1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: Apply authentication.
     1. Select **Test connection**. You will get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
     1. Select **Next**.
-1.	In the **Knowledge article schema** section, select from either the **Field mapping** or the **JSON method** option.
+1.	In the **Knowledge article schema** section, select from either the **Field mapping** or the **JSON Schema** option.
     1. If you select **Field mapping**:
         1. Upload the article HTML file by selecting **Choose file**. You'll view all the meta tags corresponding to the html file in the **Meta tags settings** section.
         1. Select the required meta tags and then select **Next**.
-        1. On the **Knowledge article schema mapping** section, select the **Type** and **Source properties** for the **Knowledge entities**. For more information on **Types**, go to xxx.
+        1. On the **Knowledge article schema mapping** section, select the **Operation Type** and **Source Property** for the knowledge article attributes. For more information on **Operation Type**, go to xxxx.
         1. Select **Validate mapping**.
         1. Select **Next**.
     2. If you select **JSON method**:
