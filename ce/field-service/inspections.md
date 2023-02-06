@@ -192,7 +192,7 @@ An inspection completed by a technician will be visible on the bottom of the wor
 
 ## Perform inspections on mobile
 
-You can view and complete inspections on the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) when using at least Field Service v8.8.22+. However, you can't create inspection templates on mobile devices.
+You can view and complete inspections on the [Field Service (Dynamics 365) mobile](mobile-power-app-overview.md) when using at least Field Service v8.8.22+. However, you can't create inspection templates on mobile devices.
 
 Sign in with your Dynamics 365 URL, username, and password, and go to the assigned work order.
 

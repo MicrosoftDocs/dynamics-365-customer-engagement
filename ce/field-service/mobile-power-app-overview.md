@@ -1,12 +1,9 @@
 ---
 title: Field Service (Dynamics 365) mobile app overview (contains video)
 description: Learn about the Field Service (Dynamics 365) mobile app, key features, and system requirements with this general overview.
-ms.date: 02/02/2023
+ms.date: 02/06/2023
 ms.topic: overview
 ms.subservice: field-service-mobile
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
 search.app: 
@@ -37,7 +34,7 @@ The mobile app is built on Microsoft Power Platform as a [model-driven app](/pow
 | [Connected Field Service and IoT alerts](mobile-power-app-use.md#iot) | Technician | Yes |  Receive iOT signals and send commands directly from your mobile app. |
 | [Inspections](inspections.md) | Technician | Yes | A Field Service technician can find and capture inspections associated with a work order. |
 | [Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes** | You can get help from remote collaborators with integrated Dynamics 365 Remote Assist. |
-| [Push notifications](mobile-power-app-push-notifications.md) | Technician | Yes* |  You can send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
+| [Push notifications](mobile-power-app-push-notifications.md) | Technician | Yes |  You can send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
 | [Geofencing](mobile-powerapp-geofence.md) | Technician | Yes* | You can automatically set booking status as a technician arrives or leaves a location. |
 | [Reporting](mobile-powerapp-reporting.md) | Technician | Yes | You can generate customer service reports with a signature, with the option to email a PDF. |
 | [Scan to find asset (Global search)](mobile-power-app-system-barcode-scanning.md) | Technician | Yes |  Not applicable |
