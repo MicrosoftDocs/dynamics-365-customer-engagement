@@ -34,7 +34,7 @@ You can configure the tab users must be redirected to when they select the open 
 1. Optionally, select **New app value** for the app. For a specified app, the tab set at the application level overrides the environment level setting.
 1. Select **Publish All Customizations**.
 
-  :::image type="content" source="media/powerapps-redirect-user-tab.png" alt-text="Redirect link to tab" lightbox="media/powerapps-redirect-user-tab.png":::
+    :::image type="content" source="media/powerapps-redirect-user-tab.png" alt-text="Redirect link to tab" lightbox="media/powerapps-redirect-user-tab.png":::
 
 
 ## Disable the minimal case resolution dialog
@@ -54,7 +54,7 @@ Perform the following steps:
 1. Optionally, select **New app value** for the app, and set the value to **Yes** for the respective apps. For a specified app, the tab set at the application level overrides the environment level setting.
 1. Select **Publish All Customizations**.
 
-  :::image type="content" source="media/powerapps-minimal-case.png" alt-text="disable the minimal case resolution dialog" lightbox="media/powerapps-minimal-case.png":::
+   :::image type="content" source="media/powerapps-minimal-case.png" alt-text="disable the minimal case resolution dialog" lightbox="media/powerapps-minimal-case.png":::
 
 ### See also
 
