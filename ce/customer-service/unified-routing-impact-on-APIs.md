@@ -22,12 +22,13 @@ When a record is picked by the agent or is assigned automatically to the agent, 
 - updates the agent in the live work item
 - updates the worker ID in the queue item
 
-Unified routing automatically synchronizes these updates from the queue item to the live work item, and not vice-versa. So, any updates from the live work item are not automatically reflected in the queue item. If you'd like to manually make these updates, we recommend that you update only the queue item so that the live work item gets updated automatically by the unified routing engine. 
+Unified routing automatically synchronizes these updates from the queue item to the live work item, but not vice-versa. So, any updates from the live work item are not automatically reflected in the queue item. If you'd like to manually make these updates, we recommend that you update only the queue item so that the live work item gets updated automatically by the unified routing engine. 
 
-You can update only one field of the queue item at a time, in a transaction. For example, if both the queue and the worker ID fields must be updated, then update the queue field in one transaction and then the worker ID field, in the next transaction.
+You can update only one field of the queue item at a time, in a transaction. For example, if both the queue and the worker ID fields must be updated, then update the queue field in one transaction, and the worker ID field in the next transaction.
 
-We recommend that you don't add any custom logic on live work items as Microsoft uses them in unified routing services.
-
+> [!NOTE]
+> - We recommend that you don't add any custom logic on live work items as Microsoft uses them in unified routing services.
+> - Unified routing automatically sets the record's owner to a user or team and the Owning Business Unit to that user or team's business unit. So, we recommend that you don't update these values of the live work item entity. More information: [Table relationship and cascading behavior](/power-platform/admin/update-record-owner#table-relationship-and-cascading-behavior)
 ## How unified routing impacts queue items, live work items, and the corresponding APIs
 
 This section describes how queue items and live work items are affected when you change the status of a queue item with unified routing.
@@ -67,6 +68,7 @@ This section describes how queue items and live work items are affected when you
 
 
 ## Next steps
+
 [Close live work items or deactivate queue items](deactivate-queue-items.md)
 
 ### See also
@@ -74,6 +76,5 @@ This section describes how queue items and live work items are affected when you
 [Overview of unified routing](overview-unified-routing.md)   
 [Set up record routing](set-up-record-routing.md)   
 [Set up unified routing](set-up-routing-process.md)   
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
