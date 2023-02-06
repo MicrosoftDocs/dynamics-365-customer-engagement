@@ -3,11 +3,12 @@ Features that have been deprecated in Universal Resource Scheduling are listed i
 Administrators and IT professionals can use this information to prepare for future releases.
 
 > [!Important]
+
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification will span at least six months. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
 ## Deprecated: Legacy schedule board control
 
-Effective from April 01, 2023, the legacy schedule board control is deprecated and replaced with an updated schedule board control (located in the Resource Scheduling Controls solution). Customers may choose to continue to use the legacy schedule board by [enabling the appropriate setting](../../common-scheduler/schedule-anything-with-universal-resource-scheduling.md#enable-the-legacy-schedule-board), however the control will be completely removed in a future release (the control will remain at least through 04/01/2024).
+Effective from April 01, 2023, the legacy schedule board control is deprecated and replaced with an updated schedule board control (located in the Resource Scheduling Controls solution). You can continue to use the legacy schedule board by [re-enabling the setting](../../common-scheduler/schedule-anything-with-universal-resource-scheduling.md#enable-the-legacy-schedule-board). However, the control will be completely removed in a future release (at least through 04/01/2024).
 
 ## Deprecated: Configuration to automatically create a booking when an appointment is created
 
