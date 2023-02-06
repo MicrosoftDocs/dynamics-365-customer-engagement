@@ -10,9 +10,9 @@ ms.reviewer: nenellim
 ---
 # Understand unified routing and its impact on queue items and live work items
 
-Whenever you route a record using unified routing, Omnichannel for Customer Service creates a live work item entity (`msdyn_ocliveworkitem`) to track the workstream settings for allowed presence and capacity. The unified routing engine uses these settings to route the records to the appropriate queue based on route-to-queue rules and to the available agent based on presence and capacity.
+Whenever you route a record using unified routing, Omnichannel for Customer Service creates a live work item entity ([`msdyn_ocliveworkitem`](developer/reference/entities/msdyn_ocliveworkitem)) to track the workstream settings for allowed presence and capacity. The unified routing engine uses these settings to route the records to the appropriate queue based on route-to-queue rules and to the available agent based on presence and capacity.
 
-After the record is routed to the queue, Omnichannel for Customer Service also creates a queue item (`queueitem`). The queue item updates the following three  fields: 
+After the record is routed to the queue, Omnichannel for Customer Service also creates a queue item ([`queueitem`](developer/reference/entities/queueitem)). The queue item updates the following three  fields: 
 - the queue to which the queue item belongs
 - the worker ID or agent assigned to the queue item
 - the state of the queue item, whether active or inactive
@@ -24,10 +24,12 @@ When a record is picked by the agent or is assigned automatically to the agent, 
 
 Unified routing automatically synchronizes these updates from the queue item to the live work item, but not vice-versa. So, any updates from the live work item are not automatically reflected in the queue item. If you'd like to manually make these updates, we recommend that you update only the queue item so that the live work item gets updated automatically by the unified routing engine. 
 
-You can update only one field of the queue item at a time, in a transaction. For example, if both the queue and the worker ID fields must be updated, then update the queue field in one transaction, and the worker ID field in the next transaction.
+You can update only one field of the queue item at a time, in a transaction. For example, if you need to update both the queue and the worker ID fields, then ensure that you update the queue field in one transaction, and the worker ID field in the next transaction.
 
 > [!NOTE]
-> We recommend that you don't add any custom logic on live work items as Microsoft uses them in unified routing services.
+> - Unified routing automatically sets the record's owner to a user.
+> - We recommend that you don't add any custom logic on live work items as Microsoft uses them in unified routing services.
+
 ## How unified routing impacts queue items, live work items, and the corresponding APIs
 
 This section describes how queue items and live work items are affected when you change the status of a queue item with unified routing.
