@@ -57,6 +57,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
      
   > [!NOTE]
   > The minimal **Resolve case** dialog is an early access feature.
+
 6.  Select **Resolve**.
 
 > [!NOTE]
@@ -79,7 +80,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
 > [!IMPORTANT]
 >
-> Before you resolve a parent case with active child cases, make sure that all the case activities are closed. Otherwise, you’ll get a message with the following actions:
+> Before you resolve a parent case that has active child cases, make sure that all the case activities are closed. Otherwise, you’ll get a message with the following actions:
 > - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md)
  > - **Confirm**: If you select **Confirm** on the warning, the system will automatically cancel the open activities when the case is resolved. Also, performance may be slow when you close a parent case with lots of active child cases associated with it. 
  
