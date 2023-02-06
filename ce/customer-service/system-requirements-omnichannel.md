@@ -46,7 +46,7 @@ The system requirements to use Omnichannel for Customer Service are as follows.
 | Hardware | Microphone and speakers for the voice experience. |
 | Memory (RAM) | <ul><li>**Minimum:** 4 GB</li><li>**Recommended:** 8 GB</li></ul> |
 | Latency  | <ul><li>**Minimum:** less than 150 milliseconds </li><li>**Recommended:** less than 100 milliseconds</li></ul> |
-| Throughput | <<li>**Recommended:** greater than 8 Mbps</li></ul>|
+| Throughput | **Recommended:** greater than 8 Mbps|
 | Internet bandwidth for voice and video |<ul><li>**Minimum:** 4 Mbps upload speed; 8 Mbps download speed</li><li>**Recommended:** 8 Mbps upload speed; 16 Mbps download speed</li></ul> |
 |||
 
