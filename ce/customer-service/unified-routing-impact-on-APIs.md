@@ -27,8 +27,7 @@ Unified routing automatically synchronizes these updates from the queue item to 
 You can update only one field of the queue item at a time, in a transaction. For example, if both the queue and the worker ID fields must be updated, then update the queue field in one transaction, and the worker ID field in the next transaction.
 
 > [!NOTE]
-> - We recommend that you don't add any custom logic on live work items as Microsoft uses them in unified routing services.
-> - Unified routing automatically sets the record's owner to a user or team and the Owning Business Unit to that user or team's business unit. So, we recommend that you don't update these values of the live work item entity. More information: [Table relationship and cascading behavior](/power-platform/admin/update-record-owner#table-relationship-and-cascading-behavior)
+> We recommend that you don't add any custom logic on live work items as Microsoft uses them in unified routing services.
 ## How unified routing impacts queue items, live work items, and the corresponding APIs
 
 This section describes how queue items and live work items are affected when you change the status of a queue item with unified routing.
