@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Sales
 description: Get an overview of the sales licenses and capabilities in each Dynamics 365 Sales license 
-ms.date: 11/09/2022
+ms.date: 02/06/2023
 ms.topic: welcome
 author: udaykirang
 ms.author: udag

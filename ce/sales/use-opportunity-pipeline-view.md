@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 01/23/2023
+ms.date: 02/06/2023
 ms.custom: bap-template 
 ---
 # Preview: Manage opportunities using pipeline view
@@ -28,7 +28,7 @@ The opportunity pipeline view (formerly known as deal manager) helps you visuali
 
 Watch this short video to know how the opportunity pipeline view helps sellers be more productive and efficient.  
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWHo82]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWONpe]
 
 ## Open the opportunity pipeline view  
 

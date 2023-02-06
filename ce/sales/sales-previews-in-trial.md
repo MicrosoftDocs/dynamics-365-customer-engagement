@@ -1,7 +1,7 @@
 ---
 title: What are preview features
 description: Learn what preview features are and how to identify them in your Dynamics 365 Sales trial.
-ms.date: 11/23/2022
+ms.date: 02/06/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
