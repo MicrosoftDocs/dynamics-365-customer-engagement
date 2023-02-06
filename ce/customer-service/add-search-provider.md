@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365 
 ms.topic: how-to
-ms.date: 01/24/2023
+ms.date: 02/06/2023
 ms.custom: bap-template
 ---
 
@@ -61,7 +61,7 @@ After the provisioning is complete, you can add an integrated search provider by
     1. If you select **Field mapping**:
         1. Upload the article HTML file by selecting **Choose file**. You'll view all the meta tags corresponding to the html file in the **Meta tags settings** section.
         1. Select the required meta tags and then select **Next**.
-        1. On the **Knowledge article schema mapping** section, select the **Operation Type** and **Source Property** for the knowledge article attributes. For more information on **Operation Type**, go to xxxx.
+        1. On the **Knowledge article schema mapping** section, select the **Operation Type** and **Source Property** for the knowledge article attributes. For more information on **Operation Type**, go to [Operation type for knowledge article schema mapping](int-data-mapping.md#operation-type-for-knowledge-article-schema-mapping).
         1. Select **Validate mapping**.
         1. Select **Next**.
     2. If you select **JSON method**:
