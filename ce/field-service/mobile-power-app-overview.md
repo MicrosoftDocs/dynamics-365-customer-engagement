@@ -59,8 +59,6 @@ The mobile app is available after [upgrading your environment](upgrade-field-ser
 
 Field Service (Dynamics 365) mobile app is available for iOS, Android, and Windows platforms.
 
-:::image type="content" source="media/mobile-2020-app-store-compare2.png" alt-text="Screenshot of the Field Service (Dynamics 365) mobile app in a mobile app store.":::
-
 To provide the best experience for mobile app users, we recommend using modern devices with high [CPU Benchmark scores on Geekbench](https://browser.geekbench.com/v5/cpu/singlecore).
 
 The required storage size depends on the [mobile offline profile](mobile-power-app-system-offline.md). It specifies the amount of data that your organization needs to download for when there's no internet access.
@@ -69,7 +67,7 @@ The required storage size depends on the [mobile offline profile](mobile-power-a
 
 [Get the iOS app.](https://aka.ms/fsmobile-apple)
 
-|   |OS Version |CPU Benchmark Score| Storage|
+| Requirement   |OS Version |CPU Benchmark Score| Storage|
 | --- | --- |--- | --- |
 | Minimum |	14 or later |	400+ |	64 GB	| 
 | Recommended| 15 or later |	1000+	| 64+ GB	|
@@ -78,7 +76,7 @@ The required storage size depends on the [mobile offline profile](mobile-power-a
 
 [Get the Android app.](https://aka.ms/fsmobile-google)
 
-|   | OS Version  | CPU Benchmark Score   | RAM   | Storage   |
+| Requirement  | OS Version  | CPU Benchmark Score   | RAM   | Storage   |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | Minimum  | 9 or later   | 400+   | 4 GB   | 64 GB|
 | Recommended  | 10 or later   | 900+   | 8 GB   | 64+ GB|
@@ -87,7 +85,7 @@ The required storage size depends on the [mobile offline profile](mobile-power-a
 
 [Get the Windows app.](https://aka.ms/fsmobile-win)
 
-|   |OS Version |RAM| Storage|
+| Requirement  |OS Version |RAM| Storage|
 | --- | --- |--- | --- |
 | Minimum |	10 17763.0 or later |	6 GB |	64 GB	| 
 | Recommended| 10 19042.1348 or later |	8 GB	| 128 GB	|
