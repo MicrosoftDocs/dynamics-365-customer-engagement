@@ -39,7 +39,7 @@ Queues can be useful in:
 ## Types of queues
 By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
 
-Use queues to categorize and prioritize your activities and cases. You can categorize based on:  
+You can use queues to prioritize your activities and cases, and categorize them based on:  
   
 - products or services  
   
@@ -48,15 +48,6 @@ Use queues to categorize and prioritize your activities and cases. You can categ
 - activity categories  
   
 - geography  
-
-Based on assignment method, you can create:
-- **Basic queues** To organize and monitor work items, and distribute them manually to agents. 
-- **Advanced queues** To use the power of unified routing to automatically assign and distribute work to agents. [Create and manage queues for unified routing](queues-omnichannel.md)
-
-Based on channels, you can create:
-- **Messaging queues** To route all messaging conversations pertaining to the live chat, SMS, and social channels.
-- **Records queues** To route work items pertaining to records, such as cases and emails.
-- **Voice queues** To route calls made to the support numbers listed on the customer portal.
 
 The queue types allow issues to be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that are available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues will be shown for selection. Similarly, in case of conversation transfer, you can transfer a chat conversation only to a messaging queue, and a case only to an records queue.
 
