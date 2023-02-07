@@ -1,6 +1,6 @@
 ---
-title: Understand unified routing and its effect on queue items and live work items| MicrosoftDocs
-description: How unified routing affects queue items, live work items, and the corresponding APIs.
+title: Understand how unified routing affects queue items and live work items| MicrosoftDocs
+description: Use this article to undertsand how unified routing affects queue items, live work items, and the corresponding APIs.
 ms.date: 02/08/2023
 ms.topic: article
 author: mh-jaya
@@ -8,7 +8,7 @@ ms.author: v-jmh
 ms.custom: bap-template
 ms.reviewer: nenellim
 ---
-# Understand unified routing and its effect on queue items and live work items
+# Understand how unified routing affects queue items and live work items
 
 Whenever you route a record using unified routing, Omnichannel for Customer Service creates a live work item entity ([`msdyn_ocliveworkitem`](developer/reference/entities/msdyn_ocliveworkitem.md)) to track the workstream settings for allowed presence and capacity. The unified routing engine uses these settings to route records to the appropriate queues based on route-to-queue rules, and to the available agent based on presence and capacity.
 
