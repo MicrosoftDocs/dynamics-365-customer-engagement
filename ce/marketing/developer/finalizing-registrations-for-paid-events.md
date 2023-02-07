@@ -1,7 +1,7 @@
 ---
 title: "Finalizing registrations for paid events (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information about how to finalize registrations for paid events."
-ms.date: 05/06/2022
+ms.date: 02/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -184,14 +184,9 @@ Implement the custom logic to authenticate against Dynamics 365 Marketing. The o
 > For a fully working example, check the code from the [Sample Code](#sample-code) section. More information: [Authenticate using OAuth](/powerapps/developer/common-data-service/authenticate-oauth#use-the-accesstoken-with-your-requests)
 
 ```csharp
-public static string AuthenticateToDynamics365()
+public static string GetToken()
 {
-    var authContext = new AuthenticationContext($"https://login.microsoftonline.com/{tenantId}", false);
-    var credential = new ClientCredential(clientId, clientSecret);
-
-    var authenticationResult = authContext.AcquireTokenAsync(organizationUrl, credential).Result;
-
-    return authenticationResult.AccessToken;
+    // Get Dataverse access token - https://docs.microsoft.com/power-apps/developer/data-platform/authenticate-oauth#use-the-accesstoken-with-your-requests
 }
 ``` 
  
@@ -289,7 +284,7 @@ namespace TriggerFinalizeRegistration
 
         static void Main(string[] args)
         {
-            var accessToken = AuthenticateToDynamics365();
+            var accessToken = GetToken();
             var response = FinalizeRegistration(accessToken);
 
             if (response.IsSuccessStatusCode)
@@ -308,15 +303,11 @@ namespace TriggerFinalizeRegistration
             Console.WriteLine(response.StatusCode);
         }
 
-        public static string AuthenticateToDynamics365()
+        public static string GetToken()
         {
-            var authContext = new AuthenticationContext($"https://login.microsoftonline.com/{tenantId}", false);
-            var credential = new ClientCredential(clientId, clientSecret);
-
-            var authenticationResult = authContext.AcquireTokenAsync(organizationUrl, credential).Result;
-
-            return authenticationResult.AccessToken;
+            // Get Dataverse access token - https://docs.microsoft.com/power-apps/developer/data-platform/authenticate-oauth#use-the-accesstoken-with-your-requests
         }
+
 
         private static HttpResponseMessage FinalizeRegistration(string accessToken)
         {
