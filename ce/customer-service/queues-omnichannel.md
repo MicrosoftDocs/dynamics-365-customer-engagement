@@ -20,9 +20,9 @@ searchScope:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-In unified routing, advanced queues are used to collect and distribute workload among agents. Workload includes records such as cases, and conversations such as chat or SMS. Agents are added as members to the advanced queues and the workload is distributed among the agents based on assignment methods.
+In unified routing, queues are used to collect and distribute workload among agents. Workload includes records such as cases, and conversations such as chat or SMS. Agents are added as members to the queues and the workload is distributed among the agents based on assignment methods.
 
-## How work items are routed to advanced queues
+## How work items are routed to queues
 
 You can create separate queues for each line of business such as billing, investment, and products. When a customer query is raised for any of the areas, it's routed to the corresponding designated queue based on how you define route to queues in the classification. You can also set up a customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
 
@@ -31,14 +31,14 @@ In an enterprise scenario, you can have various supervisors handling different i
 To simplify the routing experience for administrators and supervisors, queues are categorized based on the channel types as follows:
 
 - **Messaging**: To route all messaging conversations pertaining to the live chat, SMS, and social channels.
-- **Records**: To route work items pertaining to case or email records.
+- **Records**: To route work items pertaining to case or email records
 - **Voice**: To route calls made to support phone numbers listed on the customer portal.
 
 The queue types allow issues to be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that are available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues will be shown for selection. Similarly, in case of conversation transfer, you can transfer a chat conversation only to a messaging queue, and a case only to an records queue.
 
 Assign a group number that helps you organize your queues in the list view. The group number won't affect the priority of the queue or incoming conversations.
 
-## Create advanced queues for unified routing
+## Create a queue for unified routing
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps:
    
