@@ -25,8 +25,7 @@ ms.custom: bap-template
 Use the following information to apply authentication as required by your organization.
 
 - **None**: Requires no authentication.
-- **OAuth 2.0**: OAuth 2.0 with Azure Active Directory (Azure AD) requires a resource ID, Client ID, and a client Secret.
-- OAuth 2.0 only works with Cloud mode.
+- **OAuth 2.0**: OAuth 2.0 with Azure Active Directory (Azure AD) requires a resource ID, Client ID, and a client Secret. OAuth 2.0 only works with Cloud mode.
 
 ## OAuth 2.0
 
