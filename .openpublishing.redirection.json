@@ -2738,6 +2738,36 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/access-deal-manager.md",
+      "redirect_url": "/dynamics365/sales/use-opportunity-pipeline-view",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/deal-manager-overview.md",
+      "redirect_url": "/dynamics365/sales/use-opportunity-pipeline-view",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/deal-manager-seller-overview.md",
+      "redirect_url": "/dynamics365/sales/use-opportunity-pipeline-view",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/enable-deal-manager-preview.md",
+      "redirect_url": "/dynamics365/sales/opportunity-pipeline-view-for-admins",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/customize-deal-manager.md",
+      "redirect_url": "/dynamics365/sales/opportunity-pipeline-view-for-admins",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/personalize-deal-manager.md",
+      "redirect_url": "/dynamics365/sales/personalize-pipeline-view",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/project-service/new-upcoming.md",
       "redirect_url": "overview",
       "redirect_document_id": "false"
@@ -23063,7 +23093,12 @@
     },
     {
       "source_path": "ce/sales-enterprise/grant-access-deal-manager.md",
-      "redirect_url": "/dynamics365/sales/grant-access-deal-manager",
+      "redirect_url": "/dynamics365/sales/opportunity-pipeline-view-for-admins",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/grant-access-deal-manager.md",
+      "redirect_url": "/dynamics365/sales/opportunity-pipeline-view-for-admins",
       "redirect_document_id": "false"
     },
     {
@@ -24573,6 +24608,16 @@
     {
       "source_path": "ce/customer-service/voice-channel-first-call.md",
       "redirect_url": "voice-channel",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-power-app-system-requirements.md",
+      "redirect_url": "/dynamics365/field-service/mobile-power-app-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-2020-power-platform.md",
+      "redirect_url": "/dynamics365/field-service/mobile-power-app-overview",
       "redirect_document_id": "false"
     }
   ]
