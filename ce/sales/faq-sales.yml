@@ -255,9 +255,9 @@ sections:
           
   - name: Focused view
     questions:
-      - question: Is there an administration set up required to use focused view?
+      - question: Is there any administration setup required to use focused view?
         answer: |
-          No, administration set up isn't required to use focused view. By default, focused view is available for contact, account, lead, and opportunity entities.
+          No. Administration setup isn't required to use focused view. Focused view is enabled in your organization by default.
 
       - question: Is focused view available for custom entities?
         answer: |
@@ -275,11 +275,11 @@ sections:
         answer: |
           You can see all the system and user created views that are available in the grid layout.
 
-      - question: What all Filter capabilities will be available to me?
+      - question: What all filter capabilities will be available to me?
         answer: |
           Currently, only the grid column level filters for the primary entity such as, Lead entity related columns on lead grid is available as part of the focused view.
 
-      - question: How can I sort the records in the Focused view?
+      - question: How can I sort the records in the focused view?
         answer: |
           Currently, you can sort the records based on the column values that are part of the grid layout for the entity. For example, if you're working on the Opportunity grid that had Topic, Est. Revenue and Est. Close date as columns, you'll be able to sort the focused view based on these columns.
 
@@ -287,14 +287,7 @@ sections:
         answer: |
           Currently, you can't set the focused view as your default view. 
 
-      - question: Can I use the card customization capability to change the structure of the entity cards in the focused view?
-        answer: |
-          Currently, can't customize the cards for entities. However, if card customization is done in Sales accelerator, the work items are displayed according to the customization. 
-
-      - question: Will I be able to view records with no activities?
-        answer: |
-          Yes. All the records irrespective of the activities will be available in the focused view.          
-  
+ 
 
           [!INCLUDE[footer-include](../includes/footer-banner.md)]
           
