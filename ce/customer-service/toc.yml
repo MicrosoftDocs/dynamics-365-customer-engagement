@@ -512,7 +512,7 @@
           href: apply-authentication-provider.md
         - name: View and use insights for search providers
           href: View and use insights.md
-        - name: Operation type for knowledge article schema mapping
+        - name: Configure knowledge article schema mapping
           href: int-data-mapping.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
@@ -584,6 +584,8 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
+      - name: Develop metadata mapping schema for knowledge articles
+        href: int-search-metadata-schema.md
   - name: Microsoft Teams for collaboration
     items:
     - name: Introduction to collaboration
