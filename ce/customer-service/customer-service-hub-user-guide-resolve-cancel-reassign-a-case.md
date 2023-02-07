@@ -1,7 +1,7 @@
 ---
 title: Resolve, cancel, and reassign a cases in Customer Service Hub | Microsoft Docs
 description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
-ms.date: 04/06/2021
+ms.date: 02/07/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -38,10 +38,10 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
   - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md)
   - **Confirm**: If you select **Confirm** on the warning, the system automatically cancels the open activities when the case is resolved.
   
-      :::image type="content" source="media/resolve-case-after.png" alt-text="Open activity warning" lightbox="media/resolve-case-after.png":::
+      :::image type="content" source="media/resolve-case-after.png" alt-text="Open activity warning" lightbox="media/resolve-case.png":::
      
-  > [!NOTE]
-  > The updated message agents see when they try to close cases with open activities is an early access feature.
+    > [!NOTE]
+    > The updated message agents see when they try to close cases with open activities is an early access feature.
   
 3. By default, you will see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog. If your administrator has disabled the **Enable the minimal case resolution dialog** option the standard **Resolve Case** dialog is displayed with the following additional fields. More information: [Disable the standard case resolution dialog](add-enhanced-case-management.md):
 
@@ -49,10 +49,10 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
      - **Billable Time**: The amount of time spent on the case to be billed to the customer.  
      - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.  
     
-    :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case-after.png"::: 
+    :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case.png"::: 
      
-  > [!NOTE]
-  > The minimal **Resolve case** dialog is an early access feature.
+   > [!NOTE]
+   > The minimal **Resolve case** dialog is an early access feature.
 
 6.  Select **Resolve**.
 
@@ -107,7 +107,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
 3. Select **Assign**.  
 
-## Case Resolution History
+## Case resolution history
 
 Located on the right side of the form, is the case resolution sub-grid. Here you will find the case resolution history.  Should a case need to be reopened, agents have the ability to view case history here.
 
