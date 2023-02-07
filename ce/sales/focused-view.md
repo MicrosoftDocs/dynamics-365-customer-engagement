@@ -77,5 +77,5 @@ The following image is an example of the focused view for the lead entity:
 
 [Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)   
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)   
-[Customize work items](customize-work-list-card.md#customize-work-items)
-
+[Customize work items](customize-work-list-card.md#customize-work-items)   
+[Focused view FAQs](faq-sales.yml#forecasting)
