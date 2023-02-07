@@ -35,13 +35,16 @@ If you think another group in your team has expertise on the subject, you can mo
 
 5. In the **Queue** field, select the queue that you want to add the case to, and then select **Add**.
 
-If a case is already added to a queue, the **Queue** field displays the current queue by default. 
-   :::image type="content" source="media/queue-display-name-after.png" alt-text="Screenshot of the default add to queue dialog with queue displayed" lightbox="media/queue-display-name-after.png"::: 
-The lookup for the **Queue** field displays only the queues that are configured for a specific entity. Voice and messaging queues aren't displayed since cases can't be added to those queues.
-   :::image type="content" source="media/add-to-queue-display-after.png" alt-text="Screenshot of the lookup displaying only relevant queues" lightbox="media/add-to-queue-display-after.png":::
+   If a case is already added to a queue, the **Queue** field displays the current queue by default. 
 
- >[!NOTE]
- > These are early access features.
+     :::image type="content" source="media/queue-display-name-after.png" alt-text="Screenshot of the default add to queue dialog with queue displayed" lightbox="media/queue-display-name-after.png"::: 
+
+   The lookup for the **Queue** field displays only the queues that are configured for a specific entity. Voice and messaging queues aren't displayed since cases can't be added to those queues.
+
+     :::image type="content" source="media/add-to-queue-display-after.png" alt-text="Screenshot of the lookup displaying only relevant queues" lightbox="media/add-to-queue-display-after.png":::
+
+  >[!NOTE]
+  > These are early access features.
 
 6.   Select the queue you want to add the case to, and then select **Add**.  
 
