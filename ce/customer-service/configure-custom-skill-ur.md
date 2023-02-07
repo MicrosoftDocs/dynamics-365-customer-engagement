@@ -37,34 +37,47 @@ The two scenarios in the following sections will help you understand how you can
 
 Customer creates a support ticket with Contoso Coffee for a product they are having issues with.
 
-In Customer Service, a case is created with “Product” as one of the fields. Moreover, there could be thousands of product types (or values) such as Café A-100, Café A-200, and Smart Brew 300 .
+In Customer Service, a case is created with “Product” as one of the fields. There could be thousands of product types (or values) such as Café A-100, Café A-200, and Smart Brew 300.
 
 The relationship between product and the product types already exists in your system.
 
-Contoso’s workforce is trained to handle queries on these “Products” and thus are “skilled” for that product. They can model Product as a skill and assign different product types as skills to different agents  
+Contoso’s workforce is trained to handle queries on these “Products” and thus are “skilled” for that product. They can model "Product" as a skill and assign different product types as skills to different agents.
 
-Similarly, they can model more attributes as skills, and use custom skill match logic to find the right agents
+Similarly, they can model more attributes as skills, and use custom skill match logic to find the right agents.
 
 ### Use a custom entity to model as a custom skill
 
-Contoso Coffee has configured “Operated market” as a custom entity in the Live chat. Whenever a customer starts a chat with Contoso, the "Operated market” field gets auto populated with the customer’s location.
+Contoso Coffee has configured “Operating market” as a custom entity in the live chat. Whenever a customer starts a chat with Contoso, the "Operated market” field gets auto populated with the customer’s location.
 
-The data for Operating market is maintained at Contoso’s end and gets updated whenever they onboard a new market or update an existing one.
+The data for "Operating market" is maintained in Contoso and gets updated whenever they onboard a new market or update an existing one.
 
-Contoso’s workforce is trained for different “Operating markets” and are “skilled” to handle customer expectations and requirements for specific markets. Contoso can model Operating market as a custom skill and assign different markers as skills to their agents 
+Contoso’s workforce is trained for different “Operating markets” and are “skilled” to handle customer expectations and requirements for specific markets. Contoso can model "Operating market" as a custom skill and assign different markers as skills to their agents.
 
-## How to model custom entities as skills
+## How to model custom entities as skills and configure skill-based routing
 
-In advanced settings, go to the Characteristic entity, and create a new field. 
-Select the datatype as lookup.
-Choose target record type as the case field for which the skill be modeled, for example, Product.
-Save and publish the customization.
-Go to the Forms tab of the Characteristic entity and open the skill main form.
-Drag the newly created custom field from the right panel to the skill form so that it shows up in the UI.
-Save abd publish the customization.
+1. Sign in to [Power Apps](https://make.powerapps.com). 
+1. Go to the **Default Solution** > **Tables**, and select **Characteristic**.
+1. Select **Columns** > **New column**.
+1. Enter data for the required boxes and ensure that you select the datatype as lookup.
+1. Choose a value in **Related table** for which the skill will be modeled, for example, **Product**.
+1. Save and publish the customization.
+1. In the left pane, select **Forms** under the **Characteristic** node, and open **Skill Main Form**.
+1. Drag the newly created custom field from the right panel to the skill form so that it shows up in the UI.
+1. Save and publish the customization.
+1. In Customer Service admin center, go to **User management** > **Skills**. The new skill will be available on the **New Characteristic** page. .
+1. Select a value for the new skill and assign the skill to agents according to your business use case.
 
-Go to the skills page in Customer Service admin center. The new skill will be present on the skill form.
+   :::image type="content" source="media/custom-skill-routing.png" alt-text="Add a custom entity and use in skill-based routing.":::
 
+1. Go to the assignment rule that you want to update and define a condition on the new skill category as seen in the following screenshot.
+
+   :::image type="content" source="media/use-custom-skill-assignmemt-condition.png" alt-text="Define custom entity as a skill"::: 
+
+## When to use existing data models as skills
+
+When you have multiple attributes or categories and want to match agents with work items using these custom attributes. You can model each custom attribute as a skill. You will not have to write different classification rules corresponding to each skill you want to identify, thus saving yourself from maintenance hassle especially when the custom attribute values are evolving frequently. 
+
+Using this approach, you can just maintain the modeled skills at agent level and change the lookup to the new or updated value when those values change.  
 
 
 ## Next steps
