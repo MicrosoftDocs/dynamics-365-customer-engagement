@@ -239,12 +239,8 @@ items:
 
 - name: Mobile app
   items: 
-    - name: Implement and adopt the mobile app
-      href: mobile-2020-power-platform.md
     - name: Overview
       href: mobile-power-app-overview.md
-    - name: System requirements
-      href: mobile-power-app-system-requirements.md
     - name: Install and setup
       href: mobile-power-app-get-started.md
     - name: Use the mobile app
