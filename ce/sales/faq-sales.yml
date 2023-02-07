@@ -257,7 +257,7 @@ sections:
     questions:
       - question: Is there any administration setup required to use focused view?
         answer: |
-          No. Administration setup isn't required to use focused view. Focused view is enabled in your organization by default.
+          No. Focused view is available out-of-the-box and doesn't require any setup. 
 
       - question: Is focused view available for custom entities?
         answer: |
@@ -275,13 +275,9 @@ sections:
         answer: |
           You can see all the system and user created views that are available in the grid layout.
 
-      - question: What all filter capabilities will be available to me?
+      - question: What are the filter capabilities available in focused view?
         answer: |
-          Currently, only the grid column level filters for the primary entity such as, Lead entity related columns on lead grid is available as part of the focused view.
-
-      - question: How can I sort the records in the focused view?
-        answer: |
-          Currently, you can sort the records based on the column values that are part of the grid layout for the entity. For example, if you're working on the Opportunity grid that had Topic, Est. Revenue and Est. Close date as columns, you'll be able to sort the focused view based on these columns.
+          Currently, only the grid column-level filters are available for the columns in the primary entity. For example, Lead entity-related columns on lead grid.
 
       - question: Can I set the focused view as the default view?
         answer: |
