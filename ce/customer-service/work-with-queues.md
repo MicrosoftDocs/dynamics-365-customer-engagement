@@ -97,10 +97,8 @@ Use the view list and queue list to filter and find items in queues.
    - The **Worked By** attribute of the queue item will be updated with your user ID. The unified routing system takes this as an indicator of work assignment. To manually add another user or team, select the lookup for the **Worked By** field  from **Queue Item details** and then select the user. If the queue item is assigned to a private queue, the lookup displays only the members of that queue. 
      > [!NOTE]
      > When you select a private queue, the lookup for the **Worked By** field that displays the members of the private queue only is in early access.
-
-     | Current experience | Previous experience |
-     | ------------ | ------------- |
-     |  :::image type="content" source="media/private-queues-members-after.png" alt-text="Worked by field displaying only members of the private queue" lightbox="media/private-queues-members-after.png"::: | :::image type="content" source="media/private-queues-members-before.png" alt-text="Worked by field displaying all the available users" lightbox="media/private-queues-members-before.png"::: |
+  
+     :::image type="content" source="media/private-queues-members-after.png" alt-text="Worked by field displaying only members of the private queue" lightbox="media/private-queues-members-after.png":::
         
     
    - Your capacity will be updated. If the work item indicated capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, the available units of capacity in that profile for you will be deducted by one.
