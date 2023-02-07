@@ -34,7 +34,7 @@ ingestion service. The ingestion service will capture newly or updated articles 
 ## Provision integrated search providers
 If you are a first time user, you'll need to enable the integrated search provider provisioning from the Customer Service admin center.
 1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers** > **Manage**.
-1. On the **Integrated search providers** page, select **Setup my space**.
+1. On the **Integrated search providers** page, select **Set up integrated search**.
 You'll see a status message, "Integrated search is provisioning. It will take few minutes to complete."
 
 After the provisioning is complete, you can add an integrated search provider by performing the steps provided below.
