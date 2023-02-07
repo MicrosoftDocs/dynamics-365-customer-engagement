@@ -2,7 +2,7 @@
 title: "Configure SMS provider to send and receive text messages"
 description: "This article explains how to set up the SMS service provider (Twilio and TeleSign) with phone numbers in Dynamics 365 Sales."
 ms.date: 02/10/2023
-ms.topic: overview
+ms.topic: how to
 author: udaykirang
 ms.author: udag
 manager: shujoshi

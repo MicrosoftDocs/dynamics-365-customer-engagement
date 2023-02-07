@@ -1,8 +1,8 @@
 ---
 title: "Add steps to define activities for sequences"
 description: "Add steps to define activities for sequences in the sales accelerator to display in the work list and Up next widget."
-ms.date: 07/29/2022
-ms.topic: article
+ms.date: 02/10/2023
+ms.topic: how to
 author: udaykirang
 ms.author: udag
 manager: shujoshi

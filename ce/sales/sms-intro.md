@@ -28,11 +28,11 @@ Depending on your role, you can use the text message feature as described in the
     -	Configure the SMS provider in your organization for sellers to use. More information: [Configure SMS provider](configure-sms-provider.md)
     -	Assign or remove phone numbers to users. More information: [Edit phone numbers](edit-phone-numbers.md)
 - 	Sales manager, seller, or any other similar role: 
-    -	Choose a service provider to send and receive SMS.
+    -	Choose a service provider to send and receive SMS. More information: [Understand the text communication panel](manage-text-message-communication.md#understand-the-text-communication-panel)
     -	Add text message and automated text message as steps in a sequence. More information: [Send a text message](steps-sequence.md#send-a-text-message) and [Send an automated text message](steps-sequence.md#send-an-automated-text-message)
-    -	Create and add SMS templates. More information: 
-    -	Send SMS from the Sales Accelerator workspace or the Up next widget. More information: 
-    -	Access past SMS interactions in context with relevant sales records such as, lead and opportunity.
+    -	Create and add SMS templates. More information: [Personalize text messages through templates](create-text-message-templates.md)
+    -	Send SMS from the Sales Accelerator workspace or the Up next widget. More information: [Send a text message to customers](connect-with-customers.md#send-a-text-message-to-customers)
+    -	Access past SMS interactions in context with relevant sales records such as, lead and opportunity. More information: [Manage text message communication](manage-text-message-communication.md)
 
 ## Permissions required 
 
@@ -68,6 +68,6 @@ The following roles are required along with the roles defined in the [Salesperso
 
 ### See also
 
-[Configure SMS provider](configure-sms-provider.md)  
-[Edit phone numbers](edit-phone-numbers.md)
+[Configure SMS provider](configure-sms-provider.md)    
+[Edit phone numbers](edit-phone-numbers.md)  
 
