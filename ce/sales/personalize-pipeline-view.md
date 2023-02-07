@@ -7,9 +7,9 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# Preview: Personalize the opportunity pipeline view
+# Personalize the opportunity pipeline view
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
 As a seller, you can personalize the pipeline view depending on what you want to see. You can organize opportunities in a way that makes sense to you, personalize your view, update information on the fly, add notes and tasks, and much more. You can also ask your administrator to customize the experience further to improve your productivity.  
 
@@ -22,8 +22,6 @@ As a seller, you can personalize the pipeline view depending on what you want to
 
 
 ## What can you personalize?
-
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 You can:
 
