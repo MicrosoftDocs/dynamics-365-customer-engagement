@@ -1,5 +1,5 @@
 ---
-title: Configure the opportunity pipeline view (preview)
+title: Configure the opportunity pipeline view
 description: The opportunity pipeline view helps sellers visualize their pipeline and manage opportunities better.
 author: lavanyakr01
 ms.author: lavanyakr
@@ -8,15 +8,11 @@ ms.topic: how-to
 ms.date: 02/06/2023
 ms.custom: bap-template 
 ---
-# Preview: Configure the opportunity pipeline view
+# Configure the opportunity pipeline view
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
-The opportunity pipeline view (formerly known as deal manager) helps your sellers visualize opportunities in their pipeline, and prioritize and manage them effectively. More information: [Preview: Use the opportunity pipeline view](use-opportunity-pipeline-view.md)
-
-> [!NOTE]
-> This feature is available only if you've [enabled preview features](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature) in your environment.  
-
+The opportunity pipeline view (formerly known as deal manager) helps your sellers visualize opportunities in their pipeline, and prioritize and manage them effectively. More information: [Use the opportunity pipeline view](use-opportunity-pipeline-view.md)
 
 If you've previously configured the deal manager workspace, review [this FAQ](faq-sales.yml#are-there-any-differences-between-the-opportunity-pipeline-view-and-the-deal-manager-workspace) to understand what has changed.
 
@@ -28,9 +24,7 @@ If you've previously configured the deal manager workspace, review [this FAQ](fa
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## Video: Opportunity pipeline view (Preview)
-
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+## Video: Opportunity pipeline view 
 
 Watch this short video to know how the opportunity pipeline view helps sellers be more productive and efficient.  
 
@@ -117,5 +111,5 @@ To customize the editable grid, see the [Power Apps documentation](/power-apps/d
 ### See also
 
 [Where is the deal manager workspace?](faq-sales.yml#where-is-the-deal-manager-workspace)  
-[Preview: Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)  
+[Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)  
 [Column-level security to control access](/power-platform/admin/field-level-security)
