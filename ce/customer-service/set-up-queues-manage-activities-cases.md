@@ -49,11 +49,9 @@ You can use queues to prioritize your activities and cases, and categorize them 
   
 - geography  
 
-The queue types allow issues to be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that are available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues will be shown for selection. Similarly, in case of conversation transfer, you can transfer a chat conversation only to a messaging queue, and a case only to an records queue.
+You can create both basic and advanced queues (for unified routing). More information: [Create and manage queues for unified routing](queues-omnichannel.md)
 
-Assign a group number that helps you organize your queues in the list view. The group number won't affect the priority of the queue or incoming conversations.
-
-Based on membership/viewership, you can create:
+Based on who can view the queues, you can create:
 - **Private queues** For limited set of members to help those members easily view the work items in that queue. Private queues streamline queue items for the members of that queue only and help to remove clutter from other users' views. Be sure to manually add new team members as members of the queue.
 - **Public queues** To let everyone in the organization view the queue and all of its items.
 
