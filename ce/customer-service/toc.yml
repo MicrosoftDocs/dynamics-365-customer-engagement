@@ -511,7 +511,7 @@
         - name: Apply authentication for search providers
           href: apply-authentication-provider.md
         - name: View and use insights for search providers
-          href: View and use insights.md
+          href: view-and-use-insights.md
         - name: Configure knowledge article schema mapping
           href: int-data-mapping.md
       - name: Customize knowledge article search filters
