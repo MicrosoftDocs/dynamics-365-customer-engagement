@@ -16,11 +16,11 @@ ms.custom: bap-template
 The SMS channel in Omnichannel for Customer Service allows your organization to connect to customers via text messages. Your customers can send text messages and connect with an appropriate agent. Agents can view incoming SMS requests on their dashboard and respond accordingly. You can use the same phone number for the SMS channel, and for inbound and outbound calling in the voice channel.
 
 > [!NOTE]
-> - Agent-initiated SMS isn't supported. 
 > - Outbound messaging using SMS is supported via Power Automate flow. More information: [Configure outbound messaging](outbound-messaging.md)
+> - Agent-initiated SMS isn't supported. 
 > - SMS is not supported with Azure direct routing. More information: [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
-> - For best SMS delivery experience, we recommend that you submit a toll-free verification application for your toll-free numbers. More information: [How do I submit a toll-free verification?](/azure/communication-services/concepts/sms/sms-faq#toll-free-verification)
 > - File attachments aren't supported in the SMS channel using Azure Communication Services.
+> - For best SMS delivery experience, we recommend that you submit a toll-free verification application for your toll-free numbers. More information: [How do I submit a toll-free verification?](/azure/communication-services/concepts/sms/sms-faq#toll-free-verification)
 
 ## Prerequisites
 
