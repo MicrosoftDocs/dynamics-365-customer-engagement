@@ -96,11 +96,18 @@ As a seller, it's important for you to understand what's working better for a de
 
 Your administrator must have enabled the feature before you can start using it. More information: [Configure relationship analytics](configure-relationship-analytics.md).
 
+1. In the Sales Hub app, select **Opportunities** and open an opportunity.  
+1. Select the **Sales Insights** form from the drop-down.  
+    :::image type="content" source="media/sales-insights-form.png" alt-text="Screenshot of the drop-down to select the Sales Insights form":::
+1. Select the **Relationship Analytics** tab to view how the KPIs for the opportunity compare with similar won opportunities. The screenshot is an example of the relationship analytics available for an opportunity.
+
+    :::image type="content" source="media/relationship-analytics-tab-large.png" alt-text="Screenshot of the relationship analytics tab and with KPIs":::
+
 > [!NOTE]
 > If relationship analytics can't detect the similar opportunities for the current opportunity, relationship analytics takes top 100 won opportunities and displays KPIs to compare with the current opportunity.
 
 For more information about KPIs and how they're generated, see [Enhanced relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights).
- 
+
 The following screenshot shows an example of enhanced relationship analytics available for an opportunity:  
 > [!div class="mx-imgBorder"]
 > ![Relationship analytics home page](media/relationship-analytics-home-page.png "Relationship analytics home page")
