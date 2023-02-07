@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions for Sales Premium"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
-ms.date: 01/24/2023
+ms.date: 02/07/2023
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -369,10 +369,10 @@ Users in your org who have frequently and recently interacted with the contact o
 
 ### How are the connections weighted?
 
-**Basic insights:**
+**Basic insights:**  
 Uses only frequency. The connections are weighted based on the number of interactions through emails and appointments in Dynamics 365. Top five users who have interacted the most with the contact or lead are displayed.  
 
-**Enhanced insights:**
+**Enhanced insights:**  
 Uses frequency and recency. If your administrator has enabled Exchange integration, the connections are weighted based on recent and frequent interactions through emails or appointments. 
 
 Every seller will see the same set of introducers for a contact or lead. 
@@ -398,7 +398,7 @@ Emails and appointments sent and received in Dynamics 365.
  ​  
 Emails and meeting information in Exchange Online is the source data. See also [​How are the connections weighted?](#how-are-the-connections-weighted)
 
-### Where are the insights generated?
+### Where are the insights from Exchange generated?
 
 After the Microsoft 365 admin provides consent, the Exchange data is collected and stored in Dynamics 365. The insights are then generated from the stored data in Dynamics 365.  
 
@@ -406,7 +406,7 @@ After the Microsoft 365 admin provides consent, the Exchange data is collected a
 > Microsoft 365 and Dynamics 365 each have their own service-specific licensing terms. The service-specific terms that apply depend on which service processes your data. For example, when a copy of your Microsoft 365 data is transferred to Dynamics 365, your Microsoft 365 data in that copy becomes Dynamics 365 data and the Dynamics 365 service-specific terms apply.
 
 
-### When will my data be removed after I opt out?
+### When will my data be removed after I opt out of data sharing in Exchange?
 
 If you are part of a security group that has been opted out by your administrator, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
 

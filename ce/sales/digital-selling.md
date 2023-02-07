@@ -1,7 +1,7 @@
 ---
 title: "Digital selling | MicrosoftDocs"
 description: "Enable digital selling capabilities with the Dynamics 365 Sales Enterprise license."
-ms.date: 01/11/2023
+ms.date: 02/07/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -27,7 +27,7 @@ In the Sales Hub app, you can set up digital selling capabilities from the **Get
 
 > [!NOTE]
 >- If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there's no monthly capacity limit.
->- Basic relationship insights and who knows whom information are available to Sales Enterprise customers out-of-the-box and does not require any setup. More information: [View relationship analytics and KPIs](relationship-analytics.md)  
+>- Basic relationship insights and who knows whom information are available for early access to Sales Enterprise customers out-of-the-box and does not require any setup. More information: [View relationship analytics and KPIs](relationship-analytics.md)  
 
 <br>
 

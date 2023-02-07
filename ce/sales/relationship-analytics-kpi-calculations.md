@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 01/30/2023
+ms.date: 02/07/2023
 ms.custom: bap-template
 ---
 # Relationship analytics KPI calculations 

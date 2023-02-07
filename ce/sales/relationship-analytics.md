@@ -1,7 +1,7 @@
 ---
 title: View relationship analytics and KPIs
 description: Use relationship analytics to know health of your customer relationships through various KPIs such as frequency and recency of your communication, response time, and so on.
-ms.date: 02/02/2023
+ms.date: 02/07/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 Relationship analytics uses the activity history of a seller with a contact or account and calculates KPIs based on their interactions. The KPIs are available at various levels such as, contact, account, opportunity, and lead. The graphical display of the KPIs help you quickly identify relationships that need to be nurtured and the KPIs to be improved for the same.  
 
-Depending on your license and configuration, you'll either see [basic insights](relationship-analytics-overview.md#basic-relationship-insights) or [enhanced insights](relationship-analytics-overview.md#enhanced-relationship-insights).  
+Depending on your license and configuration, you'll either see [basic insights](relationship-analytics-overview.md#basic-relationship-insights) or [enhanced insights](relationship-analytics-overview.md#enhanced-relationship-insights). Basic insights are available for early access.
 
 ## License and role requirements
 
@@ -63,25 +63,25 @@ The relationship pipeline view provides a bubble chart that gives you a quick ov
 
 1. At the top of the charts pane, open the drop-down list, and then select **Relationship Pipeline**.  
 
-  ![Select Relationship Pipeline chart](media/relationship-analytics-select-relationship-pipeline.png "Select Relationship Pipeline chart")  
+      ![Select Relationship Pipeline chart](media/relationship-analytics-select-relationship-pipeline.png "Select Relationship Pipeline chart")  
 
-  The relationship pipeline chart appears.  
+   The relationship pipeline chart appears.  
 
-  ![Relationship pipeline chart](media/relationship-analytics-relationship-pipeline-chart.png "Relationship pipeline chart")  
+    ![Relationship pipeline chart](media/relationship-analytics-relationship-pipeline-chart.png "Relationship pipeline chart")  
 
   Each upcoming opportunity is plotted as a bubble on the relationship pipeline chart. The size of each bubble indicates the estimated revenue of the opportunity. Health is plotted on the y-axis, so the higher up the bubble appears on the chart, the higher its health.  Estimated close date is plotted on the x-axis, so opportunities on the left side of the chart may expire soon. So, the most critical opportunities are those with the largest bubbles located near the lower-left corner, while the most promising opportunities are near the top of the chart.  
 
-  Hover over a bubble to see the name of the opportunity and other details. Select a bubble to open its opportunity record. The color of each bubble indicates relationship health: 
+  Hover over a bubble to see the name of the opportunity and other details. Select a bubble to open its opportunity record. The color of each bubble indicates relationship health:  
 
-    - green for good
+  - green for good
 
-    - amber for fair
+  - amber for fair
 
-    - red for poor 
+  - red for poor
 
-    - blue for pending computation
+  - blue for pending computation
 
-    - gray for no computation (indicates that the results have not been calculated, or that there is not enough data)
+  - gray for no computation (indicates that the results have not been calculated, or that there is not enough data)
 
 The relationship pipeline chart relies on several values being available for each opportunity record, but in some cases, these values may be missing for some or all opportunities. This could be due to an oversight, or it could be because you don't use these fields at your organization. The chart represents missing values as follows:  
 

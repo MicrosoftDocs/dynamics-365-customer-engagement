@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 01/30/2023
+ms.date: 02/07/2023
 ms.custom: bap-template
 ---
 
@@ -35,6 +35,8 @@ Depending on your license and configuration, you get the following insights:
 
 ## Basic relationship insights
 
+[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
+
 Basic relationship insights are generated out-of-the-box by using emails and appointments sent and received from Dynamics 365. The seller-customer interaction history is used to calculate KPIs and understand who knows whom. For information on how to view the insights, see [View relationship analytics and KPIs](relationship-analytics.md#view-relationship-analytics-and-kpis). 
 
 The following screenshot displays the widgets that are available out-of-the-box in the **Relationship Analytics** tab of a lead. Similar widgets are also available in Contact, Account, and Opportunity entities.
@@ -44,7 +46,7 @@ The following screenshot displays the widgets that are available out-of-the-box 
 |Number|Widget  |Description  |Available for  |
 |------|---------|---------|---------|
 | 1 |Summary   | Shows the summary of metrics and KPIs obtained for the records from your interactions with customers through emails, meetings, and phone calls. For example, *You have initiated 3 meetings more compared to the customer.*  |Account, Contact, Lead, Opportunity    |
-| 2 |Most contacted and Most contacted by   | Shows the top three most active contacts for the deal from you and your customer's organizations, with details about the last time these contacts interacted.      | Account, Lead, and Opportunity  |
+| 2 |Most contacted and Most contacted by   | Shows the top three active contacts for the deal from your and your customer's organizations, with details about the number of times they've interacted and the modes of interaction. The **Last updated date** shows the timestamp of the last KPI calculation.     | Account, Lead, and Opportunity  |
 | 3 |Customer interactions   | Shows the number of interactions initiated by you versus your customer's contacts. The graph displays the total number of activities initiated by members of your team and by the customer's contacts. The activities are broken down by general type, such as email, meetings, and phone calls. | Account, Contact, Lead, Opportunity    |
 | 4 |Email engagement   | Summarizes how your customer has interacted with the followed emails that your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use email engagement to view message interactions](email-engagement.md).    |Account, Contact, Lead, Opportunity    |
 | 5 |Email sent/received ratio   | Shows the ratio of the number of emails sent by you and received by the customer related to a record.      | Account, Contact, Lead, Opportunity    |
@@ -56,7 +58,7 @@ Enhanced relationship insights are available with the Sales Premium license and 
 
 For information on how to view the insights, see [View relationship analytics and KPIs](relationship-analytics.md#view-relationship-analytics-and-kpis).
 
-The following screenshot displays the  enhanced  relationship insights that are available in the **Relationship Analytics** tab of a lead. Similar widgets are also available in Contact, Account, and Opportunity entities. For Opportunity records, the KPIs are compared with similar won deals. For more information see, [Relationship analytics with similar opportunities](relationship-analytics.md#relationship-analytics-with-similar-opportunities).
+The following screenshot displays the  enhanced  relationship insights that are available in the **Relationship Analytics** tab of an opportunity. Similar widgets are also available in Contact, Account, and Lead entities. For Opportunity records, the KPIs are compared with similar won deals. For more information, see [Compare the KPIs of an opportunity with similar opportunities](relationship-analytics.md#compare-the-kpis-of-an-opportunity-with-similar-opportunities).
 
 :::image type="content" source="media/relationship-analytics-tab-advanced.png" alt-text="Screenshot of the enhanced relationship analytics widgets available with Sales Premium." lightbox="media/relationship-analytics-tab-advanced.png":::
 
@@ -67,7 +69,7 @@ The following screenshot displays the  enhanced  relationship insights that are 
 | 2 |Relationship health   |  Shows your overall relationship health with the customer, and includes the recent trend for the deal. <br>- **Next interaction.** Shows the date and time for the next activity that's scheduled for the record. If you have access to that activity, you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.<br> - **Last interaction.** Shows the date and time for the last activity that you completed for the record. If you have access to that activity, you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.     | Contact, Lead, Opportunity  |
 | 3 |Most contacted and Most contacted by   | Shows the top three most active contacts for the deal from you and your customer's organizations, with details about the last time these contacts interacted.      | Account, Lead, and Opportunity  |
 | 4 |Customer interactions   | Shows the number of interactions initiated by you versus your customer's contacts. The graph displays the total number of activities initiated by members of your team and by the customer's contacts. The activities are broken down by general type, such as email, meetings, and phone calls. | Account, Contact, Lead, Opportunity    |
-| 5 |Hourly investment   | Use this widget to compare the time spent by sellers versus the customer's contacts on a specific record.  For more information on how this value is calculated, see [Compute relationship analytics KPIs](relationship-analytics.md#step-3-compute-relationship-analytics-kpis)      | Account, Lead, and Opportunity  |
+| 5 |Hourly investment   | Use this widget to compare the time spent by sellers versus the customer's contacts on a specific record.  For more information on how this value is calculated, see [Relationship analytics KPI calculations](relationship-analytics-kpi-calculations.md)     | Account, Lead, and Opportunity  |
 | 6 |Email engagement   | Summarizes how your customer has interacted with the followed emails that your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use email engagement to view message interactions](email-engagement.md).    |Account, Contact, Lead, Opportunity    |
 | 7 |Response time   |Shows the average amount of time taken by your sellers to respond to customer emails as compared to the time taken by your customers to respond.  [Connect to Exchange Online](/power-platform/admin/connect-exchange-online) to view data in this widget.    | Account, Contact  |
 | 8 |Email sent/received ratio   | Shows the ratio of the number of emails sent by you and received by the customer related to a record.      | Account, Contact, Lead, Opportunity    |
