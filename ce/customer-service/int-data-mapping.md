@@ -29,7 +29,7 @@ To add an integrated search provider you'll need to configure the knowledge arti
 > [!NOTE]
 > You won't be able to change the configuration method after you have saved it.
 
-## Field mapping
+## Use field mapping
 
 1. Save the article as an .html file, and then upload the file by selecting **Choose file**. You'll view all the meta tags corresponding to your HTML file in the **Meta tags settings** section.
 1. You can select all the meta tags by selecting the **Select all below meta tags** checkbox or select only the required meta tags.
@@ -44,7 +44,7 @@ To add an integrated search provider you'll need to configure the knowledge arti
 
 You'll see a confirmation message when the validation is successful. In case of an error message, you'll need to check the entries in the mapping table.
 
-## JSON method
+## Use JSON
 
 1. Copy and paste your article properties and schema JSON in the field provided to you. For more information on creating the JSON schema, go to [Develop metadata mapping schema for knowledge articles](int-search-metadata-schema.md#develop-metadata-mapping-schema-for-knowledge-articles)
 1. Select **Validate json**.
@@ -52,7 +52,7 @@ You'll see a confirmation message when the validation is successful. In case of 
     You'll get a message to denote whether the JSON validation has passed or failed. In case of an error, the error message will state the parameter with the incorrect value.
 1. After the validation is successful, select **Next** to go to the **Refresh Schedule** section.
 
-## Operation type mapping options
+### Operation type mapping options
 
 - **Regex**: Select this when you want to use Regex patterns to extract values from their source website. When you select this option, the source property will be a text area where you can enter the regex pattern. The string from their website's HTML that matches this pattern will be used to map to the corresponding knowledge article field.
 
