@@ -57,7 +57,7 @@ After the provisioning is complete, you can add an integrated search provider by
     1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: Apply authentication.
     1. Select **Test connection**. You will get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
     1. Select **Next**.
-1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you have saved it. For details on knowledge article schema mapping, go to [Knowledge article schema mapping (preview)](int-data-mapping.md#knowledge-article-schema-mapping-preview).
+1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you have saved it. For details on knowledge article schema mapping, go to [Configure knowledge article schema mapping (preview)](int-data-mapping.md#configure-knowledge-article-schema-mapping-preview).
 1.	In the **Refresh Schedule** section, specify the refresh intervals:
     1. **Refresh frequency**: 
         1. Select between **15 mnts** to **7 days** from the dropdown list. Your selection specifies the frequency at which newly created or updated articles will be ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
