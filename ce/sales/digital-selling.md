@@ -1,7 +1,7 @@
 ---
 title: "Digital selling | MicrosoftDocs"
 description: "Enable digital selling capabilities with the Dynamics 365 Sales Enterprise license."
-ms.date: 01/11/2023
+ms.date: 02/07/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -21,12 +21,13 @@ Use selected Dynamics 365 Sales Premium features (sales accelerator, conversatio
 
 ## Overview
 
-Dynamics 365 digital selling capabilities spearhead the digital transformation of sales organizations and constitute the data and productivity first revolution. You can enhance your digital selling programs with Sales Premium features such as the sales accelerator, conversation intelligence, and predictive scoring that are available with the Dynamics 365 Sales Enterprise license. The premium features are available with a limited monthly capacity. If you'd like access to all the [premium features](overview.md#dynamics-365-sales-premium), upgrade to Dynamics 365 Sales Premium.
+Dynamics 365 digital selling capabilities spearhead the digital transformation of sales organizations and constitute the data and productivity first revolution. You can enhance your digital selling programs with Sales Premium features such as the sales accelerator, conversation intelligence, relationship intelligence, and predictive scoring that are available with the Dynamics 365 Sales Enterprise license. The premium features are available with a limited monthly capacity. If you'd like access to all the [premium features](overview.md#dynamics-365-sales-premium), upgrade to Dynamics 365 Sales Premium.
 
 In the Sales Hub app, you can set up digital selling capabilities from the **Get started with digital sales** page under **App Settings**.
 
 > [!NOTE]
-> If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there's no monthly capacity limit.
+>- If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there's no monthly capacity limit.
+>- Basic relationship insights and who knows whom information are available for early access to Sales Enterprise customers out-of-the-box and does not require any setup. More information: [View relationship analytics and KPIs](relationship-analytics.md)  
 
 <br>
 
