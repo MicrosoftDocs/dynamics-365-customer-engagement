@@ -2,7 +2,7 @@
 metadata:
   title: Frequently asked questions about Dynamics 365 Sales
   description: Find answers to frequently asked questions about Dynamics 365 Sales Enterprise.
-  ms.date: 10/19/2022
+  ms.date: 02/06/2023
   ms.topic: article
   author: udaykirang
   ms.author: udag
@@ -74,6 +74,25 @@ sections:
           
   - name: Entities - Lead, opportunity, quote, order, invoice
     questions:
+      - question: Where is the deal manager workspace?
+        answer: |
+          The deal manager workspace has been replaced by the [opportunity pipeline view](use-opportunity-pipeline-view.md). Any existing deal manager links or bookmarks will be redirected to the **My Open Opportunities** view. Select **View as** > **Pipeline view** to open the opportunity pipeline view.
+      - question: Are there any differences between the opportunity pipeline view and the deal manager workspace?
+        answer: |
+          The deal manager workspace has been replaced by the [opportunity pipeline view](use-opportunity-pipeline-view.md). If you've been using the deal manager workspace, you need to be aware of the following changes:
+       
+          | **Component** | **Opportunity pipeline view** | **Deal manager** |
+          |-----------|------------|-----------|
+          | Access control | Available for all users who have access to the Opportunities page. | Available only for security roles that were granted access to the workspace.|
+          | Editable grid | Uses the Power Apps editable grid control and hence can be customized in Power Apps. | Customization was done using a javascript. |
+          | Side panel | Uses the default opportunity form in the side panel . | A separate form known as **In Context View** form was used in the side panel with limited customizations. | 
+      - question: Why can't I find the Pipeline view option?
+        answer: |
+          There are several possibilities:
+            - The **Show as** option could be hidden in the three-dot menu in **Opportunities** page. 
+            - Your organization might not have enabled preview features. Contact your administrator if you'd like to try out preview features.
+            - Your administrator might have disabled custom views for opportunities. Contact your administrator to [add the view manually](opportunity-pipeline-view-for-admins.md#set-pipeline-view-as-the-default-opportunities-view).
+
       - question: What's the difference between the duplicate detection capability in Power Platform and Dynamics 365 Sales?
         answer: |
           Power Platform detects duplicates by comparing the matchcode that's created for each record. For more information, go to [Detect duplicate data so you can fix or remove it](/power-platform/admin/detect-duplicate-data).
