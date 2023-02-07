@@ -57,17 +57,7 @@ After the provisioning is complete, you can add an integrated search provider by
     1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: Apply authentication.
     1. Select **Test connection**. You will get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
     1. Select **Next**.
-1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or the **JSON Schema** option, to configure the knowledge article schema. You won't be allowed to change the configuration method, after you have saved it.
-    1. If you select **Field mapping**:
-        1. Save the article as an .html file and then upload the article HTML file by selecting **Choose file**. You'll view all the meta tags corresponding to the HTML file in the **Meta tags settings** section.
-        1. Select the required meta tags and then select **Next**.
-        1. On the **Knowledge article schema mapping** section, select the **Operation Type** and **Source Property** for the knowledge article attributes. For more information on **Operation Type**, go to [Operation type for knowledge article schema mapping](int-data-mapping.md#operation-type-for-knowledge-article-schema-mapping).
-        1. Select **Validate mapping**.
-        1. Select **Next**.
-    2. If you select **JSON method**:
-        1. Copy and paste your article properties and schema JSON in the field provided to you. More information: Develop metadata mapping schema for knowledge articles. Refer to Appendix: Sample metadata mapping template an example.
-        1. Select **Validate json**. You will get a message to denote whether the JSON validation has passed or failed. In case of an error, the error message will state the parameter with the incorrect value.
-        1. Select **Next**.
+1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you have saved it. For details on knowledge article schema mapping, go to [Knowledge article schema mapping (preview)](int-data-mapping.md#knowledge-article-schema-mapping-preview).
 1.	In the **Refresh Schedule** section, specify the refresh intervals:
     1. **Refresh frequency**: 
         1. Select between **15 mnts** to **7 days** from the dropdown list. Your selection specifies the frequency at which newly created or updated articles will be ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
