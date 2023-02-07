@@ -77,7 +77,7 @@ isFocused: true
 Microsoft.Apm.createTab(tabInput);
 ```
 
-### Create a with a web resource
+### Create a tab with a web resource
 
 Creates a new tab in the focused session passing a web resource as parameter for app tab template.
 
