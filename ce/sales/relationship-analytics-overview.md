@@ -41,7 +41,7 @@ Basic relationship insights are generated out-of-the-box by using emails and app
 
 The following screenshot displays the widgets that are available out-of-the-box in the **Relationship Analytics** tab of a lead. Similar widgets are also available in Contact, Account, and Opportunity entities.
 
-:::image type="content" source="media/relationship-analytics-tab.png" alt-text="Screenshot of the relationship analytics widgets available out-of-the-box." lightbox="media/relationship-analytics-tab-large.png":::
+:::image type="content" source="media/relationship-analytics-tab.png" alt-text="Screenshot of the relationship analytics widgets available out-of-the-box." lightbox="media/relationship-analytics-tab.png":::
 
 |Number|Widget  |Description  |Available for  |
 |------|---------|---------|---------|
