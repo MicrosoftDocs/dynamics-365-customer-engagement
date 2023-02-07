@@ -26,7 +26,7 @@ Resource managers can use the resource and utilization report to gather informat
 ## Common metrics
 
 - **Number of days**: Takes several factors into account. First, the system checks how many days a booking lasted and then determines how many of these days are considered work hours. For example, work days are defined Monday to Friday and a booking starts Thursday and ends Monday. The resulting number of days will be 3.
-- **Work and travel time**: Depends on the booking status. For scheduled bookings, the estimated duration is taken into account. As soon as a technician starts working on the booking, reports consider the actual work duration.
+- **Work, travel, and break time**: Depends on the booking status. For scheduled bookings, the estimated duration is taken into account. For other booking statuses, such as *in progress* or *completed*, duration is calculated based on *Booking Timestamp* entity records. In other words, as soon as a technician starts working on a booking, reports consider the actual work duration.
 
 ## Report metrics
 
