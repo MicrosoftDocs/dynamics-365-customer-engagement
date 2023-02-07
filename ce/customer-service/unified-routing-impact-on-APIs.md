@@ -22,7 +22,7 @@ When a record is picked up by the agent or assigned automatically to the agent, 
 - updates the agent in the live work item
 - updates the worker ID in the queue item
 
-Unified routing automatically synchronizes these updates from the queue item to the live work item, but not vice-versa. So, any updates from the live work item aren't automatically reflected in the queue item. If you'd like to manually make these updates, we recommend that you update only the queue item so that the live work item gets updated automatically by the unified routing engine. 
+Unified routing automatically synchronizes these updates from the queue item to the live work item, but not vice-versa. So, any updates from the live work item aren't automatically reflected in the queue item. If you'd like to make these updates manually, we recommend that you update only the queue item so that the live work item gets updated automatically by the unified routing engine. 
 
 You can update only one field of the queue item at a time, in a transaction. For example, if you need to update both the queue and the worker ID fields, then ensure that you update the queue field in one transaction, and the worker ID field in the next transaction.
 
