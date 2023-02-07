@@ -37,10 +37,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
   If you have open activities linked to the case, you’ll see a message with the following actions:
   - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md)
   - **Confirm**: If you select **Confirm** on the warning, the system automatically cancels the open activities when the case is resolved.
-
-    | Default experience | Legacy experience |
-    | ------------ | ------------- | 
-    |  :::image type="content" source="media/resolve-case-after.png" alt-text="Open activity warning" lightbox="media/resolve-case-after.png"::: | :::image type="content" source="media/resolve-case-before.png" alt-text="legacy open activity dialog" lightbox="media/resolve-case-before.png"::: |
+      :::image type="content" source="media/resolve-case-after.png" alt-text="Open activity warning" lightbox="media/resolve-case-after.png":::
      
   > [!NOTE]
   > The updated message agents see when they try to close cases with open activities is an early access feature.
@@ -50,10 +47,8 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
      - **Duration**. The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** box.  
      - **Billable Time**: The amount of time spent on the case to be billed to the customer.  
      - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.  
-     
-     | Current experience | Previous experience |
-     | ------------ | ------------- |
-     |  :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case-after.png"::: | :::image type="content" source="media/minimal-resolve-case-before.png" alt-text="Legacy resolve case" lightbox="media/minimal-resolve-case-before.png"::: |
+    
+    :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case-after.png"::: 
      
   > [!NOTE]
   > The minimal **Resolve case** dialog is an early access feature.
