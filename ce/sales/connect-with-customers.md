@@ -1,7 +1,7 @@
 ---
 title: Connect with customers through your work list or the Up next widget
 description: Learn how to use the Up next widget or the My work list to connect with customers by phone, email, and Teams meeting in Dynamics 365 Sales.
-ms.date: 10/20/2022
+ms.date: 02/10/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -91,6 +91,24 @@ To open an appointment from your work list, select the **Event** icon in the **M
 To open an appointment from the **Up next** widget, select **Open** in the activity.
 
 :::image type="content" source="media/sa-create-appointment-upnext-widget.png" alt-text="Screenshot of opening an appointment from the Up next widget.":::
+
+## Send a text message to customers
+
+You can send a text message (SMS) to your customer from the record in the My work list or an activity in the **Up next** widget.  
+
+A phone number must be available for the contact you are sending the message to. If not, a warning message will be displayed. When you send an SMS, the app creates an activity and links it to the record and updates the Timeline wall accordingly.
+
+You can select the text message option in the following ways:  
+
+-	From your work list, hover over the work list card and then select the message icon. 
+
+-	From the **Up next** widget, select **Text message** in the activity.
+
+When the text message is selected, the text message pane opens, allowing you to compose your message or select a template through the text box to send. Additionally, if you have multiple phone numbers associated, you can choose which number to use for sending the message. 
+
+:::image type="content" source="media/sms-text-message-pane.png" alt-text="Screenshot of text message pane.":::
+
+The message history is linked to the record and available for you or other sellers who work on the record for reference. Also, you can view replies from the customers and respond to them through the message text pane. More information: [Manage text message communications](manage-text-message-communications.md)
 
 ## Add a note to an activity
 

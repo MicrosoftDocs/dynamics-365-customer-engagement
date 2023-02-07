@@ -77,8 +77,7 @@ To add more placeholders for dynamic content, repeat steps 1 to 5.
 
 ### See also
 
-[Send a text message](steps-sequence.md#send-a-text-message)  
-[Send an automated text message](steps-sequence.md#send-an-automated-text-message)
-
-
-
+[Send a text message](steps-sequence.md#send-a-text-message)   
+[Send an automated text message](steps-sequence.md#send-an-automated-text-message)   
+[Send a text message to customers](connect-with-customers.md#send-a-text-message-to-customers)    
+[Manage text message communications](manage-text-message-communications.md)

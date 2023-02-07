@@ -828,6 +828,8 @@
           items:
             - name: Personalize text messages through templates
               href: create-text-message-templates.md      
+            - name: Manage text message communications
+              href: manage-text-message-communications.md  
         - name: Campaign management
           items:
             - name: Get started with in-app marketing
