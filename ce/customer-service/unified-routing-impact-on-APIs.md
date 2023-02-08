@@ -59,7 +59,7 @@ This section describes how queue items and live work items are updated when you 
 
 - When you update a queue item using unified routing, you can't remove it from the queue by selecting **Pick** ([**PickFromQueue Action**](/dynamics365/customer-engagement/web-api/pickfromqueue?view=dynamics-ce-odata-9&preserve-view=true)) or **RouteTo Action** on the queue item.
 
-- When you resolve a routed record, the corresponding queue item that gets deactivated can't be activated again.
+- When you resolve a case, the corresponding queue item that gets deactivated can't be activated again.
 
 
 > [!Note]
