@@ -226,7 +226,7 @@ TeleSign supports long and short codes; the use of short codes with SMS messagin
 
 Support for this scenario by TeleSign can vary based on geography. We recommend that you send an email request to support@telesign.com for your specific scenario if text messages need to be sent or received across countries.
 
-### Can we communicate with customers using outbound SMS?
+### Can I communicate with customers using outbound SMS?
 
 Yes. To send outbound SMS, you must first configure the SMS channel using Twilio, TeleSign, or Azure Communication Services. You can then create message templates, and use them to communicate with multiple customers. 
 
