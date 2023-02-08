@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Frequently asked questions (FAQ) about Omnichannel for Customer Service
+# FAQ about Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -105,7 +105,7 @@ For information about managing work items from your dashboard, see [View agent d
 
 Conversations and sessions are stored as activity types within the model-driven apps. For more information, see [View conversation and session activity types in the Model-driven apps](oc-view-activity-types.md).
 
-## Administration
+## Administrator experience
 
 ### How does Automated Record Identification work with pre-chat fields?
 
@@ -125,11 +125,11 @@ The Omnichannel for Customer Service app can be customized to include custom das
 
 ### Can I customize the Conversation Summary form?
 
-This is currently not supported. Enabling customizations for the Conversation Summary Form is on our roadmap. 
+Yes. For a list of supported customizations, see [Customizations supported by the Conversation form](supported-customizations.md#customizations-supported-by-the-conversation-form).
 
 ### Why am I not able to see the Intraday Monitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors?
 
-Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service).
+Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in admin app, ensure that you have saved the configurations before you exit the configuration form. When you select **Save**, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service).
 
 ### What is the application ID field on the application user form?
 
@@ -194,15 +194,15 @@ The same widget will persist the chat as you cross different pages or websites.
 
 ### Can I route chats based on custom variables that we pass through code on my portal?
 
-Yes, you can create custom context variables and create routing rules based on them. For more information, see the following:
+Yes, you can create custom context variables and create routing rules based on them. For more information, see the following articles:
 
 - [Understand and create workstreams](create-workstreams.md)
 - [Configure assignment methods for queues](assignment-methods.md)
 - [Manage custom context](send-context-starting-chat.md)
 
-### Can Omnichannel routing be used for other external channels (for example, my phone calls)?
+### Can routing in Omnichannel for Customer Service be used for other external channels (for example, my phone calls)?
 
-No. Omnichannel routing can be used to route chat or SMS requests only.
+Yes. In Omnichannel for Customer Service, routing can be used to route chat, SMS, and voice conversations.
 
 ## SMS
 
@@ -210,7 +210,7 @@ No. Omnichannel routing can be used to route chat or SMS requests only.
 
 You'll need the customer ID, API key, and the phone number from your TeleSign account. More information: [Sign up for TeleSign account](configure-sms-channel.md#sign-up-for-telesign-account)
 
-### How can I resolve the error that I get when I use the Validate API key to validate the TeleSign account information, in the admin app?
+### Why am I unable to validate the TeleSign account information using the Validate API key option in the admin app?
 
 The Validate API Key functionality validates the customer ID and API key by trying to send a test message to one of the numbers provided in the **SMS phone numbers** tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the **SMS phone numbers** tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters. For example, this would be correct: 14251234567.
 
