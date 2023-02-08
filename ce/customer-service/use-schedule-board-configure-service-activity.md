@@ -37,7 +37,6 @@ The new schedule board is faster and more responsive when you do the following t
 
 - Load the schedule board
 - Select schedule board tabs
-- Drag and drop service activities
 - Reschedule bookings
 
 > [!div class="mx-imgBorder"]
