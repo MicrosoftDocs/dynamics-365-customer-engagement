@@ -185,6 +185,7 @@ When you validate the API key while setting up the SMS channel, a call is made t
 ### See also
 
 [Channels in Omnichannel for Customer Service](channels.md)  
+[Overview of SMS channels](sms-channel-overview.md)  
 [Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)  
 [Configure SMS channel for Twilio](configure-sms-channel-twilio.md)  
 [Create and manage routing rules](routing-rules.md)  

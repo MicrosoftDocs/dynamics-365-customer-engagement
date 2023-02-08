@@ -58,6 +58,7 @@ This article discusses how you can configure an SMS channel using Azure Communic
 ### See also
 
 [Channels in Omnichannel for Customer Service](channels.md)  
+[Overview of SMS channels](sms-channel-overview.md)  
 [Understand and create workstreams](create-workstreams.md)  
 [Configure SMS channel for Twilio](configure-sms-channel-twilio.md)  
 [Configure SMS channel for TeleSign](configure-sms-channel.md)  

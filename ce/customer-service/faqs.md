@@ -42,7 +42,7 @@ Some of the supported channels are WeChat, LINE, and Facebook. For the complete 
 
 ### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 Customer Service license?
 
-No, Chat and related Omnichannel for Customer Service capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/customer-service/overview/).
+No, Chat and related Omnichannel for Customer Service capabilities require a separate add-in. For more information about licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?LinkId=866544). More information: [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true)
 
 ### How do I get started?
 
