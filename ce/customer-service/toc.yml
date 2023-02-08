@@ -836,7 +836,7 @@
       items: 
       - name: Set up SMS channels
         items: 
-        - name: Overview of SMS channels
+        - name: SMS channel overview
           href: sms-channel-overview.md
         - name: Configure an SMS channel using Azure Communication Services
           href: configure-sms-channel-acs.md
