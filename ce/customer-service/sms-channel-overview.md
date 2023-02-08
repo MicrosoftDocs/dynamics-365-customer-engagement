@@ -1,5 +1,5 @@
 ---
-title: Overview of SMS channels 
+title: SMS channel overview 
 description: This article gives an overview of the SMS channels and how you can configure them. 
 author: mh-jaya
 ms.author: v-jmh
@@ -9,7 +9,7 @@ ms.date: 02/09/2023
 ms.custom: bap-template 
 ---
 
-# What is the SMS channel?
+# SMS channel overview
 
 The SMS channel in Omnichannel for Customer Service allows your organization to connect to customers via text messages. Your customers can send text messages and connect with an appropriate agent. Agents can view incoming SMS requests on their dashboard and respond accordingly. While agents can't send messages, Omnichannel for Customer Service supports outbound messaging via Power Automate flows. More information: [Configure outbound messaging](outbound-messaging.md) 
 

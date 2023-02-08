@@ -24,7 +24,7 @@ You can provision the following channels in Omnichannel for Customer Service:
 
 - [Chat](set-up-chat-widget.md)
 - [Voice](voice-channel.md)
-- [SMS](configure-sms-channel.md)
+- [SMS](sms-channel-overview.md)
 - [Social](channels.md)
 - [Microsoft Teams](configure-teams-chat.md)
 
