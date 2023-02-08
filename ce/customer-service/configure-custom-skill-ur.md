@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 02/06/2023
+ms.date: 02/08/2023
 ms.custom: bap-template
 ---
 
@@ -71,15 +71,25 @@ Contoso’s workforce is trained for different “Operating markets” and are �
 
 1. Go to the assignment rule that you want to update and define a condition on the new skill category as seen in the following screenshot.
 
-   :::image type="content" source="media/use-custom-skill-assignmemt-condition.png" alt-text="Define custom entity as a skill"::: 
+   :::image type="content" source="media/use-custom-skill-assignmemt-condition.png" alt-text="Define custom entity as a skill":::
+
+   Unified routing evaluates the condition in the assignment rule when a work item arrives.
 
 ## When to use existing data models as skills
 
 When you have multiple attributes or categories and want to match agents with work items using these custom attributes. You can model each custom attribute as a skill. You will not have to write different classification rules corresponding to each skill you want to identify, thus saving yourself from maintenance hassle especially when the custom attribute values are evolving frequently. 
 
-Using this approach, you can just maintain the modeled skills at agent level and change the lookup to the new or updated value when those values change.  
+Using this approach, you can maintain the modeled skills at agent level and change the lookup to the new or updated value when those values change.  
 
+### Things to consider
+
+- Intelligent skill finder doesn't predict custom attributes that are modeled as skills because these are not real skills and hence won’t be present in skill analysis reports but still give you the power of skill-based routing.
+- Out-of-the-box assignment methods don't support skill match for custom skills.
+- The custom skills won't show up as skills in agent skill control.
+- Routing diagnostics won't display the “custom skills” that were matched during assignment.
+- The custom skills setup will work on "Lookup" datatype only.
 
 ## Next steps
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+[Overview of skill-based routing](overview-skill-work-distribution.md)  
+[Set up skills, create a rating model, and assign agents](setup-skills-assign-agents.md)  
