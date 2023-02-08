@@ -20,7 +20,7 @@ Dynamics 365 Field Service stores data as tables in Microsoft Dataverse. You can
 
 ## Enable Dataverse search
 
-Dataverse search indexes tables in your environment to return results when searching for keywords. You have to [enable Dataverse search](/power-platform/admin/configure-relevance-search-organization#enable-dataverse-search#enable-dataverse-search) after updating Field Service to the latest version.
+Dataverse search indexes fields within tables in your environment to return results when searching for keywords. [Enable Dataverse search](/power-platform/admin/configure-relevance-search-organization#enable-dataverse-search#enable-dataverse-search) to take advantage of the Dataverse search feature.
 
 To revert to the classic search experience, disable the Dataverse search feature in the Power Platform admin center and set the feature to **Off**.
 
@@ -30,7 +30,7 @@ With Dataverse search enabled, some [Field Services tables are automatically add
 
 You can add or remove tables from the index. While there's no limit on the number of tables in the index, a limit applies to the number of columns you can add. The maximum number of columns shows when you configure the tables to be indexed for Dataverse search. By default, Field Services uses approximately one third the available column capacity.
 
-For example, add the *Work Order* table and the *Account* column to the search index to quickly find work orders related to an account you are searching for.
+For example, add the *Work Order* table and the *Service Account* column to the search index to quickly find work orders related to a specific service account.
 
 To add or remove tables from the search index, see [Select tables for Dataverse search](/power-platform/admin/configure-relevance-search-organization#select-tables-for-dataverse-search)
 
@@ -47,6 +47,8 @@ The following tables are indexed by default:
 - msdyn_customerasset
 - msdyn_purchaseorder
 - msdyn_workorder
+
+Each of these tables has several commonly-used fields indexed. For example, *msdyn_customerasset* indexes *msdyn_name*, *msdyn_product*, and *msdyn_functionallocation*. To customize which fields are indexed for Dataverse search, edit the table's Quick Find View and add the fields to the "Find by..." section.
 
 ## Filter search results
 
