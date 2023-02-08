@@ -234,7 +234,7 @@ More information: [Configure an SMS channel for Twilio](Configure-sms-channel-tw
 
 ### Does the SMS channel automatically identify the customer?
 
-Yes, Omnichannel system will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the Mobile Phone field of Contact records or the Phone field of Account records. Ensure that the phone number in these field has the country code along with the plus sign (+) without any spaces or special characters; for example: +14251234567
+Yes, Omnichannel system will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the **Mobile Phone** field of Contact records or the **Phone field** of Account records. Ensure that the phone number in these fields has the country code along with the plus sign (+) without any spaces or special characters. For example, +14251234567.
 
 ### Can I send automated SMS responses?
 
