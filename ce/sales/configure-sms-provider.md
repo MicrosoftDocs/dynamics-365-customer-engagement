@@ -48,7 +48,7 @@ TeleSign integration uses TeleSign's public APIs to send and receive text messag
 
 3.	Purchase SMS phone numbers through your TeleSign account.
 
-4.	On the [TeleSign SMS Settings](https://portal.telesign.com/portal/sms-settings) page, switch the Status Callback toggle to Enabled. This applies to Standard accounts. If you have an Enterprise account, you’ll need to contact TeleSign to enable the status callback setting for you. 
+4.	On the [TeleSign SMS Settings](https://portal.telesign.com/portal/sms-settings) page, switch the **Status Callback** toggle to Enabled. This applies to **Standard** accounts. If you have an **Enterprise** account, you’ll need to contact TeleSign to enable the status callback setting for you. 
 
 5.	You're provided with a callback URL that must be sent to [TeleSign support](mailto:support@telesign.com). This callback URL is specific to your organization and is available when you add SMS support for your organization.
 
@@ -56,7 +56,7 @@ TeleSign integration uses TeleSign's public APIs to send and receive text messag
 
 To set up the SMS provider (Twilio or TeleSign) sender number to Dynamics 365 Sales:
 
-1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App Settings** > **SMS providers (preview)**.
+1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App Settings** > **SMS providers**.
 
 2.	From the tool bar, select **New**.
 
@@ -78,7 +78,7 @@ To set up the SMS provider (Twilio or TeleSign) sender number to Dynamics 365 Sa
     | Description | (Optional) Specify a description for the number. |
     | Account SID | Account SID generated from the Twilio account. |
     | Auth token | Auth token generated from the Twilio account.|
-    | Incoming callback URL | This callback URL is specific to your organization and is available when you add SMS support for your organization. |
+    | Incoming callback URL | This callback URL is specific to your organization and is available when you add SMS support for your organization. Paste the URL in the [numbers' configuration page](https://console.twilio.com/us1/develop/phone-numbers/manage/incoming) in the **A MESSAGE COMES IN** field to receive SMS replies. |
 
     - **For TeleSign**:
 

@@ -22,7 +22,7 @@ Edit phone numbers by assigning, or removing users who are no longer working in 
 
 You can edit phone numbers by assigning users or removing users who are no longer working in your team or moved to a different organization. 
 
-1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App Settings** > **SMS providers (preview)**.
+1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App Settings** > **SMS providers**.
 
 2. Select the SMS provider.
 
