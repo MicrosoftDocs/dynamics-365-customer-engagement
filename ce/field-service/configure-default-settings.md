@@ -1,11 +1,11 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 09/23/2022
-ms.topic: article
+ms.date: 01/14/2023
+ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
-ms.reviewer: mhart
+ms.custom: bap-template
 search.app: 
   - D365CE
   - D365FS
@@ -21,13 +21,48 @@ System administrators define settings for work orders, bookings, agreements, and
 
    :::image type="content" source="media/settings-field-service-settings.png" alt-text="Screenshot of the Field Service Settings page in the Settings area.":::
 
-1. Select the settings you want to change and fill in the information, as required.  Refer to the following table for a description of the settings.
+1. Select the settings you want to change and fill in the information, as required. Refer to the following sections for a description of the settings.
 
 1. Select **Save** to apply your changes.
+
+## Auto-numbering settings
+
+Several entities in Field Service use incremental numbers for distinction. Auto-numbering ensures that records get unique naming and that there are fewer gaps in the entity names because they're created when saving a record. You can configure the numbering settings for each supported entity.
+
+### Opt-in to auto-numbering
+
+1. In Field Service, change to the **Settings** area.
+
+1. Go to **General** > **Field Service Settings**.
+
+1. Select **Opt-In to Auto-Numbering** in the command bar.
+
+1. In the dialog box, select **Opt-In**.
+
+During the initial opt-in process, creation of new records may fail. We recommend to enable the feature when there's no activity in the application. The process will take a few moments to complete.
+
+### Configure auto-numbering
+
+1. In Field Service, change to the **Settings** area.
+
+1. Go to **General** > **Field Service Settings**.
+
+1. Select **Auto-Numbering** in the command bar.
+
+1. In the **Configure Auto-Numbering** dialog box, configure the numbering settings:
+
+   :::image type="content" source="media/auto-numbering-setting.png" alt-text="Screenshot of the auto-numbering configuration dialog box.":::
+
+   - Choose the **Entity**.
+   - Set the **Prefix**, **Number Length**, and **Starting Number**.
+
+1. Select **Apply**.
   
 ## Work Order / Booking settings
 
 This settings tab lets you define several default values and basic settings related to work orders and bookings.
+
+The prefix and starting number setting won't show if you use the [new auto-numbering feature](#auto-numbering-settings) to manage record numbering.
   
 |   Option     |   Description  |
 | ------------- | -------------- |
@@ -41,8 +76,8 @@ This settings tab lets you define several default values and basic settings rela
 | Show Simplified Work Order Commands | This setting influences the command bar on work order records and lists. By default, this field is set to *Yes*, which shows only the most relevant commands for work orders. The following commands will be hidden from the form: deactivate, check access, process, add to queue, queue item details, assign, share, email a link, flow, Word templates. The following commands will be hidden from the list view when no records are selected: email a link, flow, import from Excel. The following commands will be hidden from the list view when a record is selected: activate, deactivate, email a link, add to queue, flow, Word templates, Excel templates. When set to *No*, all commands are shown. |
 |  Work Order Starting Number |  Provide number from which the system starts the count of work orders. |
 |  Work Order Invoice Creation  |   Choose if the system should automatically generate a billing invoice for work orders when the status changes to *Closed - Posted*. |
-|  Travel Charge Item      | Select the product that the system uses for travel charges for a work order. The pricing will be determined by the standard pricing rules. For more information, go to [Create a product or service](create-product-or-service.md). |
-| Disable Customer Asset Validation | Control work order creation if customer assets on the work order don't belong to the same service account. When set to *Yes*, users can't create a work order if the customer assets don't relate to the service account. When set to *No*, the system requires customer assets related to the service account on a work order. |
+|  Travel Charge Item      | Select the product that the system uses for travel charges for a work order. The pricing will be determined by the settings Travel Charge value on the service account. For more information, go to [Accounts](accounts.md). |
+| Disable Customer Asset Validation | Control work order creation if customer assets on the work order don't belong to the same service account. When set to *Yes*, users can't create a work order if the customer assets don't relate to the service account. When set to *No*, the system requires customer assets related to the service account on a work order. For more information, go to [Validate customer assets on work orders](asset-validation.md). |
 | Calculate Tax | [Tax codes](set-up-tax-codes.md) calculate and add taxes to products and services. When set to *No*, the tax code field and calculations from all related forms are disabled. |
 | Generate Actuals | When set to *Yes*, the system creates records with actuals over the course of a work order's lifecycle. If set to *No*, the system disables the creation of work order-related actuals. |
 | **Resource pay type section** |  |
@@ -59,6 +94,8 @@ This settings tab lets you define several default values and basic settings rela
 ## RMA settings
 
 Return merchandise authorization (RMA) is the return process for customers who have requested to return or exchange merchandise. For more information, go to [Process a return](process-return.md).
+
+This section won't show if you use the [new auto-numbering feature](#auto-numbering-settings) to manage record numbering.
   
 |  Option  | Description |
 |-----------|-------------|
@@ -68,6 +105,8 @@ Return merchandise authorization (RMA) is the return process for customers who h
 ## RTV settings
 
 Return to vendor (RTV) is the return process for customers who have received unwanted or damaged goods. For more information, go to [Process a return](process-return.md).
+
+This section won't show if you use the [new auto-numbering feature](#auto-numbering-settings) to manage record numbering.
   
 |  Option  | Description   |
 |-----------|---------------|
@@ -77,6 +116,8 @@ Return to vendor (RTV) is the return process for customers who have received unw
 ## Agreement settings
 
 Field Service agreements allow organizations to automatically generate work orders and invoices. For more information, go to [Set up agreements](set-up-customer-agreements.md).
+
+The prefix and starting number setting won't show if you use the [new auto-numbering feature](#auto-numbering-settings) to manage record numbering.
   
 |  Option   |    Description    |
 |------------|-------------------|
@@ -93,6 +134,8 @@ Field Service agreements allow organizations to automatically generate work orde
 ## Purchase settings
 
 You can use purchase orders (POs) to add inventory to a warehouse, or to purchase products to sell to a customer in a work order. For more information, go to [Create a purchase order](create-purchase-order.md).
+
+The prefix and starting number setting won't show if you use the [new auto-numbering feature](#auto-numbering-settings) to manage record numbering.
   
 |  Option  |  Description  |
 |-----------|---------------|
@@ -104,6 +147,8 @@ You can use purchase orders (POs) to add inventory to a warehouse, or to purchas
 ## Inventory settings
 
 Inventory tracks the availability of products in a warehouse. For more information, go to [Overview of inventory, purchasing, and returns](inventory-purchasing-returns-overview.md).
+
+This section won't show if you use the [new auto-numbering feature](#auto-numbering-settings) to manage record numbering.
   
 | Option | Description |  
 |-------------|-----------------|  
@@ -153,6 +198,8 @@ Inspections are forms that technicians use to answer a list of questions as part
 | Analytics enabled  |   Turn the analytics for inspections on or off. For enabled analytics, you can specify the frequency and the start time of the analysis. |
   
 ## Other settings
+
+The entity number length setting won't show if you use the [new auto-numbering feature](#auto-numbering-settings) to manage record numbering.
   
 |   Option  |      Description     |
 |------------|----------------------|

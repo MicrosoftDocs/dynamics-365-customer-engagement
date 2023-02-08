@@ -2,12 +2,10 @@
 title: "Collaborate in mixed reality with Field Service, Dynamics 365 Remote Assist, and HoloLens (contains video) | MicrosoftDocs"
 description: Learn how to collaborate in mixed reality by integrating Dynamics 365 Field Service with Dynamics 365 Remote Assist.
 ms.date: 01/14/2021
-ms.reviewer: mhart
 
 ms.topic: article
-author: josephshum
+author: josephshum-msft
 ms.author: jshum
-ms.manager: shellyhaverkamp
 search.app: 
   - D365CE
   - D365FS
@@ -204,7 +202,7 @@ Technicians can:
 
 ### Use the Field Service mobile Power App
 
-Technicians can deep link from the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) to the Dynamics 365 Remote Assist mobile app. 
+Technicians can deep link from the [Field Service (Dynamics 365) mobile](mobile-power-app-overview.md) to the Dynamics 365 Remote Assist mobile app.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

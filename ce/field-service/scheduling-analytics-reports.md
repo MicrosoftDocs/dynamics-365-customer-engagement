@@ -2,7 +2,6 @@
 title: "Resource scheduling and optimization analytics dashboard in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about resource scheduling and optimization analytics dashboard in Dynamics 365 Field Service
 ms.date: 03/20/2020
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
@@ -10,7 +9,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: FeifeiQiu
 ms.author: feiqiu
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -88,7 +86,7 @@ Let's take a look at what each of these metrics are reporting.
 | --- | --- |
 | Bookings by territory  |	Shows a map with color indicators for bookings in each territory. By hovering over a territory, you can see number of bookings, total work time, travel time, and break time. In order for this to render correctly, the territory must be a physical geographic location.  |
 | Variance to estimated travel time |	Shows the variance by region between estimated travel times and actual travel times. |
-| Requirement duration % vs. allocated resource duration % |	Gauge whether the total number of requirements in each territory is balanced with the total number of resources allocated to that territory. The resulting analysis shows the percentage of requirement duration versus percentage value of allocated resource duration.  |
+| Requirement duration % vs. allocated resource duration % |	Gauge whether the total number of requirements in each territory is balanced with the total number of resources allocated to that territory. The resulting analysis shows the percentage of requirement duration (total hours needed in the selected time range and territory) versus percentage value of allocated resource duration (total hours fulfilled in the selected time range and territory).  |
 | Miles traveled |	Shows the trend of total miles traveled per month. |
 | Resource work time quartile analysis  |	Compares each resource's travel time to work time and ranks them into relative quartiles.  |
 | Resource metrics |	Shows the breakdown of KPIs for each resource, including number of bookings, utilization percentage, year over year percentage change in utilization, work time, travel time, break time, and idle time. Sort the resources by number of bookings, or by year, month, week, or day. | 
@@ -131,39 +129,6 @@ The optimization summary analyzes the automatically scheduled bookings and the e
 | Least allocated resource |	Ranks resources by lowest utilization. This can help dispatchers assign new emergency jobs accordingly. |
 |Territory summary |	Displays optimized territories on a map, with the ability to drill down. |
 | Booking metrics by territory | 	Shows scheduled bookings, work time allocated, and total travel time allocated for each territory. |
-
-## Share reports
-
-By default, the tenant administrator will be able to view all the reports. With the following steps, the reports can be shared with other users.
-
-1.	Select **Share** in the top-right corner of the report.
- 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the share option in the report.](./media/scheduling-analytics-share1.png)
-
-2.	Select the reports.
- 
- > [!div class="mx-imgBorder"]
-> ![Screenshot of the report selection list.](./media/scheduling-analytics-share2.png)
- 
-3.	Select **Share**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the share option in the menu.](./media/scheduling-analytics-share3.png)
-
-4.	Select **Add User/Team** and select the user you want to give access to.
- 
- > [!div class="mx-imgBorder"]
-> ![Screenshot of the share data analytics report window with attention to the add user/team option.](./media/scheduling-analytics-share4.png)
-
-5.	Make sure the **Read** access is selected and select **Share**.
-  
-  > [!div class="mx-imgBorder"]
-> ![Screenshot of the share data analytics report window with the read box checked.](./media/scheduling-analytics-share5.png)
-
-The user will now be able to access the report.
-
-In order to share the resource and utilization reports, follow steps 1 through 5 in Field Service. Note that you need to select resource and utilization reports in Field Service.
 
 
 ## Configuration considerations

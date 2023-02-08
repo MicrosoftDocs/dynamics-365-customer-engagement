@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 01/05/2023
+ms.date: 01/30/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -42,6 +42,18 @@ As a tenant administrator, when you enable the Teams chat feature, the app has t
 |Presence.Read.All	|Reads presence information of all users to be displayed on the user avatars in chat list. |
 |User.Read.All	|Reads users’ display name and licenses to validate if the suggested participants have a Teams license assigned. This is used by the suggested section in the chat list.|
 |User.ReadBasic.All	|Reads users’ photos. |
+
+In order to use Teams chat in multisession environments, users must have the same permissions as available in the **Productivity tools user** role. 
+
+Users need read permission for the following entities to access the productivity pane for custom roles:
+
+- App profile
+- Application tab template
+- Notification field
+- Notification template
+- Pane tab configuration
+- Pane tool configuration
+- Productivity pane configuration
 
 ### Data security and privacy
 
