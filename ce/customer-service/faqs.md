@@ -1,7 +1,7 @@
 ---
 title: "FAQ about Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) on the different features in Omnichannel for Customer Service and their requirements."
-ms.date: 02/25/2022
+ms.date: 02/09/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -72,7 +72,7 @@ If you accidentally close your browsers, your currently open sessions and tabs o
 
 Ongoing chat conversations appear on your Omnichannel Agent Dashboard. You can pick the chat from that dashboard and resume the conversation. The chat conversation is preserved, and you will be able to see the previous messages. If you were working on case sessions, you can reopen them using the gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](oc-manage-sessions.md#start-a-session).
 
-### Does consult only work for managers/supervisors?
+### Does consult only work for managers and supervisors?
 
 No. You can consult with any available agent in the queue from which the chat originated. The consult list shows you agents in the queue who can take additional chat requests.
 
@@ -182,7 +182,7 @@ These controls are in place for exposing the data in reports:
 
 ## Chat widgets
 
-### Can we have the widget show on different pages or different websites?
+### Can I have the widget show on different pages or different websites?
 
 The widget can show on any portal you want. You can copy the HTML script tag anywhere to make it appear on specific pages, a different Power Apps portals, or a custom portal as well. 
 
@@ -236,7 +236,7 @@ More information: [Configure an SMS channel for Twilio](Configure-sms-channel-tw
 
 Yes, Omnichannel system will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the Mobile Phone field of Contact records or the Phone field of Account records. Ensure that the phone number in these field has the country code along with the plus sign (+) without any spaces or special characters; for example: +14251234567
 
-### Can we send automated SMS responses?
+### Can I send automated SMS responses?
 
 Yes. In Omnichannel for Customer Service, you can send automated messages based on system-triggered or user-defined events. More information: [Configure outbound messaging](outbound-messaging.md)
 
