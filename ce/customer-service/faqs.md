@@ -48,7 +48,7 @@ No, Chat and related Omnichannel for Customer Service capabilities require a sep
 
 If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](try-channels.md). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel in your organization.
 
-## Agent experiences
+## Agent experience
 
 ### In which apps can I use Chat for Dynamics 365?
 
@@ -210,9 +210,9 @@ No. Omnichannel routing can be used to route chat or SMS requests only.
 
 You'll need the customer ID, API key, and the phone number from your TeleSign account. More information: [Sign up for TeleSign account](configure-sms-channel.md#sign-up-for-telesign-account)
 
-### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in the Omnichannel Administration app. What should I do?
+### How can I resolve the error that I get when I use the Validate API key to validate the TeleSign account information, in the admin app?
 
-The Validate API Key functionality will validate the customer ID and the API key by trying to send a test SMS message to one of the numbers provided in the SMS Numbers tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the SMS Numbers tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters. For example, this would be correct: 14251234567.
+The Validate API Key functionality validates the customer ID and API key by trying to send a test message to one of the numbers provided in the **SMS phone numbers** tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the **SMS phone numbers** tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters. For example, this would be correct: 14251234567.
 
 ### How can I know if I can get a phone number from TeleSign in a specific country?
 

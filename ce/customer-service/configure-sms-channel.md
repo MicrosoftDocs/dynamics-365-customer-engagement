@@ -76,7 +76,7 @@ An SMS channel can be enabled within Omnichannel for Customer Service by integra
       - **API key:** API key generated from the TeleSign account.
 
    1. In **SMS phone numbers**, select **Add**, and enter the following details in **Add SMS number**:
-    - **Number:** Specify the support phone number that you purchased from TeleSign in the *<phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
+    - **Number:** Specify the support phone number that you purchased from TeleSign in the *<phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces, special characters, or the plus sign (+).
     - **Type:** Select Geo, Short code, or Toll free.
     - **Description:** Enter a description.
     - **Validate:** Select to validate the customer ID and API key.
