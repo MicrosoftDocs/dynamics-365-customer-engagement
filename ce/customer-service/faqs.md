@@ -208,7 +208,7 @@ No. Omnichannel routing can be used to route chat or SMS requests only.
 
 ### What information from a TeleSign account do I need to enter while configuring the channel?
 
-You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in the Omnichannel admin center app when you create or set up an SMS workstream.
+You'll need the customer ID, API key, and the phone number from your TeleSign account. More information: [Configure SMS channel for TeleSign](configure-sms-channel.md)
 
 ### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in the Omnichannel Administration app. What should I do?
 

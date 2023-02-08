@@ -38,8 +38,6 @@ Verify that you have permissions on the secure columns. More information: [Confi
 
 You can enable the SMS channel from the Dynamics 365 admin center. For steps on enabling SMS in your organization as a part of provisioning Omnichannel for Customer Service, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
 
-> [!NOTE]
-> The SMS channel is available only if you have an active subscription of Dynamics 365 for Customer Service Digital Messaging.
 
 ## Sign up for TeleSign account
 

@@ -17,6 +17,10 @@ You can use the same phone number for the SMS channel, and for inbound and outbo
 
 For best SMS delivery experience, we recommend that you submit a toll-free verification application for your toll-free numbers. More information: [How do I submit a toll-free verification?](/azure/communication-services/concepts/sms/sms-faq#toll-free-verification)
 
+## Prerequisite
+
+You must obtain an active subscription of **Dynamics 365 Customer Service Digital Messaging**. For more information about licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?LinkId=866544). More information: [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true)
+
 ## Supported SMS channels
 
 In Omnichannel for Customer Service, you can configure the SMS channel as follows:
