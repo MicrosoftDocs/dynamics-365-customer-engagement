@@ -23,7 +23,7 @@ search.app:
 ## JavaScript API
   
 Realtime forms are consisting of two part - so called form placeholder, which looks similar to this:
-```
+```HTML
 <div
   data-form-id='{msdynmkt_marketingformid}'
   data-submit-form-url='https://{server}.dynamics.com/api/v1.0/orgs/{organizationid}/landingpageforms/forms/{msdynmkt_marketingformid}'
@@ -32,7 +32,7 @@ Realtime forms are consisting of two part - so called form placeholder, which lo
 ```
 And form loader that lights up the form placeholders:
 ```
-<script src = 'https://{server}/global/FormLoader/FormLoader.bundle.js' ></script>
+<script src='https://cxppusa1formui01cdnsa01-endpoint.azureedge.net/global/FormLoader/FormLoader.bundle.js'></script>
 ```
 
 ### Custom events
@@ -45,7 +45,7 @@ And form loader that lights up the form placeholders:
 |`d365mkt-formsubmit`| Triggered when form is getting submitted, cancellable
   
   You can attach to events using the standard event attach mechanics
-  ```
+  ```HTML
   <script>
 document.addEventListener("d365mkt-beforeformload", function() { console.log("d365mkt-beforeformload") });
 document.addEventListener("d365mkt-afterformload", function() { console.log("d365mkt-afterformload") });
@@ -64,7 +64,7 @@ document.addEventListener("d365mkt-formsubmit", function(event) {
 
 ### Form behavior customization
 You can customize the form behavior by including configuration script before the loader script is injected into a page.
- ```
+ ```HTML
  <script>
  var d365mkt = {
    // disables showing of progress bar during form loading
@@ -72,6 +72,37 @@ You can customize the form behavior by including configuration script before the
  };
  </script>
 ``` 
+
+### Injecting marketing form into react application
+You can use marketing forms within your react application. The form loader exposes `d365mktforms.FormPlaceholder` react component that you can inject into your application. 
+
+```HTML
+<html>
+  <head>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://cxppusa1formui01cdnsa01-endpoint.azureedge.net/global/FormLoader/FormLoader.bundle.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      root.render(React.createElement(d365mktforms.FormPlaceholder, {
+        formId:'{msdynmkt_marketingformid}',
+        formSubmitUrl:'https://{server-submit}/api/v1.0/orgs/{organizationid}/landingpageforms/forms/{msdynmkt_marketingformid},
+        formUrl:'https://{server-load}/{organizationid}/digitalassets/forms/{msdynmkt_marketingformid}'
+      }, null));
+    </script>
+  </body>
+</html>
+```
+>NOTE: your have to replace {msdynmkt_marketingformid} with actual identifier of marketing form entity, {organizationid} with actual identifier of your organization and {server-} should point to server endpoints of your organization. Easiest way to grab those is via "Get Javascript Code" from form publish options.
+> | Widget attribute | React component property |
+> |---------------------|---------------------------------|
+> | data-form-id | formId |
+> | data-submit-form-url | formSubmitUrl |
+> | data-cached-form-url | formUrl |
+
 
 > [!NOTE]
 > The Javascript API is available only for forms hosted as a script, it is not supported for the iframe hosting option.  
