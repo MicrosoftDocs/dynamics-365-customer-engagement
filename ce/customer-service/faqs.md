@@ -208,11 +208,11 @@ No. Omnichannel routing can be used to route chat or SMS requests only.
 
 ### What information from a TeleSign account do I need to enter while configuring the channel?
 
-You'll need the customer ID, API key, and the phone number from your TeleSign account. More information: [Configure SMS channel for TeleSign](configure-sms-channel.md)
+You'll need the customer ID, API key, and the phone number from your TeleSign account. More information: [Sign up for TeleSign account](configure-sms-channel.md#sign-up-for-telesign-account)
 
 ### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in the Omnichannel Administration app. What should I do?
 
-The Validate API Key functionality will validate the customer ID and the API key by trying to send a test SMS message to one of the numbers provided in the SMS Numbers tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the SMS Numbers tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters; for example, this would be correct: 14251234567
+The Validate API Key functionality will validate the customer ID and the API key by trying to send a test SMS message to one of the numbers provided in the SMS Numbers tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the SMS Numbers tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters. For example, this would be correct: 14251234567.
 
 ### How can I know if I can get a phone number from TeleSign in a specific country?
 
@@ -234,7 +234,7 @@ More information: [Configure an SMS channel for Twilio](Configure-sms-channel-tw
 
 ### Does the SMS channel automatically identify the customer?
 
-Yes, Omnichannel system will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the **Mobile Phone** field of Contact records or the **Phone field** of Account records. Ensure that the phone number in these fields has the country code along with the plus sign (+) without any spaces or special characters. For example, +14251234567.
+Yes, Omnichannel system will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the **Mobile Phone** field of Contact records or the **Phone field** of Account records. Ensure that the phone number in these fields has the country code along with the plus sign (+) without any spaces or special characters. For example, this would be correct: +14251234567.
 
 ### Can I send automated SMS responses?
 
