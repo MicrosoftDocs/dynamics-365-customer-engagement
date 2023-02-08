@@ -228,7 +228,9 @@ Support for this scenario by TeleSign can vary based on geography. We recommend 
 
 ### Can we communicate with customers using outbound SMS?
 
-You can send messages to a customer only after the customer has initiated the conversation by sending a text message to the support number. If the conversation is not closed, you can send messages to the customer by opening the conversation.
+Yes. To send outbound SMS, you must first configure the SMS channel using Twilio, TeleSign, or Azure Communication Services. You can then create message templates, and use them to communicate with multiple customers. 
+
+More information: [Configure an SMS channel for Twilio](Configure-sms-channel-twilio.md), [Configure an SMS channel for TeleSign](configure-sms-channel.md), [Configure an SMS channel using Azure Communication Services](configure-sms-channel-acs.md), [Create message templates](create-message-templates.md)
 
 ### Does the SMS channel automatically identify the customer?
 
@@ -236,7 +238,7 @@ Yes, Omnichannel system will automatically identify the customer based on the in
 
 ### Can we send automated SMS responses?
 
-There are Power Automate connectors from SMS providers that can be used for automated SMS responses. For example, [TeleSign](https://preview.flow.microsoft.com/connectors/shared_telesignsms/telesign-sms/) has a connector for these scenarios.
+Yes. In Omnichannel for Customer Service, you can send automated messages based on system-triggered or user-defined events. More information: [Configure outbound messaging](outbound-messaging.md)
 
 ### Is there anything unique about the way SMS messages are routed to agents?
 

@@ -13,14 +13,10 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The SMS channel in Omnichannel for Customer Service allows your organization to connect to customers via text messages. Your customers can send text messages and connect with an appropriate agent. Agents can view incoming SMS requests on their dashboard and respond accordingly. You can use the same phone number for the SMS channel, and for inbound and outbound calling in the voice channel.
+This article discusses how you can configure an SMS channel using Azure Communication Services.
 
 > [!NOTE]
-> - Outbound messaging using SMS is supported via Power Automate flow. More information: [Configure outbound messaging](outbound-messaging.md)
-> - Agent-initiated SMS isn't supported. 
-> - SMS isn't supported with Azure direct routing. More information: [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
-> - File attachments aren't supported in the SMS channel using Azure Communication Services.
-> - For best SMS delivery experience, we recommend that you submit a toll-free verification application for your toll-free numbers. More information: [How do I submit a toll-free verification?](/azure/communication-services/concepts/sms/sms-faq#toll-free-verification)
+> File attachments aren't supported in the SMS channel using Azure Communication Services. 
 
 ## Prerequisites
 
@@ -32,9 +28,9 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
    
     If you're using an existing phone number that's not enabled for SMS, then you can upgrade your plan. More information: [Edit phone numbers](voice-channel-manage-phone-numbers.md#edit-phone-numbers)
 
-## Configure a workstream for the SMS channel
+- Create a workstream for the SMS channel. More information: [Create a workstream for the SMS channel](create-workstreams.md)
 
-[Create a workstream for the SMS channel](create-workstreams.md), and then perform the following steps.
+## Configure a workstream for the SMS channel
 
 1. Go to the **Workstreams** page, and open the workstream that you created.
 2. In the **Set up your SMS channel** section, select **Set up SMS**, and then configure the following options.
@@ -64,7 +60,6 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 
 [Channels in Omnichannel for Customer Service](channels.md)  
 [Understand and create workstreams](create-workstreams.md)  
-[Create and manage routing rules](routing-rules.md)  
 [Configure SMS channel for Twilio](configure-sms-channel-twilio.md)  
 [Configure SMS channel for TeleSign](configure-sms-channel.md)  
 [Delete a configured channel](delete-channel.md)  
