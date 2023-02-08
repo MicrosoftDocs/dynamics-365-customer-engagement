@@ -1,12 +1,12 @@
 ---
-title: Overview of SMS channels #Required; page title displayed in search results. Don't enclose in quotation marks.
-description: This article gives an overview of the SMS channels and how you can configure them. #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
+title: Overview of SMS channels 
+description: This article gives an overview of the SMS channels and how you can configure them. 
 author: mh-jaya
 ms.author: v-jmh
-ms.reviewer: nenellim #Required; Microsoft alias of content publishing team member.
-ms.topic: overview #Required; don't change.
+ms.reviewer: nenellim 
+ms.topic: overview 
 ms.date: 02/08/2023
-ms.custom: bap-template #Required; don't change.
+ms.custom: bap-template 
 ---
 
 # What is the SMS channel?
@@ -19,7 +19,7 @@ For best SMS delivery experience, we recommend that you submit a toll-free verif
 
 ## Supported SMS channels
 
-Omnichannel for Customer Service lets you configure SMS channels as follows:
+In Omnichannel for Customer Service, you can configure the SMS channel as follows:
 - Configure SMS channel using Azure Communication Services
 - Configure SMS channel for Twilio
 - Configure SMS channel for TeleSign
