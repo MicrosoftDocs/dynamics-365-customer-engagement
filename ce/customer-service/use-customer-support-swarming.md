@@ -1,7 +1,7 @@
 ---
 title: "Customer support swarming for agents | MicrosoftDocs"
 description: "Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service."
-ms.date: 01/24/2023
+ms.date: 02/07/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -137,6 +137,9 @@ You can create notes that include specific details that appear in the swarm time
 2. Type a **Title** for the note.
 3. In the rich text editor, add details.
 4. When finished, select **Save and Close**.
+
+  > [!div class="mx-imgBorder"] 
+  > ![View of timeline swarm note.](media/swarm-timeline-note.png "Swarm note created on the timeline")
 
 ### Resolve a swarm session
 
