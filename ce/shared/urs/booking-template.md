@@ -53,7 +53,7 @@ Refresh the schedule board and bookings related to work order requirements will 
 > ![Screenshot of Custom booking visualization.](../../field-service/media/custom-booking-visualization.png) 
 
 
-> [Note!]
+> [!NOTE]
 > To avoid typing mistakes, go to **Customization** > **Entities** > **Bookable Resource Bookings** and copy the field names. Fields from the **Bookable Resource Booking** entity can be referenced directly using the field name in curly brackets. Example: **{duration}**.
 
 If you want to display a field from a linked entity, find the name of the N:1 relationship - for the work order entity, it's **msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder** - and add a period (.) followed by the field name of the target entity. For example, the primary incident type field on the work order has a schema name of **msdyn_primaryincidenttype**; simply add this after the relationship schema and enclose the whole string with curly brackets, as follows: 
