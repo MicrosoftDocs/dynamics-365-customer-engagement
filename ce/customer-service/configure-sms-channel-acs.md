@@ -38,7 +38,7 @@ This article discusses how you can configure an SMS channel using Azure Communic
      - [Configure custom automated messages](configure-automated-message.md).
      - [Configure post-conversation survey](configure-post-conversation-survey.md).
       > [!NOTE]
-      > File attachments aren't supported in the SMS channel using Azure Communication Services. 
+      > File attachments aren't supported in the SMS channel using Azure Communication Services. <br>
    4. Verify the settings on the **Summary** page, and then select **Finish**. The SMS channel is now configured.
 3. [Configure routing rules](configure-work-classification.md).
 4. [Configure work distribution](create-workstreams.md#configure-work-distribution).
