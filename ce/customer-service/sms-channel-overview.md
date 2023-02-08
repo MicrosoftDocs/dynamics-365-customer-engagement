@@ -1,5 +1,5 @@
 ---
-title: Overview of SMS channels template #Required; page title displayed in search results. Don't enclose in quotation marks.
+title: Overview of SMS channels #Required; page title displayed in search results. Don't enclose in quotation marks.
 description: This article gives an overview of the SMS channels and how you can configure them. #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
 author: mh-jaya
 ms.author: v-jmh
