@@ -1,8 +1,7 @@
 ---
 title: "Extend outbound marketing forms using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Extend outbound marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
-ms.date: 05/04/2021
-
+ms.date: 02/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -103,7 +102,7 @@ To add the JavaScript code, you need to follow the steps below:
 
 To add the code snippet, you need to follow the steps below:
 
-1. Navigate to the **Marketing** app and go to **Marketing forms** in **Outbound marketing** area
+1. Navigate to the **Marketing** app and go to **Marketing forms** in the **Outbound marketing** area
 2. Choose **New** to create a new marketing form.
 3. Select **Go live**.
 4. Select the **Form hosting** tab and under the **Available domains for form hosting**, select the domain if it is available, or select **+ Create new domain**.
