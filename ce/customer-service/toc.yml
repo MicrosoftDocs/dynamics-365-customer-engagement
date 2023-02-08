@@ -350,6 +350,8 @@
         href: create-manage-subject-tree.md
       - name: Enable case grids
         href: enable-case-grids.md
+      - name: Use Power Apps to customize the case management experience
+        href: add-enhanced-case-management.md
       - name: Configure components to display customer details and recent records
         href: add-display-components-to-case-form.md
     - name: Agent experience
