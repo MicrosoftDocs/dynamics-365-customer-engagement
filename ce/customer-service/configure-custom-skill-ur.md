@@ -35,27 +35,21 @@ The two scenarios in the following sections will help you understand how you can
 
 ### Use an existing system entity to model as a custom skill
 
-Customer creates a support ticket with Contoso Coffee for a product they are having issues with.
-
-In Customer Service, a case is created with “Product” as one of the fields. There could be thousands of product types (or values) such as Café A-100, Café A-200, and Smart Brew 300.
-
-The relationship between product and the product types already exists in your system.
-
-Contoso’s workforce is trained to handle queries on these “Products” and thus are “skilled” for that product. They can model "Product" as a skill and assign different product types as skills to different agents.
-
-Similarly, they can model more attributes as skills, and use custom skill match logic to find the right agents.
+- Customer creates a support ticket with Contoso Coffee for a product they are having issues with.
+- In Customer Service, a case is created with “Product” as one of the fields. There could be thousands of product types (or values) such as Café A-100, Café A-200, and Smart Brew 300.
+- The relationship between product and the product types already exists in your system.
+- Contoso’s workforce is trained to handle queries on these “Products” and thus are “skilled” for that product. They can model "Product" as a skill and assign different product types as skills to different agents.
+- Similarly, they can model more attributes as skills, and use custom skill match logic to find the right agents.
 
 ### Use a custom entity to model as a custom skill
 
-Contoso Coffee has configured “Operating market” as a custom entity in the live chat. Whenever a customer starts a chat with Contoso, the "Operated market” field gets auto populated with the customer’s location.
-
-The data for "Operating market" is maintained in Contoso and gets updated whenever they onboard a new market or update an existing one.
-
-Contoso’s workforce is trained for different “Operating markets” and are “skilled” to handle customer expectations and requirements for specific markets. Contoso can model "Operating market" as a custom skill and assign different markers as skills to their agents.
+- Contoso Coffee has configured “Operating market” as a custom entity in the live chat. Whenever a customer starts a chat with Contoso, the "Operated market” field gets auto populated with the customer’s location.
+- The data for "Operating market" is maintained in Contoso and gets updated whenever they onboard a new market or update an existing one.
+- Contoso’s workforce is trained for different “Operating markets” and are “skilled” to handle customer expectations and requirements for specific markets. Contoso can model "Operating market" as a custom skill and assign different markers as skills to their agents.
 
 ## How to model custom entities as skills and configure skill-based routing
 
-1. Sign in to [Power Apps](https://make.powerapps.com). 
+1. Sign in to [Power Apps](https://make.powerapps.com).
 1. Go to the **Default Solution** > **Tables**, and select **Characteristic**.
 1. Select **Columns** > **New column**.
 1. Enter data for the required boxes and ensure that you select the datatype as lookup.
