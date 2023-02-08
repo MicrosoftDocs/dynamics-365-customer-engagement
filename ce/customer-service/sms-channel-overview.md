@@ -15,8 +15,7 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 
 You can use the same phone number for the SMS channel, and for inbound and outbound calling in the voice channel. For best SMS delivery experience, we recommend that you submit a toll-free verification application for your toll-free numbers. More information: [How do I submit a toll-free verification?](/azure/communication-services/concepts/sms/sms-faq#toll-free-verification)
 
-> [!NOTE]
-> SMS isn't supported with Azure direct routing. More information: [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
+SMS is currently only available in US, Canada, and Puerto Rico. For detailed information about numbers and eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
 ## Supported SMS channels
 
@@ -25,7 +24,8 @@ Omnichannel for Customer Service lets you configure SMS channels as follows:
 - Configure SMS channel for Twilio
 - Configure SMS channel for TeleSign
 
-
+> [!NOTE]
+> SMS isn't supported with Azure direct routing. More information: [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
 
 ## Next steps
 
