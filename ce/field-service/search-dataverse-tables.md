@@ -48,13 +48,13 @@ The following tables are indexed by default:
 - msdyn_purchaseorder
 - msdyn_workorder
 
-Each of these tables has several commonly-used fields indexed. For example, *msdyn_customerasset* indexes *msdyn_name*, *msdyn_product*, and *msdyn_functionallocation*. To customize which fields are indexed for Dataverse search, edit the table's Quick Find View and add the fields to the "Find by..." section.
+Each of these tables has several commonly-used fields indexed. For example, *msdyn_customerasset* indexes *msdyn_name*, *msdyn_product*, and *msdyn_functionallocation*. To customize which fields are indexed for Dataverse search, edit the table's Quick Find View and add the fields to the **Find by...** section.
 
 ## Filter search results
 
 When searching in Field Service, users can refine search results using [personalized facets and filters](/power-apps/user/facets-and-filters). For more information about search options, see [Search for tables and rows by using Dataverse search](/power-apps/user/relevance-search).
 
-Fields and filters for each table are defined by admnistrators in a table's Quick Find View. For detailed instructions how define the fields that are available as filters, see [Select searchable fields and filters for each table](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
+Fields and filters for each table are defined by administrators in a table's Quick Find View. For detailed instructions how define the fields that are available as filters, see [Select searchable fields and filters for each table](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
 
 ## Next steps
 
