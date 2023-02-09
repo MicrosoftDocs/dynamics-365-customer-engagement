@@ -49,7 +49,7 @@ Rules that are partially identified or identified as ‘incompletely migrated’
 ### Are custom forms or fields supported by the migration tool?
 
 - **For ARC, yes.** The migration tool does support custom entities and custom fields, attributes, and configurations.
-- **For SLA, no.** Custom entities, fields, attributes, and configurations aren't fully supported by the migration tool. Users would need to modify any existing customization flows,workflows, plugins, or any other custom code on the custom entities, fields, attributes, and configurations to complete the migration.
+- **For SLA, no.** Custom entities, fields, attributes, and configurations aren't fully supported by the migration tool. Users would need to modify any existing customization flows, workflows, plugins, or any other custom code on the custom entities, fields, attributes, and configurations to complete the migration.
 
 ### Do I need a separate license for Power Automate before running migration?
 
