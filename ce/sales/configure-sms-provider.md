@@ -60,9 +60,6 @@ To set up the SMS provider (Twilio or TeleSign) sender number to Dynamics 365 Sa
 
 2.	From the tool bar, select **New**.
 
-    >[!NOTE]
-    >If there are no SMS providers configured in your organization, an empty page is displayed to configure the provider. Select **Add a provider**. 
-
 3.	Select the provider (Twilio or TeleSign). Accept the **Microsoft privacy statement** and the provider’s consent to handle opt-out commands properly. Then select **Next**.
 
     >[!NOTE]
