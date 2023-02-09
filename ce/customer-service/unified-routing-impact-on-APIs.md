@@ -49,7 +49,7 @@ This section describes how queue items and live work items are updated when you 
 - When automatic assignment routes the record and the record is assigned to the agent, then the **Worked By** field is set to the agent that's assigned in the queue item, the agent field in the live work item, and the owner field in the record. 
 
     > [!CAUTION]
-    > If you're running a custom script, flow or action that updates these three entities at the same time as the automatic assignment, then you might experience assignment errors. We recommend that you run any custom scripts or flows before or after the automatic assignment.
+    > If you run a custom script, flow, or action that updates the queue item, live work item, or record at the same time as the automatic assignment, then you might experience assignment errors. We recommend that you run any custom scripts or flows before or after the automatic assignment.
 
 ## What happens when you delete or deactivate a queue item
 
