@@ -4,7 +4,7 @@ description: "Learn how to configure channel providers using the app profile man
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 09/27/2022
+ms.date: 02/10/2023
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -75,10 +75,21 @@ More information:
   > The `Api Version` field is set to `2` when you navigate from the app profile manager.
 
 3. If you're using the app profile manager, add the channel provider to the app profile. If you're using Customer Service admin center, then select **Save & Close**.
-  
+
+## Deactivate or delete a channel provider
+
+1. In the site map of Customer Service admin center, select **Workspaces** in **Agent experience**. The **Workspaces** page opens.
+    
+2. Select **Manage** for **Third party voice channel provider**.
+    
+3. Select a provider from the **Active Channel Providers** list, and do one of the following:
+
+    - To deactivate the channel provider, select **Deactivate**. In the **Confirm Deactivation** dialog, select **Yes**. You can reactivate the channel later by selecting **Activate**.
+    - To delete the channel provider, select **Delete**. In the **Confirm Deletion** dialog, select **Yes** if you're sure you want to delete the channel provider. Note that you can't reactivate the channel provider after it's deleted.
+
 ### See also
 
-[App profile manager](../../../app-profile-manager/overview.md)  
+[Overview of agent experience](../../../app-profile-manager/overview.md)  
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)  
 [Microsoft.CIFramework.getEnvironment](../v2/reference/microsoft-ciframework/getEnvironment.md)  
 
