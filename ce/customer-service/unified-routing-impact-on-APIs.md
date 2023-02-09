@@ -17,10 +17,10 @@ After the record is routed to the queue, Omnichannel for Customer Service also c
 - the worker ID or agent assigned to the queue item
 - the state of the queue item, whether active or inactive
  
-When a record is picked up by the agent or assigned automatically to the agent, then unified routing:
-- updates the agent as the record owner
-- updates the agent in the live work item
-- updates the worker ID in the queue item
+Unified routing updates the following details when a record is automatically assigned to an agent or is picked by the agent:
+- Agent as the record owner
+- Agent in the live work item
+- Worker ID in the queue item
 
 Unified routing automatically synchronizes these updates from the queue item to the live work item, but not vice-versa. So, any updates from the live work item aren't automatically reflected in the queue item. If you'd like to make these updates manually, we recommend that you update only the queue item so that the live work item gets updated automatically by the unified routing engine. 
 
