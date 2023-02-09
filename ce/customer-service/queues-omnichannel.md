@@ -40,7 +40,7 @@ Assign a group number that helps you organize your queues in the list view. The 
 
 ## Create a queue for unified routing
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps:
+1. In Dynamics 365, go to one of the apps, and do the following steps:
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
    
@@ -57,7 +57,7 @@ Assign a group number that helps you organize your queues in the list view. The 
 
     - Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
 
-1. On the **Queues** page, perform the following steps:
+1. On the **Queues** page, do the following steps:
 
     1. Select **New**.
     2. In the **Create a queue** dialog, enter the following details:
