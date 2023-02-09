@@ -39,9 +39,6 @@ Queues can be useful in:
 ## Types of queues
 By default, a queue is created for each user and team in Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
 
-> [!NOTE]
-> You must manually add new Azure AD (Active Directory) team members to the team's default queue.
-
 You can use queues to prioritize your activities and cases, and categorize them based on:  
   
 - products or services  
@@ -57,9 +54,11 @@ You can create both basic and advanced queues (for unified routing). More inform
 Based on who can view the queues, you can create:
 
 - **Public queues** To let everyone in the organization view the queue and its work items
-- **Private queues** To let a small group of members view the queue and its work items. Private queues display work items for members of that queue and help remove clutter from other users' views. You must manually add new team members as members of private queues. Also, since private queues don't restrict access to the records they contain, to prevent access to sensitive data, ensure that you set up security models based on your organization needs. More information: [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md)
+- **Private queues** To let a small group of members view the queue and its work items. Private queues display work items for members of that queue and help remove clutter from other users' views. Since private queues don't restrict access to the records they contain, to prevent unauthorized access to sensitive data, ensure that you set up security models based on your organization needs. More information: [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md)
 
-
+> [!NOTE]
+> - You must manually add new team members as members of private queues.
+> - You must manually add new Azure AD (Active Directory) team members to the team's default queue.
 
 ## Prerequisites
 
