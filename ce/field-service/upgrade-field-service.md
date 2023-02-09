@@ -1,7 +1,7 @@
 ---
 title: Update apps and solutions
 description: Learn how to upgrade Dynamics 365 Field Service, mobile apps, and related solutions.
-ms.date: 02/03/2023
+ms.date: 02/09/2023
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
@@ -28,40 +28,14 @@ Multiple updates are released every year.
 
 ## Dynamics 365 Field Service
 
-The Field Service app will be updated automatically as part of the Dynamics 365 platform [One version](https://cloudblogs.microsoft.com/dynamics365/bdm/2018/07/06/modernizing-the-way-we-update-dynamics-365/) initiative. You can manually upgrade the app in the seven days between the update release and when the automatic update applies.
+The Field Service app [updates automatically as part of platform updates](/power-platform/admin/general-availability-deployment).
 
-Go to [https://admin.powerplatform.microsoft.com/environments](https://admin.powerplatform.microsoft.com/environments) and select the environment with the Field Service app you want to update. In the top ribbon, select **Resources** > **Dynamics 365 apps**.
+To manually update the app right after release, open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/environments) and select the environment with the Field Service app you want to update. In the top ribbon, select **Resources** > **Dynamics 365 apps**.
 
 Select the **Dynamics 365 Field Service** app and select **Update**. Updating the Field Service app also gets the latest version of other related solutions that are part of the Field Service app.
 :::image type="content" source="media/update-field-service-callouts.png" alt-text="Screenshot of the Dynamics 365 apps in Power Platform admin center.":::
 
-<!-- Before your organization updates to 8.8.6+ or later, you can manually apply updates by going to the Microsoft 365 Admin Center.
-
-Go to [https://admin.powerplatform.microsoft.com/environments](https://admin.powerplatform.microsoft.com/environments) and select the environment with the Field Service app you want to update. In the top ribbon, select **Resources** > **Dynamics 365 apps**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center_2.](./media/upgrade-fs-new-ppac.jpg)
-
-In the list of solutions, select **Dynamics 365 Field Service**. The status column shows if an update is available. Then select the **Update** in the top. Updating the Field Service app also gets the latest version of other related solutions that are part of the Field Service app.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of solutions in the admin center noting there's an upgrade available for Field Service.](./media/upgrade-fs-new-popup.jpg)
-
-
-
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of solutions.](./media/upgrade-solution-list.png)
-
-To understand what version of the Field Service solution is in your environment, look at the version of the solution named **FieldService_anchor**. 
-
-### Best practices
-
-1. Before upgrading your production instance of Field Service, make a copy of the production instance and upgrade the copy first. Then test your business processes to understand consequences and upgrade the actual production instance after.
-1. If your organization is using Project Service Automation along with Field Service, it is recommended to upgrade both at the same time or soon after each other due to shared functionality.
-1. Editing out-of-the-box web resources is unsupported and can cause issues after an update. You can use the [Solution Health Hub](troubleshoot-field-service-solution-health.md) to look for edited web resources. -->
+To find the version number of your Field Service app, review the details of the app under Dynamics 365 apps in the Power Platform admin center.
 
 ## Field Service (Dynamics 365) mobile app
 
@@ -93,7 +67,7 @@ If the diagnostic tool flags any web resources that should not have been edited,
 
 ### Updated Universal FetchXML (UFX) queries
 
-Occasionally, Universal Resource Scheduling releases include updates to the Universal FetchXML (UFX) queries. UFX queries control how resources and requirements are fetched and loaded on the schedule board or in schedule assistant results.
+Occasionally, Universal Resource Scheduling releases include updates to the Universal FetchXML (UFX) queries. UFX queries control how the system fetches resources and requirements.
 
 It's possible to customize UFX queries based on your specific needs. If a UFX query has been edited, updates will import the latest UFX query, but **won't apply it automatically**. Add your customizations to the new UFX query and apply them manually from the [schedule board settings](schedule-board-tab-settings.md). Consider using GitHub for version control to understand the differences between the old XML file with your custom queries and the updated XML file.
 
