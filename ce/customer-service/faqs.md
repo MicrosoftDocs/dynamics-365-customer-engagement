@@ -52,7 +52,7 @@ If you would like to try out Chat for Dynamics 365 for free, sign up for a trial
 
 ### In which apps can I use Chat for Dynamics 365?
 
-You can use Chat in the Omnichannel for Customer Service and Customer Service Workspace apps.
+You can use Chat in the Omnichannel for Customer Service and Customer Service workspace apps.
 
 ### Can I work on cases along with chats?
 
