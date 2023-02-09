@@ -13,9 +13,9 @@ search.app:
 
 # Get early access updates to preview features
 
-New Dynamics 365 Field Service capabilities are often available as a preview before they are generally available. Preview features are not intended for production usage as they may be changed before becoming generally available. By installing and learning preview features, you can better prepare for how your business can adopt them when they are generally available.
+New Dynamics 365 Field Service capabilities are often available as a preview before they're generally available. Preview features aren't intended for production usage as they may be changed before becoming generally available. Try preview features to prepare for how your business can adopt them when they're generally available.
 
-All preview features are available as part of early access updates. For more information, [learn more about opting into early access](/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
+All preview features are available to your organization as part of early access updates. For more information, [learn more about opting into early access](/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
 
 > [!NOTE]
 > Early access features usually come with preview documentation. We'll append `(Preview)` to article titles and feature references.
