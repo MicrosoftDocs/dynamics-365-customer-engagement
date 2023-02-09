@@ -30,7 +30,7 @@ Realtime forms are consisting of two part - so called form placeholder, which lo
   data-cached-form-url='https://{server}.dynamics.com/{organizationid}/digitalassets/forms/{msdynmkt_marketingformid}' >
 </div>
 ```
-And form loader that lights up the form placeholders:
+And form loader that lights up the form placeholders once page is loaded (`DOMContentLoaded` event is triggered)
 ```
 <script src='https://cxppusa1formui01cdnsa01-endpoint.azureedge.net/global/FormLoader/FormLoader.bundle.js'></script>
 ```
@@ -73,6 +73,25 @@ You can customize the form behavior by including configuration script before the
  </script>
 ``` 
 
+### Rendering marketing form via javascript api
+It can be inconvenient to wait for `DOMContentLoaded` - especially for scenarios like dynamic content loading. For this situations you can use the `createForm` helper function. `createForm` returns dom element `div` - which is returned immediatelly and triggers fetching of form content on background (the form is injected into placeholder the moment it is fetched).   
+
+```HTML
+<html>
+  <body>
+    <script src="https://cxpiusa1formui01cdnsa01-endpoint.azureedge.net/global/FormLoader/FormLoader.bundle.js"></script>
+    <div id="root"></div>
+    <script>
+      const root = document.getElementById('root');
+      root.appendChild(d365mktforms.createForm(
+        'formId',
+        'formSubmitUrl',
+        'formUrl'));
+    </script>
+  </body>
+</html>
+```
+
 ### Injecting marketing form into react application
 You can use marketing forms within your react application. The form loader exposes `d365mktforms.FormPlaceholder` react component that you can inject into your application. 
 
@@ -102,7 +121,6 @@ You can use marketing forms within your react application. The form loader expos
 > | data-form-id | formId |
 > | data-submit-form-url | formSubmitUrl |
 > | data-cached-form-url | formUrl |
-
 
 > [!NOTE]
 > The Javascript API is available only for forms hosted as a script, it is not supported for the iframe hosting option.  
