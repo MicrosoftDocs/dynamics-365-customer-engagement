@@ -1,7 +1,7 @@
 ---
 title: "Migration tool FAQ | MicrosoftDocs"
 description: "Migration tool FAQ for  Automatic record creation rules and service-level agreement items"
-ms.date: 02/03/2023
+ms.date: 02/09/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,11 +15,15 @@ ms.reviewer: nenellim
 
 ### Who can access or run the migration tool?
 
-Currently, only administrators can run the migration tool.
+Administrators and users with CSR manager roles can run the migration tool.
 
 ### Are migrated rules automatically activated post-migration?
 
 No. You must manually activate the migrated rules when migration is complete.
+
+### Can I still use my legacy rules after the deprecation deadline?
+
+Yes, any active legacy rules after the deprecation deadline will still run until they are deactivated. However, supportability and editing experience will stop after deprecation.
 
 ### Can I activate a rule with an incomplete migration status?
 
@@ -73,7 +77,7 @@ Yes, you can rerun the migration tool for a specific migrated rule based on the 
   
 If you have an active rule with rule items, you will see two flows, one with name **ARC | rule name** and another with name **ARC: rule item name**. These flows get automatically turned on whenever you activate a rule. The ARC rule works only when these two flows are turned on.
 
-For any inactive ARC rule, you will see only one flow with the name **ARC: rule item name**. You won't see **ARC | rule name**, as this flow is created during rule activation on the flow. Even if you do see duplicate flows with name **ARC | rule name** for the same rule, it won't cause any rule item issue. This is because even though they have the same name, only one of these flows is actually associated with the ARC rule and only that flow will be invoked during run time.
+For any inactive ARC rule, you will see only one flow with the name **ARC: rule item name**. You won't see **ARC | rule name**, as this flow is created during rule activation. Even if you do see duplicate flows with name **ARC | rule name** for the same rule, it won't cause any rule item issue. This is because even though they have the same name, only one of these flows is actually associated with the ARC rule and only that flow will be invoked during run time.
 
 ### What does the flow ARC | rule name do and can I customize it?
 
@@ -97,11 +101,7 @@ No, this won't affect runtime or create duplicate cases. The flow with name **AR
 
 ### Can I turn off or on ARC flows directly in the Power Automate portal?  
 
-It isn't recommended to turn off or on any ARC flows directly in the Power Automate portal. It is recommended to activate or deactivate the rule from Dataverse.
-
-### Can I still use my legacy rules after the deprecation deadline?
-
-Yes, any active legacy rules after the deprecation deadline will still run until they are deactivated. However, supportability and editing experience will stop after deprecation.
+No, you mustn't turn off or on any ARC flows directly in the Power Automate portal. You must enable or disable ARC flows only from Microsoft Dataverse.
 
 ## Known condition conversion issues
 
