@@ -1,7 +1,7 @@
 ---
 title: Predictive work duration reports (Preview)
 description: Learn about using predictive work duration reports in Dynamics 365 Field Service.
-ms.date: 01/17/2023
+ms.date: 02/09/2023
 ms.reviewer: mhart
 ms.topic: conceptual
 ms.custom: bap-template
@@ -14,7 +14,7 @@ search.app:
 
 # Predictive work duration reports (Preview)
 
-Dispatchers often assign a fixed duration for a job type, despite various factors that may impact the time required to complete the work. Using a fixed duration can potentially cause cascading delays or lower utilization, reducing the overall effectiveness of scheduling.
+Dispatchers often assign a fixed duration for a job type, despite various factors that may have an effect on the time required to complete the work. Using a fixed duration can potentially cause cascading delays or lower utilization, reducing the overall effectiveness of scheduling.
 
 With predictive work duration, dispatchers can predict the duration of a booking or requirement, based on various factors.
 
@@ -59,7 +59,7 @@ You'll find the upcoming work duration report under **Resources** > **Analytics 
 | Label | Description |
 | ------ | -------------|
 | **Scheduled bookings** | Shows a list of scheduled bookings, with information and prediction factors for each. |
-| **Unscheduled requirements** | Shows a list of requirements that have not been scheduled, with information and prediction factors for each. | 
+| **Unscheduled requirements** | Shows a list of requirements that haven't been scheduled, with information and prediction factors for each. | 
 
 ### Metrics
 
@@ -93,7 +93,7 @@ From the upcoming work duration report, you'll see another tab, where you can fi
 | **Number of bookings** | Shows number of completed bookings. | 
 | **Overestimated bookings** | Shows number of bookings that are overestimated compared with actual duration. | 
 | **Underestimated bookings** | Shows number of bookings that are underestimated compared with actual duration. | 
-| **Overall proficiency score**	| Overall Al proficiency across all territories |
+| **Overall proficiency score**	| Overall proficiency across all territories |
 
 ### Charts
 
@@ -141,5 +141,10 @@ The final report can be found under **Resource duration**.
 | **Proficiency score** | A score indicating the likelihood of completing a booking within the estimated duration. A higher score indicates a high likelihood of completing a booking within the estimated duration and a lower score indicates vice-versa. |
 | **Confidence**  | How likely the proficiency score calculated from the samples is close to the true proficiency score. A higher score indicates the proficiency score being closer to the truth and a lower score indicates the proficiency score being farther away from the truth.   |
 | **Proficiency factors** | Summary of factors such as incident types, service accounts, day of week, and skills and rating match that contribute to the efficiency score. |
+
+[!## Next steps
+
+- [Reports overview](reports.md)
+- [Optimization summary report](rso-optimization-summary-report.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

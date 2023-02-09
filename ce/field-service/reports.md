@@ -6,13 +6,13 @@ ms.author: feiqiu
 ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.topic: overview 
-ms.date: 01/11/2023
+ms.date: 02/09/2023
 ms.custom: bap-template 
 ---
 
 # Reports overview
 
-Reports are a collections of charts and visuals, built with Microsoft Power BI. They are based on a data set to get a quick view into core metrics. Resource and operations managers can monitor key operational metrics to gauge the performance of resources and their scheduling strategy. Reports can help explore important business-related questions, such as:
+Reports are a collection of charts and visuals, built with Microsoft Power BI. They're based on a data set to get a quick view into core metrics. Resource and operations managers can monitor key operational metrics to gauge the performance of resources and their scheduling strategy. Reports can help explore important business-related questions, such as:
 
 - Are my resources being utilized efficiently over a given time period?
 - What is the average discrepancy between estimated and actual completion times for tasks and work orders?
@@ -28,7 +28,7 @@ Dynamics 365 Field Service and the Resource Scheduling Optimization add-in provi
 1. The [Optimization summary report](rso-optimization-summary-report.md), included with the Resource Scheduling Optimization add-in.
 1. [Predictive work duration (preview)](analytics-predictive-work-duration.md) with the upcoming work duration and the territory duration reports in Field Service.
 
-Other than editing filters and drill down, the reports aren't configurable or customizable.
+Other than editing filters and drill-down, the reports aren't configurable or customizable.
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ Reports are only available to users with **System Administrator** or **Field Ser
 
 The system refreshes the reports automatically once a day (every 24 hours). The report shows a time stamp in the top right corner when it was last updated.
 
-A warning icon next to the time stamp on the report indicates a delay or an issue with the data refresh. If the data has not been refreshed in the last 24 hours, you'll see a tooltip message when you hover over the icon. Contact your system administrator to investigate or open a support ticket if the issue persists.
+A warning icon next to the time stamp on the report indicates a delay or an issue with the data refresh. Contact your system administrator to investigate or open a support ticket if the issue persists.
 
 The system pauses the data refresh for reports that aren't opened for two weeks. When a user opens the report again, data will get refreshed in the next refresh cycle.
 
@@ -93,36 +93,36 @@ Now the **Field Service - Dispatcher** can see the corresponding report.
 
 ## Data model
 
-The system uses the following list of entities to generate reports. If there is no data for any of the below entities, then the report or parts of it may show blank. If you have customized these entities or don't use the default entities, reports will show blank too.
+The system uses the following list of entities to generate reports. If there's no data or you've customized these entities any of the below entities, parts of it may show blank.
 
 Field Service entities:
 
-- bookableresource
-- bookableresourcebooking
-- msdyn_resourcerequirement
-- territory
-- calendarrule
-- bookableresourcegroup
-- bookingstatus
-- msdyn_bookingtimestamp
-- organization
+- *bookableresource*
+- *bookableresourcebooking*
+- *msdyn_resourcerequirement*
+- *territory*
+- *calendarrule*
+- *bookableresourcegroup*
+- *bookingstatus*
+- *msdyn_bookingtimestamp*
+- *organization*
 
 Resource Scheduling Optimization entities:
 
-- resource
-- bookableresource
-- territory
-- bookableresourcebooking
-- msdyn_optimizationrequestbooking
-- msdyn_resourcerequirement
-- msdyn_priority
-- msdyn_routingoptimizationrequest
-- msdyn_routingprofileconfiguration
-- calendar
-- calendarrule
-- bookableresourcegroup
-- bookingstatus
-- organization
+- *resource*
+- *bookableresource*
+- *territory*
+- *bookableresourcebooking*
+- *msdyn_optimizationrequestbooking*
+- *msdyn_resourcerequirement*
+- *msdyn_priority*
+- *msdyn_routingoptimizationrequest*
+- *msdyn_routingprofileconfiguration*
+- *calendar*
+- *calendarrule*
+- *bookableresourcegroup*
+- *bookingstatus*
+- *organization*
 
 ## Next steps
 

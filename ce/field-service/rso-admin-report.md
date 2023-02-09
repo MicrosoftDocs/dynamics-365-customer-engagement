@@ -7,11 +7,8 @@ ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.subservice: resource-scheduling-optimization
 ms.topic: conceptual 
-ms.date: 01/17/2023
+ms.date: 02/09/2023
 ms.custom: bap-template
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 search.app: 
   - D365CE
   - D365FS
@@ -53,15 +50,5 @@ Number of failed optimization requests in the selected schedule requests.
 
 - [Learn about other reports](reports.md)
 - [Create an optimization schedule](rso-optimization-schedule.md)
-
-<!--
-| Visuals |	Description | 
-| --- | --- |
-| Optimization Scope: Number of bookings |	The average number of bookings in given schedule requests.  |
-| Optimization Scope: Number of requirements |	The average number of requirements in given schedule requests. |
-| Optimization Scope: Number of resources |	The average number of schedulable resources in given schedule requests. |
-|Optimization E2E time |	This metric defines the optimization execution time. |
-| Number of failed optimization requests |	The number of failed optimization requests in the given schedule requests. |
--->
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
