@@ -1682,7 +1682,7 @@
             href: ../app-profile-manager/reference/microsoft-apm/close.md
           - name: focus
             href: ../app-profile-manager/reference/microsoft-apm/focus.md
-            - name: requestFocus
+          - name: requestFocus
             href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md
         - name: Properties
           items:                           
