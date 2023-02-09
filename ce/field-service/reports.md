@@ -69,7 +69,6 @@ By default, only administrators have access to the resource duration report. Adm
 1. Select the Read privilege for a report entity.
 
     - Resource duration (preview) - predictive duration report
-    <!-- - Resource analytics (preview) -->
     - Predictive duration (preview) - predictive duration report
     - Field Service historical analytics - work order summary report
     - Resource scheduling historical analytics - admin and optimization summary report

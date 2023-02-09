@@ -1,7 +1,7 @@
 ---
 title: "Manage context variables | MicrosoftDocs"
 description: "Use this article to understand how you can add context variables and then configure them in Omnichannel for Customer Service."
-ms.date: 08/30/2022
+ms.date: 02/02/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -39,7 +39,7 @@ This article lists the considerations to use context variables and how you can c
      - In the **Service Management** area, select **Workstreams** in **Unified Routing**, and then open a workstream from the list.
      
 2. Select **Add context variable** in the **Advanced settings** section of a workstream.
-3. In the **Edit** pane, select **Add**, and enter **Name**. Make sure that the variable name is less than or equal to 200 characters.
+3. In the **Edit** pane, select **Add**, and enter **Name**. Make sure that the variable name is less than or equal to 100 characters.
 4. Select the **Type** of variable from the dropdown list. You can choose either **Text** or **Number**.
 5. Repeat steps 3 and 4 to create the required variables.
 

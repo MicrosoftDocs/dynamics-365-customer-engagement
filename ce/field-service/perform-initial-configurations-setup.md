@@ -2,12 +2,10 @@
 title: "Perform initial configurations (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about how to perform initial configurations for Dynamics 365 Field Service.
 ms.date: 11/30/2022
-ms.reviewer: mhart
 
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-ms.manager: shellyhaverkamp
 search.app: 
   - D365CE
   - D365FS

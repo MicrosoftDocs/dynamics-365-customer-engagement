@@ -5,10 +5,6 @@ ms.date: 01/17/2023
 ms.reviewer: mhart
 ms.topic: conceptual
 ms.custom: bap-template
-
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: FeifeiQiu
 ms.author: feiqiu
 search.app: 

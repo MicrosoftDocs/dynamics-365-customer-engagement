@@ -2,7 +2,6 @@
 title: "Run resource scheduling optimization as a simulation in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn how to run resource scheduling optimization as a simulation in Dynamics 365 Field Service
 ms.date: 07/17/2020
-ms.reviewer: mhart
 
 ms.subservice: resource-scheduling-optimization
 ms.topic: article
@@ -11,7 +10,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: FeifeiQiu
 ms.author: feiqiu
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

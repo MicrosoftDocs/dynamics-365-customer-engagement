@@ -74,6 +74,8 @@ items:
       href: set-up-service-task-types.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
+    - name: Customer asset validation
+      href: asset-validation.md
       
 - name: Work orders
   items:
@@ -85,6 +87,8 @@ items:
       href: work-order-status-booking-status.md
     - name: Add account details to a work order
       href: work-order-customer-account.md
+    - name: Travel charges
+      href: travel-charges.md
     - name: Knowledge articles
       href: field-service-knowledge-management.md
     - name: Collaborate on work orders with Microsoft Teams
@@ -104,7 +108,28 @@ items:
     - name: Work order completion surveys
       href: work-order-surveys.md
 
-- name: Bookable resources
+- name: Customers
+  items:
+    - name: Customer accounts
+      href: accounts.md
+    - name: Assets
+      items: 
+      - name: Configure customer assets
+        href: assets.md
+      - name: 3D asset models
+        href: 3D-viewer.md
+      - name: Build a service history
+        href: service-history.md
+      - name: Create functional locations
+        href: functional-locations.md
+      - name: Properties
+        items:
+        - name: Create properties and property templates
+          href: properties.md
+        - name: Property logs
+          href: property-logs.md
+
+- name: Frontline workers + bookable resources
   items:
     - name: Set up frontline workers
       href: frontline-worker-set-up.md
@@ -208,56 +233,10 @@ items:
           - name: Next-generation schedule board experience
             href: preview-schedule-board.md
 
-- name: Agreements and preventive maintenance
-  items:
-    - name: Agreements
-      href: set-up-customer-agreements.md
-    - name: Service level agreements
-      href: sla-work-orders.md
-    - name: Entitlements
-      href: work-order-entitlements.md
-
-- name: Asset servicing
-  items:
-    - name: Customer assets
-      href: configure-set-up-customer-assets.md
-    - name: Functional location
-      href: assets-functional-location.md
-    - name: Asset properties
-      href: asset-properties.md
-    - name: 3D asset models
-      href: 3D-viewer.md
-
-- name: Inventory and purchasing
-  items:
-    - name: Overview
-      href: inventory-purchasing-returns-overview.md
-    - name: Warehouses
-      href: create-warehouse.md
-    - name: Create a purchase order
-      href: create-purchase-order.md
-    - name: Process a return
-      href: process-return.md
-    - name: Manual inventory journals
-      href: manual-inventory-journals.md
-
-- name: Self-service capabilities for your customers
-  items: 
-    - name: Customer experience homepages
-      href: field-service-portal-homepage.md
-    - name: Self-scheduling for customers
-      href: scheduling-self-customers.md
-    - name: Send technician arrival time and current map location
-      href: reminders-arrival-time.md
-
 - name: Mobile app
   items: 
-    - name: Implement and adopt the mobile app
-      href: mobile-2020-power-platform.md
     - name: Overview
       href: mobile-power-app-overview.md
-    - name: System requirements
-      href: mobile-power-app-system-requirements.md
     - name: Install and setup
       href: mobile-power-app-get-started.md
     - name: Use the mobile app
@@ -312,17 +291,6 @@ items:
       href: set-up-agreement-sub-statuses.md
     - name: Entitlements
       href: work-order-entitlements.md
-
-- name: Asset servicing
-  items:
-    - name: Customer assets
-      href: configure-set-up-customer-assets.md
-    - name: Functional location
-      href: assets-functional-location.md
-    - name: Asset properties
-      href: asset-properties.md
-    - name: 3D asset models
-      href: 3D-viewer.md
 
 - name: Inventory and purchasing
   items:

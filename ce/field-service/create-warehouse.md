@@ -2,11 +2,9 @@
 title: Create a warehouse to track inventory
 description: Learn how to create a warehouse in Dynamics 365 Field Service.
 ms.date: 09/23/2022
-ms.reviewer: mhart
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
