@@ -10,10 +10,10 @@ manager: shujoshi
 
 # Engage with customers through text messages
 
-Sending and receiving text messages (SMS) is an effective way for sellers to reach out to potential customers as it is fast, convenient, and allows for quick responses. Also, sellers use SMS to stay in touch with their customers, by responding to questions or concerns, and providing updates and information on products/services.  
-Now, Dynamics 365 Sales enables your sellers to send and receive text messages (SMS) to communicate with customers through the SMS feature. Also, sellers can refer to their past communication in context without leaving the application or losing their view of their customers' details.   
+Sending and receiving text messages through SMS is an effective way for sellers to reach out to potential customers as it is fast, convenient, and allows for quick responses. Sellers use SMS to stay in touch with their customers, by responding to questions or concerns, and providing updates and information on products/services.  
+Dynamics 365 Sales enables your sellers to send and receive SMS from customers through the text message feature. Also, sellers can refer to their past communication in context without leaving the application or losing their view of their customers' details.   
 
-In the sequences, the SMS can be included as a step to send reminders or updates about key events. 
+In the sequences, SMS can be included as a step to send reminders or updates about key events. 
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -27,20 +27,20 @@ Depending on your role, you can use the text message feature as described in the
 
 -	System administrator or similar role:
     -	Configure the SMS provider in your organization for sellers to use. More information: [Configure SMS provider](configure-sms-provider.md)
-    -	Assign or remove phone numbers to users. More information: [Edit phone numbers](edit-phone-numbers.md)
+    -	Assign or remove phone numbers of users. More information: [Edit phone numbers](edit-phone-numbers.md)
 - 	Sales manager, seller, or any other similar role: 
     -	Choose a service provider to send and receive SMS. More information: [Understand the conversation pane](manage-text-message-communications.md#understand-the-conversation-pane)
     -	Add text message and automated text message as steps in a sequence. More information: [Send a text message](steps-sequence.md#send-a-text-message) and [Send an automated text message](steps-sequence.md#send-an-automated-text-message)
     -	Create and add SMS templates. More information: [Personalize text messages through templates](create-text-message-templates.md)
-    -	Send SMS from the Sales Accelerator workspace or the Up next widget. More information: [Send a text message to customers](connect-with-customers.md#send-a-text-message-to-customers)
+    -	Send SMS from the Sales accelerator workspace or the Up next widget. More information: [Send a text message to customers](connect-with-customers.md#send-a-text-message-to-customers)
     -	Access past SMS interactions in context with relevant sales records such as, lead and opportunity. More information: [Manage text message communication](manage-text-message-communications.md)
 
 ## Permissions required 
 
-Review the following permissions required to use the SMS feature:
+Verify that the users who need to use the text message feature have the following permissions.
 
 >[!NOTE]
->When Sales accelerator is enabled and security role are added to access Sales accelerator, no additional permission are required to using SMS features. To provide permissions in Sales accelerator, see [Sales accelerator first-run setup](enable-configure-sales-accelerator.md#first-run-setup) 
+>If you’ve already enabled Sales accelerator and provided access to the required security roles, no additional permissions are required for the SMS feature. To provide permissions in Sales accelerator, see [Sales accelerator first-run setup](enable-configure-sales-accelerator.md#first-run-setup) 
 
 **For Salesperson or similar role**:<a name="salesperson-roles-sms-feature"></a>
 

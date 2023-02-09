@@ -10,17 +10,15 @@ manager: shujoshi
 
 # Edit phone numbers
 
-Edit phone numbers by assigning, or removing users who are no longer working in your organization or moved to a different team. 
+Edit phone numbers to assign them to new users or to remove users who are no longer working in your organization or have moved to a different team. 
 
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System administrator<br> More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
+| **Security roles** | System administrator or Sales manager<br> More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
 
 ## How to edit the phone numbers
-
-You can edit phone numbers by assigning users or removing users who are no longer working in your team or moved to a different organization. 
 
 1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App Settings** > **SMS providers**.
 
@@ -35,7 +33,7 @@ You can edit phone numbers by assigning users or removing users who are no longe
 
     The Phone number pane opens. 
 
-5. In the **Owner** field, remove the existing user and use the lookup to add new users or teams accordingly.  
+5. In the **Owner** field, remove the existing user and use the lookup to add new user or team accordingly.  
 
 6. Select **Update**.
 

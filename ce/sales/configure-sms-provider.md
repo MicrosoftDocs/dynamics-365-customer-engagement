@@ -20,8 +20,8 @@ This article explains how to set up the SMS service provider (Twilio and TeleSig
 
 ## Prerequisites
 
-Before you configure the SMS provider, do the following things:   
--	Verify that the SMS channel is enabled in your organization. If not enabled, the SMS channel not enabled message is displayed while configuring the SMS provider. Select Activate. 
+Before you configure the SMS provider, do the following actions:   
+-	Verify whether the SMS channel is enabled in your organization. If it's not enabled, you’ll see a message while configuring the SMS provider. Select **Activate**. 
 -	Get a subscription with phone number for either Twilio or TeleSign to send and receive text messages. 
     -	To get the Twilio account, see [Sign up for and configure a Twilio account](#sign-up-for-and-configure-a-twilio-account)
     -	To get the TeleSign account, see [Sign up for and configure a TeleSign account](#sign-up-for-and-configure-a-telesign-account)   
@@ -66,7 +66,7 @@ To set up the SMS provider (Twilio or TeleSign) sender number to Dynamics 365 Sa
 3.	Select the provider (Twilio or TeleSign). Accept the **Microsoft privacy statement** and the provider’s consent to handle opt-out commands properly. Then select **Next**.
 
     >[!NOTE]
-    >Providing of consent is displayed only while configuring a provider for the first time.  Once accepted, the options to provide consent are not displayed.
+    >The prompt for providing of consent is displayed only while configuring a provider for the first time.  Once accepted, the options to provide consent are not displayed.
 
 4.	On the **Set up provider** page, enter the values depending on the provider you’ve selected. Then select **Next**.
 
@@ -96,7 +96,7 @@ To set up the SMS provider (Twilio or TeleSign) sender number to Dynamics 365 Sa
 
 6.	On the **Add phone number** pane, enter the following details:
 
-    -	**Phone number**: Specify the SMS number that you purchased from Teilio or TeleSign in the <*country_code*><*phone_number*> format, for example, 12345678910. Make sure that you don't enter blank spaces or special characters.
+    -	**Phone number**: Specify the SMS number that you purchased from Twilio or TeleSign in the <*country_code*><*phone_number*> format, for example, 12345678910. Make sure that you don't enter blank spaces or special characters.
     
     >[!NOTE]
     >The phone number should be unique for Dynamics 365 Sales. Don’t include the numbers that were used to configure message feature in the other Dynamics 365 apps. 
@@ -125,6 +125,6 @@ To set up the SMS provider (Twilio or TeleSign) sender number to Dynamics 365 Sa
 
 ### See also
 
-[Engage with customers through text messages](sms-intro.md)
+[Engage with customers through text messages](sms-intro.md)   
 [Edit phone numbers](edit-phone-numbers.md)
 
