@@ -37,7 +37,7 @@ Queues can be useful in:
 - Sorting tasks by type, or by people assigned to complete them.  
   
 ## Types of queues
-By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
+By default, a queue is created for each user and team in Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
 
 You can use queues to prioritize your activities and cases, and categorize them based on:  
   

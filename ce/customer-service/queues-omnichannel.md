@@ -31,10 +31,10 @@ In an enterprise scenario, you can have various supervisors handling different i
 To simplify the routing experience for administrators and supervisors, queues are categorized based on the channel types as follows:
 
 - **Messaging**: To route all messaging conversations pertaining to the live chat, SMS, and social channels.
-- **Records**: To route work items pertaining to case or email records
+- **Records**: To route work items pertaining to records, such as cases and emails.
 - **Voice**: To route calls made to support phone numbers listed on the customer portal.
 
-The queue types allow issues to be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that are available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues will be shown for selection. Similarly, you can transfer a chat conversation only to a messaging queue, and a case only to a records queue.
+The queue types allow issues to be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that are available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues will be shown for selection. Similarly, you can transfer a chat conversation only to a messaging queue, and a case only to a record queue.
 
 Assign a group number that helps you organize your queues in the list view. The group number won't affect the priority of the queue or incoming conversations.
 
