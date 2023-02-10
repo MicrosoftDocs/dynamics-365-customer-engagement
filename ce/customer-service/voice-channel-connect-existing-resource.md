@@ -45,8 +45,8 @@ Before you connect an existing Azure resource to Azure Communication Services, y
    - **ACS Resource Name**: Enter the resource name.
    - **ACS Resource ID**: Enter the resource ID.
    - **Connection string**: Enter the connection string.
-   - **Event grid app ID**: Enter the application (client) ID.
-   - **Event grid app tenant ID**: Enter the tenant (directory) ID.
+   - **Event grid app id**: Enter the application (client) ID.
+   - **Event grid app tenant id**: Enter the tenant (directory) ID.
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
