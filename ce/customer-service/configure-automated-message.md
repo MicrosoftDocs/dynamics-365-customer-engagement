@@ -61,7 +61,7 @@ You can customize messages across instances within a channel. For example, you c
 
 ## Customize automated messages at the channel instance level
 
-You can customize automated messages at the channel instance level. For example, you can apply a change to a specific Facebook account, a specific SMS number, and so on. If you don't create customized automated messages at the channel instance level, each instance will inherit the channel-level settings. If you create customized automated messages at the channel instance level, then the channel-level settings are overwritten.
+You can customize automated messages at the channel instance level. For example, you can apply a change to a specific Facebook account or a specific SMS number. If you don't create customized automated messages at the channel instance level, each instance will inherit the channel-level settings. If you create customized automated messages at the channel instance level, then the channel-level settings are overwritten.
 
 ### Add custom automated messages in Customer Service admin center or Omnichannel admin center
 
@@ -80,7 +80,7 @@ Do the following for the channel in which you want to create custom automated me
 | **Message trigger** | **Definition** | **When to trigger** |
 |-----------------|------------|-----------------|
 | Agent assigned to a conversation | Message displayed to the customer when the agent is assigned to the conversation | When the agent is assigned to the conversation. |
-| Agent couldn’t be assigned to conversation   | Message displayed to the customer when agent assignment fails | When work distribution fails (for example, no agents are linked to the queue, or the default queue isn't found) or when routing is unable to add the agent to the chat due to system (CBB/IC3) failure. <br>**Note**<br> This trigger is not applicable to the scenario when a matching agent can't be identified based on the assignment configuration. |
+| Agent couldn’t be assigned to conversation   | Message displayed to the customer when agent assignment fails | When work distribution fails (for example, no agents are linked to the queue, or the default queue isn't found) or when routing is unable to add the agent to the chat due to system (CBB/IC3) failure. <br>**Note**<br> This trigger isn't applicable to a scenario when a matching agent can't be identified based on the assignment configuration. |
 | Agent disconnected from conversation | Message displayed to the customer when the agent gets disconnected | When the agent gets disconnected due to browser tab closure, browser closure, offline agent presence, or network issue.  |
 | Agent ended conversation | Message displayed to the customer when the agent ends the conversation | When the agent selects the End button |
 | Agent joined conversation | Message displayed to the customer when the agent joins a conversation | When the agent accepts the notification. |
