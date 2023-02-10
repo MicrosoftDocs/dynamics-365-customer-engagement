@@ -93,8 +93,6 @@ items:
       href: field-service-knowledge-management.md
     - name: Collaborate on work orders with Microsoft Teams
       href: field-service-teams-collaboration.md
-    - name: Work order summary reports
-      href: reports.md
     - name: Inspections
       items:
         - name: Create and view inspections
@@ -105,8 +103,6 @@ items:
           href: inspections-reporting.md
         - name: Use inspections without work orders
           href: inspections-customer-assets.md
-    - name: Predictive work duration and resource proficiency suggestions (Preview)
-      href: analytics-predictive-work-duration.md
     - name: Capture resolution details
       href: work-order-resolutions.md
     - name: Work order completion surveys
@@ -309,6 +305,21 @@ items:
     - name: Manual inventory journals
       href: manual-inventory-journals.md
 
+- name: Reports
+  items:
+    - name: Reports overview
+      href: reports.md
+    - name: Work order summary report
+      href: work-order-summary-report.md
+    - name: Resource and utilization report
+      href: resource-utilization-report.md
+    - name: Optimization summary report
+      href: rso-optimization-summary-report.md
+    - name: Admin report
+      href: rso-admin-report.md
+    - name: Predictive work duration (Preview)
+      href: analytics-predictive-work-duration.md
+
 - name: Field Service for end customers
   items: 
     - name: Customer experience homepages
@@ -421,8 +432,6 @@ items:
       href: booking-lock-options.md
     - name: Resolving conflicts for bookings
       href: rso-handling-resolving-booking-conflicts.md
-    - name: Analytics dashboard
-      href: scheduling-analytics-reports.md
 
 - name: Integrations
   items:

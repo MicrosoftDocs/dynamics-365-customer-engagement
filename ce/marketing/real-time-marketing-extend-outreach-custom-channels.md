@@ -1,7 +1,7 @@
 ---
 title: "Manually add a custom channel (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to extend your outreach by manually adding a custom channel in Dynamics 365 Marketing."
-ms.date: 12/21/2022
+ms.date: 02/06/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -19,19 +19,19 @@ search.app:
 
 # Manually add a custom channel
 
-Marketing currently offers three types of native channels: **Email**, **Push** and **SMS**. To create a different type or channel or use an SMS provider that isn't supported natively, you need to develop and install a custom channel solution. 
+Marketing currently offers three types of native channels: **Email**, **Push** and **SMS**. To create a different type or channel or use an SMS provider that isn't supported natively, you need to develop and install a custom channel solution.
 
 ## Custom channel structure
 
 Custom channels can be implemented as part of a Dataverse solution. The steps and actions required to create a custom channel are listed below:
 
-1.	[Define your extended configuration entity for the channel instance](real-time-marketing-define-custom-channel-instance.md)
-1.	[Define your extended configuration entity for the channel instance account](real-time-marketing-define-channel-instance-account.md) (SMS only)
-1.	[Define your message parts](real-time-marketing-custom-channel-message-parts.md) (solution-aware component)
-1.	[Define your localization for the admin interface](real-time-marketing-custom-channel-localization-admin.md) (optional)
-1.	[Define your message editor interface](real-time-marketing-custom-channel-message-editor.md) (optional)
-1.	[Define your custom APIs](real-time-marketing-custom-channel-custom-api.md)
-1.	[Define your channel definition](real-time-marketing-define-channel-definition.md) (solution-aware component)
+1. [Define your extended configuration entity for the channel instance](real-time-marketing-define-custom-channel-instance.md)
+1. [Define your extended configuration entity for the channel instance account](real-time-marketing-define-channel-instance-account.md) (SMS only)
+1. [Define your message parts](real-time-marketing-custom-channel-message-parts.md) (solution-aware component)
+1. [Define your localization for the admin interface](real-time-marketing-custom-channel-localization-admin.md) (optional)
+1. [Define your message editor interface](real-time-marketing-custom-channel-message-editor.md) (optional)
+1. [Define your custom APIs](real-time-marketing-custom-channel-custom-api.md)
+1. [Define your channel definition](real-time-marketing-define-channel-definition.md) (solution-aware component)
 
 Marketing already provides base components for the custom channel creation: the **required entities** like msdyn_chaneldefinition, msdyn_channelmessagepart, msdyn_channelocale, msdyn_channelinstanceaccout and msdyn_channelinstance. Along with the entity metadata, it provides **Custom APIs** that should be called from your custom solution’s plugins in order to proxy the data to Dataverse.
 
