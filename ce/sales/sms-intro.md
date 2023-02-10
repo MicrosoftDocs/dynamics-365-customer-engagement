@@ -54,7 +54,7 @@ Verify that the users who need to use the text message feature have the followin
 | Custom Entities | Text message template | Business Unit | - Create<br>- Write<br>- Read<br>- Delete |
 | Custom Entities | Transcript | User | - Create<br>- Write<br>- Delete<br>- Append<br>- Append To |
 
-**For Sales Manager, Sequence Manage, or similar role**:
+**For Sales Manager, Sequence Manager, or similar role**:
 
 The following roles are required along with the roles defined in the [Salesperson section](#salesperson-roles-sms-feature):
 
