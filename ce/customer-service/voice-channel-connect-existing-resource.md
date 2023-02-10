@@ -37,7 +37,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
         1. In the site map, under **Customer support**, select **Channels**.
         2. To the right of **Phone numbers**, select **Manage**.
 
-    - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.<!-- EDITOR'S NOTE: Omnichannel admin center has been deprecated. Please note that or remove the Omnichannel admin center instructions. -->
+    - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
 
 1. Select **Use existing resource**.
 
