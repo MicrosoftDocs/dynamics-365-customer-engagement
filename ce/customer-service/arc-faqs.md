@@ -14,7 +14,7 @@ ms.reviewer: nenellim
 
 The following section provides answers to questions about  automatic record creation and activity monitor.
 
-## What are the scenarios in which the rule skips creating records automatically?
+### What are the scenarios in which the rule skips creating records automatically?
 
 The automatic record creation rule doesn't create records in the following scenarios:
 
