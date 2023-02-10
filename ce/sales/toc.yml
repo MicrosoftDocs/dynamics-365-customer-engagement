@@ -241,16 +241,8 @@
               href: pls-add-widget.md
     - name: Opportunity management
       items:
-        - name: Set up deal manager
-          items:
-            - name: Deal manager workspace
-              href: deal-manager-overview.md
-            - name: Enable/disable the deal manager workspace
-              href: enable-deal-manager-preview.md
-            - name: Grant or restrict access to deal manager
-              href: grant-access-deal-manager.md
-            - name: Customize the deal manager workspace
-              href: customize-deal-manager.md
+        - name: Configure the opportunity pipeline view
+          href: opportunity-pipeline-view-for-admins.md
         - name: Enable customization of the Opportunity Close form
           href: enable-opportunity-close-customization.md
         - name: Customize the Opportunity Close form
@@ -739,14 +731,12 @@
           href: focused-view.md               
         - name: Prioritize opportunities using predictive scores
           href: work-predictive-opportunity-scoring.md
-        - name: Manage opportunities using deal manager
+        - name: Opportunity pipeline view
           items:
-            - name: Deal manager workspace overview
-              href: deal-manager-seller-overview.md
-            - name: Access the deal manager workspace
-              href: access-deal-manager.md
-            - name: Personalize the deal manager workspace
-              href: personalize-deal-manager.md
+            - name: Manage opportunities using opportunity pipeline view
+              href: use-opportunity-pipeline-view.md
+            - name: Personalize the opportunity pipeline view
+              href: personalize-pipeline-view.md
         - name: Work with opportunities in the Kanban view
           href: opportunity-kanban-view.md
         - name: Price calculation for opportunity, quote, order, and invoice records
@@ -868,7 +858,11 @@
               href: track-playbook-activities.md
     - name: Relationship intelligence
       items:
-        - name: View customer activity history
+        - name: Relationship analytics and KPIs overview
+          href: relationship-analytics-overview.md
+        - name: Relationship analytics KPI calculations
+          href: relationship-analytics-kpi-calculations.md
+        - name: View relationship analytics and KPIs
           href: relationship-analytics.md
         - name: Get introduced to leads and contacts
           href: who-knows-whom.md
