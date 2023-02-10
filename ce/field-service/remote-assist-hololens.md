@@ -178,11 +178,9 @@ Technicians can:
   > [!div class="mx-imgBorder"]
   > ![Screenshot of Dynamics 365 Remote Assist on HoloLens, showing the option to change the status of the booking.](./media/remote-assist-field-service-bookings-status-HL.png)
 
-
 ### Set up Field Service for the HoloLens
 
-1. Ensure you're using Field Service v8.2 or later. [Upgrade](./upgrade-field-service.md#field-service) your solution if necessary. 
-2. Confirm the **My Bookings for Today** view on the **Bookable Resource Booking** entity is included:
+1. Confirm the **My Bookings for Today** view on the **Bookable Resource Booking** entity is included:
 
      - Go to **Field Service** > **Settings** > **Customizations** > **Customize the System**.
 
@@ -194,7 +192,7 @@ Technicians can:
 > [!Note]
 > Fields can be added to this view if necessary for your business needs.
 
-3. Create and schedule a work order.
+1. Create and schedule a work order.
 
      - The booking will not appear in the Dynamics 365 pane in Dynamics 365 Remote Assist unless the booking status is **In progress** and the related bookable resource has a user record that matches the HoloLens user.
 

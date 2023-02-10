@@ -1,6 +1,6 @@
 ---
 title: Deploy Resource Scheduling Optimization for Dynamics 365 Field Service
-description: Learn how to deploy Resource Scheduling Optimization for Dynamics 365 Field Service
+description: Learn how to deploy and manage the deployment for  the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
 ms.date: 02/03/2023
 ms.topic: how-to
 ms.custom: bap-template
@@ -48,8 +48,6 @@ After the initial deployment, you can manage the deployed instance.
    :::image type="content" source="media/rso-upgrade-manage-powerapps-admin.png" alt-text="Screenshot of Resource Scheduling Optimization in Power Platform admin center.":::
 
 1. Choose one of the following options:
-
-   :::image type="content" source="media/upgrade-rso-upgrade-to-new-version.png" alt-text="Screenshot of the Manage Resource Scheduling Optimization instance page.":::
 
    - Select **Upgrade to new version** to get the latest version. This option only shows if a newer version is available.
 
