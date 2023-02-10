@@ -65,7 +65,7 @@ To enable call recording and SMS services, you must first configure your applica
 > [!IMPORTANT]
 >
 > - You can only set one web hook endpoint at a time using the following procedure. To enable both SMS and call recording services, you must perform the procedure two times to set a web hook endpoint for each service.
-> - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To quickly get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-IDs-from-the-power-apps-portal).
+> - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To quickly get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-ids-from-the-power-apps-portal).
 
 1. Open the **Event Grid System Topics** service on the Azure portal.
 
