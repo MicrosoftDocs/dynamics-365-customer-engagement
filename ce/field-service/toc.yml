@@ -39,7 +39,7 @@ items:
   items:
     - name: Install Field Service
       href: install-field-service.md
-    - name: Upgrade Field Service
+    - name: Update Field Service
       href: upgrade-field-service.md
     - name: Uninstall Field Service
       href: uninstall-field-service.md
