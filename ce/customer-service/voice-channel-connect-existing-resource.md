@@ -124,9 +124,12 @@ To enable call recording and SMS services, you must first configure your applica
 #### Get event grid app and tenant IDs from the Power Apps portal
 
 1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
+
 1. In the site map, select **Dataverse** > **Tables** > **All**.
-3. Search for the **Communication Provider Setting Entry** table and open it.
-4. In the **Communication Provider Setting Entry columns and data** section, view the **EventGridAppID** and **EventGripAppTenantID** fields in the **Key** column, and note down the corresponding ID values from the **Values** column.
+
+1. Search for the **Communication Provider Setting Entry** table and open it.
+
+1. In the **Communication Provider Setting Entry columns and data** section, view the **EventGridAppID** and **EventGripAppTenantID** fields in the **Key** column, and note down the corresponding ID values from the **Values** column.
 
 #### Get the subscriber endpoint for recording
 
