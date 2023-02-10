@@ -1,16 +1,14 @@
 ---
 title: "Understand the sequence stats page"
 description: "View and understand the sequence's success rate and the state of records that are connected. "
-ms.date: 12/10/2021
+ms.date: 02/10/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
 
-# Preview: Understand the sequence stats page
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Understand the sequence stats page
 
 The stats about sequences provide insights on the performance of a sequence, such as success rate and the state of records that are connected. The data helps you view the sequences that are doing better and emerging with high conversion rates. 
 
@@ -30,7 +28,7 @@ By default, the users with sales manager and sequence manager roles can view the
 ## View the sequence stats page
 
 >[!NOTE]
->-	Verify that an administrator has enabled the sales acceleration reporting preview in your organization. More information: [Sequence reporting](customize-sales-accelerator-sellers.md#enable-sales-accelerator-reports)
+>-	Verify that an administrator has enabled the sales acceleration reporting in your organization. More information: [Sequence reporting](customize-sales-accelerator-sellers.md#enable-sales-accelerator-reports)
 >-	After an administrator enables reporting, the application might take up to 24 hours to display data on the stats page for the first time. Subsequently, data in the stats page is refreshed every four hours. 
 
 **To view the sequence stats**

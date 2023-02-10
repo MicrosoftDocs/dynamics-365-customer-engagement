@@ -1,6 +1,6 @@
 ---
 title: "Personalize text messages through templates"
-description: "Personalize the text messages (SMS) by inserting placeholders in your template for the specific information that will be different for each recipient."
+description: "Personalize the text messages (SMS) by inserting placeholders in your template for the specific information that is different for each recipient."
 ms.date: 02/10/2023
 ms.topic: how to
 author: udaykirang
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Personalize text messages through templates
 
-Personalize the text messages (SMS) by inserting placeholders in your template for the specific information that will be different for each recipient. The placeholders will then dynamically populate values such as customer name, appointment time, location, or any other unique data.
+Personalize the text messages (SMS) by inserting placeholders in your template for the specific information that is different for each recipient. The placeholders then dynamically populate values such as customer name, appointment time, location, or any other unique data.
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -66,7 +66,7 @@ Dynamic text replaces a placeholder entity with the value of the entity when you
 
 3.	(Optional) In the **Display name** field, enter a display name for the placeholder. By default, the name is displayed as entity type field name. For example, when you select the Account Name field from the Account entity, the display name is **AccountAccountName**.
 
-4.	(Optional) In the **Default value** field, enter a default value. When there is no value available for the placeholder field, the default value is added to the message.
+4.	(Optional) In the **Default value** field, enter a default value. When there's no value available for the placeholder field, the default value is added to the message.
 
 5.	Select **Save**.
 

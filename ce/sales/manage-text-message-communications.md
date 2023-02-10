@@ -55,7 +55,8 @@ You can only view conversations if the outbound phone number or record is assign
     
     1. Go to the **Activities** grid and select **Conversation** > **My text messages** from the view selector.       
         A list of conversation that is related you is displayed.        
-    1. Double-click the conversation and the conversation pane opens on the right-side of the page.  
+    1. Double-click a conversation.   
+        The conversation pane opens on the right-side of the page.  
         
 - **Record**: 
     
@@ -76,9 +77,8 @@ You can only view conversations if the outbound phone number or record is assign
 
 - **Sales accelerator workspace**:
 
-    Open the text message step from the **Upnext** widget or the work list item. More information: [Send a text message to customers](connect-with-customers.md#send-a-text-message-to-customers)  
+    Open the text message step from the **Up next** widget or the work list item. More information: [Send a text message to customers](connect-with-customers.md#send-a-text-message-to-customers)  
     
-
 ## Understand the conversation pane
 
 The conversation pane is where you, as a seller, interact with your customer. You can do the following tasks through the conversation pane:
@@ -91,7 +91,7 @@ The following image is an example of the conversation pane.
 
 :::image type="content" source="media/sms-inbound-communication-pane.png" alt-text="Screenshot of the text message communication page." lightbox="media/sms-inbound-communication-pane.png":::
 
-1. **Related conversation to the selected phone number**: This option is available only for contact and opportunity records. When you open a contact, the drop-down will display a list of opportunities that are related to this contact. You can choose an option from the list to view the history and manage conversations related to that record.   
+1. **Related conversation to the selected phone number**: This option is available only for contact and opportunity records. When you open a contact, the drop-down displays a list of opportunities that are related to this contact. You can choose an option from the list to view the history and manage conversations related to that record.   
 
 2. **Manage templates**: Choose templates to send personalized messages to customers. Also, you can choose to create templates if any of the existing templates doesn't meet your requirements. More information: [Personalize text messages through templates](create-text-message-templates.md)  
 

@@ -24,10 +24,12 @@ View and understand the report for sales acceleration to get a broad overview of
 Sales acceleration reporting gives you a broad overview of the sequences related to leads and opportunities in your organization. The reports use AI to provide insights into which sequences are doing better and emerging with the most successful conversion rates. Also, you can analyze metrics and key performance indicators (KPIs) to identify areas for improvement that might have the greatest effect on sales growth.
 
 >[!NOTE]
+>- Sales acceleration reporting is not available on Government Community Cloud (GCC).
+>- The sales acceleration reporting is not supported on mobile devices.  
 >- After your administrator enables reporting, the application might take up to 24 hours to display the data in the reports. When the reports are being provisioned for the first time, the following message is displayed:   
 >![Your reports are being provisioned, please allow up to 24 hours for the process to complete.](media/sa-sequence-reporting-provisioning-message.png "Reports provisioning message")   
 >Subsequently, the reports are refreshed every 24 hours. You can view the last updated date on the upper-right corner of the page.
->- The sales acceleration reporting is not supported on mobile devices.  
+
 
 ## Who can view the reporting page?
 
