@@ -61,7 +61,7 @@ For a guided walkthrough, check out the following video.
 4. Update customizations to point to your new PCF template by going to **Customize the System** > **Bookable Resource Booking** > **Forms** > **Reporting** > **ReportView**. Under **Properties**, you'll see your newly named report, which should be enabled for web, phone, and tablet. 
 
 > [!NOTE]
-> The PCF Report control includes resources files for multiple languages but only declares English (1033). If alternate languages are required, the ControlManifest must be updated to declare the desired language for localization.
+> The PCF Report control includes resource files for multiple languages but only declares English (1033). For other languages, update the ControlManifest to declare the desired language for localization.
 
 ## Generate reports from mobile
 
