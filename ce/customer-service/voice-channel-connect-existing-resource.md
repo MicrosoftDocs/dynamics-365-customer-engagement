@@ -25,7 +25,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
   - You've [disconnected from the Azure resource](voice-channel-disconnect-from-acs.md).
 - Get the name and ID of your Azure resource from the Azure portal > **Settings** > **Properties**.
 - [Get the connection string of your Azure resource](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints).
-- [Get the application (client) ID and tenant (directory) ID for your registered app](#get-application-and-tenant-ids).
+- [Get the application (client) ID and tenant (directory) ID for your registered app](#get-application-and-tenant-ids-from-the-azure-portal).
 - Confirm that you have [permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns).
 
 ## Connect using an existing Azure resource
@@ -65,7 +65,7 @@ To enable call recording and SMS services, you must first configure your applica
 > [!IMPORTANT]
 >
 > - You can only set one web hook endpoint at a time using the following procedure. To enable both SMS and call recording services, you must perform the procedure two times to set a web hook endpoint for each service.
-> - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To quickly get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-IDs-from-the-Power-Apps-portal).
+> - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To quickly get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-IDs-from-the-power-apps-portal).
 
 1. Open the **Event Grid System Topics** service on the Azure portal.
 
