@@ -1,7 +1,7 @@
 ---
 title: Connect using an existing Azure resource
-description: Use this article to understand how to connect to Azure Communication Services using an existing Azure resource.
-ms.date: 01/16/2023
+description: Learn how to connect your voice and SMS channels to Azure Communication Services using an existing Azure resource.
+ms.date: 02/14/2023
 ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
@@ -13,7 +13,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-You can use an existing Azure resource from any of your Azure subscriptions, *available under any tenant*, to connect with voice or SMS channels. If you had previously disconnected a resource and want to use it now, you can do so using this option.
+You can connect your voice or SMS channels to Azure Communication Services using an existing Azure resource from any of your Azure subscriptions, *available under any tenant*. If you disconnected a resource and want to use it now, you can do so using this option.
 
 ## Prerequisites
 
@@ -59,12 +59,12 @@ So, to enable call recording and SMS services, you must configure your applicati
 
 > [!IMPORTANT]
 > - You can only set one web hook endpoint at a time using the following procedure, so if you'd like to enable both SMS and call recording services, you must run the procedure two times to set the respective web hook endpoints.
-> - When you connect your event subscription, you must use the same application ID and directory ID for the app registration as you did when you first connected to your Azure resource. To check which app ID and directory ID you used, select the filter icon in the top right and search for communication provider setting entries.
+> - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To quickly get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from Power Apps portal](#get-event-grid-app-and-tenant-IDs-from-Power-Apps-portal).
 
 1. Open the **Event Grid System Topics** service on the Azure portal.
 2. Create and deploy an event grid system topic. More information: [Create a system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic)
 3. On the **Event Grid System Topic** page that's created, select the **Subscription** link.
-4. In the resource subscription page, select **Settings** > **Resource providers**, and then check if the **Microsoft.EventGrid** provider is listed as **Registered**. If the event grid is not registered, select the record, and then select **Re-register** to register it.
+4. In the resource subscription page, select **Settings** > **Resource providers**, and then check if the **Microsoft.EventGrid** provider is listed as **Registered**. If the event grid isn't registered, select the record, and then select **Re-register** to register it.
 5. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 6. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
     - **Name**: Enter a name for the recording event subscription.
@@ -90,7 +90,7 @@ So, to enable call recording and SMS services, you must configure your applicati
 
 For information about enabling call recording and transcription for a voice workstream in Omnichannel for Customer Service, see [Configure call recording and transcription](voice-channel-configure-transcripts.md).
 
-#### Get application and tenant IDs
+#### Get application and tenant IDs from the Azure portal
 
 1. Open the **App registrations** page on the Azure portal in a separate window or tab.
     If you're registering your app on the Azure portal for the first time, then do the following.
@@ -100,6 +100,13 @@ For information about enabling call recording and transcription for a voice work
     2. Select **Register**.
 2. Select the value of the **Application (client) ID** field, select the **Copy to clipboard** button, and then note the value.
 3. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value.
+
+#### Get event grid app and tenant IDs from Power Apps portal
+
+1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
+1. In the site map, select **Dataverse** > **Tables** > **All**.
+3. Search for the **Communication Provider Setting Entry** table and open it.
+4. In the **Communication Provider Setting Entry columns and data** section, view the **EventGridAppID** and **EventGripAppTenantID** fields in the **Key** column, and note down the corresponding ID values from the **Values** column.
 
 #### Get the subscriber endpoint for recording
 
@@ -112,9 +119,9 @@ For information about enabling call recording and transcription for a voice work
    
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-   In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**. 
-2. In the **Phone numbers** page that opens, select a phone number, and then select **Advanced**.
-3. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint** and note the value.
+    1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**. 
+    2. In the **Phone numbers** page that opens, select a phone number, and then select **Advanced**.
+    3. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint** and note the value.
 
 #### Get the subscriber endpoint for SMS
 
@@ -127,6 +134,7 @@ For information about enabling call recording and transcription for a voice work
    In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
 2. In the **Phone numbers** page that opens, select a phone number, and then select **Advanced**.
 3. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint** and note the value.
+
 
 ## Next steps
 
