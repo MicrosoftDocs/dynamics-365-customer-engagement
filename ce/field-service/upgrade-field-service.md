@@ -1,7 +1,7 @@
 ---
 title: Update apps and solutions
 description: Learn how to upgrade Dynamics 365 Field Service, mobile apps, and related solutions.
-ms.date: 02/09/2023
+ms.date: 02/10/2023
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
@@ -46,24 +46,6 @@ If you can't enable automatic updates, regularly check for updates in the app st
 ## Universal Resource Scheduling
 
 [Universal Resource Scheduling](universal-resource-scheduling.md) powers the scheduling capabilities in Field Service and other Dynamics 365 apps. You automatically get the latest version with updates for the Dynamics 365 app.
-
-<!-- However, before upgrading Resource Scheduling consider:
-
-1. Running the Resource Scheduling: Service Health Diagnostics
-2. Planning for updated Universal FetchXML (UFX) queries on the schedule board and schedule assistant.
-
-### Run Resource Scheduling: Service Health Diagnostics
-
-Before upgrading, run the **Resource Scheduling: Service Health Diagnostics** tool to understand if any critical web resources or JavaScript files were edited. If so, they will get skipped during upgrade, which could cause functional issues and missed functionality. 
-
-Go to **Resource Scheduling app** > **Settings** > **Administration** > **Scheduling Parameters**
-
-Then select **Health Diagnostics** in the top ribbon.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of resource scheduling health diagnostics.](./media/upgrade-rs-health-diagnostics.png)
-
-If the diagnostic tool flags any web resources that should not have been edited, you will need to remove the customizations from the web resources and then run the upgrade. Not all customized web resources will be flagged by this tool, only the ones that could have critical impact. -->
 
 ### Updated Universal FetchXML (UFX) queries
 
