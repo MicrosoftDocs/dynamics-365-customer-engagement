@@ -1754,7 +1754,7 @@
       href: faq-customer-service-admin-center.md
     - name: FAQ about unified routing
       href: unified-routing-faqs.md
-    - name: FAQ about automation record creation and activity monitor
+    - name: FAQ about automatic record creation
       href: arc-faqs.md        
     - name: FAQ about AI suggestions for cases and knowledge articles
       href: csw-faqs-ai-suggestions.md
