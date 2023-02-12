@@ -4,6 +4,12 @@
 
 - The new schedule board is now the default for all organizations, and the legacy schedule board is [officially deprecated](../../common-scheduler/deprecations.md). The setting to enable the new schedule board on the schedule board settings page has been removed, and replaced with a solution setting. You can still manually [enable the legacy schedule board](../../field-service/configure-schedule-board.md#enable-the-legacy-schedule-board) by changing the solution setting.
 
+## 3.12.96.38
+
+(Includes Resource Scheduling controls version 1.2.36.230171).
+
+- This release fixes the create/update booking failures with orgs running custom plugins to create/update bookings.  FS/URS 1.1 release has a platform feature xMultiple enabled for Booking entity in URS OOB plugin.  With xMultiple enabled, orgs with custom single operation plugins (using PrimaryEntityId property to create/update bookings) installed will see failures with booking creation or update.  The issue was due to lazy evaluation of the property PrimaryEntityId, which was incorrectly evaluated as empty GUID in the xMultiple plugin, running before the single operation custom plugin.  This release contains the workaround to not evaluate the property PrimaryEntityId if plugin is a multiple operations plugin.
+
 ## 3.12.96.25
 
 (Includes Resource Scheduling controls version 1.2.36.230171).
