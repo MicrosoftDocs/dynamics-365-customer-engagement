@@ -1,7 +1,7 @@
 ---
 title: "searchAndOpenRecords (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes reference information such as description, syntax, and parameters for the searchAndOpenRecords method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0. "
-ms.date: 12/09/2022
+ms.date: 02/14/2023
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -39,15 +39,15 @@ When you set the `searchOnly` parameter to `true`, the contact entity records ar
 When you set `searchOnly` to `false`, the contact entity records are searched and the record is opened. Set the `searchOnly` to `false` when you want the search to display a single record based on the search context. If `searchOnly` parameter is set to `false`, it will open the search page if the search result has multiple records and populate the search page with the tag value mentioned when the search field is used in `queryParameters`.
 
 > [!Note]
-> You must enable relevance search to be able to use it. If relevance search is not enabled, then the search will be performed based on category. More information: [Configure Dataverse search](/power-platform/admin/configure-relevance-search-organization)
+> You must enable relevance search to be able to use it. If relevance search isn't enabled, then the search will be performed based on category. More information: [Configure Dataverse search](/power-platform/admin/configure-relevance-search-organization)
 
 ## Return value
 
 Returns a Promise object of type String. On success, the method returns the search results as per the search query. 
 
 > [!Note]
-> You can fetch a maximum of 5000 records at once (if more than 5000 records exist). You can narrow down the results by using query options such as $filter, $select, and $top in the method parameters as shown in the [Examples](#examples) section. More information: [Query options overview](/odata/concepts/queryoptions-overview)
-
+> - You can fetch a maximum of 5000 records at once (if more than 5000 records exist). You can narrow down the results by using query options such as $filter, $select, and $top in the method parameters as shown in the [Examples](#examples) section. More information: [Query options overview](/odata/concepts/queryoptions-overview)
+> - If the search result has multiple records, only records for account and contact entity are opened.
 
 
 
@@ -76,10 +76,10 @@ then(
 
 ### Search and display on the list of contact records
 
-This sample code searches and displays the name and phone number of Contact entity records whose first name is **Contoso**. Using `$search` we can make sure that the search results page is populated with the search term **Contoso**.
+This sample code searches and displays the name and phone number of Contact entity records whose first name is **Contoso**. Using `$search`, you can make sure that the search results page is populated with the search term **Contoso**.
 
 > [!NOTE]
-> If you are using `$search` in the query and the `searchOnly` parameter is set to `false`, it will always open the search results page and not the retrieved record. If you want to open the retrieved record, do not use `$search` parameter in the query.
+> If you're using `$search` in the query and the `searchOnly` parameter is set to `false`, it'll always open the search results page and not the retrieved record. If you want to open the retrieved record, don't use `$search` parameter in the query.
 
 ```JavaScript
 
