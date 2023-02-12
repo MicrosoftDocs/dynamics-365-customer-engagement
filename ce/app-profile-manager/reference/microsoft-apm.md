@@ -10,9 +10,6 @@ ms.topic: reference
 
 # App profile manager JavaScript API Reference
 
-
-## Introduction
-
 The app profile manager JavaScript API Reference includes methods and properties to manage tabs and sessions in Customer Service workspace.
 
 ## Prerequisite
