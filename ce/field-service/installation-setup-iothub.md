@@ -64,7 +64,7 @@ Before proceeding, ensure the overall deployment status shows **Success**.
 
 1. On the **New IoT Provider Instance** page, fill out the field:
    - **Name**: Enter the name of the resource group in Azure where you deployed IoT resources.
-   - **IoT Provider**: [Choose or create the IoT Pprovider for IoT Hub](cfs-provider-iot-hub.md).
+   - **IoT Provider**: [Choose or create the IoT provider for IoT Hub](cfs-provider-iot-hub.md).
    - **Provider Instance Id**: Enter the name of the IoT Hub resource that was deployed to your resource group in Azure.
    - **URL**: Enter the URL of the overview for the resource group in the Azure portal. Example: `https://portal.azure.com/[tenant_id]/subscriptions/[subscription_id]/resourceGroups/[resource_group_name]/overview`.
 
