@@ -24624,6 +24624,16 @@
       "source_path": "ce/field-service/scheduling-analytics-reports.md",
       "redirect_url": "/dynamics365/field-service/reports",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/appsource-addins.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-dynamics365-government.md",
+      "redirect_url": "/power-platform/admin/government-feature-availability",
+      "redirect_document_id": "false"
     }
   ]
 }
