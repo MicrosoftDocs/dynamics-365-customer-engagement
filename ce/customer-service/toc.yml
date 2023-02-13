@@ -998,8 +998,8 @@
         href: configure-intraday-dashboard-supervisor.md
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
-    - name: Enable supervisor settings
-      items:
+      - name: Enable supervisor settings
+        items:
         - name: Provide access to Ongoing Conversations dashboard
           href: configure-ongoing-conversations-dashbaord.md
         - name: Enable your supervisors to monitor, assign, transfer, and forcibly end conversations
@@ -1008,7 +1008,6 @@
         href: enable-sentiment-analysis.md
       - name: Configure Omnichannel Insights dashboards
         href: configure-historical-sentiment-dashboard-supervisor.md
-      
     - name: Supervisor experience
       items: 
       - name: Historical analytics reports in Customer Service
