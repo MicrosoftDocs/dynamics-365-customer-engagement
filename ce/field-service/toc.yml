@@ -349,6 +349,8 @@ items:
             href: developer/connected-field-service-developer-guide.md
           - name: Prerequisites for Azure subscription
             href: cfs-azure-subscription.md
+          - name: Create Iot provider for IoT Hub
+            href: cfs-provider-iot-hub.md
           - name: Installation
             href: installation-setup-iothub.md
           - name: Register IoT devices
