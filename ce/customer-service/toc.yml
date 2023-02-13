@@ -228,7 +228,7 @@
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing for unified routing
           href: set-up-skill-based-routing.md
-        - name: Configure skill-based routing using existing data
+        - name: Model entities as skills
           href: model-entities-as-skills-ur.md
       - name: Use sentiment prediction-based routing
         href: use-sentiment-prediction-for-routing.md
