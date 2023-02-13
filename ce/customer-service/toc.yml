@@ -956,9 +956,9 @@
       href: cs-analytics-service-limits.md
     - name: Administrator experience
       items: 
-      - name: Configure analytics and insights dashboards
+      - name: Manage analytics and insights dashboards
         items:
-        - name: Overview of analytics and dashboards
+        - name: Configure analytics and dashboards
           href: configure-customer-service-analytics-insights-csh.md
         - name: Configure Customer Service historical analytics
           href: configure-cs-historical-analytics-csh.md
