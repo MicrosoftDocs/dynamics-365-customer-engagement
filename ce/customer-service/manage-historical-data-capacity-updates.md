@@ -1,6 +1,6 @@
 ---
 title: Manage historical data of capacity updates for agents
-description: Learn how to manage historical data of capacity updates for agents.
+description: Learn how to efficiently manage historical data of capacity updates against capacity profiles for agents.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -17,11 +17,11 @@ We recommend that you periodically delete the historical data to manage the stor
 
 ## Delete historical data for capacity updates
 
-1. Perform the steps in [Capacity page details](/power-platform/admin/capacity-storage#capacity-page-details) to view the storage consumption.
-1. If the storage consumed is 50-60% of the total capacity, you can do the following:
-   1. Move the data to a different data store if you want to retain it.
+1. Use the steps in [Capacity page details](/power-platform/admin/capacity-storage#capacity-page-details) to view the storage consumption.
+1. If the storage consumed is 50-60% of the total capacity, you can do the following actions:
+   1. Consider moving the data to a different data store if you want to keep it.
    1. Delete it from Dataverse for Apps Database Capacity.
-1. Perform the steps in [Use bulk deletion to remove large amounts of data](/power-platform/admin/delete-bulk-records) to delete the historical data stored in the [msdyn_agentcapacityupdatehistory](developer/reference/entities/msdyn_agentcapacityupdatehistory.md) entity.
+1. Use the steps in [Use bulk deletion to remove large amounts of data](/power-platform/admin/delete-bulk-records) to delete the historical data stored in the [msdyn_agentcapacityupdatehistory](developer/reference/entities/msdyn_agentcapacityupdatehistory.md) entity.
 
 > [!CAUTION]
 > Delete operations are irreversible and therefore we recommend that you verify and ensure the data isn't required before you run the delete job.
