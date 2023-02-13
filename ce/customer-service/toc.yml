@@ -957,7 +957,9 @@
     - name: Administrator experience
       items: 
       - name: Configure analytics and insights dashboards
-        href: configure-customer-service-analytics-insights-csh.md
+        items:
+        - name: Configure analytics and insights dashboards
+          href: configure-customer-service-analytics-insights-csh.md
           - name: Configure Customer Service historical analytics
             href: configure-cs-historical-analytics-csh.md
           - name: Configure Omnichannel historical analytics
@@ -966,14 +968,14 @@
             href: enable-knowledge-search-insights.md
           - name: Configure Omnichannel real-time analytics
             href: enable-realtime-analytics-dashboard-administrator.md 
-      - name: Customize visual display
-        href: customize-reports.md
-      - name: Customize data models
-        href: model-customize-reports.md
+        - name: Customize visual display
+          href: customize-reports.md
+        - name: Customize data models
+          href: model-customize-reports.md
           - name: Data models and report mappings for historical analytics reports
             href: oob-data-models.md
-      - name: Configure AI
-        items:
+        - name: Configure AI
+          items:
           - name: Configure AI topic clustering for cases
             href: configure-topics-clustering-cases-cs.md
           - name: Configure AI suggestions
@@ -982,16 +984,16 @@
             href: configure-ai-suggested-article-keywords-description.md
           - name: Configure AI topic clustering for conversation
             href: ai-topic-clustering-conversations.md
-      - name: Configure Customer Service analytics dashboards in Power BI
-        href: configure-customer-service-analytics-dashboard.md
-      - name: Configure forecasting
-        items:
+        - name: Configure Customer Service analytics dashboards in Power BI
+          href: configure-customer-service-analytics-dashboard.md
+        - name: Configure forecasting
+          items:
           - name: Configure case forecasting
             href: configure-volume-forecasting.md
           - name: Configure agent forecasting for conversation
             href: configure-agent-forecasting-conversation.md  
-      - name: Configure intraday insights
-        href: configure-intraday-dashboard-supervisor.md
+        - name: Configure intraday insights
+          href: configure-intraday-dashboard-supervisor.md
           - name: Customize KPIs for intraday insights
             href: customize-kpis-intraday-insights.md
     - name: Enable supervisor settings
