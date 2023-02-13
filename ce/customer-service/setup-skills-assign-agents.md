@@ -4,7 +4,7 @@ description: "Perform the steps mentioned in the topic to create skills and assi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/03/2022
+ms.date: 02/14/2023
 ms.topic: article
 ---
 
@@ -237,5 +237,6 @@ Alternatively, you can also add a skill to the user (agent). More information: [
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Manage users](users-user-profiles.md)  
+[Model entities as skills](model-entities-as-skills-ur.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

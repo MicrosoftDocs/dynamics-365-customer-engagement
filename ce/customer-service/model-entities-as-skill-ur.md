@@ -51,12 +51,12 @@ However, if you model "Product" and "Customer" fields as custom skills, you'll c
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 1. Go to the **Default Solution** > **Tables**, and select **Characteristic**.
-1. Select **Columns** > **New column**.
+1. Select **Columns**, and then select **New column**.
 1. Enter data for the required boxes and ensure that you select the datatype as **Lookup**.
 1. Choose a value in **Related table** for which the skill will be modeled, for example, **Product**.
 1. Save and publish the customization.
 1. In the left pane, select **Forms** under the **Characteristic** node, and open **Skill Main Form**.
-1. Drag the newly created custom field from the right panel to the skill form so that it shows up in the UI.
+1. Drag the newly created custom field from the right panel to the skill form so that it shows up on the UI.
 1. Save and publish the customization.
 1. In Customer Service admin center, go to **User management** > **Skills**. The new skill will be available on the **New Characteristic** page.
 1. Select a value for the new skill and assign the skill to agents according to your business use case.
@@ -69,7 +69,7 @@ However, if you model "Product" and "Customer" fields as custom skills, you'll c
 
    Unified routing evaluates the condition in the assignment rule when a work item arrives.
 
-## When to use existing data models as skills
+### When to use existing data models as skills
 
 When you have multiple attributes or categories and want to match agents with work items using these custom attributes. You can model each custom attribute as a skill. You won't have to write different classification rules corresponding to each skill you want to identify, thus saving yourself from maintenance hassle, especially when the custom attribute values are evolving frequently.
 
