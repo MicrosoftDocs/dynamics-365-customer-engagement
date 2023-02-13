@@ -1,13 +1,15 @@
 ---
-title: "Visual customization of historical analytics reports in Customer Service | MicrosoftDocs"
-description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using the Power BI embedded editing experience."
-ms.date: 10/03/2022
-ms.topic: article
-author: lalexms
-ms.author: laalexan
-manager: shujoshi
+title: Customize visual display of historical analytics reports
+description: Learn how to customize historical analytics reports in Dynamics 365 Customer Service using the Power BI embedded editing experience.
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: shujoshi
+ms.service: dynamics-365
+ms.topic: how-to
+ms.date: 02/13/2023
 ms.custom: 
   - dyn365-customerservice
+  - bap-template
 search.audienceType: 
   - admin
   - customizer
@@ -16,7 +18,7 @@ search.app:
   - D365CS
 ---
 
-# Customize visual display of historical analytics reports in Customer Service
+# Customize visual display of historical analytics reports
 
 Dynamics 365 Customer Service provides out-of-box reporting capabilities, including industry-standard metrics that are critical for every support organization. These reports are designed to help supervisors in your organization to better understand and manage agent performance.
 
