@@ -74,6 +74,11 @@ sections:
       - question: Where are some Commanding options hidden while the application is in Online versus Offline mode?
         answer: |
           Commanding options, which aren't supported in Offline mode, are hidden from the UI after the application transitions to Offline mode. A list of Offline supported Command bar options is available from [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities).
+      - question: How can I debug offline JavaScript?
+        answer: |
+          You can use your Android device to [debug JavaScript in mobile apps](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-mobile-apps).
+
+  
   - name: Sign in
     questions:     
         - question: What do the "Reconfigure" and "Sign out" options do?

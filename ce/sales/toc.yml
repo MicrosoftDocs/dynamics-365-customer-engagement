@@ -454,6 +454,13 @@
               href: manage-sales-teams.md
             - name: Manage seller attributes
               href: manage-seller-attributes.md
+        - name: Engage with customers through text messages
+          href: sms-intro.md
+          items:
+            - name: Configure SMS provider
+              href: configure-sms-provider.md      
+            - name: Edit phone numbers
+              href: edit-phone-numbers.md
         - name: Manage Campaigns
           href: configure-inapp-marketing.md
     - name: Guided selling
@@ -806,6 +813,13 @@
               href: work-with-linkedin-activities.md
             - name: Personalize your sales accelerator
               href: personalize-sales-accelerator.md
+        - name: Engage with customers through text messages
+          href: sms-intro.md
+          items:
+            - name: Personalize text messages through templates
+              href: create-text-message-templates.md      
+            - name: Manage text message communications
+              href: manage-text-message-communications.md  
         - name: Campaign management
           items:
             - name: Get started with in-app marketing
@@ -844,7 +858,11 @@
               href: track-playbook-activities.md
     - name: Relationship intelligence
       items:
-        - name: View customer activity history
+        - name: Relationship analytics and KPIs overview
+          href: relationship-analytics-overview.md
+        - name: Relationship analytics KPI calculations
+          href: relationship-analytics-kpi-calculations.md
+        - name: View relationship analytics and KPIs
           href: relationship-analytics.md
         - name: Get introduced to leads and contacts
           href: who-knows-whom.md
