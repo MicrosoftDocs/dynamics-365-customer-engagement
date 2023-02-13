@@ -1,6 +1,6 @@
 ---
-title: Customize visual display of historical analytics reports
-description: Learn how to customize historical analytics reports in Dynamics 365 Customer Service using the Power BI embedded editing experience.
+title: Customize visual display of out-of-the-box reports
+description: Learn how to customize out-of-the-box reports in Dynamics 365 Customer Service using the Power BI embedded editing experience.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
@@ -18,11 +18,11 @@ search.app:
   - D365CS
 ---
 
-# Customize visual display of historical analytics reports
+# Customize visual display of out-of-the-box reports
 
 Dynamics 365 Customer Service provides out-of-box reporting capabilities, including industry-standard metrics that are critical for every support organization. These reports are designed to help supervisors in your organization to better understand and manage agent performance.
 
-The nature of your business may require that you customize these standard reports based on your organization's needs. You can edit out-of-box reports in the following ways:
+The nature of your business may require that you customize these out-of-box reports based on your organization's needs. You can edit out-of-box reports in the following ways:
 
 - Rearrange out-of-box report layouts and change themes.
 - Modify the visual look of the data, such as to display a metric trend over time versus a tabular view.
