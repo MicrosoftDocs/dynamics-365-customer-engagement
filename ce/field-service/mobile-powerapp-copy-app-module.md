@@ -2,7 +2,6 @@
 title: "Add a custom app module to the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to make a custom app module for the Field Service (Dynamics 365) mobile app.
 ms.date: 05/21/2021
-ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
@@ -11,7 +10,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: Andrea-Orimoto
 ms.author: andreo
-manager: shellyha
 search.app:
 - D365CE
 - D365FS

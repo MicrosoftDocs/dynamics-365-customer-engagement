@@ -2,14 +2,12 @@
 title: "Booking timestamps in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about booking timestamps in Dynamics 365 Field Service.
 ms.date: 02/03/2020
-ms.reviewer: mhart
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: clearab
 ms.author: anclear
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -51,10 +49,6 @@ Let's look at an example.
 Assume a work order was created and scheduled to a technician.  When the dispatcher scheduled the booking, it was given a booking status of "Scheduled" by default.
 
 Next, the technician sees the booking and work order on their mobile device and updates the booking status to reflect progress by changing it to traveling, in progress, completed, or some other custom booking status.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile on a tablet device, showing the booking status field.](./media/scheduling-timestamps-mobile-status.png)
-
 
 **Timestamps are created to document when the booking status is updated**. 
 

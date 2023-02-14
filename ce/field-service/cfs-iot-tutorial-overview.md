@@ -7,7 +7,6 @@ ms.topic: overview
 ms.subservice: connected-field-service
 ms.author: keithh
 author: MSKeith
-ms.reviewer: mhart
 search.app: 
   - D365CE
   - D365FS

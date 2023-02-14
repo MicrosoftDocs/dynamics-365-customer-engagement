@@ -1,16 +1,17 @@
 ---
 title: "Configure who knows whom"
 description: "Configure who knows whom to help sellers quickly identify colleagues who can introduce them to leads or contacts."
-ms.date: 09/19/2022
+ms.date: 02/07/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# Configure who knows whom 
 
-The Who knows whom feature helps your sales organization quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. Configure the feature to select an email template to use for introductions.  
+# Configure who knows whom
+
+The Who knows whom feature helps your sales organization quickly identify colleagues who can introduce them to leads or contacts, based on their interactions through emails and meetings. Configure the feature to select an email template to use for introductions.  
 
 
 >[!NOTE]
@@ -31,9 +32,9 @@ The Who knows whom feature helps your sales organization quickly identify collea
 ## Prerequisite
 
 - [Turn on premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
-- [Turn on who knows whom in relationship intelligence](enable-ri.md).
-
-
+- [Turn on who knows whom in relationship intelligence](enable-ri.md).  
+- [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)
+   
 ## Configure who knows whom 
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
@@ -55,7 +56,7 @@ After you enable who knows whom, you must complete the [next steps](#next-steps)
 
 - Work with your Microsoft 365 admin to [provide consent to use Exchange data](provide-consent-office365.md).
 
-    Make sure to get consent within 14 days of turning on the relationship intelligence features. Otherwise, who knows whom will be automatically turned off on the 14th day.
+    Make sure to get consent within 14 days of turning on the relationship intelligence features. Otherwise, who knows whom will be automatically turned off on the 14th day. However, you'll continue to get the out-of-the-box who knows whom information from Dynamics 365 data.  
 
 - If you'd like roles other than Salesperson and Sales Manager to access the who knows whom information, [grant access to those roles](grant-access-wkw.md).  
 
@@ -73,3 +74,4 @@ After you enable who knows whom, you must complete the [next steps](#next-steps)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
