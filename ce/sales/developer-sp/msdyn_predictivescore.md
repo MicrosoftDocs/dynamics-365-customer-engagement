@@ -745,5 +745,5 @@ Same as the [msdyn_PS_PMS](msdyn_predictivemodelscore.md#BKMK_msdyn_PS_PMS) many
 
 ### See also
 
-[About the table reference](../about-entity-reference.md)<br />
+[About the table reference](about-entity-reference.md)<br />
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />

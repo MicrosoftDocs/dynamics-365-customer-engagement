@@ -33,7 +33,7 @@ This sample code is for Dynamics 365 Sales. Download the sample: [Work with cust
   
 -   Set the value of the `Organization.OOBPriceCalculationEnabled` column to `0` (false).  
   
--   Register the plug-in on the **CalculatePrice** message, **Post-operation** event stage, and **Synchronous** execution mode. For more information, see [Register and Deploy Plug-ins](register-deploy-plugins.md).  
+-   Register the plug-in on the **CalculatePrice** message, **Post-operation** event stage, and **Synchronous** execution mode. For more information, see [Register and Deploy Plug-ins](\customerengagement\on-premises\developer\register-deploy-plugins.md).  
   
 ## Demonstrates  
  This sample shows how to write a plug-in that calculates the pricing of the opportunities, quotes, orders, and invoices based on your custom code. The discounts and taxes are calculated based on the total amount of all the product line items in an opportunity, quote, order, or invoice:  

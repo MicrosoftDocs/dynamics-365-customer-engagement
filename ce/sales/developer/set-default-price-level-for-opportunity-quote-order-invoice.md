@@ -70,11 +70,11 @@ You can automatically set a default price level (price list) for an opportunity,
 >  When you extend the default price level selection by registering a plug-in on the `GetDefaultPriceLevel` message, the out-of-box selection of price level is disabled.  
   
 ### See also  
- [PriceLevel Table](entities/pricelevel.md)   
- <xref:Microsoft.Crm.Sdk.Messages.GetDefaultPriceLevelRequest>   
- [Territory Table](entities/territory.md)   
- [Opportunity Tables](opportunity-entities.md)   
- [Quote, order, and invoice tables](quote-order-invoice-entities.md)   
+ [PriceLevel Table](entities/pricelevel.md)  
+ <xref:Microsoft.Crm.Sdk.Messages.GetDefaultPriceLevelRequest>  
+ [Territory Table](/customerengagement/on-premises/developer/entities/territory)  
+ [Opportunity Tables](opportunity-entities.md)  
+ [Quote, order, and invoice tables](quote-order-invoice-entities.md)  
  [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)
 
 

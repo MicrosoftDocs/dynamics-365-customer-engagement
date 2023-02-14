@@ -55,8 +55,8 @@ Product names may be localized for different regions. With Dynamics 365 Sales yo
   
 <a name="BKMK_Translating"></a>   
 ## Translate localizable attributes  
- The process of localizing localizable attributes programmatically is similar to the process used to translate localized solution labels. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Translate customized tables and attribute text](customize-labels-support-multiple-languages.md#BKMK_TranslatingCustomizedEntityAndAttributeText)  
-  
+ The process of localizing localizable attributes programmatically is similar to the process used to translate localized solution labels. [!INCLUDE[proc_more_information][Translate customized table and column text](/power-apps/developer/data-platform/customize-labels-support-multiple-languages#translate-customized-table-and-column-text)
+
  Unlike translating metadata values, the user exporting and importing localized attributes values does not have to have the system administrator security role. The sales manager security role has the privileges necessary to translate localizable attributes. The person translating localized property values can only export those records they have access to view and update those records they have privileges to update.  
   
  To translate localizable attributes programmatically you must first export the current localized label definitions using <xref:Microsoft.Crm.Sdk.Messages.ExportFieldTranslationRequest>. The <xref:Microsoft.Crm.Sdk.Messages.ExportFieldTranslationResponse>.`ExportTranslationFile` property contains a `byte[]` for a compressed crmFieldTranslations.zip file containing a  [Content_types].xml file and a crmFieldTranslations.xml file that can be opened using [!INCLUDE[pn_MS_Excel_Full](../../includes/pn-ms-excel-full.md)]. The **Localized Labels** worksheet contains a column with an LCID value for each provisioned language for the organization. The column with the base language values will be populated and the columns for each provisioned language will contain any previously localized values. This file can be edited by a translator to provide localized labels for the localizable properties.  
@@ -112,8 +112,8 @@ Product names may be localized for different regions. With Dynamics 365 Sales yo
  Any localized labels provided for a language that is uninstalled will remain in the system so that they’ll be in place if the language is reinstalled.  
   
 ### See also  
- [Product catalog tables](product-catalog-entities.md)   
- [Translate customized table and attribute text](customize-labels-support-multiple-languages.md#BKMK_TranslatingCustomizedEntityAndAttributeText)   
+ [Product catalog tables](product-catalog-entities.md)  
+[Translate customized table and column text](/power-apps/developer/data-platform/customize-labels-support-multiple-languages#translate-customized-table-and-column-text)
  [Translate product names and properties into multiple languages](/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt826708(v=crm.8))
 
 

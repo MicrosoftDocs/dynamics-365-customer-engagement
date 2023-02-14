@@ -33,7 +33,7 @@ search.audienceType:
 ---
 # Define goal metric and rollup fields
 
-To specify the goal metric type, participating tables, and whether you track actuals, custom or in-progress data, use the goal metric table (`Metric`) and the rollup field (`RollupField`) table. The goal metric and the rollup fields have a parental relationship in which all operations on the parent record are propagated to the child records. For more information about parental relationship and cascading rules, see [Entity Relationship Behavior](entity-relationship-behavior.md).  
+To specify the goal metric type, participating tables, and whether you track actuals, custom or in-progress data, use the goal metric table (`Metric`) and the rollup field (`RollupField`) table. The goal metric and the rollup fields have a parental relationship in which all operations on the parent record are propagated to the child records. For more information about parental relationship and cascading rules, see [Table relationship behavior](/power-apps/maker/data-platform/create-edit-entity-relationships#table-relationship-behavior).  
   
 > [!IMPORTANT]
 >  All goals in the hierarchy must be based on the same goal metric and time period. If you create a child goal that is based on a different goal metric, an exception is thrown. If you specify a different time period for a child goal, the system will ignore the specified time period and use the parent goal time period. You can associate a goal with a new metric, if the goal does not have a parent goal or a child goal. Otherwise, an exception is thrown when you update the goal record.  
@@ -48,8 +48,8 @@ To specify the goal metric type, participating tables, and whether you track act
   
  Each goal can track actual, in-progress, and custom data as shown in the following diagram.  
   
- ![Goal types.](media/goal-types.png "Goal types")  
-  
+ :::image type="content" source="../media/goal-types.png" alt-text="Goal types":::  
+
  To track actual, in-progress, and custom data, you use the goal table attributes, referred to as rollup fields. For example, if an opportunity is closed as “Won”, an amount of revenue generated from this opportunity can be rolled into the actual money amount rollup field. Or, if an opportunity is “Open”, the opportunity’s estimated revenue can be added to the in-progress money amount rollup field. The following table lists the relationship between the goal metric type and the rollup fields available for each type.  
   
 |Goal metric type|Available rollup fields|  

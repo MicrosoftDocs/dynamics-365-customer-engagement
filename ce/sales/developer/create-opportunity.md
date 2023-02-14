@@ -121,8 +121,9 @@ You can create an opportunity from a qualified lead or you can create a new oppo
  [Converting an Opportunity to a Quote, Sales Order or Invoice](convert-opportunity-quote-sales-order-invoice.md)   
  [Product Catalog Tables](product-catalog-entities.md)   
  [Sales Tables](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
- [Customer Tables](customer-entities-account-contact.md)   
- [Create Early-Bound Entity Classes with the Code Generation Tool (CrmSvcUtil.exe)](org-service/create-early-bound-table-classes-code-generation-tool.md)
+ [Customer Tables](/power-apps/developer/data-platform/customer-entities-account-contact)  
+ [Generate early-bound classes for the Organization service (CrmSvcUtil.exe)](/power-apps/developer/data-platform/org-service/generate-early-bound-classes)
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
