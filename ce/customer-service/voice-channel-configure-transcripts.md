@@ -75,11 +75,11 @@ For components within the Microsoft stack, we strive to ensure that data doesnâ€
    > ![Screenshot of data residency](./media/vc-data-residency.png)
 
 1. **Session Border Controller**
-     - For Direct Offer, when Microsoft is the carrier, Microsoft determines the location where the data is stored. 
+     - For Microsoft calling plans, when Microsoft is the carrier, Microsoft determines the location where the data is stored. 
      - Direct Routing:  For bring-your-own-carrier model, the data resides in the region where the SBC is hosted.
-2. **Azure Communication Services**: The data resides in the location where the Azure Communication Services server is hosted.
-1. **Microsoft Dataverse** server location, Dynamics 365, Cosmos DB, and Azure Speech Service should all be in the same location.
-1. Microsoft stores the data for telemetry in Kusto. The data is stored either in the EMEA or the East US cluster.
+2. **Azure Communication Services**: The data resides in the location where the Azure Communication Services subscription is acquired.
+1. **Microsoft Dataverse** server location, Dynamics 365 tenant, Cosmos DB, and Azure Speech Service should all be in the same location chosen during purchase.
+1. Microsoft stores the data for telemetry in Kusto, which is located either in the EMEA or the East US cluster.
 
 The maximum file size of a recording can be 512 MB. The data storage costs with two participants only is calculated approximately as follows and the cost can fluctuate:
 
