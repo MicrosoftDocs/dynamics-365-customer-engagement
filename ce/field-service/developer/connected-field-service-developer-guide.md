@@ -6,7 +6,6 @@ ms.date: 01/05/2018
 ms.topic: get-started-article
 ms.author: keithh
 author: MSKeith
-ms.reviewer: mhart
 search.audienceType: 
   - developer
 ms.custom: 

@@ -1,6 +1,27 @@
+## 3.12.100.2 - 2023 Wave 1 Early Access (EA) Release
 
+(Includes Resource Scheduling controls version 1.2.40.230251)
+
+- The new schedule board is now the default for all organizations, and the legacy schedule board is [officially deprecated](../../common-scheduler/deprecations.md). The setting to enable the new schedule board on the schedule board settings page has been removed, and replaced with a solution setting. You can still manually [enable the legacy schedule board](../../field-service/configure-schedule-board.md#enable-the-legacy-schedule-board) by changing the solution setting.
+
+## 3.12.96.38
+
+(Includes Resource Scheduling controls version 1.2.36.230171).
+
+- This release fixes the create/update booking failures with orgs running custom plugins to create/update bookings seen with URS version 3.12.96.25.
+
+## 3.12.96.25
+
+(Includes Resource Scheduling controls version 1.2.36.230171).
 
 ## 3.12.92.14
+
+(Includes Resource Scheduling controls version 1.2.35.223541).
+
+- Race condition resulting in incorrect resources to be used in loadBookingAggregates.
+- New schedule board update for customizations to resource templates.
+- Booking alert panel crash when alerts have been deleted.
+
 
 (Includes Resource Scheduling controls version 1.2.32.222981).
 

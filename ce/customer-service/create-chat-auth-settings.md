@@ -1,7 +1,7 @@
 ---
 title: "Configure authentication settings | MicrosoftDocs"
 description: "Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service."
-ms.date: 10/27/2022
+ms.date: 02/01/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -166,7 +166,7 @@ If you're adding an authenticated chat experience to a custom website (that's no
      
       - Any other data that you want to pass.
 
-      Your payload will look similar to this example: 
+      Your payload will look similar to this example:
 
       ```JavaScript
         { 
@@ -177,9 +177,9 @@ If you're adding an authenticated chat experience to a custom website (that's no
             "exp" : 1542625672, 
             "nbf" : 1542622072 
         } 
-        ```     
+      ```     
         
-    c. The JWT signature should be signed by your private key. 
+   c. The JWT signature should be signed by your private key. 
 
       > [!NOTE]
       > - If the token has expired or is invalid, the chat widget will throw an error event. 

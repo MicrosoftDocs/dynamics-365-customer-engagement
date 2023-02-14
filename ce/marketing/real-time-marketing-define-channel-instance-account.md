@@ -1,7 +1,7 @@
 ---
 title: "Define your extended configuration entity for the Channel Instance account (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to define your extended configuration entity for the channel instance account in the real-time marketing area of Dynamics 365 Marketing."
-ms.date: 12/12/2022
+ms.date: 01/30/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -23,6 +23,9 @@ search.app:
 ### Why you need it:
 
 If you're creating a custom SMS channel, you must define an entity representing extended configuration for **Channel Instance Account** (**msdyn_channelinstanceaccount**). For example, you could have a MessageBird   account and have enabled multiple numbers for it. The **Channel Instance Account** has a 1:N relationship with the **Channel Instances** (for example, phone numbers) that we examined in [Step 1](real-time-marketing-define-custom-channel-instance.md).
+
+> [!IMPORTANT]
+> To allow Marketing to access the extended configuration entity during submission, you need to add **Read** privileges for the extended configuration entity to the "Cxp Channel Definitions Services User" role.
 
 ### How to define it:
 

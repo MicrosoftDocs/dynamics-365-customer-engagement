@@ -243,9 +243,8 @@ More information: [Image data attributes](introduction-entity-attributes.md#BKMK
 
 ### See also  
  [Administration and security entities](administration-security-entities.md)   
- [Use Metadata to Generate Entity Diagrams in Dynamics 365 Customer Engagement (on-premises)](use-metadata-generate-entity-diagrams.md)   
- [Define custom state model transitions](define-custom-state-model-transitions.md)   
- [Key to Entity Diagrams](key-entity-diagrams.md)   
+ [Generate entity relationship diagrams](/powerapps/developer/data-platform/use-metadata-generate-entity-diagrams)   
+ [Define custom state model transitions](define-custom-state-model-transitions.md)      
  [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)   
  [Entity Relationship Metadata](customize-entity-relationship-metadata.md)   
  [Entity Relationship Behavior](entity-relationship-behavior.md)   
