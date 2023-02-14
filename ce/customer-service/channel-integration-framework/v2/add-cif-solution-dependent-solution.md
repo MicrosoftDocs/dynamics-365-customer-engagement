@@ -3,7 +3,7 @@ title: "Manage Dynamics 365 Channel Integration Framework 2.0 components | Micro
 description: "Read about how you can add and remove Dynamics 365 Channel Integration Framework 2.0 compoonents ."
 author: mh-jaya
 ms.author: v-jmh
-ms.date: 02/10/2023
+ms.date: 02/15/2023
 manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
