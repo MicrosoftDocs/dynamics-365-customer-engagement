@@ -137,7 +137,7 @@
         href: v2/authenticate-channel-users.md
       - name: Pass Dynamics 365 URL to widget library
         href: v2/pass-url-widget-library.md
-      - name: Add Dynamics 365 Channel Integration Framework 2.0 solution as dependent solution
+      - name: Manage Dynamics 365 Channel Integration Framework 2.0 components
         href: v2/add-cif-solution-dependent-solution.md
     - name: How-to
       items:

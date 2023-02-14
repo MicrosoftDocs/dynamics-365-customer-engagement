@@ -1,6 +1,6 @@
 ---
-title: "Add Dynamics 365 Channel Integration Framework 2.0 solution | MicrosoftDocs"
-description: "Read about how you can add a Dynamics 365 Channel Integration Framework 2.0 solution as a dependent solution and use its capabilities in your own solution."
+title: "Manage Dynamics 365 Channel Integration Framework 2.0 components | MicrosoftDocs"
+description: "Read about how you can add and remove Dynamics 365 Channel Integration Framework 2.0 compoonents ."
 author: mh-jaya
 ms.author: v-jmh
 ms.date: 02/10/2023
@@ -10,9 +10,11 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Add a Dynamics 365 Channel Integration Framework 2.0 solution as a dependent solution
+# Manage Dynamics 365 Channel Integration Framework 2.0 components in exported solutions
 
-Third-party channel providers can add a Dynamics 365 Channel Integration Framework 2.0 solution as a dependent solution to use its capabilities in the solutions that they develop for Dynamics 365. This topic describes how you can install, update, and delete a Dynamics 365 Channel Integration Framework 2.0 solution as a dependent solution.
+Third-party channel providers can add Dynamics 365 Channel Integration Framework 2.0 components as a dependent solution for use in solutions that they develop for Dynamics 365. This article describes how you can add and remove Dynamics 365 Channel Integration Framework 2.0 components from exported solutions.
+
+You can export solution files from one organization and import them into another organization using the solutions portal. Before exporting, you can choose to remove any channel provider components using the portal, but ensure that the channel provider URL doesn't get overwritten in the target environment during the import. To prevent this, you can either edit the customizations XML file before export or export the solution with the target organization's channel provider URL.
 
 [!INCLUDE[token-add-cif-solution-dependent-solution](../shared/token-add-cif-solution-dependent-solution.md)]
 
