@@ -2,7 +2,6 @@
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
 ms.date: 01/09/2023
-ms.reviewer: mhart
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -24,18 +23,26 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.82.35](/dynamics365/field-service/version-history#888235)  | TBD | 02/17/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.81.89](/dynamics365/field-service/version-history#888189)  | [8.8.82.35](/dynamics365/field-service/version-history#888235) | 01/27/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.81.89](/dynamics365/field-service/version-history#888189)  | [8.8.82.35](/dynamics365/field-service/version-history#888235) | 02/03/2023 |
-| | *USG* | [8.8.81.89](/dynamics365/field-service/version-history#888189)  | [8.8.82.35](/dynamics365/field-service/version-history#888235) | 01/27/2023 |
-|**Station 4** |*Europe* |[8.8.80.48](/dynamics365/field-service/version-history#888048)   |  [8.8.81.89](/dynamics365/field-service/version-history#888189)  | 02/27/2023 |
-|**Station 5** |  *North America*|[8.8.80.48](/dynamics365/field-service/version-history#888048)   |  [8.8.81.89](/dynamics365/field-service/version-history#888189)  | 02/03/2023 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.80.48](/dynamics365/field-service/version-history#888048)   |  [8.8.81.89](/dynamics365/field-service/version-history#888189)  | 02/03/2023 |
-| | *Dedicated Scale Groups* | [8.8.79.32](/dynamics365/field-service/version-history#887932)  |  [8.8.80.48](/dynamics365/field-service/version-history#888048)   | 01/27/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.82.35](/dynamics365/field-service/version-history#888235)  | TBD | 02/24/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.81.89](/dynamics365/field-service/version-history#888189)  | [8.8.82.35](/dynamics365/field-service/version-history#888235) | 02/10/2023 |
+| | *USG* | [8.8.82.35](/dynamics365/field-service/version-history#888235)  | TBD | 02/24/2023 |
+|**Station 4** |*Europe* |[8.8.81.89](/dynamics365/field-service/version-history#888189)  | [8.8.82.35](/dynamics365/field-service/version-history#888235) | 02/10/2023 |
+|**Station 5** |  *North America*|[8.8.81.89](/dynamics365/field-service/version-history#888189)  | [8.8.82.35](/dynamics365/field-service/version-history#888235) | 02/17/2023 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.81.89](/dynamics365/field-service/version-history#888189)  | [8.8.82.35](/dynamics365/field-service/version-history#888235) | 02/17/2023 |
+| | *Dedicated Scale Groups* | [8.8.80.48](/dynamics365/field-service/version-history#888048)   |  [8.8.81.89](/dynamics365/field-service/version-history#888189)  | 02/10/2023 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.87.7 (2023 Wave 1 early access)
+
+(Includes Universal Resource Scheduling version [3.12.100.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121002---2023-wave-1-early-access) and Resource Scheduling controls version 1.2.40.230251).
+
+The release is only applied when an environment is opted into Early Access and introduces the Field Service 2023 Wave 1 features.
+
+- The asset and functional location tree view control will better support having assets with children located elsewhere. Assets at a different functional location than their parent asset will now show as both a child asset and as a child of the functional location with info icons calling out the nuances.
 
 ## 8.8.82.35
 (Includes Universal Resource Scheduling version [3.12.96.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129625)) and Resource Scheduling controls version 1.2.36.230171).
@@ -1076,7 +1083,7 @@ In addition, this release includes the following changes that have the potential
 
 ## 8.8.22.58
 
-- Includes release of [Dynamics 365 Field Service (Power App)](mobile-2020-power-platform.md), a new mobile app for technicians built on the Power Platform. As part of this release, administrators will see a new app called "Field Service Mobile" in the list of apps.
+- Includes release of [Field Service (Dynamics 365) mobile](mobile-power-app-overview.md), a new mobile app for technicians built on the Power Platform. As part of this release, administrators will see a new app called "Field Service Mobile" in the list of apps.
 - The following [Field Service 2020 Wave 1](/dynamics365-release-plan/2020wave1/dynamics365-field-service/planned-features) features in GA and Preview planned are included in this release:
   - Incident type AI-based suggestions (preview)
   - IoT alerts AI-based suggestions (preview)

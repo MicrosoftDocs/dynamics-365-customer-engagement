@@ -1,7 +1,7 @@
 ---
 title: "Understand conversation states | MicrosoftDocs"
 description: "Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
-ms.date: 01/23/2023
+ms.date: 01/24/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -24,7 +24,7 @@ The conversation can be in an open or closed state, and can have the following s
 
  ![Omnichannel conversation states.](media/oc-conversation-state.png "Conversation states")
 
- *Channel* refers to SMS, social, and Microsoft Teams channels supported in Omnichannel for Customer Service.
+ *Channel* refers to SMS, voice, social, and Microsoft Teams channels supported in Omnichannel for Customer Service.
 
 > [!NOTE]
 > Additionally, the conversation might have the resolved or scheduled status reason, which is for internal use only.
@@ -117,6 +117,10 @@ The following table describes the channel, status reason, and default configured
  |  |  |  |  |
  | Records (Case) | Open | None | For a records (case) channel, a conversation that's **Open** will be closed if the corresponding record is deleted. |
  | Records (Case) | Active | None | For a records (case) channel, a conversation that's  **Active** will be closed if the corresponding record is deleted. |
+ |  |  |  |  |
+| Voice | Open |  30 days   | The conversation is eligible for automatic closure after the default configured time elapses. The conversation is moved from the **Open** to **Closed** state when the scheduler runs after the elapsed time.|
+ | Voice | Active | 30 days |  The conversation is eligible for automatic closure after the default configured time elapses. The conversation is moved from the **Active** to **Closed** state when the scheduler runs after the elapsed time. |
+ | Voice | Wrap-up | 1 day |  The conversation is eligible for automatic closure after the default configured time elapses. The conversation is moved from the **Wrap-up** to **Closed** state when the scheduler runs after the elapsed time. |
  |  |  |  |  |
  | SMS, Teams, persistent chat, and social | Open | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that has been in the **Open** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
  | SMS, Teams, and social | Active | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that has been in the **Active** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Active** to the **Closed** state. |

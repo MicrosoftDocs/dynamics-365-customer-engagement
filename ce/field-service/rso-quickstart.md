@@ -2,7 +2,6 @@
 title: "Quickstart for resource scheduling optimization (contains video) | MicrosoftDocs"
 description: Learn how to get up and running quickly with resource scheduling optimization
 ms.date: 08/22/2019
-ms.reviewer: mhart
 
 ms.subservice: resource-scheduling-optimization
 ms.topic: article
@@ -11,7 +10,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: FeifeiQiu
 ms.author: feiqiu
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

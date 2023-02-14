@@ -1,7 +1,7 @@
 ---
 title: "View and understand sales usage reports"
-description: "View and understand sales usage reports to analyze the status of opportunities and leads in your organization."
-ms.date: 11/22/2022
+description: "View and understand sales usage reports to analyze the status of contacts, accounts, leads, and opportunities in your organization."
+ms.date: 02/03/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # View and understand sales usage reports
 
-The sales usage dashboard provides a snapshot view of the historical operational metrics and key performance indicators (KPIs) for opportunities and leads.
+The sales usage dashboard provides a snapshot view of the historical operational metrics and key performance indicators (KPIs) for contacts, accounts, leads, and opportunities.
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -18,74 +18,94 @@ The sales usage dashboard provides a snapshot view of the historical operational
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-
-## View sales usage reports
+## Open sales usage reports
 
 >[!NOTE]
 >- Sales usage reports are not available on Government Community Cloud (GCC).
 >- When the administrator enables the reports, the application can take up to 24 hours to display them. Thereafter, reports are refreshed every 24 hours. 
 
-1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.    
+Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales** > **Sales analytics** > **Sales usage reports**.   
+Sales usage reports consist of the following dashboards:  
+-  [Opportunity usage report](#opportunity-usage-report)  
+-  [Lead usage report](#lead-usage-report)
+-  [Account usage report](#account-usage-report)
+-  [Contact usage report](#contact-usage-report)
 
-2.	Under **Sales analytics**, select **Sales usage reports**.
+## Data filters
 
-    >[!div class="mx-imgBorder"]
-    >![Select sales usage reports through the sales change area.](media/sales-usage-reports-view.png "Select sales usage reports through the sales change area")        
- 
-    Sales usage reports consist of the following dashboards:
+Use the data filtering options to narrow down the data and view only the information that is relevant to you. On the top of each report, you can select filters. By default, all data filters are specified and the date range covers the last 20 weeks.
 
-    -	Opportunity usage reports
-    -	Lead usage reports
+## Opportunity usage report
 
-## Understand the reports
+After you open the sales usage reports, go to the **Opportunity usage report** tab.   
 
-The sales usage reports give you a broader overview of the performance of sales teams regarding leads and opportunities in your organization. The reports include KPIs and charts that show how leads and opportunities have performed over a period. 
+### Opportunity KPIs
 
-The lead and opportunity dashboards can be categorized into the following sections:
+The opportunity usage report shows a trend chart of the number of opportunities created, viewed, updated, deleted, and opportunities converted by sellers during the selected period. The report displays the number of opportunities under each KPI, with an arrow indicating the trend. For example, a green upward arrow indicates improvement compared to the previous time period. It also includes the number of users worked on these opportunities.
 
--	[Data filters](#data-filters)
--	[KPI summary charts](#kpi-summary-charts)
--	[Metric charts](#metric-charts)
+### Opportunity summary charts
 
-### Data filters
+| Chart name | Description |
+|------------|-------------|
+| **Actions performed on opportunities over time** | The trend of actions taken on opportunities in the specified time period includes created, viewed, updated, and deleted. |
+| **Number of users contributing to actions performed on opportunities** | The number of users who performed various actions on opportunities during the specified time period. |
+| **Users with most opportunities created** | The top four contributors who created opportunities within the specified time period. |
+| **Users with most opportunities updated** | The top four contributors who updated opportunities within the specified time period. |
+| **Users with most opportunities converted** | The top four contributors who successfully converted opportunities into won deals within the specified time period. |
+| **Status of opportunities over time** | A breakdown of opportunities by their status within the specified time period. |
 
-Use the data filtering options to select data for a specific time period, seller, sales manager, business unit, and role. By default, all data filters are selected and the date range covers the last 20 weeks.
+## Lead usage report
 
->[!div class="mx-imgBorder"]
->![Data filters for sales usage reports.](media/sales-usage-reports-data-filter.png "Data filters for sales usage reports")   
- 
-### KPI summary charts
+After you open the sales usage reports, go to the **Lead usage report** tab.   
 
-The KPI summary charts summarize KPIs for the specified date and the percent change during the period. You can further filter these areas by seller, sales manager, business unit, and role. Also, a trend is displayed corresponding to the value specifying how the KPI is doing in the selected timeframe when compared with the previous timeframe. A green upward triangle indicates an improvement in the score, and a red downward triangle indicates a decline in the score.
+### Lead KPIs
 
->[!div class="mx-imgBorder"]
->![KPI summary charts of sales usage reports.](media/sales-usage-reports-kpi-summary-charts.png "KPI summary charts of sales usage reports")  
- 
-The following table shows the KPIs that are displayed in the report (in this example, an opportunity usage report).
+The lead usage report shows a trend chart of the number of leads created, viewed, updated, deleted, and leads qualified by sellers during the selected period. The report displays the number of leads under each KPI, with an arrow indicating the trend. For example, a green upward arrow indicates improvement compared to the previous time period. It also includes the number of worked on these leads.
 
-| KPI | Description |
-|-----|-------------|
-| Opportunities converted | The number of opportunities that were converted into won deals. |
-| Opportunity conversion rate | The percentage of opportunities that were successfully converted into won deals. |
-| Avg. time (in days) for opportunity conversion | The average number of days that it took for an opportunity to be converted into a won deal. |
+### Lead summary charts
 
-### Metric charts
+| Chart name | Description |
+|------------|-------------|
+| **Actions performed on leads over time** | The trend of actions taken on leads in the specified time period includes created, viewed, updated, and deleted. |
+| **Number of users contributing to actions performed on leads** | The number of users who performed various actions on leads during the specified time period. |
+| **Users with most leads created** | The top four contributors who created leads within the specified time period. |
+| **Users with most leads updated** | The top four contributors who updated leads within the specified time period. |
+| **Users with most leads qualified** | The top four contributors who successfully qualified leads into opportunities within the specified time period. |
+| **Status of leads over time** | A breakdown of leads by their status within the specified time period. |
 
-The metric charts provide a detailed view into the individual values of records, such as created date, status, and who created and converted them.
+## Account usage report
 
-To view specific data that's related to a value in the charts, select the value. Other metric charts in the report will be refreshed to show data that's related to the value you select. Drilling down into these values helps you to identify the areas of improvement.
+After you open the sales usage reports, go to the **Account usage report** tab.   
 
->[!div class="mx-imgBorder"]
->![Metric charts for sales usage reports.](media/sales-usage-reports-metric-charts.png "Metric charts for sales usage reports")  
+### Account KPIs
 
-The following table shows the metrics that are displayed in the report (in this example, an opportunity usage report).
+The account usage report shows a trend chart of the number of accounts created, viewed, updated, and deleted by sellers during the selected period. The report displays the number of accounts under each KPI, with an arrow indicating the trend. For example, a green upward arrow indicates improvement compared to the previous time period. It also includes the number of users worked on these accounts.
 
-| Metric chart | Description |
-|--------------|-------------|
-| Opportunities over time | A breakdown of how the opportunities are trending month-over-month in your organization. |
-| Opportunity status | A breakdown of opportunities by their status:<br>• Open<br>• Won<br>• Lost |
-| Top users for most opportunities created | A breakdown of users who created the most opportunities. |
-| Top users for most opportunities converted | A breakdown of users who converted opportunities into won deals. |
+### Account summary charts
+
+| Chart name | Description |
+|------------|-------------|
+| **Actions performed on accounts over time** | The trend of actions taken on accounts in the specified time period includes created, viewed, updated, and deleted. |
+| **Number of users contributing to actions performed on accounts** | The number of users who performed various actions on accounts during the specified time period. |
+| **Users with most accounts created** | The top four contributors who created accounts within the specified time period. |
+| **Users with most accounts updated** | The top four contributors who updated accounts within the specified time period. |
+
+## Contact usage report
+
+After you open the sales usage reports, go to the **Contact usage report** tab.   
+
+### Contact KPIs
+
+The contact usage report shows a trend chart of the number of contacts created, viewed, updated, and deleted by sellers during the selected period. The report displays the number of contacts under each KPI, with an arrow indicating the trend. For example, a green upward arrow indicates improvement compared to the previous time period. It also includes the number of users who worked on these contacts.
+
+### Contact summary charts
+
+| Chart name | Description |
+|------------|-------------|
+| **Actions performed on contacts over time** | The trend of actions taken on contacts in the specified time period includes created, viewed, updated, and deleted. |
+| **Number of users contributing to actions performed on contacts** | The number of users who performed various actions on contacts during the specified time period. |
+| **Users with most contacts created** | The top four contributors who created contacts within the specified time period. |
+| **Users with most contacts updated** | The top four contributors who updated contacts within the specified time period. |
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
