@@ -46,6 +46,8 @@ You can search knowledge articles in Customer Service Hub, Customer Service work
     - Status
     - Title
     
+- To search using favorites, your administrator has granted **Create**, **Read**, **Write**, **Append**, **Appendto** privileges to the CSR Manager and the Customer Service Representative security roles as applicable, for the **msdyn_favoriteknowledgearticle** entity.
+
 - In Customer Service workspace and Omnichannel for Customer Service, your administrator has enabled the app side pane and knowledge search in Agent experience profiles.
 
 - You must be viewing a case or conversation for the knowledge pane to be displayed. To open the knowledge pane for any other entity, your administrator must enable it in [knowledge management configuration](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management).
