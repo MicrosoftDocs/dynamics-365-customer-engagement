@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 02/13/2023
+ms.date: 02/14/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -29,8 +29,7 @@ The nature of your business may require that you customize these out-of-box repo
 - Create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports.
 
 > [!Note]
-> Visual customization of historical analytics reports is currently available for Customer Service Workspace, Customer Service Hub, and Omnichannel for Customer Service. It is not available for unified routing or knowledge management analytical reports.
-
+> Visual customization of historical analytics reports is currently available for Customer Service Workspace, Customer Service Hub, and Omnichannel for Customer Service. It isn't available for unified routing analytical reports.
 
 ## Grant user privileges to edit analytics reports
 
@@ -38,7 +37,7 @@ To be able to edit analytics reports, users must have the **Analytics Report Aut
 
 ## Customize the visual display of your analytics reports
 
-1. Open the **Omnichannel historical analytics** or **Customer Service historical analytics** report in Customer Service workspace.
+1. Open the **Omnichannel real-time analytics** or **Customer Service historical analytics** report in Customer Service workspace.
    
 1. Select **Edit report**. The Power BI embedded editing experience is displayed.
 
