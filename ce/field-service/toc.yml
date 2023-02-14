@@ -76,6 +76,10 @@ items:
       href: set-up-agreement-sub-statuses.md
     - name: Customer asset validation
       href: asset-validation.md
+    - name: Trades
+      href: trades.md
+    - name: Not-to-exceed
+      href: work-order-not-to-exceed.md
       
 - name: Work orders
   items:
