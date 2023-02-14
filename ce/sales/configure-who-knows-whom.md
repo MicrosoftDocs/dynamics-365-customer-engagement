@@ -8,7 +8,8 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# Configure who knows whom 
+
+# Configure who knows whom
 
 The Who knows whom feature helps your sales organization quickly identify colleagues who can introduce them to leads or contacts, based on their interactions through emails and meetings. Configure the feature to select an email template to use for introductions.  
 
@@ -31,9 +32,9 @@ The Who knows whom feature helps your sales organization quickly identify collea
 ## Prerequisite
 
 - [Turn on premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
-- [Turn on who knows whom in relationship intelligence](enable-ri.md).
-
-
+- [Turn on who knows whom in relationship intelligence](enable-ri.md).  
+- [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)
+   
 ## Configure who knows whom 
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
@@ -73,3 +74,4 @@ After you enable who knows whom, you must complete the [next steps](#next-steps)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
