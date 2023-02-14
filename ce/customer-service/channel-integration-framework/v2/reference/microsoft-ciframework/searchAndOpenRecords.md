@@ -1,7 +1,7 @@
 ---
 title: "searchAndOpenRecords (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes reference information such as description, syntax, and parameters for the searchAndOpenRecords method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0. "
-ms.date: 02/14/2023
+ms.date: 02/15/2023
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -16,7 +16,8 @@ ms.custom:
 
 # searchAndOpenRecords (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-[!INCLUDE[searchAndOpenRecords](includes/searchAndOpenRecords-description.md)]
+[!INCLUDE[searchAndOpenRecords](includes/searchAndOpenRecords-description.md)]. 
+The method can search and open records of account, contact, and activity activities.
 
 ## Syntax
 
@@ -28,18 +29,15 @@ ms.custom:
 |------|------|----------|-------------|
 | entityLogicalName | String | Yes | Name of the entity to search and open. |
 | queryParameters | String | Yes | OData system query options, **$select** and **$expand**, to retrieve your data.<br><br> - Use the **$select** system query option to limit the properties returned by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using **$select**, all properties will be returned.<br><br> - Use the **$expand** system query option to control the data returned by related entities. If you just include the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the **$select** system query option in parentheses after the navigation property name. Use this for both single-valued and collection-valued navigation properties.<br><br> You can specify the query options starting with `?`. You can also specify multiple query options by using `&` to separate the query options.<br> For example: `?$select=name&$expand=primarycontactid($select=contactid,fullname) `|
-| searchOnly | Boolean | Yes | Set to `false` to open the record in the Unified Interface page if the search record is a single record. Set to `false` to open a search page if the search result has multiple records and to automatically populate the search page with the tag value mentioned when the search field is used in `queryParameters`.<br><br>Set to `true` only to get results of the search as a Promise object, and not open the record or search page.|
+| searchOnly | Boolean | Yes | Set the `searchOnly` to `false` when you want the search to display a single record based on the search context. If the search result has multiple records nad if you've used the `queryParameters` to indicate the search option, then setting `searchOnly` to `false` opens and populates the search page with the search option. <br><br>Set to `true` to get results of the search as a Promise object, instead of opening the record or search page.|
 | correlationId | GUID | No | Is used to group all related API calls together for diagnostic telemetry.   |
 | searchType         | Number    | No       | Type of search page to open&mdash;0 for relevance search and 1 for categorized search. If no parameter is provided, the records are searched by category.|
 | successCallback	| Function	| No	| A function to call when the request is successful. |
 | errorCallback |	Function	| No	| A function to call when the request fails. |
 
-When you set the `searchOnly` parameter to `true`, the contact entity records are searched to get the results as a Promise object, and the record is not opened. Set `searchOnly` to `true` when the search displays a list of records based on the search context.
-
-When you set `searchOnly` to `false`, the contact entity records are searched and the record is opened. Set the `searchOnly` to `false` when you want the search to display a single record based on the search context. If `searchOnly` parameter is set to `false`, it will open the search page if the search result has multiple records and populate the search page with the tag value mentioned when the search field is used in `queryParameters`.
 
 > [!Note]
-> You must enable relevance search to be able to use it. If relevance search isn't enabled, then the search will be performed based on category. More information: [Configure Dataverse search](/power-platform/admin/configure-relevance-search-organization)
+> To search based on relevance, you must [configure relevance search](/power-platform/admin/configure-relevance-search-organization). If relevance search isn't enabled, then the search will be performed based on category. 
 
 ## Return value
 
@@ -76,7 +74,7 @@ then(
 
 ### Search and display on the list of contact records
 
-This sample code searches and displays the name and phone number of Contact entity records whose first name is **Contoso**. Using `$search`, you can make sure that the search results page is populated with the search term **Contoso**.
+This sample code searches and displays the name and phone number of contact entity records where the first name is **Contoso**. Using `$search`, you can make sure that the search results page is populated with the search term **Contoso**.
 
 > [!NOTE]
 > If you're using `$search` in the query and the `searchOnly` parameter is set to `false`, it'll always open the search results page and not the retrieved record. If you want to open the retrieved record, don't use `$search` parameter in the query.
