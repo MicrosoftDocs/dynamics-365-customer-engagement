@@ -10,7 +10,7 @@ ms.reviewer: nenellim
 ---
 # Understand how unified routing affects queue items and live work items
 
-Whenever you route a record using unified routing, Omnichannel for Customer Service creates a live work item entity ([`msdyn_ocliveworkitem`](developer/reference/entities/msdyn_ocliveworkitem.md)) to track the workstream settings for allowed presence and capacity. The unified routing engine uses these settings to route records to the appropriate queues based on route-to-queue rules, and to the available agent based on presence and capacity.
+Whenever you route a record using unified routing, a live work item entity ([`msdyn_ocliveworkitem`](developer/reference/entities/msdyn_ocliveworkitem.md)) is created to track the workstream settings for allowed presence and capacity. The unified routing engine uses these settings to route records to the appropriate queues based on route-to-queue rules, and to the available agent based on presence and capacity.
 
 After the record is routed to the queue, Omnichannel for Customer Service also creates a queue item ([`queueitem`](developer/reference/entities/queueitem.md)). The queue item updates the following three fields: 
 - the queue to which the queue item belongs
