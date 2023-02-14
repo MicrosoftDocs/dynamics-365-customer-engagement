@@ -972,9 +972,9 @@
         items: 
         - name: Customize visual display
           href: customize-reports.md
-      - name: Extend data models
+      - name: Customize data models
         items:
-        - name: Customize data models
+        - name: Customize data models for historical analytics reports
           href: model-customize-reports.md
         - name: Data models and report mappings for historical analytics reports
           href: oob-data-models.md
