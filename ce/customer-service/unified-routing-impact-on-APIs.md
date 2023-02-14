@@ -1,5 +1,5 @@
 ---
-title: Understand how unified routing affects queue items and live work items| MicrosoftDocs
+title: Understand how unified routing affects queue items and live work items for routed records| MicrosoftDocs
 description: Use this article to understand how unified routing affects queue items, live work items, and the corresponding APIs.
 ms.date: 02/15/2023
 ms.topic: article
@@ -8,9 +8,9 @@ ms.author: v-jmh
 ms.custom: bap-template
 ms.reviewer: nenellim
 ---
-# Understand how unified routing affects queue items and live work items
+# Understand how unified routing affects queue items and live work items for routed records
 
-Whenever you route a record using unified routing, a live work item entity ([`msdyn_ocliveworkitem`](developer/reference/entities/msdyn_ocliveworkitem.md)) is created to track the workstream settings for allowed presence, matched skills, and available capacity. The unified routing engine uses these settings to route records to the appropriate queues based on route-to-queue rules, and to the available agent based on presence, skills, and capacity.
+Whenever you route a record using unified routing, a live work item entity record ([`msdyn_ocliveworkitem`](developer/reference/entities/msdyn_ocliveworkitem.md)) is created to track the workstream settings for allowed presence, matched skills, and available capacity. The unified routing engine uses these settings to route records to the appropriate queues based on route-to-queue rules, and to the available agent based on presence, skills, and capacity.
 
 After the record is routed to the queue, a queue item ([`queueitem`](developer/reference/entities/queueitem.md)) is created. The following three fields are updated in the queue item:
 - the queue to which the queue item belongs
