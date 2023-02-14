@@ -29,7 +29,6 @@ A high-level work order process is outlined below.
 
 ## Prerequisites
 
-- Dynamics 365 Field Service Version v. 9.1.XYZ
 - [Security roles](view-user-accounts-security-roles.md):
   - Field Service – Administrator: All permissions to set up, configure, and edit NTE.
   - Other Field Service roles: Read and use permissions for NTE records.
