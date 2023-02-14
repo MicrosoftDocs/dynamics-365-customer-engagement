@@ -1,5 +1,5 @@
 ---
-title: Customize visual display of out-of-the-box reports
+title: Customize visual display
 description: Learn how to customize out-of-the-box reports in Dynamics 365 Customer Service using the Power BI embedded editing experience.
 author: Soumyasd27
 ms.author: sdas
@@ -18,7 +18,7 @@ search.app:
   - D365CS
 ---
 
-# Customize visual display of out-of-the-box reports
+# Customize visual display
 
 Dynamics 365 Customer Service provides out-of-box reporting capabilities, including industry-standard metrics that are critical for every support organization. These reports are designed to help supervisors in your organization to better understand and manage agent performance.
 
