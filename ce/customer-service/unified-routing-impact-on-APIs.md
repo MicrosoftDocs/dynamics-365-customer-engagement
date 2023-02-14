@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 Whenever you route a record using unified routing, a live work item entity ([`msdyn_ocliveworkitem`](developer/reference/entities/msdyn_ocliveworkitem.md)) is created to track the workstream settings for allowed presence and capacity. The unified routing engine uses these settings to route records to the appropriate queues based on route-to-queue rules, and to the available agent based on presence and capacity.
 
-After the record is routed to the queue, a queue item ([`queueitem`](developer/reference/entities/queueitem.md) is created. The queue item updates the following three fields: 
+After the record is routed to the queue, a queue item ([`queueitem`](developer/reference/entities/queueitem.md) is created. The following three fields are updated in the queue item:
 - the queue to which the queue item belongs
 - the worker ID or agent assigned to the queue item
 - the state of the queue item, whether active or inactive
