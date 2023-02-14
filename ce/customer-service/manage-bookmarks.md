@@ -15,7 +15,7 @@ A bookmark captures the state of a report page, including changes that you've ma
 
 A bookmark created for a report group will save a personalized view using filters in that group. For example, if you create a bookmark in the Omnichannel historical report's **Conversation** tab, the bookmark will apply to **Conversation**, **Queue**, and **Agent** tabs, and won't include filters for the other tabs like Voice and Unified routing. Similarly, if you create a bookmark for voice, it won't have any filters related to the other groups. More information: [Report filters and groups](report-filters-groups.md)
 
-You can use bookmarks in Customer Service historical analytics, Omnichannel historical analytics, and knowledge analytics reports only.
+You can use bookmarks in all the out-of-the-box reports such as Customer Service historical analytics, Omnichannel historical analytics, Omnichannel real-time analytics, and knowledge analytics reports.
 
 ## Prerequisites
 
