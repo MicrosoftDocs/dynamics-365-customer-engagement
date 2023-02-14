@@ -6,8 +6,8 @@ ms.date: 09/30/2019
 ms.subservice: connected-field-service
 
 ms.topic: overview
-ms.author: keithh
-author: MSKeith
+ms.author: vhorvath
+author: vhorvathms
 search.app: 
   - D365CE
   - D365FS
