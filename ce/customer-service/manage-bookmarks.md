@@ -4,14 +4,14 @@ description: Create bookmarks for reports and save personalized views of your re
 author: neeranelli
 ms.author: nenellim
 ms.topic: how-to
-ms.date: 01/23/2023
+ms.date: 02/14/2023
 ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
 # Manage bookmarks for reports
 
-A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark. 
+A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark.
 
 A bookmark created for a report group will save a personalized view using filters in that group. For example, if you create a bookmark in the Omnichannel historical report's **Conversation** tab, the bookmark will apply to **Conversation**, **Queue**, and **Agent** tabs, and won't include filters for the other tabs like Voice and Unified routing. Similarly, if you create a bookmark for voice, it won't have any filters related to the other groups. More information: [Report filters and groups](report-filters-groups.md)
 
@@ -35,6 +35,7 @@ For more information on configuring user access to analytics and dashboards, see
 
     - **Customer Service historical analytics**
     - **Omnichannel historical analytics**
+    - **Omnichannel real-time analytics**
     - **Knowledge analytics**
 
 1. On the report page, select a tab, such as **Summary**.
@@ -45,9 +46,11 @@ For more information on configuring user access to analytics and dashboards, see
 
 1. Enter a name for the bookmark, and then save it.
 
+    :::image type="content" source="media/manage-bookmarks.png" alt-text="Create a report bookmark to save personalized filters.":::
+
 1. Repeat the steps to create as many bookmarks as you require.
 
-   :::image type="content" source="media/manage-bookmarks.png" alt-text="Create a report bookmark to save personalized filters.":::
+   
 
 1. Select **Bookmarks** and then do the following on the **Bookmarks** flyout menu:
 
