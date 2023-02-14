@@ -43,7 +43,9 @@ JavaScript web resources can be added to mobile forms and downloaded with Offlin
 JavaScript will run Online, Offline First with internet connection, and Offline First without internet connection (basically all the time).
 
 > [!TIP]
-> Refer to [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities) for any potential limitations by platform for WebResources in offline mode.
+>
+> - Refer to [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities) for any potential limitations by platform for WebResources in offline mode.
+> - You can use your Android device to [debug JavaScript in mobile apps](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-mobile-apps).
 
 ## Offline JavaScript example
 
