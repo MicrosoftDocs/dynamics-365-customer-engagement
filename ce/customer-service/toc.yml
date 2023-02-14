@@ -956,7 +956,7 @@
       href: cs-analytics-service-limits.md
     - name: Administrator experience
       items: 
-      - name: Manage analytics and insights dashboards
+      - name: Configure analytics and insights dashboards
         items:
         - name: Configure analytics and dashboards
           href: configure-customer-service-analytics-insights-csh.md
@@ -964,13 +964,15 @@
           href: configure-cs-historical-analytics-csh.md
         - name: Configure Omnichannel historical analytics
           href: oc-historical-analytics-reports.md
+        - name: Configure Omnichannel real-time analytics
+          href: enable-realtime-analytics-dashboard-administrator.md
         - name: Configure knowledge analytics
           href: enable-knowledge-search-insights.md
-        - name: Configure Omnichannel real-time analytics
-          href: enable-realtime-analytics-dashboard-administrator.md 
-      - name: Customize visual display
-        href: customize-reports.md
-      - name: Customize data models
+      - name: Customize analytics and insights dashboards
+        items: 
+        - name: Customize visual display
+          href: customize-reports.md
+      - name: Extend data models
         items:
         - name: Customize data models
           href: model-customize-reports.md
@@ -986,8 +988,12 @@
             href: configure-ai-suggested-article-keywords-description.md
           - name: Configure AI topic clustering for conversation
             href: ai-topic-clustering-conversations.md
-      - name: Configure Customer Service analytics dashboards in Power BI
-        href: configure-customer-service-analytics-dashboard.md
+      - name: Configure Power BI templates
+        items:
+        - name: Configure Customer Service analytics dashboards in Power BI
+          href: configure-customer-service-analytics-dashboard.md
+        - name: Configure Omnichannel Insights dashboards
+          href: configure-historical-sentiment-dashboard-supervisor.md
       - name: Configure forecasting
         items:
           - name: Configure case forecasting
@@ -995,19 +1001,19 @@
           - name: Configure agent forecasting for conversation
             href: configure-agent-forecasting-conversation.md  
       - name: Configure intraday insights
-        href: configure-intraday-dashboard-supervisor.md
-      - name: Customize KPIs for intraday insights
-        href: customize-kpis-intraday-insights.md
+        items:
+        - name: Configure intraday insights
+          href: configure-intraday-dashboard-supervisor.md
+        - name: Customize KPIs for intraday insights
+          href: customize-kpis-intraday-insights.md
       - name: Enable supervisor settings
         items:
-        - name: Provide access to Ongoing Conversations dashboard
+        - name: Configure Ongoing Conversations dashboard
           href: configure-ongoing-conversations-dashbaord.md
         - name: Enable your supervisors to monitor, assign, transfer, and forcibly end conversations
           href: enable-monitor-assign-transfer-conv.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
-      - name: Configure Omnichannel Insights dashboards
-        href: configure-historical-sentiment-dashboard-supervisor.md
     - name: Supervisor experience
       items: 
       - name: Historical analytics reports in Customer Service
