@@ -1,5 +1,5 @@
 
-When a requirement is scheduled to a resource, the system creates a booking record. The schedule board displays bookings sorted by resources. The fields displayed in the schedule board booking is called a *Booking Template*, which you can customize.
+When a requirement is scheduled to a resource, the system creates a booking record. The schedule board displays bookings sorted by resources. The fields displayed in the schedule board booking are called a *Booking Template*, which you can customize.
 
 ## Edit work order booking template
 
@@ -16,14 +16,14 @@ The default value contains the following HTML code snippet.
 
 To edit the HTML that controls the booking template, go to the **Schedule Types** section in the schedule board tab settings. Select the entity for which you want to change the booking template. If you open the settings from a schedule board tab, you'll change the settings for that tab only. To make changes to all tabs, select **Open Default Settings** and apply your changes there.
 
-In this example, we will choose the work order entity.
+In this example, we'll choose the work order entity.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Schedule board settings - booking template.](../../field-service/media/schedule-board-settings-booking-template.png)  
 
 In the **Booking Template** field, override the booking template by entering HTML and CSS that can reference fields from the *Bookable Resource Booking* entity and linked entities.
 
-Here is an example that pulls values from the work order that relates to the booking.
+Here's an example that pulls values from the work order that relates to the booking.
 
 ```HTML
 <div style="line-height: 11px !important; width: 99%; overflow: hidden; display: block; text-overflow: ellipsis;">
@@ -48,9 +48,9 @@ Add customer rating and service call icons to the booking template based on cond
 
 For example, a dispatcher can see a customer rating on the schedule board to prioritize bookings. A customization has added a field *new_customerrating* on the *account* entity and propagates that field to the work order entity with an integer range from 1 to 10. Using the approach above, you can add this field as a text value.
 
-in this scenario, we want the booking template to visualize the customer rating with grey stars. To represent the actual customer rating, we will overlay 5 orange stars, but only show a percentage of these, corresponding to the 1-10 customer rating.
+in this scenario, we want the booking template to visualize the customer rating with grey stars. To represent the actual customer rating, we'll overlay five orange stars, but only show a percentage of these, corresponding to the 1-10 customer rating.
 
-We also want our dispatcher to see whether a work order is a service call or another type of job. The custom field *new_isservicecall* on the *work order* entity, has two possible values : 0 or 1. Using the same approach as above, we first draw a gray wrench as background, put an orange wrench on top and limit its size to 0% (new_isservicecall = 0) or 100% (new_isservicecall = 1).
+We also want our dispatcher to see whether a work order is a service call or another type of job. The custom field *new_isservicecall* on the *work order* entity, has two possible values: 0 or 1. Using the same approach as above, we first draw a gray wrench as background, overlay an orange wrench and limit its size to 0% (new_isservicecall = 0) or 100% (new_isservicecall = 1).
 
 Go to **Resource Scheduling > Administration > Scheduling Parameters** and set **Disable Sanitizing HTML Templates** to **Yes**. This is required to be able to include CSS statements into the booking templates.
 
