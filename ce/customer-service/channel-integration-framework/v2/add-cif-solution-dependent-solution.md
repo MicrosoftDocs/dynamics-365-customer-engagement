@@ -22,9 +22,8 @@ You can export solution files from one organization and import them into another
 
 [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)  
 [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)  
-[Configure channel providers in Dynamics 365 Channel Integration Framework 2.0](./configure-channel-provider-app-profile-manager.md)  
+[Configure channel providers in Dynamics 365 Channel Integration Framework 2.0](configure-channel-provider-app-profile-manager.md)  
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)  
-[Authenticate channel users to log in to the channel (widget)](authenticate-channel-users.md)  
 [Pass a Dynamics 365 URL to a widget library](pass-url-widget-library.md)  
 
 
