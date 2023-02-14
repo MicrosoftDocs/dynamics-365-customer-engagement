@@ -1,9 +1,9 @@
 ---
 title: "Manage Dynamics 365 Channel Integration Framework 2.0 components | MicrosoftDocs"
-description: "Read about how you can add and remove Dynamics 365 Channel Integration Framework 2.0 compoonents ."
+description: "Read about how you can add and remove Dynamics 365 Channel Integration Framework 2.0 components."
 author: mh-jaya
 ms.author: v-jmh
-ms.date: 02/15/2023
+ms.date: 02/16/2023
 manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
