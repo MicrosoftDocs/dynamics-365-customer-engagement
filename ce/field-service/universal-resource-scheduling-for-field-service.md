@@ -2,13 +2,11 @@
 title: "Universal Resource Scheduling for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn all about Universal Resource Scheduling for Dynamics 365 Field Service
 ms.date: 08/12/2020
-ms.reviewer: mhart
 
 ms.custom: intro-internal
 ms.topic: overview
 author: clearab
 ms.author: anclear
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
