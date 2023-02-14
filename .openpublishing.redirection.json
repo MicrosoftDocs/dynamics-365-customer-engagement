@@ -24634,6 +24634,11 @@
       "source_path": "ce/field-service/field-service-dynamics365-government.md",
       "redirect_url": "/power-platform/admin/government-feature-availability",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/universal-resource-scheduling.md",
+      "redirect_url": "/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"      
     }
   ]
 }
