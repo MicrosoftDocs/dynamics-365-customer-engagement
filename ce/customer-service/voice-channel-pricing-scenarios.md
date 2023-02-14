@@ -1,7 +1,7 @@
 ---
 title: "Pricing scenarios in voice channel "
-description: "Use this topic to understand how pricing is calculated in the voice channel."
-ms.date: 12/05/2022
+description: "Understand how pricing is calculated in the voice channel."
+ms.date: 02/15/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -13,9 +13,9 @@ manager: shujoshi
 
 With the voice channel, Customer Service provides agents with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience.
 
-As you plan to  configure and use the voice channel for your business needs you typically want to understand the pricing and billing models, so you can optimize your costs. The voice channel is built over Azure Communication Services. Azure Communication Services allows you to use phone numbers to make voice calls and send SMS messages with the PSTN.
+As you plan to configure and use the voice channel for your business needs you'd want to understand the pricing and billing models, so you can optimize your costs. The voice channel is built over Azure Communication Services. Azure Communication Services allows you to use phone numbers to make voice calls and send SMS messages with the PSTN.
 
-Prices for Azure Communication Services are based on a pay-as-you-go model. Each participant of the call will count in billing for each minute they're connected to the call. This holds true regardless of whether the user is video calling, voice calling, or screen-sharing.
+Prices for Azure Communication Services are based on a pay-as-you-go model. Each participant of the call counts in billing for each minute they're connected to the call, irrespective of the call being a video call, voice call, or screen-sharing.
 
 Calling and screen-sharing services are charged on a per minute per participant basis at $0.004 per participant per minute for group calls. Azure Communication Services doesn't charge for data egress. To understand the various call flows that are possible, see: [Call flow basics](/azure/communication-services/concepts/call-flows)
 
@@ -37,7 +37,7 @@ Mae calls your US toll-free number (acquired from Azure Communication Services) 
 - One participant on VOIP (inbound to Power Virtual Agents bot) X 2 x $ 0.004 per minute = $0.008
   > [!NOTE]
   > The VOIP call to the Power Virtual Agents bot is not covered by the intelligent voice bot minutes included in the Voice Channel for Dynamics 365 Customer Service license.
-- One participant on VOIP (inbound to Matias )x 8 x 0.004 per participant per minute= $0.032
+- One participant on VOIP (inbound to Matias)x 8 x 0.004 per participant per minute= $0.032
 
 **Total cost for the call**: $0.22 + $0.008 + $ 0.032+ $0.04= $0.26
 
@@ -61,7 +61,7 @@ Mae is a customer and calls your US toll-free number (acquired from Communicatio
 
 ### Inbound: Customer calls through Microsoft Teams, Supervisor joins the call to monitor the conversation
 
-Mae calls your US toll-free number (acquired from Azure Communication Services) from Teams. The call is routed to an agent, Matias. He accepts the incoming call from Mae and starts recording. Gaby, Matias's supervisor decides to join in to monitor the conversation. The call lasts for ten minutes. The recording stops when the call ends.
+Mae calls your US toll-free number (acquired from Azure Communication Services) from Teams. The call is routed to an agent, Matias. He accepts the incoming call from Mae and starts recording. Gaby, Matias's supervisor decides to join in to monitor the conversation. The call lasts for 10 minutes. The recording stops when the call ends.
 
   > [!div class=mx-imgBorder]
    > ![Pricing example 4.](media/vc-pricing-4.png "Inbound call from customer through Teams")
@@ -75,7 +75,7 @@ Mae calls your US toll-free number (acquired from Azure Communication Services) 
   > [!NOTE]
   > This section is charged only when Gaby joins the call.
 - Cost to record= 10 x $0.002 per minute = $0.02
-- Omnichannel for Customer Service recording bot doesn't introduce additional Azure Communication Services VOIP charges.
+- Omnichannel for Customer Service recording bot doesn't introduce extra Azure Communication Services VOIP charges.
 
 *Mae's participation is charged based on her Teams license.
 
@@ -96,7 +96,7 @@ Mae calls your US toll-free number from Teams. The application routes the call l
     > [!NOTE]
     > This section is charged only when Gaby joins the call.
 - Cost to record= 20 x $0.002 per minute = $0.04
-- Omnichannel for Customer Service recording bot doesn't introduce additional Azure Communication Services VOIP charges.
+- Omnichannel for Customer Service recording bot doesn't introduce extra Azure Communication Services VOIP charges.
 
 **Total cost for the call**: $0.44 + $0.08 + $0.04 + $0.04 = $0.60
 
@@ -115,7 +115,7 @@ Mae calls your US toll-free number (acquired from Azure Communication Services) 
 - One participant on the PSTN section (outbound to Cole) x 5 x 0.013 per participant per minute= $0.065
 - One participant on Microsoft Teams (to Cole) x 5 minutes x rate per participant per minute*.
 - Cost to record= 10 x $0.002 per minute = $0.02
-- Omnichannel for Customer Service recording bot doesn't incur additional Azure Communication Services VOIP charges.
+- Omnichannel for Customer Service recording bot doesn't incur extra Azure Communication Services VOIP charges.
 
 *Mae's participation is charged based on her Teams license.
 *Cole's participation is charged based on his Teams license.
@@ -124,7 +124,7 @@ Mae calls your US toll-free number (acquired from Azure Communication Services) 
 
 ### Outbound: Agent calls the customer
 
-Matias is a Dynamics 365 contact center agent, who makes an outbound call from Omnichannel for Customer Service to a telephone number (Mae). Matias talks to Mae for 2 minutes, puts her on hold to consult with his supervisor, Gaby. Matias talks to Gaby for five minutes, ends his consult, and resumes his call with Mae. The call lasts for another three minutes.
+Matias is a contact center agent and makes an outbound call from Omnichannel for Customer Service to a telephone number (Mae). Matias talks to Mae for two minutes, puts her on hold to consult with his supervisor, Gaby. Matias talks to Gaby for five minutes, ends his consult, and resumes his call with Mae. The call lasts for another three minutes.
 
   > [!div class=mx-imgBorder]
    > ![Pricing example 7.](media/vc-pricing-7.png "Inbound call from customer through Teams")
@@ -139,13 +139,13 @@ Matias is a Dynamics 365 contact center agent, who makes an outbound call from O
 
 **Total cost for the call**: $0.13 + $0.04 + $0.02= $0.19 
 
-### Inbound: Direct Routing
+### Inbound: Azure direct routing
 
-Mae calls your toll-free number (used in Azure direct routing) from her mobile. The call is routed to an agent, Matias. Matias accepts the incoming call from Mae, and talks to her for 10 minutes. 
+Mae calls your toll-free number (used in [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing)) from her mobile. The call is routed to an agent, Matias. Matias accepts the incoming call from Mae, and talks to her for 10 minutes. 
 
 - Matias uses Omnichannel for Customer Service client application.
 - Call goes to a Session Border Controller (SBC) connected through Communication Services direct routing 
-- Dynamics 365 Omnichannel for Customer Service bot adds Matias to a call by escalating the direct routing call to a group call.
+- Omnichannel for Customer Service bot adds Matias to a call by escalating the direct routing call to a group call.
 - The call lasts 10 minutes.
 
   > [!div class=mx-imgBorder]
@@ -160,9 +160,9 @@ Mae calls your toll-free number (used in Azure direct routing) from her mobile. 
 
 **Total cost for the call**: $0.04 + $0.04 + applicable carrier charges = $0.08 + applicable carrier charges 
 
-### Outbound: Direct Routing
+### Outbound: Azure direct routing
 
-Matias is a Dynamics 365 contact center agent. He makes an outbound call from Omnichannel for Customer Service to a telephone number (Mae) through Azure Communication Services direct routing.
+Matias is a Dynamics 365 contact center agent. He makes an outbound call from Omnichannel for Customer Service to a telephone number (Mae) through Azure direct routing.
 
 - Matias uses Omnichannel for Customer Service client application
 - Omnichannel for Customer Service bot starts new outgoing call through direct routing
