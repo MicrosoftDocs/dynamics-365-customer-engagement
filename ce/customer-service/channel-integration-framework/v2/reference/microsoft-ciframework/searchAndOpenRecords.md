@@ -16,7 +16,8 @@ ms.custom:
 
 # searchAndOpenRecords (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-[!INCLUDE[searchAndOpenRecords](includes/searchAndOpenRecords-description.md)]. 
+[!INCLUDE[searchAndOpenRecords](includes/searchAndOpenRecords-description.md)]
+
 The method can search and open records of account, contact, and activity activities.
 
 ## Syntax
@@ -29,15 +30,11 @@ The method can search and open records of account, contact, and activity activit
 |------|------|----------|-------------|
 | entityLogicalName | String | Yes | Name of the entity to search and open. |
 | queryParameters | String | Yes | OData system query options, **$select** and **$expand**, to retrieve your data.<br><br> - Use the **$select** system query option to limit the properties returned by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using **$select**, all properties will be returned.<br><br> - Use the **$expand** system query option to control the data returned by related entities. If you just include the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the **$select** system query option in parentheses after the navigation property name. Use this for both single-valued and collection-valued navigation properties.<br><br> You can specify the query options starting with `?`. You can also specify multiple query options by using `&` to separate the query options.<br> For example: `?$select=name&$expand=primarycontactid($select=contactid,fullname) `|
-| searchOnly | Boolean | Yes | Set the `searchOnly` to `false` when you want the search to display a single record based on the search context. If the search result has multiple records nad if you've used the `queryParameters` to indicate the search option, then setting `searchOnly` to `false` opens and populates the search page with the search option. <br><br>Set to `true` to get results of the search as a Promise object, instead of opening the record or search page.|
+| searchOnly | Boolean | Yes | Set the `searchOnly` to `false` when you want the search to display a single record based on the search context. If the search result has multiple records and if you've used `queryParameters` to indicate the search option, then setting `searchOnly` to `false` opens and populates the search page with the search option. <br>**Note:** If the search result has multiple records, only records for account and contact entity are opened.<br><br>Set to `true` to get results of the search as a Promise object, instead of opening the record or search page.|
 | correlationId | GUID | No | Is used to group all related API calls together for diagnostic telemetry.   |
 | searchType         | Number    | No       | Type of search page to open&mdash;0 for relevance search and 1 for categorized search. If no parameter is provided, the records are searched by category.|
 | successCallback	| Function	| No	| A function to call when the request is successful. |
 | errorCallback |	Function	| No	| A function to call when the request fails. |
-
-
-> [!Note]
-> To search based on relevance, you must [configure relevance search](/power-platform/admin/configure-relevance-search-organization). If relevance search isn't enabled, then the search will be performed based on category. 
 
 ## Return value
 
@@ -45,8 +42,7 @@ Returns a Promise object of type String. On success, the method returns the sear
 
 > [!Note]
 > - You can fetch a maximum of 5000 records at once (if more than 5000 records exist). You can narrow down the results by using query options such as $filter, $select, and $top in the method parameters as shown in the [Examples](#examples) section. More information: [Query options overview](/odata/concepts/queryoptions-overview)
-> - If the search result has multiple records, only records for account and contact entity are opened.
-
+> - To search based on relevance, you must [configure relevance search](/power-platform/admin/configure-relevance-search-organization). If relevance search isn't enabled, then the search will be performed based on category. 
 
 
 ## Examples
