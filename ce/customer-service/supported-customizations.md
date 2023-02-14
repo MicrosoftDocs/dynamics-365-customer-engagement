@@ -32,11 +32,11 @@ We recommend that you don't create alternate keys.
 ## Customizations supported by the Conversation form
 
 You can customize the **Conversation** form to:
-- Add subgrids on the Conversation form, though you won't be able to show data for any related entities. For example, you can add a subgrid on the Conversation form that shows a list of all recordings, but you can't show the list of recordings related to that particular conversation.
+- Add subgrids on the Conversation form and view data for related entities in the subgrid
 - Load **Customer summary** form as an application tab instead of anchor tab in a session
 - Edit existing forms in the following ways:
     - Add custom fields and allow save of custom fields on the form
-    - Add custom controls. However, we recommend that you don't use custom controls to update a conversation as Omnichannel for Customer Service will overwrite the updates when the conversation ends. 
+    - Add custom controls. However, we recommend that you don't use custom controls to update any out-of-the-box field on the **Conversation** form as Omnichannel for Customer Service will overwrite the updates when the conversation ends. 
     - Add canvas apps, web resources and external website controls
     - Modify the form layout, resize controls, and create tabs and sections
     - Edit the quick view for customers and cases
