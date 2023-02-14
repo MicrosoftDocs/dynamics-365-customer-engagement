@@ -1,7 +1,7 @@
 ---
 title: "onclicktoact event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about onclicktoact event and its syntax for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 02/10/2023
+ms.date: 02/14/2023
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh

@@ -1,7 +1,7 @@
 ---
 title: "onsendkbarticle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0| MicrosoftDocs"
 description: "Learn about the onsendkbarticle event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
-ms.date: 12/31/2019
+ms.date: 02/14/2023
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh

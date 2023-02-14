@@ -1,7 +1,7 @@
 ---
 title: "Client-side events (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Read about the client side events that you can use to trigger the client-side code in Dynamics 365 Channel Integration Framework 1.0."
-ms.date: 05/25/2022
+ms.date: 02/14/2023
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
