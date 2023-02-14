@@ -101,7 +101,7 @@ Telephony channel providers are associated with agent profiles, which in turn ar
 
 ### Will my existing communication widget, built using Dynamics 365 Channel Integration Framework 1.0 APIs, continue to work with the Dynamics 365 Channel Integration Framework 2.0 app?
 
-Yes. You can use your communication widget on the Dynamics 365 Channel Integration Framework 2.0 app as well, however, you'll need to configure the channel provider and update the channel URL in the Customer Service admin center app. More information: [Configure channel providers](v2/configure-channel-provider-app-profile-manager.md)
+Yes. You can use your communication widget on the Dynamics 365 Channel Integration Framework 2.0, however, you'll need to configure the channel provider and update the channel URL in the Customer Service admin center app. More information: [Configure channel providers](v2/configure-channel-provider-app-profile-manager.md)
 
 ### How do I use the multisession experiences for my contact center with a third-party provider's communication widget?
 
