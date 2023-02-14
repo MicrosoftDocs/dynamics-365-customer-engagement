@@ -1,12 +1,13 @@
 ---
-title: "Pricing scenarios in voice channel "
-description: "Understand how pricing is calculated in the voice channel."
-ms.date: 02/15/2023
-ms.service: dynamics-365-customerservice
-ms.topic: article
-author: gandhamm
+title: Pricing scenarios in voice channel | MicrosoftDocs
+description: Use this article to understand how pricing works in the voice channel.
+author: gandhamm 
 ms.author: mgandham
-manager: shujoshi
+ms.reviewer: neeranelli
+ms.service: dynamics-365 
+ms.topic: concept 
+ms.date: 02/15/2023 
+ms.custom: bap-template 
 ---
 
 # Voice calling pricing scenarios
