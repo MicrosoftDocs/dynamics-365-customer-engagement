@@ -1,6 +1,6 @@
 ---
-title: Customizations supported by Conversation entity and form
-description: Learn about the customizations that are supported by the Conversation entity and form in Omnichannel for Customer Service.
+title: Customizations supported by the Conversation entity and form
+description: Learn about the customizations that you can and can't use with the Conversation entity and form in Omnichannel for Customer Service.
 author: mh-jaya
 ms.author: v-jmh
 ms.reviewer: nenellim
@@ -11,42 +11,42 @@ ms.custom: bap-template
 
 # Customizations supported by the Conversation entity and form
 
-This article lists the customizations supported by the **Conversation** entity and form in Omnichannel for Customer Service.
+This article lists the customizations that you can and can't use with the **Conversation** entity and the **Conversation** form in Omnichannel for Customer Service.
 
 ## Customizations supported by the Conversation entity
 
-You can customize the **Conversation** entity to:
+You can:
 - Create business rules on the entity.
-- Create new custom fields, views, and charts
+- Create new custom fields, views, and charts.
 - Associate a conversation with a lead or opportunity, or any other entity that's enabled for activity.
 - Prevent OC flush from overwriting changes made to custom fields on the form by agent.
 
-Here are a few actions that aren't supported on the **Conversation** entity:
-- You can't create new forms.
-- You can’t edit existing views or fields, but some properties of `msdyn_title` and `msdyn_thirdpartyconversations` can be changed.
-- You can’t add a lookup field (many-to-one relationship or many-to-many relationship) on the Conversation entity.
-- You can't use custom fields in unified routing or assignment.
+You can't:
+- Add new forms.
+- Edit existing views or fields. You can change some properties of `msdyn_title` and `msdyn_thirdpartyconversations`.
+- Add a lookup field (a many-to-one relationship or a many-to-many relationship).
+- Use custom fields in unified routing or assignment.
 
-We recommend that you don't create alternate keys. 
+We recommend that you don't create alternate keys.
 
 ## Customizations supported by the Conversation form
 
-You can customize the **Conversation** form to:
-- Add subgrids on the Conversation form and view data for related entities in the subgrid
-- Load **Customer summary** form as an application tab instead of anchor tab in a session
+You can:
+- Add subgrids on the Conversation form and view data for related entities in the subgrid.
+- Load the **Customer summary** form as an application tab instead of an anchor tab in a session.
 - Edit existing forms in the following ways:
-    - Add custom fields and allow save of custom fields on the form
-    - Add custom controls. However, we recommend that you don't use custom controls to update any out-of-the-box field on the **Conversation** form as Omnichannel for Customer Service will overwrite the updates when the conversation ends. 
-    - Add canvas apps, web resources and external website controls
-    - Modify the form layout, resize controls, and create tabs and sections
-    - Edit the quick view for customers and cases
-    - Render fields with values on the form
-    - Move sections to different tabs
-    - Remove recent cases subgrid
+    - Add custom fields and allow save of custom fields on the form.
+    - Add custom controls. However, we recommend that you don't use custom controls to update any out-of-the-box field on the **Conversation** form.  Omnichannel for Customer Service overwrites updates when the conversation ends. 
+    - Add canvas apps, web resources and external website controls.
+    - Modify the form layout, resize controls, and create tabs and sections.
+    - Edit the quick view for customers and cases.
+    - Render fields with values on the form.
+    - Move sections to different tabs.
+    - Remove **Recent cases** subgrid.
 
-We recommend that:
-- You don't change the **Conversation** form or the order in which it's displayed, as it's the default form.
-- You don't modify the out-of-the-box JavaScript handlers used in the **Customer summary** form.
+You can't:
+- Change the **Conversation** form or the order in which it's displayed, since it's the default form.
+- Modify the out-of-the-box JavaScript handlers used in the **Customer summary** form.
 
 ## Next steps
 
