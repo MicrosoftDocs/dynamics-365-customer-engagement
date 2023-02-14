@@ -1,7 +1,7 @@
 ---
 title: "FAQ about Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-ms.date: 12/27/2022
+ms.date: 02/25/2023
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -61,8 +61,8 @@ No, Dynamics 365 Channel Integration Framework is agnostic to operating systems 
 
 For the supported browsers information, see the following articles:
 
-- [System requirements for Dynamics 365 Channel Integration Framework 2.0](system-requirements-channel-integration-framework.md)
-- [System requirements for Dynamics 365 Channel Integration Framework 1.0](v2/system-requirements-channel-integration-framework-v2.md)
+- [System requirements for Dynamics 365 Channel Integration Framework 1.0](system-requirements-channel-integration-framework.md)
+- [System requirements for Dynamics 365 Channel Integration Framework 2.0](v2/system-requirements-channel-integration-framework-v2.md)
 
 ### Can partners package solutions that have a dependency on the Dynamics 365 Channel Integration Framework solution, together with the Dynamics 365 Channel Integration Framework solution?
 
@@ -101,7 +101,7 @@ Telephony channel providers are associated with agent profiles, which in turn ar
 
 ### Will my existing communication widget, built using Dynamics 365 Channel Integration Framework 1.0 APIs, continue to work with the Dynamics 365 Channel Integration Framework 2.0 app?
 
-Yes. Dynamics 365 Channel Integration Framework 1.0 APIs will continue to be available and supported for the single-session Unified Interface apps like Customer Service Hub and Sales Hub. Even with the Dynamics 365 Channel Integration Framework 2.0 app, they will continue to work.
+Yes. You can use your communication widget on the Dynamics 365 Channel Integration Framework 2.0 app as well, however, you'll need to configure the channel provider and update the channel URL in the Customer Service admin center app. More information: [Configure channel providers](v2/configure-channel-provider-app-profile-manager.md)
 
 ### How do I use the multisession experiences for my contact center with a third-party provider's communication widget?
 
