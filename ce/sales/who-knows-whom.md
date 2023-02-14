@@ -42,7 +42,7 @@ The Who knows whom information is available for contacts and leads.
 1. Based on the connection strength, identify a colleague who can introduce you to the lead and select **Get introduced**.
    
    > [!Note]
-   > If you don't see the Get introduced button, contact your administrator to [set up server-side synchronization](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks). 
+   > If you don't see the **Get introduced** button, contact your administrator to [set up server-side synchronization](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks). 
    
    An email to the selected colleague is pre-populated with the template text. You can refine the email content and send it.
    
