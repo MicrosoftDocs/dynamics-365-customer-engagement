@@ -49,7 +49,7 @@ This release is a hotfix on Field Service version [8.8.82.35](/dynamics365/field
 
 (Includes Universal Resource Scheduling version [3.12.96.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129638)).
 
- - No updates were made to Field Service (Dynamics 365) in this release.
+ - No updates were made to Dynamics 365 Field Service in this release.
 
 
 
