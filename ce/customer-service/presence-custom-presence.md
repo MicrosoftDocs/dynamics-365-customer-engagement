@@ -1,7 +1,7 @@
 ---
 title: Configure and manage presence and custom presence | MicrosoftDocs
 description: See how you can configure and manage presence and custom presence in Omnichannel for Customer Service
-ms.date: 04/04/2022
+ms.date: 02/16/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,8 +11,6 @@ ms.custom: intro-internal
 # Configure and manage custom presence
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 The presence status indicates an agent's availability. A presence status consists of two elements:
 
@@ -86,6 +84,6 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 [Understand and create workstreams](create-workstreams.md)  
 [Overview of unified routing](overview-unified-routing.md)  
 [Presence API](channel-integration-framework/v2/reference/microsoft-ciframework-v2.md#presence-apis)  
-[User presence not loading](troubleshoot-omnichannel-customer-service#troubleshoot-presence)  
+[User presence not loading](troubleshoot-omnichannel-customer-service#user-presence-isn’t-loading-or-user-is-shown-as-unknown)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
