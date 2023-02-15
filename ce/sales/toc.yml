@@ -39,6 +39,8 @@
           href: manage-sample-data.md
         - name: Add or remove sample data in Sales Professional
           href: install-sample-data.md
+    - name: Uninstall Sales Premium Add-ons      
+      href: uninstall-sales-insights.md
     - name: Configure your sales organization
       items:
         - name: System Settings - Sales
