@@ -24641,7 +24641,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/field-service/cfs-iot-associate-devices.md",
+      "source_path": "ce/field-service/cfs-iot-central-associate-devices.md",
       "redirect_url": "/dynamics365/field-service/connected-field-service",
       "redirect_document_id": "false"
     },
@@ -24656,17 +24656,17 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/field-service/cfs-iot-central-overview.md",
-      "redirect_url": "/dynamics365/field-service/connected-field-service",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/field-service/cfs-iot-tutorial-overview.md",
       "redirect_url": "/dynamics365/field-service/connected-field-service",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/cfs-iotcentral-mxchip.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iot-overview.md.md",
       "redirect_url": "/dynamics365/field-service/connected-field-service",
       "redirect_document_id": "false"
     }
