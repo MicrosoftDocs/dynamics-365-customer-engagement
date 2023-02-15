@@ -7,7 +7,6 @@ ms.date: 10/01/2021
 ms.topic: get-started
 
 ms.custom: template-trial-faq
-ms.reviewer: mhart
 ---
 
 # Dynamics 365 Field Service trial FAQ 

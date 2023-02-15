@@ -1,7 +1,7 @@
 ---
-title: Create and manage capacity profiles | MicrosoftDocs
-description: "Know how to create and manage capacity profiles in Customer Service"
-ms.date: 12/08/2022
+title: Create and manage capacity profiles
+description: "Know how to create and manage capacity profiles for agents in Customer Service."
+ms.date: 02/13/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -40,7 +40,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
    
-    - In the site map, select **User management** in **Customer support**. The **User management** page appears.    
+    - In the site map, select **User management** in **Customer support**. The **User management** page appears.
    
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
@@ -127,3 +127,4 @@ When a work item is labeled with multiple capacity profiles, the assignment stra
 [Create workstreams](create-workstreams.md)  
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
 [Map role personas](role-persona-mapping.md)  
+[Manage historical data of capacity updates for agents](manage-historical-data-capacity-updates.md)  

@@ -4,9 +4,8 @@ description: "Learn how to configure call recording, transcription, and real-tim
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/18/2022
+ms.date: 01/16/2023
 ms.topic: article
-
 ---
 
 # Configure call recording, transcription, and real-time translation
@@ -15,9 +14,9 @@ ms.topic: article
 
 As an administrator, you can enable live translation, transcription and recording of calls, which allows agents and supervisors to view the conversations with the customers in the language that's set as the default for them, and also transcripts of customer calls.
 
-> [!NOTE]
-> Many countries and states have laws and regulations that apply to the recording of PSTN (Public Switched Telephone Network), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording and transcription capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
-
+> [!IMPORTANT]
+> - Many countries and states have laws and regulations that apply to the recording of PSTN (Public Switched Telephone Network), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording and transcription capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
+> - If you use Power Virtual Agents bots as the interactive voice response (IVR) with the voice channel, the calls are transcribed in Power Virtual Agents even if the transcription and recording setting isn't enabled in the voice workstream.
 
 ## Enable call recording and transcription for voice
 
@@ -31,11 +30,11 @@ As an administrator, you can enable live translation, transcription and recordin
 
 1. In the **Transcription and recording** section, select the **Transcript and recording** dropdown menu, and then select **Transcription** or **Transcription and recording**.
 
-2. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want agents to record and transcribe their calls.
+1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want agents to record and transcribe their calls.
 
-3. Set **Allow agents to pause and resume** if you want to allow agents to control the portions of conversations that they record and transcribe.
+1. Set **Allow agents to pause and resume** if you want to allow agents to control the portions of conversations that they record and transcribe.
 
-4. Select **Save**.
+1. Select **Save**.
 
 ## Enable real-time translation of calls
 
@@ -65,7 +64,6 @@ You can view the call transcripts in Customer Service admin center or Omnichanne
 1. Select the **Delete** icon.
 
 Alternatively, you can delete the recordings from the [msdyn_ocrecording](developer/reference/entities/msdyn_ocrecording.md) entity by using the [DELETE](/power-apps/developer/data-platform/webapi/update-delete-entities-using-web-api) request.
-
 
 ### Storage location of your recordings and cost
  

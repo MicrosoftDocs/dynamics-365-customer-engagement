@@ -1,7 +1,7 @@
 ---
 title: "Configure automatic closure of conversations | MicrosoftDocs"
 description: "Use this article to understand how to configure the auto-close duration of conversations using the Web API."
-ms.date: 09/20/2022
+ms.date: 01/20/2023
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,8 @@ manager: shujoshi
 This article demonstrates how you can configure the auto-close duration of a conversation using the Web API.
 
 > [!IMPORTANT]
-> Duration-based automatic closure of conversations isn't supported for records that're configured for unified routing.
+> Duration-based automatic closure of conversations isn't supported for records that're configured for unified routing. When you delete a routed record, the associated queue item is deleted. The live work item or conversation will also be deleted as part of the clean-up process.
+
 
 Use the following `GET` request to fetch all the configuration records that have been defined out of the box.
 

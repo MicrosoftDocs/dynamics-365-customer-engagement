@@ -33,4 +33,4 @@ By default, the Salesperson and Sales Manager roles have the permissions to view
 
 ### See also
 
-[Use the Who Knows Whom tile](who-knows-whom.md#use-the-who-knows-whom-tile)
+[View who knows whom](who-knows-whom.md#view-who-knows-whom)

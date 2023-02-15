@@ -1,7 +1,7 @@
 ---
 title: "Personalize content using pre-defined dynamic text (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content using pre-defined dynamic text in Dynamics 365 Marketing."
-ms.date: 01/09/2023
+ms.date: 01/20/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -168,14 +168,16 @@ The event selection step can then be completed when the message created from thi
 > [!div class="mx-imgBorder"]
 > ![select a record to personalize](media/real-time-marketing-select-a-record-to-personalize.png "select a record to personalize")
 
-#### Limitations
+#### Managing additional tables for personalization
 
-1. The pick list can only contain 50 tables at any given time. You can, however, change the tables in the pick list. To change the pick list, select some dynamic text, expand the "Other tables (Needs record selection)" category, then select **Manage list**. Select the tables you want to add or remove, then select **Save**.
+The pick list contains up to 50 tables at any given time. To change the pick list tables, select a piece of dynamic text, expand the "Other tables (Needs record selection)" category, then select **Manage list**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Change the pick list](media/specific-record-manage-list.png "Change the pick list")
+Use the pre-defined filters next to the search bar in the **Manage list** window to quickly filter the tables list to all tables, tables selected by default, tables that you've selected, or tables that are actually in use in the current message.
 
-1. The additional tables aren't available to define conditions for [conditional content](conditional-content.md) or [journey conditions](real-time-marketing-tile-reference.md#attribute-branch).
+Select the tables you want to add or remove, then select **Save**.
+
+  > [!div class="mx-imgBorder"]
+  > ![Change the pick list](media/specific-record-manage-list.png "Change the pick list")
 
 > [!TIP]
 > Removing dynamic text only removes it from the pre-defined list, it does not remove it from the messages that are already using it.

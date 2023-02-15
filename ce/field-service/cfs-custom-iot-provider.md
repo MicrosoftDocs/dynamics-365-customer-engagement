@@ -2,7 +2,6 @@
 title: "Extensible IoT data sources for Connected Field Service | MicrosoftDocs"
 description: Learn how to use custom IoT providers in Connected Field Service.
 ms.date: 07/09/2020
-ms.reviewer: mhart
 
 ms.subservice: connected-field-service
 ms.topic: article
@@ -11,7 +10,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: keithh
 author: MSKeith
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
