@@ -30,7 +30,8 @@ This sample code is for Dynamics 365 Sales. Download the complete sample here [B
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
    
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../../customerengagement/on-premises/includes/sdk-seeconnectionhelper.md)
+
+[!INCLUDE [sdk-seeconnectionhelper](../../includes/sdk-seeconnectionhelper.md)]
   
 ## Demonstrates  
  This sample shows how to convert an opportunity that is won to a quote, then convert a quote to a sales order, and then convert a sales order to an invoice. It also shows how to lock and unlock the sales order and the invoice prices.  
