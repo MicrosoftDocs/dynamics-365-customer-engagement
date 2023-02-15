@@ -68,7 +68,7 @@ Alternatively, you can delete the recordings from the [msdyn_ocrecording](develo
 ### Storage location of your recordings and cost
  
 For components within the Microsoft stack, the data doesn’t cross geographical boundaries during transit. The bring-your-own-carrier model has dependencies on third parties with components outside the Microsoft stack, and the data needs to be reviewed end-to-end. 
-The components can be in a different geographic location from the Azure Communication Services location as shown in the following illustration:
+The components can be in a different geographic location from the Azure Communication Services location as shown in the following illustration.
 
 
 :::image type="content" source="media/vc-data-residency.png" alt-text="Storage location information" lightbox="media/vc-data-residency-enlarged.png":::
