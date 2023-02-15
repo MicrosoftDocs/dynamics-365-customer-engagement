@@ -1,7 +1,7 @@
 ---
 title: "Configure rules-based suggested contacts when starting a Microsoft Teams chat in Dynamics 365 Customer Service | Microsoft Docs"
 description: "Learn how to configure the ability to use rules-based suggested contacts."
-ms.date: 01/05/2023
+ms.date: 02/14/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -57,7 +57,7 @@ A maximum of 10 rules are supported per record type.
 1. On the settings pane, in the **Update rules for suggesting contacts** section, select **Add new rule**. The **Add rule** pane is displayed for the record type you selected.
 1. Type a **Rule name** for the rule. The name you enter will be displayed on the contact, and it will also appear in the rule list.
 1. Select from the following **Rule type** options:
-   - **Relational**: Suggest a user who has a relationship with the linked record type or one of its related records. You can select up to ten related entites for each record type.
+   - **Relational**: Suggest a user who has a relationship with the linked record type or one of its related records. You can select up to ten related entities for each record type.
    - **Custom**: You can use your own custom logic with a record type, and then apply it. More information: 
 
 1. Select **Save**.
