@@ -21,7 +21,7 @@ For work items, such as calls, conversations, and cases, you can address the fol
 
 If you don't configure overflow, by default, the work item will stay in the queue until it gets routed based on the routing rules configured for the workstream.
 
-## How overflow works
+## How queue overflow is evaluated
 
 The overflow conditions and actions are run only if the route-to-queues rule is configured. The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queues rules are evaluated. Any manual actions like agent transfer or supervisor assign won't trigger overflow actions.
 
