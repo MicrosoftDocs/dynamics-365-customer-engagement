@@ -1,7 +1,7 @@
 ---
 title: "Enable case grids for agents| MicrosoftDocs"
 description: "Learn how you can enable case grids and increase agent productivity."
-ms.date: 12/16/2022
+ms.date: 02/15/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -19,6 +19,16 @@ ms.custom:
 ---
 
 # Enable case grids
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
 
 The modernized case grids help you increase agent productivity by providing quick access to information, such as the last customer interaction, case age, and the next SLA breach. The modern UI presents data in an intuitive manner that helps you and your agents perform inline edits and quick operations with minimal clicks, thereby facilitating decision-making.
 
