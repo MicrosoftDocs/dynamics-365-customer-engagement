@@ -28,8 +28,9 @@ As administrators, you will also be able to set up a data refresh schedule to sp
 ingestion service. The ingestion service will capture newly or updated articles along with any data that might have been missed during syncing and ingestion.
 
 ## Prerequisites
-- You must prepare the metadata mapping schema file with your article properties to be able to validate the knowledge article schema. More information: Develop metadata mapping schema
-- If your website is registered using Azure Active Directory, you’ll need to use OAuth, and provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated from the AAD Application registration page. More information: Apply authentication
+- You must prepare the metadata mapping schema file with your article properties to be able to validate the knowledge article schema. More information: [Develop metadata mapping schema for knowledge articles (preview)](int-search-metadata-schema.md#develop-metadata-mapping-schema-for-knowledge-articles-preview)
+
+- If your website is registered using Azure Active Directory, you’ll need to use OAuth, and provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated from the AAD Application registration page. More information: [Apply authentication (preview)](apply-authentication-provider.md#apply-authentication-preview)
 
 ## Provision integrated search providers
 If you are a first time user, you'll need to enable the integrated search provider provisioning from the Customer Service admin center.
@@ -59,12 +60,12 @@ After the provisioning is complete, you can add an integrated search provider by
     1. Select **Next**.
 1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you have saved it. For details on knowledge article schema mapping, go to [Configure knowledge article schema mapping (preview)](int-data-mapping.md#configure-knowledge-article-schema-mapping-preview).
 1.	In the **Refresh Schedule** section, specify the refresh intervals:
-    1. **Refresh frequency**: 
-        1. Select between **15 mnts** to **7 days** from the dropdown list. Your selection specifies the frequency at which newly created or updated articles will be ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
-    1. **Lookback period**: 
-        1. Select between **2hrs** to **8hrs** from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during syncing and ingestion.
+    1. **Refresh frequency**:
+        1. Select between **15min** to **7days** from the dropdown list. Your selection specifies the frequency at which newly created or updated articles will be ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
+    1. **Lookback period**:
+        1. Select between **2h** to **8h** from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during syncing and ingestion.
         
-            For example, if you set the **Refresh frequency** at 15mnts and **Lookback period** at 2hrs, your data will be refreshed for the last 2hrs and 15mnts, in every 15mnts.
+            For example, if you set the **Refresh frequency** at 15min and **Lookback period** at 2h, your data will be refreshed for the last 2h and 15min, in every 15min.
         1. Select **Next**.
 1.	In the **Summary** section, review your search provider setup and make changes, if any, to the **Search provider name**, **URL**, **Authentication type**, **Refresh frequency**, and **Lookback period**.
     1. Select **Add provider**.

@@ -1,5 +1,5 @@
 ---
-title: Develop metadata mapping schema for knowledge articles  #Required; page title displayed in search results. Don't enclose in quotation marks.
+title: Develop metadata mapping schema for knowledge articles (preview) #Required; page title displayed in search results. Don't enclose in quotation marks.
 description: Concept description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
 author: rhanajoy #Required; your GitHub user alias, with correct capitalization.
 ms.author: rhcassid #Required; your Microsoft alias; optional team alias.
@@ -14,7 +14,7 @@ ms.custom: bap-template #Required; don't change.
 <!--This template provides the basic structure of a concept article. See [Write a concept article](write-a-concept-article.md) in the contributor guide. To provide feedback on this template contact [bace feedback team](mailto:templateswg@microsoft.com).-->
 
 <!--H1 - Required. This should match the title you entered in the metadata. Set expectations for what the content covers, so customers know the content meets their needs. Should NOT begin with a verb.-->
-# Develop metadata mapping schema for knowledge articles 
+# Develop metadata mapping schema for knowledge articles (preview)
 
 <!--Introductory paragraph - Required. Lead with a light intro that describes what the article covers. Answer the fundamental "What is X and how will learning this help me accomplish Y?" question. A good lead is a sentence in the form, "X is a (type of) Y that does Z." Keep this paragraph short.-->
 <!--add your intro paragraph here-->
