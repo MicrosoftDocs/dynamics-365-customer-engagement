@@ -67,18 +67,19 @@ Alternatively, you can delete the recordings from the [msdyn_ocrecording](develo
 
 ### Storage location of your recordings and cost
  
-For components within the Microsoft stack, the data doesn’t cross geographical boundaries during transit. The bring-your-own-carrier model has dependencies on third parties with components outside the Microsoft stack, and the data needs to be reviewed end-to-end. The components can be in a different geographic location from the Azure Communication Services location as shown in the image below:
+For components within the Microsoft stack, the data doesn’t cross geographical boundaries during transit. The bring-your-own-carrier model has dependencies on third parties with components outside the Microsoft stack, and the data needs to be reviewed end-to-end. 
+The components can be in a different geographic location from the Azure Communication Services location as shown in the following illustration:
 
- > [!div class="mx-imgBorder"]
-   > ![Screenshot of data residency](./media/vc-data-residency.png)
+
+    :::image type="content" source="media/vc-data-residency.png" alt-text="Storage location information" lightbox="media/vc-data-residency-enlarged.png":::
 
 **Legend**
 
 | Number | Description |
 |-----|-------------------|
-|1 | **Session Border Controller**<br>  For Microsoft calling plans where Microsoft is the carrier, Microsoft determines the location where the data is stored.<br> **Direct Routing**:  For the bring-your-own-carrier model, the data resides in the region where the Session Border Controller is hosted. |
+|1 | **Session Border Controller**<br>  For Microsoft calling plans where Microsoft is the carrier, Microsoft determines the location to store data.<br> **Direct Routing**:  For the bring-your-own-carrier model, the data resides in the region where the Session Border Controller is hosted. |
 |2 | **Azure Communication Services**:<br>  The data resides in the location where the Azure Communication Services subscription is acquired. |
-|3 | **Microsoft Dataverse**:<br>  The Microsoft Dataverse server location, Dynamics 365 tenant, Cosmos DB, and Azure Speech Service should all be in the same location chosen during purchase |
+|3 | **Microsoft Dataverse**:<br>  The Microsoft Dataverse server location, Dynamics 365 tenant, Cosmos DB, and Azure Speech Service should all be in the same location chosen during purchase. |
 |4 | **Kusto**:<br> Microsoft stores the data for telemetry in Kusto, which is located either in the EMEA or the East US cluster. |
 
 
