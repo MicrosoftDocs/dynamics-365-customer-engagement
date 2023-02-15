@@ -1,25 +1,9 @@
----
-title: "Connect Gmail accounts using OAuth 2.0| MicrosoftDocs"
-description: "Connect Dynamics 365 Customer Engagement (on-premises) to Gmail accounts using OAuth 2.0 "
-ms.component: pa-admin
-ms.topic: conceptual
-ms.date: 04/04/2022
-author: DanaMartens
-ms.subservice: admin
-ms.author: dmartens
-ms.reviewer: jimholtz
-search.audienceType: 
-  - admin
-search.app:
-  - D365CE
----
-
 # Connect Gmail accounts by using OAuth 2.0 
 
 Follow the steps in this article to set up server-side synchronization to send and receive email in Dynamics 365 Customer Engagement (on-premises) from Gmail accounts by using OAuth 2.0 as the authorization mechanism.
 
 > [!NOTE]
-> The Gmail OAuth email server profile works for up to 100 users. Create multiple OAuth profiles (steps 1 through 4) if you want to associate the same profile with multiple users.
+> The Gmail OAuth email server profile requires version 9.1 or later and works for up to 100 users. Create multiple OAuth profiles (steps 1 through 4) if you want to associate the same profile with multiple users.
 
 ## Step 1. Enable IMAP or POP in Gmail
 
@@ -71,26 +55,31 @@ Follow the steps for **Create a project** in [Create, shut down, and restore pro
 
 ## Step 4. Create an email server profile
 
-1. In the web app, go to **Settings** > **Email Configuration**.
+1. In the upper-right corner of the web app, select **Settings**, and then select **Advanced settings**.
 
-2. Select **Email Server Profiles**.  
+1. Go to **Settings** > **Email Configuration**.
 
-3. On the command bar, select **New server profile**.
+1. Select **Email Server Profiles**.  
 
-4. For **Email Server Type**, select **Gmail**, and then specify a meaningful **Name** for the profile.
+1. On the command bar, select **New** and then select **IMAP/SMTP Server**.
 
-5. If you want to use this server profile as the default profile for new mailboxes, turn on **Set as default profile for new mailboxes**.
+1. Specify a meaningful **Name** for the profile.
 
-6. For **Authentication Type**, select **Gmail OAuth**.
+1. For **Incoming Server Location** provide **imap.gmail.com**.	
 
-7. For **Client id** and **Client Secret**, enter the information you noted in step 8 of the previous procedure.
+1. For **Outgoing Server Location** provide **smtp.gmail.com**.	
 
-   > [!NOTE]
-   > The **Locations and ports** fields are automatically populated.
+1. For **Authenticate Using**, select **Gmail OAuth**.
 
-8. Expand **Advanced**, and then use the tooltips to choose your email processing options.
+1. For **Client id** and **Client Secret**, enter the information you noted in step 8 of the previous procedure.
 
-10. When you're done, select **Save**.
+1. Expand **Advanced**, and then use the tooltips to choose your email processing options.
+
+1. For **Incoming Port** the port should be **993**.
+
+1. For **Outgoing Port** the port should be **587**. 
+
+1. When you're done, select **Save**.
 
 
 ## Step 5. Configure the mailbox
