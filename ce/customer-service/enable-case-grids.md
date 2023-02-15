@@ -110,7 +110,8 @@ In the following example, you add a new **Option Set Value** with the label **Cu
 
 ### See also
 
-[Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
+[Enable entities for service-level agreements](enable-entities-service-level-agreements.md)
+  
 [Troubleshoot issues in SLAs](troubleshoot-sla-issues.md)  
 
 
