@@ -58,22 +58,3 @@ You can add both an interval and a time group to the same fulfillment preference
   - If the **Reset Interval per Time Group Detail** is set to **Yes**, the appointments would be:
 
     8:00 AM, 9:30 AM, 11:00 AM, (not 12:30 PM because this is blocked for lunch), **1:00 PM** (resetting for the next time group detail), 2:30 PM, and 4:00 PM.
-
-<!-- section below still needed?-->
-
-### Supported vs. not supported functionality
-
-In v3.1 of Universal Resource Scheduling (URS), some features will work when scheduling both individual requirements and groups of requirements, and some features will not work for both. Please use the following table for guidance.
-
-
-| Fulfillment Preference Feature  |  Compatible with scheduling a single requirement?  |  Compatible with scheduling a requirement group? | 
-|---|---|---|---|---|
-| View results by interval  |  Yes |  Yes |
-| Change interval on schedule board  |  Yes |  Yes |
-| Change results per interval on schedule board |  Yes |  Yes |  
-|  Results per interval |  Yes |  Yes |  
-| Intervals begin |  Yes | Yes  |   
-| Show results by time group detail  | Yes  | No  |  
-| Reset intervals per time group detail  | Yes |  N/A | 
-| Display top X results per time group detail  | Yes  |  N/A |
-| Hide Booking Time  | Yes (Time Group Detail) |  N/A |
