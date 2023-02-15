@@ -1,10 +1,8 @@
 ---
 title: "Build your own Connected Field Service (IoT) solution (contains video) | MicrosoftDocs"
 description: Provide pro-active field service with the Connected Field Service solution. Connect devices and equipment via the Internet of Things (IoT) and Microsoft cloud services to detect and diagnose problems and enable predictive maintenance. Extend or customize the Connected Field Service solution to meet your service organization's business needs.
-ms.reviewer: mhart
 ms.author: keithh
 author: MSKeith
-manager: shellyha
 ms.date: 07/27/2022
 ms.topic: overview
 

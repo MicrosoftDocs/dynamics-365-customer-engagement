@@ -8,20 +8,11 @@ ms.author: mgandham
 manager: shujoshi
 ---
 
-# Voicemail (preview) dashboard
+# Voicemail dashboard
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and agent.
 
-The Voicemail (preview) dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and agent.
-
-### Access the Voicemail (preview) dashboard
+## Access the Voicemail dashboard
 
 [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 

@@ -101,7 +101,8 @@ You can transfer conversations from one bot to another with different primary la
 
 ### Can I recover data and phone numbers from a voice trial organization after it has expired?
 
-No, you can't recover your data and trial phone numbers after the trial organization has expired and has been deprovisioned.
+No, you can't recover your data and phone numbers after the voice trial organization has expired and been deprovisioned. 
+
 
 ### Is disaster recovery supported for the voice channel?
 

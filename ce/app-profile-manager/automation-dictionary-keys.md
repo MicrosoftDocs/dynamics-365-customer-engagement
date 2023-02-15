@@ -4,7 +4,7 @@ description: "Learn about the supported formats to pass parameter values in the 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/18/2022
+ms.date: 02/13/2023
 ms.topic: article
 ---
 
@@ -195,13 +195,13 @@ You can use OData queries to get the contexts that are available from Dataverse.
 
 The OData query format is:
 
-`{$Odata.<entityName>.<entityAttributeName>.<?options>}`
+`{$odata.<entityName>.<entityAttributeName>.<?options>}`
 
 **Examples:**
 
-- `{$Odata.account.name.?$filter=accountid eq '{customerRecordId}'}`
-- `{$Odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}`
-- `{$Odata.incident.title.?$filter=incidentid eq '{caseId}'&$select=title}`
+- `{$odata.account.name.?$filter=accountid eq '{customerRecordId}'}`
+- `{$odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}`
+- `{$odata.incident.title.?$filter=incidentid eq '{caseId}'&$select=title}`
 
 ### Static values
 

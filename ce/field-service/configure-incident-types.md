@@ -2,11 +2,9 @@
 title: Create work order templates with incident types
 description: Learn about configuring incident types in Dynamics 365 Field Service.
 ms.date: 09/27/2022
-ms.reviewer: mhart
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -216,8 +214,6 @@ Use the incident type to fill in detail according to its configuration by adding
 
 Finally, after it's scheduled, the field technician will receive the booked work order along with the incident and related details.
 
-:::image type="content" source="media/work-order-incident-type-mobile.png" alt-text="Screenshot of Field Service Mobile work order, with the populated information highlighted.":::
-
 ## Add multiple incident types to a work order
 
 You can add multiple incident types to a work order. For example, a machine has multiple issues or multiple machines need to be worked on. All incidents should be performed by the dispatched resource. Adding multiple incidents to a work order will add to the duration and existing service tasks, products, services, and characteristics.
@@ -241,7 +237,7 @@ You can add multiple incident types to a work order. For example, a machine has 
 
 ## Use customer assets with incident types
 
-You can relate [customer assets](configure-set-up-customer-assets.md) to incidents to inform field technicians which asset needs attention and build a service history. You can have all incidents related to the same asset or even have each incident related to different customer assets as needed.
+You can relate [customer assets](assets.md) to incidents to inform field technicians which asset needs attention and build a service history. You can have all incidents related to the same asset or even have each incident related to different customer assets as needed.
 
 :::image type="content" source="media/work-order-incident-type-customer-seet.png" alt-text="Screenshot of the customer asset entity with related work orders highlighted.":::
 
