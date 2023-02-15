@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Customizations supported by the Conversation entity and form
 
-This article lists the customizations that you can and can't use with the **Conversation** entity and the **Conversation** form in Omnichannel for Customer Service.
+This article lists the customizations that you can and can't use with the **Conversation** entity (`msdyn_ocliveworkitem`)and the **Conversation** form in Omnichannel for Customer Service.
 
 ## Customizations supported by the Conversation entity
 
@@ -19,7 +19,6 @@ You can:
 - Create business rules on the entity.
 - Create new custom fields, views, and charts.
 - Associate a conversation with a lead or opportunity, or any other entity that's enabled for activity.
-- Prevent OC flush from overwriting changes made to custom fields on the form by agent.
 
 You can't:
 - Add new forms.
@@ -27,7 +26,9 @@ You can't:
 - Add a lookup field (a many-to-one relationship or a many-to-many relationship).
 - Use custom fields in unified routing or assignment.
 
-We recommend that you don't create alternate keys.
+We recommend that:
+- You set a default value to system-required fields, if you need to add such fields to the **Conversation** entity.
+- You don't create alternate keys. 
 
 ## Customizations supported by the Conversation form
 
