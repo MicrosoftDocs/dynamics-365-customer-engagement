@@ -30,7 +30,7 @@ ms.custom:
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-The modernized case grids help you increase agent productivity by providing quick access to information, such as the last customer interaction, case age, and the next SLA breach. The modern UI presents data in an intuitive manner that helps you and your agents perform inline edits and quick operations with minimal clicks, thereby facilitating decision-making.
+Increase your agent's productivity by providing quick access to information, such as the last customer interaction, case age, and the next SLA breach, with modernized case grids. The modern UI presents data in an intuitive manner that helps you and your agents perform inline edits and quick operations with minimal clicks, thereby facilitating decision-making.
 
 ## Key features
 
@@ -90,7 +90,7 @@ To make the **Enhanced Active Cases** view accessible to agents in Customer Serv
 1. On the **Case** page, select **Views**.
 1. Select the case type that you want to update, for example, **All Cases**.
 1. On the **View** page, select **+ View** column.
-1. In the **View column** dialog, search for the column that you want to add&mdash;for example, the **Last Interaction** column. The **Last Interaction** column will now appear on the **View** page.
+1. In the **View column** dialog, search for the column that you want to add&mdash;for example, the **Last Interaction** column. The **Last Interaction** column now appears on the **View** page.
 1. Select **Save**, and then select **Publish**.
 
 ### Add new icons for Origin and Priority Columns
