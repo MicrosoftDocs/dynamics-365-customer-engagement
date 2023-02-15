@@ -19,7 +19,7 @@ You can uninstall the Sales Premium Add-ons for Dynamics 365 Sales if you don't 
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## How to uninstall Sales Insights
+## How to uninstall Sales Premium
   
 1.	As an administrator, sign in to your sales app.
 2.	Go to **Advanced settings**, and then select **Settings** > **Customization** > **Solutions**.  
@@ -40,7 +40,7 @@ Although you've deleted the solutions, your organization data might still be sto
 
 ## What happens to data
 
-After you uninstall Sales Insights, Dynamics 365 won't keep any Sales Insights data for your organization in the storage locations where it's hosted.
+After you uninstall Sales Premium, Dynamics 365 won't keep any Sales Premium data for your organization in the storage locations where it's hosted.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
