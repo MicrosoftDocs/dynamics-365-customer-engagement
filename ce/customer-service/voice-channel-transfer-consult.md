@@ -13,7 +13,7 @@ manager: shujoshi
 
 You can transfer calls or consult with other agents or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
 
-To familiarize yourself with the call controls, see [understand how to use the agent dashboard and call controls](voice-channel-agent-experience.md).
+To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](voice-channel-agent-experience.md).
 
 ## How you can transfer calls
 
