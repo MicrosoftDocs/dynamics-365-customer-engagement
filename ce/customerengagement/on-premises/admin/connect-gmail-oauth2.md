@@ -119,6 +119,3 @@ In the Google Cloud Platform (Developer Console), add users in the **Test Users*
 > These steps should be done by the mailbox user.
 
 Select **Test & Enable Mailbox** to test the mailbox configured in step 6.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
