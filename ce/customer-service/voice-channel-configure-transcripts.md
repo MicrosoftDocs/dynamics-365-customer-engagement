@@ -71,7 +71,7 @@ For components within the Microsoft stack, the data doesn’t cross geographical
 The components can be in a different geographic location from the Azure Communication Services location as shown in the following illustration:
 
 
-    :::image type="content" source="media/vc-data-residency.png" alt-text="Storage location information" lightbox="media/vc-data-residency-enlarged.png":::
+  :::image type="content" source="media/vc-data-residency.png" alt-text="Storage location information" lightbox="media/vc-data-residency-enlarged.png":::
 
 **Legend**
 
