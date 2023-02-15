@@ -84,6 +84,6 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 [Understand and create workstreams](create-workstreams.md)  
 [Overview of unified routing](overview-unified-routing.md)  
 [Presence API](channel-integration-framework/v2/reference/microsoft-ciframework-v2.md#presence-apis)  
-[User presence not loading](troubleshoot-omnichannel-customer-service#user-presence-isn’t-loading-or-user-is-shown-as-unknown)  
+[User presence isn't loading](troubleshoot-omnichannel-customer-service#user-presence-isnt-loading-or-user-is-shown-as-unknown)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

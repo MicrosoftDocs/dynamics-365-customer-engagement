@@ -96,7 +96,7 @@ When you reset the agent presence based on the missed notification or the agent 
 
 ### Troubleshoot display of presence
 
-[Why doesn't my presence load?](troubleshoot-omnichannel-customer-service.md#troubleshoot-presence)
+[Why doesn't my presence load?](troubleshoot-omnichannel-customer-service.md#user-presence-isnt-loading-or-user-is-shown-as-unknown)
 
 ### See also
 
