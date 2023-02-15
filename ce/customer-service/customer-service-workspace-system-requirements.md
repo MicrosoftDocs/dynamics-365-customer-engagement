@@ -25,8 +25,8 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 
 | Area | Requirements |
 |----------|----------|
-| Model-driven app | Dynamics 365 Customer Service workspace app 9.1.0000.20164. |
-| Web browsers | Supported browsers: <li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li> |
+| Model-driven app | Dynamics 365 Customer Service workspace app 9.2.0000.00000. |
+| Web browsers | Supported browsers: <li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended); version 110.0.0000.00 or later is required for the desktop notifications feature </li> <li> Google Chrome </li> |
 |||
 
 ### Hardware requirements
