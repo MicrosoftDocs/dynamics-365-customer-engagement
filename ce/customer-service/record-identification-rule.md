@@ -1,7 +1,7 @@
 ---
 title: "Identify customers automatically | MicrosoftDocs"
 description: "Learn how to automatically identify customers by using pre-conversation responses in Omnichannel for Customer Service."
-ms.date: 02/14/2023
+ms.date: 02/15/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
