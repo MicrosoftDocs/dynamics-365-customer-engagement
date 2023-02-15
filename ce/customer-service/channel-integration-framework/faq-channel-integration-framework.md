@@ -1,7 +1,7 @@
 ---
 title: "FAQ about Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-ms.date: 02/25/2023
+ms.date: 02/16/2023
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -59,7 +59,7 @@ No, Dynamics 365 Channel Integration Framework is agnostic to operating systems 
 
 ### Which web browsers does Dynamics 365 Channel Integration Framework support?
 
-For the supported browsers information, see the following articles:
+For information on supported browsers, see the following articles:
 
 - [System requirements for Dynamics 365 Channel Integration Framework 1.0](system-requirements-channel-integration-framework.md)
 - [System requirements for Dynamics 365 Channel Integration Framework 2.0](v2/system-requirements-channel-integration-framework-v2.md)
