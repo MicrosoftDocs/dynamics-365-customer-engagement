@@ -1,8 +1,7 @@
 ---
-title: "Extend marketing forms using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
-description: "Extend marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
-ms.date: 05/04/2021
-
+title: "Extend outbound marketing forms using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Extend outbound marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
+ms.date: 02/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -16,11 +15,11 @@ search.app:
   - D365Mktg
 ---
 
-# Extend marketing forms using code
+# Extend outbound marketing forms using code
 
 A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form, and choose local settings for it, which applies to that page only. More information [Marketing forms](/dynamics365/customer-engagement/marketing/marketing-forms)
 
-Marketing forms can be extended using JavaScript to perform custom business actions in the [Dynamics 365 Marketing](/dynamics365/customer-engagement/marketing/overview). Following are the methods that are available to extend marketing forms.
+Outbound marketing forms can be extended using JavaScript to perform custom business actions in the [Dynamics 365 Marketing](/dynamics365/customer-engagement/marketing/overview). Following are the methods that are available to extend outbound marketing forms.
 
 ## JavaScript API
 
@@ -103,7 +102,7 @@ To add the JavaScript code, you need to follow the steps below:
 
 To add the code snippet, you need to follow the steps below:
 
-1. Navigate to the **Marketing** app and go to **Marketing forms**
+1. Navigate to the **Marketing** app and go to **Marketing forms** in the **Outbound marketing** area
 2. Choose **New** to create a new marketing form.
 3. Select **Go live**.
 4. Select the **Form hosting** tab and under the **Available domains for form hosting**, select the domain if it is available, or select **+ Create new domain**.
@@ -175,7 +174,7 @@ To add the code snippet, you need to follow the steps below:
     });
     ```
 
-3. Localize the form (picklist) - You can use client-side extensibility to localize marketing forms. Localization must occur after the form is loaded (`afterFormLoad` event). Inside the marketing page (or in the CMS where you host the form), add the following localization script:
+3. Localize the form (picklist) - You can use client-side extensibility to localize outbound marketing forms. Localization must occur after the form is loaded (`afterFormLoad` event). Inside the marketing page (or in the CMS where you host the form), add the following localization script:
 
     ```JS
     <script>

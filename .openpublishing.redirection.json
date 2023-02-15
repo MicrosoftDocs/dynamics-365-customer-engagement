@@ -261,6 +261,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customerengagement/on-premises/developer/create-early-bound-entity-classes-code-generation-tool.md",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/generate-early-bound-classes",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/use-metadata-generate-entity-diagrams.md",
       "redirect_url": "/power-apps/developer/data-platform/use-metadata-generate-entity-diagrams",
       "redirect_document_id": "false"
@@ -24618,6 +24623,21 @@
     {
       "source_path": "ce/field-service/mobile-2020-power-platform.md",
       "redirect_url": "/dynamics365/field-service/mobile-power-app-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/scheduling-analytics-reports.md",
+      "redirect_url": "/dynamics365/field-service/reports",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/appsource-addins.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-dynamics365-government.md",
+      "redirect_url": "/power-platform/admin/government-feature-availability",
       "redirect_document_id": "false"
     }
   ]
