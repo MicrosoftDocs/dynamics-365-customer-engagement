@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Customizations supported by the Conversation entity and form
 
-This article lists the customizations that you can and can't use with the **Conversation** entity (`msdyn_ocliveworkitem`)and the **Conversation** form in Omnichannel for Customer Service.
+This article lists the customizations that you can and can't use with the **Conversation** entity (`msdyn_ocliveworkitem`) and the **Conversation** form in Omnichannel for Customer Service.
 
 ## Customizations supported by the Conversation entity
 
