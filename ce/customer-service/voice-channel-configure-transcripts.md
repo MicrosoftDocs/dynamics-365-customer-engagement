@@ -76,8 +76,7 @@ For components within the Microsoft stack, the data doesn’t cross geographical
 
 | Number | Functionality | Description |
 |-----|------------|------------|
-|1 | Session Border Controller | <li>For Microsoft calling plans where Microsoft is the carrier, Microsoft determines the location where the data is stored.</li>
-     <li> Direct Routing:  For the bring-your-own-carrier model, the data resides in the region where the Session Border Controller is hosted.</li> |
+|1 | Session Border Controller | For Microsoft calling plans where Microsoft is the carrier, Microsoft determines the location where the data is stored.<br> Direct Routing:  For the bring-your-own-carrier model, the data resides in the region where the Session Border Controller is hosted. |
 |2 | Azure Communication Services | The data resides in the location where the Azure Communication Services subscription is acquired. |
 |3 | Microsoft Dataverse | The Microsoft Dataverse server location, Dynamics 365 tenant, Cosmos DB, and Azure Speech Service should all be in the same location chosen during purchase |
 |4 | Kusto | AMicrosoft stores the data for telemetry in Kusto, which is located either in the EMEA or the East US cluster. |
