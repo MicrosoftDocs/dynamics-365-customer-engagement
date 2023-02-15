@@ -55,7 +55,7 @@ Display an option to delete the rows created in the [Setup](#setup). The deletio
 ### See also  
  [Campaign Tables](campaign-entities.md)   
  [Sample: Distribute a Quick Campaign](sample-distribute-a-quick-campaign.md)   
- [List (Marketing List) Table](list-marketing-list-table.md)  
+ [List (Marketing List) Table](list-marketing-list-entity.md)  
  [Marketing Tables (Campaign, List)](marketing-entities-campaign-list.md)   
  [Sample: Distribute Campaign Activities to Qualified Marketing List](sample-distribute-campaign-activities-qualified-marketing-list.md)   
  <xref:Microsoft.Crm.Sdk.Messages.AddMemberListRequest>   
