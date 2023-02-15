@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 02/07/2023
+ms.date: 02/15/2023
 ms.custom: bap-template
 ---
 
@@ -31,18 +31,25 @@ To add an integrated search provider you'll need to configure the knowledge arti
 
 ## Use field mapping
 
-1. Save the article as an .html file, and then upload the file by selecting **Choose file**. You'll view all the meta tags corresponding to your HTML file in the **Meta tags settings** section.
+Through field mapping, you'll be able to use an operation type on your source property or website to map a value to a field in the knowledge article entity.
+
+Article attributes are the knowledge article target field values. Operation type defines the mapping pattern type from their source article to the target field of the knowledge article entity. More information: [Operation type mapping options](#operation-type-mapping-options). Source Property is the value that you will define for each operation type. For example, if you select Direct operation type, you will have to select from the previously selected meta tags or the HTML-Title or HTML-Body tag.
+
+Using an operation on your source property/website u can map a value to a field in the target entity, which is the knowledge article entity. This is the final mapping that you want to set up.
+
+1. Save the article as an HTML file, and then upload the file by selecting **Choose file**. Make sure that the file name is less than 99 letters. You'll view all the meta tags corresponding to your HTML file in the **Meta tags settings** section.
 1. You can select all the meta tags by selecting the **Select all below meta tags** checkbox or select only the required meta tags.
 
-    The meta tags that you select will be available in the **Mapping** section. If you don't select any meta tags, you'll only see the **HTMLTitle** source property, which is available by default.
+    The meta tags that you select will be available in the **Mapping** section. If you don't select any meta tags, you'll only see the **HTML-Title** and **HTML-Body** source properties, which are available by default.
 1. Select **Next**.
-1. On the **Mapping** section, select the **Operation Type** and **Source Property** for the mandatory knowledge article attributes, which are **External Reference Id**, **Title**, and **Content**. For mre information on the various operation types, go to [Operation type mapping options](#operation-type-mapping-options).
+1. On the **Mapping** section, select the **Operation Type** and **Source Property** for the mandatory knowledge article attributes, which are **External Reference Id**, **Title**, and **Content**. Make sure that the **External Reference Id** value is unique. For more information on the various operation types, go to [Operation type mapping options](#operation-type-mapping-options).
 1. To add additional article attributes, select **Add Row**, and then select the **Article Attribute**, **Operation Type**, and the **Source Property** from the respective dropdown lists.
 1. You can also  delete the additional article attribute, by selecting **Delete**.
 1. Select **Validate mapping**.
-    1. Select **Next**.
+   The entries in the mapping table and the Regex patterns are validated. There are no validations for RegexUrl.
+1. Select **Next**.
 
-You'll see a confirmation message when the validation is successful. In case of an error message, you'll need to check the entries in the mapping table.
+If the validation is successful, you'll see a confirmation message. If the validation is not successful, you'll see an error message. Depending on the error message, you'll need to either check the entries in the mapping table or the regex patterns that you have provided for the article attributes.
 
 ## Use JSON
 
@@ -54,9 +61,9 @@ You'll see a confirmation message when the validation is successful. In case of 
 
 ### Operation type mapping options
 
-- **Regex**: Select this when you want to use Regex patterns to extract values from their source website. When you select this option, the source property will be a text area where you can enter the regex pattern. The string from their website's HTML that matches this pattern will be used to map to the corresponding knowledge article field.
+- **Regex**: Select this when you want to use Regex patterns to extract values from their source website. When you select this option, the source property will be a text area where you can enter the regex pattern. The string from your website's HTML that matches this pattern will be used to map to the corresponding knowledge article field.
 
-- **Direct**: Select this when you want to map the value of any meta tag from its source website directly to any knowledge article field. The source property dropdown will list all the meta tags extracted from the sample website.
+- **Direct**: Select this when you want to map the value of any meta tag from its source website directly to any knowledge article field. The **Source Property** dropdown list shows all the meta tags extracted from the sample website along with **HTML-Title** and **HTML-Body** source properties, which are available by default.
 
 - **Constant**: Select this when you want to provide a constant value to any knowledge article field. The source property will be a text area where they can enter the constant value.
 
