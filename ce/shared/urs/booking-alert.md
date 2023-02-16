@@ -22,7 +22,7 @@ A dispatcher can create an alert to set up a reminder.
 
 1. Choose a related record in the **Regarding** field to shoe the alert in the related record's timeline.
 
-1. Set the **Assignees**. Each assignee can choose to snooze or dismiss the alert.
+1. Choose at least one system user in the **Assignees** field. Each assignee can choose to snooze or dismiss the alert individually.
 
 You can edit the fields inside a booking alert by editing the **Booking Alert Template** in the schedule board tab settings. For more information, see [schedule board tab settings](/dynamics365/field-service/schedule-board-tab-settings#other-settings).
 

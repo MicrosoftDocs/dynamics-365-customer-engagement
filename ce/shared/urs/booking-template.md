@@ -14,7 +14,7 @@ The default value contains the following HTML code snippet.
 <div>{SchedulableEntityDisplayName} - {name}<br />Duration: <strong class="bold">{duration}</strong></div>
 ```
 
-To edit the HTML that controls the booking template, go to the **Schedule Types** section in the schedule board tab settings. Select the entity for which you want to change the booking template. If you open the settings from a schedule board tab, you'll change the settings for that tab only. To make changes to all tabs, select **Open Default Settings** and apply your changes there.
+To edit the HTML that controls the booking template, go to the **Schedule Types** section in the schedule board settings. Select the entity for which you want to change the booking template. If you open the settings from a schedule board tab, you'll change the settings for that tab only. To make changes to all tabs, select **Edit defaults** and apply your changes there. Set the **Custom booking template** to **On** and change the HTML code.
 
 In this example, we'll choose the work order entity.
 

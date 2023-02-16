@@ -25,7 +25,7 @@ The resource cost indicator should be displayed in the resource cell template. [
 
 The HTML first draws five gray icons as a background, and then yellow icons as foreground. The number of the foreground icons is mapped to the value of the resource cost. For example, a resource cost value of 2 is 20%, so only one of the five yellow Euro icons will show.
 
-Open the schedule board tab settings and under **Other Settings**, create a custom **Resource Cell Template**.
+Open the schedule board settings and under **Other**, create a custom **Resource cell emplate**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of where to edit the resource cell template.](../../field-service/media/schedule-board-tab-settings-edit-resource-cell.png "Screenshot of where to edit the resource cell template")
@@ -80,7 +80,7 @@ Insert the following code snippet into the custom resource cell template. Replac
 
 In this step, we define a maximum cost score when filtering and searching for resources and sorting by cost score.
 
-On the schedule board tab settings, go to **Filter Layout** and create a custom template.
+On the schedule board tab settings, go to **Filter layout** and create a custom template.
 
 Insert the following code snippet into the custom filter layout template.
 
@@ -119,7 +119,7 @@ Insert the following code snippet into the custom filter layout template.
 
 ## Step 5: Modify the query
 
-Finally, we'll modify the actual query and include the new filter. In the schedule tab settings, go to **Retrieve Resources Query** and create a custom template. The existing code is lengthy, so below are only the code snippets to paste within an existing resource query.
+Finally, we'll modify the actual query and include the new filter. In the schedule tab settings, go to **Retrieve resource query**, edit the default query and copy the entire code. Then, create a custom template and paste the default code. The default code is lengthy, so below are only the code snippets to paste within an existing resource query.
 
 After `<entity name="bookableresource">`, insert `<attribute name="tsp_resourcecost" alias="resourcecost" groupby="true"/>`
 
