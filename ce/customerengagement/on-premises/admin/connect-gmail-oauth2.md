@@ -1,3 +1,20 @@
+---
+title: Connect Gmail accounts by using OAuth 2.0 
+description: Follow the steps in this article to set up server-side synchronization to send and receive email in Dynamics 365 Customer Engagement (on-premises) from Gmail accounts by using OAuth 2.0 as the authorization mechanism.
+ms.custom: 
+ms.date: 02/16/2023
+ms.reviewer: sericks
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 
+caps.latest.revision: 21
+author: DanaMartens
+ms.author: dmartens
+search.audienceType: 
+  - admin
+---
+
 # Connect Gmail accounts by using OAuth 2.0 
 
 Follow the steps in this article to set up server-side synchronization to send and receive email in Dynamics 365 Customer Engagement (on-premises) from Gmail accounts by using OAuth 2.0 as the authorization mechanism.
