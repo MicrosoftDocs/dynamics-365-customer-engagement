@@ -1,5 +1,5 @@
 ---
-title: Model custom entities as skills
+title: Model existing entities as skills
 description: Learn how you can use custom entities to model them as skills in unified routing.
 author: neeranelli
 ms.author: nenellim
@@ -9,9 +9,9 @@ ms.date: 02/08/2023
 ms.custom: bap-template
 ---
 
-# Model custom entities as skills
+# Model existing entities as skills
 
-By using your existing entities and modeling them as skills to perform skill-based routing, you can avoid recreating data definitions as skills in Dynamics 365. You also won't need to write classification rules to stamp skills on the incoming work items. You can manage and maintain your data in an easier manner.
+Use your existing entities and model them as skills to perform skill-based routing. Then, you can avoid recreating data definitions as skills in Dynamics 365. You also won't need to write classification rules to stamp skills on the incoming work items. You can manage and maintain your data in an easier manner.
 
 The following examples help understand the scenarios.
 
@@ -20,7 +20,7 @@ The following examples help understand the scenarios.
 - A customer creates a support ticket with Contoso Coffee for a product they're having issues with.
 - In Customer Service, a case is created with “Product” as one of the fields. There could be thousands of product types (or values) such as Café A-100, Café A-200, and Smart Brew 300.
 - The relationship between product and the product types already exists in your system.
-- Contoso’s workforce is trained to handle queries on these “Products” and thus are “skilled” on the product. They can model "Product" as a skill and assign different product types as skills to different agents.
+- Contoso’s workforce is trained to handle queries on these “Products” and thus are “skilled” on the product. Contoso can model "Product" as a skill and assign different product types as skills to different agents.
 - Similarly, they can model more attributes as skills, and use custom skill match logic to find the right agents.
 
 **Example 2**: Use a custom entity to model as a custom skill
@@ -31,9 +31,7 @@ The following examples help understand the scenarios.
 
 ## How is using custom entities as skills different from default skill-based routing
 
-If you have multiple product categories and attributes already configured in your system.
-
-For example, all your cases are populated with "Product" and "Customer" information. To use skill-based routing, you'll,
+If you have multiple product categories and attributes already configured in your system, such as, all your cases populated with "Product" and "Customer" information. Then to use skill-based routing, you'll,
 - create all the "Product" and "Customer" values as skills
 - assign those skills to agents
 - write classification rules to stamp "Product" and "Customer" as skills to the incoming work item
@@ -69,7 +67,7 @@ However, if you model "Product" and "Customer" fields as custom skills, you'll c
 
    Unified routing evaluates the condition in the assignment rule when a work item arrives.
 
-### When to use existing data models as skills
+### When to model existing data as skills
 
 When you have multiple attributes or categories and want to match agents with work items using these custom attributes. You can model each custom attribute as a skill. You won't have to write different classification rules corresponding to each skill you want to identify, thus saving yourself from maintenance hassle, especially when the custom attribute values are evolving frequently.
 
