@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service.  Direct Line and Telegram messaging channel integrations are supported. More information: [Direct Line](bring-your-own-channel.md)
+As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. Direct Line and Telegram messaging channel integrations are supported. More information: [Direct Line](bring-your-own-channel.md)
 
 With the custom messaging channel capability, you can:
 - Bring in your own channels, so you can engage better with customers.
@@ -62,7 +62,7 @@ With the custom messaging channel capability, you can:
     4. On the **Callback information** page, copy the value in the **Messaging endpoint URL** box. You'll update this information in the custom channel account.
     5. Select **Done**. The custom channel account is created.
 
-1. In the site map, select **Workstreams** and [create a workstream](create-workstreams.md).
+1. In the site map, select **Workstreams** and [create a workstream](create-workstreams.md). Be sure to select **Messaging** for **Type** field and **Custom** for the **Channel** field.
 1. In the site map, select the workstream that you created for the custom channel, and on the page that appears, select **Set up Custom** and enter the following details:
    1. On the **Custom channel** page, select the account that you created.
    2. On the **Language** page, select the required language.
