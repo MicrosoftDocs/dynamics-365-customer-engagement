@@ -11,8 +11,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  (online)
 ms.assetid: afb01c24-a2bd-4e00-9804-ce494f2d315b
 caps.latest.revision: 22
-author: jimholtz
-ms.author: jimholtz
+author: sericks007
+ms.author: sericks
 search.audienceType: 
   - admin
 ---
