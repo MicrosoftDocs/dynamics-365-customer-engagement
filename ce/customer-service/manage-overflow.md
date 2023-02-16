@@ -1,10 +1,10 @@
 ---
-title: "Manage overflow | MicrosoftDocs"
-description: "Learn how to manage overflow of work items in Customer Service."
+title: Manage overflow of work items in queues
+description: "Learn how to manage overflow of work items in queues enabled for unified routing in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/02/2023
+ms.date: 02/15/2023
 ms.topic: article
 
 ---
@@ -21,9 +21,11 @@ For work items, such as calls, conversations, and cases, you can address the fol
 
 If you don't configure overflow, by default, the work item will stay in the queue until it gets routed based on the routing rules configured for the workstream.
 
-## How overflow works
+## How queue overflow is evaluated
 
-The overflow conditions and actions are run only if the route-to-queues rule is configured. The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queues rules are evaluated. The following factors are considered during the overflow evaluation:
+The overflow conditions and actions are run only if the route-to-queues rule is configured. The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queues rules are evaluated. Any manual actions like agent transfer or supervisor assign won't trigger overflow actions.
+
+The following factors are considered during the overflow evaluation:
 
 - If multiple queues match in the route-to-queues rules, the system routes the work item to the first queue that's not overflowing.
 
