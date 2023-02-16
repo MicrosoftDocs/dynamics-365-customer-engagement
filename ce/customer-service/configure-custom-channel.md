@@ -50,11 +50,11 @@ With the custom messaging channel capability, you can:
     1. On the **Channel details**, enter the following details:
         1. Enter a name in the **Name** field.
         2. Select **Custom** from the **Channel** list.
-        3. Select **Azure bot framework from the **Method** list, and then select **Next**.
+        3. Select **Azure bot framework** from the **Method** list, and then select **Next**.
     
     1. On the **Account details**, enter the following details:
         1. Enter the Microsoft app ID in the **Microsoft app ID** field and the client secret value in **Client secret**, and then select **Validate**. 
-        2. After your validation is successful, select **Next*.on the **Custom channel** page.
+        2. After your validation is successful, select **Next*.
 
     1. On the **Custom channel** page, select **Add**, and enter the following information:
           - **Name:** A name for the channel.
