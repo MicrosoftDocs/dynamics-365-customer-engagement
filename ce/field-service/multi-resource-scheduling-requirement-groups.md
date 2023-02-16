@@ -18,7 +18,7 @@ search.app:
 
 # Multiresource scheduling with requirement groups in Dynamics 365 Field Service
 
-[!INCLUDE[topic-urs-fulfillment-pref.md](../shared/urs/multi-resource-scheduling.md)]
+[!INCLUDE[multi-resource](../shared/urs/multi-resource-scheduling.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

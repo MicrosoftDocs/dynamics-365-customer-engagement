@@ -18,7 +18,7 @@ search.app:
 
 # Schedule work with multiple resources using requirement groups in Universal Resource Scheduling
 
-[!INCLUDE[topic-urs-fulfillment-pref.md](../shared/urs/multi-resource-scheduling.md)]
+[!INCLUDE[multi-resource](../shared/urs/multi-resource-scheduling.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
