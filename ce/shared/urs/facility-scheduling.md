@@ -36,7 +36,7 @@ In the following screenshot, Abraham McCormick represents a doctor and is associ
 
 ### Create a requirement group
 
-Create a requirement group that includes the facility and the person.
+[Create a requirement group](../../common-scheduler/multi-resource-scheduling-requirement-groups.md) that includes the facility and the person.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group and part of same option set.](../../field-service/media/scheduling-facility-create-requirement-facility-with-resource.png)
