@@ -15,7 +15,7 @@ search.app:
 
 When you add your customers' assets in Field Service, you can track equipment that requires inspections, maintenance, and repairs. Field Service asset management includes which equipment is located at a [functional location](functional-locations.md) and the [service history of all past and present work orders](service-history.md) for each asset.
 
-If your organization uses [Connected Field Service](cfs-iot-overview.md), you can [connect customer assets to sensors](cfs-register-devices.md) that monitor the assets and [trigger an Internet of Things (IoT) alert](cfs-iot-alerts.md) when something needs attention. Watch the following video for a guided walk-through of servicing a customer asset in response to an IoT alert.
+If your organization uses [Connected Field Service](connected-field-service.md), you can [connect customer assets to sensors](cfs-register-devices.md) that monitor the assets and [trigger an Internet of Things (IoT) alert](cfs-iot-alerts.md) when something needs attention. Watch the following video for a guided walk-through of servicing a customer asset in response to an IoT alert.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ly0y]
 
@@ -115,7 +115,7 @@ Use an asset category to group customer assets. Asset categories allow you to qu
 
 ## Connect customer assets to Connected Field Service
 
-[Connected Field Service](connected-field-service.md) uses sensors connected to customers' assets to automatically trigger alerts based on IoT data. Watch the following [video to learn how to set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk).
+[Connected Field Service](connected-field-service.md) uses sensors connected to customers' assets to automatically trigger alerts based on IoT data.
 
 In Connected Field Service, *devices* represent sensors that are connected to the internet. You can associate devices with customer assets in a one-to-many relationship, meaning that one asset can have many related devices. For example, a single asset such as an HVAC unit can have multiple device sensors such as a thermometer and a hygrometer that send data to Connected Field Service.
 
