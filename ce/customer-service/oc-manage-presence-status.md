@@ -48,7 +48,7 @@ You can update the presence status in the following two ways:
   - Busy
   - Available
   
-   You might also see other additional presence statuses that your administrator configured for you.
+   You might also see other presence statuses that your administrator configured for you.
 
   > [!div class=mx-imgBorder]
   > ![Set your presence status.](media/oceh-presence.png "Set your presence status")
@@ -57,7 +57,7 @@ You can update the presence status in the following two ways:
 
   - When your capacity is fully utilized, the presence is set to **Do not disturb**.
   - When your capacity is partially utilized, the presence is set to **Busy**.
-  - When your capacity is not utilized, the presence is set to **Available**.
+  - When your capacity isn't utilized, the presence is set to **Available**.
   - If you already have 10 sessions open, which is the maximum multisession limit, and a new work item comes in, your status automatically changes to **Do not disturb**.
   - When you miss a notification and the missed notifications setting is enabled, the presence is set to **Inactive**.
   - When you reject a work notification and the agent reject notification setting is enabled, the presence is set to **Do not disturb**.
