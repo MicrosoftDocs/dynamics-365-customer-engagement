@@ -139,7 +139,7 @@ For sample schema to get all the required records, see [Sample schema for record
 <fetch> 
    <entity name="queue"> 
     <filter type="and"> 
-      <condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" /> 
+      <condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" /> 
     </filter> 
    </entity> 
 </fetch>
@@ -512,7 +512,7 @@ For sample schema to get all the required records, see [Sample schema for intake
 		</filter>
 		<link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bo">
 			<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" linktype="outer" alias="bp" /></link-entity>
-		<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer"alias="bs">
+		<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bs">
 			<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" linktype="outer" alias="bt" /></link-entity>
 	</entity>
 </fetch>
