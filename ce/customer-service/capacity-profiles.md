@@ -1,7 +1,7 @@
 ---
 title: Create and manage capacity profiles
 description: "Know how to create and manage capacity profiles for agents in Customer Service."
-ms.date: 02/15/2023
+ms.date: 02/17/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -29,7 +29,7 @@ Configure profile-based capacity if any of the following scenarios are applicabl
 >
 > - We recommend that you configure either capacity profiles or capacity units in your organization, but not both.
 > - The capacity is not considered during consult or monitor.
-> - We recommend that you resolve or close a case before deleting it. For other records, we recommend that you deactivate the associated queue item before deleting it.
+> - We recommend that you resolve or close a case before deleting it. 
 
 ## Create a capacity profile and assign to users
 
