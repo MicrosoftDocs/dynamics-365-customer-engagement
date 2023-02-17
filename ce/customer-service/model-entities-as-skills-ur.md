@@ -5,13 +5,16 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 02/08/2023
+ms.date: 02/20/2023
 ms.custom: bap-template
 ---
 
 # Model existing entities as skills
 
 Use your existing entities and model them as skills to perform skill-based routing. Then, you can avoid recreating data definitions as skills in Dynamics 365. You also won't need to write classification rules to stamp skills on the incoming work items. You can manage and maintain your data in an easier manner.
+
+> [!IMPORTANT]
+> Intelligent skill finder doesn't predict custom attributes that are modeled as skills because they aren't real skills and hence won’t be present in skill analysis reports but still give you the power of skill-based routing.
 
 The following examples help understand the scenarios.
 
@@ -75,7 +78,6 @@ Using this approach, you can maintain the modeled skills at agent level and chan
 
 ### Things to consider
 
-- Intelligent skill finder doesn't predict custom attributes that are modeled as skills because they aren't real skills and hence won’t be present in skill analysis reports but still give you the power of skill-based routing.
 - Out-of-the-box assignment methods don't support skill match for custom skills.
 - The custom skills won't show up as skills in agent skill control.
 - Routing diagnostics won't display the “custom skills” that were matched during assignment.
