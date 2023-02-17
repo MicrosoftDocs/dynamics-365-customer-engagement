@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel for Twilio | MicrosoftDocs"
 description: "Use this topic to understand how to configure an SMS channel for Twilio in Omnichannel for Customer Service."
-ms.date: 10/27/2022
+ms.date: 02/17/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
