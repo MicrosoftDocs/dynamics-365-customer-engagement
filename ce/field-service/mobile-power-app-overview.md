@@ -53,7 +53,7 @@ For information about planned features, refer to [Dynamics 365 Field Service rel
 
 ## System requirements
 
-The mobile app is available after [upgrading your environment](upgrade-field-service.md) to at least Field Service solution version 8.8.22+.
+The mobile app is available after [updating your environment](update-field-service.md) to at least Field Service solution version 8.8.22+.
 
 ### Supported mobile devices
 
