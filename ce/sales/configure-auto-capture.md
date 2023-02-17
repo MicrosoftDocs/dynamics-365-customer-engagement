@@ -1,7 +1,7 @@
 ---
 title: "Enable and configure auto capture"
 description: "Configure auto capture to helps your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook."
-ms.date: 07/08/2022
+ms.date: 02/17/2023
 ms.custom: 
 ms.topic: article
 ms.assetid: d4d130c5-3494-4677-9093-0a0e0124d953
