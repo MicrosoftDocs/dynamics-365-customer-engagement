@@ -40,9 +40,8 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 
 For more requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
 
-Note
-
-The network hardware requirements for Omnichannel for Customer service are different. For more information, see: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
+> [!IMPORTANT]
+> The network hardware requirements for Omnichannel for Customer service are different from thzt of Customer Service workspace. For more information, see: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
 
 ### See also
 
