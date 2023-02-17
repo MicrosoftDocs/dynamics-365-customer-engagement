@@ -53,7 +53,7 @@ You can update the presence status in the following two ways:
   > [!div class=mx-imgBorder]
   > ![Set your presence status.](media/oceh-presence.png "Set your presence status")
 
-- **Automatically** - The status is set automatically based on the work item assignment. When a conversation (work item) is assigned to you, the status is updated based on the capacity as follows:
+- **Automatically** - Status automatically set based on the work item assignment. When a conversation (work item) is assigned to you, the status is updated based on the capacity as follows:
 
   - When your capacity is fully utilized, the presence is set to **Do not disturb**.
   - When your capacity is partially utilized, the presence is set to **Busy**.
