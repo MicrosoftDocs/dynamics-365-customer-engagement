@@ -33,7 +33,7 @@ As an agent, you can view your presence status on the navigation bar. You can se
   
   - ![Inactive presence status.](media/oceh-appear-away-icon.png "Appear away presence status")  Inactive
   
-For the presence status or the icon to display correctly, ensure that cookies are enabled in your browser for all modes.
+For the presence status or presence icon to display correctly, ensure that cookies are enabled in your browser for all modes.
  
 ## Update your presence status
 
