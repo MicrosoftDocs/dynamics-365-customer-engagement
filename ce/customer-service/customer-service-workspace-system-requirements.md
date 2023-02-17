@@ -33,9 +33,9 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 
 | Area | Requirements |
 |----------|----------|
-| Memory (RAM) | <ul><li>**Minimum:** 4 GB</li><li>**Recommended:** 8 GB</li></ul> |
-| Latency  | <ul><li>**Minimum:** less than 150 milliseconds </li><li>**Recommended:** less than 100 milliseconds</li></ul> |
-| Throughput | <ul><li>**Minimum:** greater than 4 Mbps</li><li>**Recommended:** greater than 8 Mbps</li></ul>|
+| Memory (RAM) | **Minimum:** 4 GB |
+| Latency  | **Minimum:** less than 150 milliseconds  |
+| Throughput | **Minimum:** greater than 4 Mbps|
 |||
 
 For more requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
