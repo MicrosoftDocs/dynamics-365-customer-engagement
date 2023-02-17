@@ -22,7 +22,7 @@
         href: configure-channel-provider-channel-integration-framework.md
       - name: Enable outbound communication (ClickToAct)
         href: enable-outbound-communication-clicktoact.md
-      - name: Add Dynamics 365 Channel Integration Framework 1.0 solution as dependent solution
+      - name: Manage Dynamics 365 Channel Integration Framework 1.0 components
         href: add-cif-solution-dependent-solution.md   
       - name: Authenticate users to the channel
         href: authenticate-channel-users.md
