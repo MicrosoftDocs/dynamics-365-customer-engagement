@@ -1,7 +1,7 @@
 ---
 title: Resolve, cancel, and reassign a cases in Customer Service Hub | Microsoft Docs
 description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
-ms.date: 02/07/2023
+ms.date: 02/17/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
