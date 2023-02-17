@@ -39,6 +39,8 @@
           href: manage-sample-data.md
         - name: Add or remove sample data in Sales Professional
           href: install-sample-data.md
+    - name: Uninstall Sales Premium Add-ons      
+      href: uninstall-sales-insights.md
     - name: Configure your sales organization
       items:
         - name: System Settings - Sales
@@ -454,6 +456,13 @@
               href: manage-sales-teams.md
             - name: Manage seller attributes
               href: manage-seller-attributes.md
+        - name: Engage with customers through text messages
+          href: sms-intro.md
+          items:
+            - name: Configure SMS provider
+              href: configure-sms-provider.md      
+            - name: Edit phone numbers
+              href: edit-phone-numbers.md
         - name: Manage Campaigns
           href: configure-inapp-marketing.md
     - name: Guided selling
@@ -806,6 +815,13 @@
               href: work-with-linkedin-activities.md
             - name: Personalize your sales accelerator
               href: personalize-sales-accelerator.md
+        - name: Engage with customers through text messages
+          href: sms-intro.md
+          items:
+            - name: Personalize text messages through templates
+              href: create-text-message-templates.md      
+            - name: Manage text message communications
+              href: manage-text-message-communications.md  
         - name: Campaign management
           items:
             - name: Get started with in-app marketing

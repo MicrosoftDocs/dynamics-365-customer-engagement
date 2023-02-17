@@ -928,5 +928,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 ### See also
-[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)  
+[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)  
+[Manage historical data of capacity updates for agents](../../../manage-historical-data-capacity-updates.md)  
