@@ -1,7 +1,7 @@
 ---
 title: "Customer support swarming for agents | MicrosoftDocs"
 description: "Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service."
-ms.date: 02/14/2023
+ms.date: 02/17/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -87,7 +87,7 @@ To be able to create a swarm when working on a customer issue, you must have the
    - The system finds the minimum set of experts needed to cover as many of the skills suggested or that you added as possible.
    - A participants section opens, where you can see the number of experts invited to your swarm who match a particular skills.
    - You can view the names of skills not matched to an expert. If a skill is unmatched, you can work with your supervisor to find experts who match the skill.
-   - You can view names of automatically added participants.
+   - You can view names of automatically added participants in the chat window.
    - When an invited expert accepts the swarm invitation, they're automatically added to the swarm chat.
    - If you select **Edit** on the command bar, existing saved skills remain. If you edit the swarm request, then the following actions occur:
      - The system will search for skills to account for the newest information, and will append skills found to the existing ones.
