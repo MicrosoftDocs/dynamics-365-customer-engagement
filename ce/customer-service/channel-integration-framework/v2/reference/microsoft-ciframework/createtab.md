@@ -23,11 +23,11 @@ Creates a tab in a focused Session and returns the unique identifier of the crea
 
 | **Name**         | **Type** | **Required** | **Description**   |
 |------------------|----------|--------------|-----------------------------------------------------------------------------------------------------------------------|
-| Input            | String   | Yes          | JSON input                                                                                                            |
+| input            | String   | Yes          | JSON input                                                                                                            |
 | successCallback  | Function | No           | A function to call when a record is created. Unique identifier(TabId) of the created tab is returned in the response. |
 | errorCallback    | Function | No           | A function to call when the operation fails. An object with the following properties will be passed:<br />**errorCode**: Number. The error code.<br />**message**: String. An error message describing the issue.   |
 
-The structure of the `Input` parameter JSON is shown below.
+The structure of the `input` parameter JSON is shown below.
 
 ```json
 {
