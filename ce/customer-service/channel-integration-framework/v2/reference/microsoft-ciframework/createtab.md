@@ -24,16 +24,16 @@ Creates a tab in a focused session and returns the unique identifier of the crea
 | **Name**         | **Type** | **Required** | **Description**   |
 |------------------|----------|--------------|-----------------------------------------------------------------------------------------------------------------------|
 | input            | String   | Yes          | JSON input                                                                                                            |
-| successCallback  | Function | No           | A function to call when a record is created. Unique identifier(TabId) of the created tab is returned in the response. |
+| successCallback  | Function | No           | A function to call when a record is created. Unique identifier (tab ID) of the created tab is returned in the response. |
 | errorCallback    | Function | No           | A function to call when the operation fails. An object with the following properties will be passed:<br />**errorCode**: Number. The error code.<br />**message**: String. An error message describing the issue.   |
 
 The structure of the `input` parameter JSON is as follows:
 
 ```json
 {
-    //Unique Name of the Application Tab Template
+    //Unique name of the tab 
     // type = string
-    templateName: <unique name of the application tab template>;
+    templateName: <unique name of the tab template>;
     //additional context for tab creation and tab slugs
     // type  Map<string, string>
     appContext?:  Map<string, string>;
