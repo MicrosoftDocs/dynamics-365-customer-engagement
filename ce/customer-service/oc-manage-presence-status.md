@@ -76,23 +76,23 @@ The following scenarios describe how your presence status can be affected while 
 
 ### Reconnect
 
-When the system connection is disrupted because of network issues or when you refresh the browser and connect back, the system picks up your last known presence. 
+When the system connection is disrupted because of network issues or when you refresh the browser and connect back, then the system picks up your last known presence. 
 
 ### Sign in
 
-When you sign in, your presence is set to the default presence if no work items have been assigned to you. If work items are assigned, your presence is automatically determined. However, if your default presence is set as Away or Offline, the system doesn’t change your presence.  
+When you sign in, your presence is set to the default presence if no work items have been assigned to you. If work items are assigned, your presence is automatically determined. However, if your default presence is set as Away or Offline, then the system doesn’t change your presence.  
 
 ### Accept work items
 
-When you accept a work item manually or it's assigned automatically, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you've manually changed your presence to Do not disturb, the system doesn’t change your presence. 
+When you accept a work item manually or it's assigned automatically, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you've manually changed your presence to Do not disturb, then the system doesn’t change your presence. 
 
 ### Close work items 
 
-When you close a session, or resolve, cancel, or reroute a case, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you've manually changed your presence to Do not disturb, the system doesn’t change your presence.
+When you close a session, or resolve, cancel, or reroute a case, the system determines your presence based on your work capacity. But, if your presence is set to Away or Offline, or if you've manually changed your presence to Do not disturb, then the system doesn’t change your presence.
 
 ### Reset agent presence
 
-When you reset the agent presence based on the missed notification or the agent reject notification, the system determines your presence based on your work capacity.
+When you reset the agent presence based on the missed notification or the agent reject notification, then the system determines your presence based on your work capacity.
 
 ### Troubleshoot display of presence
 
