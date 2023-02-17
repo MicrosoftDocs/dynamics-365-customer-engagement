@@ -1,5 +1,5 @@
 ---
-title: "Manage Dynamics 365 Channel Integration Framework 1.0 components| MicrosoftDocs"
+title: "Manage Dynamics 365 Channel Integration Framework 1.0 solutions| MicrosoftDocs"
 description: "Learn how to add and remove Dynamics 365 Channel Integration Framework 2.0 components from exported solutions."
 author: mh-jaya
 ms.author: v-jmh
@@ -10,9 +10,9 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Manage Dynamics 365 Channel Integration Framework 1.0 components in exported solutions
+# Manage Dynamics 365 Channel Integration Framework 1.0 solutions in Dynamics 365
 
-Third-party channel providers can add a Dynamics 365 Channel Integration Framework 1.0 solution as a dependent solution to use its capabilities in the solutions that they develop for Dynamics 365. This topic describes how you can install, update, and delete a Dynamics 365 Channel Integration Framework 1.0 solution as a dependent solution.
+Third-party channel providers can add a Dynamics 365 Channel Integration Framework 1.0 solution as a dependent solution in Dynamics 365, to use its capabilities in the apps they develop for Dynamics 365. This article describes how you can add and remove Dynamics 365 Channel Integration Framework 1.0 solutions from your Dynamics 365 instance.
 
 [!INCLUDE[token-add-cif-solution-dependent-solution](shared/token-add-cif-solution-dependent-solution.md)]
 

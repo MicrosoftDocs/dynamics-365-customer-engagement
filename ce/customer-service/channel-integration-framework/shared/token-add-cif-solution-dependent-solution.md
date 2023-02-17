@@ -1,10 +1,10 @@
 ## Add a Dynamics 365 Channel Integration Framework solution
 
-1. Add the Dynamics 365 Channel Integration Framework application to your Dynamics 365 instance that has an unmanaged dependent solution installed.
+1. Add the Dynamics 365 Channel Integration Framework application to your Dynamics 365 instance that has an unmanaged dependent solution installed in it.
 
 2. Sign in to your Dynamics 365 instance and go to **Settings** > **Solutions**.
 
-3. From the list of solutions, select the solution to open it.
+3. From the list of solutions, select the solution that you'd like to add.
 
 4. In the window that opens, select **Model Driven App** from the left panel.
 
@@ -24,7 +24,7 @@
   
 3. Select **Settings** > **Solutions**.  
   
-4. Select solution.
+4. Select the solution that you'd like to remove.
 
 5. In the window that opens, select the **Channel Integration Framework** solution.
 
