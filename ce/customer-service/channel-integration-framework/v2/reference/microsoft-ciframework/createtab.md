@@ -1,7 +1,7 @@
 ---
 title: "createTab (JavaScript API Reference) for Dynamics Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes description, syntax, and parameter information for the createTab method in JavaScript API Reference for Channel Integration Framework 2.0."
-ms.date: 11/19/2020
+ms.date: 02/20/2023
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -30,18 +30,18 @@ Creates a tab in a focused Session and returns the unique identifier of the crea
 The structure of the `Input` parameter JSON is shown below.
 
 ```json
-{ 
-   "templateName":"<unique name of session template>",
-   "templateTag":"<template tag>",
-   "templateParameters":{ 
-      "globalparam":"number value OR boolean value OR json string value OR parameterized string value",
-      "app template 1":{ 
-         "param 1":"number value OR boolean value OR json string value OR parameterized string value",
-         "param 2":"..."
-      },
-      "app template 2":"…."
-   }
+{
+    //Unique Name of the Application Tab Template
+    // type = string
+    templateName: <unique name of the application tab template>;
+    //additional context for tab creation and tab slugs
+    // type  Map<string, string>
+    appContext?:  Map<string, string>;
+    //should this tab be focused after creation
+    // type=boolean
+    isFocused?: <true or false>;
 }
+```
 ```
 
 ## Return value
