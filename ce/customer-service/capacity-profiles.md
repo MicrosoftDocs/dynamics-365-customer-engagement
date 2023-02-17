@@ -29,7 +29,6 @@ Configure profile-based capacity if any of the following scenarios are applicabl
 >
 > - We recommend that you configure either capacity profiles or capacity units in your organization, but not both.
 > - The capacity is not considered during consult or monitor.
-> - We recommend that you resolve or close a case before deleting it. 
 
 ## Create a capacity profile and assign to users
 
