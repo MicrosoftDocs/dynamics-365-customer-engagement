@@ -25,16 +25,8 @@ You can uninstall the Sales Premium Add-ons for Dynamics 365 Sales if you don't 
 2.	Go to **Advanced settings**, and then select **Settings** > **Customization** > **Solutions**.  
 3.	On the **Solutions** page, select each of the following solutions one at a time in the order they're specified, and then select **Delete**.  
     - SalesInsightsAddOn
-    - msdyn_ConversationIntelligence
-    - msdyn_acceleratedsales
-    - msdyn_Sequence
     - msdynce_RelationshipAssistantAddOn
     - msdyn_connectiongraph
-    - PredictiveLeadScoring
-    - PredictiveOpportunityScoring
-    - msdyn_PredictiveScoringCommon
-    - RelationshipAnalytics
-    - SalesInsightsMDLConfig
  
 Although you've deleted the solutions, your organization data might still be stored in Azure Data Lake Storage. To completely remove data and reclaim the data storage, contact Dynamics 365 support.  
 
