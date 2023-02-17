@@ -43,9 +43,7 @@ As an agent, you can view your presence status on the navigation bar. You can se
 
 You can update the presence status in the following two ways:
 
-- **Manually**: Use to manually change the status according to your availability.
-
-    To view and set the presence, select the presence icon on the navigation bar. In the **Set Your Presence Status** dialog, select a status from the list. The list shows the following standard presence statuses:
+- **Manually**: To view and set the presence manually based on your availability, select the presence icon on the navigation bar. In the **Set Your Presence Status** dialog, select a status from the list. The list shows the following standard presence statuses:
 
   - Offline
   - Appear away
@@ -58,7 +56,7 @@ You can update the presence status in the following two ways:
   > [!div class=mx-imgBorder]
   > ![Set your presence status.](media/oceh-presence.png "Set your presence status")
 
-- **Automatically**: Use to automatically set your status based on the work item assignment. When a conversation (work item) is assigned to you, the status is updated based on the capacity as follows:
+- **Automatically**: When a conversation (work item) is assigned to you, your presence status is automatically updated based on the capacity as follows:
 
   - When your capacity is fully utilized, then the presence is set to **Do not disturb**.
   - When your capacity is partially utilized, then the presence is set to **Busy**.
