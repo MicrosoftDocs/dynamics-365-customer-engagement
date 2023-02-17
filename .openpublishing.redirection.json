@@ -24674,6 +24674,11 @@
       "source_path": "ce/field-service/cfs-iot-overview.md",
       "redirect_url": "/dynamics365/field-service/connected-field-service",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/upgrade-field-service.md",
+      "redirect_url": "/dynamics365/field-service/update-field-service",
+      "redirect_document_id": "false"
     }
   ]
 }
