@@ -4,7 +4,7 @@ description: "Learn how to configure call recording, transcription, and real-tim
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/16/2023
+ms.date: 02/16/2023
 ms.topic: article
 ---
 
@@ -66,16 +66,28 @@ You can view the call transcripts in Customer Service admin center or Omnichanne
 Alternatively, you can delete the recordings from the [msdyn_ocrecording](developer/reference/entities/msdyn_ocrecording.md) entity by using the [DELETE](/power-apps/developer/data-platform/webapi/update-delete-entities-using-web-api) request.
 
 ### Storage location of your recordings and cost
+ 
+For components within the Microsoft stack, the data doesn’t cross geographical boundaries during transit. The bring-your-own-carrier model has dependencies on third parties with components outside the Microsoft stack, and the data needs to be reviewed end-to-end. 
+The components can be in a different geographic location from the Azure Communication Services location as shown in the following illustration.
 
-The maximum file size of a recording can be 512 MB. The voice recording and transcript data resides in the following locations:
 
-- **Data at rest**: Is stored in Dataverse wherever your Dynamics instance is located.
-- **Data in transit**: For components within the Microsoft stack, we strive to ensure that data doesn’t cross geographical boundaries during transit. The bring-your-own-carrier model has dependencies on third parties, and therefore, data needs to be reviewed end-to-end and will include components outside the Microsoft stack.
+:::image type="content" source="media/vc-data-residency.png" alt-text="Storage location information" lightbox="media/vc-data-residency-enlarged.png":::
 
-The data storage costs with two participants only is calculated approximately as follows and the cost can fluctuate:
+**Legend**
+
+| Number | Description |
+|-----|-------------------|
+|1 | **Session Border Controller**<br>  For Microsoft calling plans where Microsoft is the carrier, Microsoft determines the location to store data.<br> **Direct Routing**:  For the bring-your-own-carrier model, the data resides in the region where the Session Border Controller is hosted. |
+|2 | **Azure Communication Services**:<br>  The data resides in the location where the Azure Communication Services subscription is acquired. |
+|3 | **Microsoft Dataverse**:<br>  The Microsoft Dataverse server location, Dynamics 365 tenant, Cosmos DB, and Azure Speech Service should all be in the same location chosen during purchase. |
+|4 | **Kusto**:<br> Microsoft stores the data for telemetry in Kusto, which is located either in the EMEA or the East US cluster. |
+
+
+The maximum file size of a recording can be 512 MB. The data storage costs with two participants only is calculated approximately as follows and the cost can fluctuate:
 
 - 20-minute call recording = 10240 KB
 - 20-minute call transcript = 40 KB
+
 
 ### See also
 
