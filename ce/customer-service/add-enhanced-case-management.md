@@ -41,7 +41,6 @@ You can configure the tab users must be redirected to when they select the open 
 
 You can choose to display the legacy case resolution dialog box that appears when an agent selects **Resolve case**.
 
-
 > [!NOTE]
 > You can only revert back to the legacy case resolution dialog box if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Customer Service admin center.
 
