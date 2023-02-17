@@ -459,7 +459,7 @@ The issue might happen due to the following reasons:
 
 Perform the following steps:
 
-- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. To learn more, see [Provide data access consent](omnichannel-provision-license.md#provide-data-access-consent).
+- Contact your administrator to verify that Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. To learn more, see [Provide data access consent](omnichannel-provision-license.md#provide-data-access-consent).
 - Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](add-users-assign-roles.md#understand-roles-and-their-privileges). 
 - Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](users-user-profiles.md).
 
@@ -529,7 +529,7 @@ The issue might happen due to the following reasons:
 - Azure Active Directory consent is not available for Omnichannel for Customer Service app.
 - Agent doesn't have the Omnichannel agent role privileges.
 - Capacity and default presence are not set.
-- When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. So after a deployment, the Channel Integration Framework product might point to a different URL.
+- When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. After a deployment, the Channel Integration Framework product might point to a different URL. So, check and ensure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 always points to the correct URL.
 - Channels are not activated in the agent experience profile. 
 
 ### Resolution
@@ -629,7 +629,7 @@ The issue occurs when you rename the org URL but don’t update the channel URL 
 2. On the left pane, select **Apps**, and then from the applications list, select **Omnichannel for Customer Service**. 
 3. Select the ellipsis (...) button, scroll down the list, and select **App profile manager**.
 
-4. Select the administrator app (either Customer Service workspace or Customer Service admin center), and then select **Channel provider**.
+4. Select the admin app like Customer Service admin center, and then select **Channel provider**.
    The Active Channel Providers list is displayed.
 
 5. Do the following steps:

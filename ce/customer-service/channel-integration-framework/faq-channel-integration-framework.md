@@ -1,7 +1,7 @@
 ---
 title: "FAQ about Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-ms.date: 02/16/2023
+ms.date: 02/18/2023
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -13,6 +13,7 @@ ms.custom:
 
 # FAQ about Dynamics 365 Channel Integration Framework
 
+This article contains the frequently asked questions about Dynamics 365 Channel Integration Framework versions 1.0 and 2.0.
 ## General FAQ
 
 ### What is Dynamics 365 Channel Integration Framework?
@@ -123,7 +124,12 @@ You can use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframewo
 
 ### Why is the user presence not loading or user is shown as unknown? 
 
-User presence might not load if the agent doesn't have the Omnichannel agent role privileges, if agent capacity and default presence are not set, or if the required channels aren't activated in the agent profile. More information: [User presence isn’t loading or user is shown as unknown](../troubleshoot-omnichannel-customer-service.md#user-presence-isnt-loading-or-user-is-shown-as-unknown)
+User presence might not load in the following scenarios:
+- The agent doesn't have the Omnichannel agent role privileges
+- The agent capacity and default presence are not set
+- The required channels aren't activated in the agent profile. 
+
+More information: [User presence isn’t loading or user is shown as unknown](../troubleshoot-omnichannel-customer-service.md#user-presence-isnt-loading-or-user-is-shown-as-unknown)
 
 ### Why should I check or update channel URLs in Dynamics 365 Channel Integration Framework 2.0?
 
