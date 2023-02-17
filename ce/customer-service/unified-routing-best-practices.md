@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 02/06/2023
+ms.date: 02/20/2023
 ms.custom: bap-template
 ---
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 This article discusses some of the important aspects to successfully deploy and manage unified routing and focuses on the most common areas where you might have questions.
 
-## Provision unified routing
+## Set up unified routing
 
 ### Verify service limits and default quotas
 
