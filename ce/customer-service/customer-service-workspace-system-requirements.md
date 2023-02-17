@@ -38,7 +38,7 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 | Throughput | **Minimum:** greater than 4 Mbps|
 |||
 
-For more requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
+For more requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements) and Omnichannel for [Customer Service system requirements](system-requirements-omnichannel.md).
 
 ### See also
 
