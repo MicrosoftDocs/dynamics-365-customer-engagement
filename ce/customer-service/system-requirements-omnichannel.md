@@ -44,9 +44,6 @@ The system requirements to use Omnichannel for Customer Service are as follows.
 | Web browsers | Supported browsers:<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)); version 79.0.309.65 or later is required for the desktop notifications feature. </li> <li> Google Chrome </li> **Important**<br> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)] |
 | Azure Communication Services |Required for 1st party voice and SMS in the voice channel in production environments. |
 | Hardware | Microphone and speakers for the voice experience. |
-| Memory (RAM) | <ul><li>**Minimum:** 4 GB</li><li>**Recommended:** 8 GB</li></ul> |
-| Latency  | <ul><li>**Minimum:** less than 150 milliseconds </li><li>**Recommended:** less than 100 milliseconds</li></ul> |
-| Throughput | **Recommended:** greater than 8 Mbps|
 | Internet bandwidth for voice and video |<ul><li>**Minimum:** 4 Mbps upload speed; 8 Mbps download speed</li><li>**Recommended:** 8 Mbps upload speed; 16 Mbps download speed</li></ul> |
 |||
 
