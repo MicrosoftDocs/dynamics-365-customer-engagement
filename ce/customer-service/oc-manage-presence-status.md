@@ -1,7 +1,7 @@
 ---
 title: Manage presence status in Omnichannel for Customer Service | MicrosoftDocs
 description: "Use this article to learn how to view and update your presence status in Omnichannel for Customer Service."
-ms.date: 02/16/2023
+ms.date: 02/18/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

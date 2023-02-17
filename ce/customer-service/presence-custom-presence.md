@@ -1,7 +1,7 @@
 ---
 title: Configure and manage presence and custom presence | MicrosoftDocs
 description: See how you can configure and manage presence and custom presence in Omnichannel for Customer Service
-ms.date: 02/16/2023
+ms.date: 02/18/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

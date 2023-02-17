@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot issues in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this topic to get information on how to resolve issues that you might face when you work with Omnichannel for Customer Service."
-ms.date: 02/16/2023
+ms.date: 02/18/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
