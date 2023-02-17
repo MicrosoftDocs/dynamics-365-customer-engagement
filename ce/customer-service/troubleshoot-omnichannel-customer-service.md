@@ -1,6 +1,6 @@
 ---
 title: "Troubleshoot issues in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Use this topic to get information on how to resolve issues that you might face when you work with Omnichannel for Customer Service."
+description: "Use this article to get information on how to resolve issues that you might face when you work with Omnichannel for Customer Service."
 ms.date: 02/18/2023
 ms.topic: article
 author: lalexms
@@ -13,7 +13,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-Use the following list of troubleshooting topics to quickly find information to solve your issue.
+Use the following list of troubleshooting sections to quickly find information to solve your issue.
 
 ## The instance isn't available to select on the provisioning application <a name="provision"></a>
 
@@ -164,9 +164,9 @@ If your tenant is configured with Azure Security Defaults, make sure your users 
 
   - Something went wrong while setting up your workspace—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.
 
-  - We couldn't set up presences due to missing roles — Ask your administrator to grant you Omnichannel roles. If this continues, have your administrator contact Microsoft Support with the client session ID. To learn more about security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md). 
+  - We couldn't set up presences due to missing roles. Ask your administrator to grant you Omnichannel roles. If the situation continues, have your administrator contact Microsoft Support with the client session ID. To learn more about security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md). 
 
-  - We couldn't get your authentication token — Your Teams subscription has expired, please contact your admin to renew it. If this continues, have your admin contact Microsoft Support with the Client Session ID:{0}. To resolve the issue, follow the steps in [Omnichannel provisioning fails due to expired Teams Service Principal](#omnichannel-provisioning-fails-due-to-expired-teams-service-principal).
+  - We couldn't get your authentication token. Your Teams subscription has expired, please contact your admin to renew it. If this continues, have your admin contact Microsoft Support with the Client Session ID:{0}. To resolve the issue, follow the steps in [Omnichannel provisioning fails due to expired Teams Service Principal](#omnichannel-provisioning-fails-due-to-expired-teams-service-principal).
 
 ## Social data doesn't sync and prevents record identification for return users
 
@@ -280,7 +280,7 @@ You can use an icon of your choice by specifying the link of the icon in the **C
 A message stating **Sorry, we're not able to serve you at the moment** is shown to the customers when they start a chart on the portal. The possible issues might be one of the following scenarios:
 
 - Agents not configured in the queue.
-- Allowed Presence is not updated in the work stream: The default work streams that are shipped out-of-the-box, does not have **Allowed Presence** values in the work stream.
+- Allowed Presence isn't updated in the work stream: The default work streams that are shipped out-of-the-box, doesn't have **Allowed Presence** values in the work stream.
 
    > [!div class=mx-imgBorder]
    > ![Sorry, we are not able to serve you at this moment message on portal chat widget.](media/chat-widget-not-able-serve.png "Sorry, we are not able to serve you at this moment")
@@ -526,7 +526,7 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
 The issue might happen due to the following reasons:
 
 - Cookies are blocked in the browser.
-- Azure Active Directory consent is not available for Omnichannel for Customer Service app.
+- Azure Active Directory consent isn't available for Omnichannel for Customer Service app.
 - Agent doesn't have the Omnichannel agent role privileges.
 - Capacity and default presence are not set.
 - When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. After a deployment, the Channel Integration Framework product might point to a different URL. So, check and ensure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 always points to the correct URL.
@@ -550,7 +550,7 @@ Perform the following steps:
 
 Dynamics 365 Customer Service organization that you create from **demos.microsoft.com** have pre-imported sample Unified Service Desk configuration.
 
-If you import the Unified Service Desk - Omnichannel for Customer Service package without deleting the existing configuration in the new demo org, you see an error after signing in to Unified Service Desk client application. The reason for the issue is multiple sample Unified Service Desk configurations cannot exist in a Customer Service instance.
+If you import the Unified Service Desk - Omnichannel for Customer Service package without deleting the existing configuration in the new demo org, you see an error after signing in to Unified Service Desk client application. The reason for the issue is multiple sample Unified Service Desk configurations can't exist in a Customer Service instance.
 
    > [!div class=mx-imgBorder]
    > ![The hosted application couldn't be created.](media/usd-client-error.png "The hosted application couldn't be created")
@@ -634,7 +634,7 @@ The issue occurs when you rename the org URL but don’t update the channel URL 
 
 5. Do the following steps:
     - Make sure that the omnichannel channel provider record is listed and is in the active state. 
-     If the omnichannel record is not active, select the record, and then select **Activate** on the menu bar.
+     If the omnichannel record isn't active, select the record, and then select **Activate** on the menu bar.
     - On the **General** tab of the omnichannel record, make sure that the **Channel URL** field includes the org information as shown in the following example: <br>
    `https://oc-cdn-ocprod.azureedge.net/convcontrol/ChatControl.htm?uci=true&clientName=zfp&cloudType=Public&env=prod&ocBaseUrl=https://org749544d7-crm.omnichannelengagementhub.com&ucilib=https:// <org>.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`
 
