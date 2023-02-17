@@ -64,11 +64,11 @@ Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS channels
 
 ### Can I open Omnichannel for Customer Service in multiple browser tabs and windows?
 
-We recommend that you do not open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help agents work in a multisession environment wherein each session has contextual application tabs. The sessions are not synced across browser tabs.
+We recommend that you don't open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help agents work in a multisession environment wherein each session has contextual application tabs. The sessions aren't synced across browser tabs.
 
 ### What happens if I accidentally close the browser, refresh the entire page, or the browser crashes?
 
-If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost; however, if you have entered some data on the model-driven forms where autosave has been enabled, they will be saved into model-driven apps.
+If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost; however, if you've entered some data on the model-driven forms where autosave has been enabled, they'll be saved into model-driven apps.
 
 Ongoing chat conversations appear on your Omnichannel Agent Dashboard. You can pick the chat from that dashboard and resume the conversation. The chat conversation is preserved, and you will be able to see the previous messages. If you were working on case sessions, you can reopen them using the gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](oc-manage-sessions.md#start-a-session).
 
@@ -109,7 +109,7 @@ Conversations and sessions are stored as activity types within the model-driven 
 
 ### How does Automated Record Identification work with pre-chat fields?
 
-If you are using multiple fields for automated record identification, they must all be an exact match. To learn more, see [Automatically identify customers using pre-chat responses](record-identification-rule.md).
+If you're using multiple fields for automated record identification, they must all be an exact match. To learn more, see [Automatically identify customers using pre-chat responses](record-identification-rule.md).
 
 ### What do I do if my dashboards (Omnichannel Agent Dashboard, Omnichannel Conversation Dashboard, Tier 1 Dashboard, Tier 2 Dashboard) aren’t showing up?
 
@@ -129,7 +129,7 @@ Yes. For a list of supported customizations, see [Customizations supported by th
 
 ### Why am I not able to see the Intraday Monitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors?
 
-Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in admin app, ensure that you have saved the configurations before you exit the configuration form. When you select **Save**, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service).
+Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in admin app, ensure that you have saved the configurations before you exit the configuration form. When you select **Save**, the creation of the report and dataset is initiated. If you missed saving the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service).
 
 ### What is the application ID field on the application user form?
 
@@ -146,13 +146,13 @@ As of today, only chat conversations can be silently monitored by a supervisor.
 Check the following:
 
 - Make sure that the Omnichannel supervisor role is assigned to the user.
-- For the Power BI intraday dashboard, ensure that the dashboard is shared with the user both on Power BI service as well as in the Omnichannel app.
+- For the Power BI intraday dashboard, ensure that the dashboard is shared with the user both on Power BI service and in the Omnichannel app.
 
 For more information, see [Configure Intraday Insights dashboard](configure-intraday-dashboard-supervisor.md). 
 
 ### Why are my Chat Insights and Sentiment dashboard reports empty?
 
-By default, the reports are installed with only a data connection. Once you start using chat and sentiment features, you will see data come through.
+By default, the reports are installed with only a data connection. Once you start using chat and sentiment features, you'll see data come through.
 
 ### How far can I go back in the historical report?
 
