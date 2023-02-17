@@ -1,7 +1,7 @@
 ---
 title: "SalesLiterature table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the SalesLiterature table/entity."
-ms.date: 01/13/2023
+ms.date: 02/17/2023
 ms.service: dynamics-365-sales
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c

@@ -1,7 +1,7 @@
 ---
 title: "Lead table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Lead table/entity."
-ms.date: 01/13/2023
+ms.date: 02/17/2023
 ms.service: dynamics-365-sales
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -156,7 +156,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_LeadGrade](#BKMK_msdyn_LeadGrade)
 - [msdyn_LeadScore](#BKMK_msdyn_LeadScore)
 - [msdyn_LeadScoreTrend](#BKMK_msdyn_LeadScoreTrend)
-- [msdyn_ordertype](#BKMK_msdyn_ordertype)
 - [msdyn_PredictiveScoreId](#BKMK_msdyn_PredictiveScoreId)
 - [msdyn_salesassignmentresult](#BKMK_msdyn_salesassignmentresult)
 - [msdyn_ScoreHistory](#BKMK_msdyn_ScoreHistory)
@@ -1758,29 +1757,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1|Steady||
 |2|Declining||
 |3|Not enough info||
-
-
-
-### <a name="BKMK_msdyn_ordertype"></a> msdyn_ordertype
-
-**Added by**: Field Service Common Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Whether the Opportunity created when qualifying this Lead is for an Item- based or a Work-based sale|
-|DisplayName|Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_ordertype|
-|RequiredLevel|Recommended|
-|Type|Picklist|
-
-#### msdyn_ordertype Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|192350000|Item based||
-|192350001|Work based||
 
 
 

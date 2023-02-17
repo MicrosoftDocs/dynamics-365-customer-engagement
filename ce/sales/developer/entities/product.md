@@ -1,7 +1,7 @@
 ---
 title: "Product table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Product table/entity."
-ms.date: 01/13/2023
+ms.date: 02/17/2023
 ms.service: dynamics-365-sales
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -73,9 +73,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsKit](#BKMK_IsKit)
 - [IsReparented](#BKMK_IsReparented)
 - [IsStockItem](#BKMK_IsStockItem)
-- [msdyn_FieldServiceProductType](#BKMK_msdyn_FieldServiceProductType)
 - [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
-- [msdyn_TransactionCategory](#BKMK_msdyn_TransactionCategory)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [ParentProductId](#BKMK_ParentProductId)
@@ -292,30 +290,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 
 
-### <a name="BKMK_msdyn_FieldServiceProductType"></a> msdyn_FieldServiceProductType
-
-**Added by**: Field Service Common Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Field Service Product Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_fieldserviceproducttype|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_FieldServiceProductType Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|690970000|Inventory||
-|690970001|Non-Inventory||
-|690970002|Service||
-
-
-
 ### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
 
 **Added by**: Predictive Opportunity Scoring Solution
@@ -339,22 +313,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 **DefaultValue**: 0
 
-
-
-### <a name="BKMK_msdyn_TransactionCategory"></a> msdyn_TransactionCategory
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Select the transaction category for this product.|
-|DisplayName|Transaction Category|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_transactioncategory|
-|RequiredLevel|None|
-|Targets|msdyn_transactioncategory|
-|Type|Lookup|
 
 
 ### <a name="BKMK_Name"></a> Name
@@ -899,7 +857,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_TransactionCategoryName](#BKMK_msdyn_TransactionCategoryName)
 - [OrganizationId](#BKMK_OrganizationId)
 - [OrganizationIdName](#BKMK_OrganizationIdName)
 - [ParentProductIdName](#BKMK_ParentProductIdName)
@@ -1339,24 +1296,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|modifiedonbehalfbyyominame|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_TransactionCategoryName"></a> msdyn_TransactionCategoryName
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_transactioncategoryname|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|

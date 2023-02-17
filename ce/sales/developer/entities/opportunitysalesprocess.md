@@ -1,7 +1,7 @@
 ---
 title: "OpportunitySalesProcess table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the OpportunitySalesProcess table/entity."
-ms.date: 01/13/2023
+ms.date: 02/17/2023
 ms.service: dynamics-365-sales
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -20,7 +20,7 @@ search.app:
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 
-Base entity for process Opportunity Sales Process
+Opportunity Sales Process Business Process Flow
 
 **Added by**: Sales Solution
 
@@ -60,8 +60,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ActiveStageId](#BKMK_ActiveStageId)
 - [ActiveStageStartedOn](#BKMK_ActiveStageStartedOn)
-- [bpf_quoteid](#BKMK_bpf_quoteid)
-- [bpf_salesorderid](#BKMK_bpf_salesorderid)
 - [BusinessProcessFlowInstanceId](#BKMK_BusinessProcessFlowInstanceId)
 - [CompletedOn](#BKMK_CompletedOn)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
@@ -106,38 +104,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|activestagestartedon|
 |RequiredLevel|None|
 |Type|DateTime|
-
-
-### <a name="BKMK_bpf_quoteid"></a> bpf_quoteid
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|quote|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|bpf_quoteid|
-|RequiredLevel|None|
-|Targets|quote|
-|Type|Lookup|
-
-
-### <a name="BKMK_bpf_salesorderid"></a> bpf_salesorderid
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|salesorder|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|bpf_salesorderid|
-|RequiredLevel|None|
-|Targets|salesorder|
-|Type|Lookup|
 
 
 ### <a name="BKMK_BusinessProcessFlowInstanceId"></a> BusinessProcessFlowInstanceId
@@ -386,8 +352,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [ActiveStageIdName](#BKMK_ActiveStageIdName)
-- [bpf_quoteidName](#BKMK_bpf_quoteidName)
-- [bpf_salesorderidName](#BKMK_bpf_salesorderidName)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
 - [CreatedByYomiName](#BKMK_CreatedByYomiName)
@@ -427,42 +391,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |LogicalName|activestageidname|
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
-|Type|String|
-
-
-### <a name="BKMK_bpf_quoteidName"></a> bpf_quoteidName
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|bpf_quoteidname|
-|MaxLength|300|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_bpf_salesorderidName"></a> bpf_salesorderidName
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|bpf_salesorderidname|
-|MaxLength|300|
-|RequiredLevel|None|
 |Type|String|
 
 
@@ -845,8 +773,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [lk_opportunitysalesprocess_opportunityid](#BKMK_lk_opportunitysalesprocess_opportunityid)
 - [lk_opportunitysalesprocess_quoteid](#BKMK_lk_opportunitysalesprocess_quoteid)
 - [lk_opportunitysalesprocess_salesorderid](#BKMK_lk_opportunitysalesprocess_salesorderid)
-- [bpf_quote_OpportunitySalesProcess](#BKMK_bpf_quote_OpportunitySalesProcess)
-- [bpf_salesorder_OpportunitySalesProcess](#BKMK_bpf_salesorder_OpportunitySalesProcess)
 
 
 ### <a name="BKMK_lk_opportunitysalesprocess_opportunityid"></a> lk_opportunitysalesprocess_opportunityid
@@ -860,14 +786,6 @@ See the [lk_opportunitysalesprocess_quoteid](quote.md#BKMK_lk_opportunitysalespr
 ### <a name="BKMK_lk_opportunitysalesprocess_salesorderid"></a> lk_opportunitysalesprocess_salesorderid
 
 See the [lk_opportunitysalesprocess_salesorderid](salesorder.md#BKMK_lk_opportunitysalesprocess_salesorderid) one-to-many relationship for the [salesorder](salesorder.md) table/entity.
-
-### <a name="BKMK_bpf_quote_OpportunitySalesProcess"></a> bpf_quote_OpportunitySalesProcess
-
-See the [bpf_quote_OpportunitySalesProcess](quote.md#BKMK_bpf_quote_OpportunitySalesProcess) one-to-many relationship for the [quote](quote.md) table/entity.
-
-### <a name="BKMK_bpf_salesorder_OpportunitySalesProcess"></a> bpf_salesorder_OpportunitySalesProcess
-
-See the [bpf_salesorder_OpportunitySalesProcess](salesorder.md#BKMK_bpf_salesorder_OpportunitySalesProcess) one-to-many relationship for the [salesorder](salesorder.md) table/entity.
 
 ### See also
 

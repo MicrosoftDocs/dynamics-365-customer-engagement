@@ -1,7 +1,7 @@
 ---
-title: "Opportunity Line (OpportunityProduct)  table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
-description: "Includes schema information and supported messages for the Opportunity Line (OpportunityProduct)  table/entity."
-ms.date: 01/13/2023
+title: "OpportunityProduct table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+description: "Includes schema information and supported messages for the OpportunityProduct table/entity."
+ms.date: 02/17/2023
 ms.service: dynamics-365-sales
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -15,7 +15,7 @@ search.app:
   - D365CE
 ---
 
-# Opportunity Line (OpportunityProduct)  table/entity reference
+# OpportunityProduct table/entity reference
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
@@ -41,8 +41,8 @@ Association between an opportunity and a product.
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|OpportunityProducts|
-|DisplayCollectionName|Opportunity Lines|
-|DisplayName|Opportunity Line|
+|DisplayCollectionName|Opportunity Products|
+|DisplayName|Opportunity Product|
 |EntitySetName|opportunityproducts|
 |IsBPFEntity|False|
 |LogicalCollectionName|opportunityproducts|
@@ -67,12 +67,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsProductOverridden](#BKMK_IsProductOverridden)
 - [LineItemNumber](#BKMK_LineItemNumber)
 - [ManualDiscountAmount](#BKMK_ManualDiscountAmount)
-- [msdyn_BillingMethod](#BKMK_msdyn_BillingMethod)
-- [msdyn_BudgetAmount](#BKMK_msdyn_BudgetAmount)
-- [msdyn_CostAmount](#BKMK_msdyn_CostAmount)
-- [msdyn_CostPricePerUnit](#BKMK_msdyn_CostPricePerUnit)
-- [msdyn_LineType](#BKMK_msdyn_LineType)
-- [msdyn_Project](#BKMK_msdyn_Project)
 - [OpportunityId](#BKMK_OpportunityId)
 - [OpportunityProductId](#BKMK_OpportunityProductId)
 - [OpportunityProductName](#BKMK_OpportunityProductName)
@@ -262,125 +256,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |PrecisionSource|2|
 |RequiredLevel|None|
 |Type|Money|
-
-
-### <a name="BKMK_msdyn_BillingMethod"></a> msdyn_BillingMethod
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Billing method for the project opportunity line. Valid values are Time and Material and Fixed Price|
-|DisplayName|Billing Method|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_billingmethod|
-|RequiredLevel|Recommended|
-|Type|Picklist|
-
-#### msdyn_BillingMethod Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|192350000|Time and Material|Billing method for time and material transactions|
-|192350001|Fixed Price|Billing method for fixed price transactions|
-
-
-
-### <a name="BKMK_msdyn_BudgetAmount"></a> msdyn_BudgetAmount
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Enter the customer budget amount for this opportunity line.|
-|DisplayName|Budget Amount|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_budgetamount|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_CostAmount"></a> msdyn_CostAmount
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the total cost price of the product based on the cost price per unit and quantity.|
-|DisplayName|Cost Amount|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_costamount|
-|MaxValue|922337203685477|
-|MinValue|0|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_CostPricePerUnit"></a> msdyn_CostPricePerUnit
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Cost price per unit of the product. The default is the cost price of the product.|
-|DisplayName|Cost Price Per Unit|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_costpriceperunit|
-|MaxValue|922337203685477|
-|MinValue|0|
-|Precision|2|
-|PrecisionSource|1|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_LineType"></a> msdyn_LineType
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description|The field to distinguish the order lines to be of project service or field service|
-|DisplayName|Line Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_linetype|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_LineType Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|690970000|Project Service Line||
-|690970001|Field Service Line||
-
-
-
-### <a name="BKMK_msdyn_Project"></a> msdyn_Project
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Select the project for this opportunity line.|
-|DisplayName|Project|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_project|
-|RequiredLevel|None|
-|Targets|msdyn_project|
-|Type|Lookup|
 
 
 ### <a name="BKMK_OpportunityId"></a> OpportunityId
@@ -818,10 +693,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_budgetamount_Base](#BKMK_msdyn_budgetamount_Base)
-- [msdyn_costamount_Base](#BKMK_msdyn_costamount_Base)
-- [msdyn_costpriceperunit_Base](#BKMK_msdyn_costpriceperunit_Base)
-- [msdyn_ProjectName](#BKMK_msdyn_ProjectName)
 - [OpportunityIdName](#BKMK_OpportunityIdName)
 - [OpportunityStateCode](#BKMK_OpportunityStateCode)
 - [OwnerId](#BKMK_OwnerId)
@@ -1164,81 +1035,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForRead|True|
 |LogicalName|modifiedonbehalfbyyominame|
 |MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_budgetamount_Base"></a> msdyn_budgetamount_Base
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Value of the Budget Amount in base currency.|
-|DisplayName|Budget Amount (Base)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_budgetamount_base|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_costamount_Base"></a> msdyn_costamount_Base
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Value of the Cost Amount in base currency.|
-|DisplayName|Cost Amount (Base)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_costamount_base|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_costpriceperunit_Base"></a> msdyn_costpriceperunit_Base
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Value of the Cost Price Per Unit in base currency.|
-|DisplayName|Cost Price Per Unit (Base)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_costpriceperunit_base|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|2|
-|PrecisionSource|1|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_ProjectName"></a> msdyn_ProjectName
-
-**Added by**: Project Operations Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_projectname|
-|MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
 

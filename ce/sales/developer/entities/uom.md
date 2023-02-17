@@ -1,7 +1,7 @@
 ---
 title: "Unit (UoM)  table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Unit (UoM)  table/entity."
-ms.date: 01/13/2023
+ms.date: 02/17/2023
 ms.service: dynamics-365-sales
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -642,7 +642,6 @@ Listed by **SchemaName**.
 - [unit_of_measurement_opportunity_products](#BKMK_unit_of_measurement_opportunity_products)
 - [unit_of_measurement_order_details](#BKMK_unit_of_measurement_order_details)
 - [unit_of_measurement_quote_details](#BKMK_unit_of_measurement_quote_details)
-- [msdyn_uom_pricelevel_TimeUnit](#BKMK_msdyn_uom_pricelevel_TimeUnit)
 
 
 ### <a name="BKMK_unit_of_measurement_base_unit"></a> unit_of_measurement_base_unit
@@ -771,23 +770,6 @@ Same as the [unit_of_measurement_quote_details](quotedetail.md#BKMK_unit_of_meas
 |ReferencedEntityNavigationPropertyName|unit_of_measurement_quote_details|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_pricelevel_TimeUnit"></a> msdyn_uom_pricelevel_TimeUnit
-
-**Added by**: Project Operations Solution
-
-Same as the [msdyn_uom_pricelevel_TimeUnit](pricelevel.md#BKMK_msdyn_uom_pricelevel_TimeUnit) many-to-one relationship for the [pricelevel](pricelevel.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|pricelevel|
-|ReferencingAttribute|msdyn_timeunit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_pricelevel_TimeUnit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
