@@ -33,7 +33,7 @@ As an agent, you can view your presence status on the navigation bar. You can se
   
   - ![Inactive presence status.](media/oceh-appear-away-icon.png "Appear away presence status")  Inactive
   
-For the presence status or the icon to be displayed correctly, ensure that cookies are enabled in your browser for all modes.
+For the presence status or the icon to display correctly, ensure that cookies are enabled in your browser for all modes.
  
 ## Update your presence status
 
@@ -53,7 +53,7 @@ You can update the presence status in the following two ways:
   > [!div class=mx-imgBorder]
   > ![Set your presence status.](media/oceh-presence.png "Set your presence status")
 
-- **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity as follows:
+- **Automatically** - The status is set automatically based on the work item assignment. When a conversation (work item) is assigned to you, the status is updated based on the capacity as follows:
 
   - When your capacity is fully utilized, the presence is set to **Do not disturb**.
   - When your capacity is partially utilized, the presence is set to **Busy**.
