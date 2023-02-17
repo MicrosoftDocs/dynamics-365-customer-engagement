@@ -22,12 +22,12 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.82.35](/dynamics365/field-service/version-history#888235)  | TBD | 02/17/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.82.35](/dynamics365/field-service/version-history#888235)  | TBD | 02/24/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.82.52](/dynamics365/field-service/version-history#888252)  | TBD | 03/03/2023 |
-| | *USG* | [8.8.82.35](/dynamics365/field-service/version-history#888235)  | TBD | 02/24/2023 |
-|**Station 4** |*Europe* |[8.8.82.52](/dynamics365/field-service/version-history#888252)  | TBD | 03/10/2023 |
-|**Station 5** |  *North America*|[8.8.81.89](/dynamics365/field-service/version-history#888189)  | [8.8.82.35](/dynamics365/field-service/version-history#888235) | 02/17/2023 |
+|**Station 1** |  *First Release*| [8.8.83.19](/dynamics365/field-service/version-history#888319)  | TBD | 03/03/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.82.35](/dynamics365/field-service/version-history#888235)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 02/24/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 03/03/2023 |
+| | *USG* | [8.8.82.35](/dynamics365/field-service/version-history#888235)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 02/24/2023 |
+|**Station 4** |*Europe* |[8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 03/10/2023 |
+|**Station 5** |  *North America*|[8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 03/17/2023 |
 |**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.81.89](/dynamics365/field-service/version-history#888189)  | [8.8.82.35](/dynamics365/field-service/version-history#888235) | 02/17/2023 |
 | | *Dedicated Scale Groups* |  [8.8.81.89](/dynamics365/field-service/version-history#888189)  | [8.8.82.35](/dynamics365/field-service/version-history#888235) | 02/24/2023 |
 
@@ -35,6 +35,18 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+
+## 8.8.83.19
+(Includes Universal Resource Scheduling version [3.12.97.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#312979)) and Resource Scheduling controls version 1.2.37.230406).
+
+- Fixed a bug that prevented opportunities to be converted to work orders when the account is indirectly linked through the opportunity contact.
+- Fixed a bug preventing work order Completed On time from being set when the WO status changed to posted and at least one open booking is cancelled.
+- Field Service (D365) Mobile: Android will now support image multi-select when uploading to Inspections.
+- Field Service (D365) Mobile: Fixed a bug which was preventing export of Inspection response to PDF when the inspection template included a question with date/time format.
+- Field Service (D365) Mobile: Fixed a bug on Windows application where in some locales “get directions” link did not pass the supported lat/long format for local version of Bing Maps.
+- Field Service (D365) Mobile: Fixed a bug to delay Work Order form save if Duration is updated without corresponding Duration to Bill field update.
+
 
 ## 8.8.87.7 (2023 Wave 1 early access)
 
