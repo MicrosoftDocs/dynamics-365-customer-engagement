@@ -1,7 +1,7 @@
 ---
 title: Understand how to uninstall Sales Premium Add-ons
 description: Uninstall the Sales Premium Add-ons for Dynamics 365 Sales if you don't want to use it in your organization.
-ms.date: 02/15/2023
+ms.date: 02/17/2023
 ms.custom: bap-template
 ms.topic: how-to
 author: udaykirang
