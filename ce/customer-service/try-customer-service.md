@@ -22,7 +22,7 @@ Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign-up,
 
 > [!NOTE]
 > - Check the availability of the product in the region you want to try before you sign up for a trial.
-> - If you use a personal email ID to sign up for the trial, not all the trial features will be available. More information: [Trial FAQ](../shared/trials/trial-faq-platform.md#personalemail)
+> - If you use a personal email ID to sign up for the trial, not all the trial features will be available. More information: [Trial FAQ](trial-faq.md#personalemail)
 
 The trial will take a few moments to load, then you can start using Customer Service.
 
