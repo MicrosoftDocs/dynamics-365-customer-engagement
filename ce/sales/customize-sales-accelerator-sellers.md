@@ -1,7 +1,7 @@
 ---
 title: "Configure sales accelerator settings for sellers to personalize"
 description: "Use personal settings to determine what happens when an activity is complete."
-ms.date: 08/05/2022
+ms.date: 02/10/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -25,7 +25,7 @@ As an administrator or sequence manager, you can configure sequences by using th
 
 - [Seller availability](#seller-availability)
 - [Sequence activities](#sequence-activities)
-- [Sequence reporting](#enable-sales-accelerator-reports)
+- [Sequence reporting](#sequence-reporting)
 - [Phone number priority](#phone-number-priority) 
 
 ## Seller availability
@@ -131,11 +131,7 @@ Follow these steps:
 7. Select **Save**.
 
 
-<a name="enable-sales-accelerator-reports"></a>
-
 ## Sequence reporting 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Enable sales accelerator reports to help your sales manager view and understand their team's historical operational metrics, key performance indicators (KPIs), and sequence stats page.   
 

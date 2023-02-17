@@ -77,6 +77,7 @@ This month, the new real-time marketing segment builder is generally available. 
 Learn how to make the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
 - [Boost event engagement with real-time journeys - Scenario docs](real-time-marketing-event-registration-journey.md)
 - [Real-Time Marketing – Using Conditional Content within your emails! - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/real-time-marketing-using-conditional-content-within-your-emails)
+- [Level up customer journeys with advanced orchestration features in Dynamics 365 Marketing - Dynamics 365 IT Pro Blogs](https://cloudblogs.microsoft.com/dynamics365/it/2023/02/03/level-up-customer-journeys-with-advanced-orchestration-features-in-dynamics-365-marketing/)
 
 ## January 2023 update
 
