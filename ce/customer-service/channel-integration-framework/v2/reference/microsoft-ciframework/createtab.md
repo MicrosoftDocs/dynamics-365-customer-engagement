@@ -13,7 +13,7 @@ ms.custom:
 
 # createTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Creates a tab in a focused Session and returns the unique identifier of the created tab.
+Creates a tab in a focused session and returns the unique identifier of the created tab.
 
 ## Syntax
 
