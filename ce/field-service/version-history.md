@@ -1,10 +1,8 @@
 ---
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
-ms.date: 01/09/2023
+ms.date: 02/17/2023
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
 author: jshotts
 ms.author: jasonshotts
 search.app:
@@ -41,11 +39,11 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 (Includes Universal Resource Scheduling version [3.12.97.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#312979)) and Resource Scheduling controls version 1.2.37.230406).
 
 - Fixed a bug that prevented opportunities to be converted to work orders when the account is indirectly linked through the opportunity contact.
-- Fixed a bug preventing work order Completed On time from being set when the WO status changed to posted and at least one open booking is cancelled.
-- Field Service (D365) Mobile: Android will now support image multi-select when uploading to Inspections.
-- Field Service (D365) Mobile: Fixed a bug which was preventing export of Inspection response to PDF when the inspection template included a question with date/time format.
-- Field Service (D365) Mobile: Fixed a bug on Windows application where in some locales “get directions” link did not pass the supported lat/long format for local version of Bing Maps.
-- Field Service (D365) Mobile: Fixed a bug to delay Work Order form save if Duration is updated without corresponding Duration to Bill field update.
+- Fixed a bug preventing work order Completed On time from being set when the work order status changed to posted and at least one open booking is cancelled.
+- Field Service (Dynamics 365): Android app now supports image multi-select when uploading to inspections.
+- Field Service (Dynamics 365): Fixed a bug which was preventing export of inspection response to PDF when the inspection template included a question with date/time format.
+- Field Service (Dynamics 365): Fixed a bug on the Windows application where in some locales the “get directions” link did not pass the supported lat/long format for local version of Bing Maps.
+- Field Service (Dynamics 365): Fixed a bug to delay work order form save if Duration is updated without corresponding Duration to Bill field update.
 
 
 ## 8.8.87.7 (2023 Wave 1 early access)
