@@ -34,16 +34,12 @@ With the custom messaging channel capability, you can:
 ## Configure a custom messaging channel account
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps:
-
-   Customer Service admin center:
+   - Customer Service admin center:
     
-    1. In the site map, in **Customer support**, select **Channels**.
-    
-    1. In **Accounts**, for **Messaging accounts**, select **Manage**.
+      1. In the site map, in **Customer support**, select **Channels**.
+      1. In **Accounts**, for **Messaging accounts**, select **Manage**.
    
-   Omnichannel admin center:
-
-    - In the site map, in **General settings**, select **Channels**.
+   - Omnichannel admin center: In the site map, in **General settings**, select **Channels**.
 
 1. On the **Accounts and channels** page, select **New account**, and enter the following details in the **Add account** area.
 
