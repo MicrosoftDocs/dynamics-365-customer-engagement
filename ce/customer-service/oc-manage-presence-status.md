@@ -23,7 +23,7 @@ For the presence status or presence icon to display correctly, ensure that cooki
 
 ## View your presence status
 
-As an agent, you can view your presence status on the navigation bar. You can select the presence icon to launch the presence dialog and update your presence.
+You can view your presence status on the navigation bar. You can select the presence icon to launch the presence dialog and update your presence.
 
   - ![Offline presence status.](media/oceh-offline-icon.png "Offline presence status")  Offline
 
@@ -56,12 +56,12 @@ You can update the presence status in the following two ways:
   > [!div class=mx-imgBorder]
   > ![Set your presence status.](media/oceh-presence.png "Set your presence status")
 
-- **Automatically**: When a conversation (work item) is assigned to you, your presence status is automatically updated based on the capacity as follows:
+- **Automatically**: When a conversation (work item) is assigned to you, Omnichannel for Customer Service sets your presence status based on your capacity as follows:
 
-  - When your capacity is fully utilized, then the presence is set to **Do not disturb**.
-  - When your capacity is partially utilized, then the presence is set to **Busy**.
-  - When your capacity isn't utilized, then the presence is set to **Available**.
-  - If you already have 10 sessions open, which is the maximum multisession limit, and a new work item comes in, then your status automatically changes to **Do not disturb**.
+  - When your capacity is fully utilized, then Omnichannel for Customer Service sets your presence to **Do not disturb**.
+  - When your capacity is partially utilized, then Omnichannel for Customer Service sets your presence to **Busy**.
+  - When your capacity isn't utilized, then Omnichannel for Customer Service sets your presence to **Available**.
+  - If you already have 10 sessions open, which is the maximum multisession limit, and a new work item comes in, then Omnichannel for Customer Service changes your presence to **Do not disturb**.
   - When you miss a notification and the missed notifications setting is enabled, then the presence is set to **Inactive**.
   - When you reject a work notification and the agent reject notification setting is enabled, then the presence is set to **Do not disturb**.
 
@@ -69,11 +69,11 @@ You can update the presence status in the following two ways:
 
 Your presence status pertains to the following three conditions:
 
-- If the presence is **Away** or **Offline**, the system doesn't update the presence. However, you can manually change it. 
+- Omnichannel for Customer Service determines your presence based on your used or released capacity. The presence changes from **Available** to **Busy**, **Busy** to **Do not disturb**, **Do not disturb** to **Busy**, or **Busy** to **Available**.
 
-- If the presence is manually changed to **Do not disturb**, the system doesn't update the presence. However, you can again manually change it. 
+- If your presence is **Away** or **Offline**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it. 
 
-- The system determines your presence based on your used or released capacity. The presence changes from **Available** to **Busy**, **Busy** to **Do not disturb**, **Do not disturb** to **Busy**, or **Busy** to **Available**.
+- If you change your presence to **Do not disturb**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it. 
 
 ## Presence status scenarios
 
@@ -83,7 +83,7 @@ The following scenarios describe how your presence status can be affected while 
 
 - **Sign in**: When you sign in, your presence is set to the default presence if no work items have been assigned to you. If work items have been assigned, then your presence is automatically determined. However, if your default presence is set as Away or Offline, then the system doesn’t change your presence.  
 
-- **Accept work items**: When you accept a work item manually or it's assigned automatically, then the system determines your presence based on your work capacity. But, if your presence is set to Away or Offline, or if you've manually changed your presence to Do not disturb, then the system doesn’t change your presence. 
+- **Accept work items**: When you accept a work item or it's assigned automatically, then the system determines your presence based on your work capacity. But, if your presence is set to Away or Offline, or if you've manually changed your presence to Do not disturb, then the system doesn’t change your presence. 
 
 - **Close work items**: When you close a session, or resolve, cancel, or reroute a case, the system determines your presence based on your work capacity. But, if your presence is set to Away or Offline, or if you've manually changed your presence to Do not disturb, then the system doesn’t change your presence.
 
