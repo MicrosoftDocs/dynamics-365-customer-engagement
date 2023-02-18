@@ -47,16 +47,16 @@ With the custom messaging channel capability, you can:
 
 1. On the **Accounts and channels** page, select **New account**, and enter the following details in the **Add account** area.
 
-    1. On the **Channel details**, enter the following details:
+    1. **Channel details**:
         1. Enter a name in the **Name** field.
         2. Select **Custom** from the **Channel** list.
         3. Select **Azure bot framework** from the **Method** list, and then select **Next**.
     
-    1. On the **Account details**, enter the following details:
+    1. **Account details**:
         1. Enter the Microsoft app ID in the **Microsoft app ID** field and the client secret value in **Client secret**, and then select **Validate**. 
-        2. After your validation is successful, select **Next*.
+        2. After your validation is successful, select **Next**.
 
-    1. On the **Custom channel** page, select **Add**, and enter the following information:
+    1. **Custom channel**: Select **Add** and enter the following information:
           - **Name:** A name for the channel.
           - **Channel:** Select a channel in the list.
     4. On the **Callback information** page, copy the value in the **Messaging endpoint URL** box. You'll update this information in the custom channel account.
@@ -69,7 +69,7 @@ With the custom messaging channel capability, you can:
    3. On the **Behaviors** page, configure the following options:
       - [Custom automated messages](configure-automated-message.md)
       - [Post-conversation survey](configure-post-conversation-survey.md)
-   4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
+   4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md)
       - Customers can send file attachments
       - Agents can send file attachments
    5. Verify the settings on the **Summary** page, and select **Finish**. The custom channel instance is configured.
