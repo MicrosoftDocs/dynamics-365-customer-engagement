@@ -14,7 +14,7 @@ search.app:
 # Field Service (Dynamics 365) mobile app overview
 
 The Field Service (Dynamics 365) mobile app enables technicians to view and update work orders, customer assets, accounts, and more on the go. The app is available for Windows 10+, Apple iOS, and Google Android devices at no extra charge.
-
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN1Bb]
 
 The mobile app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview), which makes it customizable to your business needs. It's included in your Field Service license.
