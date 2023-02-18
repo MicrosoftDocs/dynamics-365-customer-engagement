@@ -35,13 +35,13 @@ With the custom messaging channel capability, you can:
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps:
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   Customer Service admin center:
     
     1. In the site map, in **Customer support**, select **Channels**.
     
     1. In **Accounts**, for **Messaging accounts**, select **Manage**.
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+   Omnichannel admin center:
 
     - In the site map, in **General settings**, select **Channels**.
 
@@ -54,14 +54,14 @@ With the custom messaging channel capability, you can:
     
     1. **Account details**:
          - **Microsoft app ID**: Enter the Microsoft app ID.
-         -  **Client secret**: Enter the client secret value. 
+         -  **Client secret**: Enter the client secret value. <br>
          Select **Validate**. After your validation is successful, select **Next**.
 
     1. **Custom channel**: Select **Add** and enter the following information:
           - **Name**: Enter a name for the custom messaging channel.
           - **Channel**: Select a messaging channel from the list.
-          Select **Add** to add the channel to the account. 
-        You can repeat this step to add more channels to the same custom messaging account. 
+          Select **Add** to add the channel to the account. <br>
+        You can repeat this step to add more channels to the same custom messaging account. <br>
         After you've added one or more channels to the account, select **Save and close**.
     4. **Callback information**: Copy the endpoint value in **Messaging endpoint URL**.
         Perform the following steps on the Azure portal:
@@ -70,7 +70,7 @@ With the custom messaging channel capability, you can:
         3. Paste the messaging endpoint URL in the **Messaging endpoint** field.
         4. Select **Enable Streaming Endpoint**.
         5. Select **Apply** and close the Azure portal.
-        6. Select **Save and close**. 
+        6. Select **Save and close**. <br>
     You've now created a custom messaging account and added one or more custom channels to the account.
 
 ## Configure workstream and routing rules for the custom channel
