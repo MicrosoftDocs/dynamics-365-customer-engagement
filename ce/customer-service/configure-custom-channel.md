@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. Direct Line and Telegram messaging channel integrations are supported. More information: [Direct Line](bring-your-own-channel.md)
+As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. You can integrate messaging channels like Direct Line, Kik, and Telegram.
 
 With the custom messaging channel capability, you can:
 - Bring in your own channels, so you can engage better with customers.
@@ -48,22 +48,35 @@ With the custom messaging channel capability, you can:
 1. On the **Accounts and channels** page, select **New account**, and enter the following details in the **Add account** area.
 
     1. **Channel details**:
-        1. Enter a name in the **Name** field.
-        2. Select **Custom** from the **Channel** list.
-        3. Select **Azure bot framework** from the **Method** list, and then select **Next**.
+         - **Name**: Enter a name for the custom messaging account.
+         - **Channel**: Select **Custom** from the list.
+         - **Method**: Select **Azure bot framework** from the list, and then select **Next**.
     
     1. **Account details**:
-        1. Enter the Microsoft app ID in the **Microsoft app ID** field and the client secret value in **Client secret**, and then select **Validate**. 
-        2. After your validation is successful, select **Next**.
+         - **Microsoft app ID**: Enter the Microsoft app ID.
+         -  **Client secret**: Enter the client secret value. 
+         Select **Validate**. After your validation is successful, select **Next**.
 
     1. **Custom channel**: Select **Add** and enter the following information:
-          - **Name:** A name for the channel.
-          - **Channel:** Select a channel in the list.
-    4. On the **Callback information** page, copy the value in the **Messaging endpoint URL** box. You'll update this information in the custom channel account.
-    5. Select **Done**. The custom channel account is created.
+          - **Name**: Enter a name for the custom messaging channel.
+          - **Channel**: Select a messaging channel from the list.
+          Select **Add** to add the channel to the account. 
+        You can repeat this step to add more channels to the same custom messaging account. 
+        After you've added one or more channels to the account, select **Save and close**.
+    4. **Callback information**: Copy the endpoint value in **Messaging endpoint URL**.
+        Perform the following steps on the Azure portal:
+        1. Open your Azure bot resource on the Azure portal in another tab or window.
+        2. Go to **Settings** > **Configuration**.
+        3. Paste the messaging endpoint URL in the **Messaging endpoint** field.
+        4. Select **Enable Streaming Endpoint**.
+        5. Select **Apply** and close the Azure portal.
+        6. Select **Save and close**. 
+    You've now created a custom messaging account and added one or more custom channels to the account.
 
-1. In the site map, select **Workstreams** and [create a workstream](create-workstreams.md). Be sure to select **Messaging** for **Type** field and **Custom** for the **Channel** field.
-1. In the site map, select the workstream that you created for the custom channel, and on the page that appears, select **Set up Custom** and enter the following details:
+## Configure workstream and routing rules for the custom channel
+
+1. In the site map, select **Workstreams** and [create a workstream](create-workstreams.md). Be sure to select **Messaging** for **Type** and **Custom** for **Channel**.
+1. Select the workstream that you created for the custom channel, and on the page that appears, select **Set up Custom** and enter the following details:
    1. On the **Custom channel** page, select the account that you created.
    2. On the **Language** page, select the required language.
    3. On the **Behaviors** page, configure the following options:
