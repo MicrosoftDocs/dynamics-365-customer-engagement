@@ -1,63 +1,41 @@
-Resource pool scheduling allows you to assemble groups of similar resources to manage capacity and give schedulers the option to assign specific resources at a later time. 
+Resource pools are groups of similar resources. Dispatchers manage capacity and get the option to assign resources later.
 
-Resource pool scheduling is useful for several scenarios, including:
+Resource pool scheduling is useful in several situations:
 
--	To avoid being forced to book specific resources up front, and instead book the “resource pool” while ensuring no over-commitment. For example, a hotel must search for generic room availability, but travelers aren't assigned a specific room until they arrive at the hotel.  
+- Avoid booking specific resources right away. For example, a hotel checks room availability (pool) and assigns a room (resource) to guests when they arrive.  
 
--	To shield central schedulers from details, and leave those details to a local resource manager. For example, customers make laptop repair appointments by calling a central dispatch service, who books appointments at Microsoft Retail stores countrywide. Each morning, the manager of the local store assigns specific specialists.
+- Collect requirements centrally but let a local resource manager book them. For example, a repair shop chain takes appointments through a call center. The central agent books the appointment to the customer's preferred location (pool). The local store manager assigns appointments to an available specialist (resource).
 
--	Specific resources may not yet be named, but capacity of the pool is established. Schedulers can still schedule since capacity of the pool can be set as if all the resources were named. For example, a tradeshow offers different booth options to sponsors. Capacity of booths is considered when booking, but specific booths will be confirmed later. Organizers can take reservations well in advance of having a defined floor layout; the layout may even be decided based on how many reservations there are. 
+- Dispatchers know the capacity of a pool but not yet the specific resource it'll contain.  For example, a trade show offers different booth options. it considers the capacity of booths (pool) when booking, but assigns the specific booths (resource) later.
 
--	To deliberately enable overbooking for expected cancellations. For example, a doctor's office has a fixed number of rooms to help patients, but may inflate capacity and schedule more appointments than rooms in order to account for cancellations.
+- Enable overbooking for expected cancellations. For example, a hotel has a fixed number of rooms, but may inflate capacity and take more reservations than available rooms to account for cancellations.
 
-In this topic, we'll walk through 2 hypothetical scenarios to explain resource pool scheduling:
+## Create a resource pool
 
-1. Schedule a pool, then assign specific resources later
-2. Overbook a pool for expected cancellations
+We recommended creating pools that use the same resource type. If you want to create groups with different types of resources, [create a crew](../../field-service/resource-crews.md).
 
-## Prerequisites 
+1. From either the Field Service or Universal Resource Scheduling solution, go to **Resources** > **Active Bookable Resources** view > select **New**.  
 
-To use resource pool scheduling, you'll need Universal Resource Scheduling (URS) v3.0.
+2. Set **Resource Type** to **Pool**.
 
+3. Choose a **Pool Type**. Pool types can either be set to: Facility, Equipment, or any combination of Account/Contact/User.
 
-## Scenario One: Schedule a pool; assign specific resources later
+1. Enter a **Name**.
 
-In our first scenario, the office staff at a health clinic wants to book patient appointments with pediatricians. Because there are five pediatricians working each day, the office staff must ensure that no more than five appointments are scheduled during any single time slot. However, though appointments are booked weeks or even months in advance, specific pediatricians aren't assigned to an appointment until the day before because of variable schedules. 
-
-To accommodate this scenario, we'll create a pool to represent the pediatricians, schedule appointments to the pediatrician pool, and then reassign appointments to specific doctors within the pool. 
-
-### Step 1: Create a resource pool
-   
-   1. From either the Field Service or Universal Resource Scheduling solution, go to **Resources** > **Active Bookable Resources** view > select **+New**.  
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot navigating to resources.](../../field-service/media/resource-create-new-navigation.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the Active Bookable Resources grid.](../../field-service/media/qs-1-img28.png)
-
-   2. Set **Resource Type** to **Pool**. A new field will appear called “Pool Type.”
-   3. Set **Pool Type** to **Account, Contact, User** because this pool will consist of people resources (pediatricians, in our example).
-      1. Pool types can either be set to: Facility, Equipment, or any combination of Account/Contact/User.
-      2. We recommended creating homogeneous pools. Since you may not be naming specific resources at all, set up pools in a way that the resources who are named later can actually fulfill the backlog of work scheduled to the pool. For example, if you schedule a “facility” requirement to a pool, the pool should consist of facility resources who can later be assigned.
-   4. Enter a **Name**.
-   5. Select a **Time Zone**.
-
+1. Select a **Time Zone**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of pool resource.](../../field-service/media/scheduling-facility-create-pediatrician-pool.png)
 
-  6. Set **Start Location** and **End Location** to **Organizational Unit Address**, and assign an organizational unit with latitude and longitude values because the pediatricians work at a defined health clinic.
-     1. Start and End Locations can be set to either **Organizational Unit Address** to represent a physical location where the pool works, or **Location Agnostic** for a pool of resources that will perform work remotely (for example, customer service phone calls). Resource address is not an option, as pools are currently excluded from **Onsite** scheduling (requirements where Work Location is set to Onsite).
-  7. Set **Derive Capacity From Group Members** to **Yes**.
-     1. **Setting to Yes**: Capacity will increase and decrease as pool members are added to or removed from the pool. In our example scenario, we set to "yes" because it allows us to add 5 pediatricians to the pool in the next step. This also allows the pediatrician pool to be booked up to 5 times for any single time slot. 
-     2. **Setting to No**: The capacity of the pool will default to one and can be manually edited. Pool members can still be added and removed. See scenario 2 in this article for more details.  
-  8. Add more pool resource attributes.
-     1. You can add any additional information about the pool that you would like considered when it comes to scheduling. Consider the pool as a standard resource as it relates to adding skills, roles, organizational units, territories, and so on. For example, if you have a requirement that requires “skill A,” when searching for availability using the schedule assistant, only pools with “skill A” will be considered.
+6. Set **Start Location** and **End Location** to **Organizational Unit Address**, and assign an organizational unit with latitude and longitude values because the pediatricians work at a defined health clinic.
+   1. Start and End Locations can be set to either **Organizational Unit Address** to represent a physical location where the pool works, or **Location Agnostic** for a pool of resources that will perform work remotely (for example, customer service phone calls). Resource address is not an option, as pools are currently excluded from **Onsite** scheduling (requirements where Work Location is set to Onsite).
+7. Set **Derive Capacity From Group Members** to **Yes**.
+   1. **Setting to Yes**: Capacity will increase and decrease as pool members are added to or removed from the pool. In our example scenario, we set to "yes" because it allows us to add 5 pediatricians to the pool in the next step. This also allows the pediatrician pool to be booked up to 5 times for any single time slot. 
+   2. **Setting to No**: The capacity of the pool will default to one and can be manually edited. Pool members can still be added and removed. See scenario 2 in this article for more details.  
+8. Add more pool resource attributes.
+   1. You can add any additional information about the pool that you would like considered when it comes to scheduling. Consider the pool as a standard resource as it relates to adding skills, roles, organizational units, territories, and so on. For example, if you have a requirement that requires “skill A,” when searching for availability using the schedule assistant, only pools with “skill A” will be considered.
 
-
-### Step 2: Add pool members
+## Add pool members
 
 Members can be added to a pool through the bookable resource group entity (bookableresourcegroup).
 
@@ -76,9 +54,34 @@ Members can be added to a pool through the bookable resource group entity (booka
 > Resources can be associated as children of the pool with date effectivity. For example, on Monday, Resources 1, 2, and 3 can make up the pool, while on Tuesday, resources 4, 5, and 6 can make up the pool. To do this: 
 > 1. Create a new bookable resource group record.
 > 2. Set the parent resource to the pool, and the child resource to the resource that is in that pool.
-> 3. Set the **From Date** to the date and time that the resource is part of the pool and set the **To Date** to the date and time when the resource is no longer associated to the pool. 
+> 3. Set the **From Date** to the date and time that the resource is part of the pool and set the **To Date** to the date and time when the resource is no longer associated to the pool.
 
-### Step 3: Add the pool to the schedule board
+
+
+## Scenario One: Schedule a pool; assign specific resources later
+
+In our first scenario, the office staff at a health clinic wants to book patient appointments with pediatricians. Because there are five pediatricians working each day, the office staff must ensure that no more than five appointments are scheduled during any single time slot. However, though appointments are booked weeks or even months in advance, specific pediatricians aren't assigned to an appointment until the day before because of variable schedules. 
+
+To accommodate this scenario, we'll create a pool to represent the pediatricians, schedule appointments to the pediatrician pool, and then reassign appointments to specific doctors within the pool. 
+
+## Book a pool with the schedule assistant
+
+1. Select **Book** at the top of the requirement form to trigger the schedule assistant.
+
+> [!div class="mx-imgBorder"]
+> ![Image of schedule assistant results for pool resource.](../../field-service/media/scheduling-pools-single-requirement2.png)
+
+2. When searching for availability for a requirement or requirement group, both the pool and its child resources (pool members) can be returned in the results.
+
+3. Select the pool resource and a time slot (in this example, our pediatrician pool and the 9:00 AM - 10:00 AM time slot), and select **Book & Exit**.
+
+
+- Resource pools won't display in schedule assistant results for requirements where **Work Location = Onsite**. By default, work order-related requirements are set to onsite. Only requirements with a **Work Location = Facility** or **Location Agnostic** will show up in schedule assistant results. 
+## Manage a pool on the schedeule board
+
+
+
+### Add the pool to the schedule board
 
 1. Next up, go to **Universal Resource Scheduling** > **Schedule Board**.
 2. Add the pool resource by adjusting the schedule board filters the same way you would add any resource to the schedule board.
@@ -88,6 +91,26 @@ Members can be added to a pool through the bookable resource group entity (booka
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board with the pool resources exposed.](../../field-service/media/scheduling-pools-add-schedule-board.png)
+
+### View overbooking on the schedule board
+
+1. Go to **Universal Resource Scheduling** > **Schedule Board**.
+2. Expose the hotel pool to the schedule board by filtering for **Resource Types** of **Pool** and **Pool Types** of **Facility**.
+3. View the hotel pool and all related pool members (rooms) by right-clicking the hotel pool resource and selecting **View Pool Resources in Split View**.
+
+> [!div class="mx-imgBorder"]
+> ![Image of viewing facility pools in split view with overbooking.](../../field-service/media/scheduling-pools-facility-schedule-board.png)
+
+
+Load the **Hourly** Schedule Board and find your pool resource. Right click the Pool Resource and choose to **View Pool Resources in Split View**. This will split the Schedule Board and a new dedicated Schedule Board will be displayed showing just the Pool and its members. Based on the dates being displayed on the Schedule Board, only the members of the pool with membership during that date range will appear in the Pool Schedule Board. If a resource is part of the pool for only some of the days being displayed on the Schedule Board, they will be displayed, and there will be a mask that shows the days where they aren't part of the pool.
+
+Here we see five bookings at the 9:00am time slot. 
+
+> [!div class="mx-imgBorder"]
+> ![Image of 5 bookings for a pool during the same time slot.](../../field-service/media/scheduling-pools-single-requirement5.png)
+
+> [!Note]
+> The Schedule Board **sorting** functionality applies to the split view, but the Schedule Board **filtering** functionality does not.
 
 ### Step 4: Create a single requirement
 
@@ -107,46 +130,8 @@ Now we'll schedule a requirement to our newly created resource pool.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement for pools.](../../field-service/media/scheduling-pools-single-requirement1.png)
 
-### Step 5: Book the pool
-
-1. Select **Book** at the top of the requirement form to trigger the schedule assistant.
-
-> [!div class="mx-imgBorder"]
-> ![Image of schedule assistant results for pool resource.](../../field-service/media/scheduling-pools-single-requirement2.png)
-
-2. When searching for availability for a requirement or requirement group, both the pool and its child resources (pool members) can be returned in the results.
-
-3. Select the pool resource and a time slot (in this example, our pediatrician pool and the 9:00 AM - 10:00 AM time slot), and select **Book & Exit**.
-
-### Step 6: Book more requirements to the pool
-
-Since a pool can be booked multiple times up to defined capacity, now we'll create another requirement and book it to the same time slot. 
-
-The following screenshot shows a near identical requirement for another pediatrician that we'll book to our pool. 
-
-> [!div class="mx-imgBorder"]
-> ![Image of another single requirement for pools.](../../field-service/media/scheduling-pools-single-requirement3.png)
-
-We'll select the same resource pool as we did in step 5, and the same time slot at 9:00 AM to 10:00 AM.  
 
 
-> [!div class="mx-imgBorder"]
-> ![Image of schedule assistant and same time slot.](../../field-service/media/scheduling-pools-single-requirement4.png)
-
-The resource pool will show in the schedule assistant for the 9 AM time slot up to five times because five pediatric resources were added to the pool which makes the capacity five.
-
-
-Next, head to the schedule board and then to the schedule board tab where your pool resource is displayed.
-
-Load the **Hourly** Schedule Board and find your pool resource. Right click the Pool Resource and choose to **View Pool Resources in Split View**. This will split the Schedule Board and a new dedicated Schedule Board will be displayed showing just the Pool and its members. Based on the dates being displayed on the Schedule Board, only the members of the pool with membership during that date range will appear in the Pool Schedule Board. If a resource is part of the pool for only some of the days being displayed on the Schedule Board, they will be displayed, and there will be a mask that shows the days where they aren't part of the pool.
-
-Here we see five bookings at the 9:00am time slot. 
-
-> [!div class="mx-imgBorder"]
-> ![Image of 5 bookings for a pool during the same time slot.](../../field-service/media/scheduling-pools-single-requirement5.png)
-
-> [!Note]
-> The Schedule Board **sorting** functionality applies to the split view, but the Schedule Board **filtering** functionality does not.
 
 
 ### Step 7. Reassign pool bookings to specific pool members
@@ -199,7 +184,7 @@ In our second scenario, hotel managers want to make reservations for travelers b
 
 To accommodate this scenario, we'll create a pool of facilities with extra capacity to represent the hotel rooms, schedule reservations to the hotel pool, and finally reassign reservations to specific rooms within the hotel pool.
 
-
+<!--
 ### Step 1. Create a pool resource
 
 First we'll create a pool resource to represent the hotel.
@@ -264,31 +249,9 @@ Select **Book** at the top of the requirement form to trigger the schedule assis
 The schedule assistant results in the following screenshot assume five reservations have already been scheduled to the hotel, and the scheduler is attempting to book a sixth reservation as extra capacity.
 
 > [!div class="mx-imgBorder"]
-> ![Image of schedule assistant results for overbooking a facility pool.](../../field-service/media/scheduling-pools-facility-overbook-schedule-assistant.png)
-
-### Step 6. View overbooking on the schedule board
-
-1. Go to **Universal Resource Scheduling** > **Schedule Board**.
-2. Expose the hotel pool to the schedule board by filtering for **Resource Types** of **Pool** and **Pool Types** of **Facility**.
-3. View the hotel pool and all related pool members (rooms) by right-clicking the hotel pool resource and selecting **View Pool Resources in Split View**.
-
-> [!div class="mx-imgBorder"]
-> ![Image of viewing facility pools in split view with overbooking.](../../field-service/media/scheduling-pools-facility-schedule-board.png)
-
-### Step 7. Reassign bookings
-
-Reassign the hotel pool bookings to specific rooms with the three methods described in scenario 1:
-
-1. Manually drag and drop
-2. Substitution
-3. Rebook
+> ![Image of schedule assistant results for overbooking a facility pool.](../../field-service/media/scheduling-pools-facility-overbook-schedule-assistant.png) -->
 
 
-## Configuration considerations
-
-- Resource pools won't display in schedule assistant results for requirements where **Work Location = Onsite**. By default, work order-related requirements are set to onsite. Only requirements with a **Work Location = Facility** or **Location Agnostic** will show up in schedule assistant results. 
-
-- Crew resources and pool resources can't be made children of a pool.
 
 - **Location of Pool Members**: If a resource is the child of a pool through a bookable resource groups (bookableresourcegroup) record, the location of the child resource is taken from the pool. Additionally, if a resource pool is related to a facility or facility pool resource through bookable resource association (msdyn_bookableresourceassociation), the location is taken from the facility or facility pool.
 
@@ -313,9 +276,6 @@ When running the schedule assistant on the requirement, presuming availability, 
  
 ## Additional notes
 
-- Requirement groups can't be dragged and dropped or substituted 
-- When changing the working hours of a resource, capacity isn't recalculated
-
 ### Pool availability affects member availability and vice versa
 
 Being part of a pool can severely limit a resource's ability to be scheduled. Resources can't be expected to operate as part of a pool and independently at the same time. If a pool resource itself is booked to capacity for a given time slot, pool members won't show as available for that time slot and vice versa. If all pool members are booked for a given time slot, the pool won't show as available for that time slot. Conversely, if different members of the pool have availability at different times, then the pool will show as available throughout.
@@ -338,6 +298,3 @@ Pool will be shown as available whenever there's at least a single child resourc
 
 For example, assume there are two child resources for a pool and so the pool capacity is 2. Let's assume that the child resource #1 already has a booking between 10:00 AM and 11 AM, and child resource #2 has a booking from 11 AM to 12 PM. Let's say that you're searching for a new 2-hour requirement. In this case this pool would show as available between 10:00 AM and 12:00 PM even though no single resource is available for 2 hours continuously and the requirement would be satisfied only when split into multiple segments. This behavior occurs because the capacity of the pool is calculated collectively without considering which child resource has capacity since they are treated as equivalent resources. That means that the dispatcher might want to check child availability and adjust the bookings to make them continuous.
 
-### Pools vs. crews: when to use each?
-
-One main difference between pools and crews is crews are expected to do work together and bookings cascade (at least by default). This means scheduling a crew will create bookings for crew members, whereas booking a pool does not create bookings for pool members. Additionally, crews can be a compilation of different types of resources such as a person and a piece of equipment. In contrast, pools are designed to be homogeneous meaning entirely people, equipment, or facilities.
