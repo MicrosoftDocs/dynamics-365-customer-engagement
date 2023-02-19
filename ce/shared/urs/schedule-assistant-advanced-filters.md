@@ -1,29 +1,17 @@
-Beyond the standard filters exposed within the schedule assistant's filter panel, you'll find a few advanced filters that provide additional granularity for scheduling needs.
+The schedule assistant includes advanced filters that provide additional granularity for scheduling needs.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the advanced filters exposed in the schedule assistant.](../../field-service/media/scheduling-schedule-assistant-advanced-filters.png)
 
-In this article, we'll take a look at the schedule assistant's advanced filters:
+<!-- keep videos that show old SB?-->
 
-- Real-time mode
-- Ignore travel time
-- Allow overlapping
-- Ignore duration
-- Ignore proposed bookings
+For more information, see the video ![Video symbol](../../field-service/media/video-icon.png "Video symbol") [Schedule Assistant: advanced filters](https://youtu.be/s6yvVv99Bnw).
 
-> [!Note]
-> For more information, see the video ![Video symbol](../../field-service/media/video-icon.png "Video symbol") [Schedule Assistant: advanced filters](https://youtu.be/s6yvVv99Bnw).
+## Real time mode
 
-## Prerequisites
+Filtering by real time mode can be useful to book the closest possible resource, so that they can arrive onsite more quickly.
 
-The schedule assistant is a part Universal Resource Scheduling, which is included and installed with Dynamics 365 Field Service, Project Service Automation, and Customer Service.
-
-## Real-time mode
-
-Filtering by real-time mode can be useful in emergency scenarios where a dispatcher needs to book the closest possible resource, so that they can arrive onsite more quickly.
-
-The schedule assistant will use the location of the technician's mobile device when calculating the estimated travel time to arrive at the work order location. The "real time" location is displayed on the schedule board map as a truck icon.
-
+The schedule assistant will use the location of the technician's mobile device when calculating the estimated travel time to arrive at the work order location. A truck icon represents the technician's location on the schedule board map.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the hourly view of the filter and map view, showing a truck icon on the map.](../../field-service/media/scheduling-schedule-assistant-real-time-mode.png)
@@ -34,7 +22,7 @@ See the article on [geofencing](../../field-service/geofencing.md) to learn how 
 
 ## Ignore travel time
 
-Sometimes, a dispatcher may want to ignore the travel time when finding available resources. One example is if the resource can work overtime or if the job location is exceptionally far away. 
+Sometimes, a dispatcher may want to ignore the travel time when finding available resources. One example is if the resource can work overtime or if the job location is exceptionally far away.
 
 For cases when the calculated travel time is not needed, selecting **Ignore travel time** in the schedule assistant's advanced filters will produce results that ignore the estimated travel time when determining if a resource has enough time available in their schedule.
 
@@ -51,9 +39,6 @@ Many organizations will mark their bookings with a booking status of **Proposed*
 
 With the **Ignore proposed bookings** advanced filter, the schedule assistant will ignore bookings where the Booking status is **Proposed**, and will treat that time slot as available.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule assistant filter view, with "ignore proposed bookings" selected.](../../field-service/media/scheduling-schedule-assistant-ignore-proposed.png)
-
 ## Allow overlapping
 
 The schedule assistant will double book on top of bookings where the **Allow Overlap** field is set to **Yes**.
@@ -62,6 +47,8 @@ The schedule assistant will double book on top of bookings where the **Allow Ove
 > ![Screenshot of a bookable resource booking, where "allow overlapping" is set to "yes."](../../field-service/media/scheduling-schedule-assistant-allow-overlapping.png).
 
 This filter is similar to the **Ignore proposed bookings** filter, except it's unrelated to the booking status because any booking can be set to allow overlapping.
+
+<!-- can we drop this and explain customizations as part of SB settings?>
 
 ## Configuration considerations
 
