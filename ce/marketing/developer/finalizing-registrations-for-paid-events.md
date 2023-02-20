@@ -243,7 +243,7 @@ The following sample code shows how to authenticate and trigger the custom actio
 > You should not enter either client ID or client secret values directly in code. This is only done to improve the readability of the sample code. 
 
 ```csharp 
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using Microsoft.Identity.Client;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;

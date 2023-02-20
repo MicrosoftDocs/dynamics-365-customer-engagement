@@ -41,6 +41,9 @@ You can configure the tab users must be redirected to when they select the open 
 
 You can choose to display the legacy case resolution dialog box that appears when an agent selects **Resolve case**.
 
+> [!NOTE]
+> You can revert to the legacy case resolution dialog only if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Customer Service admin center.
+
 Perform the following steps:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
