@@ -42,7 +42,7 @@ If you don't follow the recommended order, inconsistencies in the user informati
 
 ### Limit number of change requests when setting up users in bulk using Dataverse API calls
 
-Customer Service lets you make API calls to set-up users in bulk. A single change request is any add or update operation like defining a single skill, capacity profile, or role per user.
+Customer Service lets you make API calls to set up users in bulk. A single change request is any add or update operation like defining a single skill, capacity profile, or role per user.
 
 We recommend that you make 500 change requests every 15 minutes for the system to process the changes optimally without getting throttled. Beyond this recommended rate for bulk updates, you might see inconsistencies in user data, such as skills not updated as expected, after the update is over.
 
