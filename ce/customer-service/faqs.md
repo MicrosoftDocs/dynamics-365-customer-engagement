@@ -139,7 +139,7 @@ The application ID is a mandatory field for creating application users in Datave
 
 ### Can I monitor conversations for all channels?
 
-As of today, only chat conversations can be silently monitored by a supervisor.
+Yes, you can monitor conversations for the voice channel and all messaging channels, including async channels.
 
 ### Why am I not able to see the supervisor dashboards in my app?
 
