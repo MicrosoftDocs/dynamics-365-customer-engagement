@@ -1,7 +1,7 @@
 ---
 title: "Customer Service workspace system requirements | MicrosoftDocs"
 description: "Learn about the system requirements and prerequisites for Customer Service workspace."
-ms.date: 12/15/2022
+ms.date: 02/20/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -33,12 +33,15 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 
 | Area | Requirements |
 |----------|----------|
-| Memory (RAM) | <ul><li>**Minimum:** 4 GB</li><li>**Recommended:** 8 GB</li></ul> |
-| Latency  | <ul><li>**Minimum:** less than 150 milliseconds </li><li>**Recommended:** less than 100 milliseconds</li></ul> |
-| Throughput | <ul><li>**Minimum:** greater than 4 Mbps</li><li>**Recommended:** greater than 8 Mbps</li></ul>|
+| Memory (RAM) | A minimum of 4 GB |
+| Latency  | Not more than 150 milliseconds  |
+| Throughput | A minimum of 4 Mbps|
 |||
 
 For more requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
+
+> [!IMPORTANT]
+> The client network hardware requirements for Omnichannel are different from that of Customer Service workspace. For more information, see: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
 
 ### See also
 
