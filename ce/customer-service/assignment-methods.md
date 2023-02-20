@@ -1,6 +1,6 @@
 ---
 title: "Assignment methods for queues | MicrosoftDocs"
-description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
+description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing."
 ms.date: 01/23/2023
 ms.topic: article
 author: neeranelli
@@ -17,7 +17,7 @@ searchScope:
 
 # Assignment methods in unified routing
 
-Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets.
+Use assignment methods to determine how to assign work items. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets.
 
 ## How auto assignment works
 
@@ -114,7 +114,7 @@ Some important points about prioritization rules are as follows:
 
 ## How assignment rulesets work
 
-The assignment ruleset is an ordered list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the agents to select and an order-by field to sort the matching agents. At runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If more than one matching agent exists, they're sorted by the order by field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the ruleset is evaluated. This can be thought of as a gradual relaxation of constraints in the assignment, such that first, the strictest criteria is applied, and then the conditions are slowly reduced so that the best agent is found. If no matching agents are found, then the work item remains in the queue.
+The assignment ruleset is an ordered list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the agents to select and an order-by field to sort the matching agents. At runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If more than one matching agent exists, they're sorted by the order by field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the ruleset is evaluated. This can be thought of as a gradual relaxation of constraints in the assignment, such that first, the strictest criteria are applied, and then the conditions are slowly reduced so that the best agent is found. If no matching agents are found, then the work item remains in the queue.
 
 In the assignment rule, the system user attributes are matched with the requirement of the work item. When you select static match, the condition is formed on the System User entity attribute and static values. When you select dynamic match, the conditions on the left are based on the system user root entity and the conditions on the right are based on the conversation root entity. You can drill down to two levels on the conversation root entity to form the rule conditions. An assignment rule with the dynamic match and static match is as follows.
 
@@ -128,7 +128,7 @@ However, if there's a tie between the availability of agents, the agent who has 
 
 The assignment rules are composed of the following items:
 
-- **Order**: Specifies the order in which the assignment rule will be evaluated in a ruleset. The lower order rules are run first. If any rule results in matching a user, then the next set of rules is not evaluated.
+- **Order**: Specifies the order in which the assignment rule will be evaluated in a ruleset. The lower-order rules are run first. If any rule results in matching a user, then the next set of rules is not evaluated.
 - **Name**: The unique rule name.
 - **Condition**: The expressions that are evaluated to match the users with the attributes of incoming work. The conditions have three parts:
    - **User attribute**: Properties of the users that can be used for comparing the user with the incoming work. The user attributes can be one of the following:
