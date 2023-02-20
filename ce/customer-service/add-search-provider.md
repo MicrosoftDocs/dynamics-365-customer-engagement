@@ -1,5 +1,5 @@
 ---
-title: Provision, add, and manage integrated search providers
+title: Add and manage integrated search providers
 description: Learn how to provision, add, and manage integrated search providers.
 author: Soumyasd27
 ms.author: sdas
@@ -10,7 +10,7 @@ ms.date: 02/20/2023
 ms.custom: bap-template
 ---
 
-# Provision, add, and manage integrated search providers (preview)
+# Add and manage integrated search providers (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -24,32 +24,36 @@ ms.custom: bap-template
 
 With integrated search providers, you can configure external data providers such as enterprise websites based on the site map protocol. After configuring, the articles from the external providers will be ingested into Microsoft Dataverse, so that agents can view a consolidated list of knowledge article search results and experience a single ranking of articles across search providers.
 
-As administrators, you will also be able to set up a data refresh schedule to specify the refresh frequency of the
-ingestion service. The ingestion service will capture newly or updated articles along with any data that might have been missed during syncing and ingestion.
+As administrators, you can set up a data refresh schedule to specify the refresh frequency of the ingestion service. The ingestion service captures new or updated articles along with any data that might have been missed during syncing and ingestion.
 
 ## Prerequisites
 
 - Prepare the metadata mapping schema file with your article properties to be able to validate the knowledge article schema. More information: [Develop metadata mapping schema for knowledge articles (preview)](int-search-metadata-schema.md#develop-metadata-mapping-schema-for-knowledge-articles-preview)
 
-- Provide the **lastmod** tag within the article **url** tag in the sitemap index.
-
 - If your website is registered using Azure Active Directory, you must use OAuth. Provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated from the AAD Application registration page. More information: [Apply authentication (preview)](apply-authentication-provider.md#apply-authentication-preview)
 
-## Provision integrated search providers
-If you are a first time user, you'll need to enable the integrated search provider provisioning from the Customer Service admin center.
+## Actions for a first-time user
+
+If you are a first time user, you need to perform the two following steps:
+
+1. Provision integrated search providers
+1. Turn on the Integrated Search API trigger flow
+
+### Provision integrated search providers
+You must enable the integrated search provider provisioning from the Customer Service admin center.
 1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
 You'll see a status message, "Integrated search is provisioning. It will take few minutes to complete."
 
-After the provisioning is complete, you can add an integrated search provider by performing the steps provided below.
+### Turn on the Integrated Search API trigger flow
 
-## Turn on the Integrated Search API trigger flow
-
-Before adding integrated search providers, you must turn on the **Integrated Search API trigger** flow.
+You must turn on the **Integrated Search API trigger** flow.
 
 1. Go to [make.powerapps.com](https://make.powerapps.com).
 1. Go to **Solutions** > **Default Solution** > **Cloud flows** and turn on the **Integrated Search API trigger flow** flow.
 :::image type="content" source="media/int-search-turn-on.jpg" alt-text="Turn on Integrated search API trigger flow":::
+
+You can now add integrated search providers.
 
 ## Add integrated search providers
 
@@ -64,9 +68,10 @@ Before adding integrated search providers, you must turn on the **Integrated Sea
     1. Select **Next**.
 1.	In the **Authentication and testing** section, enter the following information:
     1. **Root URL**: Provide the root URL of the website along with the protocol (http:// or https://)
-    1. **Site map URL**: Provide the sitemap URL of the source website, with content type as either application/xml or text/xml. 
+    1. **Site map URL**: Provide the sitemap URL of the source website, with content type as either application/xml or text/xml.
     > [!NOTE]
-    > Multi-level sitemap isn't supported.
+    > - Provide the **lastmod** tag within the article **url** tag in the site map index.
+    > - Don't provide multi-level sitemaps.
     1. **Languages mapped**: Select the languages you want to specifically map for the ingestion from the dropdown list, and then select **Reset**. By default, all languages are considered for ingestion.
     1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: Apply authentication.
     1. Select **Test connection**. You will get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
