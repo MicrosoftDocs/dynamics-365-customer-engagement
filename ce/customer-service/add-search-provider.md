@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365 
 ms.topic: how-to
-ms.date: 02/15/2023
+ms.date: 02/20/2023
 ms.custom: bap-template
 ---
 
@@ -28,9 +28,12 @@ As administrators, you will also be able to set up a data refresh schedule to sp
 ingestion service. The ingestion service will capture newly or updated articles along with any data that might have been missed during syncing and ingestion.
 
 ## Prerequisites
-- You must prepare the metadata mapping schema file with your article properties to be able to validate the knowledge article schema. More information: [Develop metadata mapping schema for knowledge articles (preview)](int-search-metadata-schema.md#develop-metadata-mapping-schema-for-knowledge-articles-preview)
 
-- If your website is registered using Azure Active Directory, you’ll need to use OAuth, and provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated from the AAD Application registration page. More information: [Apply authentication (preview)](apply-authentication-provider.md#apply-authentication-preview)
+- Prepare the metadata mapping schema file with your article properties to be able to validate the knowledge article schema. More information: [Develop metadata mapping schema for knowledge articles (preview)](int-search-metadata-schema.md#develop-metadata-mapping-schema-for-knowledge-articles-preview)
+
+- Provide the **lastmod** tag within the article **url** tag in the sitemap index.
+
+- If your website is registered using Azure Active Directory, you must use OAuth. Provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated from the AAD Application registration page. More information: [Apply authentication (preview)](apply-authentication-provider.md#apply-authentication-preview)
 
 ## Provision integrated search providers
 If you are a first time user, you'll need to enable the integrated search provider provisioning from the Customer Service admin center.
@@ -39,6 +42,14 @@ If you are a first time user, you'll need to enable the integrated search provid
 You'll see a status message, "Integrated search is provisioning. It will take few minutes to complete."
 
 After the provisioning is complete, you can add an integrated search provider by performing the steps provided below.
+
+## Turn on the Integrated Search API trigger flow
+
+Before adding integrated search providers, you must turn on the **Integrated Search API trigger** flow.
+
+1. Go to [make.powerapps.com](https://make.powerapps.com).
+1. Go to **Solutions** > **Default Solution** > **Cloud flows** and turn on the **Integrated Search API trigger flow** flow.
+:::image type="content" source="media/int-search-turn-on.jpg" alt-text="Turn on Integrated search API trigger flow":::
 
 ## Add integrated search providers
 
@@ -53,7 +64,9 @@ After the provisioning is complete, you can add an integrated search provider by
     1. Select **Next**.
 1.	In the **Authentication and testing** section, enter the following information:
     1. **Root URL**: Provide the root URL of the website along with the protocol (http:// or https://)
-    1. **Site map URL**: Provide the sitemap URL of the source website.
+    1. **Site map URL**: Provide the sitemap URL of the source website, with content type as either application/xml or text/xml. 
+    > [!NOTE]
+    > Multi-level sitemap isn't supported.
     1. **Languages mapped**: Select the languages you want to specifically map for the ingestion from the dropdown list, and then select **Reset**. By default, all languages are considered for ingestion.
     1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: Apply authentication.
     1. Select **Test connection**. You will get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
