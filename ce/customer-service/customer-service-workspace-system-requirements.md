@@ -33,7 +33,7 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 
 | Area | Requirements |
 |----------|----------|
-| Memory (RAM) | A minimum of 4 GB |
+| RAM | A minimum of 4 GB |
 | Latency  | Not more than 150 milliseconds  |
 | Throughput | A minimum of 4 Mbps|
 |||
@@ -41,7 +41,7 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 For more requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
 
 > [!IMPORTANT]
-> The client network hardware requirements for Omnichannel are different from that of Customer Service workspace. For more information, see: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
+> To use the Omnichannel capabilities, you'll need a higher network bandwidth. For more information, see: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
 
 ### See also
 
