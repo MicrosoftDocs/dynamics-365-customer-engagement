@@ -18,7 +18,7 @@ This article discusses some of the important aspects to successfully deploy and 
 
 ### Verify service limits and default quotas
 
-Dynamics 365 Customer Service relies on shared cloud resources for data and processing. You must check the service limits and default quotas for the resources before you provision unified routing. These limits ensure that performance of other tenants isn't affected and resources are evenly distributed. If you need a higher limit on a measure that's indicated as adjustable, contact Microsoft Support to check whether the limit can be increased. More information: [Service quotas](service-quotas.md)
+Dynamics 365 Customer Service relies on shared cloud resources for data and processing. You must check the service limits and default quotas for the resources before you provision unified routing. If you need a higher limit on a measure that's indicated as adjustable, contact Microsoft Support to check whether the limit can be increased. More information: [Service quotas](service-quotas.md)
 
 ## Manage users
 
