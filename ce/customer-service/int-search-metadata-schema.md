@@ -44,7 +44,7 @@ schema.
 The data in the external search providers can be set to any of the following field source types:
  
 - **Regex**: Use to indicate a regular expression type of data.
-- **Meta**: Use to indicate that the target field value is obtained from a <meta> tag in the source article
+- **Meta**: Use to indicate that the target field value is obtained from a '<meta>' tag in the source article
 - **Constant**: Use to indicate that the target field is a website or URL.
 - **Document**: Use to indicate the HTML content of the article.
 
