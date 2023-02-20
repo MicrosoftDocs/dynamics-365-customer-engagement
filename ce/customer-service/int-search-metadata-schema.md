@@ -55,7 +55,7 @@ When you develop your own mapping schema, you must be sure to configure a few ma
 Your mapping template must include:
 
 -  The fields **UniqueTargetFieldName**, **ContentTargetFieldName**, and **ApiPathLeafName**. These fields must be set to their required values as follows:
-    - Set the **UniqueTargetFieldName** to the out-of-the-box **msdyn_externalreferenceid** field or to a custom field. If you’re setting the **UniqueTargetFieldName** field to **msdyn_externalreferenceid**, then ensure that the definition for **msdyn_externalreferenceid** exists in Dataverse. If you’re using a custom field, then ensure that you add the field as an alternate Key. More information: [Define alternate keys to reference Dynamics 365 records](previous-versions/dynamicscrm-2016/administering-dynamics-365/dn949335(v=crm.8)).
+    - Set the **UniqueTargetFieldName** to the out-of-the-box **msdyn_externalreferenceid** field or to a custom field. If you’re setting the **UniqueTargetFieldName** field to **msdyn_externalreferenceid**, then ensure that the definition for **msdyn_externalreferenceid** exists in Dataverse. If you’re using a custom field, then ensure that you add the field as an alternate Key. More information: [Define alternate keys to reference Dynamics 365 records](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn949335(v=crm.8)).
     - The **ContentTargetFieldName** field must be included and set to “content”.
     - The **ApiPathLeafName** field must be included and set to “knowledgearticles".
     -  Ensure that you have mapped both the **UniqueTargetField** and **ContentTargetField** fields in the **FieldDefinitions** list.
@@ -130,7 +130,7 @@ Your mapping template must include:
          "DocFieldSource": "Url",
          "TargetFieldName": "msdyn_externalreferenceid",
          "TargetFieldType": "String",
-         "UseRegexCapture": "^https://.*?/(.*?)/.*/.*?([0-9A-F]{8}[-](?:[0-9AF]{4}[-]){3}[0-9A-F]{12})$"
+         "UseRegexCapture": "^https://.*?/(.*?)/.*/.*?([0-9A-F]{8}[-](?:[0-9A-F]{4}[-]){3}[0-9A-F]{12})$"
         }
 
     ```
