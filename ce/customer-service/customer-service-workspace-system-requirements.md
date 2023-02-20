@@ -1,7 +1,7 @@
 ---
 title: "Customer Service workspace system requirements | MicrosoftDocs"
 description: "Learn about the system requirements and prerequisites for Customer Service workspace."
-ms.date: 12/15/2022
+ms.date: 02/20/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -41,7 +41,7 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 For more requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
 
 > [!IMPORTANT]
-> The network hardware requirements for Omnichannel for Customer service are different from that of Customer Service workspace. For more information, see: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
+> The client network hardware requirements for Omnichannel are different from that of Customer Service workspace. For more information, see: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
 
 ### See also
 
