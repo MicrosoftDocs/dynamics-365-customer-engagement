@@ -34,15 +34,7 @@ schema.
 |----------|-----------|------------|----------|
 |TargetFieldName     |Is the logical field name of the target attribute in the knowledge article entity. |Yes |Any string indicating the name of the target field |
 |TargetFieldType    |Indicates the type of the target field. |Yes     |A string indicating the name of the field. |
-|DocFieldSource    | Indicates how the source field value will be identified and resolved at run time |Yes     |Set the value to one of the following source types:
-<UL>
-<li>Regex</li>
-<li>Meta</li>
-<li>Constant</li>
-<li>Url</li>
-<li>Document</li>
-</ul>
-To know about these data types, see Field source types. |
+|DocFieldSource    | Indicates how the source field value will be identified and resolved at run time |Yes     |Set the value to one of the following source types: <UL><li>Regex</li><li>Meta</li><li>Constant</li><li>Url</li><li>Document</li></ul>To know about these data types, see Field source types. |
 |DocFieldPattern  |Indicates the nature of the target field to be fetched. |No    |Set the value to “knowledgearticles”. |
 |MaxLength    |Is the maximum length of the string that can be stored in the target field. |No. Can be used when **TargetFieldType** attribute is of type String    |Int |
 |UseRegexCapture    |Stores the regex pattern that can be applied to the URL. |No. Can be used when the **TargetFieldType** attribute is of type String and **DocFieldSource** attribute is of type Url. |Url or String. |
@@ -82,43 +74,43 @@ Your mapping template must include:
     ```
 - You must include the FieldDefinitions list and populate its attributes such as FieldUse, DocFieldSource, TargetFieldName, and TargetFieldType with default values. You must also include the title field. However, the value for the field can be set by you to either Regex, Meta, Document, Constant, or Url. 
 
-Be sure to include the following fields and attributes with their values, “as-is”, in your template.
+   Be sure to include the following fields and attributes with their values, “as-is”, in your template.
 
     ```
 
-    {
-    "FieldUse": "Create",
-    "DocFieldSource": "ArticlePublicNumber",
-    "TargetFieldName": "articlepublicnumber",
-     "TargetFieldType": "String"
-    },
-    {
-    "DocFieldSource": "Constant",
-    "DocFieldPattern": "true",
-    "TargetFieldName": "msdyn_isingestedarticle",
-    "TargetFieldType": "Bool"
-    },
-    {
-    "DocFieldSource": "Url",
-    "TargetFieldName": "msdyn_ingestedarticleurl",
-    "TargetFieldType": "String"
-     },
-    {
-    "DocFieldSource": "DataProvider",
-    "TargetFieldName": "msdyn_integratedsearchproviderid@odata.bind",
-    "TargetFieldType": "String"
-    },
-    {
-     "DocFieldSource": "Regex",
-     "DocFieldPattern": "<title>(.*?)</title>",
-     "TargetFieldName": "title",
-     "TargetFieldType": "String"
-    },
-    {
-     "DocFieldSource": "Document",
-     "TargetFieldName": "content",
-     "TargetFieldType": "String"
-     }
+      {
+       "FieldUse": "Create",
+        "DocFieldSource": "ArticlePublicNumber",
+        "TargetFieldName": "articlepublicnumber",
+        "TargetFieldType": "String"
+       },
+       {
+        "DocFieldSource": "Constant",
+         "DocFieldPattern": "true",
+        "TargetFieldName": "msdyn_isingestedarticle",
+         "TargetFieldType": "Bool"
+       },
+       {
+        "DocFieldSource": "Url",
+        "TargetFieldName": "msdyn_ingestedarticleurl",
+        "TargetFieldType": "String"
+       },
+       {
+         "DocFieldSource": "DataProvider",
+         "TargetFieldName": "msdyn_integratedsearchproviderid@odata.bind",
+         "TargetFieldType": "String"
+       },
+       {
+        "DocFieldSource": "Regex",
+        "DocFieldPattern": "<title>(.*?)</title>",
+        "TargetFieldName": "title",
+        "TargetFieldType": "String"
+        },
+        {
+        "DocFieldSource": "Document",
+        "TargetFieldName": "content",
+        "TargetFieldType": "String"
+        }
     ```
 
 - After you’ve listed the mandatory fields and attribute information, you can include any additional metadata mappings and set your own custom values for them. For example, you can include a Meta or Url type of **DocFieldSource** and set any custom values for the attribute, as follows.
