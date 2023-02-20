@@ -351,7 +351,7 @@ items:
             href: cfs-azure-subscription.md
           - name: Create Iot provider for IoT Hub
             href: cfs-provider-iot-hub.md
-          - name: Installation
+          - name: Installation via IoT Hub
             href: installation-setup-iothub.md
           - name: Register IoT devices
             href: cfs-register-devices.md
