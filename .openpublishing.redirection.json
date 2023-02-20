@@ -24639,6 +24639,46 @@
       "source_path": "ce/field-service/field-service-dynamics365-government.md",
       "redirect_url": "/power-platform/admin/government-feature-availability",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iot-central-alerts.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iot-central-associate-devices.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iot-central-bookings.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iot-central-work-orders.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iot-tutorial-overview.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iotcentral-mxchip.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iot-overview.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/upgrade-field-service.md",
+      "redirect_url": "/dynamics365/field-service/update-field-service",
+      "redirect_document_id": "false"
     }
   ]
 }
