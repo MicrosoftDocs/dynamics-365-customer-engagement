@@ -135,6 +135,65 @@ Your mapping template must include:
 
     ```
 
-## Next steps
+## Sample metadata mapping template
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+You can use the following metadata mapping JSON sample as template to build your own custom mapping template.
+
+```
+
+ {
+     "Name": "{To be filled by customer}",
+     "UniqueTargetFieldName": "msdyn_externalreferenceid",
+     "ContentTargetFieldName": "content",
+     "ApiPathLeafName": "knowledgearticles",
+     "FieldDefinitions": [
+     {
+       "FieldUse": "Create",
+       "DocFieldSource": "ArticlePublicNumber",
+       "TargetFieldName": "articlepublicnumber",
+       "TargetFieldType": "String"
+      },
+      {
+        "DocFieldSource": "Constant",
+        "DocFieldPattern": "true",
+        "TargetFieldName": "msdyn_isingestedarticle",
+        "TargetFieldType": "Bool"
+      },
+      {
+        "DocFieldSource": "Url",
+        "TargetFieldName": "msdyn_ingestedarticleurl",
+        "TargetFieldType": "String"  
+      },
+      {
+        "DocFieldSource": "DataProvider",
+        "TargetFieldName": "msdyn_integratedsearchproviderid@odata.bind",
+        "TargetFieldType": "String"
+      },
+      {
+        "DocFieldSource": "Regex",
+        "DocFieldPattern": "<title>(.*?)</title>",
+        "TargetFieldName": "title",
+        "TargetFieldType": "String"
+       },
+       {
+          "DocFieldSource": "Meta",
+          "DocFieldPattern": "description",
+          "TargetFieldName": "description",
+          "TargetFieldType": "String",
+          "MaxLength": 155
+       },
+       {
+          "DocFieldSource": "Document",
+          "TargetFieldName": "content",
+          "TargetFieldType": "String"
+        },
+        {
+          "DocFieldSource": "Url",
+          "TargetFieldName": "msdyn_externalreferenceid",
+          "TargetFieldType": "String",
+          "UseRegexCapture": "^https://.*?/(.*?)/.*/.*?([0-9A-F]{8}[-](?:[0-9A-F]{4}[-]){3}[0-9A-F]{12})$"
+}
+]
+}
+
+```
