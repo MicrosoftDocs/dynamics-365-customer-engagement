@@ -25,7 +25,7 @@ You can configure the ability for agents to chat in Microsoft Teams from within 
 > [!NOTE]
 > Teams settings apply across all supported customer engagement apps. Whether you enable the feature from Customer Service Hub or a custom app, it'll be enabled for all supported customer engagement apps.
 
-When the feature is enabled, while working on customer records, agents can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating on Teams.
+When the feature is enabled, while working on customer records, agents can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating in Teams.
 
 ## Enable or disable Teams chat
 
@@ -116,23 +116,29 @@ To enable Teams chat settings for a custom multisession user, complete the follo
 
 1. Create the custom profile from the default profile in App profile manager. More info: [Create an app profile](/dynamics365/app-profile-manager/app-profile-manager#create-an-app-profile)
 
-1. Go to [Power Apps](https://make.powerapps.com/), and then under **Environments**, select your environment.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-1. In the left-side pane, select **Apps**, and then next to the custom app, select the **More Commands** ellipsis.
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-   > [!div class="mx-imgBorder"] 
-   > ![Configure Teams chat settings for specific multisession users.](media/teams-chat-more-commands.png "Configure Teams chat settings for custom profiles")
+    1. In the site map, in **Agent experience**, select **Collaboration**.
+    
+    1. In **Embedded chat using Teams**, select **Manage**.
+   
+   ### [Customer Service Hub](#tab/customerservicehub) 
 
-1. From the dropdown menu, select **App profile manager**, select the custom profile, and then select **Edit**.
+    1. In the site map, select **Service Management**.
+    2. In **Collaboration**, select **Embedded chat using Teams**.
+    
+1. Ensure that toggle for **Turn on Microsoft Teams chats inside Dynamics 365** is set to **Yes**, and then in **Turn on for specific multisession users**, select **Manage**. The **Agent experiences profiles** page is displayed.
 
-1. Select the **Productivity pane** tab, and then toggle **Turn on productivity pane** to **On**.
+1. Select the profile to open it.
 
-1. Under **Productivity tools**, toggle **Microsoft Teams collaboration** to **On**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Set Teams collaboration to On.](media/teams-chat-custom-profile.png "Turn on Teams collaboration")
-
-1. Select the **General** tab to assign users. More information: [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
+1. On the profile page, you can do the following:
+   - **Add users** More information: [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
+   - **Add an entity session template** More information: [Manage session templates](/dynamics365/app-profile-manager/session-templates?tabs=customerserviceadmincenter)
+   - **Enable the inbox** More information: [Configure the inbox for agents](configure-inbox.md)
+   - **Enable productivity pane features** More information: 
+   - **Set up channel providers** More information: [Overview of productivity tools](/dynamics365/app-profile-manager/productivity-tools)
 
 ## Configure the ability to connect chats to Dynamics 365 records
 
