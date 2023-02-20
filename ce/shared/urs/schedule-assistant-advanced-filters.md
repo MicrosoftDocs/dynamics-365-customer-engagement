@@ -1,4 +1,4 @@
-The schedule assistant includes advanced filters that provide additional granularity for scheduling needs.
+The schedule assistant includes advanced filters that provide more granularity for scheduling needs.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the advanced filters exposed in the schedule assistant.](../../field-service/media/scheduling-schedule-assistant-advanced-filters.png)
@@ -9,44 +9,36 @@ For more information, see the video ![Video symbol](../../field-service/media/vi
 
 ## Real time mode
 
-Filtering by real time mode can be useful to book the closest possible resource, so that they can arrive onsite more quickly.
+Helps find the closest possible resource to arrive onsite more quickly.
 
 The schedule assistant will use the location of the technician's mobile device when calculating the estimated travel time to arrive at the work order location. A truck icon represents the technician's location on the schedule board map.
-
+<!--
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the hourly view of the filter and map view, showing a truck icon on the map.](../../field-service/media/scheduling-schedule-assistant-real-time-mode.png)
 
-The mobile device's location is collected from the time of the last sync to a defined threshold in the past. The time threshold for when the acceptable location of a previous sync is defined in the **Geo Location Expires After X Minutes** field found in **Resource Scheduling app** > **Settings** > **Administration** > **Scheduling parameters**.
+ is that Field Service > Settings > Geolocation settings > Refresh interval? and should the link go to the article on how to set up location tracking? -->
+
+The mobile device sends location information from the last sync to a defined threshold in the past. Define the time threshold in the **Geo Location Expires After X Minutes** field found in **Resource Scheduling app** > **Settings** > **Administration** > **Scheduling parameters**.
 
 See the article on [geofencing](../../field-service/geofencing.md) to learn how to set up location auditing and sharing.
 
 ## Ignore travel time
 
-Sometimes, a dispatcher may want to ignore the travel time when finding available resources. One example is if the resource can work overtime or if the job location is exceptionally far away.
-
-For cases when the calculated travel time is not needed, selecting **Ignore travel time** in the schedule assistant's advanced filters will produce results that ignore the estimated travel time when determining if a resource has enough time available in their schedule.
+Ignores the estimated travel time and only checks if a resource has enough time available in their schedule.
 
 ## Ignore duration
 
-The schedule assistant will ignore the requirement duration when determining if a resource has enough time available in their schedule.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule assistant filter view with "ignore duration" selected.](../../field-service/media/scheduling-schedule-assistant-ignore-duration.png)
+Ignores the requirement duration when determining if a resource has enough time available in their schedule.
 
 ## Ignore proposed bookings
 
-Many organizations will mark their bookings with a booking status of **Proposed** until a customer or client commits to the schedule. In such cases, dispatchers may want to view those time slots as available for other work that is more important or ready to be committed.
+Ignores bookings with a **Proposed** booking status and the time slot as available.
 
-With the **Ignore proposed bookings** advanced filter, the schedule assistant will ignore bookings where the Booking status is **Proposed**, and will treat that time slot as available.
+Some organizations use the proposed status for bookings until their customer confirms the schedule. Dispatchers could use those time slots to expedite committed work.
 
 ## Allow overlapping
 
-The schedule assistant will double book on top of bookings where the **Allow Overlap** field is set to **Yes**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a bookable resource booking, where "allow overlapping" is set to "yes."](../../field-service/media/scheduling-schedule-assistant-allow-overlapping.png).
-
-This filter is similar to the **Ignore proposed bookings** filter, except it's unrelated to the booking status because any booking can be set to allow overlapping.
+Shows bookings that with the **Allow Overlap** field set to **Yes** on the bookable resource booking form.
 
 <!-- can we drop this and explain customizations as part of SB settings?>
 
