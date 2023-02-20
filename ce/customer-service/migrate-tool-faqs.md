@@ -3,8 +3,8 @@ title: Migration tool FAQ
 description: Migration tool FAQ for automatic record creation rules and service-level agreement items.
 ms.date: 02/10/2023
 ms.topic: article
-author: Soumyasd27
-ms.author: sdas
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.reviewer: nenellim
 ---
