@@ -29,26 +29,28 @@ This guide provides all the steps required for getting up and running with Conne
 
 - Active [Azure subscription with privileges to create resources and services](cfs-azure-subscription.md).
 
-- For Azure Time Series Insights, [register an application](/azure/active-directory/develop/quickstart-register-app) in the Azure portal. Get the application ID, object ID, [add a client secret](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret), and record the secret's value.
+- For Azure Time Series Insights, [create an app registration](/azure/active-directory/develop/quickstart-register-app) in the Azure portal. Take note of the Application (client) ID and the Object ID. [Add a client secret](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret), and record the client secret value. You'll need these values multiple times during the installation.
 
-## Step 1: Deploy Connected Field Service and Azure resources
+## Step 1: Deploy Connected Field Service and Azure resources from an ARM template
 
-Deploy and connect Azure IoT Hub to your Field Service environment. Go to the **Deployment steps** section on [https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment) and deploy the Azure Resource Manager (ARM) template.
+Deploy and connect Azure IoT Hub to your Field Service environment. Go to the **Deployment steps** section on [https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment#deploy-the-arm-template) and deploy the Azure Resource Manager (ARM) template. Select Deploy to Azure to initiate the deployment.
 
-:::image type="content" source="media/ARM-deployment-template.png" alt-text="Screenshot of the Azure Resource Manager template to deploy IoT Hub for Connected Field Service.":::
+:::image type="content" source="media/cfs-deploy-ARM-template.png" alt-text="Screenshot of the deployment shortcut on the github repository.":::
 
-1. Choose the Azure subscription and resource group or create one. Set the region to the same region as your Field Service environment.
+1. Choose an existing Azure subscription. Choose a resource group or create one in the selected subscription. Set the region to the same region as your Field Service environment.
+
+   :::image type="content" source="media/ARM-deployment-template.png" alt-text="Screenshot of the Azure Resource Manager template to deploy IoT Hub for Connected Field Service.":::
 
 1. Enter the [unique name of your organization](/power-platform/admin/determine-org-id-name#find-your-organization-name), and the [organization URL](/power-platform/admin/determine-org-id-name#find-your-environment-and-organization-id).
 
 1. Select the optional resources you want to deploy.
-   - We recommend to add Azure Time Series Insights because it's needed to create visualizations of your IoT data. Provide the values that you recorded while [creating the app registration](#prerequisites).
+   - We recommend adding **Azure Time Series Insights** to enable visualization for device readings and summary tiles.
    - Add the simulator to test and validate IoT scenarios with sample data.
    - To create you own reports in Power BI, add the SQL server and provide the credentials you want to create.
 
 1. Review and create the resources from the template.
 
-Before proceeding, ensure the overall deployment status shows **Success**.  
+Before proceeding, ensure the deployment is complete.  
 
 ## Step 2: Create new IoT Provider Instance
 
@@ -62,7 +64,10 @@ Before proceeding, ensure the overall deployment status shows **Success**.
 
    :::image type="content" source="media/cfs-iothub-create-provider.png" alt-text="Screenshot of creating a new IoT Hub provider.":::
 
-1. On the **New IoT Provider Instance** page, fill out the field:
+1. On the **New IoT Provider Instance** page, fill out the fields:
+
+   :::image type="content" source="media/cfs-iot-hub-provider-instance.png" alt-text="Screenshot of a new IoT Hub provider instance with sample data.":::
+
    - **Name**: Enter the name of the resource group in Azure where you deployed IoT resources.
    - **IoT Provider**: [Choose or create the IoT provider for IoT Hub](cfs-provider-iot-hub.md).
    - **Provider Instance Id**: Enter the name of the IoT Hub resource that was deployed to your resource group in Azure.
@@ -80,9 +85,9 @@ Before proceeding, ensure the overall deployment status shows **Success**.
 
 ## Step 3: Set up IoT endpoint
 
-1. Install the [Power Platform CLI](/power-platform/developer/cli/introduction).
+1. Download the [Power Platform CLI](https://aka.ms/PowerAppsCLI) and install it.
 
-1. Open the CLI and launch the Plugin Registration Tool (PRT) with the command `pac tool prt`.
+1. Open the CLI and launch the [Plugin Registration Tool (PRT)](/power-platform/developer/cli/reference/tool#pac-tool-prt) with the command `pac tool prt`.
 
 1. In the PRT window, select **Create New Connection** and sign in to the Dynamics 365 environment where you're setting up Connected Field Service.
 
@@ -90,11 +95,14 @@ Before proceeding, ensure the overall deployment status shows **Success**.
 
 1. Select **Update**.
 
-1. For **NameSpace Address**, find the hostname for the [Service Bus Namespace](/azure/service-bus-messaging/explorer#use-the-service-bus-explorer) deployed to your resource group. Enter the hostname the Plug-in Registration Tool, prefixed by `sb://`. Example: `sb://myServiceBusNamespace.servicebus.windows.net`
+1. For **NameSpace Address**, find the hostname for the [Service Bus Namespace](/azure/service-bus-messaging/explorer#use-the-service-bus-explorer) deployed to your resource group. Enter the hostname in the Plug-in Registration Tool, prefixed by `sb://`. Example: `sb://myServiceBusNamespace.servicebus.windows.net`
 
 1. In the Service Bus Namespace resource, go to **Queues** and find the queue with a name ending in `-crm`. Copy the full name and enter it as the **Topic Name** in the Plug-in Registration Tool.
+1. For **Message Format**, choose *XML*.
 
-1. In the Service Bus Namespace resource, go to **Shared access policies** > **RootManageSharedAccessKey**. Copy the [primary key](/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal) and paste it into the Plug-in Registration Tool for **SAS Key**.
+1. In the Service Bus Namespace resource, go to **Shared access policies** > **RootManageSharedAccessKey**.
+   - Copy the name and paste it for SaS Key Name.
+   - Copy the [primary key](/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal) and paste it into the Plug-in Registration Tool for **SAS Key**.
 
 1. Select **Save**.
 
@@ -123,15 +131,17 @@ Connect the Azure IoTHub to your Field Service environment.
 
 ## Step 5: Update devicerules.json
 
-Skip this step if the simulator isn't deployed. The Stream Analytics job deployed to your resource group will have a reference to a `devicerules.json` file. This file defines a rule that is used to create IoT Alerts when using the optional device simulator. To use the rule, upload the `devicerules.json` file and reproduce the directory structure. The exact structure is needed for the sample alert to work. The file is available in the [GitHub repo](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment).
+Skip this step if the simulator isn't deployed. The Stream Analytics job deployed to your resource group will have a reference to a `devicerules.json` file. This file defines a rule that is used to create IoT Alerts when using the optional device simulator. To use the rule, upload the `devicerules.json` file and reproduce the directory structure. The exact structure is needed for the sample alert to work.
 
-1. In the storage account deployed to your resource group, create a container called `devicerules`.
+1. Download the `devicerules.json` file from the [GitHub repo](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment).
 
-1. In the storage account, use the Storage Browser to open the newly created `devicerules` container.
+1. Open the resource group in the Azure admin portal and select the storage account deployed to your resource group. Select **Containers** and create a container called `devicerules`.
 
-1. Add a directory in the `devicerules` container named `2016-05-30`.
+1. Use the Storage Browser to open the newly created `devicerules` container.
 
-1. In the `2016-05-30` directory, create another directory called `22-40`, and upload the `devicerules.json` file.
+1. Upload the `devicerules.json` file to a new folder named `2016-05-30`.
+
+1. In the `2016-05-30` folder, create another folder called `22-40`, and upload the `devicerules.json` file.
 
 ## Step 6: Start Azure Stream Analytics job
 
@@ -147,15 +157,13 @@ Congratulations! You're now ready to pass data between Azure IoT Hub and Dynamic
 
 ## Step 7: Update Azure Time Series Insights connection
 
-Use Time Series Insights to create visualizations.
+Use Azure Time Series Insights to create visualizations.
 
 1. Open the Connected Field Service app module in Dynamics 365.
 
 1. Launch the browser developer tools and go to the console.
 
 1. Enter the following script into the console and run it, replacing the `Value` parameter with the Azure tenant ID. You can [get the tenant ID from the Azure portal](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant).
-
-1. Run the script two more times, replacing the `Key` first with TSI_PLUGIN_CLIENT_APPLICATION_ID and then with TSI_PLUGIN_CLIENT_SECRET, and replacing the `Value` with the respective values.
 
     ```javascript
     
@@ -192,11 +200,15 @@ Use Time Series Insights to create visualizations.
     );
     ```
 
+1. Run the script again, replacing the `Key` with `TSI_PLUGIN_CLIENT_APPLICATION_ID` and the `Value` with the `Application Client ID` from the app registration for Time Series Insights that you created as a [prerequisite](#prerequisites).
+
+1. Run the script again, replacing the `Key` with `TSI_PLUGIN_CLIENT_SECRET` and the `Value` with the `Application Client ID` from the app registration for Time Series Insights that you created and recorded as a [prerequisite](#prerequisites).
+
 1. Run the following script, using your Time Series Insights URL and the GUID of the IoT Provider Instance row in the msdyn_iotproviderinstance table for the instance you created earlier.
 
     ```javascript
-    var data = {"msdyn_timeseriesinsightsurl": "Enter Data Access FQDN (found in Time Series Insights resource)"};
-    Xrm.WebApi.updateRecord("msdyn_iotproviderinstance", "Enter msdyn_iotproviderinstance GUID ", data);
+    var data = {"msdyn_timeseriesinsightsurl": "Enter Data Access FQDN found on Time Series Insights environment overview"};
+    Xrm.WebApi.updateRecord("msdyn_iotproviderinstance", "Copy the value for msdyn_iotproviderinstanceid from the json object returned with the API call https://[your-environment-name].crm.dynamics.com/api/data/v9.2/msdyn_iotproviderinstances", data);
     ```
 
 ## Step 9: Set up the simulator (optional)
@@ -231,9 +243,9 @@ Now you can send a test command by using the sample simulator. For example, sele
 
 ## Next steps
 
-1. [Register devices](cfs-register-devices.md)
-2. [Pull device data](cfs-pull-device-data.md)
-3. [Visualize device readings](cfs-visualizations-iot-hub.md)
+- [Register devices](cfs-register-devices.md)
+- [Pull device data](cfs-pull-device-data.md)
+- [Visualize device readings](cfs-visualizations-iot-hub.md)
 
 ## Privacy notice
 [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
