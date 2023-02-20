@@ -1,5 +1,5 @@
 ---
-title: "Display custom context | MicrosoftDocs"
+title: "Display custom context in Conversation summary| MicrosoftDocs"
 description: "Use this topic to understand how to display custom context in the Conversation summary section of conversations."
 ms.date: 10/21/2021
 ms.topic: reference
@@ -7,7 +7,7 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ---
-# Display custom context
+# Display custom context in Conversation summary
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
