@@ -1,7 +1,7 @@
 ---
 title: "Customer Service workspace system requirements | MicrosoftDocs"
 description: "Learn about the system requirements and prerequisites for Customer Service workspace."
-ms.date: 02/20/2022
+ms.date: 02/20/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
