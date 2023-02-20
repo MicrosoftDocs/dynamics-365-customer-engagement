@@ -1,26 +1,31 @@
 ---
-title: Develop metadata mapping schema for knowledge articles (preview) #Required; page title displayed in search results. Don't enclose in quotation marks.
-description: Concept description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: rhanajoy #Required; your GitHub user alias, with correct capitalization.
-ms.author: rhcassid #Required; your Microsoft alias; optional team alias.
-ms.reviewer: kfend #Required; Microsoft alias of content publishing team member.
-ms.topic: conceptual #Required; don't change.
-ms.date: 02/07/2023
-ms.custom: bap-template #Required; don't change.
+title: Develop metadata mapping schema for knowledge articles (preview)
+description: Concept description 
+author: gandhamm 
+ms.author: mgandham 
+ms.reviewer: neeranelli
+ms.topic: conceptual 
+ms.date: 03/01/2023
+ms.custom: bap-template 
 ---
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
-
-<!--This template provides the basic structure of a concept article. See [Write a concept article](write-a-concept-article.md) in the contributor guide. To provide feedback on this template contact [bace feedback team](mailto:templateswg@microsoft.com).-->
-
-<!--H1 - Required. This should match the title you entered in the metadata. Set expectations for what the content covers, so customers know the content meets their needs. Should NOT begin with a verb.-->
 # Develop metadata mapping schema for knowledge articles (preview)
 
-<!--Introductory paragraph - Required. Lead with a light intro that describes what the article covers. Answer the fundamental "What is X and how will learning this help me accomplish Y?" question. A good lead is a sentence in the form, "X is a (type of) Y that does Z." Keep this paragraph short.-->
-<!--add your intro paragraph here-->
+This article describes the schema details required to map information from external data providers to the knowledge article entities, and how you can prepare your own schema mapping JSON file using various fields and attributes.
 
-<!--H2s - Required. Give each H2 a heading that sets expectations for the content that follows. Follow H2 headings with a sentence about how the section contributes to the whole.-->
-## Section heading
+### Fields
+
+The following table lists the fields and field details that you must use in your JSON schema.
+
+|Field name  |Definition   |Required |Value |
+|----------|-----------|------------|----------|
+|Name     |Name of the field definition |No     |A string indicating the name of the field. |
+|UniqueTargetFieldName     |s the unique identifier or alternate key of the knowledge article entity. Typically, this field is the ID on the content provider side. |Yes     |A string indicating the name of the field. |
+|ContentTargetFieldName     | Is the logical name of the attribute to be used. |Yes     |Set the value to “content”. |
+|ApiPathLeafName     |Field value should not be changed. |Yes     |Set the value to “knowledgearticles”. |
+|List<FieldDefinitions>    |Is a list of field definitions. |Yes     |A set of definitions for the fields. See the following table for the list of supported fields for setting field definitions. |
+
+
 
 <!--add your content here-->
 
