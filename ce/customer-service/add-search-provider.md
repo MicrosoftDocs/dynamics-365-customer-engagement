@@ -72,7 +72,7 @@ You can now add integrated search providers.
         > [!NOTE]
         > - Provide the **lastmod** tag within the article **url** tag in the site map index.
         > - Don't provide multi-level sitemaps.
-    1. **Languages mapped**: Select the languages you want to specifically map for the ingestion from the dropdown list, and then select **Reset**. By default, all languages are considered for ingestion.
+    1. **Languages mapped**: Select the languages you want to specifically map for the ingestion from the dropdown list, and then select **Reset**. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language locale.
     1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: Apply authentication.
     1. Select **Test connection**. You will get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
     1. Select **Next**.
@@ -81,7 +81,7 @@ You can now add integrated search providers.
     1. **Refresh frequency**:
         1. Select between **15min** to **7days** from the dropdown list. Your selection specifies the frequency at which newly created or updated articles will be ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
     1. **Lookback period**:
-        1. Select between **2h** to **8h** from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during syncing and ingestion.
+        1. Select **No Lookback** or between **2h** to **8h** from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during syncing and ingestion.
         
             For example, if you set the **Refresh frequency** at 15min and **Lookback period** at 2h, your data will be refreshed for the last 2h and 15min, in every 15min.
         1. Select **Next**.
