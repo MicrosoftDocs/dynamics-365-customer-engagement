@@ -103,7 +103,7 @@ If-None-Match: null
 }
 ```
 
-Here's a sample code:
+Here's a sample code for updating existing records in the `msdyn_occhannelstateconfigurations` entity:
 
 ```javascript
 var data =
