@@ -23,13 +23,13 @@ search.app:
 You can search knowledge articles in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service to help answer a customer's question or solve an issue.
 
 > [!NOTE]
-> Knowledge base search is also available in some versions of Dynamics 365 Customer Engagement (on-premises). For more information, go to [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities).
+> Knowledge base search is available in some versions of Dynamics 365 Customer Engagement (on-premises) also. For more information, go to [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities).
 
 ## Prerequisites
 
 - Your administrator has [enabled Dataverse search](/power-platform/admin/configure-relevance-search-organization). [Learn more about knowledge base search mechanisms](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals).
 
-- Your administrator has configured the following view columns in **Settings** **> Customizations > Entities > Knowledge Article > Views > Quick Find View > View Columns**:
+- Your administrator has configured the following view columns for the **Quick Find View** in the advanced settings:
 
     - Article Public Number
     - Content  
@@ -45,11 +45,11 @@ You can search knowledge articles in Customer Service Hub, Customer Service work
     - Status
     - Title
     
-- To search using favorites, your administrator has granted **Create**, **Read**, **Write**, **Append**, **Appendto** privileges to the CSR Manager and the Customer Service Representative security roles as applicable, for the **msdyn_favoriteknowledgearticle** entity.
+- To search using favorites, your administrator has granted **Create**, **Read**, **Write**, **Append**, **Appendto** privileges on the **msdyn_favoriteknowledgearticle** entity to the CSR Manager and the Customer Service Representative security roles as applicable.
 
 - In Customer Service workspace and Omnichannel for Customer Service, your administrator has enabled the app side pane and knowledge search in Agent experience profiles.
 
-- You must be viewing a case or conversation for the knowledge pane to be displayed. To open the knowledge pane for any other entity, your administrator must enable it in [knowledge management configuration](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management).
+- To open the knowledge pane, you are dealing with a case or conversation. To open the knowledge pane for any other entity, your administrator must enable it in [knowledge management configuration](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management).
 
 ## Use the direct knowledge base search in Customer Service Hub
 
@@ -67,7 +67,7 @@ You can search the knowledge base directly, without viewing a case or conversati
   1. The number of attachments, likes, and views, and the date the article was most recently updated
   1. Article ID
   1. Info card that displays search term matches from keywords, description, attachments, and any other custom fields.
-  1. An attachment that includes the search term in its title or contents. The attachment title is displayed only when the search term matches the content in the attachment.
+  1. An attachment that includes the search term in its title or contents. The attachment title appears only when the search term matches the content in the attachment.
   
 If your administrator hasn't enabled Dataverse search, the keywords that you enter are used to perform a full-text search of the following knowledge article metadata: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**. If Dataverse search is enabled, your administrator can [select the columns to be searched](/power-platform/admin/configure-relevance-search-organization).
 
@@ -129,7 +129,7 @@ Legend:
 1. Info card that displays search term matches from keywords, description, attachments, and any other custom fields
 1. Links the article to the current case or conversation. If the article is already linked, select the icon to unlink it from the current case or conversation.
 1. Status and visibility tags for the article.
-1. Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment
+1. Search results across attachments. The attachment title appears only when the search term matches the content in the attachment
 
 Select More options (**&hellip;**) to:
 
