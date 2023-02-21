@@ -103,6 +103,26 @@ If-None-Match: null
 }
 ```
 
+Here's a sample code:
+
+```javascript
+var data =
+    {
+        "msdyn_autocloseliveworkitemafter": 2
+    }
+// update the record
+Xrm.WebApi.updateRecord("msdyn_occhannelstateconfiguration", "6283ab63-5778-e911-8196-000d3af7d71e", data).then(
+    function success(result) {
+        console.log("Auto close time updated");
+    },
+    function (error) {
+        console.log(error.message);
+    }
+);
+
+
+```
+
 > [!NOTE]
 > The value for the `msdyn_autocloseliveworkitemafter` attribute is in minutes. If you want to provide a value that is in days, you'll have to convert it into minutes. For example, 1 day will be 24 x 60 = 1,440 minutes.
 

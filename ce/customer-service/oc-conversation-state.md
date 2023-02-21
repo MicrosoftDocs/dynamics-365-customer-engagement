@@ -98,10 +98,11 @@ The conversations that are completed by ending them or closing the session are c
 
 Omnichannel for Customer Service has a default time set for the conversation to close automatically. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve a closure, and agents can focus on important conversation, which ultimately enhances the productivity.
 
-The Omnichannel for Customer Service scheduler checks conversations every 5 minutes to identify those that do not transition for more than the default configured time. Such conversations become eligible for automatic closure, so the next time when the scheduler runs, those conversations are moved from the existing state to the **Closed** state.
+The Omnichannel for Customer Service scheduler checks conversations every 5 minutes to identify those that do not transition for more than the default configured time. Such conversations become eligible for automatic closure, so the next time the scheduler runs, those conversations are moved from the existing state to the **Closed** state.
 
 > [!IMPORTANT]
-> To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
+> - To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
+> - For any actions performed on the conversations such as monitor, consult, or transfer, the scheduler will automatically recalculate the time to close the conversation.
 
 ### Default time for automatic closure of conversations
 
