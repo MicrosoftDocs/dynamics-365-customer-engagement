@@ -4,9 +4,8 @@ description: Learn how to search knowledge articles in Dynamics 365 Customer Ser
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
-ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 01/30/2023
+ms.date: 02/21/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
