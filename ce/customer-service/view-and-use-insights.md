@@ -40,4 +40,4 @@ You can view the failed articles in the **Failed** column. Having the failed art
 1. Select **Retry** for individual articles or select **Retry all** to run all the articles together.
 
 > [!NOTE]
-> We only support crawling of static websites. Websites that return scripts to load content are not supported for crawling. 
+> We support data ingestion of static websites only. Websites that return scripts to load content aren't supported for data ingestion.
