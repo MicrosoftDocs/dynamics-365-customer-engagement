@@ -1,7 +1,7 @@
 ---
 title: Understand how unified routing affects queue items and live work items for routed records| MicrosoftDocs
 description: Use this article to understand how unified routing affects queue items, live work items, and the corresponding APIs.
-ms.date: 02/17/2023
+ms.date: 02/21/2023
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -27,7 +27,7 @@ Unified routing automatically synchronizes these updates from the queue item to 
 You can update only one field of the queue item at a time, in a transaction. For example, if you need to update both the queue and the worker ID fields, then ensure that you update the queue field in one transaction, and the worker ID field in the next transaction.
 
 > [!NOTE]
-> - Unified routing automatically sets the record's owner to a user.
+> - Unified routing automatically sets the record's owner to a user. We recommend that you don't overwrite or update the ownership.
 > - We recommend that you don't add any custom logic on live work items as Microsoft uses them in unified routing services.
 
 ## How unified routing affects queue items, live work items for routed records
@@ -40,7 +40,7 @@ This section describes how queue items and live work items are updated when you 
 
 - When you change the **Queue** field from an advanced queue to a basic queue by selecting **Add to Queue** on the record (via the [AddToQueue Action](/power-apps/developer/data-platform/webapi/reference/addtoqueue?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9)) or by selecting **Route To** on the queue item (via the [RouteTo action](/power-apps/developer/data-platform/webapi/reference/routeto?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9)), then the associated live work item ([msdyn_ocliveworkitem](/developer/reference/entities/msdyn_ocliveworkitem.md)) and the entity record are closed, and the queue item is no longer considered or picked by the unified routing engine. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
 
-- When you change the **Queue** field of a queue item from a basic queue to an advanced queue, then you must reroute the queue items using **Save & Route** so that the corresponding live work item can be picked up by the unified routing services. If you change the queue of the queue item from basic to advanced, then the queue item won't be considered for routing by the unified routing engine. 
+- When you change the **Queue** field of a queue item from a basic queue to an advanced queue, then you must reroute the queue items using **Save & Route** so that the corresponding live work item can be picked up by the unified routing services. If you change a basic queue to an advanced type of queue while the queue item is still assigned to the basic queue, then the queue item won't be considered for routing by the unified routing engine. 
 
 ### What happens when you update the Worked By field 
 
