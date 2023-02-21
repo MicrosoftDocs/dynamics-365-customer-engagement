@@ -76,6 +76,6 @@ This section describes how queue items and live work items are updated when you 
 [Overview of unified routing](overview-unified-routing.md)   
 [Set up record routing](set-up-record-routing.md)   
 [Set up unified routing](set-up-routing-process.md)   
-[Create and manage capacity profiles](capacity-profiles.md)  
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
