@@ -73,4 +73,4 @@ If the validation is successful, you'll see a confirmation message. If the valid
 
 ## Next steps
 
-For more information on adding an integrated search provider, go to: [Provision, add, and manage integrated search providers (preview)](add-search-provider.md#provision-add-and-manage-integrated-search-providers-preview).
+For more information on adding an integrated search provider, go to: [Add and manage integrated search providers (preview)](add-search-provider.md#add-and-manage-integrated-search-providers-preview).
