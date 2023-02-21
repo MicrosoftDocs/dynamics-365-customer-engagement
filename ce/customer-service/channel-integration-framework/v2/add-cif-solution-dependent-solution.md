@@ -3,7 +3,7 @@ title: "Manage Dynamics 365 Channel Integration Framework 2.0 solutions | Micros
 description: "Learn how to add and remove Dynamics 365 Channel Integration Framework 2.0 solutions from Dynamics 365."
 author: mh-jaya
 ms.author: v-jmh
-ms.date: 02/21/2023
+ms.date: 02/22/2023
 manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"

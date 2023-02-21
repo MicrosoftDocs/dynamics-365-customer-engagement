@@ -4,7 +4,7 @@ description: "Learn how to add and remove Dynamics 365 Channel Integration Frame
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/21/2023
+ms.date: 02/22/2023
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
