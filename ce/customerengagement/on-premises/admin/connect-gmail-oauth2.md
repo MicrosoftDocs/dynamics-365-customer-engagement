@@ -71,6 +71,9 @@ Follow the steps for **Create a project** in [Create, shut down, and restore pro
 
 ## Step 4. Create an email server profile
 
+> [!NOTE]
+> These steps should be done by the system administrator.
+
 1. In the upper-right corner of the web app, select **Settings**, and then select **Advanced settings**.
 
 1. Go to **Settings** > **Email Configuration**.
@@ -126,6 +129,9 @@ Follow the steps for **Create a project** in [Create, shut down, and restore pro
 8. Proceed through the Gmail sign-in and authorization pages.
 
 ## Step 6. Add test users
+
+> [!NOTE]
+> These steps should be done by the system administrator.
 
 In the Google Cloud Platform (Developer Console), add users in the **Test Users** section when publishing the app. More information: [Google Cloud Platform Console Help](https://support.google.com/cloud/answer/7454865)
 
