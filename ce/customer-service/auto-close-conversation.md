@@ -1,11 +1,12 @@
 ---
-title: "Configure automatic closure of conversations | MicrosoftDocs"
-description: "Use this article to understand how to configure the auto-close duration of conversations using the Web API."
-ms.date: 01/20/2023
-ms.topic: reference
+title: Configure automatic closure of conversations
+description: Use this article to understand how to configure the auto-close duration of conversations using the Web API.
+ms.date: 02/22/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 # Configure automatic closure of conversations
 
@@ -139,10 +140,14 @@ The default time for automatically closing a live chat that's in **Wrap-up** sta
 
 The value defined for the **Block capacity for wrap-up** field in the workstream overrides the value specified in the `msdyn_autocloseliveworkitemafter` attribute, if it is more than the value for the `msdyn_autocloseliveworkitemafter` attribute. For example, if you have set the value for blocking agent's capacity as 15 minutes and the `msdyn_autocloseliveworkitemafter` attribute as 10 minutes, a conversation in **Wrap-up** state will occupy capacity for 15 minutes and will be eligible for automatic closure only after 15 minutes.
 
+## Next steps
+
+[Update an entity using Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)  
+
 ### See also
 
 [Automatic closure of a conversation](oc-conversation-state.md#automatically-close-conversations)  
-[Update an entity using Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)  
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
