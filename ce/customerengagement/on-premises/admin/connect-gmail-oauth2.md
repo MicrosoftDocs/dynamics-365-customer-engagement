@@ -2,13 +2,12 @@
 title: Connect Gmail accounts by using OAuth 2.0 
 description: Follow the steps in this article to set up server-side synchronization to send and receive email in Dynamics 365 Customer Engagement (on-premises) from Gmail accounts by using OAuth 2.0 as the authorization mechanism.
 ms.custom: 
-ms.date: 02/16/2023
+ms.date: 02/21/2023
 ms.reviewer: sericks
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 
-caps.latest.revision: 21
 author: DanaMartens
 ms.author: dmartens
 search.audienceType: 
@@ -36,7 +35,7 @@ For POP, follow the steps in [Read Gmail messages on other email clients using P
 > [!NOTE]
 > These steps should be done by the system administrator.
 
-Using a Google account (this can be the same one you'll use to send and retrieve email, or a different one), go to the Google Developers Console and create a new project.
+Using a Google account (this can be the same account you'll use to send and retrieve email, or a different account), go to the Google Developers Console and create a new project.
 
 Follow the steps for **Create a project** in [Create, shut down, and restore projects](https://support.google.com/googleapi/answer/6251787).
 
@@ -82,9 +81,9 @@ Follow the steps for **Create a project** in [Create, shut down, and restore pro
 
 1. Specify a meaningful **Name** for the profile.
 
-1. For **Incoming Server Location** provide **imap.gmail.com**.	
+1. For **Incoming Server Location**, provide **imap.gmail.com**.	
 
-1. For **Outgoing Server Location** provide **smtp.gmail.com**.	
+1. For **Outgoing Server Location**, provide **smtp.gmail.com**.	
 
 1. For **Authenticate Using**, select **Gmail OAuth**.
 
@@ -92,9 +91,9 @@ Follow the steps for **Create a project** in [Create, shut down, and restore pro
 
 1. Expand **Advanced**, and then use the tooltips to choose your email processing options.
 
-1. For **Incoming Port** the port should be **993**.
+1. For **Incoming Port**, the port should be **993**.
 
-1. For **Outgoing Port** the port should be **587**. 
+1. For **Outgoing Port**, the port should be **587**. 
 
 1. When you're done, select **Save**.
 
