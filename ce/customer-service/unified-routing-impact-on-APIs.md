@@ -24,7 +24,7 @@ Unified routing updates the following details when a record is automatically ass
 
 Unified routing automatically synchronizes these updates from the queue item to the live work item, but not vice-versa. So, any updates from the live work item aren't automatically reflected in the queue item. If you'd like to make these updates manually, we recommend that you update only the queue item so that the live work item gets updated automatically by the unified routing engine. 
 
-You can update only one field of the queue item at a time, in a transaction. For example, if you need to update both the queue and the worker ID fields, then ensure that you update the queue field in one transaction, and the worker ID field in the next transaction.
+You can update only one field of the queue item at a time. For example, if you need to update both the queue and the worker ID fields of the queue item, then ensure that you either update the queue or the worker ID field at a time, but not both.
 
 > [!NOTE]
 > - Unified routing automatically sets the record's owner to a user. We recommend that you don't overwrite or update the ownership.

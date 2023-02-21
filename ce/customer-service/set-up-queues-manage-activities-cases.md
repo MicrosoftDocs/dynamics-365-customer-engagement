@@ -54,7 +54,7 @@ You can create both basic and advanced queues (for unified routing). More inform
 Based on who can view the queues, you can create:
 
 - **Public queues** To let everyone in the organization view the queue and its work items
-- **Private queues** To let a small group of members view the queue and its work items. Private queues display work items for members of that queue and help remove clutter from other users' views. Since private queues don't restrict access to the records they contain, to prevent unauthorized access to sensitive data, ensure that you set up security models based on your organization needs. More information: [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md)
+- **Private queues** To let a small group of members view the queue and its work items. Private queues display work items for members of that queue and help remove clutter from other users' views. Private queues don't restrict access to the records they contain. Therefore, to prevent unauthorized access to sensitive data, ensure that you set up security models based on your organization needs. More information: [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md)
 
 > [!NOTE]
 > - You must manually add new team members as members of private queues.
