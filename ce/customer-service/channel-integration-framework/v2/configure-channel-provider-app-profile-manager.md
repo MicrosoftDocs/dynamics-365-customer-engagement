@@ -4,7 +4,7 @@ description: "Learn how to configure channel providers using the app profile man
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/10/2023
+ms.date: 02/22/2023
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
