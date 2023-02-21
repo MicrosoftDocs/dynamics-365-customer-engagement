@@ -19,10 +19,10 @@ searchScope:
 
 # Configure channel providers in Dynamics 365 Channel Integration Framework 2.0
 
-Dynamics 365 Channel Integration Framework 2.0 is intended for multisession applications such as Omnichannel for Customer Service and Customer Service workspace. You can configure channel providers for multisession applications either using the app profile manager or using the Customer Service admin center.
+Dynamics 365 Channel Integration Framework 2.0 is intended for multisession applications such as Omnichannel for Customer Service and Customer Service workspace. You can configure channel providers for multisession applications either using Customer Service admin center or Power Apps.
 
 More information: 
-- [App profile manager](../../../app-profile-manager/overview.md)
+- [Agent experience profiles](../../../app-profile-manager/overview.md)
 - [Customer Service admin center](../../../customer-service/cs-admin-center.md)
 
 ## Configure a third-party channel provider
@@ -37,7 +37,7 @@ More information:
     
     3. Select a provider from the **Active Channel Providers** list and select **Edit**, or select **New** to add a new channel provider.
 
-    ### [App profile manager](#tab/appprofilemanager)    
+    ### [Power Apps](#tab/appprofilemanager)    
     1. Sign in to the [Power Apps](https://make.powerapps.com) portal.
 
     2. Under the available apps, select the ellipses next to **Omnichannel for Customer Service** or **Customer Service workspace**.
