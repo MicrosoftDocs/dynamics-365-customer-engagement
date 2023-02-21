@@ -32,11 +32,10 @@ ms.custom:
   
 - Unified Service Desk Solution
 
-::: moniker range=">dynamics-usd-4"
 
 - Customizations for the Dataverse Unified Interface package
 
-::: moniker-end 
+
   
 > [!NOTE]
 >  This sample package includes the minimum required configuration data and may not be suitable for demonstration purposes without further configuration.  

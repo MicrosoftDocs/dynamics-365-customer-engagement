@@ -12,7 +12,6 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange: '>= dynamics-usd-4'
 ms.custom: 
   - dyn365-USD
 ---
@@ -59,13 +58,6 @@ This topic provides information about the location from where you can download v
 
 ::: moniker-end
 
-::: moniker range="dynamics-usd-3"
-
-|  Version  |  Download Location |
-|------------------|---------------|
-| [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] | [Download](https://go.microsoft.com/fwlink/p/?linkid=872261) |
-
-::: moniker-end
 
 ## Download administration tools
 

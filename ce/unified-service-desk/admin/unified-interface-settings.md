@@ -11,7 +11,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange: ">=dynamics-usd-4"
+
 ---
 
 # Set default Unified Interface app using Unified Interface Settings
