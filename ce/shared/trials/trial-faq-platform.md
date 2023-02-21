@@ -8,6 +8,10 @@ This app is a cloud-based service that doesn't require special software other th
 
 You can enter a non-work email address and we will create an account and tenant for you.
 
+### Can I sign up for trial using a personal email ID that's not associated with a Microsoft account?<a name="personalemail"></a>
+
+You can use a personal email ID. But you won't be able to access Power Platform admin center to add more users to the trial, change security roles, or extend the trial period.
+
 ### Can I sign up for multiple Dynamics 365 apps such as Sales, Marketing, and Customer Service?
 
 Yes, you can. To view all available trials, [visit the trial hub page](https://dynamics.microsoft.com/dynamics-365-free-trial). You can use the same email account to sign up for different trials. However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different tenant and URL. The trial data won’t be shared across apps.
