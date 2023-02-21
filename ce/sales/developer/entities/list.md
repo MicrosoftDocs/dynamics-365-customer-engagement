@@ -41,7 +41,7 @@ Group of existing or potential customers created for a marketing campaign or oth
 |GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 |QualifyMemberList|<xref:Microsoft.Crm.Sdk.Messages.QualifyMemberListRequest>|
-|RemoveListMembersList|<xref:Microsoft.Crm.Sdk.Messages.RemoveListMembersListRequest>|
+|RemoveListMembersList|    |
 |RemoveMemberList|<xref:Microsoft.Crm.Sdk.Messages.RemoveMemberListRequest>|
 |Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
