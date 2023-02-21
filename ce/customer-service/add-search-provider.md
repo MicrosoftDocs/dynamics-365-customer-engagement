@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365 
 ms.topic: how-to
-ms.date: 02/20/2023
+ms.date: 02/21/2023
 ms.custom: bap-template
 ---
 
@@ -68,10 +68,10 @@ You can now add integrated search providers.
     1. Select **Next**.
 1.	In the **Authentication and testing** section, enter the following information:
     1. **Root URL**: Provide the root URL of the website along with the protocol (http:// or https://)
-    1. **Site map URL**: Provide the sitemap URL of the source website, with content type as either application/xml or text/xml.
+    1. **Site map URL**: Provide the sitemap URL of the source website.
         > [!NOTE]
         > - Provide the **lastmod** tag within the article **url** tag in the site map index.
-        > - Don't provide multi-level sitemaps.
+        > - The site map and the site index files must have content-type as either application/xml or text/xml.
     1. **Languages mapped**: Select the languages you want to specifically map for the ingestion from the dropdown list, and then select **Reset**. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language locale.
     1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: Apply authentication.
     1. Select **Test connection**. You will get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.

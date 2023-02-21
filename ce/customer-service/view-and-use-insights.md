@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi 
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 01/24/2023
+ms.date: 02/21/2023
 ms.custom: bap-template 
 ---
 
@@ -30,7 +30,7 @@ After you have configured your search providers, you can view the insights for y
 1. On the **Search provider details** dialog, select the **Insights** tab.
 The search provider details will be displayed.
 
-You can see up to a maximum of 100 ingestion IDs. Data displayed will be from the last 24hrs.
+You can see up to a maximum of 100 ingestion IDs. Data displayed will be from the last 24hrs. The **Insights** tab is auto-refreshed every 30min.
 
 ## Use insights
 
