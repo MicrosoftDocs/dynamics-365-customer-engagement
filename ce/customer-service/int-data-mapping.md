@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 02/15/2023
+ms.date: 02/21/2023
 ms.custom: bap-template
 ---
 
@@ -28,6 +28,10 @@ To add an integrated search provider, you need to configure the knowledge articl
 
 > [!NOTE]
 > You won't be able to change the configuration method after you have saved it.
+
+## Language mapping
+
+Irrespective of the configuration method that you use, if you have selected languages to be mapped in the **Authentication and testing** section, you must maintain the mapping for language locale in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language and locale descriptors in the product and in Help](/fin-ops-core/dev-itpro/help/language-locale.md).
 
 ## Use field mapping
 
