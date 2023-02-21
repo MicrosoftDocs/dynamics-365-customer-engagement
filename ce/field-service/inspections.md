@@ -1,12 +1,8 @@
 ---
 title: "Dynamics 365 Field Service inspections (contains video) | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
-ms.date: 01/12/2023
+ms.date: 02/12/2023
 ms.topic: article
-
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: josephshum-msft
 ms.author: jshum
 search.app: 
@@ -261,13 +257,13 @@ Back in Dynamics 365, a dispatcher will see inspection responses.
 
 - Inactive inspections and work order service tasks aren't available in offline mode.
 
-- Inspections don't load in Internet Explorer. Microsoft Edge or Chrome is recommended.
-
 - The question type "Entity lookup" shows inactive records.
 
 - If an inspection contains a large (50+) number of files, users may encounter errors while loading the inspection form.
 
 - Users may encounter errors when adding a large number of files in a single upload. This issue is more likely to happen when the files are large and/or the network signal is poor. We recommend splitting large uploads in smaller chunks, where each upload doesn't exceed a total size of 40 MB.
+
+- Avoid trailing blank pages without questions in an inspection as this can cause deserialization errors in out-of-box flows.
 
 ### Field Service inspections or Power Apps inspections
 

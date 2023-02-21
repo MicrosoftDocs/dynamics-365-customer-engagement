@@ -241,7 +241,9 @@
       - name: View diagnostics for unified routing
         href: unified-routing-diagnostics.md
       - name: Manage routing diagnostics data
-        href: manage-routing-diagnostics-data.md  
+        href: manage-routing-diagnostics-data.md
+      - name: Use best practices to set up unified routing
+        href: unified-routing-best-practices.md
     - name: Supervisor experience
       items:
       - name: View historical analytics reports
@@ -768,6 +770,8 @@
       items: 
       - name: Set up SMS channels
         items: 
+        - name: Overview of SMS channels
+          href: sms-channel-overview.md
         - name: Configure an SMS channel using Azure Communication Services
           href: configure-sms-channel-acs.md
         - name: Configure an SMS channel for TeleSign
