@@ -120,8 +120,6 @@ Xrm.WebApi.updateRecord("msdyn_occhannelstateconfiguration", "6283ab63-5778-e911
         console.log(error.message);
     }
 );
-
-
 ```
 
 > [!NOTE]
