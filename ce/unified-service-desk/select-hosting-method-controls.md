@@ -30,7 +30,11 @@ ms.custom:
 
 - [Web hosted application](web-hosted-application.md)
 
+- [IE process (discontinued)](ie-process.md)
 
+- [Internal WPF (deprecated)](internal-wpf.md)
+
+- [Edge process (discontinued)](edge-process.md)
 
 
 ### See also  

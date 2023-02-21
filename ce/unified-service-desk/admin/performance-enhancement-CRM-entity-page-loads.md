@@ -325,6 +325,43 @@ After adding the UII option, if you set the value as **True**, the option is ena
 
 ::: moniker-end
 
+## Pool process instances for IE Process
+
+> [!Note]
+>
+> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Internet Explorer instances for hosted controls to use. Opening a hosted control by using a pooled Internet Explorer instance enhances the performance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+> [!Note]
+> - The Internet Explorer pooling feature supports only CRM entity pages hosted in the CRM Page hosted control.
+> - When you enable the pooling feature and open a CRM Page hosted control, you can see in Task Manager that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a number of Internet Explorer Process instances for hosted controls to use. 
+> - The performance of the Internet Explorer pooling feature is dependent on the resources available on the client computer.
+### Enable pooling for IE Process
+
+By default, Internet Explorer pooling is disabled. To enable pooling, you must configure the option on the **Active UII Options** page and set it to **True**.
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**. 
+
+4. In the site map, under **Advanced Settings**, select **Options**.
+
+5. On the **Active UII Options** page, select **New**.
+
+6. In the **Global Option** field, select **Others**.
+
+7. In the **Name** field, enter **InternetExplorerPooling**.
+
+8. In the **Value** field, select **True**.
+
+9. Select **Save**.
+
+   ![Enable InternetExplorerPooling option.](../../unified-service-desk/unified-interface/media/crm-itpro-usd-options-internetexplorerpooling.PNG "Enable InternetExplorerPooling option")
+
+
+
 ### See also
 
 [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
