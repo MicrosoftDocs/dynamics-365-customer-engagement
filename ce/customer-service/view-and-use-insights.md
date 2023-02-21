@@ -30,7 +30,7 @@ After you have configured your search providers, you can view the insights for y
 1. On the **Search provider details** dialog, select the **Insights** tab.
 The search provider details will be displayed.
 
-You can see up to a maximum of 100 ingestion IDs. Data displayed will be from the last 24hrs. The **Insights** tab is auto-refreshed every 30min.
+You can see up to a maximum of 100 ingestion IDs. Data displayed will be from the last 24hrs. The data on the **Insights** tab is refreshed every 30min.
 
 ## Use insights
 

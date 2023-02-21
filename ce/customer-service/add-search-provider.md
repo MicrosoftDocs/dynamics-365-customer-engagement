@@ -28,18 +28,15 @@ As administrators, you can set up a data refresh schedule to specify the refresh
 
 ## Prerequisites
 
-- Prepare the metadata mapping schema file with your article properties to be able to validate the knowledge article schema. More information: [Develop metadata mapping schema for knowledge articles (preview)](int-search-metadata-schema.md#develop-metadata-mapping-schema-for-knowledge-articles-preview)
-
 - If your website is registered using Azure Active Directory, you must use OAuth. Provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated from the AAD Application registration page. More information: [Apply authentication (preview)](apply-authentication-provider.md#apply-authentication-preview)
 
-## Actions for a first-time user
-
-If you are a first time user, you need to perform the two following steps:
+- If you are a first time user, you must:
 
 1. Provision integrated search providers
-1. Turn on the Integrated Search API trigger flow
+1. Turn on the **Integrated Search API trigger flow**
 
 ### Provision integrated search providers
+
 You must enable the integrated search provider provisioning from the Customer Service admin center.
 1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
@@ -72,8 +69,8 @@ You can now add integrated search providers.
         > [!NOTE]
         > - Provide the **lastmod** tag within the article **url** tag in the site map index.
         > - The site map and the site index files must have content-type as either application/xml or text/xml.
-    1. **Languages mapped**: Select the languages you want to specifically map for the ingestion from the dropdown list, and then select **Reset**. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language locale.
-    1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: Apply authentication.
+    1. **Language filter for ingestion**: Select the languages you want to specifically map for the ingestion from the dropdown list, and then select **Reset**. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language locale.
+    1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: [Apply authentication (preview)](apply-authentication-provider.md#apply-authentication-preview).
     1. Select **Test connection**. You will get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
     1. Select **Next**.
 1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you have saved it. For details on knowledge article schema mapping, go to [Configure knowledge article schema mapping (preview)](int-data-mapping.md#configure-knowledge-article-schema-mapping-preview).
@@ -95,7 +92,7 @@ In case of an error, save will fail and you will see a notification. You need to
 
 ## Edit search providers
 
-After you have added the search providers, you can also make changes, if required. Perform the following steps if you want to edit search providers.
+After you have added the search providers, you can also make changes, if required. The changes made will appear in the subsequent ingestion run. To edit search providers:
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The Knowledge page appears.
 1. In the **Integrated search providers** section, select **Manage**.
@@ -109,7 +106,8 @@ When you deactivate a search provider, the ingestion of newly created or updated
 > [!NOTE]
 > If you have a custom layer on Knowledge Articles Quick find view, you will need to add msdyn_integratedsearchproviderid in View columns and Find columns for articles to stop appearing in the search results.
 
-Perform the following steps if you want to deactivate search providers.
+To deactivate search providers:
+
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
 2. In the **Integrated search providers** section, select **Manage**.
 3. From the **Active search providers** list, select the active search provider that you want to deactivate and then select **Deactivate**.
@@ -120,7 +118,8 @@ The search provider that you deactivated moves to the **Inactive search provider
 
 When you activate a search provider, the ingestion of newly created or updated articles from the search provider will be initiated and articles from the search provider will start appearing in the search results.
 
-Perform the following steps if you want to deactivate search providers.
+To deactivate search providers:
+
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
 2. In the **Integrated search providers** section, select **Manage**.
 3. From the **Inactive search providers** list, select the inactive search provider that you want to
