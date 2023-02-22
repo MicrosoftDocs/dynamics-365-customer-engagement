@@ -1,7 +1,7 @@
 ---
-title: "Override save, update, and load events for deal manager editable grid | MicrosoftDocs"
-description: Events and context object for deal manager in Dynamics 365 Sales
-ms.date: 01/27/2022
+title: "Override save, update, and load events for the opportunity pipeline view editable grid | MicrosoftDocs"
+description: Events and context object for the opportunity pipeline view in Dynamics 365 Sales
+ms.date: 02/22/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,7 +11,7 @@ ms.custom:
 ---
 # Override save, update, and load events for editable grid
 
-As a developer, use this reference documentation to learn about the  events and context supported for the editable grid in deal manager. More information: [Customize the editable grid](../../../customize-deal-manager.md#customize-the-editable-grid).
+As a developer, use this reference documentation to learn about the  events and context supported for the editable grid in the opportunity pipeline view. More information: [Customize the editable grid](../../../customize-deal-manager.md#customize-the-editable-grid).
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -22,11 +22,11 @@ As a developer, use this reference documentation to learn about the  events and 
 
 
 >[!NOTE]
->The *context object* that's referred to in this topic is different from the execution context of Microsoft Dataverse. The context object is specific to deal manager and supports the advanced configurations of the editable grid.
+>The *context object* that's referred to in this topic is different from the execution context of Microsoft Dataverse. The context object is specific to the opportunity pipeline view and supports the advanced configurations of the editable grid.
 
 ## Events for the editable grid
 
-The following events are supported for the editable grid in deal manager:
+The following events are supported for the editable grid in the opportunity pipeline view:
 - [OnRowLoad](#onrowload-event)
 - [OnSave](#onsave-event)
 - [OnChange](#onchange-event)
@@ -50,7 +50,7 @@ The following are the sample scenarios that you can perform using `OnRowLoad` ha
 -	[Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
 
 >[!NOTE]
-> In the deal manager editable grid, you can group opportunity records by different entities. To handle logic based on these entities, see the samples [Always enable only a few fields based on entity](#always-enable-only-few-fields-based-on-entity) and [Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
+> In the the opportunity pipeline view editable grid, you can group opportunity records by different entities. To handle logic based on these entities, see the samples [Always enable only a few fields based on entity](#always-enable-only-few-fields-based-on-entity) and [Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
  
 
 ### OnChange event
@@ -305,7 +305,7 @@ Let's write a Javascript code to remove the second option (Warm) in the **Rating
 ```
   
 > [!NOTE]
-> The removeOption API is only available for the deal manager editable grid and side panel.
+> The removeOption API is only available for the the opportunity pipeline view editable grid and side panel.
 
 <a name=api-context-getwebapicontext></a>
 ### context.getWebApiContext()
@@ -354,7 +354,7 @@ function OnSave(executionContext){
 
 ### See also
 
-[Customize the editable grid in deal manager](../../../customize-deal-manager.md#customize-the-editable-grid)
+[Customize the editable grid in the opportunity pipeline view](../../../customize-deal-manager.md#customize-the-editable-grid)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
