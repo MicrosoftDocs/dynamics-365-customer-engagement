@@ -914,8 +914,13 @@
           href: sales-mobile/view-activities-record.md
         - name: App settings
           href: sales-mobile/app-settings.md
-        - name: Use the Sales Hub app or Sales Professional app on Dynamics 365 for phones and tablets app
-          href: use-sales-hub-on-dynamics-365-mobile.md
+        - name: Dynamics 365 for phones and tablets app
+          items:
+          - name: Use the Sales Hub app or Sales Professional app on Dynamics 365 for phones and tablets app
+            href: use-sales-hub-on-dynamics-365-mobile.md
+          - name: Actions supported in online and offline mode
+            href: Features-in-mobile-offline.md
+
 - name: Developer guide
   items:
     - name: Resources for developers
