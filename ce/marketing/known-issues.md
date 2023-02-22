@@ -112,6 +112,7 @@ This document provides important, late-breaking information about known issues a
 ## Social posting
 
 - When opening an existing social post, the old UI momentarily displays. <!--- 1927648 -->
+- You cannot create a Facebook post that contains a GIF file *and* multiple images.
 
 ## Trials
 

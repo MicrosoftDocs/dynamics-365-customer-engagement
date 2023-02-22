@@ -1,7 +1,7 @@
 ---
 title: "Prepare for analytic reporting with Power BI (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up data sources in Dynamics 365 Marketing to make them available to Power BI, and how to download and connect a Power BI template to them."
-ms.date: 07/20/2022
+ms.date: 02/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -126,5 +126,10 @@ More information: [Download and use marketing analytics templates and sample rep
 
 ![A collage of various Power BI reports.](media/pbi-gallery-overview.png)
 
+## Learn more
+
+Here are some advanced resources for this topic:
+
+- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

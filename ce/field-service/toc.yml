@@ -40,7 +40,7 @@ items:
     - name: Install Field Service
       href: install-field-service.md
     - name: Update Field Service
-      href: upgrade-field-service.md
+      href: update-field-service.md
     - name: Uninstall Field Service
       href: uninstall-field-service.md
     - name: Preview new features
