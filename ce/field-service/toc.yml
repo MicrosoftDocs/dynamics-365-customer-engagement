@@ -156,14 +156,8 @@ items:
 
 - name: Scheduling
   items:
-  - name: Universal Resource Scheduling for Field Service
+  - name: Universal Resource Scheduling for Field Service overview
     href: universal-resource-scheduling-for-field-service.md
-  - name: Types of scheduling
-    href: scheduling-capabilities.md
-  - name: Scheduling personas
-    href: scheduling-roles-personas.md
-  - name: The 5 stages of scheduling adoption
-    href: 5-stages-scheduling-adoption.md
   - name: Administration and configuration
     items:
       - name: Enable an entity for scheduling
