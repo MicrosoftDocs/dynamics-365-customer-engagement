@@ -85,7 +85,7 @@ Before you configure Teams with conversation intelligence, you must enable the T
 6.	Under **Business settings**, configure the following settings:
 - In the **Conversation tracking** section, add the keywords and competitors that your organization wishes to track during calls. Each tracked keyword and competitor can only contain up to 50 characters.
    
-           > [!NOTE]
+        > [!NOTE]
         > Adding keywords and competitors is a required global setting that will be applied to all sales calls in the organization. To enable conversation intelligence, you must set at least one global keyword and at least one global competitor. You can update these keywords and competitors later if necessary. More information: [Configure keywords and competitors in conversation content](configure-keywords-competitors.md)
 
 - In the **Automated summaries** section, leave the **Enable call summary** option selected to let your sellers view the notes after their calls. More information: [View and understand call summary page in the Sales Hub app](view-and-understand-call-summary-sales-app.md) 
@@ -146,4 +146,5 @@ If you have chosen **Automatic recording** to record all customer calls, you can
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
 
