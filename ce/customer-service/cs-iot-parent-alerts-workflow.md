@@ -22,8 +22,10 @@ Calls the `Microsoft.Dynamics.CRM.msdyn_ParentIoTAlerts` API and passes 60 for t
  This workflow is enabled by default, but you can deactivate or edit it. For example, you can modify the time span.  
   
 <a name="bkmk_Parameters"></a>   
+
 ## Parameters  
- Parameter(s) allow for data to be passed to the workflow.  
+
+Data passes to the workflow using parameter(s).  
   
 |Name|Type|Nullable|Unicode|Description|  
 |----------|----------|--------------|-------------|-----------------|  
