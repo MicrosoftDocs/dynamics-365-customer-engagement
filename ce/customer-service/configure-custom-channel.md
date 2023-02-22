@@ -71,6 +71,7 @@ With the custom messaging channel capability, you can:
 ## Configure workstream and routing rules for the custom channel
 
 1. In the site map, select **Workstreams** and [create a workstream](create-workstreams.md). Be sure to select **Messaging** for **Type** and **Custom** for **Channel**.
+
 1. Select the workstream that you created for the custom channel, and on the page that appears, select **Set up Custom** and enter the following details:
    1. On the **Custom channel** page, select the account that you created.
    2. On the **Language** page, select the required language.
