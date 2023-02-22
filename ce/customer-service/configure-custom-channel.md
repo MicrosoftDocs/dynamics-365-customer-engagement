@@ -63,7 +63,7 @@ With the custom messaging channel capability, you can:
         Perform the following steps on the Azure portal:
         1. Open your Azure bot resource on the Azure portal in another tab or window.
         2. Go to **Settings** > **Configuration**.
-        3. Paste the messaging endpoint URL in the **Messaging endpoint** field. If you're adding a Direct Line Speech channel, then be sure to select **Enable Streaming Endpoint**.
+        3. Paste the messaging endpoint URL in the **Messaging endpoint** field. 
         5. Select **Apply** and close the Azure portal.
         6. Select **Save and close**. <br>
     You've now created a custom messaging account and added one or more custom channels to the account.
