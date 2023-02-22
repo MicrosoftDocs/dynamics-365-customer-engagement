@@ -916,7 +916,7 @@
           href: sales-mobile/app-settings.md
         - name: Dynamics 365 for phones and tablets app
           items:
-          - name: Use the sales apps on Dynamics 365 for phones and tablets app
+          - name: Use the sales apps on your mobile device
             href: use-sales-hub-on-dynamics-365-mobile.md
           - name: Actions supported in online and offline mode
             href: Features-in-mobile-offline.md
