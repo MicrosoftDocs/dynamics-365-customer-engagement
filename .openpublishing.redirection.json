@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customerengagement/on-premises/admin/connect-to-imap-servers.md",
+      "redirect_url": "connect-gmail-oauth2",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/design-digital-content.md",
       "redirect_url": "real-time-marketing-email",
       "redirect_document_id": "false"
