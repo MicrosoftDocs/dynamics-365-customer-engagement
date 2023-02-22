@@ -35,7 +35,8 @@ Add a text message option for phone numbers in your custom forms to make it conv
     The **Sales phone number control** option is added to the list of controls.
 
     >[!NOTE]
-    >To set the **Sales phone number control** option as default, select for **Web**, **Phone**, and **Table**. 
+    >To set the **Sales phone number control** option as default, select for **Web**, **Phone**, and **Table**.  
+
 7. Select **OK**.
 
 8. Save and publish the form. 
