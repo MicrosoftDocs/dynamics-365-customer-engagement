@@ -17,9 +17,9 @@ The **IoT - Parent IoT Alerts** workflow links potential redundant alerts to an 
   
 Calls the `Microsoft.Dynamics.CRM.msdyn_ParentIoTAlerts` API and passes 60 for the `TimespanSeconds` parameter. The primary entity for this workflow is `msdyn_iotalert`. 
   
- This workflow is an example that ships with the thermostat sample solution. It demonstrates how to handle duplicate/redundant alerts to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], which typically occurs when a device malfunctions. This approach is a recommended best practice because unfiltered alerts can result in unwanted duplicated remedial processing. For example, it could result in redundant reset commands sent or multiple repair orders generated. These alerts can also negatively affect the performance of your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance. (The thermostat sample is coded to filter duplicate alerts so that they're not passed to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], which is also a recommended practice.)  
+ This workflow is an example that ships with the thermostat sample solution. It demonstrates how to handle duplicate/redundant alerts to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], which typically occurs when a device malfunctions. This approach is a recommended best practice because unfiltered alerts can result in duplicated remedial processing. For example, it could result in redundant reset commands sent or multiple repair orders generated. These alerts can also negatively affect the performance of your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance. (The thermostat sample is coded to filter duplicate alerts to avoid passing them to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], which is also a recommended practice.)  
   
- This workflow is enabled by default, but users can be deactivate or edit it. For example, the time span can be modified.  
+ This workflow is enabled by default, but you can deactivate or edit it. For example, you can modify the time span.  
   
 <a name="bkmk_Parameters"></a>   
 ## Parameters  
