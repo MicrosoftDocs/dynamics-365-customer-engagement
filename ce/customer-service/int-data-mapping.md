@@ -31,7 +31,7 @@ To add an integrated search provider, you need to configure the knowledge articl
 
 ## Language mapping
 
-Irrespective of the configuration method that you use, if you have selected languages to be mapped in the **Authentication and testing** section, you must maintain the mapping for language locale in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language and locale descriptors in the product and in Help](/fin-ops-core/dev-itpro/help/language-locale.md).
+Irrespective of the configuration type that you use, if you have selected languages to be mapped in the **Authentication and testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language and locale descriptors in the product and in Help](/fin-ops-core/dev-itpro/help/language-locale.md).
 
 ## Use field mapping
 
@@ -47,7 +47,7 @@ Article attributes are the knowledge article target field values. Operation type
 1. On the **Mapping** section, select the **Operation Type** and **Source Property** for the mandatory knowledge article attributes, which are **External Reference Id**, **Title**, and **Content**. Make sure that the **External Reference Id** value is unique. For more information on the various operation types, go to [Operation type mapping options](#operation-type-mapping-options).
 1. To add more article attributes, select **Add Row**, and then select the **Article Attribute**, **Operation Type**, and the **Source Property** from the respective dropdown lists.
 1. You can also delete the article attributes, by selecting **Delete**.
-1. Select **Validate mapping**.
+1. Select **Validate mapping**. The values provided are used to determine the values of the attributes against the HTML file that you uploaded.
    The entries in the mapping table and the Regex patterns are validated. There are no validations for RegexUrl.
 1. Select **Next**.
 

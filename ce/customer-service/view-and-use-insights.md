@@ -38,6 +38,3 @@ You can view the failed articles in the **Failed** column. Having the failed art
 
 1. Select the article count to view the failed articles.
 1. Select **Retry** for individual articles or select **Retry all** to run all the articles together.
-
-> [!NOTE]
-> We support data ingestion of static websites only. Websites that return scripts to load content aren't supported for data ingestion.

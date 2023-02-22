@@ -442,14 +442,16 @@
         href: set-up-search-providers.md
       - name: Add integrated search providers
         items:
-        - name: Provision, add, and manage integrated search providers
+        - name: Add and manage integrated search providers
           href: add-search-provider.md
         - name: Apply authentication for search providers
           href: apply-authentication-provider.md
-        - name: View and use insights for search providers
-          href: view-and-use-insights.md
         - name: Configure knowledge article schema mapping
           href: int-data-mapping.md
+        - name: View and use insights for search providers
+          href: view-and-use-insights.md
+        - name: Develop metadata mapping schema for knowledge articles
+          href: int-search-metadata-schema.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
       - name: Create and manage knowledge categories
@@ -520,8 +522,6 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
-      - name: Develop metadata mapping schema for knowledge articles
-        href: int-search-metadata-schema.md
   - name: Microsoft Teams for collaboration
     items:
     - name: Introduction to collaboration

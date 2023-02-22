@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365 
 ms.topic: how-to
-ms.date: 02/21/2023
+ms.date: 02/22/2023
 ms.custom: bap-template
 ---
 
@@ -24,7 +24,7 @@ ms.custom: bap-template
 
 With integrated search providers, you can configure external data providers such as enterprise websites based on the site map protocol. After configuring, the articles from the external providers will be ingested into Microsoft Dataverse, so that agents can view a consolidated list of knowledge article search results and experience a single ranking of articles across search providers.
 
-As administrators, you can set up a data refresh schedule to specify the refresh frequency of the ingestion service. The ingestion service captures new or updated articles along with any data that might have been missed during syncing and ingestion.
+As administrators, you can set up a data refresh schedule to specify the refresh frequency of the ingestion service. The ingestion service captures new or updated articles along with any data that might have been missed during ingestion.
 
 ## Prerequisites
 
@@ -64,21 +64,24 @@ You can now add integrated search providers.
     1. Select the authorization check box.
     1. Select **Next**.
 1.	In the **Authentication and testing** section, enter the following information:
-    1. **Root URL**: Provide the root URL of the website along with the protocol (http:// or https://)
-    1. **Site map URL**: Provide the sitemap URL of the source website.
+    1. **Root URL**: Provide the root URL of the website along with the protocol.
+    1. **Site map URL**: Provide the site map URL of the source website. To get the site map URL, type https://www.<site name>.com/robots.txt in the address bar.
         > [!NOTE]
-        > - Provide the **lastmod** tag within the article **url** tag in the site map index.
+        > - You must provide the **lastmod** tag within the article **url** tag.
         > - The site map and the site index files must have content-type as either application/xml or text/xml.
-    1. **Language filter for ingestion**: Select the languages you want to specifically map for the ingestion from the dropdown list, and then select **Reset**. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language locale.
+        > - Data ingestion is supported for static websites only. Websites that return scripts to load content aren't supported for data ingestion.
+    1. **Language filter for ingestion**: Select the languages you want to specifically map for the ingestion from the dropdown list. Select **Reset** to clear the language selection. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language locale.
     1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: [Apply authentication (preview)](apply-authentication-provider.md#apply-authentication-preview).
-    1. Select **Test connection**. You will get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
+    1. Select **Test connection**.
+        
+        Test connection uses the credentials provided to see whether the connection is successful. You get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
     1. Select **Next**.
 1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you have saved it. For details on knowledge article schema mapping, go to [Configure knowledge article schema mapping (preview)](int-data-mapping.md#configure-knowledge-article-schema-mapping-preview).
 1.	In the **Refresh Schedule** section, specify the refresh intervals:
     1. **Refresh frequency**:
         1. Select between **15min** to **7days** from the dropdown list. Your selection specifies the frequency at which newly created or updated articles will be ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
     1. **Lookback period**:
-        1. Select **No Lookback** or between **2h** to **8h** from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during syncing and ingestion.
+        1. Select **No Lookback** or between **2h** to **8h** from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during ingestion.
         
             For example, if you set the **Refresh frequency** at 15min and **Lookback period** at 2h, your data will be refreshed for the last 2h and 15min, in every 15min.
         1. Select **Next**.
@@ -89,6 +92,8 @@ You can now add integrated search providers.
 Your newly added search provider will now appear on the **Knowledge > All search providers** page in the Customer Service admin center.
 
 In case of an error, save will fail and you will see a notification. You need to correct the error and try saving the search provider again.
+
+For public preview, data ingestion is limited to 100,000 articles per ingestion run.
 
 ## Edit search providers
 
