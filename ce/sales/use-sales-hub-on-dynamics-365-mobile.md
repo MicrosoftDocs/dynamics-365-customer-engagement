@@ -86,7 +86,6 @@ Here are a few tasks that you can perform during your day-to-day activities by u
 
 - [Manage your to-do list](#manage-your-to-do-list)
 
-- [Work offline when you have intermittent connectivity](#work-offline-when-you-have-intermittent-connectivity)
 
 ### Plan for your day
 
@@ -118,7 +117,7 @@ Use the Dynamics 365 for phones and tablets app to compose an email within the a
 - Search for and apply a predefined template to an email. 
 
 > [!NOTE]
-> This feature isn't available in the [offline mode](#work-offline-when-you-have-intermittent-connectivity).
+> This feature isn't available in the [offline mode](Features-in-mobile-offline.md).
 
 1. You can create emails from home page grid or by using quick create.
 
