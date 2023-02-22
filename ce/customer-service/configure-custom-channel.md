@@ -1,7 +1,7 @@
 ---
-title: "Configure custom messaging channel | MicrosoftDocs"
-description: "Learn what a custom channel is and how to configure the channel, or bring your own channel, in Omnichannel for Customer Service."
-ms.date: 02/21/2022
+title: Configure custom messaging channel 
+description: Learn what a custom channel is and how to configure the channel, or bring your own channel, in Omnichannel for Customer Service.
+ms.date: 02/23/2022
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -63,8 +63,7 @@ With the custom messaging channel capability, you can:
         Perform the following steps on the Azure portal:
         1. Open your Azure bot resource on the Azure portal in another tab or window.
         2. Go to **Settings** > **Configuration**.
-        3. Paste the messaging endpoint URL in the **Messaging endpoint** field.
-        4. Select **Enable Streaming Endpoint**.
+        3. Paste the messaging endpoint URL in the **Messaging endpoint** field. If you're adding a Direct Line Speech channel, then be sure to select **Enable Streaming Endpoint**.
         5. Select **Apply** and close the Azure portal.
         6. Select **Save and close**. <br>
     You've now created a custom messaging account and added one or more custom channels to the account.
