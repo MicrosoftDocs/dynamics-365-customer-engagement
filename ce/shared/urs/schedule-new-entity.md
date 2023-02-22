@@ -37,21 +37,21 @@ Edit booking settings for entities you enabled for scheduling.
 
 1. In the **Enabled Entities** section, double-click the entity you want to edit. A new tab with the booking setup metadata for the selected entity opens.
 
-:::image type="content" source="../../field-service/media/booking-setup-metadata-record.png" alt-text="Screenshot of a booking setup metadata records with settings and attribute mapping.":::
+   :::image type="content" source="../../field-service/media/booking-setup-metadata-record.png" alt-text="Screenshot of a booking setup metadata records with settings and attribute mapping.":::
 
-| Setting | Effect | Value |
-|---|---|---|
-| Default booking duration | Defines the default duration of a new booking. | Predefined set of duration options. |
-| Default booking committed status | Sets the default status when committing a booking. | Available [booking statuses](../../field-service/set-up-booking-statuses.md). |
-| Default requirement active status | Sets the default status to use when a requirement moves into active   state. | Available requirement statuses. |
-| Default requirement canceled status | Sets the default status to use when cancelling a requirement. | Available requirement statuses. |
-| Resource availability retrieval limit | Defines the maximum number of resources returned as a result in the   scheduling assistant. | Number. |
-| Enable quick book | Use the [quick book experience](../../field-service/quick-scheduling.md) on an entity record. | Yes: Use quick book   experience.<br>     No: Use pop-out scheduling experience. |
-| Cancel bookings when moving | Cancel bookings moving the booking to a different time slot. | Yes: Cancel booking and create a   new one in the updated time slot.<br>     No: Keep booking and update start/end time. |
-| Default booking canceled status | Sets the default status to use when cancelling a booking. | Available [booking statuses](../../field-service/set-up-booking-statuses.md). |
-| Disable requirement auto creation for   bookings | Defines if the system creates a requirement for a booking. | Yes: Distable automated   requirement creation.<br>     No: Enable automated booking creation. |
-| Default requirement completed status | Sets the default status when completing a requirement. | Available requirement statuses. |
-| Available duration minimum (%) | <!-- Andrew --> | <!-- Andrew --> |
+    | Setting | Effect | Value |
+    |---|---|---|
+    | Default booking duration | Defines the default duration of a new booking. | Predefined set of duration options. |
+    | Default booking committed status | Sets the default status when committing a booking. | Available [booking statuses](../../field-service/set-up-booking-statuses.md). |
+    | Default requirement active status | Sets the default status to use when a requirement moves into active   state. | Available requirement statuses. |
+    | Default requirement canceled status | Sets the default status to use when cancelling a requirement. | Available requirement statuses. |
+    | Resource availability retrieval limit | Defines the maximum number of resources returned as a result in the   scheduling assistant. | Number. |
+    | Enable quick book | Use the [quick book experience](../../field-service/quick-scheduling.md) on an entity record. | Yes: Use quick book   experience.<br>     No: Use pop-out scheduling experience. |
+    | Cancel bookings when moving | Cancel bookings moving the booking to a different time slot. | Yes: Cancel booking and create a   new one in the updated time slot.<br>     No: Keep booking and update start/end time. |
+    | Default booking canceled status | Sets the default status to use when cancelling a booking. | Available [booking statuses](../../field-service/set-up-booking-statuses.md). |
+    | Disable requirement auto creation for   bookings | Defines if the system creates a requirement for a booking. | Yes: Distable automated   requirement creation.<br>     No: Enable automated booking creation. |
+    | Default requirement completed status | Sets the default status when completing a requirement. | Available requirement statuses. |
+    | Available duration minimum (%) | <!-- Andrew --> | <!-- Andrew --> |
 
 1. In the **Attribute Mapping** section, choose values on the target entity that match with the requirement fields.
 
