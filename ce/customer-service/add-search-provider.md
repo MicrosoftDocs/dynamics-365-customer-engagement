@@ -69,7 +69,7 @@ You can now add integrated search providers.
         > [!NOTE]
         > - You must provide the **lastmod** tag within the article **url** tag.
         > - The site map and the site index files must have content-type as either application/xml or text/xml.
-        > - Data ingestion is supported for static websites only. Websites that return scripts to load content aren't supported for data ingestion.
+        > - You must provide static websites only for data ingestion. Websites that return scripts to load content aren't supported for data ingestion.
     1. **Language filter for ingestion**: Select the languages you want to specifically map for the ingestion from the dropdown list. Select **Reset** to clear the language selection. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language locale.
     1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: [Apply authentication (preview)](apply-authentication-provider.md#apply-authentication-preview).
     1. Select **Test connection**.
@@ -89,11 +89,12 @@ You can now add integrated search providers.
     1. Select **Add provider**.
     1. Select **Save and close**.
 
-Your newly added search provider will now appear on the **Knowledge > All search providers** page in the Customer Service admin center.
+Your newly added search provider now appears on the **Knowledge > All search providers** page in the Customer Service admin center. In case of an error, save fails and a notification appears. You need to correct the error and try saving the search provider again.
 
-In case of an error, save will fail and you will see a notification. You need to correct the error and try saving the search provider again.
+> [!NOTE]
+> - For public preview, data ingestion is limited to 100,000 articles per ingestion run.
+> - Only a unique combination of root URL, site map URL, and language filters are allowed.
 
-For public preview, data ingestion is limited to 100,000 articles per ingestion run.
 
 ## Edit search providers
 
@@ -121,7 +122,7 @@ The search provider that you deactivated moves to the **Inactive search provider
 
 ## Activate search providers
 
-When you activate a search provider, the ingestion of newly created or updated articles from the search provider will be initiated and articles from the search provider will start appearing in the search results.
+When you activate a search provider, the ingestion of newly created or updated articles from the search provider is initiated and articles from the search provider starts appearing in the search results.
 
 To deactivate search providers:
 
