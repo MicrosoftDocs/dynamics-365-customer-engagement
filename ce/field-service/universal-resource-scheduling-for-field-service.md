@@ -16,7 +16,7 @@ search.app:
 
 This article describes how Dynamics 365 Field Service uses [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
-Field service organizations most frequently use Universal Resource Scheduling to book field technicians for work orders. Because work orders are generally performed onsite, Universal Resource Scheduling helps reduce travel time and costs.
+Field service organizations often book field technicians to complete work orders. Efficiently schedule resources for requirements helps reduce travel time and costs.
 
 ## Universal Resource Scheduling and Field Service work orders
 
@@ -76,6 +76,43 @@ Resource Scheduling Optimization can automatically schedule work order requireme
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Resource scheduling Optimization schedule.](media/scheduling-urs-rso-schedule.png)
 -->
+## Scheduling personas
+
+Learn about the scheduling roles that are common in a typical field service organization.
+
+## Dispatcher or scheduler
+
+The dispatcher or scheduler matches requirements with the right resources to create bookings. Common job titles for this role include service managers, customer service reps, or traditional dispatchers.
+
+Scheduler responsibilities can range between manually assigning all requirements, having the system automatically schedule all requirements and simply managing exceptions, or somewhere in between.
+
+Even with a high level of automation, schedulers often manage exceptions and help ensure optimization and automation meet business objectives.
+
+## Scheduling analyst
+
+The scheduling analyst is an emerging role as organizations adopt advanced scheduling functions like optimization, automated scheduling, and analytics. The ideal scheduling analyst has a healthy mix of scheduling, analytics, and optimization knowledge.
+
+This role owns optimization schedules, along with accompanying scope, goals, and parameters.
+
+## Main scheduling capabilities
+
+Dynamics 365 Field Service includes a broad set of scheduling capabilities.
+
+### Manual scheduling on the schedule board
+
+The schedule board plays an important role across all types of scheduling You can configure it ot meet your scheduling requirements. For basic service scheduling, match a requirement to a resource in a particular time slot on the schedule board.
+
+Manual scheduling wih the schedule board works especially well for emergency work or requirements with limited complexity.
+
+### Semi-automated scheduling with the schedule assistant
+
+The schedule assistant uses requirement details to recommend times and resources for bookings. A dispatcher then chooses the best option for the booking and assigns the requirement.
+
+You can launch the schedule assistant from work orders, requirements, or directly on the schedule board. Similar to the schedule board, it's customizable and you can also use it on other forms as needed.
+
+### Automated scheduling with the Resource Scheduling Optimization add-in
+
+Resource Scheduling Optimization is an add-in for Dynamics 365 Field Service, which requires a separate license. It includes capabilities to automatically schedule requirements and optimize resource utilization based on custom logic. The add-in plays well with manual or semi-automated scheduling scenarios.
 
 ## Enable Universal Resource Scheduling for Field Service
 
@@ -91,6 +128,16 @@ There are a few things you'll need to configure to enable Universal Resource Sch
 
   > [!TIP]
   > Work orders or requirements without location are treated as location-agnostic and the system doesn't consider the location during scheduling.
+
+## Measure scheduling effectiveness
+
+[Look at pre-built reports and relevant KPIs](reports.md) to measure how scheduling influences your defined business objectives over time.
+
+Take a staggered approach to implement scheduling processes in your organization.
+
+1. Start with [manual scheduling using the schedule board](preview-schedule-board.md) to familiarize with the system logic and establish business processes.
+1. Move to [semi-automated scheduling with the schedule assistant](schedule-assistant.md) to find resources that match the requirements faster.
+1. Consider using the R[esource Scheduling Optimization add-in](rso-overview.md) to enable more automation for your scheduling needs. Kick it off with [single resource optimization](single-resource-optimization.md) before rolling out [automation for your entire scheduling process.](rso-schedule-optimization.md)
   
 <!--
 ### Geo-locate resources
@@ -144,5 +191,7 @@ If the work order or requirement doesn't have a latitude or longitude, the locat
 ## Next steps
 
 - [Use and configure the schedule board in Dynamics 365 Field Service](configure-schedule-board.md)
+- [Overview of the schedule assistant](schedule-assistant.md)
+- [Get Resource Scheduling Optimization](rso-get-install.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
