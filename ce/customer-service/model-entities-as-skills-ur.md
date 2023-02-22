@@ -13,9 +13,6 @@ ms.custom: bap-template
 
 Use your existing entities and model them as skills to perform skill-based routing. Then, you can avoid recreating data definitions as skills in Dynamics 365. You also won't need to write classification rules to stamp skills on the incoming work items. You can manage and maintain your data in an easier manner.
 
-> [!IMPORTANT]
-> 
-
 The following examples help understand the scenarios.
 
 **Example 1**: Use an existing system entity to model as a custom skill
