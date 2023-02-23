@@ -15,7 +15,7 @@ Helps find the closest possible resource to arrive onsite more quickly.
 
 The schedule assistant will use the location of the technician's mobile device when calculating the estimated travel time to arrive at the work order location. A truck icon represents the technician's location on the schedule board map.
 
-The mobile device sends location information from the last sync to a defined threshold in the past. Define the time threshold in the **Geo Location Expires After X Minutes** field in **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameters** > **Geo Data**.
+The mobile device sends location information from the last sync to a defined threshold in the past. Define the time threshold in the [**Geo Location Expires After X Minutes** setting for scheduling parameters](../../field-service/scheduling-parameters-settings.md#geo-data).
 
 See the article on [geofencing](../../field-service/geofencing.md) to learn how to set up location auditing and sharing.
 
