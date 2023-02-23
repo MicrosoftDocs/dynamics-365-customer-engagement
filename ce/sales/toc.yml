@@ -690,6 +690,10 @@
               href: free-auto-capture.md
         - name: View message interactions with email engagement
           href: email-engagement.md
+          items:
+            - name: View and understand email history
+              href: view-understand-email-history.md
+          
         - name: How notes analysis assists you with suggestion
           href: notes-analysis.md
         - name: Manage sales literature
