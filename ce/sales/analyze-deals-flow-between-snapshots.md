@@ -10,7 +10,7 @@ ms.custom: bap-template
 ---
 # Analyze deals flow between forecast snapshots
 
-As a sales manager, analyzing the deals flow between snapshots helps you identify deals that are moving in the right direction and those that need attention to meet your sales forecast. You can drill in to specific deals that have contributed to the increase or decrease in your forecast commitment. This analysis enables you to follow up with your teams and coach them on how to improve your forecast accuracy.
+As a sales manager, analyzing the deals flow between snapshots helps you identify deals that are moving in the right direction and those deals that need attention to meet your sales forecast. You can drill in to specific deals that have contributed to the increase or decrease in your forecast commitment. This analysis enables you to follow up with your teams and coach them on how to improve your forecast accuracy.
 
 ## License and role requirements
 
@@ -46,7 +46,7 @@ Verify that at least two snapshots are available for the forecast. More informat
    
    :::image type="content" source="media/predictive-forecasting-deal-flow-chart-between-dates.png" alt-text="Deals flow between two snapshots" lightbox="media/predictive-forecasting-deal-flow-chart-between-dates.png":::  
 
-    The following categories in the deal flow are calculated based on the movement of deals. Let's understand them with an example scenario. Let's say your forecast is for a fiscal year with 4 quarters – starting from January-March(Q1), April-June(Q2), July-September(Q3), October-December(Q4). Let's compare the snapshots of July 1<sup>st</sup> and August 31<sup>st</sup>.
+    The following categories in the deal flow are calculated based on the movement of deals. Let's understand them with an example scenario. Let's say your forecast is for a fiscal year with four quarters – starting from January-March(Q1), April-June(Q2), July-September(Q3), October-December(Q4). Let's compare the snapshots of July 1 and August 31.
 
     | **Forecast Category** | **Description** | **Example** |
     |-------------------------|-------------------------|-------------------------|
