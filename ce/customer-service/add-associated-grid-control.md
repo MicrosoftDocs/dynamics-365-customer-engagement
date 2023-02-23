@@ -41,3 +41,4 @@ If the control has to display related records for tables and views configured in
 1. Open the form where you've added the **Associated Grid Control**.
 1.  Specify this is as the **Relationship Name** in **Edit Associated Grid Control**.
 
+
