@@ -2,7 +2,7 @@
 metadata:
   title: Frequently asked questions about Dynamics 365 Sales
   description: Find answers to frequently asked questions about Dynamics 365 Sales Enterprise.
-  ms.date: 02/07/2023
+  ms.date: 02/23/2023
   ms.topic: article
   author: udaykirang
   ms.author: udag
@@ -38,7 +38,7 @@ sections:
   - name: Entity - Activity
     questions:
       - question: I'm redirected to the default tab when I save an appointment from a non-default tab. Why?
-        answer: This is by design. If the SchedulingEngine feature is enabled for appointments, you'll be redirected to the default tab, when you save the appointment from a non-default tab.
+        answer: This is by design. If the SchedulingEngine feature is enabled for appointments, you are redirected to the default tab, when you save the appointment from a non-default tab.
 
       - question: Why are appointments saved automatically even when there's a custom script to stop automatic saving?
         answer: This is by design. If the SchedulingEngine feature is enabled for appointments, the system overrides any custom script and saves the appointments automatically.
@@ -76,7 +76,7 @@ sections:
     questions:
       - question: Where is the deal manager workspace?
         answer: |
-          The deal manager workspace has been replaced by the [opportunity pipeline view](use-opportunity-pipeline-view.md). Any existing deal manager links or bookmarks will be redirected to the **My Open Opportunities** view. Select **View as** > **Pipeline view** to open the opportunity pipeline view.
+          The deal manager workspace has been replaced by the [opportunity pipeline view](use-opportunity-pipeline-view.md). Any existing deal manager links or bookmarks are redirected to the **My Open Opportunities** view. Select **View as** > **Pipeline view** to open the opportunity pipeline view.
       - question: Are there any differences between the opportunity pipeline view and the deal manager workspace?
         answer: |
           The deal manager workspace has been replaced by the [opportunity pipeline view](use-opportunity-pipeline-view.md). If you've been using the deal manager workspace, you need to be aware of the following changes:
@@ -283,7 +283,32 @@ sections:
         answer: |
           Currently, you can't set the focused view as your default view. 
 
- 
+  - name: Text message (SMS​)
+    questions:
+      - question: Which service providers are supported?
+        answer: |
+          Currently, only TeleSign, Twilio, and Infobip are supported as SMS channel providers.​
+
+      - question: Can a same number be used across multiple Dynamics 365 applications such as, Sales and Marketing?​
+        answer: |
+          No. The number must be unique for each application though same channel provider can be used across applications.​          
+
+      - question: Can I add my team mate to an ongoing SMS conversation with my customer?​
+        answer: |
+          No. Currently, group SMS isn't supported as part of the SMS capability. However, a number can be assigned to a team, which can be used by the team to collaborate with a customer. All the conversations are added to the entity timeline.​           
+
+      - question: Can I see if my customer has read the message or the message content?​
+        answer: |
+          ​No. Currently, you can only see if the message is delivered to the customer.          
+
+      - question: Can I send or receive SMS through my mobile device?​
+        answer: |
+          ​No. You can't send or receive SMS through your mobile device.​          
+
+      - question: Who can see an incoming SMS notification if the number is assigned to a team?​
+        answer: |
+          In this case, all the users see the notification and can choose to respond to the customer. If a message comes from an unknown number, only the team admin gets the notification. Team members can view the message only in the **Activities** page.          
+
 
           [!INCLUDE[footer-include](../includes/footer-banner.md)]
           
