@@ -51,16 +51,16 @@ Edit booking settings for entities you enabled for scheduling.
     | Default booking canceled status | Sets the default value to use when a booking moves into *Canceled* state. | Available [booking statuses](../../field-service/set-up-booking-statuses.md). |
     | Disable requirement auto creation for   bookings | Defines if the system creates a requirement for a booking. | Yes: Disable automated requirement creation.<br>     No: Enable automated booking creation. |
     | Default requirement completed status | Sets the default value to use when a requirement moves into *Completed* state. | Available requirement statuses. |
-    | Available duration minimum (%) | Defines the availability of a resource in relation to the booking duration. For example, if the value is 50 and the booking takes four hours, the system only considers resources for the job that have at least two hours available. | 0 to 100. |
+    | Available duration minimum (%) | Defines the availability of a resource in relation to the booking duration. For example, if the value is 50 and the booking takes four hours. The system only considers resources for the job that have at least two hours available. | 0 to 100. |
 
 1. In the **Attribute Mapping** section, choose values on the target entity that match with the requirement fields.
 
 1. **Save** your changes.
   
-You have successfully enabled an entity for scheduling when:
+You've successfully enabled an entity for scheduling when:
 
 - *Resource Requirements* shows as a related entity. Create them manually or with a custom workflow. <!-- needs a link to a new article about creating resource requirements --> 
-- The **Book** option appears in the top ribbon of an entity record.
+- The **Book** option appears on the entity record.
 
 > [!Note]
 > As part of the Field Service solution, requirements are automatically created when work orders are created.
