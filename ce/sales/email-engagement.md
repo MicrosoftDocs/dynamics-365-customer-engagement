@@ -47,27 +47,7 @@ While the email engagement feature is disabled, these features will still appear
 > [!NOTE]
 > When the email client automatically scans email for security reasons, the count for email open and link clicks can be higher than expected.
 
-## Get interaction history for email  
- Usually when you send an email, you'll never know if it was opened or read unless the recipient chooses to write back to you. That's because the email system was created to simulate traditional mail, and was  not designed with response tracking in mind. [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] uses special techniques to work around this limitation and provide the following message-following features:  
-  
-- **Find out when your message was opened**: When you send a followed email message from [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)], the system automatically generates  a uniquely named, transparent, one-pixel GIF and adds it as a linked image to the message. This invisible GIF, and all the other images that you add to the message, are stored on your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and are first loaded from the server when somebody opens the message (and chooses to download its images). When a unique GIF is requested,[!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] registers that the associated message was opened, and notes the device type. We recommend that you always include other images in your message because that will help motivate recipients to download the images (you won't know they open it if images aren't loaded).  
-  
-- **Find out when each link was clicked**: When you send a followed email message from [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)], the system automatically replaces each of its hyperlinks with a unique redirect link that points to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server. Each redirect link includes an ID that uniquely identifies both the message that contains it and the URL of the original link target. When the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server receives the link request, it logs the click and then redirects the click to its original address so that the recipient still gets the correct information with little or no delay.  
-  
-- **Find out when each attachment was opened**: When you add a followed attachment, the file isn't attached directly as with a standard email. Instead, it gets stored on the [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] share used by your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and added as a link to the message. As with followed links, when a recipient clicks to download the attachment, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server notes the click and the time. You can mix both followed and unfollowed attachments in a single email, which can be important if you are sending sensitive files that you don't want to save on [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)]. Many of your recipients may actually prefer to receive attachments as links rather than files because that means that  your messages will take up much less room in their inbox.  
-  
-Using this information, [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] shows you the full interaction history for any message, and calculates key performance indicators (KPIs). 
-
-> [!NOTE]
-> The actions that are performed on email are stored in Microsoft Azure Storage. This storage is unique for each organization. If an organization is restored to another organization, the history of the actions that are performed on email of previous organization will not be displayed in the restored organization.
-
-> [!IMPORTANT]
->  You should treat all email interaction data as approximations. The system can only register an email-open event if the recipient also downloads the message's images (including the invisible GIF), so the actual number of opens could be larger than the number recorded in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. Similarly, if images are cached (which is typical for web-based email clients), then additional opens may not get reported to [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)].  
-> 
->  It  can therefore be a good idea to include visible images in your followed email messages (such as a company logo or illustration) to encourage recipients to download the images.  
-  
 <a name="CreateAndSend"></a>   
-
 ## Create and send followed email message  
   
 > [!NOTE]
@@ -95,7 +75,6 @@ When email engagement is enabled for your site, all of the controls required to 
 >  The **Email** page doesn't include any features to help you add a link to your message, but if you are using [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] then you can do it by selecting  the text you want to add the link to, and then pressing Ctrl-K to open a window where you can define the link target.  
   
 <a name="NewMessage"></a>   
-
 ### Create a new message  
  You can activate email engagement features for any email that you send from within [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The main record for the message (typically the record are looking at when you create it), is set as its **Regarding** value, though the various to, from, and copy-to email addresses can also affect the places where you are able to see the message and where its KPIs may apply.  
   
@@ -111,7 +90,6 @@ When email engagement is enabled for your site, all of the controls required to 
 
 
 <a name="EmailTemplates"></a>   
-
 ### Choose and apply the most effective email template  
  Email templates are standard messages that you send often, such as introductions, confirmations, thank-you messages, and reminders. They can include dynamic values (such as sender or recipient data). They give you a quick start when you're writing common messages.  
   
@@ -136,7 +114,6 @@ When email engagement is enabled for your site, all of the controls required to 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create templates for email](/dynamics365/customer-engagement/admin/create-templates-email)  
   
 <a name="EnableTrackingOnMessages"></a>   
-
 ### Enable or disable following for individual messages  
  Followed emails can tell you when a recipient opened the message, replied to the message, opened an attachment, or clicked a link.  
   
@@ -154,7 +131,6 @@ When email engagement is enabled for your site, all of the controls required to 
 >  Within about 15 minutes of the first time a followed message is registered as opened, the system notifies you by creating a new action card for the relationship assistant. The card provides links to the message, related records, and action buttons to generate a call activity, snooze the alert, or dismiss it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Guide customer communications with assistant](assistant.md).  
   
 <a name="FollowedAttachments"></a>   
-
 ### Add followed attachments  
   
 > [!NOTE]
@@ -279,55 +255,6 @@ You can use this feature both with followed and unfollowed messages.
   
     When the reminder gets triggered, the system notifies you by creating a new action card for the Relationship Assistant. The card will be given high priority, so you should see it right away. The card provides links to the message, related records, and action buttons to dismiss or snooze the alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Guide customer communications with assistant](assistant.md).  
   
-<a name="ViewEngagementHistory"></a>   
-
-## View email engagement history  
-
- The current status, interaction statistics, and KPIs for followed email messages are available throughout [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)], where they are gathered and displayed for each record where they are relevant. The following sections highlight the various places where you can see this information in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)].  
-  
-<a name="COLAhistory"></a>   
-
-### Email history in the Activities column  
-
- After you have saved or sent a message, you can find it listed  in the **Activities** list for its **Regarding** record or, in some cases, another related record. Usually you'll find the message listed in the same record that you were viewing when you wrote it.  
-  
- ![Email messages in the Activities list](media/email-messages-activities-list.png "Email messages in the Activities list")  
-  
- Followed messages show their current interaction status (such as "scheduled to send", "not yet opened", or "Last opened yesterday") right on their tile in the **Activities** list. Use the buttons in the upper-right corner of an email tile to expand its content and interaction history right in the list, or to open the full message page.  
-  
-### Email KPIs in the emails list  
- You can view a list of all  emails that you (and possibly others) have sent from [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] by doing the following:  
-  
-1.  Go to **Sales** > **Activities**.  
-  
-2.  You now see the list of activities that you chose the last time you were here. To view a list of followed emails, open the drop-down list at the top of the page, and then choose **Email** > **All Followed Emails** (or some other email view that you find useful).  
-  
-3.  You now see a list of emails of the type you selected. If the list includes followed emails, then you can read and sort by columns for open, attachment views, link clicks, and reply counts. You can also open the full details for any message by selecting its **Subject** in the list.  
-  
-    ![Email KPIs in an email list](media/email-kpi-email-list.png "Email KPIs in an email list")  
-  
-<a name="MessageHistory"></a>   
-
-### Message details  
-
- Open the details page for a delivered message by selecting its subject in an **Activities** or **Emails** list. This brings you to a read-only view of your complete message, with the **Email Engagement** section on the right side of the page that shows the message interaction history and key performance indicators (KPIs).  
-  
- ![Email message recipient activity](media/email-message-recipient-activity.png "Email message recipient activity")  
-  
- The KPIs, shown at the top of the time line, show the total opens, attachment views, clicks, and replies that have been recorded for the message. The time line shows a symbol for each interaction event (newest on top) and includes a few details about each of them.  
-  
-<a name="TemplateList"></a>   
-
-### Template results and recommendations in the template list  
-
- You can see email template results and recommendations for all of the templates defined in your system by doing the following:  
-  
-1.  Go to **Settings** > **Business** > **Templates**, and then choose **Email Templates**.  
-  
-2.  You now see the list of templates, which includes columns that show the **Reply Rate**, **Open Rate**, and**Sent Email Count** results for each template (where available), plus their **Recommended** status.  
-  
-    ![Email template list](media/email-template-list.png "Email template list")  
-  
    
 ## Set individuals' privacy and preferences  
 
@@ -351,7 +278,7 @@ To view the tracking preferences for all of the recipients of a message, select 
   
 ### See also  
 
-[Enable email engagement](configure-email-engagement.md)
-
+[Enable email engagement](configure-email-engagement.md)  
+[Create and send followed email message](create-send-followed-email-message.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
