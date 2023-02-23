@@ -16,7 +16,7 @@ The **Associated Grid Control** control helps you display the details of a table
 
 If you've added  **Associated Grid Control** to a form, here's what the user sees when the form loads:
 
-    :::image type="content" source="media/assosciated-grid-control-runtime.png" alt-text="Redirect link to tab" lightbox="media/assosciated-grid-control-runtime.png":::
+:::image type="content" source="media/assosciated-grid-control-runtime.png" alt-text="Redirect link to tab" lightbox="media/assosciated-grid-control-runtime.png":::
 
 ## Add the component and configure the subgrid
 
