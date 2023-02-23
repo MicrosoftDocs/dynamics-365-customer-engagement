@@ -1,7 +1,7 @@
 ---
 title: "Manage snapshots for a forecast"
 description: "Use snapshots to automatically take a snippet of forecast data at a moment in time and compare how data is changed over time."
-ms.date: 10/26/2021
+ms.date: 02/23/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -19,6 +19,7 @@ Snapshots are taken automatically each day and while configuring the forecasts y
 >- You can enable or disable snapshots any time while a forecast active. When disabled, the previously taken snapshots are still available.  
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -29,15 +30,11 @@ Snapshots are taken automatically each day and while configuring the forecasts y
 
 1.	While configuring a forecast, the **Snapshots** step is displayed. 
 
-    More information: [Configure forecasts by using a custom rollup entity](/dynamics365/sales-enterprise/configure-forecast-using-custom-rollup-entity)
+    More information: [Configure forecasts in your organization](configure-forecast.md)
  
-    > [!div class="mx-imgBorder"]
-    > ![Snapshot configuration step](media/predictive-forecasting-snapshot-configuration-step.png "Snapshot configuration step") 
+    :::image type="content" source="media/predictive-forecasting-snapshot-configuration-step.png" alt-text="Enable snapshot step in forecast configuration":::
 
 2.	Set the **Daily snapshots** toggle to **Enabled**. After the forecast is active, snapshots are automatically taken daily. The initial snapshot might take a few hours to generate.
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable daily snapshots](media/predictive-forecasting-snapshot-enable-daily.png "Enable daily snapshots") 
 
     >[!NOTE]
     >-	For a forecast that's in progress, the snapshots are taken from the date the option is enabled. 

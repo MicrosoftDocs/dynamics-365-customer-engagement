@@ -24,7 +24,7 @@ An analysis of the deals between two snapshots helps sales managers analyze the 
 
 **Prerequisite**
 
-- Verify that at least two snapshots have been created for the forecast. More information: [View snapshots](view-snapshots.md)  
+Verify that at least two snapshots have been created for the forecast. More information: [View snapshots](view-snapshots.md)  
 
 **View and understand a deals flow**  
 
@@ -32,7 +32,7 @@ An analysis of the deals between two snapshots helps sales managers analyze the 
 
 2. Select a forecast, and then choose a forecast period for the forecast.  
 
-3. Select the **Flow** tab.  
+3. Select the **Flow** tab.  The tab is available only if you have [enabled snapshots](manage-snapshots-forecast.md).
 
    A sankey chart is displayed with a comparison between the two latest snapshots for the forecast. The order of forecast categories depends on how the forecast columns are arranged in the grid view.  
 
