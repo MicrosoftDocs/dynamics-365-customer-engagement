@@ -1,6 +1,6 @@
 ---
 title: "Supported email synchronization in Dynamics 365 Customer Engagement (on-premises)"
-description: "Learn which scenarios are and aren't supported by server-side synchronization. For most situations that aren't, you can use the Dynamics CRM Email Router."
+description: This article explains which scenarios are supported by server-side synchronization.
 ms.custom: 
 ms.date: 05/19/2020
 ms.reviewer: 
@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Supported email service configurations for server-side synchronization
 
-Depending on your Dynamics 365 Customer Engagement (on-premises) installation, you may be deciding whether to use server-side synchronization or the Email Router/[!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization. This following table lists what is supported by server-side synchronization for each type of installation. Later in this topic, you can read about the scenarios that aren’t supported by server-side synchronization.  
+Depending on your Dynamics 365 Customer Engagement (on-premises) installation, you may be deciding whether to use server-side synchronization or the Email Router/[!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization. This following table lists email systems that server-side synchronization for each type of installation supports. Later in this topic, you can read about the scenarios that server-side synchronization doesn't support.  
   
 > [!IMPORTANT]
 > - The information here includes the POP3/SMTP systems supported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. Although other POP3/SMTP systems might work with Customer Engagement (on-premises), those systems were not tested by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] and are not supported.  
@@ -55,7 +55,7 @@ Depending on your Dynamics 365 Customer Engagement (on-premises) installation, y
   
 - Server-side synchronization in Customer Engagement (on-premises) deployment that is configured for FIPS 140-2 compliancy, requires a [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP email server that is also FIPS 140-2 compliant. Some email servers are not FIPS 140-2 compliant, such as MSN, Outlook.com, or Windows Live Mail.  
 
-- Multi-factor authentication isn’t supported for Customer Engagement (on-premises) to Exchange Online.
+- The Customer Engagement (on-premises) to Exchange Online scenario doesn't support multi-factor authentication.
   
 For most situations not supported by server-side synchronization, you can use the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system](../admin/integrate-synchronize-your-email-system.md)  
   
