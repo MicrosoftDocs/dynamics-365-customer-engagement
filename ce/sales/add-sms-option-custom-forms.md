@@ -40,7 +40,9 @@ Add a text message option for phone numbers in your custom forms to make it conv
 7. Select **OK**.
 
 8. Save and publish the form. 
-    The customizations are published and the text message option is available for the phone number you have selected in your custom form.
+    The customizations are published and the text message option is available for the phone number you've selected in your custom form. The following image shows an example of including the text message option in the **Business Phone** section of the **Information** form for contacts.
+
+    :::image type="content" source="media/sms-add-option-custom-forms.png" alt-text="Screenshot of the text message option added to the business phone in information form.":::
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
