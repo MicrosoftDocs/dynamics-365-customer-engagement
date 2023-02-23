@@ -15,19 +15,26 @@ This article lists the customizations that you can and can't use with the **Conv
 
 ## Customizations supported by the Conversation entity
 
+
+| Components  | Add new?   | Edit existing?    |
+|------------ | ---------  | ----------------  |
+| Form        |   No       |   Yes             |
+| View        |  Yes       |  No               |
+| Chart       |  Yes       |  No               |
+| Field       |  Yes       |   No, but you can change some properties of `msdyn_title` and `msdyn_thirdpartyconversations`            |
+| Dashboard   |  No        |  No               |
+||||
+
 You can:
-- Create business rules on the entity.
-- Create new custom fields, views, and charts.
-- Associate a conversation with a lead or opportunity, or any other entity that's enabled for activity.
+- Create business rules.
+- Associate a conversation with a lead or opportunity, or any other entity that's enabled for unified routing
 
 You can't:
-- Add new forms.
-- Edit existing views or fields. You can change some properties of `msdyn_title` and `msdyn_thirdpartyconversations`.
-- Add a lookup field (a many-to-one relationship or a many-to-many relationship).
+- Add a lookup field for a many-to-many relationship. 
 - Use custom fields in unified routing or assignment.
 
 We recommend that:
-- You set a default value to system-required fields, if you need to add such fields to the **Conversation** entity.
+- You don't use system-required fields. You can set a default value via a sync or async plug-in, but ensure that flush or insert calls don't fail after you set the default value.
 - You don't create alternate keys. 
 
 ## Customizations supported by the Conversation form
@@ -35,6 +42,8 @@ We recommend that:
 You can:
 - Add subgrids on the Conversation form and view data for related entities in the subgrid.
 - Load the **Customer summary** form as an application tab instead of an anchor tab in a session.
+
+
 - Edit existing forms in the following ways:
     - Add custom fields and allow save of custom fields on the form.
     - Add custom controls. However, we recommend that you don't use custom controls to update any out-of-the-box field on the **Conversation** form.  Omnichannel for Customer Service overwrites updates when the conversation ends. 
