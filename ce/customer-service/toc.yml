@@ -241,7 +241,9 @@
       - name: View diagnostics for unified routing
         href: unified-routing-diagnostics.md
       - name: Manage routing diagnostics data
-        href: manage-routing-diagnostics-data.md  
+        href: manage-routing-diagnostics-data.md
+      - name: Use best practices to set up unified routing
+        href: unified-routing-best-practices.md
     - name: Supervisor experience
       items:
       - name: View historical analytics reports
@@ -260,7 +262,7 @@
         href: manage-skills.md
     - name: Developer experience
       items: 
-      - name: How unified routing affects queue items and their APIs
+      - name: Understand how unified routing affects queue items and live work items for routed records
         href: unified-routing-impact-on-APIs.md
       - name: Add a skill control for routed records
         href: add-skill-control.md

@@ -36,7 +36,10 @@ Queues can be useful in:
   
 - Sorting tasks by type, or by people assigned to complete them.  
   
-Use queues to categorize and prioritize your activities and cases. You can categorize based on:  
+## Types of queues
+By default, a queue is created for each user and team in Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
+
+You can use queues to prioritize your activities and cases, and categorize them based on:  
   
 - products or services  
   
@@ -46,25 +49,16 @@ Use queues to categorize and prioritize your activities and cases. You can categ
   
 - geography  
 
-You can create both basic and advanced queues (for unified routing). For information about creating advanced queues, see [Create and manage queues for unified routing](queues-omnichannel.md).
+You can create both basic and advanced queues (for unified routing). More information: [Create and manage queues for unified routing](queues-omnichannel.md)
 
-By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
+Based on who can view the queues, you can create:
+
+- **Public queues** To let everyone in the organization view the queue and its work items
+- **Private queues** To let a small group of members view the queue and its work items. Private queues display work items for members of that queue and help remove clutter from other users' views. Private queues don't restrict access to the records they contain. Therefore, to prevent unauthorized access to sensitive data, ensure that you set up security models based on your organization needs. More information: [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md)
 
 > [!NOTE]
-> You must manually add new Azure AD (Active Directory) team members to the team's default queue.
-  
-## Types of queues
-
-You can create the following two types of queues:
-
-- **Private queues** For limited set of members to help those members easily view the work items in that queue. Private queues streamline queue items for the members of that queue only and help to remove clutter from other users' views.
-- **Public queues** To let everyone in the organization view the queue and all of its items.
-
-> [!IMPORTANT]
->
-> - Private queues are a great way to organize cases, but they don't restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options available in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
-> - In private queues, you must manually add new team members as members of the queue.
-> - If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you'll not be able to create a basic queue in Customer Service Hub.
+> - You must manually add new team members as members of private queues.
+> - You must manually add new Azure AD (Active Directory) team members to the team's default queue.
 
 ## Prerequisites
 
