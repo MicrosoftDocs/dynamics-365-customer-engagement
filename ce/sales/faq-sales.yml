@@ -307,7 +307,7 @@ sections:
 
       - question: Who can see an incoming SMS notification if the number is assigned to a team?​
         answer: |
-          In this case, all the users see the notification and can choose to respond to the customer. In case, the message comes from an unknown number, the team admin sees the notification. However, the users are able to view the message in the **Activities** page.​          
+          In this case, all the users see the notification and can choose to respond to the customer. If a message comes from an unknown number, only the team admin gets the notification. Team members can view the message only in the **Activities** page.          
 
 
           [!INCLUDE[footer-include](../includes/footer-banner.md)]

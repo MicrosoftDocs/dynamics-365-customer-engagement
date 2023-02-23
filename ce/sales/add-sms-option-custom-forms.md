@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Add text message option to custom forms
 
-Add a text message option for phone numbers in your custom forms to make it convenient for sellers to use. 
+Add the text messaging to phone number fields in custom forms, allowing sellers to send text messages directly from within the form.
 
 ## License and role requirements
 
@@ -25,24 +25,21 @@ Add a text message option for phone numbers in your custom forms to make it conv
 
 2. Under **Components** > **Entities**, choose an entity and then select **Forms**.
 
-3. From the list of forms, select the form for which you want to add the text message option. 
+3. From the list of forms, select the form to which you want to add the text message option. 
 
 4. Under the **Summary** section, double-click the phone field such as, **Business phone** or **Mobile phone**. 
 
 5. In the **Field Properties** dialog, go to the **Controls** tab and the select **Add control**.
 
-6. In the Add Control dialog, select and add the **Sales phone number control** option.  
+6. In the **Add Control** dialog, select and add the **Sales phone number control** option.  
     The **Sales phone number control** option is added to the list of controls.
 
-    >[!NOTE]
-    >To set the **Sales phone number control** option as default, select for **Web**, **Phone**, and **Table**.  
+7. Select the devices (**Web**, **Tablet**, and **Phone**) you want the control to appear on.
 
-7. Select **OK**.
+8. Save and publish the form.  
+    The customizations are published. The text message option is available for the phone number field you've selected in your custom form. The following image shows an example of including the text message option in the **Business Phone** section of the **Information** form for contacts.
 
-8. Save and publish the form. 
-    The customizations are published and the text message option is available for the phone number you've selected in your custom form. The following image shows an example of including the text message option in the **Business Phone** section of the **Information** form for contacts.
-
-    :::image type="content" source="media/sms-add-option-custom-forms.png" alt-text="Screenshot of the text message option added to the business phone in information form.":::
+    :::image type="content" source="media/sms-add-option-custom-forms.png" alt-text="Screenshot of the text message option added to the business phone in the information form.":::
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
