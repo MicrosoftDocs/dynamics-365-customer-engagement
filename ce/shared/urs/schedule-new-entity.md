@@ -62,8 +62,8 @@ You've successfully enabled an entity for scheduling when:
 - *Resource Requirements* shows as a related entity. Create them manually or with a custom workflow. <!-- needs a link to a new article about creating resource requirements --> 
 - The **Book** option appears on the entity record.
 
-> [!Note]
-> As part of the Field Service solution, requirements are automatically created when work orders are created.
+> [!NOTE]
+> Field Service creates requirements automatically based on work orders.
 
 
 <!-- section below is a customization story for the schedule board. needs to live in SB config doc 
