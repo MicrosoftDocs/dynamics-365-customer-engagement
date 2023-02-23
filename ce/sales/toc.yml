@@ -463,6 +463,8 @@
               href: configure-sms-provider.md      
             - name: Edit phone numbers
               href: edit-phone-numbers.md
+            - name: Add text message option to custom forms
+              href: add-sms-option-custom-forms.md              
         - name: Manage Campaigns
           href: configure-inapp-marketing.md
     - name: Guided selling
