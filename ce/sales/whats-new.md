@@ -1,7 +1,7 @@
 ---
 title: "What's new in Dynamics 365 Sales"
 description: "Learn about what's new in the latest release of Dynamics 365 Sales."
-ms.date: 09/09/2022
+ms.date: 02/23/2022
 ms.topic: article
 ms.assetid: 6b697179-a0f0-4aee-b636-6cb7426212ec
 author: udaykirang
