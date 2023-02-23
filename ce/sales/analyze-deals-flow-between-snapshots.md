@@ -10,7 +10,7 @@ ms.custom: bap-template
 ---
 # Analyze deals flow between forecast snapshots
 
-An analysis of the deals between two snapshots helps sales managers analyze the deal movement across different forecast categories,  and drill in to specific deals that have contributed to the increase or decrease in forecast commitment. This analysis enables them to follow up with their teams and coach their teams on how to improve their forecast accuracy.
+As a sales manager, analyzing the deals flow between snapshots helps you identify deals that are moving in the right direction and those that need attention to meet your sales forecast. You can drill in to specific deals that have contributed to the increase or decrease in your forecast commitment. This analysis enables you to follow up with your teams and coach them on how to improve your forecast accuracy.
 
 ## License and role requirements
 
@@ -24,11 +24,11 @@ An analysis of the deals between two snapshots helps sales managers analyze the 
 
 **Prerequisite**
 
-Verify that at least two snapshots have been created for the forecast. More information: [View snapshots](view-snapshots.md)  
+Verify that at least two snapshots are available for the forecast. More information: [View snapshots](view-snapshots.md)  
 
 **View and understand a deals flow**  
 
-1. Sign in to the **Sales Hub** app and go to **Performance** > **Forecasts**.  
+1. In the **Sales Hub** app, go to **Performance** > **Forecasts**.  
 
 2. Select a forecast, and then choose a forecast period for the forecast.  
 
