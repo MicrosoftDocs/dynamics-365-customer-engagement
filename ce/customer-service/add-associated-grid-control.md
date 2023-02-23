@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Add and configure Associated Grid Control component on a form
 
-The **Associated Grid Control** control helps you display additional details linked to a table record as subgrids. This helps users get a better understanding of their customer interactions, and deliver more personalized service in an efficient and effective manner. Using this control, you can configure up to four subgrids to be displayed on a form.
+The **Associated Grid Control** control helps you display details of a table record as subgrids. This helps users get a better understanding of their customer interactions, and deliver more personalized service in an efficient and effective manner. If you add this control to a form, you can configure up to four subgrids to display the relevant details.
 
 If you've added  **Associated Grid Control** to a form, here's what the user sees when the form loads:
 
