@@ -24,35 +24,6 @@ Define a time zone on the requirement to help dispatchers view schedule assistan
 
 When you book the requirement, the start times of the schedule results will reflect the selected time zone.
 
-<!-- do we want to keep this information for RSO and move it to their docs?
-
-## Scenario 3: Automated scheduling with time parameters (RSO)
-
-In our next scenario, an inspection work order needs to automatically be scheduled in the afternoon within a date range.
-
-To automatically schedule work orders and other entities, you must use the Resource Scheduling Optimization app (RSO). Unlike the schedule assistant and the schedule board, RSO will consider all 3 time parameters when automatically booking work orders to resources.
-
-First, on the work order, set a date range in the **Date Window Start** and **Date Window End**. 
-
-Next, set a **Time Window Start** and **Time Window End** that represents a time of day the work order should be automatically scheduled.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a work order set to Active for fifty seven minutes.](../../field-service/media/scheduling-time-constraint-work-order-rso-window.png)
-
-> [!Note]
-> For this scenario, we recommend using **Date Window** along with **Time Window** rather than **Time Promised**, as **Time Promised** will take priority over the other parameters during optimization.
-
-When setting up RSO, make sure **Scheduling Windows** is a constraint in the optimization goal you are running RSO with. For more information, see the [topic on RSO configuration](../../field-service/rso-configuration.md). If you're new to RSO, see the [RSO quickstart guide](../../field-service/rso-quickstart.md).
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a scheduling optimization goal, highlighting the scheduling windows constraint.](../../field-service/media/scheduling-time-constraint-work-order-rso-goal.png)
-
-After running RSO, you'll see the results on the schedule board. In our example, the work order could have been scheduled for either 9/12 or 9/13 based on the date window of the work order; whichever day it is scheduled, it should be scheduled in the afternoon between 12:00 PM and 5:00 PM. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board, with an arrow pointing to the correct time.](../../field-service/media/scheduling-time-constraint-work-order-rso-schedule-board.png) -->
-
 ## Customize start and end date fields
 
 You can customize which fields serve as the start and end dates for the related requirement in the booking setup metadata. In the Resources area, under **Administration**, select **Booking Setup Metadata**. Select the entity name and go to the **Attribute Mapping** section to choose any date/time field you want to use.

@@ -20,7 +20,10 @@ We recommended creating pools that use the same resource type. If you want to cr
 
 1. Enter a **Name** and choose a **Time Zone**.
 
-1. On the **Scheduling** tab, choose a **Start Location** and **End Location**. Choose **Organizational Unit Address** to represent a physical location where the pool works, or **Location Agnostic** for a pool of resources work remotely. <!-- resource address is available in the list--> Resource address isn't an option, as pools are currently excluded from **Onsite** scheduling.
+1. On the **Scheduling** tab, choose a **Start Location** and **End Location**. Choose **Organizational Unit Address** to represent a physical location where the pool works, or **Location Agnostic** for a pool of resources work remotely.
+  
+  > [!NOTE]
+  > Don't choose the *Resource address* option.
 
 1. Choose an option for **Derive Capacity From Group Members**:
    - **Yes**: Pool capacity changes when adding or removing pool members.

@@ -42,16 +42,16 @@ Edit booking settings for entities you enabled for scheduling.
     | Setting | Effect | Value |
     |---|---|---|
     | Default booking duration | Defines the default duration of a new booking. | Predefined set of duration options. |
-    | Default booking committed status | Sets the default status when committing a booking. | Available [booking statuses](../../field-service/set-up-booking-statuses.md). |
-    | Default requirement active status | Sets the default status to use when a requirement moves into active   state. | Available requirement statuses. |
-    | Default requirement canceled status | Sets the default status to use when cancelling a requirement. | Available requirement statuses. |
+    | Default booking committed status | Sets the default value to use when a booking moves into *Committed* state. | Available [booking statuses](../../field-service/set-up-booking-statuses.md). |
+    | Default requirement active status | Sets the default value to use when a requirement moves into *Active* state. | Available requirement statuses. |
+    | Default requirement canceled status | Sets the default value to use when a requirement moves into *Canceled* state. | Available requirement statuses. |
     | Resource availability retrieval limit | Defines the maximum number of resources returned as a result in the   scheduling assistant. | Number. |
-    | Enable quick book | Use the [quick book experience](../../field-service/quick-scheduling.md) on an entity record. | Yes: Use quick book   experience.<br>     No: Use pop-out scheduling experience. |
+    | Enable quick book | Use the [quick book experience](../../field-service/quick-scheduling.md) on an entity record. | Yes: Use quick book experience.<br>     No: Use schedule assistant experience. |
     | Cancel bookings when moving | Cancel bookings moving the booking to a different time slot. | Yes: Cancel booking and create a   new one in the updated time slot.<br>     No: Keep booking and update start/end time. |
-    | Default booking canceled status | Sets the default status to use when cancelling a booking. | Available [booking statuses](../../field-service/set-up-booking-statuses.md). |
-    | Disable requirement auto creation for   bookings | Defines if the system creates a requirement for a booking. | Yes: Distable automated   requirement creation.<br>     No: Enable automated booking creation. |
-    | Default requirement completed status | Sets the default status when completing a requirement. | Available requirement statuses. |
-    | Available duration minimum (%) | <!-- Andrew --> | <!-- Andrew --> |
+    | Default booking canceled status | Sets the default value to use when a booking moves into *Canceled* state. | Available [booking statuses](../../field-service/set-up-booking-statuses.md). |
+    | Disable requirement auto creation for   bookings | Defines if the system creates a requirement for a booking. | Yes: Disable automated requirement creation.<br>     No: Enable automated booking creation. |
+    | Default requirement completed status | Sets the default value to use when a requirement moves into *Completed* state. | Available requirement statuses. |
+    | Available duration minimum (%) | Defines the availability of a resource in relation to the booking duration. For example, if the value is 50 and the booking takes four hours, the system only considers resources for the job that have at least two hours available. | 0 to 100. |
 
 1. In the **Attribute Mapping** section, choose values on the target entity that match with the requirement fields.
 
