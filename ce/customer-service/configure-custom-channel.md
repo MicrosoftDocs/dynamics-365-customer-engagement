@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. You can integrate messaging channels like Direct Line, Kik, and Telegram.
+As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. You can integrate messaging channels like Direct Line and Telegram.
 
 With the custom messaging channel capability, you can:
 - Bring in your own channels, so you can engage better with customers.
