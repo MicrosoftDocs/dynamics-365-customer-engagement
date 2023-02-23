@@ -1,7 +1,7 @@
 ---
 title: "Use email engagement to view message interactions"
 description: "Use email engagement to view the message interactions such as, alerts, clicked a link, opened an attachment, or sent a reply on your emails." 
-ms.date: 02/24/2023
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
