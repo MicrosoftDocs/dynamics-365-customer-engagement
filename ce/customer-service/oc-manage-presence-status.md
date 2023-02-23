@@ -1,7 +1,7 @@
 ---
 title: Manage presence status in Omnichannel for Customer Service | MicrosoftDocs
 description: "Use this article to learn how to view and update your presence status in Omnichannel for Customer Service."
-ms.date: 07/04/2022
+ms.date: 02/18/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -17,9 +17,13 @@ Presence is an indication of your availability or status in the application.
   > [!div class=mx-imgBorder]
   > ![Agent presence status.](media/oceh-presence-icon.png "Agent presence status")
 
+## Prerequisites
+
+For the presence status or presence icon to display correctly, enable in your browser for all modes.
+
 ## View your presence status
 
-As an agent, you can view your presence status on the navigation bar. You can select the presence icon to launch the presence dialog and update your presence.
+You can view your presence status on the navigation bar. You can select the presence icon to launch the presence dialog and update your presence.
 
   - ![Offline presence status.](media/oceh-offline-icon.png "Offline presence status")  Offline
 
@@ -33,14 +37,13 @@ As an agent, you can view your presence status on the navigation bar. You can se
   
   - ![Inactive presence status.](media/oceh-appear-away-icon.png "Appear away presence status")  Inactive
   
-For the presence status or the icon to be displayed correctly, ensure that cookies are enabled in your browser for all modes.
+
  
 ## Update your presence status
 
 You can update the presence status in the following two ways:
-- **Manually** - Change the status manually according to your availability.
 
-    To view and set the presence, select the presence icon on the navigation bar. In the **Set Your Presence Status** dialog, select a status from the list. The list shows the following standard presence statuses:
+- **Manually**: To view and set the presence manually based on your availability, select the presence icon on the navigation bar. In the **Set Your Presence Status** dialog, select a status from the list. The list shows the following standard presence statuses:
 
   - Offline
   - Appear away
@@ -48,55 +51,47 @@ You can update the presence status in the following two ways:
   - Busy
   - Available
   
-   You might also see other additional presence statuses that your administrator configured for you.
+   You might also see other presence statuses that your administrator configured for you.
 
   > [!div class=mx-imgBorder]
   > ![Set your presence status.](media/oceh-presence.png "Set your presence status")
 
-- **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity as follows:
+- **Automatically**: When a conversation (work item) is assigned to you, Omnichannel for Customer Service sets your presence status based on your capacity as follows:
 
-  - When your capacity is fully utilized, the presence is set to **Do not disturb**.
-  - When your capacity is partially utilized, the presence is set to **Busy**.
-  - When your capacity is not utilized, the presence is set to **Available**.
-  - If you already have 10 sessions open, which is the maximum multi-session limit, and a new work item comes in, your status automatically changes to **Do not disturb**.
-  - When you miss a notification and the missed notifications setting is enabled, the presence is set to **Inactive**.
-  - When you reject a work notification and the agent reject notification setting is enabled, the presence is set to **Do not disturb**.
+  - When your capacity is fully utilized, then Omnichannel for Customer Service sets your presence to **Do not disturb**.
+  - When your capacity is partially utilized, then Omnichannel for Customer Service sets your presence to **Busy**.
+  - When your capacity isn't utilized, then Omnichannel for Customer Service sets your presence to **Available**.
+  - If you already have 10 sessions open, which is the maximum multisession limit, and a new work item comes in, then Omnichannel for Customer Service changes your presence to **Do not disturb**.
+  - When you miss a notification and the missed notifications setting is enabled, then the presence changes to **Inactive**.
+  - When you reject a work notification and the agent reject notification setting is enabled, then the presence changes to **Do not disturb**.
 
-## Understand presence status scenarios
+## Presence status conditions
 
 Your presence status pertains to the following three conditions:
 
-- If the presence is **Away** or **Offline**, the system doesn't update the presence. However, you can manually change it. 
+- Omnichannel for Customer Service determines your presence based on your used or released capacity. The presence changes from **Available** to **Busy**, **Busy** to **Do not disturb**, **Do not disturb** to **Busy**, or **Busy** to **Available**.
 
-- If the presence is manually changed to **Do not disturb**, the system doesn't update the presence. However, you can again manually change it. 
+- If your presence is **Away** or **Offline**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it. 
 
-- The system determines your presence based on your used or released capacity. The presence changes from **Available** to **Busy**, **Busy** to **Do not disturb**, **Do not disturb** to **Busy**, or **Busy** to **Available**.
+- If you change your presence to **Do not disturb**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it. 
 
-The following scenarios describe how your presence status can be affected while you work with your customers.
+## Presence status scenarios
 
-### Reconnect
+The following scenarios describe how your presence status can change while you work with your customers.
 
-When the system connection is disrupted because of network issues or when you refresh the browser and connect back, the system picks up your last known presence. 
+- **Reconnect**: When the connection is lost because of network issues, or when you refresh the browser and connect back, then Omnichannel for Customer Service picks up your last known presence. 
 
-### Sign in
+- **Sign in**: When you sign in, your presence is set to the default presence if no work items have been assigned to you. If work items have been assigned, then your presence is automatically determined. However, if your default presence status is Away or Offline, then Omnichannel for Customer Service doesn’t change your presence.  
 
-When you sign in, your presence is set to the default presence if no work items have been assigned to you. If work items are assigned, your presence is automatically determined. However, if your default presence is set as Away or Offline, the system doesn’t change your presence.  
+- **Accept work items**: When you accept a work item or it's assigned automatically, then Omnichannel for Customer Service  determines your presence based on your work capacity. But, if your presence status is Away or Offline, or if you've manually changed your presence to Do not disturb, then Omnichannel for Customer Service doesn’t change your presence. 
 
-### Accept work items
+- **Close work items**: When you close a session, or resolve, cancel, or reroute a case, then Omnichannel for Customer Service determines your presence based on your work capacity. But, if your presence status Away or Offline, or if you've manually changed your presence to Do not disturb, then Omnichannel for Customer Service doesn’t change your presence.
 
-When you accept a work item manually or it's assigned automatically, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you've manually changed your presence to Do not disturb, the system doesn’t change your presence. 
+- **Reset agent presence**: When your presence is based on the missed notification or the agent reject notification, then Omnichannel for Customer Service determines your presence based on your work capacity.
 
-### Close work items 
+## Troubleshoot display of presence
 
-When you close a session, or resolve, cancel, or reroute a case, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you've manually changed your presence to Do not disturb, the system doesn’t change your presence.
-
-### Reset agent presence
-
-When you reset the agent presence based on the missed notification or the agent reject notification, the system determines your presence based on your work capacity.
-
-### Troubleshoot display of presence
-
-[Why doesn't my presence load?](troubleshoot-omnichannel-customer-service.md#troubleshoot-presence)
+[Why doesn't my presence load?](troubleshoot-omnichannel-customer-service.md#user-presence-isnt-loading-or-user-is-shown-as-unknown)
 
 ### See also
 

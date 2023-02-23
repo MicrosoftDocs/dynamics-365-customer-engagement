@@ -4,8 +4,8 @@ description: Learn how connect and setup Dynamics 365 Field Service with Azure I
 ms.date: 08/30/2022
 ms.subservice: connected-field-service
 ms.topic: article
-ms.author: keithh
-author: MSKeith
+ms.author: vhorvath
+author: vhorvathms
 search.app:
   - D365CE
   - D365FS
