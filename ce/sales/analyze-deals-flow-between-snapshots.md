@@ -2,10 +2,10 @@
 title: Analyze deals flow between forecast snapshots
 description: Use snapshots to visualize and analyze how deals are trending between two moments in time through a deal flow chart.
 ms.date: 02/23/2023
-ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
+ms.topic: how-to
 ms.custom: bap-template
 ---
 # Analyze deals flow between forecast snapshots

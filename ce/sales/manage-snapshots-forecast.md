@@ -2,11 +2,11 @@
 title: "Manage snapshots for a forecast"
 description: "Use snapshots to automatically take a snippet of forecast data at a moment in time and compare how data is changed over time."
 ms.date: 02/23/2023
-ms.custom: 
-ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
+ms.topic: how-to
+ms.custom: bap-template
 ---
 # Take snapshots automatically  
 
