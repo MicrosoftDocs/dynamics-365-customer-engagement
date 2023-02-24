@@ -28,7 +28,7 @@ As administrators, you can set up a data refresh schedule to specify the refresh
 
 ## Prerequisites
 
-- If your website is registered using Azure Active Directory, you must use OAuth. Provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated from the AAD Application registration page. More information: [Apply authentication (preview)](apply-authentication-provider.md#apply-authentication-preview)
+- If your website is registered using Azure Active Directory, you must use OAuth. Provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated from the AAD Application registration page. More information: [Apply authentication for search providers (preview)](apply-authentication-provider.md#apply-authentication-for-search-providers-preview)
 
 - If you are a first time user, you must:
 
@@ -66,13 +66,13 @@ You can now add integrated search providers.
     1. Select **Next**.
 1.	In the **Authentication and testing** section, enter the following information:
     1. **Root URL**: Provide the root URL of the website along with the protocol.
-    1. **Site map URL**: Provide the site map URL of the source website. To get the site map URL, type https://www.<site name>.com/robots.txt in the address bar.
+    1. **Site map URL**: Provide the site map URL of the source website. To get the site map URL, for example, type https://www.contoso.com/robots.txt in the address bar.
         > [!NOTE]
         > - The site map that you provide must have the **lastmod** tag within the article **url** tag.
         > - The site map and the site index files must have content-type as either application/xml or text/xml.
         > - You must provide static websites only for data ingestion. Websites that return scripts to load content aren't supported for data ingestion.
     1. **Language filter for ingestion**: Select the languages you want to specifically map for the ingestion from the dropdown list. Select **Reset** to clear the language selection. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language code.
-    1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: [Apply authentication (preview)](apply-authentication-provider.md#apply-authentication-preview).
+    1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: [Apply authentication for search providers (preview)](apply-authentication-provider.md#apply-authentication-for-search-providers-preview).
     1. Select **Test connection**.
         
         Test connection uses the credentials provided to see whether the connection is successful. You get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
