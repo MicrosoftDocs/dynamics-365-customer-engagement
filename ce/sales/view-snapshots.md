@@ -1,7 +1,7 @@
 ---
-title: "View snapshots of a forecast (Sales Insights) | MicrosoftDocs"
-description: "Use the see forecast grid history page to view snapshots of a forecast in Dynamics 365 Sales Insights."
-ms.date: 02/23/2023
+title: View snapshots of a forecast
+description: Use the see forecast grid history page to view snapshots of a forecast in Dynamics 365 Sales Insights.
+ms.date: 02/24/2023
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
@@ -13,6 +13,7 @@ ms.custom: bap-template
 View a snapshot to see and understand the forecast data at the moment in time when the snapshot was taken, including underlying opportunities. Also, you can compare the data between your current forecast and the snapshot to understand how the forecast is doing.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
