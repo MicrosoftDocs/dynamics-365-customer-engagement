@@ -71,7 +71,7 @@ For a snapshot, you can view the underlying opportunities of a column or the use
 
 3.	To view the details of an underlying opportunity, under **Actions** column, select the navigate icon corresponding to the opportunity. 
 
-    The opportunity opens in a popup window. The latest information will be displayed in the opportunity, not the information as of the date of the snapshot.
+    The opportunity opens in a pop-up window. The latest information will be displayed in the opportunity, not the information as of the date of the snapshot.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
