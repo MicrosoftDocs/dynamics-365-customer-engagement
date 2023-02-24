@@ -16,7 +16,7 @@ Snapshots are taken automatically each day and while configuring the forecasts y
 
 >[!NOTE]
 >- Premium forecasting must be enabled for the snapshot feature.
->- You can enable or disable snapshots any time while a forecast active. When disabled, the previously taken snapshots are still available.  
+>- You can enable or disable snapshots any time while a forecast is active. When disabled, the previously taken snapshots are still available.  
 
 ## License and role requirements
 
