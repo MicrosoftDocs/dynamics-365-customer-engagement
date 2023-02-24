@@ -12,7 +12,7 @@ When scheduling multi-day requirements, dispatchers can choose an [allocation me
 
 1. Then, select a resource on the board for which you would like to schedule the multi-day work order requirement and select **Book**.
 
-    <!--needs better screenshot-->
+    <!--needs better screenshots across article-->
 
     :::image type="content" source="../../field-service/media/scheduling-board-multi-day-booking.png" alt-text="Screenshot of the scheduling board with a multi-day requirement.":::
 
@@ -21,8 +21,8 @@ When scheduling multi-day requirements, dispatchers can choose an [allocation me
 
 1. In the **Create Booking** pane, review and update the values as needed. Choose the **Booking Method** to define how to spread the requirement over multiple days.
 
-    - Full Capacity: Books the resource’s full capacity for the specified from and to dates without regard to the resource's remaining capacity.
-    - Remaining Cpacity: Books the resource’s available capacity within the specified date range.
+    - Full Capacity: Books the resource’s full capacity for the specified from and to dates without regard to the resource's remaining capacity or the duration of the requirement.
+    - Remaining Capacity: Books the resource’s available capacity within the specified date range.
     - Percentage Capacity: Books the resource for a percentage of capacity for the specified from and to dates.
     - Evenly Distribute Hours: Books the resource for a specified number of hours, distributing the time evenly per day over the specified from and to dates.
     - Front Load Hours: Books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates. The front load method considers existing bookings and available capacity.
@@ -35,8 +35,8 @@ When scheduling multi-day requirements, dispatchers can choose an [allocation me
 
 ## Schedule a multi-day requirement with the schedule assistant
 
-> [!Note]
-> This scenario schedules a requirement without a related work order. To schedule a multi-day work order with the schedule assistant, you'll need to manually add a related requirement with an allocation method to a work order and delete or disregard the automatically created one. Alternatively, you can manually create requirement detail records with **Specify Pattern** for the auto-created requirement. This is because you need to set an allocation method before saving and the requirements that are automatically created by work orders have an allocation method of **None** by default.
+> [!NOTE]
+> This scenario schedules a requirement without a related work order. To schedule a multi-day work order with the schedule assistant, you'll need to manually add a related requirement with an allocation method to a schedulable entity and delete or disregard the automatically created ones. Alternatively, you can manually create requirement detail records with **Specify Pattern** for the auto-created requirement. The requirement needs an allocation method set before saving and the requirements that are automatically created by schedulable entities have an allocation method of **None** by default.
 
 1. Create a multi-day requirement record with an allocation method set. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources.
 
@@ -44,49 +44,32 @@ When scheduling multi-day requirements, dispatchers can choose an [allocation me
 
 <!-- don't understand how the splitting happens and responds to calendar change, this seems a bit confusing.-->
 
-Requirement details are automatically created to split up the requirement into time segments and are based on the duration and the allocation method. In our example in the following screenshot, a 30-hour requirement split up between 5 days is 6 hours, or 360 minutes each day.  
+   The system automatically creates requirement details and splits them into segments based on the duration and the allocation method. The requirement details are based on the requirement's calendar. Edit them by selecting **Modify Calendar** on the resource requirement record.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement details.](../../field-service/media/scheduling-multi-day-requirement-30-requirement-details.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of a resource requirement details.](../../field-service/media/scheduling-multi-day-requirement-30-requirement-details.png)
 
-The requirement details are based on the requirement's calendar, which you can edit by selecting **Modify Calendar** in the top ribbon of the requirement.
+1. Select **Book** to launch the schedule assistant for the multi-day requirement.
 
-Then select **Book** to trigger the schedule assistant for this multi-day requirement.
-
-Resources with availability and that meet the other attributes will show as results. Simply select a resource, the dates, and then **Book**. This will create multiple bookings across the date range according to the pattern of the allocation method.
+Resources with availability and that meet the other attributes will show as results. Choose a resource, the dates, and select **Book** to create multiple bookings according to the pattern of the allocation method.
 
 ## Schedule a multi-day requirement to multiple resources
 
-First, need to manually create a multi-day requirement. The requirement can exist on its own or be related to a work order.
+1. From a multi-day resource requirement, go to **Related** > **Requirement Details** and select **Specify Pattern**. Edit and override the requirement details pattern created by the allocation method.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement window with multiple days selected.](../../field-service/media/scheduling-multi-2-person-requirement.png)
+1. Select **Book**.
 
-From the newly created requirement, go to **Related** > **Requirement Details** then choose **Specify Pattern** from the top ribbon. 
+1. Choose a resource and specific days for just that resource, then select **Book** (*not* **Book & Exit**).
 
-This allows you to edit and override the requirement details pattern created by the allocation method.
+1. Then, choose another resource and specific days for only that resource and select **Book** again.
 
-Select **Book**.
+1. The system creates bookings for each resource on the days selected.
 
-Select a resource and specific days for just that resource, then choose **Book** (*not* **Book & Exit**, as that will close the schedule assistant)
-
-Then choose another resource and specific days for only that resource. Then choose **Book** again.
-
-Bookings are created for each resource on the days selected. Availability for each scheduled resource is updated as well.
-
-## Configuration considerations
-
-- Each requirement has its own calendar that you can view and edit from the **Modify Calendar** option in the top ribbon menu. The calendar is important because it allows you to edit the time zone of the requirement and how the schedule assistant results should be displayed.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the modify calendar window.](../../field-service/media/scheduling-multi-day-requirement-30-modify-calendar.png)
-
-- Availability does not need to be continuous. For example, if a dispatcher needs to schedule a resource for 4 hours one day, that resource will show as available as long as there is 4 total hours of availability, not necessarily in a single block. 
-- You can manually create requirement details as needed to schedule multi-day work according to a custom pattern. 
-
-## Additional notes
-- Requirement groups cannot be scheduled for multiple days. 
-- The schedule assistant will filter available resources for multi-day work by their location, but travel time will not be calculated and added to the resulting bookings.
+> [!NOTE]
+>
+> - Resources don't need continuous availability in a single block. For example, if the requirement is a resource for five hours in a day, resources with five total hours of availability show in schedule assistant results.
+>
+> - The system can't schedule requirement groups for multiple days.
 
 ### Next steps
 
