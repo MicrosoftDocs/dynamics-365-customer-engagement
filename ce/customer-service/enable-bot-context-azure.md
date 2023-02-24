@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-As a bot author, you can enable your Azure bots to understand context while authoring a bot flow. 
+For Azure bots, you must install the bot SDK and instantiate the Omnichannel middleware before you configure bot context.
 
 ## Install the bot SDK in your project
 
@@ -42,7 +42,6 @@ Use this procedure if you've created your bot using Visual Studio Azure Bot temp
     ```
 
     ![Add import statement.](media/bot-context-add-import.png "Add import statement")
-
 
 
 ## Next steps

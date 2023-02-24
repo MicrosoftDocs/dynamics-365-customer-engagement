@@ -14,12 +14,17 @@ ms.custom: bap-template
 
 As a bot author, you can enable your Power Virtual Agents bots to understand context while authoring a bot flow. 
 
+## Install extensions
 
+Follow the steps mentioned in this article: [Install Power Virtual Agents extensions](configure-bot-virtual-agent.md#install-power-virtual-agents-extensions).
 
+## Connect to omnichannel instance
+
+Follow the steps mentioned in this article: [Connect your Power Virtual Agents bot to omnichannel instance](configure-bot-virtual-agent.md#connect-your-power-virtual-agents-bot-to-omnichannel-instance).
 
 ## Next steps
 
-[Parse activity JSON to get bot context](parse-activity-json-to-get-bot-context.md)  
+[Code samples for parsing activity JSON](parse-activity-json-to-get-bot-context.md)  
 
 ### See also
 

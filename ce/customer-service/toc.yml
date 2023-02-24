@@ -938,7 +938,7 @@
         href: configure-bot-virtual-agent.md
     - name: Developer experience
       items: 
-      - name: Configure Azure or Power Virtual Agents bot for bot context
+      - name: Configure bot context
         href: enable-bot-context.md
         items:
         - name: Azure bots
@@ -947,10 +947,12 @@
             href: enable-bot-context-azure.md
           - name: Parse event activity JSON to get bot context
             href: parse-activity-json-to-get-bot-context.md
-         - name: Power Virtual Agents
+        - name: Power Virtual Agents
            items: 
-           - name: Enable bot context for Power Virutal Agents bots
+           - name: Enable bot context for Power Virtual Agents bots
              href: enable-bot-context-pva.md   
+        - name: Code samples for parsing activity JSON 
+          href: bot-context-json-samples.md
       - name: Configure Azure bots to escalate and end conversations
           href: bot-escalate-end-conversation.md
       - name: Download file attachments from Azure bot
