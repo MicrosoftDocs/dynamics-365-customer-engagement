@@ -1,7 +1,7 @@
 ---
 title: Create and manage capacity profiles
 description: "Know how to create and manage capacity profiles for agents in Customer Service."
-ms.date: 02/23/2023
+ms.date: 02/24/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
