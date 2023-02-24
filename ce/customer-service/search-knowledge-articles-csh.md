@@ -185,7 +185,7 @@ In Customer Service workspace and Omnichannel for Customer Service, when you sel
 
 View the most relevant search results for your query across search providers in a single ranking. With easy sorting, find the knowledge article that best suits your needs while dealing with a customer. The name of the source provider appears on the knowledge article card. You can hover over to get the full name of the source provider, if required.
 
-To enable the integrated search provider option, contact your administrator. After the feature is enabled by your administrator, you can view search results for your keywords across your configured search providers in both Customer Service Hub and Customer Service workspace.
+To enable the integrated search provider option, contact your administrator. More information: [Add and manage integrated search providers (preview)](add-search-provider.md#add-and-manage-integrated-search-providers-preview). After the feature is enabled by your administrator, you can view search results for your keywords across your configured search providers in both Customer Service Hub and Customer Service workspace.
 
 To search from Customer Service workspace, for example:
 
