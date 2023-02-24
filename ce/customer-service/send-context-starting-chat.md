@@ -54,7 +54,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 });
 ```
 
-For information about how to display the context variables, see [Display custom context](display-custom-context.md).
+For information about how to display the context variables in Conversation summary, see [Display custom context](display-custom-context.md).
 
 
 ### See also

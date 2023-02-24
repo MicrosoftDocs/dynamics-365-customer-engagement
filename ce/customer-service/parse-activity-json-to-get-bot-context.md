@@ -1,7 +1,7 @@
 ---
 title: Parse event activity JSON to get bot context
 description: Use this article to understand how you can parse the activity JSON to extract bot context.
-ms.date: 07/12/2022
+ms.date: 02/22/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The Omnichannel for Customer Service context messages are sent as event activity to bots. Context information such as customer info, live work item, or conversation ID, is sent to the bot as part of an activity JSON. The JSON can be of type **startConversation** for most channels and **ConversationUpdate** for voice conversations. This article includes examples about how to parse the activity JSON to retrieve the context sent from Omnichannel for Customer Service so it can be passed on to the Azure or Power Virtual Agents bot.
+The Omnichannel for Customer Service context messages are sent as event activity to bots. Context information such as customer info, live work item, or conversation ID, is sent to the bot as part of an activity JSON. The JSON can be of type **startConversation** for most channels and **ConversationUpdate** for voice conversations. 
 
 ## Fetch and use context for bots in your bot code
 
@@ -34,7 +34,11 @@ protected override async Task OnEventActivityAsync(ITurnContext<IEventActivity> 
         }
 ```
 
-### LiveChat
+## Code samples 
+
+This article includes some samples for parsing the activity JSON object to retrieve context sent from Omnichannel for Customer Service so that it can be passed on to the Azure or Power Virtual Agents bot.
+
+### Live Chat
 
 ```json
 {
@@ -69,7 +73,7 @@ protected override async Task OnEventActivityAsync(ITurnContext<IEventActivity> 
 }
 ```
 
-### Voice
+### Voice channel
 
 ```json
 {
@@ -103,7 +107,7 @@ protected override async Task OnEventActivityAsync(ITurnContext<IEventActivity> 
 ```
  
 
-### AppleBusinessChat
+### Apple Messages for Business channel
 
 ```json
 {
@@ -148,9 +152,10 @@ protected override async Task OnEventActivityAsync(ITurnContext<IEventActivity> 
 
 ## Next steps 
 
+[Send custom context in live chat](send-context-starting-chat.md)  
+
 ### See also
 
-[Send custom context](send-context-starting-chat.md)  
 [setContextProvider](developer/reference/methods/setContextProvider.md)  
 [Integrate an Azure bot](configure-bot.md)  
 

@@ -938,12 +938,16 @@
         href: configure-bot-virtual-agent.md
     - name: Developer experience
       items: 
-      - name: Enable bot context NuGet package
-        href: enable-bot-context.md
-      - name: Parse event activity JSON to get bot context
-        href: parse-activity-json-to-get-bot-context.md
+      - name: Configure Azure or Power Virtual Agents bot for bot context
+        items:
+        - name: Azure bots
+          items:
+          - name: Enable bot context
+            href: enable-bot-context.md
+          - name: Parse event activity JSON to get bot context
+            href: parse-activity-json-to-get-bot-context.md
       - name: Configure Azure bots to escalate and end conversations
-        href: bot-escalate-end-conversation.md
+          href: bot-escalate-end-conversation.md
       - name: Download file attachments from Azure bot
         href: download-attachments-bot.md
       - name: Get Microsoft Teams user details from Azure bot

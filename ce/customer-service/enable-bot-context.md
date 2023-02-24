@@ -1,6 +1,6 @@
 ---
-title: Enable bot context NuGet package 
-description: Use this article to understand how you can enable a bot to understand context while authoring a bot flow.
+title: Enable bot context  
+description: Use this article to understand how you can enable an Azure bot to understand context while authoring a bot flow.
 ms.date: 07/12/2022
 ms.topic: how-to
 author: neeranelli
@@ -8,13 +8,13 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.custom: bap-template
 ---
-# Enable bot context NuGet package
+# Enable bot context 
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-When customers start a conversation, the relevant context that's related to the customer, the issue they're facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by [configuring context variables](context-variables-for-bot.md) for your bots.
+Bot context includes context name-value pairs for the current conversation and custom context passed by API programmatically. When customers start a conversation, the relevant context that's related to the customer, the issue they're facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for your Azure or Power Virtual Agents bots.
 
-As a bot author, you can enable your Azure bots to understand context while authoring a bot flow. Bot context includes context name-value pairs for the current conversation and custom context passed by API programmatically.
+As a bot author, you can enable your Azure bots to understand context while authoring a bot flow. 
 
 ## Install the bot SDK in your project
 
