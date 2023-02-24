@@ -1,7 +1,7 @@
 ---
 title: "Configure route-to-queue rules"
 description: "Learn about how to configure a route-to-queue ruleset for a workstream in unified routing."
-ms.date: 02/22/2023
+ms.date: 02/24/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -22,7 +22,7 @@ The route-to-queue ruleset is run after all the work classification rulesets are
 
 A workstream can have only one route-to-queues ruleset.
 
-After you configure the rules, the system matches the rule conditions, and overflow handling of the corresponding queue to assign a work item to a queue. If more than one rule matches the required condition and the corresponding queues aren't overflowing, then the queue corresponding to the first rule in the list is selected for assignment. If none of the queues corresponding to the rules meet the overflow settings, the work item is assigned to the queue that will be available first.
+After you configure the rules, the system matches the rule conditions, and overflow handling of the corresponding queue to assign a work item to a queue. If more than one rule matches the required condition and the corresponding queues aren't overflowing, then the queue corresponding to the first rule in the list is selected for assignment. If all the queues corresponding to the rules are overflowing, the work item is assigned to the queue that will be available first.
 
 The routing diagnostics gives a detailed view of the matched and applied rules in the route-to-queue stage. More information: [Diagnostics for unified routing](unified-routing-diagnostics.md#route-to-queue)
 
