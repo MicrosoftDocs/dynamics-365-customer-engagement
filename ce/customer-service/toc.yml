@@ -1762,6 +1762,8 @@
       href: troubleshoot-using-solution-health-hub.md
     - name: Report issues in Omnichannel for Customer Service
       href: report-issues.md
+    - name: Data doesn't get updated on the Insights tab for integrated search providers
+      href: int-search-troubleshoot.md
   - name: Share feedback in Customer Service
     href: cs-share-feedback.md
   - name: FAQ about Customer Service

@@ -4,7 +4,6 @@ description: Learn how to provision, add, and manage integrated search providers
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
-ms.service: dynamics-365 
 ms.topic: how-to
 ms.date: 02/24/2023
 ms.custom: bap-template
