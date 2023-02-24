@@ -52,7 +52,7 @@ When you configure this feature, the system picks a queue from the available lis
 
 1. Repeat **Step 6** to define the percentage allocation for up to five queues. The total percentage allocation for all the queues should sum up to 100.
 
-:::image type="content" source="media/percent-based-routing.png" alt-text="Configure percent-based route-to-queue rules.":::
+   :::image type="content" source="media/percent-based-routing.png" alt-text="Configure percent-based route-to-queue rules.":::
 
 1. Use the **Remove allocations** option that's available in the **More commands** ellipses to remove the percentage-based routing. When you update the percentage-based settings, you must ensure that the allocation totals to 100.
 
