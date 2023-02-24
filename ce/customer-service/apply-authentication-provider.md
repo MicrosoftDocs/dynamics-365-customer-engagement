@@ -1,16 +1,16 @@
 ---
-title: Apply authentication 
-description: Learn how to apply authentication as required by your organization.
+title: Apply authentication for search providers 
+description: Learn how to apply authentication for search providers.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365 
 ms.topic: how-to
-ms.date: 01/24/2023
+ms.date: 02/24/2023
 ms.custom: bap-template
 ---
 
-# Apply authentication (preview)
+# Apply authentication for search providers (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]

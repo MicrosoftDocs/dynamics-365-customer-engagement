@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi 
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 02/21/2023
+ms.date: 02/24/2023
 ms.custom: bap-template 
 ---
 
@@ -26,15 +26,15 @@ After you have configured your search providers, you can view the insights for y
 
 ## View insights
 
-1. In the Customer Service admin center site map, go to **Knowledge > All search providers** and select the search provider that you want to view.
+1. In the Customer Service admin center site map, go to **Knowledge > Integrated search providers (Preview) > Manage**.
+1. Select the **Active integrated search providers** or the **Inactive integrated search providers** from the dropdown list, and then select the search provider that you want to view.
 1. On the **Search provider details** dialog, select the **Insights** tab.
-The search provider details will be displayed.
+The  ingestion metrics for that search provider are displayed.
 
-You can see up to a maximum of 100 ingestion IDs. Data displayed will be from the last 24hrs. The data on the **Insights** tab is refreshed every 30min.
+You can see up to a maximum of 100 ingestion IDs. The data on the **Insights** tab is refreshed every 30min.
 
 ## Use insights
 
-You can view the failed articles in the **Failed** column. Having the failed articles count will help you review the ingestion success status. You can retry the failed articles to ensure successful data ingestion.
+You can view the failed articles in the **Failed** column. Having the failed articles count will help you review the ingestion success status.
 
-1. Select the article count to view the failed articles.
-1. Select **Retry** for individual articles or select **Retry all** to run all the articles together.
+To view the failed articles, select the ingestion ID.

@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365 
 ms.topic: how-to
-ms.date: 02/22/2023
+ms.date: 02/24/2023
 ms.custom: bap-template
 ---
 
@@ -38,9 +38,10 @@ As administrators, you can set up a data refresh schedule to specify the refresh
 ### Provision integrated search providers
 
 You must enable the integrated search provider provisioning from the Customer Service admin center.
-1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers** > **Manage**.
+1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers (Preview)** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
-You'll see a status message, "Integrated search is provisioning. It will take few minutes to complete."
+
+You will get an error message stating that integrated search feature isn't enabled in your geo. You must raise a support request to enable the provisioning.
 
 ### Turn on the Integrated Search API trigger flow
 
@@ -67,10 +68,10 @@ You can now add integrated search providers.
     1. **Root URL**: Provide the root URL of the website along with the protocol.
     1. **Site map URL**: Provide the site map URL of the source website. To get the site map URL, type https://www.<site name>.com/robots.txt in the address bar.
         > [!NOTE]
-        > - You must provide the **lastmod** tag within the article **url** tag.
+        > - The site map that you provide must have the **lastmod** tag within the article **url** tag.
         > - The site map and the site index files must have content-type as either application/xml or text/xml.
         > - You must provide static websites only for data ingestion. Websites that return scripts to load content aren't supported for data ingestion.
-    1. **Language filter for ingestion**: Select the languages you want to specifically map for the ingestion from the dropdown list. Select **Reset** to clear the language selection. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language locale.
+    1. **Language filter for ingestion**: Select the languages you want to specifically map for the ingestion from the dropdown list. Select **Reset** to clear the language selection. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language code.
     1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: [Apply authentication (preview)](apply-authentication-provider.md#apply-authentication-preview).
     1. Select **Test connection**.
         
@@ -86,8 +87,8 @@ You can now add integrated search providers.
             For example, if you set the **Refresh frequency** at 15min and **Lookback period** at 2h, your data will be refreshed for the last 2h and 15min, in every 15min.
         1. Select **Next**.
 1.	In the **Summary** section, review your search provider setup and make changes, if any, to the **Search provider name**, **URL**, **Authentication type**, **Refresh frequency**, and **Lookback period**.
-    1. Select **Add provider**.
-    1. Select **Save and close**.
+
+1. Select **Save and close**.
 
 Your newly added search provider now appears on the **Knowledge > All search providers** page in the Customer Service admin center. In case of an error, save fails and a notification appears. You need to correct the error and try saving the search provider again.
 
@@ -95,19 +96,19 @@ Your newly added search provider now appears on the **Knowledge > All search pro
 > - For public preview, data ingestion is limited to 100,000 articles per ingestion run.
 > - Only a unique combination of root URL, site map URL, and language filters are allowed.
 
-
 ## Edit search providers
 
-After you have added the search providers, you can also make changes, if required. The changes made will appear in the subsequent ingestion run. To edit search providers:
+After you have added the search providers, you can also make changes, if required. The changes made will reflect in the subsequent ingestion run. To edit search providers:
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The Knowledge page appears.
-1. In the **Integrated search providers** section, select **Manage**.
-1. Select the active or inactive search provider that you want to make changes to from the dropdown list and then select **Edit**.
+1. In the **Integrated search providers (Preview)** section, select **Manage**.
+1. Select the **Active integrated search providers** or the **Inactive integrated search providers** from the dropdown list, and then select the search provider that you want to make changes to.
+1. Select **Edit**.
 1. On the **Search provider details** page, select the specific tab where you want to make your changes and select **Save and Close** after you have made your changes.
 
 ## Deactivate search providers
 
-When you deactivate a search provider, the ingestion of newly created or updated articles from the search provider will stop and the articles that have already been ingested will no longer appear in the search results.
+When you deactivate a search provider, the ingestion of newly created or updated articles from the search provider stops and the articles that have already been ingested will no longer appear in the search results.
 
 > [!NOTE]
 > If you have a custom layer on Knowledge Articles Quick find view, you will need to add msdyn_integratedsearchproviderid in View columns and Find columns for articles to stop appearing in the search results.
@@ -115,22 +116,22 @@ When you deactivate a search provider, the ingestion of newly created or updated
 To deactivate search providers:
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
-2. In the **Integrated search providers** section, select **Manage**.
+2. In the **Integrated search providers (Preview)** section, select **Manage**.
 3. From the **Active search providers** list, select the active search provider that you want to deactivate and then select **Deactivate**.
 4. On the confirmation dialog, select **Deactivate**.
-The search provider that you deactivated moves to the **Inactive search providers** list.
+The search provider that you deactivated is added to the **Inactive search providers** list.
 
 ## Activate search providers
 
 When you activate a search provider, the ingestion of newly created or updated articles from the search provider is initiated and articles from the search provider starts appearing in the search results.
 
-To deactivate search providers:
+To activate search providers:
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
-2. In the **Integrated search providers** section, select **Manage**.
-3. From the **Inactive search providers** list, select the inactive search provider that you want to
+1. In the **Integrated search providers (Preview)** section, select **Manage**.
+1. From the **Inactive search providers** list, select the inactive search provider that you want to
 activate and then select **Activate**.
-On the confirmation dialog, select **Activate**. The search provider that you activated moves to the
+1. On the confirmation dialog, select **Activate**. The search provider that you activated is added to the
 **Active search providers** list.
 
 ## Next steps
