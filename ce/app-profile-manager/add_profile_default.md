@@ -94,8 +94,8 @@ Here's how the application assigns the agent profiles:
 
 ### See also
 
-[FAQ about adding users to agent experience profile](faq-agent-experience-profile.md)
-[Create and use agent experience profiles](create-agent-experience-profile.md)
+[FAQ about adding users to agent experience profile](faq-agent-experience-profile.md)<br>
+[Create and use agent experience profiles](create-agent-experience-profile.md)<br>
 [Manage session template](session-templates.md)  
 [Overview of Dynamics 365 Productivity Tools](productivity-tools.md)  
 [Overview of channels in Omnichannel for Customer Service](../customer-service/channels.md)  
