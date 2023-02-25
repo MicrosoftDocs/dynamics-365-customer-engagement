@@ -1,3 +1,25 @@
+## Release schedule
+
+When a new version of Dynamics 365 Field Service releases, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
+
+For information about other updates to Field Service, visit the [Dynamics 365 release plans](/dynamics365/release-plans/).
+
+| Station | Region | Current version | Next version | Scheduled date |
+| ------- | ------ | --------------  | -----------  | -------------  |
+|**Station 1** |  *First Release*| [8.8.83.19](/dynamics365/field-service/version-history#888319)  | TBD | 03/03/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.83.19](/dynamics365/field-service/version-history#888319)  | TBD | 03/10/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 03/03/2023 |
+| | *USG* |[8.8.83.19](/dynamics365/field-service/version-history#888319)  | TBD | 03/10/2023 |
+|**Station 4** |*Europe* |[8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 03/10/2023 |
+|**Station 5** |  *North America*|[8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 03/17/2023 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 03/17/2023 |
+| | *Dedicated Scale Groups* |  [8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 03/24/2023 |
+
+>[!NOTE]
+>
+> - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
+> - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
 ## 3.12.100.2 - 2023 Wave 1 Early Access (EA) Release
 
 (Includes Resource Scheduling controls version 1.2.40.230251)
