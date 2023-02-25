@@ -34,10 +34,10 @@ For example, the following table summarizes the two custom agent profiles that y
 
 |Agent experience profile   | Configuration   | User |
 |----------|-----------|------------|
-| Contoso agent profile     | knowledge search and agent scripts features are enabled  | default        |
-| Datum agent profile | smart assist, agent scripts, and knowledge search features are enabled  | John Doe |
+| Contoso Agent profile     | knowledge search and agent scripts features are enabled  | default        |
+| Datum Agent profile | smart assist, agent scripts, and knowledge search features are enabled  | John Doe |
 
-All the users in the organization can access knowledge search and agent scripts in their productivity pane. User, John Doe, can who can also access smart assist apart from knowledge search and agent scripts.
+All the users in the organization can access knowledge search and agent scripts in their productivity pane. User John Doe, can also access smart assist along with knowledge search and agent scripts.
 
 ### Set an alternate custom profile as default profile
 
@@ -60,10 +60,10 @@ For example, user John Doe has both the Customer Service Representative and Omni
 
 |Agent experience profile   | Rank  | Security Role|
 |----------|-----------|------------|
-| Contoso agent profile     |1 | Customer Service Representative |
-| Datum agent profile |2   |  Omnichannel agent |
+| Contoso Agent profile     |1 | Customer Service Representative |
+| Datum Agent profile |2   |  Omnichannel agent |
 
-In this scenario, the user John Doe is assigned the Contoso agent profile as the rank of the profile is higher.
+The application assigns the Contoso agent profile to John Doe, as the rank of the profile is higher.
 
 ## Manage users assigned to custom agent profile
 
@@ -76,17 +76,17 @@ For example, you've set up your agent experience profiles and mapped users as su
 |Agent experience profile   | Rank  | Security Role|User |
 |----------|-----------|------------|---------------|
 | Contoso Supervisor profile     |1 | Omnichannel Supervisor | |
-| Datum agent profile |2   | Omnichannel agent | Kendall Collins|
-| Contoso Agent profile | | | default|
-| Datum printer agent | | | Gabriel Diaz, Kayla Lewis|
+| Datum Agent profile |2   | Omnichannel agent | Kendall Collins|
+| Contoso Agent profile | | | Default|
+| Datum Supervisor profile | | | Gabriel Diaz, Kayla Lewis|
 
 Here's how the application assigns the agent profiles:
 
 - Users with the Omnichannel Supervisor role are assigned the Contoso Supervisor profile.
-- Users with the Omnichannel agent role are assigned the Datum agent profile.
+- Users with the Omnichannel agent role are assigned the Datum Agent profile.
 - Users with both the Omnichannel Supervisor and the Omnichannel agent role are assigned the Contoso Supervisor profile.
-- User Kendall Collins is assigned the Datum agent profile.
-- Users Gabriel Diaz and Kayla Lewis are assigned the Datum printer agent profile.
+- User Kendall Collins is assigned the Datum Agent profile.
+- Users Gabriel Diaz and Kayla Lewis are assigned the Datum Supervisor profile.
 - All the remaining users are assigned the Contoso Agent profile.
 
 > [!NOTE]
