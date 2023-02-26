@@ -1,8 +1,8 @@
 ## Release schedule
 
-When a new version of Dynamics 365 Field Service releases, it becomes available in different geographic regions at different times. Use the table below to see estimates for when the next release will become available in the region of your environment.
+When a new version of Dynamics 365 Universal Resource Scheduling releases, it becomes available in different geographic regions at different times. Use the table below to see estimates for when the next release will become available in the region of your environment.
 
-For information about other updates to Field Service, visit the [Dynamics 365 release plans](/dynamics365/release-plans/).
+For information about other updates to Universal Resource Scheduling, visit the [Dynamics 365 release plans](/dynamics365/release-plans/).
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
