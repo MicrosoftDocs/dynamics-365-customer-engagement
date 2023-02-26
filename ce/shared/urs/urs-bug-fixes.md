@@ -20,11 +20,11 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 3.12.100.2 - 2023 Wave 1 Early Access (EA) Release
 
-(Includes Resource Scheduling controls version 1.2.40.230251)
+**Resource Scheduling controls:** 1.2.40.230251
 
 - The new schedule board is now the default for all organizations, and the legacy schedule board is [officially deprecated](../../common-scheduler/deprecations.md). The setting to enable the new schedule board on the schedule board settings page has been removed, and replaced with a solution setting. You can still manually [enable the legacy schedule board](../../field-service/configure-schedule-board.md#enable-the-legacy-schedule-board) by changing the solution setting.
 
-## 3.27.97.9
+## 3.12.97.9
 
 **Resource Scheduling Controls:** 1.2.37.230406
 **Dataverse:** 4.0.87.9
