@@ -1,23 +1,21 @@
 ## Release schedule
 
-When a new version of Dynamics 365 Field Service releases, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
+When a new version of Dynamics 365 Field Service releases, it becomes available in different geographic regions at different times. Use the table below to see estimates for when the next release will become available in the region of your environment.
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](/dynamics365/release-plans/).
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.83.19](/dynamics365/field-service/version-history#888319)  | TBD | 03/03/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.83.19](/dynamics365/field-service/version-history#888319)  | TBD | 03/10/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 03/03/2023 |
-| | *USG* |[8.8.83.19](/dynamics365/field-service/version-history#888319)  | TBD | 03/10/2023 |
-|**Station 4** |*Europe* |[8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 03/10/2023 |
-|**Station 5** |  *North America*|[8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 03/17/2023 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 03/17/2023 |
-| | *Dedicated Scale Groups* |  [8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.19](/dynamics365/field-service/version-history#888319) | 03/24/2023 |
+|**Station 1** | *First Release*| [3.12.97.9](#312979) | TBD | 03/03/2023 |
+|**Station 2** | *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [3.12.97.9](#312979)  | TBD | 03/10/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* | [3.12.97.9](#312979) | TBD | 03/17/2023 |
+|**Station 4** | *Europe* | [3.12.96.38](#3129638) | [3.12.97.9](#312979) | 03/10/2023 |
+|**Station 5** | *North America*| [ [3.12.96.38](#3129638) | [3.12.97.9](#312979) | 03/17/2023 |
+|**Station 6** | *Government Community Cloud, DoD, China* | [3.12.96.38](#3129638)  | [3.12.97.9](#312979) | 03/24/2023 |
 
 >[!NOTE]
 >
-> - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
+> - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
 ## 3.12.100.2 - 2023 Wave 1 Early Access (EA) Release
@@ -26,15 +24,39 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 - The new schedule board is now the default for all organizations, and the legacy schedule board is [officially deprecated](../../common-scheduler/deprecations.md). The setting to enable the new schedule board on the schedule board settings page has been removed, and replaced with a solution setting. You can still manually [enable the legacy schedule board](../../field-service/configure-schedule-board.md#enable-the-legacy-schedule-board) by changing the solution setting.
 
+## 3.27.97.9
+
+**Resource Scheduling Controls:** 1.2.37.230406
+**Dataverse:** 4.0.87.9
+
+- Removed error logging for extraneous "Failed to resolve sorting" issue that was bloating error logs.
+- Bug Fixes
+  -  The date in the prompt message when moving a booking in the weekly view is fixed to display the date the booking would be moved to instead of the first day of that week. The selected date will now be consistent with the original date (e.g. from Monday to Monday the following week).
+  -  Icon for locked bookings will now be displayed on the schedule board.
+  -  RSO options for single resource optimization will now behave similarly to the legacy schedule board.
+  -  Fixed an issue where the schedule board would occasionally not respect the start/end times in the Working time settings.
+  -  Selecting a resource on hourly/weekly/daily view on the schedule board should now open the Create Booking panel as expected.
+  -  Fixed an issue where switching from daily to hourly view would occasionally crash the schedule board.
+
 ## 3.12.96.38
 
-(Includes Resource Scheduling controls version 1.2.36.230171).
+**Resource Scheduling controls:** 1.2.36.230171
 
 - This release fixes the create/update booking failures with orgs running custom plugins to create/update bookings seen with URS version 3.12.96.25.
 
 ## 3.12.96.25
 
-(Includes Resource Scheduling controls version 1.2.36.230171).
+**Resource Scheduling controls:** 1.2.36.230171
+
+- Improved data caching on schedule board
+- Decreased the number of times the schedule board will refresh on load, particularly for Schedule Assistant
+- Bug fixes
+  - Creating a booking with 1 minute duration will now behave as expected.
+  - Typing quickly in the search or filter boxes on the schedule board will no long close the input box.
+  - Changing non-working hours color on the schedule board no longer requires a full page refresh for the selected color to be displayed.
+  - Fixed an issue that would cause the time on the schedule board to not respect personalization settings at certain zoom levels.
+  - When using the "Rebook" option, the suggested start time will be the start time on the existing booking.
+  - Fixed an issue that could cause the schedule board to crash when switching tabs wiwth different timezones on the schedule board.
 
 ## 3.12.92.14
 
@@ -43,10 +65,6 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 - Race condition resulting in incorrect resources to be used in loadBookingAggregates.
 - New schedule board update for customizations to resource templates.
 - Booking alert panel crash when alerts have been deleted.
-
-
-(Includes Resource Scheduling controls version 1.2.32.222981).
-
 - Fixed a bug that prevented creating a new entity in the Field Service setup wizard.
 - Improved error handling for geocode action.
 - Improved resource search from Schedule Assistant.
