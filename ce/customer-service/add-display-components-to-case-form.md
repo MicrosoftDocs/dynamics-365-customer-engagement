@@ -37,7 +37,8 @@ After you add the **Customer 360** control to a case form, when an agent selects
 1. On the **Properties** panel, do the following actions:
     - Select the attributes from the table that must be displayed as fields on the form to the user. You can select up to seven simple and three composite attributes.
     - Specify if the users can edit the fields in the card in the **Enable Editing** drop down. This field is set to **Yes** by default.
-    - Specify **Static Value** and select **Show Static Header** to yes. The application displays the  **Static value** value name as the name on the card instead of the account or contact name.
+    - The control header displays the contact name or account name when a contact or account is selected from the customer lookup on the form. If you want the control header to display a static header, specify **Static Value** and select **Show Static Header** to **Yes**. 
+      :::image type="content" source="media/powerapps-360-static-mini.png" alt-text="Customer details" lightbox="media/powerapps-360-static-mini.png":::
     - Save and publish the form.
 1. Repeat steps 3 to 6 for the **Contact** table.
 
