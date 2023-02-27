@@ -16,7 +16,7 @@ The **Associated Grid Control** component helps you display details related to a
 
 The following screenshot is an example of how you can display knowledge articles, similar, merged, and child cases related to a case using **Associated Grid Control** :
 
-   :::image type="content" source="media/associated-grid-control-img.png" alt-text="Image of card during runtime" lightbox="media/associated-grid-control-img.png":::
+   :::image type="content" source="media/associated-grid-control-img-mini.png" alt-text="Image of card during runtime" lightbox="media/associated-grid-control-img.png":::
 
 ## Add the component and configure the subgrid
 
@@ -27,14 +27,12 @@ The following screenshot is an example of how you can display knowledge articles
 1. Drag it to the form.
 1. On the **Properties** panel, specify the following details to populate the records to be displayed on the first subgrid.
     - Add  **Table** and **Default view** from which the records must be displayed.
-    - **Customizer control**: Specify the customizer control name for the entity. For example, you've configured a subgrid to display child cases. For the subgrid to display color-coded priority icons, you'll need to set the value of this field to  **MscrmControls.CustomCellControl.CustomCellControl**. More information: [Enable the grid control for the Case entity](enable-case-grids.md#enable-the-grid-control-for-the-case-entity)
-     - **Customized title**: Specify the display name that appears as the subgrid's name when the card loads. The original view name is displayed by default if you don't specify a value for this field.
     - Select **Show related records** if you'd like to display only records that are related to the current record on the form and not all the available records. If you select this checkbox, the form displays only the related records in **Subgrid 1**.
-    
-      :::image type="content" source="media/assoc-case-grid-mini.png" alt-text="Image of the component on Powerapps" lightbox="media/assoc-case-grid.png":::
-
-1. To configure subgrids 2 to 4, select **Associated Grid Control** in **Components** . The **Edit Associated Grid Control** pane appears.
-1. Specify the values for the fields mentioned in step 6 for each of the subgrids you'd like to configure.  You'll also have to specify the table relationship in [**Relationship Name**](add-associated-grid-control.md#configure-related-records-for-multiple-subgrids) to display the related records in **Subgrid 2** to **Subrgid 4**. 
+ 1. Go to **Associated Grid Control** in **Components**. You can further customize the subgrid specifying the following values in  the **Edit Associated Grid Control** pane that appears:
+    - **Customizer control**: Specify the customizer control name for the entity. For example, you've configured a subgrid to display child cases. For the subgrid to display color-coded priority icons, you'll need to set the value of this field to  **MscrmControls.CustomCellControl.CustomCellControl**. More information: [Enable the grid control for the Case entity](enable-case-grids.md#enable-the-grid-control-for-the-case-entity)
+     - **Customized title**: Specify the display name that appears as the subgrid's name when the card loads. The original view name is displayed by default if you don't specify a value for this field.  
+1. To configure subgrids 2 to 4, specify the values for **Table**, **Default View**, **Customizer control**, and **Customizer control** for the corresponding subgrids in the ***Edit Associated Grid Control** pane.
+1. You'll also have to specify the table relationship in [**Relationship Name**](add-associated-grid-control.md#configure-related-records-for-multiple-subgrids) to display the related records in **Subgrid 2** to **Subrgid 4**. 
      
 ## Configure related records for multiple subgrids
 
