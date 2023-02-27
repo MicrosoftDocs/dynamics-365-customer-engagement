@@ -36,7 +36,7 @@ To enable or disable following for any contact, account, or lead:
   
 4.  Select **Save** to save your setting.  
   
-Any time you compose an email that includes one or more recipients that do  not allow following, the controls for enabling the various follow features are shown as disabled on the email authoring page. When following features are turned off, the message won't include a web beacon (clear GIF), all files will be attached directly rather than linked, and no links will redirect through Dynamics 365 Sales. But you can still schedule delivery, and may still see template and delivery-time recommendations.  
+Anytime you compose an email that includes one or more recipients that don't allow following, the controls for enabling the various follow features are shown as disabled on the email authoring page. When following features are turned off, the message won't include a web beacon (clear GIF), all files are attached directly rather than linked, and no links will redirect through Dynamics 365 Sales. But you can still schedule delivery, and may still see template and delivery-time recommendations.  
   
 To view the tracking preferences for all of the recipients of a message, select the **View Recipients' Preferences** link shown above the body text. A pop-up window opens, showing the name and follow preference for each recipient. From here you can open any contact, account, or lead record by selecting their name in the list.  
 

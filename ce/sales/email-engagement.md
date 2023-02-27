@@ -28,7 +28,7 @@ Email engagement helps you to:
 -   Set an alert to remind you when it's time to follow up on an email message.       
 -   Review the full interaction history of a single message, or review  KPIs.  
   
-Your administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, see [Enable email engagement](configure-email-engagement.md).
+Your administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you're using email engagement. For complete details about prerequisites, how to enable the feature, see [Enable email engagement](configure-email-engagement.md).
 
 ## Considerations for email tracking
 
@@ -39,7 +39,7 @@ Some aspects of the email engagement feature might be visible in [!INCLUDE[pn_sa
 -   The **Email Template** grid always shows **Reply Rate**, **Open Rate**, **Recommended**, and **Email Count** columns.  
 -   The out-of-the-box versions of the account, contact, and lead forms all include the **Follow Email** field.  
 
-While the email engagement feature is disabled, these features will still appear but will usually be empty. Read the rest of this topic for details about what these columns mean and how to use them when the feature is enabled.     
+While the email engagement feature is disabled, these features will still appear but will usually be empty. Read the rest of this article for details about what these columns mean and how to use them when the feature is enabled.     
 
 > [!NOTE]
 > When the email client automatically scans email for security reasons, the count for email open and link clicks can be higher than expected.
