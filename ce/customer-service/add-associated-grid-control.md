@@ -16,7 +16,7 @@ The **Associated Grid Control** component helps you display the related details 
 
 If you've added  **Associated Grid Control** to a form, here's what the user sees when the form loads:
 
- :::image type="content" source="media/associated-grid-control-img-mini.png" alt-text="Image of card during runtime" lightbox="media/associated-grid-control-img.png":::
+   :::image type="content" source="media/associated-grid-control-img-mini.png" alt-text="Image of card during runtime" lightbox="media/associated-grid-control-img.png":::
 
 ## Add the component and configure the subgrid
 
@@ -32,7 +32,7 @@ If you've added  **Associated Grid Control** to a form, here's what the user see
      - **Customized title**: Specify the display name that appears as the subgrid's name when the card loads. The original view name is displayed by default if you don't specify a value for this field.
     - Select **Show related records** if you'd like to display only the records related to the current records that are displayed on the form and not all the available records. If you select this checkbox, the form displays only the related records from the table and view configured in **Subgrid 1**.
 
-    :::image type="content" source="media/assoc-case-grid-mini.png" alt-text="Image of the component on Powerapps" lightbox="media/assoc-case-grid.png":::
+      :::image type="content" source="media/assoc-case-grid-mini.png" alt-text="Image of the component on Powerapps" lightbox="media/assoc-case-grid.png":::
      
 ## Configure related records for multiple subgrids
 
