@@ -84,7 +84,7 @@ To use a template:
 
 Followed emails can tell you when a recipient opened the message, replied to the message, opened an attachment, or clicked a link.  
   
-When email engagement is enabled on your site, it will also be enabled by default for all messages you create in Dynamics 365 Sales, if none of the recipients are set up to block followed messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set following to Do Not Allow to respect individuals' privacy and preferences](#set-individuals-privacy-and-preferences)  
+When email engagement is enabled on your site, it will also be enabled by default for all messages you create in Dynamics 365 Sales, if none of the recipients are set up to block followed messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set following to Do Not Allow to respect individuals' privacy and preferences](configure-individuals-privacy-preferences.md)  
   
 Use the controls at the top of the **Email Engagement** area to view and edit the follow state for your message, as summarized in the following table.  
   
