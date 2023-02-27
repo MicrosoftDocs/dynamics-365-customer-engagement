@@ -1,7 +1,7 @@
 ---
 title: "Enable and configure auto capture"
 description: "Configure auto capture to helps your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook."
-ms.date: 07/08/2022
+ms.date: 02/17/2023
 ms.custom: 
 ms.topic: article
 ms.assetid: d4d130c5-3494-4677-9093-0a0e0124d953
@@ -17,9 +17,10 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ---
+
 # Enable and configure auto capture 
 
-Configure auto capture to helps your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook.
+Configure auto capture to help your sellers to get suggestions on relevant customer activities by capturing emails and meetings from the user's Exchange account that's in the same tenant as Dynamics 365.
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -50,10 +51,8 @@ Before you enable auto capture, perform the following tasks:
 
 -	Enable Sales Insights. To learn more, see [Enable and configure standard Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-standard-sales-insights-features).
 
--	Use Exchange as the server and Outlook as the mail client.
-
--	Approve the email addresses of users to allow queries against their Exchange data (this requires tenant-level admin privileges). To learn more, see [Approve email](/dynamics365/customer-engagement/admin/connect-exchange-online#approve-email).
-
+- Use Exchange as the server and Outlook as the mail client. 
+- Approve the email addresses of users to allow queries against their Exchange data (this requires tenant-level admin privileges). To learn more, see [Approve email](/dynamics365/customer-engagement/admin/connect-exchange-online#approve-email). 
 -	Set up server-side synchronization. To learn more, see [Set up server-side synchronization of email, appointments, contacts, and tasks](/dynamics365/customer-engagement/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
 
 ### Enable auto capture
@@ -64,8 +63,8 @@ Before you enable auto capture, perform the following tasks:
 
 3.	Turn on the **Enable basic auto capture** toggle.
 
-   > [!div class="mx-imgBorder"]
-   > ![Enable or disable auto capture](media/si-admin-auto-capture-enable-disable.png "Enable or disable auto capture")
+> [!div class="mx-imgBorder"]
+> ![Enable or disable auto capture](media/si-admin-auto-capture-enable-disable.png "Enable or disable auto capture")
 
 > [!NOTE]
 > For more information about auto capture and how it can help your users, see [Capture customer-related activities with auto capture](auto-capture.md).
@@ -79,3 +78,4 @@ Before you enable auto capture, perform the following tasks:
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
