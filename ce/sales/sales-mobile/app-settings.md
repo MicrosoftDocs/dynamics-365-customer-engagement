@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Dynamics 365 Sales mobile app settings 
 
-The **Settings** panel provides a consolidated view for relevant information about the app, helpful links to submit ideas, report issues, share feedback, and an option to sign-out from the app.
+The **Settings** panel provides a consolidated view for relevant information about the app, helpful links to submit ideas, report issues, share feedback, and a sign-out option.
 
 The settings are divided into the following categories:
 - [Help and feedback](#help-and-feedback)

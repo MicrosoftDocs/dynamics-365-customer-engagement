@@ -18,7 +18,7 @@ Mobile apps help sellers build great customer relationships, stay up-to-date wit
 In contrast to the Dynamics 365 for phones and tablets app, which is a model-driven app that you use to open any customer engagement app like Sales Hub or Customer Service Hub on mobile, the Dynamics 365 Sales mobile app is specifically designed for core sales scenarios while still supporting model-driven configurations. 
 
 > [!NOTE]
-> It is recommended for all Dynamics 365 Sales users who are using the Dynamics 365 for phones and tablets app to migrate and start using the Dynamics 365 Sales app instead. To know about the difference between Dynamics 365 Sales app and Dynamics 365 for phones and tablets app, go to [Difference between Dynamics 365 Sales app and Dynamics 365 for phones and tablets app](#difference-between-dynamics-365-sales-app-and-dynamics-365-for-phones-and-tablets-app).
+> It is recommended for all Dynamics 365 Sales users who are using the Dynamics 365 for phones and tablets app to migrate and start using the Dynamics 365 Sales app instead. To know about the difference between Dynamics 365 Sales app and Dynamics 365 for phones and tablets app, see [Difference between Dynamics 365 Sales app and Dynamics 365 for phones and tablets app](#difference-between-dynamics-365-sales-app-and-dynamics-365-for-phones-and-tablets-app).
 
 With the Dynamics 365 Sales mobile app, you can do the following (and much more):
 
