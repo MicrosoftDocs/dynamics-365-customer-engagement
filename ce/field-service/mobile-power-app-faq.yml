@@ -115,10 +115,15 @@ sections:
             3. Sign in again, pull down the screen to refresh, and wait for at least a few minutes.
           
             If completing steps 1 and 2 doesn't resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
-        - question: Can external users access the Field Service (Dynamics 365) mobile app?  
+        - question: Can external (Guest) users access the Field Service (Dynamics 365) mobile app?  
           answer: |
-           Currently, external users can't access the Field Service (Dynamics 365) mobile app.
+           Yes, Frontline Workers enabled as AAD B2B Guests are can access the Field Service Mobile application via [Tenant Switcher](power-apps/mobile/tenant-switcher).
+           Tenant Switcher allows Guest User with Business or School accounts to authenticate within th mobile application and switch to the Guest Tenant.
            
+           As an alternative to using Tenant Switcher, or if the Guest User requires accessing the application with a personal account, a formatted deep link may be used to access the Guest Tenant
+           ```
+           https://apps.powerapps.com/mobile/redirect?appid=<app-id>&tenantid=<tenant-id>&playerchannel=FieldServiceMobile&sourceurl=https%3A%2F%2F<org-url-without-https>%2Fmain.aspx%3Fappid%<app-id>
+           ```
         - question: Can I access SharePoint documents in offline mode?
           answer: |
            Access to SharePoint documents isn't currently supported in offline mode. 
