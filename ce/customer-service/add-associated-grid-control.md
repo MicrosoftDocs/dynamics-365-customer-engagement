@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Add and configure Associated Grid Control component on a form
 
-The **Associated Grid Control** component helps you display details of a table record as subgrids. If you add this control to a form, you can configure up to four subgrids to display the relevant details.
+The **Associated Grid Control** component helps you display the related details of a table record as subgrids. If you add this control to a form, you can configure up to four subgrids to display the relevant details.
 
 If you've added  **Associated Grid Control** to a form, here's what the user sees when the form loads:
 
@@ -30,7 +30,7 @@ If you've added  **Associated Grid Control** to a form, here's what the user see
     - Add  **Table** and **Default view** from which the records must be displayed.
     - **Customizer control**: Specify the customizer control name for the entity. For example, if you're adding a case, you need to specify **MscrmControls.CustomCellControl.CustomCellControl**. More information: [Enable the grid control for the Case entity](enable-case-grids.md#enable-the-grid-control-for-the-case-entity)
      - **Customized title**: Specify the display name that appears as the subgrid's name when the card loads. The original view name is displayed by default if you don't specify a value for this field.
-    - Select **Show related records** if you'd like to display only the records related to the current records that is displayed on the form and not all the available records. If you select this checkbox, the form displays only the related records from the table and view configured in **Subgrid 1**.
+    - Select **Show related records** if you'd like to display only the records related to the current records that are displayed on the form and not all the available records. If you select this checkbox, the form displays only the related records from the table and view configured in **Subgrid 1**.
 
     :::image type="content" source="media/assoc-case-grid-mini.png" alt-text="Image of the component on Powerapps" lightbox="media/assoc-case-grid.png":::
      
@@ -45,7 +45,7 @@ The **Associated Grid Control** also displays related records from the tables co
 1. On the page that appears, find the table you've added to the subgrid in **Associated Grid Control**.
 1. Copy the **Name** that's against the table.
 1. Open the form where you've added the **Associated Grid Control**.
-1. Specify this is as the **Relationship Name** in **Edit Associated Grid Control**.
+1. Specify the name as the **Relationship Name** in **Edit Associated Grid Control**.
 
 ## Add an alternate grid control
 
