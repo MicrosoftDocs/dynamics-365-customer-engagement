@@ -65,11 +65,23 @@ If the validation is successful, you'll see a confirmation message. If the valid
 
 - **Regex**: Select this when you want to use Regex patterns to extract values from their source website. When you select this option, the source property will be a text area where you can enter the regex pattern. The string from your website's HTML that matches this pattern will be used to map to the corresponding knowledge article field.
 
+    The Regex patterns must have a capture group enclosed in parentheses that allows you to extract a specific portion of the matched text. Note that the text extracted will be from the first non-empty group of the first match. More information: [Grouping constructs](/dotnet/standard/base-types/regular-expression-language-quick-reference#grouping-constructs). Here are some examples of regex patterns to extract content from a specific div tag
+
+     - Based on the div tag id:
+    <div\b[^>]*id=\"your-id-name-here\"[^>]*>([\s\s]*? )<\/div>
+    - Based on the div tag class: <div\b[^>]*class=\"your-class-name-here\"[^>]*>([\s\s]*? )<\/div> 
+    - For content inside body tag: <body[^>]*>([\s\s]*)<\/body>
+    - For content inside head tag: <head[^>]*>([\s\s]*)<\/head>
+    
+    For more information on Regex, go to: [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference).
+
 - **Direct**: Select this when you want to map the value of any meta tag from its source website directly to any knowledge article field. The **Source Property** dropdown list shows all the meta tags extracted from the sample website along with **HTML-Title** and **HTML-Body** source properties, which are available by default.
+
+    If you select **Direct** operation type and the**og: url** from the source property, the value of the **og: url** meta tag from the source property gets mapped to the corresponding knowledge article attribute.
 
 - **Constant**: Select this when you want to provide a constant value to any knowledge article field. The source property will be a text area where they can enter the constant value.
 
-- **RegexUrl**: This option is similar to Regex. Select this only when you want to find matches in the URL of the source website.
+- **RegexUrl**: This option is similar to Regex. Select this only when you want to find matches in the URL of the source website. The Regex patterns must be created as described for the **Regex** operation type. For example, if you want to map the entire source website URL to a knowledge attribute field, select **Regexurl** in the operation type, and use the (. *) pattern in the source property.
 
 ## Next steps
 
