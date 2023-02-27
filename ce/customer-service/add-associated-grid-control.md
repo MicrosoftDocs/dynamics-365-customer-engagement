@@ -12,9 +12,9 @@ ms.custom: bap-template
 
 # Add and configure Associated Grid Control component on a form
 
-The **Associated Grid Control** component helps you display the related details of a table record as subgrids. If you add this control to a form, you can configure up to four subgrids to display the relevant details.
+The **Associated Grid Control** component helps you display details related to a record as subgrids. You can configure up to four subgrids using this component.
 
-If you've added  **Associated Grid Control** to a case form, here's what the user sees when the form loads:
+The following screenshot is an example of how you can display knowledge articles, similar, merged, and child cases related to a case using **Associated Grid Control** :
 
    :::image type="content" source="media/associated-grid-control-img-mini.png" alt-text="Image of card during runtime" lightbox="media/associated-grid-control-img.png":::
 
@@ -22,21 +22,21 @@ If you've added  **Associated Grid Control** to a case form, here's what the use
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables**, select a table, and then select the **Forms** area.
-1. Open the form where you want to add the **Associated Grid Control**.
+1. Open the form to which you want to add **Associated Grid Control**.
 1. In the form designer, select **Components** from the left navigation, and then select **Associated Grid Control**.
 1. Drag it to the form.
-1. On the **Properties** panel, you can specify the following details to populate the records that's displayed on the first subgrid. 
-    - Specify **Label** and **Name**.
+1. On the **Properties** panel, specify the following details to populate the records to be displayed on the subgrids. 
+    - Specify **Label** and **Name**. 
     - Add  **Table** and **Default view** from which the records must be displayed.
-    - **Customizer control**: Specify the customizer control name for the entity. For example, if you're adding a case, you need to specify **MscrmControls.CustomCellControl.CustomCellControl**. More information: [Enable the grid control for the Case entity](enable-case-grids.md#enable-the-grid-control-for-the-case-entity)
+    - **Customizer control**: Specify the customizer control name for the entity. For example, you've configured a subgrid to display child cases. For the subgrid to display color-coded priority icons, you'll need to set the value of this field to  **MscrmControls.CustomCellControl.CustomCellControl**. More information: [Enable the grid control for the Case entity](enable-case-grids.md#enable-the-grid-control-for-the-case-entity)
      - **Customized title**: Specify the display name that appears as the subgrid's name when the card loads. The original view name is displayed by default if you don't specify a value for this field.
-    - Select **Show related records** if you'd like to display only the records related to the current records that are displayed on the form and not all the available records. If you select this checkbox, the form displays only the related records from the table and view configured in **Subgrid 1**.
+    - Select **Show related records** if you'd like to display only records that are related to the current record on the form and not all the available records. If you select this checkbox, the form displays only the related records from the table and view configured in **Subgrid 1**. If you'd like to display related records for subgrids 2 to 4, follow the steps in [Configure related records for multiple subgrids](add-associated-control.md#configure-related-records-for-multiple-subgrids) 
 
       :::image type="content" source="media/assoc-case-grid-mini.png" alt-text="Image of the component on Powerapps" lightbox="media/assoc-case-grid.png":::
      
 ## Configure related records for multiple subgrids
 
-The **Associated Grid Control** also displays related records from the tables configured in **Subgrid 2** to **Subgrid 4** if you specify the corresponding table relationships in **Relationship name**. Table relationships allow for queries to retrieve related data efficiently. More information: [Table relationships overview](/power-apps/maker/data-platform/relationships-overview). 
+You can select **Show related records** check box to display the related records for only **Subgrid 1** in **Associated Grid Control**. The application displays related records from the tables configured in **Subgrid 2** to **Subgrid 4** if you specify the corresponding table relationships in **Relationship name**. Table relationships allow for queries to retrieve related data efficiently. More information: [Table relationships overview](/power-apps/maker/data-platform/relationships-overview). 
 
  To find the relationship between tables, do the following steps:
 
