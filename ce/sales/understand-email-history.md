@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 02/24/2023
+ms.date: 02/27/2023
 ms.custom: bap-template
 ---
 
@@ -78,9 +78,9 @@ You can see email template results and recommendations for all of the templates 
   
     ![Email template list](media/email-template-list.png "Email template list")  
 
-
 ### See also
 
 [Enable email engagement](configure-email-engagement.md)   
-[Create and send followed email message](create-send-followed-email-message.md)
-
+[View message interactions with email engagement](email-engagement.md)  
+[Create and send email message](create-send-email-message.md)  
+[Configure privacy and preferences](configure-individuals-privacy-preferences.md)

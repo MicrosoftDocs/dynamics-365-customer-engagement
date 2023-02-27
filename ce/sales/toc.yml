@@ -691,12 +691,12 @@
         - name: View message interactions with email engagement
           href: email-engagement.md
           items:
-            - name: Create and send followed email message 
-              href: create-send-followed-email-message.md
+            - name: Create and send email message 
+              href: create-send-email-message.md
             - name: Understand email history 
               href: understand-email-history.md
-
-
+            - name: Configure privacy and preferences 
+              href: configure-individuals-privacy-preferences.md
         - name: How notes analysis assists you with suggestion
           href: notes-analysis.md
         - name: Manage sales literature
