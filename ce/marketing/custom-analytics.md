@@ -1,7 +1,7 @@
 ---
 title: "Prepare for analytic reporting with Power BI (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up data sources in Dynamics 365 Marketing to make them available to Power BI, and how to download and connect a Power BI template to them."
-ms.date: 02/21/2023
+ms.date: 02/27/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -57,11 +57,11 @@ for a quick overview of all the data that is available for your marketing analyt
 > 1. Create a new container and start a new export as usual.
 
 > [!IMPORTANT]
-> Here are some considerations related to configuring Azure Storage Account Firewall (limited public network access) which is to be used for Analytics data export:
+> Here are some considerations related to configuring the Azure Storage Account firewall (limited public network access) when exporting analytics data:
 >
-> 1. If the limited Public network access ([Configure Azure Storage firewalls and virtual networks](https://learn.microsoft.com/en-us/azure/storage/common/storage-network-security?tabs=azure-portal)) to the Storage Account firewall is not required to be enabled, then please proceed with further configuration steps. **It will be possible to complete this guide and enable the feature**.
-> 1. In case it is required to enable limited public network access to the Storage Account, i.e. access is Enabled from selected virtual networks and IP addresses only, **then please contact our Customer support team to assist you for Storage Firewall configuration**. This is a complicated scenario and the assistance will be required from our support team based on the Storage Account location and service instance data. In the meantime, it is possible to continue with remaining steps, but the feature will work only once the firewall is properly configured.
-> 1. If the Storage Account is required to have Public network access disabled entirely, and it can be accessed via Private Link Endpoint only, **then this is not unfortunately supported scenario for this feature**, and please consider using a different Storage Account with lower access restrictions.
+> 1. If you *do not* need to limit public network access to the Storage Account ([Configure Azure Storage firewalls and virtual networks](https://learn.microsoft.com/en-us/azure/storage/common/storage-network-security?tabs=azure-portal)), proceed with further configuration steps. **If you do not need to limit public network access, you can complete this guide and connect Azure Blob storage to Marketing**.
+> 1. If you need to limit public network access to the Storage Account&mdash;for example, if you want to limit access to selected virtual networks and IP addresses only&mdash;**you must [contact our customer support team](https://dynamics.microsoft.com/contact-us/) to assist you with the Azure Storage Account firewall configuration**. This is a complicated scenario and support team assistance is required based on the Storage Account location and service instance data. In the meantime, it is possible to continue with remaining steps, but the feature will only work once the firewall is properly configured.
+> 1. If the Storage Account is required to have public network access disabled entirely and it can be accessed via Private Link Endpoint only, **then this is not a supported scenario for this feature**. In this case, consider using a different Storage Account with lower access restrictions.
 
 1. Sign into [portal.azure.com](https://portal.azure.com) using the same account where you're running Dynamics 365 Marketing.
 
