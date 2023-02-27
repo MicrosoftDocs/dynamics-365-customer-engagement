@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 The **Associated Grid Control** component helps you display the related details of a table record as subgrids. If you add this control to a form, you can configure up to four subgrids to display the relevant details.
 
-If you've added  **Associated Grid Control** to a form, here's what the user sees when the form loads:
+If you've added  **Associated Grid Control** to a case form, here's what the user sees when the form loads:
 
    :::image type="content" source="media/associated-grid-control-img-mini.png" alt-text="Image of card during runtime" lightbox="media/associated-grid-control-img.png":::
 
