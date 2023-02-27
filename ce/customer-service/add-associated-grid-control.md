@@ -25,8 +25,7 @@ The following screenshot is an example of how you can display knowledge articles
 1. Open the form to which you want to add **Associated Grid Control**.
 1. In the form designer, select **Components** from the left navigation, and then select **Associated Grid Control**.
 1. Drag it to the form.
-1. On the **Properties** panel, specify the following details to populate the records to be displayed on the subgrids. 
-    - Specify **Label** and **Name**. 
+1. On the **Properties** panel, specify the following details to populate the records to be displayed on the subgrids.
     - Add  **Table** and **Default view** from which the records must be displayed.
     - **Customizer control**: Specify the customizer control name for the entity. For example, you've configured a subgrid to display child cases. For the subgrid to display color-coded priority icons, you'll need to set the value of this field to  **MscrmControls.CustomCellControl.CustomCellControl**. More information: [Enable the grid control for the Case entity](enable-case-grids.md#enable-the-grid-control-for-the-case-entity)
      - **Customized title**: Specify the display name that appears as the subgrid's name when the card loads. The original view name is displayed by default if you don't specify a value for this field.
