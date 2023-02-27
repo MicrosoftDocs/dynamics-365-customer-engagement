@@ -45,18 +45,16 @@ highlightedContent:
       
 additionalContent: 
   sections:
-  - title: Implement <product name>
+  - title: Implement Sales
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
     - title: Guidance 
       links: 
-      - url:  https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409
-        text: License guide
       - url: dynamics-365-sales-gdpr.md
         text: Security and compliance # We need to create an overview page covering GDPR for sales and sales premium
-      - url: faq-sales.md
-        text: Frequently asked questions
+      - url:  https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409
+        text: License guide
       - url: system-requirements-for-sales-apps
         text: System requirements
     - title: Try/Buy/Deploy
@@ -75,3 +73,73 @@ additionalContent:
         text: Sales setup # Need an overview page covering setting up BPFs, business units, territories, currencies, fiscal etc.
       - url: /power-apps/maker/model-driven-apps/configure-interactive-experience-dashboards 
         text: Reporting setup # Need an overview page covering different dashboards and reports available and how to set up.
+  - title: Administer and develop Sales
+    items:
+    - title: Manage 
+      links: 
+      - url: dynamics-365-sales-gdpr.md
+        text: Manage environments # We need to create an overview page covering GDPR for sales and sales premium
+      - url:  https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409
+        text: Manage users
+      - url: system-requirements-for-sales-apps
+        text: Manage roles
+    - title: Developer reference
+      links: 
+      - url: https://dynamics.microsoft.com/en-us/sales/pricing/
+        text: Sales entities reference
+      - url: sign-up-for-sales-trial
+        text: Sales Premium entities reference
+      - url: intro-admin-guide-sales-insights.md
+        text: Action reference 
+  - title: Use Sales
+# Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
+# Each card should have at least three and no more than five links. Do not include a "See also" link.
+    items:
+    - title: Lead and opportunity  
+      links: 
+      - url: dynamics-365-sales-gdpr.md
+        text: Overview # We need to create an overview page covering GDPR for sales and sales premium
+      - url:  https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409
+        text: License guide
+      - url: system-requirements-for-sales-apps
+        text: System requirements
+    - title: Quote, order, and invoice
+      links: 
+      - url: sign-up-for-sales-trial
+        text: Try Dynamics 365 Sales
+      - url: https://dynamics.microsoft.com/en-us/sales/pricing/
+        text: Buy Dynamics 365 Sales
+      - url: Install Dynamics 365 Sales
+        text: intro-admin-guide-sales-insights.md # Need an overview page covering all installation options.
+    - title: Forecasting
+      links: 
+      - url: sign-up-for-sales-trial
+        text: Try Dynamics 365 Sales
+      - url: https://dynamics.microsoft.com/en-us/sales/pricing/
+        text: Buy Dynamics 365 Sales
+      - url: Install Dynamics 365 Sales
+        text: intro-admin-guide-sales-insights.md # Need an overview page covering all installation options.
+    - title: Sales accelerator
+      links: 
+      - url: sign-up-for-sales-trial
+        text: Try Dynamics 365 Sales
+      - url: https://dynamics.microsoft.com/en-us/sales/pricing/
+        text: Buy Dynamics 365 Sales
+      - url: Install Dynamics 365 Sales
+        text: intro-admin-guide-sales-insights.md # Need an overview page covering all installation options.
+    - title: Quote, order, and invoice
+      links: 
+      - url: sign-up-for-sales-trial
+        text: Try Dynamics 365 Sales
+      - url: https://dynamics.microsoft.com/en-us/sales/pricing/
+        text: Buy Dynamics 365 Sales
+      - url: Install Dynamics 365 Sales
+        text: intro-admin-guide-sales-insights.md # Need an overview page covering all installation options.
+    - title: Quote, order, and invoice
+      links: 
+      - url: sign-up-for-sales-trial
+        text: Try Dynamics 365 Sales
+      - url: https://dynamics.microsoft.com/en-us/sales/pricing/
+        text: Buy Dynamics 365 Sales
+      - url: Install Dynamics 365 Sales
+        text: intro-admin-guide-sales-insights.md # Need an overview page covering all installation options.
