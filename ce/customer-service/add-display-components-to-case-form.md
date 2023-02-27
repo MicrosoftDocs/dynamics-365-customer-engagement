@@ -1,6 +1,6 @@
 ---
 title: Configure components to display customer details and recent records | MicrosoftDocs 
-description: Learn about adding Customer360 and Recent Records cards to forms
+description: Learn about adding the Associated grid control component to forms
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
