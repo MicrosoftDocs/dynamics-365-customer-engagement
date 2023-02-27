@@ -40,7 +40,7 @@ items:
     - name: Install Field Service
       href: install-field-service.md
     - name: Update Field Service
-      href: upgrade-field-service.md
+      href: update-field-service.md
     - name: Uninstall Field Service
       href: uninstall-field-service.md
     - name: Preview new features
@@ -357,16 +357,10 @@ items:
             href: cfs-pull-device-data.md
           - name: "Quickstart: Build your own IoT solution"
             href: connected-field-service-overview.md
-      - name: Azure IoT Central
-        href: cfs-iot-overview.md
       - name: Use custom IoT providers
         href: cfs-custom-iot-provider.md
   - name: Analyze
     items:
-      - name: Receive IoT alerts from Azure IoT Central
-        href: cfs-iot-central-alerts.md
-      - name: Associate devices with customer accounts
-        href: cfs-iot-central-associate-devices.md
       - name: Summary tiles
         href: cfs-summary-tiles.md
       - name: Visualizing device readings
@@ -383,8 +377,6 @@ items:
         href: cfs-mobile-powerapp.md
       - name: Send commands
         href: cfs-commands.md
-      - name: Receive IoT alerts from real MXChip device
-        href: cfs-iotcentral-mxchip.md
       - name: IoT - Parent IoT alerts workflow
         href: developer/iot-parent-iot-alerts-workflow.md
       - name: Extend standard components or add Azure services
