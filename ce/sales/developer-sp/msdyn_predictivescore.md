@@ -700,7 +700,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_msdyn_predictivescore_lead"></a> msdyn_msdyn_predictivescore_lead
 
-Same as the [msdyn_msdyn_predictivescore_lead](../developer/entities/lead.md#BKMK_msdyn_msdyn_predictivescore_lead) many-to-one relationship for the [lead](../developer/entities/lead.md) table/entity.
+Same as the [msdyn_msdyn_predictivescore_lead](../developer/entities/lead.md) many-to-one relationship for the [lead](../developer/entities/lead.md) table/entity.
 
 |Property|Value|
 |--------|-----|
@@ -715,7 +715,7 @@ Same as the [msdyn_msdyn_predictivescore_lead](../developer/entities/lead.md#BKM
 
 ### <a name="BKMK_msdyn_msdyn_predictivescore_opportunity"></a> msdyn_msdyn_predictivescore_opportunity
 
-Same as the [msdyn_msdyn_predictivescore_opportunity](../developer/entities/opportunity.md#BKMK_msdyn_msdyn_predictivescore_opportunity) many-to-one relationship for the [opportunity](../developer/entities/opportunity.md) table/entity.
+Same as the [msdyn_msdyn_predictivescore_opportunity](../developer/entities/opportunity.md) many-to-one relationship for the [opportunity](../developer/entities/opportunity.md) table/entity.
 
 |Property|Value|
 |--------|-----|
@@ -745,5 +745,5 @@ Same as the [msdyn_PS_PMS](msdyn_predictivemodelscore.md#BKMK_msdyn_PS_PMS) many
 
 ### See also
 
-[About the table reference](about-entity-reference.md)<br />
+[Dynamics 365 Sales table/entity reference](../developer/about-entity-reference.md)
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
