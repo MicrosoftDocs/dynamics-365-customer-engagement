@@ -21,9 +21,6 @@ search.app:
 
 Dynamics 365 Marketing provides a wide selection of built-in analytics throughout the application. But you can also create your own custom analytics and reports from your Dynamics 365 Marketing data by using Power BI. We provide endpoints that you can use to connect Power BI to Dynamics 365 Marketing, plus a downloadable Power BI template that you can open in Power BI Desktop, connect to your Dynamics 365 data sources, and then customize as needed. When you're done setting it up, you can publish and share your Power BI report using the standard Power BI online tools.
 
-> [!NOTE]
-> For information about public IP addresses used for Dynamics 365 Marketing services, see [Dynamics 365 Marketing public IP addresses](marketing-public-ips.md).
-
 <a name="data-sources"></a>
 
 ## Data sources for custom analytics
@@ -58,6 +55,13 @@ for a quick overview of all the data that is available for your marketing analyt
 > 1. Stop ongoing export using the configuration in the Marketing app.
 > 1. Delete the container with existing interactions data.
 > 1. Create a new container and start a new export as usual.
+
+> [!IMPORTANT]
+> Here are some considerations related to configuring Azure Storage Account Firewall (limited public network access) which is to be used for Analytics data export:
+>
+> 1. If the limited Public network access ([Configure Azure Storage firewalls and virtual networks](https://learn.microsoft.com/en-us/azure/storage/common/storage-network-security?tabs=azure-portal)) to the Storage Account firewall is not required to be enabled, then please proceed with further configuration steps. **It will be possible to complete this guide and enable the feature**.
+> 1. In case it is required to enable limited public network access to the Storage Account, i.e. access is Enabled from selected virtual networks and IP addresses only, **then please contact our Customer support team to assist you for Storage Firewall configuration**. This is a complicated scenario and the assistance will be required from our support team based on the Storage Account location and service instance data. In the meantime, it is possible to continue with remaining steps, but the feature will work only once the firewall is properly configured.
+> 1. If the Storage Account is required to have Public network access disabled entirely, and it can be accessed via Private Link Endpoint only, **then this is not unfortunately supported scenario for this feature**, and please consider using a different Storage Account with lower access restrictions.
 
 1. Sign into [portal.azure.com](https://portal.azure.com) using the same account where you're running Dynamics 365 Marketing.
 
