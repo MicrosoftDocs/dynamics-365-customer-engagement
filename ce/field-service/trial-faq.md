@@ -1,22 +1,20 @@
 ---  
-title: "Trial FAQ - Dynamics 365 Field Service | Microsoft Docs"
-description: "Solutions to common questions related to Dynamics 365 Field Service trial setup and management. Learn how to resolve platform and app-specific issues"
+title: Dynamics 365 Field Service trial FAQ
+description: Solutions to common questions related to Dynamics 365 Field Service trial setup and management. Learn how to resolve platform and app-specific issues.
 author: jshotts
 ms.author: jasonshotts
-ms.date: 10/01/2021
+ms.date: 02/27/2023
 ms.topic: get-started
-
 ms.custom: template-trial-faq
 ---
 
-# Dynamics 365 Field Service trial FAQ 
-
+# Dynamics 365 Field Service trial FAQ
 
 [!INCLUDE[trial-faq-platform](../shared/trials/trial-faq-platform.md)]
 
 ### Can I convert the trial to a paid license?
 
-Yes, you can purchase licenses through direct credit card purchase at admin.microsoft.com. You can also work with sales to establish a volume licensing or enterprise agreement. For more information on pricing and purchasing, visit our [pricing page](https://dynamics.microsoft.com/pricing/).
+Yes, you can purchase licenses through direct credit card purchase. You can also work with sales to establish a volume licensing or enterprise agreement. For more information on pricing and purchasing, visit our [pricing page](https://dynamics.microsoft.com/pricing/).
 
 To purchase the license using an existing account, work with the administrator of the account to apply for licenses.
 
@@ -40,19 +38,19 @@ After you sign up for the trial, you will arrive on the app's main screen. The m
 
 The trial comes with guided tours and videos that highlight key product features for you to try. When the trial is ready, you can get started with the following:
 
-- Follow the guided tours on the Get started page to learn how Field Service can help your business schedule work intelligently and deliver proactive service using smart device alerts. 
+- Follow the guided tours on the Get started page to learn how Field Service can help your business schedule work intelligently and deliver proactive service using smart device alerts.
 
 - Download the mobile app and follow the guided tour to learn how your frontline workers can use the app to manage their day and increase their first-time fix rate.  
 
-- Watch tutorials on how to easily set up your frontline workers and customer accounts, create and schedule work orders, and analyze your field service operations, so you can see how Field Service works with your own business data.
+- Set up your frontline workers and customer accounts, create and schedule work orders, and analyze your field service operations, so you can see how Field Service works with your own business data.
 
 ### How do I remove sample data from the trial?
 
-Sign into your trial environment. On the **Get Started** page, there is a **Remove sample data** section at the bottom of the screen. Select the **Remove** button to remove all sample data from the trial. 
+Sign into your trial environment. On the **Get Started** page, there is a **Remove sample data** section at the bottom of the screen. Select the **Remove** button to remove all sample data from the trial.
 
 > [!Note]
 > If you created new records that referred to the sample data, sample data deletion will fail. For instance, you created a work order with the sample **Incident Type** *Installation*. In this case, the *Installation* incident type will not be deleted.
-> 
+>
 > To see additional bulk delete job details, go to **Advanced Settings** > **Settings** > **Sample Records Delete**.
 
 ### How do I restore sample data?
