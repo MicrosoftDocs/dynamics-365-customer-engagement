@@ -16,7 +16,7 @@ The **Associated Grid Control** component helps you display details of a table r
 
 If you've added  **Associated Grid Control** to a form, here's what the user sees when the form loads:
 
- :::image type="content" source="media/assosciated-grid-control-img-mini.png" alt-text="Image of card during runtime" lightbox="media/assosciated-grid-control-img.png":::
+ :::image type="content" source="media/associated-grid-control-img-mini.png" alt-text="Image of card during runtime" lightbox="media/associated-grid-control-img.png":::
 
 ## Add the component and configure the subgrid
 
