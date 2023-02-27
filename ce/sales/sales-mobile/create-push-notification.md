@@ -1,17 +1,19 @@
 ---
 title: Create custom push notifications for the Dynamics 365 Sales mobile app
 description: Learn to create custom push notifications for the Dynamics 365 Sales mobile app.
-ms.date: 10/25/2021
+ms.date: 02/27/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
+
 # Create custom push notifications 
 
 Push notifications help to engage app users and help them prioritize key tasks. 
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -36,15 +38,17 @@ For information about creating push notifications, go to [Create push notificati
 
 ## Validate your flow
 
-1. In [Power Automate](https://flow.microsoft.com) on the left pane, select **My flows**, and then select a flow.
+1. Sign in to [Power Automate](https://flow.microsoft.com).
+
+2. On the left pane, select **My flows**, and then select a flow.
 
     ![Select a flow.](media/select-flow.png "Select a flow")
 
-2. From the run history, select an instance of the run.
+3. From the run history, select an instance of the run.
 
     ![Run history of a flow.](media/flow-run-history.png "Run history of a flow")
 
-3. Validate the inputs passed during the run.
+4. Validate the inputs passed during the run.
 
     ![Validate the inputs of a flow.](media/flow-inputs.png "Validate the inputs of a flow")
 

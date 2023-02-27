@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customerengagement/on-premises/admin/connect-to-imap-servers.md",
+      "redirect_url": "connect-gmail-oauth2",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/design-digital-content.md",
       "redirect_url": "real-time-marketing-email",
       "redirect_document_id": "false"
@@ -258,6 +263,11 @@
     {
       "source_path": "ce/resources/supp-dynamics365-fieldservice.md",
       "redirect_url": "https://go.microsoft.com/fwlink/?linkid=396733",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/create-early-bound-entity-classes-code-generation-tool.md",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/generate-early-bound-classes",
       "redirect_document_id": "false"
     },
     {
@@ -24654,6 +24664,46 @@
       "source_path": "ce/field-service/5-stages-scheduling-adoption.md",
       "redirect_url": "/field-service/universal-resource-scheduling-for-field-service",
       "redirect_document_id": "false"      
+    },
+    {
+      "source_path": "ce/field-service/cfs-iot-central-alerts.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iot-central-associate-devices.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iot-central-bookings.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iot-central-work-orders.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iot-tutorial-overview.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iotcentral-mxchip.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-iot-overview.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/upgrade-field-service.md",
+      "redirect_url": "/dynamics365/field-service/update-field-service",
+      "redirect_document_id": "false"
     }
   ]
 }

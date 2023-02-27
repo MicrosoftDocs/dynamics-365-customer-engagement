@@ -67,7 +67,7 @@ Before we begin, here are the top places for information about Field Service:
 <li><a href="https://youtu.be/oJ-3HTJWRMo" data-raw-source="[Module 8b: Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)">Module 8b: Set up automatic scheduling for work orders</a></li>
 <li><a href="https://youtu.be/fcQwIXgmnqk" data-raw-source="[Module 9a: Automated scheduling scenarios with Field Service](https://youtu.be/fcQwIXgmnqk)">Module 9a: Automated scheduling scenarios with Field Service</a></li>
 <li><a href="https://youtu.be/ida7f0gtAYU" data-raw-source="[Module 10: Set up and use Dynamics 365 Remote Assist with Field Service](https://youtu.be/ida7f0gtAYU)">Module 10: Set up and use Dynamics 365 Remote Assist with Field Service</a></li>
-<li><a href="https://youtu.be/hvcqAbe4g4E" data-raw-source="[Set up Connected Field Service with Azure IoTCentral](https://youtu.be/hvcqAbe4g4E)">Set up Connected Field Service with Azure IoTCentral</a></li>
+i>
   </li> 
   </ul>
   </td>
@@ -190,7 +190,7 @@ Looking for training outside of documentation? Here are some of our training res
 
 - [Implementing Microsoft Dynamics 365 for Field Service](/training/paths/implementing-dyn365-field-service/): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours.
 - [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/training/paths/universal-resource-scheduling/): Schedule anything to the right resource for any job or task with ease. Takes 5 hours.
-- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/training/paths/working-with-connected-field-service-iot/): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
+- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/training/paths/working-with-connected-field-service-iot/): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring, and servicing equipment. Takes 6 hours.
 - [Learn the fundamentals of Microsoft Dynamics 365 Marketing](/training/paths/dynamics-365-fundamentals/): This learning path introduces learners to the core capabilities of Dynamics 365 Marketing. You will learn about the core product capabilities and other tools that you can use to successfully and effectively manage marketing activities. This learning path helps prepare you for Exam MB-910: Microsoft Dynamics 365 Fundamentals (CRM). Takes 1 hour, 15 minutes.
 
 ### Functional Consultant
@@ -198,7 +198,7 @@ Looking for training outside of documentation? Here are some of our training res
 - [Implementing Microsoft Dynamics 365 for Field Service](/training/paths/implementing-dyn365-field-service/): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours. Also available as a series of instructor-led courses:
   - [Microsoft Dynamics 365 Field Service, MB240](/certifications/courses/mb-240t00)
 - [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/training/paths/universal-resource-scheduling/): Schedule anything to the right resource for any job or task with ease. Universal Resource Scheduling (URS) is a Dynamics 365 Field Service solution that allows organizations from different industries with different scenarios schedule resources. Takes 7 hours.
-- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/training/paths/working-with-connected-field-service-iot/): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
+- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/training/paths/working-with-connected-field-service-iot/): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring, and servicing equipment. Takes 6 hours.
 
 ### Certifications
 
