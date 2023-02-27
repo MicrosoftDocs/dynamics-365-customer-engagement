@@ -4,5 +4,4 @@
 
 If you don't specify a connection string in cds/App.config file, a dialog opens each time you run the sample, and you'll need to enter information about which Dataverse instance you want to connect to and which credentials you want to use. This dialog caches previous connections so that you can choose a previously used connection.
 
-Those samples in this repo that require a connection to a Common Data Service instance to run includes a linked reference to the cds/App.config file.
-
+Those samples in this repo that require a connection to a Common Data Service instance to run includes a linked reference to the cds/App.config file.  
