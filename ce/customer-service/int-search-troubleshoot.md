@@ -9,7 +9,17 @@ ms.date: 02/24/2023
 ms.custom: bap-template
 ---
 
-# Data doesn't get updated on the Insights tab for integrated search providers
+# Data doesn't get updated on the Insights tab for integrated search providers (preview)
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
 
 ## Symptoms
 
@@ -25,4 +35,4 @@ Perform the following troubleshooting steps to diagnose and fix the issue:
 - Make sure that you haven't selected the **No refresh** option for **Refresh interval** for a data provider.
 - If the source is authenticated, make sure that the secret provided is correct.
 
-If the issue persists, raise a Microsoft support ticket.
+If the issue persists, raise a Microsoft Support ticket.
