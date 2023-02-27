@@ -1,8 +1,8 @@
 ## Release schedule
 
-When a new version of Dynamics 365 Universal Resource Scheduling releases, it becomes available in different geographic regions at different times. Use the table below to see estimates for when the next release will become available in the region of your environment.
+When a new version of Universal Resource Scheduling (URS) releases, it becomes available in different geographic regions at different times. Use the table below to see estimates for when the next release will become available in the region of your environment.
 
-For information about other updates to Universal Resource Scheduling, visit the [Dynamics 365 release plans](/dynamics365/release-plans/).
+For information about other updates to Universal Resource Scheduling, visit the Field Service section of the [Dynamics 365 release plans](/dynamics365/release-plans/).
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
@@ -31,12 +31,12 @@ For information about other updates to Universal Resource Scheduling, visit the 
 
 - Removed error logging for extraneous "Failed to resolve sorting" issue that was bloating error logs.
 - Bug Fixes
-  -  The date in the prompt message when moving a booking in the weekly view is fixed to display the date the booking would be moved to instead of the first day of that week. The selected date will now be consistent with the original date (e.g. from Monday to Monday the following week).
+  -  When moving a booking in the weekly view the date in the prompt message now correctly displays the date the booking is moving to instead of the first day of that week. The date selected is consistent with the original date (e.g. from Monday to Monday the following week).
   -  Icon for locked bookings will now be displayed on the schedule board.
-  -  RSO options for single resource optimization will now behave similarly to the legacy schedule board.
-  -  Fixed an issue where the schedule board would occasionally not respect the start/end times in the Working time settings.
+  -  Resource Scheduling Optimizations options on the schedule board for single resource optimization will now behave similarly to the legacy schedule board.
+  -  The schedule board will now always respect the start/end times in the Working time settings.
   -  Selecting a resource on hourly/weekly/daily view on the schedule board should now open the Create Booking panel as expected.
-  -  Fixed an issue where switching from daily to hourly view would occasionally crash the schedule board.
+  -  Switching from daily to hourly view on the schedule board will no longer occasionally crash the schedule board.
 
 ## 3.12.96.38
 
@@ -48,15 +48,15 @@ For information about other updates to Universal Resource Scheduling, visit the 
 
 **Resource Scheduling controls:** 1.2.36.230171
 
-- Improved data caching on schedule board
-- Decreased the number of times the schedule board will refresh on load, particularly for Schedule Assistant
+- Improved data caching on schedule board, reducing the time it takes to load the schedule board or switch between tabs.
+- Decreased the number of times the schedule board will refresh on load, particularly for Schedule Assistant, reducing screen flicker and page loading times.
 - Bug fixes
   - Creating a booking with 1 minute duration will now behave as expected.
   - Typing quickly in the search or filter boxes on the schedule board will no long close the input box.
   - Changing non-working hours color on the schedule board no longer requires a full page refresh for the selected color to be displayed.
-  - Fixed an issue that would cause the time on the schedule board to not respect personalization settings at certain zoom levels.
+  - The time on the schedule board will now always respect personalization settings at across zoom levels.
   - When using the "Rebook" option, the suggested start time will be the start time on the existing booking.
-  - Fixed an issue that could cause the schedule board to crash when switching tabs wiwth different timezones on the schedule board.
+  - The schedule board will no longer crash when switching between tabs with different timezones on the schedule board.
 
 ## 3.12.92.14
 
@@ -73,7 +73,6 @@ For information about other updates to Universal Resource Scheduling, visit the 
 - Requirements can be scheduled multiple times while first one is still booking.
 - Fixed a bug where drag and drop booking in new schedule board before booking is complete results in duplicate booking.
 - Improved formatting function to display duration in day view and negative duration.
-
 
 ## 3.12.91.2
 
