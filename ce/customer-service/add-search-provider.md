@@ -40,7 +40,7 @@ You must enable the integrated search provider provisioning from the Customer Se
 1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers (Preview)** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
 
-You will get an error message stating that integrated search feature isn't enabled in your geo. You must raise a support request to enable the provisioning.
+You may get an error message stating that integrated search feature isn't enabled in your geo. If you get this error, you can raise a support request to enable the provisioning.
 
 ### Turn on the Integrated Search API trigger flow
 
