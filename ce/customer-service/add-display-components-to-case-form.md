@@ -37,7 +37,7 @@ After you add the **Customer 360** control to a case form, when an agent selects
 1. On the **Properties** panel, do the following actions:
     - Select the attributes from the table that must be displayed as fields on the form to the user. You can select up to seven simple and three composite attributes.
     - Specify if the users can edit the fields in the card in the **Enable Editing** drop down. This field is set to **Yes** by default.
-    - Specify **Static Value** and select **Show Static Header** to yes. The application displays the  **Static value** value name as the name on the card instead of Account/contact name.
+    - Specify **Static Value** and select **Show Static Header** to yes. The application displays the  **Static value** value name as the name on the card instead of the account or contact name.
     - Save and publish the form.
 1. Repeat steps 3 to 6 for the **Contact** table.
 
