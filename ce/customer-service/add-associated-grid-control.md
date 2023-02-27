@@ -33,6 +33,9 @@ The following screenshot is an example of how you can display knowledge articles
      - **Customized title**: Specify the display name that appears as the subgrid's name when the card loads. The original view name is displayed by default if you don't specify a value for this field.  
 1. To configure subgrids 2 to 4, specify the values for **Table**, **Default View**, **Customizer control**, and **Customizer control** for the corresponding subgrids in the **Edit Associated Grid Control** pane.
 1. You'll also have to specify the table relationship in [**Relationship Name**](add-associated-grid-control.md#configure-related-records-for-multiple-subgrids) to display the related records in **Subgrid 2** to **Subrgid 4**. 
+
+    :::image type="content" source="media/assoc-case-grid-mini.png" alt-text="associated grid control" lightbox="media/assoc-case-grid.png":::
+
      
 ## Configure related records for multiple subgrids
 
