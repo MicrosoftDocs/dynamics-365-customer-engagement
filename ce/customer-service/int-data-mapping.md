@@ -55,7 +55,7 @@ If the validation is successful, you'll see a confirmation message. If the valid
 
 ## Use JSON
 
-1. Copy and paste your article properties and schema JSON in the field provided to you. For more information on creating the JSON schema, go to [Develop metadata mapping schema for knowledge articles (preview)](int-search-metadata-schema.md#develop-metadata-mapping-schema-for-knowledge-articles-preview)
+1. Copy and paste your article properties and schema JSON in the field provided to you. For more information on creating the JSON schema, go to **Develop metadata mapping schema for knowledge articles (preview)**.
 1. Select **Validate json**.
  
     You'll get a message to denote whether the JSON validation has passed or failed. If there is an error, the error message will state the parameter with the incorrect value.
