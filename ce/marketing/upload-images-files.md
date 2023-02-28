@@ -1,7 +1,7 @@
 ---
-title: "Upload and use images in online content (Dynamics 365 Marketing) | Microsoft Docs"
+title: Upload and use images in online content
 description: "How to upload, tag, and find images for use in emails and marketing pages in Dynamics 365 Marketing."
-ms.date: 02/01/2023
+ms.date: 03/02/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
