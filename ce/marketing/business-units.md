@@ -38,5 +38,6 @@ For complete details about how business units work in model-driven apps in Dynam
 
 ## Use business units in outbound or real-time marketing
 
-- [Business unit support in outbound marketing](business-unit-support-outbound-marketing.md)
+- [Business unit support in outbound marketing](business-units-support-outbound-marketing.md)
 - [Business unit support in real-time marketing](real-time-marketing-business-units.md)
+- [Support for modernized business units ](real-time-marketing-modernized-business-units.md)
