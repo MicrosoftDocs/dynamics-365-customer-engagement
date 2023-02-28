@@ -37,9 +37,9 @@ Any user who already has a license for any model-driven app in Dynamics 365 also
 ### Grant access to users without a Dynamics 365 license
 
 > [!IMPORTANT]
-> Users that are verified within your organization through [Azure Active Directory (AAD)](/azure/active-directory/fundamentals/active-directory-whatis) will automatically be assigned a "Marketer" role when they access the app. **You do not need to follow the steps below for users that are verified through AAD.**
+> Dynamics 365 Marketing is a tenant-level license; it does not require explicit seat assignment for users to access the application. To sync users who are in your organization's [Azure Active Directory (AAD)](/azure/active-directory/fundamentals/active-directory-whatis) to the Marketing app, give them URL for the application environment. When they attempt to access the environment, their identity will be sync'd to Dynamics 365 and a Dynamics 365 user will be created for them and assigned the Marketer role.
 >
-> If you are having trouble granting users access or if they are not verified through AAD, follow the steps below to assign a free Marketing user license.
+> If you're having trouble granting users access, you can force the user assignment with a free Marketing user license, as detailed in the steps below.
 
 For Microsoft 365 users that don't have a Dynamics 365 license, you can "purchase" and assign a free Marketing user license. Free Marketing user licenses don't grant access to any other Dynamics 365 apps, but you can have as many of them as you need to grant access to Marketing.
 
