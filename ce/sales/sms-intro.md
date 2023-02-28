@@ -28,6 +28,7 @@ Depending on your role, you can use the text message feature as described in the
 -	System administrator or similar role:
     -	Configure the SMS provider in your organization for sellers to use. More information: [Configure SMS provider](configure-sms-provider.md)
     -	Assign or remove phone numbers of users. More information: [Edit phone numbers](edit-phone-numbers.md)
+    -   Add the text message option to custom forms. More information: [Add text message option to custom forms](add-sms-option-custom-forms.md)      
 - 	Sales manager, seller, or any other similar role: 
     -	Choose a service provider to send and receive SMS. More information: [Understand the conversation pane](manage-text-message-communications.md#understand-the-conversation-pane)
     -	Add text message and automated text message as steps in a sequence. More information: [Send a text message](steps-sequence.md#send-a-text-message) and [Send an automated text message](steps-sequence.md#send-an-automated-text-message)

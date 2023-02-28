@@ -1,18 +1,19 @@
 ---
-title: "Understand conversation states | MicrosoftDocs"
+title: Understand conversation states 
 description: "Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
-ms.date: 01/24/2023
-ms.topic: article
+ms.date: 02/22/2023
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 
 # Understand conversation states
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic explains the various states and status reasons of the conversation (work item) in Omnichannel for Customer Service.
+This article explains the various states and status reasons of the conversation (work item) in Omnichannel for Customer Service.
 
 The conversation can be in an open or closed state, and can have the following status reasons:
 
@@ -98,10 +99,11 @@ The conversations that are completed by ending them or closing the session are c
 
 Omnichannel for Customer Service has a default time set for the conversation to close automatically. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve a closure, and agents can focus on important conversation, which ultimately enhances the productivity.
 
-The Omnichannel for Customer Service application checks the conversations every 12 hours to identify those that do not transition for more than the default configured time. Such conversations become eligible for automatic closure, and the next time that the scheduler runs, these conversations are moved from the existing state to the **Closed** state.
+The Omnichannel for Customer Service scheduler checks conversations every 5 minutes to identify those conversations that don't transition for more than the default configured time. Such conversations become eligible for automatic closure, so the next time the scheduler runs, the conversations are moved from the existing state to the **Closed** state.
 
 > [!IMPORTANT]
-> To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
+> - To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
+> - For any actions performed on the conversations such as monitor, consult, or transfer, the scheduler will automatically recalculate the time to close the conversation.
 
 ### Default time for automatic closure of conversations
 
@@ -124,11 +126,7 @@ The following table describes the channel, status reason, and default configured
  |  |  |  |  |
  | SMS, Teams, persistent chat, and social | Open | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that has been in the **Open** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
  | SMS, Teams, and social | Active | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that has been in the **Active** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Active** to the **Closed** state. |
- | SMS, Teams, persistent chat, and social | Wrap-up | 1 day | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that has been in the **Wrap-up** state for more than 1 day is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
-
-For example, let's say the scheduler runs every 12 hours starting at 0000 hours.
-
-For the chat channel, consider a conversation that's in the **Open** state at 1800 hours of Jan 10, 2020, and remains in this state until 2359 hours at night. Because the conversation is open for more than 20 minutes (default configured time), this conversation is eligible for automatic closure. At 0000 hours of Jan 11, 2020, when the scheduler runs, the conversation that's in the **Open** state is moved to the **Closed** state.
+ | SMS, Teams, persistent chat, and social | Wrap-up | One day | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that has been in the **Wrap-up** state for more than one day is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
 
 
 ### Conversation in waiting
