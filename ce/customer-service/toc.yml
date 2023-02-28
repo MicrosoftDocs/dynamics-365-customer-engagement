@@ -454,6 +454,8 @@
         href: configure-knowledge-article-origin-allow-list.md
       - name: Configure knowledge search control on app side pane for an entity record
         href: configure-knowledge-search-control-productivity-pane.md
+      - name: Develop metadata mapping schema for knowledge articles
+        href: int-search-metadata-schema.md
     - name: Knowledge author experience
       items:
       - name: Understand the knowledge article creation process
@@ -512,6 +514,8 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
+      - name: Transform and map external source data values to corresponding target knowledge attribute
+        href: create-a-conversion-plugin.md        
   - name: Microsoft Teams for collaboration
     items:
     - name: Introduction to collaboration
