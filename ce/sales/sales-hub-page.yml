@@ -98,11 +98,13 @@ additionalContent:
     - title: Lead and opportunity  
       links: 
       - url: dynamics-365-sales-gdpr.md
-        text: Overview # We need to create an overview page covering GDPR for sales and sales premium
+        text: Lead qualification # We need to create an overview page covering GDPR for sales and sales premium
       - url:  https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409
-        text: License guide
+        text: Duplicate lead detection
       - url: system-requirements-for-sales-apps
-        text: System requirements
+        text: LinkedIn Sales Navigator integration
+      - url: system-requirements-for-sales-apps
+        text: Predictive scoring  
     - title: Quote, order, and invoice
       links: 
       - url: sign-up-for-sales-trial
@@ -127,7 +129,7 @@ additionalContent:
         text: Buy Dynamics 365 Sales
       - url: Install Dynamics 365 Sales
         text: intro-admin-guide-sales-insights.md # Need an overview page covering all installation options.
-    - title: Quote, order, and invoice
+    - title: Relationship intelligence
       links: 
       - url: sign-up-for-sales-trial
         text: Try Dynamics 365 Sales
@@ -135,7 +137,7 @@ additionalContent:
         text: Buy Dynamics 365 Sales
       - url: Install Dynamics 365 Sales
         text: intro-admin-guide-sales-insights.md # Need an overview page covering all installation options.
-    - title: Quote, order, and invoice
+    - title: Conversation intelligence
       links: 
       - url: sign-up-for-sales-trial
         text: Try Dynamics 365 Sales
