@@ -35,4 +35,59 @@ landingContent:
           url: learning-functional-consultant.md#marketing
         - text: Exams
           url: learning-functional-consultant.md#exam
-  
+
+# Card 
+- title: Materials for implementation project managers
+  linkLists:
+      - linkListType: learn
+        links:
+        - text: Project managers learning catalog
+          url: learning-project-manager.md
+        - text: Marketing
+          url: learning-project-manager.md#marketing
+        - text: Exams
+          url: learning-project-manager.md#exam
+
+# Card 
+- title: Materials for sales roles
+  linkLists:
+      - linkListType: learn
+        links:
+        - text: Sales learning catalog
+          url: learning-sales.md
+
+# Card 
+- title: Materials for business users
+  linkLists:
+      - linkListType: learn
+        links:
+        - text: Business users learning catalog
+          url: learning-bus-user.md
+        - text: Get started
+          url: learning-bus-user.md#get-started
+        - text: Marketing
+          url: learning-bus-user.md#marketing
+        - text: Exams
+          url: learning-bus-user.md#exam
+
+# Card 
+- title: Materials for business and technical decision makers
+  linkLists:
+      - linkListType: learn
+        links:
+        - text: Business and technical decision makers learning catalog
+          url: learning-bdm.md
+
+# Card 
+- title: Materials for developers
+  linkLists:
+      - linkListType: learn
+        links:
+        - text: Developers learning catalog
+          url: learning-developer.md
+        - text: Build
+          url: learning-developer.md#build
+        - text: Extend
+          url: learning-developer.md#extend
+        - text: Exams
+          url: learning-developer.md#exam
