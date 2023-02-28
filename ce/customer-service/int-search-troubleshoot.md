@@ -1,5 +1,5 @@
 ---
-title: Ingestion data isn't updated on Insights tab for integrated search providers
+title: Data doesn't get updated on the Insights tab for integrated search providers
 description: Learn how to provision, add, and manage integrated search providers.
 author: Soumyasd27
 ms.author: sdas
