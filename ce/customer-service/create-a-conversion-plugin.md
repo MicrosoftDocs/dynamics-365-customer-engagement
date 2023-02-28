@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 02/21/2023
+ms.date: 03/01/2023
 ms.custom: bap-template
 search.audienceType: 
   - developer
@@ -24,19 +24,29 @@ To transform and map the source values, perform the following steps:
       
  ``` C#
 
-        /// <summary>
-        /// The plug-in shows the sample code to map the external source value to the target attribute, when they're of different types
-	/// </summary>
-	/// <remarks>
-	/// To showcase the capabilities of the plugin, we have added 2 new attributes to the KnowledgeArticle entity.
-	/// The first attribute new_documentationcentersourcevalue is a String attribute that is mapped to the external source value. This is a temporary mapping that stores the source value.
-	/// The plugin picks up the source value from new_documentationcentersourcevalue. The source value can take the following values: Develop, Content, and Test.
-	/// new_documentationcenter is the target attribute of type OptionSet to which the source value must actually be mapped to.
-	/// Develop with value 100000000, Content with value 100000001, and Test with value 100000002
-	/// The goal of this plugin to read the value in the new_documentationcentersourcevalue, retrieve the related option set values of the target option set in new_documentationcenter, and map it to the value in new_documentationcentersourcevalue.
-	/// </remarks>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Remoting.Contexts;
+using System.Runtime.Remoting.Services;
+using System.ServiceModel;
+using Microsoft.Xrm.Sdk;
+using Microsoft.Xrm.Sdk.Messages;
+using Microsoft.Xrm.Sdk.Metadata;
 
-
+namespace PowerApps.Samples
+{
+    /// <summary>
+    /// The plug-in shows the sample code to map the external source value to the target attribute, when they're of different types
+    /// </summary>
+    /// <remarks>
+    /// To showcase the capabilities of the plugin, we have added 2 new attributes to the KnowledgeArticle entity.
+    /// The first attribute new_documentationcentersourcevalue is a String attribute that is mapped to the external source value. This is a temporary mapping that stores the source value.
+    /// The plugin picks up the source value from new_documentationcentersourcevalue. The source value can take the following values: Develop, Content, and Test.
+    ///The second attribute, new_documentationcenter, is the target attribute of type OptionSet to which the source value must actually be mapped to.
+    /// Develop with value 100000000, Content with value 100000001, and Test with value 100000002
+    /// The goal of this plugin to read the value from the new_documentationcentersourcevalue, retrieve the option set metadata of the target attribute new_documentationcenter, and map it to the value in new_documentationcentersourcevalue.
+    /// </remarks>
     public sealed class KnowledgePlugin : IPlugin
     {
         /// <summary>
@@ -62,7 +72,6 @@ To transform and map the source values, perform the following steps:
                 Entity entity = (Entity)context.InputParameters["Target"];
 
                 // Verify that the target entity represents knowledgearticle.
-        
                 if (entity.LogicalName != "knowledgearticle")
                 {
                     tracingService.Trace("KnowledgePlugin: Plugin is incorrectly called for the entity: " + entity.LogicalName);
@@ -72,7 +81,6 @@ To transform and map the source values, perform the following steps:
                 //Skip the plugin for RootArticles
                 const string isRootArticleAttributeName = "isrootarticle";
                 bool isRootArticle = entity.GetAttributeValue<bool>(isRootArticleAttributeName);
-
                 if (isRootArticle)
                 {
                     tracingService.Trace("KnowledgePlugin: Returning for Root Article");
@@ -86,7 +94,6 @@ To transform and map the source values, perform the following steps:
 
                     //Get the source value
                     string sourceValue = entity.GetAttributeValue<string>(sourceValueAttributeName);
-
                     if (string.IsNullOrEmpty(sourceValue))
                     {
                         tracingService.Trace("KnowledgePlugin: " + sourceValueAttributeName + " is not set");
@@ -96,21 +103,19 @@ To transform and map the source values, perform the following steps:
                     // Obtain the organization service reference.
                     IOrganizationServiceFactory serviceFactory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
                     IOrganizationService service = serviceFactory.CreateOrganizationService(context.UserId);
-                     
-                    // Retrieves the option set metadata
-                    OptionSetMetadata retrievedOptionSetMetadata = RetrieveOptionSet(service, entity, targetValueAttributeName, tracingService);
-                    tracingService.Trace("KnowledgePlugin: Done with retrievedOptionSetMetadata");
-                   // Checks if the source data value is present in the retrieved target data
-                    OptionMetadata matchedOptionMetadata = retrievedOptionSetMetadata?.Options?.First(optionMetadata => optionMetadata.Label.UserLocalizedLabel.Label == sourceValue);
-                    tracingService.Trace("KnowledgePlugin: Done with matchedOptionMetadata");
 
+                    // Retrieves the option set metadata of the target field.
+                    OptionSetMetadata retrievedOptionSetMetadata = RetrieveOptionSet(service, entity, targetValueAttributeName, tracingService);
+
+                    // Checks if the source data value is present in the retrieved target option set metadata.
+                    OptionMetadata matchedOptionMetadata = retrievedOptionSetMetadata?.Options?.First(optionMetadata => optionMetadata.Label.UserLocalizedLabel.Label == sourceValue);
                     if (matchedOptionMetadata == null || matchedOptionMetadata.Value == null)
                     {
                         tracingService.Trace("KnowledgePlugin: Matching OptionMetadata is not found");
                         return;
                     }
 
-                    // Maps the option set value of the string new_documentationcentersourcevalue to the target ption set new_documentationcenter
+                    // Maps the option set value of the string new_documentationcentersourcevalue to the target option set new_documentationcenter.
                     int optionSetValue = (int)matchedOptionMetadata.Value;
                     entity[targetValueAttributeName] = new OptionSetValue(optionSetValue);
                     tracingService.Trace("KnowledgePlugin: Successfully set the value.");
@@ -128,15 +133,13 @@ To transform and map the source values, perform the following steps:
             }
         }
 
-             /// <summary> 
-          /// Fetches the optionset metadata from the entity metadata
-            /// </summary>
+        /// <summary> 
+        /// Fetches the optionset metadata from the entity metadata
+        /// </summary>
         /// <param name="service">Organization Details</param>
-       /// <param name="entity">Entity record</param>
+        /// <param name="entity">Entity record</param>
         /// <param name="targetValueAttributeName">Optionset Attribute Name</param>
-       /// <param name="tracingService">Tracing Service</param>
-
-    
+        /// <param name="tracingService">Tracing Service</param>
         private OptionSetMetadata RetrieveOptionSet(IOrganizationService service, Entity entity, string targetValueAttributeName, ITracingService tracingService)
         {
             RetrieveEntityRequest retrieveEntityRequest = new RetrieveEntityRequest
@@ -145,15 +148,14 @@ To transform and map the source values, perform the following steps:
                 EntityFilters = EntityFilters.Attributes,
                 RetrieveAsIfPublished = true
             };
-            tracingService.Trace("KnowledgePlugin: Done with retrieveEntityRequest");
             RetrieveEntityResponse retrieveEntityResponse = (RetrieveEntityResponse)service.Execute(retrieveEntityRequest);
-            tracingService.Trace("KnowledgePlugin: Done with retrieveEntityResponse");
             EntityMetadata metadata = retrieveEntityResponse.EntityMetadata;
             PicklistAttributeMetadata picklistMetadata = metadata.Attributes.FirstOrDefault(attribute => string.Equals(attribute.LogicalName, targetValueAttributeName, StringComparison.OrdinalIgnoreCase)) as PicklistAttributeMetadata;
             return picklistMetadata.OptionSet;
         }
     }
 }
+
 
 ```
 	  
