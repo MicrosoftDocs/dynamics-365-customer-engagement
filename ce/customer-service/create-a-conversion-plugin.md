@@ -1,8 +1,8 @@
 ---
 title: Transform external source data values to corresponding target knowledge attribute
 description: Learn how you can convert and map source values with different types to the corresponding knowledge attribute
-author: Soumyasd27
-ms.author: sdas
+author: gandhamm
+ms.author: mgandham
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.date: 03/01/2023
