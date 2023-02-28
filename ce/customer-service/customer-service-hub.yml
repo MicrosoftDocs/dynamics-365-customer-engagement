@@ -47,128 +47,86 @@ additionalContent:
       links: 
       - url: learning-catalog.md
         text: Customer Service Learning Catalog
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text:
+      - url: /dynamics365/get-started/accessibility/
+        text: Accessibility in Dynamics 365
+      - url: dynamics365/customer-service/try-customer-service
+        text: Sign up for a free Dynamics 365 Customer Service trial
+      - url: /dynamics365/customer-service/trial-faq
+        text: Customer Service trial FAQ
     - title: Try/Buy/Deploy
       links: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
+      - url: /dynamics365/customer-service/availability-customer-service-hub
+        text: Install Customer Service
+      - url: /dynamics365/customer-service/move-cs-enterprise-cs-professional
+        text: Move from Dynamics 365 Customer Service Enterprise to Dynamics 365 Customer Service Professional
+      - url: /dynamics365/customer-service/upgrade-omnichannel
+        text: Upgrade Omnichannel for Customer Service
     - title: Set up 
       links:
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text:  
+      - url: /power-platform/admin/create-users?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
+        text: Set up personas and privileges in Customer Service
+      - url: /dynamics365/customer-service/add-users-assign-roles
+        text: Set up roles and enable users in Omnichannel for Customer
+      - url: /dynamics365/customer-service/cs-admin-center
+        text: Set up Customer Service admin center
   - title: Administer and develop Customer Service
     items:
-    - title: 
+    - title: Administer
       links:
-      - url: 
-        text: 
-      - url: 
-        text: 
-    - title: 
-      links: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-    - title: 
+      - url: /dynamics365/customer-service/omnichannel-provision-license#set-up-omnichannel-for-customer-service-
+        text: Manage environments for Omnichannel for Customer Service
+      - url: /dynamics365/customer-service/voice-channel-acs-resource
+        text: Connect to Azure Communication Services
+    - title: Develop
       links:
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-    - title: 
-      links:
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
+      - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
+        text: Omnichannel for Customer Service entity reference
+      - url: /dynamics365/customer-service/developer/omnichannel-reference
+        text: Live chat SDK Reference
   - title: Use Customer Service
     items:
-    - title: 
+    - title: Agent productivity
       links:
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-    - title: 
+      - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
+        text: Omnichannel for Customer Service entity reference
+      - url: /dynamics365/customer-service/developer/omnichannel-reference
+        text: Live chat SDK Reference
+    - title: Analytics and Insights
       links:
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-    - title: 
+      - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
+        text: Omnichannel for Customer Service entity reference
+      - url: /dynamics365/customer-service/developer/omnichannel-reference
+        text: Live chat SDK Reference 
+    - title: Use Service-level agreements
       links:
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-    - title: 
+      - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
+        text: Omnichannel for Customer Service entity reference
+      - url: /dynamics365/customer-service/developer/omnichannel-reference
+        text: Live chat SDK Reference 
+    - title: Microsoft Teams
       links:
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-    - title: 
+      - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
+        text: Omnichannel for Customer Service entity reference
+      - url: /dynamics365/customer-service/developer/omnichannel-reference
+        text: Live chat SDK Reference 
+    - title: Apps and personas
       links:
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
+      - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
+        text: Omnichannel for Customer Service entity reference
+      - url: /dynamics365/customer-service/developer/omnichannel-reference
+        text: Live chat SDK Reference
         text:   
   - title: Related products
     items:
         # Card
         
-        - title: 
-          summary:
-          url:
-        - title: 
-          summary:
-          url:
-        - title: 
-          summary:
-          url:
-        - title: 
-          summary:
-          url:
-        - title:
-          summary: 
-          url:
+        - title: Add-in solutions
+          summary: wip
+          url: /dynamics365/customer-service/developer/omnichannel-reference
+        - title: Services
+          summary: wip
+          url: /dynamics365/customer-service/developer/omnichannel-reference
+        - title: Apps
+          summary: wip
+          url: /dynamics365/customer-service/developer/omnichannel-reference
+       
