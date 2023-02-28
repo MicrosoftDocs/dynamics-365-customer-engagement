@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 02/27/2023
+ms.date: 02/28/2023
 ms.custom: bap-template
 ---
 
@@ -29,8 +29,7 @@ Data isn't updated on the **Insights** tab even after the scheduled refresh inte
 
 Perform the following troubleshooting steps to diagnose and fix the issue:
 
-- Check if the connection references are set properly in the cloud flow and the flow runs are being triggered at the scheduled refresh interval. If the connection reference or flow isn't turned on, then the ingestion doesn't run at regular intervals.
-- Check whether the root URL or the sitemap URL are configured correctly. There is a possibility that there is some misconfiguration or the URLs provided don't exist. Check the URLs on the browser to make sure that they are valid ones.
+- Check whether the root URL and the sitemap URL are configured correctly. There is a possibility that there is some misconfiguration or the URLs provided don't exist. Check the URLs on the browser to make sure that they are valid ones.
 - Check if the **External Reference Id** field is mapped to a unique field in the source property. As the ID is expected to be unique, mapping repeated or non-unique fields for this field from the source will cause issues when articles are ingested.
 - Make sure that you haven't selected the **No refresh** option for **Refresh interval** for a data provider.
 - If the source is authenticated, make sure that the secret provided is correct.
