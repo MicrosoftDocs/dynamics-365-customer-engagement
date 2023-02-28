@@ -288,6 +288,8 @@
         href: add-enhanced-case-management.md
       - name: Configure components to display customer details and recent records
         href: add-display-components-to-case-form.md
+      - name: Configure components to display case associations
+        href: add-associated-grid-control.md        
     - name: Agent experience
       items: 
       - name: Create cases

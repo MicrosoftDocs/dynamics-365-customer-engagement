@@ -1,5 +1,11 @@
 - name: Overview of Universal Resource Scheduling
   href: schedule-anything-with-universal-resource-scheduling.md
+- name: What's new
+  items:
+    - name: Version history
+      href: bug-fixes.md
+    - name: Deprecations
+      href: deprecations.md
 - name: Scheduling
   items: 
   - name: Schedule assistant overview
@@ -66,7 +72,4 @@
       href: developer/universal-fetchxml.md
   - name: Consider Outlook free/busy in search resource availability API
     href: developer/outlook-free-busy-in-search-resource-availability-API.md
-- name: Deprecations
-  href: deprecations.md
-- name: Bug fixes
-  href: bug-fixes.md
+
