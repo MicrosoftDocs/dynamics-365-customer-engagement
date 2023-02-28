@@ -116,7 +116,7 @@ sections:
           answer: |
            Yes, frontline workers [enabled as Azure AD B2B collaborator](/azure/active-directory/external-identities/what-is-b2b) (guest) can access the mobile app by [switching to the guest tenant](/power-apps/mobile/tenant-switcher).
            
-           If a guest user needs to access application with a personal account, use a formatted deep link to access the guest tenant.
+           If a guest user needs to access the application with a personal account, use a formatted deep link to access the guest tenant.
            ```
            https://apps.powerapps.com/mobile/redirect?appid=<app-id>&tenantid=<tenant-id>&playerchannel=FieldServiceMobile&sourceurl=https%3A%2F%2F<org-url-without-https>%2Fmain.aspx%3Fappid%<app-id>
            ```
