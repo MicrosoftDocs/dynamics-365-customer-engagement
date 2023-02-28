@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions on GDPR and Security"
 description: "Find a list of frequently asked questions that are related to GDPR for Dynamics 365 Sales."
-ms.date: 07/06/2022
+ms.date: 02/28/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -17,11 +17,11 @@ applies_to:
 
 Dynamics 365 Sales data is stored in Dataverse and in Azure resources (for certain features). Both Dataverse and the Azure resources are co-located with their respective Power Platform environment locations. For more information about Power Platform environment locations, see [Data Location](/power-platform/admin/wp-compliance-data-privacy#data-location).  
 
-## Can the Dynamics 365 Sales data be protected with Customer Lockbox and customer-managed encryption key (CMK)?
+## Can the Dynamics 365 Sales data be protected with Customer Lockbox?
 
-Yes, the Dynamics 365 Sales data stored in the Power Platform environment is protected with Power Platform Customer Lockbox. The data can also be encrypted using the customer-managed encryption key(CMK).
+Yes, the Dynamics 365 Sales data stored in the Power Platform environment is protected with Power Platform Customer Lockbox. For more information, see [Securely access customer data using Customer Lockbox](/power-platform/admin/about-lockbox).
 
-The following list includes services that currently don't support lockbox and CMK:
+The following list includes services that currently don't support customer lockbox:
 
 - Forecasting
 
@@ -29,12 +29,23 @@ The following list includes services that currently don't support lockbox and CM
 
 - Conversation intelligence
 
-- Relationship intelligence
+- [Relationship intelligence](ri-overview.md) (includes relationship analytics and who knows whom)
 
-For more information about lockbox and CMK, see
-- [Securely access customer data using Customer Lockbox](/power-platform/admin/about-lockbox)
-- [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key)
   
+## Can the Dynamics 365 Sales data be encrypted using customer-managed encryption key (CMK)?
+
+Yes, the Dynamics 365 Sales data stored in the Power Platform environment can be encrypted using CMK. For more information, see [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key).
+
+The following list includes services that currently don't support CMK:
+
+- Forecasting
+
+- Predictive scoring
+
+- Conversation intelligence
+
+- [Relationship intelligence](ri-overview.md) (includes relationship analytics and who knows whom)
+
 
 ### See also
 
