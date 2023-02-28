@@ -1,7 +1,7 @@
 ---
 title: Not-to-exceed values on work orders - Dynamics 365 Field Service | MicrosoftDocs"
 description: Manage cost expectations of your service accounts by setting up not-to-exceed values on work orders.
-ms.date: 02/14/2023
+ms.date: 02/28/2023
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
@@ -32,6 +32,7 @@ A high-level work order process is outlined below.
 - [Security roles](view-user-accounts-security-roles.md):
   - Field Service – Administrator: All permissions to set up, configure, and edit NTE.
   - Other Field Service roles: Read and use permissions for NTE records.
+- [Enable cost calculation or price calculation](configure-default-settings.md#work-order--booking-settings), depending on the NTE type you plan to use.
 
 ## Activate not-to-exceed
 
@@ -47,7 +48,7 @@ The Not-to-exceed entry appears in the **General** section of the **Settings** a
 
 ## NTE types
 
-Field Service supports three types of NTE. You can create as many NTE records in any combination of types to match your business scenarios.
+Field Service supports three types of NTE. Create NTE records in any combination of types to match your business scenarios.
 
 ### Price
 
@@ -102,7 +103,7 @@ NTE values on work order are read-only and they'll show a warning when the actua
 
 ## Not-to-exceed on Field Service mobile
 
-Field workers that use the Field Service Mobile app can see the not-to-exceed value on the work order. The system shows warning icons to users when they get close to the specified NTE value or if they surpass it.
+Technicians that use the Field Service Mobile app can see the not-to-exceed value on the work order. The system shows warning icons to users when they get close to the specified NTE value or if they surpass it.
 
 However, you can still save work orders when ignoring the warning.
 
