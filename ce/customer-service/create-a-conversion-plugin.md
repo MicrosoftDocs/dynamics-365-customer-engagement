@@ -11,16 +11,18 @@ search.audienceType:
   - developer
 ---
 
-# Transform and map external source data to corresponding target knowledge attribute 
+# Transform, map external source data to knowledge fields
 
 When you're mapping information from external data providers to knowledge article entities, if the source value is of a different data type, you'll have to transform the value before you can map it to the target knowledge attribute. You can create a plug-in and register it on `Create` and `Update` messages so that the target knowledge article attributes have values that are inline with the articles from the external providers.
 
 To transform and map the source values, perform the following steps:
 
 1. Create a custom field in the `KnowledgeArticle` entity. More information: [How to create and edit columns](/power-apps/maker/data-platform/create-edit-fields).
-1.  Map the required external source value to the newly created custom attribute. More information: [Configure knowledge article schema mapping (preview)](int-data-mapping.md). This is a temporary mapping from which your plug-in picks up the source value.
+1.  Map the required external source value to the newly created custom field. More information: [Configure knowledge article schema mapping (preview)](int-data-mapping.md). This is a temporary mapping from which your plug-in picks up the source value.
 1. Create a plug-in. For more information, see: [Create a plug-in project](/power-apps/developer/data-platform/tutorial-write-plug-in#create-a-plug-in-project).
-1. You can write your own code to convert the external source value and map it to the required target knowledge article attribute.  In this example, we'll show how you can map a source value which is of the type **String** to an article attribute of type **OptionSet**. In the plug-in that you created, replace the entire class with the following sample code:
+1. You can write your own code to convert the external source value and map it to the required target knowledge article attribute.  
+In this example, we'll show how you can map a source value that's of the type **String** to an article field attribute of type **OptionSet**. In the plug-in that you created, replace the entire class with the following sample code.
+
       
  ``` C#
 
@@ -104,10 +106,10 @@ namespace PowerApps.Samples
                     IOrganizationServiceFactory serviceFactory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
                     IOrganizationService service = serviceFactory.CreateOrganizationService(context.UserId);
 
-                    // Retrieves the option set metadata of the target field.
+                    // Retrieve the option set metadata of the target field.
                     OptionSetMetadata retrievedOptionSetMetadata = RetrieveOptionSet(service, entity, targetValueAttributeName, tracingService);
 
-                    // Checks if the source data value is present in the retrieved target option set metadata.
+                    // Check if the source data value is present in the retrieved target option set metadata.
                     OptionMetadata matchedOptionMetadata = retrievedOptionSetMetadata?.Options?.First(optionMetadata => optionMetadata.Label.UserLocalizedLabel.Label == sourceValue);
                     if (matchedOptionMetadata == null || matchedOptionMetadata.Value == null)
                     {
@@ -115,7 +117,7 @@ namespace PowerApps.Samples
                         return;
                     }
 
-                    // Maps the option set value of the string new_documentationcentersourcevalue to the target option set new_documentationcenter.
+                    // Map the option set value of the string new_documentationcentersourcevalue to the target option set new_documentationcenter.
                     int optionSetValue = (int)matchedOptionMetadata.Value;
                     entity[targetValueAttributeName] = new OptionSetValue(optionSetValue);
                     tracingService.Trace("KnowledgePlugin: Successfully set the value.");
@@ -134,7 +136,7 @@ namespace PowerApps.Samples
         }
 
         /// <summary> 
-        /// Fetches the optionset metadata from the entity metadata
+        /// Fetch the optionset metadata from the entity metadata
         /// </summary>
         /// <param name="service">Organization Details</param>
         /// <param name="entity">Entity record</param>

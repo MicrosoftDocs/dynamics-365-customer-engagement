@@ -414,7 +414,7 @@
           href: /power-apps/user/insert-email-template?context=/dynamics365/context/customer-service-context
         - name: Personalize emails with dynamic text
           href: /power-apps/user/email-dynamic-text?context=/dynamics365/context/customer-service-context          
-        - name: Customize an email templates using the template editor
+        - name: Customize an email template using the template editor
           href: /power-apps/user/cs-template-options?context=/dynamics365/context/customer-service-context
         - name: Convert an email to a template
           href: /power-apps/user/email-template-convert?context=/dynamics365/context/customer-service-context
@@ -454,7 +454,7 @@
         href: configure-knowledge-article-origin-allow-list.md
       - name: Configure knowledge search control on app side pane for an entity record
         href: configure-knowledge-search-control-productivity-pane.md
-      - name: Develop metadata mapping schema for knowledge articles
+      - name: Schema details to build a metadata mapping template (preview)
         href: int-search-metadata-schema.md
     - name: Knowledge author experience
       items:
