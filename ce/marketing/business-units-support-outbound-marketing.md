@@ -31,7 +31,7 @@ Business units affect outbound marketing segments as follows:
     - Business unit scoped segments only contain contacts that belong to the same business unit as the segment owner, even if the selection criteria would otherwise find contacts belonging to all business units.
     - Organization scoped segments can contain members belonging to all business units.
     - Standard and advanced users are limited to creating segments scoped at the business unit level.
-    - Only users with organization-level create and update permissions will be able to choose the organization scope setting.
+    - Only users with organization-level create and update permissions are able to choose the organization scope setting.
 - When [scoping is disabled](business-units-support-outbound-marketing.md#enable-or-disable-business-unit-scopes-in-outbound-marketing) for your instance, all segments are scoped at the organization level regardless of who created or owns them, which means that they can include contacts belonging to all business units.
 
 ## Customer journey scopes, design, processing, and content settings
@@ -42,8 +42,8 @@ Business units affect customer journeys as follows:
     - Business unit scoped journeys only process contacts from the same business unit as the journey owner, even if the journey targets segments, lists, and/or pages with contacts from different business units.
     - Organization scoped journeys process contacts from all business units.
     - Standard and advanced users are limited to creating journeys scoped at the business unit level.
-    - Only users with create/update at the organization-level permissions will be able to select the organization scope setting.
-- When [scoping is disabled](business-units-support-outbound-marketing.md#enable-or-disable-business-unit-scopes-in-outbound-marketing) for your instance, all journeys are scoped at the organization level, which means they will process all contacts in the targeted segments, lists, and/or pages, regardless of which business unit each contact belongs to.
+    - Only users with create/update at the organization-level permissions are able to select the organization scope setting.
+- When [scoping is disabled](business-units-support-outbound-marketing.md#enable-or-disable-business-unit-scopes-in-outbound-marketing) for your instance, all journeys are scoped at the organization level, which means they'll process all contacts in the targeted segments, lists, and/or pages, regardless of which business unit each contact belongs to.
 
 ## Lead and contact creation, matching, and scoring
 
@@ -64,7 +64,7 @@ Event registration and attendance records belong to the event’s owner. As with
 Each insight record is owned by the record (such as an email, marketing page, or journey) that generated it. As a result, the values shown can be affected by viewing user's security role and business unit memberships.
 
 - Aggregated insights (such as the total number of emails opened) will always display their full value, but the related details may be more restricted.
-- Specific insights (such as the list of contacts who opened an email) will only display the names of contacts that the viewing user is authorized to see. Other contacts will be anonymized on the list.
+- Specific insights (such as the list of contacts who opened an email) will only display the names of contacts that the viewing user is authorized to see. Other contacts are anonymized on the list.
 
 For example, a user with business level access to email messages could see that a message was opened by five contacts, but on viewing the contact list, only see the names of the three contacts that belong to that user's business unit, plus two anonymized contacts.
 
@@ -74,7 +74,7 @@ Form submissions, leads, and contacts generated from LinkedIn Lead Gen Forms hav
 
 ## Enable or disable business-unit scopes in outbound marketing
 
-Although most business unit functionality is always enabled in Dynamics 365 Marketing, business unit scopes for [segments](business-units-support-outbound-marketing.md#segment-scopes-membership-and-member-lists) and [customer journeys](business-units-support-outbound-marketing.md#customer-journey-scopes-design-processing-and-content-settings) are optional (as described previously in this topic).
+Although most business unit functionality is always enabled in Dynamics 365 Marketing, business unit scopes for [segments](business-units-support-outbound-marketing.md#segment-scopes-membership-and-member-lists) and [customer journeys](business-units-support-outbound-marketing.md#customer-journey-scopes-design-processing-and-content-settings) are optional (as described previously in this article).
 
 > [!IMPORTANT]
 > In the current release, static segments are disabled when business unit scopes are enabled. If you require both static segment functionality and business unit scopes, then create static marketing lists and embed them into a dynamic segments. We expect to remove this limitation in a future release.
