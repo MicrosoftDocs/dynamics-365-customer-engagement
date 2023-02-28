@@ -1,0 +1,68 @@
+### YamlMime:Landing
+
+title: Marketing learning catalog
+summary: Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.
+metadata:
+  title: "Marketing learning catalog"
+  description: "Find all the training options for Dynamics 365 Marketing."
+  ms.date: 02/27/2023
+  ms.custom: 
+    - dyn365-marketing
+  ms.topic: hub-page
+  author: alfergus
+  ms.author: alfergus
+  manager: shellyha
+  search.audienceType: 
+    - admin
+    - customizer
+    - enduser
+  search.app: 
+    - D365CE
+    - D365Mktg
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+# Card 
+- title: Materials for functional consultants
+  items:
+    - type: paragraph
+    - text: 'Are you an implementation expert for a business domain?'
+  linkLists:
+      - linkListType: learn
+        links:
+        - text: Functional consultants learning catalog
+          url: learning-functional-consultant.md
+        - text: Marketing
+          url: learning-functional-consultant.md#marketing
+        - text: Exams
+          url: learning-functional-consultant.md#exam
+    
+# Card 
+- title: Administer the system
+  linkLists:
+      - linkListType: overview
+        links:
+        - text: Manage Marketing environments 
+          url: manage-marketing-environments.md
+      - linkListType: how-to-guide
+        links:
+        - text: Manage user accounts, user licenses, and security roles 
+          url: admin-users-licenses-roles.md
+        - text: Organization settings 
+          url: organization-settings.md
+        - text: Data management settings
+          url: data-management-settings.md
+        - text: Marketing settings 
+          url: marketing-settings.md
+        - text: Manage consent for email and text messages in real-time marketing
+          url: real-time-marketing-email-text-consent.md
+        - text: Event management settings
+          url: events-settings.md
+        - text: Manage your quotas
+          url: quota-management.md
+        - text: Customize Dynamics 365 Marketing
+          url: customize.md
+        - text: Data protection and GDPR
+          url: gdpr.md
