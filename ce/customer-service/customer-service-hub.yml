@@ -23,30 +23,30 @@ highlightedContent:
     # Card
     - title: Get started
       itemType: get-started
-      url: /dynamics365/customer-service/configure-cs
+      url: configure-cs.md
     # Card
     - title: What's new
       itemType: whats-new
-      url: <link to the main what's new article for your product>
+      url: whats-new-customer-service.md
     # Card
     - title: Training
       itemType: training
-      url: <link to training main page for your product>
+      url: /training/modules/get-started-with-dynamics-365-for-customer-service/
     # Card
     - title: Troubleshoot
       itemType: concept
-      url: <link to troublshooting and faq page>
+      url: troubleshoot-omnichannel-customer-service.md
       
 additionalContent: 
   sections:
-  - title: Implement <product name>
+  - title: Implement Customer Service
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
     - title: Guidance 
       links: 
-      - url: 
-        text: 
+      - url: learning-catalog.md
+        text: Customer Service Learning Catalog
       - url: 
         text: 
       - url: 
@@ -69,7 +69,7 @@ additionalContent:
         text: 
       - url: 
         text:  
-  - title: Administer and develop <product name>
+  - title: Administer and develop Customer Service
     items:
     - title: 
       links:
@@ -101,7 +101,7 @@ additionalContent:
         text: 
       - url: 
         text: 
-  - title: Use <product name>
+  - title: Use Customer Service
     items:
     - title: 
       links:
