@@ -510,11 +510,11 @@
         href: configure-faceted-search-results.md
     - name: Developer experience
       items:
-      - name: Create a knowledge article using a template
+      - name: Schema details to build a metadata mapping template (preview)
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
-      - name: Transform and map external source data values to corresponding target knowledge attribute
+      - name: Transform, map external source data to knowledge fields
         href: create-a-conversion-plugin.md        
   - name: Microsoft Teams for collaboration
     items:

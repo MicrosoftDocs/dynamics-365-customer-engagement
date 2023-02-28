@@ -1,5 +1,5 @@
 ---
-title: Transform external source data values to corresponding target knowledge attribute
+title: Transform, map external source data to knowledge fields
 description: Learn how you can convert and map source values with different types to the corresponding knowledge attribute
 author: gandhamm
 ms.author: mgandham
@@ -161,7 +161,7 @@ namespace PowerApps.Samples
 
 ```
 	  
-3. Register the plug-in. More information: [Register a plug-in](/power-apps/developer/data-platform/register-plug-in)
+3. Register the plug-in on `Create` and `Update` SDK messages of the KnowledgeArticle entity in the PreOperation stage. More information: [Register a plug-in](/power-apps/developer/data-platform/register-plug-in)
 
 ## See Also
 

@@ -1,5 +1,5 @@
 ---
-title: Create metadata mapping schema for knowledge articles (preview)
+title: Schema details to build a metadata mapping template
 description: Learn about how to map external source metadata to knowledge article metadata
 author: gandhamm 
 ms.author: mgandham 
@@ -59,7 +59,7 @@ The data in the external search providers can be set to any of the following fie
 - **Document**: Use to indicate the HTML content of the article.
 
 
-## Build your own metadata mapping template
+## Considerations to build your own metadata mapping template
 
 When you develop your own mapping schema, you must be sure to configure a few mandatory fields and set default values for some field definitions.
 
