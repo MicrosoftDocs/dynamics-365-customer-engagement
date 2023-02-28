@@ -1,7 +1,7 @@
 ---
 title: "Manage user accounts, user licenses, and security roles (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing."
-ms.date: 11/29/2022
+ms.date: 02/28/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -35,6 +35,11 @@ Unlike most Dynamics 365 apps, Dynamics 365 Marketing is licensed per instance (
 Any user who already has a license for any model-driven app in Dynamics 365 also will be able to access Dynamics 365 Marketing without requiring any additional licenses. All you need to do is [assign them the security roles and privileges](#assign-role) required to access the Marketing features they need.  
 
 ### Grant access to users without a Dynamics 365 license
+
+> [!IMPORTANT]
+> Users that are verified within your organization through [Azure Active Directory (AAD)](/azure/active-directory/fundamentals/active-directory-whatis) will automatically be assigned a "Marketer" role when they access the app. **You do not need to follow the steps below for users that are verified through AAD.**
+>
+> If you are having trouble granting users access or if they are not verified through AAD, follow the steps below to assign a free Marketing user license.
 
 For Microsoft 365 users that don't have a Dynamics 365 license, you can "purchase" and assign a free Marketing user license. Free Marketing user licenses don't grant access to any other Dynamics 365 apps, but you can have as many of them as you need to grant access to Marketing.
 
