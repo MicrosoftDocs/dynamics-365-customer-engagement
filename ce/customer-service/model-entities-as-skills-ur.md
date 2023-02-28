@@ -5,13 +5,13 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 02/23/2023
+ms.date: 02/28/2023
 ms.custom: bap-template
 ---
 
 # Model existing entities as skills
 
-Use your existing entities and model them as skills to perform skill-based routing. Then, you can avoid recreating data definitions as skills in Dynamics 365. You also won't need to write classification rules to stamp skills on the incoming work items. You can manage and maintain your data in an easier manner.
+Organizations can use existing entities and model them as skills to perform skill-based routing. With this approach, you can avoid recreating data definitions as skills in Dynamics 365 and you won't need to write classification rules to stamp skills on the incoming work items. By modeling existing entities as skills, data management and maintenance becomes easy.
 
 The following examples help understand the scenarios.
 
@@ -61,7 +61,7 @@ However, if you model "Product" and "Customer" fields as custom skills, you'll c
 
    :::image type="content" source="media/custom-skill-routing.png" alt-text="Add a custom entity and use in skill-based routing.":::
 
-1. Go to the assignment rule that you want to update and define a condition on the new skill category as seen in the following screenshot.
+1. Go to the assignment rule that you want to update and define a condition on the new skill category as seen in the following screenshot. More information: [Configure assignment methods for queues](configure-assignment-rules.md)
 
    :::image type="content" source="media/use-custom-skill-assignmemt-condition.png" alt-text="Define custom entity as a skill":::
 
