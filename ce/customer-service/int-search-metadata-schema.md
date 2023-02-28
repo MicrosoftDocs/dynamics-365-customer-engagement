@@ -207,7 +207,7 @@ You can use the following metadata mapping JSON sample as template to build your
 
 ```
 
-### Transform and map source external data to corresponding target attributes
+### Transform, map external source data to knowledge fields
 
 When you're mapping information from external data providers to knowledge article entities, if the source value is of a different data type, you'll have to transform the value before you can map it to the target knowledge field. More information: [Transform and map external source data to corresponding target knowledge attribute](create-a-conversion-plugin.md)
 

@@ -510,7 +510,7 @@
         href: configure-faceted-search-results.md
     - name: Developer experience
       items:
-      - name: Schema details to build a metadata mapping template (preview)
+      - name: Create a knowledge article using a template
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
