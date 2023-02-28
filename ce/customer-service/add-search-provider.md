@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 02/27/2023
+ms.date: 03/01/2023
 ms.custom: bap-template
 ---
 
@@ -79,7 +79,7 @@ You can now add integrated search providers.
 1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you have saved it. For details on knowledge article schema mapping, go to [Configure knowledge article schema mapping (preview)](int-data-mapping.md#configure-knowledge-article-schema-mapping-preview).
 1.	In the **Refresh Schedule** section, specify the refresh intervals:
     1. **Refresh frequency**:
-        1. Select between **15min** to **7days** from the dropdown list. Your selection specifies the frequency at which newly created or updated articles will be ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
+        1. Select between **45min** to **7days** from the dropdown list. Your selection specifies the frequency at which newly created or updated articles will be ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
     1. **Lookback period**:
         1. Select **No Lookback** or between **2h** to **8h** from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during ingestion.
         

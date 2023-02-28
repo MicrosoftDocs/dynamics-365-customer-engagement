@@ -452,8 +452,6 @@
           href: int-data-mapping.md
         - name: View and use insights for search providers
           href: view-and-use-insights.md
-        - name: Develop metadata mapping schema for knowledge articles
-          href: int-search-metadata-schema.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
       - name: Create and manage knowledge categories
