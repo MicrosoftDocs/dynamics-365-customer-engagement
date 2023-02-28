@@ -18,7 +18,7 @@ Smart assist is an intelligent assistant that provides real-time recommendations
 The smart assist feature can be enabled across all channels, such as Chat for Dynamics 365 Customer Service, SMS, and Facebook (excluding Entity Records Channel), making it a consistent experience for agents.
 
 > [!IMPORTANT]
-> The smart assist recommendations are displayed only after the agent sends one message.
+> The smart assist recommendations are displayed only after the agent sends a message.
 
 ## Value proposition
 
