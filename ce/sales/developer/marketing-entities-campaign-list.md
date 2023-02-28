@@ -17,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: 02a49cee-8027-4c98-923e-23a9d687cfcb
 author: udaykirang
 ms.author: udag
-manager: amyla
+manager: shujoshi
 search.audienceType: 
   - developer
 

@@ -9,8 +9,8 @@ ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: 683204f7-570a-43ab-bf7e-a12d26cec214
-author: KumarVivek
-ms.author: kvivek
+author: udaykirang
+ms.author: udag
 manager: jdaly
 ms.reviewer: pehecke
 ms.suite: 

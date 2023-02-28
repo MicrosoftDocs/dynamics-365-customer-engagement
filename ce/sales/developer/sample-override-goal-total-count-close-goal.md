@@ -14,9 +14,9 @@ helpviewer_keywords:
   - Sample for overriding total counts and closing goals
   - goal management entities samples, overriding total counts and closing goals
 ms.assetid: c454269e-9e58-47f4-abbc-7bbe9e8d636c
-author: KumarVivek
-ms.author: kvivek
-manager: shujoshie
+author: udaykirang
+ms.author: udag
+manager: shujoshi
 search.audienceType: 
   - developer
 ---

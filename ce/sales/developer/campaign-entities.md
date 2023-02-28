@@ -22,7 +22,7 @@ ms.assetid: fd788b2b-eab0-4f0c-b48e-911cd8aad69b
 caps.latest.revision: 28
 author: udaykirang
 ms.author: udag
-manager: amyla
+manager: shujoshi
 search.audienceType: 
   - developer
 

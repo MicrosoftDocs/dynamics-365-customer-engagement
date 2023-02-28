@@ -11,9 +11,9 @@ ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: 0f70898c-c451-47e5-afc8-224e25f32c69
-author: KumarVivek
-ms.author: kvivek
-manager: shujoshie
+author: udaykirang
+ms.author: udag
+manager: shujoshi
 search.audienceType: 
   - developer
 ---

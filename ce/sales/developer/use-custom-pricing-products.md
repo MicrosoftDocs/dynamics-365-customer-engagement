@@ -12,9 +12,9 @@ applies_to:
   - Dynamics 365 Sales
 ms.assetid: b54fd2ea-811d-4b83-8638-86dd87038fd7
 caps.latest.revision: 13
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+author: udaykirang
+ms.author: udag
+manager: shujoshi
 search.audienceType: 
   - developer
 

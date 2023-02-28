@@ -55,6 +55,6 @@ The following table shows the difference between discounts calculated for a line
 ### See also
 
 [Set up a product catalog](set-up-product-catalog-walkthrough.md)  
-[Preview: Enable the enhanced experience of adding products (Sales Hub)](enable-enhanced-add-product-experience.md)  
+[Enable the enhanced experience of adding products (Sales Hub)](enable-enhanced-add-product-experience.md)  
 
 

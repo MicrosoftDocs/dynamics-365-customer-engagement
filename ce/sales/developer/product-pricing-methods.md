@@ -21,9 +21,9 @@ helpviewer_keywords:
   - product catalog entities, setting prices
 ms.assetid: 0198d2a3-ddfb-474f-9a52-990cf6d1ca5b
 caps.latest.revision: 29
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+author: udaykirang
+ms.author: udag
+manager: shujoshi
 search.audienceType: 
   - developer
 

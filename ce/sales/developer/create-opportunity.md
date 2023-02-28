@@ -31,7 +31,7 @@ ms.assetid: c607f3e9-58e2-4f5a-9ea3-30ba4f12f060
 caps.latest.revision: 32
 author: udaykirang
 ms.author: udag
-manager: amyla
+manager: shujoshi
 search.audienceType: 
   - developer
 

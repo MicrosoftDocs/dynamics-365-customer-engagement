@@ -10,9 +10,9 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: ada37ff8-0f03-47b4-bfd7-25a4b0aacb5b
 caps.latest.revision: 27
-author: KumarVivek
-ms.author: kvivek
-manager: shujoshie
+author: udaykirang
+ms.author: udag
+manager: shujoshi
 search.audienceType: 
   - developer
 

@@ -15,9 +15,9 @@ helpviewer_keywords:
   - setting negative prices in opportunities; quotes; and sales orders, quote entities sample
   - negative prices, sample for setting in opportunities; quotes; and sales orders
 ms.assetid: 2fed76c3-f8f0-4fba-ac3b-3427438b17b9
-author: KumarVivek
-ms.author: kvivek
-manager: shujoshie
+author: udaykirang
+ms.author: udag
+manager: shujoshi
 search.audienceType: 
   - developer
 ---

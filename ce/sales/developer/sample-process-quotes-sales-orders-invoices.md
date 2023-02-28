@@ -16,9 +16,9 @@ helpviewer_keywords:
   - sample for converting opportunities to sales orders, sales entities sample
   - sample for locking and unlocking sales orders and invoice prices, quote; order; and invoice entities
 ms.assetid: 7cf7de1a-789b-4c87-a6c3-6410a68369a1
-author: KumarVivek
-ms.author: kvivek
-manager: shujoshie
+author: udaykirang
+ms.author: udag
+manager: shujoshi
 search.audienceType: 
   - developer
 ---

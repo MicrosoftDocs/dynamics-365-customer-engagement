@@ -14,9 +14,9 @@ helpviewer_keywords:
   - goal management entities samples, rolling up goal data in a fiscal period against stretch targets
   - sample for rolling up goal data in a fiscal period against stretch targets
 ms.assetid: 2f1e1939-7dd3-4a12-92b2-13fb166c0dea
-author: KumarVivek
-ms.author: kvivek
-manager: shujoshie
+author: udaykirang
+ms.author: udag
+manager: shujoshi
 search.audienceType: 
   - developer
 ---

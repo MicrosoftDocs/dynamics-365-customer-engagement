@@ -11,9 +11,9 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: 0f6c4255-094e-455e-bf7b-b832b981f58b
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+author: udaykirang
+ms.author: udag
+manager: shujoshi
 search.audienceType: 
   - developer
 

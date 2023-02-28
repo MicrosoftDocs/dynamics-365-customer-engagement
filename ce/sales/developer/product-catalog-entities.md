@@ -18,9 +18,9 @@ helpviewer_keywords:
   - product catalog entities, introduction
   - associating products with accounts and sales literature, product catalog entities
 ms.assetid: 1915ba81-7d8f-46a7-88de-4c7a1aa24b04
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+author: udaykirang
+ms.author: udag
+manager: shujoshi
 search.audienceType: 
   - developer
 
