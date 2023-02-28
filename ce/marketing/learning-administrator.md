@@ -2,7 +2,6 @@
 title: "Administrators learning catalog (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find all the training options for Dynamics 365 Marketing administrators."
 ms.date: 07/08/2019
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: hub-page
