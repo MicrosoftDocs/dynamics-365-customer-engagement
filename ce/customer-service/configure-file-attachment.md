@@ -1,7 +1,7 @@
 ---
 title: "Configure file attachment capability for a chat widget | MicrosoftDocs"
 description: "Instructions to configure file attachment capability for a chat widget in Omnichannel for Customer Service."
-ms.date: 02/23/2023
+ms.date: 02/28/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -41,7 +41,7 @@ If an agent transfers the chat to another agent, the agent who receives the chat
 
 When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the **Attach** icon to send files. The drag-and-drop operation is not supported. The file attachment is scanned for malicious content and won't be uploaded for the agent to download if it poses a security threat. A message about the security concern is displayed to the agent.
 
-When the conversation is going on, the attachment is uploaded to Async Media Storage/Service (AMS) after it's scanned for security threat and will be retained for seven days.  After the conversation ends, the attachment will be stored in the Annotations collection in Dataverse, which is an Azure BLOB-based entity. Customers can access attachments in transcripts by selecting the attachments, which are retrieved from the Dataverse entity.
+When the conversation is going on, the attachment is scanned for security threats and then uploaded.  After the conversation ends, the attachment will be stored in the Annotations collection in Dataverse, which is an Azure BLOB-based entity. Customers can access attachments in transcripts by selecting the attachments, which are retrieved from the Dataverse entity.
 
 > [!div class=mx-imgBorder]
 > ![File attachment icon.](media/file-attach-icon.png "File attachment icon")
