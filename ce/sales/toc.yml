@@ -463,6 +463,8 @@
               href: configure-sms-provider.md      
             - name: Edit phone numbers
               href: edit-phone-numbers.md
+            - name: Add text message option to custom forms
+              href: add-sms-option-custom-forms.md              
         - name: Manage Campaigns
           href: configure-inapp-marketing.md
     - name: Guided selling
@@ -688,6 +690,13 @@
               href: free-auto-capture.md
         - name: View message interactions with email engagement
           href: email-engagement.md
+          items:
+            - name: Create and send email message 
+              href: create-send-email-message.md
+            - name: Understand email history 
+              href: understand-email-history.md
+            - name: Configure privacy and preferences 
+              href: configure-individuals-privacy-preferences.md
         - name: How notes analysis assists you with suggestion
           href: notes-analysis.md
         - name: Manage sales literature
@@ -914,8 +923,13 @@
           href: sales-mobile/view-activities-record.md
         - name: App settings
           href: sales-mobile/app-settings.md
-        - name: Use the Sales Hub app or Sales Professional app on Dynamics 365 for phones and tablets app
-          href: use-sales-hub-on-dynamics-365-mobile.md
+        - name: Dynamics 365 for phones and tablets app
+          items:
+          - name: Use the sales apps on your mobile device
+            href: use-sales-hub-on-dynamics-365-mobile.md
+          - name: Actions supported in online and offline mode
+            href: Features-in-mobile-offline.md
+
 - name: Developer guide
   items:
     - name: Resources for developers
@@ -1032,9 +1046,9 @@
               href: developer/reference/custom-actions/msdyn_ForecastApi.md
         - name: Override save, update, load events for editable fields on underlying records grid
           href: developer/reference/custom-actions/events-context.md
-    - name: Deal manager
+    - name: Opportunity pipeline view
       items:
-        - name: Override save, update, load events for deal manager editable grid
+        - name: Override save, update, load events for editable grid
           href: developer/reference/custom-actions/events-context-deal-manager.md
     - name: In-app marketing
       items:
