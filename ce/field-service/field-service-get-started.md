@@ -107,8 +107,6 @@ Field Service needs latitude and longitude values for service account records to
 
 1. Enable resource scheduling for entities. Go to **Resource Scheduling > Administration > Enable Resource Scheduling for Entities**. Verify that work orders are enabled for resource scheduling. For more information, go to [Enable an entity for scheduling in Dynamics 365 Field Service](schedule-new-entity.md).
 
-   Administrators decide which entities can be scheduled to resources. A solution called [Universal Resource Scheduling](universal-resource-scheduling.md) adds scheduling capabilities to entities and provides the schedule board. Any entity (including custom entities) can be enabled for scheduling; typical examples include cases, opportunities, and orders.
-
 ### Test geocoding
 
 Geocoding maps a latitude and longitude to an address. Coordinates allow dispatchers to locate work orders more effectively than an address.
