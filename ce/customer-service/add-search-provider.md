@@ -21,7 +21,7 @@ ms.custom: bap-template
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-With integrated search providers, you can configure external data providers such as enterprise websites based on the site map protocol. After configuring, the articles from the external providers will be ingested into Microsoft Dataverse, so that agents can view a consolidated list of knowledge article search results and experience a single ranking of articles across search providers.
+With integrated search providers, you can configure external data providers such as enterprise websites based on the site map protocol. The articles from the external providers will be ingested into Microsoft Dataverse, so that agents can view a consolidated list of knowledge article search results and experience a single ranking of articles across search providers.
 
 As administrators, you can set up a data refresh schedule to specify the refresh frequency of the ingestion service. The ingestion service captures new or updated articles along with any data that might have been missed during ingestion.
 
@@ -29,18 +29,18 @@ As administrators, you can set up a data refresh schedule to specify the refresh
 
 - If your website is registered using Azure Active Directory, you must use OAuth. Provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated from the AAD Application registration page. More information: [Apply authentication for search providers (preview)](apply-authentication-provider.md#apply-authentication-for-search-providers-preview)
 
-- If you are a first time user, you must:
+- If you're a first time user, you must:
 
 1. Provision integrated search providers
 1. Turn on the **Integrated Search API trigger flow**
 
 ### Provision integrated search providers
 
-You must enable the integrated search provider provisioning from the Customer Service admin center.
+You must provision the integrated search provider from Customer Service admin center.
 1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers (Preview)** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
 
-You may get an error message stating that integrated search feature isn't enabled in your geo. If you get this error, you can raise a Microsoft Support ticket to enable the provisioning.
+You may get an error message stating that integrated search feature isn't enabled in your geo. If you get this error, you can raise a Microsoft Support ticket to initiate the provisioning.
 
 ### Turn on the Integrated Search API trigger flow
 
@@ -76,14 +76,14 @@ You can now add integrated search providers.
         
         Test connection uses the credentials provided to see whether the connection is successful. You get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
     1. Select **Next**.
-1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you have saved it. For details on knowledge article schema mapping, go to [Configure knowledge article schema mapping (preview)](int-data-mapping.md#configure-knowledge-article-schema-mapping-preview).
+1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you've saved it. For details on knowledge article schema mapping, go to [Configure knowledge article schema mapping (preview)](int-data-mapping.md#configure-knowledge-article-schema-mapping-preview).
 1.	In the **Refresh Schedule** section, specify the refresh intervals:
     1. **Refresh frequency**:
-        1. Select between **45min** to **7days** from the dropdown list. Your selection specifies the frequency at which newly created or updated articles will be ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
+        1. Select between **45 min** to **7 days** from the dropdown list. Your selection specifies the frequency at which newly created or updated articles are ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
     1. **Lookback period**:
-        1. Select **No Lookback** or between **2h** to **8h** from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during ingestion.
+        1. Select **No Lookback** or between **2 h** to **8 h** from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during ingestion.
         
-            For example, if you set the **Refresh frequency** at 15min and **Lookback period** at 2h, your data will be refreshed for the last 2h and 15min, in every 15min.
+            For example, if you set the **Refresh frequency** at 15 min and **Lookback period** at 2 h, your data is refreshed for the last 2 h and 15 min, in every 15 min.
         1. Select **Next**.
 1.	In the **Summary** section, review your search provider setup and make changes, if any, to the **Search provider name**, **URL**, **Authentication type**, **Refresh frequency**, and **Lookback period**.
 
@@ -97,7 +97,7 @@ Your newly added search provider now appears on the **Knowledge > All search pro
 
 ## Edit search providers
 
-After you have added the search providers, you can also make changes, if required. The changes made will reflect in the subsequent ingestion run. To edit search providers:
+After you've added the search providers, you can also make changes, if required. The changes made will reflect in the subsequent ingestion run. To edit search providers:
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The Knowledge page appears.
 1. In the **Integrated search providers (Preview)** section, select **Manage**.
