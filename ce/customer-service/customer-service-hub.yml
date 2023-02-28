@@ -49,7 +49,7 @@ additionalContent:
         text: Customer Service Learning Catalog
       - url: /dynamics365/get-started/accessibility/
         text: Accessibility in Dynamics 365
-      - url: dynamics365/customer-service/try-customer-service
+      - url: /dynamics365/customer-service/try-customer-service
         text: Sign up for a free Dynamics 365 Customer Service trial
       - url: /dynamics365/customer-service/trial-faq
         text: Customer Service trial FAQ
@@ -115,7 +115,6 @@ additionalContent:
         text: Omnichannel for Customer Service entity reference
       - url: /dynamics365/customer-service/developer/omnichannel-reference
         text: Live chat SDK Reference
-        text:   
   - title: Related products
     items:
         # Card
