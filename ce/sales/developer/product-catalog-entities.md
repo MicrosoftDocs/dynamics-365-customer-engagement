@@ -4,7 +4,6 @@ description: "Enables the creation of rich product classification systems that s
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
