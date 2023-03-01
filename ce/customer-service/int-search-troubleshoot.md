@@ -36,4 +36,4 @@ Perform the following troubleshooting steps to diagnose and fix the issue:
 
 If the issue persists, raise a Microsoft Support ticket.
 
-For detailed information on managing a search provider, go to: [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview)
+For detailed information on managing a search provider, go to: [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview).
