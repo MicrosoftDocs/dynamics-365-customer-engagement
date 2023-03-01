@@ -80,7 +80,7 @@ Monthly enhancements include an improved email template gallery and an upgraded 
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/individually-manage-segment-members-inclusions-exclusions)
     - [Docs](real-time-marketing-include-exclude.md)
 
-- **Customize your customer journeys to tailor to your business needs**
+- **Customize the real-time journey designer to better streamline your business flows**
     - Customization of your customer journeys is now available in Dynamics 365 Real-time Marketing. Not only can marketers use out-of-the-box Marketing capabilities to effectively engage with their customers, but they can also now create personalized, flexible, and efficient solutions through Power Apps to better tailor the app to their specific business needs. For example, you can now extend your Real-time journey canvas to add any customized fields through Dataverse to better streamline your business processes for higher efficiency. This allows you to add custom fields such as 'campaign' to your journeys to better manage your assets, collaborate amongst your team members, and gives you more flexibility to create customized analytics reports.
     - [Docs](real-time-marketing-journey-designer.md)
 
@@ -96,6 +96,7 @@ Monthly enhancements include an improved email template gallery and an upgraded 
 
 - **Send emails quickly without building a journey**
     - Send emails without creating a journey. This workflow allows you to select from a new template library, make changes easily with simplifications to the email editor, and send emails to the segment members you need to reach within minutes.
+    - [Release plan](dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
     - [Docs](real-time-marketing-email-without-journey.md)
     - [Watch the demo](https://msit.microsoftstream.com/video/0cdd0840-98dc-bf78-0480-f1ed8e1933e6)
 
