@@ -1,5 +1,5 @@
 ---
-title: Preview: Send emails without building a journey
+title: "Preview: Send emails without building a journey"
 description: "Learn how to send emails in Dynamics 365 Marketing without building a journey."
 ms.date: 03/02/2023
 ms.custom: 
