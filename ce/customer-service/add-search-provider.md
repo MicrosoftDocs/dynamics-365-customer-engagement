@@ -118,7 +118,7 @@ The search provider that you deactivated is added to the **Inactive search provi
 
 ## Activate search providers
 
-When you activate a search provider, the ingestion of newly created or updated articles from the search provider is initiated and articles from the search provider starts appearing in the search results.
+When you activate a search provider, the ingestion of newly created or updated articles from the search provider is initiated and articles starts appearing in the search results.
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
 1. In the **Integrated search providers (Preview)** section, select **Manage**.
@@ -127,8 +127,8 @@ activate and then select **Activate**.
 1. On the confirmation dialog, select **Activate**. The search provider that you activated is added to the
 **Active search providers** list.
 
-## Next steps
+## See Also
 
-After the configuration is done, you can use the insights data to understand whether the data ingestion has been successful and the details of the ingested articles. For more information on insights, go to [View and use insights for search providers](view-and-use-insights.md).
+ [View and use insights for search providers](view-and-use-insights.md).
 
-If you want to understand how your agents can view search results for your keywords across your configured search providers, go to [Search knowledge articles](search-knowledge-articles-csh.md#search-knowledge-articles).
+ [Search knowledge articles](search-knowledge-articles-csh.md#search-knowledge-articles).
