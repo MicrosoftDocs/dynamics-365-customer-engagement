@@ -14,7 +14,7 @@ ms.custom:
 To stop selling a product, bundle, or family, delete it. If you delete a parent family, its child products, families, and bundles are also deleted.
 
 > [!IMPORTANT]
->  You can't recover a deleted record. If you don't want to delete a product record but want to temporarily remove it from the catalog, then [retire the product record](retire-product.md).
+>  You can't restore a deleted product record. If you don't want to delete a product record but want to temporarily remove it from the catalog, then [retire the product record](retire-product.md).
 
 ## License and role requirements
 
