@@ -444,7 +444,7 @@
         href: set-up-search-providers.md
       - name: Add integrated search providers
         items:
-        - name: Add and manage integrated search providers
+        - name: Manage integrated search providers
           href: add-search-provider.md
         - name: Apply authentication for search providers
           href: apply-authentication-provider.md

@@ -1,6 +1,6 @@
 ---
 title: Schema details to build a metadata mapping template
-description: Learn about how to map external source metadata to knowledge article metadata
+description: Learn about how to map external source metadata to knowledge article metadata.
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: neeranelli

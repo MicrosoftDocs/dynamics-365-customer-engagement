@@ -1,6 +1,6 @@
 ---
 title: Transform, map external source data to knowledge fields
-description: Learn how you can convert and map source values with different types to the corresponding knowledge attribute
+description: Learn how you can convert and map source values with different types to the corresponding knowledge attribute.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: shujoshi

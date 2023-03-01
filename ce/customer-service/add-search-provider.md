@@ -95,7 +95,7 @@ Your newly added search provider now appears on the **Knowledge > All search pro
 
 ## Edit search providers
 
-When you edit a search provider, the changes will appear in the subsequent ingestion run.
+When you edit a search provider, your changes will appear in the subsequent ingestion run.
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The Knowledge page appears.
 1. In the **Integrated search providers (Preview)** section, select **Manage**.
