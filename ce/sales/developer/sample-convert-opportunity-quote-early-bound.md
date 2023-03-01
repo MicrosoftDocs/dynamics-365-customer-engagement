@@ -1,22 +1,11 @@
 ---
 title: "Sample: Convert an opportunity to a quote (early bound) (Dynamics 365 Sales)"
-description: "The sample demonstrates how to convert an opportunity that contains products from the product catalog and a write-in product to a quote."
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+description: The sample demonstrates how to convert an opportunity that contains products from the product catalog and a write-in product to a quote. 
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - converting opportunities to quotes, Sample
-  - sample for converting opportunities to quotes
-  - sample for overwriting catalog prices when writing quotes
-  - overwriting catalog prices when writing quotes, Sample
-ms.assetid: ba6294de-18cc-4689-8a3c-f6317305ff88
-caps.latest.revision: 15
 author: udaykirang
 ms.author: udag
 manager: shujoshi

@@ -1,35 +1,11 @@
 ---
-title: "Create goal hierarchy, goals, and targets (Dynamics 365 Sales)"
-description: "This article discusses how to create a goal hierarchy, set and monitor the targets, specify the time period and who manages and owns a goal"
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+title: Create goal hierarchy, goals, and targets (Dynamics 365 Sales)
+description: This article discusses how to create a goal hierarchy, set and monitor the targets, specify the time period and who manages and owns a goal.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - goal management entities, goal hierarchy terms defined
-  - goal management entities, setting target time periods for goals
-  - setting and monitoring goals, goal management entities
-  - goals
-  - goal management entities, managing and owning goals
-  - goal management entities, root goals
-  - goal management entities, creating goal hierarchies; goals; and targets
-  - goal management entities, setting and monitoring goals
-  - goal management entities, types of goals
-  - goal metrics, specifying
-  - goal management entities, system-generated progress values
-  - setting target time periods for goals, goal management entities
-  - stretch targets for goals, goal management entities
-  - creating goal hierarchies; goals; and targets, goal management entities
-  - goal management entities, specifying metrics for goals
-  - goal management entities, specifying stretch targets
-  - goal management entities, custom time periods
-ms.assetid: 72e49f79-737b-4060-8429-ea9d5dc62422
-caps.latest.revision: 81
 author: udaykirang
 ms.author: udag
 manager: shujoshi

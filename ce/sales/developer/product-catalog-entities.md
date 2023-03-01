@@ -1,22 +1,11 @@
 ---
-title: "Product catalog tables (Dynamics 365 Sales)"
-description: "Enables the creation of rich product classification systems that support the definition of: hierarchical structures, product bundles, or related products, multiple pricing or discounting models, automatic price lists, and localized names and descriptions."
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-ms.suite: 
-ms.tgt_pltfrm: 
+title: Product catalog tables (Dynamics 365 Sales)
+description: Enables the creation of rich product classification systems that support the definition of: hierarchical structures, product bundles, or related products, multiple pricing or discounting models, automatic price lists, and localized names and descriptions.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - product catalog entities, deactivating obsolete products
-  - product catalog entities, associating products with accounts and sales literature
-  - deactivating obsolete products, product catalog entities
-  - product catalog entities, terms defined for products and pricing
-  - product catalog entities, introduction
-  - associating products with accounts and sales literature, product catalog entities
-ms.assetid: 1915ba81-7d8f-46a7-88de-4c7a1aa24b04
 author: udaykirang
 ms.author: udag
 manager: shujoshi

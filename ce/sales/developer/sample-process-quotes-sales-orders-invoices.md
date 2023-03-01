@@ -1,21 +1,11 @@
 ---
 title: "Sample: Process quotes, sales orders, and invoices (Dynamics 365 Sales)"
-description: "The sample demonstrates how to convert an opportunity that is won to a quote, then convert a quote to a sales order, and then convert a sales order to an invoice."
-ms.custom: 
+description: The sample demonstrates how to convert an opportunity that is won to a quote, then convert a quote to a sales order, and then convert a sales order to an invoice.
 ms.date: 01/02/2020
-ms.reviewer: 
-
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: lavanyakr 
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - sales entities sample, converting opportunities to sales orders
-  - quote; order; and invoice entities sample, locking and unlocking sales orders and invoice prices
-  - sample for converting opportunities to sales orders, sales entities sample
-  - sample for locking and unlocking sales orders and invoice prices, quote; order; and invoice entities
-ms.assetid: 7cf7de1a-789b-4c87-a6c3-6410a68369a1
 author: udaykirang
 ms.author: udag
 manager: shujoshi

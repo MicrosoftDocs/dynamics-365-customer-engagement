@@ -1,17 +1,11 @@
 ---
-title: "Use custom pricing for products (Dynamics 365 Sales)"
-description: "Use the CalculatePrice message to define custom pricing for products in opportunities, quotes, orders and invoices."
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+title: Use custom pricing for products (Dynamics 365 Sales)
+description: Use the CalculatePrice message to define custom pricing for products in opportunities, quotes, orders and invoices.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
-ms.assetid: b54fd2ea-811d-4b83-8638-86dd87038fd7
-caps.latest.revision: 13
 author: udaykirang
 ms.author: udag
 manager: shujoshi

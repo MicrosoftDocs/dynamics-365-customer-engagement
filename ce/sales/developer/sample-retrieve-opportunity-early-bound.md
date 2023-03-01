@@ -1,20 +1,11 @@
 ---
 title: "Sample: Retrieve an opportunity (early bound) (Dynamics 365 Sales)"
-description: "The sample demonstrates how to retrieve an opportunity and products related to the opportunity."
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+description: The sample demonstrates how to retrieve an opportunity and products related to the opportunity.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - sample for retrieving opportunities and related products
-  - retrieving opportunities and their related products, Sample
-ms.assetid: 5d60703d-3c42-465b-a883-7a45a3ccbc4d
-caps.latest.revision: 14
 author: udaykirang
 ms.author: udag
 manager: shujoshi

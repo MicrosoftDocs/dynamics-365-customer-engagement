@@ -1,25 +1,11 @@
 ---
-title: "Campaign tables (Dynamics 365 Sales)"
-description: "Learn about creating campaign activites, use the marketing lists to distribute the campaign activites, and analyze campaign responses to the campaign activities."
-ms.custom: 
-ms.date: 10/01/2019
-ms.reviewer: peheckenabuthuk
-ms.suite: 
-ms.tgt_pltfrm: 
+title: Campaign tables (Dynamics 365 Sales)
+description: Learn about creating campaign activites, use the marketing lists to distribute the campaign activites, and analyze campaign responses to the campaign activities.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - campaign entities, introduction
-  - comparing campaigns and quick campaigns
-  - campaign response, definition
-  - campaigns and quick campaigns, comparing
-  - campaigns and quick campaigns, about
-  - quick campaign, definition
-  - campaign, definition
-  - campaign activities, definition
-ms.assetid: fd788b2b-eab0-4f0c-b48e-911cd8aad69b
-caps.latest.revision: 28
 author: udaykirang
 ms.author: udag
 manager: shujoshi

@@ -1,23 +1,9 @@
 ---
-title: "Lead table (Dynamics 365 Sales)"
-description: "Learn about lead table that represents an individual who is interested in receiving specific information about products or services offered by the company."
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+title: Lead table (Dynamics 365 Sales)
+description: Learn about lead table that represents an individual who is interested in receiving specific information about products or services offered by the company.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: article
-helpviewer_keywords: 
-  - lead entity, managing leads
-  - lead entity, associated information
-  - leads
-  - lead entity, converting leads to qualified leads
-  - lead entity, introduction
-  - lead entity
-  - managing leads, lead entity
-  - lead entity, definition
-ms.assetid: a3e17cc7-a4ff-4a10-bc7a-ae03e055b30f
 author: udaykirang
 ms.author: udag
 manager: shujoshi

@@ -1,20 +1,12 @@
 ---
 title: "Sample: Set negative prices in opportunities, quotes, and sales orders (Dynamics 365 Sales)"
-description: "The sample demonstrates how to set negative prices in opportunities, quotes, and sales orders."
+description: The sample demonstrates how to set negative prices in opportunities, quotes, and sales orders.
 ms.custom: 
-ms.date: 01/02/2020
-ms.reviewer: 
-
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - sample for setting negative prices in opportunities; quotes; and sales orders
-  - setting negative prices in opportunities; quotes; and sales orders, quote entities sample
-  - negative prices, sample for setting in opportunities; quotes; and sales orders
-ms.assetid: 2fed76c3-f8f0-4fba-ac3b-3427438b17b9
 author: udaykirang
 ms.author: udag
 manager: shujoshi

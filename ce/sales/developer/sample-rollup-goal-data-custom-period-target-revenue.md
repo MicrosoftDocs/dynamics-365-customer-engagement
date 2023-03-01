@@ -1,20 +1,11 @@
 ---
 title: "Sample: Rollup goal data for a custom period against the target revenue (Dynamics 365 Sales)"
-description: "This sample shows how to roll up goal data for a custom period against the target revenue"
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+description: This sample shows how to roll up goal data for a custom period against the target revenue.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - goal management entities samples, rolling up goal data in a custom period against revenue targets
-  - sample for rolling up goal data in a custom period against revenue targets
-ms.assetid: 87b5756c-b24c-4140-a3c3-3660d1cb3e01
-caps.latest.revision: 22
 author: udaykirang
 ms.author: nabuthuk
 manager: kvivek

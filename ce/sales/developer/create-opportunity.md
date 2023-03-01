@@ -1,34 +1,11 @@
 ---
-title: "Create an opportunity (Dynamics 365 Sales)"
-description: "Learn about creating a new opportunity or an opportunity from a qualified lead. An opportunity contains sales information like quotes, sales orders, and invoices."
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+title: Create an opportunity (Dynamics 365 Sales)"
+description: Learn about creating a new opportunity or an opportunity from a qualified lead. An opportunity contains sales information like quotes, sales orders, and invoices.
+ms.date: 03/01/2023
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - tax; freight; and totals, opportunity entities
-  - closing opportunities, opportunity entities
-  - opportunity entities, associating opportunities with accounts and contacts
-  - associating opportunities with accounts and contacts, opportunity entities
-  - opportunity entities, qualifying leads for opportunities
-  - overriding and discounting prices, opportunity entities
-  - prices, overriding and discounting
-  - adding products to opportunities, opportunity entities
-  - qualifying leads for opportunities, opportunity entities
-  - opportunity entities, overriding and discounting prices
-  - calculating tax; freight; and totals, opportunity entities
-  - opportunity entities, sales information contained in
-  - opportunity entities, adding products to opportunities
-  - opportunity entities, calculating tax; freight; and totals
-  - creating opportunities, introduction
-  - opportunity entities, creating and closing opportunities
-ms.assetid: c607f3e9-58e2-4f5a-9ea3-30ba4f12f060
-caps.latest.revision: 32
+ms.reviewer: lavanyakr
 author: udaykirang
 ms.author: udag
 manager: shujoshi

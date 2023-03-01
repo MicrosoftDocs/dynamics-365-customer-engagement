@@ -1,20 +1,11 @@
 ---
 title: "Sample: Fulfill a sales order (Dynamics 365 Sales)"
 description: "The sample demonstrates how to create a sales order and then close it by fulfilling it."
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - order entities sample, creating and closing sales orders
-  - sample for creating and closing sales orders, order entities sample
-ms.assetid: 21eb9416-6c1f-468e-98f6-96d098d23051
-caps.latest.revision: 13
 author: udaykirang
 ms.author: udag
 manager: shujoshi

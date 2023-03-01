@@ -1,20 +1,11 @@
 ---
 title: "Sample: Use rollup queries to track goals (Dynamics 365 Sales)"
-description: "This sample demonstrates how to use rollup queries to track goals"
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+description: This sample demonstrates how to use rollup queries to track goals.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - sample for using rollup queries to track goals
-  - goal management entities samples, using rollup queries to track goals
-ms.assetid: 80f9b7d7-87d6-497e-9bdb-a02cf291743d
-caps.latest.revision: 19
 author: udaykirang
 ms.author: nabuthuk
 manager: kvivek

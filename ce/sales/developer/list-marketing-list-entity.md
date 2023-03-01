@@ -1,25 +1,12 @@
 ---
-title: "List (marketing list) table (Dynamics 365 Sales)"
-description: "Learn about list management and the list (marketing list) table that help you create lists of potential customers or existing customers for marketing purposes."
+title: List (marketing list) table (Dynamics 365 Sales)
+description: Learn about list management and the list (marketing list) table that help you create lists of potential customers or existing customers for marketing purposes.
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - lists (marketing lists), managing
-  - marketing lists, see 'list (marketing list) entity'
-  - adding members to lists
-  - list (marketing list) entity, managing lists
-  - list (marketing list) entity, adding members to lists
-  - lists (marketing lists), introduction
-  - "list (marketing list) entity, types of lists: dynamic and static"
-ms.assetid: 720709e2-32e0-44bc-87dc-445cb5d16e91
-caps.latest.revision: 23
 author: udaykirang
 ms.author: udag
 manager: shujoshi

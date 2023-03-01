@@ -1,19 +1,10 @@
 ---
 title: "Sample: Override goal total count and close the goal (Dynamics 365 Sales)"
-description: "This sample demonstrates how to override the goal total count and close the goal"
-ms.custom: 
-ms.date: 01/02/2020
-ms.reviewer: 
-
-ms.suite: 
-ms.tgt_pltfrm: 
+description: This sample demonstrates how to override the goal total count and close the goal.
+ms.date: 03/01/2023
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - Sample for overriding total counts and closing goals
-  - goal management entities samples, overriding total counts and closing goals
-ms.assetid: c454269e-9e58-47f4-abbc-7bbe9e8d636c
 author: udaykirang
 ms.author: udag
 manager: shujoshi

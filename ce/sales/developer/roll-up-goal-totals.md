@@ -1,28 +1,11 @@
 ---
-title: "Roll up goal totals (Dynamics 365 Sales)" 
-description: "RecalculateRequest message can be used to roll up data in a goal hierarchy. It recalculates the goal rollup field values, such as Goal.ActualMoney or Goal.ActualInteger, for all goals in the hierarchy"
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+title: Roll up goal totals (Dynamics 365 Sales)
+description: RecalculateRequest message can be used to roll up data in a goal hierarchy. It recalculates the goal rollup field values, such as Goal.ActualMoney or Goal.ActualInteger, for all goals in the hierarchy.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - goal management entities, rolling up goal totals
-  - overriding values for rollup goal totals
-  - goal management entities, recalculating goal rollup values
-  - goal management entities, expiration time for goal rollup fields
-  - goal management entities, rolling up data in goal hierarchies
-  - rolling up goal totals
-  - expiration time for goal rollup fields
-  - goal management entities, overriding values for rollup goal totals
-  - rolling up data in goal hierarchies
-  - recalculating goal rollup values
-ms.assetid: e7e706f7-0f65-480a-87bc-e11857ad084f
-caps.latest.revision: 25
 author: udaykirang
 ms.author: udag
 manager: shujoshi

@@ -1,20 +1,11 @@
 ---
 title: "Sample: Create an opportunity (early bound) (Dynamics 365 Sales)"
-description: "The sample demonstrates how to create an opportunity that contains a product from the product catalog."
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+description: The sample demonstrates how to create an opportunity that contains a product from the product catalog.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - creating opportunities from products in the catalog, Sample
-  - sample for creating opportunities from products in the catalog
-ms.assetid: 005993c4-468b-4b55-a555-833b4ead0d43
-caps.latest.revision: 15
 author: udaykirang
 ms.author: udag
 manager: shujoshi

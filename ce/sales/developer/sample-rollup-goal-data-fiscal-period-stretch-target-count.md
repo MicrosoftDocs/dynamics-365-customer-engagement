@@ -1,19 +1,12 @@
 ---
 title: "Sample: Rollup goal data for a fiscal period against the stretch target count (Dynamics 365 Sales)"
-description: "This sample shows how to roll up goal data for a fiscal period against stretch target count representing a number of completed telephone calls"
+description: This sample shows how to roll up goal data for a fiscal period against stretch target count representing a number of completed telephone calls.
 ms.custom: 
-ms.date: 01/02/2020
-ms.reviewer: 
-
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr 
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - goal management entities samples, rolling up goal data in a fiscal period against stretch targets
-  - sample for rolling up goal data in a fiscal period against stretch targets
-ms.assetid: 2f1e1939-7dd3-4a12-92b2-13fb166c0dea
 author: udaykirang
 ms.author: udag
 manager: shujoshi

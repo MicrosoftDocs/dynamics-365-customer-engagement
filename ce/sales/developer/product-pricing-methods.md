@@ -1,26 +1,11 @@
 ---
-title: "Product pricing methods (Dynamics 365 Sales)"
-description: "Use the ProductPriceLevel.PricingMethodCode column to determine product prices."
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+title: Product pricing methods (Dynamics 365 Sales)
+description: Use the ProductPriceLevel.PricingMethodCode column to determine product prices.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - setting prices
-  - pricing methods, formulas for
-  - pricing methods, about
-  - pricing methods
-  - product catalog entities, pricing methods
-  - setting prices, attributes and values for
-  - product catalog entities, formulas for pricing
-  - product catalog entities, setting prices
-ms.assetid: 0198d2a3-ddfb-474f-9a52-990cf6d1ca5b
-caps.latest.revision: 29
 author: udaykirang
 ms.author: udag
 manager: shujoshi

@@ -1,24 +1,11 @@
 ---
-title: "Add complex goal criteria (Dynamics 365 Sales)"
-description: "A rollup query (GoalRollupQuery) entity can be used to add complex rollup criteria for a goal"
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-ms.suite: 
-ms.tgt_pltfrm: 
+title: Add complex goal criteria (Dynamics 365 Sales)
+description: A rollup query (GoalRollupQuery) entity can be used to add complex rollup criteria for a goal.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
-helpviewer_keywords: 
-  - adding complex goal criteria
-  - goal management entities, preventing double counting and other rollup query errors
-  - goal management entities, complex goal criteria
-  - rollup queries for adding complex goal criteria
-  - goal management entities, adding complex goal criteria
-  - goal management entities, rollup queries for adding complex goal criteria
-  - rollup queries for adding complex goal criteria, attributes and guidelines for setting; including propagation
-ms.assetid: 2498859c-ca85-4893-ba08-b02ceb75278b
-caps.latest.revision: 20
 author: udaykirang
 ms.author: udag
 manager: shujoshi

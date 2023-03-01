@@ -1,22 +1,14 @@
 ---
 title: "Sample: Calculate Price plug-in (Dynamics 365 Sales)"
-description: "Sample demonstrates how to write a plug-in that calculates the pricing of the opportunities, quotes, orders, and invoices based on your custom code."
-keywords: 
-ms.date: 10/31/2017
-
-ms.custom: 
+description: Sample demonstrates how to write a plug-in that calculates the pricing of the opportunities, quotes, orders, and invoices based on your custom code.
+ms.date: 03/01/2023
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-ms.assetid: 683204f7-570a-43ab-bf7e-a12d26cec214
 author: udaykirang
 ms.author: udag
-manager: jdaly
-ms.reviewer: pehecke
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 12
-topic-status: Drafting
+manager: shujoshi
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---

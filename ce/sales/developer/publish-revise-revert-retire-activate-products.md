@@ -1,15 +1,9 @@
 ---
-title: "Publish, revise, revert, retire, and activate products--product lifecycle (Dynamics 365 Sales)"
-description: "Programmatically control the product lifecycle through the draft, active, under revision, and retired states."
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+title: Publish, revise, revert, retire, and activate products--product lifecycle (Dynamics 365 Sales)
+description: Programmatically control the product lifecycle through the draft, active, under revision, and retired states.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: article
-ms.assetid: ada37ff8-0f03-47b4-bfd7-25a4b0aacb5b
-caps.latest.revision: 27
 author: udaykirang
 ms.author: udag
 manager: shujoshi

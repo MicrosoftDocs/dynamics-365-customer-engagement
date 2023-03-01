@@ -1,24 +1,9 @@
 ---
-title: "Quote, order, and invoice tables (Dynamics 365 Sales)"
-description: "Learn about quote, sales order (order), and invoice building."
-ms.custom: 
-ms.date: 07/06/2022
-ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
+title: Quote, order, and invoice tables (Dynamics 365 Sales)
+description: Learn about quote, sales order (order), and invoice building.
+ms.date: 03/01/2023
+ms.reviewer: lavanyakr
 ms.topic: article
-helpviewer_keywords: 
-  - sales order (order), definition
-  - quote; order; and invoice entities, introduction
-  - quote close activity, definition
-  - quote, definition
-  - invoice, definition
-  - order entity, introduction
-  - quote detail (quote product), definition
-  - invoice entity, introduction
-ms.assetid: 1ad567c4-6065-48ab-a277-15fbcc5a9d1a
-caps.latest.revision: 21
 author: udaykirang
 ms.author: udag
 manager: shujoshi
