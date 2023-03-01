@@ -1,6 +1,6 @@
 ---
-title: Troubleshoot issues for integrated search providers
-description: Learn how to troubleshoot errors related to data on the Insights tab. 
+title: Troubleshoot issues with integrated search providers
+description: Learn how to troubleshoot issues with integrated search providers. 
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
@@ -9,9 +9,9 @@ ms.date: 03/01/2023
 ms.custom: bap-template
 ---
 
-# Troubleshoot issues for integrated search providers (preview)
+# Troubleshoot issues with integrated search providers (preview)
 
-The article describes the troubleshooting steps to diagnose and fix issues for integrated search providers.
+The article describes the troubleshooting steps to diagnose and fix issues with integrated search providers.
 
 ## Data doesn't get updated on the Insights tab for integrated search providers (preview)
 

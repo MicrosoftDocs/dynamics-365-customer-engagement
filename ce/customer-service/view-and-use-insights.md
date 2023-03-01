@@ -39,6 +39,6 @@ You can view the failed articles in the **Failed** column. The failed articles c
 
 To view the failed articles, select the ingestion ID.
 
-# See Also
+## See Also
 
-[Troubleshoot issues for integrated search providers (preview)](int-search-troubleshoot.md#troubleshoot-issues-for-integrated-search-providers-preview)
+[Troubleshoot issues with integrated search providers (preview)](int-search-troubleshoot.md#troubleshoot-issues-with-integrated-search-providers-preview)

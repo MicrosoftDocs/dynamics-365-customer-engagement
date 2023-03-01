@@ -32,7 +32,7 @@ As administrators, you can set up a data refresh schedule to specify the refresh
 - If you're a first time user, you must:
 
 1. Provision integrated search providers
-1. Turn on the **Integrated Search API trigger flow**
+1. Enable the **Integrated Search API trigger flow**
 
 ### Provision integrated search providers
 
@@ -127,7 +127,7 @@ activate and then select **Activate**.
 1. On the confirmation dialog, select **Activate**. The search provider that you activated is added to the
 **Active search providers** list.
 
-## See Also
+## Next Steps
 
  [View and use insights for search providers](view-and-use-insights.md).
 
