@@ -34,8 +34,8 @@ To begin your email sending process, follow these steps:
 1. Go to **Real-time marketing** > **Channels** > **Emails** and select **+ New** in the top toolbar. Select the email template that you want to use. You can either use a pre-designed template or create your own custom template by selecting **Skip**.
 1. From the email editor, mark your email "Ready to Send" by selecting the **Ready to Send** button.
 
-> [!div class="mx-imgBorder"]
-> ![Ready to send screenshot.](media/email-without-journey-ready.png "Ready to send screenshot")
+    > [!div class="mx-imgBorder"]
+    > ![Ready to send screenshot.](media/email-without-journey-ready.png "Ready to send screenshot")
 
 1. The button changes to **Send** and can be selected to start the flow.
 1. Select a segment and select **Preview** to preview the segment. You can only select published segments. If your email contains customizations specific to a type of entity (Contact or Lead), you'll only see segments of that entity type. This ensures that you can’t create broken personalization in your email.
