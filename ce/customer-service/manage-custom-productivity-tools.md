@@ -51,6 +51,8 @@ Ensure that the following prerequisites are met:
 1. Enable the custom productivity tool, and save the changes.
 
 > [!NOTE]
-> - Custom productivity tools hosted in the productivity pane are not contextually bound to the session.
+>
+> - Custom productivity tools hosted in the productivity pane are not contextually bound to the session.
+>
 > - Custom productivity tools don't have a mechanism to retrieve information from the session context.
 
