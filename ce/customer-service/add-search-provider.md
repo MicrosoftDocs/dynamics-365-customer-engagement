@@ -1,5 +1,5 @@
 ---
-title: Add and manage integrated search providers
+title: Manage integrated search providers
 description: Learn how to provision, add, and manage integrated search providers.
 author: Soumyasd27
 ms.author: sdas
@@ -9,7 +9,7 @@ ms.date: 03/01/2023
 ms.custom: bap-template
 ---
 
-# Add and manage integrated search providers (preview)
+# Manage integrated search providers (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -40,9 +40,9 @@ You must provision the integrated search provider from Customer Service admin ce
 1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers (Preview)** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
 
-You may get an error message stating that integrated search feature isn't enabled in your geo. If you get this error, you can raise a Microsoft Support ticket to initiate the provisioning.
+If integrated search isn't enabled in your geographical region, contact Microsoft Support to provision the feature.
 
-### Turn on the Integrated Search API trigger flow
+### Enable the Integrated Search API trigger flow
 
 You must turn on the **Integrated Search API trigger** flow.
 
@@ -78,26 +78,24 @@ You can now add integrated search providers.
     1. Select **Next**.
 1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you've saved it. For details on knowledge article schema mapping, go to [Configure knowledge article schema mapping (preview)](int-data-mapping.md#configure-knowledge-article-schema-mapping-preview).
 1.	In the **Refresh Schedule** section, specify the refresh intervals:
-    1. **Refresh frequency**:
-        1. Select between **45 min** to **7 days** from the dropdown list. Your selection specifies the frequency at which newly created or updated articles are ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
-    1. **Lookback period**:
-        1. Select **No Lookback** or between **2 h** to **8 h** from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during ingestion.
+    1. **Refresh frequency**: Select a value from the dropdown list. Your selection specifies the frequency at which newly created or updated articles are ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
+    1. **Lookback period**: Select a value from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during ingestion.
         
-            For example, if you set the **Refresh frequency** at 15 min and **Lookback period** at 2 h, your data is refreshed for the last 2 h and 15 min, in every 15 min.
-        1. Select **Next**.
+        For example, if you set the refresh frequency at 15 minutes and lookback period at 2 hours, your data is refreshed for the last 2 hours and 15 minutes, in every 15 minutes.
+    1. Select **Next**.
 1.	In the **Summary** section, review your search provider setup and make changes, if any, to the **Search provider name**, **URL**, **Authentication type**, **Refresh frequency**, and **Lookback period**.
 
 1. Select **Save and close**.
 
-Your newly added search provider now appears on the **Knowledge > All search providers** page in the Customer Service admin center. In case of an error, save fails and a notification appears. You need to correct the error and try saving the search provider again.
+Your newly added search provider now appears on the **Knowledge > All search providers** page in the Customer Service admin center.
 
 > [!NOTE]
 > - For public preview, data ingestion is limited to 100,000 articles per ingestion run.
-> - Only a unique combination of root URL, site map URL, and language filters are allowed.
+> - A unique combination of root URL, site map URL, and language filters only are allowed.
 
 ## Edit search providers
 
-After you've added the search providers, you can also make changes, if required. The changes made will reflect in the subsequent ingestion run. To edit search providers:
+When you edit a search provider, the changes will appear in the subsequent ingestion run.
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The Knowledge page appears.
 1. In the **Integrated search providers (Preview)** section, select **Manage**.
@@ -107,12 +105,10 @@ After you've added the search providers, you can also make changes, if required.
 
 ## Deactivate search providers
 
-When you deactivate a search provider, the ingestion of newly created or updated articles from the search provider stops and the articles that have already been ingested will no longer appear in the search results.
+When you deactivate a search provider, the ingestion of newly created or updated articles from the search provider stops and the articles that have already been ingested won't appear in the search results.
 
 > [!NOTE]
 > If you have a custom layer on Knowledge Articles Quick find view, you will need to add msdyn_integratedsearchproviderid in View columns and Find columns for articles to stop appearing in the search results.
-
-To deactivate search providers:
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
 2. In the **Integrated search providers (Preview)** section, select **Manage**.
@@ -123,8 +119,6 @@ The search provider that you deactivated is added to the **Inactive search provi
 ## Activate search providers
 
 When you activate a search provider, the ingestion of newly created or updated articles from the search provider is initiated and articles from the search provider starts appearing in the search results.
-
-To activate search providers:
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
 1. In the **Integrated search providers (Preview)** section, select **Manage**.

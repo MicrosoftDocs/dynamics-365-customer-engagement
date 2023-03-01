@@ -165,5 +165,5 @@ namespace PowerApps.Samples
 
 ## See Also
 
-[Add and manage integrated search providers (preview)](add-search-provider.md)<br>
+[Manage integrated search providers (preview)](add-search-provider.md)<br>
 [View and use insights for search providers (preview)](view-and-use-insights.md)

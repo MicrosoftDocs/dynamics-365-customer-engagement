@@ -452,6 +452,8 @@
           href: int-data-mapping.md
         - name: View and use insights for search providers
           href: view-and-use-insights.md
+        - name: Schema details to build a metadata mapping template (preview)
+          href: int-search-metadata-schema.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
       - name: Create and manage knowledge categories
@@ -464,8 +466,6 @@
         href: configure-knowledge-article-origin-allow-list.md
       - name: Configure knowledge search control on app side pane for an entity record
         href: configure-knowledge-search-control-productivity-pane.md
-      - name: Schema details to build a metadata mapping template (preview)
-        href: int-search-metadata-schema.md
     - name: Knowledge author experience
       items:
       - name: Understand the knowledge article creation process

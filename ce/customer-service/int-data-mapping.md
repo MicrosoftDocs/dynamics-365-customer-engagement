@@ -55,7 +55,7 @@ If the validation is successful, you'll see a confirmation message. If the valid
 
 ## Use JSON
 
-1. Copy and paste your article properties and schema JSON in the field provided to you. For more information on creating the JSON schema, go to **Develop metadata mapping schema for knowledge articles (preview)**.
+1. Copy and paste your article properties and schema JSON in the field provided to you. For more information on creating the JSON schema, go to [Schema details to build a metadata mapping template (preview)](int-search-metadata-schema.md).
 1. Select **Validate json**.
  
     You'll get a message to denote whether the JSON validation has passed or failed. If there is an error, the error message will state the parameter with the incorrect value.
@@ -63,7 +63,7 @@ If the validation is successful, you'll see a confirmation message. If the valid
 
 ### Operation type mapping options
 
-- **Regex**: Select this when you want to use Regex patterns to extract values from their source website. When you select this option, the source property will be a text area where you can enter the regex pattern. The string from your website's HTML that matches this pattern will be used to map to the corresponding knowledge article field.
+- **Regex**: Select when you want to use Regex patterns to extract values from the source website. The source property will be a text area where you can enter the regex pattern. The string from your website's HTML that matches this pattern will be used to map to the corresponding knowledge article field.
 
     The Regex patterns must have a capture group enclosed in parentheses that allows you to extract a specific portion of the matched text. Note that the text extracted will be from the first non-empty group of the first match. More information: [Grouping constructs](/dotnet/standard/base-types/regular-expression-language-quick-reference#grouping-constructs). Here are some examples of regex patterns to extract content from a specific div tag:
 
@@ -75,14 +75,14 @@ If the validation is successful, you'll see a confirmation message. If the valid
     
     For more information on Regex, go to: [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference).
 
-- **Direct**: Select this when you want to map the value of any meta tag from its source website directly to any knowledge article field. The **Source Property** dropdown list shows all the meta tags extracted from the sample website along with **HTML-Title** and **HTML-Body** source properties, which are available by default.
+- **Direct**: Select when you want to map the value of any meta tag from its source website directly to any knowledge article field. The **Source Property** dropdown list shows all the meta tags extracted from the sample website along with **HTML-Title** and **HTML-Body** source properties, which are available by default.
 
     If you select **Direct** operation type and the **og: url** from the source property, the value of the **og: url** meta tag from the source property gets mapped to the corresponding knowledge article attribute.
 
-- **Constant**: Select this when you want to provide a constant value to any knowledge article field. The source property will be a text area where they can enter the constant value.
+- **Constant**: Select when you want to provide a constant value to any knowledge article field. The source property will be a text area where they can enter the constant value.
 
-- **RegexUrl**: This option is similar to Regex. Select this only when you want to find matches in the URL of the source website. The Regex patterns must be created as described for the **Regex** operation type. For example, if you want to map the entire source website URL to a knowledge attribute field, select **Regexurl** in the operation type, and use the (. *) pattern in the source property.
+- **RegexUrl**: Similar to Regex, select when you want to find matches in the URL of the source website only. The Regex patterns must be created as described for the **Regex** operation type. For example, if you want to map the entire source website URL to a knowledge attribute field, select **Regexurl** in the operation type, and use the (. *) pattern in the source property.
 
 ## Next steps
 
-For more information on adding an integrated search provider, go to: [Add and manage integrated search providers (preview)](add-search-provider.md#add-and-manage-integrated-search-providers-preview).
+For more information on adding an integrated search provider, go to: [Manage integrated search providers (preview)](add-search-provider.md#add-and-manage-integrated-search-providers-preview).
