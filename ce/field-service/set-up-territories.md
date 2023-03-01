@@ -92,7 +92,7 @@ On a new schedule board tab, add one or more territories as filters, and the res
 
 :::image type="content" source="media/territory-filter-schedule-board.png" alt-text="Screenshot of the schedule board, showing the territory tab.":::
 
-To filter requirements by territories in the lower pane, select **Scheduler settings**. In **Board view settings**, set the **Apply territory** filter to **On**.
+To filter requirements by territories in the lower pane, select **Scheduler settings**. In **Board view settings**, set the **Apply territory filter to requirements** to **On**.
 
 ## Relate territories and postal codes
 
