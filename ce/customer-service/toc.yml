@@ -158,6 +158,8 @@
         href: ../app-profile-manager/agent-scripts.md
       - name: Manage macros
         href: ../app-profile-manager/macros.md
+      - name: Manage custom productivity tools
+        href: manage-custom-productivity-tools.md
       - name: Use automation dictionary to pass parameters keys
         href: ../app-profile-manager/automation-dictionary-keys.md
   - name: Community
