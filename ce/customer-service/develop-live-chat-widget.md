@@ -83,7 +83,7 @@ The updated code snippet will look as follows.
 
 ```
 
-An example screenshot of a chat widget 2.0 is as follows.
+An example screenshot of a chat widget 2.0 that's customized to increase its size is as follows.
 
 :::image type="content" source="media/live-chat-widget-2.0.png" alt-text="A sample screenshot of live chat widget 2.0."::: 
 
