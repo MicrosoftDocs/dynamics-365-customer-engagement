@@ -114,7 +114,7 @@ Monthly enhancements include an improved email template gallery and an upgraded 
     - [Docs](real-time-marketing-predefined-dynamic-text.md)
 
     > [!div class="mx-imgBorder"]
-    > ![One-to-many screenshot](media/whats-new-journey-designer.png "One-to-many screenshot")
+    > ![One-to-many screenshot](media/real-time-marketing-one-to-many-whats-new.png "One-to-many screenshot")
 
 ### Monthly enhancements
 
