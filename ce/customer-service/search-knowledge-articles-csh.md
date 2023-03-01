@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 02/21/2023
+ms.date: 03/01/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -25,7 +25,11 @@ You can search knowledge articles in Customer Service Hub, Customer Service work
 > [!NOTE]
 > Knowledge base search is available in some versions of Dynamics 365 Customer Engagement (on-premises) also. For more information, go to [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities).
 
+The article describes the various options you can use to search knowledge articles.
+
 ## Prerequisites
+
+To use the various search options discussed in this article, one or more of the following prerequisites apply:
 
 - Your administrator has [enabled Dataverse search](/power-platform/admin/configure-relevance-search-organization). [Learn more about knowledge base search mechanisms](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals).
 
@@ -170,6 +174,28 @@ View your saved articles in the **Favorites** tab. The **Favorites** tab is avai
 The article you last marked as favorite appears first in your Favorites list. If an article has been deleted, it no longer appears in the list. Favorite articles are saved in the language in which you viewed them when you marked them as a favorite.
 
 In Customer Service workspace and Omnichannel for Customer Service, when you select a favorite article, it opens in an app tab. In Customer Service Hub, the article opens in a new browser window.
+
+## Use integrated search providers (preview)
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
+
+View the most relevant search results for your query across search providers in a single ranking. With easy sorting, find the knowledge article that best suits your needs while dealing with a customer. The name of the source provider appears on the knowledge article card. You can hover over to get the full name of the source provider, if required.
+
+To enable the integrated search provider option, contact your administrator. More information: [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview). After the feature is enabled by your administrator, you can view search results for your keywords across your configured search providers in both Customer Service Hub and Customer Service workspace.
+
+To search from Customer Service workspace, for example:
+
+1. In the Customer Service workspace site map, select a case and then select **Knowledge search** on the app side pane.
+1. Enter the search keyword. Depending on the keyword, you can see the most relevant search results along with the search provider.
+1. Select **Show more** to view additional results.
 
 ## View knowledge articles
 
