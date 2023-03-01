@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 02/01/2023
+ms.date: 03/02/2023
 ms.custom:
   - dyn365-marketing
 ms.topic: article
