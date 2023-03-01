@@ -35,9 +35,10 @@ You can see up to a maximum of 100 ingestion IDs. The data on the **Insights** t
 
 ## Use insights
 
-You can view the failed articles in the **Failed** column. Having the failed articles count will help you review the ingestion success status.
+You can view the failed articles in the **Failed** column. The failed articles count helps you review the ingestion success status.
 
 To view the failed articles, select the ingestion ID.
 
 # See Also
-[Data doesn't get updated on the Insights tab for integrated search providers (preview)](int-search-troubleshoot.md#data-doesnt-get-updated-on-the-insights-tab-for-integrated-search-providers-preview)
+
+[Troubleshoot issues for integrated search providers (preview)](int-search-troubleshoot.md#troubleshoot-issues-for-integrated-search-providers-preview)

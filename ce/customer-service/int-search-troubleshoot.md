@@ -1,5 +1,5 @@
 ---
-title: Data doesn't get updated on the Insights tab for integrated search providers
+title: Troubleshoot issues for integrated search providers
 description: Learn how to troubleshoot errors related to data on the Insights tab. 
 author: Soumyasd27
 ms.author: sdas
@@ -9,7 +9,11 @@ ms.date: 03/01/2023
 ms.custom: bap-template
 ---
 
-# Data doesn't get updated on the Insights tab for integrated search providers (preview)
+# Troubleshoot issues for integrated search providers (preview)
+
+The article describes the troubleshooting steps to diagnose and fix issues for integrated search providers.
+
+## Data doesn't get updated on the Insights tab for integrated search providers (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]

@@ -25,7 +25,11 @@ You can search knowledge articles in Customer Service Hub, Customer Service work
 > [!NOTE]
 > Knowledge base search is available in some versions of Dynamics 365 Customer Engagement (on-premises) also. For more information, go to [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities).
 
+The article describes the various options you can use to search knowledge articles.
+
 ## Prerequisites
+
+To use the various search options discussed in this article, one or more of the following prerequisites apply:
 
 - Your administrator has [enabled Dataverse search](/power-platform/admin/configure-relevance-search-organization). [Learn more about knowledge base search mechanisms](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals).
 
