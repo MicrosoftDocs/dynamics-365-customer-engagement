@@ -1201,7 +1201,7 @@
           href: view-export-KPI-data-gdpr.md
         - name: Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
           href: retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md
-    - name: GDPR FAQ
+    - name: GDPR and Security FAQ
       href: sales-gdpr-faqs.md
     - name: Privacy notice
       href: privacy-notice.md
