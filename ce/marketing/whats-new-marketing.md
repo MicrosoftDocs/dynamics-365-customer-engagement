@@ -86,16 +86,10 @@ Monthly enhancements include an improved email template gallery and an upgraded 
     - Send emails without creating a journey. This workflow allows you to select from a new template library, make changes easily with simplifications to the email editor, and send emails to the segment members you need to reach within minutes.
     - [Docs](email-without-journey.md)
 
-    > [!div class="mx-imgBorder"]
-    > ![send email without building journey](media/whats-new-send-email-without-building-journey.png "send email without building journey")
-
 - **Prevent message fatigue by limiting the messages sent to a customer in a specific period**
     - Ensure that your customers receive the right message at the right moment and at the right frequency to prevent fatigue, avoid unsubscribes, and facilitate optimal engagement with your key messages. Some customers qualify for multiple journeys and campaigns that run simultaneously. This results in customers receiving multiple messages through one channel in a short period of time. Customers may perceive these messages as spam, which lowers their engagement. With the frequency cap feature, you can optimize engagement by controlling how many messages are sent across multiple channels over a period.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/prevent-message-fatigue-limiting-messages-sent-customer-specific-period)
     - [Docs](real-time-marketing-frequency-cap.md)
-
-    > [!div class="mx-imgBorder"]
-    > ![prevent message fatigue](media/whats-new-prevent-message-fatigue.png "prevent message fatigue")
 
 - **Scale your business effortlessly and define access to marketing assets**
     - Improve productivity by defining marketing asset access and visibility to match your business structure. As businesses create vast amounts of assets, organizing data according to organizational structure becomes critical. Well-organized assets are important to remaining compliant and productive. Now in real-time marketing, you can effortlessly organize your digital assets, content, and journeys to match your organizational structure by separating business and customer data across organizational boundaries. Separating data enables you to gain comprehensive insights into a specific brand's marketing performance without losing sight of the bigger picture. Compliance risk is reduced by using out-of-the-box campaigns and data segregation capabilities across your organization.
@@ -114,7 +108,7 @@ Monthly enhancements include an improved email template gallery and an upgraded 
     - [Docs](real-time-marketing-predefined-dynamic-text.md)
 
     > [!div class="mx-imgBorder"]
-    > ![One-to-many screenshot](media/real-time-marketing-one-to-many-whats-new.png "One-to-many screenshot")
+    > ![One-to-many screenshot](media/whats-new-one-to-many.png "One-to-many screenshot")
 
 ### Monthly enhancements
 
