@@ -1220,73 +1220,73 @@ See the [territory_connections2](territory.md#BKMK_territory_connections2) one-t
 
 **Added by**: Lead Management Solution
 
-See the [lead_connections1](/sales/developer/entities/lead#BKMK_lead_connections1) one-to-many relationship for the [lead](/sales/developer/entities/lead) entity.
+See the [lead_connections1](lead.md#BKMK_lead_connections1) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_lead_connections2"></a> lead_connections2
 
 **Added by**: Lead Management Solution
 
-See the [lead_connections2](/sales/developer/entities/lead#BKMK_lead_connections2) one-to-many relationship for the [lead](/sales/developer/entities/lead) entity.
+See the [lead_connections2](lead.md#BKMK_lead_connections2) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_pricelevel_connections1"></a> pricelevel_connections1
 
 **Added by**: Product Management Solution
 
-See the [pricelevel_connections1](/sales/developer/entities/pricelevel#BKMK_pricelevel_connections1) one-to-many relationship for the [pricelevel](/sales/developer/entities/pricelevel) entity.
+See the [pricelevel_connections1](pricelevel.md#BKMK_pricelevel_connections1) one-to-many relationship for the [pricelevel](pricelevel.md) entity.
 
 ### <a name="BKMK_pricelevel_connections2"></a> pricelevel_connections2
 
 **Added by**: Product Management Solution
 
-See the [pricelevel_connections2](/sales/developer/entities/pricelevel#BKMK_pricelevel_connections2) one-to-many relationship for the [pricelevel](/sales/developer/entities/pricelevel) entity.
+See the [pricelevel_connections2](pricelevel.md#BKMK_pricelevel_connections2) one-to-many relationship for the [pricelevel](pricelevel.md) entity.
 
 ### <a name="BKMK_product_connections1"></a> product_connections1
 
 **Added by**: Product Management Solution
 
-See the [product_connections1](/sales/developer/entities/product#BKMK_product_connections1) one-to-many relationship for the [product](/sales/developer/entities/product) entity.
+See the [product_connections1](product.md#BKMK_product_connections1) one-to-many relationship for the [product](product.md) entity.
 
 ### <a name="BKMK_product_connections2"></a> product_connections2
 
 **Added by**: Product Management Solution
 
-See the [product_connections2](/sales/developer/entities/product#BKMK_product_connections2) one-to-many relationship for the [product](/sales/developer/entities/product) entity.
+See the [product_connections2](product.md#BKMK_product_connections2) one-to-many relationship for the [product](product.md) entity.
 
 ### <a name="BKMK_campaign_connections1"></a> campaign_connections1
 
 **Added by**: Marketing Solution
 
-See the [campaign_connections1](/sales/developer/entities/campaign#BKMK_campaign_connections1) one-to-many relationship for the [campaign](/sales/developer/entities/campaign) entity.
+See the [campaign_connections1](campaign.md#BKMK_campaign_connections1) one-to-many relationship for the [campaign](campaign.md) entity.
 
 ### <a name="BKMK_campaign_connections2"></a> campaign_connections2
 
 **Added by**: Marketing Solution
 
-See the [campaign_connections2](/sales/developer/entities/campaign#BKMK_campaign_connections2) one-to-many relationship for the [campaign](/sales/developer/entities/campaign) entity.
+See the [campaign_connections2](campaign.md#BKMK_campaign_connections2) one-to-many relationship for the [campaign](campaign.md) entity.
 
 ### <a name="BKMK_campaignactivity_connections1"></a> campaignactivity_connections1
 
 **Added by**: Marketing Solution
 
-See the [campaignactivity_connections1](/sales/developer/entities/campaignactivity#BKMK_campaignactivity_connections1) one-to-many relationship for the [campaignactivity](/sales/developer/entities/campaignactivity) entity.
+See the [campaignactivity_connections1](campaignactivity.md#BKMK_campaignactivity_connections1) one-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_campaignactivity_connections2"></a> campaignactivity_connections2
 
 **Added by**: Marketing Solution
 
-See the [campaignactivity_connections2](/sales/developer/entities/campaignactivity#BKMK_campaignactivity_connections2) one-to-many relationship for the [campaignactivity](/sales/developer/entities/campaignactivity) entity.
+See the [campaignactivity_connections2](campaignactivity.md#BKMK_campaignactivity_connections2) one-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_list_connections1"></a> list_connections1
 
 **Added by**: Marketing Solution
 
-See the [list_connections1](/sales/developer/entities/list#BKMK_list_connections1) one-to-many relationship for the [list](/sales/developer/entities/list) entity.
+See the [list_connections1](list.md#BKMK_list_connections1) one-to-many relationship for the [list](list.md) entity.
 
 ### <a name="BKMK_list_connections2"></a> list_connections2
 
 **Added by**: Marketing Solution
 
-See the [list_connections2](/sales/developer/entities/list#BKMK_list_connections2) one-to-many relationship for the [list](/sales/developer/entities/list) entity.
+See the [list_connections2](list.md#BKMK_list_connections2) one-to-many relationship for the [list](list.md) entity.
 
 ### <a name="BKMK_constraintbasedgroup_connections1"></a> constraintbasedgroup_connections1
 
@@ -1400,61 +1400,61 @@ See the [serviceappointment_connections2](serviceappointment.md#BKMK_serviceappo
 
 **Added by**: Sales Solution
 
-See the [invoice_connections1](/sales/developer/entities/invoice#BKMK_invoice_connections1) one-to-many relationship for the [invoice](/sales/developer/entities/invoice) entity.
+See the [invoice_connections1](invoice.md#BKMK_invoice_connections1) one-to-many relationship for the [invoice](invoice.md) entity.
 
 ### <a name="BKMK_invoice_connections2"></a> invoice_connections2
 
 **Added by**: Sales Solution
 
-See the [invoice_connections2](/sales/developer/entities/invoice#BKMK_invoice_connections2) one-to-many relationship for the [invoice](/sales/developer/entities/invoice) entity.
+See the [invoice_connections2](invoice.md#BKMK_invoice_connections2) one-to-many relationship for the [invoice](invoice.md) entity.
 
 ### <a name="BKMK_opportunity_connections1"></a> opportunity_connections1
 
 **Added by**: Sales Solution
 
-See the [opportunity_connections1](/sales/developer/entities/opportunity#BKMK_opportunity_connections1) one-to-many relationship for the [opportunity](/sales/developer/entities/opportunity) entity.
+See the [opportunity_connections1](opportunity.md#BKMK_opportunity_connections1) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_opportunity_connections2"></a> opportunity_connections2
 
 **Added by**: Sales Solution
 
-See the [opportunity_connections2](/sales/developer/entities/opportunity#BKMK_opportunity_connections2) one-to-many relationship for the [opportunity](/sales/developer/entities/opportunity) entity.
+See the [opportunity_connections2](opportunity.md#BKMK_opportunity_connections2) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_quote_connections1"></a> quote_connections1
 
 **Added by**: Sales Solution
 
-See the [quote_connections1](/sales/developer/entities/quote#BKMK_quote_connections1) one-to-many relationship for the [quote](/sales/developer/entities/quote) entity.
+See the [quote_connections1](quote.md#BKMK_quote_connections1) one-to-many relationship for the [quote](quote.md) entity.
 
 ### <a name="BKMK_quote_connections2"></a> quote_connections2
 
 **Added by**: Sales Solution
 
-See the [quote_connections2](/sales/developer/entities/quote#BKMK_quote_connections2) one-to-many relationship for the [quote](/sales/developer/entities/quote) entity.
+See the [quote_connections2](quote.md#BKMK_quote_connections2) one-to-many relationship for the [quote](quote.md) entity.
 
 ### <a name="BKMK_salesorder_connections1"></a> salesorder_connections1
 
 **Added by**: Sales Solution
 
-See the [salesorder_connections1](/sales/developer/entities/salesorder#BKMK_salesorder_connections1) one-to-many relationship for the [salesorder](/sales/developer/entities/salesorder) entity.
+See the [salesorder_connections1](salesorder.md#BKMK_salesorder_connections1) one-to-many relationship for the [salesorder](salesorder.md) entity.
 
 ### <a name="BKMK_salesorder_connections2"></a> salesorder_connections2
 
 **Added by**: Sales Solution
 
-See the [salesorder_connections2](/sales/developer/entities/salesorder#BKMK_salesorder_connections2) one-to-many relationship for the [salesorder](/sales/developer/entities/salesorder) entity.
+See the [salesorder_connections2](salesorder.md#BKMK_salesorder_connections2) one-to-many relationship for the [salesorder](salesorder.md) entity.
 
 ### <a name="BKMK_competitor_connections1"></a> competitor_connections1
 
 **Added by**: Sales Solution
 
-See the [competitor_connections1](/sales/developer/entities/competitor#BKMK_competitor_connections1) one-to-many relationship for the [competitor](/sales/developer/entities/competitor) entity.
+See the [competitor_connections1](competitor.md#BKMK_competitor_connections1) one-to-many relationship for the [competitor](competitor.md) entity.
 
 ### <a name="BKMK_competitor_connections2"></a> competitor_connections2
 
 **Added by**: Sales Solution
 
-See the [competitor_connections2](/sales/developer/entities/competitor#BKMK_competitor_connections2) one-to-many relationship for the [competitor](/sales/developer/entities/competitor) entity.
+See the [competitor_connections2](competitor.md#BKMK_competitor_connections2) one-to-many relationship for the [competitor](competitor.md) entity.
 
 ### <a name="BKMK_msdyn_postalbum_connections1"></a> msdyn_postalbum_connections1
 
@@ -1482,7 +1482,7 @@ See the [processsession_connections1](processsession.md#BKMK_processsession_conn
 
 ### <a name="BKMK_contact_connections1"></a> contact_connections1
 
-See the [contact_connections1](/sales/developer/entities/contact#BKMK_contact_connections1) one-to-many relationship for the [contact](/sales/developer/entities/contact) entity.
+See the [contact_connections1](contact.md#BKMK_contact_connections1) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_recurringappointmentmaster_connections1"></a> recurringappointmentmaster_connections1
 
@@ -1518,7 +1518,7 @@ See the [email_connections1](email.md#BKMK_email_connections1) one-to-many relat
 
 ### <a name="BKMK_account_connections1"></a> account_connections1
 
-See the [account_connections1](/sales/developer/entities/account#BKMK_account_connections1) one-to-many relationship for the [account](/sales/developer/entities/account) entity.
+See the [account_connections1](account.md#BKMK_account_connections1) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_fax_connections2"></a> fax_connections2
 
@@ -1538,7 +1538,7 @@ See the [createdby_connection](systemuser.md#BKMK_createdby_connection) one-to-m
 
 ### <a name="BKMK_account_connections2"></a> account_connections2
 
-See the [account_connections2](/sales/developer/entities/account#BKMK_account_connections2) one-to-many relationship for the [account](/sales/developer/entities/account) entity.
+See the [account_connections2](account.md#BKMK_account_connections2) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_phonecall_connections1"></a> phonecall_connections1
 
@@ -1578,7 +1578,7 @@ See the [position_connection2](position.md#BKMK_position_connection2) one-to-man
 
 ### <a name="BKMK_goal_connections1"></a> goal_connections1
 
-See the [goal_connections1](/sales/developer/entities/goal#BKMK_goal_connections1) one-to-many relationship for the [goal](/sales/developer/entities/goal) entity.
+See the [goal_connections1](goal.md#BKMK_goal_connections1) one-to-many relationship for the [goal](goal.md) entity.
 
 ### <a name="BKMK_connection_role_connections1"></a> connection_role_connections1
 
@@ -1610,7 +1610,7 @@ See the [connection_related_connection](connection.md#BKMK_connection_related_co
 
 ### <a name="BKMK_contact_connections2"></a> contact_connections2
 
-See the [contact_connections2](/sales/developer/entities/contact#BKMK_contact_connections2) one-to-many relationship for the [contact](/sales/developer/entities/contact) entity.
+See the [contact_connections2](contact.md#BKMK_contact_connections2) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_lk_connectionbase_createdonbehalfby"></a> lk_connectionbase_createdonbehalfby
 
@@ -1634,7 +1634,7 @@ See the [business_unit_connections](businessunit.md#BKMK_business_unit_connectio
 
 ### <a name="BKMK_goal_connections2"></a> goal_connections2
 
-See the [goal_connections2](/sales/developer/entities/goal#BKMK_goal_connections2) one-to-many relationship for the [goal](/sales/developer/entities/goal) entity.
+See the [goal_connections2](goal.md#BKMK_goal_connections2) one-to-many relationship for the [goal](goal.md) entity.
 
 ### <a name="BKMK_socialprofile_connections1"></a> socialprofile_connections1
 

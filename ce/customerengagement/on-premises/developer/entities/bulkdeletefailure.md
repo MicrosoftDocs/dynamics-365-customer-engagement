@@ -430,13 +430,13 @@ See the [Territory_BulkDeleteFailures](territory.md#BKMK_Territory_BulkDeleteFai
 
 **Added by**: Lead Management Solution
 
-See the [leadaddress_BulkDeleteFailures](/sales/developer/entities/leadaddress#BKMK_leadaddress_BulkDeleteFailures) one-to-many relationship for the [leadaddress](/sales/developer/entities/leadaddress) entity.
+See the [leadaddress_BulkDeleteFailures](leadaddress.md#BKMK_leadaddress_BulkDeleteFailures) one-to-many relationship for the [leadaddress](leadaddress.md) entity.
 
 ### <a name="BKMK_Lead_BulkDeleteFailures"></a> Lead_BulkDeleteFailures
 
 **Added by**: Lead Management Solution
 
-See the [Lead_BulkDeleteFailures](/sales/developer/entities/lead#BKMK_Lead_BulkDeleteFailures) one-to-many relationship for the [lead](/sales/developer/entities/lead) entity.
+See the [Lead_BulkDeleteFailures](lead.md#BKMK_Lead_BulkDeleteFailures) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_dynamicproperty_BulkDeleteFailures"></a> dynamicproperty_BulkDeleteFailures
 
@@ -454,7 +454,7 @@ See the [dynamicpropertyassociation_BulkDeleteFailures](dynamicpropertyassociati
 
 **Added by**: Product Management Solution
 
-See the [dynamicpropertyinstance_BulkDeleteFailures](/sales/developer/entities/dynamicpropertyinstance#BKMK_dynamicpropertyinstance_BulkDeleteFailures) one-to-many relationship for the [dynamicpropertyinstance](/sales/developer/entities/dynamicpropertyinstance) entity.
+See the [dynamicpropertyinstance_BulkDeleteFailures](dynamicpropertyinstance.md#BKMK_dynamicpropertyinstance_BulkDeleteFailures) one-to-many relationship for the [dynamicpropertyinstance](dynamicpropertyinstance.md) entity.
 
 ### <a name="BKMK_dynamicpropertyoptionsetitem_BulkDeleteFailures"></a> dynamicpropertyoptionsetitem_BulkDeleteFailures
 
@@ -466,43 +466,43 @@ See the [dynamicpropertyoptionsetitem_BulkDeleteFailures](dynamicpropertyoptions
 
 **Added by**: Product Management Solution
 
-See the [PriceLevel_BulkDeleteFailures](/sales/developer/entities/pricelevel#BKMK_PriceLevel_BulkDeleteFailures) one-to-many relationship for the [pricelevel](/sales/developer/entities/pricelevel) entity.
+See the [PriceLevel_BulkDeleteFailures](pricelevel.md#BKMK_PriceLevel_BulkDeleteFailures) one-to-many relationship for the [pricelevel](pricelevel.md) entity.
 
 ### <a name="BKMK_Product_BulkDeleteFailures"></a> Product_BulkDeleteFailures
 
 **Added by**: Product Management Solution
 
-See the [Product_BulkDeleteFailures](/sales/developer/entities/product#BKMK_Product_BulkDeleteFailures) one-to-many relationship for the [product](/sales/developer/entities/product) entity.
+See the [Product_BulkDeleteFailures](product.md#BKMK_Product_BulkDeleteFailures) one-to-many relationship for the [product](product.md) entity.
 
 ### <a name="BKMK_productassociation_BulkDeleteFailures"></a> productassociation_BulkDeleteFailures
 
 **Added by**: Product Management Solution
 
-See the [productassociation_BulkDeleteFailures](/sales/developer/entities/productassociation#BKMK_productassociation_BulkDeleteFailures) one-to-many relationship for the [productassociation](/sales/developer/entities/productassociation) entity.
+See the [productassociation_BulkDeleteFailures](productassociation.md#BKMK_productassociation_BulkDeleteFailures) one-to-many relationship for the [productassociation](productassociation.md) entity.
 
 ### <a name="BKMK_ProductPriceLevel_BulkDeleteFailures"></a> ProductPriceLevel_BulkDeleteFailures
 
 **Added by**: Product Management Solution
 
-See the [ProductPriceLevel_BulkDeleteFailures](/sales/developer/entities/productpricelevel#BKMK_ProductPriceLevel_BulkDeleteFailures) one-to-many relationship for the [productpricelevel](/sales/developer/entities/productpricelevel) entity.
+See the [ProductPriceLevel_BulkDeleteFailures](productpricelevel.md#BKMK_ProductPriceLevel_BulkDeleteFailures) one-to-many relationship for the [productpricelevel](productpricelevel.md) entity.
 
 ### <a name="BKMK_ProductSubstitute_BulkDeleteFailures"></a> ProductSubstitute_BulkDeleteFailures
 
 **Added by**: Product Management Solution
 
-See the [ProductSubstitute_BulkDeleteFailures](/sales/developer/entities/productsubstitute#BKMK_ProductSubstitute_BulkDeleteFailures) one-to-many relationship for the [productsubstitute](/sales/developer/entities/productsubstitute) entity.
+See the [ProductSubstitute_BulkDeleteFailures](productsubstitute.md#BKMK_ProductSubstitute_BulkDeleteFailures) one-to-many relationship for the [productsubstitute](productsubstitute.md) entity.
 
 ### <a name="BKMK_UoM_BulkDeleteFailures"></a> UoM_BulkDeleteFailures
 
 **Added by**: Product Management Solution
 
-See the [UoM_BulkDeleteFailures](/sales/developer/entities/uom#BKMK_UoM_BulkDeleteFailures) one-to-many relationship for the [uom](/sales/developer/entities/uom) entity.
+See the [UoM_BulkDeleteFailures](uom.md#BKMK_UoM_BulkDeleteFailures) one-to-many relationship for the [uom](uom.md) entity.
 
 ### <a name="BKMK_UoMSchedule_BulkDeleteFailures"></a> UoMSchedule_BulkDeleteFailures
 
 **Added by**: Product Management Solution
 
-See the [UoMSchedule_BulkDeleteFailures](/sales/developer/entities/uomschedule#BKMK_UoMSchedule_BulkDeleteFailures) one-to-many relationship for the [uomschedule](/sales/developer/entities/uomschedule) entity.
+See the [UoMSchedule_BulkDeleteFailures](uomschedule.md#BKMK_UoMSchedule_BulkDeleteFailures) one-to-many relationship for the [uomschedule](uomschedule.md) entity.
 
 ### <a name="BKMK_bookableresource_BulkDeleteFailures"></a> bookableresource_BulkDeleteFailures
 
@@ -574,37 +574,37 @@ See the [ratingvalue_BulkDeleteFailures](ratingvalue.md#BKMK_ratingvalue_BulkDel
 
 **Added by**: Marketing Solution
 
-See the [BulkOperation_BulkDeleteFailures](/sales/developer/entities/bulkoperation#BKMK_BulkOperation_BulkDeleteFailures) one-to-many relationship for the [bulkoperation](/sales/developer/entities/bulkoperation) entity.
+See the [BulkOperation_BulkDeleteFailures](bulkoperation.md#BKMK_BulkOperation_BulkDeleteFailures) one-to-many relationship for the [bulkoperation](bulkoperation.md) entity.
 
 ### <a name="BKMK_BulkOperationLog_BulkDeleteFailures"></a> BulkOperationLog_BulkDeleteFailures
 
 **Added by**: Marketing Solution
 
-See the [BulkOperationLog_BulkDeleteFailures](/sales/developer/entities/bulkoperationlog#BKMK_BulkOperationLog_BulkDeleteFailures) one-to-many relationship for the [bulkoperationlog](/sales/developer/entities/bulkoperationlog) entity.
+See the [BulkOperationLog_BulkDeleteFailures](bulkoperationlog.md#BKMK_BulkOperationLog_BulkDeleteFailures) one-to-many relationship for the [bulkoperationlog](bulkoperationlog.md) entity.
 
 ### <a name="BKMK_Campaign_BulkDeleteFailures"></a> Campaign_BulkDeleteFailures
 
 **Added by**: Marketing Solution
 
-See the [Campaign_BulkDeleteFailures](/sales/developer/entities/campaign#BKMK_Campaign_BulkDeleteFailures) one-to-many relationship for the [campaign](/sales/developer/entities/campaign) entity.
+See the [Campaign_BulkDeleteFailures](campaign.md#BKMK_Campaign_BulkDeleteFailures) one-to-many relationship for the [campaign](campaign.md) entity.
 
 ### <a name="BKMK_CampaignActivity_BulkDeleteFailures"></a> CampaignActivity_BulkDeleteFailures
 
 **Added by**: Marketing Solution
 
-See the [CampaignActivity_BulkDeleteFailures](/sales/developer/entities/campaignactivity#BKMK_CampaignActivity_BulkDeleteFailures) one-to-many relationship for the [campaignactivity](/sales/developer/entities/campaignactivity) entity.
+See the [CampaignActivity_BulkDeleteFailures](campaignactivity.md#BKMK_CampaignActivity_BulkDeleteFailures) one-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_CampaignResponse_BulkDeleteFailures"></a> CampaignResponse_BulkDeleteFailures
 
 **Added by**: Marketing Solution
 
-See the [CampaignResponse_BulkDeleteFailures](/sales/developer/entities/campaignresponse#BKMK_CampaignResponse_BulkDeleteFailures) one-to-many relationship for the [campaignresponse](/sales/developer/entities/campaignresponse) entity.
+See the [CampaignResponse_BulkDeleteFailures](campaignresponse.md#BKMK_CampaignResponse_BulkDeleteFailures) one-to-many relationship for the [campaignresponse](campaignresponse.md) entity.
 
 ### <a name="BKMK_List_BulkDeleteFailures"></a> List_BulkDeleteFailures
 
 **Added by**: Marketing Solution
 
-See the [List_BulkDeleteFailures](/sales/developer/entities/list#BKMK_List_BulkDeleteFailures) one-to-many relationship for the [list](/sales/developer/entities/list) entity.
+See the [List_BulkDeleteFailures](list.md#BKMK_List_BulkDeleteFailures) one-to-many relationship for the [list](list.md) entity.
 
 ### <a name="BKMK_ConstraintBasedGroup_BulkDeleteFailures"></a> ConstraintBasedGroup_BulkDeleteFailures
 
@@ -724,109 +724,109 @@ See the [Site_BulkDeleteFailures](site.md#BKMK_Site_BulkDeleteFailures) one-to-m
 
 **Added by**: Sales Solution
 
-See the [Discount_BulkDeleteFailures](/sales/developer/entities/discount#BKMK_Discount_BulkDeleteFailures) one-to-many relationship for the [discount](/sales/developer/entities/discount) entity.
+See the [Discount_BulkDeleteFailures](discount.md#BKMK_Discount_BulkDeleteFailures) one-to-many relationship for the [discount](discount.md) entity.
 
 ### <a name="BKMK_DiscountType_BulkDeleteFailures"></a> DiscountType_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [DiscountType_BulkDeleteFailures](/sales/developer/entities/discounttype#BKMK_DiscountType_BulkDeleteFailures) one-to-many relationship for the [discounttype](/sales/developer/entities/discounttype) entity.
+See the [DiscountType_BulkDeleteFailures](discounttype.md#BKMK_DiscountType_BulkDeleteFailures) one-to-many relationship for the [discounttype](discounttype.md) entity.
 
 ### <a name="BKMK_Invoice_BulkDeleteFailures"></a> Invoice_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [Invoice_BulkDeleteFailures](/sales/developer/entities/invoice#BKMK_Invoice_BulkDeleteFailures) one-to-many relationship for the [invoice](/sales/developer/entities/invoice) entity.
+See the [Invoice_BulkDeleteFailures](invoice.md#BKMK_Invoice_BulkDeleteFailures) one-to-many relationship for the [invoice](invoice.md) entity.
 
 ### <a name="BKMK_InvoiceDetail_BulkDeleteFailures"></a> InvoiceDetail_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [InvoiceDetail_BulkDeleteFailures](/sales/developer/entities/invoicedetail#BKMK_InvoiceDetail_BulkDeleteFailures) one-to-many relationship for the [invoicedetail](/sales/developer/entities/invoicedetail) entity.
+See the [InvoiceDetail_BulkDeleteFailures](invoicedetail.md#BKMK_InvoiceDetail_BulkDeleteFailures) one-to-many relationship for the [invoicedetail](invoicedetail.md) entity.
 
 ### <a name="BKMK_leadtoopportunitysalesprocess_BulkDeleteFailures"></a> leadtoopportunitysalesprocess_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [leadtoopportunitysalesprocess_BulkDeleteFailures](/sales/developer/entities/leadtoopportunitysalesprocess#BKMK_leadtoopportunitysalesprocess_BulkDeleteFailures) one-to-many relationship for the [leadtoopportunitysalesprocess](/sales/developer/entities/leadtoopportunitysalesprocess) entity.
+See the [leadtoopportunitysalesprocess_BulkDeleteFailures](leadtoopportunitysalesprocess.md#BKMK_leadtoopportunitysalesprocess_BulkDeleteFailures) one-to-many relationship for the [leadtoopportunitysalesprocess](leadtoopportunitysalesprocess.md) entity.
 
 ### <a name="BKMK_Opportunity_BulkDeleteFailures"></a> Opportunity_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [Opportunity_BulkDeleteFailures](/sales/developer/entities/opportunity#BKMK_Opportunity_BulkDeleteFailures) one-to-many relationship for the [opportunity](/sales/developer/entities/opportunity) entity.
+See the [Opportunity_BulkDeleteFailures](opportunity.md#BKMK_Opportunity_BulkDeleteFailures) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_OpportunityClose_BulkDeleteFailures"></a> OpportunityClose_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [OpportunityClose_BulkDeleteFailures](/sales/developer/entities/opportunityclose#BKMK_OpportunityClose_BulkDeleteFailures) one-to-many relationship for the [opportunityclose](/sales/developer/entities/opportunityclose) entity.
+See the [OpportunityClose_BulkDeleteFailures](opportunityclose.md#BKMK_OpportunityClose_BulkDeleteFailures) one-to-many relationship for the [opportunityclose](opportunityclose.md) entity.
 
 ### <a name="BKMK_OpportunityProduct_BulkDeleteFailures"></a> OpportunityProduct_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [OpportunityProduct_BulkDeleteFailures](/sales/developer/entities/opportunityproduct#BKMK_OpportunityProduct_BulkDeleteFailures) one-to-many relationship for the [opportunityproduct](/sales/developer/entities/opportunityproduct) entity.
+See the [OpportunityProduct_BulkDeleteFailures](opportunityproduct.md#BKMK_OpportunityProduct_BulkDeleteFailures) one-to-many relationship for the [opportunityproduct](opportunityproduct.md) entity.
 
 ### <a name="BKMK_opportunitysalesprocess_BulkDeleteFailures"></a> opportunitysalesprocess_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [opportunitysalesprocess_BulkDeleteFailures](/sales/developer/entities/opportunitysalesprocess#BKMK_opportunitysalesprocess_BulkDeleteFailures) one-to-many relationship for the [opportunitysalesprocess](/sales/developer/entities/opportunitysalesprocess) entity.
+See the [opportunitysalesprocess_BulkDeleteFailures](opportunitysalesprocess.md#BKMK_opportunitysalesprocess_BulkDeleteFailures) one-to-many relationship for the [opportunitysalesprocess](opportunitysalesprocess.md) entity.
 
 ### <a name="BKMK_OrderClose_BulkDeleteFailures"></a> OrderClose_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [OrderClose_BulkDeleteFailures](/sales/developer/entities/orderclose#BKMK_OrderClose_BulkDeleteFailures) one-to-many relationship for the [orderclose](/sales/developer/entities/orderclose) entity.
+See the [OrderClose_BulkDeleteFailures](orderclose.md#BKMK_OrderClose_BulkDeleteFailures) one-to-many relationship for the [orderclose](orderclose.md) entity.
 
 ### <a name="BKMK_Quote_BulkDeleteFailures"></a> Quote_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [Quote_BulkDeleteFailures](/sales/developer/entities/quote#BKMK_Quote_BulkDeleteFailures) one-to-many relationship for the [quote](/sales/developer/entities/quote) entity.
+See the [Quote_BulkDeleteFailures](quote.md#BKMK_Quote_BulkDeleteFailures) one-to-many relationship for the [quote](quote.md) entity.
 
 ### <a name="BKMK_QuoteClose_BulkDeleteFailures"></a> QuoteClose_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [QuoteClose_BulkDeleteFailures](/sales/developer/entities/quoteclose#BKMK_QuoteClose_BulkDeleteFailures) one-to-many relationship for the [quoteclose](/sales/developer/entities/quoteclose) entity.
+See the [QuoteClose_BulkDeleteFailures](quoteclose.md#BKMK_QuoteClose_BulkDeleteFailures) one-to-many relationship for the [quoteclose](quoteclose.md) entity.
 
 ### <a name="BKMK_QuoteDetail_BulkDeleteFailures"></a> QuoteDetail_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [QuoteDetail_BulkDeleteFailures](/sales/developer/entities/quotedetail#BKMK_QuoteDetail_BulkDeleteFailures) one-to-many relationship for the [quotedetail](/sales/developer/entities/quotedetail) entity.
+See the [QuoteDetail_BulkDeleteFailures](quotedetail.md#BKMK_QuoteDetail_BulkDeleteFailures) one-to-many relationship for the [quotedetail](quotedetail.md) entity.
 
 ### <a name="BKMK_SalesLiterature_BulkDeleteFailures"></a> SalesLiterature_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [SalesLiterature_BulkDeleteFailures](/sales/developer/entities/salesliterature#BKMK_SalesLiterature_BulkDeleteFailures) one-to-many relationship for the [salesliterature](/sales/developer/entities/salesliterature) entity.
+See the [SalesLiterature_BulkDeleteFailures](salesliterature.md#BKMK_SalesLiterature_BulkDeleteFailures) one-to-many relationship for the [salesliterature](salesliterature.md) entity.
 
 ### <a name="BKMK_SalesLiteratureItem_BulkDeleteFailures"></a> SalesLiteratureItem_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [SalesLiteratureItem_BulkDeleteFailures](/sales/developer/entities/salesliteratureitem#BKMK_SalesLiteratureItem_BulkDeleteFailures) one-to-many relationship for the [salesliteratureitem](/sales/developer/entities/salesliteratureitem) entity.
+See the [SalesLiteratureItem_BulkDeleteFailures](salesliteratureitem.md#BKMK_SalesLiteratureItem_BulkDeleteFailures) one-to-many relationship for the [salesliteratureitem](salesliteratureitem.md) entity.
 
 ### <a name="BKMK_SalesOrder_BulkDeleteFailures"></a> SalesOrder_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [SalesOrder_BulkDeleteFailures](/sales/developer/entities/salesorder#BKMK_SalesOrder_BulkDeleteFailures) one-to-many relationship for the [salesorder](/sales/developer/entities/salesorder) entity.
+See the [SalesOrder_BulkDeleteFailures](salesorder.md#BKMK_SalesOrder_BulkDeleteFailures) one-to-many relationship for the [salesorder](salesorder.md) entity.
 
 ### <a name="BKMK_SalesOrderDetail_BulkDeleteFailures"></a> SalesOrderDetail_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [SalesOrderDetail_BulkDeleteFailures](/sales/developer/entities/salesorderdetail#BKMK_SalesOrderDetail_BulkDeleteFailures) one-to-many relationship for the [salesorderdetail](/sales/developer/entities/salesorderdetail) entity.
+See the [SalesOrderDetail_BulkDeleteFailures](salesorderdetail.md#BKMK_SalesOrderDetail_BulkDeleteFailures) one-to-many relationship for the [salesorderdetail](salesorderdetail.md) entity.
 
 ### <a name="BKMK_Competitor_BulkDeleteFailures"></a> Competitor_BulkDeleteFailures
 
 **Added by**: Sales Solution
 
-See the [Competitor_BulkDeleteFailures](/sales/developer/entities/competitor#BKMK_Competitor_BulkDeleteFailures) one-to-many relationship for the [competitor](/sales/developer/entities/competitor) entity.
+See the [Competitor_BulkDeleteFailures](competitor.md#BKMK_Competitor_BulkDeleteFailures) one-to-many relationship for the [competitor](competitor.md) entity.
 
 ### <a name="BKMK_msdyn_relationshipinsightsunifiedconfig_BulkDeleteFailures"></a> msdyn_relationshipinsightsunifiedconfig_BulkDeleteFailures
 
@@ -912,7 +912,7 @@ See the [Queue_BulkDeleteFailures](queue.md#BKMK_Queue_BulkDeleteFailures) one-t
 
 ### <a name="BKMK_Contact_BulkDeleteFailures"></a> Contact_BulkDeleteFailures
 
-See the [Contact_BulkDeleteFailures](/sales/developer/entities/contact#BKMK_Contact_BulkDeleteFailures) one-to-many relationship for the [contact](/sales/developer/entities/contact) entity.
+See the [Contact_BulkDeleteFailures](contact.md#BKMK_Contact_BulkDeleteFailures) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_emailserverprofile_bulkdeletefailures"></a> emailserverprofile_bulkdeletefailures
 
@@ -932,7 +932,7 @@ See the [Template_BulkDeleteFailures](template.md#BKMK_Template_BulkDeleteFailur
 
 ### <a name="BKMK_Account_BulkDeleteFailures"></a> Account_BulkDeleteFailures
 
-See the [Account_BulkDeleteFailures](/sales/developer/entities/account#BKMK_Account_BulkDeleteFailures) one-to-many relationship for the [account](/sales/developer/entities/account) entity.
+See the [Account_BulkDeleteFailures](account.md#BKMK_Account_BulkDeleteFailures) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_SystemUser_BulkDeleteFailures"></a> SystemUser_BulkDeleteFailures
 

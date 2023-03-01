@@ -52,9 +52,9 @@ The *account* and *contact* entities in [!INCLUDE[pn_microsoftcrm](../includes/p
   Linking entities such as activities and notes to the contact entity lets user see all the communication the user has had with a customer, any actions the user has taken on behalf of the customer, and all information the user needs about the customer.  
   
 ## In This Section  
- [Account Entity](/sales/developer/entities/account)  
+ [Account Entity](entities/account.md)  
   
- [Contact Entity](/sales/developer/entities/contact)  
+ [Contact Entity](entities/contact.md)  
   
  [CustomerAddress Entity](entities/customeraddress.md)  
   
