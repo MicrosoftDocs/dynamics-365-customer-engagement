@@ -29,11 +29,11 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 
 ## March 2023 update
 
-The Dynamics 365 Marketing March 2023 release includes five general availability features and four public previews. The general availability features include static segments in real-time marketing, the ability to create segments in real-time marketing where specific people are always included or excluded, filtering for email lists, and enriching marketing content by embedding additional file types.
+The Dynamics 365 Marketing March 2023 release general availability features include static segments in real-time marketing, filtering for email lists, enriched marketing content with additional file types, support for SMS providers Infobip and LINK Mobility, customized journeys tailored to your business needs, and segments in real-time marketing where specific people are always included or excluded.
 
-The public preview features include sending segment-based emails without building a journey, preventing message fatigue by limiting the messages sent to a customer in a specific period, scale your business effortlessly and define access to marketing assets, and customize your customer journeys to tailor to your business needs.
+Public preview features include sending segment-based emails without building a journey, preventing message fatigue by limiting the messages sent to a customer in a specific period, business units for real-time marketing, and the ability to hop over one-to-many relationships for dynamic text.
 
-Monthly enhancements include improvements in templates with easy email editor and increased discoverability of side pane for goals and exit criteria.
+Monthly enhancements include an improved email template gallery and an upgraded side pane for goals and exit criteria.
 
 ### Version number
 
@@ -52,11 +52,6 @@ Monthly enhancements include improvements in templates with easy email editor an
       > [!div class="mx-imgBorder"]
       > ![static snapshot](media/whats-new-static-snapshot.png "static snapshot")
 
-- **Individually manage segment members with inclusions and exclusions**
-    - Adding manual inclusions or exclusions is a powerful way to augment segment-building criteria. Manually include or exclude specific people to ensure that segments always reach VIP customers. Or use inclusions and exclusions as an easy way to build test segments for journeys.
-    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/individually-manage-segment-members-inclusions-exclusions)
-    - [Docs](real-time-marketing-include-exclude.md)
-
 - **Fine-tune email communications with filtered lists**
     - Including an entire list in an email is a common scenario. But there are times when it's more effective to only include items from a list that meet certain conditions. For example, in a confirmation email about an order, you may need to separately list items that are back ordered. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track. Now you can easily achieve these scenarios by adding a filter to your email list. 
     - [Docs](real-time-marketing-personalize-lists.md)
@@ -69,25 +64,35 @@ Monthly enhancements include improvements in templates with easy email editor an
     - Sending your customers’ rich, compelling content is key to keeping them engaged with your brand. With this release, using assets across real-time and outbound marketing got easier. With the enhanced unified library, you can now upload files once and use them where you need them. No need to copy or download assets for backup. 
     Using additional file types, such as documents, PDFs, presentations, videos and more, you can now add asset links to your emails to create richer content for your customers.   
     **NOTE**: To foster this new simplified way of managing and using assets, the [real-time marketing library add-on](real-time-marketing-asset-library.md) is no longer available for installation. If you previously installed it, you could continue to use the add-on.
-    - Release plan
-    - Docs
+    - [Docs](upload-images-files.md)
 
       > [!div class="mx-imgBorder"]
       > ![enhanced asset library](media/whats-new-enhanced-asset-library.png "enhanced asset library")
 
 - **Engage your customers with text messages sent via Infobip and LINK Mobility**
     - In addition to Twilio and Telesign, you can now integrate with Infobip and LINK Mobility to send text messages. Connect your existing Infobip or LINK Mobility account and use all Real-time marketing text message features to maximize customer engagement.
-    - [Release plan](https://successhub.crm.dynamics.com/main.aspx?appid=0fe9f79a-a1f6-4064-af95-ded6c5e7bd5c&pagetype=entityrecord&etn=rn_releasenote&id=b3a0acce-019c-ed11-aad1-000d3a574bff)
     - [Docs](real-time-marketing-outbound-text-messaging.md)
 
       > [!div class="mx-imgBorder"]
       > ![outbound text messaging](media/whats-new-outbound-text-messaging.png "outbound text messaging")
 
+- **Customize your customer journeys to tailor to your business needs**
+    - Customization of your customer journeys is now available in Dynamics 365 Real-time Marketing. Not only can marketers use out-of-the-box Marketing capabilities to effectively engage with their customers, but they can also now create personalized, flexible, and efficient solutions through Power Apps to better tailor the app to their specific business needs. For example, you can now extend your Real-time journey canvas to add any customized fields through Dataverse to better streamline your business processes for higher efficiency. This allows you to add custom fields such as 'campaign' to your journeys to better manage your assets, collaborate amongst your team members, and gives you more flexibility to create customized analytics reports.
+    - [Docs](real-time-marketing-journey-designer.md)
+
+    - > [!div class="mx-imgBorder"]
+    - > ![customize journey designer](media/whats-new-journey-designer.png "customize journey designer")
+
+- **Individually manage segment members with inclusions and exclusions**
+    - Adding manual inclusions or exclusions is a powerful way to augment segment-building criteria. Manually include or exclude specific people to ensure that segments always reach VIP customers. Or use inclusions and exclusions as an easy way to build test segments for journeys.
+    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/individually-manage-segment-members-inclusions-exclusions)
+    - [Docs](real-time-marketing-include-exclude.md)
+
 ### Public preview
 
 - **Send emails quickly without building a journey**
     - Send emails without creating a journey. This workflow allows you to select from a new template library, make changes easily with simplifications to the email editor, and send emails to the segment members you need to reach within minutes.
-    - Docs
+    - [Docs](real-time-marketing-email-without-journey.md)
     - [Watch the demo](https://msit.microsoftstream.com/video/0cdd0840-98dc-bf78-0480-f1ed8e1933e6)
 
       > [!div class="mx-imgBorder"]
@@ -95,28 +100,28 @@ Monthly enhancements include improvements in templates with easy email editor an
 
 - **Prevent message fatigue by limiting the messages sent to a customer in a specific period**
     - Ensure that your customers receive the right message at the right moment and at the right frequency to prevent fatigue, avoid unsubscribes, and facilitate optimal engagement with your key messages. Some customers qualify for multiple journeys and campaigns that run simultaneously. This results in customers receiving multiple messages through one channel in a short period of time. Customers may perceive these messages as spam, which lowers their engagement. With the frequency cap feature, you can optimize engagement by controlling how many messages are sent across multiple channels over a period.
-    - [Release plan](https://successhub.crm.dynamics.com/main.aspx?appid=0fe9f79a-a1f6-4064-af95-ded6c5e7bd5c&pagetype=entityrecord&etn=rn_releasenote&id=5e80d4eb-502f-ed11-9db1-0022482d32a7)
-    - Docs
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/prevent-message-fatigue-limiting-messages-sent-customer-specific-period)
+    - [Docs](real-time-marketing-frequency-cap.md)
 
       > [!div class="mx-imgBorder"]
       > ![prevent message fatigue](media/whats-new-prevent-message-fatigue.png "prevent message fatigue")
 
 - **Scale your business effortlessly and define access to marketing assets**
     - Improve productivity by defining marketing asset access and visibility to match your business structure. As businesses create vast amounts of assets, organizing data according to organizational structure becomes critical. Well-organized assets are important to remaining compliant and productive. Now in real-time marketing, you can effortlessly organize your digital assets, content, and journeys to match your organizational structure by separating business and customer data across organizational boundaries. Separating data enables you to gain comprehensive insights into a specific brand's marketing performance without losing sight of the bigger picture. Compliance risk is reduced by using out-of-the-box campaigns and data segregation capabilities across your organization.
-    - Release plan
-    - Docs
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/scale-business-effortlessly-define-access-marketing-assets)
+    - [Docs](real-time-marketing-business-units.md)
 
-- **Customize your customer journeys to tailor to your business needs**
-    - Customization of your customer journeys is now available in Dynamics 365 Real-time Marketing. Not only can marketers use out-of-the-box Marketing capabilities to effectively engage with their customers, but they can also now create personalized, flexible, and efficient solutions through Power Apps to better tailor the app to their specific business needs. For example, you can now extend your Real-time journey canvas to add any customized fields through Dataverse to better streamline your business processes for higher efficiency. This allows you to add custom fields such as 'campaign' to your journeys to better manage your assets, collaborate amongst your team members, and gives you more flexibility to create customized analytics reports.
-    - Release plan
-    - Docs
+- **Hop over one-to-many relationships for dynamic text**
+    - With dynamic text data that requires traversing 1-to-many relations, unlock even more data for personalization. Consider a university alumni donation campaign where you would want to include the name of the college attended by each alum for driving maximum engagement. However, an alum might have attended multiple colleges in that university, resulting in a "1-to-many" relationship between student and college records. Dynamic text can now be defined for such data.
+    - [Docs](real-time-marketing-predefined-dynamic-text.md)
 
-    - > [!div class="mx-imgBorder"]
-    - > ![customize journey designer](media/whats-new-journey-designer.png "customize journey designer")
+      > [!div class="mx-imgBorder"]
+      > ![dynamic text](media/whats-new-personalization-dynamic-text.png "dynamic text")
 
 ### Monthly enhancements
 
 - **Improved template gallery**
+    - Create engaging emails with ease using the improved template gallery. The new template gallery makes it easier than ever to find just the right template for your next email.
 - **Updated journey side pane**
     - The new journey side pane is designed to improve productivity and streamline your workflow by displaying all the important information upfront; the entry and exit criteria, as well as the journey’s goal and frequency cap settings are more discoverable, making it easier for you to remember to change or update these settings without leaving the journey canvas. 
 
