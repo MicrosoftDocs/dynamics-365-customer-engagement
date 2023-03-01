@@ -282,9 +282,9 @@
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
           href: real-time-marketing-segment-based-journey.md
-        - name: "Preview: Create a static snapshot of a segment"
+        - name: Create a static snapshot of a segment
           href: real-time-marketing-static-snapshot.md
-        - name: "Preview: Individually manage your customer list"
+        - name: Individually manage your customer list
           href: real-time-marketing-include-exclude.md
         - name: "Preview: Sync data tables into the segment builder"
           href: real-time-marketing-sync-data-tables.md

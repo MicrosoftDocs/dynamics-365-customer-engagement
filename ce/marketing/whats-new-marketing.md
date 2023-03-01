@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 02/01/2023
+ms.date: 03/02/2023
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -44,21 +44,20 @@ Monthly enhancements include an improved email template gallery and an upgraded 
 ### General availability
 
 - **Create a static snapshot of segment membership**
-    - Static segment lists are an important part of audience management for marketers. Use static segments in one-off campaigns or newsletters where it’s essential to implement segment membership based on a specific date or time. Static segments ensure that new people that become eligible for the segment won't enter the one-off journey, even if it continues to be live. You can create static snapshots no matter how the segment is built (whether it uses query conditions or manual inclusions or exclusions). The flexibility in static segment creation separates how segments are defined from how you want to update or refresh segments. 
+    - Static segment lists are an important part of audience management for marketers. Use static segments in one-off campaigns or newsletters where it’s essential to implement segment membership based on a specific date or time. Static segments ensure that new people that become eligible for the segment will not enter the one-off journey, even if it continues to be live. You can create static snapshots no matter how the segment is built (whether it uses query conditions or manual inclusions or exclusions). The flexibility in static segment creation separates how segments are defined from how you want to update or refresh segments.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-static-snapshot-real-time-marketing-segment-membership)
     - [Docs](real-time-marketing-static-snapshot.md)
-    - [Watch the demo](https://msit.microsoftstream.com/video/27dd0840-98dc-ade4-ac9a-f1ed57229f18)
 
       > [!div class="mx-imgBorder"]
       > ![static snapshot](media/whats-new-static-snapshot.png "static snapshot")
 
 - **Fine-tune email communications with filtered lists**
-    - Including an entire list in an email is a common scenario. But there are times when it's more effective to only include items from a list that meet certain conditions. For example, in a confirmation email about an order, you may need to separately list items that are back ordered. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track. Now you can easily achieve these scenarios by adding a filter to your email list. 
-    - [Docs](real-time-marketing-personalize-lists.md)
-    - [Watch the demo](https://msit.microsoftstream.com/video/3eb20840-98dc-bf78-0778-f1ed7b2fdb43)
+    - Including an entire list in an email is a common scenario. But there are times when it is more effective to only include items from a list that meet certain conditions. For example, in a confirmation email about an order, you may need to separately list items that are back-ordered. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track. Now you can easily achieve these scenarios by simply adding a filter to your email list.
+    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/fine-tune-email-communications-filtered-lists)
+    - [Docs](real-time-marketing-personalize-lists.md#define-a-list-filter)
 
-      > [!div class="mx-imgBorder"]
-      > ![personalized filtered lists](media/whats-new-personalize-lists.png "personalized filtered lists")
+    > [!div class="mx-imgBorder"]
+    > ![personalized filtered lists](media/whats-new-personalize-lists.png "personalized filtered lists")
 
 - **Seamlessly manage and embed assets into your content with an enhanced unified library**
     - Sending your customers’ rich, compelling content is key to keeping them engaged with your brand. With this release, using assets across real-time and outbound marketing got easier. With the enhanced unified library, you can now upload files once and use them where you need them. No need to copy or download assets for backup. 
@@ -66,15 +65,20 @@ Monthly enhancements include an improved email template gallery and an upgraded 
     **NOTE**: To foster this new simplified way of managing and using assets, the [real-time marketing library add-on](real-time-marketing-asset-library.md) is no longer available for installation. If you previously installed it, you could continue to use the add-on.
     - [Docs](upload-images-files.md)
 
-      > [!div class="mx-imgBorder"]
-      > ![enhanced asset library](media/whats-new-enhanced-asset-library.png "enhanced asset library")
+    > [!div class="mx-imgBorder"]
+    > ![enhanced asset library](media/whats-new-enhanced-asset-library.png "enhanced asset library")
 
 - **Engage your customers with text messages sent via Infobip and LINK Mobility**
     - In addition to Twilio and Telesign, you can now integrate with Infobip and LINK Mobility to send text messages. Connect your existing Infobip or LINK Mobility account and use all Real-time marketing text message features to maximize customer engagement.
     - [Docs](real-time-marketing-outbound-text-messaging.md)
 
-      > [!div class="mx-imgBorder"]
-      > ![outbound text messaging](media/whats-new-outbound-text-messaging.png "outbound text messaging")
+    > [!div class="mx-imgBorder"]
+    > ![outbound text messaging](media/whats-new-outbound-text-messaging.png "outbound text messaging")
+
+- **Individually manage segment members with inclusions and exclusions**
+    - Adding manual inclusions or exclusions is a powerful way to augment segment-building criteria. Manually include or exclude specific people to ensure that segments always reach VIP customers. Or, use inclusions and exclusions as an easy way to build test segments for journeys.
+    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/individually-manage-segment-members-inclusions-exclusions)
+    - [Docs](real-time-marketing-include-exclude.md)
 
 - **Customize your customer journeys to tailor to your business needs**
     - Customization of your customer journeys is now available in Dynamics 365 Real-time Marketing. Not only can marketers use out-of-the-box Marketing capabilities to effectively engage with their customers, but they can also now create personalized, flexible, and efficient solutions through Power Apps to better tailor the app to their specific business needs. For example, you can now extend your Real-time journey canvas to add any customized fields through Dataverse to better streamline your business processes for higher efficiency. This allows you to add custom fields such as 'campaign' to your journeys to better manage your assets, collaborate amongst your team members, and gives you more flexibility to create customized analytics reports.
@@ -123,7 +127,7 @@ Monthly enhancements include an improved email template gallery and an upgraded 
 - **Improved template gallery**
     - Create engaging emails with ease using the improved template gallery. The new template gallery makes it easier than ever to find just the right template for your next email.
 - **Updated journey side pane**
-    - The new journey side pane is designed to improve productivity and streamline your workflow by displaying all the important information upfront; the entry and exit criteria, as well as the journey’s goal and frequency cap settings are more discoverable, making it easier for you to remember to change or update these settings without leaving the journey canvas. 
+    - The new journey side pane is designed to improve productivity and streamline your workflow by displaying all the important information upfront. The entry and exit criteria and the journey’s goal and frequency cap settings are more discoverable, making it easier for you to remember to change or update these settings without leaving the journey canvas.
 
 ### New blogs and scenario docs
 
