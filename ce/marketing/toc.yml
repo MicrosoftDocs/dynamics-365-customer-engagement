@@ -326,7 +326,7 @@
         href: conditional-content.md
       - name: Create reusable content blocks
         href: content-blocks.md
-      - name: Personalize inline conditions
+      - name: How to use inline conditions
         href: real-time-marketing-personalize-inline-conditions.md
       - name: Personalize lists
         href: real-time-marketing-personalize-lists.md
@@ -775,7 +775,7 @@
   - name: Learning catalog
     items: 
     - name: Learning catalog overview
-      href: learning-catalog.md
+      href: learning-catalog.yml
     - name: Business Decision Maker
       href: learning-bdm.md
     - name: Business User
