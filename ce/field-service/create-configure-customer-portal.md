@@ -12,52 +12,56 @@ search.app:
 
 # Create and configure the Field Service Portal (preview)
 
-## Step 1: Set up the Field Service customer experiences portal
+The following sections guide you through the setup process and provide helpful information to configure the portal template.
 
-First, we need to set up the customer experience portal with Power Apps portals.
+## Create the Field Service customer experiences portal
 
-Go to  http://make.powerapps.com and select **Create**.
+<!-- user privilege prerequisites to create portal and customize it? -->
 
-Select **Field Service Portal (Preview)**.
+1. Go to the [Power Aps Maker portal](http://make.powerapps.com).
+
+1. Choose an environment with Dynamics 365 Field Service and select **Create**.
+
+1. Search for Field Service and select **Field Service Portal**.
 
 > [!div class="mx-imgBorder"]
 > ![Power Apps, showing the Field Service portal.](./media/C2-Customer-Portal.png)
 
-Enter your portal's name and desired subdomain and display language, then select **Create**.
+1. Enter the name of the portal, the desired subdomain, and choose a display language and select **Create**.
 
-You'll get an email when the portal has been provisioned, and you can move on to the next step.
+The Power Pages portal site gets created in the background. This process can take a few minutes. You'll get an email when it's ready or you can check the notification area for updates.
 
+## Configure the customer portal settings
 
-## Step 2: Configure email and SMS connectors within Power Automate
+Admins can configure most customer portal settings directly in Field Service.
 
-See [Set up notifications for the Field Service Portal](customer-portal-notification-settings.md)
+1. In Field Service, open the **Settings** area. Under **Customer Portal**, select **Customer Portal** and open the settings record.
 
+1. Configure the following settings as needed.
 
-## Step 3: Set up the customer experience
+### Configuration tab
 
-> [!Note]
-> When enabling customer experience, messages can be sent to contacts of the account associated with bookings. If testing in non-production orgs, make sure your test data does not have real customer email addresses or phone numbers. If your org contains real data, you can prevent unnecessary communication by adding accounts to exclusion lists.
+- Portal Name: A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website, because the code retrieving the setting will take the first record found with the matching name.
 
-In Field Service, Go to **Field Service Settings** > **Customer Portal** > **Customer Portal Settings**.
+- Field Service Website: The associated website. Opening the associated website record takes you to the [Portal Management app](/power-apps/maker/portals/configure/configure-portal).
 
-### portal settings in Field Service
+- Track My Technician: Enables the options to configure the [Track a technician feature](customer-portal-technician-tracking.md).
 
-Configure the following settings as needed: 
+- Self Scheduling (Preview): Enables the self-scheduling experience in the portal.
 
-- **Messaging**: Messages are sent at specific points in the Field Service customer lifecycle. These messages can be enabled or disabled independently. For details on each message see [Notifications](#notifications).
+- Send self-scheduling experience to Account Contacts: Enables automated notifications with access information for the portal. The information is sent to every contact that isn't part of an excluded account.
 
-- **Communication Type**: Define whether your customer will receive email, SMS, or both message types.
+- **Messages**: Messages are sent at specific points of the work order lifecycle. These messages can be enabled or disabled independently. For details on each message, go to [Set up notifications for the Field Service Portal (preview)](customer-portal-notification-settings.md).
 
-- **Send Messages To**: By default messages will be sent to the "Reported By" contact in the Work Order. If there is no Reported By contact, messages will be sent to Contact noted in this field.
+- **Communication Type**: Define whether you want the system to send your customer email, SMS, or both message types.
+
+- **Send Messages To**: By default, the system sends messages to the contact that created the service request through the portal. If no such contact exists, messages go to the contact type noted in this setting.
 
 - **Exclusion lists**: These lists allow you to exclude specific service accounts or service types from all messaging.
 
-- **Include Survey (Preview)**: You can embed a Customer Voice survey, which will be presented to your customers on the portal at the conclusion of the booking. For more information, see [Field Service Customer Portal Survey](/dynamics365/field-service/reminders-arrival-time#field-service-customer-portal-survey)
+- **Include Survey (Preview)**: [Embed a Customer Voice survey for service feedback](#embed-a-customer-voice-survey-for-service-feedback), which will be presented to your customers on the portal when the booking is complete.
 
-- **Power Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2-configure-email-and-sms-connectors-within-power-automate).
-
-> [!div class="mx-imgBorder"]
-> ![The customer portal settings in Field Service.](./media/TmT_Configuration.png)
+- **Configure SMS and Email Connector**: Direct links to the Power Automate flows where you [configure the email and SMS connectors](customer-portal-notification-settings.md).
 
 ## Self-scheduling settings
 
@@ -149,11 +153,13 @@ In the portal designer, upload your mobile and desktop header images, and adjust
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Apps portal designer.](./media/portaleditor_exp.jpg)
 
-> [!Note] 
+> [!Note]
 > Elements of the portal outside of header and footer - and the highlighted content snippets - are not editable.
 
 
-## Field Service customer portal survey
+## Embed a Customer Voice survey for service feedback
+
+<!-- needs more detail and links to customer voice-->
 
 You can now embed a Customer Voice survey directly within the Field Service customer experience portal. When the survey embed code is added into configuration, it will automatically render the survey on the portal when the work is complete.
 
@@ -179,4 +185,6 @@ When we make updates to the customer experience portal, new features or enhancem
 
 No. At this time, the portal is not customizable and configuration is limited to what is defined in the [Field Service customer experience settings.](#step-3-set-up-the-customer-experience).
 
+## Next steps
 
+- [Set up notifications for the Field Service Portal](customer-portal-notification-settings.md)

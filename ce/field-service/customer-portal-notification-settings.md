@@ -12,6 +12,9 @@ search.app:
 
 # Set up notifications for the Field Service Portal (preview)
 
+> [!Note]
+> When enabling customer experience, messages can be sent to contacts of the account associated with bookings. If testing in non-production orgs, make sure your test data does not have real customer email addresses or phone numbers. If your org contains real data, you can prevent unnecessary communication by adding accounts to exclusion lists.
+
 ## Prerequisites
 
 - Field Service version (8.8.30.103+)
