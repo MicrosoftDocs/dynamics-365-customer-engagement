@@ -27,7 +27,7 @@ Microsoft provides an option to create a custom live chat widget that you can at
 
 Depending on your requirement and outcome, you can customize the chat widget using one of the following options:
 
-- Live chat widget 2.0 (preview)
+- Develop live chat widget 2.0 (preview)
 - Bring your own widget
 
 ## Develop live chat widget 2.0 (preview)
