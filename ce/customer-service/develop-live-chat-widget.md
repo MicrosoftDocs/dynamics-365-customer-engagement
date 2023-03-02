@@ -1,8 +1,8 @@
 ---
 title: Develop a custom live chat widget
 description: Learn where to find information about using the Omnichannel Chat SDK and the Omnichannel Live Chat Widget UI Components library to develop a custom live chat widget.
-ms.date: 03/07/2023
-ms.topic: conceptual
+ms.date: 03/02/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -28,9 +28,9 @@ Microsoft provides an option to create a custom live chat widget that you can at
 Depending on your requirement and outcome, you can customize the chat widget using one of the following options:
 
 - Live chat widget 2.0 (preview)
-- Custom developer
+- Bring your own widget
 
-## Live chat widget 2.0 (preview)
+## Develop live chat widget 2.0 (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -41,9 +41,9 @@ Depending on your requirement and outcome, you can customize the chat widget usi
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-The new live chat widget 2.0 is a combination of the Omnichannel Chat SDK and out-of-the-box widget stacks of Customer Service admin center.
+The new live chat widget 2.0 is built upon Omnichannel Chat SDK and Live Chat Widget UI Component Library.
 
-### Portal Developer&mdash;Out-of-the-box script-based UI customization
+### Portal Developer&mdash;Customize out-of-the-box script-based UI
 
 The portal developer option lets you personalize the UI of the chat widget but doesn't modify the out-of-the-box functionality settings in Customer Service admin center. To do so, you can use the "data-customization-callback" script customization that connects the out-of-the-box widget to a JavaScript function. The function can contain CSS styling customizations to the chat components with the same precedents as the [Omnichannel Live Chat Widget UI Components library](https://github.com/microsoft/omnichannel-chat-widget/blob/main/README.md).
 
@@ -51,43 +51,19 @@ The portal developer option lets you personalize the UI of the chat widget but d
 
 To use the live chat widget 2.0 and script-based customization, modify the code snippet of the out-of-the-box live chat widget as follows.
 
-1. Create a new JavaScript function with all component styling.
+1. Create a new JavaScript function with all component styling. More information: [Omnichannel chat widget](https://github.com/microsoft/omnichannel-chat-widget)
 1. Add "v2" after the script attribute.
 1. Add "data-customization-callback" and reference the JavaScript function.
 
 The updated code snippet will look as follows.
 
-```javascript
-<script>
-  function lcw()  {
-    return {
-      styleProps: {
-        generalStyles: {
-            width: "800px",
-            height:"800px"
-        }
-      }
-    }
-  }
-</script>
-<script
-  v2
-  src="https://oc-cdn-boston.azureedge.net/livechatwidget/scripts/LiveChatBootstrapper.js"
-  id="Microsoft_Omnichannel_LCWidget" 
-  data-org-id="a7693301-391c-48f0-baff-13add23e88d1"  
-  data-app-id="47a1f33b-11af-45d3-ad03-85532a2add5f"
-  data-org-url="https://unqa7693301391c48f0baff13add23e8-crm.oc.crmlivetie.com"
-  data-lcw-version="test"
-  data-customization-callback="lcw">
-</script>
-
-```
+:::image type="content" source="media/customized-lcw.png" alt-text="A screenshot of the customized live chat widget code.":::
 
 An example screenshot of a chat widget 2.0 that's customized to increase its size is as follows.
 
-:::image type="content" source="media/live-chat-widget-2.0.png" alt-text="A sample screenshot of live chat widget 2.0."::: 
+:::image type="content" source="media/live-chat-widget-2.0.png" alt-text="A sample screenshot of live chat widget 2.0.":::
 
-## Custom developer
+## Bring your own widget
 
 ### Omnichannel Live Chat Widget UI Components library
 
