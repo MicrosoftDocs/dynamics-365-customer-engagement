@@ -126,7 +126,7 @@
       href: ../app-profile-manager/security-roles.md
     - name: Create and use agent experience profiles
       href: ../app-profile-manager/create-agent-experience-profile.md
-    - name: Create and use agent experience profiles 
+    - name: Add users to custom agent experience profiles
       href: ../app-profile-manager/add_profile_default.md
     - name: FAQ about adding users to agent experience profile
       href: ../app-profile-manager/faq-agent-experience-profile.md
