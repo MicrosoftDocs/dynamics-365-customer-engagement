@@ -47,8 +47,7 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
     - Static segment lists are an important part of audience management for marketers. Use static segments in one-off campaigns or newsletters where it’s essential to implement segment membership based on a specific date or time. Static segments ensure that new people that become eligible for the segment won't enter the one-off journey, even if it continues to be live. You can create static snapshots no matter how the segment is built (whether it uses query conditions or manual inclusions or exclusions). The flexibility in static segment creation separates how segments are defined from how you want to update or refresh segments.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-static-snapshot-real-time-marketing-segment-membership)
     -  [Docs](real-time-marketing-static-snapshot.md)
-    -  [Watch the demo](https://msit.microsoftstream.com/video/27dd0840-98dc-ade4-ac9a-f1ed57229f18) 
-
+  
     > [!div class="mx-imgBorder"]
     > ![static snapshot](media/whats-new-static-snapshot.png "static snapshot")
 
@@ -56,8 +55,7 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
     - Including an entire list in an email is a common scenario. But there are times when it's more effective to only include items from a list that meet certain conditions. For example, in a confirmation email about an order, you may need to separately list items that are back-ordered. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track. Now you can easily achieve these scenarios by simply adding a filter to your email list.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/fine-tune-email-communications-filtered-lists)
     - [Docs](real-time-marketing-personalize-lists.md#define-a-list-filter)
-    - [Watch the demo](https://msit.microsoftstream.com/video/3eb20840-98dc-bf78-0778-f1ed7b2fdb43)
-
+  
     > [!div class="mx-imgBorder"]
     > ![personalized filtered lists](media/whats-new-personalize-lists.png "personalized filtered lists")
 
@@ -79,10 +77,10 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
 
 - **Customize the real-time journey designer to better streamline your business flows**
     - Customization of your customer journeys is now available in Dynamics 365 Real-time Marketing. Not only can marketers use out-of-the-box Marketing capabilities to effectively engage with their customers, but they can also now create personalized, flexible, and efficient solutions through Power Apps to better tailor the app to their specific business needs. For example, you can now extend your Real-time journey canvas to add any customized fields through Dataverse to better streamline your business processes for higher efficiency. This allows you to add custom fields such as 'campaign' to your journeys to better manage your assets, collaborate amongst your team members, and gives you more flexibility to create customized analytics reports.
-    - [Docs](real-time-marketing-journey-designer.md)
+    -  [Docs](real-time-marketing-journey-designer.md)
 
-      > [!div class="mx-imgBorder"]
-      > ![customize journey designer](media/whats-new-journey-designer.png "customize journey designer")
+    > [!div class="mx-imgBorder"]
+    > ![customize journey designer](media/whats-new-journey-designer.png "customize journey designer")
 
 - **Individually manage segment members with inclusions and exclusions**
     - Adding manual inclusions or exclusions is a powerful way to augment segment-building criteria. Manually include or exclude specific people to ensure that segments always reach VIP customers. Or use inclusions and exclusions as an easy way to build test segments for journeys.
@@ -95,7 +93,6 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
     - Content ideas uses generative AI to help you find inspiration and can be used as a starting point when composing text for your email. Now, Content ideas features a refreshed look & feel, and generated results are much more creative and of great quality. Additionally, you can select from one of available tone-of-voices (engaged, casual, adventurous, luxury, formal), to make your content even more engaging.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/easily-create-engaging-content-using-ai-powered-content-ideas)
     - [Docs](content-ideas.md)
-    - [Watch the demo](https://microsoft-my.sharepoint.com/:v:/p/talfaham/ESoFov798A1JtjIMUtL6PikB0353dxQkZ29MV3E7Kw3wRA?e=zomEUl)
 
     > [!div class="mx-imgBorder"]
     > ![content ideas](media/whats-new-content-ideas-1.png "content ideas")
@@ -115,7 +112,6 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
     - Send emails without creating a journey. This workflow allows you to select from a new template library, make changes easily with simplifications to the email editor, and send emails to the segment members you need to reach within minutes.
     - [Release plan](dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
     -  [Docs](real-time-marketing-email-without-journey.md)
-    -  [Watch the demo](https://msit.microsoftstream.com/video/0cdd0840-98dc-bf78-0480-f1ed8e1933e6)
 
     > [!div class="mx-imgBorder"]
     > ![send email without building journey](media/whats-new-send-email-without-building-journey.png "send email without building journey")
@@ -135,10 +131,10 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
 
 - **Hop over one-to-many relationships for dynamic text**
     - With dynamic text data that requires traversing 1-to-many relations, unlock even more data for personalization. Consider a university alumni donation campaign where you would want to include the name of the college attended by each alum for driving maximum engagement. However, an alum might have attended multiple colleges in that university, resulting in a "1-to-many" relationship between student and college records. Dynamic text can now be defined for such data.
-    - [Docs](real-time-marketing-predefined-dynamic-text.md)
+    -  [Docs](real-time-marketing-predefined-dynamic-text.md)
 
-      > [!div class="mx-imgBorder"]
-      > ![dynamic text](media/whats-new-personalization-dynamic-text.png "dynamic text")
+    > [!div class="mx-imgBorder"]
+    > ![dynamic text](media/whats-new-personalization-dynamic-text.png "dynamic text")
 
 ### Monthly enhancement
 
@@ -148,7 +144,7 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
 ### New blogs and scenario docs
 
 Learn how to make the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
-- [Boost event engagement with real-time journeys - Scenario docs](real-time-marketing-event-registration-journey.md)
+
 - [Real-Time Marketing – Using Conditional Content within your emails! - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/real-time-marketing-using-conditional-content-within-your-emails)
 - [Level up customer journeys with advanced orchestration features in Dynamics 365 Marketing - Microsoft Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/2023/02/03/level-up-customer-journeys-with-advanced-orchestration-features-in-dynamics-365-marketing/)
 - [Extend and optimize your customer outreach with custom channels - Microsoft Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/2023/02/23/extend-and-optimize-your-customer-outreach-with-custom-channels/)
