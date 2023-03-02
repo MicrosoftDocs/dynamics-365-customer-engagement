@@ -1,5 +1,5 @@
 ---
-title: FAQ about adding users to agent experience profile | MicrosoftDocs 
+title: FAQs about adding users to agent experience profile | MicrosoftDocs 
 description: Frequently Asked Questions about adding users to agent experience profiles
 author: gandhamm 
 ms.author: mgandham
@@ -10,9 +10,13 @@ ms.date: 02/03/2023
 ms.custom: bap-template 
 ---
 
-# FAQ about adding users to agent experience profile
+# FAQs about adding users to agent experience profile
 
 This article contains the frequently asked questions (FAQ) that you as an administrator might have when adding users to the custom agent experience profiles using the **Set as default** and **Set rank and roles** options.
+
+## Can I set the profiles that are available out-of-the box as default profiles?
+
+No. The **Set as default** and **Set rank and roles** options aren't applicable to profiles that are available out-of-the-box.
 
 ## Can I create agent experience profiles, customize them and move between environments using solutions?
 Yes. You can create and customize profiles in an environment, add them to a solution and then import them to other environments.

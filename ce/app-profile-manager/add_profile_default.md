@@ -14,9 +14,6 @@ ms.custom: bap-template
 
 Adding users to an agent profile can be time consuming, especially if your organization has a large number of users. You can use **Set as default** and **Set rank and roles** options to effectively assign users to custom agent experience profiles and provide a targeted app experience for users, based on their roles.
 
-> [!NOTE]
-> The **Set as default** and **Set rank and roles** options aren't applicable to profiles that are available out-of-the-box.
-
 :::image type="content" source="media/agent-exp-profiles-options-mini.png" alt-text="agent experience profiles options" lightbox="media/agent-exp-profiles-options.png":::
 
 ## Set a default custom agent experience profile
@@ -30,14 +27,11 @@ When you've set a default custom profile, all the options configured in the prof
 > - The default custom profile isn't applicable to a user who is assigned specifically to a different custom profile.
 > - You can't set the agent profiles that are available out of the box as default profiles.
 
-For example, the following table summarizes the two custom agent profiles that you've configured:
+For example, you've created a new custom agent profile, Contoso Agent profile, with knowledge search and agent scripts features enabled. If you set the Custom Agent profile as the default profile, all the users in the organization can access knowledge search and agent scripts in the productivity pane.
 
-|Agent experience profile   | Configuration   | User |
-|----------|-----------|------------|
-| Contoso Agent profile     | knowledge search and agent scripts features are enabled  | default        |
-| Datum Agent profile | smart assist, agent scripts, and knowledge search features are enabled  | John Doe |
+You've also create another custom agent profile, Datum Agent profile, with the smart assist feature enabled. You add only a specific user, Angel Chiu to this agent profile. 
 
-All the users in the organization can access knowledge search and agent scripts in their productivity pane. User John Doe, can also access smart assist along with knowledge search and agent scripts.
+In this scenario, the configurations in Contoso Agent profile don't apply to the user. Hence, Angel Chiu can access only the smart assist feature in the productivity pane.
 
 ### Set an alternate custom profile as default profile
 
@@ -54,7 +48,6 @@ When you have multiple user groups with different roles and privileges, you can 
 1. In **Profile rank and roles assignment** specify the following:
      - **Rank**: Used to determine the custom agent profile that must be mapped to a user when multiple roles are assigned to a user.
      - **Roles**: The user roles that the custom agent profile can be mapped to.
-1. To remove an agent experience profile to 
 
 For example, user John Doe has both the Customer Service Representative and Omnichannel agent roles assigned. The table summarizes the mapping of agent profiles to the corresponding roles.
 
@@ -64,6 +57,10 @@ For example, user John Doe has both the Customer Service Representative and Omni
 | Datum Agent profile |2   |  Omnichannel agent |
 
 The application assigns the Contoso agent profile to John Doe, as the rank of the profile is higher.
+
+### Remove rank and roles assigned to a custom profile
+
+You can remove the rank and roles assigned to a custom agent profile by selecting the required custom agent profile and then selecting **Remove rank and roles**. If you select this option, all the roles mapped to the profile will be removed.
 
 ## Manage users assigned to custom agent profile
 
@@ -91,6 +88,10 @@ Here's how the application assigns the agent profiles:
 
 > [!NOTE]
 > If you haven't set a default custom profile or assigned an agent profile to a role, the application assigns the default out-of-the box profile to all the available users.
+
+### FAQs
+
+For more information about adding users to agent profiles, see [FAQs about adding users to agent experience profile](faq-agent-experience-profile.md)
 
 ### See also
 
