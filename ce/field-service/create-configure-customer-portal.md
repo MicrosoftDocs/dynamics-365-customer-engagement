@@ -41,15 +41,15 @@ Admins can configure most customer portal settings directly in Field Service.
 
 ### Configuration tab
 
-- Portal Name: A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website, because the code retrieving the setting will take the first record found with the matching name.
+- **Portal Name**: A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website, because the code retrieving the setting will take the first record found with the matching name.
 
-- Field Service Website: The associated website. Opening the associated website record takes you to the [Portal Management app](/power-apps/maker/portals/configure/configure-portal).
+- **Field Service Website**: The associated website. Opening the associated website record takes you to the [Portal Management app](/power-apps/maker/portals/configure/configure-portal).
 
-- Track My Technician: Enables the options to configure the [Track a technician feature](customer-portal-technician-tracking.md).
+- **Track My Technician**: Enables the options to configure the [Track a technician feature](customer-portal-technician-tracking.md).
 
-- Self Scheduling (Preview): Enables the self-scheduling experience in the portal.
+- **Self Scheduling (Preview)**: Enables the self-scheduling experience in the portal.
 
-- Send self-scheduling experience to Account Contacts: Enables automated notifications with access information for the portal. The information is sent to every contact that isn't part of an excluded account.
+- **Send self-scheduling experience to Account Contacts**: Enables automated notifications with access information for the portal. The information is sent to every contact that isn't part of an excluded account.
 
 - **Messages**: Messages are sent at specific points of the work order lifecycle. These messages can be enabled or disabled independently. For details on each message, go to [Set up notifications for the Field Service Portal (preview)](customer-portal-notification-settings.md).
 
@@ -63,7 +63,15 @@ Admins can configure most customer portal settings directly in Field Service.
 
 - **Configure SMS and Email Connector**: Direct links to the Power Automate flows where you [configure the email and SMS connectors](customer-portal-notification-settings.md).
 
-## Self-scheduling settings
+- Excluded Work Order Types:
+
+- Excluded Accounts:
+
+### Display tab
+
+
+
+### Self Scheduling (Preview) tab
 
 Let's take a look at the self-scheduling settings, and what they do: 
 
