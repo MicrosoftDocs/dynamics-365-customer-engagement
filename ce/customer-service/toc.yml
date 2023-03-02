@@ -452,7 +452,7 @@
           href: int-data-mapping.md
         - name: View and use insights for search providers
           href: view-and-use-insights.md
-        - name: Schema details to build a metadata mapping template (preview)
+        - name: Schema details to build a metadata mapping template
           href: int-search-metadata-schema.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
