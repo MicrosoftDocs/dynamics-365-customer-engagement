@@ -29,11 +29,11 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 
 ## March 2023 update
 
-The Dynamics 365 Marketing March 2023 release general availability features include static segments in real-time marketing, filtering for email lists, enriched marketing content with additional file types, support for SMS providers Infobip and LINK Mobility, customized journeys tailored to your business needs, and segments in real-time marketing where specific people are always included or excluded.
+The Dynamics 365 Marketing March 2023 release general availability features include static segments in real-time marketing, filtering for email lists, enriched marketing content with additional file types, support for SMS providers Infobip and LINK Mobility, customized journeys tailored to your business needs, enhanced real-time journey designer, and segments in real-time marketing where specific people are always included or excluded.
 
-Public preview features include sending segment-based emails without building a journey, preventing message fatigue by limiting the messages sent to a customer in a specific period, business units for real-time marketing, and the ability to hop over one-to-many relationships for dynamic text.
+Public preview features include AI-powered content ideas for engaging content creation, simplified email editor, sending segment-based emails without building a journey, preventing message fatigue by limiting the messages sent to a customer in a specific period, business units for real-time marketing, and the ability to hop over one-to-many relationships for dynamic text.
 
-Monthly enhancements include an improved email template gallery and an upgraded side pane for goals and exit criteria.
+Monthly enhancement includes an upgraded side pane for goals and exit criteria.
 
 ### Version number
 
@@ -44,7 +44,7 @@ Monthly enhancements include an improved email template gallery and an upgraded 
 ### General availability
 
 - **Create a static snapshot of segment membership**
-    - Static segment lists are an important part of audience management for marketers. Use static segments in one-off campaigns or newsletters where it’s essential to implement segment membership based on a specific date or time. Static segments ensure that new people that become eligible for the segment will not enter the one-off journey, even if it continues to be live. You can create static snapshots no matter how the segment is built (whether it uses query conditions or manual inclusions or exclusions). The flexibility in static segment creation separates how segments are defined from how you want to update or refresh segments.
+    - Static segment lists are an important part of audience management for marketers. Use static segments in one-off campaigns or newsletters where it’s essential to implement segment membership based on a specific date or time. Static segments ensure that new people that become eligible for the segment won't enter the one-off journey, even if it continues to be live. You can create static snapshots no matter how the segment is built (whether it uses query conditions or manual inclusions or exclusions). The flexibility in static segment creation separates how segments are defined from how you want to update or refresh segments.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-static-snapshot-real-time-marketing-segment-membership)
     - [Docs](real-time-marketing-static-snapshot.md)
 
@@ -52,7 +52,7 @@ Monthly enhancements include an improved email template gallery and an upgraded 
       > ![static snapshot](media/whats-new-static-snapshot.png "static snapshot")
 
 - **Fine-tune email communications with filtered lists**
-    - Including an entire list in an email is a common scenario. But there are times when it is more effective to only include items from a list that meet certain conditions. For example, in a confirmation email about an order, you may need to separately list items that are back-ordered. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track. Now you can easily achieve these scenarios by simply adding a filter to your email list.
+    - Including an entire list in an email is a common scenario. But there are times when it's more effective to only include items from a list that meet certain conditions. For example, in a confirmation email about an order, you may need to separately list items that are back-ordered. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track. Now you can easily achieve these scenarios by simply adding a filter to your email list.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/fine-tune-email-communications-filtered-lists)
     - [Docs](real-time-marketing-personalize-lists.md#define-a-list-filter)
 
@@ -94,6 +94,26 @@ Monthly enhancements include an improved email template gallery and an upgraded 
 
 ### Public preview
 
+- **Easily create engaging content using AI-powered Content ideas Copilot**
+    - Content ideas uses generative AI to help you find inspiration and can be used as a starting point when composing text for your email. Now, Content ideas features a refreshed look & feel, and generated results are much more creative and of great quality. Additionally, you can select from one of available tone-of-voices (engaged, casual, adventurous, luxury, formal), to make your content even more engaging.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/easily-create-engaging-content-using-ai-powered-content-ideas)
+    - [Docs](content-ideas.md)
+    - [Watch the demo](https://microsoft-my.sharepoint.com/:v:/p/talfaham/ESoFov798A1JtjIMUtL6PikB0353dxQkZ29MV3E7Kw3wRA?e=zomEUl)
+
+    > [!div class="mx-imgBorder"]
+    > ![content ideas](media/whats-new-content-ideas-1.png "content ideas")
+
+    > [!div class="mx-imgBorder"]
+    > ![content ideas](media/whats-new-content-ideas-2.png "content ideas")
+
+- **Create beautiful and engaging emails in minutes**
+    - The simplified email editor with the improved template gallery allows you to create engaging content within minutes, whether you are an experienced marketer or create emails occasionally to engage with your customers. Now, you can make basic content modifications directly on canvas, and enjoy easy, delightful, and focused experience. Whereas the new template gallery makes it easier than ever to find just the right template for your next email. 
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
+    - [Docs](https://learn.microsoft.com/en-us/dynamics365/marketing/easy-editor)
+
+    > [!div class="mx-imgBorder"]
+    > ![easy email editor](media/whats-new-email-easy-editor.png "easy email editor")
+
 - **Send emails quickly without building a journey**
     - Send emails without creating a journey. This workflow allows you to select from a new template library, make changes easily with simplifications to the email editor, and send emails to the segment members you need to reach within minutes.
     - [Release plan](dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
@@ -123,10 +143,8 @@ Monthly enhancements include an improved email template gallery and an upgraded 
       > [!div class="mx-imgBorder"]
       > ![dynamic text](media/whats-new-personalization-dynamic-text.png "dynamic text")
 
-### Monthly enhancements
+### Monthly enhancement
 
-- **Improved template gallery**
-    - Create engaging emails with ease using the improved template gallery. The new template gallery makes it easier than ever to find just the right template for your next email.
 - **Updated journey side pane**
     - The new journey side pane is designed to improve productivity and streamline your workflow by displaying all the important information upfront. The entry and exit criteria and the journey’s goal and frequency cap settings are more discoverable, making it easier for you to remember to change or update these settings without leaving the journey canvas.
 
