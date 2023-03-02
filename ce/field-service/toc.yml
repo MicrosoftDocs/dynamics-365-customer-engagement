@@ -325,7 +325,7 @@ items:
     - name: Create and configure the portal
       href: create-configure-customer-portal.md
     - name: Configure notification settings
-      href: customer-portal-notification-settings
+      href: customer-portal-notification-settings.md
     - name: Send technician arrival time and current map location
       href: customer-portal-technician-tracking.md
     - name: Let customers schedule service appointments

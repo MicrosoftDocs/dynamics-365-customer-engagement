@@ -10,51 +10,46 @@ search.app:
   - D365FS
 ---
 
-# Enable customers to self-schedule service appointments in Field Service (preview)
-
-Field Service self-service scheduling aims to improve your customers' scheduling experience by providing them flexibility to schedule on their own time, directly from their devices.
-
-
-Customer experience homepages provide a one-stop destination for your service end customers to book new appointments, manage existing appointments, track their technician, and provide feedback.
-
-In this article, we'll walk through the customer experience homepages, and how they work for end customers.
-
-For a guided walkthrough, check out the following video.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWO5EO]
-
-> [!div class="mx-imgBorder"]
-> ![Self-service scheduling functionality on a tablet and mobile device.](./media/SS_Hero-screens.png)
-
-
-For a guided walkthrough, check out the following video.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NIiw]
+# Let your customers self-schedule service appointments (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446).
 
+> [!div class="mx-imgBorder"]
+> ![Self-service scheduling functionality on a tablet and mobile device.](./media/SS_Hero-screens.png)
+
+Dynamics 365 Field Service self-service scheduling capabilities provide your customers the flexibility to schedule service appointments at their discretion.
+
+Connect your Field Service environment seamlessly with a Power Pages website template. Creating the website only takes a few minutes. A fully customizable website provides a one-stop destination for your end customers with self-service capabilities. Your customers can book new appointments, manage existing appointments, provide feedback about completed work, and track the dispatched technician.
+
+You can only use the Power Pages website template for self-scheduling in combination with a Field Service license. The self-service portals maps to a single Field Service environment. So you can have multiple portals if you have multiple environments where Field Service runs on.
+
+<!-- re-do videos with rebranded Power Pages UX
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWO5EO]
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NIiw]
+-->
+
+## Get started with self-schedule capabilities
+
+Before inviting your customer to self-schedule service appointments, review the following articles that help you get started and set up.
 
 1. [Create and configure the Field Service Portal (preview)](create-configure-customer-portal.md)
 1. [Set up notifications for the Field Service Portal (preview)](customer-portal-notification-settings.md)
 1. If you want customers to see information about their technician location and arrival time, see [Track a technician](customer-portal-technician-tracking.md)
 1. To make sure end customers can use a homepage, enable self-scheduling in Field Service. [Enable customers to self-schedule service appointments (preview)](customer-portal-invitation.md)
 
+## Known limitations
 
-### Can I still provision this Field Service customer experience portal if I already have an existing Power Apps portal?
+The website template for self-scheduling doesn't integrate with other Power Pages websites. It only works on its own.
 
-Yes, you can have multiple portals; however, you can only have one copy of the Field Service customer experience portal per environment.
+The capability supports all languages except Arabic and Hebrew.
 
-### Can I integrate this experience within an existing Power Apps portal?
+## Next steps
 
-Currently the Field Service customer portal is deployed as a standalone experience and cannot be integrated into an existing Power Apps portal.
+- [Create and configure the Field Service Portal (preview)](create-configure-customer-portal.md)
+- [Set up notifications for the Field Service Portal (preview)](customer-portal-notification-settings.md)
+- [Enable customers to self-schedule service appointments (preview)](customer-portal-invitation.md)
 
-
-
-
-
-### Does the Field Service customer experiences portal support all languages?
-
-The portal will support Field Service languages with the exception of Arabic and Hebrew.
-
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
