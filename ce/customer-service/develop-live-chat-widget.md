@@ -27,10 +27,10 @@ Microsoft provides an option to create a custom live chat widget that you can at
 
 Depending on your requirement and outcome, you can customize the chat widget using one of the following options:
 
-- Develop live chat widget 2.0 (preview)
-- Bring your own widget
+- Use customizable live chat widget 2.0 (preview)
+- Develop your own widget
 
-## Develop live chat widget 2.0 (preview)
+## Use customizable live chat widget 2.0 (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -63,9 +63,9 @@ An example screenshot of a chat widget 2.0 that's customized to increase its siz
 
 :::image type="content" source="media/live-chat-widget-2.0.png" alt-text="A sample screenshot of live chat widget 2.0.":::
 
-## Bring your own widget
+## Develop your own widget
 
-Use the information in the following sections to bring your own widget.
+Use the information in the following sections to build your own widget.
 
 ### Omnichannel Live Chat Widget UI Components library
 
