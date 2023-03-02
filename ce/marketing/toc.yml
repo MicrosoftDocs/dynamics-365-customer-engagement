@@ -334,6 +334,8 @@
       items: 
       - name: Install the real-time marketing asset library add-on
         href: real-time-marketing-asset-add-on.md
+      - name: Upload, manage and use images, files and videos in online content
+        href: upload-images-files.md
       - name: Real-time marketing asset library add-on
         href: real-time-marketing-asset-library.md
     - name: Administration
