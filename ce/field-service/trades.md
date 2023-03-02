@@ -18,13 +18,7 @@ Trades let you group [incident types](configure-incident-types.md) in your prefe
 
 ## Activate Trade for your org
 
-An admin must enable the capability before creating trades and trade coverages.
-
-:::image type="content" source="media/trade-settings.png" alt-text="Screenshot of the settings toggles for trades and trade coverages.":::
-
-1. Go to **Settings** > **General** > **Field Service Settings** > **Work Order/Booking** tab.
-2. Set **Trade** and **Trade Coverages** to **On**.
-3. New settings options **Trades** and **Trade Coverages** appear in the **General** section.
+An admin must [enable the capability in Field Service Settings](configure-default-settings.md#work-order--booking-settings) before creating trades and trade coverages.
 
 ## Create trades
 

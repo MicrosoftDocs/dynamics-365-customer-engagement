@@ -36,15 +36,7 @@ A high-level work order process is outlined below.
 
 ## Activate not-to-exceed
 
-An admin must enable the NTE capability before they can specify the logic for the NTE records.
-
-1. Open the **Settings** area.
-1. Go to **General** > **Field Service Settings** > **Work Order/Booking**.
-1. Set **Not-to-exceed** to **On**.
-
-:::image type="content" source="media/NTE-settings.png" alt-text="Screenshot of the Field Service Settings with Not-to-exceed turned on.":::
-
-The Not-to-exceed entry appears in the **General** section of the **Settings** area.
+An admin must [enable the NTE capability in Field Service Settings](configure-default-settings.md#work-order--booking-settings) before they can specify the logic for the NTE records.
 
 ## NTE types
 
