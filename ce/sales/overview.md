@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Sales
-description: Get an overview of the sales licenses and capabilities in each Dynamics 365 Sales license 
-ms.date: 02/06/2023
+description: Transform your sales organization with Dynamics 365 Sales to build strong relationships with customers, take actions based on insights, and close deals faster.
+ms.date: 02/28/2023
 ms.topic: welcome
 author: udaykirang
 ms.author: udag
@@ -165,5 +165,6 @@ Integrate Dynamics 365 Sales with other applications that your Sales team is lev
 [Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)  
 [User Guide](../sales-enterprise/user-guide.md)  
 
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+[!INCLUDE[ai-generated-description](../includes/disclaimer-ai-generated-description.md)]
