@@ -1,7 +1,7 @@
 ---
-title: Upload and use images in online content
-description: "How to upload, tag, and find images for use in emails and marketing pages in Dynamics 365 Marketing."
-ms.date: 03/01/2023
+title: Upload, manage, and use images, files and videos in online content
+description: "How to Upload, manage and use images, files and videos in Dynamics 365 Marketing."
+ms.date: 03/02/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -26,9 +26,9 @@ Shareable assets are critical for meaningful and successful customer experiences
 >
 > You will see an error message if you attempt to upload a file of an unsupported type. 
 > The maximum file size is: 
-•	5MB for images
-•	32MB for documents
-•	128MB for videos
+> - 5MB for images
+> - 32MB for documents
+> - 128MB for videos
 
 > [!TIP]
 > Files are stored in the organization’s Microsoft Dataverse storage and will count against their file storage capacity. For more information on Dataverse storage capacity, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
