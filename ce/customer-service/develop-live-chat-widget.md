@@ -65,6 +65,8 @@ An example screenshot of a chat widget 2.0 that's customized to increase its siz
 
 ## Bring your own widget
 
+Use the information in the following sections to bring your own widget.
+
 ### Omnichannel Live Chat Widget UI Components library
 
 The Omnichannel Live Chat Widget UI Components library provides a framework of reusable React components. The components are built using the [Fluent UI library](https://developer.microsoft.com/fluentui). [Learn more about the Omnichannel Live Chat Widget UI Components library](https://github.com/microsoft/omnichannel-chat-widget/blob/main/README.md).
