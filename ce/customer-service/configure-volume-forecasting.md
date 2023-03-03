@@ -1,7 +1,7 @@
 ---
 title: "Configure case forecasting in Customer Service | Microsoft Docs"
 description: "Learn how to configure the Forecast report for cases in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 10/01/2022
+ms.date: 04/01/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
