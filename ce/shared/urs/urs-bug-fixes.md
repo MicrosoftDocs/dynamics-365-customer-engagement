@@ -10,7 +10,7 @@ For information about other updates to Universal Resource Scheduling, visit the 
 |**Station 2** | *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [3.12.97.9](#312979)  | TBD | 03/10/2023 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* | [3.12.97.9](#312979) | TBD | 03/17/2023 |
 |**Station 4** | *Europe* | [3.12.96.38](#3129638) | [3.12.97.9](#312979) | 03/10/2023 |
-|**Station 5** | *North America*| [ [3.12.96.38](#3129638) | [3.12.97.9](#312979) | 03/17/2023 |
+|**Station 5** | *North America*| [3.12.96.38](#3129638) | [3.12.97.9](#312979) | 03/17/2023 |
 |**Station 6** | *Government Community Cloud, DoD, China* | [3.12.96.38](#3129638)  | [3.12.97.9](#312979) | 03/24/2023 |
 
 >[!NOTE]
@@ -27,6 +27,7 @@ For information about other updates to Universal Resource Scheduling, visit the 
 ## 3.12.97.9
 
 **Resource Scheduling Controls:** 1.2.37.230406
+
 **Dataverse:** 4.0.87.9
 
 - Removed error logging for extraneous "Failed to resolve sorting" issue that was bloating error logs.
