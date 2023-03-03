@@ -49,7 +49,7 @@ Admins can configure most customer portal settings directly in Field Service.
 
 - **Self Scheduling (Preview)**: Enables the self-scheduling experience in the portal.
 
-- **Send self-scheduling experience to Account Contacts**: Enables automated notifications with access information for the portal. The information is sent to every contact that isn't part of an excluded account.
+- **Send self-scheduling experience to Account Contacts**: Enables automated notifications with access information for the portal. The information is sent to every contact that isn't part of an excluded account. When enabling this feature, choose if you want to send invites to all contacts or only to new contacts moving forward.
 
 - **Messages**: Messages are sent at specific points of the work order lifecycle. These messages can be enabled or disabled independently. For details on each message, go to [Set up notifications for the Field Service Portal (preview)](customer-portal-notification-settings.md).
 
@@ -63,89 +63,63 @@ Admins can configure most customer portal settings directly in Field Service.
 
 - **Configure SMS and Email Connector**: Direct links to the Power Automate flows where you [configure the email and SMS connectors](customer-portal-notification-settings.md).
 
-- Excluded Work Order Types:
+- **Excluded Work Order Types**: List work order types that you don't want to expose as an option in the portal.
 
-- Excluded Accounts:
+- **Excluded Accounts**: List customer accounts for which you don't want to enable the portal. Contacts related to excluded accounts won't receive invitations to the portal either.
 
 ### Display tab
 
-
+Use this tab to set basic design values for the portal. <!-- where in portal management can I change CSS as defined in the FS settings?---> The Advanced Display Configuration field contains the direct link to open [the Portal Management app](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
 
 ### Self Scheduling (Preview) tab
 
-Let's take a look at the self-scheduling settings, and what they do: 
+If you enabled the Self Scheduling (Preview) option, this tab let's you configure schedling parameters.
 
-- **Minimum lead time for new bookings**: Sets the minimum time, in days from today, during which the customer can schedule their booking.
-- **Maximum lead time for new bookings**: Sets the maximum time, in days from today, during which the customer can schedule their booking.
-- **Enable Asset Selection**: When this option is enabled, the customer has the option to select a specific asset to associate with their account while they schedule their booking.
-- **Enable Additional Details**: When this option is enabled, the customer can submit text to your organization while scheduling their booking. This text will be saved as a note on the booking timeline.
+:::image type="content" source="media/SS_Settings_SSS.png" alt-text="Screenshot of the self-scheduling settings.":::
+
+- **Minimum lead time for new bookings (days)**: Sets the minimum time, in days from today, during which the customer can schedule their booking.
+
+- **Maximum lead time for new bookings (days)**: Sets the maximum time, in days from today, during which the customer can schedule their booking.
+
+- **Enable Asset Selection**: When this option is enabled, the customer has the option to select a specific asset to associate with their account while they schedule their booking. <!--any asset in the asset list or only assets that are already linked to customer account?-->
+
+- **Enable Additional Details**: Enables the options to submit extra text while scheduling the booking. The system saves the text as a note on the booking timeline.
+
 - **Default Radius Unit**: Sets the radius unit to miles or kilometers.
-- **Include Resource with maximum travel radius**: The maximum radius from the scheduled location in which a resource can be scheduled. 
-   
-    > [!NOTE]
-    > **Default Radius Unit** and **Include Resource with maximum travel radius** are shared settings for the schedule board; changing the value on one will change the value for the other.
 
+- **Include Resource with maximum travel radius**: The maximum radius from the scheduled location in which a resource can be scheduled.
 
-> [!div class="mx-imgBorder"]
-> ![The customer portal settings, showing the display options.](./media/SS_Settings_SSS.png)
+> [!NOTE]
+> The travel radius are shared settings with the [schedule board in Field Service](configure-schedule-board.md). Changing the value on one will change the value for the other.
 
-
-## Configure incident type
+## Configure incident type for the portal
 
 As part of the self-scheduling experience, the customer can select the incident type (shown as **Service Type**) that represents the work needed. As a Field Service administrator, you can make specific incident types available to your customers and set a user-friendly display name for the incident type shown on the self-scheduling portal.
 
-Incident types must be configured with following steps to properly appear in the self-scheduling portal:
-
-1. Check **Enable for C2** and apply a user-friendly name.
-2. Set a **Default Work Order** type, which is associated with a price list for the incident type.
-3. Set an estimated duration for the incident type. This value is the work duration shown in the portal.
-4. Incident type should not be associated with a requirement group.
-
-    > [!NOTE]
-    > If any of these conditions are not met when saving an incident type after making it **Enable for C2**, then an appropriate error will be shown.
-
+1. Open an [existing incident type](configure-incident-types.md) and set the **Enable for C2** setting to **Yes**.
+1. Provide a **Display Name** for the portal.
+1. Set a **Default Work Order** type, which is associated with a price list for the incident type.
+1. Set an estimated duration for the incident type. This value is the work duration shown in the portal.
 
 > [!div class="mx-imgBorder"]
 > ![Customer portal settings, showing the field for the user-friendly name for incident types.](./media/SS_Incident_Type-displayname.png)
 
+## Configure identity providers for the portal
 
-## Authentication
-
-The portal is an authenticated experience. By default, local authentication is enabled when the portal is provisioned. This can be reconfigured by the organization's administrator. Configure authentication through Power Apps portals. 
+The portal requires customers to authenticate before they can open service requests. By default, the portal uses local authentication. Administrators can add and change authentication options.
 
 More information: [Overview of authentication in Power Apps portals](/powerapps/maker/portals/configure/configure-portal-authentication)
 
 > [!div class="mx-imgBorder"]
 > ![List of identity providers in Power Apps.](./media/SS_Authentication.png)
 
-## Branding and content
+<!-- maybe create a separate article for design?-->
 
-Configure the branding and content for your Field Service customer portal.
+## Customize the portal design
 
-From the customer portal settings, go to the **Display** tab.
+You can update the design and styling of your portal to meet your branding requirements. User the Power Pages design studio or the Power Apps designer.
 
-Here you can customize:
-
-- Font type and color for the online portal.
-- Background and foreground colors.
-- Code snippets: These snippets are dynamic content strings that when updated, reflect consistent content across the portal, email, and SMS when applicable. Here are a few important code snippets to include:
-  - Contact email
-  - Contact phone
-  - Company name
-  - Page title
-  - Page footer
-
-> [!div class="mx-imgBorder"]
-> ![Field Service customer portal settings, showing the display options.](./media/TMT-DisplaySettings.png)
-
-> [!Note]
-> The header and footer of your portal are updated in the portal designer. There is a link to the designer experience from the **Display Settings** tab. For more information on portal designer, see the section in this article: [Portal designer](#portal-designer).
-
-### Portal designer
-
-You can update your portal header and footer images, adjust colors, and access more advanced configuration from the Power Apps portal designer. 
-
-There is a direct link to the portal designer from **Customer Portal Settings** > **Design**. To go there directly: 
+<!-- continue here-->
 
 - Go to https://make.powerapps.com.
 - Select **Apps**.
