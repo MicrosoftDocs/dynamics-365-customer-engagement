@@ -165,6 +165,4 @@ Integrate Dynamics 365 Sales with other applications that your Sales team is lev
 [Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)  
 [User Guide](../sales-enterprise/user-guide.md)  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-[!INCLUDE[ai-generated-description](../includes/disclaimer-ai-generated-description.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)
