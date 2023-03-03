@@ -45,4 +45,4 @@ Because the pricing-related fields for a product that's required for the bundle 
 
 [Set up product bundles to sell multiple items together](create-product-bundles-sell-multiple-items-together.md)
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

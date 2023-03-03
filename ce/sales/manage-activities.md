@@ -177,4 +177,4 @@ Here are some suggestions about how to use activities to your organization's bes
 
 [Work with activities in the Kanban view](activity-kanban-view.md)  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

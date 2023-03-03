@@ -363,4 +363,4 @@ Perform the following steps before you upgrade a solution:
 [Create or change a queue](set-up-queues-manage-activities-cases.md)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
