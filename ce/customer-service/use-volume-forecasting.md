@@ -1,7 +1,7 @@
 ---
 title: "Forecast agent, case, and conversation volumes in Customer Service | Microsoft Docs"
 description: "Learn how to use the Forecast report for agent, case, and conversation volumes in Dynamics 365 Customer Service, Omnichannel for Customer Service, and Customer Service workspace."
-ms.date: 10/01/2022
+ms.date: 04/01/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -17,18 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Forecast agent, case, and conversation volumes (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-  
-## Introduction
+# Forecast agent, case, and conversation volumes
 
 Customer service supervisors need to be able to ensure that they have an adequate number of agents available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which in turn can negatively impact customer satisfaction.
 
@@ -38,7 +27,7 @@ You can use the Forecast report for agent, case, and conversation volumes in the
 
 - Forecast upcoming case and conversation volumes based on historical traffic, as well as the number of agents needed to meet the forecasted conversation volume. For conversation volume forecasting, if chatbots are set up for your conversational channels, conversations handled by chatbots that have no human agent joined are excluded from the forecasting, so that you can rely on the predicted conversation volumes for human agent staffing.
 
-- Visualize forecast volumes on a daily, weekly, and monthly interval basis, for a time range up to six months (depending on how many days of cases or conversations were created in the past).
+- Visualize forecast volumes on a intraday, daily, weekly, and monthly interval basis, for a time range up to six months (depending on how many days of cases or conversations were created in the past).
 
 - Slice forecasted volumes by channel and queue.
 
@@ -57,14 +46,16 @@ For details of how the forecast models work for this feature, see [How agent for
 
 Before you can use the Forecast report, ensure that your administrator has given you Customer Service Manager role permissions. More information: [Configure case and conversation volume forecasting](configure-volume-forecasting.md)
 
+REQUIRED SOLUTION VERSIONS - Sourav is working on this
+
 ## View the Forecast report in Customer Service
 
 **Navigation**
 
-You can view the Forecast (preview) dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the **Forecast (preview)** dashboard as follows:
+You can view the Forecast dashboard in the Customer Service workspace or Omnichannel for Customer Service apps. You can navigate to the **Forecast** dashboard as follows:
 
-- In the default view, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Forecast (preview)**.
-- If the enhanced multisession workspace view is enabled, select the site map and then select **Omnichannel historical analytics**. On the page that appears, select **Forecast (preview)**.
+- In the default view, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Forecast**.
+- If the enhanced multisession workspace view is enabled, select the site map and then select **Omnichannel historical analytics**. On the page that appears, select **Forecast**.
 
    :::image type="content" source="media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
 
