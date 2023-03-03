@@ -25,9 +25,9 @@ As a supervisor, you can use the Forecast report to help you plan the right leve
 
 You can use the Forecast report for agent, case, and conversation volumes in the following ways:
 
-- Forecast upcoming case and conversation volumes based on historical traffic, as well as the number of agents needed to meet the forecasted conversation volume. For conversation volume forecasting, if chatbots are set up for your conversational channels, conversations handled by chatbots that have no human agent joined are excluded from the forecasting, so that you can rely on the predicted conversation volumes for human agent staffing.
+- Forecast upcoming case and conversation volumes based on historical traffic and the number of agents needed to meet the forecasted conversation volume. For conversation volume forecasting, if your administrator has set up chatbots for your conversational channels, the system excludes conversations that chatbots handle without a human agent joined, so that you can rely on the predicted conversation volumes for human agent staffing.
 
-- Visualize forecast volumes on a intraday, daily, weekly, and monthly interval basis, for a time range up to six months (depending on how many days of cases or conversations were created in the past).
+- Visualize forecast volumes on an intraday, daily, weekly, and monthly interval basis, for a time range up to six months depending on how many days of cases or conversations were created in the past.
 
 - Slice forecasted volumes by channel and queue.
 
@@ -55,7 +55,7 @@ REQUIRED SOLUTION VERSIONS - Sourav is working on this
 You can view the Forecast dashboard in the Customer Service workspace or Omnichannel for Customer Service apps. You can navigate to the **Forecast** dashboard as follows:
 
 - In the default view, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Forecast**.
-- If the enhanced multisession workspace view is enabled, select the site map and then select **Omnichannel historical analytics**. On the page that appears, select **Forecast**.
+- If the enhanced multisession workspace view is enabled, select the site map, and then select **Omnichannel historical analytics**. On the page that appears, select **Forecast**.
 
    :::image type="content" source="media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
 
@@ -81,7 +81,7 @@ The **Confidence level** for the forecasted data is displayed on the right-hand 
 
 :::image type="content" source="media/case-forecast-actuals.png" alt-text="View of confidence level in Forecast report.":::
 
-Hovering on the future side (dash line) of the report will show you a range that includes an upper and lower bound confidence range, which indicates the amount of possible variance that could occur from the predicted volume number.
+Hover on the future side (dash line) of the report to show a range that includes an upper and lower bound confidence range, which indicates the amount of possible variance that could occur from the predicted volume number.
 
 #### Filter data by drilling up or down
 
