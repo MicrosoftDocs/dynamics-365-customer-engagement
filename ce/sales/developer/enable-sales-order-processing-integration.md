@@ -1,5 +1,5 @@
 ---
-title: "Enable sales order processing integration | MicrosoftDocs"
+title: "Enable sales order processing integration (Dynamics 365 Sales)"
 description: Read how you can enable sales order processing integration to connect Dynamics 365 Sales with an external order processing application.
 ms.date: 08/29/2022
 ms.topic: get-started-article
@@ -32,7 +32,7 @@ By default, sales order processing is turned off. When sales order processing is
 
 ## Turn on sales order processing integration
 
-You can enable sales order processing integration by setting the value of the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) attribute on the [Organization entity](../../customerengagement/on-premises/developer/entities/organization.md) to **Yes (1)**.
+You can enable sales order processing integration by setting the value of the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) column on the [Organization table](/power-apps/developer/data-platform/reference/entities/organization) to **Yes (1)**.
 
 ## What happens when sales order processing is turned on?
 
@@ -40,24 +40,24 @@ When sales order processing is turned on:
 
 - The **Create Invoice** button isn't shown on the command bar of the order records. 
 
-- Order records will support a **Submit** order button. When the order is submitted, the status for the order is marked as `Submitted` and the order is made read-only, unless it was created by an integration user. More information: [IsIntegrationUser attribute](../../customerengagement/on-premises/developer/entities/systemuser.md#BKMK_IsIntegrationUser)
+- Order records will support a **Submit** order button. When the order is submitted, the status for the order is marked as `Submitted` and the order is made read-only, unless it was created by an integration user. More information: [IsIntegrationUser column](/power-apps/developer/data-platform/reference/entities/systemuser#BKMK_IsIntegrationUser)
 
 The following table lists the conditions that need to be satisfied before Dynamics 365 Sales executes price computation for various entities.
 
-|Entity name|Create|Update|Delete|Recalculate|
+|Table name|Create|Update|Delete|Recalculate|
 |------|------|------|------|------|
 |Opportunity|Calculate always|Calculate always|Not applicable|Calculate always|
 |Quote|Calculate always|Calculate always|Not applicable|Calculate always|
-|Sales order|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the sales order is in a submitted state or the signed-in user is an integration user|Not applicable|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the sales order is in a submitted state|
-|Invoice|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Not applicable|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|
+|Sales order|Calculation is skipped if the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Calculation is skipped if the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the sales order is in a submitted state or the signed-in user is an integration user|Not applicable|Calculation is skipped if the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the sales order is in a submitted state|
+|Invoice|Calculation is skipped if the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Calculation is skipped if the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Not applicable|Calculation is skipped if the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|
 |Opportunity product|Calculate always|Calculate always|Calculate always|Not applicable|
 |Quote product|Calculate always|Calculate always|Calculate always|Not applicable|
-|Sales order product|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user or the sales order is in a submitted state|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user or sales order is in a submitted state|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Not applicable|
-|Invoice product|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Not applicable|
+|Sales order product|Calculation is skipped if the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user or the sales order is in a submitted state|Calculation is skipped if the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user or sales order is in a submitted state|Calculation is skipped if the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Not applicable|
+|Invoice product|Calculation is skipped if the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Calculation is skipped if the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Calculation is skipped if the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Not applicable|
 
 ## Turn off the sales order processing setting
 
-By default, sales order processing integration is turned off. If you've [turned it on](#turn-on-sales-order-processing-integration) using the ```IsSOPIntegrationEnabled``` attribute, you can turn it off using the **App Settings** page or by setting ```IsSOPIntegrationEnabled``` to **No**.
+By default, sales order processing integration is turned off. If you've [turned it on](#turn-on-sales-order-processing-integration) using the ```IsSOPIntegrationEnabled``` column, you can turn it off using the **App Settings** page or by setting ```IsSOPIntegrationEnabled``` to **No**.
 
 1. Go to **Sales Hub**, and then select **App Settings**.
 2. Select **General/Overview**, and then select **Back Office Order Processing Integration**.
@@ -70,9 +70,9 @@ By default, sales order processing integration is turned off. If you've [turned 
 
 ### See also
 
-[Organization entity reference](../../customerengagement/on-premises/developer/entities/organization.md)<br />
-[System user entity reference](../../customerengagement/on-premises/developer/entities/systemuser.md)<br />
-[Quote, order, and invoice entities](../../customerengagement/on-premises/developer/quote-order-invoice-entities.md)
+[Organization table reference](/power-apps/developer/data-platform/reference/entities/organization)<br />
+[System user table reference](../../customerengagement/on-premises/developer/entities/systemuser.md)<br />
+[Quote, order, and invoice tables](quote-order-invoice-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

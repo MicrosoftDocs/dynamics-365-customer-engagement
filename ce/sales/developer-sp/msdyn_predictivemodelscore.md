@@ -1,32 +1,45 @@
 ---
-title: "msdyn_predictivemodelscore Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_predictivemodelscore entity."
-ms.date: 11/10/2020
-
+title: "msdyn_predictivemodelscore table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+description: "Includes schema information and supported messages for the msdyn_predictivemodelscore table/entity."
+ms.date: 12/26/2022
+ms.service: dynamics-365-sales
 ms.topic: "reference"
-applies_to: 
-  - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: udaykirang
-ms.author: udag
+author: "udaykirang"
+ms.author: "udag"
 manager: "shujoshi"
+search.audienceType: 
+  - developer
+search.app: 
+  - PowerApps
+  - D365CE
 ---
-# msdyn_predictivemodelscore Entity Reference
+
+# msdyn_predictivemodelscore table/entity reference
 
 > [!NOTE]
-> This entity is for internal use only.
-
-**Added by**: Predictive Scoring Common Solution  
-**Entity set path**: ```[organizationURI]/api/data/v9.1/msdyn_predictivemodelscores```  
-**Display name**: Predictive Model Score  
-**Alternate key**: msdyn_PredictiveModelScoreKey  
-**Alternate key attributes**: msdyn_entityid, msdyn_entitytype, and msdyn_predictionid  
-**Operations supported**:   
-  - For admin: Create, retrieve, retrieve multiple, update, and delete
-  - For other users: Retrieve
+> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 
 
-## Entity Properties
+
+**Added by**: Predictive Scoring Common Solution
+
+
+## Messages
+
+|Message|Web API Operation|SDK Assembly|
+|-|-|-|
+|Create|POST [*org URI*]/api/data/v9.2/msdyn_predictivemodelscores<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE [*org URI*]/api/data/v9.2/msdyn_predictivemodelscores(*msdyn_predictivemodelscoreid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
+|Retrieve|GET [*org URI*]/api/data/v9.2/msdyn_predictivemodelscores(*msdyn_predictivemodelscoreid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.2/msdyn_predictivemodelscores<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.2/msdyn_predictivemodelscores(*msdyn_predictivemodelscoreid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.2/msdyn_predictivemodelscores(*msdyn_predictivemodelscoreid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -44,9 +57,9 @@ manager: "shujoshi"
 
 <a name="writable-attributes"></a>
 
-## Writable attributes
+## Writable columns/attributes
 
-These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
+These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_EntityId](#BKMK_msdyn_EntityId)
@@ -130,14 +143,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### msdyn_Grade Options
+#### msdyn_Grade Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Grade A|
-|1|Grade B|
-|2|Grade C|
-|3|Grade D|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Grade A||
+|1|Grade B||
+|2|Grade C||
+|3|Grade D||
 
 
 
@@ -275,7 +288,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_scorereasons|
-|MaxLength|2000|
+|MaxLength|10000|
 |RequiredLevel|None|
 |Type|Memo|
 
@@ -292,14 +305,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### msdyn_ScoreTrend Options
+#### msdyn_ScoreTrend Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Improving|
-|1|Steady|
-|2|Declining|
-|3|Not enough info|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Improving||
+|1|Steady||
+|2|Declining||
+|3|Not enough info||
 
 
 
@@ -332,7 +345,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -353,7 +366,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -395,9 +408,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 <a name="read-only-attributes"></a>
 
-## Read-only attributes
+## Read-only columns/attributes
 
-These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
+These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
@@ -727,10 +740,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ## Many-To-One Relationships
 
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msdyn_PS_PMS"></a> msdyn_PS_PMS
 
-See msdyn_predictivescore Entity [msdyn_PS_PMS](msdyn_predictivescore.md#BKMK_msdyn_PS_PMS) One-To-Many relationship.
+See the [msdyn_PS_PMS](msdyn_predictivescore.md#BKMK_msdyn_PS_PMS) one-to-many relationship for the [msdyn_predictivescore](msdyn_predictivescore.md) table/entity.
 
+### See also
+
+[Dynamics 365 Sales table/entity reference](../developer/about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
