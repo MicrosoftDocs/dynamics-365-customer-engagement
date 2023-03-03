@@ -17,18 +17,8 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Configure case forecasting (preview)
+# Configure case forecasting
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
-## Introduction
 
 Customer service supervisors in your organization need to ensure that they have an adequate number of agents available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which in turn can negatively impact customer satisfaction. 
 
@@ -66,13 +56,13 @@ The historical data must meet the following minimum requirements for the models 
 
 To configure the Forecast report, you must have the System Administrator role.
 
-For users in your organization to be able to access the forecast reports, they must be part of a role that has read privileges on the **Forecast (preview)** table. Your system administrator must assign this privilege to any role that needs access to the forecasting reports.
+For users in your organization to be able to access the forecast reports, they must be part of a role that has read privileges on the **Forecast** table. Your system administrator must assign this privilege to any role that needs access to the forecasting reports.
 
 ## Enable the case forecasting reports in Customer Service
 
 1. In the Customer Service admin center app, in **Operations**, select **Insights**. The Insights page is displayed.
 
-1. In the **Report settings** section, next to **Case forecasting (preview)**, select **Manage**. The **Case forecasting (preview)** page is displayed.
+1. In the **Report settings** section, next to **Case forecasting**, select **Manage**. The **Case forecasting** page is displayed.
    
 1. Toggle **Enable case forecasting** to **On**.
 
