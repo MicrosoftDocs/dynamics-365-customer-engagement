@@ -155,5 +155,3 @@ When salespeople work on a lead, they use notes to store key information on the 
 [Troubleshoot issues with lead qualification issues](/troubleshoot/dynamics-365/sales/troubleshoot-lead-qualification-issues-for-salespeople)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-[!INCLUDE[ai-generated-description](../includes/disclaimer-ai-generated-description.md)]
