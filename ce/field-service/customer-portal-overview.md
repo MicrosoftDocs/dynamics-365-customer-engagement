@@ -23,6 +23,8 @@ Dynamics 365 Field Service self-service scheduling capabilities provide your cus
 
 Connect your Field Service environment seamlessly with a Power Pages website template. Creating the website only takes a few minutes. A fully customizable website provides a one-stop destination for your end customers with self-service capabilities. Your customers can book new appointments, manage existing appointments, provide feedback about completed work, and track the dispatched technician.
 
+<!-- add conceptual information of what happens in FS. Like create WO, booking, scheule resource etc. think of flow chart diagram-->
+
 You can only use the Power Pages website template for self-scheduling in combination with a Field Service license. The self-service portals maps to a single Field Service environment. So you can have multiple portals if you have multiple environments where Field Service runs on.
 
 <!-- re-do videos with rebranded Power Pages UX

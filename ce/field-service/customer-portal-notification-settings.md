@@ -30,6 +30,18 @@ The Customer Portal settings in Field Service links directly to the default Powe
 1. Open the flow you just created and select **Edit**. Authenticate or update the connections and **Save** the flow.
 1. Then, select **Turn on** to enable the flow.
 
+## Manually send an invite to a contact
+
+Before customers can use the Field Service portal, make sure you [configured the portal settings](create-configure-customer-portal.md) and enabled notifications.
+
+On a Field Service contact record, you can manually generate a portal invite code by selecting **Create Invitation**. Additionally, you need to assign the **Web Api Users** web role to the user before they can access the portal.
+
+To set the required role:
+
+1. On the the contact record, select **Related** > **Web Roles**.
+1. Select **Add Existing Web Role** and choose the **Web API User** role.
+1. Select **Add** and save the changes.
+
 ## List of notifications
 
 After configuring your portal and enabling notifications, emails and SMS messages will be sent to the contact associated to the resulting work orders. You can [customize some aspects for the portal](create-configure-customer-portal.md#customize-the-portal-design), which also apply to the notifications.

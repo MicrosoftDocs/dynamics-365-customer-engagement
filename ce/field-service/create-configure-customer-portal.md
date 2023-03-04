@@ -125,4 +125,5 @@ When we release new features, we won't update your portal automatically. An admi
 
 ## Next steps
 
-- [Set up notifications for the Field Service Portal](customer-portal-notification-settings.md)
+- [Set up notifications for the Field Service portal (preview)](customer-portal-notification-settings.md)
+- [Let customers schedule service appointments (preview)](customer-portal-invitation.md)
