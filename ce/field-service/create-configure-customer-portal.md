@@ -59,7 +59,7 @@ Admins can configure most customer portal settings directly in Field Service.
 
 - **Exclusion lists**: These lists allow you to exclude specific service accounts or service types from all messaging.
 
-- **Include Survey (Preview)**: [Embed a Customer Voice survey for service feedback](#embed-a-customer-voice-survey-for-service-feedback), which will be presented to your customers on the portal when the booking is complete.
+- **Include Survey (Preview)**: Embed a [Customer Voice survey](/dynamics365/customer-voice/about) in the portal. When [adding a survey embed code](/dynamics365/customer-voice/embed-web-page), the survey will automatically show when the booking is complete.
 
 - **Configure SMS and Email Connector**: Direct links to the Power Automate flows where you [configure the email and SMS connectors](customer-portal-notification-settings.md).
 
@@ -69,11 +69,11 @@ Admins can configure most customer portal settings directly in Field Service.
 
 ### Display tab
 
-Use this tab to set basic design values for the portal. <!-- where in portal management can I change CSS as defined in the FS settings?---> The Advanced Display Configuration field contains the direct link to open [the Portal Management app](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
+Use this tab to set basic design values for the portal. <!-- where in portal management can I change CSS as defined in the FS settings?---> The Advanced Display Configuration field contains the direct link to open [the Power pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
 
 ### Self Scheduling (Preview) tab
 
-If you enabled the Self Scheduling (Preview) option, this tab let's you configure schedling parameters.
+If you enabled the Self Scheduling (Preview) option, this tab lets you configure scheduling parameters.
 
 :::image type="content" source="media/SS_Settings_SSS.png" alt-text="Screenshot of the self-scheduling settings.":::
 
@@ -92,7 +92,7 @@ If you enabled the Self Scheduling (Preview) option, this tab let's you configur
 > [!NOTE]
 > The travel radius are shared settings with the [schedule board in Field Service](configure-schedule-board.md). Changing the value on one will change the value for the other.
 
-## Configure incident type for the portal
+## Configure incident types for the portal
 
 As part of the self-scheduling experience, the customer can select the incident type (shown as **Service Type**) that represents the work needed. As a Field Service administrator, you can make specific incident types available to your customers and set a user-friendly display name for the incident type shown on the self-scheduling portal.
 
@@ -117,55 +117,13 @@ More information: [Overview of authentication in Power Apps portals](/powerapps/
 
 ## Customize the portal design
 
-You can update the design and styling of your portal to meet your branding requirements. User the Power Pages design studio or the Power Apps designer.
+Makers can update the design and styling of your portal to meet your branding requirements. Use the [Power Pages design studio](/power-pages/configure/editing-sites) or the [legacy Power Apps portals Studio](/power-apps/maker/portals/portal-designer-anatomy) to customize the portal site.
 
-<!-- continue here-->
+You can only [edit elements in the header and footer](/power-pages/getting-started/edit-header), and content snippets. [Updating content snippets](/power-apps/maker/portals/configure/customize-content-snippets) in the portal also updates notifications if they're enabled.
 
-- Go to https://make.powerapps.com.
-- Select **Apps**.
-- Select **Edit** on the portal you created.
+## Update the Field Service portal
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps showing the list of apps.](./media/new-edit-portal.jpg)
-
-In the portal designer, selected content can be updated and will be reflected in the customer portal. Updating content snippets in the portal maker will also influence content in the messages when applicable.
-
-In the portal designer, upload your mobile and desktop header images, and adjust the color theme of the header and footer areas.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Apps portal designer.](./media/portaleditor_exp.jpg)
-
-> [!Note]
-> Elements of the portal outside of header and footer - and the highlighted content snippets - are not editable.
-
-
-## Embed a Customer Voice survey for service feedback
-
-<!-- needs more detail and links to customer voice-->
-
-You can now embed a Customer Voice survey directly within the Field Service customer experience portal. When the survey embed code is added into configuration, it will automatically render the survey on the portal when the work is complete.
-
-> [!div class="mx-imgBorder"]
-> ![An embedded survey on a Field Service customer portal, as shown in a browser.](./media/TMT-Desktop-Complete-Survey.png)
-
-> [!div class="mx-imgBorder"]
-> ![An embedded survey on a Field Service customer portal, as shown on mobile.](./media/TMT-Mobile-Complete-Survey.png)
-
-
-
-### How do I update my Field Service customer experiences portal?
-
-We will publish updates over time to introduce new features and functionality for the customer portal. Updates are not automatically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service customer experiences portal installed, and select **Portals**. If an update is available, you'll see a message saying so, with an option to **Update now**. Select your portal and apply the update to our environment. 
-
-
-
-### Will the Field Service customer experiences portal receive updates?
-
-When we make updates to the customer experience portal, new features or enhancements will be unpublished and require the org admin to publish the update before they reflect on the live experience.
-
-### Can I customize the portal by including my own entities and fields?
-
-No. At this time, the portal is not customizable and configuration is limited to what is defined in the [Field Service customer experience settings.](#step-3-set-up-the-customer-experience).
+When we release new features, we won't update your portal automatically. An administrator must apply them to your environment. For more information, see [Update a website package](/power-pages/admin/update-solution#update-a-website-package).
 
 ## Next steps
 

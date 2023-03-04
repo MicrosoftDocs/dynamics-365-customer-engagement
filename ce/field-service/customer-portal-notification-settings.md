@@ -12,110 +12,43 @@ search.app:
 
 # Set up notifications for the Field Service Portal (preview)
 
-> [!Note]
-> When enabling customer experience, messages can be sent to contacts of the account associated with bookings. If testing in non-production orgs, make sure your test data does not have real customer email addresses or phone numbers. If your org contains real data, you can prevent unnecessary communication by adding accounts to exclusion lists.
+The portal uses Power Automate flows to trigger notifications for customers. Before we can send notifications, choose which channels to use and configure the flows accordingly. To send text messages, you'll need an SMS provider with a Power Automate connector. For emails, we recommend an Office 365 Outlook account.
 
-## Prerequisites
+> [!CAUTION]
+> When enabled, the system sends notifications to contacts of the account associated with bookings. When using real customer data to test this feature, prevent accidental communication by [adding accounts to exclusion lists](create-configure-customer-portal.md#self-scheduling-preview-tab).
 
-- Field Service version (8.8.30.103+)
-- SMS provider supporting the Power Automate connector for mobile SMS communication
-- Office 365 Exchange account for email communications
+## Configure email and SMS connectors in Power Automate
 
-## Step 2: Configure email and SMS connectors within Power Automate
+The Customer Portal settings in Field Service links directly to the default Power Automate flows for email and SMS.
 
-Customers will be able to access their service portal with a unique link sent to their email or as a text message. To set this up, you'll need to configure one or both communication methods.
+1. Access the flows by going to the [Power Apps Maker portal](https://make.powerapps.com) > **Solutions** > **Dynamics 365 Field Service PowerApps Portal – Flow**.
+1. Select **Objects** > **Cloud flows** to see the list of flows.
+1. *Field Service PowerApps Power Flow Email Notifications* and *Field Service PowerApps Power Flow SMS Notifications* flows are off by default. Configure the flows before turning them on.
+1. Select and open the flow you want to configure. On the flow, select **Save as** and create a copy of the default flow.
+1. Open the flow you just created and select **Edit**. Authenticate or update the connections and **Save** the flow.
+1. Then, select **Turn on** to enable the flow.
 
-We provide a links directly to the Power Automate Flows for Email and SMS via Field Service [Customer Portal Settings](#step-3-set-up-the-customer-experience)
+## List of notifications
 
-Alternately, you can access the Power Automate Flows for Email and SMS within Power Automate:
+After configuring your portal and enabling notifications, emails and SMS messages will be sent to the contact associated to the resulting work orders. You can [customize some aspects for the portal](create-configure-customer-portal.md#customize-the-portal-design), which also apply to the notifications.
 
-Go to https://make.powerapps.com > **Solutions**. Select **Dynamics 365 Field Service PowerApps Portal – Flow** in the list.
+The portal sends a notification for the following events:
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of of Power Apps showing the list of solutions with "Dynamics 365 Field Service PowerApps Portal – Flow" selected.](./media/03_PAFlow_Solution.jpg)
-
-Here you'll find three Power Automate flows. Email and SMS flows are off by default, so we'll need to configure both in order to enable them. 
-
- > [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps showing the list of available flows in the "Dynamics 365 Field Service PowerApps Portal – Flow" solution.](./media/02_PAFlow_Flows.jpg)
-
->[!Note]
-> Exchange and Twilio are used here by default as popular providers. You can substitute an alternate connector by cloning the flows and configuring desired connector.
-
-To configure email:
-
-- Select **Field Service PowerApps Power Flow Email Notification**, which will open the flow in a new tab.
-- With the Flow open, select **Edit**.
-- Select the **Send an Email** Exchange connector.
-- Add your Office 365 Exchange account connection.
-- Save and **Turn On** the flow.
-
-To configure SMS:
-
-- Select **Field Service PowerApps Power Flow SMS Notification**, which will open the flow in a new tab.
-- With the Flow open, select **Edit**.
-- Select the Twilio connector.
-- Add your Twilio account details.
-- Save and **Turn On** the flow.
-
-### How do I edit email and SMS content?
-
-General content and format of the notifications are following a fixed template and cannot be changed. You can update individual words within the email and SMS content with content snippets found in Field Service settings. 
-
-### Notifications
-
-After configuring your portal and enabling notifications, emails and SMS messages will be sent to the **Reported By** contact associated with work orders. When the **Reported By** contact is not defined, notifications will be sent to the contact based on the **Send Messages To** value under (**Settings**)[#general-and-notification-settings]. By default, this is the primary contact on the account record.
-
-Messages are automatically generated by the following events:
-
-- **Booking Reminder**: Reminder messages are sent within *7* days of the scheduled service time. This message will carry the scheduled service time and a link to your portal with basic details including confirmation of service account location shown on a map.
-  - By default, service reminders will be scheduled to send daily at 10:00 AM UTC for any bookings within your configured time period. This time can be adjusted in Power Automate. For more information, see this section: [How do I change the timing of reminder messages](#how-do-i-change-the-timing-of-reminder-message)?
-
-> [!div class="mx-imgBorder"]
-> ![Device renders showing service reminder notifications as text messages, along with the customer portal on mobile devices.](./media/technician-locator-mobile-scheduled.jpg)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an email notification about upcoming service.](./media/10_email-reminder.jpg)
+- **Booking Reminder**: Reminder messages are sent within seven days of the scheduled service time. This message includes the scheduled service time and a link to the portal with information about the booking. By default, reminders are sent daily at 10:00 AM UTC for any bookings in the time period. You can change this time by editing the **Create notification items for bookings** flow. <!--this seems wrong. the flow recurrence is set to 1 hour and I don't see a setting to change the time period (7 days)-->
 
 - **Technician Traveling**: Sent when the booking status is *Traveling*. This message communicates estimated time of arrival while considering traffic on expected route. This message links to your customer portal with a map, so your customer can see progress to your service location.
 
-> [!div class="mx-imgBorder"]
-> ![Device renders showing the map and technician location in the customer portal.](./media/technician-locator-mobile-en-route.jpg)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an email notification telling the customer that the technician is on the way.](./media/13-email-traveling.jpg)
-
 - **Booking Complete**: Sent when booking status is *Complete*. This message confirms work was completed, along with date and time of completion. 
-
-> [!div class="mx-imgBorder"]
-> ![Device renders showing text notifications with service updates, alongside the customer portal.](./media/technician-locator-mobile-complete.jpg)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an email telling the customer that the service has been completed.](./media/15-email-completed.jpg)
 
 - **Booking Rescheduled**: Sent when a scheduled service appointment changes by more than 10 minutes from previously scheduled start time.
 
-> [!div class="mx-imgBorder"]
-> ![Device renders showing text notifications that service has been rescheduled, alongside the customer portal.](./media/technician-locator-mobile-reschedule.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an email telling the customer that the service has been rescheduled.](./media/11_email-reschedule.jpg)
-
 - **Booking Canceled**: When a scheduled service appointment is canceled.
-
-> [!div class="mx-imgBorder"]
-> ![Device render of a mobile phone with a text message telling the customer that service has been canceled.](./media/technician-locator-mobile-cancel.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an email telling the customer that service has been canceled.](./media/15-email-cancel.jpg)
 
 > [!Note] 
 > Service rescheduling and service canceling messages are only sent if a reminder message had previously been sent.
 
 > [!Note]
 > The booking confirmation notifications are relavent only to the [self-service scheduling](scheduling-self-customers.md) scenario, and are not avialable with the track my technician functionality.
-
-
 
 ### Notification settings
 
@@ -136,32 +69,3 @@ With booking notification codes, Field Service admins can extend, expire, or blo
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of notification details in Field Service.](./media/09_FSSettings_BookingNotifications-details.jpg)
-
-### How do I change the timing of reminder messages?
-
-Reminder messages are triggered by a flow that runs daily at 10:00 AM UTC. Any bookings that fall into your reminder message time period, and aren't part of exclusion lists, will receive a reminder message.
-
-**To edit the reminder message**
-
-1. Go to https://make.powerapps.com > **Solutions** and find the solution **Dynamics 365 Field Service PowerApps Portal – Flow**.
-1. Edit the flow named **Create notification items for bookings**.
-1. Find the location recurrence connector, and set the **Flow Recurrence** value to the time you want.
-
-> [!div class="mx-imgBorder"]
-> ![The recurrence connecter in the flow.](./media/recurrance-flow.jpg)
-
-
-### I don't have a Twilio or Office 365 Exchange account. Are there other services I can use for messaging?
-
-Yes, you can use alterative SMS or email providers as long as they have connectors supported by Power Automate. Clone the existing email and SMS flows, remove the current connectors, and add desired connectors.ange the timing of reminder message?
-
-Reminder messages are triggered by a flow that runs daily at 10:00 AM UTC. Any bookings that fall into your reminder message time period that are not part of exclusion lists will receive a reminder message.
-
-To edit the reminder message:
-
-- Go to https://make.powerapps.com > **Solutions** and find the solution **Dynamics 365 Field Service PowerApps Portal – Flow**.
-- Edit the flow called **Create notification items for bookings**.
-- Find the location recurrence connector and edit the **Flow Recurrence** value to new desired time.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the recurrence connecter the the flow.](./media/recurrance-flow.jpg)
