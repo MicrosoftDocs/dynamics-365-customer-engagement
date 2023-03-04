@@ -35,9 +35,7 @@ The Power Pages portal site gets created in the background. This process can tak
 
 Admins can configure most customer portal settings directly in Field Service.
 
-1. In Field Service, open the **Settings** area. Under **Customer Portal**, select **Customer Portal** and open the settings record.
-
-1. Configure the following settings as needed.
+In Field Service, open the **Settings** area. Under **Customer Portal**, select **Customer Portal** and open the settings record.
 
 ### Configuration tab
 
@@ -69,7 +67,7 @@ Admins can configure most customer portal settings directly in Field Service.
 
 ### Display tab
 
-Use this tab to set basic design values for the portal. <!-- where in portal management can I change CSS as defined in the FS settings?---> The Advanced Display Configuration field contains the direct link to open [the Power pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
+Use this tab to set basic design values for the portal. <!-- where in portal management can I change CSS as defined in the FS settings? --> The Advanced Display Configuration field contains the direct link to open [the Power pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
 
 ### Self Scheduling (Preview) tab
 

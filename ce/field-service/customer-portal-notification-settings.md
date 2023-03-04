@@ -21,6 +21,8 @@ The portal uses Power Automate flows to trigger notifications for customers. Bef
 
 The Customer Portal settings in Field Service links directly to the default Power Automate flows for email and SMS.
 
+<!--can't repro these steps as I don't have flow quota in my trial env -->
+
 1. Access the flows by going to the [Power Apps Maker portal](https://make.powerapps.com) > **Solutions** > **Dynamics 365 Field Service PowerApps Portal – Flow**.
 1. Select **Objects** > **Cloud flows** to see the list of flows.
 1. *Field Service PowerApps Power Flow Email Notifications* and *Field Service PowerApps Power Flow SMS Notifications* flows are off by default. Configure the flows before turning them on.
@@ -34,35 +36,32 @@ After configuring your portal and enabling notifications, emails and SMS message
 
 The portal sends a notification for the following events:
 
-- **Booking Reminder**: Reminder messages are sent within seven days of the scheduled service time. This message includes the scheduled service time and a link to the portal with information about the booking. By default, reminders are sent daily at 10:00 AM UTC for any bookings in the time period. You can change this time by editing the **Create notification items for bookings** flow. <!--this seems wrong. the flow recurrence is set to 1 hour and I don't see a setting to change the time period (7 days)-->
+- **Upcoming Booking**: Reminder messages are sent seven days before the scheduled service time. This message includes the scheduled service time and a link to the portal with information about the booking. By default, reminders are sent daily at 10:00 AM UTC for any bookings in the time period. You can change this time by editing the **Create notification items for bookings** flow. <!--this seems wrong. the flow recurrence is set to 1 hour and I don't see a setting to change the time period (7 days)-->
 
-- **Technician Traveling**: Sent when the booking status is *Traveling*. This message communicates estimated time of arrival while considering traffic on expected route. This message links to your customer portal with a map, so your customer can see progress to your service location.
+- **Traveling**: Sent when the booking status changes to *Traveling*. This message communicates estimated time of arrival while considering traffic on the planned route. It links to the customer portal where your customer can see additional details.
 
-- **Booking Complete**: Sent when booking status is *Complete*. This message confirms work was completed, along with date and time of completion. 
+- **Booking Completed**: Sent when booking status changes to *Complete*. This message confirms work was completed, along with date and time of completion.
 
-- **Booking Rescheduled**: Sent when a scheduled service appointment changes by more than 10 minutes from previously scheduled start time.
+- **Booking Rescheduled**: Sent if a booking reminder was sent and the scheduled start time changes by more than 10 minutes.
 
-- **Booking Canceled**: When a scheduled service appointment is canceled.
+- **Booking Canceled**: Sent if a booking reminder was sent and a scheduled service appointment is canceled.
 
-> [!Note] 
-> Service rescheduling and service canceling messages are only sent if a reminder message had previously been sent.
+## View sent notifications
 
-> [!Note]
-> The booking confirmation notifications are relavent only to the [self-service scheduling](scheduling-self-customers.md) scenario, and are not avialable with the track my technician functionality.
+Notification settings provide a read-only view of all messages sent to customers. Find out which customers have received a message, the type of message, and the state of the message.
 
-### Notification settings
-
-Notification settings provide a read-only view of all messages sent to customers. Here you can see which customers have received a message, the type of message, and the state of the message.
+In Field Service, go to the **Settings** area. Under **Customer Portal**, select **Notifications** to view the list.
 
 > [!div class="mx-imgBorder"]
 > ![A list of active notifications in Field Service.](./media/07_FSSettings_notifications.jpg)
 
-> [!div class="mx-imgBorder"]
-> ![A detail page for a notification in Field Service.](./media/07a_FSSettings_notifications-details.jpg)
-
-### Booking notification codes
+## Configure booking notification codes
 
 With booking notification codes, Field Service admins can extend, expire, or block access to a portal link that has been shared with a customer.
+
+In Field Service, go to the **Settings** area. Under **Customer Portal**, select **Booking Notification Codes** to create and manage codes.
+
+<!-- I don't understand how that works and can't repro notifications. It's also very clunky to configure since I would need to create a share code first, then map this to a booking notification code. Who would do this manually? Need the team to provide details for this section. Also - who comes up with these long names? Isn't this essentially a token for a user session that is unique and valid for a given time? -->
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the list of active notifications, along with their codes.](./media/08_FSSettings_BookingNotifications.jpg)
