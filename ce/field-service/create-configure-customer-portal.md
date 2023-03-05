@@ -22,7 +22,7 @@ The following sections guide you through the setup process and provide helpful i
 
 <!-- TODO: What are user privilege prerequisites to create portal and customize it? -->
 
-1. Go to the [Power Aps Maker portal](http://make.powerapps.com).
+1. Go to the [Power Apps Maker portal](http://make.powerapps.com).
 
 1. Choose an environment with Dynamics 365 Field Service and select **Create**.
 
@@ -83,7 +83,7 @@ If you enabled the Self Scheduling (Preview) option, this tab lets you configure
 
 - **Maximum lead time for new bookings (days)**: Sets the maximum time, in days from today, during which the customer can schedule their booking.
 
-- **Enable Asset Selection**: When this option is enabled, the customer has the option to select a specific asset to associate with their account while they schedule their booking. <!--TODO: any asset in the asset list or only assets that are already linked to customer account?-->
+- **Enable Asset Selection**: When this option is enabled, the customer can select a specific asset to associate with their account while they schedule their booking. <!--TODO: any asset in the asset list or only assets that are already linked to customer account?-->
 
 - **Enable Additional Details**: Enables the options to submit extra text while scheduling the booking. The system saves the text as a note on the booking timeline.
 

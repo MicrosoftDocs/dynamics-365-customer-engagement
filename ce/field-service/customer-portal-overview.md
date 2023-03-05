@@ -27,7 +27,11 @@ You can only use the Power Pages website template for self-scheduling in combina
 
 <!-- TODO: add conceptual information of what happens in FS. Like create WO, booking, schedule resource etc. think of flow chart diagram. I tried to describe it but you need to validate for accuracy and extend where needed.-->
 
-Contacts of service accounts in Field Service can receive invites to sign up and create a profile on the portal. in the portal, they can choose from a list of customer assets and incident types to determine how long a service appointment takes. After selecting an available date and time, the can book their service request. The system creates a work order for the service request and schedule an available resource to complete the job. Available resources must match criteria like territory ot characteristics of the selected incident type, service account, and assets. Amongst all matching resources, the one with the shortest travel distance gets booked. Email notifications keep the customer up to date about the status of the booking. If a customer needs to reschedule the appointment or cancel it, they can do that directly on the portal. The system handles changes in the background to ensure the right resources gets there on time to complete the job.
+Contacts of service accounts in Field Service can receive invites to sign up and create a profile on the portal. In the portal, they can choose from a list of customer assets and incident types to determine how long a service appointment takes. After selecting an available date and time, the can book their service request.
+
+The system creates a work order for the service request and schedule an available resource to complete the job. Available resources must match criteria like territory or characteristics of the selected incident type, service account, and assets. Amongst all matching resources, the one with the shortest travel distance gets booked.
+
+Email notifications keep the customer up to date about the status of the booking. If a customer needs to reschedule the appointment or cancel it, they can do that directly on the portal. The system handles changes in the background to ensure the right resources gets there on time to complete the job.
 
 <!-- TODO: re-do videos with rebranded Power Pages UX and remove the ones we have for now? 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWO5EO]

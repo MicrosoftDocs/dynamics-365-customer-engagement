@@ -30,7 +30,7 @@ Provide your customers with automated service reminders and notifications that i
 
 ## Configure track my technician settings
 
-In Field Service, open the **Settings** area. Under **Customer Portal**, select **Customer Portal** and open the settings record. Turn the **Track My Technician** setting on. Then go to the **Track My Technician** tab on the customer portal settings to enable the following settings.
+In Field Service, open the **Settings** area. Under **Customer Portal**, select **Customer Portal** and open the settings record. Turn on the **Track My Technician** setting. Then go to the **Track My Technician** tab on the customer portal settings to enable the following settings.
 
 > [!div class="mx-imgBorder"]
 > ![Track my technician settings.](./media/TmT-GASettings.png)
@@ -45,7 +45,7 @@ In Field Service, open the **Settings** area. Under **Customer Portal**, select 
 
 ## Test the experience as a customer
 
-To review and test changes, we recommend setting up an account and contact as if you were one of your customers. This procedure also lets you test rescheduling and cancellations of a booking through the portal.
+To review and test changes, set up an account and contact as if you were one of your customers. This procedure also lets you test rescheduling and cancellations of a booking through the portal.
 
 1. Create a test account in Field Service with an address local to your area.
 2. Create a test contact in Field Service with an email address and mobile phone number.
@@ -54,5 +54,5 @@ To review and test changes, we recommend setting up an account and contact as if
 5. Create a booking for the work order, and set the status to *Scheduled*. Set the start date within the range of the booking reminder notification.
 6. Assign a resource to the booking. The resource needs access to the Field Service mobile app and have location sharing enabled.
 7. After saving the booking, you should receive an email and/or SMS notification to the email address and phone number of the test contact. Follow the link the notification to review the portal, and you'll find a map showing the location of the service account.
-8. Change the booking status to *Traveling*. You will receive a second email or SMS notification. This notification includes a map showing the current location of the technician and their estimated arrival time to the service account location.
+8. Change the booking status to *Traveling*. You'll receive a second email or SMS notification. This notification includes a map showing the current location of the technician and their estimated arrival time to the service account location.
 9. Finally, change the booking status to *Complete*, which will trigger the booking complete notification.

@@ -23,7 +23,7 @@ The portal uses Power Automate flows to trigger notifications for customers. Bef
 
 ## Configure email and SMS connectors in Power Automate
 
-The Customer Portal settings in Field Service links directly to the default Power Automate flows for email and SMS.
+The Customer Portal settings in Field Service link directly to the default Power Automate flows for email and SMS.
 
 <!--TODO: can't repro these steps as I don't have flow quota in my trial env -->
 
@@ -31,7 +31,7 @@ The Customer Portal settings in Field Service links directly to the default Powe
 1. Select **Objects** > **Cloud flows** to see the list of flows.
 1. *Field Service PowerApps Power Flow Email Notifications* and *Field Service PowerApps Power Flow SMS Notifications* flows are off by default. Configure the flows before turning them on.
 1. Select and open the flow you want to configure. On the flow, select **Save as** and create a copy of the default flow.
-1. Open the flow you just created and select **Edit**. Authenticate or update the connections and **Save** the flow.
+1. Open the flow you created and select **Edit**. Authenticate or update the connections and **Save** the flow.
 1. Then, select **Turn on** to enable the flow.
 
 ## Manually send an invite to a contact
@@ -42,19 +42,19 @@ On a Field Service contact record, you can manually generate a portal invite cod
 
 To set the required role:
 
-1. On the the contact record, select **Related** > **Web Roles**.
+1. On the contact record, select **Related** > **Web Roles**.
 1. Select **Add Existing Web Role** and choose the **Web API User** role.
 1. Select **Add** and save the changes.
 
 ## List of notifications
 
-After configuring your portal and enabling notifications, emails and SMS messages will be sent to the contact associated to the resulting work orders. You can [customize some aspects for the portal](create-configure-customer-portal.md#customize-the-portal-design), which also apply to the notifications.
+After configuring your portal and enabling notifications, emails and SMS messages will be sent to the customer contact. You can [customize some aspects for the portal](create-configure-customer-portal.md#customize-the-portal-design), which also apply to the notifications.
 
 The portal sends a notification for the following events:
 <!--TODO: this seems wrong. the flow recurrence is set to 1 hour and I don't see a setting to change the time period (7 days)-->
 - **Upcoming Booking**: Reminder messages are sent seven days before the scheduled service time. This message includes the scheduled service time and a link to the portal with information about the booking. By default, reminders are sent daily at 10:00 AM UTC for any bookings in the time period. You can change this time by editing the **Create notification items for bookings** flow.
 
-- **Traveling**: Sent when the booking status changes to *Traveling*. This message communicates estimated time of arrival while considering traffic on the planned route. It links to the customer portal where your customer can see additional details.
+- **Traveling**: Sent when the booking status changes to *Traveling*. This message communicates estimated time of arrival while considering traffic on the planned route. It links to the customer portal where your customer can see more details.
 
 - **Booking Completed**: Sent when booking status changes to *Complete*. This message confirms work was completed, along with date and time of completion.
 
@@ -88,7 +88,7 @@ In Field Service, go to the **Settings** area. Under **Customer Portal**, select
 ## Advanced user notifications
 
 <!-- TODO: do we need to keep that info? please review and update steps if so.-->
-1. ### While testing, I deleted and and readded my contact to an account but I don't receive an new self-scheduling invite email. Why not? 
+1. ### While testing, I deleted and readded my contact to an account but I don't receive a new self-scheduling invite email. Why not? 
 
 A contact with a matching email will only receive the portal invite once, even if the contact is deleted and readded to the system. You can work around this with the following steps:
 
@@ -102,7 +102,7 @@ A contact with a matching email will only receive the portal invite once, even i
  
 From the portal side: 
 
-1. Open your self-scheduling portal and go to the signin screen. 
+1. Open your self-scheduling portal and go to the sign-in screen. 
 2. Select **Redeem invitation**.
 3. Use the invite code to create a portal account.
 
