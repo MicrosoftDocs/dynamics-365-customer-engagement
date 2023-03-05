@@ -1,10 +1,10 @@
 ---
-title: Enable self-scheduling service appointments in Dynamics 365 Field Service (contains video) | MicrosoftDocs
-description: Learn how to allow customers to schedule work orders via a customer portal in Dynamics 365 Field Service
-ms.date: 09/07/2021
-ms.topic: article
-author: Deana-Fuller
-ms.author: drfuller
+title: Create and configure the Field Service Portal (preview)
+description: Set up and configure the self-scheduling portal for Field Service.
+ms.date: 03/05/2023
+ms.topic: how-to
+author: m-hartmann
+ms.author: mhart
 search.app:
   - D365CE
   - D365FS
@@ -12,11 +12,15 @@ search.app:
 
 # Create and configure the Field Service Portal (preview)
 
+> [!IMPORTANT]
+> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446).
+
 The following sections guide you through the setup process and provide helpful information to configure the portal template.
 
 ## Create the Field Service customer experiences portal
 
-<!-- user privilege prerequisites to create portal and customize it? -->
+<!-- TODO: What are user privilege prerequisites to create portal and customize it? -->
 
 1. Go to the [Power Aps Maker portal](http://make.powerapps.com).
 
@@ -67,7 +71,7 @@ In Field Service, open the **Settings** area. Under **Customer Portal**, select 
 
 ### Display tab
 
-Use this tab to set basic design values for the portal. <!-- where in portal management can I change CSS as defined in the FS settings? --> The Advanced Display Configuration field contains the direct link to open [the Power pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
+Use this tab to set basic design values for the portal. <!-- TODO: where in portal management can I change CSS as defined in the FS settings? --> The Advanced Display Configuration field contains the direct link to open [the Power pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
 
 ### Self Scheduling (Preview) tab
 
@@ -79,7 +83,7 @@ If you enabled the Self Scheduling (Preview) option, this tab lets you configure
 
 - **Maximum lead time for new bookings (days)**: Sets the maximum time, in days from today, during which the customer can schedule their booking.
 
-- **Enable Asset Selection**: When this option is enabled, the customer has the option to select a specific asset to associate with their account while they schedule their booking. <!--any asset in the asset list or only assets that are already linked to customer account?-->
+- **Enable Asset Selection**: When this option is enabled, the customer has the option to select a specific asset to associate with their account while they schedule their booking. <!--TODO: any asset in the asset list or only assets that are already linked to customer account?-->
 
 - **Enable Additional Details**: Enables the options to submit extra text while scheduling the booking. The system saves the text as a note on the booking timeline.
 
@@ -88,7 +92,7 @@ If you enabled the Self Scheduling (Preview) option, this tab lets you configure
 - **Include Resource with maximum travel radius**: The maximum radius from the scheduled location in which a resource can be scheduled.
 
 > [!NOTE]
-> The travel radius are shared settings with the [schedule board in Field Service](configure-schedule-board.md). Changing the value on one will change the value for the other.
+> The travel radius settings are shared with the [schedule board in Field Service](configure-schedule-board.md). Changing the value on one will change the value for the other.
 
 ## Configure incident types for the portal
 
@@ -110,8 +114,6 @@ More information: [Overview of authentication in Power Apps portals](/powerapps/
 
 > [!div class="mx-imgBorder"]
 > ![List of identity providers in Power Apps.](./media/SS_Authentication.png)
-
-<!-- maybe create a separate article for design?-->
 
 ## Customize the portal design
 

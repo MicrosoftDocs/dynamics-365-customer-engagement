@@ -1,16 +1,16 @@
 ---
-title: Enable self-scheduling service appointments in Dynamics 365 Field Service (contains video) | MicrosoftDocs
-description: Learn how to allow customers to schedule work orders via a customer portal in Dynamics 365 Field Service
-ms.date: 09/07/2021
-ms.topic: article
-author: Deana-Fuller
-ms.author: drfuller
+title: Self-scheduling portal for Dynamics 365 Field Service overview (preview)
+description: Understand how the self-scheduling portal work and how to get started with it.
+ms.date: 03/05/2023
+ms.topic: overview
+author: m-hartmann
+ms.author: mhart
 search.app:
   - D365CE
   - D365FS
 ---
 
-# Let your customers self-schedule service appointments (preview)
+# Self-scheduling portal for Dynamics 365 Field Service overview (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
@@ -21,17 +21,21 @@ search.app:
 
 Dynamics 365 Field Service self-service scheduling capabilities provide your customers the flexibility to schedule service appointments at their discretion.
 
-Connect your Field Service environment seamlessly with a Power Pages website template. Creating the website only takes a few minutes. A fully customizable website provides a one-stop destination for your end customers with self-service capabilities. Your customers can book new appointments, manage existing appointments, provide feedback about completed work, and track the dispatched technician.
-
-<!-- add conceptual information of what happens in FS. Like create WO, booking, scheule resource etc. think of flow chart diagram-->
+Connect your Field Service environment seamlessly with a Power Pages website template. Creating the website only takes a few minutes. A customizable website provides a one-stop destination for your end customers with self-service capabilities. Your customers can book new appointments, manage existing appointments, provide feedback about completed work, and track the dispatched technician.
 
 You can only use the Power Pages website template for self-scheduling in combination with a Field Service license. The self-service portals maps to a single Field Service environment. So you can have multiple portals if you have multiple environments where Field Service runs on.
 
-<!-- re-do videos with rebranded Power Pages UX
+<!-- TODO: add conceptual information of what happens in FS. Like create WO, booking, schedule resource etc. think of flow chart diagram. I tried to describe it but you need to validate for accuracy and extend where needed.-->
+
+Contacts of service accounts in Field Service can receive invites to sign up and create a profile on the portal. in the portal, they can choose from a list of customer assets and incident types to determine how long a service appointment takes. After selecting an available date and time, the can book their service request. The system creates a work order for the service request and schedule an available resource to complete the job. Available resources must match criteria like territory ot characteristics of the selected incident type, service account, and assets. Amongst all matching resources, the one with the shortest travel distance gets booked. Email notifications keep the customer up to date about the status of the booking. If a customer needs to reschedule the appointment or cancel it, they can do that directly on the portal. The system handles changes in the background to ensure the right resources gets there on time to complete the job.
+
+<!-- TODO: re-do videos with rebranded Power Pages UX and remove the ones we have for now? 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWO5EO]
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NIiw]
 -->
+
+
 
 ## Get started with self-schedule capabilities
 
@@ -44,9 +48,13 @@ Before inviting your customer to self-schedule service appointments, review the 
 
 ## Known limitations
 
-The website template for self-scheduling doesn't integrate with other Power Pages websites. It only works on its own.
+- The website template for self-scheduling doesn't integrate with other Power Pages websites. It only works on its own.
 
-The capability supports all languages except Arabic and Hebrew.
+- Scheduling only works user resources.
+
+- Self-scheduling doesn't support incident types that require crews or requirements with multiple resources.
+
+- The capability supports all languages except Arabic and Hebrew.
 
 ## Next steps
 
