@@ -1,7 +1,7 @@
 ---
 title: "Enable case grids for agents| MicrosoftDocs"
 description: "Learn how you can enable case grids and increase agent productivity."
-ms.date: 02/15/2023
+ms.date: 03/06/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
