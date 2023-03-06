@@ -238,6 +238,8 @@
           href: real-time-marketing-email.md
         - name: "Preview: Use AI to kickstart email creation with content ideas"
           href: content-ideas.md
+        - name: "Preview: Send emails without building a journey"
+          href: email-without-journey.md
         - name: Use brand profiles in real-time marketing email
           href: brand-profiles-email.md
       - name: "Preview: Real-time marketing forms"
@@ -306,6 +308,8 @@
           href: real-time-marketing-personalize-triggers.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
+        - name: Customize the journey designer in real-time Marketing
+          href: real-time-marketing-journey-designer.md
     - name: Analytics
       items:
       - name: Access and interpret analytics
@@ -358,6 +362,12 @@
         href: manage-sms-keywords.md
       - name: Install add-ons
         href: add-ons.md
+      - name: Business units 
+        items:
+        - name: "Preview: Business unit support in real-time marketing"
+          href: real-time-marketing-business-units.md
+        - name: Support for modernized business units 
+          href: real-time-marketing-modernized-business-units.md
     - name: Developer
       items: 
       - name: Manually add a custom channel
@@ -406,6 +416,8 @@
         href: organize-daily-work.md
       - name: Manage customer information
         href: manage-customer-information.md
+      - name: Business unit support in outbound marketing
+        href: business-units-support-outbound-marketing.md
       - name: Access a Dynamics 365 Marketing trial from Microsoft Teams
         href: teams-journey.md
       - name: Sales and marketing collaboration with Dynamics 365
