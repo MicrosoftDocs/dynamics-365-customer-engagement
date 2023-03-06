@@ -145,8 +145,6 @@ items:
       href: set-up-bookable-resource-categories.md
     - name: Characteristics
       href: set-up-characteristics.md
-    - name: Send technician arrival time and current map location
-      href: reminders-arrival-time.md
     - name: Resource pay types
       href: set-up-resource-pay-types.md
     - name: Submit and approve time-off requests

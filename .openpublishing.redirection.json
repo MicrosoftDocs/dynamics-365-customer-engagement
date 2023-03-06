@@ -24679,6 +24679,21 @@
       "source_path": "ce/field-service/upgrade-field-service.md",
       "redirect_url": "/dynamics365/field-service/update-field-service",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/scheduling-self-customers.md",
+      "redirect_url": "/dynamics365/field-service/customer-portal-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-portal-homepage.md",
+      "redirect_url": "/dynamics365/field-service/customer-portal-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/reminders-arrival-time.md",
+      "redirect_url": "/dynamics365/field-service/customer-portal-overview",
+      "redirect_document_id": "false"
     }
   ]
 }
