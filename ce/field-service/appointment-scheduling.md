@@ -46,12 +46,7 @@ There are several ways to create Dataverse appointments. For example:
 
 ## View appointments on the schedule board
 
-Appointments on the schedule board are read-only and you can't move them. They show for all required attendees and the owner, if they're bookable resources.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board with appointments.](./media/Appointment05-ScheduleBoard.png)
-
-Hover over an appointment to see more details. You can also open the legend to see the colors for the appointment status.
+Appointments on the schedule board are read-only and you can't move them. They show for all required attendees and the owner, if they're bookable resources. Hover over an appointment to see more details. You can also open the legend to see the colors for the appointment status.
 
 > [!NOTE]
 > Appointments that are marked *Private* in Outlook and synced to Dynamics 365 won't show their subject on the schedule board.
