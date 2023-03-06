@@ -1,16 +1,16 @@
 
 Requirements can be scheduled across multiple days and weeks. Dispatchers can schedule multi-day work in between existing bookings, by double-booking existing schedules, or as a continuous block of time.
 
-When scheduling multi-day requirements, dispatchers can choose an [allocation method](/dynamics365/project-operations/psa/FAQ-allocation-methods) that defines how to split the duration over multiple days.
-
 > [!TIP]
 > If the work you wish to schedule spans multiple weeks or has dependencies on previous steps and milestones, consider using [Dynamics 365 Project Service with Gantt chart functionality](/dynamics365/project-operations/psa/schedule-project-work-breakdown-structure).
 
 ## Schedule a multi-day requirement manually on the schedule board
 
+Manually scheduling a multi-day requirement on the schedule board allows you to choose the allocation method to determine the breakdown of the bookings created when scheduling. If you are using requirement details to define the allocation method, manually scheduling the requirement will ignore them. Use the [schedule assistant](#schedule-a-multi-day-requirement-with-the-schedule-assistant) instead.
+
 1. Open the schedule board on the hourly view and select a multi-day requirement in the requirements pane.
 
-1. Then, select a resource on the board for which you would like to schedule the multi-day work order requirement and select **Book**.
+2. Then, select a resource on the board for which you would like to schedule the multi-day work order requirement and select **Book**.
 
     <!--needs better screenshots across article-->
 
@@ -19,7 +19,7 @@ When scheduling multi-day requirements, dispatchers can choose an [allocation me
     > [!CAUTION]
     > Don't drag and drop multi-day requirement to a resource on the hourly board view. It will create a long continuous booking through non-working hours.
 
-1. In the **Create Booking** pane, review and update the values as needed. Choose the **Booking Method** to define how to spread the requirement over multiple days.
+3. In the **Create Booking** pane, review and update the values as needed. Choose the **Booking Method** to define how to spread the requirement over multiple days.
 
     - Full Capacity: Books the resource’s full capacity for the specified from and to dates without regard to the resource's remaining capacity or the duration of the requirement.
     - Remaining Capacity: Books the resource’s available capacity within the specified date range.
@@ -31,7 +31,7 @@ When scheduling multi-day requirements, dispatchers can choose an [allocation me
     > [!NOTE]
     > Full Capacity, Percentage Capacity, Evenly Distribute Hours, and Fixed time can lead to overbooking.
 
-1. Select **Book** and the system creates multiple bookings across multiple days.
+4. Select **Book** and the system creates multiple bookings across multiple days.
 
 ## Schedule a multi-day requirement with the schedule assistant
 

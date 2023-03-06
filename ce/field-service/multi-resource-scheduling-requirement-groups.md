@@ -24,7 +24,7 @@ Requirement group templates are designed to work with [incident types](configure
 1. Select an incident type, open the Related > Requirement Groups tab, and Select **New Incident Type Requirement Group**.
 
    > [!NOTE]
-   > Incident types with characteristics can't relate to requirement group templates.
+   > Incident types with characteristics can't relate to requirement group templates. Associate the characteristics with requirements in the group instead.
 
 1. Enter a **Name** and choose a **Requirement Group Template** to associate the template with the incident type.
 

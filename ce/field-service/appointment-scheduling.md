@@ -14,20 +14,11 @@ search.app:
 
 Organizations often use appointments in Dynamics 365 applications. Typical examples are a salesperson using appointments to meet with potential customers or a customer service rep creating a service appointment to help a customer with an issue. Other examples may include organizations creating appointments because of integrations with other systems.
 
-You can use the schedule board in Field Service to show [Dynamics 365 Appointments](/dynamics365/customer-engagement/web-api/appointment) alongside bookings. Include appointments on the schedule board and during the scheduling process so dispatchers see the availability.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board with appointments.](./media/Appointment05-ScheduleBoard.png)
-
-For a guided walkthrough, check out the following video.
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWEhqZ]
-
-## Enable appointments
-
-An admin needs to enable the feature for all resources on the environment. However, they can disable it for individual resources.
+You can use the schedule board to show [Dynamics 365 Appointments](/dynamics365/customer-engagement/web-api/appointment) alongside bookings. Include appointments on the schedule board and during the scheduling process so dispatchers see the availability.
 
 ### Environment setting
+
+This setting will enable appointment scheduling for all resources in your organization.
 
 1. Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameters** and set **Include Appointments** to *Yes*.
 
@@ -36,11 +27,9 @@ An admin needs to enable the feature for all resources on the environment. Howev
 
 1. In the dialog box, select **Got it. Let’s enable.** Then **Save & Close**.
 
-The system enables all resources automatically when you enable the feature the first time.
-
 ### Resource setting
 
-After including appointments on the environment-level, you can change the setting for individual resources.
+After enabling appointments on the environment-level, you can change the setting for individual resources.
 
 Open a bookable resource form and update the value for **Include Appointments**.
 
@@ -69,7 +58,7 @@ Hover over an appointment to see more details. You can also open the legend to s
 
 ### Customize appointment colors on the schedule board
 
-The new schedule board uses the colors defined in [Dataverse appointment](/dynamics365/customer-engagement/web-api/appointment) metadata. Customizing the **Color** metadata of each of the **StatusCode** option set values will change the appointment colors that show on the new schedule board.  
+The schedule board uses colors defined in [Dataverse appointment](/dynamics365/customer-engagement/web-api/appointment) metadata. Customizing the **Color** of each **StatusCode** will change the appointment colors that show on the schedule board.  
 
 ### Hide canceled appointments on the schedule board
 
@@ -79,16 +68,8 @@ The **Show canceled** setting in **Board view settings** controls the visibility
 
 ## Automatically schedule around appointments
 
-<!-- unsure about this section. should be part of RSO docs and linked from here probably -->
+[Resource Scheduling Optimization](rso-overview.md) respects appointments when a planned optimization schedule runs, and for ad-hoc optimizations from the schedule board. The system considers appointments with statuses *Busy* and *Completed* as unavailable for scheduling operations.
 
-To schedule bookings around appointments, consider using the [Resource Scheduling Optimization add-in](rso-overview.md).
-
-Resource Scheduling Optimization respects appointments when a planned optimization schedule runs. And for ad-hoc optimizations from the schedule board. To optimize a schedule ad-hoc, right-click a resource and select **Optimize Schedule** or use the **Suggest resources (Preview)** and **Book resources (Preview)** options after selecting a requirement.
-
-The system considers appointments with statuses *Busy* and *Completed* as unavailable for scheduling operations.
-
-Scheduling operations consider appointments as location-agnostic.
-
-If an appointment had related bookings, the system hides those bookings and won't consider them for scheduling operations.
+Automated and assisted scheduling operations consider appointments as location-agnostic. If an appointment had related bookings, the system hides those bookings and won't consider them for scheduling operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

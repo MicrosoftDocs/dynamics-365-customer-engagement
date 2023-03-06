@@ -3,8 +3,8 @@ title: Set up booking statuses
 description: Learn how to set up booking statuses in Dynamics 365 Field Service.
 ms.date: 02/22/2023
 ms.topic: article
-author: ryanchen8
-ms.author: chenryan
+author: clearab
+ms.author: anclear
 search.app: 
   - D365CE
   - D365FS

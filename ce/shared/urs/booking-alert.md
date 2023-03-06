@@ -5,15 +5,13 @@ Dispatchers need to be aware of important updates and status changes to ensure a
 > [!div class="mx-imgBorder"]
 > ![Screenshot of full schedule board showing booking alert.](../../field-service/media/scheduling-booking-alert-schedule-board.png)
 
-Though the goal of a modern business application is to introduce automation for routine tasks, booking alerts can help remind dispatchers to perform the remaining manual processes - or notify them of automated processes that have taken place.
-
 ## Create a booking alert
 
-A dispatcher can create an alert to set up a reminder.
+Booking alerts are often created through automation - either a flow, plugin or through an integration with an external system. They can also be manually created from the schedule board.
 
 1. Open the schedule board, select the **Actions** and choose **New Booking Alert**.
 
-1. On the **Booking Alert** form, enter **Subject** and **Description** to define the message that appears on the alert.
+2. On the **Booking Alert** form, enter **Subject** and **Description** to define the message that appears on the alert.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of booking alert.](../../field-service/media/booking-alert.png)
@@ -28,13 +26,10 @@ You can edit the fields inside a booking alert by editing the **Booking Alert Te
 
 ## View the booking alert
 
-Once the due date is reached and the alert appears on the schedule board side pane, assignees can dismiss or snooze the active alert.
+Once the due date is reached and the alert appears on the schedule board side pane, assignees can dismiss or snooze the active alert. Selecting the snooze option will dismiss the alert for a configurable amount of time.
 
 Alerts for **Bookable Resource Bookings** also show in the schedule board alongside a booking time slot.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Booking alert on the schedule board.](../../field-service/media/booking-alert-on-the-schedule-board.png)
-
 The icon indicates the number of active alerts for that booking. Select the number to show the alerts. **Snooze** or **Dismiss** them as needed.
 
-By creating the booking alert, the system automatically creates one *Booking Alert Status* record for every assignee so every user can snooze or dismiss alerts individually.When deleting records, keep the relationship *Booking – Booking Alert – Booking Alert Status* in mind.
+By creating the booking alert, the system automatically creates one *Booking Alert Status* record for every assignee so every user can snooze or dismiss alerts individually. When deleting records, keep the relationship *Booking > Booking Alert > Booking Alert Status* in mind.

@@ -9,6 +9,9 @@ Utilization is the amount of time a dispatcher schedules a resource to work. The
 
 ## Calculate resource utilization
 
+> [!Note]
+> Resource capacity and requirement effort are not considered in utilization calculations.
+
 Utilization percentage derives from **Total Booked Hours** divided by **Total Working Hours** in the selected date range.
 
 Formula: ((Total booked hours  in date range)/(Total working hours x days in date range)) x 100

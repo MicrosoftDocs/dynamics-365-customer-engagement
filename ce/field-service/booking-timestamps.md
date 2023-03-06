@@ -90,11 +90,9 @@ Based on these time stamps, the system creates the corresponding booking journal
 |         In Progress (1:00 PM - 3:00 PM)                           |            120 minutes  |            Working Hours        |
 |         Exceeded working hours of resource (3:00 PM - 4:00 PM)    |            60 minutes   |            Overtime             |
 
-Use these journals to bill the customer based on negotiated contracts.
-
 ## View booking journals
 
-To view booking journals, open a bookable resource booking and select **Related** > **Booking Journals**.
+To view booking journals, open a bookable resource booking record and select **Related** > **Booking Journals**.
 
 ## Next steps
 

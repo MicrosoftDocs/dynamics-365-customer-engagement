@@ -16,13 +16,13 @@ search.app:
 
 This article describes how Dynamics 365 Field Service uses [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
-Field service organizations often book field technicians to complete work orders. Efficiently schedule resources for requirements helps reduce travel time and costs.
+Field service organizations often book technicians to complete work orders. Efficiently scheduling resources to requirements helps reduce travel time and costs.
 
 ## Universal Resource Scheduling and Field Service work orders
 
 When [installing Field Service](install-field-service.md), Universal Resource Scheduling gets added automatically.
 
-Work orders and related entities are a part of Field Service and work seamlessly with resources and requirements of Universal Resource Scheduling.
+Work orders and related entities are a part of Field Service and work seamlessly with resources, requirements and bookings of Universal Resource Scheduling.
 
 In other words, Field Service defines **what** needs to be done and **where**, while Universal Resource Scheduling defines **who** can perform the work and **when**.
 
@@ -39,10 +39,9 @@ Requirements inherit attributes from the work order, such as name, location, dur
 
 ## Book a resource for a requirement
 <!-- This section ideally links articles that explain the book options for FS. RSO should have its own article about booking -->
-After a work order and related requirement are ready to be scheduled, Universal Resource Scheduling scheduling tools can be used to **book** the requirement to the most appropriate resource.
+After a work order and related requirement are ready to be scheduled, Universal Resource Scheduling can be used to **book** the requirement to the most appropriate resource.
 
-After a work order requirement is booked, a bookable resource booking record is created documenting the resource, travel time, and start/end time. The booking relates to both the work order and requirement.
-
+Booking a requirement related to a work order creates a bookable resource booking record that keeps track of which resource will perform the work, the status of the booking, travel time, and start/end times.
 
  <!--
 ### Book from the work order
@@ -80,15 +79,13 @@ Resource Scheduling Optimization can automatically schedule work order requireme
 
 Learn about the scheduling roles that are common in a typical field service organization.
 
-## Dispatcher or scheduler
+### Dispatcher or scheduler
 
-The dispatcher or scheduler matches requirements with the right resources to create bookings. Common job titles for this role include service managers, customer service reps, or traditional dispatchers.
-
-Scheduler responsibilities can range between manually assigning all requirements, having the system automatically schedule all requirements and simply managing exceptions, or somewhere in between.
+The dispatcher or scheduler matches requirements with the right resources to create bookings. Common job titles for this role include service managers, customer service reps, or traditional dispatchers. Their responsibilities can range between manually assigning all requirements, having the system automatically schedule all requirements and simply managing exceptions, or somewhere in between.
 
 Even with a high level of automation, schedulers often manage exceptions and help ensure optimization and automation meet business objectives.
 
-## Scheduling analyst
+### Scheduling analyst
 
 The scheduling analyst is an emerging role as organizations adopt advanced scheduling functions like optimization, automated scheduling, and analytics. The ideal scheduling analyst has a healthy mix of scheduling, analytics, and optimization knowledge.
 
@@ -108,7 +105,7 @@ Manual scheduling wih the schedule board works especially well for emergency wor
 
 The schedule assistant uses requirement details to recommend times and resources for bookings. A dispatcher then chooses the best option for the booking and assigns the requirement.
 
-You can launch the schedule assistant from work orders, requirements, or directly on the schedule board. Similar to the schedule board, it's customizable and you can also use it on other forms as needed.
+You can launch the schedule assistant from the **Book** button on the ribbon from work orders, requirements, and also directly on the schedule board. Similar to the schedule board, it's customizable and you can also use it on other forms as needed.
 
 ### Automated scheduling with the Resource Scheduling Optimization add-in
 

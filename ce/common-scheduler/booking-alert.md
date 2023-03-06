@@ -5,8 +5,8 @@ ms.date: 02/14/2023
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: how-to
-author: m-hartmann 
-ms.author: mhart 
+author: clearab 
+ms.author: anclear
 search.app: 
   - D365CE
   - D365FS

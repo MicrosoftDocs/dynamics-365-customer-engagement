@@ -188,7 +188,7 @@ items:
         href: schedule-with-travel-time.md
       - name: Time constraints
         href: schedule-time-constraints.md
-      - name: Resource preferences
+      - name: Preferred resources
         href: resource-preferences.md
       - name: Quick scheduling
         href: quick-scheduling.md

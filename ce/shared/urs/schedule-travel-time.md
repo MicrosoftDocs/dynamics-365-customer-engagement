@@ -18,7 +18,7 @@ After scheduling a requirement to a resource, the booking appears on the schedul
 
 To show travel time and working time as one block instead of separately, turn off **Show travel duration** in the board view settings.
 
-As field technicians drive to the customer location, they update the booking status to indicate they're traveling. The system tracks the actual travel duration for invoicing based on that status.
+As field technicians drive to the customer location, they can update the booking status to indicate they're traveling. The system tracks the actual travel duration for invoicing based on that status.
 
 When field technicians arrive, they update the booking status to indicate work has started. The system tracks the duration in this status and updates the booking when the technician completes the work.
 

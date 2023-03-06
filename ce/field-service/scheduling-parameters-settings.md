@@ -18,8 +18,18 @@ In Dynamics 365 Field Service, open the **Resources** area. Under **Administrati
 
 | Options | Descriptions |
 | --- | --- |
-|  Default radius value    |   Select a default radius the schedule assistant will use when searching for resources for  work orders. For example, if you choose a 20-mile radius, then the schedule assistant will find resources within 20 miles of the work order  booking location.   |
-|  Default radius unit     |    Select miles or kilometers.      |
+| Schedule board refresh interval | Defines how often the schedule board will refresh. |
+| Auto update booking travel | Enable or disable automatic updates to travel time and distance on the hourly view of the schedule board. |
+| Include Appointments | Enable [tracking of appointments for resources](./appointment-scheduling.md) on the schedule board. |
+| Disable sanitizing HTML templates | Disables sanitizing of custom [HTML template for bookings](./booking-template.md). May cause the schedule board to not load or behavior unexpectedly if invalid HTML templates are used. |
+| Connect to Maps | Determines if a [mapping service](./field-service-maps-address-locations.md) will be used to calculate travel and display maps. |
+
+## Schedule assistant
+
+| Options | Descriptions |
+| --- | --- |
+| Default radius value    |   Select a default radius the schedule assistant will use when searching for resources for  work orders. For example, if you choose a 20-mile radius, then the schedule assistant will find resources within 20 miles of the work order  booking location.   |
+| Default radius unit     |    Select miles or kilometers.      |
 
 ## Geo data
 

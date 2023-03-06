@@ -40,14 +40,11 @@ Add members to a pool through the bookable resource group entity.
 
 1. On a resource pool record, go to **Related** > **Resource's Children**.
 
-1. Select **Add New Bookable Resource Group** and enter a **Name** for the resource. Choose a **Child Resource** and set a date range for the pool membership.
-
-> [!TIP]
-> Resources can't operate as part of a pool and independently at the same time. Hence, pool membership limits the scheduling options for a resource. If all pool members are booked in a time slot, the pool won't show as available for that time slot.
+1. Select **Add New Bookable Resource Group** and enter a **Name** for the resource. Choose a **Child Resource** and set a date range for the pool membership. Crews and other pools cannot be made a child of a pool.
 
 ## Book a pool with the schedule assistant
 
-1. Select **Book** at on a requirement form to open the schedule assistant.
+1. Select **Book** on a requirement form to open the schedule assistant.
 
 1. The schedule assistant can return the pool and individual pool members based on the configuration of the requirement.
 
@@ -80,3 +77,16 @@ There are three ways to change a booking assignment:
 1. **Rebook**: Right-click a pool booking and select **Rebook**. Edit the filter criteria to no longer search for pools, but to search for Contact, User, and Account type resources.
 
 The duration resets to the default booking duration. Edit the end time to match the original duration. Then, cancel the original pool booking.
+
+## Additional notes
+
+- **Location of Pool Members**: If a resource is the child of a pool through a bookable resource groups (bookableresourcegroup) record, the location of the child resource is taken from the pool. Additionally, if a resource pool is related to a facility or facility pool resource through bookable resource association (msdyn_bookableresourceassociation), the location is taken from the facility or facility pool.
+
+- When a pool resource has **Derive Capacity from Group Members** set to **Yes**, the pool's total capacity for a given time slot is affected by: 
+  - The number of pool members.
+  - The dates the pool members are part of the pool.
+  - The working hours of the pool members.
+
+- Resources that are a member of the pool will not show as available in the schedule assistant if the pool is fully booked for the time period, even if the individual resource is not booked for the period.
+
+- Pool resources will not show as available in the schedule assistant unless at least one child resource of the pool is available during the time period.

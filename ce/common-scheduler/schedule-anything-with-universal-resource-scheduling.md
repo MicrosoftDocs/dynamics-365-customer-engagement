@@ -21,7 +21,7 @@ Universal Resource Scheduling is a Dynamics 365 solution that allows organizatio
   
 - Dynamics 365 Field Service: [Schedule and assign work orders to the closest field technicians in the area](../field-service/universal-resource-scheduling-for-field-service.md).
 
-- Dynamics 365 Customer Service: Book cases to customer service reps in the right department and time zone.
+- Dynamics 365 Customer Service: [Book cases to customer service reps in the right department and time zone](/dynamics365/customer-service/basics-service-service-scheduling).
 
 - Dynamics 365 Project Operations: [Staff projects with consultants who have availability and the appropriate skill set](/dynamics365/project-operations/psa/overview).
 
@@ -35,9 +35,9 @@ Universal Resource Scheduling is a Dynamics 365 solution that allows organizatio
   
 - User credentials with the Universal Resource Scheduling security role, in order to manage the solution once it has been deployed.
   
-## Enable scheduling for an entity
+## Enable scheduling for another entity
 
-When scheduling is enabled for an entity, the system creates a resource requirement record for the entity. This way, when you create a resource requirement, the system automatically checks which entity the resource requirement is for. 
+You can also enable scheduling for another entity, including custom entities. Once enabled, the system creates a resource requirement record related to the entity. This way, when you create a resource requirement, the system automatically checks which entity the resource requirement is for.
 
 For more information, see [Enable an entity for scheduling in Universal Resource Scheduling](schedule-new-entity.md).
   

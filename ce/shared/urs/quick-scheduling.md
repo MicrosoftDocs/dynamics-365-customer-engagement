@@ -11,7 +11,10 @@ Without leaving a record, use a scheduling pane to see available booking time sl
 
 - An admin [enabled the quick book setting in the booking setup metadata](../../field-service/schedule-new-entity.md). If the setting is disabled, booking controls [launch the schedule assistant](../../field-service/schedule-assistant.md) instead.
 
-- If your organization uses only requirements for scheduling, enable quick book for the **Default Metadata Settings (none)** option.
+- Quick scheduling is enabled or disabled for each entity that is enabled for scheduling. For example, you can enable quick scheduling for work orders, while still using the full schedule assistant for projects. For requirements with no parent entity, use the **Default Metadata Settings (none)* option.
+
+>[!CAUTION]
+> Quick Scheduling does not support fulfillment preferences with time groups.
 
 ## Quickly book a job
 
@@ -41,3 +44,9 @@ There are a few basic filters for the quick book pane.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the quick book pane, including the link that opens the schedule assistant.](../../field-service/media/scheduling-quick-book-select-resources2.png)
+
+## Additional notes
+
+- Selecting **Book** again for the same requirement creates an additional booking. Selecting **Book** again for a *requirement group* will trigger the rebook process, which cancels previous bookings.
+- Enabling quick book enables it for your entire organization; it can't be enabled only for specific users or security roles. 
+- When there are no search start and search end dates defined, the search window defaults to 60 days from today, and resource availability is shown for the next 60 days. If only a search start date is populated (but no end date), then the search window defaults to the current day plus 60 days, and not the provided start date plus 60 days.

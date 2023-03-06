@@ -1,18 +1,12 @@
-Fulfillment preferences are customizable entities that define how to show location-agnostic and onsite requirements as schedule assistant results.
-
-By default, the schedule assistant shows results based on resource schedules and the earliest available time.
-
-Fulfillment preferences include intervals and time groups, or a combination of them. Both designed for work that completes in a single day and doesn't span over multiple days.
+Fulfillment preferences customize how the schedule assistant will display results for single-day requirements. By default, the schedule assistant shows results based on resource schedules and the earliest available time. Fulfillment preferences include intervals and time groups, or a combination of them.
 
 ## Intervals
 
-Intervals display schedule assistant results in time slots that define the start time of subsequent bookings. For example, a hair salon could offer appointments every hour because 1-hour intervals are a good time estimate for their work. It's also easier to communicate 1-hour appointments to customers.
-
-For onsite requirements, travel time begins before the start time to ensure the scheduled resource starts on time.
+Intervals define the length of the times slots the schedule assistant results will be displayed in, and the start time for subsequent bookings. For example, with 30-minute intervals, the schedule assistant will display a resource available at 9:27 AM as available at 9:30 AM and will book the start time (arrival time) for 9:30 AM. This includes travel time for onsite requirements and work orders, meaning travel time will begin before 9:30 AM, and a field resource will arrive and start work at 9:30 AM.
 
 ## Time groups
 
-Time groups enable schedulers to search and view results as blocks of time when using the schedule assistant. Unlike intervals, time groups don't influence the start time of subsequent booking.
+Time groups enable schedulers to search and view results as blocks of time when using the schedule assistant. Unlike intervals, time groups don't influence the start time of subsequent booking. Unlike intervals, time groups **do not dictate the start time of subsequent bookings**. Time groups organize results, but leave the start time/arrival time as-is, based on the particular resource's schedule.
 
 For example, a heating and cooling company wants to group air-conditioning installations in two blocks. They create morning (8:00 AM to 12:00 PM) and afternoon (1:00 PM to 5:00 PM) blocks, with a 1-hour break for lunch in between. They communicate a morning or afternoon time range to customers for when the installation crew arrives.
 
@@ -58,3 +52,13 @@ You can add both an interval and a time group to the same fulfillment preference
   - If the **Reset Interval per Time Group Detail** is set to **Yes**, the appointments would be:
 
     8:00 AM, 9:30 AM, 11:00 AM, (not 12:30 PM because this is blocked for lunch), **1:00 PM** (resetting for the next time group detail), 2:30 PM, and 4:00 PM.
+
+## Additional notes
+
+- Intervals can also be set for requirement groups. All requirements within the group will inherit the same fulfillment preferences.
+
+- Time group details cannot be used with requirement groups.
+
+- The **Intervals Begin** time is dependent on the time zone of the requirement calendar when triggered from the requirement. When schedule assistant is used from the schedule board, it depends on the timezone of the schedule board tab.
+
+- Quick Scheduling does not support fulfillment preferences with time groups.

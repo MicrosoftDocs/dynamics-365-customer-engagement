@@ -1,5 +1,5 @@
 
-When a requirement is scheduled to a resource, the system creates a booking record. The schedule board displays bookings sorted by resources. The fields displayed in the schedule board booking are called a *Booking Template*, which you can customize.
+When a requirement is scheduled to a resource, the system creates a booking record. The schedule board displays bookings grouped by resources. The fields displayed in the schedule board booking are called a *Booking Template*, which you can customize.
 
 ## Edit work order booking template
 
@@ -27,11 +27,11 @@ Here's an example that pulls values from the work order that relates to the book
 
 ```HTML
 <div style="line-height: 11px !important; width: 99%; overflow: hidden; display: block; text-overflow: ellipsis;">
-WO: 
-<b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_name}</b><br/>
-Account: <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_account_msdyn_workorder_ServiceAccount.name}</b><br/>
-Incident: <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}</b><br/>
-Duration: <b>{duration} minutes</b><br/>
+    WO: 
+    <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_name}</b><br/>
+    Account: <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_account_msdyn_workorder_ServiceAccount.name}</b><br/>
+    Incident: <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}</b><br/>
+    Duration: <b>{duration} minutes</b><br/>
 </div>
 ```
 
