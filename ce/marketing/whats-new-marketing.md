@@ -104,6 +104,7 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
 
     > [!div class="mx-imgBorder"]
     > ![natural language segments](media/whats-new-natural-language-segments.png "natural language segments")
+
 - **Create beautiful and engaging emails in minutes**
     - The simplified email editor with the improved template gallery allows you to create engaging content within minutes, whether you are an experienced marketer or create emails occasionally to engage with your customers. Now, you can make basic content modifications directly on canvas, and enjoy easy, delightful, and focused experience. Whereas the new template gallery makes it easier than ever to find just the right template for your next email. 
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
