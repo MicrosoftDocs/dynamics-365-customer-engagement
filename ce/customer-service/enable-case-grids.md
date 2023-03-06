@@ -63,6 +63,8 @@ To make the **Enhanced Active Cases** view accessible to agents, you must enable
        1. In the **Property** section in **Enable editing**, select **Edit**. The **Configure property Enable Editing** dialog appears.
        1. In the **Configure property Enable Editing** dialog, select **Bind to static options**, select **Yes** from the dropdown list, and then select **OK**.
      1. Set **Enable OptionSet colors** to **Yes** to display color coded case status fields.
+     > [!NOTE]
+     > Changes to the default color palette won't be available  automatically if you've customized the colors that appear on the case status field.
 1. Select **Save**, and then select **Publish**.
 
 > [!NOTE]
