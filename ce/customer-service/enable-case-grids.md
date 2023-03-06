@@ -62,6 +62,7 @@ To make the **Enhanced Active Cases** view accessible to agents, you must enable
      1. To enable inline editing, do the following:
        1. In the **Property** section in **Enable editing**, select **Edit**. The **Configure property Enable Editing** dialog appears.
        1. In the **Configure property Enable Editing** dialog, select **Bind to static options**, select **Yes** from the dropdown list, and then select **OK**.
+     1. Set **Enable OptionSet colors** to **Yes** to display color coded case status fields.
 1. Select **Save**, and then select **Publish**.
 
 > [!NOTE]
