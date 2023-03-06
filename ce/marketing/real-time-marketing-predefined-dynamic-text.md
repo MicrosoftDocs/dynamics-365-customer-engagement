@@ -1,7 +1,7 @@
 ---
 title: "Personalize content using pre-defined dynamic text (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content using pre-defined dynamic text in Dynamics 365 Marketing."
-ms.date: 01/20/2023
+ms.date: 03/02/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -118,17 +118,33 @@ If needed, you can change the language and region setting along with time zone b
 > [!div class="mx-imgBorder"]
 > ![locale and time zone](media/real-time-marketing-locale-and-time-zone.png "locale and time zone")
 
+### Preview: Using data that is reached by traversing a 1-to-many relation
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+> [!TIP]
+> How to enable the preview for more data for personalization
+>
+> If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to **Personalization** area, enabling the **One-to-many-relation for Dynamic text** feature switch, and saving the setting by selecting on **Save** on the top right corner.
+
+Personalized messages drive engagement that helps deliver desired business outcomes. [Dynamic text](real-time-marketing-predefined-dynamic-text.md) in real-time makes it easy to include personalized information for each recipient. Previously, dynamic text was limited to data that could be reached by 1-to-1 relations. Now, you can use data that requires traversing 1-to-many relations, unlocking even more data for personalization.
+
+Consider a university alumni donation campaign where you would want to include name of the college attended by each alum to drive maximum engagement. An alum might have attended multiple colleges in that university, resulting in a "1-to-many" relationship between student and college records. Dynamic text can now be defined for such data.
+
+#### How to define 1-to-many relations
+
+When defining 1-to-many dynamic text, the system needs to know which one out of many related records should be used for data retrieval. You can use the default condition (the first record after sorting by "Created on") or define your own condition, as appropriate. In the example below, dynamic text is being defined to include the owning team's name for service cases for the recipient. As there can be multiple cases for a recipient, you can define a condition to pick the high priority case. However, sometimes that may not be sufficient (there can be multiple high priority cases), and for such cases the system always has a default condition (most recently created record) that will be used as tiebreaker if and when needed.
+
+> [!div class="mx-imgBorder"]
+> ![1-to-many example screenshot](media/real-time-marketing-one-to-many.png "1-to-many example screenshot")
+
 ### Access even more data for personalization
 
 You can access any Dataverse table to include information in your communications, not just tables that are directly related to an Audience or Triggers.
 
-<!--- #### How to enable the preview for more data for personalization
-
-This article refers to a feature that is in preview and may not be enabled in your environment. If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to **Personalization** area, enabling the **Access more data for personalization** feature switch, and saving the setting by clicking on “Save” on the top right corner.
-
-> [!div class="mx-imgBorder"]
-> ![personalization enabled](media/real-time-marketing-personalization-enabled.png "personalization enabled")
--->
 > [!Note]
 > This feature is available only in real-time marketing.
 
