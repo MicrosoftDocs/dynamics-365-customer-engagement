@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel for Twilio | MicrosoftDocs"
 description: "Use this topic to understand how to configure an SMS channel for Twilio in Omnichannel for Customer Service."
-ms.date: 10/27/2022
+ms.date: 02/17/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -181,6 +181,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 ### See also
 
 [Channels in Omnichannel for Customer Service](channels.md)  
+[Overview of SMS channels](sms-channel-overview.md)  
 [Delete a configured channel](delete-channel.md)  
 [Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)	
 [Configure SMS channel using TeleSign](configure-sms-channel.md)	
