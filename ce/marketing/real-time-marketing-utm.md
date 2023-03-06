@@ -1,7 +1,7 @@
 ---
 title: "Preview: Measure marketing effectiveness using UTM codes (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to add Urchin Tracking Module (UTM) codes to URLs for improved link tracking in real-time marketing."
-ms.date: 02/01/2023
+ms.date: 02/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -70,3 +70,9 @@ You can also use Google Analytics to determine how successful the email you sent
 
 > [!div class="mx-imgBorder"]
 > ![View results in Google Analytics.](media/real-time-marketing-utm-google.png "View results in Google Analytics")
+
+## Learn more
+
+Here are some advanced resources for this topic:
+
+- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)

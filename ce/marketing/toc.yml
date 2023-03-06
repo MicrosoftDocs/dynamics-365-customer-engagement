@@ -224,7 +224,7 @@
       href: real-time-marketing-user-guide.yml
     - name: Get started with real-time marketing
       items:
-      - name: Real-time marketing overview
+      - name: Overview
         href: real-time-marketing-overview.md 
       - name: Use Customer Insights profiles and segments
         href: real-time-marketing-ci-profile.md
@@ -282,9 +282,9 @@
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
           href: real-time-marketing-segment-based-journey.md
-        - name: "Preview: Create a static snapshot of a segment"
+        - name: Create a static snapshot of a segment
           href: real-time-marketing-static-snapshot.md
-        - name: "Preview: Individually manage your customer list"
+        - name: Individually manage your customer list
           href: real-time-marketing-include-exclude.md
         - name: "Preview: Sync data tables into the segment builder"
           href: real-time-marketing-sync-data-tables.md
@@ -306,16 +306,16 @@
           href: real-time-marketing-personalize-triggers.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
-      - name: Analytics
-        items:
-        - name: Access and interpret analytics
-          href: real-time-marketing-analytics.md
-        - name: How to use aggregate cross-journey analytics
-          href: real-time-marketing-cross-journey-analytics.md
-        - name: How to use aggregate channel analytics
-          href: real-time-marketing-channel-analytics.md
-        - name: "Preview: Track campaigns with UTM codes"
-          href: real-time-marketing-utm.md
+    - name: Analytics
+      items:
+      - name: Access and interpret analytics
+        href: real-time-marketing-analytics.md
+      - name: How to use aggregate cross-journey analytics
+        href: real-time-marketing-cross-journey-analytics.md
+      - name: How to use aggregate channel analytics
+        href: real-time-marketing-channel-analytics.md
+      - name: "Preview: Track campaigns with UTM codes"
+        href: real-time-marketing-utm.md
     - name: Personalization
       items:
       - name: Personalize content
@@ -326,7 +326,7 @@
         href: conditional-content.md
       - name: Create reusable content blocks
         href: content-blocks.md
-      - name: Personalize inline conditions
+      - name: How to use inline conditions
         href: real-time-marketing-personalize-inline-conditions.md
       - name: Personalize lists
         href: real-time-marketing-personalize-lists.md

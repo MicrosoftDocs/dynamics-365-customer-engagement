@@ -107,6 +107,10 @@ items:
       href: work-order-resolutions.md
     - name: Work order completion surveys
       href: work-order-surveys.md
+    - name: Trades
+      href: trades.md
+    - name: Not-to-exceed
+      href: work-order-not-to-exceed.md
 
 - name: Customers
   items:
