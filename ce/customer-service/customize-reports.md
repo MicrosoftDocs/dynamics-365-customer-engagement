@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 02/14/2023
+ms.date: 03/06/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -20,16 +20,17 @@ search.app:
 
 # Customize visual display
 
-Dynamics 365 Customer Service provides out-of-box reporting capabilities, including industry-standard metrics that are critical for every support organization. These reports are designed to help supervisors in your organization to better understand and manage agent performance.
+Dynamics 365 Customer Service provides out-of-box reporting capabilities, that are designed to help supervisors understand and manage agent performance. Supervisors can leverage the out-of-the-box real-time monitoring of their contact centers to cater to organizational requirements immediately.
 
-The nature of your business may require that you customize these out-of-box reports based on your organization's needs. You can edit out-of-box reports in the following ways:
+You can customize these out-of-box reports based on your organization's needs in the following ways:
 
 - Rearrange out-of-box report layouts and change themes.
-- Modify the visual look of the data, such as to display a metric trend over time versus a tabular view.
+- Add new pivots and add new reports.
+- Modify the visual look of the data. For example, you can have a graphic that displays the trend of a metric over time rather than a tabular view of the metric.
 - Create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports.
 
 > [!Note]
-> Visual customization of historical analytics reports is currently available for Customer Service Workspace, Customer Service Hub, and Omnichannel for Customer Service. It isn't available for unified routing analytical reports.
+> Visual customization of historical analytics reports is currently available for Customer Service Workspace, Customer Service Hub, and Omnichannel for Customer Service. It isn't available for unified routing and knowledge analytics reports.
 
 ## Grant user privileges to edit analytics reports
 
