@@ -43,7 +43,8 @@ The following table explains the enhancements to the **Enhanced Active Cases** v
 
 |Column  |Experience with Power Apps grid control |Experience with other grids  |
 |---------|---------|---------|
-|Origin    |Shows the Origin Icon followed by the text for all the views on Case Grid. The Origin column is editable on double-click. You can sort and filter the data. | Only the text appears, without any icons.      |
+|Origin    |Shows the Origin Icon followed by the text for all the views on Case Grid. The Origin column is editable on double-click. You can sort and filter the data. | Only the text appears, without any icons. <br>
+  **Note**: The colors displayed for the **Priority** and **Case status** fields have changed as an early access feature.|
 |Priority   | Shows the color-coded Priority icon followed by the text for all the views on Case Grid. The Priority column is editable on double-click. You can sort and filter the data. | Only the text appears, without any icons.     |
 |Owner  | Shows the profile image of the Owner, if available; otherwise shows the initials followed by the Owner name as text. The Owner column is editable on double-click. You can sort and filter the data.| Only the owner’s name appears without any profile image or initials.    |
 |Last Interaction    | Shows the last activity and the action performed on that activity&mdash;for example, **Note Added** for standard activities. For custom activities, only the created or updated status is shown. Selecting it opens the corresponding activity’s form. This data is read-only. You can't sort or filter the data. Additionally, if the activity has an attachment, you can see an attachment icon next to the activity. Displaying the Last Interaction column doesn’t affect the **modifiedon** and **modifiedby** fields.|  No text appears. |
