@@ -1,7 +1,7 @@
 ---
 title: "Enable case grids for agents| MicrosoftDocs"
 description: "Learn how you can enable case grids and increase agent productivity."
-ms.date: 02/15/2023
+ms.date: 03/06/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -62,6 +62,9 @@ To make the **Enhanced Active Cases** view accessible to agents, you must enable
      1. To enable inline editing, do the following:
        1. In the **Property** section in **Enable editing**, select **Edit**. The **Configure property Enable Editing** dialog appears.
        1. In the **Configure property Enable Editing** dialog, select **Bind to static options**, select **Yes** from the dropdown list, and then select **OK**.
+     1. Set **Enable OptionSet colors** to **Yes** to display color coded case status fields.
+     > [!NOTE]
+     > Any changes made by Microsoft to the default color palette won't be available automatically if you've customized the colors that appear on the case status field.
 1. Select **Save**, and then select **Publish**.
 
 > [!NOTE]
