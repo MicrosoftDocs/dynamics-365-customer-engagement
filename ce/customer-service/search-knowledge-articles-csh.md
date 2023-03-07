@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/01/2023
+ms.date: 03/07/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -152,7 +152,7 @@ In Customer Service workspace and Omnichannel for Customer Service, smart assist
 
 The suggest-as-you-type feature starts suggesting relevant knowledge articles as you type keywords in the search box.
 
-The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The maximum number of knowledge articles displayed in the flyout is six. The matched text is highlighted to show the presence of the keyword. When you select the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the direct knowledge base search.
+The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. If you type more than one keyword, the search results will show articles with a full string match. The maximum number of knowledge articles displayed in the flyout is six. The matched text is highlighted to show the presence of the keyword. When you select the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the direct knowledge base search.
 
 Your administrator must [enable suggest-as-you-type](set-up-knowledge-management-embedded-knowledge-search.md#enable-the-suggest-as-you-type-option) before you can use it.
 
