@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page 
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 02/28/2023
+  ms.date: 03/07/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -87,45 +87,39 @@ additionalContent:
     items:
     - title: Agent productivity
       links:
-      - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
-        text: Omnichannel for Customer Service entity reference
-      - url: /dynamics365/customer-service/developer/omnichannel-reference
-        text: Live chat SDK Reference
+      - url: /dynamics365/customer-service/csw-overview
+        text: Work on multiple sessions at a time in a single workspace, boosting agent productivity.
+      - url: //dynamics365/app-profile-manager/productivity-tools
+        text: Perform day-to-day operations in a fast, efficient, and process compliant manner with productivity tools
     - title: Analytics and Insights
       links:
-      - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
-        text: Omnichannel for Customer Service entity reference
-      - url: /dynamics365/customer-service/developer/omnichannel-reference
-        text: Live chat SDK Reference 
+      - url: /dynamics365/customer-service/overview-service-level-agreements
+        text: Make data-driven decisions with analytics and insights to boost customer satisfaction
     - title: Use Service-level agreements
       links:
-      - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
-        text: Omnichannel for Customer Service entity reference
-      - url: /dynamics365/customer-service/developer/omnichannel-reference
-        text: Live chat SDK Reference 
+      - url: /dynamics365/customer-service/define-service-level-agreements?tabs=customerserviceadmincenter
+        text: Define and deliver measured and predictable service to a customer by using SLAs
     - title: Microsoft Teams
       links:
-      - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
-        text: Omnichannel for Customer Service entity reference
-      - url: /dynamics365/customer-service/developer/omnichannel-reference
-        text: Live chat SDK Reference 
+      - url: /dynamics365/customer-service/collaboration
+        text: Collaborate effectively with your peer or experts using Microsoft Teams.
     - title: Apps and personas
       links:
-      - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
-        text: Omnichannel for Customer Service entity reference
-      - url: /dynamics365/customer-service/developer/omnichannel-reference
-        text: Live chat SDK Reference
+      - url: /dynamics365/customer-service/cs-admin-center
+        text: Customer Service admin center (Administrator)
+      - url: /dynamics365/customer-service/developer/omnichannel-developer
+        text: Omnichannel for Customer Service SDK (Developer)
   - title: Related products
     items:
         # Card
         
         - title: Add-in solutions
-          summary: wip
-          url: /dynamics365/customer-service/developer/omnichannel-reference
+          summary: Unified Service Desk Guide
+          url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
         - title: Services
-          summary: wip
-          url: /dynamics365/customer-service/developer/omnichannel-reference
+          summary: Azure Communication Services
+          url: /azure/communication-services/overview
         - title: Apps
-          summary: wip
-          url: /dynamics365/customer-service/developer/omnichannel-reference
+          summary: Power Virtual Agents
+          url: /power-virtual-agents/fundamentals-what-is-power-virtual-agents
        
