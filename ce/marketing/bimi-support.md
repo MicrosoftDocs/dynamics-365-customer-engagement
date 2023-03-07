@@ -40,12 +40,11 @@ Microsoft, on the other side, has its approach known as "**brand cards**," which
 ## How to set-up BIMI
 
 1. **Authenticate your organization’s emails**:
--    **Set up SPF**: SPF (Sender Policy Framework) is an email authentication protocol that helps to prevent email spoofing by verifying that the sending IP address is authorized to send emails on behalf of your domain. To set up SPF, you'll need to create an SPF record in your DNS zone file that lists the IP addresses that are authorized to send emails on behalf of your domain. Learn more: Set-up SPF
--    **Set up DKIM**: DKIM (DomainKeys Identified Mail) is an email authentication protocol that helps to prevent email spoofing by verifying that the email was sent by an authorized sender and that the email content has not been tampered with. To set up DKIM, you'll need to generate a DKIM key pair and add a DKIM record to your DNS zone file. Set up DKIM for your sending domain
--    **Verify your email authentication using DMARC**:
-    - o	DMARC is a protocol that helps prevent email spoofing and phishing attacks. Email-domain authentication's major goal is to find fraudulent emails and domains and stop spam, phishing, and other malicious conduct by doing so.
-    - o	A method called **DomainKeys Identified Mail (DKIM)** helps make these authentications possible. Domain authentication is implemented through the internet DNS system and is based on public/private key encryption and signatures. 
-
+- **Set up SPF**: SPF (Sender Policy Framework) is an email authentication protocol that helps to prevent email spoofing by verifying that the sending IP address is authorized to send emails on behalf of your domain. To set up SPF, you'll need to create an SPF record in your DNS zone file that lists the IP addresses that are authorized to send emails on behalf of your domain. Learn more: Set-up SPF
+- **Set up DKIM**: DKIM (DomainKeys Identified Mail) is an email authentication protocol that helps to prevent email spoofing by verifying that the email was sent by an authorized sender and that the email content has not been tampered with. To set up DKIM, you'll need to generate a DKIM key pair and add a DKIM record to your DNS zone file. Set up DKIM for your sending domain
+- **Verify your email authentication using DMARC**:
+    - DMARC is a protocol that helps prevent email spoofing and phishing attacks. Email-domain authentication's major goal is to find fraudulent emails and domains and stop spam, phishing, and other malicious conduct by doing so.
+    - A method called **DomainKeys Identified Mail (DKIM)** helps make these authentications possible. Domain authentication is implemented through the internet DNS system and is based on public/private key encryption and signatures. 
 > [!IMPORTANT]
 > If your organization uses **Domain-based Message Authentication, Reporting, and Conformance** ([DMARC](https://dmarc.org/wiki/FAQ)) to protect against phishing attacks involving your domain, then it's extra important to set up DKIM for your sending domains. This will help to prevent false positives during DMARC checks made by receiving systems.
 
