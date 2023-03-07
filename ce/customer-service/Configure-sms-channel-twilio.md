@@ -1,18 +1,17 @@
 ---
-title: "Configure an SMS channel for Twilio | MicrosoftDocs"
-description: "Use this topic to understand how to configure an SMS channel for Twilio in Omnichannel for Customer Service."
-ms.date: 02/17/2023
-ms.topic: article
+title: Configure an SMS channel for Twilio
+description: Use this topic to understand how to configure an SMS channel for Twilio in Omnichannel for Customer Service.
+ms.date: 03/08/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Configure an SMS channel for Twilio
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 The SMS channel through Twilio in Omnichannel for Customer Service allows your organization to connect to customers by using text messages. Your customers can send text messages through Twilio and connect with an appropriate customer service agent. Agents can view incoming SMS requests on their dashboard and respond accordingly.
 
@@ -42,6 +41,10 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 > - To ensure that third-party SMS providers handle opt-out commands properly, you must configure your consent settings with the provider directly.  
 
 ## Set up the SMS channel for Twilio
+
+To configure the SMS channel, you'll do the following tasks:
+- Configure the SMS number
+- Configure the workstream for the SMS channel
 
 ### Configure the SMS number
 
@@ -163,7 +166,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
 8. Select **Save**.
 
-9.  (Optional). On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
+9. (Optional). On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
 10. (Optional). On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 

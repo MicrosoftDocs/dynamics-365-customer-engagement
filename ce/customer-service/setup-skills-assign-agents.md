@@ -1,11 +1,12 @@
 ---
-title: "Set up skills and assign agents | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to create skills and assign agents to those skills in Omnichannel for Customer Service."
+title: Set up skills and assign agents
+description: Perform the steps mentioned in the topic to create skills and assign agents to those skills in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
 ms.date: 02/14/2023
-ms.topic: article
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Set up skills, create a rating model, and assign agents
