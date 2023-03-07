@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 02/28/2023
+ms.date: 03/08/2023
 ms.custom: bap-template
 ---
 
@@ -75,11 +75,11 @@ Using this approach, you can maintain the modeled skills at agent level and chan
 
 ### Things to consider
 
-- Intelligent skill finder doesn't predict custom attributes that are modeled as skills.
+- [Intelligent skill finder](set-up-skill-based-routing.md#create-skill-finder-models) doesn't predict custom attributes that are modeled as skills.
 - The modeled skills won’t be present in skill analysis reports.
-- Out-of-the-box assignment methods don't support skill match for custom skills.
-- The custom skills won't show up as skills in agent skill control.
-- Routing diagnostics won't display the “custom skills” that were matched during assignment.
+- [Out-of-the-box assignment methods](assignment-methods.md#types-of-assignment-methods) don't support skill match for custom skills.
+- The custom skills won't show up as skills in [agent skill control](manage-skills.md).
+- [Routing diagnostics](unified-routing-diagnostics) won't display the “custom skills” that were matched during assignment.
 - The custom skills setup will work on the "Lookup" datatype only.
 
 ## Next steps
