@@ -11,11 +11,11 @@ ms.custom: bap-template
 
 # Model existing data tables as skills
 
-Organizations can use existing data tables and model them as skills to perform skill-based routing. With this approach, you can avoid recreating data definitions as skills in Dynamics 365 and you won't need to write classification rules to stamp skills on the incoming work items. By modeling existing entities as skills, data management and maintenance becomes easy.
+Organizations can use existing data tables and model them as skills to perform skill-based routing. With this approach, you can avoid recreating data definitions as skills in Dynamics 365 and you won't need to write classification rules to stamp skills on the incoming work items. By modeling existing tables as skills, data management and maintenance becomes easy.
 
 The following examples help understand the scenarios.
 
-**Example 1**: Use an existing system entity to model as a custom skill
+**Example 1**: Use an existing system table to model as a custom skill
 
 - A customer creates a support ticket with Contoso Coffee for a product they're having issues with.
 - In Customer Service, a case is created with “Product” as one of the fields. There could be thousands of product types (or values) such as Café A-100, Café A-200, and Smart Brew 300.
@@ -23,9 +23,9 @@ The following examples help understand the scenarios.
 - Contoso’s workforce is trained to handle queries on these “Products” and thus are “skilled” on the product. Contoso can model "Product" as a skill and assign different product types as skills to different agents.
 - Similarly, they can model more attributes as skills, and use custom skill match logic to find the right agents.
 
-**Example 2**: Use a custom entity to model as a custom skill
+**Example 2**: Use a custom table to model as a custom skill
 
-- Contoso Coffee has configured “Operating market” as a [custom entity](/power-apps/maker/data-platform/data-platform-create-entity) in live chat. Whenever a customer starts a chat with Contoso, the "Operated market” field gets auto populated with the customer’s location.
+- Contoso Coffee has configured “Operating market” as a [custom table](/power-apps/maker/data-platform/data-platform-create-entity) in live chat. Whenever a customer starts a chat with Contoso, the "Operated market” field gets auto populated with the customer’s location.
 - The data for "Operating market" is maintained in Contoso. The data is updated whenever Contoso onboards a new market or updates an existing one.
 - Contoso’s workforce is trained for different “Operating markets” and are “skilled” to handle customer expectations and requirements for specific markets. Contoso can model "Operating market" as a custom skill and assign different markers as skills to their agents.
 
