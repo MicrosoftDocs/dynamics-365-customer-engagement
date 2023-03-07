@@ -115,8 +115,8 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
 
 - **Send emails quickly without building a journey**
     - Send emails without creating a journey. This workflow allows you to select from a new template library, make changes easily with simplifications to the email editor, and send emails to the segment members you need to reach within minutes.
-    - [Release plan](dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
-    -  [Docs](real-time-marketing-email-without-journey.md)
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
+    -  [Docs](email-without-journey.md)
 
     > [!div class="mx-imgBorder"]
     > ![send email without building journey](media/whats-new-send-email-without-building-journey.png "send email without building journey")
