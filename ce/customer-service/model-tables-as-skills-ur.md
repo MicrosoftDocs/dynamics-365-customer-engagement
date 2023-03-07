@@ -79,7 +79,7 @@ Using this approach, you can maintain the modeled skills at agent level and chan
 - The modeled skills won’t be present in skill analysis reports.
 - [Out-of-the-box assignment methods](assignment-methods.md#types-of-assignment-methods) don't support skill match for custom skills.
 - The custom skills won't show up as skills in [agent skill control](manage-skills.md).
-- [Routing diagnostics](unified-routing-diagnostics) won't display the “custom skills” that were matched during assignment.
+- [Routing diagnostics](unified-routing-diagnostics.md) won't display the “custom skills” that were matched during assignment.
 - The custom skills setup will work on the "Lookup" datatype only.
 
 ## Next steps

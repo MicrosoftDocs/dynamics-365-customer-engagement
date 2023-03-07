@@ -6,7 +6,6 @@ ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.custom: bap-template
 search.audienceType: 
   - admin
   - customizer
@@ -15,6 +14,7 @@ search.app:
   - D365CE
   - D365CS
 ms.custom: 
+  - bap-template
   - dyn365-customerservice
   - intro-internal
 ---
