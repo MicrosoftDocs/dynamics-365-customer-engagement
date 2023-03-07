@@ -36,7 +36,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 
 ## 8.8.84.13
-(Includes Universal Resource Scheduling version [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987)) and Resource Scheduling controls version 1.2.38.230543).
+(Includes Universal Resource Scheduling version [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) and Resource Scheduling controls version 1.2.38.230543).
 
 -  No updates were made to Dynamics 365 Field Service in this release.
 
@@ -44,12 +44,12 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 This release is a hotfix on Field Service version [8.8.83.19](/dynamics365/field-service/version-history#888319).
 
-(Includes Universal Resource Scheduling version [3.12.97.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129718)) and Resource Scheduling controls version 1.2.37.230406).
+(Includes Universal Resource Scheduling version [3.12.97.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129718) and Resource Scheduling controls version 1.2.37.230406).
 
 -  No updates were made to Dynamics 365 Field Service in this release.
 
 ## 8.8.83.19
-(Includes Universal Resource Scheduling version [3.12.97.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#312979)) and Resource Scheduling controls version 1.2.37.230406).
+(Includes Universal Resource Scheduling version [3.12.97.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#312979) and Resource Scheduling controls version 1.2.37.230406).
 
 - Fixed a bug that prevented opportunities to be converted to work orders when the account is indirectly linked through the opportunity contact.
 - Fixed a bug preventing work order Completed On time from being set when the work order status changed to posted and at least one open booking is cancelled.
