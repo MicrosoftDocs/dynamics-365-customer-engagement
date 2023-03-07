@@ -38,9 +38,9 @@ In the **Owner lookup field (preview)**, select who owns the forecast. Each temp
 | Product forecast | None |
 | Territory forecast | Manager |
 
-If you select a value other than the default, a column is added to the forecast grid. For org chart forecasts, you can select **Business Unit** as the owner. In this case, the forecast is owned by all users in the business unit.
-
 For example, when you select **Manager** as the **Owner lookup field (Preview)** for a territory forecast, the forecast is visible only to the managers of the territories in the selected hierarchy. The managers can edit forecast data that directly belongs to them and to their reporting territories.
+
+If you select a value other than the default, a column is added to the forecast grid. For org chart forecasts, you can select **Business Unit** as the owner. In this case, the forecast is owned by all users in the business unit.
 
 ## Provide access to additional roles
 
