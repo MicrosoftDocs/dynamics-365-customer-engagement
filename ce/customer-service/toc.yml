@@ -241,7 +241,9 @@
       - name: View diagnostics for unified routing
         href: unified-routing-diagnostics.md
       - name: Manage routing diagnostics data
-        href: manage-routing-diagnostics-data.md  
+        href: manage-routing-diagnostics-data.md
+      - name: Use best practices to set up unified routing
+        href: unified-routing-best-practices.md
     - name: Supervisor experience
       items:
       - name: View historical analytics reports
@@ -260,7 +262,7 @@
         href: manage-skills.md
     - name: Developer experience
       items: 
-      - name: How unified routing affects queue items and their APIs
+      - name: Understand how unified routing affects queue items and live work items for routed records
         href: unified-routing-impact-on-APIs.md
       - name: Add a skill control for routed records
         href: add-skill-control.md
@@ -286,6 +288,8 @@
         href: add-enhanced-case-management.md
       - name: Configure components to display customer details and recent records
         href: add-display-components-to-case-form.md
+      - name: Configure components to display case associations
+        href: add-associated-grid-control.md        
     - name: Agent experience
       items: 
       - name: Create cases
@@ -410,7 +414,7 @@
           href: /power-apps/user/insert-email-template?context=/dynamics365/context/customer-service-context
         - name: Personalize emails with dynamic text
           href: /power-apps/user/email-dynamic-text?context=/dynamics365/context/customer-service-context          
-        - name: Customize an email templates using the template editor
+        - name: Customize an email template using the template editor
           href: /power-apps/user/cs-template-options?context=/dynamics365/context/customer-service-context
         - name: Convert an email to a template
           href: /power-apps/user/email-template-convert?context=/dynamics365/context/customer-service-context
@@ -438,6 +442,18 @@
         href: work-knowledge-articles.md
       - name: Set up external knowledge search providers
         href: set-up-search-providers.md
+      - name: Add integrated search providers
+        items:
+        - name: Manage integrated search providers
+          href: add-search-provider.md
+        - name: Apply authentication for search providers
+          href: apply-authentication-provider.md
+        - name: Configure knowledge article schema mapping
+          href: int-data-mapping.md
+        - name: View and use insights for search providers
+          href: view-and-use-insights.md
+        - name: Schema details to build a metadata mapping template
+          href: int-search-metadata-schema.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
       - name: Create and manage knowledge categories
@@ -508,6 +524,8 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
+      - name: Transform, map external source data to knowledge fields
+        href: create-a-conversion-plugin.md        
   - name: Microsoft Teams for collaboration
     items:
     - name: Introduction to collaboration
@@ -768,6 +786,8 @@
       items: 
       - name: Set up SMS channels
         items: 
+        - name: Overview of SMS channels
+          href: sms-channel-overview.md
         - name: Configure an SMS channel using Azure Communication Services
           href: configure-sms-channel-acs.md
         - name: Configure an SMS channel for TeleSign
@@ -1760,6 +1780,8 @@
       href: troubleshoot-using-solution-health-hub.md
     - name: Report issues in Omnichannel for Customer Service
       href: report-issues.md
+    - name: Troubleshoot issues for integrated search providers
+      href: int-search-troubleshoot.md
   - name: Share feedback in Customer Service
     href: cs-share-feedback.md
   - name: FAQ about Customer Service
