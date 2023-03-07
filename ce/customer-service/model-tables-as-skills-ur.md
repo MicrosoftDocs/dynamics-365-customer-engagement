@@ -1,6 +1,6 @@
 ---
-title: Model existing entities as skills
-description: Learn how you can use custom entities to model them as skills in unified routing.
+title: Model existing data tables as skills
+description: Learn how you can use custom data tables to model them as skills in unified routing.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -9,9 +9,9 @@ ms.date: 02/28/2023
 ms.custom: bap-template
 ---
 
-# Model existing entities as skills
+# Model existing data tables as skills
 
-Organizations can use existing entities and model them as skills to perform skill-based routing. With this approach, you can avoid recreating data definitions as skills in Dynamics 365 and you won't need to write classification rules to stamp skills on the incoming work items. By modeling existing entities as skills, data management and maintenance becomes easy.
+Organizations can use existing data tables and model them as skills to perform skill-based routing. With this approach, you can avoid recreating data definitions as skills in Dynamics 365 and you won't need to write classification rules to stamp skills on the incoming work items. By modeling existing entities as skills, data management and maintenance becomes easy.
 
 The following examples help understand the scenarios.
 
@@ -29,7 +29,7 @@ The following examples help understand the scenarios.
 - The data for "Operating market" is maintained in Contoso. The data is updated whenever Contoso onboards a new market or updates an existing one.
 - Contoso’s workforce is trained for different “Operating markets” and are “skilled” to handle customer expectations and requirements for specific markets. Contoso can model "Operating market" as a custom skill and assign different markers as skills to their agents.
 
-## How is using custom entities as skills different from default skill-based routing
+## How is using custom tables as skills different from default skill-based routing
 
 If you have multiple product categories and attributes already configured in your system, such as, all your cases populated with "Product" and "Customer" information. Then to use skill-based routing, you'll,
 - create all the "Product" and "Customer" values as skills
@@ -45,7 +45,7 @@ With this method, there's duplication of data because you'll maintain the data a
 
 However, if you model "Product" and "Customer" fields as custom skills, you'll create new skills for those values only and point to the data or values that exist in your system instead of manually adding them. You can maintain all your data at a single place. And, you won’t need to write classification rules.  
 
-## How to model custom entities as skills
+## How to model custom tables as skills
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 1. Go to the **Default Solution** > **Tables**, and select **Characteristic**.
@@ -59,11 +59,11 @@ However, if you model "Product" and "Customer" fields as custom skills, you'll c
 1. In Customer Service admin center, go to **User management** > **Skills**. The new skill will be available on the **New Characteristic** page.
 1. Select a value for the new skill and assign the skill to agents according to your business use case.
 
-   :::image type="content" source="media/custom-skill-routing.png" alt-text="Add a custom entity and use in skill-based routing.":::
+   :::image type="content" source="media/custom-skill-routing.png" alt-text="Add a custom table and use in skill-based routing.":::
 
 1. Go to the assignment rule that you want to update and define a condition on the new skill category as seen in the following screenshot. More information: [Configure assignment methods for queues](configure-assignment-rules.md)
 
-   :::image type="content" source="media/use-custom-skill-assignmemt-condition.png" alt-text="Define custom entity as a skill":::
+   :::image type="content" source="media/use-custom-skill-assignmemt-condition.png" alt-text="Define custom table as a skill":::
 
    Unified routing evaluates the condition in the assignment rule when a work item arrives.
 

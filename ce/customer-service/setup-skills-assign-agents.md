@@ -237,6 +237,6 @@ Alternatively, you can also add a skill to the user (agent). More information: [
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Manage users](users-user-profiles.md)  
-[Model entities as skills](model-entities-as-skills-ur.md)  
+[Model data tables as skills](model-tables-as-skills-ur.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
