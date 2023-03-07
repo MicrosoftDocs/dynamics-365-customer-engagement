@@ -84,9 +84,9 @@ You can search the knowledge base for related articles in the reference pane whe
 
 1. Open a case or conversation.
 
-2. In the reference pane to the right of the timeline, select the Knowledge search (book) icon.
+1. In the reference pane to the right of the timeline, select the Knowledge search (book) icon.
 
-3. Replace the default search term with your own keyword to fine-tune the search results.
+1. Replace the default search term with your own keyword to fine-tune the search results.
 
     :::image type="content" source="media/knowledge-search-csh.png" alt-text="View the features of knowledge base search":::
 
