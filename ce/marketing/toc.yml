@@ -398,6 +398,12 @@
         href: real-time-marketing-api-segment.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
+    - name: Domain Authentication  
+      items:
+      - name: Domain authentication in real-time marketing
+        href: troubleshoot-domain-authentication.md
+      - name: BIMI support
+        href: bimi-support.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
   - name: Outbound marketing
