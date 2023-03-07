@@ -27,7 +27,7 @@ Predictive forecasting helps sellers and managers improve their forecast accurac
 The **Prediction** column shows the predicted revenue for each seller and manager. Predictions are based on the **Status** field of an opportunity. To optimize the accuracy of the predictions, ensure the **Forecast Category** values are kept in sync with the **Status** field. For the out-of-the-box forecast category, a workflow ensures that when an opportunity is closed as **Won** or **Lost**, the forecast category is updated with the proper value. 
 
 > [!NOTE]
-> If sufficient data isn't available for predictive forecasting, the column is empty and an error message is displayed.
+> If sufficient data isn't available for predictive forecasting, an error message is displayed and the **Prediction** column is left empty.
 
 ### Prerequisites
 
