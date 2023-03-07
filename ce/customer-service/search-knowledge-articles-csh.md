@@ -152,7 +152,7 @@ In Customer Service workspace and Omnichannel for Customer Service, smart assist
 
 The suggest-as-you-type feature starts suggesting relevant knowledge articles as you type keywords in the search box.
 
-The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. If your search phrase consists of more than one keyword, you will see knowledge article suggestions with a full-string match. For example, if you search for **Cheque Book Reissue**, you will see knowledge article suggestions that match the full string **Cheque Book Reissue** and not the individual keywords, such as **Cheque**, **Book**, or **Reissue**.
+The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. However, if your search phrase consists of more than one keyword, you will see knowledge article suggestions with a full-string match only. For example, if you search for **Cheque Book Reissue**, you will see knowledge article suggestions that match the full string **Cheque Book Reissue** and not the individual keywords, such as **Cheque**, **Book**, or **Reissue**.
 
 The maximum number of knowledge articles displayed in the flyout is six. The matched text is highlighted to show the presence of the keyword. When you select the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the direct knowledge base search.
 
