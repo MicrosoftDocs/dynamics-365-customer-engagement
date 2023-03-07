@@ -219,7 +219,7 @@ sections:
     questions:
       - question: Who owns the forecast?
         answer: |
-          The user who owns a specific level in the forecast hierarchy owns the forecast. The forecast manager or administrator selects the field that should be used to assign an owner to each level in the forecast hierarchy when they create a forecast. In the following illustration, the managers own all the forecasts in their hierarchy and individual sellers own their specific forecasts:
+          The forecast manager or administrator selects the user who should be the owner of each level in the forecast hierarchy when they create a forecast. In the following illustration, the managers own all the forecasts in their hierarchy and individual sellers own their specific forecasts:
           :::image type="content" source="media/forecast-hierarchy-owner.png" alt-text="Screenshot illustrating the forecast owner at different levels in the forecast hierarchy.":::
           A user field is selected by default based on the forecast template:
           
@@ -233,11 +233,11 @@ sections:
           1. In the Sales Hub app, select **App Settings**.
           1. Under **Performance management**, select **Forecast configuration**.
           1. Select a forecast configuration, and then select the **Permissions** step.
-          1. Verify the **User lookup field** to determine who owns the forecasts in the selected forecast configuration.
+          1. Verify the **Owner lookup field (Preview)** to determine who owns the forecasts in the selected forecast configuration.
           
-              :::image type="content" source="media/user-security-field.png" alt-text="Screenshot of the User lookup field in the Permissions tab.":::
+              :::image type="content" source="media/user-security-field.png" alt-text="Screenshot of the Owner lookup field in the Permissions tab.":::
           
-              For example, in an org chart forecast, if you select **User** as the owner, each user in the hierarchy owns the hierarchy under them. In a territory-based forecast, a user could own more than one hierarchy if they own multiple territories.  
+              If you select **Business Unit** as the owner in an org chart forecast, the forecast is owned by all users in the business unit. 
          
         
       - question: How do I change the forecast calculation for lost opportunities?

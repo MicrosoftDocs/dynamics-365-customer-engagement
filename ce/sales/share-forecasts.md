@@ -52,4 +52,5 @@ To stop sharing the entire forecast hierarchy from all the users, your administr
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
-[Enable or disable forecast sharing](provide-permissions-forecast.md#enable-or-disable-forecast-sharing)
+[Enable or disable forecast sharing](provide-permissions-forecast.md#enable-or-disable-forecast-sharing)  
+[Provide permissions to access and share a forecast](provide-permissions-forecast.md)  
