@@ -976,60 +976,60 @@
       href: cs-analytics-service-limits.md
     - name: Administrator experience
       items:
-        - name: Configure analytics and dashboards
-          href: configure-customer-service-analytics-insights-csh.md 
-        - name: Configure out-of-box historical analytics
+      - name: Configure analytics and dashboards
+        href: configure-customer-service-analytics-insights-csh.md 
+      - name: Configure out-of-box historical analytics
+        items:
+        - name: Configure Customer Service historical analytics
+          href: configure-cs-historical-analytics-csh.md
+        - name: Configure Omnichannel historical analytics
+          href: oc-historical-analytics-reports.md
+        - name: Configure knowledge analytics
+          href: enable-knowledge-search-insights.md
+        - name: Configure Power BI template reports
           items:
-          - name: Configure Customer Service historical analytics
-            href: configure-cs-historical-analytics-csh.md
-          - name: Configure Omnichannel historical analytics
-            href: oc-historical-analytics-reports.md
-          - name: Configure knowledge analytics
-            href: enable-knowledge-search-insights.md
-          - name: Configure Power BI templates
-            items:
-            - name: Configure Customer Service analytics dashboards in Power BI
-              href: configure-customer-service-analytics-dashboard.md
-            - name: Configure Omnichannel Insights dashboards
-              href: configure-historical-sentiment-dashboard-supervisor.md
-        - name: Configure out-of-box real-time analytics
+          - name: Configure Customer Service analytics dashboards in Power BI
+            href: configure-customer-service-analytics-dashboard.md
+          - name: Configure Omnichannel Insights dashboards
+            href: configure-historical-sentiment-dashboard-supervisor.md
+      - name: Configure out-of-box real-time analytics
+        items:
+        - name: Configure Omnichannel real-time analytics
+          href: enable-realtime-analytics-dashboard-administrator.md
+        - name: Configure Ongoing Conversations dashboard
+          href: configure-ongoing-conversations-dashbaord.md
+        - name: Enable your supervisors to monitor, assign, transfer, and forcibly end conversations
+          href: enable-monitor-assign-transfer-conv.md
+        - name: Configure intraday insights
+          href: configure-intraday-dashboard-supervisor.md
+      - name: Customize out-of-box analytics
+        items: 
+        - name: Customize visual display
+          href: customize-reports.md
+        - name: Customize data models
           items:
-          - name: Configure Omnichannel real-time analytics
-            href: enable-realtime-analytics-dashboard-administrator.md
-          - name: Configure Ongoing Conversations dashboard
-            href: configure-ongoing-conversations-dashbaord.md
-          - name: Enable your supervisors to monitor, assign, transfer, and forcibly end conversations
-            href: enable-monitor-assign-transfer-conv.md
-          - name: Configure intraday insights
-            href: configure-intraday-dashboard-supervisor.md
-        - name: Customize out-of-box analytics
-          items: 
-          - name: Customize visual display
-            href: customize-reports.md
-          - name: Customize data models
-            items:
-            - name: Customize data models for historical analytics reports
-              href: model-customize-reports.md
-            - name: Data models and report mappings for historical analytics reports
-              href: oob-data-models.md
+          - name: Customize data models for historical analytics reports
+            href: model-customize-reports.md
+          - name: Data models and report mappings for historical analytics reports
+            href: oob-data-models.md
           - name: Customize KPIs for intraday insights
             href: customize-kpis-intraday-insights.md
-        - name: Configure forecasting
-          items:
-          - name: Configure case forecasting
-            href: configure-volume-forecasting.md
-          - name: Configure agent forecasting for conversation
-            href: configure-agent-forecasting-conversation.md
-        - name: Configure AI topic clustering for cases
-          href: configure-topics-clustering-cases-cs.md
-        - name: Configure AI suggestions
-          href: csw-enable-ai-suggested-cases-knowledge-articles.md
-        - name: Configure AI suggestions for article keywords and descriptions
-          href: configure-ai-suggested-article-keywords-description.md
-        - name: Configure AI topic clustering for conversation
-          href: ai-topic-clustering-conversations.md
-        - name: Configure real-time customer sentiment
-          href: enable-sentiment-analysis.md
+      - name: Configure forecasting
+        items:
+        - name: Configure case forecasting
+          href: configure-volume-forecasting.md
+        - name: Configure agent forecasting for conversation
+          href: configure-agent-forecasting-conversation.md
+      - name: Configure AI topic clustering for cases
+        href: configure-topics-clustering-cases-cs.md
+      - name: Configure AI suggestions
+        href: csw-enable-ai-suggested-cases-knowledge-articles.md
+      - name: Configure AI suggestions for article keywords and descriptions
+        href: configure-ai-suggested-article-keywords-description.md
+      - name: Configure AI topic clustering for conversation
+        href: ai-topic-clustering-conversations.md
+      - name: Configure real-time customer sentiment
+        href: enable-sentiment-analysis.md
     - name: Supervisor experience
       items: 
       - name: Historical analytics reports in Customer Service
