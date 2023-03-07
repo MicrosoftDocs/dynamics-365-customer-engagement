@@ -89,7 +89,7 @@ additionalContent:
       links:
       - url: /dynamics365/customer-service/csw-overview
         text: Work on multiple sessions at a time in a single workspace, boosting agent productivity.
-      - url: //dynamics365/app-profile-manager/productivity-tools
+      - url: /dynamics365/app-profile-manager/productivity-tools
         text: Perform day-to-day operations in a fast, efficient, and process compliant manner with productivity tools
     - title: Analytics and Insights
       links:
