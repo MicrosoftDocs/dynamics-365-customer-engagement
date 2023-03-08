@@ -1,6 +1,6 @@
 ---
 title: Configure assignment methods for queues
-description: Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service
+description: Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service.
 ms.date: 03/08/2023
 ms.topic: how-to
 author: neeranelli
