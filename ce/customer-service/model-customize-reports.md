@@ -134,7 +134,7 @@ After the report is provisioned, perform the following steps to grant read or wr
         1. On the **Data hub** dialog, select the report you want to embed to Customer Service, and then select **Connect**.
         1. On the **Connect to your data** dialog, select the database or the specific tables that you want to connect to.
         1. Select **Submit**.
-        After the database or tables that you have selected in the previous step are added to your data model, on the **Microsoft Power BI Desktop** dialog, select **Save**.
+        After the database or tables that you've selected in the previous step are added to your data model, on the **Microsoft Power BI Desktop** dialog, select **Save**.
         1. On the **Publish to Power BI** dialog, select the workspace that you specified in [Select a Power BI workspace for historical analytics](#select-a-power-bi-workspace-for-historical-analytics).
         
         Your reports will be published to Power BI.
