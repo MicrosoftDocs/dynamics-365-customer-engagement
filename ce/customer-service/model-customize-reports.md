@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 12/08/2022
+ms.date: 03/08/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -113,6 +113,9 @@ After the report is provisioned, perform the following steps to grant read or wr
 1. Select **Access**. The Access dialog appears. If you want to embed the report back to Dynamics 365 and share it with someone, make sure you grant the person workspace contributor role or an equivalent role.
 
 ### Edit an existing report or create a new one
+
+> [!NOTE]
+> Don't use hidden out-of-box facts or dimension fields in your custom reports as these fields might get modified or deleted.
     
 1. After providing access, if you need to update a report, select the required report, and then select **Edit**.
     :::image type="content" source="media/model_update-report.png" alt-text="Update an existing report by selecting Edit option":::
@@ -123,7 +126,7 @@ After the report is provisioned, perform the following steps to grant read or wr
        
        :::image type="content" source="media/model-create-report-online.png" alt-text="Create a report online from the Power BI data model"::: 
 
-   - Create a report using Power BI Desktop, and create a live connection to datasets in the Power BI service:
+   - Create a report using Power BI Desktop, and create a live connection to datasets in the Power BI service. Before you create a report using Power BI Desktop, enable the [DirectQuery for Power BI datasets and Analysis Services](/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services#enable-the-preview-feature).
    
         1. On the Power BI desktop, select **Get Data**.
         1. On the **Get Data** dialog, select **Power Platform**, and then select **Power BI datasets**.
