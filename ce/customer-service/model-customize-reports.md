@@ -110,7 +110,7 @@ After the report is provisioned, perform the following steps to grant read or wr
 1. Select the **Customized Power BI Report** link. The Power BI workspace where the sample reports will be provided appears. These reports are the copy of your out-of-the-box reports. You can make changes to the reports.
 
       :::image type="content" source="media/grant-permissions.png" alt-text="Grant permissions":::
-1. Select **Access**. The Access dialog appears. If you want to embed the report back to Dynamics 365 and share it with someone, make sure you grant the person workspace contributor role or an equivalent role.
+1. Select **Access**. The Access dialog appears. If you want to embed the report back to Dynamics 365 and share it with someone, make sure you grant the person workspace contributor role or an equivalent role. 
 
 ### Edit an existing report or create a new one
 
