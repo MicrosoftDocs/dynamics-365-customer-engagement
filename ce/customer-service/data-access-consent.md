@@ -1,6 +1,6 @@
 ---
 title: "Data access consent | MicrosoftDocs"
-description: "Learn about consent requirements that is required for provisioning Omnichannel for Customer Service."
+description: "Learn about the consent requirements that are required for provisioning Omnichannel for Customer Service."
 ms.date: 03/08/2023
 author: neeranelli
 ms.author: nenellim

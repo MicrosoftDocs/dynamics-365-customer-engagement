@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 01/02/2023
+ms.date: 03/08/2023
 ms.custom: bap-template
 ---
 
@@ -29,7 +29,7 @@ Let's take an example in which each routing stage has a single ruleset with a co
 ## Delete routing diagnostics data
 
 > [!CAUTION]
-> Delete operations are irreversible and therefore we recommend that you verify and ensure the data is no longer required before you run the delete job.
+> Delete operations are irreversible. Therefore, we recommend that you verify and ensure the data is no longer required before you run the delete job.
 
 1. Perform the steps in the [Capacity page details](/power-platform/admin/capacity-storage#capacity-page-details) article to view the storage consumption of the diagnostics records mentioned in step 2.
 
