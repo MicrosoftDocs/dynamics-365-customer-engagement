@@ -22,7 +22,7 @@ search.app:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Dynamics 365 comes with an out-of-the box skill control for messaging channels. The skill control when added to the case or conversation forms enables you to view and update skills. Your administrator can enable the setting that allows you to update skills at runtime.
+Dynamics 365 comes with an out-of-the box skill control for messaging channels. When added to the case or conversation forms, the skill control enables you to view and update skills. Your administrator can enable the setting that allows you to update skills at runtime.
 
 > [!NOTE]
 > For the record type entity, you'll need to customize the case form to add the skill control. More information: [Add a skill control for routed records](add-skill-control.md)
