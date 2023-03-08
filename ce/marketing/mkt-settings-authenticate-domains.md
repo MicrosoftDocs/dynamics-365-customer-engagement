@@ -19,6 +19,9 @@ search.app:
 
 # Authenticate your domains (old version)
 
+> [!IMPORTANT]
+>This section explains the old domain authentication for outbound marketing; for an updated version based on real-time marketing, see "[new version](domain-authentication.md)".
+
 Domain authentication is important for two reasons:
 
 - For *marketing email messages*, domain authentication enables recipient email servers to confirm that the from-address shown on each of your messages belongs to your organization. Authentication also confirms that your organization has approved Dynamics 365 Marketing to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
