@@ -1,7 +1,3 @@
-<!-- 
->[!Note]
-> In this article, we take a high-level tour of the schedule assistant. For a more in-depth tutorial, check out this [full video walkthrough of the schedule assistant](https://youtu.be/QOrePYZ9fds), which includes some practical examples. -->
-
 The schedule assistant is a semi-automated feature that helps dispatchers assign requirements to ideal resources.
 
 The schedule assistant recommends resources that match criteria, like availability or skills, for requirements. The system also estimates travel time for the recommended resources, which helps dispatchers plan work accordingly.

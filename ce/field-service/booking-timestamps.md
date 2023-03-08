@@ -1,5 +1,5 @@
 ---
-title: "Booking timestamps in Dynamics 365 Field Service | MicrosoftDocs"
+title: Booking timestamps and booking journals
 description: Learn about booking timestamps in Dynamics 365 Field Service.
 ms.date: 02/23/2023
 ms.topic: how-to
@@ -12,7 +12,7 @@ search.app:
 
 # Booking timestamps and booking journals
 
-Booking timestamps record the date and time that a *Booking Status* changes on a work order. <!-- requirement? --> They let you keep track of how technicians spend their time, provide details for invoicing, and enable booking journals.
+Booking timestamps record the date and time that a *Booking Status* changes. They let you keep track of how technicians spend their time, provide details for invoicing, and enable booking journals.
 
 - Reporting, in order to see how technicians are spending their time
 - Time-keeping, in order to provide a level of detail for invoicing
@@ -30,7 +30,7 @@ Create or customize [booking statuses](set-up-booking-statuses.md) that match yo
 
 ## Create timestamps
 
-By default, the system creates timestamps automatically when the booking status on an entity changes the related Field Service status. Admins can [change this behavior on the Field Service Settings](configure-default-settings.md#work-order--booking-settings) in the **Timestamp Frequency** field.<!--only for Committed or all statuses-->
+By default, the system creates timestamps automatically when the booking status on an entity changes the related Field Service status. Admins can [change this behavior on the Field Service Settings](configure-default-settings.md#work-order--booking-settings) in the **Timestamp Frequency** field.
 
 Think of a default work order process.
 

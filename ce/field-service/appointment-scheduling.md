@@ -16,7 +16,7 @@ Organizations often use appointments in Dynamics 365 applications. Typical examp
 
 You can use the schedule board to show [Dynamics 365 Appointments](/dynamics365/customer-engagement/web-api/appointment) alongside bookings. Include appointments on the schedule board and during the scheduling process so dispatchers see the availability.
 
-### Environment setting
+## Environment setting
 
 This setting will enable appointment scheduling for all resources in your organization.
 
@@ -27,7 +27,7 @@ This setting will enable appointment scheduling for all resources in your organi
 
 1. In the dialog box, select **Got it. Let’s enable.** Then **Save & Close**.
 
-### Resource setting
+## Resource setting
 
 After enabling appointments on the environment-level, you can change the setting for individual resources.
 
@@ -57,9 +57,7 @@ The schedule board uses colors defined in [Dataverse appointment](/dynamics365/c
 
 ### Hide canceled appointments on the schedule board
 
-The **Show canceled** setting in **Board view settings** controls the visibility of canceled bookings and appointments.
-
-<!-- screenshot with new sb or link to board settings doc -->
+The [**Show canceled** setting in **Board view settings**](schedule-board-tab-settings.md) controls the visibility of canceled bookings and appointments.
 
 ## Automatically schedule around appointments
 

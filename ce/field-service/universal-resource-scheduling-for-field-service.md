@@ -1,7 +1,7 @@
 ---
 title: Universal Resource Scheduling for Dynamics 365 Field Service overview
 description: Learn all about Universal Resource Scheduling for Dynamics 365 Field Service
-ms.date: 02/14/2023
+ms.date: 03/08/2023
 ms.custom: bap-template
 ms.topic: overview
 author: clearab
@@ -26,7 +26,7 @@ Work orders and related entities are a part of Field Service and work seamlessly
 
 In other words, Field Service defines **what** needs to be done and **where**, while Universal Resource Scheduling defines **who** can perform the work and **when**.
 
-## Generate requirements from a work order
+### Generate requirements from a work order
 
 For every work order, the system creates a related requirement. It outlines the specific details for resources that can perform the work order. Requirements will be scheduled to resources and reference the work order.
 
@@ -37,9 +37,9 @@ Requirements inherit attributes from the work order, such as name, location, dur
 > [!CAUTION]
 > Manually created requirements for work order don't synchronize automatically.
 
-## Book a resource for a requirement
-<!-- This section ideally links articles that explain the book options for FS. RSO should have its own article about booking -->
-After a work order and related requirement are ready to be scheduled, Universal Resource Scheduling can be used to **book** the requirement to the most appropriate resource.
+### Book a resource for a requirement
+
+After a work order and related requirement are ready for scheduling, dispatchers book the requirement to the most appropriate resource.
 
 Booking a requirement related to a work order creates a bookable resource booking record that keeps track of which resource will perform the work, the status of the booking, travel time, and start/end times.
 
@@ -136,55 +136,6 @@ Take a staggered approach to implement scheduling processes in your organization
 1. Move to [semi-automated scheduling with the schedule assistant](schedule-assistant.md) to find resources that match the requirements faster.
 1. Consider using the R[esource Scheduling Optimization add-in](rso-overview.md) to enable more automation for your scheduling needs. Kick it off with [single resource optimization](single-resource-optimization.md) before rolling out [automation for your entire scheduling process.](rso-schedule-optimization.md)
   
-<!--
-### Geo-locate resources
-
-Work order locations are defined by the latitude / longitude of either the work order form, or the related service account. It's important to also geo-locate resources.
-
-Navigate to **Resource Scheduling > Resources**.
-
-To ensure resources can appear on the schedule board map, they must have a geocoded starting and ending location. 
-
-There are **two ways** to geocode your resources.
-
-#### Option one
-
-Set resource start/end location to **Resource address** and ensure the related resource record (User, Account, Contact) as defined by the resource type has latitude and longitude values.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Bookable Resource window, showing the Scheduling tab with the Start and End Location both set to the Resource Address.](media/scheduling-resource-address.png)
-
-For example, in the following screenshot, the bookable resource has resource type = Contact; this means the related contact record must be geo-coded, meaning latitude and longitude fields must have values. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Bookable Resource window, showing the General tab with the Resource Type and Contact highlighted with a red border.](media/scheduling-urs-resource-type.png)
-
-> [!NOTE]
-> 
-
-#### Option two
-
-Set resource start/end location to **Organizational Unit Address** and ensure the related organizational unit record is geo-coded, meaning latitude and longitude fields must have values.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Bookable Resource window, showing the Scheduling tab with the Start and End Location both set to Organizational Unit Address.](media/scheduling-urs-resource-organizational-unit.png)
-
-> [!NOTE] 
-> You may need to add the latitude/longitude fields to the organizational unit entity form.
-
-#### Confirm geocoding works appropriately
-
-To make sure resources are geocoded properly, navigate to **Universal Resource Scheduling** > **Schedule Board**. The resource should appear on the map. Select a resource's name to highlight their location pin on the map.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of geo coded resource on map.](media/scheduling-urs-schedule-board-locate-resource.png)
-
-## Additional notes
-
-If the work order or requirement doesn't have a latitude or longitude, the location is treated as location-agnostic, which means the location of resources isn't considered during scheduling. If the work order or requirement has a latitude and longitude and work location is set to **onsite**, resource locations, travel time, and routes are considered during scheduling. -->
-
 ## Next steps
 
 - [Use and configure the schedule board in Dynamics 365 Field Service](configure-schedule-board.md)

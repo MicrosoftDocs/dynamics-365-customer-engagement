@@ -42,8 +42,6 @@ Manually scheduling a multi-day requirement on the schedule board allows you to 
 
 1. On the requirement records, go to **Related** > **Requirement Details**.
 
-<!-- don't understand how the splitting happens and responds to calendar change, this seems a bit confusing.-->
-
    The system automatically creates requirement details and splits them into segments based on the duration and the allocation method. The requirement details are based on the requirement's calendar. Edit them by selecting **Modify Calendar** on the resource requirement record.
 
    > [!div class="mx-imgBorder"]
