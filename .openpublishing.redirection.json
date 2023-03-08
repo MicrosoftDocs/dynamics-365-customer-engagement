@@ -4022,6 +4022,7 @@
       "redirect_url": "/dynamics365/customer-engagement/sales-enterprise/help-hub",
       "redirect_document_id": "false"
     },
+
     {
       "source_path": "ce/social-engagement/ebooks-and-videos.md",
       "redirect_url": "/dynamics365/customer-engagement/social-engagement/help-hub",
@@ -23719,6 +23720,11 @@
     {
       "source_path": "ce/sales-enterprise/developer/custom-plugin-handling-shared-variable.md",
       "redirect_url": "/dynamics365/sales/developer/custom-plugin-handling-shared-variable",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/reference/custom-actions/events-context-deal-manager.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/clientapi/events-forms-grids",
       "redirect_document_id": "false"
     },
     {
