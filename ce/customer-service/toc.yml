@@ -1014,8 +1014,8 @@
             href: model-customize-reports.md
           - name: Data models and report mappings for historical analytics reports
             href: oob-data-models.md
-          - name: Customize KPIs for intraday insights
-            href: customize-kpis-intraday-insights.md
+        - name: Customize KPIs for intraday insights
+          href: customize-kpis-intraday-insights.md
       - name: Configure forecasting
         items:
         - name: Configure case forecasting
