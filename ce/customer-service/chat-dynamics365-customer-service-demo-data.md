@@ -1,6 +1,6 @@
 ---
 title: Install demo data for Chat for Dynamics 365 Customer Service
-description: Use this article to know how to install sample or demo data for Chat for Dynamics 365 Customer Service.
+description: Learn how to install sample or demo data for Chat for Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -20,7 +20,7 @@ The sample data is available as a downloadable demo package, which you can insta
 >
 > - Once installed, you can't uninstall the demo data.
 > - The Chat for Dynamics 365 Customer Service demo data is available only in English.
-> - Install the demo data on a demonstration, evaluation, training, or test environment. We do not recommend installing the demo data in production environments.
+> - Install the demo data on a demonstration, evaluation, training, or test environment. We don't recommend installing the demo data in production environments.
 
 ## Prerequisites
 
@@ -181,7 +181,7 @@ After the demo data completely loads, do the following:
 ### Install demo data in an environment that already has data
 
 > [!WARNING]
-> We recommend that you do not install demo data on top of existing data because to do so, you have to remove safety precautions.
+> We recommend that you don't install demo data on top of existing data because to do so, you have to remove safety precautions.
 
 If you must install demo data on top of an existing Omnichannel for Customer Service trial or demo environment that already has data, you'll need to suspend the safety prechecks performed by the installer.
 
