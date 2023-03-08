@@ -22,17 +22,17 @@ search.app:
 Domain authentication is very important for many reasons:
 - For marketing email messages, domain authentication enables recipient email servers to confirm that the from-address shown on each of your messages belongs to your organization. Authentication also confirms that your organization has approved Dynamics 365 Marketing to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
 - For externally hosted forms, domain authentication confirms that you own the domain, establishing an enhanced trust relationship with your domain. The enhanced trust relationship enables embedded marketing forms to be pre-filled with data for known contacts.
-- Domain authentication will also enable DKIM, SPF protection for your emails and ensure your From and Return-Path addresses align, improving your brand representation in the email.
+- Domain authentication will also enable DomainKeys Identified Mail (DKIM), Sender Policy Framework (SPF) protection for your emails and ensure your From and Return-Path addresses align, improving your brand representation in the email.
 
-The primary purpose of email-domain authentication is to protect both the sender and the recipient from any potentially fraudulent activities using email like spam, phishing or scam by enabling SPF and DKIM. 
+The primary purpose of email-domain authentication is to protect both the sender and the recipient from any potentially fraudulent activities using email like spam, phishing, or scams by enabling SPF and DKIM. 
 
-DKIM - a method called DomainKeys Identified Mail (DKIM) helps to protect email content and headers. It is based on public/private key encryption and signatures verified using published DNS records for sender domain. This type of encryption provides valuable feedback to the recipient, that the email is sent from a verified sender. And its content has not been modified during the transfer phase.
+DomainKeys Identified Mail (DKIM) is a method that helps to protect email content and headers. It is based on public/private key encryption and signatures verified using published DNS records for sender domain. This type of encryption provides valuable feedback to the recipient, that the email is sent from a verified sender. And its content has not been modified during the transfer phase.
 
-SPF is a second type of protection and authentication which ensures that an email was sent from a trusted source (IP address) set up by a sender domain owner.
+SPF is another type of protection and authentication that ensures that an email was sent from a trusted source (IP address) set up by a sender domain owner.
 
 When you error check or go live with a marketing email message, the verification system requires that the message uses a from-address from an authenticated domain registered and confirmed for your organization. You'll get an error if you try to send a message that has a from-address from an unregistered domain. 
 
-To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md). To learn more about embedded forms and pre-filling, see [Integrate with landing pages on external websites](embed-forms.md).
+To learn more about email marketing and deliverability, see [Best practices for email marketing](get-ready-email-marketing.md). To learn more about embedded forms and pre-filling, see [Integrate with landing pages on external websites](embed-forms.md).
 
 ## The default authenticated domain
 
@@ -50,7 +50,7 @@ Set up as many authenticated domains as you need to cover all the from-addresses
 > To use form pre-filling, the page hosting the form must be served over HTTPS (not HTTP).
 
 > [!NOTE]
-> All new instances and trials automatically authenticate their instance domain with DKIM and SPF and set that domain as the default sending domain for your instance. Therefore, you'll usually see at least one authenticated domain already set up for all new instances. It should not be used for your production email sending purposes, as it is designed only for initial testing purposes.  But please make sure you authenticate your own domain before you go live. 
+> All new instances and trials automatically authenticate their instance domain with DKIM and SPF and set that domain as the default sending domain for your instance. Therefore, you'll usually see at least one authenticated domain already set up for all new instances. It should not be used for production email sending purposes, as it is designed only for initial testing purposes.  Make sure to authenticate your own domain before you go live. 
 
 ## Prevent sending emails from unauthorized domains
 
@@ -66,56 +66,55 @@ To authenticate a domain:
 - Go to **Settings > Email marketing > Domain authentication**. A list of existing authenticated domains opens.  
 
 > [!div class="mx-imgBorder"]
-> ![active domains](media/active-domains.png "active domains")
+> ![active domains](media/active-domains.png "Active domains")
 
-- Select **New** on the command bar to add a new domain. Wizard will guide you through the whole domain authentication process step by step. On the first step you will need to enter the domain name you wish to authenticate and select if it will be used for forms hosting and email sending capabilities:
-
-> [!div class="mx-imgBorder"]
-> ![configure new domain](media/configure-new-domain.png "configure new domain")
-
-- On the next step you will be asked to add you first DNS record, that will check and confirm the ownership of your domain. (Use “Copy” buttons to properly copy the values of TXT record to avoid typos): 
+- Select **New** on the command bar to add a new domain. The wizard will guide you through the whole domain authentication process step by step. On the first step you will need to enter the domain name that you want to authenticate and select if it will be used for forms hosting and email sending capabilities.
 
 > [!div class="mx-imgBorder"]
-> ![verify domain ownership](media/verify-domain-ownership.png "verify domain ownership")
+> ![configure new domain](media/configure-new-domain.png "Configure new domain")
 
-- Next 2 steps will guide you through the setup process of CNAME records(CNAME1 and CNAME2) that stand for DKIM protection functionality:
-
-> [!div class="mx-imgBorder"]
-> ![enable email sending](media/enable-email-sending.png "enable email sending")
+- On the next step you will be asked to add your first DNS record, which will check and confirm the ownership of your domain. Use “Copy” buttons to accurately copy the values of TXT record to avoid typos. 
 
 > [!div class="mx-imgBorder"]
-> ![configure domain](media/configure-domain.png "configure domain")
+> ![verify domain ownership](media/verify-domain-ownership.png "Verify domain ownership")
 
-- Next step stands for the last required CNAME DNS record which is for Envelope-From (Return-Path) domain alignment and SPF protection functionality:
-
-> [!div class="mx-imgBorder"]
-> ![envelope from](media/envelope-from.png "envelope from")
-
-- On the last step you will be able to review and check your published DNS records. After your checkup is finished, press the “Verify” button. Our system will check and validate all published DNS records and will show you the result summary on the dashboard. If there’s something wrong with your DNS records, you will see which exact record fails on the dashboard.
-
-Here’s an example of an error message, which states that TXT Ownership key was not found published in the DNS, which means either record was not yet published, or it has some mistake/typo inside: 
+- The next 2 steps will guide you through the setup process of CNAME records (CNAME1 and CNAME2) that stand for DKIM protection functionality.
 
 > [!div class="mx-imgBorder"]
-> ![review and finish](media/review-your-configuration.png "review and finish")
-
-Once everything is finished you will see green checkmarks against each DNS record and Confirmed status on your dashboard, which means that your domain authentication is ready.
+> ![enable email sending](media/enable-email-sending.png "Enable email sending")
 
 > [!div class="mx-imgBorder"]
-> ![domain authentication finished](media/domain-authentication-ready.png "domain authentication finished")
+> ![configure domain](media/configure-domain.png "Configure domain")
+
+- The next step stands for the last required CNAME DNS record, which is for Envelope-From (Return-Path) domain alignment and SPF protection functionality.
+
+> [!div class="mx-imgBorder"]
+> ![envelope from](media/envelope-from.png "Envelope from")
+
+- On the last step you will be able to review and check your published DNS records. After your checkup is finished, select **Verify**. The system will check and validate all published DNS records and will show you the result summary on the dashboard. If there’s something wrong with your DNS records, you will see which exact record fails on the dashboard.
+
+Here’s an example of an error message that states that TXT Ownership key was not found published in the DNS, which means either the record was not yet published, or it has some mistake/typo.
+
+> [!div class="mx-imgBorder"]
+> ![review and finish](media/review-your-configuration.png "Review and finish")
+
+After everything is finished, you will see green checkmarks next to each DNS record and Confirmed status on your dashboard, which means that your domain authentication is ready.
+
+> [!div class="mx-imgBorder"]
+> ![domain authentication finished](media/domain-authentication-ready.png "Domain authentication finished")
 
 > [!NOTE]
-> You may authenticate more than one domain or subdomain of your choice.  
+> You can authenticate more than one domain or subdomain of your choice.  
 www.yourdomain.com and yourdomain.com are 2 different domains and should be added separately. 
-(Technically it is possible to add www.yourdomain.com to use it for sending emails, but we do not recommend doing that as you From email address would look like markreting@www.yourdomain.com instead of marketing@yourdomain.com)
+Technically it is possible to add www.yourdomain.com to use it for sending emails, but we do not recommend doing that as the From email address would look like markreting@www.yourdomain.com instead of marketing@yourdomain.com.
 
-> [!IMPORTANT]
-> There are known situations when it is not possible to add a TXT record to a domain or subdomain due to DNS limitations, as it already has existing working CNAME record published.
+> There are known issues when it is not possible to add a TXT record to a domain or subdomain due to DNS limitations, as it already has existing working CNAME record published.
 >
-> In such cases you may use an alternative method for domain ownership confirmation. Instead of adding TXT record to the root of domain/subdomain you may create a TXT record for a subdomain dynmktown.yourdomain.com.
+> In such cases you may use an alternative method for domain ownership confirmation. Instead of adding TXT record to the root of domain/subdomain you need to create a TXT record for a subdomain dynmktown.yourdomain.com.
 >
-> This will validate your ownership for domain yourdomain.com
+> This will validate your ownership for domain yourdomain.com.
 >
-> Same will work for a subdomain. For example to validate domain mail.yourdomain.com you will need to add a TXT record to dynmktown.mail.yourdomain.com
+> The same scenario will work for a subdomain. For example, to validate domain mail.yourdomain.com you will need to add a TXT record to dynmktown.mail.yourdomain.com.
 
 ### See also
 
