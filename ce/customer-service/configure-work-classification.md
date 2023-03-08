@@ -1,11 +1,12 @@
 ---
-title: "Configure work classification rulesets | MicrosoftDocs"
-description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 07/18/2022
-ms.topic: article
+title: Configure work classification rulesets
+description: Learn how to configure work classification rulesets for unified routing.
+ms.date: 03/08/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 searchScope:
 - D365-App-customerservicehub
 - D365-Entity-queueitem
@@ -15,12 +16,6 @@ searchScope:
 - Customer Service
 ---
 # Configure work classification rulesets for unified routing
-
-## Introduction
-
-Use the CSR Manager or Omnichannel administrator role to configure the work classification rules for a workstream.
-
-You will do the tasks listed in this article in the Omnichannel admin center or Customer Service Hub app.
 
 In unified routing, work classification lets you define rules to add detailed information to incoming work items that can be used to route and assign the work items optimally.
 
@@ -42,6 +37,10 @@ After all the work classification rulesets have been run, the system evaluates t
 In work classification rulesets, the values set in one of the rule items of a ruleset can be used in the next rulesets' rule items. For example: If in output section of one of the rule items of ruleset 1, priority is set to High; then any next ruleset rule item can use the priority variable and corresponding value "High" to set value for another attribute, such as, "If Priority equals High, set severity to critical".
 
 For a rule item, you can set the output values for up to five attributes.
+
+## Prerequisite
+
+You need the CSR Manager or Omnichannel administrator role to configure the work classification rules for a workstream.
 
 ## Create work classification rulesets
 
@@ -99,7 +98,6 @@ Create work classification rulesets that are based on capacity profiles to route
 1. Perform the steps 1 through 5 in [Create logical skill classification rulesets](#create-logical-skill-classification-rulesets).
 2. In the **Output** area, select **Capacity profile**, and choose a capacity profile whose value should be set if the conditions are met.
    :::image type="content" source="media/capacity-profile-based-rule.png" alt-text="Capacity profile-based work classification rule.":::
-
 
 ## Create machine learning-based skill classification rulesets
 
