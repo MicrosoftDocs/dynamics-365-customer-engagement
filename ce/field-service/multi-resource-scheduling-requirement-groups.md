@@ -11,7 +11,7 @@ search.app:
   - D365FS
 ---
 
-# Schedule work with multiple resources using requirement groups
+# Schedule work with multiple requirements using requirement group
 
 [!INCLUDE[multi-resource](../shared/urs/multi-resource-scheduling.md)]
 

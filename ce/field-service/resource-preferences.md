@@ -10,7 +10,7 @@ search.app:
   - D365FS
 ---
 
-# Resource preferences in Dynamics 365 Field Service
+# Choose preferred resources for requirements
 
 Adding preferred resources to a requirement applies restrictions on which resources will be matched to a requirement when scheduling with the schedule assistant or when using resource scheduling optimization.
 
