@@ -1,6 +1,6 @@
 ---
 title: Configure an SMS channel for Twilio
-description: Use this topic to understand how to configure an SMS channel for Twilio in Omnichannel for Customer Service.
+description: Learn how to configure an SMS channel for Twilio in Omnichannel for Customer Service.
 ms.date: 03/08/2023
 ms.topic: how-to
 author: neeranelli
@@ -78,15 +78,15 @@ To configure the SMS channel, you'll do the following tasks:
 
 To configure the workstream, make sure you perform the steps to create a workstream for the SMS channel. More information: [Create workstreams](create-workstreams.md)
 
-1. Go to workstreams page and open the workstream that you created for the channel.
-2. In the Set up your SMS channel section, select **Set up SMS**, and then configure the following options:
+1. Go to workstreams page and open the workstream you created for the channel.
+2. In the **Set up your SMS channel** section, select **Set up SMS**, and then configure the following options:
    1. On the **SMS setup** page, select a number from the list.
    2. On the **Language** page, select the language that you want to set as the default.
    3. On the **Behaviors** page, configure the following options:
      - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. More information: [Configure operating hours](create-operating-hours.md)
      - [Custom automated messages](configure-automated-message.md)
      - [Post-conversation survey](configure-post-conversation-survey.md)
-   4. In **User features**, set the toggle for **File attachments** to On and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md)
+   4. In **User features**, set the toggle for **File attachments** to **On** and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md)
      - Customers can send file attachments
      - Agents can send file attachments
    5. Verify the settings on the **Summary** page, and then select **Finish**. The SMS for Twilio channel is configured.
@@ -151,7 +151,6 @@ Perform the following steps to create a work stream for the SMS channel for Twil
     - **Auth Token**: Enter the Twilio AUTH TOKEN.
 
 6. Select **Save**. The **Twilio inbound URL** is generated and displayed.
-
 
 7. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 
