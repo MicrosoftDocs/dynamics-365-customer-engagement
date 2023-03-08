@@ -2,12 +2,10 @@
 title: Create products or services for work orders
 description: Learn how to create products or services for work orders in Dynamics 365 Field Service.
 ms.date: 09/24/2022
-ms.reviewer: mhart
 
 ms.topic: article
 author: jasonccohen
 ms.author: jacoh
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -120,13 +118,9 @@ After [creating a work order](create-work-order.md), you can add products and se
 
 Whether work order products and services are created individually or in bulk as part of a work order incident type template, they'll appear on work order forms in Field Service Mobile.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile, highlighting the products and services sections.](./media/work-order-product-services-mobile.png)
 
 Work order products and services aren't required. Field technicians can edit the quantity or add new items from the product catalog. Administrators use [security roles and field security profiles](view-user-accounts-security-roles.md) to specify what users can edit, create, and delete.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile, showing the quantity and quantity to bill fields, along with line status.](./media/work-order-product-add-mobile.png)
 
 On a work order product record, field technicians will set the **Line Status** of a work order product to **Used**. They also enter a **Quantity**, which represents how many units were used and a **Quantity To Bill**.
 
@@ -135,9 +129,6 @@ For inventory items, enter the warehouse it comes from to update the inventory. 
 You can make non-inventory item as used along with a quantity for reporting.
 
 When using a work order service, set the **Line Status** to **Used** and enter a **Duration** and **Duration to Bill**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile showing a service summary.](./media/work-order-product-service-add-mobile.png)
 
 As products and services are used, the subtotal based on price and quantity to bill is calculated on the work order.
 

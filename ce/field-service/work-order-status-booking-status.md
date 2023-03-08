@@ -2,7 +2,6 @@
 title: "Work order and booking statuses in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn about work order and booking statuses in Dynamics 365 Field Service
 ms.date: 11/04/2021
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
@@ -10,7 +9,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: clearab
 ms.author: anclear
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -116,24 +114,16 @@ Changing the booking status to **Traveling** automatically changes the work orde
 
 When the field technician arrives on site and is ready to begin the work, they change the booking status to **In Progress**. The work order status remains as **Open - In Progress**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of in progress booking status on mobile.](./media/FSM_Booking_InProgress.jpg)
-
 On the related work order, the **First Arrived On** field is updated with the **Actual Arrival Time** of the booking.
 
-During work, the field technician may want to record times they are on break by changing the booking status to **On Break**. 
-
+During work, the field technician may want to record times they are on break by changing the booking status to **On Break**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of on break booking on schedule board.](./media/work-order-statuses-booking-status-onbreak-schedule-board.png)
 
 For both **In Progress** and **On Break** booking statuses, the work order system status remains as **Open - In Progress**.
 
-
-When the work is complete, the field technician will change the booking status to **Completed**. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of completed booking status on mobile.](./media/FSM_Booking_Complete.jpg)
+When the work is complete, the field technician will change the booking status to **Completed**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of updated completed booking on schedule board.](./media/work-order-statuses-booking-status-completed-schedule-board.png)

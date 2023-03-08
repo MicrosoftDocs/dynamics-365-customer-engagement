@@ -1,10 +1,4 @@
 ## Sign-up
-<!---
-### Which email address I should use to sign up?
-
-If your company has an existing relationship with Microsoft and you're allowed to do self-service trials, use your company email address. We'll establish your trial on your company’s account.
-
-If your company doesn't have an existing relationship with Microsoft or you aren’t allowed to do self-service trials on your company’s existing account, use your personal email to sign up and we'll create a temporary account for you. You'll be the administrator of the account and for the trial.-->
 
 ### What are the system requirements for the trial?
 
@@ -13,6 +7,10 @@ This app is a cloud-based service that doesn't require special software other th
 ### How do I sign up for the trial without a Microsoft 365 tenant?
 
 You can enter a non-work email address and we will create an account and tenant for you.
+
+### Can I sign up for trial using a personal email ID that's not associated with a Microsoft account?<a name="personalemail"></a>
+
+You can use a personal email ID. But you won't be able to access Power Platform admin center to add more users to the trial, change security roles, or extend the trial period.
 
 ### Can I sign up for multiple Dynamics 365 apps such as Sales, Marketing, and Customer Service?
 

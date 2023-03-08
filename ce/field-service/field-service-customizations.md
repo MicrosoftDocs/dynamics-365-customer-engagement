@@ -4,7 +4,6 @@ description: Learn how to customize Field Service for your business needs.
 ms.custom:
 - dyn365-fieldservice
 ms.date: 08/25/2021
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to:
@@ -12,7 +11,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: lmasieri
 ms.author: lmasieri
-manager: shellyha
 search.app:
 - D365CE
 - D365FS

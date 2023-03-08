@@ -1,16 +1,10 @@
 ---
 title: "Dynamics 365 Field Service inspections (contains video) | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
-ms.date: 01/12/2023
-ms.reviewer: mhart
+ms.date: 02/12/2023
 ms.topic: article
-
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: josephshum-msft
 ms.author: jshum
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -194,7 +188,7 @@ An inspection completed by a technician will be visible on the bottom of the wor
 
 ## Perform inspections on mobile
 
-You can view and complete inspections on the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) when using at least Field Service v8.8.22+. However, you can't create inspection templates on mobile devices.
+You can view and complete inspections on the [Field Service (Dynamics 365) mobile](mobile-power-app-overview.md) when using at least Field Service v8.8.22+. However, you can't create inspection templates on mobile devices.
 
 Sign in with your Dynamics 365 URL, username, and password, and go to the assigned work order.
 
@@ -263,13 +257,13 @@ Back in Dynamics 365, a dispatcher will see inspection responses.
 
 - Inactive inspections and work order service tasks aren't available in offline mode.
 
-- Inspections don't load in Internet Explorer. Microsoft Edge or Chrome is recommended.
-
 - The question type "Entity lookup" shows inactive records.
 
 - If an inspection contains a large (50+) number of files, users may encounter errors while loading the inspection form.
 
 - Users may encounter errors when adding a large number of files in a single upload. This issue is more likely to happen when the files are large and/or the network signal is poor. We recommend splitting large uploads in smaller chunks, where each upload doesn't exceed a total size of 40 MB.
+
+- Avoid trailing blank pages without questions in an inspection as this can cause deserialization errors in out-of-box flows.
 
 ### Field Service inspections or Power Apps inspections
 

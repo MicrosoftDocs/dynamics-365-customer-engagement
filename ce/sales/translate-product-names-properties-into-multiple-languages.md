@@ -38,7 +38,8 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
   
 4. In the **Export Field Translations** dialog box, select **OK**.  
   
-    All product fields that are marked as localizable by default will be exported. Your internal developers can mark the fields as localizable. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with localizable attributes](/dynamics365/customerengagement/on-premises/developer/localize-product-property-values).  
+    All product fields that are marked as localizable by default will be exported. Your internal developers can mark the fields as localizable. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Localize product property values](developer/localize-product-property-values.md)
+
   
 5. Save the .zip file to your local computer.  
   

@@ -1,11 +1,12 @@
 ---
-title: "Configure automatic closure of conversations | MicrosoftDocs"
-description: "Use this article to understand how to configure the auto-close duration of conversations using the Web API."
-ms.date: 01/20/2023
-ms.topic: reference
+title: Configure automatic closure of conversations
+description: Use this article to understand how to configure the auto-close duration of conversations using the Web API.
+ms.date: 02/22/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 # Configure automatic closure of conversations
 
@@ -103,6 +104,24 @@ If-None-Match: null
 }
 ```
 
+Here's a sample code for updating existing records in the `msdyn_occhannelstateconfigurations` entity:
+
+```javascript
+var data =
+    {
+        "msdyn_autocloseliveworkitemafter": 2
+    }
+// update the record
+Xrm.WebApi.updateRecord("msdyn_occhannelstateconfiguration", "6283ab63-5778-e911-8196-000d3af7d71e", data).then(
+    function success(result) {
+        console.log("Auto close time updated");
+    },
+    function (error) {
+        console.log(error.message);
+    }
+);
+```
+
 > [!NOTE]
 > The value for the `msdyn_autocloseliveworkitemafter` attribute is in minutes. If you want to provide a value that is in days, you'll have to convert it into minutes. For example, 1 day will be 24 x 60 = 1,440 minutes.
 
@@ -111,7 +130,7 @@ The conversation closes automatically if the value of the `msdyn_autocloselivewo
 If the conversation is in the wrap-up state&mdash;that is, the agent has resolved the issue and can now perform some post-conversation steps to close the conversation&mdash;then the conversation is closed if the value of the `msdyn_autocloseliveworkitemafter` attribute is greater than the value of the `wrapupinitiatedon` attribute.
 
 > [!IMPORTANT]
-> The decision to close a conversation based on the values of the `msdyn_autocloseliveworkitemafter` and `createdon` attributes is made when a scheduled job runs, and not when the `PATCH` Web API request is run. This means that if the value of `msdyn_autocloseliveworkitemafter` is mentioned as 5 minutes but the scheduled job runs after 12 hours, then the conversation will close only when the scheduled job runs after 12 hours.
+> The decision to close a conversation based on the values of the `msdyn_autocloseliveworkitemafter` and `createdon` attributes is made when a scheduled job runs, and not when the `PATCH` Web API request is run.
 
 ## Configure automatic closure of Wrap-up state for live chat
 
@@ -119,10 +138,14 @@ The default time for automatically closing a live chat that's in **Wrap-up** sta
 
 The value defined for the **Block capacity for wrap-up** field in the workstream overrides the value specified in the `msdyn_autocloseliveworkitemafter` attribute, if it is more than the value for the `msdyn_autocloseliveworkitemafter` attribute. For example, if you have set the value for blocking agent's capacity as 15 minutes and the `msdyn_autocloseliveworkitemafter` attribute as 10 minutes, a conversation in **Wrap-up** state will occupy capacity for 15 minutes and will be eligible for automatic closure only after 15 minutes.
 
+## Next steps
+
+[Update an entity using Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)  
+
 ### See also
 
 [Automatic closure of a conversation](oc-conversation-state.md#automatically-close-conversations)  
-[Update an entity using Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)  
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

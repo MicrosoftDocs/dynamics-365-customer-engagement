@@ -1,7 +1,63 @@
+## Release schedule
+
+When a new version of Universal Resource Scheduling releases, it becomes available in different geographic regions at different times. Use the table below to see estimates for when the next release will become available in the region of your environment.
+
+For information about other updates to Universal Resource Scheduling, visit the Field Service section of the [Dynamics 365 release plans](/dynamics365/release-plans/).
+
+| Station | Region | Current version | Next version | Scheduled date |
+| ------- | ------ | --------------  | -----------  | -------------  |
+|**Station 1** | *First Release*| [3.12.97.9](#312979) | TBD | 03/03/2023 |
+|**Station 2** | *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [3.12.97.9](#312979)  | TBD | 03/10/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* | [3.12.97.9](#312979) | TBD | 03/17/2023 |
+|**Station 4** | *Europe* | [3.12.96.38](#3129638) | [3.12.97.9](#312979) | 03/10/2023 |
+|**Station 5** | *North America*| [3.12.96.38](#3129638) | [3.12.97.9](#312979) | 03/17/2023 |
+|**Station 6** | *Government Community Cloud, DoD, China* | [3.12.96.38](#3129638)  | [3.12.97.9](#312979) | 03/24/2023 |
+
+>[!NOTE]
+>
+> - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
+> - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.100.2 - 2023 Wave 1 Early Access (EA) Release
+
+**Resource Scheduling controls:** 1.2.40.230251
+
+- The new schedule board is now the default for all organizations, and the legacy schedule board is [officially deprecated](../../common-scheduler/deprecations.md). The setting to enable the new schedule board on the schedule board settings page has been removed, and replaced with a solution setting. You can still manually [enable the legacy schedule board](../../field-service/configure-schedule-board.md#enable-the-legacy-schedule-board) by changing the solution setting.
+
+## 3.12.97.9
+
+**Resource Scheduling Controls:** 1.2.37.230406
+
+**Dataverse:** 4.0.87.9
+
+- Removed error logging for extraneous "Failed to resolve sorting" issue that was bloating error logs.
+- Bug Fixes
+  -  When moving a booking in the weekly view, the date in the prompt message now correctly displays the date the booking is moving to instead of the first day of that week. The date selected is consistent with the original date. For example, move it from Monday to Monday the following week.
+  -  Icon for locked bookings now shows on the schedule board.
+  -  Resource Scheduling Optimization Add-in options on the schedule board for single resource optimization behave similarly to the legacy schedule board.
+  -  The schedule board now always respects the start/end times in the working time settings.
+  -  Selecting a resource on hourly/weekly/daily view on the schedule board now opens the Create Booking pane as expected.
+  -  Switching from daily to hourly view on the schedule board no longer occasionally crashes the schedule board.
+
+## 3.12.96.38
+
+**Resource Scheduling controls:** 1.2.36.230171
+
+- This release fixes the create/update booking failures with organizations running custom plugins to create/update bookings seen with URS version 3.12.96.25.
 
 ## 3.12.96.25
 
-(Includes Resource Scheduling controls version 1.2.36.230171).
+**Resource Scheduling controls:** 1.2.36.230171
+
+- Improved data caching on schedule board, reducing the load time on the schedule board or when switching between tabs.
+- Decreased the number of times the schedule board refreshes on load, particularly for Schedule Assistant, reducing screen flicker and page loading times.
+- Bug fixes
+  - Creating a booking with one minute duration now behaves as expected.
+  - Typing quickly in the search or filter boxes on the schedule board no longer closes the input box.
+  - Changing the non-working hours color on the schedule board no longer requires a page refresh to see the selected color.
+  - The time on the schedule board now always respects personalization settings at across zoom levels.
+  - When using the "Rebook" option, the suggested start time will be the start time on the existing booking.
+  - The schedule board no longer crashes when switching between tabs with different timezones.
 
 ## 3.12.92.14
 
@@ -10,10 +66,6 @@
 - Race condition resulting in incorrect resources to be used in loadBookingAggregates.
 - New schedule board update for customizations to resource templates.
 - Booking alert panel crash when alerts have been deleted.
-
-
-(Includes Resource Scheduling controls version 1.2.32.222981).
-
 - Fixed a bug that prevented creating a new entity in the Field Service setup wizard.
 - Improved error handling for geocode action.
 - Improved resource search from Schedule Assistant.
@@ -22,7 +74,6 @@
 - Requirements can be scheduled multiple times while first one is still booking.
 - Fixed a bug where drag and drop booking in new schedule board before booking is complete results in duplicate booking.
 - Improved formatting function to display duration in day view and negative duration.
-
 
 ## 3.12.91.2
 

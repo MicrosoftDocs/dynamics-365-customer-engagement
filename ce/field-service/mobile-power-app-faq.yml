@@ -2,19 +2,12 @@
 metadata:
   title: "Frequently asked questions for Field Service (Dynamics 365) mobile app | MicrosoftDocs"
   description: Find answers to commonly asked questions about the Field Service (Dynamics 365) mobile app.
-  ms.date: 09/17/2022
-  ms.reviewer: mhart
+  ms.date: 02/28/2023
   ms.subservice: field-service-mobile
   ms.topic: faq
-  applies_to: 
-    - "Dynamics 365 (online)"
-    - "Dynamics 365 Version 9.x"
   author: JonBaker007
   ms.author: jobaker
-  manager: shellyha
-  search.app: 
-    - D365CE
-    - D365FS
+
 title: Frequently asked questions for the Field Service (Dynamics 365) mobile app
 summary: |
 sections:
@@ -78,6 +71,11 @@ sections:
       - question: Where are some Commanding options hidden while the application is in Online versus Offline mode?
         answer: |
           Commanding options, which aren't supported in Offline mode, are hidden from the UI after the application transitions to Offline mode. A list of Offline supported Command bar options is available from [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities).
+      - question: How can I debug offline JavaScript?
+        answer: |
+          You can use your Android device to [debug JavaScript in mobile apps](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-mobile-apps).
+
+  
   - name: Sign in
     questions:     
         - question: What do the "Reconfigure" and "Sign out" options do?
@@ -114,10 +112,14 @@ sections:
             3. Sign in again, pull down the screen to refresh, and wait for at least a few minutes.
           
             If completing steps 1 and 2 doesn't resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
-        - question: Can external users access the Field Service (Dynamics 365) mobile app?  
+        - question: Can external guest users access the Field Service (Dynamics 365) mobile app?  
           answer: |
-           Currently, external users can't access the Field Service (Dynamics 365) mobile app.
+           Yes, frontline workers [enabled as Azure AD B2B collaborator](/azure/active-directory/external-identities/what-is-b2b) (guest) can access the mobile app by [switching to the guest tenant](/power-apps/mobile/tenant-switcher).
            
+           If a guest user needs to access the application with a personal account, use a formatted deep link to access the guest tenant.
+           ```
+           https://apps.powerapps.com/mobile/redirect?appid=<app-id>&tenantid=<tenant-id>&playerchannel=FieldServiceMobile&sourceurl=https%3A%2F%2F<org-url-without-https>%2Fmain.aspx%3Fappid%<app-id>
+           ```
         - question: Can I access SharePoint documents in offline mode?
           answer: |
            Access to SharePoint documents isn't currently supported in offline mode. 

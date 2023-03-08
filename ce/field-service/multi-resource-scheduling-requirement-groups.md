@@ -4,7 +4,6 @@ description: Learn about multiresource scheduling with requirement groups in Dyn
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 06/24/2019
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
@@ -12,7 +11,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: clearab
 ms.author: anclear
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS

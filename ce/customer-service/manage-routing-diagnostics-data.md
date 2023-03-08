@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 01/02/2023
+ms.date: 03/08/2023
 ms.custom: bap-template
 ---
 
@@ -28,11 +28,12 @@ Let's take an example in which each routing stage has a single ruleset with a co
 
 ## Delete routing diagnostics data
 
+> [!CAUTION]
+> Delete operations are irreversible. Therefore, we recommend that you verify and ensure the data is no longer required before you run the delete job.
+
 1. Perform the steps in the [Capacity page details](/power-platform/admin/capacity-storage#capacity-page-details) article to view the storage consumption of the diagnostics records mentioned in step 2.
 
 1. Perform the steps in the [Use bulk deletion to remove large amounts of data](/power-platform/admin/delete-bulk-records) article to delete the following routing diagnostics data in the specified order.
-   > [!CAUTION]
-   > Delete operations are irreversible and therefore we recommend that you verify and ensure the data is no longer required before you run the delete job.
 
    1. Routing diagnostics items for the msdyn_unifiedroutingdiagnostic entity. More information: [msdyn_unifiedroutingdiagnostic](developer/reference/entities/msdyn_unifiedroutingdiagnostic.md)
    1. Routing diagnostics for the msdyn_unifiedroutingrun entity. More information: [msdyn_unifiedroutingrun](developer/reference/entities/msdyn_unifiedroutingrun.md)

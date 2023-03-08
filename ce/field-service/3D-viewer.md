@@ -2,7 +2,6 @@
 title: "3D models for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to use 3D models in Dynamics 365 Field Service
 ms.date: 07/17/2019
-ms.reviewer: mhart
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
