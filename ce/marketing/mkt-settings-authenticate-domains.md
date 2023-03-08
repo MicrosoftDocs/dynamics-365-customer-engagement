@@ -1,7 +1,7 @@
 ---
-title: "Domain authentication (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Domain authentication (old version) (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Authenticate your domains to maximize email deliverability with DKIM and enable embedding of Dynamics 365 Marketing forms on your own website in Dynamics 365 Marketing."
-ms.date: 09/02/2022
+ms.date: 03/08/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,7 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Authenticate your domains
+# Authenticate your domains (old version)
 
 Domain authentication is important for two reasons:
 
