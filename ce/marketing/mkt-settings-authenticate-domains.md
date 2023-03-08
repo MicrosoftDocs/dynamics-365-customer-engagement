@@ -20,7 +20,7 @@ search.app:
 # Authenticate your domains (old version)
 
 > [!IMPORTANT]
->This section explains the old domain authentication for outbound marketing; for an updated version based on real-time marketing, see "[new version](domain-authentication.md)".
+> This section explains the old domain authentication for outbound marketing; for an updated version based on real-time marketing, see "[new version](domain-authentication.md)".
 
 Domain authentication is important for two reasons:
 
