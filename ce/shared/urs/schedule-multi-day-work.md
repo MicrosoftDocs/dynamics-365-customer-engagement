@@ -12,8 +12,6 @@ Manually scheduling a multi-day requirement on the schedule board allows you to 
 
 2. Then, select a resource on the board for which you would like to schedule the multi-day work order requirement and select **Book**.
 
-    <!--needs better screenshots across article-->
-
     :::image type="content" source="../../field-service/media/scheduling-board-multi-day-booking.png" alt-text="Screenshot of the scheduling board with a multi-day requirement.":::
 
     > [!CAUTION]

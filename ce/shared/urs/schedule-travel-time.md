@@ -53,8 +53,6 @@ To help with scheduling decisions, show the current traffic patterns on the sche
 > [!div class="mx-imgBorder"]
 > ![Screenshot of show traffic button on schedule board map.](../../field-service/media/scheduling-schedule-board-traffic.png)
 
-<!--is that still the case or can bing maps now provide real-time updates?
-
 > [!NOTE]
 > Travel time calculations don't take traffic patterns or historical travel times into account.
 
@@ -62,7 +60,7 @@ Scheduling based on real-time traffic is not applicable because most organizatio
 
 Bing Maps and other mapping providers can provide real-time and historical travel-time calculations, and this information can be called with [Power Automate](https://flow.microsoft.com/galleries/public/templates/71e9c3773102499fafba51edf94ebbd7/get-travel-time-and-distance-in-current-traffic-to-reach-the-destination/) to calculate whether the current travel time is greater than the estimated travel time and automatically update the booking status accordingly.
 
-If a field technician begins travel to their next work order and sees that the travel time is much longer than estimated by the system, they should indicate this with a custom booking status so dispatchers can plan accordingly. -->
+If a field technician begins travel to their next work order and sees that the travel time is much longer than estimated by the system, they should indicate this with a custom booking status so dispatchers can plan accordingly.
 
 ## Predictive travel times with historical traffic information
 

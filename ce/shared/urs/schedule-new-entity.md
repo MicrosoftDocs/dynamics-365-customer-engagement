@@ -59,15 +59,11 @@ Edit booking settings for entities you enabled for scheduling.
   
 You've successfully enabled an entity for scheduling when:
 
-- *Resource Requirements* shows as a related entity. Create them manually or with a custom workflow. <!-- needs a link to a new article about creating resource requirements --> 
+- *Resource Requirements* shows as a related entity. Create them manually or with a custom workflow.
 - The **Book** option appears on the entity record.
 
 > [!NOTE]
 > Field Service creates requirements automatically based on work orders.
-
-
-<!-- section below is a customization story for the schedule board. needs to live in SB config doc 
-
 
 ## Add a requirement view to the schedule board
 
@@ -127,4 +123,3 @@ Select **Hide default requirement panels** if you don’t want to display the ot
 
 > [!Note]
 > You may have many lead records in the system, but if there are no requirements related to the leads, then no records will show on the schedule board. Resource requirements will need to be created for each lead you want to schedule either manually or through a workflow to auto create upon creation of a lead.  
--->

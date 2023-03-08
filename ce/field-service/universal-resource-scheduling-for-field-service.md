@@ -43,38 +43,6 @@ After a work order and related requirement are ready for scheduling, dispatchers
 
 Booking a requirement related to a work order creates a bookable resource booking record that keeps track of which resource will perform the work, the status of the booking, travel time, and start/end times.
 
- <!--
-### Book from the work order
-
-Selecting **Book** from the work order will trigger the Universal Resource Scheduling schedule assistant to match the related work order requirement with available resources.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of booking from work order.](media/scheduling-urs-work-order-book.png) 
-
-### Book from the requirement
-
-Like with work orders, the same booking experience can be triggered from the requirement entity, by selecting **Book** while on the requirement.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of booking requirement.](media/scheduling-urs-work-order-related-requirement-book.png) 
-
-### Book from the schedule board
-
-The lower schedule board pane displays requirement records and can be configured to show only requirements related to work orders with a view filter.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of schedule board.](media/scheduling-urs-schedule-board-schedule-assistant.png) 
-
-The requirement can be dragged and dropped onto a resource on the schedule board to schedule the work order. Alternatively, selecting  **find availability** on the requirement in the lower pane will trigger the schedule assistant, which recommends the most appropriate resources. 
-
-### Book with Resource Scheduling Optimization
-
-Resource Scheduling Optimization can automatically schedule work order requirements based on predefined schedules or triggers. You can also manually accomplish this by selecting the **Run Now** button.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Resource scheduling Optimization schedule.](media/scheduling-urs-rso-schedule.png)
--->
 ## Scheduling personas
 
 Learn about the scheduling roles that are common in a typical field service organization.

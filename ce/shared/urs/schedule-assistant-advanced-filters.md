@@ -3,12 +3,6 @@ The schedule assistant includes advanced filters that provide more granularity f
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the advanced filters exposed in the schedule assistant.](../../field-service/media/scheduling-schedule-assistant-advanced-filters.png)
 
-<!-- keep videos that show old SB?
-
-For more information, see the video ![Video symbol](../../field-service/media/video-icon.png "Video symbol") [Schedule Assistant: advanced filters](https://youtu.be/s6yvVv99Bnw).
-
--->
-
 ## Real time mode
 
 Helps find the closest possible resource to arrive onsite more quickly.
@@ -37,25 +31,3 @@ Some organizations use the proposed status for bookings until their customer con
 
 Shows bookings that with the **Allow Overlap** field set to **Yes** on the bookable resource booking form.
 
-<!-- can we drop this and explain customizations as part of SB settings?
-
-## Configuration considerations
-
-### Default values and sorting
-
-When the schedule assistant is triggered, you'll see that some fields have default values. For example, schedule assistant search results are listed in alphabetical order by default. These default values can be changed in the **Schedule Assistant Retrieve Constraints Query**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Schedule Assistant Retrieve Constraints Query.](../../field-service/media/scheduling-schedule-assistant-retreive-resources-query.png)
-
-To get there, double-click on the schedule board tab. Open default settings in the top right. Under the schedule types section, select the gear icon next to **Default Retrieve Constraints Query**.
-
-From here, you can edit the XML to define how the schedule assistant searches for each entity that is available for scheduling.
-
-## Additional notes
-
-Do not edit the schedule assistant **Retrieve Constraints Query** for the territory shown below. It can damage the schedule assistant logic.
-
-```<Territories ufx:select="lookup-to-list(Requirement/msdyn_territory)" />```
-
--->

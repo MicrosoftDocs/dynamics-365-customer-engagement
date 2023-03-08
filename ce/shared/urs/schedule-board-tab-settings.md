@@ -14,8 +14,6 @@ Open the **Schedule Board**, choose the tab to configure and select **Scheduler 
 - **Time resolution**: Time intervals for the hourly view.
 - **Row height**: Defines the height of resource rows.
 - **Show canceled**: Shows or hides canceled bookings.
-- **Apply territory filter**: <!-- Andrew -->
-- **Show booked percentage**: <!-- Andrew -->
 
 Select **All board settings** to see more settings.
 
@@ -27,9 +25,6 @@ Board settings are more detailed and let you define settings for a specific boar
 - Open the **Scheduler settings** and select **All board settings**.
 
 :::image type="content" source="../../field-service/media/schedule-board-tab-settings-access.png" alt-text="Screenshot of accessing schedule board tab settings.":::
-
-
-<!-- Andrew to update rest and consider merge with Configure-schedule-board.md or split in smaller chunks.-->
 
 When you access the schedule board tab settings, you'll see the following: 
 
