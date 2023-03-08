@@ -1,7 +1,7 @@
 ---
 title: "Add email CC recipients (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to add CC recipients to journeys in the real-time marketing area of Dynamics 365 Marketing."
-ms.date: 01/16/2023
+ms.date: 03/08/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -18,7 +18,7 @@ search.app:
 
 # Add email CC recipients to journeys in real-time marketing
 
-You can add CC (Carbon Copy) recipients to your journeys when sending emails. When designing your journey you can select up to 5 recipients for your emails from the email tile, you will dynamically chose your CC recipients by mapping them to your marketable contacts.
+You can add CC (Carbon Copy) recipients to your journeys when sending emails. When designing your journey you can select up to five recipients for your emails from the email tile, you'll dynamically choose your CC recipients by mapping them to your marketable contacts.
 
 > [!IMPORTANT]
 >
@@ -54,10 +54,10 @@ In your journey, select the **Send an email** action.
 > [!div class="mx-imgBorder"]
 > ![Select feature switches from settings.](media/real-time-email-cc-send-email.png "Select feature switches from settings")
 
-Click on **Select a recipient** to dynamically select the CC recipient. You have to select the relation to your target audience (contact or lead).
+Select the **Select a recipient** to dynamically select the CC recipient. You have to select the relation to your target audience (contact or lead).
 > [!div class="mx-imgBorder"]
 > ![Select feature switches from settings.](media/real-time-email-cc-select-recipient.png "Select feature switches from settings")
 
-You will be able to select up to 5 recipients. Make sure you are selecting entities that contain email addresses. If you select an entity that does not contain an email, it will be ignored when sending the email.
+You'll able to select up to five recipients. Make sure you're selecting entities that contain email addresses. If you select an entity that doesn't contain an email, it's ignored when sending the email.
 > [!div class="mx-imgBorder"]
 > ![Select feature switches from settings.](media/real-time-email-cc-select-recipient-up-to-5.png "Select feature switches from settings")
