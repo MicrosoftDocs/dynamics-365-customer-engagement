@@ -15,7 +15,7 @@ search.app:
 Organizations often need to conduct inspections independent of work orders. Currently, inspections can be added to customer assets in Field Service.
 
 > [!NOTE]
-> Inspections without work orders won't work offline. Default functionality for inspections, like the export to PDF are only available on work oder service tasks.
+> Inspections without work orders won't work in [the mobile offline profile](mobile-power-app-system-offline.md). Default functionality for inspections, like the export to PDF are only available on work oder service tasks.
 
 ## Enable inspections on customer assets without a work order
 
