@@ -20,7 +20,7 @@ The sample data is available as a downloadable demo package, which you can insta
 >
 > - Once installed, you can't uninstall the demo data.
 > - The Chat for Dynamics 365 Customer Service demo data is available only in English.
-> - Install the demo data on a demonstration, evaluation, training, or test environment. We don't recommend installing the demo data in production environments.
+> - Install the demo data on a demonstration, evaluation, training, or test environment only and not on production environments.
 
 ## Prerequisites
 
