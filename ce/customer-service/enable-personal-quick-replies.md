@@ -1,6 +1,6 @@
 ---
 title: Enable personal quick replies in Omnichannel for Customer Service
-description: Enable personal quick replies in agent experience for Omnichannel for Customer Service.
+description: Learn how to enable personal quick replies in the agent experience for Omnichannel for Customer Service.
 ms.date: 03/08/2023
 ms.topic: how-to
 author: neeranelli
