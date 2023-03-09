@@ -1034,90 +1034,108 @@
         href: enable-sentiment-analysis.md
     - name: Supervisor experience
       items: 
-      - name: Historical analytics reports in Customer Service
+      - name: Out-of-box historical analytics
         items: 
-        - name: Customer Service dashboards
-          href: customer-service-analytics-insights-csh.md
-        - name: Summary dashboard
-          href: summary-dashboard-cs.md
-        - name: Agent dashboard
-          href: agent-dashboard-cs.md
-        - name: Case Topics dashboard
-          href: case-topics-dashboard-cs.md
-        - name: Historical analytics for unified routing in Customer Service
-          href: cs-historical-analytics-unified-routing.md
-      - name: Historical analytics reports in Omnichannel for Customer Service
+        - name: Customer Service historical analytics
+          items:
+          - name: Customer Service historical analytics dashboards
+            href: customer-service-analytics-insights-csh.md
+          - name: Summary dashboard
+            href: summary-dashboard-cs.md
+          - name: Agent dashboard
+            href: agent-dashboard-cs.md
+          - name: Case Topics dashboard
+            href: case-topics-dashboard-cs.md
+          - name: Historical analytics for unified routing in Customer Service
+            href: cs-historical-analytics-unified-routing.md
+        - name: Omnichannel historical analytics
+          items: 
+          - name: Omnichannel for Customer Service dashboards
+            href: omnichannel-analytics-insights.md
+          - name: Omnichannel Summary dashboard
+            href: omnichannel-summary-dashboard.md
+          - name: Omnichannel Conversation dashboard
+            href: oc-conversation-dashboard.md
+          - name: Omnichannel Queue dashboard
+            href: oc-queue-dashboard.md
+          - name: Omnichannel Voice dashboard
+            href: voice-channel-reports-analytics.md   
+          - name: Omnichannel Agent dashboard
+            href: agent-dashboard.md
+          - name: Omnichannel Bot dashboard
+            href: oc-bot-dashboard.md  
+          - name: Omnichannel Conversation topic dashboard
+            href: oc-conversation-topics-dashboard.md
+          - name: Omnichannel Voicemail dashboard
+            href: oc-voicemail-dashboard.md          
+          - name: Historical analytics for unified routing in Omnichannel for Customer Service
+            href: oc-historical-analytics-unified-routing.md
+        - name: Knowledge management analytics
+          href: knowledge-search-analytics-cs.md
+        - name: View analytics dashboards created in Power BI
+          href: customer-service-analytics.md
+      - name: Out-of-the-box real-time analytics
+        items:
+        - name: Omnichannel real-time analytics reports
+          items: 
+          - name: Overview of Omnichannel real-time analytics reports
+            href: intro-realtime-analytics-dashboard.md
+          - name: Summary report
+            href: realtime-summary-dashboard.md
+          - name: Voice report
+            href: realtime-voice-dashboard.md
+          - name: Agents report
+            href: realtime-agents-analytics.md
+          - name: Ongoing Conversation report
+            href: realtime-ongoing.md
+        - name: Monitor conversations
+          items: 
+          - name: Monitor, assign, transfer, and forcibly end conversations
+            href: monitor-conversations.md
+          - name: Monitor and analyze sentiments
+            href: supervisor-sentiment-monitoring.md
+        - name: Intraday supervisor experience
+          items: 
+          - name: Introduction to intraday supervisor experience
+            href: intro-intraday-insights-dashboard.md
+          - name: IntradayMonitoring report
+            href: intraday-insights-dashboard.md
+          - name: Agents insights report
+            href: intraday-agents-insights.md
+          - name: Conversation insights report
+            href: intraday-conversation-insights.md
+          - name: Set idle time threshold
+            href: set-idle-time-threshold.md
+          - name: View and understand Omnichannel Ongoing Conversations dashboard
+            href: ongoing-conversations-dashboard.md
+        - name: Omnichannel Insights
+          items: 
+          - name: Introduction to Omnichannel Insights
+            href: intro-dynamics-365-omnichannel-insights-dashboard.md
+          - name: View and understand Omnichannel Insights dashboard
+            href: omnichannel-insights-dashboard.md
+        - name: Metrics
+          items:
+          - name: Overview
+            href:
+          - name: Omnichannel analytics metrics
+            href:
+          - name: Infographic
+            href:
+          - name: Customer Service analytics metrics
+            href:
+        - name: Personalize out-of-the-box analytics
+          items: 
+          - name: Report filters and groups
+            href: report-filters-groups.md
+          - name: Manage report bookmarks
+            href: manage-bookmarks.md
+        - name: Forecasting
+          items:
+          - name: Forecast agent, case, and conversation volumes
+            href: use-volume-forecasting.md
+      - name: Customize dashboards
         items: 
-        - name: Omnichannel for Customer Service dashboards
-          href: omnichannel-analytics-insights.md
-        - name: Omnichannel Summary dashboard
-          href: omnichannel-summary-dashboard.md
-        - name: Omnichannel Conversation dashboard
-          href: oc-conversation-dashboard.md
-        - name: Omnichannel Queue dashboard
-          href: oc-queue-dashboard.md
-        - name: Omnichannel Voice dashboard
-          href: voice-channel-reports-analytics.md   
-        - name: Omnichannel Agent dashboard
-          href: agent-dashboard.md
-        - name: Omnichannel Bot dashboard
-          href: oc-bot-dashboard.md  
-        - name: Omnichannel Conversation topic dashboard
-          href: oc-conversation-topics-dashboard.md
-        - name: Omnichannel Voicemail dashboard
-          href: oc-voicemail-dashboard.md          
-        - name: Historical analytics for unified routing in Omnichannel for Customer Service
-          href: oc-historical-analytics-unified-routing.md
-      - name: Knowledge management analytics
-        href: knowledge-search-analytics-cs.md
-      - name: View analytics dashboards created in Power BI
-        href: customer-service-analytics.md
-      - name: Forecast agent, case, and conversation volumes
-        href: use-volume-forecasting.md
-      - name: Report filters and groups
-        href: report-filters-groups.md
-      - name: Manage report bookmarks
-        href: manage-bookmarks.md
-      - name: Intraday supervisor experience
-        items: 
-        - name: Introduction to intraday supervisor experience
-          href: intro-intraday-insights-dashboard.md
-        - name: IntradayMonitoring report
-          href: intraday-insights-dashboard.md
-        - name: Agents insights report
-          href: intraday-agents-insights.md
-        - name: Conversation insights report
-          href: intraday-conversation-insights.md
-        - name: Set idle time threshold
-          href: set-idle-time-threshold.md
-        - name: View and understand Omnichannel Ongoing Conversations dashboard
-          href: ongoing-conversations-dashboard.md
-      - name: Real-time analytics reports in Omnichannel for Customer Service
-        items: 
-        - name: Overview of Omnichannel real-time analytics reports
-          href: intro-realtime-analytics-dashboard.md
-        - name: Summary report
-          href: realtime-summary-dashboard.md
-        - name: Voice report
-          href: realtime-voice-dashboard.md
-        - name: Agents report
-          href: realtime-agents-analytics.md
-        - name: Ongoing Conversation report
-          href: realtime-ongoing.md
-      - name: Omnichannel Insights
-        items: 
-        - name: Introduction to Omnichannel Insights
-          href: intro-dynamics-365-omnichannel-insights-dashboard.md
-        - name: View and understand Omnichannel Insights dashboard
-          href: omnichannel-insights-dashboard.md
-      - name: Monitor conversations
-        items: 
-        - name: Monitor, assign, transfer, and forcibly end conversations
-          href: monitor-conversations.md
-        - name: Monitor and analyze sentiments
-          href: supervisor-sentiment-monitoring.md
-    - name: Customize dashboards
-      items: 
         - name: Customize interactive dashboards based on Unified Interface
           href: configure-interactive-dashboards-customer-service-hub.md
   - name: Service scheduling
