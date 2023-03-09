@@ -1118,17 +1118,17 @@
         items:
         - name: Overview
           href:
-        - name: Omnichannel analytics metrics
+        - name: Customer Service analytics metrics
           href:
         - name: Infographic
           href:
-        - name: Customer Service analytics metrics
+        - name: Omnichannel analytics metrics
           href:
         - name: Infographic
           href:
       - name: Personalize out-of-the-box analytics
         items: 
-        - name: Report filters and groups
+        - name: Manage report filters
           href: report-filters-groups.md
         - name: Manage report bookmarks
           href: manage-bookmarks.md
