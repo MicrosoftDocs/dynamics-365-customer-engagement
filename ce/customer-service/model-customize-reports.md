@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 03/08/2022
+ms.date: 03/09/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
