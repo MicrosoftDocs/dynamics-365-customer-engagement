@@ -1,9 +1,9 @@
 ---
 title: Create IoT Provider for Azure IoT Hub
 description: Learn how to create an IoT Provider record and specify the associated actions.
-ms.date: 02/13/2023
-ms.author: 
-author: 
+ms.date: 03/09/2023
+ms.author: vhorvath
+author: vhorvathms
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.custom: bap-template
