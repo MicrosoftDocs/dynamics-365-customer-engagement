@@ -10,7 +10,7 @@ ms.custom: bap-template
 ---
 # Download file attachments from an Azure bot
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)
+[!INCLUDE [cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Follow these steps to download attachments from an Azure bot in the Microsoft Teams channel.
 
@@ -175,4 +175,4 @@ else if (turnContext.Activity.Attachments != null)
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 [Migration changes for new omnichannel messaging platform](migrate-acs.md)  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

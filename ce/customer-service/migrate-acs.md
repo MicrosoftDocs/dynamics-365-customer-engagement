@@ -25,7 +25,7 @@ As part of the migration to the omnichannel messaging platform, we released a ne
 
 - If you've enabled downloading file attachments in chats, you must program your Azure bot to [download file attachments properly](download-attachments-bot.md#manage-file-attachments-during-migration) in the omnichannel messaging channel.
 
-> [!Note]
+> [!NOTE]
 > These changes won't impact your existing omnichannel experience. We'll work with you to help you navigate and test the changes to ensure a smooth transition.
 
 ### See also
@@ -36,4 +36,4 @@ As part of the migration to the omnichannel messaging platform, we released a ne
 [Customize live chat widgets for mobile apps](render-live-chat-widget-mobile.md)  
 [Integrate an Azure bot](configure-bot.md)  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]
