@@ -28,19 +28,18 @@ Use the **Permissions** step to:
 
 ## Define the forecast owner
 
-A forecast owner can view, share, and adjust the forecast.  
+A forecast owner can view, share, and adjust the forecast. You can assign a user or a business unit (BU) as the owner.
 
-In the **Owner lookup field (preview)**, select who owns the forecast. Each template starts with a default value:
+In the **Owner lookup field (preview)**, select who owns the forecast.
 
-| Template | Default owner |
-| --- | --- |
-| Org chart forecast | User |
-| Product forecast | None |
-| Territory forecast | Manager |
+- To assign ownership of all forecasts in the BU to all users in the BU, select **Business Unit** or **Owning Business Unit**. The BU ownership is only available to hierarchy entities that have a BU relationship. Entities such as territory and product are not connected to any BUs and hence can't use BU ownership.
 
-For example, when you select **Manager** as the **Owner lookup field (Preview)** for a territory forecast, the forecast is visible only to the managers of the territories in the selected hierarchy. The managers can edit forecast data that directly belongs to them and to their reporting territories.
+- To assign ownership to a specific user, select a system user. For example, if you select **Created by** user as the owner of an account-based forecast, then users who created accounts will own the forecast for their respective accounts.  
 
-If you select a value other than the default, a column is added to the forecast grid. For org chart forecasts, you can select **Business Unit** as the owner. In this case, the forecast is owned by all users in the business unit.
+- To assign ownership to a parent hierarchy, select **Manager** (user-based forecasts) or **Parent Business** (BU-based forecasts). For example, when you select **Parent Business** as the owner of a BU-based forecast, all users in the parent BU can view and update the forecasts of their child BU.  
+    :::image type="content" source="media/forecast-owner-lookup-field.png" alt-text="Owner lookup field with Parent Business as the owner.":::
+
+If you change the default value in **Owner lookup field (preview)**, the corresponding column is added to the forecast grid.  
 
 ## Provide access to additional roles
 
