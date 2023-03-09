@@ -228,6 +228,8 @@
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing for unified routing
           href: set-up-skill-based-routing.md
+        - name: Model data tables as skills
+          href: model-tables-as-skills-ur.md
       - name: Use sentiment prediction-based routing
         href: use-sentiment-prediction-for-routing.md
       - name: Use effort estimation model for routing
@@ -452,7 +454,7 @@
           href: int-data-mapping.md
         - name: View and use insights for search providers
           href: view-and-use-insights.md
-        - name: Schema details to build a metadata mapping template (preview)
+        - name: Schema details to build a metadata mapping template
           href: int-search-metadata-schema.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md

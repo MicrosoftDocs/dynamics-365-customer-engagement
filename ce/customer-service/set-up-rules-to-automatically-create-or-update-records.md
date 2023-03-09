@@ -364,5 +364,3 @@ Perform the following steps before you upgrade a solution:
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-[!INCLUDE[ai-generated-description](../includes/disclaimer-ai-generated-description.md)]

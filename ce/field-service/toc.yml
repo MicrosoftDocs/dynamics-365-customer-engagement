@@ -74,6 +74,8 @@ items:
       href: set-up-service-task-types.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
+    - name: Use Dataverse search
+      href: search-dataverse-tables.md
     - name: Customer asset validation
       href: asset-validation.md
       
@@ -107,6 +109,10 @@ items:
       href: work-order-resolutions.md
     - name: Work order completion surveys
       href: work-order-surveys.md
+    - name: Trades
+      href: trades.md
+    - name: Not-to-exceed
+      href: work-order-not-to-exceed.md
 
 - name: Customers
   items:

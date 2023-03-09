@@ -1,11 +1,11 @@
 ---
 title: Understand conversation states 
-description: "Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
-ms.date: 02/22/2023
+description: Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service.
+ms.date: 03/02/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: nenellim
+ms.reviewer: shujoshi
 ms.custom: bap-template
 ---
 
@@ -52,10 +52,9 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | From status reason | To status reason | Scenario  | Type  |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget (only for a chat channel). <br><br> When the customer is disconnected from the conversation (applicable only to Live chat channel).| Channel <br><br> Chat|
-| Active        | Open             | When you disconnect the conversation and don't reconnect within a specified timeout period. More information: [Understand disconnected chats](oc-conv-state-chat-disconnect.md)<br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> When you close the session while the conversation is active (applicable only to Live chat channel). | Channel <br><br> Chat |
+| Active        | Open             | When you disconnect the conversation and don't reconnect within a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> When you close the session while the conversation is active (applicable only to Live chat channel). | Channel <br><br> Chat |
 | Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.|  Channel <br><br> The status change isn't applicable to Live chat. | 
 | Active | Closed | When you resolve the case (or get a record to non-active state) and close the session. | Record |
-
 
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state.](media/oc-conversation-active.png "Active state")
 
@@ -127,7 +126,6 @@ The following table describes the channel, status reason, and default configured
  | SMS, Teams, persistent chat, and social | Open | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that has been in the **Open** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
  | SMS, Teams, and social | Active | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that has been in the **Active** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Active** to the **Closed** state. |
  | SMS, Teams, persistent chat, and social | Wrap-up | One day | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that has been in the **Wrap-up** state for more than one day is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
-
 
 ### Conversation in waiting
 
