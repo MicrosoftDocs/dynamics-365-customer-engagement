@@ -399,7 +399,7 @@
     - name: Domain Authentication  
       items:
       - name: Domain authentication in real-time marketing
-        href: troubleshoot-domain-authentication.md
+        href: domain-authentication.md
       - name: BIMI support
         href: bimi-support.md
     - name: Real-time marketing troubleshoot + FAQ
