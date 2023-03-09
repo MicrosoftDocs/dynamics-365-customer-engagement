@@ -1034,9 +1034,9 @@
         href: enable-sentiment-analysis.md
     - name: Supervisor experience
       items: 
-      - name: Out-of-box historical analytics
+      - name: Use out-of-box historical analytics
         items: 
-        - name: Customer Service historical analytics
+        - name: Use Customer Service historical analytics
           items:
           - name: Customer Service historical analytics dashboards
             href: customer-service-analytics-insights-csh.md
@@ -1048,7 +1048,7 @@
             href: case-topics-dashboard-cs.md
           - name: Historical analytics for unified routing in Customer Service
             href: cs-historical-analytics-unified-routing.md
-        - name: Omnichannel historical analytics
+        - name: Use Omnichannel historical analytics
           items: 
           - name: Omnichannel for Customer Service dashboards
             href: omnichannel-analytics-insights.md
@@ -1070,13 +1070,13 @@
             href: oc-voicemail-dashboard.md          
           - name: Historical analytics for unified routing in Omnichannel for Customer Service
             href: oc-historical-analytics-unified-routing.md
-        - name: Knowledge management analytics
+        - name: Use Knowledge management analytics
           href: knowledge-search-analytics-cs.md
         - name: View analytics dashboards created in Power BI
           href: customer-service-analytics.md
-      - name: Out-of-the-box real-time analytics
+      - name: Use out-of-the-box real-time analytics
         items:
-        - name: Omnichannel real-time analytics reports
+        - name: Use Omnichannel real-time analytics reports
           items: 
           - name: Overview of Omnichannel real-time analytics reports
             href: intro-realtime-analytics-dashboard.md
@@ -1094,11 +1094,11 @@
             href: monitor-conversations.md
           - name: Monitor and analyze sentiments
             href: supervisor-sentiment-monitoring.md
-        - name: Intraday supervisor experience
+        - name: Use Intraday analytics reports
           items: 
           - name: Introduction to intraday supervisor experience
             href: intro-intraday-insights-dashboard.md
-          - name: IntradayMonitoring report
+          - name: Intraday Monitoring report
             href: intraday-insights-dashboard.md
           - name: Agents insights report
             href: intraday-agents-insights.md
@@ -1118,11 +1118,11 @@
         items:
         - name: Overview
           href:
-        - name: Customer Service analytics metrics
+        - name: Use Customer Service analytics metrics
           href:
         - name: Infographic
           href:
-        - name: Omnichannel analytics metrics
+        - name: use Omnichannel analytics metrics
           href:
         - name: Infographic
           href:
