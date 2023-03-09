@@ -102,8 +102,6 @@
         href: mkt-settings-lead-score-options.md
       - name: Add or remove sample data
         href: /power-platform/admin/add-remove-sample-data
-      - name: Authenticate your domains
-        href: mkt-settings-authenticate-domains.md
       - name: Marketing analytics configuration
         href: mkt-settings-analytics.md
       - name: Configure landing pages
@@ -398,6 +396,12 @@
         href: real-time-marketing-api-segment.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
+    - name: Domain Authentication  
+      items:
+      - name: Domain authentication in real-time marketing
+        href: domain-authentication.md
+      - name: BIMI support
+        href: bimi-support.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
   - name: Outbound marketing
@@ -490,6 +494,10 @@
         href: email-a-b-testing.md
       - name: Email troubleshoot + FAQ
         href: email-troubleshoot.md
+    - name: Domain authentication (old version)
+      items: 
+      - name: Authenticate your domains
+        href: mkt-settings-authenticate-domains.md
     - name: Marketing pages and forms
       items: 
       - name: Create and deploy marketing pages
