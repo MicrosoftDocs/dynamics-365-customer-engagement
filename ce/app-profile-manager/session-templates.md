@@ -1,11 +1,12 @@
 ---
-title: "Manage session templates | MicrosoftDocs"
-description: "Learn about managing session templates in Customer Service workspace and Omnichannel admin center"
+title: Manage session templates
+description: Learn about managing session templates in Customer Service workspace and Omnichannel admin center
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.date: 06/09/2022
-ms.topic: article
+ms.reviewer: shujoshi
+ms.date: 04/01/2023
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Manage session templates
@@ -22,7 +23,7 @@ Session templates are used to define the aforementioned session experience, such
 
 You can create session templates in Omnichannel admin center or use the out-of-the-box templates. In your environment, as an administrator, you can create multiple session templates.
 
-  > [!Note]
+  > [!NOTE]
   > You can't customize the out-of-the-box session templates; instead, you'll need to create your own custom templates.
 
 The out-of-the-box session template for using in Customer Service workspace is Case entity session - default template.
@@ -45,7 +46,7 @@ The following out-of-the-box session templates are of the generic type and are f
 ## Create a session template
 
 1. Select one of the following tabs, and perform the steps.
-   
+
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Workspaces** in **Agent experience**.
@@ -70,6 +71,7 @@ The following out-of-the-box session templates are of the generic type and are f
     | General | Entity | Select an entity from the list.<br> **Note:** The option is displayed only when **Type** is entity. | Case |
     | General | Title | Provide the title of the session that you want agents to see at the runtime. | {customerName} |
     | General | Communication panel mode | Select the default mode of the panel when a session is started. Choose one of the following: <br> <ul><li> **Docked**: The panel will be in expanded mode. </li> <li> **Minimized**: The panel will be in minimized mode. <li> **Hidden**: The panel will be hidden. </ul> <br> **Note**: For an entity routing session—that is, for a case session—the communication panel mode is hidden. | Docked |
+    | General | Session Icon| Select an icon to represent the channel from which the conversation is initiated so that your agent can visually identify the channel.| WhatsApp.ico|
     | General | Description | Provide a description for your reference. | The session template is used for a conversation request from Chat channel. |
     | General | Owner | Search and select an owner. By default, the user who is creating the template is set as the owner | Alan Steiner |
     | General | Anchor tab | Select an application from the list. The application is opened by default when the session starts and can't be closed. <br> **Note:** The anchor tab option is displayed only when **Type** is generic. | Customer summary |
