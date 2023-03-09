@@ -1,9 +1,9 @@
 ---
-title: "Installation and setup for Connected Field Service for Azure IoT Hub (Dynamics 365 Field Service) | Microsoft Docs"
+title: Installation and setup - Connected Field Service for Azure IoT Hub
 description: Learn how connect and setup Dynamics 365 Field Service with Azure IoT Hub.
-ms.date: 02/13/2023
+ms.date: 03/09/2023
 ms.subservice: connected-field-service
-ms.topic: article
+ms.topic: how-to
 ms.author: vhorvath
 author: vhorvathms
 search.app:
@@ -15,7 +15,7 @@ search.app:
 This guide provides all the steps required for getting up and running with Connected Field Service (CFS) for IoT Hub.
 
 > [!NOTE]
-> Time Series Insights (TSI) will be deprecated after March 2025. We'll transition Connected Field Service to a new platform and announce it when the deprecation takes place. More information: [Migrate to Azure Data Explorer](/azure/time-series-insights/migration-to-adx)
+> Time Series Insights (TSI) will be deprecated after March 2025. Connected Field Service will be transitioning to Azure Data Explorer. More information regarding the transition will be provided soon.
 
 ## Prerequisites
 
@@ -25,17 +25,15 @@ This guide provides all the steps required for getting up and running with Conne
   
 - System Administrator and IoT-Administrator security roles.
 
-- [IoT Provider for IoT Hub](cfs-provider-iot-hub.md) in Dynamics 365 Field Service.
-
 - Active [Azure subscription with privileges to create resources and services](cfs-azure-subscription.md).
 
 - For Azure Time Series Insights, [create an app registration](/azure/active-directory/develop/quickstart-register-app) in the Azure portal. Take note of the Application (client) ID and the Object ID. [Add a client secret](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret), and record the client secret value. You'll need these values multiple times during the installation.
 
 ## Step 1: Deploy Connected Field Service and Azure resources from an ARM template
 
-Deploy and connect Azure IoT Hub to your Field Service environment. Go to the **Deployment steps** section on [https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment#deploy-the-arm-template) and deploy the Azure Resource Manager (ARM) template. Select Deploy to Azure to initiate the deployment.
+Deploy and connect Azure IoT Hub to your Field Service environment. 
 
-:::image type="content" source="media/cfs-deploy-ARM-template.png" alt-text="Screenshot of the deployment shortcut on the github repository.":::
+1. Go to the **Deployment steps** section on [https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment#deploy-the-arm-template) and deploy the Azure Resource Manager (ARM) template. Select **Deploy to Azure** to initiate the deployment.
 
 1. Choose an existing Azure subscription. Choose a resource group or create one in the selected subscription. Set the region to the same region as your Field Service environment.
 
@@ -58,11 +56,7 @@ Before proceeding, ensure the deployment is complete.
 
 1. In Connected Field Service, go to the **Settings** area.
 
-   :::image type="content" source="media/cfs-iothub-settings-area.png" alt-text="Screenshot of the Change area control.":::
-
 1. Select **Providers** and select **New**.
-
-   :::image type="content" source="media/cfs-iothub-create-provider.png" alt-text="Screenshot of creating a new IoT Hub provider.":::
 
 1. On the **New IoT Provider Instance** page, fill out the fields:
 
@@ -89,7 +83,9 @@ Before proceeding, ensure the deployment is complete.
 
 1. Open the CLI and launch the [Plugin Registration Tool (PRT)](/power-platform/developer/cli/reference/tool#pac-tool-prt) with the command `pac tool prt`.
 
-1. In the PRT window, select **Create New Connection** and sign in to the Dynamics 365 environment where you're setting up Connected Field Service.
+1. In the PRT window, select **Create New Connection**. In **Display list of available organizations**, select **Office 365**.
+
+1. Open **Advanced settings**. Select the region of your Field Service environment, enter your Field Service credentials and select **Login**.
 
 1. Once connected to the organization, find the **IoT Message** Service Endpoint and select it.
 
@@ -114,34 +110,23 @@ Connect the Azure IoTHub to your Field Service environment.
 
 1. Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com).
 
-1. On the Azure portal, go to **Resource Groups** and find the resource group you recently deployed IoT Hub to. See the following screenshot for reference.
+1. On the Azure portal, go to **Resource Groups** and find the resource group you recently deployed IoT Hub to.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of Azure resource groups.](./media/cfs-iothub-resource-group.png)
-
-1. One resource of type API Connection is called **commondataservice**. Select and edit this resource.
-
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of API connection between dynamics and azure.](./media/cfs-iothub-api-connection.png)
+1. Select and edit the *API Connection* resource **commondataservice**.
 
 1. Select **Authorize** and sign in with your Dynamics 365 credentials that you use to sign into your Connected Field Service environment. They may be different than your Azure credentials to the Azure portal. Select **Save** to apply your changes.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of authorizing the subscription.](./media/cfs-iothub-api-connection-authorize.png)
-
 ## Step 5: Update devicerules.json
 
-Skip this step if the simulator isn't deployed. The Stream Analytics job deployed to your resource group will have a reference to a `devicerules.json` file. This file defines a rule that is used to create IoT Alerts when using the optional device simulator. To use the rule, upload the `devicerules.json` file and reproduce the directory structure. The exact structure is needed for the sample alert to work.
+The Stream Analytics job deployed to your resource group will have a reference to a `devicerules.json` file. This file defines a rule that is used to create IoT Alerts when using the optional device simulator. To use the rule, upload the `devicerules.json` file and reproduce the directory structure. The exact structure is needed for the sample alert to work.
 
 1. Download the `devicerules.json` file from the [GitHub repo](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment).
 
 1. Open the resource group in the Azure admin portal and select the storage account deployed to your resource group. Select **Containers** and create a container called `devicerules`.
 
-1. Use the Storage Browser to open the newly created `devicerules` container.
+1. Open the newly created storage container `devicerules` and select **Upload**. Select **Browse for files** and select `devicerules.json`. Expand the Advanced section, enter *2016-05-30* in the **Upload to folder** field, then select **Upload**.
 
-1. Upload the `devicerules.json` file to a new folder named `2016-05-30`.
-
-1. In the `2016-05-30` folder, create another folder called `22-40`, and upload the `devicerules.json` file.
+1. Open the newly created folder `2016-05-30` and select **Upload**. Select **Browse for files** and select `devicerules.json`. Expand the Advanced section, enter *22-40* in the **Upload to folder** field, then select **Upload**.
 
 ## Step 6: Start Azure Stream Analytics job
 
@@ -150,8 +135,6 @@ Skip this step if the simulator isn't deployed. The Stream Analytics job deploye
 1. On the Azure portal, go to **Resource Groups** and find the resource group you recently deployed IoT Hub to.
 
 1. Select each Stream Analytics job that was deployed and, from the **Overview** tab, select **Start**.
-
-   :::image type="content" source="media/cfs-iothub-stream-analytics-start.png" alt-text="Screenshot of Stream Analytics job overview.":::
 
 Congratulations! You're now ready to pass data between Azure IoT Hub and Dynamics 365 to use Connected Field Service.
 
@@ -223,12 +206,12 @@ To find the simulator URL, sign in to your Azure subscription, and then select t
   
 1. When the simulator page opens, select **Connection**.  
   
-1. Enter the IoT hub host name and key. The host is simply the name of the IoT Hub resource in Azure portal.
+1. Enter the IoT hub host name and key. The host is the host name of the IoT Hub resource in the Azure admin portal.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of the "configure connection" dialog in Azure.](./media/cfs-iothub-thermostadt-simulator.png)
 
-   The key can be accessed by selecting the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
+   Get the access key by selecting the IoT Hub resource and opening the shared access policies. Copy the primary key for *iothubowner*.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of Azure IoT Hub showing the primary key.](./media/cfs-simulator-connection.png)
@@ -248,6 +231,7 @@ Now you can send a test command by using the sample simulator. For example, sele
 - [Visualize device readings](cfs-visualizations-iot-hub.md)
 
 ## Privacy notice
+
 [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
 
 [Azure Time Series Insights](/azure/time-series-insights/)
