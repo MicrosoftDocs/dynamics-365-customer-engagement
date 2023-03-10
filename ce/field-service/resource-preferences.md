@@ -34,8 +34,4 @@ The [schedule assistant](schedule-assistant.md) will filter results to only thes
 
 For [resource scheduling optimization](./rso-overview.md) to consider preferred resources, add the **Maximize Preferred Resources** objective to the optimization goal. Resource scheduling optimization will attempt to match **Preferred** resources, always select **Must choose from** resources, and never select **Restricted** resources.
 
-## Additional notes
-
-The resource that is added as a preferred resource (including the "Must choose from" preference type) must meet all other conditions of the requirement.
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,10 +69,7 @@ There are three ways to change a booking assignment:
 
 1. **Manually drag and drop**: Select and drag a booking from the resource pool and drag it to one of the pool members.
 
-2. **Substitution**: Right-click a booking in the resource pool, select **Substitute Resource** and choose a pool member.
-
-> [!div class="mx-imgBorder"]
-> ![Image of triggering substitution from a pool booking.](../../field-service/media/scheduling-pools-single-requirement7.png)
+1. **Substitution**: Right-click a booking in the resource pool, select **Substitute Resource** and choose a pool member.
 
 1. **Rebook**: Right-click a pool booking and select **Rebook**. Edit the filter criteria to no longer search for pools, but to search for Contact, User, and Account type resources.
 

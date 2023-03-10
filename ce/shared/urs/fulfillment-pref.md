@@ -52,13 +52,3 @@ You can add both an interval and a time group to the same fulfillment preference
   - If the **Reset Interval per Time Group Detail** is set to **Yes**, the appointments would be:
 
     8:00 AM, 9:30 AM, 11:00 AM, (not 12:30 PM because this is blocked for lunch), **1:00 PM** (resetting for the next time group detail), 2:30 PM, and 4:00 PM.
-
-## Additional notes
-
-- Intervals can also be set for requirement groups. All requirements within the group will inherit the same fulfillment preferences.
-
-- Time group details cannot be used with requirement groups.
-
-- The **Intervals Begin** time is dependent on the time zone of the requirement calendar when triggered from the requirement. When schedule assistant is used from the schedule board, it depends on the timezone of the schedule board tab.
-
-- Quick Scheduling does not support fulfillment preferences with time groups.
