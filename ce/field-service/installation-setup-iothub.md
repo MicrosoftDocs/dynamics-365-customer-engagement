@@ -31,7 +31,7 @@ This guide provides all the steps required for getting up and running with Conne
 
 ## Step 1: Deploy Connected Field Service and Azure resources from an ARM template
 
-Deploy and connect Azure IoT Hub to your Field Service environment. 
+Deploy and connect Azure IoT Hub to your Field Service environment.
 
 1. Go to the **Deployment steps** section on [https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment#deploy-the-arm-template) and deploy the Azure Resource Manager (ARM) template. Select **Deploy to Azure** to initiate the deployment.
 
@@ -39,7 +39,7 @@ Deploy and connect Azure IoT Hub to your Field Service environment.
 
    :::image type="content" source="media/ARM-deployment-template.png" alt-text="Screenshot of the Azure Resource Manager template to deploy IoT Hub for Connected Field Service.":::
 
-1. Enter the [unique name of your organization](/power-platform/admin/determine-org-id-name#find-your-organization-name), and the [organization URL](/power-platform/admin/determine-org-id-name#find-your-environment-and-organization-id).
+1. Enter the [unique name of your organization](/power-platform/admin/determine-org-id-name#find-your-organization-name), and the organization URL of the Field Service environment.
 
 1. Select the optional resources you want to deploy.
    - We recommend adding **Azure Time Series Insights** to enable visualization for device readings and summary tiles.
@@ -185,7 +185,7 @@ Use Azure Time Series Insights to create visualizations.
 
 1. Run the script again, replacing the `Key` with `TSI_PLUGIN_CLIENT_APPLICATION_ID` and the `Value` with the `Application Client ID` from the app registration for Time Series Insights that you created as a [prerequisite](#prerequisites).
 
-1. Run the script again, replacing the `Key` with `TSI_PLUGIN_CLIENT_SECRET` and the `Value` with the `Application Client ID` from the app registration for Time Series Insights that you created and recorded as a [prerequisite](#prerequisites).
+1. Run the script again, replacing the `Key` with `TSI_PLUGIN_CLIENT_SECRET` and the `Value` with the `Client Secret` from the app registration for Time Series Insights that you created and recorded as a [prerequisite](#prerequisites).
 
 1. Run the following script, using your Time Series Insights URL and the GUID of the IoT Provider Instance row in the msdyn_iotproviderinstance table for the instance you created earlier.
 
@@ -194,7 +194,7 @@ Use Azure Time Series Insights to create visualizations.
     Xrm.WebApi.updateRecord("msdyn_iotproviderinstance", "Copy the value for msdyn_iotproviderinstanceid from the json object returned with the API call https://[your-environment-name].crm.dynamics.com/api/data/v9.2/msdyn_iotproviderinstances", data);
     ```
 
-## Step 9: Set up the simulator (optional)
+## Step 8: Set up the simulator (optional)
 
 The simulator lets you test Connected Field Service without the need to connect physical hardware. Simulated IoT devices and data help you understand different parts that contribute to turning IoT data into work orders.
 
@@ -237,6 +237,5 @@ Now you can send a test command by using the sample simulator. For example, sele
 [Azure Time Series Insights](/azure/time-series-insights/)
 
 [Connected Field Service Device Readings](cfs-visualizations-iot-hub.md) uses Azure Time Series Insight to store, process, and query IoT devices measurements from IoT Hub.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

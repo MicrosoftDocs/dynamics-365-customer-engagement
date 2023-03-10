@@ -45,7 +45,7 @@ If you can't enable automatic updates, regularly check for updates in the app st
 
 ## Universal Resource Scheduling
 
-[Universal Resource Scheduling](universal-resource-scheduling.md) powers the scheduling capabilities in Field Service and other Dynamics 365 apps. You automatically get the latest version with updates for the Dynamics 365 app.
+[Universal Resource Scheduling](universal-resource-scheduling-for-field-service.md) powers the scheduling capabilities in Field Service and other Dynamics 365 apps. You automatically get the latest version with updates for the Dynamics 365 app.
 
 ### Updated Universal FetchXML (UFX) queries
 
