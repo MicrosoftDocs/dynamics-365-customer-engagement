@@ -354,8 +354,6 @@
           href: real-time-marketing-email-text-consent.md
         - name: Use outbound subscription centers in real-time journeys
           href: real-time-marketing-outbound-subscription.md
-      - name: Real-time marketing domain authentication
-        href: real-time-marketing-domain.md
       - name: Manage SMS (text message) keywords used in customer journeys
         href: manage-sms-keywords.md
       - name: Install add-ons

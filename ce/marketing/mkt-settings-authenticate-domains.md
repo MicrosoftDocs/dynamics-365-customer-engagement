@@ -1,7 +1,7 @@
 ---
 title: "Domain authentication (old version) (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Authenticate your domains to maximize email deliverability with DKIM and enable embedding of Dynamics 365 Marketing forms on your own website in Dynamics 365 Marketing."
-ms.date: 03/08/2023
+ms.date: 03/10/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -221,5 +221,5 @@ To benefit from DKIM, the from-address for each message you send must show a dom
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Integrate with landing pages on external websites](embed-forms.md)  
 [page personalization](personalized-page-content.md)  
-
+[Domain authentication in real-time marketing](domain-authentication.md)
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
