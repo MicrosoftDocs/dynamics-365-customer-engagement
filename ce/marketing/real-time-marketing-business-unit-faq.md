@@ -1,5 +1,5 @@
 ---
-title: "BU FAQs for real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Business Units FAQs for real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "BU FAQs for real-time marketing in Dynamics 365 Marketing."
 ms.date: 03/10/2023
 ms.custom: 
@@ -17,27 +17,27 @@ search.app:
   - D365Mktg
 ---
 
-# BU FAQs for real-time marketing
+# Business Units FAQs for real-time marketing
 
 Read this article to find answers to common questions and solutions to known issues that can sometimes occur during the installation and management of customer journey.
 
-### What are the key differences between Business Unit scoping support in Outbound Marketing and Real-Time Marketing?
+### What are the key differences between Business Unit scoping support in outbound Marketing and real-time Marketing?
 There are three key differences –
-1. Once the Business Unit Scoping feature switch is turned on for Real-Time Marketing, it can't be turned off.
-2. With Business Unit scoping turned on, real-time marketing Journeys can only include/use segments, emails, SMS’, Push Messages that belong to the journey’s business unit. 
-3. With Business Unit scoping turned on, Real-Time marketing Emails, SMS Message, Templates, Content Blocks can only include/use artefacts from the same business unit.
+1. Once the Business Unit (BU) Scoping feature switch is turned on for real-time marketing, it can't be turned off.
+2. With BU scoping turned on, real-time marketing Journeys can only include/use segments, emails, SMS’, Push Messages that belong to the journey’s business unit. 
+3. With BU scoping turned on, real-time marketing Emails, SMS Message, Templates, Content Blocks can only include/use artefacts from the same business unit.
 
 ### Why can I not turn this feature off once it's turned on?
-Once Business Unit scoping feature is turned on for real-time marketing, all the processes start relying on Business Units for segregation of the captured/generated data – for example – Consent data, Journey analytics data, etc. – are all segregated by business units. Turning off the feature would result in unexpected behavior across the board but most importantly in journeys.
+Once BU scoping feature is turned on for real-time marketing, all the processes start relying on Business Units for segregation of the captured/generated data – for example – Consent data, Journey analytics data, etc, – are all segregated by business units. Turning off the feature would result in unexpected behavior across the board but most importantly in journeys.
 
-### Would my journey target audience members from all  business units  in the journey owner’s business unit’s hierarchy?
-No. In this release Journeys and Segments are strictly scoped to a single business unit and thus it can only act on the audience members that explicitly belong to the journey’s business unit. 
+### Would my journey target audience members from all BU in the journey owner’s business unit’s hierarchy?
+No. In this release journeys and segments are strictly scoped to a single business unit and thus it can only act on the audience members that explicitly belong to the journey’s business unit. 
 
 ### What will happen to my existing journeys if I turn on this feature?
-If left unedited, existing journeys continue to function as they were before and operate at the organization level. However, editing such journeys could potentially lead to validation errors since the business unit scoping feature mandates the usage of segments, emails, SMSs, and push messages from the journey’s business unit alone. 
+If left unedited, existing journeys continue to function as they were before and operate at the organization level. However, editing such journeys could potentially lead to validation errors since the BU scoping feature mandates the usage of segments, emails, SMSs, and push messages from the journey’s business unit alone. 
 
-### Will Business Unit scoping in journeys work for Customer Insights segments?
-No. Customer Insights doesn’t currently support Business Units and thus any journeys created using Customer Insights segments wouldn’t be business unit scoped.
+### Will BU scoping in journeys work for Customer Insights segments?
+No. Customer Insights doesn’t currently support BU and thus any journeys created using Customer Insights segments wouldn’t be business unit scoped.
 
 ### Why are users from one business unit able to see the analytics data of another business unit in the analytics dashboards?
 There are certain areas of the product where the support for Business Units (& Modernized Business Units) is still being added. Analytics doesn’t currently support business units and thus any user will be able to see analytics data from any business unit, irrespective of their access. 
