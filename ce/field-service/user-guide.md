@@ -160,8 +160,6 @@ The purpose of this section is to help you explore all the features of Field Ser
 The purpose of this section is to provide implementation guidance and best practices, both technical and strategic. It also points toward extensibility and developer instructions.
    <ul>
   <li><a href="https://youtu.be/LQXpjMMrJIo" data-raw-source="[General Field Service implementation best practices](https://youtu.be/LQXpjMMrJIo)">General Field Service implementation best practices</a>
-  <li><a href="5-stages-scheduling-adoption.md" data-raw-source="[The five stages of scheduling adoption](5-stages-scheduling-adoption.md)">The five stages of scheduling adoption</a>
-</li>
   <li><a href="configure-default-settings.md" data-raw-source="[Field Service Settings](configure-default-settings.md)">Field Service Settings</a></li>
    <li><a href="version-history.md" data-raw-source="[Version history](version-history.md)">Version history</a></li>
     <li><a href="appsource-addins.md" data-raw-source="[AppSource add-ins for Field Service](appsource-addins.md)">AppSource add-ins for Field Service</a></li>
