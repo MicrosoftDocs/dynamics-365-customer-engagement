@@ -1,15 +1,14 @@
 ---
-title: "Add a web resource for real-time translation of messages | MicrosoftDocs"
-description: "Learn how to add a web resource to implement the logic for enabling real-time translation of messages exchanged between your customers and agents."
-ms.date: 07/07/2022
-ms.topic: reference
+title: Add a web resource for real-time translation of messages
+description: Learn how to add a web resource to implement the logic for enabling real-time translation of messages exchanged between your customers and agents.
+ms.date: 03/08/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 # Add a web resource for real-time translation
-
-## Introduction
 
 You can use a web resource to implement the logic for enabling real-time translation of messages exchanged in conversations between the customer and the agent.
 
