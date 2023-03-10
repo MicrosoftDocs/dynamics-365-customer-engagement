@@ -2,14 +2,9 @@ Dispatchers and service managers need use the resource utilization metric to mak
 
 Utilization is the amount of time a dispatcher schedules a resource to work. The metric is the percentage of booked time versus working hours. On the schedule board, resource utilization shows next to a resource's name.
 
-<!--update screenshots and add callout to date range too-->
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board.](../../field-service/media/schedule-board-utilization.png)
-
 ## Calculate resource utilization
 
-> [!Note]
+> [!NOTE]
 > Resource capacity and requirement effort are not considered in utilization calculations.
 
 Utilization percentage derives from **Total Booked Hours** divided by **Total Working Hours** in the selected date range.

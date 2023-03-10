@@ -8,9 +8,6 @@ Each bookable resource has a cost based on factors like seniority and certificat
 
 Go to **Customizations** > **Customize the System** > **Bookable Resource** > **Fields** and add a new field named **Resource Cost** with the schema name **tsp_resourcecost**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of adding resource cost attribute or field to a bookable resource.](../../field-service/media/schedule-board-tab-settings-resource-cost.png "Screenshot of adding resource cost attribute or field to a bookable resource")
-
 Use the data type **Option Set** and select the existing option set **Level of Importance** to use a list of values from 1 to 10.
 
 Add the newly created field to the form before you **Publish** the changes.

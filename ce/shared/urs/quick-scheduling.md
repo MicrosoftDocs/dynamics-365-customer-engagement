@@ -2,11 +2,6 @@ Quick scheduling (sometimes referred to as “quick book”) simplifies the sche
 
 Without leaving a record, use a scheduling pane to see available booking time slots.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the quick schedule pane appearing over an open work order.](../../field-service/media/scheduling-quick-book.png)
-
-<!-- update screenshots -->
-
 ## Prerequisites
 
 - An admin [enabled the quick book setting in the booking setup metadata](../../field-service/schedule-new-entity.md). If the setting is disabled, booking controls [launch the schedule assistant](../../field-service/schedule-assistant.md) instead.
@@ -20,7 +15,7 @@ Without leaving a record, use a scheduling pane to see available booking time sl
 
 1. Open a bookable entity or a resource requirement and select **Book**.
 
-1. In the **Confirm Change** pane, choose the suggested time slot and select **Book** to confirm.
+1. In the **Book Resources** pane, choose the suggested time slot and select **Book** to confirm.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the quick book pane triggered from a work order.](../../field-service/media/scheduling-quick-book.png)
@@ -40,13 +35,4 @@ There are a few basic filters for the quick book pane.
 
 - Select the resource icon next to a time slot to see the list of matching resources and choose your preferred option. The list also includes some details like travel time and distance.
 
-- Select **Open Schedule Assistant** in the quick book pane to [launch the full experience of the schedule assistant](../../field-service/schedule-assistant.md) with more filter options.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the quick book pane, including the link that opens the schedule assistant.](../../field-service/media/scheduling-quick-book-select-resources2.png)
-
-## Additional notes
-
-- Selecting **Book** again for the same requirement creates an additional booking. Selecting **Book** again for a *requirement group* will trigger the rebook process, which cancels previous bookings.
-- Enabling quick book enables it for your entire organization; it can't be enabled only for specific users or security roles. 
-- When there are no search start and search end dates defined, the search window defaults to 60 days from today, and resource availability is shown for the next 60 days. If only a search start date is populated (but no end date), then the search window defaults to the current day plus 60 days, and not the provided start date plus 60 days.
+- Select **Schedule Assistant** in the quick book pane to [launch the full experience of the schedule assistant](../../field-service/schedule-assistant.md) with more filter options.
