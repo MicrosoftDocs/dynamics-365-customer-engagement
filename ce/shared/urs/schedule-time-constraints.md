@@ -28,8 +28,6 @@ When you book the requirement, the start times of the schedule results will refl
 
 You can customize which fields serve as the start and end dates for the related requirement in the booking setup metadata. In the Resources area, under **Administration**, select **Booking Setup Metadata**. Select the entity name and go to the **Attribute Mapping** section to choose any date/time field you want to use.
 
-:::image type="content" source="../../field-service/media/scheduling-customize-booking-dates.png" alt-text="Screenshot of the attribute mapping section in the booking setup metadata entity with callouts on the date fields.":::
-
 ## Next steps
 
 - [Define intervals and time groups with fulfillment preferences](../../field-service/set-up-time-groups.md)

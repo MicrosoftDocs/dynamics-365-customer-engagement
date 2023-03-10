@@ -17,8 +17,6 @@ Learn how to enable an entity for scheduling.
    > [!TIP]
    > If the entity you want to enable doesn't show in list, update the **Can be customized** setting to **True** for [the managed property](/dynamics365/customer-engagement/customize/set-managed-properties).
 
-   :::image type="content" source="../../field-service/media/enable-entity.png" alt-text="Screenshot of the Enable Scheduling setting for entities.":::
-
 1. For **Booking Relationship** and **Requirement Relationship**, choose **Create New Relationship**. Select an existing relationship if you've previously created relationships to the *bookable resource booking* or *resource requirement* entities
 
 1. Select **Publish Customization**.  
@@ -27,8 +25,6 @@ Learn how to enable an entity for scheduling.
 
 To turn off scheduling for a previously enabled entity, select **Deactivate** in the ribbon on the *Booking Setup Metadata* record of the enabled entity.
 
-:::image type="content" source="../../field-service/media/disable-entity.png" alt-text="Screenshot of the booking meta data record for work order with highlight on the Deactivate control.":::
-
 ## Edit settings for enabled entities
 
 Edit booking settings for entities you enabled for scheduling.
@@ -36,8 +32,6 @@ Edit booking settings for entities you enabled for scheduling.
 1. In Resource Scheduling, change to the **Settings** area. Under **Scheduling**, select **Administration**. Select **Enable Resource Scheduling for Entities**.
 
 1. In the **Enabled Entities** section, double-click the entity you want to edit. A new tab with the booking setup metadata for the selected entity opens.
-
-   :::image type="content" source="../../field-service/media/booking-setup-metadata-record.png" alt-text="Screenshot of a booking setup metadata records with settings and attribute mapping.":::
 
     | Setting | Effect | Value |
     |---|---|---|
@@ -69,57 +63,16 @@ You've successfully enabled an entity for scheduling when:
 
 After creating a requirement for the lead, it will appear in the **Open Requirements** view in the lower pane of the schedule board that shows all open requirements related to any schedulable entity. This is a default view for resource scheduling.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the open requirements pane on the schedule board.](../../field-service/media/scheduling-enable-entity-open-requirements.png)
+However, the views in the lower pane of the schedule board are system views and can be edited and added to. It's common to add custom resource requirement views for schedulable entities.
 
-However, the views in the lower pane of the schedule board are simply system views and can be edited and added to. It's common to add custom resource requirements views for work orders (or leads in our example). Let's create a schedule board view that shows only leads to be scheduled.
+1. Go to **Advanced Settings** > **Customizations** > **Entities** > **Resource Requirement** > **Views**.  
 
-Go to **Settings** > **Customizations** > **Entities** > **Resource Requirement** > **Views**.  
+1. Create a new view and add fields to the view that provide details for what you are scheduling.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the resource requirements views settings.](../../field-service/media/customizations-resource-requirements.png)
+1. Name the view and edit the filter criteria to show the records you want to see int he view.
 
-Create a new view and add fields to the view that provide details for what you are scheduling. Use the drop-down to capture fields from the entity (in this case, **Lead**). 
+1. **Save**, then **Close & Publish**.  
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of possible entities, with "lead" selected](../../field-service/media/addleadentity.png)
+Now that the view is created, edit the schedule board that will use the new view.
 
-Name the view using the properties or **Save As** functions. In this example, we will call it our new view "Unscheduled Leads." 
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the "View Properties" form with the name "Unscheduled Leads" populated](../../field-service/media/createview.png)
- 
-Most importantly, edit the filter criteria to show the appropriate records. To ensure only the lead resource requirements will be displayed, select the **Lead** entity and filter the records appropriately.  
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the filter criteria, with "Lead" highlighted](../../field-service/media/editfiltercriteria.png)
- 
-**Save**, then **Close & Publish**.  
-
-Finally, we'll need to edit the schedule board we will be using in order to schedule the entity. 
-
-Go to the schedule board and select the plus sign icon (+) to add a new tab.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the plus sign icon on the schedule board.](../../field-service/media/scheduling-enable-entity-add-tab.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the add tab settings for leads.](../../field-service/media/newtab.png)
-
-In the **Requirement Panels** section, add a **Title** and select the new view. 
-
-Select the plus sign icon (+) to add the view.  
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the requirements panel section.](../../field-service/media/addviewtoboard.png)
- 
-Select **Hide default requirement panels** if you don’t want to display the other tabs.  
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board with the new unscheduled leads view displayed.](../../field-service/media/scheduleboard-leads.png)
-
-> [!Note]
-> You may have many lead records in the system, but if there are no requirements related to the leads, then no records will show on the schedule board. Resource requirements will need to be created for each lead you want to schedule either manually or through a workflow to auto create upon creation of a lead.  
+Open the board settings and in the **Requirement panels** section, add a new panel. Provide a **Title**, choose the view to use and save your changes.

@@ -50,9 +50,6 @@ When booking a requirement with the schedule assistant, the system considers tra
 
 To help with scheduling decisions, show the current traffic patterns on the schedule board map. alongside technician routes. Open the **View settings** on the map and select **Traffic**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of show traffic button on schedule board map.](../../field-service/media/scheduling-schedule-board-traffic.png)
-
 > [!NOTE]
 > Travel time calculations don't take traffic patterns or historical travel times into account.
 

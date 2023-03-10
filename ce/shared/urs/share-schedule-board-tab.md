@@ -14,8 +14,6 @@ Use the schedule board tab settings to share a tab.
    - **Just Me** restricts the tab to you only.
    - **Specific People** shares the tab with other users that you choose.
 
-   :::image type="content" source="../../field-service/media/schedule-board-shared-with.png" alt-text="Screenshot of assigning a shared with option.":::
-
    > [!TIP]
    >  Every user with a Field Service security role gets access. Admins can also [create custom security roles](/power-platform/admin/security-roles-privileges) with the **Schedule Board Setting** privilege.
    > :::image type="content" source="../../field-service/media/schedule-board-setting-privilege.png" alt-text="Screenshot of the list of privileges with callout on the schedule board setting.":::
