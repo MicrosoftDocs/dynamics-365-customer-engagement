@@ -34,7 +34,7 @@ When you error check or go live with a marketing email message, the verification
 To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md). To learn more about embedded forms and pre-filling, see [Integrate with landing pages on external websites](embed-forms.md).
 
 > [!NOTE]
-> When real-time marketing features are installed, a wizard is included to authenticate domains for both real-time marketing and outbound marketing. To learn how to use the real-time marketing domain authentication wizard, see the [Real-time marketing domain authentication](real-time-marketing-domain.md) article. If real-time marketing is not installed, you must follow the setup described below in this article to authenticate domains for use in outbound marketing features.
+> When real-time marketing features are installed, a wizard is included to authenticate domains for both real-time marketing and outbound marketing. To learn how to use the real-time marketing domain authentication wizard, see the [Real-time marketing domain authentication](domain-authentication.md) article. If real-time marketing is not installed, you must follow the setup described below in this article to authenticate domains for use in outbound marketing features.
 
 ## The default authenticated domain
 
