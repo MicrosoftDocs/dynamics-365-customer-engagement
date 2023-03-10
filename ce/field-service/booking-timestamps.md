@@ -12,14 +12,13 @@ search.app:
 
 # Booking timestamps and booking journals
 
-Booking timestamps record the date and time that a *Booking Status* changes. They let you keep track of how technicians spend their time, provide details for invoicing, and enable booking journals.
+Booking timestamps record the date and time that a *Booking Status* changes. They log how technicians spend their time, provide details for invoicing, and enable booking journals.
 
 - Reporting, in order to see how technicians are spending their time
 - Time-keeping, in order to provide a level of detail for invoicing
 - Booking journals, in order to see a holistic view of time spent on any given work order
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of booking timestamps on a booking resource booking.](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
+:::image type="content" source="media/scheduling-timestamps-booking-statuses-per-fs-status.png" alt-text="Screenshot of booking timestamps on a booking resource booking":::
 
 > [!TIP]
 > You can use booking timestamps to automatically generate [time entries](field-service-time-entry.md). To enable that feature, [set the Field Service setting](configure-default-settings.md#time-entry-settings) **Time Entry Generation Strategy** to *Auto Generate from Booking Timestamps*.
@@ -45,15 +44,12 @@ The system saves every change of the booking status to keep a track record.
 
 To view timestamps, open a bookable resource booking and select **Related** > **Booking Timestamps**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of booking timestamps on a bookable resource booking in Field Service.](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
-
 Each booking timestamp includes the following information:
 
 - **System Status**: The related Field Service Status for the work order process.
 - **Booking Status**: Booking status of the bookable resource booking.
 - **Timestamp Time**: The date and time of status change.
-- **Timestamp Source**: The device type originating the status change. When updating from the Field Service (Dynamics 365) mobile app, the timestamp source is *Desktop* if the changes ocurred while the app is running in online mode, and *Mobile* when the app is running in offline mode.
+- **Timestamp Source**: The device type originating the status change. When updating from the Field Service (Dynamics 365) mobile app, the timestamp source is *Desktop* if the changes occurred while the app is running in online mode, and *Mobile* when the app is running in offline mode.
 
 ## Generate booking journals
 

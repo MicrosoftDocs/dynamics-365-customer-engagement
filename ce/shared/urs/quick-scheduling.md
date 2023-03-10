@@ -20,7 +20,7 @@ Without leaving a record, use a scheduling pane to see available booking time sl
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the quick book pane triggered from a work order.](../../field-service/media/scheduling-quick-book.png)
 
-The system chooses an available resource that also meets other requirement criteria like skills and organizational unit. If the requirement is location-based, the system chooses the closest resource based on the starting location or their previous location. For location-agnostic requirements, the system chooses the first available resource based on alphabetical order of the resource's first name.
+The system chooses an available resource that also meets other requirement criteria like skills and organizational unit. If the requirement is location-based, the system chooses the closest resource. For location-agnostic requirements, the system chooses the first available resource based on alphabetical order of the resource's first name.
 
 To use your preferred time slots, [define intervals with fulfillment preferences](../../field-service/set-up-time-groups.md). However, quick book doesn't support time groups.
 
