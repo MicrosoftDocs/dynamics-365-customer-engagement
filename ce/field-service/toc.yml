@@ -162,14 +162,8 @@ items:
 
 - name: Scheduling
   items:
-  - name: Universal Resource Scheduling for Field Service
+  - name: Universal Resource Scheduling for Field Service overview
     href: universal-resource-scheduling-for-field-service.md
-  - name: Types of scheduling
-    href: scheduling-capabilities.md
-  - name: Scheduling personas
-    href: scheduling-roles-personas.md
-  - name: The 5 stages of scheduling adoption
-    href: 5-stages-scheduling-adoption.md
   - name: Administration and configuration
     items:
       - name: Enable an entity for scheduling
@@ -200,7 +194,7 @@ items:
         href: schedule-with-travel-time.md
       - name: Time constraints
         href: schedule-time-constraints.md
-      - name: Resource preferences
+      - name: Preferred resources
         href: resource-preferences.md
       - name: Quick scheduling
         href: quick-scheduling.md
@@ -355,7 +349,9 @@ items:
             href: developer/connected-field-service-developer-guide.md
           - name: Prerequisites for Azure subscription
             href: cfs-azure-subscription.md
-          - name: Installation
+          - name: Create Iot provider for IoT Hub
+            href: cfs-provider-iot-hub.md
+          - name: Installation via IoT Hub
             href: installation-setup-iothub.md
           - name: Register IoT devices
             href: cfs-register-devices.md

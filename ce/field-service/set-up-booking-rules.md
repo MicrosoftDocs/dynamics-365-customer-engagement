@@ -1,11 +1,11 @@
 ---
-title: "Set up booking rules in Dynamics 365 Field Service | MicrosoftDocs"
+title: Set up booking rules
 description: Learn how to set up booking rules in Dynamics 365 Field Service.
 ms.date: 02/01/2022
 
 ms.topic: article
-author: ryanchen8
-ms.author: chenryan
+author: clearab
+ms.author: anclear
 search.app: 
   - D365CE
   - D365FS
