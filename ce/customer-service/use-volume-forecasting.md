@@ -27,7 +27,8 @@ You can use the Forecast report for agent, case, and conversation volumes in the
 
 - Forecast upcoming case and conversation volumes based on historical traffic and the number of agents needed to meet the forecasted conversation volume. For conversation volume forecasting, if your administrator has set up chatbots for your conversational channels, the system excludes conversations that chatbots handle without a human agent joined, so that you can rely on the predicted conversation volumes for human agent staffing.
 
-- Visualize forecast volumes on an intraday, daily, weekly, and monthly interval basis, for a time range up to six months depending on how many days of cases or conversations were created in the past.
+- Visualize forecast volumes on a daily basis, for a time range up to six months depending on how many days of cases or conversations were created in the past. This forecast can be used to plan agent resourcing and recruitment, to meet future demand.
+- Visualize forecast volumes on a 15-minute interval basis, for a time range up to 6 weeks depending on how many days of cases or conversations were created in the past. This forecast can be used to schedule agents to meet the near-term demand.
 
 - Slice forecasted volumes by channel and queue.
 
