@@ -26,10 +26,14 @@ Having this information ready can help support agents reduce the hold time that 
 - Recent cases
 - Timeline
 
-> [!div class='mx-imgBorder']
-> ![View Customer summary.](media/customer-summary.png "View the Customer summary page")
+ :::image type="content" source="media/customer-summary-1.png" alt-text="View Customer Summary" lightbox="media/customer-summary.png":::
 
 For active conversations, you can view the **Customer summary** form on the agent dashboard of the Customer Service workspace and Omnichannel for Customer Service apps. The **Customer Summary** form, however, doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard. More information: [View agent dashboard and conversations](oc-agent-dashboard.md)
+
+You can also view and edit custom fields added to the Customer Summary form by your administrator in Power Apps.
+
+> [!NOTE]
+> If a value is already available, the application populates the custom field value on the Customer Summary form.
 
 ## Customer (Contact or Account)
 
@@ -108,7 +112,6 @@ This section displays recent cases related to the customer.
 
 > [!div class='mx-imgBorder']
 > ![Recent cases section in the customer summary form.](media/customer-summary-recent-cases.png "Recent cases section on the Customer summary page")
-
 
 ## Timeline
 

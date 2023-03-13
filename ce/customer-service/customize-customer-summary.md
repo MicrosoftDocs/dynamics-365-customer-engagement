@@ -18,9 +18,7 @@ You can customize the following for the **Customer summary** page:
 - Add or remove custom controls
 - Add a web resource or iFrame to the form
 - Customize the layout
-
-> [!NOTE]
-> However, for a conversation entity, you can't add custom fields, forms, or views.
+- Add custom fields
 
 By default, the **Customer summary** page displays the sections that are listed in this article. For information on how to customize these sections, see [Customize quick view forms](customize-quick-view-form.md).
 
@@ -70,7 +68,7 @@ To customize labels on the conversation form:
 1. Select the link in the URL field. A dialog opens and displays the contents of the resource file.
 
    1. Copy and paste the contents into a text editor, and then update the text for the value tag of the labels you want to change with a label of your choice . For example, for **Customer**, update the text in value with "Client". This will replace the "Customer" label with "Client" on the Customer summary form.
-
+s
    1. Similarly, for the **Issue** tag, update the text in value* with "Ticket". This will replace the "Issue" label with "Ticket" on the Customer summary form.
 
     The sample tags with the new values are as follows.
