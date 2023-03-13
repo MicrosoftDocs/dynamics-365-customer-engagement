@@ -26,7 +26,7 @@ Realtime forms are consisting of two part - so called form placeholder, which lo
 ```HTML
 <div
   data-form-id='{msdynmkt_marketingformid}'
-  data-submit-form-url='https://{server}.dynamics.com/api/v1.0/orgs/{organizationid}/landingpageforms/forms/{msdynmkt_marketingformid}'
+  data-form-api-url='https://{server}.dynamics.com/api/v1.0/orgs/{organizationid}/landingpageforms/forms/{msdynmkt_marketingformid}'
   data-cached-form-url='https://{server}.dynamics.com/{organizationid}/digitalassets/forms/{msdynmkt_marketingformid}' >
 </div>
 ```
@@ -85,7 +85,7 @@ It can be inconvenient to wait for `DOMContentLoaded` - especially for scenarios
       const root = document.getElementById('root');
       root.appendChild(d365mktforms.createForm(
         'formId',
-        'formSubmitUrl',
+        'formApiBaseUrl',
         'formUrl'));
     </script>
   </body>
@@ -108,7 +108,7 @@ You can use marketing forms within your react application. The form loader expos
       const root = ReactDOM.createRoot(document.getElementById('root'));
       root.render(React.createElement(d365mktforms.FormPlaceholder, {
         formId:'{msdynmkt_marketingformid}',
-        formSubmitUrl:'https://{server-submit}/api/v1.0/orgs/{organizationid}/landingpageforms/forms/{msdynmkt_marketingformid},
+        formApiBaseUrl:'https://{server-api}/api/v1.0/orgs/{organizationid}/landingpageforms',
         formUrl:'https://{server-load}/{organizationid}/digitalassets/forms/{msdynmkt_marketingformid}'
       }, null));
     </script>
@@ -119,7 +119,7 @@ You can use marketing forms within your react application. The form loader expos
 > | Widget attribute | React component property |
 > |---------------------|---------------------------------|
 > | data-form-id | formId |
-> | data-submit-form-url | formSubmitUrl |
+> | data-form-api-url | formApiBaseUrl |
 > | data-cached-form-url | formUrl |
 
 > [!NOTE]
