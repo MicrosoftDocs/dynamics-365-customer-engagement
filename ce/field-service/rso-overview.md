@@ -119,6 +119,4 @@ Every time Resource Scheduling Optimization runs, it keeps track of the total tr
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Resource Scheduling Optimization quickstart video](https://youtu.be/oJ-3HTJWRMo)
 
-- [Five stages of scheduling adoption](5-stages-scheduling-adoption.md)
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

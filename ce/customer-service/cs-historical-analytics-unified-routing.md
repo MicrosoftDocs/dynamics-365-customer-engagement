@@ -11,8 +11,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Historical analytics for unified routing in Customer Service
 
-## Introduction
-
 With the introduction of unified routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
 
 In Customer Service, the report displays metrics pertaining to only those records that are routed using unified routing.

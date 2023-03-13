@@ -102,8 +102,6 @@
         href: mkt-settings-lead-score-options.md
       - name: Add or remove sample data
         href: /power-platform/admin/add-remove-sample-data
-      - name: Authenticate your domains
-        href: mkt-settings-authenticate-domains.md
       - name: Marketing analytics configuration
         href: mkt-settings-analytics.md
       - name: Configure landing pages
@@ -224,7 +222,7 @@
       href: real-time-marketing-user-guide.yml
     - name: Get started with real-time marketing
       items:
-      - name: Real-time marketing overview
+      - name: Overview
         href: real-time-marketing-overview.md 
       - name: Use Customer Insights profiles and segments
         href: real-time-marketing-ci-profile.md
@@ -238,6 +236,8 @@
           href: real-time-marketing-email.md
         - name: "Preview: Use AI to kickstart email creation with content ideas"
           href: content-ideas.md
+        - name: "Preview: Send emails without building a journey"
+          href: email-without-journey.md
         - name: Use brand profiles in real-time marketing email
           href: brand-profiles-email.md
       - name: "Preview: Real-time marketing forms"
@@ -282,9 +282,9 @@
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
           href: real-time-marketing-segment-based-journey.md
-        - name: "Preview: Create a static snapshot of a segment"
+        - name: Create a static snapshot of a segment
           href: real-time-marketing-static-snapshot.md
-        - name: "Preview: Individually manage your customer list"
+        - name: Individually manage your customer list
           href: real-time-marketing-include-exclude.md
         - name: "Preview: Sync data tables into the segment builder"
           href: real-time-marketing-sync-data-tables.md
@@ -306,16 +306,20 @@
           href: real-time-marketing-personalize-triggers.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
-      - name: Analytics
-        items:
-        - name: Access and interpret analytics
-          href: real-time-marketing-analytics.md
-        - name: How to use aggregate cross-journey analytics
-          href: real-time-marketing-cross-journey-analytics.md
-        - name: How to use aggregate channel analytics
-          href: real-time-marketing-channel-analytics.md
-        - name: "Preview: Track campaigns with UTM codes"
-          href: real-time-marketing-utm.md
+        - name: Customize the journey designer in real-time Marketing
+          href: real-time-marketing-journey-designer.md
+        - name: Add email CC recipients to journeys in real-time marketing
+          href: real-time-marketing-add-cc-recipients.md  
+    - name: Analytics
+      items:
+      - name: Access and interpret analytics
+        href: real-time-marketing-analytics.md
+      - name: How to use aggregate cross-journey analytics
+        href: real-time-marketing-cross-journey-analytics.md
+      - name: How to use aggregate channel analytics
+        href: real-time-marketing-channel-analytics.md
+      - name: "Preview: Track campaigns with UTM codes"
+        href: real-time-marketing-utm.md
     - name: Personalization
       items:
       - name: Personalize content
@@ -326,7 +330,7 @@
         href: conditional-content.md
       - name: Create reusable content blocks
         href: content-blocks.md
-      - name: Personalize inline conditions
+      - name: How to use inline conditions
         href: real-time-marketing-personalize-inline-conditions.md
       - name: Personalize lists
         href: real-time-marketing-personalize-lists.md
@@ -358,6 +362,14 @@
         href: manage-sms-keywords.md
       - name: Install add-ons
         href: add-ons.md
+      - name: Business units 
+        items:
+        - name: "Preview: Business unit support in real-time marketing"
+          href: real-time-marketing-business-units.md
+        - name: Support for modernized business units 
+          href: real-time-marketing-modernized-business-units.md
+        - name: BU FAQ for real-time marketing
+          href: real-time-marketing-business-unit-faq.md  
     - name: Developer
       items: 
       - name: Manually add a custom channel
@@ -388,6 +400,12 @@
         href: real-time-marketing-api-segment.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
+    - name: Domain Authentication  
+      items:
+      - name: Domain authentication in real-time marketing
+        href: domain-authentication.md
+      - name: BIMI support
+        href: bimi-support.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
   - name: Outbound marketing
@@ -406,6 +424,8 @@
         href: organize-daily-work.md
       - name: Manage customer information
         href: manage-customer-information.md
+      - name: Business unit support in outbound marketing
+        href: business-units-support-outbound-marketing.md
       - name: Access a Dynamics 365 Marketing trial from Microsoft Teams
         href: teams-journey.md
       - name: Sales and marketing collaboration with Dynamics 365
@@ -478,6 +498,10 @@
         href: email-a-b-testing.md
       - name: Email troubleshoot + FAQ
         href: email-troubleshoot.md
+    - name: Domain authentication (old version)
+      items: 
+      - name: Authenticate your domains
+        href: mkt-settings-authenticate-domains.md
     - name: Marketing pages and forms
       items: 
       - name: Create and deploy marketing pages

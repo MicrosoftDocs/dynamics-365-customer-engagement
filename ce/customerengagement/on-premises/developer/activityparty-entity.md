@@ -74,8 +74,8 @@ An activity party represents a person or group associated with an activity. An a
  [ActivityParty Entity](entities/activityparty.md)   
  [Sample: Book an Appointment](sample-book-appointment.md)
  [Sample: Convert a Fax to a Task](sample-convert-fax-task.md)   
- [Sample: Override Goal Total Count and Close the Goal](sample-override-goal-total-count-close-goal.md)   
- [Sample: Roll Up Goal Data for a Fiscal Period Against the Stretch Target Count](sample-rollup-goal-data-fiscal-period-stretch-target-count.md)   
+ [Sample: Override Goal Total Count and Close the Goal]((../../../sales/developer/sample-override-goal-total-count-close-goal.md)   
+ [Sample: Roll Up Goal Data for a Fiscal Period Against the Stretch Target Count]((../../../sales/developer/sample-rollup-goal-data-fiscal-period-stretch-target-count.md)   
  [Sample: Send an E-mail Using a Template](sample-send-email-template.md)   
  [Sample: Validate an Appointment](sample-validate-appointment.md)
 

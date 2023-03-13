@@ -106,15 +106,15 @@ landingContent:
       - linkListType: concept
         links:
         - text: Sales entities (lead, opportunity, competitor, quote, order, invoice) 
-          url: ../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md
+          url: developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md
         - text: Enable sales order processing integration 
-          url: ../sales-enterprise/developer/enable-sales-order-processing-integration.md
+          url: developer/enable-sales-order-processing-integration.md
         - text: Marketing entities (campaign, list) 
-          url: ../customerengagement/on-premises/developer/marketing-entities-campaign-list.md
+          url: developer/marketing-entities-campaign-list.md
         - text: Goal management entities 
-          url: ../customerengagement/on-premises/developer/goal-management-entities.md
+          url: developer/goal-management-entities.md
         - text: Product catalog entities 
-          url: ../customerengagement/on-premises/developer/product-catalog-entities.md
+          url: developer/product-catalog-entities.md
         - text: More help resources for developers... 
           url: developer/developer-guide.md
 

@@ -40,7 +40,7 @@ items:
     - name: Install Field Service
       href: install-field-service.md
     - name: Update Field Service
-      href: upgrade-field-service.md
+      href: update-field-service.md
     - name: Uninstall Field Service
       href: uninstall-field-service.md
     - name: Preview new features
@@ -74,6 +74,8 @@ items:
       href: set-up-service-task-types.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
+    - name: Use Dataverse search
+      href: search-dataverse-tables.md
     - name: Customer asset validation
       href: asset-validation.md
       
@@ -107,6 +109,10 @@ items:
       href: work-order-resolutions.md
     - name: Work order completion surveys
       href: work-order-surveys.md
+    - name: Trades
+      href: trades.md
+    - name: Not-to-exceed
+      href: work-order-not-to-exceed.md
 
 - name: Customers
   items:
@@ -156,14 +162,8 @@ items:
 
 - name: Scheduling
   items:
-  - name: Universal Resource Scheduling for Field Service
+  - name: Universal Resource Scheduling for Field Service overview
     href: universal-resource-scheduling-for-field-service.md
-  - name: Types of scheduling
-    href: scheduling-capabilities.md
-  - name: Scheduling personas
-    href: scheduling-roles-personas.md
-  - name: The 5 stages of scheduling adoption
-    href: 5-stages-scheduling-adoption.md
   - name: Administration and configuration
     items:
       - name: Enable an entity for scheduling
@@ -194,7 +194,7 @@ items:
         href: schedule-with-travel-time.md
       - name: Time constraints
         href: schedule-time-constraints.md
-      - name: Resource preferences
+      - name: Preferred resources
         href: resource-preferences.md
       - name: Quick scheduling
         href: quick-scheduling.md
@@ -349,7 +349,9 @@ items:
             href: developer/connected-field-service-developer-guide.md
           - name: Prerequisites for Azure subscription
             href: cfs-azure-subscription.md
-          - name: Installation
+          - name: Create Iot provider for IoT Hub
+            href: cfs-provider-iot-hub.md
+          - name: Installation via IoT Hub
             href: installation-setup-iothub.md
           - name: Register IoT devices
             href: cfs-register-devices.md
@@ -357,16 +359,10 @@ items:
             href: cfs-pull-device-data.md
           - name: "Quickstart: Build your own IoT solution"
             href: connected-field-service-overview.md
-      - name: Azure IoT Central
-        href: cfs-iot-overview.md
       - name: Use custom IoT providers
         href: cfs-custom-iot-provider.md
   - name: Analyze
     items:
-      - name: Receive IoT alerts from Azure IoT Central
-        href: cfs-iot-central-alerts.md
-      - name: Associate devices with customer accounts
-        href: cfs-iot-central-associate-devices.md
       - name: Summary tiles
         href: cfs-summary-tiles.md
       - name: Visualizing device readings
@@ -383,8 +379,6 @@ items:
         href: cfs-mobile-powerapp.md
       - name: Send commands
         href: cfs-commands.md
-      - name: Receive IoT alerts from real MXChip device
-        href: cfs-iotcentral-mxchip.md
       - name: IoT - Parent IoT alerts workflow
         href: developer/iot-parent-iot-alerts-workflow.md
       - name: Extend standard components or add Azure services
