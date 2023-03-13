@@ -456,6 +456,8 @@
               href: manage-sales-teams.md
             - name: Manage seller attributes
               href: manage-seller-attributes.md
+            - name: Manage seller availability  
+              href: manage-seller-availability.md
         - name: Engage with customers through text messages
           href: sms-intro.md
           items:
