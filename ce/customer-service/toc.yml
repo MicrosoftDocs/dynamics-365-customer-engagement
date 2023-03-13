@@ -978,7 +978,7 @@
       href: cs-region-availability-service-limits.md
     - name: Administrator experience
       items:
-      - name: Configure analytics and dashboards
+      - name: Configure user access to analytics and dashboards
         href: configure-customer-service-analytics-insights-csh.md 
       - name: Configure out-of-box historical analytics
         items:
@@ -986,7 +986,7 @@
           href: configure-cs-historical-analytics-csh.md
         - name: Configure Omnichannel historical analytics
           href: oc-historical-analytics-reports.md
-        - name: Configure knowledge analytics
+        - name: Configure Knowledge analytics
           href: enable-knowledge-search-insights.md
         - name: Configure Power BI template reports
           items:
@@ -1046,7 +1046,7 @@
             href: agent-dashboard-cs.md
           - name: Case Topics dashboard
             href: case-topics-dashboard-cs.md
-          - name: Historical analytics for unified routing in Customer Service
+          - name: Unified routing dashboard
             href: cs-historical-analytics-unified-routing.md
         - name: Use Omnichannel historical analytics
           items: 
@@ -1068,12 +1068,18 @@
             href: oc-conversation-topics-dashboard.md
           - name: Omnichannel Voicemail dashboard
             href: oc-voicemail-dashboard.md          
-          - name: Historical analytics for unified routing in Omnichannel for Customer Service
+          - name: Unified routing dashboard
             href: oc-historical-analytics-unified-routing.md
         - name: Use Knowledge management analytics
           href: knowledge-search-analytics-cs.md
-        - name: View analytics dashboards created in Power BI
+        - name: Use Customer Service Analytics dashboards in Power BI
           href: customer-service-analytics.md
+        - name: Omnichannel Insights
+          items: 
+          - name: Introduction to Omnichannel Insights
+            href: intro-dynamics-365-omnichannel-insights-dashboard.md
+          - name: View and understand Omnichannel Insights dashboard
+            href: omnichannel-insights-dashboard.md  
       - name: Use out-of-the-box real-time analytics
         items:
         - name: Use Omnichannel real-time analytics reports
@@ -1108,23 +1114,13 @@
             href: set-idle-time-threshold.md
           - name: View and understand Omnichannel Ongoing Conversations dashboard
             href: ongoing-conversations-dashboard.md
-        - name: Omnichannel Insights
-          items: 
-          - name: Introduction to Omnichannel Insights
-            href: intro-dynamics-365-omnichannel-insights-dashboard.md
-          - name: View and understand Omnichannel Insights dashboard
-            href: omnichannel-insights-dashboard.md
-      - name: Metrics
+      - name: Metrics definitions
         items:
         - name: Overview
           href:
-        - name: Use Customer Service analytics metrics
+        - name: Customer Service analytics metrics
           href:
-        - name: Infographic
-          href:
-        - name: use Omnichannel analytics metrics
-          href:
-        - name: Infographic
+        - name: Omnichannel analytics metrics
           href:
       - name: Personalize out-of-the-box analytics
         items: 
