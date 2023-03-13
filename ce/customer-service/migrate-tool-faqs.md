@@ -1,7 +1,7 @@
 ---
 title: Migration tool FAQ
 description: Migration tool FAQ for automatic record creation rules and service-level agreement items.
-ms.date: 02/17/2023
+ms.date: 03/13/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -165,18 +165,38 @@ For lookup data types, only the **equal / not equal, null /not null** operators 
 > - The "not-on" operator for the Date data type is not supported.
 > - For the lookups data type, only the "equal," "not equal," "null," and "not null" operators are supported. The "under" and "not-under" operators are not supported.
 
-## Known issues
- 
 ### Can I migrate a rule again after it’s been activated?
 
  - **Yes, for automatic record creation rules.** You can migrate an activated rule again, but you must first deactivate and delete it from Unified Interface before you can migrate it again.
  - **No for SLAs.** After a migrated SLA rule is activated, it is linked to another entity (such as a case or is in use). To attempt to migrate an activated rule (which is a successfully migrated rule by default) again, you'd need to delete that specific rule.
 
-However, there is a limitation with Unified Interface SLA rules, and once a rule is associated with a case or entity (that is, if it has been activated even once), you cannot delete the rule even if it is deactivated. Therefore, the rule cannot be migrated again if it has been previously activated or applied.
+However, there is a limitation with Unified Interface SLA rules, and once a rule is associated with a case or entity (that is, if it has been activated even once), you can't delete the rule even if it is deactivated. Therefore, the rule cannot be migrated again if it has been previously activated or applied.
 
 ### Can I migrate deprecated standard SLA rules?
 
  No. The migration tool only supports enhanced SLA rules. Standard SLA rules have been deprecated and are no longer supported in Unified Interface and therefore aren't supported in the migration tool. For more information, go to [Standard SLAs in Dynamics 365 Customer Service are deprecated](/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated). 
+
+## Known issues
+
+### Channel property deprecation
+
+If there are any use of channel properties in legacy rules customization, those rules won't be migrated successfully using the migration tool. There is no general workaround that can be applied to resolve this gap for all users. Workaround is highly dependent on how customer uses channel properties in legacy rules.
+
+### Behavior difference when the option “Create cases for activities associated with a resolved case” option is selected.
+
+- Legacy behavior: If the email has a related case that was resolved since the specified time, the resolved case will be reactivated out of the box without customization.
+- Modern behavior: If the email has a related case that was resolved since the specified time, a new case will be created out of the box. Customization is required to reactive existing case instead of creating a new case.
+
+### Behavior difference when the option “Create case if a valid entitlement exists for the customer” option is selected.
+
+- Legacy behavior: If email sender has no valid entitlement and email has a related case, the existing related case will be updated.
+- Modern behavior: If email sender has no valid entitlement, no flow will be invoked.
+
+### Parity gaps between workflow and Power automate flow, applies only to customization on rule item actions
+
+- “First not null” expression can’t be migrated automatically. Customization can be manually applied on the flow for the migration.
+- Mapping a lookup record’s display name to a string field can’t be migrated automatically. Customization can be manually applied on the flow for the migration.
+- Activity party fields used as source fields aren't supported in flow.  
 
 ## Known flow issues
 
