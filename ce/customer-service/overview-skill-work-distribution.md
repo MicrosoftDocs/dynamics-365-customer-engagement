@@ -1,18 +1,19 @@
 ---
-title: "Skill-based routing in Omnichannel for Customer Service | MicrosoftDocs"
-description: "This topic provides information about the skill-based routing in Omnichannel for Customer Service app to ensure that work items are assigned to the best suited agent."
-ms.date: 09/25/2021
+title: Skill-based routing in Omnichannel for Customer Service
+description: This topic provides information about the skill-based routing in the Omnichannel for Customer Service app to ensure that work items are assigned to the best-suited agent.
+ms.date: 03/08/2023
 ms.topic: overview
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
-
+author: neeranelli
+ms.author: nenellim
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
+
 # Overview of skill-based routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-> [!Note]
+> [!NOTE]
 > The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Omnichannel for Customer Service is shared with other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Omnichannel for Customer Service.
 
 In the customer service center, your agents have different skill sets and abilities. The customers who reach out to the contact center might have different needs. Skill-based routing lets your customer service center distribute work items (conversations) to the agent who is most qualified to solve the issue. Skill-based routing improves the quality of customer service by automatically distributing work items to the agent who has the skills necessary to do the work.
@@ -54,5 +55,5 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
 [Attach skills to conversation](attach-skills.md)  
 [Set up skill-based routing](set-up-skill-based-routing.md)  
-
+[Model data tables as skills](model-tables-as-skills-ur.md)  
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

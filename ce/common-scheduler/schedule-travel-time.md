@@ -1,16 +1,12 @@
 ---
-title: "Schedule work with time and distance in Universal Resource Scheduling"
-description: "Learn how travel time and distance are calculated and visualized to help you understand and minimize the time it takes to provide service to your customers."
-ms.date: 06/25/2019
+title: Schedule work with travel time and distance in Universal Resource Scheduling
+description: Learn how travel time and distance are calculated and visualized to help you understand and minimize the time it takes to provide service to your customers.
 ms.reviewer: mhart
 ms.subservice: common-scheduler
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
+ms.date: 02/22/2023
+ms.topic: conceptual
+author: clearab
+ms.author: anclear
 search.app: 
   - D365CE
   - D365FS
