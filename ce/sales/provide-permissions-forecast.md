@@ -32,7 +32,7 @@ A forecast owner can view, share, and adjust the forecast. You can assign a user
 
 In the **Owner lookup field (preview)**, select who owns the forecast.
 
-- To assign ownership to all users in the BU, select an attribute of the business unit entity. Let's say, you select **Owning Business Unit** as the owner of an account-based hierarchy, all users in the BU can view, share, and adjust forecasts for all accounts in the BU. The BU ownership is only available to hierarchy entities that have a BU relationship. Entities such as territory and product are not connected to any BUs and hence can't assign BU ownership.
+- To assign ownership to all users in the BU, select an attribute of the business unit entity. Let's say, you select **Owning Business Unit** as the owner of an account-based hierarchy, all users in the BU can view, share, and adjust forecasts for all accounts in the BU. The BU ownership is only available to hierarchy entities that have a BU relationship. Entities such as territory and product are not connected to any BUs by default and hence can't be assigned BU ownership.
 
 - To assign ownership to a specific user, select an attribute of the user entity. For example, if you select **Created by** user as the owner of an account-based hierarchy, then users who created accounts will own the forecast for their respective accounts.  
 
