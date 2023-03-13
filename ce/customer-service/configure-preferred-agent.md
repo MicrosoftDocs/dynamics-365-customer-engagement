@@ -1,11 +1,12 @@
 ---
-title: "Configure routing to preferred agents | MicrosoftDocs"
-description: "Configure settings to route work items to preferred agents in Customer Service."
+title: Configure routing to preferred agents
+description: Learn how to configure settings to route work items to preferred agents in Customer Service.
 ms.date: 03/13/2023
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Configure routing to preferred agents
@@ -52,7 +53,7 @@ You can configure contacts and their preferred agents in the Customer Service ad
 
   :::image type="content" source="media/preferred-agents-mapped-view.png" alt-text="Screenshot of the Preferred agent routing settings page, showing contacts and their preferred agents.":::
 
-### Routing diagnostics and preferred agent settings
+### Check diagnostics for routing to preferred agents
 
 If you've turned on routing diagnostics, the work item's diagnostics page will include information about preferred agent routing under **Agent assignment trace**. The **Assignment criteria** section shows whether the setting is turned on. The **Assignment trace** section displays the reason information. More information: [Diagnostics for unified routing](unified-routing-diagnostics.md)
 
