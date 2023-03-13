@@ -49,7 +49,7 @@ To configure an event or session for broadcast as a webinar:
 4. Allow the event or session to save itself (which usually occurs every few seconds), or select **Save** in the lower-right corner of the window to save it immediately. As soon as you've saved an event with a valid webinar configuration, Dynamics 365 Marketing will create the webinar in your webinar provider's system, which will return the following values:
 
    - **Webinar URL**: A link to the webinar at the webinar provider. Dynamics 365 Marketing uses this link to synchronize registrations and metrics between the two systems.
-   - **Presentation Manager URL**: A link that the presenter can use to control his or her presentation.
+   - **Presentation Manager URL**: A link that the presenter can use to control their presentation.
 
 ## Send the webinar URL to attendees
 
