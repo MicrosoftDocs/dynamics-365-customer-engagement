@@ -88,6 +88,6 @@ You can manage sellers availability in the following ways:
 
 ### See also
 
-[Seller availability](customize-sales-accelerator-sellers.md#seller-availability)   
+[Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)   
 [Manage seller attributes in assignment rules](manage-seller-attributes.md)
 
