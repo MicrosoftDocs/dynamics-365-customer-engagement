@@ -24905,6 +24905,11 @@
       "source_path": "ce/customerengagement/on-premises/developer/set-default-price-level-for-opportunity-quote-order-invoice.md",
       "redirect_url": "/dynamics365/sales/developer/set-default-price-level-for-opportunity-quote-order-invoice",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-domain.md",
+      "redirect_url": "/dynamics365/marketing/domain-authentication",
+      "redirect_document_id": false
     }
   ]
 }
