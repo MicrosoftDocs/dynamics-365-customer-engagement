@@ -31,7 +31,7 @@ You can use the Forecast report for agent, case, and conversation volumes in the
 - Visualize forecast volumes on a 15-minute interval basis, for a time range up to 6 weeks depending on how many days of cases or conversations were created in the past. This forecast can be used to schedule agents to meet the near-term demand.
 
 - Slice forecasted volumes by channel and queue.
-
+- View rollup of actual and forecasted volume by hourly, daily, weekly, monthly and yearly basis. For agents for conversations, option to select the type of rollup from Maximum, Minimum, Average and Sum.
 - Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
 
 For details of how the forecast models work for this feature, see [How agent forecasting for conversation works](configure-agent-forecasting-conversation.md#how-agent-forecasting-for-conversation-works).
