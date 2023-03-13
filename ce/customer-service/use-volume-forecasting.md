@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Forecast agent, case, and conversation volumes
+# Forecast case and conversation volumes, and agents for conversations
 
 Customer service supervisors need to be able to ensure they have an adequate number of agents available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which in turn can negatively impact customer satisfaction.
 
