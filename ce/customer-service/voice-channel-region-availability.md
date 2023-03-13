@@ -275,7 +275,7 @@ Use the information in the following table to find out more about language suppo
 
 ## Next steps
 
-[Provision voice channel](voice-channel-install)  
+[Provision voice channel](voice-channel-install.md)  
 
 ### See also
 
