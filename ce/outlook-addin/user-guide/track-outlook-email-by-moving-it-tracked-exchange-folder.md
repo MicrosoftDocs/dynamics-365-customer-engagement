@@ -122,7 +122,7 @@ search.app:
 
  Nancy clicks **Options**, and clicks the **Email** tab. On clicking **Configure**, Nancy creates a new mapping between the [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] folder and the requested [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record ‒ Northwind Traders in our example. Now, whenever Nancy gets an email that relates to Northwind Traders, the email can be dragged and dropped into the folder.
 
- The new email will be associated to the Northwind Traders opportunity within [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. Also, Nancy can track emails on the go using a mobile device. Nancu can simply move the email to the Northwind Traders folder using the native email application.
+ The new email will be associated to the Northwind Traders opportunity within [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. Also, Nancy can track emails on the go using a mobile device. Nancy can simply move the email to the Northwind Traders folder using the native email application.
 
  Finally, since Morgan is the main contact person in Northwind Traders, all the emails from Morgan relate to this opportunity. Instead of manually copying the emails from Morgan, Nancy can create an [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] rule that will automatically copy all the emails that Morgan sends to the Northwind Traders' folder.
 
