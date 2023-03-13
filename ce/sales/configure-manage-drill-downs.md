@@ -54,7 +54,7 @@ Before you configure a drill-down choice, we recommend you understand the follow
 
 With the forecasting feature, we have provided [out-of-the-box drill-down templates](#templates) to configure the rollup and hierarchy entities.
 
-To understand how to manage the drill-down feature, see [Manage drill-down options](#manage-drill-down-options).
+More information: [Add a drill-down entity](#add-a-drill-down-entity)
 
 ### Drill-down type
 
