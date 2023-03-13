@@ -308,6 +308,8 @@
           href: real-time-marketing-branches.md
         - name: Customize the journey designer in real-time Marketing
           href: real-time-marketing-journey-designer.md
+        - name: Add email CC recipients to journeys in real-time marketing
+          href: real-time-marketing-add-cc-recipients.md  
     - name: Analytics
       items:
       - name: Access and interpret analytics
@@ -366,6 +368,8 @@
           href: real-time-marketing-business-units.md
         - name: Support for modernized business units 
           href: real-time-marketing-modernized-business-units.md
+        - name: BU FAQ for real-time marketing
+          href: real-time-marketing-business-unit-faq.md  
     - name: Developer
       items: 
       - name: Manually add a custom channel
