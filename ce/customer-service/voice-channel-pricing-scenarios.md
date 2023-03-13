@@ -87,7 +87,7 @@ Mae calls your US toll-free number (acquired from Azure Communication Services) 
 Mae calls your US toll-free number from Teams. The application routes the call landing to an agent, Matias. He accepts the incoming call from Mae and starts the recording. Matias invites his supervisor Gaby to join in to consult. The call lasts for 20 minutes. The recording stops when the call ends.
 
   > [!div class=mx-imgBorder]
-   > ![Pricing example 4.](media/vc-pricing-5.png "Inbound call from customer through Teams")
+   > ![Pricing example 5.](media/vc-pricing-5.png "Inbound call from customer through Teams")
 
 **Cost calculations**
 
@@ -106,7 +106,7 @@ Mae calls your US toll-free number from Teams. The application routes the call l
 Mae calls your US toll-free number (acquired from Azure Communication Services) from Microsoft Teams. The call is routed to an agent, Matias. He accepts the incoming call from Mae and starts the recording. Matias talks to Mae for five minutes and then transfers the call to product expert, Cole, on his Teams PSTN number. Cole speaks to Mae for another five minutes and ends the call. The recording stops when the call ends.
 
   > [!div class=mx-imgBorder]
-   > ![Pricing example 5.](media/vc-pricing-6.png "Inbound call from customer through Teams")
+   > ![Pricing example 6.](media/vc-pricing-6.png "Inbound call from customer through Teams")
 
 **Cost calculations**
 
