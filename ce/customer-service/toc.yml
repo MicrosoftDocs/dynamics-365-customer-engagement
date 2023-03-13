@@ -1074,7 +1074,7 @@
           href: knowledge-search-analytics-cs.md
         - name: Use Customer Service Analytics dashboards in Power BI
           href: customer-service-analytics.md
-        - name: Omnichannel Insights
+        - name: Use Omnichannel Insights
           items: 
           - name: Introduction to Omnichannel Insights
             href: intro-dynamics-365-omnichannel-insights-dashboard.md
