@@ -5,20 +5,15 @@ items:
 - name: Field Service documentation
   href: user-guide.md
 
-- name: Get started
+- name: Try for free
   items:
-    - name: Try for free
-      items:
-      - name: Sign up for free trial
-        href: trial-signup.md
-      - name: Trial FAQs
-        href: trial-faq.md
-    - name: Learn the basics
-      href: field-service-get-started.md
-    - name: Initial configuration
-      href: perform-initial-configurations-setup.md
-    - name: Set up a sample scenario
-      href: quickstart-schedule-work-order.md
+  - name: Sign up for free trial
+    href: trial-signup.md
+  - name: Trial FAQs
+    href: trial-faq.md
+
+- name: Get started
+  href: field-service-get-started.md
 
 - name: What's new
   items:
