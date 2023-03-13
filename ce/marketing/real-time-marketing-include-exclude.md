@@ -1,5 +1,5 @@
 ---
-title: "Preview: Individually manage your customer list (Dynamics 365 Marketing) | Microsoft Docs"
+title: Individually manage your customer list
 description: "Learn how to create a segment where specific people are always included or excluded in the real-time marketing area of Dynamics 365 Marketing."
 ms.date: 11/03/2022
 ms.custom: 
@@ -17,13 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Individually manage your customer list
-
-> [!IMPORTANT]
->
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+# Individually manage your customer list
 
 Adding manual inclusions or exclusions is a powerful way to augment segment building criteria. Manually include or exclude specific people to ensure segments always reach VIP customers, or just as an easy way to build test segments for journeys.
 

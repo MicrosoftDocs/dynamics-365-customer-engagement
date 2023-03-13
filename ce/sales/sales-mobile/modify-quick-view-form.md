@@ -1,7 +1,7 @@
 ---
 title: Manage forms
 description: Manage quick view forms or use Unified Interface forms in the Microsoft Dynamics 365 Sales mobile app.
-ms.date: 08/16/2022
+ms.date: 02/27/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -37,7 +37,20 @@ For example, here we've created three quick view forms for the **Contacts** tabl
 
 The mobile app displays information based on the fields defined in **Addresses** since it's first in the list.
 
-To change the fields the mobile app displays, modify the first quick view form in the list. When you [modify a quick view form](/powerapps/maker/model-driven-apps/create-edit-quick-view-forms), the changes may take up to six hours to appear in the mobile app.
+To change the fields the mobile app displays, modify the first quick view form in the list.
+
+The order of the input fields in the mobile app is determined by their field types as follows:
+
+1.	Title (represents the primary attribute for the entity)
+2.	Text inputs without icons (String, Money, Integer)
+3.	Text inputs with icons (String, Money, Integer)
+4.	Value selection inputs (DateTime)
+5.	Assign inputs (State, SubGrid, PickList, PartyList, Lookup, Customer)
+6.	Multiline (Memo)
+
+
+> [!NOTE]
+> When you [modify a quick view form](/powerapps/maker/model-driven-apps/create-edit-quick-view-forms), the changes may take up to six hours to appear in the mobile app.
 
 To change which quick view form the mobile app uses to display tables, [set the form order](/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order) so that the form you want is first in the list.
 

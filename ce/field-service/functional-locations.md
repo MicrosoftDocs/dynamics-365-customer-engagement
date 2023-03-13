@@ -22,8 +22,6 @@ In Field Service, functional locations allow you to specify granular, hierarchic
     - Floor 3
       - Printer Acct-10
 
-In this article, we'll look at how to define functional locations and relationships in Field Service.
-
 ## Prerequisites
 
 - Field Service v8.8.x or later
@@ -74,13 +72,16 @@ In the **Assets and Locations** tab, select **Show assets** to view the list of 
 
         :::image type="content" source="media/assets-functional-location-new-asset.png" alt-text="Screenshot of the Quick Create: Customer Asset pane on an account record.":::
 
-### Search for a functional location
+### Search for a functional location or asset
 
 Use the search box to look for a functional location. To search for assets and locations, select **Show assets**. Matching search results are highlighted.
 
 For larger or more complex hierarchies, expand or collapse the results by using the **Expand all** (**&plus;**) and **Collapse all** (**&minus;**) icons.
 
 :::image type="content" source="media/assets-functional-location-search.png" alt-text="Screenshot of the results of a functional location search, with the Expand all and Collapse all icons highlighted.":::
+
+> [!TIP]
+> For asset hierarchies, the info icon next to an asset informs you about the location of the related asset.
 
 Watch the following video to learn more about searching functional locations and assets.
 
