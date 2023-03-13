@@ -32,6 +32,8 @@ search.app:
 
 Content ideas helps you discover new ways to express your thoughts, helping you move from email concept to completion faster. This article explains how content ideas works and how you can start using it to kickstart your emails.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWZDEE]
+
 ## What is content ideas?
 
 The content ideas feature is like a brainstorming partner that can help inspire you while you’re writing an email. You provide a short list of initial thoughts (key points), and content ideas generates a range of longer content suggestions that you can build on. You can add these suggestions to your draft, use them as inspiration to write a new draft, or go in a different direction altogether.
