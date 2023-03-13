@@ -58,7 +58,7 @@ If you've turned on routing diagnostics, the work item's diagnostics page will i
 
 ## How routing to preferred agent works
 
-If a preferred agent exists for a contact, the system will try to directly assign the conversation to an available preferred agent whose presence matches with one of the allowed presence configured in the workstream. The check for capacity, skills, and assignment rules will be skipped. If no preferred agents are available for a contact and the "Next best agent based on assignment logic" option is selected as fallback, then the system will try to find a matching agent according to the configured assignment strategy.
+If a preferred agent exists for a contact, the system will try to directly assign the conversation to an available preferred agent whose presence matches with one of the allowed presence configured in the workstream. The check for capacity, skills, and assignment rules will be skipped. If no preferred agents are available for a contact and **Next best agent based on assignment logic** is selected as the fallback option, then the system will try to find a matching agent according to the configured assignment strategy.
 
 ## Update contacts and preferred agents
 
