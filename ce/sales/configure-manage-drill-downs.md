@@ -1,7 +1,7 @@
 ---
 title: "Configure and manage drill-down entities for a forecast"
 description: "Configure and manage drill-down entities for a forecast in Dynamics 365 Sales."
-ms.date: 03/13/2023
+ms.date: 03/14/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -98,7 +98,7 @@ The following out-of-the-box templates are provided for you to configure drill-d
 | Opportunity |	User | Account, Product, and Parent Product |
 | Opportunity | Territory | User, Account, Product, and Parent Product |
 | Opportunity |	Account | User, Product, and Parent Product |
-| Opportunity | Product | Product, Account, and Owner |
+| Opportunity Product | Product | Account and User |
 
 Using these templates, you can break down your forecast values by accounts, products, parent products, users, owners, and territory.
 
