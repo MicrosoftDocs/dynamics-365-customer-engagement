@@ -1,7 +1,7 @@
 ---
 title: "Personalize content using pre-defined dynamic text (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content using pre-defined dynamic text in Dynamics 365 Marketing."
-ms.date: 03/02/2023
+ms.date: 03/14/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -23,7 +23,7 @@ Personalized messages help marketers drive engagement. A common way to personali
 
 An instance of placeholder text such as ``{{Firstname}}`` is called pre-defined dynamic text. Before you can use dynamic text, you need to define three pieces of information:
 
-1. **Data binding**: Where the replacement data for the dynamic text will come from (for example, the “firstname” attribute of a “Contact” table).
+1. **Data binding**: Where the replacement data for the dynamic text come from (for example, the “firstname” attribute of a “Contact” table).
 1. **Label**: How the dynamic text is referred to within the message text (for example, ``{{Firstname}}``).
 1. **Default value**: What text to use if the source data is empty.
 
@@ -45,7 +45,7 @@ Select **Personalize** in the email or text message editor to see a list of pre-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of adding pre-defined dynamic text to a text message.](media/real-time-marketing-predefined-tokens-text.png "Screenshot of adding pre-defined dynamic text to a text message")
 
-The pre-defined dynamic text list may be different than shown here because it's dynamic. As your admin and other users create and share more pre-defined dynamic text, the fragments will be added to the list. The top 10 items on the list are sorted by org-wide usage. If there are more than 10 items in the list, you'll see the remaining items sorted by alphabetical order after the top 10 items.
+The pre-defined dynamic text list may be different than shown here because it's dynamic. As your admin and other users create and share more pre-defined dynamic text, the fragments are added to the list. The top 10 items on the list are sorted by org-wide usage. If there are more than 10 items in the list, you'll see the remaining items sorted by alphabetical order after the top 10 items.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the pre-defined dynamic text list.](media/real-time-marketing-predefined-tokens-list.png "Screenshot of the pre-defined dynamic text list")
@@ -82,6 +82,23 @@ To define and share new pre-defined dynamic text, follow these steps:
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of saving and adding new pre-defined dynamic text.](media/real-time-marketing-predefined-tokens-save.png "Screenshot of saving and adding new pre-defined dynamic text")
+
+## Updating pre-defined text
+
+You can update the default value of a pre-defined text. Only the default value can be changed – if you want to change its definition, you must remove the current pre-defined text and add a new one.
+To update the default value:
+1. Add the pre-defined text in a message.
+2. Double-click the pre-defined text in the canvas, you'll see the personalization **define dynamic text** dialog.
+3. Change the default value and then select **Save**.
+4. Select somewhere else in the text box (so the cursor isn't on the pre-defined text).
+5. Select the Personalization command and then on more options (three dots) for the pre-defined text that you changed.
+6. Select **Update**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of updating pre-defined dynamic text.](media/real-time-marketing-update-predefined-tokens.png "Screenshot of updating pre-defined dynamic text")
+
+> [!NOTE]
+> The **Update** option is only available for pre-defined text if the default value changed.
 
 ## Removing pre-defined dynamic text
 
@@ -157,7 +174,7 @@ Most of the time, Dynamic text is used to personalize messages using data from a
 
 The “Other tables” area includes some of the most commonly used Dataverse tables (for example, event-planning-related tables). When you search for attributes, the search includes these tables. You can define dynamic text using the other tables just like you do with Audience or Triggers. Use an attribute directly or follow relationships from these tables to other related tables until you find the needed attribute.
 
-There's one notable difference when you define dynamic text starting with “Other tables”: before the message can be made “ready to send”, you must select a specific record from the selected table. If there's an Audience or Trigger, the specific record is provided by the journey context (that is, the Contact that is actually going through the journey). With the "other tables", you need to provide the specific record information when you're designing the personalized text because the text doesn't have a direct relationship with an Audience or Triggers. For example, if you select an attribute from the Events table, you'll be asked to select a specific event.
+There's one notable difference when you define dynamic text starting with “Other tables”: before the message can be made “ready to send”, you must select a specific record from the selected table. If there's an Audience or Trigger, the specific record is provided by the journey context (that is, the Contact that is actually going through the journey). With the "other tables", you need to provide the specific record information when you're designing the personalized text because the text doesn't have a direct relationship with an Audience or Triggers. For example, if you select an attribute from the Events table, you're asked to select a specific event.
 
 > [!div class="mx-imgBorder"]
 > ![Select a record](media/real-time-marketing-select-a-record.png "select a record")
@@ -179,7 +196,7 @@ Though you can decide not to select a specific record right away, the specific r
 > [!div class="mx-imgBorder"]
 > ![enter personalization details](media/real-time-marketing-enter-personalization-details.png "enter personalization details")
 
-The event selection step can then be completed when the message created from this template is ready to be used in a journey.  If you try to make the message “Ready to send” without completing this step, the validation will give an error message. Even without running the validation step, you can see what needs to be done in the personalization tab.
+The event selection step can then be completed when the message created from this template is ready to be used in a journey.  If you try to make the message “Ready to send” without completing this step, the validation gives an error message. Even without running the validation step, you can see what needs to be done in the personalization tab.
 
 > [!div class="mx-imgBorder"]
 > ![select a record to personalize](media/real-time-marketing-select-a-record-to-personalize.png "select a record to personalize")
@@ -195,8 +212,8 @@ Select the tables you want to add or remove, then select **Save**.
   > [!div class="mx-imgBorder"]
   > ![Change the pick list](media/specific-record-manage-list.png "Change the pick list")
 
-> [!TIP]
+> [!NOTE]
 > Removing dynamic text only removes it from the pre-defined list, it does not remove it from the messages that are already using it.
 
-> [!NOTE]
 > The pre-defined dynamic text feature has a few known issues. Learn more: [Known issues in real-time marketing](real-time-marketing-known-issues.md#personalization).
+
