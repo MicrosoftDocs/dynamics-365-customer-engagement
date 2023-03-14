@@ -119,7 +119,7 @@ Mae calls your US toll-free number (acquired from Azure Communication Services) 
 - Cost to record= 10 x $0.002 per minute = $0.02.
 - Omnichannel for Customer Service recording bot doesn't incur extra Azure Communication Services VOIP charges.
 
-<sup>1</sup> Mae's participation is charged based on the Teams license.
+<sup>1</sup> Mae's participation is charged based on the Teams license.<br>
 <sup>2</sup> Cole's participation is charged based on the Teams license.
  
 **Total cost for the call**: $0.22 + $0.02 + $0.065 + $0.02 + applicable Teams charges = $0.325  + applicable Teams charges
@@ -150,7 +150,7 @@ Mae calls your toll-free number (used in [Azure direct routing](/azure/communica
 - Omnichannel for Customer Service bot adds Matias to a call by escalating the direct routing call to a group call.
 - The call lasts 10 minutes.
 
-:::image type="content" source="media/direct-routing-inbound.png" alt-text="Pricing example 10-Inbound call from customer through Teams":::
+:::image type="content" source="media/direct-routing-outbound.png" alt-text="Pricing example 8-Inbound call from customer through Teams":::
 
 **Cost calculation**
 
@@ -171,7 +171,8 @@ Matias makes an outbound call from Omnichannel for Customer Service to a telepho
 - Dynamics 365 Omnichannel for Customer Service bot adds Mae to a call by escalating the direct routing call to a group call.
 - The call lasts for 10 minutes.
 
-:::image type="content" source="media/direct-routing-outbound.png" alt-text="Pricing example 8-Inbound call from customer through Teams":::
+:::image type="content" source="media/direct-routing-inbound.png" alt-text="Pricing example 10-outbound call from customer through Teams":::
+
 
 **Cost calculation**
 
