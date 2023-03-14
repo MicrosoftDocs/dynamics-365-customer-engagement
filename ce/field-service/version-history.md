@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
-ms.date: 02/17/2023
+ms.date: 03/14/2023
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
@@ -40,21 +40,19 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 This release is an update to Field Service 2023 Wave 1 early access version [8.8.87.7](/dynamics365/field-service/version-history#88877).
 
-- Use the [Not-to-exceed feature](work-order-not-to-exceed?branch=trades-to-group-skills) to ensure cost and price expectations on work orders are met every time.
-- [Organize your provided services based on trades](trades#configure-trade-coverages), and set up trade coverages based on which services you provide to groups of customers.
-- Can now use global search to quickly search for and navigate to bookings
-- New price and cost summaries have been added to work orders to track financials. Enable or disable cost tracking in field service settings.
-- Field Service (D365) Mobile: Replaced [deprecated Input Number](https://learn.microsoft.com/en-us/power-platform/important-changes-coming#model-driven-app-controls-deprecation) control with standard text input field.
+- Use the [Not-to-exceed feature](work-order-not-to-exceed.md) to ensure cost and price expectations on work orders are met every time.
+- [Organize your provided services based on trades](trades.md#configure-trade-coverages), and set up trade coverages based on which services you provide to groups of customers.
+- Use global search to quickly search for and navigate to bookings.
+- New price and cost summaries have been added to work orders to track financials. Enable or disable cost tracking in settings.
+- Field Service (Dynamics 365) Mobile: Replaced [deprecated Input Number](/power-platform/important-changes-coming#model-driven-app-controls-deprecation) control with standard text input field.
 
-Note: Cost information and cost amount cards on work order products and services are now controlled by the 'Calculate Cost toggle' in field service settings. Organizations that disabled the 'Calculate Price toggle' will have these sections appear on work order products and services unless they turn off the 'Calculate Cost toggle'.
-
-Note: There is a known bug where an incident type's trade is applied to work orders even when trade is disabled which will be addressed in next release 
+Note: There is a known issue where an incident type's trade is applied to work orders when trade is disabled. 
 
 ## 8.8.84.16
 
 This release is a hotfix on Field Service version [8.8.84.13](/dynamics365/field-service/version-history#888413).
 
--  Field Service (D365) Mobile: Updated survey creator control to exclude survey meta data from telemetry.
+-  Field Service (Dynamics 365) Mobile: Updated survey creator control to exclude survey meta data from telemetry.
 
 ## 8.8.84.13
 (Includes Universal Resource Scheduling version [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) and Resource Scheduling controls version 1.2.38.230543).
@@ -65,7 +63,7 @@ This release is a hotfix on Field Service version [8.8.84.13](/dynamics365/field
 
 This release is a hotfix on Field Service version [8.8.83.21](/dynamics365/field-service/version-history#888321).
 
--  Field Service (D365) Mobile: Updated survey creator control to exclude survey meta data from telemetry.
+-  Field Service (Dynamics 365) Mobile: Updated survey creator control to exclude survey meta data from telemetry.
 
 ## 8.8.83.21
 
