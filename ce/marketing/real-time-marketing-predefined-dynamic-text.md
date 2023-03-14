@@ -212,7 +212,7 @@ Select the tables you want to add or remove, then select **Save**.
   > [!div class="mx-imgBorder"]
   > ![Change the pick list](media/specific-record-manage-list.png "Change the pick list")
 
-> [!NOTE]]
+> [!NOTE]
 > Removing dynamic text only removes it from the pre-defined list, it does not remove it from the messages that are already using it.
 
 > The pre-defined dynamic text feature has a few known issues. Learn more: [Known issues in real-time marketing](real-time-marketing-known-issues.md#personalization).
