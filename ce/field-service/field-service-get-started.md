@@ -12,7 +12,7 @@ search.app:
 
 # Get started with Dynamics 365 Field Service
 
-This article helps organization to get started. It guides you through the first steps with the application and the scenario of creating and scheduling a work order to resolve a customer's service request.
+This article helps organizations to get started. It guides you through the first steps with the application and the scenario of creating and scheduling a work order to resolve a customer's service request.
 
 :::image type="content" source="media/get-started-page.png" alt-text="Screenshot of the Get Started page in Dynamics 365 Field Service with a highlight on the navigation item.":::
 
