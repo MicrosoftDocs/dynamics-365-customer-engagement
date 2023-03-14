@@ -85,20 +85,20 @@ To define and share new pre-defined dynamic text, follow these steps:
 
 ## Updating pre-defined text
 
-You can update default value of a pre-defined text (only default value can be changed – if you want to change its definition, you must remove the current pre-defined text and add a new one).
-To update default value:
-1. Add the pre-defined text in a message
-2. Double click on the pre-defined text in the canvas, you'll see the personalization “**define dynamic text**” dialog
-3. Change the default value and then select “**Save**”
-4. Click somewhere else the text box (so the cursor isn't on the pre-defined text)
-5. Click on Personalization command and then on more options (three dots) for the pre-defined text that you changed
-6. Click on “**Update**” 
+You can update the default value of a pre-defined text. Only the default value can be changed – if you want to change its definition, you must remove the current pre-defined text and add a new one.
+To update the default value:
+1. Add the pre-defined text in a message.
+2. Double-click the pre-defined text in the canvas, you'll see the personalization **define dynamic text** dialog.
+3. Change the default value and then select **Save**.
+4. Select somewhere else in the text box (so the cursor isn't on the pre-defined text).
+5. Select the Personalization command and then on more options (three dots) for the pre-defined text that you changed.
+6. Select **Update**. 
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of updating pre-defined dynamic text.](media/real-time-marketing-update-predefined-tokens.png "Screenshot of updating pre-defined dynamic text")
 
 > [!NOTE]
-> “Update” option is only present for pre-defined text whose default value was changed.
+> The **Update** option is only available for pre-defined text if the default value changed.
 
 ## Removing pre-defined dynamic text
 
@@ -212,8 +212,8 @@ Select the tables you want to add or remove, then select **Save**.
   > [!div class="mx-imgBorder"]
   > ![Change the pick list](media/specific-record-manage-list.png "Change the pick list")
 
-> [!TIP]
+> [!NOTE]]
 > Removing dynamic text only removes it from the pre-defined list, it does not remove it from the messages that are already using it.
 
-> [!NOTE]
 > The pre-defined dynamic text feature has a few known issues. Learn more: [Known issues in real-time marketing](real-time-marketing-known-issues.md#personalization).
+
