@@ -414,8 +414,11 @@ If you have [opted out on your own](who-knows-whom.md#turn-off-data-sharing-with
 
 ### How can an administrator opt out users?
 
-The Dynamics 365 administrator can enable who knows whom for specific security roles to avoid opting in all Dynamics 365 users automatically. When you enable it for a specific role, the Exchange data is collected only from users who are part of the security role.
+The following administrators can opt out users at different levels:
 
+- **Microsoft 365 Global administrator** can opt out users of a Microsoft 365 security group. For example, opt out groups such as C-suite, M&A, finance, and so on.
+
+- **Dynamics 365 administrator** can enable who knows whom for specific security roles to avoid opting in all Dynamics 365 users automatically. When you enable it for a specific role, the Exchange data is collected only from users who are part of the security role.
 
 ## Conversation intelligence
 
