@@ -24934,6 +24934,10 @@
     {
       "source_path": "ce/field-service/quickstart-schedule-work-order.md",
       "redirect_url": "/dynamics365/field-service/field-service-get-started",
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-domain.md",
+      "redirect_url": "/dynamics365/marketing/domain-authentication",
       "redirect_document_id": false
     }
   ]

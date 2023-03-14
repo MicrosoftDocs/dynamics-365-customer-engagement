@@ -645,7 +645,7 @@ The update also includes monthly enhancements to journeys, domain authentication
     - Out-of-the-box triggers allow you to launch journeys for marketing events without the need to create custom triggers.
 
 - **Marketing emails**
-    - A streamlined, guided experience for DKIM domain authentication settings allows marketers to maximize email deliverability and enables the embedding of Dynamics 365 Marketing forms on websites. Learn more: [Real-time marketing domain authentication](real-time-marketing-domain.md).
+    - A streamlined, guided experience for DKIM domain authentication settings allows marketers to maximize email deliverability and enables the embedding of Dynamics 365 Marketing forms on websites. Learn more: [Real-time marketing domain authentication](domain-authentication.md).
     - Content ideas now includes an in-product feedback survey.
 
 - **Consent**
