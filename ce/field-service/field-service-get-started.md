@@ -1,7 +1,7 @@
 ---
 title: Get started with Dynamics 365 Field Service
 description: Learn how to get started with Dynamics 365 Field Service.
-ms.date: 03/13/2023
+ms.date: 03/14/2023
 author: jshotts
 ms.author: jasonshotts
 ms.custom: get-started
@@ -13,6 +13,8 @@ search.app:
 # Get started with Dynamics 365 Field Service
 
 This article helps organization to get started. It guides you through the first steps with the application and the scenario of creating and scheduling a work order to resolve a customer's service request.
+
+:::image type="content" source="media/get-started-page.png" alt-text="Screenshot of the Get Started page in Dynamics 365 Field Service with a highlight on the navigation item.":::
 
 > [!TIP]
 > You can add users and create the following records quickly from the **Get started** page in the **Service** area of Field Service.
