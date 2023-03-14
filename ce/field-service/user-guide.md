@@ -80,7 +80,6 @@ The purpose of this section is to help you set up a Field Service environment.
    <ul>
 <li><a href="install-field-service.md" data-raw-source="[Install Field Service (web + mobile)](install-field-service.md)">Install Field Service (web + mobile)</a></li>
    <li><a href="view-user-accounts-security-roles.md" data-raw-source="[Setup Users and Security roles](view-user-accounts-security-roles.md)">Setup Users and Security roles</a></li>
-  <li><a href="perform-initial-configurations-setup.md" data-raw-source="[Perform initial configurations](perform-initial-configurations-setup.md)">Perform initial configurations</a></li>
   <li><a href="set-up-bookable-resources.md" data-raw-source="[Set up bookable resources](set-up-bookable-resources.md)">Set up bookable resources</a></li>
   <li><a href="mobile-power-app-get-started.md" data-raw-source="[Get started with Microsoft Dynamics 365 Field Service mobile app](mobile-power-app-get-started.md)">Get started with Microsoft Dynamics 365 Field Service mobile app</a></li>
   </ul>
@@ -92,7 +91,6 @@ The purpose of this section is to help you set up a Field Service environment.
 
 The purpose of this section is to help you configure work order management, which is a core capability of Field Service.
    <ul>
-  <li><a href="quickstart-schedule-work-order.md" data-raw-source="[Quickstart - Create and schedule a work order](quickstart-schedule-work-order.md)">Quickstart - Create and schedule a work order</a></li>
    <li><a href="universal-resource-scheduling-for-field-service.md" data-raw-source="[Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)">Universal Resource Scheduling for Field Service</a></li>
  <li><a href="create-work-order.md" data-raw-source="[[Create a work order](create-work-order.md)]">Create a Work Order</a></li>
 <li><a href="configure-incident-types.md" data-raw-source="[[Create work order templates with incident types](configure-incident-types.md)]">Create work order templates with incident types</a></li>
