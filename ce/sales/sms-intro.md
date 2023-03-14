@@ -15,6 +15,9 @@ Dynamics 365 Sales enables your sellers to send and receive SMS from customers t
 
 In the sequences, SMS can be included as a step to send reminders or updates about key events. 
 
+>[!NOTE]
+>The text message feature is being rolled out in a phased manner across different geographic regions. To verify whether the feature is available in your region, look for version 9.0.23023.10002 in the [Latest version availability](/dynamics365/released-versions/dynamics365salesinsights) section.
+
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
