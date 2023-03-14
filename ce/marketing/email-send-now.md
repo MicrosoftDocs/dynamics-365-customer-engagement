@@ -1,7 +1,7 @@
 ---
 title: "Deliver marketing emails quickly with send now (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use the send-now feature to address and send a marketing email message right from the email-design page in Dynamics 365 Marketing."
-ms.date: 12/10/2019
+ms.date: 03/14/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -17,6 +17,9 @@ search.app:
   - D365CE
   - D365Mktg
 ---
+
+> [!NOTE]
+> Real-time marketing now has a new "[Send Now](email-without-journey.md)" feature that allows you to choose segments and send emails directly to an unlimited number of contacts.
 
 # Quickly design and deliver a marketing email with _send now_
 
