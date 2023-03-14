@@ -412,9 +412,10 @@ If you are part of a security group that has been opted out by your administrato
 
 If you have [opted out on your own](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications), the data will be removed immediately.  
 
-### How does a Microsoft 365 administrator exclude users?
+### How can an administrator opt out users?
 
-While [providing consent](provide-consent-office365.md#provide-consent), your Microsoft 365 administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents).  
+The Dynamics 365 administrator can enable who knows whom for specific security roles to avoid opting in all Dynamics 365 users automatically. When you enable it for a specific role, the Exchange data is collected only from users who are part of the security role.
+
 
 ## Conversation intelligence
 
