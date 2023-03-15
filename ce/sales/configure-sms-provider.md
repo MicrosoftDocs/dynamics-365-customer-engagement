@@ -6,6 +6,7 @@ ms.topic: how to
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.custom: bap-template
 ---
 
 # Configure SMS provider
