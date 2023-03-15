@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/07/2023
+ms.date: 03/15/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -160,11 +160,11 @@ Your administrator must [enable suggest-as-you-type](set-up-knowledge-management
 
 :::image type="content" source="media/autosuggest-ka-csw.png" alt-text="Screenshot shows use of the suggest-as-you-type option":::
 
-## Use favorites (preview)
+## Use favorites
 
-[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
+You can save the knowledge articles you use most as favorites to access them quickly while you're working on a case. You can save up to 50 articles as favorites. Your administrator must provide [privileges to specific roles](#prerequisites) before you can use it.
 
-You can save the knowledge articles you use most as favorites to access them quickly while you're working on a case. You can save up to 50 articles as favorites.
+After your administrator enables the feature,
 
 1. Select an article from the list of search results.
 1. Select the **Favorite** (heart) icon to add the article to your favorites.
@@ -173,7 +173,7 @@ To remove an article from the favorites list, clear the **Favorite** (heart) ico
 
 View your saved articles in the **Favorites** tab. The **Favorites** tab is available in the app side pane, standalone search control, form-embedded control, and the reference pane.
 
-The article you last marked as favorite appears first in your Favorites list. If an article has been deleted, it no longer appears in the list. Favorite articles are saved in the language in which you viewed them when you marked them as a favorite.
+The article you last marked as favorite appears first in your Favorites list. If an article has been deleted, it no longer appears in the list. Favorite articles are saved in the language in which you viewed them when you marked them as a favorite. The translated version of a favorite article won't appear as a favorite. If you create major or minor version of a favorite article, then the new version will appear as a favorite and the earlier version will be removed from the Favorites list.
 
 In Customer Service workspace and Omnichannel for Customer Service, when you select a favorite article, it opens in an app tab. In Customer Service Hub, the article opens in a new browser window.
 
@@ -268,3 +268,7 @@ For more information on setting up search providers, see [Set up a search provid
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+
+
+
