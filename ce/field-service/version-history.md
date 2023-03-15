@@ -163,6 +163,7 @@ Field Service (Dynamics 365) mobile:  fixed a bug impacting Field Service **<8.8
 (Includes Universal Resource Scheduling version [3.12.91.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312912)).
 
    - Fixed a bug causing an error when loading an existing knowledge article from work order or product forms.
+   - Field Service (Dynamics 365) mobile: When an Offline enabled mobile application has network access, it will now fetch data from the server if the record is not found in the mobile offline profile. If network access is not available to the device requesting a record not found in the offline profile, a more specific error message will be shown to the user informing them of the missing table.
    - Field Service (Dynamics 365) mobile: Improvements to device memory management while using the mobile application.
    - Field Service (Dynamics 365) mobile: Fixed a bug which was preventing the agenda view from being available on certain tablet models.
    - Field Service (Dynamics 365) mobile: Improved an error message that was shown when trying to mark a product as used from the service task sub-grid while the product is inactive.
