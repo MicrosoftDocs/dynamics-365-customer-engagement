@@ -28,8 +28,6 @@ An inspection can look and act differently depending on how the technician answe
 
 Add branching and conditional logic in the **Logic** section of the inspection designer.
 
-:::image type="content" source="media/inspection-logic-tab.png" alt-text="Screenshot of the logic designer for Field Service inspections.":::<!-- EDITOR'S NOTE: There's a lot of empty space in this screenshot. It's also not clear how it relates to the options described below or what the reader needs to do. Can you replace it with a more relevant screenshot? -->
-
 Based on the response to a question, inspections can:
 
 - **Make Page visible**: If an inspection includes more than one page, show a specific page when the condition is true.
@@ -96,7 +94,7 @@ Administrators can export inspections as JSON objects to import them to another 
 
 1. Open the list of inspections and select one.
 
-1. Select **Export** > **Export to json** to download the file in JSON format.<!-- EDITOR'S NOTE: Can you please submit a request to the UI folks to make "JSON" all caps? -->
+1. Select **Export** > **Export to json** to download the file in JSON format.
 
 :::image type="content" source="media/importJsonFile.png" alt-text="Screenshot of the option to import from json.":::
 
