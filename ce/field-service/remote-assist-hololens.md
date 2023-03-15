@@ -94,7 +94,7 @@ As a different user that you have identified as the remote collaborator, verify 
 > ![Screenshot of Teams on desktop.](./media/remote-assist-field-service-teams-signin.png)
 
 > [!Note]
-> The remote collaborator must log into the Microsoft Teams native app on his or her PC or mobile device. Teams on web is not supported.
+> The remote collaborator must log into the Microsoft Teams native app on their PC or mobile device. Teams on web is not supported.
 
 ## Create and schedule work orders
 

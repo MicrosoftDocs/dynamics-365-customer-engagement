@@ -102,8 +102,6 @@
         href: mkt-settings-lead-score-options.md
       - name: Add or remove sample data
         href: /power-platform/admin/add-remove-sample-data
-      - name: Authenticate your domains
-        href: mkt-settings-authenticate-domains.md
       - name: Marketing analytics configuration
         href: mkt-settings-analytics.md
       - name: Configure landing pages
@@ -310,6 +308,8 @@
           href: real-time-marketing-branches.md
         - name: Customize the journey designer in real-time Marketing
           href: real-time-marketing-journey-designer.md
+        - name: Add email CC recipients to journeys in real-time marketing
+          href: real-time-marketing-add-cc-recipients.md  
     - name: Analytics
       items:
       - name: Access and interpret analytics
@@ -336,10 +336,10 @@
         href: real-time-marketing-personalize-lists.md
     - name: Assets
       items: 
-      - name: Install the real-time marketing asset library add-on
-        href: real-time-marketing-asset-add-on.md
       - name: Real-time marketing asset library add-on
         href: real-time-marketing-asset-library.md
+      - name: Upload, manage and use images, files, and videos in online content
+        href: upload-images-files.md
     - name: Administration
       items: 
       - name: Journeys
@@ -356,8 +356,6 @@
           href: real-time-marketing-email-text-consent.md
         - name: Use outbound subscription centers in real-time journeys
           href: real-time-marketing-outbound-subscription.md
-      - name: Real-time marketing domain authentication
-        href: real-time-marketing-domain.md
       - name: Manage SMS (text message) keywords used in customer journeys
         href: manage-sms-keywords.md
       - name: Install add-ons
@@ -368,6 +366,8 @@
           href: real-time-marketing-business-units.md
         - name: Support for modernized business units 
           href: real-time-marketing-modernized-business-units.md
+        - name: BU FAQ for real-time marketing
+          href: real-time-marketing-business-unit-faq.md  
     - name: Developer
       items: 
       - name: Manually add a custom channel
@@ -398,6 +398,12 @@
         href: real-time-marketing-api-segment.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
+    - name: Domain Authentication  
+      items:
+      - name: Domain authentication in real-time marketing
+        href: domain-authentication.md
+      - name: BIMI support
+        href: bimi-support.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
   - name: Outbound marketing
@@ -490,6 +496,10 @@
         href: email-a-b-testing.md
       - name: Email troubleshoot + FAQ
         href: email-troubleshoot.md
+    - name: Domain authentication (old version)
+      items: 
+      - name: Authenticate your domains
+        href: mkt-settings-authenticate-domains.md
     - name: Marketing pages and forms
       items: 
       - name: Create and deploy marketing pages
@@ -514,8 +524,6 @@
         href: pages-forms-troubleshoot.md
     - name: Marketing content library management
       items: 
-      - name: Upload and use images in online content
-        href: upload-images-files.md
       - name: Create a video library and add videos to your designs
         href: video-content.md
     - name: Segmentation

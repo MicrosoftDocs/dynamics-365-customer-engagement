@@ -18,6 +18,8 @@ search.app:
 
 # Azure subscription prerequisites for Connected Field Service with IoT Hub
 
+<!--still needed?-->
+
 When deploying and administering Connected Field Service with IoT Hub, there are a few considerations and prerequisites for your Azure subscription. 
 
 ## Prerequisites 

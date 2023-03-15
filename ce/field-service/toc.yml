@@ -5,20 +5,15 @@ items:
 - name: Field Service documentation
   href: user-guide.md
 
-- name: Get started
+- name: Try for free
   items:
-    - name: Try for free
-      items:
-      - name: Sign up for free trial
-        href: trial-signup.md
-      - name: Trial FAQs
-        href: trial-faq.md
-    - name: Learn the basics
-      href: field-service-get-started.md
-    - name: Initial configuration
-      href: perform-initial-configurations-setup.md
-    - name: Set up a sample scenario
-      href: quickstart-schedule-work-order.md
+  - name: Sign up for free trial
+    href: trial-signup.md
+  - name: Trial FAQs
+    href: trial-faq.md
+
+- name: Get started
+  href: field-service-get-started.md
 
 - name: What's new
   items:
@@ -74,6 +69,8 @@ items:
       href: set-up-service-task-types.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
+    - name: Use Dataverse search
+      href: search-dataverse-tables.md
     - name: Customer asset validation
       href: asset-validation.md
       
@@ -160,14 +157,8 @@ items:
 
 - name: Scheduling
   items:
-  - name: Universal Resource Scheduling for Field Service
+  - name: Universal Resource Scheduling for Field Service overview
     href: universal-resource-scheduling-for-field-service.md
-  - name: Types of scheduling
-    href: scheduling-capabilities.md
-  - name: Scheduling personas
-    href: scheduling-roles-personas.md
-  - name: The 5 stages of scheduling adoption
-    href: 5-stages-scheduling-adoption.md
   - name: Administration and configuration
     items:
       - name: Enable an entity for scheduling
@@ -198,7 +189,7 @@ items:
         href: schedule-with-travel-time.md
       - name: Time constraints
         href: schedule-time-constraints.md
-      - name: Resource preferences
+      - name: Preferred resources
         href: resource-preferences.md
       - name: Quick scheduling
         href: quick-scheduling.md
@@ -353,7 +344,9 @@ items:
             href: developer/connected-field-service-developer-guide.md
           - name: Prerequisites for Azure subscription
             href: cfs-azure-subscription.md
-          - name: Installation
+          - name: Create Iot provider for IoT Hub
+            href: cfs-provider-iot-hub.md
+          - name: Installation via IoT Hub
             href: installation-setup-iothub.md
           - name: Register IoT devices
             href: cfs-register-devices.md
