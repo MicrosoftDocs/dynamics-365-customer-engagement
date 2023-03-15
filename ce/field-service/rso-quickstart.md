@@ -30,7 +30,7 @@ For a guided walkthrough, see the following video.
 
 ## Prerequisites
 
-- The images and definitions in this quickstart reflect **Field Service v8.7** and **RSO v3.0**.
+- The images and definitions in this quickstart reflect **Field Service v8.7** and **Resource Scheduling Optimization v3.0**.
 
 - This quickstart assumes you already have Resource Scheduling Optimization deployed into your Field Service environment. You can do this by first purchasing a Field Service license and then purchasing a Resource Scheduling Optimization license in the "Purchase Services" section of Microsoft 365. For more details, visit the article on [Deployment of the Resource Scheduling Optimization solution](rso-deployment.md).
 
@@ -243,7 +243,7 @@ Every time Resource Scheduling Optimization runs, either successfully or not, an
 
 Once the **Optimization Request** status is **Completed**, go to the schedule board to see the optimized board.
 
-A new schedule board tab named after your scope appears, and yellow bars indicate the beginning and ending time ranges of the optimization, in our case 2 days from the time RSO is run.
+A new schedule board tab named after your scope appears, and yellow bars indicate the beginning and ending time ranges of the optimization, in our case 2 days from the time Resource Scheduling Optimization is run.
 
 
 > [!div class="mx-imgBorder"]

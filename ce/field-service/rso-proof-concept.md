@@ -269,7 +269,7 @@ Let's take a look at some constraints and objectives.
 
 #### Constraints
 
-- **Schedule Within Working Hours**: Creates the booking if it can be completed within the resource’s working hours. Removing this constraint does not mean RSO will treat working hours as 24-7. Rather, it will allow the booking at the end of the day to overflow into non-working hours. 
+- **Schedule Within Working Hours**: Creates the booking if it can be completed within the resource’s working hours. Removing this constraint does not mean Resource Scheduling Optimization will treat working hours as 24-7. Rather, it will allow the booking at the end of the day to overflow into non-working hours. 
 - **Meets Required Characteristics**: Verifies the resource has all the required characteristics and should have minimum required skill level. 
 - **Scheduling Lock Option**: If checked, this will respect lock options configured on a booking record.
 - **Scheduling Windows**:  Resource scheduling optimization will schedule work to comply within the time window start and end fields on the resource requirement or booking record. 
