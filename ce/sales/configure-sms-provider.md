@@ -93,6 +93,7 @@ To set up the SMS provider number in Dynamics 365 Sales:
 4.	On the **Set up provider** page, enter the values depending on the provider you’ve selected. Then select **Next**.
 
     - **For Infobip**:
+        
         | Parameter | Description |
         |-----------|-------------|
         | Name | Enter a name for the provider. |
@@ -102,6 +103,7 @@ To set up the SMS provider number in Dynamics 365 Sales:
         | Incoming callback URL |  This callback URL is specific to your organization and is available when you add SMS support for your organization. <br>Copy the provided callback URL and send it to Infobip customer support for receiving SMS replies. |    
     
     - **For LINK Mobility**:
+        
         | Parameter | Description |
         |-----------|-------------|
         | Name | Enter a name for the provider. |
@@ -116,6 +118,7 @@ To set up the SMS provider number in Dynamics 365 Sales:
         | Incoming callback URL | This callback URL is specific to your organization and is available when you add SMS support for your organization. <br>Copy the provided callback URL and send it to LINK Mobility customer support for receiving SMS replies. |        
 
     - **For TeleSign**:
+                
         | Parameter | Description |
         |-----------|-------------|
         | Name | Enter a name for the provider. |
@@ -125,6 +128,7 @@ To set up the SMS provider number in Dynamics 365 Sales:
         | Incoming callback URL |  This callback URL is specific to your organization and is available when you add SMS support for your organization. <br>Copy the provided callback URL and send it to [TeleSign support](mailto:support@telesign.com) for receiving SMS replies. |
 
     - **For Twilio**:
+        
         | Parameter | Description |
         |-----------|-------------|
         | Name | Enter a name for the provider. |
