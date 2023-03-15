@@ -103,7 +103,7 @@ Next, create a work order to outline the onsite work the technician or front lin
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a Field Service work order in a desktop, with attention to the support contact field.](./media/remote-assist-field-service-work-order-support-contact.png)
 
-Schedule the work order to the bookable resource that represents the technician also known as the front line worker who travels to customer locations to complete work orders. In our example, Abraham McCormick is the bookable resource and we scheduled work orders to them with resource scheduling optimization.
+Schedule the work order to the bookable resource that represents the technician also known as the front line worker who travels to customer locations to complete work orders. In our example, Abraham McCormick is the bookable resource and we scheduled work orders to them with the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Abraham McCormick's booked work order on the Field Service schedule board, in a desktop window.](./media/remote-assist-field-service-work-order-schedule.png)

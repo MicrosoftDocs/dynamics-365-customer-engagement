@@ -124,7 +124,7 @@ The purpose of this section is to help you explore all the features of Field Ser
 
  <li><a href="https://youtu.be/3W7hI-6dZhg" data-raw-source="[What is Resource Scheduling Optimization?](https://youtu.be/3W7hI-6dZhg)">What is Resource Scheduling Optimization?</a></li>
  <li><a href="https://youtu.be/oJ-3HTJWRMo" data-raw-source="[Quickstart: Auto schedule a list of work orders](https://youtu.be/oJ-3HTJWRMo)">Quickstart: Auto schedule a list of work orders</a></li>
- <li><a href="rso-overview.md" data-raw-source="[Deploy, configure, and run RSO](rso-overview.md)">Deploy, configure, and run RSO</a></li>
+ <li><a href="rso-overview.md" data-raw-source="[Deploy, configure, and run Resource Scheduling Optimization](rso-overview.md)">Deploy, configure, and run Resource Scheduling Optimization</a></li>
 </ul>
 </td>
 

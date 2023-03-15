@@ -1050,7 +1050,7 @@ The release is only applied when an environment is opted into early access and i
 - Improved work order metrics
 - Asset hierarchy and functional location
 - Usability improvements for key Field Service subgrid as dialogs
-- Enhanced skills-based matching in resource scheduling optimization
+- Enhanced skills-based matching in Resource Scheduling Optimization
 - Predictive technician travel time
 - Travel outside of working hours
 - Enhanced work hours calendar for requirements
