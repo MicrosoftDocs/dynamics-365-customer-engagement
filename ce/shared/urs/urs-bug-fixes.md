@@ -27,6 +27,9 @@ For information about other updates to Universal Resource Scheduling, visit the 
 
 **Dataverse:** 4.0.91.3
 
+- Bug fixes
+  - The correct label will now be displayed for the "More info" and "Apply Territory Filter" options on the schedule board.
+
 ## 3.12.98.7
 
 **Resource Scheduling Controls:** 1.2.38.230543
