@@ -418,6 +418,8 @@ This release is a hotfix on Field Service version [8.8.59.22](/dynamics365/field
 
 - Fixed issue where updating work order product failed for users with limited privileges to the parent work order record.
 - Updated the Field Service dispatcher and resource security roles to have the read privileges of `BookingSetupMetadata` set to organization.
+- Work order, customer asset, incident type, IoT alert and IoT device tables are now indexed for search by default.
+- Removed string 'Work Order unassigned' from Field Service Mobile calendar when a booking is shown on the calendar without a linked work order.
 
 ## 8.8.53.36
 
@@ -1048,7 +1050,7 @@ The release is only applied when an environment is opted into early access and i
 - Improved work order metrics
 - Asset hierarchy and functional location
 - Usability improvements for key Field Service subgrid as dialogs
-- Enhanced skills-based matching in resource scheduling optimization
+- Enhanced skills-based matching in Resource Scheduling Optimization
 - Predictive technician travel time
 - Travel outside of working hours
 - Enhanced work hours calendar for requirements

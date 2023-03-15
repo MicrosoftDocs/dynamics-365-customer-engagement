@@ -370,8 +370,8 @@ Options include:
 - Do Not Move
 - Ignore
 
-If you create a new custom **Booking Status**, then you should pick a scheduling method that relates to the field service booking status. For example, the out-of-the-box booking status **Traveling** has an RSO scheduling method set to **Do Not Move** because RSO should not move bookings that a field technician is traveling to. Therefore, using our previous example, our new **Delayed** booking status is related to the **Traveling** Field Service status, so its scheduling method should be set to **Do Not Move** as well.
+If you create a new custom **Booking Status**, then you should pick a scheduling method that relates to the field service booking status. For example, the out-of-the-box booking status **Traveling** has an Resource Scheduling Optimization scheduling method set to **Do Not Move** because Resource Scheduling Optimization should not move bookings that a field technician is traveling to. Therefore, using our previous example, our new **Delayed** booking status is related to the **Traveling** Field Service status, so its scheduling method should be set to **Do Not Move** as well.
 
-For more information, see the article on [Resource Scheduling Optimization (RSO) configuration](rso-configuration.md).
+For more information, see the article on [Resource Scheduling Optimization configuration](rso-configuration.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
