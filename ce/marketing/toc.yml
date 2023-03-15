@@ -336,10 +336,10 @@
         href: real-time-marketing-personalize-lists.md
     - name: Assets
       items: 
-      - name: Install the real-time marketing asset library add-on
-        href: real-time-marketing-asset-add-on.md
       - name: Real-time marketing asset library add-on
         href: real-time-marketing-asset-library.md
+      - name: Upload, manage and use images, files, and videos in online content
+        href: upload-images-files.md
     - name: Administration
       items: 
       - name: Journeys
@@ -356,8 +356,6 @@
           href: real-time-marketing-email-text-consent.md
         - name: Use outbound subscription centers in real-time journeys
           href: real-time-marketing-outbound-subscription.md
-      - name: Real-time marketing domain authentication
-        href: real-time-marketing-domain.md
       - name: Manage SMS (text message) keywords used in customer journeys
         href: manage-sms-keywords.md
       - name: Install add-ons
@@ -526,8 +524,6 @@
         href: pages-forms-troubleshoot.md
     - name: Marketing content library management
       items: 
-      - name: Upload and use images in online content
-        href: upload-images-files.md
       - name: Create a video library and add videos to your designs
         href: video-content.md
     - name: Segmentation
