@@ -70,7 +70,7 @@ The forecast reports support two modes:
 - **Daily** - This mode displays the actual and predicted case and conversation volumes and agent demand per day, for a time range of up to six months depending on how many days of cases or conversations were created in the past. This forecast can be used to plan agent resourcing and recruitment, to meet future demand.
 - **Intraday** - This mode displays the actual and predicted case and conversation volumes and agent demand in intervals of fifteen minutes, for a time range of up to six weeks depending on how many days of cases or conversations were created in the past. This forecast can be used to schedule agents to meet the near-term demand.
 
-To change the report mode, click on the **Daily** or **Intraday** toggle button, depending on which mode you want to view the report in.
+To change the report mode, click on the **Daily** or **Intraday** toggle button on the report, depending on which mode you want to view the report in.
 
 ### Filters for case, conversation, and agents for conversations forecasting
 
@@ -110,7 +110,7 @@ You can filter the data by selecting from the following options:
 
 #### Filter data by drilling up or down
 
-You can drill into the report data by using the up or down arrows at the top-right side of the report to display data by day, week, month, or year for **Daily**, and by minute, hour, day, week, month, or year for **Intraday**.
+You can drill into the report data table by using the up or down arrows at the top-right side of the number grid, to display data by day, week, month, or year for **Daily**, and by minute, hour, day, week, month, or year for **Intraday**.
 
 :::image type="content" source="media/volume-forecasting-drill-month.png" alt-text="View of the Forecast report data filters.":::
 
@@ -121,7 +121,7 @@ You can drill down the hierarchy by clicking the drill down hierarchy button. Ea
 The Agents for conversations report allows you to select the rollup method, that will be used in the number grid. The selected method is used to rollup data at higher levels in the date and time hierarchy. The following rollup methods are available:
 
 - **Average** - This method averages the available data at a level in the date and time hierarchy to rollup to the next higher level in the hierarchy.
-- **Maximum** - This method picks the maximum from the available data at a level in the date and time hierarchy to rollup to the next higher level in the hierarchy.
+- **Maximum** - This method picks the maximum from the available data at a level in the date and time hierarchy to rollup to the next higher level in the hierarchy. *This is the default rollup selected when you access the report for the first time*.
 - **Minimum** - This method picks the minimum from the available data at a level in the date and time hierarchy to rollup to the next higher level in the hierarchy.
 - **Sum** - This method sums the available data at a level in the date and time hierarchy to rollup to the next higher level in the hierarchy.
 
