@@ -7,7 +7,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# Forecast with multiple data type columns 
+# Forecast with multiple data type columns
 
 In a forecast grid, you can have multiple columns with different data types&mdash;such as currency and quantity&mdash;displayed in a single view. For example, in a product-based forecast, you can display the **Best case** column values as a quantity (the decimal value of the volume of products sold) and as currency simultaneously.
 
