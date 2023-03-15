@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page 
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 03/07/2023
+  ms.date: 03/15/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -67,8 +67,8 @@ additionalContent:
         text: Set up personas and privileges in Customer Service
       - url: /dynamics365/customer-service/add-users-assign-roles
         text: Set up roles and enable users in Omnichannel for Customer
-      - url: /dynamics365/customer-service/cs-admin-center
-        text: Set up Customer Service admin center
+      - url: /dynamics365/customer-service/omnichannel-provision-license
+        text: Provision Omnichannel for Customer Service
   - title: Administer and develop Customer Service
     items:
     - title: Administer
