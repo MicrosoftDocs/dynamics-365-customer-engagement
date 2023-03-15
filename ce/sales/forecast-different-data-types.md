@@ -1,7 +1,7 @@
 ---
-title: "Forecast with multiple data type columns in Dynamics 365 Sales"
-description: "Forecast with multiple data type columns"
-ms.date: 10/26/2021
+title: "Forecast with multiple data type columns"
+description: "Configure a forecast with columns of different data types."
+ms.date: 03/14/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,19 +9,12 @@ manager: shujoshi
 ---
 # Forecast with multiple data type columns 
 
-In a forecast grid, you can have multiple columns with different data types&mdash;such as currency and quantity&mdash;displayed in a single view. For example, in a product-based forecast, you can display the **Best case** column values as a quantity (the integer value of the volume of products sold) and as currency simultaneously.
+In a forecast grid, you can have multiple columns with different data types&mdash;such as currency and quantity&mdash;displayed in a single view. For example, in a product-based forecast, you can display the **Best case** column values as a quantity (the decimal value of the volume of products sold) and as currency simultaneously.
 
 > [!div class="mx-imgBorder"]
 > ![Best case currency and quantity columns.](media/forecast-quantity-bestcase-column.png "Best case currency and quantity columns")
 
 For more information about configuring columns and data types, go to [Choose layout and columns](choose-layout-and-columns-forecast.md).
-
-The Kanban view, deal flow, and trend chart can only display a single data type at a time. Hence, for a multiple data type forecast, you must select the primary data type to be displayed before activating the forecast.
-
-Similarly, the Kanban view, deal flow, and trend chart can't show two columns with the same selector. For example, the **Best case** selector is used for multiple revenue columns. Because the Kanban view and deal flow can only show a single revenue column for a category, you must choose the revenue column to display in these views before activating the forecast.  
-
->[!NOTE]
->To use deal flows and trend charts, you must enable premium forecasting.
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -29,25 +22,31 @@ Similarly, the Kanban view, deal flow, and trend chart can't show two columns wi
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
+While the forecast grid can display multiple data types, the Kanban view, deal flow, and trend chart can only display a single data type at a time. Hence, for a multiple data type forecast, you must select the primary data type to be displayed in these views before activating the forecast.
 
-## Examples of different data types
+Similarly, the Kanban view, deal flow, and trend chart can't show     two columns with the same selector. For example, using the **Best case** selector both revenue and discount. Because the Kanban view and deal flow can only show a single revenue column for a category, you must choose the revenue column to display in these views before activating the forecast.  
 
-Let's look at a few examples of how you can configure and activate these forecasts:
+>[!NOTE]
+>To use deal flows and trend charts, you must have the Sales Premium license.
 
-- [Example 1: With a forecast category, create two different currency columns and a quantity column](#same-fc-different-data-type-currency-qty)
-- [Example 2: With a forecast category, create a currency column and a quantity column](#same-fc-different-data-type)
-- [Example 3: With two different forecast categories, create a currency column and a quantity column](#different-fc-different-data-type)
+## Examples of forecasts with different data types
+
+Let's look at a few examples of configuring and activating forecasts with different data types:
+
+- [Example 1: Create two different currency columns and a quantity column with the same forecast category](#same-fc-different-data-type-currency-qty)
+- [Example 2: Create a currency column and a quantity column with the same forecast category,](#same-fc-different-data-type)
+- [Example 3: Create a currency column and a quantity column with two different forecast categories,](#different-fc-different-data-type)
 
 <a name=same-fc-different-data-type-currency-qty></a>
-**Example 1: With a forecast category, create two different currency columns and a quantity column**
+**Example 1: Create two different currency columns and a quantity column with the same forecast category**
 
-You're configuring a forecast in which you want to see the **Best case** forecast category's total amount, discount amount, and the number of products sold to get this amount. You configure three **Best case** columns as follows:
+Let's configure a forecast to view the **Best case** forecast category's total amount, discount amount, and the number of products sold to get this amount. Let's configure three **Best case** columns as follows:
 
-| Column name | Selector | Data type | Amount field |
-|-------------|----------|-----------|--------------|
-| **Best case** | Best case| Currency | Actual amount |
-| **Best case discount** | Best case| Currency | Discount Amount |
-| **Best case products sold** | Best case| Integer | Number of products sold |
+| Column name | Type | Selector | Data type | Amount field |
+|-------------|--------|----------|-----------|--------------|
+| **Best case** | Rollup | Best case| Currency | Amount |
+| **Best case discount** | Rollup | Best case| Currency | Manual Discount or Volume Discount |
+| **Best case products sold** | Rollup | Best case| Decimal | Quantity |
 
 After you've completed the other configuration steps as required and are activating the forecast, an error message is displayed at the top of the **Activate forecast** configuration page. More information: [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 
@@ -59,12 +58,7 @@ Select **Fix issue**. The following **Layout warnings** pane is displayed, where
 > [!div class="mx-imgBorder"]
 > ![Layout warnings pane.](media/forecast-publish-layout-warnings-pane.png "Layout warnings pane") 
 
-- If you select the primary data type as **Quantity**, the forecast chooses the **Best case products sold** column to display in the Kanban view, deal flows, and trend charts. This is because the **Best case products sold** column is the only column that has a quantity (in this case, integer) data type. You can proceed with activating the forecast after you select the primary data type. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Select the primary data type as quantity.](media/forecast-data-type-select-quantity.png "Select the primary data type as quantity") 
-
-    In this forecast, the **Best case products sold** column is the only column that has a quantity (integer) data type and hence, the Kanban view in the following image displays only one lane with a single quantity-based column.
+- If you select the primary data type as **Quantity**, the forecast chooses the **Best case products sold** column to display in the Kanban view, deal flows, and trend charts. This is because the **Best case products sold** column is the only column that has a quantity (in this case, decimal) data type. You can proceed with activating the forecast after you select the primary data type. The Kanban view in the following image displays only one lane with a single quantity-based column.
 
     > [!div class="mx-imgBorder"]
     > ![Example of the primary data type selected as quantity.](media/forecast-primary-datat-quanity-bestcase.png "Example of the primary data type selected as quantity")
@@ -87,7 +81,7 @@ You're configuring a forecast in which you want to see the **Best case** forecas
 | Column name | Selector | Data type | Amount field |
 |-------------|----------|-----------|--------------|
 | **Best case** | Best case| Currency | Actual amount |
-| **Best case products sold** | Best case| Integer | Number of products sold |
+| **Best case products sold** | Best case| Decimal | Number of products sold |
 
 After you've completed the other configuration steps as required and are activating the forecast, the same "Kanban can't show columns with multiple data types. Please resolve this issue to activate the forecast" error message is displayed at the top of the **Activate forecast** configuration page. 
 
@@ -103,7 +97,7 @@ You're configuring a forecast in which you want to see the total revenue of the 
 | Column name | Selector | Data type | Amount field |
 |-------------|----------|-----------|--------------|
 | **Won** | Won | Currency | Actual amount |
-| **Best case products sold** | Best case| Integer | Number of products sold |
+| **Best case products sold** | Best case| Decimal | Number of products sold |
 
 After you've completed the other configuration steps as required and are activating the forecast, the "Kanban can't show columns with multiple data types. Please resolve this issue to activate the forecast" error message is displayed at the top of the **Activate forecast** configuration page.
 
