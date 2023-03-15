@@ -994,8 +994,8 @@
           items:
           - name: Configure Customer Service analytics dashboards in Power BI
             href: configure-customer-service-analytics-dashboard.md
-          - name: Configure Omnichannel Insights dashboards
-            href: configure-historical-sentiment-dashboard-supervisor.md
+        - name: Configure Omnichannel Insights dashboards
+          href: configure-historical-sentiment-dashboard-supervisor.md
       - name: Configure out-of-box real-time analytics
         items:
         - name: Configure Omnichannel real-time analytics
