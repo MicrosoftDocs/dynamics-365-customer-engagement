@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 03/08/2023
+ms.date: 03/16/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -20,17 +20,17 @@ search.app:
 
 # Customize visual display
 
-Dynamics 365 Customer Service provides out-of-box reporting capabilities, that are designed to help supervisors understand and manage agent performance. Supervisors can leverage the out-of-the-box real-time monitoring of their contact centers to cater to organizational requirements immediately.
+Dynamics 365 Customer Service provides out-of-box analytics reports. Depending on your organizational requirements, you can customize the visualization of these out-of-the-box historical and real-time analytics reports. For example, you can add **Avg. conversation sentiment** field to your reports to track customer sentiment.
 
-You can customize these out-of-box reports based on your organization's needs in the following ways:
+You can customize these out-of-box reports in the following ways:
 
+- Create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports, through the Power BI embedded editing experience.
 - Rearrange out-of-box report layouts and change themes.
 - Add new pivots and add new reports.
 - Modify the visual look of the data. For example, you can have a graphic that displays the trend of a metric over time rather than a tabular view of the metric.
-- Create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports.
 
 > [!Note]
-> Visual customization of historical analytics reports is currently available for Customer Service Workspace, Customer Service Hub, and Omnichannel for Customer Service. It isn't available for unified routing and knowledge analytics reports.
+> Visual customization of historical and real-time analytics reports is currently available for Customer Service Workspace, Customer Service Hub, and Omnichannel for Customer Service. It isn't available for unified routing and knowledge analytics reports.
 
 ## Grant user privileges to edit analytics reports
 
@@ -40,31 +40,30 @@ To be able to edit analytics reports, users must have the **Analytics Report Aut
 
 1. Open the **Omnichannel real-time analytics** or **Customer Service historical analytics** report in Customer Service workspace.
    
-1. Select **Edit report**. The Power BI embedded editing experience is displayed.
+1. Select **Edit report**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Select Edit report.](media/edit-report.png "Select Edit report to open the Power BI report authoring experience.")
+    :::image type="content" source="media/visual-edit-report.png" alt-text="Select Edit report to open the Power BI editing experience":::
+   
 
    The following panes open on the right-hand side of the page:
 
-   - **Visualizations**: Displays a list of options you can use to create different visual views in your report. Choose which visuals you want in your report by deleting a currently displayed visual and then adding the visual you prefer by dragging and dropping it from **Visualizations** list to the area where you want it to display in your report. For example, if you wanted to change the background color of your reports, you would select **Page background**, and then select the color you want from the **Themes color** palette.
+   - **Visualizations**: Displays a list of options you can use to create different visual views in your report. Choose which visuals you want in your report by deleting a currently displayed visual and then adding the visual you prefer. For example, if you want to change the background color of your reports, you would select **Canvas background**, and then select the color you want.
 
-     > [!div class="mx-imgBorder"] 
-     > ![Visualization pane.](media/customize-visualization.png "Customize report display on the Visualizations pane")
+      :::image type="content" source="media/visual-canvas-background.png" alt-text="Customize report display on the Visualizations pane":::
 
-   - **Fields**: Displays a list of KPIs, measures, dimensions, and attributes you can represent in your report. For example, if you wanted to track average handle time more closely, you could select **Avg handle time** from the list in the **Fields** pane, and then drag and drop it in the **Fields** section of the **Visualizations** pane.
+   - **Data**: Displays a list of KPIs, measures, dimensions, and attributes you can represent in your report. For example, if you want to track presence status, you could select **PresenceStatus** from the list in the **Data** pane, and then drag and drop it in the fields of the **Visualizations** pane.
 
-     > [!div class="mx-imgBorder"] 
-     > ![Drag and drop metrics from the Fields pane.](media/customize-visualization-field.png "Drag and drop metrics to change display")
- 
- 
+      :::image type="content" source="media/visual-presence-status.png" alt-text="Drag and drop metrics to change display":::
+  
 1. When you're done selecting the customizations you want for your report, select **Save** and then **Publish**. Once you publish the report, all customizations become visible to all users in your organization. 
-
-1. (Optional) To continue editing the report after you've published it, select **Resume editing**. The **Visualizations** and **Fields** panes are reopened. You can further customize your report, and then save and publish it again.
 
 1. If at some point you want to revert all of your changes to the original report settings, you can do so by selecting **Edit report** > **Checkout default report** > **Reset**. 
    > [!IMPORTANT]
    > Selecting **Reset** will permanently remove any customizations you've made.
+
+To continue editing the report after you've published it, select **Resume editing**. The **Visualizations** and **Fields** panes are reopened. You can further customize your report, and then save and publish it again.
+
+Make sure that you don't more than 20 metrics (or tiles) to a report as it affects performance. If you need to add a lot of additional metrics, create additional pages and reference the additional pages on the existing report pages.
 
 ### Future data model updates
 
