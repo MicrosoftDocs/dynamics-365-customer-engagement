@@ -42,10 +42,9 @@ Grant **Create**, **Read**, **Write**, and **Delete** privileges to the security
 
 Repeat the steps to create as many bookmarks as you require.
 
-
 ## Manage bookmarks
 
-Select **Bookmarks**, and then:
+Select **Bookmarks**, and then do any of the following on the **Bookmarks** flyout menu:
 
 - To delete a bookmark, select the delete icon.
 - To set a bookmark as the default view for the report, select the pin icon. The report always opens to the pinned view.
