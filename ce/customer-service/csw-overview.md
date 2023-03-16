@@ -1,7 +1,7 @@
 ---
 title: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service."
-ms.date: 12/15/2022
+ms.date: 04/03/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -59,10 +59,17 @@ To revert back to the default layout, enter the following command in the develop
 
 The following table provides an overview of the layouts:
 
-| Default workspace | Enhanced multisession workspace |
-| ------------ | ------------- |
-|  :::image type="content" source="media/csw-overview.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png"::: | :::image type="content" source="media/csw-overview-enhanced.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview-enhanced.png"::: |
-| 1. Select the **Home** icon to return to the Customer Service Agent Dashboard view.<br>2.The session pane shows all the sessions you've opened. Select the icons to navigate between sessions.<br>3.Select the **+** icon in the tab bar to open more workspaces in a new tab. If you hold the **Ctrl** key while you select a case or an activity, the case or activity opens in a new tab, too. Select a tab to navigate between sessions.<br>4. Select the arrow to choose a different view.<br>5. Select a case or an activity to open a new session. The session replaces your current view with the case form.<br>6. Select the back arrow in the upper-left corner of the form to get back to your previous view. To open the case or activity in a new tab, hold the **Ctrl** key while you select it.<br>7. Select the arrow to view a different dashboard.  | 1. Select the icon to open the site map. <br>2. Select the **Home** tab to return to the Customer Service Agent Dashboard view.<br> 3. Select the [**Inbox**](#use-the-inbox) tab to view all the cases and conversations that are assigned to you. You'll only see the inbox if it's turned on for your profile. <br> 4. Each open session has a tab in the tab row. Select a tab to navigate between sessions.<br> 5. Select a case or an activity to open a new session. The session opens in a new tab in the workspace window. <br> 6. Select the arrow to choose a different view.<br> 7. Select the arrow to view a different dashboard. |
+1. Select the icon to open the site map.
+2. Select the Home tab to return to the Customer Service Agent Dashboard view.
+3. Select the Inbox tab to view all the cases and conversations that are assigned to you. You'll only see the inbox if it's turned on for your profile.
+4. Each open session has a tab in the tab row. Select a tab to navigate between sessions.
+5. Select a case or an activity to open a new session. The session opens in a new tab in the workspace window.
+6. Select the arrow to choose a different view.
+7. Select the arrow to view a different dashboard.
+
+
+:::image type="content" source="media/csw-overview-enhanced.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview-enhanced.png"::: 
+
 
 ## Customer Service workspace sessions and tabs
 
@@ -74,17 +81,20 @@ If the agent opens the customer record from a session, a new tab will be launche
 
 The following table gives an overview of the navigation in both views:
 
-| Column | Default | Enhanced multisession workspace |
-| ------------ | ------------- | ------------- |
-| Select a record from the Home session | Record opens in a new session | Record opens in a new session |
-| Select a record from the Global search | Record opens in a new tab | Record opens in a new session |
-| Select a record from the retrieved search records | Record opens in a new tab | Record opens in a new tab |
-| Create a record using the Quick Create form | Record opens in a new tab | Record opens in a new session |
-| Create a new record | Record opens in a new session | Record opens in a new session |
-| Select a record from the timeline | Record opens in a new tab | Record opens in a new tab |
-| Select an entity from the site map | Record opens in a new tab | Record opens in a new tab |
-
 The enhanced multisession workspace also has improved in-app notification integration.
+
+| Column | Enhanced multisession workspace |
+| ------------ |------------- |
+| Open a record from the Home session | Record opens in a new session. |
+| Open a record from the Global search | Record opens in a new session. |
+| Open a record from the retrieved search records | Record opens in the focussed session. |
+| Open a record using the Quick Create notification | Record opens in a new session |
+| Create a new record | Record opens in a new session |
+| Open a record from the timeline | Record opens in a new tab in the focused session |
+| Open a record from a form lookup | Record opens in a new tab in the focused session |
+| Open a view from the Sitemap | View opens in a new tab in the focused session |
+| Open a dashboard from the Sitemap | Dashboard opens in a new tab in the focused session|
+
 
 ## Use the Inbox
 
@@ -185,6 +195,18 @@ You can use your browser's developer tools to customize some aspects of the Cust
 1. With Customer Service workspace open, press the F12 key to open the developer tools window.
 1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
 1. Refresh the app page.
+
+### Default workspace (deprecated)
+
+1. Select the Home icon to return to the Customer Service Agent Dashboard view.
+2.The session pane shows all the sessions you've opened. Select the icons to navigate between sessions.
+3.Select the + icon in the tab bar to open more workspaces in a new tab. If you hold the Ctrl key while you select a case or an activity, the case or activity opens in a new tab, too. Select a tab to navigate between sessions.
+4. Select the arrow to choose a different view.
+5. Select a case or an activity to open a new session. The session replaces your current view with the case form.
+6. Select the back arrow in the upper-left corner of the form to get back to your previous view. To open the case or activity in a new tab, hold the Ctrl key while you select it.
+7. Select the arrow to view a different dashboard.
+
+:::image type="content" source="media/csw-overview.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png":::
 
 ### See also
 
