@@ -132,9 +132,6 @@
           "show_learn_banner"
         ]
       },
-      "robots":{
-        "customerengagement/**.*": "noindex, nofollow"
-      },
       "ms.service": {
         "mobile-app/**.*": "dynamics-365-cross-app",
         "legal/**.*": "dynamics-365-cross-app",

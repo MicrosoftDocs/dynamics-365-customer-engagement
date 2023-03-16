@@ -1,10 +1,10 @@
 ---
-title: "Get started with Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn how to get started with Dynamics 365 Field Service
-ms.date: 11/30/2022
+title: Get started with Dynamics 365 Field Service
+description: Learn how to get started with Dynamics 365 Field Service.
+ms.date: 03/14/2023
 author: jshotts
 ms.author: jasonshotts
-ms.custom: intro-internal
+ms.custom: get-started
 search.app:
 - D365CE
 - D365FS
@@ -12,80 +12,18 @@ search.app:
 
 # Get started with Dynamics 365 Field Service
 
-This article helps you get started as a new users of Dynamics 365 Field Service. To set up the application, you'll need **System Administrator** or **Field Service - Administrator** privileges.
+This article helps organizations to get started. It guides you through the first steps with the application and the scenario of creating and scheduling a work order to resolve a customer's service request.
 
-After [installing Dynamics 365 Field Service](install-field-service.md), [assign licenses to your users](view-user-accounts-security-roles.md). Then, set up frontline workers and start scheduling work orders. Take a look at the **Get Started** page, which contains shortcuts to all relevant tasks.
+:::image type="content" source="media/get-started-page.png" alt-text="Screenshot of the Get Started page in Dynamics 365 Field Service with a highlight on the navigation item.":::
 
-In the **Learn about Field Service** section, there are cards with videos and links to documentation that introduce some key app functionality.
+> [!TIP]
+> You can add users and create the following records quickly from the **Get started** page in the **Service** area of Field Service.
 
-In the **Get up and running** section, there are a set of actions and tutorial videos that guide you through important Field Service processes.
+## Install Dynamics 365 Field Service
 
-In the **More resources** section, you find link to helpful resources.
+A system administrator needs to install the Field Service application installed for your organization. For more information, see [How to install Dynamics 365 Field Service](install-field-service.md).
 
-## Get started
-
-The following section walk you through a quick end-to-end scenario that you can achieve right from the **Get started** page.
-
-### Set up your frontline workers
-
-First, you must set up your frontline workers. Frontline workers are individuals who complete work orders.
-
-From the **Getting Started** page, select the **Set Up** option.
-
-Enter the required information. Recommended values are automatically filled in. Don't change these values unless necessary.
-
-You can also email a link to a frontline worker to get the mobile app. For more information, see [Send frontline workers an email with a link to download Dynamics 365 Field Service mobile app](frontline-worker-set-up-email-approval.md).
-
-### Create your accounts
-
-Next, create an account that represents one of your customers.
-
-From the **Getting Started** page, Select **Create**.
-
-In the form, fill out relevant details and save it.
-
-For more information, see [Create and manage accounts in Dynamics 365 Field Service](accounts.md).
-
-### Create your work orders
-
-Create a work order that outlines work that needs to be done for a customer, typically at the customer's location or at the location of an asset or equipment.
-
-From the **Getting Started** page, select **Create**.
-
-In the form, fill out relevant details.
-
-- The **Service Account** represents the customer.
-- **Tasks** are a checklist of things that need to be done.
-- **Products** are parts needed to complete the work order.
-- **Services** represents labor needed to complete the work order.
-
-For more information, see [Create a work order to coordinate and schedule resources and activities](create-work-order.md).
-
-### Schedule your work orders
-
-Schedule the work order and book a frontline worker to complete the job.
-
-On the **Getting Started** page, select **Schedule** to go to the schedule board.
-
-Find your work order in the requirement pane at the bottom. Then, drag and drop if to the frontline worker.
-
-For more information, see [Schedule a work order](schedule-work-order.md).
-
-### Analyze your operations
-
-Finally, you can analyze your operation by enabling and looking at work order summary and resource utilization Power BI reports.
-
-On the **Getting Started** page, select **Configure** in the **Analyze your operations** section to go to the insights setting page.
-
-You'll see reports under **Analytics and Insights**.
-
-For more information, see [Reports overview](reports.md).
-
-## Dive deeper
-
-Before you roll Field Service out to other users in your organization, make sure you familiarize with the following core functionality.
-
-### Configure Field Service settings
+## Configure Field Service settings
 
 Review default settings for the Field Service app.
 
@@ -95,7 +33,7 @@ Review default settings for the Field Service app.
 
 1. Review the all mandatory values and set optional values for your organization. For more information, go to [Set defaults for work orders, bookings, the schedule board, and agreements](configure-default-settings.md)
 
-### Set up resource scheduling
+## Set up resource scheduling
 
 Field Service needs latitude and longitude values for service account records to estimate travel times when scheduling a work order to a resource.
 
@@ -107,31 +45,49 @@ Field Service needs latitude and longitude values for service account records to
 
 1. Enable resource scheduling for entities. Go to **Resource Scheduling > Administration > Enable Resource Scheduling for Entities**. Verify that work orders are enabled for resource scheduling. For more information, go to [Enable an entity for scheduling in Dynamics 365 Field Service](schedule-new-entity.md).
 
-### Test geocoding
+   Administrators decide which entities can be scheduled to resources. A solution called [Universal Resource Scheduling](universal-resource-scheduling-for-field-service.md) adds scheduling capabilities to entities and provides the schedule board. Any entity (including custom entities) can be enabled for scheduling; typical examples include cases, opportunities, and orders.
 
-Geocoding maps a latitude and longitude to an address. Coordinates allow dispatchers to locate work orders more effectively than an address.
+## Assign Field Service licenses to users
 
-1. In the **Field Service** app, open the **Service** area.
+Create users or select existing users and assign them a license for Field Service. Users with a license can access the Field Service application, according to their user role. For more information, see [Set up Dynamics 365 Field Service users and security profiles](view-user-accounts-security-roles.md).
 
-1. Go to **Scheduling** > **Work Orders** and select **+New**.
+Set up at least a dispatcher and a frontline worker. Dispatchers manage work orders for your organization. They schedule the work and assign it to a frontline worker, who will then complete the work for the customer.
 
-1. In the **Location** tab, begin typing an address to see suggestions.
+## Create customer accounts
 
-   :::image type="content" source="media/address-suggestion.png" alt-text="Screenshot of suggested addresses on a work order form.":::
+Every customer of your company usually has its own account record. It lists their location, contact information, billing information, and numerous related details. Field Service represents individuals working for your customer as contacts. You can create relationships between contacts and accounts to ensure you get in touch with the right person.
 
-Choose a suggested address and the system fills in the rest of the details in the form, including the latitude and longitude.
+[Create an account](accounts.md) that represents one of your customers.
 
-### Configure the Field Service (Dynamics 365) mobile app
+## Create a work order
 
-Frontline workers should download the Field Service (Dynamics 365) mobile app from the iOS or Android app stores onto their phone or tablet. 
+[Work orders contain all the information for a service request](create-work-order.md) that originates from a customer. It outlines the work to be done, typically at the customer's location or at the location of an asset or equipment. To quickly create a work order, go to the Get Started page and select **Create** in the work order section and enter relevant details.
 
-- [iOS - Field Service (Dynamics 365) mobile app](https://aka.ms/fsmobile-apple)
-- [Android - Field Service (Dynamics 365) mobile app](https://aka.ms/fsmobile-google)
+- The [**Service Account**](accounts.md) represents the customer who the work order relates to.
+- **Tasks** are a checklist of things that need to be done.
+- **Products** are parts that the technician needs for the job.
+- **Services** represents required labor to complete the work order.
 
-Sign in with the username and password of the frontline worker user.
+## Schedule a work order
 
-- For the **Username**, enter the frontline worker's username. For example, username@org.onmicrosoft.com
-- For the **Password**, enter the password you set for the frontline worker.
+Schedule the work order to a frontline worker who will complete the work.
 
-For more information, see the article on [getting started with the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
+There are [several ways to schedule a work order](universal-resource-scheduling-for-field-service.md). For manual scheduling, open the **Schedule Board** in the **Scheduling** section of the **Service** area.
 
+Find your work order in the requirement pane. Drag it to a free time slot in the future for one of your frontline workers.
+
+## View the scheduled work order on the Field Service (Dynamics 365) mobile app
+
+Frontline workers use the Field Service (Dynamics 365) mobile app on their phone or tablet.
+
+Download and install the mobile app and sign in as the technician to who the work order is assigned.
+
+The **Booking** tab shows the work order you scheduled to the frontline worker. Update the status of the booking and related details to indicate completion of the work order.
+
+For more information, see [Install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
+
+### Analyze your operations
+
+Back in the Field Service web application, service managers can [analyze day-to-day operations with Power BI reports](reports.md).
+
+You'll see reports under **Analytics and Insights**.

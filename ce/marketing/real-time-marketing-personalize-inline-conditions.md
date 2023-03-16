@@ -1,7 +1,7 @@
 ---
-title: "Personalize inline conditions (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to personalize inline conditions in Dynamics 365 Marketing."
-ms.date: 12/06/2022
+title: "How to use inline conditions (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to use inline conditions in Dynamics 365 Marketing."
+ms.date: 02/06/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,7 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Personalize inline conditions with conditional content
+# How to use inline conditions
 
 Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. You can add the code required to create conditional statements in the designer or the HTML view. You can then use the placeholder dialog to specify the condition to be evaluated. Below is an example of conditional expressions using placeholders to specify conditions.
 

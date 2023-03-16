@@ -1,7 +1,7 @@
 ---
 title: "View details of a segment in the sales accelerator"
 description: "View the details of a segment such as, connected sequences, segment members, and assignment rules."
-ms.date: 09/30/2022
+ms.date: 02/28/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -15,7 +15,7 @@ You can view the details of a segment, such as connected sequences, segment memb
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 

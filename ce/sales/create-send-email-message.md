@@ -100,7 +100,7 @@ Use the controls at the top of the **Email Engagement** area to view and edit th
 ## Add followed attachments  <a name="FollowedAttachments"></a>
   
 >[!NOTE]
->To follow attachments, [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] must be available to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and Document Management for Email must be enabled. Talk to your administrator if you think these features are missing from your server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable Email engagement](configure-email-engagement.md)  
+>To follow attachments, [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] must be available in Dynamics 365 and Document Management for Email must be enabled. Talk to your administrator if you think these features are missing from your server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable Email engagement](configure-email-engagement.md)  
   
 Followed attachments can tell you when a recipient opens an attachment. To add one or more followed attachments:  
   

@@ -1,7 +1,7 @@
 ---
 title: "Qualify and convert leads to opportunity | MicrosoftDocs"
-description: "Qualify the lead after you've identified the time frame, budget, and purchase process of the lead."
-ms.date: 11/11/2022
+description: "Qualify leads in the Sales app to create corresponding accounts and opportunities, and disqualify leads when they won't turn into an opportunity."
+ms.date: 02/28/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -153,6 +153,5 @@ When salespeople work on a lead, they use notes to store key information on the 
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  
 [Troubleshoot issues with lead qualification issues](/troubleshoot/dynamics-365/sales/troubleshoot-lead-qualification-issues-for-salespeople)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

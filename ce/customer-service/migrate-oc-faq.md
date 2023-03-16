@@ -6,19 +6,15 @@ ms.author: laalexan
 ms.reviewer: shujoshi
 ms-service: dynamics-365
 ms.topic: conceptual
-ms.date: 01/11/2023
+ms.date: 03/15/2023
 ms.custom: bap-template
 ---
 
 # Omnichannel for Customer Service app deprecation and migration FAQ
 
-This article contains commonly asked questions about the deprecation of the Omnichannel for Customer Service app and migrating from the Omnichannel for Customer Service app to Customer Service workspace.
+This article contains commonly asked questions about the deprecation of the Omnichannel for Customer Service app and migrating to Customer Service workspace.
 
-### Who can access or run the migration tool?
-
-Currently, only administrators can run the migration tool.
-
-### Why is the Omnichannel for Customer Service app being replaced by Customer Service workspace?
+### Why is the Customer Service workspace app replacing Omnichannel for Customer Service?
 
 Continued investment in two multisession apps that are at feature-level parity limits our ability to deliver new features for customers.
 

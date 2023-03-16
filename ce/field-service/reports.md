@@ -85,11 +85,12 @@ Now the **Field Service - Dispatcher** can see the corresponding report.
 | South America | SAM |
 | Canada | CAN |
 | Europe | EUR |
-| Asia Pacific Japan |APJ |
+| Asia Pacific Japan | APJ |
 | Australia | OCE |
 | Japan| JPN |
 | India | IND |
-| Great Britain |GBR |
+| Great Britain | GBR |
+| United Arab Emirates | UAE |
 
 ## Data model
 
