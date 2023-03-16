@@ -1,11 +1,12 @@
 ---
-title: "FAQ about Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about the frequently asked questions (FAQs) on the different features in Omnichannel for Customer Service and their requirements."
-ms.date: 02/17/2023
-ms.topic: article
+title: FAQ about Omnichannel for Customer Service
+description: Learn about the frequently asked questions (FAQ) on the different features in Omnichannel for Customer Service and their requirements.
+ms.date: 03/16/2023
+ms.topic: concept
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # FAQ about Omnichannel for Customer Service
@@ -111,29 +112,29 @@ This section helps answer some of the questions on how presence works.
 
 ### When is the manual override of presence cleared?
 
-The system clears your manual override when you become inactive on the application.
+The system clears your manual override when you become inactive or sign out from the application.
 
-### When am I considered as inactive?
+### When is the agent considered as inactive?
 
-The system waits for 2.5 minutes after which you'll be considered as inactive and will be marked as offline in the following scenarios:
+The system waits for 2.5 minutes after which the agent will be considered as inactive and will be marked as offline when the agent does any of the following actions:
 
-- Close the browser
-- Close or sign out of the device
+- Closes the browser
+- Closes or signs out of the device
 - Disruption to your Internet
-- Minimize the browser
-- Leave the browser open without any activity
+- Minimizes the browser
+- Leaves the browser open without any activity
 
-### If the inactivity is less than 2.5 minutes, what does the system do?
+### If the agent is inactive for less than 2.5 minutes, what does the system do?
 
-If the inactivity is less than 2.5 minutes, the system will retain the manually overridden presence.
+If the agent is inactive for less than 2.5 minutes, the system will retain the manually overridden presence.
 
-### After inactivity, what happens if the agent resumes?
+### What happens to the agent presence when they resume work after showing as inactive?
 
-After inactivity, the system clears the earlier presence and calculates your presence afresh. Therefore, we recommend that you refresh the browser.
+When agents resume work after 2.5 minutes or more of inactivity, the system clears the earlier presence and calculates the presence afresh. We recommend that you refresh the browser after inactivity.
 
 ### What factors are considered in presence refresh?
 
-If the default presence set by the administrator is "Away" or "Offline", then the system will set the agent presence to the default setting. Otherwise, the system will calculate the presence based on the active sessions for the agent.
+If the default presence set by the administrator is "Away" or "Offline", then the system will set the agent presence to the default setting. Otherwise, the system will calculate the presence based on the agent's used or released capacity.
 
 ## Administrator experience
 
@@ -280,5 +281,9 @@ All channels integrated into Omnichannel for Customer Service have the same rout
 
 Only bots created through [Microsoft Bot Framework](https://dev.botframework.com/) can be integrated at this time.
 
+### See also
+
+[Overview of Dynamics 365 Customer Service](overview.md)  
+[Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
