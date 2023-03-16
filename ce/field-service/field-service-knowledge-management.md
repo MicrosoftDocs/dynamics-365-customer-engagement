@@ -1,6 +1,6 @@
 ---
-title: "Knowledge management in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
-description: Learn about knowledge management in Dynamics 365 Field Service
+title: Create knowledge articles (contains video)
+description: Learn about knowledge management in Dynamics 365 Field Service.
 ms.date: 02/01/2021
 
 ms.topic: article
@@ -14,7 +14,7 @@ search.app:
 - D365FS
 ---
 
-# Knowledge management in Dynamics 365 Field Service
+# Create knowledge articles
 
 When field service technicians are onsite performing work, they need to be able to access information to help them solve the problems they encounter.
 
