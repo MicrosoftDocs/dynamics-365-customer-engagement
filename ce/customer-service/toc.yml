@@ -228,6 +228,8 @@
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing for unified routing
           href: set-up-skill-based-routing.md
+        - name: Model data tables as skills
+          href: model-tables-as-skills-ur.md
       - name: Use sentiment prediction-based routing
         href: use-sentiment-prediction-for-routing.md
       - name: Use effort estimation model for routing
@@ -654,6 +656,8 @@
         href: voice-channel-monitor-calls.md
     - name: Emergency calling in the voice channel
       href: voice-channel-emergency-calling.md
+    - name: Pricing scenarios for voice calling
+      href: voice-channel-pricing-scenarios.md  
     - name: FAQ about the voice channel
       href: voice-channel-faqs.md  
   - name: Chat

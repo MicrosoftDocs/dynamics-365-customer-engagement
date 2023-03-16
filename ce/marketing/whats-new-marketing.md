@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 03/02/2023
+ms.date: 03/06/2023
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -95,10 +95,15 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
     - [Docs](content-ideas.md)
 
     > [!div class="mx-imgBorder"]
-    > ![content ideas](media/whats-new-content-ideas-1.png "content ideas")
+    > ![AI content ideas](media/whats-new-ai-content-ideas.png "AI content ideas")
+
+- **Accurately target customers using improved AI-powered natural language segments**
+    - The query assist feature is enhanced with generative AI capabilities. Use conversational, everyday language to quickly build targeted segments. Generate rules that are more accurate with less effort, allowing you to spend more time building customer relationships and less time constructing complex segments from scratch. For example, you can say “Please show me active contacts that attended the coffee tasting event”
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/accurately-target-customers-using-improved-ai-powered-natural-language-segments)
+    - [Docs](real-time-marketing-natural-language-segments.md)
 
     > [!div class="mx-imgBorder"]
-    > ![content ideas](media/whats-new-content-ideas-2.png "content ideas")
+    > ![natural language segments](media/whats-new-natural-language-segments.png "natural language segments")
 
 - **Create beautiful and engaging emails in minutes**
     - The simplified email editor with the improved template gallery allows you to create engaging content within minutes, whether you are an experienced marketer or create emails occasionally to engage with your customers. Now, you can make basic content modifications directly on canvas, and enjoy easy, delightful, and focused experience. Whereas the new template gallery makes it easier than ever to find just the right template for your next email. 
@@ -110,8 +115,8 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
 
 - **Send emails quickly without building a journey**
     - Send emails without creating a journey. This workflow allows you to select from a new template library, make changes easily with simplifications to the email editor, and send emails to the segment members you need to reach within minutes.
-    - [Release plan](dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
-    -  [Docs](real-time-marketing-email-without-journey.md)
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
+    -  [Docs](email-without-journey.md)
 
     > [!div class="mx-imgBorder"]
     > ![send email without building journey](media/whats-new-send-email-without-building-journey.png "send email without building journey")
@@ -122,7 +127,7 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
     -  [Docs](real-time-marketing-frequency-cap.md)
 
     > [!div class="mx-imgBorder"]
-    > ![prevent message fatigue](media/whats-new-prevent-message-fatigue.png "prevent message fatigue")
+    > ![frequency cap](media/whats-new-prevent-message-fatigue-with-frequency-cap.png "frequency cap")
 
 - **Scale your business effortlessly and define access to marketing assets**
     - Improve productivity by defining marketing asset access and visibility to match your business structure. As businesses create vast amounts of assets, organizing data according to organizational structure becomes critical. Well-organized assets are important to remaining compliant and productive. Now in real-time marketing, you can effortlessly organize your digital assets, content, and journeys to match your organizational structure by separating business and customer data across organizational boundaries. Separating data enables you to gain comprehensive insights into a specific brand's marketing performance without losing sight of the bigger picture. Compliance risk is reduced by using out-of-the-box campaigns and data segregation capabilities across your organization.

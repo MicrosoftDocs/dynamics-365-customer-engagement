@@ -4022,6 +4022,7 @@
       "redirect_url": "/dynamics365/customer-engagement/sales-enterprise/help-hub",
       "redirect_document_id": "false"
     },
+
     {
       "source_path": "ce/social-engagement/ebooks-and-videos.md",
       "redirect_url": "/dynamics365/customer-engagement/social-engagement/help-hub",
@@ -23722,6 +23723,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/developer/reference/custom-actions/events-context-deal-manager.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/clientapi/events-forms-grids",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-enterprise/developer/developer-guide.md",
       "redirect_url": "/dynamics365/sales/developer/developer-guide",
       "redirect_document_id": "false"
@@ -24646,6 +24652,26 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/universal-resource-scheduling.md",
+      "redirect_url": "/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"      
+    },
+    {
+      "source_path": "ce/field-service/scheduling-roles-personas.md",
+      "redirect_url": "/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"      
+    },
+    {
+      "source_path": "ce/field-service/scheduling-capabilities.md",
+      "redirect_url": "/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"      
+    },
+    {
+      "source_path": "ce/field-service/5-stages-scheduling-adoption.md",
+      "redirect_url": "/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"      
+    },
+    {
       "source_path": "ce/field-service/cfs-iot-central-alerts.md",
       "redirect_url": "/dynamics365/field-service/connected-field-service",
       "redirect_document_id": "false"
@@ -24898,6 +24924,20 @@
     {
       "source_path": "ce/customerengagement/on-premises/developer/set-default-price-level-for-opportunity-quote-order-invoice.md",
       "redirect_url": "/dynamics365/sales/developer/set-default-price-level-for-opportunity-quote-order-invoice",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/perform-initial-configurations-setup.md",
+      "redirect_url": "/dynamics365/field-service/field-service-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/quickstart-schedule-work-order.md",
+      "redirect_url": "/dynamics365/field-service/field-service-get-started",
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-domain.md",
+      "redirect_url": "/dynamics365/marketing/domain-authentication",
       "redirect_document_id": false
     }
   ]

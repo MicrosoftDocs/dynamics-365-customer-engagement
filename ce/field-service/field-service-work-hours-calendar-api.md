@@ -303,7 +303,7 @@ Bob's schedule then changes to start at 10:00 AM on May 15, 2021. Debbie uses th
 
 ### Delete a working hour occurrence.
 
-A family emergency comes up, and Bob needs to cancel his entire day of work. Debbie uses the `msdyn_DeleteCalendar` API.
+A family emergency comes up, and Bob needs to cancel an entire day of work. Debbie uses the `msdyn_DeleteCalendar` API.
 
 **Request**
 
@@ -324,7 +324,7 @@ A family emergency comes up, and Bob needs to cancel his entire day of work. Deb
 
 ### Create a working hour daily recurrence
 
-Starting May 20, 2021, Bob decides to work with Contoso all week from 8:00 AM to 5:00 PM. He's going to stop working there on July 15, 2021.
+Starting May 20, 2021, Bob decides to work with Contoso all week from 8:00 AM to 5:00 PM, and will stop working there on July 15, 2021.
 
 **Request**
 
@@ -345,7 +345,7 @@ Starting May 20, 2021, Bob decides to work with Contoso all week from 8:00 AM to
 
 ### Edit a working hour daily recurrence with increased capacity
 
-Bob decides to stop working for the entire week of June 15, 2021 because he needs a break. Until then, he'll continue the all-week schedule he previously agreed to. Debbie makes these changes by using the `msdyn_SaveCalendar` API.
+Bob decides to stop working for the entire week of June 15, 2021 to take a break. Until then, Bob will continue the all-week schedule as previously agreed to. Debbie makes these changes by using the `msdyn_SaveCalendar` API.
 
 **Request**
 
@@ -366,7 +366,7 @@ Bob decides to stop working for the entire week of June 15, 2021 because he need
 
 ### Create a working hour weekly recurrence
 
-Starting from June 16, 2021, Bob will work from 8:00 AM to 5:00 PM on Wednesdays and Fridays. He takes a break from 12:00 PM to 12:30 PM for lunch. Debbie uses the `msdyn_SaveCalendar` API. But oops, she makes a mistake and schedules the break from 12:00 PM to 1:00 PM.
+Starting from June 16, 2021, Bob will work from 8:00 AM to 5:00 PM on Wednesdays and Fridays, and will take a break from 12:00 PM to 12:30 PM for lunch. Debbie uses the `msdyn_SaveCalendar` API, but makes a mistake, and schedules the break from 12:00 PM to 1:00 PM.
 
 **Request**
 
@@ -386,7 +386,7 @@ Starting from June 16, 2021, Bob will work from 8:00 AM to 5:00 PM on Wednesdays
 
 ### Edit a break from a working hour weekly recurrence
 
-Debbie then corrects her mistake and changes the break to occur from 12:00 PM to 12:30 PM by using the `msdyn_SaveCalendar` API.
+Debbie then corrects the mistake and changes the break to occur from 12:00 PM to 12:30 PM by using the `msdyn_SaveCalendar` API.
 
 **Request**
 
@@ -406,7 +406,7 @@ Debbie then corrects her mistake and changes the break to occur from 12:00 PM to
 
 ### Create a working hour custom recurrence
 
-Tim works for Contoso on Mondays from 8:00 AM to 5:00 PM, and Wednesdays from 11:00 AM to 3:00 PM. He started his role on May 16, 2021. Debbie uses the `msdyn_SaveCalendar` API to create Tim's work hours.
+Tim works for Contoso on Mondays from 8:00 AM to 5:00 PM, and Wednesdays from 11:00 AM to 3:00 PM. Tim started working fo Contoso on May 16, 2021. Debbie uses the `msdyn_SaveCalendar` API to create Tim's work hours.
 
 **Request**
 
@@ -427,7 +427,7 @@ Tim works for Contoso on Mondays from 8:00 AM to 5:00 PM, and Wednesdays from 11
 
 ### Edit a working hour custom recurrence
 
-Tim's schedule then changes: his work hours are now Wednesdays 5:00 PM to 8:00 PM, and Thursday 10:00 AM to 12:00 PM. Monday is removed from his schedule. Debbie uses the `msdyn_SaveCalendar` API to achieve this.
+Tim's schedule then changes to work hours from Wednesdays 5:00 PM to 8:00 PM, and Thursday 10:00 AM to 12:00 PM. Monday is removed from Tim's schedule. Debbie uses the `msdyn_SaveCalendar` API to achieve this.
 
 **Request**
 
@@ -469,7 +469,7 @@ On May 26, 2021, Tim is only able to work from 1:00 PM to 7:00 PM. Debbie uses t
 
 ### Delete a working hour custom recurrence
 
-Tim has to delete his entire schedule because he has decided to leave the company. Debbie uses the `msdyn_DeleteCalendar` API here.
+Tim has decided to leave the company and has to delete their entire schedule. Debbie uses the `msdyn_DeleteCalendar` API here.
 
 **Request**
 
@@ -510,7 +510,7 @@ Tim will be taking three days off for a family vacation starting on June 9, 2021
 
 ### Create all-day working hours
 
-Tim has a 72-hour shift starting May 20, 2021. Debbie uses the `msdyn_SaveCalendar` API to create his work hours.
+Tim has a 72-hour shift starting May 20, 2021. Debbie uses the `msdyn_SaveCalendar` API to create Tim's work hours.
 
 **Request**
 

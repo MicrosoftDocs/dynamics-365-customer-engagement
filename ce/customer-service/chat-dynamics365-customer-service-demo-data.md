@@ -1,26 +1,26 @@
 ---
-title: "Demo data installation for Chat for Dynamics 365 Customer Service | MicrosoftDocs"
-description: "This article offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service."
+title: Install demo data for Chat for Dynamics 365 Customer Service
+description: Learn how to install sample or demo data for Chat for Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.custom: intro-internal
-ms.date: 08/02/2022
+ms.reviewer: shujoshi
+ms.custom: bap-template
+ms.topic: how-to
+ms.date: 03/08/2023
 ---
 
 
-# Demo data installation for Chat for Dynamics 365 Customer Service
-
-## Introduction
+# Install demo data for Chat for Dynamics 365 Customer Service
 
 This article offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service capabilities to help you build your own demo environments.
 
 The sample data is available as a downloadable demo package, which you can install in your Omnichannel for Dynamics 365 Customer Service demo environment that has the Chat for Dynamics 365 Customer Service add-on.
 
 > [!IMPORTANT]
-> - Once installed, you can't uninstall the demo data. 
-> - The Chat for Dynamics 365 Customer Service demo data is available only in English. 
-> - Install the demo data on a demonstration, evaluation, training, or test environment. We do not recommend installing the demo data in production environments.
+>
+> - Once installed, you can't uninstall the demo data.
+> - The Chat for Dynamics 365 Customer Service demo data is available only in English.
+> - Install the demo data on a demonstration, evaluation, training, or test environment only and not on production environments.
 
 ## Prerequisites
 
@@ -39,7 +39,6 @@ The following are required for installing sample data in your target environment
 Download the demo data from the Download Center and save it on your computer.
 
 [Chat for Dynamics 365 Customer Service demo data](https://go.microsoft.com/fwlink/p/?linkid=2109052)
-
 
 ## Extract files
 
@@ -75,7 +74,6 @@ The OmnichannelDemoData package installs a few users such as those listed in t
 | Alex       | Allman    | alexallman   | <alexallman@sampleorg.onmicrosoft.com>   | Omnichannel Supervisor                          |
 | Lilly      | Michael   | lillymichael | <lillymichael@sampleorg.onmicrosoft.com> | System Administrator, Omnichannel Administrator |
 | Penelope   | Mayo      | penelopemayo | <penelopemayo@sampleorg.onmicrosoft.com> | Omnichannel Agent                               |
-
 
 ### Configure users
 
@@ -115,7 +113,7 @@ Next you need to update a data mapping file with the email address of the defaul
 4. Select **Save**.
 
   > [!TIP]
-  > We recommend creating a backup of your environment so you can revert to the initial stage if you encounter issues during the demo data installation. To learn more, see [Back up and restore instances](../admin/backup-restore-instances.md).
+  > We recommend that you create a backup of your environment so you can revert to the initial stage if you encounter issues during the demo data installation. To learn more, see [Back up and restore instances](../admin/backup-restore-instances.md).
 
 ## Run the package deployer
 
@@ -134,7 +132,6 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
 
 4. Specify the following in the connect screen and select **Login**. In this step, you need to connect to the Power Platform environment where you want to deploy the demo data:
 
-
     | Field | Value | Description |
     |-------------------------|------------------------|------------------------|
     | Deployment Type | Microsoft 365 | To connect to a Power Platform environment. |
@@ -151,7 +148,7 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
 6. To start the demo data installation, select **Next**.
 
     ![Reading demo data.](media/omnichannel-sample-data-4.png "Reading demo data")
-    
+ 
 7. After the demo data is installed successfully, select **Finish**.
 
     ![Demo data is installed successfully.](media/omnichannel-sample-data-5.png "Demo data is installed successfully")
@@ -182,10 +179,11 @@ After the demo data completely loads, do the following:
 ## Technical notes
 
 ### Install demo data in an environment that already has data
-> [!Warning]
-> We highly recommend that you do not install demo data on top of existing data because in order to do so, you have to remove safety precautions.
 
-If you must install demo data on top of an existing Omnichannel for Customer Service trial or demo environment that already has data, you'll need to suspend the safety prechecks performed by the installer. 
+> [!WARNING]
+> We recommend that you don't install demo data on top of existing data because to do so, you have to remove safety precautions.
+
+If you must install demo data on top of an existing Omnichannel for Customer Service trial or demo environment that already has data, you'll need to suspend the safety prechecks performed by the installer.
 
 To suspend the safety prechecks, follow these steps:
 
