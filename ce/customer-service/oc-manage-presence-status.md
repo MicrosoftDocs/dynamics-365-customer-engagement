@@ -1,11 +1,12 @@
 ---
-title: Manage presence status in Omnichannel for Customer Service | MicrosoftDocs
-description: "Use this article to learn how to view and update your presence status in Omnichannel for Customer Service."
-ms.date: 02/18/2023
-ms.topic: article
+title: Manage presence status in Omnichannel for Customer Service
+description: Use this article to learn how to view and update your presence status in Omnichannel for Customer Service.
+ms.date: 03/16/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Manage presence status
@@ -14,8 +15,7 @@ manager: shujoshi
 
 Presence is an indication of your availability or status in the application.
 
-  > [!div class=mx-imgBorder]
-  > ![Agent presence status.](media/oceh-presence-icon.png "Agent presence status")
+:::image type="content" source="media/oceh-presence-icon.PNG" alt-text="Agent presence status.":::
 
 ## Prerequisites
 
@@ -25,20 +25,18 @@ For the presence status or presence icon to display correctly, enable in your br
 
 You can view your presence status on the navigation bar. You can select the presence icon to launch the presence dialog and update your presence.
 
-  - ![Offline presence status.](media/oceh-offline-icon.png "Offline presence status")  Offline
+- ![Offline presence status.](media/oceh-offline-icon.png "Offline presence status")  Offline
 
-  - ![Appear away presence status.](media/oceh-appear-away-icon.png "Appear away presence status")  Appear away
+- ![Appear away presence status.](media/oceh-appear-away-icon.png "Appear away presence status")  Appear away
 
-  - ![Do not disturb presence status.](media/oceh-do-not-disturb-icon.png "Do not disturb presence status")  Do not disturb
+- ![Do not disturb presence status.](media/oceh-do-not-disturb-icon.png "Do not disturb presence status")  Do not disturb
 
-  - ![Busy presence status.](media/oceh-busy-icon.png "Busy presence status")  Busy
+- ![Busy presence status.](media/oceh-busy-icon.png "Busy presence status")  Busy
 
-  - ![Available presence status.](media/oceh-available-icon.png "Available presence status")  Available
+- ![Available presence status.](media/oceh-available-icon.png "Available presence status")  Available
   
-  - ![Inactive presence status.](media/oceh-appear-away-icon.png "Appear away presence status")  Inactive
+- ![Inactive presence status.](media/oceh-appear-away-icon.png "Appear away presence status")  Inactive
   
-
- 
 ## Update your presence status
 
 You can update the presence status in the following two ways:
@@ -71,9 +69,13 @@ Your presence status pertains to the following three conditions:
 
 - Omnichannel for Customer Service determines your presence based on your used or released capacity. The presence changes from **Available** to **Busy**, **Busy** to **Do not disturb**, **Do not disturb** to **Busy**, or **Busy** to **Available**.
 
-- If your presence is **Away** or **Offline**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it. 
+- If your presence is **Away** or **Offline**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it.
 
-- If you change your presence to **Do not disturb**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it. 
+- If you change your presence to **Do not disturb**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it.
+
+- If you are inactive or signed out due to any reason, the system will clear your presence status and recalculate a fresh status when you resume your work or sign in again.
+
+More information: [FAQ on agent presence](faqs.md#faq-on-agent-presence)
 
 ## Presence status scenarios
 

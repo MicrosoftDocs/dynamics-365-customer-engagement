@@ -105,6 +105,36 @@ For information about managing work items from your dashboard, see [View agent d
 
 Conversations and sessions are stored as activity types within the model-driven apps. For more information, see [View conversation and session activity types in the Model-driven apps](oc-view-activity-types.md).
 
+## FAQ on agent presence
+
+This section helps answer some of the questions on how presence works.
+
+### When is the manual override of presence cleared?
+
+The system clears your manual override when you become inactive on the application.
+
+### When am I considered as inactive?
+
+The system waits for 2.5 minutes after which you'll be considered as inactive and will be marked as offline in the following scenarios:
+
+- Close the browser
+- Close or sign out of the device
+- Disruption to your Internet
+- Minimize the browser
+- Leave the browser open without any activity
+
+### If the inactivity is less than 2.5 minutes, what does the system do?
+
+If the inactivity is less than 2.5 minutes, the system will retain the manually overridden presence.
+
+### After inactivity, what happens if the agent resumes?
+
+After inactivity, the system clears the earlier presence and calculates your presence afresh. Therefore, we recommend that you refresh the browser.
+
+### What factors are considered in presence refresh?
+
+If the default presence set by the administrator is "Away" or "Offline", then the system will set the agent presence to the default setting. Otherwise, the system will calculate the presence based on the active sessions for the agent.
+
 ## Administrator experience
 
 ### How does Automated Record Identification work with pre-chat fields?
