@@ -1,18 +1,20 @@
 ---
-title: "Set up booking statuses (Dynamics 365 Field Service) | MicrosoftDocs"
+title: Set up booking statuses
 description: Learn how to set up booking statuses in Dynamics 365 Field Service.
-ms.date: 08/11/2022
-
+ms.date: 02/22/2023
 ms.topic: article
-author: ryanchen8
-ms.author: chenryan
+author: clearab
+ms.author: anclear
 search.app: 
   - D365CE
   - D365FS
 ---
-# Set up booking statuses in Dynamics 365 Field Service
 
-Booking statuses allow you to create multiple substatuses mapped to each of your booking statuses in order to more precisely define your company's unique business processes.  
+# Set up booking statuses
+
+Booking statuses allow you to create multiple substatuses mapped to each of your booking statuses in order to more precisely define your company's unique business processes.
+
+:::image type="content" source="media/booking-status.png" alt-text="Screenshot of the list of booking statuses.":::
   
 1. From the main menu, go to **Resources** > **Booking Settings**, and then choose **Booking Statuses**.  
   

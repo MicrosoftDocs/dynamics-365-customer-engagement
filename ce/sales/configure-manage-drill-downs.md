@@ -1,7 +1,7 @@
 ---
 title: "Configure and manage drill-down entities for a forecast"
-description: "Configure and manage drill-down entities for a forecast in Dynamics 365 Sales."
-ms.date: 10/26/2021
+description: "Configure drill-down entities to help sellers understand what values are constituting their forecast projections."
+ms.date: 03/14/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,7 +16,7 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
-# Configure and manage drill-down entities 
+# Configure and manage drill-down entities
 
 Configure drill-down entities to help sellers understand what values are constituting their forecast projections.
 
@@ -54,7 +54,7 @@ Before you configure a drill-down choice, we recommend you understand the follow
 
 With the forecasting feature, we have provided [out-of-the-box drill-down templates](#templates) to configure the rollup and hierarchy entities.
 
-To understand how to manage the drill-down feature, see [Manage drill-down options](#manage-drill-down-options).
+More information: [Add a drill-down entity](#add-a-drill-down-entity)
 
 ### Drill-down type
 
@@ -98,16 +98,13 @@ The following out-of-the-box templates are provided for you to configure drill-d
 | Opportunity |	User | Account, Product, and Parent Product |
 | Opportunity | Territory | User, Account, Product, and Parent Product |
 | Opportunity |	Account | User, Product, and Parent Product |
-| Opportunity | Product | Product, Account, and Owner |
+| Opportunity Product | Product | Account and User |
 
 Using these templates, you can break down your forecast values by accounts, products, parent products, users, owners, and territory.
 
-### Manage drill-down options 
-
--	You can [add](#add-a-drill-down-entity) or [edit](#edit-a-drill-down-entity) drill-down choices and make them available for users even after the forecast has been activated. 
--	You can [delete](#delete-a-drill-down-entity) the drill-down choice if it is no longer required in a forecast. 
-
 ## Add a drill-down entity
+
+Add a drill-down entity to group and drill-down forecast projections by an entity. You can edit or delete them later as per your requirements.
 
 1.	In the **Drill down** step, select **Add drill down**.
 
@@ -176,30 +173,6 @@ Using these templates, you can break down your forecast values by accounts, prod
 
 <a name="step-5"> </a> 
 5.	Save and select **Next**.
-
-## Edit a drill-down entity
-
-You can edit your drill-down entities for your forecast at any point in time. Follow these steps:
-
-1.	Open the forecast for which you want to edit the drill-down entity.
-
-2.	On the configuration wizard, select the **Drill down** step. 
-
-3.	Select the drill-down option you want to edit and perform steps 2 to 4 from [Add a drill-down entity](#add-a-drill-down-entity) as required.
-
-4.	Save and close the configuration.
-
-## Delete a drill-down entity
-
-You can delete a drill-down entity that is no longer required in a forecast. Follow these steps: 
-
-1.	Open the forecast for which you want to edit the drill-down entity.
-
-2.	On the configuration wizard, select the **Drill down** step. 
-
-3.	Select the drill-down option you want to remove and then select the **Delete** icon. The drill-down option is then deleted from the forecast.
-
-4.	Save and close the configuration.
 
 ## Reference
 
