@@ -114,16 +114,6 @@ This section helps answer some of the questions on how presence works.
 
 The system clears your manual override when you become inactive or sign out from the application.
 
-### When is the agent considered as inactive?
-
-The system waits for 2.5 minutes after which the agent will be considered as inactive and will be marked as offline when the agent does any of the following actions:
-
-- Closes the browser
-- Closes or signs out of the device
-- Disruption to your Internet
-- Minimizes the browser
-- Leaves the browser open without any activity
-
 ### If the agent is inactive for less than 2.5 minutes, what does the system do?
 
 If the agent is inactive for less than 2.5 minutes, the system will retain the manually overridden presence.

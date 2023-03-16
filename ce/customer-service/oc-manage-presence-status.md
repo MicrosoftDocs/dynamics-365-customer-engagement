@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 Presence is an indication of your availability or status in the application.
 
-:::image type="content" source="media/oceh-presence-icon.PNG" alt-text="Agent presence status.":::
+:::image type="content" source="media/oceh-presence-icon.png" alt-text="Agent presence status.":::
 
 ## Prerequisites
 
@@ -51,8 +51,7 @@ You can update the presence status in the following two ways:
   
    You might also see other presence statuses that your administrator configured for you.
 
-  > [!div class=mx-imgBorder]
-  > ![Set your presence status.](media/oceh-presence.png "Set your presence status")
+  :::image type="content" source="media/oceh-presence.png" alt-text="Set your presence status.":::
 
 - **Automatically**: When a conversation (work item) is assigned to you, Omnichannel for Customer Service sets your presence status based on your capacity as follows:
 
@@ -74,6 +73,16 @@ Your presence status pertains to the following conditions:
 - If you change your presence to **Do not disturb**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it.
 
 - If you are inactive or signed out due to any reason, the system will clear your presence status and recalculate a fresh status when you resume your work or sign in again.
+
+  > [!NOTE]
+  > The system waits for 2.5 minutes after which the agent is considered as inactive and will be marked as offline when the agent does any of the following actions:
+  >
+  > - Closes the browser
+  > - Signs out of Customer Service workspace
+  > - Closes or signs out of the device
+  > - Disruption to Internet
+  > - Minimizes the browser
+  > - Leaves the browser open without any activity
 
 More information: [FAQ on agent presence](faqs.md#faq-on-agent-presence)
 
