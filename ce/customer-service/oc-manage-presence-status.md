@@ -65,7 +65,7 @@ You can update the presence status in the following two ways:
 
 ## Presence status conditions
 
-Your presence status pertains to the following three conditions:
+Your presence status pertains to the following conditions:
 
 - Omnichannel for Customer Service determines your presence based on your used or released capacity. The presence changes from **Available** to **Busy**, **Busy** to **Do not disturb**, **Do not disturb** to **Busy**, or **Busy** to **Available**.
 
