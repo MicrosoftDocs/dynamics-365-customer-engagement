@@ -18,7 +18,7 @@ items:
 - name: What's new
   items:
     - name: New and upcoming features
-      href: new-upcoming.md
+      href: https://experience.dynamics.com/releaseplans/?app=Field+Service
     - name: Version history (web + mobile)
       items:
         - name: Field Service
@@ -471,8 +471,8 @@ items:
       href: https://www.youtube.com/channel/UC7Rd031NCJZekAkNU2bb8Kg/
     - name: Learning paths
       href: /training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path
-
-
+    - name: Submit a feature request
+      href: https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service
     - name: Get help
       href: field-service-get-help.md
 
