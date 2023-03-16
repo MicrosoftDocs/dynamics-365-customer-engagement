@@ -27,7 +27,7 @@ The voice channel is compliant with Payment Card Industry Data Security Standard
 
 ### Where does Azure Communication Services provide native PSTN services?
 
-To register as a calling provider is a legally complex and country-specific process. Azure Communication Services has a multiyear road map to provide calling plans in different countries and regions. To see all the countries where PSTN services are available, please check the [country availability](https://aka.ms/CountryAvailability) page.
+To register as a calling provider is a legally complex and country-specific process. Azure Communication Services has a multiyear road map to provide calling plans in different countries and regions. To see all the countries where PSTN services are available, check the [country availability](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) page.
 
 An alternative to Microsoft calling plans is Azure direct routing that allows you to bring your own phone numbers. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
 
