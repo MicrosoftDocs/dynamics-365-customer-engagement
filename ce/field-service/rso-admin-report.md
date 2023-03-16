@@ -14,13 +14,13 @@ search.app:
   - D365FS
 ---
 
-# Resource scheduling optimization admin report
+# Resource Scheduling Optimization admin report
 
-The admin report in the Resource Scheduling Optimization add-in analyzes when and how resource scheduling optimization runs, but not the actual booking results.
+The admin report in the Resource Scheduling Optimization add-in analyzes when and how Resource Scheduling Optimization runs, but not the actual booking results.
 
 ## Before you start
 
-To run the report, the resource scheduling optimization administrator needs to publish at least one [optimization schedule](rso-optimization-schedule.md).  
+To run the report, the Resource Scheduling Optimization administrator needs to publish at least one [optimization schedule](rso-optimization-schedule.md).  
 
 ## Filters and slicers
 
@@ -32,7 +32,7 @@ To run the report, the resource scheduling optimization administrator needs to p
 To access the admin report, open the **Resource Scheduling Optimization** app and go to **Analytics** > **Reports**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the resource scheduling optimization admin report.](./media/scheduling-analytics-rso-admin.png)
+> ![Screenshot of the Resource Scheduling Optimization admin report.](./media/scheduling-analytics-rso-admin.png)
 
 ### Optimization Scope
 
