@@ -39,7 +39,7 @@ items:
     - name: Uninstall Field Service
       href: uninstall-field-service.md
     - name: Preview new features
-      href: field-service-preview.md
+      href: /dynamics365/get-started/release-schedule
 
 - name: Administration
   items:
