@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Manage bookmarks for reports
 
-A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark. Personalize your reports and save the time and effort required to reapply the filters every time you view a report.
+A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark. Personalize your reports and save the time and effort required to reapply the filters every time you want to view specific data.
 
 A bookmark that you create for a [report group](report-filters-groups.md) saves a personalized view using that group's filters. For example, if you create a bookmark in the Omnichannel historical report's **Conversation** tab, the bookmark applies to the **Conversation**, **Queue**, and **Agent** tabs, and doesn't include filters for the other tabs.
 
@@ -19,9 +19,7 @@ You can use bookmarks in all the out-of-the-box reports such as Customer Service
 
 ## Prerequisites
 
-Grant **Create**, **Read**, **Write**, and **Delete** privileges to the security roles as applicable, for the **Report Bookmark** custom entity.
-
-[Learn more about configuring user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
+Grant **Create**, **Read**, **Write**, and **Delete** privileges to the security roles as applicable, for the **Report Bookmark** custom entity. More information: [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 ## Create bookmarks
 
@@ -42,7 +40,7 @@ Grant **Create**, **Read**, **Write**, and **Delete** privileges to the security
 
     :::image type="content" source="media/manage-bookmarks.png" alt-text="Create a report bookmark to save personalized filters.":::
 
-1. Repeat the steps to create as many bookmarks as you require.
+Repeat the steps to create as many bookmarks as you require.
 
 
 ## Manage bookmarks
