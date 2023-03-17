@@ -3,8 +3,8 @@ title: "Upgrade a Unified Service Desk solution | MicrosoftDocs"
 description: "Learn how to upgrade Unified Service Desk sample application package to the latest version using the upgrade procedure."
 ms.date: 06/21/2022
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

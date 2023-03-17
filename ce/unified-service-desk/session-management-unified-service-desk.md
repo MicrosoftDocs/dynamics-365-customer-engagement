@@ -3,8 +3,8 @@ title: "Session management in Unified Service Desk | MicrosoftDocs"
 description: "Learn about session management, and how session and context data is stored in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

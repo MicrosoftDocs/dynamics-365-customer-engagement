@@ -3,8 +3,8 @@ title: "Manage application tab templates using app profile manager | MicrosoftDo
 description: "Learn how to manage application tab templates in Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 04/05/2021
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 searchScope: 
  - D365-App-msdyn_channelintegrationframeworkapp 

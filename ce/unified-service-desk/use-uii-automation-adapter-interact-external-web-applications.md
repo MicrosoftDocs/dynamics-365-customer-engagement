@@ -3,8 +3,8 @@ title: "Use UII automation adapter to interact with external applications | Micr
 description: "Learn how to use UII automation adapter to interact with external and web applications in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer
