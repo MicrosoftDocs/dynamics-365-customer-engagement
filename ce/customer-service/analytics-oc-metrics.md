@@ -23,63 +23,35 @@ ms.custom: bap-template #Required; don't change.
 ## Conversation
 Conversation metrics are described here:
 
-[Abandoned conversations](#abandoned-conversations)
-
-[Active conversations](#active-conversations)
-
-[Avg. handle time](#avg-handle-time)
-
-[Avg. conversation hold time](#avg-conversation-hold-time)
-
-[Avg. conversation talk time](#avg-conversation-talk-time)
-
-[Avg. conversation wait time](#avg-conversation-wait-time)
-
-[Avg. conversation wrap up time](#avg-conversation-wrap-up-time)
-
-[Closed conversations](#closed-conversations)
-
-[Conversation handle time](#conversation-handle-time)
-
-[Conversation id](#conversation-id)
-
-[Conversation abandoned rate](#conversation-abandoned-rate)
-
-[Conversation speed to answer](#conversation-speed-to-answer)
-
-[Conversation talk time](#conversation-talk-time)
-
-[Conversation wrap up time](#avg-conversation-wrap-up-time)
-
-[Conversation wrap up time (in seconds)](#conversation-wrap-up-time-in-seconds)
-
-[Conversation sentiment](#conversation-wrap-up-time-in-seconds)
-
-[Conversation has transfer](#conversation-has-transfer)
-
-[Incoming conversations](#incoming-conversations)
-
-[Is abandoned?](#is-abandoned)
-
-[Is engaged?](#is-engaged)
-
-[Is conversation ongoing](#is-conversation-ongoing)
-
-[Current longest wait time](#current-longest-wait-time)
-
-[Ongoing conversations](#ongoing-conversations)
-
-[Open conversations](#open-conversations)
-
-[Service level](#service-level)
-
-[Conversation title](#conversation-talk-time)
-
-[Total conversations](#total-conversations)
-
-[Conversation transfer count](#conversation-transfer-count)
-
-[Conversation wrap up initiated on](#conversation-wrap-up-initiated-on)
+- [Abandoned conversations](#abandoned-conversations)
+- [Active conversations](#active-conversations)
+- [Avg. handle time](#avg-handle-time)
+- [Avg. conversation hold time](#avg-conversation-hold-time)
+- [Avg. conversation talk time](#avg-conversation-talk-time)
+- [Avg. conversation wait time](#avg-conversation-wait-time)
+- [Avg. conversation wrap up time](#avg-conversation-wrap-up-time)
+- [Closed conversations](#closed-conversations)
+- [Conversation handle time](#conversation-handle-time)
+- [Conversation id](#conversation-id)
+- [Conversation abandoned rate](#conversation-abandoned-rate)
+- [Conversation speed to answer](#conversation-speed-to-answer)
+- [Conversation talk time](#conversation-talk-time)
+- [Conversation wrap up time](#avg-conversation-wrap-up-time)
+- [Conversation wrap up time (in seconds)](#conversation-wrap-up-time-in-seconds)
+- [Conversation sentiment](#conversation-wrap-up-time-in-seconds)
+- [Conversation has transfer](#conversation-has-transfer)
+- [Incoming conversations](#incoming-conversations)
+- [Is abandoned?](#is-abandoned)
+- [Is engaged?](#is-engaged)
+- [Is conversation ongoing](#is-conversation-ongoing)
+- [Current longest wait time](#current-longest-wait-time)
+- [Ongoing conversations](#ongoing-conversations)
+- [Open conversations](#open-conversations)
+- [Service level](#service-level)
+- [Conversation title](#conversation-talk-time)
+- [Total conversations](#total-conversations)
+- [Conversation transfer count](#conversation-transfer-count)
+- [Conversation wrap up initiated on](#conversation-wrap-up-initiated-on)
 
 ### Abandoned conversations
 
