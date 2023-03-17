@@ -86,7 +86,7 @@ To change the report mode, click on the **Daily** or **Intraday** toggle button 
 
 The **Case volumes**, **Conversation volumes** and **Agents for conversations** tabs of the forecast report display visual and numeric metrics for the filters you select. The difference between the tabs is based on the input data source. Case data is based on the case entity, whereas conversation data is based on the omnichannel conversations, such as live chat, digital messages, the voice channel, and so forth.
 
-Report data is refreshed on a monthly basis. Your administrator can configure which day of the month the report will be refreshed. More information: [Configure case volume forecasting (preview)](configure-volume-forecasting.md#enable-the-case-forecasting-reports-in-customer-service) and [Configure agents for conversations forecasting (preview)](configure-agent-forecasting-conversation.md#enable-the-agent-forecasting-for-conversation-reports).
+Report data is refreshed on a monthly basis. Your administrator can configure which day of the month the report will be refreshed. More information: [Configure case volume forecasting (preview)](configure-volume-forecasting.md#enable-the-case-forecasting-preview-report) and [Configure agents for conversations forecasting (preview)](configure-agent-forecasting-conversation.md#enable-the-agent-forecasting-for-conversation-preview-reports).
 
 You can filter the data on each of the tabs by using any of the following options:
 
