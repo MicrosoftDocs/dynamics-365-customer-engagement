@@ -17,7 +17,16 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Configure case volume forecasting
+# Configure case volume forecasting (preview)
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 ## Introduction
 
@@ -61,19 +70,19 @@ The historical data must meet the following minimum requirements for the models 
 
 ## Prerequisites
 
-To configure the **Case forecasting** report, you must have the System Administrator role.
+To configure the **Case forecasting (preview)** report, you must have the System Administrator role.
 
-For users in your organization to be able to access the forecast reports, they must be part of a role that has **Read** privileges on the **Forecast** table. Your system administrator must assign this privilege to any role that needs access to the forecasting reports. Out of the box, the following roles already have read privileges on the Forecast table:
+For users in your organization to be able to access the forecast reports, they must be part of a role that has **Read** privileges on the **Forecast (preview)** table. Your system administrator must assign this privilege to any role that needs access to the forecasting reports. Out of the box, the following roles already have read privileges on the Forecast table:
 
 - CSR Manager
 - Omnichannel administrator
 - Omnichannel supervisor
 
-## Enable the case forecasting reports in Customer Service
+## Enable the case forecasting (preview) report
 
 1. In the Customer Service admin center app, under **Operations**, select **Insights**. The Insights page is displayed.
 
-1. Under the **Report settings** section, next to **Case forecasting**, select **Manage**. The **Case forecasting** page is displayed.
+1. Under the **Report settings** section, next to **Case forecasting (preview)**, select **Manage**. The **Case forecasting (preview)** page is displayed.
 
 1. Toggle **Enable case forecasting** to **On**.
 
@@ -97,6 +106,7 @@ For users in your organization to be able to access the forecast reports, they m
 
 ### See also
 
-[Forecast agent, case, and conversation volumes](use-volume-forecasting.md)<br>
+[Forecast case and conversation volumes, and agents for conversations (preview)](use-volume-forecasting.md)<br>
+[Configure agents for conversations forecasting (preview)](configure-agent-forecasting-conversation.md)<br>
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)<br>
 [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)

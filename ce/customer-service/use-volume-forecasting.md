@@ -17,7 +17,16 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Forecast case and conversation volumes, and agents for conversations
+# Forecast case and conversation volumes, and agents for conversations (preview)
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 ## Introduction
 
@@ -50,16 +59,16 @@ For details of how the forecast models work for this feature, see [How agent for
 
 ## Prerequisites
 
-Before you can use the Forecast report, ensure that your administrator has assigned you to a role that has **Read** privileges on the **Forecast** table. More information: [Configure case volume forecasting](configure-volume-forecasting.md#prerequisites) and [Configure agents for conversations forecasting](configure-agent-forecasting-conversation.md#prerequisites).
+Before you can use the forecast reports, ensure that your administrator has assigned you to a role that has **Read** privileges on the **Forecast (preview)** table. More information: [Configure case volume forecasting (preview)](configure-volume-forecasting.md#prerequisites) and [Configure agents for conversations forecasting (preview)](configure-agent-forecasting-conversation.md#prerequisites).
 
-## View the Forecast report in Customer Service
+## View the Forecast reports in Customer Service
 
 ### Navigation
 
-You can view the forecast reports in the Customer Service workspace or Omnichannel for Customer Service apps. You can navigate to the **Forecast** dashboard as follows:
+You can view the forecast reports in the Customer Service workspace or Omnichannel for Customer Service apps. You can navigate to the **Forecast (preview)** dashboard as follows:
 
-- In the default view, select the plus (**+**) icon, and then select **Forecast**.
-- If the enhanced multi session workspace view is enabled, click on the hamburger menu icon to open the site map, and then select **Forecast**.
+- In the default view, select the plus (**+**) icon, and then select **Forecast (preview)**.
+- If the enhanced multi session workspace view is enabled, click on the hamburger menu icon to open the site map, and then select **Forecast (preview)**.
 
    :::image type="content" source="media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
 
@@ -68,6 +77,7 @@ You can view the forecast reports in the Customer Service workspace or Omnichann
 The forecast reports support two modes:
 
 - **Daily** - This mode displays the actual and predicted case and conversation volumes and agent demand per day, for a time range of up to six months depending on how many days of cases or conversations were created in the past. This forecast can be used to plan agent resourcing and recruitment, to meet future demand.
+
 - **Intraday** - This mode displays the actual and predicted case and conversation volumes and agent demand in intervals of fifteen minutes, for a time range of up to six weeks depending on how many days of cases or conversations were created in the past. This forecast can be used to schedule agents to meet the near-term demand.
 
 To change the report mode, click on the **Daily** or **Intraday** toggle button on the report, depending on which mode you want to view the report in.
@@ -76,7 +86,7 @@ To change the report mode, click on the **Daily** or **Intraday** toggle button 
 
 The **Case volumes**, **Conversation volumes** and **Agents for conversations** tabs of the forecast report display visual and numeric metrics for the filters you select. The difference between the tabs is based on the input data source. Case data is based on the case entity, whereas conversation data is based on the omnichannel conversations, such as live chat, digital messages, the voice channel, and so forth.
 
-Report data is refreshed on a monthly basis. Your administrator can configure which day of the month the report will be refreshed. More information: [Configure case volume forecasting](configure-volume-forecasting.md#enable-the-case-forecasting-reports-in-customer-service) and [Configure agents for conversations forecasting](configure-agent-forecasting-conversation.md#enable-the-agent-forecasting-for-conversation-reports).
+Report data is refreshed on a monthly basis. Your administrator can configure which day of the month the report will be refreshed. More information: [Configure case volume forecasting (preview)](configure-volume-forecasting.md#enable-the-case-forecasting-reports-in-customer-service) and [Configure agents for conversations forecasting (preview)](configure-agent-forecasting-conversation.md#enable-the-agent-forecasting-for-conversation-reports).
 
 You can filter the data on each of the tabs by using any of the following options:
 
@@ -139,8 +149,8 @@ You can export the report data by selecting **Export** on the command bar.
 
 ### See also
 
-[Configure case forecasting](configure-volume-forecasting.md)<br>
-[Configure agent forecasting for conversation](configure-agent-forecasting-conversation.md)<br>
+[Configure case forecasting (preview)](configure-volume-forecasting.md)<br>
+[Configure agent forecasting for conversation (preview)](configure-agent-forecasting-conversation.md)<br>
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)<br>
 [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)<br>
 [Manage report bookmarks](manage-bookmarks.md)  

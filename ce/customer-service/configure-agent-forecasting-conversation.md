@@ -17,7 +17,16 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Configure agents for conversations forecasting
+# Configure agents for conversations forecasting (preview)
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 ## Introduction
 
@@ -64,7 +73,7 @@ The historical data must meet the following minimum requirements for the models 
 
 ## Prerequisites
 
-To configure the **Agent forecasting for conversation** report, you must have the system administrator role.
+To configure the **Agent forecasting for conversation (preview)** report, you must have the system administrator role.
 
 For users in your organization to be able to access the forecast reports, they must be part of a role that has **Read** privileges on the **Forecast (preview)** table. Your system administrator must assign this privilege to any role that needs access to the forecasting reports. Out of the box, the following roles already have read privileges on the Forecast table:
 
@@ -72,11 +81,11 @@ For users in your organization to be able to access the forecast reports, they m
 - Omnichannel administrator
 - Omnichannel supervisor
 
-## Enable the Agent forecasting for conversation reports
+## Enable the Agent forecasting for conversation (preview) reports
 
 1. In the Customer Service admin center app, under **Operations**, select **Insights**. The **Insights** page is displayed.
 
-1. Under the **Report settings** section, next to **Agent forecasting for conversation**, select **Manage**. The **Agent forecasting for conversation** page is displayed.
+1. Under the **Report settings** section, next to **Agent forecasting for conversation (preview)**, select **Manage**. The **Agent forecasting for conversation (preview)** page is displayed.
 
 1. Toggle **Enable agent capacity forecasting** to **On**.
 
@@ -115,7 +124,7 @@ For users in your organization to be able to access the forecast reports, they m
 
 ### See also
 
-[Forecast agent, case, and conversation volumes](use-volume-forecasting.md)<br>
-[Configure case forecasting](configure-volume-forecasting.md)<br>
+[Forecast case and conversation volumes, and agents for conversations (preview)](use-volume-forecasting.md)<br>
+[Configure case forecasting (preview)](configure-volume-forecasting.md)<br>
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)<br>
 [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)
