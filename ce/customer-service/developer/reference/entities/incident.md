@@ -3,8 +3,8 @@ title: "Incident Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the Incident entity."
 ms.date: 10/12/2020
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: "v-jmh"
+author: "gandhamm"
+ms.author: "mgandham"
 manager: "shujoshi"
 ms.reviewer: nenellim
 search.audienceType: 

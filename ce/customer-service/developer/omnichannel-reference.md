@@ -3,8 +3,8 @@ title: "Live chat SDK reference| MicrosoftDocs"
 description: "Get an overview of the JavaScript API reference for the live chat widget in Omnichannel for Customer Service."
 ms.date: 04/04/2021
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ---
 # Live chat SDK Reference
