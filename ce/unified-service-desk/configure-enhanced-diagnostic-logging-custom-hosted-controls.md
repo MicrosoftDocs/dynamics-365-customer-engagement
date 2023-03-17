@@ -3,8 +3,8 @@ title: "Configure enhanced diagnostic logging for custom hosted controls | Micro
 description: "Learn how to configure diagnostic logging to record operational events and errors in the client application, and troubleshoot performance issues."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

@@ -3,8 +3,8 @@ title: "UII computer telephony integration (CTI) framework overview | MicrosoftD
 description: "Learn about the UII computer telephony integration (CTI) framework and its components in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: overview
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

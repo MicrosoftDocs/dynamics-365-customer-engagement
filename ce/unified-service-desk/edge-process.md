@@ -3,8 +3,8 @@ title: "Use the Edge Process hosting method for hosting web applications  | Micr
 description: "Learn about the Edge Process hosting method and its advantages for hosting your controls in Unified Service Desk."
 ms.date: 12/19/2018
 ms.topic: "article"
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

@@ -3,8 +3,8 @@ title: "Create and manage UII hosted applications | MicrosoftDocs"
 description: "Learn how to configure a User Interface Integration (UII) hosted application to host your external, remote, or web application in Unified Service Desk."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer
