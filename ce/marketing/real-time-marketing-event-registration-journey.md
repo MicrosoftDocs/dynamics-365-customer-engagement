@@ -1,7 +1,7 @@
 ---
 title: "Boost event engagement with real-time journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to boost event engagement with real-time journeys in Dynamics 365 Marketing."
-ms.date: 12/21/2022
+ms.date: 03/17/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started
@@ -27,6 +27,18 @@ When you host in-person or online events, success depends on engaging your audie
 - **Inspire**: *During the event*. Check in attendees. Send schedule updates. Send updates to attendees. Share event stats.
 - **Thank**: *One to three days after the event*. Send thank you emails. Send surveys. Update social channels with event wrap-up.
 - **Engage**: *One to two weeks after the event*. Send a wrap-up email. Announce upcoming events. Nurture leads from the event. Qualify leads.
+
+    > [!div class="mx-imgBorder"]
+    > ![create a journey part 1](media/event-engagement-journey-1.png "create a journey part 1")
+
+    > [!div class="mx-imgBorder"]
+    > ![create a journey part 2](media/event-engagement-journey-2.png "create a journey part 2")
+
+    > [!div class="mx-imgBorder"]
+    > ![create a journey part 3](media/event-engagement-journey-3.png "create a journey part 3")
+
+    > [!div class="mx-imgBorder"]
+    > ![create a journey part 4](media/event-engagement-journey-4.png "create a journey part 4")
 
 This article explains how to use Dynamics 365 Marketing real-time journeys to facilitate the *remind*, *inspire*, and *thank you* steps of the event lifecycle. You’ll learn how to create a real-time journey that:
 
@@ -133,6 +145,9 @@ The final step of the journey is to send a response based on whether the recipie
 ## Event engagement journey wrap-up
 
 You’ve now built a journey that thanks event attendees for registering, sends timely event reminders, and sends tailored email responses depending on whether a journey participant checked into the event. What’s so powerful about this journey—and real-time marketing journeys generally—is that you can use the journey for any event you host! If you tried to achieve a similar outcome using a segment-based journey, you’d need to painstakingly create specialized segments and separate journeys for each event. Real-time journeys truly are the future of customer engagement.
+
+> [!div class="mx-imgBorder"]
+> ![journey wrap up](media/event-engagement-journey-wrap-up.png "journey wrap up")
 
 ## Bonus tip
 
