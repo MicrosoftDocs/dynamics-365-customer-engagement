@@ -19,8 +19,10 @@ This article describes the various other metrics in the data model that aren't d
 Need info
 
 ### Facts
+Need info
 
 ### Dimensions
+A database dimension is a collection of related attributes that can provide information about fact data in one or more cubes. These attributes can be organized into user-defined hierarchies for easy navigation and analysis. 
 
 ## Dimensions
 Here are the various dimensions that are provided out-of-the-box for Omnichannel historical and real-time reports.
@@ -46,7 +48,7 @@ Here are the various dimensions that are provided out-of-the-box for Omnichannel
 
 
 ### CapacityProfileName
-Name of capacity profile
+Name of capacity profile.
 
 ### Has blocking assignment turned on
 Indicates whether the capacity profile has the assignment blocking toggle set to on. If the profile's blocking settings are turned on, the value will be "TRUE". If the blocking settings are turned off, the value will be "FALSE".
@@ -64,10 +66,10 @@ Represents current state of a customer interaction. Here is the glossary of valu
 - Closed - Conversation is currently closed
 
 ### Queue id
-Reference id of the queue
+Reference id of the queue.
 
 ### Queue name
-Name of the queue
+Name of the queue.
 
 ### Agent presence	
 Presence status options available for agents to set themselves in. Out-of-box options are Online, Away, Busy, Offline, Do Not Disturb. Options avaiable to you will depend on your organization's configuration and will include any additional custom prescence status configured for your organization.
