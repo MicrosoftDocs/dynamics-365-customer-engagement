@@ -24994,6 +24994,11 @@
       "source_path": "ce/field-service/whats-new-field-service-project-service.md",
       "redirect_url": "/dynamics365/field-service/overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-preview.md",
+      "redirect_url": "/dynamics365/get-started/release-schedule",
+      "redirect_document_id": false
     }
   ]
 }
