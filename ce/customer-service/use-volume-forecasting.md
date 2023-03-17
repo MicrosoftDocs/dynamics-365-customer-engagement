@@ -131,8 +131,11 @@ You can drill down the hierarchy by clicking the drill down hierarchy button. Ea
 The Agents for conversations report allows you to select the rollup method, that will be used in the number grid. The selected method is used to rollup data at higher levels in the date and time hierarchy. The following rollup methods are available:
 
 - **Average** - This method averages the available data at a level in the date and time hierarchy to rollup to the next higher level in the hierarchy.
+
 - **Maximum** - This method picks the maximum from the available data at a level in the date and time hierarchy to rollup to the next higher level in the hierarchy. *This is the default rollup selected when you access the report for the first time*.
+
 - **Minimum** - This method picks the minimum from the available data at a level in the date and time hierarchy to rollup to the next higher level in the hierarchy.
+
 - **Sum** - This method sums the available data at a level in the date and time hierarchy to rollup to the next higher level in the hierarchy.
 
 > [!NOTE]
