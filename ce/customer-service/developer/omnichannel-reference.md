@@ -37,12 +37,12 @@ The following JavaScript methods can be used to do various operations with the l
 | [lcw:startChat](reference/events/lcw-startChat.md) | This event is triggered when a chat is started.  |
 | [lcw:closeChat](reference/events/lcw-closeChat.md) | This event is triggered when a chat is closed. |
 | [lcw:chatQueued](reference/events/lcw-chatQueued.md) | This event is raised when the chat conversation is created and started.  |
-| [lcw:chatRetrieved](reference/events/lcw-chatRetrieved.md) | This event is raised when an ongoing chat conversation is retrieved from cache after a page is reloaded or opened on another tab. |
+| [lcw:chatRetrieved](reference/events/lcw-chatRetrieved.md) | This event is raised when the system retrieves an ongoing chat conversation from cache after a page is reloaded or opened on another tab. |
 | [lcw:onClose](reference/events/lcw-onClose.md) | This event is triggered when the customer engaged on the chat widget closes the widget.|
 | [lcw:onMinimize](reference/events/lcw-onMinimize.md) | This event is triggered when the customer engaged on the chat widget minimizes the widget.  |
 | [lcw:onMaximize](reference/events/lcw-onMaximize.md) | This event is triggered when the customer engaged on the chat widget maximizes the widget. |
 | [lcw:onMessageReceived](reference/events/lcw-onMessageReceived.md) | This event is triggered when the chat widget gets a new message. |
-| [lcw:onMessageSent](reference/events/lcw-onMessageSent.md) | This event is triggered when a new message is sent by the customer engaged on the chat widget.  |
+| [lcw:onMessageSent](reference/events/lcw-onMessageSent.md) | This event is triggered when a customer engaged on the chat widget sends a new message.  |
 | [lcw:threadUpdate](reference/events/lcw-threadUpdate.md) | This event is raised by live chat when an agent ends a conversation. |
 | [lcw:getAgentAvailability](reference/events/lcw-getAgentAvailability.md) | This event is raised when the [`getAgentAvailability`](reference/methods/getAgentAvailability.md) method returns a successful response. |
 
