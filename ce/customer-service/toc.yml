@@ -990,10 +990,8 @@
           href: oc-historical-analytics-reports.md
         - name: Configure Knowledge analytics
           href: enable-knowledge-search-insights.md
-        - name: Configure Power BI template reports
-          items:
-          - name: Configure Customer Service analytics dashboards in Power BI
-            href: configure-customer-service-analytics-dashboard.md
+        - name: Configure Customer Service analytics dashboards in Power BI
+          href: configure-customer-service-analytics-dashboard.md
         - name: Configure Omnichannel Insights dashboards
           href: configure-historical-sentiment-dashboard-supervisor.md
       - name: Configure out-of-box real-time analytics
@@ -1010,12 +1008,10 @@
         items: 
         - name: Customize visual display
           href: customize-reports.md
-        - name: Customize data models
-          items:
-          - name: Customize data models for historical analytics reports
-            href: model-customize-reports.md
-          - name: Data models and report mappings for historical analytics reports
-            href: oob-data-models.md
+        - name: Customize data models for historical analytics reports
+          href: model-customize-reports.md
+        - name: Data models and report mappings for historical analytics reports
+          href: oob-data-models.md
         - name: Customize KPIs for intraday insights
           href: customize-kpis-intraday-insights.md
       - name: Configure forecasting
@@ -1036,52 +1032,50 @@
         href: enable-sentiment-analysis.md
     - name: Supervisor experience
       items: 
-      - name: Use out-of-box historical analytics
+      - name: Use out-of-box Customer Service historical analytics
         items: 
-        - name: Use Customer Service historical analytics
-          items:
-          - name: Customer Service historical analytics dashboards
-            href: customer-service-analytics-insights-csh.md
-          - name: Summary dashboard
-            href: summary-dashboard-cs.md
-          - name: Agent dashboard
-            href: agent-dashboard-cs.md
-          - name: Case Topics dashboard
-            href: case-topics-dashboard-cs.md
-          - name: Unified routing dashboard
-            href: cs-historical-analytics-unified-routing.md
-        - name: Use Omnichannel historical analytics
-          items: 
-          - name: Omnichannel for Customer Service dashboards
-            href: omnichannel-analytics-insights.md
-          - name: Omnichannel Summary dashboard
-            href: omnichannel-summary-dashboard.md
-          - name: Omnichannel Conversation dashboard
-            href: oc-conversation-dashboard.md
-          - name: Omnichannel Queue dashboard
-            href: oc-queue-dashboard.md
-          - name: Omnichannel Voice dashboard
-            href: voice-channel-reports-analytics.md   
-          - name: Omnichannel Agent dashboard
-            href: agent-dashboard.md
-          - name: Omnichannel Bot dashboard
-            href: oc-bot-dashboard.md  
-          - name: Omnichannel Conversation topic dashboard
-            href: oc-conversation-topics-dashboard.md
-          - name: Omnichannel Voicemail dashboard
-            href: oc-voicemail-dashboard.md          
-          - name: Unified routing dashboard
-            href: oc-historical-analytics-unified-routing.md
-        - name: Use Knowledge management analytics
-          href: knowledge-search-analytics-cs.md
-        - name: Use Customer Service Analytics dashboards in Power BI
-          href: customer-service-analytics.md
-        - name: Use Omnichannel Insights
-          items: 
-          - name: Introduction to Omnichannel Insights
-            href: intro-dynamics-365-omnichannel-insights-dashboard.md
-          - name: View and understand Omnichannel Insights dashboard
-            href: omnichannel-insights-dashboard.md  
+        - name: Customer Service historical analytics dashboards
+          href: customer-service-analytics-insights-csh.md
+        - name: Summary dashboard
+          href: summary-dashboard-cs.md
+        - name: Agent dashboard
+          href: agent-dashboard-cs.md
+        - name: Case Topics dashboard
+          href: case-topics-dashboard-cs.md
+        - name: Unified routing dashboard
+          href: cs-historical-analytics-unified-routing.md
+      - name: Use out-of-box Omnichannel historical analytics
+        items: 
+        - name: Omnichannel for Customer Service dashboards
+          href: omnichannel-analytics-insights.md
+        - name: Omnichannel Summary dashboard
+          href: omnichannel-summary-dashboard.md
+        - name: Omnichannel Conversation dashboard
+          href: oc-conversation-dashboard.md
+        - name: Omnichannel Queue dashboard
+          href: oc-queue-dashboard.md
+        - name: Omnichannel Voice dashboard
+          href: voice-channel-reports-analytics.md   
+        - name: Omnichannel Agent dashboard
+          href: agent-dashboard.md
+        - name: Omnichannel Bot dashboard
+          href: oc-bot-dashboard.md  
+        - name: Omnichannel Conversation topic dashboard
+          href: oc-conversation-topics-dashboard.md
+        - name: Omnichannel Voicemail dashboard
+          href: oc-voicemail-dashboard.md          
+        - name: Unified routing dashboard
+          href: oc-historical-analytics-unified-routing.md
+      - name: Use Knowledge management analytics
+        href: knowledge-search-analytics-cs.md
+      - name: Use Customer Service Analytics dashboards in Power BI
+        href: customer-service-analytics.md
+      - name: Use Omnichannel Insights
+        items: 
+        - name: Introduction to Omnichannel Insights
+          href: intro-dynamics-365-omnichannel-insights-dashboard.md
+        - name: View and understand Omnichannel Insights dashboard
+          href: omnichannel-insights-dashboard.md  
       - name: Use out-of-the-box real-time analytics
         items:
         - name: Use Omnichannel real-time analytics reports
