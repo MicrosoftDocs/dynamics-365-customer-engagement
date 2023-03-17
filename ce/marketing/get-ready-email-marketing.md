@@ -157,10 +157,11 @@ Though there can be a few advantages to arranging for a dedicated sender IP, the
 - **You concentrate risk on yourself and can pay a high price for any mistakes**  
     When you are the only one using your sending IP, any mistakes you make will affect your sender reputation directly, without being diluted by the large volume of compliant messages being sent by a large pool of other users.
 
-### See also
+### See also 
+[Public IP addresses used for sending e-mails](public-ip-addresses-for-email-sending.md)
 
-[Public IP addresses used for sending e-mails](public-ip-addresses-for-email-sending.md) 
-[Create a marketing email and go live](create-marketing-email.md)  
+[Create a marketing email and go live](create-marketing-email.md)
+
 [Email marketing overview](prepare-marketing-emails.md)
 
 
