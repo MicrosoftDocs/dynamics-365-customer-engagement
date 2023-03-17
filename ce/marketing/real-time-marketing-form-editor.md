@@ -19,13 +19,6 @@ search.app:
 
 # Create and manage forms in real-time marketing
 
-> [!NOTE]
-> **NEEDS REVIEW Known limitations**
->
-> - The real-time marketing form editor relies on a new consent model. It might take up to 48 hours for consent data migration to be completed after your organization is upgraded to the latest version. Otherwise, the consent contact point won’t be created after the form is submitted. [Learn more](whats-new-marketing-archive.md#december-2022-update).
-> - All phone number and email fields must be marked as required and phone number field validation must be enabled in the form editor.
-> - The commercial communication consent purpose isn't linked to the *Do not bulk email* attribute of the Contact.
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5dqbE]
 
 A marketing form is an inbound communication channel that allows your customers to register for newsletters, ask for quotations, etc. The form is defined by a set of input fields arranged into a form layout.
@@ -99,12 +92,19 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     > ![Add elements to the form .](media/real-time-marketing-form-elements.png)
 
     > [!NOTE]
-    > You can also use custom captcha services like reCAPTCHA in your form. Learn more
+    > **Integrate custom captcha**
+    >
+    > You can also use custom captcha bot protection services like reCAPTCHA in your form. [Learn more](real-time-marketing-form-custom-captcha.md)
 
 1. **Add consent control** from the **Elements** section to your form. Once you add the consent control to your form, you can select the correct consent purpose in the properties. Select the consent checkbox caption to change its text. Learn more about how to [manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md).
 
     > [!div class="mx-imgBorder"]
     > ![Add consent element to the form.](media/real-time-marketing-form-consent-element.png)
+
+    > [!NOTE]
+    > **Consent element limitations**
+    >
+    > The commercial communication consent purpose isn't linked to the *Do not bulk email* attribute of the Contact.
 
 1. Now it's time to **preview your form** and check the responsiveness. To open the form preview, select the **Preview and test** tab to open the form preview. You can select various platforms to check how the form will render on a mobile device or a tablet.
 
