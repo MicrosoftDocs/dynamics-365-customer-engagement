@@ -19,7 +19,7 @@ search.app:
 
 # Integrate custom captcha service with real-time marketing forms
 
-The real-time marketing forms allow you to use your own custom captcha bot protection to validate form submissions. This article describes an example how to integrate  Google reRECAPTCHA. The flow is also very similar for other captcha services.
+The real-time marketing forms allow you to use your own custom captcha bot protection to validate form submissions. This article describes an example how to integrate  Google reCAPTCHA. The flow is also very similar for other captcha services.
 
 The whole process consists of these steps:
 
