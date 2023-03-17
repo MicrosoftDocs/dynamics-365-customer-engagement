@@ -60,7 +60,7 @@ The whole process consists of these steps:
 
 ### 2. Add the captcha text value to the form submission
 
-Once the form is submitted, the `g-recaptcha-response` parameter will be added automatically to the form submission. In the next steps we will build a plugin that will hide this value and it will add it to the `ValidationOnlyFields` list in the response object returned by plugin code.
+Once the form is submitted, the `g-recaptcha-response` parameter will be added automatically to the form submission. In the next steps we will build a plugin that will hide this value as it will be added to the `ValidationOnlyFields` list in the response object returned by plugin code.
 
 > [!div class="mx-imgBorder"]
 > ![Add placeholder for reCAPTCHA.](media/real-time-marketing-form-custom-captcha-3.png)
@@ -102,7 +102,7 @@ Once the form is submitted, the `g-recaptcha-response` parameter will be added a
     }
     ```
 
-1. Add this code to the retrieve form submission parameter string. It will be a json encoded string representing the fields that the user submitted in the form. We retrieve this string and deserialize it using a Deserialize helper method and FormSubmissionRequest class that we will define later. We check that the Fields array contains a key for g-recaptcha-response. If the reCAPTCHA key is not found we return skipping validation as this mean the form we are processing did not contain a Google recaptcha element.
+1. Add this code to retrieve form submission parameter string. It will be a json encoded string representing the fields that the user submitted in the form. We retrieve this string and deserialize it using a Deserialize helper method and FormSubmissionRequest class that we will define later. We check that the Fields array contains a key for g-recaptcha-response. If the reCAPTCHA key is not found we return skipping validation as this mean the form we are processing did not contain a Google recaptcha element.
 
     ```cs
     var requestString = (string)context.InputParameters["msdynmkt_formsubmissionrequest"];
