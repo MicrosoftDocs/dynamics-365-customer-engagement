@@ -11,7 +11,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The following JavaScript methods can be used to perform various operations with the live chat widget of Omnichannel for Customer Service.
+The following JavaScript methods can be used to do various operations with the live chat widget of Omnichannel for Customer Service.
 
 ## Methods
 
@@ -37,7 +37,7 @@ The following JavaScript methods can be used to perform various operations with 
 | [lcw:startChat](reference/events/lcw-startChat.md) | This event is triggered when a chat is started.  |
 | [lcw:closeChat](reference/events/lcw-closeChat.md) | This event is triggered when a chat is closed. |
 | [lcw:chatQueued](reference/events/lcw-chatQueued.md) | This event is raised when the chat conversation is created and started.  |
-| [lcw:chatRetrieved](reference/events/lcw-chatRetrieved.md) | This event is raised when an ongoing chat conversation is retrieved from cache after a page is reloaded or is opened on another tab. |
+| [lcw:chatRetrieved](reference/events/lcw-chatRetrieved.md) | This event is raised when an ongoing chat conversation is retrieved from cache after a page is reloaded or opened on another tab. |
 | [lcw:onClose](reference/events/lcw-onClose.md) | This event is triggered when the customer engaged on the chat widget closes the widget.|
 | [lcw:onMinimize](reference/events/lcw-onMinimize.md) | This event is triggered when the customer engaged on the chat widget minimizes the widget.  |
 | [lcw:onMaximize](reference/events/lcw-onMaximize.md) | This event is triggered when the customer engaged on the chat widget maximizes the widget. |
