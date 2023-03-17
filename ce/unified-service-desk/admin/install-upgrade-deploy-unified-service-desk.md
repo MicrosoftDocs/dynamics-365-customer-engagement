@@ -3,8 +3,8 @@ title: "Install, deploy, and upgrade Unified Service Desk | MicrosoftDocs"
 description: "Learn how to install, deploy, and upgrade Unified Service Desk, and also how to configure and deploy your agent application."
 ms.date: 08/02/2022
 ms.topic: get-started-article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

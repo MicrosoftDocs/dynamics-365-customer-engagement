@@ -1,8 +1,8 @@
 ---
 title: Enable formatted messages
 description: Use this topic to understand how to enable your agents to send and receive formatted messages in Omnichannel for Customer Service.
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 ms.date: 01/17/2023
 ms.topic: how-to
 ms.custom: bap-template

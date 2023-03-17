@@ -3,8 +3,8 @@ title: "Hosted Application Toolkit (HAT) architecture in Unified Service Desk | 
 description: "The topic illustrates the components of Hosted Application Toolkit (HAT) and the application startup process."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

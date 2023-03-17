@@ -3,8 +3,8 @@ title: "Configure toolbars in your application | MicrosoftDocs"
 description: "Learn about creating new toolbars, configuring existing toolbars, and customizing toolbar styles in your application."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

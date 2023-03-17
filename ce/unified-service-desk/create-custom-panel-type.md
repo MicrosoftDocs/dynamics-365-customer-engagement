@@ -3,8 +3,8 @@ title: "Create a custom panel type | MicrosoftDocs"
 description: "Learn about the two interfaces&mdash;IPanel and IUSDPanel&mdash;required to create custom panel types in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

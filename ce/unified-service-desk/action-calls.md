@@ -3,8 +3,8 @@ title: "Action calls | MicrosoftDocs"
 description: "Learn about actions that represent calls to UII actions associated with hosted controls."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer
