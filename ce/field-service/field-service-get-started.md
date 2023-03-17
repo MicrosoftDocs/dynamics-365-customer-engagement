@@ -86,7 +86,7 @@ The **Booking** tab shows the work order you scheduled to the frontline worker. 
 
 For more information, see [Install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
 
-### Analyze your operations
+## Analyze your operations
 
 Back in the Field Service web application, service managers can [analyze day-to-day operations with Power BI reports](reports.md).
 
