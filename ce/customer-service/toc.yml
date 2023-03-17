@@ -1076,40 +1076,38 @@
           href: intro-dynamics-365-omnichannel-insights-dashboard.md
         - name: View and understand Omnichannel Insights dashboard
           href: omnichannel-insights-dashboard.md  
-      - name: Use out-of-the-box real-time analytics
+      - name: Use out-of-the-box Omnichannel real-time analytics
         items:
-        - name: Use Omnichannel real-time analytics reports
-          items: 
-          - name: Overview of Omnichannel real-time analytics reports
-            href: intro-realtime-analytics-dashboard.md
-          - name: Summary report
-            href: realtime-summary-dashboard.md
-          - name: Voice report
-            href: realtime-voice-dashboard.md
-          - name: Agents report
-            href: realtime-agents-analytics.md
-          - name: Ongoing Conversation report
-            href: realtime-ongoing.md
-        - name: Monitor conversations
-          items: 
+        - name: Overview of Omnichannel real-time analytics reports
+          href: intro-realtime-analytics-dashboard.md
+        - name: Summary report
+          href: realtime-summary-dashboard.md
+        - name: Voice report
+          href: realtime-voice-dashboard.md
+        - name: Agents report
+           href: realtime-agents-analytics.md
+        - name: Ongoing Conversation report
+          href: realtime-ongoing.md
+      - name: Monitor conversations
+        items: 
           - name: Monitor, assign, transfer, and forcibly end conversations
             href: monitor-conversations.md
           - name: Monitor and analyze sentiments
             href: supervisor-sentiment-monitoring.md
-        - name: Use Intraday analytics reports
-          items: 
-          - name: Introduction to intraday supervisor experience
-            href: intro-intraday-insights-dashboard.md
-          - name: Intraday Monitoring report
-            href: intraday-insights-dashboard.md
-          - name: Agents insights report
-            href: intraday-agents-insights.md
-          - name: Conversation insights report
-            href: intraday-conversation-insights.md
-          - name: Set idle time threshold
-            href: set-idle-time-threshold.md
-          - name: View and understand Omnichannel Ongoing Conversations dashboard
-            href: ongoing-conversations-dashboard.md
+      - name: Use Intraday analytics reports
+        items: 
+        - name: Introduction to intraday supervisor experience
+          href: intro-intraday-insights-dashboard.md
+        - name: Intraday Monitoring report
+          href: intraday-insights-dashboard.md
+        - name: Agents insights report
+          href: intraday-agents-insights.md
+        - name: Conversation insights report
+          href: intraday-conversation-insights.md
+        - name: Set idle time threshold
+          href: set-idle-time-threshold.md
+        - name: View and understand Omnichannel Ongoing Conversations dashboard
+          href: ongoing-conversations-dashboard.md
       - name: Metrics definitions
         items:
         - name: Overview
