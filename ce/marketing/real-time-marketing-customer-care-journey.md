@@ -1,7 +1,7 @@
 ---
 title: "Identify and resolve errors with real-time customer care journeys (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to identify and resolve errors with real-time customer care in Dynamics 365 Marketing."
-ms.date: 02/24/2023
+description: "Learn how to identify and resolve errors with real-time customer care journey in Dynamics 365 Marketing."
+ms.date: 03/17/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started
@@ -46,19 +46,19 @@ The first thing you need to do is to create a journey. This assists you in ident
 1. It’s a good idea to test your trigger before using it in a customer scenario. You can test the trigger within the Marketing app, which avoids the need to create any proxy website or Python script. To test the critical error trigger, go to **Triggers** and select the **IoT device malfunctioned** trigger. In the **Test send** section, select a **contact**, enter the **Error Code** and **Device ID** and run the test against it by selecting **Test send**. If the trigger functions as intended, you can move onto the next step to create your journey.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![test error code](media/real-time-marketing-test-error-code.png "test error code")
 
 2. Go to **Real-time marketing > Journeys** and select **+ New Journey** in the top toolbar.
 3. Give the journey a name, select **Trigger-based** as the journey type, and search for the **IoT device malfunctioned** trigger. 
 **Note**: This is a custom trigger, not an out-of-the-box trigger included with the Marketing app. The trigger starts the journey each time a new device error code is added to a Dataverse table. Learn more: [Create custom triggers in real-time marketing](real-time-marketing-custom-triggers.md).
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![choose trigger](media/real-time-marketing-choose-trigger.png "choose trigger")
 
 4. Next, select the **+ Add condition** as your **attribute** which will help in determining when a text message can be sent to a customer whose machine has a critical error. You can select a value range that determines when a text message notification should be sent out. 
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![add condition](media/real-time-marketing-add-condition.png "add condition")
 
 In this case, if the selected Error Code is larger than 10, an SMS message is delivered. Because the error code is more than the specified value, the customer has opened a case. The consumer wouldn't be able to begin the journey if the error code was less than the stated value.
 **Note**: We've added the condition of picking an error code before initiating a customer journey since it helps us better understand the journey inflow and obtain more insights into customer analytics by allowing just the critical number of cases opened by customers.
@@ -66,27 +66,27 @@ In this case, if the selected Error Code is larger than 10, an SMS message is de
 
 ## Step 2. Create a support ticket with error code and device id mapped attributes
 
-After the customer has started the journey, a case must be created. Real-time marketing enables users to create custom triggers that hold and transfer any sort of information that a customer journey may respond on. Users of real-time marketing have complete control over what custom triggers signify and what information they communicate. To create a case, wee create another tile to active a custom trigger:
+After the customer has started the journey, a case must be created. Real-time marketing enables users to create custom triggers that hold and transfer any sort of information that a customer journey may respond on. Users of real-time marketing have complete control over what custom triggers signify and what information they communicate. To create a case, we create another tile to active a custom trigger:
 
 1. Next, select the + sign below the IoT Device Malfunctioned trigger on the journey designer canvas to add another tile to the journey. Select the **Activate a custom trigger** tile. Now, you can select a custom trigger **PA Create Case (CX)** from the right pane under **Select a custom trigger**.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![select custom trigger](media/real-time-marketing-select-custom-trigger.png "select custom trigger")
 
 2. Now, in the **right pane** under **Map attributes**, you can see several sections where you can map the attributes with different values. Select the Device ID and Error Code and map the attributes as **Attribute>IoT Device Malfunctioned>Device ID** and **Attribute>IoT Device Malfunctioned>Error Code**. We're doing this because the custom trigger activated has to know where to receive the customer information that it carries when a customer reaches this step of the journey. 
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![map attributes](media/real-time-marketing-map-attributes.png "map attributes")
 
 3. When the power flow is triggered, this goes through a priority and assist you in evaluating if a journey **with critical errors** is triggered. Select **Priority**, and then **Value** to define that when a case is created, it has a critical value flag.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![set trigger fields](media/real-time-marketing-set-trigger-fields.png "set trigger fields")
 
 4. Next, select the + sign below the PA Create Case (CX) trigger on the journey designer canvas to add another tile to the journey. Select the **Send a text message** tile.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![send text message](media/real-time-marketing-send-text-message.png "send text message")
 
 In this situation, an SMS is sent to the customer informing them that an error has been identified and that a support ticket has been generated. Also, with this text message, the customer gets a link wherein they can easily track their support ticket status.
 
@@ -95,7 +95,7 @@ In this situation, an SMS is sent to the customer informing them that an error h
 You can go to the **Consent Center** and select your desired contact point to find out why the text message wasn't sent or bounced under the **Consent status**.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![consent status](media/real-time-marketing-consent-status.png "consent status")
 
 5. Now, in the bottom left pane, select **Outbound marketing**, and then in the left pane, select **Customers>Contacts**. You can view marketing interaction data here, which can be useful to your salespeople in determining how customers are reacting to the text message, email, or push notification that was delivered to them.
 
@@ -106,14 +106,14 @@ For the support ticket status changes, you need to create a **Dataverse trigger*
 1. Go to **Real-time marketing > Triggers** and select **+ New trigger**. In this instance, name your trigger as **Support Case Status Changed** and the action as **When a record related to a customer is created or updated**.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![select new trigger](media/real-time-marketing-select-new-trigger.png "select new trigger")
 
 2.	Next, select the table from Dataverse that contains the information related to a support case. Here, the "Case" table is selected.
 3.	Because a Dataverse table can have more than one audience attribute, the next step ("Which attribute contains the audience?") allows you to select the attribute that contains the intended audience.
 4.	In the final step, you can select the action that activates the Dataverse trigger. This includes selecting which columns need to be part of the update or change.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![ready to use journey](media/real-time-marketing-ready-to-use-journey.png "ready to use journey")
 
 5.	Once created, you can publish the trigger by selecting the **Ready to use** button. This enables the trigger to be used as part of a live journey.
 6.	Now, you can use this Dataverse trigger into a journey and for that, you create a new journey using this trigger ([Trigger a journey based on a Dataverse record change](/learn.microsoft.com/dynamics365/marketing/real-time-marketing-dataverse-trigger#using-a-dataverse-trigger-inside-a-journey)).
