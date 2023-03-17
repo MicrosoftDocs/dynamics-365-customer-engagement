@@ -1,5 +1,5 @@
 ---
-title: "Preview: Create and manage real-time marketing forms | Microsoft Docs"
+title: "Create and manage real-time marketing forms | Microsoft Docs"
 description: "Learn how to use create and manage forms in Dynamics 365 Marketing."
 ms.date: 03/10/2023
 ms.custom: 
@@ -17,15 +17,10 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Create and manage forms in real-time marketing
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
->
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+# Create and manage forms in real-time marketing
 
 > [!NOTE]
-> **Public preview known limitations**
+> **NEEDS REVIEW Known limitations**
 >
 > - The real-time marketing form editor relies on a new consent model. It might take up to 48 hours for consent data migration to be completed after your organization is upgraded to the latest version. Otherwise, the consent contact point won’t be created after the form is submitted. [Learn more](whats-new-marketing-archive.md#december-2022-update).
 > - All phone number and email fields must be marked as required and phone number field validation must be enabled in the form editor.
@@ -38,11 +33,6 @@ A marketing form is an inbound communication channel that allows your customers 
 Each marketing form is made from a collection of fields, buttons, graphical elements, and a few configuration settings. Each field included in your form is linked to an attribute of an entity in Dynamics 365 Marketing.
 
 The real-time marketing form editor allows you to easily and quickly create and publish forms.
-
-## Enable the real-time marketing forms preview
-
-1. Go to **Settings** > **Overview** > **Feature switches**.
-1. Enable/disable the **Real-time marketing forms (preview)** feature switch toggle.
 
 ## Create a new form
 
@@ -86,22 +76,30 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     - You can hide a field so it isn't visible to your web page visitor by enabling the **Hide field** toggle.
     - You can access the field properties again by selecting the field on the canvas.
 
-1. You can directly **change the field label** by selecting it on the canvas or in the right pane. The same applies for placeholder text. It's recommended to change the text on the canvas, as you can use the rich text editor there.
+1. You can **edit the field label** by selecting it on the canvas. You can use the rich text editor to edit the styling of any text on canvas. The placeholder text and default value can be changed in the right pane. By entering a text into the field on canvas, you change that field's default value.
 
     > [!div class="mx-imgBorder"]
     > ![Change the field label.](media/real-time-marketing-form-last-name-title.png)
 
-1. If would you like to build more complex forms, you can change the layout of your form to multi-column and create multiple layout sections. Select the **Elements** section on the right pane. Now you can drag and drop a column layout on form canvas to create a new section. You can add elements and fields to the newly created sections.
+1. If you would like to build more complex forms, you can change the layout of your form to multi-column and create multiple layout sections. Select the **Elements** section on the right pane. Now you can drag and drop a column layout on form canvas to create a new section. You can add elements and fields to the newly created sections.
 
     > [!div class="mx-imgBorder"]
     > ![Set layout and sections for your form.](media/real-time-marketing-form-layouts.png)
 
-1. **Add elements like a submit button, images, and static text** to your form. Select the **Elements** section in the right pane. Drag and drop static text or an image element on the form canvas.
+    > [!NOTE]
+    > You can access the existing section's styling setting by selecting the top left corner of the field or other element and selecting Section. That section properties will appear in the right pane.
+    > [!div class="mx-imgBorder"]
+    > ![Set styling for existing section.](media/real-time-marketing-form-select-section.png)
+
+1. **Add elements like a submit button, images, static text and captcha** to your form. Select the **Elements** section in the right pane. Drag and drop static text or an image element on the form canvas.
 
     Drag and drop a **Submit** button to your form canvas. The form editor won't allow you to publish a form without a submit button. Select the submit button to change the styling.
 
     > [!div class="mx-imgBorder"]
     > ![Add elements to the form .](media/real-time-marketing-form-elements.png)
+
+    > [!NOTE]
+    > You can also use custom captcha services like reCAPTCHA in your form. Learn more
 
 1. **Add consent control** from the **Elements** section to your form. Once you add the consent control to your form, you can select the correct consent purpose in the properties. Select the consent checkbox caption to change its text. Learn more about how to [manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md).
 
