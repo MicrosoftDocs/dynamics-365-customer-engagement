@@ -1,7 +1,7 @@
 ---
 title: Share information through knowledge articles (contains video)
 description: Learn about knowledge management and knowledge articles in Dynamics 365 Field Service.
-ms.date: 02/27/2023
+ms.date: 03/18/2023
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -26,9 +26,9 @@ Write a knowledge article to share information with technicians.
 
 For more information on knowledge articles, see:
 
-- [Create and manage knowledge articles](/customer-service/customer-service-hub-user-guide-knowledge-article)
-- [Create templates for knowledge articles](/customer-service/create-templates-knowledge-article)
-- [Set up a search provider](/customer-service/set-up-search-providers)
+- [Create and manage knowledge articles](../customer-service/customer-service-hub-user-guide-knowledge-article.md)
+- [Create templates for knowledge articles](../customer-service/create-templates-knowledge-article.md)
+- [Set up a search provider](../customer-service/set-up-search-providers.md)
 
 :::image type="content" source="media/knowledge-article-new.png" alt-text="Screenshot of a list of knowledge articles in Field Service with callouts on controls.":::
 
