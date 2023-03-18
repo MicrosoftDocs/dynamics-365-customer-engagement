@@ -59,7 +59,7 @@ For details of how the forecast models work for this feature, see [How agent for
 
 ## Prerequisites
 
-Before you can use the forecast reports, ensure that your administrator has assigned you to a role that has **Read** privileges on the **Forecast (preview)** table. More information: [Configure case volume forecasting (preview)](configure-volume-forecasting.md#prerequisites) and [Configure agents for conversations forecasting (preview)](configure-agent-forecasting-conversation.md#prerequisites).
+Before you can use the forecast reports, ensure that your administrator has assigned you to a role that has **Read** privileges on the **msdyn_dataanalyticsreport_forecast** table. More information: [Configure case volume forecasting (preview)](configure-volume-forecasting.md#prerequisites) and [Configure agents for conversations forecasting (preview)](configure-agent-forecasting-conversation.md#prerequisites).
 
 ## View the Forecast reports in Customer Service
 
