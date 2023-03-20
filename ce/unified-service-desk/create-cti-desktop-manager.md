@@ -3,8 +3,8 @@ title: "Create a CTI Desktop Manager | MicrosoftDocs"
 description: "Learn about the CTI Desktop Manager component and its objects. Also, understand how to raise search requests to access call data."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

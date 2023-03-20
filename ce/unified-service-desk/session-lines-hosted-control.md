@@ -3,8 +3,8 @@ title: "Session Lines (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn to create the Session Lines hosted control. Also find information about the predefined UII actions supported by it."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

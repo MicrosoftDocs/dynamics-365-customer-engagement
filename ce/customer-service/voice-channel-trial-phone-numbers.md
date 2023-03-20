@@ -4,8 +4,8 @@ description: Use this article to understand how you can use trial phone numbers 
 ms.date: 01/20/2023
 ms.custom: bap-template
 ms.topic: how-to
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 ---
 
 # Use trial phone numbers

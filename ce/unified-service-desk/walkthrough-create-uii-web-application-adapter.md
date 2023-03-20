@@ -3,8 +3,8 @@ title: "Walkthrough: Create a UII Web Application Adapter in Unified Service Des
 description: "Use this walkthrough to understand the prerequisites and procedures for hosting and interacting with web applications in Unified Service Desk."
 ms.date: 01/25/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

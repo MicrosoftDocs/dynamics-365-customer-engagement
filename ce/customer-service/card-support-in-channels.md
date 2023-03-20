@@ -3,8 +3,8 @@ title: Support for live chat and asynchronous channels
 description: Get information on the support for adaptive cards, suggested actions, emojis, stickers, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service.
 ms.date: 01/17/2023
 ms.topic: conceptual
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 ms.custom: bap-template
 ms.reviewer: nenellim
 ---

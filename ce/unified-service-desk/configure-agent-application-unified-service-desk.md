@@ -3,8 +3,8 @@ title: "Configure your agent application using Unified Service Desk | MicrosoftD
 description: "Learn how to use Unified Service Desk to quickly configure a highly customized agent application for your organization without using code. "
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

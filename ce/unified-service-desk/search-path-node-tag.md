@@ -3,8 +3,8 @@ title: "Search Path Node tag in Unified Service Desk | MicrosoftDocs"
 description: "Learn about Search Path node that describes the search path to identify the control in the Java accessibility tree."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer
