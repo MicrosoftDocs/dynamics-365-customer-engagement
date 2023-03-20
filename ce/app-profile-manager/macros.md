@@ -4,7 +4,7 @@ description: "This topic provides information about the different macros that ca
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/29/2022
+ms.date: 04/01/2023
 ms.topic: article
 ---
 
@@ -56,9 +56,7 @@ In Customer Service, macros provide three connectors:
 As an administrator, you can use the actions any number of times across different macros to automate and perform model-driven app operations.
 
 The following screenshot shows the actions that are explained in the subsequent sections.
-
-   > [!div class=mx-imgBorder] 
-   > ![Macro actions for productivity automation.](../customer-service/media/macro-actions.png "Macro actions for productivity automation")
+   :::image type="content" source="../customer-service/media/macro-actions.png" alt-text="Macro actions for productivity automation.":::
 
 #### Open a new form to create a record
 
@@ -71,7 +69,6 @@ This action is used to open a new form to create a record. The action contains t
    | Attribute Name | Specify the attribute logical name. You need to provide the attribute name to prepopulate the field with a value.| |
    | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. | |
   
-
 #### Open an existing record
 
 This action is used to open an existing record form. The action contains the following fields.
@@ -82,7 +79,6 @@ This action is used to open an existing record form. The action contains the fol
    | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
    | Entity form ID | Specify the form ID. <br>This is an optional field. | |
   
-
 #### Open a record grid
 
 This action is used to open a record grid. The action contains the following fields.
@@ -111,7 +107,6 @@ This action is used for searching knowledge articles based on the populated phra
    |-----------------|-----------------------------|--------------------------|
    | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br> This is a mandatory field.  |  |
  
-
 #### Update an existing record
 
 This action is used to update an existing record. The action contains the following fields.
@@ -123,6 +118,13 @@ This action is used to update an existing record. The action contains the follow
    | Attribute Name | Specify the attribute logical name you want to update.| |
    | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
 
+#### Set Agent Script focus
+
+This action is used to set the focus to an agent script that needs to run next. The agent script will be set in focus in the **Agent scripts** dropdown on the app side pane. For example, if the agent needs to process a refund complaint. The agent will use different scripts to greet, initiate a complaint request, and process the refund. You can define macros that will set the focus on the agent scripts that need to be run for each stage of the refund process. The action contains the following field.
+
+   | Field | Description | Parameter |
+   |-----------------|-----------------------------|--------------------------|
+   | Agent Script Unique Name   |  Specify the agent script that needs to be in focus.  |  The unique name of the agent script.  |
 
 #### Open an email form with predefined template
 
@@ -274,7 +276,6 @@ This action unlinks a record from the conversation when the customer is communic
    | Entity record id| Specify the entity record ID of the entity that you want to unlink. <br>This is a mandatory field.| |
    | Entity primary Name | Specify the primary name of the entity that you want to unlink. <br>This is a mandatory field.| |
 
-
 ### Flow connector
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service and Customer Service workspace.
@@ -289,9 +290,9 @@ This action triggers Power Automate flows using macros in agent scripts. This ac
 
 | Field                | Description                             | Parameter  |
 |----------------------|-----------------------------------------|------------|
-| Entity logical name	 | Specify the logical name of the entity that you want to link. This is a mandatory field. Any Microsoft Dataverse entity, such as Account, can be used based on business needs. | account   |
+| Entity logical name | Specify the logical name of the entity that you want to link. This is a mandatory field. Any Microsoft Dataverse entity, such as Account, can be used based on business needs. | account   |
 | Entity record id     | Specify the entity record ID of the entity that you want to link. This is a mandatory field. Ids or slugs, such as {customerRecordId}, can be used. While this field is labeled as entity record id, any value to be processed can be passed. While the field is required, values do not have to be functional unless required for the flow logic. | {customerRecordId}   |
-| Select flow	         | Specify or select the Power Automate flow to be run by this action. Requires instant cloud flows with *When a record is selected* flow triggers. Existing flows with proper permissions will be detected and displayed in the drop-down list. |    |
+| Select flow         | Specify or select the Power Automate flow to be run by this action. Requires instant cloud flows with *When a record is selected* flow triggers. Existing flows with proper permissions will be detected and displayed in the drop-down list. |    |
 
 #### Power Automate flow permissions
 
@@ -332,8 +333,6 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
 
 ## Create a macro
 
-**To create a macro**
-
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
@@ -362,12 +361,10 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     |-------------|-----------------------------------|------------------------------------|
     | Name | Provide a name to the macro. The name is displayed to the agent at runtime. | Create case |
     | Description | Describe the purpose of the macro. The description is displayed to the agent at runtime. | This macro action is used to create a case. |
-    |||
 
 1. On the **Preferred automation actions** tab, select **Start macro execution**, and then select **New step**.
 
-   > [!div class=mx-imgBorder] 
-   > ![Create macro.](../customer-service/media/create-macro1.png "Create a macro")
+   :::image type="content" source="../customer-service/media/create-macro1.png" alt-text="Create a macro.":::
 
    1. Select a connector from the list. The following connectors are available:
 
@@ -390,9 +387,8 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
       | Open an email form with predefined template | Open email |
       | Resolve a case | Resolve case |
 
+       :::image type="content" source="../customer-service/media/macro-actions.png" alt-text="Macro actions.":::
 
-       > [!div class=mx-imgBorder] 
-       > ![Macro actions sample.](../customer-service/media/macro-actions.png "Macro actions")    
 
       For example, select **Open a new form to create a record**, and the step appears. More information: [Productivity automation](#productivity-automation).
 
@@ -453,7 +449,7 @@ As an administrator, you can view the macro run history, which shows how many ti
 
 1. Select **View run history**.
 
-   > [!div class=mx-imgBorder] 
+   > [!div class=mx-imgBorder]
    > ![View the run history for a macro.](../customer-service/media/macro-run-history.png "View the run history for a macro")
 
 1. Select the macro that failed from the list.
@@ -463,7 +459,7 @@ As an administrator, you can view the macro run history, which shows how many ti
 
 1. See the macro action step that caused the failure. Review the previous step for any issue in the slug data parameters that might've been passed incorrectly or slug data parameters that were updated incorrectly.
 
-   > [!div class=mx-imgBorder] 
+   > [!div class=mx-imgBorder]
    > ![Review the macro action steps.](../customer-service/media/macro-run-history-fail.png "Review the macro action steps")
 
    For example, when you select on the **Open a new form to create a record** step, select **Show more**, and you can view that the mandatory fields don't have values, which are mandatory to save the record. Due to this reason, the macro run failed at the **Save the record** step.
