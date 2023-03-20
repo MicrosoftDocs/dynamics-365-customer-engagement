@@ -48,7 +48,7 @@ Use the customer section to search for an existing contact or account record in 
 The **Conversation summary** section provides detailed information about the conversation between the agent and customer. The information shown in the **Conversation details** area includes the following:
 
 - **Engagement channel:** The channel, such as live chat or custom channel, through which the conversation is taking place.
-- **Waiting time:** The time between when the conversation was created and when it was accepted by the agent.
+- **Waiting time:** The time the customer had to wait before the conversation was assigned to the agent.
 - **Skills:** The skills that had been attached for routing the conversation. If your administrator has enabled the setting for agents to update skills, you can add or remove skills.
 - **Queue:** The queue through which the conversation has been assigned to you.
 - **Start time:** The time when you started the conversation.
