@@ -1,7 +1,7 @@
 ---
 title: "Customize the Customer summary form | MicrosoftDocs"
 description: "Learn how to add or remove custom controls, customize form layout, and add web resources to the Customer summary form in Omnichannel for Customer Service."
-ms.date: 02/23/2022
+ms.date: 03/20/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
