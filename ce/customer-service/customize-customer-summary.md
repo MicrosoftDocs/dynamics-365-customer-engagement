@@ -5,8 +5,7 @@ ms.date: 03/20/2023
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.topic: conceptual 
-ms.date: 03/20/2023
+ms.topic: how-to 
 ms.custom: bap-template
 ---
 # Customize the Customer summary form
