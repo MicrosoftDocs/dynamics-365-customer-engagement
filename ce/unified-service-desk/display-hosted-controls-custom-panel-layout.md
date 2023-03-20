@@ -3,8 +3,8 @@ title: "Display hosted controls in the custom panel layout | MicrosoftDocs"
 description: "Learn about specifying the custom panel layout as the display group for your hosted controls by using a syntax."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

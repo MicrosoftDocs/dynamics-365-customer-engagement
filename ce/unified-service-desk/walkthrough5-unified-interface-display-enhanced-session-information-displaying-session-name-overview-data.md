@@ -3,8 +3,8 @@ title: "Walkthrough 5: Display session information for Unified Interface apps | 
 description: "Use this walkthrough to understand the prerequisites and procedures for displaying enhanced session information for Unified Interface apps."
 ms.date: 06/25/2020
 ms.topic: overview
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

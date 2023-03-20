@@ -3,8 +3,8 @@ title: "FindControl Operation in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the tree-based and offset-based identification approaches to find a user interface control in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

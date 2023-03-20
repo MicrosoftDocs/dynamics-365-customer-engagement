@@ -3,8 +3,8 @@ title: "Components of Unified Service Desk | MicrosoftDocs"
 description: "Learn about the components of Unified Service Desk, its object-oriented development concepts, and its design implementation."
 ms.date: 08/23/2017
 ms.topic: get-started-article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.custom: 
   - dyn365-USD

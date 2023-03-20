@@ -3,8 +3,8 @@ title: "About configuration data | MicrosoftDocs"
 description: "Learn how you can import the Unified Service Desk configuration into a target instance using the Configuration Migration tool or via the custom package."
 ms.date: 10/29/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

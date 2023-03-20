@@ -3,8 +3,8 @@ title: "Replacement parameters in Unified Service Desk | MicrosoftDocs"
 description: "Learn to view replacement parameters to pull data from data elements. Also find information about system replacement parameters."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer
