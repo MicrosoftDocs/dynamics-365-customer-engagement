@@ -1,16 +1,12 @@
 ---
-title: "Enable quick book in Universal Resource Scheduling"
-description: "Learn how to enable and use quick scheduling (also known as quick book) to simplify the schedule assistant experience and make the process easier."
-ms.date: 06/25/2019
+title: Enable quick book in Universal Resource Scheduling
+description: Learn how to enable and use quick scheduling (also known as quick book) to simplify the schedule assistant experience and make the process easier.
 ms.reviewer: mhart
 ms.subservice: common-scheduler
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author:  m-hartmann
-ms.author:  mhart
-manager: shellyha
+ms.date: 02/24/2023
+ms.topic: conceptual
+author: FeifeiQiu
+ms.author: feiqiu
 search.app: 
   - D365CE
   - D365FS

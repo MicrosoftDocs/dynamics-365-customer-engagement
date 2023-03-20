@@ -3,8 +3,8 @@ title: "Distribute custom hosted controls using customization files  | Microsoft
 description: "Learn to create and update customization files to distribute custom hosted controls and functionality to agent computers."
 ms.date: 08/23/2017
 ms.topic: overview
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

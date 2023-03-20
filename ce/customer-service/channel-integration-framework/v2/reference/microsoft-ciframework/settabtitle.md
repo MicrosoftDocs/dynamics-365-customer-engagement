@@ -3,8 +3,8 @@ title: "setTabTitle (JavaScript API Reference) for Channel Integration Framework
 description: "Learn about setTabTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 03/06/2020
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"

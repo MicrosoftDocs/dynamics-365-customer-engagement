@@ -3,8 +3,8 @@ title: "Manage access in Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to control user access to Unified Service Desk  by using configuration and security roles."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin
