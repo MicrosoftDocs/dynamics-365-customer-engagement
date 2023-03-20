@@ -1,8 +1,8 @@
 ---
 title: "Manage Dynamics 365 Channel Integration Framework 1.0 solutions| MicrosoftDocs"
 description: "Learn how to add and remove Dynamics 365 Channel Integration Framework 2.0 components from exported solutions."
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.date: 02/22/2023
 ms.custom: 

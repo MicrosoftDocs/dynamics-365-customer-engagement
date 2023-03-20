@@ -27,7 +27,7 @@ search.app:
 - **Out of Sync**: Changes made against the schedule require it to be
     published again.
 
-- **Under Maintenance**: Indicates someone is upgrading the resource scheduling optimization to a newer
+- **Under Maintenance**: Indicates someone is upgrading the Resource Scheduling Optimization to a newer
     version.
 
 - **Failed**: System failed to publish schedules for various reasons.
@@ -35,7 +35,7 @@ search.app:
     - The user is able to see the error details on the form of the schedule.
 
     - A typical error would be that the SAS Key has not been configured,
-        meaning resource scheduling optimization Azure resources are not set up correctly.
+        meaning Resource Scheduling Optimization Azure resources are not set up correctly.
 
       > [!div class="mx-imgBorder"]
       > ![Image 1.](media/6e42a1e32814b0bb5fd4e39134c5b5a1.png)
@@ -51,7 +51,7 @@ search.app:
 
 - **PUBLISH ALL**: Publishes all schedules.
 
-- **RESET RESOURCE SCHEDULING OPTIMIZATION**: Cancels all pending resource scheduling optimization jobs and
+- **RESET RESOURCE SCHEDULING OPTIMIZATION**: Cancels all pending Resource Scheduling Optimization jobs and
     unpublishes all schedules.
 
 The next screenshot shows the publish status of the schedule, the date it was last modified, and the next scheduled run date and time.
@@ -59,17 +59,17 @@ The next screenshot shows the publish status of the schedule, the date it was la
 > [!div class="mx-imgBorder"]
 > ![Image 3.](media/23236bac372efcec3f509581b6eeb026.png)
 
-- **RUN NOW**: Run resource scheduling optimization on demand, regardless of the timer setting.
+- **RUN NOW**: Run Resource Scheduling Optimization on demand, regardless of the timer setting.
 
   > [!NOTE]
-  > RUN NOW is also a function that can trigger a new job. The user can use this button to run resource scheduling optimization per their business needs. For example, whenever there is a P1 work order requirement, you can re-run resource scheduling optimization right away.
+  > RUN NOW is also a function that can trigger a new job. The user can use this button to run Resource Scheduling Optimization per their business needs. For example, whenever there is a P1 work order requirement, you can re-run Resource Scheduling Optimization right away.
 
   > [!div class="mx-imgBorder"]
   > ![Image 4.](media/aca2f6dd56b36554da71ec18db377610.png)
 
 ## Monitoring optimization requests
 
-Once a schedule has been published, you can open it and monitor the scheduling optimization requests (resource scheduling optimization jobs). You can drill into each of these to see the bookings associated with that resource scheduling optimization job run.
+Once a schedule has been published, you can open it and monitor the scheduling optimization requests (Resource Scheduling Optimization jobs). You can drill into each of these to see the bookings associated with that Resource Scheduling Optimization job run.
 
 > [!div class="mx-imgBorder"]
 > ![Image 5.](media/98f6a265bb86b85773c06dcb989447f1.png)

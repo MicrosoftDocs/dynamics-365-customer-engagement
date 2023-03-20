@@ -3,8 +3,8 @@ title: "Prevent random running of scripts  in Unified Service Desk| MicrosoftDoc
 description: "Learn how to prevent random running of scripts in Unified Service Desk using UII options."
 ms.date: 01/02/2023
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

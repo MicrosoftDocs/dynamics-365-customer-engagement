@@ -3,8 +3,8 @@ title: "Migrate configurations from Web Client to Unified Interface | MicrosoftD
 description: "Learn about the three-step process for migrating your Unified Service Desk configurations from the legacy web client to Unified Interface."
 ms.date: 08/17/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

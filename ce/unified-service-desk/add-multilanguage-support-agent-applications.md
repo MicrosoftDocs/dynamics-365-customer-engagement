@@ -3,8 +3,8 @@ title: "Manage language support for your agent applications | MicrosoftDocs"
 description: "Learn how to add localized strings for your user interface controls and enable language support for your agent applications."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer
