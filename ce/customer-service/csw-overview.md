@@ -33,17 +33,7 @@ You can set up your Customer Service workspace environment so that agents workin
 > [!NOTE]
 > The Customer Service workspace app is not supported on Unified Service Desk.
 
-:::image type="content" source="media/csw-overview-enhanced.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview-enhanced.png"::: 
-
-The following table provides an overview of the layouts:
-
-1. Select the icon to open the site map.
-2. Select the Home tab to return to the Customer Service Agent Dashboard view.
-3. Select the Inbox tab to view all the cases and conversations that are assigned to you. You'll only see the inbox if it's turned on for your profile.
-4. Each open session has a tab in the tab row. Select a tab to navigate between sessions.
-5. Select a case or an activity to open a new session. The session opens in a new tab in the workspace window.
-6. Select the arrow to choose a different view.
-7. Select the arrow to view a different dashboard.
+:::image type="content" source="media/csw-default-overview-1.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-default-overview.png"::: 
 
 
 ## Customer Service workspace sessions and tabs
@@ -54,11 +44,9 @@ If the agent opens the customer record from a session, a new tab will be launche
 
 ### Navigate sessions and tabs
 
-The following table gives an overview of the navigation in both views:
+Customer Service workspace allows agents to work on up to nine sessions. Within a session, agents can open up to ten tabs. When an agent opens a case from the **Home** session or when the agent accepts an incoming conversation, a new session is launched. If the agent opens the customer record from a session, a new tab opens in the same session. The following table gives an overview of the multisession navigation:
 
-The enhanced multisession workspace also has improved in-app notification integration.
-
-| Column | Enhanced multisession workspace |
+| Action | Result |
 | ------------ |------------- |
 | Open a record from the Home session | Record opens in a new session. |
 | Open a record from the Global search | Record opens in a new session. |
@@ -91,22 +79,21 @@ Agent experience profiles enable you to create targeted app experiences for agen
 
 More information: [Agent experience profiles](/dynamics365/app-profile-manager/overview)
 
-## Best practices and limitations
+## Considerations
 
-We recommend the following:
+Here are a few things to note when you use Customer Service workspace in your organization:
 
 - We recommend having only one browser instance accessing the app.
-- XRM.Navigation.openForm and Xrm.Navigation.navigateTo APIs will follow the navigation behavior of multisession.
-- You can open sessions and tabs programatically using Microsoft.Apm APIs. For more information: App profile manager JavaScript API Reference
+- When you use the `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs, the result would follow the same behaviour of multisession navigation.
+- You can open sessions and tabs using Microsoft.Apm APIs. For more information: [App profile manager JavaScript API Reference](../app-profile-manager/reference/microsoft-apm.md)
 
 ### Limitations
 
-- 	Sub-grid controls can't maintain the state of the filtering or sorting after tab or session switch.
--  Form components can't maintain the state after tab or session switch.
--	Third-party websites can't maintain the state of the page after tab or session switch.
--  Customer Service workspace is not supported in Unified Service Desk.
-- Customer Service workspace is not supported in mobile devices.
-
+- When you switch between tabs or sessions:
+     - Sub grid controls can't retain the filter or sort conditions.
+     - Web resources, form components, and third-party websites can't maintain the state of the page. 	
+- Sub-grid controls can't maintain the state of the filtering or sorting after tab or session switch.
+- Customer Service workspace is not supported in mobile devices and Unified Service Desk.
 
 ## View the agent calendar (preview)
 
@@ -122,52 +109,25 @@ As an agent, it's helpful to know your work schedule. If your administrator has 
 
    :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
 
-## Work with cases, activities, knowledge articles, and email templates
 
-On the Customer Service Agent Dashboard, you can view cases and activities that are assigned to you. You can also view cases available to work on. You can perform various actions such as create, delete, and filter cases and activities from the workspace.
+## Deprecated features
 
-### Case
+The legacy layout has been deprecated and will be removed in October 2023.
 
-:::image type="content" source="media/bulkEditCases.png" alt-text="Screenshot that shows multiple cases selected and items labeled according to a table below the screenshot.":::
+:::image type="content" source="media/csw-overview.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png":::
 
-| Label | Description|
-| ------------ | ------------ |
-| 1 | Select the top check mark to select all cases in the view, or select individual check boxes to group cases for bulk editing. |
-| 2 | Associate child cases with selected cases. |
-| 3 | Merge selected cases. |
-| 4 | Edit selected cases. |
-| 5 | Delete selected cases. |
-| 6 | Apply a routing rule to route selected cases to a queue. |
-| 7 | Open the menu for more actions such as **Assign**, **Add to Queue**, **Run Report**, **Email a Link**, **Share**, **Follow**, and **Unfollow cases**. |
+1. Select the Home icon to return to the Customer Service Agent Dashboard view.
+2.The session pane shows all the sessions you've opened. Select the icons to navigate between sessions.
+3.Select the + icon in the tab bar to open more workspaces in a new tab. If you hold the Ctrl key while you select a case or an activity, the case or activity opens in a new tab, too. Select a tab to navigate between sessions.
+4. Select the arrow to choose a different view.
+5. Select a case or an activity to open a new session. The session replaces your current view with the case form.
+6. Select the back arrow in the upper-left corner of the form to get back to your previous view. To open the case or activity in a new tab, hold the Ctrl key while you select it.
+7. Select the arrow to view a different dashboard.
 
-More information: [Work with cases](customer-service-hub-user-guide-create-a-case.md)
-
-### Activities
-
-:::image type="content" source="media/bulkEditActivities.png" alt-text="Screenshot that shows multiple activities selected and items labeled according to a table below the screenshot.":::
-
-| Label | Description|
-| ------------ | -------------|
-| 1 | Select the top check box to select all activities in the view, or select individual check boxes to group activities for bulk editing.|
-| 2 | Edit selected activities. |
-| 3 | Delete selected activities. |
-| 4 | Open the menu for more actions such as **Mark Complete**, **Cancel**, **Set Regarding**, **Assign**, **Email a Link**, **Add to Queue**, and **Run Report**. |
-
-### Create and search knowledge articles
-
-Expand the Customer Service workspace site map and select **Knowledge Articles** or **Knowledge Search**. Intelligent knowledge suggestions are displayed in the productivity pane while you're working on a case.
-
-More information: [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
-
-### Use email templates and signatures
-
-Expand the Customer Service workspace site map and select **Email Templates** or **Email Signatures**.
-
-More information: [Email templates](/power-apps/user/email-template-create) and [Email signatures](/power-apps/user/email-signature)
-
-## Customize Customer Service workspace
-
-You can use your browser's developer tools to customize some aspects of the Customer Service workspace.
+### Turn on legacy layout (deprecated)
+1.	With Customer Service workspace open, press the F12 key to open the developer tools window.
+2.	In the console window, enter the following command: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
+3.	Refresh the app page.
 
 ### Turn off the close session dialog
 
@@ -183,18 +143,6 @@ You can use your browser's developer tools to customize some aspects of the Cust
 1. With Customer Service workspace open, press the F12 key to open the developer tools window.
 1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
 1. Refresh the app page.
-
-### Default workspace (deprecated)
-
-1. Select the Home icon to return to the Customer Service Agent Dashboard view.
-2.The session pane shows all the sessions you've opened. Select the icons to navigate between sessions.
-3.Select the + icon in the tab bar to open more workspaces in a new tab. If you hold the Ctrl key while you select a case or an activity, the case or activity opens in a new tab, too. Select a tab to navigate between sessions.
-4. Select the arrow to choose a different view.
-5. Select a case or an activity to open a new session. The session replaces your current view with the case form.
-6. Select the back arrow in the upper-left corner of the form to get back to your previous view. To open the case or activity in a new tab, hold the Ctrl key while you select it.
-7. Select the arrow to view a different dashboard.
-
-:::image type="content" source="media/csw-overview.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png":::
 
 ### See also
 
