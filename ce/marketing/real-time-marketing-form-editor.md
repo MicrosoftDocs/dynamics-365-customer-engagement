@@ -92,9 +92,7 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     > ![Add elements to the form .](media/real-time-marketing-form-elements.png)
 
     > [!NOTE]
-    > **Integrate custom captcha**
-    >
-    > You can also use custom captcha bot protection services like reCAPTCHA in your form. [Learn more](real-time-marketing-form-custom-captcha.md)
+    > You can also **integrate custom captcha** bot protection services like **reCAPTCHA** in your form. [Learn more](real-time-marketing-form-custom-captcha.md)
 
 1. **Add consent control** from the **Elements** section to your form. Once you add the consent control to your form, you can select the correct consent purpose in the properties. Select the consent checkbox caption to change its text. Learn more about how to [manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md).
 
@@ -102,9 +100,7 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     > ![Add consent element to the form.](media/real-time-marketing-form-consent-element.png)
 
     > [!NOTE]
-    > **Consent element limitations**
-    >
-    > The commercial communication consent purpose isn't linked to the *Do not bulk email* attribute of the Contact.
+    > The *commercial communication* consent purpose used by the **Consent element** isn't linked to the *Do not bulk email* attribute of the Contact.
 
 1. Now it's time to **preview your form** and check the responsiveness. To open the form preview, select the **Preview and test** tab to open the form preview. You can select various platforms to check how the form will render on a mobile device or a tablet.
 
