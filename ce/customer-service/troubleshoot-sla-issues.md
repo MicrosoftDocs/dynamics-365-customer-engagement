@@ -377,22 +377,19 @@ Avoid using the **modifiedon** and **modifiedby** fields for reporting because t
 
 #### Reason
 
-Multiple cases get created from a single email.
+Perform the following steps to check if and how multiple cases might have got created from a single email.
 
-#### Resolution
-
-Perform the following steps to check why multiple cases might get created from a single email.
-
-1. Enable activity monitor option “Ready for Power Automate/workflow” and “Skipped”
-1. Repro the issue by sending a new email.
-1. You should see new activity monitor records in the grid for the new test email. If you see more than one activity monitor records for the email, then it means there are multiple queue items created for the same email which have all triggered ARC rule, you can also which rule was triggered on each activity monitor row. The activity monitor records for the test email that have “Ready for Power automate” state indicate that they have reached flow and are very likely to create a case in each of them. If the above behavior aligns with your observation, proceed to step4.
-1. Identify where the duplicate queue items are from if you don’t already know.
-    1. check rule item flow definition to see if the child flow is adding the email to queue. Keep in mind that it could either be a straightforward flow step calling “AddToQueue” bound action, or queue item creation, or it could also be in another custom flow which the ARC flow calls from within.
-    1. check email background processes to see if there are any custom workflows. Keep in mind that this is useful mostly during live debugging because succeeded background processes will be cleaned up after some time, not seeing any background processes for an email received for some time doesn’t necessarily mean there are no custom workflow ran.
+1. Enable the activity monitor options: **Ready for Power Automate**, **Workflow**, and **Skipped**.
+1. Reproduce the issue by sending a new email.
+1. You should see new activity monitor records in the grid for the new test email. If you see more than one activity monitor records for the email, it means that there are multiple queue items created for the same email which have all triggered the ARC rule. You can also view which rule got triggered on each activity monitor row. The activity monitor records for the test email that have **Ready for Power Automate** state indicate that they have reached flow and are likely to create a case in each of them. If you see the described behavior, go to the next step.
+1. Identify where the duplicate queue items are from.
+    1. Check the rule item flow definition to verify if the child flow is adding the email to queue. Note that it could either be a straightforward flow step calling **AddToQueue** bound action, or queue item creation, or it could also be in another custom flow which the ARC flow calls from within.
+    1. Check email background processes to see if there are any custom workflows. Note that this is useful mostly during live debugging because succeeded background processes will be cleaned up after some time. Not seeing any background processes for an email received for some time doesn’t necessarily mean there are no custom runs.
     1. Check telemetry to identify the queue item ids.
 
-
-
+#### Resolution
+  
+    
 ### See also
 
 [Understand SLA details with Timer control](customer-service-hub-user-guide-case-sla.md#understand-sla-details-with-timer-control)
