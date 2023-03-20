@@ -107,16 +107,16 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     > [!div class="mx-imgBorder"]
     > ![Preview the form.](media/real-time-marketing-form-preview.png)
 
-1. To publicly share your form, select the **Publish** button in the top right corner. The form will automatically save and the [validation process](#form-validation) will start. You may need to add other required fields to your form to pass the validation. By default, the **email** field is required to check if the same contact already exists. Once the form is successfully validated, you'll see the following options on how to publish your form. Learn more on how to [publish the form](#publish-your-form).
+1. To publicly share your form, select the **Publish** button in the top right corner. The form will automatically save and the [validation process](#form-validation) will start. You may need to add other required fields to your form to pass the validation. By default, the **Email** field is required to check if the same contact already exists. Once the form is successfully validated, you'll see the following options on how to publish your form. Learn more on how to [publish the form](#publish-your-form).
 
     > [!div class="mx-imgBorder"]
     > ![Publish the form.](media/real-time-marketing-form-publish.png)
 
-> [!IMPORTANT]
-> Make sure the domain where you embedded your form is allowed for external form hosting. If the domain isn't allowed for external form hosting, the form won't be rendered on your web page and all form submissions will be rejected. Learn more about [domain authentication](domain-authentication.md).
-> The out-of-box domain for Standalone page is enabled by default. [Learn more](#publish-your-form)
+    > [!IMPORTANT]
+    > Make sure the domain where you embedded your form is allowed for external form hosting. If the domain isn't allowed for external form hosting, the form won't be rendered on your web page and all form submissions will be rejected. Learn more about [domain authentication](domain-authentication.md).
+    > The out-of-box domain for Standalone page is enabled by default. [Learn more](#publish-your-form)
 
-1. Set up a "thank you" email for web page visitors who submitted the form. You can create a new journey using the "Marketing Form Submitted" trigger, which will be executed every time your form is submitted. Learn more about creating a [trigger-based journey](real-time-marketing-trigger-based-journey.md).
+1. Set up a "thank you" email for web page visitors who submitted the form. You can create a new journey using the *Marketing Form Submitted* trigger, which will be executed every time your form is submitted. Learn more about creating a [trigger-based journey](real-time-marketing-trigger-based-journey.md).
 
 ## Manage forms
 
@@ -125,8 +125,7 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
 To publish your form, select the **Publish** button in the top right corner. There are three options to publish a form:
 
 - **Embed to an external page using JavaScript**: This is the most common way to integrate the form into your own web page. You can reuse the same code snippet on multiple web pages. The form submission data includes the URL of the page where the form is embedded. There's also a tracking script included to count the statistics of visitors to the page that the form is embedded on.
-- **Embed to an external page using iframe**: The IFrame has several limitations, but it's the first choice if you're restricted from using external JavaScript code on your web pages. You can reuse the same IFrame code snippet on multiple web pages. Due to the nature of iframes, the form submission data doesn't include the URL of the page where the form is embedded.
-- **Create a standalone page**: This feature requires a PowerApps or Power Pages license. A Power Portal page will be automatically created and the form will be embedded into the page. As a result of this process, you'll get a public URL, which you can share to allow your visitors to visit and submit the form.
+- **Create a standalone page**: A new page will be automatically created and the form will be embedded into the page. As a result of this process, you'll get a public URL, which you can share to allow your visitors to visit and submit the form.
 
 Once the form is published, you can still access these options by selecting the **Publishing** options button in the top right corner. It's possible to use multiple publishing options for a single form.
 
