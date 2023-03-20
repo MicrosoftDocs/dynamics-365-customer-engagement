@@ -252,7 +252,7 @@ If you're adding an authenticated chat experience to a custom website (that's no
 
 ### Prerequisites
 
-- Administrators who are configuring authentication settings will need additional security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field.md)
+- Administrators who are configuring authentication settings will need additional security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
 
 - Make sure your organization has working knowledge of OAuth 2.0 code flow.
 

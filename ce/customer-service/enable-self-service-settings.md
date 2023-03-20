@@ -53,7 +53,7 @@ You can enable the self service feature in the Customer Service admin center or 
 
 ### See also
 
-[Self service](oc-customer-summary.md#self-service)
+[Self service](oc-customer-summary.md#view-self-service)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
