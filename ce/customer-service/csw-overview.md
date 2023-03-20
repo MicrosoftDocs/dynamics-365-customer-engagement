@@ -33,29 +33,7 @@ You can set up your Customer Service workspace environment so that agents workin
 > [!NOTE]
 > The Customer Service workspace app is not supported on Unified Service Desk.
 
-## Access Customer Service workspace layouts
-
-You can access Customer Service workspace through the app selector where you'll find other Dynamics 365 apps. You can also select it in the dropdown navigation in the upper-left corner of Dynamics 365.
-
-By default, Customer Service workspace opens in the Customer Service Agent Dashboard view. The dashboard shows your active cases, cases you can work on in queues that you're assigned to, and your open activities. You can open existing cases and activities, work on new cases and activities, and create cases and activities.
-
-The Customer Service workspace app supports two layouts:
-
-- Default workspace
-- Enhanced multisession workspace (recommended) 
-
-You can switch to the enhanced layout with the following steps:
-
-1. With Customer Service workspace open, press the F12 key to open the developer tools window.
-1. In the console window, enter the following command: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",true)`
-1. Refresh the app page.
-
-To revert back to the default layout, enter the following command in the developer tools window: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
-
-> [!IMPORTANT]
-> - When you turn on the enhanced multisession workspace layout, the enhanced experience gets applied in both Customer Service workspace and Omnichannel for Customer Service. 
-> - The multisession mode and navigation capabilities are supported in the Customer Service workspace and Omnichannel for Customer Service apps only, and not in copies of these apps or custom apps. 
- 
+:::image type="content" source="media/csw-overview-enhanced.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview-enhanced.png"::: 
 
 The following table provides an overview of the layouts:
 
@@ -66,9 +44,6 @@ The following table provides an overview of the layouts:
 5. Select a case or an activity to open a new session. The session opens in a new tab in the workspace window.
 6. Select the arrow to choose a different view.
 7. Select the arrow to view a different dashboard.
-
-
-:::image type="content" source="media/csw-overview-enhanced.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview-enhanced.png"::: 
 
 
 ## Customer Service workspace sessions and tabs
@@ -102,23 +77,36 @@ If your administrator has turned on the inbox for your profile, you can select t
 
 The asynchronous channels available in the conversation inbox are: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Microsoft Teams.
 
-The inbox conversation view looks as seen in the following screenshot.
-
-:::image type="content" source="media/inbox-csw.png" alt-text="Screenshot of the Customer Service workspace inbox conversation view.":::
-
-The inbox case view looks as seen in the following screenshot.
-
-:::image type="content" source="media/inbox-case.png" alt-text="Screenshot of the Customer Service workspace inbox case view.":::
-
 More information: [Configure the inbox view](configure-inbox.md)
 
 ## Use the productivity pane with Smart Assist
 
 While you're working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that could be relevant. You'll also see agent scripts that guide you through a consistent series of steps with potentially automated actions through macros.
 
-:::image type="content" source="media/productivity-pane-overview.png" alt-text="Screenshot of the productivity pane with Smart Assist suggestions.":::
-
 More information: [Productivity pane](csw-productivity-pane.md)
+
+## Customize the agent experience with Customer Service admin center
+
+Agent experience profiles enable you to create targeted app experiences for agents and supervisors, and are an alternative to building and maintaining custom apps. With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
+
+More information: [Agent experience profiles](/dynamics365/app-profile-manager/overview)
+
+## Best practices and limitations
+
+We recommend the following:
+
+- We recommend having only one browser instance accessing the app.
+- XRM.Navigation.openForm and Xrm.Navigation.navigateTo APIs will follow the navigation behavior of multisession.
+- You can open sessions and tabs programatically using Microsoft.Apm APIs. For more information: App profile manager JavaScript API Reference
+
+### Limitations
+
+- 	Sub-grid controls can't maintain the state of the filtering or sorting after tab or session switch.
+-  Form components can't maintain the state after tab or session switch.
+-	Third-party websites can't maintain the state of the page after tab or session switch.
+-  Customer Service workspace is not supported in Unified Service Desk.
+- Customer Service workspace is not supported in mobile devices.
+
 
 ## View the agent calendar (preview)
 
