@@ -4,7 +4,7 @@ description: "Learn about customer summary, its sections, and how you can view c
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.topic: conceptual 
+ms.topic: how-to 
 ms.date: 03/20/2023
 ms.custom: bap-template
 ---
