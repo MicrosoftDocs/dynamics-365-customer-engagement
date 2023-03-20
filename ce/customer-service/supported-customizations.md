@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 03/21/2023
+ms.date: 03/20/2023
 ms.custom: bap-template
 ---
 
@@ -32,7 +32,7 @@ You can:
 
 You can't:
 
-- Add a lookup column for a Many to Many relationship.
+- Add a Many to Many relationship.
 - Use custom columns in unified routing or assignment.
 
 We recommend that:
