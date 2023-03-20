@@ -165,10 +165,10 @@ For example, here's a view of how the tabs appear on the case form:
   
 |Record type|Default tabs|  
 |-----------------|------------------|  
-|Case|**Summary**. Includes the customer card, Timeline, and the Related section.<br />   **Details**. Tracks Case details, additional details, and social response details of the case. <br />**Case Relationships**. Shows merged cases, child cases, and associated knowledge articles. You can add a child case to the current case from the Child Cases list. It also shows a list of knowledge articles associated with the case.<br />**SLA**. Shows the related SLA KPI Instance records that are created for each SLA KPI that is tracked for the case. <br />**Related**. Shows related entities, such as activities and connections.|
-|Account|**Summary**. Includes the customer card, Timeline, and the Related section.<br />**Details**. Tracks additional details like company profile, marketing details, contact preferences, and billing and shipping.<br />**Related**. Shows related common entities.| 
-|Contact|**Summary**. Includes the customer card, Timeline, and the Related section.<br />**Details**. Tracks additional details like personal information, marketing details, contact preferences, and billing and shipping. <br />**Related**. Shows related common entities.| 
-|Activities|Activity forms shows a tab called Task for the respective activity and a Related tab for common entities. |  
+|Case|**Summary**. Includes the customer card, Timeline, and the Related section.<br />   **Details**. Tracks Case details, other details, and social response details of the case. <br />**Case Relationships**. Shows merged cases, child cases, and associated knowledge articles. You can add a child case to the current case from the Child Cases list. It also shows a list of knowledge articles associated with the case.<br />**SLA**. Shows the related SLA KPI Instance records that are created for each SLA KPI that is tracked for the case. <br />**Related**. Shows related entities, such as activities and connections.|
+|Account|**Summary**. Includes the customer card, Timeline, and the Related section.<br />**Details**. Tracks other details like company profile, marketing details, contact preferences, and billing and shipping.<br />**Related**. Shows related common entities.| 
+|Contact|**Summary**. Includes the customer card, Timeline, and the Related section.<br />**Details**. Tracks other details like personal information, marketing details, contact preferences, and billing and shipping. <br />**Related**. Shows related common entities.| 
+|Activities|Activity forms show a tab called Task for the respective activity and a Related tab for common entities. |  
 |Knowledge Articles|**Content**. Lets you write and edit the content for the article.<br />**Summary**. Tracks basic settings, Timeline, publishing settings, and related information.<br />**Analytics**. Shows the number of views, feedback, and a list of cases using the article.<br />**Related**. Shows related common entities.|  
 |Social Profiles|**Social Profile**. Captures general information, and social profile details along with related social profiles.<br />**Related**. Shows related common entities.|  
 
@@ -184,7 +184,7 @@ For account records, the card shows contact details for the primary contact asso
 
 ## Work with Queues
 
-Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
+Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers that are used to store anything that needs to be completed or requires an action. For example, you could use queues for completing a task or closing a case. To learn more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 ![Work with queues.](media/queues-view.png "Queues view")
 
@@ -192,7 +192,7 @@ To know how to add a case to a queue, see [Add a case to a queue](customer-servi
 
 ## Understand Site
 
-To create a new site, you need to go to **Advanced find** ![Advanced find.](media/advanced-find-icon.png "Advanced find").  Then you can customize other entity forms (e.g. Account) by adding this site field.
+To create a new site, you need to go to **Advanced find** ![Advanced find.](media/advanced-find-icon.png "Advanced find").  Then you can customize other entity forms (for example, Account) by adding this site field.
 
   ![Create New Site.](media/add-site-to-any-entity-1a.png "Create New Site")
  
@@ -248,7 +248,7 @@ Similarly, if you zoom out to about 60-70%, the records appear in grid form.
 
 ## Understand Activities
 
-Activities are the tasks that you or your team perform while interacting with customers. An activity is any action which can be entered on a calendar and has time dimensions (start time, stop time, due date, and duration) that help determine when the action occurred or is planned to occur.
+Activities are the tasks that you or your team perform while interacting with customers. An activity is any action that can be entered on a calendar and has time dimensions (start time, stop time, due date, and duration) that help determine when the action occurred or is planned to occur.
 
 For example, you can make a record to track a phone call with a customer, or list an appointment scheduled with a customer to discuss a certain issue. You can create activities for yourself, or assign them to other service reps.
 
@@ -299,7 +299,7 @@ You can insert a knowledge article in an email in Dynamics 365 Customer Engageme
 
    A list of available articles will be displayed. You can select an article in the search results to view it in the preview pane.
   
-3. When you have found the article you want to include, do one of the following :
+3. When you've found the article you want to include, do one of the following actions:
 
    - To insert an article into the email, select the **Insert content** icon for the article in the search results or in the article preview pane, select **Insert article content** at the top of the pane. This will insert the content into the body of your email and close the **Select knowledge article to insert** page.
    
@@ -319,7 +319,7 @@ You can insert a knowledge article in an email in Dynamics 365 Customer Engageme
 
 ## Create and Manage Queues
 
-Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
+Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers that are used to store anything that needs to be completed or requires an action. For example, you might use a queue for completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 **Open Queues view**
 
@@ -334,7 +334,7 @@ In the Customer Service Hub site map, select **Service** > **Queues**. The queue
     - **Pick** the record. It will be assigned to you and will be moved to your queue.
     - **Release** the record. It will be assigned back to the queue owner for other's to pick up.
 
-To know how to add a case to a queues, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
+To learn how to add a case to a queue, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
 
 ## Create a new site
 
