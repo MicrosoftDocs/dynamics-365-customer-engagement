@@ -1,11 +1,12 @@
 ---
 title: "View customer summary in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about customer summary, its sections, and how you can view customer information in Omnichannel for Customer Service."
-ms.date: 03/20/2023
-ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.topic: conceptual 
+ms.date: 03/20/2023
+ms.custom: bap-template
 ---
 
 # View customer summary to get available information about customers
