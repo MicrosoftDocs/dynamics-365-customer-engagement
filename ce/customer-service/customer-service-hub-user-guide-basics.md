@@ -45,7 +45,7 @@ To access the Customer Service Hub app on a mobile device:
 
 ## Work with case management record types, dashboards, and tools
 
- In the Customer Service Hub, you will find everything you need to easily manage customer service at your organization:  
+ In the Customer Service Hub, you'll find everything you need to easily manage customer service for your organization:  
   
 - Dashboards  
 - Activities: Email, Task, Appointment, Phone Call, Social Activity  
@@ -56,11 +56,11 @@ To access the Customer Service Hub app on a mobile device:
 - Queues  
 - Knowledge Articles
 
-The Customer Service Hub comes with an enhanced site map to enable easy navigation of the interface. To learn more, see [Understand the site map navigation](#understand-the-site-map-navigation).
+The Customer Service Hub app comes with an enhanced site map to enable easy navigation of the interface. More information: [Understand the site map navigation](#understand-the-site-map-navigation).
   
 ## Understand the site map navigation
 
-1. Select the site map icon ![site map icon.](media/sitemap-icon.png "Site map"). Select Service, and then select an entity record type.
+1. Select the site map icon ![site map icon.](media/sitemap-icon.png "Site map"), select **Service**, and then select an entity record type.
 
   > ![Navigate Records.](media/v9-navigate-records.png "Navigate Records")
 
@@ -68,7 +68,7 @@ When you select a record type from the menu, such as Accounts, Contacts, or Case
 
 To view recently opened records, select the down-arrow next to the record type in the site map.
 
-Here is what each entity record type is used for:
+Here's what each entity record type is used for:
 
   - **Dashboards** collect all your most important data in one place. You can select from multiple dashboards as per your role.
   - **Activities** help you keep track of tasks, email messages, appointments, phone calls and much more.
@@ -143,7 +143,7 @@ The stages in the business process flow are displayed in floating mode, or docke
 
 ![Business process flows.](media/business-process-flow.png "Business process flows")
   
-If there is more than one process to follow, you can switch between them by selecting **Process** > **Switch Process** on the command bar, and then selecting the process you want to use.  Or you can choose to abandon the process if it no longer applies.
+If there's more than one process to follow, you can switch between them by selecting **Process** > **Switch Process** on the command bar, and then selecting the process you want to use.  Or you can choose to abandon the process if it no longer applies.
   
  When a business process flow based on multiple entities is applied to a case or a knowledge article, the following limitations apply:  
   
@@ -236,7 +236,7 @@ Similarly,
 
 #### Reference Panel reflow
 
-The Customer Service Hub is available to use on a desktop browser, and on a mobile device. Depending on the zoom level and the resolution of the system on which you are accessing the hub interface, the Reference panel adjusts the tabs and records for an optimum experience.
+The Customer Service Hub is available to use on a desktop browser, and on a mobile device. Depending on the zoom level and the resolution of the system on which you're accessing the hub interface, the Reference panel adjusts the tabs and records for an optimum experience.
 
 For example, on a browser, if you zoom in to about 100% or more, the tabs get docked on the top of the panel.
 
@@ -288,7 +288,7 @@ While working on an email, you can quickly help customers by searching and selec
 
 You can insert a knowledge article in an email in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new?view=op-9-1#insert-knowledge-articles-into-an-email)
 
-1. From an email form where you are drafting, place your cursor where you want to place the knowledge article or its link, and then select **Insert Knowledge Article**.
+1. On an email form where you're drafting, place your cursor where you want to place the knowledge article or its link, and then select **Insert Knowledge Article**.
 
    The **Select knowledge article to insert** screen is displayed. 
    
