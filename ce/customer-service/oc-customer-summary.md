@@ -30,10 +30,8 @@ Having this information ready can help support agents reduce the hold time that 
 
 For active conversations, you can view the **Customer summary** form on the agent dashboard of the Customer Service workspace and Omnichannel for Customer Service apps. The **Customer Summary** form, however, doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard. More information: [View agent dashboard and conversations](oc-agent-dashboard.md).
 
-The **Save** and **Refresh** options are available on **Customer Summary** form. You can edit and save custom field values added to the **Customer Summary** form by your administrator.
+The Save and Refresh options are available on Active Conversation form. You can edit and save standard and custom field values added to the Active Conversation form by your administrator. However, logical column names aren’t editable. More information: [Logical column names](supported-customizations.md#logical-column-names). If a default value is already set for a field, the application populates the value on the Active Conversation form.
 
-> [!NOTE]
-> If a default value is already set for a field, the application populates the value on the Customer Summary form.
 
 ## Customer (Contact or Account)
 
