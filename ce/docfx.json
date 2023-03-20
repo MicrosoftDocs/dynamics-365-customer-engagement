@@ -287,7 +287,7 @@
         "customer-service/**.*": [ "D365CE", "customerservice-docs" ],
         "marketing/**.*": [ "D365CE", "D365Mktg", "marketing-docs" ],
         "field-service/**.*": [ "D365CE", "fieldservice-docs" ],
-        "customerengagement/on-premises/**.*": [ "D365CE", "customerengagement-docs" ],
+        "customerengagement/on-premises/**.*": [ "D365CE", "customerengagement-docs" ]
       },      
       "ms.reviewer": {
         "field-service/**.*": "mhart"
