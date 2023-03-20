@@ -19,16 +19,16 @@ The following table lists the supported customizations.
 
 | Components  | Add new?   | Edit existing?    |
 |------------ | ---------  | ----------------  |
-| Form        |  No       |  Yes            |
+| Form        |  No        |  Yes            |
 | View        |  Yes       |  No              |
 | Chart       |  Yes       |  No               |
-| Column       |  Yes       |  No. But you can change some properties of `msdyn_title` and `msdyn_thirdpartyconversations`. |
+| Column      |  Yes       |  No. But you can change some properties of `msdyn_title` and `msdyn_thirdpartyconversations`. |
 | Dashboard   |  No        |  No               |
 
 You can:
 
 - Create business rules.
-- Associate a conversation with a lead or opportunity, or any other activity-enabled table via the Regarding column that's available for the conversation.
+- Associate a conversation with a lead or opportunity, or any other activity-enabled table via the **Regarding** column that's available for the conversation.
 
 You can't:
 
@@ -37,7 +37,7 @@ You can't:
 
 We recommend that:
 
-- You don't add a custom system-required column. If you intend to add the custom system required column based on your business needs, then you populate the value for the custom system-required column via sync pre-validation or pre-operation plug-in to ensure its value is not null.
+- You don't add a custom system-required column. If you intend to add the custom system-required column based on your business needs, then you populate the value for the custom system-required column via sync pre-validation or pre-operation plug-in to ensure its value isn't null.
 - You don't create alternate keys.
 
 ## Customizations supported by the Conversation form
@@ -47,8 +47,8 @@ You can:
 - Add subgrids on the Conversation form and view data for related tables in the subgrid.
 - Load the **Customer summary** form as an application tab instead of an anchor tab in a session.
 - Edit existing forms in the following ways:
-  - Add custom columns and allow saving of custom and standard columns on the form except some of the [logical column names](#logical-column-names).
-  - Add custom controls. However, we recommend that you don't use custom controls to update standard columns listed in [Logical column names](#logical-column-names). Omnichannel for Customer Service overwrites updates to these columns when the conversation ends.
+  - Add custom columns and allow saving of custom and standard columns on the form except some of the logical column names listed in the **Logical column names** section that follows.
+  - Add custom controls. However, we recommend that you don't use custom controls to update standard columns listed in **Logical column names**. Omnichannel for Customer Service overwrites updates to these columns when the conversation ends.
   - Add canvas apps, web resources and external website controls.
   - Modify the form layout, resize controls, and create tabs and sections.
   - Edit the quick view for customers and cases.
