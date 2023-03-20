@@ -3,9 +3,10 @@ title: "Macros in the Customer Service workspace app | MicrosoftDocs"
 description: "This topic provides information about the different macros that can be made available to agents and how to configure them in app profile manager."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
 ms.date: 04/01/2023
-ms.topic: article
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Automate tasks with macros
