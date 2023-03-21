@@ -21,7 +21,7 @@ The optimization summary report in the Resource Scheduling Optimization add-in a
 
 ## Before you start
 
-To run the report, the resource scheduling optimization administrator needs to publish at least one [optimization schedule](rso-optimization-schedule.md).  
+To run the report, the Resource Scheduling Optimization administrator needs to publish at least one [optimization schedule](rso-optimization-schedule.md).  
 
 ## Filters and slicers
 
@@ -33,7 +33,7 @@ To run the report, the resource scheduling optimization administrator needs to p
 To access the admin report, open the **Resource Scheduling Optimization** app and go to **Analytics** > **Reports**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource scheduling optimization summary report.](./media/scheduling-analytics-rso-summary.png)
+> ![Screenshot of a Resource Scheduling Optimization summary report.](./media/scheduling-analytics-rso-summary.png)
 
 ### Booking scheduled
 

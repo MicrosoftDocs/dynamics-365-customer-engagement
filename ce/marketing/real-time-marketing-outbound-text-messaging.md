@@ -1,7 +1,7 @@
 ---
 title: "Create outbound text messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create outbound text messages for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 10/05/2022
+ms.date: 03/01/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -71,7 +71,7 @@ Infobip integration uses their public APIs to send and receive text messages. Yo
 
 Like Infobip, LINK Mobility integration uses their public APIs to send and receive text messages. You need to sign up for a LINK Mobility account to enable the real-time marketing SMS integration. To create an LINK Mobility account:
 
-1. Go to [LINK Mobility](https://www.infobip.com/signup) and sign up for a trial account that can be upgraded later.
+1. Go to [LINK Mobility](https://www.linkmobility.com) and sign up for a trial account that can be upgraded later.
 1. [Contact the link mobility team](https://www.linkmobility.com/contact-us) to purchase numbers and get all the account integration details required to create the integration between Dynamics 365 Marketing and LINK Mobility.
 
 
@@ -104,12 +104,12 @@ To set up a new SMS provider for the Marketing app:
 1. On the next screen, select **+New phone number** to add one or more numbers that will be used for the integration.
 1. On the **Add phone number** pane, add the number, its friendly name to distinguish it, the business unit it belongs and its type.
     > [!div class="mx-imgBorder"]
-    > ![Add SMS number screenshot.](media/real-time-marketing-text-message-add.png "Add SMS number screenshot")
+    > ![Add SMS number screenshot.](media/real-time-marketing-add-sms-number.png "Add SMS number screenshot")
 1. After adding the numbers, select the **Next** button to review the setup details and then select **Done** to complete it. 
 1. To receive SMS replies through the providers using the numbers you set up, you also need to specify and set up the **Callback URL**.
 
     > [!div class="mx-imgBorder"]
-    > ![Callback URL screenshot.](media/real-time-marketing-text-message-callback.png "Callback URL screenshot")
+    > ![Callback URL screenshot.](media/real-time-marketing-text-message-callback-url.png "Callback URL screenshot")
 
     For Twilio, copy the Callback URL from the Marketing app and paste it in the [numbers' configuration page](https://console.twilio.com/us1/develop/phone-numbers/manage/incoming) in the **"A MESSAGE COMES IN"** field. For Infobip, LINK Mobility and Telesign, you'll need to contact customer support to set this up for you.
 

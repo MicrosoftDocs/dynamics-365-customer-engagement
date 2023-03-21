@@ -1,7 +1,7 @@
 ---
 title: "Cookies set and read (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how cookies are set and used in Dynamics 365 Marketing."
-ms.date: 01/19/2022
+ms.date: 03/06/2023
 
 ms.custom: 
   - dyn365-marketing
@@ -46,12 +46,12 @@ Marketing sets three different types of cookies:
 
 The table below lists the cookies used by Dynamics 365 Marketing as well as the purpose and properties.
 
-| Cookie name | Purpose | First or third party | Properties |
-|---|---|---|---|
-| 79f08280-5c63-4331-b04d-fb6f39afda51 | Behavior tracking | Third party | Persistent, secure, HttpOnly |
-| 319af4c0-e197-4de9-8a9b-fe98c8a2ca04 | Session tracking | Third party | Session, secure, HttpOnly |
-| msd365mkttr | Behavior tracking | First party | Persistent, client-side |
-| msd365mkttrs | Session tracking | First party | Session, client-side |
+| Cookie name | Is Essential | Purpose | First or third party | Properties | Function (Purpose detail) | Source URL/JS |
+|---|---|---|---|---|---|---|
+| 79f08280-5c63-4331-b04d-fb6f39afda51 | No | Behavior tracking | Third party | Persistent, secure, HttpOnly | Identifies end user(by browser).   We set this cookie when end user visits a marketing page or a clicks a link   (with tracking enabled). At some point of time, when a form is submitted by this end user, a new   contact/lead is created and we leverage the cookie available in the browser   to associate previous visits with the newly generated contact/lead. | This cookie is set by the   service. URL differs for each customer org. It can be seen in the tracking/form loader code: &lt;div class="d365-mkt-config" style="display:none" data-website-id="{websiteid}" data-hostname={GUID}.svc.dynamics.com&gt;&lt;/div&gt; |
+| 319af4c0-e197-4de9-8a9b-fe98c8a2ca04 | No | Session tracking | Third party | Session, secure, HttpOnly | To find out how much time user spent on the page | This cookie is set by the   service. URL differs for each customer org. It can be seen in the   tracking/form loader code: &lt;div class="d365-mkt-config" style="display:none" data-website-id="{websiteid}" data-hostname=**"**{GUID }.svc.dynamics.com"&gt;&lt;/div&gt;
+| msd365mkttr | No | Behavior tracking | First party | Persistent, client-side | This is being used for the same   purpose as the first cookie(79f08280-5c63-4331-b04d-fb6f39afda51). Only   difference is that this cookie is set on the customer domain. In   some cases, we are unable to access 3rd party cookies (ex: safari OOB blocks) therefore we set this 1st party cookie to keep   functionality.| Set by the form loader or website tracking   script |
+| msd365mkttrs | No | Session tracking | First party | Session, client-side | This cookie is similar to   (319af4c0-e197-4de9-8a9b-fe98c8a2ca04). Only difference is that it is a first   party cookie | Set by the form loader or   website tracking script |
 
 ## How to disable non-essential Dynamics 365 Marketing cookies
 

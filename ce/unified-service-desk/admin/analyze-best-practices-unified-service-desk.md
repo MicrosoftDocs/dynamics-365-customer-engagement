@@ -3,8 +3,8 @@ title: "Best Practices Analyzer in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Best Practices Analyzer that analyzes browser settings and configurations in Unified Service Desk."
 ms.date: 04/24/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

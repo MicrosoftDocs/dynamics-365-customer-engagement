@@ -3,8 +3,8 @@ title: "CTI Desktop Manager (Hosted Control) | MicrosoftDocs"
 description: "Learn about the CTI Desktop Manager hosted control type, and its predefined UII actions and events. "
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

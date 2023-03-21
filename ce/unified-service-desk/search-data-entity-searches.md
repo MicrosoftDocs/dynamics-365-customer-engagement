@@ -3,8 +3,8 @@ title: "Search data using entity searches in Unified Service Desk | MicrosoftDoc
 description: "Learn how to search data using FetchXML definitions. Also find information about defining entity searches in Dataverse."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

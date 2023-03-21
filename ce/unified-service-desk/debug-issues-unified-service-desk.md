@@ -3,8 +3,8 @@ title: "Debug issues in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about the debugger application for troubleshooting issues in your Unified Service Desk application."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

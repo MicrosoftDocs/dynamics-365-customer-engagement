@@ -3,8 +3,8 @@ title: "msdyn_customengagementctx Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_customengagementctx entity."
 ms.date: 09/14/2020
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
+author: "gandhamm"
+ms.author: mgandham
 manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"

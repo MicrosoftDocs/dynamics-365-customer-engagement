@@ -3,8 +3,8 @@ title: "Listener Hosted Control (Hosted Control) in Unified Service Desk | Micro
 description: "Learn about the Listener Hosted Control type of hosted control. Also find information about configuring custom listeners for your audit, diagnostic, and trace logs."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer
