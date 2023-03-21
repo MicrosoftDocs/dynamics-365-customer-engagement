@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/07/2023
+ms.date: 03/21/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -49,7 +49,7 @@ To use the various search options discussed in this article, one or more of the 
     - Status
     - Title
     
-- To search using favorites, your administrator has granted **Create**, **Read**, **Write**, **Append**, **Appendto** privileges on the **msdyn_favoriteknowledgearticle** entity to the CSR Manager and the Customer Service Representative security roles as applicable.
+- To search using favorites, your administrator has granted **Create**, **Read**, **Write**, **Append**, **Appendto** privileges on the **msdyn_favoriteknowledgearticle** entity to any new custom roles as applicable.
 
 - In Customer Service workspace and Omnichannel for Customer Service, your administrator has enabled the app side pane and knowledge search in Agent experience profiles.
 
