@@ -11,7 +11,10 @@ manager: shujoshi
 
 # Configure relationship analytics and health
 
-Configure relationship analytics to specify whether you want to use Exchange data for comprehensive insights or use insights generated from Dynamics 365 data. You can also configure parameters that would determine the customer relationship health.  
+Configure relationship analytics to specify whether you want to use Exchange data for enhanced insights. You can also configure parameters that would determine the customer relationship health. These configurations are only supported for Sales Premium customers.
+
+> [!NOTE]
+> No specific configuration is required for basic relationship intelligence; it's enabled by default. For more information, see [Basic relationship insights](relationship-analytics-overview.md#basic-relationship-insights).
 
 ## License and role requirements
 | Requirement type | You must have |
