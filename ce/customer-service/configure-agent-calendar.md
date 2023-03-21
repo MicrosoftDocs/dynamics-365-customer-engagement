@@ -37,7 +37,10 @@ As an administrator, you can help agents in your organization plan their work ho
 
    :::image type="content" source="media/my-schedule-agenda-view.png" alt-text="Agenda view of an agent's schedule.":::
 
-You must have the system administrator role to enable the calendar view.
+
+## Prerequisites
+
+You must have the System Administrator role to enable the calendar view.
 
 ## Enable the agent calendar
 
