@@ -1,6 +1,6 @@
 ---
-title: "Work order and booking statuses in Dynamics 365 Field Service | Microsoft Docs"
-description: Learn about work order and booking statuses in Dynamics 365 Field Service
+title: Work order life cycle and statuses
+description: Learn about work order and booking statuses in Dynamics 365 Field Service.
 ms.date: 11/04/2021
 
 ms.topic: article
@@ -14,7 +14,7 @@ search.app:
   - D365FS
 ---
 
-# Work order life cycle and statuses in Dynamics 365 Field Service
+# Work order life cycle and statuses
 
 Work order system statuses, work order substatuses, and booking statuses all work together to help stakeholders stay up to date with work orders from creation to closing. Updating one of these statuses can update the others automatically.
 

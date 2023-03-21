@@ -1,5 +1,5 @@
 ---
-title: Work with appointments in Field Service
+title: Show appointments on the schedule board
 description: Learn how to include appointments with resource scheduling in Dynamics 365 Field Service.
 ms.date: 02/23/2023
 ms.topic: how-to
@@ -10,7 +10,7 @@ search.app:
   - D365FS
 ---
 
-# Work with appointments in Field Service
+# Show appointments on the schedule board
 
 Organizations often use appointments in Dynamics 365 applications. Typical examples are a salesperson using appointments to meet with potential customers or a customer service rep creating a service appointment to help a customer with an issue. Other examples may include organizations creating appointments because of integrations with other systems.
 
