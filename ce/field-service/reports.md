@@ -30,7 +30,7 @@ Dynamics 365 Field Service and the Resource Scheduling Optimization Add-in provi
 1. The [Work order summary report](work-order-summary-report.md), which is included with Field Service.
 1. The [Admin report](rso-admin-report.md), included with the Resource Scheduling Optimization Add-in.
 1. The [Optimization summary report](rso-optimization-summary-report.md), included with the Resource Scheduling Optimization Add-in.
-1. [Predictive work duration (preview)](analytics-predictive-work-duration.md) with the upcoming work duration and the territory duration reports in Field Service.
+1. [Predictive work duration reports (preview)](analytics-predictive-work-duration.md) with the upcoming work duration and the territory duration reports in Field Service.
 
 Other than editing filters and drill-down, the reports aren't configurable or customizable.
 
