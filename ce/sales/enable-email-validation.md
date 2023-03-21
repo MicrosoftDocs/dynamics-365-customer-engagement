@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Enable email validation in Dynamics 365 Sales to remove invalid email addresses from your lead and contact records. You'll reduce email bounce rates, improve engagement, and get a better return on your sellers' time.
+Enable email validation in Dynamics 365 Sales to remove invalid email addresses from your lead and contact records. You'll reduce email bounce rates, improve engagement, and get a better return on your sellers' time. 
 
 ## License and role requirements
 
@@ -45,7 +45,7 @@ Email validation is available in the following regions:
 
 ## What is email validation?
 
-Email validation analyzes the primary email address in lead records to identify the ones that can't receive email. You must enable the feature. It's turned off by default.
+Email validation analyzes the primary email address in lead records to identify the ones that can't receive email. You must enable the feature. It's turned off by default. 
 
 Email address validation looks for the following issues:
 
