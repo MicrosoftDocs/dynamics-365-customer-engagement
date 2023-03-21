@@ -33,7 +33,7 @@ You can set up your Customer Service workspace environment so that agents workin
 > [!NOTE]
 > The Customer Service workspace app is not supported on Unified Service Desk.
 
-:::image type="content" source="media/csw-default-overview-1.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-default-overview.png"::: 
+:::image type="content" source="media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace"::: 
 
 
 ## Customer Service workspace sessions and tabs
@@ -44,13 +44,13 @@ If the agent opens the customer record from a session, a new tab will be launche
 
 ### Navigate sessions and tabs
 
-Customer Service workspace allows agents to work on up to nine sessions. Within a session, agents can open up to ten tabs. When an agent opens a case from the **Home** session or when the agent accepts an incoming conversation, a new session is launched. If the agent opens the customer record from a session, a new tab opens in the same session. The following table gives an overview of the multisession navigation:
+Customer Service workspace allows agents to work on up to nine sessions. Within a session, agents can open up to ten tabs. A new session is launced, when an agent opens a case from the **Home** session or the agent accepts an incoming conversation. If the agent opens the customer record from a session, a new tab opens in the same session. The following table gives an overview of the multisession navigation:
 
 | Action | Result |
 | ------------ |------------- |
 | Open a record from the Home session | Record opens in a new session. |
 | Open a record from the Global search | Record opens in a new session. |
-| Open a record from the retrieved search records | Record opens in the focussed session. |
+| Open a record from the retrieved search records | Record opens in a focussed session. |
 | Open a record using the Quick Create notification | Record opens in a new session |
 | Create a new record | Record opens in a new session |
 | Open a record from the timeline | Record opens in a new tab in the focused session |
@@ -59,7 +59,7 @@ Customer Service workspace allows agents to work on up to nine sessions. Within 
 | Open a dashboard from the Sitemap | Dashboard opens in a new tab in the focused session|
 
 
-## Use the Inbox
+### Use the Inbox
 
 If your administrator has turned on the inbox for your profile, you can select the **Inbox** tab to view all the cases, conversations, and activities that are assigned to you. Use the inbox to work on high-velocity tasks. You can also promote inbox sessions to regular sessions when you need more time to resolve a case or complete a conversation.
 
@@ -67,48 +67,38 @@ The asynchronous channels available in the conversation inbox are: SMS, persiste
 
 More information: [Configure the inbox view](configure-inbox.md)
 
-## Use the productivity pane with Smart Assist
+### Use the productivity pane with Smart Assist
 
 While you're working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that could be relevant. You'll also see agent scripts that guide you through a consistent series of steps with potentially automated actions through macros.
 
 More information: [Productivity pane](csw-productivity-pane.md)
 
-## Customize the agent experience with Customer Service admin center
+### Customize the agent experience with Customer Service admin center
 
 Agent experience profiles enable you to create targeted app experiences for agents and supervisors, and are an alternative to building and maintaining custom apps. With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
 
 More information: [Agent experience profiles](/dynamics365/app-profile-manager/overview)
 
+### View the agent calendar 
+
+As an agent, it's helpful to know your work schedule. With the calendar view, agents can quickly see their working hours, non-working hours, and any scheduled time-off requests.
+
+More information: [View the agent calendar (preview)](use-agent-calendar.md)
+
 ## Considerations
 
 Here are a few things to note when you use Customer Service workspace in your organization:
 
-- We recommend having only one browser instance accessing the app.
-- When you use the `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs, the result would follow the same behaviour of multisession navigation.
+-We recommend that you have only one browser instance accessing the app.
+-  The results of navigation actions when you use the app or the `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs are the same.
 - You can open sessions and tabs using Microsoft.Apm APIs. For more information: [App profile manager JavaScript API Reference](../app-profile-manager/reference/microsoft-apm.md)
 
 ### Limitations
 
 - When you switch between tabs or sessions:
-     - Sub grid controls can't retain the filter or sort conditions.
-     - Web resources, form components, and third-party websites can't maintain the state of the page. 	
-- Sub-grid controls can't maintain the state of the filtering or sorting after tab or session switch.
-- Customer Service workspace is not supported in mobile devices and Unified Service Desk.
-
-## View the agent calendar (preview)
-
-As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your working hours, non-working hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly view options.
-
-1. In Customer Service workspace, select the **Customer Service Agent Dashboard** page from the **System Dashboards** dropdown menu.
-
-1. In the site map, select the plus (+) icon, and then select **My schedule** from the dropdown menu.
-
-   :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the dropdown menu with the calendar option selected.":::
-
-   The **My schedule** page opens with a read-only calendar view of the working hours, non-working hours, and any time off you have scheduled. Use the command bar at the top to change the view to daily, weekly, or monthly.
-
-   :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
-
+     - Sub grid controls don't retain the filter or sort conditions.
+     - Web resources, form components, and third-party websites don't maintain the state of the page.
+- Customer Service workspace isn't supported in mobile devices and Unified Service Desk.
 
 ## Deprecated features
 
