@@ -1,7 +1,7 @@
 ---
 title: "Boost event engagement with real-time journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to boost event engagement with real-time journeys in Dynamics 365 Marketing."
-ms.date: 03/17/2023
+ms.date: 03/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started
@@ -145,9 +145,6 @@ The final step of the journey is to send a response based on whether the recipie
 ## Event engagement journey wrap-up
 
 You’ve now built a journey that thanks event attendees for registering, sends timely event reminders, and sends tailored email responses depending on whether a journey participant checked into the event. What’s so powerful about this journey—and real-time marketing journeys generally—is that you can use the journey for any event you host! If you tried to achieve a similar outcome using a segment-based journey, you’d need to painstakingly create specialized segments and separate journeys for each event. Real-time journeys truly are the future of customer engagement.
-
-> [!div class="mx-imgBorder"]
-> ![journey wrap up](media/event-engagement-journey-wrap-up.png "journey wrap up")
 
 ## Bonus tip
 
