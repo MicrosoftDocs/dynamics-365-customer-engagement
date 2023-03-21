@@ -1,7 +1,7 @@
 ---
 title: Omnichannel real-time analytics agents insights report for supervisors | MicrosoftDocs
 description: Learn about the real-time agents insights report for supervisors in Omnichannel for Customer Service.
-ms.date: 10/28/2022
+ms.date: 03/21/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -10,19 +10,9 @@ feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?cat
 ms.custom: intro-internal
 ---
 
-# View and understand the Agents report in Omnichannel real-time analytics (preview)
+# View and understand the Agents report in Omnichannel real-time analytics
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
 
 The **Agents** report consists of metrics that provide an overview of agent performance. Supervisors can select the **All** filter to view agent performance across all channels or select a particular channel to view channel-wise agent performance. You can also filter areas by time, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 

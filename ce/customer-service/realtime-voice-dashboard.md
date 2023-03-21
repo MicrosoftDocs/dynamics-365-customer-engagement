@@ -1,7 +1,7 @@
 ---
 title: Real-time analytics voice report| Microsoft Docs
 description: Learn about the real-time voice report to cater to your organization's customer service experience better.
-ms.date: 10/28/2022
+ms.date: 03/21/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,17 +17,9 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# View and understand the Voice report in Omnichannel real-time analytics (preview)
+# View and understand the Voice report in Omnichannel real-time analytics
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The voice report gives you insights into key metrics across the voice channel. You can filter these areas by time, queue, time zone, conversation status, or direction. More information: [Overview of Omnichannel real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 You will see the voice report, only if your organization has the voice feature configured. More information: [Configure real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#configure-real-time-analytics-reports-in-omnichannel-for-customer-service-preview)

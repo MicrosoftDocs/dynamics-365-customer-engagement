@@ -1,7 +1,7 @@
 ---
 title: Real-time analytics Summary report| Microsoft Docs
 description: Learn about the real-time summary report to cater to your organization's customer service experience better.
-ms.date: 10/28/2022
+ms.date: 03/21/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,17 +17,9 @@ ms.custom:
   - dyn365-customerservice
 
 ---
-# View and understand the Summary report in Omnichannel real-time analytics (preview)
+# View and understand the Summary report in Omnichannel real-time analytics
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The **Summary** report is the default report that appears when you select the Omnichannel real-time analytics dashboard in Customer Service workspace. This report provides KPIs across the volume of customer interactions and service levels, along with the available capacity in real time. You can filter these areas by time, channels, queue, time zone, or conversation status. More information: [Overview of Omnichannel real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 
