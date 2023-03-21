@@ -3,8 +3,8 @@ title: "Walkthrough 3: Display account and contact records in agent applications
 description: "Use this walkthrough to understand the prerequisites and procedures for displaying account and contact records in your agent applications. "
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer
