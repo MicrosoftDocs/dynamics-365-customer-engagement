@@ -36,7 +36,7 @@ As an administrator, you can configure the Agent forecasting for conversation re
 
 Supervisors can use the Agent forecasting for conversation report in the following ways:
 
-- Forecast upcoming conversation volumes based on historical traffic. For conversation volume forecasting, if chatbots are enabled for your conversational channels, conversations handled by chatbots that have no human agent joined aren't included in the forecast. You can then rely on the predicted conversation volumes for human agent staffing.
+- Forecast upcoming conversation volumes based on historical traffic. For conversation volume forecasting, if chatbots are enabled for your conversational channels, then the chatbot conversations that don't include a human agent are excluded from the forecast. You can then rely on the predicted conversation volumes for human agent staffing.
 
 - Forecast agent demand to meet the forecasted conversation volume, based on business requirements, such as service level agreement, shrinkage, and concurrency.
 
