@@ -1,6 +1,6 @@
 ---
 title: "Public IP addresses used for sending e-mails (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how public IP addresses are used for sending e-mails in the real-time marketing area of Dynamics 365 Marketing."
+description: "Learn how public IP addresses are used for sending e-mails in Dynamics 365 Marketing."
 ms.date: 03/17/2023
 ms.custom: 
   - dyn365-marketing
@@ -18,20 +18,16 @@ search.app:
 
 # Public IP addresses used for sending e-mails
 
-Dynamics 365 Marketing uses a set of dedicated IPv4 public network subnets for sending e-mails. All e-mails sent by Marketing are expected to depart from an IP address belonging to one of the subnets.
-
-Those subnets are owned by the Marketing platform and no other product or customer can use an IP address from them.
+Dynamics 365 Marketing uses a set of dedicated IPv4 public network subnets for sending e-mails. All e-mails sent by Marketing depart from an IP address belonging to one of the subnets. The subnets are owned by the Marketing platform; no other product or customer can use an IP address from them.
 
 > [!NOTE]
-> In rare cases (depending on your spam-filter provider) you may need to pre-approve our public IPs in your spam-filter.
+> In rare cases (depending on your spam-filter provider) you may need to pre-approve the Dynamics 365 Marketing public IPs in your spam-filter.
 
-To ensure that you always have the current list of IP ranges, you should refer to the [Azure IP Ranges and Service Tags](https://www.microsoft.com/download/details.aspx?id=56519) document. The document is in JSON format and lists all Azure tagged IP subnets. The Service Tag under which the Marketing e-mail public IPs are listed is "Dynamics365ForMarketingEmail". The list of IP subnets is under "addressPrefixes".
+To ensure that you always have the current list of IP ranges, you should refer to the [Azure IP Ranges and Service Tags](https://www.microsoft.com/download/details.aspx?id=56519) document. The document is in JSON format and lists all Azure-tagged IP subnets. Marketing e-mail public IPs are listed under the "Dynamics365ForMarketingEmail" Service Tag. The list of IP subnets is under "addressPrefixes."
 
-This shows your full list of IP ranges used by Dynamics 365 Marketing platform for email sending purposes.
+Th Azure IP Ranges and Service Tags document shows the full list of IP ranges used by Dynamics 365 Marketing for email sending purposes. If you only need region-specific IP ranges, refer to the following table:
 
-Alternatively, if you need only your Region-specific IP ranges, please refer to the table below:
-
-| D365 Marketing IP range | Geo Code |        Region        |
+| Dynamics 365 Marketing IP range | Geo code |        Region        |
 |:-----------------------:|:--------:|:--------------------:|
 |      40.78.242.0/25     |    NAM   |     North America    |
 |     13.66.138.128/25    |    NAM   |     North America    |
@@ -50,4 +46,4 @@ Alternatively, if you need only your Region-specific IP ranges, please refer to 
 |     51.140.147.0/24     |    GBR   |     Great Britain    |
 
 > [!IMPORTANT]
-> In case of emergency we may rotate Geo-based IP addresses. For better reliability and redundancy, we strongly recommend whitelisting all specified IP ranges.
+> In case of emergency, the geo-based IP addresses may be rotated. For better reliability and redundancy, it is strongly recommend to allow list all specified IP ranges.
