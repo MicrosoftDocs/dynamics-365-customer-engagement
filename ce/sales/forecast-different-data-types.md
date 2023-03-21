@@ -40,7 +40,7 @@ Let's look at a few examples of configuring and activating forecasts with differ
 <a name=same-fc-different-data-type-currency-qty></a>
 **Example 1: Create two different currency columns and a quantity column with the same forecast category**
 
-Lets say you want to view the **Best case** forecast category's total amount, discount amount, and the number of products sold to get this amount. You configure three **Best case** columns as follows in the **Layout** step of the forecast:
+Let's say you want to view the **Best case** forecast category's total amount, discount amount, and the number of products sold to get this amount. You configure three **Best case** columns as follows in the **Layout** step of the forecast:
 
 | Column name | Type | Selector | Data type | Amount field |
 |-------------|--------|----------|-----------|--------------|
@@ -76,7 +76,7 @@ Select **Fix issue**. The following **Layout warnings** pane is displayed, where
 <a name=different-fc-different-data-type></a>
 **Example 2: Create a currency column and a quantity column with two different forecast categories**
 
-Lets say you want to view the total revenue of the **Won** forecast category and the products sold under the **Best case** forecast category. You configure the **Won** and **Best case** columns as follows in the **Layout** step of the forecast:
+Let's say you want to view the total revenue of the **Won** forecast category and the products sold under the **Best case** forecast category. You configure the **Won** and **Best case** columns as follows in the **Layout** step of the forecast:
 
 | Column name | Type | Selector | Data type | Amount field |
 |-------------|---------|----------|-----------|--------------|
