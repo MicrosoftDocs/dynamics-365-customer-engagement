@@ -1,7 +1,7 @@
 ---
 title: "Forecast with multiple data type columns"
 description: "Configure a forecast with columns of different data types."
-ms.date: 03/15/2023
+ms.date: 03/21/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -48,7 +48,7 @@ Lets say you want to view the **Best case** forecast category's total amount, di
 | **Best case discount** | Rollup | Best case| Currency | Manual Discount or Volume Discount |
 | **Best case products sold** | Rollup | Best case| Decimal | Quantity |
 
-After you've completed the other configuration steps as required and are activating the forecast, an error message is displayed at the top of the **Activate forecast** configuration page. More information: [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
+After you've completed the other configuration steps as required and are activating the forecast, an error message is displayed at the top of the **Activate forecast** configuration page. 
 
 > [!div class="mx-imgBorder"]
 > ![Multiple data type error.](media/forecast-publish-multiple-data-type-error.png "Multiple data type error")

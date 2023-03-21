@@ -1059,7 +1059,7 @@
     - name: Table reference
       items:
         - name: About table/entity reference
-          href: /developer/about-entity-reference.md
+          href: developer/about-entity-reference.md
         - name: Account
           href: developer/entities/account.md
         - name: BulkOperation
