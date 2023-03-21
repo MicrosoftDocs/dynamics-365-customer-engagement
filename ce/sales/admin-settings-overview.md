@@ -27,7 +27,11 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 
-To go to app settings, at the bottom of the site map, select the **Change area** ![Change area.](media/change-area-icon.png "Change area") icon, and then select **App Settings**.
+## Sales app settings
+
+The Sales app settings include settings for core sales areas that are part of the Sales Enterprise and Sales Premium licenses.
+
+To open the app settings, select **Change area** ![Change area.](media/change-area-icon.png "Change area") at the bottom of the site map, and then select **App Settings**.
 
 
 ![Select the Change area icon to go to App Settings.](media/change-area-app-settings.png "Select the Change area icon to go to App Settings")
@@ -41,6 +45,14 @@ The settings for different product areas are categorized as such.
 
 > [!TIP]
 > By default, this new unified settings experience is available only in the Sales Hub app. To learn how to enable this experience in custom applications, see **Leverage the unified settings experience in a custom sales application** in the [Simplified system configuration in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/03/30/simplified-system-configuration-in-dynamics-365-sales/) blog.  
+
+## Sales Insights settings
+
+The Sales insights settings include settings for premium features such as, relationship intelligence, predictive scoring, sales accelerator, and so on. These settings are available only if you have the Sales Premium license.
+
+To open the Sales Insights settings, select **Change area** ![Change area.](media/change-area-icon.png "Change area") at the bottom of the site map, and then select **Sales Insights Settings**. More information: [Install and administer Sales Insights features](intro-admin-guide-sales-insights.md)
+
+:::image type="content" source="media/sales-insights-settings.png" alt-text="Sales insights settings page." lightbox="media/sales-insights-settings.png":::
 
 # [Sales Professional](#tab/SP)
 
