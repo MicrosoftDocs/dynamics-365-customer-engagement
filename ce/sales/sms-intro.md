@@ -1,7 +1,7 @@
 ---
 title: Engage with customers through text messages
 description: Enable your sellers to send text messages (SMS) to customers and refer previous communications in context without leaving the application or losing view of customers' details.
-ms.date: 03/17/2023
+ms.date: 03/21/2023
 ms.topic: overview
 ms.custom: bap-template
 author: udaykirang
@@ -16,9 +16,6 @@ Sending and receiving text messages through SMS is an effective way for sellers 
 Dynamics 365 Sales enables your sellers to send and receive SMS from customers through the text message feature. Also, sellers can refer to their past communication in context without leaving the application or losing their view of their customers' details.   
 
 In the sequences, SMS can be included as a step to send reminders or updates about key events. 
-
->[!NOTE]
->The text message feature is being rolled out in a phased manner across different geographic regions. To verify whether the feature is available in your region, look for version 9.0.23023.10002 in the [Latest version availability](/dynamics365/released-versions/dynamics365salesinsights) section.
 
 ## License and role requirements
 | Requirement type | You must have |
