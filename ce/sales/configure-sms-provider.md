@@ -1,7 +1,7 @@
 ---
 title: Configure SMS provider to send and receive text messages
 description: This article explains how to set up the SMS service provider with phone numbers in Dynamics 365 Sales.
-ms.date: 03/17/2023
+ms.date: 03/21/2023
 ms.topic: how to
 author: udaykirang
 ms.author: udag
