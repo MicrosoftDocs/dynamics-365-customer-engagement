@@ -3,8 +3,8 @@ title: "How Unified Service Desk handles application and system errors | Microso
 description: "Learn about the types of exceptions and also understand how application and system faults are managed in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

@@ -3,8 +3,8 @@ title: "Toolbars in Unified Service Desk | MicrosoftDocs"
 description: "Learn to configure and customize toolbars in Unified Service Desk. Also, find information about viewing properties and action calls for the toolbar buttons."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

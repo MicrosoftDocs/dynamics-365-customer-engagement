@@ -28,7 +28,7 @@ By default, the users with sales manager and sequence manager roles can view the
 ## View the sequence stats page
 
 >[!NOTE]
->-	Verify that an administrator has enabled the sales acceleration reporting in your organization. More information: [Sequence reporting](customize-sales-accelerator-sellers.md##sequence-reporting)
+>-	Verify that an administrator has enabled the sales acceleration reporting in your organization. More information: [Sequence reporting](customize-sales-accelerator-sellers.md#sequence-reporting)
 >-	After an administrator enables reporting, the application might take up to 24 hours to display data on the stats page for the first time. Subsequently, data in the stats page is refreshed every four hours. 
 
 **To view the sequence stats**

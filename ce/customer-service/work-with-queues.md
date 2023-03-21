@@ -3,8 +3,8 @@ title: "Work with queues | MicrosoftDocs"
 description: "Use this article to learn how to work with queues, find queue items, and pick work items from queues."
 ms.date: 02/07/2023
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 searchScope:
 - D365-App-customerservicehub

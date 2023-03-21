@@ -3,8 +3,8 @@ title: "msdyn_ocwhatsappchannelaccount Entity Reference (Microsoft Dataverse)| M
 description: "Includes schema information and supported messages for the msdyn_ocwhatsappchannelaccount entity."
 ms.date: 10/27/2022
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
+author: "gandhamm"
+ms.author: mgandham
 manager: "shujoshi"
 ---
 # msdyn_ocwhatsappchannelaccount Entity Reference 

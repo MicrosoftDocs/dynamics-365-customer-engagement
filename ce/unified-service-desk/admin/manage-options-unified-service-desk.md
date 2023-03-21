@@ -3,8 +3,8 @@ title: "Manage global options for Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use the Options setting to manage global name or value pairs used by Unified Service Desk components."
 ms.date: 01/02/2023
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin
