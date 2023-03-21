@@ -1,6 +1,6 @@
 ---
-title: "Set up Dynamics 365 Field Service users and security roles | MicrosoftDocs"
-description: Learn how to set up Field Service users and security roles in Dynamics 365 Field Service
+title: Set up users and security profiles
+description: Learn how to set up Field Service users and security roles in Dynamics 365 Field Service.
 ms.date: 02/18/2021
 
 ms.topic: article
@@ -12,11 +12,12 @@ search.app:
   - D365FS
 ---
 
-# Set up Dynamics 365 Field Service users and security profiles
+# Set up users and security profiles
 
 In today's workforce, field service management requires several individuals with different roles to execute a work order, including administrators, dispatchers, and frontline workers. This document will provide you the steps to set up each role to successfully use Dynamics 365 Field Service through the different security profiles - security role and field security profile. 
 
 ## Dynamics 365 Field Service roles + definitions
+
 First, let's define the roles that are within of your workforce and understand how they are referred to in Dynamics 365 Field Service.  
 
 **Field Service—Resource** are designed for **frontline workers** who carry out work orders for customers on-site primarily via the Dynamics 365 Field Service mobile application. This role only has read and update abilities on work orders. For example, frontline workers can only view and update information on work orders that are assigned to them.

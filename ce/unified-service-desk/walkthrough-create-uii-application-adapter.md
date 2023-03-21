@@ -3,8 +3,8 @@ title: "Walkthrough: Create a UII Application Adapter in Unified Service Desk | 
 description: "Use this walkthrough to understand the prerequisites and procedures for hosting and interacting with external applications in Unified Service Desk."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

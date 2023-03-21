@@ -54,4 +54,4 @@ This section shows only if your organization uses [Resource Scheduling Optimizat
 | Options | Descriptions |
 | --- | --- |
 |  Enable Resource Scheduling Optimization    |   Enables or disables automated scheduling in the environment.   |
-|  Default Goal   |   An [Optimization Goal](rso-optimization-goal.md) is what the resource scheduling optimization solution aims to optimize. An example of a goal is to maximize working hours or minimize travel time. A default goal helps speed up interactions with Resource Scheduling Optimization within the schedule board by predefining how the engine optimizes data. [Single Resource Optimization](single-resource-optimization.md) is the default goal.  |
+|  Default Goal   |   An [Optimization Goal](rso-optimization-goal.md) is what the Resource Scheduling Optimization solution aims to optimize. An example of a goal is to maximize working hours or minimize travel time. A default goal helps speed up interactions with Resource Scheduling Optimization within the schedule board by predefining how the engine optimizes data. [Single Resource Optimization](single-resource-optimization.md) is the default goal.  |

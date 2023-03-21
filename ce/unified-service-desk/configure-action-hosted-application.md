@@ -3,8 +3,8 @@ title: "Configure an action for the hosted application | MicrosoftDocs"
 description: "Learn about configuring actions for the hosted application before deploying it to Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

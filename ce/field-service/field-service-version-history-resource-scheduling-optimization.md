@@ -1,6 +1,6 @@
 ---
 title: "Resource Scheduling Optimization version history | MicrosoftDocs"
-description: Find a list of important updates for resource scheduling optimization in Dynamics 365 Field Service.
+description: Find a list of important updates for Resource Scheduling Optimization in Dynamics 365 Field Service.
 ms.date: 12/15/2022
 
 ms.subservice: resource-scheduling-optimization
@@ -94,18 +94,18 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 3.2.3.3
 
--	Bug fix: Addressed issue where a hard and virtually locked booking that was out of scope would show up as a create operation in the optimization request booking tab. Optimization request bookings are created for virtually locked bookings if resource scheduling optimization has something to change. If there's nothing to change, the record shouldn't be created. 
+-	Bug fix: Addressed issue where a hard and virtually locked booking that was out of scope would show up as a create operation in the optimization request booking tab. Optimization request bookings are created for virtually locked bookings if Resource Scheduling Optimization has something to change. If there's nothing to change, the record shouldn't be created. 
 
 >[!OTE]
 > Virtually locked bookings are bookings created outside of the optimization scope.
 
 -	Bug fix: reset would cause error: “Value can't be null.” When a reset does happen, the confusing error is no longer provided. Instead, it errors by either defaulting the effort level or raising a ```RSODataNotFound``` exception.  
--	Bug fix: reset all in resource scheduling optimization **Schedules** tab wasn't properly deleting data within database.  
+-	Bug fix: reset all in Resource Scheduling Optimization **Schedules** tab wasn't properly deleting data within database.  
 -	Bug fix: Addressed error issue "System.OutOfMemoryException: Array dimensions exceeded supported range.” This scenario would occur when a trying to optimize a large number of resource requirements (~50k). 
 -	Fixed “Keyset doesn't exist” errors. This error was a transient issue that would fail the authentication from Azure to CRM.
 -	Bug fix: within ineligibility graph in which an entire resource was incorrectly removed if other shifts associated with the resource were still eligible to be scheduled. 
 -	Bug fix: optimization would run for more than one day without completing. This scenario would occur when 5000 resource requirements and 500 resources were scheduled to be optimized over 21 days. 
--	Bug fix: the settings panel within resource scheduling optimization app displayed "properties" instead of "priorities."
+-	Bug fix: the settings panel within Resource Scheduling Optimization app displayed "properties" instead of "priorities."
 -	Bug fix: optimization goal wasn't saving when the travel time calculation was updated.
 
 ## 3.2.2.18
@@ -123,24 +123,24 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 3.2.1.6
 
-- Bug fix: scenario installing the resource scheduling optimization analytics solution would remove the resource scheduling optimization app module icon. 
+- Bug fix: scenario installing the Resource Scheduling Optimization analytics solution would remove the Resource Scheduling Optimization app module icon. 
 - Allow resources to travel outside of working hours [Read about this update.](/dynamics365/field-service/rso-travel-outside-working-hours)
 - Improved predictive travel time accuracy [Read about this update.](/dynamics365/field-service/rso-predictive-travel) 
 
 ## 3.1.5.24
 
-- Bug fix: scenario where the MoveUp button was hidden on the resource scheduling optimization goal objective. 
+- Bug fix: scenario where the MoveUp button was hidden on the Resource Scheduling Optimization goal objective. 
 - Made performance enhancements for single resource optimization scenarios.  
 
 ## 3.1.4.1
 
-- Bug fix: scenario where the resource scheduling optimization package was imported regardless of minimum Universal Resource Scheduling version required, resulting in an import failure. The fix ensures that the user can't import the resource scheduling optimization package if the minimum Universal Resource Scheduling version isn't met.  
+- Bug fix: scenario where the Resource Scheduling Optimization package was imported regardless of minimum Universal Resource Scheduling version required, resulting in an import failure. The fix ensures that the user can't import the Resource Scheduling Optimization package if the minimum Universal Resource Scheduling version isn't met.  
 - Bug fix: scenario where single resource optimization deleted valid bookings. This scenario occurred when the user attempted to trigger single resource optimization for a resource. The single resource optimization would then delete most of the valid and eligible bookings.  
 
 ## 3.1.3.17
 
-- Bug fix: where 'Created On' field in optimization panel of resource scheduling optimization schedule board doesn't respect date format of user setting. 
-- Bug fix: issue where optimization request status wasn't set correctly when resource scheduling optimization is run as a simulation. 
+- Bug fix: where 'Created On' field in optimization panel of Resource Scheduling Optimization schedule board doesn't respect date format of user setting. 
+- Bug fix: issue where optimization request status wasn't set correctly when Resource Scheduling Optimization is run as a simulation. 
 
 ## 3.0.19316.2
 
@@ -149,8 +149,8 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
   - Create a resource A with four hours available hour on their calendar; make sure there are a few minutes travel time between the location between resource and requirement.
   - Use msdyn_SearchResourceAvailability with the ConsiderTravelTime parameter set to false, and to find availability for this requirement. Before this, no potential bookable slot was returned; now there's potential bookable slot returned from resource A since resource A has enough available hours.
 - Resource scheduling optimization booking details: **Operation Details** field doesn't show message anymore if user is missing the Field Service - Administrator security role.
-- Booking status form showing false scheduling method the first time resource scheduling optimization is opened after initial setup.
-- Bug fix: Fixed upgrade issue from resource scheduling optimization v3.0.18341.1 to latest in-market version.
+- Booking status form showing false scheduling method the first time Resource Scheduling Optimization is opened after initial setup.
+- Bug fix: Fixed upgrade issue from Resource Scheduling Optimization v3.0.18341.1 to latest in-market version.
 
 ## 3.0.19263.1
 

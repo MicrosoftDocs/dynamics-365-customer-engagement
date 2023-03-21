@@ -3,8 +3,8 @@ title: "lcw:onMessageReceived | MicrosoftDocs"
 description: lcw onMessageReceived event (Omnichannel for Customer Service JavaScript API reference)
 ms.date: 11/10/2021
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.reviewer: nenellim
 ---

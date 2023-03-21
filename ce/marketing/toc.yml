@@ -152,6 +152,8 @@
           href: fix-high-bounce-rate.md
         - name: Warm up an IP or domain
           href: email-warm-up.md
+        - name: Public IP addresses used for sending e-mails
+          href: public-ip-addresses-for-email-sending.md
         - name: Create an SPF TXT record
           href: create-spf-record.md
         - name: Email security and connection encryption
@@ -338,6 +340,8 @@
       items: 
       - name: Real-time marketing asset library add-on
         href: real-time-marketing-asset-library.md
+      - name: Upload, manage and use images, files, and videos in online content
+        href: upload-images-files.md
     - name: Administration
       items: 
       - name: Journeys
@@ -522,8 +526,6 @@
         href: pages-forms-troubleshoot.md
     - name: Marketing content library management
       items: 
-      - name: Upload and use images in online content
-        href: upload-images-files.md
       - name: Create a video library and add videos to your designs
         href: video-content.md
     - name: Segmentation
