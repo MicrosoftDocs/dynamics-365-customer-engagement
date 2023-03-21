@@ -288,6 +288,11 @@
       },
       "ms.reviewer": {
         "field-service/**.*": "mhart"
+      },
+      "titleSuffix": {
+        "field-service/*.md": "Dynamics 365 Field Service",
+        "field-service/*.yml": "Dynamics 365 Field Service"
+      }
       }
     },
     "template": [],
