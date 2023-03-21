@@ -1,49 +1,43 @@
 ---
-title: Model existing data tables as skills
-description: Learn how you can use custom data tables to model them as skills in unified routing.
+title: Model existing tables as skills
+description: Learn how you can use existing tables to model skills in Dynamics 365 Customer Service unified routing.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/08/2023
+ms.date: 03/21/2023
 ms.custom: bap-template
 ---
 
-# Model existing data tables as skills
+# Model existing tables as skills
 
-Organizations can use existing data tables and model them as skills to perform skill-based routing. With this approach, you can avoid recreating data definitions as skills in Dynamics 365, and you won't need to write classification rules to stamp skills on the incoming work items. By modeling existing tables as skills, data management and maintenance becomes easier.
+Instead of [entering skills](setup-skills-assign-agents.md) from scratch to use with skill-based routing, model skills on your existing data to save time and effort. The following examples illustrate two common scenarios.
 
-The following examples help understand the scenarios.
+**Example 1**: Use an existing system table to model a skill
 
-**Example 1**: Use an existing system table to model as a custom skill
+A customer calls a company's support line for help with a product. An agent creates a case in Dynamics 365 Customer Service. The case record includes the customer's product name and product type. The relationship between product name and product type is already established in the system. Agents are trained to troubleshoot issues with the company's products&mdash;that is, they're "skilled" on those product types. Therefore, the company can model "Product Type" as a skill and assign product types as skills to its agents.
 
-- A customer creates a support ticket with Contoso Coffee for a product they're having issues with.
-- In Customer Service, a case is created with “Product” as one of the fields. There could be thousands of product types (or values), such as Café A-100, Café A-200, and Smart Brew 300.
-- The relationship between product and the product types already exists in your system.
-- Contoso’s workforce is trained to handle queries on these “Products”, and thus are “skilled” on the product. Contoso can model "Product" as a skill and assign different product types as skills to different agents.
-- Similarly, they can model more attributes as skills and use custom skill match logic to find the right agents.
+**Example 2**: Use an existing custom table to model a skill
 
-**Example 2**: Use a custom table to model as a custom skill
+A company has created a column called "Operating market" in a [custom table](/power-apps/maker/data-platform/data-platform-create-entity) in live chat. Whenever a customer starts a chat with a support agent, "Operating market" automatically stores the customer's location. Agents are trained to manage the expectations and requirements of customers in specific operating markets&mdash;that is, they're "skilled" on those markets. Therefore, the company can model "Operating market" as a skill and assign markets as skills to its agents.
 
-- Contoso Coffee has configured “Operating market” as a [custom table](/power-apps/maker/data-platform/data-platform-create-entity) in live chat. Whenever a customer starts a chat with Contoso, the "Operated market” field is auto-populated with the customer’s location.
-- The data for "Operating market" is maintained in Contoso. The data is updated whenever Contoso onboards a new market or updates an existing one.
-- Contoso’s workforce is trained for different “Operating markets”, and is “skilled” to handle customer expectations and requirements for specific markets. Contoso can model "Operating market" as a custom skill and assign different markers as skills to their agents.
+## How using tables as skills differs from traditional skill-based routing
 
-## How using custom tables as skills differs from default skill-based routing
+You already have information about the customers you serve and the products you support in Customer Service. To use traditional skill-based routing, you would:
 
-Say you have multiple product categories and attributes already configured in your system, such as all your cases populated with "Product" and "Customer" information. To use skill-based routing, you'll take the following actions:
-- Create all the "Product" and "Customer" values as skills
-- Assign those skills to agents
-- Write classification rules to stamp "Product" and "Customer" as skills for the incoming work item
+- Enter all your products and customers as skills.
+- Assign those skills to agents.
+- Create classification rules to add "product" and "customer" skills to incoming work items.
 
-When a new value is added to either "Product" or "Customer" fields, you'll take the following actions:
-- Create new skills corresponding to each value
-- Manually update the newly created skills
-- Update your classification rules with those new values
+Whenever you added a new product or customer, you'd have to:
 
-With this method, there's duplication of data because you'll maintain the data on your end and in Dynamics 365.
+- Create a new skill for the new product or customer.
+- Assign the new skill to agents.
+- Update your classification rules.
 
-However, if you model "Product" and "Customer" fields as custom skills, you'll create new skills for those values only and point to the data or values that exist in your system instead of manually adding them. You can maintain all your data at a single place, and you won’t need to write classification rules.  
+This method results in duplicated data and effort&mdash;you're maintaining products and customers in tables and also creating skills for them.
+
+However, if you model the "Product" and "Customer" columns in your tables as skills, you eliminate duplication. you'll create new skills for those values only and point to the data or values that exist in your system instead of manually adding them. You can maintain all your data at a single place, and you won't need to write classification rules.  
 
 ## How to model custom tables as skills
 
@@ -76,10 +70,10 @@ Using this approach, you can maintain the modeled skills at agent level and chan
 ### Things to consider
 
 - [Intelligent skill finder](set-up-skill-based-routing.md#create-skill-finder-models) doesn't predict custom attributes that are modeled as skills.
-- The modeled skills won’t be present in skill analysis reports.
+- The modeled skills won't be present in skill analysis reports.
 - [Out-of-the-box assignment methods](assignment-methods.md#types-of-assignment-methods) don't support skill match for custom skills.
 - The custom skills won't show up as skills in the [agent skill control](manage-skills.md).
-- [Routing diagnostics](unified-routing-diagnostics.md) won't display the “custom skills” that were matched during assignment.
+- [Routing diagnostics](unified-routing-diagnostics.md) won't display the "custom skills" that were matched during assignment.
 - The custom skills setup will work on the "Lookup" datatype only.
 
 ## Next steps
