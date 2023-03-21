@@ -1,7 +1,7 @@
 ---
 title: "Configure agent forecasting for conversations in Customer Service | Microsoft Docs"
 description: "Learn how to configure agent forecasting for conversations in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 10/01/2022
+ms.date: 04/01/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -65,7 +65,7 @@ The forecast report for agents for conversations uses a statistical model to cal
 The report can forecast daily trends for a date range up to six months, and intra day (15 minute interval) trends for a date range up to six weeks, depending on how many days of historical data are available and used. In general, the model can forecast for a period that is half of the input date range, with the following conditions:
 
 - For daily conversation volume and agent demand forecast, if the historical data time range is less than 12 months, the forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for the next four months. If the historical range equals or is more than 12 months (up to 24 months), the report will forecast for the next six months.
-- For intra day (15 minutes interval) conversation volume and agent demand forecast, the model only analyzes the recent 6 weeks of historical data. The time range of forecast is half of the total input time range. For example, 12 weeks historical date range can forecast for the next 6 weeks (which is the maximum). Out of these 12 weeks of historical data, only the recent 6 weeks will be analyzed to generate the forecast.
+- For intra day (15 minutes interval) conversation volume and agent demand forecast, the model only analyzes the recent six weeks of historical data. The time range of forecast is half of the total input time range. For example, 12 weeks historical date range can forecast for the next six weeks (which is the maximum). Out of these 12 weeks of historical data, only the recent six weeks will be analyzed to generate the forecast.
 
 The historical data must meet the following minimum requirements for the models to generate forecasting. Otherwise, an error message will be posted on the admin settings page.  
 
