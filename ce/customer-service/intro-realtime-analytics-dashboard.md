@@ -92,7 +92,7 @@ You can use the **Edit report** option to customize the visual display of report
 
 ### Pause updates on report data
 
-Report data for all the reports are refreshed automatically in real time, except for Ongoing conversation report, which must be refreshed manually. You can use the **Pause updates** option to view and analyze real-time metrics at any point in time. You can reset the report data to be refreshed automatically by selecting **Resume updates**.
+Report data for all the reports is refreshed automatically in real time, except for Ongoing conversation report, which must be refreshed manually. You can use the **Pause updates** option to view and analyze real-time metrics at any point in time. You can reset the report data to be refreshed automatically by selecting **Resume updates**.
 
 ### See also
 
