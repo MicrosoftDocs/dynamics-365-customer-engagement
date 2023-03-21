@@ -39,12 +39,11 @@ You can set up your Customer Service workspace environment so that agents workin
 ## Customer Service workspace sessions and tabs
 
 Customer Service workspace allows agents to work on multiple sessions at a time in a single app while keeping the work organized.
-When an agent opens a case from the Home session or when the agent accepts an incoming conversation, a new session will be launched. 
-If the agent opens the customer record from a session, a new tab will be launched in the same session. 
+Agents can work on up to nine sessions and within a session, they can open up to ten tabs. A new session is launched, when an agent opens a case from the **Home** session or the agent accepts an incoming conversation. If the agent opens the customer record from a session, a new tab opens in the same session. 
 
 ### Navigate sessions and tabs
 
-Customer Service workspace allows agents to work on up to nine sessions. Within a session, agents can open up to ten tabs. A new session is launced, when an agent opens a case from the **Home** session or the agent accepts an incoming conversation. If the agent opens the customer record from a session, a new tab opens in the same session. The following table gives an overview of the multisession navigation:
+ The following table gives an overview of the multisession navigation:
 
 | Action | Result |
 | ------------ |------------- |
