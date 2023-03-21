@@ -1,7 +1,8 @@
 ---
 title: Use the agent calendar view | MicrosoftDocs
 description: Navigate the agent calendar in Dynamics 365 Customer Service admin center.
-ms.date: 11/21/2022
+author: lalexms
+ms.author: laalexan
 ms.reviewer: neeranelli
 ms.service: dynamics-365 
 ms.topic: how-to 
@@ -9,7 +10,7 @@ ms.date: 03/01/2023
 ms.custom: bap-template 
 ---
 
-## View the agent calendar (preview)
+# View the agent calendar (preview)
 
 As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your working hours, non-working hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly view options.
 
