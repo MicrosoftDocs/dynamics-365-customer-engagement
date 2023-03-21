@@ -341,7 +341,7 @@
           href: provide-permissions-forecast.md
         - name: Choose layout and columns
           href: choose-layout-and-columns-forecast.md
-        - name: Forecast with different data type
+        - name: Forecast with multiple data types
           href: forecast-different-data-types.md
         - name: Apply additional filter
           href: add-additional-filters.md
@@ -361,7 +361,7 @@
           href: deactivate-delete-forecast.md
         - name: Clone a forecast
           href: clone-forecast.md
-        - name: Configure premium forecasting
+        - name: Premium forecasting overview
           href: configure-premium-forecasting.md
         - name: View prediction model status
           href: view-prediction-model-status.md
