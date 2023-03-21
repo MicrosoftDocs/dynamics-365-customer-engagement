@@ -31,7 +31,7 @@ You can manage sellers availability in the following ways:
 
     1. On the top, select the arrow next to the user name and then select **Work Hours**. 
         
-        :::image type="content" source="media/manage-seller-availability/manage-seller-availability-select-chevron.png" alt-text="Select the arrow next to the name of the user.":::
+        :::image type="content" source="media/manage-seller-availability-select-chevron.png" alt-text="Select the arrow next to the name of the user.":::
 
     1. On the **Monthly View** tab, select **Set Up** > **Time Off**.
 
