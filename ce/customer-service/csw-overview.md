@@ -1,7 +1,7 @@
 ---
 title: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service."
-ms.date: 12/15/2022
+ms.date: 04/01/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -112,15 +112,15 @@ More information: [Productivity pane](csw-productivity-pane.md)
 
 ## View the agent calendar (preview)
 
-As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your working hours, non-working hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, monthly, and agenda (list-type) view options.
+As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your working hours, non-working hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly views. It also has an agenda view lets you see a list-type view of your schedule. 
 
 1. In Customer Service workspace, select the **Customer Service Agent Dashboard** page from the **System Dashboards** dropdown menu.
 
-1. In the site map, select the plus (+) icon, and then select **My schedule** from the dropdown menu.
+1. In the site map, select the plus (+) icon, and then select **My Schedule** from the dropdown menu.
 
    :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the dropdown menu with the calendar option selected.":::
 
-   The **My schedule** page opens with a read-only calendar view of the working hours, non-working hours, and any time off you have scheduled. Use the command bar at the top to change the view to daily, weekly, or monthly.
+   The **My schedule** page opens with a read-only calendar view of the working hours, non-working hours, and any time off you have scheduled. Use the command bar at the top to change the view to agenda, daily, weekly, or monthly.
 
    :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
 
