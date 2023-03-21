@@ -36,7 +36,7 @@ As an administrator, you can configure the Agent forecasting for conversation re
 
 Supervisors can use the Agent forecasting for conversation report in the following ways:
 
-- Forecast upcoming conversation volumes based on historical traffic. For conversation volume forecasting, if chatbots are set up for your conversational channels, conversations handled by chatbots that have no human agent joined are excluded from the forecasting, so that you can rely on the predicted conversation volumes for human agent staffing.
+- Forecast upcoming conversation volumes based on historical traffic. For conversation volume forecasting, if chatbots are enabled for your conversational channels, conversations handled by chatbots that have no human agent joined aren't included in the forecast. You can then rely on the predicted conversation volumes for human agent staffing.
 
 - Forecast agent demand to meet the forecasted conversation volume, based on business requirements, such as service level agreement, shrinkage, and concurrency.
 
@@ -48,7 +48,7 @@ Supervisors can use the Agent forecasting for conversation report in the followi
 
 - View rollup of actual and forecasted volume by hourly, daily, weekly, monthly and yearly basis. For agent demand report, option to select the type of rollup from Maximum, Minimum, Average and Sum.
 
-- Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
+- Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This automatic detection helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
 
 > [!NOTE]
 > Be aware of the following when using the Forecast report:
@@ -107,7 +107,7 @@ For users in your organization to be able to access the forecast reports, they m
 
 1. Under **Global Forecasting configuration** specify the following settings at the global level to apply to all channels. Some default values are provided as a suggestion to get you started, but you may want to change them to meet the needs of your organization.
 
-   - **Required Service Level (%)**: The percentage of the conversations needed to meet the target answer time. For example if you set your required service level percentage to 80 and your target answer time to 77, it indicates that you want 80 percent of your conversations to be answered in 77 seconds or less.
+   - **Required Service Level (%)**: The percentage of the conversations needed to meet the target answer time. For example, if you set your required service level percentage to 80 and your target answer time to 77, it indicates that you want 80 percent of your conversations to be answered in 77 seconds or less.
    - **Target Answer Time (Seconds)**: The number of seconds in which you want your agents to answer their conversations.
    - **Shrinkage (%)**: The percentage of time agents are unavailable to handle conversations. If you increase this number, the percentage of time that the agents are unavailable goes up, which means you would need more agents to meet the service-level agreement.
    - **Concurrency (#)**: The number of simultaneous interactions per agent. For voice calls, this value should be set to one. For chats and messaging channels, this value can be set as desired.
