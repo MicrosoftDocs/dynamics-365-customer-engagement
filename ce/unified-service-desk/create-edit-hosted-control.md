@@ -3,8 +3,8 @@ title: "Create or edit a hosted control | MicrosoftDocs"
 description: "Understand how to create and edit existing hosted controls using Unified Service Desk Administrator."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

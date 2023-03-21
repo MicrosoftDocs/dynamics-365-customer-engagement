@@ -112,7 +112,7 @@
       href: users-user-profiles.md
     - name: Manage capacity profiles
       href: capacity-profiles.md
-    - name: Manage historical data of agent's capacity updates
+    - name: Delete historical data of agent capacity updates
       href: manage-historical-data-capacity-updates.md
     - name: Manage personas and custom security roles
       href: role-persona-mapping.md
