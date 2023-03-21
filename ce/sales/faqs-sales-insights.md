@@ -126,6 +126,10 @@ Depending on the region where your organization is hosted, data is stored in the
 
 More information: [Azure Regional Pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs)
 
+### Which users can push data from Dynamics 365 Sales to Dataverse?
+
+The Dynamics 365 Sales data is pushed to Dataverse to generate insights such as, predictive scoring, relationship analytics, who knows whom, and predictive forecasting. A set of predefine system and application users are used to push data from Dynamics 365 Sales to Dataverse. For more information, see [System and application users](/power-platform/admin/system-application-users).
+
 ## Digital sales
 
 ### What is digital sales?
