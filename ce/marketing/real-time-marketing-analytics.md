@@ -1,7 +1,7 @@
 ---
 title: "Access and interpret analytics (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to access and interpret real-time marketing analytics in Dynamics 365 Marketing."
-ms.date: 02/21/2023
+ms.date: 03/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -33,12 +33,13 @@ With real-time marketing analytics, you can:
 
 ### Contact insights
 
-Get a comprehensive view of how a contact has engaged with your journeys in real-time marketing, including all past email sends, opens, clicks, form submissions and more. You can now better understand your audience's behavior and interests, make informed decisions based on past engagement, and tailor your marketing efforts to their specific needs and preferences. To view contact insights, go to Real-time marketing > Audience > Contacts, select a contact record, and then open its Insights tab.
+Get a comprehensive view of how a contact has engaged with your journeys in real-time marketing, including all past email sends, opens, clicks, form submissions, and more. Better understand your audience's behavior and interests, make informed decisions based on past engagement, and tailor your marketing efforts to their needs and preferences. To view contact insights, go to **Real-time marketing** > **Audience** > **Contacts**, select a contact record, and then open its **Insights** tab.
 
 The following insights categories are provided:
-- Overview: View a chart of the engagement interactions and a summary of the most important KPIs per channel for the selected contact 
-- Email Insights: View complete details of email interactions for the selected contact, including a list of all messages sent to them, plus lists of all opens, clicks, bounces, and more. 
-- Form Insights: See which marketing forms the contact has visited and submitted and the content of each submission. 
+
+- **Overview**: View a chart of the engagement interactions and a summary of the most important KPIs for each channel for the selected contact.
+- **Email insights**: View complete details of email interactions for the selected contact, including a list of all messages sent to them, plus lists of all opens, clicks, bounces, and more. 
+- **Form insights**: See which marketing forms the contact has visited and submitted. View the content of each submission. 
 
 ### Journey operational analytics
 
@@ -56,7 +57,7 @@ Select any journey component to view near real-time operational analytics in the
     > [!div class="mx-imgBorder"]
     > ![Email channel analytics screenshot.](media/real-time-marketing-channel-analytics.png "Email channel analytics screenshot")
 
-    To view delivery and interaction statistics, select the **Delivery and interaction details** link at the bottom of the channel analytics pane. Delivery and interaction details allows users to analyze delivery, engagement, and performance data for their email, text, or push notification messages. Delivery tab provides details on messages sent, delivered, blocked or bounced along with the respective reasons. The Interactions tab provides detailed data on customers that opened or clicked a message, as well as unsubscription interaction data. It is important to note that a message’s unique opens and clicks are calculated based on the journey run of a customer. This means that if the same customer enters the same journey multiple times and opens or clicks the same message each time, the system will record multiple unique opens or clicks. For example, if a customer clicks the same message in two different journey executions, two unique clicks will be recorded. 
+    To view delivery and interaction statistics, select the **Delivery and interaction details** link at the bottom of the channel analytics pane. Delivery and interaction details allow you to analyze delivery, engagement, and performance data for your email, text, or push notification messages. The **Delivery** tab provides details on messages sent, delivered, blocked, or bounced along with the respective reasons. The **Interactions** tab provides detailed data on customers that opened or clicked a message, as well as unsubscription interaction data. It's important to note that a message’s unique opens and clicks are calculated based on the journey run of a customer. This means that if the same customer enters the same journey multiple times and opens or clicks the same message each time, the system will record multiple unique opens or clicks. For example, if a customer clicks the same message in two different journey executions, two unique clicks will be recorded. 
 
     > [!div class="mx-imgBorder"]
     > ![Delivery and interactions details screenshot.](media/real-time-marketing-analytics-interactions.png "Delivery and interactions details screenshot")
