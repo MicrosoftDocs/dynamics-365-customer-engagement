@@ -40,15 +40,15 @@ You can use the forecast reports for agent, case, and conversation volumes in th
 
 - Visualize forecasted volumes and agent demand on a daily basis, for a time range up to six months depending on how many days of cases or conversations were created in the past. This forecast can be used to plan agent resourcing and recruitment, to meet future demand.
 
-- Visualize forecast volumes and agent demand on a fifteen minute interval basis, for a time range up to six weeks depending on how many days of cases or conversations were created in the past. This forecast can be used to schedule agents to meet the near-term demand.
+- Visualize forecast volumes and agent demand on a 15-minute interval basis, for a time range up to six weeks, depending on how many days of cases or conversations were created in the past. This forecast can be used to schedule agents to meet the near-term demand.
 
 - Slice forecasted volumes and agent demand by channel and queue.
 
-- View rollup of actual and forecasted volume by hourly, daily, weekly, monthly and yearly basis. For agent demand report, option to select the type of rollup from Maximum, Minimum, Average and Sum.
+- View a rollup of actual and forecasted volume by an hourly, daily, weekly, monthly and yearly basis. For the agent demand report, you can select the type of rollup from maximum, minimum, average and sum.
 
-- Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
+- Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case or conversation volumes during special, seasonal events.
 
-For details of how the forecast models work for this feature, see [How agent forecasting for conversation works](configure-agent-forecasting-conversation.md#how-agent-forecasting-for-conversation-works) and [How case volume forecasting works](configure-volume-forecasting.md#how-case-forecasting-works).
+For details about how the forecast models work for this feature, see [How agent forecasting for conversation works](configure-agent-forecasting-conversation.md#how-agent-forecasting-for-conversation-works) and [How case volume forecasting works](configure-volume-forecasting.md#how-case-forecasting-works).
 
 > [!NOTE]
 > Be aware of the following when using the Forecast report:
@@ -59,7 +59,7 @@ For details of how the forecast models work for this feature, see [How agent for
 
 ## Prerequisites
 
-Before you can use the forecast reports, ensure that your administrator has assigned you to a role that has **Read** privileges on the **msdyn_dataanalyticsreport_forecast** table. More information: [Configure case volume forecasting (preview)](configure-volume-forecasting.md#prerequisites) and [Configure agents for conversations forecasting (preview)](configure-agent-forecasting-conversation.md#prerequisites).
+Before you can use the forecast reports, ensure that your administrator has assigned a role to you that has **Read** privileges on the **msdyn_dataanalyticsreport_forecast** table. More information: [Configure case volume forecasting (preview)](configure-volume-forecasting.md#prerequisites) and [Configure agents for conversations forecasting (preview)](configure-agent-forecasting-conversation.md#prerequisites).
 
 ## View the Forecast reports in Customer Service
 
@@ -68,19 +68,19 @@ Before you can use the forecast reports, ensure that your administrator has assi
 You can view the forecast reports in the Customer Service workspace or Omnichannel for Customer Service apps. You can navigate to the **Forecast (preview)** dashboard as follows:
 
 - In the default view, select the plus (**+**) icon, and then select **Forecast (preview)**.
-- If the enhanced multi session workspace view is enabled, click on the hamburger menu icon to open the site map, and then select **Forecast (preview)**.
+- If the enhanced multisession workspace view is enabled, select **Forecast (preview)** on the site map.
 
    :::image type="content" source="media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
 
-### Switching report mode
+### Switch report mode
 
 The forecast reports support two modes:
 
-- **Daily** - This mode displays the actual and predicted case and conversation volumes and agent demand per day, for a time range of up to six months depending on how many days of cases or conversations were created in the past. This forecast can be used to plan agent resourcing and recruitment, to meet future demand.
+- **Daily**: This mode displays the actual and predicted case and conversation volumes and agent demand per day, for a time range of up to six months, depending on how many days of cases or conversations were created in the past. This forecast can be used to plan agent resourcing and recruitment to meet future demand.
 
-- **Intraday** - This mode displays the actual and predicted case and conversation volumes and agent demand in intervals of fifteen minutes, for a time range of up to six weeks depending on how many days of cases or conversations were created in the past. This forecast can be used to schedule agents to meet the near-term demand.
+- **Intraday**: This mode displays the actual and predicted case and conversation volumes and agent demand in intervals of 15 minutes, for a time range of up to six weeks, depending on how many days of cases or conversations were created in the past. This forecast can be used to schedule agents to meet the near-term demand.
 
-To change the report mode, click on the **Daily** or **Intraday** toggle button on the report, depending on which mode you want to view the report in.
+To change the report mode, select the **Daily** or **Intraday** toggle button on the report, depending on which mode you want to view the report in.
 
 ### Filters for case, conversation, and agents for conversations forecasting
 
@@ -104,11 +104,11 @@ The **Confidence level** for the forecasted data is displayed on the right-hand 
 
 :::image type="content" source="media/case-forecast-actuals.png" alt-text="View of confidence level in Forecast report.":::
 
-Hover on the future side (dash line) of the report to show a range that includes an upper and lower bound confidence range, which indicates the amount of possible variance that could occur from the predicted volume number.
+Hover on the future side (dash line) of the report to show a range that includes an upper- and lower-bound confidence range, which indicates the amount of possible variance that could occur from the predicted volume number.
 
 ### View volume forecasting by numbers
 
-The number grid at the bottom of the report shows the actual and predicted number of cases, conversations or agent demand across different date and time hierarchies.
+The number grid at the bottom of the report shows the actual and predicted number of cases, conversations, or agent demand across different date and time hierarchies.
 
 You can filter the data by selecting from the following options:
 
@@ -120,28 +120,28 @@ You can filter the data by selecting from the following options:
 
 #### Filter data by drilling up or down
 
-You can drill into the report data table by using the up or down arrows at the top-right side of the number grid, to display data by day, week, month, or year for **Daily**, and by minute, hour, day, week, month, or year for **Intraday**.
+You can drill into the report data table by using the up or down arrows at the top-right side of the number grid to display data by day, week, month, or year for **Daily**, and by minute, hour, day, week, month, or year for **Intraday**.
 
 :::image type="content" source="media/volume-forecasting-drill-month.png" alt-text="View of the Forecast report data filters.":::
 
-You can drill down the hierarchy by clicking the drill down hierarchy button. Each time you click on the button, the data will drill down one level in the hierarchy. To drill up to the previous level, click on the drill up button.
+You can drill down the hierarchy by selecting the drill down hierarchy button. Each time you select the drill down button, the data will drill down one level in the hierarchy. To drill up to the previous level, select the drill up button.
 
 #### Select rollup mode (Agents for conversations report only)
 
-The Agents for conversations report allows you to select the rollup method, that will be used in the number grid. The selected method is used to rollup data at higher levels in the date and time hierarchy. The following rollup methods are available:
+The Agents for conversations report allows you to select the rollup method that will be used in the number grid. The selected method is used to roll up data at higher levels in the date and time hierarchy. The following rollup methods are available:
 
-- **Average** - This method averages the available data at a level in the date and time hierarchy to rollup to the next higher level in the hierarchy.
+- **Average**: This method averages the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy.
 
-- **Maximum** - This method picks the maximum from the available data at a level in the date and time hierarchy to rollup to the next higher level in the hierarchy. *This is the default rollup selected when you access the report for the first time*.
+- **Maximum**: This method picks the maximum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy. *This is the default rollup that's selected when you access the report for the first time*.
 
-- **Minimum** - This method picks the minimum from the available data at a level in the date and time hierarchy to rollup to the next higher level in the hierarchy.
+- **Minimum**: This method picks the minimum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy.
 
-- **Sum** - This method sums the available data at a level in the date and time hierarchy to rollup to the next higher level in the hierarchy.
+- **Sum**: This method sums the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy.
 
 > [!NOTE]
-> Average, Maximum and Minimum rollup methods in All up view works differently than regular rollup using the same methods. In regular rollup, the rollup method is applied to the aggregate data across channels and queues. However, in Agents for conversations report, the data at a particular level in the date and time hierarchy, is the sum of the applied rollup method to the data for each unique channel and queue combination, at the immediate lower level in the hierarchy.
+> **Average**, **Maximum**, and **Minimum** rollup methods in the **All up** view work differently than the regular rollup using the same methods. In the regular rollup, the rollup method is applied to the aggregate data across channels and queues. However, in the **Agents for conversations** report, the data at a particular level in the date and time hierarchy is the sum of the applied rollup method to the data for each unique channel and queue combination at the immediate lower level in the hierarchy.
 >
-> For example, the data at the **Month** level, will be calculated by summing up the selected rollup method to the data at the **Week** level, for each unique combination of channel and queue.
+> For example, the data at the **Month** level will be calculated by summing up the selected rollup method to the data at the **Week** level for each unique combination of channel and queue.
 >
 
 ### Export data
