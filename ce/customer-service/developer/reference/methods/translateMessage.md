@@ -3,8 +3,8 @@ title: "translateMessage (Omnichannel for Customer Service JavaScript API refere
 description: "Includes reference information about translateMessage method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
 ms.date: 04/04/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ---
 

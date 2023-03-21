@@ -3,8 +3,8 @@ title: "CRM Dialog (Hosted Control) | MicrosoftDocs"
 description: "Learn to use the CRM Dialog hosted control type to work with dialog boxes. Also, learn about the predefined UII actions supported by the control."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

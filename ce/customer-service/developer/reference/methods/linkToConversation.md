@@ -3,8 +3,8 @@ title: "linkToConversation (Omnichannel JavaScript API reference) | MicrosoftDoc
 description: "Includes reference information about linkToConversation method, syntax, and parameters in Omnichannel JavaScript API reference."
 ms.date: 02/18/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.reviewer: nenellim
 ---

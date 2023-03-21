@@ -3,8 +3,8 @@ title: "Walkthrough 1: Build a simple agent application in Unified Service Desk 
 description: "Use this walkthrough to understand the prerequisites and procedures for setting up a basic agent application in Unified Service Desk. "
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

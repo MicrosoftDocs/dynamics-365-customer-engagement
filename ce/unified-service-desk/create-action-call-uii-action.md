@@ -3,8 +3,8 @@ title: "Create an action call for a UII action | MicrosoftDocs"
 description: "Learn two ways to create action calls for UII actions in Unified Service Desk, either by beginning with the action call or with the hosted control."
 ms.date: 12/31/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

@@ -1,8 +1,8 @@
 ---
 title: "Authenticate channel users in Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Learn how to authenticate channel users in the Dynamics 365 Channel Integration Framework 1.0."
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.date: 09/27/2022
 ms.topic: article

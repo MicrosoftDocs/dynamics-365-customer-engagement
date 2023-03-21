@@ -1,9 +1,9 @@
 ---
 title: "Architecture overview of Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Get an overview of Dynamics 365 Channel Integration Framework 2.0 and its architecture that lets you integrate with third-party channel providers."
-author: mh-jaya
+author: gandhamm
 ms.topic: overview
-ms.author: v-jmh
+ms.author: mgandham
 manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
