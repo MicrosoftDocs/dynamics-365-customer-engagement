@@ -171,7 +171,7 @@ After your administrator enables the feature,
 
 To remove an article from the favorites list, clear the **Favorite** (heart) icon.
 
-View your saved articles in the **Favorites** tab. The **Favorites** tab is available in the app side pane, standalone search control, form-embedded control, and the reference pane.
+View your saved articles in the **My favorites** tab. The **My favorites** tab is available in the app side pane, standalone search control, form-embedded control, and the reference pane.
 
 The article you last marked as favorite appears first in your Favorites list. If an article has been deleted, it no longer appears in the list. Favorite articles are saved in the language in which you viewed them when you marked them as a favorite. The translated version of a favorite article won't appear as a favorite. If you create major or minor version of a favorite article, then the new version will appear as a favorite and the earlier version will be removed from the Favorites list.
 
