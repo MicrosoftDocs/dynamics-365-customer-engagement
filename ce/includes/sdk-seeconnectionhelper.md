@@ -1,1 +1,1 @@
-For more information about the requirements for running the sample code provided here, see [Use the sample and helper code](/dynamics365/includes/get-started-managed-code-application-development).
+For more information about the requirements for running the sample code provided here, see [Use the sample and helper code](/dynamics365/customerengagement/on-premises/developer/org-service/get-started-managed-code-application-development).
