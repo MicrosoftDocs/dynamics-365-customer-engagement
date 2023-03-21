@@ -88,11 +88,11 @@ You can also save personalized views of your reports as bookmarks and then use t
 
 ### Edit visual display
 
-You can use the **Edit report** option to customize the visual display of reports. For example, modify the visual look of the data, such as to display a metric trend over time versus a tabular view. You can also create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports. More information: [Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service)
+You can use the **Edit report** option to customize the visual display of reports. For example, modify the visual look of the data, such as to display a metric trend over time versus a tabular view. You can also create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports. More information: [Customize visual display](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service)
 
 ### Pause updates on report data
 
-Report data is refreshed automatically in real time. However, you can use the **Pause updates** option to view and analyze real-time metrics at any point in time. You can reset the report data to be refreshed automatically by selecting **Resume updates**.
+Report data for all the reports are refreshed automatically in real time, except for Ongoing conversation report, which must be refreshed manually. You can use the **Pause updates** option to view and analyze real-time metrics at any point in time. You can reset the report data to be refreshed automatically by selecting **Resume updates**.
 
 ### See also
 
