@@ -11,7 +11,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Chat for Dynamics 365 Customer Service allows customers to download and email a copy of their chat transcripts. When download and email options are enabled by an administrator, customers can download or request an email of their chat transcript at any time during a chat session. At the end of the conversation, customers can request a transcript. If the customer requests an email of the chat transcript, the email is sent at the end of the conversation.
+Chat for Dynamics 365 Customer Service allows customers to download and email a copy of their chat transcripts. When your administrator enables download and email options, customers can download or request an email of their chat transcript at any time during a chat session. At the end of the conversation, customers can request a transcript. If the customer requests an email of the chat transcript, the email is sent at the end of the conversation.
 
 **Prerequisite**: Administrators should set up mailboxes before enabling this feature, and must select the **Allow other Dynamics 365 users to send email on your behalf** checkbox for it to work. For more information, see [Dynamics 365 Email Setup](https://support.microsoft.com/help/4020807/dynamics-365-e-mail-setup-configuration-and-dynamics-365-for-mobile-ho) and [Dynamics 365 Email tab options](/dynamics365/customerengagement/on-premises/basics/set-personal-options#email-tab-options).
 
