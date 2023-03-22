@@ -137,7 +137,7 @@ Make sure the domain where you embedded your form is allowed for external form h
 > [!NOTE]
 > The CDN domain for your geographical area used by the *host form as Standalone page* feature is enabled for form hosting by default.
 > Example for USA:
-> https://assets-usa.mkt.dynamics.com
+> `https://assets-usa.mkt.dynamics.com`
 >
 > If you would like to disable the domain for form hosting, reach out to support.
 
