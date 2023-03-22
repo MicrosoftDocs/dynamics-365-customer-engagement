@@ -218,8 +218,8 @@ Field types and formats are defined by the attribute metadata. It isn't possible
 | Option set             | n/a           | Drop-down              | Field with a limited number of predefined values (as defined in the database). Rendered as a drop-down list for selecting a value.                                                  |
 | Two options            | n/a           | Check box              | Boolean field, which accepts a value of either true or false. It's rendered as a check box, which is selected when true and clear when false.                                              |
 | Two options            | n/a           | Radio&nbsp;Buttons         | Field that accepts one of just two possible values (typically true or false). Rendered as a pair of radio buttons, with the display text for each defined in the database.           |
-| Date and time          | Date Only     | Date Picker           | Date picker, which lets users choose a date from a pop-up calendar display. Doesn't accept a time.                                                                           |
-| Date and time          | Date and Time | Date-Time Picker      | Date and time picker, which lets users choose a date from a pop-up calendar and a time from a drop-down list.                                                                   |
+| Date and time          | Date Only     | Date Picker           | Date picker to select a date from a pop-up calendar display. It doesn't accept a time.                                                                           |
+| Date and time          | Date and Time | Date-Time Picker      | Date and time picker to select a date from a pop-up calendar and a time from a drop-down list.                                                                   |
 | Lookup field          | n/a | Lookup      | A lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance to your form. [More information](#lookup-fields). |
 
 #### Lookup fields
@@ -263,7 +263,7 @@ To open the HTML editor and display the source code of a form, select the **HTML
 
 #### Customize form CSS
 
-You can change the CSS class definitions in the HTML editor. This allows you to achieve more advanced design customizations on top of the possibilities in the form editor.
+You can change the CSS class definitions in the HTML editor. Editing CSS allows you to achieve more advanced design customizations on top of the possibilities in the form editor.
 
 #### Add custom JavaScript to your form
 
@@ -290,7 +290,7 @@ In this example, we create a script that combines the first name and last name f
 </script>
 ```
 
-##### Example 2: Populate hidden field with a value from URL
+##### Example 2: Populate hidden field with a UTM parameter value from URL
 
 UTM source can be an important information on where are your new leads coming from.
 This example script extracts the UTM source parameter from URL and populates it into the value of a hidden field.
@@ -305,10 +305,10 @@ Make sure your put the correct field ID into the code.
 
 ```js
 <script>
-    const formField = document.getElementById("utmsource-1679335998029"); // The field ID is unique in each form, make sure you replace it with the correct value.
-    document.addEventListener("d365mkt-afterformload", updateUTMSourceField(formField));
+    document.addEventListener("d365mkt-afterformload", updateUTMSourceField());
             
-    function updateUTMSourceField(formField) {
+    function updateUTMSourceField() {
+        const formField = document.getElementById("utmsource-1679335998029"); // The field ID is unique in each form, make sure you replace it with the correct value.        
         const urlParams = new URLSearchParams(window.location.search);
         const utmSource = urlParams.get('utm_source');
         formField.value = utmSource;
