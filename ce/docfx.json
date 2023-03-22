@@ -279,12 +279,26 @@
         ]
       },
       "search.app": {
-        "omnichannel/**.*": [ "D365CE", "D365CS" ],
-        "sales/**.*": [ "D365CE", "D365Sales" ]
+        "omnichannel/**.*": [
+          "D365CE",
+          "D365CS"
+        ],
+        "sales/**.*": [
+          "D365CE",
+          "D365Sales"
+        ]
       },
       "search.audienceType": {
-        "omnichannel/**.*": [ "admin", "customizer", "enduser" ],
-        "sales/**.*": [ "admin", "customizer", "enduser" ]
+        "omnichannel/**.*": [
+          "admin",
+          "customizer",
+          "enduser"
+        ],
+        "sales/**.*": [
+          "admin",
+          "customizer",
+          "enduser"
+        ]
       },
       "ms.reviewer": {
         "field-service/**.*": "mhart"
@@ -293,20 +307,19 @@
         "field-service/*.md": "Dynamics 365 Field Service",
         "field-service/*.yml": "Dynamics 365 Field Service"
       }
-      }
+    }
+  },
+  "template": [],
+  "dest": "customer-engagement",
+  "groups": {
+    "usd-all": {
+      "dest": "usd-all",
+      "moniker_range": ">= dynamics-usd-3"
     },
-    "template": [],
-    "dest": "customer-engagement",
-    "groups": {
-      "usd-all": {
-        "dest": "usd-all",
-        "moniker_range": ">= dynamics-usd-3"
-      },
-      "op-all": {
-        "dest": "op-all",
-        "moniker_range": ">= op-9-0"
-      }
-    },
-    "markdownEngineName": "markdig"
-  }
+    "op-all": {
+      "dest": "op-all",
+      "moniker_range": ">= op-9-0"
+    }
+  },
+  "markdownEngineName": "markdig"
 }
