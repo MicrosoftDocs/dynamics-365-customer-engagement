@@ -84,7 +84,7 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     > [!div class="mx-imgBorder"]
     > ![Set styling for existing section.](media/real-time-marketing-form-select-section.png)
 
-1. **Add elements like a submit button, images, static text and captcha** to your form. Select the **Elements** section in the right pane. Drag and drop static text or an image element on the form canvas.
+1. **Add elements** to your form. Select the **Elements** section in the right pane. Drag and drop static text, submit button, captcha or an [image](upload-images-files.md#use-images-in-your-content) element on the form canvas.
 
     Drag and drop a **Submit** button to your form canvas. The form editor doesn't allow you to publish a form without a submit button. Select the submit button to change the styling.
 
@@ -93,9 +93,6 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
 
     > [!NOTE]
     > You can **integrate custom captcha** bot protection services like **reCAPTCHA** in your form. [Learn more](real-time-marketing-form-custom-captcha.md)
-
-    > [!NOTE]
-    > The form editor doesn't support adding images from Real-time marketing asset library add-on. [Learn more](real-time-marketing-asset-library.md)
 
 1. **Add consent control** from the **Elements** section to your form. Once you add the consent control to your form, you can select the correct consent purpose in the properties. Select the consent checkbox caption to change its text. Learn more about how to [manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md).
 
