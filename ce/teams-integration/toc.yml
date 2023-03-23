@@ -14,8 +14,6 @@
     href: link-d365-records.md
   - name: Enable or disable Teams chat in Dynamics 365
     href: enable-teams-chat.md
-  - name: Configure Teams chat sync
-    href: teams-chat-sync.md
   - name: Integrate Dynamics 365 and Microsoft Teams meetings
     href: teams-meeting-integration.md
   - name: Troubleshoot
