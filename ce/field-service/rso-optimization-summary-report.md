@@ -42,7 +42,7 @@ To access the admin report, open **Resource Scheduling Optimization** and go to 
 
 Total number of bookings scheduled.
 
-### Resource allocated
+### Resources allocated
 
 Number of resources allocated.
 
@@ -54,7 +54,7 @@ The total work time of all allocated resources.
 
 Sum of the travel time of all allocated resources.
 
-### Total time allocation (hrs.)
+### Total times allocation (hrs.)
 
 Distribution of work time and travel time in the scheduled bookings.
 
@@ -62,7 +62,7 @@ Distribution of work time and travel time in the scheduled bookings.
 
 List of each resource's scheduled bookings, locked bookings, work time, and travel time. Overbooked resources are highlighted.
 
-### Least allocated resource
+### Least allocated resources
 
 Ranks the resources by lowest usage to help dispatchers assign jobs on short notice.
 
