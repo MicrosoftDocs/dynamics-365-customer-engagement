@@ -38,7 +38,7 @@ This article explains how to use Dynamics 365 Marketing real-time journeys to fa
 The complete journey will look like this (select the image to expand it):
 
 > [!div class="mx-imgBorder"]
-> [ ![Complete event engagement journey](media/event-engagement-complete-journey-small.png) ](media/event-engagement-complete-journey#lightbox)
+> [ ![Complete event engagement journey](media/event-engagement-complete-journey-small.png) ](media/event-engagement-complete-journey.png#lightbox)
 
 To create this journey, you need to first make sure that you have some prerequisite ingredients ready. Let’s get to it!
 
