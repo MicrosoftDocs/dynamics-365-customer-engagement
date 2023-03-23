@@ -28,24 +28,17 @@ When you host in-person or online events, success depends on engaging your audie
 - **Thank**: *One to three days after the event*. Send thank you emails. Send surveys. Update social channels with event wrap-up.
 - **Engage**: *One to two weeks after the event*. Send a wrap-up email. Announce upcoming events. Nurture leads from the event. Qualify leads.
 
-    > [!div class="mx-imgBorder"]
-    > ![create a journey part 1](media/event-engagement-journey-1.png "create a journey part 1")
-
-    > [!div class="mx-imgBorder"]
-    > ![create a journey part 2](media/event-engagement-journey-2.png "create a journey part 2")
-
-    > [!div class="mx-imgBorder"]
-    > ![create a journey part 3](media/event-engagement-journey-3.png "create a journey part 3")
-
-    > [!div class="mx-imgBorder"]
-    > ![create a journey part 4](media/event-engagement-journey-4.png "create a journey part 4")
-
 This article explains how to use Dynamics 365 Marketing real-time journeys to facilitate the *remind*, *inspire*, and *thank you* steps of the event lifecycle. You’ll learn how to create a real-time journey that:
 
 - Sends a welcome email when a user registers for an event.
 - Sends email reminders seven days and one day before the event.
 - Sends a text message or email reminder one hour before the event.
 - And, if the journey participant attended the event, sends a thank you email. If the journey participant didn't attend the event, sends a “we missed you” email.
+
+The complete journey will look like this (select the image to expand it):
+
+> [!div class="mx-imgBorder"]
+> [ ![Complete event engagement journey](media/event-engagement-complete-journey-small.png) ](media/event-engagement-complete-journey#lightbox)
 
 To create this journey, you need to first make sure that you have some prerequisite ingredients ready. Let’s get to it!
 
