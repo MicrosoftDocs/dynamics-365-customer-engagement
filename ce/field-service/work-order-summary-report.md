@@ -1,6 +1,6 @@
 ---
 title: Work order summary report
-description: Learn about how to use work order summary reports in Dynamics 365 Field Service.
+description: Learn how to use work order summary reports in Dynamics 365 Field Service.
 ms.date: 02/09/2023
 ms.reviewer: mhart
 ms.topic: conceptual
@@ -21,21 +21,28 @@ Operations managers are responsible for managing work orders in order to provide
 
 ## Before you start
 
-- A Field Service administrator must enable the report in **Settings** > **Analytic and Insight** > **Settings** > **Field Service historical analytics** > **Manage**.
+
+<!-- Below, should it be "Analytics and Insights" (plurals)? -->
+
+
+A Field Service administrator must enable the report in **Settings** > **Analytic and Insight** > **Settings** > **Field Service historical analytics** > **Manage**.
 
 ## Filters and slicers
 
 - **Date range**: A [relative date range](/power-bi/visuals/desktop-slicer-filter-date-range).
 - **Customer**: [Customer accounts](work-order-customer-account.md) configured in Field Service.
 - **System status**: [Booking status of a work order](work-order-status-booking-status.md).
-- **Work order type**: [Work order types](create-work-order-types.md) in Field Service
+- **Work order type**: [Work order types](create-work-order-types.md) in Field Service.
 - **Substatus**: Custom substatuses related the booking status of a work order.
 - **Service territory**: [Territory](set-up-territories.md) defined in Field Service.
 - **Technician**: [Active bookable resources](set-up-bookable-resources.md) in Field Service.
 
 ## Reports metrics
 
-To access the work order summary report, open the **Field Service** app, change to the **Resources** area, and go to ***Analytics and Insights** > **Field Service historic analysis**.
+<!-- Below, should it be "Field Service historical analytics" like in line 28? -->
+
+
+To access the work order summary report, open the **Field Service** app, change to the **Resources** area, and go to **Analytics and Insights** > **Field Service historic analysis**.
 
 :::image type="content" source="media/work-order-summary-report.png" alt-text="Screenshot showing a sample work order summary report.":::
 
