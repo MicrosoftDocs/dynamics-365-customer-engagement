@@ -22,7 +22,7 @@ When a record is created or updated in your organization, and matches multiple s
 
 ## Set priority of a segment
 
-To set the priority of a segment, follow these steps: 
+When you change the priority of a segment, the records that are already connected to the segment remains connected. Only new or updated records are connected to the segment based on the set priority. To set the priority of a segment, follow these steps: 
 
 1. Sign in to your Dynamics 365 Sales Hub app.
 1. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
