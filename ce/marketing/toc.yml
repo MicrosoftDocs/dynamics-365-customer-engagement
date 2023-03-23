@@ -342,7 +342,7 @@
       items: 
       - name: Real-time marketing asset library add-on
         href: real-time-marketing-asset-library.md
-      - name: Upload, manage and use images, files, and videos in online content
+      - name: Use images, files, and videos in your content
         href: upload-images-files.md
     - name: Administration
       items: 
@@ -799,7 +799,7 @@
   - name: Learning catalog
     items: 
     - name: Learning catalog overview
-      href: learning-catalog.md
+      href: learning-catalog.yml
     - name: Business Decision Maker
       href: learning-bdm.md
     - name: Business User
