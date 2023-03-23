@@ -1,6 +1,6 @@
 ---
 title: Optimization summary report
-description: This article contains information about the optimization summary report and the charts it contains.
+description: This article provides information about the optimization summary report and the charts it contains.
 author: FeifeiQiu
 ms.author: feiqiu
 ms.reviewer: mhart
@@ -14,10 +14,13 @@ search.app:
   - D365FS
 ---
 
+<!-- Not sure what's intended in the first section, but I recommend deleting line 21. -->
+
 # Optimization summary report
 
-The optimization summary report is available in the Resource Scheduling Optimization add-in. It analyzes, such as an analysis of minimized travel time.
-The optimization summary report in the Resource Scheduling Optimization add-in analyzes the automatically scheduled bookings in and the effect they had on the business.
+The optimization summary report is available in the Resource Scheduling Optimization Add-in. It analyzes, such as an analysis of minimized travel time.
+
+The optimization summary report in the Resource Scheduling Optimization Add-in analyzes automatically scheduled bookings and the effect they had on the business.
 
 ## Before you start
 
@@ -30,10 +33,10 @@ To run the report, the Resource Scheduling Optimization administrator needs to p
 
 ## Report metrics
 
-To access the admin report, open the **Resource Scheduling Optimization** app and go to **Analytics** > **Reports**.
+To access the admin report, open **Resource Scheduling Optimization** and go to **Analytics** > **Reports**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a Resource Scheduling Optimization summary report.](./media/scheduling-analytics-rso-summary.png)
+> ![Screenshot of a Resource Scheduling Optimization summary report.](./media/scheduling-analytics-rso-summary.png "Screenshot of a Resource Scheduling Optimization summary report.")
 
 ### Booking scheduled
 
@@ -61,7 +64,7 @@ List of each resource's scheduled bookings, locked bookings, work time, and trav
 
 ### Least allocated resource
 
-Ranks the resources by lowest utilization to help dispatchers assign jobs on short notice.
+Ranks the resources by lowest usage to help dispatchers assign jobs on short notice.
 
 ### Territory summary
 
