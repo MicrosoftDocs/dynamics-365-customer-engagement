@@ -1,6 +1,6 @@
 ---
-title: "Entitlements for work orders - Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn about how to use entitlements for work orders in Dynamics 365 Field Service
+title: Create entitlements for work orders
+description: Learn about how to use entitlements for work orders in Dynamics 365 Field Service.
 ms.date: 03/17/2020
 
 ms.topic: article
@@ -14,7 +14,7 @@ search.app:
   - D365FS
 ---
 
-# Entitlements for work orders in Dynamics 365 Field Service
+# Create entitlements for work orders
 
 Entitlements for work orders allow field service organizations to dynamically apply price lists and discounts to work order products and services based on work order attributes and date range factors. This parallels how organizations might offer case entitlements in Dynamics 365 Customer Service.
 

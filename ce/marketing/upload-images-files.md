@@ -1,5 +1,5 @@
 ---
-title: Upload, manage and use images, files, and videos in online content
+title: Use images, files, and videos in your content
 description: "How to Upload, manage and use images, files and videos in Dynamics 365 Marketing."
 ms.date: 03/02/2023
 ms.custom: 
