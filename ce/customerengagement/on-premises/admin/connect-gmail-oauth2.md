@@ -1,12 +1,12 @@
 ---
-title: Connect Gmail accounts by using OAuth 2.0 
-description: Follow the steps in this article to set up server-side synchronization to send and receive email in Dynamics 365 Customer Engagement (on-premises) from Gmail accounts by using OAuth 2.0 as the authorization mechanism.
-ms.custom: 
-ms.date: 02/21/2023
+title: Connect Customer Engagement (on-premises) to Gmail accounts using OAuth 2.0 
+description: Learn how to set up server-side synchronization to send and receive email in Dynamics 365 Customer Engagement (on-premises) from Gmail accounts using OAuth 2.0 as the authorization mechanism.
+ms.custom: bap-template
+ms.date: 03/23/2023
 ms.reviewer: sericks
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 ms.assetid: 
 author: DanaMartens
 ms.author: dmartens
@@ -14,67 +14,65 @@ search.audienceType:
   - admin
 ---
 
-# Connect Gmail accounts by using OAuth 2.0 
+# Connect Customer Engagement (on-premises) to Gmail accounts using OAuth 2.0
 
-Follow the steps in this article to set up server-side synchronization to send and receive email in Dynamics 365 Customer Engagement (on-premises) from Gmail accounts by using OAuth 2.0 as the authorization mechanism.
-
-> [!NOTE]
-> The Gmail OAuth email server profile requires version 9.1 or later and works for up to 100 users. Create multiple OAuth profiles (steps 1 through 4) if you want to associate the same profile with multiple users.
-
-## Step 1. Enable IMAP or POP in Gmail
+Follow these steps to set up server-side synchronization to send and receive email in Dynamics 365 Customer Engagement (on-premises) from Gmail accounts using OAuth 2.0 as the authorization mechanism.
 
 > [!NOTE]
-> These steps should be done by the system administrator.
+> The Gmail OAuth email server profile requires version 9.1 or later and works for up to 100 users. Create multiple OAuth profiles to associate the same profile with multiple users.
 
-For IMAP, follow the steps in [Check Gmail through other email platforms](https://support.google.com/mail/answer/7126229).
+Admins should perform the following steps:
 
-For POP, follow the steps in [Read Gmail messages on other email clients using POP](https://support.google.com/mail/answer/7104828).
+1. [Turn on IMAP or POP in Gmail](#turn-on-imap-or-pop-in-gmail)
+1. [Create a Google API Console project](#create-a-google-api-console-project)
+1. Configure OAuth consent
+1. Create an email server profile
+1. Configure the mailbox
+1. Add test users
 
-## Step 2. Create a project
+A mailbox user should perform the following step:
 
-> [!NOTE]
-> These steps should be done by the system administrator.
+- Test and enable
 
-Using a Google account (this can be the same account you'll use to send and retrieve email, or a different account), go to the Google Developers Console and create a new project.
+## Turn on IMAP or POP in Gmail
 
-Follow the steps for **Create a project** in [Create, shut down, and restore projects](https://support.google.com/googleapi/answer/6251787).
+- IMAP: [Check Gmail through other email platforms](https://support.google.com/mail/answer/7126229)
 
-## Step 3. Configure OAuth consent 
+- POP: [Read Gmail messages on other email clients using POP](https://support.google.com/mail/answer/7104828)
 
-> [!NOTE]
-> These steps should be done by the system administrator.
+## Create a Google API Console project
 
-1. Select **OAuth consent screen**, and then select the user type:
+[Create a project](https://support.google.com/googleapi/answer/6251787?ref_topic=7014522#zippy=%2Ccreate-a-project) in the Google API Console using either the Google account that will send and retrieve email or a different Google account.
+
+## Set up OAuth consent
+
+1. In the left navigation pane of the API Console, select **OAuth consent screen**.
+1. Select the user type:
    - Select **Internal** if you're using a GSuite admin tenant and will be creating the app exclusively for your organization.
-   - Select **External** if you're testing by using a standalone Gmail account. 
+   - Select **External** if you're testing using a standalone Gmail account.
+1. Select **Create**.
+1. Enter the name of the app that's asking for consent.
+1. Enter the support address your users should email if they have questions about their consent.
+1. Under **Authorized domains**, select **ADD DOMAIN** and then enter your environment's top private domain name; for example, `dynamics.com`.
+1. Under **Developer contact information**, enter your email address.
+1. Select **SAVE AND CONTINUE**.
+1. In the left navigation pane, select **Credentials**.
+1. Select **CREATE CREDENTIALS** > **OAuth client ID**.
+1. Select or enter the following values:
 
-2. Select **Create**.
+   | Setting | Use |
+   |---------|-----|
+   | Application type | Web application |
+   | Name | The name of your web client |
+   | Authorized JavaScript origins | Your environment's URL; for example, `https://contoso.crm.dynamics.com` |
+   | Authorized redirect URIs | Your environment's URL with `/_grid/cmds/dlg_gmailoauth.aspx` appended to it; for example, `https://contoso.crm.dynamics.com/_grid/cmds/dlg_gmailoauth.aspx` |
 
-3. Under **Application name**, enter the application name. Under **Authorized domains**, enter your environment's top private domain name (for example, `dynamics.com`). Select **Save**.
+1. Select **CREATE**.
+1. Note the client ID and client secret that appear on the following page. You'll use them in the next step.
 
-4. Select **Credentials** > **Create credentials**.
+## Create an email server profile
 
-5. Select **OAuth client ID**.
-
-6. Select **Configure consent screen**.
-
-7. Enter the following settings:
-
-   |Setting  |Use  |
-   |---------|---------|
-   |Application type     | Web application         |
-   |Name     |  The name of your web client       |
-   |Authorized JavaScript origins     | Your environment's  URL (for example, `https://contoso.crm.dynamics.com`)        |
-   |Authorized redirect URIs     | Your environment's URL with `/_grid/cmds/dlg_gmailoauth.aspx` appended to it (for example, `https://contoso.crm.dynamics.com/_grid/cmds/dlg_gmailoauth.aspx`)        |
-
-8. Select **Create**. In the screen that appears, make note of the client ID and client secret. You'll use this data in the next step.
-
-## Step 4. Create an email server profile
-
-> [!NOTE]
-> These steps should be done by the system administrator.
-
-1. In the upper-right corner of the web app, select **Settings**, and then select **Advanced settings**.
+1. Sign in to Dynamics 365 In the upper-right corner of the web app, select **Settings**, and then select **Advanced settings**.
 
 1. Go to **Settings** > **Email Configuration**.
 
@@ -84,9 +82,9 @@ Follow the steps for **Create a project** in [Create, shut down, and restore pro
 
 1. Specify a meaningful **Name** for the profile.
 
-1. For **Incoming Server Location**, provide **imap.gmail.com**.	
+1. For **Incoming Server Location**, provide **imap.gmail.com**.
 
-1. For **Outgoing Server Location**, provide **smtp.gmail.com**.	
+1. For **Outgoing Server Location**, provide **smtp.gmail.com**.
 
 1. For **Authenticate Using**, select **Gmail OAuth**.
 
@@ -96,10 +94,9 @@ Follow the steps for **Create a project** in [Create, shut down, and restore pro
 
 1. For **Incoming Port**, the port should be **993**.
 
-1. For **Outgoing Port**, the port should be **587**. 
+1. For **Outgoing Port**, the port should be **587**.
 
 1. When you're done, select **Save**.
-
 
 ## Step 5. Configure the mailbox
 
