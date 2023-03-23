@@ -281,23 +281,31 @@
       "search.app": {
         "omnichannel/**.*": [
           "D365CE",
-          "D365CS"
+          "D365CS",
+          "omnichannelcustomerservice-docs"
         ],
         "sales/**.*": [
           "D365CE",
-          "D365Sales"
-        ]
-      },
-      "search.audienceType": {
-        "omnichannel/**.*": [
-          "admin",
-          "customizer",
-          "enduser"
+          "D365Sales",
+          "sales-docs"
         ],
-        "sales/**.*": [
-          "admin",
-          "customizer",
-          "enduser"
+        "customer-service/**.*": [
+          "D365CE",
+          "D365CS",
+          "customerservice-docs",
+          "customerserviceinsights-docs"
+        ],
+        "marketing/**.*": [
+          "D365CE",
+          "D365Mktg",
+          "marketing-docs"
+        ],
+        "field-service/**.*": [
+          "D365CE",
+          "fieldservice-docs"
+        ],
+        "customerengagement/on-premises/**.*": [
+          "customerengagement-docs"
         ]
       },
       "ms.reviewer": {
