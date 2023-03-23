@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/15/2023
+ms.date: 03/23/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -49,7 +49,7 @@ To use the various search options discussed in this article, one or more of the 
     - Status
     - Title
     
-- To search using favorites, your administrator has granted **Create**, **Read**, **Write**, **Append**, **Appendto** privileges on the **msdyn_favoriteknowledgearticle** entity to the CSR Manager and the Customer Service Representative security roles as applicable.
+- You have access to knowledge article entities, such as Knowledge Articles, Favorites, Attachments, and Views. Your administrator has granted the **Create**, **Read**, **Write**, **Append**, and **Appendto** privileges to any new custom roles that you have created.
 
 - In Customer Service workspace and Omnichannel for Customer Service, your administrator has enabled the app side pane and knowledge search in Agent experience profiles.
 
@@ -162,18 +162,18 @@ Your administrator must [enable suggest-as-you-type](set-up-knowledge-management
 
 ## Use favorites
 
-You can save the knowledge articles you use most as favorites to access them quickly while you're working on a case. You can save up to 50 articles as favorites. Your administrator must provide [privileges to specific roles](#prerequisites) before you can use it.
+You can save the knowledge articles you use most as favorites to access them quickly while you're working on a case. You can save up to 50 articles as favorites. Your administrator must provide [privileges to custom roles](#prerequisites) before you can use it.
 
 After your administrator enables the feature,
 
 1. Select an article from the list of search results.
-1. Select the **Favorite** (heart) icon to add the article to your favorites.
+1. Select the **Favorite** (heart) icon to add the article to your favorites list.
 
-To remove an article from the favorites list, clear the **Favorite** (heart) icon.
+To remove an article from the favorites list, select the **Unfavorite** (heart) icon.
 
 View your saved articles in the **My favorites** tab. The **My favorites** tab is available in the app side pane, standalone search control, form-embedded control, and the reference pane.
 
-The article you last marked as favorite appears first in your Favorites list. If an article has been deleted, it no longer appears in the list. Favorite articles are saved in the language in which you viewed them when you marked them as a favorite. The translated version of a favorite article won't appear as a favorite. If you create major or minor version of a favorite article, then the new version will appear as a favorite and the earlier version will be removed from the Favorites list.
+The article you last marked as favorite appears first in your favorites list. If an article has been deleted, it no longer appears in the list. Favorite articles are saved in the language in which you viewed them when you marked them as a favorite. The translated version of a favorite article won't appear as a favorite. If you create a major or minor version of a favorite article, then the new version will appear as a favorite and the earlier version will be removed from the favorites list.
 
 In Customer Service workspace and Omnichannel for Customer Service, when you select a favorite article, it opens in an app tab. In Customer Service Hub, the article opens in a new browser window.
 
