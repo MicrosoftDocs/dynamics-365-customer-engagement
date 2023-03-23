@@ -28,7 +28,7 @@ For more information about licensing and system requirements, see [Customer Serv
 
 **Set up Omnichannel in Customer Service workspace** 
 
-You can set up your Customer Service workspace environment so that agents working on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the Omnichannel for Customer Service add-on [license](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
+You can set up your Customer Service workspace environment so that agents working on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
 
 
 :::image type="content" source="media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace"::: 
@@ -99,19 +99,19 @@ The following limitations apply to Customer Service workspace:
 - Customer Service workspace isn't supported in mobile devices and Unified Service Desk.
 - Customer Service workspace isn't supported with Dynamics 365 Customer Engagement (on-premises).
 
-## Deprecated features
+## Deprecated Customer Service workspace layout
 
 The legacy layout has been deprecated and will be removed in October 2023.
 
 :::image type="content" source="media/csw-overview.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png":::
 
 1. Select the Home icon to return to the Customer Service Agent Dashboard view.
-2.The session pane shows all the sessions you've opened. Select the icons to navigate between sessions.
-3.Select the + icon in the tab bar to open more workspaces in a new tab. If you hold the Ctrl key while you select a case or an activity, the case or activity opens in a new tab, too. Select a tab to navigate between sessions.
-4. Select the arrow to choose a different view.
-5. Select a case or an activity to open a new session. The session replaces your current view with the case form.
-6. Select the back arrow in the upper-left corner of the form to get back to your previous view. To open the case or activity in a new tab, hold the Ctrl key while you select it.
-7. Select the arrow to view a different dashboard.
+1. The session pane shows all the sessions you've opened. Select the icons to navigate between sessions.
+1. Select the + icon in the tab bar to open more workspaces in a new tab. If you hold the Ctrl key while you select a case or an activity, the case or activity opens in a new tab, too. Select a tab to navigate between sessions.
+1. Select the arrow to choose a different view.
+1. Select a case or an activity to open a new session. The session replaces your current view with the case form.
+1. Select the back arrow in the upper-left corner of the form to get back to your previous view. To open the case or activity in a new tab, hold the Ctrl key while you select it.
+1. Select the arrow to view a different dashboard.
 
 ### Turn on legacy layout (deprecated)
 1.	With Customer Service workspace open, press the F12 key to open the developer tools window.
