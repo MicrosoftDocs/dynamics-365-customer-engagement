@@ -1,7 +1,7 @@
 ---
 title: "Create or edit leads in Dynamics 365 Sales"
 description: "Use leads to keep track of business prospects. A lead can be an existing client or someone you've never done business with before."
-ms.date: 10/26/2021
+ms.date: 03/23/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -81,8 +81,11 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
   
 ## Typical next steps  
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)  
+![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Get introduced to the lead through who knows whom](who-knows-whom.md)
+
   
  ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)  
+ ![Home button](media/home-button.png "Home button") [View relationship analytics and KPIs for the lead](relationship-analytics.md)
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

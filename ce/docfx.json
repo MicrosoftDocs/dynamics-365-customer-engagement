@@ -279,12 +279,34 @@
         ]
       },
       "search.app": {
-        "omnichannel/**.*": [ "D365CE", "D365CS" ],
-        "sales/**.*": [ "D365CE", "D365Sales" ]
-      },
-      "search.audienceType": {
-        "omnichannel/**.*": [ "admin", "customizer", "enduser" ],
-        "sales/**.*": [ "admin", "customizer", "enduser" ]
+        "omnichannel/**.*": [
+          "D365CE",
+          "D365CS",
+          "omnichannelcustomerservice-docs"
+        ],
+        "sales/**.*": [
+          "D365CE",
+          "D365Sales",
+          "sales-docs"
+        ],
+        "customer-service/**.*": [
+          "D365CE",
+          "D365CS",
+          "customerservice-docs",
+          "customerserviceinsights-docs"
+        ],
+        "marketing/**.*": [
+          "D365CE",
+          "D365Mktg",
+          "marketing-docs"
+        ],
+        "field-service/**.*": [
+          "D365CE",
+          "fieldservice-docs"
+        ],
+        "customerengagement/on-premises/**.*": [
+          "customerengagement-docs"
+        ]
       },
       "ms.reviewer": {
         "field-service/**.*": "mhart"
@@ -292,7 +314,6 @@
       "titleSuffix": {
         "field-service/*.md": "Dynamics 365 Field Service",
         "field-service/*.yml": "Dynamics 365 Field Service"
-      }
       }
     },
     "template": [],
