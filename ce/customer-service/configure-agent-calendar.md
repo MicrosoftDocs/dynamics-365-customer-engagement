@@ -46,5 +46,5 @@ You must have the system administrator role to enable the calendar view.
 1. Select **Save and close**.
 
 ### See also
-[View the agent calendar](csw-overview.md#view-the-agent-calendar-preview)  
+[View the agent calendar](use-agent-calendar.md)  
 [Get started with Customer Service workspace](csw-overview.md)
