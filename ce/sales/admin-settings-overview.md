@@ -29,10 +29,9 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 ## Sales app settings
 
-The Sales app settings include settings for core sales areas that are part of the Sales Enterprise and Sales Premium licenses.
+The Sales app settings include settings for core sales areas such as lead, opportunity, and product management, productivity tools, Teams and LinkedIn integration, goals and forecasts, and so on. 
 
 To open the app settings, select **Change area** ![Change area.](media/change-area-icon.png "Change area") at the bottom of the site map, and then select **App Settings**.
-
 
 ![Select the Change area icon to go to App Settings.](media/change-area-app-settings.png "Select the Change area icon to go to App Settings")
 
@@ -48,11 +47,13 @@ The settings for different product areas are categorized as such.
 
 ## Sales Insights settings
 
-The Sales insights settings include settings for premium features such as, relationship intelligence, predictive scoring, sales accelerator, and so on. These settings are available only if you have the Sales Premium license.
+The Sales Insights settings include settings for standard and premium sales insights features such as, sales accelerator, email engagement, relationship intelligence, predictive scoring, sales accelerator, and so on.
 
 To open the Sales Insights settings, select **Change area** ![Change area.](media/change-area-icon.png "Change area") at the bottom of the site map, and then select **Sales Insights Settings**. More information: [Install and administer Sales Insights features](intro-admin-guide-sales-insights.md)
 
 :::image type="content" source="media/sales-insights-settings.png" alt-text="Sales insights settings page." lightbox="media/sales-insights-settings.png":::
+
+To configure and use the premium sales insights features, you must have a Dynamics 365 Sales Premium license. For more information, see [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/).
 
 # [Sales Professional](#tab/SP)
 
