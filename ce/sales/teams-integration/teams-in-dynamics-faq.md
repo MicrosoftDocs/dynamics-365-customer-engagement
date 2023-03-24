@@ -1,9 +1,8 @@
 ---
 title: "Frequently asked questions about Teams chat integration  | MicrosoftDocs"
 description: "Collaborate efficiently in Dynamics 365 without switching to Teams. This page include FAQs about the integration."
-ms.date: 08/25/2022
+ms.date: 03/27/2023
 ms.topic: article
-
 search.app: 
   - D365CE
   - Powerplatform
@@ -57,4 +56,8 @@ No. The integration is developed with the core principle of not violating securi
 ## Is the Teams conversation data stored in Dynamics 365?
 
 Only the conversation ID is stored in Dynamics 365, by using a link entity to make the connection between the record and the conversation. No conversation text is stored in Dynamics 365.
+
+## Is Teams chat integration supported on mobile devices?
+
+Teams chat integration is not supported on mobile devices.
  
