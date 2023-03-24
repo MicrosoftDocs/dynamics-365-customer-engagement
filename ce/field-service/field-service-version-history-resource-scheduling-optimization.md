@@ -35,7 +35,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |**Station 3** | |  |  | |
 | | *Japan* |  [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072)| 3.4.0.180  | 4/7/2023
 | | *Asia Pacific* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072) | 3.4.0.180 | 4/7/2023
-| | *Great Britain* |[3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340728) | 3.4.0.180  | 4/7/2023
+| | *United Kingdom* |[3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340728) | 3.4.0.180  | 4/7/2023
 | | *Oceania* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072) | 3.4.0.180   | 4/7/2023
 |**Station 4** | |  |  | |
 | | *Europe* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072) | 3.4.0.180   | 4/7/2023
