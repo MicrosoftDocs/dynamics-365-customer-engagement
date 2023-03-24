@@ -53,9 +53,9 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 3.4.0.180
 
- - Bug fix: Addressed issue where certain schedule requests fail due to a timeout, with the message *Resource Scheduling Optimization failed to create, update or delete some of the bookings due to a system error*.
- - Bug fix: Addressed issue where certain schedule requests produced overlapping bookings when using locked resources or by requirement duration and book duration mismatch.
- - Bug fix: Addressed issue where unpublished schedules would get inadvertently published after a platform update.
+- Bug fix: Addressed issue where certain schedule requests fail due to a timeout, with the message *Resource Scheduling Optimization failed to create, update or delete some of the bookings due to a system error*.
+- Bug fix: Addressed issue where certain schedule requests produced overlapping bookings when using locked resources or by requirement duration and book duration mismatch.
+- Bug fix: Addressed issue where unpublished schedules would get inadvertently published after a platform update.
 
 ## 3.4.0.72
 
