@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/01/2023
+ms.date: 03/24/2023
 ms.custom: bap-template
 ---
 
@@ -126,6 +126,19 @@ When you activate a search provider, the ingestion of newly created or updated a
 activate and then select **Activate**.
 1. On the confirmation dialog, select **Activate**. The search provider that you activated is added to the
 **Active search providers** list.
+
+## Select filters for search providers
+
+When you select filters for search providers, you can select the data providers from whom you want to view the search results. 
+
+If you select a deactivated data search provider, you won't see any search results from the data provider even though the name of the search provider might appear on the **Filter by** dropdown list.
+
+1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The Knowledge page appears.
+1. In the **Filters** section, ensure that the **Enable search filters** toggle option is set to **Yes**.
+1. From the **Select filter type** dropdown list, select **Integrated Search Dataprovider Id**, and then select **Add**.
+1. 
+
+
 
 ## Next Steps
 
