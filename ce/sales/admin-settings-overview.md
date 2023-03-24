@@ -1,7 +1,7 @@
 ---
 title: Admin settings overview
 description: Admin settings provide an organized and unified experience for administrators to easily configure the sales app from a single place.
-ms.date: 03/21/2023
+ms.date: 03/24/2023
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
