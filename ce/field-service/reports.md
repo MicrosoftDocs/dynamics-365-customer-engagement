@@ -89,7 +89,7 @@ Now the **Field Service - Dispatcher** can see the corresponding report.
 | Australia | OCE |
 | Japan| JPN |
 | India | IND |
-| Great Britain | GBR |
+| United Kingdom | UK |
 | United Arab Emirates | UAE |
 
 ## Data model
