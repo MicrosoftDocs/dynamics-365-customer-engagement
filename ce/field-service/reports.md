@@ -10,10 +10,6 @@ ms.date: 02/09/2023
 ms.custom: bap-template 
 ---
 
-<!-- In line 35, drill-down is an adjective; can it change to "drill-down actions"? -->
-
-
-
 # Reports overview
 
 Reports are a collection of charts and visuals, built with Microsoft Power BI. They're based on a data set to get a quick view into core metrics. Resource and operations managers can monitor key operational metrics to gauge the performance of resources and their scheduling strategy. Reports can help explore important business-related questions, such as:
@@ -32,7 +28,7 @@ Dynamics 365 Field Service and the Resource Scheduling Optimization Add-in provi
 1. The [Optimization summary report](rso-optimization-summary-report.md), included with the Resource Scheduling Optimization Add-in.
 1. [Predictive work duration reports (preview)](analytics-predictive-work-duration.md) with the upcoming work duration and the territory duration reports in Field Service.
 
-Other than editing filters and drill-down, the reports aren't configurable or customizable.
+Other than editing filters and drill-down actions, the reports aren't configurable or customizable.
 
 ## Prerequisites
 

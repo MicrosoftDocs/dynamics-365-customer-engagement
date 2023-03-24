@@ -22,10 +22,7 @@ Operations managers are responsible for managing work orders in order to provide
 ## Before you start
 
 
-<!-- Below, should it be "Analytics and Insights" (plurals)? -->
-
-
-A Field Service administrator must enable the report in **Settings** > **Analytic and Insight** > **Settings** > **Field Service historical analytics** > **Manage**.
+A Field Service administrator must enable the report in **Settings** > **Analytics and Insight** > **Settings** > **Field Service historical analytics** > **Manage**.
 
 ## Filters and slicers
 
@@ -39,10 +36,7 @@ A Field Service administrator must enable the report in **Settings** > **Analyti
 
 ## Reports metrics
 
-<!-- Below, should it be "Field Service historical analytics" like in line 28? -->
-
-
-To access the work order summary report, open the **Field Service** app, change to the **Resources** area, and go to **Analytics and Insights** > **Field Service historic analysis**.
+To access the work order summary report, open the **Field Service** app, change to the **Resources** area, and go to **Analytics and Insights** > **Field Service historical analysis**.
 
 :::image type="content" source="media/work-order-summary-report.png" alt-text="Screenshot showing a sample work order summary report.":::
 

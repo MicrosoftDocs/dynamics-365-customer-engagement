@@ -14,11 +14,7 @@ search.app:
   - D365FS
 ---
 
-<!-- Not sure what's intended in the first section, but I recommend deleting line 21. -->
-
 # Optimization summary report
-
-The optimization summary report is available in the Resource Scheduling Optimization Add-in. It analyzes, such as an analysis of minimized travel time.
 
 The optimization summary report in the Resource Scheduling Optimization Add-in analyzes automatically scheduled bookings and the effect they had on the business.
 
