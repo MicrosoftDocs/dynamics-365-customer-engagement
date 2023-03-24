@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Microsoft Teams integration with Dynamics 365 app"
 description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, and possible resolutions."
-ms.date: 01/30/2023
+ms.date: 03/27/2023
 ms.topic: article
 applies_to: 
   - Dynamics 365 apps
@@ -104,7 +104,21 @@ This issue might occur if two-factor authentication is enabled in either Dynamic
 > [!div class="mx-imgBorder"] 
 > ![Environment not getting populated.](media/teams-env-troubleshoot.png "Environment not getting populated")
 
+### Disconnected Teams channel keeps showing as a connected channel in Dynamics 365
 
+This behavior is by design where deleting a tab from Teams does not unlink the channel from Dynamics 365 record.
+
+To solve this problem, you must manually delete the association row.
+
+1. Sign in to [https://make.powerapps.com](https://make.powerapps.com).
+2. Select the environment that has the association row.
+3. On the left navigation pane, select **Tables**.
+4. Enter **teams collab** in the search box.
+5. In the search result, select **Microsoft Teams Collaboration entity**.
+6. On the **Microsoft Teams Collaboration entity** page, select **Edit**.
+7. Find the name of team and channel you want to disconnect from Dynamics 365.
+8. Select the record, and then select **Delete**.
+9. Go to Dynamics 365 and refres the page. The team and channel will not be listed as connected channels.
 
 ## Troubleshoot errors in Microsoft Teams
 
