@@ -1,10 +1,10 @@
 ---
-title: "onModeChanged (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Learn about onModeChanged event and its syntax for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 12/31/2019
+title: "onmodechanged (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Learn about onmodechanged event and its syntax for Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 02/14/2023
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 applies_to: 
   - "Dynamics 365 for Customer Engagement (online)"
@@ -13,7 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# onModeChanged event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 2.0
+# onmodechanged event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 2.0
 
 [!INCLUDE[token-onmodechanged](../../../shared/token-onmodechanged.md)]
 

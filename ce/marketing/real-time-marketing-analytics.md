@@ -1,7 +1,7 @@
 ---
 title: "Access and interpret analytics (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to access and interpret real-time marketing analytics in Dynamics 365 Marketing."
-ms.date: 12/21/2022
+ms.date: 02/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -83,3 +83,9 @@ Learn more: [How to use aggregate channel analytics](real-time-marketing-channel
 
 > [!NOTE]
 > There is no retention policy for real-time marketing interactions in Aggregate cross-journey analytics and Aggregate channel analytics. Dataverse entities are limited to a two-year retention policy after their initial creation date. Keep in mind that the two-year Dataverse entity retention policy might impact analytics views associated with interaction data from Dataverse entities.
+
+## Learn more
+
+Here are some advanced resources for this topic:
+
+- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)

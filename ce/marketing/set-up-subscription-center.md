@@ -282,7 +282,7 @@ Depending on your Marketing setup and the region in which you operate, you may n
 
 If an email address is linked to existing contact, you can prohibit users from creating a new contact with the same email address. Limiting each email address to a single contact eliminates duplication, ensuring that opt-outs apply to the correct contact every time.
 
-You can apply duplicate detection rules [to your entire organization](business-management-settings.md) (**Settings** > **Advanced** > **Business Management** > **Duplicate detection**). This function is enabled by default. Dynamics 365 includes duplicate detection rules for accounts and contacts. The email address rule specifically detects, “*Contacts where the same email address is found.*” If duplicate detection is enabled, duplicates are detected when:
+You can apply duplicate detection rules [to your entire organization](data-management-settings.md) (**Settings** > **Advanced** > **Data Management** > **Duplicate Detection Settings**). This function is enabled by default. Dynamics 365 includes duplicate detection rules for accounts and contacts. The email address rule specifically detects, “*Contacts where the same email address is found.*” If duplicate detection is enabled, duplicates are detected when:
 
 - **A record is created or updated:** The system checks for duplicates when a user enters or updates records.
 - **During data import:** When you use the Import Data wizard to load contacts or accounts, the wizard detects duplicate records.

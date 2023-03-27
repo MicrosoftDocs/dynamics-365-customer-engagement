@@ -1,8 +1,7 @@
 ---
-title: "Work order and booking statuses in Dynamics 365 Field Service | Microsoft Docs"
-description: Learn about work order and booking statuses in Dynamics 365 Field Service
+title: Work order life cycle and statuses
+description: Learn about work order and booking statuses in Dynamics 365 Field Service.
 ms.date: 11/04/2021
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
@@ -10,13 +9,12 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: clearab
 ms.author: anclear
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Work order life cycle and statuses in Dynamics 365 Field Service
+# Work order life cycle and statuses
 
 Work order system statuses, work order substatuses, and booking statuses all work together to help stakeholders stay up to date with work orders from creation to closing. Updating one of these statuses can update the others automatically.
 
@@ -116,24 +114,16 @@ Changing the booking status to **Traveling** automatically changes the work orde
 
 When the field technician arrives on site and is ready to begin the work, they change the booking status to **In Progress**. The work order status remains as **Open - In Progress**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of in progress booking status on mobile.](./media/FSM_Booking_InProgress.jpg)
-
 On the related work order, the **First Arrived On** field is updated with the **Actual Arrival Time** of the booking.
 
-During work, the field technician may want to record times they are on break by changing the booking status to **On Break**. 
-
+During work, the field technician may want to record times they are on break by changing the booking status to **On Break**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of on break booking on schedule board.](./media/work-order-statuses-booking-status-onbreak-schedule-board.png)
 
 For both **In Progress** and **On Break** booking statuses, the work order system status remains as **Open - In Progress**.
 
-
-When the work is complete, the field technician will change the booking status to **Completed**. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of completed booking status on mobile.](./media/FSM_Booking_Complete.jpg)
+When the work is complete, the field technician will change the booking status to **Completed**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of updated completed booking on schedule board.](./media/work-order-statuses-booking-status-completed-schedule-board.png)
@@ -380,8 +370,8 @@ Options include:
 - Do Not Move
 - Ignore
 
-If you create a new custom **Booking Status**, then you should pick a scheduling method that relates to the field service booking status. For example, the out-of-the-box booking status **Traveling** has an RSO scheduling method set to **Do Not Move** because RSO should not move bookings that a field technician is traveling to. Therefore, using our previous example, our new **Delayed** booking status is related to the **Traveling** Field Service status, so its scheduling method should be set to **Do Not Move** as well.
+If you create a new custom **Booking Status**, then you should pick a scheduling method that relates to the field service booking status. For example, the out-of-the-box booking status **Traveling** has an Resource Scheduling Optimization scheduling method set to **Do Not Move** because Resource Scheduling Optimization should not move bookings that a field technician is traveling to. Therefore, using our previous example, our new **Delayed** booking status is related to the **Traveling** Field Service status, so its scheduling method should be set to **Do Not Move** as well.
 
-For more information, see the article on [Resource Scheduling Optimization (RSO) configuration](rso-configuration.md).
+For more information, see the article on [Resource Scheduling Optimization configuration](rso-configuration.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

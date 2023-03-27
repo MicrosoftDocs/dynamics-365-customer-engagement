@@ -1,7 +1,7 @@
 ---
 title: "How to use aggregate cross-journey analytics (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use and interpret real-time marketing aggregate cross-journey analytics in Dynamics 365 Marketing."
-ms.date: 05/20/2022
+ms.date: 02/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -65,3 +65,9 @@ With more out-of-the-box channels available in real-time marketing, you can comp
 ## Experimentation
 
 Here, you can see an overview of all the experiments that have been run for the journey and the outcomes. Use this information to gain further insights into your audience preferences.
+
+## Learn more
+
+Here are some advanced resources for this topic:
+
+- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)

@@ -1,14 +1,15 @@
 ---
-title: "FAQ about Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about the frequently asked questions (FAQs) on the different features in Omnichannel for Customer Service and their requirements."
-ms.date: 02/25/2022
-ms.topic: article
+title: FAQ about Omnichannel for Customer Service
+description: Learn about the frequently asked questions (FAQ) on the different features in Omnichannel for Customer Service and their requirements.
+ms.date: 03/16/2023
+ms.topic: concept
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
-# Frequently asked questions (FAQ) about Omnichannel for Customer Service
+# FAQ about Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -24,7 +25,7 @@ See the list of supported regions at [International availability of Microsoft Dy
 
 You can find information about supported platforms and other prerequisites in [Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md).
 
-### Where can I submit an idea for a new feature or to enhance a feature?
+### Where can I submit an idea for a new feature or enhancement?
 
 Submit your ideas and feedback on our [Ideas forum](https://experience.dynamics.com/ideas/categories/list/?category=31047c64-7e28-e911-a95a-000d3a4f3883&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad).
 
@@ -42,17 +43,17 @@ Some of the supported channels are WeChat, LINE, and Facebook. For the complete 
 
 ### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 Customer Service license?
 
-No, Chat and related Omnichannel for Customer Service capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/customer-service/overview/).
+No, Chat and related capabilities in Omnichannel for Customer Service require a separate add-in. For more information about licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?LinkId=866544). More information: [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true)
 
 ### How do I get started?
 
-If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](try-channels.md). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel in your organization.
+If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](try-channels.md). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel for Customer Service in your organization.
 
-## Agent experiences
+## Agent experience
 
 ### In which apps can I use Chat for Dynamics 365?
 
-You can use Chat in the Omnichannel for Customer Service and Customer Service Workspace apps.
+You can use Chat in the Omnichannel for Customer Service and Customer Service workspace apps.
 
 ### Can I work on cases along with chats?
 
@@ -64,15 +65,15 @@ Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS channels
 
 ### Can I open Omnichannel for Customer Service in multiple browser tabs and windows?
 
-We recommend that you do not open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help agents work in a multisession environment wherein each session has contextual application tabs. The sessions are not synced across browser tabs.
+We recommend that you don't open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help agents work in a multisession environment wherein each session has contextual application tabs. The sessions aren't synced across browser tabs.
 
 ### What happens if I accidentally close the browser, refresh the entire page, or the browser crashes?
 
-If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost; however, if you have entered some data on the model-driven forms where autosave has been enabled, they will be saved into model-driven apps.
+If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost; however, if you've entered some data on the model-driven forms where autosave has been enabled, they'll be saved into model-driven apps.
 
 Ongoing chat conversations appear on your Omnichannel Agent Dashboard. You can pick the chat from that dashboard and resume the conversation. The chat conversation is preserved, and you will be able to see the previous messages. If you were working on case sessions, you can reopen them using the gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](oc-manage-sessions.md#start-a-session).
 
-### Does consult only work for managers/supervisors?
+### Does consult only work for managers and supervisors?
 
 No. You can consult with any available agent in the queue from which the chat originated. The consult list shows you agents in the queue who can take additional chat requests.
 
@@ -105,11 +106,31 @@ For information about managing work items from your dashboard, see [View agent d
 
 Conversations and sessions are stored as activity types within the model-driven apps. For more information, see [View conversation and session activity types in the Model-driven apps](oc-view-activity-types.md).
 
-## Administration
+## FAQ on agent presence
+
+This section helps answer some of the questions on how presence works.
+
+### When is the manual override of presence cleared?
+
+The system clears your manual override when you become inactive or sign out from the application.
+
+### If the agent is inactive for less than 2.5 minutes, what does the system do?
+
+If the agent is inactive for less than 2.5 minutes, the system will retain the manually overridden presence.
+
+### What happens to the agent presence when they resume work after showing as inactive?
+
+When agents resume work after 2.5 minutes or more of inactivity, the system clears the earlier presence and calculates the presence afresh. We recommend that you refresh the browser after inactivity.
+
+### What factors are considered in presence refresh?
+
+If the default presence set by the administrator is "Away" or "Offline", then the system will set the agent presence to the default setting. Otherwise, the system will calculate the presence based on the agent's used or released capacity.
+
+## Administrator experience
 
 ### How does Automated Record Identification work with pre-chat fields?
 
-If you are using multiple fields for automated record identification, they must all be an exact match. To learn more, see [Automatically identify customers using pre-chat responses](record-identification-rule.md).
+If you're using multiple fields for automated record identification, they must all be an exact match. To learn more, see [Automatically identify customers using pre-chat responses](record-identification-rule.md).
 
 ### What do I do if my dashboards (Omnichannel Agent Dashboard, Omnichannel Conversation Dashboard, Tier 1 Dashboard, Tier 2 Dashboard) aren’t showing up?
 
@@ -125,11 +146,11 @@ The Omnichannel for Customer Service app can be customized to include custom das
 
 ### Can I customize the Conversation Summary form?
 
-This is currently not supported. Enabling customizations for the Conversation Summary Form is on our roadmap. 
+Yes. For a list of supported customizations, see [Customizations supported by the Conversation form](supported-customizations.md#customizations-supported-by-the-conversation-form).
 
 ### Why am I not able to see the Intraday Monitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors?
 
-Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service).
+Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in admin app, ensure that you have saved the configurations before you exit the configuration form. When you select **Save**, the creation of the report and dataset is initiated. If you missed saving the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service).
 
 ### What is the application ID field on the application user form?
 
@@ -139,20 +160,20 @@ The application ID is a mandatory field for creating application users in Datave
 
 ### Can I monitor conversations for all channels?
 
-As of today, only chat conversations can be silently monitored by a supervisor.
+Yes, you can monitor conversations for the voice channel and all messaging channels, including async channels.
 
 ### Why am I not able to see the supervisor dashboards in my app?
 
 Check the following:
 
 - Make sure that the Omnichannel supervisor role is assigned to the user.
-- For the Power BI intraday dashboard, ensure that the dashboard is shared with the user both on Power BI service as well as in the Omnichannel app.
+- For the Power BI intraday dashboard, ensure that the dashboard is shared with the user both on Power BI service and in the Omnichannel app.
 
 For more information, see [Configure Intraday Insights dashboard](configure-intraday-dashboard-supervisor.md). 
 
 ### Why are my Chat Insights and Sentiment dashboard reports empty?
 
-By default, the reports are installed with only a data connection. Once you start using chat and sentiment features, you will see data come through.
+By default, the reports are installed with only a data connection. Once you start using chat and sentiment features, you'll see data come through.
 
 ### How far can I go back in the historical report?
 
@@ -182,7 +203,7 @@ These controls are in place for exposing the data in reports:
 
 ## Chat widgets
 
-### Can we have the widget show on different pages or different websites?
+### Can I have the widget show on different pages or different websites?
 
 The widget can show on any portal you want. You can copy the HTML script tag anywhere to make it appear on specific pages, a different Power Apps portals, or a custom portal as well. 
 
@@ -194,25 +215,25 @@ The same widget will persist the chat as you cross different pages or websites.
 
 ### Can I route chats based on custom variables that we pass through code on my portal?
 
-Yes, you can create custom context variables and create routing rules based on them. For more information, see the following:
+Yes, you can create custom context variables and create routing rules based on them. For more information, see the following articles:
 
 - [Understand and create workstreams](create-workstreams.md)
 - [Configure assignment methods for queues](assignment-methods.md)
 - [Manage custom context](send-context-starting-chat.md)
 
-### Can Omnichannel routing be used for other external channels (for example, my phone calls)?
+### Can routing in Omnichannel for Customer Service be used for other external channels (for example, my phone calls)?
 
-No. Omnichannel routing can be used to route chat or SMS requests only.
+Yes. In Omnichannel for Customer Service, routing can be used to route chat, SMS, and voice conversations.
 
 ## SMS
 
 ### What information from a TeleSign account do I need to enter while configuring the channel?
 
-You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in the Omnichannel admin center app when you create or set up an SMS workstream.
+You'll need the customer ID, API key, and the phone number from your TeleSign account. More information: [Sign up for TeleSign account](configure-sms-channel.md#sign-up-for-telesign-account)
 
-### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in the Omnichannel Administration app. What should I do?
+### Why am I unable to validate the TeleSign account information using the Validate API key option in the admin app?
 
-The Validate API Key functionality will validate the customer ID and the API key by trying to send a test SMS message to one of the numbers provided in the SMS Numbers tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the SMS Numbers tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters; for example, this would be correct: 14251234567
+The Validate API Key functionality validates the customer ID and API key by trying to send a test message to one of the numbers provided in the **SMS phone numbers** tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the **SMS phone numbers** tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters. For example, this would be correct: 14251234567.
 
 ### How can I know if I can get a phone number from TeleSign in a specific country?
 
@@ -226,21 +247,23 @@ TeleSign supports long and short codes; the use of short codes with SMS messagin
 
 Support for this scenario by TeleSign can vary based on geography. We recommend that you send an email request to support@telesign.com for your specific scenario if text messages need to be sent or received across countries.
 
-### Can we communicate with customers using outbound SMS?
+### Can I communicate with customers using outbound SMS?
 
-You can send messages to a customer only after the customer has initiated the conversation by sending a text message to the support number. If the conversation is not closed, you can send messages to the customer by opening the conversation.
+Yes. To send outbound SMS, you must first configure the SMS channel using Twilio, TeleSign, or Azure Communication Services. You can then create message templates, and use them to communicate with multiple customers. 
+
+More information: [Configure an SMS channel for Twilio](Configure-sms-channel-twilio.md), [Configure an SMS channel for TeleSign](configure-sms-channel.md), [Configure an SMS channel using Azure Communication Services](configure-sms-channel-acs.md), [Create message templates](create-message-templates.md)
 
 ### Does the SMS channel automatically identify the customer?
 
-Yes, Omnichannel system will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the Mobile Phone field of Contact records or the Phone field of Account records. Ensure that the phone number in these field has the country code along with the plus sign (+) without any spaces or special characters; for example: +14251234567
+Yes, Omnichannel system will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the **Mobile Phone** field of Contact records or the **Phone field** of Account records. Ensure that the phone number in these fields has the country code along with the plus sign (+) without any spaces or special characters. For example, this would be correct: +14251234567.
 
-### Can we send automated SMS responses?
+### Can I send automated SMS responses?
 
-There are Power Automate connectors from SMS providers that can be used for automated SMS responses. For example, [TeleSign](https://preview.flow.microsoft.com/connectors/shared_telesignsms/telesign-sms/) has a connector for these scenarios.
+Yes. In Omnichannel for Customer Service, you can send automated messages based on system-triggered or user-defined events. More information: [Configure outbound messaging](outbound-messaging.md)
 
 ### Is there anything unique about the way SMS messages are routed to agents?
 
-All channels integrated into Omnichannel have the same routing capabilities, including SMS. You can create Routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) are not supported at this time and should not be used for creating conditions in Routing rules items in an SMS workstream.
+All channels integrated into Omnichannel for Customer Service have the same routing capabilities, including SMS. You can create routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) aren't supported at this time and shouldn't be used for creating conditions in routing rule items in an SMS workstream.
 
 ## Bot
 
@@ -248,5 +271,9 @@ All channels integrated into Omnichannel have the same routing capabilities, inc
 
 Only bots created through [Microsoft Bot Framework](https://dev.botframework.com/) can be integrated at this time.
 
+### See also
+
+[Overview of Dynamics 365 Customer Service](overview.md)  
+[Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

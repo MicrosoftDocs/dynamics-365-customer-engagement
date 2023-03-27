@@ -2,7 +2,6 @@
 title: "Business users learning catalog (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find all the training options for Dynamics 365 Marketing business users."
 ms.date: 05/13/2020
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: hub-page

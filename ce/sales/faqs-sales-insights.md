@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions for Sales Premium"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
-ms.date: 01/11/2023
+ms.date: 03/21/2023
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -102,7 +102,7 @@ Sales Premium supports the following languages:
 | Notes analysis | English, French, German, Italian, and Dutch for machine learning models. |
 | Exchange insight cards in Assistant | Only English - United States (en-US) for machine learning models. |
 | Activity-content based Auto capture |- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
-| Conversation intelligence | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, Hebrew, Danish, Swedish, Finnish, Norwegian, and Arabic. |
+| Conversation intelligence | Go to [Languages supported for conversation intelligence](language-support-conversation-intelligence.md) |
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck).
 
@@ -231,41 +231,56 @@ To add the **Up next** widget to a managed entity form, follow these steps:
 
 Use the site map designer from the app designer to add the sales accelerator site map to your custom app. More information: [Add the sales accelerator site map entry to custom app](add-sales-accelerator-sitemap-entry-custom-app.md).
 
-## Relationship analytics and health   
-    
-### What is the frequency of KPI updates?
-KPIs are updated every 24 hours, potentially fewer.​  
+## Relationship analytics and health
 
-### What are the signals in relationship health?​
-Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.​ 
+### Which data is used to generate basic relationship insights?
+
+**Basic insights:**
+
+Uses email, phone call, and appointments sent or received in Dynamics 365.
+
+**Enhanced insights:**
+
+Uses email, phone call, and appointments sent or received in Dynamics 365 and Exchange (if configured).
+
+### What is the frequency of KPI updates?
+
+**Basic insights:** 
+
+Updated in near real-time&mdash;as soon as a related activity is marked as completed in Dynamics 365.  
+
+**Enhanced insights:**
+
+Updated every 24 hours. ​  
+
+### What are the signals in relationship health?
+​
+Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.
 
 ### Is the Office 365 consent mandatory for the relationship intelligence feature to work?
  
-Office consent is not mandatory for relationship analytics and health score. You’ll get basic relationship analytics and health score based on the data in Dynamics 365. When you provide consent in Office 365 to use the Exchange data, you’ll get more accurate and complete relationship information.
-
-However, office consent is mandatory for who knows whom as it relies on data from Exchange.  
+Office consent is not mandatory for relationship analytics, health score, and who knows whom. You’ll get basic relationship insights based on the data in Dynamics 365. When you provide consent in Office 365 to use the Exchange data, you’ll get more accurate and complete relationship information.
 
 ### What happens if I select the Exchange checkbox but the Office 365 admin hasn’t provided the consent?
 
 The data from Exchange won't be collected until the consent is provided. Work with your Office 365 administrator to get the consent. More information: [Provide consent for collecting data from Office 365](provide-consent-office365.md)
 
-###  I see that the Exchange checkbox is selected, though I hadn't selected it or provided the required consent for it in the past.
+### I see that the Exchange checkbox is selected, though I hadn't selected it or provided the required consent for it in the past.
 
-With the recent changes to the relationship intelligence feature, the Exchange checkbox is selected by default for all the existing customers. However, no data will be collected from Exchange until your Office 365 administrator provides consent. You can clear the checkbox if you aren’t planning to integrate with Exchange. 
+With the recent changes to the relationship intelligence feature, the Exchange checkbox is selected by default for all the existing customers. However, no data will be collected from Exchange until your Office 365 administrator provides consent. You can clear the checkbox if you aren’t planning to integrate with Exchange.
   
-
-### Can I influence the relationship health score?​   
+### Can I influence the relationship health score?​
 
 An administrator can influence the relationship health score by changing the weight of activity types and the expected level of communications with customers. More information: [Configure relationship analytics and health](configure-relationship-analytics.md)
 
 ### How are similar won deals identified? <a name="similar-won-deals-fields"></a> 
  
-AI models are used to identify the factors that impact the identification of similar won deals. The factors may differ from organization to organization based on the custom and out-of-the-box fields.   
+AI models are used to identify the factors that impact the identification of similar won deals. The factors may differ from organization to organization based on the custom and out-of-the-box fields.
+
 To view the fields that determine the similar won deals at that point in time, select the information icon corresponding to any section heading and a side pane opens with the field information.
 
 > [!div class="mx-imgBorder"]
-> ![About relationship analytics side pane with fields](media/faq-sa-about-relationship-analytics-side-pane-fields.png "About relationship analytics side pane with fields")   
-
+> ![About relationship analytics side pane with fields](media/faq-sa-about-relationship-analytics-side-pane-fields.png "About relationship analytics side pane with fields")
 
 ## Predictive lead/opportunity scoring
 
@@ -317,36 +332,73 @@ For activities, the suggestions are displayed immediately.
 
 ### Why am I not seeing some of my colleagues in the suggestions?
 
-There are several possibilities:
+If you know that a colleague has interacted with a customer but their information is not shown in Who Knows Whom widget, it could be due to the following reasons:
+
+**Basic insights:**
+
+Displays only the top five users who contacted the customer the most through emails and appointments in Dynamics 365. So, colleagues who have contacted through phone calls and those who had fewer interactions through emails and appointments will not be listed.
+
+**Enhanced insights:**
 
 - Those colleagues are not a part of your Dynamics 365 org.
 - Those colleagues are not a part of the security role that's [enabled for relationship intelligence](enable-ri.md).  
 - Those colleagues are a part of the security group that your Office 365 admin has [opted out](provide-consent-office365.md).
 - Those colleagues have explicitly [opted out of sharing their data](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
-  
+
 See also [Which colleagues show up as connections?](#which-colleagues-show-up-as-connections)
 
 ### How long does it take for suggestions to show up?
+
+**Basic insights:**
+ 
+ Who knows whom suggestions are available out-of-the-box if the email and appointment data is available in Dynamics 365.
+
+**Enhanced insights:**
 
 After your Microsoft 365 admin provides consent, you'll start seeing the results within a day but it may not be complete as the data will be processed in batches over a period of 4 days.  
 
 ### Which colleagues show up as connections?
 
+**Basic insights:**
+
+Users who have contacted the customer the most through emails and appointments in Dynamics 365.
+
+**Enhanced insights:**
+
 Users in your org who have frequently and recently interacted with the contact or lead show up as connections, unless they have opted out. Administrators have the option to [opt out groups](provide-consent-office365.md) such as C-suite, M&A, finance, and so on. Users can opt out by [turning off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 ### How are the connections weighted?
 
-The connection strength between a user and a potential contact is calculated based on the frequency and recency of interactions between them through emails or appointments. This means that every seller will see the same set of introducers for a contact or lead.  
+**Basic insights:**  
+Uses only frequency. The connections are weighted based on the number of interactions through emails and appointments in Dynamics 365. Top five users who have interacted the most with the contact or lead are displayed.  
+
+**Enhanced insights:**  
+Uses frequency and recency. If your administrator has enabled Exchange integration, the connections are weighted based on recent and frequent interactions through emails or appointments. 
+
+Every seller will see the same set of introducers for a contact or lead. 
+
 
 ### How frequently is the data collected?
+
+**Basic insights:**
+
+Collected in near real-time&mdash;as soon as a related activity is marked as completed in Dynamics 365.  
+
+**Enhanced insights:**  ​  
 
 When you enable who knows whom and provide the required consent, Exchange data pertaining to the last one year is collected and insights are generated based on that data. After this, Exchange data is collected daily and insights are updated based on the latest data.  
 
 ### What is the source for who knows whom data?
 
+**Basic insights:**
+
+Emails and appointments sent and received in Dynamics 365.
+
+**Enhanced insights**
+ ​  
 Emails and meeting information in Exchange Online is the source data. See also [​How are the connections weighted?](#how-are-the-connections-weighted)
 
-### Where are the insights generated?
+### Where are the insights from Exchange generated?
 
 After the Microsoft 365 admin provides consent, the Exchange data is collected and stored in Dynamics 365. The insights are then generated from the stored data in Dynamics 365.  
 
@@ -354,15 +406,19 @@ After the Microsoft 365 admin provides consent, the Exchange data is collected a
 > Microsoft 365 and Dynamics 365 each have their own service-specific licensing terms. The service-specific terms that apply depend on which service processes your data. For example, when a copy of your Microsoft 365 data is transferred to Dynamics 365, your Microsoft 365 data in that copy becomes Dynamics 365 data and the Dynamics 365 service-specific terms apply.
 
 
-### When will my data be removed after I opt out?
+### When will my data be removed after I opt out of data sharing in Exchange?
 
 If you are part of a security group that has been opted out by your administrator, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
 
 If you have [opted out on your own](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications), the data will be removed immediately.  
 
-### How does a Microsoft 365 administrator exclude users?
+### How can an administrator opt out users?
 
-While [providing consent](provide-consent-office365.md#provide-consent), your Microsoft 365 administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents).  
+The following administrators can opt out users at different levels:
+
+- **Microsoft 365 Global administrator** can opt out users of a Microsoft 365 security group. For example, opt out groups such as C-suite, M&A, finance, and so on. More information: [Provide consent to collect data from Microsoft 365](provide-consent-office365.md)
+
+- **Dynamics 365 administrator** can enable who knows whom for specific security roles to avoid opting in all Dynamics 365 users automatically. When you enable it for a specific role, the Exchange data is collected only from users who are part of the security role. More information: [Enable relationship intelligence](enable-ri.md)
 
 ## Conversation intelligence
 

@@ -1,7 +1,7 @@
 ---
 title: "Personalize content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content in Dynamics 365 Marketing."
-ms.date: 12/06/2022
+ms.date: 02/02/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -75,3 +75,7 @@ Once you’ve selected a field, the full path to that field is displayed in the 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the full path to the field.](media/real-time-marketing-personalization-related-path.png)
+
+## Limitations
+
+- Option sets aren't supported for use in dynamic text. Option sets are supported in conditions, so an inline condition can be used to output option values in messages.

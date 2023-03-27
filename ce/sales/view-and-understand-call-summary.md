@@ -1,7 +1,7 @@
 ---
 title: "View and understand call summary page in Conversation Intelligence app"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript."
-ms.date: 01/10/2023
+ms.date: 01/25/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -51,8 +51,22 @@ A call summary page includes the following sections:
 
 #### Overview tab
 
-The **Overview** tab displays the names of the people who participated in a conversation, along with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that have been added to the conversation to improve searchability.
+The **Overview** tab displays the names of the people who participated in a conversation, along with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that have been added to the conversation to improve searchability. 
 
+##### View categorization tag for short duration calls (Preview)
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+Conversation intelligence can detect and tag short duration calls for the following categories:
+
+- Voicemail
+- Contact is unavailable
+- Short calls with reschedule requests
+- Short calls in which the contact indicates the call is unwanted
+
+If the tag is inappropriate, you can delete it.
+
+Your administrator must [enable the **Call categorization (preview)**](fre-setup-ci-sales-app.md#enable-call-categorization-for-short-calls-preview) feature for the system to tag short duration calls. You can also view these tags in the [Conversation intelligence app](https://sales.ai.dynamics.com/) under **Seller Details** > **Call History** section. For more information, see [View a seller’s performance to identify best practices and coaching opportunities](conversation-intelligence-seller-details.md).  
 
 #### Notes tab
 
@@ -162,7 +176,7 @@ On the timeline, you can see how the conversation was segmented. The topics (if 
 ### See also
 
 [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)      
-[Track and manage activities](/dynamics365/sales-enterprise/manage-activities)
-
+[Track and manage activities](/dynamics365/sales-enterprise/manage-activities)  
+[View call recordings and transcripts in Dynamics 365 Customer Service](../customer-service/voice-channel-call-recordings-transcripts.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

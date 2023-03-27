@@ -1,10 +1,8 @@
 ---
 title: "Build your own Connected Field Service (IoT) solution (contains video) | MicrosoftDocs"
 description: Provide pro-active field service with the Connected Field Service solution. Connect devices and equipment via the Internet of Things (IoT) and Microsoft cloud services to detect and diagnose problems and enable predictive maintenance. Extend or customize the Connected Field Service solution to meet your service organization's business needs.
-ms.reviewer: mhart
-ms.author: keithh
-author: MSKeith
-manager: shellyha
+ms.author: vhorvath
+author: vhorvathms
 ms.date: 07/27/2022
 ms.topic: overview
 
@@ -45,9 +43,9 @@ Here are the three things you need to get started building your own IoT solution
 
 - **Dynamics 365 Connected Field Service add-on**  
 
-Connected Field Service is installed automatically in the current version of Field Service. Make sure you have upgraded to the [latest version of Field Service](upgrade-field-service.md). 
+Connected Field Service is installed automatically in the current version of Field Service. Make sure you have updated to the [latest version of Field Service](update-field-service.md). 
 
-You can then deploy Azure IoTHub by going to [https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment) and following the instructions.
+You can then deploy Azure IoT Hub by going to [https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment) and following the instructions.
 
 [!INCLUDE [proc-more-information](../includes/proc-more-information.md)] [Installation and setup - Connected Field Service for Azure IoT Hub](installation-setup-iothub.md)
 

@@ -1,21 +1,19 @@
 ---
-title: "Enable location and map settings in Dynamics 365 Field Service | MicrosoftDocs"
+title: Enable location and map settings
 description: Learn all about location and map settings and how to enable them in Dynamics 365 Field Service.
 ms.date: 11/30/2022
-ms.reviewer: mhart
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
 author: clearab
 ms.author: anclear
-manager: shellyha
 search.app:
 - D365CE
 - D365FS
 ---
 
-# Enable location and map settings in Dynamics 365 Field Service
+# Enable location and map settings
 
 Locations and maps are important for getting the most value out of Field Service. For example, knowing the location of work orders and resources allows the solution to effectively route the closest technician (resource) to the service request (work order).
 

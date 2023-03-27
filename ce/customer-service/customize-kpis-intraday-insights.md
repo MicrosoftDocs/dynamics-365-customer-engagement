@@ -1,7 +1,7 @@
 ---
 title: "Add custom KPIs to intraday insights dashboard | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to add custom KPIs to the intraday insights dashboard in Omnichannel for Customer Service."
-ms.date: 10/24/2019
+ms.date: 01/31/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,7 +11,10 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Customize KPIs for intraday insights
 
-To cater to your organizational needs, intraday insights allows you to customize KPIs. This allows supervisors to adapt to your organizational parameters that are specifically designed for your organization. Through the Power BI desktop application, you can customize these KPIs.
+> [!NOTE]
+> We recommend that you try out [real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability. These reports provide real-time information about the health and key performance indicators of your organization. You can adjust the filters to view relevant insights, personalize views of the reports as bookmarks, and even customize the visual display of the reports.
+
+To cater to your organizational needs, intraday insights allows you to customize KPIs. This allows supervisors to adapt to your organizational parameters that are designed for your organization. Through the Power BI desktop application, you can customize these KPIs.
 
 > [!NOTE]
 > Do not customize out-of-the-box reports because they will be overwritten when new versions are made available by Microsoft. However, if you do customize them, save them with another name.
@@ -48,7 +51,7 @@ You can add the custom KPIs that are specific to your organization to intraday i
 
    The dataset selection dialog box opens.
 
-4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace)), and then select **Load**.
+4. Select **IntradayMonitoring** from the workspace that you've created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace)), and then select **Load**.
 
    > [!div class=mx-imgBorder]
    > ![Select intraday insights datasets.](media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")
@@ -57,7 +60,7 @@ You can add the custom KPIs that are specific to your organization to intraday i
 
 5. From the field category list, select a category to create a measure and then select **More options** (**...**) > **New measure**.
 
-    In this example, we are creating a measure for the field category **AgentAvailability**.
+    In this example, we're creating a measure for the field category **AgentAvailability**.
 
    > [!div class=mx-imgBorder]
    > ![Select Agent Availability field.](media/supervisor-admin-custom-kpis-select-fields.png "Select Agent Availability field")
@@ -66,7 +69,7 @@ You can add the custom KPIs that are specific to your organization to intraday i
 
 6. The formula bar appears along the top of the Report canvas, where you can rename your measure and enter a DAX formula.
 
-    In this example, we are adding a measure for calculating the total number hours that an agent is working on a workitem.
+    In this example, we're adding a measure for calculating the total number hours that an agent is working on a work item.
 
     ```
     Total agent work hours = Agent[Average Session Handling Time] + Agent[Average Conversations Per Online Agents]
@@ -104,7 +107,7 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 
    The dataset selection dialog box opens.
 
-4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace)), and then select **Load**.
+4. Select **IntradayMonitoring** from the workspace that you've created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace)), and then select **Load**.
 
    > [!div class=mx-imgBorder]
    > ![Select intraday insights datasets.](media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")
@@ -118,7 +121,7 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
        > [!NOTE]
        > Fields with measures are preceded with a calculator icon. 
 
-       In this example we are selecting **Total agent work hours** field from **AgentAvailability** category. The details of for the field is displayed including its formula bar.
+       In this example we're selecting **Total agent work hours** field from **AgentAvailability** category. The details of for the field is displayed including its formula bar.
 
        > [!div class=mx-imgBorder]
        > ![Select a field to edit the measure.](media/supervisor-admin-custom-kpis-select-field-edit-measure.png "Select a field to edit the measure")
@@ -131,12 +134,12 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 
     1. From the field category list, select a category and then select the field for which you want to change the visual.  
 
-       In this example we are selecting **Agent Handling Time** field from **Session** category. The visual for the field is displayed.
+       In this example we're selecting **Agent Handling Time** field from **Session** category. The visual for the field is displayed.
 
        > [!div class=mx-imgBorder]
        > ![Select a field to change visualization.](media/supervisor-admin-custom-kpis-visual-field-selection.png "Select a field to change visualization")
 
-    2. From the **VISUALIZATIONS** tab, edit the visualizations of the field as required. In this example, we are changing the chart to a pie chart.
+    2. From the **VISUALIZATIONS** tab, edit the visualizations of the field as required. In this example, we're changing the chart to a pie chart.
 
        > [!div class=mx-imgBorder]
        > ![Change visualization from bar chart to pie chart.](media/supervisor-admin-custom-kpis-change-bar-to-pie.png "Change visualization from bar chart to pie chart")
@@ -147,7 +150,7 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 
 ## Reference
 
-The tables in the intraday insights dataset consists of entity attributes along with measures and calculated columns. The following are the list of entity that are supported in Intraday insights:
+The tables in the intraday insights dataset consists of entity attributes along with measures and calculated columns. The following are the list of entity that is supported in Intraday insights:
 
 - **Agent**. To learn more about entity attributes for agent, see [SystemUser entity](developer/reference/entities/overview-entity-ref.md#systemuser-entity).
 
@@ -155,7 +158,7 @@ The tables in the intraday insights dataset consists of entity attributes along 
 
 - **AgentQueueAssociation**. To learn more about entity attributes for agent queue association, see [SystemUser entity](developer/reference/entities/overview-entity-ref.md#systemuser-entity) and [Queue Entity](developer/reference/entities/overview-entity-ref.md#queue-entity).
 
-- **AgentRoleAssociation**. To learn more about about entity attributes for agent role association, see [SystemUser entity](developer/reference/entities/overview-entity-ref.md#systemuser-entity) and [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9&preserve-view=true).
+- **AgentRoleAssociation**. To learn more about entity attributes for agent role association, see [SystemUser entity](developer/reference/entities/overview-entity-ref.md#systemuser-entity) and [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9&preserve-view=true).
 
 - **Presence**. To learn more about entity attributes for presence, see [msdyn_presence Entity Reference - Writable attributes](developer/reference/entities/msdyn_presence.md#writable-attributes).
 

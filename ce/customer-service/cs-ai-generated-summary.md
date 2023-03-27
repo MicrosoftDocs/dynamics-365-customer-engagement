@@ -1,7 +1,7 @@
 ---
 title: "Auto-summarize conversations in Customer Service"
 description: "View an AI-generated summary of a customer conversation and share it in Microsoft Teams."
-ms.date: 10/03/2022
+ms.date: 01/18/2023
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -74,4 +74,5 @@ When you open a case or a conversation, the **Teams chats** pane appears on the 
 
 ## See also
 
-[Set up AI-generated conversation summary in Dynamics 365 Customer Service](cs-enable-ai-generated-summary.md)
+[Set up AI-generated conversation summary in Dynamics 365 Customer Service](cs-enable-ai-generated-summary.md)  
+[View and understand call summary page in the Sales Hub app](../sales/view-and-understand-call-summary-sales-app.md)  

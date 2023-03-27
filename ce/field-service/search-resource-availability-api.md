@@ -2,15 +2,12 @@
 title: "Search resource availability API in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to use an API to find eligible resources in Field Service. 
 ms.date: 08/04/2022
-ms.reviewer: mhart
-ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: ryanchen8
 ms.author: chenryan
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -42,7 +39,7 @@ The settings entity is not an entity that exists in the Dataverse; however, it's
 | ConsiderSlotsWithLessThanRequiredDuration | Boolean | Set this to _True_ if a time slot with less than the required duration should be considered when computing potential available time slots on the resource's calendar. | No | False
 | ConsiderSlotsWithOverlappingBooking | Boolean | Set this to _True_ if a time slot with overlapping bookings should be considered when computing potential available time slots on the resource's calendar. | No | False
 | ConsiderSlotsWithProposedBookings | Boolean | Set this to _True_ if a time slot with proposed bookings should be considered when computing potential available time slots on the resource's calendar. | No | False
-| ConsiderAppointments | Boolean | Set this to _True_ for search resource availability API to respect existing Dataverse appointments as bookings on the resource, provided the [organization and resource level settings have been set](appointment-scheduling.md#step-1-enable-setting-to-include-appointments-in-resource-scheduling). Appointments with statuses _Busy_ or _Completed_ will be considered as unavailable for scheduling operations. | No | False
+| ConsiderAppointments | Boolean | Set this to _True_ for search resource availability API to respect existing Dataverse appointments as bookings on the resource, provided the [organization and resource level settings have been set](appointment-scheduling.md). Appointments with statuses _Busy_ or _Completed_ will be considered as unavailable for scheduling operations. | No | False
 | ConsiderTravelTime | Boolean | Set this to _True_ if travel time should be considered when computing potential time slots on the resource's calendar. | No | True
 | MovePastStartDateToCurrentDate | Boolean | Set this to _True_ to move a start date in the past to the current date. | No | False
 | UseRealTimeResourceLocation | Boolean | Set this to _True_ if the real-time location of resources should be used when computing potential time slots on the resource's calendar. | No | False

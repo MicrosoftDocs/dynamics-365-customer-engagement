@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 10/12/2022
+ms.date: 01/31/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -28,17 +28,17 @@ This article explains how to use Microsoft Teams as an online meeting provider f
 For general information about setting up Microsoft Teams, refer to the [Microsoft Teams deployment overview](/microsoftteams/deploy-overview).
 
 > [!NOTE]
-> To use Microsoft Teams as an online event provider, you must have a [Microsoft 365 license](/office365/servicedescriptions/teams-service-description) that allows you access to the Teams service. If you do not have the correct license, you will not see the Teams webinar, Teams meeting, or Teams live event options as a part of the **Streaming providers** list.
+> To use Microsoft Teams as an online event provider, you must have a [Microsoft 365 license](/office365/servicedescriptions/teams-service-description) that allows you access to the Teams service. If you do not have the correct license, you will not see the Teams webinar, Teams meeting, or Teams live event options as a part of the **Streaming provider** list.
 
 ## Create an online event
 
-To create a Teams event, select **Events** in the left navigation pane of the Marketing app. Then select **+New** in the top ribbon. You’ll see a banner highlighting that Teams is available as a streaming provider.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Azure resource groups.](./media/teams-webinar-stream2.png)
+To create a Teams event, select **Event planning** in the Marketing app area switcher, then select **Events** in the left navigation pane. Select **+New** in the top ribbon.
 
 > [!NOTE]
 > The **Event Format** field is hidden from the event form and is automatically set. To see the streaming options, set the **Do you want to stream this event** toggle to **Yes**. If you are using a custom form, ensure that you hide this field and set the value to **Hybrid event**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Azure resource groups.](./media/teams-webinar-stream2.png)
 
 ## Event streaming options
 
@@ -250,7 +250,7 @@ The **Join in Teams** button generates a unique attendee URL for each registrant
 > The **Join in Teams** button uses a unique URL for each registrant. Forwarding an email with a **Join in Teams** button retains the URL specific to the original recipient. The forwarded email will not generate a new check-in for the forwarded invite. To ensure your event is ready to capture all attendee information, see [Make the most of your event check-in flow](optimize-check-in.md).
 
 > [!TIP]
-> If an attendee selects the **Join in Teams** button *more than 30 minutes* before the event starts, the check-in *won't* be created. This is a hard-coded feature to prevent accidental check-ins when a recipient tests the link after they receive the email.
+> If an attendee selects the **Join in Teams** button *more than 120 minutes* before the event starts, the check-in *won't* be created. This is a hard-coded feature to prevent accidental check-ins when a recipient tests the link after they receive the email.
 
 ### Create a Join in Teams button
 

@@ -1,7 +1,7 @@
 ---
 title: "How to use aggregate channel analytics (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use and interpret real-time marketing aggregate channel analytics in Dynamics 365 Marketing."
-ms.date: 05/20/2022
+ms.date: 02/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -58,3 +58,9 @@ This section highlights the spam rate and unsubscribe rate for emails. For text 
 
 > [!NOTE]
 > Depending on your selection of filters, you might see some metrics show “N/A.” This is because such metrics are not applicable for some or all of the communications based on your selected filters. In such scenarios, refer to the tooltip to learn about the types of communications that apply to a specific metric.
+
+## Learn more
+
+Here are some advanced resources for this topic:
+
+- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)

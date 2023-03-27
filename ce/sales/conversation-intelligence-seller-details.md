@@ -96,4 +96,6 @@ Let's look at the KPIs and insights in detail:
 
 [Connect conversation intelligence to an environment](connect-dynamics365-sales-environment.md)
 
+[Agents insights report in Omnichannel intraday insights](/dynamics365/customer-service/intraday-agents-insights)
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

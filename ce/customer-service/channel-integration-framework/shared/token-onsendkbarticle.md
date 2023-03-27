@@ -2,7 +2,7 @@ The `onsendkbarticle` event is invoked when the user selects the **Send** button
 
 ## eventData
 
-The `eventData` event takes the following eventData:
+The `onsendkbarticle` event takes the following eventData:
 
 | eventData | Example |
 |-----------|---------|

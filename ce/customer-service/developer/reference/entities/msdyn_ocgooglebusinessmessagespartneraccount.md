@@ -756,6 +756,5 @@ Same as msdyn_ocbotchannelregistration table [msdyn_msdyn_ocgbmpartneraccount_ms
 
 ### See also
 
-[About the Entity Reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_ocgooglebusinessmessagespartneraccount?text=msdyn_ocgooglebusinessmessagespartneraccount EntityType" />
+[About the Entity Reference](overview-entity-ref.md)  
+[Web API Reference](/dynamics365/customer-engagement/web-api/about)  

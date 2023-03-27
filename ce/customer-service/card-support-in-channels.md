@@ -1,11 +1,11 @@
 ---
-title: "Support for live chat and asynchronous channels | MicrosoftDocs"
-description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 12/23/2022
-ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+title: Support for live chat and asynchronous channels
+description: Get information on the support for adaptive cards, suggested actions, emojis, stickers, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service.
+ms.date: 01/17/2023
+ms.topic: conceptual
+author: gandhamm
+ms.author: mgandham
+ms.custom: bap-template
 ms.reviewer: nenellim
 ---
 
@@ -26,7 +26,7 @@ The following table lists the rich cards that are supported across different cha
 
 ✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. The number of actions allowed on each card might be limited that varies by channel.
 
-✔*: Card elements are supported in the Webchat version of Custom (Direct Line) channel, but not in the Android version.
+✔*: Card elements are supported in the Webchat version of custom channel that uses Direct Line, but not in the Android version.
 
 🌐: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
 
@@ -85,7 +85,7 @@ You can enable file attachments on the **General settings** tab of a channel so 
 > [!NOTE]
 >
 > - For Microsoft Teams, when a customer sends an emoji from the Teams client, the agent receives a PNG image. When an agent sends a GIF image (outbound), the customer will receive a PNG image.
-> - The Direct Line channel supports the above attachment types, but it's up to the client to implement them.
+> - The custom channels that use Direct Line support different types of file attachments, but it's up to the client to implement them.
 > - For LINE inbound and outbound messages, when a GIF image is sent, the recipient will receive a JPG image.
 > - For WhatsApp messages, when a customer sends an attachment in document format (for example, a DOCX, XLSX, or TXT file), the agent will receive the attachment name as message text. We recommend converting documents to PDF format before sending them as attachments.
 
@@ -106,7 +106,7 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Custom messaging (Direct Line) | Yes. Emoji in text like “😀”                           |
 
 > [!NOTE]
-> The Direct Line channel supports emojis, but it's up to the client to implement them.
+> The custom channels that use Direct Line support emojis, but it's up to the client to implement them. 
 
 ## Support for stickers
 
@@ -124,16 +124,13 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Custom messaging (Direct Line) | Yes, as sticker image.                                  |
 
 > [!NOTE]
-> The Direct Line channel supports stickers, but it's up to the client to implement them.
+> The custom channels that use Direct Line support stickers, but it's up to the client to implement them.
 
-## Preview: Support for formatted messages <a name="formatted-messages"></a>
-
-> [!IMPORTANT]
-> This section is pre-release documentation and is subject to change.
+## Support for formatted messages
 
 Agents can use basic formatting capabilities in their outbound messages across both asynchronous and live chat channels. However, for your agents to send and receive formatted messages, you must [enable formatted messages](enable-formatted-messages.md).
 
-The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and Direct Line-based channels.
+The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and custom channels that use Direct Line.
 
 | Style                | Live chat  | Microsoft Teams | Facebook | Google's Messages for Business | WhatsApp | Custom messaging (Telegram)| Custom messaging (Direct Line) |
 |----------------------| ---------- | -------------   | -------- |------------------------------- |---------|------------------          |------------------------------  |
@@ -153,40 +150,18 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 > - Apple Messages for Business, Twitter, WeChat, and SMS channels don't support formatted messages.
 > - A few text styles such as blockquote, headers, numbered lists, and unordered lists, are currently not supported across some channels.
 
-## Preconfigured automated message triggers for asynchronous channels
 
-### Preconfigured automated message triggers for agents
+## Next steps
 
-The following table lists the automated messages that are displayed for an agent across different asynchronous channels.
-
-|**Channel** | **Message triggered** | **Definition** | **Triggering event** |  
-|-----------------|----------------|------------|-----------------|
-|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp | Message or attachment couldn't be sent. Error details include error code, reason for failure, message ID, timestamp, and transaction ID.| Message that's displayed to agent when  the agent's message or attachment couldn't be sent | When agent's message or attachment couldn't be sent |
-|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp | Customer's file couldn't be attached because it's too large| Message that's displayed to agent when the customer sends an attachment that exceeds the allowed limit   | When customer sends an attachment that exceeds the allowed limit  |
-|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp | Message couldn't be delivered: Unsupported message type| Message that's displayed to agent when customer sends an unsupported message type| When customer sends an unsupported message type |
-|Custom | Customer disconnected| Message that's displayed to agent when the customer gets disconnected|  When the customer gets disconnected |
-|Custom|  Customer ended conversation| Message that's displayed to agent when customer ends the conversation| When customer ends the conversation|
-
-### Preconfigured automated message triggers for customers
-
-The following table lists the automated messages that are displayed for a customer across different asynchronous channels.
-
-|**Channel** | **Message triggered** | **Definition** | **Triggering event** |  
-|-----------------|----------------|------------|-----------------|
-|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp| Customer's file couldn't be attached because it's too large |Message that's displayed to customer when the customer sends an attachment that exceeds the allowed limit   | When customer sends an attachment that exceeds the allowed limit  |
-|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp |Message couldn't be delivered: Unsupported message type | Message that's displayed to customer when the customer sends an unsupported message type |  When customer sends an unsupported message type |
-|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp |Greeting Message for Async Channels | Message that's displayed to customer when the customer sends a message request to chat  | When customer sends a message request to chat |
-|Custom| Customer's position in queue | Message that's displayed to customer when there's a queue of customers waiting| When customer submits a request and is placed in the queue to chat with an agent because other customers are already waiting. |
-|Custom| Customer is next in line|  Message that's displayed to customer when no other customer is ahead in the queue |  The number of customers waiting to chat gets updated each time a customer in line is served. When no other customer is ahead in the queue, the customer waiting is notified with the message. |
+[Bring your own custom messaging channel using Direct Line](bring-your-own-channel.md)  
+[Configure custom messaging channel](configure-custom-channel.md)  
 
 ### See also
 
 [Overview of channels](channels.md)  
-[Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
-[Configure custom messaging channel](configure-custom-channel.md)  
 [Enable file attachments](enable-file-attachments.md)  
 [Enable formatted messages](enable-formatted-messages.md)  
-[Markdown formats: Direct Line](markdown-formats-dev.md)  
-[Use Markdown to format messages](markdown-formats-agents.md)  
+[Markdown formats in custom channels that use Direct Line](markdown-formats-dev.md)  
+[Markdown formats for agents](markdown-formats-agents.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

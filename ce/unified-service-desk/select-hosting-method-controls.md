@@ -3,8 +3,8 @@ title: "Select a hosting method for your controls in Unified Service Desk | Micr
 description: "Learn about the various hosting methods that you can use to host your webpages in Unified Service Desk."
 ms.date: 09/20/2022
 ms.topic: "article"
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

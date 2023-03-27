@@ -21,7 +21,7 @@ ms.assetid: e9258994-b84a-cefb-4d97-762f4bc3ca5a
 
 # Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales
 
-Digital transformation is real. Across every industry vertical, companies are rethinking their business processes and entire segments are reorganizing. Enhance key application scenarios by connecting the system of record with the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data graph and insights. Build custom applications powered by [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator intelligence, enhancing business processes with data about people, organizations, and relationships. 
+Digital transformation is real. Across every industry vertical, companies are rethinking their business processes and reorganizing their segments. Use LinkedIn Sales Navigator to enhance key application scenarios by connecting the system of record with the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data graph and insights. You can also build custom applications by using [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator to enhance business processes with data about people, organizations, and relationships. 
 
 >[!NOTE]
 >The LinkedIn Sales Navigator solution is also available for Dynamics 365 Sales Professional.
@@ -77,3 +77,4 @@ Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widgets 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

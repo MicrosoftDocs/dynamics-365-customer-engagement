@@ -3,8 +3,8 @@ title: "Walkthrough 4: Display session records in Unified Interface apps | Micro
 description: "Use this walkthrough to understand the prerequisites and procedures for displaying session records in Unified Interface apps."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

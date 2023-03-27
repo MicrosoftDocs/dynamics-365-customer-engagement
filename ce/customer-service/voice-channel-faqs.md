@@ -15,7 +15,7 @@ This article includes frequently asked questions (FAQ) about the voice channel.
 
 ### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
 
-No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#how-overflow-works)
+No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#how-queue-overflow-is-evaluated)
 
 ### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 
@@ -27,7 +27,7 @@ The voice channel is compliant with Payment Card Industry Data Security Standard
 
 ### Where does Azure Communication Services provide native PSTN services?
 
-To register as a calling provider is a legally complex and country-specific process. Azure Communication Services has a multiyear road map to provide calling plans in different countries and regions. As of January 2022, Azure Communication Services provides toll-free and local numbers for calling providers with billing postal codes in United States, Puerto Rico, United Kingdom, and Ireland.
+To register as a calling provider is a legally complex and country-specific process. Azure Communication Services has a multiyear road map to provide calling plans in different countries and regions. To see all the countries where PSTN services are available, check the [country availability](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) page.
 
 An alternative to Microsoft calling plans is Azure direct routing that allows you to bring your own phone numbers. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
 
@@ -101,7 +101,8 @@ You can transfer conversations from one bot to another with different primary la
 
 ### Can I recover data and phone numbers from a voice trial organization after it has expired?
 
-No, you can't recover your data and trial phone numbers after the trial organization has expired and has been deprovisioned.
+No, you can't recover your data and phone numbers after the voice trial organization has expired and been deprovisioned. 
+
 
 ### Is disaster recovery supported for the voice channel?
 

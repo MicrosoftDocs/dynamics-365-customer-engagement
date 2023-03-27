@@ -1,11 +1,12 @@
 ---
-title: "Configure assignment methods for queues | MicrosoftDocs"
-description: "Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service"
-ms.date: 10/03/2022
-ms.topic: article
+title: Configure assignment methods for queues
+description: Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service.
+ms.date: 03/08/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Configure assignment methods and rules for queues
@@ -25,18 +26,18 @@ In unified routing, the process of creating assignment rulesets involves the fol
 Perform the following steps to create a custom assignment method:
 
 1. In Dynamics 365, go to one of the admin apps, and perform the following steps.
-   
+
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-   
+
     1. In the site map, select **Queues** in **Customer support**.
-    
+
     2. On the **Queues** page, select **Manage** for **Advanced queues**.
-    
-   
+
+
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
     - In the site map, select **Queues** in **General settings**.
-    
+
    ### [Customer Service Hub](#tab/customerservicehub)
 
     - Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.

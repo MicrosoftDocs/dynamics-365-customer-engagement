@@ -18,6 +18,14 @@
       href: get-started.md
     - name: Integrate with Dynamics 365 Customer Insights
       href: ci-get-started.md
+  - name: Key real-time marketing scenarios
+    items:
+    - name: Send a targeted email blast in real-time marketing
+      href: real-time-marketing-email-get-started.md
+    - name: Boost event engagement with real-time journeys
+      href: real-time-marketing-event-registration-journey.md
+    - name: Identify and resolve errors with real-time customer care journeys
+      href: real-time-marketing-customer-care-journey.md
   - name: Installation and environment management
     items: 
     - name: Install or uninstall
@@ -82,8 +90,8 @@
           href: manage-excel-templates.md
         - name: Manage Word templates
           href: manage-word-templates.md
-      - name: Business management settings
-        href: business-management-settings.md
+      - name: Data management settings
+        href: data-management-settings.md
     - name: Marketing settings
       items: 
       - name: Marketing settings overview
@@ -96,8 +104,6 @@
         href: mkt-settings-lead-score-options.md
       - name: Add or remove sample data
         href: /power-platform/admin/add-remove-sample-data
-      - name: Authenticate your domains
-        href: mkt-settings-authenticate-domains.md
       - name: Marketing analytics configuration
         href: mkt-settings-analytics.md
       - name: Configure landing pages
@@ -148,6 +154,8 @@
           href: fix-high-bounce-rate.md
         - name: Warm up an IP or domain
           href: email-warm-up.md
+        - name: Public IP addresses used for sending e-mails
+          href: public-ip-addresses-for-email-sending.md
         - name: Create an SPF TXT record
           href: create-spf-record.md
         - name: Email security and connection encryption
@@ -218,14 +226,10 @@
       href: real-time-marketing-user-guide.yml
     - name: Get started with real-time marketing
       items:
-      - name: Real-time marketing overview
+      - name: Overview
         href: real-time-marketing-overview.md 
       - name: Use Customer Insights profiles and segments
         href: real-time-marketing-ci-profile.md
-      - name: Send a targeted email blast in real-time marketing
-        href: real-time-marketing-email-get-started.md
-      - name: Boost event engagement with real-time journeys
-        href: real-time-marketing-event-registration-journey.md
       - name: Known issues in real-time marketing
         href: real-time-marketing-known-issues.md
     - name: Communication channels
@@ -236,7 +240,9 @@
           href: real-time-marketing-email.md
         - name: "Preview: Use AI to kickstart email creation with content ideas"
           href: content-ideas.md
-        - name: "Preview: Use brand profiles in real-time marketing email"
+        - name: "Preview: Send emails without building a journey"
+          href: email-without-journey.md
+        - name: Use brand profiles in real-time marketing email
           href: brand-profiles-email.md
       - name: "Preview: Real-time marketing forms"
         href: real-time-marketing-form-editor.md
@@ -272,7 +278,7 @@
           href: real-time-marketing-test-triggers.md
       - name: Segment-based journeys
         items:
-        - name: "Preview: Build segments in real-time marketing"
+        - name: Build segments in real-time marketing
           href: real-time-marketing-build-segments.md
         - name: "Preview: Use natural language to create segments"
           href: real-time-marketing-natural-language-segments.md
@@ -280,9 +286,9 @@
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
           href: real-time-marketing-segment-based-journey.md
-        - name: "Preview: Create a static snapshot of a segment"
+        - name: Create a static snapshot of a segment
           href: real-time-marketing-static-snapshot.md
-        - name: "Preview: Individually manage your customer list"
+        - name: Individually manage your customer list
           href: real-time-marketing-include-exclude.md
         - name: "Preview: Sync data tables into the segment builder"
           href: real-time-marketing-sync-data-tables.md
@@ -304,14 +310,20 @@
           href: real-time-marketing-personalize-triggers.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
-      - name: Analytics
-        items:
-        - name: Access and interpret analytics
-          href: real-time-marketing-analytics.md
-        - name: How to use aggregate cross-journey analytics
-          href: real-time-marketing-cross-journey-analytics.md
-        - name: How to use aggregate channel analytics
-          href: real-time-marketing-channel-analytics.md
+        - name: Customize the journey designer in real-time Marketing
+          href: real-time-marketing-journey-designer.md
+        - name: Add email CC recipients to journeys in real-time marketing
+          href: real-time-marketing-add-cc-recipients.md  
+    - name: Analytics
+      items:
+      - name: Access and interpret analytics
+        href: real-time-marketing-analytics.md
+      - name: How to use aggregate cross-journey analytics
+        href: real-time-marketing-cross-journey-analytics.md
+      - name: How to use aggregate channel analytics
+        href: real-time-marketing-channel-analytics.md
+      - name: "Preview: Track campaigns with UTM codes"
+        href: real-time-marketing-utm.md
     - name: Personalization
       items:
       - name: Personalize content
@@ -322,16 +334,16 @@
         href: conditional-content.md
       - name: Create reusable content blocks
         href: content-blocks.md
-      - name: Personalize inline conditions
+      - name: How to use inline conditions
         href: real-time-marketing-personalize-inline-conditions.md
       - name: Personalize lists
         href: real-time-marketing-personalize-lists.md
     - name: Assets
       items: 
-      - name: Real-time marketing asset library
+      - name: Real-time marketing asset library add-on
         href: real-time-marketing-asset-library.md
-      - name: Install the real-time marketing asset library add-on
-        href: real-time-marketing-asset-add-on.md
+      - name: Use images, files, and videos in your content
+        href: upload-images-files.md
     - name: Administration
       items: 
       - name: Journeys
@@ -348,12 +360,18 @@
           href: real-time-marketing-email-text-consent.md
         - name: Use outbound subscription centers in real-time journeys
           href: real-time-marketing-outbound-subscription.md
-      - name: Real-time marketing domain authentication
-        href: real-time-marketing-domain.md
       - name: Manage SMS (text message) keywords used in customer journeys
         href: manage-sms-keywords.md
       - name: Install add-ons
         href: add-ons.md
+      - name: Business units 
+        items:
+        - name: "Preview: Business unit support in real-time marketing"
+          href: real-time-marketing-business-units.md
+        - name: Support for modernized business units 
+          href: real-time-marketing-modernized-business-units.md
+        - name: BU FAQ for real-time marketing
+          href: real-time-marketing-business-unit-faq.md  
     - name: Developer
       items: 
       - name: Manually add a custom channel
@@ -384,6 +402,12 @@
         href: real-time-marketing-api-segment.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
+    - name: Domain Authentication  
+      items:
+      - name: Domain authentication in real-time marketing
+        href: domain-authentication.md
+      - name: BIMI support
+        href: bimi-support.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
   - name: Outbound marketing
@@ -402,6 +426,8 @@
         href: organize-daily-work.md
       - name: Manage customer information
         href: manage-customer-information.md
+      - name: Business unit support in outbound marketing
+        href: business-units-support-outbound-marketing.md
       - name: Access a Dynamics 365 Marketing trial from Microsoft Teams
         href: teams-journey.md
       - name: Sales and marketing collaboration with Dynamics 365
@@ -442,14 +468,10 @@
         href: advanced-tutorials.md
     - name: Digital content design
       items: 
-      - name: Design your digital content
-        href: design-digital-content.md
       - name: Work with email, page, and form templates
         href: email-templates.md
       - name: Use custom attributes to enable designer features
         href: custom-template-attributes.md
-      - name: Design elements reference
-        href: content-blocks-reference.md
     - name: Email campaigns
       items: 
       - name: Email marketing overview
@@ -458,8 +480,6 @@
         href: email-design.md
       - name: Add dynamic content to email messages
         href: dynamic-email-content.md
-      - name: How to use conditional content
-        href: conditional-content.md
       - name: Set the sender, receiver, language, and legal designation
         href: email-properties.md
       - name: "Preview: Use AI to kickstart email creation with content ideas"
@@ -480,6 +500,10 @@
         href: email-a-b-testing.md
       - name: Email troubleshoot + FAQ
         href: email-troubleshoot.md
+    - name: Domain authentication (old version)
+      items: 
+      - name: Authenticate your domains
+        href: mkt-settings-authenticate-domains.md
     - name: Marketing pages and forms
       items: 
       - name: Create and deploy marketing pages
@@ -504,8 +528,6 @@
         href: pages-forms-troubleshoot.md
     - name: Marketing content library management
       items: 
-      - name: Upload and use images and files
-        href: upload-images-files.md
       - name: Create a video library and add videos to your designs
         href: video-content.md
     - name: Segmentation
@@ -777,7 +799,7 @@
   - name: Learning catalog
     items: 
     - name: Learning catalog overview
-      href: learning-catalog.md
+      href: learning-catalog.yml
     - name: Business Decision Maker
       href: learning-bdm.md
     - name: Business User

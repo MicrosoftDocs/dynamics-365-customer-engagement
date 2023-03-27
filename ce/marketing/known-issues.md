@@ -1,7 +1,7 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This article documents known issues and workarounds for Dynamics 365 Marketing."
-ms.date: 12/16/2022
+ms.date: 01/13/2023
 ms.custom:
   - dyn365-admin
   - dyn365-marketing
@@ -64,6 +64,7 @@ This document provides important, late-breaking information about known issues a
 - Web interactions registered for an anonymous visitor (on a tracked website, marketing page, marketing form, or redirect URL) don't currently become attributed to a contact record if those visitors later become known contacts. Though these interactions remain anonymous, you can still see them under the related entity (marketing page, website, etc.) and they're leveraged to compute the insights for each record. More information: [Websites](#websites) <!--- 1276305 -->
 - Customer journey insights include a count of contacts that stopped their journey midway because the "Contact joined the suppression segment." In the current release,  this count may be unreliable. The suppression segment still works, and the contacts will be stopped correctly on joining it, but some of the contact numbers won't add up due to stopped contacts not getting counted here. <!--- 1348581 -->
 - Email insights include a map showing where recipients were when they opened your message. For Gmail addresses, this information will often be inaccurate because of the way that Gmail caches embedded images. Geographical information can also be inaccurate for recipients using a VPN or a widely distributed corporate network.
+- Date filtering doesn’t apply to top-10 links or links insights.
 
 ## Lead scoring and management
 
@@ -111,6 +112,7 @@ This document provides important, late-breaking information about known issues a
 ## Social posting
 
 - When opening an existing social post, the old UI momentarily displays. <!--- 1927648 -->
+- You cannot create a Facebook post that contains a GIF file *and* multiple images.
 
 ## Trials
 

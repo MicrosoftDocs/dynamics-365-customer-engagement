@@ -2,8 +2,7 @@
 title: "Add a new Deployment Administrator | Microsoft Docs"
 description: Find out how to add a deployment administrator using Deployment Manager
 ms.custom: 
-ms.date: 04/26/2021
-
+ms.date: 01/30/2023
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -31,6 +30,16 @@ You can grant or remove the [!INCLUDE[pn_Deployment_Administrator](../includes/p
   
 1. After the user name is accepted, select **OK**.
 1. [Add the deployment administrator to the PrivUserGroup Active Directory security group](#add-the-deployment-administrator-to-the-privusergroup-active-directory-security-group)
+
+#### Permissions required deployment administration tasks
+
+In addition to Deployment Administrators role membership, additional permissions are required to perform deployment administration tasks:
+
+- Be a member of the Administrators group on all computers that are running the Dynamics 365 Deployment Administration or Deployment Tools server roles.
+- Have **Program Files** folder read and write permission on the local computer where Deployment Manager is running.  
+- Be a member of the Administrators group on the local computer where the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] is located that will be used to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases.  
+- Have sysadmin membership on the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that will be used to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases.  
+- Have [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] organizational unit and security group creation and add membership permission to the organizational and security groups used by Dynamics 365 Server.
 
 #### Add the deployment administrator to the PrivUserGroup Active Directory security group
 

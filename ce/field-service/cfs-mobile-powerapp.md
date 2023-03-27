@@ -1,86 +1,71 @@
 ---
-title: "Connected Field Service on Field Service (Dynamics 365) mobile app | MicrosoftDocs"
-description: Learn how to access Connected Field Service from the Field Service (Dynamics 365) mobile app.
-ms.date: 01/19/2021
-ms.reviewer: mhart
-
+title: Work IoT data on the Field Service (Dynamics 365) mobile app
+description: Learn how to access and work with IoT data provided by Connected Field Service from the Field Service (Dynamics 365) mobile app.
+ms.date: 02/17/2023
 ms.subservice: connected-field-service
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.author: keithh
-author: MSKeith
-manager: shellyha
+ms.topic: how-to
+ms.custom: bap-template
+ms.author: vhorvath
+author: vhorvathms
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Connected Field Service on Field Service (Dynamics 365) mobile app
+# Work IoT data on the Field Service (Dynamics 365) mobile app
 
-Organizations using Connected Field Service to create work orders from IoT data can provide technicians with IoT data and Connected Field Service actions to improve onsite service delivery.
-
-Most often, technicians will use Connected Field Service to:
-
-1. **View IoT data** related to assets to better understand the context of a repair.
-2. **Register new IoT devices** when installing an asset to connect it to Azure IoT or a custom IoT provider.
-3. **Send commands** to troubleshoot issues.
-
-With the latest version of Field Service and the Field Service (Dynamics 365) mobile app, technicians will find Connected Field Service entities in the sitemap.
+[Connected Field Service](connected-field-service.md) is the IoT layer in Dynamics 365 Field Service. It enables organizations to create work orders based on real-time information from connected devices. The integration of IoT data provides technicians with information and tools for efficient onsite service delivery.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image of a mobile phone, showing IoT alerts in the Field Service mobile app.](./media/cfs-fsm-powerapp-site-map.png)
 
+Technicians can use Connected Field Service to:
+
+- **[View IoT data](#view-summary-tiles-and-device-readings)** to get more information and details about the context of a repair.
+- **[Register new IoT devices](#register-new-iot-devices)** when installing an asset onsite.
+- **[Send commands](#troubleshoot-devices-by-sending-commands)** to an IoT device from anywhere to troubleshoot issues.
+
 ## Prerequisites
 
-- Connected Field Service is included with Field Service.
-- Make sure that Connected Field Service is set up.
-- The Field Service (Dynamics 365) mobile app. Make sure you have the latest mobile app and latest Field Service version.
-- You must have an internet connection.
+- An administrator [deployed and configured the required services for Connected Field Service](installation-setup-iothub.md).
+- You [updated to the latest version of the Field Service mobile app](upgrade-field-service.md#field-service-dynamics-365-mobile-app).
+- You have an active internet connection.
 
 ## View summary tiles and device readings
 
-While performing a work order for an asset, technicians may want to view recent IoT data for devices related to that asset.
+While performing service on a customer asset, you can check recent IoT data for devices related to that asset.
 
-Go to the customer asset record and on the summary tab, you will find summary tiles.
+1. Open the customer asset and go the **Summary** tab. Summary tiles show an overview of recent IoT activity related to the asset.
 
-Summary tiles show an overview of recent IoT activity related to the asset.
+   :::image type="content" source="media/cfs-fsm-powerapp-summary-tiles.png" alt-text="Simulated image of a mobile phone, showing summary tiles for an asset in Field Service mobile app.":::
 
-> [!div class="mx-imgBorder"]
-> ![Simulated image of a mobile phone, showing summary tiles for an asset in Field Service mobile app.](./media/cfs-fsm-powerapp-summary-tiles.png)
+1. Go to the **Device Readings** tab to see the most recent IoT measurements plotted on a graph.
 
-Next, go to the **Device Readings** section to see the most recent IoT measurements plotted on a graph.
+   :::image type="content" source="media/cfs-device-readings-mobile.png" alt-text="Simulated image of a mobile phone, showing live device readings.":::
 
+> [!NOTE]
+> Summary tiles and device readings are only visible after an [asset is related to a connected device](cfs-visualizations-iot-hub.md). Otherwise, this information shows on the IoT device or IoT alert.
 
-> [!div class="mx-imgBorder"]
-> ![Simulated image of a mobile phone, showing live device readings.](./media/cfs-device-readings-mobile.png)
+## Register new IoT devices
 
-Summary tiles and device readings are only visible after an asset is related to a connected device. Otherwise, this information is displayed on the IoT device or IoT alert.
+During asset installations, you can connect new IoT devices to customer assets. But first, register the new IoT device with the system.
 
-## Register new IoT Devices
+1. In the mobile app, go to **Customer Assets** and tap the **Add** button.
 
-During asset installations, technicians may want to connect new IoT devices to Azure IoT. From your internet-connected mobile app, go to the IoT device record (or create a new one), and select **More ...** > **Register**.
+1. Fill in the asset information and, then tap **Register Device**.
 
-> [!div class="mx-imgBorder"]
-> ![Simulated image of a mobile phone, showing an IoT device record on Field Service mobile app.](./media/cfs-fsm-powerapp-commands.png)
+## Troubleshoot devices by sending commands
 
-This will create the IoT device in Azure IoT.
+After an administrator has [configured commands for Connected Field Service](cfs-commands.md), you can run them from mobile app.
 
-1.  On your mobile device, open the mobile app.
+:::image type="content" source="media/cfs-fsm-powerapp-commands.png" alt-text="Simulated image of a mobile phone, showing an IoT device record on Field Service mobile app.":::
 
-2.  Tap **Customer Assets**, and then tap the **Add** button.
+Common commands include restart and shutdown and other custom commands are device-specific.
 
-3.  Fill in the asset information and, then tap **Register Device**.
+To send a comment, open the IoT device record and go to **More ...** > **Send Command**.
 
+## Next steps
 
-## Troubleshoot by sending commands
-
-After an administrator has configured commands in Azure IoT, technicians can run the commands from the Field Service (Dynamics 365) mobile app.
-
-Common commands include restart and shutdown, among other custom commands that are device-specific.
-
-From the IoT device record, go to **More ...** > **Send command** then choose a specific command.
-
+- [Use the Field Service (Dynamics 365) mobile app to complete work orders](mobile-power-app-use.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

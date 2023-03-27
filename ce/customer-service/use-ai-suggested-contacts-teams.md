@@ -1,7 +1,7 @@
 ---
 title: "Collaborate with AI-suggested agents in Microsoft Teams | MicrosoftDocs"
 description: "Learn how to use the AI-suggested experts and collaborate with them through Microsoft Teams to resolve cases in Customer Service."
-ms.date: 10/03/2022
+ms.date: 01/18/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -66,3 +66,4 @@ If the Teams chat is created for an active case, the participants who receive th
 
 [View AI-suggested cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)  
 [Overview of Customer Service workspace](csw-overview.md)  
+[Use Microsoft Teams chat in Sales Hub](../sales/teams-integration/using-teams-chat-in-dynamics.md)  

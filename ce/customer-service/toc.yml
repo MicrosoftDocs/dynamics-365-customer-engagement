@@ -112,6 +112,8 @@
       href: users-user-profiles.md
     - name: Manage capacity profiles
       href: capacity-profiles.md
+    - name: Delete historical data of agent capacity updates
+      href: manage-historical-data-capacity-updates.md
     - name: Manage personas and custom security roles
       href: role-persona-mapping.md
     - name: Personas and privileges
@@ -158,76 +160,6 @@
         href: ../app-profile-manager/macros.md
       - name: Use automation dictionary to pass parameters keys
         href: ../app-profile-manager/automation-dictionary-keys.md
-    - name: Developer experience
-      items:
-      - name: App profile manager JavaScript API reference
-        items:
-        - name: Overview       
-          href: ../app-profile-manager/reference/microsoft-apm.md
-        - name: Session management
-          items:
-          - name: Methods
-            items:       
-            - name: getFocusedSession
-              href: ../app-profile-manager/reference/microsoft-apm/getFocusedSession.md
-            - name: getAllSessions
-              href: ../app-profile-manager/reference/microsoft-apm/getAllSessions.md
-            - name: getSession
-              href: ../app-profile-manager/reference/microsoft-apm/getSession.md
-            - name: createSession
-              href: ../app-profile-manager/reference/microsoft-apm/createSession.md
-            - name: canCreateSession
-              href: ../app-profile-manager/reference/microsoft-apm/canCreateSession.md
-            - name: close
-              href: ../app-profile-manager/reference/microsoft-apm/close.md
-            - name: focus
-              href: ../app-profile-manager/reference/microsoft-apm/focus.md
-            - name: requestFocus
-              href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md
-          - name: Properties
-            items:                           
-            - name: sessionID
-              href: ../app-profile-manager/reference/microsoft-apm/sessionID.md
-            - name: isDefault
-              href: ../app-profile-manager/reference/microsoft-apm/isDefault.md  
-            - name: canClose
-              href: ../app-profile-manager/reference/microsoft-apm/canCloseSession.md
-            - name: title
-              href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md
-        - name: Tab management
-          items:
-          - name: Methods              
-            items: 
-            - name: getFocusedTab
-              href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md
-            - name: getAllTabs
-              href: ../app-profile-manager/reference/microsoft-apm/getAllTabs.md
-            - name: getTab
-              href: ../app-profile-manager/reference/microsoft-apm/getTab.md
-            - name: createTab
-              href: ../app-profile-manager/reference/microsoft-apm/createTab.md
-            - name: canCreateTab
-              href: ../app-profile-manager/reference/microsoft-apm/canCreateTab.md
-            - name: closeTab
-              href: ../app-profile-manager/reference/microsoft-apm/closeTab.md
-            - name: focusTab
-              href: ../app-profile-manager/reference/microsoft-apm/focusTab.md
-            - name: refreshTab             
-              href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md
-          - name: Properties
-            items:       
-            - name: tabID
-              href: ../app-profile-manager/reference/microsoft-apm/tabID.md
-            - name: canClose
-              href: ../app-profile-manager/reference/microsoft-apm/canCloseTab.md
-            - name: title
-              href: ../app-profile-manager/reference/microsoft-apm/tabtitle.md   
-        - name: Context management    
-          items:                
-          - name: updateContext
-            href: ../app-profile-manager/reference/microsoft-apm/updateContext.md
-    - name: Readme
-      href: https://go.microsoft.com/fwlink/p/?linkid=2141982
   - name: Community
     items: 
     - name: Overview of Community
@@ -296,6 +228,8 @@
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing for unified routing
           href: set-up-skill-based-routing.md
+        - name: Model data tables as skills
+          href: model-tables-as-skills-ur.md
       - name: Use sentiment prediction-based routing
         href: use-sentiment-prediction-for-routing.md
       - name: Use effort estimation model for routing
@@ -309,7 +243,9 @@
       - name: View diagnostics for unified routing
         href: unified-routing-diagnostics.md
       - name: Manage routing diagnostics data
-        href: manage-routing-diagnostics-data.md  
+        href: manage-routing-diagnostics-data.md
+      - name: Use best practices to set up unified routing
+        href: unified-routing-best-practices.md
     - name: Supervisor experience
       items:
       - name: View historical analytics reports
@@ -328,7 +264,7 @@
         href: manage-skills.md
     - name: Developer experience
       items: 
-      - name: How unified routing affects queue items and their APIs
+      - name: Understand how unified routing affects queue items and live work items for routed records
         href: unified-routing-impact-on-APIs.md
       - name: Add a skill control for routed records
         href: add-skill-control.md
@@ -350,6 +286,12 @@
         href: create-manage-subject-tree.md
       - name: Enable case grids
         href: enable-case-grids.md
+      - name: Use Power Apps to customize the case management experience
+        href: add-enhanced-case-management.md
+      - name: Configure components to display customer details and recent records
+        href: add-display-components-to-case-form.md
+      - name: Configure components to display case associations
+        href: add-associated-grid-control.md        
     - name: Agent experience
       items: 
       - name: Create cases
@@ -436,7 +378,7 @@
         href: add-timer-forms-track-time-against-enhanced-sla.md
     - name: Agent experience
       items: 
-      - name: Manage SLAs
+      - name: Understand SLAs
         href: customer-service-hub-user-guide-case-sla.md
   - name: Email
     items: 
@@ -447,9 +389,9 @@
       - name: Customize the email experience
         href: customer-service-hub-user-guide-email-font-admin.md
       - name: Configure the enhanced insert email template dialog
-        href: customize-insert-email-template.md
-      - name: Enable the enhanced email template editor page
-        href: cs-email-template-builder.md
+        href: /power-apps/user/customize-insert-email-template?context=/dynamics365/context/customer-service-context
+      - name: Configure the enhanced email template editor page
+        href: /power-apps/user/cs-email-template-builder/?context=/dynamics365/context/customer-service-context
       - name: Configure a default signature template for a queue
         href: add-signature-template-queue.md  
     - name: Agent experience
@@ -474,7 +416,7 @@
           href: /power-apps/user/insert-email-template?context=/dynamics365/context/customer-service-context
         - name: Personalize emails with dynamic text
           href: /power-apps/user/email-dynamic-text?context=/dynamics365/context/customer-service-context          
-        - name: Customize an email templates using the template editor
+        - name: Customize an email template using the template editor
           href: /power-apps/user/cs-template-options?context=/dynamics365/context/customer-service-context
         - name: Convert an email to a template
           href: /power-apps/user/email-template-convert?context=/dynamics365/context/customer-service-context
@@ -502,6 +444,18 @@
         href: work-knowledge-articles.md
       - name: Set up external knowledge search providers
         href: set-up-search-providers.md
+      - name: Add integrated search providers
+        items:
+        - name: Manage integrated search providers
+          href: add-search-provider.md
+        - name: Apply authentication for search providers
+          href: apply-authentication-provider.md
+        - name: Configure knowledge article schema mapping
+          href: int-data-mapping.md
+        - name: View and use insights for search providers
+          href: view-and-use-insights.md
+        - name: Schema details to build a metadata mapping template
+          href: int-search-metadata-schema.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
       - name: Create and manage knowledge categories
@@ -572,6 +526,8 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
+      - name: Transform, map external source data to knowledge fields
+        href: create-a-conversion-plugin.md        
   - name: Microsoft Teams for collaboration
     items:
     - name: Introduction to collaboration
@@ -627,7 +583,9 @@
     - name: Administrator experience
       items:
       - name: Install the voice channel
-        href: voice-channel-install.md  
+        href: voice-channel-install.md 
+      - name: Use trial phone numbers
+        href: voice-channel-trial-phone-numbers.md   
       - name: Connect to Azure Communication Services
         items: 
         - name: Connect to Azure Communication Services
@@ -646,9 +604,9 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
-      - name: Use voicemail to manage inbound calls
+      - name: Configure voicemail to manage inbound calls
         href: voice-channel-voicemail.md
-      - name: Use direct callback
+      - name: Configure direct callback
         href: voice-channel-direct-callback.md  
       - name: Configure outbound and inbound profiles
         href: configure-outbound-inbound-profiles.md  
@@ -680,14 +638,14 @@
         href: voice-channel-region-availability.md
     - name: Agent experience
       items:
-      - name: Make and receive your first phone call
-        href: voice-channel-first-call.md
       - name: Call a customer
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
         href: voice-channel-agent-experience.md
       - name: How to avoid call disconnection
         href: voice-channel-agent-experience.md#how-to-avoid-call-disconnection
+      - name: Manage voicemails
+        href: manage-voicemails.md
       - name: Transfer calls and consult with other users
         href: voice-channel-transfer-consult.md
       - name: View call recordings and transcripts
@@ -698,6 +656,8 @@
         href: voice-channel-monitor-calls.md
     - name: Emergency calling in the voice channel
       href: voice-channel-emergency-calling.md
+    - name: Pricing scenarios for voice calling
+      href: voice-channel-pricing-scenarios.md  
     - name: FAQ about the voice channel
       href: voice-channel-faqs.md  
   - name: Chat
@@ -718,6 +678,8 @@
         href: persistent-chat.md
       - name: Configure reconnection to a previous chat session
         href: configure-reconnect-chat.md
+      - name: Understand disconnected chats
+        href: oc-conv-state-chat-disconnect.md   
       - name: Show customers their position in a queue
         href: show-queue.md
       - name: Show customers their average wait time in a queue
@@ -747,7 +709,7 @@
       - name: Take notes for conversation
         href: oc-take-notes.md
       - name: Understand conversation states
-        href: oc-conversation-state.md
+        href: oc-conversation-state.md     
       - name: View call options and visual engagement in live chat
         href: call-options-visual-engagement.md
       - name: Monitor real-time customer sentiment
@@ -770,7 +732,7 @@
         href: oc-view-customer-summary-incoming-conversation-request.md
       - name: Real-time language translation of conversations
         href: oc-real-time-translation.md
-      - name: Use Markdown to format messages
+      - name: Markdown formats for agents
         href: markdown-formats-agents.md
     - name: Developer experience
       items: 
@@ -814,7 +776,7 @@
         href: customize-quick-view-form.md
       - name: Customize session forms
         href: customize-session-form.md
-      - name: Customizations supported by Conversation entity and form
+      - name: Customizations supported by Conversation form and entity
         href: supported-customizations.md  
   - name: Portals
     items: 
@@ -828,6 +790,8 @@
       items: 
       - name: Set up SMS channels
         items: 
+        - name: Overview of SMS channels
+          href: sms-channel-overview.md
         - name: Configure an SMS channel using Azure Communication Services
           href: configure-sms-channel-acs.md
         - name: Configure an SMS channel for TeleSign
@@ -874,14 +838,16 @@
       items: 
       - name: Integrate a custom messaging channel
         items: 
-        - name: "Integrate your own custom channel: Direct Line"
+        - name: Integrate your own custom channel using Direct Line
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: test-custom-channel-sample-html.md
-        - name: "Markdown formats: Direct Line"
+        - name: Markdown formats in custom channels that use Direct Line
           href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
       href: card-support-in-channels.md
+    - name: Preconfigured automated message triggers for asynchronous channels
+      href: preconfig-auto-message-triggers-async-channels.md  
   - name: Advanced settings for chat and channels
     items: 
     - name: Configure operating hours
@@ -1100,6 +1066,8 @@
         href: customer-service-analytics.md
       - name: Forecast agent, case, and conversation volumes
         href: use-volume-forecasting.md
+      - name: Report filters and groups
+        href: report-filters-groups.md
       - name: Manage report bookmarks
         href: manage-bookmarks.md
       - name: Intraday supervisor experience
@@ -1718,6 +1686,74 @@
       items: 
       - name: msdyn_ApplyRoutingRuleEntityRecord
         href: developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md
+    - name: App profile manager JavaScript API reference
+      items:
+      - name: Overview       
+        href: ../app-profile-manager/reference/microsoft-apm.md
+      - name: Session management
+        items:
+        - name: Methods
+          items:       
+          - name: getFocusedSession
+            href: ../app-profile-manager/reference/microsoft-apm/getFocusedSession.md
+          - name: getAllSessions
+            href: ../app-profile-manager/reference/microsoft-apm/getAllSessions.md
+          - name: getSession
+            href: ../app-profile-manager/reference/microsoft-apm/getSession.md
+          - name: createSession
+            href: ../app-profile-manager/reference/microsoft-apm/createSession.md
+          - name: canCreateSession
+            href: ../app-profile-manager/reference/microsoft-apm/canCreateSession.md
+          - name: close
+            href: ../app-profile-manager/reference/microsoft-apm/close.md
+          - name: focus
+            href: ../app-profile-manager/reference/microsoft-apm/focus.md
+          - name: requestFocus
+            href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md
+        - name: Properties
+          items:                           
+          - name: sessionID
+            href: ../app-profile-manager/reference/microsoft-apm/sessionID.md
+          - name: isDefault
+            href: ../app-profile-manager/reference/microsoft-apm/isDefault.md  
+          - name: canClose
+            href: ../app-profile-manager/reference/microsoft-apm/canCloseSession.md
+          - name: title
+            href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md
+      - name: Tab management
+        items:
+        - name: Methods              
+          items: 
+          - name: getFocusedTab
+            href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md
+          - name: getAllTabs
+            href: ../app-profile-manager/reference/microsoft-apm/getAllTabs.md
+          - name: getTab
+            href: ../app-profile-manager/reference/microsoft-apm/getTab.md
+          - name: createTab
+            href: ../app-profile-manager/reference/microsoft-apm/createTab.md
+          - name: canCreateTab
+            href: ../app-profile-manager/reference/microsoft-apm/canCreateTab.md
+          - name: closeTab
+            href: ../app-profile-manager/reference/microsoft-apm/closeTab.md
+          - name: focusTab
+            href: ../app-profile-manager/reference/microsoft-apm/focusTab.md
+          - name: refreshTab             
+            href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md
+        - name: Properties
+          items:       
+          - name: tabID
+            href: ../app-profile-manager/reference/microsoft-apm/tabID.md
+          - name: canClose
+            href: ../app-profile-manager/reference/microsoft-apm/canCloseTab.md
+          - name: title
+            href: ../app-profile-manager/reference/microsoft-apm/tabtitle.md   
+          - name: Context management    
+            items:                
+            - name: updateContext
+              href: ../app-profile-manager/reference/microsoft-apm/updateContext.md
+      - name: Readme
+        href: https://go.microsoft.com/fwlink/p/?linkid=2141982
   - name: Troubleshoot issues in Customer Service
     items: 
     - name: Issue converting an email to a case
@@ -1734,6 +1770,8 @@
       href: troubleshoot-using-solution-health-hub.md
     - name: Report issues in Omnichannel for Customer Service
       href: report-issues.md
+    - name: Troubleshoot issues for integrated search providers
+      href: int-search-troubleshoot.md
   - name: Share feedback in Customer Service
     href: cs-share-feedback.md
   - name: FAQ about Customer Service
@@ -1742,7 +1780,7 @@
       href: faq-customer-service-admin-center.md
     - name: FAQ about unified routing
       href: unified-routing-faqs.md
-    - name: FAQ about automation record creation and activity monitor
+    - name: FAQ about automatic record creation
       href: arc-faqs.md        
     - name: FAQ about AI suggestions for cases and knowledge articles
       href: csw-faqs-ai-suggestions.md

@@ -1,157 +1,133 @@
 ---
-title: Reports in Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn about how to use work order summary reports in Dynamics 365 Field Service.
-ms.date: 12/14/2022
+title: Reports overview
+description: This article explains what reports are and lists available reports in Dynamics 365 Field Service and the Resource Scheduling Optimization Add-in.
+author: FeifeiQiu
+ms.author: feiqiu
 ms.reviewer: mhart
-
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: jshotts
-ms.author: jasonshotts
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+ms.service: dynamics-365-field-service
+ms.topic: overview 
+ms.date: 02/09/2023
+ms.custom: bap-template 
 ---
 
-# Work order summary reports in Dynamics 365 Field Service
+# Reports overview
 
-Operations managers are responsible for managing work orders in order to provide timely support for their customers. To better understand what actions may be needed for better field service performance, these managers need to be able to monitor key operational metrics.
+Reports are a collection of charts and visuals, built with Microsoft Power BI. They're based on a data set to get a quick view into core metrics. Resource and operations managers can monitor key operational metrics to gauge the performance of resources and their scheduling strategy. Reports can help explore important business-related questions, such as:
 
-Reports in Dynamics 365 Field Service can help you get a birds-eye understanding of ongoing work across your organization, such as: 
+- Are my resources being used efficiently over a given time period?
+- What is the average discrepancy between estimated and actual completion times for tasks and work orders?
+- Are tasks and resources being matched effectively?
 
-- The number of open work orders at any given point in time
-- Average time to complete a work order
-- Average time it takes for technicians to travel to a customer location
-- Whether or not you're meeting customer expectations around travel time or other needs
-- How an individual technician performs on all key metrics
-- Insights around specific territories, from work order volume to travel time and more
+With answers to these questions, scheduling managers can develop an effective resource scheduling strategy and that saves cost and time and improves customer experiences.
+
+Dynamics 365 Field Service and the Resource Scheduling Optimization Add-in provide reports that focus on different scenarios and user needs:
+
+1. The [Resource and utilization report](resource-utilization-report.md), which is included with Field Service.
+1. The [Work order summary report](work-order-summary-report.md), which is included with Field Service.
+1. The [Admin report](rso-admin-report.md), included with the Resource Scheduling Optimization Add-in.
+1. The [Optimization summary report](rso-optimization-summary-report.md), included with the Resource Scheduling Optimization Add-in.
+1. [Predictive work duration reports (preview)](analytics-predictive-work-duration.md) with the upcoming work duration and the territory duration reports in Field Service.
+
+Other than editing filters and drill-down actions, the reports aren't configurable or customizable.
 
 ## Prerequisites
 
-- This feature is only available in non-trial instances of Field Service.
+Reports are only available to users with **System Administrator** or **Field Service-Administrator** security roles.
 
-## Reports overview
+| Report name              | Required apps                                                |
+|--------------------------|--------------------------------------------------------------|
+| Resource and utilization | Field Service                                                |
+| Work order summary       | Field Service                                                |
+| Admin report             | Field Service<br>Resource Scheduling Optimization Add-in     |
+| Optimization summary     | Field Service<br>Resource Scheduling Optimization Add-in     |
+| Predictive work duration | Field Service                                                |
 
-To find reports, go to **Field Service** > **Service** > **Analytics and Insights**.
+## Refresh cadence and data retention
 
-![Screenshot showing a sample work order summary report.](./media/report-overview-example.png)
+The system refreshes the reports automatically once a day (every 24 hours). The report shows a time stamp in the top right corner when it was last updated.
 
-Let's take a look at what you can see from these work order summary reports.
+A warning icon next to the time stamp on the report indicates a delay or an issue with the data refresh. Contact your system administrator to investigate or open a support ticket if the issue persists.
 
-|    Visuals                                               |    Description                                                                                                                                                                                                                                                                                              |
-|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    Work orders                                           |    Total number of work orders created for the selected filters.                                                                                                                                                                                                                                          |
-|    Open work orders                                      |    Total number of currently open work orders.                                                                                                                                                                                                                          |
-|    Broken promise (%)                               |    Percentage of work orders that weren't completed within the promise window.                                                                                                                                                                                                                                        |
-|    Mean time to schedule (mins)                          |    Average time to schedule from the time the work order was created to the time of the first booking.                                                                                                                                                                                                        |
-|    Mean time to travel (hrs)                             |    Average time taken by an agent to travel to the customer. Calculated for all non-agreement work orders.                                                                                                                                                                                        |
-|    Mean time to complete (hrs)                           |    Average time taken to complete all the bookings for a specific work order from the date the work order was created.                                                                                                                                                                                  |
-|    Number of incidents types                             |    Distinct count of the incident types that have been mapped to the work orders.                                                                                                                                                                                                                        |
-|    Work orders by system status                          |    Represents the number of work orders by   status.                                                                                                                                                                                                                                           |
-|    Work order trends by system status                    |   Represents the trend of work orders created and their associated statuses.                                                                                                                                                                                                                      |
-|    Work orders by substatus                              |   Represents the number of work orders created and their current substatuses.                                                                                                                                                                                                                     |
-|    Work order trends by work order type                  |    Represents the trend of work orders created by types.                                                                                                                                                                                                                               |
-|    Mean time to complete by work order type (mins)     |    Represents average time to complete the work   order.                                                                                                                                                                                                                                           |
-|    Work orders by primary incident type                  |    Represents  work orders by primary incident type.                                                                                                                                                                                                                  |
-|    Broken promise (%) by work order type                 |    Represents the correlation between broken promise percentage and work order type.                                                                                                                                                                                                                    |
-|    Broken promise (%) vs mean time to schedule (mins)    |    Represents the correlation between broken promise percentage and mean time to schedule in minutes.                                                                                                                                                                                                       |
-|    Broken promise (%) vs mean time to travel (hrs)       |    Represents the correlation between broken promise percentage and mean time to travel  in hours.                                                                                                                                                                                                          |
-|    Territory analysis                                    |    Shows a filled map for each territory. Upon hover on a specific territory, you'll see the number of bookings. Note: The territory is based on the territory entity. For this report to properly render, the territory needs to be a physical geolocation rather a logical geolocation.       |
+The system pauses the data refresh for reports that aren't opened for two weeks. When a user opens the report again, data will get refreshed in the next refresh cycle.
 
-## View and filter reports
+Report data get retained for 24 months. Storage file size automatically increases when using analytics features. If this increase causes issues or concerns, contact Microsoft Support.
 
-You can filter reports by the following criteria:
+## Provide report access to a security role
 
-- **Customer**
-- **System status**
-- **Work order type**
-- **Substatus**
-- **Service territory**
-- **Technician**
-- **Date range**
+By default, only administrators have access to the resource duration report. Administrators can provide access to others through security roles.
 
-See the following screenshot of the work order summary report for reference. 
+1. In Field Service, go to **Advanced Settings**.
 
-![Screenshot showing the work order summary report filter options.](./media/report-filter-example.png)
+1. Go to **Settings** > **Security**.
 
-## Refresh reports
+1. Go to **Security Roles**.
 
-The information in reports is refreshed every 24 hours. You may see a yellow, triangular warning icon next to the label **Last refresh (UTC)** in the top-right of the report. This icon indicates whether there's a delay or issue with the data refresh. If the data hasn't been refreshed in the last 24 hours, you'll see a tooltip message when you hover over the icon.
+1. Select the security role that needs access to the reports (for instance, **Field Service – Dispatcher**).
 
-|    Refresh   status                       |    Indicator   Icon    |    Tooltip   message                                                                                                                       |
-|-------------------------------------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-|    Within or close to SLA (24 hours)    |    Not visible         |    The data set is up to date.                                                                                                             |
-|    Missed SLA (>24 hours)               |    Visible             |    Due to the delay with the refresh process, the data set hasn't been refreshed and you can reach out to your system administrator.    |
+1. Go to the **Custom Entities**.
 
-## Additional notes
+1. Select the Read privilege for a report entity.
 
-- We don't support environment minimal copy operations available for sandbox environments. If you perform any of these operations, you may encounter unexpected results.
-- Data is refreshed every 24 hours. Reports will continue to be available during the refresh. If the reports aren't refreshed within 24 hours, you can contact Microsoft Support. Currently, we don't support a custom refresh schedule.
-- Data refresh for inactive environments: if there's no active usage of the reports for two continuous weeks, the data refresh will pause. When a report is opened, the data will be refreshed in the next refresh cycle.
-- Report filters won't persist.
-- In **Resource and Utilization**, the **Next** control in the date range isn't currently operational.
-- Currently, we don't support report customizations.
-- Data retention lasts for 24 months.
-- Data availability for entities: Field Service uses the following list of entities to generate these reports. If there's no data for any of the following entities, then the report may appear blank. If you've customized these entities or if you're not using the out-of-box entities, then the reports will show blank too.
+    - Resource duration (preview) - predictive duration report
+    - Predictive duration (preview) - predictive duration report
+    - Field Service historical analytics - work order summary report
+    - Resource scheduling historical analytics - admin and optimization summary report
 
-    - account
-    - bookableresource
-    - bookableresourcebooking
-    - msdyn_resourcerequirement
-    - territory
-    - calendarrule
-    - bookableresourcegroup
-    - bookingstatus
-    - msdyn_bookingtimestamp
-    - organization
-    - msdyn_incidenttype
-    - msdyn_workorder
-    - msdyn_workordersubstatus
-    - msdyn_workordertype
+1. **Save and Close**.
 
-### Supported regions
-- North America
-- South America
-- Canada
-- Europe (except France)
-- Asia Pacific Japan
-- Australia
-- Japan
-- India
-- Great Britain
+Now the **Field Service - Dispatcher** can see the corresponding report.
 
+## Supported regions for reports
 
-### Error messages and what to do about them
+| Region | Name |
+| --- | --- |
+| North America| NAM |
+| South America | SAM |
+| Canada | CAN |
+| Europe | EUR |
+| Asia Pacific Japan | APJ |
+| Australia | OCE |
+| Japan| JPN |
+| India | IND |
+| United Kingdom | UK |
+| United Arab Emirates | UAE |
 
-Get an error message? See the following table for a list of errors and what you can do mitigate the underlying issue.
+## Data model
 
-|    Error Message                                                                                                                  |    Action                                                                                                |
-|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-|    Oops! No reports were found in CRM. You may not have access to these reports. Contact your system administrator.    |    Contact admin to access the reports.                                                        |
-|    Oops! Internal service error, please contact your system administrator with Error Code: {numeric value}.                   |    Contact Microsoft Support and create a ticket.                                               |
-|    Oops! There was a problem rendering the report.                                                                              |    Refresh the report; if it doesn’t work, contact Microsoft Support and create a support ticket.    |
-|    Oops! There was a problem rendering the report, please try again.                                                            |    Refresh the report; if it doesn’t work, contact Microsoft Support and create a support ticket.    |
+The system uses the following list of entities to generate reports. If there's no data or you've customized these entities, parts of it may show blank.
 
-### Disabling custom actions 
+Field Service entities:
 
-**msdyn_AnalyticsSaveDataInConfigStore custom action**
+- *bookableresource*
+- *bookableresourcebooking*
+- *msdyn_resourcerequirement*
+- *territory*
+- *calendarrule*
+- *bookableresourcegroup*
+- *bookingstatus*
+- *msdyn_bookingtimestamp*
+- *organization*
 
-Don't disable this custom action because insights and analytics features in Dynamics 365 won't function properly; the **msdyn_AnalyticsSaveDataInConfigStore custom action** is for internal use only. Contact Microsoft support if you have any questions.
+Resource Scheduling Optimization entities:
 
-#### Parameters
+- *resource*
+- *bookableresource*
+- *territory*
+- *bookableresourcebooking*
+- *msdyn_optimizationrequestbooking*
+- *msdyn_resourcerequirement*
+- *msdyn_priority*
+- *msdyn_routingoptimizationrequest*
+- *msdyn_routingprofileconfiguration*
+- *calendar*
+- *calendarrule*
+- *bookableresourcegroup*
+- *bookingstatus*
+- *organization*
 
-| Name | Type | Required | Description |
-|----------|----------|----------|---------|
-| Key | String  |Yes | For internal use only. |
-| Value | String | Yes | For internal use only. |
-| ConfigName | String | No | For internal use only. |
+## Next steps
 
-### Known issues
-
-- Reports don't render in Internet Explorer 11.
-
+- [Resource and utilization report](resource-utilization-report.md)
+- [Optimization summary report](rso-optimization-summary-report.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

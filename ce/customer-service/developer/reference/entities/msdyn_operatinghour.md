@@ -3,8 +3,8 @@ title: "msdyn_operatinghour Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_operatinghour entity."
 ms.date: 03/23/2020
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
+author: "gandhamm"
+ms.author: mgandham
 manager: "shujoshi"
 ---
 # msdyn_operatinghour Entity Reference

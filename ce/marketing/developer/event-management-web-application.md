@@ -1,7 +1,7 @@
 ---
 title: "Event management web application overview (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how you can extend event management web application functionality in Dynamics 365 Marketing."
-ms.date: 01/06/2023
+ms.date: 01/23/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: overview
@@ -79,7 +79,6 @@ Select the version you would like to download from the table below.
 
 | Name | Release | Changes | Uploaded |
 |--|--|--|--|
-|Sample Event Website| 1.47.0 (January release)|- Fix captcha issue. <br/>- Added user id to registration forms submission. <br/>- Minor improvements and bugfixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/230104-EventWebsite.zip) |
 |Sample Event Website| 1.46.0 (September release)|- Fix accessibility issues. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/220921-EventWebsite.zip) |
 |Sample Event Website| 1.34.0 (April release)| - Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/210413_EventWebsite.zip) |
 |Sample Event Website| 1.30.0 (December release)| - Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/201205-EventWebsite.zip) |

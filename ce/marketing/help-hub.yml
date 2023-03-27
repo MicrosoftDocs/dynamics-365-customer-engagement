@@ -26,7 +26,7 @@ metadata:
 
 landingContent:
 
-# Card 
+# Card
 - title: Get started
   linkLists:
       - linkListType: overview
@@ -68,8 +68,8 @@ landingContent:
           url: admin-users-licenses-roles.md
         - text: Organization settings 
           url: organization-settings.md
-        - text: Business management settings
-          url: business-management-settings.md
+        - text: Data management settings
+          url: data-management-settings.md
         - text: Marketing settings 
           url: marketing-settings.md
         - text: Manage consent for email and text messages in real-time marketing

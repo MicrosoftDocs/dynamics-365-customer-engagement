@@ -1,7 +1,7 @@
 ---
 title: "First-run setup experience for conversation intelligence in sales app"
 description: "Learn about first-run configuration of conversation intelligence for Microsoft Teams for your Dynamics 365 Sales environment."
-ms.date: 01/11/2023
+ms.date: 01/25/2023
 ms.custom: 
 ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
@@ -83,15 +83,14 @@ Before you configure Teams with conversation intelligence, you must enable the T
     >For Microsoft-provided storage, the available retention periods are 30 days and 90 days. If your organization requires longer retention periods, please consider using your own storage.
 
 6.	Under **Business settings**, configure the following settings:
-    - In the **Conversation tracking** section, add the keywords and competitors that your organization wishes to track during calls.
+- In the **Conversation tracking** section, add the keywords and competitors that your organization wishes to track during calls. Each tracked keyword and competitor can only contain up to 50 characters.
+   > [!Note]
+   > Adding keywords and competitors is a required global setting that will be applied to all sales calls in the organization. To enable conversation intelligence, you must set at least one global keyword and at least one global competitor. You can update these keywords and competitors later if necessary. More information: [Configure keywords and competitors in conversation content](configure-keywords-competitors.md)
+   
+- In the **Automated summaries** section, leave the **Enable call summary** option selected to let your sellers view the notes after their calls. More information: [View and understand call summary page in the Sales Hub app](view-and-understand-call-summary-sales-app.md) 
+- In the **My languages** section, add languages used by sellers during calls with customers. This selection helps ensure accurate transcription, keyword tracking, analysis, insights, and KPIs.
 
-        > [!NOTE]
-        > Adding keywords and competitors is a required global setting that will be applied to all sales calls in the organization. To enable conversation intelligence, you must set at least one global keyword and at least one global competitor. You can update these keywords and competitors later if necessary. More information: [Configure keywords and competitors in conversation content](configure-keywords-competitors.md)
-
-    - In the **Automated summaries** section, leave the **Enable call summary** option selected to let your sellers view the notes after their calls. More information: [View and understand call summary page in the Sales Hub app](view-and-understand-call-summary-sales-app.md) 
-    - In the **My languages** section, add languages used by sellers during calls with customers. This selection helps ensure accurate transcription, keyword tracking, analysis, insights, and KPIs.
-
-        
+    
     > [!div class="mx-imgBorder"]
     > ![Configure business setting.](media/ci-admin-conversation-trackers.png "Configure business setting")
 
@@ -100,11 +99,41 @@ Before you configure Teams with conversation intelligence, you must enable the T
     > [!div class="mx-imgBorder"]
     > ![Enable privacy.](media/ci-admin-enable-privacy.png "Enable privacy")
 
-9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.  
+9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.
 
-10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
+    - [Enable call categorization for short calls (preview)](#enable-call-categorization-for-short-calls-preview)
+    - [Hide personal data (preview)](#hide-personal-data-preview)
+
+10.	Select **Publish**.  
+    In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
 
 Teams call recording with conversation intelligence is now configured and ready for use in your organization.  
+
+#### Hide personal data (preview)
+
+To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as, credit card number, expiry date, and CVV will be masked before saving a transcript. For more information, see 
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+1. Follow steps 1 through 4 in the [Configure Microsoft Teams call recording](#configure-microsoft-teams-call-recording) to open the Teams call recording options.
+
+1. Go to the **New and upcoming features** section, select **Hide credit card info in transcripts**.  
+
+    This option ensures that the credit card information in the transcripts of all future calls are masked and saved. Currently, the credit card number mentions in the audio are not redacted.
+
+    :::image type="content" source="media/hide-pii.png" alt-text="Screenshot of the hide personal data option."::: 
+
+#### Enable call categorization for short calls (preview)
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+If you have chosen **Automatic recording** to record all customer calls, you can enable call categorization to help your sales team to quickly identify calls that don't have useful content such as calls that went to voicemail and calls that were not answered. More information: [View categorization tag for short duration calls (Preview)](view-and-understand-call-summary-sales-app.md#view-categorization-tag-for-short-duration-calls-preview)
+
+1. Follow steps 1 through 4 in the [Configure Microsoft Teams call recording](#configure-microsoft-teams-call-recording) to open the Teams call recording options.
+
+1. Go to the **New and upcoming features** section, select **Call categorization (preview)**, select the type of calls you want the system to detect and tag.  
+
+    :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features":::
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
@@ -116,3 +145,5 @@ Teams call recording with conversation intelligence is now configured and ready 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+

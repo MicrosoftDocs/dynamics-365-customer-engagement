@@ -2,7 +2,6 @@
 title: "Manage Field Service (Dynamics 365) mobile app with Microsoft Intune | MicrosoftDocs"
 description: Learn how to get the Field Service (Dynamics 365) mobile app set up with Microsoft Intune.
 ms.date: 07/06/2020
-ms.reviewer: mhart
 ms.topic: article
 ms.subservice: field-service-mobile
 applies_to: 
@@ -10,7 +9,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -41,7 +39,7 @@ A configuration can be set up through the [Device Management portal](https://dev
 
 ## Additional notes
 
-- Specific configurations like prefill of URL or username are not available for the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md).
+- Specific configurations like prefill of URL or username are not available for the [Field Service (Dynamics 365) mobile](mobile-power-app-overview.md).
 - Standard mobile application management capabilities for Field Service (Dynamics 365) mobile app will work with or without MDM device enrollment in Intune.
 
 

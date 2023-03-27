@@ -44,9 +44,8 @@ If you know that the underlying data has changed, you can select **Recalculate**
 -	Any other changes affecting the forecast values (excluding hierarchy changes) are refreshed.
 
 -	Only the current forecast period is recalculated.
-
-> [!NOTE]
-> The **Recalculate** command doesn't change any forecast value that was manually adjusted.
+- No changes are made to the forecast values that were manually adjusted.
+- No changes are made to the **Prediction** column. Predictions are only recalculated after every seven days. Hover over the information icon on the column header to view the last recalculation date.
 
 **To recalculate and refresh forecast data manually**
 

@@ -28,12 +28,12 @@ As developer, use this reference documentation to understand the operations that
 
 |Entity name|Description|
 |------|------|
-|[msdyn_playbookinstance](playbooks-entities/msdyn_playbookinstance.md)|[!INCLUDE[msdyn_playbookinstance-description](includes/msdyn_playbookinstance-description.md)]|
-|[msdyn_playbookcategory](playbooks-entities/msdyn_playbookcategory.md)|[!INCLUDE[msdyn_playbookcategory-description](includes/msdyn_playbookcategory-description.md)]|
-|[msdyn_playbookactivity](playbooks-entities/msdyn_playbookactivity.md)|[!INCLUDE[msdyn_playbookactivity-description](includes/msdyn_playbookactivity-description.md)]|
-|[msdyn_playbookactivityattribute](playbooks-entities/msdyn_playbookactivityattribute.md)|[!INCLUDE[msdyn_playbookactivityattribute-description](includes/msdyn_playbookactivityattribute-description.md)]|
-|[msdyn_playbooktemplate](playbooks-entities/msdyn_playbooktemplate.md)|[!INCLUDE[msdyn_playbooktemplate-description](includes/msdyn_playbooktemplate-description.md)]|
-|[msdyn_callablecontext](playbooks-entities/msdyn_callablecontext.md)|[!INCLUDE[msdyn_callablecontext-description](includes/msdyn_callablecontext-description.md)]|
+|[msdyn_playbookinstance](../entities/msdyn_playbookinstance.md)|[!INCLUDE[msdyn_playbookinstance-description](includes/msdyn_playbookinstance-description.md)]|
+|[msdyn_playbookcategory](../entities/msdyn_playbookcategory.md)|[!INCLUDE[msdyn_playbookcategory-description](includes/msdyn_playbookcategory-description.md)]|
+|[msdyn_playbookactivity](../entities/msdyn_playbookactivity.md)|[!INCLUDE[msdyn_playbookactivity-description](includes/msdyn_playbookactivity-description.md)]|
+|[msdyn_playbookactivityattribute](../entities/msdyn_playbookactivityattribute.md)|[!INCLUDE[msdyn_playbookactivityattribute-description](includes/msdyn_playbookactivityattribute-description.md)]|
+|[msdyn_playbooktemplate](../entities/msdyn_playbooktemplate.md)|[!INCLUDE[msdyn_playbooktemplate-description](includes/msdyn_playbooktemplate-description.md)]|
+|[msdyn_callablecontext](../entities/msdyn_callablecontext.md)|[!INCLUDE[msdyn_callablecontext-description](includes/msdyn_callablecontext-description.md)]|
 
 ### See also
 

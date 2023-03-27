@@ -1,10 +1,10 @@
 ---
 title: "Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Get an overview of Dynamics 365 Channel Integration Framework 2.0 and how to get started using it."
-ms.date: 09/21/2022
+ms.date: 02/18/2023
 ms.topic: overview
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
@@ -103,7 +103,7 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 
 [Architecture of Dynamics 365 Channel Integration Framework 2.0](architecture-overview-channel-integration-framework-v2.md)  
 [System requirements of Dynamics 365 Channel Integration Framework 2.0](system-requirements-channel-integration-framework-v2.md)  
-[FAQ](../faq-channel-integration-framework.md)  
+[FAQ about Dynamics 365 Channel Integration Framework](../faq-channel-integration-framework.md)  
 [Get Dynamics 365 Channel Integration Framework 2.0](get-channel-integration-framework.md)  
 [Support multiple channel providers](support-multiple-providers.md)  
 [Bring your own channel](../../bring-your-own-channel.md)  

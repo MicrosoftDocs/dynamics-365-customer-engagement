@@ -134,9 +134,7 @@ After you've added the SLA timer control for a SLA-enabled entity, you can custo
 > [!NOTE]
 > The screens showcase the timer control on a Unified Interface app. On a legacy web client app, the timer control is displayed as follows: <br><br> ![Timer control in webclient app.](media/timer-control-webclient.png)
 
-
-More information: [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
-
+More information: [Understand SLA details with Timer control](customer-service-hub-user-guide-case-sla.md#understand-sla-details-with-timer-control)
 
 ### Add an out-of-the-box timer control  
   
@@ -196,8 +194,7 @@ More information: [Track SLA details with Timer Control](customer-service-hub-us
 
 [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 
-[Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
-
+[Understand SLA details with Timer control](customer-service-hub-user-guide-case-sla.md#understand-sla-details-with-timer-control)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

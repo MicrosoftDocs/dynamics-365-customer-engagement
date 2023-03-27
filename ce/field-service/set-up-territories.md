@@ -2,11 +2,9 @@
 title: Service territories for accounts, work orders, and resources.
 description: Learn how to use territories for accounts, work orders, and scheduling in Dynamics 365 Field Service.
 ms.date: 09/22/2022
-ms.reviewer: mhart
 ms.topic: article
 author: ryanchen8
 ms.author: chenryan
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -94,7 +92,7 @@ On a new schedule board tab, add one or more territories as filters, and the res
 
 :::image type="content" source="media/territory-filter-schedule-board.png" alt-text="Screenshot of the schedule board, showing the territory tab.":::
 
-To filter requirements by territories in the lower pane, select **Scheduler settings**. In **Board view settings**, set the **Apply territory** filter to **On**.
+To filter requirements by territories in the lower pane, select **Scheduler settings**. In **Board view settings**, set the **Apply territory filter to requirements** to **On**.
 
 ## Relate territories and postal codes
 

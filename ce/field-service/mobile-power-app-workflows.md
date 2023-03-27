@@ -2,7 +2,6 @@
 title: "Create workflows and scripts for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn about workflows and scripts for the Field Service (Dynamics 365) mobile app.
 ms.date: 12/21/2022
-ms.reviewer: mhart
 ms.topic: article
 ms.subservice: field-service-mobile
 applies_to: 
@@ -10,7 +9,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: Andrea-Orimoto
 ms.author: andreo
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -45,7 +43,9 @@ JavaScript web resources can be added to mobile forms and downloaded with Offlin
 JavaScript will run Online, Offline First with internet connection, and Offline First without internet connection (basically all the time).
 
 > [!TIP]
-> Refer to [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities) for any potential limitations by platform for WebResources in offline mode.
+>
+> - Refer to [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities) for any potential limitations by platform for WebResources in offline mode.
+> - You can use your Android device to [debug JavaScript in mobile apps](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-mobile-apps).
 
 ## Offline JavaScript example
 

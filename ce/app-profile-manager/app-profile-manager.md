@@ -4,7 +4,7 @@ description: "Learn how to create and manage app profiles for customized agent e
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/30/2022
+ms.date: 01/30/2023
 ms.topic: article
 ---
 
@@ -15,15 +15,14 @@ ms.topic: article
 Perform the following steps to create an app profile:
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083).
-2. Select the environment in which you want to create the app profiles.
-3. Do one of the following:
+1. Select the environment in which you want to create the app profiles.
+1. Do one of the following:
    - On the **Home** page, go to **Your apps** section.
    - In the left pane, select **Apps**.
-4. On the **Home** page, go to **Your apps** section. In the left pane, select **Apps**.
-5. Select **More commands** in **Omnichannel for Customer Service** or **Customer Service workspace**, and then select **App profile manager** on the menu that appears.
-6. In the left pane, select **App profiles**.
-7. On the **App profile manager** page, select **New profile**.
-8. On the **New profile** pane, specify the following:
+1. Select **More commands** in **Omnichannel for Customer Service** or **Customer Service workspace**, and then select **App profile manager** on the menu that appears.
+1. In the left pane, select **App profiles**.
+1. On the **App profile manager** page, select **New profile**.
+1. On the **New profile** pane, specify the following:
    - **Name:** The app profile name.
    - **Unique name:** A unique identifier in the <*prefix*>_<*name*> format.
      > [!IMPORTANT]

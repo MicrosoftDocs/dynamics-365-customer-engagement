@@ -13,7 +13,7 @@ manager: shujoshi
 
 You can transfer calls or consult with other agents or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
 
-To familiarize yourself with the call controls, see [understand how to use the agent dashboard and call controls](voice-channel-agent-experience.md).
+To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](voice-channel-agent-experience.md).
 
 ## How you can transfer calls
 
@@ -99,7 +99,6 @@ When you initiate a consult, the following actions occur:
 
 [Overview of the voice channel](voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](voice-consult-microsoft-teams-user.md)  
-[Make and receive your first call](voice-channel-first-call.md)  
 [Call a customer](voice-channel-call-customer.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

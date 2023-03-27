@@ -1,24 +1,14 @@
 ---
-title: "Use voicemail to manage inbound calls"
-description: "Learn how to use voicemails in the voice channel in Omnichannel for Customer Service."
+title: "Configure voicemail to manage inbound calls"
+description: "Learn how to configure and use voicemails in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/17/2022
+ms.date: 02/02/2023
 ms.topic: article
 ---
 
-# Use voicemail to manage inbound calls (preview)
-
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+# Configure voicemail to manage inbound calls
 
 Voicemails help your customers leave messages for agents when they come across long wait times or their direct calls to agents are unanswered. You can reduce on-hold calls when customers  communicate their concerns promptly through voicemails and call back later for a status check.
 
@@ -34,10 +24,11 @@ The salient features of voicemail are as follows:
 
 The following prerequisites must be met:
 
+- You must be on the latest version of the product to use voicemail.
 - Unified routing must be enabled. More information: [Provision unified routing](provision-unified-routing.md)
 - To open a voicemail, agent presence must load. More information: [Manage presence status](oc-manage-presence-status.md)
 
-## Use voicemail to manage overflow of voice calls
+## Configure voicemail to manage overflow of voice calls
 
 You can redirect the caller to leave a voicemail for the agent when an incoming call reaches the voice queue and the queue is in one of the following conditions:
 
@@ -85,7 +76,7 @@ Out of the box, **Default Individual Voicemail Workstream** is available to rout
 More information:
 
 - [Configure the inbox](configure-inbox.md)
-- [Create and use agent experience profiles](../app-profile-manager/create-agent-experience-profile.md) 
+- [Create and use agent experience profiles](../app-profile-manager/create-agent-experience-profile.md)
 
 ## How voicemail works
 
@@ -124,9 +115,9 @@ Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations D
 
 ### View the default settings
 
-1. In Customer Service admin center, select **Routing** in the site map, and then select **Manage** for **Setup record routing**. Voicemail (preview) is listed under **Record types** on the page that appears.
+1. In Customer Service admin center, select **Routing** in the site map, and then select **Manage** for **Setup record routing**. Voicemail is listed under **Record types** on the page that appears.
 
-1. Select **Voicemail (Preview)**. The **Voicemail (Preview) routing hub** page displays the following default settings:
+1. Select **Voicemail**. The **Voicemail routing hub** page displays the following default settings:
 
    - **Intake rules**: The rules check whether the voicemail is for individual or group and then routes the voicemail accordingly.
        - **Route to Individual Voicemail Workstream**: The rule routes the voicemail to **Default Individual Voicemail Workstream** if the voicemail type is individual.
@@ -141,8 +132,8 @@ Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations D
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure routing for the voice channel](voice-channel-route-queues.md)  
 [Manage overflow of work items in queues](manage-overflow.md)  
-[Access voicemails](voice-channel-agent-experience.md#access-and-listen-to-voicemails-preview)  
-[Use direct callback](voice-channel-direct-callback.md)  
+[Manage voicemails](manage-voicemails.md)  
+[Configure direct callback](voice-channel-direct-callback.md)  
 [Omnichannel Voicemail dashboard](oc-voicemail-dashboard.md)  
 
 

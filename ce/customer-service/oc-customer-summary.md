@@ -1,11 +1,12 @@
 ---
 title: "View customer summary in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about customer summary, its sections, and how you can view customer information in Omnichannel for Customer Service."
-ms.date: 04/19/2021
-ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.topic: how-to 
+ms.date: 03/20/2023
+ms.custom: bap-template
 ---
 
 # View customer summary to get available information about customers
@@ -26,14 +27,14 @@ Having this information ready can help support agents reduce the hold time that 
 - Recent cases
 - Timeline
 
-> [!div class='mx-imgBorder']
-> ![View Customer summary.](media/customer-summary.png "View the Customer summary page")
+ :::image type="content" source="media/customer-summary-1.png" alt-text="View Customer Summary" lightbox="media/customer-summary.png":::
 
-Agents can access the **Customer Summary** form by accepting the task assignment notification or from the agent dashboard for only active conversations and only in the Customer Service workspace and Omnichannel for Customer Service apps.
+For active conversations, you can view the **Customer summary** form on the agent dashboard of the Customer Service workspace and Omnichannel for Customer Service apps. The **Customer Summary** form, however, doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard. More information: [View agent dashboard and conversations](oc-agent-dashboard.md).
 
-For a closed conversation, you can view details on the closed conversation form from the **Closed work items** section of the agent dashboard.
+The **Save** and **Refresh** options are available on **Customer Summary** form. You can edit and save standard and custom field values added to the **Customer Summary** form by your administrator. However, logical column names aren’t editable. More information: [Logical column names](supported-customizations.md#logical-column-names). If a default value is already set for a field, the application populates the value on the **Customer Summary** form.
 
-## Customer (Contact or Account)
+
+## View Customer (Contact or Account) details
 
 This section provides details such as the contact name or account name. For a contact, you can view the location, email, and other details. In case of an account, you can view location, telephone number, and primary contact person for the account.
 
@@ -42,7 +43,7 @@ Use the customer section to search for an existing contact or account record in 
 > [!div class='mx-imgBorder']
 > ![Customer profile section in the customer summary form.](media/customer-summary-customer-form.PNG "Customer profile section of the Customer summary page")
 
-## Conversation summary
+## View Conversation summary
 
 The **Conversation summary** section provides detailed information about the conversation between the agent and customer. The information shown in the **Conversation details** area includes the following:
 
@@ -64,11 +65,11 @@ In addition, the **Conversation summary** section includes several tabs:
 
 These tabs are described in the following sections.
 
-### Pre-chat survey
+### View Pre-chat survey
 
 The **Pre-chat survey** tab displays the customer's answers to the survey questions that were posed by your organization, which helps your interaction with the customer.
 
-### Self-service
+### View Self service
 
 The **Self service** tab displays information about the activities that the customer performed before starting a conversation with an agent. This information helps you understand why the customer reached out and helps you provide a personalized service for enhanced customer satisfaction. The activity information, which is categorized into the following action types, appears in reverse chronological order.
 
@@ -81,7 +82,7 @@ The **Self service** tab displays information about the activities that the cust
 
 To configure the appearance of the **Self service** tab, see [Enable self-service settings for customer actions in a conversation summary](enable-self-service-settings.md).
 
-### Visitor details
+### View Visitor details
 
 The **Visitor details** tab provides information such as whether the customer is authenticated, the browser the customer used to contact support, the operating system used by the customer, the customer's location, and the language used during the interaction.
 
@@ -91,27 +92,27 @@ If the customer has signed in to the portal to initiate the chat with a support 
 
 To learn more, see [Create chat authentication settings](create-chat-auth-settings.md).
 
-### Additional details
+### View Additional details
 
 If your administrator or developer has configured the **Additional details** tab and if any additional context variables exist, they're displayed on the **Additional details** tab.
 
 To learn more, see [setContextProvider](developer/reference/methods/setContextProvider.md).
 
-## Case
+## View Case details
 
 Use the **Case** section to search for an existing case in Omnichannel for Customer Service, and select the case to link it to the conversation. If the record doesn't exist, you can create a new case by using the **+ Add Case** button. After you create it, search for the record and then select it to link it to the conversation.
 
 > [!div class='mx-imgBorder']
 > ![Case section in the customer summary form.](media/customer-summary-issue-snapshot.PNG "Case section on the Customer summary page")
 
-## Recent cases
+## View Recent cases
 
 This section displays recent cases related to the customer.
 
 > [!div class='mx-imgBorder']
 > ![Recent cases section in the customer summary form.](media/customer-summary-recent-cases.png "Recent cases section on the Customer summary page")
 
-## Timeline
+## View Timeline details
 
 This section displays case-related and customer-related activities in the form of a timeline. You can create quick notes based on your discussion with the customer. Use the **Linked records** field to switch the timeline based on the case, contact, or account record linked to the conversation.
 

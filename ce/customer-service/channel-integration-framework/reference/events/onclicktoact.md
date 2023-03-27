@@ -1,28 +1,24 @@
 ---
-title: "onClickToAct event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+title: "onclicktoact event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Learn about the onClickToAct event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
-ms.date: 12/31/2019
+ms.date: 02/14/2023
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# onClickToAct event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
+# onclicktoact event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[token-onclicktoact](../../shared/token-onclicktoact.md)]
 
 ### See also
 
-
-[setClickToAct](../microsoft-ciframework/setClickToAct.md)
-
-[addHandler](../microsoft-ciframework/addHandler.md)
-
-[removeHandler](../microsoft-ciframework/removeHandler.md)
-
+[setClickToAct](../microsoft-ciframework/setClickToAct.md)  
+[addHandler](../microsoft-ciframework/addHandler.md)  
+[removeHandler](../microsoft-ciframework/removeHandler.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

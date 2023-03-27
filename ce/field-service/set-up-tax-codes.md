@@ -1,22 +1,20 @@
 ---
-title: "Set up tax codes (Dynamics 365 Field Service) | MicrosoftDocs"
+title: Create tax codes
 description: Learn how to set up tax codes in Dynamics 365 Field Service
 ms.date: 02/12/2021
-ms.reviewer: mhart
 
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
 ---
-# Tax codes in Dynamics 365 Field Service
+# Create tax codes
 
 Set up tax codes in Dynamics 365 Field Service and specify how much tax will be applied to your products, agreements, and services.  
   
-## Enabling tax calculation in Dynamics 365 Field Service
+## Enabling tax calculation
 
 Field Service v8.8.39.37 introduced the **Calculate Tax** field in **Field Service Settings**. By default, for all new installations of Field Service v8.8.39.37 or higher, this field will be set to **No**. For many Field Service organizations, tax calculation is not an important factor because:
 

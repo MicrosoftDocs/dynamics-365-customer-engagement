@@ -3,8 +3,8 @@ title: "getAgentAvailability (JavaScript API reference) for Omnichannel for Cust
 description: "Includes reference information about getAgentAvailability method, syntax, and parameters in Omnichannel for Customer Service JavaScript API reference."
 ms.date: 04/04/2021
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ---
 # getAgentAvailability

@@ -1,7 +1,7 @@
 ---
-title: "Migration tool FAQ | MicrosoftDocs"
-description: "Migration tool FAQ for  Automatic record creation rules and service-level agreement items"
-ms.date: 12/09/2022
+title: Migration tool FAQ
+description: Migration tool FAQ for automatic record creation rules and service-level agreement items.
+ms.date: 02/10/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,11 +15,15 @@ ms.reviewer: nenellim
 
 ### Who can access or run the migration tool?
 
-Currently, only administrators can run the migration tool.
+Administrators and users with CSR manager roles can run the migration tool.
 
 ### Are migrated rules automatically activated post-migration?
 
 No. You must manually activate the migrated rules when migration is complete.
+
+### Can I still use my legacy rules after the deprecation deadline?
+
+Yes, any active legacy rules after the deprecation deadline will still run until they are deactivated. However, supportability and editing experience will stop after deprecation.
 
 ### Can I activate a rule with an incomplete migration status?
 
@@ -44,7 +48,8 @@ Rules that are partially identified or identified as ‘incompletely migrated’
 
 ### Are custom forms or fields supported by the migration tool?
 
-No. Custom entities, fields, attributes, and configurations are not supported by the migration tool. Only out-of-the-box entities, fields, and attributes are supported by the migration tool.
+- **For ARC, yes.** The migration tool does support custom entities and custom fields, attributes, and configurations.
+- **For SLA, no.** Custom entities, fields, attributes, and configurations aren't fully supported by the migration tool. Users would need to modify any existing customization flows, workflows, plugins, or any other custom code on the custom entities, fields, attributes, and configurations to complete the migration.
 
 ### Do I need a separate license for Power Automate before running migration?
 
@@ -68,6 +73,8 @@ Yes, you can rerun the migration tool for a specific migrated rule based on the 
 1. If the legacy SLA is still in **Active** state: Existing SLA records with legacy SLAs will continue to work as expected.
 
 1. If you want to use SLAs created in the Unified Interface apps on existing records: You'll need to update the SLA field to Unified Interface SLA manually or write the plugin to update the records. For example, the plugin logic could be Modern Flow or Workflow.
+
+For information about migrated rule or flows in modern ARC, go to [FAQ about modern automatic record creation](arc-faqs.md#faq-about-modern-automatic-record-creation).
 
 ## Known condition conversion issues
 
@@ -163,14 +170,13 @@ For lookup data types, only the **equal / not equal, null /not null** operators 
 ### Can I migrate a rule again after it’s been activated?
 
  - **Yes, for automatic record creation rules.** You can migrate an activated rule again, but you must first deactivate and delete it from Unified Interface before you can migrate it again.
- - **No for SLAs.** After a migrated SLA rule is activated, it is linked to another entity (such as a case or is in use). To attempt to migrate an activated rule (which is a successfully migrated rule by default) again, you'd need to delete that specific rule. 
+ - **No for SLAs.** After a migrated SLA rule is activated, it is linked to another entity (such as a case or is in use). To attempt to migrate an activated rule (which is a successfully migrated rule by default) again, you'd need to delete that specific rule.
 
 However, there is a limitation with Unified Interface SLA rules, and once a rule is associated with a case or entity (that is, if it has been activated even once), you cannot delete the rule even if it is deactivated. Therefore, the rule cannot be migrated again if it has been previously activated or applied.
 
 ### Can I migrate deprecated standard SLA rules?
 
  No. The migration tool only supports enhanced SLA rules. Standard SLA rules have been deprecated and are no longer supported in Unified Interface and therefore aren't supported in the migration tool. For more information, go to [Standard SLAs in Dynamics 365 Customer Service are deprecated](/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated). 
-
 
 ## Known flow issues
 
@@ -219,6 +225,8 @@ In legacy workflows, a lookup field can be mapped with multiple expressions wher
 > If you're still experiencing issues with the migration tool, contact your administrator or Microsoft support.
 
 ### See also
+
+[FAQ about modern automatic record creation](arc-faqs.md#faq-about-modern-automatic-record-creation)
 
 [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
 

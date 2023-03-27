@@ -3,8 +3,8 @@ title: "msdyn_omnichannelconfiguration table/entity reference (Microsoft Dataver
 description: "Includes schema information and supported messages for the msdyn_omnichannelconfiguration table/entity."
 ms.date: 04/16/2021
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: "v-jmh"
+author: "gandhamm"
+ms.author: "mgandham"
 manager: "shujoshi"
 search.audienceType: 
   - developer
@@ -144,7 +144,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1051|Slovak - Slovakia|
 |1053|Swedish - Sweden|
 |1054|Thai - Thailand|
-|1055|Turkish - Turkey|
+|1055|Turkish - Türkiye|
 |1057|Indonesian - Indonesia|
 |1058|Ukrainian - Ukraine|
 |1060|Slovenian - Slovenia|

@@ -1,7 +1,7 @@
 ---
 title: Customer Service dashboards | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 08/01/2022
+ms.date: 02/01/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -50,7 +50,7 @@ The Agent dashboard shows charts and KPIs for individual agents and overall agen
 
    > [!div class=mx-imgBorder]
    > ![Analytics Agent dashboard.](media/customer-service-analytics-agent-dashboard.png "Customer Service Analytics Agent dashboard") 
-   
+
 More information: [Agent dashboard](agent-dashboard-cs.md)
 
 ### Case Topics
@@ -59,9 +59,8 @@ The Case Topics dashboard shows a detailed breakdown of cases and their assigned
 
    > [!div class=mx-imgBorder]
    > ![Analytics Topics dashboard.](media/customer-service-analytics-topics-dashboard.png "Customer Service Analytics Topics dashboard")
-   
-More information: [Topics dashboard](case-topics-dashboard-cs.md)
 
+More information: [Topics dashboard](case-topics-dashboard-cs.md)
 
 ## Information that you need to know about the analytics reports
 
@@ -77,10 +76,6 @@ The reports refresh shows the following information.
 - **Custom refresh:** Isn't available.
 - **Data refresh for inactive environments:** Data refresh is paused if the reports aren't used continuously for two weeks. When you access a report after a lengthy period of inactivity, the report will be refreshed in the next refresh cycle.
 - **Data retention:** Data is stored for 24 months.
-
-### Report customizations
-
-Currently, report customizations aren't supported.
 
 ### Supported tables
 
@@ -120,6 +115,8 @@ To troubleshoot issues when you try to access or view the reports, do the follow
 [Introduction to Customer Service insights](introduction-customer-service-analytics.md)  
 [Configure Customer Service insights for Customer Service Hub and Customer Service workspace](configure-customer-service-analytics-insights-csh.md)  
 [Manage bookmarks](manage-bookmarks.md)  
+[Customize data models of historical analytics reports in Customer Service](model-customize-reports.md)  
+[Tracked keywords in Dynamics 365 Sales](../sales/dynamics365-sales-insights-app-home-page.md#tracked-keywords)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

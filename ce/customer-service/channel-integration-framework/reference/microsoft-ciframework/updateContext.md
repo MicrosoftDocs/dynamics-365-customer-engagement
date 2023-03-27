@@ -3,8 +3,8 @@ title: "updateContext (JavaScript API Reference) for Dynamics 365 Channel Integr
 description: "Includes description, syntax, and parameter information for the updateContext method in JavaScript API Reference for Channel Integration Framework 1.0. "
 ms.date: 11/11/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"

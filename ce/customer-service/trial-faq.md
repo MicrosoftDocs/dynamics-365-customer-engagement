@@ -1,7 +1,7 @@
 ---
 title: "Trial FAQ - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Customer Service trial setup and management. Learn how to resolve platform and app-specific issues."
-ms.date: 01/09/2023
+ms.date: 02/17/2023
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -48,6 +48,9 @@ The environment you receive in trial is a fully functional, Power Platform envir
   - To create app profiles, configure templates, customize the solution
 - Dynamics 365 Power Virtual Agents
   - To add Power Virtual Agents bot to chat and channels
+  > [!NOTE]
+  > If you use a personal email ID for the Customer Service trial, you can't customize the Power Virtual Agents bot. The default Power Virtual Agents bot that's used in scenarios like voice and chat tour will work with the personal email address. However, you can't access the links to customize the bot using the Power Virtual Agents designer.
+
 - Dynamics 365 Customer Voice
   - To add pre and post-conversation surveys in messaging
 - Dynamics 365 Power Automate
@@ -63,16 +66,9 @@ Your trial environment is curated to provide you with a fully functional applica
 
 Sample data comes with the trial environment and experience. To get a fresh dataset, you must wait for your trial to expire and start a new trial.
 
-### Can I sign up for trial using a personal email ID that's not associated with a Microsoft account?<a name="personalemail"></a>
-
-You can use a personal email ID. But you won't be able to use the following features if you use your personal email ID:
-
-- Access Power Platform admin center to add more users to the trial, change security roles, or extend the trial period.
-- Customize the Power Virtual Agents bot. The default Power Virtual Agents bot that's used in scenarios like voice and chat tour will work with the personal email address. However, you can't access the links to customize the bot using the Power Virtual Agents designer.
- 
 ### Can I call the trial phone number from outside the US?
 
-No, you can't call the trial phone number because it's a toll-free US number that works within the US only. For more information and a workaround, see [Use trial phone number](voice-channel-manage-phone-numbers.md#use-trial-phone-number).
+No, you can't call the trial phone number because it's a toll-free US number that works within the US only. For more information and a workaround, see [Use trial phone number](voice-channel-trial-phone-numbers.md).
 
 ### Can I use the trial phone numbers for inbound or outbound SMS?
 

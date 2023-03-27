@@ -2,12 +2,10 @@
 title: "Collaborate in mixed reality with Field Service, Dynamics 365 Remote Assist, and HoloLens (contains video) | MicrosoftDocs"
 description: Learn how to collaborate in mixed reality by integrating Dynamics 365 Field Service with Dynamics 365 Remote Assist.
 ms.date: 01/14/2021
-ms.reviewer: mhart
 
 ms.topic: article
 author: josephshum-msft
 ms.author: jshum
-ms.manager: shellyhaverkamp
 search.app: 
   - D365CE
   - D365FS
@@ -96,7 +94,7 @@ As a different user that you have identified as the remote collaborator, verify 
 > ![Screenshot of Teams on desktop.](./media/remote-assist-field-service-teams-signin.png)
 
 > [!Note]
-> The remote collaborator must log into the Microsoft Teams native app on his or her PC or mobile device. Teams on web is not supported.
+> The remote collaborator must log into the Microsoft Teams native app on their PC or mobile device. Teams on web is not supported.
 
 ## Create and schedule work orders
 
@@ -105,7 +103,7 @@ Next, create a work order to outline the onsite work the technician or front lin
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a Field Service work order in a desktop, with attention to the support contact field.](./media/remote-assist-field-service-work-order-support-contact.png)
 
-Schedule the work order to the bookable resource that represents the technician also known as the front line worker who travels to customer locations to complete work orders. In our example, Abraham McCormick is the bookable resource and we scheduled work orders to them with resource scheduling optimization.
+Schedule the work order to the bookable resource that represents the technician also known as the front line worker who travels to customer locations to complete work orders. In our example, Abraham McCormick is the bookable resource and we scheduled work orders to them with the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Abraham McCormick's booked work order on the Field Service schedule board, in a desktop window.](./media/remote-assist-field-service-work-order-schedule.png)
@@ -180,11 +178,9 @@ Technicians can:
   > [!div class="mx-imgBorder"]
   > ![Screenshot of Dynamics 365 Remote Assist on HoloLens, showing the option to change the status of the booking.](./media/remote-assist-field-service-bookings-status-HL.png)
 
-
 ### Set up Field Service for the HoloLens
 
-1. Ensure you're using Field Service v8.2 or later. [Upgrade](./upgrade-field-service.md#field-service) your solution if necessary. 
-2. Confirm the **My Bookings for Today** view on the **Bookable Resource Booking** entity is included:
+1. Confirm the **My Bookings for Today** view on the **Bookable Resource Booking** entity is included:
 
      - Go to **Field Service** > **Settings** > **Customizations** > **Customize the System**.
 
@@ -196,7 +192,7 @@ Technicians can:
 > [!Note]
 > Fields can be added to this view if necessary for your business needs.
 
-3. Create and schedule a work order.
+1. Create and schedule a work order.
 
      - The booking will not appear in the Dynamics 365 pane in Dynamics 365 Remote Assist unless the booking status is **In progress** and the related bookable resource has a user record that matches the HoloLens user.
 
@@ -204,7 +200,7 @@ Technicians can:
 
 ### Use the Field Service mobile Power App
 
-Technicians can deep link from the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) to the Dynamics 365 Remote Assist mobile app. 
+Technicians can deep link from the [Field Service (Dynamics 365) mobile](mobile-power-app-overview.md) to the Dynamics 365 Remote Assist mobile app.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

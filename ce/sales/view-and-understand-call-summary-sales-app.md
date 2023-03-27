@@ -1,7 +1,7 @@
 ---
 title: "View and understand call summary page in the Dynamics 365 Sales Hub app"
 description: "Use call summary to get a high-level view of how a conversation with customer went, action items and relevant keywords, timeline, transcript in the Sales Hub app."
-ms.date: 01/10/2023
+ms.date: 01/25/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -58,6 +58,21 @@ A call summary page includes the following sections:
 #### Overview tab
 
 The **Overview** tab displays the names of the people who participated in a conversation, along with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that have been added to the conversation to improve searchability. 
+
+##### View categorization tag for short duration calls (Preview)
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+Conversation intelligence can detect and tag short duration calls for the following categories:
+
+- Voicemail
+- Contact is unavailable
+- Short calls with reschedule requests
+- Short calls in which the contact indicates the call is unwanted
+
+If the tag is inappropriate, you can delete it.  
+
+Your administrator must [enable the **Call categorization (preview)**](fre-setup-ci-sales-app.md#enable-call-categorization-for-short-calls-preview) feature for the system to tag short duration calls. You can also view these tags in the [Conversation intelligence app](https://sales.ai.dynamics.com/) under **Seller Details** > **Call History** section. For more information, see [View a seller’s performance to identify best practices and coaching opportunities](conversation-intelligence-seller-details.md).  
 
 
 #### Notes tab
@@ -138,17 +153,23 @@ When you select any of the items listed in the following sections, you can see w
 
 ### Call transcript and translation
 
-The **Transcript** tab displays a written record of the call&mdash;which you can read, comment on, and translate&mdash;and the timeline of the call. The following image shows an example of a **Transcript** tab.
+The **Transcript** tab displays the speech-to-text version of the call&mdash;which you can read, comment on, and translate&mdash;and the timeline of the call. 
+
+The following image displays a sample transcript in the **Transcript** tab.    
 
 > [!div class="mx-imgBorder"]
 > ![Transcript tab with sample transcript](media/ci-transcript-conversation-transcript.png "Transcript tab with sample transcript")   
-- As a manager, you can review the transcript and leave a comment&mdash;for example, suggesting how the seller might handle a similar situation in the future.   
-- As a seller, you can review the transcript and comments that have been posted by your manager or coach.    
-You can reply to comments, or add your own. Hover over the relevant area of the transcript, select **Add comment** to reply or make a comment yourself, and then select **Save**.  A comment icon is also added to the corresponding time in the timeline.
-> [!div class="mx-imgBorder"]
-> ![Add a comment to a transcript](media/ci-transcript-comment.png "Add a comment to a transcript")   
-The brands, tracked keywords, and competitors mentioned in the conversation are formatted in bold in the transcript.
+- As a manager, you can review the transcript and leave a comment&mdash;for example, suggesting how the seller might handle a similar situation in the future.
+- As a seller, you can review the transcript and comments that have been posted by your manager or coach. You can reply to comments, or add your own. Hover over the relevant area of the transcript, select **Add comment** to reply or make a comment yourself, and then select **Save**.  A comment icon is also added to the corresponding time in the timeline.
+    > [!div class="mx-imgBorder"]
+    > ![Add a comment to a transcript](media/ci-transcript-comment.png "Add a comment to a transcript")
+
+- The brands, tracked keywords, and competitors mentioned in the conversation are formatted in bold in the transcript.
 If the transcript is in a language other than English (and is one of the languages supported by Microsoft), you can select the translate icon ![Translate icon](media/ci-transcript-translate-icon.png "Translate icon") to convert the transcript into English.
+
+- Credit card details such as credit card number, expiry date, and CVV are masked before saving a transcript, to comply with the Payment Card Industry (PCI) regulations. The details are masked only for calls that were recorded after the **Hide personal data (preview)** setting was enabled by your administrator. Currently, the credit card number mentions in the audio are not redacted.
+    
+    [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 ### Call playback timeline and segmentation   
 
@@ -171,7 +192,9 @@ On the timeline, you can see how the conversation was segmented. The topics (if 
 ### See also
 
 [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)      
-[Track and manage activities](/dynamics365/sales-enterprise/manage-activities)
+[Track and manage activities](/dynamics365/sales-enterprise/manage-activities)  
+[View call recordings and transcripts in Dynamics 365 Customer Service](../customer-service/voice-channel-call-recordings-transcripts.md)  
+[View and share auto-summarized conversations in Dynamics 365 Customer Service](/dynamics365/customer-service/cs-ai-generated-summary)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

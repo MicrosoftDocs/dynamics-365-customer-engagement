@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Sales
-description: Get an overview of the sales licenses and capabilities in each Dynamics 365 Sales license 
-ms.date: 11/09/2022
+description: Transform your sales organization with Dynamics 365 Sales to build strong relationships with customers, take actions based on insights, and close deals faster.
+ms.date: 02/28/2023
 ms.topic: welcome
 author: udaykirang
 ms.author: udag
@@ -10,7 +10,7 @@ ms.custom: bap-template
 ---
 # Welcome to Dynamics 365 Sales  
 
-Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables salespeople to build strong relationships with their customers, take actions based on insights, and close deals faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. You can also create marketing lists and campaigns, and follow service cases associated with specific accounts or opportunities.  This article provides an overview of the capabilities in Dynamics 365 Sales.
+Welcome to Dynamics 365 Sales! Dynamics 365 Sales enables salespeople to build strong relationships with their customers, take actions based on insights, and close deals faster. Use Dynamics 365 Sales to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. You can also create marketing lists and campaigns, and follow service cases associated with specific accounts or opportunities.  This article provides an overview of the capabilities in Dynamics 365 Sales.
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
@@ -125,7 +125,7 @@ Boost seller productivity by automatically capturing tasks and integrating sales
 | Minimize routine tasks | Get suggestions to automatically create new records such as contacts, meetings, and tasks. | Administrator:<br>- [Configure notes analysis](configure-notes-analysis.md)<br>- [Enable and configure auto capture](configure-auto-capture.md)<br>Seller:<br>- [How notes analysis assists you with suggestion](notes-analysis.md)<br>- [Capture customer-related activities with auto capture](auto-capture.md) |
 | Automate sales and marketing processes | Connect your processes with a common platform to optimize efficiencies and marketing ROI and lead handoff. | Administrator/Seller: [Overview (Marketing)](/dynamics365/marketing/overview) |
 | Work seamlessly using everyday apps | Minimize app switching with contextual sales data surfaced in productivity apps like Outlook. | Administrator: [Deploy and install Dynamics 365 App for Outlook](/dynamics365/outlook-app/deploy-dynamics-365-app-for-outlook)<br>Seller: [Basic navigation in App for Outlook](/dynamics365/outlook-app/user/basic-navigation) |
-| Manage the pipeline in a single workspace | Use an intuitive, personalized workspace to view deals, get context, and act swiftly. Get one-click actions and built-in productivity and collaboration from Microsoft 365 and Teams (preview) | Administrator: [Enable the deal manager workspace](enable-deal-manager-preview.md)<br>Seller: [Using the deal manager workspace](deal-manager-seller-overview.md) |
+| Manage the pipeline in a single workspace | Use an intuitive, personalized workspace to view deals, get context, and act swiftly. Get one-click actions and built-in productivity and collaboration from Microsoft 365 and Teams (preview) | Administrator: [Configure the opportunity pipeline view](opportunity-pipeline-view-for-admins.md)<br>Seller: [Preview: Manage opportunities using the pipeline view](use-opportunity-pipeline-view.md) |
 
 ### Keep selling on the go
 
@@ -164,6 +164,5 @@ Integrate Dynamics 365 Sales with other applications that your Sales team is lev
 ### See also
 [Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)  
 [User Guide](../sales-enterprise/user-guide.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

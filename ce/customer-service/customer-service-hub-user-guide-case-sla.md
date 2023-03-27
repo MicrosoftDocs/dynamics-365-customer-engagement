@@ -1,11 +1,11 @@
 ---
-title: "Track and manage SLAs in Customer Service workspace | Microsoft Docs"
-description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service."
-ms.date: 12/08/2022
-ms.topic: article
+title: Understand SLAs
+description: Understand how to track and view SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.topic: conceptual
+ms.date: 01/30/2023
 search.audienceType: 
   - admin
   - customizer
@@ -15,13 +15,14 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+  - bap-template
 ---
 
-# Manage SLAs
+# Understand SLAs
 
-You can view, track, and manage service-level agreements (SLAs) in Customer Service workspace and Customer Service Hub.
+Understand the various service-level agreements (SLA) KPIs and SLA KPI Instance record details, related to time.
 
-## Track SLA details with Timer control
+## Understand SLA details with Timer control
 
 You can see the SLA details on the SLA-enabled entity record.
 
@@ -54,7 +55,7 @@ For SLAs that are in the expired status, your administrator can configure the SL
 
 :::image type="content" source="media/sla-negative-countdown-timer.png" alt-text="Display negative countdown for SLAs in expired or terminal status.":::
 
-## View the status of an SLA KPI Instance record
+## Know the status of an SLA KPI Instance record
 
 Based on the business hours, the timer displays the time remaining to meet the SLA or the elapsed time since the SLA failed. For example, if failure time is set to 5 days and business hours are 9:00 AM to 5:00 PM, then you'll see 5 days on the timer. If failure time is set to 10 hours, then you'll see 1 day and 2 hours on the timer. Your system administrator or customizer can add a timer to the SLA-enabled entity form.
 
@@ -82,7 +83,12 @@ You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../inclu
 
 To learn more about adding a timer control to an SLA-enabled entity, go to [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md).
 
-## View active duration and elapsed time for SLA KPI Instances
+## Know active duration and elapsed time for SLA KPI Instances
+
+> [!NOTE]
+> Active duration calculation will be asynchronous by default, as an early access feature. You can opt in early to enable these features in your environment. This will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
+>
+> You might need to refresh the views that have an **Active Duration (min)** field after any create or update operation. You may also need to review any customizations associated with the **Active Duration** attribute of the SLA KPI instance.
 
 Track the time taken by SLA KPI Instances to reach their terminal status during business hours to evaluate whether the SLAs are realistic and take decisions about resourcing and efficiency.
 

@@ -1,7 +1,7 @@
 ---
 title: "Make the most of your event check-in flow (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to optimize your event check-in flow in Dynamics 365 Marketing."
-ms.date: 06/10/2022
+ms.date: 01/31/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -33,15 +33,15 @@ To ensure that your attendees can check in before an event, implement the follow
 In Dynamics 365 Marketing, you can monitor your event attendance and join and leave times from the check-ins created after the meeting is over. These are some best practices to follow when reviewing check-ins:
 
 - If check-ins are missing, ensure that the event invite and join emails were sent in the correct order [as mentioned above](optimize-check-in.md#make-the-most-of-your-check-in-monitoring-before-an-event).
-- Pay attention to changes to daylight savings, if any, for the time zone selected for your event or session start time. Some "Join" button clicks may fail the 30-minute criteria if there was a change in daylight savings between the event or session creation time and the event or session start time. Learn more about the 30-minute criteria: [Inviting registrants to attend the Teams event through email](teams-webinar.md#inviting-registrants-to-attend-the-teams-event-through-email).
-- If you are hosting a Teams webinar, select the **Sync with Teams** button on the event page. The button pulls Teams attendance data to create check-ins in Dynamics 365 Marketing.
+- Pay attention to changes to daylight savings, if any, for the time zone selected for your event or session start time. Some "Join" button clicks may fail the 120-minute criteria if there was a change in daylight savings between the event or session creation time and the event or session start time. Learn more about the 120-minute criteria: [Inviting registrants to attend the Teams event through email](teams-webinar.md#inviting-registrants-to-attend-the-teams-event-through-email).
+- If you're hosting a Teams webinar, select the **Sync with Teams** button on the event page. The button pulls Teams attendance data to create check-ins in Dynamics 365 Marketing.
 - Look at the Teams Attendance Report to see the join information. The report will only list a contact if they have certain Teams policies enabled. Learn more: [View webinar engagement data](teams-webinar.md#view-webinar-engagement-data).
 - Review the [email](insights.md#email-insights) and [contact](insights.md#contact-insights) insights for your event invite and event attendees. This data will only be collected if the email was sent from the Marketing app and contained the tracking link. Learn more: [How marketing email works in Dynamics 365 Marketing](prepare-marketing-emails.md#how-marketing-email-works-in-dynamics-365-marketing).
 
 > [!WARNING]
 > Check-ins are created only by selecting the [Join in Teams button](teams-webinar.md#view-webinar-engagement-data) in the email or the [Add to Calendar Join button](add-to-calendar.md#customize-the-icalendar-file-descriptions).
 >
-> If an attendee selects the **Join in Teams** button *more than 30 minutes* before the event starts, the check-in *won't* be created. This cannot be controlled or changed by the meeting organizer. This is a hard-coded feature to prevent accidental check-ins when a recipient tests the link after they receive the email.
+> If an attendee selects the **Join in Teams** button *more than 120 minutes* before the event starts, the check-in *won't* be created. This cannot be controlled or changed by the meeting organizer. This is a hard-coded feature to prevent accidental check-ins when a recipient tests the link after they receive the email.
 >
 > Contacts must use their personalized meeting link for a check-in to be created (forwarded emails won't work). To prevent privacy issues, the Marketing app does not track attendee actions unless they use the personalized link.
 >

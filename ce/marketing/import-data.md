@@ -1,7 +1,7 @@
 ---
 title: "Import data (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 Marketing."
-ms.date: 06/09/2021
+ms.date: 01/24/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -81,9 +81,9 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
 
 1. Start your import by doing either of the following:
    - Go to the list view for the entity you want to import to (such as the list of leads), and select **Import from Excel** on the command bar.
-   - If you are an administrator, go to **Settings** > **Advanced Settings** > **Business Management** > **Import Data**. On the **Import Data** page, select the record type you want to import the data for, and then in the drop-down list, select Excel.
+   - If you are an administrator, go to **Settings** > **Advanced Settings** > **Data Management** > **Imports**. On the **My Imports** page, select the **IMPORT DATA** button in the toolbar.
 
-2. Select **Browse** to upload a file.
+2. Select **Choose File** to upload a file.
 3. Select **Next**. All the fields in your source file are automatically mapped.
 4. Select **Finish Import**.
 
@@ -93,7 +93,7 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
 
 2. Start your import by doing either of the following:
     - Go to the list view for the entity you want to import to (such as the list of leads), and select **Import from CSV** on the command bar.
-    - If you are an administrator, go to **Settings** > **Advanced Settings** > **Business Management** > **Import Data**. On the **Import Data** page, select the record type you want to import the data for, and then in the drop-down list, select **CSV**.
+    - If you are an administrator, go to **Settings** > **Advanced Settings** > **Data Management** > **Imports**. On the **My Imports** page, select the **IMPORT DATA** button in the toolbar.
 
 3. Choose a file to upload.
 
@@ -197,7 +197,7 @@ You must wait for an import job to be completed before you can repair failures.
 
 ### See also
 
-[Business management settings](business-management-settings.md) 
+[Data management settings](data-management-settings.md) 
 [Export data](export-data-Word-Excel.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

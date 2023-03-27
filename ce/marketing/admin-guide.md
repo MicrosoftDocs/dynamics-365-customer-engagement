@@ -39,9 +39,9 @@ search.app:
 
 <h2>Work with data</h2>
 <li><a href="/power-platform/admin/add-remove-sample-data" data-raw-source="[Add or remove sample data](/power-platform/admin/add-remove-sample-data)">Add or remove sample data</a></li>
-<li><a href="business-management-settings.md#import" data-raw-source="[Import data and manage imports](business-management-settings.md#import)">Import data and manage imports</a></li>
-<li><a href="business-management-settings.md#export" data-raw-source="[Export data or templates](business-management-settings.md#export)">Export data or templates</a></li>
-<li><a href="business-management-settings.md#duplicate-detection" data-raw-source="[Manage duplicate detection](business-management-settings.md#duplicate-detection)">Manage duplicate detection</a></li>
+<li><a href="data-management-settings.md#import" data-raw-source="[Import data and manage imports](data-management-settings.md#import)">Import data and manage imports</a></li>
+<li><a href="data-management-settings.md#export" data-raw-source="[Export data or templates](data-management-settings.md#export)">Export data or templates</a></li>
+<li><a href="data-management-settings.md#duplicate-detection" data-raw-source="[Manage duplicate detection](data-management-settings.md#duplicate-detection)">Manage duplicate detection</a></li>
 <li><a href="manage-excel-templates.md" data-raw-source="[Manage Excel templates](manage-excel-templates.md)">Manage Excel templates</a></li>
 <li><a href="manage-word-templates.md" data-raw-source="[Manage Word templates](manage-word-templates.md)">Manage Word templates</a></li>
 

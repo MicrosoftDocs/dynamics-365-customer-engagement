@@ -2,7 +2,6 @@
 title: "Geofencing for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to use geofences for the Field Service (Dynamics 365) mobile app.
 ms.date: 01/04/2023
-ms.reviewer: mhart
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to:
@@ -10,7 +9,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
-manager: shellyha
 search.app:
 - D365CE
 - D365FS
