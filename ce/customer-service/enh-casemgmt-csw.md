@@ -10,21 +10,21 @@ ms.custom: bap-template
 ---
 
 
-# Case management in multisession apps
+# Use enhanced case forms to manage cases
 
 The enhanced case management experience in Customer Service workspace allows agents to verify and edit customer details without switching tabs, add updates to existing cases without interrupting the case creation flow, and avoids case duplication.
 
-## Create cases using quick create
+## Create cases using quick create from
 
-A quick create form allows you to create a related record within a form for another table. You can use the quick create form to create a new case from within a form without navigating to a different page.
+ You can use a quick create form to create a new case from within a form without navigating to a different page.
 
 For example, if you select **New Case** in the **Customer Service Agent Dashboard**, a quick create form for a new case appears as a flyout.
 
-Depending on whether your administrator has enabled the **Quick case form** in Customer Service admin center, you'll see one of the following layouts.
+Depending on the settings enabled for you, you'll see the **Enhanced Quick case** form or **Default Quick case form: case** that are explained as follows:
 
    ### [Enhanced Quick case form](#tab/enhancedquickcreateform)
 
-   If your administrator has enabled the **Quick case form** and set **Choose Form** to **Enhanced quick case form**, the enhanced quick case form appears. A few scenarios where the enhanced quick case form appears is when you select **New Case** in the following:
+  A few scenarios where the enhanced quick case form appears is when you select **New Case** in the following:
 
 - Customer Service Agent Dashboard.
 - AI-generated summary of a customer conversation.
@@ -48,7 +48,7 @@ Depending on whether your administrator has enabled the **Quick case form** in C
 
    ### [Default Quick create form: case](#tab/quickcreateform)
     
-   If your administrator hasn't enabled the **Quick case form** in Customer Service admin center, the default **Quick Create: Case** form appears when you create a case using the quick create option.
+   The default **Quick Create: Case** form appears when you create a case using the quick create option.
 
    :::image type="content" source="media/quick-case-default-mini.png" alt-text="Default quick case form" lightbox="media/quick-case-default.png":::
 
@@ -57,6 +57,8 @@ Depending on whether your administrator has enabled the **Quick case form** in C
 ## Create a case from the main case form
 
 You can create a new case from the main case form. Depending on whether your administrator has enabled the enhanced **Full case form** in **Customer Service admin center**, you'll see one of the following layouts.
+
+Depending on the settings enabled for you, you'll see the **Enhanced full case form** form or **Default main case form: case** that are explained as follows:
 
    ### [Enhanced full case form](#tab/enhancedfullcaseform)
 
@@ -71,7 +73,7 @@ You can create a new case from the main case form. Depending on whether your adm
 
    ### [Default main case form: Case](#tab/fullcaseform)
     
-   If your administrator hasn't enabled the **Full case form** in Customer Service admin center, you'll see the default main case form.
+   The default main case form appears when you create a new case from the **Case** page.
 
    :::image type="content" source="media/def-case-maincas-mini.png" alt-text="Default main case form" lightbox="media/def-case-maincase.png":::
 
@@ -79,7 +81,7 @@ You can create a new case from the main case form. Depending on whether your adm
 
 ## View an existing case using enhanced Full case form
 
-If your administrator has enabled the **Full case form** and you save the case using **Enhanced Full case form**, you'll see the following: 
+If you save the case using the enhanced full case form, you'll see the following: 
    - An SLA timer that displays the time within which the agents must first respond to a customer and the time by which they must resolve the case.
    - Links with the activities associated to the case that are either due that day or past their due date. You can select the link to view the open activities associated with the case on a tab your administrator has configured. By default, it displays open activities in the Activities tab. More information: [Specify tab to redirect users to view the open activities for a case](case-enh-config.md)
    - Related customer and recent case information on the **Customer details** side panel.  
@@ -95,17 +97,19 @@ If your administrator has enabled the **Full case form** and you save the case u
       - Download and delete multiple attachments at once.
 
    > [!NOTE]
-   > - You can only delete attachments with the **Source** set to **Direct Upload**.
-   > - For an attachment shared over a conversation, **Uploaded By** is set to **Omnichannel User** and the **Uploaded on** is the time when the conversation ended.
+   > - You can delete only those attachments that have Source set to Direct Upload.
+   > - For an attachment shared over a conversation, **Uploaded By** is set to **Omnichannel User** and **Uploaded on** is the time when the conversation ended.
    > - You'll see the enhanced full case form when you open an existing case only if your administrator has set enhanced **Full case form** as the default form.
 
-:::image type="content" source="media/edit-full-case-form.png" alt-text="Edit enhanced main case form":::
+:::image type="content" source="media/edit-enh-fullcase-mini.png" alt-text="Edit enhanced main case form" lightbox="media/edit-enh-fullcase.png":::
 
-## Customer Details and Recent Cases
 
-If your administrator has enabled the **Enhanced case experience**, when you create a new case and specify **Customer** or **Account**, or open a case after saving it, the application displays the following:
-- **Customer Details**: Displays the customer details configured by your administrator. You can edit the information inline, copy the information and initiate activities such as email or phone call. The activities open as a new quick create form on the main page. The information displayed is based on your administrator's configuration.
-- **Recent Cases**: Displays the recent cases linked to customer or account. The information displayed is based on your administrator's configuration. More information: [Configure components to display customer details and recent records](add-display-components-to-case-form.md).
+## View customer details and recent cases
+
+When you create a new case and specify a customer or an account, or open a case after saving it, the application displays the following details, based on your administrator's configurations:
+
+- **Customer Details**: Displays the customer details configured by your administrator. You can edit the information inline, copy the information and initiate activities such as email or phone call. The activities open as a new quick create form on the main page.
+- **Recent Cases**: Displays the recent cases linked to customer or account. More information: [Configure components to display customer details and recent records](add-display-components-to-case-form.md).
 
 
 ### See also

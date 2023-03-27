@@ -298,7 +298,7 @@
       items: 
       - name: Create cases
         href: customer-service-hub-user-guide-create-a-case.md
-      - name: Case management in multisession apps
+      - name: Use enhanced case forms to manage cases
         href: enh-casemgmt-csw.md        
       - name: Resolve, cancel, and reassign cases
         href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
