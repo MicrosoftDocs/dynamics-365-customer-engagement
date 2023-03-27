@@ -73,7 +73,7 @@ Go to the Customer Service admin center app and perform the following steps:
 
 1. Select the queue for which you want to manage overflow.
 
-1. In **Overflow management**, select **Set overflow conditions**. The **Overflow management** dialog displays the options to configure conditions and actions.
+1. In **Overflow handling**, select **Add condition-action pair**. The **Overflow handling** dialog displays the options to configure conditions and actions.
 
 1. Select **Add condition-action pair**. The **Condition** and **Action** fields are displayed.
 
