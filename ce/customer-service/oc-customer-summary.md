@@ -121,7 +121,7 @@ Depending on the settings enabled for you, you'll see the **Enhanced Active Conv
     
    IView the default Recent cases experience.
 
-   :::image type="content" source="media/customer-summary-recent-case.png" alt-text="enh Case details section of the active conversation page"::: 
+   :::image type="content" source="media/customer-summary-recent-cases.png" alt-text="enh Case details section of the active conversation page"::: 
   
  ---
 ## View Conversation summary
