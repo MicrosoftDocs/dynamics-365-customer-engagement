@@ -63,7 +63,7 @@ You can configure the tab agents must be redirected to when they select the open
 1. In **Edit Due open activities control** set the **Static value** option to the required tab. You can find the tab's name in the **Display options** > **Name** field of the corresponding form.
 1. Select **Publish All Customizations**.
 
-   :::image type="content" source="media/set-open-activities.png" alt-text="Default main case form" lightbox="media/set-open-activities.png":::
+   :::image type="content" source="media/set-open-activities.png" alt-text="Open activities in a new tab" lightbox="media/set-open-activities.png":::
 
 
 ### See also
