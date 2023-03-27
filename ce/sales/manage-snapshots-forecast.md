@@ -54,10 +54,10 @@ Snapshots are deleted based on the following rules:
 - The deletion process will start after 30 days of the forecast being inactive or archived.
 
 - The last snapshot of a forecast is retained. Apart from this, the following snapshots will be retained based on the forecast recurrence:
-    - Weekly recurrences: one snapshot per week is retained.
-    - Monthly recurrences: For a recurrence length up to 35 days, which is five weeks, one snapshot per week is retained.
-    - Quarterly recurrences: For a recurrence length up to 100 days, one snapshot for every 15 days is retained.
-    - Yearly recurrences: One snapshot per month is retained.  
+    - For a recurrence length up to 35 days, which is five weeks, one snapshot per week is retained.
+    
+    - For a recurrence length up to 100 days, one snapshot for every 15 days is retained.
+    - For a recurrence length greater than 100 days, one snapshot per month is retained.  
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
