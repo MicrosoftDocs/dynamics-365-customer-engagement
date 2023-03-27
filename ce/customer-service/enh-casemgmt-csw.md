@@ -97,7 +97,7 @@ If you save the case using the enhanced full case form, you'll see the following
       - Download and delete multiple attachments at once.
 
    > [!NOTE]
-   > - You can delete only those attachments that have Source set to Direct Upload.
+   > - You can delete only those attachments that have **Source** set to **Direct Upload**.
    > - For an attachment shared over a conversation, **Uploaded By** is set to **Omnichannel User** and **Uploaded on** is the time when the conversation ended.
    > - You'll see the enhanced full case form when you open an existing case only if your administrator has set enhanced **Full case form** as the default form.
 
