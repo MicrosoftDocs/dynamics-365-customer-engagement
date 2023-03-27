@@ -1,11 +1,12 @@
 ---
-title: "Delete or deactivate a segment"
-description: "Permanently delete a segment that is no longer required in your organization, or deactivate to retain the segment in the application in inactive mode."
-ms.date: 10/26/2021
-ms.topic: article
+title: Delete or deactivate a segment
+description: Permanently delete a segment that is no longer required in your organization, or deactivate to retain the segment in the application in inactive mode.
+ms.date: 03/27/2023
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.topic: how-to
+ms.custom: bap-template
 ---
 # Delete or deactivate a segment 
 
@@ -24,10 +25,11 @@ You can deactivate or delete a segment that's no longer required in your organiz
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 3.	Under **Sales accelerator**, select **Segments**.
 
-    The **Segments** page opens with the list of available segments.  
+4. On the **Segments** page, choose a record type from the **Record type** list.
 
-    >[!div class="mx-imgBorder"]
-    >![Segments page with list of segments](media/sa-segment-edit-list-lead-segments.png "Segments page with list of segments")  
+    The **Segments** page opens with the list of available segments for the selected record type.   
+
+    :::image type="content" source="media/sa-segment-edit-list-lead-segments.png" alt-text="Screenshot of segment page with a list of segments for the selected record type."::: 
 
 4.	Hover over the segment, select **More options**, and then do one of the following:
 

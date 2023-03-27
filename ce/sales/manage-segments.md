@@ -18,7 +18,7 @@ As a sequence manager or administrator, you can use the segment builder to:
 - [Connect a segment to a sequence](connect-a-segment-to-sequence.md).
 - [View details of a segment](view-details-segment.md).
 - [Edit a segment](edit-a-segment.md).
-- [Prioritize segment](prioritize-segment.md)
+- [Prioritize segment](prioritize-segment.md).
 - [Delete or deactivate a segment](delete-deactivate-a-segment.md).
 - [Connect a segment to an assignment rule](create-and-activate-assignment-rule.md#setSegment).
 

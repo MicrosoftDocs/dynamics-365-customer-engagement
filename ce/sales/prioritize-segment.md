@@ -1,7 +1,7 @@
 ---
 title: Prioritize segments 
 description: Learn how to prioritize segments to automatically group records in Dynamics 365 sales.
-ms.date: 03/30/2023
+ms.date: 03/27/2023
 author: udaykirang
 ms.author: udag
 manager: shujoshi
