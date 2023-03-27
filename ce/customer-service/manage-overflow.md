@@ -4,7 +4,7 @@ description: "Learn how to manage overflow of work items in queues enabled for u
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/15/2023
+ms.date: 04/05/2023
 ms.topic: article
 
 ---
@@ -39,6 +39,10 @@ The following factors are considered during the overflow evaluation:
   The system evaluates the action that's defined for the operating hours condition first, followed by the other conditions in the order they've been defined.
 
 - If a work item is routed to a fallback queue because of errors or no route-to-queue rule has matched the requirement, the overflow settings for the fallback queue aren't considered and work item is assigned to the queue.
+
+- If a bot is configured for the workstream, the overflow settings are evaluated only after the bot escalates the conversation to human agents.
+
+- If multiple bot escalations happen before the conversation is escalated to a human agent, the overflow settings are evaluated and triggered after the first bot escalation.
 
 When you add an operating hour record to a queue, the system assigns a default overflow condition as **Out of operation hours**, and its action as **Assign to queue anyway**. You can't edit the condition but can set another action for it.
 
