@@ -1,6 +1,6 @@
 ---
 title: Enable enhanced case forms for multisession apps | MicrosoftDocs 
-description: Learn about enabling the enhanced case forms for multisession apps
+description: Learn about enabling the enhanced case forms for multisession apps.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
