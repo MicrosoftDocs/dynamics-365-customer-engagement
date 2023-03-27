@@ -4,7 +4,7 @@ description: Use this article to know about the supported cloud locations, langu
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 03/13/2023
+ms.date: 03/31/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ---
@@ -47,8 +47,8 @@ If you need your data to stay within a region, see the following table for previ
 |----------|---------|-----|
 |United Kingdom **<sup>1</sup>** (crm11.dynamics.com) |June 2022  | October 14, 2022 |
 |Canada **<sup>1 </sup>** (crm3.dynamics.com) |August 2022 | November 30, 2022  |
-|Switzerland **<sup>1, 2</sup>** | January 2023 | April 30, 2023|
-|India **<sup>1, 2</sup>** | February 2023 | April 30, 2023  |
+|Switzerland **<sup>1</sup>** (crm17.dynamics.com)  | January 2023 | April 30, 2023|
+|India **<sup>1</sup>**  (crm8.dynamics.com) | February 2023 | April 30, 2023  |
 |Japan **<sup>1, 2</sup>** | August 2022 | To be announced  |
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
