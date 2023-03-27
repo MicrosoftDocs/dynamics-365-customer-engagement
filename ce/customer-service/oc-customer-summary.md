@@ -73,7 +73,7 @@ Depending on the settings enabled for you, you'll see the **Enhanced Active Conv
 
    ### [Default Active Conversation - Customer(Contact or Account)](#tab/customer)
     
-    You'll see the customer details on the default Customer(Contact or Account) layout.
+   View customer details on the default Customer(Contact or Account) layout.
 
    :::image type="content" source="media/customer-summary-customer-form.png" alt-text="View enhanced CustomerContact or Account" :::
 
