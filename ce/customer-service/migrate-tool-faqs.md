@@ -180,7 +180,7 @@ No. The migration tool only supports enhanced SLA rules. Standard SLA rules have
 
 ### Channel property deprecation
 
-If you've used any channel properties in legacy rules customization, those rules won't be migrated successfully using the migration tool. There isn't a general workaround that can be applied to resolve this gap for all users. The workaround is highly dependent on how the channel properties are used in the legacy rules.
+If you've used any channel properties in legacy rules customization, those rules won't be migrated successfully using the migration tool. There isn't a general workaround that can be applied to resolve this gap for all users. The workaround is highly dependent on how you use the channel properties in the legacy rules.
 
 ### Behavior difference when the option “Create cases for activities associated with a resolved case” option is selected.
 
