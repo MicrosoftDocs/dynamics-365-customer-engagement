@@ -240,7 +240,7 @@
           href: email-without-journey.md
         - name: Use brand profiles in real-time marketing email
           href: brand-profiles-email.md
-      - name: "Preview: Real-time marketing forms"
+      - name: "Real-time marketing forms"
         href: real-time-marketing-form-editor.md
       - name: Text messages
         items:
@@ -784,6 +784,8 @@
         href: developer/marketing-form-client-side-extensibility.md
     - name: Work with segments using code
       href: developer/extend-segments.md
+    - name: Integrate custom captcha service with real-time marketing forms
+      href: real-time-marketing-form-custom-captcha.md
     - name: Export Dynamics 365 Customer Voice survey responses to Microsoft Excel
       href: developer/export-customer-voice.md
     - name: Entity mapping with custom workflows

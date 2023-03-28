@@ -1,7 +1,7 @@
 ---
 title: "Create and manage real-time marketing forms | Microsoft Docs"
 description: "Learn how to use create and manage forms in Dynamics 365 Marketing."
-ms.date: 03/10/2023
+ms.date: 03/28/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -190,7 +190,7 @@ The default approach to duplicate records is different for Contact and Lead enti
 
 You can change the default strategy using the **Duplicate records** drop-down in **Forms** settings. You can also create a [custom matching strategy](#create-a-custom-matching-strategy).
 
-##### Create a custom matching strategy
+#### Create a custom matching strategy
 
 You can choose how to handle duplicate records by creating a new matching strategy.
 
@@ -219,7 +219,7 @@ Field types and formats are defined by the attribute metadata. It isn't possible
 | Date and time          | Date and Time | Date-Time Picker      | Date and time picker to select a date from a pop-up calendar and a time from a drop-down list.                                                                   |
 | Lookup field          | n/a | Lookup      | A lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance to your form. [More information](#lookup-fields). |
 
-#### Lookup fields
+### Lookup fields
 
 A lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance to your form. For example, you could use a lookup field called "Currency" to show a drop-down list of all currencies in your form.
 
@@ -232,7 +232,7 @@ The validation process is automatically launched once a *draft* form is publishe
 
 The form validation process can be also launched manually using the **Check content** button.
 
-#### Errors that block form publishing
+### Errors that block form publishing
 
 The following conditions prevent form from being published and display an error message:
 
@@ -242,7 +242,7 @@ The following conditions prevent form from being published and display an error 
 - Does the form include all attributes required by the matching strategy (email field by default)?
 - Is the target audience set?
 
-#### Warnings that doesn't stop form publishing
+### Warnings that doesn't stop form publishing
 
 The following conditions don't prevent form from being published. A warning message is displayed:
 
