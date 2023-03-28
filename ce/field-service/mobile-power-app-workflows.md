@@ -45,7 +45,7 @@ JavaScript will run Online, Offline First with internet connection, and Offline 
 > [!TIP]
 >
 > - Refer to [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities) for any potential limitations by platform for WebResources in offline mode.
-> - You can use your Android device to [debug JavaScript in mobile apps](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-mobile-apps).
+
 
 ## Offline JavaScript example
 
@@ -96,4 +96,16 @@ See the video on![Video symbol](../field-service/media/video-icon.png "Video sym
 
 1. Save and publish the customizations.
 
+## Debugging the Mobile App
+
+
+Debug javascript with the [Windows application](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-the-windows-desktop-app).
+
+Debug javascript with the [Android application](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-mobile-apps).
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+
+
+
+
