@@ -3,8 +3,8 @@ title: "Softphone integration with Dynamics 365 Channel Integration Framework 2.
 description: "Get the sample code for softphone integration using Dynamics 365 Channel Integration Framework 2.0 with Dynamics 365 model-driven apps."
 ms.date: 11/17/2020
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"

@@ -5,8 +5,8 @@ ms.date: 10/20/2021
 
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "mh-jaya"
-ms.author: "v-jmh"
+author: "gandhamm"
+ms.author: "mgandham"
 manager: "shujoshi"
 search.audienceType: 
   - developer

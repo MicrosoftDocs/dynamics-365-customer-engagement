@@ -1,5 +1,5 @@
 ---
-title: "Time entries for Dynamics 365 Field Service (contains video) | MicrosoftDocs"
+title: Track time expenditure with time entries (contains video)
 description: Learn about time entry in Dynamics 365 Field Service.
 ms.date: 11/19/2020
 
@@ -14,7 +14,7 @@ search.app:
   - D365FS
 ---
 
-# Time entries for Dynamics 365 Field Service
+# Track time expenditure with time entries
 
 Time entry capabilities help field service organizations better track the time that technicians spend during work orders and other scenarios. 
 

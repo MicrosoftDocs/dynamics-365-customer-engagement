@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Marketing public IP addresses (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about the public IP addresses for Dynamics 365 Marketing clusters."
-ms.date: 12/07/2022
+ms.date: 03/17/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -19,6 +19,9 @@ search.app:
 ---
 
 # Dynamics 365 Marketing public IP addresses
+
+> [!NOTE]
+> Dynamics 365 Marketing uses a set of dedicated IPv4 public network subnets for sending e-mails. [Learn more](public-ip-addresses-for-email-sending.md)
 
 The table below shows Marketing services public IP addresses listed by region.
 

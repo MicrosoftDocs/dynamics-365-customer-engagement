@@ -3,8 +3,8 @@ title: "unlinkFromConversation (Omnichannel JavaScript API reference) | Microsof
 description: "Includes reference information about unlinkFromConversation method, syntax, and parameters in Omnichannel JavaScript API reference."
 ms.date: 02/24/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.reviewer: nenellim
 ---

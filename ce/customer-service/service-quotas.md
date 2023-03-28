@@ -1,8 +1,8 @@
 ---
 title: Service quotas 
 description: Get details about the service quotas for unified routing and omnichannel implementations in Omnichannel for Customer Service.
-author: mh-jaya 
-ms.author: v-jmh 
+author: gandhamm 
+ms.author: mgandham 
 ms.reviewer: nenellim 
 ms.topic: conceptual 
 ms.date: 01/13/2023
