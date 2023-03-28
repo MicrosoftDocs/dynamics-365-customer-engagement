@@ -745,5 +745,5 @@ Same as the [msdyn_PS_PMS](msdyn_predictivemodelscore.md#BKMK_msdyn_PS_PMS) many
 
 ### See also
 
-[Dynamics 365 Sales table/entity reference](../developer/about-entity-reference.md)
+[Dynamics 365 Sales table/entity reference](../developer/about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
