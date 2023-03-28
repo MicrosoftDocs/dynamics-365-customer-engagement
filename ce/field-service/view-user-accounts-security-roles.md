@@ -28,7 +28,7 @@ First, let's define the roles that are within of your workforce and understand h
 
 **Field Service—Inventory Purchase** is designed for **inventory managers** who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. This role has limited delete (CRUD) abilities for inventory-related entities within their business unit. For example, inventory managers process a product return for one or more lines of business. **This security role should be given to a user in addition to the Field Service-Resource or Field Service-Dispatcher security roles**.
 
-**IoT - Administrator** is designed for **IT administrators or service managers** who are responsible for device registration and device data pulls that are IoTHub operations related to Connected Field Service. This role is characterized by full delete (CRUD) abilities for IoT related entities. For example, a user with these roles may have access to all IoT alerts and devices. 
+**IoT - Administrator** is designed for **IT administrators or service managers** who are responsible for device registration and device data pulls that are IoT Hub operations related to Connected Field Service. This role is characterized by full delete (CRUD) abilities for IoT related entities. For example, a user with these roles may have access to all IoT alerts and devices. 
 
 **IoT - Endpoint User** is used by Microsoft to connect Dynamics 365 to IoT systems. For more information on CFS security, see the article on [setting up security roles for Connected Field Service](cfs-security-roles.md).  
 
