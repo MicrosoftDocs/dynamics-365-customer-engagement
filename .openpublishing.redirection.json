@@ -24653,22 +24653,22 @@
     },
     {
       "source_path": "ce/field-service/universal-resource-scheduling.md",
-      "redirect_url": "/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
       "redirect_document_id": "false"      
     },
     {
       "source_path": "ce/field-service/scheduling-roles-personas.md",
-      "redirect_url": "/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
       "redirect_document_id": "false"      
     },
     {
       "source_path": "ce/field-service/scheduling-capabilities.md",
-      "redirect_url": "/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
       "redirect_document_id": "false"      
     },
     {
       "source_path": "ce/field-service/5-stages-scheduling-adoption.md",
-      "redirect_url": "/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
       "redirect_document_id": "false"      
     },
     {
@@ -24924,6 +24924,80 @@
     {
       "source_path": "ce/customerengagement/on-premises/developer/set-default-price-level-for-opportunity-quote-order-invoice.md",
       "redirect_url": "/dynamics365/sales/developer/set-default-price-level-for-opportunity-quote-order-invoice",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/perform-initial-configurations-setup.md",
+      "redirect_url": "/dynamics365/field-service/field-service-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/quickstart-schedule-work-order.md",
+      "redirect_url": "/dynamics365/field-service/field-service-get-started",
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-domain.md",
+      "redirect_url": "/dynamics365/marketing/domain-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/add-facilities-equipment-service-scheduling.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/create-edit-resource-group.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/create-edit-service.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-videos.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/new-upcoming.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/restrict-resource-from-performing-service.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/schedule-time-off.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/set-capacity-required-service-resource.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/set-when-business-closed.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/use-sites-manage-service-locations.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/whats-new-field-service-project-service.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-preview.md",
+      "redirect_url": "/dynamics365/get-started/release-schedule",
       "redirect_document_id": false
     }
   ]

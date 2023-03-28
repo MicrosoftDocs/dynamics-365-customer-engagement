@@ -117,7 +117,7 @@ If you've added this bundle to a family, the bundle will inherit the properties 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also  
-[How prices are calculated for product bundles?](pricing-product-bundles.md)
+[How prices are calculated for product bundles?](pricing-product-bundles.md)  
 [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)   
 [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)
 

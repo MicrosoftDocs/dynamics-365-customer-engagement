@@ -3,8 +3,8 @@ title: "View, read, and compare Unified Service Desk performance report | Micros
 description: "Learn on how to view, read, and compare different Unified Service Desk performance report generated using the Unified Service Desk Performance Analyzer."
 ms.date: 10/31/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

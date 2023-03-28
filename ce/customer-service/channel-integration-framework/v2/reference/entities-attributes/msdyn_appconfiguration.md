@@ -3,8 +3,8 @@ title: "msdyn_appconfiguration Entity Reference (Developer Guide for Dynamics 36
 description: "Includes schema information and supported messages for the msdyn_appconfiguration entity in Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 11/03/2020
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
+author: "gandhamm"
+ms.author: mgandham
 manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"

@@ -1,8 +1,8 @@
 ---
 title: "Configure channel providers in Dynamics 365 Channel Integration Framework 2.0| MicrosoftDocs"
 description: "Learn how to configure channel providers using the app profile manager or the Customer Service admin center in Dynamics 365 Channel Integration Framework 2.0."
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.date: 02/22/2023
 ms.custom: 

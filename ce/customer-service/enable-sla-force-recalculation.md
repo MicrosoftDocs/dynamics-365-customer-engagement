@@ -1,7 +1,7 @@
 ---
 title: "Enable custom recalculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to perform custom recalculation of SLA KPIs in Dynamics 365 Customer Service."
-ms.date: 04/04/2022
+ms.date: 03/17/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -22,7 +22,7 @@ ms.custom:
 
 ## Introduction
 
-Time calculation in service-level agreements (SLAs) is dependent on SLA key performance indicators (KPIs) and input parameters. More information: [Time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#introduction)
+Time calculation in service-level agreements (SLAs) is dependent on SLA key performance indicators (KPIs) and input parameters. More information: [Time calculation of SLA KPIs](enable-sla-custom-time-calculation.md)
 
 Changes in the associated customer service schedule and holiday schedule don't affect the existing SLA KPIs unless one of the following events occurs:  
 

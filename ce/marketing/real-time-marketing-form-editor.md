@@ -1,7 +1,7 @@
 ---
 title: "Preview: Create and manage real-time marketing forms | Microsoft Docs"
 description: "Learn how to use create and manage forms in Dynamics 365 Marketing."
-ms.date: 12/12/2022
+ms.date: 03/10/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -118,7 +118,7 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     > [!div class="mx-imgBorder"]
     > ![Publish the form.](media/real-time-marketing-form-publish.png)
 
-1. Make sure the domain where you embedded your form is allowed for external form hosting. If the domain isn't allowed for external form hosting, the form won't be rendered on your web page and all form submissions will be rejected. Learn more about [domain authentication](real-time-marketing-domain.md). Power Pages domains are allowed for external form hosting by default.
+1. Make sure the domain where you embedded your form is allowed for external form hosting. If the domain isn't allowed for external form hosting, the form won't be rendered on your web page and all form submissions will be rejected. Learn more about [domain authentication](domain-authentication.md). Power Pages domains are allowed for external form hosting by default.
 
 1. Set up a "thank you" email for web page visitors who submitted the form. You can create a new journey using the "Marketing Form Submitted" trigger, which will be executed every time your form is submitted. Learn more about creating a [trigger-based journey](real-time-marketing-trigger-based-journey.md).
 
@@ -244,7 +244,7 @@ You can add custom JavaScript code to the HTML source code using the HTML editor
 
 ### My embedded form isn't visible on my page
 
-Make sure that your domain is allowed for external form hosting. You don't need to finish the domain authentication process to enable external form hosting for your domain. Learn more about [domain authentication](real-time-marketing-domain.md).
+Make sure that your domain is allowed for external form hosting. You don't need to finish the domain authentication process to enable external form hosting for your domain. Learn more about [domain authentication](domain-authentication.md).
 
 ### Publishing a form as a standalone page fails
 

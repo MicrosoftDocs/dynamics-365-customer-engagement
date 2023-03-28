@@ -112,7 +112,7 @@
       href: users-user-profiles.md
     - name: Manage capacity profiles
       href: capacity-profiles.md
-    - name: Manage historical data of agent's capacity updates
+    - name: Delete historical data of agent capacity updates
       href: manage-historical-data-capacity-updates.md
     - name: Manage personas and custom security roles
       href: role-persona-mapping.md
@@ -656,6 +656,8 @@
         href: voice-channel-monitor-calls.md
     - name: Emergency calling in the voice channel
       href: voice-channel-emergency-calling.md
+    - name: Pricing scenarios for voice calling
+      href: voice-channel-pricing-scenarios.md  
     - name: FAQ about the voice channel
       href: voice-channel-faqs.md  
   - name: Chat

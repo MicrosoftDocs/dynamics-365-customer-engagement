@@ -3,8 +3,8 @@ title: "Categories and operations in Unified Service Desk performance report | M
 description: "Learn about the operations and categories based on which the Unified Service Desk performance report is generated using the Unified Service Desk Performance Analyzer."
 ms.date: 10/31/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin
