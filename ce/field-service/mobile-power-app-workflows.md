@@ -98,10 +98,9 @@ See the video on![Video symbol](../field-service/media/video-icon.png "Video sym
 
 ## Debugging the Mobile App
 
-
-Debug javascript with the [Windows application](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-the-windows-desktop-app).
-
-Debug javascript with the [Android application](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-mobile-apps).
+You can debug custom code using the Windows or Android application:
+- Debug javascript with the [Windows application](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-the-windows-desktop-app).
+- Debug javascript with the [Android application](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-mobile-apps).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 
