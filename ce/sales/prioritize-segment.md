@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Prioritize segments
 
-When a record is created or updated, it's connected to a matching segment based on the segment criteria. If the record matches multiple segments, it's connected to the segment with the highest priority. You can set the priority of a segment while creating it or after it's created by using the **Change priority** option. 
+When a record is created or updated, it's connected to a matching segment based on the segment criteria. If the record matches multiple segments, it's connected to the segment with the highest priority. You can set the priority of a segment while creating it or later by using the **Change priority** option. 
 
 ## License and role requirements
 
