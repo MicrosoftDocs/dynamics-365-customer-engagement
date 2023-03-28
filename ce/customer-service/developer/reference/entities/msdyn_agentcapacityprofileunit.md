@@ -1,7 +1,7 @@
 ---
 title: "msdyn_agentcapacityprofileunit entity reference (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_agentcapacityprofileunit entity."
-ms.date: 04-01-2023
+ms.date: 03-28-2023
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
