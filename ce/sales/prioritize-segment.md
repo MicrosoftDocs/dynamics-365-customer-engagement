@@ -30,7 +30,7 @@ When you change the priority of a segment, the records that are already connecte
 1. Select the segment that you want to change the priority of, and then select **Change priority**. 
     
     > [!NOTE]
-    > You can also prioritize inactive segments though the prioritization will not have effect on the assignment of records and only the active segments will be considered for assignment.  
+    > If you change the priority of an inactive segment, it'll not have any effect on the assignment of records; only active segments are considered for assignment.  
 
     :::image type="content" source="media/segment-select-change-priority.png" alt-text="A screenshot of the segment page with the change priority option.":::
 
