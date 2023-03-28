@@ -54,17 +54,17 @@ The **Save** and **Refresh** options are available on **Active Conversation** fo
 
 You can also use **Related** to select and navigate to the required entities.
 
-## View Customer (Contact or Account) details
+## View customer details
 
 This section provides details such as the contact name or account name. For a contact, you can view the location, email, and other details. For an account, you can view location, telephone number, and primary contact person for the account.
 
 Use the customer section to search for an existing contact or account record in Omnichannel for Customer Service, and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record by using the **Add Contact** or **Add Account** button, respectively. After you create it, search for the record and then select it to link it to the conversation.
 
-Depending on the settings enabled for you, you'll see the **Enhanced Active Conversation - Customer Details**  or **Default Active Conversation- Customer(Contact or Account)**, that are explained as follows:
+Depending on the settings enabled for you, you'll see the **Enhanced Active Conversation - Customer Details**  or **Default Active Conversation- Customer(Contact or Account)**, explained as follows:
 
    ### [Enhanced Active Conversation - Customer Details)](#tab/enhancedcustomer)
 
-   View the customer or account details with the fields configured by your administrator. The enhanced Customer card allows you to edit the customer or account details inline, without you navigating to another tab from the **Active Conversation** tab.
+   Displays the customer or account details configured by your administrator. You can edit the customer or account details inline, without navigating to another tab from the **Active Conversation** tab.
  
    > [!NOTE]
    > You'll see the default **Customer(Contact or Account)** card if your administrator has customized the **Active Conversation** form.
@@ -83,11 +83,11 @@ Depending on the settings enabled for you, you'll see the **Enhanced Active Conv
 
 Use the **Case** section to search for an existing case in Omnichannel for Customer Service, and select the case to link it to the conversation. If the record doesn't exist, you can create a new case by using the **Add Case** button. After you create it, search for the record and then select it to link it to the conversation. More information: [Case management in multisession apps](enh-casemgmt-csw.md)
 
-Depending on the settings enabled for you, you'll see the **Enhanced Active Conversation - Case Details**  or **Default Active Conversation - Case**, that are explained as follows:
+Depending on the settings enabled for you, you'll see the **Enhanced Active Conversation - Case Details**  or **Default Active Conversation - Case**, explained as follows:
 
    ### [Enhanced Active Conversation - Case Details](#tab/enhancedcase)
 
-   View the details of the case linked to the conversation, based on the fields configured by your administrator. The enhanced Case card allows you to edit case details inline, without you navigating to another tab from the **Active Conversation** tab.
+  Displays the details, configured by the  of the case linked to the conversation. You can edit case details inline, without navigating to another tab from the **Active Conversation** tab.
 
    > [!NOTE]
    > You'll see the default **Issue Snapshot** card if your administrator has customized the **Active Conversation** form.
@@ -96,13 +96,13 @@ Depending on the settings enabled for you, you'll see the **Enhanced Active Conv
    
    ### [Default Active Conversation - Case](#tab/case)
     
-   You'll see the details of the case linked to the conversation in the default Case card.
+   You'll see the details of the case linked to the conversation on the default **Case** card.
 
    :::image type="content" source="media/cs-recent-cases.png" alt-text="default Case details section of the active conversation page"::: 
 
 ---
 
-## View Recent cases
+## View recent cases
 
 This section displays recent cases related to the customer.
 
@@ -110,16 +110,17 @@ Depending on the settings enabled for you, you'll see the **Enhanced Active Conv
 
    ### [Enhanced Active Conversation - Recent Case](#tab/enhancedrecentcases)
 
-   View the recent cases raised by the customer in the enhanced **Recent cases** with the fields configured by your administrator.
+   Displays the recent cases raised by the customer.
 
    :::image type="content" source="media/enh-custsummary-recent.png" alt-text="enh Case details section of the active conversation page"::: 
 
    > [!NOTE]
-   > Even if the **Enhanced Active conversation form** is enabled, you’ll see the default Recent cases layout if your administrator has set the **Disable the recent cases control for Open conversation** option to **Yes** in Power Apps.
+   > You'll see the default **Recent Cases** card if your administrator has customized the **Active Conversation** form.
+
     
    ### [Default Active Conversation - Recent case](#tab/recentcase)
     
-   IView the default Recent cases experience.
+   View the default Recent cases experience.
 
    :::image type="content" source="media/customer-summary-recent-cases.png" alt-text="enh Case details section of the active conversation page"::: 
   
