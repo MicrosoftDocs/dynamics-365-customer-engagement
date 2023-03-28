@@ -1,11 +1,12 @@
 ---
-title: "Frequently asked questions about unified routing | MicrosoftDocs"
-description: "Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service."
+title: Frequently asked questions about unified routing
+description: Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service.
 ms.date: 01/11/2023
-ms.topic: article
+ms.topic: concept
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # FAQ about unified routing in Customer Service, Omnichannel for Customer Service
@@ -113,6 +114,12 @@ Yes, you can access Omnichannel Ongoing Conversations Dashboard and Omnichannel 
 ### How are unassigned work items in a queue handled if no matching agent is found?
 
 The unassigned work item remains in the queue until you manually assign it to an agent or route it to another queue. More information: [How assignment rulesets work](assignment-methods.md#how-assignment-rulesets-work)
+
+## Work item assignment
+
+### Can I increase the limit on assignment offer of work items to agents?
+
+Yes, you can update the limit. More information: [How the limit on offering a work item repeatedly to an agent works](assignment-methods.md#how-the-limit-on-offering-a-work-item-repeatedly-to-an-agent-works)
 
 ## Route to most-idle agent
 
