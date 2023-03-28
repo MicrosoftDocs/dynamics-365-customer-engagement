@@ -972,15 +972,13 @@
         href: pass-auth-token-sso-live-chat.md
   - name: Analytics dashboards and insights
     items: 
-    - name: Overview of analytics and insights
+    - name: Introduction to analytics and insights
       href: introduction-customer-service-analytics.md
-    - name: Supported regions and languages
-      href: cs-region-availability-service-limits.md
-    - name: Service limits
+    - name: Supported regions and languages, and service limits for analytics and insights
       href: cs-region-availability-service-limits.md
     - name: Administrator experience
       items:
-      - name: Configure user access to analytics and dashboards
+      - name: Configure analytics and insights dashboards
         href: configure-customer-service-analytics-insights-csh.md 
       - name: Configure out-of-box historical analytics
         items:
