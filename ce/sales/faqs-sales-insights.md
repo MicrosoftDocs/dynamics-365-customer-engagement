@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions for Sales Premium"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
-ms.date: 03/21/2023
+ms.date: 03/28/2023
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -129,6 +129,11 @@ More information: [Azure Regional Pairs](/azure/best-practices-availability-pair
 ### Which users can push data from Dynamics 365 Sales to Dataverse?
 
 The Dynamics 365 Sales data is pushed to Dataverse to generate insights such as, predictive scoring, relationship analytics, who knows whom, and predictive forecasting. A set of predefine system and application users are used to push data from Dynamics 365 Sales to Dataverse. For more information, see [System and application users](/power-platform/admin/system-application-users).
+
+## Why are my entities updated by some application users?
+
+System and application users update certain entities with insights about the records. For example, predicting scoring updates the lead and opportunity entities with their corresponding scores. Relationship analytics updates the contact, opportunity, lead, and account entities with relationship KPIs. More information: [Which users can push data from Dynamics 365 Sales to Dataverse?](#which-users-can-push-data-from-dynamics-365-sales-to-dataverse)
+
 
 ## Digital sales
 
