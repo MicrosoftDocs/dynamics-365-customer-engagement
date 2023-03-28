@@ -1,7 +1,7 @@
 ---
 title: "Real-time analytics ongoing Conversation report for supervisor | MicrosoftDocs"
 description: "Learn how the ongoing conversation report enables supervisors to view information about the conversations handled by agents in real time."
-ms.date: 03/21/2023
+ms.date: 03/28/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -21,16 +21,7 @@ The **Ongoing conversation** table provides information about the status of the 
 
 The **Ongoing conversation** report displays the following metrics about conversations.
 
-| Metric | Description |
-|-------|-------|
-| Subject | The conversation subject. |
-| Status | The status of the conversation. It could be one of the following statuses: Open, Assigned, Waiting, or Wrap-up. |
-| Active agent | The agent who is currently assigned or working on this conversation. | 
-| Queue | Queue in which the conversation landed. |
-| Channel |  The channel from which the conversation originated. |
-| Wait time| The time taken for the agent to connect with customer.  |
-| Handle time |  The time the agent spent actively with a customer across all channels. This includes hold time (if applicable), wrap time (if applicable), talk time (if applicable), and active time. |
-| Sentiment | The current sentiment of the conversation. It could be one of the following sentiments: Very positive, Positive, Slightly positive, Neutral, Slightly negative, or Negative. |
+
 
 ### See also
 
