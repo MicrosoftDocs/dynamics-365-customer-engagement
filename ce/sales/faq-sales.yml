@@ -285,7 +285,7 @@ sections:
 
       - question: How can I disable focused view in my organization?
         answer: |
-          To disable the focused view in your organization, contact your administrator to send an email to Microsoft customer support to disable the focused view. 
+          To disable the focused view in your organization, your administrator must send an email to Microsoft customer support. 
 
       - question: Is focused view available for custom entities? 
         answer: |
