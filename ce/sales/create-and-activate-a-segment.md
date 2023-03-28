@@ -127,7 +127,8 @@ The segment is activated. Now you can connect the segment to a sequence or a rec
 
 ### See also
 
-[Manage segments](manage-segments.md)  
+[Manage segments](manage-segments.md)   
 [View details of a segment](view-details-segment.md)  
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
