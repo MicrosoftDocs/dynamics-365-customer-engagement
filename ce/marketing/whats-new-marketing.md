@@ -108,7 +108,6 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
 - **Create beautiful and engaging emails in minutes**
     - The simplified email editor with the improved template gallery allows you to create engaging content within minutes, whether you are an experienced marketer or create emails occasionally to engage with your customers. Now, you can make basic content modifications directly on canvas, and enjoy easy, delightful, and focused experience. Whereas the new template gallery makes it easier than ever to find just the right template for your next email. 
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
-    - [Docs](easy-editor.md)
 
     > [!div class="mx-imgBorder"]
     > ![easy email editor](media/whats-new-email-easy-editor.png "easy email editor")
