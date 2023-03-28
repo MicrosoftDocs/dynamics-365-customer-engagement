@@ -56,6 +56,6 @@ Know how to add the sales accelerator site map entry to your custom app.
 
 ### See also
 
-[Configure sales accelerator](enable-configure-sales-accelerator.md)
+[Configure sales accelerator](enable-configure-sales-accelerator.md)  
 [Add the Up next widget to an entity form](add-upnext-widget-form.md)
 

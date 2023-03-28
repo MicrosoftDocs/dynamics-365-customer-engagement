@@ -445,6 +445,8 @@
               href: view-details-segment.md
             - name: Edit a segment
               href: edit-a-segment.md
+            - name: Prioritize segment
+              href: prioritize-segment.md  
             - name: Delete or deactivate a segment
               href: delete-deactivate-a-segment.md
         - name: Manage assignment rules
