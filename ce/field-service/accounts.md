@@ -1,5 +1,5 @@
 ---
-title: Create and manage accounts in Dynamics 365 Field Service
+title: Create and manage customer accounts
 description: Learn how to create and use service account and billing accounts in Dynamics 365 Field Service.
 ms.date: 01/24/2023
 author: jshotts
@@ -11,7 +11,7 @@ search.app:
   - D365FS
 ---
 
-# Create and manage accounts in Dynamics 365 Field Service
+# Create and manage customer accounts
 
 An account represents a customer that receives service from a field service organization. There are two main types of accounts:
 
