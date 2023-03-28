@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Prioritize segments
 
-When a record is created or updated in your organization, and matches multiple segments, the record is connected to a segment based on the set priority. You can set the priority of a segment while creating it or after it's created by using the **Change priority** option. 
+When a record is created or updated, it's connected to a matching segment based on the segment criteria. If the record matches multiple segments, it's connected to the segment with the highest priority. You can set the priority of a segment while creating it or after it's created by using the **Change priority** option. 
 
 ## License and role requirements
 
@@ -35,9 +35,9 @@ When you change the priority of a segment, the records that are already connecte
     :::image type="content" source="media/segment-select-change-priority.png" alt-text="A screenshot of the segment page with the change priority option.":::
 
 1. On the **Change priority** dialog box, enter the priority of the segment. 
-1. Select **Save**.
+1. Save the changes.
 
-Priority of a segment changed and when a record matches criteria for multiple segments, it's attached to a segment with highest priority.
+The priority of the segment is updated and it'll be used for connecting records in future.
 
 ### See also
 
