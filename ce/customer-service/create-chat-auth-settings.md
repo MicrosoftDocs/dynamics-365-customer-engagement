@@ -1,7 +1,7 @@
 ---
 title: "Configure authentication settings | MicrosoftDocs"
 description: "Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service."
-ms.date: 02/01/2023
+ms.date: 04/05/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -265,13 +265,15 @@ If you're adding an authenticated chat experience to a custom website (that's no
 1. Select **New authentication setting**, and in the **Add authentication setting** page, provide the following details:
 
      1. On the **Channel type** page, enter a name and select **Apple Messages for Business** as the channel type.<br>
-        By default, the authentication type is OAuth 2.0 code flow. This cannot be changed.<br>
+        By default, the authentication type is **OAuth 2.0 code flow**, but you can change it to **OAuth 2.0 OpenID connect flow**.<br>
     
-     2. On the **Details** page, provide the following information:<br>
+     2. On the **Add authentication setting** page, provide the following information:<br>
         - **Client ID**: OAuth 2.0 Client Identifier issued by an authorization server.<br>
         - **Client secret**: Client secret used to authenticate requests sent to an authorization server.<br>
         - **Scope**: Each scope added will specify which pieces of user data you've requested from the customer. The scope content must exactly match those available through your service provider.<br>
+        - **Access Token URL**: Access point where the OAuth 2.0 API
         - **Decrypted token URL**: Endpoint where the OAuth 2.0 API can retrieve the customer info requested in the scope.<br>
+        - **Additional parameters**: Allows authentication services to take additional parameters from the request.
      
      3. On the **Additional details** page, you can optionally define an access token expiry time, in seconds. The default expiry time is one hour.<br>
         After the specified time, the **Authenticated** field in the **Customer summary** section of a previously authenticated conversation will change to **No**.<br>
