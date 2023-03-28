@@ -1,7 +1,7 @@
 ---
 title: Edit a segment in the sales accelerator
 description: Update the conditions in the segment to modify your process for choosing the records you want as members of a segment.
-ms.date: 03/27/2023
+ms.date: 03/28/2023
 author: udaykirang
 ms.author: udag
 manager: shujoshi

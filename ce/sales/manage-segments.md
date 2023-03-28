@@ -1,7 +1,7 @@
 ---
 title: Manage segments in the sales accelerator
 description: Manage the segments in the sales accelerator by creating, connecting, editing, deleting, and deactivating.
-ms.date: 03/30/2023
+ms.date: 03/28/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -10,7 +10,7 @@ manager: shujoshi
 ---
 # Manage segments 
 
-A *segment* is a collection of records that are grouped together based on certain conditions, such as location, deal value, language, and product. By using segments, you can automatically connect records to sequences. You can create segments for all entities, including custom entities.
+A *segment* is a collection of records that are grouped together based on certain conditions, such as location, deal value, language, and product. By using segments, you can automatically connect records to sequences and create assignment rules to automatically assign sellers to records. You can create segments for all entities, including custom entities. 
 
 As a sequence manager or administrator, you can use the segment builder to:
 

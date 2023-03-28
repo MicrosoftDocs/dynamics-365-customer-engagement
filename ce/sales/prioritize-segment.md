@@ -1,7 +1,7 @@
 ---
 title: Prioritize segments 
 description: Learn how to prioritize segments to automatically group records in Dynamics 365 sales.
-ms.date: 03/27/2023
+ms.date: 03/28/2023
 author: udaykirang
 ms.author: udag
 manager: shujoshi
@@ -11,18 +11,18 @@ ms.custom: bap-template
 
 # Prioritize segments
 
-When a record is created or updated in your organization, and matches multiple segments, the record is connected to a segment based on the set priority. You can set the priority of a segment while creating or using the **Change priority** option. 
+When a record is created or updated in your organization, and matches multiple segments, the record is connected to a segment based on the set priority. You can set the priority of a segment while creating it or after it's created by using the **Change priority** option. 
 
 ## License and role requirements
 
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | System Administrator, Sales Manager, or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Set priority of a segment
 
-When you change the priority of a segment, the records that are already connected to the segment remains connected. Only new or updated records are connected to the segment based on the set priority. To set the priority of a segment, follow these steps: 
+When you change the priority of a segment, the records that are already connected to the segment remain connected. Only new or updated records are connected to the segment based on the set priority. To set the priority of a segment, follow these steps: 
 
 1. Sign in to your Dynamics 365 Sales Hub app.
 1. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
@@ -37,7 +37,7 @@ When you change the priority of a segment, the records that are already connecte
 1. On the **Change priority** dialog box, enter the priority of the segment. 
 1. Select **Save**.
 
-Priority of a segment changed and records are assigned to the segment based on the set priority.
+Priority of a segment changed and when a record matches criteria for multiple segments, it's attached to a segment with highest priority.
 
 ### See also
 

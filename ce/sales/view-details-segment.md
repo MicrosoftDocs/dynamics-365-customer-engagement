@@ -1,7 +1,7 @@
 ---
 title: View details of a segment in the sales accelerator
 description: View the details of a segment such as, connected sequences, segment members, and assignment rules.
-ms.date: 03/27/2023
+ms.date: 03/28/2023
 author: udaykirang
 ms.author: udag
 manager: shujoshi

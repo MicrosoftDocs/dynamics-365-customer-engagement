@@ -1,7 +1,7 @@
 ---
 title: Segment creation and activation in sales accelerator
 description: Create and activate segments by defining conditions to automatically add records that satisfy the conditions in Microsoft Dynamics 365 Sales.
-ms.date: 09/30/2022
+ms.date: 03/28/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
