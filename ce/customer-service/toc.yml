@@ -686,6 +686,8 @@
         href: average-wait-time.md        
       - name: Delete a channel instance
         href: delete-channel.md
+      - name: Enable and manage the enhanced Active Conversation settings
+        href: add-custsumm-settings.md 
     - name: Agent experience
       items: 
       - name: Omnichannel for Customer Service for agents
@@ -700,7 +702,7 @@
         href: oc-notifications.md
       - name: View communication panel
         href: oc-conversation-control.md
-      - name: View customer summary
+      - name: View active conversations
         href: oc-customer-summary.md
       - name: Create a record
         href: oc-create-record.md
