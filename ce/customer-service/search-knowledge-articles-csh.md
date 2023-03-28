@@ -23,7 +23,7 @@ search.app:
 You can search knowledge articles in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service to help answer a customer's question or solve an issue.
 
 > [!NOTE]
-> Knowledge base search is available in some versions of Dynamics 365 Customer Engagement (on-premises) also. For more information, go to [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new?view=op-9-1#agent-productivity-enhancements-to-knowledge-capabilities).
+> Knowledge base search is available in some versions of Dynamics 365 Customer Engagement (on-premises) also. For more information, go to [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities).
 
 The article describes the various options you can use to search knowledge articles.
 
@@ -49,7 +49,7 @@ To use the various search options discussed in this article, one or more of the 
     - Status
     - Title
     
-- You have access to knowledge article entities, such as Knowledge Articles, Favorites, Attachments, and Views. Your administrator has granted the **Create**, **Read**, **Write**, **Append**, and **Appendto** privileges to any new custom roles that you have created.
+- You have access to knowledge article entities, such as Knowledge Articles, Favorites, Attachments, and Views. Your administrator has granted the **Create**, **Read**, **Write**, **Append**, and **Appendto** privileges to any new custom roles that you've created.
 
 - In Customer Service workspace and Omnichannel for Customer Service, your administrator has enabled the app side pane and knowledge search in Agent experience profiles.
 
