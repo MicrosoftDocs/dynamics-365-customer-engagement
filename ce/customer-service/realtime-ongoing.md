@@ -19,13 +19,7 @@ The **Ongoing Conversation** report provides information about the status of the
 
 For details on metrics displayed on the Ongoing Conversation report, go to Omnichannel analytics metrics.
 
- As a supervisor, you can monitor, assign, transfer, and force close conversations for an agent, depending on your requirement. When you select any agent on the Ongoing Conversations dashboard, and then select any of these options, a dialog opens up that provides you with the option to execute the option.
-
-
-
-
-
-
+As a supervisor, you can monitor, assign, transfer, and force close conversations for an agent, depending on your requirement. You can select an agent from the Ongoing Conversations dashboard, and then select any of these options. A dialog opens up that enables you to execute the option.
 
 ### See also
 
