@@ -16,13 +16,13 @@ This function can be used to open a conversation as a session programmatically.
 
 ## Syntax
 
-`Microsoft.Omnichannel.openConversation(liveworkitemId, lastsessionId, liveworkstreamId);`
+`Microsoft.Omnichannel.openConversation(conversationId, lastsessionId, liveworkstreamId);`
 
 ## Parameters
 
 | Parameter        | Type   | Description |
 | -----------------| -----  | ----------- |
-| liveworkitemId   | String | Unique identifier for the conversation to open. |
+| conversationId   | String | Unique identifier for the conversation to open. Also reffered to as liveworkitemId. |
 | lastsessionId    | String | Optional. Unique identifier for the last session ID in which conversation was opened.   |
 | liveworkstreamId | String | Optional. Unique identifier for the live workstream to which the conversation belongs. |
 
