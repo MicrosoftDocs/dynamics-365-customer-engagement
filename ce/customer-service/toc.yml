@@ -730,7 +730,7 @@
         href: oc-search-transcipts.md
       - name: View conversation and session forms
         href: oc-view-activity-types.md
-      - name: View customer summary for an incoming conversation request
+      - name: View active conversation for an incoming conversation request
         href: oc-view-customer-summary-incoming-conversation-request.md
       - name: Real-time language translation of conversations
         href: oc-real-time-translation.md
@@ -772,7 +772,7 @@
       items: 
       - name: Overview
         href: omnichannel-customizer.md
-      - name: Customize customer summary form
+      - name: Customize active conversation form
         href: customize-customer-summary.md
       - name: Customize quick view forms
         href: customize-quick-view-form.md

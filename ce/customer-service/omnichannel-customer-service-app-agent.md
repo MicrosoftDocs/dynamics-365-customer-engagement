@@ -34,14 +34,14 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 - [Understand conversation states](oc-conversation-state.md)
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [View notifications](oc-notifications.md)
-- [View customer summary](oc-customer-summary.md)
+- [View customer information on Active Conversation form](oc-customer-summary.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 
 ## How-tos
 
 - [View communication panel](oc-conversation-control.md)
-- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [View active conversation for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 - [Manage presence status](oc-manage-presence-status.md)

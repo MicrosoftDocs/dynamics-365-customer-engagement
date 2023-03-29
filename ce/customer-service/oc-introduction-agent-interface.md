@@ -34,7 +34,7 @@ Omnichannel for Customer Service provides the following key capabilities:
 - Agent dashboard
 - Multiple sessions
 - Application tabs associated with sessions
-- Customer summary
+- Active Conversation (formerly Customer summary)
 - Communication panel
 - Presence management
 - Notifications

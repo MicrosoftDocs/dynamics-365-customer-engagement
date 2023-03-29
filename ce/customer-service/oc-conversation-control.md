@@ -170,10 +170,10 @@ To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-c
 [Manage sessions](oc-manage-sessions.md)  
 [Manage applications](oc-manage-applications.md)  
 [Manage presence status](oc-manage-presence-status.md)  
-[View customer summary and know everything about customers](oc-customer-summary.md)  
+[View customer information on Active Conversation form](oc-customer-summary.md)  
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [Take notes specific to conversation](oc-take-notes.md)  
-[View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+[View active conversation for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
