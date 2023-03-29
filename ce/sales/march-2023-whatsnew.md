@@ -18,7 +18,7 @@ To submit and vote on feature requests and product suggestions, go to the [Dynam
 
 ## March 2023 release
 
-### Versions
+### Applicable versions
 
 |Region  |Version Number  |
 |---------|---------|
