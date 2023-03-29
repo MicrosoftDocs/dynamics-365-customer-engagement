@@ -21,7 +21,7 @@ search.app:
 
 Sometimes, users need access to data across multiple business units. For example, a marketer responsible for leading the marketing initiatives across both US and European subdivisions of a company, both represented by business units in Dataverse, needs access to data from both the business units. With [modernized business units](/power-platform-release-plan/2021wave2/data-platform/modernize-business-units), Dataverse now allows users to have security roles from different business units at the same time.
 
-When modernized business units are [turned on](/power-platform/admin/wp-security-cds.md#enable-the-matrix-data-access-structure) for an environment that has business unit scoping enabled already, users need a way to specify which business unit they're creating an artifact for. For most of the entities, the default value of a business unit is set to the user’s business unit. However, journeys and emails have special behaviors:
+When modernized business units are [turned on](/power-platform/admin/wp-security-cds#enable-the-matrix-data-access-structure) for an environment that has business unit scoping enabled already, users need a way to specify which business unit they're creating an artifact for. For most of the entities, the default value of a business unit is set to the user’s business unit. However, journeys and emails have special behaviors:
 
 - **Emails**: If the user selects a template, the email’s business unit is set to the business unit of the template. If the user skips template selection, then the email’s business unit is set to the user’s business unit.
 - **Journeys**:

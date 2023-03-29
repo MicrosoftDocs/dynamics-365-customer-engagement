@@ -22,7 +22,7 @@ After you create an authentication settings record, you must add it to a channel
 - Chat
 - Apple Messages for Business
 
-The agent will get a notification in the **Conversation summary** section whether the customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. More information: [Conversation summary](oc-customer-summary.md#conversation-summary)
+The agent will get a notification in the **Conversation summary** section whether the customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. More information: [Conversation summary](oc-customer-summary.md#view-conversation-summary)
 
 ## Prerequisites
 
@@ -161,7 +161,7 @@ If you're adding an authenticated chat experience to a custom website (that's no
       -  **lwicontexts** The context variables to pass in as part of the conversation, either for routing purposes or to display to the agent. <br>
             More information: <br>
             [Manage custom context](send-context-starting-chat.md)  <br>
-            [setAuthTokenProvider method](/developer/reference/methods/setauthtokenprovider.md)<br>
+            [setAuthTokenProvider method](developer/reference/methods/setauthtokenprovider.md)<br>
             [Identify records automatically using context variables](record-identification-rule.md)<br>
      
       - Any other data that you want to pass.
@@ -183,7 +183,7 @@ If you're adding an authenticated chat experience to a custom website (that's no
 
       > [!NOTE]
       > - If the token has expired or is invalid, the chat widget will throw an error event. 
-      > - The [setContextProvider method](/developer/reference/methods/setcontextprovider.md) is not supported for authenticated chat. You should pass in your lwicontexts as a part of the JWT payload.
+      > - The [setContextProvider method](developer/reference/methods/setcontextprovider.md) is not supported for authenticated chat. You should pass in your lwicontexts as a part of the JWT payload.
 
 4. Create a JavaScript function on your website that will accept a callback function and return a JWT to the callback function. To avoid timeout, this JavaScript function should return a JWT within 10 seconds. This JWT must: 
 
@@ -252,7 +252,7 @@ If you're adding an authenticated chat experience to a custom website (that's no
 
 ### Prerequisites
 
-- Administrators who are configuring authentication settings will need additional security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field.md)
+- Administrators who are configuring authentication settings will need additional security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
 
 - Make sure your organization has working knowledge of OAuth 2.0 code flow.
 

@@ -135,9 +135,11 @@ If you create multiple scoring models, use the **Select model** list on the **Pr
 
 ### See also
 
-[Edit and retrain a lead scoring model](pls-edit-and-retrain-model.md)
+[System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
+[Edit and retrain a lead scoring model](pls-edit-and-retrain-model.md)  
 [Prioritize leads through scores](../sales/work-predictive-lead-scoring.md)  
 [Predictive lead/opportunity scoring FAQs](faqs-sales-insights.md#predictive-leadopportunity-scoring)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
