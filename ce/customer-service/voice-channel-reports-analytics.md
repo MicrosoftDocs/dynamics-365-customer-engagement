@@ -1,15 +1,14 @@
 ---
-title: "Voice channel historical analytics and call insights | MicrosoftDocs"
-description: Learn about the different analytics, reports, and call insights that are available in the voice channel in Omnichannel for Customer Service
-ms.custom:
-- dyn365-customerservice
-ms.date: 10/12/2022
+title: Voice channel historical analytics and call insights
+description: Learn about the analytics reports and call insights that are available in the voice channel in Omnichannel for Customer Service.
+ms.date: 03/29/2023
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.reviewer: lalexms
-
-ms.topic: article
+ms.reviewer: shujoshi
+ms.topic: conceptual
+ms.custom:
+- bap-template
+- dyn365-customerservice
 ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
@@ -28,35 +27,35 @@ search.app:
 
 The Voice analytics report provides comprehensive information on the overall performance of customer support across the voice channel. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, agents, and date ranges to help better understand performance and troubleshoot problem areas.
 
- ![Access Voice channel conversation report.](media/voice-channel-conversation-report.png "Access Voice channel conversation report")
+:::image type="content" source="media/voice-channel-conversation-report.png" alt-text="Voice channel conversation report.":::
 
-
-### Access the Voice dashboard
+**Access the Voice dashboard**
 
 [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
-## Report details 
+## Report details
 
 The following KPIs are displayed in the Voice dashboard.
 
 | Metric | Definition (historical)  |
 |----------------|---------------------|
-| Incoming conversation  | The number of conversations initiated by the customer and can be presented to a human agent. |
+| Incoming conversations  | The number of conversations initiated by the customer and can be presented to a human agent. |
 | Engaged conversations  | The conversations that the agent was engaged in. Customer-to-agent communication can begin at this point. |
-| Abandon Rate | Percentage of conversations that are not engaged by agents.
+| Abandon rate | Percentage of conversations that are not engaged by agents.
 | Average wait time | The average time customers waited before connecting to agents. Similar to "speed to answer", but includes time waited on each session within a conversation. |
-| Average Speed to answer | The average time customers waited in the queue before connecting to an agent (the time for acceptance). |
-| Avg. CSAT | The average of customer satisfaction ratings provided by customers. Only available if customer voice is being configured as a post-conversation survey tool. |
+| Average Speed to answer (sec) | The average time customers waited in the queue before connecting to an agent (the time for acceptance). |
+| Avg. CSAT <br> **Note:** Currently unavailable. | The average of customer satisfaction ratings provided by customers. Only available if customer voice is being configured as a post-conversation survey tool.   |
 | Avg. Conversation sentiment | The average sentiment score based on the verbatim provided in customer voice survey. |
 | Avg. handle time | The average time that an agent spent on a conversation.  |
 | Transfer rate | The percentage of times a conversation was transferred from one agent to another agent. |
 | Avg. customer effort | The time that a customer spent on a conversation to get their issue resolved. |
 | Avg. sessions per conversation | The average sessions created and engaged for each conversation engaged. |
 
-
 The following report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
 
- ![Agent drill-down report](media/voice-channel-agent-drill-down.png "Agent drill-down report")
+:::image type="content" source="media/voice-channel-agent-drill-down.png" alt-text="Voice agent drill-down report.":::
+
+The following metrics are available for the agent conversation style.
 
 | Metric  | Definition  |
 |----------------|------------|
@@ -66,16 +65,13 @@ The following report includes conversation intelligence, which uses analytics an
 | Pause before speaking (sec)  | The milliseconds the agent paused before responding to customer queries; indicates agent's patience. |
 | Longest customer monologue (sec)  | The longest monologue by the customer with an agent; indicates that the agent is asking good questions and understanding customer needs. |
 
+## Call insights
 
-## View call insights
+Supervisors can look into each topic, and view the CSAT and sentiment to see coaching opportunities. Supervisors can view details of a conversation by drilling through the topics and selecting a conversation title.
 
-Supervisors can look into each topic, and view the CSAT and sentiment to see coaching opportunities. Supervisors can view details of a conversation to see what happened by drilling through the topics and selecting a conversation title.
+Supervisors can also see entire transcripts to understand the conversation style and get precise verbatim used so that they can make informed decisions about training requirements for the agent.
 
-Supervisors can see entire transcripts to understand the conversation style and get precise verbatim used so they can make informed decisions about training requirements for the agent.
-
-
-> [!div class="mx-imgBorder"]
-> ![Voice recording transcript viewer.](./media/voice-recording-transcript-viewer.png "Voice recording transcript viewer")
+:::image type="content" source="media/voice-recording-transcript-viewer.png" alt-text="Voice recording transcript viewer.":::
 
 ### See also
 
