@@ -29,6 +29,10 @@ The Voice analytics report provides comprehensive information on the overall per
 
 :::image type="content" source="media/voice-channel-conversation-report.png" alt-text="Voice channel conversation report.":::
 
+**Access the Voice dashboard**
+
+[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+
 ## Report details
 
 The following KPIs are displayed in the Voice dashboard.
@@ -69,20 +73,10 @@ Supervisors can also see entire transcripts to understand the conversation style
 
 :::image type="content" source="media/voice-recording-transcript-viewer.png" alt-text="Voice recording transcript viewer.":::
 
-## Next steps
-
-To access the Voice dashboard, do the following:  
-
-[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
-
 ### See also
 
 [Introduction to the voice channel](voice-channel.md)  
 [Provision and set up the voice channel](voice-channel-install.md)  
 [View voice calls usage](voice-channel-usage.md)  
 
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-
-
