@@ -980,6 +980,16 @@
       items:
       - name: Configure analytics and insights dashboards
         href: configure-customer-service-analytics-insights-csh.md 
+      - name: Configure out-of-box real-time analytics
+        items:
+        - name: Configure Omnichannel real-time analytics
+          href: enable-realtime-analytics-dashboard-administrator.md
+        - name: Configure Ongoing Conversations dashboard
+          href: configure-ongoing-conversations-dashbaord.md
+        - name: Enable your supervisors to monitor, assign, transfer, and forcibly end conversations
+          href: enable-monitor-assign-transfer-conv.md
+        - name: Configure intraday insights
+          href: configure-intraday-dashboard-supervisor.md
       - name: Configure out-of-box historical analytics
         items:
         - name: Configure Customer Service historical analytics
@@ -992,16 +1002,6 @@
           href: configure-customer-service-analytics-dashboard.md
         - name: Configure Omnichannel Insights dashboards
           href: configure-historical-sentiment-dashboard-supervisor.md
-      - name: Configure out-of-box real-time analytics
-        items:
-        - name: Configure Omnichannel real-time analytics
-          href: enable-realtime-analytics-dashboard-administrator.md
-        - name: Configure Ongoing Conversations dashboard
-          href: configure-ongoing-conversations-dashbaord.md
-        - name: Enable your supervisors to monitor, assign, transfer, and forcibly end conversations
-          href: enable-monitor-assign-transfer-conv.md
-        - name: Configure intraday insights
-          href: configure-intraday-dashboard-supervisor.md
       - name: Customize out-of-box analytics
         items: 
         - name: Customize visual display
@@ -1030,6 +1030,18 @@
         href: enable-sentiment-analysis.md
     - name: Supervisor experience
       items: 
+      - name: Use out-of-the-box Omnichannel real-time analytics
+        items:
+        - name: Overview of Omnichannel real-time analytics reports
+          href: intro-realtime-analytics-dashboard.md
+        - name: Summary report
+          href: realtime-summary-dashboard.md
+        - name: Voice report
+          href: realtime-voice-dashboard.md
+        - name: Agents report
+          href: realtime-agents-analytics.md
+        - name: Ongoing Conversation report
+          href: realtime-ongoing.md
       - name: Use out-of-box Customer Service historical analytics
         items: 
         - name: Customer Service historical analytics dashboards
@@ -1074,18 +1086,6 @@
           href: intro-dynamics-365-omnichannel-insights-dashboard.md
         - name: View and understand Omnichannel Insights dashboard
           href: omnichannel-insights-dashboard.md  
-      - name: Use out-of-the-box Omnichannel real-time analytics
-        items:
-        - name: Overview of Omnichannel real-time analytics reports
-          href: intro-realtime-analytics-dashboard.md
-        - name: Summary report
-          href: realtime-summary-dashboard.md
-        - name: Voice report
-          href: realtime-voice-dashboard.md
-        - name: Agents report
-          href: realtime-agents-analytics.md
-        - name: Ongoing Conversation report
-          href: realtime-ongoing.md
       - name: Monitor conversations
         items: 
           - name: Monitor, assign, transfer, and forcibly end conversations
