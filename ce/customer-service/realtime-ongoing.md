@@ -1,7 +1,7 @@
 ---
 title: "Real-time analytics ongoing Conversation report for supervisor | MicrosoftDocs"
 description: "Learn how the ongoing conversation report enables supervisors to view information about the conversations handled by agents in real time."
-ms.date: 03/28/2023
+ms.date: 03/29/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -13,13 +13,17 @@ feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?cat
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The **Ongoing Conversation** report provides information about the conversations that are currently handled by agents in your organization and are in the open, active, wrap-up, and waiting statuses. This report provides a holistic view of the conversations in real time with details, such as subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. More information: [Overview of Omnichannel real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
-
-The **Ongoing conversation** table provides information about the status of the conversations that aren't yet closed. The table also displays information about the channel through which the conversation came in, with the time and date that the conversation was picked up.
+The **Ongoing Conversation** report provides information about the status of the conversations that are currently being handled by agents in your organization and aren't yet closed. The conversation statuses can be open, active, wrap-up, and waiting. This report provides a holistic view of the conversations in real time with details, such as subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. More information: [Overview of Omnichannel real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview).
 
 :::image type="content" source="media/realtime_ongoing_conversation.png" alt-text="Screenshot of ongoing conversations summary report":::
 
-The **Ongoing conversation** report displays the following metrics about conversations.
+For details on metrics displayed on the Ongoing Conversation report, go to Omnichannel analytics metrics.
+
+ As a supervisor, you can monitor, assign, transfer, and force close conversations for an agent, depending on your requirement. When you select any agent on the Ongoing Conversations dashboard, and then select any of these options, a dialog opens up that provides you with the option to execute the option.
+
+
+
+
 
 
 
