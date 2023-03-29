@@ -50,7 +50,7 @@ Toll-free numbers are a good option for transactional A2P messaging, which means
 > [!TIP]
 > Carriers, just like email providers, have ways of filtering spam messages. This results in the phone number being blocked and becoming unusable. Due to carrier filtering, you should only use toll-free numbers for transactional messages (as opposed to promotional messages). You should avoid sending promotional content or misleading information. Promotional content includes free products or discount offers.
 >
->**UPDATE:** With carriers becoming even more strict with filtering, to ensure the maximum deliverability for your text messages, the toll-free number now needs to be verified. To verify your number, fill in the form [here](https://forms.office.com/r/x3LCH1gS7b). You can learn more about Azure Communication Services toll-free number verification [here](https://learn.microsoft.com/en-us/azure/communication-services/concepts/sms/sms-faq#toll-free-verification).
+>**UPDATE:** With carriers becoming even more strict with filtering, to ensure the maximum deliverability for your text messages, the toll-free number now needs to be verified. To verify your number, fill in the form [here](https://forms.office.com/r/x3LCH1gS7b). You can learn more about Azure Communication Services toll-free number verification [here](/azure/communication-services/concepts/sms/sms-faq#toll-free-verification).
 
 ## Add a sender number from an Infobip, LINK Mobility, Telesign or Twilio account (Worldwide)
 
