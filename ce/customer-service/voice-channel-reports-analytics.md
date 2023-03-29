@@ -29,10 +29,6 @@ The Voice analytics report provides comprehensive information on the overall per
 
 :::image type="content" source="media/voice-channel-conversation-report.png" alt-text="Voice channel conversation report.":::
 
-**Access the Voice dashboard**
-
-[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
-
 ## Report details
 
 The following KPIs are displayed in the Voice dashboard.
@@ -72,6 +68,10 @@ Supervisors can look into each topic, and view the CSAT and sentiment to see coa
 Supervisors can also see entire transcripts to understand the conversation style and get precise verbatim used so that they can make informed decisions about training requirements for the agent.
 
 :::image type="content" source="media/voice-recording-transcript-viewer.png" alt-text="Voice recording transcript viewer.":::
+
+## Next steps
+
+[Access the Voice dashboard](../includes/cc-navigation.md)
 
 ### See also
 
