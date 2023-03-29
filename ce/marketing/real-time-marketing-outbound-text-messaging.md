@@ -63,7 +63,7 @@ You can purchase or reuse an existing Infobip, LINK Mobility, Telesign or Twilio
 
 Infobip integration uses their public APIs to send and receive text messages. You need to sign up for an Infobip account to enable the real-time marketing SMS integration. To create an Infobip account:
 
-1. Go to [Infobip](https://www.infobip.com/signup) and sign up for a free account that can be upgraded to pay-as-you-go or a monthly subscription later.
+1. Go to [Infobip](https://www.infobip.com/signup?signup_source=MicrosoftDynamicsMarketing) and sign up for a free account that can be upgraded to pay-as-you-go or a monthly subscription later.
 1. In your Infobip [Account homepage](https://portal.infobip.com/homepage/), navigate to the **Developers** tab and note the **API key** and **API Base URL** values. These values are required to create the integration between Dynamics 365 Marketing and Infobip.
 1. [Purchase SMS phone numbers](https://portal.infobip.com/apps/sms) through your Infobip account.
 
