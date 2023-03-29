@@ -1,7 +1,7 @@
 ---
 title: "Create push notifications (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create push notifications for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 08/05/2022
+ms.date: 03/29/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -22,7 +22,7 @@ search.app:
 Push notifications are messages sent to customers who have installed your mobile app. Push messages allow you to quickly convey offers, messages, or other information directly to users of your app.
 
 > [!NOTE]
-> Push notifications are supported only in the countries where [Azure Notification Hubs](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=notification-hubs&regions=all) are available.
+> Push notifications are supported only in countries where [Azure Notification Hubs](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=notification-hubs&regions=all) are available.
 
 You can send push messages as part of real-time journeys, similar to other outbound messages like text messages.
 
