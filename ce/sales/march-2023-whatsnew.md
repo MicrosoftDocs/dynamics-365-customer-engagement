@@ -1,9 +1,8 @@
 ---
-title: "March 2023"
-description: "Learn about what's new in the March 2023 release."
-ms.date: 02/23/2022
-ms.topic: article
-ms.assetid: 6b697179-a0f0-4aee-b636-6cb7426212ec
+title: "What's new in Dynamics 365 Sales"
+description: "Learn about what's new in Dynamics 365 Sales."
+ms.date: 03/29/2023
+ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
