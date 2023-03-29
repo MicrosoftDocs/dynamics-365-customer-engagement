@@ -1,7 +1,7 @@
 ---
 title: "Personalize content using pre-defined dynamic text (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content using pre-defined dynamic text in Dynamics 365 Marketing."
-ms.date: 03/14/2023
+ms.date: 03/24/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -58,10 +58,13 @@ Most of the time you should be able to use pre-defined dynamic text as-is, but s
 
 ### Changing the default value globally
 
-If the default value provided isn't appropriate for your situation (for example, you may refer to your customers as “clients” or “guests” rather than “customer”), you can change the default value for everyone. To change the global default value, select the vertical ellipses next to the pre-defined dynamic text's name and then select **Update pre-defined dynamic text**. The pre-defined dynamic text will be updated for the current message and globally for future usage of the dynamic text in new messages (existing messages aren't affected).
+> [!NOTE]
+> You can update the default value of a pre-defined text. Only the default value can be changed if you want to change its definition, you must remove the current pre-defined text and add a new one.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of updating a default value globally.](media/real-time-marketing-predefined-tokens-update.png "Screenshot of updating a default value globally")
+“Update” is shown only when default value is changed (otherwise it is not shown) and that default value is the only thing that can be changed for a pre-defined dynamic text. To change the global default value, select the vertical ellipses next to the pre-defined dynamic text's name and then select **Update pre-defined dynamic text**. The pre-defined dynamic text will be updated for the current message and globally for future usage of the dynamic text in new messages (existing messages aren't affected).
+
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of updating pre-defined dynamic text.](media/real-time-marketing-update-predefined-tokens.png "Screenshot of updating pre-defined dynamic text")
 
 > [!IMPORTANT]
 > The **Update pre-defined dynamic text** command only applies to the current message and future messages. It does not retroactively change previous uses of the dynamic text.
@@ -82,20 +85,6 @@ To define and share new pre-defined dynamic text, follow these steps:
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of saving and adding new pre-defined dynamic text.](media/real-time-marketing-predefined-tokens-save.png "Screenshot of saving and adding new pre-defined dynamic text")
-
-## Updating pre-defined text
-
-You can update the default value of a pre-defined text. Only the default value can be changed – if you want to change its definition, you must remove the current pre-defined text and add a new one.
-To update the default value:
-1. Add the pre-defined text in a message.
-2. Double-click the pre-defined text in the canvas, you'll see the personalization **define dynamic text** dialog.
-3. Change the default value and then select **Save**.
-4. Select somewhere else in the text box (so the cursor isn't on the pre-defined text).
-5. Select the Personalization command and then on more options (three dots) for the pre-defined text that you changed.
-6. Select **Update**. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of updating pre-defined dynamic text.](media/real-time-marketing-update-predefined-tokens.png "Screenshot of updating pre-defined dynamic text")
 
 > [!NOTE]
 > The **Update** option is only available for pre-defined text if the default value changed.
@@ -135,7 +124,7 @@ If needed, you can change the language and region setting along with time zone b
 > [!div class="mx-imgBorder"]
 > ![locale and time zone](media/real-time-marketing-locale-and-time-zone.png "locale and time zone")
 
-### Preview: Using data that is reached by traversing a 1-to-many relation
+### Using data that is reached by traversing a 1-to-many relation
 
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
