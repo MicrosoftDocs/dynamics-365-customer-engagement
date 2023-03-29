@@ -71,7 +71,9 @@ Supervisors can also see entire transcripts to understand the conversation style
 
 ## Next steps
 
-[Access the Voice dashboard](../includes/cc-navigation.md)
+To access the Voice dashboard, do the following:  
+
+[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
 ### See also
 
