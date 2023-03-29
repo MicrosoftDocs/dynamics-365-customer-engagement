@@ -1,7 +1,7 @@
 ---
 title: Manage snapshots for a forecast
 description: Use snapshots to automatically take a snippet of forecast data at a moment in time and compare how data is changed over time.
-ms.date: 03/20/2023
+ms.date: 03/29/2023
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
@@ -56,7 +56,7 @@ Snapshots are deleted based on the following rules:
 - The last snapshot of a forecast is retained. Apart from this, the following snapshots will be retained based on the forecast recurrence:
     - For a recurrence length up to 35 days, which is five weeks, one snapshot per week is retained.
     
-    - For a recurrence length up to 100 days, one snapshot for every 15 days is retained.
+    - For a recurrence length up to 100 days, one snapshot for every 14 days (2 weeks) is retained.
     - For a recurrence length greater than 100 days, one snapshot per month is retained.  
 
 
