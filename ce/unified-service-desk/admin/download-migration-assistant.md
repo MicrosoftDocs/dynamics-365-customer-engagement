@@ -3,8 +3,8 @@ title: "Download the Web Client - Unified Interface Migration Assistant | Micros
 description: "Download Web Client - Unified Interface Migration Assistant to migrate your Unified Service Desk configurations from the legacy web client to Unified Interface"
 ms.date: 07/30/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

@@ -3,8 +3,8 @@ title: "closeChat (JavaScript API reference) for Omnichannel for Customer Servic
 description: "Includes reference information about closeChat method, syntax, and parameters in Omnichannel for Customer Service JavaScript API reference."
 ms.date: 07/09/2020
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ---
 # closeChat

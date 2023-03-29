@@ -2,7 +2,7 @@
 metadata:
   title: Frequently asked questions about Dynamics 365 Sales
   description: Find answers to frequently asked questions about Dynamics 365 Sales Enterprise.
-  ms.date: 02/23/2023
+  ms.date: 03/28/2023
   ms.topic: article
   author: udaykirang
   ms.author: udag
@@ -282,6 +282,14 @@ sections:
       - question: Can I set the focused view as the default view?
         answer: |
           Currently, you can't set the focused view as your default view. 
+
+      - question: How can I disable focused view in my organization?
+        answer: |
+          To disable the focused view in your organization, your administrator must send an email to Microsoft customer support. 
+
+      - question: Is focused view available for custom entities? 
+        answer: |
+          No. Currently, focused view is available only for account, contact, lead, and opportunity entities.  
 
   - name: Text message (SMS​)
     questions:

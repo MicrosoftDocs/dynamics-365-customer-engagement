@@ -111,7 +111,7 @@ When a visitor to the website decides to register for your event, they proceed a
         > [!IMPORTANT]
         > Beginning in November 2022, the [Captcha](http://www.captcha.net/) service endpoints for event website are changing. If you have origin checks for your event portal requests, the Captcha call origin points will change from `https://client.prod.repmap.microsoft.com/` to `https://*.svc.dynamics.com` (where * varies based on the Events API).
         >
-        > You can learn more about the Events API in the [Using the Events API](../developer/using-events-api.md) article.
+        > You can learn more about the Events API in the [Using the Events API](developer/using-events-api.md) article.
     - One advantage of creating a registration account is that those contacts can sign in again to view their event schedules and to cancel registrations if needed.
     - If you are hosting the event website on a Power Apps portal, then visitors who use the site to create a registration account must do so using an email address that doesn't belong to any contact already in your database.
 1. If your event requires payment, a payment gateway opens and the visitor must enter their payment details.

@@ -3,8 +3,8 @@ title: "msdyn_questionsequence Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_questionsequence entity."
 ms.date: 08/31/2020
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
+author: "gandhamm"
+ms.author: mgandham
 manager: "shujoshi"
 ---
 # msdyn_questionsequence Entity Reference

@@ -3,8 +3,8 @@ title: "FindWindow search path tag in Unified Service Desk | MicrosoftDocs"
 description: "<FindWindow> tag contains a list of matching elements that are executed in the order of their listing within the tag. This topic describes the <FindWindow> elements with example code."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

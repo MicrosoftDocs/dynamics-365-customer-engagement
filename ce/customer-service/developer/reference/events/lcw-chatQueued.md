@@ -3,8 +3,8 @@ title: "lcw:chatQueued | MicrosoftDocs"
 description: lcw chatQueued event (Omnichannel for Customer Service JavaScript API reference)
 ms.topic: article
 ms.date: 11/10/2021
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ---
 # lcw:chatQueued event (Omnichannel for Customer Service JavaScript API reference)

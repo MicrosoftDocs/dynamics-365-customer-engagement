@@ -3,8 +3,8 @@ title: "UII actions in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UII actions in Unified Service Desk that define a specific operation that can be performed when called."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

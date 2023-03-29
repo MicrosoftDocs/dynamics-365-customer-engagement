@@ -3,8 +3,8 @@ title: "Configure JAWS screen reader for Unified Service Desk | MicrosoftDocs"
 description: "Learn how to configure the JAWS screen reader to enable support for interactive controls and tooltips."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer
