@@ -18,7 +18,7 @@ items:
 - name: What's new
   items:
     - name: New and upcoming features
-      href: new-upcoming.md
+      href: https://experience.dynamics.com/releaseplans/?app=Field+Service
     - name: Version history (web + mobile)
       items:
         - name: Field Service
@@ -39,7 +39,7 @@ items:
     - name: Uninstall Field Service
       href: uninstall-field-service.md
     - name: Preview new features
-      href: field-service-preview.md
+      href: /dynamics365/get-started/release-schedule
 
 - name: Administration
   items:
@@ -88,18 +88,6 @@ items:
       href: travel-charges.md
     - name: Knowledge articles
       href: field-service-knowledge-management.md
-    - name: Collaborate on work orders with Microsoft Teams
-      href: field-service-teams-collaboration.md
-    - name: Inspections
-      items:
-        - name: Create and view inspections
-          href: inspections.md
-        - name: Advanced inspection options
-          href: inspections-advanced.md
-        - name: Run reports on inspections
-          href: inspections-reporting.md
-        - name: Use inspections without work orders
-          href: inspections-customer-assets.md
     - name: Capture resolution details
       href: work-order-resolutions.md
     - name: Work order completion surveys
@@ -109,6 +97,17 @@ items:
     - name: Not-to-exceed
       href: work-order-not-to-exceed.md
 
+- name: Inspections
+  items:
+    - name: Create and view inspections
+      href: inspections.md
+    - name: Advanced inspection options
+      href: inspections-advanced.md
+    - name: Run reports on inspections
+      href: inspections-reporting.md
+    - name: Use inspections without work orders
+      href: inspections-customer-assets.md
+  
 - name: Customers
   items:
     - name: Customer accounts
@@ -426,6 +425,8 @@ items:
   items:
     - name: Overview of integrations
       href: field-service-integration-overview.md
+    - name: Collaborate with Microsoft Teams
+      href: field-service-teams-collaboration.md
     - name: Dynamics 365 Supply Chain Management
       href: supply-chain-field-service-integration.md
     - name: Dynamics 365 Remote Assist
@@ -471,8 +472,8 @@ items:
       href: https://www.youtube.com/channel/UC7Rd031NCJZekAkNU2bb8Kg/
     - name: Learning paths
       href: /training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path
-
-
+    - name: Submit a feature request
+      href: https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service
     - name: Get help
       href: field-service-get-help.md
 

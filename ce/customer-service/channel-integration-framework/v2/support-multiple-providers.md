@@ -3,8 +3,8 @@ title: "Configure support for single and multiple channel providers with Dynamic
 description: "Use this topic to understand how you can configure single and multiple channel providers in Omnichannel for Customer Service using Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 09/27/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"

@@ -3,8 +3,8 @@ title: "Panels, panel types, and panel layouts in Unified Service Desk | Microso
 description: "Learn about predefined panels, panel types, and panel layouts available in Unified Service Desk to display hosted controls of various types."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

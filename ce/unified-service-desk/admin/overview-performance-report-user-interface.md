@@ -3,8 +3,8 @@ title: "Overview of Unified Service Desk Performance Report user interface | Mic
 description: "Learn about what is Unified Service Desk Performance Analyzer and the performance report user interface."
 ms.date: 10/31/2018
 ms.topic: overview
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

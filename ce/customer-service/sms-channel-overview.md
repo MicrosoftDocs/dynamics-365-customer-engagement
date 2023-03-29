@@ -1,8 +1,8 @@
 ---
 title: Overview of SMS channels
 description: This article gives an overview of the SMS channels and how you can configure them. 
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 ms.reviewer: nenellim 
 ms.topic: overview 
 ms.date: 02/17/2023

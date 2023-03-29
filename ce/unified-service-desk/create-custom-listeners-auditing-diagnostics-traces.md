@@ -3,8 +3,8 @@ title: "Create custom listeners for auditing, diagnostics and traces | Microsoft
 description: "Learn to create custom listeners to write audit, diagnostics, and trace logs in Unified Service Desk."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer
