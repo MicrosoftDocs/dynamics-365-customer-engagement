@@ -22,7 +22,7 @@ search.app:
 Push notifications are messages sent to customers who have installed your mobile app. Push messages allow you to quickly convey offers, messages, or other information directly to users of your app.
 
 > [!NOTE]
-> Push notifications are supported only in countries where [Azure Notification Hubs](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=notification-hubs&regions=all) are available.
+> Push notifications are supported only in countries where [Azure Notification Hubs](/explore/global-infrastructure/products-by-region/?products=notification-hubs&regions=all) are available.
 
 You can send push messages as part of real-time journeys, similar to other outbound messages like text messages.
 
