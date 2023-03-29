@@ -1,7 +1,7 @@
 ---
 title: Omnichannel real-time analytics agents insights report for supervisors | MicrosoftDocs
 description: Learn about the real-time agents insights report for supervisors in Omnichannel for Customer Service.
-ms.date: 03/28/2023
+ms.date: 03/29/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -30,9 +30,7 @@ For details on metrics displayed in the Agent report charts, go to Omnichannel a
 
 ## Agent details drill-down
 
-The **Agent list** table provides you with the ability to drill down to key metrics on agent details. You can also drill down to view specific insights about the performance of individual agents by selecting the agent name and then the **Detailed view** link.
-
-:::image type="content" source="media/realtime_agent_list-table.png" alt-text="Screenshot of agent list table":::
+The **Agent list** table on the dashboard provides you with the ability to drill down to key metrics on agent details. You can also drill down to view specific insights about the performance of individual agents by selecting the agent name and then the **Detailed view** link from the dashboard.
 
  Agent details are displayed on a new page with the following details.
 

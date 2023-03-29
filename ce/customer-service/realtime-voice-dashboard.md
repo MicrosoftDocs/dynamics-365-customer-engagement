@@ -1,7 +1,7 @@
 ---
 title: Real-time analytics voice report| Microsoft Docs
 description: Learn about the real-time voice report to cater to your organization's customer service experience better.
-ms.date: 03/21/2023
+ms.date: 03/29/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -26,18 +26,7 @@ You will see the voice report, only if your organization has the voice feature c
 
 :::image type="content" source="media/realtime_voice.png" alt-text="Screenshot of the voice report":::
 
-## KPI	Description
-
-| KPI | Description |
-| ------- | ------------------ |
-| Incoming conversation  | Total number of voice conversations received.|
-| Conversations in queue |Total number of voice conversations in queue currently awaiting agents. |
-| Longest wait time |Maximum wait time of voice conversations currently in Open state awaiting agent.|
-| Avg. speed to answer | Average time customers waited in the queue before connecting to an agent.|
-| Abandoned rate | Total number of voice conversations that are closed before an agent accepted the conversation. |
-| Ongoing conversation | Total number of voice conversations that are currently worked on by an agent. This includes all open conversations that are assigned to an agent. |
-| Avg. handle time | Average time an agent spent actively with a customer on voice conversations.|
-| Service level (60 sec) | Percentage of voice conversations that were accepted by an agent within 60 seconds (after including the conversations escalated by bot, if applicable). |
+For details on metrics displayed in the Voice report, go to Omnichannel analytics metrics.
 
 ## Interactive charts
 
@@ -45,16 +34,7 @@ You can view different types of charts on the report, such as bar, horizontal ba
 
 When you select a component on the chart, data gets filtered accordingly and you'll be able to view data related only to the selected component. For example, if you select the **Busy** piece in the **Agent availability status** chart, the dashboard will refresh and you’ll see only the agents who are currently in the **Busy** state.
 
-The voice report displays the following charts.
-
-| Title | Description |
-| ------- | ------------------ |
-| Conversations over time| The bar chart shows the total voice conversations received mapped against hour. |
-| Ongoing conversations by status | The donut chart shows the total number of voice conversations currently in Open, Active, and Wrap-up statuses. |
-| Agent availability status| The donut chart shows the total number of voice agents in each of the applicable availability statuses. These could be Available, Offline, Do not disturb, Busy or any of the custom statuses configured.  |
-| Conversation time |The horizontal bar chart shows the comparison of average talk time, average wrap time, and average hold time.  |
-| Ongoing conversations by queue |The horizontal bar chart shows the total number of conversations that are currently worked on by an agent (including open conversations assigned) in each of queues in Omnichannel for Customer Service.|
-| Capacity by profile | The donut chart shows the total number of voice agents in Available or Occupied status.|
+For details on metrics displayed in the Voice report charts, go to Omnichannel analytics metrics.
 
 ### See also
 
