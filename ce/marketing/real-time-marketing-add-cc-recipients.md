@@ -1,7 +1,7 @@
 ---
 title: "Add email CC recipients (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to add CC recipients to journeys in the real-time marketing area of Dynamics 365 Marketing."
-ms.date: 03/08/2023
+ms.date: 03/24/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,6 +17,8 @@ search.app:
 ---
 
 # Add email CC recipients to journeys in real-time marketing
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10sVQ]
 
 You can add Carbon Copy (CC) recipients to your journeys when sending emails. When designing your journey, you can select up to five recipients for your emails from the email tile. You'll dynamically choose your CC recipients by mapping them to your marketable contacts.
 

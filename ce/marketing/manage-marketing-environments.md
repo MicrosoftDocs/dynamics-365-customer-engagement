@@ -224,7 +224,7 @@ For standard Dynamics 365 environments (without Marketing installed), you can us
 > [!WARNING]
 > When you reset a Marketing environment, you *must* choose an app template that enables Dynamics apps. Dynamics apps require a special template that contains prerequisite solutions. If the app template you select does not enable Dynamics apps, you will need to delete the environment and provision the Marketing app into a different environment.
 
-## How to change the URL for an environment with real-time or outbound Marketing installed
+## Change the URL for an environment with real-time or outbound Marketing installed
 
 For standard Dynamics 365 environments (including Marketing), you can use the Power Platform admin center to change the URL of the environment. Learn more: [Edit properties of an environment](/power-platform/admin/edit-properties-environment).
 
