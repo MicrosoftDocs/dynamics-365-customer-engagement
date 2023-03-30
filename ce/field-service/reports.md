@@ -6,7 +6,7 @@ ms.author: feiqiu
 ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.topic: overview 
-ms.date: 02/09/2023
+ms.date: 03/30/2023
 ms.custom: bap-template 
 ---
 
@@ -84,7 +84,7 @@ Now the **Field Service - Dispatcher** can see the corresponding report.
 | North America| NAM |
 | South America | SAM |
 | Canada | CAN |
-| Europe | EUR |
+| Europe (except Germany) | EUR |
 | Asia Pacific Japan | APJ |
 | Australia | OCE |
 | Japan| JPN |
