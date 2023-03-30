@@ -340,6 +340,8 @@
         href: real-time-marketing-personalize-lists.md
     - name: Assets
       items: 
+      - name: Asset libary add-on file migration
+        href: real-time-marketing-add-on-migration.md
       - name: Real-time marketing asset library add-on
         href: real-time-marketing-asset-library.md
       - name: Use images, files, and videos in your content
