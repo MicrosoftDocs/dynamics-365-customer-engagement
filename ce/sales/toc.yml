@@ -130,7 +130,9 @@
         - name: Enable or disable saving of business card image
           href: retain-business-card-image-after-scanning.md
         - name: Enable email validation
-          href: enable-email-validation.md          
+          href: enable-email-validation.md         
+        - name: Enable email validation for custom forms 
+          href: enable-email-validation-custom-forms.md           
         - name: Customize the business card scanner control
           href: customize-business-card-scan-control.md
         - name: Integrate LinkedIn Sales Insights
@@ -229,6 +231,8 @@
           href: enable-duplicate-lead-detection.md
         - name: Enable email validation
           href: enable-email-validation.md
+        - name: Enable email validation for custom forms 
+          href: enable-email-validation-custom-forms.md
         - name: Integrate LinkedIn Sales Navigator solutions
           href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
         - name: Predictive lead scoring
