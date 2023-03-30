@@ -1277,8 +1277,6 @@
   href: deprecations-sales.md
 - name: Known issues
   href: https://go.microsoft.com/fwlink/?linkid=2171768
-- name: Connect and share feedback
-  href: connect-share-feedback.md
 - name: Resources for other Sales apps
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)
