@@ -984,12 +984,12 @@
         items:
         - name: Manage Omnichannel real-time analytics reports  
           href: enable-realtime-analytics-dashboard-administrator.md
-        - name: Manage access to Ongoing Conversations Dashboard
+        - name: Manage access to Ongoing Conversations dashboard
           href: configure-ongoing-conversations-dashbaord.md
-        - name: Enable supervisor access to manage conversations 
-          href: enable-monitor-assign-transfer-conv.md
         - name: Configure intraday insights
           href: configure-intraday-dashboard-supervisor.md
+      - name: Enable supervisor access to manage conversations 
+        href: enable-monitor-assign-transfer-conv.md
       - name: Manage historical analytics dashboards
         items:
         - name: Manage Customer Service historical analytics reports
