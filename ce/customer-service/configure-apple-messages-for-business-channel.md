@@ -1,7 +1,7 @@
 ---
 title: "Configure an Apple Messages for Business channel | MicrosoftDocs"
 description: "This article provides steps to configure an Apple Messages for Business channel and corresponding Apple pages in Omnichannel for Customer Service."
-ms.date: 04/01/2023
+ms.date: 04/05/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -65,7 +65,7 @@ To add the Apple Messages for Business channel instance, complete the following 
      1. On the **Behaviors** page, configure the following options:<br>
         - **Custom automated messages**<br>
         - [**Post-conversation survey**](configure-post-conversation-survey.md)<br>
-        - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. More information: [Authentication Settings]().<br>
+        - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. There are two flows to choose from: OAuth 2.0 code flow or OAuth 2.0 OpenID connect flow. More information: [Authentication Settings](create-chat-auth-settings.md).<br>
      
       1. On the **User features** page, configure the following options:<br>
            - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).<br>
