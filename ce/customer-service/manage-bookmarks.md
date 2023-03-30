@@ -4,7 +4,7 @@ description: Create bookmarks to save personalized views of your Dynamics 365 Cu
 author: neeranelli
 ms.author: nenellim
 ms.topic: how-to
-ms.date: 03/16/2023
+ms.date: 03/30/2023
 ms.reviewer: nenellim
 ms.custom: bap-template
 ---

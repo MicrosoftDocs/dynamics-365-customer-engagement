@@ -1,7 +1,7 @@
 ---
 title: Customer Service dashboards | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 02/01/2023
+ms.date: 03/30/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -98,6 +98,16 @@ The following tables are used for Customer Service historical analytics:
 
 > [!NOTE]
 > A report might be blank if you've customized any of the listed entities or are using out-of-the-box entities.
+
+## Customize reports
+
+### Save report views using bookmarks
+
+You can also save personalized views of your reports as bookmarks and then use the **Bookmarks** option to select a saved view, update, or delete a bookmark, and set a default bookmark. More information: [Manage report bookmarks](manage-bookmarks.md)
+
+### Edit visual display
+
+You can use the **Edit report** option to customize the visual display of reports. For example, modify the visual look of the data, such as to display a metric trend over time versus a tabular view. You can also create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports. More information: [Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service)
 
 ## Troubleshoot issues when accessing reports
 

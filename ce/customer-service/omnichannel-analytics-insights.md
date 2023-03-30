@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 08/01/2022
+ms.date: 03/30/2023
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -101,6 +101,12 @@ The reports refresh shows the following information.
 > [!NOTE]
 > A report might be blank if you've customized any of the listed entities or are using out-of-the-box entities.
 
+## Customize reports
+
+### Save report views using bookmarks
+
+You can also save personalized views of your reports as bookmarks and then use the **Bookmarks** option to select a saved view, update, or delete a bookmark, and set a default bookmark. More information: [Manage report bookmarks](manage-bookmarks.md)
+
 ## Troubleshoot issues
 
 To troubleshoot issues when you try to access or view the reports, see [Troubleshoot issues when accessing reports](customer-service-analytics-insights-csh.md#troubleshoot-issues-when-accessing-reports).
@@ -109,7 +115,6 @@ To troubleshoot issues when you try to access or view the reports, see [Troubles
 ### See also
 
 [Introduction to Customer Service insights](introduction-customer-service-analytics.md)  
-[Manage report bookmarks](manage-bookmarks.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
