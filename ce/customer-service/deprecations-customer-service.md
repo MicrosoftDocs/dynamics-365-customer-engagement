@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms-service: dynamics-365
 ms.topic: conceptual
-ms.date: 01/13/2023
+ms.date: 04/03/2023
 ms.custom: bap-template
 ---
 
@@ -48,7 +48,7 @@ The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management enti
 
 ## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated
  
-Effective October 31, 2022, Dynamics 365 Customer Service and Power Platform are blocked in Internet Explorer. As of early October 2022, users are redirected to Microsoft Edge if it's installed on their device. Otherwise, they'll receive a non-dismissible message informing them why they're blocked and to use Customer Service on [Microsoft Edge](https://www.microsoft.com/edge). More information: [Support end for Internet Explorer](/power-platform/admin/support-end-internet-explorer.md) <br>
+Effective October 31, 2022, Dynamics 365 Customer Service and Power Platform are blocked in Internet Explorer. As of early October 2022, users are redirected to Microsoft Edge if it's installed on their device. Otherwise, they'll receive a non-dismissible message informing them why they're blocked and to use Customer Service on [Microsoft Edge](https://www.microsoft.com/edge). More information: [Support end for Internet Explorer](/power-platform/admin/support-end-internet-explorer) <br>
 
 For any questions, contact your Microsoft Customer Service representative or Microsoft Partner.
 

@@ -43,6 +43,11 @@ For more requirements, see [Model-driven app requirements](/power-platform/admin
 > [!IMPORTANT]
 > To use the omnichannel capabilities, you'll need a higher network bandwidth. For more information, see: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
 
+### Limitations
+
+- Customer Service workspace isn't supported in mobile devices and Unified Service Desk.
+- Customer Service workspace isn't supported with Dynamics 365 Customer Engagement (on-premises).
+
 ### See also
 
 [Introduction to Customer Service workspace](csw-overview.md)  
