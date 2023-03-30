@@ -308,6 +308,8 @@
           href: real-time-marketing-multiple-branches.md
         - name: Personalize triggers using conditions
           href: real-time-marketing-personalize-triggers.md
+        - name: "Preview: Limit sent with frequency capping"
+          href: real-time-marketing-frequency-cap.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
         - name: Customize the journey designer in real-time Marketing
@@ -340,6 +342,8 @@
         href: real-time-marketing-personalize-lists.md
     - name: Assets
       items: 
+      - name: Asset libary add-on file migration
+        href: real-time-marketing-add-on-migration.md
       - name: Real-time marketing asset library add-on
         href: real-time-marketing-asset-library.md
       - name: Use images, files, and videos in your content
