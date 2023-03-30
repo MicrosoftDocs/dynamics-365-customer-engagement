@@ -34,7 +34,7 @@ The pricing calculations for the following inbound and outbound calling scenario
 - Inbound: Azure direct routing
 - Outbound: Azure direct routing
 
-The following table summarizes the pricing:
+The following table summarizes the pricing for each scenario:
 
 |Scenario  | Price   |
 |----------|-----------|
