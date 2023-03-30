@@ -89,7 +89,8 @@ sections:
       - question: Why can't I find the Pipeline view option?
         answer: |
           There are several possibilities:
-            - The **Show as** option could be hidden in the three-dot menu in **Opportunities** page. 
+            - The **Show as** option could be hidden in the three-dot menu of the **Opportunities** page. 
+            - Your administrator might have customized the **Show as** drop-down. Contact your administrator to add the control by following the instructions [here](opportunity-pipeline-view-for-admins#set-pipeline-view-as-the-default-opportunities-view).
             - Your organization might not have opted in for early access features. Contact your administrator if you'd like to try out early access features.
             - Your administrator might have disabled custom views for opportunities. Contact your administrator to [add the view manually](opportunity-pipeline-view-for-admins.md#set-pipeline-view-as-the-default-opportunities-view).
 
