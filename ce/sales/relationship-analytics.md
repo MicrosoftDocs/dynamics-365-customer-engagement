@@ -118,7 +118,7 @@ The following screenshot shows an example of enhanced relationship analytics ava
 [Configure relationship analytics](configure-relationship-analytics.md)  
 [GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)  
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  
-[Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+[Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  
 [Relationship analytics and health FAQ](faqs-sales-insights.md#relationship-analytics-and-health)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
