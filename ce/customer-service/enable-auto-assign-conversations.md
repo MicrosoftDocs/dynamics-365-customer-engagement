@@ -32,6 +32,23 @@ Perform the following steps:
 > [!NOTE]
 > We recommend that you don't enable the auto-assign setting in consult notification templates.
 
+
+## Enable voice calls and chats to be accepted automatically
+
+When an agent rejects an incoming conversation, it is routed back to the queue. This impacts customer SLAs, queue wait times, and customer satisfaction. To avoid such scenarios, a conversation can be automatically accepted by an agent, either instantly or after the timer elapses.
+
+Perform the following steps:
+
+1. In Customer Service admin center, in the site map, go to **Workspaces** under **Agent experience**.
+
+2. Select **Manage** for **Notification templates**.
+
+3. On the **Omnichannel Configuration** > **Omnichannel Configuration - Notifications** page, select the template for which you want to enable the incoming conversations to be assigned.
+
+1. On the **General** tab of the ***<notification_name>* Notification Template**, set the toggle to **Yes** for **Auto-assign work items**, and then set the **Auto-accept voice/chat calls** toggle to **Yes**. The **Show Countdown** field is set to **Yes** and disabled.
+
+5. Select **Save**.
+
 ### See also
 
 [Manage notification templates](/dynamics365/app-profile-manager/notification-templates)  

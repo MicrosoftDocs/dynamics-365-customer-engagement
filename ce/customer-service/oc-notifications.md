@@ -61,6 +61,11 @@ There are two types of notifications:
 
 - **Alert notifications:** A type of notification where a dialog appears with action buttons. When you select **Accept**, a screen pops up with customer summary details. You need to take an action within the stipulated time, and the notification disappears when the time is up.
 
+Based on your organization's configurations, you can't reject conversations. The application performs one of the following actions occur when an incoming notification appears:
+
+- Creates a work item and assigns it to you automatically. 
+- Automatically accepts the conversation and opens a new session.
+
 ## Incoming voice call notifications
 
 You'll receive a voice call notification for an incoming call request after an intelligent bot processes the call. For information on how the call is processed and the call controls that are available to you, see [Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md).
