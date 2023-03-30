@@ -89,6 +89,7 @@ This document provides important, late-breaking information about known issues a
 - Due to a limitation in Outlook, the maximum divider height is 10 pixels.
 - Image placeholders for emails created before the April 2022 release are shown in blue. <!--- 2689328 -->
 - Adding a text link with **Add to calendar** functionality generates multiple errors. **Add to calendar** works properly for images and buttons. This error is related to event management only. <!--- 2965667 -->
+- When sending emails without building a journey, the consent field doesn't work if you're [using outbound subscription centers in real-time journeys](real-time-marketing-outbound-subscription.md).
 
 ## Marketing pages and forms
 
