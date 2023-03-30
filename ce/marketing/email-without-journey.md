@@ -1,7 +1,7 @@
 ---
 title: "Preview: Send emails without building a journey"
 description: "Learn how to send emails in Dynamics 365 Marketing without building a journey."
-ms.date: 03/02/2023
+ms.date: 03/27/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -41,3 +41,7 @@ To begin your email sending process, follow these steps:
 1. Select a segment and select **Preview** to preview the segment. You can only select published segments. 
 1. Select **Send** to send the mail. Your mail is queued up to be sent.
 1. On the confirmation screen, select **View Customer Journey** to see the simple journey that was created to send the email. The journey name matches the name of your email. Select **View Segment** to view the segment to which the email was sent.
+
+## Knowns issues with the send now functionality
+
+- The consent field in emails sent without building a journey *does not* work if you're [using outbound subscription centers in real-time journeys](real-time-marketing-outbound-subscription.md).

@@ -1,5 +1,5 @@
 ---
-title: "How to customize the Field Service work order form and best practices | MicrosoftDocs"
+title: Customize the work order form
 description: Learn how to customize work order forms in Dynamics 365 Field Service.
 ms.date: 03/03/2022
 ms.topic: article
@@ -10,7 +10,7 @@ search.app:
 - D365FS
 ---
 
-# Customize the Field Service work order form
+# Customize the work order form
 
 While setting up Field Service for your organization, you may have to customize the forms that back office workers like dispatchers, service managers, and other roles use to view important information and document their work. IT administrators may customize Field Service forms so users can capture information unique to your business or industry and to ensure the form layout matches your business processes.
 

@@ -25,7 +25,7 @@ Dynamics 365 Customer Insights applies artificial intelligence to analyze rich p
 - Apply data cleansing, enrichment, fuzzy matching, and more.
 - Use segments created by Customer Insights to target customer journeys in Dynamics 365 Marketing.
 
-For complete details, see the [Customer Insights documentation](/dynamics365/ai/customer-insights/overview).
+For complete details, see the [Customer Insights documentation](/dynamics365/customer-insights/overview).
 
 ## Prerequisites
 
@@ -39,7 +39,7 @@ Read this section for an overview of how to work with segments shared between Cu
 
 Customer Insights has its own database for holding contact records and other information, and its own tools for working with that information, including tools for creating segments. That means that Customer Insights requires access to your Marketing database to enable it to work with your marketing contacts. You set this up by adding your Marketing instance as a data source in Customer Insights.
 
-For complete instructions, see [Add a data source](/dynamics365/customer-insights/audience-insights/data-sources#add-a-data-source) in the Customer Insights documentation.
+For complete instructions, see [Add a data source](/dynamics365/customer-insights/data-sources#add-a-data-source) in the Customer Insights documentation.
 
 ### Export Customer Insights segments to get them into Marketing
 
@@ -96,7 +96,7 @@ To make your Marketing contacts available in Customer Insights, you must set Cus
 
 For complete instructions, see [Import data from Dataverse to Customer Insights](/dynamics365/customer-insights/connect-dataverse-managed-lake).
 
-Once your Marketing instance is connected as a data source, you'll probably also need to _unify_ the data with your Customer Insights customers. For details about this, see the [Data unification](/customer-insights/data-unification) topic in the Customer Insights documentation.
+Once your Marketing instance is connected as a data source, you'll probably also need to _unify_ the data with your Customer Insights customers. For details about this, see the [Data unification](/dynamics365/customer-insights/data-unification) topic in the Customer Insights documentation.
 
 Once the data source is set up, it will continue to work and refresh automatically. Usually, you'll only need to do this once.
 
