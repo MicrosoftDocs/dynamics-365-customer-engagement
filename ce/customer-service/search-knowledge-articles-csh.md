@@ -212,7 +212,7 @@ In Customer Service workspace and Omnichannel for Customer Service, the article 
 You can perform the following actions for the knowledge article:
 
 - Copy URL to copy the external URL of the article so you can share it with your customers over channels like chat or email.
-- Select the thumbs up or thumbs down icon to rate how helpful the article was. When you select the thumbs down icon, a **Comments** box appears where you can provide additional information and reasons for your rating.
+- Select the thumbs up or thumbs down icon to rate how helpful the article was. When you select the thumbs down icon, a **Comments** box appears, where you can provide additional information and reasons for your rating.
     Your administrator must [enable knowledge articles for feedback and ratings](/dynamics365/customer-engagement/customize/enable-entity-feedback).
     Customer service agents and customer service managers can create or view feedback based on their role and privileges. Out of the box, you can create, view, or edit your own feedback only. Customer service managers and knowledge managers can view feedback that you submit.
 
