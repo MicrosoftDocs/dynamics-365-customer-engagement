@@ -1,11 +1,12 @@
 ---
-title: "Nurture sales from lead to order (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use the out-of-the-box sales process to close more deals and improve customer satisfaction."
-ms.date: 10/25/2021
-ms.topic: get-started-article
+title: Nurture sales from lead to order
+description: Use the out-of-the-box sales process to close more deals and improve customer satisfaction.
+ms.date: 03/31/2023
+ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
+ms.custom: bap-template
 ms.custom: 
   - dyn365-sales
 searchScope: 
@@ -18,7 +19,7 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Understand the sales process 
+# Understand the sales process
 
 A sales process includes a set of repeatable steps that sellers follow to engage with a prospective customer from the early stage of awareness to closing a sale. You can achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the opportunity and recording the sale. You also end up with a more complete history that you can refer to later, if you plan to work with your customer again in the future or if your customer needs support.
 
@@ -31,7 +32,7 @@ Also, the specific process stages and terminology used by organizations vary bas
 
 Each stage typically maps to a specific sales record type. For example, during the qualifying stage, sellers are generally working with a lead. A lead represents someone with an interest in what you are selling. The goal of a lead is to qualify and advance it to the next stage in the sales process, such as the develop stage.
 
-Let's look at an example on how this sales processes is used to implement a sales lifecycle solution in an organization. The following image shows what a sales lifecycle might look like from start to end: 
+Let's look at an example on how this sales processes is used to implement a sales lifecycle solution in an organization. The following image shows what a sales lifecycle might look like from start to end:
 
 :::image type="content" source="media/sales-process-start-end.png" alt-text="A typical process of sales from start to end" lightbox="media/sales-process-start-end.png":::
 
@@ -42,7 +43,7 @@ Your sales process begins with a lead—someone who is interested in the product
     More information:   
     - [Create or edit a lead](create-edit-lead-sales.md)   
     - [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)
-2. **Develop**: The opportunity record is used to develop the details of the deal. Details such as the products and services they are interested in, estimated revenue, and time-lines are added to the opportunity.   
+2. **Develop**: The opportunity record is used to develop the details of the deal. Details such as the products and services they are interested in, estimated revenue, and timelines are added to the opportunity.   
     More information: [Create or edit an opportunity](create-edit-opportunity-sales.md)   
 3. **Propose**: Now it's time to present your proposal to your potential customer.   
     More information: [Create or edit a quote](create-edit-quote-sales.md)   
