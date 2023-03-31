@@ -3,7 +3,7 @@
 - name: Dynamics 365 Sales documentation
   href: help-hub.yml
 - name: What's new
-  href: march-2023-whatsnew.md
+  href: whats-new.md
 - name: Try, install, and manage
   items:
   - name: Sales trial
