@@ -874,6 +874,11 @@
         href: create-chat-auth-settings.md
       - name: Configure authentication settings for social channels
         href: create-chat-auth-settings.md#socialauth
+        items:
+        - name: Create authentication setting record using OAuth 2.0 code flow
+          href: create-chat-auth-settings.md#create-an-authentication-setting-record-for-apple-messages-for-business-using-oauth-20-code-flow
+        - name: Create authentication setting record using OAuth 2.0 OpenID connect flow
+          href: create-chat-auth-settings.md#create-an-authentication-setting-record-for-apple-messages-for-business-using-oauth-20-openid-connect-flow
     - name: Configure payment profiles
       href: configure-payment-profiles.md
     - name: Enable real-time translation of conversations
