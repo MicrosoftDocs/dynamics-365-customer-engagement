@@ -28,7 +28,7 @@ search.app:
 > This article refers to a feature that is in preview and may not be enabled in your environment. If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to the **Email editor** area, enabling the **Send Now (preview)** feature switch, and saving the setting by selecting **Save** on the top right corner.
 
 > [!CAUTION]
-> When sending emails without building a journey, the consent field doesn't work if you're [using outbound subscription centers in real-time journeys](real-time-marketing-outbound-subscription.md).
+> Sending emails without building a journey currently only supports the [default consent profile](set-up-subscription-center.md#the-default-subscription-center). Custom subscription centers are not supported.
 
 You can now send an email directly from the email editor without the overhead of creating a journey. From the email editor, select the **Ready to Send** option. This directs you to select the **Send** the email option where you can select a segment, preview its contents, and then send the email. The process builds a simple journey in the background to assist you in sending your email.
 
