@@ -74,7 +74,6 @@ The reports refresh shows the following information.
 ### See also
 
 [Introduction to Customer Service insights](introduction-customer-service-analytics.md)  
-
 [Manage bookmarks](manage-bookmarks.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
