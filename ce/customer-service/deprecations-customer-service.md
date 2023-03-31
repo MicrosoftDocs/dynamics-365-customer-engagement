@@ -96,9 +96,9 @@ The Customer Service Insights standalone app is deprecated. We recommend that yo
 
 ## Intraday insights for Omnichannel for Customer Service to be deprecated
 
-Effective October 31, 2023, [intraday insights for Omnichannel for Customer Service](configure-intraday-dashboard-supervisor.md) will be deprecated. Security and other critical updates will be provided until October 31, 2023. We won't release any other functionalities for Intraday insights.
+Effective October 31, 2023, [intraday insights for Omnichannel for Customer Service](configure-intraday-dashboard-supervisor.md) will be deprecated. Security and other critical updates will be provided until October 31, 2023. We won't release any other functionalities for intraday insights.
 
-For new customers, effective October 31, 2023, intraday insights for Omnichannel for Customer Service will no longer be shipped. You can request for Intraday insights by creating a service request, but we recommend that you use [real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability.
+For new customers, effective October 31, 2023, intraday insights for Omnichannel for Customer Service will no longer be shipped. You can request for intraday insights by creating a service request, but we recommend that you use [real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability.
 
 ### See also
 
