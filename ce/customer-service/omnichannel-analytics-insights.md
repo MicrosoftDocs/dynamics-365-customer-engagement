@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 03/30/2023
+ms.date: 03/31/2023
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -21,13 +21,13 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Omnichannel for Customer Service dashboards
 
-The insights dashboards in Omnichannel for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
+The insights dashboards in Omnichannel for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends. The dashboards provide a view into the support operation across the various channels.
 
-The Omnichannel for Customer Service dashboards provide a view into the support operation across the various channels.
+You can save personalized views of your dashboards as bookmarks.
 
-## Configure dashboards
+## Manage dashboards
 
-To enable the dashboards, see [Configure Omnichannel historical analytics](oc-historical-analytics-reports.md).
+To manage the dashboards, go to: [Manage historical analytics reports in Omnichannel for Customer Service](oc-historical-analytics-reports.md).
 
 ## Omnichannel historical analytics reports
 
@@ -35,57 +35,27 @@ The following dashboard reports are available for Omnichannel historical analyti
 
 ### Summary
 
-The Summary dashboard gives you an integrated view of the Power Virtual Agents bot and Omnichannel metrics.
-
-> [!div class="mx-imgBorder"]
-> ![Summary dashboard.](media/oc-summary-dashboard.png "Summary dashboard")
-
-More information: [Conversation dashboard](omnichannel-summary-dashboard.md)
+The Summary dashboard gives you an integrated view of the Power Virtual Agents bot and Omnichannel metrics. More information: [Conversation dashboard](omnichannel-summary-dashboard.md)
 
 ### Conversation
 
-The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization.
-
-> [!div class="mx-imgBorder"]
-> ![Conversation dashboard.](media/conversation-dashboard.png "Conversation dashboard")
-
-More information: [Conversation dashboard](oc-conversation-dashboard.md)
+The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization. More information: [Conversation dashboard](oc-conversation-dashboard.md)
 
 ### Queue
 
-The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
-
-> [!div class="mx-imgBorder"]
-> ![Queue dashboard.](media/queue-report.png "Queue dashboard")
-
-More information: [Queue dashboard](oc-queue-dashboard.md)
+The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating. More information: [Queue dashboard](oc-queue-dashboard.md)
 
 ### Agent
 
-The Agent dashboard shows charts and KPIs that you can use to guide agents and understand overall agent performance.
-
-> [!div class="mx-imgBorder"]
-> ![Agent dashboard.](media/agent-report-cs.png "Agent report").
-
-More information: [Agent dashboard](agent-dashboard.md#agent-dashboard)
+The Agent dashboard shows charts and KPIs that you can use to guide agents and understand overall agent performance. More information: [Agent dashboard](agent-dashboard.md#agent-dashboard)
 
 ### Bot
 
-The Bot dashboard shows charts and KPIs that you can use to understand how bots are playing a role in a support organization. 
-
-> [!div class="mx-imgBorder"]
-> ![Bot dashboard.](media/oc-bot-dashboard.png "Bot dashboard")
-
-More information: [Bot dashboard](oc-bot-dashboard.md)
+The Bot dashboard shows charts and KPIs that you can use to understand how bots are playing a role in a support organization. More information: [Bot dashboard](oc-bot-dashboard.md)
 
 ### Conversation Topics
 
-The Topics dashboard shows a detailed breakdown of conversations and their assigned topics.
-
-> [!div class="mx-imgBorder"]
-> ![Conversation Topics.](media/conversation-topics-dashboard.png "Conversation Topics")
-
-More information: [Topics dashboard](oc-conversation-topics-dashboard.md)
+The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. More information: [Topics dashboard](oc-conversation-topics-dashboard.md)
 
 ## Information that you need to know about analytics reports
 
@@ -101,20 +71,10 @@ The reports refresh shows the following information.
 > [!NOTE]
 > A report might be blank if you've customized any of the listed entities or are using out-of-the-box entities.
 
-## Customize reports
-
-### Save report views using bookmarks
-
-You can also save personalized views of your reports as bookmarks and then use the **Bookmarks** option to select a saved view, update, or delete a bookmark, and set a default bookmark. More information: [Manage report bookmarks](manage-bookmarks.md)
-
-## Troubleshoot issues
-
-To troubleshoot issues when you try to access or view the reports, see [Troubleshoot issues when accessing reports](customer-service-analytics-insights-csh.md#troubleshoot-issues-when-accessing-reports).
-
-
 ### See also
 
 [Introduction to Customer Service insights](introduction-customer-service-analytics.md)  
 
+[Manage bookmarks](manage-bookmarks.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
