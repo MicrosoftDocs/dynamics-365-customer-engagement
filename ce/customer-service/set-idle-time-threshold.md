@@ -1,7 +1,7 @@
 ---
 title: "Set idle time threshold | Microsoft Docs"
 description: "Learn how to set the idle time threshold."
-ms.date: 31/03/2023
+ms.date: 03/31/2023
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
