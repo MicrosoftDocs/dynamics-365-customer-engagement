@@ -1,14 +1,14 @@
 ---
-title: "What's new in Dynamics 365 Sales"
-description: "Learn about what's new in Dynamics 365 Sales."
-ms.date: 03/29/2023
+title: "What's new or changed in Dynamics 365 Sales (March 2023)"
+description: "Learn about what's new or changed in the March 2023 release of Dynamics 365 Sales."
+ms.date: 03/31/2023
 ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# What's new in Dynamics 365 Sales
+# March 2023 release
 
 We're excited to announce our newest updates! This article summarizes early access, public preview, and general availability features that were released recently. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](/dynamics365/release-plans/).
 
@@ -16,17 +16,7 @@ Features in [public preview](/power-platform/admin/what-are-preview-features-how
 
 To submit and vote on feature requests and product suggestions, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=3d83d841-984b-ea11-a812-000d3a579c39&forumName=Dynamics%20365%20Sales).
 
-## March 2023 release
-
-### Applicable versions
-
-|Region  |Version Number  |
-|---------|---------|
-|All     | 9.0.23023.10001        |
-|All     | 9.0.23021.10001        |
-
-
-### New features and enhancements
+## New features and enhancements
 
 
 |Feature area  |Feature  |Description  |Resources  |Enabled by |Availability  |
@@ -38,9 +28,3 @@ To submit and vote on feature requests and product suggestions, go to the [Dynam
 |Sales engagement     | Engage with your Customers using SMS conversation        |  Support for incoming SMS, routing them to appropriate records, and showing them in the timeline.       | [Documentation](manage-text-message-communications.md)            |   Enabled by admin      | Public preview        |
 |Sales engagement     |  Prioritize your engagements by using focused view       | View and manage all your sales records and the associated activities on one page. |   [Documentation](focused-view.md)      | Enabled for all        |  Early access       |
 
-
-## Upcoming releases
-
-For a list of features coming up in the next few months, see [2023 release wave 1 plan](/dynamics365/release-plan/2023wave1/sales/dynamics365-sales/planned-features).
-
-For the latest available version in your region, see [Released Versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales).
