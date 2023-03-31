@@ -23107,6 +23107,13 @@
       "redirect_url": "/dynamics365/sales/opportunity-pipeline-view-for-admins",
       "redirect_document_id": "false"
     },
+
+    {
+      "source_path": "ce/sales/connect-share-feedback.md",
+      "redirect_url": "/dynamics365/sales/overview",
+      "redirect_document_id": "false"
+    },
+
     {
       "source_path": "ce/sales-enterprise/help-hub.md",
       "redirect_url": "/dynamics365/sales/help-hub",
