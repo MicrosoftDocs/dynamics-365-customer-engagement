@@ -46,7 +46,7 @@ When Teams chat sync is enabled:
 
 > [!NOTE]
 > - You can enable Teams chat sync only when Teams chat in Dynamics 365 is enabled.
-> - Activities entities, including the Teams Chat activity, do not currently support an association to another activity entity. For example, a Teams Chat activity row cannot be associated (regarding) to another activity row such as a task or meeting activity. You can still create linked chats which are associated to activity entities such as emails, meetings, or tasks, but those linked chats will not be created as activity records which appear in the timeline.
+> - Activities entities, including the Teams Chat activity, currently don't support an association to another activity entity. For example, a Teams Chat activity row cannot be associated (regarding) to another activity row such as a task or meeting activity. You can still create linked chats which are associated to activity entities such as emails, meetings, or tasks, but those linked chats will not be created as activity records which appear in the timeline.
 
 ### Enable Teams chat sync
 
