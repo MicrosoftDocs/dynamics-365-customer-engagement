@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # View and understand sales usage reports
 
-The sales usage reports provides a snapshot view of the historical operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities. 
+The sales usage reports provide a snapshot view of the historical operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities. 
 
 The reports only include data that has been added or updated in the application from the day of enablement. After enabling, it may take up to three days for the sales usage reports to display data, there after, the data is refreshed every 24 hours.
 
