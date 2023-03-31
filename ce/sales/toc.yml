@@ -105,6 +105,8 @@
       href: create-quote-pdf.md
     - name: View and manage records in focused view  
       href: focused-view.md
+    - name: Set focused view as the default view
+      href: set-focused-view-as-default.md
     - name: Work with views
       href: work-with-views.md
 - name: Administration guide
@@ -141,6 +143,8 @@
               href: match-fields-between-dynamics365-zoominfo.md
             - name: Customize the ZoomInfo app
               href: customize-zoominfo-app.md
+        - name: Set focused view as the default view
+          href: set-focused-view-as-default.md              
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -241,6 +245,8 @@
               href: pls-duplicate-models.md
             - name: Add lead scoring widget to a form
               href: pls-add-widget.md
+        - name: Set focused view as the default view
+          href: set-focused-view-as-default.md
     - name: Opportunity management
       items:
         - name: Configure the opportunity pipeline view
@@ -267,6 +273,8 @@
               href: pos-add-widget.md
         - name: Add the Kanban control to Opportunity or Activity entities
           href: add-kanban-control.md
+        - name: Set focused view as the default view
+          href: set-focused-view-as-default.md          
     - name: Product and price list management
       items:
         - name: Set up a product catalog
@@ -437,6 +445,8 @@
               href: view-details-segment.md
             - name: Edit a segment
               href: edit-a-segment.md
+            - name: Prioritize segment
+              href: prioritize-segment.md  
             - name: Delete or deactivate a segment
               href: delete-deactivate-a-segment.md
         - name: Manage assignment rules
@@ -456,6 +466,8 @@
               href: manage-sales-teams.md
             - name: Manage seller attributes
               href: manage-seller-attributes.md
+            - name: Manage seller availability  
+              href: manage-seller-availability.md
         - name: Engage with customers through text messages
           href: sms-intro.md
           items:

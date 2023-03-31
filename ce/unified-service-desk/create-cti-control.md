@@ -3,8 +3,8 @@ title: "Create a CTI Control | MicrosoftDocs"
 description: "Learn about the interfaces required to create a CTI control and how you can configure the hosted control in Unified Service Desk."
 ms.date: 12/31/2019
 ms.topic: article
-author: "mh-jaya"
-ms.author: "v-jmh"
+author: "gandhamm"
+ms.author: "mgandham"
 manager: "shujoshi"
 search.audienceType: 
   - customizer

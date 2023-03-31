@@ -3,8 +3,8 @@ title: "Panel Layout (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn to create a Panel Layout hosted control for defining the arrangement of panels in Unified Service Desk."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

@@ -3,8 +3,8 @@ title: "startProactiveChat (JavaScript API reference) for Omnichannel for Custom
 description: Includes reference information about startProactiveChat method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
 ms.date: 01/25/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ---
 # startProactiveChat

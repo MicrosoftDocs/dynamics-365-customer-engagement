@@ -24,6 +24,8 @@
       href: real-time-marketing-email-get-started.md
     - name: Boost event engagement with real-time journeys
       href: real-time-marketing-event-registration-journey.md
+    - name: Identify and resolve errors with real-time customer care journeys
+      href: real-time-marketing-customer-care-journey.md
   - name: Installation and environment management
     items: 
     - name: Install or uninstall
@@ -152,6 +154,8 @@
           href: fix-high-bounce-rate.md
         - name: Warm up an IP or domain
           href: email-warm-up.md
+        - name: Public IP addresses used for sending e-mails
+          href: public-ip-addresses-for-email-sending.md
         - name: Create an SPF TXT record
           href: create-spf-record.md
         - name: Email security and connection encryption
@@ -304,6 +308,8 @@
           href: real-time-marketing-multiple-branches.md
         - name: Personalize triggers using conditions
           href: real-time-marketing-personalize-triggers.md
+        - name: "Preview: Limit sent with frequency capping"
+          href: real-time-marketing-frequency-cap.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
         - name: Customize the journey designer in real-time Marketing
@@ -336,8 +342,12 @@
         href: real-time-marketing-personalize-lists.md
     - name: Assets
       items: 
+      - name: Asset libary add-on file migration
+        href: real-time-marketing-add-on-migration.md
       - name: Real-time marketing asset library add-on
         href: real-time-marketing-asset-library.md
+      - name: Use images, files, and videos in your content
+        href: upload-images-files.md
     - name: Administration
       items: 
       - name: Journeys
@@ -522,8 +532,6 @@
         href: pages-forms-troubleshoot.md
     - name: Marketing content library management
       items: 
-      - name: Upload and use images in online content
-        href: upload-images-files.md
       - name: Create a video library and add videos to your designs
         href: video-content.md
     - name: Segmentation
@@ -795,7 +803,7 @@
   - name: Learning catalog
     items: 
     - name: Learning catalog overview
-      href: learning-catalog.md
+      href: learning-catalog.yml
     - name: Business Decision Maker
       href: learning-bdm.md
     - name: Business User

@@ -126,6 +126,7 @@ If you don't want to see the forecast category in the opportunity form, you'll n
 ### See also
 
 [Blog: Tips for setting up sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/11/23/tips-for-setting-up-sales-forecasting-in-dynamics-365-sales/)  
+[System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 [View forecasts](view-forecasts.md)  
 [About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)    

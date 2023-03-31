@@ -3,8 +3,8 @@ title: "Learn to use Unified Service Desk| MicrosoftDocs"
 description: "This section provides information about the features and capabilities of Unified Service Desk that you can use to configure your agent desktop application."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

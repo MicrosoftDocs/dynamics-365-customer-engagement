@@ -82,8 +82,11 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
   
 ## Typical next steps  
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)  
+![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Get introduced to the lead through who knows whom](who-knows-whom.md)
+
   
  ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)  
+ ![Home button](media/home-button.png "Home button") [View relationship analytics and KPIs for the lead](relationship-analytics.md)
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

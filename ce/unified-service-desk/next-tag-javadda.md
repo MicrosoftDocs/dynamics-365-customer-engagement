@@ -3,8 +3,8 @@ title: "Next tag (JavaDDA) in Unified Service Desk | MicrosoftDocs"
 description: "Learn how the Next tag (JavaDDA) works in Unified Service Desk. Also find a code snippet that shows how to use the tag."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

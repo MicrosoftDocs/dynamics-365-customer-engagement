@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: conceptual
-ms.date: 03/15/2023 
+ms.date: 03/30/2023 
 ms.custom: bap-template 
 ---
 
@@ -15,9 +15,9 @@ With the voice channel, Customer Service provides agents with the ability to rec
 
 As you plan to configure and use the voice channel for your business needs you'd want to understand the pricing and billing models, so that you can optimize your costs. The voice channel is built over Azure Communication Services. Azure Communication Services allows you to use phone numbers to make voice calls and send SMS messages with the PSTN.
 
-The prices for Azure Communication Services are based on a pay-as-you-go model. Each participant of the call is considered in the billing for each minute they're connected to the call, irrespective of the call being a video or voice call, or screen-sharing.
+The prices for Azure Communication Services are based on a pay-as-you-go model and varies per [country](https://github.com/Azure/Communication/blob/master/pricing/communication-services-pstn-rates.csv).  Each participant of the call is considered in the billing for each minute they're connected to the call. More information: [Pricing Scenarios](/azure/communication-services/concepts/pricing).
 
-Calling and screen-sharing services are charged on a per minute per participant basis at $0.004 per participant per minute for group calls. Azure Communication Services doesn't charge for data egress. To understand the various call flows that are possible, see: [Call flow basics](/azure/communication-services/concepts/call-flows)
+ Azure Communication Services doesn't charge for data egress. To understand the various call flows that are possible, see: [Call flow basics](/azure/communication-services/concepts/call-flows).
 
 For more information about licenses and pricing, see: [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
@@ -33,6 +33,16 @@ The pricing calculations for the following inbound and outbound calling scenario
 - Outbound: Agent calls the customer
 - Inbound: Azure direct routing
 - Outbound: Azure direct routing
+
+The following table summarizes the pricing for each scenario:
+
+|Scenario  | Price   |
+|----------|-----------|
+|PSTN inbound    | $0.022 per minute      |
+|PSTN outbound    | $0.013 per minute      |
+|VOIP inbound| $0.004 per minute   |
+|SBC to Azure Communication Services | $0.004 per minute   |
+
 
 ### Inbound: Customer calls from a mobile, call is escalated to a human agent from an IVR bot
 
@@ -119,7 +129,7 @@ Mae calls your US toll-free number (acquired from Azure Communication Services) 
 - Cost to record= 10 x $0.002 per minute = $0.02.
 - Omnichannel for Customer Service recording bot doesn't incur extra Azure Communication Services VOIP charges.
 
-<sup>1</sup> Mae's participation is charged based on the Teams license.
+<sup>1</sup> Mae's participation is charged based on the Teams license.<br>
 <sup>2</sup> Cole's participation is charged based on the Teams license.
  
 **Total cost for the call**: $0.22 + $0.02 + $0.065 + $0.02 + applicable Teams charges = $0.325  + applicable Teams charges
@@ -150,7 +160,7 @@ Mae calls your toll-free number (used in [Azure direct routing](/azure/communica
 - Omnichannel for Customer Service bot adds Matias to a call by escalating the direct routing call to a group call.
 - The call lasts 10 minutes.
 
-:::image type="content" source="media/direct-routing-inbound.png" alt-text="Pricing example 10-Inbound call from customer through Teams":::
+:::image type="content" source="media/direct-routing-outbound.png" alt-text="Pricing example 8-Inbound call from customer through Teams":::
 
 **Cost calculation**
 
@@ -171,7 +181,8 @@ Matias makes an outbound call from Omnichannel for Customer Service to a telepho
 - Dynamics 365 Omnichannel for Customer Service bot adds Mae to a call by escalating the direct routing call to a group call.
 - The call lasts for 10 minutes.
 
-:::image type="content" source="media/direct-routing-outbound.png" alt-text="Pricing example 8-Inbound call from customer through Teams":::
+:::image type="content" source="media/direct-routing-inbound.png" alt-text="Pricing example 10-outbound call from customer through Teams":::
+
 
 **Cost calculation**
 

@@ -3,8 +3,8 @@ title: "msdyn_ApplyRoutingRuleEntityRecord Action Reference (Developer Guide for
 description: "Reference information about the msdyn_ApplyRoutingRuleEntityRecord Action."
 ms.date: 10/03/2019
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
+author: "gandhamm"
+ms.author: mgandham
 manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
