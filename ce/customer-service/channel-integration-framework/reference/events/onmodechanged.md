@@ -3,8 +3,8 @@ title: "onmodechanged (JavaScript API Reference) for Dynamics 365 Channel Integr
 description: "Learn about the onmodechanged event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
 ms.date: 02/14/2023
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 applies_to: 
   - "Dynamics 365 for Customer Engagement (online)"

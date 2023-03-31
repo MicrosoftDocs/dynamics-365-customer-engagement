@@ -3,8 +3,8 @@ title: "Use knowledge base management for effective customer engagement | Micros
 description: "Learn how to use knowledge base management for effective customer engagement in Unified Service Desk."
 ms.date: 08/17/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

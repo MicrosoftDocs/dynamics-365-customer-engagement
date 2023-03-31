@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/01/2023
+ms.date: 03/28/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -23,7 +23,7 @@ search.app:
 You can search knowledge articles in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service to help answer a customer's question or solve an issue.
 
 > [!NOTE]
-> Knowledge base search is available in some versions of Dynamics 365 Customer Engagement (on-premises) also. For more information, go to [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities).
+> Knowledge base search is available in some versions of Dynamics 365 Customer Engagement (on-premises) also. For more information, go to [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities).
 
 The article describes the various options you can use to search knowledge articles.
 
@@ -49,11 +49,11 @@ To use the various search options discussed in this article, one or more of the 
     - Status
     - Title
     
-- To search using favorites, your administrator has granted **Create**, **Read**, **Write**, **Append**, **Appendto** privileges on the **msdyn_favoriteknowledgearticle** entity to the CSR Manager and the Customer Service Representative security roles as applicable.
+- You have access to knowledge article entities, such as Knowledge Articles, Favorites, Attachments, and Views. Your administrator has granted the **Create**, **Read**, **Write**, **Append**, and **Appendto** privileges to any new custom roles that you've created.
 
 - In Customer Service workspace and Omnichannel for Customer Service, your administrator has enabled the app side pane and knowledge search in Agent experience profiles.
 
-- To open the knowledge pane, you are dealing with a case or conversation. To open the knowledge pane for any other entity, your administrator must enable it in [knowledge management configuration](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management).
+- To open the knowledge pane, you're dealing with a case or conversation. To open the knowledge pane for any other entity, your administrator must enable it in [knowledge management configuration](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management).
 
 ## Use the direct knowledge base search in Customer Service Hub
 
@@ -84,9 +84,9 @@ You can search the knowledge base for related articles in the reference pane whe
 
 1. Open a case or conversation.
 
-2. In the reference pane to the right of the timeline, select the Knowledge search (book) icon.
+1. In the reference pane to the right of the timeline, select the Knowledge search (book) icon.
 
-3. Replace the default search term with your own keyword to fine-tune the search results.
+1. Replace the default search term with your own keyword to fine-tune the search results.
 
     :::image type="content" source="media/knowledge-search-csh.png" alt-text="View the features of knowledge base search":::
 
@@ -152,7 +152,9 @@ In Customer Service workspace and Omnichannel for Customer Service, smart assist
 
 The suggest-as-you-type feature starts suggesting relevant knowledge articles as you type keywords in the search box.
 
-The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The maximum number of knowledge articles displayed in the flyout is six. The matched text is highlighted to show the presence of the keyword. When you select the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the direct knowledge base search.
+The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. However, if your search phrase consists of more than one keyword, you'll see knowledge article suggestions with a full-string match only. For example, if you search for **Cheque Book Reissue**, you'll see knowledge article suggestions that match the full string **Cheque Book Reissue** and not the individual keywords, such as **Cheque**, **Book**, or **Reissue**.
+
+The maximum number of knowledge articles displayed in the flyout is six. The matched text is highlighted to show the presence of the keyword. When you select the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the direct knowledge base search.
 
 Your administrator must [enable suggest-as-you-type](set-up-knowledge-management-embedded-knowledge-search.md#enable-the-suggest-as-you-type-option) before you can use it.
 
@@ -187,15 +189,15 @@ In Customer Service workspace and Omnichannel for Customer Service, when you sel
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-View the most relevant search results for your query across search providers in a single ranking. With easy sorting, find the knowledge article that best suits your needs while dealing with a customer. The name of the source provider appears on the knowledge article card. You can hover over to get the full name of the source provider, if required.
+View the most relevant search results for your query across search providers in a single ranking. With easy sorting, find the knowledge article that best suits your needs while dealing with a customer. The name of the source provider appears on the knowledge article card. You can hover over to get the full name of the source provider, if necessary.
 
-To enable the integrated search provider option, contact your administrator. More information: [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview). After the feature is enabled by your administrator, you can view search results for your keywords across your configured search providers in both Customer Service Hub and Customer Service workspace.
+To enable the integrated search provider option, contact your administrator. More information: [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview). After your administrator enables the feature, you can view search results for your keywords across your configured search providers in both Customer Service Hub and Customer Service workspace.
 
 To search from Customer Service workspace, for example:
 
 1. In the Customer Service workspace site map, select a case and then select **Knowledge search** on the app side pane.
 1. Enter the search keyword. Depending on the keyword, you can see the most relevant search results along with the search provider.
-1. Select **Show more** to view additional results.
+1. Select **Show more** to view more results.
 
 ## View knowledge articles
 
@@ -218,7 +220,7 @@ You can perform the following actions for the knowledge article:
 
 In Customer Service Hub, select an article title to see its full content rendered in the same control. The article opens inline, and you can scroll to read the complete article.
 
-However, if you see an error while trying to open an article, it might be because the link types used in the article aren't a part of the origins allow list. The error message "Update your origins allow list if any iframe in the article doesn't work or displays error" will also appear. You must contact your administrator to update your origins allow list. More information: [Configure the origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md)
+However, if you see an error when you try to open an article, it might be because the link types used in the article aren't a part of the origins allow list. The error message "Update your origins allow list if any iframe in the article doesn't work or displays error" will also appear. You must contact your administrator to update your origins allow list. More information: [Configure the origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md)
 
 In this view mode, you can perform actions such as linking the knowledge article to a record or emailing the knowledge article to a customer. To learn more about sending the knowledge articles via email, go to [Email a knowledge article](email-articles.md#email-a-knowledge-article).
 

@@ -46,7 +46,7 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
 - **Create a static snapshot of segment membership**
     - Static segment lists are an important part of audience management for marketers. Use static segments in one-off campaigns or newsletters where it’s essential to implement segment membership based on a specific date or time. Static segments ensure that new people that become eligible for the segment won't enter the one-off journey, even if it continues to be live. You can create static snapshots no matter how the segment is built (whether it uses query conditions or manual inclusions or exclusions). The flexibility in static segment creation separates how segments are defined from how you want to update or refresh segments.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-static-snapshot-real-time-marketing-segment-membership)
-    -  [Docs](real-time-marketing-static-snapshot.md)
+    - [Docs](real-time-marketing-static-snapshot.md)
   
     > [!div class="mx-imgBorder"]
     > ![static snapshot](media/whats-new-static-snapshot.png "static snapshot")
@@ -77,7 +77,7 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
 
 - **Customize the real-time journey designer to better streamline your business flows**
     - Customization of your customer journeys is now available in Dynamics 365 Real-time Marketing. Not only can marketers use out-of-the-box Marketing capabilities to effectively engage with their customers, but they can also now create personalized, flexible, and efficient solutions through Power Apps to better tailor the app to their specific business needs. For example, you can now extend your Real-time journey canvas to add any customized fields through Dataverse to better streamline your business processes for higher efficiency. This allows you to add custom fields such as 'campaign' to your journeys to better manage your assets, collaborate amongst your team members, and gives you more flexibility to create customized analytics reports.
-    -  [Docs](real-time-marketing-journey-designer.md)
+    - [Docs](real-time-marketing-journey-designer.md)
 
     > [!div class="mx-imgBorder"]
     > ![customize journey designer](media/whats-new-journey-designer.png "customize journey designer")
@@ -94,40 +94,24 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/easily-create-engaging-content-using-ai-powered-content-ideas)
     - [Docs](content-ideas.md)
 
-    > [!div class="mx-imgBorder"]
-    > ![AI content ideas](media/whats-new-ai-content-ideas.png "AI content ideas")
-
 - **Accurately target customers using improved AI-powered natural language segments**
     - The query assist feature is enhanced with generative AI capabilities. Use conversational, everyday language to quickly build targeted segments. Generate rules that are more accurate with less effort, allowing you to spend more time building customer relationships and less time constructing complex segments from scratch. For example, you can say “Please show me active contacts that attended the coffee tasting event”
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/accurately-target-customers-using-improved-ai-powered-natural-language-segments)
     - [Docs](real-time-marketing-natural-language-segments.md)
 
-    > [!div class="mx-imgBorder"]
-    > ![natural language segments](media/whats-new-natural-language-segments.png "natural language segments")
-
 - **Create beautiful and engaging emails in minutes**
     - The simplified email editor with the improved template gallery allows you to create engaging content within minutes, whether you are an experienced marketer or create emails occasionally to engage with your customers. Now, you can make basic content modifications directly on canvas, and enjoy easy, delightful, and focused experience. Whereas the new template gallery makes it easier than ever to find just the right template for your next email. 
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
-    - [Docs](https://learn.microsoft.com/en-us/dynamics365/marketing/easy-editor)
-
-    > [!div class="mx-imgBorder"]
-    > ![easy email editor](media/whats-new-email-easy-editor.png "easy email editor")
 
 - **Send emails quickly without building a journey**
     - Send emails without creating a journey. This workflow allows you to select from a new template library, make changes easily with simplifications to the email editor, and send emails to the segment members you need to reach within minutes.
-    - [Release plan](dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
-    -  [Docs](real-time-marketing-email-without-journey.md)
-
-    > [!div class="mx-imgBorder"]
-    > ![send email without building journey](media/whats-new-send-email-without-building-journey.png "send email without building journey")
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
+    - [Docs](email-without-journey.md)
 
 - **Prevent message fatigue by limiting the messages sent to a customer in a specific period**
     - Ensure that your customers receive the right message at the right moment and at the right frequency to prevent fatigue, avoid unsubscribes, and facilitate optimal engagement with your key messages. Some customers qualify for multiple journeys and campaigns that run simultaneously. This results in customers receiving multiple messages through one channel in a short period of time. Customers may perceive these messages as spam, which lowers their engagement. With the frequency cap feature, you can optimize engagement by controlling how many messages are sent across multiple channels over a period.
-    -  [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/prevent-message-fatigue-limiting-messages-sent-customer-specific-period)
-    -  [Docs](real-time-marketing-frequency-cap.md)
-
-    > [!div class="mx-imgBorder"]
-    > ![frequency cap](media/whats-new-prevent-message-fatigue-with-frequency-cap.png "frequency cap")
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/prevent-message-fatigue-limiting-messages-sent-customer-specific-period)
+    - [Docs](real-time-marketing-frequency-cap.md)
 
 - **Scale your business effortlessly and define access to marketing assets**
     - Improve productivity by defining marketing asset access and visibility to match your business structure. As businesses create vast amounts of assets, organizing data according to organizational structure becomes critical. Well-organized assets are important to remaining compliant and productive. Now in real-time marketing, you can effortlessly organize your digital assets, content, and journeys to match your organizational structure by separating business and customer data across organizational boundaries. Separating data enables you to gain comprehensive insights into a specific brand's marketing performance without losing sight of the bigger picture. Compliance risk is reduced by using out-of-the-box campaigns and data segregation capabilities across your organization.
@@ -136,7 +120,7 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
 
 - **Hop over one-to-many relationships for dynamic text**
     - With dynamic text data that requires traversing 1-to-many relations, unlock even more data for personalization. Consider a university alumni donation campaign where you would want to include the name of the college attended by each alum for driving maximum engagement. However, an alum might have attended multiple colleges in that university, resulting in a "1-to-many" relationship between student and college records. Dynamic text can now be defined for such data.
-    -  [Docs](real-time-marketing-predefined-dynamic-text.md)
+    - [Docs](real-time-marketing-predefined-dynamic-text.md)
 
     > [!div class="mx-imgBorder"]
     > ![dynamic text](media/whats-new-personalization-dynamic-text.png "dynamic text")

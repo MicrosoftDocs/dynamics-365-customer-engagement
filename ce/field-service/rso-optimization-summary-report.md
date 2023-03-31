@@ -1,6 +1,6 @@
 ---
 title: Optimization summary report
-description: This article contains information about the optimization summary report and the charts it contains.
+description: This article provides information about the optimization summary report and the charts it contains.
 author: FeifeiQiu
 ms.author: feiqiu
 ms.reviewer: mhart
@@ -16,12 +16,11 @@ search.app:
 
 # Optimization summary report
 
-The optimization summary report is available in the Resource Scheduling Optimization add-in. It analyzes, such as an analysis of minimized travel time.
-The optimization summary report in the Resource Scheduling Optimization add-in analyzes the automatically scheduled bookings in and the effect they had on the business.
+The optimization summary report in the Resource Scheduling Optimization Add-in analyzes automatically scheduled bookings and the effect they had on the business.
 
 ## Before you start
 
-To run the report, the resource scheduling optimization administrator needs to publish at least one [optimization schedule](rso-optimization-schedule.md).  
+To run the report, the Resource Scheduling Optimization administrator needs to publish at least one [optimization schedule](rso-optimization-schedule.md).  
 
 ## Filters and slicers
 
@@ -30,16 +29,16 @@ To run the report, the resource scheduling optimization administrator needs to p
 
 ## Report metrics
 
-To access the admin report, open the **Resource Scheduling Optimization** app and go to **Analytics** > **Reports**.
+To access the admin report, open **Resource Scheduling Optimization** and go to **Analytics** > **Reports**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource scheduling optimization summary report.](./media/scheduling-analytics-rso-summary.png)
+> ![Screenshot of a Resource Scheduling Optimization summary report.](./media/scheduling-analytics-rso-summary.png "Screenshot of a Resource Scheduling Optimization summary report.")
 
 ### Booking scheduled
 
 Total number of bookings scheduled.
 
-### Resource allocated
+### Resources allocated
 
 Number of resources allocated.
 
@@ -51,7 +50,7 @@ The total work time of all allocated resources.
 
 Sum of the travel time of all allocated resources.
 
-### Total time allocation (hrs.)
+### Total times allocation (hrs.)
 
 Distribution of work time and travel time in the scheduled bookings.
 
@@ -59,9 +58,9 @@ Distribution of work time and travel time in the scheduled bookings.
 
 List of each resource's scheduled bookings, locked bookings, work time, and travel time. Overbooked resources are highlighted.
 
-### Least allocated resource
+### Least allocated resources
 
-Ranks the resources by lowest utilization to help dispatchers assign jobs on short notice.
+Ranks the resources by lowest usage to help dispatchers assign jobs on short notice.
 
 ### Territory summary
 

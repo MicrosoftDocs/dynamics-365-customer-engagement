@@ -59,5 +59,6 @@ Business units affect forms as follows:
 > While the business unit scoping feature can be turned on or off in outbound marketing, it behaves differently for real-time marketing. Business unit scoping for real-time Marketing is an irreversible feature switch; once it's enabled, it can't be disabled. To enable this feature:
 
 1. Go to **Settings** > **Other settings** > **Feature switches**.
-1. Set the **Business Unit Scoping (Real-Time Marketing)** slider to **On**.
+1. Set the **Business Unit Scoping (Real-Time Marketing)** toggle to **On**.
 1. Read the customer agreement displayed in the prompt and select on **I Agree** to turn on the feature.
+1. Select **Save** in the upper right.

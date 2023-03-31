@@ -3,8 +3,8 @@ title: "Unified Service Desk Hosted Controls | MicrosoftDocs"
 description: "Find information about predefined and custom hosted controls used for building agent applications in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

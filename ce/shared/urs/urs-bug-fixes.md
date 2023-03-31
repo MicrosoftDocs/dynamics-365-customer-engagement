@@ -6,23 +6,59 @@ For information about other updates to Universal Resource Scheduling, visit the 
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** | *First Release*| [3.12.97.9](#312979) | TBD | 03/03/2023 |
-|**Station 2** | *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [3.12.97.9](#312979)  | TBD | 03/10/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* | [3.12.97.9](#312979) | TBD | 03/17/2023 |
-|**Station 4** | *Europe* | [3.12.96.38](#3129638) | [3.12.97.9](#312979) | 03/10/2023 |
-|**Station 5** | *North America*| [3.12.96.38](#3129638) | [3.12.97.9](#312979) | 03/17/2023 |
-|**Station 6** | *Government Community Cloud, DoD, China* | [3.12.96.38](#3129638)  | [3.12.97.9](#312979) | 03/24/2023 |
+|**Station 1** |  *First Release*| [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987)  | TBD | 03/31/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | TBD | 03/31/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | TBD | 04/07/2023 |
+| | *USG* |  [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | TBD | 03/31/2023 |
+|**Station 4** |*Europe* |[3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | TBD | 04/14/2023 |
+|**Station 5** |  *North America*|[3.12.97.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129718) | [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | 03/31/2023 |
+|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.97.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129718) | [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | 03/31/2023 |
+| | *Dedicated Scale Groups* |[3.12.97.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129718) | [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | 04/07/2023 |
+
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 3.12.101.3 - 2023 wave 1 early access update 1
+
+**Resource Scheduling Controls:** 1.2.41.230631
+
+**Dataverse:** 4.0.91.3
+
+- Bug fixes
+  - Fixed labels on the schedule board.
+
+## 3.12.98.7
+
+**Resource Scheduling Controls:** 1.2.38.230543
+
+**Dataverse:** 4.0.88.7
+
+- Color saturation on booking templates on the schedule board has been increased to improve visibility, particularly for customized colors.
+- Booking tooltips now have a link to open the parent record in a modal, and an icon to open in a new window.
+- Locked icons are now shown on booking templates.
+- Bug fixes
+	- Users without bulk edit privileges will now be blocked from editing multiple bookings simultaneously on the schedule board.
+ 	- Maintain Bookings mode will no longer cause repeated refreshes on daily/weekly/monthly views on the schedule board.
+ 	- The zoom settings will now be maintained and applied correctly when switching between tabs and views on the schedule board.
+
 ## 3.12.100.2 - 2023 Wave 1 Early Access (EA) Release
 
 **Resource Scheduling controls:** 1.2.40.230251
 
 - The new schedule board is now the default for all organizations, and the legacy schedule board is [officially deprecated](../../common-scheduler/deprecations.md). The setting to enable the new schedule board on the schedule board settings page has been removed, and replaced with a solution setting. You can still manually [enable the legacy schedule board](../../field-service/configure-schedule-board.md#enable-the-legacy-schedule-board) by changing the solution setting.
+
+## 3.12.97.18
+
+**Resource Scheduling Controls:** 1.2.37.230406
+
+**Dataverse:** 4.0.87.17
+
+-  Bug fixes
+   - The schedule board will now load correctly when using lock options on bookings.
+
 
 ## 3.12.97.9
 
@@ -769,7 +805,7 @@ In addition, this release includes the following changes that have the potential
 
 - For organizations that have [schedule board preview enabled](https://aka.ms/scheduleboard), the schedule board preview can be accessed from **Field Service** application sitemap along with **Universal Resource Scheduling** application sitemap.
 - Fixed an issue where booking tooltip blinks when the height of the tooltip is greater than the height of the visible center Gantt area, where bookings are displayed on the schedule board. With this fix, the tooltip would not blink and the user would be able to select the hyperlinks on the tooltip to open the respective record in a new window.
-- Fixed the issue where [intervals](/dynamics365/common-scheduler/fulfillment-preferences#interval-setup) functionality of fulfillment preferences was not working on the schedule assistant.
+- Fixed the issue where [intervals](/dynamics365/common-scheduler/fulfillment-preferences) functionality of fulfillment preferences was not working on the schedule assistant.
 - Resolved the issue of duplicated time slots for the resources on the list view type of the days view of the schedule board.
 - Multiple calls to retrieve data in the list view type of the days view are reduced to one call, in order to improve schedule board performance.
 - Fixed the issue where available time slots of resources are displayed differently on schedule assistant and the quick scheduling pane for the schedulable entities that do not have an associated resource requirement record.

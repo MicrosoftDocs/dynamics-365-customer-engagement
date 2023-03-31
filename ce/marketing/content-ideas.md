@@ -32,6 +32,8 @@ search.app:
 
 Content ideas helps you discover new ways to express your thoughts, helping you move from email concept to completion faster. This article explains how content ideas works and how you can start using it to kickstart your emails.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWZDEE]
+
 ## What is content ideas?
 
 The content ideas feature is like a brainstorming partner that can help inspire you while you’re writing an email. You provide a short list of initial thoughts (key points), and content ideas generates a range of longer content suggestions that you can build on. You can add these suggestions to your draft, use them as inspiration to write a new draft, or go in a different direction altogether.
@@ -98,6 +100,6 @@ If you aren't satisfied with the generated ideas, try one or more of the followi
 Content ideas generates original content, but it isn’t always factual. In addition, because the underlying technology behind content ideas uses AI that has been trained on a wide range of internet sources, some text suggestions may include questionable or inappropriate content. It's your responsibility to edit generated suggestions so that your final copy is accurate and appropriate.
 
 > [!IMPORTANT]
-> If you encounter inappropriate content being generated, report it to Microsoft using this feedback form: [Report abuse](https://msrc.microsoft.com/report/abuse?ThreatType=URL&IncidentType=Responsible%20AI&SourceUrl=https://dynamics.microsoft.com/en-us/marketing/overview/). It will help improve the functionality moving forward.
+> If you encounter inappropriate content being generated, report it to Microsoft using this feedback form: [Report abuse](https://msrc.microsoft.com/report/abuse?ThreatType=URL&IncidentType=Responsible%20AI&SourceUrl=https://dynamics.microsoft.com/marketing/overview/). It will help improve the functionality moving forward.
 >
 > Microsoft may disable the content ideas feature for selected customers if abuse of the functionality is detected.

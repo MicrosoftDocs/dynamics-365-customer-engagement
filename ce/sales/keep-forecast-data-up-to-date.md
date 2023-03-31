@@ -1,7 +1,7 @@
 ---
 title: "Maintain up-to-date forecast data (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Maintain up-to-date forecast data in Dynamics 365 Sales."
-ms.date: 10/26/2020
+ms.date: 03/29/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -44,9 +44,8 @@ If you know that the underlying data has changed, you can select **Recalculate**
 -	Any other changes affecting the forecast values (excluding hierarchy changes) are refreshed.
 
 -	Only the current forecast period is recalculated.
-
-> [!NOTE]
-> The **Recalculate** command doesn't change any forecast value that was manually adjusted.
+- No changes are made to the forecast values that were manually adjusted.
+- No changes are made to the **Prediction** column. Predictions are only recalculated after every seven days. Hover over the information icon on the column header to view the last recalculation date.
 
 **To recalculate and refresh forecast data manually**
 
@@ -55,19 +54,15 @@ If you know that the underlying data has changed, you can select **Recalculate**
     > [!div class="mx-imgBorder"]
     > ![Select Recalculate.](media/forecast-select-recalculate.png "Select Recalculate")
     
-    A notification appears at the bottom of the screen, confirming the recalculation. Recalculation happens in the background, and you can continue to work while recalculation is in progress.
+    A notification appears at the top of the screen, confirming the recalculation. Recalculation happens in the background, and you can continue to work while recalculation is in progress.
 
     > [!div class="mx-imgBorder"]
     > ![Notification to confirm recalculation.](media/forecast-recalculate-data-toast-notification.png "Notification to confirm recalculation")
 
 2. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**.
 
-
-    > [!div class="mx-imgBorder"]
-    > ![Notification to refresh page.](media/forecast-refresh-data-toast-notification.png "Notification to refresh the page")
-
     > [!NOTE]
-    > You can cancel the notification and refresh the data later. Select **Refresh** on the command bar.
+    > You can cancel the notification and refresh the data later. Select **Update page** on the command bar.
 
 After recalculation, the data in the forecast reflects the latest opportunity and hierarchical changes.
 

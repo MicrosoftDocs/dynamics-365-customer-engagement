@@ -3,8 +3,8 @@ title: "Help improve Unified Service Desk using improvement program | MicrosoftD
 description: "Learn about the Unified Service Desk improvement program to help improve the service and product experience. Also, learn how to enable or disable the feature."
 ms.date: 11/06/2020
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

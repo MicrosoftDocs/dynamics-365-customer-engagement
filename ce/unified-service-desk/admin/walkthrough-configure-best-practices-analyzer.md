@@ -3,8 +3,8 @@ title: "Walkthrough: Configure Best Practices Analyzer in Unified Service Desk |
 description: "Demonstrates how you can configure and set up the Unified Service Desk Best Practices Analyzer in your agent application."
 ms.date: 05/15/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

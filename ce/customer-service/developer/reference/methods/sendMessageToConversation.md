@@ -3,8 +3,8 @@ title: "sendMessageToConversation (Omnichannel JavaScript API reference) | Micro
 description: "Includes reference information about sendMessageToConversation method, syntax, and parameters in Omnichannel JavaScript API reference."
 ms.date: 10/03/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.reviewer: nenellim
 ---

@@ -1,12 +1,12 @@
 ---
-title: "Overview of Dynamics 365 Productivity Tools | MicrosoftDocs"
-description: "Learn about Dynamics 365 Productivity Tools in the Omnichannel for Customer Service."
+title: Overview of Dynamics 365 Productivity Tools
+description: Learn about Dynamics 365 Productivity Tools in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
 ms.date: 01/30/2023
 ms.topic: overview
-
+ms.custom: bap-template
 ---
 
 # Overview of productivity tools
@@ -42,6 +42,6 @@ Microsoft Teams is a tool that can help agents more easily collaborate with coll
 [Macros](macros.md)  
 [Agent scripts](agent-scripts.md)  
 [Smart assist](smart-assist.md)  
-[Microsoft Teams](/customer-service/collaboration)
+[Microsoft Teams](../customer-service/collaboration.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

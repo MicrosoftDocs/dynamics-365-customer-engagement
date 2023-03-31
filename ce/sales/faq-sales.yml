@@ -89,7 +89,8 @@ sections:
       - question: Why can't I find the Pipeline view option?
         answer: |
           There are several possibilities:
-            - The **Show as** option could be hidden in the three-dot menu in **Opportunities** page. 
+            - The **Show as** option could be hidden in the three-dot menu of the **Opportunities** page. 
+            - Your administrator might have customized the **Show as** drop-down. Contact your administrator to add the control by following the instructions [here](opportunity-pipeline-view-for-admins.md#set-pipeline-view-as-the-default-opportunities-view).
             - Your organization might not have opted in for early access features. Contact your administrator if you'd like to try out early access features.
             - Your administrator might have disabled custom views for opportunities. Contact your administrator to [add the view manually](opportunity-pipeline-view-for-admins.md#set-pipeline-view-as-the-default-opportunities-view).
 
@@ -272,6 +273,14 @@ sections:
       - question: Can I set the focused view as the default view?
         answer: |
           Currently, you can't set the focused view as your default view. 
+
+      - question: How can I disable focused view in my organization?
+        answer: |
+          To disable the focused view in your organization, your administrator must send an email to Microsoft customer support. 
+
+      - question: Is focused view available for custom entities? 
+        answer: |
+          No. Currently, focused view is available only for account, contact, lead, and opportunity entities.  
 
   - name: Text message (SMS​)
     questions:
