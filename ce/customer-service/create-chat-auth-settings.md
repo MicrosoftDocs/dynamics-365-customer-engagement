@@ -248,7 +248,7 @@ If you're adding an authenticated chat experience to a custom website (that's no
      > ![Authenticated chat runtime.](media/auth-chat-runtime.png "Authenticated chat runtime")
 
 
-## Create authentication settings for social channels<a name="socialauth"></a>
+## Create authentication settings for Apple Messages for Business<a name="socialauth"></a>
 
 ### Prerequisites
 
