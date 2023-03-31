@@ -1,7 +1,7 @@
 ---
 title: "Ongoing Conversations dashboard for supervisor | MicrosoftDocs"
 description: "This topic provides information about the Ongoing Conversations dashboard for supervisors to view information about the conversations handled by agents."
-ms.date: 03/31/2023
+ms.date: 07/07/2021
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,9 +12,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # View and understand Omnichannel Ongoing Conversations dashboard
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!NOTE]
-> With the release of [real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability, we announce that the intraday insights for Omnichannel for Customer Service will be deprecated on October 31, 2023. We recommend that you use real-time analytics reports, which provide real-time information about the health and key performance indicators of your organization. For more information on the deprecation, go to [Intraday insights for Omnichannel for Customer Service to be deprecated](deprecations-customer-service.md#intraday-insights-for-omnichannel-for-customer-service-to-be-deprecated).
 
 The **Omnichannel Ongoing Conversations** dashboard provides information on the conversations that are handled by agents and are in the active, open, wrap up, and waiting status in your organization. This dashboard provides a holistic view of the conversations with details, such as customer, agent assigned, subject, queue, and activity status. The data in the dashboard is auto refreshed in near real time.
 
