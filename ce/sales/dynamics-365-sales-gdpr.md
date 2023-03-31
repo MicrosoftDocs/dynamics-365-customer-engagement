@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Sales and GDPR | MicrosoftDocs"
 description: "To comply with GDPR guidelines, we’ve made it possible to update read-only records through an export and import, and through SDKs."
-ms.date: 07/06/2022
+ms.date: 03/30/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,13 +9,6 @@ manager: shujoshi
 ---
 # Dynamics 365 Sales and GDPR 
 
-The **General Data Protection Regulation (GDPR)** is a European Union (EU) directive that is fundamentally about protecting and enabling the privacy rights of individuals. The GDPR establishes strict privacy requirements governing how you manage and protect personal data while respecting individual choice—no matter where data is sent, processed, or stored.
-
-Here are some resources where you can learn more about how to bring your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] systems into compliance with the GDPR:
-
-- [Microsoft Dynamics 365 and GDPR](/dynamics365/get-started/gdpr/index). This webpage includes links to resources, white papers, blogs, and other information related to various [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] applications and the GDPR.
-- [Microsoft Trust Center](https://www.microsoft.com/trustcenter). This webpage includes links to information about how new features in Microsoft help you secure personal data and meet strict GDPR privacy requirements.
- 
 To comply with GDPR, we've made it possible to edit read-only records in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].
 
 The following table shows the states in which the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] records become read-only. 

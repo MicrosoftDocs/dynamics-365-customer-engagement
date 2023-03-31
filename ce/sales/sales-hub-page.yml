@@ -51,7 +51,7 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-      - url: dynamics-365-sales-gdpr.md
+      - url: security-compliance-overview.md
         text: Security and compliance # We need to create an overview page covering GDPR for sales and sales premium
       - url:  https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409
         text: License guide
@@ -63,8 +63,8 @@ additionalContent:
         text: Try Dynamics 365 Sales
       - url: https://dynamics.microsoft.com/en-us/sales/pricing/
         text: Buy Dynamics 365 Sales
-      - url: Install Dynamics 365 Sales
-        text: intro-admin-guide-sales-insights.md # Need an overview page covering all installation options.
+      - url:  intro-admin-guide-sales-insights.md
+        text: Install Dynamics 365 Sales # Need an overview page covering all installation options.
     - title: Set up 
       links: 
       - url: system-settings-sales-tab.md
