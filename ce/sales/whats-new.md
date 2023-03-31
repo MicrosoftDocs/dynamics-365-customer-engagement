@@ -9,11 +9,11 @@ ms.date: 03/31/2023
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
-# What's new or changed in this app
+# What's new or changed in Dynamics 365 Sales
 
-Wondering about upcoming and recently released capabilities in this app? [Check out the release planner site](https://experience.dynamics.com/releaseplans/?app=sales). We've captured all the details, end to end, top to bottom, which you can use for planning.  
+Wondering about upcoming and recently released capabilities in Dynamics 365 Sales? [Check out the release planner site](https://experience.dynamics.com/releaseplans/?app=sales). We've captured all the details, end to end, top to bottom, which you can use for planning.  
 
-See the release plans for what's coming. Choose the following links to learn about the latest versions of this app.
+See the release plans for what's coming. Choose the following links to learn about the latest versions of Dynamics 365 Sales.
 
 - [2023 release wave 1](/dynamics365/release-plan/2023wave1/sales/dynamics365-sales/planned-features)  
 - [2022 release wave 2](/dynamics365-release-plan/2022wave2/sales/dynamics365-sales/planned-features)  
