@@ -25,7 +25,7 @@ The horizontal bar below the model-driven app navigation bar is called the appli
 
 With application tab templates, you can define the applications that are available for a session and then associate those applications with the session. 
 
-For example, you can create the **Dashboard** application type and associate it with chat or SMS sessions. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and by default the **Active Conversation**(formerly **Customer Summary**) page loads.
+For example, you can create the **Dashboard** application type and associate it with chat or SMS sessions. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and by default the **Active Conversation** page loads.
 
 As an administrator, you can create multiple application tab templates.
 

@@ -45,7 +45,7 @@ Only active views are displayed for the search results. You can customize the Qu
 > [!div class=mx-imgBorder]
 > ![Customer and Case sections are blank when there are no records.](media/customer-summary-create-recors.PNG "Customer and Case sections are blank when there are no records")
 
-During an inline search, the search results are displayed and you can select a record to link the conversation to the selected record. After you link the record, the **Active Conversation** (formerly **Customer summary**) page is updated with the details.
+During an inline search, the search results are displayed and you can select a record to link the conversation to the selected record. After you link the record, the **Active Conversation** page is updated with the details.
 
 Depending on the settings enabled for you, you'll see the one of the following:
 

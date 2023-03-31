@@ -21,7 +21,7 @@ When a session is started:
 
 - The presence status is updated as per the configuration set by your administrator.
 - The Communication panel is displayed so you can interact and exchange messages with the customer.
-- The Active Conversation (formerly Customer Summary) page is loaded with the details of customer such as contact or account name, case, and conversation summary.
+- The Active Conversation page is loaded with the details of customer such as contact or account name, case, and conversation summary.
 - The KB Search page opens in the app tab panel.
 
 ## Start a session

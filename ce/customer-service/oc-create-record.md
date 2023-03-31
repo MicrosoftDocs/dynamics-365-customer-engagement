@@ -14,7 +14,7 @@ ms.topic: article
 
 When no records are linked to the conversation in Omnichannel for Customer Service, you can create a record. You can create a record in one of the following ways:
 
-- Create a record from the **Active Conversation**(formerly **Customer Summary**) page
+- Create a record from the **Active Conversation** page
 - Create a record using the **Quick Create** option
 - Create a record using the **New** option
 
