@@ -51,9 +51,9 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
 
     - When you select an existing contact while creating a lead record, the following information is automatically populated in the **Lead** form: First Name, Last Name, Job Title, Business Phone, Mobile Phone and Email.
 
-           > [!NOTE]
-           > -  Auto-population happens only when creating a new lead and when the corresponding fields in the Lead form are empty. If fields are already auto-populated or data is manually entered, the auto population doesn't override the existing values. 
-           >  -  On new (unsaved) lead records, the **Existing Contact** and **Existing Account** fields allow you to choose any records. Once you save the lead record, these fields are filtered to show only the records that meet the duplicate detection rules to avoid duplicates.    
+      > [!NOTE]
+      > -  Auto-population happens only when creating a new lead and when the corresponding fields in the Lead form are empty. If fields are already auto-populated or data is manually entered, the auto population doesn't override the existing values. 
+      >  -  On new (unsaved) lead records, the **Existing Contact** and **Existing Account** fields allow you to choose any records. Once you save the lead record, these fields are filtered to show only the records that meet the duplicate detection rules to avoid duplicates.    
   
 5. In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Track and manage activities](manage-activities.md) 
 
