@@ -1,7 +1,7 @@
 ---
 title: Provide permissions to access and share a forecast
 description: Provide permissions to view, access, and share a forecast in Dynamics 365 Sales.
-ms.date: 03/15/2022
+ms.date: 03/31/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -29,6 +29,8 @@ Use the **Permissions** step to:
 ## Define the forecast owner
 
 A forecast owner can view, share, and adjust the forecast. You can assign a user or a business unit (BU) as the owner.
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 In the **Owner lookup field (preview)**, select who owns the forecast.
 
