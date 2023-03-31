@@ -58,6 +58,9 @@ Perform the following steps to create a custom assignment method:
 
    d. Create as many rules as needed.
 
+   > ![NOTE]
+   > For routing records, we recommend that you manage custom prioritization rules through the UI only and not create or update them through scripts.
+
 1. To create an assignment ruleset, on the **Assignment method** page, select **Create ruleset**.
 
 1. Enter a name and description for the ruleset, and select **Create**. The ruleset is created.

@@ -23,9 +23,15 @@ Use assignment methods to determine how to assign work items. You can use the ou
 
 The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles.
 
+**For digital messaging and voice**:
+
 Each cycle picks up the top unassigned work items in a default block of 100 items and attempts to match each work item with an appropriate agent. Work items that couldn't be assigned to agents because of unavailability of agents or right skill match not found is routed back to the queue. The next assignment cycle picks up another block of 100 top-priority items.
 
 If no eligible agents are found for all the top 100 items in a queue, then each assignment cycle will keep retrying the top 100 items in that queue.
+
+**For records channel**:
+
+The default block is 500 work items with the system's ability to prioritize 2000 work items.
 
 ## Types of assignment methods
 

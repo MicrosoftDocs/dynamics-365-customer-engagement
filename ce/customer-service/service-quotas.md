@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham 
 ms.reviewer: nenellim 
 ms.topic: conceptual 
-ms.date: 01/13/2023
+ms.date: 04/05/2023
 ms.custom: bap-template 
 ---
 
@@ -44,7 +44,7 @@ Service quotas are the limits on resources, configurations, and items that are p
 | Bulk user calendar or schedule updates  | Number of users whose calendars can be updated in bulk  |  500 per 15 minutes<sup>2</sup>   | Yes   |
 | Dataverse Storage Entitlement (aggregated at tenant level)  |  Microsoft Dataverse storage entitlement based on license; includes SQL/DB, file, and log storage in Dataverse <br><br>More information: [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544) |  32 GB of base storage per tenant<sup>3</sup><br><br>2.25 GB of extra storage per Customer Service license per user<sup>4</sup><br><br>35 GB of extra file storage for the Voice Channel Add-in per user<br>| Other Dataverse storage can be purchased     |
 | Time for configuration updates to take effect, including channel and routing settings and updates to agent skills, capacity profile, and calendar  | Maximum time for configuration changes to reflect in the user experience |   15 minutes |    No  |
-| Block size per assignment cycle | Maximum number of unassigned conversations or work items picked per assignment cycle per queue | 100 conversations or work items<sup>5</sup>   |  Yes  |
+| Block size per assignment cycle | Maximum number of unassigned conversations or work items picked per assignment cycle per queue | <ul><li> 100: Conversations or work items<sup>5</sup></li><li>500: Records-related work items<sup>5</sup></li></ul>   |  Yes  |
 
 <sup>1</sup> To get quality service in a channel, ensure that you don't exceed the defined limit for that channel. But when multiple channels are in use, the total conversations per minute should remain under the overall limit of 25. For example, with 5 voice calls per minute, 15 live chat sessions per minute, and 10 digital messages, the total limit is considered to be 25. Any conversation coming in after the 25<sup>th</sup> item, irrespective of the channel, might reduce the service quality.
 
@@ -54,7 +54,7 @@ Service quotas are the limits on resources, configurations, and items that are p
 
 <sup>4</sup> 250 MB of SQL/DB storage and 2 GB of file storage 
 
-<sup>5</sup> If there's a shortage of eligible agents to serve the 100 (the default block size) top priority conversations, then the autoassignment can appear to be paused. In such cases, we recommend that you use features like overflow management to manage high load or review agent availability, scheduling, and skill configuration to expand the eligible agent pool. If these options aren't adequate, contact Microsoft Support with your business scenario to check whether the block size can be increased. 
+<sup>5</sup> If there's a shortage of eligible agents to serve the 100 (the default block size) top priority conversations, then the auto assignment proces can appear to be paused. In such cases, we recommend that you use features like overflow management to manage high load or review agent availability, scheduling, and skill configuration to expand the eligible agent pool. If these options aren't adequate, contact Microsoft Support with your business scenario to check whether the block size can be increased. 
 
 
 ## Next steps
