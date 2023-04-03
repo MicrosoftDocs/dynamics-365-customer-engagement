@@ -43,7 +43,7 @@ The following usages and limits are tracked on this screen:
     - The pre-seeded capacity is shown together with your monthly consumption.
     - The pre-seeded capacity automatically resets on a monthly basis.
 - **Free text messages**: For US-based instances, 1,000 free text messages per month can be sent using a toll-free number [created through Azure Communication Services](real-time-marketing-outbound-text-messaging.md#add-a-sender-number-using-the-azure-communication-services-preview-us-only).
-- **Paid text messages**: Dynamics 365 Marketing offers [native integration with Twilio and TeleSign](real-time-marketing-outbound-text-messaging.md#add-a-sender-number-from-a-twilio-or-telesign-account-worldwide), enabling you to easily connect with mobile users.
+- **Paid text messages**: Dynamics 365 Marketing offers [native integration with Twilio and TeleSign](real-time-marketing-outbound-text-messaging.md#sign-up-for-and-configure-a-twilio-account), enabling you to easily connect with mobile users.
     - You can purchase or reuse an existing SMS provider account with Twilio or TeleSign.
     - Consumption is recorded and displayed on the Quota limits page, but the allocated quota needs to be verified with the third-party provider.
 

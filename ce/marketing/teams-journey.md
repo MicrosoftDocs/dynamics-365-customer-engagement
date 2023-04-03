@@ -36,7 +36,7 @@ To access Dynamics 365 Marketing/Microsoft Teams trial:
     > [!IMPORTANT]
     > The **Turn attendance into results** button only appears in the attendance tab *after* the webinar has ended. The meeting type must be a webinar to use the **Turn attendance into results** functionality. The button is not shown if the meeting type is not a webinar, if you do not meet eligibility criteria, or if your organization has disabled trials.
     > 
-    > Additionally, the **Turn attendance into results** button will not appear unless the **Engagement report** policy is enabled. Learn more: [Enable engagement reports](/microsoftteams/meeting-policies-in-teams-general.md#engagement-report).
+    > Additionally, the **Turn attendance into results** button will not appear unless the **Engagement report** policy is enabled. Learn more: [Enable engagement reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report#configure-the-teams-meeting-attendance-report).
 
 1. Select **Get started**.
 
