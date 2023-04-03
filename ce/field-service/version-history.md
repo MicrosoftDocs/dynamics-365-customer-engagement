@@ -40,13 +40,11 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 -	Use the [Not-to-exceed feature](/dynamics365/field-service/work-order-not-to-exceed) to ensure cost and price expectations on work orders are met every time.
 -	[Organize your provided services based on trades](/dynamics365/field-service/trades#configure-trade-coverages), and set up trade coverages based on which services you provide to groups of customers.
-- Can now use global search to quickly search for and navigate to bookings
-- New price and cost summaries have been added to work orders to track financials. Enable or disable cost tracking in field service settings.
-- Field Service (Dynamics 365) Mobile: [AsyncOnSave](power-apps/developer/model-driven-apps/clientapi/reference/events/form-onsave#asynchronous-event-handler-support) is enabled for Field Service Mobile.
-- Field Service (D365) Mobile: Booking Agenda will have options for Week & Month view on iOS and Android Tablets and the Windows application.
-- Field Service (D365) Mobile: Updated survey creator control to exclude survey meta data from telemetry.
-
-Note: Cost information and cost amount cards on work order products and services are now controlled by the Calculate Cost toggle in field service settings. Organizations that disabled the Calculate Price toggle will have these sections appear on work order products and services unless they turn off the Calculate Cost toggle.
+- Use global search to quickly search for and navigate to bookings.
+- New price and cost summaries have been added to work orders to track financials. Enable or disable cost tracking in field service settings. Cost information and cost amount cards on work order products and services are now controlled by the Calculate Cost toggle in Field Service settings. Organizations that disabled the Calculate Price toggle will have these sections appear on work order products and services unless they turn off the Calculate Cost toggle.
+- Field Service (Dynamics 365) Mobile: [AsyncOnSave](/power-apps/developer/model-driven-apps/clientapi/reference/events/form-onsave#asynchronous-event-handler-support) is enabled for Field Service Mobile.
+- Field Service (Dynamics 365) Mobile: Booking agenda has options for week & month view on iOS and Android tablets and the Windows application.
+- Field Service (Dynamics 365) Mobile: Updated survey creator control to exclude survey meta data from telemetry.
 
 ## 8.8.87.35 (2023 Wave 1 early access, update1)
 
