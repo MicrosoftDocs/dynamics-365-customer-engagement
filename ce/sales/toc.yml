@@ -445,6 +445,8 @@
               href: view-details-segment.md
             - name: Edit a segment
               href: edit-a-segment.md
+            - name: Prioritize segment
+              href: prioritize-segment.md  
             - name: Delete or deactivate a segment
               href: delete-deactivate-a-segment.md
         - name: Manage assignment rules
@@ -1275,8 +1277,6 @@
   href: deprecations-sales.md
 - name: Known issues
   href: https://go.microsoft.com/fwlink/?linkid=2171768
-- name: Connect and share feedback
-  href: connect-share-feedback.md
 - name: Resources for other Sales apps
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)

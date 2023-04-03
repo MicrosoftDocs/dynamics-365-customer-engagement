@@ -1,7 +1,7 @@
 ---
-title: "Limit the number of messages sent with frequency capping (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Preview: Limit the number of messages sent with frequency capping (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to limit the number of messages sent to your customers to prevent message fatigue."
-ms.date: 12/02/2022
+ms.date: 03/29/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,18 +17,23 @@ search.app:
   - D365Mktg
 ---
 
-# Limit the number of messages sent with frequency capping
+# Preview: Limit the number of messages sent with frequency capping
 
-> [!IMPORTANT]
-> This feature is available as private preview. A preview feature is a feature that is not complete, but is made available before it's officially in a release so customers can get early access and provide feedback. Preview features aren't meant for production use and may have limited or restricted functionality.
-
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+> [!Important]
+>
+> A preview feature is a feature that is not yet complete but is made available to customers > to get early access before it’s officially included in a release  and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+>
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to assist you with issues or questions. Preview features aren’t meant for production use, particularly when processing personal data or other data subject to legal or regulatory compliance requirements.
 
 The frequency cap feature lets you set a limit on the number of messages your customers receive in a given amount of time through a particular channel. Some customers qualify for multiple journeys and campaigns that run simultaneously. This results in them receiving multiple messages through one channel in a short period of time. This can be perceived as spam and lower the customers' engagement with your messages. With the frequency cap feature, you can optimize engagement by controlling how many messages are sent across multiple channels over a period of time. This improves engagement, decreases unsubscriptions, and reduces the number of messages marked as spam over time.
 
 ## How to enable frequency cap settings
 
-To illustrate the capabilities of frequency capping, we'll start by creating a global setting and then proceed to create a real-time marketing journey.
+To illustrate the capabilities of frequency capping, the article starts by creating a global setting and then proceeds to create a real-time marketing journey. Before you can use the frequency capping preview, however, you must enable the feature switch. To enable the feature switch:
+
+1. Go to **Settings** > **Other settings** > **Feature switches**.
+1. Set the **Frequency capping (preview)** toggle to **On**.
+1. Select **Save** in the upper right.
 
 ### Create the frequency cap setting
 
@@ -62,7 +67,7 @@ The following sections address some common questions about the frequency cap fea
 
 ### How do the message counters work?
 
-Only messages marked as "commercial" are counted towards the limits you define in global settings. The counter calculates the number of messages sent to a contact-point (email address for email, phone number for text message, and entity ID for push) in last 24 hours (daily cap), 7 days (weekly cap), and 30 days (monthly cap).
+Only messages marked as "commercial" are counted towards the limits you define in global settings. The counter calculates the number of messages sent to a contact-point (email address for email, phone number for text message, and entity ID for push). The caps are calculated on a rolling basis, meaning they are re-evaluated each time a message is sent based on the 24 hours (daily), 7 days (weekly), and 30 days (monthly) immediately preceding the current time.
 
 ### What happens when the cap is reached?
 
