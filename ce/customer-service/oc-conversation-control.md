@@ -173,7 +173,7 @@ To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-c
 [View customer information on Active Conversation form](oc-customer-summary.md)  
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [Take notes specific to conversation](oc-take-notes.md)  
-[View active conversation for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+[View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

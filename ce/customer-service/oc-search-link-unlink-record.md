@@ -99,20 +99,8 @@ Now, the **Active Conversation** page is refreshed and updated with details from
 
 You can unlink a record only when you are interacting with a customer by using the communication panel. That is, after you accept an incoming conversation request and view the **Active Conversation** page, you can unlink the record from the conversation.
 
-Depending on the settings enabled for you, you'll see one of the following:
+ :::image type="content" source="media/oceh-oc-unlink-customer.png" alt-text="default Case details section of the active conversation page"::: 
 
-   ### [Enhanced Active Conversation - Case Details](#tab/enhancedcase)
-
-
-   :::image type="content" source="media/enh-custsummary-conv.png" alt-text="enh Case details section of the active conversation page" :::  
-   
-   ### [Default Active Conversation - Case](#tab/case)
-    
-
-
-   :::image type="content" source="media/cs-recent-cases.png" alt-text="default Case details section of the active conversation page"::: 
-
----
 
 To unlink a record, select **Close** next to the customer name in the customer (**Contact** or **Account**) section. After the record is removed, the customer (**Contact** or **Account**) section is blank.
 
@@ -127,7 +115,7 @@ To unlink a record, select **Close** next to the customer name in the customer (
 - [Understand conversation states](oc-conversation-state.md)
 - [View customer information on Active Conversation form](oc-customer-summary.md)
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
-- [View active conversation for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Create a record](oc-create-record.md)
 
 

@@ -45,7 +45,7 @@ You can automatically identify records using custom context set using the [setCo
 
 When a bot ends a customer conversation, the bot can link the case number to the conversation. The bot can create a new case number or obtain an existing one from the customer based on the customer name, email address, or telephone number.
 
-If the bot needs to escalate the conversation to a human agent, then bot can link the customer and case number to the conversation so that when the human agent accepts the escalation request, all relevant information is available to the agent in the active conversation section. The escalation summary gives the human agent the background information about the escalation and enables quicker resolution of the customer issue.
+If the bot needs to escalate the conversation to a human agent, then bot can link the customer and case number to the conversation so that when the human agent accepts the escalation request, all relevant information is available to the agent in the **Active Conversation** section. The escalation summary gives the human agent the background information about the escalation and enables quicker resolution of the customer issue.
 
 To link the customer or case, set the values for the associated attributes, such as customer name and phone number. These attributes will be searched in the corresponding entities such as customer and case, and the result will be linked to the conversation if a single matching record is found. The bot will need to set context parameters for the following that are also set when the customer is automatically identified when the conversation is transferred.
 

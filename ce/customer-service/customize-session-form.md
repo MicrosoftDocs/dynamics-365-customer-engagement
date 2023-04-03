@@ -33,6 +33,6 @@ As a system customizer, you might want to customize the session forms to suit yo
 ### See also
 
 [Omnichannel system customizers](omnichannel-customizer.md)  
-[Customize active conversation form](customize-customer-summary.md)  
+[Customize Active Conversation form](customize-customer-summary.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

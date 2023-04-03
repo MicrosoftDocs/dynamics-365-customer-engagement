@@ -686,8 +686,6 @@
         href: average-wait-time.md        
       - name: Delete a channel instance
         href: delete-channel.md
-      - name: Enable and manage the enhanced Active Conversation settings
-        href: add-custsumm-settings.md 
     - name: Agent experience
       items: 
       - name: Omnichannel for Customer Service for agents

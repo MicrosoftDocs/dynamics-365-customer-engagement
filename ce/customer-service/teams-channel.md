@@ -48,7 +48,7 @@ In Omnichannel for Customer Service, you can:
 - [Manage presence status](oc-manage-presence-status.md).
 - [Search for transcripts](oc-search-transcipts.md).
 - [View conversation and session forms](oc-view-activity-types.md).
-- [View the active conversation for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md).
+- [View the active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md).
 - [Search for transcripts](oc-search-transcipts.md).
 
 If your administrator has enabled the option to initiate voice and video calls (in preview) during the conversation, the options to use voice and video will be available on the communication panel menu.

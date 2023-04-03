@@ -54,7 +54,7 @@ When a customer accepts the proactive chat invitation, an agent receives the not
 > [!div class=mx-imgBorder]
 > ![Agent experience of proactive chat agent notification.](media/proactive-chat-agent.png "Agent experience of proactive chat agent notification")
 
-The agent then accepts the chat request and starts conversing with the customer to provide the required help. The [active conversation](oc-customer-summary.md) is loaded and displayed if the customer’s details match the stored data. 
+The agent then accepts the chat request and starts conversing with the customer to provide the required help. The [**Active Conversation**](oc-customer-summary.md) is loaded and displayed if the customer’s details match the stored data. 
 
 If your administrator or developer configures the **Additional details** tab and if there are additional context variables, such as time spent on a page and the page URL from where the chat is initiated, they are displayed on the **Additional details** tab. 
 

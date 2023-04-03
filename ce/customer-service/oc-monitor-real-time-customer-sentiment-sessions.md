@@ -73,7 +73,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [View customer information on Active Conversation form](oc-customer-summary.md)  
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [Take notes specific to a conversation](oc-take-notes.md)  
-[View Active Conversation for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+[View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

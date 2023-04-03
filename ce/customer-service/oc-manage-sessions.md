@@ -21,7 +21,7 @@ When a session is started:
 
 - The presence status is updated as per the configuration set by your administrator.
 - The Communication panel is displayed so you can interact and exchange messages with the customer.
-- The Active Conversation page is loaded with the details of customer such as contact or account name, case, and conversation summary.
+- The **Active Conversation** page is loaded with the details of customer such as contact or account name, case, and conversation summary.
 - The KB Search page opens in the app tab panel.
 
 ## Start a session
@@ -48,14 +48,14 @@ You can start a session on a channel manually from the Omnichannel Agent Dashboa
 
 ### Automatically start a session using the incoming notification
 
-When you accept an incoming conversation request by selecting the **Accept** button, a session is started and the Active Conversation page is loaded in the Unified Interface application area.
+When you accept an incoming conversation request by selecting the **Accept** button, a session is started and the **Active Conversation** page is loaded in the Unified Interface application area.
 
  > [!div class=mx-imgBorder]
  > ![Session start.](media/oceh-session-start.png "Session start")
 
 ## Work on multiple customer sessions
 
-As an agent, when you are working on a case, you get an incoming conversation request, and you accept the request. This starts a new session and the Active Conversation page is loaded with context of the session. You can open applications such as KB Search, Open records, and any Line-of-Business applications made available in the application tab panel sitemap. You can open these applications using the gestures and the options in the communication panel. To learn more, see [Manually start a session using the gestures](#manually-start-a-session-using-the-gestures) and [View communication panel](oc-conversation-control.md).
+As an agent, when you are working on a case, you get an incoming conversation request, and you accept the request. This starts a new session and the **Active Conversation** page is loaded with context of the session. You can open applications such as KB Search, Open records, and any Line-of-Business applications made available in the application tab panel sitemap. You can open these applications using the gestures and the options in the communication panel. To learn more, see [Manually start a session using the gestures](#manually-start-a-session-using-the-gestures) and [View communication panel](oc-conversation-control.md).
 
 When you switch sessions, unsaved changes are not lost and you can continue to work on them.
 

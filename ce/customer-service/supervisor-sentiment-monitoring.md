@@ -105,7 +105,7 @@ While an agent is communicating with the customer, and if the customer's sentime
     > [!div class=mx-imgBorder]
     > ![Sentiment notification.](media/sentiment-notification.png "Sentiment notification")
 
-You can select the **Monitor** button to see the active conversation and the communication panel. If the agent requires help, you can join the conversation.
+You can select the **Monitor** button to see the **Active Conversation** and the communication panel. If the agent requires help, you can join the conversation.
 
 For example:
 

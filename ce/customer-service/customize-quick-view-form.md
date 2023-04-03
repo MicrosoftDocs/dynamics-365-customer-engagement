@@ -44,7 +44,7 @@ The following procedure shows how to modify the **Customer profile** quick view 
 ### See also
 
 [Omnichannel system customizers](omnichannel-customizer.md)  
-[Customize active conversation form](customize-customer-summary.md)   
+[Customize Active Conversation form](customize-customer-summary.md)   
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

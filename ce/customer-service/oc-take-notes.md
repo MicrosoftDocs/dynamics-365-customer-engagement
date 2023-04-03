@@ -36,7 +36,7 @@ Again, when you switch back to the session, launch the notes panel and take the 
 - [View Communication panel](oc-conversation-control.md)
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [View customer information on Active Conversation form](oc-customer-summary.md)
-- [View Active conversation for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 

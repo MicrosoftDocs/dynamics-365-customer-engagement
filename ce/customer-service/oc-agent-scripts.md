@@ -79,7 +79,7 @@ The step is used to load another agent script from the current agent script. Whe
 
 When you get an incoming conversation notification, you accept the conversation request and then a chat session starts. Now, the agent script is available in a form based on the administrator configuration. 
 
-For example, if the administrator has configured in the Active Conversation, then you can view the agent script in the Active Conversation form.
+For example, if the administrator has configured in the **Active Conversation**, then you can view the agent script in the **Active Conversation** form.
 
 Let's see the sample agent script:
 

@@ -41,7 +41,7 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 ## How-tos
 
 - [View communication panel](oc-conversation-control.md)
-- [View active conversation for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 - [Manage presence status](oc-manage-presence-status.md)

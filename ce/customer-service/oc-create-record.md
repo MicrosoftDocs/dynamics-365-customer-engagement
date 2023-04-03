@@ -20,9 +20,9 @@ When no records are linked to the conversation in Omnichannel for Customer Servi
 
 ## Create a record from the Active Conversation page
 
-In the Active Conversation page and on the customer and case forms, you'll see an option to create a new record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record, and the record is auto-linked to the conversation.
+In the **Active Conversation** page and on the customer and case forms, you'll see an option to create a new record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record, and the record is auto-linked to the conversation.
 
-Depending on your administrator's settings, you'll see the enhanced Active Conversation or the default Active Conversation page.
+Depending on your administrator's settings, you'll see the enhanced **Active Conversation** or the default **Active Conversation** page.
 
 To create a record from the **Active Conversation** page:
 
@@ -43,26 +43,7 @@ To create a record from the **Active Conversation** page:
     > [!div class=mx-imgBorder]
     > ![Fill in the form.](media/customer-summary-create-new-contact.PNG "Fill in the form")
 
-After you save, the record is automatically linked to the conversation. When you switch to the Active Conversation page, you can view the auto-linked record.
-
-Depending on the settings enabled for you, you'll see the **Enhanced Active Conversation - Customer Details**  or **Default Active Conversation- Customer(Contact or Account)**, explained as follows:
-
-   ### [Enhanced Active Conversation - Customer Details)](#tab/enhancedcustomer)
-
-   Displays the customer or account details configured by your administrator. You can edit the customer or account details inline, without navigating to another tab from the **Active Conversation** tab.
- 
-   > [!NOTE]
-   > You'll see the default **Customer(Contact or Account)** card if your administrator has customized the **Active Conversation** form.
-
-   :::image type="content" source="media/enh-custsummary-conv.png" alt-text="View enhanced CustomerContact or Account" :::
-
-   ### [Default Active Conversation - Customer(Contact or Account)](#tab/customer)
-    
-   View customer details on the default Customer(Contact or Account) layout.
-
-   :::image type="content" source="media/customer-summary-customer-form.png" alt-text="View enhanced CustomerContact or Account" :::
-
---- 
+After you save, the record is automatically linked to the conversation. When you switch to the **Active Conversation** page, you can view the auto-linked record.
 
 If you create the account or contact first and then start to create a case record, the case form shows the linked customer name in the **Customer** field.
 
@@ -116,7 +97,7 @@ In the **Active Conversation** page, when you are trying to search a record in c
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)  
 - [View customer information on Active Conversation form](oc-customer-summary.md)  
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)  
-- [View Active Conversation for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+- [View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
