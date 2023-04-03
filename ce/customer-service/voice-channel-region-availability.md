@@ -4,7 +4,7 @@ description: Use this article to know about the supported cloud locations, langu
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 03/31/2023
+ms.date: 04/03/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ---
