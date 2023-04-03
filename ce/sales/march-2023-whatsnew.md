@@ -1,7 +1,7 @@
 ---
 title: "What's new or changed in Dynamics 365 Sales (March 2023)"
 description: "Learn about what's new or changed in the March 2023 release of Dynamics 365 Sales."
-ms.date: 03/31/2023
+ms.date: 04/03/2023
 ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
