@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> With the release of the Customer Service admin center app that consolidates admin experiences across the Customer Service suite, we announce that the following admin experiences will be deprecated and support will end in April 2023.
+> With the release of the Customer Service admin center app that consolidates admin experiences across the Customer Service suite, we announce that the following admin experiences are deprecated and no longer supported after April 2023.
 >
 > - Service Management area in the Customer Service Hub app
 > - Omnichannel admin center

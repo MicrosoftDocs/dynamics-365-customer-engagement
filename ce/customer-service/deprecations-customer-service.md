@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms-service: dynamics-365
 ms.topic: conceptual
-ms.date: 01/13/2023
+ms.date: 04/05/2023
 ms.custom: bap-template
 ---
 
@@ -16,13 +16,12 @@ The features that have been deprecated in Customer Service are listed in this ar
 
 Administrators and IT professionals can use this information to prepare for future releases.
 
-> [!Important]
->
+> [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
 ## Some admin apps are deprecated
 
-With the release of the Customer Service admin center app that consolidates admin experiences across the Customer Service suite, we announce that the following admin experiences will be deprecated and support will end in April 2023.
+With the release of the Customer Service admin center app that consolidates admin experiences across the Customer Service suite, we announce that the following admin experiences are deprecated and no longer supported after April 2023.
 
 - Service Management area in the Customer Service Hub app
 - Omnichannel admin center
