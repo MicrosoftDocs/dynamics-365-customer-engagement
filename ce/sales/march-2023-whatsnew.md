@@ -21,10 +21,10 @@ To submit and vote on feature requests and product suggestions, go to the [Dynam
 
 |Feature area  |Feature  |Description  |Resources  |Enabled by |Availability  |
 |---------|---------|---------|---------|---------|---------|
-|Sales engagement     |Engage with your Customers using SMS conversation          | Support for sending and receiving SMS from Contact, Lead and Account forms.        | [Documentation](sms-intro.md)        |  Enabled for all       |  GA       |
-|Sales engagement     | Prioritize segments         | Set priority for the segments so that the records are connected to the right segment when there are multiple matching segments.          |   [Documentation](prioritize-segment.md)      | Enabled for all      |    GA     |
-|Collaboration     | Linked chats in timeline         | View linked chats in the timeline of a record.            |   [Documentation](teams-integration/join-chat.md)      | Enabled for all      |    GA     |
-|Predictive scoring     | Real-time scoring        | View prediction for a new lead in near real time.            |   [Documentation](work-predictive-lead-scoring.md#real-time-scoring)      | Enabled for all      |    GA     |
 |Sales engagement     | Engage with your Customers using SMS conversation        |  Support for incoming SMS, routing them to appropriate records, and showing them in the timeline.       | [Documentation](manage-text-message-communications.md)            |   Enabled by admin      | Public preview        |
-|Sales engagement     |  Prioritize your engagements by using focused view       | View and manage all your sales records and the associated activities on one page. |   [Documentation](focused-view.md)      | Enabled for all        |  Early access       |
+|Sales engagement     |Engage with your Customers using SMS conversation          | Support for sending and receiving SMS from Contact, Lead and Account forms.        | [Documentation](sms-intro.md)        |  Enabled by default       |  GA       |
+|Sales engagement     | Prioritize segments         | Set priority for the segments so that the records are connected to the right segment when there are multiple matching segments.          |   [Documentation](prioritize-segment.md)      | Enabled by default      |    GA     |
+|Collaboration     | Linked chats in timeline         | View linked chats in the timeline of a record.            |   [Documentation](teams-integration/join-chat.md)      | Enabled by default      |    GA     |
+|Predictive scoring     | Real-time scoring        | View prediction for a new lead in near real time.            |   [Documentation](work-predictive-lead-scoring.md#real-time-scoring)      | Enabled by default      |    GA     |
+|Sales engagement     |  Prioritize your engagements by using focused view       | View and manage all your sales records and the associated activities on one page. |   [Documentation](focused-view.md)      | Enabled by default        |  Early access       |
 
