@@ -1,7 +1,7 @@
 ---
 title: "Create real-time marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create real-time marketing emails in Dynamics 365 Marketing."
-ms.date: 03/02/2023
+ms.date: 04/04/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -66,7 +66,7 @@ Add feature-rich links to emails by directly linking to documents stored in the 
 
 ### Link to surveys, events, marketing pages, Microsoft Teams events, or calendar items
 
-Using text, images, or buttons in the real-time marketing email editor, you can link to surveys, events, or marketing pages. You can also create text, button, or image links that allow recipients to join a Microsoft Teams event or that create a new calendar item.
+Using text, images, or buttons in the real-time marketing email editor, you can link to surveys, events, or marketing pages. You can also create text, button, or image links that allow recipients to join a Microsoft Teams event or that creates a new calendar item.
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of link options for real-time marketing email.](media/real-time-marketing-email-button2.png "Screenshot of link options for real-time marketing email")
@@ -78,3 +78,20 @@ The **Link to** dropdown allows the following options for Teams check-ins and ca
     - **Only the event**: The iCalendar file will contain only the event the contact has registered for.
     - **Event and sessions registered**: The file will contain information for the event and the sessions the contact has registered for.
     - **Only sessions registered**: The file will contain only the event sessions the contact has registered for.
+
+## Preview and test your email
+
+Before sending emails to a large number of recipients, it's important to test the email with sample audience members to ensure that the content, layout, and design are displayed correctly. This can be easily accomplished by using the "Preview and Test" tab in the email designer tool, where you can select a sample audience member (for example, a Contact or Lead) record and preview the exact content that will be delivered to that recipient. The preview will include dynamically generated content based on the selected audience member data, providing a realistic preview of what the recipient will see.
+
+To see preview for a specific audience member,
+1. In the email designer, go to “Preview and test” tab and click “Edit sample data”
+2. In the “Audience data” side pane, select a sample audience member. 
+3. To verify that default values for all dynamic text is set up correctly, don't select any audience member record. The preview will show default values.
+
+> [!div class="mx-imgBorder"]
+> ![better preview and test](media/real-time-marketing-better-preview-and-test.png "better preview and test")
+
+> [!NOTE]
+> For Dynamic text that is not bound to the audience, you can enter sample values for them to see how the content will look.
+
+You can also send this email to your own or other test email address to help verify how the received email will be rendered on different devices and different email apps. Such emails will automatically include “[Test]” in their subject header to help distinguish such test emails quickly. 
