@@ -27,6 +27,138 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=dfa5b83d-9e4c-e811-a956-000d3a1bef07&forumName=Dynamics%20365%20Marketing).
 
+## April 2023 update
+
+The April release marks the availability of many [2023 release wave 1](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/planned-features) features. General availability features include creating engaging emails with ease, variety of templates to choose from for email creation, modern forms, extending recipient lists with CC, sending segment-based emails without building a journey, preventing message fatigue by limiting the messages sent to a customer in a specific period, business units, UTM tagging, contact insights to get a better engagement analysis of your audience, driving engagement via personalized content, sending emails with quick using sample audience data, and changing the organization URL in power platform admin center in real-time marketing.
+
+Public preview feature includes enhanced journey reminders.
+
+Monthly enhancements include tracking of unique opens and clicks for high engagement with the customers, attachment support for custom channels.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        |  1.93.2021      |
+
+### General availability
+
+- **Create beautiful and engaging emails with ease**
+    - The simplified email editor allows you to create engaging content within minutes, whether you're an experienced marketer or create emails occasionally to engage with your customers. Now, you can make basic content modifications and even add new elements and sections directly on canvas, and thus enjoy easy, delightful, and focused experience. 
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
+    - [Docs](real-time-marketing-email-get-started.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![](media/whats-new-.png "")
+
+- **Easily find and select one of many new templates to create beautiful emails in minutes**
+    - The new template gallery now features over 20 attractive templates for the most typical email types, such as: abandoned cart, event invitation, product launch, newsletter, and more. It's now possible to mark selected templates as favorites and all templates are grouped into relevant categories, making it easier than ever to find just the right template for your next email. 
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
+    - [Docs](easy-editor.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![](media/whats-new-.png "")
+
+- **Send emails quickly without building a journey**
+    - Enable anyone to easily send branded, personalized emails with interaction analytics and link tracking. This simplified sending workflow allows you to select from a new template library, make changes easily with simplifications to the email editor, and send emails to the segment members you need to reach within minutes without being a marketing technology expert.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
+    - [Docs](email-without-journey.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![](media/whats-new-.png "")
+
+- **Scale your business effortlessly and define access to marketing assets**
+    - Improve productivity by defining marketing asset access and visibility to match your business structure. As businesses create vast amounts of assets, organizing data according to organizational structure becomes critical. Well-organized assets are important to remaining compliant and productive. Now in real-time marketing, you can effortlessly organize your digital assets, content, and journeys to match your organizational structure by separating business and customer data across organizational boundaries. Separating data enables you to gain comprehensive insights into a specific brand's marketing performance without losing sight of the bigger picture. Compliance risk is reduced by using out-of-the-box campaigns and data segregation capabilities across your organization.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/scale-business-effortlessly-define-access-marketing-assets)
+    - [Docs](real-time-marketing-business-units.md)
+
+- **Easily create modern forms using the new intuitive form experience**
+    - Effortlessly create smart forms to place on your websites and capture your customers’ attention while allowing them to input their details. Lead capture forms are crucial for gathering marketing information, turning visitors into leads, and turning leads into valuable customers. With the new intuitive forms experience in real-time marketing, you can easily create modern forms with advanced capabilities without depending on developers.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/easily-create-modern-forms-using-new-intuitive-form-experience)
+    - [Docs](real-time-marketing-form-editor.md)
+ 
+    > [!div class="mx-imgBorder"]
+    > ![](media/whats-new-.png "") 
+
+- **Keep stakeholders in the loop by seamlessly copying them on email campaigns**
+    - Improve your customer experience by keeping your sales, customer service, and finance teams in the loop by copying key recipients on email campaigns. Enable other teams to follow up on hot leads or rapidly answer customers' inquiries, speeding up your pipeline and increasing customer satisfaction.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/keep-stakeholders-loop-seamlessly-copying-them-email-campaigns)
+    - [Docs](real-time-marketing-add-cc-recipients.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![](media/whats-new-.png "") 
+
+- **Prevent message fatigue by limiting the messages sent to a customer in a specific period**
+    - Ensure that your customers receive the right message at the right moment and at the right frequency while preventing fatigue, minimizing unsubscribes, and facilitating optimal engagement with your key messages. Some customers qualify for multiple journeys and campaigns that run simultaneously, which may result in customers receiving multiple messages through one channel in a short period of time. Customers may perceive these messages as spam, which lowers their engagement. With the frequency cap feature, you can optimize engagement by controlling how many messages are sent across multiple channels over a period.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/prevent-message-fatigue-limiting-messages-sent-customer-specific-period)
+    - [Docs](real-time-marketing-frequency-cap.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![](media/whats-new-.png "") 
+
+- **Measure marketing activity, web traffic, and conversion goals using automatic UTM tagging**
+    - Urchin Tracking Module (UTM) codes help you track sources of traffic for your websites and landing pages, enabling you to attribute conversions to the right source. Marketing messages can be a significant contributor to this traffic, but it's hard to track them without UTM parameters. They’re often left out entirely from the links in messages due to the time-consuming process of manually adding the tags to each link. In addition to automatically tagging all your messages with UTM parameters, you now can choose to customize your parameters so that it matches an existing UTM naming convention that your business already uses in google analytics reports. For example, you can choose UTM campaign to point to a campaign ID instead of the journey name.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/measure-marketing-activity-web-traffic-conversion-goals-using-automatic-utm-tagging)
+    - [Docs](real-time-marketing-utm.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![](media/whats-new-.png "")
+
+- **Review engagement history and tailor marketing efforts using contact insights**
+    - Use contact insights in real-time marketing to gain a better understanding of your audience's behavior and interests, make informed decisions based on past engagement, and tailor your marketing efforts to their specific needs and preferences.
+    - [Release plan]()
+    - [Docs](real-time-marketing-analytics.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![](media/whats-new-.png "")
+
+- **Drive engagement via personalized content using data with one-to-many relationship**
+    - Unlock even more data for personalization with ability to define dynamic text using data that requires traversing 1-to-many relations. Consider a university alumni donation campaign where you would want to include the name of the college attended by each alum for driving maximum engagement. However, an alum might have attended multiple colleges in that university, resulting in a "1-to-many" relationship between student and college records. Dynamic text can now be defined for such data.
+    - [Docs](real-time-marketing-predefined-dynamic-text.md#preview-using-data-that-is-reached-by-traversing-a-1-to-many-relation)
+
+    > [!div class="mx-imgBorder"]
+    > ![](media/whats-new-.png "")
+
+- **Confidently send emails after quickly previewing emails using sample audience data**
+    - Personalizing content is an effective strategy for boosting engagement. However, ensuring that the personalized content is accurate for a variety of recipients can be a challenging task. Fortunately, real-time marketing makes this easy – simply select a sample audience member record to preview the exact content that will be delivered to that recipient.  
+    - [Docs]()
+
+    > [!div class="mx-imgBorder"]
+    > ![](media/whats-new-.png "")
+
+- **Dynamics 365 Marketing now supports changing the organization URL in Power Platform Admin Center**
+    - People often want to change the URL of the Marketing application to a branded name which is easy for people to remember. This has been supported for some time in the Power Platform Admin Center but was not previously supported by the Dynamics 365 Marketing application. With this release you can now change the organization URL in Power Platform Admin Center and the Marketing application continues to work without side effects.
+    - [Release plan]
+    - [Docs](manage-marketing-environments.md#how-to-change-the-url-for-an-environment-with-real-time-or-outbound-marketing-installed)
+
+### Public preview
+
+- **Boost your productivity with enhanced journey reminders**
+    - You can now create action-oriented journeys, reminding customers until they complete a call to action or until a certain date or time. Built-in reminder orchestration eliminates the need to create cascading branches that check for the qualifying action after each step or specify conditions with more than two possibilities. This simplifies not only the journey logic required to capture the whole scenario in a single journey but also preserves all analytics for the journey actions in a single place when journeys are alive.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/boost-productivity-enhanced-journey-reminders)
+    - [Docs]()
+
+    > [!div class="mx-imgBorder"]
+    > ![](media/whats-new-.png "")
+
+### Monthly enhancements
+
+- **Optimize your marketing strategy with unique opens and clicks**
+    - Gain insight into the unique individuals who are engaging with your journeys, rather than simply counting the number of times an email or link has been opened or clicked. Tracking unique opens and clicks provides a more accurate picture of your campaign’s reach and engagement by eliminating duplicate interactions from the same customer.
+
+    > [!div class="mx-imgBorder"]
+    > ![](media/whats-new-.png "")
+
+- **Support attachments in custom channel messages**
+    - You can now personalize your communications even more by attaching images or other types of files to your custom channel messages. Build new channels like MMS and include images with your WhatsApp or Viber messages, making your customer interactions even more engaging.
+
+- **Expanded regional availability for Query Assist**
+    - Query Assist, a copilot capability powered by generative AI that enables you to build segments using everyday words, is now available in EUR (Europe).
+
+### New scenario doc
+
+- [Identify and resolve errors with real-time customer care journeys (Dynamics 365 Marketing) | Microsoft Learn](real-time-marketing-customer-care-journey.md)
+
 ## March 2023 update
 
 The Dynamics 365 Marketing March 2023 release general availability features include static segments in real-time marketing, filtering for email lists, enriched marketing content with additional file types, support for SMS providers Infobip and LINK Mobility, customized journeys tailored to your business needs, enhanced real-time journey designer, and segments in real-time marketing where specific people are always included or excluded.
