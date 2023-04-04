@@ -37,6 +37,11 @@ The contract that the custom API should implement must have one input parameter 
     - From: string – The Sender (Channel Instance)
     - To: string – The recipient
     - Message: Dictionary <string, string> - Contains all the message parts for a channel. Keys are the message part names, I.e., values of the corresponding msdyn_name attribute.
+    - MarketingAppContext: object - an object, representing context of the submission. This object is only available, when submission is executed from Marketing application. Object contains the following fields:
+        - CustomerJourneyId: string - ID of the customer journey initiating this call. Null, when submission is requested from "Test Send" feature.
+        - UserId: GUID - ID of user who is receiving the message. Null, when submission is requested from test send. 
+        - UserEntityType: string - type of entity representing a user who is receiving the message. Null, when submission is requested from "Test Send" feature.
+        - IsTestSend: boolean - true, when submission was initated from "Test Send" feature. False otherwise.
 
 - The response is a serialized JSON with the following contract:
     - ChannelDefinitionId: GUID – The channel definition ID
@@ -79,4 +84,12 @@ If your channel supports inbound requests, a [custom API](/power-apps/developer/
 
 #### How to define it:
 
-Your own Custom API will be executed and call the **msdyn_D365ChannelsInbound** API with **contract** as 1 input parameter. The inboundPayload is proxied to the Channel Definition Inbound API.
+Your own Custom API will be executed and call the msdyn_D365ChannelsInbound API with contract as one input parameter:
+
+- inboundPayLoad is a serialized JSON  with the following contract
+    - ChannelDefinitionId: GUID – The channel Definition ID
+    - From: string – The sender (channel instance)
+    - To: string - The C1 phone number (Channel Instance)   
+    - From: string - C2 user contact point
+    - OrganizationId: string – The organization ID
+    - Message: Dictionary <string, string> - Contains all the message parts for a channel
