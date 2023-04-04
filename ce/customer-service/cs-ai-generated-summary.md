@@ -8,23 +8,12 @@ ms.author: mgandham
 manager: shujoshi
 ---
 
-# View and share auto-summarized conversations (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
+# View and share auto-summarized conversations 
 
 Share an AI-generated summary of a customer conversation to easily collaborate on a case. A summary quickly provides context and relays steps that you've already taken to solve the issue. You can summarize all conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. This feature also supports bot to agent conversations, voice conversations with transcription enabled, and Microsoft Teams conversations.
 
 > [!NOTE]
->  - Auto-summarization for conversations is in preview for messaging channels and voice conversations with transcription enabled.
->  - This feature is generally available for Microsoft Teams conversations.
+>  Auto-summarization for conversations is in preview for messaging channels and voice conversations with transcription enabled.
 
 ## View and share a conversation summary for conversations (preview)
 
