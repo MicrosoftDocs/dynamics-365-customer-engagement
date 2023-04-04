@@ -872,8 +872,8 @@
       items:
       - name: Configure authentication settings for chat  
         href: create-chat-auth-settings.md
-      - name: Configure authentication settings for social channels
-        href: create-chat-auth-settings.md#socialauth
+      - name: Configure authentication settings for Apple Messages for Business
+        href: create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business
         items:
         - name: Create authentication setting record using OAuth 2.0 code flow
           href: create-chat-auth-settings.md#create-an-authentication-setting-record-for-apple-messages-for-business-using-oauth-20-code-flow
