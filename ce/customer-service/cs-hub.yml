@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page 
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 03/15/2023
+  ms.date: 04/04/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -45,22 +45,22 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-      - url: learning-catalog.md
-        text: Customer Service Learning Catalog
-      - url: /dynamics365/get-started/accessibility/
-        text: Accessibility in Dynamics 365
-      - url: /dynamics365/customer-service/try-customer-service
-        text: Sign up for a free Dynamics 365 Customer Service trial
-      - url: /dynamics365/customer-service/trial-faq
-        text: Customer Service trial FAQ
-    - title: Try/Buy/Deploy
+      - url: 
+        text: Security and compliance
+      - url: 
+        text: Implementation
+      - url: 
+        text: Adoption frameworks
+      - url: 
+        text: Best practices
+    - title: Try/Buy/Provision
       links: 
+      - url: /dynamics365/customer-service/try-customer-service
+        text: Try Customer Service
+      - url: https://dynamics.microsoft.com/en-us/customer-service/pricing/
+        text: Buy Customer Service
       - url: /dynamics365/customer-service/availability-customer-service-hub
-        text: Install Customer Service
-      - url: /dynamics365/customer-service/move-cs-enterprise-cs-professional
-        text: Move from Dynamics 365 Customer Service Enterprise to Dynamics 365 Customer Service Professional
-      - url: /dynamics365/customer-service/upgrade-omnichannel
-        text: Upgrade Omnichannel for Customer Service
+        text: Provision Customer Service
     - title: Set up 
       links:
       - url: /power-platform/admin/create-users?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
@@ -113,13 +113,13 @@ additionalContent:
     items:
         # Card
         
-        - title: Add-in solutions
-          summary: Unified Service Desk Guide
-          url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
-        - title: Services
-          summary: Azure Communication Services
-          url: /azure/communication-services/overview
-        - title: Apps
-          summary: Power Virtual Agents
-          url: /power-virtual-agents/fundamentals-what-is-power-virtual-agents
+        - title: Power Automate
+          summary:
+          url:
+        - title: Power Apps
+          summary:
+          url:
+        - title: Power BI
+          summary:
+          url:
        
