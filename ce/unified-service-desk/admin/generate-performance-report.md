@@ -3,8 +3,8 @@ title: "Generate Unified Service Desk performance report | MicrosoftDocs"
 description: "Learn how to generate performance report using the Unified Service Desk performance analyzer report."
 ms.date: 10/31/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

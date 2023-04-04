@@ -12,7 +12,7 @@ search.app:
 
 # Choose preferred resources for requirements
 
-Adding preferred resources to a requirement applies restrictions on which resources will be matched to a requirement when scheduling with the schedule assistant or when using resource scheduling optimization.
+Adding preferred resources to a requirement applies restrictions on which resources will be matched to a requirement when scheduling with the schedule assistant or when using Resource Scheduling Optimization.
 
 To add, change, or remove preferred resources, open a resource requirement and go to the **Related** > **Resource Preferences** tab.
 
@@ -30,8 +30,8 @@ The [schedule assistant](schedule-assistant.md) will filter out any resources th
 
 The [schedule assistant](schedule-assistant.md) will filter results to only these resources. If none of the resources are available, schedule assistant won't return any results. The filter can be removed using the filter panel.
 
-## Using preferred resources with resource scheduling optimization
+## Using preferred resources with Resource Scheduling Optimization
 
-For [resource scheduling optimization](./rso-overview.md) to consider preferred resources, add the **Maximize Preferred Resources** objective to the optimization goal. Resource scheduling optimization will attempt to match **Preferred** resources, always select **Must choose from** resources, and never select **Restricted** resources.
+For [Resource Scheduling Optimization](./rso-overview.md) to consider preferred resources, add the **Maximize Preferred Resources** objective to the optimization goal. Resource scheduling optimization will attempt to match **Preferred** resources, always select **Must choose from** resources, and never select **Restricted** resources.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

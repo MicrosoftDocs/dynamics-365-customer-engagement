@@ -3,8 +3,8 @@ title: "Register actions for events in Unified Service Desk | MicrosoftDocs"
 description: "Learn about events that can be registered for an action and event names you can use to subscribe for the registered actions."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

@@ -1,8 +1,8 @@
 ---
 title: "Enable outbound communication in Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn to enable outbound communication (ClickToAct) in Dynamics 365 Channel Integration Framework 2.0."
-author: mh-jaya 
-ms.author: v-jmh
+author: gandhamm 
+ms.author: mgandham
 manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"

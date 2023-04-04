@@ -106,7 +106,7 @@ Before proceeding, ensure the deployment is complete.
 
 ## Step 4: Authorize Azure app connection
 
-Connect the Azure IoTHub to your Field Service environment.
+Connect the Azure IoT Hub to your Field Service environment.
 
 1. Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com).
 

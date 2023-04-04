@@ -3,8 +3,8 @@ title: "Release history (Unified Service Desk)| MicrosoftDocs"
 description: "Find information about all the documentation updates made in various versions of Unified Service Desk."
 ms.date: 02/06/2023
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 
 search.audienceType: 

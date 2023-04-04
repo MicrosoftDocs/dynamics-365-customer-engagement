@@ -1,6 +1,6 @@
 ---
-title: Apply a calendar to a resource in Dynamics 365 Field Service
-description: How to apply a calendar to a resource in Dynamics 365 Field Service
+title: Apply a calendar to a resource
+description: How to apply a calendar to a resource in Dynamics 365 Field Service.
 author: ryanchen8
 ms.author: chenryan
 
@@ -11,7 +11,7 @@ search.app:
   - D365FS
 ---
 
-# Apply a calendar to a resource in Dynamics 365 Field Service
+# Apply a calendar to a resource
 
 Once you've created a work hours template, you need to assign it to resources so their calendars reflect the working hours specified in the template.  
   

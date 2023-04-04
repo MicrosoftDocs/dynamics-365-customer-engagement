@@ -1,6 +1,6 @@
 ---
-title: "3D models for Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn about how to use 3D models in Dynamics 365 Field Service
+title: Use 3D models with customer assets
+description: Learn about how to use 3D models in Dynamics 365 Field Service.
 ms.date: 07/17/2019
 ms.topic: article
 applies_to: 
@@ -13,7 +13,7 @@ search.app:
   - D365FS
 ---
 
-# 3D models for Field Service
+# Use 3D models with customer assets
 
 Dynamics 365 Field Service allows organizations to upload 3D models for field technicians to reference in the field. Typically a 3d model relates to a specific product or customer asset and helps field technicians with equipment repair and other tasks. As opposed to recording videos or writing long manuals, field service organizations can leverage pre-existing 3D models to generate what are effectively 3D knowledge articles.
 
