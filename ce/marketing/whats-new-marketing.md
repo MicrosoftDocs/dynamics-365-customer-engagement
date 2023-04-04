@@ -49,7 +49,7 @@ Monthly enhancements include tracking of unique opens and clicks for high engage
     - [Docs](real-time-marketing-email-get-started.md)
 
     > [!div class="mx-imgBorder"]
-    > ![](media/whats-new-.png "")
+    > ![engaging emails with ease](media/whats-new-engaging-emails-with-ease.png "engaging emails with ease")
 
 - **Easily find and select one of many new templates to create beautiful emails in minutes**
     - The new template gallery now features over 20 attractive templates for the most typical email types, such as: abandoned cart, event invitation, product launch, newsletter, and more. It's now possible to mark selected templates as favorites and all templates are grouped into relevant categories, making it easier than ever to find just the right template for your next email. 
@@ -57,7 +57,7 @@ Monthly enhancements include tracking of unique opens and clicks for high engage
     - [Docs](easy-editor.md)
 
     > [!div class="mx-imgBorder"]
-    > ![](media/whats-new-.png "")
+    > ![template gallery](media/whats-new-template-gallery.png "template gallery")
 
 - **Send emails quickly without building a journey**
     - Enable anyone to easily send branded, personalized emails with interaction analytics and link tracking. This simplified sending workflow allows you to select from a new template library, make changes easily with simplifications to the email editor, and send emails to the segment members you need to reach within minutes without being a marketing technology expert.
@@ -65,7 +65,7 @@ Monthly enhancements include tracking of unique opens and clicks for high engage
     - [Docs](email-without-journey.md)
 
     > [!div class="mx-imgBorder"]
-    > ![](media/whats-new-.png "")
+    > ![send emails without journey](media/whats-new-send-email-without-building-journey.png "send emails without journey")
 
 - **Scale your business effortlessly and define access to marketing assets**
     - Improve productivity by defining marketing asset access and visibility to match your business structure. As businesses create vast amounts of assets, organizing data according to organizational structure becomes critical. Well-organized assets are important to remaining compliant and productive. Now in real-time marketing, you can effortlessly organize your digital assets, content, and journeys to match your organizational structure by separating business and customer data across organizational boundaries. Separating data enables you to gain comprehensive insights into a specific brand's marketing performance without losing sight of the bigger picture. Compliance risk is reduced by using out-of-the-box campaigns and data segregation capabilities across your organization.
@@ -78,7 +78,7 @@ Monthly enhancements include tracking of unique opens and clicks for high engage
     - [Docs](real-time-marketing-form-editor.md)
  
     > [!div class="mx-imgBorder"]
-    > ![](media/whats-new-.png "") 
+    > ![modern forms with intuitive experience](media/whats-new-lead-capture-forms.png "modern forms with intuitive experience") 
 
 - **Keep stakeholders in the loop by seamlessly copying them on email campaigns**
     - Improve your customer experience by keeping your sales, customer service, and finance teams in the loop by copying key recipients on email campaigns. Enable other teams to follow up on hot leads or rapidly answer customers' inquiries, speeding up your pipeline and increasing customer satisfaction.
@@ -86,7 +86,7 @@ Monthly enhancements include tracking of unique opens and clicks for high engage
     - [Docs](real-time-marketing-add-cc-recipients.md)
 
     > [!div class="mx-imgBorder"]
-    > ![](media/whats-new-.png "") 
+    > ![cc on email campaigns](media/whats-new-cc-on-email-campaigns.png "cc on email campaigns") 
 
 - **Prevent message fatigue by limiting the messages sent to a customer in a specific period**
     - Ensure that your customers receive the right message at the right moment and at the right frequency while preventing fatigue, minimizing unsubscribes, and facilitating optimal engagement with your key messages. Some customers qualify for multiple journeys and campaigns that run simultaneously, which may result in customers receiving multiple messages through one channel in a short period of time. Customers may perceive these messages as spam, which lowers their engagement. With the frequency cap feature, you can optimize engagement by controlling how many messages are sent across multiple channels over a period.
@@ -94,7 +94,7 @@ Monthly enhancements include tracking of unique opens and clicks for high engage
     - [Docs](real-time-marketing-frequency-cap.md)
 
     > [!div class="mx-imgBorder"]
-    > ![](media/whats-new-.png "") 
+    > ![prevent message fatigue](media/whats-new-prevent-message-fatigue-with-frequency-cap.png "prevent message fatigue") 
 
 - **Measure marketing activity, web traffic, and conversion goals using automatic UTM tagging**
     - Urchin Tracking Module (UTM) codes help you track sources of traffic for your websites and landing pages, enabling you to attribute conversions to the right source. Marketing messages can be a significant contributor to this traffic, but it's hard to track them without UTM parameters. They’re often left out entirely from the links in messages due to the time-consuming process of manually adding the tags to each link. In addition to automatically tagging all your messages with UTM parameters, you now can choose to customize your parameters so that it matches an existing UTM naming convention that your business already uses in google analytics reports. For example, you can choose UTM campaign to point to a campaign ID instead of the journey name.
@@ -102,7 +102,7 @@ Monthly enhancements include tracking of unique opens and clicks for high engage
     - [Docs](real-time-marketing-utm.md)
 
     > [!div class="mx-imgBorder"]
-    > ![](media/whats-new-.png "")
+    > ![automatic utm tracking](media/whats-new-automatic-utm-tracking.png "automatic utm tracking")
 
 - **Review engagement history and tailor marketing efforts using contact insights**
     - Use contact insights in real-time marketing to gain a better understanding of your audience's behavior and interests, make informed decisions based on past engagement, and tailor your marketing efforts to their specific needs and preferences.
@@ -110,21 +110,21 @@ Monthly enhancements include tracking of unique opens and clicks for high engage
     - [Docs](real-time-marketing-analytics.md)
 
     > [!div class="mx-imgBorder"]
-    > ![](media/whats-new-.png "")
+    > ![contact insights](media/whats-new-contact-insights.png "contact insights")
 
 - **Drive engagement via personalized content using data with one-to-many relationship**
     - Unlock even more data for personalization with ability to define dynamic text using data that requires traversing 1-to-many relations. Consider a university alumni donation campaign where you would want to include the name of the college attended by each alum for driving maximum engagement. However, an alum might have attended multiple colleges in that university, resulting in a "1-to-many" relationship between student and college records. Dynamic text can now be defined for such data.
     - [Docs](real-time-marketing-predefined-dynamic-text.md#preview-using-data-that-is-reached-by-traversing-a-1-to-many-relation)
 
     > [!div class="mx-imgBorder"]
-    > ![](media/whats-new-.png "")
+    > ![personalize content with 1 to many relationship](media/whats-new-personalize-content-1-to-many.png "personalize content with 1 to many relationship")
 
 - **Confidently send emails after quickly previewing emails using sample audience data**
     - Personalizing content is an effective strategy for boosting engagement. However, ensuring that the personalized content is accurate for a variety of recipients can be a challenging task. Fortunately, real-time marketing makes this easy – simply select a sample audience member record to preview the exact content that will be delivered to that recipient.  
     - [Docs]()
 
     > [!div class="mx-imgBorder"]
-    > ![](media/whats-new-.png "")
+    > ![quick email preview](media/whats-new-quick-email-preview.png "quick email preview")
 
 - **Dynamics 365 Marketing now supports changing the organization URL in Power Platform Admin Center**
     - People often want to change the URL of the Marketing application to a branded name which is easy for people to remember. This has been supported for some time in the Power Platform Admin Center but was not previously supported by the Dynamics 365 Marketing application. With this release you can now change the organization URL in Power Platform Admin Center and the Marketing application continues to work without side effects.
@@ -139,7 +139,7 @@ Monthly enhancements include tracking of unique opens and clicks for high engage
     - [Docs]()
 
     > [!div class="mx-imgBorder"]
-    > ![](media/whats-new-.png "")
+    > ![enhanced journey reminders](media/whats-new-enhanced-journey-reminders.png "enhanced journey reminders")
 
 ### Monthly enhancements
 
@@ -147,7 +147,7 @@ Monthly enhancements include tracking of unique opens and clicks for high engage
     - Gain insight into the unique individuals who are engaging with your journeys, rather than simply counting the number of times an email or link has been opened or clicked. Tracking unique opens and clicks provides a more accurate picture of your campaign’s reach and engagement by eliminating duplicate interactions from the same customer.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/whats-new-.png "")
+    > ![unique opens and clicks](media/whats-new-unique-opens-and-clicks.png "unique opens and clicks")
 
 - **Support attachments in custom channel messages**
     - You can now personalize your communications even more by attaching images or other types of files to your custom channel messages. Build new channels like MMS and include images with your WhatsApp or Viber messages, making your customer interactions even more engaging.
