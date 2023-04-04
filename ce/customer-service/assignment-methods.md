@@ -181,15 +181,26 @@ The first condition specifies the "user skills" on which the operator is an exac
 
 Dynamic match reduces the effort of having to write and maintain multiple static rules for each permutation and combination of the possible value.
 
-### How the limit on offering a work item repeatedly to an agent works
+### Limits on offering a work item repeatedly to an agent
 
-By default, an agent can decline an assignment of work items three times, which includes reject and notification time-out. This number is indicated by the null value in the OData call and can be updated in the OData call. After three attempts, the system won't try to offer the same work item to the same agent and tries to assign to the next agent. If no agent matches, the work item remains open in the queue until it's manually handled. If other agents are added to the queue, the system will try to assign to them.
+When agents are offered a work item through automatic assignment, they typically can accept or decline. Both [rejection](enable-agent-reject-notifications.md) and [time out](manage-missed-notifications.md) of the notification is considered as a decline. If an agent declines an offer three times for the same work item, that agent will not be considered as eligible for auto assignment in future assignment attempts for the specific work item.
 
-If 100 agents decline the work item by rejecting or letting it time out, the work item remains open and won't be offered to the 101th agent.
+For example, if agent Serena Davis rejects a chat from customer Ana Bowman twice and the notification times out in the third attempt, it would be counted as three declines and the auto assignment won't offer the chat from Ana Bowman to Serena Davis again. But the chat from Ana Bowman will be offered to other eligible agents. Also Serena Davis will be considered for other incoming conversations except the chat from Ana Bowman.
 
-These limits aren't applicable to supervisor assigned or active work items transferred by agents.
+> [!NOTE]
+> If all matching agents decline the work because agent availability is low, or the work requires a very specific skill and proficiency, the work remains in the queue and can be picked by agents including those who rejected it or be manually assigned by supervisors. The system will try to offer the declined work to other agents in the queue, if they are eligible based on assignment configuration.
 
-You can update the OData call as follows to modify the limit:
+If 100 agents have already declined a particular work item, auto assignment won't consider the work item in further assignment cycles. The work item remains open in the queue and can be picked by agents or assigned by supervisors.
+
+You can update the default limit of three declines per agent per work to a value between one and five based on your organization's requirement. The limit is applicable to all channels in the org.
+
+You can make an OData call as follows to check the limit for your organization.
+
+`<org-url>/api/data/v9.0/msdyn_omnichannelconfigurations?$select=msdyn_number_of_declines_allowed`
+
+If this OData returns the null value, it means that the decline limit is set to a default value of 3.
+
+You can update the OData call as follows to modify the limit.
 
 `var data = { "msdyn_number_of_declines_allowed": 3 } // update the record Xrm.WebApi.updateRecord("msdyn_omnichannelconfiguration", "d4d91600-6f21-467b-81fe-6757a2791fa1", data).then( function success(result) { console.log("Omnichannel Configuration updated"); // perform operations on record update }, function (error) { console.log(error.message); // handle error conditions } );`
 
