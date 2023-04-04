@@ -47,19 +47,7 @@ Only active views are displayed for the search results. You can customize the Qu
 
 During an inline search, the search results are displayed and you can select a record to link the conversation to the selected record. After you link the record, the **Active Conversation** page is updated with the details.
 
-Depending on the settings enabled for you, you'll see the one of the following:
-
-   ### [Enhanced Active Conversation)](#tab/enhancedcustomer)
-
-
-   :::image type="content" source="media/cs-changes-layout.png" alt-text="enhanced layout" :::
-
-   ### [Default Active Conversation](#tab/customer)
- 
-
    :::image type="content" source="media/agent-inline-search-link.png" alt-text="The active conversation page is updated with details from the linked record" :::
-
---- 
 
 > [!NOTE]
 > You can link only one contact or account in the customer (**Contact** or **Account**) section and one case in the **Case** section.

@@ -30,7 +30,7 @@ Having this information ready can help support agents reduce the hold time that 
 - Recent cases
 - Timeline
 
- :::image type="content" source="media/customer-summary-overall.png" alt-text="View active conversations":::
+ :::image type="content" source="media/customer-summary.png" alt-text="View active conversations":::
 
 For active conversations, you can view the **Active Conversation** form on the agent dashboard of the Customer Service workspace. The **Active Conversation** form, however, doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard. More information: [View agent dashboard and conversations](oc-agent-dashboard.md).
 
