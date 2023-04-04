@@ -36,7 +36,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], ac
   
 -   The scheduling activities enables you to schedule your services and resources, and thus define work schedules. The scheduling activity entities are `Appointment`, `ServiceAppointment`, and `RecurringAppointmentMaster`. For more information, see [Schedule and Appointment Entities](schedule-appointment-entities.md).  
   
--   The marketing activity, `CampaignResponse`, enables you to capture responses from the customers for a marketing campaign, while the `CampaignActivity` entity represents a step in a campaign. For more information, see [Campaign Entities](campaign-entities.md).  
+-   The marketing activity, `CampaignResponse`, enables you to capture responses from the customers for a marketing campaign, while the `CampaignActivity` entity represents a step in a campaign. For more information, see [Campaign Entities](/sales/developer/campaign-entities).  
   
 -   The sales force automation entities `OpportunityClose`, `OrderClose`, and `QuoteClose` activities capture information about each of these events. For more information, see [Sales Entities (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md).  
   

@@ -1,7 +1,7 @@
 ---
-title: "Qualify and convert leads to opportunity | MicrosoftDocs"
-description: "Qualify leads in the Sales app to create corresponding accounts and opportunities, and disqualify leads when they won't turn into an opportunity."
-ms.date: 02/28/2023
+title: Qualify and convert leads to opportunity
+description: Qualify leads in the Sales app to create corresponding accounts and opportunities, and disqualify leads when they won't turn into an opportunity.
+ms.date: 03/29/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -50,7 +50,7 @@ After you've identified the time frame, budget, and purchase process for a lead,
     - [What happens when duplicates are found while qualifying leads?](#what-happens-when-duplicates-are-found-while-qualifying-leads)
     - [How do I handle lead qualification errors?](#how-do-i-handle-lead-qualification-errors)
     
-The lead moves to the next stage in the business process.The lead is also removed from the **My Open Leads** view and gets added to the **Closed Leads** view.
+The lead moves to the next stage in the business process. The lead is also removed from the **My Open Leads** view and gets added to the **Closed Leads** view.
   
 > [!NOTE]
 > If an opportunity isn't created when qualifying a lead, the business process flow doesn't progress to the next stage, although the lead status becomes qualified.
@@ -155,5 +155,3 @@ When salespeople work on a lead, they use notes to store key information on the 
 [Troubleshoot issues with lead qualification issues](/troubleshoot/dynamics-365/sales/troubleshoot-lead-qualification-issues-for-salespeople)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-[!INCLUDE[ai-generated-description](../includes/disclaimer-ai-generated-description.md)]

@@ -1,7 +1,7 @@
 ---
 title: Use sites to manage your service locations | Microsoft Docs
-description: How to use sites to manage your service locations in Dynamics 365 Customer Service.
-ms.date: 04/04/2022
+description: Learn how to use sites to manage your service locations in Dynamics 365 Customer Service.
+ms.date: 03/20/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -23,7 +23,7 @@ ms.custom:
 
 Create sites to define the locations where you provide service to your customers. When you’re scheduling resources, you can define which resources will work on which site.
 
-You can also create a site in Dynamics 365 Customer Engagement (on-premises) 9.1 also. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#support-for-site-entity-in-unified-interface)
+You can also create a site in Dynamics 365 Customer Engagement (on-premises) 9.1 also. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#support-for-site-entity-in-unified-interface)
 
 ## Create a site
 

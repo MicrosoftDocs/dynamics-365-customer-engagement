@@ -3,8 +3,8 @@ title: "Download Unified Service Desk Performance Analyzer | MicrosoftDocs"
 description: "This topic contains the download link that you can use to install Unified Service Desk Performance Analyzer."
 ms.date: 10/31/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

@@ -3,8 +3,8 @@ title: "Composite DDA | MicrosoftDocs"
 description: "Learn about the composite data-driven adapter. Also, included is a sample code that shows a binding collection of data-driven adapters."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

@@ -3,8 +3,8 @@ title: "Integrate with external applications and web applications using UII | Mi
 description: "Get an overview about using UII to integrate with external applications and web applications in Unified Service Desk."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

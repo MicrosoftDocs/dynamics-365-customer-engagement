@@ -3,8 +3,8 @@ title: "AttributeMatchPath in Unified Service Desk  | MicrosoftDocs"
 description: "Understand how the AttributeMatchPath element works in Unified Service Desk. This topic also includes a code snippet that shows how to use the element."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

@@ -1,30 +1,22 @@
 ---
-title: Manage historical data of capacity updates for agents
-description: Learn how to efficiently manage historical data of capacity updates against capacity profiles for agents.
+title: Delete historical data of agent capacity updates
+description: Learn how to delete historical data of agent capacity profile updates in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 02/13/2023
+ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# Manage historical data of capacity updates for agents
+# Delete historical data of agent capacity updates
 
-The historical data of the capacity updates against capacity profiles for agents is stored in [Dataverse for Apps Database Capacity](/power-platform/admin/capacity-storage#licenses-for-the-new-storage-model).
+The history of updates to your agents' capacity profiles is stored in [Dataverse for Apps](/power-platform/admin/capacity-storage). To help you use your storage capacity efficiently, we recommend that you periodically delete the historical data.
 
-We recommend that you periodically delete the historical data to manage the storage capacity.
-
-## Delete historical data for capacity updates
-
-1. Use the steps in [Capacity page details](/power-platform/admin/capacity-storage#capacity-page-details) to view the storage consumption.
-1. If the storage consumed is 50-60% of the total capacity, you can do the following actions:
-   1. Consider moving the data to a different data store if you want to keep it.
-   1. Delete it from Dataverse for Apps Database Capacity.
-1. Use the steps in [Use bulk deletion to remove large amounts of data](/power-platform/admin/delete-bulk-records) to delete the historical data stored in the [msdyn_agentcapacityupdatehistory](developer/reference/entities/msdyn_agentcapacityupdatehistory.md) entity.
+[Review your storage consumption](/power-platform/admin/capacity-storage#capacity-page-details). If the storage consumed is 50%&ndash;60% of the total capacity, consider moving the data to a different data store if you want to keep it. Otherwise, [delete it](/power-platform/admin/delete-bulk-records).
 
 > [!CAUTION]
-> Delete operations are irreversible and therefore we recommend that you verify and ensure the data isn't required before you run the delete job.
+> Deleted data can't be recovered. We recommend that you verify the data isn't required before you delete it.
 
 ### See also
 

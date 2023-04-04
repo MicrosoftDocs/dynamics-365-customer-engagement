@@ -201,7 +201,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
 - **Increase customer engagement with QR codes in emails**
     - Increase customer engagement and promote your business using QR codes for events or coupons. QR codes allow your customers to access marketing event information or dynamic links with just a single scan! QR codes work by simply scanning the code with a mobile device that is equipped with a camera and QR code reader application. Once the QR code is scanned, it is translated into actionable information such as a webpage or event check-in.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/increase-customer-engagement-qr-codes-emails)
-    - [Docs](real-time-marketing-email.md#link-to-qr-codes)
+    - [Docs](real-time-marketing-email.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a QR code in an email.](media/whats-new-qr-code.png "Screenshot of a QR code in an email")
@@ -645,7 +645,7 @@ The update also includes monthly enhancements to journeys, domain authentication
     - Out-of-the-box triggers allow you to launch journeys for marketing events without the need to create custom triggers.
 
 - **Marketing emails**
-    - A streamlined, guided experience for DKIM domain authentication settings allows marketers to maximize email deliverability and enables the embedding of Dynamics 365 Marketing forms on websites. Learn more: [Real-time marketing domain authentication](real-time-marketing-domain.md).
+    - A streamlined, guided experience for DKIM domain authentication settings allows marketers to maximize email deliverability and enables the embedding of Dynamics 365 Marketing forms on websites. Learn more: [Real-time marketing domain authentication](domain-authentication.md).
     - Content ideas now includes an in-product feedback survey.
 
 - **Consent**
@@ -867,7 +867,7 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 ##### Real-time marketing
 
 - **Asset library**
-    - Copy images from the outbound marketing file library to the real-time marketing asset library. Learn more: [Export assets from outbound marketing to the asset library](real-time-marketing-asset-library.md#export-assets-from-the-outbound-file-library-to-the-asset-library-add-on).
+    - Copy images from the outbound marketing file library to the real-time marketing asset library. Learn more: [Export assets from outbound marketing to the asset library](real-time-marketing-asset-library.md#asset-library-features).
 - **Customer journeys**
     - You can now gain more control over journey branching conditions through increased attribute support by having access to all attributes associated with a contact entity, a lead entity or a trigger. You also have the ability to do relative and partial date time checks such as checking if a customer's birthday is this month or if their membership is up for renewal in the next 90 days.
 - **Marketing emails**
@@ -1242,7 +1242,7 @@ The May 2021 Marketing monthly update includes email editor improvements, expand
     - [Docs](real-time-marketing-channel-optimization.md)
 - **AI-driven recommendations for images**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/ai-driven-recommendations-image-video-document-or-fragment)
-    - [Docs](real-time-marketing-email.md#ai-driven-image-suggestions)
+    - [Docs](real-time-marketing-email.md)
 - **Author personalized content across email, text messages, and push notifications through a new point-and-click interface**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/author-dynamic-content-ease-through-new-point-and-click-interface)
     - [Docs](real-time-marketing-email.md#add-personalized-data-to-a-real-time-marketing-email)

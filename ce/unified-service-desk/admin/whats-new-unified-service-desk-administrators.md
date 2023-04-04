@@ -3,8 +3,8 @@ title: "What's new in Unified Service Desk for administrators | MicrosoftDocs"
 description: "Learn about new features available for system administrators in the latest version of Unified Service Desk."
 ms.date: 02/06/2023
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

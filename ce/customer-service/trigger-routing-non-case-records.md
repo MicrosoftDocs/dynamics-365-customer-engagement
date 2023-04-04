@@ -1,8 +1,8 @@
 ---
 title: "Trigger routing for non-case records using plug-in | MicrosoftDocs"
 description: "This page provides sample code for developers to trigger routing for non-case records using the IPlugin interface."
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.date: 03/04/2022
 ms.topic: article

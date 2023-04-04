@@ -7,7 +7,6 @@ ms.reviewer: shujoshi
 ms.date: 01/30/2023
 ms.topic: overview
 ms.custom: bap-template
-
 ---
 
 # Overview of productivity tools
@@ -47,6 +46,6 @@ The productivity pane supports custom productivity tools developed as custom pag
 [Macros](macros.md)  
 [Agent scripts](agent-scripts.md)  
 [Smart assist](smart-assist.md)  
-[Microsoft Teams](/customer-service/collaboration)
+[Microsoft Teams](../customer-service/collaboration.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

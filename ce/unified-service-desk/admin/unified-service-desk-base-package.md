@@ -3,8 +3,8 @@ title: "Unified Service Desk Base package | MicrosoftDocs"
 description: "Learn about the Base sample application that's part of Unified Service Desk, its components, and how you can use it."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - admin

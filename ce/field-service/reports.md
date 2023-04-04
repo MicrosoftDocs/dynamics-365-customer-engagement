@@ -1,12 +1,12 @@
 ---
 title: Reports overview
-description: This article explains what reports are lists available reports in Dynamics 365 Field Service and the Resource Scheduling Optimization add-in.
+description: This article explains what reports are and lists available reports in Dynamics 365 Field Service and the Resource Scheduling Optimization Add-in.
 author: FeifeiQiu
 ms.author: feiqiu
 ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.topic: overview 
-ms.date: 02/09/2023
+ms.date: 03/30/2023
 ms.custom: bap-template 
 ---
 
@@ -14,21 +14,21 @@ ms.custom: bap-template
 
 Reports are a collection of charts and visuals, built with Microsoft Power BI. They're based on a data set to get a quick view into core metrics. Resource and operations managers can monitor key operational metrics to gauge the performance of resources and their scheduling strategy. Reports can help explore important business-related questions, such as:
 
-- Are my resources being utilized efficiently over a given time period?
+- Are my resources being used efficiently over a given time period?
 - What is the average discrepancy between estimated and actual completion times for tasks and work orders?
 - Are tasks and resources being matched effectively?
 
 With answers to these questions, scheduling managers can develop an effective resource scheduling strategy and that saves cost and time and improves customer experiences.
 
-Dynamics 365 Field Service and the Resource Scheduling Optimization add-in provide reports that focus on different scenarios and user needs:
+Dynamics 365 Field Service and the Resource Scheduling Optimization Add-in provide reports that focus on different scenarios and user needs:
 
 1. The [Resource and utilization report](resource-utilization-report.md), which is included with Field Service.
 1. The [Work order summary report](work-order-summary-report.md), which is included with Field Service.
-1. The [Admin report](rso-admin-report.md), included with the Resource Scheduling Optimization add-in.
-1. The [Optimization summary report](rso-optimization-summary-report.md), included with the Resource Scheduling Optimization add-in.
-1. [Predictive work duration (preview)](analytics-predictive-work-duration.md) with the upcoming work duration and the territory duration reports in Field Service.
+1. The [Admin report](rso-admin-report.md), included with the Resource Scheduling Optimization Add-in.
+1. The [Optimization summary report](rso-optimization-summary-report.md), included with the Resource Scheduling Optimization Add-in.
+1. [Predictive work duration reports (preview)](analytics-predictive-work-duration.md) with the upcoming work duration and the territory duration reports in Field Service.
 
-Other than editing filters and drill-down, the reports aren't configurable or customizable.
+Other than editing filters and drill-down actions, the reports aren't configurable or customizable.
 
 ## Prerequisites
 
@@ -38,8 +38,8 @@ Reports are only available to users with **System Administrator** or **Field Ser
 |--------------------------|--------------------------------------------------------------|
 | Resource and utilization | Field Service                                                |
 | Work order summary       | Field Service                                                |
-| Admin report             | Field Service<br>Resource Scheduling Optimization add-in     |
-| Optimization summary     | Field Service<br>Resource Scheduling Optimization add-in     |
+| Admin report             | Field Service<br>Resource Scheduling Optimization Add-in     |
+| Optimization summary     | Field Service<br>Resource Scheduling Optimization Add-in     |
 | Predictive work duration | Field Service                                                |
 
 ## Refresh cadence and data retention
@@ -84,17 +84,17 @@ Now the **Field Service - Dispatcher** can see the corresponding report.
 | North America| NAM |
 | South America | SAM |
 | Canada | CAN |
-| Europe | EUR |
+| Europe (except Germany) | EUR |
 | Asia Pacific Japan | APJ |
 | Australia | OCE |
 | Japan| JPN |
 | India | IND |
-| Great Britain | GBR |
+| United Kingdom | UK |
 | United Arab Emirates | UAE |
 
 ## Data model
 
-The system uses the following list of entities to generate reports. If there's no data or you've customized these entities any of the below entities, parts of it may show blank.
+The system uses the following list of entities to generate reports. If there's no data or you've customized these entities, parts of it may show blank.
 
 Field Service entities:
 
