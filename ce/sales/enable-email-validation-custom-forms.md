@@ -68,5 +68,5 @@ You can do the following customization for email validation:
 
 ### See also
 
-[Enable email validation](enable-email-validation.md)
-
+[Enable email validation](enable-email-validation.md)  
+[Work with invalid email addresses](work-invalid-email-addresses.md)  
