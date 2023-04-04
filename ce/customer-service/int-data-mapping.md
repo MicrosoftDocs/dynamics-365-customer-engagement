@@ -31,7 +31,7 @@ To add an integrated search provider, you need to configure the knowledge articl
 
 ## Language mapping
 
-Irrespective of the configuration type that you use, if you have selected languages to be mapped in the **Authentication and testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale.md).
+Irrespective of the configuration type that you use, if you have selected languages to be mapped in the **Authentication and testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).
 
 ## Use field mapping
 
