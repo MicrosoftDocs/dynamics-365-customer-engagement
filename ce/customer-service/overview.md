@@ -1,7 +1,7 @@
 ---
 title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Overview of Dynamics 365 Customer Service"
-ms.date: 05/27/2022
+ms.date: 04/05/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -36,8 +36,9 @@ Use Customer Service to:
 - Create and schedule services
 - Participate in chats
 
-
 ## Administer Customer Service
+
+[!INCLUDE[cc-oc-admin-csh-deprecation.md](../includes/cc-oc-admin-csh-deprecation.md)]
 
 You can configure and manage the different capabilities in Customer Service by using any of the following apps based on the licensing module that you've purchased. While you can use any of the admin apps to set up the features in Customer Service, we recommend that you use the latest apps and centrally manage the features in a robust framework.
 
