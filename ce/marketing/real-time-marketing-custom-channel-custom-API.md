@@ -50,8 +50,6 @@ The contract that the custom API should implement must have one input parameter 
     - Status: string – Possible values are:
         - NotSent – there was an attempt to execute the submission to the provider, but it was rejected without a possibility to retry.
         - Sent – the submission request was successfully accepted by the provider.
-        - Delivered – the accepted message was successfully delivered to the target.
-        - NotDelivered – the accepted message was not successfully delivered to the target.
 
 ## B. Delivery report custom API
 
@@ -71,8 +69,9 @@ Your own Custom API will be executed and call the msdyn_D365ChannelsNotification
     - MessageId:  string – The message ID
     - From: string – The sender (channel instance)
     - OrganizationId: string – The organization ID
-    - Status: string – The delivery report status 
-    - StatusDetails: Dictionary <string, object> - Channel specific information regarding the status.
+    - Status: string – The delivery report status. The possible values are:
+        - Delivered – the accepted message was successfully delivered to the target.
+        - NotDelivered – the accepted message was not successfully delivered to the target.
 
 ## C. Inbound custom API
 
