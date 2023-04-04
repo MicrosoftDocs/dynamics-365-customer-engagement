@@ -273,7 +273,6 @@ If you're adding an authenticated chat experience to a custom website (that's no
         - **Scope**: Each scope added will specify which pieces of user data you've requested from the customer. The scope content must exactly match those available through your service provider.<br>
         - **Access Token URL**: Access point where the OAuth 2.0 API
         - **Decrypted token URL**: Endpoint where the OAuth 2.0 API can retrieve the customer info requested in the scope.<br>
-        - **Additional parameters**: Allows authentication services to take additional parameters from the request.
      
      3. On the **Additional details** page, you can optionally define an access token expiry time, in seconds. The default expiry time is one hour.<br>
         After the specified time, the **Authenticated** field in the **Customer summary** section of a previously authenticated conversation will change to **No**.<br>
@@ -296,7 +295,7 @@ If you're adding an authenticated chat experience to a custom website (that's no
         - **Client ID**: OAuth 2.0 Client Identifier issued by an authorization server.<br>
         - **Client secret**: Client secret used to authenticate requests sent to an authorization server.<br>
         - **Scope**: Each scope added will specify which pieces of user data you've requested from the customer. The scope content must exactly match those available through your service provider.<br>
-        - **Access Token URL**: Access point where the OAuth 2.0 API
+        - **Access Token URL**: The service provider's endpoint where an access token can be requested.
         - **Decrypted token URL**: Endpoint where the OAuth 2.0 API can retrieve the customer info requested in the scope.<br>
         - **Additional parameters**: Allows authentication services to take additional parameters from the request.
      
@@ -307,7 +306,7 @@ If you're adding an authenticated chat experience to a custom website (that's no
     
      5. Review the **Summary** page, and then select **Next**. The authentication setting is configured.
      
-     6. On the **Redirect information** page, copy the URL. You'll add this URL to the authentication provider service's website.
+     6. On the **Redirect information** page, copy the URL. You'll add this URL to the authentication service provider's website under allowed callback URLs.
      
      7. Select **Finish**.
 
