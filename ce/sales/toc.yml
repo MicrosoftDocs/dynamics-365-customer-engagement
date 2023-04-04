@@ -229,6 +229,8 @@
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
           href: enable-duplicate-lead-detection.md
+        - name: Enable duplicate lead detection for custom forms 
+          href: enable-duplicate-detection-custom-forms.md
         - name: Enable email validation
           href: enable-email-validation.md
         - name: Enable email validation for custom forms 

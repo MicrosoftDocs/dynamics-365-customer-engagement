@@ -41,13 +41,16 @@ You can do the following customization for email validation:
 1. On the **Contact** main form pane that opens on the right side, select the **Events** tab.   
 1. Under the **On Load** section, select **+ Event Handler**.   
 1. On the **Configure Event** dialog box, select **+ Add library**.
-1. Add the **LeadHygiene/Lead/leadhygiene_form_notification_library.js** library and then select it from the list.  
+1. Add the **DataHygiene/Data/salesdatahygiene_form_notification_library.js** library and then select it from the list.  
 1. In the **Function** name field, enter the **Mscrm.LeadHygiene.DataHygieneNotificationLibrary.emailAddressValidationFormOnLoad** value.
 1. Enable **Pass execution context as first parameter**.
 1. Select **Done**.  
-    :::image type="content" source="media/ev-add-onload-event-library.png" alt-text="Screenshot of the event configuration for event handler.":::
 
-    Under the **Handlers** section, you can see the required OnLoad event handler is added to the **Contact** form.
+    :::image type="content" source="media/ev-add-onload-event-library.png" alt-text="Screenshot of the event configuration for event handler for email validation.":::
+
+1. Save and publish the form.
+
+    Under the **Handlers** section, you can see the required event handler is added to the **Contact** form. 
 
 ### Add email control 
 
