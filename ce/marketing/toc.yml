@@ -340,6 +340,8 @@
         href: real-time-marketing-personalize-inline-conditions.md
       - name: Personalize lists
         href: real-time-marketing-personalize-lists.md
+      - name: Preview personalized content
+        href: real-time-marketing-preview-personalize-content.md
     - name: Assets
       items: 
       - name: Asset libary add-on file migration
