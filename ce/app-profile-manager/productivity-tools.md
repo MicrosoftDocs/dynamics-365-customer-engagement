@@ -4,7 +4,7 @@ description: Learn about Dynamics 365 Productivity Tools in the Omnichannel for 
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 01/30/2023
+ms.date: 04/05/2023
 ms.topic: overview
 ms.custom: bap-template
 ---
@@ -37,7 +37,7 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 
 Microsoft Teams is a tool that can help agents more easily collaborate with colleagues by using the capabilities of Teams within Dynamics 365. Agents can view their chats, and with admin setup, can view chats that are relevant to certain records, also known as connected chats. Connecting all of their chats in one place helps agents work without switching context or leaving the application. Admins can also configure an optional introduction note that agents can use to provide further context when collaborating on Teams.
 
-## Custom productivity tools (preview)
+## Custom productivity tools
 
 The productivity pane supports custom productivity tools developed as custom pages or Power Apps component framework controls. You can create one or multiple custom productivity tools and make them available to your users with agent experience profiles.
 

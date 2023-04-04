@@ -5,20 +5,11 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 03/01/2023
+ms.date: 04/05/2023
 ms.custom: bap-template
 ---
 
-# Manage custom productivity tools (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+# Manage custom productivity tools
 
 The productivity pane supports custom productivity tools developed as custom pages or Power Apps component framework controls. You can create one or multiple custom productivity tools and make them available to your users with agent experience profiles.
 
@@ -56,3 +47,6 @@ Ensure that the following prerequisites are met:
 >
 > - Custom productivity tools don't have a mechanism to retrieve information from the session context.
 
+### See also
+
+[Productivity tools in Customer Service](../app-profile-manager/productivity-tools.md)  
