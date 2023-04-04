@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 01/30/2023
+ms.date: 03/29/2023
 search.audienceType: 
   - admin
   - customizer
@@ -85,14 +85,12 @@ To learn more about adding a timer control to an SLA-enabled entity, go to [Add 
 
 ## Know active duration and elapsed time for SLA KPI Instances
 
-> [!NOTE]
-> Active duration calculation will be asynchronous by default, as an early access feature. You can opt in early to enable these features in your environment. This will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
->
-> You might need to refresh the views that have an **Active Duration (min)** field after any create or update operation. You may also need to review any customizations associated with the **Active Duration** attribute of the SLA KPI instance.
-
 Track the time taken by SLA KPI Instances to reach their terminal status during business hours to evaluate whether the SLAs are realistic and take decisions about resourcing and efficiency.
 
 The **Active Duration (min)** and **Elapsed Time (min)** fields for an SLA KPI Instance help you derive the exact number of business hours that were spent. The **Active Duration (min)** field will show data only when the KPI is in a **Paused** or terminal state. **Elapsed Time (min)** will show data only when the KPI is in an **In progress** or terminal state. The final value will appear in the last KPI instance after the terminal state. The active duration and elapsed time data is shown in minutes.
+
+Active duration calculation will be asynchronous by default.
+You might need to refresh the views that have an **Active Duration (min)** field after any create or update operation. You may also need to review any customizations associated with the **Active Duration** attribute of the SLA KPI instance.
 
 You can view the active duration and elapsed time on the **SLA** tab of the custom entity as well.
 
