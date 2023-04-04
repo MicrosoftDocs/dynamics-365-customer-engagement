@@ -6,13 +6,11 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 02/07/2023 
+ms.date: 04/05/2023 
 ms.custom: bap-template 
 ---
 
 # Customize the case resolution experience
-
-[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
 Customize the case resolution experience in Power apps as follows:
 

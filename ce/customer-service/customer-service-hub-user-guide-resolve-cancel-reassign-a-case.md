@@ -39,9 +39,6 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
   - **Confirm**: If you select **Confirm** on the warning, the system automatically cancels the open activities when the case is resolved.
   
       :::image type="content" source="media/resolve-case-after.png" alt-text="Open activity warning" lightbox="media/resolve-case.png":::
-     
-    > [!NOTE]
-    > The updated message agents see when they try to close cases with open activities is an early access feature.
   
 3. By default, you will see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog. If your administrator has disabled the **Enable the minimal case resolution dialog** option the standard **Resolve Case** dialog is displayed with the following additional fields. More information: [Disable the standard case resolution dialog](add-enhanced-case-management.md):
 
@@ -50,9 +47,6 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
      - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.  
     
     :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case.png"::: 
-     
-   > [!NOTE]
-   > The minimal **Resolve case** dialog is an early access feature.
 
 6.  Select **Resolve**.
 
