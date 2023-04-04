@@ -53,8 +53,8 @@ The best way to show how journey reminders work is to walk through a real-life s
 
 1. To complete the journey, select the plus (**+**) button inside the Series tile and add messages from different channels that you want to send out as part of the reminder journey. Add wait time between the messages to avoid spamming your customers.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing message tile selection.](media/real-time-marketing-set-end-date.png "Screenshot showing message tile selection")
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot showing message tile selection.](media/real-time-marketing-set-end-date.png "Screenshot showing message tile selection")
 
 ## View analytics of the Series tile and your reminder journey
 
