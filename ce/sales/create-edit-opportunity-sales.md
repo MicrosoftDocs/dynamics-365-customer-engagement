@@ -96,7 +96,7 @@ Create an opportunity with the details you have. You can update the opportunity 
 [Troubleshooting the Opportunity entity](ts-opportunities.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
 [Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)   
-[Print quote, invoice, or other records](print-records.md)
+[Print quote, invoice, or other records](print-records.md)  
 [Troubleshoot issues with opportunities](/troubleshoot/dynamics-365/sales/troubleshoot-opportunities-issues#opportunity-issues-and-resolution-for-salespeople)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

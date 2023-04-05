@@ -1,5 +1,5 @@
 ---
-title: "Configure Omnichannel historical analytics | MicrosoftDocs"
+title: "Manage historical analytics reports in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this article to learn how to configure historical analytics reports for Omnichannel for Customer Service."
 ms.date: 02/02/2023
 ms.topic: article
@@ -9,7 +9,7 @@ manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Configure Omnichannel historical analytics reports
+# Manage historical analytics reports in Omnichannel for Customer Service
 
 You can configure Omnichannel historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and to group related conversations into topics.
 

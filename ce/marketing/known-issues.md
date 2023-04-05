@@ -49,6 +49,7 @@ This document provides important, late-breaking information about known issues a
 - There are a few mismatches between the look of a Microsoft Teams webinar created from Dynamics 365 Marketing and a webinar created from the Teams calendar. The discrepancies will be minimized in future versions. Until then, note that they don't cause any functional limitations as to how you, as the organizer, can manage the webinar through Dynamics 365 Marketing. Refer to this section for more information: [Known issues with Teams webinars](teams-webinar.md#known-issues-with-teams-webinars).
 - In the **Registration and attendance** tab of an event, there's an issue with filtering registration responses. Once a custom filter is applied for any column, responses from all events are displayed instead of only the ones relevant to the event. As a workaround, the **Advanced find** functionality can be used to filter registration responses for a particular event. Using **Advanced find**, select “Registration Responses” in the **Look for** dropdown and “Detailed registration responses” in the **Use Saved View** dropdown, then apply the appropriate filters. You can restrict the results to a particular event by filtering by the “Event” attribute of the “Event registration” relationship.
 - Session passes aren't cloned in the **Save as** operation of an event. This will be fixed in future releases. Until then, manually add the passes for the sessions.
+- For on-premises mailboxes, you cannot create a calendar item for the Teams webinar event organizer or for the speakers. This is a known limitation of Exchange REST APIs for on-premises mailboxes. In this case, you should share the event details (such as the Teams meeting URL) through a standard email to the event speakers.
 
 ## General
 
@@ -88,6 +89,7 @@ This document provides important, late-breaking information about known issues a
 - Due to a limitation in Outlook, the maximum divider height is 10 pixels.
 - Image placeholders for emails created before the April 2022 release are shown in blue. <!--- 2689328 -->
 - Adding a text link with **Add to calendar** functionality generates multiple errors. **Add to calendar** works properly for images and buttons. This error is related to event management only. <!--- 2965667 -->
+- Sending emails without building a journey currently only supports the [default consent profile](set-up-subscription-center.md#the-default-subscription-center). Custom subscription centers are not supported.
 
 ## Marketing pages and forms
 

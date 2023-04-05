@@ -24,7 +24,7 @@ search.app:
 Dynamics 365 Marketing provides several artificial intelligence (AI), which include:
 
 - **[Spam checker](spam-checker.md)**, which analyzes the content of each marketing email message and generates a score that predicts how likely it is to be flagged by content-based spam filters.
-- **[Automated scheduler](automated-scheduler.md)**, which "learns" the days and times when each contact is most likely to be actively reading his or her email by analyzing the email results in your system. The more results you have in your system, and the more you use this feature, the "smarter" the system becomes.
+- **[Automated scheduler](automated-scheduler.md)**, which "learns" the days and times when each contact is most likely to be actively reading their email by analyzing the email results in your system. The more results you have in your system, and the more you use this feature, the "smarter" the system becomes.
 
 When you first install Marketing, the Automated scheduler is disabled by default. This feature includes privacy settings that may affect compliance with local privacy regulations (including GDPR) and other privacy laws.
 

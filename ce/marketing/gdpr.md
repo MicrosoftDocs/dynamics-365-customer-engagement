@@ -19,7 +19,7 @@ search.app:
 
 # Data protection and the GDPR
 
-The [General Data Protection Regulation (GDPR)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) is a European Union (EU) directive that imposes rules on companies, government agencies, non-profits, and other organizations that offer goods and services to people in the EU, or that collect and analyze data tied to EU residents. The GDPR applies no matter where you're located.
+The [General Data Protection Regulation (GDPR)](https://www.ecb.europa.eu/services/data-protection/) is a European Union (EU) directive that imposes rules on companies, government agencies, non-profits, and other organizations that offer goods and services to people in the EU, or that collect and analyze data tied to EU residents. The GDPR applies no matter where you're located.
 
 Dynamics 365 Marketing is prepared to help organizations work in compliance with the GDPR when using the system, but some development work, consultancy assistance, or both, is still necessary. As part of a comprehensive, organization-wide effort, most organizations need to review and update all their information systems to come into complete compliance.
 
@@ -47,7 +47,7 @@ The rest of this article describes how to work with the GDPR compliance tools in
 
 ## Overview of GDPR features in Dynamics 365 Marketing
 
-Under the GDPR, the topic of consent has become a core tenet and is included in the data protection law. Consent is understood as "any freely given, specific, informed, and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her."
+Under the GDPR, the topic of consent has become a core tenet and is included in the data protection law. Consent is understood as "any freely given, specific, informed, and unambiguous indication of the data subject's wishes by which they, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to them."
 
 Dynamics 365 Marketing allows you to request, capture, and store consent. It lets you design your marketing activities to respect the consent given by your audience. It's important that you include relevant information in your marketing objects (like landing pages and email marketing message) that unambiguously informs your audience about the data you collect and the purpose of your processing. Your audience must have the option to give consent freely, make an informed decision, and be able to review, update, or revoke consent at any time.
 
