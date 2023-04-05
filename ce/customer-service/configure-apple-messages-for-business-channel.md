@@ -65,7 +65,7 @@ To add the Apple Messages for Business channel instance, complete the following 
      1. On the **Behaviors** page, configure the following options:<br>
         - **Custom automated messages**<br>
         - [**Post-conversation survey**](configure-post-conversation-survey.md)<br>
-        - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. There are two flows to choose from: OAuth 2.0 code flow or OAuth 2.0 OpenID connect flow. More information: [Authentication Settings](create-chat-auth-settings.md).<br>
+        - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. There are two flows to choose from: OAuth 2.0 code flow or OAuth 2.0 OpenID connect flow. More information: [Authentication settings for Apple Messages for Business](create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business).<br>
      
       1. On the **User features** page, configure the following options:<br>
            - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).<br>
@@ -89,7 +89,7 @@ To add the Apple Messages for Business channel instance, complete the following 
 
 ## Configure authentication settings
 
-Perform the steps mentioned in [Create Apple Messages for Business authentication settings - OAuth 2.0 code flow prerequisites](create-chat-auth-settings.md) to configure authentication settings.
+Perform the steps in [Create Apple Messages for Business authentication settings](create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business) to configure authentication settings.
 
 ## Configure payment profiles for Apple Pay
 
