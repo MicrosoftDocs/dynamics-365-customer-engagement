@@ -1,7 +1,7 @@
 ---
 title: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service."
-ms.date: 04/03/2023
+ms.date: 04/05/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -78,7 +78,7 @@ More information: [Agent experience profiles](/dynamics365/app-profile-manager/o
 
 ### View the agent calendar 
 
-As an agent, it's helpful to know your work schedule. With the calendar view, agents can quickly see their working hours, non-working hours, and any scheduled time-off requests.
+View your working, no-working hours, and any scheduled time-off requests on **My schedule**.
 
 More information: [View the agent calendar (preview)](use-agent-calendar.md)
 
@@ -96,8 +96,7 @@ The following limitations apply to Customer Service workspace:
 - When you switch between tabs or sessions:
      - Sub grid controls don't retain the filter or sort conditions.
      - Web resources, form components, and third-party websites don't retain the state of the page.
-- Customer Service workspace isn't supported in mobile devices and Unified Service Desk.
-- Customer Service workspace isn't supported with Dynamics 365 Customer Engagement (on-premises).
+- Customer Service workspace isn't supported in mobile devices, Unified Service Desk, and with Dynamics 365 Customer Engagement (on-premises).
 
 ## Deprecated Customer Service workspace layout
 
