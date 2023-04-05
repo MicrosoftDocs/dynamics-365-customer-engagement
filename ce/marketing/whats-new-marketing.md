@@ -60,15 +60,15 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
     > ![personalized filtered lists](media/whats-new-personalize-lists.png "personalized filtered lists")
 
 - **Seamlessly manage and embed assets into your content with an enhanced unified library**
-    - Sending your customers’ rich, compelling content is key to keeping them engaged with your brand. With this release, using assets across real-time and outbound marketing got easier. With the enhanced unified library, you can now upload files once and use them where you need them. No need to copy or download assets for backup. 
-    Using additional file types, such as documents, PDFs, presentations, videos and more, you can now add asset links to your emails to create richer content for your customers.   
-    **NOTE**: To foster this new simplified way of managing and using assets, the [real-time marketing library add-on](real-time-marketing-asset-library.md) is no longer available for installation. If you previously installed it, you could continue to use the add-on.
+    - Sending your customers’ rich, compelling content is key to keeping them engaged with your brand. With this release, using assets across real-time and outbound marketing got easier. With the enhanced unified library, you can now upload files once and use them where you need them. No need to copy or download assets for backup. Using additional file types, such as documents, PDFs, presentations, videos and more, you can now add asset links to your emails to create richer content for your customers.
+    > [!NOTE]
+    > To foster the new simplified way of managing and using assets, the [real-time marketing library add-on](real-time-marketing-asset-library.md) is no longer available for installation. If you previously installed it, you could continue to use the add-on.
     - [Docs](upload-images-files.md)
 
     > [!div class="mx-imgBorder"]
     > ![enhanced asset library](media/whats-new-enhanced-asset-library.png "enhanced asset library")
 
-- **Engage your customers with text messages sent via Infobip and LINK Mobility**
+- **Engage your customers with text messages sent using Infobip and LINK Mobility**
     - In addition to Twilio and Telesign, you can now integrate with Infobip and LINK Mobility to send text messages. Connect your existing Infobip or LINK Mobility account and use all Real-time marketing text message features to maximize customer engagement.
     - [Docs](real-time-marketing-outbound-text-messaging.md)
 
@@ -102,6 +102,9 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
 - **Create beautiful and engaging emails in minutes**
     - The simplified email editor with the improved template gallery allows you to create engaging content within minutes, whether you are an experienced marketer or create emails occasionally to engage with your customers. Now, you can make basic content modifications directly on canvas, and enjoy easy, delightful, and focused experience. Whereas the new template gallery makes it easier than ever to find just the right template for your next email. 
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of easy email editor.](media/whats-new-easy-email.png "Screenshot of easy email editor")
 
 - **Send emails quickly without building a journey**
     - Send emails without creating a journey. This workflow allows you to select from a new template library, make changes easily with simplifications to the email editor, and send emails to the segment members you need to reach within minutes.

@@ -196,9 +196,6 @@ You can use keyboard shortcuts when viewing the schedule board in the list view,
 
 ## Enable the legacy schedule board
 
-> [!NOTE]
-> This functionality is available in the 2023 Wave 1 Early Access (EA) release, and not yet generally available.
-
 [!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)]
   
 ## Privacy
