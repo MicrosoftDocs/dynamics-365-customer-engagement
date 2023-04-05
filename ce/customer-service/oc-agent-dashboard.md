@@ -26,7 +26,7 @@ In the **My work items** section, you can see the conversations (work items) tha
 
 ## Open work items
 
-In the **Open work items** section, you can see the conversations (work items) that are in an open state from all queues in which you are added as  member. Select the ellipsis and select the **Assign to me** option to assign the work item to yourself. When you select a work item, you get a notification, and when you accept it, a session starts and the customer summary or case page loads.
+In the **Open work items** section, you can see the conversations (work items) that are in an open state from all queues in which you are added as  member. Select the ellipsis and select the **Assign to me** option to assign the work item to yourself. When you select a work item, you get a notification, and when you accept it, a session starts and the **Active Conversation** or case page loads.
 
 The work item that you pick is moved from the **Open work items** section to the **My work items** section. If you reject the request, then the work item remains in the **Open work items** section.
 
