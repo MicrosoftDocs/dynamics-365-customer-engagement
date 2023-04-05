@@ -126,10 +126,12 @@
       href: ../app-profile-manager/security-roles.md
     - name: Create and use agent experience profiles
       href: ../app-profile-manager/create-agent-experience-profile.md
+    - name: Add users to agent experience profiles
+      href: ../app-profile-manager/add-profile-default.md
     - name: Configure the inbox for agents
       href: configure-inbox.md     
     - name: Configure the agent calendar view
-      href: configure-agent-calendar.md
+      href: configure-agent-calendar.md  
     - name: App profile manager
       items:
        - name: Experience for accessing templates and productivity tools
@@ -158,6 +160,8 @@
         href: ../app-profile-manager/agent-scripts.md
       - name: Manage macros
         href: ../app-profile-manager/macros.md
+      - name: Manage custom productivity tools
+        href: manage-custom-productivity-tools.md
       - name: Use automation dictionary to pass parameters keys
         href: ../app-profile-manager/automation-dictionary-keys.md
   - name: Community
@@ -291,11 +295,15 @@
       - name: Configure components to display customer details and recent records
         href: add-display-components-to-case-form.md
       - name: Configure components to display case associations
-        href: add-associated-grid-control.md        
+        href: add-associated-grid-control.md 
+      - name: Enable enhanced case forms for multisession apps
+        href: case-enh-config.md                
     - name: Agent experience
       items: 
       - name: Create cases
         href: customer-service-hub-user-guide-create-a-case.md
+      - name: Use enhanced case forms to manage cases
+        href: enh-casemgmt-csw.md        
       - name: Resolve, cancel, and reassign cases
         href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
       - name: Merge cases
@@ -700,7 +708,7 @@
         href: oc-notifications.md
       - name: View communication panel
         href: oc-conversation-control.md
-      - name: View customer summary
+      - name: View active conversations
         href: oc-customer-summary.md
       - name: Create a record
         href: oc-create-record.md
@@ -728,7 +736,7 @@
         href: oc-search-transcipts.md
       - name: View conversation and session forms
         href: oc-view-activity-types.md
-      - name: View customer summary for an incoming conversation request
+      - name: View active conversation for an incoming conversation request
         href: oc-view-customer-summary-incoming-conversation-request.md
       - name: Real-time language translation of conversations
         href: oc-real-time-translation.md
@@ -770,7 +778,7 @@
       items: 
       - name: Overview
         href: omnichannel-customizer.md
-      - name: Customize customer summary form
+      - name: Customize active conversation form
         href: customize-customer-summary.md
       - name: Customize quick view forms
         href: customize-quick-view-form.md
@@ -914,6 +922,8 @@
         href: enable-agent-reject-notifications.md
       - name: Enable auto-assignment of conversations
         href: enable-auto-assign-conversations.md
+      - name: Configure the agent calendar view
+        href: configure-agent-calendar.md
       - name: Enable sharing of knowledge articles
         href: set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management
     - name: Agent experience
@@ -924,6 +934,8 @@
         href: oc-view-ai-suggested-cases-articles.md
       - name: View smart assist suggestions
         href: oc-smart-assist.md
+      - name: View the agent calendar 
+        href:  use-agent-calendar.md
       - name: Use agent scripts for customer interactions
         href: oc-agent-scripts.md
       - name: Rich messages in conversation control
@@ -972,63 +984,69 @@
         href: pass-auth-token-sso-live-chat.md
   - name: Analytics dashboards and insights
     items: 
-    - name: Introduction to analytics and insights in Customer Service
+    - name: Introduction to analytics and insights
       href: introduction-customer-service-analytics.md
     - name: Supported regions and languages, and service limits for analytics and insights
       href: cs-region-availability-service-limits.md
     - name: Administrator experience
-      items: 
+      items:
       - name: Configure analytics and insights dashboards
-        href: configure-customer-service-analytics-insights-csh.md
-      - name: Configure Customer Service historical analytics
-        href: configure-cs-historical-analytics-csh.md
+        href: configure-customer-service-analytics-insights-csh.md 
+      - name: Manage real-time analytics dashboards
+        items:
+        - name: Manage Omnichannel real-time analytics reports  
+          href: enable-realtime-analytics-dashboard-administrator.md
+        - name: Manage access to Ongoing Conversations dashboard
+          href: configure-ongoing-conversations-dashbaord.md
+        - name: Configure intraday insights
+          href: configure-intraday-dashboard-supervisor.md
+      - name: Enable supervisor access to manage conversations 
+        href: enable-monitor-assign-transfer-conv.md
+      - name: Manage historical analytics dashboards
+        items:
+        - name: Manage Customer Service historical analytics reports
+          href: configure-cs-historical-analytics-csh.md
+        - name: Manage Omnichannel historical analytics reports
+          href: oc-historical-analytics-reports.md
+        - name: Manage Knowledge analytics
+          href: enable-knowledge-search-insights.md
+        - name: Configure Customer Service analytics dashboards in Power BI
+          href: configure-customer-service-analytics-dashboard.md
+        - name: Configure Omnichannel Insights dashboards
+          href: configure-historical-sentiment-dashboard-supervisor.md
+      - name: Configure forecasting
+        items:
+        - name: Configure case forecasting
+          href: configure-volume-forecasting.md
+        - name: Configure agent forecasting for conversation
+          href: configure-agent-forecasting-conversation.md
       - name: Configure AI topic clustering for cases
         href: configure-topics-clustering-cases-cs.md
-      - name: Configure Omnichannel historical analytics
-        href: oc-historical-analytics-reports.md
-      - name: Configure knowledge analytics
-        href: enable-knowledge-search-insights.md
       - name: Configure AI suggestions
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
       - name: Configure AI suggestions for article keywords and descriptions
         href: configure-ai-suggested-article-keywords-description.md
-      - name: Configure Customer Service analytics dashboards in Power BI
-        href: configure-customer-service-analytics-dashboard.md
-      - name: Configure case forecasting
-        href: configure-volume-forecasting.md
-      - name: Configure agent forecasting for conversation
-        href: configure-agent-forecasting-conversation.md  
       - name: Configure AI topic clustering for conversation
         href: ai-topic-clustering-conversations.md
-      - name: Configure intraday insights
-        href: configure-intraday-dashboard-supervisor.md
-      - name: Customize KPIs for intraday insights
-        href: customize-kpis-intraday-insights.md
-      - name: Customize historical analytics reports 
-        items:
-        - name: Customize visual display
-          href: customize-reports.md
-        - name: Customize data models
-          href: model-customize-reports.md
-        - name: Data models and report mappings for historical analytics reports
-          href: oob-data-models.md
-      - name: Enable supervisor settings
-        items:
-        - name: Provide access to Ongoing Conversations dashboard
-          href: configure-ongoing-conversations-dashbaord.md
-        - name: Enable your supervisors to monitor, assign, transfer, and forcibly end conversations
-          href: enable-monitor-assign-transfer-conv.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
-      - name: Configure Omnichannel Insights dashboards
-        href: configure-historical-sentiment-dashboard-supervisor.md
-      - name: Configure Omnichannel real-time analytics
-        href: enable-realtime-analytics-dashboard-administrator.md 
     - name: Supervisor experience
       items: 
-      - name: Historical analytics reports in Customer Service
+      - name: Use Omnichannel real-time analytics dashboards
+        items:
+        - name: Overview of Omnichannel real-time analytics reports
+          href: intro-realtime-analytics-dashboard.md
+        - name: Summary report
+          href: realtime-summary-dashboard.md
+        - name: Voice report
+          href: realtime-voice-dashboard.md
+        - name: Agents report
+          href: realtime-agents-analytics.md
+        - name: Ongoing Conversation report
+          href: realtime-ongoing.md
+      - name: Use Customer Service historical analytics dashboards
         items: 
-        - name: Customer Service dashboards
+        - name: Customer Service historical analytics dashboards
           href: customer-service-analytics-insights-csh.md
         - name: Summary dashboard
           href: summary-dashboard-cs.md
@@ -1036,9 +1054,9 @@
           href: agent-dashboard-cs.md
         - name: Case Topics dashboard
           href: case-topics-dashboard-cs.md
-        - name: Historical analytics for unified routing in Customer Service
+        - name: Unified routing dashboard
           href: cs-historical-analytics-unified-routing.md
-      - name: Historical analytics reports in Omnichannel for Customer Service
+      - name: Use Omnichannel historical analytics dashboards
         items: 
         - name: Omnichannel for Customer Service dashboards
           href: omnichannel-analytics-insights.md
@@ -1058,23 +1076,29 @@
           href: oc-conversation-topics-dashboard.md
         - name: Omnichannel Voicemail dashboard
           href: oc-voicemail-dashboard.md          
-        - name: Historical analytics for unified routing in Omnichannel for Customer Service
+        - name: Unified routing dashboard
           href: oc-historical-analytics-unified-routing.md
-      - name: Knowledge management analytics
+      - name: Use knowledge management analytics
         href: knowledge-search-analytics-cs.md
-      - name: View analytics dashboards created in Power BI
+      - name: Use Customer Service Analytics dashboards in Power BI
         href: customer-service-analytics.md
-      - name: Forecast agent, case, and conversation volumes
-        href: use-volume-forecasting.md
-      - name: Report filters and groups
-        href: report-filters-groups.md
-      - name: Manage report bookmarks
-        href: manage-bookmarks.md
-      - name: Intraday supervisor experience
+      - name: Use Omnichannel Insights
+        items: 
+        - name: Introduction to Omnichannel Insights
+          href: intro-dynamics-365-omnichannel-insights-dashboard.md
+        - name: View and understand Omnichannel Insights dashboard
+          href: omnichannel-insights-dashboard.md  
+      - name: Monitor conversations
+        items: 
+          - name: Monitor, assign, transfer, and forcibly end conversations
+            href: monitor-conversations.md
+          - name: Monitor and analyze sentiments
+            href: supervisor-sentiment-monitoring.md
+      - name: Use Intraday analytics reports
         items: 
         - name: Introduction to intraday supervisor experience
           href: intro-intraday-insights-dashboard.md
-        - name: IntradayMonitoring report
+        - name: Intraday Monitoring report
           href: intraday-insights-dashboard.md
         - name: Agents insights report
           href: intraday-agents-insights.md
@@ -1084,34 +1108,28 @@
           href: set-idle-time-threshold.md
         - name: View and understand Omnichannel Ongoing Conversations dashboard
           href: ongoing-conversations-dashboard.md
-      - name: Real-time analytics reports in Omnichannel for Customer Service
+      - name: Personalize analytics
         items: 
-        - name: Overview of Omnichannel real-time analytics reports
-          href: intro-realtime-analytics-dashboard.md
-        - name: Summary report
-          href: realtime-summary-dashboard.md
-        - name: Voice report
-          href: realtime-voice-dashboard.md
-        - name: Agents report
-          href: realtime-agents-analytics.md
-        - name: Ongoing Conversation report
-          href: realtime-ongoing.md
-      - name: Omnichannel Insights
-        items: 
-        - name: Introduction to Omnichannel Insights
-          href: intro-dynamics-365-omnichannel-insights-dashboard.md
-        - name: View and understand Omnichannel Insights dashboard
-          href: omnichannel-insights-dashboard.md
-      - name: Monitor conversations
-        items: 
-        - name: Monitor, assign, transfer, and forcibly end conversations
-          href: monitor-conversations.md
-        - name: Monitor and analyze sentiments
-          href: supervisor-sentiment-monitoring.md
-    - name: Customize dashboards
+        - name: Manage report filters
+          href: report-filters-groups.md
+        - name: Manage report bookmarks
+          href: manage-bookmarks.md
+      - name: Forecast reports
+        items:
+        - name: Forecast agent, case, and conversation volumes
+          href: use-volume-forecasting.md
+    - name: Customize analytics
       items: 
-        - name: Customize interactive dashboards based on Unified Interface
-          href: configure-interactive-dashboards-customer-service-hub.md
+      - name: Customize visual display
+        href: customize-reports.md
+      - name: Customize data models for historical analytics reports
+        href: model-customize-reports.md
+      - name: Data models and report mappings for historical analytics reports
+        href: oob-data-models.md
+      - name: Customize KPIs for intraday insights
+        href: customize-kpis-intraday-insights.md
+      - name: Customize interactive dashboards based on Unified Interface
+        href: configure-interactive-dashboards-customer-service-hub.md
   - name: Service scheduling
     items: 
     - name: Core Service Scheduling
@@ -1790,6 +1808,8 @@
       href: faqs-custom-time-sla-kpis.md
     - name: FAQ about the voice channel
       href: voice-channel-faqs.md  
+    - name: FAQ about adding users to agent experience profile
+      href: ../app-profile-manager/faq-agent-experience-profile.md      
   - name: Omnichannel for Customer Service on Unified Service Desk
     href: ../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md
   - name: Unified Service Desk Guide

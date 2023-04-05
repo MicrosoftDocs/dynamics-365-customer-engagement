@@ -1,7 +1,7 @@
 ---
 title: "Enable case grids for agents| MicrosoftDocs"
 description: "Learn how you can enable case grids and increase agent productivity."
-ms.date: 03/06/2023
+ms.date: 03/27/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -98,7 +98,7 @@ To make the **Enhanced Active Cases** view accessible to agents in Customer Serv
 
 ### Add new icons for Origin and Priority Columns
 
-In the following example, you add a new **Option Set Value** with the label **Custom** for the **Priority** column.
+In the following example, you add a new **Option Set Value** for the **Priority** and **Origin** column.
 
 1. Go to https://make.powerapps.com portal.
 1. Select **Solutions**.
@@ -108,7 +108,7 @@ In the following example, you add a new **Option Set Value** with the label **Cu
 
    1. Upload your file by selecting the **Upload file** option.
    1. In the **Display name** field, enter a display name.
-   1. In the **Name** field, enter the name in the format: **Incident/Priority/{Option Set Value Label}PriorityIcon or Incident/Origin/{Option Set Value Label}OriginIcon**. For the given example, the name is **Incident/Priority/CustomPriorityIcon**.
+   1. In the **Name** field, enter the name in the format: **Incident/Priority/{Option Set Value}PriorityIcon.{File Extension}** or **Incident/Origin/{Option Set Value}OriginIcon.{File Extension}**. For example, **Incident/Priority/100000000PriorityIcon.png**.
 1. Select **Save**.
 
 ### See also

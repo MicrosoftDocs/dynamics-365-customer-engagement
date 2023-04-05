@@ -10,7 +10,7 @@ search.app:
   - D365FS
 ---
 
-# Advanced filters for the schedule assistant in Dynamics 365 Field Service
+# Advanced filters for the schedule assistant
 
 [!INCLUDE[schedule-assistant-advanced-filters.md](../shared/urs/schedule-assistant-advanced-filters.md)]
 

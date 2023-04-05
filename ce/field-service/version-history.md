@@ -20,19 +20,31 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.84.13](/dynamics365/field-service/version-history#888413)  | TBD | 03/31/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.84.16](/dynamics365/field-service/version-history#888416)  | TBD | 03/31/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* | [8.8.83.21](/dynamics365/field-service/version-history#888321)  | [8.8.84.16](/dynamics365/field-service/version-history#888416) | 03/17/2023 |
-| | *USG* |[8.8.84.16](/dynamics365/field-service/version-history#888416)  | TBD | 04/07/2023 |
-|**Station 4** |*Europe* |[8.8.83.23](/dynamics365/field-service/version-history#888323)  |[8.8.84.16](/dynamics365/field-service/version-history#888416) | 03/24/2023 |
-|**Station 5** |  *North America*|[8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.23](/dynamics365/field-service/version-history#888323) | 03/17/2023 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.21](/dynamics365/field-service/version-history#888321) | 03/17/2023 |
-| | *Dedicated Scale Groups* |  [8.8.82.52](/dynamics365/field-service/version-history#888252)  | [8.8.83.21](/dynamics365/field-service/version-history#888321) | 03/24/2023 |
+|**Station 1** |  *First Release*| [8.8.88.54](/dynamics365/field-service/version-history#888854)  | TBD | 04/14/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.88.54](/dynamics365/field-service/version-history#888854)  | TBD | 04/21/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.54](/dynamics365/field-service/version-history#888854) | 04/07/2023 |
+| | *USG* |[8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.54](/dynamics365/field-service/version-history#888854) | 04/07/2023 |
+|**Station 4** |*Europe* |[8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.54](/dynamics365/field-service/version-history#888854) | 04/14/2023 |
+|**Station 5** |  *North America*|[8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.54](/dynamics365/field-service/version-history#888854) | 04/21/2023 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.54](/dynamics365/field-service/version-history#888854) | 04/26/2023 |
+| | *Dedicated Scale Groups* |   [8.8.83.23](/dynamics365/field-service/version-history#888323)  | [8.8.84.16](/dynamics365/field-service/version-history#888416) | 04/07/2023 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+
+## 8.8.88.54 (2023 wave 1 release)
+(Includes Universal Resource Scheduling version [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217---2023-wave1-release) and Resource Scheduling controls version 1.2.42.230871).
+
+-	Use the [Not-to-exceed feature](/dynamics365/field-service/work-order-not-to-exceed) to ensure cost and price expectations on work orders are met every time.
+-	[Organize your provided services based on trades](/dynamics365/field-service/trades#configure-trade-coverages), and set up trade coverages based on which services you provide to groups of customers.
+- Use global search to quickly search for and navigate to bookings.
+- New price and cost summaries have been added to work orders to track financials. Enable or disable cost tracking in field service settings. Cost information and cost amount cards on work order products and services are now controlled by the Calculate Cost toggle in Field Service settings. Organizations that disabled the Calculate Price toggle will have these sections appear on work order products and services unless they turn off the Calculate Cost toggle.
+- Field Service (Dynamics 365) Mobile: [AsyncOnSave](/power-apps/developer/model-driven-apps/clientapi/reference/events/form-onsave#asynchronous-event-handler-support) is enabled for Field Service Mobile.
+- Field Service (Dynamics 365) Mobile: Booking agenda has options for week & month view on iOS and Android tablets and the Windows application.
+- Field Service (Dynamics 365) Mobile: Updated survey creator control to exclude survey meta data from telemetry.
 
 ## 8.8.87.35 (2023 Wave 1 early access, update1)
 
@@ -40,8 +52,9 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 This release is an update to Field Service 2023 Wave 1 early access version [8.8.87.7](/dynamics365/field-service/version-history#88877).
 
-- Use the [Not-to-exceed feature](work-order-not-to-exceed.md) to ensure cost and price expectations on work orders are met every time.
-- [Organize your provided services based on trades](trades.md#configure-trade-coverages), and set up trade coverages based on which services you provide to groups of customers.
+- Use the [Not-to-exceed feature](/dynamics365/field-service/work-order-not-to-exceed) to ensure cost and price expectations on work orders are met every time.
+- [Organize your provided services based on trades](/dynamics365/field-service/trades#configure-trade-coveragess), and set up trade coverages based on which services you provide to groups of customers.
+
 - Use global search to quickly search for and navigate to bookings.
 - New price and cost summaries have been added to work orders to track financials. Enable or disable cost tracking in settings.
 - Field Service (Dynamics 365) Mobile: Replaced [deprecated Input Number](/power-platform/important-changes-coming#model-driven-app-controls-deprecation) control with standard text input field.
