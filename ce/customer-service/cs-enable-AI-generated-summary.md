@@ -12,10 +12,7 @@ manager: shujoshi
 
 Agents can collaborate with other agents and contacts directly while they're working in Dynamics 365 Customer Service. To help agents easily recap an ongoing customer interaction, turn on auto-summarization for conversations. Agents can generate a conversation summary when they either transfer a conversation, add a user to consult, or start a linked Teams chat. The summary quickly provides context and relays any steps they've already taken.
 
-> [!NOTE]
-> Auto-summarization for conversations is in preview for messaging channels and voice conversations with transcription enabled.
-
-## Components of an auto-summarize conversations (preview)
+## Components of an auto-summarize conversations
 
 The conversation summary feature uses an AI natural language model to summarize a transcript of an active conversation. Summaries are limited to the first 7,000 characters of a transcript.
 

@@ -12,10 +12,8 @@ manager: shujoshi
 
 Share an AI-generated summary of a customer conversation to easily collaborate on a case. A summary quickly provides context and relays steps that you've already taken to solve the issue. You can summarize all conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. This feature also supports bot to agent conversations, voice conversations with transcription enabled, and Microsoft Teams conversations.
 
-> [!NOTE]
->  Auto-summarization for conversations is in preview for messaging channels and voice conversations with transcription enabled.
 
-## View and share a conversation summary for conversations (preview)
+## View and share a conversation summary for conversations
 
 When you're working on a conversation request from a customer, select **Show AI summary**. 
 > [!NOTE]
@@ -33,8 +31,6 @@ You can also perform the following actions:
 - Copy the summary from the card
 - Select **Create a case**. The application creates a new case and populates the case description with the summary.
 - Share feedback about the summary.
-
-:::image type="content" source="media/oc-conv-summary-card.png" alt-text="Screenshot that shows the auto-summarize conversations card.":::
 
 Based on the triggers enabled by your administrator, the application automatically generates and displays the summary when you request a consultation with another agent, transfer the conversation, or end the conversation.
 
