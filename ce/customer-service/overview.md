@@ -48,7 +48,7 @@ You can configure and manage the different capabilities in Customer Service by u
 
 - **App profile manager** (Deprecated): Helps in creating and managing targeted app experiences for agents and supervisors as an alternative to building and maintaining custom apps. You can create custom profiles with specific session templates, conversation channels, and productivity tools. You can then assign these profiles to agents and supervisors who use the Customer Service workspace app. These capabilities are available in the new Customer Service admin center app also. We recommend that you use the new app.
 
-- **Omnichannel Administration**: Helps in setting up and managing the chat and digital messaging channels and other features in Omnichannel for Customer Service.
+- **Omnichannel Administration** (Deprecated): Helps in setting up and managing the chat and digital messaging channels and other features in Omnichannel for Customer Service.
   
   > [!NOTE]
   > Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated).
