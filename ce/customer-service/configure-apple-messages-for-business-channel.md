@@ -13,7 +13,7 @@ manager: shujoshi
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 
-Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a new way to apply iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of getting their issues resolved when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window is closed.
+Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a new way to apply iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of resolving their issues when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window is closed.
 
 Apple Messages for Business supports rich messaging experiences, allowing customer and agents to converse through convenient and engaging interactions. More information: [Introduction to Messages for Business - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/business-chat/overview/introduction/)
 
