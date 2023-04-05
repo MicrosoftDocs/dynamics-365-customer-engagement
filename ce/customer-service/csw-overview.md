@@ -71,7 +71,7 @@ When you work on a case, the productivity pane on the right side of the Customer
 More information: [Productivity pane](csw-productivity-pane.md)
 
 
-## View the agent calendar (preview)
+### View the agent calendar (preview)
 
 As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your work hours, non-work hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly views. It also has an agenda view lets you see a list-type view of your schedule. 
 
