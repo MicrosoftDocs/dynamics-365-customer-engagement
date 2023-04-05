@@ -1,12 +1,12 @@
 ---
 title: Manage overflow of work items in queues
-description: "Learn how to manage overflow of work items in queues enabled for unified routing in Customer Service."
+description: Learn how to manage overflow of work items in queues enabled for unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/15/2023
-ms.topic: article
-
+ms.date: 04/05/2023
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Manage overflow of work items in queues
@@ -40,6 +40,10 @@ The following factors are considered during the overflow evaluation:
 
 - If a work item is routed to a fallback queue because of errors or no route-to-queue rule has matched the requirement, the overflow settings for the fallback queue aren't considered and work item is assigned to the queue.
 
+- If a bot is configured for the workstream, the overflow settings are evaluated only after the bot escalates the conversation to human agents.
+
+- If multiple bot escalations happen before the conversation is escalated to a human agent, the overflow settings are evaluated and triggered after the first bot escalation.
+
 When you add an operating hour record to a queue, the system assigns a default overflow condition as **Out of operation hours**, and its action as **Assign to queue anyway**. You can't edit the condition but can set another action for it.
 
 The channel-specific operating hour setting that's configured in the workstream doesn't affect the overflow settings.
@@ -69,7 +73,7 @@ Go to the Customer Service admin center app and perform the following steps:
 
 1. Select the queue for which you want to manage overflow.
 
-1. In **Overflow management**, select **Set overflow conditions**. The **Overflow management** dialog displays the options to configure conditions and actions.
+1. In **Overflow handling**, select **Add condition-action pair**. The **Overflow handling** dialog displays the options to configure conditions and actions.
 
 1. Select **Add condition-action pair**. The **Condition** and **Action** fields are displayed.
 

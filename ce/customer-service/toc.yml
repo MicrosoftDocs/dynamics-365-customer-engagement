@@ -293,11 +293,15 @@
       - name: Configure components to display customer details and recent records
         href: add-display-components-to-case-form.md
       - name: Configure components to display case associations
-        href: add-associated-grid-control.md        
+        href: add-associated-grid-control.md 
+      - name: Enable enhanced case forms for multisession apps
+        href: case-enh-config.md                
     - name: Agent experience
       items: 
       - name: Create cases
         href: customer-service-hub-user-guide-create-a-case.md
+      - name: Use enhanced case forms to manage cases
+        href: enh-casemgmt-csw.md        
       - name: Resolve, cancel, and reassign cases
         href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
       - name: Merge cases
@@ -702,7 +706,7 @@
         href: oc-notifications.md
       - name: View communication panel
         href: oc-conversation-control.md
-      - name: View customer summary
+      - name: View active conversations
         href: oc-customer-summary.md
       - name: Create a record
         href: oc-create-record.md
@@ -730,7 +734,7 @@
         href: oc-search-transcipts.md
       - name: View conversation and session forms
         href: oc-view-activity-types.md
-      - name: View customer summary for an incoming conversation request
+      - name: View active conversation for an incoming conversation request
         href: oc-view-customer-summary-incoming-conversation-request.md
       - name: Real-time language translation of conversations
         href: oc-real-time-translation.md
@@ -772,7 +776,7 @@
       items: 
       - name: Overview
         href: omnichannel-customizer.md
-      - name: Customize customer summary form
+      - name: Customize active conversation form
         href: customize-customer-summary.md
       - name: Customize quick view forms
         href: customize-quick-view-form.md
