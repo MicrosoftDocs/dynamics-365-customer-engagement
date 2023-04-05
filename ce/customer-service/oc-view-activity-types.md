@@ -59,8 +59,8 @@ The Session Participants section lets you add a participant related to the sessi
 
 ### See also
 
-[View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
-[View customer summary](oc-customer-summary.md)  
+[View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+[View customer information on Active Conversation form](oc-customer-summary.md)  
 [Create a record](oc-create-record.md)  
 [Search, link, and unlink a record](oc-search-link-unlink-record.md)  
 
