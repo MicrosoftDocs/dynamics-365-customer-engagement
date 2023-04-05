@@ -14,7 +14,7 @@ manager: shujoshi
 
 This topic describes how you, as a system customizer, can configure the **Link to conversation** button in the model-driven app entity form for agents using Omnichannel for Customer Service app.
 
-When an agent accepts a conversation request, and there is no record in Omnichannel for Customer Service linked to this conversation, the agent wants to search for a contact or account record and link the record to the conversation. As a system customizer, you need to configure the **Link to conversation** button in the model-driven app entity (contact, account or case) form so agents can link a record to the current conversation. After you link a record to the conversation, the **Customer summary** page loads and displays the record that you linked.
+When an agent accepts a conversation request, and there is no record in Omnichannel for Customer Service linked to this conversation, the agent wants to search for a contact or account record and link the record to the conversation. As a system customizer, you need to configure the **Link to conversation** button in the model-driven app entity (contact, account or case) form so agents can link a record to the current conversation. After you link a record to the conversation, the **Active Conversation** page loads and displays the record that you linked.
 
 > [!Note]
 > The Link to conversation button appears only in a session (context of a conversation) and not on the main forms.
