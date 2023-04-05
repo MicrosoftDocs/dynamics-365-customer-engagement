@@ -1,6 +1,6 @@
 ---
-title: "Use and configure the schedule board in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
-description: Learn about how to configure the schedule board in Dynamics 365 Field Service
+title: Use and configure the schedule board (contains video)
+description: Learn about how to configure the schedule board in Dynamics 365 Field Service.
 ms.date: 02/02/2023
 ms.topic: article
 author: clearab
@@ -9,7 +9,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Use and configure the schedule board in Dynamics 365 Field Service
+# Use and configure the schedule board
 
 The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] schedule board provides an overview of resource availability and bookings you can make. Before you use the schedule board, set up the views and filters to your preference.  
   
@@ -195,9 +195,6 @@ You can use keyboard shortcuts when viewing the schedule board in the list view,
 | Collapse expanded row | SHIFT ALT - | 
 
 ## Enable the legacy schedule board
-
-> [!NOTE]
-> This functionality is available in the 2023 Wave 1 Early Access (EA) release, and not yet generally available.
 
 [!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)]
   

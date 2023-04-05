@@ -63,9 +63,6 @@ Or select **Book** on an entity record that has scheduling enabled, then use the
 
 ## Enable the legacy schedule board
 
-> [!NOTE]
-> This functionality is available in the 2023 Wave 1 Early Access (EA) release, and not yet generally available.
-
 [!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)]
 
 ## Next steps

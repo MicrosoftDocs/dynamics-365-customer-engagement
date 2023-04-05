@@ -3,8 +3,8 @@ title: "msdyn_ocwechatchannelconfig Entity Reference (Microsoft Dataverse)| Micr
 description: "Includes schema information and supported messages for the msdyn_ocwechatchannelconfig entity."
 ms.date: 10/21/2022
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
+author: "gandhamm"
+ms.author: mgandham
 manager: "shujoshi"
 ---
 

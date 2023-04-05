@@ -3,8 +3,8 @@ title: "Unified Service Desk configuration walkthroughs | MicrosoftDocs"
 description: "Get an overview about the walkthroughs that you can use to learn about configuring your agent applications."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 search.audienceType: 
   - customizer

@@ -3,8 +3,8 @@ title: "initializeNewConversation (Omnichannel for Customer Service JavaScript A
 description: "Includes reference information about initializeNewConversation method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
 ms.date: 10/12/2020
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ---
 

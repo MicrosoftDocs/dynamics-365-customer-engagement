@@ -1,8 +1,8 @@
 ---
 title: Report filters and groups
 description: Learn how reports are grouped and how filters affect report groups in Dynamics 365 Customer Service and Omnichannel for Customer Service.
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 ms.reviewer: nenellim
 ms.topic: conceptual 
 ms.date: 02/14/2023
