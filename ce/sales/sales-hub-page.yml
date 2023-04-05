@@ -1,13 +1,6 @@
 ### YamlMime:Hub
-
-# This template provides the structure of a product hub page. For additional guidance and information, see the article, Create a Dynamics 365 product hub page in the Contributors guide.
-# To provide feedback on this template, contact [bace feedback team](mailto:templateswg@microsoft.com).
-
-# Remove all comments and capitalized text in this template before you sign off or merge to the main branch
-
 title:  Dynamics 365 Sales
 summary:  Dynamics 365 Sales enables salespeople to build strong relationships with their customers, take actions based on insights, and close deals faster.
-# brand: aspnet | azure | dotnet | dynamics | m365 | office | sql | windows | visual-studio | xamarin
 brand: dynamics
 
 metadata:
@@ -16,15 +9,11 @@ metadata:
   ms.topic: hub-page # Required
   author: lavanyakr01
   ms.author: lavanyakr
-  ms.date: 02/23/2023 #Required; mm/dd/yyyy format.
+  ms.date: 02/23/2023 
   ms.custom: bap-template
   hide_bc: true
 
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
-
-# Do not change the following cards. You should only need to update the URLs to provide the correct links to your product documentation.
-
   items:
     # Card
     - title: Get started
@@ -46,26 +35,27 @@ highlightedContent:
 additionalContent: 
   sections:
   - title: Implement Sales
-# Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
-# Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
     - title: Guidance 
       links: 
-      - url: security-compliance-overview.md
-        text: Security and compliance # We need to create an overview page covering GDPR for sales and sales premium
-      - url:  https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409
-        text: License guide
-      - url: system-requirements-for-sales-apps
-        text: System requirements
+      - url: /dynamics365/guidance/implementation-guide/overview
+        text: Implementation
+      - url:  /dynamics365/guidance/business-processes/overview
+        text: Business processes
+      - url: /dynamics365/guidance/implementation-guide/security
+        text: Security and compliance
+      - url: /dynamics365/guidance/overview
+        text: Browse more
     - title: Try/Buy/Deploy
       links: 
       - url: sign-up-for-sales-trial
         text: Try Dynamics 365 Sales
       - url: https://dynamics.microsoft.com/en-us/sales/pricing/
         text: Buy Dynamics 365 Sales
-      - url:  intro-admin-guide-sales-insights.md
+      - url:  buy-dynamics-365-sales.md
         text: Install Dynamics 365 Sales # Need an overview page covering all installation options.
     - title: Set up 
+
       links: 
       - url: system-settings-sales-tab.md
         text: General setup # Need an overview page covering creating users, security roles, assigning permissions etc. May be same across all D365 apps. 
