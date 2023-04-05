@@ -1,7 +1,7 @@
 ---
-title: "Integrate custom captcha service with real-time marketing forms | Microsoft Docs"
+title: "Integrate a custom captcha service with real-time marketing forms | Microsoft Docs"
 description: "Learn how to integrate custom captcha bot protection into forms in Dynamics 365 Marketing."
-ms.date: 03/17/2023
+ms.date: 04/04/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,13 +17,13 @@ search.app:
   - D365Mktg
 ---
 
-# Integrate custom captcha service with real-time marketing forms
+# Integrate a custom captcha service with real-time marketing forms
 
-The real-time marketing forms allow you to use your own custom captcha bot protection to validate form submissions. This article describes an example how to integrate  Google reCAPTCHA. The flow is also similar for other captcha services.
+Real-time marketing forms allow you to use custom captcha bot protection to validate form submissions. This article gives an example of how to integrate [Google reCAPTCHA](https://www.google.com/recaptcha/about/). The flow is similar for other captcha services.
 
-The whole process consists of these steps:
+The process consists of these steps:
 
-1. **Add reCAPTCHA to the form.**
+1. **Add reCAPTCHA to the form**.
 1. **Add the captcha text value** to the form submission once the form is submitted.
 1. **Create a plugin** in the CRM that validates the captcha.
 
@@ -31,15 +31,15 @@ The whole process consists of these steps:
 
 ### 1. Add reCAPTCHA to the form
 
-1. Create a form in real-time marketing form editor.
-1. Add `data-validate-submission="true"` attribute to the `<form>` element, which enables custom validation on the form submission:
+1. Create a form in the real-time marketing form editor.
+1. Add a `data-validate-submission="true"` attribute to the `<form>` element, which enables custom validation on the form submission:
     > [!div class="mx-imgBorder"]
     > ![Add attribute to form element.](media/real-time-marketing-form-custom-captcha-1.png)
 1. Add a `<div id="g-recaptcha">` in the form as placeholder for reCAPTCHA. This div ID is used as a reference later. It's recommended to put the placeholder between the last field and submit button.
     > [!div class="mx-imgBorder"]
     > ![Add placeholder for reCAPTCHA.](media/real-time-marketing-form-custom-captcha-2.png)
 1. Publish the form and embed the form into your website.
-1. Edit the page where the form was embedded. Add the script provided by Google into the page header. This script loads the reCAPTCHA, with the onLoad callback parameter. This callback is called as soon as the captcha is loaded.
+1. Edit the page where the form was embedded. Add the script provided by Google into the page header. This script loads the reCAPTCHA with the `onLoad` callback parameter. This callback is called as soon as the captcha is loaded.
 
     ```javascript
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback" async defer></script>
@@ -56,26 +56,26 @@ The whole process consists of these steps:
     }
     ```
 
-    Replace the `{sitekey}` placeholder with the one provided by Google. This callback function renders the reCAPTCHA inside the placeholder `<div id="g-recaptcha">` we created earlier.
+    Replace the `{sitekey}` placeholder with the one provided by Google. This callback function renders the reCAPTCHA inside the placeholder `<div id="g-recaptcha">` you created earlier.
 
 ### 2. Add the captcha text value to the form submission
 
-Once the form is submitted, the `g-recaptcha-response` parameter is added automatically to the form submission. In the next steps, we'll build a plugin that will hide this value as it will be added to the `ValidationOnlyFields` list in the response object returned by plugin code.
+Once the form is submitted, the `g-recaptcha-response` parameter is added automatically to the form submission. In the next steps, you'll build a plugin that hides this value, as it will be added to the `ValidationOnlyFields` list in the response object returned by the plugin code.
 
 > [!div class="mx-imgBorder"]
 > ![Add placeholder for reCAPTCHA.](media/real-time-marketing-form-custom-captcha-3.png)
 
 ### 3. Create a plugin
 
-#### 3.1 Create Visual Studio Project for the plugin
+#### 3.1 Create a Visual Studio Project for the plugin
 
-1. Open Visual studio and create a new Class Library project using .NET Framework 4.6.2.
-1. In Solution Explorer, select Manage NuGet Packages and install `Microsoft.CrmSdk.CoreAssemblies`.
+1. Open Visual Studio and create a new Class Library project using .NET Framework 4.6.2.
+1. In Solution Explorer, select **Manage NuGet Packages** and install `Microsoft.CrmSdk.CoreAssemblies`.
 
 #### 3.2 Create the plugin class
 
 1. Rename `Class1.cs` to `CustomValidationPlugin.cs`.
-1. Make CustomValidationPlugin class inherit from IPlugin interface and add Execute method.
+1. Make the CustomValidationPlugin class inherit from the IPlugin interface and add the Execute method.
 
     ```cs
     public class CustomValidationPlugin : IPlugin
@@ -102,7 +102,7 @@ Once the form is submitted, the `g-recaptcha-response` parameter is added automa
     }
     ```
 
-1. Add this code to retrieve form submission parameter string. It's a json encoded string representing the fields that the user submitted in the form. We retrieve this string and deserialize it using a Deserialize helper method and FormSubmissionRequest class that we define later. We check that the Fields array contains a key for g-recaptcha-response. If the reCAPTCHA key isn't found, we return skipping validation as the form we're processing didn't contain a Google recaptcha element.
+1. Add this code to retrieve the form submission parameter string. It's a JSON encoded string representing the fields that the user submitted in the form. This process retrieves this string and deserializes it using a Deserialize helper method and FormSubmissionRequest class that is defined later. This checks that the Fields array contains a key for g-recaptcha-response. If the reCAPTCHA key isn't found, it returns skipping validation as the form that's processing didn't contain a Google recaptcha element.
 
     ```cs
     var requestString = (string)context.InputParameters["msdynmkt_formsubmissionrequest"];
@@ -124,7 +124,7 @@ Once the form is submitted, the `g-recaptcha-response` parameter is added automa
     }
     ```
 
-1. Add the following code to validate the google captcha token against Google APIs.
+1. Add the following code to validate the Google captcha token against Google APIs.
 
     ```cs
     string url = "https://www.google.com/recaptcha/api/siteverify";
@@ -163,7 +163,7 @@ Once the form is submitted, the `g-recaptcha-response` parameter is added automa
     }
     ```
 
-    First, we define the URL, then we create an instance of `HttpClient`. We create a `FormUrlEncodedContent` object containing the `recaptchaToken` retrieved in previous steps and the secret key that is provided by Google. Then a `POST` request is sent and the status code is checked, if not successful we return. If successful, we deserialize the response using Deserialize helper method and `GRecaptchaResponse` we define later. We then create a new `ValidateFormSubmissionResponse` object, serialize it and set it as the value of the output parameter `msdynmkt_validationresponse`, which is the one Microsoft service we use to accept or reject the submission. Adding the `g-recaptcha-response` string to the `ValidationOnlyFields` list hides this field from the form submission in the UI.
+    First, the URL is defined, then an instance of `HttpClient` is created. A `FormUrlEncodedContent` object is created containing the `recaptchaToken` retrieved in previous steps and the secret key that is provided by Google. Then a `POST` request is sent and the status code is checked, if not successful it returns. If successful, it deserializes the response using the Deserialize helper method and `GRecaptchaResponse` that's defined later. It then creates a new `ValidateFormSubmissionResponse` object, serializes it, and sets it as the value of the output parameter `msdynmkt_validationresponse`, which is the one Microsoft service it uses to accept or reject the submission. Adding the `g-recaptcha-response` string to the `ValidationOnlyFields` list hides this field from the form submission in the UI.
 
 1. Add the following code to define Serialize and Deserialize helper methods.
 
@@ -192,7 +192,7 @@ Once the form is submitted, the `g-recaptcha-response` parameter is added automa
     }
     ```
 
-1. Add the following code to define the classes needed to Serialize/Deserialize json strings objects.
+1. Add the following code to define the classes needed to Serialize/Deserialize JSON strings objects.
 
     ```cs
     public class FormSubmissionRequest
@@ -212,10 +212,10 @@ Once the form is submitted, the `g-recaptcha-response` parameter is added automa
      }
     ```
 
-#### 3.3 Sign and build plugin
+#### 3.3 Sign and build the plugin
 
 1. Right click on the project and select **Properties** in the **Solution Explorer**.
-1. Select **Signing** tab and check the **Sign the assembly** checkbox.
+1. Select the **Signing** tab and check the **Sign the assembly** checkbox.
 1. Select `<New...>`.
 1. Enter a key file name and deselect **Protect my key file with a password**.
 1. Build the project.
@@ -230,7 +230,7 @@ Once the form is submitted, the `g-recaptcha-response` parameter is added automa
 1. Select **Register** and then **Register new assembly**.
     > [!div class="mx-imgBorder"]
     > ![Select Register and then Register new assembly.](media/real-time-marketing-form-custom-captcha-4.png)
-1. Select **(...)** button in step 1 and select the dll built in previous steps.
+1. Select the **(...)** button in step 1 and select the dll built in previous steps.
 1. Select **Register selected plugin**.
 
 #### 3.4 Register Step
@@ -246,7 +246,7 @@ Once the form is submitted, the `g-recaptcha-response` parameter is added automa
 
 ### Conclusion
 
-When a form with `data-validate-submission` attribute is submitted, your custom plugin runs and validates the reCAPTCHA response with Google services. The custom plugin will be running after default Microsoft validation plugin. If there are no Microsoft captcha fields in the form, Microsoft plugin sets `IsValid:false`, and the submission fails unless you overwrite it with `IsValid:true`.
+When a form with the `data-validate-submission` attribute is submitted, your custom plugin runs and validates the reCAPTCHA response with Google services. The custom plugin will run after the default Microsoft validation plugin. If there are no Microsoft captcha fields in the form, the Microsoft plugin sets `IsValid:false` and the submission fails unless you overwrite it with `IsValid:true`.
 
 > [!div class="mx-imgBorder"]
 > ![Validation flow.](media/real-time-marketing-form-custom-captcha-6.png)
