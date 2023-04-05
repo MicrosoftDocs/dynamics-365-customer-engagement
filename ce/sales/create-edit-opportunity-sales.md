@@ -1,7 +1,7 @@
 ---
 title: "Create or edit opportunities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
-ms.date: 03/23/2023
+ms.date: 04/05/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -58,18 +58,13 @@ Create an opportunity with the details you have. You can update the opportunity 
      >- Your base record and all its line items must use the same currency. For example, if your opportunity has the currency set to US Dollars, you must use the same currency for the price list items that you add to the opportunity. You can't change the currency of the base record (in this case, an opportunity), unless you remove all the list items associated with the record.
      >- Similarly, all the records created from an opportunity, such as a quote, order or invoice must use the same currency as the opportunity. 
 
-1. Select the pull-down menu at the top-right corner of the opportunity to update the estimated revenue and estimated close date as shown in the following video:
+1. If you're not yet ready to add products to the opportunity, you can specify the estimated revenue. Select the pull-down menu at the top-right corner of the opportunity and update the estimated revenue and estimated close date as shown in the following video:
 
     > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4TYCI]
  
-1. Specify the following details:
+    > [!NOTE]
+    > When you're ready to add products, you can choose to auto-calculate the revenue based on the products added, price list, discounts and so on. 
 
-    1. If you're not ready to add products to the opportunity yet but want to capture the estimated revenue, specify it in the **Est. Revenue** field. 
-        > [!NOTE]
-        > When you're ready to add products, you can choose to auto-calculate the revenue based on the products added, price list, discounts and so on. 
-    1. Specify the estimated close date in the **Est. Close Date** field.
-    1. To change the owner of the opportunity, update the **Owner** field. 
-   
 4. Select **Save**.
 
 ## Typical next steps  

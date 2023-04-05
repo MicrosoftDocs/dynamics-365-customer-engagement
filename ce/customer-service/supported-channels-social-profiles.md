@@ -54,4 +54,4 @@ Optionally, you can update the details and save the profile. You can also deacti
 
 ## Next steps
 
-[View customer summary to get available information about customers](oc-customer-summary.md)  
+[View customer information on Active Conversation form](oc-customer-summary.md)  
