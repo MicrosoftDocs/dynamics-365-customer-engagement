@@ -374,11 +374,11 @@
         href: add-ons.md
       - name: Business units 
         items:
-        - name: "Preview: Business unit support in real-time marketing"
+        - name: Business unit support in real-time marketing
           href: real-time-marketing-business-units.md
         - name: Support for modernized business units 
           href: real-time-marketing-modernized-business-units.md
-        - name: BU FAQ for real-time marketing
+        - name: Business units FAQ for real-time marketing
           href: real-time-marketing-business-unit-faq.md  
     - name: Developer
       items: 
