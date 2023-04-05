@@ -63,7 +63,7 @@ The process consists of these steps:
 Once the form is submitted, the `g-recaptcha-response` parameter is added automatically to the form submission. In the next steps, you'll build a plugin that hides this value, as it will be added to the `ValidationOnlyFields` list in the response object returned by the plugin code.
 
 > [!div class="mx-imgBorder"]
-> ![Add placeholder for reCAPTCHA.](media/real-time-marketing-form-custom-captcha-3.png)
+> ![G-recaptcha-response parameter is added.](media/real-time-marketing-form-custom-captcha-3.png)
 
 ### 3. Create a plugin
 
