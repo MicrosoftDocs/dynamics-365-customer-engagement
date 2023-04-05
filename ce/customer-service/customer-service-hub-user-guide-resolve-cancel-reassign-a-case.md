@@ -42,7 +42,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
   
 3. By default, you will see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog. If your administrator has disabled the **Enable the minimal case resolution dialog** option the standard **Resolve Case** dialog is displayed with the following additional fields. More information: [Disable the standard case resolution dialog](add-enhanced-case-management.md):
 
-     - **Duration**. The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** box.  
+     - **Duration**: The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** box.  
      - **Billable Time**: The amount of time spent on the case to be billed to the customer.  
      - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.  
     
@@ -52,7 +52,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
 > [!NOTE]
 > - We recommend that you resolve or close a case before deleting it. 
-> - While you can't edit or update through the UI any attribute of the case after it is resolved, you can configure an API or a Power Automate flow to be run if the setting in service configuration is enabled. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md). 
+> - While you can't edit or update through the UI any attribute of the case after it is resolved, you can configure an API or a Power Automate flow to be run if the setting in service configuration is enabled. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md)
 > - The "resolve cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](/power-automate/create-business-process-flow#add-an-on-demand-action-to-a-business-process-flow).
 
 ## Resolve a case with a parent and child relationship  

@@ -19,13 +19,13 @@ search.app:
 
 # Case queues and routing
 
-Customer Service allow you to add a case to a queue, save case records, and route them to a queue.
+Customer Service allows you to add a case to a queue, save case records, and route them to a queue.
 
 ## Add a case to a queue  
 
 If you think another group in your team has expertise on the subject, you can move the case to a queue so that someone else can pick it up.  
 
-**To add a case to a queue**
+To add a case to a queue, perform the following steps:
 
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  
 
