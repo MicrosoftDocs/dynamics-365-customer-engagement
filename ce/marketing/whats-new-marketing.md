@@ -48,7 +48,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
     - [Docs](real-time-marketing-email-get-started.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot showing the new email editor.](media/whats-new-engaging-emails-with-ease.png "Screenshot showing the new email editor")
+    > ![Screenshot showing the new email editor.](media/whats-new-easy-email.png "Screenshot showing the new email editor")
 
 - **Easily find and select one of many new templates to create beautiful emails in minutes**
     - The new template gallery now features over 20 attractive templates for the most typical email types, such as: abandoned cart, event invitation, product launch, newsletter, and more. It is now possible to mark selected templates as favorites and all templates are grouped into relevant categories, making it easier than ever to find just the right template for your next email.
@@ -63,7 +63,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
     - [Docs](email-without-journey.md)
 
     > [!div class="mx-imgBorder"]
-    > ![send emails without journey](media/whats-new-send-email-without-building-journey.png "send emails without journey")
+    > ![Screenshot showing sending emails without a journey.](media/whats-new-send-email-without-building-journey.png "Screenshot showing sending emails without a journey")
 
 - **Scale your business effortlessly and define access to marketing assets**
     - Improve productivity by defining marketing asset access and visibility to match your business structure. As businesses create vast amounts of assets, organizing data according to organizational structure becomes critical. Well-organized assets are important to remaining compliant and productive. Now in real-time marketing, you can effortlessly organize your digital assets, content, and journeys to match your organizational structure by separating business and customer data across organizational boundaries. Separating data enables you to gain comprehensive insights into a specific brand's marketing performance without losing sight of the bigger picture. Compliance risk is reduced by using out-of-the-box campaigns and data segregation capabilities across your organization.
@@ -76,7 +76,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
     - [Docs](real-time-marketing-form-editor.md)
  
     > [!div class="mx-imgBorder"]
-    > ![modern forms with intuitive experience](media/whats-new-lead-capture-forms.png "modern forms with intuitive experience") 
+    > ![Screenshot of real-time marketing forms.](media/whats-new-lead-capture-forms.png "Screenshot of real-time marketing forms") 
 
 - **Keep stakeholders in the loop by seamlessly copying them on email campaigns**
     - Improve your customer experience by keeping your sales, customer service, and finance teams in the loop by copying key recipients on email campaigns. Enable other teams to follow up on hot leads or rapidly answer customers' inquiries, speeding up your pipeline and increasing customer satisfaction.
@@ -84,15 +84,12 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
     - [Docs](real-time-marketing-add-cc-recipients.md)
 
     > [!div class="mx-imgBorder"]
-    > ![cc on email campaigns](media/whats-new-cc-on-email-campaigns.png "cc on email campaigns") 
+    > ![Screenshot showing the carbon copy box in email tile properties.](media/whats-new-cc-on-email-campaigns.png "Screenshot showing the carbon copy box in email tile properties") 
 
 - **Prevent message fatigue by limiting the messages sent to a customer in a specific period**
     - Ensure that your customers receive the right message at the right moment and at the right frequency while preventing fatigue, minimizing unsubscribes, and facilitating optimal engagement with your key messages. Some customers qualify for multiple journeys and campaigns that run simultaneously, which may result in customers receiving multiple messages through one channel in a short period of time. Customers may perceive these messages as spam, which lowers their engagement. With the frequency cap feature, you can optimize engagement by controlling how many messages are sent across multiple channels over a period.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/prevent-message-fatigue-limiting-messages-sent-customer-specific-period)
     - [Docs](real-time-marketing-frequency-cap.md)
-
-    > [!div class="mx-imgBorder"]
-    > ![prevent message fatigue](media/whats-new-prevent-message-fatigue-with-frequency-cap.png "prevent message fatigue") 
 
 - **Measure marketing activity, web traffic, and conversion goals using automatic UTM tagging**
     - Urchin Tracking Module (UTM) codes help you track sources of traffic for your websites and landing pages, enabling you to attribute conversions to the right source. Marketing messages can be a significant contributor to this traffic, but it is hard to track them without UTM parameters. They’re often left out entirely from the links in messages due to the time-consuming process of manually adding the tags to each link. In addition to automatically tagging all your messages with UTM parameters, you now can choose to customize your parameters so that it matches an existing UTM naming convention that your business already uses in google analytics reports. For example, you can choose UTM campaign to point to a campaign ID instead of the journey name.
@@ -100,28 +97,25 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
     - [Docs](real-time-marketing-utm.md)
 
     > [!div class="mx-imgBorder"]
-    > ![automatic utm tracking](media/whats-new-automatic-utm-tracking.png "automatic utm tracking")
+    > ![Screenshot of automatic UTM tracking.](media/whats-new-automatic-utm-tracking.png "Screenshot of automatic UTM tracking")
 
 - **Review engagement history and tailor marketing efforts using contact insights**
     - Use contact insights in real-time marketing to gain a better understanding of your audience's behavior and interests, make informed decisions based on past engagement, and tailor your marketing efforts to their specific needs and preferences.
     - [Docs](real-time-marketing-analytics.md)
-
-    > [!div class="mx-imgBorder"]
-    > ![contact insights](media/whats-new-contact-insights.png "contact insights")
 
 - **Drive engagement with personalized content using data with one-to-many relationships**
     - Unlock even more data for personalization with ability to define dynamic text using data that requires traversing one-to-many relations. Consider a university alumni donation campaign where you would want to include the name of the college attended by each alum for driving maximum engagement. However, an alum might have attended multiple colleges in that university, resulting in a "one-to-many" relationship between student and college records. You can now define dynamic text for such data.
     - [Docs](real-time-marketing-predefined-dynamic-text.md)
 
     > [!div class="mx-imgBorder"]
-    > ![personalize content with 1 to many relationship](media/whats-new-personalize-content-1-to-many.png "personalize content with 1 to many relationship")
+    > ![Screenshot showing one-to-many personalization.](media/whats-new-personalize-content-1-to-many.png "Screenshot showing one-to-many personalization")
 
 - **Confidently send emails after quickly previewing emails using sample audience data**
     - Personalizing content is an effective strategy for boosting engagement. However, ensuring that the personalized content is accurate for a variety of recipients can be a challenging task. Fortunately, real-time marketing makes this easy – simply select a sample audience member record to preview the exact content that will be delivered to that recipient.  
     - [Docs](real-time-marketing-email.md#preview-and-test-your-email)
 
     > [!div class="mx-imgBorder"]
-    > ![quick email preview](media/whats-new-quick-email-preview.png "quick email preview")
+    > ![Screenshot showing email sample data.](media/whats-new-quick-email-preview.png "Screenshot showing email sample data")
 
 - **Dynamics 365 Marketing now supports changing the organization URL in Power Platform Admin Center**
     - People often want to change the URL of the Marketing application to a branded name which is easy to remember. This has been supported for some time in the Power Platform Admin Center, but was not previously supported by the Dynamics 365 Marketing application. With this release, you can now change the organization URL in Power Platform Admin Center and the Marketing application continues to work without side effects.
@@ -135,7 +129,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
     - [Docs](real-time-marketing-enhanced-journey-reminders.md)
 
     > [!div class="mx-imgBorder"]
-    > ![enhanced journey reminders](media/whats-new-enhanced-journey-reminders.png "enhanced journey reminders")
+    > ![Screenshot showing enhanced journey reminders.](media/whats-new-enhanced-journey-reminders.png "Screenshot showing enhanced journey reminders")
 
 ### Monthly enhancements
 
@@ -144,7 +138,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
     - [Docs](real-time-marketing-analytics.md)
 
     > [!div class="mx-imgBorder"]
-    > ![unique opens and clicks](media/whats-new-unique-opens-and-clicks.png "unique opens and clicks")
+    > ![Screenshot showing unique opens and clicks.](media/whats-new-unique-opens-and-clicks.png "Screenshot showing unique opens and clicks")
 
 - **Support attachments in custom channel messages**
     - You can now personalize your communications even more by attaching images or other types of files to your custom channel messages. Build new channels like MMS and include images with your WhatsApp or Viber messages, making your customer interactions even more engaging.
@@ -247,6 +241,9 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/send-segment-based-emails-quickly-without-building-journey)
     - [Docs](email-without-journey.md)
 
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot showing sending emails without a journey.](media/whats-new-send-email-without-building-journey.png "Screenshot showing sending emails without a journey")
+
 - **Prevent message fatigue by limiting the messages sent to a customer in a specific period**
     - Ensure that your customers receive the right message at the right moment and at the right frequency to prevent fatigue, avoid unsubscribes, and facilitate optimal engagement with your key messages. Some customers qualify for multiple journeys and campaigns that run simultaneously. This results in customers receiving multiple messages through one channel in a short period of time. Customers may perceive these messages as spam, which lowers their engagement. With the frequency cap feature, you can optimize engagement by controlling how many messages are sent across multiple channels over a period.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/prevent-message-fatigue-limiting-messages-sent-customer-specific-period)
@@ -305,7 +302,7 @@ This month, the new real-time marketing segment builder is generally available. 
     - [Docs](real-time-marketing-utm.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of automatic utm tracking.](media/whats-new-utm-tracking.png "Screenshot of automatic utm tracking ")
+    > ![Screenshot of automatic UTM tracking.](media/whats-new-utm-tracking.png "Screenshot of automatic UTM tracking")
 
 ### Monthly enhancements
 
