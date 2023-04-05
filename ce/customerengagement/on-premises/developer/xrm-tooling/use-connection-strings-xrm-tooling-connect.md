@@ -160,7 +160,7 @@ Create a new connection to Dynamics 365 Customer Engagement (on-premises) using 
   AuthType=Certificate;
   url=https://contoso:8080/Test;
   thumbprint={CertThumbPrintId};
-  ClientId={AppId};
+  ClientId={AppId}"
   />
 ```
 
@@ -173,7 +173,7 @@ Create a new connection to Dynamics 365 Customer Engagement (on-premises) using 
   AuthType=ClientSecret;
   url=https://contoso:8080/Test;
   ClientId={AppId};
-  ClientSecret={ClientSecret}
+  ClientSecret={ClientSecret}"
   />
 ```
 

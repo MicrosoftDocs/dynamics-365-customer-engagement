@@ -1,6 +1,6 @@
 ---
-title: "Submit a support request for Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn how to submit support requests for Dynamics 365 Field Service
+title: Submit a support request
+description: Learn how to submit support requests for Dynamics 365 Field Service.
 ms.date: 10/26/2021
 
 ms.topic: article
@@ -11,7 +11,7 @@ search.app:
 - D365FS
 ---
 
-# Submit a support request for Dynamics 365 Field Service
+# Submit a support request
 
 Create a support request to get help from a Microsoft representative if you encounter an issue with Dynamics 365 Field Service or Resource Scheduling.
 

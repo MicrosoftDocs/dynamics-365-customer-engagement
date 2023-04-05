@@ -8,25 +8,11 @@ ms.author: mgandham
 manager: shujoshi
 ---
 
-# Set up auto-summarization for conversations (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
+# Set up auto-summarization for conversations 
 
 Agents can collaborate with other agents and contacts directly while they're working in Dynamics 365 Customer Service. To help agents easily recap an ongoing customer interaction, turn on auto-summarization for conversations. Agents can generate a conversation summary when they either transfer a conversation, add a user to consult, or start a linked Teams chat. The summary quickly provides context and relays any steps they've already taken.
 
-> [!NOTE]
->  - Auto-summarization for conversations is in preview for messaging channels and voice conversations with transcription enabled.
->  - This feature is generally available for Microsoft Teams conversations.
-
-## Components of an auto-summarize conversations (preview)
+## Components of an auto-summarize conversations
 
 The conversation summary feature uses an AI natural language model to summarize a transcript of an active conversation. Summaries are limited to the first 7,000 characters of a transcript.
 
@@ -47,11 +33,11 @@ This feature is supported only in English.
 
 Tenant level access to enable the enhanced integration with Microsoft Teams feature.
 
-## Turn on auto-summarization for conversations (Preview)
+## Turn on auto-summarization for conversations
 
 1. In Customer Service admin center, select **Operations** > **Insights**.
 
-1. In **Insights**, select **Manage** next to **Auto-summarization for conversations (preview)**.
+1. In **Insights**, select **Manage** next to **Auto-summarization for conversations**.
 
 1. Turn on **Enable auto-summarization for conversations**. When you enable this option, agents can see **AI summary**  in the communication panel of a session.
 
@@ -64,9 +50,6 @@ Tenant level access to enable the enhanced integration with Microsoft Teams feat
         :::image type="content" source="media/oc-convo-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
 
 ### Turn on the auto-summarization of Microsoft Teams conversations
-
-> [!NOTE]
-> This feature is generally available for Microsoft Teams conversations.
 
 You can also enable this feature from the Customer Service Hub app. Perform the following steps to enable aut-generated summary for Microsoft Teams chats:
 
