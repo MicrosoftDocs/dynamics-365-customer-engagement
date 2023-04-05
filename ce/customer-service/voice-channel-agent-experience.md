@@ -17,7 +17,7 @@ The voice channel in Omnichannel for Customer Service is integrated directly wit
 
 ## Make and receive customer calls
 
-You can call a customer by using the phone dialer on the customer summary page or the **Launch dialer** button on the menu. More information: [Call a customer](voice-channel-call-customer.md)
+You can call a customer by using the phone dialer on the **Active Conversation** page or the **Launch dialer** button on the menu. More information: [Call a customer](voice-channel-call-customer.md)
 
 When a customer calls your business, the incoming call is received by an intelligent bot. The bot gathers basic information about the customer issue and then transfers the call to you for further action. You'll receive a notification about the incoming call on your agent desktop so you can accept it. The following section describes the call controls and other features you can use during your conversation.
 

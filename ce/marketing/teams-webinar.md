@@ -240,6 +240,9 @@ Once a live event or meeting is created or updated and the producers and present
 > [!IMPORTANT]
 > The calendar integration feature for producers and presenters is not affected by the **Calendar content** field in the **Additional information** tab in the event planning work area. The **Calendar content** field only affects .ics files sent through the email designer. Learn more: [Generate iCalendar files for events and sessions](add-to-calendar.md).
 
+> [!IMPORTANT]
+> For on-premises mailboxes, you cannot create a calendar item for the Teams webinar event organizer or for the speakers. This is a known limitation of Exchange REST APIs for on-premises mailboxes. In this case, you should share the event details (such as the Teams meeting URL) through a standard email to the event speakers.
+
 ## Inviting registrants to attend the Teams event through email
 
 After creating the event, going live with it, and gathering registrations, you should [send the registrants an email](email-design.md) to provide the attendee URL. In the Marketing email designer, you’ll find a **Join in Teams** option in the **Link to** menu for the button element.

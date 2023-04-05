@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 03/20/2023
+ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
@@ -28,7 +28,6 @@ The following table lists the supported customizations.
 You can:
 
 - Create business rules.
-- Associate a conversation with a lead or opportunity, or any other activity-enabled table via the **Regarding** column that's available for the conversation.
 
 You can't:
 
@@ -45,7 +44,7 @@ We recommend that:
 You can:
 
 - Add subgrids on the Conversation form and view data for related tables in the subgrid.
-- Load the **Customer summary** form as an application tab instead of an anchor tab in a session.
+- Load the **Active Conversation** form as an application tab instead of an anchor tab in a session.
 - Edit existing forms in the following ways:
   - Add custom columns and allow saving of custom and standard columns on the form except some of the logical column names listed in the **Logical column names** section that follows.
   - Add custom controls. However, we recommend that you don't use custom controls to update standard columns listed in **Logical column names**. Omnichannel for Customer Service overwrites updates to these columns when the conversation ends.
@@ -59,7 +58,7 @@ You can:
 We recommend that you don't:
 
 - Change the **Conversation** form or the order in which it's displayed because it's the default form.
-- Modify the out-of-the-box JavaScript handlers used in the **Customer summary** form.
+- Modify the out-of-the-box JavaScript handlers used in the **Active Conversation** form.
 
 ### Logical column names
 
@@ -103,7 +102,7 @@ The following columns are unavailable for edit:
 
 ## Next steps
 
-[Customize Customer summary form](customize-customer-summary.md)  
+[Customize Active Conversation form](customize-customer-summary.md)  
 [Customize quick view forms](customize-quick-view-form.md)  
 [Customize session forms](customize-session-form.md)  
 
