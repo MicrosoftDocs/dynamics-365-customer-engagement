@@ -117,6 +117,8 @@
   items:
     - name: Administration overview
       href: admin-guide.yml
+    - name: Access admin settings
+      href: admin-settings-overview.md
     - name: Digital selling capabilities in Sales Enterprise
       items:
         - name: Overview
@@ -213,8 +215,8 @@
           href: enable-automatic-generation-quotes-invoices.md
         - name: Enable creation of orders from quotes
           href: enable-creation-of-orders-from-quotes.md
-        - name: Set up server-side synchronization for Exchange
-          href: /power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks?context=/dynamics365/context/sales-context
+        - name: Configure Exchange integration
+          href: configure-email.md
         - name: Integrate with OneDrive for Business
           href: /power-platform/admin/enable-onedrive-for-business?context=/dynamics365/context/sales-context
         - name: Integrate with OneNote
