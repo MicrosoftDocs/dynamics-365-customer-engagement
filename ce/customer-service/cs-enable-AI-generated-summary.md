@@ -33,11 +33,11 @@ This feature is supported only in English.
 
 Tenant level access to enable the enhanced integration with Microsoft Teams feature.
 
-## Turn on auto-summarization for conversations (Preview)
+## Turn on auto-summarization for conversations
 
 1. In Customer Service admin center, select **Operations** > **Insights**.
 
-1. In **Insights**, select **Manage** next to **Auto-summarization for conversations (preview)**.
+1. In **Insights**, select **Manage** next to **Auto-summarization for conversations**.
 
 1. Turn on **Enable auto-summarization for conversations**. When you enable this option, agents can see **AI summary**  in the communication panel of a session.
 
