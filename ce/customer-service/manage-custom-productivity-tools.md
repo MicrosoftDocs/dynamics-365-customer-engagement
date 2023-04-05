@@ -1,6 +1,6 @@
 ---
 title: Manage custom productivity tools
-description: Learn how to manage the custom productivity tools in Customer Service.
+description: Learn how to manage the custom productivity tools to improve agent productivity in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -9,9 +9,19 @@ ms.date: 04/05/2023
 ms.custom: bap-template
 ---
 
-# Manage custom productivity tools
+# Manage custom productivity tools (preview)
 
-The productivity pane supports custom productivity tools developed as custom pages or Power Apps component framework controls. You can create one or multiple custom productivity tools and make them available to your users with agent experience profiles.
+> [!IMPORTANT]
+>
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+The productivity pane supports custom productivity tools developed as custom pages or Power Apps component framework controls. You can create multiple custom productivity tools and make them available to your users with agent experience profiles.
 
 ## Prerequisites
 
