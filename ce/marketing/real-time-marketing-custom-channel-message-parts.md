@@ -1,7 +1,7 @@
 ---
 title: "Define your Message parts (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to define your message parts in the real-time marketing area of Dynamics 365 Marketing."
-ms.date: 01/23/2023
+ms.date: 04/04/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -23,13 +23,13 @@ search.app:
 
 ### Why you need it:
 
-If you're creating a custom channel and you want to describe the message parts that the channel operates with (for example, title, subtitle, text), then you must define records for the **Channel Message Part** entity. At least one message part is required per custom channel.  **At your solution’s import**, a new row for every message part will be created at the **msdyn_channelmessagepart** table.
+If you're creating a custom channel and you want to describe the message parts that the channel operates with (for example, title, subtitle, text), then you must define records for the **Channel Message Part** entity. At least one message part is required per custom channel. **At your solution’s import**, a new row for every message part will be created in the **msdyn_channelmessagepart** table.
 
 > [!IMPORTANT]
-> The SMS channel type requires exactly one message part with the name “text,” which will be used by the default Marketing SMS editor.
+> The SMS channel type requires only one message part with the name “text” and type 192350000, which will be used by the default Dynamics 365 Marketing SMS editor. No other types of message parts are supported for SMS channels.
 
 > [!IMPORTANT]
-> If you are setting up metadata records directly in the customization file, make sure that the GUIDs are defined in lowercase. 
+> If you are setting up metadata records directly in the customization file, make sure that the GUIDs are defined in lowercase.
 
 #### Message parts contract:
 
@@ -37,15 +37,22 @@ Entity logical name: **msdyn_channelmessagepart**
 
 Entity set name: **msdyn_channelmessageparts**
 
-Primary Id attribute name: **msdyn_channelmessagepartid**
+Primary ID attribute name: **msdyn_channelmessagepartid**
 
 - **msdyn_name**: string – Name for the message part. This value is later used as a key to map message part information with outbound message content.
 - **msdyn_displayname**: string – Display name.
 - **msdyn_description**: string – Description.
 - **msdyn_channeldefinitionid**: GUID – Channel definition ID, must match the channel definition id of the channel.
-- **msdyn_type**: OptionSet – Channel type, currently supported values: 192350000 plaintext. More types will be introduced in future releases.
+- **msdyn_type**: OptionSet – Message part type. Currently supported values:
+    - **192350000 plaintext**: The message part is simple text.
+    - **192350003 media**: the message part is a file ID of the msdyncrm_file entity.
+    - **192350004 image**: The message part is an image ID of yhe msdyncrm_file entity.
+    - **192350005 record**: The message part is a record ID of an external entity.
 - **msdyn_isrequired**: bit - Indicates whether the part is required.
 - **msdyn_maxlength**: int - Max length for the part.
+- **msdyn_order**: int - (Optional) Defines the position of the message part field within the message editor. The larger the number, the higher the position.
+- **msdyn_entityname**: string - (Optional) Defines the entity that will be used for the record type.
+- **msdyn_entityviewid**: string - (Optional) Defines the ID of the view that will be used for the record type.
 
 #### How to define it:
 
