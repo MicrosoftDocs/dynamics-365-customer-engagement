@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 03/20/2023
+ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
@@ -28,7 +28,6 @@ The following table lists the supported customizations.
 You can:
 
 - Create business rules.
-- Associate a conversation with a lead or opportunity, or any other activity-enabled table via the **Regarding** column that's available for the conversation.
 
 You can't:
 
