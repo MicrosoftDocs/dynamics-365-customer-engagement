@@ -6,6 +6,7 @@ ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+ms.reviewer: soumyasd27
 ---
 
 # Configure an Apple Messages for Business channel
@@ -48,7 +49,7 @@ To add the Apple Messages for Business channel instance, complete the following 
 
 1. In the Omnichannel site map, select **Channels** under **General settings**, and then on the **Accounts and channels** page, select **Add account**.
 
-1. On the **Channel details** page, enter a name and select Apple Messages for Business in **Channels**.
+1. On the **Channel details** page, enter a name and select **Apple Messages for Business** in **Channels**.
 
 1. On the **Add account** page, specify the Apple Messages for Business account ID. To get the account ID, go to your organization's Apple Business Register, open the Messages for Business account, navigate to the Messaging Service Provider configuration and select **Test your Messaging Service Provider connection**, and copy the account ID by selecting **Copy ID**.
    > [!Note]
