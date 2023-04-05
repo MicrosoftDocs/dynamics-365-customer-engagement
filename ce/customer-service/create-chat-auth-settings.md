@@ -274,7 +274,7 @@ If you're adding an authenticated chat experience to a custom website (that's no
         - **Decrypted token URL**: Endpoint where the OAuth 2.0 API can retrieve the customer info requested in the scope.<br>
      
      3. On the **Additional details** page, you can optionally define an access token expiry time, in seconds. The default expiry time is one hour.<br>
-        After the specified time, the **Authenticated** field in the **Customer summary** section of a previously authenticated conversation will change to **No**.<br>
+        After the specified time, the **Authenticated** field in the **Active Conversation** section of a previously authenticated conversation will change to **No**.<br>
     
      4. On the **Rich messages** page, select **Add**, and then select one or more rich messages to associate to this authentication setting.<br>
     

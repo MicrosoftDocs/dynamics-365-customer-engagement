@@ -95,8 +95,6 @@ Use the view list and queue list to filter and find items in queues.
 7. Optionally, select **No** to change it to **Yes** if you want item from the queue.
 8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected **Yes** in the previous step. Also, the following updates will happen if the item is in an advanced queue and is tracked through unified routing:
    - The **Worked By** attribute of the queue item will be updated with your user ID. The unified routing system takes this as an indicator of work assignment. To manually add another user or team, select the lookup for the **Worked By** field  from **Queue Item details** and then select the user. If the queue item is assigned to a private queue, the lookup displays only the members of that queue. 
-     > [!NOTE]
-     > When you select a private queue, the lookup for the **Worked By** field that displays the members of the private queue only is in early access.
   
      :::image type="content" source="media/private-queues-members-after.png" alt-text="Worked by field displaying only members of the private queue" lightbox="media/private-queues-members.png":::
         
@@ -151,7 +149,7 @@ If you want another person in your organization to work on an activity, you can 
   
 3. In the **Assign to another user or team** field, select **Lookup**, and select the user or team you want to assign the activity to.  
   
-   If you don’t see the user or team you are looking for, select **Lookup**, and then select **Look Up More Records**. From the **Look for** dropdown list, select **User** or **Team**. In the **Search** box, type the name, select the search button, select the name, and then select **Add**.  
+   If you don’t see the user or team you're looking for, select **Lookup**, and then select **Look Up More Records**. From the **Look for** dropdown list, select **User** or **Team**. In the **Search** box, type the name, select the search button, select the name, and then select **Add**.  
   
 4. Select **Assign**.
   
