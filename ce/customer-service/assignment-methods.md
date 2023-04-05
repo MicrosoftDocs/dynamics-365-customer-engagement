@@ -94,7 +94,7 @@ You can create only one prioritization ruleset per queue.
 
 As an example, consider the prioritization ruleset as seen in the following screenshot with four rules.
 
-![Prioritization scenario.](media/ur-prioritization-scenario.png "Prioritization scenario")
+:::image type="content" source="media/ur-prioritization-scenario.png" alt-text="Prioritization scenario.":::
 
 - During any assignment cycle, this prioritization ruleset will be run, and the rules within the ruleset will be run in the order they're listed.
 
@@ -154,7 +154,7 @@ The assignment rules are composed of the following items:
   
   - **Value**: The user attributes are compared against this value to find the right agent. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country is the same as that of the customer associated with the case.
   
-     ![Sample dynamic match](media/dynamic-value-match.png "Sample dynamic match")
+     :::image type="content" source="media/dynamic-value-match.png" alt-text="Sample dynamic match.":::
 
     For some operators, values aren't required. They can be conditions, such as "Contains data," "Does not contain data," and "Calendar schedule: is working."
 
@@ -175,7 +175,7 @@ The assignment rules are composed of the following items:
 
 A sample assignment rule is explained in the following scenario with a screenshot.
 
-![Sample assignment method](media/ur-sample-assign-scenaro.png "Sample assignment method")
+:::image type="content" source="media/ur-sample-assign-scenario.png" alt-text="Sample assignment method.":::
 
 The first condition specifies the "user skills" on which the operator is an exact match. Then the user attributes are evaluated. The different user attributes are specified with operators, and values for each attribute, such as the **Presence status** attribute, should be equal to "Available" or "Busy". On the right of the operator, you can specify the value that you want the attribute to be matched against. The values can be "static," such as "presence status equals Available or Busy". If you specify "dynamic," the condition will be matched at runtime based on the expression you specify. For example, if you specify "Preferred Customer Type Equals Conversation.Contact.Membership Level," the "preferred customer type" of every agent will be matched against the dynamically calculated membership level of the customer associated with the chat.
 
@@ -183,12 +183,12 @@ Dynamic match reduces the effort of having to write and maintain multiple static
 
 ### Limits on offering a work item repeatedly to an agent
 
-When agents are offered a work item through automatic assignment, they typically can accept or decline. Both [rejection](enable-agent-reject-notifications.md) and [time out](manage-missed-notifications.md) of the notification is considered as a decline. If an agent declines an offer three times for the same work item, that agent won't be considered as eligible for auto assignment in future assignment attempts for the specific work item. The system will try to offer the declined work to other agents in the queue if they're eligible based on assignment configuration.
+When agents are offered a work item through automatic assignment, they typically can accept or decline. Both [rejection](enable-agent-reject-notifications.md) and [time out](manage-missed-notifications.md) of the notification is considered as a decline. An agent who declines the same work item thrice won't be considered for further auto assignment for the specific work item. The system will try to offer the declined work item to other agents in the queue if they're eligible.
 
-For example, if agent Serena Davis rejects a chat from customer Ana Bowman twice and the notification times out in the third attempt, it's counted as three declines and auto assignment won't offer the same chat from Ana Bowman to Serena Davis again. But the system will offer the chat from Ana Bowman to other eligible agents. Also, Serena Davis will be considered for other incoming conversations except the declined chat from Ana Bowman.
+For example, agent Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment won't offer the same chat to Serena Davis again. But the system will offer the chat from Ana Bowman to other eligible agents. Also, Serena Davis will be considered for other incoming conversations except the declined chat from Ana Bowman.
 
 > [!NOTE]
-> If all matching agents decline the work because agent availability is low or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if 100 agents have already declined a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked by agents including those who rejected it.
+> If all matching agents decline the work item because agent availability is low or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if 100 agents decline a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked up by agents including those who rejected it.
 
 You can update the default limit of three declines to a value between one and five based on your org requirement. The limit is applicable to all channels in the org.
 
@@ -196,7 +196,7 @@ You can make an OData call as follows to check the limit for your organization.
 
 `<org-url>/api/data/v9.0/msdyn_omnichannelconfigurations?$select=msdyn_number_of_declines_allowed`
 
-If this OData returns the null value, it means that the decline limit is set to a default value of 3.
+If this OData call returns the null value, it means that the decline limit is set to a default value of 3.
 
 You can update the OData call as follows to modify the limit.
 
