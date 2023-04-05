@@ -45,8 +45,7 @@ For more requirements, see [Model-driven app requirements](/power-platform/admin
 
 ### Limitations
 
-- Customer Service workspace isn't supported in mobile devices and Unified Service Desk.
-- Customer Service workspace isn't supported with Dynamics 365 Customer Engagement (on-premises).
+- Customer Service workspace isn't supported in mobile devices, Unified Service Desk, and with Dynamics 365 Customer Engagement (on-premises).
 
 ### See also
 
