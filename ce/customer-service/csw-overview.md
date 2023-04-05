@@ -28,7 +28,7 @@ For more information about licensing and system requirements, see [Customer Serv
 
 **Set up Omnichannel in Customer Service workspace** 
 
-You can set up your Customer Service workspace environment so that agents working on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
+You can set up your Customer Service workspace environment so that agents who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
 
 
 :::image type="content" source="media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace"::: 
@@ -37,7 +37,7 @@ You can set up your Customer Service workspace environment so that agents workin
 ## Customer Service workspace sessions and tabs
 
 Customer Service workspace allows agents to work on multiple sessions at a time in a single app while keeping the work organized.
-Agents can work on up to nine sessions and within a session, they can open up to ten tabs. A new session is launched, when an agent opens a case from the **Home** session or the agent accepts an incoming conversation. If the agent opens the customer record from a session, a new tab opens in the same session. 
+Agents can work on up to nine sessions and within a session, they can open up to 10 tabs. A new session is launched when an agent opens a case from the **Home** session or accepts an incoming conversation. If the agent opens the customer record from a session, a new tab opens in the same session. 
 
 ### Navigate sessions and tabs
 
