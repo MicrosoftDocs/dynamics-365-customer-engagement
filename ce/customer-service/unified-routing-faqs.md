@@ -119,7 +119,7 @@ The unassigned work item remains in the queue until you manually assign it to an
 
 ### Can I increase the limit on assignment offer of work items to agents?
 
-Yes, you can update the limit. More information: [How the limit on offering a work item repeatedly to an agent works](assignment-methods.md#how-the-limit-on-offering-a-work-item-repeatedly-to-an-agent-works)
+Yes, you can update the limit. More information: [How the limit on offering a work item repeatedly to an agent works](assignment-methods.md#limits-on-offering-a-work-item-repeatedly-to-an-agent)
 
 ## Route to most-idle agent
 
