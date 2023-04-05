@@ -14,9 +14,9 @@ ms.custom: bap-template
 
 When your organization has a large number of users, adding them to agent profiles can be time consuming. As an administrator, you can effectively assign users to agent experience profiles and provide a targeted app experience, based on their roles.
 
-## Set an agent profile as default
+## Set a custom agent profile as default
 
-You can use **Set as default** to set an agent experience profile that you've created as the default profile. When you've set a default profile, all the options configured in the profile such as specific session templates, conversation channels, and productivity tools are available for all the users.
+You can set a custom agent experience profile as the default profile. When you've set a default profile, all the options configured in the profile such as specific session templates, conversation channels, and productivity tools are available for all the users.
 
 > [!NOTE]
 > - The default custom profile isn't applicable to a user who is assigned specifically to a different custom profile.
