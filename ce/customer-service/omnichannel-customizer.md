@@ -1,6 +1,6 @@
 ---
 title: "Omnichannel engagement hub for system customizers | MicrosoftDocs"
-description: "Overview topic containing links to procedures for customizing session, quick view, and Customer summary forms in Omnichannel for Customer Service."
+description: "Overview topic containing links to procedures for customizing session, quick view, and Active Conversation forms in Omnichannel for Customer Service."
 ms.date: 07/01/2019
 ms.topic: article
 author: neeranelli
@@ -19,7 +19,7 @@ Every organization has a unique way of working. Some organizations have well-def
 
 Use the resources in the following sections to learn how to use Omnichannel for Customer Service for system customizer:
 
-- [Customize Customer summary form](customize-customer-summary.md)
+- [Customize Active Conversation form](customize-customer-summary.md)
 - [Customize the session form](customize-session-form.md)
 - [Customize quick view forms](customize-quick-view-form.md)  
 
