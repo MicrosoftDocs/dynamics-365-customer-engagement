@@ -6,6 +6,7 @@ ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+ms.reviewer: soumyasd27
 ---
 
 # Configure authentication settings
@@ -260,7 +261,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 ### Create an authentication setting record for Apple Messages for Business using OAuth 2.0 code flow
 
-1. In the site map of the Customer Service admin center or Omnichannel admin center app, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
+1. In the Customer Service admin center or Omnichannel admin center app site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
 
 1. Select **New authentication setting**, and in the **Add authentication setting** page, provide the following details:
 
@@ -271,7 +272,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
         - **Client ID**: OAuth 2.0 Client Identifier issued by an authorization server.<br>
         - **Client secret**: Client secret used to authenticate requests sent to an authorization server.<br>
         - **Scope**: Each scope added will specify which pieces of user data you've requested from the customer. The scope content must exactly match the ones available through your service provider.<br>
-        - **Access Token URL**: Access point where the OAuth 2.0 API
+        - **Access Token URL**: The service provider's endpoint where an access token can be requested.
         - **Decrypted token URL**: Endpoint where the OAuth 2.0 API can retrieve the customer info requested in the scope.<br>
      
      3. On the **Additional details** page, you can optionally define an access token expiry time, in seconds. The default expiry time is one hour.<br>
