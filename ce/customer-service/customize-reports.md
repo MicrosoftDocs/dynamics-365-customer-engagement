@@ -47,7 +47,7 @@ To be able to edit analytics reports, users must have the **Analytics Report Aut
 
    The following panes open on the right-hand side of the page:
 
-   - **Visualizations**: Displays a list of options you can use to create different visual views in your report. Choose which visuals you want in your report by deleting a currently displayed visual and then adding the visual you prefer. For example, if you want to show **Incoming conversations** as a table instead of the bar chart, you would be able to use change it from here.  
+   - **Visualizations**: Displays a list of options you can use to create different visual views in your report. Choose which visuals you want in your report by deleting a currently displayed visual and then adding the visual you prefer. For example, if you want to show **Incoming conversations** as a table instead of the bar chart, you change your visual from the **Visualizations** pane. 
 
       :::image type="content" source="media/visual-incoming-conversations.png" alt-text="Customize report display on the Visualizations pane":::
 
