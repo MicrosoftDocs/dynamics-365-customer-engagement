@@ -112,6 +112,14 @@ Perform the following steps to enable the language filter for the [enhanced emai
 1. In **Visible**, select **Visible by default**. 
 1. Save and publish the changes.
 
+## Customize the enhanced email template selection view
+
+The [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window displays the the **Select Record dialog** and allows agents to toggle between email template views. Perform the following steps to enable these features:
+
+1. Navigate to **Advanced Settings** > **Email Configuration**.
+1. Select **Email Configuration** > **Email Configuration Settings**.
+1. In **Enhanced E-mail Template selection experience**, set **Enable Email Template views** and **Skip Select Record dialog** to **Yes**.
+
 ### Configure the default email template selection view
 
 Perform the following steps to configure the default view for the [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window:
@@ -119,6 +127,7 @@ Perform the following steps to configure the default view for the [enhanced emai
 1. Navigate to **Settings** > **Advanced Settings**.
 1. Select **Settings** > **Email Configuration** > **Email Configuration Settings**.
 1. Set the **Default view** option for **Enhanced E-mail Template selection experience**.
+
 
 ### See also
 
