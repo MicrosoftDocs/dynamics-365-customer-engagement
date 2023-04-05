@@ -47,7 +47,7 @@ Agents can work on up to nine sessions and within a session, they can open up to
 | ------------ |------------- |
 | Open a record from the Home session | Record opens in a new session. |
 | Open a record from the Global search | Record opens in a new session. |
-| Open a record from the retrieved search records | Record opens in a focussed session. |
+| Open a record from the retrieved search records | Record opens in a focused session. |
 | Open a record using the Quick Create notification | Record opens in a new session |
 | Create a new record | Record opens in a new session |
 | Open a record from the timeline | Record opens in a new tab in the focused session |
@@ -81,13 +81,17 @@ As an agent, it's helpful to know your work schedule. If your administrator has 
 
    :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the dropdown menu with the calendar option selected.":::
 
-   The **My Schedule** page opens with a read-only calendar view of the working hours, non-working hours, and any time off you have scheduled. Use the command bar at the top to change the view to agenda, daily, weekly, or monthly.
+   The **My Schedule** page opens with a read-only calendar view of the working hours, non-working hours, and any time off you've scheduled. Use the command bar at the top to change the view to agenda, daily, weekly, or monthly.
 
    :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
 
 ## Work with cases, activities, knowledge articles, and email templates
 
-On the Customer Service Agent Dashboard, you can view cases and activities that are assigned to you. You can also view cases available to work on. You can perform various actions such as create, delete, and filter cases and activities from the workspace.
+On the Customer Service Agent Dashboard, here are some of the actions you can do:
+
+- View cases and activities assigned to you
+- View cases available to work on
+- Create, delete, and filter cases and activities from the workspace
 
 ### Customize the agent experience with Customer Service admin center
 
@@ -97,7 +101,7 @@ More information: [Agent experience profiles](/dynamics365/app-profile-manager/o
 
 ### View the agent calendar 
 
-View your working, no-working hours, and any scheduled time-off requests on **My schedule**.
+View your working, non-working hours, and any scheduled time-off requests on **My schedule**.
 
 More information: [View the agent calendar (preview)](use-agent-calendar.md)
 
@@ -105,9 +109,9 @@ More information: [View the agent calendar (preview)](use-agent-calendar.md)
 
 Here are a few things to note when you use Customer Service workspace in your organization:
 
--We recommend that you have only one browser instance accessing the app.
--  The results of navigation actions when you use the app or the `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs are the same.
-- You can open sessions and tabs using Microsoft.Apm APIs. For more information: [App profile manager JavaScript API Reference](../app-profile-manager/reference/microsoft-apm.md)
+- We recommend that you have only one browser instance accessing the app.
+- The results of navigation actions when you use the app or the `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs are the same.
+- You can open sessions and tabs using Microsoft.Apm APIs. More information: [App profile manager JavaScript API Reference](../app-profile-manager/reference/microsoft-apm.md)
 
 ### Limitations
 
