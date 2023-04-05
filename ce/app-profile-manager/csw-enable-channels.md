@@ -63,7 +63,7 @@ After you have configured the Omnichannel for Customer Service and app profile m
 2.	The agent can work on conversations by accepting or selecting a conversation from the dashboard, and all the functionality of Omnichannel for Customer Service is available to them, including:
 
     a.	Notifications - More information: [View notifications](../customer-service/oc-notifications.md) <br>
-    b.	Customer summary - More information: [View a customer summary to get information about a customer](../customer-service/oc-customer-summary.md) <br>
+    b.	Active Conversation - More information: [View customer information on Active Conversation form](../customer-service/oc-customer-summary.md) <br>
     c.	Notes – More information: [Take notes specific to a conversation](../customer-service/oc-take-notes.md) <br>
     d.	Conversation and session forms – More information: [View conversation and session forms](../customer-service/oc-view-activity-types.md) <br>
     e.	Transcripts – More information: [Search transcripts](../customer-service/oc-search-transcipts.md) <br>
