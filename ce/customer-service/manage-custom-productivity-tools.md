@@ -51,11 +51,9 @@ Ensure that the following prerequisites are met:
 1. Select the agent experience profile that you want to modify, and select **Edit** for **Productivity pane** on the page that appears.
 1. Enable the custom productivity tool, and save the changes.
 
-> [!NOTE]
->
-> - Custom productivity tools hosted in the productivity pane are not contextually bound to the session.
->
-> - Custom productivity tools don't have a mechanism to retrieve information from the session context.
+ > [!NOTE]
+ > - Custom productivity tools hosted in the productivity pane are not contextually bound to the session. 
+ > - Custom productivity tools don't have a mechanism to retrieve information from the session context.
 
 ### See also
 

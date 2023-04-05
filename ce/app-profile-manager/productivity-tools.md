@@ -39,7 +39,7 @@ Microsoft Teams is a tool that can help agents more easily collaborate with coll
 
 ## Custom productivity tools (preview)
 
-The productivity pane supports custom productivity tools developed as custom pages or Power Apps component framework controls. You can create one or multiple custom productivity tools and make them available to your users with agent experience profiles.
+The productivity pane supports custom productivity tools developed as custom pages or Power Apps component framework controls. You can create multiple custom productivity tools and make them available to your users with agent experience profiles.
 
 ### See also
 
