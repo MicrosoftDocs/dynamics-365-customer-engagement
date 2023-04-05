@@ -263,7 +263,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 1. In the Customer Service admin center or Omnichannel admin center app site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
 
-1. Select **New authentication setting**, and in the **Add authentication setting** page, provide the following details:
+1. Select **New authentication setting**, and on the **Add authentication setting** page, provide the following details:
 
      1. On the **Channel type** page, enter a name and select **Apple Messages for Business** as the channel type.<br>
         By default, the authentication type is **OAuth 2.0 code flow**.<br>
@@ -284,9 +284,9 @@ If you need to use multiple public keys, your public key endpoint can return a s
      
 ### Create an authentication setting record for Apple Messages for Business using OAuth 2.0 OpenID connect flow
 
-1. In the site map of the Customer Service admin center or Omnichannel admin center app, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
+1. In the Customer Service admin center or Omnichannel admin center app site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
 
-1. Select **New authentication setting**, and in the **Add authentication setting** page, provide the following details:
+1. Select **New authentication setting**, and on the **Add authentication setting** page, provide the following details:
 
      1. On the **Channel type** page, enter a name and select **Apple Messages for Business** as the channel type.<br>
         
