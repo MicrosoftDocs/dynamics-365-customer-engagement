@@ -18,10 +18,10 @@ If your administrator has enabled the option to view call recordings and transcr
 
 ## Introduction
 
-As an agent, you can access the recordings and transcripts for completed calls by accessing the conversation form in one of the following ways:
+As an agent, you can access the recordings and transcripts for completed calls by accessing the closed conversations in one of the following ways:
 
-- On your session window, select the dropdown button for Customer summary and select Conversation Form.
-
+- If the form selector is available, on your session window, select the dropdown button for **Active Conversation** and select **Closed Conversation**.
+- 
 - Select the name of the contact, and then in the **Timeline** section, hover the mouse over the closed conversation that you want to view, and then select the **Open Record** icon.
 
 ## Call recording and transcript controls
