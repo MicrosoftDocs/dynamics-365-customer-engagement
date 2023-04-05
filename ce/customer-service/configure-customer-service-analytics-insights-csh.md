@@ -1,7 +1,7 @@
 ---
 title: "Configure analytics and insights dashboards | MicrosoftDocs"
 description: "Learn how to configure analytics and insights dashboards in Customer Service admin center and Customer Service workspace."
-ms.date: 11/15/2022
+ms.date: 03/31/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -42,10 +42,10 @@ Users with the system administrator or supervisor role can access the analytics 
     b. On the **Details** tab, enter a name in the **Role Name** field.
 
 4. Select the **Custom Entities** tab, move through the list of analytics reports, and then grant **Read** privileges for the following reports:
-    - **Omnichannel historical analytics**. More information: [Omnichannel historical analytics dashboards](omnichannel-analytics-insights.md)
-    - **Omnichannel Realtime analytics**. More information: [Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md)    
-    - **Customer service historical analytics**. More information: [Customer Service historical analytics dashboards](customer-service-analytics-insights-csh.md)
-    - **Knowledge analytics**. More information: [Knowledge analytics dashboards](knowledge-search-analytics-cs.md)
+    -  [Omnichannel historical analytics dashboards](omnichannel-analytics-insights.md)
+    - [Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md)    
+    - [Customer Service historical analytics dashboards](customer-service-analytics-insights-csh.md)
+    - [Knowledge analytics dashboards](knowledge-search-analytics-cs.md)
 
 5. Select **Save and close**. 
 

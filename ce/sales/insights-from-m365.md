@@ -1,7 +1,7 @@
 ---
 title: Insights generated from Microsoft 365 data
 description: Dynamics 365 Sales can generate insights based on email interactions and meetings information from Microsoft 365. 
-ms.date: 09/30/2022
+ms.date: 03/27/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -25,7 +25,7 @@ As a user, if you'd like to opt out of sharing your data, you can [turn off data
 
 ## Relationship analytics and health
 
-Relationship analytics provides a comprehensive view of the overall health and trend of your business relationships based on your sellers interactions with your customers through emails and activities in Dynamics 365. It calculates the KPIs and activity histories for any contact, opportunity, lead, or account. With these insights, you can identify critical opportunities and customer relationships that need your attention.
+Relationship analytics provides a comprehensive view of the overall health and trend of your business relationships based on your sellers interactions with your customers through emails and activities in Dynamics 365 and Exchange. It calculates the KPIs and activity histories for any contact, opportunity, lead, or account. With these insights, you can identify critical opportunities and customer relationships that need your attention.
 
 The following screenshot is an example of how relationship analytics data appears for open opportunities:
 
