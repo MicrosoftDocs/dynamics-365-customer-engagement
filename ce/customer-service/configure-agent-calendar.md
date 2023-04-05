@@ -42,6 +42,7 @@ You must have the System Administrator role to enable the calendar view.
 
 1. Select **Save and close**.
 
+
 ## Next Steps
 
  [View the agent calendar](csw-overview.md#view-the-agent-calendar-preview).
