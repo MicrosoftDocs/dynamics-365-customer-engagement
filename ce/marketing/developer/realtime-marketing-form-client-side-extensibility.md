@@ -1,7 +1,7 @@
 ---
-title: "Extend realtime marketing forms using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
-description: "Extend realtime marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
-ms.date: 05/04/2021
+title: "Extend real-time marketing forms using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Extend real-time marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
+ms.date: 04/05/2023
 ms.custom:
 - dyn365-marketing
 ms.topic: article
@@ -15,22 +15,26 @@ search.app:
 - D365Mktg
 ---
 
-# Extend realtime marketing forms using code
+# Extend real-time marketing forms using code
 
-> [!NOTE]
-> Marketing forms are in private preview, extensibility features will be released as part of global availability   
+This article explains how to extend real-time marketing forms for advanced customization.
 
 ## JavaScript API
   
-Realtime forms are consisting of two part - so called form placeholder, which looks similar to this:
+Real-time marketing forms consist of two parts:
+
+1. A form placeholder, which looks similar to this:
+
 ```HTML
-<div
+<div>
   data-form-id='{msdynmkt_marketingformid}'
   data-form-api-url='https://{server}.dynamics.com/api/v1.0/orgs/{organizationid}/landingpageforms/forms/{msdynmkt_marketingformid}'
-  data-cached-form-url='https://{server}.dynamics.com/{organizationid}/digitalassets/forms/{msdynmkt_marketingformid}' >
+  data-cached-form-url='https://{server}.dynamics.com/{organizationid}/digitalassets/forms/{msdynmkt_marketingformid}'
 </div>
 ```
-And form loader that lights up the form placeholders once page is loaded (`DOMContentLoaded` event is triggered)
+
+2. And a form loader, which lights up the form placeholders once page the is loaded (a`DOMContentLoaded` event is triggered):
+
 ```
 <script src='https://cxppusa1formui01cdnsa01-endpoint.azureedge.net/global/FormLoader/FormLoader.bundle.js'></script>
 ```
@@ -39,12 +43,13 @@ And form loader that lights up the form placeholders once page is loaded (`DOMCo
 
 | Custom event | Description |
 |------|-------|
-|`d365mkt-beforeformload`|Triggered when form placeholder is recognized before the actual form content is fetched |
-|`d365mkt-formrender`|Triggered after the form content is fetched and right before it is injected into form placeholder |
-|`d365mkt-afterformload`|Triggered after form is injected into placeholder |
-|`d365mkt-formsubmit`| Triggered when form is getting submitted, cancellable
+|`d365mkt-beforeformload`|Triggered when the form placeholder is recognized before the actual form content is fetched. |
+|`d365mkt-formrender`|Triggered after the form content is fetched and right before it is injected into the form placeholder. |
+|`d365mkt-afterformload`|Triggered after the form is injected into the placeholder. |
+|`d365mkt-formsubmit`| Triggered when the form is submitted, cancellable. |
   
-  You can attach to events using the standard event attach mechanics
+You can attach custom events using the standard event attach mechanics:
+
   ```HTML
   <script>
 document.addEventListener("d365mkt-beforeformload", function() { console.log("d365mkt-beforeformload") });
@@ -63,7 +68,9 @@ document.addEventListener("d365mkt-formsubmit", function(event) {
 ```
 
 ### Form behavior customization
-You can customize the form behavior by including configuration script before the loader script is injected into a page.
+
+You can customize the form behavior by including a configuration script before the loader script is injected into a page.
+
  ```HTML
  <script>
  var d365mkt = {
@@ -73,8 +80,9 @@ You can customize the form behavior by including configuration script before the
  </script>
 ``` 
 
-### Rendering marketing form via javascript api
-It can be inconvenient to wait for `DOMContentLoaded` - especially for scenarios like dynamic content loading. For this situations you can use the `createForm` helper function. `createForm` returns dom element `div` - which is returned immediatelly and triggers fetching of form content on background (the form is injected into placeholder the moment it is fetched).   
+### Rendering a marketing form using a JavaScript API
+
+Waiting for `DOMContentLoaded` can be inconvenient, especially for scenarios like dynamic content loading. For these situations, you can use the `createForm` helper function. `createForm` immediately returns a `div` DOM element, which triggers fetching form content in the background (the form is injected into a placeholder the moment it is fetched). 
 
 ```HTML
 <html>
@@ -92,8 +100,9 @@ It can be inconvenient to wait for `DOMContentLoaded` - especially for scenarios
 </html>
 ```
 
-### Injecting marketing form into react application
-You can use marketing forms within your react application. The form loader exposes `d365mktforms.FormPlaceholder` react component that you can inject into your application. 
+### Injecting marketing form into a React application
+
+You can use marketing forms within React applications. The form loader exposes the `d365mktforms.FormPlaceholder` React component, which you can inject into your application.
 
 ```HTML
 <html>
@@ -115,7 +124,10 @@ You can use marketing forms within your react application. The form loader expos
   </body>
 </html>
 ```
->NOTE: your have to replace {msdynmkt_marketingformid} with actual identifier of marketing form entity, {organizationid} with actual identifier of your organization and {server-} should point to server endpoints of your organization. Easiest way to grab those is via "Get Javascript Code" from form publish options.
+
+> [!NOTE]
+> You have to replace `{msdynmkt_marketingformid}` with the actual identifier of the marketing form entity and `{organizationid}` with the actual identifier of your organization. `{server-}` should point to the server endpoints for your organization. The easiest way to grab the information you need is with the "Get Javascript Code" command from the form publish options.
+>
 > | Widget attribute | React component property |
 > |---------------------|---------------------------------|
 > | data-form-id | formId |
@@ -123,6 +135,6 @@ You can use marketing forms within your react application. The form loader expos
 > | data-cached-form-url | formUrl |
 
 > [!NOTE]
-> The Javascript API is available only for forms hosted as a script, it is not supported for the iframe hosting option.  
+> The Javascript API is available only for forms hosted as a script. It is not supported for the iFrame hosting option.  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
