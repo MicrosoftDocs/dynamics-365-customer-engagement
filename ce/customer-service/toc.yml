@@ -291,11 +291,15 @@
       - name: Configure components to display customer details and recent records
         href: add-display-components-to-case-form.md
       - name: Configure components to display case associations
-        href: add-associated-grid-control.md        
+        href: add-associated-grid-control.md 
+      - name: Enable enhanced case forms for multisession apps
+        href: case-enh-config.md                
     - name: Agent experience
       items: 
       - name: Create cases
         href: customer-service-hub-user-guide-create-a-case.md
+      - name: Use enhanced case forms to manage cases
+        href: enh-casemgmt-csw.md        
       - name: Resolve, cancel, and reassign cases
         href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
       - name: Merge cases
