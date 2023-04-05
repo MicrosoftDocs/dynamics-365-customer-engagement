@@ -80,8 +80,8 @@ To add the Apple Messages for Business channel instance, complete the following 
 1. Optionally, you can add a bot. Skip this step if your conversations are handled by human agents only. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
 
 1. In **Advanced settings**, configure the following options based on your business needs:<br>
-      - [Sessions](../app-profile-manager/session-templates)<br>
-      - [Agent notifications](../app-profile-manager/notification-templates#out-of-the-box-notification-templates)<br>
+      - [Sessions](../app-profile-manager/session-templates.md)<br>
+      - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)<br>
       - [Context variables](manage-context-variables.md#add-context-variables)<br>
       - [Smart assist bots](smart-assist-bot.md)<br>
       - [Quick replies](create-quick-replies.md)<br>
