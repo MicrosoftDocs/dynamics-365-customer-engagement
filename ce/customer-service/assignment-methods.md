@@ -183,16 +183,14 @@ Dynamic match reduces the effort of having to write and maintain multiple static
 
 ### Limits on offering a work item repeatedly to an agent
 
-When agents are offered a work item through automatic assignment, they typically can accept or decline. Both [rejection](enable-agent-reject-notifications.md) and [time out](manage-missed-notifications.md) of the notification is considered as a decline. If an agent declines an offer three times for the same work item, that agent will not be considered as eligible for auto assignment in future assignment attempts for the specific work item.
+When agents are offered a work item through automatic assignment, they typically can accept or decline. Both [rejection](enable-agent-reject-notifications.md) and [time out](manage-missed-notifications.md) of the notification is considered as a decline. If an agent declines an offer three times for the same work item, that agent won't be considered as eligible for auto assignment in future assignment attempts for the specific work item. The system will try to offer the declined work to other agents in the queue if they're eligible based on assignment configuration.
 
-For example, if agent Serena Davis rejects a chat from customer Ana Bowman twice and the notification times out in the third attempt, it would be counted as three declines and the auto assignment won't offer the chat from Ana Bowman to Serena Davis again. But the chat from Ana Bowman will be offered to other eligible agents. Also Serena Davis will be considered for other incoming conversations except the chat from Ana Bowman.
+For example, if agent Serena Davis rejects a chat from customer Ana Bowman twice and the notification times out in the third attempt, it's counted as three declines and auto assignment won't offer the same chat from Ana Bowman to Serena Davis again. But the chat from Ana Bowman will be offered to other eligible agents. Also, Serena Davis will be considered for other incoming conversations except the declined chat from Ana Bowman.
 
 > [!NOTE]
-> If all matching agents decline the work because agent availability is low, or the work requires a very specific skill and proficiency, the work remains in the queue and can be picked by agents including those who rejected it or be manually assigned by supervisors. The system will try to offer the declined work to other agents in the queue, if they are eligible based on assignment configuration.
+> If all matching agents decline the work because agent availability is low or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if 100 agents have already declined a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked by agents including those who rejected it.
 
-If 100 agents have already declined a particular work item, auto assignment won't consider the work item in further assignment cycles. The work item remains open in the queue and can be picked by agents or assigned by supervisors.
-
-You can update the default limit of three declines per agent per work to a value between one and five based on your organization's requirement. The limit is applicable to all channels in the org.
+You can update the default limit of three declines to a value between one and five based on your org requirement. The limit is applicable to all channels in the org.
 
 You can make an OData call as follows to check the limit for your organization.
 
