@@ -107,7 +107,7 @@ This action is used for searching knowledge articles based on the populated phra
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br> This is a mandatory field.  |  |
- 
+
 #### Update an existing record
 
 This action is used to update an existing record. The action contains the following fields.
@@ -138,7 +138,6 @@ This action is used to open an email with a predefined template. The action cont
    | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | |
    | Template ID | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | |
 
-
 #### Resolve a case
 
 This action is used to resolve a case. The action contains the following fields.
@@ -149,7 +148,6 @@ This action is used to resolve a case. The action contains the following fields.
    | Incident ID| Specify the ID of the case that you want to close. <br>This is a mandatory field.| |
    | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
 
-
 #### Autofill form fields
 
 This action is used for updating the form attribute (field). The action updates the attribute of a form if that form is currently in focus and has the same entity type as mentioned in action. If the action is run for any other entity, then the action will fail. Also, the action only updates the field and doesn't save the record. The action contains the following field.
@@ -157,7 +155,6 @@ This action is used for updating the form attribute (field). The action updates 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity logical name | Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
-
 
 #### Clone current record
 
@@ -167,7 +164,6 @@ This action is used for cloning an existing record that is open in the current t
    |-----------------|-----------------------------|--------------------------|
    | Record title | Specify the title of the record that you want to clone. <br> This is a mandatory field. | |
 
-
 #### Open knowledge base article
 
 This action is used to open the knowledge base article. The action contains the following field.
@@ -175,7 +171,6 @@ This action is used to open the knowledge base article. The action contains the 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity record ID  | Specify the entity ID of the knowledge base article that you want to open. <br> This is a mandatory field.|  |
-
 
 #### Save the record
 
@@ -191,14 +186,11 @@ This action clones an existing record. The action only copies the fields and doe
    | Entity record ID | Specify the ID of the entity record. <br> This is a mandatory field.|
    |Record title| Specify the record title.
 
-
 ### Session connector
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to a session in Customer Service workspace.
 
-
-   > [!div class=mx-imgBorder] 
-   > ![Macro actions for session connector.](../customer-service/media/macro-session-connector.png "Macro actions for session connector")
+   :::image type="content" source="../customer-service/media/macro-session-connector.png" alt-text="Macro actions for session connector.":::
 
 #### Get the current tab
 
@@ -215,7 +207,6 @@ This action opens the specified application in a new tab with the attributes tha
    | Attribute Name | Specify the attribute logical name you want to update.| |
    | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
 
-
 #### Refresh the session context
 
 This action refreshes the session context in Customer Service workspace for entity sessions. For example, if you launch an entity session for a case record, the session context variables will be defined when the session starts. However, if you update the case title, the session context will not be updated. Therefore, macros will use the cached information. You can add the **Refresh the session context** step after starting the macro run to use the latest information.
@@ -228,7 +219,6 @@ This action refreshes a tab in the Customer Service workspace session. This acti
    |-----------------|-----------------------------|--------------------------|
    | Tab ID | Specify the ID of the tab that you want to refresh. <br> This is a mandatory field.| 
 
-
 #### Focus on the tab
 
 This action focuses on a tab in the Customer Service workspace session. This action contains the following field.
@@ -237,7 +227,6 @@ This action focuses on a tab in the Customer Service workspace session. This act
    |-----------------|-----------------------------|--------------------------|
    | Tab ID | Specify the identifier of the tab that you want to give focus to. <br> This is a mandatory field.|
 
-
 ### Omnichannel connector
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
@@ -245,8 +234,7 @@ As an administrator, you can use the actions any number of times across differen
 > [!NOTE]
 > Macro actions for the Omnichannel connector is available if Customer Service workspace in Omnichannel for Customer Service is installed.
 
-   > [!div class=mx-imgBorder] 
-   > ![Macro actions for Omnichannel connector.](../customer-service/media/macro-omnichannel-connector.png "Macro actions Omnichannel connector")
+   :::image type="content" source="../customer-service/media/macro-omnichannel-connector.png" alt-text="Macro actions Omnichannel connector.":::
 
 #### Send KB article in chat
 
@@ -266,7 +254,6 @@ This action links a record to the conversation when the customer is communicatin
    | Entity record id| Specify the entity record ID of the entity that you want to link. <br>This is a mandatory field.| |
    | Entity primary Name | Specify the primary name of the entity that you want to link. <br>This is a mandatory field.| |
 
-
 #### Unlink record from the conversation
 
 This action unlinks a record from the conversation when the customer is communicating with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
@@ -281,9 +268,7 @@ This action unlinks a record from the conversation when the customer is communic
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service and Customer Service workspace.
 
-
-   > [!div class=mx-imgBorder]
-   > ![Macro actions for flow connector.](../customer-service/media/macro-flow-connector.png "Macro actions for flow connector")
+   :::image type="content" source="../customer-service/media/macro-flow-connector.png" alt-text="Macro actions for flow connector.":::
 
 #### Run Flow
 
@@ -299,21 +284,17 @@ This action triggers Power Automate flows using macros in agent scripts. This ac
 
 Referenced flows require valid connection and run permissions for the Omnichannel for Customer Service and Customer Service workspace tenant and agents that run the flow from within agent scripts.
 
-   > [!div class=mx-imgBorder] 
-   > ![Flow permissions.](../customer-service/media/flow-permissions.png "Flow permissions")
+   :::image type="content" source="../customer-service/media/flow-permissions.png" alt-text="Flow permissions.":::
 
 When you run the **Run flow** action, flows are run within the embedded flow widget on Omnichannel for Customer Service.
 
-   > [!div class=mx-imgBorder] 
-   > ![Run Flow.](../customer-service/media/run-flow.png "Run Flow")
-
+   :::image type="content" source="../customer-service/media/run-flow.png" alt-text="Run Flow.":::
 
 ## Built-in
 
 The Built-in control allows you to run a macro action step based on the conditions. The **Built-in** category connector has a **Condition** action.
 
-   > [!div class=mx-imgBorder] 
-   > ![Condition connector.](../customer-service/media/built-in.png "Condition connector")
+   :::image type="content" source="../customer-service/media/built-in.png" alt-text="Condition connector.":::
 
 To use the **Built-in** category, you first need to have a trigger (predefined automation actions). That is, select a predefined automation action first, and before or after a step, you can define the condition. You can also create nested conditions as per your requirements.
 
@@ -401,9 +382,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
       | Focus on a particular application tab from another application tab| Focus tab |
       | Get the details of the current application tab | Get current tab |
 
-
-       > [!div class=mx-imgBorder] 
-       > ![Macro actions for session.](../customer-service/media/macro-session-connector.png "Macro actions for session")    
+      :::image type="content" source="../customer-service/media/macro-session-connector.png" alt-text="Macro actions for session.":::
 
       More information: [Session connector](#session-connector)
 
@@ -414,11 +393,9 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
       | Link a record to the conversation while interacting with the customer | Link record to the conversation |
       | Unlink a record from the conversation while interacting with the customer | Unlink record from the conversation |
 
+      :::image type="content" source="../customer-service/media/macro-omnichannel-connector.png" alt-text="Macro actions for Omnichannel."
 
-       > [!div class=mx-imgBorder] 
-       > ![Macro actions for Omnichannel.](../customer-service/media/macro-omnichannel-connector.png "Macro actions for Omnichannel") 
-
-       More information: [Omnichannel connector](#omnichannel-connector)
+      More information: [Omnichannel connector](#omnichannel-connector)
    
        > [!Note]
        > Omnichannel connector is not available in Customer Service workspace.
@@ -427,8 +404,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
 
    If you selected **Open a new form to create a record**, you can select **Show advanced options** to add the attributes and values you want. If required, you can select **Add new item** to add more attributes.
 
-   > [!div class=mx-imgBorder] 
-   > ![Attributes for Open a new form to create a record.](../customer-service/media/macro-fields.png "Attributes for Open a new form to create a record") 
+   :::image type="content" source="../customer-service/media/macro-fields.png" alt-text="Attributes for Open a new form to create a record.":::
 
 1. After you add an action step, to define conditions, select the **Built-in** tab, and select **Control**.
 
@@ -450,23 +426,20 @@ As an administrator, you can view the macro run history, which shows how many ti
 
 1. Select **View run history**.
 
-   > [!div class=mx-imgBorder]
-   > ![View the run history for a macro.](../customer-service/media/macro-run-history.png "View the run history for a macro")
+   :::image type="content" source="../customer-service/media/macro-run-history.png" alt-text="View the run history for a macro.":::
 
 1. Select the macro that failed from the list.
 
-   > [!div class=mx-imgBorder] 
-   > ![Select the macro that failed.](../customer-service/media/macro-run-history-list.png "Select the macro that failed")
+   :::image type="content" source="../customer-service/media/macro-run-history-list.png" alt-text="Select the macro that failed.":::
 
 1. See the macro action step that caused the failure. Review the previous step for any issue in the slug data parameters that might've been passed incorrectly or slug data parameters that were updated incorrectly.
 
+   :::image type="content" source="../customer-service/media/macro-run-history-fail.png" alt-text="Review the macro action steps.":::
    > [!div class=mx-imgBorder]
-   > ![Review the macro action steps.](../customer-service/media/macro-run-history-fail.png "Review the macro action steps")
 
    For example, when you select on the **Open a new form to create a record** step, select **Show more**, and you can view that the mandatory fields don't have values, which are mandatory to save the record. Due to this reason, the macro run failed at the **Save the record** step.
 
-   > [!div class=mx-imgBorder]
-   > ![Review the macro action steps to understand failure reason.](../customer-service/media/macro-run-history-fail-reason.png "Review the macro action steps to understand failure reason")
+   :::image type="content" source="../customer-service/media/macro-run-history-fail-reason.png" alt-text="Review the macro action steps to understand failure reason.":::
 
 1. Fix the macro step action that you think might have caused the failure, and then try running it again. For example, since the values are not resolved, go to the macro designer and then check on the slugs, and then try running the macro again.
 
