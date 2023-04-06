@@ -880,8 +880,8 @@
       items:
       - name: Configure authentication settings for chat  
         href: create-chat-auth-settings.md
-      - name: Configure authentication settings for social channels
-        href: create-chat-auth-settings.md#socialauth
+      - name: Configure authentication settings for Apple Messages for Business
+        href: create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business
     - name: Configure payment profiles
       href: configure-payment-profiles.md
     - name: Enable real-time translation of conversations
