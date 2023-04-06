@@ -101,7 +101,7 @@ If you save the case using the enhanced full case form, you'll see the following
    > - For an attachment shared over a conversation, **Uploaded By** is set to **Omnichannel User** and **Uploaded on** is the time when the conversation ended.
    > - You'll see the enhanced full case form when you open an existing case only if your administrator has set enhanced **Full case form** as the default form.
 
-:::image type="content" source="media/edit-enh-fullcase-mini.png" alt-text="Edit enhanced main case form" lightbox="media/edit-enh-fullcase.png":::
+:::image type="content" source="media/edit-enh-fullcase-mini.png" alt-text="Edit enhanced main case form" lightbox="media/edit-full-case-form.png":::
 
 
 ## View customer details and recent cases
