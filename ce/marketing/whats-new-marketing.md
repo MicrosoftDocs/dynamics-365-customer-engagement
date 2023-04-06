@@ -103,6 +103,9 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
     - Use contact insights in real-time marketing to gain a better understanding of your audience's behavior and interests, make informed decisions based on past engagement, and tailor your marketing efforts to their specific needs and preferences.
     - [Docs](real-time-marketing-analytics.md)
 
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of contact insights.](media/whats-new-contact-insights.png "Screenshot of contact insights")
+
 - **Drive engagement with personalized content using data with one-to-many relationships**
     - Unlock even more data for personalization with ability to define dynamic text using data that requires traversing one-to-many relations. Consider a university alumni donation campaign where you would want to include the name of the college attended by each alum for driving maximum engagement. However, an alum might have attended multiple colleges in that university, resulting in a "one-to-many" relationship between student and college records. You can now define dynamic text for such data.
     - [Docs](real-time-marketing-predefined-dynamic-text.md)
