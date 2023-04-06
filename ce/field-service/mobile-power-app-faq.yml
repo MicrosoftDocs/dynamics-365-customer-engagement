@@ -166,7 +166,7 @@ sections:
       - question: |
          When working in the mobile application, why do users sometimes see “Validations have been restarted in the background…”?
         answer: |
-         This error is commonly caused by a timing issue when using synchronous OnSave events. The current version of the Field Service (Dynamics 365) Mobile app uses AsyncOnSave to mitigate validation errors for out-of-box scripts. If users continue to see this error, evaluate custom validations and use OnChange events.
+         This error is commonly caused by a timing issue when using synchronous OnSave events. Starting with version 8.8.88.56 of the Field Service (Dynamics 365) Mobile app uses AsyncOnSave to mitigate validation errors for out-of-box scripts. If users continue to see this error, evaluate custom validations and use OnChange events.
 
   - name: Other
     questions:       
