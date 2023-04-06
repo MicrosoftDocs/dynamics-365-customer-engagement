@@ -75,9 +75,9 @@ For sample schema to get all the required records, see [Sample schema for capaci
 
 Use the Configuration Migration tool to create the schema and export data from the source organization for the record queues configuration.
 
-    [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
+[!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
 
-    If you're using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities:
+If you're using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities:
     - Decision rule set
     - Assignment configuration
     - Assignment configuration step
@@ -103,11 +103,11 @@ The following table summarizes the entities and corresponding FetchXML samples:
 
 Perform the following steps to export and import the rulesets:
 
-2. Generate the schema and save it.
+1. Generate the schema and save it.
 
-3. Export the data and generate the compressed (zip) file.
+2. Export the data and generate the compressed (zip) file.
 
-4. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
+3. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
 
    - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
@@ -121,9 +121,9 @@ Perform the following steps to export and import the rulesets:
 
      In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
-5. Package the extracted content again.
+4. Package the extracted content again.
 
-6. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
+5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
 For sample schema to get all the required records, see [Sample schema for record queues](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues.xml).
 
