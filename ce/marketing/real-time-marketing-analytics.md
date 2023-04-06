@@ -42,7 +42,7 @@ The following insights categories are provided:
 - **Form insights**: See which marketing forms the contact has visited and submitted. View the content of each submission. 
  
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of contact insights.](media/whats-new-contact-insights.png "Screenshot of contact insights")
+    > ![Screenshot of contact insights.](media/real-time-marketing-contact-insights.png "Screenshot of contact insights")
 
 ### Journey operational analytics
 
