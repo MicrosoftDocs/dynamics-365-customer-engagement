@@ -6,7 +6,7 @@ ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.reviewer: soumyasd27
+ms.reviewer: shujoshi
 ---
 
 # Configure authentication settings
