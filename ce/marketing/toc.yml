@@ -406,6 +406,8 @@
         href: real-time-marketing-developer-notifications.md
       - name: Integrate a custom captcha service with marketing forms
         href: real-time-marketing-form-custom-captcha.md
+      - name: Client-side extensibility for forms
+        href: realtime-marketing-form-client-side-extensibility.md
       - name: Reference guide for real-time marketing interactions
         href: real-time-marketing-interactions-reference.md
       - name: Create a real-time marketing segment using the Web API
