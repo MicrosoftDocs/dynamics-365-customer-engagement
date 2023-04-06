@@ -68,7 +68,7 @@ Select any journey component to view near real-time operational analytics in the
     > ![AI optimization screenshot.](media/real-time-marketing-ai-optimization.png "AI optimization screenshot")
 
 > [!NOTE]
-> Data retention is 12 months for Goal analytics, Channel analytics (including delivery and interaction details), and AI optimization analytics.
+> Data retention is 12 months for Contact insights, Goal analytics, Channel analytics (including delivery and interaction details), and AI optimization analytics.
 
 ### Aggregate cross-journey analytics
 
