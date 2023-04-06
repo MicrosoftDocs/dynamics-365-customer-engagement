@@ -17,8 +17,10 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[incident](incident.md)|
 |[msdyn_actioninputparameter](msdyn_actioninputparameter.md)|
 |[msdyn_actionoutputparameter](msdyn_actionoutputparameter.md)|
+|[msdyn_agentcapacityprofileunit](msdyn_agentcapacityprofileunit.md)|
 |[msdyn_agentscript](msdyn_agentscript.md)|
 |[msdyn_agentscriptstep](msdyn_agentscriptstep.md)|
+|[msdyn_agentstatus](msdyn_agentstatus.md)
 |[msdyn_agentstatushistory](msdyn_agentstatushistory.md)
 |[msdyn_analytics](msdyn_analytics.md)|
 |[msdyn_assignmentconfiguration](msdyn_assignmentconfiguration.md)|
