@@ -1,7 +1,7 @@
 ---
-title: "Preview: Send emails without building a journey"
+title: "Send emails without building a journey"
 description: "Learn how to send emails in Dynamics 365 Marketing without building a journey."
-ms.date: 03/30/2023
+ms.date: 04/05/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,15 +17,10 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Send emails without building a journey
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+# Send emails without building a journey
 
 > [!TIP]
-> This article refers to a feature that is in preview and may not be enabled in your environment. If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to the **Email editor** area, enabling the **Send Now (preview)** feature switch, and saving the setting by selecting **Save** on the top right corner.
+> If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to the **Email editor** area, enabling the **Send Now** feature switch, and saving the setting by selecting **Save** on the top right corner.
 
 > [!CAUTION]
 > Sending emails without building a journey currently only supports the [default consent profile](set-up-subscription-center.md#the-default-subscription-center). Custom subscription centers are not supported.
