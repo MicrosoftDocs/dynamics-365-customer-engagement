@@ -1,19 +1,12 @@
 ---
-title: Configure the agent calendar view | MicrosoftDocs
+title: Configure the agent calendar view
 description: Learn how to enable the agent calendar in Dynamics 365 Customer Service admin center.
-ms.date: 11/21/2022
-ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
-search.audienceType: 
-  - admin
-  - enduser
-search.app: 
-  - D365CE
-  - D365CS
-ms.custom: 
-  - dyn365-customerservice
+ms.reviewer: neeranelli
+ms.topic: how-to
+ms.date: 04/05/2023
+ms.custom: bap-template
 ---
 
 # Configure the agent calendar view (preview)
@@ -27,11 +20,15 @@ ms.custom:
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-As an administrator, you can help agents in your organization plan their work hours by viewing their work schedules at a glance. The My Schedule view in the Dynamics 365 Customer Service workspace app lets agents quickly view their working hours, their non-working hours, and any scheduled time off. The calendar view is a read-only visual that provides daily, weekly, and monthly views.
+As an administrator, you can help agents in your organization plan their work hours by viewing their work schedules at a glance. The **My Schedule** view in the Dynamics 365 Customer Service workspace app lets agents quickly view their working hours, non-working hours, and any scheduled time off. The calendar view is a read-only visual that provides daily, weekly, and monthly views. It also has an agenda view that provides a list-type view of the agent's schedule. 
+
+### Calendar view
 
    :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
 
-You must have the system administrator role to enable the calendar view.
+## Prerequisites
+
+You must have the System Administrator role to enable the calendar view.
 
 ## Enable the agent calendar
 
@@ -45,6 +42,10 @@ You must have the system administrator role to enable the calendar view.
 
 1. Select **Save and close**.
 
-### See also
-[View the agent calendar](csw-overview.md#view-the-agent-calendar-preview)  
-[Get started with Customer Service workspace](csw-overview.md)
+
+## Next Steps
+
+ [View the agent calendar](csw-overview.md#view-the-agent-calendar-preview).
+
+ [Get started with Customer Service workspace](csw-overview.md).
+

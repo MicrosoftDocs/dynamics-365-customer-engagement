@@ -43,12 +43,11 @@ Only active views are displayed for the search results. You can customize the Qu
 ## Link a record to the conversation when doing an inline search
 
 > [!div class=mx-imgBorder]
-> ![Customer and Case sections are blank when there are no records.](media/agent-inline-search-no-record.PNG "Customer and Case sections are blank when there are no records")
+> ![Customer and Case sections are blank when there are no records.](media/customer-summary-create-record.PNG "Customer and Case sections are blank when there are no records")
 
-During an inline search, the search results are displayed and you can select a record to link the conversation to the selected record. After you link the record, the **Customer summary** page is updated with the details.
+During an inline search, the search results are displayed and you can select a record to link the conversation to the selected record. After you link the record, the **Active Conversation** page is updated with the details.
 
-> [!div class=mx-imgBorder]
-> ![The Customer summary page is updated with details from the linked record.](media/agent-inline-search-link.PNG "The Customer summary page is updated with details from the linked record")
+   :::image type="content" source="media/agent-inline-search-link.png" alt-text="The active conversation page is updated with details from the linked record" :::
 
 > [!NOTE]
 > You can link only one contact or account in the customer (**Contact** or **Account**) section and one case in the **Case** section.
@@ -79,17 +78,17 @@ After you search for a record by using relevance search, you can link the record
 > [!div class=mx-imgBorder]
 > ![Select a record to link.](media/oceh-oc-select-record-link.png "Select a record to link")
 
-Now, the **Customer summary** page is refreshed and updated with details from the record. Similarly, you can link other record types.
+Now, the **Active Conversation** page is refreshed and updated with details from the record. Similarly, you can link other record types.
 
 > [!NOTE]
 > You can link only one contact or account in the customer (**Contact** or **Account**) section and one case in the **Case** section.
 
 ## Unlink a record from the conversation
 
-You can unlink a record only when you are interacting with a customer by using the communication panel. That is, after you accept an incoming conversation request and view the **Customer summary** page, you can unlink the record from the conversation.
+You can unlink a record only when you are interacting with a customer by using the communication panel. That is, after you accept an incoming conversation request and view the **Active Conversation** page, you can unlink the record from the conversation.
 
-> [!div class=mx-imgBorder]
-> ![Select Close to unlink the record.](media/oceh-oc-unlink-customer.PNG "Unlink the record")
+ :::image type="content" source="media/oceh-oc-unlink-customer.png" alt-text="default Case details section of the active conversation page"::: 
+
 
 To unlink a record, select **Close** next to the customer name in the customer (**Contact** or **Account**) section. After the record is removed, the customer (**Contact** or **Account**) section is blank.
 
@@ -102,9 +101,9 @@ To unlink a record, select **Close** next to the customer name in the customer (
 ### See also
 
 - [Understand conversation states](oc-conversation-state.md)
-- [View a customer summary to get available information about a customer](oc-customer-summary.md)
+- [View customer information on Active Conversation form](oc-customer-summary.md)
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
-- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Create a record](oc-create-record.md)
 
 

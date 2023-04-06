@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/01/2023
+ms.date: 04/06/2023
 ms.custom: bap-template
 ---
 
@@ -127,8 +127,24 @@ activate and then select **Activate**.
 1. On the confirmation dialog, select **Activate**. The search provider that you activated is added to the
 **Active search providers** list.
 
+## Configure search providers as search filters
+
+Configure search providers as filters to search knowledge articles only from selected data providers. The filter works only if you have Dataverse Search enabled.
+
+To configure search providers as search filters for knowledge articles:
+
+1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The Knowledge page appears.
+
+    In the **Filters** section, ensure that the **Enable search filters** toggle is switched to **Yes**.
+1. From the **Select filter type** dropdown list, select **Integrated Search Dataprovider Id**, and then select **Add**.
+1. From the **Lookup Records** dialog, select the **Search** icon.
+1. Select the search provider, and then select **Add**. The search provider gets added to your filters. 
+1. Optionally, to set predetermined search providers that'll appear for agents by default, switch the **Set as preselected filter** toggle to **Yes**.
+
+If you select a deactivated data search provider, it might appear on the **Filter by** dropdown list, but you won't see any search results from the selected data provider.
+
 ## Next Steps
 
- [View and use insights for search providers](view-and-use-insights.md).
+ [View and use insights for search providers](view-and-use-insights.md)
 
- [Search knowledge articles](search-knowledge-articles-csh.md#search-knowledge-articles).
+ [Search knowledge articles](search-knowledge-articles-csh.md#search-knowledge-articles)
