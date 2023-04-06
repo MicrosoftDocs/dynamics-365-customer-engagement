@@ -139,10 +139,9 @@ To configure search providers as search filters for knowledge articles:
 1. From the **Select filter type** dropdown list, select **Integrated Search Dataprovider Id**, and then select **Add**.
 1. From the **Lookup Records** dialog, select the **Search** icon.
 1. Select the search provider, and then select **Add**. The search provider gets added to your filters. 
+1. Optionally, to set predetermined search providers that'll appear for agents by default, switch the **Set as preselected filter** toggle to **Yes**.
 
-Optionally, to set predetermined search providers that will appear for agents by default, switch the **Set as preselected filter** toggle to **Yes**.
-
-If you select a deactivated data search provider, you won't see any search results from the data provider, even though the name of the search provider might appear on the **Filter by** dropdown list.
+If you select a deactivated data search provider, it might appear on the **Filter by** dropdown list, but you won't see any search results from the selected data provider.
 
 ## Next Steps
 
