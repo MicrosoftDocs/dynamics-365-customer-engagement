@@ -249,10 +249,10 @@ The following conditions don't prevent forms from being published. A warning mes
 
 To open the HTML editor and display the source code of a form, select the **HTML button** in the top right corner.
 
-- Real-time marketing forms can be [rendered using JavaScript API](/developer/realtime-marketing-form-client-side-extensibility.md#rendering-marketing-form-via-javascript-api), allowing you to load the form dynamically.
-- You can [inject a marketing form into a react application](/developer/realtime-marketing-form-client-side-extensibility.md#injecting-marketing-form-into-react-application).
-- It's also possible to [extend form events](/developer/realtime-marketing-form-client-side-extensibility.md#custom-events) like formLoad, formSubmit, etc.
-- There are other possibilities to customize your forms. [Learn more](/developer/realtime-marketing-form-client-side-extensibility.md)
+- Real-time marketing forms can be [rendered using JavaScript API](./developer/realtime-marketing-form-client-side-extensibility.md#rendering-marketing-form-via-javascript-api), allowing you to load the form dynamically.
+- You can [inject a marketing form into a react application](./developer/realtime-marketing-form-client-side-extensibility.md#injecting-marketing-form-into-react-application).
+- It's also possible to [extend form events](./developer/realtime-marketing-form-client-side-extensibility.md#custom-events) like formLoad, formSubmit, etc.
+- There are other possibilities to customize your forms. [Learn more](./developer/realtime-marketing-form-client-side-extensibility.md)
 
 #### Customize form CSS
 
