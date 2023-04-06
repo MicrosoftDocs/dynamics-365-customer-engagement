@@ -40,6 +40,9 @@ The following insights categories are provided:
 - **Overview**: View a chart of the engagement interactions and a summary of the most important KPIs for each channel for the selected contact.
 - **Email insights**: View complete details of email interactions for the selected contact, including a list of all messages sent to them, plus lists of all opens, clicks, bounces, and more. 
 - **Form insights**: See which marketing forms the contact has visited and submitted. View the content of each submission. 
+ 
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of contact insights.](media/whats-new-contact-insights.png "Screenshot of contact insights")
 
 ### Journey operational analytics
 
