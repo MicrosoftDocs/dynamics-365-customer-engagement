@@ -3698,11 +3698,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/index.md",
-      "redirect_url": "/powerapps/developer/common-data-service/best-practices/",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/mobile-app/configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md",
       "redirect_url": "setup-mobile-offline-for-admin",
       "redirect_document_id": "false"
@@ -23112,6 +23107,13 @@
       "redirect_url": "/dynamics365/sales/opportunity-pipeline-view-for-admins",
       "redirect_document_id": "false"
     },
+
+    {
+      "source_path": "ce/sales/connect-share-feedback.md",
+      "redirect_url": "/dynamics365/sales/overview",
+      "redirect_document_id": "false"
+    },
+
     {
       "source_path": "ce/sales-enterprise/help-hub.md",
       "redirect_url": "/dynamics365/sales/help-hub",

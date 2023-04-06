@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing asset library add-on (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to use the real-time marketing asset library add-on in Dynamics 365 Marketing."
-ms.date: 03/02/2023
+ms.date: 03/31/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -19,8 +19,8 @@ search.app:
 
 # Real-time marketing asset library add-on
 
-> [!NOTE]
-> The real-time marketing library add-on has been retired and is only available to customers who installed it prior to March 2023. You can confirm whether the add-on is installed by going to Settings > Add-ons and checking if the asset library add-on is installed. If it’s not, please refer to [Upload, manage and use images, files and videos in online content (Dynamics 365 Marketing) | Microsoft Learn](upload-images-files.md).
+> [!IMPORTANT]
+> The [real-time marketing library add-on](real-time-marketing-asset-library.md) has been retired and will be removed by **June 30, 2023**. All customers will automatically be migrated to the [unified asset library](upload-images-files.md), which adds support for shared Dynamics 365 features such as support for business units, security roles for asset management and application lifecycle management. Other features, such as automated tagging and smart recommendation for images, will be temporarily removed and added back in upcoming releases. Learn more: [Asset library add-on file migration](real-time-marketing-add-on-migration.md)
 
 > [!NOTE]
 > The asset library add-on is not available in Brazil, India, France, Switzerland, or United Arab Emirates.

@@ -29,7 +29,7 @@ You'll receive a notification when a customer requests a conversation through Te
 
 As an agent in Omnichannel for Customer Service, you can:
 
-- [View a customer summary](oc-customer-summary.md).
+- [View customer information on Active Conversation form](oc-customer-summary.md).
 - [View the communication panel](oc-conversation-control.md).
 - [Use call options and visual engagement in live chat](call-options-visual-engagement.md).
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md).
@@ -47,7 +47,7 @@ As an agent in Omnichannel for Customer Service, you can:
 - [Manage presence status](oc-manage-presence-status.md).
 - [Search for transcripts](oc-search-transcipts.md).
 - [View conversation and session forms](oc-view-activity-types.md).
-- [View the customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md).
+- [View the active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md).
 - [Search for transcripts](oc-search-transcipts.md).
 
 ### See also

@@ -1,7 +1,7 @@
 ---
-title: Overview of Omnichannel real-time analytics dashboard| MicrosoftDocs
-description: Use this article to get an introduction to real-time Omnichannel analytics dashboard in Omnichannel for Customer Service and Customer Service workspace apps.
-ms.date: 03/28/2023
+title: Overview of real-time Omnichannel analytics dashboard| MicrosoftDocs
+description: "Use this article to get an introduction to real-time Omnichannel analytics dashboard in Omnichannel for Customer Service and Customer Service workspace apps."
+ms.date: 03/31/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -54,6 +54,8 @@ The Omnichannel real-time analytics reports consist of the following:
 
 - **Ongoing Conversations**: This report provides information about the conversations that agents are handling and are in either active, open, wrap up, or waiting statuses. More information: [View and understand the Ongoing Conversation report in Omnichannel real-time analytics](realtime-ongoing.md)
 
+You can make changes to the visual display of the reports and save your personalized views as bookmarks.
+
 ## View reports
 
 You can view the various reports in the Customer Service workspace or Omnichannel for Customer Service apps.
@@ -61,14 +63,9 @@ You can view the various reports in the Customer Service workspace or Omnichanne
 - In the Customer Service workspace default view, select the plus (+) icon, and then select **Omnichannel real-time analytics** dashboard. The **Summary** report is the default report that appears. You can view **Ongoing Conversations**, **Agent**, and **Voice** reports, by selecting the respective tabs.
 - In the Omnichannel for Customer Service default view, select the **Omnichannel real-time analytics dashboard** option from the dropdown list. The **Summary** report is the default report that appears. You can view **Ongoing Conversations**, **Agent**, and **Voice** reports, by selecting the respective tabs.
 
-If you're unable to view the reports, contact your system administrator. More information: [Configure real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md) The real-time analytics reports are available only in English out of the box. You'll need to customize the reports to make them available in a language of your choice. More information: [Customize data models of historical analytics reports in Customer Service (preview)](model-customize-reports.md#customize-data-models-of-historical-analytics-reports-in-customer-service-preview)
+If you're unable to view the reports, contact your system administrator. For more information, go to: [Manage real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service-preview). The real-time analytics reports are available only in English out of the box. You'll need to customize the reports to make them available in a language of your choice. More information: [Customize data models of historical analytics reports in Customer Service (preview)](model-customize-reports.md#customize-data-models-of-historical-analytics-reports-in-customer-service-preview)
 
-
-## Customize reports and report views
-
-You can use various options available on the reports to customize your report view and filter information.
-
-### Filter information displayed on dashboards
+## Filter information displayed on dashboards
 
 You can use the filters on the dashboards like time, agent, channels, queue, time zone, and conversation status to drill down KPIs across the dashboard. You can adjust the filters based on insights you're looking for.
 
@@ -82,24 +79,19 @@ The **Time** dropdown list includes options such as **Include open conversations
 > - The reports include conversations that were handled only by agents, as well as those that were escalated by the Power Virtual Agents bots.
 > - The reports don't include conversations that were resolved by Power Virtual Agents bots.
 
-### Save report views using bookmarks
-
-You can also save personalized views of your reports as bookmarks and then use the **Bookmarks** option to select a saved view, update, or delete a bookmark, and set a default bookmark. More information: [Manage bookmarks for reports](manage-bookmarks.md#manage-bookmarks-for-reports)
-
-### Edit visual display
-
-You can use the **Edit report** option to customize the visual display of reports. For example, modify the visual look of the data, such as to display a metric trend over time versus a tabular view. You can also create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports. More information: [Customize visual display](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service)
-
 ### Pause updates on report data
 
 Report data for all the reports is refreshed automatically in real time, except for Ongoing conversation report, which must be refreshed manually. You can use the **Pause updates** option to view and analyze real-time metrics at any point in time. You can reset the report data to be refreshed automatically by selecting **Resume updates**.
 
 ### See also
 
-[Configure real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md)  
-[View and understand the Summary report in Omnichannel real-time analytics](realtime-summary-dashboard.md)  
-[View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)  
-[View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md)  
-[View and understand the Ongoing Conversation report in Omnichannel real-time analytics](realtime-ongoing.md)  
+[Manage bookmarks](manage-bookmarks.md)  
+[Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service)  
+[Manage real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service-preview)    
+[View and understand the Summary report in Omnichannel real-time analytics (preview)](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics-preview)    
+[View and understand the Voice report in Omnichannel real-time analytics (preview)](realtime-voice-dashboard.md#view-and-understand-the-voice-report-in-omnichannel-real-time-analytics-preview)    
+[View and understand the Agents report in Omnichannel real-time analytics (preview)](realtime-agents-analytics.md#view-and-understand-the-agents-report-in-omnichannel-real-time-analytics-preview)    
+[View and understand the Ongoing Conversation report in Omnichannel real-time analytics (preview)](realtime-ongoing.md#view-and-understand-the-ongoing-conversation-report-in-omnichannel-real-time-analytics-preview)  
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

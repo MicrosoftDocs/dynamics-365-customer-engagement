@@ -1,5 +1,5 @@
 ---
-title: "Configure real-time analytics for supervisors | MicrosoftDocs"
+title: "Manage real-time analytics for supervisors | MicrosoftDocs"
 description: "Learn how to configure real-time analytics for Omnichannel for Customer Service."
 ms.date: 03/21/2023
 ms.topic: article
@@ -9,7 +9,7 @@ manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Configure real-time analytics reports in Omnichannel for Customer Service (preview)
+# Manage real-time analytics reports in Omnichannel for Customer Service (preview)
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

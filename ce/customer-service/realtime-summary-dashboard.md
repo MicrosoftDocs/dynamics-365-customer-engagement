@@ -48,7 +48,7 @@ You can view additional details about agent availability, when you select the **
 
 ### See also
 
-[Configure real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#configure-real-time-analytics-reports-in-omnichannel-for-customer-service-preview)
+[Manage real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service-preview)
 
 [Overview of Omnichannel real-time analytics reports (preview)](intro-realtime-analytics-dashboard.md)
 

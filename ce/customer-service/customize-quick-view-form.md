@@ -1,6 +1,6 @@
 ---
 title: "Customize quick view forms | MicrosoftDocs"
-description: "This topic provides procedural steps to customize the quick view forms present in the Customer Summary page in Omnichannel for Customer Service."
+description: "This topic provides procedural steps to customize the quick view forms present in the Active Conversation page in Omnichannel for Customer Service."
 ms.date: 10/05/2020
 ms.topic: article
 author: neeranelli
@@ -8,7 +8,6 @@ ms.author: nenellim
 manager: shujoshi
 ---
 # Customize quick view forms
-
 
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
@@ -45,7 +44,7 @@ The following procedure shows how to modify the **Customer profile** quick view 
 ### See also
 
 [Omnichannel system customizers](omnichannel-customizer.md)  
-[Customize Customer summary form](customize-customer-summary.md)   
+[Customize Active Conversation form](customize-customer-summary.md)   
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
