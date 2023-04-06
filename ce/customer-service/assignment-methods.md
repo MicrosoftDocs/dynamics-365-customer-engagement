@@ -21,17 +21,15 @@ Use assignment methods to determine how to assign work items. You can use the ou
 
 ## How auto assignment works
 
-The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles.
+The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles and default block size of work items.
 
-**For digital messaging and voice**:
+Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate agent. Work items that can't be assigned to agents because of unavailability of agents or right skill match not found are routed back to the queue. The next assignment cycle picks up another block of the top-priority items.
 
-Each cycle picks up the top unassigned work items in a default block of 100 items and attempts to match each work item with an appropriate agent. Work items that couldn't be assigned to agents because of unavailability of agents or right skill match not found is routed back to the queue. The next assignment cycle picks up another block of 100 top-priority items.
+When no eligible agents are found for the work items, the assignment cycle keeps retrying the top number of default sized block items as applicable for the channel.
 
-If no eligible agents are found for all the top 100 items in a queue, then each assignment cycle will keep retrying the top 100 items in that queue.
+For digital messaging and voice, the default block size is 100 work items of top priority.
 
-**For records channel**:
-
-The default block is 500 work items with the system's ability to prioritize 2000 work items.
+For records channel, each assignment cycle prioritizes up to 2000 work items and processes them in a block size of 500.
 
 ## Types of assignment methods
 
