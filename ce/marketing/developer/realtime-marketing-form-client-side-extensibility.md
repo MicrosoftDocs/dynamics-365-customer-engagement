@@ -100,7 +100,7 @@ Waiting for `DOMContentLoaded` can be inconvenient, especially for scenarios lik
 </html>
 ```
 
-### Injecting marketing form into a React application
+### Injecting a marketing form into a React application
 
 You can use marketing forms within React applications. The form loader exposes the `d365mktforms.FormPlaceholder` React component, which you can inject into your application.
 
