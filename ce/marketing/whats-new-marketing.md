@@ -84,7 +84,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
     - [Docs](real-time-marketing-add-cc-recipients.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot showing the carbon copy box in email tile properties.](media/whats-new-cc-on-email-campaigns.png "Screenshot showing the carbon copy box in email tile properties") 
+    > ![Screenshot showing the carbon copy box in email tile properties.](media/whats-new-cc-on-email-campaigns.png "Screenshot showing the carbon copy box in email tile properties")
 
 - **Prevent message fatigue by limiting the messages sent to a customer in a specific period**
     - Ensure that your customers receive the right message at the right moment and at the right frequency while preventing fatigue, minimizing unsubscribes, and facilitating optimal engagement with your key messages. Some customers qualify for multiple journeys and campaigns that run simultaneously, which may result in customers receiving multiple messages through one channel in a short period of time. Customers may perceive these messages as spam, which lowers their engagement. With the frequency cap feature, you can optimize engagement by controlling how many messages are sent across multiple channels over a period.
@@ -102,6 +102,9 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
 - **Review engagement history and tailor marketing efforts using contact insights**
     - Use contact insights in real-time marketing to gain a better understanding of your audience's behavior and interests, make informed decisions based on past engagement, and tailor your marketing efforts to their specific needs and preferences.
     - [Docs](real-time-marketing-analytics.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of contact insights.](media/whats-new-contact-insights.png "Screenshot of contact insights")
 
 - **Drive engagement with personalized content using data with one-to-many relationships**
     - Unlock even more data for personalization with ability to define dynamic text using data that requires traversing one-to-many relations. Consider a university alumni donation campaign where you would want to include the name of the college attended by each alum for driving maximum engagement. However, an alum might have attended multiple colleges in that university, resulting in a "one-to-many" relationship between student and college records. You can now define dynamic text for such data.
@@ -142,12 +145,10 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
 
 - **Support attachments in custom channel messages**
     - You can now personalize your communications even more by attaching images or other types of files to your custom channel messages. Build new channels like MMS and include images with your WhatsApp or Viber messages, making your customer interactions even more engaging.
-
     - [Docs](real-time-marketing-create-custom-channels.md)
 
 - **Expanded regional availability for Query Assist**
     - Query Assist, a copilot capability powered by generative AI that enables you to build segments using everyday words, is now available in EUR (Europe).
-
     - [Docs](real-time-marketing-natural-language.md)
 
 ### New blogs and scenario docs
@@ -302,7 +303,7 @@ This month, the new real-time marketing segment builder is generally available. 
     - [Docs](real-time-marketing-utm.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of automatic UTM tracking.](media/whats-new-utm-tracking.png "Screenshot of automatic UTM tracking")
+    > ![Screenshot showing automatic UTM tracking.](media/whats-new-utm-tracking.png "Screenshot showing automatic UTM tracking")
 
 ### Monthly enhancements
 
