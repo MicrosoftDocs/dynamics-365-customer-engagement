@@ -1,7 +1,7 @@
 ---
-title: "Preview: Limit the number of messages sent with frequency capping (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Limit the number of messages sent with frequency capping (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to limit the number of messages sent to your customers to prevent message fatigue."
-ms.date: 03/29/2023
+ms.date: 04/06/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,13 +17,9 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Limit the number of messages sent with frequency capping
+# Limit the number of messages sent with frequency capping
 
-> [!Important]
->
-> A preview feature is a feature that is not yet complete but is made available to customers > to get early access before it’s officially included in a release  and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
->
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to assist you with issues or questions. Preview features aren’t meant for production use, particularly when processing personal data or other data subject to legal or regulatory compliance requirements.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW10LWN]
 
 The frequency cap feature lets you set a limit on the number of messages your customers receive in a given amount of time through a particular channel. Some customers qualify for multiple journeys and campaigns that run simultaneously. This results in them receiving multiple messages through one channel in a short period of time. This can be perceived as spam and lower the customers' engagement with your messages. With the frequency cap feature, you can optimize engagement by controlling how many messages are sent across multiple channels over a period of time. This improves engagement, decreases unsubscriptions, and reduces the number of messages marked as spam over time.
 
