@@ -20,15 +20,15 @@ ms.custom:
 
 # Get started with Customer Service workspace
 
-The Dynamics 365 Customer Service workspace app helps increase agent productivity with a browser-like tabbed experience that lets agents work on multiple cases and conversations using the same app. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. 
+Dynamics 365 Customer Service workspace helps agents increase productivity with a browser-like, tabbed experience. Agents can use the app to work on multiple cases and conversations. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. 
 
-The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent productivity. Features such as agent scripts and macros provide agents guidance and resources to automate repetitive tasks to achieve a great customer experience.
+The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent productivity. Features such as agent scripts and macros provide agents with guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
 For more information about licensing and system requirements, see [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
 
 **Set up Omnichannel in Customer Service workspace** 
 
-You can set up your Customer Service workspace environment so that agents working on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
+You can set up your Customer Service workspace environment so that agents who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
 
 
 :::image type="content" source="media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace"::: 
@@ -37,7 +37,7 @@ You can set up your Customer Service workspace environment so that agents workin
 ## Customer Service workspace sessions and tabs
 
 Customer Service workspace allows agents to work on multiple sessions at a time in a single app while keeping the work organized.
-Agents can work on up to nine sessions and within a session, they can open up to ten tabs. A new session is launched, when an agent opens a case from the **Home** session or the agent accepts an incoming conversation. If the agent opens the customer record from a session, a new tab opens in the same session. 
+Agents can work on up to nine sessions and within a session, they can open up to 10 tabs. A new session is launched when an agent opens a case from the **Home** session or accepts an incoming conversation. If the agent opens the customer record from a session, a new tab opens in the same session. 
 
 ### Navigate sessions and tabs
 
@@ -47,7 +47,7 @@ Agents can work on up to nine sessions and within a session, they can open up to
 | ------------ |------------- |
 | Open a record from the Home session | Record opens in a new session. |
 | Open a record from the Global search | Record opens in a new session. |
-| Open a record from the retrieved search records | Record opens in a focussed session. |
+| Open a record from the retrieved search records | Record opens in a focused session. |
 | Open a record using the Quick Create notification | Record opens in a new session |
 | Create a new record | Record opens in a new session |
 | Open a record from the timeline | Record opens in a new tab in the focused session |
@@ -66,9 +66,32 @@ More information: [Configure the inbox view](configure-inbox.md)
 
 ### Use the productivity pane with Smart Assist
 
-While you're working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that could be relevant. You'll also see agent scripts that guide you through a consistent series of steps with potentially automated actions through macros.
+When you work on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that could be relevant. You'll also see agent scripts that guide you through a consistent series of steps with potentially automated actions through macros.
 
 More information: [Productivity pane](csw-productivity-pane.md)
+
+
+### View the agent calendar (preview)
+
+As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your work hours, non-work hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly views. It also has an agenda view lets you see a list-type view of your schedule. 
+
+1. In Customer Service workspace, select the **Customer Service Agent Dashboard** page from the **System Dashboards** dropdown menu.
+
+1. In the site map, select the plus (+) icon, and then select **My Schedule** from the dropdown menu.
+
+   :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the dropdown menu with the calendar option selected.":::
+
+   The **My Schedule** page opens with a read-only calendar view of the work hours, non-work hours, and any time off you've scheduled. Use the command bar at the top to change the view to agenda, daily, weekly, or monthly.
+
+   :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
+
+## Work with cases, activities, knowledge articles, and email templates
+
+On the Customer Service Agent Dashboard, here are some of the actions you can do:
+
+- View cases and activities assigned to you
+- View cases available to work on
+- Create, delete, and filter cases and activities from the workspace
 
 ### Customize the agent experience with Customer Service admin center
 
@@ -76,19 +99,13 @@ Agent experience profiles enable you to create targeted app experiences for agen
 
 More information: [Agent experience profiles](/dynamics365/app-profile-manager/overview)
 
-### View the agent calendar 
-
-View your working, no-working hours, and any scheduled time-off requests on **My schedule**.
-
-More information: [View the agent calendar (preview)](use-agent-calendar.md)
-
 ## Considerations
 
 Here are a few things to note when you use Customer Service workspace in your organization:
 
--We recommend that you have only one browser instance accessing the app.
--  The results of navigation actions when you use the app or the `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs are the same.
-- You can open sessions and tabs using Microsoft.Apm APIs. For more information: [App profile manager JavaScript API Reference](../app-profile-manager/reference/microsoft-apm.md)
+- We recommend that you have only one browser instance accessing the app.
+- The results of navigation actions when you use the app or the `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs are the same.
+- You can open sessions and tabs using Microsoft.Apm APIs. More information: [App profile manager JavaScript API Reference](../app-profile-manager/reference/microsoft-apm.md)
 
 ### Limitations
 
