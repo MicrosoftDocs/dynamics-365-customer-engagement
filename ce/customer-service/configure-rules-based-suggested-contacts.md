@@ -1,11 +1,12 @@
 ---
 title: "Configure rules-based suggested contacts when starting a Microsoft Teams chat in Dynamics 365 Customer Service | Microsoft Docs"
 description: "Learn how to configure the ability to use rules-based suggested contacts."
-ms.date: 02/14/2023
+ms.date: 04/05/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+ms.reviewer: shujoshi
 ---
 
 # Configure rules-based suggestions for contacts in Microsoft Teams
@@ -36,7 +37,7 @@ A maximum of 10 rules are supported per record type.
 
 1. On the **Microsoft Teams collaboration and chat** page, set the toggle for **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** to **Yes**.
 
-1. To get suggested contacts for active cases or supported conversations, perform the following steps:
+1. To get suggested contacts for any record type, perform the following steps:
    
    1. In **Connect chat to Dynamics 365 records**, select record type for which you want to enable rules-based suggested contacts. Based on your selection, the relative settings pane appears on the right.
 
@@ -57,8 +58,8 @@ A maximum of 10 rules are supported per record type.
 1. On the settings pane, in the **Update rules for suggesting contacts** section, select **Add new rule**. The **Add rule** pane is displayed for the record type you selected.
 1. Type a **Rule name** for the rule. The name you enter will be displayed on the contact, and it will also appear in the rule list.
 1. Select from the following **Rule type** options:
-   - **Relational**: Suggest a user who has a relationship with the linked record type or one of its related records. You can select up to ten related entities for each record type.
-   - **Custom**: You can use your own custom logic with a record type, and then apply it. More information: 
+   - **Relational**: Suggest a user who has a relationship with the linked record type or one of its related records. In the rule settings section, the dropdown will allow the selection of a user directly on the record type for which you're creating a rule or an entity that's related to it. You can select up to 10 related entities, each one being associated with the previous selection. Once you've selected a user, either on the record type or related entity/entities, you can save the rule.
+   - **Custom**: You can use your own custom logic with a record type, and then apply it.
 
 1. Select **Save**.
 
