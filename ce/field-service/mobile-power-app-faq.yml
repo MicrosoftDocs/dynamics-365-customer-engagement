@@ -162,23 +162,11 @@ sections:
           4. Save and publish.
           
           Note: When using the legacy form designer, there's a restriction of only one text field per tab can autoexpand. Switch to the modern designer to enable more than one field.
-  
-        - question: |
-          How can I enable multiline text fields on forms to automatically expand based on the amount of content entered?
+
+      - question: |
+         When working in the mobile application, why do users sometimes see “Validations have been restarted in the background…”?
         answer: |
-          To enable auto-expanding fields:
-          1. Enter the form designer interface for the entity that contains the multiline text field you want to auto-expand.
-          2. Select the desired multiline text field.
-          3. Within field properties, select the option "Automatically expand to use available space."
-          4. Save and publish.
-          
-          Note: When using the legacy form designer, there's a restriction of only one text field per tab can autoexpand. Switch to the modern designer to enable more than one field.
-  
-        - question: |
-         When working in the mobile application our users sometimes see an error, “Validatiosn have been restarted in the background…”?
-       answer: |
-        This error is commonly caused by a timing issue when using synchronous OnSave events.  From Field Service version [3.3 version#], the Field Service (D365) Mobile app moved to use AsyncOnSave to mitigate validation errors for out of box scripts.
-        If users continue to see this error, custom validations can be evaluated and moved to use OnChange events. 
+         This error is commonly caused by a timing issue when using synchronous OnSave events. The current version of the Field Service (Dynamics 365) Mobile app uses AsyncOnSave to mitigate validation errors for out-of-box scripts. If users continue to see this error, evaluate custom validations and use OnChange events.
 
   - name: Other
     questions:       
