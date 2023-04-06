@@ -1,11 +1,12 @@
 ---
 title: "Configure an Apple Messages for Business channel | MicrosoftDocs"
 description: "This article provides steps to configure an Apple Messages for Business channel and corresponding Apple pages in Omnichannel for Customer Service."
-ms.date: 07/18/2022
+ms.date: 04/05/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+ms.reviewer: shujoshi
 ---
 
 # Configure an Apple Messages for Business channel
@@ -13,7 +14,7 @@ manager: shujoshi
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 
-Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a new way to apply iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of getting their issues resolved when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window is closed.
+Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a new way to apply iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of resolving their issues when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window is closed.
 
 Apple Messages for Business supports rich messaging experiences, allowing customer and agents to converse through convenient and engaging interactions. More information: [Introduction to Messages for Business - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/business-chat/overview/introduction/)
 
@@ -27,19 +28,19 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
 
    | Geo location   | API Endpoint URL|
    |-------------|---------|
-   | Asia-Pacific | https://dynamics365-omnichannel-apac.omnichannelengagementhub.com/applemessagesforbusiness |
-   | Australia | https://dynamics365-omnichannel-aus.omnichannelengagementhub.com/applemessagesforbusiness |
-   | Canada | https://dynamics365-omnichannel-can.omnichannelengagementhub.com/applemessagesforbusiness |
-   | Europe | https://dynamics365-omnichannel-eur.omnichannelengagementhub.com/applemessagesforbusiness |
-   | France | https://dynamics365-omnichannel-fra.omnichannelengagementhub.com/applemessagesforbusiness |
-   | Germany | https://dynamics365-omnichannel-ger.omnichannelengagementhub.com/applemessagesforbusiness |
-   | India | https://dynamics365-omnichannel-ind.omnichannelengagementhub.com/applemessagesforbusiness |
-   | Japan | https://dynamics365-omnichannel-jpn.omnichannelengagementhub.com/applemessagesforbusiness |
-   | North America | https://dynamics365-omnichannel-nam.omnichannelengagementhub.com/applemessagesforbusiness |
-   | South America | https://dynamics365-omnichannel-sam.omnichannelengagementhub.com/applemessagesforbusiness |
-   | Switzerland | https://dynamics365-omnichannel-che.omnichannelengagementhub.com/applemessagesforbusiness |
-   | United Arab Emirates | https://dynamics365-omnichannel-uae.omnichannelengagementhub.com/applemessagesforbusiness |
-   | United Kingdom | https://dynamics365-omnichannel-uk.omnichannelengagementhub.com/applemessagesforbusiness | 
+   | Asia-Pacific |  ```https://dynamics365-omnichannel-apac.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | Australia | ```https://dynamics365-omnichannel-aus.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | Canada | ```https://dynamics365-omnichannel-can.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | Europe | ```https://dynamics365-omnichannel-eur.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | France | ```https://dynamics365-omnichannel-fra.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | Germany | ```https://dynamics365-omnichannel-ger.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | India | ```https://dynamics365-omnichannel-ind.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | Japan | ```https://dynamics365-omnichannel-jpn.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | North America | ```https://dynamics365-omnichannel-nam.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | South America | ```https://dynamics365-omnichannel-sam.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | Switzerland | ```https://dynamics365-omnichannel-che.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | United Arab Emirates | ```https://dynamics365-omnichannel-uae.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | United Kingdom | ```https://dynamics365-omnichannel-uk.omnichannelengagementhub.com/applemessagesforbusiness``` | 
 
 
 ## Configure an Apple Messages for Business channel instance in Omnichannel admin center
@@ -48,7 +49,7 @@ To add the Apple Messages for Business channel instance, complete the following 
 
 1. In the Omnichannel site map, select **Channels** under **General settings**, and then on the **Accounts and channels** page, select **Add account**.
 
-1. On the **Channel details** page, enter a name and select Apple Messages for Business in **Channels**.
+1. On the **Channel details** page, enter a name and select **Apple Messages for Business** in **Channels**.
 
 1. On the **Add account** page, specify the Apple Messages for Business account ID. To get the account ID, go to your organization's Apple Business Register, open the Messages for Business account, navigate to the Messaging Service Provider configuration and select **Test your Messaging Service Provider connection**, and copy the account ID by selecting **Copy ID**.
    > [!Note]
@@ -65,7 +66,7 @@ To add the Apple Messages for Business channel instance, complete the following 
      1. On the **Behaviors** page, configure the following options:<br>
         - **Custom automated messages**<br>
         - [**Post-conversation survey**](configure-post-conversation-survey.md)<br>
-        - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. More information: [Authentication Settings]().<br>
+        - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. There are two flows to choose from: OAuth 2.0 code flow or OAuth 2.0 OpenID connect flow. More information: [Authentication settings for Apple Messages for Business](create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business).<br>
      
       1. On the **User features** page, configure the following options:<br>
            - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).<br>
@@ -80,8 +81,8 @@ To add the Apple Messages for Business channel instance, complete the following 
 1. Optionally, you can add a bot. Skip this step if your conversations are handled by human agents only. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
 
 1. In **Advanced settings**, configure the following options based on your business needs:<br>
-      - [Sessions](/app-profile-manager/session-templates.md)<br>
-      - [Agent notifications](/app-profile-manager/notification-templates#out-of-the-box-notification-templates.md)<br>
+      - [Sessions](../app-profile-manager/session-templates.md)<br>
+      - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)<br>
       - [Context variables](manage-context-variables.md#add-context-variables)<br>
       - [Smart assist bots](smart-assist-bot.md)<br>
       - [Quick replies](create-quick-replies.md)<br>
@@ -89,11 +90,11 @@ To add the Apple Messages for Business channel instance, complete the following 
 
 ## Configure authentication settings
 
-Perform the steps mentioned in [Create Apple Messages for Business authentication settings - OAuth 2.0 code flow prerequisites](create-chat-auth-settings.md) to configure authentication settings.
+Perform the steps in [Create Apple Messages for Business authentication settings](create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business) to configure authentication settings.
 
 ## Configure payment profiles for Apple Pay
 
-Perform the steps in [Configure payment profiles](configure-payment-profiles.md) to configure the profile profiles.
+Perform the steps in [Configure payment profiles](configure-payment-profiles.md) to configure the profile.
 
 ## Create rich messages
 

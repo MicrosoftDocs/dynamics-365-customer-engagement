@@ -1,5 +1,5 @@
 ---
-title: "Preview: Business unit support in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Business unit support in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use business unit support in Dynamics 365 Marketing."
 ms.date: 01/27/2023
 ms.custom: 
@@ -17,13 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Business unit support in real-time marketing
-
-> [!Important]
->
-> A preview feature is a feature that is not yet complete but is made available to customers > to get early access before it’s officially included in a release  and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
->
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to assist you with issues or questions. Preview features aren’t meant for production use, particularly when processing personal data or other data subject to legal or regulatory compliance requirements.
+# Business unit support in real-time marketing
 
 Business unit scoping in real-time marketing can be enabled at an environment level by an administrator. Once this feature is enabled, all real-time journeys and segments created within the environment will be automatically scoped to the record owner’s business unit.
 
