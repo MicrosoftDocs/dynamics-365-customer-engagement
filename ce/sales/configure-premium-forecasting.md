@@ -74,6 +74,7 @@ The flow chart provides a visual representation of how the forecast changes betw
 
 ### See also
 
+[System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Take snapshots automatically](manage-snapshots-forecast.md)<br>
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)<br>
 [Blog: Predictive sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/02/26/predictive-sales-forecasting-in-dynamics-365-sales/)

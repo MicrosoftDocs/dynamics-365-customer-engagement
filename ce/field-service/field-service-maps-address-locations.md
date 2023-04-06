@@ -1,7 +1,7 @@
 ---
 title: Enable location and map settings
 description: Learn all about location and map settings and how to enable them in Dynamics 365 Field Service.
-ms.date: 11/30/2022
+ms.date: 03/29/2023
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
@@ -54,7 +54,7 @@ For more information, see [Turn on auto geocoding to calculate estimated travel 
 
 ## Enable address suggestions
 
-Address recommendations on account, work order, and booking forms let you quickly enter addresses. Recommendations help ensure accuracy and reduce errors. You can [enable address recommendations](configure-default-settings.md#other-settings) in the settings.
+Address recommendations on account, work order, and booking forms let you quickly enter addresses. Recommendations help ensure accuracy and reduce errors. You can [enable address recommendations](configure-default-settings.md#other-settings) in the settings. Address recommendations are for use on account, work order, and booking forms. It's not available for customization or use on other forms and is hidden during form editing.
 
 :::image type="content" source="media/address-suggestion.png" alt-text="Screenshot of a new work order in Field Service, showing address suggestions in a dropdown menu.":::
 

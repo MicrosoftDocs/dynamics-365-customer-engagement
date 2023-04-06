@@ -14,15 +14,17 @@ ms.topic: article
 
 When no records are linked to the conversation in Omnichannel for Customer Service, you can create a record. You can create a record in one of the following ways:
 
-- Create a record from the **Customer summary** page
+- Create a record from the **Active Conversation** page
 - Create a record using the **Quick Create** option
 - Create a record using the **New** option
 
-## Create a record from the Customer summary page
+## Create a record from the Active Conversation page
 
-In the Customer summary page and on the customer and case forms, you'll see an option to create a new record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record, and the record is auto-linked to the conversation.
+In the **Active Conversation** page and on the customer and case forms, you'll see an option to create a new record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record, and the record is auto-linked to the conversation.
 
-To create a record from the **Customer summary** page:
+Depending on your administrator's settings, you'll see the enhanced **Active Conversation** or the default **Active Conversation** page.
+
+To create a record from the **Active Conversation** page:
 
 1. Select an option in the Customer or Case section based on the record you want to create. After you select the option, a form opens in an application tab panel.
     
@@ -32,9 +34,7 @@ To create a record from the **Customer summary** page:
     | New Contact | Customer | Select this option to create a new contact record |
     | New Case | Case | Select this option to create a new case record |
 
-    > [!div class=mx-imgBorder]
-    > ![Create account, contact, and case.](media/customer-summary-create-record.PNG "Create account, contact, and case")
-
+   :::image type="content" source="media/customer-summary-create-record.PNG" alt-text="Create account, contact, and case" :::
 
 2. Specify the details in the form fields.
 
@@ -43,10 +43,7 @@ To create a record from the **Customer summary** page:
     > [!div class=mx-imgBorder]
     > ![Fill in the form.](media/customer-summary-create-new-contact.PNG "Fill in the form")
 
-After you save, the record is automatically linked to the conversation. when you switch to the Customer summary page, you can view the auto-linked record.
-
-   > [!div class=mx-imgBorder]
-   > ![Automatic linking of the record.](media/customer-summary-customer-card-linked.PNG "Automatic linking of the record")
+After you save, the record is automatically linked to the conversation. When you switch to the **Active Conversation** page, you can view the auto-linked record.
 
 If you create the account or contact first and then start to create a case record, the case form shows the linked customer name in the **Customer** field.
 
@@ -81,7 +78,7 @@ After you save the changes, you can link the record to the conversation. To lear
 
 ## Create a record using the New option
 
-In the **Customer summary** page, when you are trying to search a record in customer or case section, after you type few characters to search, you can use the inline **New** button to create a record. After you select the button, the **Quick Create** pane of the record appears.
+In the **Active Conversation** page, when you are trying to search a record in customer or case section, after you type few characters to search, you can use the inline **New** button to create a record. After you select the button, the **Quick Create** pane of the record appears.
 
 1. Type to search in the search box. The records appear as a list that matches your search criteria.
 
@@ -90,7 +87,7 @@ In the **Customer summary** page, when you are trying to search a record in cust
     > [!div class=mx-imgBorder]
     > ![Quick create record.](media/customer-summary-search-section-create-case.png "Quick create record")
 
-3. Fill in the form and select **Save and Close**. The **Quick Create** pane closes and the **Customer summary** page refreshes. The record you created is auto-linked in the customer or case section.
+3. Fill in the form and select **Save and Close**. The **Quick Create** pane closes and the **Active Conversation** page refreshes. The record you created is auto-linked in the customer or case section.
 
     > [!div class=mx-imgBorder]
     > ![Auto-link record.](media/customer-summary-search-section-auto-link-case.png "Auto-link record")
@@ -98,9 +95,9 @@ In the **Customer summary** page, when you are trying to search a record in cust
 ### See also
 
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)  
-- [View customer summary and know everything about customers](oc-customer-summary.md)  
+- [View customer information on Active Conversation form](oc-customer-summary.md)  
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)  
-- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+- [View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

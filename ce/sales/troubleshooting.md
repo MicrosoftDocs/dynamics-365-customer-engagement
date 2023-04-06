@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Sales troubleshooting guide  | MicrosoftDocs"
 description: "A starting point for browsing troubleshooting content for Dynamics 365 Sales."
-ms.date: 10/08/2021
+ms.date: 03/29/2023
 ms.topic: landing-page
 author: lavanyakr01
 ms.author: lavanyakr
