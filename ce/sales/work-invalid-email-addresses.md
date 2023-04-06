@@ -5,7 +5,6 @@ ms.date: 09/30/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Work with invalid email addresses (preview)

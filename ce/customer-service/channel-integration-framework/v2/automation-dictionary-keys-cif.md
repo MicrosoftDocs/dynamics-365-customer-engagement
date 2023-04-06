@@ -5,7 +5,6 @@ ms.date: 11/19/2020
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Use automation dictionary to pass data parameter keys

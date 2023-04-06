@@ -13,7 +13,6 @@ applies_to:
 ms.assetid: 872b735a-9c80-4e4e-8c04-61f8ce6836df
 author: mayadumesh
 ms.author: mayadu
-manager: amyla
 search.audienceType:
   - developer
 ---

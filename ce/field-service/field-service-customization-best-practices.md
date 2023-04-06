@@ -6,9 +6,6 @@ ms.date: 1/20/2022
 ms.topic: article
 author: lmasieri
 ms.author: lmasieri
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Customization best practices

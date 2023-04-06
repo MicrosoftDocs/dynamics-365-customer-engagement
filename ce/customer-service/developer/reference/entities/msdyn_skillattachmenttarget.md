@@ -5,12 +5,8 @@ ms.date: 10/12/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
-manager: "shujoshi"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ms.reviewer: nenellim
 ---
 # msdyn_skillattachmenttarget Entity Reference

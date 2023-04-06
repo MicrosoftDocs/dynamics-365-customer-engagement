@@ -6,7 +6,6 @@ ms.custom: intro-internal
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 # Analyze your sales data by using Power BI template apps 
 

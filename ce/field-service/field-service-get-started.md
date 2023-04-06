@@ -5,9 +5,6 @@ ms.date: 03/14/2023
 author: jshotts
 ms.author: jasonshotts
 ms.custom: get-started
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Get started

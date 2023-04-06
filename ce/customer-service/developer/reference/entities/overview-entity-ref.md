@@ -5,7 +5,6 @@ ms.date: 10/27/2022
 ms.topic: overview
 author: "gandhamm"
 ms.author: mgandham
-manager: "shujoshi"
 
 ---
 # Omnichannel for Customer Service entity reference 

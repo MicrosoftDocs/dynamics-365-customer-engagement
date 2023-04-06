@@ -5,7 +5,6 @@ ms.date: 08/31/2021
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Personas and privileges

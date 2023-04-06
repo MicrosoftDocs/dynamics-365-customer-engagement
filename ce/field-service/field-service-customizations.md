@@ -11,9 +11,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: lmasieri
 ms.author: lmasieri
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Configure Dynamics 365 Field Service for your unique business needs

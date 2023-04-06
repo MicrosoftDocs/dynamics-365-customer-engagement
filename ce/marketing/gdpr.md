@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: reference
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Data protection and the GDPR

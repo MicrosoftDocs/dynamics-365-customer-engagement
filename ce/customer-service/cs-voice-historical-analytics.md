@@ -6,7 +6,6 @@ ms.custom:
 ms.date: 04/04/2022
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 
 ms.topic: article
 

@@ -5,7 +5,6 @@ ms.date: 07/15/2019
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Start a chat
 

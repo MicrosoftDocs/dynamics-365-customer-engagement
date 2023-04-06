@@ -8,14 +8,10 @@ ms.custom:
   - dyn365-marketing
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Troubleshoot domain authentication errors

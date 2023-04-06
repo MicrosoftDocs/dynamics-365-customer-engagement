@@ -3,7 +3,6 @@ title: "View active conversation for an incoming conversation request | Microsof
 description: "Learn how to view active conversation of incoming conversation requests for customer records in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # View active conversation for an incoming conversation request

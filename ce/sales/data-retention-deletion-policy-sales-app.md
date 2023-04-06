@@ -6,7 +6,6 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Data retention and access through Privacy settings in Sales Hub app
 

@@ -5,7 +5,6 @@ ms.date: 10/21/2021
 ms.topic: reference
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 # Display custom context
 

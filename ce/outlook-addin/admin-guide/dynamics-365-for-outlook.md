@@ -14,14 +14,10 @@ ms.assetid: ae7a0418-73fc-476f-8fa5-dc6505273ea1
 caps.latest.revision: 18
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Dynamics 365 for Outlook Administrator Guide
 

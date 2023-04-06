@@ -16,9 +16,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 
 

@@ -14,7 +14,6 @@ ms.assetid: d3ea30ab-e55e-4aa7-8406-3441c71903a2
 caps.latest.revision: 16
 author: KumarVivek
 ms.author: kvivek
-manager: KumarVivek
 search.audienceType:
   - developer
 ---

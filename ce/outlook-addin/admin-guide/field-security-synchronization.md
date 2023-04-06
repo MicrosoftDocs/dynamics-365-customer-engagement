@@ -14,14 +14,10 @@ ms.assetid: 5df0b13a-846a-4822-83cc-8efaaf3395fb
 caps.latest.revision: 13
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # How field security affects synchronization between Dynamics 365 apps and Dynamics 365 for Outlook
 Securing a field in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] with field level security can impact synchronization between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. Consider the following scenario.  

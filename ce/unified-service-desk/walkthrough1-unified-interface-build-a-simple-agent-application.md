@@ -5,13 +5,9 @@ ms.date: 12/31/2019
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ---
 
 # Walkthrough 1: Build a simple agent application for Unified Interface apps

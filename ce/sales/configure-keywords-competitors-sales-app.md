@@ -6,7 +6,6 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Configure conversation content in Sales Hub app    

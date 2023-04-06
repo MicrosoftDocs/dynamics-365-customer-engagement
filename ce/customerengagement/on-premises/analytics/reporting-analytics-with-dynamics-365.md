@@ -14,7 +14,6 @@ ms.assetid: df6a8d7a-db0d-4860-8a65-039f2ddab50d
 caps.latest.revision: 33
 author: Mattp123
 ms.author: matp
-manager: kvivek
 tags: 
   - MigrationHO
 search.audienceType: 

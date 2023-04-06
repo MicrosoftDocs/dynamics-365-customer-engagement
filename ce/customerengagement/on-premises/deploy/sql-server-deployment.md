@@ -14,7 +14,6 @@ ms.assetid: 90fd46d5-66be-4465-9a37-ba4ee99be386
 caps.latest.revision: 35
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # SQL Server deployment
 

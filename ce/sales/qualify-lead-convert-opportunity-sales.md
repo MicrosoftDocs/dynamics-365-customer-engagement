@@ -5,7 +5,6 @@ ms.date: 03/29/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro

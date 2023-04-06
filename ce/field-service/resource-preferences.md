@@ -5,9 +5,6 @@ ms.date: 02/23/2023
 ms.topic: conceptual
 author: ryanchen8
 ms.author: chenryan
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Choose preferred resources for requirements

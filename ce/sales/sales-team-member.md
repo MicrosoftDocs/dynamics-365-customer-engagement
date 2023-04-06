@@ -5,7 +5,6 @@ ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Sales Team Member app for users with Team Member license 
 

@@ -5,9 +5,6 @@ ms.date: 03/14/2023
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-search.app:
-  - D365CE
-  - D365FS
 ---
 
 # Dynamics 365 Field Service version history

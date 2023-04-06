@@ -5,7 +5,6 @@ ms.date: 04/05/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 

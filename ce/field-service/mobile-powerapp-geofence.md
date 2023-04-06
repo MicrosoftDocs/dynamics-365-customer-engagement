@@ -9,9 +9,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Geofencing for the Dynamics 365 Field Service mobile app

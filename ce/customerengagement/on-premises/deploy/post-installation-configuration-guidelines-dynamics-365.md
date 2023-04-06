@@ -13,7 +13,6 @@ ms.assetid: 6f6a7fc0-f9cf-4602-bd6c-4b4924185644
 caps.latest.revision: 61
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Post-installation and configuration guidelines for Microsoft Dynamics 365
 

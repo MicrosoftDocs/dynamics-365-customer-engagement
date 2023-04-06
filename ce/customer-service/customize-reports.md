@@ -5,15 +5,11 @@ ms.date: 10/03/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Customize visual display of historical analytics reports in Customer Service
