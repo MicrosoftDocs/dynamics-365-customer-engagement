@@ -11,7 +11,7 @@ ms.reviewer: shujoshi
 
 # Configure rules-based suggestions for contacts in Microsoft Teams
 
-Agents can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable rules-based suggested contacts to be displayed when an agent starts a new connected chat. This feature can help agents in your organization to quickly find the right coworkers to collaborate with.
+Agents can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable rules-based suggested contacts that are displayed when an agent starts a new connected chat. This feature can help agents in your organization to quickly find the right coworkers to collaborate with.
 
 A maximum of 10 rules are supported per record type.
 
@@ -42,8 +42,6 @@ A maximum of 10 rules are supported per record type.
    1. In **Connect chat to Dynamics 365 records**, select record type for which you want to enable rules-based suggested contacts. Based on your selection, the relative settings pane appears on the right.
 
    2. In **Suggest contacts**, turn on the toggle for **Rules-based suggested contacts**.
-
-    :::image type="content" source="media/configure-suggest-contact.png" alt-text="Settings page to turn on or off the rules-based suggested contacts feature.":::
 
 1. In the **Update rules for suggesting contacts** section, reorder or disable the rules for suggesting contacts. Users will see the suggestions in the order you choose.
 
