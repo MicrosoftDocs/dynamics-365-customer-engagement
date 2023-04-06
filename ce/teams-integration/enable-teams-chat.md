@@ -55,9 +55,9 @@ You must be a global administrator (tenant administrator) to enable Teams chat s
 1.	In the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), select an environment.
 2.	On the command bar, select **Settings** > **Integration** > **Teams integration settings**.
 3.	On the **Microsoft Teams collaboration and chat** page, turn on **Sync Teams chat data with Dynamics 365 records**.
+4.	Save the changes.
 
-> [!IMPORTANT]
-> The Dataverse Chat Sync app requires [Resource Specific Consent](/microsoftteams/platform/graph-api/rsc/resource-specific-consent) (RSC) for chat owners to be enabled in Teams. This feature is enabled by default but may have been disabled. More information: [Enable resource-specific consent in Teams](/microsoftteams/platform/graph-api/rsc/resource-specific-consent#configure-chat-owner-consent-settings-for-rsc-in-a-chat-using-the-microsoft-graph-apis).
+The feature is now enabled for all the customer engagement apps. 
 
 ### Sync of chat data from Teams to Dynamics 365
 
