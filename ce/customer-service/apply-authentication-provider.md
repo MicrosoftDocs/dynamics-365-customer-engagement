@@ -65,4 +65,4 @@ If you're using an application as identity provider for your website as the reso
 
 ## Next steps
 
-For more information on adding integrated search providers, go to [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview)
+For more information on adding integrated search providers, go to [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview).

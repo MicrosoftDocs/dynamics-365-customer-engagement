@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/24/2023
+ms.date: 04/06/2023
 ms.custom: bap-template
 ---
 
@@ -129,7 +129,7 @@ activate and then select **Activate**.
 
 ## Configure search providers as search filters
 
-Configure search providers as filters to view knowledge articles only from selected data providers. The filter works only if you have Dataverse Search enabled.
+Configure search providers as filters to search knowledge articles only from selected data providers. The filter works only if you have Dataverse Search enabled.
 
 To configure search providers as search filters for knowledge articles:
 
@@ -146,6 +146,6 @@ If you select a deactivated data search provider, you won't see any search resul
 
 ## Next Steps
 
- [View and use insights for search providers](view-and-use-insights.md).
+ [View and use insights for search providers](view-and-use-insights.md)
 
- [Search knowledge articles](search-knowledge-articles-csh.md#search-knowledge-articles).
+ [Search knowledge articles](search-knowledge-articles-csh.md#search-knowledge-articles)
