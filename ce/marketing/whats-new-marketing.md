@@ -84,7 +84,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
     - [Docs](real-time-marketing-add-cc-recipients.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot showing the carbon copy box in email tile properties.](media/whats-new-cc-on-email-campaigns.png "Screenshot showing the carbon copy box in email tile properties") 
+    > ![Screenshot showing the carbon copy box in email tile properties.](media/whats-new-cc-on-email-campaigns.png "Screenshot showing the carbon copy box in email tile properties")
 
 - **Prevent message fatigue by limiting the messages sent to a customer in a specific period**
     - Ensure that your customers receive the right message at the right moment and at the right frequency while preventing fatigue, minimizing unsubscribes, and facilitating optimal engagement with your key messages. Some customers qualify for multiple journeys and campaigns that run simultaneously, which may result in customers receiving multiple messages through one channel in a short period of time. Customers may perceive these messages as spam, which lowers their engagement. With the frequency cap feature, you can optimize engagement by controlling how many messages are sent across multiple channels over a period.
@@ -303,7 +303,7 @@ This month, the new real-time marketing segment builder is generally available. 
     - [Docs](real-time-marketing-utm.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of automatic UTM tracking.](media/whats-new-utm-tracking.png "Screenshot of automatic UTM tracking")
+    > ![Screenshot showing automatic UTM tracking.](media/whats-new-utm-tracking.png "Screenshot showing automatic UTM tracking")
 
 ### Monthly enhancements
 
