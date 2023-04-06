@@ -1322,12 +1322,16 @@
         href: developer/reference/entities/msdyn_actioninputparameter.md
       - name: msdyn_actionoutputparameter
         href: developer/reference/entities/msdyn_actionoutputparameter.md
+      - name: msdyn_agentcapacityprofileunit
+        href: developer/reference/entities/msdyn_agentcapacityprofileunit.md         
       - name: msdyn_agentcapacityupdatehistory
         href: developer/reference/entities/msdyn_agentcapacityupdatehistory.md        
       - name: msdyn_agentscript
         href: developer/reference/entities/msdyn_agentscript.md
       - name: msdyn_agentscriptstep
         href: developer/reference/entities/msdyn_agentscriptstep.md
+      - name: msdyn_agentstatus
+        href: developer/reference/entities/msdyn_agentstatus.md         
       - name: msdyn_agentstatushistory
         href: developer/reference/entities/msdyn_agentstatushistory.md        
       - name: msdyn_analytics
