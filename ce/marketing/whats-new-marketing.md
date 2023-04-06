@@ -145,12 +145,10 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
 
 - **Support attachments in custom channel messages**
     - You can now personalize your communications even more by attaching images or other types of files to your custom channel messages. Build new channels like MMS and include images with your WhatsApp or Viber messages, making your customer interactions even more engaging.
-
     - [Docs](real-time-marketing-create-custom-channels.md)
 
 - **Expanded regional availability for Query Assist**
     - Query Assist, a copilot capability powered by generative AI that enables you to build segments using everyday words, is now available in EUR (Europe).
-
     - [Docs](real-time-marketing-natural-language.md)
 
 ### New blogs and scenario docs
