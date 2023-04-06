@@ -1,12 +1,13 @@
 ---
 title: View, edit, or add a note in the Dynamics 365 Sales mobile app
 description: Instructions to view, edit, or add a note in the Dynamics 365 Sales mobile app
-ms.date: 04/25/2022
+ms.date: 03/31/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
+
 # Manage notes 
 
 You can see the notes associated with a record in the **Notes** section of the record details.
@@ -17,6 +18,7 @@ You can see the notes associated with a record in the **Notes** section of the r
 ![View a note.](media/sm-view-note.png "View a note")
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

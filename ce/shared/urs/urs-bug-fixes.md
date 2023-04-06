@@ -6,13 +6,13 @@ For information about other updates to Universal Resource Scheduling, visit the 
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987)  | TBD | 03/31/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | TBD | 03/31/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | TBD | 04/07/2023 |
-| | *USG* |  [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | TBD | 03/31/2023 |
-|**Station 4** |*Europe* |[3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | TBD | 04/14/2023 |
-|**Station 5** |  *North America*|[3.12.97.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129718) | [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | 03/31/2023 |
-|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.97.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129718) | [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | 03/31/2023 |
+|**Station 1** |  *First Release*| [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | TBD | 04/14/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | TBD | 04/21/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | 04/07/2023 |
+| | *USG* |  [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  |  04/07/2023 |
+|**Station 4** |*Europe* |[3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | 04/14/2023 |
+|**Station 5** |  *North America*|[3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | 04/21/2023 |
+|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | 04/28/2023 |
 | | *Dedicated Scale Groups* |[3.12.97.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129718) | [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | 04/07/2023 |
 
 
@@ -20,6 +20,23 @@ For information about other updates to Universal Resource Scheduling, visit the 
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.102.17 - 2023 wave 1 release
+
+**Resource Scheduling Controls:** 1.2.42.230871
+
+**Dataverse:** 4.0.92.17
+
+- Multiple performance improvements to reduce schedule board load times. Visible performance improvements vary depending on the amount of data loaded on the schedule board.
+- Replaced deprecated OData API calls across all Universal Resource Scheduling controls.
+- Bug fixes:
+  - Day names on the calendar control in the requirements sub-grid of the schedule board are now localized correctly.
+  - Booking rules no longer block Schedule Assistant from closing.
+  - Deselecting a resource on the schedule board is now reflected on the map, resetting the view.
+  - (Project Operations) Maintain bookings mode no longer constantly refreshes on daily/weekly/monthly views.
+  - In the requirements sub-grid on the schedule board, filtering requirement groups by territory now behaves as expected.
+  - The end date on the create booking panel from the daily/weekly/monthly views on the schedule board now reacts consistently and no longer adds an extra day in some cases.
+  - Drag and select to create a new booking on the schedule board now works after creating a booking by drag-and-drop.
 
 ## 3.12.101.3 - 2023 wave 1 early access update 1
 
