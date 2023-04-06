@@ -28,7 +28,7 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
 
    | Geo location   | API Endpoint URL|
    |-------------|---------|
-   | Asia-Pacific | https://dynamics365-omnichannel-apac.omnichannelengagementhub.com/applemessagesforbusiness |
+   | Asia-Pacific |  ```https://dynamics365-omnichannel-apac.omnichannelengagementhub.com/applemessagesforbusiness ``` |
    | Australia | https://dynamics365-omnichannel-aus.omnichannelengagementhub.com/applemessagesforbusiness |
    | Canada | https://dynamics365-omnichannel-can.omnichannelengagementhub.com/applemessagesforbusiness |
    | Europe | https://dynamics365-omnichannel-eur.omnichannelengagementhub.com/applemessagesforbusiness |
