@@ -1,7 +1,7 @@
 ---
 title: Overview of real-time Omnichannel analytics dashboard| MicrosoftDocs
 description: "Use this article to get an introduction to real-time Omnichannel analytics dashboard in Omnichannel for Customer Service and Customer Service workspace apps."
-ms.date: 03/31/2023
+ms.date: 04/06/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -19,7 +19,7 @@ ms.custom: intro-internal
 
 In the digital contact center world, supervisors need to react to events like an increase in the volume of incoming customer interactions, longer call lengths and agent absenteeism by optimizing the allocation of agents in real time to provide quick support and boost customer satisfaction. Having visibility into the overall support performance through real-time reporting empowers them to monitor key operational metrics, make course corrections at the right time, and keep service levels high.
 
-The real-time analytics reports provide information about the health and key performance indicators (KPIs) for your organization, that reflect the current situation in the contact center as supervisors oversee agents handling customer conversations coming through multiple channels.
+The real-time analytics reports provide information about the health and key performance indicators (KPIs) for your organization, that reflect the current situation in the contact center as supervisors oversee agents handling customer conversations coming through multiple channels. You can make changes to the visual display of the reports and save your personalized views as bookmarks.
 
 As a supervisor, you can use the real-time analytics reports to:
 
@@ -31,39 +31,38 @@ As a supervisor, you can use the real-time analytics reports to:
 
 - Monitor ongoing conversations, track customer sentiment, and intervene, as required.
 
-- Drill down to a specific channel, queue, or agent, as required, to gather key operational insights in real time and take necessary aciion.
+- Drill down to a specific channel, queue, or agent, as required, to gather key operational insights in real time and take necessary action.
+
+> [!NOTE]
+> - The reports include conversations that were handled only by agents, as well as those that were escalated by the Power Virtual Agents bots.
+> - The reports don't include conversations that were resolved by Power Virtual Agents bots.
 
 ## Security roles and permissions
 
-Real-time analytics work according to the security permissions defined in Dataverse. For example, if your organization has set business-unit level permission for you, then you'll be able to see the metrics computed based only on the business-unit level data.
+Real-time analytics works based on the security permissions defined in Dataverse. For example, if your organization has set business-unit level permission for you, then you'll be able to see the metrics computed based only on the business-unit level data.
 
 As a supervisor, you can view the Omnichannel real-time analytics dashboard in Customer Service workspace. However, your administrator must enable the required permissions for you. To configure user roles to access analytics, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 > [!NOTE]
 > If multiple users see different values in the metrics, you'll need to investigate the permissions for those users as this might be the reason for not seeing the same values in metrics.
 
-## Report details
+## Access reports
 
-The Omnichannel real-time analytics reports consist of the following:
+You can view the various reports in the Customer Service workspace. In the Customer Service workspace default view, select the plus (+) icon, and then select **Omnichannel real-time analytics** dashboard. The **Summary** report is the default report that appears. You can view **Ongoing Conversations**, **Agent**, and **Voice** reports, by selecting the respective tabs.
+
+If you're unable to view the reports, contact your system administrator. For more information, go to: [Manage real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service-preview). The real-time analytics reports are available only in English out of the box. You'll need to customize the reports to make them available in a language of your choice. More information: [Customize data models of historical analytics reports in Customer Service (preview)](model-customize-reports.md#customize-data-models-of-historical-analytics-reports-in-customer-service-preview)
+
+## Dashboard details
+
+The Omnichannel real-time analytics dashboard consist of the following:
 
 - **Summary**: This report provides an overview of your organization in real time. This report provides KPIs across the volume of customer interactions and service levels, along with the available capacity in real time. More information: [View and understand the Summary report in Omnichannel real-time analytics](realtime-summary-dashboard.md)
 
-- **Voice**: This report provides an overview of conversations in the last 24 hours for the Omnichannel for Customer service voice channel. More information: [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)
+- **Voice**: This report provides an overview of conversations for the Omnichannel for Customer service voice channel. More information: [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)
 
-- **Agent**: This report provides an overview of the health and KPIs of agents in your organization. The information in this report is displayed based on the conversations in the last 24 hours. More information: [View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md)
+- **Agent**: This report provides an overview of the health and KPIs of agents in your organization. The information in this report is displayed based on the conversations. More information: [View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md)
 
-- **Ongoing Conversations**: This report provides information about the conversations that agents are handling and are in either active, open, wrap up, or waiting statuses. More information: [View and understand the Ongoing Conversation report in Omnichannel real-time analytics](realtime-ongoing.md)
-
-You can make changes to the visual display of the reports and save your personalized views as bookmarks.
-
-## View reports
-
-You can view the various reports in the Customer Service workspace or Omnichannel for Customer Service apps.
-
-- In the Customer Service workspace default view, select the plus (+) icon, and then select **Omnichannel real-time analytics** dashboard. The **Summary** report is the default report that appears. You can view **Ongoing Conversations**, **Agent**, and **Voice** reports, by selecting the respective tabs.
-- In the Omnichannel for Customer Service default view, select the **Omnichannel real-time analytics dashboard** option from the dropdown list. The **Summary** report is the default report that appears. You can view **Ongoing Conversations**, **Agent**, and **Voice** reports, by selecting the respective tabs.
-
-If you're unable to view the reports, contact your system administrator. For more information, go to: [Manage real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service-preview). The real-time analytics reports are available only in English out of the box. You'll need to customize the reports to make them available in a language of your choice. More information: [Customize data models of historical analytics reports in Customer Service (preview)](model-customize-reports.md#customize-data-models-of-historical-analytics-reports-in-customer-service-preview)
+- **Ongoing Conversations**: This report provides information about the conversations that agents are handling and are in either active, open, wrap up, or waiting statuses. The report allows you to monitor, assign, transfer, and force close conversations for an agent, depending on your requirement. More information: [View and understand the Ongoing Conversation report in Omnichannel real-time analytics](realtime-ongoing.md)
 
 ## Filter information displayed on dashboards
 
@@ -74,10 +73,6 @@ The **Time** dropdown list includes options such as **Include open conversations
 - **Include open conversations**: Shows all conversations that started in the last 24 hours, as well as those that started in the last three days and are still open.
 - **Last 24hrs**: Shows all conversations that started in the last 24 hours.
 - **Today**: Shows all conversations that started today in the selected time zone.
-
-> [!NOTE]
-> - The reports include conversations that were handled only by agents, as well as those that were escalated by the Power Virtual Agents bots.
-> - The reports don't include conversations that were resolved by Power Virtual Agents bots.
 
 ### Pause updates on report data
 
