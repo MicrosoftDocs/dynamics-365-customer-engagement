@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 04/05/2023
+ms.date: 04/06/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -24,13 +24,13 @@ Dynamics 365 Customer Service provides out-of-the-box analytics reports, which h
 
 Use visual customization to:
 
-- Add additional out-of-the-box metrics that may be relevant to your organization, through the Power BI embedded editing experience. The data model that supports the out-of-the-box reports also provides you with additional metrics which may not be directly exposed in the reports.
+- Leverage additional out-of-the-box metrics that may be relevant to your organization, through the Power BI embedded editing experience. The data model that supports the out-of-the-box reports also provides you with additional metrics which may not be directly exposed in the reports.
 - Modify the visual look of the data. For example, you can have a graphic that displays the trend of a metric over time rather than a tabular view of the metric.
 - Add new pivots and add new pages. For example, you can create a new pivot or page dedicated to a specific queue with queue level metrics.
 - Rearrange out-of-the-box report layouts and change themes.
 
 > [!Note]
-> Visual customization of historical and real-time analytics reports is currently available for Customer Service Workspace, Customer Service Hub, and Omnichannel for Customer Service. It isn't available for unified routing and knowledge analytics reports.
+> Visual customization of Omnichannel historical, Customer Service historical, and Omnichannel real-time analytics reports is currently available for Customer Service Workspace. It isn't available for unified routing and knowledge analytics reports.
 
 ## Grant user privileges to edit analytics reports
 
@@ -47,11 +47,11 @@ To be able to edit analytics reports, users must have the **Analytics Report Aut
 
    The following panes open on the right-hand side of the page:
 
-   - **Visualizations**: Displays a list of options you can use to create different visual views in your report. Choose which visuals you want in your report by deleting a currently displayed visual and then adding the visual you prefer. For example, if you want to show **Incoming conversations** as a table instead of the bar chart, you change your visual from the **Visualizations** pane. 
+   - **Visualizations**: Displays a list of options you can use to create different visual views in your report. Choose which visuals you want in your report by deleting a currently displayed visual and then adding the visual you prefer. For example, if you want to show **Incoming conversations over time** as a table instead of the bar chart, you can change your visual from the **Visualizations** pane.
 
       :::image type="content" source="media/visual-incoming-conversations.png" alt-text="Customize report display on the Visualizations pane":::
 
-   - **Data**: Displays a list of KPIs, measures, dimensions, and attributes you can represent in your report. This also has the KPIs that are available for use, beyond the ones displayed on the out-of-the-box reports. For example, **Participation Mode** in **FactSessionParticipant**, is a fact that allows you to build consult metrics. More information: [Understand out-of-the-box data model](#understand-out-of-the-box-data-model)
+   - **Data**: Displays a list of KPIs, measures, dimensions, and attributes you can represent in your report. This also has the KPIs that are available for use, beyond the ones displayed on the out-of-the-box reports. For example, **Participation Mode** in **FactSessionParticipant**, is a fact that allows you to build metrics to count the number of times a subject-matter expert accepted a consult request. More information: [Understand out-of-the-box data model](#understand-out-of-the-box-data-model)
 
       :::image type="content" source="media/visual-sessionpart-mode.png" alt-text="Drag and drop metrics to change display":::
     
@@ -76,7 +76,7 @@ You can use facts and dimensions to visualize data, according to your organizati
 In a scenario in which you've customized your reports and then Microsoft makes updates to the default data model for a report, the customizations you've made for your reports won't be overwritten by the updates to the data model. However, if there's a change to the naming conventions in the Power BI embedded editing experience, those changes will be reflected in the respective list and may require that you reselect the metric with the new name. For more information on data model and report mapping, see: [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
 
 > [!NOTE]
-> Make sure that you don't add more than 20 metrics (or tiles) to a report as it affects performance. If you need additional metrics, create additional pages and provide references to the additional pages from the existing report pages.
+> Make sure that you don't add more than 20 metrics (or tiles) to a report as it affects performance. If you need additional metrics, consider creating additional pages and provide references to the additional pages from the existing report pages.
 
 ### See also
 
