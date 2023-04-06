@@ -121,6 +121,8 @@ Use the **Preview** section to see the inspection from a technician's perspectiv
 
 > [!NOTE]
 > Once you publish the inspection, you can't edit it in the preview version.
+>
+> Make sure you also finalize the name of the template. You can't change it after the template is published.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Field Service inspection, highlighting both the preview tab and the publish option.](./media/inspections-create-preview-publish.png)
