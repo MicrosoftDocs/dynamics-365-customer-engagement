@@ -28,19 +28,19 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
 
    | Geo location   | API Endpoint URL|
    |-------------|---------|
-   | Asia-Pacific |  ```https://dynamics365-omnichannel-apac.omnichannelengagementhub.com/applemessagesforbusiness ``` |
-   | Australia | https://dynamics365-omnichannel-aus.omnichannelengagementhub.com/applemessagesforbusiness |
-   | Canada | https://dynamics365-omnichannel-can.omnichannelengagementhub.com/applemessagesforbusiness |
-   | Europe | https://dynamics365-omnichannel-eur.omnichannelengagementhub.com/applemessagesforbusiness |
-   | France | https://dynamics365-omnichannel-fra.omnichannelengagementhub.com/applemessagesforbusiness |
-   | Germany | https://dynamics365-omnichannel-ger.omnichannelengagementhub.com/applemessagesforbusiness |
-   | India | https://dynamics365-omnichannel-ind.omnichannelengagementhub.com/applemessagesforbusiness |
-   | Japan | https://dynamics365-omnichannel-jpn.omnichannelengagementhub.com/applemessagesforbusiness |
-   | North America | https://dynamics365-omnichannel-nam.omnichannelengagementhub.com/applemessagesforbusiness |
-   | South America | https://dynamics365-omnichannel-sam.omnichannelengagementhub.com/applemessagesforbusiness |
-   | Switzerland | https://dynamics365-omnichannel-che.omnichannelengagementhub.com/applemessagesforbusiness |
-   | United Arab Emirates | https://dynamics365-omnichannel-uae.omnichannelengagementhub.com/applemessagesforbusiness |
-   | United Kingdom | https://dynamics365-omnichannel-uk.omnichannelengagementhub.com/applemessagesforbusiness | 
+   | Asia-Pacific |  ```https://dynamics365-omnichannel-apac.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | Australia | ```https://dynamics365-omnichannel-aus.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | Canada | ```https://dynamics365-omnichannel-can.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | Europe | ```https://dynamics365-omnichannel-eur.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | France | ```https://dynamics365-omnichannel-fra.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | Germany | ```https://dynamics365-omnichannel-ger.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | India | ```https://dynamics365-omnichannel-ind.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | Japan | ```https://dynamics365-omnichannel-jpn.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | North America | ```https://dynamics365-omnichannel-nam.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | South America | ```https://dynamics365-omnichannel-sam.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | Switzerland | ```https://dynamics365-omnichannel-che.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | United Arab Emirates | ```https://dynamics365-omnichannel-uae.omnichannelengagementhub.com/applemessagesforbusiness``` |
+   | United Kingdom | ```https://dynamics365-omnichannel-uk.omnichannelengagementhub.com/applemessagesforbusiness``` | 
 
 
 ## Configure an Apple Messages for Business channel instance in Omnichannel admin center
