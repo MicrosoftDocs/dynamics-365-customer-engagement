@@ -41,3 +41,5 @@ To begin your email sending process, follow these steps:
 ## Known issues
 
 - Outbound marketing segments that have never been used in a real-time marketing journey don't work with the **Send Now** functionality. Once an outbound marketing segment has been used in a real-time marketing journey successfully, it's been processed and you can use it with the **Send Now** functionality.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
