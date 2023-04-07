@@ -1,12 +1,11 @@
 ---
 title: "Frequently asked questions for Sales Premium"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
-ms.date: 11/04/2022
+ms.date: 03/28/2023
 ms.custom: 
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -57,6 +56,7 @@ Sales Premium is available in the following countries or regions:
 > Currently, Sales Premium is not available in the following datacenters&mdash; Germany, Korea, Norway, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
 
 ### In which region are the features available? 
+
 Sales Premium features are available in the following countries or regions:   
 
 | Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA | SAM | ZAF | UAE |
@@ -101,7 +101,7 @@ Sales Premium supports the following languages:
 | Notes analysis | English, French, German, Italian, and Dutch for machine learning models. |
 | Exchange insight cards in Assistant | Only English - United States (en-US) for machine learning models. |
 | Activity-content based Auto capture |- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
-| Conversation intelligence | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, Hebrew, Danish, Swedish, Finnish, Norwegian, and Arabic. |
+| Conversation intelligence | Go to [Languages supported for conversation intelligence](language-support-conversation-intelligence.md) |
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck).
 
@@ -124,6 +124,15 @@ Depending on the region where your organization is hosted, data is stored in the
 | Switzerland (CHE) | Switzerland North | Switzerland West |
 
 More information: [Azure Regional Pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs)
+
+### Which users can push data from Dynamics 365 Sales to Dataverse?
+
+The Dynamics 365 Sales data is pushed to Dataverse to generate insights such as, predictive scoring, relationship analytics, who knows whom, and predictive forecasting. A set of predefined system and application users are used to push data from Dynamics 365 Sales to Dataverse. For more information, see [System and application users](/power-platform/admin/system-application-users).
+
+### Why are my entities updated by some application users?
+
+System and application users update certain entities with insights about the records. For example, lead and opportunity entities are updated by the application users to add predictive scores. Similarly, contact, opportunity, lead, and account entities are updated with relationship KPIs and analytics. More information: [Which users can push data from Dynamics 365 Sales to Dataverse?](#which-users-can-push-data-from-dynamics-365-sales-to-dataverse)
+
 
 ## Digital sales
 
@@ -230,51 +239,77 @@ To add the **Up next** widget to a managed entity form, follow these steps:
 
 Use the site map designer from the app designer to add the sales accelerator site map to your custom app. More information: [Add the sales accelerator site map entry to custom app](add-sales-accelerator-sitemap-entry-custom-app.md).
 
-## Relationship analytics and health   
-    
-### What is the frequency of KPI updates?
-KPIs are updated every 24 hours, potentially fewer.​  
+## Relationship analytics and health
 
-### What are the signals in relationship health?​
-Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.​ 
+### Which data is used to generate basic relationship insights?
+
+**Basic insights:**
+
+Uses email, phone call, and appointments sent or received in Dynamics 365.
+
+**Enhanced insights:**
+
+Uses email, phone call, and appointments sent or received in Dynamics 365 and Exchange (if configured).
+
+### What is the frequency of KPI updates?
+
+**Basic insights:** 
+
+Updated in near real-time&mdash;as soon as a related activity is marked as completed in Dynamics 365.  
+
+**Enhanced insights:**
+
+Updated every 24 hours. ​  
+
+### What are the signals in relationship health?
+​
+Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.
 
 ### Is the Office 365 consent mandatory for the relationship intelligence feature to work?
  
-Office consent is not mandatory for relationship analytics and health score. You’ll get basic relationship analytics and health score based on the data in Dynamics 365. When you provide consent in Office 365 to use the Exchange data, you’ll get more accurate and complete relationship information.
-
-However, office consent is mandatory for who knows whom as it relies on data from Exchange.  
+Office consent is not mandatory for relationship analytics, health score, and who knows whom. You’ll get basic relationship insights based on the data in Dynamics 365. When you provide consent in Office 365 to use the Exchange data, you’ll get more accurate and complete relationship information.
 
 ### What happens if I select the Exchange checkbox but the Office 365 admin hasn’t provided the consent?
 
 The data from Exchange won't be collected until the consent is provided. Work with your Office 365 administrator to get the consent. More information: [Provide consent for collecting data from Office 365](provide-consent-office365.md)
 
-###  I see that the Exchange checkbox is selected, though I hadn't selected it or provided the required consent for it in the past.
+### I see that the Exchange checkbox is selected, though I hadn't selected it or provided the required consent for it in the past.
 
-With the recent changes to the relationship intelligence feature, the Exchange checkbox is selected by default for all the existing customers. However, no data will be collected from Exchange until your Office 365 administrator provides consent. You can clear the checkbox if you aren’t planning to integrate with Exchange. 
+With the recent changes to the relationship intelligence feature, the Exchange checkbox is selected by default for all the existing customers. However, no data will be collected from Exchange until your Office 365 administrator provides consent. You can clear the checkbox if you aren’t planning to integrate with Exchange.
   
-
-### Can I influence the relationship health score?​   
+### Can I influence the relationship health score?​
 
 An administrator can influence the relationship health score by changing the weight of activity types and the expected level of communications with customers. More information: [Configure relationship analytics and health](configure-relationship-analytics.md)
 
 ### How are similar won deals identified? <a name="similar-won-deals-fields"></a> 
  
-AI models are used to identify the factors that impact the identification of similar won deals. The factors may differ from organization to organization based on the custom and out-of-the-box fields.   
+AI models are used to identify the factors that impact the identification of similar won deals. The factors may differ from organization to organization based on the custom and out-of-the-box fields.
+
 To view the fields that determine the similar won deals at that point in time, select the information icon corresponding to any section heading and a side pane opens with the field information.
 
 > [!div class="mx-imgBorder"]
-> ![About relationship analytics side pane with fields](media/faq-sa-about-relationship-analytics-side-pane-fields.png "About relationship analytics side pane with fields")   
+> ![About relationship analytics side pane with fields](media/faq-sa-about-relationship-analytics-side-pane-fields.png "About relationship analytics side pane with fields")
 
-
-## Predictive lead/opportunity scoring   
+## Predictive lead/opportunity scoring
 
 ### What do I need in order to use lead/opportunity scoring?​
 
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use standard lead entity or standard opportunity entity.​   
+Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use standard lead entity or standard opportunity entity.​  
 
-To build a lead score model, a minimum of 40 qualified and 40 disqualified leads are required.    
-To build an opportunity scoring model, a minimum of 40 won and 40 lost opportunities are required.    
+To build a lead score model, a minimum of 40 qualified and 40 disqualified leads are required.  
+To build an opportunity scoring model, a minimum of 40 won and 40 lost opportunities are required.  
 Verify that the leads and opportunities are created on or after January 01, in the previous year.
+
+### How frequently are the predictive scores updated?
+
+**Lead scores:** For new leads, the scoring happens in near real-time. The score will be displayed within five minutes of saving a new lead. For updated leads, the scores are refreshed after every 24 hours.
+
+**Opportunity scores:** For new and updated opportunities, the scores are refreshed after every 24 hours.
+
+### Why aren't my leads scored in real-time?
+
+Real-time scoring is supported only for new leads. If you don't see the score even after 15 minutes of saving or importing the new lead, contact your administrator. Your administrator can verify whether the model that's scoring the new lead was created or edited, and published after the real-time scoring feature was rolled out. For more information, see [Real-time scoring](work-predictive-lead-scoring.md#real-time-scoring). 
+
 
 ### Can I customize the model?
 
@@ -305,36 +340,73 @@ For activities, the suggestions are displayed immediately.
 
 ### Why am I not seeing some of my colleagues in the suggestions?
 
-There are several possibilities:
+If you know that a colleague has interacted with a customer but their information is not shown in Who Knows Whom widget, it could be due to the following reasons:
+
+**Basic insights:**
+
+Displays only the top five users who contacted the customer the most through emails and appointments in Dynamics 365. So, colleagues who have contacted through phone calls and those who had fewer interactions through emails and appointments will not be listed.
+
+**Enhanced insights:**
 
 - Those colleagues are not a part of your Dynamics 365 org.
 - Those colleagues are not a part of the security role that's [enabled for relationship intelligence](enable-ri.md).  
 - Those colleagues are a part of the security group that your Office 365 admin has [opted out](provide-consent-office365.md).
 - Those colleagues have explicitly [opted out of sharing their data](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
-  
+
 See also [Which colleagues show up as connections?](#which-colleagues-show-up-as-connections)
 
 ### How long does it take for suggestions to show up?
+
+**Basic insights:**
+ 
+ Who knows whom suggestions are available out-of-the-box if the email and appointment data is available in Dynamics 365.
+
+**Enhanced insights:**
 
 After your Microsoft 365 admin provides consent, you'll start seeing the results within a day but it may not be complete as the data will be processed in batches over a period of 4 days.  
 
 ### Which colleagues show up as connections?
 
+**Basic insights:**
+
+Users who have contacted the customer the most through emails and appointments in Dynamics 365.
+
+**Enhanced insights:**
+
 Users in your org who have frequently and recently interacted with the contact or lead show up as connections, unless they have opted out. Administrators have the option to [opt out groups](provide-consent-office365.md) such as C-suite, M&A, finance, and so on. Users can opt out by [turning off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 ### How are the connections weighted?
 
-The connection strength between a user and a potential contact is calculated based on the frequency and recency of interactions between them through emails or appointments. This means that every seller will see the same set of introducers for a contact or lead.  
+**Basic insights:**  
+Uses only frequency. The connections are weighted based on the number of interactions through emails and appointments in Dynamics 365. Top five users who have interacted the most with the contact or lead are displayed.  
+
+**Enhanced insights:**  
+Uses frequency and recency. If your administrator has enabled Exchange integration, the connections are weighted based on recent and frequent interactions through emails or appointments. 
+
+Every seller will see the same set of introducers for a contact or lead. 
+
 
 ### How frequently is the data collected?
+
+**Basic insights:**
+
+Collected in near real-time&mdash;as soon as a related activity is marked as completed in Dynamics 365.  
+
+**Enhanced insights:**  ​  
 
 When you enable who knows whom and provide the required consent, Exchange data pertaining to the last one year is collected and insights are generated based on that data. After this, Exchange data is collected daily and insights are updated based on the latest data.  
 
 ### What is the source for who knows whom data?
 
+**Basic insights:**
+
+Emails and appointments sent and received in Dynamics 365.
+
+**Enhanced insights**
+ ​  
 Emails and meeting information in Exchange Online is the source data. See also [​How are the connections weighted?](#how-are-the-connections-weighted)
 
-### Where are the insights generated?
+### Where are the insights from Exchange generated?
 
 After the Microsoft 365 admin provides consent, the Exchange data is collected and stored in Dynamics 365. The insights are then generated from the stored data in Dynamics 365.  
 
@@ -342,28 +414,58 @@ After the Microsoft 365 admin provides consent, the Exchange data is collected a
 > Microsoft 365 and Dynamics 365 each have their own service-specific licensing terms. The service-specific terms that apply depend on which service processes your data. For example, when a copy of your Microsoft 365 data is transferred to Dynamics 365, your Microsoft 365 data in that copy becomes Dynamics 365 data and the Dynamics 365 service-specific terms apply.
 
 
-### When will my data be removed after I opt out?
+### When will my data be removed after I opt out of data sharing in Exchange?
 
 If you are part of a security group that has been opted out by your administrator, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
 
 If you have [opted out on your own](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications), the data will be removed immediately.  
 
-### How does a Microsoft 365 administrator exclude users?
+### How can an administrator opt out users?
 
-While [providing consent](provide-consent-office365.md#provide-consent), your Microsoft 365 administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 
+The following administrators can opt out users at different levels:
+
+- **Microsoft 365 Global administrator** can opt out users of a Microsoft 365 security group. For example, opt out groups such as C-suite, M&A, finance, and so on. More information: [Provide consent to collect data from Microsoft 365](provide-consent-office365.md)
+
+- **Dynamics 365 administrator** can enable who knows whom for specific security roles to avoid opting in all Dynamics 365 users automatically. When you enable it for a specific role, the Exchange data is collected only from users who are part of the security role. More information: [Enable relationship intelligence](enable-ri.md)
 
 ## Conversation intelligence
+
+### Which Conversation intelligence features are available in Dynamics 365 Sales versus Viva Sales?  
+
+|Feature  |Viva Sales  |Sales Enterprise / Sales Premium  |
+|---------|---------|---------|
+| **Call processing**   |    |    |
+|Conversation intelligence for phone calls from Teams (Inbound / Outbound)     |  No       | Yes<sup>1</sup><br><sup>1</sup> **Sales Enterprise:** Three hours of conversation intelligence (recording and processing) per user, per month<br> **Sales Premium:** 10 hours of conversation intelligence (recording and processing) per user, per month. To buy more hours, see [this FAQ](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours). .|
+|Conversation intelligence for Teams meetings     | Yes (unlimited)        |  Yes<sup>12</sup> <br><sup>1</sup> Using the Viva Sales app for Teams <br> <sup>2</sup> Unlimited Viva Sales hours included with Sales Premium / Sales Enterprise license        |
+| **During the call**   |    |
+|Real-time conversation intelligence     |    No       |    Yes     |
+|Conversation intelligence for seller-only recordings (When customer is not recorded)     |   No      |   Yes      |
+| **After the call**   |    |
+|Conversation summary and details logged back into CRM record     |   No      |   Yes      |
+|Editing and sharing a conversation summary     |   No      |   Yes      |
+|Scheduling an action item from a conversation summary    |   No      |   Yes      |
+|Aggregated dashboards for managers    |   No      |   Yes      |
+|Manager Coaching tools     |   No      |   Yes      |
+| **Admin configurations**   |    |
+|Storage of call recording and conversation intelligence insights    |   Teams storage only      |   Option of Microsoft provided storage, or your own Azure storage       |
+|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Viva Sales](/viva/sales/supported-languages)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faqs-sales-insights.md#what-languages-are-supported-now)       |
+|Supported languages for UI      |   User interface languages listed in this article: [Supported languages in Viva Sales](/viva/sales/supported-languages)|   All languages supported in Dynamics 365 Sales       |
+
 
 ### How long does it take for data updates to reflect in the app?
 
 The data is refreshed periodically and could take up to 12 hours to reflect. We continue to make improvements to reduce this delay.
 
+
+### How many hours of conversation intelligence are available with Viva Sales?
+
+You get unlimited call recording and processing hours with Viva Sales. You must create the meeting in Outlook and turn on the **Teams meeting** toggle to get conversation intelligence through Viva Sales. For more information, see [Use Viva Sales in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea).  
+
 ### How do I buy more conversation intelligence hours?
 
-With the Sales Premium license, you get 10 hours of call recording and processing capacity per month for conversation intelligence. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
+With the Sales Premium license, you get 10 hours of call recording and processing capacity per user, per month for conversation intelligence. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
-> [!NOTE]
-> If you have the Sales Enterprise license, upgrade to the Sales Premium license to buy more hours.  
+If you have the Sales Enterprise license, upgrade to the Sales Premium license to buy more hours.  
 
 ### Can sellers (or non-managers) use this app?
 

@@ -14,7 +14,6 @@ ms.assetid: fd004500-99bf-4391-84ae-b1e41a2ecd77
 caps.latest.revision: 14
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -43,7 +42,7 @@ Web services provide APIs that you’ll use when you write programs for Dynamics
 
 The Organization service has been available since [!INCLUDE[pn_CRM_2011](../includes/pn-crm-2011.md)]. It’s the web service that most developers working with Dynamics 365 Customer Engagement (on-premises) are already familiar with. The Organization service is optimized for use with .NET. There are a set of .NET assemblies and tools to allow you to generate strongly typed classes and proxies that streamline the development process and enjoy a better development experience using [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. 
 
-The .NET Framework assemblies for the Organization service currently use a 2011 SOAP endpoint which has been deprecated. The SDK assemblies will eventually be migrated to internally use the Web API instead of the 2011 SOAP endpoint. When this happens, any code written using the SDK assemblies will continue to be supported as it will automatically transfer from the 2011 SOAP endpoint to use the Web API. This update will be mostly transparent to you requiring only that you replace your application's run-time folder SDK assemblies with revised assemblies. For additional details plus new information about .NET Core development, see [Transition apps to Dataverse ServiceClient](/power-apps/developer/data-platform/sdk-client-transition).
+The SDK for .NET assemblies that enable access to the Organization service currently use the 2011 SOAP endpoint which has been deprecated. The SDK assemblies will eventually be migrated to internally use the Web API instead of the 2011 SOAP endpoint. When this happens, any code written using the SDK assemblies will continue to be supported as calls will automatically transfer from the 2011 SOAP endpoint to use the Web API. This update will be mostly transparent to you requiring only that you replace your application's run-time folder SDK assemblies with revised assemblies. For additional details plus new information about .NET Core development, see [Transition apps to Dataverse ServiceClient](/power-apps/developer/data-platform/sdk-client-transition).
 
 See [Choose your development style](choose-development-style.md) for guidance about whether to use the Organization service or Web API.
 
@@ -63,7 +62,7 @@ Business logic that runs in plug-ins or workflow assemblies on the server expect
   
 <a name="bkmk_discovery"></a>   
 ## Discovery web services  
- Dynamics 365 Customer Engagement (on-premises) is a multi-tenant application. This means that a single deployment can host multiple instances of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises), each with its own data, each available via a different URL. Additionally, especially when Dynamics 365 Servers are hosted in a data center, the specific server can change as resources are moved or load balanced. Discovery web services provide a way for a client to detect which servers and organizations are available for a user to connect to based on their user account. You can choose to use either the OData V4 RESTful API or the SOAP based SDK assembly API to access the Discovery web service. The RESTful API provides the same benefits as the SOAP web service, and it is easier to consume for a wider range of programming languages, platforms, and devices.  
+ Dynamics 365 Customer Engagement (on-premises) is a multi-tenant application. This means that a single deployment can host multiple instances of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises), each with its own data, each available via a different URL. Additionally, especially when Dynamics 365 Servers are hosted in a data center, the specific server can change as resources are moved or load balanced. Discovery web services provide a way for a client to detect which servers and organizations are available for a user to connect to based on their user account. You can choose to use either the OData V4 based Web API or the SDK assembly API to access the Discovery web service. While both APIs provides similar functionality, the Web API is easier to consume for a wider range of programming languages, platforms, and devices.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Discover the URL for your organization using the Web API](webapi/discover-url-organization-web-api.md) or [Discover the URL for Your Organization With IDiscoveryService Web Service](org-service/discover-url-organization-organization-service.md)  
   

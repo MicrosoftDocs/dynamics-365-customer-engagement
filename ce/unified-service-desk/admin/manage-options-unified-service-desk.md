@@ -1,22 +1,18 @@
 ---
-title: "Options for Unified Service Desk | MicrosoftDocs"
+title: "Manage global options for Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use the Options setting to manage global name or value pairs used by Unified Service Desk components."
-ms.date: 06/21/2021
+ms.date: 01/02/2023
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
 ---
 
-# Change global settings or options in Unified Service Desk
+# Manage global settings or options in Unified Service Desk
 
 
 
@@ -76,6 +72,7 @@ To manage [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-d
    |  `InternetExplorerPooling`  | If this is set to **True**, you can experience enhanced performance of CRM entity page loading and faster inline navigation in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. That is, the hosted control uses an Internet Explorer instance from the pool, which performs inline navigation. By default, `InternetExplorerPooling` is disabled (false). [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Performance enhancement for loading the model-driven app pages](../admin/performance-enhancement-CRM-entity-page-loads.md) |
    | `KillUSDIEProcessesOnExit` | This option terminates the IE Process while exiting the Unified Service Desk client application. To enable this option, as an admin, you must add the `KillUSDIEProcessesOnExit` UII option and set the value as **True**. |
    |`LinkUnlinkArticle` | Use this UII option for linking and unlinking KB articles to a case to work with the web client KM hosted control. To enable this option, as an admin, you must add this UII option and set the value as **True**. |
+   | `ListOfActionsToValidate`  |  Use this UII option to indicate a list of comma-separated actions that must be checked when the `ValidateSecurityForUIIAction` option is set to **True**. For example: `ListOfActionsToValidate=ShellExecute,RunScript` |  
    |   `maxNumberOfSessions` | Indicates the maximum number of simultaneous sessions that each user can open with the Unified Service Desk client. An error message is displayed to users when they exceed the specified simultaneous session limit. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Session management in Unified Service Desk](../../unified-service-desk/session-management-unified-service-desk.md) |
    |  `MaxReplacementParameterDepth`  | Specifies how deeply replacement parameters can be nested in an expression. Specify an integer value for this option.<br /><br /> Consider an example where you have the following replacement parameters:<br /><br /> `Str3 = "Level 3"`<br /><br /> `Str2 = "Level 2 – [[Str3]v]"`<br /><br /> `Str1 = "TopLevel – [[Str2]v]"`<br /><br /> In this example, in the following expression:<br /><br /> `Value = [[Str1]]`<br /><br /> `Value` results in `"TopLevel - Level 2 - Level 3"`.<br /><br /> In the preceding expression, the depth of the nesting of the replacement parameters is **2**.<br /><br /> [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use replacement parameters to configure Unified Service Desk](../../unified-service-desk/use-replacement-parameters-configure-unified-service-desk.md) |
    |   `MemoryLimit` | Specify a value, in bytes. This specifies the memory limit that the process can use (its working set), before the application refuses to allocate additional browser instances. If this value is specified:<br /><br /> **1.**  The **OutOfMemoryThreshold** option will be ignored.<br />**2.**  If the **AutoUseExternalBrowser** option is true, the value specified in the **MemoryLimit** option will be the memory limit that will trigger the application to open the browser externally. |
@@ -98,6 +95,7 @@ To manage [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-d
    | `ShowScriptErrors`| Specify whether to display (**True**) or suppress (**False**) script errors in webpages displayed in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. If you don't specify the `ShowScriptErrors` option for the Dataverse instance, the value is assumed to be **False**, which implies that the script errors aren't displayed in the client application. |
    | `SingleSignOnThreshold`| Indicates the timeout period in ms for Unified Service Desk to wait before showing a dialog box to enter credentials to sign in to Dataverse. By default, the value is 5,000 ms. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrators can use the `SingleSignOnThreshold` option to provide a valid value. The accepted value range is from 1,000 through 60,000 ms. If you enter **0** as the value, `SingleSignOnThreshold` is disabled. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Single sign-on (SSO) for Unified Service Desk](../admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk)|
    | `TotalRecordCountLimit`| This value is for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to determine the batch size while fetching entity records from the Dataverse instance. The default value of `TotalRecordCountLimit` in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and in the MSCRM\_CONFIG database is 5,000. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure Unified Service Desk entities](../understand-unified-service-desk-concepts.md)</br>**Note:** <br> **1.** The `TotalRecordCountLimit` value must be equal to the value in the MSCRM\_CONFIG database.<br>**2.** You must not change the default value unless the MSCRM\_CONFIG database administrator changes the value. | 
+   | `ValidateSecurityForUIIAction`| Use this UII option to check and prevent any random running of scripts using ShellExecute or RunScript. By default, `ValidateSecurityForUIIAction` is set to false, and scripts will be run without any check. If `ValidateSecurityForUIIAction` is set to true, then Unified Service Desk will perform checks for actions that are configured in the `ListOfActionsToValidate` option. If an action isn't configured in the `ListOfActionsToValidate` option, then actions will run without any checks. As an administrator, you must configure the exact call for actions in `ListOfActionsToValidate`.  |
    | `ZoomInControlKey` | By default, you can select **Ctrl**+**Plus sign (+)** to zoom in while using Chrome Process to host web applications in Unified Service Desk. As an admin, you can use the `ZoomInControlKey` option to add a keyboard shortcut by assigning a different key combination.  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set zoom in, zoom out, and zoom reset keyboard shortcuts](../chrome-process.md#set-zoom-in-zoom-out-and-zoom-reset-keyboard-shortcuts)  |
    | `ZoomOutControlKey` | By default, you can select **Ctrl**+**Hyphen (-)** to zoom out while using Chrome Process to host web applications in Unified Service Desk. As an admin, you can use the `ZoomOutControlKey` option to add a keyboard shortcut by assigning a different key combination. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set zoom in, zoom out, and zoom reset keyboard shortcuts](../chrome-process.md#set-zoom-in-zoom-out-and-zoom-reset-keyboard-shortcuts) |
    | `ZoomResetControlKey` | By default, you can select **Ctrl**+**0** to reset the zoom while using Chrome Process to host web applications in Unified Service Desk. As an admin, you can use the `ZoomResetControlKey` option to add additional keyboard shortcuts by assigning a different key combination. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set zoom in, zoom out, and zoom reset keyboard shortcuts](../chrome-process.md#set-zoom-in-zoom-out-and-zoom-reset-keyboard-shortcuts)|

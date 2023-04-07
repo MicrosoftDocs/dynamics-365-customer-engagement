@@ -3,7 +3,6 @@ title: "Overview of templates | MicrosoftDocs"
 description: "Learn about templates in Customer Service that can be managed by using app profiles."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 01/31/2020
 ms.topic: overview
 

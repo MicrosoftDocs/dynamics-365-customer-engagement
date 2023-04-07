@@ -2,7 +2,6 @@
 title: "Edit Sitemap entities (tables) on the home screen | MicrosoftDocs"
 description: Learn about how to change the sitemap, forms, and views in the Field Service (Dynamics 365) mobile app.
 ms.date: 11/09/2021
-ms.reviewer: mhart
 ms.topic: article
 ms.subservice: field-service-mobile
 applies_to: 
@@ -10,10 +9,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: Andrea-Orimoto
 ms.author: andreo
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Edit Sitemap entities (tables) on the home screen

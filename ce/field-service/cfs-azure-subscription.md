@@ -2,23 +2,20 @@
 title: "Microsoft Azure subscription prerequisites for Connected Field Service with IoT Hub | MicrosoftDocs"
 description: Learn about Microsoft Azure subscription prerequisites for Connected Field Service with IoT Hub
 ms.date: 05/21/2019
-ms.reviewer: mhart
 
 ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.author: keithh
-author: MSKeith
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+ms.author: vhorvath
+author: vhorvathms
 ---
 
 
 # Azure subscription prerequisites for Connected Field Service with IoT Hub
+
+<!--still needed?-->
 
 When deploying and administering Connected Field Service with IoT Hub, there are a few considerations and prerequisites for your Azure subscription. 
 
@@ -40,7 +37,7 @@ When deploying and administering Connected Field Service with IoT Hub, there are
 
 3. You will only see subscriptions that are tied to your login's **primary active directory**. For example, david@contoso.com will only see subscriptions from the contoso.com directory. If jason@fabrikam.com invites David into their fabrikam.onmicrosoft.com subscription, David will not be able to use the fabrikam subscription on the deployment app.
 
-4. Only organizational Azure accounts can be used to deploy Connected Field Service with IoTHub; personal accounts such as Outlook or Gmail cannot be used.
+4. Only organizational Azure accounts can be used to deploy Connected Field Service with Azure IoT Hub; personal accounts such as Outlook or Gmail cannot be used.
 
 5. Your user must have permission to use the Dynamics API within the Azure active directory tenant.
 

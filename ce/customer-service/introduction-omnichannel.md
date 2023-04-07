@@ -1,11 +1,10 @@
 ---
 title: "Introduction to Omnichannel for Customer Service | MicrosoftDocs"
-description: Learn about Omnichannel for Customer Service, the features that are offered, and how they can be configured in your organization.
-ms.date: 04/26/2022
+description: "Learn about Omnichannel for Customer Service, its features, and how they can be configured in your organization."
+ms.date: 12/15/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.custom: intro-internal
 ---
 # Introduction to Omnichannel for Customer Service
@@ -16,7 +15,7 @@ ms.custom: intro-internal
 
 Omnichannel for Customer Service is a robust application that extends the power of Dynamics 365 Customer Service to enable organizations to instantly connect and engage with their customers via channels like Live Chat, voice, and SMS.
 
-Omnichannel for Customer Service also provides a modern, customizable, high-productivity app that allows agents to engage with customers across different channels. The application offers contextual customer identification, real-time notification, integrated communication, and agent productivity tools like KB integration, search, and case creation to ensure agents are effective.
+Omnichannel for Customer Service also provides a modern, customizable, high-productivity app that allows agents to engage with customers across different channels. The application offers contextual customer identification, real-time notification, integrated communication, and agent productivity tools like knowledge base integration, search, and case creation to ensure agents are effective.
 
 Supervisors get real-time and historical visibility and insights into the operational efficiency of agents and the utilization across various channels.
 
@@ -24,7 +23,8 @@ The enterprise-grade routing and work distribution engine allows customers to co
 
 > [!IMPORTANT]
 >
-> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)]
+> - [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)]
+> - The multisession mode and navigation capabilities are supported in the Omnichannel for Customer Service and Customer Service workspace apps only, and not in copies of these apps or custom apps. 
 
 ## Channels available with Omnichannel for Customer Service
 
@@ -32,11 +32,11 @@ You can enable the following channels in your organization with Omnichannel for 
 
 ### Chat
 
-Chat is an engagement channel that enables your agents to connect with customers in real-time. The Chat channel is generally available now. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a chat channel](set-up-chat-widget.md).
+Chat is an engagement channel that enables your agents to connect with customers in real-time. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a chat channel](set-up-chat-widget.md)
 
 ### SMS
 
-SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. The SMS channel is generally available now. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure an SMS channel](configure-sms-channel.md).
+SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure an SMS channel](configure-sms-channel.md)
 
 ### Voice
 

@@ -1,26 +1,30 @@
 ---
 title: "IoT - Parent IoT Alerts workflow | MicrosoftDocs"
 description: "Learn how to link potential redundant IoT alerts to an existing parent alert in Dynamics 365 Customer Service."
-ms.date: 04/03/2020
+ms.date: 02/22/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # The IoT - Parent IoT Alerts workflow
 
 The **IoT - Parent IoT Alerts** workflow links potential redundant alerts to an existing parent alert.  
+
+> [!NOTE]
+> The Web API types and operations mentioned in this article/table are available in your environment and you can use the service document of your environment or Postman to explore these types and operations. More information: [Web API Service Documents](/power-apps/developer/data-platform/webapi/web-api-service-documents) and [Use Postman with Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/use-postman-web-api).
   
- Calls the <xref href="Microsoft.Dynamics.CRM.msdyn_ParentIoTAlerts?text=msdyn_ParentIoTAlerts Action" /> and passes 60 for the `TimespanSeconds` parameter. The primary entity for this workflow is [msdyn_iotalert Entity Reference](../customerengagement/on-premises/developer/entities/msdyn_iotalert.md).  
+Calls the `Microsoft.Dynamics.CRM.msdyn_ParentIoTAlerts` API and passes 60 for the `TimespanSeconds` parameter. The primary entity for this workflow is `msdyn_iotalert`. 
   
- This workflow is an example that ships with the thermostat sample solution. It demonstrates how to handle duplicate/redundant alerts to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], which typically occurs when a device malfunctions.  This is a recommended best practices approach, because unfiltered alerts can result in unwanted duplicated remedial processing, for example, multiple, redundant reset commands being sent or field service repair orders being generated. These can also negatively affect the performance of your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance. (The thermostat sample is coded to filter duplicate alerts so that they are not passed to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], which is also a recommended practice.)  
+ This workflow is an example that ships with the thermostat sample solution. It demonstrates how to handle duplicate/redundant alerts to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], which typically occurs when a device malfunctions. This approach is a recommended best practice because unfiltered alerts can result in duplicated remedial processing. For example, it could result in redundant reset commands sent or multiple repair orders generated. These alerts can also negatively affect the performance of your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance. (The thermostat sample is coded to filter duplicate alerts to avoid passing them to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], which is also a recommended practice.)  
   
- This workflow is enabled by default, but can be deactivated or edited by users; for example, the time span can be modified.  
+ This workflow is enabled by default, but you can deactivate or edit it. For example, you can modify the time span.  
   
 <a name="bkmk_Parameters"></a>   
+
 ## Parameters  
- Parameter(s) allow for data to be passed to the workflow.  
+
+Data passes to the workflow using parameter(s).  
   
 |Name|Type|Nullable|Unicode|Description|  
 |----------|----------|--------------|-------------|-----------------|  

@@ -1,20 +1,16 @@
 ---
 title: "Known issues in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about known issues in real-time marketing and how to work around them."
-ms.date: 06/22/2022
+ms.date: 12/19/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Known issues in real-time marketing
@@ -24,7 +20,7 @@ As we continue to work on real-time marketing and refine the experience, we've b
 ## Analytics
 
 - In the aggregate cross-journey analytics dashboard, an extra step is needed to load the Power BI report in the Android and iPad native apps. To load the report, go to **Analytics**, then select a row, select the **Show as from** sub menu, then select **CC_Analytics_ReportingControl**.
-- Data retention is 12 months for details of operational data (such as contacts impacted by delivery and interaction issues) and for all other metrics (including operational and aggregate analytics).
+- Data retention is 12 months for Contact insights, Goal analytics, Channel analytics (including delivery and interaction details such as contacts impacted by delivery and interaction issues), and AI optimization analytics.
 - Some strings in the Power BI aggregate analytics dashboard aren’t localized.
 
 ## Consent

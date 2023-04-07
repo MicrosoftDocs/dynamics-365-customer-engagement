@@ -1,11 +1,10 @@
 ---
 title: "Configure advanced settings for a forecast"
 description: "Configure advanced settings for a forecast in Dynamics 365 Sales."
-ms.date: 06/13/2022
+ms.date: 12/16/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Configure advanced settings for forecasts
@@ -14,9 +13,10 @@ When you're configuring forecasts in Sales Hub, use the **Advanced** step to:
 
 - [Automatically hide parent row](#automatically-hide-parent-row)
 - [Turn on multi-currency selection](#turn-on-multi-currency-selection)
-- [Set kanban as the default view for underlying records (preview)](#set-kanban-as-the-default-view-for-underlying-records-preview)
+- [Set Kanban as the default view for underlying records (preview)](#set-kanban-as-the-default-view-for-underlying-records-preview)
 - [View prediction factors](#view-prediction-factors)
 - [Select the default attribute to group underlying records (preview)](#select-the-default-attribute-to-group-underlying-records-preview)
+- [Override column headers (preview)](#override-column-headers-preview)
 - [Customize underlying records](#customize-underlying-records)
 
 
@@ -51,15 +51,15 @@ For example, your organization has sales teams in the United States, Canada, and
 
 :::image type="content" source="./media/forecast-multi-currency-select.png" alt-text="A screenshot of a forecast with multiple currencies available to display revenue values.":::  
 
-## Set kanban as the default view for underlying records (preview)
+## Set Kanban as the default view for underlying records (preview)
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-The underlying records of a forecast can be displayed in a table view or a kanban (swimlane) view. Table view is the default. To change it, turn on **Set kanban as default**.
+The underlying records of a forecast can be displayed in a table view or a Kanban (swimlane) view. Table view is the default. To change it, turn on **Set kanban as default**.
 
-:::image type="content" source="media/forecast-default-kanban.png" alt-text="A screenshot of a forecast with kanban set as the default view and underlying records shown in kanban view.":::
+:::image type="content" source="media/forecast-default-kanban.png" alt-text="A screenshot of a forecast with Kanban set as the default view and underlying records shown in Kanban view.":::
 
-A user's most recent selection overrides the default for that user. For example, the default view for the underlying records of a forecast is kanban and a user switches to the table view. The underlying records open in the table view the next time the user views the forecast.
+A user's most recent selection overrides the default for that user. For example, the default view for the underlying records of a forecast is Kanban and a user switches to the table view. The underlying records open in the table view the next time the user views the forecast.
 
 ## View prediction factors
 
@@ -74,14 +74,14 @@ You'll need to turn on **Enable prediction factors** in your forecast's advanced
 
 ## Select the default attribute to group underlying records (preview)
 
-From the **Default group by attribute for underlying records (Preview)** dropdown, select an attribute by which to group underlying records by default. Users can select a different grouping attribute. Their selection overrides the default the next time they view the forecast.
+From the **Default group by attribute for underlying records (Preview)** dropdown list, select an attribute by which to group underlying records by default. Users can select a different grouping attribute. Their selection overrides the default the next time they view the forecast.
 
-The following screenshot illustrates how selecting the attribute, groups the underlying records by default:
+The following screenshot illustrates how selecting the attribute will group the underlying records by default:
 
 :::image type="content" source="media/forecast-default-group.png" alt-text="A screenshot of the group by attribute option and how the records are grouped based on the selected attribute.":::
 
 >[!NOTE]
->Grouping is only available in the table view. If you want to group underlying records, you'll need to turn off **Set kanban as default**. If you select both kanban view and grouping, then the default view is set to kanban, and groups appear only when the user switches to the table view.
+>Grouping is only available in the table view. If you want to group underlying records, you'll need to turn off **Set kanban as default**. If you select both Kanban view and grouping, then the default view is set to Kanban, and groups appear only when the user switches to the table view.
 
 ## Select the default view for underlying records (preview)
 
@@ -92,7 +92,19 @@ The following screenshot illustrates how selecting a default view displays the u
 :::image type="content" source="media/forecast-default-records-view.png" alt-text="A screenshot of the default underlying records view option and the view appearing in the underlying records grid.":::
 
 >[!NOTE]
->View selection is only available in the table view. If you want to open the records in a specific view by default, you'll need to turn off **Set kanban as default**. If you select both kanban view and a default view, then the records open in kanban view, and the default view appears only when the user switches to the table view.
+>View selection is only available in the table view. If you want to open the records in a specific view by default, you'll need to turn off **Set kanban as default**. If you select both Kanban view and a default view, then the records open in Kanban view, and the default view appears only when the user switches to the table view.
+
+## Override column headers (preview)
+
+In the **Layout** step of the forecast configuration, you select columns that you need in the forecast grid. These columns help your sellers better understand the forecast. 
+
+:::image type="content" source="media/forecast-column-names.png" alt-text="A screenshot of the column names in the **Layout** step of the forecast configuration":::
+
+If you want to translate the column names or add tooltips for additional context, you can define a control with the customization that you need. You can then override the column headers with the custom control. For more information about how to create a custom control for the header, see [Customize column headers in the forecast grid](fc-customize-column-headers.md).
+
+In the **Override column headers (Preview)** section, select the custom control that includes the customizations.  
+
+:::image type="content" source="media/fc-override-headers.png" alt-text="Screenshot of the **Override column headers** field in the **Advanced** step of forecast configuration.":::
 
 ## Customize underlying records
 

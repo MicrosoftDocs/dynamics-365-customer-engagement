@@ -3,9 +3,8 @@ title: "Deprecated Omnichannel for Customer Service entities | Microsoft Docs"
 description: "List of Omnichannel for Customer Service entities that have been deprecated"
 ms.date: 09/10/2020
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ---
 # Deprecated entities
 

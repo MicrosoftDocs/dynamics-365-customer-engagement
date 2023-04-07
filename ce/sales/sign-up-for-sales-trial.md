@@ -3,7 +3,7 @@ title: Sign up for a free trial
 description: Learn how to sign up for and start a free Dynamics 365 Sales trial. Explore the app with tours and videos and find more learning resources.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 11/23/2022
+ms.date: 02/06/2023
 ms.topic: get-started
 
 ms.custom: template-trial-setup
@@ -38,7 +38,7 @@ Your trial environment includes many of the same features as the paid version. T
   - [Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)
   - [Manage sequences](create-manage-sequences.md)
 - [Nurture your sales from lead to order](nurture-sales-from-lead-order-sales.md)
-  - [Manage your pipeline using deal manager](deal-manager-seller-overview.md)
+  - [Preview: Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)
   - [Create an opportunity](create-edit-opportunity-sales.md)
 - [Project your revenue](project-accurate-revenue-sales-forecasting.md)
   - [Configure forecasting](configure-forecast.md)

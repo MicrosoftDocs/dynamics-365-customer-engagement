@@ -20,7 +20,7 @@ Promise with a value as Boolean.
 // Let there be an event registered to a subscriber.
 handlerFunction = function(eventInput) 
 {
-    console.log(eventData);
+    console.log(eventInput);
     if(eventInput != null &&  eventInput != undefined && eventInput.size > 0) 
     {
         inputData = eventInput.get("value");
@@ -36,11 +36,11 @@ Microsoft.CIFramework.raiseEvent("oncustomevent", "test input value");
 //In the main UCI page
 Microsoft.CIFramework.addHandler("widgetEvent", handlerFunction);
 ///In the widget code
-Microsoft.CIFramework.raiseEvent("widgetEvent", eventData);
+Microsoft.CIFramework.raiseEvent("widgetEvent", eventInput);
 
 //In the widget code
 Microsoft.CIFramework.addHandler("mainPageEvent", handlerFunction);
 //In the main UCI page
-Microsoft.CIFramework.raiseEvent("mainPageEvent", eventData);
+Microsoft.CIFramework.raiseEvent("mainPageEvent", eventInput);
 
 ```

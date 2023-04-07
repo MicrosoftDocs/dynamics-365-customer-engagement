@@ -13,7 +13,6 @@ applies_to:
 ms.assetid: 14127ed4-0506-4071-a408-6052048ba299
 author: JimDaly
 ms.author: jdaly
-manager: annbe
 tags: 
   - aug2017
   - MigrationHO
@@ -45,7 +44,7 @@ The following diagram illustrates the key programmability scenarios for Dynamics
  When you connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (on-premises) environments with Internet-facing deployment (IFD), you can use [Azure AD Authentication Libraries (ADAL)](/azure/active-directory/azuread-dev/active-directory-authentication-libraries) to enable authentication from a wide variety of programming languages and platforms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Authenticate to Dynamics 365 Customer Engagement (on-premises) with the Web API](webapi/authenticate-web-api.md)
 
 > [!NOTE]
-> Azure ADAL v1.0 is deprecated. Use [Microsoft Authentication Library](/azure/active-directory/develop/reference-v2-libraries) (ADAL v2.0) instead.
+> The Azure ADAL library is deprecated. Use the [Microsoft Authentication Library (MSAL)](/azure/active-directory/develop/reference-v2-libraries) instead.
 >
 > The organization data service ("REST endpoint" or  "OData endpoint") is an OData v2 service that was deprecated in [!INCLUDE[pn_crm_2016_and_online_full](../includes/pn-crm-2016-and-online-full.md)] in favor of the Web API. The organization data service isn’t included in the preceding diagram. The organization service is still available to support code that used it. However, for any new development for Dynamics 365 Customer Engagement (on-premises) we recommend using the Web API. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the OData endpoint with web resources](https://msdn.microsoft.com/library/gg334279\(v=crm.7\).aspx)
 

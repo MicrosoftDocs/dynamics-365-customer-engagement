@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # How to use conditional content
@@ -84,7 +80,7 @@ In the designer, you should always preview and test each variation to make sure 
 
 ## When to use conditional content vs conditions (advanced personalization)
 
-As shown above, conditional content is a great way to deliver different images and content to better match a recipient’s interests and preferences. However, there are situations where you only want to change a few words or a sentence. For example, in many languages, initial greetings are different based on the recipient’s gender. In such situations, it is more efficient and convenient to use [conditions from advanced personalization](real-time-marketing-personalization.md#conditional-content) than to create a complete duplicate section containing the same set of images and text only to change the greeting.
+As shown above, conditional content is a great way to deliver different images and content to better match a recipient’s interests and preferences. However, there are situations where you only want to change a few words or a sentence. For example, in many languages, initial greetings are different based on the recipient’s gender. In such situations, it is more efficient and convenient to use [conditions from advanced personalization](real-time-marketing-personalize-inline-conditions.md) than to create a complete duplicate section containing the same set of images and text only to change the greeting.
 
 ## Conditional content inside content blocks
 

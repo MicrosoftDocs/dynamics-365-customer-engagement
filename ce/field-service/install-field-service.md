@@ -3,63 +3,46 @@ title: "Install Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to install Dynamics 365 Field Service.
 
 ms.topic: article
-ms.date: 10/13/2020
-ms.reviewer: mhart
+ms.date: 11/30/2022
 ms.author: jacoh
 author: jasonccohen
-ms.manager: shellyha
-search.app:
+ms.search.app:
   - D365CE
   - D365FS
 ---
 
 # How to install Dynamics 365 Field Service
 
-This article describes how to install the Dynamics 365 Field Service application for Dynamics 365 (online). 
+This article describes how to install the Dynamics 365 Field Service application. Installation and upgrades can take up to 30 minutes.
 
-## Prerequisites
+## Install Dynamics 365 Field Service
 
-To follow the steps in this article, you will need: 
+There are a few ways you can get access to Dynamics 365 Field Service:
 
-- Time. Field Service installations and upgrades can take up to 30 minutes or more. 
-- A desktop browser and a mobile device (phone, tablet, or Windows 10 device).
+- [Sign up for an free trial environment](trial-signup.md) that lets you explore Field Service for 30 days.
 
-## Step 1: Install Dynamics 365 Field Service
+- Purchase Field Service by going to your **Microsoft 365 admin center** > **Billing** > **Purchase Services**. Select **Dynamics 365 Field Service** and **Buy Now**. For more information about pricing and licensing, go to [Dynamics 365 pricing](https://dynamics.microsoft.com/pricing/#Service).
 
-There are a few ways you can get access to Dynamics 365 Field Service: 
-
-- Sign up for an entirely new trial environment. Head to [the Dynamics 365 trials site for Field Service](https://dynamics.microsoft.com/get-started/free-trial/?appname=fieldservice) and follow the instructions.
-
-- Purchase Field Service by going to your **Microsoft 365 admin center** > **Billing** > **Purchase Services** and select **Dynamics 365 Field Service** and **Buy Now**. You can also get Field Service from this [Dynamics 365 purchasing page](https://dynamics.microsoft.com/pricing/#FieldService).
-
-- Add a Field Service trial to an existing Dynamics 365 organization by going to **Settings** > **Microsoft AppSource**. Search for **Field Service trial**, select **Dynamics 365 Field Service trial**, and then select **Free Trial**.
+- Add a Field Service trial to an existing Dynamics 365 organization by going to **Advanced Settings** > **Customizations** > **Microsoft AppSource**. Search for **Trial: Dynamics 365 for Field Service** and select **Free Trial**.
 
 ### Verify the installation is complete
 
-If the installation is complete, the "Field Service" and "Field Service Mobile" apps will appear in the list of apps when you sign in. You can find these apps by going to:
+If the installation is complete, the "Field Service" and "Field Service Mobile" apps will appear in the list of apps when you sign in to your Dynamics 365 organization. You can find these apps by going to:
 
 ```https://[your-environment-name].crm.dynamics.com/apps```
-   
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service apps.](media/admin-apps.png)
- 
 
-## Step 2: Install and set up the Dynamics 365 Field Service mobile app
+:::image type="content" source="media/admin-apps.png" alt-text="Screenshot of Field Service apps.":::
 
-Next, set up the mobile app that frontline workers will use to view and complete work orders in the field. For more information, see the article on [getting started with the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
+## Install and set up the Dynamics 365 Field Service mobile app
 
+Set up the mobile app that frontline workers will use to view and complete work orders in the field. For more information, see the article on [getting started with the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
 
 ## Next steps
 
 After installing Field Service and the Field Service mobile app, see the following articles to configure the system to create, schedule, view, and complete work orders.
 
-- [Perform initial configurations](perform-initial-configurations-setup.md)
-- [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
+- [Set up users and security roles](view-user-accounts-security-roles.md)
 - [Create a bookable resource](set-up-bookable-resources.md)
-- [Quickstart: Schedule a work order and view it on the mobile application](quickstart-schedule-work-order.md)
-
-
-
-
+- [Get started with Dynamics 365 Field Service](field-service-get-started.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

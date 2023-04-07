@@ -4,7 +4,6 @@ description: "All form fields in Customer Engagement (on-premises) share common 
 Keywords: Main forms; Special field properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ms.date: 04/29/2019
 
 ms.topic: overview

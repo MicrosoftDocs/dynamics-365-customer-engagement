@@ -1,11 +1,10 @@
 ---
 title: "Customize forms | MicrosoftDocs"
 description: "Use the form designer to customize the forms that allow your users to enter or find information quickly."
-ms.date: 09/14/2021
+ms.date: 01/24/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
@@ -86,7 +85,7 @@ To set a form as the default form in the app, see [Why isn't my form displayed a
 ### See also
 
 [Customize views](customize-views.md)  
-[Customize business process flows](customize-business-process-flows.md)
-
+[Customize business process flows](customize-business-process-flows.md)  
+[Column-level security to control access](/power-platform/admin/field-level-security)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

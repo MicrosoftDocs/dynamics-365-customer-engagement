@@ -1,15 +1,14 @@
 ---
-title: "Configure Omnichannel historical analytics | MicrosoftDocs"
+title: "Manage historical analytics reports in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this article to learn how to configure historical analytics reports for Omnichannel for Customer Service."
-ms.date: 11/15/2022
+ms.date: 02/02/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Configure Omnichannel historical analytics reports
+# Manage historical analytics reports in Omnichannel for Customer Service
 
 You can configure Omnichannel historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and to group related conversations into topics.
 
@@ -58,7 +57,7 @@ You can enable historical analytics for unified routing in the Customer Service 
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for unified routing.
 
 1. Go to one of the apps, and perform the following steps.
-   
+
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
@@ -130,16 +129,15 @@ You can enable the historical analytics dashboard for voice in the Customer Serv
 
 The historical analytics for voice dashboard will be available as a tab in the Omnichannel historical analytics report.
 
-## Enable historical analytics for voicemail (preview) in Omnichannel for Customer Service
+## Enable historical analytics for voicemail in Omnichannel for Customer Service
 
-You can enable the historical analytics dashboard for voicemail (preview) in the Customer Service admin center app. The metrics are available in the dashboard after 24 hours of enabling it.
+You can enable the historical analytics dashboard for voicemail in the Customer Service admin center app. The metrics are available in the dashboard after 24 hours of enabling it.
 
 1. In Customer Service admin center, select **Insights** in **Operations**.
 1. For Omnichannel historical analytics, select **Manage**.
-1. Select **Add historical analytics for voicemail (preview)**. 
+1. Select **Add historical analytics for voicemail**.
 
-The historical analytics for voicemail (preview) dashboard will be available as a tab in the Omnichannel historical analytics report.
-
+The historical analytics for voicemail dashboard will be available as a tab in the Omnichannel historical analytics report.
 
 ### See also
 

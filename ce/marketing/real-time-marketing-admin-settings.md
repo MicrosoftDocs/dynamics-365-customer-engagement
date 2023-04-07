@@ -1,20 +1,16 @@
 ---
 title: "Real-time marketing administrator settings (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about administrator settings required for real-time marketing functionality in Dynamics 365 Marketing."
-ms.date: 05/13/2022
+ms.date: 03/29/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Real-time marketing administrator settings
@@ -29,5 +25,8 @@ The **Business** categorization allows business data to be shared with Power Aut
 
 > [!NOTE]
 > Real-time marketing journeys previous used a connector called Dynamics 365 Marketing (the ID was *shared_dynamics365marketing*). Journeys now use the native connector, which is called Dynamics 365 Marketing V2 (the ID is *shared_d365marketingforapps*). To ensure proper functionality, make sure you are using the most recent native connector.
+
+> [!IMPORTANT]
+> The Marketing connector is only available to be used directly by the Dynamics 365 Marketing product and cannot be used by any user or service outside of the product. The connector is visible in the DLP connectors list to allow you to enable Marketing to work when you have explicit DLP policies configured.
 
 Learn more about connector settings and DLP policies: [Connector classification](/power-platform/admin/dlp-connector-classification).

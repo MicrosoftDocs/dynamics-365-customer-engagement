@@ -2,14 +2,9 @@
 title: Create a work order to coordinate and schedule resources and activities (contains video)
 description: Learn how to create a work order in Dynamics 365 Field Service.
 ms.date: 09/24/2022
-ms.reviewer: mhart
 ms.topic: article
 author: lmasieri
 ms.author: lmasieri
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Create a work order to coordinate and schedule resources and activities
 
@@ -41,7 +36,7 @@ For more Field Service videos, go to [this full video playlist](https://aka.ms/f
 |-|-|-|-|-|-|-|  
 |**What happens**|New work order is created.<br /><br /> Assigned incident, product, services, skills, territory, etc.| Work order schedule is created.<br /><br /> Resources assigned to the work order.<br /><br /> Date and time specified.|Field agent notified of work order.<br /><br /> Field agent may review and accept/decline the work order.| Work order is carried out.<br /><br /> Information about what is performed in the field is entered through the mobile app.|Supervisor verifies that all the work was done properly, and that all information regarding the work order is correct.|Invoice is created based on products and services used.<br /><br /> Inventory adjustments are made.<br /><br /> Products converted into equipment (if applicable)|  
 |**Who performs the task**|Agreement is automatically generated on a recurring basis.<br /><br /> Case: By customer support.<br /><br /> Opportunity: By sales/scheduling.<br /><br /> Unplanned: By field agent or centralized scheduling.|Dispatcher<br /><br /> Field Agent<br /><br /> Dispatcher with help of scheduling assistant<br /><br /> Routing engine|Notification, if set up, sent by system automatically to field agent, customer, and other parties. |Field agent|Field supervisor/manager,<br /><br /> back-office accounting|Automatically sent by system|  
-|**Work order status**|Open - unscheduled|Open - scheduled|Open - scheduled|Open - unscheduled, then open-completed|Open - completed then closed-posted|Closed-posted|  
+|**Work order status**|Open - unscheduled|Open - scheduled|Open - scheduled|Open - scheduled, then open-completed|Open - completed then closed-posted|Closed-posted|  
 |**Work order schedule status**|N/A|Scheduled|Scheduled|Scheduled<br /><br /> Accepted/Declined<br /><br /> Custom Status|Completed|Completed|  
   
 ## Create a work order
@@ -78,7 +73,7 @@ The Get Started work order create form doesn’t support switching forms. If add
 
 1. At a minimum, enter information in the following required fields.
 
-    - For **Service Account**, select an account from the list or [create a new service account](work-order-customer-account.md#create-a-service-account).
+    - For **Service Account**, select an account from the list or [create a new service account](accounts.md).
     - For **Work Order Type**, select a work order type from the list or [create a new work order type](create-work-order-types.md).
     - For **System Status**, select **Open-Unscheduled**.
     - For **Price List**, select a price list from list or [create a new price list](create-price-list.md).

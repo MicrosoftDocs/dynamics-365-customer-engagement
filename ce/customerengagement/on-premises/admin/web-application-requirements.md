@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 6404db68-f66b-4128-ac2f-84258503bc82
 author: Mattp123
 ms.author: matp
-manager: brycho
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

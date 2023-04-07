@@ -1,18 +1,13 @@
 ---
-title: "Set up service task types (Dynamics 365 Field Service) | MicrosoftDocs"
+title: Set up service task types
 description: Learn how to set up service task types in Dynamics 365 Field Service
 ms.date: 09/30/2017
-ms.reviewer: mhart
 
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
 ---
-# Set up service task types in Dynamics 365 Field Service
+# Set up service task types
 
 Service task types in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] are used to define the "types" of service tasks that you will include in your incident types and work orders, and are performed by the field agent at the service location. Service tasks can be assigned a duration that rolls up to the work order duration.  
   

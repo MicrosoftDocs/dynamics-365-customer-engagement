@@ -5,7 +5,6 @@ ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Manage personas and custom security roles in Customer Service

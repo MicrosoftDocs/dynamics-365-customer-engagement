@@ -3,15 +3,11 @@ title: "Walkthrough 1: Build an agent application for Unified Interface apps | M
 description: "Use this walkthrough to understand the prerequisites and procedures for setting up a basic agent application for Unified Interface apps. "
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ---
 
 # Walkthrough 1: Build a simple agent application for Unified Interface apps

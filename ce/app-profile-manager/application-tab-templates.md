@@ -1,9 +1,8 @@
 ---
 title: "Manage application tab templates | MicrosoftDocs"
 description: "Learn how to create application tab templates in Customer Service. Find information on the various page types and their corresponding parameters."
-author: "mh-jaya"
-ms.author: v-jmh
-manager: shujoshi
+author: "gandhamm"
+ms.author: mgandham
 ms.date: 09/06/2022
 ms.topic: article
 ---
@@ -16,7 +15,7 @@ The vertical bar on the left panel shows the list of sessions. The panel will al
 
 Every session has at least one application tab, called the "Anchor tab", that can't be closed or customized. When you start a session, the corresponding application page and any other additional pages are opened based on your configuration settings.
 
-Using the application tab template, you can define applications that are available for a session, and then associate those applications with the session. For example, you can create the **Customer Summary** page tab and associate it with a chat or SMS session. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and the **Customer Summary** page opens.
+Using the application tab template, you can define applications that are available for a session, and then associate those applications with the session. For example, you can create the **Active Conversation** page tab and associate it with a chat or SMS session. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and the **Active Conversation** page opens.
 
 As an administrator, you can create multiple application tab templates.
 
@@ -186,7 +185,7 @@ The following out-of-the-box application tab templates are available.
 
 | Template name                       | Description                                    | Application type |
 | --------------                      | --------------------------------------         | -----------------|
-| Customer Summary                    | Displays the Customer Summary page in the tab. | Entity Record |
+| Active Conversation                 | Displays the Active Conversation page in the tab. | Entity Record |
 | Entity record                       | Displays an entity record in the tab.          | Entity Record |
 | Knowledge Search                    | Displays the knowledge article search page in the tab.          | Web Resource |
 | Omnichannel Conversations Dashboard | Displays the Omnichannel Conversations Dashboard in the tab. | Dashboard |

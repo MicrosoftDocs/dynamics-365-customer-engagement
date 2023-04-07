@@ -1,25 +1,21 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
-description: Learn about the SLA issues and how to troubleshoot them.
-ms.date: 11/29/2022
+description: Learn about SLA issues and how to troubleshoot them.
+ms.date: 03/23/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
 
 # Troubleshoot issues with service-level agreements in Customer Service
 
-This article explains various issues related to SLAs and provides reasons and steps to resolve them.
+This article explains the various issues related to SLAs and provides reasons and steps to resolve them.
 
 ## Troubleshoot issues with SLA creation
 
@@ -69,7 +65,7 @@ Some SLAs don't take into account daylight saving time for warning and failure d
 
 #### Reason
 
-If your SLA was created in the web client that is now deprecated, the business schedule calendar does not support daylight saving time.
+If your SLA was created in the web client that is now deprecated, the business schedule calendar doesn't support daylight saving time.
 
 #### Resolution
 
@@ -85,7 +81,7 @@ Custom time calculation isn't configured correctly.
 
 #### Resolution 
 
-Set up custom time calculation and troubleshoot issues. For more information on setting up custom time calculation, go to: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis)
+Set up custom time calculation and troubleshoot issues. For information on setting up custom time calculation, go to: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis). For information on troubleshooting issues, go to: [Error codes for custom time calculation](/dynamics365/customer-service/enable-sla-custom-time-calculation#error-codes-for-custom-time-calculation)
 
 ## Troubleshoot issues with SLA timer
 
@@ -132,7 +128,7 @@ However, if all the SLAs are active but the flow is still deactivated, perform t
 2. In **Cloud flows**, select  **SLAInstanceMonitoringWarningAndExpiryFlow**.
 3. Select **Turn on**.
 
-### SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday
+### SLA timer doesn't pause when its state is changed from InProgress to OnHold on a holiday
 
 Once triggered, the SLA timer continues to run even when its state is changed from **InProgress** to **OnHold**.
 
@@ -148,12 +144,12 @@ The functionality is intended. Your organization defines business hours while sc
 
 See the following scenarios to understand how the SLA **Warning** and **Failure** time is calculated:
 
-- Create a case during non-working hours. Pause and resume the case before working hours start. Hold time between **Pause** and **Resume** will not be considered.
+- Create a case during non-working hours. Pause and resume the case before working hours start. Hold time between **Pause** and **Resume** won't be considered.
 - Create a case during non-working hours. Pause and resume the case during working hours. Hold time will be considered and **Warning** and **Failure** time will be extended based on hold time.
-- Create a case during working hours. Pause the case during working hours. Resume the case during non-working hours. Hold time will not be considered for **Warning** and **Failure** time.
+- Create a case during working hours. Pause the case during working hours. Resume the case during non-working hours. Hold time won't be considered for **Warning** and **Failure** time.
 - Create a case during working hours. Pause the case during non-working hours and resume it during working hours. **Warning** time and **Failure** time will be recalculated.
 
-### OnHold Time attribute is not populated for Case for Unified Interface SLA
+### OnHold Time attribute isn't populated for Case for Unified Interface SLA
 
 The **onholdtime** attribute to track the onHold duration for case at a case entity level doesn't get populated.
 
@@ -186,11 +182,63 @@ If the customizations.xml file has the SLAs and you select **Overwrite Customiza
 
 - If you want to import other customizations in the solution, the SLAs don't need to be re-imported. You can remove them from the customizations.xml file.
 
-## Troubleshoot other issues 
+### Changes to a SLAItem through an upgrade solution don't appear even after a successful upgrade
+
+Changes like Applicable when, Success, Pause conditions, or adding action flows through an upgrade solution don't appear in the SLA of the target organization. This is the expected behavior, and is applicable to both UCI and legacy SLAs.
+ 
+#### Reason 
+When an SLA is activated or an SLAItem is modified manually on the organization (for example, Applicable when conditions, Success, Warning, or Failure actions), the upgrade solution changes aren't reflected. This is because the active layer takes precedence over the upgrade solution.
+
+#### Resolution
+We recommend that you make changes to a SLA or a SLAItem only through an upgrade solution. If the issue persists even after importing the patch solution, you can opt for the overwrite customization option while importing the full solution. Overwriting customization removes all the active layer customizations on the SLA, and therefore, all the changes in the upgrade solution are reflected. Overwrite customization might only be visible in Legacy Solution import.
+
+## Troubleshoot issues with entitlements
+
+### Unable to create entitlements because Allocation Type dropdown doesn't show any options
+
+Unable to create entitlement forms from either the Customer Service Hub or the Customer Service admin center app because of lack of data in the entitlement’s entity type mappings with the EntitlementEntityAllocationTypeMappingBase table.
+
+### Scenario 1
+
+#### Reason
+The **Allocation Type** field doesn't exist in the entitlement entity with **Case** option.
+
+#### Resolution
+
+Add the **Allocation Type** field by performing the following steps:
+1. In either of the apps, go to **Advanced Settings** > **Customizations** > **Customize the System** > **Expand Entitlement Entity** > **Fields** > **Check Allocation Type** field options.
+1. Add the **Allocation Type** field.
+
+### Scenario 2
+
+#### Reason
+
+The entitlement's entity allocation type mapping records aren't present in the EntitlementEntityAllocationTypeMappingBase table when the **Entity Type** field from the entitlement entity has more than one option other than case.
+
+#### Resolution
+
+**Entity Type** is a type of option set field in the Entitlement table that has **Case** as the default option. If **Case** is the only option available for **Entity Type**, then the Entitlement table automatically loads **Allocation Type** values for the **Case** option. In a case where more than one option is set for the **Entity Type** field, you'll need to select the **Entity Type** option so that the Entitlement table will load **Allocation Type** values based on that **Entity Type** selection.
+
+Add the entitlement's entity allocation type mapping records to the EntitlementEntityAllocationTypeMappingBase table.
+
+- Use the following query to insert missing mapping records and add a record for allocation type for the **Case** entity type:
+
+    `Insert INTO [dbo].[EntitlementEntityAllocationTypeMappingBase]` 
+`(entitlemententityallocationtypemappingid, statecode, statuscode, allocationtype, entitytype, OwnerId) Values('0C537E5C-13E8-410B-A65C-783A113D49FC', 0, 1, 0, 0, 'F5C0B9AD-E076-ED11-81B3-6045BDE41C7D')`
+
+- Include the following information for the mandatory fields:
+    - **Entitlemententityallocationtypemappingid**: New GUID. 
+    - **Statecode**: Provide state code that explains the status.
+    - **Statuscode**: Provide the reason code that explains the status.
+    - **Allocationtype**: Provide type of entitlement terms.
+    - **Entitytype**: Entity type for which the entitlement applies.
+    - **OwnerId**: Owner Id
+
+## Troubleshoot other issues
 
 ### SLA KPI instance status shows as canceled
 
-When you update the target record such that **Applicable when** condition is no more applicable, the SLA KPI status moves from one of the existing states of **In progress**, **Succeeded**, **Nearing non compliance**, or **Expired** to the **Canceled** state. The SLA KPI instance is canceled on the second evaluation because the **Applicable when** condition is no longer met. Consider the following scenario in which you create an SLA with the following conditions and set it as the default SLA.
+When you update the target record so that **Applicable when** condition is no more applicable, the SLA KPI status moves from one of the existing states of **In progress**, **Succeeded**, **Nearing non compliance**, or **Expired** to the **Canceled** state. The SLA KPI instance is canceled on the second evaluation because the **Applicable when** condition is no longer met. Consider the following scenario in which you create an SLA with the following conditions and set it as the default SLA.
 
 - **Applicable when:** Case status equals active
 - **Success condition:** Case status equals resolved
@@ -208,7 +256,7 @@ When you define the **Applicable when** and **Success condition** on the same at
 
 #### Resolution
 
-In such scenarios, we recommend that you don't define the **Applicable when** and **Success condition** on the same attribute.
+In such scenarios, it is recommended that you don't define the **Applicable when** and **Success condition** on the same attribute.
 
 ### Success, warning, and failure actions are being run multiple times in web client
 
@@ -221,7 +269,7 @@ Consider a scenario in which you've created an SLA in the web client with an SLA
 
 2. Add **Resolved** to case title. The success condition is met and the following events occur:
 
-   - SLA KPI instance status is updated to succeeded.
+   - The SLA KPI instance status is updated to succeeded.
    - A success action, such as send mail, is run, if configured.
 
 3. Update the case type to request.
@@ -333,7 +381,7 @@ Avoid using the **modifiedon** and **modifiedby** fields for reporting because t
 
 ### See also
 
-[Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)  
+[Understand SLA details with Timer control](customer-service-hub-user-guide-case-sla.md#understand-sla-details-with-timer-control)
 [Define service-level agreements](define-service-level-agreements.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

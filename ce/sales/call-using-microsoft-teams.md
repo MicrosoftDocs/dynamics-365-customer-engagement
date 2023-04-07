@@ -1,11 +1,10 @@
 ---
 title: "Make and receive Teams calls in Dynamics 365"
 description: "Make and receive Teams calls in Dynamics 365 through the dialer, a record, or a work item."
-ms.date: 11/10/2022
+ms.date: 02/21/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
@@ -25,7 +24,7 @@ Microsoft Teams dialer helps you to be more productive and get work done effecti
 ## Open Teams calls dialer
 
 >[!NOTE]
->- An administrator must configure the Microsoft Teams dialer in your organization for you to use it. More information: [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
+> An administrator must configure the Microsoft Teams dialer in your organization for you to use it. More information: [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
 
 Sign in to your sales app and select the phone (![Phone icon.](media/phone-icon.png "Phone icon")) icon in the upper-right corner of the page to open the **Calls** and view the dial pad.  
 
@@ -97,7 +96,6 @@ The caller name is automatically displayed when the phone number is associated w
 > [!NOTE]
 >- If a phone number is associated with more than one record, the notification will display up to 3 records and will indicate more records exist with this phone number. Select the appropriate record.
 >- If you receive a call while you're on another call, the inbound call notification will provide an option to either end the current call and accept the incoming call, or to reject the incoming call and continue with the current call.
->- Currently, Dynamics 365 doesn't support incoming calls from Teams call queues. Contact your administrator if you're receiving calls from call queues in Dynamics 365.  
 
 To receive the call, select **Answer**. The Teams telephony panel opens and the call is connected. 
 

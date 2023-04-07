@@ -1,10 +1,9 @@
 ---
 title: "Create and manage workstreams | MicrosoftDocs"
 description: "Use this article to understand how to create and manage workstreams in Customer Service and Omnichannel for Customer Service apps."
-ms.date: 07/13/2022
+ms.date: 02/10/2023
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.topic: article
 ms.custom: intro-internal
 ---
@@ -62,7 +61,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
     
     - **Record**: This box appears if you've selected the type as **Record**. Select the record from the list. More information: [Set up record routing](set-up-record-routing.md)
     
-    - **Work distribution mode**: Select **Push** or **Pick**.
+    - **Work distribution mode**: Select **Push** or **Pick**. You can't edit this setting later.
          - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, only push mode is available.
          - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
     

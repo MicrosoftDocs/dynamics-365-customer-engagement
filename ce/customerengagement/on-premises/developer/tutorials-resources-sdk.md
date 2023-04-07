@@ -14,7 +14,6 @@ ms.assetid: 1ac6ca26-0326-4b56-8708-70f6dff845c9
 caps.latest.revision: 69
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 tags: 
   - aug2017
   - MigrationHO

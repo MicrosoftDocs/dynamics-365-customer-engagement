@@ -4,14 +4,9 @@ description: Learn how to turn on auto geocoding in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/08/2022
-ms.reviewer: mhart
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Turn on auto geocoding to calculate estimated travel time

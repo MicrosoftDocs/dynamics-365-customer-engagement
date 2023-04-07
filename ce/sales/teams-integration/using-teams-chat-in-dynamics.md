@@ -1,14 +1,10 @@
 ---
 title: "Use Teams chat in Sales Hub | MicrosoftDocs"
 description: "Start Teams chat conversations from within Sales Hub and connect them to records"
-ms.date: 09/09/2022
+ms.date: 03/31/2023
 ms.topic: article
 author: sbmjais
-search.app: 
-  - D365CE
-  - Powerplatform
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Use Microsoft Teams chat in Sales Hub
@@ -176,4 +172,5 @@ The selected record opens and the **Teams chats** pane is refreshed with the cha
 ### See also
 
 [Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)   
-[Configure the ability to use suggested contacts](enable-contact-suggest.md)
+[Configure the ability to use suggested contacts](enable-contact-suggest.md)  
+[Collaborate with AI-suggested contacts in Dynamics 365 Customer Service](/dynamics365/customer-service/use-ai-suggested-contacts-teams)

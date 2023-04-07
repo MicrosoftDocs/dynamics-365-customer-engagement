@@ -1,19 +1,20 @@
 ---
-title: "Integrate your own custom channel: Direct Line | MicrosoftDocs"
-description: "This article provides information on how you can integrate custom messaging channels using Direct Line API 3.0."
+title: Integrate your own custom channel using Direct Line
+description: This article provides information on how you can integrate custom messaging channels using Direct Line API 3.0.
 ms.date: 07/19/2022
-ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+ms.topic: how-to
+author: gandhamm
+ms.author: mgandham
+ms.custom: bap-template
+ms.reviewer: nenellim
 ---
-# Integrate your own custom channel: Direct Line
+# Integrate your own custom channel using Direct Line
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 With Omnichannel for Customer Service, you can implement a connector to integrate custom messaging channels by using Direct Line API 3.0, that's part of .NET SDK. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. To learn more about the Direct Line API 3.0, see [Key concepts in Direct Line 3.0 API](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true).
 
- This article explains how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to Omnichannel for Customer Service. The following section includes code snippets that use Direct Line API 3.0 to create a Direct Line client and the `IChannelAdapter` interface to build a sample connector.
+This article explains how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to Omnichannel for Customer Service. The following section includes code snippets that use Direct Line API 3.0 to create a Direct Line client and the `IChannelAdapter` interface to build a sample connector.
 
 > [!Note]
 > The source code and documentation describe the overall flow of how the channel can connect to Omnichannel for Customer Service through Direct Line, and don't focus on aspects of reliability and scalability.
@@ -387,7 +388,7 @@ private async Task PollActivitiesFromBotAsync(string conversationId, Activity in
 ```
 
 > [!NOTE]
-> At the heart of the code that receives the message is the GetActivityAsync method, passing the ConversationId and watermark. The purpose of the watermark is to retrieve only the messages that aren't yet delivered by Direct Line. If the watermark parameter is specified, the conversation replays from the watermark, guaranteeing that no messages are lost.
+> At the heart of the code that receives the message is the GetActivitiesAsync method that takes `ConversationId` and `watermark` as parameters. The purpose of the `watermark` parameter is to retrieve the messages that aren't yet delivered by Direct Line. If the watermark parameter is specified, the conversation replays from the watermark, so that no messages are lost.
 
 ### Send the activity to Direct Line
 
@@ -415,11 +416,14 @@ If the conversation is active for the activity received by the relay processor, 
 
 To end the conversation, see [End a conversation in Direct Line](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-end-conversation?view=azure-bot-service-4.0&preserve-view=true).
 
+## Next steps
+
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
+[Markdown formats in custom channels that use Direct Line](markdown-formats-dev.md)   
+
 ### See also
 
 [Configure custom messaging channel](configure-custom-channel.md)  
-[Support for live chat and asynchronous channels](card-support-in-channels.md)  
-[Markdown formats](markdown-formats-dev.md)  
 [MessageBird API reference](https://developers.messagebird.com/api)  
 [Best practices for configuring bots](configure-bot-best-practices.md) 
 

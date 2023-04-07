@@ -1,11 +1,10 @@
 ---
 title: Connect with customers through your work list or the Up next widget
 description: Learn how to use the Up next widget or the My work list to connect with customers by phone, email, and Teams meeting in Dynamics 365 Sales.
-ms.date: 10/20/2022
+ms.date: 02/10/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Connect with customers through your work list or the Up next widget
@@ -23,7 +22,7 @@ When a sequence contains a customer contact activity, your [work list](prioritiz
 
 ## Call a customer
 
-You can make a phone call to your customer from the record in the **My work** list or an activity in the **Up next** widget. The app calls the contact's business phone number if there is one. If no business phone number is available, the app calls the contact's mobile phone number. If both a business and a mobile phone number aren't available, the app displays the softphone dialer for you to dial a phone number manually. If the contact has indicated they don't want to be contacted by phone, the app displays a warning message before you make the call.
+You can make a phone call to your customer from the record in the **My work** list or an activity in the **Up next** widget. The app calls the contact's business phone number if there's one. If no business phone number is available, the app calls the contact's mobile phone number. If both a business and a mobile phone number aren't available, the app displays the softphone dialer for you to dial a phone number manually. If the contact has indicated they don't want to be contacted by phone, the app displays a warning message before you make the call.
 
 To make a call from your work list, select the phone icon in the **My work** list record.
 
@@ -92,6 +91,24 @@ To open an appointment from the **Up next** widget, select **Open** in the activ
 
 :::image type="content" source="media/sa-create-appointment-upnext-widget.png" alt-text="Screenshot of opening an appointment from the Up next widget.":::
 
+## Send a text message to customers
+
+You can send a text message (SMS) to your customer from the record in the My work list or an activity in the **Up next** widget.  
+
+A phone number must be available for the contact you're sending the message to. If not, a warning message is displayed. When you send an SMS, the app creates an activity and links it to the record and updates the Timeline wall accordingly.
+
+You can select the text message option in the following ways:  
+
+-	From your work list, hover over the work list card and then select the message icon. 
+
+-	From the **Up next** widget, select **Text message** in the activity.
+
+When the text message is selected, the conversation pane opens, allowing you to compose your message or select a template through the text box to send. Additionally, if you have multiple phone numbers associated, you can choose which number to use for sending the message. 
+
+:::image type="content" source="media/sms-text-message-pane.png" alt-text="Screenshot of the conversation pane.":::
+
+The message history is linked to the record and available for you or other sellers who work on the record for reference. Also, you can view replies from the customers and respond to them through the conversation pane. More information: [Manage text message conversations](manage-text-message-communications.md)
+
 ## Add a note to an activity
 
 Notes that you add to an activity appear on the record's timeline.
@@ -141,8 +158,9 @@ If you can't connect with a customer by the due date and want to follow up later
 
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)  
 [Understand the Up next widget](understand-the-up-next-widget.md)  
-[Use Outlook category to track appointments and emails](/power-platform/admin/use-outlook-category-track-appointments-emails)   [Track Outlook appointments in Dynamics 365 for Outlook](/dynamics365/outlook-addin/user-guide/track-outlook-appointments)  
+[Use Outlook category to track appointments and emails](/power-platform/admin/use-outlook-category-track-appointments-emails)  
+[Track Outlook appointments in Dynamics 365 for Outlook](/dynamics365/outlook-addin/user-guide/track-outlook-appointments)  
 [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)  
-[Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-integration)
+[Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-integration) 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

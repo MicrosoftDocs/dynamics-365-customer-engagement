@@ -4,17 +4,13 @@ description: "Connected Field Service integrates Internet of Things (IoT) device
 ms.date: 01/05/2018
 
 ms.topic: get-started-article
-ms.author: keithh
-author: MSKeith
-ms.reviewer: mhart
+ms.author: vhorvath
+author: vhorvathms
 search.audienceType: 
   - developer
 ms.custom: 
   - dyn365-developer
   - dyn365-fieldservice
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Develop customized IoT solutions in Connected Field Service
 

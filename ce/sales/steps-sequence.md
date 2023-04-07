@@ -1,11 +1,10 @@
 ---
 title: "Add steps to define activities for sequences"
 description: "Add steps to define activities for sequences in the sales accelerator to display in the work list and Up next widget."
-ms.date: 07/29/2022
-ms.topic: article
+ms.date: 02/10/2023
+ms.topic: how to
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Add steps to sequence
@@ -23,6 +22,8 @@ Add steps to define activities for sequences in the sales accelerator to display
 When creating a sequence, you can add the following types of activities as steps:
 - [Email activity](#email-activity)
 - [Automated email activity](#automated-email-activity)
+- [Send a text message](#send-a-text-message)
+- [Send an automated text message](#send-an-automated-text-message)
 - [Phone call activity](#phone-call-activity)
 - [Task activity](#task-activity)
 - [Set wait time](#set-wait-time)
@@ -85,6 +86,70 @@ To add the automated email activity step:
     The automated email activity is added to the sequence.
 
 Now, you can define conditions for automated email activity to determine the branch that sequence moves to next step. More information: [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity).   
+
+## Send a text message
+
+Creates a text message (SMS) activity for sellers to communicate with customers. When this activity is shown to the seller, a message icon is displayed on the record in the **Up next** widget. When a seller selects the icon, the text composer opens with a template, if one was selected. If no template was selected, an empty text composer opens.
+
+To add the text message activity step:
+
+1.	In the sequence designer page, select the **Add** (+) icon under a step.
+
+2.	On the **Add an action or other element** dialog box, under the **Steps** tab, select **Send a text message**.
+
+3.	On the **Text message** pane, enter the following information to configure the text message activity:
+
+    -	A name and description for the activity. The information you enter here will be on the step in the **Up next** widget.
+
+    -	(Optional) Add an SMS template.  
+
+        1.	Select **Add a text message template**.
+
+        2.	On the **Text message templates** dialog box, select the template you want to use for this step.
+
+        3.	Select **Select template**. 
+        
+        If no templates are available, you can add a template by selecting **Create new template** and then selecting it to be used in the step.
+       
+        To know more about SMS templates, see [Personalize text messages through templates](create-text-message-templates.md).
+
+4.	Close the text message pane.
+
+The text message activity is added to the sequence.
+
+## Send an automated text message
+
+Creates an automated text message (SMS) activity for sellers to communicate with customers. When this activity is shown to the seller, a send icon is displayed on the record in the **Up next** widget. The SMS is automatically sent to the customer based on the selected template.
+
+>[!NOTE]
+>-	Add a **Set wait time** activity before the automated text message activity. Adding wait time provides a time gap between the previous step and sending the automated SMS. If the time gap isn't configured, the automated SMS will be sent immediately after the previous activity is completed, which won't give sellers the time they might need to act on the automated SMS activity.
+>-	Verify that required SMS templates are created in your organization. More information: [Personalize text messages through templates](create-text-message-templates.md)
+
+To add the automated text message activity step:
+
+1.	In the sequence designer page, select the **Add** (+) icon under a step.
+
+2.	On the **Add an action or other element** dialog box, under the **Steps** tab, select **Send an automated text message**.
+
+3.	On the **Text message** pane, enter the following information to configure the automated text message activity:
+
+    -	A name and description for the activity. The information you enter here will be displayed on the step in the Up next widget.
+
+    -	Add an SMS template. 
+
+        1.	Select **Add a text message template**. 
+
+        2.	On the **SMS templates** dialog box, select the template you want to use for this step.
+
+        3.	Select **Select template**. 
+
+        If no templates are available, you can add a template by selecting Create new template and then selecting it to be used in the step.
+        
+        To know more about SMS templates, see [Personalize text messages through templates](create-text-message-templates.md).
+
+4.	Close the text message pane.
+
+The text message activity is added to the sequence.
 
 ## Phone call activity   
 

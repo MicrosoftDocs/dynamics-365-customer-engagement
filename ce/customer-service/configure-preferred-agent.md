@@ -1,11 +1,12 @@
 ---
-title: "Configure routing to preferred agents | MicrosoftDocs"
-description: "Configure settings to route work items to preferred agents in Customer Service."
-ms.date: 10/22/2022
-ms.topic: article
+title: Configure routing to preferred agents
+description: Learn how to configure settings to route work items to preferred agents in Customer Service.
+ms.date: 03/13/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Configure routing to preferred agents
@@ -52,7 +53,11 @@ You can configure contacts and their preferred agents in the Customer Service ad
 
   :::image type="content" source="media/preferred-agents-mapped-view.png" alt-text="Screenshot of the Preferred agent routing settings page, showing contacts and their preferred agents.":::
 
-### Routing diagnostics and preferred agent settings
+## How routing to preferred agent works
+
+If a preferred agent exists for a contact, the system will try to directly assign the conversation to an available preferred agent whose presence matches with one of the allowed presence configured in the workstream. The check for capacity, skills, and assignment rules will be skipped. If no preferred agents are available for a contact and **Next best agent based on assignment logic** is selected as the fallback option, then the system will try to find a matching agent according to the configured assignment strategy.
+
+### Check diagnostics for routing to preferred agents
 
 If you've turned on routing diagnostics, the work item's diagnostics page will include information about preferred agent routing under **Agent assignment trace**. The **Assignment criteria** section shows whether the setting is turned on. The **Assignment trace** section displays the reason information. More information: [Diagnostics for unified routing](unified-routing-diagnostics.md)
 
@@ -69,7 +74,7 @@ To find the preferred agent for an incoming work item, the contact should be ide
 |Channel|Customer record|
 |-------|---------------|
 |Record |<ul><li>**Case**: Use the **Customer** field to store the contact ID.</li><li>**Email, phone, fax, letter, appointment**: Use the **Regarding** field to store the contact ID. </li></ul>|
-|**Digital messaging**: Chat, voice, and other channels|<ul><li> **Chat**: [Authenticated users are automatically identified as contacts](record-identification-rule.md). For unauthenticated users, use the pre-conversation survey to set the survey question name as **Name**.</li><li>**Voice**: Authenticated with the phone number.</li><li>Other channels: [Social profile](card-support-in-channels.md#support-for-social-profiles). </li></ul> |
+|**Digital messaging**: Chat, voice, and other channels|<ul><li> **Chat**: [Authenticated users are automatically identified as contacts](record-identification-rule.md). For unauthenticated users, use the pre-conversation survey to set the survey question name as **Name**.</li><li>**Voice**: Authenticated with the phone number.</li><li>Other channels: [Social profiles](supported-channels-social-profiles.md). </li></ul> |
 
 ### Add multiple preferred agent records
 

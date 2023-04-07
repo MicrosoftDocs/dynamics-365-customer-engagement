@@ -1,11 +1,10 @@
 ---
 title: "Configure outbound messaging in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about how to configure outbound messaging in Omnichannel for Customer Service."
-ms.date: 06/09/2022
+ms.date: 02/17/2023
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 
@@ -28,7 +27,7 @@ As an administrator, you can do the following tasks:
 The following prerequisites must be met.
 
 - The channel that you want to use must be provisioned in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
-- To send outbound messages through SMS, you must configure the SMS channel by using an account with an SMS provider, either Twilio or TeleSign. 
+- To send outbound messages through SMS, you must configure the SMS channel using Twilio, TeleSign, or Azure Communication Services. More information: [Configure an SMS channel for Twilio](Configure-sms-channel-twilio.md), [Configure an SMS channel for TeleSign](configure-sms-channel.md), and [Configure an SMS channel using Azure Communication Services](configure-sms-channel-acs.md)
 - To send outbound messages through WhatsApp, you must [configure the WhatsApp channel](configure-whatsapp-channel.md) by using a Twilio account.
 - To send outbound messages through Twitter, you must [configure a Twitter Direct Message channel](configure-twitter-channel.md). 
 - You must have a Power Automate account.

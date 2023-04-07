@@ -14,7 +14,6 @@ ms.assetid: 21421486-ec16-44ed-ae95-fc3554a573d7
 caps.latest.revision: 24
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Planning your deployment of Microsoft Dynamics 365 Customer Engagement (on-premises)
 

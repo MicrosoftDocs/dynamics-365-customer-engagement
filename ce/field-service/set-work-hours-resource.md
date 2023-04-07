@@ -6,17 +6,12 @@ ms.date: 09/15/2017
 ms.topic: article
 author: ryanchen8
 ms.author: chenryan
-ms.reviewer: mhart
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Set work hours for a resource (Customer Service)

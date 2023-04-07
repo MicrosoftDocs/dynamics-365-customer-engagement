@@ -2,14 +2,9 @@
 title: "Uninstall Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to uninstall Dynamics 365 Field Service 
 ms.date: 11/22/2022
-ms.reviewer: mhart
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Uninstall Dynamics 365 Field Service
 

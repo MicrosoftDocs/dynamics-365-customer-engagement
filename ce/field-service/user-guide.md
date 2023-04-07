@@ -2,16 +2,11 @@
 title: "User guide for Dynamics 365 Field Service (contains video)"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
 ms.date: 02/11/2021
-ms.reviewer: mhart
 ms.topic: overview
 
 ms.custom: intro-internal
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
-search.app:
-  - D365CE
-  - D365FS
 ---
 # Dynamics 365 Field Service user guide
 
@@ -69,7 +64,7 @@ Before we begin, here are the top places for information about Field Service:
 <li><a href="https://youtu.be/oJ-3HTJWRMo" data-raw-source="[Module 8b: Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)">Module 8b: Set up automatic scheduling for work orders</a></li>
 <li><a href="https://youtu.be/fcQwIXgmnqk" data-raw-source="[Module 9a: Automated scheduling scenarios with Field Service](https://youtu.be/fcQwIXgmnqk)">Module 9a: Automated scheduling scenarios with Field Service</a></li>
 <li><a href="https://youtu.be/ida7f0gtAYU" data-raw-source="[Module 10: Set up and use Dynamics 365 Remote Assist with Field Service](https://youtu.be/ida7f0gtAYU)">Module 10: Set up and use Dynamics 365 Remote Assist with Field Service</a></li>
-<li><a href="https://youtu.be/hvcqAbe4g4E" data-raw-source="[Set up Connected Field Service with Azure IoTCentral](https://youtu.be/hvcqAbe4g4E)">Set up Connected Field Service with Azure IoTCentral</a></li>
+i>
   </li> 
   </ul>
   </td>
@@ -82,7 +77,6 @@ The purpose of this section is to help you set up a Field Service environment.
    <ul>
 <li><a href="install-field-service.md" data-raw-source="[Install Field Service (web + mobile)](install-field-service.md)">Install Field Service (web + mobile)</a></li>
    <li><a href="view-user-accounts-security-roles.md" data-raw-source="[Setup Users and Security roles](view-user-accounts-security-roles.md)">Setup Users and Security roles</a></li>
-  <li><a href="perform-initial-configurations-setup.md" data-raw-source="[Perform initial configurations](perform-initial-configurations-setup.md)">Perform initial configurations</a></li>
   <li><a href="set-up-bookable-resources.md" data-raw-source="[Set up bookable resources](set-up-bookable-resources.md)">Set up bookable resources</a></li>
   <li><a href="mobile-power-app-get-started.md" data-raw-source="[Get started with Microsoft Dynamics 365 Field Service mobile app](mobile-power-app-get-started.md)">Get started with Microsoft Dynamics 365 Field Service mobile app</a></li>
   </ul>
@@ -94,7 +88,6 @@ The purpose of this section is to help you set up a Field Service environment.
 
 The purpose of this section is to help you configure work order management, which is a core capability of Field Service.
    <ul>
-  <li><a href="quickstart-schedule-work-order.md" data-raw-source="[Quickstart - Create and schedule a work order](quickstart-schedule-work-order.md)">Quickstart - Create and schedule a work order</a></li>
    <li><a href="universal-resource-scheduling-for-field-service.md" data-raw-source="[Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)">Universal Resource Scheduling for Field Service</a></li>
  <li><a href="create-work-order.md" data-raw-source="[[Create a work order](create-work-order.md)]">Create a Work Order</a></li>
 <li><a href="configure-incident-types.md" data-raw-source="[[Create work order templates with incident types](configure-incident-types.md)]">Create work order templates with incident types</a></li>
@@ -112,7 +105,7 @@ The purpose of this section is to help you explore all the features of Field Ser
 <ul>
 
  <li><a href="schedule-assistant.md" data-raw-source="[Schedule assistant](schedule-assistant.md)">Schedule assistant</a></li>
- <li><a href="configure-set-up-customer-assets.md" data-raw-source="[Customer assets](configure-set-up-customer-assets.md)">Customer assets</a></li>
+ <li><a href="assets.md" data-raw-source="[Customer assets](assets.md)">Customer assets</a></li>
  <li><a href="set-up-customer-agreements.md" data-raw-source="[Agreements](set-up-customer-agreements.md)">Agreements</a></li>
  <li><a href="inventory-purchasing-returns-overview.md" data-raw-source="[Overview of inventory, purchasing, and returns](inventory-purchasing-returns-overview.md)">Overview of inventory, purchasing, and returns</a></li>
 </ul>
@@ -128,7 +121,7 @@ The purpose of this section is to help you explore all the features of Field Ser
 
  <li><a href="https://youtu.be/3W7hI-6dZhg" data-raw-source="[What is Resource Scheduling Optimization?](https://youtu.be/3W7hI-6dZhg)">What is Resource Scheduling Optimization?</a></li>
  <li><a href="https://youtu.be/oJ-3HTJWRMo" data-raw-source="[Quickstart: Auto schedule a list of work orders](https://youtu.be/oJ-3HTJWRMo)">Quickstart: Auto schedule a list of work orders</a></li>
- <li><a href="rso-overview.md" data-raw-source="[Deploy, configure, and run RSO](rso-overview.md)">Deploy, configure, and run RSO</a></li>
+ <li><a href="rso-overview.md" data-raw-source="[Deploy, configure, and run Resource Scheduling Optimization](rso-overview.md)">Deploy, configure, and run Resource Scheduling Optimization</a></li>
 </ul>
 </td>
 
@@ -162,8 +155,6 @@ The purpose of this section is to help you explore all the features of Field Ser
 The purpose of this section is to provide implementation guidance and best practices, both technical and strategic. It also points toward extensibility and developer instructions.
    <ul>
   <li><a href="https://youtu.be/LQXpjMMrJIo" data-raw-source="[General Field Service implementation best practices](https://youtu.be/LQXpjMMrJIo)">General Field Service implementation best practices</a>
-  <li><a href="5-stages-scheduling-adoption.md" data-raw-source="[The five stages of scheduling adoption](5-stages-scheduling-adoption.md)">The five stages of scheduling adoption</a>
-</li>
   <li><a href="configure-default-settings.md" data-raw-source="[Field Service Settings](configure-default-settings.md)">Field Service Settings</a></li>
    <li><a href="version-history.md" data-raw-source="[Version history](version-history.md)">Version history</a></li>
     <li><a href="appsource-addins.md" data-raw-source="[AppSource add-ins for Field Service](appsource-addins.md)">AppSource add-ins for Field Service</a></li>
@@ -194,7 +185,7 @@ Looking for training outside of documentation? Here are some of our training res
 
 - [Implementing Microsoft Dynamics 365 for Field Service](/training/paths/implementing-dyn365-field-service/): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours.
 - [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/training/paths/universal-resource-scheduling/): Schedule anything to the right resource for any job or task with ease. Takes 5 hours.
-- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/training/paths/working-with-connected-field-service-iot/): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
+- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/training/paths/working-with-connected-field-service-iot/): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring, and servicing equipment. Takes 6 hours.
 - [Learn the fundamentals of Microsoft Dynamics 365 Marketing](/training/paths/dynamics-365-fundamentals/): This learning path introduces learners to the core capabilities of Dynamics 365 Marketing. You will learn about the core product capabilities and other tools that you can use to successfully and effectively manage marketing activities. This learning path helps prepare you for Exam MB-910: Microsoft Dynamics 365 Fundamentals (CRM). Takes 1 hour, 15 minutes.
 
 ### Functional Consultant
@@ -202,7 +193,7 @@ Looking for training outside of documentation? Here are some of our training res
 - [Implementing Microsoft Dynamics 365 for Field Service](/training/paths/implementing-dyn365-field-service/): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours. Also available as a series of instructor-led courses:
   - [Microsoft Dynamics 365 Field Service, MB240](/certifications/courses/mb-240t00)
 - [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/training/paths/universal-resource-scheduling/): Schedule anything to the right resource for any job or task with ease. Universal Resource Scheduling (URS) is a Dynamics 365 Field Service solution that allows organizations from different industries with different scenarios schedule resources. Takes 7 hours.
-- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/training/paths/working-with-connected-field-service-iot/): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
+- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/training/paths/working-with-connected-field-service-iot/): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring, and servicing equipment. Takes 6 hours.
 
 ### Certifications
 

@@ -1,11 +1,10 @@
 ---
 title: "Configure reconnection to a chat session | MicrosoftDocs"
 description: "Learn about configuring reconnections to previous chat sessions in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 01/23/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Configure reconnection to a previous chat session
@@ -76,6 +75,7 @@ You can enable the reconnection options in the chat widget either while setting 
 [Add a chat widget](add-chat-widget.md)  
 [Create a work stream](work-streams-introduction.md)  
 [Slug for reconnection link](../app-profile-manager/automation-dictionary-keys.md#slug-for-reconnection-link)  
-
+[Understand conversation states](oc-conversation-state.md)    
+[Understand disconnected chats](oc-conv-state-chat-disconnect.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,7 +6,6 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -48,8 +47,9 @@ Verify the following requirements before setting up conversation intelligence fo
 
 ### See also
 
-[Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   
-[Overview of conversation intelligence](dynamics365-sales-insights-app.md) 
+- [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
+- [Overview of conversation intelligence](dynamics365-sales-insights-app.md)  
+- [Which Conversation intelligence features are available in Dynamics 365 Sales versus Viva Sales?](faqs-sales-insights.md#which-conversation-intelligence-features-are-available-in-dynamics-365-sales-versus-viva-sales)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

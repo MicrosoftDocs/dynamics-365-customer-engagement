@@ -1,21 +1,17 @@
 ---
 title: "Select the audience source for real-time journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to select the audience source for real-time journeys in Dynamics 365 Marketing."
-ms.date: 08/02/2021
+ms.date: 01/23/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Select the audience source for real-time journeys

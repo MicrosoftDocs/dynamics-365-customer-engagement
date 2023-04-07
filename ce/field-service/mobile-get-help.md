@@ -2,7 +2,6 @@
 title: "Get help for Field Service Mobile | MicrosoftDocs"
 description: Learn about the ways you can get help for Field Service Mobile
 ms.date: 10/27/2021
-ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: troubleshooting
@@ -11,9 +10,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Get help for Field Service Mobile

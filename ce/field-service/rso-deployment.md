@@ -1,22 +1,17 @@
 ---
-title: Deploy Resource Scheduling Optimization for Dynamics 365 Field Service
-description: Learn how to deploy Resource Scheduling Optimization for Dynamics 365 Field Service
-ms.date: 09/07/2022
-ms.topic: article
-ms.reviewer: mhart
-
+title: Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service
+description: Learn how to deploy and manage the deployment for  the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
+ms.date: 02/03/2023
+ms.topic: how-to
+ms.custom: bap-template
 ms.subservice: resource-scheduling-optimization
 author: FeifeiQiu
 ms.author: feiqiu
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Deploy Resource Scheduling Optimization for Dynamics 365 Field Service
+# Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service
 
-After [getting access to Resource Scheduling Optimization](./rso-get-install.md) either by purchasing a license or through your local Microsoft representative, you must deploy it to your Dynamics 365 Field Service environment.
+After [getting access to Resource Scheduling Optimization](rso-get-install.md) either by purchasing a license or through your Microsoft representative, deploy it to your Dynamics 365 Field Service environment.
 
 ## Deployment steps
 
@@ -47,7 +42,9 @@ After the initial deployment, you can manage the deployed instance.
 
 1. Find Resource Scheduling Optimization and select **Manage**.
 
-   :::image type="content" source="media/rso-completed.png" alt-text="Screenshot of the Manage Resource Scheduling Optimization instance page.":::
+   :::image type="content" source="media/rso-upgrade-manage-powerapps-admin.png" alt-text="Screenshot of Resource Scheduling Optimization in Power Platform admin center.":::
+
+1. Choose one of the following options:
 
    - Select **Upgrade to new version** to get the latest version. This option only shows if a newer version is available.
 
@@ -58,5 +55,10 @@ After the initial deployment, you can manage the deployed instance.
 ## Privacy notice
 
 [!INCLUDE[cc_privacy_rso_location_info_bing_maps](../includes/cc-privacy-rso-location-info-bing-maps.md)]
+
+## Next steps
+
+- [Quickstart for Resource Scheduling Optimization](rso-quickstart.md)
+- [Resource Scheduling Optimization configuration](rso-configuration.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

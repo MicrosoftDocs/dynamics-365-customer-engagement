@@ -2,25 +2,15 @@
 title: "Set up Dynamics 365 for phones and tablets | MicrosoftDocs"
 description: How to set up Dynamics 365 for phones and tablets
 ms.custom:
-ms.date: 10/13/2021
+ms.date: 12/12/2022
 ms.reviewer:
-
-ms.suite:
-ms.tgt_pltfrm:
 ms.topic: overview
-applies_to: Dynamics 365 apps
-ms.assetid: 7a28ff46-558b-47c5-9c99-073fd6f66844
-caps.latest.revision: 141
 ms.author: sericks
 author: sericks007
-manager: tapanm-MSFT
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Sales
 ---
 # Setup overview for mobile apps
 
@@ -97,6 +87,7 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 | management.azure.com |https |Between versions 4.3.19022.10 and 4.3.19081.22 (Android) or 13.19022.10 and 13.19081.22 (iOS), used to fetch the list of apps to populate the app list. </br> Starting with version 13.19033.0 ([for mobile app for Windows](windows-mobile-app.md)), used for email sign-in and the app list.|
 | api.businessappdiscovery.microsoft.com |https |Between versions 4.3.19091.0 and 4.3.20081.1 (Android) or 13.19091.0 and 13.20081.1 (iOS), used to fetch the list of apps to populate the app list. |
 | api.powerapps.com |https |Starting with version 4.3.20081.2 (Android) and 13.20081.2 (iOS), used to fetch the list of apps to populate the app list. |
+| api.powerplatform.com |https |Starting with version 4.3.22113.19 (Android) and 13.22113.19 (iOS), used to fetch the list of apps to populate the app list. |
 |<br>login.microsoft.com</br> <br>login.windows.net</br> <br>login.microsoftonline.com</br> <br>secure.aadcdn.microsoftonline-p.com</br>|https |Azure Active Directory - used for authentication (in all versions).
   
 This list identifies all resources used by Dynamics 365 for phones and tablets. Your configuration (for example, Azure Active Directory or Intune) must not block these resources.
@@ -104,6 +95,7 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
 | Resources(s) | Uses |
 | --- | --- |
 | service.powerapps.com |Starting with version 13.19091.20, used for email sign-in and the app list. |
+| api.powerplatform.com |Starting with version 4.3.22113.19 (Android) and 13.22113.19 (iOS), used for email sign-in and the app list. |
 
 ### Security privileges  
  Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provides access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams. For more information on how to share apps in Microsoft Dataverse, see [Share a model-driven app using Power Apps](/powerapps/maker/model-driven-apps/share-model-driven-app).

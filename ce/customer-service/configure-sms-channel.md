@@ -1,11 +1,10 @@
 ---
 title: "Configure an SMS channel for TeleSign | MicrosoftDocs"
 description: "Get instructions for configuring an SMS channel for TeleSign in Omnichannel for Customer Service."
-ms.date: 10/27/2022
+ms.date: 02/17/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Configure an SMS channel for TeleSign
@@ -38,8 +37,6 @@ Verify that you have permissions on the secure columns. More information: [Confi
 
 You can enable the SMS channel from the Dynamics 365 admin center. For steps on enabling SMS in your organization as a part of provisioning Omnichannel for Customer Service, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
 
-> [!NOTE]
-> The SMS channel is available only if you have an active subscription of Dynamics 365 for Customer Service Digital Messaging.
 
 ## Sign up for TeleSign account
 
@@ -78,7 +75,7 @@ An SMS channel can be enabled within Omnichannel for Customer Service by integra
       - **API key:** API key generated from the TeleSign account.
 
    1. In **SMS phone numbers**, select **Add**, and enter the following details in **Add SMS number**:
-    - **Number:** Specify the support phone number that you purchased from TeleSign in the *<phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
+    - **Number:** Specify the support phone number that you purchased from TeleSign in the *<phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces, special characters, or the plus sign (+).
     - **Type:** Select Geo, Short code, or Toll free.
     - **Description:** Enter a description.
     - **Validate:** Select to validate the customer ID and API key.
@@ -187,6 +184,7 @@ When you validate the API key while setting up the SMS channel, a call is made t
 ### See also
 
 [Channels in Omnichannel for Customer Service](channels.md)  
+[Overview of SMS channels](sms-channel-overview.md)  
 [Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)  
 [Configure SMS channel for Twilio](configure-sms-channel-twilio.md)  
 [Create and manage routing rules](routing-rules.md)  

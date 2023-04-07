@@ -5,7 +5,6 @@ ms.date: 12/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.custom: intro-internal
 ---
 
@@ -222,7 +221,7 @@ For more information, see the developer guide, [Test your custom messaging chann
 ### See also
 
 [Extend Omnichannel for Customer Service](extend-omnichannel.md)  
-[Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
+[Bring your own custom messaging channel using Direct Line](bring-your-own-channel.md)  
 [Test the custom messaging channel](test-custom-channel-sample-html.md)  
 [Skill-based routing](overview-skill-work-distribution.md)  
 [Productivity tools](../app-profile-manager/productivity-tools.md)  

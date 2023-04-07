@@ -13,7 +13,6 @@ applies_to:
 ms.assetid: 87099d51-4abe-406c-8f2d-e2375292bb64
 author: JimDaly
 ms.author: jdaly
-manager: annbe
 search.audienceType: 
   - developer
 

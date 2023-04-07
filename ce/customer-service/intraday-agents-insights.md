@@ -1,11 +1,10 @@
 ---
 title: "Omnichannel Intraday insights: Agents insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Agents insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 11/25/2021
+ms.date: 01/18/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom: intro-internal
 ---
@@ -136,5 +135,6 @@ You can select the **Status** field to modify the presence indicator for an agen
 [Intraday insights dashboard](intraday-insights-dashboard.md)  
 [View and understand conversation insights](intraday-conversation-insights.md)  
 [View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)  
+[Seller details page for sales managers](../sales/conversation-intelligence-seller-details.md#seller-details-page-for-sales-managers)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
