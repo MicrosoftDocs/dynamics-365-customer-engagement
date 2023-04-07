@@ -101,8 +101,8 @@ For more information about managing subscriptions, go to [Manage Microsoft Dynam
     > [!div class="mx-imgBorder"]
     > ![Button to approve and test mailboxes.](media/test-approve-mailbox.png "Button to approve and test mailboxes")
 
-       > [!Note]
-       > If an error occurs in a mailbox, an alert is sent to the user of the mailbox. You can also see the alert when you open the mailbox record. The **Test Run Status** column is set to **Failure** for the mailbox. Select **Approve and test mailboxes** to test and approve the mailboxes.
+    > [!Note]
+    > If an error occurs in a mailbox, an alert is sent to the user of the mailbox. You can also see the alert when you open the mailbox record. The **Test Run Status** column is set to **Failure** for the mailbox. Select **Approve and test mailboxes** to test and approve the mailboxes.
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
