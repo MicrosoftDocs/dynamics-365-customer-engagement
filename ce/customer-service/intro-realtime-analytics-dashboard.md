@@ -52,7 +52,7 @@ As a supervisor, you can view the Omnichannel real-time analytics dashboard in C
 
 ## Report details
 
-The Omnichannel real-time analytics reports consist of the following:
+The Omnichannel real-time analytics reports consist of the following options:
 
 - **Summary**: This report provides an overview of your organization in real time. This report provides KPIs across the volume of customer interactions and service levels, along with the available capacity in real time. More information: [View and understand the Summary report in Omnichannel real-time analytics (preview)](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics-preview)
 
@@ -79,7 +79,7 @@ You can use the filters on the dashboards like time, agent, channels, queue, tim
 
 The **Time** dropdown list includes options such as **Include open conversations**, **Last 24hrs**, and **Today**.
 
-- **Include open conversations**: Shows all conversations that started in the last 24 hours, as well as those that started in the last three days and are still open.
+- **Include open conversations**: Shows all conversations that started in the last 24 hours, and those that started in the last three days and are still open.
 - **Last 24hrs**: Shows all conversations that started in the last 24 hours.
 - **Today**: Shows all conversations that started today in the selected time zone.
 
@@ -94,7 +94,7 @@ Report data is refreshed automatically in real time. However, you can use the **
 ### See also
 
 [Manage bookmarks](manage-bookmarks.md)  
-[Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service)  
+[Customize the visual display of your analytics reports](customize-reports.md#customize-the-visual-display-of-your-analytics-reports)  
 [Manage real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service-preview)    
 [View and understand the Summary report in Omnichannel real-time analytics (preview)](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics-preview)    
 [View and understand the Voice report in Omnichannel real-time analytics (preview)](realtime-voice-dashboard.md#view-and-understand-the-voice-report-in-omnichannel-real-time-analytics-preview)    
