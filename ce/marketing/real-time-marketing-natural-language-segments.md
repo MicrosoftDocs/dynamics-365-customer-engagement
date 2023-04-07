@@ -42,3 +42,5 @@ If you select a new search, you'll notice that the **Use** button now has a drop
 
 > [!div class="mx-imgBorder"]
 > ![provide your feedback](media/real-time-marketing-provide-feedback.png "provide your feedback")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,5 @@ After that, our deliverability team will review the request and determine if the
 
 > [!NOTE]
 > If a contact is removed from a supression list that is used in a live journey, the changes will take effect in the next iteration of the journey (if the journey is recurring), not in the current one.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,5 @@ Learn more about dynamic values: [Personalize content](real-time-marketing-perso
 
 > [!div class="mx-imgBorder"]
 > ![Add dynamic values.](media/brand-profiles-email-dynamic.png "Add dynamic values")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

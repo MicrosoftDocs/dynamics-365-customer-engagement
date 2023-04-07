@@ -115,3 +115,5 @@ Technically it is possible to add www.yourdomain.com to use it for sending email
 ### See also
 
 [Domain authentication in Outbound marketing](mkt-settings-authenticate-domains.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

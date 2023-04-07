@@ -40,3 +40,5 @@ Follow these steps to expedite the Dynamics 365 Marketing setup process.
 ## Next steps
 
 After the Marketing app is set up, you can start setting up features such as [email](email-get-started.md) and [text messages](real-time-marketing-outbound-text-messaging.md) to reach out to your customers.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

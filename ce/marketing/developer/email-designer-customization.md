@@ -41,3 +41,5 @@ To customize the email designer:
     > [!NOTE]
     > If you enable the timeline functionality for a Marketing email entity and would like to add a timeline visual to the **Email properties** form, you must also add it to the **New editing experience** form. In other words, the timeline functionality has the same requirements as field customizations.
 1. Select **Save**, then **Publish** your changes.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

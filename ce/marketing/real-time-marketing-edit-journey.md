@@ -46,3 +46,5 @@ Analytics results are kept for each version, enabling you to compare and optimiz
 
 > [!div class="mx-imgBorder"]
 > ![Analytics comparison between versions.](media/real-time-marketing-journey-edit-analytics.png "Analytics comparison between versions")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

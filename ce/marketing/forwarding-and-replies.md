@@ -41,3 +41,5 @@ When you send an email and your recipient wants to reply to your email, the repl
 The "Reply-To:" header is ignored, however, in the case of automatic responses. As detailed in [RFC3834](https://datatracker.ietf.org/doc/html/rfc3834), automatic responses should always be sent to the address specified in the "From:" header. In such a scenario, the "Reply-To:" header is ignored.
 
 Only manual replies (when the recipient selects the “Reply” button) are sent to the "Reply-To:" address.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

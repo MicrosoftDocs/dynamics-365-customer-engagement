@@ -52,3 +52,5 @@ Areas that support business units but don't yet support modernized business unit
 Areas that don't yet support business units at all (that is, all records are created at the organization level) include:
 - Domains 
 - Audience configuration
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

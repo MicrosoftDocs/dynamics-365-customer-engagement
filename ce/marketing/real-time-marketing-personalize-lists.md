@@ -104,3 +104,5 @@ To add a filter condition, select **+Add list filter** in the list editing pane.
 > ![add a filter](media/real-time-marketing-add-a-filter.png "add a filter")
 
 With this condition defined, only the items that meet the condition will be included. Note that the generated code for the list doesn’t change as the filter condition is stored within the list definition and isn't needed as inline code.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

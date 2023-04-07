@@ -39,3 +39,5 @@ Customer journeys feature multiple mechanisms that allow you to set schedules so
 
 > [!IMPORTANT]
 > If you use a recurrent journey and your contacts are still being held after a new iteration starts, the held contacts will be blocked from further processing on the previous iteration.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

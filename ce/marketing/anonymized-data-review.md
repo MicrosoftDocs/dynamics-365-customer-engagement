@@ -82,3 +82,5 @@ All proper tagging to handle GDRP DSRs is maintained. You can contact your Dynam
 ## Have more questions?
 
 Learn more: [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=512132).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

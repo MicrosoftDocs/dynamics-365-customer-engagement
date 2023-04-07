@@ -28,3 +28,5 @@ To add your VIP customers to your segment, search for them by name. When you fin
 
 > [!div class="mx-imgBorder"]
 > ![Search for names to add in your segment](media/real-time-marketing-search-for-names-to-add-in-your-segment.png "Search for names to add in your segment")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
