@@ -23,15 +23,9 @@ search.app:
 
 The frequency cap feature lets you set a limit on the number of messages your customers receive in a given amount of time through a particular channel. Some customers qualify for multiple journeys and campaigns that run simultaneously. This results in them receiving multiple messages through one channel in a short period of time. This can be perceived as spam and lower the customers' engagement with your messages. With the frequency cap feature, you can optimize engagement by controlling how many messages are sent across multiple channels over a period of time. This improves engagement, decreases unsubscriptions, and reduces the number of messages marked as spam over time.
 
-## How to enable frequency cap settings
+To illustrate the capabilities of frequency capping, the article starts by creating a global setting and then proceeds to create a real-time marketing journey.
 
-To illustrate the capabilities of frequency capping, the article starts by creating a global setting and then proceeds to create a real-time marketing journey. Before you can use the frequency capping preview, however, you must enable the feature switch. To enable the feature switch:
-
-1. Go to **Settings** > **Other settings** > **Feature switches**.
-1. Set the **Frequency capping (preview)** toggle to **On**.
-1. Select **Save** in the upper right.
-
-### Create the frequency cap setting
+### Create a frequency cap setting
 
 By default, the "Marketing Manager - Business" role will have the rights to create a frequency cap setting. You can create a frequency cap setting for each business unit in your organization. To create a frequency cap setting:
 
