@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 03/31/2023
+ms.date: 04/06/2023
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -23,7 +23,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 The insights dashboards in Omnichannel for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends. The dashboards provide a view into the support operation across the various channels.
 
-You can save personalized views of your dashboards as bookmarks.
+You can make changes to the visual display of the dashboards and also save your personalized views as bookmarks.
 
 ## Manage dashboards
 
@@ -74,6 +74,7 @@ The reports refresh shows the following information.
 ### See also
 
 [Introduction to Customer Service insights](introduction-customer-service-analytics.md)  
-[Manage bookmarks](manage-bookmarks.md)
+[Manage bookmarks](manage-bookmarks.md)  
+[Customize visual display](customize-reports.md#customize-visual-display)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

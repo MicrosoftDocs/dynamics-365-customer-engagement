@@ -1,13 +1,15 @@
 ---
-title: "Visual customization of historical analytics reports in Customer Service | MicrosoftDocs"
-description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using the Power BI embedded editing experience."
-ms.date: 10/03/2022
-ms.topic: article
-author: lalexms
-ms.author: laalexan
-manager: shujoshi
+title: Customize visual display
+description: Learn how to customize out-of-the-box reports in Dynamics 365 Customer Service using the Power BI embedded editing experience.
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: shujoshi
+ms.service: dynamics-365
+ms.topic: how-to
+ms.date: 04/06/2023
 ms.custom: 
   - dyn365-customerservice
+  - bap-template
 search.audienceType: 
   - admin
   - customizer
@@ -16,19 +18,19 @@ search.app:
   - D365CS
 ---
 
-# Customize visual display of historical analytics reports in Customer Service
+# Customize visual display
 
-Dynamics 365 Customer Service provides out-of-box reporting capabilities, including industry-standard metrics that are critical for every support organization. These reports are designed to help supervisors in your organization to better understand and manage agent performance.
+Dynamics 365 Customer Service provides out-of-the-box analytics reports that help you visualize KPIs and trends to cover standard contact center workflows. With visual customization, you can edit the out-of-the-box reports to support your organizational needs.
 
-The nature of your business may require that you customize these standard reports based on your organization's needs. You can edit out-of-box reports in the following ways:
+Use visual customization to:
 
-- Rearrange out-of-box report layouts and change themes.
-- Modify the visual look of the data, such as to display a metric trend over time versus a tabular view.
-- Create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports.
+- Leverage more out-of-the-box metrics that may be relevant to your organization, through the Power BI embedded editing experience. The data model that supports the out-of-the-box reports also provides you with more metrics that may not be directly exposed in the reports.
+- Modify the visual look of the data. For example, you can have a graphic that displays the trend of a metric over time rather than a tabular view of the metric.
+- Add new pivots and add new pages. For example, you can create a new pivot or page that's dedicated to a specific queue with queue level metrics.
+- Rearrange out-of-the-box report layouts and change themes.
 
 > [!Note]
-> Visual customization of historical analytics reports is currently available for Customer Service Workspace, Customer Service Hub, and Omnichannel for Customer Service. It is not available for unified routing or knowledge management analytical reports.
-
+> Visual customization of Omnichannel historical, Customer Service historical, and Omnichannel real-time analytics reports is currently available for Customer Service workspace. It isn't available for unified routing and knowledge analytics reports.
 
 ## Grant user privileges to edit analytics reports
 
@@ -36,38 +38,45 @@ To be able to edit analytics reports, users must have the **Analytics Report Aut
 
 ## Customize the visual display of your analytics reports
 
-1. Open the **Omnichannel historical analytics** or **Customer Service historical analytics** report in Customer Service workspace.
+1. Open the **Omnichannel real-time analytics**, **Omnichannel historical analytics**, or **Customer Service historical analytics** report in Customer Service workspace.
    
-1. Select **Edit report**. The Power BI embedded editing experience is displayed.
+1. Select **Edit report**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Select Edit report.](media/edit-report.png "Select Edit report to open the Power BI report authoring experience.")
+    :::image type="content" source="media/visual-edit-report.png" alt-text="Select Edit report to open the Power BI editing experience":::
+   
 
    The following panes open on the right-hand side of the page:
 
-   - **Visualizations**: Displays a list of options you can use to create different visual views in your report. Choose which visuals you want in your report by deleting a currently displayed visual and then adding the visual you prefer by dragging and dropping it from **Visualizations** list to the area where you want it to display in your report. For example, if you wanted to change the background color of your reports, you would select **Page background**, and then select the color you want from the **Themes color** palette.
+   - **Visualizations**: Displays a list of options you can use to create different visual views in your report. Choose which visuals you want in your report by deleting a currently displayed visual and then adding the visual you prefer. For example, if you want to show **Incoming conversations over time** as a table instead of the bar chart, you can change your visual from the **Visualizations** pane.
 
-     > [!div class="mx-imgBorder"] 
-     > ![Visualization pane.](media/customize-visualization.png "Customize report display on the Visualizations pane")
+      :::image type="content" source="media/visual-incoming-conversations.png" alt-text="Customize report display on the Visualizations pane":::
 
-   - **Fields**: Displays a list of KPIs, measures, dimensions, and attributes you can represent in your report. For example, if you wanted to track average handle time more closely, you could select **Avg handle time** from the list in the **Fields** pane, and then drag and drop it in the **Fields** section of the **Visualizations** pane.
+   - **Data**: Displays a list of KPIs, measures, dimensions, and attributes you can represent in your report. This data also has the KPIs that are available for use, beyond the ones displayed on the out-of-the-box reports. For example, **Participation Mode** in **FactSessionParticipant**, is a fact that allows you to build metrics to count the number of times a subject-matter expert accepted a consult request. More information: [Understand out-of-the-box data model](#understand-out-of-the-box-data-model)
 
-     > [!div class="mx-imgBorder"] 
-     > ![Drag and drop metrics from the Fields pane.](media/customize-visualization-field.png "Drag and drop metrics to change display")
- 
- 
-1. When you're done selecting the customizations you want for your report, select **Save** and then **Publish**. Once you publish the report, all customizations become visible to all users in your organization. 
+      :::image type="content" source="media/visual-sessionpart-mode.png" alt-text="Drag and drop metrics to change display":::
+    
+1. When you're done selecting the customizations you want for your report, select **Save** and then **Publish**. Once you publish the report, all customizations become visible to all users in your organization.
 
-1. (Optional) To continue editing the report after you've published it, select **Resume editing**. The **Visualizations** and **Fields** panes are reopened. You can further customize your report, and then save and publish it again.
-
-1. If at some point you want to revert all of your changes to the original report settings, you can do so by selecting **Edit report** > **Checkout default report** > **Reset**. 
+1. If at some point you want to revert all your changes to the original report settings, you can do so by selecting **Edit report** > **Checkout default report** > **Reset**.
    > [!IMPORTANT]
    > Selecting **Reset** will permanently remove any customizations you've made.
 
+To continue editing the report after you've published it, select **Resume editing**. The **Visualizations** and **Fields** panes reopen. You can further customize your report, and then save and publish it again.
+
+## Understand out-of-the-box data model
+
+The out-of-the-box data model consists of facts and dimension tables. Facts represent the data you want to analyze, while dimensions represent the attributes of the data that you want to break down to explore further.
+
+Fact tables organize key KPIs logically. For example, **FactConversation** has conversation metrics like **Average handle time**, while **FactAgent** has **Agent metrics**.  
+
+You can use facts and dimensions to visualize data, according to your organizational requirements. If you'd like to understand how average handle time varies by queue, you can create a new visualization like a bar chart, and have **Average Handle Time** fact in **FactConversation** further divided by the dimension **Queue Name** in **DimQueue**.
+
 ### Future data model updates
 
-In a scenario in which you've customized your reports and then Microsoft makes updates to the default data model for a report, the customizations you've made for your reports won't be overwritten by the updates to the data model. However, if there's a change to the naming conventions in the Power BI embedded editing experience, those changes will be reflected in the respective list and may require that you reselect the metric with the new name. For more information on data model and report mapping, see: [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
+In a scenario in which you've customized your reports and then Microsoft makes updates to the default data model for a report, the customizations you've made for your reports aren't overwritten by the updates to the data model. However, if there's a change to the naming conventions in the Power BI embedded editing experience, those changes will be reflected in the respective list and may require that you reselect the metric with the new name. For more information on data model and report mapping, go to [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
 
+> [!NOTE]
+> Make sure that you don't add more than 20 metrics (or tiles) to a report, as it affects performance. If you need more metrics, consider creating more pages and provide references to the extra pages from the existing report pages.
 
 ### See also
 
