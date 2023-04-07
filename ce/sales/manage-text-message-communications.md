@@ -64,6 +64,7 @@ You can only view conversations if the outbound phone number or record is assign
 - **Record**: 
     
     1. Open a record (account, contact, lead, or opportunity).        
+    
     1.  Select the message icon corresponding to a phone number (Business Phone or Mobile Phone),          
         >[!NOTE]
         >For opportunity records, open the **Activity** tab and then double-click a conversation that you want to view.           
@@ -71,12 +72,17 @@ You can only view conversations if the outbound phone number or record is assign
         
 - **Notification center**: 
 
-    1. Open your sales app and on the navigation bar, select the bell icon.           
-        The in-app notifications are displayed.                
+    1. Open your sales app and, on the navigation bar, select the bell icon.           
+        
+       The in-app notifications are displayed.                
+    
     1. Select the notification.            
-        The **Activities** grid opens with the list of conversations related to you.       
+       
+       The **Activities** grid opens with the list of conversations related to you.       
+    
     1. Double-click a conversation.    
-        The conversation pane opens on the right-side of the page.
+       
+       The conversation pane opens on the right side of the page.
 
 - **Sales accelerator workspace**:
 
@@ -90,13 +96,14 @@ The conversation pane is where you, as a seller, interact with your customer. Yo
 - Choose templates to send personalized messages.    
 - Choose a phone number to send a message.   
 - View the history of the conversation related to the record.   
+
 The following image is an example of the conversation pane.
 
 :::image type="content" source="media/sms-inbound-communication-pane.png" alt-text="Screenshot of the text message communication page." lightbox="media/sms-inbound-communication-pane.png":::
 
-1. **Related conversation to the selected phone number**: This option is available only for contact and opportunity records. When you open a contact, the drop-down displays a list of opportunities that are related to this contact. You can choose an option from the list to view the history and manage conversations related to that record.   
+1. **Related conversation to the selected phone number**: This option is available only for contact and opportunity records. When you open a contact, the drop-down list displays opportunities that are related to this contact. You can choose an option from the list to view the history and manage conversations related to that record.   
 
-2. **Manage templates**: Choose templates to send personalized messages to customers. Also, you can choose to create templates if any of the existing templates doesn't meet your requirements. More information: [Personalize text messages through templates](create-text-message-templates.md)  
+2. **Manage templates**: Choose templates to send personalized messages to customers. Also, you can choose to create templates if any of the existing templates don't meet your requirements. More information: [Personalize text messages through templates](create-text-message-templates.md)  
 
 3. **Choose phone number**: If multiple phone numbers are assigned to you or your team, you can choose a number from which you want to send and receive the message. More information: [Set up the SMS provider in Dynamics 365 Sales](configure-sms-provider.md#set-up-the-sms-provider-in-dynamics-365-sales) 
 
