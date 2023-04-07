@@ -5,9 +5,6 @@ ms.date: 09/23/2022
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Create a warehouse to track inventory

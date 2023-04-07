@@ -7,9 +7,6 @@ ms.subservice: common-scheduler
 ms.topic: how-to
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Schedule a facility in Universal Resource Scheduling

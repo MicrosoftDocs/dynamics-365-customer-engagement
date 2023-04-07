@@ -5,15 +5,11 @@ ms.date: 04/30/2019
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 keywords: integration, sales navigator, linkedin, versions
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365LinkedIn
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: e9258994-b84a-cefb-4d97-762f4bc3ca5a

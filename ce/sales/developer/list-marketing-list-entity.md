@@ -9,7 +9,6 @@ applies_to:
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 search.audienceType: 
   - developer
 

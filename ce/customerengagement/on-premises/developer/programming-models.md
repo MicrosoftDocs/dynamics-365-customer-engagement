@@ -13,7 +13,6 @@ applies_to:
 ms.assetid: 14127ed4-0506-4071-a408-6052048ba299
 author: JimDaly
 ms.author: jdaly
-manager: annbe
 tags: 
   - aug2017
   - MigrationHO

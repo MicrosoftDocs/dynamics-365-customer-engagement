@@ -7,9 +7,6 @@ ms.topic: overview
 ms.custom: intro-internal
 author: jshotts
 ms.author: jasonshotts
-search.app:
-  - D365CE
-  - D365FS
 ---
 # Dynamics 365 Field Service user guide
 

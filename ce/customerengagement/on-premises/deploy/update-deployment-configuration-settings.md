@@ -14,7 +14,6 @@ ms.assetid: f715ab04-f78f-4bcb-b260-4807091cf7d6
 caps.latest.revision: 25
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Update deployment configuration settings
 

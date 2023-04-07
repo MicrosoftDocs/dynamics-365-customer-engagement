@@ -8,12 +8,8 @@ applies_to:
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
 # Troubleshoot Microsoft Teams integration with customer engagement apps in Dynamics 365
 

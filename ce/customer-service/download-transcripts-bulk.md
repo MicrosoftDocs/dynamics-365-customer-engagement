@@ -5,7 +5,6 @@ ms.date: 02/10/2021
 ms.topic: reference
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 # Download Omnichannel for Customer Service transcripts in bulk
 

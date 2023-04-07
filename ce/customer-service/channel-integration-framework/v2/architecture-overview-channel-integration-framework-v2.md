@@ -4,7 +4,6 @@ description: "Get an overview of Dynamics 365 Channel Integration Framework 2.0 
 author: gandhamm
 ms.topic: overview
 ms.author: mgandham
-manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

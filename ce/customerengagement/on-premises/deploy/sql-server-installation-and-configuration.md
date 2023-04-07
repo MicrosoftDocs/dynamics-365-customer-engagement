@@ -14,7 +14,6 @@ ms.assetid: b5101a95-2ba8-44f9-9c89-e7e2698f0112
 caps.latest.revision: 16
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # SQL Server installation and configuration
 

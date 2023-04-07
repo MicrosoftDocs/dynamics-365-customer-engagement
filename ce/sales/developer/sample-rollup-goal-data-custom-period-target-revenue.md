@@ -8,7 +8,6 @@ applies_to:
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 ---

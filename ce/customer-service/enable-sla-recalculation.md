@@ -10,9 +10,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - bap-template
   - dyn365-customerservice

@@ -5,7 +5,6 @@ ms.date: 10/03/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Enable supervisor access to manage conversations

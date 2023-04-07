@@ -22,7 +22,6 @@ ms.assetid: b40b50ae-70f6-4868-a1ed-f50414af1c6b
 caps.latest.revision: 13
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
 search.audienceType: 
   - developer
 

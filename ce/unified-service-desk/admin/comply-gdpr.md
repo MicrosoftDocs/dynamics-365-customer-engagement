@@ -5,12 +5,8 @@ ms.date: 04/24/2018
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ---
 # Comply with the General Data Protection Regulation (GDPR)
 

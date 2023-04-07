@@ -14,7 +14,6 @@ ms.assetid: 44fd7c36-e818-4426-965d-c94eef03fd7b
 caps.latest.revision: 12
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Install Microsoft Dynamics 365 Report Authoring Extension using a command prompt
 

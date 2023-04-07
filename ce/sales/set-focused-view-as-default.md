@@ -3,7 +3,6 @@ title: Set focused view as the default view
 description: Set the focused view as the default view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.topic: how-to 
 ms.date: 03/28/2023
 ms.custom: bap-template 

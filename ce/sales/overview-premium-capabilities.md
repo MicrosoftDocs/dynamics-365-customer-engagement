@@ -6,7 +6,6 @@ ms.date: 04/05/2021
 ms.topic: overview
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Overview of sales premium

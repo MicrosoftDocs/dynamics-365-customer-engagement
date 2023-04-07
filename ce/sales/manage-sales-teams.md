@@ -5,7 +5,6 @@ ms.date: 03/11/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 products: 
     - Sales premium
 ---

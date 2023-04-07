@@ -5,7 +5,6 @@ ms.date: 02/24/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 searchScope:
 - D365-App-customerservicehub
 - D365-Entity-queueitem
