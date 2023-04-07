@@ -155,9 +155,10 @@ After you've created and published the report, go back to the Customer Service a
 ## Data model and report mapping
 
 For information on data model and report mapping, see [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
+
 ### See also
 
-[Customize the visual display of your analytics reports](customize-reports.md#customize-the-visual-display-of-your-analytics-reports-in-customer-service)  
+[Customize the visual display of your analytics reports](customize-reports.md#customize-the-visual-display-of-your-analytics-reports)  
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)  
 [Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md)  
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)  
