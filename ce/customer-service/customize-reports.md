@@ -24,7 +24,7 @@ Dynamics 365 Customer Service provides out-of-the-box analytics reports that hel
 
 Use visual customization to:
 
-- Leverage more out-of-the-box metrics that may be relevant to your organization, through the Power BI embedded editing experience. The data model that supports the out-of-the-box reports also provides you with additional metrics that may not be directly exposed in the reports.
+- Leverage more out-of-the-box metrics that may be relevant to your organization, through the Power BI embedded editing experience. The data model that supports the out-of-the-box reports also provides you with more metrics that may not be directly exposed in the reports.
 - Modify the visual look of the data. For example, you can have a graphic that displays the trend of a metric over time rather than a tabular view of the metric.
 - Add new pivots and add new pages. For example, you can create a new pivot or page that's dedicated to a specific queue with queue level metrics.
 - Rearrange out-of-the-box report layouts and change themes.
@@ -51,7 +51,7 @@ To be able to edit analytics reports, users must have the **Analytics Report Aut
 
       :::image type="content" source="media/visual-incoming-conversations.png" alt-text="Customize report display on the Visualizations pane":::
 
-   - **Data**: Displays a list of KPIs, measures, dimensions, and attributes you can represent in your report. This also has the KPIs that are available for use, beyond the ones displayed on the out-of-the-box reports. For example, **Participation Mode** in **FactSessionParticipant**, is a fact that allows you to build metrics to count the number of times a subject-matter expert accepted a consult request. More information: [Understand out-of-the-box data model](#understand-out-of-the-box-data-model)
+   - **Data**: Displays a list of KPIs, measures, dimensions, and attributes you can represent in your report. This data also has the KPIs that are available for use, beyond the ones displayed on the out-of-the-box reports. For example, **Participation Mode** in **FactSessionParticipant**, is a fact that allows you to build metrics to count the number of times a subject-matter expert accepted a consult request. More information: [Understand out-of-the-box data model](#understand-out-of-the-box-data-model)
 
       :::image type="content" source="media/visual-sessionpart-mode.png" alt-text="Drag and drop metrics to change display":::
     
@@ -73,10 +73,10 @@ You can use facts and dimensions to visualize data, according to your organizati
 
 ### Future data model updates
 
-In a scenario where you've customized your reports and then Microsoft makes updates to the default data model for a report, the customizations you've made for your reports won't be overwritten by the updates to the data model. However, if there's a change to the naming conventions in the Power BI embedded editing experience, those changes will be reflected in the respective list and may require that you reselect the metric with the new name. For more information on data model and report mapping, go to [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
+In a scenario in which you've customized your reports and then Microsoft makes updates to the default data model for a report, the customizations you've made for your reports aren't overwritten by the updates to the data model. However, if there's a change to the naming conventions in the Power BI embedded editing experience, those changes will be reflected in the respective list and may require that you reselect the metric with the new name. For more information on data model and report mapping, go to [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
 
 > [!NOTE]
-> Make sure that you don't add more than 20 metrics (or tiles) to a report, as it affects performance. If you need additional metrics, consider creating additional pages and provide references to the additional pages from the existing report pages.
+> Make sure that you don't add more than 20 metrics (or tiles) to a report, as it affects performance. If you need more metrics, consider creating more pages and provide references to the extra pages from the existing report pages.
 
 ### See also
 
