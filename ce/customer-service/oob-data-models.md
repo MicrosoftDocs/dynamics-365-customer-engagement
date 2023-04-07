@@ -444,7 +444,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 
 ### See also
 
-[Customize the visual display of your analytics reports](customize-reports.md#customize-the-visual-display-of-your-analytics-reports-in-customer-service) <br>  
+[Customize the visual display of your analytics reports](customize-reports.md#customize-the-visual-display-of-your-analytics-reports) <br>  
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md) <br>
 [Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md) <br>
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md) <br>
