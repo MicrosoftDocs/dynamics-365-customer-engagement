@@ -5,7 +5,6 @@ ms.date: 03/31/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Insight cards reference 
 

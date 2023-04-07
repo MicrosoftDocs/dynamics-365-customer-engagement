@@ -14,7 +14,6 @@ ms.assetid: f5f906a0-24ad-4888-bb10-6a783cc56473
 caps.latest.revision: 35
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Administer the deployment using Windows PowerShell
 

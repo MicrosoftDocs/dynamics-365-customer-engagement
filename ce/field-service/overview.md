@@ -6,9 +6,6 @@ ms.topic: overview
 ms.custom: bap-template
 author: jshotts
 ms.author: jasonshotts
-search.app:
-  - D365CE
-  - D365FS
 ---
 
 # Overview of Dynamics 365 Field Service

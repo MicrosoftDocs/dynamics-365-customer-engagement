@@ -6,7 +6,6 @@ ms.custom:
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 caps.latest.revision: 1
 searchScope: 
   - D365-App-msdynce_saleshub

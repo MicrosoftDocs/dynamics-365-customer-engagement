@@ -5,7 +5,6 @@ ms.date: 04/04/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 # Error code reference for Omnichannel for Customer Service
 

@@ -5,7 +5,6 @@ ms.date: 11/30/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Add the Up next widget to a custom form 
 

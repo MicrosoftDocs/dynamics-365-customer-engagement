@@ -9,9 +9,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Experience the new and improved schedule board

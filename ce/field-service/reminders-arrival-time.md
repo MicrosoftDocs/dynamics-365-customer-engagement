@@ -9,9 +9,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: Deana-Fuller
 ms.author: drfuller
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Send current technician location and arrival times to your customers with Dynamics 365 Field Service

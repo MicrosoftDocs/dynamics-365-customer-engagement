@@ -5,7 +5,6 @@ ms.date: 10/03/2019
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
-manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
 ---

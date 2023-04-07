@@ -7,9 +7,6 @@ ms.subservice: common-scheduler
 ms.topic: how-to
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Customize and extend the schedule board in Universal Resource Scheduling

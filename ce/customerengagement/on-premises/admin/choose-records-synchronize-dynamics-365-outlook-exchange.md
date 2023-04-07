@@ -15,7 +15,6 @@ ms.assetid: 413db37c-1f03-4fc0-aaf1-b13c12407c6c
 caps.latest.revision: 53
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
 

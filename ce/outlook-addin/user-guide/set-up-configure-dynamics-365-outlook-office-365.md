@@ -15,14 +15,10 @@ ms.assetid: e741c693-4247-4551-b81a-5e8ec5da6567
 caps.latest.revision: 33
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
 # Set up and configure Dynamics 365 for Outlook from Microsoft 365
 You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] together with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] access [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re working within the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface. [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can also provide access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re working offline. [Do your Dynamics 365 apps work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md).  

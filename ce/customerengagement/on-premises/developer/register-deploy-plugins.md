@@ -16,7 +16,6 @@ f1_keywords:
 ms.assetid: c3ee3447-ec0d-494e-8b35-4ec58ce93eea
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

@@ -10,7 +10,6 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 author: "phecke"
 ms.author: "pehecke"
-manager: "kvivek"
 search.audienceType: 
   - developer
 

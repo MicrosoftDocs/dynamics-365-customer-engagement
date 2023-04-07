@@ -6,7 +6,6 @@ ms.date: 06/27/2019
 ms.topic: article
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
 search.audienceType: 
   - developer
 

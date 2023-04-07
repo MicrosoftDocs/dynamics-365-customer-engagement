@@ -11,9 +11,6 @@ search.audienceType:
   - enduser
 ms.custom: 
   - dyn365-customerservice
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Create a selection rule to determine how resources are selected for service activities (Customer Service)

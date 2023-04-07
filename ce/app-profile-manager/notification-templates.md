@@ -3,7 +3,6 @@ title: "Manage notification templates | MicrosoftDocs"
 description: "Learn about managing notification templates in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 06/09/2022
 ms.topic: article
 ---

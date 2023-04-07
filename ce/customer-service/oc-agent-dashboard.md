@@ -5,7 +5,6 @@ ms.date: 06/23/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # View agent dashboard and agent conversations

@@ -6,9 +6,6 @@ ms.custom: bap-template
 ms.topic: overview
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 

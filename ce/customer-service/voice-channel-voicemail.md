@@ -3,7 +3,6 @@ title: "Configure voicemail to manage inbound calls"
 description: "Learn how to configure and use voicemails in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 02/02/2023
 ms.topic: article
 ---

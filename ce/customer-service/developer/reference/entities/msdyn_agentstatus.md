@@ -8,9 +8,6 @@ ms.author: mgandham
 ms.reviewer: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # msdyn_agentstatus entity reference
 

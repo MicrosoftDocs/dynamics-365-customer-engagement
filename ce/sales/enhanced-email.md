@@ -5,7 +5,6 @@ ms.date: 10/12/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Send email using the enhanced email experience 
 

@@ -5,12 +5,8 @@ ms.date: 08/27/2020
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
-  - Powerplatform
 applies_to: 
   - Dynamics 365 apps
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5

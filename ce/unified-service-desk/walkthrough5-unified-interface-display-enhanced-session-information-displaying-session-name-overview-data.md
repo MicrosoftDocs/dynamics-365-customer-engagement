@@ -5,13 +5,9 @@ ms.date: 06/25/2020
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ---
 # Walkthrough 5: Display enhanced session information
 

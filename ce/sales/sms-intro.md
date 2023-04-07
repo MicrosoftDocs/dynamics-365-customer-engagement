@@ -6,7 +6,6 @@ ms.topic: overview
 ms.custom: bap-template
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 
 ---
 

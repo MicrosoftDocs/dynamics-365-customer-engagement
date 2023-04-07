@@ -13,9 +13,6 @@ ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Voice channel historical analytics, reports, and call insights

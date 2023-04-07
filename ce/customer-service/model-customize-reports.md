@@ -5,15 +5,11 @@ ms.date: 03/09/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Customize data models of historical analytics reports in Customer Service (preview)

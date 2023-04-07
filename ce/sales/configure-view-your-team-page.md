@@ -5,7 +5,6 @@ ms.date: 10/31/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
 ---

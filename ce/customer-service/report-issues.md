@@ -5,7 +5,6 @@ ms.date: 06/03/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Report issues in Omnichannel for Customer Service

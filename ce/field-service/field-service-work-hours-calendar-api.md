@@ -9,9 +9,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: ryanchen8
 ms.author: chenryan
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Edit work hour calendars by using APIs 

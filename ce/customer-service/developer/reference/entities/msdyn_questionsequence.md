@@ -5,7 +5,6 @@ ms.date: 08/31/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
-manager: "shujoshi"
 ---
 # msdyn_questionsequence Entity Reference
 

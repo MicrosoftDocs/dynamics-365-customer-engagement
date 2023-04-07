@@ -5,7 +5,6 @@ ms.date: 09/20/2022
 ms.topic: get-started-article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.custom: 
   - dyn365-USD
   - dyn365-admin

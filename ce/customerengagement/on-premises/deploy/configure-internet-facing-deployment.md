@@ -14,7 +14,6 @@ ms.assetid: b66cce4d-859c-4754-b94b-474b836df476
 caps.latest.revision: 26
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Configure a Dynamics 365 Customer Engagement (on-premises) Internet-facing deployment
 

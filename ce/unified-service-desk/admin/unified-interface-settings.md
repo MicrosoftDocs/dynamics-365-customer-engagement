@@ -5,12 +5,8 @@ ms.date: 06/01/2019
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 monikerRange: ">=dynamics-usd-4"
 ---
 

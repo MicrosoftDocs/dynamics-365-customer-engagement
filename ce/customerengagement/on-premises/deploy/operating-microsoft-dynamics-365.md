@@ -14,7 +14,6 @@ ms.assetid: 605bb886-116a-4275-83fe-e9fdc83d2f2f
 caps.latest.revision: 24
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Operating Dynamics 365 Customer Engagement (on-premises) (on-premises)
 
