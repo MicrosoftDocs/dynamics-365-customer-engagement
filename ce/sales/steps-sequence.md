@@ -106,7 +106,7 @@ To add the text message activity step:
 
         1.	Select **Add a text message template**.
 
-        2.	On the **Text message templates** dialog box, select the template you want to use for this step.
+        2.	In the **Text message templates** dialog box, select the template you want to use for this step.
 
         3.	Select **Select template**. 
         
@@ -130,9 +130,9 @@ To add the automated text message activity step:
 
 1.	In the sequence designer page, select the **Add** (+) icon under a step.
 
-2.	On the **Add an action or other element** dialog box, under the **Steps** tab, select **Send an automated text message**.
+2.	In the **Add an action or other element** dialog box, under the **Steps** tab, select **Send an automated text message**.
 
-3.	On the **Text message** pane, enter the following information to configure the automated text message activity:
+3.	In the **Text message** pane, enter the following information to configure the automated text message activity:
 
     -	A name and description for the activity. The information you enter here will be displayed on the step in the Up next widget.
 
@@ -140,11 +140,11 @@ To add the automated text message activity step:
 
         1.	Select **Add a text message template**. 
 
-        2.	On the **SMS templates** dialog box, select the template you want to use for this step.
+        2.	In the **SMS templates** dialog box, select the template you want to use for this step.
 
         3.	Select **Select template**. 
 
-        If no templates are available, you can add a template by selecting Create new template and then selecting it to be used in the step.
+        If no templates are available, you can add a template by selecting **Create new template** and then selecting it to be used in the step.
         
         To know more about SMS templates, see [Personalize text messages through templates](create-text-message-templates.md).
 
