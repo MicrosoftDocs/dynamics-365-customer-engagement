@@ -5,7 +5,6 @@ ms.date: 11/16/2022
 ms.topic: article
 author: "neeranelli"
 ms.author: nenellim
-manager: shujoshi
 ---
 # Monitor, assign, transfer, and forcibly end conversations
 

@@ -13,7 +13,6 @@ applies_to:
 ms.assetid: 81816457-c963-46ca-b350-615fa75f56a7
 caps.latest.revision: 27
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 

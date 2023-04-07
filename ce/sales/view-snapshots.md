@@ -4,7 +4,6 @@ description: Use the see forecast grid history page to view snapshots of a forec
 ms.date: 02/24/2023
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.topic: how-to
 ms.custom: bap-template
 ---

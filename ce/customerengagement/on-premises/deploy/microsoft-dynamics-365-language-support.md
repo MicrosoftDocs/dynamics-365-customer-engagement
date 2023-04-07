@@ -14,7 +14,6 @@ ms.assetid: 4d5a67ea-55ab-4bdc-b905-3ba75d3889d3
 caps.latest.revision: 20
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Microsoft Dynamics 365 Customer Engagement (on-premises) language support
 

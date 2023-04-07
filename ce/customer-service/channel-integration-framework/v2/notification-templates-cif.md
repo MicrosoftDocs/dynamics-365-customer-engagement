@@ -5,7 +5,6 @@ ms.date: 04/05/2021
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 searchScope: 
  - D365-App-msdyn_channelintegrationframeworkapp 
  - D365-Entity-msdyn_consoleapplicationnotificationtemplate

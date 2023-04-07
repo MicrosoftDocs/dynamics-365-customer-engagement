@@ -8,7 +8,6 @@ ms.topic: article
 ms.assetid: 73b590f5-883a-46c5-9d2e-a9b9157a9614
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

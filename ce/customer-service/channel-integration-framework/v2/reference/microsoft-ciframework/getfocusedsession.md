@@ -5,7 +5,6 @@ ms.date: 12/31/2019
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

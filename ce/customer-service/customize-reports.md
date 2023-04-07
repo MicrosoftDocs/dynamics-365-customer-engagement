@@ -13,9 +13,6 @@ ms.custom:
 search.audienceType: 
   - admin
   - customizer
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Customize visual display

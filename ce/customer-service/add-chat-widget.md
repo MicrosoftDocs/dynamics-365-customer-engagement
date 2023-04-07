@@ -4,7 +4,6 @@ description: "Perform the steps mentioned in the article to configure a chat wid
 ms.date: 04/04/2022
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.topic: article
 ---
 

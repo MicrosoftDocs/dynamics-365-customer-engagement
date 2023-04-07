@@ -10,7 +10,6 @@ applies_to:
 ms.assetid: 6edb9094-bde0-4e5d-bb57-957676c86bec
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 

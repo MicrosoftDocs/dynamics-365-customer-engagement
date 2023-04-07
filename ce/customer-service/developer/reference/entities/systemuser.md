@@ -6,12 +6,8 @@ ms.service: "dynamics-365"
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
-manager: "shujoshi"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # SystemUser table/entity reference
 

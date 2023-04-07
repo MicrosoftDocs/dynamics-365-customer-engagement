@@ -7,9 +7,6 @@ ms.topic: how-to
 ms.custom: bap-template
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Edit schedule board booking templates

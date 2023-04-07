@@ -5,7 +5,6 @@ ms.date: 04/02/2018
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-LinkedIn
 keywords: lead, lead gen form, sponsored content, linkedin, dashboard
@@ -13,9 +12,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365LinkedIn
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: c372e325-991c-4178-a507-f7f4dfcc0dd5

@@ -5,15 +5,11 @@ ms.date: 12/10/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 keywords: sign in, authenticate, sales navigator, customized form
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365LinkedIn
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: efbe4fd6-a486-d97d-3b2c-8c4020e9d57b

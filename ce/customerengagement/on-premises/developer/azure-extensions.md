@@ -17,7 +17,6 @@ ms.assetid: 70140156-f6b5-4cae-846c-23009ed755b2
 caps.latest.revision: 56
 author: phecke
 ms.author: pehecke
-manager: KumarVivek
 search.audienceType: 
   - developer
 

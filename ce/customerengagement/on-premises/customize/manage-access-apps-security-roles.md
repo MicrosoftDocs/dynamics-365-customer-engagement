@@ -13,7 +13,6 @@ applies_to:
 author: Mattp123
 ms.assetid: c00f867d-78f0-4f3e-a716-f7b25f9d343a
 ms.author: matp
-manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

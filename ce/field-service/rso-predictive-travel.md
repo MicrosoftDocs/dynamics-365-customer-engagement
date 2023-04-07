@@ -7,9 +7,6 @@ ms.subservice: resource-scheduling-optimization
 ms.topic: article
 author: FeifeiQiu
 ms.author: feiqiu
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Predictive travel times for Resource Scheduling Optimization

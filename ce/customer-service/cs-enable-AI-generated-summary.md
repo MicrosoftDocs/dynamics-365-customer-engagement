@@ -5,7 +5,6 @@ ms.date: 11/04/2022
 ms.topic: article
 author: gandhamm 
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Set up auto-summarization for conversations 

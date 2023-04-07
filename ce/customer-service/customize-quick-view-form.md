@@ -5,7 +5,6 @@ ms.date: 10/05/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Customize quick view forms
 

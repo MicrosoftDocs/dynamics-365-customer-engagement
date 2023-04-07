@@ -7,9 +7,6 @@ ms.date: 02/24/2023
 ms.topic: conceptual
 author: FeifeiQiu
 ms.author: feiqiu
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Enable quick book in Universal Resource Scheduling

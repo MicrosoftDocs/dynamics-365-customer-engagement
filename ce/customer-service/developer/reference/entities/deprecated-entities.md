@@ -5,7 +5,6 @@ ms.date: 09/10/2020
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 # Deprecated entities
 

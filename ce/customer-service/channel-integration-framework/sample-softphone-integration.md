@@ -4,7 +4,6 @@ description: "Get the sample code for softphone integration using Dynamics 365 C
 ms.date: 01/21/2022
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

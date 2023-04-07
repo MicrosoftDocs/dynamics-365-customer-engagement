@@ -3,7 +3,6 @@ title: Manage overflow of work items in queues
 description: Learn how to manage overflow of work items in queues enabled for unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 04/05/2023
 ms.topic: how-to
 ms.custom: bap-template

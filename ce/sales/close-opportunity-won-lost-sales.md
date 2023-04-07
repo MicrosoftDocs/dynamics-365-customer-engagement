@@ -5,7 +5,6 @@ ms.date: 05/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Close opportunities as won or lost 
 

@@ -7,7 +7,6 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 caps.latest.revision: 1
 
 ---

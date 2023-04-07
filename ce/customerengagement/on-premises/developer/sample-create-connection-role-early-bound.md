@@ -17,7 +17,6 @@ helpviewer_keywords:
 ms.assetid: d501cdfa-67b0-4e59-a05c-1817528971e1
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
 search.audienceType: 
   - developer
 ---

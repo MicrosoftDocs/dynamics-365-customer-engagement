@@ -5,10 +5,6 @@ ms.date: 10/12/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Dynamics 365 Customer Service and Dynamics 365 US Government availability

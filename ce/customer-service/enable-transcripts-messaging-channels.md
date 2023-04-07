@@ -5,13 +5,9 @@ ms.date: 10/03/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Enable the transcription experience for messaging channels
