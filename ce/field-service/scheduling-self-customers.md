@@ -5,9 +5,6 @@ ms.date: 09/07/2021
 ms.topic: article
 author: Deana-Fuller
 ms.author: drfuller
-search.app:
-  - D365CE
-  - D365FS
 ---
 
 

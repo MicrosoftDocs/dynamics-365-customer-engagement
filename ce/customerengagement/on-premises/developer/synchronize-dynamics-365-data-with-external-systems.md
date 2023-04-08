@@ -11,7 +11,6 @@ ms.topic: article
 ms.assetid: 3290d4ad-874b-4e3d-83ac-0fec47a8af31
 ms.reviewer: nabuthuk
 ms.author: jdaly
-manager: kvivek
 search.audienceType:
   - developer
 ---

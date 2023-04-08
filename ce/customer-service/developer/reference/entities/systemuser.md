@@ -4,14 +4,10 @@ description: "Includes schema information and supported messages for the SystemU
 ms.date: 12/19/2022
 ms.service: "dynamics-365"
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: "v-jmh"
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: "mgandham"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # SystemUser table/entity reference
 

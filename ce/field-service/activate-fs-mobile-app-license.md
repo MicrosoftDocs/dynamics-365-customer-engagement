@@ -6,9 +6,6 @@ ms.date: 11/07/2022
 ms.topic: article
 author: JonBaker007
 ms.author: jobaker
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Field Service Mobile Xamarin end of life

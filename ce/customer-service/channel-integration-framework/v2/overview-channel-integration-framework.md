@@ -3,9 +3,8 @@ title: "Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Get an overview of Dynamics 365 Channel Integration Framework 2.0 and how to get started using it."
 ms.date: 02/18/2023
 ms.topic: overview
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

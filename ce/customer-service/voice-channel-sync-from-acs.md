@@ -6,7 +6,6 @@ ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Sync from Azure Communication Services

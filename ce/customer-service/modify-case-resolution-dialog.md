@@ -5,7 +5,6 @@ ms.date: 05/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 searchScope: 
   - D365-App-customerservicehub
   - D365-Entity-incident
@@ -22,7 +21,7 @@ The following sections discuss the permissions you'll need to modify the case re
 
 > [!Note]
 > The option to customize the case resolution dialog is also available in Dynamics 365 Customer Engagement (on-premises) 9.1.
-> More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#configurable-case-resolution-page)
+> More information: [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#configurable-case-resolution-page)
 
 ## Check permissions
 

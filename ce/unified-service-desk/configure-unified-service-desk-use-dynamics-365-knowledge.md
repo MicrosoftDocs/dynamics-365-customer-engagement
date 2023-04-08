@@ -3,15 +3,11 @@ title: "Configure Unified Service Desk to use model-driven apps | MicrosoftDocs"
 description: "Learn how to configure knowledge base search options in Unified Service Desk using the KM Control and Unified Interface KM Control types of hosted control."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---

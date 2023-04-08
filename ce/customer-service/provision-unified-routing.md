@@ -5,7 +5,6 @@ ms.date: 10/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Provision unified routing for Customer Service

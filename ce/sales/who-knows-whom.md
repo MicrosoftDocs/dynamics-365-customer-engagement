@@ -5,7 +5,6 @@ ms.date: 02/14/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # How to get introduced to leads or contacts  

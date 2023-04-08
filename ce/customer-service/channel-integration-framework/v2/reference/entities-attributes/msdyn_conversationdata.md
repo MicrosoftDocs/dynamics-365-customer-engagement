@@ -3,9 +3,8 @@ title: "msdyn_conversationdata Entity Reference for Dynamics 365 Channel Integra
 description: "Includes schema information and supported messages for the msdyn_conversationdata entity in Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 11/03/2020
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
 

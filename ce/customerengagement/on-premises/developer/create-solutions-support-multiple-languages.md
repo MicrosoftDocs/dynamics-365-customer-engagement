@@ -10,7 +10,6 @@ applies_to:
 ms.assetid: 2f601c9e-b1d1-47be-a8ea-afca16780751
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -344,7 +343,7 @@ protected void ExecutePreValidateAccountDelete(LocalPluginContext localContext)
  [Create, Install, and Update a Managed Solution](create-install-update-managed-solution.md)   
  [Uninstall or Delete a solution](uninstall-delete-solution.md)   
  [Solution entities](solution-entities.md)   
- [Localize product property values](localize-product-property-values.md)
+ [Localize product property values](/sales/developer/localize-product-property-values)
  
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

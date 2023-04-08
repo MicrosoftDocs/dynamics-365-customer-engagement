@@ -5,7 +5,6 @@ ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Customize Power BI template apps for Dynamics 365 Sales 
 

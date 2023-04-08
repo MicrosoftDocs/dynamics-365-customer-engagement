@@ -1,20 +1,16 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing."
-ms.date: 01/13/2022
+ms.date: 03/02/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Analyze results to gain insights from your marketing activities
@@ -108,6 +104,9 @@ For leads associated with an account rather than a single contact, the insights 
 To view account insights, go to **Marketing** > **Customers** > **Accounts**, select an account record, and then open its **Insights** tab.
 
 Most of the insights displayed for an account are the same as those shown for contacts as previously described in [Contact insights](#contact-insights), except that subscription list interactions are not provided. These insights represent the combined interactions of all contacts associated with that account (these are contacts that have that account listed as their **Account name**; they usually represent employees of that company).
+
+> [!NOTE]
+> The Account's Insights will only display interactions that occurred after the Contact was associated with the Account. Any interactions that occurred before this association will not be shown.
 
 ## Segment insights
 

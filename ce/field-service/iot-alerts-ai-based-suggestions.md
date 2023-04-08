@@ -10,9 +10,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: vhorvath
 author: vhorvathms
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # IoT alert AI suggestions
@@ -42,7 +39,7 @@ A few reminders before digging into this article:
 - This feature is currently in public preview as of April 2020.
 
 - Connected Field Service with either of the following:
-    -	Azure IoTHub 
+    -	Azure IoT Hub 
     -	Custom IoT provider (requires additional configuration)
 
 ## Instructions
@@ -80,7 +77,7 @@ Choose the rules that you defined in IoT Hub that trigger IoT alerts. The rule p
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT suggestions setup screen, showing the rule identified section.](./media/cfs-iot-suggestions-identifier-rule.png)
 
-An example of the rule path for IoTHub is **ruleoutput**.
+An example of the rule path for IoT Hub is **ruleoutput**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an example rule output on the alert data.](./media/cfs-ai-ioth-rule-path.png)
@@ -92,7 +89,7 @@ Choose the device properties that should be considered by the AI model to make s
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT suggestions setup screen, showing the device properties section.](./media/cfs-iot-suggestions-properties.png)
 
-By default, the **Reading Type** and **Reading** fields in IoTHub are used as device properties. However, you can also add custom fields. For example, you may have a model that associates a financial cost to each temperature reading; this custom addition can be added here as a device property to be considered by the AI model.
+By default, the **Reading Type** and **Reading** fields in IoT Hub are used as device properties. However, you can also add custom fields. For example, you may have a model that associates a financial cost to each temperature reading; this custom addition can be added here as a device property to be considered by the AI model.
 
 ### Step 5: Finish
 

@@ -1,11 +1,12 @@
 ---
-title: "Engage with customers through text messages"
-description: "Enable your sellers to send text messages (SMS) to customers and refer previous communications in context without leaving the application or losing view of customers' details."
-ms.date: 02/10/2023
+title: Engage with customers through text messages
+description: Enable your sellers to send text messages (SMS) to customers and refer previous communications in context without leaving the application or losing view of customers' details.
+ms.date: 03/21/2023
 ms.topic: overview
+ms.custom: bap-template
 author: udaykirang
 ms.author: udag
-manager: shujoshi
+
 ---
 
 # Engage with customers through text messages

@@ -1,25 +1,21 @@
 ---
 title: "Create outbound text messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create outbound text messages for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 10/05/2022
+ms.date: 03/01/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create outbound text messages
 
-Text messages (SMS) allow you to reach customers directly on their mobile devices. You can send text messages from real-time marketing by generating a phone number to use within the app. This article explains how to add a phone number generated in the Azure Communication Services preview, Twilio, or TeleSign, and how to create and send text messages in real-time marketing.
+Text messages (SMS) allow you to reach customers directly on their mobile devices. You can send text messages from real-time marketing by generating a phone number to use within the app. This article explains how to add a phone number generated in the Azure Communication Services preview, Infobip, LINK Mobility, Telesign or Twilio and how to create and send text messages in real-time marketing.
 
 > [!NOTE]
 > Text messaging using a toll free number generated in the Azure Communication Services preview is only supported in the countries listed below.
@@ -49,50 +45,69 @@ Toll-free numbers are a good option for transactional A2P messaging, which means
 
 > [!TIP]
 > Carriers, just like email providers, have ways of filtering spam messages. This results in the phone number being blocked and becoming unusable. Due to carrier filtering, you should only use toll-free numbers for transactional messages (as opposed to promotional messages). You should avoid sending promotional content or misleading information. Promotional content includes free products or discount offers.
+>
+>**UPDATE:** With carriers becoming even more strict with filtering, to ensure the maximum deliverability for your text messages, the toll-free number now needs to be verified. To verify your number, fill in the form [here](https://forms.office.com/r/x3LCH1gS7b). You can learn more about Azure Communication Services toll-free number verification [here](/azure/communication-services/concepts/sms/sms-faq#toll-free-verification).
 
-## Add a sender number from a Twilio or TeleSign account (Worldwide)
+## Add a sender number from an Infobip, LINK Mobility, Telesign or Twilio account (Worldwide)
 
-You can purchase or reuse an existing Twilio or TeleSign SMS account to send text messages in real-time marketing. **The integration works for all countries** in which a phone number can be purchased through TeleSign or Twilio.
+You can purchase or reuse an existing Infobip, LINK Mobility, Telesign or Twilio SMS account to send text messages in real-time marketing. **The integration works for all countries** in which a phone number can be purchased in the relevant SMS provider.
 
 > [!IMPORTANT]
 > To ensure that third party SMS providers handle STOP commands properly, you must configure your consent settings directly with the provider.
 
-### Sign up for and configure a Twilio account
+### Sign up for and configure an Infobip account
 
-Twilio integration uses Twilio's public APIs to send and receive text messages. You need to sign up for a Twilio account to enable real-time marketing SMS integration. To create a Twilio account:  
-  
-1. Go to [Twilio](https://www.twilio.com/try-twilio) and sign up for a trial account that can be upgraded to pay-as-you-go. If you expect to send high volumes of SMS traffic (more than 100,000 messages per month), contact Twilio to request an invoiced enterprise account.
-1. In your Twilio account [General Settings](https://console.twilio.com/us1/account/manage-account/general-settings), note the **ACCOUNT SID** and **AUTH TOKEN** values. These values are required to create the integration between Dynamics 365 Marketing and Twilio.
-1. [Purchase SMS phone numbers](https://console.twilio.com/us1/develop/phone-numbers/manage/search?frameUrl=%2Fconsole%2Fphone-numbers%2Fsearch%3Fx-target-region%3Dus1&currentFrameUrl=%2Fconsole%2Fphone-numbers%2Fsearch%3FisoCountry%3DUS%26types%255B%255D%3DLocal%26types%255B%255D%3DTollfree%26capabilities%255B%255D%3DSms%26capabilities%255B%255D%3DMms%26capabilities%255B%255D%3DVoice%26capabilities%255B%255D%3DFax%26searchTerm%3D%26searchFilter%3Dleft%26searchType%3Dnumber%26x-target-region%3Dus1%26__override_layout__%3Dembed%26bifrost%3Dtrue) through your Twilio account.
+Infobip integration uses their public APIs to send and receive text messages. You need to sign up for an Infobip account to enable the real-time marketing SMS integration. To create an Infobip account:
+
+1. Go to [Infobip](https://www.infobip.com/signup?signup_source=MicrosoftDynamicsMarketing) and sign up for a free account that can be upgraded to pay-as-you-go or a monthly subscription later.
+1. In your Infobip [Account homepage](https://portal.infobip.com/homepage/), navigate to the **Developers** tab and note the **API key** and **API Base URL** values. These values are required to create the integration between Dynamics 365 Marketing and Infobip.
+1. [Purchase SMS phone numbers](https://portal.infobip.com/apps/sms) through your Infobip account.
+
+### Sign up for and configure a LINK Mobility account
+
+Like Infobip, LINK Mobility integration uses their public APIs to send and receive text messages. You need to sign up for a LINK Mobility account to enable the real-time marketing SMS integration. To create an LINK Mobility account:
+
+1. Go to [LINK Mobility](https://www.linkmobility.com) and sign up for a trial account that can be upgraded later.
+1. [Contact the link mobility team](https://www.linkmobility.com/contact-us) to purchase numbers and get all the account integration details required to create the integration between Dynamics 365 Marketing and LINK Mobility.
+
 
 ### Sign up for and configure a TeleSign account
 
-Like Twilio, TeleSign integration uses TeleSign's public APIs to send and receive text messages. Also, like Twilio, you’ll need to sign up for a TeleSign account to enable TeleSign SMS integration. To create a TeleSign account:  
+TeleSign integration uses TeleSign's public APIs to send and receive text messages. Also, like Twilio, you’ll need to sign up for a TeleSign account to enable TeleSign SMS integration. To create a TeleSign account:  
   
 1. Go to [TeleSign](https://portal.telesign.com/signup) and sign up for a trial account. If you expect to send high volumes of SMS traffic (more than 100,000 messages per month), contact TeleSign to request an invoiced enterprise account.
 1. In your TeleSign account [Dashboard](https://portal.telesign.com/portal/dashboard), note the **CUSTOMER ID** and **API KEY** values. These values are required to create the integration between Dynamics 365 Marketing and TeleSign.
 1. Purchase SMS phone numbers through your TeleSign account.
 1. On the [TeleSign SMS Settings](https://portal.telesign.com/portal/sms-settings) page, switch the **Status Callback** toggle to **Enabled.** This applies to **Standard accounts**. If you have an **Enterprise account**, you’ll need to contact TeleSign to enable the status callback setting for you.
 
-### Set up your Twilio or TeleSign sender numbers in the Marketing app
 
-To add a Twilio or TeleSign sender number to the Marketing app:
+### Sign up for and configure a Twilio account
 
-1. Go to **Settings** in the area switcher menu. Then go to **Customer engagement** > **SMS providers** and select **+Text number setup** in the top ribbon.
-1. Add a name to associate with the number. This is for your identification purposes, so adding the provider name makes sense. Then, select the **Next** button.
-1. Select the provider (TeleSign or Twilio).
-1. If you selected TeleSign, enter the **CUSTOMER ID** and **API KEY** noted in the steps above. If you selected Twilio, enter the **ACCOUNT SID** and **AUTH TOKEN**. Then, select the **Next** button.
-1. On the next screen, select **+Add** to add the TeleSign or Twilio number that will be used for the integration.
-1. On the **Add SMS number** pane, add the number, its type, and a short description to distinguish it.
+Like Telesign, Twilio integration uses Twilio's public APIs to send and receive text messages. You need to sign up for a Twilio account to enable real-time marketing SMS integration. To create a Twilio account:  
+  
+1. Go to [Twilio](https://www.twilio.com/try-twilio) and sign up for a trial account that can be upgraded to pay-as-you-go. If you expect to send high volumes of SMS traffic (more than 100,000 messages per month), contact Twilio to request an invoiced enterprise account.
+1. In your Twilio account [General Settings](https://console.twilio.com/us1/account/manage-account/general-settings), note the **ACCOUNT SID** and **AUTH TOKEN** values. These values are required to create the integration between Dynamics 365 Marketing and Twilio.
+1. [Purchase SMS phone numbers](https://console.twilio.com/us1/develop/phone-numbers/manage/search?frameUrl=%2Fconsole%2Fphone-numbers%2Fsearch%3Fx-target-region%3Dus1&currentFrameUrl=%2Fconsole%2Fphone-numbers%2Fsearch%3FisoCountry%3DUS%26types%255B%255D%3DLocal%26types%255B%255D%3DTollfree%26capabilities%255B%255D%3DSms%26capabilities%255B%255D%3DMms%26capabilities%255B%255D%3DVoice%26capabilities%255B%255D%3DFax%26searchTerm%3D%26searchFilter%3Dleft%26searchType%3Dnumber%26x-target-region%3Dus1%26__override_layout__%3Dembed%26bifrost%3Dtrue) through your Twilio account.
+
+
+### Set up your Infobip, LINK Mobility, Telesign or Twilio sender numbers in the Marketing app
+
+To set up a new SMS provider for the Marketing app:
+
+1. Go to **Settings** in the area switcher menu. Then go to **Customer engagement** > **SMS providers** and select **+New** in the top menu.
+1. Select the provider you want to set up and then add an internal name and description, along with the business unit it should belong.
+1. If you selected Infobip, enter the **API key** and **API Base URL** noted in the steps above. If you selected TeleSign, enter the **Customer ID** and **API key**. If you selected Twilio, enter the **Account SID** and **Auth Token**. If you selected LINK Mobility, contact them first to provide you with the integration credentials. Add them and then select the **Next** button.
+1. On the next screen, select **+New phone number** to add one or more numbers that will be used for the integration.
+1. On the **Add phone number** pane, add the number, its friendly name to distinguish it, the business unit it belongs and its type.
     > [!div class="mx-imgBorder"]
-    > ![Add SMS number screenshot.](media/real-time-marketing-text-message-add.png "Add SMS number screenshot")
-1. Select the **Add** button, then select **Done**. The number setup is now complete.
-1. To receive SMS replies through Twilio or TeleSign using the numbers you set up, you also need to specify and set up the **Callback URL**.
+    > ![Add SMS number screenshot.](media/real-time-marketing-add-sms-number.png "Add SMS number screenshot")
+1. After adding the numbers, select the **Next** button to review the setup details and then select **Done** to complete it. 
+1. To receive SMS replies through the providers using the numbers you set up, you also need to specify and set up the **Callback URL**.
 
     > [!div class="mx-imgBorder"]
-    > ![Callback URL screenshot.](media/real-time-marketing-text-message-callback.png "Callback URL screenshot")
+    > ![Callback URL screenshot.](media/real-time-marketing-text-message-callback-url.png "Callback URL screenshot")
 
-    For Twilio, copy the Callback URL from the Marketing app and paste it in the [numbers' configuration page](https://console.twilio.com/us1/develop/phone-numbers/manage/incoming) in the **"A MESSAGE COMES IN"** field. For TeleSign, you'll need to contact customer support to set this up for you.
+    For Twilio, copy the Callback URL from the Marketing app and paste it in the [numbers' configuration page](https://console.twilio.com/us1/develop/phone-numbers/manage/incoming) in the **"A MESSAGE COMES IN"** field. For Infobip, LINK Mobility and Telesign, you'll need to contact customer support to set this up for you.
 
     > [!div class="mx-imgBorder"]
     > ![Twilio number config screenshot.](media/real-time-marketing-text-message-twilio-config.png "Twilio number config screenshot")

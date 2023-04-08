@@ -2,12 +2,11 @@
 title: "Manage your customers using accounts and contacts"
 description: "Use accounts to store information about companies that you do business with and contacts to store information about people that you work with."
 keywords: ""
-ms.date: 11/25/2021
+ms.date: 03/23/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Manage your customers using accounts and contacts
@@ -35,7 +34,7 @@ You can create accounts and contacts manually or import them from a spreadsheet 
 - [View opportunities associated with an account](#view-opportunities-associated-with-an-account)
 - [View invoices associated with an account](#view-invoices-associated-with-an-account)
 - [View invoices associated with an account](#view-invoices-associated-with-an-account)
-
+- [View relationship analytics and KPIs for an account](relationship-analytics.md)
 
 ### Create an account 
 
@@ -72,6 +71,8 @@ You can create accounts and contacts manually or import them from a spreadsheet 
 - [Create a contact](#create-a-contact)
 - [View opportunities associated with a contact](#view-opportunities-associated-with-a-contact)
 - [View invoices associated with a contact](#view-invoices-associated-with-a-contact)
+- [Get introduced to a contact](who-knows-whom.md)
+- [View relationship analytics and KPIs for a contact](relationship-analytics.md)
 
 ### Create a contact
 

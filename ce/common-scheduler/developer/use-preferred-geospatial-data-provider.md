@@ -11,10 +11,6 @@ ms.subservice: common-scheduler
 ms.topic: conceptual
 author: m-hartmann
 ms.author: mhart
-search.app: 
-  - D365CE
-  - D365PS
-  - D365FS
 ---
 # Extend Universal Resource Scheduling actions to use your preferred geospatial data provider
 

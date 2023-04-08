@@ -1,26 +1,22 @@
 ---
-title: "Enable recalculation of SLAs in terminal status in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to configure recalculation of SLAs that reach the terminal status in Dynamics 365 Customer Service."
-ms.date: 04/04/2022
-ms.topic: article
+title: Recalculate SLAs in terminal status in Dynamics 365 Customer Service
+description: Learn how to configure recalculation of SLAs that reach the terminal status in Dynamics 365 Customer Service.
+ms.date: 03/08/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
+  - bap-template
   - dyn365-customerservice
   - intro-internal
 ---
 
 # Recalculate SLAs in terminal status
-
-## Introduction
 
 By default, SLAs in the terminal status are not reevaluated on case reactivation. But if you want SLAs to be recalculated, such as when a case is reactivated, you can enable the recalculate SLA setting in the service configuration settings. When you enable the setting, the applicable when and success criteria for the SLA will be evaluated again when the case is reactivated.
 

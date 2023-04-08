@@ -3,9 +3,8 @@ title: "Omnichannel JavaScript API Reference | MicrosoftDocs"
 description: "Get an overview of the JavaScript API methods that can be used to perform various operations with the Omnichannel for Customer Service SDK."
 ms.date: 05/24/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.reviewer: nenellim
 ---
 # Omnichannel JavaScript API Reference

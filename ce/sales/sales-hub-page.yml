@@ -4,9 +4,9 @@ summary:  Dynamics 365 Sales enables salespeople to build strong relationships w
 brand: dynamics
 
 metadata:
-  title: Dynamics 365 Sales # Required; page title displayed in search results. Include the brand. For example, Dynamics 365 Commerce < 60 chars.
+  title: Dynamics 365 Sales 
   description: Dynamics 365 Sales enables salespeople to build strong relationships with their customers, take actions based on insights, and close deals faster.
-  ms.topic: hub-page # Required
+  ms.topic: hub-page
   author: lavanyakr01
   ms.author: lavanyakr
   ms.date: 02/23/2023 
@@ -50,19 +50,19 @@ additionalContent:
       links: 
       - url: sign-up-for-sales-trial
         text: Try Dynamics 365 Sales
-      - url: https://dynamics.microsoft.com/en-us/sales/pricing/
+      - url: buy-dynamics-365-sales.md
         text: Buy Dynamics 365 Sales
-      - url:  buy-dynamics-365-sales.md
+      - url:  install-overview.md
         text: Install Dynamics 365 Sales # Need an overview page covering all installation options.
     - title: Set up 
 
       links: 
-      - url: system-settings-sales-tab.md
-        text: General setup # Need an overview page covering creating users, security roles, assigning permissions etc. May be same across all D365 apps. 
-      - url: system-settings-sales-tab.md
-        text: Sales setup # Need an overview page covering setting up BPFs, business units, territories, currencies, fiscal etc.
-      - url: /power-apps/maker/model-driven-apps/configure-interactive-experience-dashboards 
-        text: Reporting setup # Need an overview page covering different dashboards and reports available and how to set up.
+      - url: /power-platform/admin/create-environment
+        text: Environment 
+      - url: /power-platform/admin/grant-users-access
+        text: Users, roles, and licenses 
+      - url: sales-set-up-landing-page.yml 
+        text: Sales entities
   - title: Administer and develop Sales
     items:
     - title: Manage 

@@ -19,14 +19,10 @@ ms.assetid: f622fe69-14b3-44e0-a4eb-093959910c70
 caps.latest.revision: 35
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Example of going offline with Dynamics 365 for Outlook
 Salespeople can make critical customer information available and up-to-date on business trips with filters. By specifying only the data you need to synchronize with your laptop, you can avoid wasting valuable laptop memory, stay current with the head office, and keep information on your laptop fresh. Meanwhile, managers and co-workers are up-to-date.  

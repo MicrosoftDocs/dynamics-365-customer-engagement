@@ -13,14 +13,10 @@ ms.assetid: 55e7ba56-2f18-4eaf-8282-70cd639887f8
 caps.latest.revision: 1
 ms.author: sericks
 author: sericks007
-manager: tapanm-MSFT
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Sales
 ---
 # Get session ID and logs to help troubleshoot your issue
 

@@ -3,15 +3,14 @@ title: "msdyn_visitorjourney Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_visitorjourney entity."
 ms.date: 03/23/2020
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 ---
 # msdyn_visitorjourney Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Stores each customer action as a record. The actions tracked are before an interaction is initiated. Agents will see the actions for an interaction in the Self Service section of the Customer Summary page, when enabled.
+Stores each customer action as a record. The actions tracked are before an interaction is initiated. Agents will see the actions for an interaction in the Self Service section of the **Active Conversation** page, when enabled.
 
 **Added by**: Omnichannel - Base Patch Solution
 

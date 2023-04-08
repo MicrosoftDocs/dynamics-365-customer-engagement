@@ -5,15 +5,11 @@ ms.date: 03/03/2020
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 keywords: custom control, sales navigator, linkedin, integration, customization
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365LinkedIn
 ---
 
 # Add LinkedIn Sales Navigator controls to forms

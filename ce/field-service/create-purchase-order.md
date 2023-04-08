@@ -1,16 +1,13 @@
 ---
-title: "Create a purchase order (Dynamics 365 Field Service) | MicrosoftDocs"
-description: Learn about creating purchase orders in Dynamics 365 Field Service
+title: Create a purchase order
+description: Learn about creating purchase orders in Dynamics 365 Field Service.
 ms.date: 09/05/2022
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Create a purchase order in Field Service
+# Create a purchase order
 
 In Dynamics 365 Field Service, a purchase order (PO) is created to add inventory to a warehouse, or to purchase products to sell to a customer in a work order.
 

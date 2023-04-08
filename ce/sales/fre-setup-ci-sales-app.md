@@ -7,7 +7,6 @@ ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # First-run setup experience of Microsoft Teams for conversation intelligence

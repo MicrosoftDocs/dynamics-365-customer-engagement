@@ -15,7 +15,6 @@ ms.assetid: fcab11ba-2c58-4656-abf6-5e807d956b49
 caps.latest.revision: 7
 author: Mattp123
 ms.author: matp
-manager: brycho
 search.audienceType: 
   - admin
 

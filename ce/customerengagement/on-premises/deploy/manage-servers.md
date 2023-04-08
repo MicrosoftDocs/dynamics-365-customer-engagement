@@ -14,7 +14,6 @@ ms.assetid: 821da27b-9dc5-4fc6-8ba2-cf19201fb549
 caps.latest.revision: 9
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Manage servers
 

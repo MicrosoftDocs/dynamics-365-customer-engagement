@@ -5,7 +5,6 @@ ms.date: 03/30/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Dynamics 365 Sales and GDPR 
 

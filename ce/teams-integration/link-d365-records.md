@@ -5,7 +5,6 @@ ms.date: 04/20/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Link Dynamics 365 records to Teams channels 

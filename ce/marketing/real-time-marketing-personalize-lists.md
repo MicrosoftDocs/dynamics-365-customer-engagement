@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Personalize lists of content in emails
@@ -88,24 +84,10 @@ For lists, you can add or delete additional attributes (these changes will be sa
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing added attributes.](media/real-time-marketing-personalization-codegenerator4.png)
 
-## Preview: Filter list output in emails
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
-
-### Enable the preview for list filtering
-
-This article refers to a feature that is in preview and may not be enabled in your environment. If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to **Personalization** area, enabling the **Filter on list** feature switch, and saving the setting by clicking on **“Save”** on the top right corner.
-
-> [!div class="mx-imgBorder"]
-> ![filter on list](media/real-time-marketing-filter-on-list.png "filter on list")
+## Define a list filter
 
 > [!NOTE]
-> This feature is available only in Real-time marketing.  
-
-### Define a list filter
+> This feature is available only in Real-time marketing.
 
 Sometimes when creating a list in an email, you'd like to only include items that meet certain conditions. For example, a confirmation email about an order may be most effective if it separately lists items that are back ordered or need special handling. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track, filtering the list of sessions based on certain criteria.
 

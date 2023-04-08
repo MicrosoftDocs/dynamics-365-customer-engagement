@@ -3,7 +3,6 @@ title: Actions supported in online and offline mode of Dynamics 365 for phones a
 description: Learn about the prerequisites for accessing the mobile app in offline mode, features available in online and offline modes, and known issues in the offline mode. 
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template 

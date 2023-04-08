@@ -3,16 +3,12 @@ title: "Release history (Unified Service Desk)| MicrosoftDocs"
 description: "Find information about all the documentation updates made in various versions of Unified Service Desk."
 ms.date: 02/06/2023
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 monikerRange: '>= dynamics-usd-3'

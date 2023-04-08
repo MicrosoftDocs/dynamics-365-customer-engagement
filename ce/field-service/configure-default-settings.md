@@ -6,9 +6,6 @@ ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ms.custom: bap-template
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Set defaults for work orders, bookings, the schedule board, and agreements
@@ -73,13 +70,17 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 | Suggest Reparenting Customer Assets | Warn users when a customer asset gets added to a work order that doesn't relate to the work order's service account. If it's set to *Yes*, the system offers to map the customer asset to the work order's service account. When set to *No*, the warning and suggestion won't show. |
 | Timestamp Frequency | Choose when the system updates the timestamp for a booking. |
 | Calculate Price | Work orders contain pricing-related fields and functions. By default, this field is set to *Yes*, which enables pricing-related fields and logic. Changing the setting to *No* removes all pricing-related fields and disables the pricing logic. So work orders won't generate invoices after completion.|
+|Calculate Cost| Enabling work order costs adds cost fields on work order products, work order service, and summary fields on work orders. It lets you track estimated and actual costs per work order. Track costs to establish cost trends over time and review them based on work order categorizations such as trade and work order type to understand your business and where to optimize service delivery. If [Not-to-exceed is enabled](work-order-not-to-exceed.md), it's automatically added to the work orders based on not-to-exceed values in the system. Cost summaries on work orders appear in a summary card and are the sum of the costs of all work order products and services, including taxes. |
 | Show Simplified Work Order Commands | This setting influences the command bar on work order records and lists. By default, this field is set to *Yes*, which shows only the most relevant commands for work orders. The following commands will be hidden from the form: deactivate, check access, process, add to queue, queue item details, assign, share, email a link, flow, Word templates. The following commands will be hidden from the list view when no records are selected: email a link, flow, import from Excel. The following commands will be hidden from the list view when a record is selected: activate, deactivate, email a link, add to queue, flow, Word templates, Excel templates. When set to *No*, all commands are shown. |
+|Not-to-Exceed |Enables [not-to-exceed values to set an optional cost or price limit](work-order-not-to-exceed.md) for a work order.|
 |  Work Order Starting Number |  Provide number from which the system starts the count of work orders. |
 |  Work Order Invoice Creation  |   Choose if the system should automatically generate a billing invoice for work orders when the status changes to *Closed - Posted*. |
 |  Travel Charge Item      | Select the product that the system uses for travel charges for a work order. The pricing will be determined by the settings Travel Charge value on the service account. For more information, go to [Accounts](accounts.md). |
 | Disable Customer Asset Validation | Control work order creation if customer assets on the work order don't belong to the same service account. When set to *Yes*, users can't create a work order if the customer assets don't relate to the service account. When set to *No*, the system requires customer assets related to the service account on a work order. For more information, go to [Validate customer assets on work orders](asset-validation.md). |
 | Calculate Tax | [Tax codes](set-up-tax-codes.md) calculate and add taxes to products and services. When set to *No*, the tax code field and calculations from all related forms are disabled. |
 | Generate Actuals | When set to *Yes*, the system creates records with actuals over the course of a work order's lifecycle. If set to *No*, the system disables the creation of work order-related actuals. |
+|Trades|Enables [trades to group incident types](trades.md) and reveals the trade coverages setting. |
+|Trade Coverages|Enables [trade coverages to specify logic how trades are covered](trades.md#configure-trade-coverages) for customer accounts and locations. |
 | **Resource pay type section** |  |
 | Work Pay Type   |  Choose the [resource pay type](set-up-resource-pay-types.md) for work performed during regular work hours.   |
 | Business Closure Pay Type  |  Choose the pay type for days marked as *Business Closures*. For more information, go to [Set when your business is closed](../customer-service/set-when-business-closed-csh.md). |

@@ -3,7 +3,6 @@ title: "Enable voice consult with Microsoft Teams user for the voice channel | M
 description: "Learn how to enable the consult experience between a voice channel agent and a Microsoft Teams user in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 08/26/2022
 ms.topic: article
 

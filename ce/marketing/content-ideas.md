@@ -1,20 +1,16 @@
 ---
 title: "Preview: Use AI to kickstart email creation with content ideas (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use AI-powered content ideas to generate content in Dynamics 365 Marketing."
-ms.date: 09/06/2022
+ms.date: 02/24/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Preview: Use AI to kickstart email creation with content ideas
@@ -30,9 +26,9 @@ search.app:
 > [!Tip]
 > Learn about using content ideas to create inspiring emails in our latest blog: [Make email creation fun and more efficient with AI-powered content ideas in Dynamics 365 Marketing](https://cloudblogs.microsoft.com/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWWPcH]
-
 Content ideas helps you discover new ways to express your thoughts, helping you move from email concept to completion faster. This article explains how content ideas works and how you can start using it to kickstart your emails.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWZDEE]
 
 ## What is content ideas?
 
@@ -100,6 +96,6 @@ If you aren't satisfied with the generated ideas, try one or more of the followi
 Content ideas generates original content, but it isn’t always factual. In addition, because the underlying technology behind content ideas uses AI that has been trained on a wide range of internet sources, some text suggestions may include questionable or inappropriate content. It's your responsibility to edit generated suggestions so that your final copy is accurate and appropriate.
 
 > [!IMPORTANT]
-> If you encounter inappropriate content being generated, report it to Microsoft using this feedback form: [Report abuse](https://msrc.microsoft.com/report/abuse?ThreatType=URL&IncidentType=Responsible%20AI&SourceUrl=https://dynamics.microsoft.com/en-us/marketing/overview/). It will help improve the functionality moving forward.
+> If you encounter inappropriate content being generated, report it to Microsoft using this feedback form: [Report abuse](https://msrc.microsoft.com/report/abuse?ThreatType=URL&IncidentType=Responsible%20AI&SourceUrl=https://dynamics.microsoft.com/marketing/overview/). It will help improve the functionality moving forward.
 >
 > Microsoft may disable the content ideas feature for selected customers if abuse of the functionality is detected.

@@ -4,7 +4,6 @@ description: "Use this article to understand how to create and manage workstream
 ms.date: 02/10/2023
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.topic: article
 ms.custom: intro-internal
 ---

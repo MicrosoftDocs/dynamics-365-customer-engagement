@@ -5,7 +5,6 @@ ms.date: 06/09/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 
