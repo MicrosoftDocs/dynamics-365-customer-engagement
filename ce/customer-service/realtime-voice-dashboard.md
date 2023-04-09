@@ -21,6 +21,9 @@ The voice report gives you insights into key metrics across the voice channel. Y
 
 You will see the voice report, only if your organization has the voice feature configured. More information: [Manage real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service)
 
+This report provides the summary of voice conversations over time by queue. Voice specific metrics such as talk time, hold time
+
+
 :::image type="content" source="media/realtime_voice.png" alt-text="Screenshot of the voice report":::
 
 For details on metrics displayed in the Voice report, go to Omnichannel analytics metrics.
