@@ -1,7 +1,7 @@
 ---
 title: Real-time analytics Summary report| Microsoft Docs
 description: Learn about the real-time summary report to cater to your organization's customer service experience better.
-ms.date: 03/28/2023
+ms.date: 04/09/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,7 +17,13 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The **Summary** report is the default report that appears when you select the Omnichannel real-time analytics dashboard in Customer Service workspace. This report provides KPIs across the volume of customer interactions and service levels, along with the available agent capacity in real time. You can filter these areas by time, channels, queue, time zone, or conversation status. More information: [Overview of Omnichannel real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
+The **Summary** report is the default report that appears when you select the Omnichannel real-time analytics dashboard in Customer Service workspace. You can filter these areas by time, channels, queue, time zone, or conversation status. More information: [Overview of Omnichannel real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
+
+This report provides the summary of customer conversations over time, and by channel or queue. Statistics about the channel through which a conversation comes in helps you analyze and manage queue distribution accordingly. You can get a view of the service levels along with the available agent capacity in real time.
+
+Higher abandoned conversations can often lead to decreased customer satisfaction. You can take care of high abandoned conversations, by looking into operational metrics such as agent availability and queue distribution, and thereby manage customer sentiment. 
+
+In addition to the metrics that you already see on the Summary dashboard, you can also add more metrics by editing the visual display of your report. More information: [Customize visual display](customize-reports.md#customize-visual-display)
 
 :::image type="content" source="media/realtime_summary.png" alt-text="Screenshot of realtime summary report":::
 
