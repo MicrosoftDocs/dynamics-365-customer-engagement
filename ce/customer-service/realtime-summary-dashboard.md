@@ -19,9 +19,9 @@ ms.custom:
 
 The **Summary** report is the default report that appears when you select the Omnichannel real-time analytics dashboard in Customer Service workspace. You can filter these areas by time, channels, queue, time zone, or conversation status. More information: [Overview of Omnichannel real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 
-This report provides the summary of customer conversations over time, and by channel or queue. Statistics about the channel through which a conversation comes in helps you analyze and manage queue distribution accordingly. You can get a view of the service levels along with the available agent capacity in real time.
+This report provides the summary of customer conversations over time, and by channel or queue. Statistics about the channel through which a conversation comes in helps you analyze and manage queue distribution accordingly. For example, higher abandoned conversations can often lead to decreased customer satisfaction. You can take care of high abandoned conversations by looking into operational metrics such as agent availability and queue distribution in real time.
 
-Higher abandoned conversations can often lead to decreased customer satisfaction. You can take care of high abandoned conversations, by looking into operational metrics such as agent availability and queue distribution, and thereby manage customer sentiment. 
+Additionally, you can also track customer sentiment to analyze whether customers are getting adequate support. For example, a high average handle time might indicate that agents are taking more than the required time to resolve customer issues. Depending on the issue, you could then provide the required training or support to help agents resolve customer issues faster.
 
 In addition to the metrics that you already see on the Summary dashboard, you can also add more metrics by editing the visual display of your report. More information: [Customize visual display](customize-reports.md#customize-visual-display)
 
