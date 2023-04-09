@@ -5,7 +5,6 @@ ms.date: 11/30/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Lead and opportunity scoring

@@ -5,7 +5,6 @@ ms.date: 09/19/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Configure AI suggestions for contacts in Microsoft Teams

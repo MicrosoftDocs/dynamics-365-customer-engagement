@@ -7,9 +7,6 @@ ms.date: 07/27/2022
 ms.topic: overview
 
 ms.subservice: connected-field-service
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Quickstart: Build your own Connected Field Service (IoT) solution
 

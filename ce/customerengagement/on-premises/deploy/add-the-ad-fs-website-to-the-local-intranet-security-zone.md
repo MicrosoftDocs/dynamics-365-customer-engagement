@@ -14,7 +14,6 @@ ms.assetid: f1baf330-e070-4735-8ebe-ec5724595462
 caps.latest.revision: 21
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Add the AD FS website to the Local intranet security zone in Internet Explorer
 

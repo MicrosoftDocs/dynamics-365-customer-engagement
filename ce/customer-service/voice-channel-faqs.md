@@ -3,7 +3,6 @@ title: "FAQ about the voice channel | MicrosoftDocs"
 description: "This article includes frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 12/22/2022
 ms.topic: article
 

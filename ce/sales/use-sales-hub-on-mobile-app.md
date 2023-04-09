@@ -5,7 +5,6 @@ ms.date: 02/27/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---

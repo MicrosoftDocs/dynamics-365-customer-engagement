@@ -5,7 +5,6 @@ ms.date: 09/30/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Get started with Customer Service admin center

@@ -14,7 +14,6 @@ ms.assetid: f1abcee0-8eca-4f91-9751-32dbfe9d0a79
 caps.latest.revision: 7
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Disable claims-based authentication
 

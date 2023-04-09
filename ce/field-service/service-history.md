@@ -6,9 +6,6 @@ author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
 ms.custom: bap-template
-search.app: 
-  - D365CE
-  - D365FS
 ---
  
 # Build a service history for assets

@@ -5,7 +5,6 @@ ms.date: 12/20/2022
 ms.topic: article
 author: mgandham
 ms.author: nenellim
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 

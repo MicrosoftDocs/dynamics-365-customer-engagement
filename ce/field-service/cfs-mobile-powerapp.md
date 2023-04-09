@@ -7,9 +7,6 @@ ms.topic: how-to
 ms.custom: bap-template
 ms.author: vhorvath
 author: vhorvathms
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Work IoT data on the Field Service (Dynamics 365) mobile app

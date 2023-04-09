@@ -15,9 +15,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Remove Dynamics 365 App for Outlook
 

@@ -6,9 +6,6 @@ ms.date: 02/12/2021
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Create tax codes
 

@@ -5,7 +5,6 @@ ms.date: 07/20/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Customize the appearance of work items

@@ -6,9 +6,6 @@ ms.topic: overview
 ms.subservice: field-service-mobile
 author: JonBaker007
 ms.author: jobaker
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Field Service (Dynamics 365) mobile app overview

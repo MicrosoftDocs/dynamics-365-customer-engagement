@@ -5,13 +5,9 @@ ms.date: 11/12/2020
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ---
 
 # Unified Interface Page (hosted control)

@@ -4,7 +4,6 @@ description: "This article includes a sample configuration integrate Azure bots 
 ms.date: 05/16/2022
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.topic: article
 ---
 

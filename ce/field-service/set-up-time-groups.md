@@ -5,9 +5,6 @@ ms.date: 02/16/2023
 ms.topic: conceptual
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Define intervals and time groups with fulfillment preferences
 

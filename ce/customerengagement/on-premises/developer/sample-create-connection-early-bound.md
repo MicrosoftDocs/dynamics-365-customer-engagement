@@ -16,7 +16,6 @@ helpviewer_keywords:
 ms.assetid: b638e13f-c1bc-400e-8122-217cc31d6850
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 ---

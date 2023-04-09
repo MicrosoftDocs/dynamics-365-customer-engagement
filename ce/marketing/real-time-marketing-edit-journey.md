@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: get-started
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Edit a live journey in real-time marketing

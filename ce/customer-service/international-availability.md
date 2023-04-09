@@ -5,7 +5,6 @@ ms.date: 12/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # International availability of Omnichannel for Customer Service
 

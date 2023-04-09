@@ -9,7 +9,6 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 author: JimDaly
 ms.author: jdaly
-manager: KumarVivek
 ms.reviewer: pehecke
 search.audienceType: 
   - developer

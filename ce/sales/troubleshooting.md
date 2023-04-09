@@ -5,7 +5,6 @@ ms.date: 03/29/2023
 ms.topic: landing-page
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Dynamics 365 Sales troubleshooting guide 
 

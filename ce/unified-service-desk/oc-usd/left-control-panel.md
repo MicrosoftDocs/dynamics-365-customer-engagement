@@ -5,7 +5,6 @@ ms.date: 11/12/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View the communication panel

@@ -5,7 +5,6 @@ ms.date: 02/23/2023
 ms.topic: how to
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Add text message option to custom forms

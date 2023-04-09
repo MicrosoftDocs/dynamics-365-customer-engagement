@@ -1,16 +1,13 @@
 ---
-title: "msdyn_agentstatus entity reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_agentstatus entity."
-ms.date: 04/05/2023
+title: msdyn_agentstatus entity reference (Microsoft Dataverse)| MicrosoftDocs
+description: Includes schema information and supported messages for the msdyn_agentstatus entity.
+ms.date: 04/06/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
+ms.reviewer: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # msdyn_agentstatus entity reference
 

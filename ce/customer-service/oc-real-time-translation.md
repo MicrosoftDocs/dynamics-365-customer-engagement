@@ -5,7 +5,6 @@ ms.date: 06/30/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Real-time translation of conversations for agents and customers

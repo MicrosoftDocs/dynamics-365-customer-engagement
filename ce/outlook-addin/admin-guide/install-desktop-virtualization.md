@@ -14,14 +14,10 @@ ms.assetid: 4c6960a6-ffe7-478a-88c5-14d4f64f6320
 caps.latest.revision: 46
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Install Microsoft Dynamics 365 for Outlook for desktop virtualization
 This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with roaming user profiles by using [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)][!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)]. [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)], formerly Terminal Services, is a server role in [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)] that provides technologies that enable users to access session-based desktops, virtual machine-based desktops, or applications in the data center from both within a corporate network and from the Internet.  

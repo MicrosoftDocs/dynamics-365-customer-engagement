@@ -5,9 +5,6 @@ ms.date: 11/22/2022
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Uninstall Dynamics 365 Field Service
 

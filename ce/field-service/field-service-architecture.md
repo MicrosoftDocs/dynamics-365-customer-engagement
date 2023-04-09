@@ -9,9 +9,6 @@ ms.custom: bap-template
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Work order architecture

@@ -9,14 +9,10 @@ ms.custom:
 ms.topic: troubleshooting
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Troubleshoot Marketing issues with Solution Health Hub

@@ -5,9 +5,6 @@ ms.date: 03/18/2023
 ms.topic: article
 author: josephshum-msft
 ms.author: jshum
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Add inspections to work orders

@@ -20,7 +20,6 @@ ms.assetid: 67d8cf80-9f77-4804-97a1-cf9f61417e83
 caps.latest.revision: 68
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
 search.audienceType: 
   - developer
 
