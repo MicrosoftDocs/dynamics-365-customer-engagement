@@ -20,16 +20,14 @@ This transparency note describes the AI impact of Dynamics 365 Marketing's conte
 
 ## What is content ideas?
 
-Content ideas is 
-
-- Describe the system in plain English. What type of system is this? What does it do? At a high level, what does the system take as input? What kind of outputs does the system produce?
+Content ideas is a feature in the Marketing email designer that helps you kickstart email creation and discover new ways to express your thoughts. To generate ideas, select the **Content ideas** button in the email editor and add up to five key points (two minimum) that you want to get across in your email. The key points can consist of a few words or complete sentences. The more specific your key points, the more precise content ideas's output is. Content ideas generates paragraphs of text based on your input that you can use in your marketing emails. Browse the generated ideas using the scrollbar in the content ideas pane. Select **Add to my draft** to copy the content into your email.
 
 ## What are the system’s capabilities?
 
-
-- Building on the previous question, provide semi-technical, high-level information on how the system offers functionality for various uses.
+Content ideas is built on a machine learning model called GPT-3. Trained on a vast number of text samples from the internet, GPT-3 generates new text in English that looks and sounds similar to text that was written by a human. Content ideas uses GPT-3 as a foundation, then (if enabled) considers your organization’s recent ready-to-send emails and the key messaging points that you share for each new email draft. Content ideas masks any personal data in generated ideas and shows only the results that are long enough and unique enough to be useful.
 
 ## What is the system’s intended use?
+
 
 
 - Explain intended use(s), as identified in your Impact Assessment.
@@ -37,16 +35,18 @@ Content ideas is
 ## How was content ideas evaluated? What metrics are used to measure performance?
 
 
-- Provide evidence of system accuracy and performance as well as a description of the extent to which these results are generalizable across use cases that were not part of the evaluation.
+- Provide evidence of system accuracy and performance and a description of the extent to which these results are generalizable across use cases that weren't part of the evaluation.
 
-## What are the limitations of content ideas? How can users minimize the impact of content ideas’s limitations when using the system?
+## What are the limitations of content ideas? How can users minimize the impact of the content ideas limitations when using the system?
 
-
-- See Impact Assessment. Describe the known limitations of the system including uses for which the system was not designed or evaluated. Discuss steps that the user can take to minimize errors and the impact of trade-offs for the user. 
+Content ideas generates original content, but it isn’t always factual. In addition, because the underlying technology behind content ideas uses AI that has been trained on a wide range of internet sources, some text suggestions may include questionable or inappropriate content. It's your responsibility to edit generated suggestions so that your final copy is accurate and appropriate.
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 
+Follow these procedures to make the most of the content ideas feature:
 
-- Describe the operational factors and ranges within which the system is expected to perform reliably and safely. List the choices that end users can make (e.g., customization, settings, etc.), with a description of how those choices may impact system behavior in the real world.
+1. Provide the relevant set of key points to describe what your message should be about: Use up to five descriptive key points, use a group of words or a full sentence for each key point, keep all the key-points around the same topic.
+1. Ensure high-quality of text content in your 20+ recent **Ready-to-send** commercial marketing emails- These emails (together with provided key points) serve as an input for the AI service to generate personalized ideas.
+1. Always review and edit content ideas suggestions before publishing them in an email or marketing campaign.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
