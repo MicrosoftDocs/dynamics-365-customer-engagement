@@ -1,25 +1,15 @@
 ---
-title: Configure knowledge article schema mapping (preview)
+title: Configure knowledge article schema mapping
 description: Learn about knowledge article schema mapping.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/06/2023
+ms.date: 04/10/2023
 ms.custom: bap-template
 ---
 
-# Configure knowledge article schema mapping (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+# Configure knowledge article schema mapping
 
 To add an integrated search provider, you need to configure the knowledge article schema for data ingestion. You need to select an option from the **Knowledge article schema** section:
 
@@ -55,7 +45,7 @@ If the validation is successful, you'll see a confirmation message. If the valid
 
 ## Use JSON
 
-1. Copy and paste your article properties and schema JSON in the field provided to you. For more information on creating the JSON schema, go to [Schema details to build a metadata mapping template (preview)](int-search-metadata-schema.md).
+1. Copy and paste your article properties and schema JSON in the field provided to you. For more information on creating the JSON schema, go to [Schema details to build a metadata mapping template](int-search-metadata-schema.md).
 1. Select **Validate json**.
  
     You'll get a message to denote whether the JSON validation has passed or failed. If there is an error, the error message will state the parameter with the incorrect value.
@@ -85,4 +75,4 @@ If the validation is successful, you'll see a confirmation message. If the valid
 
 ## Next steps
 
-For more information on adding an integrated search provider, go to: [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview).
+For more information on adding an integrated search provider, go to: [Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers).
