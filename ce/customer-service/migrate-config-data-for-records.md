@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 04/10/2023
 ms.custom: bap-template
 ---
 
@@ -82,7 +82,7 @@ If you're using the out-of-the-box assignment methods for queues, such as highes
     - Assignment configuration
     - Assignment configuration step
 
-The assignment rulesets must be available in the system before  the Configutation Migration tool importis the selection criteria. Hence, you need to perform the following steps in the specified order to migrate configuration for record queues:
+The assignment rulesets must be available in the system before  the Configutation Migration tool imports the selection criteria. Hence, you need to perform the following steps in the specified order to migrate configuration for record queues:
 
 ### Step 1: Export and import rulesets without selection criteria set
   
@@ -136,7 +136,29 @@ The following table summarizes the entities and corresponding FetchXML samples:
 | 1. |  Decision ruleset with selection criteria (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Decision ruleset for all record queues with selection criteria defined**](#BKMK1sc-ur-rls) <br> <br> [**Sample 2: Decision ruleset for a single record queue with selection criteria defined**](#BKMK2sc-ur-rls) <br> <br> [**Sample 3: Decision ruleset for multiple record queues with selection criteria defined**](#BKMK3sc-ur-rls) <br>  |    
 | 2. |  Assignment Configuration Step with selection criteria (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Assignment configuration step for all record queues with selection criteria defined**](#BKMK1sc-ur-acs) <br> <br> [**Sample 2: Assignment configuration step for a single record queue with selection criteria defined**](#BKMK2sc-ur-acs) <br> <br> [**Sample 3: Assignment configuration step for multiple record queues with selection criteria defined**](#BKMK3sc-ur-acs) <br>   |
 
-To export and import the rulesets with selection criteria defined, perform steps 1 to 5 in  **Step 1: Export and import rulesets without selection criteria set**.
+Perform the following steps to export and import the rulesets:
+
+1. Generate the schema and save it.
+
+2. Export the data and generate the compressed (zip) file.
+
+3. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
+
+   - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_assignmentoutput'`
+
+     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+
+   - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_selectionruleoutput'`
+
+     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+
+4. Package the extracted content again.
+
+5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
 ### FetchXML for queues
 
