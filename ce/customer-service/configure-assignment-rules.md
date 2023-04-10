@@ -23,9 +23,9 @@ In unified routing, the process of creating assignment rulesets involves the fol
 
 ## Create an assignment method and configure rules
 
-Perform the following steps to create a custom assignment method:
+Follow the steps to create a custom assignment method:
 
-1. In Dynamics 365, go to one of the admin apps, and perform the following steps.
+1. In Dynamics 365, go to one of the admin apps, and do the following steps.
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -52,14 +52,14 @@ Perform the following steps to create a custom assignment method:
 
    a. On the **Create Prioritization Ruleset** dialog, enter a name and description for the ruleset, and select **Create**.
 
-   b. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog, enter a rule name and define the conditions when the rule should be run. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you're creating the rule.
+   b. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog, enter a rule name and define the conditions when the rule should be run. By default, the root record for which you're creating the rule is selected and displayed at the top of the condition builder.
 
-   c. Select the attribute on which you want to define the order-by to route the work item to agents.
+   c. To route the work item to agents, select the attribute on which you want to define the order by.
 
    d. Create as many rules as needed.
 
     > [!NOTE]
-    > For routing records, we recommend that you manage custom prioritization rules through the UI only and not create or update them through scripts.
+    > For routing records, we recommend that you manage the custom prioritization rules through the UI only and not create or update them through scripts.
 
 1. To create an assignment ruleset, on the **Assignment method** page, select **Create ruleset**.
 
@@ -71,7 +71,7 @@ Perform the following steps to create a custom assignment method:
 
    a. **Rule Name**: Enter a rule name.
 
-      By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility.
+      By default, the root record is selected and displayed at the top of the condition builder.
 
    b. **Conditions**: Select **Add** to select an attribute or related entity and define condition. You can define conditions for up to two levels of the related records and attributes.
 
@@ -93,7 +93,7 @@ Perform the following steps to create a custom assignment method:
    > [!NOTE]
    > We recommend that you reduce the granularity of the conditions for the assignment rules in a descending order.
   
-1. You can sort the order in which the rules should be evaluated during work assignment. For other tasks that you can perform, such as copy, edit, delete, see [Options available for rulesets](configure-work-classification.md#options-available-for-rulesets).
+1. You can sort the order in which the rules should be evaluated during work assignment. For other tasks that you can do, such as copy, edit, and delete, see [Options available for rulesets](configure-work-classification.md#options-available-for-rulesets).
 
 1. If you create more than one assignment ruleset, a warning message is displayed that alerts you to define the selection criteria to run the rulesets.
 
@@ -113,7 +113,7 @@ Perform the following steps to create a custom assignment method:
 
 ### Configure selection criteria
 
-Define the selection criteria, when you configure more than one assignment ruleset in the custom assignment method. The selection criteria lets you define a set of conditions to determine the ruleset to be run when the condition is met. After the ruleset is picked up by the work assignment engine, if no rule matches in the selection criteria or if no selection criteria is met, the default ruleset will be run by the system.
+The selection criterion lets you define a set of conditions to determine the ruleset to be run when the condition is met. You should define the selection criteria when you configure more than one ruleset in the custom assignment method. After the ruleset is picked up by the work assignment engine, if no rule matches in the selection criteria or if no selection criterion is met, the system runs the default ruleset.
 
 Follow these steps to configure the selection criteria for the assignment rulesets:
 
