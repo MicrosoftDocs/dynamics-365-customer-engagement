@@ -85,7 +85,7 @@ You can now add integrated search providers.
     1. Select **Next** to go the next section, or select **Save as draft**, if you still need to provide information for the section.
 1.	In the **Summary** section, review your search provider setup and make changes, if any, to the **Search provider name**, **URL**, **Authentication type**, **Refresh frequency**, and **Lookback period**.
 
-1. Select **Save and close**. Your newly added search provider now appears on the **Knowledge** > **All search providers** page. The status of the search provider will be **Inactive** with status reason as **Validated**.
+1. Select **Save and close**. Your newly added search provider now appears on the **Knowledge** > **All integrated search providers** page. The status of the search provider will be **Inactive** with status reason as **Validated**.
 
 1. Optionally, select **Save as draft**, if you still need to provide information for any of the sections. The status of the search provider will appear as **Inactive** with status reason as **Draft**.
 
@@ -94,7 +94,22 @@ You can now add integrated search providers.
 > - A unique combination of root URL, site map URL, and language filters only are allowed.
 
 ## Run ingestion for search providers
-Before you begin the ingestion, if your search provider is in **Inactive** with status reason as **Validated**, you can perform a trial ingestion,
+
+Depending on the status of your search provider, you can either run a custom or a trial ingestion.
+
+If your search provider is in **Inactive** with status reason as **Validated**, you can perform a trial ingestion, by performing the following steps:
+
+1. Select the search provider from the **Knowledge** > **All integrated search providers** page.
+1. Select **Run Ingestion**.
+1. On the **Run Ingestion** dialog, select the **Trial Ingestion** option, and then specify the number of articles to be from the **No of records** dropdown list.
+
+If your search provider is in **Active** with status reason as **Ingestion Ready**, you can perform a custom ingestion, by performing the following steps:
+
+1. Select the search provider from the **Knowledge** > **All integrated search providers** page.
+1. Select **Run Ingestion**.
+1. On the **Run Ingestion** dialog, select the **Custom Ingestion** option, and then specify the date range to pick up updated articles to run ingestion.
+
+
 
 activate: write it as , u have to activate the search provider will be **Inactive** with status reason as **Validated**.
 
