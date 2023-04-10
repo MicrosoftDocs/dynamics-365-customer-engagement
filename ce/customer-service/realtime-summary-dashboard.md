@@ -1,7 +1,7 @@
 ---
 title: Real-time analytics Summary report| Microsoft Docs
 description: Learn about the real-time summary report to cater to your organization's customer service experience better.
-ms.date: 04/09/2023
+ms.date: 04/10/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas

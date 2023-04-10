@@ -1,7 +1,7 @@
 ---
 title: Real-time analytics voice report| Microsoft Docs
 description: Learn about the real-time voice report to cater to your organization's customer service experience better.
-ms.date: 04/09/2023
+ms.date: 04/10/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -21,8 +21,9 @@ The voice report gives you insights into key metrics across the voice channel. Y
 
 You will see the voice report, only if your organization has the voice feature configured. More information: [Manage real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service)
 
-This report provides the summary of voice conversations over time by queue. Voice specific metrics such as conversation direction indicates whether the conversation was started by the customer or a contact center agent, known as inbound conversation or outbound conversation, respectively. Other voice specific metrics such as conversation hold time and conversation talk time provide you with specific details about ongoing conversations and how long agents take to resolve an issue.
+This report provides the summary of voice conversations over time by queue. Voice-specific metrics such as conversation hold time and conversation talk time provide you with specific details about ongoing conversations and the overall time that agents take to resolve an issue. You can use these metrics to reduce the conversation hold time and increase agent efficiency as well as customer satisfaction.
 
+You can also monitor other voice-specific metrics such as conversation direction, that indicates whether the conversation was started by the customer or a contact center agent. You can use these operational metrics to manage queue distribution.
 
 :::image type="content" source="media/realtime_voice.png" alt-text="Screenshot of the voice report":::
 
