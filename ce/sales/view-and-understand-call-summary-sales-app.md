@@ -135,7 +135,7 @@ The following image is an example of a **Mentions** tab.
 > [!div class="mx-imgBorder"]
 > ![Mentions tab](media/ci-summary-keywords.png "Mentions tab")  
 
-When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript and the playback.
+Select a mentioned item to view when the item was mentioned in the transcript and playback.
 
 - **Competitors mentioned**: Displays the predefined competitors that customers mentioned during the call.
 
@@ -146,7 +146,7 @@ When you select any of the items listed in the following sections, you can see w
 - **Times**: Displays mentions related to time and date during the call; for example, let's talk next week.  
 - **Prices**: Displays prices mentioned during the call; for example, the product will cost $50.
 - **Questions asked by sellers**: Displays questions asked by the Dynamics 365 users during the call. For example, What do you think about the demo? 
-- **Questions asked by others**: Displays the questions asked by the other participants during the call. 
+- **Questions asked by others**: Displays the questions asked by participants other than Dynamics 365 users. 
 
 
 
