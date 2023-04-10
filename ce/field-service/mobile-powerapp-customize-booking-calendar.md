@@ -6,9 +6,6 @@ ms.date: 12/01/2021
 ms.topic: article
 author: JonBaker007
 ms.author: jobaker
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Edit the bookings calendar columns on the Dynamics 365 Field Service mobile app

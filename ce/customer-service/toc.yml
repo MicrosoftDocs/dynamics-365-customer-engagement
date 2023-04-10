@@ -126,10 +126,12 @@
       href: ../app-profile-manager/security-roles.md
     - name: Create and use agent experience profiles
       href: ../app-profile-manager/create-agent-experience-profile.md
+    - name: Add users to agent experience profiles
+      href: ../app-profile-manager/add-profile-default.md
     - name: Configure the inbox for agents
       href: configure-inbox.md     
     - name: Configure the agent calendar view
-      href: configure-agent-calendar.md
+      href: configure-agent-calendar.md  
     - name: App profile manager
       items:
        - name: Experience for accessing templates and productivity tools
@@ -158,6 +160,8 @@
         href: ../app-profile-manager/agent-scripts.md
       - name: Manage macros
         href: ../app-profile-manager/macros.md
+      - name: Manage custom productivity tools
+        href: manage-custom-productivity-tools.md
       - name: Use automation dictionary to pass parameters keys
         href: ../app-profile-manager/automation-dictionary-keys.md
   - name: Community
@@ -291,11 +295,15 @@
       - name: Configure components to display customer details and recent records
         href: add-display-components-to-case-form.md
       - name: Configure components to display case associations
-        href: add-associated-grid-control.md        
+        href: add-associated-grid-control.md 
+      - name: Enable enhanced case forms for multisession apps
+        href: case-enh-config.md                
     - name: Agent experience
       items: 
       - name: Create cases
         href: customer-service-hub-user-guide-create-a-case.md
+      - name: Use enhanced case forms to manage cases
+        href: enh-casemgmt-csw.md        
       - name: Resolve, cancel, and reassign cases
         href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
       - name: Merge cases
@@ -700,7 +708,7 @@
         href: oc-notifications.md
       - name: View communication panel
         href: oc-conversation-control.md
-      - name: View customer summary
+      - name: View active conversations
         href: oc-customer-summary.md
       - name: Create a record
         href: oc-create-record.md
@@ -728,7 +736,7 @@
         href: oc-search-transcipts.md
       - name: View conversation and session forms
         href: oc-view-activity-types.md
-      - name: View customer summary for an incoming conversation request
+      - name: View active conversation for an incoming conversation request
         href: oc-view-customer-summary-incoming-conversation-request.md
       - name: Real-time language translation of conversations
         href: oc-real-time-translation.md
@@ -770,7 +778,7 @@
       items: 
       - name: Overview
         href: omnichannel-customizer.md
-      - name: Customize customer summary form
+      - name: Customize active conversation form
         href: customize-customer-summary.md
       - name: Customize quick view forms
         href: customize-quick-view-form.md
@@ -872,8 +880,8 @@
       items:
       - name: Configure authentication settings for chat  
         href: create-chat-auth-settings.md
-      - name: Configure authentication settings for social channels
-        href: create-chat-auth-settings.md#socialauth
+      - name: Configure authentication settings for Apple Messages for Business
+        href: create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business
     - name: Configure payment profiles
       href: configure-payment-profiles.md
     - name: Enable real-time translation of conversations
@@ -914,6 +922,8 @@
         href: enable-agent-reject-notifications.md
       - name: Enable auto-assignment of conversations
         href: enable-auto-assign-conversations.md
+      - name: Configure the agent calendar view
+        href: configure-agent-calendar.md
       - name: Enable sharing of knowledge articles
         href: set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management
     - name: Agent experience
@@ -924,6 +934,8 @@
         href: oc-view-ai-suggested-cases-articles.md
       - name: View smart assist suggestions
         href: oc-smart-assist.md
+      - name: View the agent calendar 
+        href:  use-agent-calendar.md
       - name: Use agent scripts for customer interactions
         href: oc-agent-scripts.md
       - name: Rich messages in conversation control
@@ -1310,12 +1322,16 @@
         href: developer/reference/entities/msdyn_actioninputparameter.md
       - name: msdyn_actionoutputparameter
         href: developer/reference/entities/msdyn_actionoutputparameter.md
+      - name: msdyn_agentcapacityprofileunit
+        href: developer/reference/entities/msdyn_agentcapacityprofileunit.md         
       - name: msdyn_agentcapacityupdatehistory
         href: developer/reference/entities/msdyn_agentcapacityupdatehistory.md        
       - name: msdyn_agentscript
         href: developer/reference/entities/msdyn_agentscript.md
       - name: msdyn_agentscriptstep
         href: developer/reference/entities/msdyn_agentscriptstep.md
+      - name: msdyn_agentstatus
+        href: developer/reference/entities/msdyn_agentstatus.md         
       - name: msdyn_agentstatushistory
         href: developer/reference/entities/msdyn_agentstatushistory.md        
       - name: msdyn_analytics
@@ -1796,6 +1812,8 @@
       href: faqs-custom-time-sla-kpis.md
     - name: FAQ about the voice channel
       href: voice-channel-faqs.md  
+    - name: FAQ about adding users to agent experience profile
+      href: ../app-profile-manager/faq-agent-experience-profile.md      
   - name: Omnichannel for Customer Service on Unified Service Desk
     href: ../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md
   - name: Unified Service Desk Guide

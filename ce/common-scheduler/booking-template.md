@@ -7,9 +7,6 @@ ms.subservice: common-scheduler
 ms.topic: how-to
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Edit the schedule board booking template in Universal Resource Scheduling

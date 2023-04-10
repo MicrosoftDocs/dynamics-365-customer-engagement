@@ -14,14 +14,10 @@ ms.assetid: fb14fa58-89e9-49a6-b94c-61de90d58a54
 caps.latest.revision: 22
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
 # Microsoft Dynamics 365 for Outlook failure recovery
 [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)] with “Go offline” capability uses [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)] for local data storage on the user’s computer. This enables [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users to work offline and later synchronize local data with [!INCLUDE[pn_SQL_Server_short](../../includes/pn-sql-server-short.md)] (on-premises) or [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] when [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is brought online again.

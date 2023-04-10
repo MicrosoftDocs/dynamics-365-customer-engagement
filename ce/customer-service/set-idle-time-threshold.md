@@ -5,7 +5,6 @@ ms.date: 12/29/2020
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Set the idle time threshold for average handle time

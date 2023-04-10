@@ -8,7 +8,6 @@ ms.reviewer: "kvivek"
 ms.topic: overview
 author: "kvivek"
 ms.author: "kvivek"
-manager: "annbe"
 ---
 # Microsoft Dynamics 365 Customer Engagement (on-premises) Help, version 9.x
 

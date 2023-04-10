@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: hub-page
 author: alfergus
 ms.author: alfergus
-manager: margoc
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Dynamics 365 Marketing business users learning catalog

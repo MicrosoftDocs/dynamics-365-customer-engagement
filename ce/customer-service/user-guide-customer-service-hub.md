@@ -5,7 +5,6 @@ ms.date: 06/16/2022
 ms.topic: get-started-article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
   - intro-internal

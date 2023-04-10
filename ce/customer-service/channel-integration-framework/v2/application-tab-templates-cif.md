@@ -5,7 +5,6 @@ ms.date: 04/05/2021
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 searchScope: 
  - D365-App-msdyn_channelintegrationframeworkapp 
  - D365-Entity-msdyn_consoleapplicationtemplate
@@ -25,7 +24,7 @@ The horizontal bar below the model-driven app navigation bar is called the appli
 
 With application tab templates, you can define the applications that are available for a session and then associate those applications with the session. 
 
-For example, you can create the **Dashboard** application type and associate it with chat or SMS sessions. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and by default the **Customer summary** page loads.
+For example, you can create the **Dashboard** application type and associate it with chat or SMS sessions. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and by default the **Active Conversation** page loads.
 
 As an administrator, you can create multiple application tab templates.
 

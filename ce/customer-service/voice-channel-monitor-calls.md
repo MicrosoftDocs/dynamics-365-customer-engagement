@@ -3,7 +3,6 @@ title: "Monitor calls in the voice channel in Omnichannel for Dynamics 365 Custo
 description: "Learn how to monitor calls in the voice channel for Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ms.date: 11/02/2021
 ms.topic: article
 

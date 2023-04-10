@@ -8,7 +8,6 @@ applies_to:
 ms.reviewer: lavanyakr
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 search.audienceType: 
   - developer
 

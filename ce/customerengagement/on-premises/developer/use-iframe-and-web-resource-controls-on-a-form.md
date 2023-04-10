@@ -10,7 +10,6 @@ ms.topic: article
 ms.assetid: 1d1b53cb-bfee-4fba-9bea-ea9e6e31309d
 author: JimDaly
 ms.author: jdaly
-manager: faisalmo
 search.audienceType: 
   - developer
 

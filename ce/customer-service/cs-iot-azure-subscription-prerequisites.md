@@ -5,7 +5,6 @@ ms.date: 04/03/2020
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Azure subscription prerequisites for Connected Customer Service with IoTHub

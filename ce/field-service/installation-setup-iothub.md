@@ -6,9 +6,6 @@ ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath
 author: vhorvathms
-search.app:
-  - D365CE
-  - D365FS
 ---
 # Installation and setup - Connected Field Service for Azure IoT Hub
 

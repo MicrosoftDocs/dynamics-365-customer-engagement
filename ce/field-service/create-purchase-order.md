@@ -5,9 +5,6 @@ ms.date: 09/05/2022
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Create a purchase order

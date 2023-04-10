@@ -7,14 +7,10 @@ ms.reviewer:
 ms.topic: overview
 ms.author: sericks
 author: sericks007
-manager: tapanm-MSFT
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Sales
 ---
 # Setup overview for mobile apps
 

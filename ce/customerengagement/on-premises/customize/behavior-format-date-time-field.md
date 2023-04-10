@@ -14,7 +14,6 @@ author: Mattp123
 ms.assetid: 73d691c7-344e-4c96-8979-c661c290bf81
 caps.latest.revision: 47
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - customizer
 

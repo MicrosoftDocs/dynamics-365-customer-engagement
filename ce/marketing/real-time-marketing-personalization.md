@@ -1,20 +1,16 @@
 ---
 title: "Personalize content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content in Dynamics 365 Marketing."
-ms.date: 02/02/2023
+ms.date: 04/04/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Personalize content
@@ -32,18 +28,6 @@ To set a default value:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Default value field.](media/real-time-marketing-personalization-default.png)
-
-## Preview personalized content
-
-You can preview your personalized content in the **Preview and test** view. By default, preview will display the default content for that placeholder:
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of preview and test with a default value.](media/real-time-marketing-personalization-test-default.png)
-
-You can also add content in the **Test send sample data** field to preview how it will look in your email. To add test send sample data, select the **Edit sample data** button:
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of preview and test with a sample data value.](media/real-time-marketing-personalization-test-sample.png)
 
 ## Personalize text messages and push notifications
 

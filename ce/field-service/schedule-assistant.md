@@ -5,9 +5,6 @@ ms.date: 02/23/2023
 ms.topic: overview
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Schedule assistant overview

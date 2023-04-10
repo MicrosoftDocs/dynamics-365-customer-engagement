@@ -6,9 +6,6 @@ ms.date: 01/27/2022
 ms.topic: article
 author: ryanchen8
 ms.author: chenryan
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Set up bookable resources

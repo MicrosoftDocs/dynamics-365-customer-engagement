@@ -5,14 +5,10 @@ ms.date: 02/06/2023
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 monikerRange: '>= dynamics-usd-3'

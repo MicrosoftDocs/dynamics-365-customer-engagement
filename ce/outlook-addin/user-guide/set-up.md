@@ -18,14 +18,10 @@ ms.assetid: a34b2e8a-7588-4132-963a-9ac9f4bcecf7
 caps.latest.revision: 45
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
 # Set up Dynamics 365 for Outlook users
   

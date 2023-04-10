@@ -5,7 +5,6 @@ ms.date: 11/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Understand lead distributions in assignment rules
