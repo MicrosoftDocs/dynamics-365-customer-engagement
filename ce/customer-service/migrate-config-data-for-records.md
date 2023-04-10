@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 04/05/2023
+ms.date: 04/10/2023
 ms.custom: bap-template
 ---
 
@@ -40,7 +40,6 @@ For sample schema to get all the required records, see [Sample schema for skill-
    |Characteristic (characteristic)    | <ul><li>Characteristic Type (characteristictype)</li><li>Characteristic (characteristicid)</li><li>Description (description)</li><li>Name (name)</li></ul> |         |
    |Rating Model (ratingmodel)     |<ul><li>Max Rating Value (maxratingvalue)</li><li>Min Rating Value (minratingvalue)</li><li>Name (name)</li><li>Rating Model (ratingmodelid)</li></ul>         |         |
    |Rating Value (ratingvalue)     | <ul><li>Name (name)</li><li>Rating Model (ratingmodel)</li><li>Rating Value (ratingvalueid)</li><li>Value (value)</li></ul> |         |
-   |   |         |         |
 
 1. Generate the schema and save it.
 
@@ -62,7 +61,6 @@ For sample schema to get all the required records, see [Sample schema for capaci
     |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |---------|---------|---------|
     |Capacity Profile (msdyn_capacityprofile)     | <ul><li>Block Assignment (msdyn_blockassignment)</li><li> Capacity Profile (msdyn_capacityprofileid)</li><li>Default Max Units (msdyn_defaultmaxunits)</li>Name (msdyn_name)</li><li> Reset Duration(msdyn_resetduration)</li><li>Unique Name (msdyn_uniquename)</li></ul> | **Sample 1: For all capacity profile records**<br>`  <fetch>` <br>  `<entity name="msdyn_capacityprofile">` <br>`<filter type="and">`<br>`<condition attribute="ismanaged" operator="eq" value="0" />`<br>`</filter>`<br>`</entity>`<br>  `</fetch>`<br><br> **Sample 2: For a single capacity profile record** <br> `<fetch>` <br>`<entity name="msdyn_capacityprofile">`<br>`<filter type="and">`<br>`<condition attribute="msdyn_capacityprofileid" operator="eq" uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile" value="{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}" />`<br> `</filter>`<br> `</entity>`<br> `</fetch>` <br><br> **Sample 3: For multiple capacity profile records** <br> `<fetch>`<br> `<entity name="msdyn_capacityprofile">`<br> `<filter type="and">` <br> `<condition attribute="msdyn_capacityprofileid" operator="in">`<br>`<value uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile">{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}</value>`<br> `<value uiname="Demo Capacity Profile 2" uitype="msdyn_capacityprofile">{D0B8ABFB-4A9F-0B1F-6FF4-8003E29A623C}</value>`<br>`</condition>`<br>`</filter>`<br>`</entity>`<br>`</fetch>` |
-    |     |         |         |
 
 2. Generate the schema and save it.
 
@@ -672,7 +670,6 @@ For sample schema to get all the required records, see [Sample schema for intake
     | 4. | Routing configuration (msdyn_routingconfiguration) |  <ul> <li> Is active configuration (msdyn_isactiveconfiguration) </li> <li> Name (msdyn_name) </li> <li> Routing configuration (msdyn_routingconfigurationid) </li> <li> Unique name (msdyn_uniquename) </li> <li>Workstream (msdyn_liveworkstreamid) </li> </ul>  |  [**Sample 1: Routing configuration for all record workstreams**](#BKMK1rc-ur-ws) <br><br> [**Sample 2: Routing configuration for a single record workstream**](#BKMK2rc-ur-ws) <br> <br> [**Sample 3: Routing configuration for multiple record workstreams**](#BKMK3rc-ur-ws) <br><br> |
     | 5. |  Routing configuration step (msdyn_routingconfigurationstep)  |  <ul><li> Name (msdyn_name) </li><li> Routing configuration (msdyn_routingconfigurationid) </li><li> Routing configuration step (msdyn_routingconfigurationstepid) </li><li> Rule set (msdyn_rulesetid) </li><li> Step order (msdyn_steporder) </li><li> Step type (msdyn_type) </li><li> Unique name (msdyn_uniquename) </li></ul>  |  [**Sample 1: Routing configuration step for all record workstreams**](#BKMK1rs-ur-ws) <br><br> [**Sample 2: Routing configuration step for a single record workstream**](#BKMK2rs-ur-ws) <br><br> [**Sample 3: Routing configuration step for multiple record workstreams**](#BKMK3rs-ur-ws) <br><br>  |
     | 6. |  Workstream capacity profile (msdyn_liveworkstreamcapacityprofile)  |  <ul><li> Capacity Profile (msdyn_capacityprofile_id)</li><li> Name (msdyn_name) </li><li>Workstream (msdyn_workstream_id) </li><li>Workstream Capacity profile (msdyn_liveworkstreamcapacityprofileid)</li></ul>  | [**Sample 1: Workstream capacity profile for all record workstreams**](#BKMK1cp-ur-ws) <br><br> [**Sample 2: Workstream capacity profile for a single record workstream**](#BKMK2cp-ur-ws) <br><br> [**Sample 3: Workstream capacity profile for multiple record workstreams**](#BKMK3cp-ur-ws) <br><br>   |
-    |||||
 
 2. Generate the schema and save it.
 

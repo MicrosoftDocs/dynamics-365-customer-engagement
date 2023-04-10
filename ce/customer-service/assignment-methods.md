@@ -26,13 +26,15 @@ The auto-assignment process in unified routing matches incoming work items with 
 
 Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate agent. Work items that can't be assigned to agents because of unavailability of agents or right skill match not found are routed back to the queue.
 
+The next assignment cycle picks up the next block of the top-priority items that includes new work items.
+
 When no eligible agents are found for the work items, the assignment cycle keeps retrying the top number of default sized block items as applicable for the channel.
 
 For digital messaging and voice, the default block size is 100 work items of top priority.
 
 For records channel, each assignment cycle prioritizes up to 2000 work items and processes them in a block size of 500.
 
-The next assignment cycle picks up the next block of the top-priority items that includes new work items.
+
 
 ## Types of assignment methods
 
