@@ -1792,7 +1792,7 @@
       href: troubleshoot-using-solution-health-hub.md
     - name: Report issues in Omnichannel for Customer Service
       href: report-issues.md
-    - name: Troubleshoot issues for integrated search providers
+    - name: Troubleshoot issues with integrated search providers
       href: int-search-troubleshoot.md
   - name: Share feedback in Customer Service
     href: cs-share-feedback.md

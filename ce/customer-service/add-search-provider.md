@@ -87,33 +87,38 @@ You can now add integrated search providers.
 
 ## Run ingestion for search providers
 
-Depending on the status of your search provider, you can either run a custom or a trial ingestion.
+Depending on the status of your search provider, you can either run a custom or a trial ingestion. When you initiate a trial ingestion, you'll be able to rectify errors that might come up when you add an integrated search provider. You can view the status of your ingestion on the **Insights** tab.
 
-### Trial Ingestion
-If your search provider is in **Inactive** with status reason as **Validated**, you can perform a trial ingestion, by performing the following steps:
+You can't run ingestion for search providers that are **Inactive** with status reason as **Draft**.
 
-1. Select the search provider from the **Knowledge** > **All integrated search providers** page.
-1. Select **Run Ingestion**.
-1. On the **Run Ingestion** dialog, select the **Trial Ingestion** option, and then specify the number of articles to be from the **No of records** dropdown list.
+### Trial ingestion
 
-After the trial ingestion, if you want to run a custom ingestion, you'll need to activate the search provider. More information: [Activate search providers](#activate-search-providers).
-
-### Custom Ingestion
-If your search provider is in **Active** with status reason as **Ingestion Ready**, you can perform a custom ingestion, by performing the following steps:
+If your search provider is **Inactive** with status reason as **Validated**, you can initiate an trial ingestion, by performing the following steps:
 
 1. Select the search provider from the **Knowledge** > **All integrated search providers** page.
 1. Select **Run Ingestion**.
-1. On the **Run Ingestion** dialog, select the **Custom Ingestion** option, and then specify the date range to pick up updated articles to run ingestion.
+1. On the **Run Ingestion** dialog, select the **Trial Ingestion** option, and then specify the number of articles to be from the **No of records** dropdown list. The maximum number of articles that you can select for the ingestion is 1000.
 
-## Edit search providers
+You'll get an error message if there are errors during the ingestion. If you don't see any errors after the trial ingestion and want to run a custom ingestion, you'll need to first activate the search provider. More information: [Activate search providers](#activate-search-providers).
 
-When you edit a search provider, your changes will appear in the subsequent ingestion run.
+### Custom ingestion
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The Knowledge page appears.
+If your search provider is **Active** with status reason as **Ingestion Ready**, you can initiate a custom ingestion, by performing the following steps:
+
+1. Select the search provider from the **Knowledge** > **All integrated search providers** page.
+1. Select **Run Ingestion**.
+1. On the **Run Ingestion** dialog, select the **Custom Ingestion** option, and then specify the date range to pick up updated articles for the ingestion. The date range has to be 60 days from the **From** date.
+
+## Activate search providers
+
+When you activate a search provider, the ingestion of newly created or updated articles from the search provider is initiated and articles starts appearing in the search results.
+
+1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
 1. In the **Integrated search providers (Preview)** section, select **Manage**.
-1. Select the **Active integrated search providers** or the **Inactive integrated search providers** from the dropdown list, and then select the search provider that you want to make changes to.
-1. Select **Edit**.
-1. On the **Search provider details** page, select the specific tab where you want to make your changes and select **Save and Close** after you have made your changes.
+1. From the **Inactive search providers** list, select the inactive search provider that you want to
+activate and then select **Activate**.
+1. On the confirmation dialog, select **Activate**. The search provider that you activated is added to the
+**Active search providers** list.
 
 ## Deactivate search providers
 
@@ -128,16 +133,15 @@ When you deactivate a search provider, the ingestion of newly created or updated
 4. On the confirmation dialog, select **Deactivate**.
 The search provider that you deactivated is added to the **Inactive search providers** list.
 
-## Activate search providers
+## Edit search providers
 
-When you activate a search provider, the ingestion of newly created or updated articles from the search provider is initiated and articles starts appearing in the search results.
+When you edit a search provider, your changes will appear in the subsequent ingestion run.
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
+1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The Knowledge page appears.
 1. In the **Integrated search providers (Preview)** section, select **Manage**.
-1. From the **Inactive search providers** list, select the inactive search provider that you want to
-activate and then select **Activate**.
-1. On the confirmation dialog, select **Activate**. The search provider that you activated is added to the
-**Active search providers** list.
+1. Select the **Active integrated search providers** or the **Inactive integrated search providers** from the **All integrated search providers** dropdown list, and then select the search provider that you want to make changes to.
+1. Select **Edit**.
+1. On the **Search provider details** page, select the specific tab where you want to make your changes and select **Save and Close** after you have made your changes.
 
 ## Configure search providers as search filters
 
