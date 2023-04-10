@@ -129,7 +129,7 @@ The following image is an example of a **Mentions** tab.
 > [!div class="mx-imgBorder"]
 > ![Mentions tab](media/ci-summary-keywords.png "Mentions tab")  
 
-When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript and the playback.
+Select a mentioned item to view when the item was mentioned in the transcript and playback.
 
 - **Competitors mentioned**: Displays the predefined competitors that customers mentioned during the call.
 
