@@ -48,13 +48,13 @@ Service quotas are the limits on resources, configurations, and items that are p
 
 <sup>1</sup> To get quality service in a channel, ensure that you don't exceed the defined limit for that channel. But when multiple channels are in use, the total conversations per minute should remain under the overall limit of 25. For example, with 5 voice calls per minute, 15 live chat sessions per minute, and 10 digital messages, the total limit is considered to be 25. Any conversation coming in after the 25<sup>th</sup> item, irrespective of the channel, might reduce the service quality.
 
-<sup>2</sup> These are recommended limits beyond which system reliability and performance might decrease. 
+<sup>2</sup> These are recommended limits beyond which system reliability and performance might decrease.
 
 <sup>3</sup> 10 GB of SQL/DB storage, 20 GB of file storage, and 2 GB of log storage  
 
-<sup>4</sup> 250 MB of SQL/DB storage and 2 GB of file storage 
+<sup>4</sup> 250 MB of SQL/DB storage and 2 GB of file storage
 
-<sup>5</sup> If there's a shortage of eligible agents to serve the 100 (the default block size) top priority conversations, then the auto assignment proces can appear to be paused. In such cases, we recommend that you use features like overflow management to manage high load or review agent availability, scheduling, and skill configuration to expand the eligible agent pool. If these options aren't adequate, contact Microsoft Support with your business scenario to check whether the block size can be increased. 
+<sup>5</sup> If eligible agents aren't available to serve the default block size of top priority conversations, then the auto assignment process can appear to be paused. In such cases, we recommend that you use features like overflow management to manage high load or review agent availability, scheduling, and skill configuration to expand the eligible agent pool. If these options aren't adequate, contact Microsoft Support with your business scenario to check whether the block size can be increased.
 
 
 ## Next steps
