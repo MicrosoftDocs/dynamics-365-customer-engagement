@@ -53,7 +53,9 @@ additionalContent:
       - url: buy-dynamics-365-sales.md
         text: Buy Dynamics 365 Sales
       - url:  install-overview.md
-        text: Install Dynamics 365 Sales # Need an overview page covering all installation options.
+        text: Install Dynamics 365 Sales 
+      - url:  user-guide-learn-basics.md
+        text: Get started 
     - title: Set up 
 
       links: 
@@ -91,10 +93,10 @@ additionalContent:
         text: Lead management
       - url: opportunity-management-overview.md
         text: Opportunity management
-      - url: Relationship insights
-        text: ri-overview.md
-      - url: Conversation insights
-        text: dynamics365-sales-insights-app.md
+      - url: ri-overview.md
+        text: Relationship insights
+      - url: dynamics365-sales-insights-app.md
+        text: Conversation insights
     - title: Quote to cash
       links: 
       - url: create-edit-quote-sales.md
@@ -107,10 +109,8 @@ additionalContent:
       links: 
       - url: goals-overview.md
         text: Goals
-      - url: configure-forecast.md
-        text: Define Forecasts
       - url: project-accurate-revenue-sales-forecasting.md
-        text: View forecasts # Need an overview page covering all installation options.
+        text: Forecasts
     - title: Sales accelerator
       links: 
       - url: sign-up-for-sales-trial

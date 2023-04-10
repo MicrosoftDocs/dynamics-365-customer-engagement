@@ -29,5 +29,3 @@ The Sales professional app is designed for Sales Professional customers. To inst
 
 The Team member app is for sales support staff who don't need access to the full sales functionality. For more information about the app, see [Sales Team Member app for users with Team Member license](sales-team-member.md). 
 
-## Next steps
-
