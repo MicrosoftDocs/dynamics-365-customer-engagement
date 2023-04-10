@@ -22,19 +22,17 @@ Use assignment methods to determine how to assign work items. You can use the ou
 
 ## How auto assignment works
 
-The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles and default block size of work items.
+The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles and a default block size of work items.
 
 Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate agent. Work items that can't be assigned to agents because of unavailability of agents or right skill match not found are routed back to the queue.
 
 The next assignment cycle picks up the next block of the top-priority items that includes new work items.
 
-When no eligible agents are found for the work items, the assignment cycle keeps retrying the top number of default sized block items as applicable for the channel.
+When no eligible agents are found for the work items, the assignment cycle keeps retrying to assign the top number of default sized block items as applicable for the channel.
 
 For digital messaging and voice, the default block size is 100 work items of top priority.
 
 For records channel, each assignment cycle prioritizes up to 2000 work items and processes them in a block size of 500.
-
-
 
 ## Types of assignment methods
 
@@ -52,9 +50,9 @@ The following assignment methods are available out of the box:
 
 - **Most idle (preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
 
-   The assignment method uses the time since last capacity is released to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available will be assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses aren't used in determining the most-idle agent.
+  The assignment method uses the time since last capacity is released to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available will be assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses aren't used in determining the most-idle agent.
 
-   Routing to the most-idle agent assignment strategy helps in better use of agents with a more fair distribution of work items across agents. This provides higher agent satisfaction and improved customer satisfaction.
+  Routing to the most-idle agent assignment strategy helps in better use of agents with a more fair distribution of work items across agents. This provides higher agent satisfaction and improved customer satisfaction.
 
     > [!IMPORTANT]
     >
