@@ -4,7 +4,7 @@ description: Use this article to know about the supported cloud locations, langu
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 04/03/2023
+ms.date: 05/10/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ---
@@ -134,7 +134,7 @@ See the information in the following table to know about the supported languages
 | Divehi | `dv` |x|x|x|x|x|x|x|
 | Dutch - Belgium | `nl-BE` |✔|x|✔|✔|x|x|x|
 | Dutch - Netherlands | `nl-NL` |✔|✔|✔|✔|✔|✔|✔|
-| English - Australia | `en-AU` |x|x|✔|✔|x|x|x|
+| English - Australia | `en-AU` |✔|x|✔|✔|x|x|x|
 | English - Canada | `en-CA` |x|x|✔|✔|x|x|x|
 | English - Ghana | `en-GH` |x|x|✔|✔|x|x|x|
 | English - Hong Kong SAR | `en-HK` |x|x|✔|✔|x|x|x|
@@ -142,18 +142,18 @@ See the information in the following table to know about the supported languages
 | English - Ireland | `en-IE` |x|x|✔|✔|x|x|x|
 | English - Kenya | `en-KE` |x|x|✔|✔|x|x|x|
 | English - Nigeria | `en-NG` |x|x|✔|✔|x|x|x|
-| English - New Zealand | `en-NZ` |x|x|✔|✔|x|x|x|
+| English - New Zealand | `en-NZ` |✔|x|✔|✔|x|x|x|
 | English - Philippines | `en-PH` |x|x|✔|✔|x|x|x|
 | English - Singapore | `en-SG` |x|x|✔|✔|x|x|x|
 | English - South Africa | `en-SA` |x|x|✔|✔|x|x|x|
 | English - Tanzania | `en-TZ` |x|x|✔|✔|x|x|x|
-| English - United Kingdom | `en-GB` |x|x|✔|✔|x|x|x|
+| English - United Kingdom | `en-GB` |✔|x|✔|✔|x|x|x|
 | English - United States | `en-US` |✔|✔|✔|✔|✔|✔|✔|
 | Estonian - Estonia | `et-EE` |✔|x|✔|✔|✔|x|✔|
 | Fijian | `fj` |x|x|x|x|x|x|x|
 | Filipino | `fil-PH` |x|x|x|✔|x|x|x|
 | Finnish | `fi-FI` |✔|✔|✔|✔|✔|x|✔|
-| French - Canada | `fr-CA` |x|x|✔|✔|x|x|x|
+| French - Canada | `fr-CA` |✔|x|✔|✔|x|x|x|
 | French - France | `fr-FR` |✔|✔|✔|✔|✔|✔|✔|
 | French - Switzerland| `fr-CH` |x|x|✔|✔|x|x|x|
 | Galician | `gl-ES` |x|x|x|x|x|x|✔|
@@ -229,7 +229,7 @@ See the information in the following table to know about the supported languages
 | Spanish Equatorial Guinea| `es-GQ` |x|x|✔|✔|x|x|x|
 | Spanish - Guatemala| `es-GT` |x|x|✔|✔|x|x|x|
 | Spanish - Honduras| `es-HN` |x|x|✔|✔|x|x|x|
-| Spanish - Mexico | `es-MX` |x|x|✔|✔|x|x|x|
+| Spanish - Mexico | `es-MX` |✔|x|✔|✔|x|x|x|
 | Spanish - Nicaragua| `es-NI` |x|x|✔|✔|x|x|x|
 | Spanish - Panama| `es-PA` |x|x|✔|✔|x|x|x|
 | Spanish - Paraguay| `es-PY` |x|x|✔|✔|x|x|x|
@@ -238,7 +238,7 @@ See the information in the following table to know about the supported languages
 | Spanish - Spain | `es-ES` |✔|✔|✔|✔|✔|✔|✔|
 | Spanish - Venezuela| `es-VE` |x|x|✔|✔|x|x|x|
 | Spanish - Uruguay| `es-UY` |x|x|✔|✔|x|x|x|
-| Spanish - US| `es-US` |x|x|✔|✔|x|x|x|
+| Spanish - US| `es-US` |✔|x|✔|✔|x|x|x|
 | Sudanese - Indonesia | `su-ID` |x|x|x|x|x|x|x|
 | Swahili - Kenya| `sw-KE` |x|x|✔|✔|x|x|x|
 | Swahili - Tanzania| `sw-TZ` |x|x|x|x|x|x|x|
