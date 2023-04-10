@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/06/2023
+ms.date: 04/10/2023
 ms.custom: bap-template
 ---
 
@@ -68,10 +68,10 @@ If the validation is successful, you'll see a confirmation message. If the valid
     The Regex patterns must have a capture group enclosed in parentheses that allows you to extract a specific portion of the matched text. Note that the text extracted will be from the first non-empty group of the first match. More information: [Grouping constructs](/dotnet/standard/base-types/regular-expression-language-quick-reference#grouping-constructs). Here are some examples of regex patterns to extract content from a specific div tag:
 
      - Based on the div tag id:
-         `` <div\b[^>]*id=\"your-id-name-here\"[^>]*>([\s\s]*?)<\/div>``
-    - Based on the div tag class: `` <div\b[^>]*class=\"your-class-name-here\"[^>]*>([\s\s]*?)<\/div>``
-    - For content inside body tag: ``<body[^>]*>([\s\s]*)<\/body>``
-    - For content inside head tag: ``<head[^>]*>([\s\s]*)<\/head>``
+         `` <div\b[^>]*id=\"your-id-name-here\"[^>]*>([\s\S]*?)<\/div>``
+    - Based on the div tag class: `` <div\b[^>]*class=\"your-class-name-here\"[^>]*>([\s\S]*?)<\/div>``
+    - For content inside body tag: ``<body[^>]*>([\s\S]*)<\/body>``
+    - For content inside head tag: ``<head[^>]*>([\s\S]*)<\/head>``
     
     For more information on Regex, go to: [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference).
 
