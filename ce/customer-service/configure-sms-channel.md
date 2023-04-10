@@ -5,7 +5,6 @@ ms.date: 02/17/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Configure an SMS channel for TeleSign

@@ -5,7 +5,6 @@ ms.date: 05/13/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Quickly configure a chat widget

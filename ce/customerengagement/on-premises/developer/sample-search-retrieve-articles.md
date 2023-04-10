@@ -13,7 +13,6 @@ applies_to:
 ms.assetid: 50692599-5afe-45b4-b2b6-f9ec6784272e
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
 search.audienceType: 
   - developer
 ---

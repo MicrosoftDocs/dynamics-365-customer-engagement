@@ -5,7 +5,6 @@ ms.date: 06/18/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Agents using Omnichannel for Customer Service app

@@ -5,7 +5,6 @@ ms.date: 11/10/2021
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 # lcw:onMessageReceived event (Omnichannel for Customer Service JavaScript API reference)

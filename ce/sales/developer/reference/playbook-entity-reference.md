@@ -5,11 +5,8 @@ ms.date: 04/08/2019
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ms.custom: 
   - dyn365-sales
 ---

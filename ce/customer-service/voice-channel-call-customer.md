@@ -6,7 +6,6 @@ ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Call a customer

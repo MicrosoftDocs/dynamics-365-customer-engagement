@@ -6,9 +6,6 @@ ms.date: 09/30/2017
 ms.topic: article
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Schedule a work order

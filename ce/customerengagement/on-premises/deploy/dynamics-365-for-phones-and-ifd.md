@@ -14,7 +14,6 @@ ms.assetid: 7c6a34c6-f67b-4b31-b5c6-f66f8d0c2db2
 caps.latest.revision: 7
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Dynamics 365 for phones and IFD
 

@@ -5,9 +5,6 @@ ms.date: 10/07/2022
 ms.topic: article
 author: jasonccohen
 ms.author: jacoh
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Set up agreements to automatically generate work orders and invoices
 

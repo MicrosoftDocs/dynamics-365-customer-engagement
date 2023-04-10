@@ -9,9 +9,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: Andrea-Orimoto
 ms.author: andreo
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Edit Sitemap entities (tables) on the home screen

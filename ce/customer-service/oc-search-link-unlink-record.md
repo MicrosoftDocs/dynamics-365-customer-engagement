@@ -3,7 +3,6 @@ title: "Search, link, and unlink records in Omnichannel for Customer Service | M
 description: "Learn how to search, link, and unlink records in Omnichannel for Customer Service. Also learn how to link records to conversations."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 11/18/2021
 ms.topic: article
 

@@ -5,7 +5,6 @@ ms.date: 07/22/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Configure Microsoft Teams meeting integration in Dynamics 365 (preview)

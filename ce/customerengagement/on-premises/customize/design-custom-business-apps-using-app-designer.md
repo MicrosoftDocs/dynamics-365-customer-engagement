@@ -13,7 +13,6 @@ applies_to:
   - PowerApps
 ms.assetid: aa6aca00-f95a-4f06-bec4-18b427b4618c
 ms.author: matp
-manager: kvivek
 author: Mattp123
 caps.latest.revision: 17
 topic-status: Drafting

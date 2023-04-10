@@ -5,7 +5,6 @@ ms.date: 04/24/2020
 ms.topic: get-started-article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
 ---

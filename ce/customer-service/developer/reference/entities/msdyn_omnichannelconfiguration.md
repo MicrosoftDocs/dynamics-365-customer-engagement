@@ -5,12 +5,8 @@ ms.date: 04/16/2021
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
-manager: "shujoshi"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
 # msdyn_omnichannelconfiguration table/entity reference

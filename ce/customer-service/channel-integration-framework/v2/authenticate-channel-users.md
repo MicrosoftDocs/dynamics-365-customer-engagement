@@ -4,7 +4,6 @@ description: "Learn how to authenticate channel users in Dynamics 365 Channel In
 author: gandhamm
 ms.author: mgandham
 ms.date: 09/27/2022
-manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

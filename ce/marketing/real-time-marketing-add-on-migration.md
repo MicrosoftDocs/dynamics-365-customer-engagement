@@ -7,13 +7,9 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Asset library add-on file migration

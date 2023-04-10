@@ -5,9 +5,6 @@ ms.date: 02/18/2022
 ms.topic: article
 author: lmasieri
 ms.author: lmasieri
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Write scripts to implement complex business logic

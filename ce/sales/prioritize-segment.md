@@ -4,7 +4,6 @@ description: Learn how to prioritize segments to automatically group records in 
 ms.date: 03/28/2023
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.topic: how-to
 ms.custom: bap-template
 ---

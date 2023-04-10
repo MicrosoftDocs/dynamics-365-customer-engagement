@@ -5,7 +5,6 @@ ms.date: 04/26/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Microsoft Teams collaboration

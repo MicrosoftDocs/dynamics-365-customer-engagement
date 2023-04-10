@@ -5,7 +5,6 @@ ms.date: 11/02/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 

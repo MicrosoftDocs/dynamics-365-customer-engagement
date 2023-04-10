@@ -5,9 +5,6 @@ ms.date: 03/14/2023
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-search.app:
-  - D365CE
-  - D365FS
 ---
 
 # Dynamics 365 Field Service version history
@@ -35,8 +32,8 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
 
-## 8.8.88.54
-(Includes Universal Resource Scheduling version [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217) and Resource Scheduling controls version 1.2.42.230871).
+## 8.8.88.54 (2023 wave 1 release)
+(Includes Universal Resource Scheduling version [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217---2023-wave1-release) and Resource Scheduling controls version 1.2.42.230871).
 
 -	Use the [Not-to-exceed feature](/dynamics365/field-service/work-order-not-to-exceed) to ensure cost and price expectations on work orders are met every time.
 -	[Organize your provided services based on trades](/dynamics365/field-service/trades#configure-trade-coverages), and set up trade coverages based on which services you provide to groups of customers.
