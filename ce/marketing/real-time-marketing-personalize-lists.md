@@ -91,6 +91,8 @@ For lists, you can add or delete additional attributes (these changes will be sa
 
 Sometimes when creating a list in an email, you'd like to only include items that meet certain conditions. For example, a confirmation email about an order may be most effective if it separately lists items that are back ordered or need special handling. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track, filtering the list of sessions based on certain criteria.
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10RFA]
+
 To filter a list, select a list you've already created in an email. In this example, the email contains a list of winery tours:
 
 > [!div class="mx-imgBorder"]
