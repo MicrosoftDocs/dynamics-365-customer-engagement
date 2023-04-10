@@ -5,7 +5,6 @@ ms.date: 01/18/2023
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # View and share auto-summarized conversations 

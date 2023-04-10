@@ -5,14 +5,10 @@ ms.date: 03/31/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
   - intro-internal
@@ -87,7 +83,7 @@ The following tables are used for Customer Service historical analytics:
 [Introduction to Customer Service insights](introduction-customer-service-analytics.md)    
 [Configure Customer Service insights for Customer Service Hub and Customer Service workspace](configure-customer-service-analytics-insights-csh.md)   
 [Manage bookmarks](manage-bookmarks.md)  
-[Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service)   
+[Customize the visual display of your analytics reports](customize-reports.md#customize-the-visual-display-of-your-analytics-reports)   
 [Customize data models of historical analytics reports in Customer Service](model-customize-reports.md)   
 [Tracked keywords in Dynamics 365 Sales](../sales/dynamics365-sales-insights-app-home-page.md#tracked-keywords)    
 

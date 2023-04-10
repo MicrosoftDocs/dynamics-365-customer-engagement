@@ -5,9 +5,6 @@ ms.date: 09/27/2022
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Create work order templates with incident types

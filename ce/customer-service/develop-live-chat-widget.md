@@ -10,9 +10,6 @@ search.audienceType:
   - admin
   - developer
   - customizer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin

@@ -7,9 +7,6 @@ ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
 ms.reviewer: mhart
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Schedule work with resource crews in Universal Resource Scheduling

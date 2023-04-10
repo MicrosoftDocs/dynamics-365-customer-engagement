@@ -5,7 +5,6 @@ ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Create multiple work streams for entity records routing in Omnichannel Administration

@@ -5,7 +5,6 @@ ms.date: 05/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 searchScope: 
   - D365-App-customerservicehub
   - D365-Entity-incident

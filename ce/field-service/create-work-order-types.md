@@ -6,9 +6,6 @@ ms.date: 09/30/2017
 ms.topic: article
 author: lmasieri
 ms.author: lmasieri
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Create work order types
 

@@ -6,9 +6,6 @@ ms.date: 02/01/2022
 ms.topic: article
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Set up booking rules

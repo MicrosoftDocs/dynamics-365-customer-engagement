@@ -9,9 +9,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 ms.author: vhorvath
 author: vhorvathms
-search.app:
-- D365CE
-- D365FS
 ---
 
 

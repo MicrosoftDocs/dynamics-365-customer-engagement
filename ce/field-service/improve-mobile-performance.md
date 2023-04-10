@@ -6,9 +6,6 @@ ms.subservice: field-service-mobile
 ms.topic: article
 author: JonBaker007
 ms.author: jobaker
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Performance considerations when customizing the Field Service (Dynamics 365) mobile app

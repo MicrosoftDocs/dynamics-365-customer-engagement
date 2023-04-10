@@ -6,7 +6,6 @@ ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Enable sales teams to work with Dynamics 365 records within Teams conversations (production-ready preview)

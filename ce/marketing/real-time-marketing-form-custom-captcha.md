@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: petrjantac
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Integrate a custom captcha service with real-time marketing forms

@@ -5,7 +5,6 @@ ms.date: 10/08/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Developer Guide for Dynamics 365 Sales 
 

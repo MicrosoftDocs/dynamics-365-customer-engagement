@@ -5,7 +5,6 @@ ms.date: 10/03/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 # Omnichannel for Customer Service for developers
 

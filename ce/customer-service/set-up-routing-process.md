@@ -5,7 +5,6 @@ ms.date: 08/23/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # How to set up unified routing

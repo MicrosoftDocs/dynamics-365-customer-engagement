@@ -3,7 +3,6 @@ title: "requestFocus method (app profile manager) JavaScript API Reference | Mic
 description: "Learn about the requestFocus API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.date: 10/01/2021
 ms.topic: reference
 ---

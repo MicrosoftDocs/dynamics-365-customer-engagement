@@ -14,7 +14,6 @@ ms.assetid: 74fefb8c-2c70-4f61-85ad-83ede2d4158a
 caps.latest.revision: 15
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Upgrade an organization
 

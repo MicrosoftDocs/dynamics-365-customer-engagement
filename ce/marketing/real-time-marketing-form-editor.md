@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: petrjantac
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create and manage forms in real-time marketing

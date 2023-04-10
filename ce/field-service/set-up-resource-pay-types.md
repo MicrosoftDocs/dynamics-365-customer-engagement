@@ -6,9 +6,6 @@ ms.date: 07/28/2022
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Set up resource pay types
 

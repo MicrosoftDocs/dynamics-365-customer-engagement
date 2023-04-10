@@ -7,9 +7,6 @@ ms.subservice: common-scheduler
 ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Schedule work with multiple resources using requirement groups in Universal Resource Scheduling

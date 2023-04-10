@@ -5,12 +5,8 @@ ms.date: 08/04/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
-manager: "shujoshi"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # msdyn_soundnotificationsetting Entity Reference
 

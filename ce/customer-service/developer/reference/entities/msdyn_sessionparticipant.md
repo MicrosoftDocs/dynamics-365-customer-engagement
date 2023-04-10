@@ -5,7 +5,6 @@ ms.date: 03/23/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
-manager: "shujoshi"
 ---
 # msdyn_sessionparticipant Entity Reference
 

@@ -7,9 +7,6 @@ ms.date: 01/02/2020
 ms.topic: article
 
 ms.subservice: resource-scheduling-optimization
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Optimization scopes in Resource Scheduling Optimization

@@ -11,9 +11,6 @@ applies_to:
 ms.custom: intro-internal
 author: Andrea-Orimoto
 ms.author: andreo
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Install and set up the Field Service (Dynamics 365) mobile app

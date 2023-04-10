@@ -14,14 +14,10 @@ ms.assetid: 7b6ace06-0cc2-4a04-a2bd-5d229acb6a00
 caps.latest.revision: 21
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
 # Configure synchronization for appointments, contacts, and tasks
 By default, some synchronization between Dynamics 365 and Outlook for Dynamics 365 apps is disabled so organizations can control what gets synced according to their business requirements. Dynamics 365 apps admins can enable synchronization using **Settings** > **Administration** > **System Settings** > **Synchronization**.  

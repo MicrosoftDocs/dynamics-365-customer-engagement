@@ -5,7 +5,6 @@ ms.date: 08/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Troubleshoot issues in Customer Service and Omnichannel for Customer Service using Solution Health Hub
