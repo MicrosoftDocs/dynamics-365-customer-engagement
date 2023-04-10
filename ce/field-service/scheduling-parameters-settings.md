@@ -5,9 +5,6 @@ ms.date: 02/23/2023
 ms.topic: conceptual
 author: clearab
 ms.author: anclear
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Configure scheduling parameters

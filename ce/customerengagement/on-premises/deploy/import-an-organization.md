@@ -14,7 +14,6 @@ ms.assetid: c4a9106e-26e2-482d-acd7-2f66b722efee
 caps.latest.revision: 16
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Import an organization
 

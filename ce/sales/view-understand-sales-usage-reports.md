@@ -5,7 +5,6 @@ ms.date: 03/31/2023
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.custom: bap-template
 ---
 

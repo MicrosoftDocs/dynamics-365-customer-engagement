@@ -15,9 +15,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 
 # Use the assistant to gain insights and guide customer communication

@@ -6,7 +6,6 @@ ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Share and update Dynamics 365 records within Microsoft Teams conversations (production-ready preview)

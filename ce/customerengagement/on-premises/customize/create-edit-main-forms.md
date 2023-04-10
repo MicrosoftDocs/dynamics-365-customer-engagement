@@ -14,7 +14,6 @@ author: Mattp123
 ms.assetid: <needs new guid>
 caps.latest.revision: 18
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - customizer
 

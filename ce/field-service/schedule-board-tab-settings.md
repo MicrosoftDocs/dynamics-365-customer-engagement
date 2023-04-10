@@ -5,9 +5,6 @@ ms.date: 07/15/2019
 ms.topic: article
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Schedule board tab settings

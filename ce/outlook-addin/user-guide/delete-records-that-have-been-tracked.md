@@ -19,14 +19,10 @@ ms.assetid: 6747eed5-e264-43a1-8f27-ea0d46afaaa1
 caps.latest.revision: 12
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Deleting records that have been tracked with Dynamics 365 for Outlook
 You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to track email messages, contacts, tasks, and appointments. When you track an item, a copy of that record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md).  

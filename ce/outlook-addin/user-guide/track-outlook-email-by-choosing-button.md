@@ -19,14 +19,10 @@ ms.assetid: 47e0acb3-02a4-456e-9037-a4de82bfc405
 caps.latest.revision: 50
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Track Outlook email by choosing a button in Dynamics 365 for Outlook 
 To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], it’s important to keep track of all your customer interactions, and email communications are key. Create a central repository of your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] email communications by “tracking” them in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. When you track an email message in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the email is saved as an activity record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. Then you, or anyone who has access to your activity records, can view that email message along with all other customer activities in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], or on a mobile device.  

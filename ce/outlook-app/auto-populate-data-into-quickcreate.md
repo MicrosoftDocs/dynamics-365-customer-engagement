@@ -16,9 +16,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Customize App for Outlook to auto populate data from an Outlook item to a quick create case table 
 

@@ -5,7 +5,6 @@ ms.date: 07/12/2021
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 # openConversation

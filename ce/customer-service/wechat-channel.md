@@ -5,7 +5,6 @@ ms.date: 04/06/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Use a WeChat channel

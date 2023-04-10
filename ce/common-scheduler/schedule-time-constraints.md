@@ -7,9 +7,6 @@ ms.subservice: common-scheduler
 ms.topic: conceptual
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Schedule work with date and time constraints in Universal Resource Scheduling

@@ -14,7 +14,6 @@ ms.assetid: C3BE3F70-37BA-4D03-A435-54E6127A287A
 caps.latest.revision: 51
 author: phecke
 ms.author: pehecke
-manager: shujoshi
 search.audienceType: 
   - developer
 

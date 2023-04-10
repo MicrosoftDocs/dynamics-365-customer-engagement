@@ -5,7 +5,6 @@ ms.date: 04/04/2022
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 
 ---
 

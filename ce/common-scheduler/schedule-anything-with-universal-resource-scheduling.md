@@ -9,11 +9,6 @@ ms.topic: overview
 
 author: clearab
 ms.author: anclear
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365PS
-  - D365FS
 ---
 # Overview of Universal Resource Scheduling in Dynamics 365
 

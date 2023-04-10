@@ -5,7 +5,6 @@ ms.date: 04/25/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Implement a custom scenario for smart assist bot
 

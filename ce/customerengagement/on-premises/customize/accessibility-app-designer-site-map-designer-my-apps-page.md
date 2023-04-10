@@ -4,7 +4,6 @@ description: "Learn about the keyboard shortcuts, screen reader support, and oth
 keywords: App designer; site map designer; my apps; Dynamics 365 for Customer Engagement
 author: Mattp123
 ms.author: matp
-manager: kvivek
 
 ms.date: 11/08/2018
 ms.topic: article

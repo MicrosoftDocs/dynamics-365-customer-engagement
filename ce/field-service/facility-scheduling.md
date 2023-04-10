@@ -5,9 +5,6 @@ ms.date: 02/15/2023
 ms.topic: how-to
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Schedule a facility and associated resources

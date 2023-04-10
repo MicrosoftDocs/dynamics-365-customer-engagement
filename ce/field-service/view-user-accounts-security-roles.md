@@ -6,10 +6,6 @@ ms.date: 02/18/2021
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-manager: hegate
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Set up users and security profiles

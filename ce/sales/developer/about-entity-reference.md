@@ -9,7 +9,6 @@ ms.assetid: b07033ee-97eb-4475-9d83-307201a05f1a
 author: udaykirang
 ms.author: udag
 ms.reviewer: lavanyakr
-manager: shujoshi
 search.audienceType: 
   - developer
 

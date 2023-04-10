@@ -9,9 +9,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: lmasieri
 ms.author: lmasieri
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Capture work order resolution details

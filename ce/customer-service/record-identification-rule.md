@@ -5,7 +5,6 @@ ms.date: 02/15/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Identify customers automatically

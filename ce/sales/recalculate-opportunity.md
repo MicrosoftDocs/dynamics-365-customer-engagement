@@ -5,7 +5,6 @@ ms.date: 04/05/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Recalculate an opportunity in Dynamics 365 Sales
 

@@ -6,9 +6,6 @@ ms.date: 09/30/2017
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Set up service task types
 

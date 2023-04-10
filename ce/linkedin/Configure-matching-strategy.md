@@ -5,15 +5,11 @@ ms.date: 04/02/2018
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 keywords: lead matching, field mapping, linkedin leads, lead record
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365LinkedIn
 applies_to: 
   - Dynamics 365 Sales
   - Dynamics 365 Marketing

@@ -314,7 +314,7 @@
           href: real-time-marketing-multiple-branches.md
         - name: Personalize triggers using conditions
           href: real-time-marketing-personalize-triggers.md
-        - name: "Preview: Limit sent with frequency capping"
+        - name: Limit sent with frequency capping
           href: real-time-marketing-frequency-cap.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
@@ -344,6 +344,8 @@
         href: real-time-marketing-personalize-inline-conditions.md
       - name: Personalize lists
         href: real-time-marketing-personalize-lists.md
+      - name: Preview personalized content
+        href: real-time-marketing-preview-personalized-content.md
     - name: Assets
       items: 
       - name: Asset libary add-on file migration
@@ -406,6 +408,8 @@
         href: real-time-marketing-developer-notifications.md
       - name: Integrate a custom captcha service with marketing forms
         href: real-time-marketing-form-custom-captcha.md
+      - name: Client-side extensibility for forms
+        href: developer/realtime-marketing-form-client-side-extensibility.md
       - name: Reference guide for real-time marketing interactions
         href: real-time-marketing-interactions-reference.md
       - name: Create a real-time marketing segment using the Web API

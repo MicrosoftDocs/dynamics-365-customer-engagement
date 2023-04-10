@@ -9,9 +9,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: Deana-Fuller
 ms.author: drfuller
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Field Service customer experience homepages

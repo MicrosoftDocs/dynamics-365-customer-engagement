@@ -5,7 +5,6 @@ ms.date: 07/18/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 # Use Google's Business Messages channel
 

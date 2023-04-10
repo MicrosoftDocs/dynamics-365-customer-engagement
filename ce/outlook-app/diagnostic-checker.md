@@ -16,9 +16,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Run the App for Outlook checker to troubleshoot and resolve potential issues
 

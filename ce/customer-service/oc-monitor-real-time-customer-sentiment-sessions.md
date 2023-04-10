@@ -5,7 +5,6 @@ ms.date: 07/01/2020
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Monitor real-time customer sentiment
