@@ -70,11 +70,11 @@ additionalContent:
     - title: Manage 
       links: 
       - url: dynamics-365-sales-gdpr.md
-        text: Manage environments # We need to create an overview page covering GDPR for sales and sales premium
+        text: Sales accelerator
       - url:  https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409
-        text: Manage users
+        text: Sales forecast
       - url: system-requirements-for-sales-apps
-        text: Manage roles
+        text: Relationship intelligence
     - title: Developer reference
       links: 
       - url: developer/developer-guide.md
