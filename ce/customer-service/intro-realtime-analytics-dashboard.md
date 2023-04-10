@@ -53,7 +53,7 @@ If you're unable to view the reports, contact your system administrator. For mor
 
 ## Dashboard details
 
-The Omnichannel real-time analytics dashboard consist of the following:
+The Omnichannel real-time analytics dashboard consists of the following reports:
 
 - **Summary**: This report provides an overview of your organization in real time. This report provides KPIs across the volume of customer interactions and service levels, along with the available capacity in real time. More information: [View and understand the Summary report in Omnichannel real-time analytics](realtime-summary-dashboard.md)
 
