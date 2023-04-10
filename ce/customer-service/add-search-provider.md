@@ -62,7 +62,7 @@ You can now add integrated search providers.
     1. **Description**: Enter the description of the search provider.
     The **Data source** and **Owner** are auto filled.
     1. Select the authorization check box.
-    1. Select **Next**.
+    1. Select **Next** to go the next section, or select **Save as draft**, if you still need to provide information for the section.
 1.	In the **Authentication and testing** section, enter the following information:
     1. **Root URL**: Provide the root URL of the website along with the protocol.
     1. **Site map URL**: Provide the site map URL of the source website. To get the site map URL, for example, type https://www.contoso.com/robots.txt in the address bar.
@@ -75,23 +75,28 @@ You can now add integrated search providers.
     1. Select **Test connection**.
         
         Test connection uses the credentials provided to see whether the connection is successful. You get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
-    1. Select **Next**.
+    1. Select **Next** to go the next section, or select **Save as draft**, if you still need to provide information for the section.
 1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you've saved it. For details on knowledge article schema mapping, go to [Configure knowledge article schema mapping (preview)](int-data-mapping.md#configure-knowledge-article-schema-mapping-preview).
 1.	In the **Refresh Schedule** section, specify the refresh intervals:
     1. **Refresh frequency**: Select a value from the dropdown list. Your selection specifies the frequency at which newly created or updated articles are ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
     1. **Lookback period**: Select a value from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during ingestion.
         
         For example, if you set the refresh frequency at 15 minutes and lookback period at 2 hours, your data is refreshed for the last 2 hours and 15 minutes, in every 15 minutes.
-    1. Select **Next**.
+    1. Select **Next** to go the next section, or select **Save as draft**, if you still need to provide information for the section.
 1.	In the **Summary** section, review your search provider setup and make changes, if any, to the **Search provider name**, **URL**, **Authentication type**, **Refresh frequency**, and **Lookback period**.
 
-1. Select **Save and close**.
+1. Select **Save and close**. Your newly added search provider now appears on the **Knowledge** > **All search providers** page. The status of the search provider will be **Inactive** with status reason as **Validated**.
 
-Your newly added search provider now appears on the **Knowledge > All search providers** page in the Customer Service admin center.
+1. Optionally, select **Save as draft**, if you still need to provide information for any of the sections. The status of the search provider will appear as **Inactive** with status reason as **Draft**.
 
 > [!NOTE]
 > - For public preview, data ingestion is limited to 100,000 articles per ingestion run.
 > - A unique combination of root URL, site map URL, and language filters only are allowed.
+
+## Run ingestion for search providers
+Before you begin the ingestion, if your search provider is in **Inactive** with status reason as **Validated**, you can perform a trial ingestion,
+
+activate: write it as , u have to activate the search provider will be **Inactive** with status reason as **Validated**.
 
 ## Edit search providers
 

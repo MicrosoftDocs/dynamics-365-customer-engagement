@@ -43,13 +43,13 @@ Article attributes are the knowledge article target field values. Operation type
 1. You can select all the meta tags by selecting the **Select all below meta tags** checkbox or select only the required meta tags.
 
     The meta tags that you select will be available in the **Mapping** section. If you don't select any meta tags, you only see the **HTML-Title** and **HTML-Body** source properties, which are available by default.
-1. Select **Next**.
+1. Select **Next** to go the **Mapping** section, or select **Save as draft**, if you still need to provide information for the section. 
 1. On the **Mapping** section, select the **Operation Type** and **Source Property** for the mandatory knowledge article attributes, which are **External Reference Id**, **Title**, and **Content**. Make sure that the **External Reference Id** value is unique. For more information on the various operation types, go to [Operation type mapping options](#operation-type-mapping-options).
 1. To add more article attributes, select **Add Row**, and then select the **Article Attribute**, **Operation Type**, and the **Source Property** from the respective dropdown lists.
 1. You can also delete the article attributes, by selecting **Delete**.
 1. Select **Validate mapping**. The values provided are used to determine the values of the attributes against the HTML file that you uploaded.
    The entries in the mapping table and the Regex patterns are validated. There are no validations for RegexUrl.
-1. Select **Next**.
+1. Select **Next** to go the next section, or select **Save as draft**, if you still need to provide information for the section.
 
 If the validation is successful, you'll see a confirmation message. If the validation is not successful, you'll see an error message. Depending on the error message, you'll need to either check the entries in the mapping table or the regex patterns that you have provided for the article attributes.
 
@@ -59,7 +59,7 @@ If the validation is successful, you'll see a confirmation message. If the valid
 1. Select **Validate json**.
  
     You'll get a message to denote whether the JSON validation has passed or failed. If there is an error, the error message will state the parameter with the incorrect value.
-1. After the validation is successful, select **Next** to go to the **Refresh Schedule** section.
+1. After the validation is successful, select **Next** to go to the **Refresh Schedule** section, or select **Save as draft**, if you still need to provide information for the section.
 
 ### Operation type mapping options
 
