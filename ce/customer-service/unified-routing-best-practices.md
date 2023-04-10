@@ -10,9 +10,6 @@ ms.date: 02/20/2023
 ms.custom: bap-template
 ---
 
-<!-- It would help to have a brief summary following the title "Set up unified routing" before getting into "Verify service limits ..."  -->
-
-
 # Use best practices to set up unified routing in Customer Service
 
 This article discusses some of the important aspects to successfully deploy and manage unified routing and focuses on the most common areas where you might have questions.
