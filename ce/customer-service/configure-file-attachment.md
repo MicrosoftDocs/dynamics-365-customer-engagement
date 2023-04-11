@@ -1,7 +1,7 @@
 ---
 title: "Configure file attachment capability for a chat widget | MicrosoftDocs"
 description: "Instructions to configure file attachment capability for a chat widget in Omnichannel for Customer Service."
-ms.date: 04/10/2023
+ms.date: 04/11/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -48,7 +48,8 @@ The file size limit for attachments and unsupported file types are defined in th
 
     :::image type="content" source="media/file-size-limit.png" alt-text="Set file size limit for attachment.":::
 
-   For image files in live chat, you can set the file size to be up to 20 MB. For other types of file attachments, the size is as specified in Dynamics 365.
+   > [!NOTE]
+   > For image files in live chat, the size can be up to 20 MB. For other types of file attachments, you can upload a file up to the maximum size specified in Dynamics 365.
 
 4. To specify unsupported file types, go to the **General** tab.
 
