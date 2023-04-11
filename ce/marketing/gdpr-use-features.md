@@ -13,15 +13,38 @@ search.audienceType:
   - enduser
 ---
 
-# Use GDPR features
+# Outbound marketing compliance settings
 
-This article describes how to enable and use GDPR-related features in Dynamics 365 Marketing.
+This article describes how to enable and use GDPR-related features in Dynamics 365 Marketing for Outbound Marketing.
 
-## Enable GDPR features in outbound marketing
+## Outbound consent
 
-By default, GDPR features such as consent management are disabled on new Dynamics 365 Marketing installations.
+Outbound marketing has a different consent model than real-time marketing. Real-time marketing's consent model, however, does not affect outbound marketing functionality. In other words, if you install real-time marketing, all outbound marketing's features and requirements are left intact.
 
-To learn how to enable or disable GDPR features, see [Manage user compliance settings](real-time-marketing-compliance-settings.md).
+Learn more about outbound marketing's consent model: [Data protection and the GDPR](gdpr.md)
+
+After you install real-time marketing, you will notice a slight change in the settings related to the GDPR configuration. To enable the GDPR configuration, go to **Settings** > **Compliance profiles** > **Outbound consent**.
+
+> [!div class="mx-imgBorder"]
+
+> ![Configure outbound consent screenshot.](media/real-time-marketing-outbound-consent.png "Configure outbound consent screenshot")
+
+By default, both switches are turned off. If you had a GDPR configuration enabled before, the system will respect your previous settings.
+
+In outbound marketing, you can configure each customer journey (and lead scoring model) to only process contacts that have given a minimum required level of consent. To enable this consent control, activate the **Enable the minimum consent level selection drop down** switch.
+
+The second switch, **Log consent changes for this field**, enables logging of contact attribute *Consent given* changes.
+
+After making changes to the **Outbound consent** settings, select **Save** in the top-left corner of the window.
+
+### Use outbound consent in customer journeys
+
+To use this feature in customer journeys:
+
+1. Gather consent from your end users. Consent should be captured in the *Consent given* field.
+1. Set a minimum consent level for the customer journey.
+
+You can find the audit data for the *Consent given* field in a user's contact record.
 
 ## View and set the consent level for each contact
 
@@ -43,8 +66,6 @@ You can filter segments by consent level just like you can when filtering by oth
 
 > [!div class="mx-imgBorder"]
 > ![Filter a segment by consent level.](media/gdpr-segment2.png)
-
-<a name="journey-consent-level"></a> 
 
 ## Set the minimum required consent level for a customer journey
 
@@ -82,7 +103,7 @@ You can now create a marketing email message that includes a link to your subscr
 
 To fully comply with the GDPR (and other common regulations), you must set up the double opt-in system. Double opt-in uses email messaging to ensure that all requests to change a contact's consent level or add a subscription were made on purpose by a person who can read that contact's email.
 
-More information: [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md) 
+More information: [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md)
 
 > [!NOTE]
 > Double opt-in is not currently supported in real-time customer journeys.
@@ -107,7 +128,7 @@ Then prepare a single customer journey with three parallel pipelines, one for ea
 
 > [!div class="mx-imgBorder"]
 > ![Example customer journey for handling GDPR requests.](media/gdpr-example-journey2.png)
- 
+
 The remaining subsections offer more details about how this example solution could be completed to support each type of request.
 
 ### Respond to get-my-data requests
@@ -121,7 +142,7 @@ The following list provides a few ideas for how your organization could set up a
 
 ### Respond to forget-me requests
 
-Ideally, you should prepare your system to make it easy for your privacy officer to completely delete a contact and all their related data on request. 
+Ideally, you should prepare your system to make it easy for your privacy officer to completely delete a contact and all their related data on request.
 
 - For a non-customized system, your privacy officer can just use the standard search function to find the contact and then hard-delete the contact. The system will automatically unlink and remove all related interaction data stored in Dynamics 365 Marketing back-end systems (including from all marketing services).
 - If you have custom fields or entities, then you must further customize your system to make sure it deletes all related personal data from related records and/or unlinks them from the contact record so that all personal information is removed. More information: [Developer Guide (Marketing)](developer/marketing-developer-guide.md)
@@ -138,7 +159,7 @@ One way to prepare your system to handle update-my-data requests could be to set
 1. For the marketing email message sent to the contact after submitting the form, include a link to that subscription center and include information about what to do if the customer wants to update information that is not included on that form.
 
 As mentioned earlier, when a privacy officer receives the task generated by the customer journey, they can select the included link to open the relevant contact record, open the insights for that record and then go to the **Marketing form interactions** tab, where they can read the full content of the form submission (for example, as a tooltip for the relevant **Form submission** value in the **Form visited list**). If needed, the privacy officer can contact the customer directly to resolve any of the special requests (such as to update data not provided on the subscription center form).
- 
+
 ### Secure and control access to personal information
 
 Part of the GDPR regulations is a requirement that your organization takes steps to secure and control access to personal information that is stored in your database. You can use the standard field-level, form-level, and entity-level security controls to make sure that only authorized users, who know how to handle it legally, will be able to access it. Here are some examples of data that you may need to protect:
@@ -185,7 +206,7 @@ Once you've enabled auditing for contacts, you'll be able to view a record of ch
 
 1. Open the target contact record.
 
-1. Select the **Related** tab to open a drop-down list of related record types and then select **Audit history** from the drop-down list. A list of change made to the current contact record opens as a new tab. 
+1. Select the **Related** tab to open a drop-down list of related record types and then select **Audit history** from the drop-down list. A list of change made to the current contact record opens as a new tab.
 
 1. To view consent changes only, set **Filter on** to **Consent given**.
 

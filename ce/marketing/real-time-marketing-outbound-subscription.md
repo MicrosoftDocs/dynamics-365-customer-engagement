@@ -35,6 +35,9 @@ Before you can use subscription centers in real-time journeys, you must enable c
 1. Go to **Settings** > **Other settings** > **Feature switches**.
 1. Turn on the **Configurable compliance settings in email editor** feature switch.
 
+> [!NOTE]
+> If you have enabled the "Multi-brand consent and customizable preference centers (preview)" feature switch, the "Configurable compliance settings" feature switch does not need to be enabled to create and leverage multiple compliance profiles
+
 ## Set up subscription centers in real-time marketing
 
 In **Settings**, connect the outbound marketing subscription center to real-time marketing compliance settings:
