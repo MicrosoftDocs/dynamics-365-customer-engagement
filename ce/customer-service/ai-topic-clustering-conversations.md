@@ -5,7 +5,6 @@ ms.date: 06/01/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Configure AI topic clustering for conversations

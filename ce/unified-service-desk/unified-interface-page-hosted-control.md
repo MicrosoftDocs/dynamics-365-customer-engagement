@@ -3,15 +3,11 @@ title: "Unified Interface Page hosted control to load a page from a model-driven
 description: "Learn to create the Unified Interface Page hosted control. Also find information about the predefined UII actions supported by it."
 ms.date: 11/12/2020
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ---
 
 # Unified Interface Page (hosted control)

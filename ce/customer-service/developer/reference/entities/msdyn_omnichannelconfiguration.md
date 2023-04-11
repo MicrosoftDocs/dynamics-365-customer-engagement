@@ -3,14 +3,10 @@ title: "msdyn_omnichannelconfiguration table/entity reference (Microsoft Dataver
 description: "Includes schema information and supported messages for the msdyn_omnichannelconfiguration table/entity."
 ms.date: 04/16/2021
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: "v-jmh"
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: "mgandham"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
 # msdyn_omnichannelconfiguration table/entity reference

@@ -14,7 +14,6 @@ ms.assetid: ba745854-2569-4fc9-82f2-8aa41e0eac79
 caps.latest.revision: 28
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # After the upgrade
 

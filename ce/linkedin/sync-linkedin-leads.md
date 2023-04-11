@@ -5,7 +5,6 @@ ms.date: 04/02/2018
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-LinkedIn
 keywords: linkedin lead gen, lead gen form, get started
@@ -13,9 +12,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365LinkedIn
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: 13c8a439-30bc-45a4-bf4e-a25781148a4c

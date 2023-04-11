@@ -5,7 +5,6 @@ ms.date: 10/19/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Manage access and record types

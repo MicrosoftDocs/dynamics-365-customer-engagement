@@ -3,9 +3,8 @@ title: "getTranslationProvider (Omnichannel for Customer Service JavaScript prop
 description: "Includes reference information about getTranslationProvider property in Omnichannel JavaScript API reference."
 ms.date: 04/04/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ---
 
 # getTranslationProvider

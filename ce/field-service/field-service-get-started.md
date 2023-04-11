@@ -1,16 +1,13 @@
 ---
-title: Get started with Dynamics 365 Field Service
+title: Get started
 description: Learn how to get started with Dynamics 365 Field Service.
 ms.date: 03/14/2023
 author: jshotts
 ms.author: jasonshotts
 ms.custom: get-started
-search.app:
-- D365CE
-- D365FS
 ---
 
-# Get started with Dynamics 365 Field Service
+# Get started
 
 This article helps organizations to get started. It guides you through the first steps with the application and the scenario of creating and scheduling a work order to resolve a customer's service request.
 

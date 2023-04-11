@@ -1,11 +1,11 @@
 ---
 title: "Edit phone numbers in text message"
 description: "Edit phone numbers by assigning or removing users who are no longer working in your organization or moved to a different team."
-ms.date: 02/10/2023
-ms.topic: overview
+ms.date: 03/21/2023
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
-manager: shujoshi
+ms.custom: bap-template
 ---
 
 # Edit phone numbers

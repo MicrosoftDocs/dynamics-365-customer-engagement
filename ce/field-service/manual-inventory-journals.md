@@ -1,6 +1,6 @@
 ---
-title: "Manual inventory journals in Dynamics 365 Field Service| MicrosoftDocs"
-description: Learn about manual inventory journals in Dynamics 365 Field Service
+title: Use manual inventory journals
+description: Learn about manual inventory journals in Dynamics 365 Field Service.
 ms.date: 3/14/2022
 ms.topic: article
 applies_to: 
@@ -8,12 +8,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: jacoh
 author: jasonccohen
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Manual inventory journals in Dynamics 365 Field Service
+# Use manual inventory journals
 
 In Dynamics 365 Field Service, organizations can track their product inventory. For any given warehouse and product, an organization can track **Available**, **On Hand**, **On Order**, and **Allocated** inventory.
 

@@ -5,7 +5,6 @@ ms.date: 02/10/2023
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Manage text message conversations (Preview)

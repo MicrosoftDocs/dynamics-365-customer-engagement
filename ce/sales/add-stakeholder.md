@@ -1,11 +1,10 @@
 ---
 title: "Add stakeholders, sales team, and competitors for the opportunity | MicrosoftDocs"
 description: "Add people that you're working with on the opportunity as stakeholders and sales team."
-ms.date: 05/10/2022
+ms.date: 04/05/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -58,7 +57,7 @@ If multiple users and teams from your organization are working on an opportunity
 1. In the Sales Hub site map, select **Opportunities**.
 
 1. Open the opportunity.
-1. In the Summary tab, scroll down to the **Sales Team** section.
+1. In the Summary tab, scroll down to the **Sales team** section.
 1. Select **New Connection** and then add users or teams in your organization who are involved in the opportunity. 
     > [!NOTE]
     > If you don't see the **New connection** button, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. More information: [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)

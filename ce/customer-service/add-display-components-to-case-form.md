@@ -38,6 +38,11 @@ After you add the **Customer 360** control to a case form, when an agent selects
     - Select the attributes from the table that must be displayed as fields on the form to the user. You can select up to seven simple and three composite attributes.
     - Specify if the users can edit the fields in the card in the **Enable Editing** drop down. This field is set to **Yes** by default.
     - The control header displays the contact name or account name when a contact or account is selected from the customer lookup on the form. If you want the control header to display a static header, specify **Static Value** and set **Show Static Header** to **Yes**. 
+    - Set the **Enable Rich Text Editor for Multiline Text Fields** to **Yes** for the rich text editor control to be enabled for multi-line text columns. 
+    > [!NOTE]
+    > If the multi-line text field is defined as rich-text on other forms, you can enable the rich text editor for this field on Customer 360 component. If you don't enable this, users might see html tags in the field if the field has formatted content.
+
+    - If you'd like to add advanced configuration for the rich text editor control, specify the **Custom Rich Text Editor Configuration URL**. More information: [Create and use advanced configuration for the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#create-and-use-advanced-configuration-for-the-rich-text-editor-control)
     
       :::image type="content" source="media/powerapps-360-static-mini.png" alt-text="Static value and header" lightbox="media/powerapps-360-static-mini.png":::
       
@@ -78,7 +83,7 @@ After you add the **Customer 360** control to a case form, when an agent selects
  
  The Recent records control displays the related records as follows, if you select **Case** in the **Table** field.
 
-   :::image type="content" source="media/recent-record-control.png" alt-text="sample image of the recent cases card" lightbox="media/recent-record-control.png":::
+   :::image type="content" source="media/recent-record-control.png" alt-text="sample image of the recent cases card":::
 
 ### See also
 

@@ -5,7 +5,6 @@ ms.date: 02/17/2023
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.reviewer: shujoshi
 ms.custom: 
   - template-trial-faq

@@ -5,14 +5,10 @@ ms.date: 11/17/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - end user
-search.app: 
-  - D365CE
-  - D365CS
 
 ---
 

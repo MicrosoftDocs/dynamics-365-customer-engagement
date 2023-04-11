@@ -3,14 +3,10 @@ title: "Download the Web Client - Unified Interface Migration Assistant | Micros
 description: "Download Web Client - Unified Interface Migration Assistant to migrate your Unified Service Desk configurations from the legacy web client to Unified Interface"
 ms.date: 07/30/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin

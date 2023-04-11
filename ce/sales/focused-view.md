@@ -5,14 +5,10 @@ ms.date: 02/03/2023
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-sales
   - bap-template
@@ -29,7 +25,8 @@ The focused view is similar to the Sales accelerator workspace view. [Learn how 
 You can't customize how work items are shown in the focused view. You can customize the appearance of work items in sales accelerator, however. Work items are displayed in the focused view according to that customization. [Learn how to customize work items](customize-work-list-card.md#customize-work-items).
 
 >[!IMPORTANT]
->Focused view is available for Account, Contact, Lead, and Opportunity entities.
+>- Focused view is available for Account, Contact, Lead, and Opportunity entities.
+>- To set focused view as default, contact your administrator. More information: [Set focused view as the default view](set-focused-view-as-default.md)   
 
 ## License and role requirements
 
@@ -75,6 +72,7 @@ The following image is an example of the focused view for the Lead entity:
 
 ### See also
 
+[Set focused view as the default view](set-focused-view-as-default.md)  
 [Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)   
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)   
 [Customize work items](customize-work-list-card.md#customize-work-items)   

@@ -5,7 +5,6 @@ ms.date: 10/12/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Enable email validation (preview)

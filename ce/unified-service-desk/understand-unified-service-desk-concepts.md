@@ -3,15 +3,11 @@ title: "Understand Unified Service Desk concepts | MicrosoftDocs"
 description: "Learn how to configure and extend Unified Service Desk. Also, find information about configuring entities and options."
 ms.date: 01/25/2017
 ms.topic: get-started-article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---

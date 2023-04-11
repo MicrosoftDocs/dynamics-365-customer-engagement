@@ -5,7 +5,6 @@ ms.date: 04/02/2018
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-LinkedIn
 keywords: AppSource, LinkedIn Lead Gen Connector, Installation, Setup
@@ -13,9 +12,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365LinkedIn
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: 1f4ee997-8460-4f6c-a77e-138e850ecd97

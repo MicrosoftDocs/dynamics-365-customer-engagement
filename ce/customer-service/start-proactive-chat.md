@@ -5,7 +5,6 @@ ms.date: 01/25/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Start a chat proactively
 

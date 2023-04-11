@@ -1,20 +1,16 @@
 ---
 title: "Personalize content using pre-defined dynamic text (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content using pre-defined dynamic text in Dynamics 365 Marketing."
-ms.date: 03/14/2023
+ms.date: 04/10/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Personalize content using pre-defined dynamic text
@@ -58,10 +54,13 @@ Most of the time you should be able to use pre-defined dynamic text as-is, but s
 
 ### Changing the default value globally
 
-If the default value provided isn't appropriate for your situation (for example, you may refer to your customers as “clients” or “guests” rather than “customer”), you can change the default value for everyone. To change the global default value, select the vertical ellipses next to the pre-defined dynamic text's name and then select **Update pre-defined dynamic text**. The pre-defined dynamic text will be updated for the current message and globally for future usage of the dynamic text in new messages (existing messages aren't affected).
+> [!NOTE]
+> You can update the default value of a pre-defined text. Only the default value can be changed if you want to change its definition, you must remove the current pre-defined text and add a new one.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of updating a default value globally.](media/real-time-marketing-predefined-tokens-update.png "Screenshot of updating a default value globally")
+“Update” is shown only when default value is changed (otherwise it is not shown) and that default value is the only thing that can be changed for a pre-defined dynamic text. To change the global default value, select the vertical ellipses next to the pre-defined dynamic text's name and then select **Update pre-defined dynamic text**. The pre-defined dynamic text will be updated for the current message and globally for future usage of the dynamic text in new messages (existing messages aren't affected).
+
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of updating pre-defined dynamic text.](media/real-time-marketing-update-predefined-tokens.png "Screenshot of updating pre-defined dynamic text")
 
 > [!IMPORTANT]
 > The **Update pre-defined dynamic text** command only applies to the current message and future messages. It does not retroactively change previous uses of the dynamic text.
@@ -82,20 +81,6 @@ To define and share new pre-defined dynamic text, follow these steps:
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of saving and adding new pre-defined dynamic text.](media/real-time-marketing-predefined-tokens-save.png "Screenshot of saving and adding new pre-defined dynamic text")
-
-## Updating pre-defined text
-
-You can update the default value of a pre-defined text. Only the default value can be changed – if you want to change its definition, you must remove the current pre-defined text and add a new one.
-To update the default value:
-1. Add the pre-defined text in a message.
-2. Double-click the pre-defined text in the canvas, you'll see the personalization **define dynamic text** dialog.
-3. Change the default value and then select **Save**.
-4. Select somewhere else in the text box (so the cursor isn't on the pre-defined text).
-5. Select the Personalization command and then on more options (three dots) for the pre-defined text that you changed.
-6. Select **Update**. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of updating pre-defined dynamic text.](media/real-time-marketing-update-predefined-tokens.png "Screenshot of updating pre-defined dynamic text")
 
 > [!NOTE]
 > The **Update** option is only available for pre-defined text if the default value changed.
@@ -135,23 +120,22 @@ If needed, you can change the language and region setting along with time zone b
 > [!div class="mx-imgBorder"]
 > ![locale and time zone](media/real-time-marketing-locale-and-time-zone.png "locale and time zone")
 
-### Preview: Using data that is reached by traversing a 1-to-many relation
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+### Using data that is reached by traversing a 1-to-many relation
 
 > [!TIP]
 > How to enable the preview for more data for personalization
 >
 > If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to **Personalization** area, enabling the **One-to-many-relation for Dynamic text** feature switch, and saving the setting by selecting on **Save** on the top right corner.
 
-Personalized messages drive engagement that helps deliver desired business outcomes. [Dynamic text](real-time-marketing-predefined-dynamic-text.md) in real-time makes it easy to include personalized information for each recipient. Previously, dynamic text was limited to data that could be reached by 1-to-1 relations. Now, you can use data that requires traversing 1-to-many relations, unlocking even more data for personalization.
+Personalized messages drive engagement that helps deliver desired business outcomes. [Dynamic text](real-time-marketing-predefined-dynamic-text.md) in real-time marketing makes it easy to include personalized information for each recipient. Previously, dynamic text was limited to data that could be reached by 1-to-1 or many-to-1 relations. Now, you can use data that requires traversing 1-to-many or many-to-many relations, unlocking even more data for personalization. 
+
+Watch this video to learn more:
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW10ZeH]
 
 Consider a university alumni donation campaign where you would want to include name of the college attended by each alum to drive maximum engagement. An alum might have attended multiple colleges in that university, resulting in a "1-to-many" relationship between student and college records. Dynamic text can now be defined for such data.
 
-#### How to define 1-to-many relations
+#### Define dynamic text that uses 1-to-many or many-to-many relations
 
 When defining 1-to-many dynamic text, the system needs to know which one out of many related records should be used for data retrieval. You can use the default condition (the first record after sorting by "Created on") or define your own condition, as appropriate. In the example below, dynamic text is being defined to include the owning team's name for service cases for the recipient. As there can be multiple cases for a recipient, you can define a condition to pick the high priority case. However, sometimes that may not be sufficient (there can be multiple high priority cases), and for such cases the system always has a default condition (most recently created record) that will be used as tiebreaker if and when needed.
 

@@ -5,7 +5,6 @@ ms.date: 10/29/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Videos for Omnichannel for Customer Service

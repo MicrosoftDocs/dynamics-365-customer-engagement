@@ -5,7 +5,6 @@ ms.date: 11/14/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Show customers their position in a queue

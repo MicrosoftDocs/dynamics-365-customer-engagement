@@ -1,21 +1,20 @@
 ---
-title: Enable supervisor settings for managing agent conversations | MicrosoftDocs
+title: Enable supervisor access to manage conversations | MicrosoftDocs
 description: "How to enable supervisors to monitor, assign, transfer, and close conversations in the Customer Service admin center app."
 ms.date: 10/03/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
-# Enable your supervisors to monitor, assign, transfer, and forcibly end conversations
+# Enable supervisor access to manage conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 
 As an administrator, you can enable your supervisors to take specific actions on various conversations being handled by their agents in Omnichannel for Customer Service. You can grant your supervisors permissions to monitor, assign, transfer, and forcibly end conversations by enabling the respective permissions in the admin app.
 
-## Configure Supervisor settings
+## Configure supervisor settings
 
 1. Go to one of the admin apps, and perform the following steps.
    
@@ -24,14 +23,14 @@ As an administrator, you can enable your supervisors to take specific actions on
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Ongoing conversation insights** section, select **Manage**.
 
-     The **Omnichannel Configuration.Supervisor Settings** page is displayed.       
+     The **Omnichannel Configuration.Supervisor Settings** page is displayed.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
      1. In the site map, select **Supervisor Settings** in **Advanced settings**. The **Supervisor settings** page appears.
      2. In the **Ongoing conversation insights** section, select **Manage**.
 
-      The **Omnichannel Configuration.Supervisor Settings** page is displayed.    
+      The **Omnichannel Configuration.Supervisor Settings** page is displayed.
 
 2. To enable the supervisors to perform the following actions, set the corresponding toggles to **Yes**:
     - **Supervisor Monitor**: Monitor how conversations are happening or being handled by their agents.

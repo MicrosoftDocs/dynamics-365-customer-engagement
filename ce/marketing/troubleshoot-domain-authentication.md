@@ -8,14 +8,10 @@ ms.custom:
   - dyn365-marketing
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Troubleshoot domain authentication errors
@@ -28,7 +24,7 @@ This article is a checklist to help you troubleshoot domains that fail confirmat
 
 The first step in troubleshooting domain authentication issues is to make sure all required DNS records have been added. The following are some how-to documents for editing and creating DNS records with common DNS providers:
 
-- [Cloudflare](https://support.cloudflare.com/hc/en-us/articles/200168626-How-do-I-add-a-SPF-record-)
+- [Cloudflare](https://support.cloudflare.com/hc/articles/200168626-How-do-I-add-a-SPF-record-)
 - [GoDaddy](https://www.godaddy.com/help/manage-dns-for-your-domain-names-680)
 - [NameCheap](https://www.namecheap.com/support/knowledgebase/article.aspx/317/2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain)
 

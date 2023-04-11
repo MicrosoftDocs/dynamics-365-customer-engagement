@@ -10,9 +10,6 @@ applies_to:
 author: m-hartmann
 ms.author: mhart
 ms.reviewer: mhart
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Configure the schedule board tab settings in Universal Resource Scheduling

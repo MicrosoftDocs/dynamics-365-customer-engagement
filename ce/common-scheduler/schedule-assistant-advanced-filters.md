@@ -7,9 +7,6 @@ ms.subservice: common-scheduler
 ms.topic: conceptual
 author: FeifeiQiu
 ms.author: feiqiu
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Advanced filters for the schedule assistant in Universal Resource Scheduling

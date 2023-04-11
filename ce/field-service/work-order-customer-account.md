@@ -5,9 +5,6 @@ ms.date: 12/08/2022
 ms.topic: article
 author: lmasieri
 ms.author: lmasieri
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Work orders and service accounts
