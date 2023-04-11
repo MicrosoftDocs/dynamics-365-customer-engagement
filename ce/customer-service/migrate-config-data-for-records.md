@@ -9,7 +9,6 @@ ms.date: 04/10/2023
 ms.custom: bap-template
 ---
 
-
 # Migrate configuration data for records
 
 This article includes procedures for migrating configuration data for records. You must migrate the data in the order of:
@@ -41,7 +40,6 @@ For sample schema to get all the required records, see [Sample schema for skill-
    |Characteristic (characteristic)    | <ul><li>Characteristic Type (characteristictype)</li><li>Characteristic (characteristicid)</li><li>Description (description)</li><li>Name (name)</li></ul> |         |
    |Rating Model (ratingmodel)     |<ul><li>Max Rating Value (maxratingvalue)</li><li>Min Rating Value (minratingvalue)</li><li>Name (name)</li><li>Rating Model (ratingmodelid)</li></ul>         |         |
    |Rating Value (ratingvalue)     | <ul><li>Name (name)</li><li>Rating Model (ratingmodel)</li><li>Rating Value (ratingvalueid)</li><li>Value (value)</li></ul> |         |
-   |   |         |         |
 
 1. Generate the schema and save it.
 
@@ -63,7 +61,6 @@ For sample schema to get all the required records, see [Sample schema for capaci
     |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |---------|---------|---------|
     |Capacity Profile (msdyn_capacityprofile)     | <ul><li>Block Assignment (msdyn_blockassignment)</li><li> Capacity Profile (msdyn_capacityprofileid)</li><li>Default Max Units (msdyn_defaultmaxunits)</li>Name (msdyn_name)</li><li> Reset Duration(msdyn_resetduration)</li><li>Unique Name (msdyn_uniquename)</li></ul> | **Sample 1: For all capacity profile records**<br>`  <fetch>` <br>  `<entity name="msdyn_capacityprofile">` <br>`<filter type="and">`<br>`<condition attribute="ismanaged" operator="eq" value="0" />`<br>`</filter>`<br>`</entity>`<br>  `</fetch>`<br><br> **Sample 2: For a single capacity profile record** <br> `<fetch>` <br>`<entity name="msdyn_capacityprofile">`<br>`<filter type="and">`<br>`<condition attribute="msdyn_capacityprofileid" operator="eq" uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile" value="{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}" />`<br> `</filter>`<br> `</entity>`<br> `</fetch>` <br><br> **Sample 3: For multiple capacity profile records** <br> `<fetch>`<br> `<entity name="msdyn_capacityprofile">`<br> `<filter type="and">` <br> `<condition attribute="msdyn_capacityprofileid" operator="in">`<br>`<value uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile">{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}</value>`<br> `<value uiname="Demo Capacity Profile 2" uitype="msdyn_capacityprofile">{D0B8ABFB-4A9F-0B1F-6FF4-8003E29A623C}</value>`<br>`</condition>`<br>`</filter>`<br>`</entity>`<br>`</fetch>` |
-    |     |         |         |
 
 2. Generate the schema and save it.
 
@@ -92,6 +89,13 @@ Along with the import of the queues configuration, if you want to update an exis
     `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>`
 
 The following table summarizes the entities and corresponding FetchXML samples: 
+    |S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+    |-----|---------|---------|---------|
+    | 1. | Queue (queue) |  <ul><li>Assignment Input Contract Id (msdyn_assignmentinputcontractid)</li><li>Assignment Strategy (msdyn_assignmentstrategy) </li> <li> Description (description) </li><li> Is Default Queue (msdyn_isdefaultqueue) </li><li> Is Omnichannel queue (msdyn_isomnichannelqueue) </li><li> Name (name) </li><li> Priority (msdyn_priority) </li><li> Queue (queueid) </li><li> Queue type (msdyn_queuetype) </li><li> Type (queueviewtype) </li></ul>  |  [**Sample 1: All queues for records**](#BKMK1all-ur-qs) <br><br> [**Sample 2: Single queue for records**](#BKMK2single-ur-qs) <br><br> [**Sample 3: Multiple queues for records**](#BKMK3multiple-ur-qs)   |
+    | 2. | Decision contract (msdyn_decisioncontract)  |  <ul> <li>Contract definition (msdyn_contractdefinition)</li> <li>Decision contract (msdyn_decisioncontractid) </li> <li>Name (msdyn_name) </li> <li>Unique name (msdyn_uniquename) </li> </ui>  | [**Sample 1: Decision contract for all record queues**](#BKMK1all-ur-dc) <br> <br>  [**Sample 2: Decision contract for a single record queue**](#BKMK2single-ur-dc) <br> <br> [**Sample 3: Decision contract for multiple record queues**](#BKMK3multiple-ur-dc) <br> |
+    | 3. |  Decision ruleset (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li><li>FetchXML for ruleset (msdyn_fetchxml)</li></ul>  |  [**Sample 1: Decision ruleset for all record queues**](#BKMK1all-ur-rls) <br> <br> [**Sample 2: Decision ruleset for a single record queue**](#BKMK2single-ur-rls) <br> <br> [**Sample 3: Decision ruleset for multiple record queues**](#BKMK3multiple-ur-rls) <br>  |
+    | 4. |  Assignment Configuration (msdyn_assignmentconfiguration)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Description (msdyn_description)</li><li>Is Active Configuration (msdyn_isactiveconfiguration)</li><li>Name (msdyn_name)</li><li>Queue (msdyn_queueid)</li><li>Unique Name (msdyn_uniquename)</li></ul>  | [**Sample 1: Assignment configuration for all record queues**](#BKMK1all-ur-ac) <br> <br>[**Sample 2: Assignment configuration for a single record queue**](#BKMK2single-ur-ac) <br> <br>[**Sample 3: Assignment configuration for multiple record queues**](#BKMK3multiple-ur-ac) <br>   |
+    | 5. |  Assignment Configuration Step (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Assignment configuration step for all record queues**](#BKMK1all-ur-acs) <br> <br> [**Sample 2: Assignment configuration step for a single record queue**](#BKMK2single-ur-acs) <br> <br> [**Sample 3: Assignment configuration step for multiple record queues**](#BKMK3multiple-ur-acs) <br>   |
 
 |S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
 |-----|---------|---------|---------|
@@ -867,7 +871,6 @@ For sample schema to get all the required records, see [Sample schema for intake
     | 4. | Routing configuration (msdyn_routingconfiguration) |  <ul> <li> Is active configuration (msdyn_isactiveconfiguration) </li> <li> Name (msdyn_name) </li> <li> Routing configuration (msdyn_routingconfigurationid) </li> <li> Unique name (msdyn_uniquename) </li> <li>Workstream (msdyn_liveworkstreamid) </li> </ul>  |  [**Sample 1: Routing configuration for all record workstreams**](#BKMK1rc-ur-ws) <br><br> [**Sample 2: Routing configuration for a single record workstream**](#BKMK2rc-ur-ws) <br> <br> [**Sample 3: Routing configuration for multiple record workstreams**](#BKMK3rc-ur-ws) <br><br> |
     | 5. |  Routing configuration step (msdyn_routingconfigurationstep)  |  <ul><li> Name (msdyn_name) </li><li> Routing configuration (msdyn_routingconfigurationid) </li><li> Routing configuration step (msdyn_routingconfigurationstepid) </li><li> Rule set (msdyn_rulesetid) </li><li> Step order (msdyn_steporder) </li><li> Step type (msdyn_type) </li><li> Unique name (msdyn_uniquename) </li></ul>  |  [**Sample 1: Routing configuration step for all record workstreams**](#BKMK1rs-ur-ws) <br><br> [**Sample 2: Routing configuration step for a single record workstream**](#BKMK2rs-ur-ws) <br><br> [**Sample 3: Routing configuration step for multiple record workstreams**](#BKMK3rs-ur-ws) <br><br>  |
     | 6. |  Workstream capacity profile (msdyn_liveworkstreamcapacityprofile)  |  <ul><li> Capacity Profile (msdyn_capacityprofile_id)</li><li> Name (msdyn_name) </li><li>Workstream (msdyn_workstream_id) </li><li>Workstream Capacity profile (msdyn_liveworkstreamcapacityprofileid)</li></ul>  | [**Sample 1: Workstream capacity profile for all record workstreams**](#BKMK1cp-ur-ws) <br><br> [**Sample 2: Workstream capacity profile for a single record workstream**](#BKMK2cp-ur-ws) <br><br> [**Sample 3: Workstream capacity profile for multiple record workstreams**](#BKMK3cp-ur-ws) <br><br>   |
-    |||||
 
 2. Generate the schema and save it.
 
