@@ -50,4 +50,8 @@ Follow these procedures to make the most of the content ideas feature:
 1. Ensure high-quality of text content in your 20+ recent **Ready-to-send** commercial marketing emails- These emails (together with provided key points) serve as an input for the AI service to generate personalized ideas.
 1. Always review and edit content ideas suggestions before publishing them in an email or marketing campaign.
 
+## See also
+
+- [Use AI to kickstart email creation with content ideas](content-ideas.md)
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
