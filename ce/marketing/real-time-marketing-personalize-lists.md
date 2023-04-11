@@ -1,7 +1,7 @@
 ---
 title: "Personalize lists (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize lists in Dynamics 365 Marketing."
-ms.date: 12/06/2022
+ms.date: 04/10/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -91,7 +91,7 @@ For lists, you can add or delete additional attributes (these changes will be sa
 
 Sometimes when creating a list in an email, you'd like to only include items that meet certain conditions. For example, a confirmation email about an order may be most effective if it separately lists items that are back ordered or need special handling. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track, filtering the list of sessions based on certain criteria.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10RFA]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW10RFA]
 
 To filter a list, select a list you've already created in an email. In this example, the email contains a list of winery tours:
 
