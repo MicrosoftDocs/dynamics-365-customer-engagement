@@ -81,7 +81,7 @@ If you're using the out-of-the-box assignment methods for queues, such as highes
 
 The assignment rulesets must be available in the system before the Configutation Migration tool imports the selection criteria. Hence, you need to perform the following steps in the specified order to migrate configuration for record queues:
 
-### Step 1: Export and import rulesets without selection criteria set
+### Step 1: Export and import rulesets without selection criteria
   
 > [!IMPORTANT]
 > Along with the import of the queues configuration, if you want to update an existing queue in the target organization, you must remove the following line from the sample schema XML and data XML before you use it to import the configuration.<br> 
