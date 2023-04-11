@@ -286,13 +286,13 @@ sections:
     questions:
       - question: Which service providers are supported?
         answer: |
-          Currently, only TeleSign, Twilio, and Infobip are supported as SMS channel providers.​
+          Currently, only Telesign, Twilio, and Infobip are supported as SMS channel providers.​
 
-      - question: Can a same number be used across multiple Dynamics 365 applications such as, Sales and Marketing?​
+      - question: Can a same number be used across multiple Dynamics 365 applications such as Sales and Marketing?​
         answer: |
-          No. The number must be unique for each application though same channel provider can be used across applications.​          
+          No. The number must be unique for each application, although the same channel provider can be used across applications.​          
 
-      - question: Can I add my team mate to an ongoing SMS conversation with my customer?​
+      - question: Can I add my teammate to an ongoing SMS conversation with my customer?​
         answer: |
           No. Currently, group SMS isn't supported as part of the SMS capability. However, a number can be assigned to a team, which can be used by the team to collaborate with a customer. All the conversations are added to the entity timeline.​           
 
