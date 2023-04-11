@@ -88,3 +88,5 @@ Your own custom API will be executed and call the **msdyn_D365ChannelsInbound** 
     - **From**: string - C2 user contact point.
     - **OrganizationId**: string – The organization ID.
     - **Message**: Dictionary <string, string> - Contains all the message parts for a channel.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

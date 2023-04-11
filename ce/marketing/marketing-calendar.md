@@ -96,5 +96,4 @@ To create a new calendar item while working in day or week view:
 
 [Create and customize marketing calendars](customize-marketing-calendars.md)
 
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

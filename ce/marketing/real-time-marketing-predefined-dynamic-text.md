@@ -201,3 +201,4 @@ Select the tables you want to add or remove, then select **Save**.
 
 > The pre-defined dynamic text feature has a few known issues. Learn more: [Known issues in real-time marketing](real-time-marketing-known-issues.md#personalization).
 
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

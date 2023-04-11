@@ -59,3 +59,5 @@ If the image you need isn't there, select **+Upload** to add a new one.
 ### See also
 
 [Link to documents stored in the asset library](/dynamics365/marketing/real-time-marketing-email#link-to-documents-and-videos-stored-in-the-asset-library)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

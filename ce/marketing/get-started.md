@@ -17,7 +17,7 @@ search.audienceType:
 
 This article provides a checklist to get your Dynamics 365 Marketing implementation up and running quickly.
 
-For in-depth information on getting started with the Dynamics 365 platform, see the [Microsoft Dynamics 365 implementation guide](/dynamics365/fasttrack/implementation-guide/overview).
+For in-depth information on getting started with the Dynamics 365 platform, see the [Microsoft Dynamics 365 implementation guide](/dynamics365/guidance/).
 
 ## Dynamics 365 Marketing basic setup
 
@@ -40,3 +40,5 @@ Follow these steps to expedite the Dynamics 365 Marketing setup process.
 ## Next steps
 
 After the Marketing app is set up, you can start setting up features such as [email](email-get-started.md) and [text messages](real-time-marketing-outbound-text-messaging.md) to reach out to your customers.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

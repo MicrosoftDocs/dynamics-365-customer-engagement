@@ -24970,6 +24970,7 @@
     {
       "source_path": "ce/field-service/quickstart-schedule-work-order.md",
       "redirect_url": "/dynamics365/field-service/field-service-get-started",
+      "redirect_document_id": false
     },
     {
       "source_path": "ce/marketing/real-time-marketing-domain.md",
@@ -25034,6 +25035,11 @@
     {
       "source_path": "ce/field-service/field-service-preview.md",
       "redirect_url": "/dynamics365/get-started/release-schedule",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/content-ideas-terms.md",
+      "redirect_url": "/dynamics365/marketing/content-ideas",
       "redirect_document_id": false
     }
   ]

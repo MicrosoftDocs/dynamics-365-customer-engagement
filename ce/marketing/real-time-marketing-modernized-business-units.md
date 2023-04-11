@@ -102,3 +102,5 @@ To modify business unit of a form:
 ## Brand profiles
 
 Given that brand profiles are selected and included in an email, Dynamics 365 Marketing doesn't support changing the business unit of an existing brand profile. However, users that have permissions for more than one business unit can select the specific business unit for which they want to create the brand profile.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -84,3 +84,5 @@ To enable or disable this feature:
 
 > [!TIP]
 > The **Default for owning business unit** toggle will only appear when the **Business unit scoping** feature switch is enabled.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

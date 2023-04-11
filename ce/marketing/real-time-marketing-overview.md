@@ -58,3 +58,5 @@ Learn about making the move from outbound to real-time marketing in the free [Tr
 - Migrating your marketing artifacts
 - Identifying potential challenges
 - Retiring the use of outbound marketing
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
