@@ -52,3 +52,5 @@ Admins can use the [Help + support experience](/power-platform/admin/get-help-su
 
 [Administration and setup FAQ](setup-troubleshooting.yml)   
 [Installation and management FAQ](install-manage-faq.yml)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,5 @@ To guarantee that tracking links are always included (the links don’t require 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing get tracking consent set to no and default tracking to track.](media/real-time-marketing-utm-get-consent-no.png "Screenshot showing get tracking consent set to no and default tracking to track")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
