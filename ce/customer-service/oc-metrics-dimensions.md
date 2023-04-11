@@ -1,5 +1,5 @@
 ---
-title: Omnichannel Metrics - Dimensions
+title: Dimensions
 description: Learn about the out-of-box Omnichannel historical and real-time analytics metrics dimensions tables.
 author: Soumyasd27
 ms.author: sdas

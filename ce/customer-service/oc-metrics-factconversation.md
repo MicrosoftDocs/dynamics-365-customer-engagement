@@ -1,6 +1,6 @@
 ---
 title: FactConversation
-description: Learn about the out-of-box Omnichannel historical and real-time analytics metrics facts tables.
+description: Learn about FactConversation metrics.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi

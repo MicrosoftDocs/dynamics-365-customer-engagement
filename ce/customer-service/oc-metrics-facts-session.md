@@ -1,6 +1,6 @@
 ---
 title: FactSession
-description: Learn about the out-of-box Omnichannel historical and real-time analytics metrics facts tables.
+description: Learn about FactSession metrics.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # FactSession
 
-## Avg. session handle time 
+## Avg. session handle time
 
 This metric is similar to conversation handle time, but granular and is calculated for every agent working on the conversation. This metric is relevant for conversations that have been handled by multiple agents.  If multiple agents were assigned to work on a customer request, due to transfers, escalations etc. this metric will allow provide average time spent by each of those agents working with the customer. Conversation handle time is aggregation of session handle time of all the associated session.  
 
