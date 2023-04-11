@@ -17,15 +17,13 @@ Depending on your subscription, you can install the Sales Hub or Sales Professio
 
 Review the system requirements before installing Dynamics 365 Sales apps. [System requirements for Sales Hub and Sales Professional apps](system-requirements-for-sales-apps.md)
 
-## Install the Sales Hub app
+## Install the sales apps
 
-Sales Hub is a free app from Microsoft that's preinstalled. If your organization has a Sales Enterprise or Sales Premium license, you are entitled to use the Sales Hub app directly. [Learn more](intro-saleshub.md)
+Your Dynamics 365 Sales subscription comes with free apps that you can install. The following table lists the apps and the license required to install them.  
 
-## Install the Sales Professional app
-
-The Sales professional app is designed for Sales Professional customers. To install the app, see [Install the Sales Professional app](provision-sales-professional-instance.md).
-
-## Install the Team member app
-
-The Team member app is for sales support staff who don't need access to the full sales functionality. For more information about the app, see [Sales Team Member app for users with Team Member license](sales-team-member.md). 
+|App name  |License required  |Install instructions  |
+|---------|---------|---------|
+|Sales Hub app    |Sales Premium or Sales Enterprise         | [Link](intro-saleshub.md)        |
+|Sales Professional app     |Sales Professional         | [Link](provision-sales-professional-instance.md)        |
+|Team member app     |  Team member       |[Link](sales-team-member.md)         |
 

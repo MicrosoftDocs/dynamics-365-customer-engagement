@@ -54,8 +54,6 @@ additionalContent:
         text: Buy Dynamics 365 Sales
       - url:  install-overview.md
         text: Install Dynamics 365 Sales 
-      - url:  user-guide-learn-basics.md
-        text: Get started 
     - title: Set up 
 
       links: 
@@ -64,17 +62,34 @@ additionalContent:
       - url: /power-platform/admin/grant-users-access
         text: Users, roles, and licenses 
       - url: sales-set-up-landing-page.yml 
-        text: Sales entities
+        text: Sales basics 
   - title: Administer and develop Sales
     items:
-    - title: Manage 
+    - title: Configure 
       links: 
-      - url: dynamics-365-sales-gdpr.md
+      - url: enable-configure-sales-accelerator.md
         text: Sales accelerator
+      - url: configure-assistant.md
+        text: Sales assistant
       - url:  https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409
         text: Sales forecast
-      - url: system-requirements-for-sales-apps
+      - url: ri-overview.md
         text: Relationship intelligence
+      - url: fre-setup-ci-sales-app.md
+        text: Conversation intelligence
+    - title: Integrate
+      links:
+      - url: enable-teams-chat.md # could create an overview page
+        text: Microsoft Teams
+      - url: /power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks
+        text: Exchange
+      - url: /power-platform/admin/enable-onedrive-for-business
+        text: OneDrive
+      - url: connect-with-sharepoint.md
+        text: Sharepoint
+      - url: install-lsi-solution.md
+        text: LinkedIn
+
     - title: Developer reference
       links: 
       - url: developer/developer-guide.md
