@@ -20,7 +20,7 @@ search.app:
 # Preview personalized content
 
 > [!NOTE]
-> When you test send an email and use a sample audience record, the sent email will use condition outcomes or variations you manually select during test send (i.e., it will not use audience data for conditions). Always send email through a test journey to fully test emails with conditions and conditional content.
+> When you test send an email and use a sample audience record, the sent email uses condition outcomes or variations you manually select during test send (it will not use audience data for conditions). Always send email through a test journey to fully test emails with conditions and conditional content.
 
 You can preview your personalized content in the **Preview and test** view. Learn more about the **Preview and test** view: [Check your work using previews and test sends](email-preview.md)
 
