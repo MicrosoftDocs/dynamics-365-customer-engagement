@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page 
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 04/04/2023
+  ms.date: 04/11/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -45,14 +45,12 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-      - url: 
+      - url: /dynamics365/guidance/implementation-guide/security-strategy-product-ce
         text: Security and compliance
-      - url: 
+      - url: /dynamics365/guidance/implementation-guide/overview
         text: Implementation
-      - url: 
+      - url: /dynamics365/adoption//dynamics365/adoption/adoption-guide
         text: Adoption frameworks
-      - url: 
-        text: Best practices
     - title: Try/Buy/Provision
       links: 
       - url: /dynamics365/customer-service/try-customer-service
@@ -66,17 +64,21 @@ additionalContent:
       - url: /power-platform/admin/create-users?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
         text: Set up personas and privileges in Customer Service
       - url: /dynamics365/customer-service/add-users-assign-roles
-        text: Set up roles and enable users in Omnichannel for Customer
-      - url: /dynamics365/customer-service/omnichannel-provision-license
-        text: Provision Omnichannel for Customer Service
+        text: Set up roles and enable users in Omnichannel for Customer Service
+      - url: /dynamics365/customer-service/customer-service-workspace-system-requirements
+        text: System requirements for Customer Service workspace
   - title: Administer and develop Customer Service
     items:
     - title: Administer
       links:
+      - url: /dynamics365/customer-service/voice-channel-install
+        text: Install the voice channel
+      - url: /power-platform/admin/create-users?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
+        text: Create users
       - url: /dynamics365/customer-service/omnichannel-provision-license#set-up-omnichannel-for-customer-service-
         text: Manage environments for Omnichannel for Customer Service
-      - url: /dynamics365/customer-service/voice-channel-acs-resource
-        text: Connect to Azure Communication Services
+      - url: /dynamics365/customer-service/upgrade-omnichannel
+        text: Upgrade Omnichannel for Customer Service
     - title: Develop
       links:
       - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
@@ -113,13 +115,10 @@ additionalContent:
     items:
         # Card
         
-        - title: Power Automate
-          summary:
-          url:
-        - title: Power Apps
-          summary:
-          url:
-        - title: Power BI
-          summary:
-          url:
+        - title: Unified Service Desk Guide
+          summary: Unified Service Desk for Dynamics 365 model-driven apps provides a configurable framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in Microsoft Dataverse. 
+          url: /dynamics365/unified-service-desk/unified-service-desk
+        - title: Dynamics 365 Channel Integration Framework guide
+          summary: Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 model-driven apps using a browser-based JavaScript API library.
+          url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
        
