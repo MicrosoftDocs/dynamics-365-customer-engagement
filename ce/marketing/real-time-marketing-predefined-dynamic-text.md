@@ -127,11 +127,11 @@ If needed, you can change the language and region setting along with time zone b
 >
 > If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to **Personalization** area, enabling the **One-to-many-relation for Dynamic text** feature switch, and saving the setting by selecting on **Save** on the top right corner.
 
-Personalized messages drive engagement that helps deliver desired business outcomes. [Dynamic text](real-time-marketing-predefined-dynamic-text.md) in real-time makes it easy to include personalized information for each recipient. Previously, dynamic text was limited to data that could be reached by 1-to-1 or Many-to-1 relations. Now, you can use data that requires traversing 1-to-many or many-to-many relations, unlocking even more data for personalization. 
+Personalized messages drive engagement that helps deliver desired business outcomes. [Dynamic text](real-time-marketing-predefined-dynamic-text.md) in real-time marketing makes it easy to include personalized information for each recipient. Previously, dynamic text was limited to data that could be reached by 1-to-1 or many-to-1 relations. Now, you can use data that requires traversing 1-to-many or many-to-many relations, unlocking even more data for personalization. 
 
-Refer to the video below to know how this works:
+Watch this video to learn more:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10ZeH]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW10ZeH]
 
 Consider a university alumni donation campaign where you would want to include name of the college attended by each alum to drive maximum engagement. An alum might have attended multiple colleges in that university, resulting in a "1-to-many" relationship between student and college records. Dynamic text can now be defined for such data.
 
