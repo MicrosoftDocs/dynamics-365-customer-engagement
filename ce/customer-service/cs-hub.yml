@@ -31,7 +31,7 @@ highlightedContent:
     # Card
     - title: Training
       itemType: training
-      url: /training/modules/get-started-with-dynamics-365-for-customer-service
+      url: /learn/modules/get-started-with-dynamics-365-for-customer-service/
     # Card
     - title: Troubleshoot
       itemType: concept
@@ -63,7 +63,7 @@ additionalContent:
       links:
       - url: /power-platform/admin/create-users
         text: Set up personas and privileges in Customer Service
-      - url: /dynamics365/customer-service/add-users-assign-roles
+      - url: add-users-assign-roles.md
         text: Set up roles and enable users in Omnichannel for Customer Service
       - url: /dynamics365/customer-service/customer-service-workspace-system-requirements
         text: System requirements for Customer Service workspace
