@@ -61,7 +61,7 @@ additionalContent:
         text: Provision Customer Service
     - title: Set up 
       links:
-      - url: /power-platform/admin/create-users?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
+      - url: /power-platform/admin/create-users
         text: Set up personas and privileges in Customer Service
       - url: /dynamics365/customer-service/add-users-assign-roles
         text: Set up roles and enable users in Omnichannel for Customer Service
@@ -73,8 +73,6 @@ additionalContent:
       links:
       - url: /dynamics365/customer-service/voice-channel-install
         text: Install the voice channel
-      - url: /power-platform/admin/create-users?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
-        text: Create users
       - url: /dynamics365/customer-service/omnichannel-provision-license#set-up-omnichannel-for-customer-service-
         text: Manage environments for Omnichannel for Customer Service
       - url: /dynamics365/customer-service/upgrade-omnichannel
