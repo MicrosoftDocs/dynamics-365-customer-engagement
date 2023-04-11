@@ -31,7 +31,7 @@ highlightedContent:
     # Card
     - title: Training
       itemType: training
-      url: /training/modules/get-started-with-dynamics-365-for-customer-service/
+      url: /training/modules/get-started-with-dynamics-365-for-customer-service
     # Card
     - title: Troubleshoot
       itemType: concept
@@ -45,7 +45,7 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-      - url: /dynamics365/guidance/implementation-guide/security-strategy-product-ce
+      - url: security-strategy-product-ce.md
         text: Security and compliance
       - url: /dynamics365/guidance/implementation-guide/overview
         text: Implementation
