@@ -1,7 +1,7 @@
 ---
 title: "Create a real-time marketing segment using the Web API (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create a real-time marketing segment using the Web API."
-ms.date: 01/10/2023
+ms.date: 04/10/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -181,7 +181,7 @@ OData-EntityId: <Organization URL>/api/data/v9.0/msdynmkt_segments(<Segment ID>)
 
 ```
 {
-    "SegmentId": "<segment definition ID>"
+    "SegmentId": "<Segment ID>"
 }
 ```
 
