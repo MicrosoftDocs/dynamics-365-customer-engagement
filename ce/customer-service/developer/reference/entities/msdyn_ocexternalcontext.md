@@ -1,7 +1,7 @@
 ---
-title: "msdyn_ocexternalcontext entity reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_ocexternalcontext entity."
-ms.date: 04/06/2023
+title: msdyn_ocexternalcontext entity reference (Microsoft Dataverse)| MicrosoftDocs
+description: Includes schema information and supported messages for the msdyn_ocexternalcontext entity.
+ms.date: 04/11/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
