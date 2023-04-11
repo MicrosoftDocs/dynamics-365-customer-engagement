@@ -1108,6 +1108,22 @@
           href: set-idle-time-threshold.md
         - name: View and understand Omnichannel Ongoing Conversations dashboard
           href: ongoing-conversations-dashboard.md
+      - name: Use metrics for Omnichannel for CUstomer Service
+        items:
+        - name: Dimensions
+          href: analytics-oc-metrics.md
+        - name: FactConversation
+          href: oc-metrics-factconversation.md
+        - name: FactConversationMessageBlock
+          href: oc-metrics-facts-conversationmesgblock.md
+        - name: FactSession
+          href: oc-metrics-facts-session.md
+        - name: FactSessionParticipant
+          href: oc-metrics-facts-sessionparticipant.md
+        - name: AgentCapacityProfileCount
+          href: oc-metrics-facts-agentcapacityprofilecount.md
+        - name: FactAgentStatusHistory
+          href: oc-metrics-factagentstatushistory.md
       - name: Personalize analytics
         items: 
         - name: Manage report filters
