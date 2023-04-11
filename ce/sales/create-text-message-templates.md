@@ -26,7 +26,7 @@ Happy to connect with you on a phone call at {{UserUTCConversionTimeZoneCode}} r
 Best regards,  
 {{UserFirstName}}
 
-You can use this template to send personalized messages to each of your customers by dynamically filling the placeholders such as, {{ContactFirstName1}} and {{UserFirstName}} with appropriate information for each recipient.
+You can use this template to send personalized messages to each of your customers by dynamically filling the placeholders, such as {{ContactFirstName1}} and {{UserFirstName}}, with appropriate information for each recipient.
 
 
 ## To create a message template
@@ -39,7 +39,7 @@ You can use this template to send personalized messages to each of your customer
 
     -	**Template name**: Enter a name for the template.
 
-    -	**Category**: Select a category (entity) from which you want to use the placeholders that are used in the template. The entities that are supported are – Account, Contact, Lead, and Opportunity. When you select an entity, its corresponding related entities are also displayed while adding the placeholders.
+    -	**Category**: Select a category (entity) from which you want to use the placeholders that are used in the template. The entities that are supported are Account, Contact, Lead, and Opportunity. When you select an entity, its corresponding related entities are also displayed while adding the placeholders.
 
     -	**Language**: Display installed language packs. Language also helps to categorize your templates.
 
@@ -47,7 +47,7 @@ You can use this template to send personalized messages to each of your customer
 
     The template editor opens.
 
-5.	On the **Text message template** page, in the **Message** section, enter the message including placeholders for dynamic content. More information on dynamic content, see [Insert dynamic content](#insert-dynamic-content).
+5.	On the **Text message template** page, in the **Message** section, enter the message including placeholders for dynamic content. For more information on dynamic content, see [Insert dynamic content](#insert-dynamic-content).
 
 6.	Save and close.
 
