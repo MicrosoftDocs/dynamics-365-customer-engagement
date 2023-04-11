@@ -1,5 +1,5 @@
 ---
-title: msdyn_ocexternalcontext entity reference (Microsoft Dataverse)| MicrosoftDocs
+title: msdyn_ocexternalcontext entity reference | MicrosoftDocs
 description: Includes schema information and supported messages for the msdyn_ocexternalcontext entity.
 ms.date: 04/11/2023
 ms.topic: reference
