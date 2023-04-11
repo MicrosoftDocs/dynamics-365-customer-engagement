@@ -34,7 +34,7 @@ The content ideas feature is intended to simplify email creation. Marketers can 
 
 ## How was content ideas evaluated? What metrics are used to measure performance?
 
-Content ideas was subject to substantial testing before the feature was released. The feature also relies on user feedback to report inappropriate content. If you encounter inappropriate content being generated, report it to Microsoft using this feedback form: [Report abuse](https://msrc.microsoft.com/report/abuse?ThreatType=URL&IncidentType=Responsible%20AI&SourceUrl=https://dynamics.microsoft.com/marketing/overview/). It helps improve the functionality moving forward.
+Content ideas underwent substantial testing before the feature was released. Content ideas relies on user feedback to report inappropriate content. If you encounter inappropriate content being generated, report it to Microsoft using this feedback form: [Report abuse](https://msrc.microsoft.com/report/abuse?ThreatType=URL&IncidentType=Responsible%20AI&SourceUrl=https://dynamics.microsoft.com/marketing/overview/). Your feedback helps improve the functionality moving forward.
 
 Microsoft may disable the content ideas feature for selected customers if abuse of the functionality is detected.
 
