@@ -11,38 +11,37 @@ ms.custom: bap-template
 
 # FactConversation
 
-A conversation represents the entire end-to-end interaction with a customer. A conversation is created when the customer raises a request through the various Omnichannel channels like voice, messaging, or chat. Whenever the system identifies an agent to be assigned to work on the conversation, a session gets created. A conversation can end in a single session or can also extend into more than one sessions.
+A conversation represents an entire end-to-end interaction with a customer. A conversation is created when a customer raises a request through the various channels like voice, messaging, or chat. When the system identifies an agent to work on a conversation, a session is created. A conversation can end in a single session or extend to multiple sessions.
 
-In the workflow flow representing a single conversation, you'll see that multiple sessions have been created. The first session gets initiated created after a conversation is created and assigned to a bot. The second session gets created after the bot escalates the conversation to a human agent. The first session closes and the second session is created to identify the best agent to work on the customer request. After the best agent is identified, the agent is assigned to the conversation to work on it. When the agent chose to reject the request, a new session is created and the process of identifying another agent is started.  
+In the following workflow, which represents a single conversation, you'll see that multiple sessions are created. The first session is created when a conversation is created and assigned to a bot. The second session is created when the bot escalates the conversation to a human agent. This automatically closes the first session. In the second session, the best agent to work on the customer request is identified and assigned. If the agent rejects the request, a new session is created and the process of identifying another agent begins.
 
-## Abandoned conversation
+## Abandoned conversations
 
-Abandoned rate refers to the percentage of incoming conversation requests that are ended before customers can be connected to a human agent from the customer service team. Abandoned conversations lead to customer frustration as they didn’t get any assistance from the contact center. A conversation can be abandoned for multiple reasons - like customer leaving due to long wait times or getting disconnected, force closure of request by supervisors, automatic system actions configured to respond to handle overflow etc. A higher abandoned rate can result in decreased customer satisfaction and may need further investigations into operational metrics like agent availability, queue distribution etc.  
+Abandoned conversations lead to customer dissatisfaction because of lack of assistance from the contact center. A conversation can be abandoned for multiple reasons, such as customer getting disconnected or leaving due to long waiting periods, force closure of requests by supervisors, automatic system actions configured to respond to handle overflow. A higher abandoned rate can result in decreased customer satisfaction and may need further investigations into operational metrics such as agent availability and queue distribution.
 
-If Bot/IVR handles the customer before escalating, it to human agent - This metric is calculated as count of conversations that were abandoned while waiting for a human agent after escalation from bot. If the conversation is abandoned before a bot can be assigned, the conversation is considered abandoned.
+**If a bot handles the customer before escalating the request to human agent, it is calculated as the count of conversations that were abandoned while waiting for a human agent after escalation from bot. If the conversation is abandoned before a bot can be assigned, the conversation is considered abandoned.**
 
-Customers reach human agent queue directly- This metric is calculated as count of incoming conversations that were abandoned.  
+**Customers reach human agent queue directly- This metric is calculated as count of incoming conversations that were abandoned.** 
 
-The conversation direction is Incoming. Channels through which the conversation came in are Messaging and Voice. 
+The conversation direction is Incoming. Channels through which the conversation came in are Messaging and Voice.
 
-### Related metric
+**Related metric**
 
-Abandoned rate refers to percentage of incoming conversation requests that are ended before customers can be connected to a human agent. This metric is calculated as count of abandoned conversations divided by count of bot escalated conversation.
+Abandoned rate refers to the percentage of incoming conversation requests that ended before customers were connected to a human agent. This metric is calculated as the count of abandoned conversations divided by the count of bot-escalated conversations.
 
 ## Active conversations awaiting agent acceptance
 
-Active conversations awaiting agent acceptance is the count of conversations requests from customers that have been assigned an agent to assist them and are currently waiting for the agent to accept the request and join the conversation. 
-These conversations will go back to being an Open conversation if the agent chooses to reject the request or if they respond to the request.
+Active conversations awaiting agent acceptance is the count of conversations requests from customers that have been agents assigned, but are currently waiting for the agent to accept the request and join the conversation. These conversations will revert to an Open conversation, if the agent chooses to reject the request **or if they respond to the request.**
 
 ## Active conversations with agent acceptance
 
-Active conversations with agent acceptance is the count of conversations that have an agent joined and in active contact with customer. Supervisors can monitor these conversations, and track sentiment to ensure customer satisfaction and intervene if needed.
+Active conversations with agent acceptance is the count of conversations that have an agent assigned and are actively in contact with the  customer. Supervisors can monitor these conversations and track sentiment to ensure customer satisfaction and intervene, if needed.
 
-## Conversation first wait time (sec) 
+## Conversation first wait time (sec)
 
-Conversation first wait time is a measure of how long customers had to wait before the customer service team can respond to a customer's request. It represents the time spent by a customer waiting to get the first contact from a human agent from the contact center. Agent availability, high volume of requests, increased handle time could be some of the reasons that can influence customer wait times. Lower wait times, in turn indicates that customers can get their issues resolved faster and can have a better support experience.  
+Conversation first wait time is a measure of the time taken before an agent responds to a customer's request. It represents the time spent by a customer waiting to get the first contact from a human agent. Agent availability, high volume of requests, increased handle time could be some of the reasons that can influence customer waiting time. Lower waiting time indicates that customers get issue resolution faster and have a better support experience.  
 
-If Bot/IVR handles the customer before escalating, it to human agent – The calculation for this metric is based on the amount of time that passes between the moment a bot escalates an incoming conversation to human agents and the moment an agent accepts the conversation. If the customer ends up abandoning the conversation, the calculation is based on the amount of time between when the bot passes the conversation to the human representative and when the customer disconnects. 
+**If bot handles** the customer before escalating, it to human agent – The calculation for this metric is based on the amount of time that passes between the moment a bot escalates an incoming conversation to human agents and the moment an agent accepts the conversation. If the customer ends up abandoning the conversation, the calculation is based on the amount of time between when the bot passes the conversation to the human representative and when the customer disconnects. 
 
 If customer reaches human agent queue directly - The calculation for this metric is based on the amount of time that passes between the moment a customer creates the request and the moment an agent accepts the conversation. If the customer ends up abandoning the conversation, the calculation is based on the amount of time between when the customer creates the request to the human representative and when the customer disconnects.
 
