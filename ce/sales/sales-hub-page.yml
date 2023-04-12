@@ -128,11 +128,11 @@ additionalContent:
         text: Forecasts
     - title: Sales accelerator
       links: 
-      - url: sign-up-for-sales-trial
-        text: Assistant
+      - url: prioritize-sales-pipeline-through-work-list
+        text: Work lists
       - url: https://dynamics.microsoft.com/en-us/sales/pricing/
-        text: Segment
-      - url: project-accurate-revenue-sales-forecasting.md
+        text: Segments
+      - url: manage-sequences-seller.md
         text: Sequences
 
     - title: Collaboration
@@ -171,5 +171,16 @@ additionalContent:
       - url: use-sales-hub-on-dynamics-365-mobile
         text: More
 
-
-
+ - title: Related products
+    items:
+        # Card
+        
+        - title: Viva Sales
+          summary: Viva Sales is a seller experience application that lets sellers use Microsoft 365 applications to automatically capture, access, and register data into any CRM system, eliminating the administrative burden of manual data entry, giving more time to focus on selling.
+          url: /Viva/sales/introduction
+        - title: Customer Voice
+          summary: Understand your customers to build better experiences. Collect, analyze, and track real-time feedback in an easy-to-use, scalable feedback management solution.
+          url: /dynamics365/customer-voice/about
+        - title: Linked Sales Navigator
+          summary: Use LinkedIn Sales Navigator to enhance key application scenarios by connecting the system of record with the LinkedIn data graph and insights.
+          url: /dynamics365/linkedin/integrate-sales-navigator
