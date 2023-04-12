@@ -1440,6 +1440,8 @@
         href: developer/reference/entities/msdyn_occommunicationprovidersettingentry.md
       - name: msdyn_occustommessagingchannel
         href: developer/reference/entities/msdyn_occustommessagingchannel.md
+      - name: msdyn_ocexternalcontext
+        href: developer/reference/entities/msdyn_ocexternalcontext.md        
       - name: msdyn_ocfbapplication
         href: developer/reference/entities/msdyn_ocfbapplication.md
       - name: msdyn_ocfbpage

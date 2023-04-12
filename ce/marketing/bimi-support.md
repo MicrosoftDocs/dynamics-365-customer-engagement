@@ -52,3 +52,5 @@ Replace \<your-domain\> with your actual domain name, \<url-to-your-brand-logo\>
 4. **Validate your BIMI record**: Use the [BIMI Validator tool](https://bimigroup.org/bimi-generator/) to ensure that your BIMI record is correctly formatted and that your brand logo image file is accessible from the specified URL.
 
 BIMI support is currently limited, so not all email clients or providers display the BIMI logo. However, by using BIMI with Microsoft Dynamics 365 Marketing, organizations can enhance the effectiveness of their email marketing campaigns and strengthen their brand's reputation.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,5 @@ The add-on can be uninstalled by users with delete permissions granted. To unins
 - Go to **Settings** in the area switcher then go to **Overview > Add-ons**.
 - Select **Uninstall** on the asset library card.
 - Confirm the action.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

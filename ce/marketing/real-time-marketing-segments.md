@@ -82,3 +82,5 @@ To use a suppression segment, select **Exit criteria** in the right-side pane in
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of suppression segment selection.](media/real-time-marketing-suppression.png "Screenshot of suppression segment selection")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

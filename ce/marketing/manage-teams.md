@@ -69,7 +69,4 @@ For more information about managing teams and working with security roles, see [
 
 For more information about the security roles included with the Dynamics 365 Marketing, see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md).
 
-
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

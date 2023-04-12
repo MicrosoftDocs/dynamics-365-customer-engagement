@@ -240,3 +240,5 @@ public class DeviceRegistrationContract {
     } 
 }
 ```
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
