@@ -70,31 +70,38 @@ For sample schema to get all the required records, see [Sample schema for capaci
 
 ## Migrate configuration for record queues
 
-1. Use the Configuration Migration tool to create the schema and export data from the source organization for the record queues configuration.
+Use the Configuration Migration tool to create the schema and export data from the source organization for the record queues configuration.
 
-    [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
+[!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
 
-    If you're using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities:
+If you're using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities:
     - Decision rule set
     - Assignment configuration
     - Assignment configuration step
- 
-    Along with the import of the queues configuration, if you want to update an existing queue in the target organization, you must remove the following line from the sample schema XML and data XML before you use it to import the configuration.<br>
-    `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>`
 
-    |S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
-    |-----|---------|---------|---------|
-    | 1. | Queue (queue) |  <ul><li>Assignment Input Contract Id (msdyn_assignmentinputcontractid)</li><li>Assignment Strategy (msdyn_assignmentstrategy) </li> <li> Description (description) </li><li> Is Default Queue (msdyn_isdefaultqueue) </li><li> Is Omnichannel queue (msdyn_isomnichannelqueue) </li><li> Name (name) </li><li> Priority (msdyn_priority) </li><li> Queue (queueid) </li><li> Queue type (msdyn_queuetype) </li><li> Type (queueviewtype) </li></ul>  |  [**Sample 1: All queues for records**](#BKMK1all-ur-qs) <br><br> [**Sample 2: Single queue for records**](#BKMK2single-ur-qs) <br><br> [**Sample 3: Multiple queues for records**](#BKMK3multiple-ur-qs)   |
-    | 2. | Decision contract (msdyn_decisioncontract)  |  <ul> <li>Contract definition (msdyn_contractdefinition)</li> <li>Decision contract (msdyn_decisioncontractid) </li> <li>Name (msdyn_name) </li> <li>Unique name (msdyn_uniquename) </li> </ui>  | [**Sample 1: Decision contract for all record queues**](#BKMK1all-ur-dc) <br> <br>  [**Sample 2: Decision contract for a single record queue**](#BKMK2single-ur-dc) <br> <br> [**Sample 3: Decision contract for multiple record queues**](#BKMK3multiple-ur-dc) <br> |
-    | 3. |  Decision ruleset (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li><li>FetchXML for ruleset (msdyn_fetchxml)</li></ul>  |  [**Sample 1: Decision ruleset for all record queues**](#BKMK1all-ur-rls) <br> <br> [**Sample 2: Decision ruleset for a single record queue**](#BKMK2single-ur-rls) <br> <br> [**Sample 3: Decision ruleset for multiple record queues**](#BKMK3multiple-ur-rls) <br>  |
-    | 4. |  Assignment Configuration (msdyn_assignmentconfiguration)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Description (msdyn_description)</li><li>Is Active Configuration (msdyn_isactiveconfiguration)</li><li>Name (msdyn_name)</li><li>Queue (msdyn_queueid)</li><li>Unique Name (msdyn_uniquename)</li></ul>  | [**Sample 1: Assignment configuration for all record queues**](#BKMK1all-ur-ac) <br> <br>[**Sample 2: Assignment configuration for a single record queue**](#BKMK2single-ur-ac) <br> <br>[**Sample 3: Assignment configuration for multiple record queues**](#BKMK3multiple-ur-ac) <br>   |
-    | 5. |  Assignment Configuration Step (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Assignment configuration step for all record queues**](#BKMK1all-ur-acs) <br> <br> [**Sample 2: Assignment configuration step for a single record queue**](#BKMK2single-ur-acs) <br> <br> [**Sample 3: Assignment configuration step for multiple record queues**](#BKMK3multiple-ur-acs) <br>   |
+The assignment rulesets must be available in the system before the Configutation Migration tool imports the selection criteria. Hence, you need to perform the following steps in the specified order to migrate configuration for record queues:
 
-2. Generate the schema and save it.
+### Step 1: Export and import rulesets without selection criteria
+  
+> [!IMPORTANT]
+> Along with the import of the queues configuration, if you want to update an existing queue in the target organization, you must remove the following line from the sample schema XML and data XML before you use it to import the configuration.<br> 
+  `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>`
 
-3. Export the data and generate the compressed (zip) file.
+|S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+|-----|---------|---------|---------|
+| 1. | Queue (queue) |  <ul><li>Assignment Input Contract Id (msdyn_assignmentinputcontractid)</li><li>Assignment Strategy (msdyn_assignmentstrategy) </li> <li> Description (description) </li><li> Is Default Queue (msdyn_isdefaultqueue) </li><li> Is Omnichannel queue (msdyn_isomnichannelqueue) </li><li> Name (name) </li><li> Priority (msdyn_priority) </li><li> Queue (queueid) </li><li> Queue type (msdyn_queuetype) </li><li> Type (queueviewtype) </li></ul>  |  [**Sample 1: All queues for records**](#BKMK1all-ur-qs) <br><br> [**Sample 2: Single queue for records**](#BKMK2single-ur-qs) <br><br> [**Sample 3: Multiple queues for records**](#BKMK3multiple-ur-qs)   |
+| 2. | Decision contract (msdyn_decisioncontract)  |  <ul> <li>Contract definition (msdyn_contractdefinition)</li> <li>Decision contract (msdyn_decisioncontractid) </li> <li>Name (msdyn_name) </li> <li>Unique name (msdyn_uniquename) </li> </ui>  | [**Sample 1: Decision contract for all record queues**](#BKMK1all-ur-dc) <br> <br>  [**Sample 2: Decision contract for a single record queue**](#BKMK2single-ur-dc) <br> <br> [**Sample 3: Decision contract for multiple record queues**](#BKMK3multiple-ur-dc) <br> |
+| 3. |  Decision ruleset without selection criteria (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li><li>FetchXML for ruleset (msdyn_fetchxml)</li></ul>  |  [**Sample 1: Decision ruleset for all record queues without selection criteria defined**](#BKMK1nsc-ur-rls) <br> <br> [**Sample 2: Decision ruleset for a single record queue without selection criteria defined**](#BKMK2nsc-ur-rls) <br> <br> [**Sample 3: Decision ruleset for multiple record queues without selection criteria defined**](#BKMK3nsc-ur-rls) <br>  |
+| 4. |  Assignment Configuration (msdyn_assignmentconfiguration)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Description (msdyn_description)</li><li>Is Active Configuration (msdyn_isactiveconfiguration)</li><li>Name (msdyn_name)</li><li>Queue (msdyn_queueid)</li><li>Unique Name (msdyn_uniquename)</li></ul>  | [**Sample 1: Assignment configuration for all record queues**](#BKMK1all-ur-ac) <br> <br>[**Sample 2: Assignment configuration for a single record queue**](#BKMK2single-ur-ac) <br> <br>[**Sample 3: Assignment configuration for multiple record queues**](#BKMK3multiple-ur-ac) <br>   |
+| 5. |  Assignment Configuration Step without selection criteria (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Assignment configuration step for all record queues without selection criteria defined**](#BKMK1nsc-ur-acs) <br> <br> [**Sample 2: Assignment configuration step for a single record queue without selection criteria defined**](#BKMK2nsc-ur-acs) <br> <br> [**Sample 3: Assignment configuration step for multiple record queues without selection criteria defined**](#BKMK3nsc-ur-acs) <br>   |
 
-4. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
+Perform the following steps to export and import the rulesets:
+
+1. Generate the schema and save it.
+
+2. Export the data and generate the compressed (zip) file.
+
+3. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
 
    - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
@@ -108,11 +115,44 @@ For sample schema to get all the required records, see [Sample schema for capaci
 
      In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
-5. Package the extracted content again.
+4. Package the extracted content again.
 
-6. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
+5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
 For sample schema to get all the required records, see [Sample schema for record queues](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues.xml).
+
+### Step 2: Export and import rulesets with selection criteria defined
+
+The following table summarizes the entities and corresponding FetchXML samples: 
+
+|S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+|-----|---------|---------|---------|
+| 1. |  Decision ruleset with selection criteria (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Decision ruleset for all record queues with selection criteria defined**](#BKMK1sc-ur-rls) <br> <br> [**Sample 2: Decision ruleset for a single record queue with selection criteria defined**](#BKMK2sc-ur-rls) <br> <br> [**Sample 3: Decision ruleset for multiple record queues with selection criteria defined**](#BKMK3sc-ur-rls) <br>  |    
+| 2. |  Assignment Configuration Step with selection criteria (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Assignment configuration step for all record queues with selection criteria defined**](#BKMK1sc-ur-acs) <br> <br> [**Sample 2: Assignment configuration step for a single record queue with selection criteria defined**](#BKMK2sc-ur-acs) <br> <br> [**Sample 3: Assignment configuration step for multiple record queues with selection criteria defined**](#BKMK3sc-ur-acs) <br>   |
+
+Perform the following steps to export and import the rulesets:
+
+1. Generate the schema and save it.
+
+2. Export the data and generate the compressed (zip) file.
+
+3. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
+
+   - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_assignmentoutput'`
+
+     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+
+   - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_selectionruleoutput'`
+
+     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+
+4. Package the extracted content again.
+
+5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
 ### FetchXML for queues
 
@@ -281,63 +321,72 @@ For sample schema to get all the required records, see [Sample schema for record
 
 ### FetchXML for decision ruleset entity for queues
 
-**Sample 1: Decision ruleset for all record queues**<a name="BKMK1all-ur-rls"></a>
+**Sample 1: Decision ruleset for all record queues without selection criteria**<a name="BKMK1nsc-ur-rls"></a>
 
 ```XML
-<fetch distinct="true">
-	<entity name="msdyn_decisionruleset">
-		<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
-			<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
-				<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
-					<filter type="and">
-						<condition attribute="msdyn_queuetype" operator="eq" value="192350001" />
-						<condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" />
-						<condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+		<fetch distinct="true">
+			<entity name="msdyn_decisionruleset">
+				<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+					<filter>
+						<condition attribute="msdyn_type" operator="ne" value="192350001" />
 					</filter>
+					<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
+						<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
+							<filter type="and">
+								<condition attribute="msdyn_queuetype" operator="eq" value="192350001" />
+								<condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" />
+								<condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+							</filter>
+						</link-entity>
+					</link-entity>
 				</link-entity>
-			</link-entity>
-		</link-entity>
-	</entity>
-</fetch>
+			</entity>
+		</fetch>
 ```
 
-**Sample 2: Decision ruleset for a single record queue**<a name="BKMK2single-ur-rls"></a>
+**Sample 2: Decision ruleset for a single record queue without selection criteria**<a name="BKMK2nsc-ur-rls"></a>
 
 ```XML
-<fetch distinct="true">
-	<entity name="msdyn_decisionruleset">
-		<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
-			<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
-				<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
-					<filter type="and">
-						<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+		<fetch distinct="true">
+			<entity name="msdyn_decisionruleset">
+				<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+					<filter>
+						<condition attribute="msdyn_type" operator="ne" value="192350001" />
 					</filter>
+					<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
+						<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
+							<filter type="and">
+								<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+							</filter>
+						</link-entity>
+					</link-entity>
 				</link-entity>
-			</link-entity>
-		</link-entity>
-	</entity>
-</fetch> 
+			</entity>
+		</fetch>
 ```
 
-**Sample 3: Decision ruleset for multiple record queues**<a name="BKMK3multiple-ur-rls"></a>
+**Sample 3: Decision ruleset for multiple record queues without selection criteria**<a name="BKMK3nsc-ur-rls"></a>
 
 ```XML
-<fetch distinct="true">
-	<entity name="msdyn_decisionruleset">
-		<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
-			<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
-				<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
-					<filter type="and">
-						<condition attribute="queueid" operator="in">
-							<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
-							<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
-						</condition>
+		<fetch distinct="true">
+			<entity name="msdyn_decisionruleset">
+				<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+					<filter>
+						<condition attribute="msdyn_type" operator="ne" value="192350001" />
 					</filter>
+					<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
+						<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
+							<filter type="and">
+								<condition attribute="queueid" operator="in">
+									<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+									<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+								</condition>
+							</filter>
+						</link-entity>
+					</link-entity>
 				</link-entity>
-			</link-entity>
-		</link-entity>
-	</entity>
-</fetch> 
+			</entity>
+		</fetch>
 ```
 
 ### FetchXML for assignment configuration entity
@@ -391,57 +440,199 @@ For sample schema to get all the required records, see [Sample schema for record
 
 ### FetchXML for assignment configuration step entity
 
-**Sample 1: Assignment configuration step for all record queues**<a name="BKMK1all-ur-acs"></a>
+**Sample 1: Assignment configuration step for all record queues without selection criteria**<a name="BKMK1nsc-ur-acs"></a>
 
 ```XML
-<fetch>
-	<entity name="msdyn_assignmentconfigurationstep">
-		<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
-			<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
-				<filter type="and">
-					<condition attribute="msdyn_queuetype" operator="eq" value="192350001" />
-					<condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" />
-					<condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+		<fetch>
+			<entity name="msdyn_assignmentconfigurationstep">
+				<filter>
+						<condition attribute="msdyn_type" operator="ne" value="192350001" />
 				</filter>
-			</link-entity>
-		</link-entity>
-	</entity>
-</fetch> 
+				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
+					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
+						<filter type="and">
+							<condition attribute="msdyn_queuetype" operator="eq" value="192350001" />
+							<condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" />
+							<condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+						</filter>
+					</link-entity>
+				</link-entity>
+			</entity>
+		</fetch>
 ```
 
-**Sample 2: Assignment configuration step for a single record queue**<a name="BKMK2single-ur-acs"></a>
+**Sample 2: Assignment configuration step for a single record queue without selection criteria**<a name="BKMK2nsc-ur-acs"></a>
 
 ```XML
-<fetch>
-	<entity name="msdyn_assignmentconfigurationstep">
-		<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
-			<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
-				<filter type="and">
-					<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+		<fetch>
+			<entity name="msdyn_assignmentconfigurationstep">
+				<filter>
+						<condition attribute="msdyn_type" operator="ne" value="192350001" />
 				</filter>
-			</link-entity>
-		</link-entity>
-	</entity>
-</fetch> 
+				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
+					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
+						<filter type="and">
+							<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+						</filter>
+					</link-entity>
+				</link-entity>
+			</entity>
+		</fetch>
 ```
 
-**Sample 3: Assignment configuration step for multiple record queues**<a name="BKMK3multiple-ur-acs"></a>
+**Sample 3: Assignment configuration step for multiple record queues without selection criteria**<a name="BKMK3nsc-ur-acs"></a>
 
 ```XML
-<fetch>
-	<entity name="msdyn_assignmentconfigurationstep">
-		<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
-			<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
-				<filter type="and">
-					<condition attribute="queueid" operator="in">
-						<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
-						<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
-					</condition>
+		<fetch>
+			<entity name="msdyn_assignmentconfigurationstep">
+				<filter>
+						<condition attribute="msdyn_type" operator="ne" value="192350001" />
 				</filter>
-			</link-entity>
-		</link-entity>
-	</entity>
-</fetch> 
+				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
+					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
+						<filter type="and">
+							<condition attribute="queueid" operator="in">
+								<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+								<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+							</condition>
+						</filter>
+					</link-entity>
+				</link-entity>
+			</entity> 
+```
+
+
+### FetchXML for decision ruleset entity for queues
+
+**Sample 1: Decision ruleset for all record queues with selection criteria**<a name="BKMK1sc-ur-rls"></a>
+```XML
+		<fetch distinct="true">
+			<entity name="msdyn_decisionruleset">
+				<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+					<filter>
+						<condition attribute="msdyn_type" operator="eq" value="192350001" />
+					</filter>
+					<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
+						<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
+							<filter type="and">
+								<condition attribute="msdyn_queuetype" operator="eq" value="192350001" />
+								<condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" />
+								<condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+							</filter>
+						</link-entity>
+					</link-entity>
+				</link-entity>
+			</entity>
+		</fetch>
+```
+
+**Sample 2: Decision ruleset for a single record queue with selection criteria**<a name="BKMK2sc-ur-rls"></a>
+
+```XML
+		<fetch distinct="true">
+			<entity name="msdyn_decisionruleset">
+				<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+					<filter>
+						<condition attribute="msdyn_type" operator="eq" value="192350001" />
+					</filter>
+					<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
+						<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
+							<filter type="and">
+								<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+							</filter>
+						</link-entity>
+					</link-entity>
+				</link-entity>
+			</entity>
+		</fetch>
+```
+
+**Sample 3: Decision ruleset for multiple record queues with selection criteria**<a name="BKMK3sc-ur-rls"></a>
+
+```XML
+		<fetch distinct="true">
+			<entity name="msdyn_decisionruleset">
+				<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+					<filter>
+						<condition attribute="msdyn_type" operator="eq" value="192350001" />
+					</filter>
+					<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
+						<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
+							<filter type="and">
+								<condition attribute="queueid" operator="in">
+									<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+									<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+								</condition>
+							</filter>
+						</link-entity>
+					</link-entity>
+				</link-entity>
+			</entity>
+		</fetch>
+```
+
+### FetchXML for assignment configuration step entity
+
+**Sample 1: Assignment configuration step for all record queues with selection criteria**<a name="BKMK1sc-ur-acs"></a>
+
+```XML
+		<fetch>
+			<entity name="msdyn_assignmentconfigurationstep">
+				<filter>
+						<condition attribute="msdyn_type" operator="eq" value="192350001" />
+				</filter>
+				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
+					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
+						<filter type="and">
+							<condition attribute="msdyn_queuetype" operator="eq" value="192350001" />
+							<condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" />
+							<condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+						</filter>
+					</link-entity>
+				</link-entity>
+			</entity>
+		</fetch>
+```
+
+**Sample 2: Assignment configuration step for a single record queue with selection criteria**<a name="BKMK2sc-ur-acs"></a>
+
+```XML
+		<fetch>
+			<entity name="msdyn_assignmentconfigurationstep">
+				<filter>
+						<condition attribute="msdyn_type" operator="eq" value="192350001" />
+				</filter>
+				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
+					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
+						<filter type="and">
+							<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+						</filter>
+					</link-entity>
+				</link-entity>
+			</entity>
+		</fetch>
+```
+
+**Sample 3: Assignment configuration step for multiple record queues with selection criteria**<a name="BKMK3sc-ur-acs"></a>
+
+```XML
+		<fetch>
+			<entity name="msdyn_assignmentconfigurationstep">
+				<filter>
+						<condition attribute="msdyn_type" operator="eq" value="192350001" />
+				</filter>
+				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
+					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
+						<filter type="and">
+							<condition attribute="queueid" operator="in">
+								<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+								<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+							</condition>
+						</filter>
+					</link-entity>
+				</link-entity>
+			</entity>
+		</fetch>
 ```
 
 ## Migrate configuration for intake rules for record routing
