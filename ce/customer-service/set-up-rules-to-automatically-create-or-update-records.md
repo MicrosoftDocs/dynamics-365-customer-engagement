@@ -42,7 +42,7 @@ These activities can be converted to any default (system) entity records or cust
 
 ## Capture data from external sources
 
-You can also capture additional valuable customer information provided by an external application in the form of JSON (a collection of name-value pairs), and use it to enhance the quality of the target records and set various conditions in the record creation and update rules.  
+You can also capture more valuable customer information provided by an external application in the form of JSON (a collection of name-value pairs), and use it to enhance the quality of the target records and set various conditions in the record creation and update rules.  
 
 Every default (out-of-the-box) activity or custom activity has an Additional Parameters attribute. This attribute stores the JSON payload received from an external application.  
 
