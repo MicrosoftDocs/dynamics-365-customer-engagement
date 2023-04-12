@@ -78,7 +78,7 @@ Here are some tips to avoid email suppression lists:
 
 In conclusion, it's the sender's responsibility to maintain a clean email list and ensure that their email campaigns comply with email marketing best practices. By following these tips, you can avoid having your email addresses bounced and listed on suppression lists and maintain a healthy email reputation.
 
-See more:
+See also:
 
 [Fix a high email bounce rate (Dynamics 365 Marketing) | Microsoft Learn](fix-high-bounce-rate.md)
 [Email bounce categories (Dynamics 365 Marketing) | Microsoft Learn](email-bounce-categories.md)
