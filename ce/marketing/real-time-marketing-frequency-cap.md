@@ -68,3 +68,5 @@ The right limit for a message will be different for each brand, industry, and ch
 - Understand your audience (ask about their preferences using a preference center or a quick poll).
 - Look at relevant analytics (study the unique open rate and click-through rate).
 - Study your journey (look at the drop off rates in the journey view).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

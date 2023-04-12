@@ -54,3 +54,5 @@ The following steps illustrate how to test the abandoned cart trigger.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of journey inflow.](media/real-time-marketing-test-send-inflow.png "Screenshot of journey inflow")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

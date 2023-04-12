@@ -34,3 +34,5 @@ This enables you to create [journey variations](real-time-marketing-edit-journey
 
 > [!div class="mx-imgBorder"]
 > ![Create a variation based on the attribute.](media/real-time-marketing-tile-will-buy.png "Create a variation based on the attribute")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

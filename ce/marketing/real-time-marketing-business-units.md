@@ -52,3 +52,5 @@ Business units affect forms as follows:
 1. Set the **Business Unit Scoping (Real-Time Marketing)** toggle to **On**.
 1. Read the customer agreement displayed in the prompt and select on **I Agree** to turn on the feature.
 1. Select **Save** in the upper right.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

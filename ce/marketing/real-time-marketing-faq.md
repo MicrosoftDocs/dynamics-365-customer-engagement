@@ -46,3 +46,5 @@ The default channel acts as a control group allowing 10 percent of your audience
 - **Push notifications**: Number of unique people that open or clicked a link divided by total number of push notifications sent.
 - **Email**: The number of unique people that opened or clicked a link divided by total number of emails sent.
 - **SMS**: The number of unique people that clicked a link divided by the total number of SMS (text) messages sent.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
