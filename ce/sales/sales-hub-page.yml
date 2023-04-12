@@ -162,16 +162,7 @@ additionalContent:
       - url: use-sales-hub-on-dynamics-365-mobile
         text: Dynamics 365 for phones and tablets app
 
-    - title: Viva Sales
-      links: 
-      - url: /sales-mobile/prereq-sales-mobile
-        text: Install
-      - url: /sales-mobile/dynamics-365-sales-mobile-app
-        text: Use
-      - url: use-sales-hub-on-dynamics-365-mobile
-        text: More
-
- - title: Related products
+  - title: Related products
     items:
         # Card
         
