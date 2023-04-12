@@ -5,15 +5,15 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 04/11/2023
+ms.date: 04/13/2023
 ms.custom: bap-template
 ---
 
 # FactConversation
 
-In Dynamics 365 Customer Service, a conversation represents the entire end-to-end interaction with a customer. A conversation is an equivalent of a customer request that reached one of your omnichannel channels like voice, messaging, or chat. A conversation is created when the request is received by Dynamics 365 Customer Service. A conversation can have one or more session. A session is created whenever the system looks to identify an agent to be assigned to work on the conversation.  
+A conversation represents the entire end-to-end interaction with a customer. A conversation is created when the customer raises a request through the various Omnichannel channels like voice, messaging, or chat. Whenever the system identifies an agent to be assigned to work on the conversation, a session gets created. A conversation can end in a single session or can also extend into more than one sessions.
 
-If you consider this flow representing a single conversation, you will see that multiple sessions have been created, the first session is created after conversation is created and is assigned to a bot. The second session is created after the bot escalates the conversation to human agent. The first session is closed, and the second session is created to identify the best agent to work on the customer request. After the best agent is identified, the agent is assigned to the conversation to work on it. When the agent chose to reject the request, a new session is created and the process of identifying another agent is started.  
+In the workflow flow representing a single conversation, you'll see that multiple sessions have been created. The first session gets initiated created after a conversation is created and assigned to a bot. The second session gets created after the bot escalates the conversation to a human agent. The first session closes and the second session is created to identify the best agent to work on the customer request. After the best agent is identified, the agent is assigned to the conversation to work on it. When the agent chose to reject the request, a new session is created and the process of identifying another agent is started.  
 
 ## Abandoned conversation
 
