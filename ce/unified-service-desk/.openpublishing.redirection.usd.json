@@ -1465,7 +1465,7 @@
       ]
     },
     {
-      "source_path": "admin\accessibility-unified-service-desk-microsoft-dynamics-365.md",
+      "source_path": "admin/accessibility-unified-service-desk-microsoft-dynamics-365.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/accessibility-unified-service-desk-microsoft-dynamics-365",
       "redirect_document_id": "false",
       "monikers": [
@@ -1473,7 +1473,7 @@
       ]
     },
     {
-      "source_path": "admin\administer-manage-unified-service-desk.md",
+      "source_path": "admin/administer-manage-unified-service-desk.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/administer-manage-unified-service-desk",
       "redirect_document_id": "false",
       "monikers": [
@@ -1481,7 +1481,7 @@
       ]
     },
     {
-      "source_path": "admin\analyze-best-practices-unified-service-desk.md",
+      "source_path": "admin/analyze-best-practices-unified-service-desk.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/analyze-best-practices-unified-service-desk",
       "redirect_document_id": "false",
       "monikers": [
@@ -1489,7 +1489,7 @@
       ]
     },
     {
-      "source_path": "admin\call-center-challenges-how-unified-service-desk-can-help.md",
+      "source_path": "admin/call-center-challenges-how-unified-service-desk-can-help.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/call-center-challenges-how-unified-service-desk-can-help",
       "redirect_document_id": "false",
       "monikers": [
@@ -1497,7 +1497,7 @@
       ]
     },
     {
-      "source_path": "admin\compliance-categories-parameters-bpa.md",
+      "source_path": "admin/compliance-categories-parameters-bpa.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/compliance-categories-parameters-bpa",
       "redirect_document_id": "false",
       "monikers": [
@@ -1505,7 +1505,7 @@
       ]
     },
     {
-      "source_path": "admin\comply-gdpr.md",
+      "source_path": "admin/comply-gdpr.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/comply-gdpr",
       "redirect_document_id": "false",
       "monikers": [
@@ -1513,7 +1513,7 @@
       ]
     },
     {
-      "source_path": "admin\comply-unified-service-desk-data-gdpr.md",
+      "source_path": "admin/comply-unified-service-desk-data-gdpr.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/comply-unified-service-desk-data-gdpr",
       "redirect_document_id": "false",
       "monikers": [
@@ -1521,7 +1521,7 @@
       ]
     },
     {
-      "source_path": "admin\configure-auditing-diagnostics-unified-service-desk.md",
+      "source_path": "admin/configure-auditing-diagnostics-unified-service-desk.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/configure-auditing-diagnostics-unified-service-desk",
       "redirect_document_id": "false",
       "monikers": [
@@ -1529,7 +1529,7 @@
       ]
     },
     {
-      "source_path": "admin\configure-client-diagnostic-logging-unified-service-desk.md",
+      "source_path": "admin/configure-client-diagnostic-logging-unified-service-desk.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/configure-client-diagnostic-logging-unified-service-desk",
       "redirect_document_id": "false",
       "monikers": [
@@ -1537,7 +1537,7 @@
       ]
     },
     {
-      "source_path": "admin\connect-dynamics-365-instance-using-unified-service-desk-client.md",
+      "source_path": "admin/connect-dynamics-365-instance-using-unified-service-desk-client.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/connect-dynamics-365-instance-using-unified-service-desk-client",
       "redirect_document_id": "false",
       "monikers": [
@@ -1545,7 +1545,7 @@
       ]
     },
     {
-      "source_path": "admin\deploy-sample-unified-service-desk-applications-using-package-deployer.md",
+      "source_path": "admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/deploy-sample-unified-service-desk-applications-using-package-deployer",
       "redirect_document_id": "false",
       "monikers": [
@@ -1553,7 +1553,7 @@
       ]
     },
     {
-      "source_path": "admin\distribute-custom-hosted-controls-using-customization-files.md",
+      "source_path": "admin/distribute-custom-hosted-controls-using-customization-files.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/distribute-custom-hosted-controls-using-customization-files",
       "redirect_document_id": "false",
       "monikers": [
@@ -1561,7 +1561,7 @@
       ]
     },
     {
-      "source_path": "admin\download-install-best-practices-analyzer.md",
+      "source_path": "admin/download-install-best-practices-analyzer.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/download-install-best-practices-analyzer",
       "redirect_document_id": "false",
       "monikers": [
@@ -1569,7 +1569,7 @@
       ]
     },
     {
-      "source_path": "admin\download-migration-assistant.md",
+      "source_path": "admin/download-migration-assistant.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/download-migration-assistant",
       "redirect_document_id": "false",
       "monikers": [
@@ -1577,7 +1577,7 @@
       ]
     },
     {
-      "source_path": "admin\download-performance-analyzer.md",
+      "source_path": "admin/download-performance-analyzer.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/download-performance-analyzer",
       "redirect_document_id": "false",
       "monikers": [
@@ -1585,7 +1585,7 @@
       ]
     },
     {
-      "source_path": "admin\export-unified-service-desk-configuration-data.md",
+      "source_path": "admin/export-unified-service-desk-configuration-data.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/export-unified-service-desk-configuration-data",
       "redirect_document_id": "false",
       "monikers": [
@@ -1593,7 +1593,7 @@
       ]
     },
     {
-      "source_path": "admin\generate-performance-report.md",
+      "source_path": "admin/generate-performance-report.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/generate-performance-report",
       "redirect_document_id": "false",
       "monikers": [
@@ -1601,7 +1601,7 @@
       ]
     },
     {
-      "source_path": "admin\help-improve-unified-service-desk.md",
+      "source_path": "admin/help-improve-unified-service-desk.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/help-improve-unified-service-desk",
       "redirect_document_id": "false",
       "monikers": [
@@ -1609,7 +1609,7 @@
       ]
     },
     {
-      "source_path": "admin\how-unified-service-desk-handles-application-system-errors.md",
+      "source_path": "admin/how-unified-service-desk-handles-application-system-errors.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/how-unified-service-desk-handles-application-system-errors",
       "redirect_document_id": "false",
       "monikers": [
@@ -1617,7 +1617,7 @@
       ]
     },
     {
-      "source_path": "admin\import-unified-service-desk-configuration-data.md",
+      "source_path": "admin/import-unified-service-desk-configuration-data.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/import-unified-service-desk-configuration-data",
       "redirect_document_id": "false",
       "monikers": [
@@ -1625,7 +1625,7 @@
       ]
     },
     {
-      "source_path": "admin\install-upgrade-deploy-unified-service-desk.md",
+      "source_path": "admin/install-upgrade-deploy-unified-service-desk.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/install-upgrade-deploy-unified-service-desk",
       "redirect_document_id": "false",
       "monikers": [
@@ -1633,7 +1633,7 @@
       ]
     },
     {
-      "source_path": "admin\install-upgrade-unified-service-desk-client.md",
+      "source_path": "admin/install-upgrade-unified-service-desk-client.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/install-upgrade-unified-service-desk-client",
       "redirect_document_id": "false",
       "monikers": [
@@ -1641,7 +1641,7 @@
       ]
     },
     {
-      "source_path": "admin\internet-explorer-settings-bpa.md",
+      "source_path": "admin/internet-explorer-settings-bpa.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/internet-explorer-settings-bpa",
       "redirect_document_id": "false",
       "monikers": [
@@ -1649,7 +1649,7 @@
       ]
     },
     {
-      "source_path": "admin\manage-access-using-unified-service-desk-configuration.md",
+      "source_path": "admin/manage-access-using-unified-service-desk-configuration.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/manage-access-using-unified-service-desk-configuration",
       "redirect_document_id": "false",
       "monikers": [
@@ -1657,7 +1657,7 @@
       ]
     },
     {
-      "source_path": "admin\manage-access-using-unified-service-desk-security-roles.md",
+      "source_path": "admin/manage-access-using-unified-service-desk-security-roles.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/manage-access-using-unified-service-desk-security-roles",
       "redirect_document_id": "false",
       "monikers": [
@@ -1665,7 +1665,7 @@
       ]
     },
     {
-      "source_path": "admin\manage-options-unified-service-desk.md",
+      "source_path": "admin/manage-options-unified-service-desk.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/manage-options-unified-service-desk",
       "redirect_document_id": "false",
       "monikers": [
@@ -1673,7 +1673,7 @@
       ]
     },
     {
-      "source_path": "admin\migrate-to-csw.md",
+      "source_path": "admin/migrate-to-csw.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/migrate-to-csw",
       "redirect_document_id": "false",
       "monikers": [
@@ -1681,7 +1681,7 @@
       ]
     },
     {
-      "source_path": "admin\migrate-unified-service-desk-configuration-dynamics-365-server.md",
+      "source_path": "admin/migrate-unified-service-desk-configuration-dynamics-365-server.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/migrate-unified-service-desk-configuration-dynamics-365-server",
       "redirect_document_id": "false",
       "monikers": [
@@ -1689,7 +1689,7 @@
       ]
     },
     {
-      "source_path": "admin\migration-steps-web-client-unified-interface-configuration.md",
+      "source_path": "admin/migration-steps-web-client-unified-interface-configuration.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/migration-steps-web-client-unified-interface-configuration",
       "redirect_document_id": "false",
       "monikers": [
@@ -1697,7 +1697,7 @@
       ]
     },
     {
-      "source_path": "admin\operations-categories.md",
+      "source_path": "admin/operations-categories.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/operations-categories",
       "redirect_document_id": "false",
       "monikers": [
@@ -1705,7 +1705,7 @@
       ]
     },
     {
-      "source_path": "admin\overview-migration-assistant.md",
+      "source_path": "admin/overview-migration-assistant.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/overview-migration-assistant",
       "redirect_document_id": "false",
       "monikers": [
@@ -1713,7 +1713,7 @@
       ]
     },
     {
-      "source_path": "admin\overview-performance-analyzer.md",
+      "source_path": "admin/overview-performance-analyzer.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/overview-performance-analyzer",
       "redirect_document_id": "false",
       "monikers": [
@@ -1721,7 +1721,7 @@
       ]
     },
     {
-      "source_path": "admin\overview-performance-report-user-interface.md",
+      "source_path": "admin/overview-performance-report-user-interface.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/overview-performance-report-user-interface",
       "redirect_document_id": "false",
       "monikers": [
@@ -1729,7 +1729,7 @@
       ]
     },
     {
-      "source_path": "admin\overview-unified-service-desk.md",
+      "source_path": "admin/overview-unified-service-desk.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/overview-unified-service-desk",
       "redirect_document_id": "false",
       "monikers": [
@@ -1737,7 +1737,7 @@
       ]
     },
     {
-      "source_path": "admin\performance-data-collection-using-keyboard-shortcut.md",
+      "source_path": "admin/performance-data-collection-using-keyboard-shortcut.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/performance-data-collection-using-keyboard-shortcut",
       "redirect_document_id": "false",
       "monikers": [
@@ -1745,7 +1745,7 @@
       ]
     },
     {
-      "source_path": "admin\performance-enhancement-CRM-entity-page-loads.md",
+      "source_path": "admin/performance-enhancement-CRM-entity-page-loads.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/performance-enhancement-CRM-entity-page-loads",
       "redirect_document_id": "false",
       "monikers": [
@@ -1753,7 +1753,7 @@
       ]
     },
     {
-      "source_path": "admin\prevent-running-scripts.md",
+      "source_path": "admin/prevent-running-scripts.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/prevent-running-scripts",
       "redirect_document_id": "false",
       "monikers": [
@@ -1761,7 +1761,7 @@
       ]
     },
     {
-      "source_path": "admin\provide-feedback.md",
+      "source_path": "admin/provide-feedback.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/provide-feedback",
       "redirect_document_id": "false",
       "monikers": [
@@ -1769,7 +1769,7 @@
       ]
     },
     {
-      "source_path": "admin\read-best-practices-analyzer-report.md",
+      "source_path": "admin/read-best-practices-analyzer-report.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/read-best-practices-analyzer-report",
       "redirect_document_id": "false",
       "monikers": [
@@ -1777,7 +1777,7 @@
       ]
     },
     {
-      "source_path": "admin\recover-internet-explorer-process-instance.md",
+      "source_path": "admin/recover-internet-explorer-process-instance.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/recover-internet-explorer-process-instance",
       "redirect_document_id": "false",
       "monikers": [
@@ -1785,7 +1785,7 @@
       ]
     },
     {
-      "source_path": "admin\sample-unified-service-desk-applications.md",
+      "source_path": "admin/sample-unified-service-desk-applications.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/sample-unified-service-desk-applications",
       "redirect_document_id": "false",
       "monikers": [
@@ -1793,7 +1793,7 @@
       ]
     },
     {
-      "source_path": "admin\security-unified-service-desk.md",
+      "source_path": "admin/security-unified-service-desk.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/security-unified-service-desk",
       "redirect_document_id": "false",
       "monikers": [
@@ -1801,7 +1801,7 @@
       ]
     },
     {
-      "source_path": "admin\Support-unified-interfaces-apps-usd.md",
+      "source_path": "admin/Support-unified-interfaces-apps-usd.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/Support-unified-interfaces-apps-usd",
       "redirect_document_id": "false",
       "monikers": [
@@ -1809,7 +1809,7 @@
       ]
     },
     {
-      "source_path": "admin\system-configurations-bpa.md",
+      "source_path": "admin/system-configurations-bpa.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/system-configurations-bpa",
       "redirect_document_id": "false",
       "monikers": [
@@ -1817,7 +1817,7 @@
       ]
     },
     {
-      "source_path": "admin\terminologies-performance-report.md",
+      "source_path": "admin/terminologies-performance-report.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/terminologies-performance-report",
       "redirect_document_id": "false",
       "monikers": [
@@ -1825,7 +1825,7 @@
       ]
     },
     {
-      "source_path": "admin\test-migration.md",
+      "source_path": "admin/test-migration.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/test-migration",
       "redirect_document_id": "false",
       "monikers": [
@@ -1833,7 +1833,7 @@
       ]
     },
     {
-      "source_path": "admin\troubleshoot-unified-service-desk.md",
+      "source_path": "admin/troubleshoot-unified-service-desk.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/troubleshoot-unified-service-desk",
       "redirect_document_id": "false",
       "monikers": [
@@ -1841,7 +1841,7 @@
       ]
     },
     {
-      "source_path": "admin\unified-service-desk-base-package.md",
+      "source_path": "admin/unified-service-desk-base-package.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/unified-service-desk-base-package",
       "redirect_document_id": "false",
       "monikers": [
@@ -1849,7 +1849,7 @@
       ]
     },
     {
-      "source_path": "admin\unified-service-desk-configurations-bpa.md",
+      "source_path": "admin/unified-service-desk-configurations-bpa.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/unified-service-desk-configurations-bpa",
       "redirect_document_id": "false",
       "monikers": [
@@ -1857,7 +1857,7 @@
       ]
     },
     {
-      "source_path": "admin\unified-service-desk-dynamics-365-unified-interface-package.md",
+      "source_path": "admin/unified-service-desk-dynamics-365-unified-interface-package.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/unified-service-desk-dynamics-365-unified-interface-package",
       "redirect_document_id": "false",
       "monikers": [
@@ -1865,7 +1865,7 @@
       ]
     },
     {
-      "source_path": "admin\unified-service-desk-dynamics-365-web-client-package.md",
+      "source_path": "admin/unified-service-desk-dynamics-365-web-client-package.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/unified-service-desk-dynamics-365-web-client-package",
       "redirect_document_id": "false",
       "monikers": [
@@ -1873,7 +1873,7 @@
       ]
     },
     {
-      "source_path": "admin\unified-service-desk-interactive-service-hub-package.md",
+      "source_path": "admin/unified-service-desk-interactive-service-hub-package.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/unified-service-desk-interactive-service-hub-package",
       "redirect_document_id": "false",
       "monikers": [
@@ -1881,7 +1881,7 @@
       ]
     },
     {
-      "source_path": "admin\unified-service-desk-knowledge-management-package.md",
+      "source_path": "admin/unified-service-desk-knowledge-management-package.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/unified-service-desk-knowledge-management-package",
       "redirect_document_id": "false",
       "monikers": [
@@ -1889,7 +1889,7 @@
       ]
     },
     {
-      "source_path": "admin\unified-service-desk-new-environment-package.md",
+      "source_path": "admin/unified-service-desk-new-environment-package.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/unified-service-desk-new-environment-package",
       "redirect_document_id": "false",
       "monikers": [
@@ -1897,7 +1897,7 @@
       ]
     },
     {
-      "source_path": "admin\unified-service-desk-system-requirements.md",
+      "source_path": "admin/unified-service-desk-system-requirements.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/unified-service-desk-system-requirements",
       "redirect_document_id": "false",
       "monikers": [
@@ -1905,7 +1905,7 @@
       ]
     },
     {
-      "source_path": "admin\unified-service-desk-upgrade-package.md",
+      "source_path": "admin/unified-service-desk-upgrade-package.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/unified-service-desk-upgrade-package",
       "redirect_document_id": "false",
       "monikers": [
@@ -1913,7 +1913,7 @@
       ]
     },
     {
-      "source_path": "admin\update-unified-service-desk-solution.md",
+      "source_path": "admin/update-unified-service-desk-solution.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/update-unified-service-desk-solution",
       "redirect_document_id": "false",
       "monikers": [
@@ -1921,7 +1921,7 @@
       ]
     },
     {
-      "source_path": "admin\upgrade-unified-service-desk-solution.md",
+      "source_path": "admin/upgrade-unified-service-desk-solution.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/upgrade-unified-service-desk-solution",
       "redirect_document_id": "false",
       "monikers": [
@@ -1929,7 +1929,7 @@
       ]
     },
     {
-      "source_path": "admin\view-read-compare-performance-report.md",
+      "source_path": "admin/view-read-compare-performance-report.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/view-read-compare-performance-report",
       "redirect_document_id": "false",
       "monikers": [
@@ -1937,7 +1937,7 @@
       ]
     },
     {
-      "source_path": "admin\walkthrough-configure-best-practices-analyzer.md",
+      "source_path": "admin/walkthrough-configure-best-practices-analyzer.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/walkthrough-configure-best-practices-analyzer",
       "redirect_document_id": "false",
       "monikers": [
@@ -1945,7 +1945,7 @@
       ]
     },
     {
-      "source_path": "admin\whats-new-unified-service-desk-administrators.md",
+      "source_path": "admin/whats-new-unified-service-desk-administrators.md",
       "redirect_url": "previous-versions/dynamicsusd-3/admin/whats-new-unified-service-desk-administrators",
       "redirect_document_id": "false",
       "monikers": [
