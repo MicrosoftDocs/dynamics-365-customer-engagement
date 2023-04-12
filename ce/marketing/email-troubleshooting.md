@@ -17,14 +17,14 @@ search.audienceType:
 
 # Troubleshoot email issues
 
-This article contains issues related to email administration in Dynamics 365 Marketing, as well as workarounds and solutions.
+This article contains issues related to email administration in Dynamics 365 Marketing and workarounds and solutions.
 
 ## Internal contacts are not receiving your marketing emails
 
-If you are using Marketing to send email messages to internal users and they are not receiving your emails, the emails are likely being quarantined by your spam filter solution. To ensure that your emails arrive in your internal recipients' inboxes and successfully pass your spam solution checks, complete the following steps:
+If you're using Marketing to send email messages to internal users and they aren't receiving your emails, the emails are likely being quarantined by your spam filter solution. To ensure that your emails arrive in your internal recipients' inboxes and successfully pass your spam solution checks, complete the following steps:
 
 - [Add Dynamics 365 Marketing to your SPF record](create-spf-record.md)
-- Determine if you are using any email security software (for example, Mimecast, Proofpoint, or IronPort)
+- Determine if you're using any email security software (for example, Mimecast, Proofpoint, or IronPort)
 
 Below are direct links with instructions on how to change allow list settings on common email and web filters:
 
@@ -38,7 +38,7 @@ Below are direct links with instructions on how to change allow list settings on
 > [!NOTE]
 The above-listed URLs, as well as the Google URL below, link to external pages that are not associated with Microsoft. The URLs may change or be deactivated without notice.
 
-If you are not using any of the above-listed email security software, use the following links to set the default options for allowing Marketing services in Office365/Exchange and GSuite/Google Apps:
+If you aren't using any of the above-listed email security software, use the following links to set the default options for allowing Marketing services in Office365/Exchange and GSuite/Google Apps:
 
 - [GSuite/Google Apps - Add IP addresses to allow lists in Gmail](https://support.google.com/a/answer/60751)
 - [Office365/Exhange - Configure connection filtering](/microsoft-365/security/office-365-security/configure-the-connection-filter-policy)
@@ -65,12 +65,12 @@ Different email clients (web and desktop versions of clients like Gmail, Yahoo, 
 Unfortunately, as a sender and email designer, there isn't much you can do to predict the behavior of every email client that your subscribers use. As such, it's impossible to avoid all changes that could result from email forwarding. However, if you're aware that your subscribers or recipients regularly forward your marketing emails, the following are some recommendations to reduce forwarding-related errors:
 
 - Keep your email design simple. Use a single–column design with few separate elements. This reduces the possibility of design-related HTML errors when forwarding the email.
-- Tell your recipients to forward your emails as an attachment. This approach increases the chances that original email will keep its design and elements untouched.
+- Tell your recipients to forward your emails as an attachment. This approach increases the chances that original email keeps its design and elements untouched.
 - Some web-based email clients offer alternative ways to share emails without touching the email code. This approach usually doesn't make a “classic” forward, but sends an original email on your behalf to the intended recipient or shares it through social networks.
 
 ## Reply-to addresses
 
-When you send an email and your recipient wants to reply to your email, the reply email is usually sent to the email address listed in the "From:" header. The reply-to address is a special address (specified in the "Reply-To:" header) that provides an email address where replies to a message should go if the address is different from a regular "From:" address.
+When you send an email and your recipient wants to reply to your email, the reply email is sent to the email address listed in the "From:" header. The reply-to address is a special address (specified in the "Reply-To:" header) that provides an email address where replies to a message should go if the address is different from a regular "From:" address.
 
 The "Reply-To:" header is ignored, however, in the case of automatic responses. As detailed in [RFC3834](https://datatracker.ietf.org/doc/html/rfc3834), automatic responses should always be sent to the address specified in the "From:" header. In such a scenario, the "Reply-To:" header is ignored.
 
@@ -84,11 +84,11 @@ When sending emails to recipients within your organization, you may find that th
 
 The [External] flag is configured to notify users that an email has been sent from outside their organization. This is a security feature to protect against phishing attacks, as external emails can often be fraudulent.
 
-If you are sending emails to recipients within your organization and they are being flagged as [External], there are a few things you can do. Firstly, check that the recipient's domain is hosted on Exchange Online or Microsoft 365. If it is, you can contact your email administrator and ask them to adjust the email configuration. They should be able to configure emails sent from your domain not to be flagged as [External].
+If you're sending emails to recipients within your organization and they're being flagged as [External], there are a few things you can do. Firstly, check that the recipient's domain is hosted on Exchange Online or Microsoft 365. If it is, you can contact your email administrator and ask them to adjust the email configuration. They should be able to configure emails sent from your domain not to be flagged as [External].
 
-However, if you are sending emails to recipients outside your organization, the [External] flag is expected behavior. This does not mean that your emails are marked as Spam/Junk, but it is simply a notification that the email has come from outside the organization. Unfortunately, there is nothing that can be done to fix this from the sender's side.
+However, if you're sending emails to recipients outside your organization, the [External] flag is expected behavior. This doesn't mean that your emails are marked as Spam/Junk, but it's simply a notification that the email has come from outside the organization. Unfortunately, there's nothing that can be done to fix this from the sender's side.
 
-To avoid any confusion, it's important to clearly communicate the purpose of the [External] flag to your recipients. You can explain that it is a security feature to help identify potential phishing attempts, and that it does not mean that the email is unsafe.
+To avoid any confusion, it's important to clearly communicate the purpose of the [External] flag to your recipients. You can explain that it's a security feature to help identify potential phishing attempts, and that it doesn't mean that the email is unsafe.
 
 In conclusion, the [External] flag is an important security feature to protect against phishing attacks. While it can be frustrating if your internal emails are being flagged as [External], there are steps you can take to resolve the issue. By working with your email administrator and clearly communicating the purpose of the flag to your recipients, you can ensure that your emails are delivered safely and securely.
 
