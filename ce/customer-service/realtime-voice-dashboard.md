@@ -1,7 +1,7 @@
 ---
 title: Real-time analytics voice report| Microsoft Docs
 description: Learn about the real-time voice report to cater to your organization's customer service experience better.
-ms.date: 04/10/2023
+ms.date: 04/12/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,11 +17,10 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The voice report gives you insights into key metrics across the voice channel. You can filter these areas by time, queue, time zone, conversation status, or direction. More information: [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards)
-
+The voice report gives you insights into key metrics across the voice channel. You can filter these areas by time, queue, time zone, conversation status, or direction. More information: [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards). 
 You will see the voice report, only if your organization has the voice feature configured. More information: [Manage real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service)
 
-This report provides the summary of voice conversations over time by queue. Voice-specific metrics such as conversation hold time and conversation talk time provide you with specific details about ongoing conversations and the overall time that agents take to resolve an issue. You can use these metrics to reduce the conversation hold time and increase agent efficiency as well as customer satisfaction.
+This report provides the summary of voice conversations over time by queue. Voice-specific metrics for the last 24 hours, such as conversation in queue, average wait time, average handle time, help you optimize the call flow. You can use these metrics to reduce the conversation hold time and increase agent efficiency as well as customer satisfaction.
 
 You can also monitor other voice-specific metrics such as conversation direction, that indicates whether the conversation was started by the customer or a contact center agent. You can use these operational metrics to manage queue distribution.
 
@@ -37,16 +36,20 @@ When you select a component on the chart, data gets filtered accordingly and you
 
 For details on metrics displayed in the Voice report charts, go to Omnichannel analytics metrics.
 
+## Drill-down report
+
+Drill down to sections within a report to find the data that interests you the most. You can view additional details about voice conversations, when you select the **Show more** link on the **Voice conversations over time** KPI. You can drill through voice conversations analytics and analyze data by Queue.
+
 ### See also
 
-[Manage real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service-preview)
+[Manage real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md)
 
-[Overview of Omnichannel real-time analytics reports (preview)](intro-realtime-analytics-dashboard.md)
+[Overview of Omnichannel real-time analytics reports](intro-realtime-analytics-dashboard.md)
 
-[View and understand the Summary report in Omnichannel real-time analytics (preview)](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics-preview)
+[View and understand the Summary report in Omnichannel real-time analytics](realtime-summary-dashboard.md)
 
-[View and understand the Agents report in Omnichannel real-time analytics (preview)](realtime-agents-analytics.md#view-and-understand-the-agents-report-in-omnichannel-real-time-analytics-preview)
+[View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md)
 
-[View and understand the Ongoing Conversation report in Omnichannel real-time analytics (preview)](realtime-ongoing.md#view-and-understand-the-ongoing-conversation-report-in-omnichannel-real-time-analytics-preview)
+[View and understand the Ongoing Conversation report in Omnichannel real-time analytics](realtime-ongoing.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

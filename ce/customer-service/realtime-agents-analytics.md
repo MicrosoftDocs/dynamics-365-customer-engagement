@@ -1,7 +1,7 @@
 ---
 title: Omnichannel real-time analytics agents insights report for supervisors | MicrosoftDocs
 description: Learn about the real-time agents insights report for supervisors in Omnichannel for Customer Service.
-ms.date: 03/29/2023
+ms.date: 04/12/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -13,7 +13,11 @@ ms.custom: intro-internal
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The **Agents** report consists of metrics that provide an overview of agent performance. Supervisors can select the **All** filter to view agent performance across all channels or select a particular channel to view channel-wise agent performance. You can also filter areas by time, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards](intro-realtime-analytics-dashboard.md)
+The Agents report consists of metrics that provide an overview of agent performance. The Agents report provide you the ability to optimize agent allocation in real time, which is crucial for contact center managers to ensure that their customers receive the best possible support.
+
+Agent reports provide information about the agent capacity and status for the last 24 hours, with the ability to drill down to see details such as capacity at each agent level. This allows managers to quickly identify and allocate resources to address any staffing shortages, ensuring that customers receive the support when they need it.
+
+Supervisors can select the **All** filter to view agent performance across all channels or select a particular channel to view channel-wise agent performance. You can also filter areas by time, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards](intro-realtime-analytics-dashboard.md)
 
 :::image type="content" source="media/realtime-agent insights.png" alt-text="Screenshot of real-time agent insights report":::
 
@@ -25,8 +29,6 @@ You can view interactive charts on the report, such as donut charts. The visual 
 
 When you select a component on the chart, data gets filtered accordingly, and you'll be able to view data related only to the selected component. For example, if you select the **Busy** piece in the **Agent availability status** chart, the dashboard will refresh and you’ll see only the agents who are currently in the **Busy** state.
 
-For details on metrics displayed in the Agent report charts, go to Omnichannel analytics metrics.
-
 ## Agent details drill-down
 
 The **Agent list** table on the dashboard provides you with the ability to drill down to key metrics on agent details. You can also drill down to view specific insights about the performance of individual agents by selecting the agent name and then the **Detailed view** link from the dashboard.
@@ -35,9 +37,9 @@ The **Agent list** table on the dashboard provides you with the ability to drill
 
 :::image type="content" source="media/realtime-agent-detailed-view.png" alt-text="Drill down to agent details":::
 
-For details on metrics in the Agent list table and the Agent Details page, go to Omnichannel analytics metrics.
+For details on metrics in the **Agent list** table and the **Agent Details** page, go to Omnichannel analytics metrics.
 
-You can further drill through **Conversations** on the Agent details page, to keep track of how a conversation progressed and the customer sentiment that associated with it. Through **Agent presence history**, you can view the agent presence in real time.
+You can further drill through **Conversations** on the Agent details page to keep track of how a conversation progressed and the customer sentiment that associated with it. Through **Agent presence history**, you can view the agent presence in real time.
 
 ### See also
 
