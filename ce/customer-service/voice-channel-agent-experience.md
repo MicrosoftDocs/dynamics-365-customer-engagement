@@ -1,11 +1,13 @@
 ---
-title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
-description: "Use this article to understand how the agent can use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
-ms.date: 11/18/2022
+title: Use agent dashboard and call controls in the voice channel
+description: Learn how you can use the agent dashboard, call controls, and make and receive customer calls in Omnichannel for Customer Service.
+ms.date: 04/13/2023
 ms.service: dynamics-365-customerservice
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 
 # Use agent dashboard and call controls in the voice channel
@@ -57,13 +59,12 @@ You can add notes to help your administrator review and block numbers. After you
 
 ## How to avoid call disconnection
 
-Ensure the following behaviors to avoid call drops:
+Avoid the following actions to prevent call drops:
 
-- Don't refresh your browser when you're in an active call. When you select refresh, even if you select cancel on the confirm refresh dialog, the page is unloaded, and the call is disconnected.
-- Don't select browser bookmark icons on the Customer Service workspace or Omnichannel for Customer Service app browser tab when you're in the middle of an ongoing call.
-- Don't open other apps that will need access to the microphone.
-- Don't open the Customer Service workspace or Omnichannel for Customer Service app in more than one tab in the browser.
-- Always select the **End** button and then close the session. Don't close the session directly to end call.
+- Refresh your browser or select browser bookmark icons when you're in an active call. When you select refresh, even if you select cancel on the confirm refresh dialog, the page is unloaded. You will be disconnected from the call, and the customer will hear hold music until you rejoin the call from the **My work items** section of **Omnichannel Agent Dashboard**.  If you're disconnected from your browser for a longer duration than a few minutes, the call is reassigned to another agent in the queue.
+- Open other apps that will need access to the microphone. It'll result in loss of the your audio connection, and the customer will not be able to hear you.
+- Open the Customer Service workspace or Omnichannel for Customer Service app in more than one tab in the browser. It causes issues in agent presence.
+- Close the session directly to end call. Select the **End** button and then close the session always.
 
 ### See also
 
