@@ -3,14 +3,10 @@ title: "Unified Service Desk Unified Interface package | MicrosoftDocs"
 description: "Learn about the Unified Interface sample application that's part of Unified Service Desk and how you can use it."
 ms.date: 08/17/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ---
 # Unified Interface sample application package
 

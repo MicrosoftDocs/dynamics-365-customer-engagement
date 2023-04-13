@@ -3,9 +3,8 @@ title: "msdyn_ocruleitem Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocruleitem entity."
 ms.date: 03/23/2020
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 ---
 # msdyn_ocruleitem Entity Reference
 

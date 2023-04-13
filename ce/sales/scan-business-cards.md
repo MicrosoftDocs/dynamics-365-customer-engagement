@@ -1,11 +1,10 @@
 ---
 title: "Scan business cards (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the business card scanner in Dynamics 365 Sales to quickly scan business cards of the prospective customers you've met with."
-ms.date: 09/12/2022
+ms.date: 03/29/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -24,9 +23,10 @@ The integrated business card scanner in Dynamics 365 Sales helps salespeople to 
 > - To know about the business card scan limits with your user license, see the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional license with the AI Builder add-on <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional. <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br> More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
 |||
 
@@ -48,16 +48,15 @@ The integrated business card scanner in Dynamics 365 Sales helps salespeople to 
 
     If you are using a mobile phone, use the mobile phone camera to capture the business card picture.
 
-    The details like first name, last name, account name, job title, and email will be automatically populated from the business card.
+    The details like first name, last name, job title, and email will be automatically populated from the business card. Account name is not populated automatically as it's a lookup field. You can select it manually in the **Account Name** field.
 
     > [!div class="mx-imgBorder"]
     > ![Contact form showing scanned card with automatically populated fields.](media/scanned-card-with-populated-fields.jpg "Contact form showing scanned card with automatically populated fields")
 
 4. Select **Save**.
 
-    
     > [!NOTE]
-    > - When you save the **Contact** or **Lead** records, a **Duplicate Records detected** dialog box is shown if duplicate records are found based on the available duplicate detection rules. You can choose whether you want to create a duplicate record or not.
+    > - When you save the **Contact** or **Lead** records, a **Duplicate Records detected** dialog box is shown if duplicate records are found based on the available duplicate detection rules. You can choose whether you want to create a duplicate record or not.  
     > - When you save the **Contact** or **Lead** record, the business card is also associated and stored in the records, so you can refer to it later. If your system administrator has set the **Always retain business card images after scanning option** option to **No**, the business card image won't be saved. 
 
     > [!div class="mx-imgBorder"]

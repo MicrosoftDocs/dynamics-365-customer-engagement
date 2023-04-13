@@ -3,7 +3,6 @@ title: "Configure call recording, transcription, and real-time translation | Mic
 description: "Learn how to configure call recording, transcription, and real-time translation in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 02/16/2023
 ms.topic: article
 ---

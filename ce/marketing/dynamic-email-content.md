@@ -7,15 +7,11 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 ms.reviewer: renwe
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Add dynamic content to email messages
@@ -45,7 +41,7 @@ To view, edit, or create a content-settings record:
 
 1. A standard list page opens where you can view, sort, search, and filter the list to find a specific record and use buttons on the command bar to add or remove a record. Select a record to open it for editing or select **New** on the command bar to create a new one.
 
-1. The **Content Settings** form opens. If you are editing a record that is already live, you must choose **Edit** in the command bar before you can edit it. If you are creating a new one, you can just start filling in the fields.  
+1. The **Content Settings** form opens. If you're editing a record that is already live, you must choose **Edit** in the command bar before you can edit it. If you're creating a new one, you can just start filling in the fields.  
 
     > [!div class="mx-imgBorder"]
     > ![The content-settings form.](media/content-settings-form2.png "The content-settings form")
@@ -57,16 +53,16 @@ To view, edit, or create a content-settings record:
     - **Address main**: Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings record. Select the  ![The personalization button.](media/button-personalization.png "The personalization button")  button to use [personalization](#personalization) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
     - **Address line 2**: Enter supplemental postal address information (if needed). Select the  ![The personalization button.](media/button-personalization.png "The personalization button")  button to use [personalization](#personalization) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
     - **Default**: Set to **Yes** to make the current content-settings record the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.
-    - **Default for owning business unit**: This setting is only available when [business unit scoping](business-units.md#enable-or-disable-business-unit-scopes) is enabled. Set this to **Yes** to make the current content-settings record the default for all new customer journeys within the business unit. There must always be exactly one default content setting for the business unit scope; if you change the default, the existing default will automatically be changed to **No**.
+    - **Default for owning business unit**: This setting is only available when [business unit scoping](business-units-support-outbound-marketing.md#enable-or-disable-business-unit-scopes-in-outbound-marketing) is enabled. Set this to **Yes** to make the current content-settings record the default for all new customer journeys within the business unit. There must always be exactly one default content setting for the business unit scope; if you change the default, the existing default will automatically be changed to **No**.
     - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, **Instagram URL**, **YouTube URL**, and **Google Plus URL**: For each of these social-media services, enter the URL for the landing page for your organization.  
-    - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. All marketing email messages must include a valid subscription-center link taken from a content-settings record. Select the  ![The personalization button.](media/button-personalization.png "The personalization button")  button to use [personalization](#personalization) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using personalization):<br>
+    - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. All marketing email messages must include a valid subscription-center link taken from a content-settings record. Select the  ![The personalization button.](media/button-personalization.png "The personalization button")  button to use [personalization](#personalization) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression looks something like this (where the GUID varies based on the record you choose using personalization):<br>
     `{{msdyncrm_marketingpage(3343053c-8daf-e911-a85e-000d3a3155d5).msdyncrm_full_page_url}}`
-    - **Forward to a friend**: Specify an existing marketing page that is record up as a forward-to-a-friend page. Select the  ![The personalization button.](media/button-personalization.png "The personalization button")  button to choose from a list of available pages. Select the  ![The personalization button](media/button-personalization.png "The personalization button")  button to use [personalization](#personalization) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using personalization):<br>
+    - **Forward to a friend**: Specify an existing marketing page that is record up as a forward-to-a-friend page. Select the  ![The personalization button.](media/button-personalization.png "The personalization button")  button to choose from a list of available pages. Select the  ![The personalization button](media/button-personalization.png "The personalization button")  button to use [personalization](#personalization) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression looks something like this (where the GUID varies based on the record you choose using personalization):<br>
     `{{msdyncrm_marketingpage(36458a9e-72af-e911-a859-000d3a3159df).msdyncrm_full_page_url}}`
 
 1. Select **Save** in the bottom-right corner of the window to save your settings.
 
-1. If you are editing a content-settings record that was already live, then the record is republished automatically when you save it. If you are creating a new record, then select **Go live** on the command bar to publish it to the marketing services so you can start using it.
+1. If you're editing a content-settings record that was already live, then the record is republished automatically when you save it. If you're creating a new record, then select **Go live** on the command bar to publish it to the marketing services so you can start using it.
 
 <a name="personalization"></a>
 
@@ -89,14 +85,14 @@ To use personalization:
     - Select **Dynamic content** to place a value that can change based on the context where you use the message, and then choose one of the following from the drop-down list here:
         - **Contact**: Places a field value, such as a first name, from the recipient's contact record. These values vary by recipient.
         - **ContentSettings**: Places a field value from the content settings. Values such as a subscription center URL, forwarding URL, and the sender postal address are available here. These values can vary according to the customer journey where the message is used.
-        - **FormDoiSubmission**: Places a dynamic field for [form double opt-in](form-double-opt-in.md). This field does not require a relationship value, as discussed below.
+        - **FormDoiSubmission**: Places a dynamic field for [form double opt-in](form-double-opt-in.md). This field doesn't require a relationship value, as discussed below.
         - **Message**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](double-opt-in.md).
     - Select **Static content** to place a fixed value from a specific record (such as the name of an upcoming event). This value is the same regardless of where you use the message or who receives it. Then make the following settings to identify the entity and record that contains the value you need:
         - **Select an option** (top combo box): Select the entity (such as event or account). To search for an entity, place your cursor in this box and start to type its name until the entity you want is shown.
         - **Choose a record** (bottom drop-down list): Select the specific record by name. This list shows all records from your selected entity. As with the entity, you can also search here.
 1. Now you must identify the specific field you want to place. Do one of the following:
     - Select **Related entity** to find a field from an entity that is related to the one you picked on the previous page. Then make the following settings to identify the relation and the field you want to show:
-        - **Select relationship**: The relationship defines which second entity you want to hop to, and the path you will take to get there. To search for a relationship, place your cursor in this box and start to type its name until the relationship you want is shown, and then select it. For more information about how to understand the way relationships are represented here, see [the next section](#personalization-relations).
+        - **Select relationship**: The relationship defines which second entity you want to hop to, and the path you'll take to get there. To search for a relationship, place your cursor in this box and start to type its name until the relationship you want is shown, and then select it. For more information about how to understand the way relationships are represented here, see [the next section](#personalization-relations).
         - **Select field**: Choose the field name you want to show. As with the relationship, you can also search here. This drop-down list is only available if you've chosen an [N:1 relationship](#personalization-relations).
 1. At the bottom of the dialog, you now see the [final expression](#personalization-expressions). Select **Insert** to place that expression.
 
@@ -109,20 +105,20 @@ To use personalization:
 
 ### How personalization presents database relationships
 
-When you are selecting a relationship in personalization, the options are displayed using one of the following naming conventions:
+When you're selecting a relationship in personalization, the options are displayed using one of the following naming conventions:
 
 - ***FieldName (PrimaryEntity) -> SecondaryEntity***  
     When the primary entity is in parentheses and shows a field name, it’s a *many-to-one* (N:1) relation that leads to a single record from the secondary entity. You should therefore usually use the second drop-down list to choose a field from the secondary entity to display with your expression.
 - ***PrimaryEntity -> FieldName (SecondaryEntity)***  
     When the secondary entity is in parentheses and shows a field name, it’s a *one-to-many* (1:N) relation that can lead to multiple records from the secondary entity. You therefore can’t choose a field (the second drop-down list is disabled) and must instead use this relation as part of a [for/each loop](#for-each) to display values from each available related record.
 - ***PrimaryEntity -> SecondaryEntity***  
-    When neither entity is in parentheses, it’s a *many-to-many* (N:N) relation, which can connect multiple records in both directions. You therefore can’t choose a field (the second drop-down list is disabled) and you cannot use this relationship for personalization. This is because the relationship is maintained by an intermediate entity, and you can only traverse to the intermediate entity from the primary entity.
+    When neither entity is in parentheses, it’s a *many-to-many* (N:N) relation, which can connect multiple records in both directions. You therefore can’t choose a field (the second drop-down list is disabled) and you can't use this relationship for personalization. This is because the relationship is maintained by an intermediate entity, and you can only traverse to the intermediate entity from the primary entity.
 
 Where:
 
-- ***PrimaryEntity*** is an entity at the starting side of the relationship. It is always shown on the left side of the arrow. This is the entity you chose on the previous page of the personalization dialog. For example, a *Contact* (primary entity) can be related to an *Account* (secondary entity) through the contact's *Company Name* field (field name); this would be shown as: **Company Name (Contact) -> Account**.
+- ***PrimaryEntity*** is an entity at the starting side of the relationship. It's always shown on the left side of the arrow. This is the entity you chose on the previous page of the personalization dialog. For example, a *Contact* (primary entity) can be related to an *Account* (secondary entity) through the contact's *Company Name* field (field name); this would be shown as: **Company Name (Contact) -> Account**.
 - ***FieldName*** is always shown next to an entity name (which is in parenthesis). This is the name of the field through which the relation is established. The named field belongs to the entity in parenthesis, and displays a value from the entity of the other side of the arrow (but actually contains the ID of the related record that value is drawn from). In some cases, you'll notice a relationship between the same two entities, each of which flows through a different field.
-- ***SecondaryEntity*** is the destination of the relationship. It is always shown on the right side of the arrow. The value(s) that you display with your final expression will come from a field belonging to the secondary entity.
+- ***SecondaryEntity*** is the destination of the relationship. It's always shown on the right side of the arrow. The value(s) that you display with your final expression will come from a field belonging to the secondary entity.
 
 > [!NOTE]
 > For N:N relations, no field value is shown. That means that if you have more than one N:N relation between the same two entities, you'll see multiple identical-looking relations in the drop-down list. This situation is very rare, but if you see it, you'll have to use trial-and-error to identify the correct relation to use. To confirm, you can check the [resulting expression](#personalization-expressions) to see if it looks like you chose the right relation (relations are shown differently here and may provide a clue), or set up a test message that includes both versions of the N:N relation and use a test customer journey to deliver it to yourself.
@@ -144,7 +140,7 @@ Personalization creates an expression that uses a format such as the following:
 - `{{EntityName.RelationshipName.FieldName}}`
 - `{{EntityName(RecordID).RelationshipName.FieldName}}`
 
-Note that the notation used for relationship names in the resulting expressions doesn't match the way they are represented in the personalization dialog. Here are some examples of resulting expressions:
+Note that the notation used for relationship names in the resulting expressions doesn't match the way they're represented in the personalization dialog. Here are some examples of resulting expressions:
 
 - `{{contact.firstname}}`  
 Places the recipient's first name.
@@ -186,7 +182,7 @@ On the **Summary** tab of the **Marketing Email** form, you can make various non
 
 One typical way to take advantage of this feature is to set the **From name** and **From address** to the owner of the contact record. Then, by assigning the owner of each contact record to the salesperson managing that contact, recipients will receive marketing emails that show a from address of somebody they may know, which can greatly increase open rates. Here's how:
 
-1. If your Marketing instance isn't already set up to sync the **User (systemuser)** entity with the marketing-insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md) for instructions.
+1. If your Marketing instance isn't already set up to sync the **User (systemuser)** entity with the marketing-insights service, talk to your admin about setting this up. If you're the admin, then see [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md) for instructions.
 1. Open your email message and go to the **Summary** tab.
 1. Delete the contents of the **From name** field and then select the **Personalization** button ![The personalization button](media/button-personalization.png "The personalization button") next to this field.
 1. On the first page of the personalization dialog, select **Contextual** and set it to **Contact**. Then select **Next**.
@@ -218,7 +214,7 @@ You can likewise use personalization to help construct a dynamic expression for 
 
 ## Find record IDs
 
-Non-contextual field expressions (which use the form  `{{EntityName(RecordID).FieldName}}`) require a record ID to identify the specific record the value must come from. Usually, personalization will help you find these IDs, but sometimes you might need to find an ID manually while you are designing dynamic features for a message. To find the ID for any record:
+Non-contextual field expressions (which use the form  `{{EntityName(RecordID).FieldName}}`) require a record ID to identify the specific record the value must come from. Usually, personalization helps you find these IDs, but sometimes you might need to find an ID manually while you're designing dynamic features for a message. To find the ID for any record:
 
 1. Open the record you want to reference.
 2. Look at the URL shown in your browser's address bar, which should show a URL such as:  
@@ -265,7 +261,7 @@ Where:
 - `{{else}}` and `{{else if … }}` clauses are optional.
 - The conditional block must always close with `{{/if}}`.
 
-The following table lists all the operators that you can use in your conditional expressions. Other operators are not currently available, nor can you use complex Boolean expressions (such as with AND or OR operators) in your conditional expressions.
+The following table lists all the operators that you can use in your conditional expressions. Other operators aren't currently available, nor can you use complex Boolean expressions (such as with AND or OR operators) in your conditional expressions.
 
 | **Dynamics 365 Marketing syntax (case sensitive)** | **Operator** |
 | --- | --- |
@@ -396,10 +392,10 @@ You must be careful when entering advanced dynamic code in the designer because 
 - Use custom-code elements to place code snippets between design elements on the **Designer** tab. This is much more visible and reliable than placing the code directly into the HTML using the **HTML** tab. However, you might also use dynamic code *within* a text element, in which case you'll probably need to clean up that code on the **HTML** tab, as mentioned later in this list. (When working in the [full-page editor](custom-template-attributes.md#show-toolbox), select on a custom-code element to edit its content.)    
     ![The custom-code element.](media/custom-code-element.png "The custom-code element")
 - When you enter code into a text element on the **Designer** tab, any extra spaces and carriage returns that you add will create `&nbsp;`and `<p>` tags in your code, which can break it. Always go to the **HTML** tab afterwards, where you'll see all of these extra tags, and be sure to remove them.
-- When you enter code into a text element, all of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs (or custom-code elements), as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs). You must work on the **HTML** tab inspect and correct the HTML within your text elements.
-- Do not place carriage returns between code elements that are part of the same expression (such as in a for-each loop) unless you enclose each line within its own set of HTML tags (as illustrated in the for-each loop example given after this list).
+- When you enter code into a text element, all of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Don't place code outside of comments or valid HTML tag pairs (or custom-code elements), as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs). You must work on the **HTML** tab inspect and correct the HTML within your text elements.
+- Don't place carriage returns between code elements that are part of the same expression (such as in a for-each loop) unless you enclose each line within its own set of HTML tags (as illustrated in the for-each loop example given after this list).
 - The [personalization](#personalization) feature is often helpful for constructing expressions that fetch values from your database because it helps you find database table, field, and relation names. This tool is available when working within a text element on the **Designer** tab, and when entering values is certain fields that support it (like the email subject). Personalization isn't available when working on the **HTML** tab or within a custom code element, so you can instead start by using personalization in any text element, and then cut/paste the resulting expression into your custom-code element or HTML.
-- The relationship name that you use when creating loops or placing lookup values must match the one used in the marketing-insights service. This relationship name is not necessarily the same as the one used to customize Dynamics 365. To find the correct relationship name, use the [personalization](#personalization) feature.
+- The relationship name that you use when creating loops or placing lookup values must match the one used in the marketing-insights service. This relationship name isn't necessarily the same as the one used to customize Dynamics 365. To find the correct relationship name, use the [personalization](#personalization) feature.
 
 For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer (either inside or outside of a text element):
 

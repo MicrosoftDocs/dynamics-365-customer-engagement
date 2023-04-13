@@ -3,9 +3,8 @@ title: "msdyn_occhannelconfiguration Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_occhannelconfiguration entity."
 ms.date: 08/18/2020
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---

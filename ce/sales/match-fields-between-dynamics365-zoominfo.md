@@ -5,7 +5,6 @@ ms.date: 06/27/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Match fields between Dynamics 365 and ZoomInfo 
 

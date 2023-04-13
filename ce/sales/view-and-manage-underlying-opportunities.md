@@ -5,7 +5,6 @@ ms.date: 04/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 searchScope: 
@@ -74,7 +73,7 @@ When you select a row in the forecast grid, you see the underlying opportunities
 
 **To filter the underlying opportunities**
 
-1.	Open a forecast, and select a row. 
+1.	Open a forecast, and select a row.
     
     The underlying opportunities that contribute to the selected row are displayed.
 
@@ -136,17 +135,13 @@ Kenny Smith is a Vice President of the sales organization at Contoso Inc. He hea
  
 ### View and edit in a kanban view
 
-1.	Open a forecast. In this example, we're opening **Kenny's Org FY 2020 Forecast** for current quarter **FY2020 Q1**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the forecast grid.](media/forecast-view-forecast-grid.png "Screenshot of the forecast grid")
+1.	Open a forecast. 
 
 2.	Select a row or a cell for any level of the hierarchy for which you want to see underlying opportunities. 
 
-    In this example, we're selecting **Alyce Durham**. Because she's a manager, all the underlying opportunities that are contributing to her team's forecast are listed. This view is opened in a table, by default.
+    In this example, we're selecting **Kenny Smith**. As Kenny is a manager, all the underlying opportunities that are contributing to his team's forecast are listed. This view is opened in a table, by default.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the forecast underlying opportunities.](media/forecast-view-underlying-opportunities.png "Screenshot of the forecast underlying opportunities")
+    :::image type="content" source="media/forecast-view-underlying-opportunities.png" alt-text="Screenshot of the forecast underlying opportunities" lightbox="media/forecast-view-underlying-opportunities.png":::
 
     You can identify whether the selected opportunities belong to a team, an individual, a single cell value, or a full row by looking at the table heading. The format of the heading is described in the following table:
 
@@ -164,8 +159,7 @@ Kenny Smith is a Vice President of the sales organization at Contoso Inc. He hea
 
     The table view changes into a kanban view and the order of columns is displayed based on the order that's defined in the option set in the application. All the underlying opportunities are displayed as cards in their respective forecast categories. Each card displays attributes that you can edit. In this example, the opportunity name, **Owner**, **Est. Revenue**, and **Est. Close Date** are displayed.
 
-    > [!div class="mx-imgBorder"]
-    > ![View forecast underlying opportunities in kanban.](media/forecast-view-underlying-opportunities-kanban.png "View forecast underlying opportunities in a kanban view")
+    :::image type="content" source="media/forecast-view-underlying-opportunities-kanban.png" alt-text="View forecast underlying opportunities in a kanban view" lightbox="media/forecast-view-underlying-opportunities-kanban.png":::
 
     > [!NOTE]
     > The opportunities in columns **Won** and **Lost** are locked. You can't edit these values directly, because multiple attribute values must be set to enter an opportunity as **Won** or **Lost**. However, you can select the name of the opportunity, and the opportunity will open in a new page where you can edit the opportunity, and then save and close it.

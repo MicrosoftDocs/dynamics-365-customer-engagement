@@ -1,12 +1,11 @@
 ---
 title: "Analyze revenue outcome using predictive forecasting"
 description: "Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data."
-ms.date: 08/03/2022
+ms.date: 03/06/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Analyze revenue outcome by using predictive forecasting
@@ -27,7 +26,7 @@ Predictive forecasting helps sellers and managers improve their forecast accurac
 The **Prediction** column shows the predicted revenue for each seller and manager. Predictions are based on the **Status** field of an opportunity. To optimize the accuracy of the predictions, ensure the **Forecast Category** values are kept in sync with the **Status** field. For the out-of-the-box forecast category, a workflow ensures that when an opportunity is closed as **Won** or **Lost**, the forecast category is updated with the proper value. 
 
 > [!NOTE]
-> If there's not enough data for predictive forecasting to work, it displays an error with an empty value in the column. 
+> If sufficient data isn't available for predictive forecasting, an error message is displayed and the **Prediction** column is left empty.
 
 ### Prerequisites
 
@@ -47,7 +46,7 @@ The following screen shows an example of a **Prediction** column.
 > [!div class="mx-imgBorder"]
 > ![Prediction column](media/predictive-forecasting-prediction-column.png "Prediction column")
 
-When you hover over the information icon on the column header, the last recalculation date of the prediction is shown. Predictions are recalculated every seven days.
+When you hover over the information icon on the column header, the last recalculation date of the prediction is shown. Predictions are recalculated after every seven days; you can't trigger a manual recalculation.
 
 ### Prediction details
 

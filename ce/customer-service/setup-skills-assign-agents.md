@@ -1,11 +1,12 @@
 ---
-title: "Set up skills and assign agents | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to create skills and assign agents to those skills in Omnichannel for Customer Service."
+title: Set up skills and assign agents
+description: Perform the steps mentioned in the topic to create skills and assign agents to those skills in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.date: 10/03/2022
-ms.topic: article
+ms.reviewer: shujoshi
+ms.date: 03/08/2023
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Set up skills, create a rating model, and assign agents
@@ -237,5 +238,6 @@ Alternatively, you can also add a skill to the user (agent). More information: [
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Manage users](users-user-profiles.md)  
+[Model data tables as skills](model-tables-as-skills-ur.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

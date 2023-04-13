@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Make the most of your event check-in flow
@@ -46,3 +42,5 @@ In Dynamics 365 Marketing, you can monitor your event attendance and join and le
 > Contacts must use their personalized meeting link for a check-in to be created (forwarded emails won't work). To prevent privacy issues, the Marketing app does not track attendee actions unless they use the personalized link.
 >
 > Expect up to a four-hour delay after an event ends until check-ins appear in the Marketing app. Check-in creation is counted as a post-processing step after the event and takes several hours to fully reflect in the Marketing app.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

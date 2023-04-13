@@ -1,14 +1,11 @@
 ---
 title: Optimization goals in Resource Scheduling Optimization
-description: Learn about how goals are used in resource scheduling optimization.
+description: Learn about how goals are used in Resource Scheduling Optimization.
 author: ryanchen8
 ms.author: chenryan
 ms.date: 09/28/2022
 ms.topic: article
 ms.subservice: resource-scheduling-optimization
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Optimization goals in Resource Scheduling Optimization

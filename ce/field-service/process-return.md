@@ -6,9 +6,6 @@ ms.date: 01/09/2020
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Process a return (return merchandise authorization and returns to vendor)
 

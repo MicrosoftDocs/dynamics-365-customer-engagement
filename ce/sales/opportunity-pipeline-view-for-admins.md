@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 02/06/2023
+ms.date: 03/07/2023
 ms.custom: bap-template 
 ---
 # Configure the opportunity pipeline view
@@ -98,12 +98,12 @@ The charts in the pipeline view help sellers visualize their pipeline better. As
 
 ## Customize the editable grid
 
-The grid in the Opportunity pipeline view is implemented using the Power Apps editable grid control. The grid can be customized as well as personalized. As an administrator, you can customize the grid to include columns and filters that are applicable for the entire sales organization. Sellers can personalize their view to include columns and filters that they would like to view. 
+The grid in the Opportunity pipeline view is implemented using the Power Apps editable grid control. The grid can be customized as well as personalized. As an administrator, you can customize the grid to include columns and filters that are applicable for the entire sales organization. Sellers can [personalize their view](personalize-pipeline-view.md#what-can-you-personalize) to include columns and filters that they would like to view.  
 
 > [!NOTE]
 > If you have previously customized the editable grid in the deal manager using JavaScript, you will need to redo those customizations for the editable grid in the pipeline view. 
 
-To customize the editable grid, see the [Power Apps documentation](/power-apps/developer/component-framework/customize-editable-grid-control).
+To customize the editable grid, see the [Power Apps documentation](/power-apps/developer/component-framework/customize-editable-grid-control). For information on grid events, see [Events in forms and grids in model-driven apps](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids).  
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

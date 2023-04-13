@@ -5,7 +5,6 @@ ms.date: 06/30/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Real-time translation of conversations for agents and customers
@@ -46,7 +45,7 @@ The following image shows a sample screenshot of the customer experience.
 
 ### See also
 
-[View a customer summary](oc-customer-summary.md)  
+[View customer information on Active Conversation form](oc-customer-summary.md)  
 [View communication panel](oc-conversation-control.md)  
 
 

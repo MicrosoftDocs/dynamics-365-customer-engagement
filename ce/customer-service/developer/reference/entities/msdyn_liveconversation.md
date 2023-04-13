@@ -2,9 +2,8 @@
 title: "msdyn_liveconversation Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_liveconversation entity."
 ms.date: 07/29/2020
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 ---
 # msdyn_liveconversation Entity Reference
 

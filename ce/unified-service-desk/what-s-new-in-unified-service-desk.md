@@ -3,15 +3,11 @@ title: "What's new in Unified Service Desk for developers and customizers | Micr
 description: "Learn about the new features available for developers and customizers in the latest version of Unified Service Desk."
 ms.date: 06/21/2021
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---

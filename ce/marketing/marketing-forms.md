@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create, view, and manage marketing forms
@@ -253,6 +249,5 @@ Once your form is part of a live marketing page, it will start to collect inform
 [Design your digital content](design-digital-content.md)  
 [Design elements reference](content-blocks-reference.md)  
 [Create input fields for forms](marketing-fields.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

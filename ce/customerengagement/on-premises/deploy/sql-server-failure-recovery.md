@@ -14,7 +14,6 @@ ms.assetid: 7b1cd83f-78cb-40f8-a745-b3c2727464dd
 caps.latest.revision: 17
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # SQL Server failure recovery with Dynamics 365 Customer Engagement (on-premises)
 

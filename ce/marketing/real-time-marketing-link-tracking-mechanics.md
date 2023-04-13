@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Real-time marketing link tracking mechanics
@@ -39,3 +35,5 @@ If the recipient previously opted out from tracking, the interaction is generate
  
 > [!NOTE]
 > All links generated in the [text message channel](real-time-marketing-outbound-text-messaging.md) are shortened, regardless of whether they are replaced with tracking links.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

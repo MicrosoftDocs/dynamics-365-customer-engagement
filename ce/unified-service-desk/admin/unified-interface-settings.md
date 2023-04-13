@@ -3,15 +3,11 @@ title: "Unified Interface Settings | MicrosoftDocs"
 description: "Learn how to configure Unified Interface settings in Unified Service Desk, create the Unified Interface Settings record, and add it to a configuration."
 ms.date: 06/01/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
-
+monikerRange: ">=dynamics-usd-4"
 ---
 
 # Set default Unified Interface app using Unified Interface Settings

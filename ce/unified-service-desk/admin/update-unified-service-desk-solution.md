@@ -3,14 +3,10 @@ title: "Update Unified Service Desk solution | MicrosoftDocs"
 description: "Learn how to check the current version and update your existing installation of Unified Service Desk to the latest version, if required."
 ms.date: 06/21/2022
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin

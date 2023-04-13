@@ -3,15 +3,11 @@ title: "Use the IE Process hosting method for hosting web applications | Microso
 description: "Learn about the IE Process hosting method and its advantages for hosting your controls in Unified Service Desk."
 ms.date: 09/20/2022
 ms.topic: "article"
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 

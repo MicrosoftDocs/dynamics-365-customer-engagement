@@ -3,7 +3,6 @@ title: "Post-installation and configuration guidelines for Dynamics 365 Customer
 description: Understand the configuration needed after you install Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "07/26/2021"
-
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,7 +13,6 @@ ms.assetid: 6f6a7fc0-f9cf-4602-bd6c-4b4924185644
 caps.latest.revision: 61
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Post-installation and configuration guidelines for Microsoft Dynamics 365
 
@@ -202,6 +200,15 @@ net start adfssrv
 
 #### Enable Device Registration Service (DRS) on the federation server
 To make sure that devices can connect to your deployment, follow the instructions in this topic: [Configure a federation server with Device Registration Service](/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service). 
+
+## Configure databases for SQL Server AlwaysOn
+
+Although the article referenced below applies to an earlier version of Dynamics 365 Customer Engagement (on-premises), you can use similar steps to configure the Dynamics 365 Customer Engagement (on-premises), version 9 organization and configuration databases for SQL Server AlwaysOn.
+
+> [!IMPORTANT]
+> The final tasks under step 4 in the below article link that describe how to **Create the MSCRMSqlClrLogin SQL Login** under [Create the SQL logins for the Microsoft Dynamics 365 security groups on all secondary replicas](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/jj822357(v=crm.8)#create-the-sql-logins-for-the-microsoft-dynamics-365-security-groups-on-all-secondary-replicas) are not applicable to this version and should be ignored when configuring Dynamics 365 Customer Engagement (on-premises), version 9 databases to use SQL Server AlwaysOn. <br/> MSCRMSqlClrLogin SQL login, the asymmetric key for it, and Microsoft.Crm.SqlClr.Helper.dll aren’t required with Dynamics 365 Customer Engagement (on-premises), version 9.
+
+ More information: [Set configuration and organization databases for SQL Server AlwaysOn failover](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/jj822357(v=crm.8))
 
 <a name="BKMK_usertrain"></a>   
 ## User training and adoption  

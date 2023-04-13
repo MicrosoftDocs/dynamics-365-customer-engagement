@@ -18,7 +18,6 @@ ms.assetid: 6097b89f-b3a6-472b-8fed-4f1aef62817f
 caps.latest.revision: 21
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType:
   - developer
 ---

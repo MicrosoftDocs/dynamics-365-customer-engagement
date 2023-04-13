@@ -22,7 +22,6 @@ ms.assetid: b40b50ae-70f6-4868-a1ed-f50414af1c6b
 caps.latest.revision: 13
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -38,8 +37,8 @@ Saved queries are business entities that define the parameters and criteria of a
  You can see the user query (saved view) in the Advanced Find section of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application and also in the **View** drop-down list for an entity.  You can export the value of the `UserQuery.FetchXml` attribute by using the **Download Fetch XML** button in the **Advanced Find** dialog box.  
   
 ### See also  
- [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)   
- [UserQuery Entity](entities/userquery.md)
+ [Model your business data with Dataverse](/power-apps/maker/data-platform/data-platform-intro))  
+ [UserQuery Entity](entities/userquery.md)  
  [Building Queries with QueryExpression](/powerapps/developer/data-platform/org-service/build-queries-with-queryexpression)   
  [Fetch XML Schema](/powerapps/developer/data-platform/fetchxml-schema)
 

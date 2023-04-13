@@ -3,15 +3,11 @@ title: "Chrome Process hosting method for controls in Unified Service Desk | Mic
 description: "Learn about the Chrome Process hosting method in Unified Service Desk. Also, learn how to enable the process and recover unresponsive process instances."
 ms.date: 08/02/2022
 ms.topic: "article"
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 monikerRange: '>= dynamics-usd-4.1'

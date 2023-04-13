@@ -5,7 +5,6 @@ ms.date: 09/14/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 # Configure Power BI template apps to work with Dynamics 365 Sales 
 

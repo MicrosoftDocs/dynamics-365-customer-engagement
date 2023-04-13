@@ -5,9 +5,6 @@ ms.date: 10/07/2022
 ms.topic: article
 author: jasonccohen
 ms.author: jacoh
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Set up agreements to automatically generate work orders and invoices
 
@@ -16,7 +13,7 @@ Field Service agreements allow organizations to automatically generate work orde
 Here are a few different ways agreements can be configured and used. The agreement generates:
 
 - Daily inspection work orders that dispatchers schedule through the schedule board or schedule assistant.
-- Monthly maintenance work orders that are automatically scheduled by resource scheduling optimization.
+- Monthly maintenance work orders that are automatically scheduled by Resource Scheduling Optimization.
 - Weekly work orders where the agreement assigns the same resource each time at a defined start time.
 - A single work order each month to inspect multiple customer assets at a customer location.
 - Multiple work orders each year to inspect multiple assets at a customer location.
@@ -89,7 +86,7 @@ Fill in your information to create the agreement schedule. Use the handy tooltip
 
 #### Booking Settings
 
-- **Auto Generate Booking**: Set to **Yes** to have the system book generated work orders (regardless of auto generated or manually generated). If set to **Yes**, you must specify a **Preferred Resource** and **Preferred Start Time** for the booking. If set to **No**, the generated work orders must be scheduled through the normal scheduling process: manually, with the schedule assistant, or with resource scheduling optimization.
+- **Auto Generate Booking**: Set to **Yes** to have the system book generated work orders (regardless of auto generated or manually generated). If set to **Yes**, you must specify a **Preferred Resource** and **Preferred Start Time** for the booking. If set to **No**, the generated work orders must be scheduled through the normal scheduling process: manually, with the schedule assistant, or with Resource Scheduling Optimization.
 
 
 > [!Note]
@@ -287,13 +284,13 @@ As agreement work increases, you'll have to decide whether to add multiple agree
 
 - *How are you tracking assets?*: Some organizations prefer each work order to relate to a single customer asset. This way they know the time spent on a work order correlates to time spent servicing an asset, which helps with reporting. If so, you may choose to have multiple recurrences each creating one work order with a single incident related to a single asset.
 
-### Schedule agreement work orders automatically with resource scheduling optimization
+### Schedule agreement work orders automatically with Resource Scheduling Optimization
 
-Resource scheduling optimization automatically schedules work orders to optimize working hours and travel time. This includes work orders generated from agreements. If you're interested in using resource scheduling optimization to schedule agreement work orders, here are three options:
+Resource scheduling optimization automatically schedules work orders to optimize working hours and travel time. This includes work orders generated from agreements. If you're interested in using Resource Scheduling Optimization to schedule agreement work orders, here are three options:
 
-1. Have the agreement auto generate work orders and ensure the generated work order is picked up by the resource scheduling optimization scope.
-2. Have the agreement auto generate and book work orders and ensure the preferred resource it's scheduled to is enabled for resource scheduling optimization and the booking status of the related booking can be optimized. You can use schedule lock options on the booking to ensure the agreement booking remains scheduled to that resource, time slot, or both.
-3. Create a specific resource scheduling optimization schedule and scope that only considers work orders generated from agreements. This allows you to set specific cadences and priorities for when agreement work order bookings are optimized.
+1. Have the agreement auto generate work orders and ensure the generated work order is picked up by the Resource Scheduling Optimization scope.
+2. Have the agreement auto generate and book work orders and ensure the preferred resource it's scheduled to is enabled for Resource Scheduling Optimization and the booking status of the related booking can be optimized. You can use schedule lock options on the booking to ensure the agreement booking remains scheduled to that resource, time slot, or both.
+3. Create a specific Resource Scheduling Optimization schedule and scope that only considers work orders generated from agreements. This allows you to set specific cadences and priorities for when agreement work order bookings are optimized.
 
 ### Using invoices and entitlements with agreements
 

@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Work with marketing calendars
@@ -99,6 +95,5 @@ To create a new calendar item while working in day or week view:
 ### See also
 
 [Create and customize marketing calendars](customize-marketing-calendars.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

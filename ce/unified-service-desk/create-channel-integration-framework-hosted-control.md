@@ -3,14 +3,10 @@ title: "Encode and escape characters with Channel Integration Framework hosted c
 description: "Learn how to create a Channel Integration Framework hosted control in Dataverse for Unified Service Desk."
 ms.date: 11/16/2020
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin

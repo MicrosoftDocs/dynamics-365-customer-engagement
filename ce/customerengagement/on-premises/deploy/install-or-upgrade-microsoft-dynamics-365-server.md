@@ -14,7 +14,6 @@ ms.assetid: 06fae39f-6455-46af-adf7-23b6a1793e93
 caps.latest.revision: 39
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Install or upgrade Microsoft Dynamics 365 Server
 

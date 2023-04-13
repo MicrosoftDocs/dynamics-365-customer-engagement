@@ -7,9 +7,6 @@ ms.date: 09/08/2022
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Turn on auto geocoding to calculate estimated travel time
