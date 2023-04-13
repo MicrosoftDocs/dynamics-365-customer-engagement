@@ -100,15 +100,8 @@ The following limitations apply to Customer Service workspace:
 
 The legacy layout has been deprecated and will be removed in October 2023.
 
-:::image type="content" source="media/csw-overview.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png":::
+:::image type="content" source="media/csw-overview-mini.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png":::
 
-1. Select the Home icon to return to the Customer Service Agent Dashboard view.
-1. The session pane shows all the sessions you've opened. Select the icons to navigate between sessions.
-1. Select the + icon in the tab bar to open more workspaces in a new tab. If you hold the Ctrl key while you select a case or an activity, the case or activity opens in a new tab, too. Select a tab to navigate between sessions.
-1. Select the arrow to choose a different view.
-1. Select a case or an activity to open a new session. The session replaces your current view with the case form.
-1. Select the back arrow in the upper-left corner of the form to get back to your previous view. To open the case or activity in a new tab, hold the Ctrl key while you select it.
-1. Select the arrow to view a different dashboard.
 
 ### Turn on legacy layout (deprecated)
 
