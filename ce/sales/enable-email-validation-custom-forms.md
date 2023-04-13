@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The email validation feature in Dynamics 365 Sales helps you to validate email addresses. This feature is enabled by default for the main lead and contact forms in the Sales Hub app. If you have customized main lead form, you need to enable it manually.  
+The email validation feature in Dynamics 365 Sales helps you to validate email addresses. This feature is enabled by default for the main lead and contact forms in the Sales Hub app. If you have customized the main lead form, you need to enable email validation manually.  
 
 >[!NOTE]
 >The customizations can only be applied to main forms of Contact and Lead tables in the custom app.
