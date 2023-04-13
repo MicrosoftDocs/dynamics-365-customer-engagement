@@ -16,4 +16,4 @@ search.audienceType:
 # Test SVG image
 
 > [!div class="mx-imgBorder"]
-> ![Hub SVG screenshot.](media/hub-test-image.svg.png "Hub SVG screenshot")
+> ![Hub SVG screenshot.](media/hub-test-image.svg "Hub SVG screenshot")
