@@ -17,21 +17,21 @@ In the following workflow, which represents a single conversation, you'll see th
 
 ## Abandoned conversations
 
-Abandoned conversations lead to customer dissatisfaction because of lack of assistance from the contact center. A conversation can be abandoned for multiple reasons, such as customer getting disconnected or leaving due to long waiting periods, force closure of requests by supervisors, automatic system actions configured to respond to handle overflow. A higher abandoned rate can result in decreased customer satisfaction and may need further investigations into operational metrics such as agent availability and queue distribution.
+A conversation can be abandoned for multiple reasons, such as customer getting disconnected or cancelling the call due to a long waiting period, force closure of requests by supervisors, automatic system actions configured to respond to handle overflow. Abandoned conversations lead to customer dissatisfaction because of lack of assistance from the contact center. A higher abandoned rate may need further investigation into operational metrics such as agent availability and queue distribution.
 
 **If a bot handles the customer before escalating the request to human agent, it is calculated as the count of conversations that were abandoned while waiting for a human agent after escalation from bot. If the conversation is abandoned before a bot can be assigned, the conversation is considered abandoned.**
 
-**Customers reach human agent queue directly- This metric is calculated as count of incoming conversations that were abandoned.** 
+**Customers reach human agent queue directly- This metric is calculated as count of incoming conversations that were abandoned.**
 
 The conversation direction is Incoming. Channels through which the conversation came in are Messaging and Voice.
 
 **Related metric**
 
-Abandoned rate refers to the percentage of incoming conversation requests that ended before customers were connected to a human agent. This metric is calculated as the count of abandoned conversations divided by the count of bot-escalated conversations.
+- Abandoned rate: Abandoned rate refers to the percentage of incoming conversation requests that ended before customers were connected to a human agent. This metric is calculated as the count of abandoned conversations divided by the count of bot-escalated conversations.
 
 ## Active conversations awaiting agent acceptance
 
-Active conversations awaiting agent acceptance is the count of conversations requests from customers that have been agents assigned, but are currently waiting for the agent to accept the request and join the conversation. These conversations will revert to an Open conversation, if the agent chooses to reject the request **or if they respond to the request.**
+Active conversations awaiting agent acceptance is the count of conversation requests from customers that have been agents assigned, but are currently waiting for the agent to accept the request and join the conversation. These conversations revert to an Open conversation, if the agent chooses to reject the request **or if they respond to the request.**
 
 ## Active conversations with agent acceptance
 
