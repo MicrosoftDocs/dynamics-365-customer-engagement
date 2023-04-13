@@ -4,7 +4,6 @@ description: "Perform the steps mentioned in the topic to remove solutions in Om
 ms.date: 05/13/2022
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Uninstall solutions in Omnichannel for Customer Service

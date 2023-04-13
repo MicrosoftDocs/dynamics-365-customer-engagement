@@ -5,9 +5,6 @@ ms.date: 02/20/2023
 ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Schedule requirements to a resource pool

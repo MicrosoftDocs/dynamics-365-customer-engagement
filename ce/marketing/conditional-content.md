@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # How to use conditional content
@@ -91,3 +87,5 @@ As shown above, conditional content is a great way to deliver different images a
 Conditional content created at the section level can be saved as a [content block](content-blocks.md). This way, multiple conditions and their associated content are all saved inside a single content block for anyone to use. Creating conditions is easy, but does require some knowledge of customer data and, therefore, some users may find it harder to create conditions without errors. Saving conditional content as a content block is a great way to reduce errors and enable everyone on the team to use advanced conditions.
 
 Using content blocks can also help drive consistency. For example, a “high-value customer” may require using multiple conditions. To make interactions more consistent, you can create a “starter” content block that has advanced conditions (tested and verified) with placeholder content. Anyone can then use the starter content block and update the content, so a standard and correct definition of “high value customer” is applied everywhere.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

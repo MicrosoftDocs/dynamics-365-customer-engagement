@@ -15,7 +15,6 @@ author: Mattp123
 ms.assetid: 4ddcfcf3-5604-4b93-a5ee-589d4fb97fa4
 caps.latest.revision: 33
 ms.author: matp
-manager: kvivek
 tags: 
 ---
 # Set managed properties for a field

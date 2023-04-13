@@ -5,9 +5,6 @@ ms.date: 02/13/2023
 ms.topic: how-to
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Create a booking alert

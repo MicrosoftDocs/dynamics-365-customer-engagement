@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: what-fields-synchronized-outlook
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

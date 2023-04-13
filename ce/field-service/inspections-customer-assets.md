@@ -5,9 +5,6 @@ ms.date: 03/08/2023
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Use inspections without work orders

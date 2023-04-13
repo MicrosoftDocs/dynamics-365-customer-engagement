@@ -5,7 +5,6 @@ ms.date: 12/31/2019
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
-manager: "shujoshi"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
 # msdyn_SessionParticipantData Entity Reference for Dynamics 365 Channel Integration Framework 1.0

@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Configure your social media accounts
@@ -48,6 +44,5 @@ You can delete a social configuration at any time to prevent Dynamics 365 Market
 
 [Open the administration settings](open-settings.md)  
 [Schedule and post messages on social media](social-posting.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

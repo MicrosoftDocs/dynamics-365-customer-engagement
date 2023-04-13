@@ -1,11 +1,10 @@
 ---
 title: "Recalculate an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Recalculate the opportunity in Dynamics 365 Sales to change the estimated revenue of an opportunity based on any changes you've made to the associated products or product quantities."
-ms.date: 03/20/2023
+ms.date: 04/05/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Recalculate an opportunity in Dynamics 365 Sales
 
@@ -24,7 +23,7 @@ To change the estimated revenue value of an opportunity based on any changes to 
 
 1. In the list of opportunities, open the opportunity for which you want to recalculate the estimated revenue.
 
-2. Go to the **Product Line Items** tab, and verify that **Revenue** is set to **System Calculated**.
+2. Go to the **Product line items** tab, and verify that **Revenue** is set to **System Calculated**.
 
 3. In the grid, modify the list of products associated with the opportunity.
 

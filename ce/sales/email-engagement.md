@@ -5,7 +5,6 @@ ms.date: 02/27/2023
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Use email engagement to view message interactions 
 

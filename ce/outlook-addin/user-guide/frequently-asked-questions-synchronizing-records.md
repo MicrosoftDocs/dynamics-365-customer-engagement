@@ -19,14 +19,10 @@ ms.assetid: a6b483be-88ff-4264-b834-92a536deb45e
 caps.latest.revision: 52
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook
 ## What's the best way to use Outlook and Microsoft Dynamics 365 apps together?  

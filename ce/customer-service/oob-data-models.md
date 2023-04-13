@@ -5,15 +5,11 @@ ms.date: 10/03/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Data models and report mappings for historical analytics reports in Customer Service
@@ -444,7 +440,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 
 ### See also
 
-[Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service)  
+[Customize the visual display of your analytics reports](customize-reports.md#customize-the-visual-display-of-your-analytics-reports) <br>  
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md) <br>
 [Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md) <br>
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md) <br>

@@ -6,9 +6,6 @@ ms.date: 11/04/2019
 ms.topic: article 
 author: FeifeiQiu
 ms.author: feiqiu
-search.app: 
-  - D365CE
-  - D365FS
 --- 
 
 # Single resource optimization for Resource Scheduling Optimization

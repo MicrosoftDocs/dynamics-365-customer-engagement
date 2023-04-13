@@ -5,7 +5,6 @@ ms.date: 02/07/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Digital selling capabilities in Sales Enterprise

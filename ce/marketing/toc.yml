@@ -240,11 +240,11 @@
           href: real-time-marketing-email.md
         - name: "Preview: Use AI to kickstart email creation with content ideas"
           href: content-ideas.md
-        - name: "Preview: Send emails without building a journey"
+        - name: Send emails without building a journey
           href: email-without-journey.md
         - name: Use brand profiles in real-time marketing email
           href: brand-profiles-email.md
-      - name: "Preview: Real-time marketing forms"
+      - name: "Real-time marketing forms"
         href: real-time-marketing-form-editor.md
       - name: Text messages
         items:
@@ -298,22 +298,28 @@
           href: real-time-marketing-business-goals.md
         - name: Experiment and refine real-time marketing journeys
           href: real-time-marketing-experimentation.md
-      - name: Advanced journey capabilities
-        items: 
+      - name: Enhance your journeys
+        items:
+        - name: Edit a live journey
+          href: real-time-marketing-edit-journey.md        
+        - name: "Preview: Enhanced journey reminders"
+          href: real-time-marketing-enhanced-journey-reminders.md
+        - name: Add email CC recipients to journeys
+          href: real-time-marketing-add-cc-recipients.md         
         - name: Real-time marketing journey tile reference
           href: real-time-marketing-tile-reference.md
-        - name: Edit a live journey
-          href: real-time-marketing-edit-journey.md
+      - name: Advanced journey capabilities
+        items: 
         - name: Personalize journey variations using multiple journey branches
           href: real-time-marketing-multiple-branches.md
         - name: Personalize triggers using conditions
           href: real-time-marketing-personalize-triggers.md
+        - name: Limit sent with frequency capping
+          href: real-time-marketing-frequency-cap.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
         - name: Customize the journey designer in real-time Marketing
           href: real-time-marketing-journey-designer.md
-        - name: Add email CC recipients to journeys in real-time marketing
-          href: real-time-marketing-add-cc-recipients.md  
     - name: Analytics
       items:
       - name: Access and interpret analytics
@@ -322,7 +328,7 @@
         href: real-time-marketing-cross-journey-analytics.md
       - name: How to use aggregate channel analytics
         href: real-time-marketing-channel-analytics.md
-      - name: "Preview: Track campaigns with UTM codes"
+      - name: Track campaigns with UTM codes
         href: real-time-marketing-utm.md
     - name: Personalization
       items:
@@ -338,8 +344,12 @@
         href: real-time-marketing-personalize-inline-conditions.md
       - name: Personalize lists
         href: real-time-marketing-personalize-lists.md
+      - name: Preview personalized content
+        href: real-time-marketing-preview-personalized-content.md
     - name: Assets
       items: 
+      - name: Asset libary add-on file migration
+        href: real-time-marketing-add-on-migration.md
       - name: Real-time marketing asset library add-on
         href: real-time-marketing-asset-library.md
       - name: Use images, files, and videos in your content
@@ -366,11 +376,11 @@
         href: add-ons.md
       - name: Business units 
         items:
-        - name: "Preview: Business unit support in real-time marketing"
+        - name: Business unit support in real-time marketing
           href: real-time-marketing-business-units.md
         - name: Support for modernized business units 
           href: real-time-marketing-modernized-business-units.md
-        - name: BU FAQ for real-time marketing
+        - name: Business units FAQ for real-time marketing
           href: real-time-marketing-business-unit-faq.md  
     - name: Developer
       items: 
@@ -396,6 +406,10 @@
         href: real-time-marketing-developer-push.md
       - name: Receive notifications and create interactions
         href: real-time-marketing-developer-notifications.md
+      - name: Integrate a custom captcha service with marketing forms
+        href: real-time-marketing-form-custom-captcha.md
+      - name: Client-side extensibility for forms
+        href: developer/realtime-marketing-form-client-side-extensibility.md
       - name: Reference guide for real-time marketing interactions
         href: real-time-marketing-interactions-reference.md
       - name: Create a real-time marketing segment using the Web API
@@ -814,6 +828,12 @@
       href: learning-functional-consultant.md
     - name: Partner Sales and Marketing
       href: learning-sales.md
+  - name: Responsible AI transparency notes
+    items:
+    - name: Overview
+      href: transparency-note-overview.md
+    - name: Transparency note for content ideas
+      href: transparency-note-content-ideas.md
   - name: "Deprecation: Dynamics 365 for Customer Engagement"
     href: ce-deprecation.md
   - name: Troubleshoot with Solution Health Hub

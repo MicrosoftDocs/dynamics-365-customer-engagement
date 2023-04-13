@@ -5,7 +5,6 @@ ms.date: 07/01/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Customize session forms
 
@@ -33,6 +32,6 @@ As a system customizer, you might want to customize the session forms to suit yo
 ### See also
 
 [Omnichannel system customizers](omnichannel-customizer.md)  
-[Customize Customer summary form](customize-customer-summary.md)  
+[Customize Active Conversation form](customize-customer-summary.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

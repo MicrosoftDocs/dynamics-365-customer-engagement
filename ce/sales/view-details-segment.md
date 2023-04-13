@@ -4,7 +4,6 @@ description: View the details of a segment such as, connected sequences, segment
 ms.date: 03/28/2023
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.topic: how-to
 ms.custom: bap-template
 ---

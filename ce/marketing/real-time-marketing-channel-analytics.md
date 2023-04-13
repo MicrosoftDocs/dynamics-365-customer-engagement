@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # How to use aggregate channel analytics
@@ -64,3 +60,5 @@ This section highlights the spam rate and unsubscribe rate for emails. For text 
 Here are some advanced resources for this topic:
 
 - [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

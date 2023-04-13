@@ -6,7 +6,6 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Grant access to who knows whom information

@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Authenticate your domains in real-time marketing
@@ -119,3 +115,5 @@ Technically it is possible to add www.yourdomain.com to use it for sending email
 ### See also
 
 [Domain authentication in Outbound marketing](mkt-settings-authenticate-domains.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

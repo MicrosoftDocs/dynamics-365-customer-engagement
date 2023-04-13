@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Push notification setup for application developers
@@ -244,3 +240,5 @@ public class DeviceRegistrationContract {
     } 
 }
 ```
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

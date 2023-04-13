@@ -7,13 +7,9 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Public IP addresses used for sending e-mails
@@ -47,3 +43,5 @@ Th Azure IP Ranges and Service Tags document shows the full list of IP ranges us
 
 > [!IMPORTANT]
 > In case of emergency, the geo-based IP addresses may be rotated. For better reliability and redundancy, it is strongly recommend to allow list all specified IP ranges.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

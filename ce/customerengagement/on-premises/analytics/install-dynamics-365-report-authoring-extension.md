@@ -10,7 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: Mattp123
 ms.author: matp
-manager: kvivek
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: 2add576b-ccf1-46cf-85b3-dde0af8cbab5

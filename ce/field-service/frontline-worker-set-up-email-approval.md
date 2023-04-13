@@ -7,9 +7,6 @@ author: jasonccohen
 ms.subservice: field-service-mobile
 ms.date: 04/01/2021
 ms.topic: conceptual
-search.app:
-  - D365CE
-  - D365FS
 ---
 
 # Send frontline workers a download link for the mobile app

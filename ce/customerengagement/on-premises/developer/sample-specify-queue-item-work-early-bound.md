@@ -17,7 +17,6 @@ ms.assetid: be171519-f8d0-43e6-b5a7-770802da47db
 caps.latest.revision: 18
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 ---

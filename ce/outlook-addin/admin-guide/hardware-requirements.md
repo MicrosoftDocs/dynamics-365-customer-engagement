@@ -14,14 +14,10 @@ ms.assetid: 3dbb25e8-befe-4466-9614-5d0b84e83ea7
 caps.latest.revision: 31
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Microsoft Dynamics 365 for Outlook hardware requirements
 The following table lists the minimum recommended hardware requirements when you run [!INCLUDE [pn-microsoft-dynamics-crm-for-outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] in either online only or go offline enabled modes.  

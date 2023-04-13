@@ -5,7 +5,6 @@ ms.date: 07/01/2020
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Monitor real-time customer sentiment
@@ -70,10 +69,10 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Enable sentiment analysis](enable-sentiment-analysis.md)  
 [Manage sessions](oc-manage-sessions.md)  
 [Manage applications](oc-manage-applications.md)  
-[View the customer summary](oc-customer-summary.md)  
+[View customer information on Active Conversation form](oc-customer-summary.md)  
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [Take notes specific to a conversation](oc-take-notes.md)  
-[View the customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+[View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
