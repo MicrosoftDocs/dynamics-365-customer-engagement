@@ -5,13 +5,16 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/04/2023
+ms.date: 04/13/2023
 ms.custom: bap-template 
 ---
 
 # Enable duplicate lead detection for custom forms
 
 The duplicate lead detection feature in Dynamics 365 Sales helps you to detect duplicate leads. This feature is enabled by default for standard lead forms. You can enable this feature for custom lead forms. 
+
+>[!NOTE]
+>Customizations can only be applied to custom apps for the main forms of leads.
 
 ## License and role requirements
 

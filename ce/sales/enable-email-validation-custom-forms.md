@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/04/2023
+ms.date: 04/13/2023
 ms.custom: bap-template 
 ---
 
@@ -14,6 +14,9 @@ ms.custom: bap-template
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The email validation feature in Dynamics 365 Sales helps you to validate email addresses. This feature is enabled by default for standard lead and contact forms. You can enable this feature for custom lead and contact forms. 
+
+>[!NOTE]
+>Customizations can only be applied to custom apps for the main forms of contacts and leads.
 
 ## License and role requirements
 
@@ -51,8 +54,11 @@ You can do the following customization for email validation:
 1. Save and publish the form.
 
     Under the **Handlers** section, you can see the required event handler is added to the **Contact** form. 
+    Once you add the event handler, enable the email validation feature from the sales hub app. For more information, see [Enable email validation](enable-email-validation.md).
 
 ### Add email control 
+
+You must add the email control only to the primary email address field.
 
 >[!NOTE]
 >In this example, we're using the **Contact** entity. You can use the same steps to add the email control for the custom lead entity forms.
@@ -66,6 +72,8 @@ You can do the following customization for email validation:
     >[!NOTE]
     >Verify that the **Show component on** options for **Email address (default)** are removed.
 1. Save and publish the form.  
+
+Once you add the email control, enable the email validation feature from the sales hub app. For more information, see [Enable email validation](enable-email-validation.md).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
