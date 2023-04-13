@@ -331,7 +331,7 @@ items:
     - name: Send technician arrival time and current map location
       href: customer-portal-technician-tracking.md
     - name: Let customers schedule service appointments
-      href: customer-portal-invitation.md
+      href: customer-portal-self-scheduling.md
 
 - name: Connected Field Service (IoT)
   items: 

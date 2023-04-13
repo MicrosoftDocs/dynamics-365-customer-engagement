@@ -48,7 +48,7 @@ Before inviting your customer to self-schedule service appointments, review the 
 1. [Create and configure the Field Service Portal (preview)](create-configure-customer-portal.md)
 1. [Set up notifications for the Field Service Portal (preview)](customer-portal-notification-settings.md)
 1. If you want customers to see information about their technician location and arrival time, see [Track a technician](customer-portal-technician-tracking.md)
-1. To make sure end customers can use a homepage, enable self-scheduling in Field Service. [Enable customers to self-schedule service appointments (preview)](customer-portal-invitation.md)
+1. To make sure end customers can use a homepage, enable self-scheduling in Field Service. [Enable customers to self-schedule service appointments (preview)](customer-portal-self-scheduling.md)
 
 ## Known limitations
 
@@ -64,6 +64,6 @@ Before inviting your customer to self-schedule service appointments, review the 
 
 - [Create and configure the Field Service Portal (preview)](create-configure-customer-portal.md)
 - [Set up notifications for the Field Service Portal (preview)](customer-portal-notification-settings.md)
-- [Enable customers to self-schedule service appointments (preview)](customer-portal-invitation.md)
+- [Enable customers to self-schedule service appointments (preview)](customer-portal-self-scheduling.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
