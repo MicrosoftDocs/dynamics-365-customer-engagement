@@ -1112,18 +1112,16 @@
         items:
         - name: Dimensions
           href: analytics-oc-metrics.md
-        - name: FactConversation
+        - name: Conversation
           href: oc-metrics-factconversation.md
-        - name: FactConversationMessageBlock
+        - name: Conversation Message Analytics
           href: oc-metrics-facts-conversationmesgblock.md
-        - name: FactSession
+        - name: Session
           href: oc-metrics-facts-session.md
-        - name: FactSessionParticipant
+        - name: Session Participant
           href: oc-metrics-facts-sessionparticipant.md
-        - name: AgentCapacityProfileCount
+        - name: Agent
           href: oc-metrics-facts-agentcapacityprofilecount.md
-        - name: FactAgentStatusHistory
-          href: oc-metrics-factagentstatushistory.md
       - name: Personalize analytics
         items: 
         - name: Manage report filters
