@@ -66,20 +66,11 @@ When you work on a case, the productivity pane on the right side of the Customer
 
 More information: [Productivity pane](csw-productivity-pane.md)
 
-
 ### View the agent calendar (preview)
 
 As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your work hours, non-work hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly views. It also has an agenda view lets you see a list-type view of your schedule. 
 
-1. In Customer Service workspace, select the **Customer Service Agent Dashboard** page from the **System Dashboards** dropdown menu.
-
-1. In the site map, select the plus (+) icon, and then select **My Schedule** from the dropdown menu.
-
-   :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the dropdown menu with the calendar option selected.":::
-
-   The **My Schedule** page opens with a read-only calendar view of the work hours, non-work hours, and any time off you've scheduled. Use the command bar at the top to change the view to agenda, daily, weekly, or monthly.
-
-   :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
+More information: [View the agent calendar](use-agent-calendar.md)
 
 ## Work with cases, activities, knowledge articles, and email templates
 
@@ -150,6 +141,7 @@ The legacy layout has been deprecated and will be removed in October 2023.
 [Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md)  
 [Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md)  
 [Overview of the productivity pane](csw-productivity-pane.md)  
+[View the agent calendar](use-agent-calendar.md)  
 [Migrate from Unified Service Desk to Customer Service workspace](../unified-service-desk/admin/migrate-to-csw.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
