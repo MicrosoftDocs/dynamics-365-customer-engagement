@@ -13,10 +13,10 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The email validation feature in Dynamics 365 Sales helps you to validate email addresses. This feature is enabled by default for standard lead and contact forms. You can enable this feature for custom lead and contact forms. 
+The email validation feature in Dynamics 365 Sales helps you to validate email addresses. This feature is enabled by default for the main lead and contact forms in the Sales Hub app. If you have customized main lead form, you need to enable it manually.  
 
 >[!NOTE]
->Customizations can only be applied to custom apps for the main forms of contacts and leads.
+>The customizations can only be applied to main forms of Contact and Lead tables in the custom app.
 
 ## License and role requirements
 
@@ -25,23 +25,22 @@ The email validation feature in Dynamics 365 Sales helps you to validate email a
 | **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## Customization email validation
+## How to enable email validation
 
-You can do the following customization for email validation:  
-- Add an event handler to the **OnLoad** event. When the **OnLoad** event handler is added, the email validation message is displayed while composing an email if the email address is invalid. More information: [Add an event handler to the OnLoad event](#add-an-event-handler-to-the-onload-event).
-- Add email control to the custom forms. When the email control is added to the custom forms, the email validation icon is displayed corresponding to the email form field. More information: [Add email control](#add-email-control).
+You can add the following customization for email validation:  
+- To validate email addresses while composing an email,  add an event handler to the OnLoad event. If the email address is invalid, a validation message will be displayed. More information: [Add an event handler to the OnLoad event](#add-an-event-handler-to-the-onload-event).
+- To add an email validation icon to the email field, add the email control to the custom form. More information: [Add email control](#add-email-control).
 
 ### Add an event handler to the OnLoad event
 
 >[!NOTE]
->In this example, we're using the **Contact** entity. You can use the same steps to add an event handler to the **OnLoad** event for the custom lead entity forms.
+>In this example, we're using the **Contact** table. You can use the same steps to add an event handler to the **OnLoad** event for the main lead forms.
 
 1. Sign in to the [Power Apps](https://make.powerapps.com/) portal.  
 1. Search for and select your organization's environment.   
-1. From the site map, select **Tables** and then select the table.  
-1. Under the **Data experiences** section, select **Forms** and then select the form you want to customize.  
-    The **Contact** form opens.
-1. On the **Contact** main form pane that opens on the right side, select the **Events** tab.   
+1. From the site map, select **Tables** and then select the contact table..  
+1. Under the **Data experiences** section, select **Forms** and then select your custom contact form of type Main.  
+1. On the Main form pane that opens on the right side, select the **Events** tab.   
 1. Under the **On Load** section, select **+ Event Handler**.   
 1. On the **Configure Event** dialog box, select **+ Add library**.
 1. Add the **DataHygiene/Data/salesdatahygiene_form_notification_library.js** library and then select it from the list.  
@@ -53,19 +52,17 @@ You can do the following customization for email validation:
 
 1. Save and publish the form.
 
-    Under the **Handlers** section, you can see the required event handler is added to the **Contact** form. 
-    Once you add the event handler, enable the email validation feature from the sales hub app. For more information, see [Enable email validation](enable-email-validation.md).
+    Under the **Handlers** section, you can see the required event handler is added to the form. Now, enable the email validation feature from the Sales Hub app. For more information, see [Enable email validation](enable-email-validation.md).
 
 ### Add email control 
 
 You must add the email control only to the primary email address field.
 
 >[!NOTE]
->In this example, we're using the **Contact** entity. You can use the same steps to add the email control for the custom lead entity forms.
+>In this example, we're using the **Contact** table. You can use the same steps to add the email control for the main lead forms.
 
 1. Open the contact form as described in the [Add an event handler to the OnLoad event](#add-an-event-handler-to-the-onload-event) section.
 1. On the New Contact form, Under the **CONTACT INFORMATION** section, select **Email**.
-    The **Email** field pane opens on the right side. 
 1. In the **Properties** tab, under the **Components** section, select **+ Component**.
 1. On the **Add component** dialog box, add the **ValidatedField_Control** component and then select it. 
 1. Select the options for web, mobile, and tablet and then select **Done**.  
@@ -73,7 +70,7 @@ You must add the email control only to the primary email address field.
     >Verify that the **Show component on** options for **Email address (default)** are removed.
 1. Save and publish the form.  
 
-Once you add the email control, enable the email validation feature from the sales hub app. For more information, see [Enable email validation](enable-email-validation.md).
+Now, enable the email validation feature from the Sales Hub app. For more information, see [Enable email validation](enable-email-validation.md).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
