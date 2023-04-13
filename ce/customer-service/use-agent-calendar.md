@@ -12,7 +12,7 @@ ms.custom: bap-template
  
 # View the agent calendar (preview)
 
-As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your work hours, non-work hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly views. It also has an agenda view lets you see a list-type view of your schedule. 
+As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your work hours, non-work hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly views. It also has an agenda view where you can see a list-type view of your schedule. 
 
 1. In Customer Service workspace, select the **Customer Service Agent Dashboard** page from the **System Dashboards** dropdown menu.
 
