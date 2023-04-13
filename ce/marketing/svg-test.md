@@ -17,3 +17,6 @@ search.audienceType:
 
 > [!div class="mx-imgBorder"]
 > ![Hub SVG screenshot.](media/hub-test-image.svg "Hub SVG screenshot")
+
+> [!div class="mx-imgBorder"]
+> ![SVG screenshot.](media/hub-test-2.svg "SVG screenshot")
