@@ -23,6 +23,10 @@
         "LandingData": "Content"
       },
       "build_entry_point": "docs",
+      "redirection_files": [
+        ".openpublishing.redirection.json",
+        "ce/unified-service-desk/.openpublishing.redirection.usd.json"
+      ],
       "template_folder": "_themes",
       "moniker_groups": [],
       "version": 0,
