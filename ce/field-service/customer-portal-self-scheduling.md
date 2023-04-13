@@ -1,6 +1,6 @@
 ---
-title: Use the portal to schedule service appointments (preview)
-description: Access the Field Service portal and create or manage bookings.
+title: Enable self-scheduling service appointments in Dynamics 365 Field Service (preview)
+description: Learn how to allow customers to schedule work orders via a customer portal in Dynamics 365 Field Service.
 ms.date: 03/05/2023
 ms.topic: how-to
 author: m-hartmann
@@ -10,7 +10,7 @@ search.app:
   - D365FS
 ---
 
-# Use the portal to schedule service appointments (preview)
+# Enable self-scheduling service appointments in Dynamics 365 Field Service (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
@@ -103,3 +103,49 @@ Canceled and completed appointments move to the **Past appointments** tab. [Opti
 
 > [!div class="mx-imgBorder"]
 > ![List of past appointments in the customer experience portal, showing the option to send feedback.](./media/homepage-past-bookings-with-send-feedback-option-for-completed-bookings.jpg)
+
+## Manually send an invite to a contact
+
+Before customers can use the Field Service portal, make sure you [configured the portal settings](create-configure-customer-portal.md) and enabled notifications.
+
+On a Field Service contact record, you can manually generate a portal invite code by selecting **Create Invitation**. Additionally, you need to assign the **Web Api Users** web role to the user before they can access the portal.
+
+To set the required role:
+
+1. On the contact record, select **Related** > **Web Roles**.
+1. Select **Add Existing Web Role** and choose the **Web API User** role.
+1. Select **Add** and save the changes.
+
+## Advanced user notification scenarios
+
+### Receive a new self-scheduling invite for contacts that were deleted and added again
+
+A contact with a matching email will only receive the portal invite once, even if the contact is deleted and readded to the system. You can work around this with the following steps:
+
+1. Go to **Portal Management** app in the Power Apps admin center.
+1. Open the newly created contact record.
+1. On the command bar, select **Create Invitation**.
+1. From the newly created invitation record, copy the *Invite code*.
+1. Go to the **Web Roles** tab and select **Add existing web role**.
+1. Select the *Web Api Users* web role.
+1. Send the invite code and the portal link to desired email contact.
+
+From the portal side:
+
+1. Open your self-scheduling portal and go to the sign-in screen.
+2. Select **Redeem invitation**.
+3. Use the invite code to create a portal account.
+
+### Receive a password reset email
+
+Make sure you have the correct [business process flow](/power-automate/create-business-process-flow) enabled for this functionality.
+
+1. Go to **Field Service** > **Settings** > **Processes**.
+2. Search for **Send Password Reset to Contact**.
+3. Open the process to edit. Scroll down and select **View Properties**.
+4. Edit the **From** field to a user&mdash;most likely the same account you use to send notifications for the scheduling experience&mdash; and then select **Save and Close**.
+5. Go to **Settings** > **Email Configuration** > **Mailboxes**. 
+6. Select the user you set in step 4, select **Approve Email**, and then select **Test & Enable Mailbox**.
+
+> [!div class="mx-imgBorder"]
+> ![Field Service process edit page, showing the "Send Password Reset to Contact" process.](./media/SS-Process-sendemail.PNG)
