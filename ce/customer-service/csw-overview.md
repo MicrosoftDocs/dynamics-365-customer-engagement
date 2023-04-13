@@ -111,20 +111,6 @@ The legacy layout has been deprecated and will be removed in October 2023.
 1. Select the arrow to view a different dashboard.
 
 ### Turn on legacy layout (deprecated)
-1.	With Customer Service workspace open, press the F12 key to open the developer tools window.
-2.	In the console window, enter the following command: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
-3.	Refresh the app page.
-
-### Turn off the close session dialog
-
-1. With Customer Service workspace open, press the F12 key to open the developer tools window.
-1. In the console window, enter the following command: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)`
-1. Refresh the app page.
-
-### Turn on legacy navigation (deprecated)
-
-> [!NOTE]
-> The legacy navigation is deprecated and will be removed in a future release.
 
 You can enable the legacy layout in one of the following ways:
 
@@ -142,6 +128,21 @@ You can enable the legacy layout in one of the following ways:
  1. Refresh the app page.
 
 ---
+
+### Turn off the close session dialog
+
+1. With Customer Service workspace open, press the F12 key to open the developer tools window.
+1. In the console window, enter the following command: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)`
+1. Refresh the app page.
+
+### Turn on legacy navigation (deprecated)
+
+> [!NOTE]
+> The legacy navigation is deprecated and will be removed in a future release.
+
+1. With Customer Service workspace open, press the F12 key to open the developer tools window.
+1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
+1. Refresh the app page.
 
 ### See also
 
