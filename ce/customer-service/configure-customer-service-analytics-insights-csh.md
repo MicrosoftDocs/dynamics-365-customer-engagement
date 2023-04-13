@@ -51,9 +51,9 @@ Users with the system administrator or supervisor role can access the analytics 
 
 6. On the **Security roles** page, select the role that you just created or updated, and then select **Add people** to add users to the role.
 
-To bookmark a report, grant **Create**, **Read**, **Write**, and **Delete** privileges to the security roles as applicable, for the **Report Bookmark** custom entity. 
+To bookmark a report, grant **Create**, **Read**, **Write**, and **Delete** privileges to the security roles as applicable, for the **Report Bookmark** custom entity.
 
-To be able to edit analytics reports, grant the **Analytics Report Author** role. For information about assigning user roles, go to [Assign roles to users](add-users-assign-roles.md#assign-roles-to-users).
+To edit analytics reports, grant the **Analytics Report Author** role. For information about assigning user roles, go to [Assign roles to users](add-users-assign-roles.md#assign-roles-to-users).
 
 ### See also
 
