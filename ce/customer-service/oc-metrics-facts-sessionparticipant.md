@@ -1,15 +1,15 @@
 ---
-title: FactSessionParticipant
+title: SessionParticipant
 description: Learn about FactSessionParticipant metrics.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 04/11/2023
+ms.date: 04/13/2023
 ms.custom: bap-template
 ---
 
-# FactSessionParticipant
+# Session Participant
 
 ## External participant channel 
 An external agent can be involved in helping customer request by calling them directly on their phone number or via Microsoft teams PSTN call. This metric helps identify the channel through which external agents were engaged.  

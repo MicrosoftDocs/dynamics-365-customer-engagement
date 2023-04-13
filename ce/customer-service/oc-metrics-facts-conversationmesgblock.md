@@ -5,11 +5,11 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 04/11/2023
+ms.date: 04/13/2023
 ms.custom: bap-template
 ---
 
-# FactConversationMessageBlock
+# Message Level Analytics
 
 ## Average first response time
 First response time is calculated as the time take for a customer to get a first response from human agents, adjusted for operating hours. It is calculated as time different between the time a conversation was initiated by the customer (or escalation time in case of a bot escalated conversation) and the time a agent who has accepted the conversation responds to the customer.

@@ -1,15 +1,15 @@
 ---
-title: AgentCapacityProfileCount
-description: Learn about the AgentCapacityProfileCount metrics.
+title: Agent
+description: Learn about the AgentCapacityProfileCount and FactAgentStatusHistory metrics.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 04/11/2023
+ms.date: 04/13/2023
 ms.custom: bap-template
 ---
 
-# AgentCapacityProfileCount
+# Agent
 
 ## Assigned capacity profile count
 Count of capacity profiles assigned to agents.
@@ -38,6 +38,17 @@ Maximum capacity units assigned. Applies to organizations using capacity units.
 ## Total occupied capacity units
 Capacity units currently occupied.
 
+## End time 
+Represents time an agent moved from the status.
+ 
+## Start time 
+Represents time an agent entered a status.  
+ 
+## Status 
+Represents the status an agent was on.
+
+## Status duration  
+This metric Amount of time an agent spent in a presence status.  
 
 ## See Also
 

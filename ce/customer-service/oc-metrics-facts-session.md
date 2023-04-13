@@ -1,15 +1,15 @@
 ---
-title: FactSession
+title: Session
 description: Learn about FactSession metrics.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 04/11/2023
+ms.date: 04/13/2023
 ms.custom: bap-template
 ---
 
-# FactSession
+# Session
 
 ## Avg. session handle time
 
