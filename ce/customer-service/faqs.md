@@ -1,7 +1,7 @@
 ---
 title: FAQ about Omnichannel for Customer Service
 description: Learn about the frequently asked questions (FAQ) on the different features in Omnichannel for Customer Service and their requirements.
-ms.date: 03/16/2023
+ms.date: 04/13/2023
 ms.topic: concept
 author: neeranelli
 ms.author: nenellim
@@ -71,7 +71,7 @@ We recommend that you don't open Omnichannel for Customer Service in multiple br
 
 If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost; however, if you've entered some data on the model-driven forms where autosave has been enabled, they'll be saved into model-driven apps.
 
-Ongoing chat conversations appear on your Omnichannel Agent Dashboard. You can pick the chat from that dashboard and resume the conversation. The chat conversation is preserved, and you will be able to see the previous messages. If you were working on case sessions, you can reopen them using the gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](oc-manage-sessions.md#start-a-session).
+Ongoing chat and voice conversations appear on your Omnichannel Agent Dashboard. You can pick the chat or [voice call](voice-channel-agent-experience.md#how-to-avoid-call-disconnection) from the dashboard and resume the conversation. The chat or voice call conversation is preserved, and you will be able to see the previous chat messages. If you were working on case sessions, you can reopen them using the gestures. For information on starting a session, see [Manage sessions in Omnichannel for Customer Service](oc-manage-sessions.md#start-a-session).
 
 ### Does consult only work for managers and supervisors?
 
