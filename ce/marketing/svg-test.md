@@ -15,4 +15,5 @@ search.audienceType:
 
 # Test SVG image
 
-:::image type="content" source="media/hub-test-image.svg" alt-text="Hub SVG screenshot.":::
+> [!div class="mx-imgBorder"]
+> ![Hub SVG screenshot.](media/hub-test-image.svg.png "Hub SVG screenshot")
