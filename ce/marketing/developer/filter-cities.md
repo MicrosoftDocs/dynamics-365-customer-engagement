@@ -7,12 +7,8 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Filter cities based on countries using lookup fields and custom entities
@@ -189,3 +185,5 @@ The form can be hosted on a marketing page or an external site. In both cases, C
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the finished marketing form with filtering.](../media/filter-cities-finished-form.png "Screenshot of the finished marketing form with filtering")
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Manage consent for email and text messages in real-time marketing
@@ -103,3 +99,5 @@ You can keep track of all consent-related changes on a per contact record basis 
 
 > [!IMPORTANT]
 > If you restore data in customer journey orchestration, all consents will be returned to the state they were in at the time backup was made. This may result in consent data being obsolete. To avoid complications, export all consent data into Excel before starting the restore process and use it as a reference after the restore is completed.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

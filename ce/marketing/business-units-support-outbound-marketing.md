@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Business unit support in outbound marketing
@@ -88,3 +84,5 @@ To enable or disable this feature:
 
 > [!TIP]
 > The **Default for owning business unit** toggle will only appear when the **Business unit scoping** feature switch is enabled.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

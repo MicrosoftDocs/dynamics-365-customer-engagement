@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Define your message editor interface (optional)
@@ -99,3 +95,5 @@ If the message template isn't configured, Dynamics 365 Marketing supports and wi
 The form ID of this entity will be assigned to **msdyn_messageformid attribute** later at the [channel definition step](real-time-marketing-define-channel-definition.md).
 
 You can use custom controls on the form or use the out-of-the-box Marketing controls such as the **MsdynmktControls.RichTextControl.RichTextControl** that support personalization.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

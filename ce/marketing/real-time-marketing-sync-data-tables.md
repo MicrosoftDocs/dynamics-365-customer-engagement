@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Preview: Sync data tables into the segment builder
@@ -41,3 +37,5 @@ After you add the new table, you can use the attributes from Fax immediately in 
 
 > [!NOTE]
 > It can take up to 24 hours for a data table to be synchronized into the system. At this time, the segment member size estimate and preview features are not available. You cannot view the segment membership until the table is synchronized into the system.  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,7 +14,6 @@ ms.assetid: be02a7d8-d0a6-44b2-8e45-7216bb7045e5
 caps.latest.revision: 26
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # SQL Server requirements and recommendations for Microsoft Dynamics 365 Customer Engagement (on-premises)
 

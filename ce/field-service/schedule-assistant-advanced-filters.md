@@ -5,12 +5,9 @@ ms.date: 02/20/2023
 ms.topic: conceptual
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Advanced filters for the schedule assistant in Dynamics 365 Field Service
+# Advanced filters for the schedule assistant
 
 [!INCLUDE[schedule-assistant-advanced-filters.md](../shared/urs/schedule-assistant-advanced-filters.md)]
 

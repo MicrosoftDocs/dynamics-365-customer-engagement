@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Test custom triggers before using them
@@ -58,3 +54,5 @@ The following steps illustrate how to test the abandoned cart trigger.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of journey inflow.](media/real-time-marketing-test-send-inflow.png "Screenshot of journey inflow")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

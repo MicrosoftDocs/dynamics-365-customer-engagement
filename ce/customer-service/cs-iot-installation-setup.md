@@ -5,7 +5,6 @@ ms.date: 04/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Installation and setup - Connected Customer Service for IoT Hub

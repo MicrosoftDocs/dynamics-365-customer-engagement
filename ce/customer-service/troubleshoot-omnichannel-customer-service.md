@@ -5,7 +5,6 @@ ms.date: 02/18/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 # Troubleshoot issues in Omnichannel for Customer Service
 

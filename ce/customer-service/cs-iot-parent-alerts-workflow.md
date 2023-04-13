@@ -5,7 +5,6 @@ ms.date: 02/22/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # The IoT - Parent IoT Alerts workflow

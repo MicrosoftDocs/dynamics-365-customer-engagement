@@ -5,9 +5,6 @@ ms.date: 03/18/2023
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Share information through knowledge articles

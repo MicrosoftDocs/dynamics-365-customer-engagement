@@ -7,9 +7,6 @@ ms.subservice: common-scheduler
 ms.topic: article
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 

@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: reference
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # BIMI support
@@ -50,9 +46,11 @@ Microsoft, on the other side, has its approach known as "**brand cards**," which
 
 2. **Create a BIMI-compliant logo image**: To display your brand logo in email clients that support BIMI, you need to create a logo image that meets the BIMI specifications. BIMI requires that the logo image is a PNG file with a minimum resolution of 144x144 pixels and that the image file is hosted on a secure server (HTTPS). Additionally, the image file must be publicly accessible and located at a specific URL. **Learn more**: [Creating BIMI SVG Logo Files - BIMI Group](https://bimigroup.org/creating-bimi-svg-logo-files/)
 3. **Publish a BIMI record in DNS**: To set up BIMI, you need to publish a BIMI record in DNS. This involves adding a TXT record to your DNS zone file, which specifies the location of your brand logo image file and its dimensions. The format of the TXT record should be as follows:
-default._bimi.<your-domain> IN TXT "v=BIMI1; l=https://<url-to-your-brand-logo>; a=image/png; s=<width>x<height>;"
-Replace <your-domain> with your actual domain name, <url-to-your-brand-logo> with the URL to your brand logo image file, and <width> and <height> with the dimensions of your logo image in pixels. For example: default._bimi.contoso.com. IN TXT "v=BIMI1; l=[https://contoso.com/logo.png](https://contoso.com/logo.png); a=image/png; s=144x144;"
+default._bimi.\<your-domain\> IN TXT "v=BIMI1; l=https://\<url-to-your-brand-logo\>; a=image/png; s=\<width\>x\<height\>;"
+Replace \<your-domain\> with your actual domain name, \<url-to-your-brand-logo\> with the URL to your brand logo image file, and \<width\> and \<height\> with the dimensions of your logo image in pixels. For example: default._bimi.contoso.com. IN TXT "v=BIMI1; l=[https://contoso.com/logo.png](https://contoso.com/logo.png); a=image/png; s=144x144;"
 
-4. **Validate your BIMI record**: Use the [BIMI Validator tool](https://bimigroup.org/validator/) to ensure that your BIMI record is correctly formatted and that your brand logo image file is accessible from the specified URL.
+4. **Validate your BIMI record**: Use the [BIMI Validator tool](https://bimigroup.org/bimi-generator/) to ensure that your BIMI record is correctly formatted and that your brand logo image file is accessible from the specified URL.
 
 BIMI support is currently limited, so not all email clients or providers display the BIMI logo. However, by using BIMI with Microsoft Dynamics 365 Marketing, organizations can enhance the effectiveness of their email marketing campaigns and strengthen their brand's reputation.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

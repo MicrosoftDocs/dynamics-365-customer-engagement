@@ -5,7 +5,6 @@ ms.date: 11/18/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Take notes specific to conversation
@@ -35,8 +34,8 @@ Again, when you switch back to the session, launch the notes panel and take the 
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 - [View Communication panel](oc-conversation-control.md)
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
-- [View customer summary and know everything about customers](oc-customer-summary.md)
-- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [View customer information on Active Conversation form](oc-customer-summary.md)
+- [View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 

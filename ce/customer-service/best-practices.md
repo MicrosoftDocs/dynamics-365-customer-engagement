@@ -3,14 +3,10 @@ title: "Best practices to use Omnichannel for Customer Service | MicrosoftDocs"
 description: "This article provides information about the guidelines to use Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Best practices to use Omnichannel for Customer Service

@@ -5,7 +5,6 @@ ms.date: 03/08/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.reviewer: nenellim
 ms.custom: 
   - dyn365-customerservice
@@ -13,9 +12,6 @@ ms.custom:
 search.audienceType: 
   - admin
   - customizer
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Manage skills

@@ -5,7 +5,6 @@ ms.date: 05/07/2018
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Support for Unified Interface apps in Unified Service Desk

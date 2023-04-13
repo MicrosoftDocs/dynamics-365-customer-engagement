@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Real-time marketing triggers
@@ -61,3 +57,5 @@ Business triggers represent changes in Dynamics 365 applications such as Sales o
 - *Marketing form submitted*
 
 You can also create your own triggers based on any Dataverse record change. Learn more: [Trigger a journey based on a Dataverse record change](real-time-marketing-dataverse-trigger.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

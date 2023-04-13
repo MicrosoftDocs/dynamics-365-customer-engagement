@@ -7,9 +7,6 @@ ms.date: 09/07/2022
 ms.topic: article
 
 ms.subservice: resource-scheduling-optimization
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Optimization schedules in Resource Scheduling Optimization

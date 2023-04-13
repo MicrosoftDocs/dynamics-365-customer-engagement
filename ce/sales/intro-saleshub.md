@@ -5,7 +5,6 @@ ms.date: 11/15/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Use the Sales Hub app to access Dynamics 365 Sales features

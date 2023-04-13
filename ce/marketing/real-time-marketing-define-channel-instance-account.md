@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 # Define your extended configuration entity for the Channel Instance account
 
@@ -80,3 +76,5 @@ For example, in SMS, the form will look like this:
 
 > [!div class="mx-imgBorder"]
 > ![sms channel](media/real-time-marketing-sms-channel.png "sms channel")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

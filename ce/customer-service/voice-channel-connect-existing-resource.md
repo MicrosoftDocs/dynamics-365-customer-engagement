@@ -6,7 +6,6 @@ ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Advanced: Connect using an existing Azure resource

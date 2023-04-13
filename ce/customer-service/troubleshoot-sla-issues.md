@@ -1,18 +1,14 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Learn about SLA issues and how to troubleshoot them.
-ms.date: 03/20/2023
+ms.date: 03/23/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -186,6 +182,16 @@ If the customizations.xml file has the SLAs and you select **Overwrite Customiza
 
 - If you want to import other customizations in the solution, the SLAs don't need to be re-imported. You can remove them from the customizations.xml file.
 
+### Changes to a SLAItem through an upgrade solution don't appear even after a successful upgrade
+
+Changes like Applicable when, Success, Pause conditions, or adding action flows through an upgrade solution don't appear in the SLA of the target organization. This is the expected behavior, and is applicable to both UCI and legacy SLAs.
+ 
+#### Reason 
+When an SLA is activated or an SLAItem is modified manually on the organization (for example, Applicable when conditions, Success, Warning, or Failure actions), the upgrade solution changes aren't reflected. This is because the active layer takes precedence over the upgrade solution.
+
+#### Resolution
+We recommend that you make changes to a SLA or a SLAItem only through an upgrade solution. If the issue persists even after importing the patch solution, you can opt for the overwrite customization option while importing the full solution. Overwriting customization removes all the active layer customizations on the SLA, and therefore, all the changes in the upgrade solution are reflected. Overwrite customization might only be visible in Legacy Solution import.
+
 ## Troubleshoot issues with entitlements
 
 ### Unable to create entitlements because Allocation Type dropdown doesn't show any options
@@ -250,7 +256,7 @@ When you define the **Applicable when** and **Success condition** on the same at
 
 #### Resolution
 
-In such scenarios, we recommend that you don't define the **Applicable when** and **Success condition** on the same attribute.
+In such scenarios, it is recommended that you don't define the **Applicable when** and **Success condition** on the same attribute.
 
 ### Success, warning, and failure actions are being run multiple times in web client
 

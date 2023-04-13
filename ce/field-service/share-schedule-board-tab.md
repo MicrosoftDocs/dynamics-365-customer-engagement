@@ -5,9 +5,6 @@ ms.date: 02/21/2023
 ms.topic: article
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 

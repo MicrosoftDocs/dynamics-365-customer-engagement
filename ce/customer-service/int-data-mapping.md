@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/01/2023
+ms.date: 04/11/2023
 ms.custom: bap-template
 ---
 
@@ -31,7 +31,7 @@ To add an integrated search provider, you need to configure the knowledge articl
 
 ## Language mapping
 
-Irrespective of the configuration type that you use, if you have selected languages to be mapped in the **Authentication and testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale.md).
+Irrespective of the configuration type that you use, if you have selected languages to be mapped in the **Authentication and testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).
 
 ## Use field mapping
 
@@ -68,10 +68,10 @@ If the validation is successful, you'll see a confirmation message. If the valid
     The Regex patterns must have a capture group enclosed in parentheses that allows you to extract a specific portion of the matched text. Note that the text extracted will be from the first non-empty group of the first match. More information: [Grouping constructs](/dotnet/standard/base-types/regular-expression-language-quick-reference#grouping-constructs). Here are some examples of regex patterns to extract content from a specific div tag:
 
      - Based on the div tag id:
-         `` <div\b[^>]*id=\"your-id-name-here\"[^>]*>([\s\s]*?)<\/div>``
-    - Based on the div tag class: `` <div\b[^>]*class=\"your-class-name-here\"[^>]*>([\s\s]*?)<\/div>``
-    - For content inside body tag: ``<body[^>]*>([\s\s]*)<\/body>``
-    - For content inside head tag: ``<head[^>]*>([\s\s]*)<\/head>``
+         `` <div\b[^>]*id=\"your-id-name-here\"[^>]*>([\s\S]*?)<\/div>``
+    - Based on the div tag class: `` <div\b[^>]*class=\"your-class-name-here\"[^>]*>([\s\S]*?)<\/div>``
+    - For content inside body tag: ``<body[^>]*>([\s\S]*)<\/body>``
+    - For content inside head tag: ``<head[^>]*>([\s\S]*)<\/head>``
     
     For more information on Regex, go to: [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference).
 
@@ -85,4 +85,4 @@ If the validation is successful, you'll see a confirmation message. If the valid
 
 ## Next steps
 
-For more information on adding an integrated search provider, go to: [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview)
+For more information on adding an integrated search provider, go to: [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview).

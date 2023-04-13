@@ -1,12 +1,12 @@
 ---
 title: Manage contacts in the Dynamics 365 Sales mobile app
 description: Learn how to create and manage contacts in the Dynamics 365 Sales mobile app
-ms.date: 03/09/2022
+ms.date: 03/31/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
+
 # Manage contacts 
 
 In the Dynamics 365 Sales mobile app, you can view, edit, and create contacts.
@@ -18,6 +18,7 @@ In the Dynamics 365 Sales mobile app, you can view, edit, and create contacts.
 - [Create contact](#create-contact)
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

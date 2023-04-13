@@ -7,15 +7,11 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 ms.reviewer: renwe
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Troubleshoot email campaigns
@@ -45,3 +41,5 @@ If you're updating or creating links in raw HTML, you should understand the mean
     Both of the links above will create the same link clicked interactions. The first link will be visible in Outlook. The second link will be visible in non-Outlook clients such as Gmail.
 
 - Another important attribute is `data-msdyn-tracking`. This Boolean attribute controls link tracking. If it's set to *false*, the link won't be tracked, and you won't see whether a user has clicked the link.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

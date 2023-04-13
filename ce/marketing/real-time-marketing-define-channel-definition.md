@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Define your Channel Definition
@@ -105,3 +101,5 @@ The samples below include unpacked solutions for Dataverse and plugins projects.
 ```
 pac solution pack --zipfile C:\tmp\SampleCustomChannelSolution.zip -f src\Solutions\Samples\SampleCustomChannel\SampleCustomChannel.Solution\unmanaged --packagetype Both
 ```
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

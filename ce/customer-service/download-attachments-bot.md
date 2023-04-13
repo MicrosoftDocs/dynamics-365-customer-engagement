@@ -5,7 +5,6 @@ ms.date: 03/09/2023
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ms.custom: bap-template
 ---
 # Download file attachments from an Azure bot

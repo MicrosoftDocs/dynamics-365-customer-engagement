@@ -5,12 +5,8 @@ ms.date: 04/20/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
-  - Powerplatform
 applies_to: 
   - "Dynamics 365 apps"
 ---

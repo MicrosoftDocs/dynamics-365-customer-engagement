@@ -14,7 +14,6 @@ ms.assetid: 5ae8ee8a-7161-429d-90f6-1300263a2679
 caps.latest.revision: 11
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Dynamics 365 for tablets and IFD
 

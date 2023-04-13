@@ -5,13 +5,9 @@ ms.date: 10/12/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
-manager: "shujoshi"
 ms.reviewer: nenellim
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # msdyn_panetoolconfiguration Entity Reference
 

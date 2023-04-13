@@ -5,7 +5,6 @@ ms.date: 11/02/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 # setBotAuthTokenProvider
 

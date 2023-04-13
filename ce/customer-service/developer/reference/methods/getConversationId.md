@@ -5,7 +5,6 @@ ms.date: 02/18/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 # getConversationId

@@ -5,9 +5,6 @@ ms.date: 09/24/2022
 ms.topic: article
 author: lmasieri
 ms.author: lmasieri
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Create a work order to coordinate and schedule resources and activities
 

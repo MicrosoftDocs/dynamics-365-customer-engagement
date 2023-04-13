@@ -4,7 +4,6 @@ description: Learn how to configure an interactive experience dashboard for Micr
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Interactive service hub
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 

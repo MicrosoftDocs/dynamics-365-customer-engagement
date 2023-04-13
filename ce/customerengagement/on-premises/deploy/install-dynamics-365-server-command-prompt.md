@@ -14,7 +14,6 @@ ms.assetid: 0497afad-c0d9-4f6a-8b10-b08fe6b4e559
 caps.latest.revision: 16
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Install Microsoft Dynamics 365 Server by using a command prompt
 

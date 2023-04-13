@@ -19,14 +19,10 @@ ms.assetid: 9f79a729-3141-47bc-a238-ea7abfc4ff7c
 caps.latest.revision: 19
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # The Outlook email address should be the same as the Dynamics 365 apps email address
 You’re seeing the following error message:  

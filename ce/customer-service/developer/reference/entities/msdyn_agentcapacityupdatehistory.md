@@ -5,11 +5,8 @@ ms.date: 08/25/2022
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
-manager: "shujoshi"
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # msdyn_agentcapacityupdatehistory Entity Reference
 

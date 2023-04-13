@@ -5,14 +5,10 @@ ms.date: 07/30/2019
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
-  - D365CS
 ---
 # Create a knowledge article using a template
 
