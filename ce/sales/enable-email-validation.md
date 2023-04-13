@@ -5,7 +5,7 @@ ms.date: 04/04/2023
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
-manager: shujoshi
+ms.reviewer: shujoshi
 ms.custom: bap-template 
 ---
 
