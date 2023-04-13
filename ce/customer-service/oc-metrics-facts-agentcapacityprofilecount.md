@@ -12,43 +12,56 @@ ms.custom: bap-template
 # Agent
 
 ## Assigned capacity profile count
+
 Count of capacity profiles assigned to agents.
 
 ## Total available work item capacity
+
 Maximum count of additional work items that can be assigned.
 
 ## Total work item capacity in use
+
 Work items currently being handled.
 
 ## Total work item capacity
-Maximum work items allowed based on configuration of capacity profile.
+
+Maximum work items allowed based on the configuration of capacity profile.
 
 ## Logged in agents
+
 Count of Omnichannel agents currently logged in.
 
 ## Total agents 
+
 Total count of Omnichannel agents.
 
 ## Total available capacity units
+
 Capacity units available to handle conversations.
 
-## Total capacity units 
+## Total capacity units
+ 
 Maximum capacity units assigned. Applies to organizations using capacity units.
 
 ## Total occupied capacity units
+
 Capacity units currently occupied.
 
-## End time 
-Represents time an agent moved from the status.
+## End time
  
-## Start time 
-Represents time an agent entered a status.  
+Represents the time an agent moved from the status.
  
-## Status 
-Represents the status an agent was on.
+## Start time
+ 
+Represents the time an agent entered a status.  
+ 
+## Status
 
-## Status duration  
-This metric Amount of time an agent spent in a presence status.  
+Represents the status an agent is in.
+
+## Status duration
+
+Amount of time an agent spent in a presence status.  
 
 ## See Also
 
