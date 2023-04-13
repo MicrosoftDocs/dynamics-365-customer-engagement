@@ -20,16 +20,14 @@ The following sections guide you through the setup process and provide helpful i
 
 ## Create the Field Service customer experiences portal
 
-<!-- TODO: What are user privilege prerequisites to create portal and customize it? -->
-
 1. Go to the [Power Apps Maker portal](http://make.powerapps.com).
 
 1. Choose an environment with Dynamics 365 Field Service and select **Create**.
 
 1. Search for Field Service and select **Field Service Portal**.
 
-> [!div class="mx-imgBorder"]
-> ![Power Apps, showing the Field Service portal.](./media/C2-Customer-Portal.png)
+   > [!div class="mx-imgBorder"]
+   > ![Power Apps, showing the Field Service portal.](./media/C2-Customer-Portal.png)
 
 1. Enter the name of the portal, the desired subdomain, and choose a display language and select **Create**.
 
@@ -71,7 +69,11 @@ In Field Service, open the **Settings** area. Under **Customer Portal**, select 
 
 ### Display tab
 
-Use this tab to set basic design values for the portal. <!-- TODO: where in portal management can I change CSS as defined in the FS settings? --> The Advanced Display Configuration field contains the direct link to open [the Power pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
+Use this tab to set basic design values for the portal. The Advanced Display Configuration field contains the direct link to open [the Power pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
+
+### Track my technician tab
+
+For more information, see [Configure track my technician settings](customer-portal-technician-tracking.md#configure-track-my-technician-settings).
 
 ### Self Scheduling (Preview) tab
 
@@ -129,3 +131,4 @@ When we release new features, we won't update your portal automatically. An admi
 
 - [Set up notifications for the Field Service portal (preview)](customer-portal-notification-settings.md)
 - [Let customers schedule service appointments (preview)](customer-portal-invitation.md)
+- [Track a technician on the Field Service portal](customer-portal-technician-tracking.md)
