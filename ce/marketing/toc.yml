@@ -828,6 +828,12 @@
       href: learning-functional-consultant.md
     - name: Partner Sales and Marketing
       href: learning-sales.md
+  - name: Responsible AI transparency notes
+    items:
+    - name: Overview
+      href: transparency-note-overview.md
+    - name: Transparency note for content ideas
+      href: transparency-note-content-ideas.md
   - name: "Deprecation: Dynamics 365 for Customer Engagement"
     href: ce-deprecation.md
   - name: Troubleshoot with Solution Health Hub
