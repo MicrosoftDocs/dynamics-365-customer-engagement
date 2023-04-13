@@ -42,6 +42,18 @@ No applicable reason can be specified.
 
 **Resolution**: If the reason is empty and the state says **Ready for workflow/Power automate**, and the case doesn't get created, then check system jobs if it's a legacy rule, or check flow runs if it's a modern rule.
 
+### Why do multiple cases get created from a single email?
+
+Multiple cases can get created from a single mail because of various reasons. Perform the following steps to check if and how multiple cases might have got created from a single email.
+
+1. Enable the activity monitor options: **Ready for Power Automate**, **Workflow**, and **Skipped**.
+1. Reproduce the issue by sending a new email.
+1. You should see new activity monitor records in the grid for the new test email. If you see more than one activity monitor records for the email, it means that there are multiple queue items created for the same email which have all triggered the ARC rule. You can also view which rule got triggered on each activity monitor row. The activity monitor records for the test email that have **Ready for Power Automate** state indicate that they have reached the flow and are likely to create a case in each of them. If you see the described behavior, perform the next step.
+1. Identify where the duplicate queue items are from.
+    1. Check the rule item flow definition to verify if the child flow adds the email to queue. Note that it could either be a straightforward flow step calling **AddToQueue** bound action. Other reasons include queue item creation, another custom flow which the ARC flow calls from within, or a post operation plugin of an action performed within ARC flow such as case creation.
+    1. Check email background processes to verify if there are any custom workflows. Note that this is useful mostly during live debugging because succeeded background processes will be cleaned up. Not seeing any background processes for an email received for some time doesn’t necessarily mean there are no custom runs.
+    1. Check if there are multiple queues which have active ARC rule set up in the email's recipient or CC list. It is by design that an email gets added to all the queues which are listed as recipient and CC.
+
 ## FAQ about modern automatic record creation
 
 The following section provides answers to questions about migrated rule or flows in modern automatic record creation.

@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Learn about SLA issues and how to troubleshoot them.
-ms.date: 03/23/2023
+ms.date: 04/13/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -378,24 +378,7 @@ If the action flow associated with one or more SLA items are deleted or aren't i
 #### Resolution
 
 Avoid using the **modifiedon** and **modifiedby** fields for reporting because they get modified when calculating Next SLA on the enhanced case grid. If you want to know when the case was resolved, use the **incidentresolution** entity and avoid using **modifiedon** on the case entity.
-
-### Multiple cases get created from a single email
-
-#### Reason
-
-Perform the following steps to check if and how multiple cases might have got created from a single email.
-
-1. Enable the activity monitor options: **Ready for Power Automate**, **Workflow**, and **Skipped**.
-1. Reproduce the issue by sending a new email.
-1. You should see new activity monitor records in the grid for the new test email. If you see more than one activity monitor records for the email, it means that there are multiple queue items created for the same email which have all triggered the ARC rule. You can also view which rule got triggered on each activity monitor row. The activity monitor records for the test email that have **Ready for Power Automate** state indicate that they have reached flow and are likely to create a case in each of them. If you see the described behavior, go to the next step.
-1. Identify where the duplicate queue items are from.
-    1. Check the rule item flow definition to verify if the child flow is adding the email to queue. Note that it could either be a straightforward flow step calling **AddToQueue** bound action, or queue item creation, or it could also be in another custom flow which the ARC flow calls from within.
-    1. Check email background processes to see if there are any custom workflows. Note that this is useful mostly during live debugging because succeeded background processes will be cleaned up after some time. Not seeing any background processes for an email received for some time doesn’t necessarily mean there are no custom runs.
-    1. Check telemetry to identify the queue item ids.
-
-#### Resolution
-  
-    
+ 
 ### See also
 
 [Understand SLA details with Timer control](customer-service-hub-user-guide-case-sla.md#understand-sla-details-with-timer-control)
