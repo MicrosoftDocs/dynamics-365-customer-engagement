@@ -56,3 +56,5 @@ To create a keyword flow:
     > ![Keyword identification screenshot](media/keyword-identification-method.png "Keyword identification screenshot")
 
 Finally, you can create additional branches and select keywords from the text message keywords page that weren't included in the text message template, in case you’d like to include branching for keywords that were communicated to customers in past text messages.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

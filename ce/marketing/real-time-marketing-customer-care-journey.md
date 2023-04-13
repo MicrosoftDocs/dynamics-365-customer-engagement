@@ -124,3 +124,5 @@ For the support ticket status changes, you need to create a [**Dataverse trigger
 ## Customer care journey key takeaways
 
 Your customers are likely to engage with various departments and services throughout the lifetime. Each of these interactions, such as a completed application, or the closing of a support problem, provides a chance to connect your customers more intimately. Notifying customers about critical errors with their devices via the appropriate notification channel, and customizable tracking of the status of the support request, gives them a wonderful heads-up in this case. This real-time marketing journey won't only assist you in building a case and following its status, but it will also assist customers in tracking how their salespeople may utilize analytics data. The data can be to track useful insights such as reasons why their messages were undelivered or bounced and so on.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

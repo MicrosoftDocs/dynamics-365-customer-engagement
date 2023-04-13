@@ -246,3 +246,5 @@ When a form with the `data-validate-submission` attribute is submitted, your cus
 
 > [!div class="mx-imgBorder"]
 > ![Validation flow.](media/real-time-marketing-form-custom-captcha-6.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

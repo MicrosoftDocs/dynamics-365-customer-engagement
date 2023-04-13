@@ -66,3 +66,5 @@ To add a custom channel message action:
 
     > [!div class="mx-imgBorder"]
     > ![select custom channel](media/real-time-marketing-select-custom-channel.png "select custom channel")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
