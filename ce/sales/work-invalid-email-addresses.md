@@ -1,11 +1,11 @@
 ---
 title: Work with invalid email addresses (preview)
 description: View and work with invalid email addresses for leads and contacts in Microsoft Dynamics 365 Sales.
-ms.date: 03/27/2023
-ms.topic: conceptual
+ms.date: 04/14/2023
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
-manager: shujoshi
+ms.reviewer: shujoshi
 ms.custom: bap-template
 ---
 
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Email validation in Dynamics 365 Sales identifies and removes non-working or invalid email addresses in your leads and contacts. That lets you prioritize customers who have a valid email address for lower email bounce rates, improved engagement, and a better return on your time.
+Email validation in Dynamics 365 Sales identifies and removes non-working or invalid email addresses in your leads and contacts. This proactive validation helps you prioritize customers who have a valid email address, which in turn results in lower email bounce rates, improved engagement, and increased value for your time.
 
 Email address validation looks for the following errors:
 
