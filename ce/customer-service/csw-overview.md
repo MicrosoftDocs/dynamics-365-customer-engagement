@@ -117,7 +117,7 @@ You can enable the legacy layout in one of the following ways:
 ### [Browser developer tools](#tab/broswerdevtools)
 
  1. With Customer Service workspace open, press the F12 key to open the developer tools window.
- 1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
+ 1. In the console window, type the following command and press **Enter**. `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
  1. Refresh the app page.
 
 ---
