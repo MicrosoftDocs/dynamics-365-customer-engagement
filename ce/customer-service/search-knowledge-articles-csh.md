@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/01/2023
+ms.date: 04/13/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -46,7 +46,7 @@ To use the various search options discussed in this article, one or more of the 
     - Status
     - Title
     
-- You have access to knowledge article entities, such as Knowledge Articles, Favorites, Attachments, and Views. Your administrator has granted the **Create**, **Read**, **Write**, **Append**, and **Appendto** privileges to any new custom roles that you've created.
+- You have access to knowledge article entities, such as Knowledge Article, Knowledge Article Views, Knowledge Article Attachment, Favorite Knowledge Article, and Knowledge Article Image. Your administrator has granted the **Create**, **Read**, **Write**, **Delete**, **Append**, and **Appendto** privileges to any new custom roles that you've created.
 
 - In Customer Service workspace and Omnichannel for Customer Service, your administrator has enabled the app side pane and knowledge search in Agent experience profiles.
 
@@ -159,9 +159,9 @@ Your administrator must [enable suggest-as-you-type](set-up-knowledge-management
 
 ## Use favorites
 
-You can save the knowledge articles you use most as favorites to access them quickly while you're working on a case. You can save up to 50 articles as favorites. Your administrator must provide [privileges to custom roles](#prerequisites) before you can use it.
+You can save the knowledge articles you use most as favorites to access them quickly while you're working on a case. You can save up to 50 articles as favorites. Your administrator must provide [privileges to custom roles](#prerequisites) before you can use favorites.
 
-After your administrator enables the feature,
+To mark an article as favorite:
 
 1. Select an article from the list of search results.
 1. Select the **Favorite** (heart) icon to add the article to your favorites list.
