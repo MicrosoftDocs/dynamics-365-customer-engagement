@@ -1,5 +1,5 @@
 ---
-title: Set up notifications for the Field Service Portal (preview)
+title: Set up notifications for the Field Service Portal
 description: Configure notifications to keep your customers up to date on their bookings and appointments.
 ms.date: 03/05/2023
 ms.topic: how-to
@@ -10,11 +10,7 @@ search.app:
   - D365FS
 ---
 
-# Set up notifications for the Field Service Portal (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446).
+# Set up notifications for the Field Service Portal
 
 The portal uses Power Automate flows to trigger notifications for customers. Before we can send notifications, choose which channels to use and configure the flows accordingly. To send text messages, you'll need an SMS provider with a Power Automate connector. For emails, we recommend an Office 365 Outlook account.
 

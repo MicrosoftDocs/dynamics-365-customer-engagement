@@ -1,6 +1,6 @@
 ---
-title: Create and configure the Field Service Portal (preview)
-description: Set up and configure the self-scheduling portal for Field Service.
+title: Create and configure the Field Service Portal
+description: Set up and configure the Field Service Portal.
 ms.date: 03/05/2023
 ms.topic: how-to
 author: m-hartmann
@@ -10,11 +10,7 @@ search.app:
   - D365FS
 ---
 
-# Create and configure the Field Service Portal (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446).
+# Create and configure the Field Service Portal
 
 The following sections guide you through the setup process and provide helpful information to configure the portal template.
 
@@ -129,6 +125,6 @@ When we release new features, we won't update your portal automatically. An admi
 
 ## Next steps
 
-- [Set up notifications for the Field Service portal (preview)](customer-portal-notification-settings.md)
+- [Set up notifications for the Field Service portal](customer-portal-notification-settings.md)
 - [Let customers schedule service appointments (preview)](customer-portal-self-scheduling.md)
 - [Track a technician on the Field Service portal](customer-portal-technician-tracking.md)
