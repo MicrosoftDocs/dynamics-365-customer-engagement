@@ -1,7 +1,7 @@
 ---
 title: "Configure analytics and insights dashboards | MicrosoftDocs"
 description: "Learn how to configure analytics and insights dashboards in Customer Service admin center and Customer Service workspace."
-ms.date: 03/31/2023
+ms.date: 04/13/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -36,20 +36,24 @@ Users with the system administrator or supervisor role can access the analytics 
 
 3. To add privileges to an existing role, select a role from the list of security roles, and then select **Edit** on the navigation bar. 
    
-    If you'd like to create a new role for analytics users, then perform the following steps:    
+    If you'd like to create a new role for analytics users, then perform the following steps:
     a. Select **New role** on the navigation bar. The **New Security role** dialog opens. <br>
     b. On the **Details** tab, enter a name in the **Role Name** field.
 
-4. Select the **Custom Entities** tab, move through the list of analytics reports, and then grant **Read** privileges for the following reports:
+4. Select the **Custom Entities** tab, move through the list of analytics reports, and then grant **Read** privileges for the following reports and :
     -  [Omnichannel historical analytics dashboards](omnichannel-analytics-insights.md)
     - [Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md)    
     - [Customer Service historical analytics dashboards](customer-service-analytics-insights-csh.md)
     - [Knowledge analytics dashboards](knowledge-search-analytics-cs.md)
+    - [Report Bookmarks](manage-bookmarks.md)
 
-5. Select **Save and close**. 
+5. Select **Save and close**.
 
 6. On the **Security roles** page, select the role that you just created or updated, and then select **Add people** to add users to the role.
 
+To bookmark a report, grant **Create**, **Read**, **Write**, and **Delete** privileges to the security roles as applicable, for the **Report Bookmark** custom entity. 
+
+To be able to edit analytics reports, grant the **Analytics Report Author** role. For information about assigning user roles, go to [Assign roles to users](add-users-assign-roles.md#assign-roles-to-users).
 
 ### See also
 
