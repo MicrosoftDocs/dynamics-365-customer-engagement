@@ -1,0 +1,1 @@
+:::image type="content" source="media/hub-test-image.svg" alt-text="Hub SVG screenshot.":::
