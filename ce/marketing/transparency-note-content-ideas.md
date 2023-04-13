@@ -3,8 +3,7 @@ title: Transparency note for content ideas
 description: The transparency note discusses content ideas and the key considerations for making use of this technology responsibly.
 ms.date: 04/10/2023
 ms.custom: 
-  - dyn365-admin
-  - dyn365-marketing
+  - transparency-note
 ms.topic: article
 author: alfergus
 ms.author: alfergus
