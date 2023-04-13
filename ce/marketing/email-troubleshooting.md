@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot email issues (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to troubleshoot issues with email in Dynamics 365 Marketing."
-ms.date: 04/12/2023
+ms.date: 04/13/2023
 
 ms.custom:
   - dyn365-admin
@@ -80,13 +80,13 @@ Only manual replies (when the recipient selects the “Reply” button) are sent
 
 ## [External] flag for emails sent to internal recipients
 
-When sending emails to recipients within your organization, you may find that the email is being flagged as [External]. This is a common occurrence when the recipient's domain is hosted on Exchange Online or Microsoft 365.
+When sending emails to recipients within your organization, the email is being flagged as [External]. This is a common occurrence when the recipient's domain is hosted on Exchange Online or Microsoft 365.
 
-The [External] flag is configured to notify users that an email has been sent from outside their organization. This is a security feature to protect against phishing attacks, as external emails can often be fraudulent.
+The [External] flag is configured to notify users that an email is sent from outside their organization. This is a security feature to protect against phishing attacks, as external emails can often be fraudulent.
 
-If you're sending emails to recipients within your organization and they're being flagged as [External], there are a few things you can do. Firstly, check that the recipient's domain is hosted on Exchange Online or Microsoft 365. If it is, you can contact your email administrator and ask them to adjust the email configuration. They should be able to configure emails sent from your domain not to be flagged as [External].
-
-However, if you're sending emails to recipients outside your organization, the [External] flag is expected behavior. This doesn't mean that your emails are marked as Spam/Junk, but it's simply a notification that the email has come from outside the organization. Unfortunately, there's nothing that can be done to fix this from the sender's side.
+If emails are sent to recipients within an organization and are being flagged as [External], then there are a few things to do: 
+1. Check that the recipient's domain is hosted on Exchange Online or Microsoft 365. If it is, contact your email administrator and ask them to adjust the email configuration. They should be able to configure emails sent from your domain not to be flagged as [External].
+1. However, if emails are sent to recipients outside your organization, the [External] flag is expected behavior. This doesn't mean that your emails are marked as Spam/Junk, but it's simply a notification that the email has come from outside the organization. Unfortunately, there's nothing that can be done to fix this from the sender's side.
 
 To avoid any confusion, it's important to clearly communicate the purpose of the [External] flag to your recipients. You can explain that it's a security feature to help identify potential phishing attempts, and that it doesn't mean that the email is unsafe.
 
