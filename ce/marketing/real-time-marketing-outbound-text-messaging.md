@@ -184,3 +184,5 @@ You can see how customers react to your text messages by checking the text messa
 
 > [!NOTE]
 > Delivery reports for text messages are received from different carriers in every country or region. This might result in false positives or negatives at times, depending on the carrier. Consider this when you check the delivery reports of your text messages.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

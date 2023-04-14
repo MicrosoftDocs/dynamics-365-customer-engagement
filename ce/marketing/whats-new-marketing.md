@@ -342,3 +342,5 @@ Learn how to make the most of the new Dynamics 365 Marketing features in our lat
 
 > [!Tip]
 > To read about updates from previous years, see the [What's new archive](whats-new-marketing-archive.md) article.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,5 @@ If the recipient previously opted out from tracking, the interaction is generate
  
 > [!NOTE]
 > All links generated in the [text message channel](real-time-marketing-outbound-text-messaging.md) are shortened, regardless of whether they are replaced with tracking links.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

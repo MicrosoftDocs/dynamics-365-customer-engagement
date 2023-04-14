@@ -58,3 +58,5 @@ After the journey has been live for a while, select the **Analytics** tab in the
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing series tile analytics.](media/real-time-marketing-journey-reminder-analytics.png "Screenshot showing series tile analytics")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

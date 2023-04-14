@@ -58,3 +58,5 @@ Channel definition locales are defined in the **customizations.xml** as solution
   </msdyn_channeldefinitionlocale>
 </ImportExportXml>
 ```
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

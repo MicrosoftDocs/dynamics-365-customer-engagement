@@ -62,3 +62,5 @@ When your Dynamics 365 Marketing trial expires, your administrator will have to 
 
 > [!NOTE]
 > Microsoft Teams and Dynamics 365 Marketing each have their own [service-specific licensing terms](https://www.microsoft.com/licensing/terms/productoffering). The service-specific terms that apply depend on which service processes your data. For example, when you transition from Microsoft Teams to Dynamics 365 Marketing, your Microsoft Teams data related to the webinar (such as the attendance report, engagement data, etc.) is transferred to Dynamics 365 Marketing whereupon it becomes Dynamics 365 Marketing data and the Dynamics 365 service-specific terms apply.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
