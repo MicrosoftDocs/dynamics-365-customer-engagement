@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 04/05/2023
+ms.date: 04/14/2023
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -27,9 +27,10 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 
 The April release marks the availability of many [2023 release wave 1](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/planned-features) features. General availability features include a simplified email editor, new email templates, send now email functionality, modernized forms for real-time marketing, extending recipient lists with carbon copies, message frequency limits, UTM tagging, contact insights for real-time marketing, one-to-many relationships for personalization, sample audience data for email previews, business units for real-time marketing, and the ability to change your organization URL in the Power Platform Admin Center.
 
-Public preview features include enhanced journey reminders.
-
 Monthly enhancements include tracking of unique opens and clicks, attachment support for custom channels, and extended regional availability for query assist.
+
+> [!IMPORTANT]
+> An earlier version of this article announced the availability of the enhanced journey reminders preview in the April release. Enhanced journey reminders are *not* part of the April release.
 
 ### Version number
 
@@ -122,16 +123,6 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
 - **Dynamics 365 Marketing now supports changing the organization URL in Power Platform Admin Center**
     - People often want to change the URL of the Marketing application to a branded name which is easy to remember. This has been supported for some time in the Power Platform Admin Center, but was not previously supported by the Dynamics 365 Marketing application. With this release, you can now change the organization URL in Power Platform Admin Center and the Marketing application continues to work without side effects.
     - [Docs](manage-marketing-environments.md#change-the-url-for-an-environment-with-real-time-or-outbound-marketing-installed)
-
-### Public preview
-
-- **Boost your productivity with enhanced journey reminders**
-    - You can now create action-oriented journeys, reminding customers until they complete a call to action or until a certain date or time. Built-in reminder orchestration eliminates the need to create cascading branches that check for the qualifying action after each step or specify conditions with more than two possibilities. This makes it easier to capture the entire scenario in a single journey and maintains all analytics for the journey actions in one location when journeys are live.
-    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/boost-productivity-enhanced-journey-reminders)
-    - [Docs](real-time-marketing-enhanced-journey-reminders.md)
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot showing enhanced journey reminders.](media/whats-new-enhanced-journey-reminders.png "Screenshot showing enhanced journey reminders")
 
 ### Monthly enhancements
 
