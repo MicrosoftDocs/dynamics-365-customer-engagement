@@ -58,6 +58,7 @@
           "customerengagement/on-premises/**/*.gif",
           "customerengagement/on-premises/**/*.html",
           "customerengagement/on-premises/**/*.htm",
+          "customerengagement/on-premises/**/*.svg",
           "customerengagement/on-premises/**/*.txt"
         ],
         "exclude": [
@@ -74,6 +75,7 @@
           "unified-service-desk/**/*.png",
           "unified-service-desk/**/*.jpg",
           "unified-service-desk/**/*.gif",
+          "unified-service-desk/**/*.svg",
           "unified-service-desk/**/*.html",
           "unified-service-desk/**/*.htm",
           "unified-service-desk/**/*.txt"
@@ -91,6 +93,7 @@
           "**/*.png",
           "**/*.jpg",
           "**/*.gif",
+          "**/*.svg",
           "**/*.html",
           "**/*.htm",
           "**/*.txt",
