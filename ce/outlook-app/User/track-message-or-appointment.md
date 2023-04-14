@@ -84,6 +84,8 @@ You can change the row an email or appointment is linked to using the **Change R
   > [!div class="mx-imgBorder"] 
   > ![Untrack a email or appointment.](../media/untrack-item.png)  
 
+> [!NOTE]
+> If you untrack an email in a conversation, replies to the same thread may continue to be automatically tracked if there are other tracked emails in that conversation. For more information, see [Specify which emails are automatically tracked](/power-platform/admin/email-message-filtering-correlation).
 
 ## Track all email in a folder
 
