@@ -30,7 +30,7 @@ The April release marks the availability of many [2023 release wave 1](/dynamics
 Monthly enhancements include tracking of unique opens and clicks, attachment support for custom channels, and extended regional availability for query assist.
 
 > [!IMPORTANT]
-> An earlier version of this article announced the availability of the enhanced journey reminders preview in the April release. Enhanced journey reminders are *not* part of the April release.
+> An earlier version of this article incorrectly announced the availability of the enhanced journey reminders preview in the April release. Enhanced journey reminders are *not* included in the April release.
 
 ### Version number
 
