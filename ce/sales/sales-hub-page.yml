@@ -71,7 +71,7 @@ additionalContent:
         text: Sales accelerator
       - url: configure-assistant.md
         text: Sales assistant
-      - url:  https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409
+      - url:  configure-forecast.md
         text: Sales forecast
       - url: ri-overview.md
         text: Relationship intelligence
@@ -130,27 +130,27 @@ additionalContent:
       links: 
       - url: prioritize-sales-pipeline-through-work-list
         text: Work lists
-      - url: https://dynamics.microsoft.com/en-us/sales/pricing/
+      - url: manage-segments.md
         text: Segments
       - url: manage-sequences-seller.md
         text: Sequences
 
     - title: Collaboration
       links: 
-      - url: sign-up-for-sales-trial
+      - url: email-engagement.md # Add overview covering all exchange collaborations
         text: Exchange
-      - url: https://dynamics.microsoft.com/en-us/sales/pricing/
+      - url: teams-integration\using-teams-chat-in-dynamics.md #Add overview page covering integration with teams chat, meetings
         text: Teams
-      - url: project-accurate-revenue-sales-forecasting.md
+      - url: collaborate-using-sharepoint-sales.md
         text: SharePoint
 
     - title: Dashboard and reports
       links: 
-      - url: sign-up-for-sales-trial
+      - url: /powerapps/user/track-your-progress-with-dashboard-and-charts
         text: Dashboards
-      - url: https://dynamics.microsoft.com/en-us/sales/pricing/
+      - url: introduction-sales-template-apps.md
         text: PowerBI reports
-      - url: project-accurate-revenue-sales-forecasting.md
+      - url: view-understand-sales-usage-reports.md
         text: Sales usage reports
 
     - title: Sales mobile app
