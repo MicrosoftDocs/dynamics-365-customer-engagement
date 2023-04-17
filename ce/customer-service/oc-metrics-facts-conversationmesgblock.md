@@ -1,31 +1,35 @@
 ---
-title: FactConversationMessageBlock
+title: Message level analytics
 description: Learn about FactConversationMessageBlock metrics.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 04/13/2023
+ms.date: 04/17/2023
 ms.custom: bap-template
 ---
 
-# Message Level Analytics
+# Message level analytics
 
 ## Average first response time
-First response time is calculated as the time take for a customer to get a first response from human agents, adjusted for operating hours. It is calculated as time different between the time a conversation was initiated by the customer (or escalation time in case of a bot escalated conversation) and the time a agent who has accepted the conversation responds to the customer.
 
-Average first response time is calculated as sum of first response time across all engaged conversations divided by count of engaged conversations. Can be viewed in two formats - seconds and in hh:mm:ss".
- 
-## Average agent response time 	
-Agent response time is calculated as the time taken for a customer to get a response from  human agents for their message, adjusted for operating hours. Average agent response is calculated by taking the sum of all response times and dividing by the number of exchanges between customers and agents across all engaged conversations.  Can be viewed in two formats - seconds and in hh:mm:ss".
+First response time is calculated as the time spent by a customer waiting to get the first response from a human agent, adjusted according to operating hours. The calculation is based on the time between a customer initiating a conversation (or escalation time in case of a bot escalated conversation) and the agent accepting and responding to a customer.
 
-## First response service level (60 seconds)
-Percentage of customers conversations with an agent response in less than 60 seconds of customer initiation (or escalation in case of bot escalated conversations).
+Average first response time is calculated as the total of the first response time across all engaged conversations, divided by the count of engaged conversations. The time can be viewed in seconds and in hh:mm:ss format.
 
-## Agent response service level (60 seconds)
-Percentage of customer message that received an agent response in less than 60 seconds.
+## Average agent response time
+
+Agent response time is calculated as the time taken by a customer waiting to get a response from the human agent for their message, adjusted according to operating hours. Average agent response is calculated as the total response time, divided by the number of exchanges between customers and agents across all engaged conversations. The time can be viewed in seconds and in hh:mm:ss format.
+
+## First response service level
+
+Percentage of customer conversations with an agent response time of less than 60 sec (or escalation in case of bot escalated conversations).
+
+## Agent response service level
+
+Percentage of customer messages with an agent response time of less than 60 sec.
 
 ## See Also
 
 [Understand out-of-the-box data model](customize-reports.md#understand-out-of-the-box-data-model)  
-[Customize visual display](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service)
+[Customize visual display](customize-reports.md#customize-visual-display)

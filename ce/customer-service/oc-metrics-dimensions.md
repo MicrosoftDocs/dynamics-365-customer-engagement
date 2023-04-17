@@ -4,80 +4,103 @@ description: Learn about the out-of-box Omnichannel historical and real-time ana
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
-ms.topic: conceptual 
-ms.date: 04/11/2023
+ms.topic: conceptual
+ms.date: 04/17/2023
 ms.custom: bap-template
 ---
 
 # Dimensions
 
-Learn about the facts and dimensions of the metrics and understand how you can use the metrics to suit your needs. More information: [Understand out-of-the-box data model](customize-reports.md#understand-out-of-the-box-data-model). For more information about how you can customize the visual display of your reports, using these metrics, go to [Customize visual display](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service).
+Learn and understand how you can use the dimensions of the out-of-box Omnichannel historical and real-time analytics metrics to suit your needs. For more information, go to: [Understand out-of-the-box data model](customize-reports.md#understand-out-of-the-box-data-model).
 
-THis article describes the various dimensions that are provided for Omnichannel historical and real-time reports.
+For more information about how you can customize the visual display of your reports using these metrics, go to [Customize visual display](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service).
 
-## CapacityProfileName
-Name of capacity profile.
+## Capacity profile name
+
+Name of the capacity profile.
 
 ## Has blocking assignment turned on
-Indicates whether the capacity profile has the assignment blocking toggle set to on. If the profile's blocking settings are turned on, the value will be "TRUE". If the blocking settings are turned off, the value will be "FALSE".
-## ConversationDirection
 
-This applies only to voice conversations and indicates whether the conversation was started by the customer or a contact center agent. 
-If the conversation was initiated by an agent in the contact center, it is considered "outbound". If the conversation was received by the contact center, it is considered "inbound".
+Indicates whether the capacity profile has the assignment blocking toggle set to on. If the profile's blocking settings are turned on, the value will be TRUE. If the blocking settings are turned off, the value will be FALSE.
 
-## ConversationStatus
-Represents current state of a customer interaction. Here is the glossary of values and their meaning 
-- Open - Conversation is currently awaiting an agent assignment
-- Active - Conversation has either an agent assigned and is pending acceptance or has an agent in contact with the customer 
-- Waiting -Conversation is currently either waiting for a customer response or an agent response  Applies for aysnchronous conversation modes like SMS etc.
-- Wrap-up - Agent is currently performing post contact activities like notes, updates to case etc. after the contact with customer has ended 
-- Closed - Conversation is currently closed
+## Conversation direction
 
-## Queue id
-Reference id of the queue.
+This applies only to voice conversations and indicates whether the conversation was started by the customer or a contact center agent.
+
+If the conversation was initiated by an agent in the contact center, it is considered as outbound. If the conversation was received by the contact center, it is considered as inbound.
+
+## Conversation status
+
+Represents the current state of a customer interaction. The following is a list of the status values and their meaning:
+
+- Open: Conversation is currently awaiting an agent assignment.
+- Active: Conversation has either an agent assigned and is pending acceptance, or has an agent in contact with the customer.
+- Waiting: Conversation is currently waiting for either a customer response or an agent response. Applies for asynchronous conversation modes, such as messages.
+- Wrap-up: Agent is currently performing post customer interaction activities such as notes, updates to case, after the end of a customer conversation.
+- Closed: Conversation is currently closed.
+
+## Queue Id
+
+Reference Id of the queue.
 
 ## Queue name
+
 Name of the queue.
 
-## Agent presence	
-Presence status options available for agents to set themselves in. Out-of-box options are Online, Away, Busy, Offline, Do Not Disturb. Options avaiable to you will depend on your organization's configuration and will include any additional custom prescence status configured for your organization.
+## Agent presence
+
+This metric represents the statuses available for agents. The out-of-box options include Online, Away, Busy, Offline, Do Not Disturb. The status options available to you will depend on your organization's configuration and will include any additional custom presence statuses configured for your organization.
 
 ## Date hour
-Represents hour of day in 24 hour format.
+
+Represents hour of the day in a 24 hour format.
 
 ## Time range
-Time based filter options available in real-time dashboards  
-- Today - Conversations that started since 12 AM of the time zone selected and in any state
-- Last 24 hours - Conversations that started within the last 24 hours and in any state.
-- Include open conversations beyond 24 hours - Conversations that started within the last 24 hours and in any state and Conversations that started earlier than 24 hours but not closed.
+
+The following time-based filter options are available on real-time dashboards:
+  
+- Today: Conversations that started since 12 AM of the time zone selected in any state.
+- Last 24 hours: Conversations that started within the last 24 hours in any state.
+- Include open conversations beyond 24 hours: Conversations that started within the last 24 hours, in any state and conversations that started earlier than 24 hours but haven't been closed.
 
 ## Time zone
-Represents the time zone used to calculate and display metrics across the dashboard. Options avaialble are standard timezones. List can be found here.
 
-## Agent id		
-Reference id of the omnichannel agent.
+Represents the time zone used to calculate and display metrics across the dashboard. Options available are standard timezones.
+
+## Agent Id
+		
+Reference Id of the Omnichannel agent.
 
 ## Agent name
-Name of the omnichannel agent.
+
+Name of the Omnichannel agent.
 
 ## Domain name
-Name of the Active Directory domain.
+
+Name of the active directory domain.
 
 ## Agent participation mode
-- Primary - Agent participation mode is primary. 
-- Consult - Agent participation mode is consult. 
-- Monitor - Supervisor participation mode is monitor. Applies only to users with Omnichannel supervisor role.
 
-## Workstream id
-Reference id of the workstream.
+The following are the agent participation modes:
 
-## WorkStream name
+- Primary: Agent participation mode is primary.
+- Consult: Agent participation mode is consult.
+- Monitor: Supervisor participation mode is monitor. Applies only to users with Omnichannel supervisor role.
+
+## Workstream Id
+
+Reference Id of the workstream.
+
+## Workstream name
+
 Name of the workstream.
 
-## Channel id
-Reference id of the channel.
+## Channel Id
+
+Reference Id of the channel.
 
 ## Channel name
+
 Name of the channel.
 
 ## See Also

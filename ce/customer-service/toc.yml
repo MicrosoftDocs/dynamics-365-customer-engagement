@@ -1111,7 +1111,7 @@
       - name: Use metrics for Omnichannel for Customer Service
         items:
         - name: Dimensions
-          href: analytics-oc-metrics.md
+          href: oc-metrics-dimensions.md
         - name: Conversation
           href: oc-metrics-factconversation.md
         - name: Conversation Message Analytics

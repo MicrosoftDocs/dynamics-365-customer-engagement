@@ -1,28 +1,31 @@
 ---
-title: SessionParticipant
+title: Session participant
 description: Learn about FactSessionParticipant metrics.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 04/13/2023
+ms.date: 04/17/2023
 ms.custom: bap-template
 ---
 
-# Session Participant
+# Session participant
 
-## External participant channel 
-An external agent can be involved in helping customer request by calling them directly on their phone number or via Microsoft teams PSTN call. This metric helps identify the channel through which external agents were engaged.  
+## External participant channel
 
-## External participant channel type 
-This metric represents the details of the external agent like phone number  
+This metric helps identify the channels through which external agents were engaged. For example, an external agent can help customer requests by calling them directly on their phone number or via Microsoft Teams Public Switched Telephone Network (PSTN) call.  
 
-## Is handled by external participant 
-A customer request could be handled by more than one agent – including a combination of internal contact center agents and external agents. This metric can be used to identify the portion of a customer request that was handled by agents outside of Dynamics 365 Customer Service. External agents could be engaged by your contact center through transfers to an external phone number, Microsoft Teams voice call etc.
+## External participant channel type
+ 
+This metric represents the details of the external agent like phone number.
+
+## Is handled by external participant
+
+A customer request could be handled by more than one agent, including a combination of internal and external agents. For example, external agents could be engaged by your contact center through transfers to an external phone number or through Microsoft Teams voice call. This metric is used to identify the portion of a customer requests that were handled by agents outside Dynamics 365 Customer Service.
 
 ## Session participant count
 
-This is a measure of total number of agents involved in assisting customer. This includes the primary agent assigned to working on the session, and SMEs who may have been consulted. This metric can be sliced by the dimension session participation type to get a breakdown. 
+This is a measure of the total number of agents involved in assisting a customer. This includes the primary agent assigned to working on the session, as well as subject-matter experts who may have been consulted. This metric can be analyzed by the dimension SessionParticipationType to get further statistics.
 
 ## See Also
 

@@ -87,7 +87,7 @@ High average handle time could indicate that agents are taking too long to resol
 
 To understand the time spent by individual agents, where conversations were handled by multiple agents, go to [Avg. session handle time](oc-metrics-facts-session.md#avg-session-handle-time)  
 
-This metric can be viewed in two formats, seconds and in hh:mm:ss.  
+This metric can be viewed in the seconds and in hh:mm:ss formats.  
  
 The conversation direction is Incoming and Outgoing. Channels through which the conversation came in are Messaging and Voice. 
 
