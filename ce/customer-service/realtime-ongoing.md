@@ -1,7 +1,7 @@
 ---
 title: "Real-time analytics ongoing Conversation report for supervisor | MicrosoftDocs"
 description: "Learn how the ongoing conversation report enables supervisors to view information about the conversations handled by agents in real time."
-ms.date: 04/12/2023
+ms.date: 04/17/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -18,14 +18,12 @@ The **Ongoing Conversation** report provides information about the status of the
 
 For details on metrics displayed on the Ongoing Conversation report, go to Omnichannel analytics metrics.
 
-The conversation list provides the list of currently ongoing conversations in the last 24 hours, giving managers a real-time view of the interactions between agents and customers. The Ongoing Conversations dashboard also provides you options to monitor, assign, transfer, and force close Conversations. With these options, you can:
+The conversation list provides the list of currently ongoing conversations in the last 24 hours, giving managers a real-time view of the interactions between agents and customers. The Ongoing Conversations dashboard also provides you options to monitor, assign, transfer, and force close conversations. You can select an agent from the Ongoing Conversations dashboard, and then select any of the following options.
 
-- Assign an incoming conversation from the queue to an agent.
-- Transfer an ongoing conversation from one agent to another.
-- Monitor or listen to an ongoing conversation. When you select **Monitor**, you'll see a message that states that the monitoring has begun.
-- Force close a conversation by closing the work item.
-
-You can select an agent from the Ongoing Conversations dashboard, and then select any of options. A dialog opens up that enables you to execute the option.
+- Assign an incoming, unassigned conversation from the queue to an agent or a bot.
+- Transfer an ongoing conversation from one agent to another. Not applicable to a bots.
+- Monitor or listen to an ongoing conversation. When you select **Monitor**, you'll see a message that states that the monitoring has begun. This is applicable only for an active conversation with agent acceptance.
+- Force close a conversation by closing the work item. When you select **Force close**, you'll see a confirmation dialog. You'll need to select **Proceed** to close the work item.
 
 ### See also
 
