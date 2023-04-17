@@ -119,7 +119,7 @@ Perform the following steps to export and import the rulesets:
 
 5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
-For sample schema to get all the required records, see [Sample schema for record queues](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues.xml).
+For sample schema to get all the required records, see [Sample schema for record queues step 1](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%201.xml).
 
 ### Step 2: Export and import rulesets with selection criteria defined
 
@@ -153,6 +153,8 @@ Perform the following steps to export and import the rulesets:
 4. Package the extracted content again.
 
 5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
+
+For sample schema to get all the required records, see [Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml).
 
 ### FetchXML for queues
 
