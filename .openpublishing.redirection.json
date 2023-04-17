@@ -25041,6 +25041,16 @@
       "source_path": "ce/marketing/content-ideas-terms.md",
       "redirect_url": "/dynamics365/marketing/content-ideas",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-warm-up.md",
+      "redirect_url": "/dynamics365/marketing/warmup-process-email-marketing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/dedicated-vs-shared-ip.md",
+      "redirect_url": "/dynamics365/marketing/warmup-process-email-marketing",
+      "redirect_document_id": false
     }
   ]
 }
