@@ -7,9 +7,6 @@ ms.date: 02/23/2023
 ms.topic: overview
 author: FeifeiQiu
 ms.author: feiqiu
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Tour of the schedule assistant in Universal Resource Scheduling

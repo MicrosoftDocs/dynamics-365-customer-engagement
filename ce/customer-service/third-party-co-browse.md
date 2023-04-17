@@ -5,7 +5,6 @@ ms.date: 02/25/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Enable third-party co-browse and screen sharing

@@ -5,13 +5,9 @@ ms.date: 06/25/2020
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ---
 
 # Walkthrough 6: Configure the Debugger hosted control in agent applications

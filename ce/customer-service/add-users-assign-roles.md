@@ -3,7 +3,6 @@ title: "Assign roles, enable users for Omnichannel for Customer Service | Micros
 description: "Perform the steps to assign roles to users and enable them in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 11/16/2022
 ---
 

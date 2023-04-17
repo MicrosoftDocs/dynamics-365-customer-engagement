@@ -6,9 +6,6 @@ ms.reviewer: mhart
 ms.topic: conceptual
 author: lmasieri
 ms.author: lmasieri
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Use Dataverse search to find information (preview)

@@ -14,7 +14,6 @@ ms.assetid: feba0dbb-b51d-4ef2-bf9c-b4311ccee014
 caps.latest.revision: 7
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Exporting and importing customizations and solutions
 

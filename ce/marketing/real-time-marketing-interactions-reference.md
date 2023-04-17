@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Reference guide for real-time marketing interactions
@@ -107,3 +103,5 @@ The table below is sorted by real-time marketing channels (email, text message, 
 | msdynmkt_pushnotificationnotsent     | msdynmkt_reason          | Failure of reason codes with a root cause of submission failure.                       |
 | msdynmkt_pushnotificationopened      |                          |                                                                                        |
 | msdynmkt_pushnotificationsent        |                          |                                                                                        |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

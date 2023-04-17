@@ -9,9 +9,6 @@ ms.subservice: resource-scheduling-optimization
 ms.topic: conceptual 
 ms.date: 02/09/2023
 ms.custom: bap-template
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Resource Scheduling Optimization admin report

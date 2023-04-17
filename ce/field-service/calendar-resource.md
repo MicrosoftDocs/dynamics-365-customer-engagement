@@ -6,9 +6,6 @@ ms.author: chenryan
 
 ms.date: 09/18/2020
 ms.topic: article
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Apply a calendar to a resource

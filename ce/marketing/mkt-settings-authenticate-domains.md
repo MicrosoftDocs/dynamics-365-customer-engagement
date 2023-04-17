@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Authenticate your domains (old version)
@@ -222,4 +218,6 @@ To benefit from DKIM, the from-address for each message you send must show a dom
 [Integrate with landing pages on external websites](embed-forms.md)  
 [page personalization](personalized-page-content.md)  
 [Domain authentication in real-time marketing](domain-authentication.md)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

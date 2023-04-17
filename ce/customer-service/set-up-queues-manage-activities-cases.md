@@ -5,16 +5,12 @@ ms.date: 11/10/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 searchScope: 
   - D365-App-customerservicehub
   - D365-Entity-queueitem

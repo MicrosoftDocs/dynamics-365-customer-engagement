@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # When to use attribute versus if/then branches
@@ -59,3 +55,5 @@ You can use an if/then branch to wait for a survey email open event. If you set 
 
 > [!div class="mx-imgBorder"]
 > ![Email survey if/then screenshot.](media/real-time-marketing-branches-if-then.png "Email survey if/then screenshot")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

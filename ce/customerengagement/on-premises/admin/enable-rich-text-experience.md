@@ -15,7 +15,6 @@ author: Mattp123
 ms.assetid: 502d88cd-3cf7-4611-b68e-15fcfddc19a5
 caps.latest.revision: 15
 ms.author: matp
-manager: kvivek
 ---
 # Enable the rich text experience for appointment activities
 

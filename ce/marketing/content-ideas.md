@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Preview: Use AI to kickstart email creation with content ideas
@@ -103,3 +99,5 @@ Content ideas generates original content, but it isn’t always factual. In addi
 > If you encounter inappropriate content being generated, report it to Microsoft using this feedback form: [Report abuse](https://msrc.microsoft.com/report/abuse?ThreatType=URL&IncidentType=Responsible%20AI&SourceUrl=https://dynamics.microsoft.com/marketing/overview/). It will help improve the functionality moving forward.
 >
 > Microsoft may disable the content ideas feature for selected customers if abuse of the functionality is detected.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

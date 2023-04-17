@@ -5,7 +5,6 @@ ms.date: 02/03/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Search for transcripts

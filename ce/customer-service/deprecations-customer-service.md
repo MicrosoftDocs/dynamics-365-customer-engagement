@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms-service: dynamics-365
 ms.topic: conceptual
-ms.date: 01/13/2023
+ms.date: 04/05/2023
 ms.custom: bap-template
 ---
 
@@ -48,7 +48,7 @@ The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management enti
 
 ## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated
  
-Effective October 31, 2022, Dynamics 365 Customer Service and Power Platform are blocked in Internet Explorer. As of early October 2022, users are redirected to Microsoft Edge if it's installed on their device. Otherwise, they'll receive a non-dismissible message informing them why they're blocked and to use Customer Service on [Microsoft Edge](https://www.microsoft.com/edge).
+Effective October 31, 2022, Dynamics 365 Customer Service and Power Platform are blocked in Internet Explorer. As of early October 2022, users are redirected to Microsoft Edge if it's installed on their device. Otherwise, they'll receive a non-dismissible message informing them why they're blocked and to use Customer Service on [Microsoft Edge](https://www.microsoft.com/edge). More information: [Support end for Internet Explorer](/power-platform/admin/support-end-internet-explorer) <br>
 
 For any questions, contact your Microsoft Customer Service representative or Microsoft Partner.
 
@@ -94,11 +94,9 @@ Standard service level agreements (SLA Type field is set to Standard) are deprec
 
 The Customer Service Insights standalone app is deprecated. We recommend that you migrate to the [embedded experience](introduction-customer-service-analytics.md) within the core Dynamics 365 Customer Service applications.
 
-## Intraday insights for Omnichannel for Customer Service to be deprecated
+## Customer Service workspace legacy layout is deprecated
 
-Effective October 31, 2023, [intraday insights for Omnichannel for Customer Service](configure-intraday-dashboard-supervisor.md) will be deprecated. Security and other critical updates will be provided until October 31, 2023. We won't release any other functionalities for intraday insights.
-
-For new customers, effective October 31, 2023, intraday insights for Omnichannel for Customer Service will no longer be shipped. You can request for intraday insights by creating a service request, but we recommend that you use [real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability.
+The Customer Service workspace legacy layout is deprecated from October 2023. For more information see [Deprecated Customer Service workspace layout](csw-overview.md)
 
 ### See also
 

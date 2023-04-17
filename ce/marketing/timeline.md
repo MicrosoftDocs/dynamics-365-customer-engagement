@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Customer interactions timeline
@@ -81,3 +77,5 @@ For more information, see [Use custom connectors with the timeline control](/pow
 
 > [!NOTE]
 > Real-time marketing activities from the past 12 months are shown in the timeline for the selected contact or lead. However, historical interactions from outbound marketing activities are only shown post the real-time marketing installation date or May 2022, whichever is later.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

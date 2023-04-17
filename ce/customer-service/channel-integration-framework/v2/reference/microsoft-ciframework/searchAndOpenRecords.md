@@ -5,7 +5,6 @@ ms.date: 02/15/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

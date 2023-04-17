@@ -3,7 +3,6 @@ title: "Configure Power Virtual Agents bots for voice | MicrosoftDocs"
 description: "Learn about how to add a Power Virtual Agents bot for using in voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 12/12/2022
 ms.topic: article
 

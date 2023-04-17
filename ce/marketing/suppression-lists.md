@@ -7,14 +7,10 @@ ms.custom:
   - dyn365-marketing
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # How Dynamics 365 Marketing uses suppression lists
@@ -68,3 +64,5 @@ After that, our deliverability team will review the request and determine if the
 
 > [!NOTE]
 > If a contact is removed from a supression list that is used in a live journey, the changes will take effect in the next iteration of the journey (if the journey is recurring), not in the current one.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

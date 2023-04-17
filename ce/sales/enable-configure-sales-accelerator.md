@@ -5,7 +5,6 @@ ms.date: 04/06/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Configure the sales accelerator
 

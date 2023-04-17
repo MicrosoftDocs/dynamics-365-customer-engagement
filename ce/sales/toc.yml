@@ -2,8 +2,12 @@
   href: overview.md
 - name: Dynamics 365 Sales documentation
   href: help-hub.yml
-- name: What's new
-  href: whats-new.md
+- name: What's new or changed
+  items:
+    - name: What's new or changed in Dynamics 365 sales
+      href: whats-new.md
+    - name: March 2023 release
+      href: march-2023-whatsnew.md
 - name: Try, install, and manage
   items:
   - name: Sales trial
@@ -113,6 +117,8 @@
   items:
     - name: Administration overview
       href: admin-guide.yml
+    - name: Access admin settings
+      href: admin-settings-overview.md
     - name: Digital selling capabilities in Sales Enterprise
       items:
         - name: Overview
@@ -129,6 +135,10 @@
       items:
         - name: Enable or disable saving of business card image
           href: retain-business-card-image-after-scanning.md
+        - name: Enable email validation
+          href: enable-email-validation.md         
+        - name: Enable email validation for custom forms 
+          href: enable-email-validation-custom-forms.md           
         - name: Customize the business card scanner control
           href: customize-business-card-scan-control.md
         - name: Integrate LinkedIn Sales Insights
@@ -209,8 +219,8 @@
           href: enable-automatic-generation-quotes-invoices.md
         - name: Enable creation of orders from quotes
           href: enable-creation-of-orders-from-quotes.md
-        - name: Set up server-side synchronization for Exchange
-          href: /power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks?context=/dynamics365/context/sales-context
+        - name: Configure Exchange integration
+          href: configure-email.md
         - name: Integrate with OneDrive for Business
           href: /power-platform/admin/enable-onedrive-for-business?context=/dynamics365/context/sales-context
         - name: Integrate with OneNote
@@ -225,8 +235,12 @@
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
           href: enable-duplicate-lead-detection.md
+        - name: Enable duplicate lead detection for custom forms 
+          href: enable-duplicate-detection-custom-forms.md
         - name: Enable email validation
           href: enable-email-validation.md
+        - name: Enable email validation for custom forms 
+          href: enable-email-validation-custom-forms.md
         - name: Integrate LinkedIn Sales Navigator solutions
           href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
         - name: Predictive lead scoring
@@ -612,7 +626,9 @@
         - name: Work with accounts and contacts
           href: accounts-contacts.md
         - name: View and manage records in focused view  
-          href: focused-view.md           
+          href: focused-view.md         
+        - name: Work with invalid email addresses
+          href: work-invalid-email-addresses.md            
         - name: Organize contacts in live org charts for accounts
           href: live-org-chart.md
         - name: Use the LinkedIn Sales Insights tab

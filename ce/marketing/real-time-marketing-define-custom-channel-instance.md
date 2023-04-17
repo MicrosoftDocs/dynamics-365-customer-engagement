@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Define your extended configuration entity for the channel instance
@@ -88,3 +84,5 @@ For example:
 
     > [!div class="mx-imgBorder"]
     > ![custom channel](media/real-time-marketing-select-custom-channel1.png "custom channel")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

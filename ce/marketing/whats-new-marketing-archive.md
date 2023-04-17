@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Mktg
 ---
 
 # What's new archive for Dynamics 365 Marketing
@@ -2120,7 +2116,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 
 - **Ability to test-send dynamic email messages**
     - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/ability-test-send-dynamic-email-messages)
-    - [Docs](email-preview.md#preview-dynamic-text-from-contact-information)
+    - [Docs](real-time-marketing-preview-personalized-content.md)
 - **Automated scheduler**
     - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/smart-scheduler)
     - [Docs](automated-scheduler.md)

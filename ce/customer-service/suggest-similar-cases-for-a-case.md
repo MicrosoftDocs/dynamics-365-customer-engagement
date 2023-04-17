@@ -5,14 +5,10 @@ author: neeranelli
 ms.author: nenellim
 ms.date: 06/27/2022
 ms.topic: article
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 searchScope:
 - D365-App-customerservice
 - D365-Entity-incident

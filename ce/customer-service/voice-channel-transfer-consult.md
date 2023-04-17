@@ -6,7 +6,6 @@ ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Transfer calls and consult with users in the voice channel

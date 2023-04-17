@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Upload, manage and use images, files, and videos in online content
@@ -63,3 +59,5 @@ If the image you need isn't there, select **+Upload** to add a new one.
 ### See also
 
 [Link to documents stored in the asset library](/dynamics365/marketing/real-time-marketing-email#link-to-documents-and-videos-stored-in-the-asset-library)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

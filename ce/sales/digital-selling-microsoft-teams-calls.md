@@ -5,7 +5,6 @@ ms.date: 01/11/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Microsoft Teams calls with conversation intelligence

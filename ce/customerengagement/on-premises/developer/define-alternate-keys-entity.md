@@ -14,7 +14,6 @@ ms.assetid: fb4a93d6-590b-4913-96f7-25d351dc52ab
 caps.latest.revision: 23
 author: mayadumesh
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

@@ -5,9 +5,6 @@ ms.date: 02/24/2023
 ms.topic: conceptual
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Quickly schedule work orders and requirements

@@ -5,7 +5,6 @@ ms.date: 07/01/2019
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # getAuthTokenProvider

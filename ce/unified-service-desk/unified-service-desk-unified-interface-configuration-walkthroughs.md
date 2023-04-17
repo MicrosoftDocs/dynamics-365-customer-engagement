@@ -5,13 +5,9 @@ ms.date: 05/07/2018
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ---
 
 # Unified Service Desk and Unified Interface App configuration walkthroughs

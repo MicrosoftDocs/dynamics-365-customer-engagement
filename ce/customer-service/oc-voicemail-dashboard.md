@@ -5,7 +5,6 @@ ms.date: 10/17/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Voicemail dashboard

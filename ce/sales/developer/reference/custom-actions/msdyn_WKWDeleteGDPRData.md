@@ -5,7 +5,6 @@ ms.date: 08/19/2022
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # WKWDeleteGDPRData custom action 
 

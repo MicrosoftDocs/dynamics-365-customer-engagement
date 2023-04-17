@@ -15,7 +15,6 @@ author: shujoshi
 ms.assetid: 67599faa-8b55-420a-b0eb-9161b35a67ff
 caps.latest.revision: 11
 ms.author: shujoshi
-manager: shujoshi
 search.audienceType: 
   - admin
 

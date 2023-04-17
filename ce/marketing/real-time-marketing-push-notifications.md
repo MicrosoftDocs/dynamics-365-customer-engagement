@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create push notifications
@@ -147,3 +143,5 @@ When creating a real-time marketing journey, you can send push notification mess
 ## Track your push notification messaging metrics from channel insights
 
 You can see how customers reacted to your push messages by checking the push notification analytics in the message itself and within journeys.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

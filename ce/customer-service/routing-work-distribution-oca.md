@@ -5,7 +5,6 @@ ms.date: 05/12/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Routing and assignment in Omnichannel Administration

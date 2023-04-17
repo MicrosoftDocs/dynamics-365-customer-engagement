@@ -1,11 +1,11 @@
 ---
 title: "Configure authentication settings | MicrosoftDocs"
 description: "Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service."
-ms.date: 02/01/2023
+ms.date: 04/05/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
+ms.reviewer: shujoshi
 ---
 
 # Configure authentication settings
@@ -84,7 +84,7 @@ The Power Apps portal will try to automatically link a contact record to the con
 
 ### Setup for custom portals
 
-If you're adding an authenticated chat experience to a custom website (that's not developed using Power Apps portals), here are a few steps that your web development team must perform before your administrators can configure authenticated chat:
+If you're adding an authenticated chat experience to a custom website that isn't developed using Power Apps portals, your web development team must perform the following steps before your administrators can configure authenticated chat:
 
 1. Generate a public/private key pair in their authentication servers. The keys must be generated using the RSA256 algorithm. 
 
@@ -95,7 +95,7 @@ If you're adding an authenticated chat experience to a custom website (that's no
     openssl rsa -pubout -in private_key.pem -out public_key.pem
     ```
 
-2. Create an endpoint that will return your public keys. The public keys will be used by the Omnichannel servers to validate the JWT token passed as a part of authorizing the chat request. The URL of this endpoint will be entered into the admin app when creating an authentication setting record.  
+2. Create an endpoint that will return your public keys. The Omnichannel servers will use the public keys to validate the JWT token passed as a part of authorizing the chat request. The URL of this endpoint will be entered into the admin app when creating an authentication setting record.  
 
     Your public key endpoint will look similar to this example:
       ```
@@ -109,7 +109,7 @@ If you're adding an authenticated chat experience to a custom website (that's no
         YQIDAQAB 
         -----END PUBLIC KEY-----   
         
-  If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey>` pairs, where `kid` refers to the key ID. Note that key ID pairs must be unique. The kid will need to be passed in the JWT token in step 4. If you're using multiple keys, your public key endpoint should return something that looks like this. The public key is base64-encoded.
+If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey>` pairs, where `kid` refers to the key ID. Key ID pairs must be unique. The kid will need to be passed in the JWT token in step 4. If you're using multiple keys, your public key endpoint should return something that looks like this. The public key is base64-encoded.
 
   ```
    [
@@ -222,7 +222,7 @@ If you're adding an authenticated chat experience to a custom website (that's no
        
       Example: https://www.contoso.com/auth/publickey 
 
-    b. The name of the JavaScript client function from step 4. This will be called internally by the live chat widget during the start of a chat.
+    b. The name of the JavaScript client function from step 4. The live chat widget will call this name internally during the start of a chat.
        
       Example: auth.getAuthenticationToken
 
@@ -248,37 +248,68 @@ If you're adding an authenticated chat experience to a custom website (that's no
      > ![Authenticated chat runtime.](media/auth-chat-runtime.png "Authenticated chat runtime")
 
 
-## Create authentication settings for social channels<a name="socialauth"></a>
+## Create authentication settings for Apple Messages for Business<a name="socialauth"></a>
 
 ### Prerequisites
 
-- Administrators who are configuring authentication settings will need additional security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
+- Administrators who are configuring authentication settings will need more security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
 
-- Make sure your organization has working knowledge of OAuth 2.0 code flow.
+- Make sure your organization has working knowledge of OAuth 2.0 code flow or OAuth 2.0 OpenID connect flow. Steps for both types are outlined below.
 
-- Confirm that your organization has at least one Apple Messages for Business **Authentication type rich message**. This is required for setup.
+- Confirm that your organization has at least one Apple Messages for Business **Authentication type rich message**. This rich message is required for setup.
 
-### Create an authentication setting record for Apple Messages for Business
+### Create an authentication setting record for Apple Messages for Business using OAuth 2.0 code flow
 
-1. In the site map of the Customer Service admin center or Omnichannel admin center app, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
+1. In the Customer Service admin center or Omnichannel admin center app site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
 
-1. Select **New authentication setting**, and in the **Add authentication setting** page, provide the following details:
+1. Select **New authentication setting**, and on the **Add authentication setting** page, provide the following details:
 
      1. On the **Channel type** page, enter a name and select **Apple Messages for Business** as the channel type.<br>
-        By default, the authentication type is OAuth 2.0 code flow. This cannot be changed.<br>
+        By default, the authentication type is **OAuth 2.0 code flow**.<br>
     
-     2. On the **Details** page, provide the following information:<br>
+     2. On the **Add authentication setting** page, provide the following information:<br>
         - **Client ID**: OAuth 2.0 Client Identifier issued by an authorization server.<br>
         - **Client secret**: Client secret used to authenticate requests sent to an authorization server.<br>
-        - **Scope**: Each scope added will specify which pieces of user data you've requested from the customer. The scope content must exactly match those available through your service provider.<br>
+        - **Scope**: Each scope added will specify which pieces of user data you've requested from the customer. The scope content must exactly match the ones available through your service provider.<br>
+        - **Access Token URL**: The service provider's endpoint where an access token can be requested.
         - **Decrypted token URL**: Endpoint where the OAuth 2.0 API can retrieve the customer info requested in the scope.<br>
      
      3. On the **Additional details** page, you can optionally define an access token expiry time, in seconds. The default expiry time is one hour.<br>
-        After the specified time, the **Authenticated** field in the **Customer summary** section of a previously authenticated conversation will change to **No**.<br>
+        After the specified time, the **Authenticated** field in the **Active Conversation** section of a previously authenticated conversation will change to **No**.<br>
     
      4. On the **Rich messages** page, select **Add**, and then select one or more rich messages to associate to this authentication setting.<br>
     
      5. Review the **Summary** page, and then select **Finish**. The authentication setting is configured.
+     
+### Create an authentication setting record for Apple Messages for Business using OAuth 2.0 OpenID connect flow
+
+1. In the Customer Service admin center or Omnichannel admin center app site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
+
+1. Select **New authentication setting**, and on the **Add authentication setting** page, provide the following details:
+
+     1. On the **Channel type** page, enter a name and select **Apple Messages for Business** as the channel type.<br>
+        
+     2. Change the authentication type **OAuth 2.0 OpenID connect flow**.<br>
+    
+     3. On the **Add authentication setting** page, provide the following information:<br>
+        - **Client ID**: OAuth 2.0 Client Identifier issued by an authorization server.<br>
+        - **Client secret**: Client secret used to authenticate requests sent to an authorization server.<br>
+        - **Scope**: Each scope added will specify which pieces of user data you've requested from the customer. The scope content must exactly match the ones available through your service provider.<br>
+        - **Access Token URL**: The service provider's endpoint where an access token can be requested.
+        - **Decrypted token URL**: Endpoint where the OAuth 2.0 API can retrieve the customer info requested in the scope.<br>
+        - **Additional parameters**: Allows authentication services to take extra parameters from the request.
+     
+     3. On the **Additional details** page, you can optionally define an access token expiry time, in seconds. The default expiry time is one hour.<br>
+        After the specified time, the **Authenticated** field in the **Customer summary** section of a previously authenticated conversation will change to **No**.<br>
+      
+     4. On the **Rich messages** page, select **Add**, and then select one or more rich messages to associate to this authentication setting.<br>
+    
+     5. Review the **Summary** page, and then select **Next**. The authentication setting is configured.
+     
+     6. On the **Redirect information** page, copy the URL. You'll add this URL to the authentication service provider's website under allowed callback URLs.
+     
+     7. Select **Finish**.
+
 
 ### Add authentication to an Apple Messages for Business channel
 

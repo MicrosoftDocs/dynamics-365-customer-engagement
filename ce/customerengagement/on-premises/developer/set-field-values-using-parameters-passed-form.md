@@ -14,7 +14,6 @@ ms.assetid: 62984977-83a2-464a-b8d9-f7f3fa4b7d33
 caps.latest.revision: 43
 author: KumarVivek
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
