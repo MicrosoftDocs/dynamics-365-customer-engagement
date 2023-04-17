@@ -1,7 +1,7 @@
 ---
 title: "Configure analytics and insights dashboards | MicrosoftDocs"
 description: "Learn how to configure analytics and insights dashboards in Customer Service admin center and Customer Service workspace."
-ms.date: 04/13/2023
+ms.date: 04/16/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -51,9 +51,9 @@ Users with the system administrator or supervisor role can access the analytics 
 
 6. On the **Security roles** page, select the role that you just created or updated, and then select **Add people** to add users to the role.
 
-To bookmark a report, grant **Create**, **Read**, **Write**, and **Delete** privileges to the security roles as applicable, for the **Report Bookmark** custom entity.
-
-To edit analytics reports, grant the **Analytics Report Author** role. For information about assigning user roles, go to [Assign roles to users](add-users-assign-roles.md#assign-roles-to-users).
+> [!NOTE]
+> - To bookmark a report, grant **Create**, **Read**, **Write**, and **Delete** privileges to the security roles as applicable, for the **Report Bookmark** custom entity.
+> - To edit analytics reports, grant the **Analytics Report Author** role. For information about assigning user roles, go to [Assign roles to users](add-users-assign-roles.md#assign-roles-to-users).
 
 ### See also
 
