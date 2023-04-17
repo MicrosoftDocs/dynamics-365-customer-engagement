@@ -1,10 +1,10 @@
 ---
-title: "Preview: Marketing effectiveness analytics (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to create personalized experiences with marketing effectiveness analytics in Dynamics 365 Marketing."
+title: Preview: Marketing effectiveness analytics
+description: Learn how to create personalized experiences with marketing effectiveness analytics in Dynamics 365 Marketing.
 ms.date: 04/17/2023
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 search.audienceType: 
@@ -15,15 +15,21 @@ search.audienceType:
 
 # Preview: Marketing effectiveness analytics
 
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
 Dynamics 365 Marketing enables you to create highly personalized experiences to nudge customers toward important milestones in the buyer's journey. With the marketing effectiveness analytics dashboard, you can define key customer milestones, measure them over time, and assess the contribution and effectiveness of your journeys, channels, and marketing assets in driving customers to the milestones. The dashboard uses AI-powered multi-touch and single-touch attribution models. This provides you with a feedback loop to gain a comprehensive view of the effectiveness of your real-time marketing tactics in driving key business outcomes, empowering you to optimize your marketing mix by learning from tactics that worked well and improving or dropping tactics that didn’t.  
 
 ## How to use the dashboard
+
 ### Enable the dashboard
 To use the marketing effectiveness analytics dashboard, an administrator needs to enable the feature switch in settings. To enable the feature switch:
 1. Go to **Settings > Overview > Feature switches**.
 1. Enable the **Marketing effectiveness analytics (preview)** feature switch under the **Analytics** section and select **Save** in the upper right corner.
 
-### Creating Milestones
+### Creating milestones
 
 Milestones are journey-agnostic key customer actions, touchpoints, or states in the buyer’s journey that you want your customers complete. Typically, milestones are closely related to the business outcomes that your marketing organization is responsible for. You might use various capabilities in real-time marketing (for example, creating numerous customer journeys and forms) to drive your customers to the milestones.
 
@@ -56,7 +62,7 @@ As shown above, a business trigger has been created that gets raised every time 
 > [!NOTE]
 > Ensure that you create the custom or business trigger using the correct audience type (Contact, Lead, or Customer Insights profile) since the milestone will directly leverage the trigger’s audience type.
 
-Next, to start creating a milestone, go to the **Marketing effectiveness analytics dashboard** from the **Analytics** site navigation. You can create and delete milestones from the dashboard settings page. To access dashboard settings, select **“Set up my dashboard”** if you’re using the dashboard for the first time, or the **“Edit dashboard”** button on the upper right corner of the dashboard if you’ve already set up the dashboard.
+Next, to start creating a milestone, go to the **Marketing effectiveness analytics dashboard** from the **Analytics** site navigation. You can create and delete milestones from the dashboard settings page. To access dashboard settings, select **“Set up my dashboard”** if you’re using the dashboard for the first time, or the **“Edit dashboard”** button on the upper right corner of the dashboard if you have already set up the dashboard.
 
 > [!div class="mx-imgBorder"]
 > ![Marketing effectiveness analytics dashboard needs to be setup](media/real-time-marketing-setup-marketing-analytics-dashboard.png "Marketing effectiveness analytics dashboard needs to be setup")
@@ -69,7 +75,7 @@ Next, to start creating a milestone, select **“+ Add”** in the “Define mil
 To define the milestone, add the following details:  
 - Name: **High-quality qualified lead**
 - Trigger: For the High-quality qualified lead milestone, select the **“Lead status or rating is updated”** business trigger that you previously created. 
-- Trigger conditions: Note that the trigger is raised every time a lead’s status or rating attributes are updated. However, for this milestone, customers should complete it only when the lead status is updated to “Qualified” and its rating is “Hot.” You need to therefore specify these as additional conditions in the milestone definition to ensure that only leads that are qualified and have a “hot” rating complete the milestone and not any other leads.
+- Trigger conditions: The trigger is raised every time a lead’s status or rating attributes are updated. However, for this milestone, customers should complete it only when the lead status is updated to “Qualified” and its rating is “Hot.” You need to therefore specify these as additional conditions in the milestone definition to ensure that only leads that are qualified and have a “hot” rating complete the milestone and not any other leads.
 
 > [!div class="mx-imgBorder"]
 > ![Add milestone using different attributes](media/real-time-marketing-add-milestone-details.png "Add milestone using different attributes")
@@ -85,7 +91,7 @@ In this way, you can create up to five milestones by leveraging business or cust
 > Ensure that none of the triggers that you use to define your milestones are deleted. If a trigger used to define a milestone is deleted, the system can no longer track when new customers complete the milestone, impacting the analytics for the milestone in the dashboard. 
 
 ### Deleting milestones
-You can choose to delete and re-create a milestone if needed. Note that when a milestone is deleted, the system stops tracking it and the data pertaining to the marketing effectiveness analytics (for that milestone) in the dashboard is reset. If the same milestone is added back later, it's treated as a new milestone.  
+You can choose to delete and re-create a milestone if needed. When a milestone is deleted, the system stops tracking it and the data pertaining to the marketing effectiveness analytics (for that milestone) in the dashboard is reset. If the same milestone is added back later, it's treated as a new milestone.  
 
 ### Interpreting analytics in the dashboard
 Once you’ve defined your milestones, after the next dashboard data refresh (about 24 hours), analytics will start to populate the dashboard. For each milestone, the dashboard provides insights through milestone analytics and marketing attribution analysis. 
@@ -112,16 +118,18 @@ Only actual customer interactions due to real-time marketing-initiated activitie
 - **Push notifications**: Push notification opens and clicks.
 - **Forms**: Form visits and submissions.
 
-Note that there are certain minimum data requirements for each attribution model to show results. For any selected milestone:
+There are certain minimum data requirements for each attribution model to show results. For any selected milestone:
 - The AI-powered multi-touch attribution model requires at least 10 unique customers that are “influenced by marketing” to have completed the milestone to show results.
 - The linear multi-touch and last-touch attribution models require at least 1 unique customer that is “influenced by marketing” to have completed the milestone and a total of at least 10 customer interactions among customers that have completed the milestone to show results (the 10 customer interactions can belong to a single customer too).
 
 ## Limitations
+
 - **Business unit support**: The dashboard currently doesn’t support data segregation based on business units. Users across all business units have access to the dashboard and the analytics shown in the dashboard are based on real-time marketing activities (journeys, forms, etc.) across all business units. 
 - **Custom channel interactions**: Customer interactions with messages sent through custom channels aren't yet incorporated into the attribution analysis results. 
 
 ## Frequently asked questions
-- Historically, which customer interactions are considered as inputs for attribution analysis?
-    - Only the customer interactions generated due to activities in real-time marketing are considered for attribution analysis. The models consider all customer interactions from the last two years for attribution analysis for each milestone. 
--	Are form interactions considered in journey effectiveness?
-    - Form interactions can result from organic form visits (for example, a customer directly visits your website and submits a form) or customers visiting a form by clicking on a link in a message that was sent through a journey in real-time marketing. The form interactions that result from the latter are incorporated in assessing the overall effectiveness of the customer journey (since the form interactions were due to customers interacting with messages in the customer journey). However, form interactions due to organic visits aren't considered in the journey effectiveness analysis since the journey didn't contribute to those. The impact of organic visit interactions is incorporated into the marketing asset and channel effectiveness charts. 
+
+### Historically, which customer interactions are considered as inputs for attribution analysis?
+Only the customer interactions generated due to activities in real-time marketing are considered for attribution analysis. The models consider all customer interactions from the last two years for attribution analysis for each milestone. 
+###	Are form interactions considered in journey effectiveness?
+Form interactions can result from organic form visits (for example, a customer directly visits your website and submits a form) or customers visiting a form by clicking on a link in a message that was sent through a journey in real-time marketing. The form interactions that result from the latter are incorporated in assessing the overall effectiveness of the customer journey (since the form interactions were due to customers interacting with messages in the customer journey). However, form interactions due to organic visits aren't considered in the journey effectiveness analysis since the journey didn't contribute to those. The impact of organic visit interactions is incorporated into the marketing asset and channel effectiveness charts. 
