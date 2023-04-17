@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 04/13/2023
+ms.date: 04/17/2023
 ms.custom: bap-template
 ---
 
@@ -35,9 +35,9 @@ It is the count of conversation requests from customers that have agents assigne
 
 It is the count of conversations that have an agent assigned and are actively in contact with the customer. Supervisors can monitor these conversations and track sentiment to ensure customer satisfaction and intervene, if needed.
 
-## Conversation first wait time (sec)
+## Conversation first wait time
 
-It is a measure of the time taken before an agent responds to a customer's request. It represents the time spent by a customer waiting to get the first response from a human agent. Agent availability, high volume of requests, increased handle time could be some of the reasons that can influence customer waiting time. Lower waiting time indicates that customers get issue resolution faster and have a better support experience.  
+It is a measure of the time taken before an agent responds to a customer's request. It represents the time, in seconds, spent by a customer waiting to get the first response from a human agent. Agent availability, high volume of requests, increased handle time could be some of the reasons that can influence customer waiting time. Lower waiting time indicates that customers get issue resolution faster and have a better support experience.  
 
 If bot or IVR handles the customer before escalating the issue to human agent, the calculation is based on the time between a bot escalating an incoming conversation to a human agent and an agent accepting the conversation. If the customer ends up abandoning the conversation, the calculation is based on the time between a bot passing the conversation to the human representative and the customer disconnecting the conversation.
 
@@ -73,8 +73,9 @@ This metric is available in two formats - seconds and in hh:mm:ss.
 - Service level (40 seconds): This metric is measured as the percentage of customer conversation, where the speed to answer is less than 40 seconds.
 - Service level (60 seconds): This metric is measured as the percentage of customer conversation, where the speed to answer is less than 60 seconds.
 - Service level (120 seconds): This metric is measured as the percentage of customer conversation, where the speed to answer is less than 120 seconds.
+- Speed to answer: Time taken to accept an customer request
 
-For metrics around how quickly an agent accepts a request, refer to speed to answer.
+For metrics around how quickly an agent accepts a request, refer to .
 
 ## Conversation handle time  
  
@@ -92,35 +93,35 @@ The conversation direction is Incoming and Outgoing. Channels through which the 
 
 **Related metric** 
 
-Average handle time: This metric is calculated by taking the total handle time of all the customer requests, and then dividing it by the total number of customers who were served. 
+- Average handle time: This metric is calculated by taking the total handle time of all the customer requests, and then dividing it by the total number of customers who were served.
 
-## Avg. conversation hold time (sec)
+## Avg. conversation hold time
 
-This metric represents the average duration of the time when the customer was put on hold by human agents handling the conversation. If the conversation was handled by multiple agents, conversation hold time is calculated as sum of hold time across all agents handling this conversation. This metric is calculated by taking the total hold time of all customer requests, and then dividing it by the total number of customers who are were served.
+This metric represents the average time, in seconds, when the customer was put on hold by human agents handling the conversation. If the conversation was handled by multiple agents, conversation hold time is calculated as sum of hold time across all agents handling this conversation. This metric is calculated by taking the total hold time of all customer requests, and then dividing it by the total number of customers who are were served.
 
 There are several reasons why an agent might put a customer on hold. For example, an agent might put a customer on hold to gather additional information or research an issue, perform tasks that don’t require interaction like entering data into a system, or perform an offline task. A higher hold time may cause customer frustrations and may lead to poor customer experience.
  
-## Avg. conversation talk time (sec)
+## Avg. conversation talk time
 
-It is the average time spent by a human agent actively conversing with customers on the phone for voice conversation. If a conversation was handled by multiple agents, conversation talk time is aggregated across all agents. This metric is calculated by taking the total hold time of all customer request, and then dividing it by the total number of customers who are were served.
+This metric represents the average time, in seconds, spent by a human agent actively conversing with customers on the phone for voice conversation. If a conversation was handled by multiple agents, conversation talk time is aggregated across all agents. This metric is calculated by taking the total hold time of all customer request, and then dividing it by the total number of customers who are were served.
 
 **Related metric** 
 
-Conversation talk time: This metric is calculated by taking the total talk time across all customer requests.  
+- Conversation talk time: This metric is calculated by taking the total talk time across all customer requests.  
 
-## Avg. conversation time (sec)
+## Avg. conversation time
 
-This metric represents the average time a customer spent with the human agent, while seeking assistance from the contact center. It includes the time spent waiting for agents to work with them.  
+This metric represents the average time, in seconds, that a customer spent with the human agent, while seeking assistance from the contact center. It includes the time spent waiting for agents to work with them.  
 
 **Related metric**
 
-Conversation time: This metric is calculated as the time between the customer initiating the request and the agent wrapping up the conversation. Time spent by agents with bot is also included.
+- Conversation time: This metric is calculated as the time between the customer initiating the request and the agent wrapping up the conversation. Time spent by agents with bot is also included.
 
 ## Avg. conversation wrap up time
 
 This metric represents the average time agents spend after the customer leaves to complete any necessary tasks, such as documenting the conversations, updating notes, or updating the customer’s information. It's calculated as the beginning of the wrap up to the closing of the conversation by the agent. If multiple agents handled a conversation, it applies only to the time spent by the agent who is last to work with the customer.
 
-This metric can be viewed in two formats, seconds and in hh:mm:ss".
+This metric can be viewed in two formats, seconds and in hh:mm:ss.
 
 ## Waiting conversations
  
@@ -152,7 +153,7 @@ Represents the reference id of the conversation. This metric can be used for ass
  
 ## Created on
  
-Represents the time when the customer conversation request was created. In case of incoming conversation, it is calculated as the time when the customer stared the request. In case of outgoing conversation, it is calculated.
+Represents the time when the customer conversation request was created. In case of incoming conversation, it is calculated as the time when the customer stared the request. In case of outgoing conversation, it is calculated as the time when the agent initiated the call.
 
 ## Next steps
 
