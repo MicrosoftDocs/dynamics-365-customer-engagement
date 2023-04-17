@@ -1,7 +1,7 @@
 ---
 title: "Create a quick campaign using in-app marketing | MicrosoftDocs"
 description: "A quick campaign is a single campaign activity meant for a specific audience. For example, sending an e-mail blast to customers in a specific region."
-ms.date: 10/03/2022
+ms.date: 04/17/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
