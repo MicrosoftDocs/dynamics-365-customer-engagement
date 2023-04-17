@@ -126,6 +126,8 @@ additionalContent:
         text: Goals
       - url: project-accurate-revenue-sales-forecasting.md
         text: Forecasts
+      - url: configure-premium-forecasting.md
+        text: Premium forecasts
     - title: Sales accelerator
       links: 
       - url: prioritize-sales-pipeline-through-work-list
@@ -172,6 +174,6 @@ additionalContent:
         - title: Customer Voice
           summary: Understand your customers to build better experiences. Collect, analyze, and track real-time feedback in an easy-to-use, scalable feedback management solution.
           url: /dynamics365/customer-voice/about
-        - title: Linked Sales Navigator
+        - title: LinkedIn Sales Navigator
           summary: Use LinkedIn Sales Navigator to enhance key application scenarios by connecting the system of record with the LinkedIn data graph and insights.
           url: /dynamics365/linkedin/integrate-sales-navigator
