@@ -1,7 +1,7 @@
 ---
 title: Configure file attachment capability for a chat widget
 description: Learn how to configure file attachments for a chat widget in Omnichannel for Customer Service.
-ms.date: 04/13/2023
+ms.date: 04/17/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -50,7 +50,7 @@ You can define the file size limit for attachments and unsupported file types in
     :::image type="content" source="media/file-size-limit.png" alt-text="Set file size limit for attachment.":::
 
    > [!NOTE]
-   > By default, the size is 5 MB. The maximum size for image files in live chat can be 20 MB only. For other types of file attachments, you can specify up to 128 MB.
+   > By default, the size is set to 5 MB. You can specify up to 128 MB for all attachments. However, the maximum size for image files in live chat can be 20 MB only.
 
 4. To specify unsupported file types, go to the **General** tab.
 
