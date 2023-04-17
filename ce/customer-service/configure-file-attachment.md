@@ -39,7 +39,7 @@ If an agent transfers the chat to another agent, the agent who receives the chat
 
 ## Set size limit, supported file types for file attachments
 
-The file size limit for attachments and unsupported file types are defined in the advanced settings. To configure the file size limit and unsupported file types:
+You can define the file size limit for attachments and unsupported file types in the advanced settings of Dynamics 365.
 
 1. In the admin app, go to **Advanced Settings** on the top right, and then select **Settings** > **Administration** > **System Settings**.
 
@@ -50,7 +50,7 @@ The file size limit for attachments and unsupported file types are defined in th
     :::image type="content" source="media/file-size-limit.png" alt-text="Set file size limit for attachment.":::
 
    > [!NOTE]
-   > For image files in live chat, the size can be up to 20 MB or lesser as determined in Dynamics 365. For other types of file attachments, you can upload a file up to the maximum size of 128 MB that can be specified in Dynamics 365. The default size for other types of file attachments is 5 MB.
+   > By default, the size is 5 MB. The maximum size for image files in live chat can be 20 MB only. For other types of file attachments, you can specify up to 128 MB.
 
 4. To specify unsupported file types, go to the **General** tab.
 
