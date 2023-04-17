@@ -322,8 +322,7 @@
       items:
       - name: Access and interpret analytics
         href: real-time-marketing-analytics.md
-      items:
-      - name: Preview: Marketing effectiveness analytics
+      - name: Preview:Marketing effectiveness analytics
         href: real-time-marketing-effectiveness.md
       - name: How to use aggregate cross-journey analytics
         href: real-time-marketing-cross-journey-analytics.md
