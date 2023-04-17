@@ -34,7 +34,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 ## 8.8.89.34
 (Includes Universal Resource Scheduling version [3.12.103.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210312) and Resource Scheduling controls version 1.2.43.230971).
 
-- Fixed a bug preventing work order’s created from an asset to have their location set to the asset’s functional location.
+- Fixed a bug preventing work orders created from an asset to have their location set to the asset’s functional location.
 - NVDA/Narrator now announces status message “Match found” when searching a keyword in the assets and location tab on accounts, assets, and locations.
 
 
