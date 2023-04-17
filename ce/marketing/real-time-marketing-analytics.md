@@ -101,11 +101,11 @@ The marketing effectiveness analytics dashboard enables you to set up key milest
 > [!div class="mx-imgBorder"]
 > ![Marketing effectiveness analytics dashboard.](media/real-time-marketing-effectiveness-analytics-dashboard.png "Marketing effectiveness analytics dashboard")
 
+Learn more: [Preview: Marketing effectiveness analytics](real-time-marketing-effectiveness.md)
+
 ## Learn more
 
 Here are some advanced resources for this topic:
-
-- [Preview: Marketing effectiveness analytics](real-time-marketing-effectiveness.md)
 
 - [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
 
