@@ -94,9 +94,18 @@ Learn more: [How to use aggregate channel analytics](real-time-marketing-channel
 > [!NOTE]
 > There is no retention policy for real-time marketing interactions in Aggregate cross-journey analytics and Aggregate channel analytics. Dataverse entities are limited to a two-year retention policy after their initial creation date. Keep in mind that the two-year Dataverse entity retention policy might impact analytics views associated with interaction data from Dataverse entities.
 
+### Marketing effectiveness analytics
+
+The marketing effectiveness analytics dashboard enables you to set up key milestones in your buyer’s journey and analyze how your real-time marketing activities are contributing to driving customers to those milestones. The dashboard uses AI-powered multi-touch and single-touch attribution models.
+
+> [!div class="mx-imgBorder"]
+> ![Marketing effectiveness analytics dashboard.](media/real-time-marketing-effectiveness-analytics-dashboard.png "Marketing effectiveness analytics dashboard")
+
 ## Learn more
 
 Here are some advanced resources for this topic:
+
+- [Preview: Marketing effectiveness analytics]()
 
 - [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
 
