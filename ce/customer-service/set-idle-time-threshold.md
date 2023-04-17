@@ -1,7 +1,7 @@
 ---
 title: "Set idle time threshold | Microsoft Docs"
 description: "Learn how to set the idle time threshold."
-ms.date: 03/31/2023
+ms.date: 04/17/2023
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,7 @@ ms.author: nenellim
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!NOTE]
-> With the release of [real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability, we announce that the intraday insights for Omnichannel for Customer Service will be deprecated on October 31, 2023. We recommend that you use real-time analytics reports, which provide real-time information about the health and key performance indicators of your organization. For more information on the deprecation, go to [Intraday insights for Omnichannel for Customer Service to be deprecated](deprecations-customer-service.md#intraday-insights-for-omnichannel-for-customer-service-to-be-deprecated).
+> With the release of [real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability, we announce that the intraday insights for Omnichannel for Customer Service won't be available from October 31, 2023. We recommend that you use real-time analytics reports, which provide real-time information about the health and key performance indicators of your organization. For more information on the deprecation, go to [Intraday insights for Omnichannel for Customer Service to be deprecated](deprecations-customer-service.md#intraday-insights-for-omnichannel-for-customer-service-to-be-deprecated).
 
 You can configure the idle time threshold to pause the handle time computation of an agent for an ongoing session when the agent is idle. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time).
 
