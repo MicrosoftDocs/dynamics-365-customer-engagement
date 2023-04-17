@@ -135,6 +135,10 @@
       items:
         - name: Enable or disable saving of business card image
           href: retain-business-card-image-after-scanning.md
+        - name: Enable email validation
+          href: enable-email-validation.md         
+        - name: Enable email validation for custom forms 
+          href: enable-email-validation-custom-forms.md           
         - name: Customize the business card scanner control
           href: customize-business-card-scan-control.md
         - name: Integrate LinkedIn Sales Insights
@@ -231,8 +235,12 @@
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
           href: enable-duplicate-lead-detection.md
+        - name: Enable duplicate lead detection for custom forms 
+          href: enable-duplicate-detection-custom-forms.md
         - name: Enable email validation
           href: enable-email-validation.md
+        - name: Enable email validation for custom forms 
+          href: enable-email-validation-custom-forms.md
         - name: Integrate LinkedIn Sales Navigator solutions
           href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
         - name: Predictive lead scoring
@@ -618,7 +626,9 @@
         - name: Work with accounts and contacts
           href: accounts-contacts.md
         - name: View and manage records in focused view  
-          href: focused-view.md           
+          href: focused-view.md         
+        - name: Work with invalid email addresses
+          href: work-invalid-email-addresses.md            
         - name: Organize contacts in live org charts for accounts
           href: live-org-chart.md
         - name: Use the LinkedIn Sales Insights tab
