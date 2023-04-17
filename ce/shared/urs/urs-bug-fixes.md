@@ -6,20 +6,34 @@ For information about other updates to Universal Resource Scheduling, visit the 
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | TBD | 04/14/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | TBD | 04/21/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | 04/07/2023 |
-| | *USG* |  [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  |  04/07/2023 |
-|**Station 4** |*Europe* |[3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | 04/14/2023 |
+|**Station 1** |  *First Release*| [3.12.103.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210312)  | TBD | 04/28/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | [3.12.103.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210312) | 04/21/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | [3.12.103.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210312) | 04/28/2023 |
+| | *USG* | [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | [3.12.103.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210312) | 04/21/2023 |
+|**Station 4** |*Europe* |[3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | [3.12.103.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210312) | 05/05/2023 |
 |**Station 5** |  *North America*|[3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | 04/21/2023 |
 |**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | 04/28/2023 |
-| | *Dedicated Scale Groups* |[3.12.97.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129718) | [3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | 04/07/2023 |
+| | *Dedicated Scale Groups* |[3.12.98.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312987) | [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217)  | 04/28/2023 |
 
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.103.12
+
+**Resource Scheduling Controls:** 1.2.43.230971
+
+**Dataverse:** 4.0.93.12
+
+- Executing a board-level refresh on the schedule board will now refresh all fields that have been added to the Bookable Resource cell template.
+- The map on the schedule board will now support routes containing more than 25 stops.
+- Additional performance improvements when loading the schedule board, primarily focused on removing redundant and unnecessary API calls.
+- Bug Fixes
+     - Removing the Organizational Unit field from the default Bookable Resource Booking form will no longer cause the form to display an error.
+     - Tooltips will now work across all views when a Bookable Resource Booking doesn't have a parent Resource Requirement.
+
 
 ## 3.12.102.17 - 2023 wave 1 release
 
