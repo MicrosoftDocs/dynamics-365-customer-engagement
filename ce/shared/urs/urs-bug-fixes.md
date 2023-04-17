@@ -27,12 +27,12 @@ For information about other updates to Universal Resource Scheduling, visit the 
 
 **Dataverse:** 4.0.93.12
 
-- Executing a board-level refresh on the schedule board will now refresh all fields that have been added to the Bookable Resource cell template.
-- The map on the schedule board will now support routes containing more than 25 stops.
-- Additional performance improvements when loading the schedule board, primarily focused on removing redundant and unnecessary API calls.
-- Bug Fixes
-     - Removing the Organizational Unit field from the default Bookable Resource Booking form will no longer cause the form to display an error.
-     - Tooltips will now work across all views when a Bookable Resource Booking doesn't have a parent Resource Requirement.
+- A board refresh on the schedule board refreshes all fields that have been added to the bookable resource cell template.
+- The map on the schedule board now supports routes containing more than 25 stops.
+- Additional performance improvements when loading the schedule board, primarily focused on optimizing the number of API calls.
+- Bug fixes:
+     - Removing the organizational unit field from the default *Bookable Resource Booking* form no longer causes an error on the form.
+     - Tooltips now work across all views when a *Bookable Resource Booking* doesn't have a parent *Resource Requirement*.
 
 
 ## 3.12.102.17 - 2023 wave 1 release
