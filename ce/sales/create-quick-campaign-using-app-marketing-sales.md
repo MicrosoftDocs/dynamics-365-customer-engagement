@@ -68,7 +68,7 @@ When you create a quick campaign activity, an activity is created for each membe
     
       - Clear the checkbox if you want the system to just create an email activity for each member in the marketing list, and you want to manually send the email and close the activity. In this case, an activity is considered successful when the activity is created.
       
-      You'll see the number of successes and failures after your create the campaign. 
+      You'll see the number of successes and failures after you create the campaign. 
 
 6. Select **Next**.
 
