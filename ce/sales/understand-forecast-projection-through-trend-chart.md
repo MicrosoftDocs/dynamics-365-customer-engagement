@@ -47,7 +47,7 @@ The following screenshot shows an example of a trend chart.
 
 The categories displayed on the trend chart depend on the forecast grid columns that your administrator has configured and the prediction columns. For more information on configuring forecast grid columns, see [Configure columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast#configure-columns).
  
-The Predicted Realization line displays a solid line for the time period until the present day and a dotted line for the time period after the present day. The dotted line indicates the projected revenue for the forecast period. The **Predicted Realization** line is calculated from the **Predicted from open** and **Predicted from new** values.  
+The Predicted Realization line displays a solid line for the time period until the last prediction date and a dotted line for the time period after that. The dotted line indicates the projected revenue for the rest of the forecast, which is calculated from the **Predicted from open** and **Predicted from new** values.
 For more information on prediction columns, see [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md).
 
 
