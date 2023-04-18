@@ -1,6 +1,6 @@
 ---
-title: "Warmup process for marketing senders (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to warmup process for marketing senders in Dynamics 365 Marketing."
+title: Warm-up process for marketing senders
+description: Learn the domain warm-up process for marketing email senders in Dynamics 365 Marketing.
 ms.date: 04/17/2023
 ms.custom: 
   - dyn365-marketing
@@ -13,19 +13,19 @@ search.audienceType:
   - enduser
 ---
 
-# Warmup process for marketing senders
+# Warm-up process for marketing senders
 
 ## Warm-up definition
-Domain warming is the process of methodically adding email volume to a new domain over several days or weeks. Gradually “warming” up the domain establishes a positive sending reputation with mailbox providers.
 
-Whether you use shared or dedicated IP addresses, the warmup process is initial and crucial for every sender. Warming up your domain together with your ESP’s IP addresses is crucial, whether you use a brand new (with 0 reputation) or already used domain (with good reputation) for your email campaigns.
+Domain warming is the process of methodically adding email volume to a new domain over several days or weeks. Gradually “warming up" the domain establishes a positive sending reputation with mailbox providers.
 
-Warmup is critical for senders who plan to use brand new domains and send large volumes of emails in their Customer Journeys (up to 500k emails per day/CJ).
+Whether you use shared or dedicated IP addresses, the initial warm-up process is important for every sender. Warming up your domain together with your ESP’s IP addresses is crucial, whether you use a brand new domain (with no reputation) or an already in use domain (with good reputation) for your email campaigns. Warm-up is especially critical for senders who plan to use brand new domains and send large volumes of emails in their customer journeys (up to 500,000 emails per day or customer journey).
 
 ## Warm-up summary
-Mailbox providers view email from a new domain as suspicious until the new address establishes a positive sending reputation. Achieving maximum deliverability takes four to eight weeks, depending on targeted volume and engagement. Warming could take longer if mailbox providers don't perceive that email from the new domain is "wanted" by the recipient. For example, the mailbox provider may determine that email isn't wanted if the recipient hasn't explicitly signed up for the mailing list. Certain mailbox providers limit senders to thresholds (the number of messages delivered per day) until they establish a reputation.
 
-We recommend starting with your best performing messages – those sent to highly engaged recipients. Focus warming your most engaged subscribers, then add older segments as you progress. Avoid tipping your reputation from good to bad by adding older segments to the engaged segments in chunks of 15 percent of your existing volume. The goal during the warm-up process is to send to subscribers who are the least likely to complain and bounce. These subscribers comprise the most recent opt-ins and regular opens and clickers.
+Mailbox providers view email from a new domain as suspicious until the new address establishes a positive sending reputation. Achieving maximum deliverability takes four to eight weeks, depending on the targeted volume and engagement. Warming could take longer if mailbox providers don't perceive that email from the new domain is "wanted" by the recipient. For example, the mailbox provider may determine that an email isn't wanted if the recipient hasn't explicitly signed up for the mailing list. Certain mailbox providers limit senders to thresholds (the number of messages delivered per day) until they establish a reputation.
+
+You should start the warm-up process with your best performing messages – those sent to highly engaged recipients. Focus on warming up with your most engaged subscribers, then add older segments as you progress. Avoid tipping your reputation from good to bad by only adding older segments to the engaged segments in chunks of 15 percent of your existing volume. The goal during the warm-up process is to send to subscribers who are the least likely to complain and bounce. These subscribers comprise the most recent opt-ins and regular opens and clickers.
 
 During the warm-up phase, the more consistent you are with volume, frequency, complaint, and bounce levels, the faster you establish a positive sending reputation. If you send infrequently (anything less than weekly), it takes longer to build a positive sender reputation.
 
@@ -77,26 +77,26 @@ Sender reputation is how mailbox providers view you and your mail.
 - Mailbox providers and metrics are the judge and jury when it comes to getting delivered to the inbox.
 - You can't transfer your reputation from one domain to another or from your previously used IPs to the ones you use in Dynamics Marketing.
 - If you use the same domain, your reputation can follow you. However, mailbox providers like Gmail use the reputation of the domain coupled with the reputation of the IP, therefore, you still must follow the warm-up process. 
-- Dynamics Marketing platform by default covers the IP part of warmup by providing you with a high reputation set of IP addresses. So, you have a good base from the start to build up reputation for your domain.
+- Dynamics Marketing platform by default covers the IP part of warm-up by providing you with a high reputation set of IP addresses. So, you have a good base from the start to build up reputation for your domain.
 - Mailbox providers trust metrics from their users and what they observe; no brand will get special treatment.
 - B2B (business-to-business commerce) senders must follow the same warm-up process as B2C (Business 2 Consumers) senders, as many business domains are now hosted by Yahoo, Outlook, Gmail, AOL, etc.
 
-## Dedicated IP Warm-up
+## Dedicated IP warm-up
 Some senders may demand a dedicated IP address to send emails. Several factors influence whether a dedicated IP address is ideal for your Marketing setup. 
 
-Warming up a dedicated IP address in combination with your domain would require additional effort as the entire process gets more delicate and complex. In addition to the domain warmup, keep an eye on the dedicated IP reputation.
+Warming up a dedicated IP address in combination with your domain would require additional effort as the entire process gets more delicate and complex. In addition to the domain warm-up, keep an eye on the dedicated IP reputation.
 
 Furthermore, dedicated IP requires a stable email flow to keep it “warmed” and maintain its reputation at acceptable levels. It would require you to re-warm your IP if you haven't sent any emails in the last 30 days.
 
-IP warming, like domain warmup, is the practice of gradually increasing the volume of mail delivered through a dedicated IP address on a set timetable. This continuous approach creates a reputation as a legitimate email sender with ISPs (Internet Service Providers).
+IP warming, like domain warm-up, is the practice of gradually increasing the volume of mail delivered through a dedicated IP address on a set timetable. This continuous approach creates a reputation as a legitimate email sender with ISPs (Internet Service Providers).
 
 When an ISP observes email suddenly from a new or "cold" IP address, they take note and immediately begin evaluating the traffic from that IP. Because ISPs treat email volume as a key determining factor when detecting spam, it's best to begin sending a low to moderate volume, eventually work your way up to larger volumes. This gives the receiving email providers a chance to closely observe your sending habits and record how your recipients engage with your email.
 
 A gradual warm-up doesn't always guarantee a perfect sending reputation. It's still important to follow sending best practices. The warm-up process can take two to four weeks, depending on the list quality and the overall planned volumes of email traffic.
 
-There's no general rule, numbers or standard warmup schedule to suit every sender. Every warmup plan is unique and may require additional analysis done by deliverability expert to make the process smooth and effective. It depends on several factors like overall planned daily/monthly volume of emails, target recipient IPS’s frequency of the email campaigns, type of emails(marketing/transactional) etc.
+There's no general rule, numbers or standard warm-up schedule to suit every sender. Every warm-up plan is unique and may require additional analysis done by deliverability expert to make the process smooth and effective. It depends on several factors like overall planned daily/monthly volume of emails, target recipient IPS’s frequency of the email campaigns, type of emails(marketing/transactional) etc.
 
-If you need assistance and help with navigating this delicate process of the warmup planning and email sending habits analysis, please reach out to our  [Deliverability and Compliance team](mailto:dynmktdeliverability@microsoft.com).
+If you need assistance and help with navigating this delicate process of the warm-up planning and email sending habits analysis, please reach out to our  [Deliverability and Compliance team](mailto:dynmktdeliverability@microsoft.com).
 
 ## Dedicated vs Shared IP for email delivery
 ### Definitions
