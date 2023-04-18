@@ -64,7 +64,7 @@ Avoid the following actions to prevent call drops:
 - Refresh your browser or select browser bookmark icons when you're in an active call. When you select refresh, even if you select cancel on the confirm refresh dialog, the page is unloaded. You will be disconnected from the call, and the customer will hear hold music until you rejoin the call from the **My work items** section of **Omnichannel Agent Dashboard**. If you're disconnected from your browser for a longer duration than a few minutes, the call is reassigned to another agent in the queue.
 - Open other apps that will need access to the microphone. It'll result in loss of your audio connection, and the customer won't be able to hear you.
 - Open the Customer Service workspace or Omnichannel for Customer Service app in more than one tab in the browser. It causes issues in agent presence.
-- Close the session directly to end call. If you do, the conversation moves from active to wrap up.Then if you close the session, the state goes from wrap up to closed. Instead, we recommend that you go through the conversation status route and select the **End** button and then close the session always to be able to take care of the wrap up activities.
+- Close the session directly to end call. If you do, the conversation moves from active to wrap up. Then if you close the session, the state goes from wrap up to closed. Therefore, we recommend that you go through the conversation status route and select the **End** button and then close the session to be able to take care of the wrap up activities.
 
 ### See also
 
