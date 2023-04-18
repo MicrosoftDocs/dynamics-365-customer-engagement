@@ -25041,6 +25041,11 @@
       "source_path": "ce/marketing/content-ideas-terms.md",
       "redirect_url": "/dynamics365/marketing/content-ideas",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/forwarding-and-replies.md",
+      "redirect_url": "/dynamics365/marketing/email-troubleshooting",
+      "redirect_document_id": false
     }
   ]
 }

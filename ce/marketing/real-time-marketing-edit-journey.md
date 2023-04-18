@@ -4,7 +4,7 @@ description: "Learn how to edit and update live journeys in the real-time market
 ms.date: 10/05/2022
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 search.audienceType: 
