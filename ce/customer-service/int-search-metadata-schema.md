@@ -98,7 +98,7 @@ Your mapping template must include:
          "DocFieldSource": "Constant",
          "DocFieldPattern": "true",
          "TargetFieldName": "msdyn_isingestedarticle",
-         "TargetFieldType": "Bool"
+         "TargetFieldType": "Boolean"
       },
       {
          "DocFieldSource": "Url",
