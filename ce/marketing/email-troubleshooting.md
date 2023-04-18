@@ -42,7 +42,7 @@ If you aren't using any of the above-listed email security software, use the fol
 - [GSuite/Google Apps - Add IP addresses to allow lists in Gmail](https://support.google.com/a/answer/60751)
 - [Office365/Exhange - Configure connection filtering](/microsoft-365/security/office-365-security/configure-the-connection-filter-policy)
 
-Find the Microsoft Dynamics 365 Marketing public IP addresses used for sending e-mails: [Public IP addresses used for sending e-mails](get-ready-email-marketing.md#public-ip-addresses-used-for-sending-e-mails)
+Find the Microsoft Dynamics 365 Marketing public IP addresses used for sending e-mails: [Public IP addresses used for sending e-mails](public-ip-addresses-for-email-sending.md)
 
 > [!IMPORTANT]
 > If you run into issues allow listing Dynamics 365 Marketing in your email security software, we recommend reaching out to the vendor support for specific instructions. 
