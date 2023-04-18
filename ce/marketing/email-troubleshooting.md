@@ -1,8 +1,7 @@
 ---
-title: "Troubleshoot email issues (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Describes how to troubleshoot issues with email in Dynamics 365 Marketing."
+title: Troubleshoot email issues
+description: Describes how to troubleshoot issues with email in Dynamics 365 Marketing.
 ms.date: 04/13/2023
-
 ms.custom:
   - dyn365-admin
   - dyn365-marketing
@@ -17,7 +16,7 @@ search.audienceType:
 
 # Troubleshoot email issues
 
-This article contains issues related to email administration in Dynamics 365 Marketing and workarounds and solutions.
+This article describes issues related to email administration in Dynamics 365 Marketing, including workarounds and solutions.
 
 ## Internal contacts are not receiving your marketing emails
 
@@ -50,7 +49,7 @@ Find the Microsoft Dynamics 365 Marketing public IP addresses used for sending e
 
 ## Troubleshoot email forwarding and replies
 
-This article details issues and best practices related to email forwarding and email reply-to addresses.
+This section below details issues and best practices related to email forwarding and email reply-to addresses.
 
 ## Email forwarding
 
@@ -62,7 +61,7 @@ Different email clients (web and desktop versions of clients like Gmail, Yahoo, 
 
 ### How to avoid content issues with forwarded emails
 
-Unfortunately, as a sender and email designer, there isn't much you can do to predict the behavior of every email client that your subscribers use. As such, it's impossible to avoid all changes that could result from email forwarding. However, if you're aware that your subscribers or recipients regularly forward your marketing emails, the following are some recommendations to reduce forwarding-related errors:
+As a sender and email designer, there isn't much you can do to predict the behavior of every email client that your subscribers use. It's impossible to avoid all changes that could result from email forwarding. However, if you're aware that your subscribers or recipients regularly forward your marketing emails, the following are some recommendations to reduce forwarding-related errors:
 
 - Keep your email design simple. Use a single–column design with few separate elements. This reduces the possibility of design-related HTML errors when forwarding the email.
 - Tell your recipients to forward your emails as an attachment. This approach increases the chances that original email keeps its design and elements untouched.
@@ -76,21 +75,20 @@ The "Reply-To:" header is ignored, however, in the case of automatic responses. 
 
 Only manual replies (when the recipient selects the “Reply” button) are sent to the "Reply-To:" address.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
-
 ## [External] flag for emails sent to internal recipients
 
-When sending emails to recipients within your organization, the email is being flagged as [External]. This is a common occurrence when the recipient's domain is hosted on Exchange Online or Microsoft 365.
+When sending emails to recipients within your organization, the email can sometimes be flagged as [External]. This is a common occurrence when the recipient's domain is hosted on Exchange Online or Microsoft 365.
 
 The [External] flag is configured to notify users that an email is sent from outside their organization. This is a security feature to protect against phishing attacks, as external emails can often be fraudulent.
 
-If emails are sent to recipients within an organization and are being flagged as [External], then there are a few things to do: 
-1. Check that the recipient's domain is hosted on Exchange Online or Microsoft 365. If it is, contact your email administrator and ask them to adjust the email configuration. They should be able to configure emails sent from your domain not to be flagged as [External].
-1. However, if emails are sent to recipients outside your organization, the [External] flag is expected behavior. This doesn't mean that your emails are marked as Spam/Junk, but it's simply a notification that the email has come from outside the organization. Unfortunately, there's nothing that can be done to fix this from the sender's side.
+If emails are sent to recipients within an organization and are being flagged as [External], then there are a few things to do:
 
-To avoid any confusion, it's important to clearly communicate the purpose of the [External] flag to your recipients. You can explain that it's a security feature to help identify potential phishing attempts, and that it doesn't mean that the email is unsafe.
+1. Check that the recipient's domain is hosted on Exchange Online or Microsoft 365. If it is, contact your email administrator and ask them to adjust the email configuration. They should be able to configure emails sent from your domain to not be flagged as [External].
+1. If emails are sent to recipients outside your organization, the [External] flag is expected behavior. This doesn't mean that your emails are marked as spam or junk. It's simply a notification that the email has come from outside the organization. Unfortunately, there's nothing that can be done to fix this from the sender's side.
 
-In conclusion, the [External] flag is an important security feature to protect against phishing attacks. While it can be frustrating if your internal emails are being flagged as [External], there are steps you can take to resolve the issue. By working with your email administrator and clearly communicating the purpose of the flag to your recipients, you can ensure that your emails are delivered safely and securely.
+To avoid any confusion, it's important to clearly communicate the purpose of the [External] flag to your recipients. You can explain that it's a security feature to help identify potential phishing attempts and that it doesn't mean that the email is unsafe.
+
+In summary, the [External] flag is an important security feature to protect against phishing attacks. While it can be frustrating if your internal emails are being flagged as [External], there are steps you can take to resolve the issue. By working with your email administrator and clearly communicating the purpose of the flag to your recipients, you can ensure that your emails are delivered safely and securely.
 
 ### See also
 
