@@ -1,7 +1,7 @@
 ---
 title: FAQ about automatic record creation
 description: Learn answers to frequently asked questions about automatic record creation.
-ms.date: 02/10/2023
+ms.date: 04/18/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
