@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/11/2023
+ms.date: 04/18/2023
 ms.custom: bap-template
 ---
 
@@ -39,7 +39,7 @@ Through field mapping, you'll be able to map a value to the article attributes o
 
 Article attributes are the knowledge article target field values. Operation types are the mapping patterns that map the source article to the article attributes of the knowledge article entity. More information: [Operation type mapping options](#operation-type-mapping-options). Source Property is the value that you define for each operation type. For example, if you select the **Direct** operation type, you'll have to select from the previously selected meta tags or the **HTML-Title** or **HTML-Body** tags.
 
-1. Save the article as an HTML file, and then upload the file by selecting **Choose file**. Make sure that the file name is fewer than 99 letters. You can view all the meta tags corresponding to your HTML file in the **Meta tags settings** section.
+1. Save the article as a **Web Page, HTML Only** file, and then upload the file by selecting **Choose file**. Make sure that the file name is fewer than 99 letters. You can view all the meta tags corresponding to your HTML file in the **Meta tags settings** section.
 1. You can select all the meta tags by selecting the **Select all below meta tags** checkbox or select only the required meta tags.
 
     The meta tags that you select will be available in the **Mapping** section. If you don't select any meta tags, you only see the **HTML-Title** and **HTML-Body** source properties, which are available by default.

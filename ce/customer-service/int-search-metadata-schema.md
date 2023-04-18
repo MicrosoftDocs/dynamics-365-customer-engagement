@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham 
 ms.reviewer: neeranelli
 ms.topic: conceptual 
-ms.date: 03/01/2023
+ms.date: 04/18/2023
 ms.custom: bap-template 
 ---
 
@@ -166,7 +166,7 @@ You can use the following metadata mapping JSON sample as template to build your
         "DocFieldSource": "Constant",
         "DocFieldPattern": "true",
         "TargetFieldName": "msdyn_isingestedarticle",
-        "TargetFieldType": "Bool"
+        "TargetFieldType": "Boolean"
       },
       {
         "DocFieldSource": "Url",
