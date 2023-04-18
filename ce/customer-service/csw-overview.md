@@ -142,6 +142,7 @@ You can enable the legacy layout in one of the following ways:
 [Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md)  
 [Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md)  
 [Overview of the productivity pane](csw-productivity-pane.md)  
+[View the agent calendar](use-agent-calendar.md)  
 [Migrate from Unified Service Desk to Customer Service workspace](../unified-service-desk/admin/migrate-to-csw.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
