@@ -83,40 +83,39 @@ Custom time calculation isn't configured correctly.
 
 Set up custom time calculation and troubleshoot issues. For information on setting up custom time calculation, go to: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis). For information on troubleshooting issues, go to: [Error codes for custom time calculation](/dynamics365/customer-service/enable-sla-custom-time-calculation#error-codes-for-custom-time-calculation)
 
-### For UCI-SLAs, onholdtime and lastonholdtime field is not populated on case records
+### For Unified Interface SLAs, onholdtime and lastonholdtime fields aren't populated on case records
 
 #### Reason
 
-This is due to Pause functionality Difference between UCI-SLA and Legacy SLA.
+This is due to the pause functionality difference between Unified Interface SLAs and legacy SLAs.
 
-
-In Legacy SLA, where we have "lastonholdtime" and “onholdtime” attribute to track the onHold duration for case at case entity level, which is maintained irrespective of state of associated SLA instance i.e. even after SLAKPIinstance gets expired, onHold duration should still be calculated if case is on Hold.
+In legacy SLAs, lastonholdtime and onholdtime attributes track the onHold duration for case at case entity level. The onHold duration for case is maintained irrespective of the state of the associated SLA instance. For example, even after the SLAKPIinstance gets expired, onHold duration should still be calculated if the case is on Hold.
  
-OnHoldTime: Shows the duration in minutes for which the case was on hold
-In UCI-SLA, we have “Elapsed time” to track onHold duration and “Active Duration” to track active duration of that SLAKPI instance. This can not be maintained on case entity level as one case can have multiple KPIs with different pause conditions and each SLA KPI instance may have different calendar associated with it.
-Legacy SLA doesn’t support pause conditions at SLA item/SLA KPI level which is supported in UCI-SLA (that’s why, for UCI-SLA customers should not use “onholdtime” to determine onHold duration for SLA KPI instance.)
+In Unified Interface SLAs, Elapsed time tracks the onHold duration and Active Duration tracks the active duration of that SLA KPI instance. This can't be maintained on case entity level, because one case can have multiple KPIs with different pause conditions and each SLA KPI instance may have different calendars associated with it.
+
+Legacy SLA doesn’t support pause conditions at SLA item or SLA KPI level which is supported in Unified Interface SLAs. So,for Unified Interface SLAs, you shouldn't use onholdtime to determine the onHold duration for SLA KPI instance.
  
 Active Duration (minutes): Displays the time for which the SLA KPI Instance was active.
 Elapsed Time (minutes): Displays the time for which the SLA KPI Instance timer was paused
 
 #### Resolution
 
-For UCI-SLA, please use Elapsed Time and Active Duration to track Active and onHold time for SLA KPI Instances please refer https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave2/service/dynamics365-customer-service/view-active-duration-on-hold-duration-service-level-agreement-kpi
+For Unified Interface SLAs, use Elapsed Time and Active Duration to track Active and onHold time for SLA KPI Instances. More information: [Know active duration and elapsed time for SLA KPI Instances](customer-service-hub-user-guide-case-sla.md#know-active-duration-and-elapsed-time-for-sla-kpi-instances)
 
-User needs to write their own custom logic if they still want to track onhold time for case even after SLAKPI instances are in terminal state (Expired/Succeeded).
+You should write your own custom logic if you need to track the onhold time for case, even after the SLAKPI instances are in the Expired or Succeeded terminal states.
 
-### For UCI-SLA "Active Duration" and "Elapsed Time" field are not carrying forward durations of previous SLA KPI Instances in some cases 
+### For Unified Interface SLAs, Active Duration and Elapsed Time fields aren't carrying forward durations of previous SLA KPI Instances
 
 #### Reason
 
-While calculating Active Duration and Elapsed time, respective Active Duration and Elapsed Time of Previous SLA KPI Instance is also added in current SLA KPI Instance.
-e.g. if SLA KPI Instance got created and was active for 10 minutes and then it was paused for 30 minutes and again was active for 15 minutes -> active duration of final instance should be 25(10 + 25) minutes and Elapsed Time should be 30 minutes 
+While calculating Active Duration and Elapsed time, the respective Active Duration and Elapsed Time of previous SLA KPI Instances are also added to the current SLA KPI Instance.
+For example, if the SLA KPI Instance got created and was active for 10 min and then it was paused for 30 min, and was again active for 15 min, the active duration of the final instance would be 25 (10 + 15) min and the Elapsed Time would be 30 min.
 
-But if applicable SLA Item for that KPI is changed in between, carry forward functionality won't work as we cannot combine Active Duration or Elapsed Time of SLA KPI Instance coming from different SLA Items as they can have different business calendar associated.
+However, if the applicable SLA Item for that KPI changes, the carry forward functionality won't work. This is because the Active Duration or Elapsed Time of SLA KPI Instance coming from different SLAs Items can't be combined as they might have different business calendars.
 
 #### Resolution
 
-User can write their own Customizations to Calculate Active Duration/Elapsed Time based on business use case. (e.g. writing carry forwarding logic to SLA KPI Instance on SLA Item change).
+You can write your own customizations to calculate Active Duration or Elapsed Time based on your business use case. For example, you can write a carry forward logic for SLA KPI Instance on SLA Item change.
 
 ## Troubleshoot issues with SLA timer
 
