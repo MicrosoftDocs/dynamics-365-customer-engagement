@@ -44,7 +44,7 @@ No applicable reason can be specified.
 
 ### Why do multiple cases get created from a single email?
 
-Multiple cases can get created from a single mail because of various reasons. Perform the following steps to check if and how multiple cases might have got created from a single email.
+Multiple cases can get created from a single email because of various reasons. Perform the following steps to check if multiple cases were created for an email.
 
 1. Enable the activity monitor options: **Ready for Power Automate**, **Workflow**, and **Skipped**.
 1. Reproduce the issue by sending a new email.
