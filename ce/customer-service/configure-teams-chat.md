@@ -346,7 +346,8 @@ The following attribute types aren’t supported for automatic event updates:
 - Integer
 - File
 
-#### Inline images
+#### Inline image limitations
+
 Automatic event updates can’t fully render inline images in rich text fields.
 
 ### Configure chat update when a field is changed
