@@ -22,3 +22,5 @@ To install or uninstall an add-on, you need the following privileges:
 - Read = ability to see the add-on on the add-on page
 - Create = ability to install the add-on
 - Delete = ability to uninstall the add-on
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

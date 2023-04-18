@@ -37,3 +37,5 @@ After you add the new table, you can use the attributes from Fax immediately in 
 
 > [!NOTE]
 > It can take up to 24 hours for a data table to be synchronized into the system. At this time, the segment member size estimate and preview features are not available. You cannot view the segment membership until the table is synchronized into the system.  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

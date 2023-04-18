@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 04/05/2023
+ms.date: 04/13/2023
 ms.custom: bap-template
 ---
 
@@ -44,8 +44,6 @@ You must have the System Administrator role to enable the calendar view.
 
 
 ## Next Steps
-
- [View the agent calendar](csw-overview.md#view-the-agent-calendar-preview).
 
  [Get started with Customer Service workspace](csw-overview.md).
 

@@ -96,3 +96,5 @@ Relative dates allow you to define conditions such as "Birthday is next month" o
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing relative date settings.](media/real-time-marketing-relative.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

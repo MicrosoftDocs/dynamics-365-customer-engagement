@@ -219,3 +219,5 @@ To benefit from DKIM, the from-address for each message you send must show a dom
 [page personalization](personalized-page-content.md)  
 [Domain authentication in real-time marketing](domain-authentication.md)
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
