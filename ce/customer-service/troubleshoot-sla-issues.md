@@ -102,7 +102,7 @@ Elapsed Time (minutes): Displays the time for which the SLA KPI Instance timer w
 
 For Unified Interface SLAs, use Elapsed Time and Active Duration to track Active and onHold time for SLA KPI Instances. More information: [Know active duration and elapsed time for SLA KPI Instances](customer-service-hub-user-guide-case-sla.md#know-active-duration-and-elapsed-time-for-sla-kpi-instances)
 
-You should write your own custom logic if you need to track the onhold time for case, even after the SLAKPI instances are in the Expired or Succeeded terminal states.
+You should write your own custom logic if you need to track the onhold time for case, even after the SLA KPI instances are in the Expired or Succeeded terminal states.
 
 ### For Unified Interface SLAs, Active Duration and Elapsed Time fields aren't carrying forward durations of previous SLA KPI Instances
 
