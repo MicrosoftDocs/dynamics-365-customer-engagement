@@ -412,7 +412,7 @@ If the action flow associated with one or more SLA items are deleted or aren't i
 #### Resolution
 
 Avoid using the **modifiedon** and **modifiedby** fields for reporting because they get modified when calculating Next SLA on the enhanced case grid. If you want to know when the case was resolved, use the **incidentresolution** entity and avoid using **modifiedon** on the case entity.
-
+ 
 ### See also
 
 [Understand SLA details with Timer control](customer-service-hub-user-guide-case-sla.md#understand-sla-details-with-timer-control)
