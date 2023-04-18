@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/10/2023
+ms.date: 04/18/2023
 ms.custom: bap-template
 ---
 
@@ -99,7 +99,7 @@ If your search provider is **Inactive** with status reason as **Validated**, you
 1. Select **Run Ingestion**.
 1. On the **Run Ingestion** dialog, select the **Trial Ingestion** option, and then specify the number of articles to be from the **No of records** dropdown list. The maximum number of articles that you can select for the ingestion is 1000.
 
-You'll get an error message if there are errors during the ingestion. If you don't see any errors after the trial ingestion and want to run a custom ingestion, you'll need to first activate the search provider. More information: [Activate search providers](#activate-search-providers).
+If there are errors during the ingestion, you'll be able to view them on the **Insights** tab. If you don't see any errors after the trial ingestion and want to run a custom ingestion, you'll need to first activate the search provider. More information: [Activate search providers](#activate-search-providers).
 
 ### Custom ingestion
 
@@ -124,9 +124,6 @@ activate and then select **Activate**.
 
 When you deactivate a search provider, the ingestion of newly created or updated articles from the search provider stops and the articles that have already been ingested won't appear in the search results.
 
-> [!NOTE]
-> If you have a custom layer on Knowledge Articles Quick find view, you will need to add msdyn_integratedsearchproviderid in View columns and Find columns for articles to stop appearing in the search results.
-
 1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
 2. In the **Integrated search providers (Preview)** section, select **Manage**.
 3. From the **Active search providers** list, select the active search provider that you want to deactivate and then select **Deactivate**.
@@ -146,6 +143,9 @@ When you edit a search provider, your changes will appear in the subsequent inge
 ## Configure search providers as search filters
 
 Configure search providers as filters to search knowledge articles only from selected data providers. The filter works only if you have Dataverse Search enabled.
+
+> [!NOTE]
+> If you have a custom layer on Knowledge Articles Quick find view, you will need to add msdyn_integratedsearchproviderid in View columns and Find columns for articles to stop appearing in the search results.
 
 To configure search providers as search filters for knowledge articles:
 
