@@ -1,7 +1,7 @@
 ---
-title: "Access and interpret analytics (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to access and interpret real-time marketing analytics in Dynamics 365 Marketing."
-ms.date: 03/21/2023
+title: Access and interpret analytics
+description: How to access and interpret real-time marketing analytics in Dynamics 365 Marketing.
+ms.date: 04/17/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
