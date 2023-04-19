@@ -17,9 +17,7 @@ As administrators, you can set up a data refresh schedule to specify the refresh
 
 ## Prerequisites
 
-- If your website is registered using Azure Active Directory, you must use OAuth. Provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated from the AAD Application registration page. More information: [Apply authentication for search providers](apply-authentication-provider.md#apply-authentication-for-search-providers)
-
-- If you're a first time user, you must provision integrated search providers. Make sure you have the **prvReadconnector** privilege at Basic level and **prvWriteWorkflow** at Global level.
+If you're a first time user, you must provision integrated search providers. Make sure you have the **prvReadconnector** privilege at Basic level and **prvWriteWorkflow** at Global level.
 
 ### Provision integrated search providers
 
@@ -49,7 +47,7 @@ If integrated search isn't enabled in your geographical region, contact Microsof
         > - The site map and the site index files must have content-type as either application/xml or text/xml.
         > - You must provide static websites only for data ingestion. Websites that return scripts to load content aren't supported for data ingestion.
     1. **Language filter for ingestion**: Select the languages you want to specifically map for the ingestion from the dropdown list. Select **Reset** to clear the language selection. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language code.
-    1. **Authentication type**: Select **None** or **OAuth** from the dropdown list. If you select **OAuth**, provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated on the AAD Application registration page. More information: [Apply authentication for search providers](apply-authentication-provider.md#apply-authentication-for-search-providers).
+    1. **Authentication type**: Select **None**.
     1. Select **Test connection**.
         
         Test connection uses the credentials provided to see whether the connection is successful. You get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.

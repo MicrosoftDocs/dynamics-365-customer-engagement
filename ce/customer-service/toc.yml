@@ -456,8 +456,6 @@
         items:
         - name: Manage integrated search providers
           href: add-search-provider.md
-        - name: Apply authentication for search providers
-          href: apply-authentication-provider.md
         - name: Configure knowledge article schema mapping
           href: int-data-mapping.md
         - name: View and use insights for search providers
