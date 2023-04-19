@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Learn about SLA issues and how to troubleshoot them.
-ms.date: 03/23/2023
+ms.date: 04/18/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -91,7 +91,9 @@ The flow runs that are created for the SLA KPI Instances timer fail with a licen
 
 #### Reason
 
-The **SLAInstanceMonitoringWarningAndExpiryFlow** is required to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state. The flow always works in the context of the user who activates the first SLA in the organization. The user who activates the first SLA on the organization must have all the required licenses for the flow execution. The flow must only be turned off and on by a user who has the SLA KPI privileges at a global level for **prvReadSLAKPIInstance** and **prvWriteSLAKPIInstance**.
+Unified Interface SLAs use **SLAInstanceMonitoringWarningAndExpiryFlow** and legacy SLAs use legacy workflows to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state.
+
+The flow always works in the context of the user who activates the first SLA in the organization. The user who activates the first SLA on the organization must have all the required licenses for the flow execution. The flow must only be turned off and on by a user who has the SLA KPI privileges at a global level for **prvReadSLAKPIInstance** and **prvWriteSLAKPIInstance**.
 
 If the user is missing any of the required licenses, then the flow runs that are created for the corresponding SLA KPI instance will fail with a license required error: "The user with SystermUserId = XXXX in OrganizationContext = YYYY is not licensed". Thus, the SLA KPI instance will never reach the **Nearing non-compliance** or **Non-complaint** state and the SLA KPI instance timer will continue to run.
 
