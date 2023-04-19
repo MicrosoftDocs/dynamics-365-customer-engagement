@@ -5,7 +5,6 @@ ms.date: 04/05/2021
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

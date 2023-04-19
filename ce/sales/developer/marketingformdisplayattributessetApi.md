@@ -5,7 +5,6 @@ ms.date: 05/17/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Customize quick campaign and campaign activity distribution forms 
 

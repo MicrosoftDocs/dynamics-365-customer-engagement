@@ -9,9 +9,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: lmasieri
 ms.author: lmasieri
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Work order completion surveys with Dynamics 365 Customer Voice (formerly Microsoft Forms Pro)

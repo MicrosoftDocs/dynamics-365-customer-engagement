@@ -6,7 +6,6 @@ ms.custom: intro-internal
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
 ---

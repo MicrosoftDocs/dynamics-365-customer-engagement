@@ -16,9 +16,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Ensure emails and appointments are tracked with a Regarding record in Dynamics 365 App for Outlook
 

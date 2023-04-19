@@ -14,7 +14,6 @@ ms.assetid: ff791d05-326a-42be-a9fb-912a8bb497d0
 caps.latest.revision: 15
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Edit an organization's attributes
 

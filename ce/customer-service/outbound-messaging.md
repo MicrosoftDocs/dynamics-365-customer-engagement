@@ -5,7 +5,6 @@ ms.date: 02/17/2023
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 

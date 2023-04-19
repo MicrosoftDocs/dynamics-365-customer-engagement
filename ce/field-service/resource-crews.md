@@ -5,9 +5,6 @@ ms.date: 02/20/2023
 ms.topic: article
 author: ryanchen8
 ms.author: chenryan
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Group resources in crews

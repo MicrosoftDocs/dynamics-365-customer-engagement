@@ -1,17 +1,14 @@
 ---
-title: "Schedule a work order (Dynamics 365 Field Service) | MicrosoftDocs"
-description: Learn how to schedule a work order in Dynamics 365 Field Service
+title: Schedule a work order
+description: Learn how to schedule a work order in Dynamics 365 Field Service.
 ms.date: 09/30/2017
 
 ms.topic: article
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Schedule a work order (Field Service)
+# Schedule a work order
 
 Once a work order has been created in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], it's ready to be scheduled. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a work order](../field-service/create-work-order.md)  
   

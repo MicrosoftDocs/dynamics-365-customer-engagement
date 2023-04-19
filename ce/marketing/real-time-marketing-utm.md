@@ -1,28 +1,21 @@
 ---
-title: "Preview: Measure marketing effectiveness using UTM codes (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Measure marketing effectiveness using UTM codes (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to add Urchin Tracking Module (UTM) codes to URLs for improved link tracking in real-time marketing."
-ms.date: 02/21/2023
+ms.date: 04/04/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
-# Preview: Measure marketing effectiveness using UTM codes
+# Measure marketing effectiveness using UTM codes
 
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW10UxA]
 
 UTM (Urchin Tracking Module) codes are an essential tool for marketers as they allow them to track the effectiveness of their digital marketing. By adding UTM parameters to URLs, marketers can track the specific source, medium, and journey name that generated website visitors. Using UTM codes makes it easier to understand which journeys are driving the most traffic and conversions. The traffic and conversion information can then be used to optimize marketing strategies and allocate budget more effectively.
 
@@ -40,8 +33,11 @@ When enable UTM tracking, you'll see the default values for each UTM parameter. 
 > [!div class="mx-imgBorder"]
 > ![Enable UTM codes screen.](media/real-time-marketing-utm-enable.png "Enable UTM codes screen")
 
-> [!NOTE]
+> [!TIP]
 > It may take up to five minutes after enabling the feature switch toggle before the UTM settings are propagated across the channels.
+
+> [!NOTE]
+> UTM parameters are only added to emails that allow tracking. If you use a *restrictive* consent model, UTM Parameters are only added to your URLs if a Contact has a Contact Point Consent record for tracking and the status is **Opted In**. If you use a *non-restrictive* consent model, you can set the default tracking to **Track**. This will mean that even without a Contact Point Consent record, the UTM Parameters will be added to the URL within the email or SMS for all Contacts who go through your journeys.
 
 ## Use UTM codes in a journey
 
@@ -71,8 +67,44 @@ You can also use Google Analytics to determine how successful the email you sent
 > [!div class="mx-imgBorder"]
 > ![View results in Google Analytics.](media/real-time-marketing-utm-google.png "View results in Google Analytics")
 
-## Learn more
+## Customizing UTM links
 
-Here are some advanced resources for this topic:
+After enabling the UTM code feature, you can customize UTM links by going to **Settings** > **Customer engagement** > **UTM tracking**.
 
-- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
+To begin customizing your links, select the **+ New** button at the top of the page. Set the following parameters:
+
+- **Name**: The name of your UTM record. 
+- **Business unit** (if enabled): If business units are enabled, this shows you which business unit the UTM record is tied to. You can only create one UTM record per business unit.
+- **UTM source**: You can change the UTM source to align with your existing naming convention.
+- **UTM campaign**: If you've created a custom solution for a campaign, you can have UTM campaign point to the campaign entity.
+- **UTM medium**: The channel that the UTM record is used on.
+- **UTM content**: Captures UTM content as message name. If you turn it off, UTM content won't be added to the URL link.
+
+To save your customize settings, select the **Save** button at the top of the screen.
+
+> [!div class="mx-imgBorder"]
+> ![Customize UTM links screenshot.](media/real-time-marketing-utm-custom.png "Customize UTM links screenshot")
+
+## UTM parameters in Universal vs Google Analytics 4
+
+Here's how to view UTM data in Google Universal Analytics and in Google Analytics 4:
+- In Google Universal Analytics, go to **Acquisitions** > **All Campaigns**. Your default view is the list of all campaigns. 
+- In Google Analytics 4, go to **Acquisitions** > **Traffic acquisitions**.
+
+## Troubleshooting
+
+If you've enabled the UTM feature switch and you don’t see any UTM parameters when you select a link in your inbox, check your **Compliance** settings.
+
+If your compliance setting consent model is set to **Restrictive**, then (depending on how your **Tracking** consent is configured), this can mean that a user must explicitly opt in to having tracking links included in emails you send to them. If the system doesn't have consent to include tracking links, UTM codes won't be inserted into emails. The setting that controls how and if links include tracking query parameters is in the **Tracking Consent** section. Learn more: [Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md)
+
+For example, if you're configured to “Get tracking consent from customers” and the consent model is **Restrictive**, then you need prior consent for tracking to include tracking links:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing get tracking consent set to yes.](media/real-time-marketing-utm-get-consent.png "Screenshot showing get tracking consent set to yes")
+
+To guarantee that tracking links are always included (the links don’t require customer consent for tracking), the settings should look like this:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing get tracking consent set to no and default tracking to track.](media/real-time-marketing-utm-get-consent-no.png "Screenshot showing get tracking consent set to no and default tracking to track")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

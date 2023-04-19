@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 # Create custom channels in real-time marketing
 
@@ -70,3 +66,5 @@ To add a custom channel message action:
 
     > [!div class="mx-imgBorder"]
     > ![select custom channel](media/real-time-marketing-select-custom-channel.png "select custom channel")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

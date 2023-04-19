@@ -1,17 +1,14 @@
 ---
-title: "Feature deprecations for Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn about features that are being deprecated for Dynamics 365 Field Service
+title: Feature deprecations
+description: Learn about features that are being deprecated for Dynamics 365 Field Service.
 ms.date: 03/15/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ms.author: vhorvath
 author: vhorvathms
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Feature deprecations for Field Service
+# Feature deprecations
 
 Features that have been deprecated in Dynamics 365 Field Service are listed in this article.
 

@@ -16,7 +16,6 @@ ms.assetid: 35b82c28-943d-40aa-8c1d-70de5c7d0f98
 caps.latest.revision: 17
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

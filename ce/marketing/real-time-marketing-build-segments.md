@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 # Build segments in real-time marketing
 
@@ -98,3 +94,5 @@ In the above example, the attribute was added to a new group (Group 2).  To crea
 
 > [!div class="mx-imgBorder"]
 > ![select your operator between groups](media/real-time-marketing-select-your-operator-between-groups.png "select your operator between groups")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

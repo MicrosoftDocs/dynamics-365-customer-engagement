@@ -6,9 +6,6 @@ ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
 ms.author: jasonshotts
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Not-to-exceed values on work orders

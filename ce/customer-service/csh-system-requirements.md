@@ -5,7 +5,6 @@ ms.date: 09/20/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # System requirements for Customer Service Hub

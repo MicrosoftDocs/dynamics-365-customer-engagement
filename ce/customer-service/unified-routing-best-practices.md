@@ -1,6 +1,6 @@
 ---
 title: Use best practices to set up unified routing in Customer Service
-description: Use this article to know about the best practices to set up unified routing in Customer Service and things to do and avoid for a successful implementation.
+description: Use this article to learn about the best practices to set up unified routing in Customer Service and what to do and avoid for a successful implementation.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -24,15 +24,15 @@ Dynamics 365 Customer Service relies on shared cloud resources for data and proc
 
 Use the following guidance to set up users in bulk:
 
-- Follow a specific sequence to set up users in bulk using Dataverse API calls
-- Limit number of change requests when setting up users in bulk using Dataverse API calls
+- Follow a specific sequence to set up users in bulk using Dataverse API calls.
+- Limit the number of change requests when setting up users in bulk using Dataverse API calls.
 
 ### Follow a specific sequence to set up users in bulk using Dataverse API calls
 
-To manage the users in bulk, perform the steps in the following sequence:
+To manage the users in bulk, follow these steps:
 
 1. Create or import users to enable them.
-1. Added the users to queues. More information: [Create and manage queues](queues-omnichannel.md)
+1. Add the users to queues. More information: [Create and manage queues](queues-omnichannel.md)
 1. Create bookable resources. More information: [Manage users](users-user-profiles.md#manage-users-using-the-classic-experience)
 1. Add skills. More information: [Set up skills](setup-skills-assign-agents.md)
 1. Assign capacity profiles. More information: [Create and manage capacity profiles](capacity-profiles.md)
@@ -46,9 +46,9 @@ Customer Service lets you make API calls to set up users in bulk. A single chang
 
 We recommend that you make 500 change requests every 15 minutes for the system to process the changes optimally without getting throttled. Beyond this recommended rate for bulk updates, you might see inconsistencies in user data, such as skills not updated as expected, after the update is over.
 
-For example, if you manage a contact center that has 1000 agents working in it and need to set up each agent by assigning two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4000.
+For example, let's say you manage a contact center that has 1,000 agents working in it and need to set up each agent by assigning two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4,000.
 
-Based on our recommendation of 500 requests per 15 minutes, you'll need to make these requests in eight batches as follows.
+Based on our recommendation of 500 requests per 15 minutes, you'll need to make these requests in eight batches as follows:
 
 |Change request type|Number of requests|Number of batches|
 |-----------|---------|------------|
@@ -60,15 +60,15 @@ For information on using the API, see [Use the Microsoft Dataverse Web API](/pow
 
 ## Manage queues
 
-- Manage automatic assignment if top 100 work items have extended wait times.
-- Use skill-based routing to distribute work items to most qualified agents.
+- Manage automatic assignment if the top 100 work items have extended wait times.
+- Use skill-based routing to distribute work items to the most qualified agents.
 - Set up single or multiple queues with skill-matching to manage different types of work.
 
-### Manage auto assignment if top 100 work items have extended wait times
+### Manage auto-assignment if top 100 work items have extended wait times
 
-The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. For information about auto-assignment process, see [How auto assignment works](assignment-methods.md#how-auto-assignment-works).
+The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. For information about the auto-assignment process, see [How auto assignment works](assignment-methods.md#how-auto-assignment-works).
 
-If you have a scenario in which agents aren't available to be assigned the top 100 work items for an extended period of time, we recommend the following options:
+If you have a scenario in which agents aren't available to be assigned the top 100 work items for an extended time, we recommend the following options:
 
 - To minimize the wait time, use features like overflow management to manage high load or custom assignment rules to gradually relax rules to expand the eligible agent pool.
 - Review agent availability and schedules to evaluate staffing more agents.

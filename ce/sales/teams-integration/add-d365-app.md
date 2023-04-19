@@ -6,7 +6,6 @@ ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Add the Dynamics 365 app to a Microsoft Teams meeting (preview)

@@ -15,7 +15,6 @@ ms.assetid: 034c2ad9-9a34-4d47-8d9e-f0399d9cec96
 caps.latest.revision: 51
 author: sericks007
 ms.author: sericks
-manager: tapanm-msft
 search.audienceType: 
   - admin
 

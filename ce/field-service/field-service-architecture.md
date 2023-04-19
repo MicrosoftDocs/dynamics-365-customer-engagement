@@ -1,5 +1,5 @@
 ---
-title: Field Service work order architecture
+title: Work order architecture
 description: Learn about the architecture of the work order process in Dynamics 365 Field Service.
 ms.date: 01/24/2023
 author: jshotts
@@ -9,12 +9,9 @@ ms.custom: bap-template
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Field Service work order architecture
+# Work order architecture
 
 The most important process in Field Service is the work order process. Work orders are:
 

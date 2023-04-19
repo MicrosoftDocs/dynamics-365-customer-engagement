@@ -5,7 +5,6 @@ ms.date: 10/26/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-product
@@ -117,7 +116,7 @@ If you've added this bundle to a family, the bundle will inherit the properties 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also  
-[How prices are calculated for product bundles?](pricing-product-bundles.md)
+[How prices are calculated for product bundles?](pricing-product-bundles.md)  
 [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)   
 [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)
 

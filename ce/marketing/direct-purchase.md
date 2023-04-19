@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Purchase a license directly from a Marketing trial
@@ -90,3 +86,5 @@ In the admin center, *non-tenant admins* (departmental purchasers) can:
 Learn more: [Manage self-service purchases (Users)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-users).
 
 Put simply, the purchaser controls anything money-related. The tenant administrator can cancel the subscription but can't make a user pay more or less and can't take something a user paid for and give it to someone else.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

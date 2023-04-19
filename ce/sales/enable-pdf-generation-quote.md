@@ -5,7 +5,6 @@ ms.date: 11/16/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Enable or disable PDF file generation from sales records 
 

@@ -14,7 +14,6 @@ applies_to:
 ms.assetid: 1f3c9780-26ad-49ec-a3fb-fc226def19c5
 caps.latest.revision: 20
 ms.author: matp
-manager: kvivek
 author: Mattp123
 search.audienceType: 
   - customizer

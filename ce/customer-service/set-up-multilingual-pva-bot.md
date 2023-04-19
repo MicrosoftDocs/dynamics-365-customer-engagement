@@ -5,7 +5,6 @@ ms.date: 08/24/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Set up a multilingual bot in Power Virtual Agents for contact center

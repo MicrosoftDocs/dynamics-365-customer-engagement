@@ -9,11 +9,6 @@ ms.topic: overview
 
 author: clearab
 ms.author: anclear
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365PS
-  - D365FS
 ---
 # Overview of Universal Resource Scheduling in Dynamics 365
 
@@ -62,9 +57,6 @@ A plugin checks the relationships and automatically sets the booking setup metad
 Or select **Book** on an entity record that has scheduling enabled, then use the schedule assistant to book the requirement.  
 
 ## Enable the legacy schedule board
-
-> [!NOTE]
-> This functionality is available in the 2023 Wave 1 Early Access (EA) release, and not yet generally available.
 
 [!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)]
 

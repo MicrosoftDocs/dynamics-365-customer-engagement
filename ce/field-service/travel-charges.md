@@ -1,17 +1,14 @@
 ---
-title: Travel charges in Field Service
+title: Configure travel charges
 description: Learn how to use travel charges in Dynamics 365 Field Service to bill for the cost of traveling to a worksite.
 ms.date: 01/23/2023
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
 ms.custom: bap-template
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Travel charges in Field Service
+# Configure travel charges
 
 Use travel charges to bill customers for the cost of traveling to the worksite.
 
