@@ -46,7 +46,7 @@ Perform the following steps:
 1. In the **Edit Enable minimal case resolution dialog** pane, set the **Setting environment value** option to **No**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
 1. Optionally, in the **Setting app values** section, for a required app, you can set the value to **No** in **New app value**. The tab set at the application level overrides the environment level setting.
 
-    :::image type="content" source="media/powerapps-minimal-case.png" alt-text="Redirect link to tab":::
+    :::image type="content" source="media/powerapps-minimal-case.png" alt-text="Revert to legacy setting":::
 
 1. Select **Publish All Customizations**.
 
