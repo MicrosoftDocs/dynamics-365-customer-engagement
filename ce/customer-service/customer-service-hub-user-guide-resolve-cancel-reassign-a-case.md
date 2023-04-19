@@ -38,19 +38,19 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
   
 3. Depending on the settings enabled for you, you'll see the minimal case resolution dialog or legacy case resolution dialog that are explained as follows:
 
-  ### [Default case resolution dialog](#tab/defaultcaseresolutionform)
+ ### [Default case resolution dialog](#tab/defaultcaseresolutionform)
 
-  By default, you will see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog.
+ By default, you will see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog.
 
   :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case.png"::: 
 
-  ### [Legacy case resolution dialog](#tab/lagacycaseresolutiondialog)
+ ### [Legacy case resolution dialog](#tab/lagacycaseresolutiondialog)
     
-  The standard **Resolve Case** dialog is displayed with the **Resolution Type** and **Resolution** fields along with the following additional fields:
+ The standard **Resolve Case** dialog is displayed with the **Resolution Type** and **Resolution** fields along with the following additional fields:
 
-     - **Duration**: The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** field.  
-     - **Billable Time**: The amount of time spent on the case to be billed to the customer.  
-     - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement. 
+   - **Duration**: The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** field.  
+   - **Billable Time**: The amount of time spent on the case to be billed to the customer.  
+   - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement. 
          
    :::image type="content" source="media/resolve-case-legacy.png" alt-text="Legacy resolve case" :::
 
