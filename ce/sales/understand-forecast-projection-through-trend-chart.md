@@ -6,9 +6,14 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.custom:  
+   - ai-gen-docs 
+   - ai-gen-desc
 manager: shujoshi
 ---
 # Understand forecast projections by using trend charts 
+
+[!INCLUDE [AI Generation Note](~/../msft-shared-content/bap-skilling/ai-generation-attribution.md)]
 
 The **Trend** chart shows how each forecast amount is trending over time, comparing it against the period end prediction and quota. A separate predicted realization line is automatically created to project future revenue over time.  
 
