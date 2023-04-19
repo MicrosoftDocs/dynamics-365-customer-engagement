@@ -73,8 +73,7 @@ If integrated search isn't enabled in your geographical region, contact Microsof
 1. Run a custom or trial ingestion for your search providers.
 
 > [!NOTE]
-> - For public preview, data ingestion is limited to 100,000 articles per ingestion run.
-> - A unique combination of root URL, site map URL, and language filters only are allowed.
+>  A unique combination of root URL, site map URL, and language filters only are allowed.
 
 ## Run ingestion for search providers
 
