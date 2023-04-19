@@ -1,7 +1,7 @@
 ---
-title: "Create and design a marketing email message (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to create and design a marketing email message in Dynamics 365 Marketing."
-ms.date: 05/04/2022
+title: Create and design a marketing email message
+description: Learn how to create and design a marketing email message in Dynamics 365 Marketing.
+ms.date: 04/18/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -18,6 +18,13 @@ search.audienceType:
 Read this article to learn how to create an email message and design its content. See also the [email marketing overview](prepare-marketing-emails.md) for a summary of the full message creation, delivery, and analysis process for email marketing.
 
 For a step-by-step tutorial on how to create and send your first marketing email message, see also [Create a marketing email and go live](create-marketing-email.md)
+
+> [!IMPORTANT]
+> As of April 2023, the following fields have been relocated from the right pane to the header area: From Name, From Address, Subject, and Pre-header. This change allows for easier access and editing of these fields.
+>
+> If you have customized these fields on the "Email Properties" form, you should copy the customization to the new "Email Header" form (real-time marketing form ID: 08732368-3f74-426e-9f96-595fbd6867e9, outbound form ID: e21ed42d-aa03-40b5-8dd8-57207fea78ba). Customizations may include handlers that control the visibility of these fields or react to changes in these fields.
+>
+> Customizations made to the main form or customizations adding new fields to the Email Property form *do not* require any action.
 
 ## Create a new email marketing message
 
