@@ -213,5 +213,5 @@ When you're mapping information from external data providers to knowledge articl
 
 ## See Also
 
-[Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview)<br>
-[View and use insights for search providers (preview)](view-and-use-insights.md)
+[Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers)  
+[View and use insights for search providers](view-and-use-insights.md)
