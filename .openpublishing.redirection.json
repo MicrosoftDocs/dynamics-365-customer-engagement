@@ -382,12 +382,12 @@
     },
     {
       "source_path": "ce/customer-service/cs-email-template-builder.md",
-      "redirect_url": "/powerapps-docs/user/cs-email-template-builder.md",
+      "redirect_url": "/power-apps/user/cs-email-template-builder",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/customize-insert-email-template.md",
-      "redirect_url": "/powerapps-docs/user/customize-insert-email-template.md",
+      "redirect_url": "/power-apps/user/customize-insert-email-template",
       "redirect_document_id": "false"
     },
     {
