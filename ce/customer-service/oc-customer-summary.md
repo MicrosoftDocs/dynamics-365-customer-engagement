@@ -36,8 +36,6 @@ For active conversations, you can view the **Active Conversation** form on the a
 
 The **Save** and **Refresh** options are available on **Active Conversation** form. You can edit and save standard and custom field values added to the **Active Conversation** form by your administrator. However, logical column names aren’t editable. If a default value is already set for a field, the application populates the value on the **Active Conversation** form.
 
-For more information, go to: [Logical column names](supported-customizations.md#logical-column-names).
-
 ## View Customer (Contact or Account) details
 
 This section provides details such as the contact name or account name. For a contact, you can view the location, email, and other details. In case of an account, you can view location, telephone number, and primary contact person for the account.

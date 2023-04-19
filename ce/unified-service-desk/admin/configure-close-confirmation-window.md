@@ -10,7 +10,7 @@ search.audienceType:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-monikerRange: ">=dynamics-usd-4"
+
 ---
 
 # How to configure close confirmation window to prevent accidental closure of Unified Service Desk
