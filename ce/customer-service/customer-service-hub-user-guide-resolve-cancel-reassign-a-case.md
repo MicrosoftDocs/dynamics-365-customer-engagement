@@ -42,11 +42,11 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
   By default, you will see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog.
 
-    :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case.png"::: 
+  :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case.png"::: 
 
-   ### [Legacy case resolution dialog](#tab/lagacycaseresolutiondialog)
+  ### [Legacy case resolution dialog](#tab/lagacycaseresolutiondialog)
     
-      The standard **Resolve Case** dialog is displayed with the **Resolution Type** and **Resolution** fields along with the following additional fields:
+  The standard **Resolve Case** dialog is displayed with the **Resolution Type** and **Resolution** fields along with the following additional fields:
 
      - **Duration**: The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** field.  
      - **Billable Time**: The amount of time spent on the case to be billed to the customer.  
