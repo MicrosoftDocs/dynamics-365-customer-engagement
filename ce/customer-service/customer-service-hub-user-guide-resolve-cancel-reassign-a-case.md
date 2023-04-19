@@ -31,7 +31,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 2. On the command bar, select **Resolve case**.  
 
   If you have open activities linked to the case, you’ll see a message with the following actions:
-  - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md)
+  - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management#specify-tab-to-redirect-users-to-close-the-open-activities-for-a-case)
   - **Confirm**: If you select **Confirm** on the warning, the system automatically cancels the open activities when the case is resolved.
   
       :::image type="content" source="media/resolve-case-after.png" alt-text="Open activity warning" lightbox="media/resolve-case.png":::
