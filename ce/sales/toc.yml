@@ -135,6 +135,10 @@
       items:
         - name: Enable or disable saving of business card image
           href: retain-business-card-image-after-scanning.md
+        - name: Organization charts 
+          href: organization-charts.md
+          - name: Enable org chart
+            href: enable-org-chart.md
         - name: Enable email validation
           href: enable-email-validation.md         
         - name: Enable email validation for custom forms 
@@ -625,6 +629,15 @@
       items:
         - name: Work with accounts and contacts
           href: accounts-contacts.md
+        - name: Organization charts 
+          href: organization-charts.md
+          items:
+          - name: Manage org charts
+            href: manage-org-charts.md
+          - name: View and understand the org charts
+            href: view-understand-org-charts.md
+          - name: Understand the contact card
+            href: understand-contact-card.md                      
         - name: View and manage records in focused view  
           href: focused-view.md         
         - name: Work with invalid email addresses
