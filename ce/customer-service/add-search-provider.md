@@ -19,14 +19,11 @@ As administrators, you can set up a data refresh schedule to specify the refresh
 
 - If your website is registered using Azure Active Directory, you must use OAuth. Provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated from the AAD Application registration page. More information: [Apply authentication for search providers](apply-authentication-provider.md#apply-authentication-for-search-providers)
 
-- If you're a first time user, you must:
-
-1. Provision integrated search providers
-1. Enable the **Integrated Search API trigger flow**
+- If you're a first time user, you must provision integrated search providers. Make sure you have the **prvReadconnector** privilege at Basic level and **prvWriteWorkflow** at Global level.
 
 ### Provision integrated search providers
 
-You must provision the integrated search provider from Customer Service admin center. Make sure you have the **prvReadconnector** privilege at Basic level and **prvWriteWorkflow** at Global level.
+You must provision the integrated search provider from Customer Service admin center.
 
 1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers (Preview)** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
