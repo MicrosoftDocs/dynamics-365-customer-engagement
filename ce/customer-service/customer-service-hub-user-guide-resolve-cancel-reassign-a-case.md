@@ -38,13 +38,13 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
   
 3. Depending on the settings enabled for you, you'll see the minimal case resolution dialog or legacy case resolution dialog that are explained as follows:
 
-  ### [Default case resolution form](#tab/defaultcaseresolutionform)
+  ### [Default case resolution dialog](#tab/defaultcaseresolutionform)
 
   By default, you will see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog.
 
     :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case.png"::: 
 
-   ### [Legacy case resolution form](#tab/defaultcaseresolutionform)
+   ### [Legacy case resolution dialog](#tab/lagacycaseresolutiondialog)
     
       The standard **Resolve Case** dialog is displayed with the **Resolution Type** and **Resolution** fields along with the following additional fields:
 
