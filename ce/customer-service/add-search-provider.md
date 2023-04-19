@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/18/2023
+ms.date: 04/19/2023
 ms.custom: bap-template
 ---
 
@@ -26,21 +26,12 @@ As administrators, you can set up a data refresh schedule to specify the refresh
 
 ### Provision integrated search providers
 
-You must provision the integrated search provider from Customer Service admin center.
+You must provision the integrated search provider from Customer Service admin center. Make sure you have the **prvReadconnector** privilege at Basic level and **prvWriteWorkflow** at Global level.
+
 1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers (Preview)** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
 
 If integrated search isn't enabled in your geographical region, contact Microsoft Support to provision the feature.
-
-### Enable the Integrated Search API trigger flow
-
-You must turn on the **Integrated Search API trigger** flow.
-
-1. Go to [make.powerapps.com](https://make.powerapps.com).
-1. Go to **Solutions** > **Default Solution** > **Cloud flows** and turn on the **Integrated Search API trigger flow** flow.
-:::image type="content" source="media/int-search-turn-on.jpg" alt-text="Turn on Integrated search API trigger flow":::
-
-You can now add integrated search providers.
 
 ## Add integrated search providers
 
