@@ -1,7 +1,7 @@
 ---
 title: "Real-time analytics ongoing Conversation report for supervisor | MicrosoftDocs"
 description: "Learn how the ongoing conversation report enables supervisors to view information about the conversations handled by agents in real time."
-ms.date: 04/17/2023
+ms.date: 04/19/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -20,10 +20,11 @@ For details on metrics displayed on the Ongoing Conversation report, go to Omnic
 
 The conversation list provides the list of currently ongoing conversations in the last 24 hours, giving managers a real-time view of the interactions between agents and customers. The Ongoing Conversations dashboard also provides you options to monitor, assign, transfer, and force close conversations. You can select an agent from the Ongoing Conversations dashboard, and then select any of the following options.
 
-- Assign an incoming, unassigned conversation from the queue to an agent or a bot.
-- Transfer an ongoing conversation from one agent to another. Not applicable to a bots.
-- Monitor or listen to an ongoing conversation. When you select **Monitor**, you'll see a message that states that the monitoring has begun. This is applicable only for an active conversation with agent acceptance.
+- Assign an incoming, unassigned conversation to either a queue or an agent.
+- Transfer an ongoing conversation from one agent to another.
+- Monitor or listen to an ongoing conversation. When you select **Monitor**, you'll see a message that states that the monitoring has begun. This is applicable only for an active conversation with agent acceptance, conversations in wrap-up state, or conversations that are in waiting state.
 - Force close a conversation by closing the work item. When you select **Force close**, you'll see a confirmation dialog. You'll need to select **Proceed** to close the work item.
+    When you force close a conversation, the conversation ends immediately for the customer as well. We recommend that you use this option with caution.
 
 ### See also
 
