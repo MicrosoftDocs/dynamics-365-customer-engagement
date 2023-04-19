@@ -38,7 +38,7 @@ You can choose to display the legacy case resolution dialog box that appears whe
 
 > [!NOTE]
 > - You can revert to the legacy case resolution dialog only if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Customer Service admin center.
-> - If **Resolve case dialog**  is set to **Customizable dialog** or **Quick create dialog**, to revert back to the previous experience, do the steps in [Modify the case resolution dialog](modify-case-resolution-dialog.md).
+> - If **Resolve case dialog**  is set to **Customizable dialog** or **Quick create dialog**, to add **Duration**, **Villable TIme**, **Total Time** and other customizations, perform the steps in [Modify the case resolution dialog](modify-case-resolution-dialog.md).
 
 Perform the following steps:
 
