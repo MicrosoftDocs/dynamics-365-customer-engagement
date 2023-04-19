@@ -1,5 +1,5 @@
 ---
-title: Message level analytics
+title: Conversation message level analytics
 description: Learn about FactConversationMessageBlock metrics.
 author: Soumyasd27
 ms.author: sdas
@@ -9,7 +9,9 @@ ms.date: 04/17/2023
 ms.custom: bap-template
 ---
 
-# Message level analytics
+# Conversation message level analytics
+
+Conversation message level analytics provides insights into messages sent as a part of a conversation between customers and agents. You can get KPIs and metrics like first response service level and customer satisfaction from this entity.  
 
 ## Average first response time
 

@@ -5,11 +5,13 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 04/17/2023
+ms.date: 04/19/2023
 ms.custom: bap-template
 ---
 
 # Agent
+
+Agents help resolve customer requests in a contact center. Agents take up customer issues that can come through any channel, including voice, and handle multiple sessions at a time. Customer experience is primarily dependent on how efficiently agents resolve customer issues in the shortest possible time.
 
 ## Assigned capacity profile count
 

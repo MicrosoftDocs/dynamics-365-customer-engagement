@@ -11,9 +11,7 @@ ms.custom: bap-template
 
 # Conversation
 
-A conversation represents an entire end-to-end interaction with a customer. A conversation is created when a customer raises a request through the various channels like voice, messaging, or chat. When the system identifies an agent to work on a conversation, a session is created. A conversation can end in a single session or extend to multiple sessions.
-
-In the following workflow, which represents a single conversation, you'll see that multiple sessions are created. The first session is created when a conversation is created and assigned to a bot. The second session is created when the bot escalates the conversation to a human agent. This automatically closes the first session. In the second session, the best agent to work on the customer request is identified and assigned. If the agent rejects the request, a new session is created and the process of identifying another agent begins.
+A conversation represents an entire end-to-end interaction with a customer. A conversation is created when a customer raises a request through the various channels like voice, messaging, or chat. When the system identifies an agent to work on a conversation, a session is created. A conversation can end in a single session or extend to multiple sessions. You can get KPIs and metrics that describe customer experience, for example, average handle time, customer sentiment.
 
 ## Abandoned conversations
 

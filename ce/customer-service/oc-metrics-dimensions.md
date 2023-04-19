@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 04/17/2023
+ms.date: 04/19/2023
 ms.custom: bap-template
 ---
 
@@ -59,9 +59,9 @@ Represents hour of the day in a 24 hour format.
 
 The following time-based filter options are available on real-time dashboards:
   
-- Today: Conversations that started since 12 AM of the time zone selected in any state.
-- Last 24 hours: Conversations that started within the last 24 hours in any state.
-- Include open conversations beyond 24 hours: Conversations that started within the last 24 hours, in any state and conversations that started earlier than 24 hours but haven't been closed.
+- Today: Shows all conversations that started since 12 AM in the selected time zone, in any state.
+- Last 24 hours: Shows all conversations that started in the last 24 hours, in any state.
+- Include open conversations beyond 24 hours: Shows all conversations that started in the last 24 hours, in any state, and those that started in the last three days and are still open.
 
 ## Time zone
 

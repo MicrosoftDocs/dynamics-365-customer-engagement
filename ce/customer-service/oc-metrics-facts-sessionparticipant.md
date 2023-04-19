@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Session participant
 
+A session participant entry is created for every agent who is identified to work on a conversation and gets associated with the latest session. A single session can have multiple participants. Every session has one primary participant, that is the agent with the assigned work item. A session can also have none or many additional participants who monitor the conversation or help with the consult. You can get KPIs and metrics around consults provided by agents and monitored conversations from this entity.
+
 ## External participant channel
 
 This metric helps identify the channels through which external agents were engaged. For example, an external agent can help customer requests by calling them directly on their phone number or via Microsoft Teams Public Switched Telephone Network (PSTN) call.  

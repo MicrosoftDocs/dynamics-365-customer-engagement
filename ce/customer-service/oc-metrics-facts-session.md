@@ -11,6 +11,10 @@ ms.custom: bap-template
 
 # Session
 
+When the system identifies an agent to work on a conversation, a session is created. New sessions are created because of reasons such as a conversation being transferred to a different queue, an agent rejecting a conversation request or letting the request time out. You can get KPIs and metrics that describe queue performance, agent performance from this entity, for example, number of requests that landed in a queue, number of requests rejected by agents, and agent handle time.  
+
+In the following workflow, which represents a single conversation, you'll see that multiple sessions are created. The first session is created when a conversation is created and assigned to a bot. The second session is created when the bot escalates the conversation to a human agent. This automatically closes the first session. In the second session, the best agent to work on the customer request is identified and assigned. If the agent rejects the request, a new session is created and the process of identifying another agent begins.
+
 ## Average session handle time
 
 This metric is similar to conversation handle time, but granular and is calculated for every agent working on the conversation. This metric is relevant for conversations that have been handled by multiple agents. If multiple agents were assigned to work on a customer request, due to various reasons, such as transfers and escalations, this metric provides the average time spent by each of those agents working with the customer. Conversation handle time is the aggregation of session handle time of all the associated sessions.  
@@ -30,6 +34,8 @@ This metric will only show sessions that were assigned to and handled by externa
 ## Session transfer rate
  
 This metric measures the rate at which agents transfer work assigned to them, or supervisors transfer work in the queue they monitor from one agent to another, or to another queue. It is calculated by dividing the total number of sessions transferred, by the total number of sessions handled.
+
+**Related metrics**
 
 - Is Transferred Out:
 
@@ -60,10 +66,10 @@ This metric measures the session timeout rate because of agent's inactivity. The
 **Related metrics**
 
 - Timeout sessions: This metric refers to the total number of times agents didn’t respond to the work assigned to them.  
- 
+
 ## Session wait time
 
-It is a measure of the time taken before an agent responds to a customer's request. It represents the time, in seconds, spent by a customer waiting in a session.
+It is a measure of the time a customer spends waiting in a specific queue before an agent accepts the customer's request. Time is represented in seconds. If the customer abandons the request or if the conversation is transferred to another queue, the calculation is based on the amount of time between the customer request arriving in queue and the request closing time.
  
 ## Session closure reason
 
