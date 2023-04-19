@@ -7,9 +7,6 @@ ms.topic: conceptual
 ms.custom: bap-template
 author: JonBaker007
 ms.author: jobaker
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Get help for Field Service Mobile

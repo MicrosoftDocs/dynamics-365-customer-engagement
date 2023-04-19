@@ -5,7 +5,6 @@ ms.date: 04/04/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Share feedback for Customer Service

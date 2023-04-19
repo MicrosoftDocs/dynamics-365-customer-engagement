@@ -5,7 +5,6 @@ ms.date: 07/15/2020
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Frequently asked questions about LinkedIn Sales Navigator integration with Dynamics 365

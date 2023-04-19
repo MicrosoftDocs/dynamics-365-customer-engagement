@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: petrjantac
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Integrate a custom captcha service with real-time marketing forms
@@ -250,3 +246,5 @@ When a form with the `data-validate-submission` attribute is submitted, your cus
 
 > [!div class="mx-imgBorder"]
 > ![Validation flow.](media/real-time-marketing-form-custom-captcha-6.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

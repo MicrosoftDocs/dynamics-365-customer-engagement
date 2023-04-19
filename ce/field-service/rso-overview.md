@@ -6,9 +6,6 @@ ms.author: feiqiu
 ms.date: 09/07/2022
 ms.topic: overview
 ms.subservice: resource-scheduling-optimization
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Overview of Resource Scheduling Optimization

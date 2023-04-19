@@ -1,41 +1,27 @@
 ---
-title: "Preview: Limit the number of messages sent with frequency capping (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Limit the number of messages sent with frequency capping (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to limit the number of messages sent to your customers to prevent message fatigue."
-ms.date: 03/29/2023
+ms.date: 04/06/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
-# Preview: Limit the number of messages sent with frequency capping
+# Limit the number of messages sent with frequency capping
 
-> [!Important]
->
-> A preview feature is a feature that is not yet complete but is made available to customers > to get early access before it’s officially included in a release  and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
->
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to assist you with issues or questions. Preview features aren’t meant for production use, particularly when processing personal data or other data subject to legal or regulatory compliance requirements.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW10LWN]
 
 The frequency cap feature lets you set a limit on the number of messages your customers receive in a given amount of time through a particular channel. Some customers qualify for multiple journeys and campaigns that run simultaneously. This results in them receiving multiple messages through one channel in a short period of time. This can be perceived as spam and lower the customers' engagement with your messages. With the frequency cap feature, you can optimize engagement by controlling how many messages are sent across multiple channels over a period of time. This improves engagement, decreases unsubscriptions, and reduces the number of messages marked as spam over time.
 
-## How to enable frequency cap settings
+To illustrate the capabilities of frequency capping, the article starts by creating a global setting and then proceeds to create a real-time marketing journey.
 
-To illustrate the capabilities of frequency capping, the article starts by creating a global setting and then proceeds to create a real-time marketing journey. Before you can use the frequency capping preview, however, you must enable the feature switch. To enable the feature switch:
-
-1. Go to **Settings** > **Other settings** > **Feature switches**.
-1. Set the **Frequency capping (preview)** toggle to **On**.
-1. Select **Save** in the upper right.
-
-### Create the frequency cap setting
+### Create a frequency cap setting
 
 By default, the "Marketing Manager - Business" role will have the rights to create a frequency cap setting. You can create a frequency cap setting for each business unit in your organization. To create a frequency cap setting:
 
@@ -82,3 +68,5 @@ The right limit for a message will be different for each brand, industry, and ch
 - Understand your audience (ask about their preferences using a preference center or a quick poll).
 - Look at relevant analytics (study the unique open rate and click-through rate).
 - Study your journey (look at the drop off rates in the journey view).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,20 +1,16 @@
 ---
-title: "Access and interpret analytics (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to access and interpret real-time marketing analytics in Dynamics 365 Marketing."
-ms.date: 03/21/2023
+title: Access and interpret analytics
+description: How to access and interpret real-time marketing analytics in Dynamics 365 Marketing.
+ms.date: 04/17/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Access and interpret analytics
@@ -40,6 +36,9 @@ The following insights categories are provided:
 - **Overview**: View a chart of the engagement interactions and a summary of the most important KPIs for each channel for the selected contact.
 - **Email insights**: View complete details of email interactions for the selected contact, including a list of all messages sent to them, plus lists of all opens, clicks, bounces, and more. 
 - **Form insights**: See which marketing forms the contact has visited and submitted. View the content of each submission. 
+ 
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of contact insights.](media/real-time-marketing-contact-insights.png "Screenshot of contact insights")
 
 ### Journey operational analytics
 
@@ -68,7 +67,7 @@ Select any journey component to view near real-time operational analytics in the
     > ![AI optimization screenshot.](media/real-time-marketing-ai-optimization.png "AI optimization screenshot")
 
 > [!NOTE]
-> Data retention is 12 months for Goal analytics, Channel analytics (including delivery and interaction details), and AI optimization analytics.
+> Data retention is 12 months for Contact insights, Goal analytics, Channel analytics (including delivery and interaction details), and AI optimization analytics.
 
 ### Aggregate cross-journey analytics
 
@@ -95,8 +94,19 @@ Learn more: [How to use aggregate channel analytics](real-time-marketing-channel
 > [!NOTE]
 > There is no retention policy for real-time marketing interactions in Aggregate cross-journey analytics and Aggregate channel analytics. Dataverse entities are limited to a two-year retention policy after their initial creation date. Keep in mind that the two-year Dataverse entity retention policy might impact analytics views associated with interaction data from Dataverse entities.
 
+### Marketing effectiveness analytics
+
+The marketing effectiveness analytics dashboard enables you to set up key milestones in your buyer’s journey and analyze how your real-time marketing activities are contributing to driving customers to those milestones. The dashboard uses AI-powered multi-touch and single-touch attribution models.
+
+> [!div class="mx-imgBorder"]
+> ![Marketing effectiveness analytics dashboard.](media/real-time-marketing-effectiveness-analytics-dashboard.png "Marketing effectiveness analytics dashboard")
+
+Learn more: [Preview: Marketing effectiveness analytics](real-time-marketing-effectiveness.md)
+
 ## Learn more
 
 Here are some advanced resources for this topic:
 
 - [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

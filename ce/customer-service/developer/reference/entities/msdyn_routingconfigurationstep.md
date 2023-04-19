@@ -5,12 +5,8 @@ ms.date: 03/31/2021
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
-manager: "shujoshi"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # msdyn_routingconfigurationstep Entity Reference
 

@@ -14,7 +14,6 @@ ms.assetid: 593d28ea-fa94-4ced-83e0-f394bc3962cf
 caps.latest.revision: 11
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Troubleshooting installation and upgrade
 

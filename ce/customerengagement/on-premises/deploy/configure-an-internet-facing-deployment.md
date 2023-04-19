@@ -14,7 +14,6 @@ ms.assetid: bec4c1f2-10c0-4e62-8a27-b7b6d2adfb0f
 caps.latest.revision: 16
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Configure an Internet-facing deployment
 

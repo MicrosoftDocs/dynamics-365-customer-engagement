@@ -5,7 +5,6 @@ ms.date: 02/28/2023
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # How are prices calculated for product bundles?
 

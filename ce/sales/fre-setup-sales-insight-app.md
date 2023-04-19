@@ -5,7 +5,6 @@ ms.date: 09/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # First-run setup in conversation intelligence app

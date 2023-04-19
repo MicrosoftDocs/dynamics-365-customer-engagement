@@ -3,7 +3,6 @@ title: "Associate templates with scenarios  | MicrosoftDocs"
 description: "Learn how to associate templates with scenarios in Dynamics 365 Channel Integration Framework 2.0."
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Associate templates with scenarios

@@ -5,7 +5,6 @@ ms.date: 08/03/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Manage applications in Omnichannel for Customer Service

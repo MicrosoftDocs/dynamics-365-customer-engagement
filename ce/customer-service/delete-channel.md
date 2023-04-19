@@ -5,7 +5,6 @@ ms.date: 05/27/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 # Delete a configured channel

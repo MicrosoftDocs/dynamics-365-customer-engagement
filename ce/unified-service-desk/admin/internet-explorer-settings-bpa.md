@@ -5,7 +5,6 @@ ms.date: 09/20/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings

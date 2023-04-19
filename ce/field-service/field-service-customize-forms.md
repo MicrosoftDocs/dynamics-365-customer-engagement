@@ -5,9 +5,6 @@ ms.date: 03/03/2022
 ms.topic: article
 author: lmasieri
 ms.author: lmasieri
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Customize the work order form

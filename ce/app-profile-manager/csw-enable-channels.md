@@ -3,7 +3,6 @@ title: "Set up Omnichannel for Customer Service channels in Customer Service wor
 description: "Learn how to configure Omnichannel for Customer Service channels in Customer Service workspace"
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ms.date: 11/10/2020
 ms.topic: article
 ---

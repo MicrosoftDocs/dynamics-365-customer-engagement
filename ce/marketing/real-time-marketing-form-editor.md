@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: petrjantac
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create and manage forms in real-time marketing
@@ -358,3 +354,5 @@ Security is an important aspect of forms. Dynamics 365 Marketing takes the follo
 
 - The Marketing app accepts form submissions only from domains allowed for external form hosting.
 - The Marketing app infrastructure contains necessary precautions to minimize the impact of a possible DDoS attack.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

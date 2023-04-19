@@ -5,7 +5,6 @@ ms.date: 10/27/2022
 ms.topic: overview
 author: "gandhamm"
 ms.author: mgandham
-manager: "shujoshi"
 
 ---
 # Omnichannel for Customer Service entity reference 
@@ -67,6 +66,7 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_occommunicationprovidersetting](msdyn_occommunicationprovidersetting.md)|
 |[msdyn_occommunicationprovidersettingentry](msdyn_occommunicationprovidersettingentry.md)|
 |[msdyn_occustommessagingchannel](msdyn_occustommessagingchannel.md)|
+|[msdyn_ocexternalcontext](msdyn_ocexternalcontext.md)|
 |[msdyn_ocfbapplication](msdyn_ocfbapplication.md)|
 |[msdyn_ocfbpage](msdyn_ocfbpage.md)|
 |[msdyn_ocgooglebusinessmessagesagentaccount](msdyn_ocgooglebusinessmessagesagentaccount.md)|

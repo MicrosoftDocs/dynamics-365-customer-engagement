@@ -6,9 +6,6 @@ ms.date: 09/24/2022
 ms.topic: article
 author: jasonccohen
 ms.author: jacoh
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Create products or services for work orders

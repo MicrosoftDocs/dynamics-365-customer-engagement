@@ -5,7 +5,6 @@ ms.date: 11/18/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Take notes specific to conversation

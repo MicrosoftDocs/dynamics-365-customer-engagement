@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Define your Message parts
@@ -79,3 +75,5 @@ Message parts are defined in the **customizations.xml** as solution aware compon
   </msdyn_channelmessageparts>
 </ImportExportXml>
 ```
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

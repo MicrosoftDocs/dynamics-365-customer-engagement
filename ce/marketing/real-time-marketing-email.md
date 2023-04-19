@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create real-time marketing emails
@@ -87,3 +83,5 @@ To see preview for a specific audience member:
 > For dynamic text that is not bound to the audience, you can enter sample values to see how the content will look.
 
 You can send the preview email to yourself or another test email address to verify how the received email renders on different devices and different email apps. Preview emails automatically include “[Test]” in the subject header.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

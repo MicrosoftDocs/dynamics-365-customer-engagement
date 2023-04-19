@@ -14,7 +14,6 @@ ms.assetid: ffd43c4a-2ba1-4ab5-b86c-ed3bcf29cd5d
 caps.latest.revision: 24
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Configure Microsoft Dynamics 365 for Outlook to use claims-based authentication
 

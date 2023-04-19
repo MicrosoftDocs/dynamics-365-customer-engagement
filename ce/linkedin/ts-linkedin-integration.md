@@ -5,7 +5,6 @@ ms.date: 05/26/2020
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Troubleshoot LinkedIn Sales Navigator integration errors with Dynamics 365

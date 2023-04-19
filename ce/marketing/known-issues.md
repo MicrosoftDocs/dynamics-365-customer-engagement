@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Known issues and workarounds
@@ -90,6 +86,7 @@ This document provides important, late-breaking information about known issues a
 - Image placeholders for emails created before the April 2022 release are shown in blue. <!--- 2689328 -->
 - Adding a text link with **Add to calendar** functionality generates multiple errors. **Add to calendar** works properly for images and buttons. This error is related to event management only. <!--- 2965667 -->
 - Sending emails without building a journey currently only supports the [default consent profile](set-up-subscription-center.md#the-default-subscription-center). Custom subscription centers are not supported.
+- Sending emails without building a journey will not stop the user from selecting an email and a segment from different business units.
 
 ## Marketing pages and forms
 

@@ -3,7 +3,6 @@ title: "Create records for conversations| MicrosoftDocs"
 description: "Learn how you can create conversation records using various methods in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 01/06/2021
 ms.topic: article
 ---

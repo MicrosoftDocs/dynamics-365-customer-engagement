@@ -5,7 +5,6 @@ ms.date: 02/07/2023
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 searchScope:
 - D365-App-customerservicehub
 - D365-Entity-queueitem

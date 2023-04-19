@@ -15,7 +15,6 @@ ms.assetid: view-fields-synchronized-dynamics-365-outlook
 caps.latest.revision: 18
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
 

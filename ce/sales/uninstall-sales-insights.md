@@ -6,7 +6,6 @@ ms.custom: bap-template
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 
 ---
 # Uninstall Sales Insights Add-ons 

@@ -4,7 +4,6 @@ description: Use snapshots to automatically take a snippet of forecast data at a
 ms.date: 03/29/2023
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.topic: how-to
 ms.custom: bap-template
 ---

@@ -5,7 +5,6 @@ ms.date: 06/29/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Manage assignment rules for routing 
 

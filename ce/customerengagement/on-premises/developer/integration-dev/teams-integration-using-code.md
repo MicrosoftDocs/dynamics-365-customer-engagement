@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.assetid: f0a710ca-fc62-4190-b75f-d61d2db76ca2
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
 search.audienceType: 
   - developer
 

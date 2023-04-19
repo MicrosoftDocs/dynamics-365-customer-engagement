@@ -7,9 +7,6 @@ ms.author: jasonshotts
 ms.reviewer: mhart
 ms.topic: conceptual
 ms.custom: bap-template
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Resource and utilization report

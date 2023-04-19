@@ -14,7 +14,6 @@ ms.assetid: 2a71402b-dbd1-449c-b43b-d9531c858a18
 
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

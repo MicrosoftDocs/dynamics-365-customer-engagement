@@ -14,7 +14,6 @@ ms.assetid: 30f8e3fe-972f-4bf8-9f53-e9218ca432be
 caps.latest.revision: 27
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Back up the Dynamics 365 Customer Engagement (on-premises) system
 

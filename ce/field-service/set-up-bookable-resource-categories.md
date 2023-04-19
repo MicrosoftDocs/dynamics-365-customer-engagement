@@ -6,9 +6,6 @@ ms.date: 09/30/2017
 ms.topic: article
 author: ryanchen8
 ms.author: chenryan
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Set up bookable resource categories
 

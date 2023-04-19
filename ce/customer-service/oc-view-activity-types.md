@@ -5,7 +5,6 @@ ms.date: 08/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # View conversation and session forms

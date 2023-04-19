@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: get-started
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Boost event engagement with real-time journeys
@@ -145,3 +141,5 @@ Real-time marketing triggers provide a straightforward solution if a journey par
 
 > [!div class="mx-imgBorder"]
 > ![registration canceled](media/event-engagement-create-canceled.png "registration canceled")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
