@@ -17,7 +17,7 @@ Customize the case resolution experience in Power apps as follows:
 - When agents try to close a case with open activities, the application displays a warning message with a redirect link. You can configure the tab agents view when they select this link.
 - Choose to display the legacy **Resolve case** dialog instead of the default minimal **Resolve case** dialog when an agent closes a case with open activities.
 
-## Specify tab to redirect users to close the open activities for a case
+##  Redirect users to a specific tab to close the open activities for a case
 
 You can configure the tab users must be redirected to when they select the open activities link on the  **Resolve Case** dialog. You'll need to add and configure the **Redirect user to the specified tab to close open activities** setting definition in Power Apps to set the tab at an environment level or for a specific app.
 
@@ -38,7 +38,7 @@ You can choose to display the legacy case resolution dialog box that appears whe
 
 > [!NOTE]
 > - You can revert to the legacy case resolution dialog only if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Customer Service admin center.
-> - If **Resolve case dialog**  is set to **Customizable dialog** or **Quick create dialog**, to add **Duration**, **Villable TIme**, **Total Time** and other customizations, perform the steps in [Modify the case resolution dialog](modify-case-resolution-dialog.md).
+> - If **Resolve case dialog**  is set to **Customizable dialog** or **Quick create dialog**, to add **Duration**, **Billable TIme**, **Total Time** and other customizations, perform the steps in [Modify the case resolution dialog](modify-case-resolution-dialog.md).
 
 Perform the following steps:
 
