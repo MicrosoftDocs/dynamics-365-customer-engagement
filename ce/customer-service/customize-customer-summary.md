@@ -1,7 +1,7 @@
 ---
 title: "Customize the Active Conversation form | MicrosoftDocs"
 description: "Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Omnichannel for Customer Service."
-ms.date: 03/20/2023
+ms.date: 04/20/2023
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -25,7 +25,7 @@ You can customize the following for the **Active Conversation** page:
 
 
 > [!NOTE]
-> However, for a conversation entity, you can't add custom fields, forms, or views.
+> However, for a conversation entity, you can't add custom forms.
 
 By default, the **Active Conversation** page displays the sections that are listed in this article. For information on how to customize these sections, see [Customize quick view forms](customize-quick-view-form.md).
 
