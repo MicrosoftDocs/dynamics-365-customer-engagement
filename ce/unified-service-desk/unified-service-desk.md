@@ -102,13 +102,6 @@ ms.custom:
 </tr>
 </table>
 
-::: moniker range="dynamics-usd-3"
-
-### Videos
-
-See the video to know [What's New in Unified Service Desk 3.3](https://go.microsoft.com/fwlink/?linkid=2008774).
-::: moniker-end
-
 ### See also
 
 [Unified Service Desk Blog](https://cloudblogs.microsoft.com/dynamics365/it/2021/06/22/host-web-apps-using-microsoft-edge-webview2-process-in-unified-service-desk/)

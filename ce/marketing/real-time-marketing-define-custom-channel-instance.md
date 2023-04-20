@@ -84,3 +84,5 @@ For example:
 
     > [!div class="mx-imgBorder"]
     > ![custom channel](media/real-time-marketing-select-custom-channel1.png "custom channel")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

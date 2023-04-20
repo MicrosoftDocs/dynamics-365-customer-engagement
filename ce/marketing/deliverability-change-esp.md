@@ -74,3 +74,5 @@ Contact our [support team](/dynamics365/field-service/troubleshoot-faq#where-can
 
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Email policies and suspension standards](email-policies.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

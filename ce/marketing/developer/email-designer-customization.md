@@ -1,8 +1,7 @@
 ---
-title: "Customize the email designer (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
-description: "Learn how to customize the email designer in Dynamics 365 Marketing."
-ms.date: 10/27/2021
-
+title: Customize the email designer
+description: Learn how to customize the email designer in Dynamics 365 Marketing.
+ms.date: 04/18/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -15,6 +14,13 @@ search.audienceType:
 # Customize the email designer
 
 The latest [email editor](../email-design.md) improves the design process by providing more screen real estate for the design canvas. You can further tailor the email designer to suit your needs by implementing your own customizations.
+
+> [!IMPORTANT]
+> As of April 2023, the following fields have been relocated from the right pane to the header area: From Name, From Address, Subject, and Pre-header. This change allows for easier access and editing of these fields.
+>
+> If you have customized these fields on the "Email Properties" form, you should copy the customization to the new "Email Header" form (real-time marketing form ID: 08732368-3f74-426e-9f96-595fbd6867e9, outbound form ID: e21ed42d-aa03-40b5-8dd8-57207fea78ba). Customizations may include handlers that control the visibility of these fields or react to changes in these fields.
+>
+> Customizations made to the main form or customizations adding new fields to the Email Property form *do not* require any action.
 
 To customize the email designer:
 
@@ -41,3 +47,5 @@ To customize the email designer:
     > [!NOTE]
     > If you enable the timeline functionality for a Marketing email entity and would like to add a timeline visual to the **Email properties** form, you must also add it to the **New editing experience** form. In other words, the timeline functionality has the same requirements as field customizations.
 1. Select **Save**, then **Publish** your changes.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -163,3 +163,5 @@ Trigger event: "incident/000"
 Resume event: ""
 Result: Case 3 resume
 ```
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

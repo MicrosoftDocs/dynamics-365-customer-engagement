@@ -100,5 +100,4 @@ In the current version of Dynamics 365 Marketing, the techniques described here 
 
 Going forward, we will continue to gather market feedback to identify solutions for business scenarios that still are not supported by this marketing model.
 
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,5 @@ Before any portal changes, you should make a backup of the current website.
 ## I hosted the sample website on my IIS server but I cannot get it work, what can I do?
 
 Even though hosting the website anywhere is possible, Dynamics 365 Marketing can't configure or debug the custom hosting environment.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
