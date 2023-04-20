@@ -52,7 +52,7 @@ For other device manufacturers, please email Dynamics 365 Mobile Support at dynm
 
 
 ## Redirected URLs do not work when you configure the Dynamics 365 mobile app
-URLs that redirect, such as [!INCLUDE[pn_iis](../includes/pn-iis.md)] host headers or link-shortening websites such as tinyurl or bitly, do not work when you use the URL in the **Dynamics 365 apps web address** field with Dynamics 365 mobile during configuration.  
+URLs that redirect, such as [!INCLUDE[pn_iis](../includes/pn-iis.md)] host headers or link-shortening websites, do not work when you use the URL in the **Dynamics 365 apps web address** field with Dynamics 365 mobile during configuration.  
   
 For example, an `https://www.contosocrm.com` host header for a Dynamics 365 apps online  website URL that is actually `https://crm.contososerver001.com`, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
   
