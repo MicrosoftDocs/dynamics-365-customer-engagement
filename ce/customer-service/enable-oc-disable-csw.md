@@ -18,7 +18,7 @@ With the [previously announced deprecation](deprecations-customer-service.md#omn
 - Omnichannel Supervisor
 - Omnichannel Administrator
 
-If your business still requires the Omnichannel for Customer Service app, use the steps in this article to [enable the Omnichannel for Customer Service app](#enable-the-omnichannel-for-customer-service-app).
+If your business still requires the Omnichannel for Customer Service app, use the steps in this article to [enable it](#enable-the-omnichannel-for-customer-service-app).
 
 If you don't want the Customer Service workspace app to be visible for any of the above profiles, follow the steps in [Disable the Customer Service workspace app](#disable-the-customer-service-workspace-app) to remove it from the apps page in your environment.
 
@@ -47,4 +47,4 @@ If you don't want the Customer Service workspace app to be visible for any of th
 
 ## Next steps
 
-For information migrating from Omnichannel for Customer Service to Customer Service workspace, go to [Migrate from Omnichannel for Customer Service to Customer Service workspace](migrate-oc-to-csw.md)
+For migration information, go to [Migrate from Omnichannel for Customer Service to Customer Service workspace](migrate-oc-to-csw.md)
