@@ -14,7 +14,6 @@ ms.assetid: 6089d370-2675-4fae-a800-f01ec9927747
 caps.latest.revision: 13
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Update an organization
 

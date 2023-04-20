@@ -3,14 +3,10 @@ title: "Deploy sample Unified Service Desk package using Package Deployer | Micr
 description: "Learn about the Package Deployer and how to use it to import a sample application in Unified Service Desk."
 ms.date: 08/17/2018
 ms.topic: overview
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin

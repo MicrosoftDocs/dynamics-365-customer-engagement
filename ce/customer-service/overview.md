@@ -5,7 +5,6 @@ ms.date: 05/27/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
   - intro-internal

@@ -6,9 +6,6 @@ ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
 ms.author: jobaker
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Configure offline capabilities in the Field Service (Dynamics 365) mobile app
@@ -144,6 +141,8 @@ In summary, an offline-first application always reads from the local device data
 
 > [!NOTE]
 > After the offline-enabled user configures and signs into the app, the initial data sync will begin. During this time period, the app with run in online mode and changes will be updated on the server. After completing the offline sync, the app will be in offline-first mode and will read data from the local device database. During the time period of subsequent sync cycles, the app will not run as though in online mode.
+>
+> When an offline-enabled mobile application has network access, internal business logic fetches data from the server if a required record isn't found in the mobile offline profile. If no network access is available, a more specific error message will show, informing users of the missing table.
 
 ## Sync intervals
 

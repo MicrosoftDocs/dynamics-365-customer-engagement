@@ -7,21 +7,17 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Support for modernized business units
 
 Sometimes, users need access to data across multiple business units. For example, a marketer responsible for leading the marketing initiatives across both US and European subdivisions of a company, both represented by business units in Dataverse, needs access to data from both the business units. With [modernized business units](/power-platform-release-plan/2021wave2/data-platform/modernize-business-units), Dataverse now allows users to have security roles from different business units at the same time.
 
-When modernized business units are [turned on](/power-platform/admin/wp-security-cds.md#enable-the-matrix-data-access-structure) for an environment that has business unit scoping enabled already, users need a way to specify which business unit they're creating an artifact for. For most of the entities, the default value of a business unit is set to the user’s business unit. However, journeys and emails have special behaviors:
+When modernized business units are [turned on](/power-platform/admin/wp-security-cds#enable-the-matrix-data-access-structure) for an environment that has business unit scoping enabled already, users need a way to specify which business unit they're creating an artifact for. For most of the entities, the default value of a business unit is set to the user’s business unit. However, journeys and emails have special behaviors:
 
 - **Emails**: If the user selects a template, the email’s business unit is set to the business unit of the template. If the user skips template selection, then the email’s business unit is set to the user’s business unit.
 - **Journeys**:
@@ -106,3 +102,5 @@ To modify business unit of a form:
 ## Brand profiles
 
 Given that brand profiles are selected and included in an email, Dynamics 365 Marketing doesn't support changing the business unit of an existing brand profile. However, users that have permissions for more than one business unit can select the specific business unit for which they want to create the brand profile.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

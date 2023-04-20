@@ -14,7 +14,6 @@ ms.assetid: 9c1397cb-f45d-4a4a-a2e5-abae714e4d5d
 caps.latest.revision: 6
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Troubleshoot organization import and upgrade issues
 

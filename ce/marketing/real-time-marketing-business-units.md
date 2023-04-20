@@ -1,5 +1,5 @@
 ---
-title: "Preview: Business unit support in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Business unit support in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use business unit support in Dynamics 365 Marketing."
 ms.date: 01/27/2023
 ms.custom: 
@@ -7,23 +7,13 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
-# Preview: Business unit support in real-time marketing
-
-> [!Important]
->
-> A preview feature is a feature that is not yet complete but is made available to customers > to get early access before it’s officially included in a release  and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
->
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to assist you with issues or questions. Preview features aren’t meant for production use, particularly when processing personal data or other data subject to legal or regulatory compliance requirements.
+# Business unit support in real-time marketing
 
 Business unit scoping in real-time marketing can be enabled at an environment level by an administrator. Once this feature is enabled, all real-time journeys and segments created within the environment will be automatically scoped to the record owner’s business unit.
 
@@ -59,5 +49,8 @@ Business units affect forms as follows:
 > While the business unit scoping feature can be turned on or off in outbound marketing, it behaves differently for real-time marketing. Business unit scoping for real-time Marketing is an irreversible feature switch; once it's enabled, it can't be disabled. To enable this feature:
 
 1. Go to **Settings** > **Other settings** > **Feature switches**.
-1. Set the **Business Unit Scoping (Real-Time Marketing)** slider to **On**.
+1. Set the **Business Unit Scoping (Real-Time Marketing)** toggle to **On**.
 1. Read the customer agreement displayed in the prompt and select on **I Agree** to turn on the feature.
+1. Select **Save** in the upper right.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

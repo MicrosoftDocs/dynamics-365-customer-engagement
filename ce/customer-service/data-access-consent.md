@@ -4,7 +4,6 @@ description: "Learn about the consent requirements that are required for provisi
 ms.date: 03/08/2023
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.topic: reference
 ---
 

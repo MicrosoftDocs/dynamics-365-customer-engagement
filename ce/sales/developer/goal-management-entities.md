@@ -7,7 +7,6 @@ ms.reviewer: lavanyakr
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 search.audienceType: 
   - developer
 

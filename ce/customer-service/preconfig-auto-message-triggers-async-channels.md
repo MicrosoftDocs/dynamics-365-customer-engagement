@@ -3,8 +3,8 @@ title: Preconfigured automated message triggers for asynchronous channels
 description: Learn about the preconfigured automated message triggers that are displayed to agents and customers in asynchronous channels in Omnichannel for Customer Service.
 ms.date: 01/12/2023
 ms.topic: conceptual
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 ms.custom: bap-template
 ms.reviewer: nenellim
 ---

@@ -7,7 +7,6 @@ ms.service: dynamics-365-customerservice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ms.reviewer: 
 topic-status: Drafting
 ms.custom:

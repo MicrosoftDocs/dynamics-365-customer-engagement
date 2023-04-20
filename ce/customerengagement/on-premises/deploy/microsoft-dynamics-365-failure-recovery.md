@@ -14,7 +14,6 @@ ms.assetid: 09348882-9013-4a0c-a616-222a768bce5e
 caps.latest.revision: 10
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Dynamics 365 Customer Engagement (on-premises) failure recovery
 

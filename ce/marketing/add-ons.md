@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Install add-ons
@@ -26,3 +22,5 @@ To install or uninstall an add-on, you need the following privileges:
 - Read = ability to see the add-on on the add-on page
 - Create = ability to install the add-on
 - Delete = ability to uninstall the add-on
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

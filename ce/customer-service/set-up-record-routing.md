@@ -5,7 +5,6 @@ ms.date: 01/11/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Set up unified routing for records

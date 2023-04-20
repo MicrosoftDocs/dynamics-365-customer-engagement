@@ -6,17 +6,14 @@ ms.reviewer: mhart
 ms.topic: conceptual
 author: lmasieri
 ms.author: lmasieri
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Use Dataverse search to find information (Preview)
+# Use Dataverse search to find information (preview)
 
 Dynamics 365 Field Service stores data as tables in Microsoft Dataverse. You can configure Dataverse search to surface the tables that are relevant to your organization.
 
 > [!NOTE]
-> This feature is currently in preview. For more information about enabling features  in preview, see [Install preview features for Dynamics 365 Field Service](field-service-preview.md).
+> This feature is currently in preview. For more information about enabling features in preview, see [Dynamics 365 release schedule and early access](/dynamics365/get-started/release-schedule).
 
 ## Enable Dataverse search
 

@@ -15,7 +15,6 @@ ms.assetid: 736cf9ab-6a7f-4dc8-940a-d7302e09e858
 caps.latest.revision: 55
 author: Mattp123
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - admin
 

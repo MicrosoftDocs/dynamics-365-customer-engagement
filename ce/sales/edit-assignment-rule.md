@@ -5,7 +5,6 @@ ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Edit an assignment rule 
 

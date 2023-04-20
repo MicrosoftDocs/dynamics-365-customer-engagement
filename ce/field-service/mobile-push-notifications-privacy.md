@@ -9,9 +9,6 @@ applies_to:
   - "Dynamics 9.x"
 author: JonBaker007
 ms.author: jobaker
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Privacy note for Field Service Mobile push notifications

@@ -7,14 +7,10 @@ ms.custom: "dyn365-ai-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365SE
 ---
 
 

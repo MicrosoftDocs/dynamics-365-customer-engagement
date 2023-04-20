@@ -3,7 +3,6 @@ title: "Overview of app profiles | MicrosoftDocs"
 description: "Learn how to create app profiles using the App Profile manager"
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.date: 09/30/2022
 ms.topic: overview
 

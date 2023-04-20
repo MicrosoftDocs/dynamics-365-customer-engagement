@@ -154,7 +154,7 @@ If you have modified the sample data and want to restore it back to original, th
 
 ### Is the Sales trial available in all geographical regions?
 
-Though you can sign up for the trial from any region, the Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only access the Sales core functionalities.   
+Though you can sign up for the trial from any region, the Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](faqs-sales-insights.md#general). If you are not in a supported region, you can only access the Sales core functionalities.  
 
 ### See also
 - [Sign up for a free trial](sign-up-for-sales-trial.md)

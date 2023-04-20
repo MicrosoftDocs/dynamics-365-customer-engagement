@@ -14,7 +14,6 @@ ms.assetid: d2fb9147-1f7e-42ce-84ba-cbf909423682
 caps.latest.revision: 15
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Microsoft Dynamics 365 Reporting Extensions XML configuration file
 

@@ -5,7 +5,6 @@ ms.date: 12/16/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Configure advanced settings for forecasts

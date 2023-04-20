@@ -6,7 +6,6 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Configure who knows whom
@@ -67,7 +66,7 @@ After you enable who knows whom, you must complete the [next steps](#next-steps)
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
-
+[System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Get introduced to a lead](../sales/who-knows-whom.md)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)  
 [Who knows whom FAQs](faqs-sales-insights.md#who-knows-whom)

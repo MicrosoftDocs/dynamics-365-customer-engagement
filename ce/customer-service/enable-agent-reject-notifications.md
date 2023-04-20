@@ -5,7 +5,6 @@ ms.date: 04/04/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 ---
 
 # Enable automatic update of presence on rejection of work assignment

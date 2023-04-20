@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Manage user compliance settings
@@ -120,8 +116,8 @@ After making changes to the **Outbound consent** settings, select **Save** in th
 
 To use this feature in customer journeys:
 
-1) Gather consent from your end users. Consent should be captured in the *Consent given* field.
-2) Set a minimum consent level for the customer journey.
+1. Gather consent from your end users. Consent should be captured in the *Consent given* field.
+1. Set a minimum consent level for the customer journey.
 
 You can find the audit data for the *Consent given* field in a user's contact record.
 
@@ -129,3 +125,5 @@ You can find the audit data for the *Consent given* field in a user's contact re
 
 [Work with data protection and GDPR](gdpr.md)  
 [Use GDPR features](gdpr-use-features.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

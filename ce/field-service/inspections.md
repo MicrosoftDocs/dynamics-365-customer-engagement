@@ -1,20 +1,20 @@
 ---
-title: "Dynamics 365 Field Service inspections (contains video) | MicrosoftDocs"
+title: Add inspections to work orders (contains video)
 description: Learn about how to use inspections in Dynamics 365 Field Service.
-ms.date: 02/12/2023
+ms.date: 03/18/2023
 ms.topic: article
 author: josephshum-msft
 ms.author: jshum
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Add inspections to work orders in Dynamics 365 Field Service
+# Add inspections to work orders
 
 Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments.
 
 With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](./inspections-reporting.md#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a new example inspection, showing the toolbox with question types on the right side.](./media/inspections-create.png)
 
 Inspections in Field Service also provide:
 
@@ -56,40 +56,25 @@ First, create an inspection that can be reused and added to multiple work orders
 
 1. Go to **Work Orders** > **Inspection Templates** and select **New**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of active inspections in Dynamics 365 Field Service.](./media/inspections-navigate.png)
-
 1. Provide a **Name** for the inspection and add an optional description.
 
 ### Question types
 
 Add a question to the inspection by double-clicking or dragging-and-dropping a question type from the right side.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a new example inspection, showing the toolbox with question types on the right side.](./media/inspections-create.png)
-
 - **Textbox:** Allows technicians to enter text from their keyboard for a free form response. There's an option in the advanced panel to make the text box bigger to allow for multiline responses. In early access opt-in release, a text box can be input with a default value and can also be made as read-only.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of textbox read-only.](./media/textbox-read-only.jpg)
 
 - **Checkbox**, **radiogroup**, **dropdown**: Allows technicians to choose an answer from predefined options. The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar, except the **Checkbox** question type is multi-select, whereas **Radiogroup** and **Dropdown** allow for a single answer. The difference between **Radiogroup** and **Dropdown** is cosmetic and should be used based on desired user experience.
 
-- **Entity lookup:** Allows technicians to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. For a chosen entity, the **Name** field and mandatory fields are the entity attributes that can be displayed in the lookup. Entity lookup respects security roles of signed-in user, meaning some entities and records may not be displayed.
+- **Entity lookup:** Allows technicians to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. For a chosen entity, the **Name** field and mandatory fields are the entity attributes that can be displayed in the lookup. When the user types, up to the first 50 records  that start with the search string will appear in the dropdown. This may not contain all matches. Continue to add to the search string until the matching result starts showing on top. Entity lookup respects security roles of signed-in user, meaning some entities and records may not be displayed.
 
   - Add filters to review the records displayed in the entity-lookup options. For example, an entity-lookup inspection question that's created for the bookable resource record type. You can filter the list of bookable resources to ones with the resource type set to *User* to remove subcontractors and machines from the list.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an inspection version, showing filter conditions.](./media/Lookupfilter1.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an inspection version in Field Service.](./media/Lookupfilter2.png)
 
 - **Number:** Restricts input to numeric value or returns an error. Typically represents a measurement or numeric rating value.
 
 - **Date Time:** Allows technicians to enter a date and time.
 
-- **File:** Allows technicians to upload a file, take picture, or choose picture from their camera roll.
+- **File:** Allows technicians to upload a file, take picture, or choose multiple pictures from their camera roll.
 
 - **Barcode scan:** Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type, then select **Barcode** for input type in the **Advanced** section.
 
@@ -100,9 +85,6 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 
 Use the **Required** toggle to make the inspection question mandatory.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a Field Service inspection, showing additional questions.](./media/inspections-create2.png)
-
 By selecting the **Gear** icon, you can add more details for an inspection question.
 
 ### Compact question view
@@ -112,17 +94,11 @@ Before selecting an individual question, go to the advanced pane to edit the loo
 Inspection creators can show or hide the title and description of the inspection when inspection performers are viewing it.
 Also, the auto numbering of the questions can be disabled to assign custom numbering.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an inspection version showing the toggle for hiding the title.](./media/show-question-numbers.jpg)
-
-Choose layout density.
+Layout density options:
 
 **Comfortable** layout displays answer areas underneath questions.
 
 **Compact** layout displays answer areas to the right of questions as seen in the following screenshot. Use the preview pane to see the layout from an end user's perspective.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a compact layout on an inspection.](./media/compactness3.png)
 
 ### Pages
 
@@ -142,6 +118,8 @@ Use the **Preview** section to see the inspection from a technician's perspectiv
 
 > [!NOTE]
 > Once you publish the inspection, you can't edit it in the preview version.
+>
+> Make sure you also finalize the name of the template. You can't change it after the template is published. To use a different name for a template, create a copy and change the name before publishing the copy.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Field Service inspection, highlighting both the preview tab and the publish option.](./media/inspections-create-preview-publish.png)
@@ -183,19 +161,13 @@ Alternatively, your inspection service task can be added to the work order via a
 
 An inspection completed by a technician will be visible on the bottom of the work order service task form.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a work order service task, showing the inspection form at the bottom.](./media/inspections-service-task-work-order-drill-down.png)
-
 ## Perform inspections on mobile
 
-You can view and complete inspections on the [Field Service (Dynamics 365) mobile](mobile-power-app-overview.md) when using at least Field Service v8.8.22+. However, you can't create inspection templates on mobile devices.
+You can view and complete inspections on the [Field Service (Dynamics 365) mobile app](mobile-power-app-overview.md).
 
-Sign in with your Dynamics 365 URL, username, and password, and go to the assigned work order.
+Sign in and go to the assigned work order.
 
 Select the **Work Order Service Task** that has the related inspection.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service (Dynamics 365) mobile app showing service tasks.](media/inspections-fsm-new1.png)
 
 Find the inspection form and enter answers.
 
@@ -204,10 +176,7 @@ Find the inspection form and enter answers.
 
 Technicians can upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service (Dynamics 365) mobile app showing the upload photos option on inspections.](./media/inspections-fsm-new3.png)
-
-When finished, the technician can select **Mark Complete** or set **Complete %** to 100.
+When finished, select **Mark Complete** or set **Complete %** to 100.
 
 Enter a **Result** to report on the overall inspection:
 
@@ -215,9 +184,6 @@ Enter a **Result** to report on the overall inspection:
 - Fail
 - Partial Success
 - NA
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service (Dynamics 365) mobile app showing percent complete on an inspection.](./media/inspections-fsm-new4.png)
 
 **Actual Duration**: Enter an actual duration the work order service task took to complete that can be compared to estimated duration.
 

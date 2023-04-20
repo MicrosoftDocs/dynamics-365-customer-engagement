@@ -11,10 +11,6 @@ ms.subservice: common-scheduler
 ms.topic: article
 author: m-hartmann
 ms.author: mhart
-search.app: 
-  - D365CE
-  - D365PS
-  - D365FS
 ---
 # Sample: Create custom plug-in to use Google Maps API as your geospatial data provider
 

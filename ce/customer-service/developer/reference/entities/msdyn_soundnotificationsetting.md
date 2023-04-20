@@ -3,14 +3,10 @@ title: "msdyn_soundnotificationsetting Entity Reference (Dynamics 365 for Custom
 description: "Includes schema information and supported messages for the msdyn_soundnotificationsetting entity."
 ms.date: 08/04/2020
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # msdyn_soundnotificationsetting Entity Reference
 

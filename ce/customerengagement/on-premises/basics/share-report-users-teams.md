@@ -14,7 +14,6 @@ ms.assetid: 3a30eb5f-4e3a-4c46-8fa4-150d8b277041
 caps.latest.revision: 34
 author: sericks007
 ms.author: sericks
-manager: tapanm-MSFT
 search.audienceType: 
   - enduser
 

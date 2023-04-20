@@ -5,7 +5,6 @@ ms.date: 11/11/2022
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # View and manage unassigned records

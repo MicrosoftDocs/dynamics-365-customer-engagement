@@ -1,18 +1,10 @@
 ---
-title: "Insight cards reference for Dynamics 365 Sales | MicrosoftDocs"
-description: "List of upcoming meetings, reminders, and insights cards, and how you can use them to stay updated with your work."
-keywords: 
-ms.date: 07/08/2022
-ms.custom: 
+title: Insight cards reference for Dynamics 365 Sales
+description: List of upcoming meetings, reminders, and insights cards, and how you can use them to stay updated with your work.
+ms.date: 03/31/2023
 ms.topic: article
-ms.assetid: 7808da18-7d62-4a04-911d-f429ad87248e
 author: udaykirang
 ms.author: udag
-manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 22
 ---
 # Insight cards reference 
 
@@ -39,11 +31,11 @@ The following cards are available under **Upcoming meetings**.
 >[!NOTE]
 >The standard insight card types are available to you with the Sales Enterprise license.
 
-|Insight card	| Type | Description |
+|Insight card	| Type | Description | 
 |-------------|------|-------------|
 |<a name="MeetingToday"></a>**Meeting today** <br/>  ![Insight card for meeting today](media/ActionCard_MeetingToday.png "Insight card for meeting today")<br>**Meeting today (Exchange)**<br>![Insight card for meeting today exchange](media/ActionCard_MeetingTodayExchange.png "Insight card for meeting today exchange") | Standard |**Description**:<br>Tells that you have a meeting scheduled for today. <br>The **Meeting Today** card is derived from your appointments in Dynamics 365 Sales organization. <br>The **Meeting Today (Exchange)** card is derived from you **Exchange** server.<br>**Features**:<br>Shows the meeting title, with a link to the meeting record. Shows the meeting description, location, start time, and key participants Open the detailed view to see the regarded entity and a collection of closely related insight cards, including relevant people, companies, opportunities, near by customers, news, and more.<br>**Actions**: <br>Open Appointment<br>Email Attendees|
 | <a name="UpcomingMeeting"></a>**Upcoming Meeting** <br />  ![Insight card for upcoming meeting](media/ActionCard_UpcomingMeeting.png "Insight card for upcoming meeting")<br> **Upcoming Meeting(Exchange)** <br />  ![Insight card for upcoming meeting exchange](media/ActionCard_UpcomingMeetingExchange.png "Insight card for upcoming meeting exchange") | Standard | **Description**: <br>Tells that you have a meeting scheduled to start in 30 minutes or less. When available, this card is given highest priority and appears at the top of the stack. That way, you'll have all of your important meeting information available. <br> The "meeting today" card is similar, but it's shown all day until the meeting ends, provides fewer features, and is given lower priority. <br>**Features**:<br> Shows the meeting title, with a link to the meeting record.<br>Shows the meeting description (shortened for space if needed). <br>Shows the regarding record (with link).<br> Shows a list of attendees (with link to the full list if there's more than four).<br>Displays a map of the location (if relevant and available; not for online meetings).<br> Open the detailed view to see a collection of closely related insight cards, including relevant people, companies, opportunities, news, and more.<br>**Actions**:<br> Join Meeting <br> Email Attendees |
-| <a name="RelatedNEWS"></a>**Related News** <br />  ![Insight card for related news](media/ActionCard_RelevantNews.png "Insight card for related news") | Standard | **Description**: <br>The card displays news headlines related to companies that are **set as regarded** for the meeting. It’s shown in the card details view when you tap a meeting card from the assistant feed.<br>Only the news in English are supported.<br> **Features**:<br> Shows the date when the news was last updated.<br> Thumbnail image and headline for each found article. Select to view the full article. |
+| <a name="RelatedNEWS"></a>**Related News** <br />  ![Insight card for related news](media/ActionCard_RelevantNews.png "Insight card for related news") | Standard | **Description**: <br>The card displays news headlines related to companies that are **set as regarded** for the meeting. It’s shown in the card details view when you tap a meeting card from the assistant feed.<br>Only the news in English are supported. You must have a ticker symbol defined for the company and it is used to fetch the news articles using Microsoft Bing and MSN Money. More information: [Privacy notice for Sales Insights standard features](privacy-notice.md#sales-insights-standard-features) <br> **Features**:<br> Shows the date when the news was last updated.<br> Thumbnail image and headline for each found article. Select to view the full article. |
 | <a name="NearbyCustomers"></a>**Nearby Customers** <br />  ![Insight card for nearby customers](media/ActionCard_NearbyCustomers.png "Insight card for nearby customers")| Standard | **Description**: <br>The card finds customers that are located near by the meeting location. It's shown in the card details view when you tap a meeting card from the assistant feed.<br> **Features**:<br> Shows the top three near by customers. <br> Shows basic information about each company.|
 
 ## Reminders

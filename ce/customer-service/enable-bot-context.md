@@ -5,7 +5,6 @@ ms.date: 07/12/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 # Enable bot context NuGet package
