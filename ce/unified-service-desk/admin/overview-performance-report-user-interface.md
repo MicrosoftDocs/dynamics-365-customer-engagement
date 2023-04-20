@@ -11,7 +11,6 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
   - intro-internal
-monikerRange: '>= dynamics-usd-3'
 ---
 
 # Public Preview: Overview of Unified Service Desk performance report user interface

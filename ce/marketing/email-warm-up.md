@@ -93,3 +93,5 @@ Sender reputation is how mailbox providers view you and your mail.
 
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Email policies and suspension standards](email-policies.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

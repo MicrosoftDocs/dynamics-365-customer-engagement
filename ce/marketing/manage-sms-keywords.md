@@ -36,3 +36,5 @@ To update a keyword:
  The following screenshot shows the **SMS keywords** page. 
 
 > ![SMS keywords page screenshot.](media/sms-keywords-page.png "SMS keywords page screenshot")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,5 @@ Here's how you can achieve the above scenario through adding a campaign field in
 6.	Your customized fields will then render under the ‘**Settings**’ pane on the journey designer. 
 
 **Warning**: Please note that if you add a new tab on the journey designer, it will not be rendered. Only sections and fields under Settings show up on the journey canvas. 
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

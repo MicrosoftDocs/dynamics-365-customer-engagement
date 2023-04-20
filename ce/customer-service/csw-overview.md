@@ -1,7 +1,7 @@
 ---
 title: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service."
-ms.date: 04/05/2023
+ms.date: 04/20/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -66,21 +66,6 @@ When you work on a case, the productivity pane on the right side of the Customer
 
 More information: [Productivity pane](csw-productivity-pane.md)
 
-
-### View the agent calendar (preview)
-
-As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your work hours, non-work hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly views. It also has an agenda view lets you see a list-type view of your schedule. 
-
-1. In Customer Service workspace, select the **Customer Service Agent Dashboard** page from the **System Dashboards** dropdown menu.
-
-1. In the site map, select the plus (+) icon, and then select **My Schedule** from the dropdown menu.
-
-   :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the dropdown menu with the calendar option selected.":::
-
-   The **My Schedule** page opens with a read-only calendar view of the work hours, non-work hours, and any time off you've scheduled. Use the command bar at the top to change the view to agenda, daily, weekly, or monthly.
-
-   :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
-
 ## Work with cases, activities, knowledge articles, and email templates
 
 On the Customer Service Agent Dashboard, here are some of the actions you can do:
@@ -115,20 +100,27 @@ The following limitations apply to Customer Service workspace:
 
 The legacy layout has been deprecated and will be removed in October 2023.
 
-:::image type="content" source="media/csw-overview.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png":::
+:::image type="content" source="media/csw-overview-mini.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png":::
 
-1. Select the Home icon to return to the Customer Service Agent Dashboard view.
-1. The session pane shows all the sessions you've opened. Select the icons to navigate between sessions.
-1. Select the + icon in the tab bar to open more workspaces in a new tab. If you hold the Ctrl key while you select a case or an activity, the case or activity opens in a new tab, too. Select a tab to navigate between sessions.
-1. Select the arrow to choose a different view.
-1. Select a case or an activity to open a new session. The session replaces your current view with the case form.
-1. Select the back arrow in the upper-left corner of the form to get back to your previous view. To open the case or activity in a new tab, hold the Ctrl key while you select it.
-1. Select the arrow to view a different dashboard.
 
 ### Turn on legacy layout (deprecated)
-1.	With Customer Service workspace open, press the F12 key to open the developer tools window.
-2.	In the console window, enter the following command: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
-3.	Refresh the app page.
+
+You can enable the legacy layout in one of the following ways:
+
+### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+ 1. In Customer Service admin center, select **Miscellaneous** in **Operations**.
+ 1. Select **Manage** for **New and upcoming features**.
+ 1. Clear the **Multisession Layout improvements** and then select **Save**.
+
+
+### [Browser developer tools](#tab/broswerdevtools)
+
+ 1. With Customer Service workspace open, press the F12 key to open the developer tools window.
+ 1. In the console window, type the following command and press **Enter**. `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionLayoutImprovements",false)`
+ 1. Refresh the app page.
+
+---
 
 ### Turn off the close session dialog
 
@@ -150,6 +142,7 @@ The legacy layout has been deprecated and will be removed in October 2023.
 [Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md)  
 [Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md)  
 [Overview of the productivity pane](csw-productivity-pane.md)  
+[View the agent calendar](use-agent-calendar.md)  
 [Migrate from Unified Service Desk to Customer Service workspace](../unified-service-desk/admin/migrate-to-csw.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

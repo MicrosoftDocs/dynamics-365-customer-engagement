@@ -1,7 +1,7 @@
 ---
-title: "Work with reusable content blocks (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to create reusable content blocks and use them in your email designs in Dynamics 365 Marketing."
-ms.date: 05/19/2022
+title: Work with reusable content blocks
+description: How to create reusable content blocks and use them in your email designs in Dynamics 365 Marketing.
+ms.date: 04/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -82,6 +82,13 @@ A content block can be edited while it is in a *Draft* state. If it is in a *Liv
 
 > [!IMPORTANT]
 > Updating a content block does not update any emails that are using that content block. Each time a content block is inserted into an email, that email gets a copy of the content block that is no longer connected or associated with the original content block.
+
+> [!IMPORTANT]
+> When a content block is updated (from **Assets** > **Content blocks**), check the **Settings** pane. It will show all emails and templates that use the content block to alert you which emails and templates will need to be updated.
+>
+> [!div class="mx-imgBorder"]
+> ![Content block update screenshot.](media/content-block-update.png "Content block update screenshot")
+
 
 ## Protecting content from changes
 

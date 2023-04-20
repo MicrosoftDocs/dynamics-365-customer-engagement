@@ -75,3 +75,5 @@ Message parts are defined in the **customizations.xml** as solution aware compon
   </msdyn_channelmessageparts>
 </ImportExportXml>
 ```
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
