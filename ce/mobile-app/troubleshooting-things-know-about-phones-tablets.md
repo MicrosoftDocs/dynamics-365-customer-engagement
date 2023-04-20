@@ -19,7 +19,7 @@ search.audienceType:
 ---
 # Common issues and resolutions for Dynamics 365 for phones and tablets
 
-This article describes common issues you may experience when using Dynamics 365 for phones and tablets, and provides resolutions
+This article describes common issues you may experience when using Dynamics 365 for phones and tablets, and provides resolutions for those issues.
 
 ## Error message: Your device configuration is preventing sign-in
 
@@ -35,6 +35,7 @@ For **Huawei** and **Honor** device, do the following:
 
     > [!NOTE]
     > The **App launch** menu can have different names depending on the model and the operating version of your mobile device. If you   don’t see the **App launch** menu option, then look for one of the following menu options:
+    > 
     > - **Close apps after screen lock** 
     > - **Applications** 
     > - **Background applications**
