@@ -382,12 +382,12 @@
     },
     {
       "source_path": "ce/customer-service/cs-email-template-builder.md",
-      "redirect_url": "/powerapps-docs/user/cs-email-template-builder.md",
+      "redirect_url": "/power-apps/user/cs-email-template-builder",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/customize-insert-email-template.md",
-      "redirect_url": "/powerapps-docs/user/customize-insert-email-template.md",
+      "redirect_url": "/power-apps/user/customize-insert-email-template",
       "redirect_document_id": "false"
     },
     {
@@ -25045,6 +25045,11 @@
     {
       "source_path": "ce/marketing/forwarding-and-replies.md",
       "redirect_url": "/dynamics365/marketing/email-troubleshooting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/svg-test.md",
+      "redirect_url": "/dynamics365/marketing/help-hub",
       "redirect_document_id": false
     }
   ]
