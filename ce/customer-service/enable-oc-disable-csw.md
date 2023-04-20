@@ -18,7 +18,7 @@ With the deprecation of the Omnichannel for Customer Service agent-facing app, t
 - Omnichannel Supervisor
 - Omnichannel Administrator
 
-If your business still requires the Omnichannel for Customer Service app, use the steps in this article to [enable the Omnichannel for Customer Service app](#enable-the-omnichannel-for-customer-service-app) and disable the Customer Service workspace app.
+If your business still requires the Omnichannel for Customer Service app, use the steps in this article to [enable the Omnichannel for Customer Service app](#enable-the-omnichannel-for-customer-service-app).
 
 If you don't want the Customer Service workspace app to be visible for any of these profiles, follow the steps in [Disable the Customer Service workspace app](#disable-the-customer-service-workspace-app) to remove it from the apps page in your environment.
 
@@ -33,8 +33,6 @@ If you don't want the Customer Service workspace app to be visible for any of th
 1. On the site map, select **Apps**, and then select the ellipsis next to **Omnichannel for Customer Service**.
 
 1. Select **Activate**. Omnichannel will then become visible on your environment's apps page.
-
-    :::image type="content" source="media/activate-omnichannel-app.png" alt-text="Activate the Omnichannel for Custmoer Service app":::
     
 
 ## Disable the Customer Service workspace app
