@@ -1,11 +1,10 @@
 ---
 title: "Migrate third-party channel configuration data | MicrosoftDocs "
 description: "Use this topic to learn how to migrate third-party channel configuration data from Dynamics 365 Channel Integration Framework 1.0 to Channel Integration Framework 2.0 in Customer Service workspace and Omnichannel for Customer Service."
-ms.date: 12/15/2021
+ms.date: 10/21/2022
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
   - customizer
@@ -33,7 +32,7 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 Perform the following steps to migrate third-party channel configuration data from Channel Integration Framework 1.0 to 2.0 in Omnichannel for Customer Service.
 
-1. Open the Power Apps portals admin center and select your environment. More information: [Open Power Apps portals admin center](/powerapps/maker/portals/admin/admin-overview.md#open-power-apps-portals-admin-center)
+1. Open the Power Apps portals admin center and select your environment. More information: [Open Power Apps portals admin center](/powerapps/maker/portals/admin/admin-overview#open-power-apps-portals-admin-center)
 
 2. Copy the **Omnichannel** channel URL and other attribute values from the Channel Integration Framework 1.0 provider. If you need any other channel such as Twilio, create a new channel provider in PowerApps, and then copy the channel URL and attribute values. More information: [Configure channel provider using app profile manager](../../../app-profile-manager/app-profile-manager.md)
 

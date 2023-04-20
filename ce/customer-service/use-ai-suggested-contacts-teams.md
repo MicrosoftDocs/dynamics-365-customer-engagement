@@ -1,17 +1,13 @@
 ---
 title: "Collaborate with AI-suggested agents in Microsoft Teams | MicrosoftDocs"
 description: "Learn how to use the AI-suggested experts and collaborate with them through Microsoft Teams to resolve cases in Customer Service."
-ms.date: 09/11/2022
+ms.date: 01/18/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Collaborate with AI-suggested contacts in Microsoft Teams
-
-> [!NOTE]
-> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
 
 If your administrator has enabled AI suggestions for similar cases and configured the ability to connect chats to Dynamics 365 records, you can view suggested contacts who have resolved cases similar to yours to help you more quickly resolve customer issues. To chat with AI-suggested contacts, your administrator must also enable the option to collaborate with other contacts in Microsoft Teams.
 
@@ -37,7 +33,8 @@ You can do the following:
    
         :::image type="content" source="media/ai-suggested-contacts-suggestions-dropdown.png" alt-text="AI suggested contacts dropdown list.":::
         
-        > If no similar cases exist, a message is displayed that no suggested contacts can be found.
+        > - If no similar cases exist, a message is displayed that no suggested contacts can be found.
+        > - If the administrator hasn't enabled **Join chat** feature, a message is displayed that only chat participants can see this conversation. More information: [Configure the ability for users to join chats](configure-teams-chat.md#configure-the-ability-for-users-to-join-chats)
    
    - Each AI-suggested contact is displayed with the following details: 
        - Full name
@@ -68,3 +65,4 @@ If the Teams chat is created for an active case, the participants who receive th
 
 [View AI-suggested cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)  
 [Overview of Customer Service workspace](csw-overview.md)  
+[Use Microsoft Teams chat in Sales Hub](../sales/teams-integration/using-teams-chat-in-dynamics.md)  

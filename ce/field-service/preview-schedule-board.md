@@ -1,22 +1,17 @@
 ---
-title: "Next generation schedule board experience in Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn about the next generation schedule board experience in Dynamics 365 Field Service
-ms.date: 10/07/2021
-ms.reviewer: mhart
+title: Experience the new and improved schedule board
+description: Learn about the next generation schedule board experience in Dynamics 365 Field Service.
+ms.date: 02/02/2023
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: clearab
+ms.author: anclear
 ---
 
-# Experience the new and improved schedule board in Dynamics 365 Field Service (generally available)
+# Experience the new and improved schedule board
 
 [!INCLUDE[preview-schedule-board.md](../shared/urs/preview-schedule-board.md)]
 

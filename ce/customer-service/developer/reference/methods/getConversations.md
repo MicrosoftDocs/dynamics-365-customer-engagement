@@ -3,9 +3,8 @@ title: "getConversations (Omnichannel JavaScript API reference) | MicrosoftDocs"
 description: "Includes reference information about getConversations method, syntax, and parameters in Omnichannel JavaScript API reference."
 ms.date: 07/12/2021
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.reviewer: nenellim
 ---
 # getConversations 

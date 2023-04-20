@@ -5,7 +5,6 @@ ms.date: 12/03/2020
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Send authentication token
 

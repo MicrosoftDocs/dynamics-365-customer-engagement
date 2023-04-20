@@ -1,21 +1,16 @@
 ---
 title: "Set up a subscription center (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create subscription lists and add them to a subscription center in Dynamics 365 Marketing."
-ms.date: 01/29/2021
-
+ms.date: 10/14/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Set up subscription lists and subscription centers
@@ -27,7 +22,7 @@ There are two reasons for requiring a subscription center link in all marketing 
 - **Legal requirements**: Many countries and regions have laws that require all marketing email messages to include an unsubscribe link.
 - **Deliverability**: Spam filters and internet reputation monitors can identify marketing email messages, and might remove messages that don't include an unsubscribe link.
 
-All subscription centers include a **do not email** check box. When a contact chooses this option, the **do not bulk email** flag gets set on his or her contact record and Dynamics 365 Marketing will never send any marketing email messages to that contact. Optionally, your subscription center can present several additional subscription options, such as a list of available newsletters. By presenting several different mailing lists on your subscription center, you gain an opportunity to learn more about your contacts' specific interests while also giving contacts more options beyond the legally required "do not bulk email" option.
+All subscription centers include a **do not email** check box. When a contact chooses this option, the **do not bulk email** flag gets set on their contact record and Dynamics 365 Marketing will never send any marketing email messages to that contact. Optionally, your subscription center can present several additional subscription options, such as a list of available newsletters. By presenting several different mailing lists on your subscription center, you gain an opportunity to learn more about your contacts' specific interests while also giving contacts more options beyond the legally required "do not bulk email" option.
 
 Each subscription list exists as a static marketing list in Dynamics 365, while **do not bulk email** is an explicit attribute of the contact entity. That means that **do not bulk email** overrules subscription list memberships, but it also means that list memberships will be reactivated if a contact later clears **do not bulk email**.
 
@@ -70,8 +65,7 @@ As with all marketing pages, the subscription form on the default marketing page
 
 ### Custom or additional subscription centers
 
-You can publish subscription centers as a native marketing page running on a Dynamics 365
- portal, or set up a marketing form that's embedded on an external site. You can use either of these types of pages as your primary subscription center if you prefer not to use the default one.
+You can publish subscription centers as a native marketing page running on a Dynamics 365 portal, or set up a marketing form that's embedded on an external site. You can use either of these types of pages as your primary subscription center if you prefer not to use the default one.
 
 <a name="create-subscription-list"></a>
 
@@ -163,7 +157,7 @@ Each field shown here (besides the **Name** and **Default** setting) can be refe
 
 To specify a subscription center in the content settings:
 
-1. Select the **Subscription Center** field.
+1. Select the **Subscription center** field.
 
 1. Select the **[Assist edit](dynamic-email-content.md#personalization)** button ![The personalization button.](media/button-personalization.png "The personalization button") for the **Subscription Center** field.
 
@@ -173,6 +167,9 @@ To specify a subscription center in the content settings:
 1. From the **Select an option** combo box, select **Marketing page**.
 
 1. From the **Choose a record** combo box, select the name of the subscription center page you want to use. If you have a large number of pages, you can enter some text here to filter the list, which can make the page you want easier to find. You have now identified the marketing-page record that will be your subscription center for this content-setting record.
+
+    > [!IMPORTANT]
+    > If you chose to make a form for a subscription center that is hosted on an external website, make sure you enter the URL for the page on which your form is hosted in the **Subscription center** field.
 
 1. Select **Next** to continue.
 
@@ -281,7 +278,7 @@ Depending on your Marketing setup and the region in which you operate, you may n
 
 If an email address is linked to existing contact, you can prohibit users from creating a new contact with the same email address. Limiting each email address to a single contact eliminates duplication, ensuring that opt-outs apply to the correct contact every time.
 
-You can apply duplicate detection rules [to your entire organization](business-management-settings.md) (**Settings** > **Advanced** > **Business Management** > **Duplicate detection**). This function is enabled by default. Dynamics 365 includes duplicate detection rules for accounts and contacts. The email address rule specifically detects, “*Contacts where the same email address is found.*” If duplicate detection is enabled, duplicates are detected when:
+You can apply duplicate detection rules [to your entire organization](data-management-settings.md) (**Settings** > **Advanced** > **Data Management** > **Duplicate Detection Settings**). This function is enabled by default. Dynamics 365 includes duplicate detection rules for accounts and contacts. The email address rule specifically detects, “*Contacts where the same email address is found.*” If duplicate detection is enabled, duplicates are detected when:
 
 - **A record is created or updated:** The system checks for duplicates when a user enters or updates records.
 - **During data import:** When you use the Import Data wizard to load contacts or accounts, the wizard detects duplicate records.

@@ -1,21 +1,16 @@
 ---
 title: "Run Dynamics 365 Marketing with a Power Apps portal and/or CMS system (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how you can run interactive marketing features for Dynamics 365 Marketing by using an integrated Dynamics 365 Portal or by using your own website or CMS system."
-ms.date: 02/24/2022
-
+ms.date: 11/24/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Integrate Marketing with a CMS system, Dynamics 365 Portals, or Power Apps portals
@@ -114,9 +109,12 @@ You can choose to add (or re-add) a portal to a Marketing instance at any time. 
 - If you have any portal-based marketing page designs left over in your system from a previous portals integration, these will be reconfigured to use the new portal automatically.
 - As when setting up a new instance, the setup wizard will either claim an existing Dynamics 365 Portal license to work with Dynamics 365 Marketing (if a free license is available on your tenant), or create a demo Power Apps Portal for you (which will expire in 30 days, after which you must start paying for it).
 
-To add a portal to an existing Marketing installation that doesn't have one:
+To create a new portal and associate it with the Marketing app:
 
-1. [Launch the Marketing setup wizard](re-run-setup.md) for the instance  you want to modify. You should be able to see that the **Use your own webserver** option is currently selected.
+> [!IMPORTANT]
+> If you don't provision your portal through the Marketing app, you can’t connect it later.
+
+1. [Launch the Marketing setup wizard](re-run-setup.md) for the instance you want to modify. You should be able to see that the **Use your own webserver** option is currently selected.
 
     > [!div class="mx-imgBorder"]
     > ![Setup wizard for an existing instance without portal integration.](media/fre-add-portal-1-2.png)

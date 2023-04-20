@@ -1,20 +1,16 @@
 ---
 title: "Create a trigger-based journey (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create a real-time marketing trigger-based journey in Dynamics 365 Marketing."
-ms.date: 04/27/2022
+ms.date: 10/05/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create a trigger-based journey
@@ -50,14 +46,26 @@ You can build the journey while the content is in the **Draft** state. To publis
 
 When creating a trigger-based journey, you can specify the following properties to configure how customers start the journey:
 
-- **Choose a trigger**: This is the trigger that customers must perform to start the journey. We want customers to start the journey when they abandon their cart, so select the *Abandoned cart* event as the trigger.
-- **Repeating this journey**: Specify whether a customer can repeat the journey and how soon can they repeat it if they perform the trigger again. For an abandoned cart reminder journey, this can be *immediately* because the *Abandoned cart* event is triggered only once for every abandoned cart. For other types of journeys, especially those involving triggers that are more frequent (like visiting a website), you might want to consider adding some delay before letting people repeat the journey.  
-- **Start date and time**: Customers can start the journey only if they perform the trigger after this start date and time. Select today's date if you want the journey to start listening to the abandoned cart trigger immediately after it has been published.  
+- **Choose the type of journey**: You can select whether you want to create a trigger-based journey that responds to a customer action, or a segment-based journey that reaches out to a specific audience. Here, we'll want to create a trigger-based journey.
+- **Choose the trigger**: This is the trigger that customers must perform to start the journey. We want customers to start the journey when they abandon their cart, so select the *Abandoned cart* event as the trigger.
 
 > [!div class="mx-imgBorder"]
 > ![Create a trigger-based journey screenshot.](media/real-time-marketing-trigger-based-journey.png "Create a trigger-based journey screenshot")
 
 Additional configurations for starting the journey can be found in the journey task pane. See [Real-time marketing journey tile reference](real-time-marketing-tile-reference.md).
+
+## Add journey conditions
+
+You can further personalize the trigger by adding data attributes (conditions) from the trigger’s core entity/table or from entities/tables directly related to those attributes.
+
+To add attributes, choose a trigger, then select the **+Add condition** button. You can add up to 29 attributes to the trigger. This enables you to create highly personalized journeys using out of the box triggers, without the need to create a custom trigger.
+
+In the abandoned cart journey, let's add a condition to only trigger a reminder when the cart value exceeds $50. To do so, select **+Add condition** and then select the "Cart Total" attribute from the Cart Abandoned trigger. Finally, set the operator (">") and the value ("50").
+
+> [!div class="mx-imgBorder"]
+> ![Add a trigger condition screenshot.](media/real-time-marketing-trigger-attribute.png "Add a trigger condition screenshot")
+
+To learn how to add conditions based on nested attributes in the triggers, see [Personalize triggers using conditions](real-time-marketing-personalize-triggers.md).
 
 ## Set the journey goal
 
@@ -91,3 +99,5 @@ Use the plus sign (**+**) on the journey canvas to add the abandoned cart remind
 After adding all the steps to the journey canvas, the journey is ready to go live and message real customers. Before publishing the journey, make sure all related content (email, text messages, and push notifications) is in the **Ready to send** state. Any triggers must also be published and their code integrated. The journey can’t be modified after it's published, so it's a good idea to verify that all the steps in the journey are exactly how you want them before publishing.
 
 Once the journey is published and live, you can look at the journey [analytics page](real-time-marketing-analytics.md) to understand how it’s performing.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

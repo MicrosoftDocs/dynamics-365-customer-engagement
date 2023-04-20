@@ -1,11 +1,10 @@
 ---
 title: "Configure a Twitter Direct Message channel | MicrosoftDocs"
 description: "Use this topic to get instructions to configure a Twitter Direct Message channel in Omnichannel for Customer Service."
-ms.date: 06/17/2022
+ms.date: 10/27/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Configure a Twitter Direct Message channel
@@ -22,11 +21,11 @@ The following are important prerequisites that you must complete before configur
 > [!NOTE]
 > To enable the Twitter channel in an existing Omnichannel for Customer Service environment, you must [upgrade to the latest version of Omnichannel for Customer Service](upgrade-omnichannel.md).
 
-1.	Create a Twitter handle. More information: [Create and Manage a Twitter business profile](https://business.twitter.com/en/basics/create-a-twitter-business-profile.html)
-2.	Enable Direct Message for your Twitter handle. More information: [Enable Direct Message](https://help.twitter.com/using-twitter/direct-messages#receive)
-3.	Create a Twitter application. Apply for a developer account, not a team account. Create a Twitter developer environment. More information: [App Development](https://developer.twitter.com/docs/basics/apps/overview)
-4.  Update the Twitter application permissions to read, write, and access Direct Messages. More information: [App permissions](https://developer.twitter.com/docs/basics/apps/guides/app-permissions)
-
+- Create a Twitter handle. More information: [Create and Manage a Twitter business profile](https://business.twitter.com/en/basics/create-a-twitter-business-profile.html)
+- Enable Direct Message for your Twitter handle. More information: [Enable Direct Message](https://help.twitter.com/using-twitter/direct-messages#receive)
+- Create a Twitter application. Apply for a developer account, not a team account. Create a Twitter developer environment. More information: [App Development](https://developer.twitter.com/docs/basics/apps/overview)
+- Update the Twitter application permissions to read, write, and access Direct Messages. More information: [App permissions](https://developer.twitter.com/docs/basics/apps/guides/app-permissions)
+- Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ## Create a Twitter channel and add a Twitter handle
 

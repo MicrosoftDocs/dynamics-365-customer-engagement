@@ -6,14 +6,10 @@ ms.date: 08/27/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365LinkedIn
 ---
 
 # Install and enable LinkedIn Sales Navigator

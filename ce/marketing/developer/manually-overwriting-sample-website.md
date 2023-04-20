@@ -1,19 +1,14 @@
 ---
 title: "Manually overwriting a sample event  website (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to manually overwrite an event management sample website."
-ms.date: 04/14/2021
-
+ms.date: 01/23/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Manually overwriting sample website
@@ -37,6 +32,7 @@ Manually overwriting the event management website overwrites the possible custom
 
 | Release Version |Download link|
 |--|--|
+| 1.12.10046 (September 2022 Release)| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Sep22-1.12.10046.1012.zip) |
 | 1.12.10034 (April 2021 Release)| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Apr21-1.12.10034.1001.zip) |
 | 1.12.10030 (December 2020 Release)| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Dec20-1.12.10030.1020.zip) |
 | 1.12.10028 (October 2020 Release)| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Oct20-1.12.10028.1027.zip) |
@@ -64,6 +60,5 @@ Manually overwriting the event management website overwrites the possible custom
 | 1.2.1016 (March 2018 Release) | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Mar18-1.2.1016.zip) |
 | 1.1.1006 (February 2018 Release) | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Feb18-1.1.1006.zip) |
 | 1.0.1005 (Public Preview) | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-PublicPreview-1.0.1005.zip) |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

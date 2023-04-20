@@ -1,20 +1,16 @@
 ---
 title: Create and manage queues for cases | MicrosoftDocs
 description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
-ms.date: 08/24/2022
+ms.date: 11/10/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 searchScope: 
   - D365-App-customerservicehub
   - D365-Entity-queueitem
@@ -36,7 +32,10 @@ Queues can be useful in:
   
 - Sorting tasks by type, or by people assigned to complete them.  
   
-Use queues to categorize and prioritize your activities and cases. You can categorize based on:  
+## Types of queues
+By default, a queue is created for each user and team in Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
+
+You can use queues to prioritize your activities and cases, and categorize them based on:  
   
 - products or services  
   
@@ -46,27 +45,21 @@ Use queues to categorize and prioritize your activities and cases. You can categ
   
 - geography  
 
-You can create both basic and advanced queues (for unified routing). For information about creating advanced queues, see [Create and manage queues for unified routing](queues-omnichannel.md).
+You can create both basic and advanced queues (for unified routing). More information: [Create and manage queues for unified routing](queues-omnichannel.md)
 
-By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
+Based on who can view the queues, you can create:
 
-> [!Note]
-> You must manually add new Azure AD (Active Directory) team members to the team's default queue.
-  
-## Types of queues
-You can create the following two types of queues:
+- **Public queues** To let everyone in the organization view the queue and its work items
+- **Private queues** To let a small group of members view the queue and its work items. Private queues display work items for members of that queue and help remove clutter from other users' views. Private queues don't restrict access to the records they contain. Therefore, to prevent unauthorized access to sensitive data, ensure that you set up security models based on your organization needs. More information: [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md)
 
-- **Private queues** For limited set of members to help those members easily view the work items in that queue. Private queues streamline queue items for the members of that queue only and help to remove clutter from other users' views.
-- **Public queues** To let everyone in the organization view the queue and all of its items.
-
-> [!IMPORTANT]
->
-> - Private queues are a great way to organize cases, but they don't restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options available in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
-> - In private queues, you must manually add new team members as members of the queue.
-> - If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you'll not be able to create a basic queue in Customer Service Hub.
+> [!NOTE]
+> - You must manually add new team members as members of private queues.
+> - You must manually add new Azure AD (Active Directory) team members to the team's default queue.
 
 ## Prerequisites
+
 Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
+
    #### Check your security role
   
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
@@ -74,7 +67,6 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
 ## Create a queue
-
 
 1. Go to one of the admin apps, and perform the following steps:
    
@@ -98,7 +90,9 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
       - **Incoming Email**: Enter the email address that'll receive all messages sent to the queue.  
       - **Description**: Enter a description.
   
-   - In the **EMAIL SETTINGS** section, in the **Convert Incoming Email To Activities** dropdown list, select a value depending on the type of messages that you want to track as activities.
+   - In the **EMAIL SETTINGS** section, you can do the following:
+      - Select a value in the **Convert Incoming Email To Activities** dropdown list to set the type of messages that you want to track as activities.
+      - Set the email signature template. This signature is added to the email by default when you send messages from a queue or reply to messages sent to the queue. More information: [Add a default signature for a queue](add-signature-template-queue.md)
   
 4. In the **Omnichannel** section of the **Conflicts Tab**, you can do the following:
     - Set **Automatic work distribution** to **No** (default option), and then select **Save** to create a basic queue.
@@ -109,12 +103,29 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 
 After you have saved the queue, the following changes happen in the SUMMARY tab:
 
-   - In the **Mailbox** field of the **EMAIL SETTINGS** section, a mailbox record for the queue is automatically created and selected. To update the mailbox, select the mailbox name [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)
+- In the **Mailbox** field of the **EMAIL SETTINGS** section, a mailbox record for the queue is automatically created and selected. To update the mailbox, select the mailbox name [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)
 
-   - If you selected the queue type as private, the **MEMBERS** section appears.
-          - Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New team members must be added manually to the queue to be able to access it.
-
+- If you selected the queue type as private, the **MEMBERS** section appears.
+   -  Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New team members must be added manually to the queue to be able to access it.
    - The **QUEUE ITEMS** and **RECORD CREATION AND UPDATE RULES** sections appear.
+
+## Set up default views for routing dialogs
+
+To optimize agent efficiency, you can set up custom views that contain a filtered list of queues. These queues are relevant to the type of cases that the agents handle. You can then set the view as the default from which agents can pick a queue or user to route the work items.
+
+1. In the Customer Service admin center app, go to **Customer support** in the site map and select **Queues**.
+
+1. On the page that appears, select **Manage** for **Routing dialogs**.
+
+1. On the **Queues** > **Routing dialogs** page, do the following:
+    - **Add to queues**: Set a default view that'll appear for the agents when they open the **Add to Queue** dialog to route a case from the case page.
+    - **Route queue item**: Set a default view that'll appear for the agents when they open the **Route Queued Item** dialog to route a case on the **Queues** page,
+
+1. Save and close.
+
+At runtime, your agents will see the views that you have set for them.
+
+For information on how to create custom views, see [Create and edit public views](/power-apps/maker/model-driven-apps/create-edit-views-app-designer).
 
 ## View queue items for a queue
 
@@ -137,11 +148,11 @@ Queues share cases or activities as a group until they're removed from the queue
 
 To assign items in the queue to agents, select **Assign** after selecting one or more items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
 
-> [!Note]
+> [!NOTE]
 >
 > - When two agents simultaneously add cases to the queue, the system creates two queue items instead of a single queue item.
 > - If you've created workflows or used custom API to assign cases to agents and if the same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item.
-> - When an agent picks a case created by another agent and releases it from the queue, the case gets assigned to the queue owner and not to the agent that created the case.
+> - When an agent picks a case created by another agent and releases it from the queue, the case gets assigned to the queue owner and not to the agent who created the case.
 
 #### Create a queue in legacy Service Management
 

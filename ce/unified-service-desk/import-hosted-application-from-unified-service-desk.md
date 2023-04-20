@@ -3,15 +3,11 @@ title: "Import hosted application from Unified Service Desk  | MicrosoftDocs"
 description: "Understand how to import the hosted application from Unified Service Desk into your Visual Studio project."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---

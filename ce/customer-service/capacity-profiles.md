@@ -1,20 +1,18 @@
 ---
-title: Create and manage capacity profiles | MicrosoftDocs
-description: "Know how to create and manage capacity profiles in Customer Service"
-ms.date: 08/12/2022
+title: Create and manage capacity profiles
+description: "Know how to create and manage capacity profiles for agents in Customer Service."
+ms.date: 02/24/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+
 ---
 
 # Create and manage capacity profiles
 
-## Introduction
-
 You can create capacity profiles and assign them to agents to define the types and amount of work they can take. Capacity profiles contain information, such as the amount of work, concurrent or daily capacity, and whether other channels are affected.
 
-- Capacity management helps administrators create various capacity profiles and associate users with matching profiles.
+- Capacity management helps administrators create various capacity profiles and associate users with matching profiles. You can assign multiple capacity profiles to users.
 - The administrator can block the agent from being allocated extra work when they're working on certain channels, such as phone calls.
 - The supervisor can override the agent's configured capacity and assign work to user manually.
 - In the assignment rule, you can create a rule to find an agent whose capacity profile matches that of the work item.
@@ -41,7 +39,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
    
-    - In the site map, select **User management** in **Customer support**. The **User management** page appears.    
+    - In the site map, select **User management** in **Customer support**. The **User management** page appears.
    
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
@@ -58,7 +56,12 @@ For a capacity profile, you can add or remove users and edit any setting except 
 4. On the **Details** tab of the **Create capacity profile** dialog box, enter the following details:
    - **Profile name**: Name for the capacity profile.
    - **Work item limit**: Number of units of the work type that the agent can be assigned.
-   - **Reset frequency**: Period after which capacity consumption can be reset for agents. If you select **Immediate**, capacity will be reset immediately. If you select **End of day**, capacity will be reset after the agent's shift ends. Once configured, you'll have to recreate the capacity profile if you want to change the reset frequency.
+   - **Reset frequency**: Period after which capacity consumption can be reset for agents. Select one of the following options:
+      - **Immediate**: Capacity will be reset immediately.
+      - **End of day**: Capacity will be reset after the agent's shift ends even if all the assigned conversations aren't closed. The open conversations are not counted in the work item limit and the agent will be assigned new work items in their next shift.
+
+     Once configured, you'll have to recreate the capacity profile if you want to change the reset frequency.
+
    - **Assignment blocking**: Set the toggle to **Yes**. When the work item limit is reached, a new work item won't be automatically assigned to the agent.
 
    :::image type="content" source="media/create-capacity-profile.png" alt-text="Create a capacity profile.":::
@@ -70,7 +73,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
 6. Select **Add user**. The capacity profile is assigned to the user.
 
-## Use capacity profiles
+## Set capacity profiles for workstreams
 
 After you create the capacity profiles, configure the following settings to assign work items to agents at runtime:
 
@@ -84,8 +87,8 @@ You need not define assignment rules specific to capacity profiles at queue leve
 For the system to efficiently manage agent workload, agent capacity needs to be released automatically when agents complete their assigned work items. Based on system settings, the agent capacity is released in the following manner:
 
 - **Conversation**: When the agents end the conversation and close their session.
-- **Case**: When the agent resolves the case. Capacity is also released automatically when agent cancels the case, assigns it to another agent, or removes their assignment by clearing their name from the **Worked By** field on the **Queue Item details** dialog.
-- **All records and activities**: For activities, such as email that's configured for record routing, capacity is not released automatically. You'll need to go to the queue item dialog and remove the agent name from the **Worked By** field. Capacity is also released when the assigned queue item is deleted.
+- **Case**: When the agent resolves the case. Capacity is also released automatically when agent cancels the case or removes their assignment by clearing their name from the **Worked By** field on the **Queue Item details** dialog.
+- **All records and activities**: For activities, such as email that's configured for record routing, capacity is not released automatically. You'll need to go to the queue item dialog and remove the agent name from the **Worked By** field. Capacity is also released when the assigned queue item is deactivated.
 
     :::image type="content" source="media/remove-agent-to-release-capacity.png" alt-text="Remove agent name from Worked By field to release capacity.":::
 
@@ -95,15 +98,13 @@ The escalation profile is used when a chat conversation is escalated to a voice 
 
    :::image type="content" source="media/escalation-profile.png" alt-text="Escalation profile settings.":::
 
-### Multiple capacity profiles in a single workstream
+### How to set multiple capacity profiles in a single workstream
 
 Let us take a scenario where you want to route cases as follows:
 
 - Agents can work on maximum two high priority cases per day.
 - Agents can work on maximum four cases of normal priority.
 - But the agent should never be assigned more than five cases per day of high priority and normal priority.
-
-**To achieve the scenario**
 
 1. Create the following profiles:
 
@@ -119,13 +120,15 @@ Let us take a scenario where you want to route cases as follows:
 
 **Runtime behavior of multiple capacity profiles in a single workstream**
 
-1. When the high priority work item comes, it will be stamped with "Total-capacity profile" and "High-priority profile".
-2. An agent who has capacity in both these profiles will be selected. When the work item is assigned, capacity will be consumed from both the profiles.
-3. Similarly, for normal priority cases, the capacity will be consumed from both "Total-capacity profile" and "Normal-priority profile".
+When a work item is labeled with multiple capacity profiles, the assignment strategy considers the agent who matches all the required capacity profiles.
 
+1. When the high priority work item comes, it will be labeled with "Total-capacity profile" and "High-priority profile".
+2. An agent who has capacity in both these profiles only will be selected. When the work item is assigned, capacity will be consumed from both the profiles.
+3. Similarly, for normal priority cases, the capacity will be consumed from both "Total-capacity profile" and "Normal-priority profile".
 
 ### See also
 
 [Create workstreams](create-workstreams.md)  
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
 [Map role personas](role-persona-mapping.md)  
+[Manage historical data of capacity updates for agents](manage-historical-data-capacity-updates.md)  

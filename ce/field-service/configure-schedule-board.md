@@ -1,23 +1,17 @@
 ---
-title: "Use and configure the schedule board in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
-description: Learn about how to configure the schedule board in Dynamics 365 Field Service
-ms.date: 08/15/2022
-ms.reviewer: mhart
-
+title: Use and configure the schedule board (contains video)
+description: Learn about how to configure the schedule board in Dynamics 365 Field Service.
+ms.date: 02/02/2023
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: clearab
+ms.author: anclear
 ---
-# Use and configure the schedule board in Dynamics 365 Field Service
+# Use and configure the schedule board
 
 The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] schedule board provides an overview of resource availability and bookings you can make. Before you use the schedule board, set up the views and filters to your preference.  
   
 > [!IMPORTANT]
-> To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
+> To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps. The schedule board isn't supported when using Field Service in Microsoft Teams.  
 >
 > 1. Open the **Resource Scheduling** app.
 > 1. Change to the Settings area and go to **Scheduling** > **Administration**.  
@@ -90,7 +84,6 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
 4.  When you’re done, select **Apply**.  
   
-<a name="BKMK_ConfigurationTabs"></a>   
 ## Configuration tabs  
  Configuration tabs let you choose the time unit to be displayed, the view orientation, the time offset, and other actions like getting driving directions, moving bookings to the next day, printing the schedule, or add a booking alert.  
   
@@ -151,7 +144,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
     -   To access information on more unscheduled bookings, use the lower navigation arrow to move to the next page.  
   
 <a name="BKMK_CreateAdditionalTabs"></a>   
-## Create additional tabs  
+## Create more tabs  
   
 - To add a new schedule board tab, select **+Add Tab** at the top.  
   
@@ -166,7 +159,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
   -   You can configure a tab in several ways by choosing parameters in each of the configuration options shown in the pop-up window.  
   
-  -   Select the **General Settings**, and then choose settings for the map as well as other settings.  
+  -   Select the **General Settings**, and then choose settings for the map and other settings.  
   
   -   Select the **Schedule Types** option, and then choose booking tooltips, template views, and default availability view for each entity type that has scheduling turned on.  
   
@@ -184,7 +177,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
 1.  On the schedule board, double-click **Initial public view.**  
   
-2.  Scroll down to the **Requirement** section to add additional tabs.  
+2.  Scroll down to the **Requirement** section to add more tabs.  
 
 ## Keyboard shortcuts
 
@@ -197,8 +190,13 @@ You can use keyboard shortcuts when viewing the schedule board in the list view,
 |  --- | --- | 
 | Expand collapsed row | SHIFT ALT + | 
 | Collapse expanded row | SHIFT ALT - | 
+
+## Enable the legacy schedule board
+
+[!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)]
   
-## Privacy  
-[!INCLUDE[cc_ disclaimer_crm_bing_maps_mapping_location](../includes/cc-disclaimer-crm-bing-maps-mapping-location.md)]   
+## Privacy
+
+[!INCLUDE[cc_disclaimer_crm_bing_maps_mapping_location](../includes/cc-disclaimer-crm-bing-maps-mapping-location.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

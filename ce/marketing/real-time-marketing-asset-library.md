@@ -1,70 +1,61 @@
 ---
-title: "Real-time marketing asset library (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to use the real-time marketing asset library in Dynamics 365 Marketing."
-ms.date: 09/06/2022
+title: "Real-time marketing asset library add-on (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to use the real-time marketing asset library add-on in Dynamics 365 Marketing."
+ms.date: 03/31/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
-# Real-time marketing asset library
+# Real-time marketing asset library add-on
 
-The centralized real-time marketing asset library lets you upload images, videos, and documents. Images are automatically tagged using AI. When authoring email content, you can use the asset library's AI-driven suggestions to find the images that best complement your email content. The asset library may already be installed for your organization. If not, you can choose to install it. Learn more: [Install the real-time marketing asset library add-on](real-time-marketing-asset-add-on.md).
+> [!IMPORTANT]
+> The [real-time marketing library add-on](real-time-marketing-asset-library.md) has been retired and will be removed by **June 30, 2023**. All customers will automatically be migrated to the [unified asset library](upload-images-files.md), which adds support for shared Dynamics 365 features such as support for business units, security roles for asset management and application lifecycle management. Other features, such as automated tagging and smart recommendation for images, will be temporarily removed and added back in upcoming releases. Learn more: [Asset library add-on file migration](real-time-marketing-add-on-migration.md)
 
 > [!NOTE]
-> The asset library supports images (such as JPEG, GIF, and PNG files), videos (such as MP4, AVI, and MPEG files), and documents (such as Word documents, PowerPoint files, and Adobe PDFs). Learn more about supported file types: [Upload files other than images and videos](/dynamics365/commerce/dam-upload-files).
+> The asset library add-on is not available in Brazil, India, France, Switzerland, or United Arab Emirates.
+
+> [!NOTE]
+> The asset library add-on doesn’t support Business Units, Application Lifecycle Management, and security roles for asset ownership.
+
+> [!NOTE]
+> The asset library add-on supports images (such as JPEG, GIF, and PNG files), videos (such as MP4, AVI, and MPEG files), and documents (such as Word documents, PowerPoint files, and Adobe PDFs). Learn more about supported file types: [Upload files other than images and videos](/dynamics365/commerce/dam-upload-files).
 
 > [!TIP]
-> Use of the asset library is provided with your Dynamics 365 Marketing license at no extra charge. Images and files uploaded to the default asset library will be stored in the user’s Microsoft Dataverse storage and will count against their file storage capacity. For more information on Dataverse storage capacity, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage). 
->
-> If you decide to use the default library or you are in Brazil, India, or United Arab Emirates, refer to [Upload and use images and files in online content](upload-images-files.md) for further guidance.
+> The real-time marketing asset library add-on lets you upload images, videos, and documents. Images are automatically tagged using AI. When authoring email content, you can use the asset library add-on's AI-driven suggestions to find images that best complement your email content.
 
 ## Asset library features
 
 > [!div class="mx-imgBorder"]
-> ![Single photo asset library screenshot.](media/real-time-marketing-asset-library2.png "Single photo asset library screenshot")
+> ![Single photo asset library add-on screenshot.](media/real-time-marketing-asset-library2.png "Single photo asset library add-on screenshot")
 
-### Quickly upload assets
+### Upload assets
 
-You can upload a single file, bulk upload a few files, or even upload an entire folder.
+You can upload a single file, bulk upload a few files, or upload an entire folder.
 
-### Export assets from outbound marketing to the asset library
+### Organize and find assets 
 
-You can transfer assets from outbound marketing to the real-time marketing asset library in just a few steps. To transfer assets:
-
-1. Go to **Outbound marketing** in the area switcher, then go to **Marketing content** > **Files**.
-1. Choose which assets you'd like to copy by selecting the blue check mark on the upper right of the asset.
-    > [!div class="mx-imgBorder"]
-    > ![Select asset.](media/real-time-marketing-asset-library-select.png "Select asset")
-1. To copy the assets to the real-time marketing asset library, select the **Copy to Real-time marketing** button in the top ribbon.
-    > [!div class="mx-imgBorder"]
-    > ![Copy selected assets.](media/real-time-marketing-asset-library-copy-image2.png "Copy selected assets")
-1. A modal window will appear and ask if you'd like to copy the selected assets to real-time marketing. Select **Copy files**. A status bar at the top of the window will show the copying progress.
-1. Alternatively, if you'd like to copy *all* assets from outbound marketing to the asset library, do not select any individual assets. The button in the top ribbon will say **Copy all files to Real-time marketing**. To copy all assets, select the button and choose **Copy files** on the modal window.
-
-### Organize and find assets with ease
-
-Use tags to organize your assets as needed. All images uploaded into the library are automatically analyzed and described by AI (using AI tags). As a result, you can easily find an image containing a searched object. For example, by typing “house,” you will find all images showcasing houses, regardless of their file names. You can also sort your assets by *Title* or *Last modified* date.
+Use tags to organize your assets as needed. All images uploaded into the library are automatically analyzed and described by AI (using AI tags). As a result, you can easily find an image containing a searched object. For example, by typing “house,” you'll find all images showcasing houses, regardless of their file names. You can also sort your assets by *Title* or *Last modified* date.
 
 > [!div class="mx-imgBorder"]
-> ![Thumbnail asset library screenshot.](media/real-time-marketing-asset-library-full.png "Thumbnail asset library screenshot")
+> ![Thumbnail asset library add-on screenshot.](media/real-time-marketing-asset-library-full.png "Thumbnail asset library add-on screenshot")
 
-For videos and documents, you will have to add tags manually.
+For videos and documents, you'll have to add tags manually.
 
-### View assets in different ways
+### Uninstalling the add-on
 
-Depending on your preferences, you can view your assets as a single file, a thumbnail view, or a list view.
+> [!IMPORTANT]
+> This action cannot be undone, and you won’t be able to reinstall the add-on. When uninstalling the add-on, assets that have been uploaded will be deleted. Assets that have been previously uploaded to the default library will still be available. If you want to use the assets that you have uploaded while the add-on was installed, download them in bulk before you uninstall the add-on.
 
-### Update your assets when needed
+The add-on can be uninstalled by users with delete permissions granted. To uninstall the asset library:
+- Go to **Settings** in the area switcher then go to **Overview > Add-ons**.
+- Select **Uninstall** on the asset library card.
+- Confirm the action.
 
-You can replace your assets with newer versions whenever needed.
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

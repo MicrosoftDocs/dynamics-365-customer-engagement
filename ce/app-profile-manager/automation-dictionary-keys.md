@@ -3,8 +3,7 @@ title: "Use automation dictionary to pass parameter keys | MicrosoftDocs"
 description: "Learn about the supported formats to pass parameter values in the templates and macros."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.date: 08/22/2022
+ms.date: 02/13/2023
 ms.topic: article
 ---
 
@@ -126,7 +125,7 @@ The following slug is used to generate a reconnection link that can be shared wi
 
 | Slug | Description |
 |------------|-----------------------------------|
-|`${ReconnectUrl{ReconnectID}}`| Used in quick replies to generate the reconnect link. |
+|`{ReconnectUrl{ReconnectID}}`| Used in quick replies to generate the reconnect link. |
 
 #### Format for slugs for productivity tools
 
@@ -195,13 +194,13 @@ You can use OData queries to get the contexts that are available from Dataverse.
 
 The OData query format is:
 
-`{$Odata.<entityName>.<entityAttributeName>.<?options>}`
+`{$odata.<entityName>.<entityAttributeName>.<?options>}`
 
 **Examples:**
 
-- `{$Odata.account.name.?$filter=accountid eq '{customerRecordId}'}`
-- `{$Odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}`
-- `{$Odata.incident.title.?$filter=incidentid eq '{caseId}'&$select=title}`
+- `{$odata.account.name.?$filter=accountid eq '{customerRecordId}'}`
+- `{$odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}`
+- `{$odata.incident.title.?$filter=incidentid eq '{caseId}'&$select=title}`
 
 ### Static values
 

@@ -1,20 +1,16 @@
 ---
 title: "Real-time marketing overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn general information about the new real-time marketing features in Dynamics 365 Marketing."
-ms.date: 09/15/2022
+ms.date: 02/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: overview
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Real-time marketing overview
@@ -22,24 +18,15 @@ search.app:
 Dynamics 365 Marketing isn't just for marketers anymore. With AI and natural language input assistance, business users can build trigger-based journeys that reach customers across multiple touch-points, growing relationships from prospects, through sales and support. Dynamics 365 Marketing’s real-time marketing features enable organizations to:
 
 - **Engage customers in real-time**
-
-  With [trigger-based customer journeys](real-time-marketing-trigger-based-journey.md) using [email](real-time-marketing-email.md), [text message](real-time-marketing-outbound-text-messaging.md), or [push notification](real-time-marketing-push-notifications.md) channels, organizations can trigger customer journeys in real time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
-
+    - With [trigger-based customer journeys](real-time-marketing-trigger-based-journey.md) using [email](real-time-marketing-email.md), [text message](real-time-marketing-outbound-text-messaging.md), or [push notification](real-time-marketing-push-notifications.md) channels, organizations can trigger customer journeys in real time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
 - **Win customers and earn loyalty faster**
-
-  Working across all customer touchpoints, real-time customer journeys are truly an end-to-end experience.
-
+    - Working across all customer touchpoints, real-time customer journeys are truly an end-to-end experience.
 - **Personalize customer experiences with AI**
-
-  Turn insights into relevant action with AI-driven recommendations for content, channels, and analytics. 
-
-  [Customer Insights segment and profile integration](real-time-marketing-ci-profile.md) allows organizations to seamlessly leverage the deep customer understanding in Customer Insights.
-
+    - Turn insights into relevant action with AI-driven recommendations for content, channels, and analytics. 
+    - [Customer Insights segment and profile integration](real-time-marketing-ci-profile.md) allows organizations to seamlessly leverage the deep customer understanding in Customer Insights.
 - **Grow with a unified, adaptable platform**
-
-  Easily customize and connect with tools you already use.
-
-  Efficiently manage compliance requirements and accessibility guidelines.
+    - Easily customize and connect with tools you already use.
+    - Efficiently manage compliance requirements and accessibility guidelines.
 
 ## How to engage with customers in real-time marketing
 
@@ -61,4 +48,15 @@ The **when** can be as straightforward as a planned time when you want to send t
 - [Create a trigger-based journey](real-time-marketing-trigger-based-journey.md)
 
 > [!NOTE]
-> Real-time customer journey orchestration features are available in the United States, Europe, Asia Pacific, United Kingdom, Australia, Canada, Japan, India, Brazil, and United Arab Emirates regions. Availability in other geographies will be communicated at a later date.
+> Real-time customer journey orchestration features are available in all geographies where Dynamics 365 Marketing is available. You can find a list of geographies on [Product Availability by Geography](https://dynamics.microsoft.com/availability-reports/).
+
+## Transition from outbound to real-time marketing
+
+Learn about making the move from outbound to real-time marketing in the free [Transition from outbound to real-time marketing playbook](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/transition-from-outbound-to-real-time-marketing-playbook). The playbook covers key information, including:
+
+- Setting up and configuring Dynamics 365 real-time marketing
+- Migrating your marketing artifacts
+- Identifying potential challenges
+- Retiring the use of outbound marketing
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,7 +14,6 @@ ms.assetid: fb4cfdb3-c71f-454e-8ae8-966a47106aaa
 caps.latest.revision: 25
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Install Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions
 

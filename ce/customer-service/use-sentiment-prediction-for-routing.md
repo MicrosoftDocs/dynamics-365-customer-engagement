@@ -5,7 +5,6 @@ ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Use sentiment prediction-based model in work classification (preview)
@@ -106,7 +105,7 @@ Create route-to-queue rules to route the work items based on the sentiment predi
 
 **To create route-to-queue rules**
 
-1. For the workstream in which you created the rule based on sentiment prediction, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. More information: [Configure route-to-queues rulesets and rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
+1. For the workstream in which you created the rule based on sentiment prediction, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. More information: [Configure route-to-queues rulesets and rules](configure-route-to-queue-rules.md)
 
 2. Create a rule to define conditions. The **Sentiment Category** output attribute contains the sentiment prediction for the work item, and should be used in the rule builder to define the rule.
    

@@ -1,11 +1,10 @@
 ---
 title: "Send email using the enhanced email experience in Dynamics 365 Sales"
 description: "Use the enhanced email experience to compose and send an email without leaving the context of what you are working on."
-ms.date: 10/26/2021
+ms.date: 10/12/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Send email using the enhanced email experience 
 
@@ -55,6 +54,10 @@ Using the enhanced email experience, you can:
 5. When you're done, select **Send**. 
 
 For more information about the email functionality, see [Understand the email experience](../customer-service/customer-service-hub-user-guide-email-overview.md).
+
+## Set default font and size
+
+Set the default font and size so that every email you create uses that font setting. For more information about setting the default font and size, see [Set the default font and font size](/power-apps/user/view-compose-email#set-the-default-font-and-font-size).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

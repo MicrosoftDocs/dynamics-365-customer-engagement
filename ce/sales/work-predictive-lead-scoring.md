@@ -1,29 +1,28 @@
 ---
 title: "Work with Predictive lead scoring"
 description: "Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates."
-ms.date: 10/26/2021
+ms.date: 03/06/2023
 ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
-manager: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 caps.latest.revision: 1
 topic-status: Drafting
 ---
-# Prioritize leads through scores 
+# Prioritize leads through scores  
 
 Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
 
 ## License and role requirements
 | Requirement type | You must have |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)(security-roles-for-sales.md)|
 
 
 ## What is predictive lead scoring
 
-In a highly competitive market, it is important for you to spend time on quality leads to reach your sales targets. You must identify and prioritize leads to convert them onto opportunities. The predictive lead scoring of Dynamics 365 Sales Insights provides a scoring model to generate scores for leads that are available for you in your pipeline. The out-of-the-box model chooses top factors that influence the score. An administrator can view and modify the top factors that influence the scores by customizing the model. To learn more, see [Configure predictive lead scoring](configure-predictive-lead-scoring.md).
+In a highly competitive market, it is important for you to spend time on quality leads to reach your sales targets. You must identify and prioritize leads to convert them onto opportunities. The predictive lead scoring feature provides a scoring model to generate scores for leads that are available for you in your pipeline. The out-of-the-box model chooses top factors that influence the score. An administrator can view and modify the top factors that influence the scores by customizing the model. To learn more, see [Configure predictive lead scoring](configure-predictive-lead-scoring.md).
 
 This model assigns a score between 0 to 100 for leads based on the signals from leads and related entities such as contact and account. Using these scores, you can identify and prioritize leads that have more chances of converting into opportunities. 
 
@@ -33,9 +32,22 @@ For example, say you have two leads - Lead A and Lead B - in your pipeline. The 
 > To enable Predictive lead scoring in your organization, contact your system administrator.
 > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive lead scoring](configure-predictive-lead-scoring.md)
 
+## Real-time scoring
+
+With real-time scoring, new leads are scored in near real-time. The score will be calculated within a few minutes of saving or importing a new lead; refresh the lead page to view the score.  
+
+The following considerations apply for real-time scoring:
+
+- Models that were created or edited, and published after the feature rollout are only used for scoring the new leads. So, if a new lead is not scored within 15 minutes of saving or importing the lead, verify that the models was published after the feature rollout.  
+    > [!NOTE]
+    > The feature is being rolled out in a phased manner across different geographic regions. To verify whether the feature is available in your region, look for version 9.0.22121.10001 in the [Latest version availability](/dynamics365/released-versions/dynamics365salesinsights) section. The feature will be enabled one week after the feature rollout. Real-time scoring will be available only after its enabled for your region.
+
+- Business process flows are not taken into consideration for real-time scoring. Lets say you have different models for each business process flow, with the same filter condition. When a new lead that matches the filter condition is created, real-time scoring will use one of models to score the lead, ignoring the business process flow.
+- Real-time scoring works only for new leads. The scores for updated leads are refreshed only after every 24 hours.  
+
 ## Understand predictive lead scoring in views
 
-The **My Open Leads Scored** system view is available when predictive lead scoring is enabled in your organization. This view provides a list of leads with different parameters including lead score, lead grade, and lead score trend. By analyzing these parameters, you can  identify and prioritize leads to convert into opportunities.
+The **My Open Leads Scored** system view is available when predictive lead scoring is enabled in your organization. This view provides a list of leads with different parameters including lead score, lead grade, and lead score trend. By analyzing these parameters, you can identify and prioritize leads so you can convert them into opportunities.
 
 The following screen displays a typical view that consists of columns that can be used to analyze and prioritize the leads.
 
@@ -44,10 +56,7 @@ The following screen displays a typical view that consists of columns that can b
 
 The numbered columns are:
 
-1.	**Lead Score.** Specifies the value that represents the likelihood of the lead to convert into an opportunity on a scale of 1 to 100. A lead with a score of 100 has the highest likelihood of converting into an opportunity. 
-
-    >[!NOTE]
-    >The model calculates the score every 24 hours, therefore, the application may take up to 24 hours to display the score for new leads. 
+1.	**Lead Score.** Specifies the value that represents the likelihood of the lead to convert into an opportunity on a scale of 1 to 100. A lead with a score of 100 has the highest likelihood of converting into an opportunity. The scores are refreshed after every 24 hours.
 
 2.	**Lead Grade.** Specifies a ranks or level of quality that is given to a lead based on the generated score. Leads with higher grade have more chances of converting into opportunities. The grades of a lead are categorized into A, B, C, and D with colors green, purple, yellow, and red, respectively, where Grade A (green) is the lead with the highest likelihood for conversion into an opportunity followed by Grade B (purple), Grade C (yellow), and Grade D (red). System administrators can define lead score ranges for a grade, depending on your organizational requirements.
 

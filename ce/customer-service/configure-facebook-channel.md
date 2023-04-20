@@ -5,14 +5,11 @@ ms.date: 07/25/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
-# Configure a Facebook channel
+# Configure Facebook channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
 

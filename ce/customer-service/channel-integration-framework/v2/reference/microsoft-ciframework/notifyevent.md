@@ -1,11 +1,10 @@
 ---
 title: "notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Get reference information such as syntax and parameters for the notifyEvent (JavaScript API Reference) in Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/04/2022
+ms.date: 11/30/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -23,7 +22,7 @@ Displays a notification that can be used to inform the agent about incoming conv
 
 | Name            | Type     | Required     | Description     |
 |-----------------|----------|--------------|-----------------|
-| input           | String   | Yes          | String      |
+| input           | JSON object   | Yes          | String      |
 | correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.  |
 | cancellationToken | String    | No        | Is the unique string that's used by the [`cancelEvent`](cancelEvent.md) method to cancel notifications about incoming conversations. |
 | successCallback | Function | No           | A function to call when the request is successful. On successful callback, the response object will have the information about whether the customer accepted or rejected the conversation. |

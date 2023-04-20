@@ -1,19 +1,14 @@
 ---
-title: "Set up bookable resources (Dynamics 365 Field Service) (contains video) | MicrosoftDocs"
+title: Set up bookable resources (contains video)
 description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
 ms.date: 01/27/2022
-ms.reviewer: mhart
 
 ms.topic: article
-author: xonatia
-ms.author: xolee
-manager: hegate
-search.app: 
-  - D365CE
-  - D365FS
+author: ryanchen8
+ms.author: chenryan
 ---
 
-# Set up bookable resources in Dynamics 365 Field Service
+# Set up bookable resources
 
 A bookable resource in Field Service is anything that needs to be scheduled. This most commonly includes people, equipment, and physical spaces (facilities).   
 

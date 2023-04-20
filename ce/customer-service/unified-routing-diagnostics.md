@@ -1,33 +1,29 @@
 ---
-title: Diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
+title: View diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
-ms.date: 08/26/2022
+ms.date: 01/02/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
 
-# Diagnostics for unified routing
+# View diagnostics for unified routing
 
-## Introduction
+Unified routing helps you assign a work item to the best suited agent or queue to handle it, based on the agent skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and diagnose issues that occur in the classification and assignment of work items.
 
-Unified routing helps you assign a work item to the best suited agent or queue to handle it, based on the agent skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and self diagnose issues that occur in classification and assignment of work items.
+The diagnostics data is stored in Microsoft Dataverse and this data can affect the storage capacity. The data for routed records might consume more space in comparison to other types of work items. More information: [Manage routing diagnostics data](manage-routing-diagnostics-data.md)
 
 > [!IMPORTANT]
 > Your supervisors can access the routing diagnostics for records and conversations that are handled through unified routing. However, if you don’t want them to view or select the links on a diagnostic record or conversation, or view rules and other configurations, ensure that you assign read-only permissions on the roles such as the Omnichannel supervisor or any other custom roles that you use for managing access in your organization.
 
-## Enable routing diagnostics
+## Manage routing diagnostics
 
-To see data related to work items and their status, you need to enable routing diagnostics.
+To see data related to work items and their status, you need to enable routing diagnostics. The diagnostics setting can take up to 15 minutes to take effect after you enable it.
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
@@ -50,10 +46,7 @@ To see data related to work items and their status, you need to enable routing d
 
    You'll see that a list of new work items starts to appear. However, the work items may not appear on your screen immediately.
 
-> [!NOTE]
->
-> - The diagnostics setting can take up to 15 minutes to take effect after you enable it.
-> - After you enable diagnostics, the data will be stored in Microsoft Dataverse. The diagnostics data can affect the storage capacity. The data for routed records might consume more space in comparison to other types of work items. You can select **Turn off diagnostics** to disable diagnostics.
+1. To disable diagnostics, select **Turn off diagnostics**.
 
 ## Understand routing stages and diagnostics
 
@@ -109,7 +102,7 @@ If machine learning-based skills identification, effort estimation (preview), or
 
 ### Route to queue
 
-Queue routing rules are formulated to send the work item to the correct queue. More information: [Set Up routing and assignment rules](routing-rules.md)
+Queue routing rules are formulated to send the work item to the correct queue. More information: [Configure route-to-queues rules](configure-route-to-queue-rules.md)
 
 The queue name to which the work item is routed is displayed on the route to queue page.
 
@@ -129,17 +122,17 @@ The following stages are available:
 - **Agent assignment trace**: Provides details about the assignment criteria and assignment trace:
 
   - **Assignment criteria**:
-      - **Preferred agent**: Displays whether the setting is enabled or disabled. (This feature is in preview.)
-      - **Assignment method**: Displays "Highest", "Round robin", or "custom".
-      - **Capacity**: Displays the capacity information.
-      - **Presence**: Displays the presence used.
-      - **Skills**: Displays the skills that were matched if any.
+    - **Preferred agent**: Displays whether the setting is enabled or disabled. (This feature is in preview.)
+    - **Assignment method**: Displays "Highest", "Round robin", or "custom".
+    - **Capacity**: Displays the capacity information.
+    - **Presence**: Displays the presence used.
+    - **Skills**: Displays the skills that were matched if any.
   - **Assignment trace**:
-      - **Current status**: Displays the status of the work item, such as whether an agent has been identified.
-      - **Status reason**: Displays the associated reason of the status.
-      - **Assigned to**: Displays the agent to whom the work item is assigned if any.
-      - **Total attempts**: Displays the number of attempts that were required to assign the agent if any.
-      - **Last attempt at**: Displays the date and time of the last attempt for assigning the work item was made.
+    - **Current status**: Displays the status of the work item, such as whether an agent has been identified.
+    - **Status reason**: Displays the associated reason of the status.
+    - **Assigned to**: Displays the agent to whom the work item is assigned if any.
+    - **Total attempts**: Displays the number of attempts that were required to assign the agent if any.
+    - **Last attempt at**: Displays the date and time of the last attempt for assigning the work item was made.
 
   > [!NOTE]
   >
@@ -147,6 +140,10 @@ The following stages are available:
   > - When assignment failure occurs for a work item, **Status reason** will display the assignment reason for the first three attempts. If the assignment continues to fail, the assignment failure message will be updated hourly. In such cases, the value that's displayed for **Total attempts** might not be refreshed accurately.
 
     :::image type="content" source="media/agent-assignment-trace.png" alt-text="Information about assignment trace.":::
+
+### Known issues
+
+For known issues in diagnostics, see [Known issues in Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
 ### See also
 

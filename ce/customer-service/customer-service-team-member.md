@@ -5,14 +5,10 @@ ms.date: 12/28/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -78,7 +74,7 @@ In the Customer Service Team Member app, you can perform the following tasks:
 
 9. (Optional.) Select **Enter a note** to add notes and attach files.
 10. Select **Save & Close**. The **Active Cases created by me** page appears.
-11. Select **Knowledge Search** to search for articles pertaining to your problem area that may help in addressing the issue. To learn more, see [Use the independent knowledge base search](search-knowledge-articles-csh.md#use-the-independent-knowledge-base-search)
+11. Select **Knowledge Search** to search for articles pertaining to your problem area that may help in addressing the issue. To learn more, see [Use the direct knowledge base search in Customer Service Hub](search-knowledge-articles-csh.md#use-the-direct-knowledge-base-search-in-customer-service-hub)
 
     > [!NOTE]
     > "Send article URLs" is not supported in the Customer Service Team Member app.

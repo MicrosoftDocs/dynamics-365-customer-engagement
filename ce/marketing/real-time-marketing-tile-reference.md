@@ -1,21 +1,16 @@
 ---
 title: "Real-time marketing journey tile reference (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about real-time marketing tiles in Dynamics 365 Marketing."
-ms.date: 02/03/2022
-
+ms.date: 10/05/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Real-time marketing journey tile reference
@@ -115,3 +110,5 @@ You can configure the wait step using the following parameters:
 - **A set amount of time**: Customers will wait for the specified amount of time (for example, one hour or one day). The time period starts as soon as customers enter the wait step.
 - **Until a specific date and time**: Customers will wait until the specified date and time. If the date and time are already in the past, customers will immediately proceed to the next step.
 - **Until a time specified by a trigger**: Customers will wait for the date and time that are specified by a trigger attribute. This configuration is useful for scenarios like appointment reminders, where you can choose to wait one day before the appointment to send a reminder. The date and time information must be included in a trigger that has previously occurred in the journey.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

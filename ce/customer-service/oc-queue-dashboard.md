@@ -1,11 +1,10 @@
 ---
 title: Queue Dashboard | Microsoft Docs
 description: Learn about the Queue dashboard to better understand agent performance in your organization.
-ms.date: 09/20/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Queue dashboard
@@ -15,12 +14,15 @@ The Queue dashboard gives you a broad overview of the customer service experienc
 > [!div class="mx-imgBorder"]
 > ![Queue dashboard historical analytics.](media/queue-historical-analytics.png "Queue historical analytics dashboard")
 
-You can view the Queue dashboard in the Omnichannel for Customer Service app. On the **Home** tab, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select the **Queue** tab.
-
 By default, the dashboard shows key performance indicators (KPIs) for the past month and for all channels, queues, and agents in your system. You can use the data filtering options to select data for specific time periods, channels, queues, agents, conversation status, and time zone. To filter data by duration, channel, queue, agent, conversation status, or time zone, select a value from the respective dropdown list.
 
 > [!NOTE]
 > If you switch to a different dashboard, the filter you specified will persist and be applied to the data on all dashboards.
+
+
+### Access the Queue dashboard
+
+[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
 ## Report details
 

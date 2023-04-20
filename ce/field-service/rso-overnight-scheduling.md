@@ -2,18 +2,14 @@
 title: "Overnight scheduling with Resource Scheduling Optimization | MicrosoftDocs"
 description: Learn how to use overnight scheduling with Resource Scheduling Optimization
 ms.date: 11/04/2019
-ms.reviewer: mhart
 
 ms.subservice: resource-scheduling-optimization
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
-search.app: 
-  - D365CE
-  - D365FS
+author: FeifeiQiu
+ms.author: feiqiu
 ---
 
 # Automated overnight scheduling with Resource Scheduling Optimization
@@ -93,7 +89,7 @@ Go to **Resource Scheduling Optimization app** > **Optimization Goals** > **+New
 
 Set **Engine Effort Level** to **Moderate**, **Intense**, or **Very Intense**. As effort level intensity increases, the optimization will take longer to run, but will return better optimizations. Because overnight scheduling is intended to run during the night when no one is working, the optimization can typically afford more time to run. 
 
-Add the constraints Resource Scheduling Optimization should consider based on your business needs. For example, if your work orders require different characteristics (skills), add the **Meets Required Characteristics** constraint. For more information on constraints, see the article on [resource scheduling optimization configurations](/dynamics365/field-service/rso-configuration#enable-resource-scheduling-optimization).
+Add the constraints Resource Scheduling Optimization should consider based on your business needs. For example, if your work orders require different characteristics (skills), add the **Meets Required Characteristics** constraint. For more information on constraints, see the article on [Resource Scheduling Optimization configurations](/dynamics365/field-service/rso-configuration#enable-resource-scheduling-optimization).
 
 Select **Save**.
 

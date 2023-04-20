@@ -5,7 +5,6 @@ ms.date: 02/05/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom: intro-internal
 ---
@@ -156,5 +155,6 @@ If you access the report on day 2 at 10:00 AM and set the **Duration** to 12 hou
 [View and understand the Agents insights report](intraday-agents-insights.md)  
 [View and understand the Conversation insights report](intraday-conversation-insights.md)  
 [View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)  
+[Analyze your sales team's behavior on customer calls](/dynamics365/sales/conversation-intelligence-team-overview)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

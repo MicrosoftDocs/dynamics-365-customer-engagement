@@ -3,9 +3,8 @@ title: "Error code reference for Omnichannel for Customer Service | MicrosoftDoc
 description: "This topic contains reference information about the error codes and error messages that are returned when using the live chat SDK methods."
 ms.date: 04/04/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ---
 # Error code reference for Omnichannel for Customer Service
 

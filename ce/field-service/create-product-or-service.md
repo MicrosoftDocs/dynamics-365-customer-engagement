@@ -1,247 +1,143 @@
 ---
-title: "Create products or services for work orders in Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn how to create products or services for work orders in Dynamics 365 Field Service
-ms.date: 01/24/2022
-ms.reviewer: mhart
+title: Create products or services for work orders
+description: Learn how to create products or services for work orders in Dynamics 365 Field Service.
+ms.date: 09/24/2022
 
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: jasonccohen
+ms.author: jacoh
 ---
+
 # Create products or services for work orders
 
-Dynamics 365 Field Service uses the Dynamics 365 product catalog for on-site service. Field technicians can use the same products for work orders that salespeople use for opportunities, quotes, and orders.
+Dynamics 365 Field Service uses the Dynamics 365 [product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md) and [price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) for on-site service. Field technicians can use the same products for work orders that salespeople use for opportunities, quotes, and orders.
 
 With the product entity, you can create products and services to add to work orders.
 
-- **Products** represent items a field technician may record while completing a work order for which the client may be billed. Products can be physical items, like a battery or a part, or may be non-physical components, like an oil change or a estimate. Both physical and non-physical products are measured and sold in quantity of units. Many physical items are tracked as inventory. Non-physical items will not be tracked as inventory. For more information, see details on the **Field Service Product Type** field in the **Create a product or service** section of this article.
-- **Services** represent labor a field technician performs and may bill the client for. Services are measured in time duration. 
+- **Product** is an item a field technician may record while completing a work order for which the client may be billed. Products can be physical items, like a battery or a part, or may be non-physical components, like an oil change or an estimate. Both physical and non-physical products are measured and sold in quantity of units. Many physical items are tracked as inventory. Non-physical items won't be tracked as inventory.
+
+- **Service** is work that a field technician performs and may bill the client for. Service is measured in time duration.
 
 If a field technician uses a product or performs a service while on the job, they can then enter the work into the Field Service Mobile app. Used products and performed services can be invoiced to customers based on the applicable price list or entitlement. Used products can be deducted from inventory levels either in the Field Service inventory module, Dynamics 365 Finance & Operations, or an external ERP system.
 
-In this article, let's explore creating products and services, adding and using them on work orders, and invoicing and inventory considerations.
-
-## Prerequisites
-
-- Product catalog functionality is available for all version of Dynamics 365 Field Service.
-
-- Basic knowledge of the Dynamics 365 [product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md) and [price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md). 
-
+In this article, we'll explain how to create products and services, add them to work orders, and discuss invoicing and inventory considerations.
 
 ## Create a product or service
 
-Go to **Field Service** > **Settings** > **Products** > **+New**.
+1. In Field Service, change to the **Settings** area.
 
->[!Note]
-> Field Service does not support use of **Product Bundles**.
+1. In the **General** section, select **Products**.
 
+1. Select **Add Product** to create a new product. Field Service doesn't support **Product Bundles**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a product, in the product details section.](./media/work-order-product-create.png)
+1. Provide a **Name** and a **ProductID**.
 
-Give the product a **Name** and **ProductID**, along with: 
+1. Fill in other fields.
 
-- **Unit Group**: Select a unit group. A unit group is a collection of units in which a product is sold, and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you may have created a unit group called "Seeds", and defined its primary unit as "packet."  
+   - The **Valid From** and **Valid To** fields define how long a product is valid for. There's no business logic associated with these fields, except that the *Valid To* date must be later than the *Valid From* date. If necessary, you can implement your own business logic. For example, run a scheduled job to automatically retire last season's products using the date selected in the *Valid To* field.
+   - **Unit Group**: A unit group is a collection of units in which a product is sold, and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you may have created a unit group called "Seeds", and defined its primary unit as "packet."  
+   - **Unit**: Units are the quantities or measurements that you sell your products in. For example, if you've added seeds as a product, you can sell them in packets, boxes, or pallets. Each becomes a unit of the product. If seeds are mostly sold in packets, select packets as the unit.  
+
+   For more information on units and unit groups, visit the article: [Create a unit group and add units to that group (Sales app)](../sales-enterprise/create-unit-group-add-units-that-group.md)  
+
+   :::image type="content" source="media/work-order-product-create.png" alt-text="Screenshot of a product in the product details section.":::
+
+1. In the **Field Service** section, choose a **Field Service Product Type** which is required to add a product or service to a work order.
+
+   - **Inventory**: Products that are inventoried and have quantities tracked in a warehouse.  
+   - **Non-inventory**: Items that are typically not inventoried. For example, stickers or zip ties.  
+   - **Service**: Used to create service products, which represent the work that you sell to your customers. The quantity of service products is measured with a duration of time. Only service products can be associated with a work order as a service.
+
+1. Fill in other fields.
+
+   - **Convert to Customer Asset**: If set to **Yes**, a customer asset record will be automatically created when this product is used on a work order product. Allows for tracking service history.
+   - **List Price**: Enter a default price of this product or service. This price will be used if the product isn't added to a price list. For services, this price represents an hourly rate.
+   - **Default vendor**: Enter a vendor where this product was purchased from.
+   - **Taxable**: Choose whether the product or service is taxable. This setting applies only if the work order is taxable. If the work order isn't taxable work order products and services aren't considered taxable either, regardless of this setting.
+
+   :::image type="content" source="media/work-order-product-create-field-service.png" alt-text="Screenshot of a product in the field service section.":::
   
-- **Unit**: Select the most common unit in which the product will be sold. Units are the quantities or measurements that you sell your products in. For example, if you've added seeds as a product, you can sell them in packets, boxes, or pallets. Each becomes a unit of the product. If seeds are mostly sold in packets, select packets as the unit.  
-  
-For more information on units and unit groups, visit the article: [Create a unit group and add units to that group (Sales app)](../sales-enterprise/create-unit-group-add-units-that-group.md)  
-  
-> [!NOTE]
-> The **Valid From** and **Valid To** fields define how long a product is valid for. There's no business logic associated with these fields, except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
+1. Select **Save** to apply your changes.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a product, in the field service section.](./media/work-order-product-create-field-service.png)
+1. Enter a **Default Price list** in the Product Details section and **Save** again.
 
-In the **Field Service** section, enter a **Field Service Product Type**, which is required in order to add a product or service to a work order:
+## Add products and services to a price list
 
-- **Inventory**: This option is used for products of high value, or products that are inventoried and have quantities tracked in a warehouse.  
-  
-- **Non-inventory**: This option is used for low-value items that are typically not inventoried. Examples include consumables like stickers or zip ties.  
-  
-- **Service**: The service option is used to create service products, which represent the labor that you sell to your customers. The quantity of service products is measured with a duration of time. Only service products can be associated with a work order as a service. 
+You can add products and services as price list items to the [price list](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) of your choice.
 
-- **Convert to Customer Asset**: If set to **Yes**, a customer asset record will be automatically created when this product is used on a work order product. Allows for tracking service history.
+:::image type="content" source="media/work-order-products-price-list-items.png" alt-text="Screenshot of a list of price list items.":::
 
-- **List Price**: Enter a default price of this product or service. This price will be used if the product is not added to a price list. For services, this price represents an hourly rate.
-  
-- **Default vendor**: Enter a vendor where this product was purchased from.
-  
-- **Taxable**: Choose whether the product or service is taxable. When this field is set to 'No,' work order products and work order service lines related to this product will be excluded from the work order's tax calculation regardless of the taxable field value on the work order. 
-  
-Finally, **Save**. 
-
-After saving, enter a **Default Price list** in the product details section, then **Save** again.
-
-For our example, we created two more products: a service and a non-inventory product.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a product with the product type set to service.](./media/work-order-product-create-service.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a product with the product type set to non-inventory.](./media/work-order-product-create-non-inventory.png)
-
-### Price list
-
-Next, add the products and services as price list items to the price lists of your choice.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of price list items.](./media/work-order-products-price-list-items.png)
-
-For more information, see the article on [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [creating a price list (Project Service Automation)](/dynamics365/project-operations/psa/create-price-list). 
-
-You can also go to **Related** > **Field Service Price List Items** to add additional pricing options for Field Service products and services.
+For more information, go to [creating a price list (Project Service Automation)](/dynamics365/project-operations/psa/create-price-list).
 
 ## Add a product or service to a work order
 
-Next, let's add products and services to our work orders. 
+After [creating a work order](create-work-order.md), you can add products and services to it. Work order products and services are typically added to work orders via work order incident types. For more information, go to [Create work order templates with incident types](configure-incident-types.md).
 
-First, create a work order.
+1. Open an existing work order.
 
-In the **Products** section, select **+ New Work Order Product**.
+1. In the **Products** section, select **New Work Order Product**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order, showing the products section.](./media/work-order-product-add.png)
-> 
-Add the following information, in the applicable sections: 
 
-### General
+   OR
 
-- **Product:** Choose from the lookup the product you created.
+   In the **Services** section, select **New Work Order Service**.
 
-- **Line Status**: When a product or service is added to a work order, a new **Work Order Product** or **Work Order Service** record is created. It's given a status of **Estimated** by default, which means it has not yet been used. When a field technician actually uses the product or performs the service, they will change the work order product or service status to **Used** from their mobile device. Field technicians and back-office workers will have the option to bill the client after the product or service is used. 
+1. Add the following information.
 
-- **Taxable**: Set to **Yes** if you want the work order sales tax added to the price.
+   - General:
 
-- **Allocated**: Set to **Yes** if you want to set aside units of this product from a warehouse before actually using and removing them from inventory.
-  
-- **Warehouse**: If the product is allocated or used, you need to enter the warehouse it came from. The field technician can also enter the warehouse after using the product when on site.
+        - **Product/Service** Choose a product or service, or create a new one.
+        - **Line Status**: When a product or service is added to a work order, the system creates a new *Work Order Product* or *Work Order Service* record. By default, the status of that record is *Estimated*, which means it's not yet used. When a field technician actually uses the product or performs the service, they'll change the status to *Used*. You can now bill the client for the used product or service.
+        - **Taxable**: Set to **Yes** if you want the work order sales tax added to the price.
+        - **Estimate Quantity/Duration**: Number of units or hours expected to complete the job.
+        - **Warehouse**: If the product is allocated or used, enter the warehouse it came from. The field technician can also enter the warehouse after using the product when on site.
+        - **Allocated**: Set to **Yes** if you want to set aside units of this product from a warehouse before actually using and removing them from inventory.
 
-### Estimate Information
+      Price information is taken from the price list first, then the product record, and calculated based on the quantity.
 
-Add an **Estimate Quantity**, which represents how many units you think may be needed to complete the job.
+   - Product Relates To:
 
-Price information is taken from the price list first, then the product record, and calculated based on the quantity.
+     Work order products can be related to different aspects of the work order. The system automatically fills in values from existing related records. You can also fill in the fields manually to relate records.
 
-### Product Relates To
+     For example, if the product or service is added from a work order incident type, the system fills in the related incident. If the work order incident type relates to a specific customer asset, it will list that asset.
 
-Work order products can be related to different aspects of the work order either automatically or manually.
+   - Other:
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a work order, showing the product relates to section.](./media/work-order-product-relates-to.png)
+       - **Price List**: Change the price list of a product or service from the work order price list, which it will have by default.
+       - **Currency**: Override the default currency.
+       - **Disable Entitlement**: Disable entitlements, which are automatically applied based on factors like service account and incident type. For more information, go to [Entitlements for work orders](work-order-entitlements.md)
+       - **Entitlement**: Choose the entitlement that applies to the product or service.
+       - **Line Order**: Numerical value that defines in which order the products are shown on the work order. You can override the default value to change the order. The system tries to avoid duplicates.
 
-For example, if the product or service is added from a work order incident type, the related work order incident type will be populated. If the work order incident type was for a specific customer asset, that asset will be populated here. 
+## Use products and services
 
-> [!Note]
-> Work order products and service are typically added to work orders via work order incident types. For more information, see the article on [creating work order templates with incident types](./configure-incident-types.md).
-
-### Other
-
-In the **Other** section, you can change the price list of a specific product or service from the work order price list, which it will have by default. 
-
-You can also apply or disable entitlements, which are automatically applied based on factors like service account and incident type. For more information, see the article on [entitlements](./work-order-entitlements.md).
-
-Non-inventory products are added as work order products as well.
-
-Service type products (labor) should be added as work order services.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a work order showing the services section.](./media/work-order-service-add.png)
-
-Adding a work order service is similar to adding a work order product; however, there is no inventory allocation or warehouse, and there is an **Estimate Duration** rather than estimate quantity.
+Whether work order products and services are created individually or in bulk as part of a work order incident type template, they'll appear on work order forms in Field Service Mobile.
 
 
-## Use and consume products and services
-
-Whether work order products and services are created individually or in bulk as part of a work order incident type template, they'll appear on Field Service Mobile.
+Work order products and services aren't required. Field technicians can edit the quantity or add new items from the product catalog. Administrators use [security roles and field security profiles](view-user-accounts-security-roles.md) to specify what users can edit, create, and delete.
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile, highlighting the products and services sections.](./media/work-order-product-services-mobile.png)
+On a work order product record, field technicians will set the **Line Status** of a work order product to **Used**. They also enter a **Quantity**, which represents how many units were used and a **Quantity To Bill**.
 
-In the previous screenshot, the inventory product (Universal Network Card), the non-inventory product (Zip ties), and the service (Replace Trunk or Base Unit) are visible on the mobile work order form.
+For inventory items, enter the warehouse it comes from to update the inventory. It will default to the warehouse value on the **Bookable Resource** associated with the user who creates the work order product record.
 
-Work order products and services are not required. Field technicians have the ability to edit the quantity or add new products and services from the product catalog; what they can edit, create, and delete can be modified via security roles and field security profiles. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile, showing the quantity and quantity to bill fields, along with line status.](./media/work-order-product-add-mobile.png)
-
-Within a work order product record, field technicians will set the **Line Status** to **Used**, and enter a **Quantity**, which represents how many units were consumed, and a **Quantity to Bill**, which can be different.
-
-When using an inventory item, you need to enter a warehouse it comes from. It will default to the warehouse value on the **Bookable Resource** associated with the user who creates the work order product record.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile highlighting warehouse on the product summary.](./media/work-order-product-add-mobile-non-inventory.png)
-
-When using a non-inventory item, you may mark it as used along with a quantity for reporting, but no warehouse since it's not tracked. Another option is to enter 0 for **Quantity to Bill** since you may not charge a customer for lower value items.
+You can make non-inventory item as used along with a quantity for reporting.
 
 When using a work order service, set the **Line Status** to **Used** and enter a **Duration** and **Duration to Bill**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile showing a service summary.](./media/work-order-product-service-add-mobile.png)
-
 As products and services are used, the subtotal based on price and quantity to bill is calculated on the work order.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the work order summary on Field Service Mobile, highlighting the cost section.](./media/work-order-product-mobile-subtotal.png)
+Cost calculations will populate after syncing or in online mode. Calculations don't update in offline mode.
 
-> [!Note]
-> Amount calculations will populate after syncing or in online mode. Calculations are not made in offline mode.
+When the work order is complete and the **System Status** is **Closed - Posted**, the system generates an invoice that includes used work order products and services.
 
-When the work order is complete and the **System Status** is **Closed-Posted**, an invoice will be generated with used work order products and services.
+:::image type="content" source="media/work-order-product-inv-adj.png" alt-text="Screenshot of an invoice in Dynamics 365 Field Service.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an invoice in Dynamics 365 Field Service.](./media/work-order-product-invoice.png)
+## Add and use product inventory
 
-## Add and consume product inventory (Optional)
-
-For instances where inventory is managed within Field Service, let's explore how to increment and decrement inventory.
-
-Go to **Field Service** > **Inventory** > **Inventory Adjustments**.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an inventory adjustment in Field Service.](./media/work-order-product-inv-adj.png)
-
-Create a new **Inventory Adjustment** and choose the warehouse the inventory will go to. If a warehouse does not exist, create one.
-
-From the inventory adjustment, go to the **Product** section and create an **Inventory Adjustment Product**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an inventory adjustment, showing the Products section.](./media/work-order-product-inv-adj-product.png)
-
-Add one or more products and the quantity to increment inventory by for that product at the earlier chosen warehouse. 
-
-In **Product Inventory**, you'll see the **Quantity Available** and **Quantity On Hand** increased based on your inventory adjustment for the chosen products and warehouse.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the active product inventory list.](./media/work-order-product-inventory.png)
-
-
-When adding the product to a work order, you have the option to allocate it from inventory, which designates it aside before it's used and decremented from inventory.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a work order product showing the allocated field set to yes.](./media/work-order-product-allocated.png)
-
-From the mobile work order product form, enter a warehouse after marking it as used. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile, showing the warehouse for a product.](./media/work-order-product-add-mobile-warehouse.png)
-
-All inventory transactions are recorded as **Inventory Journals**, which can be accessed through an advanced find. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of advanced find in Dynamics 365.](./media/work-order-product-inv-journals.png)
-
-In the previous screenshot, you'll see:
-
-1. The inventory adjustment that incremented inventory levels by 100 units.
-2. One unit allocated to a work order product before use.
-3. One unit decrementing inventory when it was finally used during a work order.
+If you manage the inventory of products in Field Service, you can use inventory adjustments to change the quantities in the product inventory. For more information, go to [Overview of inventory, purchasing, and returns](inventory-purchasing-returns-overview.md)
 
 ## Configuration considerations
 
@@ -252,14 +148,14 @@ When creating products, consider the settings in **Settings** > **Administration
 
 - Product in Active Status upon creation. Best practice is to set to **Yes**.
 - Minimum # of Products in a Bundle.
-- Max # of Properties allowed for a Product or Bundle. 
+- Max # of Properties allowed for a Product.
 
-By default, work order products are not allocated from inventory, as dictated by a **Field Service Setting**.
+By default, work order products aren't allocated from inventory, as dictated by a **Field Service Setting**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a Field Service Setting showing the "auto allocates estimated products" field set to no](./media/work-order-product-allocate-auto.png)
 
-Another Field Service setting for inventory is **Use Of Products out of Stock**. Set to **Restrict** to prevent using a work order product when inventory in the specified warehouse is 0. Set to **Confirm** to display a warning message (in web interface) when there's an attempt to use a work order product and inventory is 0. This setting is helpful for situations where inventory levels are inaccurate or managed in an outside system.
+Another Field Service setting for inventory is **Use Of Products out of Stock**. Set to **Restrict** to prevent using a work order product when inventory in the specified warehouse is 0. Set to **Confirm** to display a warning message when there's an attempt to use a work order product and inventory is 0. This setting is helpful for situations where inventory levels are inaccurate or managed in an outside system.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a field service setting on the purchase tab, showing the use of products out of stock field set to confirm.](./media/work-order-product-use-product-out-stock.png)
@@ -268,28 +164,13 @@ Another Field Service setting for inventory is **Use Of Products out of Stock**.
 
 - Inventory adjustments products can have a positive or negative quantity to increment or decrement inventory as needed.
 - Integrating work order product inventory with ERP systems is typically executed with work order product, inventory journals, or invoice records.
-- Product bundling, introduced in Dynamics 365 Sales, does not currently extend to Field Service scenarios. For more information, see this article about [product bundles in Dynamics 365 Sales](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md).
+- Product bundling, introduced in Dynamics 365 Sales, doesn't currently extend to Field Service scenarios. For more information, see this article about [product bundles in Dynamics 365 Sales](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md).
 
 ### Known issues
 
-- **Issue**: Permission error when creating a new product from **Field Service** > **Settings** > **Products** > **Add Product** (in top ribbon).
+- Permission error when creating a new product from **Field Service** > **Settings** > **Products** > **Add Product**.
+- Permission error when adding product-based line items to opportunities.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the insufficient permissions error window, showing error details.](./media/error-permission-product-publish.png)
-
-- **Fix**: Adding read privileges to the following entities in the next screenshot allows the user to add and publish products successfully.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the list of security roles.](./media/error-permission-opportunities-fix.png)
-
-- **Issue**: Permission error when adding product-based line items to opportunities.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the insufficient permissions error window.](./media/error-permission-opportunities.png)
-
-- **Fix:** Adding read privileges to the following entities in the next screenshot allows the user to add opportunity line items to opportunities within the Field Service solution.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the list of security roles.](./media/error-permission-opportunities-fix.png)
+  **Fix**: Add read privileges the user's security role for the following entities: *Property*, *Property Association*, *Property Instance*, and *Properties Option Set Item*.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

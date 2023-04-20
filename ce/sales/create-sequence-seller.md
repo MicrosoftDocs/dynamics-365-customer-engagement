@@ -5,7 +5,6 @@ ms.date: 08/17/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Create and connect sequences for yourself
@@ -29,7 +28,7 @@ When you create a sequence, you define a set of activities that you want to perf
 
 - When the sales accelerator workspace isn't enabled in your organization, you can create and connect sequences through the Salesperson role. You can also delete and edit the sequences that you've created.
 
-- When the sales accelerator workspace is enabled in your organization and the access is restricted to specific security roles, only the users who have those roles can create and connect sequences. To get access to create and connect sequences, ask your administrator to provide permissions for your security role. More information: [Manage access and record type](enable-configure-sales-accelerator.md#manage-access-and-record-type)
+- When the sales accelerator workspace is enabled in your organization and the access is restricted to specific security roles, only the users who have those roles can create and connect sequences. To get access to create and connect sequences, ask your administrator to provide permissions for your security role. More information: [Manage access and record type](manage-access-record-type-sales-accelerator.md)
 
 >[!NOTE]
 >If you have the the Sequence Manager role and want to create sequences, go to [Create and activate a sequence](create-and-activate-a-sequence.md).

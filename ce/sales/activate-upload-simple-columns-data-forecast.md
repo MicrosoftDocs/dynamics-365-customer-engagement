@@ -5,7 +5,6 @@ ms.date: 01/25/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-forecast configuration
@@ -94,6 +93,8 @@ Now that you've completed the required configurations for the forecast, use the 
 
 You're directed to the **Forecast configuration** home page, where your organization's forecasts are listed.
 
+> [!NOTE]
+> If you update data (simple columns and adjust fields), the changes may take up to two hours to reflect in the forecast.
 
 ## Use APIs to upload forecast data
 

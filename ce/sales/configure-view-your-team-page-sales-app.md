@@ -1,13 +1,10 @@
 ---
 title: "Configure and view your team page in Dynamics 365 Sales"
 description: "Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data in the Sales app."
-ms.date: 01/10/2022
+ms.date: 09/30/2022
 ms.topic: article
-author: udaykirang
-ms.author: udag
-manager: shujoshi
-caps.latest.revision: 1
-topic-status: Drafting
+author: lavanyakr01
+ms.author: lavanyakr
 ---
 
 # Configure and view team page in sales app
@@ -15,6 +12,7 @@ topic-status: Drafting
 Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -23,7 +21,8 @@ Configure and view your team page with information on levels of hierarchy, top p
 
 ## What can I configure
 
-As an administrator, you can:    
+As an administrator, you can:  
+
 -	Configure the levels of hierarchy that you can view.   
 -	Configure a user to impersonate another to view information.    
 -	Select the top performers in your hierarchy.    

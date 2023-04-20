@@ -3,15 +3,14 @@ title: "Assign roles, enable users for Omnichannel for Customer Service | Micros
 description: "Perform the steps to assign roles to users and enable them in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.date: 10/07/2021
+ms.date: 11/16/2022
 ---
 
 # Assign roles and enable users for Omnichannel for Customer Service
 
-
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+Use the information in this article to configure security roles and enable users to perform the various tasks in Customer Service.
 
 ## Roles in Omnichannel for Customer Service
 
@@ -27,6 +26,8 @@ The Dynamics 365 users can access and perform different functions based on the r
 - **App Profile User:** Required by users of Customer Service and Omnichannel for Customer Service.
 
 For information on the App Profile Manager Administrator and App Profile User roles, see [Roles and privileges associated with app profile manager](../app-profile-manager/security-roles.md)
+
+Ensure that the **Omnichannel API access** role isn't assigned to a supervisor or agent type of user.
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
@@ -92,7 +93,45 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can create/read/write/append/delete agent script workflow ||||| Yes |
 | Can read `msdyn_macrosolutionconfiguration` ||||| Yes |
 | Can create/read/write/append/delete macro action ||||| Yes |
-|||||||
+
+## Configure permissions to access secure columns
+
+Administrator users will need column-level permissions on secure columns when they configure the following features and channels:
+
+- [Authentication settings](create-chat-auth-settings.md)
+- [Azure Communication Services](voice-channel-manage-phone-numbers.md)
+- [Geographical location providers](geo-location-provider.md)
+- [Google's Business Messages channel](configure-google-business-messages-channel.md)
+- [Payment profiles for Apple Messages for Business channel](configure-payment-profiles.md)
+- SMS channels through [TeleSign](configure-sms-channel.md) and [Twilio](Configure-sms-channel-twilio.md)
+- [Twitter channel](configure-twitter-channel.md)
+- [WeChat channel](configure-wechat-channel.md)
+- [WhatsApp channel](configure-whatsapp-channel.md)
+
+The secure columns can be identified by the information icon that's present for the column.
+
+The entities and their secret attributes are as follows. For more information on the entities and their attributes, see [Overview of entities](developer/reference/entities/overview-entity-ref.md).
+
+| Entity | Secret attributes |
+|--------|-------------------|
+| msdyn_authenticationsettings | msdyn_authenticationclientsecret |
+| msdyn_liveworkstream (for SMS)  | msdyn_secureapikey  |
+| msdyn_ocapplepay | msdyn_ocbase64merchantcertstring <br> msdyn_ocbase64merchantcertstringcontd <br> msdyn_ocmerchantcertificatepassword  |
+| msdyn_ocbotchannelregistrationsecret | msdyn_securemsappsecret |
+| msdyn_occommunicationprovidersetting | msdyn_securesecret |
+| msdyn_oc_geolocationprovider | msdyn_secureproviderapikey |
+| msdyn_ocgooglebusinessmessagesagentaccount  | msdyn_agentaccountclienttoken  |
+| msdyn_ocgooglebusinessmessagespartneraccount  | msdyn_partneraccountclienttoken <br> msdyn_base64credentialfilestring <br> msdyn_base64credentialfilestringcontd  |
+| msdyn_ocsmssettingsecret  | msdyn_secureapikey |
+| msdyn_octwitterapplication  | msdyn_securetwitterconsumersecret <br> msdyn_securetwitterconsumerkey  |
+| msdyn_octwitterhandlesecret  | msdyn_useraccesstoken <br> msdyn_useraccesstokensecret  |
+| msdyn_ocwechatchannelconfig | msdyn_secureapplicationsecret <br> msdyn_securetoken <br> msdyn_secureencodingaeskey   |
+| msdyn_ocwhatsappchannelaccount | msdyn_secureauthenticationtoken |
+
+**Manage permissions on secret attributes**
+
+1. In Power Platform admin center, create or update the column security profile. More information: [Associate security profiles and set permissions](/power-platform/admin/set-up-security-permissions-field#associate-security-profiles-and-set-permissions)
+1. Provide the read, update, or create permissions to the security profile on the columns that correspond to the secret attributes mentioned in the preceding table.
 
 ### See also
 

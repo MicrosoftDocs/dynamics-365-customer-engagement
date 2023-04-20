@@ -1,73 +1,67 @@
 ---
-title: "Dynamics 365 Field Service work order architecture | MicrosoftDocs"
-description: Learn about Dynamics 365 Field Service work order architecture
-ms.date: 05/19/2019
-ms.reviewer: mhart
-
+title: Work order architecture
+description: Learn about the architecture of the work order process in Dynamics 365 Field Service.
+ms.date: 01/24/2023
+author: jshotts
+ms.author: jasonshotts
 ms.topic: conceptual
+ms.custom: bap-template
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: Edipple
-ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Field Service work order architecture
+# Work order architecture
 
-The most important process in Field Service is the work order process where work orders are:
+The most important process in Field Service is the work order process. Work orders are:
 
-1.  Created 
-2.  Scheduled to resources 
-3.  Performed by field technicians 
-4.  Completed and reviewed 
- 
-The following diagram can help you understand the various entities, attributes, and relationships that enable the work order process. This diagram references the specific entity names in the application. For a diagram showing the more commonly used names, see the diagram at the end of this article. 
+1. [Created](#a-work-order-is-created)
+1. [Scheduled to resources](#the-work-order-is-scheduled-to-resources)
+1. [Performed by field technicians](#a-field-technician-performs-the-work-order)
+1. [Completed and reviewed](#the-work-order-is-reviewed-and-completed)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the specific entity names in the application.](./media/admin-field-service-architecture.png)
+The following diagram illustrates the entities, attributes, and relationships that make up the work order process.
 
-The **Work Order** entity contains the details of the job that needs to be completed. This includes basic details like work order type, status, duration, priority, and more. Work orders are related to the standard Dynamics 365 **Account** entity in that specifying a **Service Account** on the work order adds related account information like territory, address, geocode (latitude and longitude), price list, and more. For instances where the work order location (service account) is different than the billing location, you can relate a service account to a **Billing Account**. 
+:::image type="content" source="media/admin-field-service-architecture.png" alt-text="Diagram of the work order process architecture.":::
 
-> [!Note]
-> A service account and billing account are both account entity records. The only difference is which account is entered in the **Service Account** and **Billing Account** work order fields, though organizations can distinguish between the two with their own business processes. 
+## A work order is created
 
-Service accounts are also important when creating **Service Agreements**, which are used to automatically generate recurring work orders. An agreement can only be associated to one service account, which means all work orders generated as part of the agreement will be dispatched to that service account location. The type of work and assets being maintained can vary.
+The **Work Order** entity contains the details of the job that needs to be completed, such as work order type, status, duration, and priority.
 
-Service accounts are also important for **Customer Assets**. Adding a service account to a customer asset implies the piece of equipment is located at the service account location. Work orders related to a customer asset maintenance, inspection, repair should correlate to the asset's service account.
+Work orders are related to an [**Account** entity](accounts.md). Specifying a **Service Account** on the work order adds related account information like territory, address, and service and billing defaults.
 
-Beyond adding basic details and an account to a work order, you can add **Revenue and Cost** items that better define the specific work to be done. **Work Order Incidents** are a defined package of service tasks, products, services, and characteristics (skills) that are recommended. This makes for quicker work order creation because rather than manually adding service tasks, products, services, and characteristics (skills), you can simply add an incident that effectively serves as a template to populate these details.
+[**Service Agreements**](set-up-customer-agreements.md) automatically generate recurring work orders. A service agreement can be associated with one service account. That means that all work orders that are generated as part of a service agreement are associated with that service account location. The type of work to be done and assets involved can vary.
 
-Finally, you can define on a work order **Time and Resource Preferences** that specify when a work order should be completed to meet an SLA.
+[**Customer Assets**](assets.md) are pieces of equipment at the service account location. Work orders that are related to the maintenance, inspection, and repair of a customer asset should correlate to the asset's service account.
 
-All of the important work order details that relate to scheduling are passed to an automatically generated related entity called a **Resource Requirement**. Resource requirements are used to assign the work order to the most appropriate resource (field technician). The resource requirement framework is partly what allows any entity to be scheduled, such as cases, opportunities, or custom entities.
+Beyond adding basic details and an account to a work order, you can add **Revenue and Cost** items that better define the specific work to be done. **Work Order Incidents** are a defined package of recommended service tasks, products, services, and characteristics, or skills, that makes creating a work order faster. Instead of manually adding them to a work order, you can add an incident that effectively serves as a template to populate service tasks, products, services, and skills.
 
-> [!Note]
-> Field Service keeps the **Work Order** and the primary resource requirement in sync. All of the scheduling impacting fields are automatically synchronized. If a customer manually creates multiple requirements against a work order, those are not automatically synchronized. 
+Finally, you can define **Time and Resource Preferences**, which specify when a work order should be completed to meet a service agreement.
 
-Before any scheduling can take place, a **Bookable Resource** must be created that represents an employee, contractor, equipment, facility, or anything that needs to be scheduled. When creating a bookable resource, you can add attributes that distinguish them from each other like location, organizational unit, role, characteristics (skills), and more.
+## The work order is scheduled to resources
 
-Finally, when it's time to schedule a work order, you assign a requirement to a resource and this creates a **Booking**. You can think of a booking as a scheduled time slot for a specific resource. Requirements can be scheduled by several methods, including:
+All the important details that relate to scheduling a work order are passed to an automatically generated related entity called a **Resource Requirement**. Resource requirements are used to assign the work order to the most appropriate resource, or field technician. The resource requirement framework is partly what allows any entity to be scheduled, such as cases, opportunities, or custom entities.
 
--  Manually on the schedule board 
--  With the schedule assistant
--  Resource Scheduling Optimization 
+Field Service keeps the **Work Order** and the primary resource requirement in sync. All the fields that affect scheduling are automatically synchronized. If a customer manually creates multiple requirements against a work order, they aren't automatically synchronized.
 
-Field technicians will see their daily, weekly, and monthly bookings on their agenda in the Field Service Mobile app.
+Before a work order can be scheduled, a [**Bookable Resource**](set-up-bookable-resources.md) must exist in the system. A bookable resource represents an employee, contractor, equipment, facility, or anything else that needs to be scheduled.
 
-> [!Note]
-> A single requirement can be booked multiple times, creating multiple booking records. This is useful when you want to schedule the same requirement to multiple resources or even to the same resource at different times. 
+When it's time to schedule a work order, you assign a requirement to a resource. This creates a **Booking**. You can think of a booking as a scheduled time slot for a specific resource. Requirements can be scheduled in several ways:
 
-Field technicians can also track the status of the bookings they are working on by editing the status of the booking to traveling, in progress, on break, completed, and custom statuses. Each status change is recorded in the system as a **Booking Timestamp** and eventually **Booking Journals**, which are used to calculate the time and labor cost of a booking. For example, a booking timestamp and booking journal help an organization understand the total time a field technician travels to a work order location and this can be leveraged for reporting and billing.
+- [Manually on the schedule board](schedule-work-order.md)
+- [With the schedule assistant](schedule-assistant.md)
+- [Resource Scheduling Optimization](rso-overview.md)
 
-While performing a work order, field technicians may use products and services indicating that a part or labor was needed. Though these products and services were previously added to the work order, they were originally listed in the **Product Catalog**. Products that represent physical parts and not labor are tracked in **Inventory** and are replenished with the **Purchasing** process that relies on submitting and receiving purchase orders.
+A requirement can be booked multiple times, creating multiple booking records. This is useful when you want to schedule the same requirement to multiple resources or to the same resource at different times.
 
-Finally, when the work order is reviewed and closed by a service manager, **Inventory Consumption** and **Financial Information** is updated. Inventory consumption at its simplest means the quantity of a product is deducted from a warehouse based on the work order activity. In cases where used products and services must be billed, closing a work order triggers the creation of an invoice for payments and actuals, which are a log of transactions.
+## A field technician performs the work order
 
-The following diagram references the same work order process diagram in the beginning of this article, but with common names instead of entity names.
-> [!div class="mx-imgBorder"]
+Field technicians can view their daily, weekly, and monthly bookings on their agenda in the Field Service Mobile app. They can also edit the status of their bookings to show when they're traveling, the work is in progress, they're on break, and the work is completed, along with custom statuses. Each status change is recorded in the system as a **Booking Timestamp** and eventually **Booking Journals**, which are used to calculate the time and labor cost of a booking.
+
+While performing a work order, field technicians may use products and services, indicating that a part or labor was needed. Though these products and services were previously added to the work order, they were originally listed in the **Product Catalog**. Products that represent physical parts and not labor are tracked in **Inventory** and are replenished with the **Purchasing** process that relies on submitting and receiving purchase orders.
+
+## The work order is reviewed and completed
+
+Finally, the work order is reviewed and closed by a service manager, who updates **Inventory Consumption** and **Financial Information**. Inventory consumption is the quantity of a product that's deducted from a warehouse based on the work order activity. In cases where used products and services must be billed, closing a work order triggers the creation of an invoice for payments and actuals, which are a log of transactions.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

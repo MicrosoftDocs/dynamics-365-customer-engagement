@@ -1,11 +1,10 @@
 ---
 title: "Configure payment profiles | MicrosoftDocs"
 description: "This article provides steps to help you configure payment profiles in Omnichannel for Customer Service."
-ms.date: 07/18/2022
+ms.date: 10/27/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Configure payment profiles
@@ -18,7 +17,7 @@ After you create a payment profile record, you must add it to a channel instance
 
 ### Prerequisites
 
-Administrators who will be configuring payment profiles will need extra security permissions. To learn more, see Set up security permissions for a field.
+Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 Before adding an Apple Pay payment profile, make sure to complete the Apple Pay integration steps documented by Apple. More information: [Apple Pay - Apple Messages for Business](https://register.apple.com/resources/messages/msp-api-tutorial/applepay#integrating-apple-pay)
 

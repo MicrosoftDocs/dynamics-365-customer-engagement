@@ -1,18 +1,14 @@
 ---
 title: Search resource availability and create bookings for requirement groups in Universal Resource Scheduling in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search resource availability and create bookings for requirement groups in Universal Resource Scheduling in Customer Service Hub.
-ms.date: 10/18/2021
+ms.date: 9/9/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -57,8 +53,10 @@ Use the following input and output parameters for the Search Resource Availabili
 | PageSize |Integer | No | Numbers of item returned in a page. It is 20 by default. |
 | PagingCookie | String | No | Paging cookie retrieved from previous searching result.|
 | OrganizationUnits |List&#60;Guid&#62; | No | A collection of organization unit IDs. A qualified resource must be a member of one of the specified organization units. |
-| RequiredResources |List&#60;Guid&#62; | No | Only the time slots of the passed list of resources will show in the resulted time slots. |
+| MustChooseFromResources |List&#60;Guid&#62; | No | Evaluate and select results from resources in this list. |
+| RequiredResources |List&#60;Guid&#62; | No | Evaluate all resources, filter the results based on this list. In general, use MustChooseFromResources instead for improved performance. |
 | IgnoreTimeSlots | Boolean | No | Specifies if the returned time slots should be ignored. When true list of time slots returned will be empty. It is false by default. |
+| ConsiderAppointments | Boolean | Set this to True for search resource availability API to respect existing Dataverse appointments as bookings on the resource, provided the organization and resource level settings have been set. Appointments with Busy or Completed statuses will be considered as unavailable for scheduling operations. |
 
 ### Output
 
@@ -67,7 +65,7 @@ Use the following input and output parameters for the Search Resource Availabili
 |TimeSlots (List&#60;OutputTimeSlot&#62;)   |StartTime (DateTime) | The start time.|
 |         |EndTime (DateTime)                    |The end time.|
 |         |ArrivalTime (DateTime)                |The arrival time.|
-|         |Travel(OutputTimeSlotTravel)<br><br>OutputTimeSlotTravel<br><ul><li>Distance (Double)<br><li>TravelTime (Double)<br><li>DistanceFromStartLocation (Double)<br><li>TravelTimeToEndLocation (Double)<br></ul>    |The time slot travel information.|
+|         |Travel(OutputTimeSlotTravel)<br><br>OutputTimeSlotTravel<br><ul><li>Distance (Double)<br><li>TravelTime (Double)<br><li>DistanceFromStartLocation (Double)<br><li>TravelTimeToEndLocation (Double)<br></ul>    |The time slot travel information. Will only be present if the resource requirement contains values for latitude and longitude.|
 |         |Effort (Double)                       |The effort/capacity.|
 |         |IsDuplicate (Boolean)                 |A Boolean value indicating if the time slot is a duplicate.|
 |         |Resource(OutputResource)<br><br>OutputResource<br><ul><li>Resource (BookableResource)<br><li>TotalAvailableTime (Double)<br></ul> |The Resource entity as explained below. |

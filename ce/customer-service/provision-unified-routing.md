@@ -1,16 +1,13 @@
 ---
 title: "Provision unified routing in Customer Service | MicrosoftDocs"
 description: "Learn how to provision unified routing in Customer Service."
-ms.date: 04/04/2022
+ms.date: 10/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Provision unified routing for Customer Service
-
-## Introduction
 
 Perform the steps mentioned in this topic to provision unified routing in Customer Service. By default, unified routing is not enabled.
 
@@ -22,16 +19,17 @@ To provision unified routing in Customer Service, do the following:
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-   - In the site map, select **Routing**. The **Routing** page appears.
+   1. In the site map, select **Routing**. The **Routing** page appears.
+   
+   1. Select **Manage** for **Turn on Unified Routing for Records**.
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
    - Go to the **Service Management** site map, and select **Service Configuration Settings** in **Service Terms**. The **Service Configuration Settings** page appears.
 
+1. If consent is already provided by the tenant administrator, go to **Step 5**.
 
-1. If consent is already provided by the tenant administrator, go to step 5.
-
-    If consent to access is not provided by the tenant administrator, in the **Unified routing** section, the following message with a link to the consent page is displayed:
+    If consent to access is not provided by the tenant administrator, in the **Unified routing** section, the following message with a link to the consent page will be displayed:
 
       "Unified routing requires application permissions. A tenant administrator must provide consent before it can be turned on. Provide consent."
 
@@ -67,7 +65,7 @@ When Omnichannel for Customer Service doesn't have the required solutions, the f
 
 ### Next steps
 
-![Next step.](media/right-arrow.png) [Set up the user as a bookable resource](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)  
+![Next step.](media/right-arrow.png) [Set up the user as a bookable resource](users-user-profiles.md)  
 ![Home.](media/home-button.png) [Process for setting up unified routing](set-up-routing-process.md)  
 
 ### See also

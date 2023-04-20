@@ -3,7 +3,6 @@ title: "Deploy and operate Dynamics 365 Customer Engagement (on-premises) | Micr
 description: This document set explains how to deploy and operate Dynamics 365 Customer Engagement (on-premises)
 ms.date: 06/07/2021
 ms.reviewer: 
-
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -13,7 +12,6 @@ ms.assetid: fdcb7532-2a86-462e-aaa1-c59cbbc85d33
 caps.latest.revision: 149
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Deploy and operate Dynamics 365 Customer Engagement (on-premises), version 9.x
 
@@ -53,6 +51,6 @@ This guide provides a set of comprehensive deployment and operation topics that 
 
 ## Deployment and operation known issues
 
-### A deployment administrator can't perform deployment adminstration tasks
+### A deployment administrator can't perform deployment administration tasks
 
 After a user is added as a deployment administrator, the member of the Deployment Administrators group might be unable to perform a deployment administrative task, such as importing an organization database. More information: [Known issue where a deployment administrator has insufficient permission](deployment-administrators.md#known-issue-where-a-deployment-administrator-has-insufficient-permission)

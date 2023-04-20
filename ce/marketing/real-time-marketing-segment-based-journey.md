@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create a segment-based journey
@@ -62,3 +58,5 @@ Use the plus sign (**+**) on the journey canvas to add the individual steps in y
 After adding all the steps to the journey canvas, the journey is ready to go live and message real customers. Before publishing the journey, make sure all related content (email, text messages, and push notifications) is in the **Ready to send** state. The journey cannot be modified after it is published, so it's a good idea to verify that all the steps in the journey are exactly how you want them before publishing.
 
 Once the journey is published and live, you can look at the journey [analytics page](real-time-marketing-analytics.md) to understand how it's performing.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

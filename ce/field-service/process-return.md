@@ -2,15 +2,10 @@
 title: "Process a return (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about how to process a return in Dynamics 365 Field Service
 ms.date: 01/09/2020
-ms.reviewer: mhart
 
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+ms.author: jacoh
+author: jasonccohen
 ---
 # Process a return (return merchandise authorization and returns to vendor)
 

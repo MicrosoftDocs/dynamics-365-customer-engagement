@@ -1,24 +1,27 @@
 ---
 title: "Customer Service admin center | MicrosoftDocs"
 description: "Get started with Customer Service admin center"
-ms.date: 08/04/2022
+ms.date: 09/30/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Get started with Customer Service admin center
 
-Welcome to Customer Service admin center, a new app that unifies and simplifies administration experience across the Customer Service suite.
+Welcome to Customer Service admin center, the app that unifies and simplifies administration experience across the Customer Service suite.
 
-Use the Customer Service admin center app to set up the features in Customer Service, such as defining parent-child case hierarchy, creating queues, channels, rules for automatic case creation, and customer service schedules.
+Use the Customer Service admin center app to set up the features in Customer Service, such as unified routing, cases, queues, knowledge articles, channels, rules for automatic record creation, agent experience profiles, and customer service schedules.
 
-Some of the improvements include:  
+The enhancements include:  
 
-- Consolidated administration experiences across Customer Service Hub, Omnichannel admin center, and app profile manager.
+- Consolidated administration experiences that're currently distributed in three different apps: Customer Service Hub, Omnichannel admin center, and app profile manager.
 
-- Reorganized site map that's task-oriented.
+- Step-by-step guided experience for setting up a channel.
+
+- Search option to easily find the administrator settings for the various features in the app.
+
+- Reorganized and task-oriented site map.
 
 - Overview pages for each area that list at-a-glance information with deep links to manage features.
 
@@ -26,42 +29,48 @@ Some of the improvements include:
 
 - The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Omnichannel for Customer Service is provisioned, then other features are automatically available.
 
-  
+
    <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4TYJn?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Prerequisites
 
-You'll need one or more of the following security roles to access this app:
+You'll need one or more of the following security roles to access this app to perform the various configuration tasks:
 
-- **System Administrator**: Can access and edit all the site map entries
+- **System Administrator**: To access and edit all the site map entries.
 
-- **System Customizer**: Can access and edit all the site map entries
+- **System Customizer**: To access and edit all the site map entries.
 
-- **CSR Manager**: Can access the entities consolidated from Customer Service Hub > Service Management
+- **CSR Manager**: To access the entities like queues for the email record, automatic record creation and update rules, and workstreams in Customer Service.
 
-- **App Profile Manager administrator and Basic User**: Can access the app and edit app profile-related entities
+- **App Profile Manager administrator and Basic User**: To access the app and edit app profile-related entities.
 
-- **Omnichannel Administrator and Basic User**: Can access the app and edit all the Omnichannel-related entities
+- **Omnichannel Administrator and Basic User**: To access the app and edit all the omnichannel-related entities, like chat and voice and queues, and workstreams.
+
+Also, to create a shared mailbox, you need the Microsoft 365 tenant admin privileges.
+
+If you use custom roles, you must make sure that you have the appropriate permissions corresponding to the feature you want to configure.
+
+More information: [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
 
 ## Access the app
 
 The app is automatically installed in all the Customer Service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
 
-## Quick setup (preview)
+## Guided channel setup
 
-> [!NOTE]
->
-> - Quick setup is in preview; therefore, we recommend that you don't use it in production. Use it only in test and development environments.
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+You can use the guided channel setup wizard to configure channels, such as a channel for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
 
-You can use the quick setup wizard to configure a channel, such as for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
+:::image type="content" source="media/guided-channel-setup.png" alt-text="A screenshot of guided channel setup showing the channel types that can be set using guided setup.":::
+
+> [!IMPORTANT]
+> To successfully create a guided setup for each channel, you must have full privileges to all the tables used in the setup.
 
 ## Navigate the site map in Customer Service admin center
 
 The Customer Service features are organized in the site map as follows. Every group contains an overview page with deep links to the features within the area.
 
 > [!NOTE]
-> Some of the options that appear on the site map are dependent on the features that you have provisioned.
+> The options that appear on the site map are dependent on the features that you have provisioned.
 
 The overview page for every group lists a summary of the objects that are available for each feature. For example, the number of users who are available, and channels and queues that are configured in the organization.
 
@@ -94,6 +103,12 @@ You can manage the following features in **Operations**:
 - **Miscellaneous**: Analysis jobs, migration tool, and IoT settings.
 
   :::image type="content" source="media/operations-overview.png" alt-text="Overview page of operations in Customer Service admin center.":::
+
+## Search admin settings
+
+Use the search option on the **Search admin settings** page to quickly list the admin setting that you want to manage. Along with the top matches, the page also lists settings for the new features.
+
+:::image type="content" source="media/search-admin-settings.png" alt-text="Screenshot of the search admin settings page that lists the new features settings and settings that match the search string.":::
 
 ### FAQ
 

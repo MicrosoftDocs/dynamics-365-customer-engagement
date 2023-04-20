@@ -1,24 +1,18 @@
 ---
 title: "Data retention and deletion policy for conversation intelligence in sales app "
 description: "Provide read-only access to your call data and determine how long you want to keep the analyzed call recording data in conversation intelligence."
-ms.date: 01/10/2022
+ms.date: 09/30/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: c85b26ab-0150-454f-8767-6aed448529bc
-author: udaykirang
-ms.author: udag
-manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 1
-topic-status: Drafting
+author: lavanyakr01
+ms.author: lavanyakr
 ---
 # Data retention and access through Privacy settings in Sales Hub app
 
 When you configure conversation intelligence, sales call recordings of sellers are processed and analyzed to provide necessary insights such as overall customer sentiments, sentiment trends, and identify keywords that customers have used during calls. 
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

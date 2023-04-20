@@ -3,13 +3,14 @@ title: "Overview of app profiles | MicrosoftDocs"
 description: "Learn how to create app profiles using the App Profile manager"
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
-ms.date: 06/09/2022
+ms.date: 09/30/2022
 ms.topic: overview
 
 ---
 
 # Experience for accessing templates and productivity tools
+
+[!INCLUDE[cc-oc-admin-csh-deprecation.md](../includes/cc-oc-admin-csh-deprecation.md)]
 
 The app profile manager is an easy-to-use interface that helps you get started with what you can do on the page.
 

@@ -1,23 +1,16 @@
 ---
 title: "Sample: Assign a chart to another user | MicrosoftDocs"
 description: Learn how to assign a user-owned visualization, such as a chart, to another using the AssignRequest message with this sample.
-description: ""
 keywords: 
 ms.date: 10/31/2017
-
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0225d979-0e34-44b5-814c-a5dcb14d6fd9
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 ms.reviewer: pehecke
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 24
-topic-status: Drafting
 search.audienceType: 
   - developer
 

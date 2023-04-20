@@ -2,7 +2,7 @@
 title: "Active Directory and claims-based authentication (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn how claims based authentication works using a security token service(STS) server and how Active Directory authentication works"
 ms.custom: 
-ms.date: 03/29/2019
+ms.date: 01/06/2023
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -14,7 +14,6 @@ ms.assetid: dc81b2ec-c4db-44b9-8fe6-db108b196a96
 caps.latest.revision: 85
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -58,16 +57,19 @@ Claims-based authentication provides an industry standard security protocol to a
 
  The following table lists the primary authentication classes available in the SDK, describes when to use them, and provides links to additional relevant documentation.
 
+| Classes | Usage | Related Documentation |
+|---|---|---|
+|  <xref:Microsoft.Xrm.Sdk.Client.IServiceConfiguration`1>, <xref:Microsoft.Xrm.Sdk.Client.IServiceManagement`1>  | All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>\*</sup>)<br /><br /> Best choice for multi-threaded applications | [Authenticate Office 365 Users with Dynamics 365 Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)<br /><br /> [Sample: Authenticate Users with Dynamics 365 Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br /><br /> [Improve service channel allocation performance](best-practices-sdk.md#caching) |
+| <xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy>, <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> | All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>\*</sup>) |  [Authentication by Using the Client Proxy Classes](active-directory-claims-based-authentication.md#bkmk_clientproxy)<p/> [Improve service channel allocation performance](best-practices-sdk.md#caching) |
+| XRM Tooling classes | All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>\*</sup>) | [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)|
+| [CrmServiceClient](xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient) | All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>\*</sup>) | [Sample: Simplified connection quick start using Microsoft Dataverse](/powerapps/developer/data-platform/xrm-tooling/sample-simplified-connection-quick-start) |
+
+ <sup>*</sup> [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]
+
 > [!TIP]
-> Depending on your application scenario, the best method to authenticate a .NET client application with any deployment of Dynamics 365 Customer Engagement (on-premises) is to use the new XRM Tooling classes. For more info see [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md).
-
-|                                                     Classes                                                     |                                                                                                                                                                                                          Usage                                                                                                                                                                                                           |                                                                                                                                                                   Related Documentation                                                                                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  <xref:Microsoft.Xrm.Sdk.Client.IServiceConfiguration`1>, <xref:Microsoft.Xrm.Sdk.Client.IServiceManagement`1>  |                                                                                  All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>\*</sup>)<br /><br /> Best choice for multi-threaded applications                                                                                  | [Authenticate Office 365 Users with Dynamics 365 Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)<br /><br /> [Sample: Authenticate Users with Dynamics 365 Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br /><br /> [Improve service channel allocation performance](best-practices-sdk.md#caching) |
-| <xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy>, <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> |                                                                                                              All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>\*</sup>)                                                                                                              |                    [Authentication by Using the Client Proxy Classes](active-directory-claims-based-authentication.md#bkmk_clientproxy)<br /><br /> [Sample: Access the Discovery Service](/powerapps/developer/common-data-service/org-service/discovery-service#example)<br /><br /> [Improve service channel allocation performance](best-practices-sdk.md#caching)                    |
-|        [CrmConnection Class](/previous-versions/dynamicscrm-2015/developers-guide/gg670550(v=crm.7))        |                                                                                                              All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>\*</sup>)                                                                                                              |                                             [Sample: Simplified Connection Quick Start using Customer Engagement (on-premises)](/powerapps/developer/data-platform/xrm-tooling/sample-simplified-connection-quick-start)                                             |
-
- <sup>*</sup> [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]  
+> Depending on your application scenario, the recommended method to authenticate a .NET Framework client application with any deployment of Dynamics 365 Customer Engagement (on-premises) is to use the [CrmServiceClient](xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient) class.
+>
+> Do not use the [ServiceClient](xref:Microsoft.PowerPlatform.Dataverse.Client.ServiceClient) class if you are using ADFS for on-premise authentication.
 
 <a name="bkmk_clientproxy"></a>   
 ## Authentication by using the client proxy classes  

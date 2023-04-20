@@ -1,17 +1,17 @@
 ---
 title: "Configure Customer Service Analytics dashboard for Dynamics 365 | MicrosoftDocs"
 description: "Learn about Customer Service Analytics"
-ms.date: 08/02/2022
+ms.date: 01/09/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Configure Customer Service Analytics dashboards in Power BI
 
-
+> [!NOTE]
+> We recommend that you try out the latest analytics capabilities from Dynamics 365 Customer Service. The out-of-the-box reporting capabilities include [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical analytics](customer-service-analytics-insights-csh.md). The reports can be [visually customized](customize-reports.md) and extended to add your additional data sources and metrics through [data model customization](model-customize-reports.md).
 
 You must perform the following steps to configure the historical Customer Service Analytics dashboards to display in the Customer Service Hub app:
 
@@ -75,7 +75,7 @@ Review the following prerequisites before configuring the supervisor dashboard:
     > ![Customer Service app install.](media/cs-analytics-install.png "Customer Service app install")
 
 5. Select **Sign in**. The sign-in page appears.
-6. Enter your Dynamics 365 organization credentials, and select **Enter**. After you are signed in, the existing report is updated with the data from your organization.
+6. Enter your Dynamics 365 organization credentials, and select **Enter**. After you're signed in, the existing report is updated with the data from your organization.
 
 ## Step 4: Configure refresh frequency on Power BI dataset
 
@@ -188,7 +188,7 @@ You must add users to the supervisor configuration to access any supervisor dash
 
 Power BI is a comprehensive collection of services and tools that you use to visualize your business data. Power BI Template apps make it easy to visualize and analyze the Customer Service Analytics data with Power BI based on a standard data model. The Customer Service Analytics template app is built with a set of entities and fields that are useful for most reporting scenarios. 
 
-Dynamics 365 apps are often extended with custom fields. These custom fields don't automatically show up in the Power BI model. This topic describes how you can edit and extend the report included in the template app to include custom fields in the Power BI model. 
+Dynamics 365 apps are often extended with custom fields. These custom fields don't automatically show up in the Power BI model. This article describes how you can edit and extend the report included in the template app to include custom fields in the Power BI model. 
 
 Before you customize the template app, read the information here and perform each task, as necessary. 
 

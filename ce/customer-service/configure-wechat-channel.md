@@ -1,11 +1,10 @@
 ---
 title: "Configure a WeChat channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in this topic to configure a WeChat channel in Omnichannel for Customer Service."
-ms.date: 06/17/2022
+ms.date: 10/27/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Configure a WeChat channel
 
@@ -28,6 +27,8 @@ Make sure that the following prerequisites are met:
   > To enable the WeChat channel in an existing environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
 - An active subscription to the WeChat service account or sandbox account (if using sandbox for testing) exists and is stored as a contact on your phone. You'll initiate WeChat conversations by contacting the subscription account. More information: [WeChat documentation](https://go.microsoft.com/fwlink/p/?linkid=2124569)
+
+- Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ### Get WeChat account details
 

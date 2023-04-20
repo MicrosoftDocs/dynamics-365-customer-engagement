@@ -1,43 +1,28 @@
 ---
-title: "Preview: How to use conditional content (Dynamics 365 Marketing) | Microsoft Docs"
+title: "How to use conditional content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use conditional content features in Dynamics 365 Marketing."
-ms.date: 09/22/2022
+ms.date: 10/10/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
-# Preview: How to use conditional content
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
-
-## How to enable the conditional content preview
-
-This article refers to a feature that is in preview and may not be enabled in your environment. If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings** > **Other settings** > **Feature switches** > **Personalization** and enabling the **Conditional content in email editor** feature switch.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the conditional content feature switch.](media/conditional-content-switch.png "Screenshot of the conditional content feature switch")
-
-## What is conditional content?
+# How to use conditional content
 
 Conditional content is an easy way to deliver effective and engaging personalized content. A simple example of conditional content is including different images based on a recipient’s profession, age group, address, interests, or other such factors. Creating this kind of personalized content in Dynamics 365 Marketing is straightforward, requiring no coding or scripting. Here is a short video that shows conditional content in action:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Yb7B]
 
 Conditional content, as the name implies, consists of two parts: condition and content. The combination of these two parts is called a “variation.” You can create as many variations as needed. At the time an email is sent, conditions are evaluated in the order they're present in the email. When a condition is satisfied, the corresponding content is included and the conditional evaluation stops. If none of the conditions are satisfied, the default content is used. If there's no default content, then no content is included.
+
+> [!div class="mx-imgBorder"]
+> ![Conditional content screenshot.](media/conditional-content-screenshot.png "Conditional content screenshot")
 
 Conditional content can be a section or an image:
 
@@ -95,4 +80,12 @@ In the designer, you should always preview and test each variation to make sure 
 
 ## When to use conditional content vs conditions (advanced personalization)
 
-As shown above, conditional content is a great way to deliver different images and content to better match a recipient’s interests and preferences. However, there are situations where you only want to change a few words or a sentence. For example, in many languages, initial greetings are different based on the recipient’s gender. In such situations, it is more efficient and convenient to use [conditions from advanced personalization](real-time-marketing-personalization.md#conditional-content) than to create a complete duplicate section containing the same set of images and text only to change the greeting.
+As shown above, conditional content is a great way to deliver different images and content to better match a recipient’s interests and preferences. However, there are situations where you only want to change a few words or a sentence. For example, in many languages, initial greetings are different based on the recipient’s gender. In such situations, it is more efficient and convenient to use [conditions from advanced personalization](real-time-marketing-personalize-inline-conditions.md) than to create a complete duplicate section containing the same set of images and text only to change the greeting.
+
+## Conditional content inside content blocks
+
+Conditional content created at the section level can be saved as a [content block](content-blocks.md). This way, multiple conditions and their associated content are all saved inside a single content block for anyone to use. Creating conditions is easy, but does require some knowledge of customer data and, therefore, some users may find it harder to create conditions without errors. Saving conditional content as a content block is a great way to reduce errors and enable everyone on the team to use advanced conditions.
+
+Using content blocks can also help drive consistency. For example, a “high-value customer” may require using multiple conditions. To make interactions more consistent, you can create a “starter” content block that has advanced conditions (tested and verified) with placeholder content. Anyone can then use the starter content block and update the content, so a standard and correct definition of “high value customer” is applied everywhere.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

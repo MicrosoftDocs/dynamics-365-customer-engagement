@@ -4,18 +4,13 @@ description: Learn how to customize Field Service for your business needs.
 ms.custom:
 - dyn365-fieldservice
 ms.date: 08/25/2021
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
+author: lmasieri
+ms.author: lmasieri
 ---
 
 # Configure Dynamics 365 Field Service for your unique business needs

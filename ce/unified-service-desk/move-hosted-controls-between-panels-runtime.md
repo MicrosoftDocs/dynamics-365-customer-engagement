@@ -3,15 +3,11 @@ title: "Move hosted controls across panels at runtime in Unified Service Desk | 
 description: "Learn to move hosted controls across panels at runtime using the MoveToPanel action and the IDesktopFeatureAccess class."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---

@@ -5,7 +5,6 @@ ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Use effort estimation model in unified routing (preview)
@@ -122,7 +121,7 @@ After you train the effort estimation models, you can create classification rule
 
 Create the route-to-queue rules based on the effort estimation.
 
-1. For the workstream in which you created the rule based on effort estimation, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. More information: [Configure route-to-queues rulesets and rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
+1. For the workstream in which you created the rule based on effort estimation, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. More information: [Configure route-to-queues rulesets and rules](configure-route-to-queue-rules.md)
 
 2. Create a rule to define conditions and select the queue to which the work items need to be assigned when the conditions are met.
    

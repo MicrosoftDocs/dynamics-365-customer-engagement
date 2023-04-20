@@ -1,13 +1,11 @@
 ---
 title: "Prerequisites to administer conversation intelligence"
 description: "Verify the prerequisites that are necessary to administer conversation intelligence in your Dynamics 365 Sales organization."
-ms.date: 01/10/2022
+ms.date: 09/30/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: 6ee1a5cf-bb4a-46d5-b835-c0ac6644dec5
-author: udaykirang
-ms.author: udag
-manager: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -30,8 +28,10 @@ Verify the prerequisites that are necessary to administer conversation intellige
 
 ## Prerequisites
 
-Verify the following requirements before setting up conversation intelligence for your organization:   
--	You must have an administrator or similar role.   
+Verify the following requirements before setting up conversation intelligence for your organization:  
+
+-	You must have an administrator or similar role.  
+
 -	You must have a Dynamics 365 Sales organization.   
 -	You must purchase a Dynamics 365 Sales Enterprise, [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) or Dynamics 365 Sales Premium license.         
     > [!NOTE]
@@ -43,12 +43,13 @@ Verify the following requirements before setting up conversation intelligence fo
     1.	To access the app, go to [Conversation intelligence](https://sales.ai.dynamics.com/).       
     2.	Enter your work email address.       
     3.	When the application recognizes the email, you must sign in using Azure Active Directory. To learn more, see [Azure AD Connect user sign-in options](/azure/active-directory/hybrid/plan-connect-user-signin).   
--	You must create a v2 storage account with an Azure subscription to create blob container to configure call data. To learn more, see [Create a storage account](/azure/storage/common/storage-quickstart-create-account?tabs=portal#create-a-storage-account-1).
+-	If you want to use your own storage for conversation intelligence, create a v2 storage account with an Azure subscription. The account will include a blob container to configure call data. To learn more, see [Create a storage account](/azure/storage/common/storage-quickstart-create-account?tabs=portal#create-a-storage-account-1).
 
 ### See also
 
-[Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   
-[Overview of conversation intelligence](dynamics365-sales-insights-app.md) 
+- [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
+- [Overview of conversation intelligence](dynamics365-sales-insights-app.md)  
+- [Which Conversation intelligence features are available in Dynamics 365 Sales versus Viva Sales?](faqs-sales-insights.md#which-conversation-intelligence-features-are-available-in-dynamics-365-sales-versus-viva-sales)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

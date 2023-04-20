@@ -2,7 +2,7 @@
 title: "Export to Excel PivotTable from Dynamics 365 Customer Engagement (on-premises)"
 description: "Export data to an Excel PivotTable to better see patterns and trends. Learn how to run this process and get tips for working with the table after export."
 ms.custom: 
-ms.date: 05/05/2020
+ms.date: 10/24/2022
 ms.reviewer: 
 
 ms.suite: 
@@ -12,9 +12,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 5b798287-5c58-47da-a893-f00394d0ae94
 caps.latest.revision: 46
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sericks007
+ms.author: sericks
 search.audienceType: 
   - enduser
 
@@ -74,9 +73,14 @@ You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUD
 7. To refresh data in the file, on the **Data** tab select **Refresh from CRM**.  
   
    > [!NOTE]
-   >  To view and refresh dynamic data, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] must be installed. If it is already installed and configured, select **Refresh from CRM** to sign in to Dynamics 365 Customer Engagement (on-premises).  If you do not want to be prompted again to sign in, select **Save my email address and password** in the Sign-In page.  
+   >  To view and refresh dynamic data, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] must be installed. If it is already installed and configured, select **Refresh from CRM** to sign in to Dynamics 365 Customer Engagement (on-premises).  If you do not want to be prompted again to sign in, select **Save my email address and password** in the Sign-In page. 
+
+8. To add a PivotTable, on the **Insert** tab, select **PivotTable**.
+
+    > [!Note]
+    > You must complete this step to insert the PivotTable.  The PivotTable is not created automatically.
   
-8. Drag the fields from the PivotTable Field List to the PivotTable. For more information, see [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] Help.  
+9. Drag the fields from the PivotTable Field List to the PivotTable. For more information, see [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] Help.  
   
 ## Tips  
   

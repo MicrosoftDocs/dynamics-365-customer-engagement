@@ -2,12 +2,11 @@
 metadata:
   title: FAQ and troubleshooting tips for Resource Scheduling Optimization in Dynamics 365 Field Service
   description: Find answers to common issues with Resource Scheduling Optimization in Dynamics 365 Field Service
-  author: m-hartmann
-  ms.reviewer: mhart
+  author: FeifeiQiu
+  ms.author: feiqiu
   ms.date: 09/08/2022
   ms.topic: faq
   ms.subservice: resource-scheduling-optimization
-  ms.author: mhart
   search.app: 
     - D365CE
     - D365FS
@@ -52,7 +51,7 @@ sections:
       - question: |
           How do I cancel a long-running schedule or blocked schedule?
         answer: |
-          If your schedule has been running for a long time and seems stuck, select **Reset Resource Scheduling Optimization**. This option clears the blocked job and resets the schedules into a good state.
+          If your schedule has been running for a long time and seems stuck, select **Reset Resource Scheduling Optimization**. This option clears the blocked job and resets the schedules into a good state. When resetting a single optimization schedule doesn't work or gets blocked too, reset all schedules and republish them. 
 
       - question: |
           I’m seeing the message “SAS Key hasn't been configured” when I publish a schedule. Is this ok?

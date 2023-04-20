@@ -1,17 +1,13 @@
 ---
 title: Set up external knowledge search providers (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service
-ms.date: 09/27/2022
+ms.date: 11/29/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
   - intro-internal
@@ -27,19 +23,19 @@ searchScope:
 
 # Set up external knowledge search providers
 
-Knowledge management plays a vital role in enabling organizations to deliver world-class customer care. Allowing the agents to create rich, high-quality knowledge resources and showing the right knowledge content across engagement modalities (including self-service, assisted service, and onsite service) expedites issue resolution and drives customer and agent satisfaction and productivity. 
+Knowledge management plays a vital role in enabling organizations to deliver customer care. Agents can create rich, high-quality knowledge resources and show the right knowledge content across engagement channels, including self-service, assisted service, and onsite service. This helps expedite issue resolution and leads to customer and agent satisfaction and productivity.
 
 The ability to create, import, and share knowledge bases is a core capability of successful support delivery. With knowledge management, agents and supervisors can author knowledge articles from templates, add knowledge search providers from multiple sources (SharePoint, Microsoft Search, and other Dynamics 365 organizations), and receive AI-triggered knowledge suggestions while helping customers to accelerate support delivery.
 
-You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization. Federated search is also supported in sovereign regions.
+You can use search providers to federate the search of files, documents, or articles from data sources outside your current Dynamics 365 organization. In Microsoft Cloud for Sovereignty, the external search providers feature is available for use only in GCC.
 
 You can set up the following search providers:
 
-  -	**Cross-Organizational Search**: This option allows you to specify a different organization under the same tenant of the current organization and search the articles from that organization. The list from the current tenant is automatically identified. If the tenant has organizations located across multiple geographical locations, search data transfer happens across these locations.
+  -	**Cross-Organizational Search**: This option allows you to specify a different organization within the same tenant of the current organization and search the articles from that organization. The list from the current tenant is automatically identified. If the tenant has organizations located across multiple geographical locations, search data transfer happens across these locations.
   -	**Sharepoint**: This option requires you to enter the SharePoint URL, which must also be a part of the same tenant as that of the current organization.
   -	**Microsoft Graph connector**: This option is for organizations that already use Microsoft Search to index all external data. You only need to specify the unique connection ID when you create the connector. To learn more about Microsoft Graph connectors, see [Overview of Microsoft Graph connectors](/microsoftsearch/connectors-overview).
   
-From an authentication perspective, your agents must have access to external content, or they won't be able to view search results. 
+From an authentication perspective, your agents must have access to external content, or they won't be able to view search results.
 
 ## Set up a search provider
 
@@ -74,16 +70,16 @@ You can set up a search provider in the Customer Service admin center or Custome
 
 ## Post-configuration agent experience
 
-After you have configured the search providers, an agent who uses the search functionality can view links in their search results for each search provider included in their current org.
+After you've configured the search providers, agents using search can view links in their search results for each search provider included in their current organization.
 
 >[!NOTE]
 >
->If at least one knowledge search provider is enabled and configured, then the configured value for article search results will not be applicable. For each configured search provider, three article search results will be displayed. Agents can select **Show more** to view additional results. For more information on articles shown in search results, see [Add the Knowledge Base Search control to forms](./add-knowledge-base-search-control-forms.md).
+>If at least one knowledge search provider is enabled and configured, then the configured value for article search results won't be applicable. For each configured search provider, three article search results will be displayed. Agents can select **Show more** to view additional results. For more information on articles shown in search results, go to [Add the Knowledge Base Search control to forms](./add-knowledge-base-search-control-forms.md).
 
    > [!div class=mx-imgBorder]
    > ![Agent view of search providers.](media/search-provider-agent.png "Agent view of available search providers")
    
-For more information about the agent search experience, see [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md).
+For more information about the agent search experience, go to [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md).
 
 > [!NOTE]
 >

@@ -1,21 +1,17 @@
 ---
 title: "Dynamics 365 Marketing solution uninstall order (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Lists the correct order in which to remove solutions when uninstalling Dynamics 365 Marketing."
-ms.date: 08/01/2022
+ms.date: 10/19/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Solution uninstall order for removing Dynamics 365 Marketing
@@ -34,6 +30,7 @@ Moments-based marketing:
 1. msdyn_InsightsAnalyticsMKTAnalytics
 1. msdyn_InsightsAnalyticsMKTConfiguration
 1. msdyn_DataInsightsAndAnalyticsForMKT
+1. DynamicsMKT_TeamsVEvents
 1. DynamicsMKT_Configuration
 1. DynamicsMKT_CustomerVoiceIntegration
 1. DynamicsMKT_StandaloneSitemap

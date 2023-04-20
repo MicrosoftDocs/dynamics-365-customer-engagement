@@ -5,14 +5,10 @@ ms.date: 03/21/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -101,7 +97,7 @@ You can view and search for knowledge article attachments on the portal based on
 ### See also
 
 [Add a file attachment to a knowledge article](customer-service-hub-user-guide-knowledge-article.md#add-a-file-attachment-to-a-knowledge-article)  
-[Update knowledge article attachments for portal](customer-service-hub-user-guide-knowledge-article.md#update-knowledge-article-attachments-for-portal)  
+[Update knowledge article attachments for portal](set-up-knowledge-management-embedded-knowledge-search.md#update-knowledge-article-attachments-for-portal)
 [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article)
 
 

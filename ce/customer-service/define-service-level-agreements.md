@@ -1,18 +1,14 @@
 ---
 title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 09/23/2022
+ms.date: 11/18/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
   - intro-internal
@@ -37,6 +33,9 @@ To configure SLAs in Customer Service Hub:
 3. [Create SLAs](#create-slas).
 4. [Apply SLAs](apply-slas.md#apply-slas)
 
+> [!NOTE]
+> You can create SLAs only in environments that have customer engagement apps such as Customer Service, as SLAs are available by default in these apps.
+
 ## Prerequisites
 
 Review the following requirements before configuring SLAs for your organization:
@@ -46,7 +45,8 @@ Review the following requirements before configuring SLAs for your organization:
     - **Connector**: All permissions at the business unit level.
     - **SLAKPI**: Create permission at the business unit level, delete permission at the parent-child level, and other permissions at the organization level.
     - **ProcessStageParameter**: All permissions at the business unit level.
-  - **Customer Service Representative**: Read permission at the organization level for the SLAKPI entity.
+  - **Customer Service Representative**: Read permission at the organization level for the SLA KPI entity.
+- Power Automate License is available for the user creating actions on SLA KPI instance statuses.
 - Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:
 
    1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
@@ -99,7 +99,7 @@ You can create SLA KPIs from the Customer Service admin center or Customer Servi
 4. Select **Save**.
 
 5. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
-   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they will be overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings will continue to function if no pause criteria is defined at the KPI level.
+   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they'll be overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings will continue to function if no pause criteria is defined at the KPI level.
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
 
     > [!NOTE]

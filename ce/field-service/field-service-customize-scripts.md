@@ -1,19 +1,13 @@
 ---
-title: "How to write scripts to implement complex business logic in Dynamics 365 Field Service | MicrosoftDocs"
+title: Write scripts to implement complex business logic
 description: Learn all about best practices when implementing custom scripts in Dynamics 365 Field Service.
 ms.date: 02/18/2022
-ms.reviewer: mhart
-ms.service: dynamics-365-field-service
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
+author: lmasieri
+ms.author: lmasieri
 ---
 
-# Write scripts to implement complex business logic in Field Service
+# Write scripts to implement complex business logic
 
 In some Field Service implementations, there are functionalities and complex business logic that go beyond the processes offered by out-of-the-box Field Service; sometimes, these complexities even extend beyond the platform options, like workflow and business rules. For complex requirements, developers can create custom code.
 

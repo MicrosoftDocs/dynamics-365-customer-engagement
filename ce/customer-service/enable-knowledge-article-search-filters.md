@@ -1,17 +1,13 @@
 ---
 title: Customize knowledge article search filters | MicrosoftDocs
 description: "Learn how to enable knowledge article search filters in Dynamics 365 Customer Service."
-ms.date: 08/01/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 searchScope: 
@@ -38,14 +34,11 @@ The fields that are present on the knowledge article entity are the fields that 
 
 Any filter configurations that you set will be available wherever the knowledge search experience is configured, such as the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, embedded search control in Unified Service Desk, and the application tab search experience in Customer Service workspace.
 
-If you choose to retain the knowledge search filters, the Power Apps Maker filter configurations get deactivated. In full-text search, the archived and discarded status filters aren't supported.
+The **Enable search filters** option is set to **Yes** by default. To disable search filters, you can set it to **No** on the **Filters** page.
 
-**Enable search filters** is set to **Yes** by default (preview). To disable search filters, you can set it to **No** on the **Filters** page.
+If you choose to retain the **Enable search filters** option as **Yes**, then the filter configurations made in Power Apps will be deactivated. Additionally, the archived and discarded status filters will no longer be supported.
 
-> [!NOTE]
-> The default setting of **Yes** for **Enable search filters** option is in early access. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
-
-The settings that you have previously configured for your organization, including those within filter personalization, remain as they are. Enabling or disabling filter customizations only impact filter personalization and not the settings within it, such as adding or modifying a filter type.
+The settings that you've previously configured for your organization, including the default language configured for your organization in the Power Apps filter configurations, will no longer be applicable. You'll need to configure the language as default using the filter configurations.
 
 :::image type="content" source="media/default-search-filters.png" alt-text="Search filters are enabled by default.":::
 
@@ -245,4 +238,4 @@ You can allow agents to personalize their knowledge article search filters in th
 
 3. Select **Save**.
 
-Once you have enabled the option to personalize the knowledge search filters for your agents, your agents will be able to view all the configurations that you have previously set for them.
+After you've enabled the option to personalize the knowledge search filters for your agents, your agents will be able to view all the configurations that you previously set for them.

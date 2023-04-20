@@ -9,14 +9,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Warm up an IP or domain
@@ -97,3 +93,5 @@ Sender reputation is how mailbox providers view you and your mail.
 
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Email policies and suspension standards](email-policies.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

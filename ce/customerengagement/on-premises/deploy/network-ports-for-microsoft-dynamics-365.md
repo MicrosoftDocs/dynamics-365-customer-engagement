@@ -14,7 +14,6 @@ ms.assetid: c7c079e0-5193-4f2e-8309-0111eaf31674
 caps.latest.revision: 17
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Network ports for Dynamics 365 Customer Engagement (on-premises)
 

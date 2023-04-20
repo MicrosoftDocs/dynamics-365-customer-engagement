@@ -6,16 +6,9 @@ ms.date: 03/14/2019
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-  - "Dynm-hartmannn 9.x"
-author: FieldServiceDave
-ms.author: mhart
-manager: shellyha
-ms.reviewer: mhart
-ms.custom: 
-  - dyn365-fieldservice
-search.app: 
-  - D365CE
-  - D365FS
+  - "Dynamics 9.x"
+author: JonBaker007
+ms.author: jobaker
 ---
 
 # Privacy note for Field Service Mobile push notifications

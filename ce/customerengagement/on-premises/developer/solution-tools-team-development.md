@@ -14,7 +14,6 @@ ms.assetid: af0cb38e-58f4-4aa6-82c4-da67f07115f9
 caps.latest.revision: 17
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -27,7 +26,7 @@ A Dynamics 365 Customer Engagement (on-premises) solution is a compressed (.zip)
   
  The SolutionPackager tool resolves the problem of source code control and team development of solution files. The tool identifies individual components in the compressed solution file and extracts them out to individual files. The tool can also re-create a solution file by packing the files that had been previously extracted. This enables multiple people to work independently on a single solution and extract their changes into a common location. Because each component in the solution file is broken into multiple files, it becomes possible to merge customizations without overwriting prior changes. A secondary use of the SolutionPackager tool is that it can be invoked from an automated build process to generate a compressed solution file from previously extracted component files without needing an active Dynamics 365 Server.
 
- The SolutionPackager tool is distributed as part of the [Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools) NuGet package. See [Download tools from NuGet](download-tools-nuget.md) for information about how to download it.
+ The SolutionPackager tool is distributed as part of the [Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools) NuGet package. See [Dataverse development tools](/power-apps/developer/data-platform/download-tools-nuget) for information about how to download it.
   
 ## In This Section  
  [Use the SolutionPackager Tool to Compress and Extract a Solution File](compress-extract-solution-file-solutionpackager.md)  

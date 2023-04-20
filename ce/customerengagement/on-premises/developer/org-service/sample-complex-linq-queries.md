@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 
 ms.suite:
 ms.tgt_pltfrm:
-ms.topic: samples
+ms.topic: sample
 applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords:
@@ -19,7 +19,6 @@ ms.assetid: e7b83553-e710-4e7b-865c-5a8cd31a8166
 caps.latest.revision: 26
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
 search.audienceType:
   - developer
 ---

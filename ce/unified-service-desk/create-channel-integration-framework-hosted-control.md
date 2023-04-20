@@ -3,14 +3,10 @@ title: "Encode and escape characters with Channel Integration Framework hosted c
 description: "Learn how to create a Channel Integration Framework hosted control in Dataverse for Unified Service Desk."
 ms.date: 11/16/2020
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
@@ -28,9 +24,9 @@ This topic describes how to create a Channel Integration Framework type of hoste
 If a channel provider widget passes data that includes special characters to the Unified Service Desk client application, the special characters cause the Channel Integration Framework API calls to fail and the data won't be passed to the Unified Service Desk client application.
 
 To pass data that includes special characters, use the **EscapeCharacters** UII option. This option is used for encoding and escaping of special characters when Channel Integration Framework API calls are invoked within Unified Service Desk. The option is enabled if it hasn't been added or its value is set as **True**. If this option is explicitly set as **False**, encoding and escaping special characters is disabled.
-<!--markdownlint-disable MD036-->
+
 **To add the EscapeCharacters UII option**
-<!--markdownlint-enable MD036-->
+
 1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk**.

@@ -1,20 +1,18 @@
 ---
 title: "Configure call data for conversation intelligence"
 description: "Configure call data to assist sales managers to get an overview of the call center and drill down to get call statistics for individual sellers."
-ms.date: 01/10/2022
+ms.date: 09/30/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: 5fbbe749-6b23-49a6-91a1-0499f9a4fb92
-author: udaykirang
-ms.author: udag
-manager: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
 topic-status: Drafting
 ---
-# Configure conversation intelligence to connect call data 
+# Configure conversation intelligence to connect call data  
 
 Configure call data to assist sales managers to get an overview of the call center and drill down to get call statistics for individual sellers.
 

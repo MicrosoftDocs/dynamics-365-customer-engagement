@@ -14,7 +14,6 @@ ms.assetid: 6d0d42e2-0ad0-4dfa-aa42-72ab4e92b001
 caps.latest.revision: 54
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Microsoft Dynamics 365 Customer Engagement (on-premises) reporting requirements
 

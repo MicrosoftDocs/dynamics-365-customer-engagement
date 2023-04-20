@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 8c947e83-6765-41d9-b4b7-c078a68257eb
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -165,7 +164,7 @@ https://myServer/MyOrganization/WebResources/new_/test/test.htm
  [Sample: Passing Multiple Values to a Web Resource Through the Data Parameter](sample-pass-multiple-values-web-resource-through-data-parameter.md)<br />
  [Sample: Web Resource Utility](sample-web-resource-utility.md)<br />
  [Sample: Importing Files as Web Resources](sample-import-files-web-resources.md)<br />
- [Use Web Service Data in Web Resources (REST and SOAP Endpoint)](work-data-using-web-resources.md)<br />
+ [Use Web Service Data in Web Resources](work-data-using-web-resources.md)<br />
  [Streamline web resource development using Fiddler AutoResponder](streamline-javascript-development-fiddler-autoresponder.md)
 
 

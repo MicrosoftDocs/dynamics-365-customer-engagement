@@ -5,14 +5,10 @@ ms.date: 04/05/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 searchScope:
@@ -32,6 +28,10 @@ The Topics dashboard shows a detailed breakdown of cases and their assigned topi
 ![Topics dashboard.](media/topics-dashboard-analytics-cs.png "Topics dashboard")
 
 To view the Topics dashboard, go to customer service historical analytics and select **Topics** at the top of the workspace. 
+
+### Access the Topics dashboard
+
+[!INCLUDE[cc-navigation-cs](../includes/cc-navigation-cs.md)]
 
 ## Key insights card
 

@@ -1,11 +1,10 @@
 ---
 title: "Create and manage operating hours | MicrosoftDocs"
 description: "Perform the steps mentioned in the article to create, manage, and define operating hours in Omnichannel for Customer Service."
-ms.date: 07/12/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Create and manage operating hours
@@ -131,7 +130,7 @@ Do the following to specify operating hours for a chat widget:
 
 ## Add operating hours to a queue
 
-You can add operating hours to a queue that can later be configured for a social channel.
+You can add operating hours to a queue that can later be configured for a social channel. If operation hours aren't configured, the queues will be available round the clock.
 
 Do the following to specify operating hours for a queue:
 
@@ -162,6 +161,7 @@ You can't migrate the Calendar entity by using the export and import options and
 
 ### See also
 
+[Manage overflow of queues](manage-overflow.md)  
 [Automated messages](configure-automated-message.md)  
 [Add a chat widget](add-chat-widget.md)  
 [Configure a pre-chat survey](configure-pre-chat-survey.md)  

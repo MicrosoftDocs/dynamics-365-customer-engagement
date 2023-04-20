@@ -2,19 +2,14 @@
 title: "Resolving booking conflicts in Resource Scheduling Optimization for Dynamics 365 | MicrosoftDocs"
 description: Learn how to resolve booking conflicts in Resource Scheduling Optimization for Dynamics 365
 ms.date: 12/05/2018
-ms.reviewer: mhart
 
 ms.subservice: resource-scheduling-optimization
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: FeifeiQiu
+ms.author: feiqiu
 ---
 
 # Resolve booking conflicts in Resource Scheduling Optimization

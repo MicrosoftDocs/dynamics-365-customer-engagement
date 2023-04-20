@@ -1,10 +1,9 @@
 ---
-title: "Set up inbound calling for the voice channel | MicrosoftDocs"
+title: "Set up inbound calling for the voice channel"
 description: "Learn about how to set up workstreams and queues for inbound calling in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.date: 11/02/2021
+ms.date: 10/26/2022
 ms.topic: article
 
 ---
@@ -13,11 +12,14 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
+Configure inbound calling to set up the voice channel in Customer Service. You can enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel.
 
-A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and voice.
+## Prerequisites
 
-You'll perform the steps mentioned in this article in the Omnichannel admin center app.
+Ensure that the following prerequisites are met:
+
+- Voice channel is provisioned. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+- Unified routing is enabled. More information: [Provision unified routing](provision-unified-routing.md)
 
 ## Set up a voice workstream
 
@@ -40,8 +42,6 @@ Do the following to configure a workstream for voice:
 ## Configure a voice channel
 
 To configure the voice channel, you'll need to associate the workstream with a phone number for routing the calls. You can view the list of available phone numbers by selecting **Phone numbers** in the left pane. To get a new number, you can select **Add number** on the **Phone numbers** page. More information: [Acquire a phone number](#acquire-a-phone-number)
-
-**To configure the voice channel**
 
 1. Go to the workstream that you created, and on the page that appears, select **Set up voice**.
 
@@ -77,7 +77,7 @@ The phone number is associated with the workstream.
 
 ## Acquire a phone number
 
-Perform the steps mentioned in [Manage phone numbers](voice-channel-manage-phone-numbers.md) to acquire a phone number.
+Do the steps mentioned in [Manage phone numbers](voice-channel-manage-phone-numbers.md) to acquire a phone number.
 
 ## Create queues for voice channels
 
@@ -95,27 +95,31 @@ In the left pane, select **Queues**, and then complete the following steps to cr
     - **Type**: Select **Voice**.
     - **Group number**: Enter a number.
 
-2. Select **Create**. The queue is created.
-3. On the queue page, select **Add users**, and on the **Add users** flyout menu that appears, select the users and select **Add**.
+1. Select **Create**. The queue is created.
+
+1. On the queue page, select **Add users**, and on the **Add users** flyout menu that appears, select the users and select **Add**.
+
 
    > [!NOTE]
-   > You can add only those users who are configured for unified routing.
+   >
+   >  - You can add only those users who are configured for unified routing.
+   >  - After 20 minutes of being added to a queue, agents must refresh their dashboards to be able to receive calls.
 
    ![Configure queue for voice.](media/queue-for-voice.png "Configure queue for voice")
 
 ### Configure call overflow for the voice queue
 
-With call overflow, you can reduce long wait times for customer calls by setting options for voice queues. More information: [Configure call overflow](voice-channel-call-overflow.md)
+With call overflow, you can reduce the wait time for customer calls by setting options for voice queues. More information: [Manage overflow](manage-overflow.md)
 
 ### Assignment rules for a queue
 
-By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first. You can also choose highest capacity or create custom assignment methods. More information: [Assignment methods](assignment-methods.md)
+By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they're listed. The agent listed on the top is assigned first. You can also choose highest capacity or create custom assignment methods. More information: [Assignment methods](assignment-methods.md)
 
-For a simple and quick voice call routing, you'll not need to set up any rules for unified routing. By default, all the incoming voice calls will get routed to the "default voice queue" and will get assigned to the agents with the round robin assignment methodology.
+For a simple and quick voice call routing, you don't need to set up any rules for unified routing. By default, all the incoming voice calls will be routed to the "default voice queue" and will be assigned to the agents with the round robin assignment method.
 
 ## Configure routing rules for the voice workstream
 
-Navigate to the workstream for which you have configured the voice channel and perform the following steps:
+Go to the workstream for which you've configured the voice channel and do the following steps:
 
 1. In the **Routing rules** area, in the **Route to queues** option, select **Create ruleset**.
 
@@ -127,15 +131,8 @@ Navigate to the workstream for which you have configured the voice channel and p
 
 5. In **Route to queues**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
 
-    ![Create a rule for voice.](media/rule-for-voice.png "Create a rule for voice")
 
-6. In **Overflow action**, select one of the following options:
-   - **Default**: Specify if the work item should remain in the queue to be routed to the next available agent.
-   - **End call**: Specify to end the call if no agent will be available to take the call, for example an operating hour is configured and the overflow action was triggered on account of it.
-   - **Transfer to external number**: Set this option and specify a number to which the call should be routed if the work item should be handled on priority.
-
-    > [!Note]
-    > For the action to be run, overflow condition must be configured for the corresponding queue. More information: [Handle call overflow](voice-channel-call-overflow.md)
+6. To configure percentage-based distribution of work items, see [Percentage-based allocation of work to queues](configure-route-to-queue-rules.md#percentage-based-allocation-of-work-to-queues)
 
 7. Select **Create**. The rule is created and appears in the list of rules.
 
@@ -151,7 +148,8 @@ You can configure work classification rules for the voice workstream to add deta
 [Overview of unified routing](overview-unified-routing.md)  
 [Assignment methods](assignment-methods.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
-[Manage phone numbers](voice-channel-manage-phone-numbers.md)   
+[Configure outbound and inbound profiles](configure-outbound-inbound-profiles.md)  
+[Manage phone numbers](voice-channel-manage-phone-numbers.md)  
+[Use voicemail to handle overflow of calls](voice-channel-voicemail.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-

@@ -13,7 +13,6 @@ applies_to:
 ms.assetid: c9bf7f2d-4208-4a7f-8618-74cf7ae4c211
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
 search.audienceType: 
   - developer
 
@@ -31,7 +30,7 @@ The following developer tools in the SDK are available as NuGet packages:
 - Plug-in Registration
 - Solution Packager 
 
-To download developer tools, see [Download tools from NuGet](download-tools-nuget.md)
+To download developer tools, see [Dataverse development tools](/power-apps/developer/data-platform/download-tools-nuget)
 
 ## SDK assemblies
 

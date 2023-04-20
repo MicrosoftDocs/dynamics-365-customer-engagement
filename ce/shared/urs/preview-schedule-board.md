@@ -3,14 +3,9 @@ In this article, we'll take a look at what's new, and how to switch to the new s
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the new schedule board in Dynamics 365, showing the resources and requirements.](../../field-service/media/Schedule-Board-New-Overview-01.png)
 
-
-
 For a guided walkthrough, check out the following video outlining Wave 2 2021 updates to the new schedule board.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWP7dS]
-
-
-
 
 ## Improvements
 
@@ -19,23 +14,9 @@ The new schedule board is faster, with better usability, and it lays the foundat
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the new schedule board in Dynamics 365, showing the resources.](../../field-service/media/schedule-board-new.png)
 
-
-### Performance
-
-The new schedule board is faster and more responsive when: 
-
-- Loading the schedule board
-- Selecting schedule board tabs
-- Dragging and dropping work orders
-- Rescheduling bookings
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the new schedule board.](../../field-service/media/schedule-board-new-accessability.png)
-
 ### Usability and accessibility
 
-The new schedule board is a Power Apps Component Framework (PCF) control built on the Unified Client Interface, making it more flexible, supportable, and accessible. The new schedule board will work better on different screen sizes and across form factors. 
+The schedule board is a Power Apps Component Framework (PCF) control built on the Unified Client Interface, making it more flexible, supportable, and accessible. The new schedule board will work better on different screen sizes and across form factors. 
 
 New color schemes and ways of depicting travel time make it easier for dispatchers to see statuses and details.
 
@@ -52,14 +33,6 @@ The new schedule board provides the foundation for future releases that will pro
 
 - The next generation schedule board is generally available. 
 - Dynamics 365 Field Service version 8.8.30.103+
- 
-
-## Enable new schedule board for yourself
-
-Go to the schedule board and use the toggle button in the top right of the schedule board to switch between the current and new schedule boards. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board showing the preview toggle in the top right set to "On.".](../../field-service/media/schedule-board-new-toggle.png)
 
 ## Enable new schedule board for your organization
 
@@ -207,9 +180,6 @@ Now you can reassign this booking to any resource on any tab, and change the sta
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the move to with resource filter expanded option.](../../field-service/media/moveto-popup-filterexpanded.png)
 
-
-
-
 ## Booking details panel
 
 To see more details about a booking on the schedule board, open the details panel by selecting the details icon, as seen in the following screenshot. 
@@ -237,8 +207,6 @@ Select the **Expand** icon in the top-right of the new schedule board to enter i
 
 > [!div class="mx-imgBorder"]
 > ![New schedule board in Field Service, showing the expand icon in the top-right.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-10-support-for-full-screen-mode.png)
-
-
 
 ## Get driving directions
 
@@ -268,8 +236,6 @@ A map view will open showing the day's worth of bookings for the selected resour
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-15-support-for-get-driving-directions-for-resource-route-on-a-day-via-bing-maps.png)
-
-
 
 ## Edit multi-day bookings
 
@@ -308,18 +274,14 @@ Use the **Gear icon** to open the schedule board settings panel on the new sched
 > [!div class="mx-imgBorder"]
 > ![Schedule board settings icon on the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Board-view-settings.png)
 
-
 > [!div class="mx-imgBorder"]
 > ![Schedule board settings from the schedule board tab.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Tab-contextual-actions.png)
-
 
 > [!div class="mx-imgBorder"]
 > ![Schedule board settings dialog showing the "Edit defaults" option.](../../field-service/media//RS-2021-wave-2-ga-New-SB-Improvements-03-Tab-settings.png)
 
-
 > [!div class="mx-imgBorder"]
 > !["Edit defaults" dialog for the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-04-dafault-Tab-settings.png)
-
 
 > [!div class="mx-imgBorder"]
 > ![Schedule board settings dialog, showing the settings for booking tooltips, booking details, and more.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-05-better-settings-experience.png)
@@ -371,32 +333,6 @@ The schedule board supports optimization goals. After selecting suggested resour
 
 There's a default optimization goal that applies to the entire system and serves as the default for optimization requests. Dispatchers can also edit the default optimization goal for each schedule board. Finally, dispatchers can edit the optimization goal for a single optimization request by selecting **Suggest Resources**. 
 
-## Configuration considerations
-
-- The new schedule board works with Microsoft Edge, Google Chrome, and Firefox browsers. Currently, Internet Explorer 11 isn't supported.
-
-### When to use the new versus current schedule board
-
-The new schedule board has the same capabilities as the older schedule board. Use the table below to understand capabilities in both schedule boards.
-
-| Feature   | Category   | New schedule board     | Old schedule board | Details   |
-| --------- | ---------- | ------ | ------ | ---- |
-| Manual scheduling     | Dispatcher | Yes   | Yes   | Select a resource and create a booking for an unscheduled requirement by interactions like dragging and dropping the requirements, selecting an open timeslot, and using booking panel.    |
-| Assisted scheduling (find availability)           | Dispatcher | Yes | Yes         | Select an unscheduled requirement on the requirement panel and select "Find Availability," which opens up the schedule assistant view, and shows the available timeslots for the available resources. Choose a timeslot and create a booking.       |
-| Automated scheduling          | Dispatcher | For existing resource scheduling optimization customers, public preview is available.  | No                 | The default capabilities of resource scheduling optimizer functionality are made available in the schedule board, enabling dispatchers to manage schedules from a requirement's or resources point of view with the organization's business goals applied automatically by the optimizer.                    |
-| Auto update travel time    | Dispatcher | Yes                  | Yes                |  When a booking is manually scheduled or rescheduled via drag-and-drop, the travel time from the resource's previous location is automatically calculated and displayed in the front of the booking. [See more details](/dynamics365/field-service/schedule-with-travel-time#add-travel-time-with-manual-scheduling).         |
-| View modes - Hourly, daily    | Dispatcher | Yes                               | Yes                | Show the resources and their bookings on the hourly and daily views of the schedule board.          |
-| View modes - Weekly, monthly  | Dispatcher | Yes    | Yes        | Show the resources and their bookings on the weekly and monthly views of the schedule board.      |
-| View types - List view        | Dispatcher | Yes        | Yes                | List view is a simple view, in which bookings of the resources are shown as a simple list. This list view provides accessible view to the Users to browse and create Bookings                                               |
-| View types - Map view         | Dispatcher | Yes         | Yes                |        |
-| View types - Details view     | Dispatcher | Yes                        | Yes                | Details view is a configurable view, to show and add details of a resource, requirement, or a booking record.     |
-| Multi-resource scheduling     | Dispatcher | Yes         | Yes      | Requirement groups allow you to define groups of resources that would be appropriate for a job and to then schedule all those resources with a single search. With requirement groups, you can mix and match the different types of resources—such as individual field technicians, a whole crew, equipment, or facilities—needed for a job              |
-| Multi-day assisted scheduling | Dispatcher | Yes                   | Yes                | Work orders and scheduling requirements can be scheduled across multiple days and weeks. A common example is scheduling a 40-hour work order across an entire work week where the field technician is expected to perform more detailed work at the same location each day.      |
-| Multi-day manual scheduling   | Dispatcher | Yes                    | Yes                | Work orders and scheduling requirements can be scheduled across multiple days and weeks. A common example is scheduling a 40-hour work order across an entire work week where the field technician is expected to perform more detailed work at the same location each day.       |
-| Pools and crews       | Dispatcher | Yes         | Yes                | Resource pool scheduling allows you to assemble groups of similar resources to manage capacity and give schedulers the option to assign specific resources at a later time.<br>Resource crews allow dispatchers to search and schedule multiple resources at once. Crews can include a group of employees, subcontractors, equipment, facilities, or any combination thereof who will perform the same work during a period of time. Crews speed up and simplify the scheduling process and allow team members to work together more consistently.                               |
-| Configuration                 | Admin      | Yes       | Yes                | Admin can create new tabs on the schedule board and configure changes on the board, tab settings, and scheduler settings      |
-| Extensibility       | Admin      | Yes            | Yes                | Admin can extend the schedule board and use extensibility on some of features like<br>Custom Booking template (Hours) - HTML<br>Custom Booking alerts - HTML<br>Custom Resource Cell Template - HTML<br>Custom Filter Layout - Universal FetchXML<br>SB/SA Retrieve Resources Query - Universal FetchXML<br>SB/SA Retrieve Constraints query - Universal FetchXML<br>Custom Web resource support<br>Client Extensions (support for JavaScript, style sheets, and Localizations files)<br>Booking Rules (Support for custom business logic via JavaScript on the booking creation) |
- 
 ### Add new schedule board to custom sitemap area
 
 When using a custom sitemap or an app module, you'll need to update the sitemap to consume the new schedule board preview.
@@ -418,13 +354,3 @@ When using a custom sitemap or an app module, you'll need to update the sitemap 
 
 - The schedule board is only supported in Unified Interface web (Field Service v8.x+) and not in tablets or phones.
 - The booking status colors that appear on the schedule board have lower opacity than the defined booking status colors. This behavior is similar to the Outlook calendar. When a booking is selected on the schedule board, the booking color will appear with normal opacity.
-
-### Uninstall schedule board
-
-To uninstall the new schedule board solution ("Resource Scheduling Controls"), perform the following steps.
-
-1. Go to the **Schedule Board Settings** entity customization form.
-2. Remove the new schedule board preview control from the grid.
-3. Save and publish the changes.
-4. Go to the resource scheduling app, clear the browser's cache, and reload schedule board. The old schedule board will load without the toggle in the top right of the screen.
-5. Once the solution is uninstalled, the new schedule board won't be available for the environment until you upgrade your Field Service app to the latest available version.

@@ -1,17 +1,13 @@
 ---
 title: Configure the inbox | MicrosoftDocs
 description: Learn how to enable the inbox in Dynamics 365 Customer Service App profile manager and configure inbox settings in Customer Service admin center.
-ms.date: 06/09/2022
+ms.date: 02/02/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -64,7 +60,7 @@ You can configure the inbox in the Customer Service admin center by editing the 
      - Assigned to me:
        - Emails sent to me
        - Emails assigned to me
-     - Unassigned
+     - Unassigned:
        - Emails in my team
        - Emails in my queue(s)
        - Emails in a shared mailbox
@@ -72,9 +68,9 @@ You can configure the inbox in the Customer Service admin center by editing the 
       - **Show**
       - **Hide**
 
-## Inbox views
+## Preconfigured inbox views
 
-The following views are supported in the inbox:
+The following views are supported out of the box in the inbox:
 
 - **Cases**: Shows all cases that are owned by the user, including active and resolved cases.
 - **Assigned Conversations**: Shows all conversations that have been assigned to the user, including active and closed conversations.
@@ -83,11 +79,54 @@ The following views are supported in the inbox:
 
 Inbox views are refreshed every five minutes. Agents can manually refresh the view by using the **Refresh** icon.
 
+## Configure custom views for the inbox
+
+You can configure the a customized view for the inbox so that agents can see their cases, conversations, emails, and voicemails all in a single view.
+
+To configure multiple views for the inbox, complete the following steps.
+
+1. Go to the agent experience profile for which you want to configure a custom view.
+
+1. On the **Inbox** card, select **Edit**. The **Inbox** page is displayed.
+
+1. Toggle **Enable Inbox** to **On** if it isn't already on, and then select **+ Add**. The **Add a new view** page is displayed.
+
+1. On the **Add a new view** page, enter the following details:
+
+   - **Name**: Type a name for the view.
+   - **Agent visibility**: Select whether to **Show** or **Hide** the view from agents.
+   - **Record type**: Select the records that you want to include in the multi-entity view.
+  
+1. For each record type, choose one of the following settings. The settings are different for each record type.
+
+    - **Simple** opens a dropdown menu where you can choose the type of records that will appear in your multi-entity view. More information: [Simple settings](#simple-settings)
+       
+      :::image type="content" source="media/simple-settings-inbox.png" alt-text="Simple setting option on the Add a new view page for inbox."::: 
+       
+    - **Advanced** opens a **Conditions** option where you can set the desired conditions for your multi-entity view. More information: [Advanced condition builder](/business-applications-release-notes/october18/microsoft-flow/advanced-condition-builder)
+
+      :::image type="content" source="media/advanced-settings-inbox.png" alt-text="Advanced setting option on the Add a new view page for inbox."::: 
+
+1. Select **Save**.
+
+### Simple settings
+
+The following simple settings are available out of the box for the record types.
+
+| Record type | Simple settings |
+|-----------|------------------|
+| Email | - Emails sent to me <br>- Emails assigned to me <br> - Emails in my team(s) <br> - Emails in my queue(s) <br> - Emails in a shared mailbox|
+| Chat | - Assigned <br> - Unassigned <br> - Resolved|
+| Case | - Cases assigned to me <br> - Cases in my team(s) <br> - Case(s) in my queue(s) |
+| Voicemail | - Assigned <br> - Unassigned <br> - Resolved |
+
 ## Real-time translation
+
 For information about how to configure real-time translation for conversations in the inbox, see [Enable real-time translation of conversations](enable-real-time-translation.md)
 
 
 ### See also
 
-[Create and use agent experience profiles](../app-profile-manager/create-agent-experience-profile.md) <br>
-[Overview of agent experience profiles](../app-profile-manager/overview.md)   
+[Create and use agent experience profiles](../app-profile-manager/create-agent-experience-profile.md)  
+[Overview of agent experience profiles](../app-profile-manager/overview.md)  
+[Configure voicemail to manage inbound calls](../customer-service/voice-channel-voicemail.md)  

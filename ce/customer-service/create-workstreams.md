@@ -1,10 +1,9 @@
 ---
 title: "Create and manage workstreams | MicrosoftDocs"
 description: "Use this article to understand how to create and manage workstreams in Customer Service and Omnichannel for Customer Service apps."
-ms.date: 07/13/2022
+ms.date: 02/10/2023
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.topic: article
 ms.custom: intro-internal
 ---
@@ -62,7 +61,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
     
     - **Record**: This box appears if you've selected the type as **Record**. Select the record from the list. More information: [Set up record routing](set-up-record-routing.md)
     
-    - **Work distribution mode**: Select **Push** or **Pick**.
+    - **Work distribution mode**: Select **Push** or **Pick**. You can't edit this setting later.
          - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, only push mode is available.
          - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
     
@@ -70,7 +69,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
          - **Create new**: Enter a queue name to which work items will be sent when no queue is identified in the the route-to-queue rules. You'll need to add users to the queue after creating the workstream.
          - **Choose existing**: Select an existing queue from the dropdown list. By default, the out-of-the-box queue for the selected channel type is selected.
 
-      More information: [Fallback queues](queues-omnichannel.md#fallback-queues)
+      More information: [Fallback queues](queues-omnichannel.md#how-fallback-queues-work)
 
       :::image type="content" source="media/create-messaging-workstream.png" alt-text="Settings for creating workstream for live chat.":::
 
@@ -95,10 +94,11 @@ You can create workstreams for unified routing in the Customer Service admin cen
 > If asynchronous plug-ins are installed but disabled in your organization, ensure that you set the value of "DisabledForAsyncProcessing" to "No" to avoid issues when you're creating workstreams.
 
 ### Configure routing rules
+
 Routing rules for a workstream consist of work classification rules and route-to-queue rules. To learn about configure routing rules, see the following articles:
 
 - [Configure work classification rules](configure-work-classification.md)
-- [Configure route-to-queue rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
+- [Configure route-to-queue rules](configure-route-to-queue-rules.md)
 
 ### Configure work distribution
 
@@ -158,7 +158,7 @@ Select a workstream to perform any of the following actions:
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
 - **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of "*`<workstream>`*.
 - **Delete**: Lets you delete the workstream if you no longer need it in your organization. You can't delete workstreams that are used in intake rules for record routing. You'll be prompted to remove the dependencies and then try to delete the workstream.
-- **Fallback queue**: Select an existing queue or create a queue to set as the fallback queue. More information: [Fallback queues](queues-omnichannel.md#fallback-queues)
+- **Fallback queue**: Select an existing queue or create a queue to set as the fallback queue. More information: [Fallback queues](queues-omnichannel.md#how-fallback-queues-work)
 
 ### Agent affinity
 

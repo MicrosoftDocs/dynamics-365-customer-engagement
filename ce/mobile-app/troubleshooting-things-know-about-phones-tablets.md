@@ -10,16 +10,12 @@ ms.topic: error-reference
 applies_to: Dynamics 365 apps
 ms.assetid: 55e7ba52-2f18-4eaf-8281-70cd639887f8
 caps.latest.revision: 33
-ms.author: mkaur
-author: mduelae
-manager: kvivek
+ms.author: sericks
+author: sericks007
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Sales
 ---
 # Common issues and resolutions for Dynamics 365 for phones and tablets
    

@@ -14,7 +14,6 @@ ms.assetid: 0fcf59aa-d564-4c9b-9042-40df8664f831
 caps.latest.revision: 64
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -52,10 +51,10 @@ The SDK assemblies provides you with classes that you can use to connect to Dyna
 > 
 >  However, if you are using .NET Framework 4 and using the  [CrmConnection](https://msdn.microsoft.com/library/microsoft.xrm.client.crmconnection\(v=crm.6\).aspx) class of SDK extensions ([deprecated](/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)#SDKExtensions)) to connect to [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] (on-premises) and [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (version 8.1.0) or later, you will need to use version 6.1.2 of the assemblies. Otherwise, you won't be able to connect. For more information about backward compatibility, see [Blog: Dynamics 365 Customer Engagement (on-premises) SDK Backwards Compatibility](https://go.microsoft.com/fwlink/?linkid=842744)  
 
- When using the SDK assemblies to write code, you work with the Organization web service (SOAP endpoint) to connect to an instance of Dynamics 365 Customer Engagement (on-premises), and perform the supported web service operations. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 Customer Engagement Organization Service](use-microsoft-dynamics-365-organization-service.md)  
+When using the SDK assemblies to write code, you work with the Organization web service to connect to an instance of Dynamics 365 Customer Engagement (on-premises), and perform the supported web service operations. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 Customer Engagement Organization Service](use-microsoft-dynamics-365-organization-service.md)  
 
 > [!NOTE]
->  The SDK assemblies will eventually be migrated to internally use the Web API instead of the 2011 SOAP endpoint. When this happens, any code written using the SDK assemblies will continue to be supported as it will automatically transfer from the 2011 SOAP endpoint to use the Web API. This update will be mostly transparent to you requiring only that you replace your application's run-time folder SDK assemblies with revised assemblies. For additional details plus new information about .NET Core development, see [Transition apps to Dataverse ServiceClient](/power-apps/developer/data-platform/sdk-client-transition).
+>  The SDK assemblies will eventually be migrated to internally use the Web API instead of the deprecated 2011 SOAP endpoint. When this happens, any code written using the SDK assemblies will continue to be supported as it will automatically transfer from the 2011 SOAP endpoint to use the Web API. This update will be mostly transparent to you requiring only that you replace your application's run-time folder SDK assemblies with revised assemblies. For additional details plus new information about .NET Core development, see [Transition apps to Dataverse ServiceClient](/power-apps/developer/data-platform/sdk-client-transition).
 
 - **Create and deploy plug-ins or custom workflow activities**: The plug-in and custom workflow activity classes allow you to create event handlers to perform custom business logic that you can integrate with Dynamics 365 Customer Engagement (on-premises) to modify or augment the standard behavior of the platform.  
 

@@ -1,22 +1,21 @@
 ---
-title: "Set up skills and assign agents | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to create skills and assign agents to those skills in Omnichannel for Customer Service."
+title: Set up skills and assign agents
+description: Perform the steps mentioned in the topic to create skills and assign agents to those skills in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.date: 04/04/2022
-ms.topic: article
+ms.reviewer: shujoshi
+ms.date: 03/08/2023
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Set up skills, create a rating model, and assign agents
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Set up skills
-
 As an administrator, to create skills, you need at least one skill type in the system. For example, to add **Spanish** as a skill, you need a skill type called **Language**. You must first create a skill type and then create skills.
 
-### Create skill types
+## Create skill types
 
 1. Sign in to the Dynamics 365 instance.
 
@@ -39,9 +38,67 @@ As an administrator, to create skills, you need at least one skill type in the s
     > [!div class=mx-imgBorder] 
     > ![Create skill type.](media/create-skill-type.png "Create skill type")
 
-### Create skills
+## Manage skill settings in skills hub (preview)
 
-**To create skills**
+> [!IMPORTANT]
+>
+> The skills hub feature is in preview. [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+Skills hub in Customer Service admin center helps you seamlessly create and assign skills to your agents. Use the **Skills hub** page to create and edit, add and remove users to skills and manage their proficiency.
+
+1. In Dynamics 365, go to Customer Service admin center.
+
+1. In the site map, select **User management** under **Customer Support**.
+
+1. Select **Manage** for **Skills hub (Preview)**. The Skills hub page displays the skills, skill types, proficiency scales, and intelligent skill find models.
+
+### Manage proficiency scales
+
+Create or update proficiency scales that are used to rate agent proficiency in the assigned skills.
+
+1. On the **Skills hub** page, select **Manage** in **Proficiency scale** area.
+
+1. To create a proficiency scale, on the **Proficiency scale** dialog, select **Create**, and do the following:
+
+   - **Scale name**: Enter a scale name.
+   - **Minimum rating value**: Enter the minimum value.
+   - **Maximum rating value**: Enter the maximum value.
+
+   > [!NOTE]
+   > You can enter positive values only as minimum and maximum rating values.
+
+   - **Level names**: Enter names for each rating value, such as average, good, and excellent.
+
+1. Select Create.
+
+If you'd created proficiency scales in the classic experience, you can update them in the classic experience only.
+
+### Create skills in skills hub
+
+1. On the **Skills hub** page, select **Manage** in the **Skills** area.
+
+1. On the **Skills** page, select **Create**.
+
+1. On the **Create Skill** dialog, select a skill type in the **Skill type** list, and then enter a name for it in **Skill name**.
+
+1. To add the skill to users, in the **Users** section, select **Add**, and then select the users.
+
+1. Select **Add selected users**.
+
+1. To add proficiency, select the users who will be assigned the same proficiency, select **Update proficiency**, and select a value from the dropdown list. The proficiency value is assigned for the selected users.
+
+1. Select **Create**. The skill is created and assigned to the selected users.
+
+1. To update the users for a skill, select a skill, and on the **Edit Skill** dialog, perform the steps to add users and attach a proficiency value.
+
+
+## Create skills using the classic experience
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
@@ -70,7 +127,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 After you save, the **Users (Agents)** section appears. In this section, you add the agents and rating value. More information: [Assign agents to the skill](#assign-agents-to-skill)
 
-## Rating value of skills
+### Rating value of skills
 
 When you add a skill to an agent, you also need to rate the proficiency of the skill. This enables the system to do an exact or closest match against the requirement of a conversation and distribute the conversation accordingly. You can use the default rating model, edit it, or create a new one to match the needs of your organization.
 
@@ -80,13 +137,11 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 You can create rating models in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub apps.
 
-**To create the rating model**
-
 1. Perform the steps by using one of the following apps.
 
-   - In the site map of Customer Service admin center, select **Insights** in **Operations**. 
+   - In the site map of Customer Service admin center, select **Insights** in **Operations**.
 
-   - In the site map of Omnichannel admin center, select **User attributes** in **Advanced settings**. 
+   - In the site map of Omnichannel admin center, select **User attributes** in **Advanced settings**.
 
    - In the site map of Customer Service Hub, go to **Service Management**, and select **User attributes** in **Unified Routing**. 
 
@@ -140,9 +195,9 @@ For example:
 | ★★ | 2 star|
 | ★ | 1 star|
 
-## Add agents as bookable resource
+### Add agents as bookable resource in the classic experience
 
-Add the agents as a bookable resource so that you can assign skills to them.
+Add the agents as a bookable resource so that you can assign skills to them. This task is required for classic experience only and not for the new skills hub experience.
 
 1. Go to the users page in any of the administrator apps.
 
@@ -154,7 +209,7 @@ Add the agents as a bookable resource so that you can assign skills to them.
 
 5. Select **Save**.
 
-## Assign agents to skill
+### Assign agents to skill
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
@@ -183,5 +238,6 @@ Alternatively, you can also add a skill to the user (agent). More information: [
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Manage users](users-user-profiles.md)  
+[Model data tables as skills](model-tables-as-skills-ur.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

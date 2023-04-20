@@ -14,7 +14,6 @@ ms.assetid:
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
 

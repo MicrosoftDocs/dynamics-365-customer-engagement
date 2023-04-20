@@ -2,15 +2,9 @@
 title: "Create and edit columns (fields) in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about best practices for creating and editing fields in Dynamics 365 Field Service.
 ms.date: 02/18/2022
-ms.reviewer: mhart
-ms.service: dynamics-365-field-service
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: lmasieri
+ms.author: lmasieri
 ---
 
 # Create and edit Field Service columns (fields)

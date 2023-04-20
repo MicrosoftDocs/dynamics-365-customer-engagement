@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create custom triggers in real-time marketing
@@ -71,3 +67,8 @@ The code snippet contains instructions detailing how to integrate the trigger co
 ## 3. Finalize the trigger
 
 Once the integration has been completed, the **Triggers** page will show information to confirm that the custom trigger is working as expected. With the integration complete and verified, the trigger will be marked as **Ready to use**, which will make the trigger visible and available in journeys.
+
+> [!TIP]
+> When you're looking at the list of triggers, custom triggers have a plain lightning bolt icon ![Custom trigger icon.](media/real-time-marketing-custom.png "Custom trigger icon"). Out-of-the-box triggers have a lightning bolt with a suitcase icon ![Out-of-the-box trigger icon.](media/real-time-marketing-oob.png "Out-of-the-box trigger icon").
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

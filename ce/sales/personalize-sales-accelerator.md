@@ -1,11 +1,11 @@
 ---
-title: "Personalize sales accelerator settings"
-description: "Use personal settings to determine how activities are scheduled based on work availability and decide what happens when an activity is complete."
-ms.date: 06/14/2022
-ms.topic: article
+title: Personalize sales accelerator settings
+description: Use personal settings to determine how activities are scheduled based on work availability and decide what happens when an activity is complete.
 author: udaykirang
 ms.author: udag
-manager: shujoshi
+ms.topic: how-to 
+ms.date: 03/15/2023
+ms.custom: bap-template 
 ---
 
 # Personalize sales accelerator 
@@ -33,8 +33,7 @@ As a seller, you can personalize the sales accelerator by determining how activi
 Configure your working days, hours, and days off to adjust scheduled tasks and lead assignment according to your availability. For example, you're taking a day off on April 1, 2021, and you have a few activities to complete that day. When you configure the calendar with your day off, any activities that were scheduled for that day will be moved to your next available date or time.
 
 >[!NOTE]
->As a sales manager, you can configure the availability of sellers who report to you through the calendar API. While using the API, enter the value of the ```EntityLogicalName``` string as ```msdyn_extendedusersetting```.
->More information: [Edit work hour calendars by using APIs](/dynamics365/field-service/field-service-work-hours-calendar-api) 
+>As a sales manager, you can configure the availability of sellers who report to you. More information: [Manage seller availability](manage-seller-availability.md) 
 
 Depending on the license you have in the organization, you use one of the following ways to configure your work availability:
 - Sales Premium: [Through work list settings](#through-work-list-settings)
@@ -144,7 +143,7 @@ The **Auto advance** settings specify the next course of action to take when you
     >![Select Auto advance settings.](media/sa-personal-settings-auto-advance-settings.png "Select Auto advance settings.")      
 
     The following settings are available for completing or skipping an activity:       
-    -	**Ask before moving to the next work item**: When an activity is completed or skipped, a message is displayed before you move to the next record in the work list. On the message, you'll select an appropriate option to proceed. The following image shows the message that's displayed when you skip an activity.    
+    -	**Ask before moving to the next work item**: When an activity is completed or skipped, a message is displayed before you move to the next record in the work list. On the message, you select an appropriate option to proceed. The following image shows the message that's displayed when you skip an activity.    
         >[!div class="mx-imgBorder"]
         >![For skipping an activity: "Do you want to go to the next item in your work list or stay here and continue working?" Options are "Go to next" or "Stay here.".](media/sa-personal-settings-auto-advance-skip-activity-message.png "For skipping an activity: \"Do you want to go to the next item in your work list or stay here and continue working?\" Options are \"Go to next\" or \"Stay here\"")       
     -	**Automatically go to the next work item**: When an activity is completed or skipped, the next record in the work list queue is automatically displayed.   
@@ -191,7 +190,7 @@ As a seller, you can hide any filter that's available in the filter list. After 
 
     >[!NOTE]
     >-	To hide a group, turn off the toggle for the group.
-    >-	If the administrator hides filters or groups, you can't see them in your list. Contact your administrator to show the filters for you to use. More information: [Hide filters](enable-configure-sales-accelerator.md#hide-filters)
+    >-	If the administrator hides filters or groups, you can't see them in your list. Contact your administrator to show the filters for you to use. More information: [Hide filters](customize-workspace-sales-accelerator.md#hide-filters)
  
     > [!div class="mx-imgBorder"]    
     > ![Turn off the toggle to hide a filter.](media/sa-worklist-filter-hide-filter.png "Turn off the toggle to hide a filter")      
@@ -200,7 +199,7 @@ As a seller, you can hide any filter that's available in the filter list. After 
 
 The filter is hidden from your list.
 
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

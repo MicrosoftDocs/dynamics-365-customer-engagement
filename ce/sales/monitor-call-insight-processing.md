@@ -1,15 +1,14 @@
 ---
 title: "Monitor call and insight processing in conversation intelligence"
 description: "Monitor the processing status of call to verify the call is processed successfully or an error is occurred."
-ms.date: 08/23/2022
+ms.date: 09/30/2022
 ms.topic: article
-author: udaykirang
-ms.author: udag
-manager: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 caps.latest.revision: 1
 topic-status: Drafting
 ---
-# Monitor call and insight processing    
+# Monitor call and insight processing  
 
 As a user of conversation intelligence, you might want to track and understand the status of calls with customers. The **System monitoring** page in the conversation intelligence app helps you ensure that the calls were successfully processed. You can monitor the status of calls that have been processed, are yet to be processed, or could not be processed. When call processing errors occur, you can view the reasons for each error and take the appropriate steps.
 

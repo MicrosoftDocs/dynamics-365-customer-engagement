@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Raise triggers from a journey to run another journey or Power Automate flow
@@ -130,3 +126,5 @@ To use a custom trigger with a Power Automate flow, navigate to [Power Apps Port
 > If you can't find your custom trigger name in the **Action name** list, go to **Real-time marketing** > **Triggers**, select the custom trigger you want to use, then select **Go to code snippet**. The trigger name (beginning with "msdynmkt") is shown in the first line of the code.
 
 To learn more about this [Dataverse connector](/power-automate/dataverse/overview) action, see [Trigger flows with actions](/power-automate/dataverse/action-trigger).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,16 +11,12 @@ ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 8acc32c3-9948-403d-9fe0-df7589a32149
 caps.latest.revision: 8
-ms.author: mkaur
-author: mduelae
-manager: kvivek
+ms.author: sericks
+author: sericks007
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 # Stay on top of the latest news about your customers
 

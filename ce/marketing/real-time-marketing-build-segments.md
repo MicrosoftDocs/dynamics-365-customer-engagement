@@ -1,29 +1,19 @@
 ---
-title: "Preview: Build segments in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Build segments in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to build segments to use in real-time journeys in Dynamics 365 Marketing."
-ms.date: 07/01/2022
+ms.date: 02/01/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
-
-# Preview: Build segments in real-time marketing
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+# Build segments in real-time marketing
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE50Oqt]
 
@@ -85,3 +75,24 @@ To include members from either subgroup, select the **or** subgroup operator.
 
 > [!div class="mx-imgBorder"]
 > ![Use the or operator.](media/real-time-marketing-segment-builder-or.png "Use the or operator")
+
+## Preview: Add a new group to a segment
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+**Example**: Let’s say you want to create a query for Leads with a company size of more than 10,000 employees whose parent accounts are in the Consumer Services or Financial Services industries, **but not** leads with a budget of less than $20,000.
+
+To create the segment from the above example, create a new segment in real-time marketing for Leads whose company size is 10,001 or more. Open the **Elements** pane by selecting the top icon on the menu on the right side of the window. Then, go to the **Attributes** tab and search for the **Budget Amount** attribute. Select the icon to the left of the attribute name from the results list. A contextual menu will appear, allowing you to add the attribute to an existing or new group.
+
+> [!div class="mx-imgBorder"]
+> ![add a new group to a segment](media/real-time-marketing-add-a-new-group.png "add a new group to a segment")
+
+In the above example, the attribute was added to a new group (Group 2).  To create the segment you want, select the operator button between the groups.
+
+> [!div class="mx-imgBorder"]
+> ![select your operator between groups](media/real-time-marketing-select-your-operator-between-groups.png "select your operator between groups")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

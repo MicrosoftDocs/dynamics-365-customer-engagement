@@ -5,7 +5,6 @@ ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # View the communication panel for conversations
@@ -20,6 +19,7 @@ You can do the following tasks in the communication panel:
 - Search for and share knowledge articles with the customer with whom you are interacting.
 - Transfer the conversation (work item) to another agent or queue.
 - Use the consult option if you need help to resolve the work item.
+- Generate a summary of the conversation. More information: [View and share auto-summarized conversations](cs-ai-generated-summary.md)
 
  > [!div class=mx-imgBorder]
  > ![Omnichannel communication panel chat interface.](media/oceh-conversation-control-chat-interface.png "Omnichannel communication panel chat interface")  
@@ -169,10 +169,10 @@ To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-c
 [Manage sessions](oc-manage-sessions.md)  
 [Manage applications](oc-manage-applications.md)  
 [Manage presence status](oc-manage-presence-status.md)  
-[View customer summary and know everything about customers](oc-customer-summary.md)  
+[View customer information on Active Conversation form](oc-customer-summary.md)  
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [Take notes specific to conversation](oc-take-notes.md)  
-[View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+[View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

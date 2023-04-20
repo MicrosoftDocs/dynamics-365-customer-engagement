@@ -1,11 +1,10 @@
 ---
 title: "renderSearchPage (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Includes description, syntax, and parameter information for the renderSearchPage method in JavaScript API Reference for Channel Integration Framework 1.0."
-ms.date: 09/30/2021
+ms.date: 11/17/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.custom: 
@@ -24,8 +23,8 @@ ms.custom:
 | Name               | Type       | Required | Description                                       |
 |-----------------   |----------  |----------|---------------------------------------------------|
 | entityLogicalName  | String     | Yes      | The entity logical name of the record you want to query such as "account".  |
-| searchString       | String     | No      | String to search among the attributes of the entity records. |
-| searchType         | Boolean    | No       | Type of search page to open&mdash;0 for relevance search and 1 for categorized search. If no parameter is provided, the records are searched by category.|
+| searchString       | String     | Yes      | String to search among the attributes of the entity records. |
+| searchType         | Boolean    | No       | Type of search page to open&mdash;0 for relevance search and 1 for categorized search. If no parameter is provided, the records are searched by category. For information on relevance search, see [Configure Dataverse search](/power-platform/admin/configure-relevance-search-organization.md). |
 | successCallback    | Function   | No       | A function to call when some records are retrieved. |
 | errorCallback      | Function   | No       | A function to call when the operation fails.        |
 

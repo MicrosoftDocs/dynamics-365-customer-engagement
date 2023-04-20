@@ -1,39 +1,24 @@
 ---
 title: "Bot sessions and licensing | MicrosoftDocs"
-description: "Use this article to learn about bot sessions and how you can purchase additional chatbot sessions."
-ms.date: 06/21/2022
+description: "Use this article to learn about bot sessions and licensing in Omnichannel for Customer Service."
+ms.date: 11/18/2022
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.custom: 
   - intro-internal
 ---
 
 # Bot sessions and licensing
 
-A bot session is defined as a conversation in which a bot is invoked. The bot can be invoked at the beginning, during, or end of a conversation.
+A bot session is defined as a conversation in which a bot is invoked. The bot can be invoked at the start, middle, or end of a conversation.
 
 - If two different bots are invoked in the same conversation, it is considered a single conversation.
 - A conversation with a bot that's escalated to a human agent is considered a bot conversation.
 
-> [!NOTE]
-> If smart assist is enabled, the bot conversations don't include smart assist conversations. More information: [View smart assist suggestions for agents configured using custom Azure bot](oc-smart-assist.md)
+The add-in applications such as Chat, Digital Messaging, and Voice channel are licensed per user. Each add-in application is entitled to a specific number of bot sessions. You can also purchase additional bot sessions on the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?LinkId=866544). More information: [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true)
 
-Each Chat and Digital Messaging license receives an entitlement of 50 chatbot sessions for use with Microsoft Bot Framework bots. These sessions are pooled at the tenant level and expire at the end of each month. For additional chatbot sessions, you must purchase the Chatbot Sessions Add-on. For more information on Chatbot licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+To know about the required subscriptions to use the chat and voice channels, see the [Licensing](system-requirements-omnichannel.md#licensing) section. For more information on licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
-## Purchase additional chatbot sessions
-
-Chatbot session add-ons entitle customers with Chat or Digital Messaging to an additional 100 chatbot sessions for use with Microsoft Bot Framework bots, pooled at the tenant level. Additional chatbot sessions expire at the end of each month.
-
-**To purchase additional bot conversations from Microsoft 365 admin center**
-
-1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the global administrator credentials.
-
-2. Go to **Billing** > **Purchase Services**, and then select **Add-ons**.
-
-3. Under **Add-ons**, select **Dynamics 365 for Customer Service Chatbot session add-on**.
-
-4. Select the number of add-ons required and complete the purchase.
 
 
 ### See also

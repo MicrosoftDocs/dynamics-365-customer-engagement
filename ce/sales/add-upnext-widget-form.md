@@ -1,11 +1,10 @@
 ---
 title: "Add the up next widget to a custom form"
 description: "Display the up next widget on your customized forms through sales accelerator configuration in Sales Insights."
-ms.date: 01/10/2022
+ms.date: 11/30/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Add the Up next widget to a custom form 
 
@@ -17,6 +16,13 @@ Display the Up next widget on your customized forms through sales accelerator co
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
+
+## What is the Up next widget?
+
+The **Up next** widget helps sellers to view and perform actions on activities on a record by not losing context or need to switch among multiple applications. The activities include phone call, email, or Teams meeting. The widget displays the current activity, upcoming activity, and completed activities. The activities are added to a record manually or by using a sequence:
+
+- In a sequence, a sales manager creates activities and applies them to the record according to business requirements. The activities in the sequence are displayed in the **Up next** widget.    
+- For manual activities, you or a sales manager can create an activity on the timeline. The activity is displayed in the **Up next** widget as a current, upcoming, or completed activity, depending on its due date. This activity is available to you and other sellers who have access to the record.
 
 ## Add the Up next widget
 
@@ -56,7 +62,9 @@ By default, the **Up next** widget is available only in the out-of-the-box Sales
 ### See also
 
 [Enable and configure sales accelerator](enable-configure-sales-accelerator.md)   
-[Connect with customers through a record or the Up next widget](connect-with-customers.md)
+[Connect with customers through a record or the Up next widget](connect-with-customers.md)  
+[Understand the Up next widget](understand-the-up-next-widget.md) 
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

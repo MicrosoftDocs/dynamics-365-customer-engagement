@@ -14,7 +14,6 @@ ms.assetid: dd682a4b-d04b-40c2-b680-9dec34b986f0
 caps.latest.revision: 33
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -27,7 +26,7 @@ SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer
   
 <a name="bkm_where"></a>   
 ## Where to find the SolutionPackager tool  
- The SolutionPackager tool is distributed as part of the [Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools) NuGet package. See [Download tools from NuGet](download-tools-nuget.md) for information about how to download it.
+ The SolutionPackager tool is distributed as part of the [Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools) NuGet package. See [Dataverse development tools](/power-apps/developer/data-platform/download-tools-nuget) for information about how to download it.
   
   
 <a name="arguments"></a>   

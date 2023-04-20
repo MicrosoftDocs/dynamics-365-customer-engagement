@@ -1,11 +1,12 @@
 ---
-title: "Enable the detection of duplicate leads"
-description: "Enable duplicate lead detection to help sellers identify and address potential duplicate leads and keep the leads database clean."
-ms.date: 08/25/2022
-ms.topic: article
+title: Enable the detection of duplicate leads
+description: Enable duplicate lead detection to help sellers identify and address potential duplicate leads and keep the leads database clean.
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.topic: how-to
+ms.date: 04/13/2023
+ms.custom: bap-template 
 ---
 
 # Enable duplicate lead detection 
@@ -15,7 +16,7 @@ Enable duplicate lead detection to help your sellers identify and address potent
 ## License and role requirements
 | Requirement type | You must have |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## What is duplicate detection?
@@ -111,4 +112,5 @@ More information: [Security roles and privileges](/power-platform/admin/security
 
 ### See also
 
-[Manage duplicate leads](manage-duplicate-leads.md)
+[Enable duplicate lead detection for custom forms](enable-duplicate-detection-custom-forms.md)   
+[Manage duplicate leads](manage-duplicate-leads.md)  

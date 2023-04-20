@@ -5,13 +5,12 @@ keywords:
 ms.date: 01/08/2020
 
 ms.custom:
-ms.topic: samples
+ms.topic: sample
 applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 72eeafd8-8dd5-40af-9e3d-575534d60f61
 author: JimDaly
 ms.author: jdaly
-manager: jdaly
 ms.reviewer: pehecke
 ms.suite:
 ms.tgt_pltfrm:

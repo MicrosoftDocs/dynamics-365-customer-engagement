@@ -3,15 +3,11 @@ title: "Configure and manage agent scripts | MicrosoftDocs"
 description: "Learn how to create an agent script task, how to add answers to an agent script task, and also how to add action calls to an answer."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---

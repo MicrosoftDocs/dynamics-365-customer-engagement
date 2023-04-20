@@ -1,22 +1,17 @@
 ---
-title: "Work order and booking statuses in Dynamics 365 Field Service | Microsoft Docs"
-description: Learn about work order and booking statuses in Dynamics 365 Field Service
+title: Work order life cycle and statuses
+description: Learn about work order and booking statuses in Dynamics 365 Field Service.
 ms.date: 11/04/2021
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: clearab
+ms.author: anclear
 ---
 
-# Work order life cycle and statuses in Dynamics 365 Field Service
+# Work order life cycle and statuses
 
 Work order system statuses, work order substatuses, and booking statuses all work together to help stakeholders stay up to date with work orders from creation to closing. Updating one of these statuses can update the others automatically.
 
@@ -99,19 +94,12 @@ The creation of a booking automatically changes the work order system status to 
 After the work order is scheduled to a field technician resource, you can see it on the Field Service Mobile app. Then the field technician can note that they are traveling to the work order location by changing the booking status to **Traveling**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking on mobile.](./media/work-order-statuses-booking-status-scheduled-mobile.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of changing status to traveling on mobile.](./media/work-order-statuses-booking-status-traveling-mobile.png)
+> ![Screenshot of traveling on Mobile Application.](./media/FSM_Booking_Traveling.jpg)
 
 Each booking status has a color and icon and appears on the schedule board.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of traveling on schedule board.](./media/work-order-statuses-booking-status-traveling-schedule-board.png)
-
-The status and a color appear on the mobile app, too.
-> [!div class="mx-imgBorder"]
-> ![Screenshot of traveling status on mobile.](./media/work-order-statuses-booking-status-traveling-mobile-icon.png)
 
 
 Changing the booking status to **Traveling** automatically changes the work order system status to **Open - In Progress**.
@@ -123,27 +111,16 @@ Changing the booking status to **Traveling** automatically changes the work orde
 
 When the field technician arrives on site and is ready to begin the work, they change the booking status to **In Progress**. The work order status remains as **Open - In Progress**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of in progress booking status on mobile.](./media/work-order-statuses-booking-status-inprogress-mobile.png)
-
 On the related work order, the **First Arrived On** field is updated with the **Actual Arrival Time** of the booking.
 
-During work, the field technician may want to record times they are on break by changing the booking status to **On Break**. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of on break status.](./media/work-order-statuses-booking-status-onbreak-mobile-icon.png)
-
+During work, the field technician may want to record times they are on break by changing the booking status to **On Break**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of on break booking on schedule board.](./media/work-order-statuses-booking-status-onbreak-schedule-board.png)
 
 For both **In Progress** and **On Break** booking statuses, the work order system status remains as **Open - In Progress**.
 
-
-When the work is complete, the field technician will change the booking status to **Completed**. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of completed booking status on mobile.](./media/work-order-statuses-booking-status-completed-mobile.png)
+When the work is complete, the field technician will change the booking status to **Completed**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of updated completed booking on schedule board.](./media/work-order-statuses-booking-status-completed-schedule-board.png)
@@ -165,8 +142,6 @@ Finally, a back-office worker will review the completed work order to make sure 
 
 Changing the work order system status to **Closed-Posted** is only performed by office workers in the web interface. In fact, the out-of-the-box resource security roles prohibit field technicians from editing the work order system status field on the Field Service Mobile app.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of not being able to edit system status on mobile.](./media/work-order-statuses-system-status-mobile.png)
 
 Here is a table summarizing the out-of-the-box relationship between work order system statuses and booking statuses.
 
@@ -379,11 +354,6 @@ For the following fields:
 
 Select **Save and Close**.
 
-Unlike work order system statuses, work order substatuses can be updated on the mobile app by the field technicians. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of editing sub status on mobile.](./media/work-order-status-follow-up-mobile.png)
-
 The substatuses will appear based on the work order system status. In the example above, **Follow-Up Required** only appears when the work order system status is **Open-Completed** because we related the two.
 
 
@@ -397,8 +367,8 @@ Options include:
 - Do Not Move
 - Ignore
 
-If you create a new custom **Booking Status**, then you should pick a scheduling method that relates to the field service booking status. For example, the out-of-the-box booking status **Traveling** has an RSO scheduling method set to **Do Not Move** because RSO should not move bookings that a field technician is traveling to. Therefore, using our previous example, our new **Delayed** booking status is related to the **Traveling** Field Service status, so its scheduling method should be set to **Do Not Move** as well.
+If you create a new custom **Booking Status**, then you should pick a scheduling method that relates to the field service booking status. For example, the out-of-the-box booking status **Traveling** has an Resource Scheduling Optimization scheduling method set to **Do Not Move** because Resource Scheduling Optimization should not move bookings that a field technician is traveling to. Therefore, using our previous example, our new **Delayed** booking status is related to the **Traveling** Field Service status, so its scheduling method should be set to **Do Not Move** as well.
 
-For more information, see the article on [Resource Scheduling Optimization (RSO) configuration](rso-configuration.md).
+For more information, see the article on [Resource Scheduling Optimization configuration](rso-configuration.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

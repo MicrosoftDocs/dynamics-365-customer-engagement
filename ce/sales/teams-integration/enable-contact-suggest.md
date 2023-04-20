@@ -6,13 +6,9 @@ ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Configure the ability to use suggested contacts
-
-> [!NOTE]
-> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
 
 Configure the ability to use suggested contacts when starting a Teams chat.
 

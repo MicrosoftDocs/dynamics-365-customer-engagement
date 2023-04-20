@@ -1,0 +1,313 @@
+### YamlMime:FAQ
+metadata:
+  title: Frequently asked questions about Dynamics 365 Sales
+  description: Find answers to frequently asked questions about Dynamics 365 Sales Enterprise.
+  ms.date: 03/31/2023
+  ms.topic: article
+  author: udaykirang
+  ms.author: udag
+  manager: shujoshi
+    
+title: Frequently asked questions about Dynamics 365 Sales
+summary: |
+
+sections:
+  - name: Licenses
+    questions:
+      - question: What's the difference between Sales Premium and Sales Insights?  
+        answer: |
+          Sales Premium, like Sales Enterprise, is a type of license. Sales Insights is an add-in for Dynamics 365 Sales. Sales Premium includes all Sales Enterprise capabilities and premium Sales Insights capabilities. Sales Enterprise includes basic Sales Insights capabilities. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.  
+          
+      - question: Where can I find the comparison chart for Dynamics 365 Sales licenses?  
+        answer: |
+          The following license options are available for Dynamics 365 Sales:
+          
+          - Sales Premium
+          - Sales Enterprise
+          - Sales Professional
+          
+          For a detailed comparison of the capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
+          
+      - question: Can I use the Sales Hub app with the Sales Professional license?
+        answer: |
+          No, the Sales Hub app is only for the Sales Enterprise and Sales Premium customers. Though this app may be visible in Sales Professional environments, the users aren't entitled to use it. Sales Professional users are entitled to use only the Sales Professional app. We recommend that you [hide](/power-apps/maker/model-driven-apps/deactivate-app) or [delete](/power-apps/maker/model-driven-apps/delete-model-driven-app) the Sales Hub app to avoid any accidental usage.
+          
+      - question: Where can I find the Sales Professional and Sales Insights documentation?
+        answer: We've merged the documentation for Sales Enterprise, Sales Professional, and Sales Insights into this unified Sales documentation. The license and role requirements section at the top of an article indicates whether the content applies to the license you have. Any bookmarks you have should automatically redirect to the corresponding pages in the new unified documentation.
+
+  - name: Entity - Activity
+    questions:
+      - question: I'm redirected to the default tab when I save an appointment from a non-default tab. Why?
+        answer: This is by design. If the SchedulingEngine feature is enabled for appointments, you are redirected to the default tab, when you save the appointment from a non-default tab.
+
+      - question: Why are appointments saved automatically even when there's a custom script to stop automatic saving?
+        answer: This is by design. If the SchedulingEngine feature is enabled for appointments, the system overrides any custom script and saves the appointments automatically.
+
+      - question: Why does the Open Record Set button disappear when an appointment is saved?
+        answer: |
+          If the SchedulingEngine feature is enabled for appointments, the **Open Record Set** button disappears when you select **Save** but reappears when you refresh the page. For more information, go to [Open Record Set](/powerapps/user/navigation#record-set-navigation).
+          
+      - question: Why are synchronized appointments from Outlook shown as unsaved in Dynamics 365?
+        answer: This is by design. Disable the automatic save option in Dynamics 365 to show synchronized appointments from Outlook as saved in Dynamics 365.
+
+      - question: Why can't I see the What's new functionality in Unified Interface?
+        answer: |
+          This is by design. The What's new functionality is only available in the legacy web client. The equivalent in Unified Interface is to insert the Timeline control (with posts enabled) on the dashboard:
+          
+          1. In your app, select **Settings** ![Settings.](media/settings-icon.png), and then select **Advanced Settings**.
+          
+             The **Business Management** page opens in a new browser tab.
+          
+          1. On the navigation bar, select **Settings**, and then under **Customization**, select **Customizations**.
+          
+          1. Select **Customize the System**.
+          
+          1. Under **Components** in the solution explorer, select **Dashboards**.
+          
+          1. Select and open the dashboard to which you want to add the Timeline control.
+          
+          1. On the toolbar at the top of the page, select **Timeline**.
+          
+          1. Update the **Timeline Control Properties** as required, and then select **OK**.
+          
+          1. Save the dashboard, and then publish the customization.
+          
+  - name: Entities - Lead, opportunity, quote, order, invoice
+    questions:
+      - question: Where is the deal manager workspace?
+        answer: |
+          The deal manager workspace has been replaced by the [opportunity pipeline view](use-opportunity-pipeline-view.md). Any existing deal manager links or bookmarks are redirected to the **My Open Opportunities** view. Select **View as** > **Pipeline view** to open the opportunity pipeline view.
+      - question: Are there any differences between the opportunity pipeline view and the deal manager workspace?
+        answer: |
+          The deal manager workspace has been replaced by the [opportunity pipeline view](use-opportunity-pipeline-view.md). If you've been using the deal manager workspace, you need to be aware of the following changes:
+       
+          | **Component** | **Opportunity pipeline view** | **Deal manager** |
+          |-----------|------------|-----------|
+          | Access control | Available for all users who have access to the Opportunities page. | Available only for security roles that were granted access to the workspace.|
+          | Editable grid | Uses the Power Apps editable grid control and hence can be customized in Power Apps. | Customization was done using a JavaScript. |
+          | Side panel | Uses the default opportunity form in the side panel. | A separate form known as **In Context View** form was used in the side panel with limited customizations. | 
+      - question: Why can't I find the Pipeline view option?
+        answer: |
+          There are several possibilities:
+            - The **Show as** option could be hidden in the three-dot menu of the **Opportunities** page. 
+            - Your administrator might have customized the **Show as** drop-down. Contact your administrator to add the control by following the instructions [here](opportunity-pipeline-view-for-admins.md#set-pipeline-view-as-the-default-opportunities-view).
+            - Your organization might not have opted in for early access features. Contact your administrator if you'd like to try out early access features.
+            - Your administrator might have disabled custom views for opportunities. Contact your administrator to [add the view manually](opportunity-pipeline-view-for-admins.md#set-pipeline-view-as-the-default-opportunities-view).
+
+      - question: What's the difference between the duplicate detection capability in Power Platform and Dynamics 365 Sales?
+        answer: |
+          Power Platform detects duplicates by comparing the matchcode that's created for each record. For more information, go to [Detect duplicate data so you can fix or remove it](/power-platform/admin/detect-duplicate-data).
+          
+          Dynamics 365 Sales detects duplicates with an AI model that compares leads using fuzzy logic and the matchcode that's generated for each lead.
+          
+          The following table shows an example of the two methods for detecting duplicates.
+          
+          | Rule type | Applied for |  
+          |-----------|------------|
+          | Fuzzy logic | - Similar lead name and company name<br>- Similar lead name and the same email domain |
+          | Matchcode | - Email address<br>- Phone number |
+          
+          For more information, go to [Enable duplicate lead detection](enable-duplicate-lead-detection.md).
+          
+      - question: Why can't I edit Est. Revenue in the Opportunity form?
+        answer: |
+          To edit **Est. Revenue** in the **Opportunity** form, **Revenue** must be set as **User Provided** and the opportunity must be in an **Open** state.
+          
+          :::image type="content" source="media/faqs-est-revenue.png" alt-text="Screenshot of an opportunity record with Revenue highlighted.":::
+          
+      - question: Why aren't estimated revenue and total amount calculated automatically?
+        answer: |
+          When you add products to an opportunity, quote, order, or invoice, the **Est. Revenue** and **Total Amount** fields are automatically updated only if you've selected system pricing calculation. For more information, go to [Configure product catalog settings](configure-product-catalog-settings.md).
+                   
+  - name: Entities - Opportunity Product, Quote Product, Order Product, and Invoice Product 
+    questions:
+      - question: Why can't I make inline edits or see grid actions like move up or move down in the Product subgrid?
+        answer: |
+          If you select a view other than **Opportunity Product Inline Edit View** in the legacy web client, you can't make inline edits or see grid actions like move up, move down, and lock icons. This is by design. The inline edit view is available in Unified Interface. To verify whether a grid can be edited, go to **Grid control properties**.
+          
+          :::image type="content" source="media/faqs-grid-control-properties.png" alt-text="Screenshot of the properties settings for the grid control.":::
+          
+             > [!NOTE]
+             >
+             > - In Unified Interface, the behavior of the grid columns **Price Per Unit** and **Quantity** as editable or non-editable is independent of the view that's selected.  
+             > - An editable grid doesn't guarantee that all columns are editable; it depends on the **Pricing**.
+          <a name="fields-locked"></a>
+          
+      - question: Why are some fields editable while some are locked in the product subgrid?
+        answer: |
+          There are certain restrictions on inline editing, based on the type of product in the Products subgrid for opportunity, quote, order, and invoice:
+          
+          - If it's an individual (unbundled) product and it exists in the product catalog, all fields except **Quantity** and **Discount** are locked for editing.
+          
+          - If it's an individual product and it exists in the product catalog as a write-in, all fields except **Product Name**, **Quantity**, and **Discount** are locked for editing.
+          
+          - If it's a product bundle or an optional item in a bundle, all fields except **Quantity** and **Discount** are locked for editing.
+          
+          - If it's a required product in a bundle, all fields are locked for editing.
+      - question: How can I set the default pricing to override price on the product form?
+        answer: |
+          To set the value of the default **Pricing** as **Override Price** on the opportunity, quote, order, or invoice product form, follow these steps:
+                    
+          1. Go to **Settings** > **Customizations** > **Customize the System**.
+          1. Select **Entities** > **Opportunity Product** > **Fields**.
+             > [!NOTE]
+             > For quote, order, and invoice, select **Quote Product**, **Order Product**, and **Invoice Product** forms respectively.
+          
+          1. Select **ispriceoverridden**, and then set **Default Value** to **Override Price**.
+          1. Save and publish the customizations.
+          
+          :::image type="content" source="media/faqs-pricing-change-order-product-form.png" alt-text="Screenshot of customization settings on the Opportunity Product form.":::
+
+      - question: Why can't I update the owning business unit for opportunity products?
+        answer: There's no direct relationship between business units and opportunity products. The owning business unit for opportunity products is automatically inherited from the parent opportunity. So, you can't update the owning business unit at the opportunity product-level.
+        
+  - name: Product Pricing
+    questions:
+      - question: How do I change the default value for Prices Locked?
+        answer: |
+          You can change the default value for **Prices Locked** in the **Order** or **Invoice** form through customizations or the inline editable grid:
+          
+          1. Go to **Settings** > **Customizations** > **Customize the System**.
+          1. Select **Entities** > **Order** or **Invoice** > **Fields**.
+          1. Select **ispricelocked**, and then set **Default Value** to **No**.
+          1. Save and publish the customizations.
+          
+      - question: How do I change the state of Prices Locked?
+        answer: |
+          To change the state of **Prices Locked**, select the **Lock** icon on the inline editable grid.
+          
+          In the legacy web client:
+          
+          :::image type="content" source="media/faqs-edit-pricing-for-product.png" alt-text="Screenshot of editing the pricing for a product in the legacy web client.":::
+          
+          In Unified Interface:
+          
+          :::image type="content" source="media/faqs-edit-pricing-for-product-uci.png" alt-text="Screenshot of editing the pricing for a product in Unified Interface.":::
+          
+      - question: Why can't I change the values in the Price Per Unit column in the Products grid?
+        answer: |
+          The **Prices Locked** (**ispricelocked**) setting controls whether the prices specified on the **Order** or **Invoice** form can be changed.
+          
+          The following tables show the interaction between **Prices Locked** and **Price Per Unit** on editable and non-editable grids in the **Products** subgrid and **Order** product form.
+          
+          For existing products:
+          
+          | **Prices Locked** | **Price Per Unit** (editable grid) | **Price Per Unit** (non-editable grid) | **Order** product form |
+          |-------------|-------------|-------------|-------------|
+          | Yes | Non-editable | Non-editable | Non-editable |
+          | No and **Pricing** is **Override Price** | Editable | Non-editable | Editable |
+          | No and **Pricing** is **Use Default** | Non-editable | Non-editable | Non-editable |
+          
+          For write-in products:
+          
+          | **Prices Locked** | **Price Per Unit** (editable grid) | **Price Per Unit** (non-editable grid) | **Order** product form |
+          |-------------|-------------|-------------|-------------|
+          | Yes | Non-editable | Non-editable | Non-editable |
+          | No | Editable | Non-editable | Editable |
+          
+      - question: How does changing the product price in Pricelist affect Price Per Unit on the Order product form?
+        answer: |
+          The following table shows the effect of changing the product price in **Pricelist** on the **Price Per Unit** of the **Order** product form.
+          
+          | Entity state | IsPriceLocked | Pricing | Does **Price Per Unit** change? |
+          |------------|-------------|-------|----------------------------------------------------------------------|
+          | Editable | Yes | Default or Override | No |
+          | Editable | No | Default | Yes |
+          | Editable | No | Override | No |
+          | ReadOnly | Yes or No | Default or Override | No |
+          
+  - name: Forecasting
+    questions:
+      - question: Who owns the forecast?
+        answer: |
+          To view the forecast owner:
+          
+          1. In the Sales Hub app, select **App Settings**.
+          1. Under **Performance management**, select **Forecast configuration**.
+          1. Select the forecast configuration that's related to the forecast, and then select the **Permissions** step.
+          1. Check the **Owner lookup field (Preview)** to determine who owns the forecast.
+          
+              :::image type="content" source="media/user-security-field.png" alt-text="Screenshot of the Owner lookup field in the Permissions tab.":::
+          For more information, see [Define the forecast owner](provide-permissions-forecast.md#define-the-forecast-owner).
+           
+        
+      - question: How do I change the forecast calculation for lost opportunities?
+        answer: |
+          By default, the forecast calculation for lost opportunities is based on the actual revenue. To change it to estimated revenue, go to the **Layout** step of the forecast configuration, select the **Lost** forecast category, and then  select **Est. Revenue** in the **Amount** field. For more information, go to [Choose layout and columns](choose-layout-and-columns-forecast.md).
+          
+          
+      - question: Can I manually set the forecast category of an opportunity as Won or Lost?
+        answer: |
+          Technically, you can. The **Opportunity** form and editable grids, other than the grid in the forecast, allow the selection of **Won** or **Lost** as forecast categories.
+          
+          However, manually setting the forecast category will interfere with your forecast and rollup values, and isn't an ideal practice. For example, if you manually set the value of an opportunity to **Won** without closing the opportunity, the opportunity might not even show up in the forecast. By default, forecasts are configured to show an opportunity as **Won** only when the actual revenue and actual close date are available.
+          
+          The best practice is to close the opportunity as **Won** or **Lost** and have the forecast category automatically updated. For more information, go to [Close opportunities as won or lost](close-opportunity-won-lost-sales.md).
+          
+  - name: Focused view
+    questions:
+      - question: Is there any administration setup required to use focused view?
+        answer: |
+          No. Focused view is available out-of-the-box and doesn't require any setup. 
+
+      - question: Is focused view available for custom entities?
+        answer: |
+          No, currently focused view is available only for contact, account, lead, and opportunity entities.
+
+      - question: Is focused view available on custom apps?
+        answer: |
+          Yes, focused view is available on custom apps.
+
+      - question: How is focused view different from the system and user created views?
+        answer: |
+          Focused view is a new entity layout similar to the current default grid layout, which helps the users to view all the assigned records in one area similar to the Sales accelerator workspace. 
+
+      - question: What all views can I see in focused view?
+        answer: |
+          You can see all the system and user created views that are available in the grid layout.
+
+      - question: What are the filter capabilities available in focused view?
+        answer: |
+          Currently, only the grid column-level filters are available for the columns in the primary entity. For example, Lead entity-related columns on lead grid.
+
+      - question: Can I set the focused view as the default view?
+        answer: |
+          Currently, you can't set the focused view as your default view. 
+
+      - question: How can I disable focused view in my organization?
+        answer: |
+          To disable the focused view in your organization, your administrator must send an email to Microsoft customer support. 
+
+      - question: Is focused view available for custom entities? 
+        answer: |
+          No. Currently, focused view is available only for account, contact, lead, and opportunity entities.  
+
+  - name: Text message (SMS​)
+    questions:
+      - question: Which service providers are supported?
+        answer: |
+          Currently, only Telesign, Twilio, and Infobip are supported as SMS channel providers.​
+
+      - question: Can a same number be used across multiple Dynamics 365 applications such as Sales and Marketing?​
+        answer: |
+          No. The number must be unique for each application, although the same channel provider can be used across applications.​          
+
+      - question: Can I add my teammate to an ongoing SMS conversation with my customer?​
+        answer: |
+          No. Currently, group SMS isn't supported as part of the SMS capability. However, a number can be assigned to a team, which can be used by the team to collaborate with a customer. All the conversations are added to the entity timeline.​           
+
+      - question: Can I see if my customer has read the message or the message content?​
+        answer: |
+          ​No. Currently, you can only see if the message is delivered to the customer.          
+
+      - question: Can I send or receive SMS through my mobile device?​
+        answer: |
+          ​No. You can't send or receive SMS through your mobile device.​          
+
+      - question: Who can see an incoming SMS notification if the number is assigned to a team?​
+        answer: |
+          In this case, all the users see the notification and can choose to respond to the customer. If a message comes from an unknown number, only the team admin gets the notification. Team members can view the message only in the **Activities** page.          
+
+
+          [!INCLUDE[footer-include](../includes/footer-banner.md)]
+          

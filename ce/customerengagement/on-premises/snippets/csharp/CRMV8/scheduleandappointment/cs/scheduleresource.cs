@@ -80,7 +80,7 @@ namespace Microsoft.Crm.Sdk.Samples
                         Duration = 60,
                         NumberOfResults = 10,
                         ServiceId = _plumberServiceId,
-                        // The search window describes the time when the resouce can be scheduled.
+                        // The search window describes the time when the resource can be scheduled.
                         // It must be set.
                         SearchWindowStart = DateTime.Now.ToUniversalTime(),
                         SearchWindowEnd = DateTime.Now.AddDays(7).ToUniversalTime(),

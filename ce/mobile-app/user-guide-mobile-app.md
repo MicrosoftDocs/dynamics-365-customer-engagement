@@ -3,7 +3,7 @@ title: "Basic navigation on Dynamics 365 for phones and tablets (Dynamics 365 ap
 description: How to use the Dynamics 365 for phones and tablets mobile app.
 ms.custom: 
 ms.date: 1/27/2021
-ms.reviewer: kvivek
+ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -11,16 +11,12 @@ ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 6828238b-1545-4719-a192-0014acb03196
 caps.latest.revision: 1
-ms.author: mkaur
-author: mduelae
-manager: kvivek
+ms.author: sericks
+author: sericks007
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Basic navigation on Dynamics 365 for phones and tablets

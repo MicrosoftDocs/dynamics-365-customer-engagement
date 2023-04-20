@@ -1,21 +1,17 @@
 ---
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
-ms.date: 08/23/2022
+ms.date: 03/27/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Manage your Dynamics 365 Marketing environments
@@ -52,7 +48,11 @@ After copying or restoring an environment, as described later in this article, y
 - All apps, settings, and customizations from your source environment will be present on the target environment.
 - For copies, if you chose to do an "Everything" copy, the entire organizational database of your source environment will be copied to the target environment. This means that copied data from your source environment will be visible on the target environment, but your work in the target environment won't affect your source database from now on.
 - For copies, if you chose to do a "Customizations and schemas only" copy, all your apps and customizations will still be present on the target environment, but the organizational database will be nearly empty, so none of your source data (including email messages, portal content, and customer journeys) will be there.
-- All records that were live on the source environment (such as customer journeys, emails, lead-scoring records, and more) will revert to the draft state on the target environment. You must go live again with any of these records that you want to use on the target environment.
+- All records (except for customer journeys) that were live on the source environment (such as emails, lead-scoring records, and more) will revert to **Draft** state on the target environment. You must go live again with any of these records that you want to use on the target environment.
+  > [!NOTE]
+  > For customer journeys:
+  > - All Expired/Draft journeys will be left as it is.
+  > - All other journeys will be cloned in **Draft** state and the original journeys will be left in place with an **Expired** state.
 - After any copy or restore operation, you must [run the setup wizard](purchase-setup.md#run-wizard) on the target environment. This will create a new set of Marketing services (including a new marketing-insights service) and link them to the target environment. If you don't run the wizard, all features that require services (such as insights and email sending) won't work, and you'll still see information about images in the files library for which the source files aren't available.
 - Because a new set of Marketing services is created on the target environment, interaction data from your source environment (such as email clicks or website visits) won't be available to the target environment. Most insights data will be initialized. You can freely generate new interaction data on the target environment without affecting your source environment.
 - Files uploaded to your source environment (such as images used in emails and landing pages) won't be available to the target environment. If you go live with an email or page that was previously published on the source environment, the published design will continue to use the previous image URLs from the source environment&mdash;these images will still appear in the republished designs provided they are still available on the source environment, but to avoid confusion, we strongly recommend that you upload all the images you need to the new environment and edit your emails and pages to use those images before going live with them again.
@@ -141,7 +141,7 @@ For more information about how to backup marketing-services data to blob storage
 
 You can create an on-demand backup at any time, but when Marketing is installed on your source environment, you must take a few extra precautions by using the following procedure:
 
-1. [Open the Power Platform admin center](/power-platform-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all up to date on your source environment, as described in [Keep Marketing up to date](apply-updates.md).
+1. [Open the Power Platform admin center](power-platform-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all up to date on your source environment, as described in [Keep Marketing up to date](apply-updates.md).
 1. Create the on-demand backup as usual, as described in [Backup and restore environments](/power-platform/admin/backup-restore-environments).
 
     ![Create an on-demand backup.](media/instances-backup.png "Create an on-demand backup")
@@ -220,12 +220,9 @@ For standard Dynamics 365 environments (without Marketing installed), you can us
 > [!WARNING]
 > When you reset a Marketing environment, you *must* choose an app template that enables Dynamics apps. Dynamics apps require a special template that contains prerequisite solutions. If the app template you select does not enable Dynamics apps, you will need to delete the environment and provision the Marketing app into a different environment.
 
-## Do not change the URL for an environment with real-time or outbound Marketing installed
+## Change the URL for an environment with real-time or outbound Marketing installed
 
-For standard Dynamics 365 environments (without any flavor of Marketing installed), you can use the Power Platform admin center to change the URL of an environment. However, _you can't currently do this if you have real-time or outbound Marketing installed_.
-
-> [!IMPORTANT]
-> Do not attempt to change the URL for a real-time or outbound Marketing environment. If you require a different URL, you must set up a new Dynamics 365 environment at the new URL and then reinstall real-time or outbound Marketing there.
+For standard Dynamics 365 environments (including Marketing), you can use the Power Platform admin center to change the URL of the environment. Learn more: [Edit properties of an environment](/power-platform/admin/edit-properties-environment).
 
 ### See also
 

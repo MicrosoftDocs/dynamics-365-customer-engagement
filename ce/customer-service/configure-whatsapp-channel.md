@@ -1,39 +1,35 @@
 ---
 title: "Configure a WhatsApp channel through Twilio | MicrosoftDocs"
 description: "Use this topic to learn how to configure the WhatsApp channel through Twilio in Omnichannel for Customer Service."
-ms.date: 06/08/2022
+ms.date: 10/27/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Configure a WhatsApp channel through Twilio
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
-Many customers use social messaging channels like WhatsApp for their personal communication needs and prefer to use the WhatsApp channel to engage with businesses also.
+The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omnichannel for Customer Service to engage with customers who prefer to use the WhatsApp channel.
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
-
-The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omnichannel for Customer Service to engage with customers who prefer the WhatsApp channel.
 
 ## Prerequisites
 
 - Make sure channels are provisioned in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
   > [!NOTE]
-  >
-  > To enable the Twilio channel in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
+  > To enable the Twilio channel in an existing environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
 - Obtain a Twilio account with an appropriate subscription or a Twilio sandbox account. For information on configuring a Twilio sandbox account, see [Integrate a Twilio sandbox account with Omnichannel for Customer Service](#integrate-a-twilio-sandbox-account-with-omnichannel-for-customer-service)
 
 - Connect Twilio Number to your WhatsApp Business Profile. To learn more, see [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
 
+- Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
+
 ## WhatsApp message types and 24-hour session rule
 
-- **Template messages:** These are the outbound messages that agents send through Twilio using one of the pre-approved templates. They are typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. For more information about WhatsApp message templates, see [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
+- **Template messages:** Are the outbound messages that agents send through Twilio using one of the pre-approved templates. They are typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. For more information about WhatsApp message templates, see [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
 
 - **Session messages:** According to WhatsApp, session messages are incoming messages from a customer or outgoing replies by an agent to the incoming messages, within 24 hours. A messaging session starts when agents receive a message from a customer. It lasts for 24 hours from the most recently received message. Session messages don't need to follow a template, and can include media attachments.
 
@@ -80,7 +76,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
  
     3. On the **WhatsApp numbers** page, select **Add**, and on the page that appears, enter the following information:
       - **Name:** Specify a name.
-      - **Number:** Specify the WhatsApp phone number.
+      - **Number:** Specify the WhatsApp phone number by prefixing the plus (+) symbol.
     
     4. On the **Callback information** page, copy the value in the **Twilio inbound URL** box. You'll use the copied information for Twilio account.
     

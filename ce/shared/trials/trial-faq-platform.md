@@ -1,10 +1,4 @@
 ## Sign-up
-<!---
-### Which email address I should use to sign up?
-
-If your company has an existing relationship with Microsoft and you're allowed to do self-service trials, use your company email address. We'll establish your trial on your company’s account.
-
-If your company doesn't have an existing relationship with Microsoft or you aren’t allowed to do self-service trials on your company’s existing account, use your personal email to sign up and we'll create a temporary account for you. You'll be the administrator of the account and for the trial.-->
 
 ### What are the system requirements for the trial?
 
@@ -13,6 +7,10 @@ This app is a cloud-based service that doesn't require special software other th
 ### How do I sign up for the trial without a Microsoft 365 tenant?
 
 You can enter a non-work email address and we will create an account and tenant for you.
+
+### Can I sign up for trial using a personal email ID that's not associated with a Microsoft account?<a name="personalemail"></a>
+
+You can use a personal email ID. But you won't be able to access Power Platform admin center to add more users to the trial, change security roles, or extend the trial period.
 
 ### Can I sign up for multiple Dynamics 365 apps such as Sales, Marketing, and Customer Service?
 
@@ -39,12 +37,10 @@ You can add an unlimited number of users to the trial environment.
 
 You can't reset the trial environment. However, you can wait for the trial period to end and then sign up again for a new trial.
 
-## Trial expiration and extension
-
-### Why did my trial expire before the end of the trial period?
-
-The trial expires if there's no activity for 14 consecutive days. An email notification is sent to you after seven days of inactivity. Expired trials cannot be reactivated. However, you can start a new trial.
-
 ### How do I extend the trial?
 
 You can extend the trial for another trial period in the admin center. For instructions, see [Extend your trial](/power-platform/admin/trial-environments#extend-a-trial-standard-environment). You can extend your trial once.
+
+### How do I cancel the trial?
+
+If you have signed up for the trial using a managed Azure Active Directory account, you can request your Power Platform admin to [delete the trial environment](/power-platform/admin/delete-environment). If you have signed up using your personal account, you cannot cancel the trial manually. The trial will expire after the 30-day trial period and the trial environment will be automatically deleted.  

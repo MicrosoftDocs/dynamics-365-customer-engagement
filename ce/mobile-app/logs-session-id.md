@@ -11,16 +11,12 @@ ms.topic: error-reference
 applies_to: Dynamics 365 apps
 ms.assetid: 55e7ba56-2f18-4eaf-8282-70cd639887f8
 caps.latest.revision: 1
-ms.author: mkaur
-author: mduelae
-manager: kvivek
+ms.author: sericks
+author: sericks007
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Sales
 ---
 # Get session ID and logs to help troubleshoot your issue
 

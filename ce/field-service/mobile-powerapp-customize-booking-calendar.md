@@ -2,15 +2,10 @@
 title: "Edit the bookings calendar columns on the Dynamics 365 Field Service mobile app (contains video) | MicrosoftDocs"
 description: description
 ms.date: 12/01/2021
-ms.reviewer: mhart
 
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
+author: JonBaker007
+ms.author: jobaker
 ---
 
 # Edit the bookings calendar columns on the Dynamics 365 Field Service mobile app

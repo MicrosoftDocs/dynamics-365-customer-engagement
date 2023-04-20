@@ -14,7 +14,6 @@ ms.assetid: 1755c489-1b3e-490e-acfb-d1ff68384ff4
 caps.latest.revision: 55
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Plan your upgrade to Microsoft Dynamics 365 Server
 

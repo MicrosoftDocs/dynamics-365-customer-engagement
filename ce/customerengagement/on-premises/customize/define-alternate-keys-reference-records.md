@@ -2,9 +2,8 @@
 title: "Define alternate keys in Dynamics 365 Customer Engagement (on-premises)"
 description: "Ensure an efficient and accurate way of integrating data from external systems using alternate keys. Learn about the benefits and steps for creating them."
 ms.custom: 
-ms.date: 04/03/2020
+ms.date: 03/30/2023
 ms.reviewer: 
-
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -15,7 +14,6 @@ author: Mattp123
 ms.assetid: 29e53691-0b18-4fde-a1d0-7490aa227898
 caps.latest.revision: 10
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - customizer
 
@@ -35,7 +33,8 @@ With *alternate keys*, you can assure an efficient and accurate way of integrati
 -   Simplified programming with data imported from external systems without record IDs.  
 
 > [!IMPORTANT]
->  You can't use a field that is in use by existing records as an alternate key. This will result in a duplicate records error.
+> - You can't use a field that is in use by existing records as an alternate key. This will result in a duplicate records error.
+> - Fields that have field level security enabled can’t be used as an alternate key. More information: [Field level security to control access](/dynamics365/customerengagement/on-premises/admin/field-level-security)
   
 To learn more about alternate keys programmability, see:   
 [Define alternate keys for an entity](../developer/define-alternate-keys-entity.md)  

@@ -4,7 +4,6 @@ description: "Get user details on Microsoft Teams from Azure bot in Omnichannel 
 ms.date: 06/16/2021
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.topic: article
 ---
 

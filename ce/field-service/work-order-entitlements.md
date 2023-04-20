@@ -1,22 +1,17 @@
 ---
-title: "Entitlements for work orders - Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn about how to use entitlements for work orders in Dynamics 365 Field Service
+title: Create entitlements for work orders
+description: Learn about how to use entitlements for work orders in Dynamics 365 Field Service.
 ms.date: 03/17/2020
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: lmasieri
+ms.author: lmasieri
 ---
 
-# Entitlements for work orders in Dynamics 365 Field Service
+# Create entitlements for work orders
 
 Entitlements for work orders allow field service organizations to dynamically apply price lists and discounts to work order products and services based on work order attributes and date range factors. This parallels how organizations might offer case entitlements in Dynamics 365 Customer Service.
 
@@ -79,7 +74,7 @@ Go to **Field Service > Settings > Entitlement** and create a new entitlement.
 
 You'll see the following fields:
 
-- **Primary Customer:** Choose the account this entitlement will apply to. If the account chosen here is later listed as the billing account of a work order, then this entitlement can be eligible. An entitlement can only apply to one customer; however, a billing account can be related to multiple service accounts, so work orders for multiple locations can have entitlements applied to all of them as long as the billing account is the same.
+- **Primary Customer:** Choose the [account this entitlement](accounts.md) will apply to. If the account chosen here is later listed as the billing account of a work order, then this entitlement can be eligible. An entitlement can only apply to one customer; however, a billing account can be related to multiple service accounts, so work orders for multiple locations can have entitlements applied to all of them as long as the billing account is the same.
 
 - **Start/End Date:** Choose the date range during which this entitlement is valid. If a valid work order is created within this range, the entitlement will be applied.
 

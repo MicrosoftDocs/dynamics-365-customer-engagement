@@ -1,11 +1,10 @@
 ---
 title: "Provision Omnichannel for Customer Service and voice channel | MicrosoftDocs"
 description: "Perform the steps in this article to provision Omnichannel for Customer Service and add channels so that can you start using the product."
-ms.date: 05/02/2022
+ms.date: 02/17/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Provision Omnichannel for Customer Service
@@ -24,7 +23,7 @@ You can provision the following channels in Omnichannel for Customer Service:
 
 - [Chat](set-up-chat-widget.md)
 - [Voice](voice-channel.md)
-- [SMS](configure-sms-channel.md)
+- [SMS](sms-channel-overview.md)
 - [Social](channels.md)
 - [Microsoft Teams](configure-teams-chat.md)
 
@@ -35,18 +34,18 @@ You can provision the following channels in Omnichannel for Customer Service:
 
 - Obtain an active subscription of one or more of the following:
 
-    - To provision the Omnichannel for Customer Service application, Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging
-    - To provision the voice channel, Voice Channel for Dynamics 365 Customer Service
+  - To provision the Omnichannel for Customer Service application, Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging
+  - To provision the voice channel, Voice Channel for Dynamics 365 Customer Service
   
-     > [!NOTE]
-     > More information: [Pricing](https://dynamics.microsoft.com/customer-service/pricing/), Dynamics 365 Licensing Guide, and [How to purchase through Volume Licensing](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy). You can also get a free 30-day trial if you have the required prerequisites. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md).
+    > [!NOTE]
+    > More information: [Pricing](https://dynamics.microsoft.com/customer-service/pricing/), Dynamics 365 Licensing Guide, and [How to purchase through Volume Licensing](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy). You can also get a free 30-day trial if you have the required prerequisites. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md).
 
 - Set up the prerequisites mentioned in the system requirements. More information: [Prerequisites](system-requirements-omnichannel.md#prerequisites).
 
 - Ensure that the provisioning user has the following permissions:
-    - Microsoft 365 Global Admin role. More information: [Assign Admin roles to user in Microsoft Office 365](/microsoft-365/admin/add-users/assign-admin-roles)
-    - Dynamics 365 System Administrator role on the root business unit for your organization. More information: [Assign security roles to a user in Power Platform](/power-platform/admin/assign-security-roles) and [Create or edit business units](/power-platform/admin/create-edit-business-units)
-    - Read-Write access in the Client Access License Information (CAL). More information: [Create a Read-Write user account in Power Platform](/power-platform/admin/create-users#create-a-read-write-user-account)
+  - Microsoft 365 Global Admin role. More information: [Assign Admin roles to user in Microsoft Office 365](/microsoft-365/admin/add-users/assign-admin-roles)
+  - Dynamics 365 System Administrator role on the root business unit for your organization. More information: [Assign security roles to a user in Power Platform](/power-platform/admin/assign-security-roles) and [Create or edit business units](/power-platform/admin/create-edit-business-units)
+  - Read-Write access in the Client Access License Information (CAL). More information: [Create a Read-Write user account in Power Platform](/power-platform/admin/create-users#create-a-read-write-user-account)
 
 ## Provide data access consent
 
@@ -60,14 +59,14 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
     > [!div class=mx-imgBorder]
     > ![Grant consent.](media/data-consent.png "Grant consent")
 
-> For more information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions) and [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md).
+For more information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions) and [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md).
 
 ## Set up Omnichannel for Customer Service<a name="set-up-omnichannel"> </a>
 
 1. In Power Platform admin center, on the **Environments** page, select the environment in which Omnichannel for Customer Service needs to be set up.
 
 1. In the left pane, expand **Resources**, and select **Dynamics 365 apps**. 
-   
+
    > [!NOTE]
    > Don't select **Environments** in the left pane and try to navigate to **Dynamics 365 apps** from there. The correct way to navigate to the **Dynamics 365 apps** management options is to expand **Resources** in the left pane and select **Dynamics 365 apps**.
   
@@ -119,7 +118,6 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
 
     > [!div class=mx-imgBorder]
     > ![Set up complete.](media/install-complete.png "Set up complete")
-
 
 > [!IMPORTANT]
 >

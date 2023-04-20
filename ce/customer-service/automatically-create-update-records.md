@@ -1,18 +1,14 @@
 ---
 title: Automatically create or update records in Dynamics 365 Customer Service | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 05/25/2022
+ms.date: 04/13/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 searchScope:
@@ -56,7 +52,7 @@ These activities can be converted to any default (system) entity records or cust
 
 Make sure that the following prerequisites are met:
 
-- Permission or role to create rules.
+- Permissions, roles, and the Power Automate license to create automatic record creation rules.
 - Information on the queues for which you want to create the rules.
 
 ## Configure rules for creating or updating records automatically
@@ -160,6 +156,8 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
         If the sender of the email is a contact with a parent account, a record is created if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).
 
    - **Wait for a specific amount of time after the connected case has been resolved**: Select **Yes**, and then select a time value in the **Select the amount of time** box that appears. No new case will be created until the specified period of time lapses after a related case is resolved. For example, if you have set the value to yes and specify one hour, and a case exists for a printer issue, when a mail comes for the same printer issue, another case won't be created until one hour lapses after the existing printer issue case is resolved.
+    
+       The resolved case won't be re-opened automatically when the incoming email is associated with it. However, you can configure flows using Power Automate, to re-open a resolved case when an incoming email is associated with the resolved case.
 
       If set to **No**, a case will be created even if a related case exists and only if the email isn't already associated with a resolved case.
 

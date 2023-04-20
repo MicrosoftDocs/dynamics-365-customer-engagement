@@ -1,11 +1,10 @@
 ---
 title: "Set up visitor location detection | MicrosoftDocs"
 description: "Perform the steps to set up detection of visitor location and create a geo location provider record in Omnichannel for Customer Service."
-ms.date: 06/09/2022
+ms.date: 10/27/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Set up visitor location detection
@@ -19,12 +18,16 @@ You can configure your chat widget to detect a visitor's location based on their
 
 To enable location detection, you must first get your Bing Maps API key and create a geo location provider record. After you create a geo location provider record, you must add it in the **Location** tab of the appropriate chat widgets to enable location detection. For information on how to get the Bing Maps API key, see [Getting a Bing Maps Key](/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
 
+## Prerequisite
+
+Make sure you have permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
+
 ## Create a geo location provider record
 
 You can create a geo location provider record in the Customer Service admin center or Omnichannel admin center app.
 
 1. Go to one of the apps, and perform the following steps.
-   
+
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
@@ -33,7 +36,7 @@ You can create a geo location provider record in the Customer Service admin cent
      The **Active Geo Location Providers** page is displayed.      
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-    
+
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Geo location** section, select **Manage**.
 

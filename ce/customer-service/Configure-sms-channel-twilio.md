@@ -1,18 +1,17 @@
 ---
-title: "Configure an SMS channel for Twilio | MicrosoftDocs"
-description: "Use this topic to understand how to configure an SMS channel for Twilio in Omnichannel for Customer Service."
-ms.date: 04/04/2022
-ms.topic: article
+title: Configure an SMS channel for Twilio
+description: Learn how to configure an SMS channel for Twilio in Omnichannel for Customer Service.
+ms.date: 03/08/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Configure an SMS channel for Twilio
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 The SMS channel through Twilio in Omnichannel for Customer Service allows your organization to connect to customers by using text messages. Your customers can send text messages through Twilio and connect with an appropriate customer service agent. Agents can view incoming SMS requests on their dashboard and respond accordingly.
 
@@ -26,6 +25,7 @@ Make sure that the following prerequisites are met:
     > To enable the SMS channel for Twilio in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
 
 - A Twilio account with a phone number and subscription is available.
+- Permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ### Get Twilio account details
 
@@ -41,6 +41,10 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 > - To ensure that third-party SMS providers handle opt-out commands properly, you must configure your consent settings with the provider directly.  
 
 ## Set up the SMS channel for Twilio
+
+To configure the SMS channel, you'll do the following tasks:
+- Configure the SMS number
+- Configure the workstream for the SMS channel
 
 ### Configure the SMS number
 
@@ -74,15 +78,15 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 
 To configure the workstream, make sure you perform the steps to create a workstream for the SMS channel. More information: [Create workstreams](create-workstreams.md)
 
-1. Go to workstreams page and open the workstream that you created for the channel.
-2. In the Set up your SMS channel section, select **Set up SMS**, and then configure the following options:
+1. Go to workstreams page and open the workstream you created for the channel.
+2. In the **Set up your SMS channel** section, select **Set up SMS**, and then configure the following options:
    1. On the **SMS setup** page, select a number from the list.
    2. On the **Language** page, select the language that you want to set as the default.
    3. On the **Behaviors** page, configure the following options:
      - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. More information: [Configure operating hours](create-operating-hours.md)
      - [Custom automated messages](configure-automated-message.md)
      - [Post-conversation survey](configure-post-conversation-survey.md)
-   4. In **User features**, set the toggle for **File attachments** to On and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md)
+   4. In **User features**, set the toggle for **File attachments** to **On** and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md)
      - Customers can send file attachments
      - Agents can send file attachments
    5. Verify the settings on the **Summary** page, and then select **Finish**. The SMS for Twilio channel is configured.
@@ -148,7 +152,6 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
 6. Select **Save**. The **Twilio inbound URL** is generated and displayed.
 
-
 7. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 
     - **Number**: Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
@@ -162,7 +165,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
 8. Select **Save**.
 
-9.  (Optional). On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
+9. (Optional). On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
 10. (Optional). On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
@@ -180,6 +183,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 ### See also
 
 [Channels in Omnichannel for Customer Service](channels.md)  
+[Overview of SMS channels](sms-channel-overview.md)  
 [Delete a configured channel](delete-channel.md)  
 [Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)	
 [Configure SMS channel using TeleSign](configure-sms-channel.md)	

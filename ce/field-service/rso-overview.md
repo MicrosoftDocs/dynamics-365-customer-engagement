@@ -1,16 +1,11 @@
 ---
 title: Overview of Resource Scheduling Optimization for Dynamics 365 Field Service
 description: Learn about Resource Scheduling Optimization for Dynamics 365 Field Service.
-author: m-hartmann
-ms.reviewer: mhart
-manager: shellyha
+author: FeifeiQiu
+ms.author: feiqiu
 ms.date: 09/07/2022
 ms.topic: overview
 ms.subservice: resource-scheduling-optimization
-ms.author: mhart
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Overview of Resource Scheduling Optimization
@@ -120,7 +115,5 @@ Every time Resource Scheduling Optimization runs, it keeps track of the total tr
 - [Resource Scheduling Optimization quickstart guide](rso-quickstart.md)
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Resource Scheduling Optimization quickstart video](https://youtu.be/oJ-3HTJWRMo)
-
-- [Five stages of scheduling adoption](5-stages-scheduling-adoption.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

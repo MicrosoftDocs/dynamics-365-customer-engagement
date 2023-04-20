@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Schedule and post messages on social media
@@ -66,7 +62,7 @@ You can edit, reschedule, or cancel any post that hasn't been sent yet. Just fin
 
 Posts that were already sent are read-only, so you can't change or reschedule them, but you can remove them from the calendar or delete if you want. When you delete a post that has already been sent, it will be removed from the calendar and from the social-media sites.
 
-        > [!NOTE]
-        > Posts that were made to the Instagram channel cannot be removed by the Marketing app; Instagram does not provide this functionality. To remove the post from Instagram, go to Instagram and manually remove it. 
+> [!NOTE]
+> Posts that were made to the Instagram channel cannot be removed by the Marketing app; Instagram does not provide this functionality. To remove the post from Instagram, go to Instagram and manually remove it. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

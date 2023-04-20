@@ -5,14 +5,10 @@ ms.date: 05/04/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -23,7 +19,7 @@ ms.custom:
 
 A portal is a platform that brings you information from various sources. Having a knowledge base on the portal makes it a customer self-service portal, where you can access and search for knowledge articles through simple queries. This helps resolve issues and makes information easily accessible. You can search for your knowledge articles by selecting **Knowledge Base** from your portal.
 
-You can search for a knowledge article after it has been published to the portal. For more information, go to [Schedule or publish an article](customer-service-hub-user-guide-knowledge-article.md#schedule-or-publish-an-article). You can also share knowledge articles as URLs on an external portal. For more information, go to [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management).
+You can search for a knowledge article after it has been published to the portal. For more information, go to [Publish knowledge articles](publish-ka.md#publish-knowledge-articles). You can also share knowledge articles as URLs on an external portal. For more information, go to [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management).
 
 The following are the search options that you can use to search the knowledge base on the portal:
 

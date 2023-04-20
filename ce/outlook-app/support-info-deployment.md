@@ -2,7 +2,7 @@
 title: "System requirements, limits, and configuration values for Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
 description: System requirements, limits, and configuration values for Dynamics 365 App for Outlook.
-ms.date: 05/20/2021
+ms.date: 11/02/2022
 ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -14,19 +14,16 @@ ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 
 
-# System requirements, limits, and configuration values for App for Outlook
+# System requirements, limits, and configuration values for Dynamics 365 App for Outlook
 
 
-This topic contains requirements, limits, and configuration values for Dynamics 365 App for Outlook
+This topic contains requirements, limits, and configuration values for Dynamics 365 App for Outlook.
 
 > [!IMPORTANT] 
-> Following the end of support for Internet Explorer 11, Dynamics 365 App for Outlook will not work on versions of Microsoft Outlook that uses IE WebView, when Internet Explorer 11 is removed from the operating system. 
+> Following the [end of support for Internet Explorer and Microsoft Edge legacy](/power-platform/admin/support-end-internet-explorer), Dynamics 365 App for Outlook is not supported on versions of Microsoft Outlook that use Internet Explorer or Legacy Edge WebView. 
 
 
 ## Email
@@ -34,11 +31,9 @@ This topic contains requirements, limits, and configuration values for Dynamics 
  | **Server/client type** | **Supported version** |
 |---------|---------|
 |**Email Server**     |  <ul><li>Exchange Server 2013 CU 14 or greater</li><br/><li>Exchange Server 2016</li><br/> <li>Exchange Server 2019</li><br/><li>Exchange Online</li></ul>       |
-|**Email Client**     |  <ul><li>Outlook 2019 </li><br/><li>Outlook 2016 (MSI) version 16.0.4266.1001 or higher (on Windows 8.1 (with extended support) or higher client OS with Internet Explorer 11 installed) </li><br/>  <li>Outlook 2016 (C2R) version 16.0.9330.2073 or higher (on Windows 8.1 (with extended support) or higher client OS with Internet Explorer 11 installed)</li><br/> <li>Outlook 2013 (MSI) version 15.0.5023.1000 or higher (on Windows 8.1 (with extended support) or higher client OS with Internet Explorer 11 installed)</li><br/>  <li>Outlook for MAC</li><br/> <li>Outlook for iOS (with Exchange Online, on Apple iPhone 6S or higher, running iOS version 8 or higher)</li><br/>  <li>Outlook for Android (with Exchange Online, on Android phones running Android 4.4,5.0,6.0, or 7.0)</li></ul>  **Note** Support for 2013 versions of Microsoft 365 ProPlus ended February 28, 2017        |
-|**Browser (Outlook Web Access)**     | <li>Microsoft Edge (with Exchange on premise 2016 or higher and Exchange Online)</li><br/> <li>Internet Explorer 11 (with Exchange on premise 2016 or higher and Exchange Online)</li><br/> <li>Google Chrome (Compose mode supported with Exchange on premise 2016 or higher and Exchange Online)</li><br/>   <li>Mozilla Firefox (Compose mode supported with Exchange on premise 2016 or higher and Exchange Online)</li><br/>      |
+|**Email Client**     |  <ul><li>All Microsoft Outlook desktop clients on Windows that use [Edge WebView2](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins#microsoft-365-subscription-versions-of-office-on-windows) </li><br/>  <li>Outlook for MAC</li><br/> <li>Outlook for iOS (with Exchange Online, on Apple iPhone 6S or higher, running iOS version 8 or higher)</li><br/>  <li>Outlook for Android (with Exchange Online, on Android phones running Android 4.4,5.0,6.0, or 7.0)</li></ul>  **Note** Support for 2013 versions of Microsoft 365 ProPlus ended February 28, 2017        |
+|**Browser (Outlook Web Access)**     | <li>Microsoft Edge (with Exchange on premise 2016 or higher and Exchange Online)</li><br/> <li>Google Chrome (Compose mode supported with Exchange on premise 2016 or higher and Exchange Online)</li><br/>   <li>Mozilla Firefox (Compose mode supported with Exchange on premise 2016 or higher and Exchange Online)</li><br/>      |
 
-> [!NOTE]
-> Support for 2013 versions of Office 365 ProPlus ended on February 28, 2017. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See here.](https://support.microsoft.com/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28-2)    
 
 
 
@@ -56,61 +51,13 @@ This topic contains requirements, limits, and configuration values for Dynamics 
 
 
 
-## Feature support per client
-
-| Email client                                                                                                |     Received email<br />(view information and track)                                              |    Compose email<br />(view information, track, <br />and add templates, <br />knowledge base articles, <br />and sales literature)                                                                                                                              |     Appointments and meetings <br />(view information and track)                                                          |    Contacts<br />(view information and track)                                        |
-|--------------------------------------------------------------------------------------------------|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------|
-|          [!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] (desktop client)           |                     O and M                      |                                                       O and M<sup>1</sup>                                                        |                     O and M<sup>1</sup>                      |      O<sup>3</sup>  and M<sup>2</sup>      |
-| [!INCLUDE [pn-ms-outlook-2013-short](../includes/pn-ms-outlook-2013-short.md)]  (desktop client) |                     O and M                      |                                                       O and M<sup>1</sup>                                                        |                     O and M<sup>1</sup>                      |                                            |
-|                                 Outlook for Mac (desktop client)                                 |                     O and M                      |                                                                                                                                  |                                                              |                                            |
-|             [!INCLUDE [pn-outlook-web-app](../includes/pn-outlook-web-app.md)] (OWA)<sup>4</sup>             |                     O and M                      |                                                       O and M<sup>1</sup>                                                        |                     O and M<sup>1</sup>                      |                                            |
-|                                  Mobile Outlook app<sup>5</sup>                                  |                        O                         |                                                                                                                                  |                                                              |                                            |
-
-(O)Online: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)]  with both in the **same** tenant (Multi-tenant configuration of [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)] and [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)] being in different tenants is not supported) <br />
-(M)Mixed: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], Exchange Server 2013/2016
-
-
-(1) Tracking email and tracking appointments in compose mode requires Exchange Server 2013 CU14 (not supported in OWA) or [!INCLUDE [pn-exchange-server-2016-short](../includes/pn-exchange-server-2016-short.md)]. <br />
-
-(2) Tracking contacts is supported only on Exchange Server 2016 CU3 and Outlook 2016 16.0.6741.1000 C2R version or later. 
-Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs installed. For more information, see these KB articles:
-  - [KB3118330](https://support.microsoft.com/help/3118330/october-4,-2016,-update-for-office-2016-kb3118330)
-  - [KB3118374](https://support.microsoft.com/help/3118374/october-4,-2016,-update-for-office-2016-kb3118374)
-  - [KB3118375](https://support.microsoft.com/help/3118375/october-4,-2016,-update-for-outlook-2016-kb3118375)
-  - [KB3115500](https://support.microsoft.com/help/3115500/october-4,-2016,-update-for-office-2016-kb3115500) <br /> 
-
-(3) Supported only on Outlook 2016 16.0.7426.1049 or later.<br />
-
-(4) Not supported on mobile Outlook Web Access.<br/>
-
-(5) Supported on iPhones 6S or higher, with iOS 8 or higher.
-
-## Supported browsers for Outlook on the web  
- You can use Dynamics 365 App for Outlook with Outlook on the web on the following browsers: 
-
--   Internet Explorer 11, or Microsoft Edge 
-  
-     The following configuration is supported:  
-  
-    -   Protected Mode is enabled for **Internet** security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Internet**.  
-  
-    -   Protected Mode is enabled for **Local intranet**  security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet**.  
-  
-    -   Your Dynamics 365 apps URL is in the **Local intranet** security zone list of trusted websites. In IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet** > **Sites** > **Advanced**.  
-  
--   Google Chrome (latest version) on Windows 
-  
--   Firefox (latest version) on Window 
-  
--   Apple Safari (version 9 or version 10) on Mac or on OSX
-
 ## Supported servers  
  The [server requirements for using Office Add-ins](/office/dev/add-ins/concepts/requirements-for-running-office-add-ins#server-requirements) are [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)], [!INCLUDE[pn_exchange_server_2016_short](../includes/pn-exchange-server-2016-short.md)], or [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)].  
 
 ## Supported languages  
 [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] supports the following languages:  
 
-||||  
+| &nbsp;| &nbsp;| &nbsp;|  
 |-|-|-|  
 |Bulgarian (Bulgaria) - 1026|Hebrew - 1037|Portuguese (Brazil) - 1046|  
 |Chinese (People's Republic of China) - 2052|Hindi (India) - 1081|Portuguese (Portugal) - 2070|  

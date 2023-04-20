@@ -5,7 +5,6 @@ ms.date: 01/31/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Apply additional filters 
 
@@ -20,7 +19,7 @@ Add filters to refine the opportunities and hierarchies that participate in calc
 
 ## Filter hierarchy records in the forecast
 
-You can filter your forecast to include only those hierarchies that meet the specified conditions. For example, Kenny Smith is the Sales head for APAC and EMEA. He wants to view the forecast data of his org in the APAC territory. As an administrator, you can create an org chart forecast and set the hierarchy filter to include only the APAC forecast data. 
+You can filter your forecast to include only those hierarchies that meet the specified conditions. For example, Kenny Smith, the Sales head for APAC and EMEA wants to view the forecast data of the org in the APAC territory. As an administrator, you can create an org chart forecast and set the hierarchy filter to include only the APAC forecast data. 
 
 The following screenshot illustrates a sample forecast hierarchy: 
 

@@ -1,11 +1,11 @@
 ---
-title: "Edit a segment in the sales accelerator"
-description: "Update the conditions in the segment to modify your process for choosing the records you want as members of a segment."
-ms.date: 10/26/2021
-ms.topic: article
+title: Edit a segment in the sales accelerator
+description: Update the conditions in the segment to modify your process for choosing the records you want as members of a segment.
+ms.date: 03/28/2023
 author: udaykirang
 ms.author: udag
-manager: shujoshi
+ms.topic: how-to
+ms.custom: bap-template
 ---
 # Edit a segment 
 
@@ -23,29 +23,30 @@ To modify your process for choosing the records you want as members of a segment
 1.	Sign in to your Dynamics 365 Sales Hub app.   
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 3.	Under **Sales accelerator**, select **Segments**.   
+4. On the **Segments** page, choose a record type from the **Record type** list.
 
-    The **Segments** page opens with the list of available segments.   
+    The **Segments** page opens with the list of available segments for the selected record type.   
 
-    >[!div class="mx-imgBorder"]
-    >![Segments page with a list of segments](media/sa-segment-edit-list-lead-segments.png "Segments page with a list of segments")  
+    :::image type="content" source="media/sa-segment-edit-list-lead-segments.png" alt-text="Screenshot of segment page with a list of segments for the selected record type.":::
 
-4.	Select and open the segment that you want to edit. In this example, **Accounts from USA** is selected.
+5.	Select and open the segment that you want to edit. In this example, **Accounts from USA** is selected.
 
-    >[!div class="mx-imgBorder"]
-    >![Select a lead to edit](media/sa-segment-edit-select-lead.png "Select a lead to edit")  
+    :::image type="content" source="media/sa-segment-edit-select-lead.png" alt-text="Screenshot of opening a segment to edit.":::
  
 5.	Select **Edit**. 
 6.	On the confirmation message, select **Edit**.
 
-    >[!div class="mx-imgBorder"]
-    >![Edit confirmation message](media/sa-segment-edit-lead-edit-confirmation.png "Edit confirmation message")  
+    :::image type="content" source="media/sa-segment-edit-lead-edit-confirmation.png" alt-text="Screenshot of edit confirmation message.":::
   
 7.	Edit the conditions, select **Save**, and then in the confirmation message that appears, select **Update segment**.
 
-    >[!div class="mx-imgBorder"]
-    >![Save your edits](media/sa-segment-edit-lead-edit-save-confirmation.png "Save your edits")  
+    :::image type="content" source="media/sa-segment-edit-lead-edit-save-confirmation.png" alt-text="Screenshot of confirmation message to save the edits.":::
 
 The changes will be applied to records that are created in the future in the application. The records that the segment has already been applied to won't change.
+
+>[!NOTE]
+>From the 9.3 release, all segments that are related to a primary entity (such as lead or opportunity) run every time you update the attributes of the primary entity that are added to the conditions.
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 

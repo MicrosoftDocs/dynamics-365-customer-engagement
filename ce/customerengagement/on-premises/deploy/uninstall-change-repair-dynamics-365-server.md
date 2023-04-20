@@ -14,7 +14,6 @@ ms.assetid: 61d9bddb-f1ee-4765-97e4-6c87f3fbf545
 caps.latest.revision: 16
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Uninstall, change, or repair Dynamics 365 Server
 

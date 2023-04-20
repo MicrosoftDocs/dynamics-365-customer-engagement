@@ -5,7 +5,6 @@ ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Work with LinkedIn activities
 
@@ -20,7 +19,7 @@ You can use LinkedIn-related activities that have been defined for sequences in 
 
 ## What are LinkedIn activities?
 
-As a seller, you can use the LinkedIn network, which contains millions of users and offers a unique depth and quality of information that can help you<!--note from editor: Suggested, to avoid using "can use" twice.--> research and connect with your customers. This functionality allows you to use LinkedIn Sales Navigator in your sequence to recommend the next best action.
+As a seller, you can use the LinkedIn network, which contains millions of users and offers a unique depth and quality of information that can help you research and connect with your customers. This functionality allows you to use LinkedIn Sales Navigator in your sequence to recommend the next best action.
 
 When a sequence contains steps that are related to LinkedIn activities, you can perform the following actions to interact with customers:
 
@@ -33,7 +32,7 @@ When a sequence contains steps that are related to LinkedIn activities, you can 
 
 You can use the **Research** activity to view LinkedIn profiles, including customer contact and account information. This can help you to better understand customers before you start working with them.
 
-You can perform the actions described in the following table.<!--note from editor: Style guide wants tables introduced by sentences without colons. Also, I assume that Harrison Curtis is part of sample data, or is on our allowlist of fictitious names? I'm afraid I don't have access to that list until I can get back on corpnet in February.-->
+You can perform the actions described in the following table.
 
 |   &nbsp;     | Up next widget | Work list item |
 |--------------|----------------|----------------|

@@ -1,27 +1,23 @@
 ---
 title: "Use GDPR features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use GDPR features in Dynamics 365 Marketing."
-ms.date: 09/14/2022
+ms.date: 11/29/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Use GDPR features
 
 This article describes how to enable and use GDPR-related features in Dynamics 365 Marketing.
 
-## Enable GDPR features in outbound marketing and real-time marketing
+## Enable GDPR features in outbound marketing
 
 By default, GDPR features such as consent management are disabled on new Dynamics 365 Marketing installations.
 
@@ -87,6 +83,9 @@ You can now create a marketing email message that includes a link to your subscr
 To fully comply with the GDPR (and other common regulations), you must set up the double opt-in system. Double opt-in uses email messaging to ensure that all requests to change a contact's consent level or add a subscription were made on purpose by a person who can read that contact's email.
 
 More information: [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md) 
+
+> [!NOTE]
+> Double opt-in is not currently supported in real-time customer journeys.
 
 ## An example of how to support data requests from your marketing audience
 
@@ -197,3 +196,5 @@ Once you've enabled auditing for contacts, you'll be able to view a record of ch
 
 [Manage user compliance settings](real-time-marketing-compliance-settings.md)  
 [Work with data protection and GDPR](gdpr.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

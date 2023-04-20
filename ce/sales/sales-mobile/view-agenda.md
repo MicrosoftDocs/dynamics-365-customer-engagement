@@ -1,21 +1,22 @@
 ---
 title: View meetings in the Dynamics 365 Sales mobile app
 description: Learn how to view meetings in the Dynamics 365 Sales mobile app.
-ms.date: 10/25/2021
+ms.date: 02/27/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
+
 # View meetings in the mobile app
 
-The information on the home page of the Dynamics 365 Sales mobile app can help you better plan your day. For example, the Meetings section displays your most recent meeting and the next upcoming meeting. To see more meetings for the day, tap **Meetings** either on the home page or on the navigation bar. Meetings that have been scheduled in Microsoft Outlook are displayed.  
+The information on the home page of the Dynamics 365 Sales mobile app can help you better plan your day. For example, the **Meetings** section displays your most recent meeting and the next upcoming meeting. To see more meetings for the day, tap **Meetings** either on the home page or on the navigation bar. Meetings that have been scheduled in Microsoft Outlook are displayed.  
   
 > [!NOTE]
 > - You can't create a meeting from the Dynamics 365 Sales mobile app.
-> - The Meetings section only include meetings that have at least one participant who's outside of your organization's domain.   
+> - The **Meetings** section only include meetings that have at least one participant who's outside of your organization's domain.   
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -24,7 +25,9 @@ The information on the home page of the Dynamics 365 Sales mobile app can help y
  
 ## View meetings
 
-1.  On the navigation bar, tap **Meetings**. The calendar view opens.
+1.  On the navigation bar, tap **Meetings**.
+
+    The calendar view opens.
     
     ![Meetings section.](media/sm-meetings-nav-bar.png "Meetings section")
        
@@ -82,7 +85,7 @@ You can perform the following action on regarding entities: [view and edit](open
 
 You can update the regarding record when it is no longer relevant or there are changes to the meeting. To change the regarding record, follow these steps:
 
-1. In the record card, tap tap ![Options button.](media/sm-options-button.png "Options button"), and then tap **Change connected record**.
+1. In the record card, tap ![Options button.](media/sm-options-button.png "Options button"), and then tap **Change connected record**.
 
     ![Select change connected record option.](media/sm-select-change-connected-record.png "Select change connected record option")
     
@@ -90,7 +93,7 @@ You can update the regarding record when it is no longer relevant or there are c
 
     ![Find a different record to connect.](media/sm-change-regarding-record.png "Find a different record to connect")
     
-3. After selecting a record, tap **Save**.
+3. After selecting a record, tap **Done**.
 
     ![Select and save the record change.](media/sm-new-regarding-record.png "Select and save the record change")
     
@@ -111,7 +114,7 @@ You can add a regarding record to a meeting when no regarding record is attached
 
     ![Find a record to connect.](media/sm-regarding-record.png "Find for a record to connect")
     
-3. After selecting a record, tap **Save**.
+3. After selecting a record, tap **Done**.
 
     ![Select and save a record to connect.](media/sm-select-regarding-record.png "Select and save a record to connect")
     
@@ -121,7 +124,7 @@ The connected record is displayed in the **Regarding** section.
 
 You can disconnect the regarding record when it is no longer relevant to the current meeting.
 
-- In the record card, tap tap ![Options button.](media/sm-options-button.png "Options button"), and then tap **Disconnect record**.
+- In the record card, tap ![Options button.](media/sm-options-button.png "Options button"), and then tap **Disconnect record**.
 
     ![Disconnect a record from a meeting.](media/sm-disconnect-record.png "Disconnect a record from a meeting")
 

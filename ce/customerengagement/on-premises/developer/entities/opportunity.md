@@ -6,11 +6,8 @@ ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "margoc"
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Opportunity entity reference
@@ -1738,7 +1735,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the account with which the opportunity is associated.|
+|Description|Internal attribute for storing `customerid`. Do not use this attribute directly; use `parentaccountid` instead.|
 |DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -1836,7 +1833,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the contact associated with the opportunity.|
+|Description|Internal attribute for storing `customerid`. Do not use this attribute directly; use `parentcontactid` instead.|
 |DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|

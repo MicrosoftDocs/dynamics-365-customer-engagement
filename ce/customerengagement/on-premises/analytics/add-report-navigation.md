@@ -14,7 +14,6 @@ ms.assetid: a12434b2-dfb4-44c8-93fe-640084360d9c
 caps.latest.revision: 14
 author: Mattp123
 ms.author: matp
-manager: amyla
 tags: 
   - MigrationHO
 search.audienceType: 

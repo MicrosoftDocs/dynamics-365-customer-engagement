@@ -1,18 +1,14 @@
 ---
 title: Overview of knowledge management
 description: Learn about knowledge management in Dynamics 365 Customer Service.
-ms.date: 05/19/2022
+ms.date: 11/07/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom:
   - dyn365-customerservice
 ---
@@ -38,15 +34,15 @@ Depending on your role in your organization, here’s how you can leverage the f
 ### Create and design knowledge articles
 As a knowledge author, you can:
    - Create rich and well-formatted content for emails or knowledge articles using the new rich text editor. More information: [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
-   - Review knowledge articles for accuracy before they’re published or made available to others. More information: [Review and reject or approve a knowledge article](customer-service-hub-user-guide-knowledge-article.md#review-and-reject-or-approve-a-knowledge-article).
+   - Review knowledge articles for accuracy before they’re published or made available to others. More information: [Review knowledge articles](review-ka.md#review-knowledge-articles)
    - Use templates to create knowledge articles quickly, with prepopulated fields in the selected template. Templates also help knowledge managers and authors maintain consistency in branding, language, and structure. More information: [Create a knowledge article template](create-templates-knowledge-article.md#create-a-knowledge-article-template)
-   - Set up a default knowledge article authoring language. More information: [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization)
+   - Set up a default knowledge article authoring language. More information: [Configure a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
    
 ### Manage the lifecycle of knowledge articles
 As a knowledge author, you can:
-  - Create major and minor versions of a knowledge article, and keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services. More information: [Create and manage article versions](customer-service-hub-user-guide-knowledge-article.md#create-and-manage-article-versions)
+  - Create major and minor versions of a knowledge article, and keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services. More information: [Create and manage article versions](ka-versions.md#create-and-manage-article-versions)
   - Create a translation for a knowledge article record in multiple languages. More information: [Create a knowledge article translation](work-knowledge-articles.md#create-a-knowledge-article-translation)
-  - Publish articles as soon as they're approved, or schedule them for later publication. You can also set expiration dates on articles. More information: [Schedule or publish an article](customer-service-hub-user-guide-knowledge-article.md#schedule-or-publish-an-article)
+  - Publish articles as soon as they're approved, or schedule them for later publication. You can also set expiration dates on articles. More information: [Publish knowledge articles](publish-ka.md#publish-knowledge-articles)
   
     :::image type="content" source="media/create- knowledge.png" alt-text="Create and manage knowledge articles life cycle":::
 
@@ -82,7 +78,7 @@ Having a knowledge base on the portal makes it a customer self-service portal, w
 
 As an administrator, you can:
   - Track how many times an article is used, viewed, and sent to customers. Use this information to proactively create knowledge based on search insights across customers and agents. 
-  - Use the knowledge search analytics dashboard to provide supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. More information:[Configure Knowledge search insights for Dynamics 365 Customer Service](enable-knowledge-search-insights.md#configure-knowledge-search-insights-for-dynamics-365-customer-service)
+  - Use the knowledge search analytics dashboard to provide supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. More information: [Manage Knowledge analytics](enable-knowledge-search-insights.md#manage-knowledge-analytics)
 
     :::image type="content" source="media/knowledge-article-insights-dashboard.png" alt-text="Screenshot of the knowledge search analytics dashboard":::
   

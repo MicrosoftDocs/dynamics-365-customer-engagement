@@ -1,22 +1,17 @@
 ---
-title: "Time entries for Dynamics 365 Field Service (contains video) | MicrosoftDocs"
+title: Track time expenditure with time entries (contains video)
 description: Learn about time entry in Dynamics 365 Field Service.
 ms.date: 11/19/2020
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: FeifeiQiu
+ms.author: feiqiu
 ---
 
-# Time entries for Dynamics 365 Field Service
+# Track time expenditure with time entries
 
 Time entry capabilities help field service organizations better track the time that technicians spend during work orders and other scenarios. 
 
@@ -120,14 +115,6 @@ Making changes to the date or duration of the time entry will update the time-of
 
 
 - Time entries are created based on booking timestamps, and booking timestamps are created based on the **Timestamp Frequency** setting in Field Service Settings. See the [article on booking timestamps](booking-timestamps.md) to understand how timestamps can be created based on the booking statuses or Field Service booking statuses.
-
-- Time entries can be viewed and created on the Field Service Mobile (Xamarin) app
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of time entry on Field Service Mobile.](./media/work-order-time-entry-mobile.png)
-
-Import [the latest mobile project template](https://aka.ms/fsmobile-project) into the mobile configuration tool (Woodford) to display time entries in Field Service Mobile (Xamarin).
-
 
 ## Additional notes
 

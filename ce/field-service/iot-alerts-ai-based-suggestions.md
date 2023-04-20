@@ -2,19 +2,14 @@
 title: "IoT alert AI suggestions | MicrosoftDocs"
 description: Learn about AI suggestions for IoT alerts in Connected Field Service
 ms.date: 04/01/2020
-ms.reviewer: mhart
 
 ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+ms.author: vhorvath
+author: vhorvathms
 ---
 
 # IoT alert AI suggestions
@@ -44,10 +39,8 @@ A few reminders before digging into this article:
 - This feature is currently in public preview as of April 2020.
 
 - Connected Field Service with either of the following:
-    -	Azure IoTHub 
-    -	Azure IoTCentral 
+    -	Azure IoT Hub 
     -	Custom IoT provider (requires additional configuration)
-
 
 ## Instructions
 
@@ -79,18 +72,12 @@ Select how your organization primarily uses IoT alerts in relation to devices an
 
 ### Step 3: Enter rule identifier
 
-Choose the rules that you defined in IoTCentral or IoTHub that trigger IoT alerts. The rule paths can be found in the IoT Alert JSON.
+Choose the rules that you defined in IoT Hub that trigger IoT alerts. The rule paths can be found in the IoT Alert JSON.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT suggestions setup screen, showing the rule identified section.](./media/cfs-iot-suggestions-identifier-rule.png)
 
-An example of the rule path for IoTCentral is **rule/id**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an example alert rule ID.](./media/cfs-ai-iotc-rule-path.png)
-
-An example of the rule path for IoTHub is **ruleoutput**.
-
+An example of the rule path for IoT Hub is **ruleoutput**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an example rule output on the alert data.](./media/cfs-ai-ioth-rule-path.png)
@@ -102,7 +89,7 @@ Choose the device properties that should be considered by the AI model to make s
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT suggestions setup screen, showing the device properties section.](./media/cfs-iot-suggestions-properties.png)
 
-By default, the **Telemetry** field in IoTCentral and the **Reading Type** and **Reading** fields in IoTHub are used as device properties. However, you can also add custom fields. For example, you may have a model that associates a financial cost to each temperature reading; this custom addition can be added here as a device property to be considered by the AI model.
+By default, the **Reading Type** and **Reading** fields in IoT Hub are used as device properties. However, you can also add custom fields. For example, you may have a model that associates a financial cost to each temperature reading; this custom addition can be added here as a device property to be considered by the AI model.
 
 ### Step 5: Finish
 
@@ -127,11 +114,6 @@ The priority and suggested incident type is also displayed on the IoT alert form
 - When applicable, the model will return **No suggestions** if there's no recommendation. 
 - Suggestions are updated every 24 hours.
 - We recommended having at least 50 IoT alerts converted to cases or work orders to give the model enough data to make suggestions. 
-- Suggestions work whether IoT alerts are converted into cases or work orders since both have incident types. 
-### Use Power Automate flows to:
-1. Convert IoT Alerts with suggested high priority to a new case or work order with the recommended incident type.
-2. Send and display the AI suggestions in Azure IoTCentral or Azure IoTHub.
-
-
+- Suggestions work whether IoT alerts are converted into cases or work orders since both have incident types.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

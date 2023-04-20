@@ -1,26 +1,19 @@
 ---
 title: "Use suggested contacts in Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to use suggested contacts with Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 09/19/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
 
 # Use suggested contacts to collaborate with the right coworkers
-
-> [!NOTE]
-> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
 
 The Teams chat embedded in Dynamics 365 Customer Service Hub, Customer Service workspace, or custom apps can help you more quickly find the right coworkers to collaborate with. This collaboration can help you more quickly resolve customer issues.
 

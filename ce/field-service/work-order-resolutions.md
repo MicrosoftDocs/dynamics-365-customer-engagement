@@ -1,22 +1,17 @@
 ---
-title: "Capture work order resolution details in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
-description: Learn about how to capture work order resolution details in Dynamics 365 Field Service
+title: Capture work order resolution details
+description: Learn about how to capture work order resolution details in Dynamics 365 Field Service.
 ms.date: 02/01/2021
-ms.reviewer: mhart
 
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
+author: lmasieri
+ms.author: lmasieri
 ---
 
-# Capture work order resolution details in Field Service
+# Capture work order resolution details
 
 Organizations need to be able to report on how work orders are resolved. Reporting on how work is resolved increases customer visibility and provides data for the system to begin providing meaningful resolution suggestions. Tracking how work is resolved can also help with training technicians on specific issues.
 

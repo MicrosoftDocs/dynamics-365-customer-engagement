@@ -3,8 +3,7 @@ title: "FAQ about the voice channel | MicrosoftDocs"
 description: "This article includes frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.date: 08/18/2022
+ms.date: 12/22/2022
 ms.topic: article
 
 ---
@@ -12,6 +11,10 @@ ms.topic: article
 # FAQ about the voice channel in Omnichannel for Customer Service
 
 This article includes frequently asked questions (FAQ) about the voice channel.
+
+### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
+
+No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#how-queue-overflow-is-evaluated)
 
 ### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 
@@ -23,9 +26,9 @@ The voice channel is compliant with Payment Card Industry Data Security Standard
 
 ### Where does Azure Communication Services provide native PSTN services?
 
-Getting registered as a calling provider is a legally complex and country-specific process. Azure Communication Services has a multiyear roadmap to provide calling plans in different countries and regions. As of January 2022, Azure Communication Services provides toll-free and local numbers for those with billing postal codes in United States, Puerto Rico, United Kingdom, and Ireland.
+To register as a calling provider is a legally complex and country-specific process. Azure Communication Services has a multiyear road map to provide calling plans in different countries and regions. To see all the countries where PSTN services are available, check the [country availability](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) page.
 
-An alternative to Microsoft calling plans is Azure direct routing that allows customers to bring their own phone numbers. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
+An alternative to Microsoft calling plans is Azure direct routing that allows you to bring your own phone numbers. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
 
 ### What about countries where Azure Communication Services doesn't provide native PSTN services?
 
@@ -37,15 +40,21 @@ The voice channel supports the G.711 and Opus codecs for PSTN and VoIP services.
 
 ### Can I bring my own phone number?
 
-Yes, you have the following two options to bring your existing numbers to Omnichannel for Customer Service:
+Yes, you can bring your existing numbers to Omnichannel for Customer Service in the following ways:
 
-- **Import numbers to Omnichannel for Customer Service**. To do this:
+- **Import numbers to Omnichannel for Customer Service**
     1. You must first port your existing phone numbers to Azure Communication Services. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
     2. You can then import the phone numbers from Azure Communication Services to Omnichannel for Customer Service. More information: [Sync from Azure Communication Services](voice-channel-sync-from-acs.md)
 
-- **Configure Azure direct routing**. You can configure a Session Border Controller (SBC) that's connected to your local carrier with Azure Communication Services, and then register the phone number in Dynamics 365. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
+- **Configure Azure direct routing**
+    1. Configure a Session Border Controller (SBC) that's connected to your local carrier with Azure Communication Services.
+    1. Register the phone number in Dynamics 365. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
  
-### How can I acquire additional phone numbers from Azure Communication Services?
+### Can my SBC and DNS server be deployed in different regions?
+
+No. We recommend that the DNS server and SBC are deployed in the same region. More information:  [Bring your own carrier](voice-channel-bring-your-own-number.md#prerequisites)
+ 
+### How can I acquire extra phone numbers from Azure Communication Services?
 
 You can purchase one phone number per tenant for Azure Communication Services through the Azure portal. To acquire phone numbers in bulk or request a specific phone number, follow the instructions to create a special number request order [here](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
 
@@ -65,41 +74,47 @@ The voice capabilities for Dynamics 365 Customer Service are built on Azure Comm
 
 No, you don't have to. You can bring phone numbers from another carrier to use in the voice channel using Azure direct routing. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
-If you have already brought numbers from another carrier into Microsoft Teams via Azure direct routing, then you can reuse your SBC and existing telephony infrastructure to bring those numbers into Azure Communication Services for use in the voice channel.  
+If you've already brought numbers from another carrier into Microsoft Teams via Azure direct routing, then you can reuse your SBC and existing telephony infrastructure to bring those numbers into Azure Communication Services for use in the voice channel.  
 
 > [!Note]
 > Currently, you can't bring native Teams phone numbers to use in the voice channel.
 
-### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app? For example, by adding omnichannel capabilities to a customer Dynamics 365 app.
+### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app, such as, by adding omnichannel capabilities to a customer's Dynamics 365 app?
 
-The voice channel is supported only in the Customer Service workspace and Omnichannel for Customer Service apps.
+No, the voice channel isn't supported in the other apps of Dynamics 365. It's supported in the Customer Service workspace and Omnichannel for Customer Service apps only.
 
 ### How can I set up an IVR bot in the voice channel?
 
-See the following topics to set up the interactive voice response (IVR) bot in the voice channel:
+See the following articles to set up the interactive voice response (IVR) bot in the voice channel:
 - [Configure Power Virtual Agents bots for voice](voice-channel-ivr-bots.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
 ### Should the language of the bot be the same as the primary language configured in the Customer Service admin center or Omnichannel admin center app?
- 
-Yes, the language of the bot must be the same as that of the voice workstream to which the bot will be attached.
 
-### Can I recover a voice trial after it's no longer provisioned?
+Yes, the primary language of the bot must be the same as that of the voice workstream to which the bot is attached, but you can configure different geographic locales for the bot and the voice workstream to which it's attached. Let's consider an example where English is set as the primary language for the bot and its voice workstream. You can set different locales, such as **English-UK** in the voice workstream and **English-US** in the bot; the bot will speak in English-UK as the workstream locale setting takes precedence.
 
-No, you can't recover your data and trial phone numbers after the trial organization has expired and been deprovisioned.
+You can transfer conversations from one bot to another with different primary languages. For example, you can transfer conversations from an English bot to a Spanish bot. But, if you configure different locales:
+- The bot's accuracy will depend on the similarities between the two locales. 
+- The preconfigured entities for the bot such as postal code might not be accurate. 
+- A bot-to-bot transfer of the conversation with the same language but two different locales isn't possible. For example, the transfer of a conversation  from an **English-UK** bot to an **English-US** bot can't happen. As a workaround, you can make the **English-UK** bot transfer the conversation to another phone number attached to a workstream to which the **English-US** bot is attached. 
+
+### Can I recover data and phone numbers from a voice trial organization after it has expired?
+
+No, you can't recover your data and phone numbers after the voice trial organization has expired and been deprovisioned. 
+
 
 ### Is disaster recovery supported for the voice channel?
 
-- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md).
+- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Region-specific deployments](voice-channel-region-availability.md#region-specific-deployments).
 - In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. For more information, see [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
 
-### Do we provide voice quality SLA for voice in Omnichannel for Customer Service?
+### Do you provide voice quality SLA for voice in Omnichannel for Customer Service?
 
-We do not publish a voice quality SLA - there are many other factors that comprise voice quality that can't be controlled, such as Internet connection, LTE, and 5G. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
+No, we don't publish a voice quality SLA as many factors related to voice quality like network connectivity, speed, and bandwidth, can't be controlled. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
 
 ### What tools are available to isolate performance and quality of voice channel?
 
-The tools to isolate voice performance and quality are available through Azure Communication Services and can be found at [Azure Communication Services media quality metrics](/azure/communication-services/concepts/voice-video-calling/media-quality-sdk).
+The tools for isolating voice performance and quality are available through Azure Communication Services and can be found at [Azure Communication Services media quality metrics](/azure/communication-services/concepts/voice-video-calling/media-quality-sdk).
 
 More information:
 

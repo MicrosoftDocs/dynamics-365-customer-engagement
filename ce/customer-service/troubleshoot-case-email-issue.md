@@ -1,18 +1,14 @@
 ---
 title: Troubleshoot an issue faced when converting an email to a case | Microsoft Docs
 description: See how you can fix an issue converting an email to a case in Dynamics 365 Customer Service
-ms.date: 05/13/2021
+ms.date: 10/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -25,13 +21,13 @@ You can use the Activity monitor that is available on the **Record creation and 
 
 ### Scenario
 
-1. configure an automatic record creation rule for a queue in the web client.
+1. Configure an automatic record creation rule for a queue in the web client.
 2. In the rule, set customer value as null (Channel properties).
 3. Send mail from sender as queue mail address to recipient as queue mail address. The case creation fails with the following error message: "Case is missing customer"
 
 ### Reason
 
-The automatic record creation rule in the web client considers the queue as a known sender and does not create a contact. Subsequently, the case creation fails because no account or contact is associated with the email.
+The automatic record creation rule in the web client considers the queue as a known sender and doesn't create a contact. Subsequently, the case creation fails because no account or contact is associated with the email.
 
 This is an expected behavior.
 
@@ -42,25 +38,25 @@ Perform the following steps as a workaround:
 1. Migrate your rule from the web client to Unified Interface. More information: [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md).
 2. Follow the information in [Configure advanced settings for rules](automatically-create-update-records.md#configure-advanced-settings-for-rules) to manage emails from unknown senders.
 
-## Incoming email is not being converted to a case
+## Incoming email not converted to a case
 
 ### Troubleshooting steps
  
-If the email to case conversion is not working, follow the below troubleshooting steps to diagnose and fix the issue:
+If the email to case conversion isn't working, follow the below troubleshooting steps to diagnose and fix the issue:
 
 **Step 1**. Check if the email is syncing with the system. </br>
 - **Action**: Navigate to **Activities** and look for Email activity.</br>
-- **Comment**: If email is not syncing with the system, there may be an issue with the email router or server-side sync configuration.
+- **Comment**: If email isn't syncing with the system, there may be an issue with the email router or server-side sync configuration.
 
-**Step 2**.  Notice that an email activity is created but a related QueueItem is not found.  </br>
+**Step 2**.  Notice that an email activity is created but a related QueueItem isn't found.  </br>
 
-- **Comment**: If an active Automatic Record Creation and Update Rule exists for a specific queue, QueueItem is marked as inactive and hence it disappears from the QueueItem View. 
+- **Comment**: If an active Automatic Record Creation and Update Rule exists for a specific queue, QueueItem is marked as inactive, and hence it disappears from the QueueItem View. 
 
 
 **Step 3**. If the email is coming from an unknown sender,  check for the **Create contact for unknown sender** option. 
 - **Action**: Go to **Automatic Record Creation and Update Rule** configuration and check if the **Create contact for unknown sender** box is checked. </br>
 
-- **Comment**: If **Create contact for unknown sender** check box is unchecked, incoming email from unknown sender will not be converted to a case.
+- **Comment**: If **Create contact for unknown sender** check box is unchecked, incoming email from unknown sender won't be converted to a case.
 
 **Step 4**: Check if **Automatic Record Creation and Update Rule** is configured properly. 
 
@@ -70,12 +66,12 @@ For more information about configuration failure scenarios and resolution for sa
 
 
 > [!NOTE]
->  The Customer field in the case entity can be a contact or an account. If a matching incoming email address is not found for a contact or an account, and **Create contact for unknown sender** box is checked, the system creates contact for incoming email address and links it to the case's customer field.
+> The Customer field in the case entity can be a contact or an account. If a matching incoming email address isn't found for a contact or an account, and **Create contact for unknown sender** box is checked, the system creates contact for incoming email address and links it to the case's customer field.
 
 **Step 5**: Check if the contact and account exist with the same incoming email address. 
 - **Comment**: Case created from incoming email will resolve customer field on case as Account.
 
-**Step 6**: Ensure that the queue email address is in the **To** or **Cc** fields of incoming mails. Emails sent with the queue address in the **Bcc** field will not be processed.
+**Step 6**: Ensure that the queue email address is in the **To** or **Cc** fields of incoming mails. Emails sent with the queue address in the **Bcc** field won't be processed.
 
 ### Configuration failure scenarios and resolutions
 
@@ -137,7 +133,6 @@ You must validate the configuration and validation steps given in the following 
 |Create a case for activities associated with a resolved case     |    Yes     |   For an incoming email related to a resolved case      |    A case is created     |
 |   |    Yes      |   For an incoming email related to an active case         |   No case is created      |
 |  |         |         |         |
-
  
 ### See also
 

@@ -1,11 +1,10 @@
 ---
-title: "Prioritize your sales pipeline through the work list (Sales Insights) | MicrosoftDocs"
+title: "Prioritize your sales pipeline through the work list"
 description: "Use work lists in the sales accelerator to prioritize your sales pipeline and ensure important records aren't left behind."
-ms.date: 03/01/2022
+ms.date: 12/09/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 products:
 - Sales premium 
 - Sales enterprise
@@ -29,9 +28,9 @@ The sales accelerator work list gives you the following capabilities:
 
 - [Manage and view records that include activities that are due in the last 30 days to be performed, sorted by priority, and removed after an activity has been completed.](#view-my-records-through-work-list)
 - [Manage the work list by sorting, filtering, and grouping records.](#filter-records-in-work-list)
-- [View relevant information about customers, such as personal details, past and future activities, and the related entities for each record.](#understand-the-up-next-widget)
+- [View relevant information about customers, such as personal details, past and future activities, and the related entities for each record.](understand-the-up-next-widget.md)
 - Communicate with customers through phone and email. More information: [Connect with customers by using a record or the Up next widget](connect-with-customers.md)  
-- [Add manual activities to records—in addition to those that have been defined in a sequence—if an ad-hoc activity is required.](#add-manual-activities-to-records)  
+- [Add manual activities to records—in addition to those that have been defined in a sequence—if an ad-hoc activity is required.](understand-the-up-next-widget.md#add-manual-activities-to-records)  
 
 > [!NOTE]
 > The work list is configured by a sales manager who defines the sequence of activities for records by using the sequence designer. More information: [Create and manage sequences](create-manage-sequences.md)   
@@ -64,7 +63,7 @@ The work list displays a list of records that are assigned to you or the securit
     |--------|---------|-------------|
     | 1 | **Search, filter, sort, and group records** | You can search, filter, sort, and group the records that you want to view in the list to quickly identify the customers to contact, as [described later in this topic](#filter-records-in-work-list).<br><br>By using the lookup icon, you can search for a specific record by using the record name. Select **More options** (&vellip;) to [send bulk emails](#send-bulk-emails), [configure work list settings](#configure-personal-settings), and refresh the list, as described later in this topic. |
     | 2 | **Records list** | Displays a list of records that are assigned to you or to a security role that you're part of. The unread records appear in bold with a blue vertical bar on the left. You must perform and complete the activities on these records from the current date and from previous dates.<br><br>Each record displays the name of the record, primary contact name, next best action, priority scoring, and entity name. Hover over the record to view more options.<br><br> Select **More options** (&vellip;) to perform the following actions on the record:<ul><li>Mark as complete.</li><li>Skip the current activity.</li><li>Snooze the activity.</li><li>Change the state of the record to unread or read.</li><li>Follow or unfollow the record.</li><li>Skip wait time (this option is available for items that are in the wait state).</li></ul><br>Also, you can select the activity icon to perform the specified activity for the record.<br>![Options for records.](media/sa-record-hover-view.png "Options for records")<br>More information: [Connect with customers by using a record or the Up next widget](connect-with-customers.md) <br><br>When you complete an activity on the record, select the refresh icon. The list will be refreshed, and the record will be removed from the list.<br><br>**Note**<br>The list displays records for a month from the current date. The records that are older than 30 days are automatically removed and won't be displayed.|
-    | 3 | **Up next widget** | Displays the next best action that you can perform on a record for the given date, as [described later in this topic](#understand-the-up-next-widget).|
+    | 3 | **Up next widget** | Displays the next best action that you can perform on a record for the given date, as [described later in this topic](understand-the-up-next-widget.md).|
 
 ## Filter, sort, and more options<a name="filter-records-in-work-list"></a>     
 
@@ -189,56 +188,12 @@ For example, let's say 10 leads have a sequence step to send an introduction ema
 
 The email will be sent to all the recipients you specify. You can verify that the timelines for those entities are updated with the email. After you refresh the work list, all the records you just sent email to will move to the next step.
 
-## Understand the Up next widget
 
-Using the **Up next** widget, you can view and perform actions on activities on a record. The widget displays the current activity, upcoming activity, and completed activities. You can add these activities to a record manually or by using a sequence:
-
-- In a sequence, a sales manager creates activities and applies them to the record according to business requirements. The activities in the sequence are displayed in the **Up next** widget.    
-- For manual activities, you or a sales manager can create an activity on the timeline. The activity is displayed in the **Up next** widget as a current, upcoming, or completed activity, depending on its due date. This activity is available to you and other sellers who have access to the record.
-
-The following image shows an example of the **Up next** widget.    
-
-> [!div class="mx-imgBorder"]
-> ![Up next widget.](media/sa-up-next-widget.png "Up next widget")    
-
-1. **Current activity**: The current activity is a task that you must complete or skip to go to the next activity, which moves the record closer to completion. To perform an action such as making a phone call or sending an email, select the action icon displayed in the activity. More information: [Connect with customers by using a record or the Up next widget ](connect-with-customers.md).   
-
-   After you complete the action, select **Mark complete**, and the activity is closed and moved automatically to completed items and is displayed on the timeline.
-
-   You can choose to skip the activity if you think it's not relevant to the record or you don't want to perform the action. Select **More options**, and then select **Skip**. The activity is skipped and moved to completed items.
-
-2. **Upcoming activity**: The upcoming activity section is view-only, and you can't perform an action on these tasks. This section is displayed so you know which activity will appear next when you complete the current activity.
-
-3. **Completed activities**: These activities are marked as complete or skipped for a record.
-
-     To view the completed activities list, select **Show completed**. The section expands to display the list of completed activities with details such as whether the activity was completed (with date and time) or was it skipped. You can't perform any actions on these tasks; they're view-only. The following image is an example of an expanded section of completed items.
-
-     > [!div class="mx-imgBorder"]
-     > ![View completed activities.](media/sa-view-completed-activities.png "View completed activities")   
-
-## Add manual activities to records
-
-Using the sequence, your sales manager can define activities for you such as email, phone calls, tasks, and meetings. To meet business requirements, you might have to add extra activities to a lead or an opportunity. You can manually add activities for records to appear in the **Up next** widget in addition to activities defined in the sequence for a given day. The manual activities include email, phone calls, and tasks.
-
-The characteristics of manual activities are similar to an activity defined in a sequence. Sellers must perform the activity and mark it as complete. Then the activity will be moved to the list of completed activities in the **Up next** widget. A sales manager or you, as a seller, can add the manual activity to the records that you or your security role owns.
-
-**To add a manual activity**
-
-1. Sign in to the Dynamics 365 Sales Hub app, and then go to **Change area** ![change area icon.](media/change-area-icon.png) > **Sales**.   
-2. From the site map, under **My Work**, select **Sales accelerator (preview)**.    
-3. Select the record for which you want to add the manual activity from the work list.   
-4. In the **Timeline** section, select **Add** (**+**).   
-    >[!NOTE]
-    >Only **Email**, **Phone call**, **Task**, and **Meetings** activities will be displayed in the **Up next** widget.    
-5. Select and configure the activity that you want to add to the record.    
-6. Save and close the activity.   
-
-The activity is added to the record and displayed in the **Up next** widget, based on its due date.   
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[What is the sales accelerator?](sales-accelerator-intro.md)  
-[Create and manage sequences](create-manage-sequences.md)
-
+[Create and manage sequences](create-manage-sequences.md)  
+[Understand the Up next widget](understand-the-up-next-widget.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

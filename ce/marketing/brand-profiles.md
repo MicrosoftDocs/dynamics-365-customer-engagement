@@ -1,5 +1,5 @@
 ---
-title: "Preview: Create consistent branding with brand profiles (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Create consistent branding with brand profiles (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create brand profiles in Dynamics 365 Marketing."
 ms.date: 08/12/2022
 ms.custom: 
@@ -7,22 +7,13 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
-# Preview: Create consistent branding with brand profiles
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+# Create consistent branding with brand profiles
 
 Brand profiles allow you to create consistently branded content efficiently, even if your organization has multiple brands. You can create multiple brand profiles for your organization or profiles for each of your business units. You can also define default senders for emails and set default social links. You can even extend your brand profile entity with custom values that you can use when creating content. This article describes how to create a brand profile.
 
@@ -64,3 +55,5 @@ And that’s it! Your profile is created and is ready to use in your emails. Lea
 
 > [!IMPORTANT]
 > The brand profile table is editable, so you can add new fields to it. For example, you could add fields to store URL links for more social platforms.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
