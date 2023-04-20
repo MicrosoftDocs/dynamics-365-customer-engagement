@@ -35,7 +35,7 @@ The report summarizes KPIs for the specified time period and the percentage chan
 | Bot escalation rate |  The percentage of bot sessions that were escalated by a bot to a human agent.  |
 | Total bot sessions |  The total number of sessions within the specified time period. A bot session is defined as a conversation in which a bot is invoked. The bot can be invoked at the beginning, during, or end of a conversation. |
 | Bot engagement rate |  The percentage of total sessions that are engaged sessions. An engaged session is a session in which a user-created topic (as opposed to a system topic) is triggered, or the session ends in escalation. Engaged sessions can have one of three outcomes: they're either resolved, escalated, or abandoned. |
-| Bot resolution rate | The percentage of sessions that were closed by interacting with a bot (out of all the sessions engaged by a bot). |
+| Bot resolution rate | The percentage of sessions that were closed by interacting with a bot out of all the sessions engaged by a bot. |
 | Bot abandon rate  | The percentage of engaged sessions that are abandoned. An abandoned session is an engaged session that isn't resolved or escalated after one hour from the beginning of the session. |
 | Bot CSAT | The graphical view of the average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey. |
 
@@ -116,6 +116,7 @@ The following charts are displayed:
 | Session outcomes over time | Provides a graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period.|
 
 ### Metrics by bot topic
+
 The **Metrics by bot topic** section provides insights into the performance of individual bot topics and their key business metrics. The metrics give the supervisor an overview of which topics the bot was able to deflect or escalate. 
 
 You can also select a topic and drill down into the individual topic performance and metrics. The topic-level metrics help supervisors further analyze how the bot is handling the topic. 
@@ -153,7 +154,7 @@ KPIs for the following areas are displayed.
 | KPI | Description |
 | ------- | ------------------ |
 | Bot conversations | The number of conversations initiated by the customer and engaged by a bot. |
-| Bot resolution rate | The percentage of conversations that were closed by interacting with a bot (out of all conversations engaged by a bot). |
+| Bot resolution rate | The percentage of conversations that were closed by interacting with a bot out of all conversations engaged by a bot. |
 | Bot resolution time (min) | The time in minutes for which a customer interacted with a bot before the conversation was closed. |
 | Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent. |
 | Bot escalation time (min) | The time in minutes for which a customer interacted with a bot before the conversation was escalated to a human agent. |
@@ -172,7 +173,7 @@ The following table explains the bot KPI chart metrics.
 | Title | Description |
 | --------------- | --------------- |
 | Bot conversations | The number of conversations initiated by the customer and engaged by a bot. |
-| Bot resolution rate | The percentage of conversations that were closed by interacting with a bot (out of all conversations engaged by a bot). |
+| Bot resolution rate | The percentage of conversations that were closed by interacting with a bot out of all conversations engaged by a bot. |
 | Bot resolution time | The time in minutes for which a customer interacted with a bot before the conversation was closed. |
 | Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent. |
 | Bot escalation time (min) | The time in minutes for which a customer interacted with a bot before the conversation was escalated to a human agent. | 
