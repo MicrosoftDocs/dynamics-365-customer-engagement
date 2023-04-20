@@ -25,9 +25,9 @@ If an agent is working on a support case, they can view similar cases in the **R
   
 ## Similar case suggestion scenario
 
-Gilda is resolving an issue where a customer isn't able to book a travel package on the portal. To assist the customer quickly, she seeks guidance by looking for similar cases in the **Similar cases** tab in the **Related** section of the current case.
+Gilda is resolving an issue where a customer isn't able to book a travel package on the portal. To assist the customer quickly, Gilda seeks guidance by looking for similar cases in the **Similar cases** tab in the **Related** section of the current case.
 
-Based on configured data input, the Relevance search mechanism filters the cases using key phrases and suggests a list of cases that Gilda can refer. She selects a relevant case and glances through the details. She's able to resolve the customer issue with this suggested case. She can also link the case to the current case for future reference. 
+Based on configured data input, the Relevance search mechanism filters the cases using key phrases and suggests a list of cases. Gilda selects a relevant case and glances through the details. Gilda is able to resolve the customer issue with this suggested case and can also link the case to the current case for future reference. 
 
 ## Create a new similarity rule to view similar cases
 
