@@ -109,14 +109,17 @@ additionalContent:
         text: Customer Service admin center (Administrator)
       - url: /dynamics365/customer-service/developer/omnichannel-developer
         text: Omnichannel for Customer Service SDK (Developer)
-  - title: Related solutions
+  - title: Related products
     items:
         # Card
         
-        - title: Unified Service Desk Guide
-          summary: Unified Service Desk for Dynamics 365 model-driven apps provides a configurable framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in Microsoft Dataverse. 
-          url: /dynamics365/unified-service-desk/unified-service-desk
-        - title: Dynamics 365 Channel Integration Framework guide
-          summary: Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 model-driven apps using a browser-based JavaScript API library.
-          url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
+        - title: Microsoft Power Apps
+          summary: Learn how to quickly build low-code apps that modernize processes and solve tough business challenges in your organization using Power Apps.
+          url: /power-apps/
+        - title: Microsoft Power Platform
+          summary: Learn how to quickly and easily build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, analyze data for insights using Power BI, rapidly design, configure, and publish modern websites using Power Pages, and build intelligent bots with a no-code interface using Power Virtual Agents.
+          url: /power-platform/?WT.mc_id=webupdates_GEP_Powerplatformlearn-web-wwl
+        - title: Azure Communication Services
+          summary: Build powerful, cloud-based communication and customer engagement experiences by adding voice, video, chat, sms, email, teams interoperability, call automation, and telephony to your apps.
+          url: /azure/communication-services/
        
