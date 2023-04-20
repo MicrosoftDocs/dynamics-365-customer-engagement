@@ -1,13 +1,30 @@
-Schedule board tab settings allow you to define the layout and functions of schedule board tabs.
+Scheduler settings let you define the layout and functions of schedule board tabs.
 
-There are 3 ways to access a schedule board's tab settings:  
+There are two levels of settings for the schedule board. **Board view settings** contains a set of basic settings that mainly define the layout of a schedule board. Board settings contain more detailed settings and enable customizations.
 
-1. Double-click the name of the schedule board tab.
-2. While viewing the schedule board tab, select the gear icon in the top right of the schedule board.
-3. While viewing the schedule board tab, select the **settings icon > Open Tab Settings** - see the following screenshot for reference.
+## Board view settings
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of accessing schedule board tab settings.](../../field-service/media/schedule-board-tab-settings-access.png)
+The board view settings show in a pane and apply only to the selected schedule board tab.
+
+Open the **Schedule Board**, choose the tab to configure and select **Scheduler settings**.
+
+:::image type="content" source="../../field-service/media/scheduler-settings.png" alt-text="Screenshot of the Board view settings pane on the Schedule Board.":::
+
+- **Time Zone**: Sets the time zone that the schedule board uses. The times for bookings in different time zones adapt to the selection.
+- **Time resolution**: Time intervals for the hourly view.
+- **Row height**: Defines the height of resource rows.
+- **Show canceled**: Shows or hides canceled bookings.
+
+Select **All board settings** to see more settings.
+
+## Board settings
+
+Board settings are more detailed and let you define settings for a specific board tab and default settings that apply to all tabs. You can get to the board settings in two ways: 
+
+- Select the vertical ellipsis &vellip; next to the schedule board tab name and choose **Board settings**.
+- Open the **Scheduler settings** and select **All board settings**.
+
+:::image type="content" source="../../field-service/media/schedule-board-tab-settings-access.png" alt-text="Screenshot of accessing schedule board tab settings.":::
 
 When you access the schedule board tab settings, you'll see the following: 
 
@@ -123,7 +140,7 @@ This setting decides the default value for the **Search For** field in the sched
 
 - Set to **All resources** to search for all applicable resources in the system that meet the schedule assistant filters for the requirement. 
 
-- Set to **Resources visible on board** to search for resources that meet the schedule assistant filters for that requirement *and* meet the current schedule board resource filters. This schedule assistant filter value can still be manually changed by the dispatcher at the time of scheduling. If a scheduler is responsible for a specific schedule board and specific resources, then we recommend **Resources visible on board** because this ensures the scheduler cannot schedule requirements to other resources he or she is not responsible for. 
+- Set to **Resources visible on board** to search for resources that meet the schedule assistant filters for that requirement *and* meet the current schedule board resource filters. This schedule assistant filter value can still be manually changed by the dispatcher at the time of scheduling. If a scheduler is responsible for a specific schedule board and specific resources, then we recommend **Resources visible on board** because this ensures the scheduler cannot schedule requirements to other resources they are not responsible for. 
 
   For smaller organizations or organizations with less rigid resource and line of business divisions, the **All resources** setting will allow schedulers to search across all applicable resources across the entire organization. 
 

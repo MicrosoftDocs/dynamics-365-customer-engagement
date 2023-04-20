@@ -1,5 +1,5 @@
 ---
-title: Upload, manage and use images, files, and videos in online content
+title: Use images, files, and videos in your content
 description: "How to Upload, manage and use images, files and videos in Dynamics 365 Marketing."
 ms.date: 03/02/2023
 ms.custom: 
@@ -7,17 +7,13 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
-# Upload and use images in online content
+# Upload, manage and use images, files, and videos in online content
 
 Shareable assets are critical for meaningful and successful customer experiences. The files you use must be available publicly on the internet so your emails and pages can access and display them. The Dynamics 365 Marketing library stores images, documents, and videos, hosting them publicly and providing an easy way to find and link to them while creating content. The library is shared across real-time and outbound marketing, making it easy to upload and use assets where you need them. 
 
@@ -63,3 +59,5 @@ If the image you need isn't there, select **+Upload** to add a new one.
 ### See also
 
 [Link to documents stored in the asset library](/dynamics365/marketing/real-time-marketing-email#link-to-documents-and-videos-stored-in-the-asset-library)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

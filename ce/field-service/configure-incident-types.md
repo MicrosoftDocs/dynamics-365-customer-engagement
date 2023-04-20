@@ -5,9 +5,6 @@ ms.date: 09/27/2022
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Create work order templates with incident types
@@ -168,7 +165,7 @@ In the following screenshot, service tasks don't have an estimated duration.
 [Characteristics](set-up-characteristics.md) are skills or attributes related to resources that help schedulers find the right technician for the job. For example, knowledge of the Spanish language or access to a specific building.
 
 > [!TIP]
-> If you want to use **Requirement Groups** with **Incident Types** for multi-resource scheduling, don't add characteristics to the incident type. Instead, add required characteristics to the requirement group template. For more information, go to [Requirement groups for work orders](multi-resource-scheduling-requirement-groups.md#requirement-groups-for-work-orders).
+> If you want to use **Requirement Groups** with **Incident Types** for multi-resource scheduling, don't add characteristics to the incident type. Instead, add required characteristics to the requirement group template. For more information, go to [Requirement groups for work orders](multi-resource-scheduling-requirement-groups.md).
 
 1. Open an *Incident Type* record.
 
@@ -252,7 +249,7 @@ For other incidents, select the incident on the work order form and go to the **
 
 ## Schedule incidents for multiple resources
 
-To assign multiple resources to an incident, relate the incident type to a requirement group template. Scheduling requirement groups for work orders ensures each resource arrives on site at the same time. For more information, go to [Requirement groups for work orders](multi-resource-scheduling-requirement-groups.md#requirement-groups-for-work-orders).
+To assign multiple resources to an incident, relate the incident type to a requirement group template. Scheduling requirement groups for work orders ensures each resource arrives on site at the same time. For more information, go to [Requirement groups for work orders](multi-resource-scheduling-requirement-groups.md).
 
 When using incidents with requirement groups:
 

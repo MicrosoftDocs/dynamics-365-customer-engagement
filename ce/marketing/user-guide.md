@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: hub-page
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Marketing user guide

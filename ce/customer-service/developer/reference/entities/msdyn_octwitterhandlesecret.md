@@ -3,9 +3,8 @@ title: "msdyn_octwitterhandlesecret Entity Reference (Microsoft Dataverse)| Micr
 description: "Includes schema information and supported messages for the msdyn_octwitterhandlesecret entity."
 ms.date: 10/27/2022
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 ---
 
 # msdyn_octwitterhandlesecret Entity Reference

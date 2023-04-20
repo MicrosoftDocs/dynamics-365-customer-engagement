@@ -1,11 +1,12 @@
 ---
-title: "Assignment methods for queues | MicrosoftDocs"
-description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing."
-ms.date: 01/23/2023
-ms.topic: article
+title: Assignment methods for queues
+description: Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing.
+ms.date: 04/10/2023
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 searchScope:
 - D365-App-customerservicehub
 - D365-Entity-queueitem
@@ -21,11 +22,17 @@ Use assignment methods to determine how to assign work items. You can use the ou
 
 ## How auto assignment works
 
-The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles.
+The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles and a default block size of work items.
 
-Each cycle picks up the top unassigned work items in a default block of 100 items and attempts to match each work item with an appropriate agent. Work items that couldn't be assigned to agents because of unavailability of agents or right skill match not found is routed back to the queue. The next assignment cycle picks up another block of 100 top-priority items.
+Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate agent. Work items that can't be assigned to agents because of unavailability of agents or right skill match not found are routed back to the queue.
 
-If no eligible agents are found for all the top 100 items in a queue, then each assignment cycle will keep retrying the top 100 items in that queue.
+The next assignment cycle picks up the next block of the top-priority items that includes new work items.
+
+When no eligible agents are found for the work items, the assignment cycle keeps retrying to assign the top number of default sized block items as applicable for the channel.
+
+For digital messaging and voice, the default block size is 100 work items of top priority.
+
+For records channel, each assignment cycle prioritizes up to 2000 work items and processes them in a block size of 500.
 
 ## Types of assignment methods
 
@@ -43,9 +50,9 @@ The following assignment methods are available out of the box:
 
 - **Most idle (preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
 
-   The assignment method uses the time since last capacity is released to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available will be assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses aren't used in determining the most-idle agent.
+  The assignment method uses the time since last capacity is released to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available will be assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses aren't used in determining the most-idle agent.
 
-   Routing to the most-idle agent assignment strategy helps in better use of agents with a more fair distribution of work items across agents. This provides higher agent satisfaction and improved customer satisfaction.
+  Routing to the most-idle agent assignment strategy helps in better use of agents with a more fair distribution of work items across agents. This provides higher agent satisfaction and improved customer satisfaction.
 
     > [!IMPORTANT]
     >
@@ -93,7 +100,7 @@ You can create only one prioritization ruleset per queue.
 
 As an example, consider the prioritization ruleset as seen in the following screenshot with four rules.
 
-![Prioritization scenario.](media/ur-prioritization-scenario.png "Prioritization scenario")
+:::image type="content" source="media/ur-prioritization-scenario.png" alt-text="Prioritization scenario.":::
 
 - During any assignment cycle, this prioritization ruleset will be run, and the rules within the ruleset will be run in the order they're listed.
 
@@ -131,14 +138,14 @@ The assignment rules are composed of the following items:
 - **Order**: Specifies the order in which the assignment rule will be evaluated in a ruleset. The lower-order rules are run first. If any rule results in matching a user, then the next set of rules isn't evaluated.
 - **Name**: The unique rule name.
 - **Condition**: The expressions that are evaluated to match the users with the attributes of incoming work. The conditions have three parts:
-   - **User attribute**: Properties of the users that can be used for comparing the user with the incoming work. The user attributes can be one of the following:
-     - **Select attributes on the System User table.**
-     - **Presence Status**: Maintained by the unified routing service based on user workloads and manual selection.
-     - **Capacity**: Maintained by the unified routing service based on user workloads and manual selection.
-     - **User skills**: Represents the skills associated with the user that can be used for doing skill-based assignment.
-     - **Calendar Schedule**: Schedule of the user as represented in the user service scheduling calendars.
-     - **Bot attributes**: Can be used only when you have configured bots as users and want to do some comparisons on them.
-   - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes. 
+  - **User attribute**: Properties of the users that can be used for comparing the user with the incoming work. The user attributes can be one of the following:
+    - **Select attributes on the System User table.**
+    - **Presence Status**: Maintained by the unified routing service based on user workloads and manual selection.
+    - **Capacity**: Maintained by the unified routing service based on user workloads and manual selection.
+    - **User skills**: Represents the skills associated with the user that can be used for doing skill-based assignment.
+    - **Calendar Schedule**: Schedule of the user as represented in the user service scheduling calendars.
+    - **Bot attributes**: Can be used only when you have configured bots as users and want to do some comparisons on them.
+  - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes. 
 
       Unified routing filters the attribute-specific operators for you to choose from. Some special operators that are available for the attribute types are as follows.
     
@@ -151,9 +158,9 @@ The assignment rules are composed of the following items:
       |Calendar schedule|Is working|Use this operator to find agents who are working as per their service scheduling calendars.|
       ||||
   
-   - **Value**: The user attributes are compared against this value to find the right agent. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country is the same as that of the customer associated with the case.
+  - **Value**: The user attributes are compared against this value to find the right agent. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country is the same as that of the customer associated with the case.
   
-     ![Sample dynamic match](media/dynamic-value-match.png "Sample dynamic match")
+     :::image type="content" source="media/dynamic-value-match.png" alt-text="Sample dynamic match.":::
 
     For some operators, values aren't required. They can be conditions, such as "Contains data," "Does not contain data," and "Calendar schedule: is working."
 
@@ -162,23 +169,44 @@ The assignment rules are composed of the following items:
 - **Order by**: If multiple agents match the conditions in a rule, you can use the "Order by" clause to find the best-suited one. You can specify the following order by clauses:
 
   - **Ordering Attributes**:
-   
-     - **Most idle (preview)**: In preview release, this option is available for voice channel queues only. The work item is routed to the agent who is idle the most among all the agents who match skills and capacity. For more information, see the [Types of assignment methods](#types-of-assignment-methods) section.
-     - Round robin
-     - Unit-based available capacity
-     - Profile-based available capacity
-     - Proficiency
-     - Skill count
-      
+
+    - **Most idle (preview)**: In preview release, this option is available for voice channel queues only. The work item is routed to the agent who is idle the most among all the agents who match skills and capacity. For more information, see the [Types of assignment methods](#types-of-assignment-methods) section.
+    - Round robin
+    - Unit-based available capacity
+    - Profile-based available capacity
+    - Proficiency
+    - Skill count
+
   - **User Attributes**: These attributes are defined on the system user entity.
 
 A sample assignment rule is explained in the following scenario with a screenshot.
 
-![Sample assignment method](media/ur-sample-assign-scenaro.png "Sample assignment method")
+:::image type="content" source="media/ur-sample-assign-scenario.png" alt-text="Sample assignment method.":::
 
-The first condition specifies the "user skills" on which the operator is an exact match. Then the user attributes are evaluated. The different user attributes are specified with operators, and values for each attribute, such as the **Presence status** attribute, should be equal to "Available" or "Busy". On the right of the operator, you can specify the value that you want the attribute to be matched against. The values can be "static," such as "presence status equals Available or Busy". If you specify "dynamic," the condition will be matched at runtime based on the expression you specify—for example, if you specify "Preferred Customer Type Equals Conversation.Contact.Membership Level," the "preferred customer type" of every agent will be matched against the dynamically calculated membership level of the customer associated with the chat.
+The first condition specifies the "user skills" on which the operator is an exact match. Then the user attributes are evaluated. The different user attributes are specified with operators, and values for each attribute, such as the **Presence status** attribute, should be equal to "Available" or "Busy". On the right of the operator, you can specify the value that you want the attribute to be matched against. The values can be "static," such as "presence status equals Available or Busy". If you specify "dynamic," the condition will be matched at runtime based on the expression you specify. For example, if you specify "Preferred Customer Type Equals Conversation.Contact.Membership Level," the "preferred customer type" of every agent will be matched against the dynamically calculated membership level of the customer associated with the chat.
 
 Dynamic match reduces the effort of having to write and maintain multiple static rules for each permutation and combination of the possible value.
+
+### Limits on offering a work item repeatedly to an agent
+
+When agents are offered a work item through automatic assignment, they typically can accept or decline. Both [rejection](enable-agent-reject-notifications.md) and [time out](manage-missed-notifications.md) of the notification is considered as a decline. An agent who declines the same work item thrice won't be considered for further auto assignment for the specific work item. The system will try to offer the declined work item to other agents in the queue if they're eligible.
+
+For example, agent Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment won't offer the same chat to Serena Davis again. But the system will offer the chat from Ana Bowman to other eligible agents. Also, Serena Davis will be considered for other incoming conversations except the declined chat from Ana Bowman.
+
+> [!NOTE]
+> If all matching agents decline the work item because agent availability is low or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if 100 agents decline a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked up by agents including those who rejected it.
+
+You can update the default limit of three declines to a value between one and five based on your org requirement. The limit is applicable to all channels in the org.
+
+You can make an OData call as follows to check the limit for your organization.
+
+`<org-url>/api/data/v9.0/msdyn_omnichannelconfigurations?$select=msdyn_number_of_declines_allowed`
+
+If this OData call returns the null value, it means that the decline limit is set to a default value of 3.
+
+You can update the OData call as follows to modify the limit.
+
+`var data = { "msdyn_number_of_declines_allowed": 3 } // update the record Xrm.WebApi.updateRecord("msdyn_omnichannelconfiguration", "d4d91600-6f21-467b-81fe-6757a2791fa1", data).then( function success(result) { console.log("Omnichannel Configuration updated"); // perform operations on record update }, function (error) { console.log(error.message); // handle error conditions } );`
 
 ### See also
 

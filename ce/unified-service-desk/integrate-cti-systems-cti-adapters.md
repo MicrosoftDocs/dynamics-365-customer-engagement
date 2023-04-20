@@ -3,15 +3,11 @@ title: "Integrate with CTI systems using CTI adapters| MicrosoftDocs"
 description: "Learn to integrate CTI systems using CTI adapters. Also, find information about the adapters you can create for Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---

@@ -5,7 +5,6 @@ ms.date: 03/11/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Explore the sales accelerator with sample data 
 

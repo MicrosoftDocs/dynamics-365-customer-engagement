@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: reference
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Troubleshoot customer journey customization errors
@@ -38,3 +34,5 @@ After selecting rows in the Recovery items tab, you can delete the items (which 
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

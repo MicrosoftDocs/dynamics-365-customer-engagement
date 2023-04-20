@@ -3,9 +3,8 @@ title: "msdyn_ocbotchannelregistrationsecret Entity Reference (Microsoft Dataver
 description: "Includes schema information and supported messages for the msdyn_ocbotchannelregistrationsecret entity."
 ms.date: 10/27/2022
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 ---
 # msdyn_ocbotchannelregistrationsecret Entity Reference
 

@@ -5,7 +5,6 @@ ms.date: 05/26/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # View smart assist suggestions

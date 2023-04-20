@@ -5,15 +5,11 @@ ms.date: 07/09/2019
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 keywords: "installation, setup, sales navigator"
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365LinkedIn
 applies_to: 
   - "Dynamics 365 Version 9.x"
   - "Dynamics 365 (online)"

@@ -14,7 +14,6 @@ ms.assetid: 05893d42-273f-4ef1-b070-b9d53a7dbb18
 caps.latest.revision: 6
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Dynamics 365 Customer Engagement (on-premises) database maintenance
 

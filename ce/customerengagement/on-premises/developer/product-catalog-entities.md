@@ -17,7 +17,6 @@ helpviewer_keywords:
 ms.assetid: 1915ba81-7d8f-46a7-88de-4c7a1aa24b04
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
 search.audienceType: 
   - developer
 

@@ -3,8 +3,8 @@ title: Understand disconnected chats
 description: Use this article to know how Omnichannel for Customer Service handles customer disconnection during live chat.
 ms.date: 01/23/2023
 ms.topic: conceptual
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 ms.custom: bap-template
 ---
 

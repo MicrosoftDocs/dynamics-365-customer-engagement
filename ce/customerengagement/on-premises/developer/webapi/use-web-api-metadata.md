@@ -8,7 +8,6 @@ ms.reviewer: pehecke
 ms.topic: article
 author: brandonsimons # GitHub ID
 ms.author: pehecke
-manager: shujoshi
 search.audienceType: 
   - developer
 

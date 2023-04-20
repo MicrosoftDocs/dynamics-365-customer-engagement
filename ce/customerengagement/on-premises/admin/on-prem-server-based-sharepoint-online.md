@@ -12,7 +12,6 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 
 # Configure server-based authentication with Customer Engagement (on-premises) and SharePoint Online

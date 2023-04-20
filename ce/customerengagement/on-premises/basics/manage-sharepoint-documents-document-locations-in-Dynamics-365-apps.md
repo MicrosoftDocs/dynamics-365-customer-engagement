@@ -10,7 +10,6 @@ applies_to:
 ms.assetid: 247ced8f-f79f-4447-8690-3c22c1489544
 author: sericks007
 ms.author: sericks
-manager: tapanm-MSFT
 topic-status: Editing
 search.audienceType: 
   - enduser

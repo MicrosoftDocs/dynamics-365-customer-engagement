@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # How to use inline conditions
@@ -100,3 +96,5 @@ Relative dates allow you to define conditions such as "Birthday is next month" o
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing relative date settings.](media/real-time-marketing-relative.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

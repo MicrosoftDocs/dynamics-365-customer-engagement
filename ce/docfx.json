@@ -58,6 +58,7 @@
           "customerengagement/on-premises/**/*.gif",
           "customerengagement/on-premises/**/*.html",
           "customerengagement/on-premises/**/*.htm",
+          "customerengagement/on-premises/**/*.svg",
           "customerengagement/on-premises/**/*.txt"
         ],
         "exclude": [
@@ -74,6 +75,7 @@
           "unified-service-desk/**/*.png",
           "unified-service-desk/**/*.jpg",
           "unified-service-desk/**/*.gif",
+          "unified-service-desk/**/*.svg",
           "unified-service-desk/**/*.html",
           "unified-service-desk/**/*.htm",
           "unified-service-desk/**/*.txt"
@@ -91,6 +93,7 @@
           "**/*.png",
           "**/*.jpg",
           "**/*.gif",
+          "**/*.svg",
           "**/*.html",
           "**/*.htm",
           "**/*.txt",
@@ -158,10 +161,7 @@
         "sales/sales-mobile/**.*": "d365-sales-mobile",
         "sales/teams-integration/**.*": "d365-sales-teams",
         "teams-integration/**.*": "dynamics-365-teams",
-        "unified-service-desk/**.*": "unified-service-desk",
-        "outlook-addin/**.*": "d365-ce-outlook",
-        "outlook-app/**.*": "d365-ce-outlook",
-        "mobile-app/**.*": "d365-ce-mobile"
+        "unified-service-desk/**.*": "unified-service-desk"
       },
       "ms.topic": {
         "legal/**/*.md": "article",
@@ -282,15 +282,41 @@
         ]
       },
       "search.app": {
-        "omnichannel/**.*": [ "D365CE", "D365CS" ],
-        "sales/**.*": [ "D365CE", "D365Sales" ]
-      },
-      "search.audienceType": {
-        "omnichannel/**.*": [ "admin", "customizer", "enduser" ],
-        "sales/**.*": [ "admin", "customizer", "enduser" ]
+        "omnichannel/**.*": [
+          "D365CE",
+          "D365CS",
+          "omnichannelcustomerservice-docs"
+        ],
+        "sales/**.*": [
+          "D365CE",
+          "D365Sales",
+          "sales-docs"
+        ],
+        "customer-service/**.*": [
+          "D365CE",
+          "D365CS",
+          "customerservice-docs",
+          "customerserviceinsights-docs"
+        ],
+        "marketing/**.*": [
+          "D365CE",
+          "D365Mktg",
+          "marketing-docs"
+        ],
+        "field-service/**.*": [
+          "D365CE",
+          "fieldservice-docs"
+        ],
+        "customerengagement/on-premises/**.*": [
+          "customerengagement-docs"
+        ]
       },
       "ms.reviewer": {
         "field-service/**.*": "mhart"
+      },
+      "titleSuffix": {
+        "field-service/*.md": "Dynamics 365 Field Service",
+        "field-service/*.yml": "Dynamics 365 Field Service"
       }
     },
     "template": [],
@@ -298,7 +324,7 @@
     "groups": {
       "usd-all": {
         "dest": "usd-all",
-        "moniker_range": ">= dynamics-usd-3"
+        "moniker_range": ">= dynamics-usd-4"
       },
       "op-all": {
         "dest": "op-all",

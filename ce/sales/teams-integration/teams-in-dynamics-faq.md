@@ -4,12 +4,8 @@ description: "Collaborate efficiently in Dynamics 365 without switching to Teams
 ms.date: 08/25/2022
 ms.topic: article
 
-search.app: 
-  - D365CE
-  - Powerplatform
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Microsoft Teams chat integration FAQ

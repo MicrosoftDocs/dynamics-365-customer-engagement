@@ -4,7 +4,6 @@ description: "This article provides procedural information to configure an agent
 ms.date: 02/25/2022
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Configure agent display name

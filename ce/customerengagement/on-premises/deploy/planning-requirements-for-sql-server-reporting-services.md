@@ -14,7 +14,6 @@ ms.assetid: 0477d5c9-ae75-45c7-b37d-4088e6928cfb
 caps.latest.revision: 14
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Planning requirements for SQL Server Reporting Services
 

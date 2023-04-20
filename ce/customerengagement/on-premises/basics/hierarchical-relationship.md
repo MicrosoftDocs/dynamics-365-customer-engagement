@@ -10,7 +10,6 @@ applies_to:
 ms.assetid: 972864a7-dc1d-d91c-4003-6056bf312840
 author: sericks007
 ms.author: sericks
-manager: tapanm-MSFT
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

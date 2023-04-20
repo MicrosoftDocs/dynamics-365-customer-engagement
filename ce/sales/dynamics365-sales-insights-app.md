@@ -6,7 +6,6 @@ ms.topic: overview
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Improve seller coaching and sales potential with conversation intelligence

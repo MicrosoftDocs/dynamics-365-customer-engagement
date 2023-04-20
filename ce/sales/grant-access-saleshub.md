@@ -5,7 +5,6 @@ ms.date: 04/26/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Grant or revoke access to the Sales Hub app
 

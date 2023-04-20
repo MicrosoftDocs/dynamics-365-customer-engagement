@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Personalize journey variations using multiple journey branches
@@ -64,3 +60,5 @@ Journey branches let you create personalized journeys for customers, engaging th
 
     > [!div class="mx-imgBorder"]
     > ![Different links as branching options screenshot.](media/real-time-marketing-multiple-branches-links.png "Different links as branching options screenshot")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Access a Dynamics 365 Marketing trial from Microsoft Teams
@@ -36,7 +32,7 @@ To access Dynamics 365 Marketing/Microsoft Teams trial:
     > [!IMPORTANT]
     > The **Turn attendance into results** button only appears in the attendance tab *after* the webinar has ended. The meeting type must be a webinar to use the **Turn attendance into results** functionality. The button is not shown if the meeting type is not a webinar, if you do not meet eligibility criteria, or if your organization has disabled trials.
     > 
-    > Additionally, the **Turn attendance into results** button will not appear unless the **Engagement report** policy is enabled. Learn more: [Enable engagement reports](/microsoftteams/meeting-policies-in-teams-general.md#engagement-report).
+    > Additionally, the **Turn attendance into results** button will not appear unless the **Engagement report** policy is enabled. Learn more: [Enable engagement reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report#configure-the-teams-meeting-attendance-report).
 
 1. Select **Get started**.
 
@@ -66,3 +62,5 @@ When your Dynamics 365 Marketing trial expires, your administrator will have to 
 
 > [!NOTE]
 > Microsoft Teams and Dynamics 365 Marketing each have their own [service-specific licensing terms](https://www.microsoft.com/licensing/terms/productoffering). The service-specific terms that apply depend on which service processes your data. For example, when you transition from Microsoft Teams to Dynamics 365 Marketing, your Microsoft Teams data related to the webinar (such as the attendance report, engagement data, etc.) is transferred to Dynamics 365 Marketing whereupon it becomes Dynamics 365 Marketing data and the Dynamics 365 service-specific terms apply.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

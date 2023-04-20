@@ -382,12 +382,12 @@
     },
     {
       "source_path": "ce/customer-service/cs-email-template-builder.md",
-      "redirect_url": "/powerapps-docs/user/cs-email-template-builder.md",
+      "redirect_url": "/power-apps/user/cs-email-template-builder",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/customize-insert-email-template.md",
-      "redirect_url": "/powerapps-docs/user/customize-insert-email-template.md",
+      "redirect_url": "/power-apps/user/customize-insert-email-template",
       "redirect_document_id": "false"
     },
     {
@@ -3698,11 +3698,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/index.md",
-      "redirect_url": "/powerapps/developer/common-data-service/best-practices/",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/mobile-app/configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md",
       "redirect_url": "setup-mobile-offline-for-admin",
       "redirect_document_id": "false"
@@ -4022,6 +4017,7 @@
       "redirect_url": "/dynamics365/customer-engagement/sales-enterprise/help-hub",
       "redirect_document_id": "false"
     },
+
     {
       "source_path": "ce/social-engagement/ebooks-and-videos.md",
       "redirect_url": "/dynamics365/customer-engagement/social-engagement/help-hub",
@@ -23112,6 +23108,47 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/integrate-sample-softphone.md",
+      "redirect_url": "/dynamics365/sales/sample-softphone-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/manage-custom-cards-flow.md",
+      "redirect_url": "/dynamics365/sales/create-insight-cards-flow",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/collaborate-using-sharepoint-sales.md",
+      "redirect_url": "/power-apps/user/collaborate-using-sharepoint",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/overview-premium-capabilities.md",
+      "redirect_url": "/dynamics365/sales/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/find-your-way-around-sales-hub-app.md",
+      "redirect_url": "/dynamics365/sales/intro-saleshub",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/no-longer-working-lead-sales.md",
+      "redirect_url": "/dynamics365/sales/qualify-lead-convert-opportunity-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/use-sales-hub-on-mobile-app.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/dynamics-365-sales-mobile-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/connect-share-feedback.md",
+      "redirect_url": "/dynamics365/sales/overview",
+      "redirect_document_id": "false"
+    },
+
+    {
       "source_path": "ce/sales-enterprise/help-hub.md",
       "redirect_url": "/dynamics365/sales/help-hub",
       "redirect_document_id": "false"
@@ -23719,6 +23756,11 @@
     {
       "source_path": "ce/sales-enterprise/developer/custom-plugin-handling-shared-variable.md",
       "redirect_url": "/dynamics365/sales/developer/custom-plugin-handling-shared-variable",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/reference/custom-actions/events-context-deal-manager.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/clientapi/events-forms-grids",
       "redirect_document_id": "false"
     },
     {
@@ -24646,6 +24688,26 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/universal-resource-scheduling.md",
+      "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"      
+    },
+    {
+      "source_path": "ce/field-service/scheduling-roles-personas.md",
+      "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"      
+    },
+    {
+      "source_path": "ce/field-service/scheduling-capabilities.md",
+      "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"      
+    },
+    {
+      "source_path": "ce/field-service/5-stages-scheduling-adoption.md",
+      "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"      
+    },
+    {
       "source_path": "ce/field-service/cfs-iot-central-alerts.md",
       "redirect_url": "/dynamics365/field-service/connected-field-service",
       "redirect_document_id": "false"
@@ -24913,6 +24975,96 @@
     {
       "source_path": "ce/customerengagement/on-premises/developer/set-default-price-level-for-opportunity-quote-order-invoice.md",
       "redirect_url": "/dynamics365/sales/developer/set-default-price-level-for-opportunity-quote-order-invoice",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/perform-initial-configurations-setup.md",
+      "redirect_url": "/dynamics365/field-service/field-service-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/quickstart-schedule-work-order.md",
+      "redirect_url": "/dynamics365/field-service/field-service-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-domain.md",
+      "redirect_url": "/dynamics365/marketing/domain-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/add-facilities-equipment-service-scheduling.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/create-edit-resource-group.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/create-edit-service.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-videos.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/new-upcoming.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/restrict-resource-from-performing-service.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/schedule-time-off.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/set-capacity-required-service-resource.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/set-when-business-closed.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/use-sites-manage-service-locations.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/whats-new-field-service-project-service.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-preview.md",
+      "redirect_url": "/dynamics365/get-started/release-schedule",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/content-ideas-terms.md",
+      "redirect_url": "/dynamics365/marketing/content-ideas",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/forwarding-and-replies.md",
+      "redirect_url": "/dynamics365/marketing/email-troubleshooting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/svg-test.md",
+      "redirect_url": "/dynamics365/marketing/help-hub",
       "redirect_document_id": false
     }
   ]

@@ -3,18 +3,14 @@ title: "Select a hosting method for your controls in Unified Service Desk | Micr
 description: "Learn about the various hosting methods that you can use to host your webpages in Unified Service Desk."
 ms.date: 09/20/2022
 ms.topic: "article"
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
-monikerRange: '>= dynamics-usd-3'
+
 ---
 # Select a hosting method for your controls in Unified Service Desk
 

@@ -3,9 +3,8 @@ title: "msdyn_conversationsuggestionrequestpayload Entity Reference | MicrosoftD
 description: "Includes schema information and supported messages for the msdyn_conversationsuggestionrequestpayload entity."
 ms.date: 03/15/2021
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: "v-jmh"
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: "mgandham"
 applies_to: 
   - "Dynamics 365 (online)"
 ---

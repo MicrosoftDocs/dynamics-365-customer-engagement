@@ -5,7 +5,6 @@ ms.date: 02/06/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # What are preview features

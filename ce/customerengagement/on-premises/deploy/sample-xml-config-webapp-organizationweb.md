@@ -14,7 +14,6 @@ ms.assetid: fadac870-19d6-404c-806f-23be45caa93e
 caps.latest.revision: 13
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Sample XML configuration file that installs only the WebApplicationServer and OrganizationWebService roles
 
