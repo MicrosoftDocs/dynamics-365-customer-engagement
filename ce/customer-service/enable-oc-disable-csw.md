@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Enable the Omnichannel for Customer Service app and disable the Customer Service workspace app
 
-With the deprecation of the Omnichannel for Customer Service agent-facing app, the app is hidden and by default, the Customer Service workspace app is shown to the following user profiles:
+With the [previously announced deprecation](deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-to-be-deprecated) of the Omnichannel for Customer Service agent-facing app, the app is now hidden in environments. By default, Customer Service workspace is shown to the following user profiles:
 
 - Omnichannel Agent
 - Omnichannel Supervisor
@@ -37,7 +37,7 @@ If you don't want the Customer Service workspace app to be visible for any of th
 
 ## Disable the Customer Service workspace app
 
-1. On the Dynamice 365 **Apps** page, navigate to the **Customer Service workspace** app, and then select **MANAGE ROLES** from the app menu.
+1. On the Dynamics 365 **Apps** page, navigate to the **Customer Service workspace** app, and then select **MANAGE ROLES** from the app menu.
 
 1. On the **Manage Roles - Customer Service workspace** right-side pane, deselect the boxes for the roles you don't want the Customer Service workspace app to be visible to.
 
