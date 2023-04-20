@@ -45,4 +45,6 @@ If you don't want the Customer Service workspace app to be visible for any of th
 
 1. Select **Save**.
 
+## Next steps
 
+For information migrating from Omnichannel for Customer Service to Customer Service workspace, go to [Migrate from Omnichannel for Customer Service to Customer Service workspace](migrate-oc-to-csw.md)
