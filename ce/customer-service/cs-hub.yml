@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page 
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 04/11/2023
+  ms.date: 04/20/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -57,8 +57,10 @@ additionalContent:
         text: Try Customer Service
       - url: https://dynamics.microsoft.com/en-us/customer-service/pricing/
         text: Buy Customer Service
-      - url: /dynamics365/customer-service/availability-customer-service-hub
-        text: Provision Customer Service
+      - url: /dynamics365/customer-service/omnichannel-provision-license
+        text: Provision Omnichannel for Customer Service
+      - url: /dynamics365/customer-service/voice-channel-install
+        text: Provision the voice channel
     - title: Set up 
       links:
       - url: add-users-assign-roles.md
@@ -71,8 +73,6 @@ additionalContent:
     items:
     - title: Administer
       links:
-      - url: /dynamics365/customer-service/voice-channel-install
-        text: Install the voice channel
       - url: /dynamics365/customer-service/omnichannel-provision-license#set-up-omnichannel-for-customer-service-
         text: Manage environments for Omnichannel for Customer Service
       - url: /dynamics365/customer-service/upgrade-omnichannel
