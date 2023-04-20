@@ -20,7 +20,7 @@ With the deprecation of the Omnichannel for Customer Service agent-facing app, t
 
 If your business still requires the Omnichannel for Customer Service app, use the steps in this article to [enable the Omnichannel for Customer Service app](#enable-the-omnichannel-for-customer-service-app).
 
-If you don't want the Customer Service workspace app to be visible for any of these profiles, follow the steps in [Disable the Customer Service workspace app](#disable-the-customer-service-workspace-app) to remove it from the apps page in your environment.
+If you don't want the Customer Service workspace app to be visible for any of the above profiles, follow the steps in [Disable the Customer Service workspace app](#disable-the-customer-service-workspace-app) to remove it from the apps page in your environment.
 
 ## Enable the Omnichannel for Customer Service app 
 
@@ -39,7 +39,7 @@ If you don't want the Customer Service workspace app to be visible for any of th
 
 1. On the Dynamice 365 **Apps** page, navigate to the **Customer Service workspace** app, and then select **MANAGE ROLES** from the app menu.
 
-1. On the **Manage roles - Customer Service workspace** menu, deselect the boxes for the roles you don't want the Customer Service workspace app to be visible to.
+1. On the **Manage Roles - Customer Service workspace** right-side pane, deselect the boxes for the roles you don't want the Customer Service workspace app to be visible to.
 
    :::image type="content" source="media/deactivate-csw-app.png" alt-text="Remove the Omnichannel for Custmoer Service app from roles":::
 
