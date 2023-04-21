@@ -1,7 +1,7 @@
 ---
-title: "Retrieve data using msdyn_RetrieveKPIValuesForGDPR action | Microsoft Docs"
-description: "Use the action to programmatically retrieve profiles, interactions, and KPIs for an account, contact, lead or opportunity that is stored Azure service."
-ms.date: 10/26/2021
+title: Retrieve data using msdyn_RetrieveKPIValuesForGDPR action
+description: Use the action to programmatically retrieve profiles, interactions, and KPIs for an account, contact, lead or opportunity that is stored Azure service.
+ms.date: 04/21/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,9 +9,12 @@ keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.assetid: d0d20528-0a72-4dd2-8c91-6367a9d4279d
 topic-status: Drafting
 ---
-# Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action 
 
-Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs stored in Azure service that is used to compute and store data for an contact, lead, opportunity, or systemuser. This action is useful for responding to data requests in order to fulfill the GDPR compliance in Dynamics 365 Sales Insights.
+# Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
+
+[!INCLUDE [gdpr-intro](~/../msft-shared-content/privacy-includes/gdpr-intro.md)]
+
+Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs stored in Azure service that is used to compute and store data for an contact, lead, opportunity, or systemuser. This action is useful for responding to data requests to fulfill your data privacy compliance obligations in Dynamics 365 Sales Insights.
 
 > [!NOTE]
 > - You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/dynamics365/customer-engagement/developer/create-own-actions#generate-early-bound-types-for-an-action&preserve-view=true)
@@ -73,6 +76,6 @@ OData-Version: 4.0
 
 [Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions)
 
-[Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md)
+[Sales Insights and privacy](embedded-intelligence-privacy.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

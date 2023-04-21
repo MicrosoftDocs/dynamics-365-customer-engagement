@@ -6,8 +6,43 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/media/view-kpi-data-gdpr.png",
+      "redirect_url": "/dynamics365/sales/media/view-kpi-data.png",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/media/export-excel-gdpr.png",
+      "redirect_url": "/dynamics365/sales/media/export-excel-privacy.png",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/dynamics-365-sales-gdpr.md",
+      "redirect_url": "/dynamics365/sales/dynamics-365-sales-privacy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/embedded-intelligence-gdpr.md",
+      "redirect_url": "/dynamics365/sales/embedded-intelligence-privacy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/view-export-kpi-data-gdpr.md",
+      "redirect_url": "/dynamics365/sales/view-export-KPI-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/gdpr.md",
+      "redirect_url": "/dynamics365/marketing/privacy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/gdpr-use-features.md",
+      "redirect_url": "/dynamics365/marketing/privacy-use-features",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/design-digital-content.md",
-      "redirect_url": "real-time-marketing-email",
+      "redirect_url": "/dynamics365/marketing/real-time-marketing-email",
       "redirect_document_id": "false"
     },
     {
@@ -24690,22 +24725,22 @@
     {
       "source_path": "ce/field-service/universal-resource-scheduling.md",
       "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
-      "redirect_document_id": "false"      
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/scheduling-roles-personas.md",
       "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
-      "redirect_document_id": "false"      
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/scheduling-capabilities.md",
       "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
-      "redirect_document_id": "false"      
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/5-stages-scheduling-adoption.md",
       "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
-      "redirect_document_id": "false"      
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/cfs-iot-central-alerts.md",

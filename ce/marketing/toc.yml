@@ -1,5 +1,5 @@
 - name: Dynamics 365 Marketing
-  items: 
+  items:
   - name: Dynamics 365 Marketing
     href: help-hub.yml
   - name: Overview
@@ -27,7 +27,7 @@
     - name: Identify and resolve errors with real-time customer care journeys
       href: real-time-marketing-customer-care-journey.md
   - name: Installation and environment management
-    items: 
+    items:
     - name: Install or uninstall
       items:
       - name: Get started with Dynamics 365 Marketing licensing
@@ -61,23 +61,23 @@
     - name: Installation and management FAQ
       href: install-manage-faq.yml
   - name: Administration
-    items: 
+    items:
     - name: Administration overview
       href: admin-guide.md
     - name: Best practices for administration
       href: admin-best-practices.md
     - name: User administration and permissions
-      items: 
+      items:
       - name: Manage user accounts, licenses, and roles
         href: admin-users-licenses-roles.md
       - name: Use business units with Marketing
         href: business-units.md
     - name: Administration settings
-      items: 
+      items:
       - name: Open the administration settings
         href: open-settings.md
       - name: Organization settings
-        items: 
+        items:
         - name: Organization settings
           href: organization-settings.md
         - name: Manage users
@@ -93,7 +93,7 @@
       - name: Data management settings
         href: data-management-settings.md
     - name: Marketing settings
-      items: 
+      items:
       - name: Marketing settings overview
         href: marketing-settings.md
       - name: Real-time marketing administrator settings
@@ -177,7 +177,7 @@
       - name: Troubleshoot email issues
         href: email-troubleshooting.md
     - name: Customization
-      items: 
+      items:
       - name: Customizing Marketing
         href: customize.md
       - name: Open the Power Apps customization window
@@ -190,12 +190,12 @@
         href: developer/email-designer-customization.md
     - name: Privacy and compliance
       items:
-      - name: Data protection and GDPR
-        href: gdpr.md
+      - name: Data protection and privacy
+        href: privacy.md
       - name: Manage user compliance settings
         href: real-time-marketing-compliance-settings.md
-      - name: Use GDPR features
-        href: gdpr-use-features.md
+      - name: Use privacy features
+        href: privacy-use-features.md
       - name: Set up global double opt-in
         href: double-opt-in.md
       - name: Set up form double opt-in
@@ -221,19 +221,19 @@
     - name: What's new archive
       href: whats-new-marketing-archive.md
   - name: Real-time marketing
-    items: 
+    items:
     - name: Real-time marketing user guide
       href: real-time-marketing-user-guide.yml
     - name: Get started with real-time marketing
       items:
       - name: Overview
-        href: real-time-marketing-overview.md 
+        href: real-time-marketing-overview.md
       - name: Use Customer Insights profiles and segments
         href: real-time-marketing-ci-profile.md
       - name: Known issues in real-time marketing
         href: real-time-marketing-known-issues.md
     - name: Communication channels
-      items: 
+      items:
       - name: Real-time marketing emails
         items:
         - name: Email overview
@@ -259,7 +259,7 @@
       - name: Use AI-driven run-time channel optimization
         href: real-time-marketing-channel-optimization.md
     - name: Journeys
-      items: 
+      items:
       - name: Trigger-based journeys
         items:
         - name: Create a trigger-based journey
@@ -301,13 +301,13 @@
       - name: Enhance your journeys
         items:
         - name: Edit a live journey
-          href: real-time-marketing-edit-journey.md        
+          href: real-time-marketing-edit-journey.md
         - name: Add email CC recipients to journeys
-          href: real-time-marketing-add-cc-recipients.md         
+          href: real-time-marketing-add-cc-recipients.md
         - name: Real-time marketing journey tile reference
           href: real-time-marketing-tile-reference.md
       - name: Advanced journey capabilities
-        items: 
+        items:
         - name: Personalize journey variations using multiple journey branches
           href: real-time-marketing-multiple-branches.md
         - name: Personalize triggers using conditions
@@ -347,7 +347,7 @@
       - name: Preview personalized content
         href: real-time-marketing-preview-personalized-content.md
     - name: Assets
-      items: 
+      items:
       - name: Asset libary add-on file migration
         href: real-time-marketing-add-on-migration.md
       - name: Real-time marketing asset library add-on
@@ -355,7 +355,7 @@
       - name: Use images, files, and videos in your content
         href: upload-images-files.md
     - name: Administration
-      items: 
+      items:
       - name: Journeys
         items:
         - name: Select the audience source for real-time journeys
@@ -374,33 +374,33 @@
         href: manage-sms-keywords.md
       - name: Install add-ons
         href: add-ons.md
-      - name: Business units 
+      - name: Business units
         items:
         - name: Business unit support in real-time marketing
           href: real-time-marketing-business-units.md
-        - name: Support for modernized business units 
+        - name: Support for modernized business units
           href: real-time-marketing-modernized-business-units.md
         - name: Business units FAQ for real-time marketing
-          href: real-time-marketing-business-unit-faq.md  
+          href: real-time-marketing-business-unit-faq.md
     - name: Developer
-      items: 
+      items:
       - name: Manually add a custom channel
         items:
         - name: Overview
           href: real-time-marketing-extend-outreach-custom-channels.md
-        - name: 1. Define your extended configuration entity for the channel instance 
+        - name: 1. Define your extended configuration entity for the channel instance
           href: real-time-marketing-define-custom-channel-instance.md
-        - name: 2. Define your extended configuration entity for the channel instance account 
+        - name: 2. Define your extended configuration entity for the channel instance account
           href: real-time-marketing-define-channel-instance-account.md
-        - name: 3. Define your message parts 
+        - name: 3. Define your message parts
           href: real-time-marketing-custom-channel-message-parts.md
         - name: 4. Define your localization for the admin interface (optional)
           href: real-time-marketing-custom-channel-localization-admin.md
         - name: 5. Define your message editor interface (optional)
           href: real-time-marketing-custom-channel-message-editor.md
-        - name: 6. Define your custom APIs 
+        - name: 6. Define your custom APIs
           href: real-time-marketing-custom-channel-custom-API.md
-        - name: 7. Define your channel definition 
+        - name: 7. Define your channel definition
           href: real-time-marketing-define-channel-definition.md
       - name: Push notification setup for application developers
         href: real-time-marketing-developer-push.md
@@ -416,7 +416,7 @@
         href: real-time-marketing-api-segment.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
-    - name: Domain Authentication  
+    - name: Domain Authentication
       items:
       - name: Domain authentication in real-time marketing
         href: domain-authentication.md
@@ -425,11 +425,11 @@
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
   - name: Outbound marketing
-    items: 
+    items:
     - name: Outbound marketing user guide overview
       href: user-guide.md
     - name: Get started
-      items: 
+      items:
       - name: Browser and system requirements
         href: browser-requirements.md
       - name: Find your way around
@@ -453,7 +453,7 @@
       - name: Marketing videos
         href: marketing-videos.md
     - name: Core marketing tasks
-      items: 
+      items:
       - name: Core marketing tasks overview
         href: basic-tutorials.md
       - name: Create a segment
@@ -465,7 +465,7 @@
       - name: Create a landing page
         href: create-landing-page.md
       - name: Create an interactive customer journey
-        items: 
+        items:
         - name: Create an interactive customer journey
           href: create-interactive-customer-journey.md
         - name: Set up lead scoring
@@ -481,13 +481,13 @@
       - name: Advanced scenarios
         href: advanced-tutorials.md
     - name: Digital content design
-      items: 
+      items:
       - name: Work with email, page, and form templates
         href: email-templates.md
       - name: Use custom attributes to enable designer features
         href: custom-template-attributes.md
     - name: Email campaigns
-      items: 
+      items:
       - name: Email marketing overview
         href: prepare-marketing-emails.md
       - name: Create a new email and design its content
@@ -515,11 +515,11 @@
       - name: Email troubleshoot + FAQ
         href: email-troubleshoot.md
     - name: Domain authentication (old version)
-      items: 
+      items:
       - name: Authenticate your domains
         href: mkt-settings-authenticate-domains.md
     - name: Marketing pages and forms
-      items: 
+      items:
       - name: Create and deploy marketing pages
         href: create-deploy-marketing-pages.md
       - name: Provide personalized page content
@@ -541,11 +541,11 @@
       - name: Forms and pages troubleshoot + FAQ
         href: pages-forms-troubleshoot.md
     - name: Marketing content library management
-      items: 
+      items:
       - name: Create a video library and add videos to your designs
         href: video-content.md
     - name: Segmentation
-      items: 
+      items:
       - name: Working with segments
         href: segmentation-lists-subscriptions.md
       - name: Segments vs. lists
@@ -566,12 +566,12 @@
         href: manage-segments-from-contacts.md
       - name: Work with segment templates
         href: segments-templates.md
-      - name: Market to Dynamics 365 segments on LinkedIn 
+      - name: Market to Dynamics 365 segments on LinkedIn
         href: linkedin-matched-audience.md
       - name: Use Customer Insights segments in Marketing
         href: customer-insights-segments.md
     - name: Customer journeys
-      items: 
+      items:
       - name: Create automated campaigns with customer journeys
         href: customer-journeys-create-automated-campaigns.md
       - name: Customer journey tiles reference
@@ -593,7 +593,7 @@
       - name: Troubleshoot customer journey customization errors
         href: customer-journey-recovery-items.md
     - name: Lead generation and management
-      items: 
+      items:
       - name: The lead lifecycle
         href: lead-lifecycle.md
       - name: Market to leads
@@ -603,7 +603,7 @@
       - name: Design lead-scoring models
         href: score-manage-leads.md
     - name: Customer engagement via portals and surveys
-      items: 
+      items:
       - name: Create interactive features with or without portals
         href: portals.md
       - name: Use Dynamics 365 Customer Voice surveys with Dynamics 365 Marketing
@@ -611,7 +611,7 @@
       - name: Create and run online surveys
         href: surveys.md
     - name: Marketing on social media
-      items: 
+      items:
       - name: Schedule and post messages on social media
         href: social-posting.md
       - name: Marketing on LinkedIn with Dynamics 365
@@ -619,7 +619,7 @@
       - name: LinkedIn Lead Gen integration
         href: LinkedIn-Lead-Gen-integration.md
     - name: Performance analytics
-      items: 
+      items:
       - name: Analyze results to gain insights
         href: insights.md
       - name: Insights glossary
@@ -629,7 +629,7 @@
       - name: Prepare for analytic reporting with Power BI
         href: custom-analytics.md
       - name: Power BI report and template gallery
-        items: 
+        items:
         - name: Download and use templates for Power BI
           href: marketing-analytics/analytics-gallery-start.md
         - name: "Gallery: Analytic reporting framework"
@@ -655,7 +655,7 @@
     - name: Go live with publishable entities and track their status
       href: go-live.md
   - name: Event planning and management
-    items: 
+    items:
     - name: Event management overview
       href: event-management.md
     - name: Create an event
@@ -687,7 +687,7 @@
     - name: Register event attendees
       items:
       - name: Invite, register, and house event attendees
-        href: invite-register-house-event-attendees.md      
+        href: invite-register-house-event-attendees.md
       - name: Add custom fields to your event registration form
         href: custom-registration-fields.md
     - name: Create an event website
@@ -695,7 +695,7 @@
       - name: Set up the event website
         href: set-up-event-portal.md
       - name: Change the URL for events hosted on Portals
-        href: events-change-url.md    
+        href: events-change-url.md
     - name: Manage events
       items:
       - name: Event management dashboard
@@ -711,23 +711,23 @@
     - name: Follow up with attendees
       items:
       - name: Follow up with Teams webinar participants
-        href: teams-how-to-follow-up.md 
+        href: teams-how-to-follow-up.md
       - name: Follow up after the event
         href: followup-after-event.md
     - name: Event troubleshoot + FAQ
       href: event-troubleshoot.md
   - name: Developer guide
-    items: 
+    items:
     - name: Developer guide overview
       href: developer/marketing-developer-guide.md
     - name: Extend customer journeys using custom channels
-      items: 
+      items:
       - name: Extend customer journeys using custom channels
         href: developer/extend-customer-journeys-custom-channels.md
       - name: Overview of custom channel
         href: developer/overview-custom-channel.md
       - name: Create a custom channel
-        items: 
+        items:
         - name: Create a custom channel
           href: developer/create-custom-channel.md
         - name: "Step 1: Create required entities and forms"
@@ -745,29 +745,29 @@
       - name: Remove custom channel
         href: developer/remove-custom-channel.md
     - name: Build an approval feature
-      items: 
+      items:
       - name: Overview
         href: developer/marketing-approvals-feature.md
       - name: Build approvals feature using Power Automate
         href: developer/build-approval-feature-using-flow.md
     - name: Create a custom event website
-      items: 
+      items:
       - name: Overview
         href: developer/event-management-web-application.md
       - name: Self-hosted
-        items: 
+        items:
         - name: Overview
           href: developer/self-hosted.md
         - name: Host your custom event website on Azure
           href: developer/host-custom-event-website-on-azure.md
       - name: Power Apps portal hosted
-        items: 
+        items:
         - name: Overview
           href: developer/portal-hosted.md
         - name: Manually overwriting sample website
           href: developer/manually-overwriting-sample-website.md
       - name: Events API
-        items: 
+        items:
         - name: Using the events API
           href: developer/using-events-api.md
         - name: Register your web application
@@ -781,13 +781,13 @@
       - name: Localization
         href: developer/event-portal-localization.md
     - name: Work with customer journeys using an API
-      items: 
+      items:
       - name: Work with customer journeys using an API
         href: developer/basic-operations-on-customer-journey.md
       - name: Extend customer journeys using code
         href: developer/extend-customer-journey-using-code.md
     - name: Metadata reference for your organization
-      items: 
+      items:
       - name: Metadata reference for your organization
         href: developer/marketing-organization-metadata.md
       - name: Dynamics 365 Marketing solutions
@@ -811,7 +811,7 @@
     - name: Retrieve interactions for a contact
       href: developer/retrieve-interactions-contact.md
   - name: Learning catalog
-    items: 
+    items:
     - name: Learning catalog overview
       href: learning-catalog.yml
     - name: Business Decision Maker

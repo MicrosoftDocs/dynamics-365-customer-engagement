@@ -1,7 +1,7 @@
 ---
 title: View relationship analytics and KPIs
 description: Use relationship analytics to know health of your customer relationships through various KPIs such as frequency and recency of your communication, response time, and so on.
-ms.date: 02/07/2023
+ms.date: 04/21/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -112,12 +112,11 @@ The following screenshot shows an example of enhanced relationship analytics ava
 > [!div class="mx-imgBorder"]
 > ![Relationship analytics home page](media/relationship-analytics-home-page.png "Relationship analytics home page")
 
-
 ### See also
 
 [Configure relationship analytics](configure-relationship-analytics.md)  
-[GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)  
-[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  
+[Sales Insights and privacy](embedded-intelligence.md)  
+[View and export KPI data](view-export-KPI-data.md)  
 [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  
 [Relationship analytics and health FAQ](faqs-sales-insights.md#relationship-analytics-and-health)
 

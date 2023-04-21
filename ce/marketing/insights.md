@@ -1,7 +1,7 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing."
-ms.date: 03/02/2023
+ms.date: 04/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -150,7 +150,7 @@ All types of tiles provide a **Volume** section on the **Data** panel with the f
   -  **Processing**: Counts how many contacts are still waiting for the tile to finish processing them. For trigger tiles, for example, this value indicates the number of contacts that are waiting for the trigger condition to be met or for the timeout to arrive. 
   -  **Queued**: Shows the number of contacts in the customer journey that have not yet reached the selected tile.
 - **Volume** > **Not processed**: Shows the total number of contacts that have already entered the tile but are not processed due to one of the following reasons:
-  - **Stopped**: Counts the number of contacts that were stopped from continuing the journey at this tile. There are three reasons that a contact might get stopped at a tile during a journey: (1) they [unsubscribed](customer-journeys-create-automated-campaigns.md#target-subscription-list) from the mailing list targeted by the journey, (2) they got added to the journey's [suppression segment](customer-journeys-create-automated-campaigns.md#general-options), or (3) they lowered their [consent level](gdpr-use-features.md#view-and-set-the-consent-level-for-each-contact) below the [minimum threshold](gdpr-use-features.md#journey-consent-level) set for the journey. The stopped value is also displayed as the second value above the tile in the pipeline. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were stopped at this tile in the journey. You can see a detailed breakdown of which contacts were stopped here and why by going to the [Incomplete journeys](#incomplete) view.
+  - **Stopped**: Counts the number of contacts that were stopped from continuing the journey at this tile. There are three reasons that a contact might get stopped at a tile during a journey: (1) they [unsubscribed](customer-journeys-create-automated-campaigns.md#target-subscription-list) from the mailing list targeted by the journey, (2) they got added to the journey's [suppression segment](customer-journeys-create-automated-campaigns.md#general-options), or (3) they lowered their [consent level](privacy-use-features.md#view-and-set-the-consent-level-for-each-contact) below the [minimum threshold](privacy-use-features.md#journey-consent-level) set for the journey. The stopped value is also displayed as the second value above the tile in the pipeline. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were stopped at this tile in the journey. You can see a detailed breakdown of which contacts were stopped here and why by going to the [Incomplete journeys](#incomplete) view.
   - **Expired**: This value is only used for email tiles (for other tiles, the value is always zero). It shows the number of contacts that expired in the email tile. A contact expires when an [email expiration](email-expire.md) date is set for the tile. 
 - **Volume** > **Processed**: Counts the number of contacts that were successfully processed by the tile and passed on to the next tile. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were successfully processed by this tile in the journey. This value is also displayed as the first value shown above the tile in the pipeline.
 
@@ -183,7 +183,7 @@ Open the **Insights** tab and select **Incomplete journeys** to view each reason
 *Stopped contacts* are contacts that got stopped in the middle of a journey. Contacts will stop their journey as soon as any of these situations occur, so no further messages or other journey actions will be applied thereafter to the affected contact(s). A contact can get stopped for any of the following reasons:
 
 - **Contact joined the suppression segment**: The contact joined the suppression segment for the customer journey.
-- **Contact lowered consent below threshold**: These are contacts that lowered their data-protection consent level, and are now below the minimum level of consent for this journey. This is an important part of GDPR compliance. More information: [Data protection and the GDPR](gdpr.md).
+- **Contact lowered consent below threshold**: These are contacts that lowered their data protection consent level, and are now below the minimum level of consent for this journey. This is an important part of compliance with certain privacy laws and regulations. More information: [Data protection and privacy](privacy.md).
 - **Contact lowered external consent below threshold**: This is the same a Contact content not given but applies when consent is being managed by an external system rather than the internal one provided with Dynamics 365 Marketing.
 
 Select a reason in the left column of the table to see a list (in the right column) of contacts that were stopped for that reason.
@@ -225,7 +225,7 @@ Marketing email messages provide the following [categories](#categories) on the 
 For more information about the carious types of email results and KPIs listed on these pages, see [Insights glossary](insights-glossary.md).
 
 > [!NOTE]
-> Date filtering doesn’t apply to top-10 links or links insights.
+> Date filtering doesn't apply to top-10 links or links insights.
 
 ## Lead scoring model insights
 
