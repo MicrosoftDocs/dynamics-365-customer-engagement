@@ -99,7 +99,43 @@ The caller name is automatically displayed when the phone number is associated w
 
 To receive the call, select **Answer**. The Teams telephony panel opens and the call is connected. 
 
-A phone call activity is created and displayed on the timeline of the record. If the phone number is automatically resolved to a record, the **Call From** and **Regarding** fields of the phone call activity are automatically populated. If the received call isn't associated with any record, only a phone call activity is created. To associate the call with a record during the call, select the **Details** tab and then select **Connect a record**. 
+A phone call activity is created and displayed on the timeline of the record. If the phone number is automatically resolved to a record, the **Call From** and **Regarding** fields of the phone call activity are automatically populated. If the received call isn't associated with any record, only a phone call activity is created. To associate the call with a record during the call, select the **Details** tab and then select **Connect a record**.
+
+## Transfer a call (preview)
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+While you're on a call with a customer, you can transfer the call to an expert in your organization. If the call isn't answered by the other user, you can choose to connect the call back to you.
+
+1. In the **Teams dialer** pane, select the three-dot menu and select **Transfer**.
+    The customer will placed on hold.
+
+1. Enter the name of the person to transfer the call to or their phone number.
+    You can transfer the call to only one user at a time and that user must be in the system.
+1. Select the name. If you'd like the call to be connected back to you if there's no answer on the other side, select **Ring back if there's no answer**.  
+   If you don't select this option, the customer's call will get disconnected if the call isn't answered by the other user.
+1. Select **Transfer**. You'll see a drop-down if the user has more than one number.
+    :::image type="content" source="media/dialer-call-transfer.png" alt-text="Teams dialer with transfer call":::
+1.  Select the number that you want to transfer the call to.
+     The other user will receive the transfer notification with the details of the original user and the customer. After the call is answered, the user can see the notes taken by the original user. After the call ends, both users will have access to the notes taken during the call.
+
+## Consult a user before transferring a call (preview)
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+While you're on a call with a customer, you can transfer the call to an expert after consulting whether they can help the customer. You can also just consult the expert and answer the customer directly without really transferring the call.
+
+1. In the **Teams dialer** pane, select the three-dot menu and select **Consult and transfer**.
+    The customer will placed on hold.
+
+1. Enter the name of the person to consult or their phone number.
+    You can select only one user at a time and that user must be in the system.
+1. Select the person to consult and select **Call**. 
+    The duration of the hold is displayed so that you know how long the customer has been waiting.
+1. If the other user is the right person to help the customer, select **Transfer**.
+     The other user will receive the transfer notification with the details of the original user and the customer. After the call is answered, the user can see the notes taken by the original user. After the call ends, both users will have access to the notes taken during the call.
+ 
+    If the other user isn't the right person, or they didn't answer the call, or you've got the answer from the user that you can inform the customer directly, select **Cancel** to go back to the customer call.
 
 ## Call analysis
 
