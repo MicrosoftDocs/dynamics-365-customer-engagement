@@ -5,17 +5,7 @@
       "redirect_url": "connect-gmail-oauth2",
       "redirect_document_id": "false"
     },
-    {
-      "source_path": "ce/sales/media/view-kpi-data-gdpr.png",
-      "redirect_url": "/dynamics365/sales/media/view-kpi-data.png",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales/media/export-excel-gdpr.png",
-      "redirect_url": "/dynamics365/sales/media/export-excel-privacy.png",
-      "redirect_document_id": "false"
-    },
-    {
+        {
       "source_path": "ce/sales-enterprise/dynamics-365-sales-gdpr.md",
       "redirect_url": "/dynamics365/sales/dynamics-365-sales-privacy",
       "redirect_document_id": "false"
