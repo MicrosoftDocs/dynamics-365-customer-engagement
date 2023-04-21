@@ -636,8 +636,6 @@
             href: manage-org-charts.md
           - name: View and understand the org charts
             href: view-understand-org-charts.md
-          - name: Understand the contact card
-            href: understand-contact-card.md                      
         - name: View and manage records in focused view  
           href: focused-view.md         
         - name: Work with invalid email addresses

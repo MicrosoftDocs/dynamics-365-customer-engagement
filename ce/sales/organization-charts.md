@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: overview
 ms.collection: get-started
-ms.date: 04/21/2023
+ms.date: 04/22/2023
 ms.custom: bap-template 
 ---
 
@@ -26,8 +26,9 @@ The enhanced org charts are supported for accounts and contacts.
 
 Depending on your role, you can use the org charts feature as described in the list:
 -	System administrator or similar role:
-    -	Configure the org chart feature for sales manager and sellers to use in your organization. More information: [Enable org chart](enable-org-chart.md).  
+    -	Enable the org chart feature for sales manager and sellers to use in your organization. More information: [Enable org chart](enable-org-chart.md).  
 -	Sales manager, seller, or any other similar role:  
-    -	Manage org charts. More information: [Manage org charts](manage-org-charts.md)
-    -	View and understand the org charts and cards. More information: [View and understand the org charts](view-and-understand-org-charts.md) and [Understand the contact card](understand-contact-card.md)     
+    -	[Manage org charts](manage-org-charts.md)
+    -	[View and understand the org charts](view-understand-org-charts.md)
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
