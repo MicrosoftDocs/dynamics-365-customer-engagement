@@ -1,6 +1,6 @@
 ---
 title: Manage org charts
-description: Manage org charts helps sellers to gain insights into their customers' organizational structure and identify key decision-makers.
+description: Managing org charts help sellers gain insights into their customers' organizational structure and identify key decision-makers.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -33,7 +33,7 @@ As a seller or sales manager, you can manage the org charts by doing the followi
 
 ## Prerequisites
 
-Before you can manage org charts, the org chart must be enabled. Contact your administrator to [Enable org chart](enable-org-chart.md).
+Before you can manage org charts, the org chart must be enabled. Contact your administrator to [enable org chart](enable-org-chart.md).
 
 ## Create or edit an org chart
 
@@ -71,7 +71,7 @@ Follow these steps:
 To add a new contact to chart, drag the desired contact from **Contacts in the account** list and drop it onto the existing contact card. The contact is added to the chart.
 
 >[!NOTE]
->- The contacts that are displayed in the **Contacts in the account** list are automatically added if they match the account. This includes primary contact and associated contacts.
+>- Contacts that are displayed in the **Contacts in the account** list are automatically added if they match the account. This includes primary contact and associated contacts.
 >- If you don’t see the added contact in the list, select **Refresh** from the tool bar.
 
 To adjust the org chart by moving contacts, drag the contact and drop it onto the desired position. repeat this step for all the contacts that you want to move. 

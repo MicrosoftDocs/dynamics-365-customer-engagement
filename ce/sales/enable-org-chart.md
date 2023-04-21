@@ -14,11 +14,11 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Enable the org chart preview for sellers and sales managers to use to build an organization chart of the customers. Building the org chart helps sellers and sales managers to get an understanding of the account hierarchies and level of influence. 
+Enable the org chart to help sellers and sales managers build an organization chart of the customers. Building the org chart helps sellers and sales managers to get an understanding of the account hierarchies and level of influence. 
 
 >[!NOTE]
->- The older org chart version is still available for users even if the preview is not enabled. However, improved experience such as, relationship health and labels will not be available. For more information about the previous version of the org chart, see [Maintain an external org chart](live-org-chart.md).
->- To go back to the previous version of org chart, disable the org char preview.
+>- The older org chart version is still available for users even if the preview is not enabled. However, improved experience such as, relationship health and labels won't be available. For more information about the older version of the org chart, see [Maintain an external org chart](live-org-chart.md).
+>- To go back to the previous version of org chart, disable the org chart preview.
 >- The org chart is supported for accounts and contacts.
 
 ## License and role requirements
