@@ -15,6 +15,9 @@ search.audienceType:
 
 # Prepare for analytic reporting with Power BI
 
+> [!IMPORTANT]
+> This documentation refers to the process of creating custom reports for Outbound marketing only.
+
 Dynamics 365 Marketing provides a wide selection of built-in analytics throughout the application. But you can also create your own custom analytics and reports from your Dynamics 365 Marketing data by using Power BI. We provide endpoints that you can use to connect Power BI to Dynamics 365 Marketing, plus a downloadable Power BI template that you can open in Power BI Desktop, connect to your Dynamics 365 data sources, and then customize as needed. When you're done setting it up, you can publish and share your Power BI report using the standard Power BI online tools.
 
 <a name="data-sources"></a>
