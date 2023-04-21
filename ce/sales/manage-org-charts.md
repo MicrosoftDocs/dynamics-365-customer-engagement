@@ -71,8 +71,8 @@ Follow these steps:
 To add a new contact to chart, drag the desired contact from **Contacts in the account** list and drop it onto the existing contact card. The contact is added to the chart.
 
 >[!NOTE]
->The contacts that are displayed in the **Contacts in the account** list are automatically added if they match the account. This includes primary contact and associated contacts.
->If you don’t see the added contact in the list, select **Refresh** from the tool bar.
+>- The contacts that are displayed in the **Contacts in the account** list are automatically added if they match the account. This includes primary contact and associated contacts.
+>- If you don’t see the added contact in the list, select **Refresh** from the tool bar.
 
 To adjust the org chart by moving contacts, drag the contact and drop it onto the desired position. repeat this step for all the contacts that you want to move. 
 
@@ -156,5 +156,5 @@ When LinkedIn Sales Navigator is enabled in your organization and a contact upda
 
 ### See also
 
-[Organization charts](organization-charts.md)
+[Organization charts](organization-charts.md)  
 [View and understand the org charts](view-understand-org-charts.md)  

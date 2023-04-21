@@ -25,10 +25,10 @@ The contact card in the org chart provides high-level information about the indi
 :::image type="content" source="media/org-chart-contact-card.png" alt-text="Screenshot showing contact card in org chart" lightbox="media/org-chart-contact-card.png":::
 
 The following information describes the different elements of the contact card:
-- The label in the contact card helps you to visualize and understand contact is approachable or not. To know how to add or edit label, see [Add label to a contact](manage-org-charts.md#add-label-to-a-contact).
+- The label in the contact card helps you to visualize and understand contact is approachable or not. To know how to add or edit label, see [Add label to a contact](manage-org-charts.md#add-label-to-a-contact).  
     Also, a contact can be marked as primary in the org chart. More information: [Set a contact as primary](manage-org-charts.md#set-a-contact-as-primary)
 
-- The relationship of a contact is denoted by the display icon in the contact card. The display icon is a circle with a color around it. 
+- The relationship of a contact is denoted by the display icon in the contact card. The display icon is a circle with a color around it.   
     When you hover over the display icon, the relationship health state along with its trend is displayed. Also, you can open the contact details pane to see the relationship health. More information: [View contact details](#view-contact-details)
 
     >[!NOTE]
@@ -82,6 +82,6 @@ The note is added to the contact with information about the author and the time 
 
 ### See also
 
-[Organization charts](organization-charts.md)
+[Organization charts](organization-charts.md)  
 [Manage org charts](manage-org-charts.md)  
 
