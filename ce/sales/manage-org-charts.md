@@ -17,15 +17,12 @@ ms.custom: bap-template
 An org chart helps to visualize an account’s hierarchy, understand the roles and responsibilities of each contact in the hierarchy, and view the strength of each contact. Further, you can improve communication by reaching the right contact, and plan and develop strategies to improve sales. 
 
 As a seller or sales manager, you can manage the org charts by doing the following tasks:  
--	Create an org chart from scratch. More information: [Create an org chart](#create-an-org-chart)
--	Edit an existing org chart. More information: [Edit an org chart](#edit-an-org-chart)
-
-Along with the above tasks, you can also do the following tasks in the org chart:  
+-	[Create or edit an org chart](#create-or-edit-an-org-chart)
 -	[Add a contact to chart](#add-a-contact-to-the-chart)
 -	[Create hierarchy](#create-hierarchy)
 -	[Set a contact as primary](#set-a-contact-as-primary)
 -	[Set a contact as assistant](#set-a-contact-as-assistant)
--	[Add labels to a contact](#add-labels-to-a-contact)
+-	[Add label to a contact](#add-label-to-a-contact)
 -	[Remove a contact](#remove-a-contact)
 
 ## License and role requirements
@@ -63,7 +60,7 @@ Follow these steps:
     -	[Create hierarchy](#create-hierarchy)
     -	[Set a contact as primary](#set-a-contact-as-primary)
     -	[Set a contact as assistant](#set-a-contact-as-assistant)
-    -	[Add labels to a contact](#add-labels-to-a-contact)
+    -	[Add label to a contact](#add-label-to-a-contact)
     -	[Remove a contact](#remove-a-contact)
 
 5.	Select **Save chart**.
@@ -87,7 +84,7 @@ For example, **Lidman Anna** and **Nancy Anderson** reports to **Maria Campbell*
 
 :::image type="content" source="media/org-chart-hierarchy-created.png" alt-text="Screenshot showing org chart hierarchy" lightbox="media/org-chart-hierarchy-created.png"::: 
 
-Once a contact is added to the chart, you can also use the **Contact Details** pane to add the manager and direct reports. To open the **Contact Details** pane, double-click the contact card. More information: [View contact details](understand-contact-card.md#view-contact-details)
+Once a contact is added to the chart, you can also use the **Contact Details** pane to add the manager and direct reports. To open the **Contact Details** pane, double-click the contact card. More information: [View and understand the org charts](view-understand-org-charts.md)
 
 ## Set a contact as primary
 
@@ -153,7 +150,7 @@ To remove a contact:
         When removed from the account, the contact will be removed and disassociated from the account. 
 2.	On the confirmation message, select **Remove from *type***.
 
-When LinkedIn Sales Navigator is enabled in your organization and a contact updates organization details, a message is displayed to verify the contact’s org details. You can take appropriate action on the contact and update the org chart. More information: [LinkedIn controls](view-understand-org-charts.md#linkedin-controls).
+When LinkedIn Sales Navigator is enabled in your organization and a contact updates organization details, a message is displayed to verify the contact’s org details. You can take appropriate action on the contact and update the org chart. More information: [Contact changes organization in LinkedIn](view-understand-org-charts.md#contact-changes-organization-in-linkedin).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

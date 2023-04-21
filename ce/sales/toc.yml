@@ -137,8 +137,9 @@
           href: retain-business-card-image-after-scanning.md
         - name: Organization charts 
           href: organization-charts.md
-          - name: Enable org chart
-            href: enable-org-chart.md
+          items:
+            - name: Enable org chart
+              href: enable-org-chart.md
         - name: Enable email validation
           href: enable-email-validation.md         
         - name: Enable email validation for custom forms 
