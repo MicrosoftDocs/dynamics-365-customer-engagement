@@ -40,4 +40,5 @@ Enable the org chart to help sellers and sales managers build an organization ch
 
 ### See also
 
-[Organization charts](organization-charts.md)
+[Organization charts](organization-charts.md)   
+[View and understand the org charts](view-understand-org-charts.md) 

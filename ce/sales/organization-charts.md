@@ -30,5 +30,3 @@ Depending on your role, you can use the org charts feature as described in the l
 -	Sales manager, seller, or any other similar role:  
     -	[Manage org charts](manage-org-charts.md)
     -	[View and understand the org charts](view-understand-org-charts.md)
-
-[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

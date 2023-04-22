@@ -74,7 +74,7 @@ To add a new contact to chart, drag the desired contact from **Contacts in the a
 >- Contacts that are displayed in the **Contacts in the account** list are automatically added if they match the account. This includes primary contact and associated contacts.
 >- If you don’t see the added contact in the list, select **Refresh** from the tool bar.
 
-To adjust the org chart by moving contacts, drag the contact and drop it onto the desired position. repeat this step for all the contacts that you want to move. 
+To adjust the org chart by moving contacts, drag the contact and drop it onto the desired position. Repeat this step for all the contacts that you want to move. 
 
 ## Create hierarchy
 
