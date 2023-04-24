@@ -60,7 +60,7 @@ To add a chat widget, you need to have configured a workstream that defines how 
    - Customer wait time
       
       > [!Note] 
-      > These settings aren't configurable for the persistent chat feature.
+      > These settings aren't configurable for the persistent chat feature. More information: [Configure persistent chat](persistent-chat.md)
    
          - **Show position in queue:** Select if you want to show customers their position in the queue when they're waiting to interact with an agent. More information: [Show customers their queue position](show-queue.md)
          - **Show average wait time:** Select if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
