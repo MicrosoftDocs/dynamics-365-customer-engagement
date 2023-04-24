@@ -29,8 +29,8 @@ For information about other updates to Universal Resource Scheduling, visit the 
 
 This release is a hotfix on Unified resource scheduling [3.12.103.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210312).
 
-- Creating a booking on directly on the legacy schedule board by click+drag or the Book button will now open the lookup panel to select a parent requirement   		correctly.
-- Custom business process errors messages will now be displayed on the legacy schedule board correctly.
+- Creating a booking on directly on the legacy schedule board now opens the lookup pane to select a parent requirement.
+- Custom business process errors messages now show on the legacy schedule board correctly.
 
 ## 3.12.103.12
 
@@ -54,8 +54,8 @@ This release is a hotfix on Unified resource scheduling [3.12.103.12](/dynamics3
 
 This release is a hotfix on Unified resource scheduling [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217).
 
-- Creating a booking on directly on the legacy schedule board by click+drag or the Book button will now open the lookup panel to select a parent requirement   		correctly.
-- Custom business process errors messages will now be displayed on the legacy schedule board correctly.
+- Creating a booking on directly on the legacy schedule board now opens the lookup pane to select a parent requirement.
+- Custom business process errors messages now show on the legacy schedule board correctly.
 
 ## 3.12.102.17 - 2023 wave 1 release
 
