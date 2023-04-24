@@ -34,7 +34,7 @@ Fact tables are much larger than dimension tables because numerous events occur 
 
 Learn and understand how you can use the dimensions of the out-of-box Omnichannel historical and real-time analytics metrics to suit your needs. For more information, go to: [Understand out-of-the-box data model](customize-reports.md#understand-out-of-the-box-data-model).
 
-For more information about how you can customize the visual display of your reports using these metrics, go to [Customize visual display](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service).
+For more information about how you can customize the visual display of your reports using these metrics, go to [Customize visual display](customize-reports.md).
 
 ### Capacity profile name
 
@@ -118,7 +118,7 @@ This metric is available in two formats, seconds and in hh:mm:ss.
 - Longest wait time: This metric is measured as the longest first waiting time amongst incoming conversations that are yet to be accepted by an agent.
 - Conversations in queue: This metric is measured as the count of customer requests that are currently awaiting agent assistance or conversations that have been assigned an agent, but are waiting for agent acceptance.
  
-For metrics around how much time customers had to wait in individual queues, if they get transferred from one agent to another, refer to [Session wait time](oc-metrics-facts-session.md#session-wait-time-sec).
+For metrics around how much time customers had to wait in individual queues, if they get transferred from one agent to another, refer to [Session wait time](#session-wait-time).
 
 ### Average speed to answer
 
@@ -150,7 +150,7 @@ An agent is considered actively working on the conversation, if they have the co
 
 High average handle time could indicate that agents are taking too long to resolve customer issues, and that agents might need more training or support to help them work better. High average handle time also indicates customer dissatisfaction, as it may suggest that customers aren't receiving the level of service or support they need to resolve their issues.
 
-To understand the time spent by individual agents, where conversations were handled by multiple agents, go to [Avg. session handle time](oc-metrics-facts-session.md#avg-session-handle-time)  
+To understand the time spent by individual agents, where conversations were handled by multiple agents, go to [Average session handle time](#average-session-handle-time)  
 
 This metric can be viewed in the seconds and in hh:mm:ss formats.
 
@@ -240,7 +240,7 @@ This metric represents the current sentiment of the customer. This is powered by
 ### Is handled by external participant (session)
 
 A customer request could be handled by more than one agent, including a combination of internal contact center agents and external agents. This metric can be used to identify the portion of a customer request that was handled by agents outside of Dynamics 365 Customer Service. External agents could be engaged by your contact center through transfers to an external phone number, such as Microsoft Teams voice call.
-This metric will only show sessions that were assigned to and handled by external agents. For metrics around consultations with external agents, go to [Is handled by external participant](oc-metrics-facts-sessionparticipant.md#is-handled-by-external-participant).
+This metric will only show sessions that were assigned to and handled by external agents. For metrics around consultations with external agents, go to [Is handled by external participant (session)](#is-handled-by-external-participant-session)
 
 ### Session transfer rate
  
@@ -370,4 +370,4 @@ Amount of time an agent spent in a presence status.
 
 [Omnichannel for Customer Service dashboards](omnichannel-analytics-insights.md#omnichannel-for-customer-service-dashboards)
 
-[Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards)
+[Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md)
