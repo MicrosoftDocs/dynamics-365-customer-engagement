@@ -1,7 +1,7 @@
 ---
 title: "Show customers their position in a queue | MicrosoftDocs"
 description: "Learn how to show customers their queue position for a chat widget in Dynamics 365 Customer Service."
-ms.date: 11/14/2022
+ms.date: 04/24/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -21,7 +21,7 @@ The number of customers waiting to chat gets updated each time a customer in lin
 >  - The queue position is shown only when there is a queue of customers waiting (for example, when no agents are currently available).
 > - In a scenario where a customer is waiting in the queue and another customer who has been waiting longer is transferred over by an agent, the customer who has been waiting longer is served first, and the other customer does not see a position change in the queue. 
 > - If skill-based routing is configured with exact skill match, the queue position that is displayed to a customer on the chat portal widget might not be accurate; therefore, the assignment of an agent to the customer might take longer than expected.
-> - The queue position isn't supported for persistent chats.
+> - The queue position isn't supported for persistent chats. More information: [Configure persistent chat](persistent-chat.md)
 
 ## Enable queue position setting
 
