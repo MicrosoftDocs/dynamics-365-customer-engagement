@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/19/2023
+ms.date: 04/24/2023
 ms.custom: bap-template
 ---
 
@@ -17,7 +17,14 @@ As administrators, you can set up a data refresh schedule to specify the refresh
 
 ## Prerequisites
 
-If you're a first time user, you must provision integrated search providers. Make sure you have the **prvReadconnector** privilege at Basic level and **prvWriteWorkflow** at Global level.
+If you're a first time user, you must provision integrated search providers. Make sure you have the following privileges:
+
+- **prvReadconnector** at Basic level
+- **prvWriteWorkflow** at Global level
+- **prvCreatemsdyn_knowledgeconfiguration** at Global level
+- **prvReadmsdyn_knowledgeconfiguration** at Global level
+- **prvWritemsdyn_knowledgeconfiguration** at Global level
+- **prvDeletemsdyn_knowledgeconfiguration** at Global level
 
 ### Provision integrated search providers
 
