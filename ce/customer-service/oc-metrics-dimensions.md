@@ -22,7 +22,6 @@ In the following workflow, which represents a single conversation, you’ll see 
  
 A session participant entry is created for every agent who is identified to work on a conversation and gets associated with the latest session. A single session can have multiple participants. Every session has one primary participant, that is the agent with the assigned work item. A session can also have none or many additional participants who monitor the conversation or help with the consult.  
  
- 
 ## Overview of omnichannel analytics data model  
 
 The out-of-the-box data model consists of facts and dimension tables. Facts represent the observational or event data you want to analyze. Fact tables organize key KPIs logically. For example, FactConversation has conversation metrics like Average handle time, while FactAgent has Agent metrics. 
@@ -164,7 +163,7 @@ This metric can be viewed in the seconds and in hh:mm:ss formats.
 This metric represents the average time, in seconds, when the customer was put on hold by human agents handling the conversation. If the conversation was handled by multiple agents, conversation hold time is calculated as sum of hold time across all agents handling this conversation. This metric is calculated by taking the total hold time of all customer requests, and then dividing it by the total number of customers who are were served.
 
 There are several reasons why an agent might put a customer on hold. For example, an agent might put a customer on hold to gather additional information or research an issue, perform tasks that don’t require interaction like entering data into a system, or perform an offline task. A higher hold time may cause customer frustrations and may lead to poor customer experience.
- 
+
 ### Avg. conversation talk time
 
 This metric represents the average time, in seconds, spent by a human agent actively conversing with customers on the phone for voice conversation. If a conversation was handled by multiple agents, conversation talk time is aggregated across all agents. This metric is calculated by taking the total hold time of all customer request, and then dividing it by the total number of customers who are were served.

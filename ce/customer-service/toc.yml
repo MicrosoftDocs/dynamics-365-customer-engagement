@@ -1109,19 +1109,7 @@
         - name: View and understand Omnichannel Ongoing Conversations dashboard
           href: ongoing-conversations-dashboard.md
       - name: Use metrics for Omnichannel for Customer Service
-        items:
-        - name: Dimensions
-          href: oc-metrics-dimensions.md
-        - name: Conversation
-          href: oc-metrics-factconversation.md
-        - name: Conversation message level analytics
-          href: oc-metrics-facts-conversationmesgblock.md
-        - name: Session
-          href: oc-metrics-facts-session.md
-        - name: Session participant
-          href: oc-metrics-facts-sessionparticipant.md
-        - name: Agent
-          href: oc-metrics-facts-agentcapacityprofilecount.md
+        href: oc-metrics-dimensions.md
       - name: Personalize analytics
         items: 
         - name: Manage report filters
