@@ -646,6 +646,100 @@
           href: marketing-analytics/analytics-gallery-reach.md
         - name: "Gallery: Marketing form submission report"
           href: marketing-analytics/analytics-gallery-forms.md
+    - name: Developer guide
+      items: 
+      - name: Developer guide overview
+        href: developer/marketing-developer-guide.md
+      - name: Extend customer journeys using custom channels
+        items: 
+        - name: Extend customer journeys using custom channels
+          href: developer/extend-customer-journeys-custom-channels.md
+        - name: Overview of custom channel
+          href: developer/overview-custom-channel.md
+        - name: Create a custom channel
+          items: 
+          - name: Create a custom channel
+            href: developer/create-custom-channel.md
+          - name: "Step 1: Create required entities and forms"
+            href: developer/create-entities-forms.md
+          - name: "Step 2: Configure the tile for custom channel"
+            href: developer/configure-tile-custom-channel.md
+          - name: "Step 3: Create a workflow or plug-in to implement your custom logic"
+            href: developer/create-workflow-plugin-custom-channel.md
+          - name: "Step 4: Test your custom channel tile"
+            href: developer/test-custom-channel-tile.md
+        - name: Publish custom channel on AppSource
+          href: developer/publish-custom-channel-appsource.md
+        - name: Configure and use custom channel
+          href: developer/configure-use-custom-channel.md
+        - name: Remove custom channel
+          href: developer/remove-custom-channel.md
+      - name: Build an approval feature
+        items: 
+        - name: Overview
+          href: developer/marketing-approvals-feature.md
+        - name: Build approvals feature using Power Automate
+          href: developer/build-approval-feature-using-flow.md
+      - name: Create a custom event website
+        items: 
+        - name: Overview
+          href: developer/event-management-web-application.md
+        - name: Self-hosted
+          items: 
+          - name: Overview
+            href: developer/self-hosted.md
+          - name: Host your custom event website on Azure
+            href: developer/host-custom-event-website-on-azure.md
+        - name: Power Apps portal hosted
+          items: 
+          - name: Overview
+            href: developer/portal-hosted.md
+          - name: Manually overwriting sample website
+            href: developer/manually-overwriting-sample-website.md
+        - name: Events API
+          items: 
+          - name: Using the events API
+            href: developer/using-events-api.md
+          - name: Register your web application
+            href: developer/register-web-application-events-api.md
+          - name: User authentication
+            href: developer/user-authentication-events-api.md
+          - name: Customize the events API response
+            href: developer/customize-events-api-response.md
+        - name: Finalizing registration for paid events
+          href: developer/finalizing-registrations-for-paid-events.md
+        - name: Localization
+          href: developer/event-portal-localization.md
+      - name: Work with customer journeys using an API
+        items: 
+        - name: Work with customer journeys using an API
+          href: developer/basic-operations-on-customer-journey.md
+        - name: Extend customer journeys using code
+          href: developer/extend-customer-journey-using-code.md
+      - name: Metadata reference for your organization
+        items: 
+        - name: Metadata reference for your organization
+          href: developer/marketing-organization-metadata.md
+        - name: Dynamics 365 Marketing solutions
+          href: developer/marketing-solutions.md
+        - name: Dynamics 365 Marketing entity reference
+          href: developer/marketing-entity-reference.md
+      - name: Customize outbound marketing forms
+        items:
+        - name: Filter cities based on countries using lookup fields and custom entities
+          href: developer/filter-cities.md
+        - name: Extend Marketing forms using client side scripting
+          href: developer/marketing-form-client-side-extensibility.md
+      - name: Work with segments using code
+        href: developer/extend-segments.md
+      - name: Export Dynamics 365 Customer Voice survey responses to Microsoft Excel
+        href: developer/export-customer-voice.md
+      - name: Entity mapping with custom workflows
+        href: entity-mapping.md
+      - name: Limitations on migrating files between environments
+        href: developer/migrate-files.md
+      - name: Retrieve interactions for a contact
+        href: developer/retrieve-interactions-contact.md
     - name: Collaborate using Microsoft Teams chat
       href: teams-chat.md
     - name: "Customer interactions timeline"
@@ -716,100 +810,6 @@
         href: followup-after-event.md
     - name: Event troubleshoot + FAQ
       href: event-troubleshoot.md
-  - name: Developer guide
-    items: 
-    - name: Developer guide overview
-      href: developer/marketing-developer-guide.md
-    - name: Extend customer journeys using custom channels
-      items: 
-      - name: Extend customer journeys using custom channels
-        href: developer/extend-customer-journeys-custom-channels.md
-      - name: Overview of custom channel
-        href: developer/overview-custom-channel.md
-      - name: Create a custom channel
-        items: 
-        - name: Create a custom channel
-          href: developer/create-custom-channel.md
-        - name: "Step 1: Create required entities and forms"
-          href: developer/create-entities-forms.md
-        - name: "Step 2: Configure the tile for custom channel"
-          href: developer/configure-tile-custom-channel.md
-        - name: "Step 3: Create a workflow or plug-in to implement your custom logic"
-          href: developer/create-workflow-plugin-custom-channel.md
-        - name: "Step 4: Test your custom channel tile"
-          href: developer/test-custom-channel-tile.md
-      - name: Publish custom channel on AppSource
-        href: developer/publish-custom-channel-appsource.md
-      - name: Configure and use custom channel
-        href: developer/configure-use-custom-channel.md
-      - name: Remove custom channel
-        href: developer/remove-custom-channel.md
-    - name: Build an approval feature
-      items: 
-      - name: Overview
-        href: developer/marketing-approvals-feature.md
-      - name: Build approvals feature using Power Automate
-        href: developer/build-approval-feature-using-flow.md
-    - name: Create a custom event website
-      items: 
-      - name: Overview
-        href: developer/event-management-web-application.md
-      - name: Self-hosted
-        items: 
-        - name: Overview
-          href: developer/self-hosted.md
-        - name: Host your custom event website on Azure
-          href: developer/host-custom-event-website-on-azure.md
-      - name: Power Apps portal hosted
-        items: 
-        - name: Overview
-          href: developer/portal-hosted.md
-        - name: Manually overwriting sample website
-          href: developer/manually-overwriting-sample-website.md
-      - name: Events API
-        items: 
-        - name: Using the events API
-          href: developer/using-events-api.md
-        - name: Register your web application
-          href: developer/register-web-application-events-api.md
-        - name: User authentication
-          href: developer/user-authentication-events-api.md
-        - name: Customize the events API response
-          href: developer/customize-events-api-response.md
-      - name: Finalizing registration for paid events
-        href: developer/finalizing-registrations-for-paid-events.md
-      - name: Localization
-        href: developer/event-portal-localization.md
-    - name: Work with customer journeys using an API
-      items: 
-      - name: Work with customer journeys using an API
-        href: developer/basic-operations-on-customer-journey.md
-      - name: Extend customer journeys using code
-        href: developer/extend-customer-journey-using-code.md
-    - name: Metadata reference for your organization
-      items: 
-      - name: Metadata reference for your organization
-        href: developer/marketing-organization-metadata.md
-      - name: Dynamics 365 Marketing solutions
-        href: developer/marketing-solutions.md
-      - name: Dynamics 365 Marketing entity reference
-        href: developer/marketing-entity-reference.md
-    - name: Customize marketing forms
-      items:
-      - name: Filter cities based on countries using lookup fields and custom entities
-        href: developer/filter-cities.md
-      - name: Extend Marketing forms using client side scripting
-        href: developer/marketing-form-client-side-extensibility.md
-    - name: Work with segments using code
-      href: developer/extend-segments.md
-    - name: Export Dynamics 365 Customer Voice survey responses to Microsoft Excel
-      href: developer/export-customer-voice.md
-    - name: Entity mapping with custom workflows
-      href: entity-mapping.md
-    - name: Limitations on migrating files between environments
-      href: developer/migrate-files.md
-    - name: Retrieve interactions for a contact
-      href: developer/retrieve-interactions-contact.md
   - name: Learning catalog
     items: 
     - name: Learning catalog overview

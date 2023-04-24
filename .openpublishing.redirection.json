@@ -25046,6 +25046,11 @@
       "source_path": "ce/marketing/forwarding-and-replies.md",
       "redirect_url": "/dynamics365/marketing/email-troubleshooting",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/svg-test.md",
+      "redirect_url": "/dynamics365/marketing/help-hub",
+      "redirect_document_id": false
     }
   ]
 }
