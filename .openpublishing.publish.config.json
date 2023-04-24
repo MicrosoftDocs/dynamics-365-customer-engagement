@@ -7,8 +7,8 @@
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [
-        ">= dynamics-usd-4",
-        ">= op-9-0"
+        "\u003E= dynamics-usd-4",
+        "\u003E= op-9-0"
       ],
       "xref_query_tags": [
         "/dotnet",
@@ -80,7 +80,13 @@
       "url": "https://github.com/MicrosoftDocs/reusable-content",
       "branch": "main",
       "branch_mapping": {}
-    }    
+    },
+    {
+      "path_to_root": "shared-content",
+      "url": "https://github.com/MicrosoftDocs/powerapps-docs-pr",
+      "branch": "main",
+      "branch_mapping": {}
+    }
   ],
   "branch_target_mapping": {
     "live": [
