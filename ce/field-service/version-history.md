@@ -36,7 +36,7 @@ This release is a hotfix on Field Service version [8.8.89.34](/dynamics365/field
 
 (Includes Universal Resource Scheduling version [3.12.103.21](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210321)).
 
-- Fixed a bug that prevented saving records after an address change when “Auto Geocode Address” and “Enable Address Suggestions” FS settings are on.
+- Fixed a bug that prevented saving records after an address change when Auto Geocode Address and Enable Address Suggestions are enabled in Field Service settings.
 
 ## 8.8.89.34
 (Includes Universal Resource Scheduling version [3.12.103.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210312) and Resource Scheduling controls version 1.2.43.230971).
@@ -49,7 +49,7 @@ This release is a hotfix on Field Service version [8.8.88.56](/dynamics365/field
 
 (Includes Universal Resource Scheduling version [3.12.102.24](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210324)).
 
-- Fixed a bug that prevented saving records after an address change when “Auto Geocode Address” and “Enable Address Suggestions” FS settings are on.
+- Fixed a bug that prevented saving records after an address change when Auto Geocode Address and Enable Address Suggestions are enabled in Field Service settings.
 
 ## 8.8.88.56
 This release is a hotfix on Field Service version [8.8.88.54](/dynamics365/field-service/version-history#888854).
