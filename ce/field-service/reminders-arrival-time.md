@@ -43,7 +43,7 @@ In this article, we'll walk through how to set up and configure service notifica
 
 First, we need to set up the customer experience portal with Power Apps portals.
 
-Go to  http://make.powerapps.com and select **Create**.
+Go to  https://make.powerapps.com and select **Create**.
 
 Select **Field Service Portal (Preview)**.
 
