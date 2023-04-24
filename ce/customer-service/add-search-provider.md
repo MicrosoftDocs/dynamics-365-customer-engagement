@@ -19,12 +19,13 @@ As administrators, you can set up a data refresh schedule to specify the refresh
 
 If you're a first time user, you must provision integrated search providers. Make sure you have the following privileges:
 
-- **prvReadconnector** at Basic level
-- **prvWriteWorkflow** at Global level
-- **prvCreatemsdyn_knowledgeconfiguration** at Global level
-- **prvReadmsdyn_knowledgeconfiguration** at Global level
-- **prvWritemsdyn_knowledgeconfiguration** at Global level
-- **prvDeletemsdyn_knowledgeconfiguration** at Global level
+- At Basic level: **prvReadconnector**
+- At Global level:
+    - **prvWriteWorkflow**
+    - **prvCreatemsdyn_knowledgeconfiguration**
+    - **prvReadmsdyn_knowledgeconfiguration**
+    - **prvWritemsdyn_knowledgeconfiguration**
+    - **prvDeletemsdyn_knowledgeconfiguration**
 
 ### Provision integrated search providers
 
