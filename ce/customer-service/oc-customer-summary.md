@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 03/20/2023
+ms.date: 04/20/2023
 ms.custom: bap-template
 ---
 
@@ -33,10 +33,6 @@ Having this information ready can help support agents reduce the hold time that 
  :::image type="content" source="media/customer-summary.png" alt-text="View active conversations":::
 
 For active conversations, you can view the **Active Conversation** form on the agent dashboard of the Customer Service workspace. The **Active Conversation** form, however, doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard. More information: [View agent dashboard and conversations](oc-agent-dashboard.md).
-
-The **Save** and **Refresh** options are available on **Active Conversation** form. You can edit and save standard and custom field values added to the **Active Conversation** form by your administrator. However, logical column names aren’t editable. If a default value is already set for a field, the application populates the value on the **Active Conversation** form.
-
-For more information, go to: [Logical column names](supported-customizations.md#logical-column-names).
 
 ## View Customer (Contact or Account) details
 

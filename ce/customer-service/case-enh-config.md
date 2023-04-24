@@ -6,13 +6,16 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 04/03/2023 
+ms.date: 04/20/2023 
 ms.custom: bap-template 
 ---
 
 # Enable enhanced case forms for multisession apps
 
 If agents should see the enhanced quick case form and full case form when they create a new case in the Customer Service workspace, enable the enhanced **Quick case form** and **Full case form** options.
+
+> [!NOTE]
+> The enhanced case creation experience is available only in the Customer Service workspace app and not in other applications including Omnichannel for Customer service and Customer Service Hub.
 
 ## Enable enhanced case experience
 To enable the enhanced case forms, perform the following steps:

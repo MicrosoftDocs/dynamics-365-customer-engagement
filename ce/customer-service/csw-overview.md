@@ -1,7 +1,7 @@
 ---
 title: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service."
-ms.date: 04/11/2023
+ms.date: 04/20/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -117,7 +117,7 @@ You can enable the legacy layout in one of the following ways:
 ### [Browser developer tools](#tab/broswerdevtools)
 
  1. With Customer Service workspace open, press the F12 key to open the developer tools window.
- 1. In the console window, type the following command and press **Enter**. `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
+ 1. In the console window, type the following command and press **Enter**. `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionLayoutImprovements",false)`
  1. Refresh the app page.
 
 ---
