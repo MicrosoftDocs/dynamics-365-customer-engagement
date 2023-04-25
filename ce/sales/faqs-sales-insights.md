@@ -1,9 +1,9 @@
 ---
-title: "Frequently asked questions for Sales Premium"
-description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
-ms.date: 03/28/2023
-ms.custom: 
-ms.topic: article
+title: Frequently asked questions about Sales Premium
+description: Find answers to frequently asked questions about the Sales Insights add-in for Dynamics 365 Sales.
+ms.date: 04/24/2023
+ms.custom: bap-template
+ms.topic: faq
 author: udaykirang
 ms.author: udag
 applies_to: 
@@ -11,13 +11,13 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ---
 
-# Frequently asked questions for Sales Premium
+# Frequently asked questions about Sales Premium
 
 ## Licenses and storage
 
 ### What's the difference between Sales Premium and Sales Insights?  
 
-Sales Premium refers to the license and Sales Insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and Sales Insights capabilities. The basic Sales Insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.  
+Sales Premium refers to the license. Sales Insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and Sales Insights capabilities. Basic Sales Insights capabilities are also available with the Sales Enterprise license. 
 
 ### Where can I find the comparison chart for Dynamics 365 Sales licenses?  
 
@@ -26,7 +26,7 @@ The following license options are available for Dynamics 365 Sales:
 - Sales Enterprise
 - Sales Professional
 
-For a detailed comparison of capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
+For a detailed comparison of each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
 
 ### After I installed Sales Insights, I see a spike in the data usage. How much storage data does Sales Insights need?  
 
@@ -52,12 +52,17 @@ Sales Premium is available in the following countries or regions:
 -    Switzerland (CHE)  
 -    United Arab Emirates (UAE)
 
-> [!NOTE]
-> Currently, Sales Premium is not available in the following datacenters&mdash; Germany, Korea, Norway, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
+Sales Premium isn't available in the following datacenters:
+- Germany
+- Korea
+- Norway
+- Government Community Cloud (GCC), including USG
+- Department of Defense (DoD)
+- China
 
-### In which region are the features available? 
+### In which region are the features available?
 
-Sales Premium features are available in the following countries or regions:   
+The following table lists the regions in which Sales Premium features are available.
 
 | Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA | SAM | ZAF | UAE |
 |---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -72,8 +77,9 @@ Sales Premium features are available in the following countries or regions:
 | Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes|
 | Who knows whom | Yes | Yes | No | Yes | Yes | No | No | No | No | Yes | No | No | No |
 
-### Which version of Exchange is supported for features in Sales Premium?   
-The Sales Premium features support the following versions of Exchange:
+### Which version of Exchange is supported for features in Sales Premium?
+
+The following table shows the version of Exchange that's supported for Sales Premium features.
 
 | Feature | Exchange Online | Exchange Server 2013 and above | Is Exchange required? |
 |---------|-----------------|--------------------------------|-----------------------|
@@ -83,17 +89,17 @@ The Sales Premium features support the following versions of Exchange:
 | Who knows whom | Yes | No | Yes |
 
 >[!NOTE]
->- The assistant and relationship analytics can work without Exchange. However, the information displayed in relationship analytics will not contain Exchange data and the assistant will not display cards that are based on Exchange data. 
+>- The assistant and relationship analytics can work without Exchange. However, the information displayed in relationship analytics won't contain Exchange data and the assistant won't display cards that are based on Exchange data. 
 >- For relationship analytics, support for Exchange Online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
->- For who knows whom, the organization's Office 365 data location must be in one of the following locations and not in your region-specific datacenter location:
->   - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
->   - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
->   - Global Geography 3 – Americas (Brazil, Chile, United States).<br>
-> To learn more on datacenter locations, see [Datacenter Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
+>- For who knows whom, the organization's Office 365 data location must be one of the following and not your region-specific datacenter location:
+>   - Global Geography 1: EMEA (Austria, Finland, France, Ireland, Netherlands).
+>   - Global Geography 2: Asia Pacific (Hong Kong, Japan, Malaysia, Singapore, South Korea).
+>   - Global Geography 3: Americas (Brazil, Chile, United States).<br>
+> [Learn more about datacenter locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
-### What languages are supported now? 
+### What languages are supported?
 
-Sales Premium supports the following languages:
+The following table shows which languages are supported for Sales Premium features.
 
 | Feature | Language supported |
 |---------|--------------------|
@@ -103,11 +109,11 @@ Sales Premium supports the following languages:
 | Activity-content based Auto capture |- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
 | Conversation intelligence | Go to [Languages supported for conversation intelligence](language-support-conversation-intelligence.md) |
 
-To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck).
+[Learn more about infrastructure availability (PDF)](https://aka.ms/dynamics_365_international_availability_deck).
 
 ### Where is my organization's data stored?  
 
-Depending on the region where your organization is hosted, data is stored in the following locations:   
+The following table shows where your data is stored, depending on the region where your organization is hosted.
 
 | Region | Primary Azure datacenter location  | Secondary Azure datacenter location |
 |--------|-------------------------------------|--------------------------------------|
