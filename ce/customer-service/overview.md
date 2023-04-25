@@ -1,7 +1,7 @@
 ---
 title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Overview of Dynamics 365 Customer Service"
-ms.date: 04/05/2023
+ms.date: 04/25/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
