@@ -1,7 +1,7 @@
 ---
 title: Resolve, cancel, and reassign a cases in Customer Service Hub | Microsoft Docs
 description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
-ms.date: 02/22/2023
+ms.date: 04/25/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -22,13 +22,13 @@ searchScope:
 
 # Resolve, cancel, and reassign cases
 
-Customer Service provides you with the ability to resolve, cancel, and reassign cases.
+Customer Service provides you with the ability to resolve, cancel, and reassign cases. 
 
 ## Resolve a case  
 
 1. In the list of active cases, open the one you want to resolve.  
 
-2. On the command bar, select **Resolve case**.  
+2. On the command bar, select **Resolve case**. The status of the case is set to **Resolved** only when you select **Resolve Case**. You can't set the value of the **Case Status** field to **Resolved**
 
   If you have open activities linked to the case, you’ll see a message with the following actions:
   - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md#redirect-users-to-a-specific-tab-to-close-the-open-activities-for-a-case)
@@ -50,7 +50,9 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
    - **Duration**: The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** field.  
    - **Billable Time**: The amount of time spent on the case to be billed to the customer.  
-   - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement. 
+    > [!NOTE]
+    > Your billable hours are automatically populated only if the **Total Time** field is displayed on the **Resolve Case** dialog. Else, you'll have to manually add your billable hours.
+   - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.
          
    :::image type="content" source="media/resolve-case-legacy.png" alt-text="Legacy resolve case" :::
 
