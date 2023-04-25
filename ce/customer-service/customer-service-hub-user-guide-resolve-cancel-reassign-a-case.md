@@ -49,7 +49,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
  The standard **Resolve Case** dialog is displayed with the **Resolution Type** and **Resolution** fields along with the following additional fields:
 
    - **Duration**: The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** field.  
-   - **Billable Time**: The amount of time spent on the case to be billed to the customer. Your billable hours are automatically populated only if the **Total Time** field is displayed on the **Resolve Case** dialog. Else, you'll have to manually add your billable hours.
+   - **Billable Time**: The amount of time spent on the case to be billed to the customer. Your billable time is automatically populated only if the **Total Time** field is displayed on the **Resolve Case** dialog. Else, you'll have to manually add your billable time.
    - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.
          
    :::image type="content" source="media/resolve-case-legacy.png" alt-text="Legacy resolve case" :::
