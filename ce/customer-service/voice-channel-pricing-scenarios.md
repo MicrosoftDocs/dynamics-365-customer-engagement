@@ -1,3 +1,4 @@
+
 ---
 title: Pricing scenarios for voice calling | MicrosoftDocs
 description: Use this article to understand how pricing works in the voice channel.
@@ -5,7 +6,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: conceptual
-ms.date: 04/24/2023 
+ms.date: 04/25/2023 
 ms.custom: bap-template 
 ---
 
@@ -17,7 +18,7 @@ The Dynamics 365 Customer Service voice channel is built on Azure Communication 
 
 [Several call flows are possible](https://go.microsoft.com/fwlink/p/?LinkId=866544). This article describes pricing calculations for the following call scenarios:
 
-- [Inbound: A customer calls from a mobile device; an IVR bot escalates the call to a human agent](#inbound-a-customer-calls-from-a-mobile-device-an-ivr-bot-escalates-the-call-to-a-human-agent)
+- [Inbound: A customer calls from a mobile device; an IVR bot escalates the call to a human agent](#inbound-customer-calls-from-a-mobile-call-is-escalated-to-a-human-agent-from-an-ivr-bot)
 - [Inbound: A customer calls from Microsoft Teams](#inbound-a-customer-calls-from-microsoft-teams)
 - [Inbound: A customer calls from Teams; a supervisor joins the call to monitor the conversation](#inbound-a-customer-calls-from-teams-a-supervisor-joins-the-call-to-monitor-the-conversation)
 - [Inbound: A customer calls from a mobile device; the supervisor is invited to consult](#inbound-a-customer-calls-from-a-mobile-device-the-supervisor-is-invited-to-consult)
