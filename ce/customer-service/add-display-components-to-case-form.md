@@ -25,7 +25,7 @@ After you add the **Customer 360** control to a case form, when an agent selects
 1. Step 1: Add the **Customer 360** component to forms in the **Account** and **Contact** tables.
 2. Step 2: On the **Case** form, add the **Account** and **Contact** forms on which the component was added. More information: [Edit related table records directly from another table’s main form](/power-apps/maker/model-driven-apps/form-component-control).
 
-You can add the **Customer 360** card to a custom form in Customer Service workspace and Omnichannel for Customer Service. Perform the steps in (Add the Customer 360 card to a custom form) section to add the Customer 360 card to a customized form. 
+You can add the **Customer 360** card to a custom form in Customer Service workspace and Omnichannel for Customer Service. Perform the steps in [Add the Customer 360 card to a custom form](add-display-components-to-case-form.md#add-the-customer-360-card-to-a-custom-form) section to add the Customer 360 card to a customized form. 
 
 ### Step 1: Add the Customer 360 component to Contact and Account forms
 
@@ -72,7 +72,7 @@ You can add the **Customer 360** card to a custom form in Customer Service works
 
 Perform the following steps to view the customer details in an app side pane, when the agent changes the customer or account name.
 
-1. In Power Apps, you must add the event handler function for the On Change event of the **Customer** or **Account**. More information: (Add or remove event handler function to event using UI)[/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui]. 
+1. In Power Apps, you must add the event handler function for the On Change event of the **Customer** or **Account**. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui). 
 1. Specify the following details in **Configure Event**:
     1. **Event Type**: **On Change**
     1. **Library**: **ModernCaseManagement/Incident/msdyn_ModernCaseManagement**. If this value isn't available in the Library dropdown, select **Add Library** and add the option.
