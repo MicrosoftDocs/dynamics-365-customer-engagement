@@ -155,9 +155,9 @@ Cost calculation
 Matias makes an outbound call from Omnichannel for Customer Service to Mae through Azure direct routing. The call lasts 10 minutes.
 
 - Matias uses the Omnichannel for Customer Service client application.
-- The Omnichannel for Customer Service bot starts an outgoing call through direct routing.
+- A bot in Omnichannel for Customer Service starts an outgoing call through direct routing.
 - The call goes to an SBC connected through Azure Communication Services direct routing.
-- An Omnichannel for Customer Service bot adds Mae to a call by escalating the direct routing call to a group call.
+- The bot in Omnichannel for Customer Service adds Mae to a call by escalating the direct routing call to a group call.
 
 :::image type="content" source="media/direct-routing-inbound.png" alt-text="Diagram illustrating an Azure direct routing outbound call to a customer.":::
 
