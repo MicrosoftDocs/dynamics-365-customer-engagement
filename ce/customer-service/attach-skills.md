@@ -61,10 +61,10 @@ The following table describes how exact skill matching works for a single or mul
 
 If no agent is available with any of the required skills, then the conversation might be assigned to an agent without the required skills.
 
-The closest skill match will order all agents based on their closeness to the required skill and proficiency. For example, if the required skills are four, then agents with four skills will be put on top (exact qualified), then agent with five skills (overqualified), and then agent with three skills (under qualified). In this scenario where closest match is chosen as the skill matching algorithm at workstream level; if more than one agent with same skill score are there; the system will not order them by round robin or highest capacity. The system will continue to assign all the incoming work items to the same agent till other constraints like capacity and presence are met.
+The closest skill match will order all agents based on their closeness to the required skill and proficiency. For example, if the required skills are four, then agents with four skills will be put on top (exact qualified), then agent with five skills (overqualified), and then agent with three skills (under qualified). In this scenario where closest match is chosen as the skill matching algorithm at workstream level; if more than one agent with same skill score are there; the system won't order them by round robin or highest capacity. The system will continue to assign all the incoming work items to the same agent until other constraints like capacity and presence are met.
 
 > [!NOTE]
-> If you do not intend to use skills based routing model, choose **None** in the **Default skill matching algorithm** option in the workstream settings.
+> If you don't intend to use skills based routing model, choose **None** in the **Default skill matching algorithm** option in the workstream settings.
 
 The following table describes how exact skill matching works for a single- or multiple-skill scenario.
 
