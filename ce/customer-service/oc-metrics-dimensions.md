@@ -1,6 +1,6 @@
 ---
-title: Metrics for Omnichannel for Customer Service
-description: Understand Omnichannel for Customer Service metrics
+title: Use Omnichannel for Customer Service metrics
+description: Understand and use Omnichannel for Customer Service metrics
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# Metrics for Omnichannel for Customer Service
+# Use Omnichannel for Customer Service metrics
 
 The article describes the various metrics that help you analyze the key performance indicators (KPIs) as you work with your agents in your contact center. With metrics, you can make quantitative assessment of the data that you see on the Omnichannel for Customer Service dashboards, make strategic decisions, track and improve customer satisfaction.
 
