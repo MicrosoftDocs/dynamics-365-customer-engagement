@@ -6,13 +6,13 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 04/20/2023 
+ms.date: 04/24/2023 
 ms.custom: bap-template 
 ---
 
 # Enable enhanced case forms for multisession apps
 
-If agents should see the enhanced quick case form and full case form when they create a new case in the Customer Service workspace, enable the enhanced **Quick case form** and **Full case form** options.
+Enable the enhanced **Quick case form** and **Full case form**  options, if you want your agents to see the enhanced quick case form and full case form, while creating a new case in the Customer Service workspace app."
 
 > [!NOTE]
 > The enhanced case creation experience is available only in the Customer Service workspace app and not in other applications including Omnichannel for Customer service and Customer Service Hub.
@@ -22,17 +22,19 @@ To enable the enhanced case forms, perform the following steps:
 
 1. In Customer Service admin center, go to **Case Settings**.
 1. Select **Manage** for **Enhanced case experience**.
-1. Set the **Enhanced case experience** toggle to **Yes**.
+1. Switch the **Enhanced case experience** toggle to **Yes**.
    - To enable the enhanced full case form:
-      1. Set the **Full case form** toggle to **Yes**, for your agents to see the enhanced full case form. 
+      1. Switch the **Full case form** toggle to **Yes**, for your agents to see the enhanced full case form. 
       1. Select **Configure** to [customize the form in Power Apps](/power-apps/maker/model-driven-apps/create-and-edit-forms). The Power Apps form page opens on a new tab. 
    - To enable the enhanced quick case form:
-      1. Set the **Quick case form** toggle to **Yes**.
+      1. Switch the **Quick case form** toggle to **Yes**.
       1. Select the option in the **Choose Form** dropdown. The selected main form appears as the side pane when the agent creates a new case. By default, this is set to **Enhanced quick case form**. 
       1. Select **Configure** to [customize the form in Power Apps](/power-apps/maker/model-driven-apps/create-and-edit-forms). The Power Apps form page opens on a new tab.
 
    :::image type="content" source="media/settings-enh-case-channel.png" alt-text="Default main case form" lightbox="media/settings-enh-case-channel.png":::
 
+> [!NOTE]
+> If the enhanced full case form has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than that of the default form. More information: [Set the form order](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order)
 
 ## View and use default components available on enhanced full case form
 
