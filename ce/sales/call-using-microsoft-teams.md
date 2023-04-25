@@ -1,7 +1,7 @@
 ---
 title: "Make and receive Teams calls in Dynamics 365"
 description: "Make and receive Teams calls in Dynamics 365 through the dialer, a record, or a work item."
-ms.date: 02/21/2023
+ms.date: 04/25/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -101,41 +101,40 @@ To receive the call, select **Answer**. The Teams telephony panel opens and the 
 
 A phone call activity is created and displayed on the timeline of the record. If the phone number is automatically resolved to a record, the **Call From** and **Regarding** fields of the phone call activity are automatically populated. If the received call isn't associated with any record, only a phone call activity is created. To associate the call with a record during the call, select the **Details** tab and then select **Connect a record**.
 
-## Transfer a call (preview)
+## Transfer a Teams call (preview)
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-While you're on a call with a customer, you can transfer the call to an expert in your organization. If the call isn't answered by the other user, you can choose to connect the call back to you.
+While you're on a call with a customer, you can transfer the call to another user or a phone number.
 
-1. In the **Teams dialer** pane, select the three-dot menu and select **Transfer**.
-    The customer will placed on hold.
+1. While you're on the call, select **More options** and select **Transfer**.
+    The customer's call will be placed on hold.
 
-1. Enter the name of the person to transfer the call to or their phone number.
-    You can transfer the call to only one user at a time and that user must be in the system.
-1. Select the name. If you'd like the call to be connected back to you if there's no answer on the other side, select **Ring back if there's no answer**.  
-   If you don't select this option, the customer's call will get disconnected if the call isn't answered by the other user.
-1. Select **Transfer**. You'll see a drop-down if the user has more than one number.
-    :::image type="content" source="media/dialer-call-transfer.png" alt-text="Teams dialer with transfer call":::
-1.  Select the number that you want to transfer the call to.
-     The other user will receive the transfer notification with the details of the original user and the customer. After the call is answered, the user can see the notes taken by the original user. After the call ends, both users will have access to the notes taken during the call.
+1. Enter the name or phone number of the user you want to transfer the call to or an external phone number.
 
-## Consult a user before transferring a call (preview)
+1. (Optional) If you're calling a system user, select **Ring back if there's no answer** for a safe transfer. Otherwise, the call will be disconnected if there's no answer.
+
+    If the recipient is in a meeting or out of office, select **Cancel** and then **Resume** to go back to the customer.
+
+1. Select **Transfer**.  
+    The recipient will see the transfer notification with details of the original user and the customer. After you transfer the call, the call is treated as a new one and any notes or recordings made during the original call are not transferred to the recipient.
+
+## Consult and transfer a Teams call (preview)
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-While you're on a call with a customer, you can transfer the call to an expert after consulting whether they can help the customer. You can also just consult the expert and answer the customer directly without really transferring the call.
+While you're on a call with a customer, you can consult a user before transferring the call to them. You can also just consult the user and answer the customer directly without really transferring the call.
 
-1. In the **Teams dialer** pane, select the three-dot menu and select **Consult and transfer**.
-    The customer will placed on hold.
+1. While you're on the call, select **More options** and select **Consult then transfer**.
+    The customer will be placed on hold.
 
-1. Enter the name of the person to consult or their phone number.
-    You can select only one user at a time and that user must be in the system.
-1. Select the person to consult and select **Call**. 
+1. Start typing the name of the user you want to transfer the call to or a phone number.
+
+1. Select the person to consult. If the recipient is in a meeting or out of office, select **Cancel** and then **Resume** to talk to the customer.
+1. Select **Call**.  
     The duration of the hold is displayed so that you know how long the customer has been waiting.
-1. If the other user is the right person to help the customer, select **Transfer**.
-     The other user will receive the transfer notification with the details of the original user and the customer. After the call is answered, the user can see the notes taken by the original user. After the call ends, both users will have access to the notes taken during the call.
- 
-    If the other user isn't the right person, or they didn't answer the call, or you've got the answer from the user that you can inform the customer directly, select **Cancel** to go back to the customer call.
+1. Consult with the user. If they're ready to take the call, select **Transfer** else, select **Cancel** to go back to the customer.
+    If you select **Transfer**, the recipient will see the transfer notification with details of the original user and the customer. After you transfer the call, the call is treated as a new one and any notes or recordings made during the original call are not transferred to the recipient.
 
 ## Call analysis
 
