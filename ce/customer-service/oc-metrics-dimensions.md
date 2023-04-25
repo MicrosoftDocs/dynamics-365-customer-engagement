@@ -1,38 +1,43 @@
 ---
-title: Use metrics for Omnichannel for Customer Service
-description: Learn how to use metrics for Omnichannel for Customer Service
+title: Metrics for Omnichannel for Customer Service
+description: Understand Omnichannel for Customer Service metrics
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 04/24/2023
+ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# Use metrics for Omnichannel for Customer Service
+# Metrics for Omnichannel for Customer Service
 
-## Overview of Omnichannel concepts
- 
-A conversation represents then entire end-to-end interaction with a customer. A conversation is created when a customer raises a request through various channels like voice, messaging, or chat. It can also be created when an agent calls a customer. A conversation typically originates in a workstream, on a specific channel and gets routed to a queue, based on rules your organization has deifned. Once it lands in a queue, it   
-A conversation entity holds metrics about your customer’s experience with the contact center – like current status, wait time, handle time, current customer sentiment etc.  
- 
-A conversation can end in a single session or extend to multiple sessions. When the system identifies an agent to work on a conversation, a session is created. New sessions are created because of reasons such as a conversation being transferred to a different queue, an agent rejecting a conversation request or letting the request time out. You can get KPIs and metrics that describe queue performance, agent performance from this entity, for example, number of requests that landed in a queue, number of requests rejected by agents, and agent handle time. 
+The article describes the various metrics that help you analyze the key performance indicators (KPIs) as you work with your agents in your contact center. With metrics, you can make quantitative assessment of the data that you see on the Omnichannel for Customer Service dashboards, make strategic decisions, track and improve customer satisfaction.
 
-In the following workflow, which represents a single conversation, you’ll see that multiple sessions are created. The first session is created when a conversation is created and assigned to a bot. The second session is created when the bot escalates the conversation to a human agent. This automatically closes the first session. In the second session, the best agent to work on the customer request is identified and assigned. If the agent rejects the request, a new session is created and the process of identifying another agent begins. 
- 
-A session participant entry is created for every agent who is identified to work on a conversation and gets associated with the latest session. A single session can have multiple participants. Every session has one primary participant, that is the agent with the assigned work item. A session can also have none or many additional participants who monitor the conversation or help with the consult.  
- 
-## Overview of omnichannel analytics data model  
+## Understand the Omnichannel analytics data model  
 
-The out-of-the-box data model consists of facts and dimension tables. Facts represent the observational or event data you want to analyze. Fact tables organize key KPIs logically. For example, FactConversation has conversation metrics like Average handle time, while FactAgent has Agent metrics. 
+Omnichannel for Customer Service provides you with out-of-the-box data model, which consists of facts and dimension tables. Facts, otherwise known as metrics, represent the observational or event data you want to analyze. Fact tables organize key KPIs logically. For example, FactConversation has conversation metrics like Average handle time, while FactAgent has Agent metrics.
 
-Dimensions represent the attributes of the facts, that you can use to break down with and analyze. You can use facts and dimensions to visualize data, according to your organizational requirements. If you'd like to understand how average handle time varies by queue, you can filter the fact Average Handle Time by the dimension Queue Name. 
+Dimensions represent the attributes of the facts, that you can use to break down with and analyze. You can use facts and dimensions to visualize data, according to your organizational requirements. If you'd like to understand how average handle time varies by queue, you can filter the fact Average Handle Time by the dimension Queue Name.
  
-Fact tables are much larger than dimension tables because numerous events occur in fact tables, such as individual customer requests. Dimension tables are typically smaller because you are limited to the number of items that you can filter and group on. For instance, number of queues is limited set.  
+Fact tables are much larger than dimension tables because numerous events occur in fact tables, such as individual customer requests. Dimension tables are typically smaller because you are limited to the number of items that you can filter and group on. For instance, number of queues is a limited set.
+
+## Understand the Omnichannel for Customer Service workflow
+
+Here's a brief description of the workflow.
+
+When a customer raises a request through various channels like voice, messaging, or chat, a conversation is created. A conversation represents an entire end-to-end interaction with a customer. A conversation can also be created when an agent calls a customer. A conversation typically originates in a workstream on a specific channel and gets routed to a queue, based on your organizational rule settings. A conversation entity holds metrics about your customer’s experience with the contact center, such as current status, wait time, handle time, and current customer sentiment.
+
+A conversation can end in a single session or extend to multiple sessions. When the system identifies an agent to work on a conversation, a session is created. New sessions are created because of reasons such as a conversation being transferred to a different queue, an agent rejecting a conversation request or letting the request time out. You can get KPIs and metrics that describe queue performance, agent performance from this entity, for example, number of requests that landed in a queue, number of requests rejected by agents, and agent handle time.
+
+In the following workflow, which represents a single conversation, you’ll see that multiple sessions are created. The first session is created when a conversation is created and assigned to a bot. The second session is created when the bot escalates the conversation to a human agent. This automatically closes the first session. In the second session, the best agent to work on the customer request is identified and assigned. If the agent rejects the request, a new session is created and the process of identifying another agent begins.
+
+:::image type="content" source="media/simple-chat-conversation.png" alt-text="The image describes a simple chat conversation":::
+
+For every agent who is identified to work on a conversation and gets associated with the latest session, a session participant entry is created. A single session can have multiple participants. Every session has one primary participant, that is the agent with the assigned work item. A session can also have none or many additional participants who monitor the conversation or help with the consult. You can get KPIs and metrics around consults provided by agents and monitored conversations from this entity.
 
 ## Dimensions
 
-Learn and understand how you can use the dimensions of the out-of-box Omnichannel historical and real-time analytics metrics to suit your needs. For more information, go to: [Understand out-of-the-box data model](customize-reports.md#understand-out-of-the-box-data-model).
+The following describes the various dimensions of the out-of-box Omnichannel real-time analytics metrics to suit your needs.
 
 For more information about how you can customize the visual display of your reports using these metrics, go to [Customize visual display](customize-reports.md).
 
@@ -114,7 +119,7 @@ This metric is available in two formats, seconds and in hh:mm:ss.
 
 **Related metric**
 
-- Avg. conversation first wait time: This metric is calculated by taking the total waiting time for customers waiting in queue, and then dividing it by the total number of customers who were served.
+- Average conversation first wait time: This metric is calculated by taking the total waiting time for customers waiting in queue, and then dividing it by the total number of customers who were served.
 - Longest wait time: This metric is measured as the longest first waiting time amongst incoming conversations that are yet to be accepted by an agent.
 - Conversations in queue: This metric is measured as the count of customer requests that are currently awaiting agent assistance or conversations that have been assigned an agent, but are waiting for agent acceptance.
  
@@ -132,13 +137,13 @@ This metric is available in two formats - seconds and in hh:mm:ss.
 
 **Related metrics**
 
-- Service level (10 seconds): This metric is measured as the percentage of customer conversation, where the speed to answer is less than or equal to 10 seconds.
-- Service level (20 seconds): This metric is measured as the percentage of customer conversation, where the speed to answer is less than or equal to 20 seconds.
-- Service level (30 seconds): This metric is measured as the percentage of customer conversation, where the speed to answer is less than or equal to 30 seconds.
-- Service level (40 seconds): This metric is measured as the percentage of customer conversation, where the speed to answer is less than or equal to 40 seconds.
-- Service level (60 seconds): This metric is measured as the percentage of customer conversation, where the speed to answer is less than or equal to 60 seconds.
-- Service level (120 seconds): This metric is measured as the percentage of customer conversation, where the speed to answer is less than or equal to 120 seconds.
-- Speed to answer: Time taken to accept an customer request
+- Service level (10 seconds): Percentage of customer conversation, where the speed to answer is less than or equal to 10 seconds.
+- Service level (20 seconds): Percentage of customer conversation, where the speed to answer is less than or equal to 20 seconds.
+- Service level (30 seconds): Percentage of customer conversation, where the speed to answer is less than or equal to 30 seconds.
+- Service level (40 seconds): The percentage of customer conversation, where the speed to answer is less than or equal to 40 seconds.
+- Service level (60 seconds): The percentage of customer conversation, where the speed to answer is less than or equal to 60 seconds.
+- Service level (120 seconds): The percentage of customer conversation, where the speed to answer is less than or equal to 120 seconds.
+- Speed to answer: Time taken to accept an customer request.
 
 For metrics around how quickly an agent accepts a request, go to [Average speed to answer](#average-speed-to-answer).
 
@@ -150,7 +155,7 @@ An agent is considered actively working on the conversation, if they have the co
 
 High average handle time could indicate that agents are taking too long to resolve customer issues, and that agents might need more training or support to help them work better. High average handle time also indicates customer dissatisfaction, as it may suggest that customers aren't receiving the level of service or support they need to resolve their issues.
 
-To understand the time spent by individual agents, where conversations were handled by multiple agents, go to [Average session handle time](#average-session-handle-time)  
+To understand the time spent by individual agents, where conversations were handled by multiple agents, go to [Average session handle time](#average-session-handle-time).  
 
 This metric can be viewed in the seconds and in hh:mm:ss formats.
 
@@ -158,13 +163,15 @@ This metric can be viewed in the seconds and in hh:mm:ss formats.
 
 - Average handle time: This metric is calculated by taking the total handle time of all the customer requests, and then dividing it by the total number of customers who were served.
 
-### Avg. conversation hold time
+### Average conversation hold time
 
 This metric represents the average time, in seconds, when the customer was put on hold by human agents handling the conversation. If the conversation was handled by multiple agents, conversation hold time is calculated as sum of hold time across all agents handling this conversation. This metric is calculated by taking the total hold time of all customer requests, and then dividing it by the total number of customers who are were served.
 
 There are several reasons why an agent might put a customer on hold. For example, an agent might put a customer on hold to gather additional information or research an issue, perform tasks that don’t require interaction like entering data into a system, or perform an offline task. A higher hold time may cause customer frustrations and may lead to poor customer experience.
 
-### Avg. conversation talk time
+:::image type="content" source="media/conversation-hold-time.png" alt-text="The image describes conversation hold time and talk time.":::
+
+### Average conversation talk time
 
 This metric represents the average time, in seconds, spent by a human agent actively conversing with customers on the phone for voice conversation. If a conversation was handled by multiple agents, conversation talk time is aggregated across all agents. This metric is calculated by taking the total hold time of all customer request, and then dividing it by the total number of customers who are were served.
 
@@ -172,7 +179,7 @@ This metric represents the average time, in seconds, spent by a human agent acti
 
 - Conversation talk time: This metric is calculated by taking the total talk time across all customer requests.  
 
-### Avg. conversation time
+### Average conversation time
 
 This metric represents the average time, in seconds, that a customer spent with the human agent, while seeking assistance from the contact center. It includes the time spent waiting for agents to work with them.  
 
@@ -180,7 +187,7 @@ This metric represents the average time, in seconds, that a customer spent with 
 
 - Conversation time: This metric is calculated as the time between the customer initiating the request and the agent wrapping up the conversation.
 
-### Avg. conversation wrap up time
+### Average conversation wrap up time
 
 This metric represents the average time agents spend after the customer leaves to complete any necessary tasks, such as documenting the conversations, updating notes, or updating the customer’s information. It's calculated as the beginning of the wrap up to the closing of the conversation by the agent. If multiple agents handled a conversation, it applies only to the time spent by the agent who is last to work with the customer.
 
@@ -192,7 +199,9 @@ A conversation can be abandoned for multiple reasons, such as customer getting d
 
 If a bot or interactive voice response (IVR) handles the customer before escalating the request to human agent, it is calculated as the count of conversations that were abandoned while waiting for a human agent after escalation from bot. If the conversation is abandoned before a bot can be assigned, the conversation is considered abandoned. If customers reach human agent queue directly, it is also calculated as the count of incoming conversations that were abandoned.
 
-The conversation direction is Incoming. Channels through which the conversation came in are Messaging and Voice.
+The conversation direction is Incoming. Channels through which the conversation came in are Messaging and Voice. 
+
+:::image type="content" source="media/abandoned-conversation.png" alt-text="The image describes abandoned conversations.":::
 
 **Related metric**
 
@@ -298,7 +307,7 @@ The total count of all sessions that were presented to or handled by agents.
 
 A customer request could be handled by more than one agent, including a combination of internal and external agents. For example, external agents could be engaged by your contact center through transfers to an external phone number or through Microsoft Teams voice call. This metric is used to identify the portion of a customer requests that were handled by agents outside Dynamics 365 Customer Service.
 
-**Related metric** 
+**Related metrics** 
 
 - External participant channel: This metric helps identify the channels through which external agents were engaged. For example, an external agent can help customer requests by calling them directly on their phone number or via Microsoft Teams Public Switched Telephone Network (PSTN) call.
 
