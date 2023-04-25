@@ -95,7 +95,7 @@ The Customer Service Insights standalone app is deprecated. We recommend that yo
 
 ## Customer Service workspace legacy layout is deprecated
 
-The Customer Service workspace legacy layout is deprecated from October 2023. For more information see [Deprecated Customer Service workspace layout](csw-overview.md)
+The Customer Service workspace legacy layout is deprecated from October 2023. For more information, see [Deprecated Customer Service workspace layout](csw-overview.md)
 
 ### See also
 
