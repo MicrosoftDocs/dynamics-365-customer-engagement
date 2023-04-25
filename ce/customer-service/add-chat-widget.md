@@ -1,7 +1,7 @@
 ---
 title: "Configure a chat widget | MicrosoftDocs"
 description: "Perform the steps mentioned in the article to configure a chat widget in Omnichannel for Customer Service."
-ms.date: 04/24/2023
+ms.date: 04/25/2023
 author: neeranelli
 ms.author: nenellim
 ms.topic: article
