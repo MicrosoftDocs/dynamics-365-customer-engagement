@@ -9,9 +9,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: Deana-Fuller
 ms.author: drfuller
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Send current technician location and arrival times to your customers with Dynamics 365 Field Service
@@ -46,7 +43,7 @@ In this article, we'll walk through how to set up and configure service notifica
 
 First, we need to set up the customer experience portal with Power Apps portals.
 
-Go to  http://make.powerapps.com and select **Create**.
+Go to  https://make.powerapps.com and select **Create**.
 
 Select **Field Service Portal (Preview)**.
 

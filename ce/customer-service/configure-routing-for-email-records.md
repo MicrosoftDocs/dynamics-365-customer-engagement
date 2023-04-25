@@ -5,7 +5,6 @@ ms.date: 08/29/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Set up unified routing for email records

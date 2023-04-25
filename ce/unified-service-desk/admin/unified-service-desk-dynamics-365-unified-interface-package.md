@@ -5,12 +5,8 @@ ms.date: 08/17/2018
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ---
 # Unified Interface sample application package
 
@@ -29,11 +25,7 @@ search.app:
   
     - Unified Service Desk Solution
 
-::: moniker range=">=dynamics-usd-4"
-
 - Customizations for the Dataverse Unified Interface package
-
-::: moniker-end 
 
 - Data required for Dataverse and customizations
   

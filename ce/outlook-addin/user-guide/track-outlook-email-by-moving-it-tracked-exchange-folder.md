@@ -17,14 +17,10 @@ ms.assetid: 2a46ffd4-9f2c-438e-a5c6-61e86d885949
 caps.latest.revision: 38
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
 # Track Outlook email by moving it to a tracked Exchange folder
 

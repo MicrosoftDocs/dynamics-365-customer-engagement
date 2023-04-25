@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/01/2023
+ms.date: 04/19/2023
 ms.custom: bap-template
 ---
 
@@ -39,7 +39,7 @@ Through field mapping, you'll be able to map a value to the article attributes o
 
 Article attributes are the knowledge article target field values. Operation types are the mapping patterns that map the source article to the article attributes of the knowledge article entity. More information: [Operation type mapping options](#operation-type-mapping-options). Source Property is the value that you define for each operation type. For example, if you select the **Direct** operation type, you'll have to select from the previously selected meta tags or the **HTML-Title** or **HTML-Body** tags.
 
-1. Save the article as an HTML file, and then upload the file by selecting **Choose file**. Make sure that the file name is fewer than 99 letters. You can view all the meta tags corresponding to your HTML file in the **Meta tags settings** section.
+1. Save the article as a **Web Page, HTML Only** file, and then upload the file by selecting **Choose file**. Make sure that the file name is fewer than 99 letters. You can view all the meta tags corresponding to your HTML file in the **Meta tags settings** section.
 1. You can select all the meta tags by selecting the **Select all below meta tags** checkbox or select only the required meta tags.
 
     The meta tags that you select will be available in the **Mapping** section. If you don't select any meta tags, you only see the **HTML-Title** and **HTML-Body** source properties, which are available by default.
@@ -68,10 +68,10 @@ If the validation is successful, you'll see a confirmation message. If the valid
     The Regex patterns must have a capture group enclosed in parentheses that allows you to extract a specific portion of the matched text. Note that the text extracted will be from the first non-empty group of the first match. More information: [Grouping constructs](/dotnet/standard/base-types/regular-expression-language-quick-reference#grouping-constructs). Here are some examples of regex patterns to extract content from a specific div tag:
 
      - Based on the div tag id:
-         `` <div\b[^>]*id=\"your-id-name-here\"[^>]*>([\s\s]*?)<\/div>``
-    - Based on the div tag class: `` <div\b[^>]*class=\"your-class-name-here\"[^>]*>([\s\s]*?)<\/div>``
-    - For content inside body tag: ``<body[^>]*>([\s\s]*)<\/body>``
-    - For content inside head tag: ``<head[^>]*>([\s\s]*)<\/head>``
+         `` <div\b[^>]*id=\"your-id-name-here\"[^>]*>([\s\S]*?)<\/div>``
+    - Based on the div tag class: `` <div\b[^>]*class=\"your-class-name-here\"[^>]*>([\s\S]*?)<\/div>``
+    - For content inside body tag: ``<body[^>]*>([\s\S]*)<\/body>``
+    - For content inside head tag: ``<head[^>]*>([\s\S]*)<\/head>``
     
     For more information on Regex, go to: [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference).
 
@@ -85,4 +85,4 @@ If the validation is successful, you'll see a confirmation message. If the valid
 
 ## Next steps
 
-For more information on adding an integrated search provider, go to: [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview)
+For more information on adding an integrated search provider, go to: [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview).

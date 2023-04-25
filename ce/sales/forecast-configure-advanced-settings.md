@@ -5,7 +5,6 @@ ms.date: 12/16/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Configure advanced settings for forecasts
@@ -33,11 +32,11 @@ In a forecast, each parent row in the hierarchy entity has its own contributor r
 
 You may not want to see duplicate zero-value parent rows. To hide them, turn on **Auto-hide parent row**.
 
-For example, Grace Mbele, a sales manager, has created a forecast based on the **User** hierarchy. When she opens the forecast, she sees two rows each for her sales leads, Jeremy Johnson and Jason Smith. The first row is the parent. The second is the contributor row.
+For example, Grace Mbele, a sales manager, has created a forecast based on the **User** hierarchy. On opening the forecast, Grace sees two rows each for the sales leads, Jeremy Johnson and Jason Smith. The first row is the parent. The second is the contributor row.
 
 :::image type="content" source="./media/forecast-hide-parent-row-disabled.png" alt-text="A screenshot of a user-based forecast, with duplicate zero-value parent rows shown.":::
 
-After Grace turns on **Auto-hide parent row**, she still sees the rolled-up parent rows for Jeremy and Jason, but not the duplicate zero-value rows.
+After turning on **Auto-hide parent row**, Grace still sees the rolled-up parent rows for Jeremy and Jason, but not the duplicate zero-value rows.
 
 :::image type="content" source="./media/forecast-hide-parent-row-enabled.png" alt-text="A screenshot of a user-based forecast, with duplicate zero-value parent rows hidden.":::
 

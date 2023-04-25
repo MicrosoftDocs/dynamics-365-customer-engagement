@@ -5,7 +5,6 @@ ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Create and manage routing rules in Omnichannel Administration
 

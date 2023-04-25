@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Anonymized customer data human review notice
@@ -86,3 +82,5 @@ All proper tagging to handle GDRP DSRs is maintained. You can contact your Dynam
 ## Have more questions?
 
 Learn more: [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=512132).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

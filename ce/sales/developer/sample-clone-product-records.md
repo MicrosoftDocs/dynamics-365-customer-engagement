@@ -13,7 +13,6 @@ applies_to:
 ms.assetid: e2ee047c-8295-47a5-b889-2af439c540c3
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 search.audienceType: 
   - developer
 ---

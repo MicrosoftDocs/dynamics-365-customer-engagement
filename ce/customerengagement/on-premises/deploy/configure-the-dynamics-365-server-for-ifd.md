@@ -14,7 +14,6 @@ ms.assetid: 45ccc7e6-39a9-4ced-aaee-2ffc3b8024de
 caps.latest.revision: 16
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Configure the Microsoft Dynamics 365 server for IFD
 

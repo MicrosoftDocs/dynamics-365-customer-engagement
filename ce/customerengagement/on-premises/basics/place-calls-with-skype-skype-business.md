@@ -10,7 +10,6 @@ ms.date: 05/05/2020
 ms.topic: article
 author: sericks007
 ms.author: sericks
-manager: tapanm-MSFT
 ms.assetid: 1b5a5819-3547-4d9c-af3f-d6268cbeac02
 ms.custom: 
   - dyn365-a11y

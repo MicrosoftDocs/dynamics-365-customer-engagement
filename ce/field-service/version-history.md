@@ -5,9 +5,6 @@ ms.date: 03/14/2023
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-search.app:
-  - D365CE
-  - D365FS
 ---
 
 # Dynamics 365 Field Service version history
@@ -20,23 +17,48 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.88.54](/dynamics365/field-service/version-history#888854)  | TBD | 04/14/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.88.54](/dynamics365/field-service/version-history#888854)  | TBD | 04/21/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.54](/dynamics365/field-service/version-history#888854) | 04/07/2023 |
-| | *USG* |[8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.54](/dynamics365/field-service/version-history#888854) | 04/07/2023 |
-|**Station 4** |*Europe* |[8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.54](/dynamics365/field-service/version-history#888854) | 04/14/2023 |
-|**Station 5** |  *North America*|[8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.54](/dynamics365/field-service/version-history#888854) | 04/21/2023 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.54](/dynamics365/field-service/version-history#888854) | 04/26/2023 |
-| | *Dedicated Scale Groups* |   [8.8.83.23](/dynamics365/field-service/version-history#888323)  | [8.8.84.16](/dynamics365/field-service/version-history#888416) | 04/07/2023 |
+|**Station 1** |  *First Release*| [8.8.89.34](/dynamics365/field-service/version-history#888934)  | TBD | 04/28/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.89.38](/dynamics365/field-service/version-history#888938)  | TBD | 05/05/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.88.56](/dynamics365/field-service/version-history#888856)  |  [8.8.89.38](/dynamics365/field-service/version-history#888938) | 04/28/2023 |
+| | *USG* | [8.8.89.38](/dynamics365/field-service/version-history#888938)  | TBD | 05/05/2023 |
+|**Station 4** |*Europe* |[8.8.88.56](/dynamics365/field-service/version-history#888856)  | [8.8.89.38](/dynamics365/field-service/version-history#888938) | 05/05/2023 |
+|**Station 5** |  *North America*|[8.8.88.62](/dynamics365/field-service/version-history#888862)  | [8.8.89.38](/dynamics365/field-service/version-history#888938)  | 05/12/2023 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.62](/dynamics365/field-service/version-history#888862) | 04/28/2023 |
+| | *Dedicated Scale Groups* |    [8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.62](/dynamics365/field-service/version-history#888862) | 04/28/2023 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.89.38
+This release is a hotfix on Field Service version [8.8.89.34](/dynamics365/field-service/version-history#888934).
 
-## 8.8.88.54
-(Includes Universal Resource Scheduling version [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217) and Resource Scheduling controls version 1.2.42.230871).
+(Includes Universal Resource Scheduling version [3.12.103.21](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210321)).
+
+- Fixed a bug that prevented saving records after an address change when Auto Geocode Address and Enable Address Suggestions are enabled in Field Service settings.
+
+## 8.8.89.34
+(Includes Universal Resource Scheduling version [3.12.103.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210312) and Resource Scheduling controls version 1.2.43.230971).
+
+- Fixed a bug preventing work orders created from an asset to have their location set to the asset’s functional location.
+- NVDA/Narrator now announces status message “Match found” when searching a keyword in the assets and location tab on accounts, assets, and locations.
+
+## 8.8.88.62
+This release is a hotfix on Field Service version [8.8.88.56](/dynamics365/field-service/version-history#888856).
+
+(Includes Universal Resource Scheduling version [3.12.102.24](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210324)).
+
+- Fixed a bug that prevented saving records after an address change when Auto Geocode Address and Enable Address Suggestions are enabled in Field Service settings.
+
+## 8.8.88.56
+This release is a hotfix on Field Service version [8.8.88.54](/dynamics365/field-service/version-history#888854).
+
+- Fixed a bug preventing some EA customers using the NTE control from being able to upgrade to GA.
+- Fixed a bug preventing the asset and functional location trees from loading when tens of thousands of assets exist in the system.
+
+## 8.8.88.54 (2023 wave 1 release)
+(Includes Universal Resource Scheduling version [3.12.102.17](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210217---2023-wave-1-release) and Resource Scheduling controls version 1.2.42.230871).
 
 -	Use the [Not-to-exceed feature](/dynamics365/field-service/work-order-not-to-exceed) to ensure cost and price expectations on work orders are met every time.
 -	[Organize your provided services based on trades](/dynamics365/field-service/trades#configure-trade-coverages), and set up trade coverages based on which services you provide to groups of customers.

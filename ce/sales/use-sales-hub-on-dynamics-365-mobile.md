@@ -5,7 +5,6 @@ ms.date: 02/22/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 
 ms.custom: 
   - dyn365-sales

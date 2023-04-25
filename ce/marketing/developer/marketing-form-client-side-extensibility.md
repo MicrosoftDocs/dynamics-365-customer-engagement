@@ -7,15 +7,14 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Extend outbound marketing forms using code
+
+> [!IMPORTANT]
+> This article refers to outbound marketing forms only.
 
 A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form, and choose local settings for it, which applies to that page only. More information [Marketing forms](/dynamics365/customer-engagement/marketing/marketing-forms)
 

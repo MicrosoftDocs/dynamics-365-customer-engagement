@@ -6,9 +6,6 @@ ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
 ms.author: jobaker
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Configure offline capabilities in the Field Service (Dynamics 365) mobile app
@@ -144,6 +141,8 @@ In summary, an offline-first application always reads from the local device data
 
 > [!NOTE]
 > After the offline-enabled user configures and signs into the app, the initial data sync will begin. During this time period, the app with run in online mode and changes will be updated on the server. After completing the offline sync, the app will be in offline-first mode and will read data from the local device database. During the time period of subsequent sync cycles, the app will not run as though in online mode.
+>
+> When an offline-enabled mobile application has network access, internal business logic fetches data from the server if a required record isn't found in the mobile offline profile. If no network access is available, a more specific error message will show, informing users of the missing table.
 
 ## Sync intervals
 
@@ -251,6 +250,6 @@ The application will check for connectivity whenever you navigate. The following
 - [Details on other platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
 
 > [!NOTE]
-> As part of Wave 1, 2021, Power Platform is introducing new (preview) features for the mobile offline profile. These features include a new way to access the mobile offline profile from [http://make.powerapps.com](http://make.powerapps.com), improved error handling, and removing the need to manually add individual user access. For more information, see [mobile offline overview](/power-apps/mobile/mobile-offline-overview) in Power Platform documentation.
+> As part of Wave 1, 2021, Power Platform is introducing new (preview) features for the mobile offline profile. These features include a new way to access the mobile offline profile from [https://make.powerapps.com](https://make.powerapps.com), improved error handling, and removing the need to manually add individual user access. For more information, see [mobile offline overview](/power-apps/mobile/mobile-offline-overview) in Power Platform documentation.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

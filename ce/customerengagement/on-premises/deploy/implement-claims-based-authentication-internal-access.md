@@ -13,7 +13,6 @@ ms.assetid: c2fe949d-e610-4210-9016-ef016657831c
 caps.latest.revision: 19
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Implement claims-based authentication: internal access
 

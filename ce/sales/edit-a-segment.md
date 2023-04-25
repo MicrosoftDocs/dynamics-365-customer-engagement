@@ -4,7 +4,6 @@ description: Update the conditions in the segment to modify your process for cho
 ms.date: 03/28/2023
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.topic: how-to
 ms.custom: bap-template
 ---

@@ -93,6 +93,10 @@ Standard service level agreements (SLA Type field is set to Standard) are deprec
 
 The Customer Service Insights standalone app is deprecated. We recommend that you migrate to the [embedded experience](introduction-customer-service-analytics.md) within the core Dynamics 365 Customer Service applications.
 
+## Customer Service workspace legacy layout is deprecated
+
+The Customer Service workspace legacy layout is deprecated from October 2023. For more information see [Deprecated Customer Service workspace layout](csw-overview.md)
+
 ### See also
 
 [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  

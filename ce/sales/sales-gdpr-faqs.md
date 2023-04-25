@@ -5,7 +5,6 @@ ms.date: 03/01/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

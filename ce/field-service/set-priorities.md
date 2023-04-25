@@ -5,9 +5,6 @@ ms.date: 11/30/2022
 ms.topic: article
 author: lmasieri
 ms.author: lmasieri
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Define priorities for work orders

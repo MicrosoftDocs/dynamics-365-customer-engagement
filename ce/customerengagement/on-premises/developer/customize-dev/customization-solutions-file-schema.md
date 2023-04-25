@@ -16,7 +16,6 @@ ms.assetid: 71e3e594-0240-4af1-99b4-135042b7a000
 caps.latest.revision: 19
 author: JimDaly
 ms.author: jdaly
-manager: annbe
 search.audienceType: 
   - developer
 

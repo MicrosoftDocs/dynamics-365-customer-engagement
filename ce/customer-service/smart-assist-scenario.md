@@ -5,7 +5,6 @@ ms.date: 04/25/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Implement a custom scenario for smart assist bot
 
@@ -23,7 +22,7 @@ This topic provides information on how you can enable similar case suggestions i
 
 ## Scenario: Similar case suggestion
 
-This scenario enables you to suggest similar cases with open case action button. The customer service agent is presented with a list of similar cases as a recommendation. The agent clicks on the case that he finds most similar and relevant, and then goes to the case note and looks at the resolution in note. The agent suggests the same resolution to the customer over chat.
+This scenario enables you to suggest similar cases with open case action button. The customer service agent is presented with a list of similar cases as a recommendation. The agent clicks on the case that they finds most similar and relevant, and then goes to the case note and looks at the resolution in note. The agent suggests the same resolution to the customer over chat.
 
 ### Generate intent to interpret the context of the conversation
 
@@ -92,11 +91,7 @@ Replace the `incident id` in the Web API request above with the unique identifie
 
 #### Calling custom actions using adaptive cards
 
-You will have to create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action. See the topic [Web resources in model-driven apps](/powerapps/maker/model-driven-apps/create-edit-web-resources) for information on how to create web resources. These web resources will have to be uploaded under the **Customer Summary Form**, as shown in the screenshot below.
-
-![Customer summary form.](media/conversation-entity-customer-summary.png "Customer summary form")
-
-
+You will have to create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action. See the topic [Web resources in model-driven apps](/powerapps/maker/model-driven-apps/create-edit-web-resources) for information on how to create web resources. These web resources will have to be uploaded under the **Active Conversation** form.
 Given below are the supported custom actions.
 
 **OpenForm custom action**

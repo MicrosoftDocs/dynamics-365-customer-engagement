@@ -6,9 +6,6 @@ ms.date: 10/26/2021
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Submit a support request

@@ -15,7 +15,6 @@ author: Mattp123
 ms.assetid: edaa7d4a-a95f-4d66-a9d9-2ad6051332f7
 caps.latest.revision: 41
 ms.author: "matp"
-manager: "kvivek"
 ---
 # Set managed properties for an entity
 <a name="BKMK_ManagedProperties"></a>   

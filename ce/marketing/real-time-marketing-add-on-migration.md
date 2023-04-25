@@ -7,13 +7,9 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Asset library add-on file migration
@@ -25,3 +21,5 @@ Files will be automatically copied to the Dynamics 365 Marketing unified library
 The migration will happen automatically between April and June 2023.
 
 Emails sent *before* migration may include links to assets stored in the add-on library. Those links will become inactive 30 days after migration is complete.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

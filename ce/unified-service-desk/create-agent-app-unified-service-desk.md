@@ -5,13 +5,9 @@ ms.date: 08/23/2017
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 tags: NoHandoff
 ---
 # Create agent application using Unified Service Desk

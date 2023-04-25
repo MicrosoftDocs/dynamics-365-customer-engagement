@@ -5,7 +5,6 @@ ms.date: 10/03/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 # Retrieve and format rich messages

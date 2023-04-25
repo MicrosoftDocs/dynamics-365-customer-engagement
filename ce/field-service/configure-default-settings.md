@@ -6,9 +6,6 @@ ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ms.custom: bap-template
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Set defaults for work orders, bookings, the schedule board, and agreements

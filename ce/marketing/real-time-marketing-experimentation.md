@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Experiment and refine real-time marketing journeys
@@ -69,3 +65,5 @@ There are three possible A/B test result outcomes:
 ### See also
 
 [Create real-time marketing emails](real-time-marketing-email.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

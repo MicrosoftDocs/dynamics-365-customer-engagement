@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Select the audience source for real-time journeys
@@ -44,3 +40,5 @@ A default value is displayed in the *Send-to* field, but you can select any othe
 
 > [!Important]
 > For Contacts, only one recipient email address can be used. This is done to remove consent ambiguity. In outbound marketing, a Contact record may store several email addresses with one consent for the entire contact. But in real-time marketing, consent is given per each email address. Learn more in [Compliance settings](real-time-marketing-compliance-settings.md#outbound-consent).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

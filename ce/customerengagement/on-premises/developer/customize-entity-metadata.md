@@ -13,7 +13,6 @@ applies_to:
 ms.assetid: a55bbb88-a323-4f69-9551-0d2951dd12ec
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

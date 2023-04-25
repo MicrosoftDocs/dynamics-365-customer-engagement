@@ -5,9 +5,6 @@ ms.date: 02/21/2023
 ms.topic: conceptual
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Resource utilization metrics on the schedule board

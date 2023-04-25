@@ -5,7 +5,6 @@ ms.date: 03/31/2023
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: bap-template
 searchScope: 
   - D365-App-msdynce_saleshub

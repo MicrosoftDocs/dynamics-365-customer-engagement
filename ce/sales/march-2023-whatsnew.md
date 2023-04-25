@@ -5,7 +5,6 @@ ms.date: 04/03/2023
 ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # March 2023 release

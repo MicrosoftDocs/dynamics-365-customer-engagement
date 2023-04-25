@@ -5,12 +5,8 @@ ms.date: 06/21/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
@@ -31,13 +27,6 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 
 ::: moniker-end
 
-::: moniker range="dynamics-usd-3"
-
-- For a 32-bit version of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], download the Dynamics365-USD-3.x.x.xxx-i386.exe file.
-
-- For a 64-bit version of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], download the Dynamics365-USD-3.x.x.xxx-amd64.exe file.
-
-::: moniker-end
 
 <a name="BKMK_USDwizard"></a>   
 

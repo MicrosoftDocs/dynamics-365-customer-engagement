@@ -5,7 +5,6 @@ ms.date: 01/21/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 # setContextProvider 
 

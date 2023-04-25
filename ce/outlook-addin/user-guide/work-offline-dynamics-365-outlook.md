@@ -19,14 +19,10 @@ ms.assetid: c97851f5-3063-4318-95fa-1d84c5f898c6
 caps.latest.revision: 41
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Work offline with Dynamics 365 for Outlook
 You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to access your [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data when you’re on the go. For example, if you travel to a customer’s site, you can look up your Dynamics 365 apps contacts, review and add new notes, and more without connecting to the Internet.  

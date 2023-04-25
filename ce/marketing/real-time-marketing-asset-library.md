@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Real-time marketing asset library add-on
@@ -61,3 +57,5 @@ The add-on can be uninstalled by users with delete permissions granted. To unins
 - Go to **Settings** in the area switcher then go to **Overview > Add-ons**.
 - Select **Uninstall** on the asset library card.
 - Confirm the action.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,7 +14,6 @@ ms.assetid: d81f7479-4e46-4cc8-9ae0-cb1761b68fa3
 caps.latest.revision: 11
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Uninstall, repair, and change Dynamics 365 Customer Engagement (on-premises)
 
