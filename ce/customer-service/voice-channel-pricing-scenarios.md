@@ -1,4 +1,3 @@
-
 ---
 title: Pricing scenarios for voice calling | MicrosoftDocs
 description: Use this article to understand how pricing works in the voice channel.
