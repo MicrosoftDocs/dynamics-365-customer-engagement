@@ -28,7 +28,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
 1. In the list of active cases, open the one you want to resolve.  
 
-2. On the command bar, select **Resolve case**. The status of the case is set to **Resolved** only when you select **Resolve Case**. You can't set the value of the **Case Status** field to **Resolved**
+2. On the command bar, select **Resolve case**. The status of the case is set to **Resolved** only when you select **Resolve Case** and the case gets resolved. You can't set the value of the **Case Status** field to **Resolved**
 
   If you have open activities linked to the case, you’ll see a message with the following actions:
   - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md#redirect-users-to-a-specific-tab-to-close-the-open-activities-for-a-case)
