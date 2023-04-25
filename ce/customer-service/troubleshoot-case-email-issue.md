@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot an issue faced when converting an email to a case | Microsoft Docs
-description: See how you can fix an issue converting an email to a case in Dynamics 365 Customer Service
-ms.date: 10/11/2022
+description: Learn how you can fix an issue with converting an email to a case in Dynamics 365 Customer Service.
+ms.date: 04/25/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -13,34 +13,38 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Issue converting an email to a case
+# Troubleshoot issues with automatic record creation
+
+The article describes the troubleshooting steps to diagnose and fix issues with automatic record creation.
+
+## Issue converting an email to a case
 
 You can use the Activity monitor that is available on the **Record creation and update rules** page, and configure the options to view skipped scenarios, failed scenarios, or all scenarios for a time period. More information: [Use activity monitor to review and track rules](automatically-create-update-records.md#use-activity-monitor-to-review-and-track-rules).
 
-## Case creation fails when mail is sent from queue address to same queue address on which automatic record creation rule is configured
+### Case creation fails when mail is sent from queue address to same queue address on which automatic record creation rule is configured
 
-### Scenario
+#### Scenario
 
 1. Configure an automatic record creation rule for a queue in the web client.
 2. In the rule, set customer value as null (Channel properties).
 3. Send mail from sender as queue mail address to recipient as queue mail address. The case creation fails with the following error message: "Case is missing customer"
 
-### Reason
+#### Reason
 
 The automatic record creation rule in the web client considers the queue as a known sender and doesn't create a contact. Subsequently, the case creation fails because no account or contact is associated with the email.
 
 This is an expected behavior.
 
-### Resolution
+#### Resolution
 
 Perform the following steps as a workaround:
 
 1. Migrate your rule from the web client to Unified Interface. More information: [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md).
 2. Follow the information in [Configure advanced settings for rules](automatically-create-update-records.md#configure-advanced-settings-for-rules) to manage emails from unknown senders.
 
-## Incoming email not converted to a case
+### Incoming email not converted to a case
 
-### Troubleshooting steps
+#### Troubleshooting steps
  
 If the email to case conversion isn't working, follow the below troubleshooting steps to diagnose and fix the issue:
 
@@ -118,7 +122,7 @@ This results in the following error in system jobs:
 
 To resolve this issue, leave contact field blank and set Customer field either to blank or to **{Sender(Email)}**.
 
-### Validation steps
+#### Validation steps
 
 You must validate the configuration and validation steps given in the following table to understand the main cause of the issue, and resolve it:
 
@@ -134,7 +138,20 @@ You must validate the configuration and validation steps given in the following 
 |   |    Yes      |   For an incoming email related to an active case         |   No case is created      |
 |  |         |         |         |
  
-### See also
+## Issues with rendering polymorphic lookups on non-lookup fields during migration from legacy to modern ARC
+
+A legacy ARC rule item using an attribute such as **Sender** results in an invalid lookup when assigned to a text field. In legacy ARC rule item, using an attribute such as **Sender (Email)** would have used the display name of the entity, and become **Sender (Value)** however, it results in an error.
+
+### Reason
+
+
+
+### Resolution
+
+1. Update the lookup to a specific type.
+2. Use a different field on the incoming entity that contains the desired text.
+
+## See also
 
 [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  
 [Automatically create a case from an email](automatically-create-case-from-email.md)  
