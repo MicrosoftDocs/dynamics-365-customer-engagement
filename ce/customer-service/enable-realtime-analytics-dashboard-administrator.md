@@ -1,7 +1,7 @@
 ---
 title: "Manage real-time analytics for supervisors | MicrosoftDocs"
 description: "Learn how to configure real-time analytics for Omnichannel for Customer Service."
-ms.date: 04/12/2023
+ms.date: 04/27/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -54,6 +54,7 @@ To view the reports in Customer Service workspace or Omnichannel for Customer Se
 [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)  
 [View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md)  
 [View and understand the Ongoing Conversation report in Omnichannel real-time analytics](realtime-ongoing.md)  
+[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 
