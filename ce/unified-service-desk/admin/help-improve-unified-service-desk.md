@@ -31,7 +31,7 @@ The information that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unifie
   
 - Device processor class and random-access memory (RAM) details.
 
-- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application-specific information. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Telemetry data](../admin/comply-unified-service-desk-data-privacy.md#telemetry-data)
+- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application-specific information. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Telemetry data](../admin/comply-unified-service-desk-data-privacy-laws.md#telemetry-data)
 
 ## Help improve Unified Service Desk feature enabled by default
 
