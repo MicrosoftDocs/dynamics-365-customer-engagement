@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot an issue faced when converting an email to a case | Microsoft Docs
 description: Learn how you can fix an issue with converting an email to a case in Dynamics 365 Customer Service.
-ms.date: 04/25/2023
+ms.date: 04/26/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -140,11 +140,13 @@ You must validate the configuration and validation steps given in the following 
  
 ## Issues with rendering polymorphic lookups on non-lookup fields during migration from legacy to modern ARC
 
-A legacy ARC rule item using an attribute such as **Sender** results in an invalid lookup when assigned to a text field. In legacy ARC rule item, using an attribute such as **Sender (Email)** would have used the display name of the entity, and become **Sender (Value)** however, it results in an error.
+A legacy ARC rule item using polymorphic lookups such as **Sender** results in an invalid lookup when assigned to a text field. Polymorphic lookups are lookups where the target of the lookup is more than one kind of entity, for example, it can point to either a contact or an account. In legacy ARC rule item, using a polymorphic lookup such as **Sender (Email)** should use the display name of the entity and become **Sender (Value)** however, it results in an error.
 
 ### Reason
 
+A legacy ARC rule item has a lot of hidden behaviors. For example, for **Sender (Email)**, the rule item fetches the referenced entity and uses the display name when assigned to a text field.
 
+However, the modern ARC migration code doesn't perform the steps required to fetch the entity, determine either the type of referenced entity or the field that contains the display name and use that value in the text form.
 
 ### Resolution
 
