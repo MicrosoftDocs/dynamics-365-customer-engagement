@@ -12,19 +12,19 @@ feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?cat
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The **Ongoing Conversation** report provides information about the status of the conversations that are currently being handled by agents in your organization and aren't yet closed. The conversation statuses can be open, active, wrap-up, and waiting. This report provides a holistic view of the conversations in real time with details, such as subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. More information: [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
+The **Ongoing Conversation** report provides information about the status of the conversations that are currently being handled by agents in your organization and aren't yet closed. The conversation statuses can be open, active, wrap-up, and waiting. This report provides a holistic view of the conversations in real time with details such as subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. More information: [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
 :::image type="content" source="media/realtime_ongoing_conversation.png" alt-text="Screenshot of ongoing conversations summary report":::
 
 For details on metrics displayed on the Ongoing Conversation report, go to [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)  
 
-The conversation list provides the list of currently ongoing conversations in the last 24 hours, giving managers a real-time view of the interactions between agents and customers. The Ongoing Conversations dashboard also provides you options to monitor, assign, transfer, and force close conversations. You can select an agent from the Ongoing Conversations dashboard, and then select any of the following options.
+The conversation list provides the list of currently ongoing conversations in the last 24 hours, giving managers a real-time view of the interactions between agents and customers. The Ongoing Conversations dashboard also provides you with options to monitor, assign, transfer, and force-close conversations. You can select an agent from the Ongoing Conversations dashboard, and then select any of the following options.
 
 - Assign an incoming, unassigned conversation to either a queue or an agent.
 - Transfer an ongoing conversation from one agent to another.
-- Monitor or listen to an ongoing conversation. When you select **Monitor**, you'll see a message that states that the monitoring has begun. This is applicable only for an active conversation with agent acceptance, conversations in wrap-up state, or conversations that are in waiting state.
-- Force close a conversation by closing the work item. When you select **Force close**, you'll see a confirmation dialog. You'll need to select **Proceed** to close the work item.
-When you force close a conversation, the conversation ends immediately for the customer as well. We recommend that you use this option with caution.
+- Monitor or listen to an ongoing conversation. When you select **Monitor**, you'll see a message that states that the monitoring has begun. This is applicable only for an active conversation with agent acceptance, conversations in wrap-up state, or conversations that are in a waiting state.
+- Force-close a conversation by closing the work item. When you select **Force close**, you'll see a confirmation dialog. You'll need to select **Proceed** to close the work item.
+When you force-close a conversation, the conversation ends immediately for the customer as well. We recommend that you use this option with caution.
 
 ### See also
 
