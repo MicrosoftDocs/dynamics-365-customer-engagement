@@ -22,10 +22,10 @@ After you add the **Customer 360** control to a case form, when an agent selects
 
  Do the following tasks to add the control. You can use these steps to display customer records on any entity where the Customer lookup is available.
 
-1. Step 1: Add the **Customer 360** component to forms in the **Account** and **Contact** tables.
-2. Step 2: On the **Case** form, add the **Account** and **Contact** forms on which the component was added. More information: [Edit related table records directly from another table’s main form](/power-apps/maker/model-driven-apps/form-component-control).
+Step 1: Add the **Customer 360** component to forms in the **Account** and **Contact** tables.
+Step 2: On the **Case** form, add the **Account** and **Contact** forms on which the component was added. More information: [Edit related table records directly from another table’s main form](/power-apps/maker/model-driven-apps/form-component-control).
 
-You can add the **Customer 360** card to a custom form in Customer Service workspace and Omnichannel for Customer Service. Perform the steps in [Add the Customer 360 card to a custom form](add-display-components-to-case-form.md#add-the-customer-360-card-to-a-custom-form) section to add the Customer 360 card to a customized form. 
+You can add the **Customer 360** card to a custom form in Customer Service workspace and Omnichannel for Customer Service. Perform the steps in [View the customer details in an app side pane on a custom form](#view-the-customer-details-in-an-app-side-pane-on-a-custom-form) section to add the Customer 360 card to a customized form. 
 
 ### Step 1: Add the Customer 360 component to Contact and Account forms
 
@@ -68,7 +68,7 @@ You can add the **Customer 360** card to a custom form in Customer Service works
     1. Do the steps above to add the **Contact** table and the new form with the **Customer 360** component.
     1. Save and publish the changes.
 
-### Add the Customer 360 card to a custom form 
+### View the customer details in an app side pane on a custom form 
 
 Perform the following steps to view the customer details in an app side pane, when the agent changes the customer or account name.
 
