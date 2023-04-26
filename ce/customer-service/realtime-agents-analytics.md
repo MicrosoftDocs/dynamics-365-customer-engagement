@@ -1,7 +1,7 @@
 ---
-title: Omnichannel real-time analytics agents insights report for supervisors | MicrosoftDocs
+title: View and understand the Agents report in Omnichannel real-time analytics | MicrosoftDocs
 description: Learn about the real-time agents insights report for supervisors in Omnichannel for Customer Service.
-ms.date: 04/12/2023
+ms.date: 04/27/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -21,7 +21,7 @@ Supervisors can select the **All** filter to view agent performance across all c
 
 :::image type="content" source="media/realtime-agent insights.png" alt-text="Screenshot of real-time agent insights report":::
 
-For details on metrics displayed in the Agents report, go to Omnichannel analytics metrics.
+For details on metrics displayed in the Agents report, go to [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics).
 
 ## Interactive charts
 
@@ -37,20 +37,17 @@ The **Agent list** table on the dashboard provides you with the ability to drill
 
 :::image type="content" source="media/realtime-agent-detailed-view.png" alt-text="Drill down to agent details":::
 
-For details on metrics in the **Agent list** table and the **Agent Details** page, go to Omnichannel analytics metrics.
+For details on metrics in the **Agent list** table and the **Agent Details** page, go to [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics).
 
-You can further drill through **Conversations** on the Agent details page to keep track of how a conversation progressed and the customer sentiment that associated with it. Through **Agent presence history**, you can view the agent presence in real time.
+You can further drill through **Conversations** on the Agent details page to keep track of how a conversation progressed and the customer sentiment that's associated with it. Through **Agent presence history**, you can view the agent presence in real time.
 
 ### See also
 
-[Manage real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service-preview)
-
-[Overview of Omnichannel real-time analytics reports (preview)](intro-realtime-analytics-dashboard.md)
-
-[View and understand the Summary report in Omnichannel real-time analytics (preview)](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics-preview)
-
-[View and understand the Voice report in Omnichannel real-time analytics (preview)](realtime-voice-dashboard.md#view-and-understand-the-voice-report-in-omnichannel-real-time-analytics-preview)
-
-[View and understand the Ongoing Conversation report in Omnichannel real-time analytics (preview)](realtime-ongoing.md#view-and-understand-the-ongoing-conversation-report-in-omnichannel-real-time-analytics-preview)
+[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)  
+[Manage real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md)  
+[Overview of Omnichannel real-time analytics reports](intro-realtime-analytics-dashboard.md)  
+[View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)   
+[View and understand the Ongoing Conversation report in Omnichannel real-time analytics](realtime-ongoing.md)
+[View and understand the Summary report in Omnichannel real-time analytics](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics) 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
