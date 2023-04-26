@@ -1,6 +1,6 @@
 ---
-title: Unified Service Desk data compliance under GDPR | MicrosoftDocs
-description: "Understand how the audit log files, diagnostic log files, and telemetry data in Unified Service Desk comply with the GDPR."
+title: Unified Service Desk data compliance under privacy laws and regulations| MicrosoftDocs
+description: "Understand how the audit log files, diagnostic log files, and telemetry data in Unified Service Desk comply with the privacy laws."
 ms.date: 04/24/2018
 ms.topic: article
 author: gandhamm
@@ -8,11 +8,14 @@ ms.author: mgandham
 search.audienceType: 
   - admin
 ---
-# [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] data compliance under GDPR
+# [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md) data compliance under privacy laws
 
 
+Data definitions and stages are outlined in the privacy laws and regulations. 
 
-Data definitions and stages are outlined in the GDPR. Let's look at the following data contained in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and see how they relate to those outlined in the GDPR:
+[!INCLUDE [gdpr-intro](~/../shared-content/shared/privacy-includes/gdpr-intro.md)]
+
+Let's look at the following data contained in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and see how they relate to those outlined in the privacy laws and regulations:
 
 - Audit log files
 - Diagnostic log files
@@ -40,15 +43,15 @@ To delete audit logging that you configure using standard auditing by adding an 
 
 1. Sign in to the Dynamics 365 instance.
 2. From a productivity area, select **Advanced Find**.</br>
-   ![Click Advanced Find.](../../unified-service-desk/media/advance-find-usd-gdpr-crm-server.PNG "Click Advanced Find")
+   ![Click Advanced Find.](../../unified-service-desk/media/advance-find-usd-privacy-crm-server.PNG "Click Advanced Find")
 3. In the **Look for** list, select **UII Audit**.</br>
-   ![Click UII Audit option.](../../unified-service-desk/media/look-usd-gdpr-crm-server.PNG "Click UII Audit option")
+   ![Click UII Audit option.](../../unified-service-desk/media/look-usd-privacy-crm-server.PNG "Click UII Audit option")
 4. To see all audit logging details, select **Results**.</br>
-   ![Click on Results option.](../../unified-service-desk/media/results-usd-gdpr-crm-server.PNG "Click on Results option")
+   ![Click on Results option.](../../unified-service-desk/media/results-usd-privacy-crm-server.PNG "Click on Results option")
 5. Select the records that you want to delete.</br>
-   ![Select records to delete.](../../unified-service-desk/media/select-records-usd-gdpr-crm-server.PNG "Select records to delete")
+   ![Select records to delete.](../../unified-service-desk/media/select-records-usd-privacy-crm-server.PNG "Select records to delete")
 6. To delete the records, select **Delete UII Audit**.</br>
-   ![Click Delete UII Audit option.](../../unified-service-desk/media/delete-records-uii-audit-usd-gdpr-crm-server.PNG "Click Delete UII Audit option")
+   ![Click Delete UII Audit option.](../../unified-service-desk/media/delete-records-uii-audit-usd-privacy-crm-server.PNG "Click Delete UII Audit option")
 
 ## Diagnostic log files
 
@@ -76,11 +79,11 @@ The category of telemetry that [!INCLUDE[pn_unified_service_desk](../../includes
 - Freeze or performance data
 - Session start and end data
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft Dynamics 365 and GDPR](/dynamics365/get-started/gdpr/index)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft Dynamics 365 and privacy laws](/dynamics365/get-started/gdpr/index)
 
 ## See also
 
-[Comply with General Data Protection Regulation (GDPR)](comply-gdpr.md)
+[Comply with privacy laws and regulations](comply-privacy-laws-regs.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
