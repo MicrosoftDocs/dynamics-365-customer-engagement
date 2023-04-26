@@ -111,7 +111,7 @@
     - name: Comply with privacy laws and regulations
       href: admin/comply-privacy-laws-regs.md
     - name: Comply Unified Service Desk data
-      href: admin/comply-unified-service-desk-data-privacy.md
+      href: admin/comply-unified-service-desk-data-privacy-laws.md
   - name: Configure audit and diagnostics in Unified Service Desk
     href: admin/configure-auditing-diagnostics-unified-service-desk.md
   - name: Distribute custom hosted controls using Customization Files
