@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Field Service (Preview) overview
-description: Learn how to create work orders in Outlook.
+title: Create a new work order in Outlook
+description: Learn how to create Field Service work orders in Outlook.
 ms.date: 04/24/2023
 ms.topic: how-to
 author: jasonxian-msft
@@ -15,7 +15,7 @@ Once opened, the add-in will show a list of suggested actions. One of these acti
 
 ## Work order fields
 
-- [System Status](https://learn.microsoft.com/en-us/dynamics365/field-service/work-order-status-booking-status) (required, defaulted to *Unscheduled*)
+- [System Status](/dynamics365/field-service/work-order-status-booking-status) (required, defaulted to *Unscheduled*)
 - Priority
 - Service Account (required)
 - Work Order Type (required)

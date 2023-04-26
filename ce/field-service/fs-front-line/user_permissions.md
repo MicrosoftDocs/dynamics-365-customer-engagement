@@ -64,7 +64,7 @@ ms.custom: bap-template
 
     ![Screenshot of selecting the Field Security profiles in Field Service.](media/permissions_7.png)
 
-[Read more about user setup in Field Service](https://learn.microsoft.com/en-us/dynamics365/field-service/view-user-accounts-security-roles)
+[Read more about user setup in Field Service](/dynamics365/field-service/view-user-accounts-security-roles)
 
 ## Sync AAD groups and Dataverse Security Roles
 
@@ -79,11 +79,11 @@ You can also view the current Security Roles by going to Power Platform Admin Ce
 - https://admin.powerplatform.microsoft.com
 - https://admin.preprod.powerplatform.microsoft.com (if the environment is a pre-production environment)
 
-This tutorial can help automate this process: [Assigned a security role to an AAD group](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/aad-group-team#assign-a-security-role-to-an-aad-group-team)
+This tutorial can help automate this process: [Assigned a security role to an AAD group](/power-apps/developer/data-platform/aad-group-team#assign-a-security-role-to-an-aad-group-team)
 
 ## Column Level Security
 
-At times, some of the permissions of a user are inadequate to view or create work orders. While you can grant the user an elevated security role, another option is to change the [column-level security](https://learn.microsoft.com/en-us/power-platform/admin/field-level-security) of the respective security role.
+At times, some of the permissions of a user are inadequate to view or create work orders. While you can grant the user an elevated security role, another option is to change the [column-level security](/power-platform/admin/field-level-security) of the respective security role.
 
 1. Go to make.powerapps.com and log in as an administrator
 1. Change the environment by clicking the top bar
