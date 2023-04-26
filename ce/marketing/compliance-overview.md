@@ -21,13 +21,13 @@ Real-time and outbound marketing have distinct but related constructs for suppor
 
 In real-time marketing, consent is captured and stored at the contact point. A contact point is the destination for a message (for example, an email address or phone number). Customer consent is stored on a per-channel basis. For example, email somebody@example.com has consented to receive commercial communications about upcoming events.  
 
-The primary benefit of contact point consent is that it allows for real-time marketing to orchestrate journeys across any entity. This means you can enforce consent for Leads, Customer Insights profiles, Contacts, and any other entity. This approach is opposed to outbound marketing journeys, which can only orchestrate journeys for contact entities.
+The primary benefit of contact point consent is that it allows for real-time marketing to orchestrate journeys across any entity. Orchestrating across journeys means you can enforce consent for Leads, Customer Insights profiles, Contacts, and any other entity. This approach is opposed to outbound marketing journeys, which can only orchestrate journeys for contact entities.
 
 In outbound marketing, consent is captured and stored on the Contact entity in fields like DoNotEmail and DoNotBulkEmail that apply to the entire Contact record and all its email addresses. This approach doesn't allow for different consent to be captured for a contact’s multiple email addresses, phone numbers, etc.
 
 ## Compliance Profiles
 
-Compliance profiles are the hubs to manage consent and compliance in Dynamics 365 Marketing. Compliance profiles govern how consent is captured and enforced. They store information such as company address, often required in the footer of emails, the preference management experience, and related configuration. The compliance profile settings vary based on the type of compliance profile you're creating or modifying.  
+Compliance profiles are the hubs to manage consent and compliance in Dynamics 365 Marketing. Compliance profiles govern how consent is captured and enforced. Compliance profiles store information such as company address, the preference management experience, and related configuration. The compliance profile settings vary based on the type of compliance profile you're creating or modifying.  
 
 Learn more about compliance profiles: Use compliance profiles to collect region- and brand-specific consent.  
 
@@ -37,7 +37,7 @@ There are four different ways that users can manage their contact preferences: s
 
 ### Subscription centers
 
-Outbound marketing subscription centers are marketing pages that known contacts can use to manage their communication preferences and contact details with your organization. All subscription centers include a "do not email" check box. When a contact chooses this option, the do not bulk email flag gets set on their contact record and Dynamics 365 Marketing will never send any marketing email messages to that contact. Optionally, your subscription center can present several other subscription options, such as a list of available newsletters.  
+Outbound marketing subscription centers are marketing pages that known contacts can use to manage their communication preferences and contact details with your organization. All subscription centers include a "do not email" check box. When a contact chooses this option, the "do not bulk email" flag gets set on their contact record, and Dynamics 365 Marketing won't send any marketing email messages to that contact. Optionally, your subscription center can present several other subscription options, such as a list of available newsletters.  
 
 Learn more about subscription lists and subscription centers: [Set up a subscription center](set-up-subscription-center.md)
 
@@ -53,7 +53,7 @@ Learn more about preference centers: [Create real-time marketing preference cent
 
 ### Preference Pages
 
-Real-time marketing uses preference pages as another way to manage user consent. A preference page is a web page where your customers can change their consent settings for receiving emails and text messages and for tracking. You can't create a new preference page. Instead, you can customize the language on the page for updating contact point consent as used in real-time marketing journeys. With the introduction of preference centers, existing preference pages will continue to support users updating their consent; however, moving forward, all new Compliance profiles will use the enhanced functionality of preference centers.  
+Real-time marketing uses preference pages as another way to manage user consent. A preference page is a web page where your customers can change their consent settings for receiving emails and text messages and for tracking. You can't create a new preference page. Instead, you can customize the language on the page for updating contact point consent as used in real-time marketing journeys. With the introduction of preference centers, existing preference pages will continue to support users updating their consent; however, moving forward, all new Compliance profiles leverage the enhanced functionality of preference centers.  
 
 Learn more about preference pages: [Real-time marketing preference pages](real-time-marketing-compliance-settings.md)
 
