@@ -28,17 +28,17 @@ Effective targeting and personalized customer experiences depend on well-defined
 
 Let’s say you want to create a segment containing all contacts who opened an email at least once in the past week. To create the segment, complete the following steps:
 1. To create a new segment, go to **Real-time marketing > Audience > Segments** and select **+New Segment**. For the segment name, enter **All contacts who opened an email at least once in the past week**. Select your target audience. 
-1. In the **Elements** section in the right pane, go to the **Behavioral** tab and select **Email > Opened**
+2. In the **Elements** section in the right pane, go to the **Behavioral** tab and select **Email > Opened**
 
   > [!div class="mx-imgBorder"]
   > ![select email opened tab to start creating new segment](media/real-time-marketing-email-opened.png "select email opened tab to start creating new segment") 
 
-1. When you add the interaction to your canvas, it automatically defaults to a time window and a frequency count of how many times the interaction has occurred in the past. To edit the time window and count to your scenario, select the **Edit interaction** button. To proceed, select **Done**.
+3. When you add the interaction to your canvas, it automatically defaults to a time window and a frequency count of how many times the interaction has occurred in the past. To edit the time window and count to your scenario, select the **Edit interaction** button. To proceed, select **Done**.
 
   > [!div class="mx-imgBorder"]
   > ![select interaction details to see how many times email was opened for a particular duration](media/real-time-marketing-email-edit-interaction-details.png "select interaction details to see how many times email was opened for a particular duration") 
 
-1. Select the email that you want to see whether the customers opened in the previous seven days. 
+4. Select the email that you want to see whether the customers opened in the previous seven days. 
 
   > [!div class="mx-imgBorder"]
   > ![select your desired email to look for its interaction details](media/real-time-marketing-select-your-email.png "select your desired email to look for its interaction details") 
