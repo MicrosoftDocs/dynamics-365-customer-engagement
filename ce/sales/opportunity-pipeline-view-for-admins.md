@@ -5,12 +5,10 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 03/07/2023
+ms.date: 04/26/2023
 ms.custom: bap-template 
 ---
 # Configure the opportunity pipeline view
-
-[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
 The opportunity pipeline view (formerly known as deal manager) helps your sellers visualize opportunities in their pipeline, and prioritize and manage them effectively. More information: [Use the opportunity pipeline view](use-opportunity-pipeline-view.md)
 
