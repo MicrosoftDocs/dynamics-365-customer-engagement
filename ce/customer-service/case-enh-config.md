@@ -38,37 +38,30 @@ To enable the enhanced case forms, perform the following steps:
 
 ## View and use default components available on enhanced full case form
 
-The following components are available out-of-the box in the enhanced full case form. You can use these components to customize other forms.
+The following components are available out-of-the box in the enhanced full case form. You can use these components to customize other forms. When you add the components to a form, the runtime experience is as follows:
 
-|Component   | Description   | Entity   |  Additional actions| 
-|----------|-----------|----------|-----------|
-|**Associated Grid Control** | Displays the relevant records linked to the current record as subgrids. You can configure up to four subgrids using this component. More information: [Configure components to display case associations](add-associated-grid-control.md)| Available for all entities.| Not Applicable. |
-| **Attachment Control** | Enables you to upload and display attachments. The source of the upload can be email, conversation, notes, or direct uploads.| You can use this control to upload and display attachments for case entities only.<br> For all other entities, use this component to display the uploaded attachments. | For a case entity, set the **Table Column** in the component to **Pre Create Entity Attachment Id**. |
-| **Notes Control** | Allows you to take notes on a form before saving a record. The rich text editor tool is enabled by default.| Available for case entities only.| - Set the **Table Column** in the component to **Pre Create Notes Id**. <br> - To configure advanced rich text configurations, specify the **Rich text editor configuration URL**. More information: [Create and use advanced configuration for the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#create-and-use-advanced-configuration-for-the-rich-text-editor-control)|
-| **OptionSet Wrapper** | Displays the selected option set values as color-coded options on the form. For example, if you add **Priority** on a case, the application displays color-coded priority icons. If you add **Case Status**, color-coded status options are displayed.| Available for all entities. | Not Applicable. |
-| **Queue Item Control** |  Displays the current queue a record belongs to and the **Worked by** field. You can edit the **WorkedBy** field and save the changes.| Available for queue enabled entities.| Not Applicable. |
-| **Due open activities control** |  Displays the activities that are due today or are overdue. | Available for all entities.| - Set **Table** to **Activity**.<br> - Select **Related records** to display only the activities related to the current record.|
+ :::image type="content" source="media/runtime-exp-mini.png" alt-text="runtime experience for the " lightbox="media/runtime-exp.png":::
 
- Perform the following steps to customize forms using the default components available on the enhanced full case form:
+|Legend|Component   | Description   | Entity   |  Additional actions| 
+|------ |----------|-----------|----------|-----------|
+| 1 |**Associated Grid Control** | Displays the relevant records linked to the current record as subgrids. You can configure up to four subgrids using this component. More information: [Configure components to display case associations](add-associated-grid-control.md)| Available for all entities.| Not Applicable. |
+| 2 | **Attachment Control** | Enables you to upload and display attachments. The source of the upload can be email, conversation, notes, or direct uploads.| You can use this control to upload and display attachments for case entities only.<br> For all other entities, use this component to display the uploaded attachments. | For a case entity, set the **Table Column** in the component to **Pre Create Entity Attachment Id**. |
+| 3| **OptionSet Wrapper** | Displays the selected option set values as color-coded options on the form. For example, if you add **Priority** on a case, the application displays color-coded priority icons. If you add **Case Status**, color-coded status options are displayed.| Available for all entities. | Not Applicable. |
+| 4 | **Queue Item Control** |  Displays the current queue a record belongs to and the **Worked by** field. You can edit the **WorkedBy** field and save the changes.| Available for queue enabled entities.| Not Applicable. |
+|5 | **Due open activities control** |  Displays the activities that are due today or are overdue. You can select the link to view the activities in the specified tab. More information: [Specify tab to redirect users to view open activities](#specify-tab-to-redirect-users-to-view-open-activities)  | Available for all entities.| - Set **Table** to **Activity**.<br> - Select **Related records** to display only the activities related to the current record.|
+| | **Notes Control** | Allows you to take notes on a form before saving a record. The rich text editor tool is enabled by default.| Available for case entities only.| - Set the **Table Column** in the component to **Pre Create Notes Id**. <br> - To configure advanced rich text configurations, specify the **Rich text editor configuration URL**. More information: [Create and use advanced configuration for the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#create-and-use-advanced-configuration-for-the-rich-text-editor-control)|
 
-1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-1. Select **Tables**, select a table, and then select the **Forms** area.
-1. Open the form to which you want to add the required component.
-1. In the form designer, select **Components** from the left navigation, and then select the required control.
-1. Drag it to the form.
-1. On the **Properties** panel, specify the mandatory fields such as **Table**, **Default views** ,or **Table Column** details  and further customization options.
-1. Select Save and **Publish All Customizations**.
 
+You can add these default components to other forms and customize them. More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
 
 ## Specify tab to redirect users to view open activities
 
 You can configure the tab agents must be redirected to when they select the open activities link from the **Due open activities control**. You can set this at an environment level or for a specific app.
 
-1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-1. Select **Tables**, select the **Case** table, and then select the **Enhanced full case form** in the **Forms** area.
-1. Select **Activities** in the **Basic details** entity. The **Due and Overdue Activities** subgrid appears.
-1. In the form designer, select **Components** from the left navigation, and then select **Due open activities control**.
-1. In **Edit Due open activities control** set the **Static value** option to the required tab. You can find the tab's name in the **Display options** > **Name** field of the corresponding form.
+1. In Power Apps, add the **Due open activities control** component to the required form. More information: More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
+1. In **Edit Due open activities control** set the **Static value** option to the required tab. To find the tab's name, perform the following steps:
+   - Navigate to a form which has the required tab.
+   - Select the tab, and then copy the value in **Name** in **Display options**.
 1. Select **Publish All Customizations**.
 
    :::image type="content" source="media/set-open-activities.png" alt-text="Open activities in a new tab" lightbox="media/set-open-activities.png":::
