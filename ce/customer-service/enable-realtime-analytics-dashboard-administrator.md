@@ -45,7 +45,7 @@ Use the Customer Service admin center app to enable or disable Omnichannel real-
 
 ## View Omnichannel real-time analytics reports
 
-To view the reports in Customer Service workspace or Omnichannel for Customer Service, see [View reports](intro-realtime-analytics-dashboard.md#view-reports).
+To view the reports in Customer Service workspace or Omnichannel for Customer Service, see [Access reports](intro-realtime-analytics-dashboard.md#access-reports)
 
 ### See also
 
