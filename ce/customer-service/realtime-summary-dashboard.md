@@ -19,7 +19,7 @@ ms.custom:
 
 The **Summary** report is the default report that appears when you select the Omnichannel real-time analytics dashboard in Customer Service workspace. You can filter the report by by time, channels, queue, time zone, or conversation status. More information: [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md)
 
-This report provides the summary of customer conversations over time, and by channel or queue. Statistics about the channel through which a conversation comes in helps you analyze and manage queue distribution accordingly. For example, higher abandoned conversations can often lead to decreased customer satisfaction. You can take care of high abandoned conversations by looking into operational metrics such as agent availability and queue distribution in real time.
+This report provides the summary of customer conversations over time and by channel or queue. Statistics about the channel through which a conversation comes in can help you analyze and manage queue distribution accordingly. For example, higher abandoned conversations can often lead to decreased customer satisfaction. You can take care of high abandoned conversations by looking into operational metrics such as agent availability and queue distribution in real time.
 
 Additionally, you can also track customer sentiment to analyze whether customers are getting adequate support. For example, a high average handle time might indicate that agents are taking more than the required time to resolve customer issues. Depending on the issue, you could then provide the required training or support to help agents resolve customer issues faster.
 
@@ -36,17 +36,17 @@ You can view different types of charts on the report, such as bar, horizontal ba
 When you select a component on the chart, the data gets filtered accordingly and you'll be able to view data related only to the selected component. For example, if you select the **Busy** piece in the **Agent availability status** chart, the dashboard will refresh and you’ll see only the agents who are currently in the **Busy** state.
 
 ## Drill-down reports
-Drill down to sections within a report to find the data that interests you the most. Following are the two drill-down reports that you can view in the Summary report.
+Drill down to sections within a report to find the data that interests you the most. The following sections provide details about the two drill-down reports that you can view in the Summary report.
 
 ### Conversations over time drill-down
 
-You can view conversations analytics, when you select the **Show more** link on the **Conversations over time** KPI. You can drill through conversations over time and analyze data by selecting the **Channel** or **Queue** tabs.
+You can view conversations analytics when you select the **Show more** link on the **Conversations over time** KPI. You can drill through conversations over time and analyze data by selecting the **Channel** or **Queue** tabs.
 
 :::image type="content" source="media/realtime_summary-conversation-analytics.png" alt-text="The image desrcibes conversation analytics by queue.":::
 
 ### Agent availability status drill-down
 
-You can view additional details about agent analytics by queue, when you select the **Show more** link on the **Agent availability status** KPI. You can drill through agent analytics by selecting the **Availability status** or **Capacity unit** tabs, which will help you effectively manage agent activity in real time.
+You can view additional details about agent analytics by queue when you select the **Show more** link on the **Agent availability status** KPI. You can drill through agent analytics by selecting the **Availability status** or **Capacity unit** tabs, which will help you effectively manage agent activity in real time.
 
 :::image type="content" source="media/realtime_summary-agent-analytics.png" alt-text="The image describes agent analytics by queue.":::
 
