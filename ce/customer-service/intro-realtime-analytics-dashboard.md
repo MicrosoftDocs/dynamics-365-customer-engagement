@@ -47,9 +47,9 @@ As a supervisor, you can view the Omnichannel real-time analytics dashboard in C
 
 ## Access reports
 
-You can view the various reports in the Customer Service workspace. In the Customer Service workspace default view, select the plus (+) icon, and then select **Omnichannel real-time analytics** dashboard. The **Summary** report is the default report that appears. You can view **Ongoing Conversations**, **Agent**, and **Voice** reports, by selecting the respective tabs.
+You can view the various reports in the Customer Service workspace app. In the Customer Service workspace default view, select the plus (+) icon, and then select the **Omnichannel real-time analytics** dashboard. The **Summary** report is the default report that appears. You can view **Ongoing Conversations**, **Agent**, and **Voice** reports by selecting the respective tabs.
 
-If you're unable to view the reports, contact your system administrator. For more information, go to: [Manage real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service)
+If you're unable to view the reports, contact your system administrator. More information: [Manage real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service)
 
 ## Dashboard details
 
@@ -57,15 +57,15 @@ The Omnichannel real-time analytics dashboard consists of the following reports:
 
 - **Summary**: This report provides an overview of your organization in real time. This report provides KPIs across the volume of customer interactions and service levels, along with the available capacity in real time. More information: [View and understand the Summary report in Omnichannel real-time analytics](realtime-summary-dashboard.md)
 
-- **Voice**: This report provides an overview of conversations for the Omnichannel for Customer service voice channel. More information: [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)
+- **Voice**: This report provides an overview of conversations for the Omnichannel for Customer Service voice channel. More information: [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)
 
 - **Agent**: This report provides an overview of the health and KPIs of agents in your organization. The information in this report is displayed based on the conversations. More information: [View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md)
 
-- **Ongoing Conversations**: This report provides information about the conversations that agents are handling and are in either active, open, wrap up, or waiting statuses. The report allows you to monitor, assign, transfer, and force close conversations for an agent, depending on your requirement. More information: [View and understand the Ongoing Conversation report in Omnichannel real-time analytics](realtime-ongoing.md)
+- **Ongoing Conversations**: This report provides information about the conversations that agents are handling and are in either active, open, wrap up, or waiting statuses. The report allows you to monitor, assign, transfer, and force close conversations for an agent, depending on your requirements. More information: [View and understand the Ongoing Conversation report in Omnichannel real-time analytics](realtime-ongoing.md)
 
 ## Filter information displayed on dashboards
 
-You can use the filters on the dashboards like time, agent, channels, queue, time zone, and conversation status to drill down KPIs across the dashboard. You can adjust the filters based on insights you're looking for.
+You can use the filters on the dashboards like time, agent, channels, queue, time zone, and conversation status to drill down to KPIs across the dashboard. You can adjust the filters based on the insights you're looking for.
 
 The **Time** dropdown list includes options such as **Include open conversations**, **Last 24hrs**, and **Today**.
 
@@ -75,7 +75,7 @@ The **Time** dropdown list includes options such as **Include open conversations
 
 ### Pause updates on report data
 
-Report data for all the reports is refreshed automatically in real time, except for Ongoing conversation report, which must be refreshed manually. You can use the **Pause updates** option to view and analyze real-time metrics at any point in time. You can reset the report data to be refreshed automatically by selecting **Resume updates**.
+Report data for all the reports is refreshed automatically in real time, except for the Ongoing Conversations report, which must be refreshed manually. You can use the **Pause updates** option to view and analyze real-time metrics at any point in time. You can reset the report data to be refreshed automatically by selecting **Resume updates**.
 
 ### See also
 
