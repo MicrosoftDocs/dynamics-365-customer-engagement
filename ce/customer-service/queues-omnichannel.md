@@ -109,13 +109,13 @@ If any overflow settings exist, they are overruled and work items are routed to 
 
 ### How default queues work
 
-Default queues are a finite set of queues that help you manage work items when other queues aren't available for routing them. Out of the box, the following default queues are available:
+Default queues are a finite set of queues that help you manage work items when other queues aren't available for routing them. All agents who have the Omnichannel agent role are a part of the default queues. Out of the box, the following default queues are available:
 
 - **Default entity queue** for routing entity records.
 - **Default messaging queue** for routing all messaging conversations pertaining to live chat, SMS, Microsoft Teams, and social channels.
 - **Default voice queue** for routing all voice calls.
 
-For a workstream, you can set any queue as a fallback queue, including a default queue but vice versa isn't possible. You can update the assignment method only for the default queues. No other settings are available for edit. All agents who have the Omnichannel agent role are a part of the default queues.
+For a workstream, you can set any queue as a fallback queue, including a default queue but vice versa isn't possible. You can update the assignment method only for the default queues. No other settings are available for edit.
 
 ### See also
 
