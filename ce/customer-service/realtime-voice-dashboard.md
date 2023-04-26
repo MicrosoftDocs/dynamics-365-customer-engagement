@@ -26,7 +26,7 @@ You can also monitor other voice-specific metrics such as conversation direction
 
 :::image type="content" source="media/realtime_voice.png" alt-text="Screenshot of the voice report":::
 
-For details on metrics displayed in the Voice report charts, go to [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics).
+For details on metrics displayed in the voice report charts, go to [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics).
 
 ## Interactive charts
 
@@ -36,7 +36,7 @@ When you select a component on the chart, data gets filtered accordingly and you
 
 ## Drill-down report
 
-Drill down to sections within a report to find the data that interests you the most. You can view voice conversation analytics, when you select the **Show more** link on the **Voice conversations over time** KPI. You can drill through voice conversations analytics and analyze data by Queue.
+Drill down to sections within a report to find the data that interests you the most. You can view voice conversation analytics when you select the **Show more** link on the **Voice conversations over time** KPI. You can drill through voice conversations analytics and analyze data by queue.
 
 :::image type="content" source="media/realtime_voice-conversation-analytics.png" alt-text="The image describes voice conversation analytics.":::
 
