@@ -1108,6 +1108,8 @@
           href: set-idle-time-threshold.md
         - name: View and understand Omnichannel Ongoing Conversations dashboard
           href: ongoing-conversations-dashboard.md
+      - name: Use Omnichannel for Customer Service metrics
+        href: oc-metrics-dimensions.md
       - name: Personalize analytics
         items: 
         - name: Manage report filters
