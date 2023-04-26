@@ -15,7 +15,7 @@ search.audienceType:
 
 # Manage user compliance settings in real-time marketing (preview)
 
-Managing compliance settings is key to ensuring your business processes conform with privacy laws such as the GDPR. This article gives an overview of administrator compliance setup, preference centers, and real-time marketing concepts. Currently, the features described are in preview for customers who want to familiarize themselves with them. They are not intended for production use until they are made generally available. For information on the current generally available compliance features for real-time marketing, visit [Real-time marketing compliance settings](real-time-marketing-compliance-settings) For information on outbound marketing compliance visit [Use GDPR Features](gdpr-use-features.md)  
+Managing compliance settings is key to ensuring your business processes conform with privacy laws such as the GDPR. This article gives an overview of administrator compliance setup, preference centers, and real-time marketing concepts. Currently, the features described are in preview for customers who want to familiarize themselves with them. They are not intended for production use until they are made generally available. For information on the current generally available compliance features for real-time marketing, visit [Real-time marketing compliance settings](real-time-marketing-compliance-settings.md) For information on outbound marketing compliance visit [Use GDPR Features](gdpr-use-features.md)  
 
 ## Enabling multi-brand consent and customizable preference centers (preview)
 
