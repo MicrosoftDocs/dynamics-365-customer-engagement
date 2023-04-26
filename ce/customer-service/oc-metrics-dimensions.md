@@ -49,11 +49,11 @@ Name of the capacity profile.
 
 Applies only to voice conversations and indicates whether the customer or a contact center agent started the conversation.
 
-If an agent in the contact center initiated the conversation, it's considered as outbound. If the conversation was received by the contact center, it's considered as inbound.
+If an agent in the contact center initiated the conversation, it's considered as outbound. If the contact center receives the conversation, it's considered as inbound.
 
 ### Conversation status
 
-Represents the current state of a customer interaction. The following is a list of the status values and their meaning:
+Represents the current state of a customer interaction. The following list details the status values and their meanings:
 
 - Open: Conversation is currently awaiting an agent assignment.
 - Active: Conversation has either an agent assigned and is pending acceptance, or has an agent in contact with the customer.
@@ -79,7 +79,7 @@ The following time-based filter options are available on real-time dashboards:
   
 - Today: Shows all conversations that started since 12 AM in the selected time zone, in any state.
 - Last 24 hours: Shows all conversations that started in the last 24 hours, in any state.
-- Include open conversations beyond 24 hours: Shows all conversations that started in the last 24 hours, in any state, and those that started in the last three days and are still open.
+- Include open conversations beyond 24 hours: Shows all conversations that started in the last 24 hours, in any state, and conversations that started in the last three days and are still open.
 
 ### Time zone
 
@@ -111,7 +111,7 @@ Name of the channel.
 
 It's a measure of the time taken before an agent responds to a customer's request. It represents the time, in seconds, spent by a customer waiting to get the first response from a human agent. Agent availability, high volume of requests, and increased handle time could be some of the reasons that can influence customer waiting time. Lower waiting time indicates that customers get issue resolution faster and have a better support experience.  
 
-If bot or IVR handles the customer before escalating the issue to human agent, the calculation is based on the time between a bot escalating an incoming conversation to a human agent and an agent accepting the conversation. If the customer ends up abandoning the conversation, the calculation is based on the time between a bot passing the conversation to the human representative and the customer disconnecting the conversation.
+If bot or IVR handles the customer before it escalates the issue to human agent, the calculation is based on the time between a bot that's escalating an incoming conversation to a human agent and an agent who's accepting the conversation. If the customer ends up abandoning the conversation, the calculation is based on the time between a bot that's passing the conversation to the human representative and the customerwho's disconnecting the conversation.
 
 If the customer reaches human agent queue directly, the calculation is based on the amount of time between a customer who creates the request and an agent who accepts the conversation. If the customer ends up abandoning the conversation, the calculation is based on the time between the customer who creates the request to the human agent and the customer who disconnects the conversation.
 
@@ -119,19 +119,19 @@ This metric is available in two formats: seconds and hh:mm:ss.
 
 **Related metric**
 
-- Average conversation first wait time: This metric is calculated by taking the total waiting time for customers who are waiting in queue and then dividing it by the total number of customers who were served.
-- Longest wait time: This metric is measured as the longest first waiting time among incoming conversations that are yet to be accepted by an agent.
+- Average conversation first wait time: This metric is calculated by taking the total waiting time for customers who are waiting in queue and dividing it by the total number of customers who were served.
+- Longest wait time: This metric is measured as the longest first waiting time among incoming conversations that an agent is yet to accept.
 - Conversations in queue: This metric is measured as the count of customer requests that are currently awaiting agent assistance or conversations that have been assigned an agent but are waiting for agent acceptance.
  
 For metrics around how much time customers had to wait in individual queues, if they get transferred from one agent to another, refer to [Session wait time](#session-wait-time).
 
 ### Average speed to answer
 
-It's a measure of how quickly the customer service team responds to a customer's request. It's calculated by taking the total waiting time for customers waiting in the queue (after being escalated from the bot to get support from a human agent) and then dividing it by the total number of customers who are were served. Average speed to answer reflects the efficiency and availability of the agents. A low average speed to answer indicates that customers can get their issues resolved faster and have a better experience with the service.  
+It's a measure of how quickly the customer service team responds to a customer's request. It's calculated by taking the total waiting time for customers who are waiting in the queue (after being escalated from the bot to get support from a human agent) and dividing it by the total number of customers who were served. Average speed to answer reflects the efficiency and availability of the agents. A low average speed to answer indicates that customers can get their issues resolved faster and have a better experience with the service.  
 
-If bot or IVR handles the customer before escalating it to a human agent, the speed to answer is calculated by the time between the bot escalating the incoming conversation to a human agent and the conversation getting accepted by a human agent.
+If bot or IVR handles the customer before it escalates it to a human agent, the speed to answer is calculated by the time between the bot that's escalating the incoming conversation to a human agent and the conversation being accepted by a human agent.
 
-If the customer reaches the human agent queue directly, the speed to answer is calculated by the time between creating a customer request and the request getting accepted by a human agent.
+If the customer reaches the human agent queue directly, the speed to answer is calculated by the time between when the customer creates a request and a human agent accepts it.
  
 This metric is available in two formats: seconds and hh:mm:ss.
 
@@ -155,7 +155,7 @@ An agent is considered actively working on the conversation if they have the con
 
 High average handle time could indicate that agents are taking too long to resolve customer issues, and that agents might need more training or support to help them work better. High average handle time also indicates customer dissatisfaction, as it may suggest that customers aren't receiving the level of service or support they need to resolve their issues.
 
-To understand the time spent by individual agents, where conversations were handled by multiple agents, go to [Average session handle time](#average-session-handle-time).
+To understand the time spent by individual agents where multiple agents handled conversations, go to [Average session handle time](#average-session-handle-time).
 
 This metric can be viewed in two formats: seconds and hh:mm:ss.
 
@@ -163,11 +163,11 @@ This metric can be viewed in two formats: seconds and hh:mm:ss.
 
 **Related metric** 
 
-- Average handle time: This metric is calculated by taking the total handle time of all the customer requests and then dividing it by the total number of customers who were served.
+- Average handle time: This metric is calculated by taking the total handle time of all the customer requests and dividing it by the total number of customers who were served.
 
 ### Average conversation hold time
 
-This metric represents the average time, in seconds, when the customer was put on hold by human agents handling the conversation. If the conversation was handled by multiple agents, conversation hold time is calculated as sum of hold time across all agents handling this conversation. This metric is calculated by taking the total hold time of all customer requests and then dividing it by the total number of customers who are were served.
+This metric represents the average time, in seconds, when human agents who handled the conversation put the customer was on hold. If multiple agents handled the conversation, the time is calculated as sum of hold time across all agents handling this conversation. This metric is calculated by taking the total hold time of all customer requests and dividing it by the total number of customers who are were served.
 
 There are several reasons why an agent might put a customer on hold. For example, an agent might put a customer on hold to gather more information or research an issue, perform tasks that don’t require interaction like entering data into a system, or working on an offline task. A higher hold time may cause customer frustration and may lead to a poor customer experience.
 
@@ -175,7 +175,7 @@ There are several reasons why an agent might put a customer on hold. For example
 
 ### Average conversation talk time
 
-This metric represents the average time, in seconds, spent by a human agent actively conversing with customers on the phone for voice conversation. If a conversation was handled by multiple agents, conversation talk time is aggregated across all agents. This metric is calculated by taking the total hold time of all customer request and then dividing it by the total number of customers who are were served.
+This metric represents the average time, in seconds, spent by a human agent actively conversing with customers on the phone for voice conversation. If multiple agents handled the conversation, the conversation talk time is aggregated across all agents. This metric is calculated by taking the total hold time of all customer requests and dividing it by the total number of customers who are were served.
 
 **Related metric** 
 
@@ -197,9 +197,9 @@ This metric can be viewed in two formats: seconds and hh:mm:ss.
 
 ### Abandoned conversations
 
-A conversation can be abandoned for multiple reasons, such as a customer getting disconnected or canceling the call due to a long waiting period, force closure of requests by supervisors, and automatic system actions configured to respond to handle overflow. Abandoned conversations lead to customer dissatisfaction because of lack of assistance from the contact center. A higher abandoned rate may need further investigation into operational metrics such as agent availability and queue distribution.
+A conversation can be abandoned for multiple reasons, such as a customer being disconnected or canceling the call due to a long waiting period, force closure of requests by supervisors, and automatic system actions that are configured to respond to handle overflow. Abandoned conversations lead to customer dissatisfaction because of lack of assistance from the contact center. A higher abandoned rate may need further investigation into operational metrics such as agent availability and queue distribution.
 
-If a bot or interactive voice response (IVR) handles the customer before escalating the request to human agent, it's calculated as the count of conversations that were abandoned while waiting for a human agent after escalation from the bot. If the conversation is abandoned before a bot can be assigned, the conversation is considered abandoned. If a customer reaches a human agent queue directly, it's also calculated as the count of incoming conversations that were abandoned.
+If a bot or interactive voice response (IVR) handles the customer before escalating the request to human agent, it's calculated as the count of conversations that were abandoned while waiting for a human agent after the bot escalates it. If the conversation is abandoned before a bot can be assigned, the conversation is considered abandoned. If a customer reaches a human agent queue directly, it's also calculated as the count of incoming conversations that were abandoned.
 
 The conversation direction is Incoming. Channels through which the conversation came in are Messaging and Voice.
 
@@ -239,10 +239,10 @@ Represents the current sentiment of customer. This is powered by Omnichannel for
 
 ### Average session handle time
 
-This metric is like conversation handle time, but it's granular and is calculated for every agent working on the conversation. This metric is relevant for conversations that have been handled by multiple agents. If multiple agents were assigned to work on a customer request, due to various reasons, such as transfers and escalations, this metric provides the average time spent by each of those agents who worked with the customer. Conversation handle time is the aggregation of session handle time of all the associated sessions.
+This metric is like conversation handle time, but it's granular and is calculated for every agent working on the conversation. This metric is relevant for conversations that multiple agents handled. If multiple agents were assigned to work on a customer request, due to various reasons, such as transfers and escalations, this metric provides the average time that's spent by each of those agents who worked with the customer. Conversation handle time is the aggregation of session handle time of all the associated sessions.
 
 **Related metric**
-- Session handle time: This metric represents the time spent by agents assisting customers on assigned customer requests. 
+- Session handle time: This metric represents the time that's spent by agents assisting customers on assigned customer requests. 
 
 ### Customer sentiment
 
@@ -250,7 +250,7 @@ This metric represents the current sentiment of the customer. This is powered by
 
 ### Is handled by external participant (session)
 
-A customer request could be handled by more than one agent, including a combination of internal contact center agents and external agents. This metric can be used to identify the portion of a customer request that was handled by agents outside of Dynamics 365 Customer Service. External agents could be engaged by your contact center through transfers to an external phone number, such as a Microsoft Teams voice call.
+A customer request could be handled by more than one agent, including a combination of internal contact center agents and external agents. This metric can be used to identify the portion of a customer request that agents handled outside of Dynamics 365 Customer Service. External agents could be engaged by your contact center through transfers to an external phone number, such as a Microsoft Teams voice call.
 This metric shows the sessions that were assigned to and handled by external agents only. For metrics around consultations with external agents, go to [Is handled by external participant (session)](#is-handled-by-external-participant-session)
 
 ### Session transfer rate
