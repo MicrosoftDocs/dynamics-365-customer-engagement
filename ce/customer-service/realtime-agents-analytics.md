@@ -17,7 +17,7 @@ The Agents report consists of metrics that provide an overview of agent performa
 
 Agent reports provide information about the agent capacity and status for the last 24 hours, with the ability to drill down to see details such as capacity at each agent level. This allows managers to quickly identify and allocate resources to address any staffing shortages, ensuring that customers receive the support when they need it.
 
-Supervisors can select the **All** filter to view agent performance across all channels or select a particular channel to view channel-wise agent performance. You can also filter areas by time, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards](intro-realtime-analytics-dashboard.md)
+Supervisors can select the **All** filter to view agent performance across all channels, or select a particular channel to view channel-wise agent performance. You can also filter areas by time, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards](intro-realtime-analytics-dashboard.md)
 
 :::image type="content" source="media/realtime-agent insights.png" alt-text="Screenshot of real-time agent insights report":::
 
