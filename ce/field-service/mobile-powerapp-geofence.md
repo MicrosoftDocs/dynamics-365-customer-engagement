@@ -15,7 +15,7 @@ ms.author: jobaker
 
 A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle.
 
-In Dynamics 365 Field Service, the default use case for geofencing is to create a circular geofence around a work order's location and compare it to the changing location of field technicians as measured by their mobile devices running the Field Service mobile app. When a work order geofence is crossed by a field technician, a **geofence event** record is created and the geofence status is changed from **outside** to **inside**, indicating the field technician is inside the geofence. Another geofence event is created as the field technician leaves the geofenced area. Based on entering or leaving a geofenced area, a mobile push notification or custom workflow can be triggered.
+In Dynamics 365 Field Service, the default use case for geofencing is to create a circular geofence around a service accounts's location and compare it to the changing location of field technicians as measured by their mobile devices running the Field Service mobile app. When a work order geofence is crossed by a field technician, a **geofence event** record is created and the geofence status is changed from **outside** to **inside**, indicating the field technician is inside the geofence. Another geofence event is created as the field technician leaves the geofenced area. Based on entering or leaving a geofenced area, a mobile push notification or custom workflow can be triggered.
 
 In this article, we look at how to configure and use geofences by:
 
@@ -26,7 +26,7 @@ In this article, we look at how to configure and use geofences by:
 
 ## Prerequisites
 
-- [Connect to Bing Maps](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to locate service accounts and work orders to later place geofences around.
+- [Connect to Bing Maps](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to locate service accounts to later place geofences around.
    
 - [Set auto geocode addresses to **yes**](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required in order to place geofences.
 
@@ -99,7 +99,7 @@ Enter the following information:
  
 Next, go to the bookable resource configuration and enter the following:
 
-- **Entity:** Select **Bookable Resource** to compare the location of field technicians relative to work orders and service accounts.
+- **Entity:** Select **Bookable Resource** to compare the location of field technicians relative to the service account of the work order.
 
 - **Latitude / Longitude** Choose the latitude and longitude fields on the bookable resource entity that hold the most recent coordinates of the location.
 
