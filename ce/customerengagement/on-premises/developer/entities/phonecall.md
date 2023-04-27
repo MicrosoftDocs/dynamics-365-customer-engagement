@@ -160,7 +160,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Enter the actual start date and time for the phone call. 
+|Description|Enter the actual start date and time for the phone call.|
 |DisplayName|Actual Start|
 |Format|DateOnly|
 |IsValidForForm|True|
