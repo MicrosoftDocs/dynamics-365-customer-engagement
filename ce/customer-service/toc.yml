@@ -1106,8 +1106,8 @@
           href: intraday-conversation-insights.md
         - name: Set idle time threshold
           href: set-idle-time-threshold.md
-        - name: View and understand Omnichannel Ongoing Conversations dashboard
-          href: ongoing-conversations-dashboard.md
+      - name: View and understand Omnichannel Ongoing Conversations dashboard
+        href: ongoing-conversations-dashboard.md
       - name: Use Omnichannel for Customer Service metrics
         href: oc-metrics-dimensions.md
       - name: Personalize analytics
