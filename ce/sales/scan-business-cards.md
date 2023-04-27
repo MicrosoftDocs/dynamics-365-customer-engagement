@@ -1,7 +1,7 @@
 ---
 title: "Scan business cards (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the business card scanner in Dynamics 365 Sales to quickly scan business cards of the prospective customers you've met with."
-ms.date: 03/29/2023
+ms.date: 04/17/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -21,13 +21,14 @@ The integrated business card scanner in Dynamics 365 Sales helps salespeople to 
 > [!IMPORTANT]
 > - To learn about the availability of the business card feature in a region, see [Feature availability by region](/ai-builder/availability-region#availability-and-release-status-of-features-by-region).
 > - To know about the business card scan limits with your user license, see the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+>- The card scanner is available in lead and contact forms. If you'd like to add the card scanner to other forms, see [Use the business card reader component in model-driven apps in Power Apps](/ai-builder/business-card-reader-component-model-driven)
 
 ## License and role requirements
 
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional. <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br> More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
+| **Security roles** | Basic User in Power Platform <br> More information: [Assign security roles to users in a Dataverse environment](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-dataverse-database) <br> [Assign security roles to users in non-Dataverse environment](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-no-dataverse-database)  |
 |||
 
 ## Scan a business card

@@ -1,13 +1,13 @@
 ---
-title: "View forecast projection through trend charts"
-description: "Use the trend charts to understand how each forecast amount is trending over time, comparing it against the period end prediction and quota."
-ms.date: 10/26/2021
+title: View forecast projection through trend charts
+description: Use the trend charts to understand how each forecast amount is trending over time, comparing it against the period end prediction and quota.
+ms.date: 04/18/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 ---
-# Understand forecast projections by using trend charts 
+# Understand forecast projections by using trend charts
 
 The **Trend** chart shows how each forecast amount is trending over time, comparing it against the period end prediction and quota. A separate predicted realization line is automatically created to project future revenue over time.  
 
@@ -15,6 +15,7 @@ The **Trend** chart shows how each forecast amount is trending over time, compar
 > The **Trend** chart is available as part of the predictive forecasting feature. Verify that predictive forecasting is enabled for your organization. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -42,14 +43,18 @@ The **Trend** chart shows how each forecast amount is trending over time, compar
 
 The following screenshot shows an example of a trend chart.
 
-> [!div class="mx-imgBorder"]
-> ![Trend chart](media/predictive-forecasting-trend-chart.png "Trend chart")
+:::image type="content" source="media/predictive-forecasting-trend-chart.png" alt-text="Trend chart" lightbox="media/predictive-forecasting-trend-chart.png":::
 
 The categories displayed on the trend chart depend on the forecast grid columns that your administrator has configured and the prediction columns. For more information on configuring forecast grid columns, see [Configure columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast#configure-columns).
- 
-> [!NOTE]
-> The Predicted Realization line indicates the combined value of **Predicted from open** and **Predicted from new**. For more information on prediction columns, see [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md).
 
+The Predicted Realization line displays a solid line for the time period until the last prediction date and a dotted line for the time period after that.  
+
+- The solid line indicates the actual revenue calculated from opportunities that were closed as won.  
+
+- The dotted line indicates the projected revenue for the rest of the forecast period. The projected revenue is calculated using the following formula:
+Closed won revenue + (Predicted from open + Predicted from new) 
+
+For more information on prediction columns, see [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md).
 
 When you hover over a forecast category in the legend, the trend line of the forecast category gets highlighted.
 
