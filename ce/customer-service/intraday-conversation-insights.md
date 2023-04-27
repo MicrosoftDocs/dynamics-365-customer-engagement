@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Intraday insights: Conversation insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Conversation insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 04/17/2023
+ms.date: 04/28/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ ms.custom: intro-internal
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!NOTE]
-> With the release of [real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability, we announce that the intraday insights for Omnichannel for Customer Service won't be available from October 31, 2023. We recommend that you use real-time analytics reports, which provide real-time information about the health and key performance indicators of your organization. For more information on the deprecation, go to [Intraday insights for Omnichannel for Customer Service to be deprecated](deprecations-customer-service.md#intraday-insights-for-omnichannel-for-customer-service-to-be-deprecated).
+> With the release of [real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability, we announce that the intraday insights for Omnichannel for Customer Service will be deprecated as of May 1, 2023. We recommend that you use real-time analytics reports, which provide real-time information about the health and key performance indicators of your organization. For more information on the deprecation, go to [Intraday insights for Omnichannel for customer service to be deprecated](deprecations-customer-service.md#intraday-insights-for-omnichannel-for-customer-service-to-be-deprecated).
 
 ## Introduction
 
