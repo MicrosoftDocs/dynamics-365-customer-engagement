@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Dynamics 365 Customer Service | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 04/13/2023
+ms.date: 04/20/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -261,8 +261,9 @@ By default, a contact for unknown email sender is created with the email owner c
 
 You can review and track the health of the automatic record creation rules and resolve issues around them. By default, the activity monitor captures failed events. You can customize the events that you want to monitor by using the monitor options in the application.
 
-> [!IMPORTANT]
-> The activity monitor tracks the rules only till they are evaluated in Customer Service Hub before the rule is run in Power Automate.
+> [!NOTE]
+> - Activity monitor is supported only with online environments, such as cloud applications, and not with on-premises environments.
+> - The activity monitor tracks the rules only until they're evaluated in Customer Service Hub before the rule is run in Power Automate.
 
 > ![Results of the activity monitor.](media/activity-monitor-results.png "Results of the activity monitor")
 

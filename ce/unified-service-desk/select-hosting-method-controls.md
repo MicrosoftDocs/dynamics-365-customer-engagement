@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ms.custom: 
   - dyn365-USD
-monikerRange: '>= dynamics-usd-3'
+
 ---
 # Select a hosting method for your controls in Unified Service Desk
 
