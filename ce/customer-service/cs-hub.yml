@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page 
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 04/20/2023
+  ms.date: 04/27/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -85,30 +85,24 @@ additionalContent:
         text: Live chat SDK Reference
   - title: Use Customer Service
     items:
-    - title: Agent productivity
-      links:
-      - url: /dynamics365/customer-service/csw-overview
-        text: Work on multiple sessions at a time in a single workspace, boosting agent productivity.
-      - url: /dynamics365/app-profile-manager/productivity-tools
-        text: Perform day-to-day operations in a fast, efficient, and process compliant manner with productivity tools
-    - title: Analytics and Insights
-      links:
-      - url: /dynamics365/customer-service/overview-service-level-agreements
-        text: Make data-driven decisions with analytics and insights to boost customer satisfaction
-    - title: Use Service-level agreements
-      links:
-      - url: /dynamics365/customer-service/define-service-level-agreements?tabs=customerserviceadmincenter
-        text: Define and deliver measured and predictable service to a customer by using SLAs
-    - title: Microsoft Teams
-      links:
-      - url: /dynamics365/customer-service/collaboration
-        text: Collaborate effectively with your peer or experts using Microsoft Teams.
-    - title: Apps and personas
+    - title: Apps and Personas
       links:
       - url: /dynamics365/customer-service/cs-admin-center
-        text: Customer Service admin center (Administrator)
-      - url: /dynamics365/customer-service/developer/omnichannel-developer
-        text: Omnichannel for Customer Service SDK (Developer)
+        text: Use Customer Service admin center
+      - url: /dynamics365/customer-service/csw-overview?tabs=customerserviceadmincenter
+        text: Use Customer Service workspace
+      - url: /dynamics365/customer-service/customer-service-team-member
+        text: Use Customer Service Team Member 
+    - title: Manage cases
+      links:
+      - url: /dynamics365/customer-service/customer-service-hub-user-guide-create-a-case
+        text: Create a case in Customer Service Hub
+      - url: /dynamics365/customer-service/enh-casemgmt-csw?tabs=enhancedquickcreateform%2Cenhancedfullcaseform
+        text: Enhanced case management in multisession apps
+      - url: /dynamics365/customer-service/case-grids
+        text: Manage cases with case grids
+      - url: /dynamics365/customer-service/automatically-create-update-records?tabs=customerserviceadmincenter
+        text: Use rules to automatically create or update records 
   - title: Related products
     items:
         # Card
