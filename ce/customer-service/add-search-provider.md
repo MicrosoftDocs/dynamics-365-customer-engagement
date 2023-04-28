@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/24/2023
+ms.date: 04/28/2023
 ms.custom: bap-template
 ---
 
@@ -21,6 +21,7 @@ If you're a first time user, you must provision integrated search providers. Mak
 
 - At Basic level: **prvReadconnector**
 - At Global level:
+    - **prvReadWorkflow**
     - **prvWriteWorkflow**
     - **prvCreatemsdyn_knowledgeconfiguration**
     - **prvReadmsdyn_knowledgeconfiguration**
@@ -34,7 +35,19 @@ You must provision the integrated search provider from Customer Service admin ce
 1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers (Preview)** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
 
+If you aren't able to provision the integrated search provider, you'll need to [enable the Integrated Search API trigger flow](#enable-the-integrated-search-api-trigger-flow).
+
 If integrated search isn't enabled in your geographical region, contact Microsoft Support to provision the feature.
+
+### Enable the Integrated Search API trigger flow
+
+To turn on the **Integrated Search API trigger** flow, make sure you have the **prvReadconnector** (Basic level) and the **prvReadWorkflow** (Global level) privileges.
+
+1. Go to [make.powerapps.com](https://make.powerapps.com).
+1. Go to **Solutions** > **Default Solution** > **Cloud flows** and turn on the **Integrated Search API trigger flow** flow.
+:::image type="content" source="media/int-search-turn-on.jpg" alt-text="Turn on Integrated search API trigger flow":::
+
+You can now add integrated search providers.
 
 ## Add integrated search providers
 
@@ -55,10 +68,6 @@ If integrated search isn't enabled in your geographical region, contact Microsof
         > - The site map and the site index files must have content-type as either application/xml or text/xml.
         > - You must provide static websites only for data ingestion. Websites that return scripts to load content aren't supported for data ingestion.
     1. **Language filter for ingestion**: Select the languages you want to specifically map for the ingestion from the dropdown list. Select **Reset** to clear the language selection. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language code.
-    1. **Authentication type**: Select **None**.
-    1. Select **Test connection**.
-        
-        Test connection uses the credentials provided to see whether the connection is successful. You get a confirmation message that states whether the test connection has passed or failed. In case of an error message, check and correct the details provided.
     1. Select **Next** to go the next section, or select **Save as draft**, if you still need to provide information for the section.
 1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you've saved it. For details on knowledge article schema mapping, go to [Configure knowledge article schema mapping](int-data-mapping.md#configure-knowledge-article-schema-mapping).
 1.	In the **Refresh Schedule** section, specify the refresh intervals:
@@ -67,7 +76,7 @@ If integrated search isn't enabled in your geographical region, contact Microsof
         
         For example, if you set the refresh frequency at 15 minutes and lookback period at 2 hours, your data is refreshed for the last 2 hours and 15 minutes, in every 15 minutes.
     1. Select **Next** to go the next section, or select **Save as draft**, if you still need to provide information for the section.
-1.	In the **Summary** section, review your search provider setup and make changes, if any, to the **Search provider name**, **URL**, **Authentication type**, **Refresh frequency**, and **Lookback period**.
+1.	In the **Summary** section, review your search provider setup and make changes, if any, to the **Search provider name**, **Root URL**, **Authentication type**, **Refresh frequency**, and **Lookback period**.
 
 1. Select **Save and close**. Your newly added search provider now appears on the **Knowledge** > **All integrated search providers** page. The status of the search provider will be **Inactive** with status reason as **Validated**.  
 
