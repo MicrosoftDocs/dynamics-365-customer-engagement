@@ -15,7 +15,7 @@ ms.custom: bap-template
 Enable the enhanced **Quick case form** and **Full case form**  options, if you want your agents to see the enhanced quick case form and full case form, while creating a new case in the Customer Service workspace app."
 
 > [!NOTE]
-> The enhanced case creation experience is available only in the Customer Service workspace app and not in other applications including Omnichannel for Customer service and Customer Service Hub.
+> The enhanced case creation experience is available only in the Customer Service workspace app and not in other applications.
 
 ## Enable enhanced case experience
 To enable the enhanced case forms, perform the following steps:
@@ -45,26 +45,14 @@ The following components are available out-of-the box in the enhanced full case 
 |Legend|Component   | Description   | Entity   |  Additional actions| 
 |------ |----------|-----------|----------|-----------|
 | 1 |**Associated Grid Control** | Displays the relevant records linked to the current record as subgrids. You can configure up to four subgrids using this component. More information: [Configure components to display case associations](add-associated-grid-control.md)| Available for all entities.| Not Applicable. |
-| 2 | **Attachment Control** | Enables you to upload and display attachments. The source of the upload can be email, conversation, notes, or direct uploads.| You can use this control to upload and display attachments for case entities only.<br> For all other entities, use this component to display the uploaded attachments. | For a case entity, set the **Table Column** in the component to **Pre Create Entity Attachment Id**. |
+| 2 | **Attachment Control** | Enables you to upload and display attachments. More information: [Use Attachment Control to customize forms](add-attachment-control.md)| You can use this control to upload and display attachments for case entities only.<br> For all other entities, use this component to display the uploaded attachments. | For a case entity, set the **Table Column** in the component to **Pre Create Entity Attachment Id**. |
 | 3| **OptionSet Wrapper** | Displays the selected option set values as color-coded options on the form. For example, if you add **Priority** on a case, the application displays color-coded priority icons. If you add **Case Status**, color-coded status options are displayed.| Available for all entities. | Not Applicable. |
 | 4 | **Queue Item Control** |  Displays the current queue a record belongs to and the **Worked by** field. You can edit the **WorkedBy** field and save the changes.| Available for queue enabled entities.| Not Applicable. |
-|5 | **Due open activities control** |  Displays the activities that are due today or are overdue. You can select the link to view the activities in the specified tab. More information: [Specify tab to redirect users to view open activities](#specify-tab-to-redirect-users-to-view-open-activities)  | Available for all entities.| - Set **Table** to **Activity**.<br> - Select **Related records** to display only the activities related to the current record.|
+|5 | **Due open activities control** |  Displays the activities that are due today or are overdue. More information: [Use the Due open activities control to customize forms](add-due-open-activities.md)  | Available for all entities.| **Table** must be set to **Activities**.|
 | | **Notes Control** | Allows you to take notes on a form before saving a record. The rich text editor tool is enabled by default.| Available for case entities only.| - Set the **Table Column** in the component to **Pre Create Notes Id**. <br> - To configure advanced rich text configurations, specify the **Rich text editor configuration URL**. More information: [Create and use advanced configuration for the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#create-and-use-advanced-configuration-for-the-rich-text-editor-control)|
 
 
 You can add these default components to other forms and customize them. More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
-
-## Specify tab to redirect users to view open activities
-
-You can configure the tab agents must be redirected to when they select the open activities link from the **Due open activities control**. You can set this at an environment level or for a specific app.
-
-1. In Power Apps, add the **Due open activities control** component to the required form. More information: More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
-1. In **Edit Due open activities control** set the **Static value** option to the required tab. To find the tab's name, perform the following steps:
-   - Navigate to a form which has the required tab.
-   - Select the tab, and then copy the value in **Name** in **Display options**.
-1. Select **Publish All Customizations**.
-
-   :::image type="content" source="media/set-open-activities.png" alt-text="Open activities in a new tab" lightbox="media/set-open-activities.png":::
 
 
 ### See also

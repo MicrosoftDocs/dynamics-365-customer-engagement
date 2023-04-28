@@ -12,26 +12,38 @@ ms.custom: bap-template
 
 # Use Attachment Control to customize forms
 
-The **Attachment Control** is available out-of-the box on the enhanced full case form and helps agents perform the following actions:
+You can add the **Attachment Control** component to case forms and other entity forms. Agents can either upload and view attachments, or only view attachments based on the entity form you add this component to.
 
-- Upload and view attachments linked to the case on the Attachment tab. Agents can upload upto ten attachments at once.
-- See the source of the attachment such as direct upload, attachments uploaded through notes or shared through conversation and the user who uploaded the attachments.
-- Search for attachments
-- Sort and filter attachments based on Name, Size, Uploaded on, Uploaded by, and Source.
-- Select the attachment to preview the content of the attachment. This is only supported for pdf and image files.
-- Download and delete multiple attachments at once. You can delete only those attachments that have Source set to Direct Upload.
+### Upload and view attachments on case forms
 
-When this component is added to other entity forms, agents can only view the attachments that're uploaded.
+When you add the **Attachment Control** component to a case form, the following actions are applicable:
+
+- If a new case is created, the **Attachments** grid is displayed. Agents can upload attachments on this grid.
+- When you save a new case, the **Attachments** tab is displayed. For more information on the runtime experience, see: [View an existing case using enhanced Full case form](enh-casemgmt-csw.md#view-an-existing-case-using-enhanced-full-case-form).
+
+> [!NOTE]
+> If agents have to add attachments, ensure that you grant the required privileges to the security roles as applicable, for the **Entity attachment** custom entity. More information: [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role#create-a-security-role).
+
+### View attachments on other entity forms
+
+When you add the **Attachment Control** component to a case form, the **Attachments** tab is displayed. Agents can view and download the attachments uploaded through notes and email for an existing record.
+
+> [!NOTE]
+> Agents can't view attachments for a new record and the **Attachments** tab displays a warning message. 
 
 ## Customize forms with Attachment Control
 
-You can customize other forms to display the due or overdue activities by performing the following steps:
+On the required form, add the **Attachment Control** component.  More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form). If you add the component to a case form, the following properties are available for further customization:
 
-1. In Power Apps, add the **Attachment Control** component to the required form. More information: More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
-1.  In **Properties** specify the following:
-    - **Table column**: You must set this value to **Pre Create Entity Attachments Id**.
-    - Select the **Show related records** to display only the activities related to the current record.
-1. Save and publish the customizations.
+
+|Property | Description | 
+|------ |----------|
+| Table Column | The column the component is bound to.<br> For case forms, set this field to **Pre Create Entity Attachments Id**<br> For other entity forms, this field can be set to any column. |
+| Show Control Title | Displays or hides the **Attachments** label on the Case page when a new case is created.|
+| Show attachments from Conversation | Set this value to **Yes** or **No** to display or hide the attachments that were shared through conversations on the **Attachments** tab, for an existing case or a new case that's been saved.|
+| Show attachments directly uploaded to entity |  Set this value to **Yes** or **No** to display or hide the attachments that were directly uploaded when the case was created on the **Attachments** tab, for an existing case or a new case that's been saved.|  
+| Show attachments from email | Set this value to **Yes** or **No** to display or hide the attachments sent through email on the **Attachments** tab, for any entity.|  
+| Show attachments from notes | Set this value to **Yes** or **No** to display or hide the attachments that were added to notes on the timeline on the **Attachments** tab, for any entity.|  
 
 ### See also
 
