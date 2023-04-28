@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 04/25/2023
+ms.date: 04/27/2023
 ms.custom: bap-template
 ---
 
@@ -31,7 +31,7 @@ A conversation can end in a single session or extend to multiple sessions. When 
 
 In the following workflow, which represents a single conversation, you’ll see that multiple sessions are created. The first session is created when a conversation is created and assigned to a bot. The second session is created when the bot escalates the conversation to a human agent, which automatically closes the first session. In the second session, the best agent to work on the customer request is identified and assigned. If the agent rejects the request, a new session is created and the process of identifying another agent begins.
 
-:::image type="content" source="media/customer-workflow.png" alt-text="The image describes the customer conversation journey.":::
+:::image type="content" source="media/customer-workflow.png" alt-text="The image describes the customer conversation journey." lightbox="media/customer-workflow.png":::
 
 For every agent who is identified to work on a conversation and gets associated with the latest session, a session participant entry is created. A single session can have multiple participants. Every session has one primary participant, that is, the agent with the assigned work item. A session can also have none or many more participants who monitor the conversation or help with the consult. You can get KPIs and metrics around consults provided by agents and monitored conversations from this entity.
 
