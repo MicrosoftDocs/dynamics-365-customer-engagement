@@ -95,6 +95,16 @@ additionalContent:
         text: Manage cases with case grids
       - url: /dynamics365/customer-service/automatically-create-update-records?tabs=customerserviceadmincenter
         text: Use rules to automatically create or update records 
+    - title: Use AI capabilities
+      links:
+      - url: /dynamics365/customer-service/csw-view-ai-suggested-cases-knowledge-articles
+        text: View AI-suggested similar cases and knowledge articles 
+      - url: /dynamics365/customer-service/teams-use-suggested-contacts
+        text: Use suggested contacts
+      - url: /dynamics365/customer-service/cs-ai-generated-summary
+        text: Use auto-summarization for ongoing conversations
+      - url: /dynamics365/customer-service/use-ai-suggested-contacts-teams
+        text: Collaborate with AI-suggested contacts in Microsoft Teams
     - title: Use unified routing 
       links:
       - url: /dynamics365/customer-service/create-workstreams?tabs=customerserviceadmincenter
@@ -106,7 +116,6 @@ additionalContent:
       - url: /dynamics365/customer-service/configure-assignment-rules?tabs=customerserviceadmincenter
         text: Configure assignment methods for queues
       - url: Manage case queues and route cases
-        text: /dynamics365/customer-service/customer-service-hub-user-guide-case-queues-and-routing
     - title: Use chat, channels in Omnichannel for Customer Service
       links:
       - url: /dynamics365/customer-service/oc-introduction-agent-interface
@@ -177,16 +186,6 @@ additionalContent:
         text: Use Teams meetings 
       - url: /dynamics365/customer-service/use-customer-support-swarming
         text: Use customer support swarming to resolve issues
-    - title: Use AI capabilities
-      links:
-      - url: /dynamics365/customer-service/csw-view-ai-suggested-cases-knowledge-articles
-        text: View AI-suggested similar cases and knowledge articles 
-      - url: /dynamics365/customer-service/teams-use-suggested-contacts
-        text: Use suggested contacts
-      - url: /dynamics365/customer-service/cs-ai-generated-summary
-        text: Use auto-summarization for ongoing conversations
-      - url: /dynamics365/customer-service/use-ai-suggested-contacts-teams
-        text: Collaborate with AI-suggested contacts in Microsoft Teams
     - title: Use service-level agreements
       links:
       - url: /dynamics365/customer-service/define-service-level-agreements?tabs=customerserviceadmincenter
