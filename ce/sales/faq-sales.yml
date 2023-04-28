@@ -90,9 +90,9 @@ sections:
         answer: |
           There are several possibilities:
             - The **Show As** option may be hidden in the three-dot menu on the **Opportunities** page.
-            - Your administrator might have customized the **Show As** list. Ask your administrator to [add the control](opportunity-pipeline-view-for-admins.md#set-pipeline-view-as-the-default-opportunities-view).
+            - Your administrator might have customized the **Show As** list. Ask your administrator to [add the control](opportunity-pipeline-view-for-admins.md#set-the-pipeline-view-as-the-default-opportunities-view).
             - Your organization might not have opted in to early access features. Contact your administrator if you'd like to try them out.
-            - Your administrator might have disabled custom views for opportunities. Ask your administrator to [add the view manually](opportunity-pipeline-view-for-admins.md#set-pipeline-view-as-the-default-opportunities-view).
+            - Your administrator might have disabled custom views for opportunities. Ask your administrator to [add the view manually](opportunity-pipeline-view-for-admins.md#set-the-pipeline-view-as-the-default-opportunities-view).
 
       - question: What's the difference between the duplicate detection capability in Power Platform and Dynamics 365 Sales?
         answer: |
