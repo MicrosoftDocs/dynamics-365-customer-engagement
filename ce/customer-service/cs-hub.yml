@@ -129,7 +129,7 @@ additionalContent:
     - title: Enhance agent productivity 
       links:
       - url: /dynamics365/customer-service/csw-productivity-pane
-        text: Overview of productivity pane 
+        text: Use the productivity pane to resolve customer issues
       - url: /dynamics365/customer-service/oc-agent-scripts
         text: Use agent scripts for customer interactions
       - url: /dynamics365/customer-service/use-agent-calendar
