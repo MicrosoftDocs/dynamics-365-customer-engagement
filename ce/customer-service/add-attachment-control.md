@@ -26,7 +26,7 @@ When you add the **Attachment Control** component to a case form, the following 
 
 ### View attachments on other entity forms
 
-When you add the **Attachment Control** component to other entity forms such as Account or Customer, agents can view and download the attachments uploaded through notes and email for an existing record on the **Attachments** tab.
+When you add the **Attachment Control** component to other entity forms such as Account or Customer,for an existing record, agents can view and download the attachments uploaded through notes and email on the **Attachments** tab.
 
 > [!NOTE]
 > Agents can't view attachments for a new record and the **Attachments** tab displays a warning message. 
