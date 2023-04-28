@@ -225,6 +225,8 @@
           href: sample-softphone-integration.md
     - name: Lead management
       items:
+        - name: Lead management overview
+          href: lead-management-overview.md
         - name: Define lead qualification experience
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
@@ -253,6 +255,8 @@
           href: set-focused-view-as-default.md
     - name: Opportunity management
       items:
+        - name: Opportunity management overview
+          href: opportunity-management-overview.md
         - name: Configure the opportunity pipeline view
           href: opportunity-pipeline-view-for-admins.md
         - name: Enable customization of the Opportunity Close form
@@ -725,6 +729,8 @@
           href: /powerapps/user/collaborate-using-sharepoint?context=/dynamics365/context/sales-context
     - name: Lead management
       items:
+        - name: Lead management overview
+          href: lead-management-overview.md
         - name: Create or edit leads
           href: create-edit-lead-sales.md
         - name: View and manage records in focused view  

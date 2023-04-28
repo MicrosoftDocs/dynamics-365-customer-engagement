@@ -18,7 +18,7 @@ highlightedContent:
     # Card
     - title: Get started
       itemType: get-started
-      url: user-guide-learn-basics.md
+      url: overview.md
     # Card
     - title: What's new
       itemType: whats-new
@@ -79,7 +79,7 @@ additionalContent:
         text: Conversation intelligence
     - title: Integrate
       links:
-      - url: enable-teams-chat.md # could create an overview page
+      - url: enable-teams-chat.md 
         text: Microsoft Teams
       - url: /power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks
         text: Exchange
@@ -109,9 +109,9 @@ additionalContent:
       - url: opportunity-management-overview.md
         text: Opportunity management
       - url: ri-overview.md
-        text: Relationship insights
+        text: Relationship intelligence
       - url: dynamics365-sales-insights-app.md
-        text: Conversation insights
+        text: Conversation intelligence
     - title: Quote to cash
       links: 
       - url: create-edit-quote-sales.md
@@ -139,9 +139,9 @@ additionalContent:
 
     - title: Collaboration
       links: 
-      - url: email-engagement.md # Add overview covering all exchange collaborations
+      - url: email-engagement.md 
         text: Exchange
-      - url: teams-integration\using-teams-chat-in-dynamics.md #Add overview page covering integration with teams chat, meetings
+      - url: teams-integration\using-teams-chat-in-dynamics.md 
         text: Teams
       - url: collaborate-using-sharepoint-sales.md
         text: SharePoint
@@ -171,9 +171,15 @@ additionalContent:
         - title: Viva Sales
           summary: Viva Sales is a seller experience application that lets sellers use Microsoft 365 applications to automatically capture, access, and register data into any CRM system, eliminating the administrative burden of manual data entry, giving more time to focus on selling.
           url: /Viva/sales/introduction
-        - title: Customer Voice
-          summary: Understand your customers to build better experiences. Collect, analyze, and track real-time feedback in an easy-to-use, scalable feedback management solution.
-          url: /dynamics365/customer-voice/about
+        - title: Customer Insights
+          summary: Connect data from various transactional, behavioral, and observational sources to create a 360-degree customer view.
+          url: /dynamics365/customer-insights/
+        - title: Marketing
+          summary: Orchestrate personalized journeys across all touchpoints to strengthen customer relationships and earn their loyalty.
+          url: /dynamics365/marketing/help-hub
         - title: LinkedIn Sales Navigator
           summary: Use LinkedIn Sales Navigator to enhance key application scenarios by connecting the system of record with the LinkedIn data graph and insights.
           url: /dynamics365/linkedin/integrate-sales-navigator
+        - title: Power Platform
+          summary: Build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, and analyze data for insights using Power BI, 
+          url: ../power-platform/
