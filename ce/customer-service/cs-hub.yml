@@ -197,6 +197,10 @@ additionalContent:
         text: Export and import a solution with SLAs 
       - url: /dynamics365/customer-service/apply-slas?tabs=customerserviceadmincenter
         text: Apply and use SLAs
+    - title: Use Community
+      links:
+      - url: /dynamics365/customer-service/community-overview
+        text: Socialize ideas with other organizations using Community 
     - title: Add-in solutions  
       links: 
       - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
