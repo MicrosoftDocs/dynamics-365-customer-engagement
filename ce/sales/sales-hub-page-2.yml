@@ -104,8 +104,8 @@ additionalContent:
     items:
     - title: Automate your sales force
       links: 
-      - url: Understand the sales process
-        text: nurture-sales-from-lead-order-sales.md
+      - url: nurture-sales-from-lead-order-sales.md
+        text: Understand the sales process 
       - url: lead-management-overview.md
         text: Manage leads
       - url: opportunity-management-overview.md
