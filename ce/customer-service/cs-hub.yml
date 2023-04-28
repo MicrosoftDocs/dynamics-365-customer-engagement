@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page 
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 04/27/2023
+  ms.date: 04/28/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -103,6 +103,58 @@ additionalContent:
         text: Manage cases with case grids
       - url: /dynamics365/customer-service/automatically-create-update-records?tabs=customerserviceadmincenter
         text: Use rules to automatically create or update records 
+    - title: Use unified routing 
+      links:
+      - url: /dynamics365/customer-service/create-workstreams?tabs=customerserviceadmincenter
+        text: Create and manage workstreams 
+      - url: /dynamics365/customer-service/queues-omnichannel?tabs=customerserviceadmincenter
+        text: Create and manage queues
+      - url: /dynamics365/customer-service/configure-work-classification
+        text: Configure work classification rulesets
+      - url: /dynamics365/customer-service/configure-assignment-rules?tabs=customerserviceadmincenter
+        text: Configure assignment methods for queues
+      - url: Manage case queues and route cases
+        text: /dynamics365/customer-service/customer-service-hub-user-guide-case-queues-and-routing
+    - title: Use chat, channels in Omnichannel for Customer Service
+      links:
+      - url: /dynamics365/customer-service/oc-introduction-agent-interface
+        text: Know the agent interface
+      - url: /dynamics365/customer-service/oc-agent-dashboard
+        text: View the agent dashboard and work items 
+      - url: /dynamics365/customer-service/oc-conversation-control
+        text: View the communication panel 
+      - url: /dynamics365/customer-service/oc-view-activity-types
+        text: View conversation and session forms, and activity types
+    - title: Enhance agent productivity 
+      links:
+      - url: /dynamics365/customer-service/csw-productivity-pane
+        text: Overview of productivity pane 
+      - url: /dynamics365/customer-service/oc-agent-scripts
+        text: Use agent scripts for customer interactions
+      - url: /dynamics365/customer-service/use-agent-calendar
+        text: View the agent calendar
+      - url: /dynamics365/customer-service/create-personal-quick-replies
+        text: Create personal quick replies
+    - title: 
+      links:
+      - url:
+        text:
+      - url:
+        text:
+      - url:
+        text:
+      - url:
+        text:
+    - title: 
+      links:
+      - url:
+        text:
+      - url:
+        text:
+      - url:
+        text:
+      - url:
+        text:
   - title: Related products
     items:
         # Card
