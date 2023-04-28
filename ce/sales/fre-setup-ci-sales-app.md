@@ -1,6 +1,6 @@
 ---
-title: "First-run setup experience for conversation intelligence in sales app"
-description: "Learn about first-run configuration of conversation intelligence for Microsoft Teams for your Dynamics 365 Sales environment."
+title: Configure conversation intelligence in sales app
+description: Learn about first-run configuration of conversation intelligence for Microsoft Teams for your Dynamics 365 Sales environment.
 ms.date: 01/25/2023
 ms.custom: 
 ms.topic: article
@@ -9,7 +9,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ---
 
-# First-run setup experience of Microsoft Teams for conversation intelligence
+# Configure conversation intelligence
 
 You can configure conversation intelligence with Microsoft Teams. After you sign in to your sales app as an administrator, you can configure the complete application&mdash;enable Microsoft Teams call recording for conversation intelligence, select storage, grant app permissions, and define organization-level tracked keywords and competitors to be used by conversation intelligence.
 

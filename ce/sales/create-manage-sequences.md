@@ -1,12 +1,12 @@
 ---
-title: "Sequences in sales accelerator"
+title: Create scheduled and conditional workflows with sequences
 description: "Manage sequences in sales accelerator by creating, activating, connecting, viewing details, cloning, editing, and deleting."
 ms.date: 09/02/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
 ---
-# Sequences 
+# Create scheduled and conditional workflows with sequences
 
 Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.
 

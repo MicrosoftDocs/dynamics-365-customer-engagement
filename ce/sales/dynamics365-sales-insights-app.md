@@ -1,5 +1,5 @@
 ---
-title: Conversation intelligence overview
+title: Coach sellers with conversation intelligence
 description: Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence.
 ms.date: 10/31/2022
 ms.topic: overview
@@ -8,7 +8,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ---
 
-# Conversation intelligence overview
+# Coach sellers with conversation intelligence
 
 Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your sales team and proactively coach sellers. To achieve this, conversation intelligence displays relevant key performance indicators (KPIs) and intelligent call data KPIs by team, seller, and call.
 

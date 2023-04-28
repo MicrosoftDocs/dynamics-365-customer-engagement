@@ -58,23 +58,25 @@ additionalContent:
 
       links: 
       - url: /power-platform/admin/create-environment
-        text: Environment 
+        text: Create an environment 
       - url: /power-platform/admin/grant-users-access
-        text: Users, roles, and licenses 
-      - url: sales-set-up-landing-page.yml 
-        text: Sales basics 
+        text: Grant users access 
+      - url: sales-basics-setup.md 
+        text: Set up sales basics 
   - title: Administer and develop Sales
     items:
     - title: Configure 
       links: 
       - url: enable-configure-sales-accelerator.md
-        text: Sales accelerator
+        text: Configure sales accelerator
       - url: configure-assistant.md
-        text: Sales assistant
+        text: Configure assistant
+      - url:  configure-forecast.md
+        text: Configure forecasts
       - url: enable-ri.md
-        text: Relationship intelligence
+        text: Enable relationship intelligence
       - url: fre-setup-ci-sales-app.md
-        text: Conversation intelligence
+        text: Configure conversation intelligence
     - title: Integrate
       links:
       - url: enable-teams-chat.md 
@@ -100,67 +102,62 @@ additionalContent:
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
-    - title: Lead and opportunity  
+    - title: Automate your sales force
       links: 
+      - url: Understand the sales process
+        text: nurture-sales-from-lead-order-sales.md
       - url: lead-management-overview.md
-        text: Lead management
+        text: Manage leads
       - url: opportunity-management-overview.md
-        text: Opportunity management
-      - url: ri-overview.md
-        text: Relationship intelligence
+        text: Manage opportunities
+      - url: relationship-analytics.md
+        text: View relationship analytics and KPIs
       - url: dynamics365-sales-insights-app.md
-        text: Conversation intelligence
-    - title: Quote to cash
-      links: 
-      - url: create-edit-quote-sales.md
-        text: Quote management
-      - url: Create or edit orders
-        text: Order management
-      - url: create-edit-invoice-sales.md
-        text: Invoice management
-    - title: Sales forecast
+        text: Coach sellers with conversation intelligence
+
+    - title: Forecast sales
       links: 
       - url: goals-overview.md
-        text: Goals
+        text: Define and track your sales goals
       - url: project-accurate-revenue-sales-forecasting.md
-        text: Forecasts
+        text: Project accurate revenue with sales forecasting
       - url: configure-premium-forecasting.md
-        text: Premium forecasts
-    - title: Sales accelerator
+        text: Predict future revenue outcomes using premium forecasting
+    - title: Accelerate Sales
       links: 
       - url: prioritize-sales-pipeline-through-work-list
-        text: Work lists
+        text: Prioritize sales pipeline with work lists 
       - url: manage-segments.md
-        text: Segments
-      - url: manage-sequences-seller.md
-        text: Sequences
+        text: Group records based on segments
+      - url: create-manage-sequences.md
+        text: Create scheduled and conditional workflows with sequences
 
-    - title: Collaboration
+    - title: Collaborate with customers
       links: 
       - url: email-engagement.md 
-        text: Exchange
-      - url: teams-integration\using-teams-chat-in-dynamics.md 
-        text: Teams
-      - url: collaborate-using-sharepoint-sales.md
-        text: SharePoint
+        text: Use email engagement to view message interactions
+      - url: teams-integration/using-teams-chat-in-dynamics.md 
+        text: Use Microsoft Teams chat
+      - url: /power-apps/user/collaborate-using-sharepoint
+        text: Collaborate using SharePoint
 
-    - title: Dashboard and reports
+    - title: Use dashboards and reports
       links: 
       - url: /powerapps/user/track-your-progress-with-dashboard-and-charts
-        text: Dashboards
+        text: Track progress with dashboards and charts
       - url: introduction-sales-template-apps.md
-        text: PowerBI reports
+        text: Analyze your sales data by using Power BI 
       - url: view-understand-sales-usage-reports.md
-        text: Sales usage reports
+        text: View operational metrics and KPIs
 
-    - title: Sales mobile app
+    - title: Go mobile
       links: 
       - url: /sales-mobile/prereq-sales-mobile
         text: Prepare for use
-      - url: /sales-mobile/dynamics-365-sales-mobile-app
-        text: Sales mobile app
+      - url: sales-mobile/use-sales-mobile-app.md
+        text: Use the Dynamics 365 Sales mobile app 
       - url: use-sales-hub-on-dynamics-365-mobile
-        text: Dynamics 365 for phones and tablets app
+        text: Use the Dynamics 365 for phones and tablets app
 
   - title: Related products
     items:
