@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot issues with automatic record creation | Microsoft Docs
 description: See how you can fix an issue converting an email to a case in Dynamics 365 Customer Service
-ms.date: 04/27/2023
+ms.date: 04/28/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -135,20 +135,19 @@ You must validate the configuration and validation steps given in the following 
 |Create a case for activities associated with a resolved case     |    Yes     |   For an incoming email related to a resolved case      |    A case is created     |
 |   |    Yes      |   For an incoming email related to an active case         |   No case is created      |
 |  |         |         |         |
- 
+
 
 ## Use of {Regarding(Email)} in legacy experience doesn't give the correct data in flow
 
-Use of {Regarding(Email)} in legacy experience doesn't give the correct data in flow.
+Use of **{Regarding(Email)}** value in legacy experience doesn't give the correct data in flow.
 
 ### Reason
 
+Flow doesn't use the **{Regarding(Email)}** value like legacy workflow because flow expressions reference a data value from one of the previous flow steps payload. For example, if the **{Regarding(Email)}** value is empty when the flow begins, the value in the trigger step payload for **{Regarding(Email)}** will remain empty. Even if the **{Regarding(Email)}** value gets updated after case creation, the email record data gets updated but the payload in flow doesn't. So, when the value from the payload is referenced in the subsequent flow steps, it remains empty.
 
 ### Resolution
 
-If the {Regarding(Email)} expression is used in legacy rule items, then you must manually update the migrated flow to use the incidentid or odataid.
-
-Use Odata id for fields that require entity reference or lookups. Use Case unique identifier for fields that requires GUID.
+If the **{Regarding(Email)}** value is used in legacy rule items, you need to manually update the migrated flow to use the incidentid or Odata id. Use the Odata id for fields that require entity reference or lookups. Use the Case unique identifier for fields that require GUID.
 
 ## See also
 
