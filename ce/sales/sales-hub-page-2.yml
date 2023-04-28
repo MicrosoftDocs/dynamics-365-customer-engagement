@@ -79,16 +79,16 @@ additionalContent:
         text: Configure conversation intelligence
     - title: Integrate
       links:
-      - url: enable-teams-chat.md 
-        text: Microsoft Teams
-      - url: /power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks
-        text: Exchange
+      - url: /teams-integration/enable-teams-chat.md 
+        text: Configure Teams chat
+      - url: /power-platform/admin/connect-exchange-online
+        text: Connect to Exchange Online
       - url: /power-platform/admin/enable-onedrive-for-business
-        text: OneDrive
+        text: Enable OneDrive for Business
       - url: connect-with-sharepoint.md
-        text: Sharepoint
+        text: Integrate with Sharepoint
       - url: install-lsi-solution.md
-        text: LinkedIn
+        text: Install LinkedIn Sales Insights solution
 
     - title: Developer reference
       links: 
@@ -164,7 +164,7 @@ additionalContent:
         # Card
         
         - title: Viva Sales
-          summary: Viva Sales is a seller experience application that lets sellers use Microsoft 365 applications to automatically capture, access, and register data into any CRM system, eliminating the administrative burden of manual data entry, giving more time to focus on selling.
+          summary: Use Microsoft 365 applications to automatically capture, access, and register data into any CRM system. 
           url: /Viva/sales/introduction
         - title: Customer Insights
           summary: Connect data from various transactional, behavioral, and observational sources to create a 360-degree customer view.
