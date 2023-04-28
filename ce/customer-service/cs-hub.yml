@@ -85,14 +85,6 @@ additionalContent:
         text: Live chat SDK Reference
   - title: Use Customer Service
     items:
-    - title: Apps and Personas
-      links:
-      - url: /dynamics365/customer-service/cs-admin-center
-        text: Use Customer Service admin center
-      - url: /dynamics365/customer-service/csw-overview?tabs=customerserviceadmincenter
-        text: Use Customer Service workspace
-      - url: /dynamics365/customer-service/customer-service-team-member
-        text: Use Customer Service Team Member 
     - title: Manage cases
       links:
       - url: /dynamics365/customer-service/customer-service-hub-user-guide-create-a-case
@@ -135,26 +127,90 @@ additionalContent:
         text: View the agent calendar
       - url: /dynamics365/customer-service/create-personal-quick-replies
         text: Create personal quick replies
-    - title: 
+    - title: Use analytics and insights 
       links:
-      - url:
-        text:
-      - url:
-        text:
-      - url:
-        text:
-      - url:
-        text:
-    - title: 
+      - url: /dynamics365/customer-service/configure-customer-service-analytics-insights-csh
+        text: Configure and use analytics and insights dashboards 
+      - url: /dynamics365/customer-service/intro-realtime-analytics-dashboard
+        text: Use Omnichannel real-time analytics dashboards 
+      - url: /dynamics365/customer-service/manage-bookmarks
+        text: Personalize analytics 
+      - url: /dynamics365/customer-service/customize-reports
+        text: Customize analytics 
+    - title: Use email 
       links:
-      - url:
-        text:
-      - url:
-        text:
-      - url:
-        text:
-      - url:
-        text:
+      - url: /power-apps/user/view-create-email?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
+        text: Use email to interact consistently with customers 
+      - url: /power-apps/user/email-template-create?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
+        text: Create an email template in model-driven apps 
+      - url: /power-apps/user/email-dynamic-text?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
+        text: Personalize emails with dynamic text 
+      - url: /power-apps/user/email-signature?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
+        text: Use an email signature 
+    - title: Use timeline
+      links:
+      - url: /power-apps/user/add-activities
+        text: Manage conversations and activities on the timeline
+    - title: Use knowledge management
+      links:
+      - url: /dynamics365/customer-service/set-up-knowledge-management-embedded-knowledge-search?tabs=customerserviceadmincenter
+        text: Configure and use knowledge management 
+      - url: /dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article
+        text: Create and manage knowledge articles 
+      - url: /dynamics365/customer-service/search-knowledge-articles-csh
+        text: Search and use knowledge articles
+      - url: /dynamics365/customer-service/add-search-provider
+        text: View knowledge article search results using integrated search providers 
+    - title: Use voice channel
+      links:
+      - url: /dynamics365/customer-service/voice-channel-agent-experience
+        text: Use agent dashboard and call controls 
+      - url: /dynamics365/customer-service/manage-voicemails
+        text: Manage voicemails 
+      - url: /dynamics365/customer-service/voice-channel-transfer-consult
+        text: Transfer calls and consult with users in the voice channel 
+    - title: Use Microsoft Teams for collaboration
+      links:
+      - url: /dynamics365/customer-service/use-teams-chat
+        text: Use Microsoft Teams chat 
+      - url: /dynamics365/customer-service/use-teams-meetings
+        text: Use Teams meetings 
+      - url: /dynamics365/customer-service/use-customer-support-swarming
+        text: Use customer support swarming to resolve issues
+    - title: Use AI capabilities
+      links:
+      - url: /dynamics365/customer-service/csw-view-ai-suggested-cases-knowledge-articles
+        text: View AI-suggested similar cases and knowledge articles 
+      - url: /dynamics365/customer-service/teams-use-suggested-contacts
+        text: Use suggested contacts
+      - url: /dynamics365/customer-service/cs-ai-generated-summary
+        text: Use auto-summarization for ongoing conversations
+      - url: /dynamics365/customer-service/use-ai-suggested-contacts-teams
+        text: Collaborate with AI-suggested contacts in Microsoft Teams
+    - title: Use service-level agreements
+      links:
+      - url: /dynamics365/customer-service/define-service-level-agreements?tabs=customerserviceadmincenter
+        text: Configure and use SLAs 
+      - url: /dynamics365/customer-service/create-customer-service-schedule-define-work-hours?tabs=customerserviceadmincenter
+        text: Manage customer service schedules for SLAs 
+      - url: /dynamics365/customer-service/export-import-solution?tabs=customerserviceadmincenter
+        text: Export and import a solution with SLAs 
+      - url: /dynamics365/customer-service/apply-slas?tabs=customerserviceadmincenter
+        text: Apply and use SLAs
+    - title: Add-in solutions  
+      links: 
+      - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
+        text: Unified Service Desk
+      - url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
+        text: Channel Integration Framework
+    - title: Apps and personas
+      links:
+      - url: /dynamics365/customer-service/cs-admin-center
+        text: Use Customer Service admin center
+      - url: /dynamics365/customer-service/csw-overview?tabs=customerserviceadmincenter
+        text: Use Customer Service workspace
+      - url: /dynamics365/customer-service/customer-service-team-member
+        text: Use Customer Service Team Member 
   - title: Related products
     items:
         # Card
