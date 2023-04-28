@@ -115,7 +115,8 @@ additionalContent:
         text: Configure work classification rulesets
       - url: /dynamics365/customer-service/configure-assignment-rules?tabs=customerserviceadmincenter
         text: Configure assignment methods for queues
-      - url: Manage case queues and route cases
+      - url: /dynamics365/customer-service/customer-service-hub-user-guide-case-queues-and-routing
+        text: Manage case queues and route cases
     - title: Use chat, channels in Omnichannel for Customer Service
       links:
       - url: /dynamics365/customer-service/oc-introduction-agent-interface
