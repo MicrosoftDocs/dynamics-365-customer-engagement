@@ -28,9 +28,6 @@ If you add the **Attachment Control** component to a case form, the following ac
 
 When you add the **Attachment Control** component to other entity forms such as Account or Customer,for an existing record, agents can view and download the attachments uploaded through notes and email on the **Attachments** tab.
 
-> [!NOTE]
-> Agents can't view attachments for a new record and the **Attachments** tab displays a warning message. 
-
 ## Customize forms with Attachment Control
 
 On the required form, add the **Attachment Control** component.  More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form). If you add the component to a case form, the following properties are available for further customization:
