@@ -2,7 +2,6 @@
 title:  Dynamics 365 Sales
 summary:  Dynamics 365 Sales enables salespeople to build strong relationships with their customers, take actions based on insights, and close deals faster.
 brand: dynamics
-
 metadata:
   title: Dynamics 365 Sales 
   description: Dynamics 365 Sales enables salespeople to build strong relationships with their customers, take actions based on insights, and close deals faster.
@@ -30,7 +29,7 @@ highlightedContent:
     # Card
     - title: Troubleshoot
       itemType: concept
-      url: troubleshooting.md
+      url: ../troubleshoot/dynamics-365/sales/welcome-sales
       
 additionalContent: 
   sections:
@@ -102,7 +101,7 @@ additionalContent:
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
-    - title: Automate your sales force
+    - title: Manage your sales cycle
       links: 
       - url: nurture-sales-from-lead-order-sales.md
         text: Understand the sales process 
