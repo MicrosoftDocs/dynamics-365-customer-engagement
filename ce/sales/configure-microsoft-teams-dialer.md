@@ -1,12 +1,12 @@
 ---
-title: "Configure Microsoft Teams dialer in Dynamics 365 Sales | MicrosoftDocs"
-description: "Learn how to configure Microsoft Teams dialer in Dynamics 365 Sales."
-ms.date: 02/21/2023
-ms.topic: article
+title: Configure Microsoft Teams dialer in Dynamics 365 Sales
+description: Learn how to configure Microsoft Teams dialer in Dynamics 365 Sales.
+ms.date: 04/29/2023
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.custom: 
-  - dyn365-sales
+ms.collection:
+ms.custom: bap-template
 ---
 # Configure Microsoft Teams dialer
 
@@ -80,7 +80,7 @@ Ensure that you meet the following requirements before you configure Microsoft T
     | Option | Description |
     |--------|-------------|
     | All security roles | Allows all the security roles to access Microsoft Teams dialer. |
-    | Specific security roles | Allows only the selected security roles to access Microsoft Teams dialer.<br>**Note**:<br> - Ensure that the security roles you’ve selected are associated with the root business unit (top level in the business unit hierarchy). If not, the users will not see the Teams dialer in the Sales Hub app. More information: [Create or edit business units](/power-platform/admin/create-edit-business-units)|
+    | Specific security roles | Allows only the selected security roles to access Microsoft Teams dialer.<br>**Note**:<br> - Ensure that the security roles you've selected are associated with the root business unit (top level in the business unit hierarchy). If not, the users will not see the Teams dialer in the Sales Hub app. More information: [Create or edit business units](/power-platform/admin/create-edit-business-units)|
 
 7.	Select **Advanced options**, and in the **Select app** drop-down list, select the apps in which you want to make the dialer available. By default, **Sales Hub** is selected.  
     

@@ -1,12 +1,12 @@
 ---
-title: "Make and receive Teams calls in Dynamics 365"
-description: "Make and receive Teams calls in Dynamics 365 through the dialer, a record, or a work item."
-ms.date: 04/25/2023
-ms.topic: article
+title: Make and receive Teams calls in Dynamics 365
+description: Make and receive Teams calls in Dynamics 365 through the dialer, from a record or a work item.
+ms.date: 04/29/2023
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.custom: 
-  - dyn365-sales
+ms.custom: bap-template 
+ms.collection:
 ---
 
 # Make and receive Teams calls in Dynamics 365  
