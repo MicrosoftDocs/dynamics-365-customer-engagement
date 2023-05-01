@@ -21,7 +21,7 @@ Using multiple environments allows customers to maintain separate configurations
 
 The migration of triggers between environments is a key process that ensures customers are using the most recent and updated version of the triggers in the right places. The trigger definition is typically exported from the source to target environment during the migration process. By moving triggers between environments, customers can reduce the possibility of issues occurring while deploying to production. It also allows customers to test triggers in a development environment before moving them to production.
 
-[Power Platform solutions](transfer-solution.md) are THE mechanism for implementing ALM by defining how code and metadata are packaged for transportation from one environment to another. Solutions include components such as entities, segments, journeys, connectors, flows, and forms but do not include customer data by default. For ALM support, Dynamics 365 features must be built as "Solution-Aware," with entities modeled as solution components, and dependencies known to Dataverse, so they can be resolved during import. Furthermore, environment-specific data, including usage data, is excluded from the solution, allowing for a more streamlined and efficient ALM process. By utilizing Solutions, Dynamics 365 customers can achieve better control over their system's configuration, reduce errors, and ensure consistency across environments, ultimately improving the user experience.
+[Power Platform solutions](transfer-solution.md) are THE mechanism for implementing ALM by defining how code and metadata are packaged for transportation from one environment to another. Solutions include components such as entities, segments, journeys, connectors, flows, and forms but don't include customer data by default. For ALM support, Dynamics 365 features must be built as "Solution-Aware," with entities modeled as solution components, and dependencies known to Dataverse, so they can be resolved during import. Furthermore, environment-specific data, including usage data, is excluded from the solution, allowing for a more streamlined and efficient ALM process. By utilizing Solutions, Dynamics 365 customers can achieve better control over their system's configuration, reduce errors, and ensure consistency across environments, ultimately improving the user experience.
 
 Customers can move triggers in **any** state between environments (draft or published or stopped). To do so, follow the steps highlighted below:
 1. Open Power Platform Solutions for your current source environment
@@ -48,9 +48,9 @@ Customers can move triggers in **any** state between environments (draft or publ
 4. Add only your ‘trigger’ records to the solution. (**Component Type: Trigger**)
 a. This can be done by using the following steps:
 
-    i. Click on ‘Add existing’ dropdown on the top pane of the page.
+    i. Select on ‘Add existing’ dropdown on the top pane of the page.
     
-    ii. Click on ‘More’> ’Other’>‘Triggers’.
+    ii. Select on ‘More’> ’Other’>‘Triggers’.
 
     iii. Search for the trigger using the search functionality and click ‘Add’ once you find the relevant record.
 
@@ -61,7 +61,7 @@ a. This can be done by using the following steps:
 |     Draft    |     Trigger record, CustomerAPI record & CatalogAssignment record    |
 |     Published    |     Trigger record, CustomAPI record, CatalogAssignment record and customAPIrequestparameter records    |
 
-6. Once done, you are now ready to migrate the solution to the destination environment.
+6. Once done, you're now ready to migrate the solution to the destination environment.
 7. To migrate the solution, you need to export it – To do this, follow the below steps:
 
     a. Select ‘Export Solution’
@@ -82,7 +82,7 @@ a. This can be done by using the following steps:
 
 10. Once there, use Steps 1,2 and 3 to navigate to the ‘Solutions’ page on the Power Apps portal where the solution can be imported.
 
-11. Once done, click on ‘Import Solution’ to be able to upload the managed solution that was downloaded from the source environment.
+11. Once done, select on ‘Import Solution’ to be able to upload the managed solution that was downloaded from the source environment.
 
 12. Now – Navigate to the target environment to check the triggers that are imported:
 
@@ -97,31 +97,31 @@ Solution upgrades will only change the state of the triggers when the triggers i
 |     Trigger state at   destination    |     State of trigger post solution upgrade    |
 |---|---|
 |     Published    |     Does not change –Trigger continues to remain in published state irrespective of the state of trigger from upgraded solution     |
-|     Draft    |     State transition is allowed – The trigger’s state will change to the state of the trigger that is brought over from the source environment during solution upgrade    |
+|     Draft    |     State transition is allowed – The trigger’s state changes to the state of the trigger that is brought over from the source environment during solution upgrade    |
 |     Stopped    |     Does not change – Trigger continues to remain in Stopped state irrespective of the state of the trigger from upgraded solution    |
 
 Common Questions:
 1. Can I import more than one trigger per solution?
 
-  Yes – You can import any number of triggers per solution. At the destination, triggers that were imported in published state will transition from ‘publishing’ state to ‘published’ state over a few minutes.
+  Yes – You can import any number of triggers per solution. At the destination, triggers that were imported in published state transitions from ‘publishing’ state to ‘published’ state over a few minutes.
 1. Do all triggers in a solution need to be in the same state when migrating?
 
-No – The user can choose which state to import triggers on. The state of the triggers are retained at the destination.
+No – The user can choose which state to import triggers on. The state of the trigger is retained at the destination.
 1. My trigger kicks of a Power Automate flow. Will the PA flow also be automatically added to the solution as a dependency once I add the trigger?
 
-No – This is not the case. If you have a PA flow that is started based on the trigger, then please do ensure that you are adding it to the solution along with the trigger record to ensure consistency and ease of use at the destination.
+No – This isn't the case. If you have a PA flow that is started based on the trigger, then please do ensure that you're adding it to the solution along with the trigger record to ensure consistency and ease of use at the destination.
 1. I want to move a custom trigger that is already integrated on my website. Are there some caveats that I need to know about?
 
 Migrating custom triggers is different from other trigger migration. Custom triggers typically have a code snippet that needs to be instrumented to the website to start tracking customer action. These code snippets contain an ingestion key that is associated only with the environment where the trigger has been created. 
 
-So, when customers migrate custom triggers between environments, in the ALM process using Power Platform Solutions, we do not migrate the ingestion key, but rather, use the ingestion key for the destination organization as the key for the imported trigger. 
+So, when customers migrate custom triggers between environments, in the ALM process using Power Platform Solutions, we don't migrate the ingestion key, but rather, use the ingestion key for the destination organization as the key for the imported trigger. 
 
 This ingestion key in the destination org will be different from the one for the source environment. Hence, this necessitates the user to re-instrument the code snippet where needed once the migration of the trigger is complete.
-1. I migrated a trigger to my destination organization using a managed solution. Now, I do not think this is what I need, and I want to delete it. But the delete button has been greyed out. What do I do?
+1. I migrated a trigger to my destination organization using a managed solution. Now, I don't think this is what I need, and I want to delete it. But the delete button has been greyed out. What do I do?
 
-Managed triggers cannot be deleted from the UI. The reason for this is to account for the dependencies and ensure that we do not leave back any orphan dependencies after deleting the trigger. Hence, a user who wants to delete a managed trigger can only via deleting the managed solution while all the triggers in the solution are in draft state.
+Managed triggers can't be deleted from the UI. The reason for this is to account for the dependencies and ensure that we don't leave back any orphan dependencies after deleting the trigger. Hence, a user who wants to delete a managed trigger can only via deleting the managed solution while all the triggers in the solution are in draft state.
 
-If the solution contains other components that you do not want removed, then the managed trigger can instead be deleted via upgrade to a new solution version that does not contain the managed trigger (and its related records when the trigger was added to the solution) but still contains the other components. The trigger intended to be deleted by this upgrade must be in draft state.
+If the solution contains other components that you don't want removed, then the managed trigger can instead be deleted via upgrade to a new solution version that doesn't contain the managed trigger (and its related records when the trigger was added to the solution) but still contains the other components. The trigger intended to be deleted by this upgrade must be in draft state.
 1. Can I migrate a combination of triggers and Power Automate flows in the same solution?
 
 Yes – you should be able to move more than just triggers in the solution between the source and destination environments.
