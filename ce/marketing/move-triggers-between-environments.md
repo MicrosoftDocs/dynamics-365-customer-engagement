@@ -62,19 +62,19 @@ a. This can be done by using the following steps:
 |     Published    |     Trigger record, CustomAPI record, CatalogAssignment record and customAPIrequestparameter records    |
 
 6. Once done, you're now ready to migrate the solution to the destination environment.
-7. To migrate the solution, you need to export it – To do this, follow the below steps:
+7. To migrate the solution, you need to export it – To do this, follow the below steps: 
 
-    a. Select ‘Export Solution’
+- Select ‘Export Solution’
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of exporting a solution to start migration](media/export-solution.png "Screenshot of exporting a solution to start migration")
 
-    b. Ensure that the solution is exported as ‘Managed’
+- Ensure that the solution is exported as ‘Managed’
 
 > [!div class="mx-imgBorder"]
 > ![Make sure to select the recommended solution as managed solution](media/managed-solution-to-export.png "Make sure to select the recommended solution as managed solution")
 
-    c. Select ‘Export’ – depending on the number of triggers in the solution, it takes a few minutes for the Solution to be ready to download.
+- Select ‘Export’ – depending on the number of triggers in the solution, it takes a few minutes for the Solution to be ready to download.
 
 8. Once done, download your managed solution
 
@@ -100,35 +100,42 @@ Solution upgrades will only change the state of the triggers when the triggers i
 |     Draft    |     State transition is allowed – The trigger’s state changes to the state of the trigger that is brought over from the source environment during solution upgrade    |
 |     Stopped    |     Does not change – Trigger continues to remain in Stopped state irrespective of the state of the trigger from upgraded solution    |
 
-Common Questions:
+## Common Questions:
 1. Can I import more than one trigger per solution?
 
-  Yes – You can import any number of triggers per solution. At the destination, triggers that were imported in published state transitions from ‘publishing’ state to ‘published’ state over a few minutes.
-1. Do all triggers in a solution need to be in the same state when migrating?
+    Yes – You can import any number of triggers per solution. At the destination, triggers that were imported in published state will transition from ‘publishing’ state to ‘published’ state over a few minutes.
 
-No – The user can choose which state to import triggers on. The state of the trigger is retained at the destination.
-1. My trigger kicks of a Power Automate flow. Will the PA flow also be automatically added to the solution as a dependency once I add the trigger?
+2. Do all triggers in a solution need to be in the same state when migrating?
 
-No – This isn't the case. If you have a PA flow that is started based on the trigger, then please do ensure that you're adding it to the solution along with the trigger record to ensure consistency and ease of use at the destination.
-1. I want to move a custom trigger that is already integrated on my website. Are there some caveats that I need to know about?
+    No – The user can choose which state to import triggers on. The state of the triggers are retained at the destination.
 
-Migrating custom triggers is different from other trigger migration. Custom triggers typically have a code snippet that needs to be instrumented to the website to start tracking customer action. These code snippets contain an ingestion key that is associated only with the environment where the trigger has been created. 
+3. My trigger kicks of a Power Automate flow. Will the PA flow also be automatically added to the solution as a dependency once I add the trigger?
 
-So, when customers migrate custom triggers between environments, in the ALM process using Power Platform Solutions, we don't migrate the ingestion key, but rather, use the ingestion key for the destination organization as the key for the imported trigger. 
+    No – This is not the case. If you have a PA flow that is started based on the trigger, then please do ensure that you are adding it to the solution along with the trigger record to ensure consistency and ease of use at the destination.
 
-This ingestion key in the destination org will be different from the one for the source environment. Hence, this necessitates the user to re-instrument the code snippet where needed once the migration of the trigger is complete.
-1. I migrated a trigger to my destination organization using a managed solution. Now, I don't think this is what I need, and I want to delete it. But the delete button has been greyed out. What do I do?
+4.	I want to move a custom trigger that is already integrated on my website. Are there some caveats that I need to know about?
 
-Managed triggers can't be deleted from the UI. The reason for this is to account for the dependencies and ensure that we don't leave back any orphan dependencies after deleting the trigger. Hence, a user who wants to delete a managed trigger can only via deleting the managed solution while all the triggers in the solution are in draft state.
+    - Migrating custom triggers is different from other trigger migration. Custom triggers typically have a code snippet that needs to be instrumented to the website to start tracking customer action. These code snippets contain an ingestion key that is associated only with the environment where the trigger has been created. 
 
-If the solution contains other components that you don't want removed, then the managed trigger can instead be deleted via upgrade to a new solution version that doesn't contain the managed trigger (and its related records when the trigger was added to the solution) but still contains the other components. The trigger intended to be deleted by this upgrade must be in draft state.
-1. Can I migrate a combination of triggers and Power Automate flows in the same solution?
+    - So, when customers migrate custom triggers between environments, in the ALM process using Power Platform Solutions, we do not migrate the ingestion key, but rather, use the ingestion key for the destination organization as the key for the imported trigger. 
 
-Yes – you should be able to move more than just triggers in the solution between the source and destination environments.
-1. I imported many triggers in my solution in published state. In the destination environment, I can see that some of them have come through in a published state while the others are showing up in a draft state. Is this an error?
+    - This ingestion key in the destination org will be different from the one for the source environment. Hence, this necessitates the user to re-instrument the code snippet where needed once the migration of the trigger is complete.
 
-When a set of triggers are imported in published state to the destination environment, they go through the process of publishing (a process that happens sequentially, a few triggers at a time). During that period, the triggers that are waiting in line to get published will display that they are in a ‘draft’ state for a short period of time on initial import before transitioning to ‘publishing’ state and finally ‘published/Ready to Use’ state.
+5.	I migrated a trigger to my destination organization using a managed solution. Now, I do not think this is what I need, and I want to delete it. But the delete button has been greyed out. What do I do?
 
-If triggers are in a ‘draft’ state for a long period of time, then this might indicate an issue. At this time, the users can do either of two things:
-    - Self-serve – One way to circumvent a potential issue where customers see that imported ‘published’ triggers are in ‘draft’ state for an extended period is to do a solution upgrade and reimport the trigger again. 
-    - Reach out to your Microsoft representative – Open a support ticket with the Microsoft support team to have one of the engineers investigate this issue and provide additional mitigation solutions.
+- Managed triggers cannot be deleted from the UI. The reason for this is to account for the dependencies and ensure that we do not leave back any orphan dependencies after deleting the trigger. Hence, a user who wants to delete a managed trigger can only via deleting the managed solution while all the triggers in the solution are in draft state.
+
+- If the solution contains other components that you do not want removed, then the managed trigger can instead be deleted via upgrade to a new solution version that does not contain the managed trigger (and its related records when the trigger was added to the solution) but still contains the other components. The trigger intended to be deleted by this upgrade must be in draft state.
+
+7.	Can I migrate a combination of triggers and Power Automate flows in the same solution?
+
+    Yes – you should be able to move more than just triggers in the solution between the source and destination environments.
+
+8.	I imported many triggers in my solution in published state. In the destination environment, I can see that some of them have come through in a published state while the others are showing up in a draft state. Is this an error?
+
+    When a set of triggers are imported in published state to the destination environment, they go through the process of publishing (a process that happens sequentially, a few triggers at a time). During that period, the triggers that are waiting in line to get published will display that they are in a ‘draft’ state for a short period of time on initial import before transitioning to ‘publishing’ state and finally ‘published/Ready to Use’ state.
+
+    - If triggers are in a ‘draft’ state for a long period of time, then this might indicate an issue. At this time, the users can do either of two things:
+
+        - Self-serve – One way to circumvent a potential issue where customers see that imported ‘published’ triggers are in ‘draft’ state for an extended period is to do a solution upgrade and reimport the trigger again. 
+        - Reach out to your Microsoft representative – Open a support ticket with the Microsoft support team to have one of the engineers investigate this issue and provide additional mitigation solutions.
