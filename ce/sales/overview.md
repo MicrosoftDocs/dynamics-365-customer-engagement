@@ -17,7 +17,7 @@ Welcome to Dynamics 365 Sales! Dynamics 365 Sales enables salespeople to build s
 
 Here's a short video to help you understand the power of using Dynamics 365 Sales in your organization:
 
-:::video source="https://www.microsoft.com/en-us/videoplayer/embed/RE4AC4d?maskLevel=0":::
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AC4d]
 
 [!INCLUDE [cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
@@ -69,7 +69,7 @@ The Sales Professional app is similar to the Sales Hub app, but the entities inc
 
 Here's a short video to help you understand how Dynamics 365 Sales Professional can transform your sales organization:
 
-:::video source="https://www.microsoft.com/videoplayer/embed/RE2OJXb":::
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2OJXb]
 
 ## Compare solutions
 
@@ -136,7 +136,7 @@ Build relationships with customers using information from LinkedIn and relations
 
 - **Identify customers who need attention:** Track relationships with a single score based on signals from Dynamics 365 and Microsoft 365 that reveal relationship health and risks.
   - Administrator: [Configure relationship analytics and health](configure-relationship-analytics.md)
-  - Seller: [Use relationship analytics to gather KPIs](relationship-analytics.mdP)
+  - Seller: [Use relationship analytics to gather KPIs](relationship-analytics.md)
 
 ### Collaborate seamlessly
 
