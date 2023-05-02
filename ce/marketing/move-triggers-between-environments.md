@@ -26,67 +26,64 @@ The migration of triggers between environments is a key process that ensures cus
 Customers can move triggers in **any** state between environments (draft or published or stopped). To do so, follow the steps highlighted below:
 1. Open Power Platform Solutions for your current source environment
  
-> [!div class="mx-imgBorder"]
-> ![Screenshot of how to open a power platform](media/power-platform-opening-step.png "Screenshot of how to open a power platform")
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of how to open a power platform](media/power-platform-opening-step.png "Screenshot of how to open a power platform")
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of selecting a Power App from dashboard](media/select-power-app.png "Screenshot of selecting a Power App from dashboard")
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of selecting a Power App from dashboard](media/select-power-app.png "Screenshot of selecting a Power App from dashboard")
 
-> [!IMPORTANT]
-> Ensure that the environment for the Power Apps is the same as the one that you are currently working on (the one that has the triggers to migrate)
+    > [!IMPORTANT]
+    > Ensure that the environment for the Power Apps is the same as the one that you are currently working on (the one that has the triggers to migrate)
 
-2. Select the ‘**Solutions**’ on the left pane and select ‘**+New Solution**’.
+1. Select the ‘**Solutions**’ on the left pane and select ‘**+New Solution**’.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of selecting the solutions tab to create a new solution](media/solutions-tab.png "Screenshot of selecting the solutions tab to create a new solution")
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of selecting the solutions tab to create a new solution](media/solutions-tab.png "Screenshot of selecting the solutions tab to create a new solution")
 
-3. Name your solution and select publisher – Make sure that the solution has a unique name that highlights the trigger or triggers that will be added.
+1. Name your solution and select publisher – Make sure that the solution has a unique name that highlights the trigger or triggers that will be added.
 
-> [!div class="mx-imgBorder"]
-> ![Fill in the details for new solution creation](media/name-your-solution.png "Fill in the details for new solution creation")
+    > [!div class="mx-imgBorder"]
+    > ![Fill in the details for new solution creation](media/name-your-solution.png "Fill in the details for new solution creation")
 
-4. Add only your ‘trigger’ records to the solution. (**Component Type: Trigger**)
-a. This can be done by using the following steps:
+1. Add only your ‘trigger’ records to the solution. (**Component Type: Trigger**)
+    - This can be done by using the following steps:
+        1. Select on ‘Add existing’ dropdown on the top pane of the page.
+        1. Select on ‘More’> ’Other’>‘Triggers’.
+        1. Search for the trigger using the search functionality and click ‘Add’ once you find the relevant record.
 
-    i. Select on ‘Add existing’ dropdown on the top pane of the page.
-    
-    ii. Select on ‘More’> ’Other’>‘Triggers’.
+1. Adding the trigger records should add the following records to your solution as well:
 
-    iii. Search for the trigger using the search functionality and click ‘Add’ once you find the relevant record.
+    |     Trigger State    |     Components added    |
+    |---|---|
+    |     Draft    |     Trigger record, CustomerAPI record & CatalogAssignment record    |
+    |     Published    |     Trigger record, CustomAPI record, CatalogAssignment record and customAPIrequestparameter records    |
 
-5. Adding the trigger records should add the following records to your solution as well:
+1. Once done, you're now ready to migrate the solution to the destination environment.
+1. To migrate the solution, you need to export it – To do this, follow the below steps: 
 
-|     Trigger State    |     Components added    |
-|---|---|
-|     Draft    |     Trigger record, CustomerAPI record & CatalogAssignment record    |
-|     Published    |     Trigger record, CustomAPI record, CatalogAssignment record and customAPIrequestparameter records    |
+    - Select ‘Export Solution’
 
-6. Once done, you're now ready to migrate the solution to the destination environment.
-7. To migrate the solution, you need to export it – To do this, follow the below steps: 
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of exporting a solution to start migration](media/export-solution.png "Screenshot of exporting a solution to start migration")
 
-- Select ‘Export Solution’
+    - Ensure that the solution is exported as ‘Managed’
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of exporting a solution to start migration](media/export-solution.png "Screenshot of exporting a solution to start migration")
+    > [!div class="mx-imgBorder"]
+    > ![Make sure to select the recommended solution as managed solution](media/managed-solution-to-export.png "Make sure to select the recommended solution as managed solution")
 
-- Ensure that the solution is exported as ‘Managed’
+    - Select ‘Export’ – depending on the number of triggers in the solution, it takes a few minutes for the Solution to be ready to download.
 
-> [!div class="mx-imgBorder"]
-> ![Make sure to select the recommended solution as managed solution](media/managed-solution-to-export.png "Make sure to select the recommended solution as managed solution")
+1. Once done, download your managed solution
 
-- Select ‘Export’ – depending on the number of triggers in the solution, it takes a few minutes for the Solution to be ready to download.
+1. Now, navigate to the destination environment where you want to import the Solution and the triggers.
 
-8. Once done, download your managed solution
+1. Once there, use Steps 1,2 and 3 to navigate to the ‘Solutions’ page on the Power Apps portal where the solution can be imported.
 
-9. Now, navigate to the destination environment where you want to import the Solution and the triggers.
+1. Once done, select on ‘Import Solution’ to be able to upload the managed solution that was downloaded from the source environment.
 
-10. Once there, use Steps 1,2 and 3 to navigate to the ‘Solutions’ page on the Power Apps portal where the solution can be imported.
+1. Now, navigate to the target environment to check the triggers that are imported.
 
-11. Once done, select on ‘Import Solution’ to be able to upload the managed solution that was downloaded from the source environment.
-
-12. Now – Navigate to the target environment to check the triggers that are imported:
-
-    a. The state of the trigger is retained from the source environment - 
+    - The state of the trigger is retained from the source environment - 
     draft triggers will be imported in draft state – Published triggers will be imported in published state – Stopped triggers will be imported in draft state.
 
 ## Solution Upgrade Experience 
@@ -101,19 +98,20 @@ Solution upgrades will only change the state of the triggers when the triggers i
 |     Stopped    |     Does not change – Trigger continues to remain in Stopped state irrespective of the state of the trigger from upgraded solution    |
 
 ## Common Questions:
+
 1. Can I import more than one trigger per solution?
 
-    Yes – You can import any number of triggers per solution. At the destination, triggers that were imported in published state will transition from ‘publishing’ state to ‘published’ state over a few minutes.
+    **Yes**. You can import any number of triggers per solution. At the destination, triggers that were imported in published state will transition from ‘publishing’ state to ‘published’ state over a few minutes.
 
-2. Do all triggers in a solution need to be in the same state when migrating?
+1. Do all triggers in a solution need to be in the same state when migrating?
 
-    No – The user can choose which state to import triggers on. The state of the triggers are retained at the destination.
+    **No**. The user can choose which state to import triggers on. The state of the triggers are retained at the destination.
 
-3. My trigger kicks of a Power Automate flow. Will the PA flow also be automatically added to the solution as a dependency once I add the trigger?
+1. My trigger kicks of a Power Automate flow. Will the PA flow also be automatically added to the solution as a dependency once I add the trigger?
 
-    No – This is not the case. If you have a PA flow that is started based on the trigger, then please do ensure that you are adding it to the solution along with the trigger record to ensure consistency and ease of use at the destination.
+    **No**. This is not the case. If you have a PA flow that is started based on the trigger, then please do ensure that you are adding it to the solution along with the trigger record to ensure consistency and ease of use at the destination.
 
-4.	I want to move a custom trigger that is already integrated on my website. Are there some caveats that I need to know about?
+1. I want to move a custom trigger that is already integrated on my website. Are there some caveats that I need to know about?
 
     - Migrating custom triggers is different from other trigger migration. Custom triggers typically have a code snippet that needs to be instrumented to the website to start tracking customer action. These code snippets contain an ingestion key that is associated only with the environment where the trigger has been created. 
 
@@ -121,17 +119,17 @@ Solution upgrades will only change the state of the triggers when the triggers i
 
     - This ingestion key in the destination org will be different from the one for the source environment. Hence, this necessitates the user to re-instrument the code snippet where needed once the migration of the trigger is complete.
 
-5.	I migrated a trigger to my destination organization using a managed solution. Now, I do not think this is what I need, and I want to delete it. But the delete button has been greyed out. What do I do?
+1. I migrated a trigger to my destination organization using a managed solution. Now, I do not think this is what I need, and I want to delete it. But the delete button has been greyed out. What do I do?
 
-- Managed triggers cannot be deleted from the UI. The reason for this is to account for the dependencies and ensure that we do not leave back any orphan dependencies after deleting the trigger. Hence, a user who wants to delete a managed trigger can only via deleting the managed solution while all the triggers in the solution are in draft state.
+    - Managed triggers cannot be deleted from the UI. The reason for this is to account for the dependencies and ensure that we do not leave back any orphan dependencies after deleting the trigger. Hence, a user who wants to delete a managed trigger can only via deleting the managed solution while all the triggers in the solution are in draft state.
 
-- If the solution contains other components that you do not want removed, then the managed trigger can instead be deleted via upgrade to a new solution version that does not contain the managed trigger (and its related records when the trigger was added to the solution) but still contains the other components. The trigger intended to be deleted by this upgrade must be in draft state.
+    - If the solution contains other components that you do not want removed, then the managed trigger can instead be deleted via upgrade to a new solution version that does not contain the managed trigger (and its related records when the trigger was added to the solution) but still contains the other components. The trigger intended to be deleted by this upgrade must be in draft state.
 
-7.	Can I migrate a combination of triggers and Power Automate flows in the same solution?
+1. Can I migrate a combination of triggers and Power Automate flows in the same solution?
 
-    Yes – you should be able to move more than just triggers in the solution between the source and destination environments.
+    **Yes**. You should be able to move more than just triggers in the solution between the source and destination environments.
 
-8.	I imported many triggers in my solution in published state. In the destination environment, I can see that some of them have come through in a published state while the others are showing up in a draft state. Is this an error?
+1. I imported many triggers in my solution in published state. In the destination environment, I can see that some of them have come through in a published state while the others are showing up in a draft state. Is this an error?
 
     When a set of triggers are imported in published state to the destination environment, they go through the process of publishing (a process that happens sequentially, a few triggers at a time). During that period, the triggers that are waiting in line to get published will display that they are in a ‘draft’ state for a short period of time on initial import before transitioning to ‘publishing’ state and finally ‘published/Ready to Use’ state.
 
