@@ -9,7 +9,7 @@ ms.author: lavanyakr
 caps.latest.revision: 1
 topic-status: Drafting
 ---
-# Prioritize leads through scores  
+# Prioritize leads through predictive scores  
 
 Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
 

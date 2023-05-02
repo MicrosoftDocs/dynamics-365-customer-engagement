@@ -1,5 +1,5 @@
 ---
-title: View relationship analytics and KPIs
+title: Improve customer relationship with relationship analytics
 description: Use relationship analytics to know health of your customer relationships through various KPIs such as frequency and recency of your communication, response time, and so on.
 ms.date: 02/07/2023
 ms.topic: how-to
@@ -9,7 +9,7 @@ ms.reviewer: shujoshi
 ms.custom: bap-template
 ---
 
-# View relationship analytics and KPIs
+# Improve customer relationship with relationship analytics
 
 Relationship analytics uses the activity history of a seller with a contact or account and calculates KPIs based on their interactions. The KPIs are available at various levels such as, contact, account, opportunity, and lead. The graphical display of the KPIs help you quickly identify relationships that need to be nurtured and the KPIs to be improved for the same.  
 

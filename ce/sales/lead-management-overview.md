@@ -1,5 +1,5 @@
 ---
-title: Lead management overview
+title: Manage leads
 description: Learn about how the lead management process works in Dynamics 365 Sales. 
 author: lavanyakr01
 ms.author: lavanyakr 
@@ -10,7 +10,7 @@ ms.date: 04/08/2023
 ms.custom: bap-template 
 ---
 
-# Lead management overview
+# Manage leads
 
 Leads are potential customers who have shown interest in your products or services. Leads are the first step in the sales process. You can use Dynamics 365 Sales to manage leads and convert them into opportunities.
 
@@ -26,7 +26,7 @@ As an administrator, you can define the lead assignment rules, qualification exp
 - [Predictive scoring rules](configure-predictive-lead-scoring.md): Help sellers increase the probability of winning a deal based on predictions from past data.
 - [LinkedIn Sales Insights integration](/dynamics365/linkedin/integrate-sales-navigator): Integrate with LinkedIn Sales Navigator so that your sellers can get the most recent and relevant data of their leads from LinkedIn.
 
-## Manage leads
+## Work with leads
 
 As a seller, you create leads, use predictive scores to improve the lead conversion, and qualify and convert leads to opportunities.
 

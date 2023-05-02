@@ -47,6 +47,8 @@
       href: uninstall-sales-insights.md
     - name: Configure your sales organization
       items:
+        - name: Set up sales basics
+          href: sales-basics-setup.md 
         - name: System Settings - Sales
           href: system-settings-sales-tab.md
         - name: Create business units

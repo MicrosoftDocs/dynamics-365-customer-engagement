@@ -1,5 +1,5 @@
 ---
-title: Opportunity management overview
+title: Manage opportunities
 description: Learn about how the opportunity management process works in Dynamics 365 Sales. 
 author: lavanyakr01
 ms.author: lavanyakr 
@@ -10,11 +10,11 @@ ms.date: 04/08/2023
 ms.custom: bap-template 
 ---
 
-# Opportunity management overview
+# Manage opportunities
 
 An opportunity refers to sales deal, which is created when a lead is ready to buy. With an opportunity, you can forecast sales revenue, set a potential close date, and factor in a probability for the sale to occur.
 
-## Manage opportunities
+## Work with opportunities
 
 To manage opportunities efficiently, administrators can define the seller experiences, define the predictive scoring rules, and so on. Sellers can create opportunities, use predictive scores to improve the opportunity conversion, and win more deals.
 

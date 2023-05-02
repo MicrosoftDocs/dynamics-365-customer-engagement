@@ -10,7 +10,7 @@ ms.author: lavanyakr
 caps.latest.revision: 1
 
 ---
-# Prioritize opportunities through scores 
+# Prioritize opportunities through predictive scores 
 
 Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates.
 

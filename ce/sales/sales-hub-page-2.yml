@@ -78,7 +78,7 @@ additionalContent:
         text: Configure conversation intelligence
     - title: Integrate
       links:
-      - url: /teams-integration/enable-teams-chat.md 
+      - url: teams-integration/enable-teams-chat.md 
         text: Configure Teams chat
       - url: /power-platform/admin/connect-exchange-online
         text: Connect to Exchange Online
@@ -87,16 +87,16 @@ additionalContent:
       - url: connect-with-sharepoint.md
         text: Integrate with Sharepoint
       - url: install-lsi-solution.md
-        text: Install LinkedIn Sales Insights solution
+        text: Install LinkedIn Sales Insights
 
-    - title: Developer reference
+    - title: Develop
       links: 
       - url: developer/developer-guide.md
-        text: Resources for developers
+        text: Developer Guide
       - url: developer/about-entity-reference.md
-        text: Sales entities reference
+        text: Sales table reference
       - url: entity-reference.md
-        text: Sales Premium entities reference
+        text: Sales insights table reference 
   - title: Use Sales
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
@@ -109,11 +109,20 @@ additionalContent:
         text: Manage leads
       - url: opportunity-management-overview.md
         text: Manage opportunities
+      - url: Manage quote, order, and invoice
+        text: sales-transactions.md
+
+    - title: Sell smartly
+      links:
+      - url: work-predictive-lead-scoring.md
+        text: Prioritize leads through predictive scores 
+      - url: work-predictive-opportunity-scoring.md
+        text: Prioritize opportunities through predictive scores 
       - url: relationship-analytics.md
-        text: View relationship analytics and KPIs
+        text: Improve customer relationship with relationship analytics
       - url: dynamics365-sales-insights-app.md
         text: Coach sellers with conversation intelligence
-
+    
     - title: Forecast sales
       links: 
       - url: goals-overview.md
@@ -129,7 +138,7 @@ additionalContent:
       - url: manage-segments.md
         text: Group records based on segments
       - url: create-manage-sequences.md
-        text: Create scheduled and conditional workflows with sequences
+        text: Create conditional workflows with sequences
 
     - title: Collaborate with customers
       links: 
@@ -145,18 +154,18 @@ additionalContent:
       - url: /powerapps/user/track-your-progress-with-dashboard-and-charts
         text: Track progress with dashboards and charts
       - url: introduction-sales-template-apps.md
-        text: Analyze your sales data by using Power BI 
+        text: Analyze your sales data with Power BI 
       - url: view-understand-sales-usage-reports.md
         text: View operational metrics and KPIs
 
     - title: Go mobile
       links: 
-      - url: /sales-mobile/prereq-sales-mobile
+      - url: sales-mobile/prereq-sales-mobile
         text: Prepare for use
+      - url: sales-mobile/install-mobile-app
+        text: Install the mobile app
       - url: sales-mobile/use-sales-mobile-app.md
-        text: Use the Dynamics 365 Sales mobile app 
-      - url: use-sales-hub-on-dynamics-365-mobile
-        text: Use the Dynamics 365 for phones and tablets app
+        text: Use the mobile app 
 
   - title: Related products
     items:
