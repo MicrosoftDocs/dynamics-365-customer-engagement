@@ -21,7 +21,7 @@ If you've enabled the enhanced full case form, the following actions are applica
 - When agents create a new case, **Attachments** is displayed, before they save the case. Agents can upload attachments on this grid.
 - When agents save a new case or open an existing case, the **Attachments** tab is displayed. For more information on the actions agents can perform on this tab in runtime, see: [View an existing case using enhanced Full case form](enh-casemgmt-csw.md#view-an-existing-case-using-enhanced-full-case-form).
 
-If you add the **Attachment Control** component to other case forms, when agents create a new case, save a new case, or open an existing case, the attachment grid is displayed. For more information on the actions agents can perform on this tab in runtime, see: [View an existing case using enhanced Full case form](enh-casemgmt-csw.md#view-an-existing-case-using-enhanced-full-case-form).
+If you add the **Attachment Control** component to other case forms, when agents create a new case, save a new case, or open an existing case, the attachment grid is displayed. All the actions available on the edit mode of the enhanced full case form are applicable. 
 
 > [!NOTE]
 > If agents have to add attachments, ensure that you grant the required privileges to the security roles as applicable, for the **Entity attachment** custom entity. More information: [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role#create-a-security-role).
