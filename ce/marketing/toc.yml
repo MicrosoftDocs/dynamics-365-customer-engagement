@@ -318,6 +318,10 @@
           href: real-time-marketing-branches.md
         - name: Customize the journey designer in real-time Marketing
           href: real-time-marketing-journey-designer.md
+    - name: Lead generation and management
+      items:
+      - name: Optimize lead management by engaging sellers right away
+        href: real-time-marketing-optimize-lead-management.md
     - name: Analytics
       items:
       - name: Access and interpret analytics
