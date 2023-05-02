@@ -1,10 +1,11 @@
 ---
-title: "Define your channel definition (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to define your channel definition for real-time marketing custom channels in Dynamics 365 Marketing."
+title: Define the custom channel
+description: Learn how to define a custom channel in Dynamics 365 Marketing.
 ms.date: 01/23/2023
 ms.custom: 
   - dyn365-marketing
-ms.topic: article
+  - bap-template
+ms.topic: how-to
 author: alfergus
 ms.author: alfergus
 search.audienceType: 
@@ -13,52 +14,48 @@ search.audienceType:
   - enduser
 ---
 
-# Define your Channel Definition
+# Define the custom channel
 
-## Applicable channels: SMS, Custom
+Applicable channels: SMS, custom
 
-### Why you need it:
-
-Now that you have defined all the main parts, it’s time to define your channel where you will connect all the previous pieces in one metadata file, which is a record of **Channel Definition** entity (msdyn_channeldefinition).
+Now that you've defined the parts of your custom channel, it's time to define the channel. This step is where you connect all the previous pieces in one metadata file, which is a record of the **Channel Definition** entity (`msdyn_channeldefinition`).
 
 > [!IMPORTANT]
-> If you are setting up metadata records directly in the customization file, make sure that the GUIDs are defined in lowercase. 
+> If you're configuring metadata records directly in the customization file, make sure that the GUIDs are lowercase.
 
-### Channel definition Contract:
+## Channel Definition contract
 
 Entity logical name: **msdyn_channeldefinition**
 
 Entity set name: **msdyn_channeldefinitions**
 
-Primary Id attribute name: **msdyn_channeldefinitionid**
+Primary ID attribute name: **msdyn_channeldefinitionid**
 
 - **msdyn_displayname**: string - Optional. Display name of the channel.
 - **msdyn_description**: string - Optional. Description of the channel.
 - **msdyn_channeltype**: string - Required.  Supported values: Custom, SMS.
-- **msdyn_outboundendpointurltemplate**: string – Required.  Name of the Custom API for the outbound flow. 
+- **msdyn_outboundendpointurltemplate**: string – Required.  Name of the custom API for the outbound flow.
 - **msdyn_hasinbound**: bit - Required. Boolean value indicating whether the channel supports inbound messages.
 - **msdyn_hasdeliveryreceipt**: bit - Required. Boolean value indicating whether the channel supports delivery receipt.
-- **msdyn_supportsaccount**: bit - Required. Boolean value indicating whether the channel supports account level configuration. In the case of SMS, it must be true. Otherwise, false.   
+- **msdyn_supportsaccount**: bit - Required. Boolean value indicating whether the channel supports account-level configuration. For SMS, it must be true; otherwise, false.
 - **msdyn_channeldefinitionexternalentity**: string - Required. Name of the CDS entity, representing an extended configuration of the channel instance.
 - **msdyn_channeldefinitionexternalformid**: GUID - Required. ID of the form to be rendered to display configuration of the extended channel instance table.
 - **msdyn_channeldefinitionaccountexternalentity**: string - Optional. Name of the CDS entity, representing an extended configuration of the channel instance account.
 - **msdyn_channeldefinitionaccountexternalformid**: string - Optional. ID of the form to be rendered to display configuration of the extended channel instance account table.
 - **msdyn_messageformid**: GUID - Optional. Defines a form representing the message editor for the channel.
 
-### How to define it:
+Channels are defined in **customizations.xml** as solution components. Place every **msdyn_channeldefinition** under **ImportExportXml** > **msdyn_channeldefinitions** elements. Each message part element `msdyn_channeldefinition` must include its own unique ID in the form of a GUID as the XML attribute **msdyn_channeldefinitionid**. When your solution is imported, a new row is created in the **msdyn_channeldefinition** table.
 
-Channel Definitions are defined in the **customizations.xml** as solution components. Place every **msdyn_channeldefinition** under **ImportExportXml** > **msdyn_channeldefinitions** elements. Please note that each message part element msdyn_channeldefinition must include its own unique id in the form of GUID as XML attribute **msdyn_channeldefinitionid**. At your solution’s import, a new row will be created at the **msdyn_channeldefinition** table.
+In the following example, note that:
 
-In the example below, you will notice that:
+- The **msdyn_channeldefinitionexternalentity** and the **msdyn_channeldefinitionexternalformid** contain the name and the form ID of the entity you created when you [defined the channel instance](real-time-marketing-define-custom-channel-instance.md).
+- The **msdyn_channeldefinitionaccountexternalentity** and the **msdyn_channeldefinitionaccountexternalformid** contain the name and the form ID of the entity you created when you [defined the channel instance account](real-time-marketing-define-channel-instance-account.md).
+- The **msdyn_messageformid** contains the form ID that you created if you [defined a custom message editor](real-time-marketing-custom-channel-message-editor.md).
+- The **msdyn_outboundendpointurltemplate** contains the custom API that you created when you [defined custom APIs](real-time-marketing-custom-channel-custom-api.md).
 
-- The **msdyn_channeldefinitionexternalentity** and the **msdyn_channeldefinitionexternalformid** contain the name and the formId of the entity that we created in [step 1](real-time-marketing-define-custom-channel-instance.md).
-- The **msdyn_channeldefinitionaccountexternalentity** and the **msdyn_channeldefinitionaccountexternalformid** contain the the name and the formId of the entity that we created in [step 2](real-time-marketing-define-channel-instance-account.md).
-- The **msdyn_messageformid** contains the formId that you created in [step 5](real-time-marketing-custom-channel-message-editor.md).
-- The **msdyn_outboundendpointurltemplate** contains the Custom API that you created in [step 6](real-time-marketing-custom-channel-custom-api.md).
+Example of customizations.xml including channel definition:
 
-### Example of customizations.xml including channel definition
-
-```
+```xml
 <ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <msdyn_channeldefinitions>
     <msdyn_channeldefinition msdyn_channeldefinitionid="af0c2a3c-85a5-43b3-84be-2a4a171249f3">
@@ -84,22 +81,24 @@ In the example below, you will notice that:
 </ImportExportXml>
 ```
 
-### Sample solutions
+## Sample solutions
 
-The samples below include unpacked solutions for Dataverse and plugins projects. To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/power-platform/alm/solution-packager-tool).
+The following samples include unpacked solutions for Dataverse and plugins projects. To pack and import these solutions, first build the plugin project. The project copies the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/power-platform/alm/solution-packager-tool).
 
 - [SampleSmsChannel.zip](https://download.microsoft.com/download/c/c/6/cc6fed59-f95a-4577-aed5-49daa62b1f66/SampleSmsChannel-2022.12.zip)
 - [SampleCustomChannel.zip](https://download.microsoft.com/download/5/8/6/586e2d47-ac82-48e9-9cc4-066c141e0649/SampleCustomChannel-2022.12.zip)
 
-#### How to build the plugins project and pack the solution
+### How to build the plugins project and pack the solution
 
-1. Build the plugins project with MSBuild or Visual Studio. Building the project will create a dll in the PluginAssemblies folder inside the Dataverse solution folder.
+1. Build the plugins project with MSBuild or Visual Studio.
+
+    Building the project creates a DLL in the PluginAssemblies folder inside the Dataverse solution folder.
+
 1. Pack the unmanaged folder with the Solution Packager using either:
+
     - [pac CLI](/power-platform/developer/cli/reference/solution#pac-solution-pack) (**preferred**)
     - [Solution packager](/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager)
-    
-```
-pac solution pack --zipfile C:\tmp\SampleCustomChannelSolution.zip -f src\Solutions\Samples\SampleCustomChannel\SampleCustomChannel.Solution\unmanaged --packagetype Both
-```
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    `pac solution pack --zipfile C:\tmp\SampleCustomChannelSolution.zip -f src\Solutions\Samples\SampleCustomChannel\SampleCustomChannel.Solution\unmanaged --packagetype Both`
+
+[!INCLUDE [footer-include](../includes/footer-banner.md)]
