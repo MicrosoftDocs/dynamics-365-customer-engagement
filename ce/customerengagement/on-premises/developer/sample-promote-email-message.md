@@ -19,7 +19,7 @@ search.audienceType:
 ---
 # Sample: Promote an email message 
 
-This sample shows how to create an email activity instance from the specified email message by using the [DeliverPromoteEmailRequest](/dotnet/api/microsoft.crm.sdk.messages.deliverpromoteemailrequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/PromoteEmail).
+This sample shows how to create an email activity instance from the specified email message by using the [DeliverPromoteEmailRequest](/dotnet/api/microsoft.crm.sdk.messages.deliverpromoteemailrequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/PromoteEmail).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
