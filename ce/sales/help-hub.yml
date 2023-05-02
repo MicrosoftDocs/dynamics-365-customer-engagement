@@ -119,14 +119,14 @@ landingContent:
           url: developer/developer-guide.md
 
 # Card 
-- title: GDPR
+- title: Privacy laws and regulations
   linkLists:
       - linkListType: concept
         links:
-        - text: Dynamics 365 Sales and GDPR 
-          url: ../sales-enterprise/dynamics-365-sales-gdpr.md
-        - text: Sales Insights add-in for Dynamics 365 and GDPR 
-          url: ../sales-enterprise/embedded-intelligence-gdpr.md
+        - text: Dynamics 365 Sales and and privacy laws 
+          url: dynamics-365-sales-privacy.md
+        - text: Sales Insights and and privacy laws 
+          url: embedded-intelligence-privacy.md
 
 # Card 
 - title: Microsoft Learn resources

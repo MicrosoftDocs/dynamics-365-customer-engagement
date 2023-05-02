@@ -1232,19 +1232,19 @@
       items:
         - name: Custom plugin handling through shared variable
           href: developer/custom-plugin-handling-shared-variable.md
-- name: General Data Protection Regulation (GDPR) and privacy
+- name: Privacy laws and regulations
   items:
-    - name: Dynamics 365 Sales & GDPR
-      href: dynamics-365-sales-gdpr.md
-    - name: GDPR for sales premium
-      href: embedded-intelligence-gdpr.md
+    - name: Dynamics 365 Sales and privacy laws
+      href: dynamics-365-sales-privacy.md
+    - name: Sales insights and privacy laws
+      href: embedded-intelligence-privacy.md
       items:
         - name: View and export KPI data (GDPR)
           href: view-export-KPI-data-gdpr.md
         - name: Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
           href: retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md
-    - name: GDPR and Security FAQ
-      href: sales-gdpr-faqs.md
+    - name: Privacy and security FAQ
+      href: sales-privacy-faqs.md
     - name: Privacy notice
       href: privacy-notice.md
 - name: Learning Catalog
