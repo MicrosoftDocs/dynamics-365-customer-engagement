@@ -99,9 +99,9 @@ If your search provider is **Inactive** with status reason as **Validated**, you
 
 1. Select the search provider from the **Knowledge** > **All integrated search providers** page.
 1. Select **Run Ingestion**.
-1. On the **Run Ingestion** dialog, select the **Trial Ingestion** option, and then specify the number of articles to be from the **No of records** dropdown list. The maximum number of articles that you can select for the ingestion is 1000.
+1. On the **Run Ingestion** dialog, select the **Trial Ingestion** option, and then specify the number of articles to be selected from the **No of records** dropdown list. The maximum number of articles that you can select for the ingestion is 1000.
 
-If there are errors during the ingestion, you'll be able to view them on the **Insights** tab. If you don't see any errors after the trial ingestion and want to run a custom ingestion, you'll need to first activate the search provider. More information: [Activate search providers](#activate-search-providers).
+If there are errors during the ingestion, you'll be able to view them on the **Insights** tab. If you don't see any errors after the trial ingestion and want to run a custom ingestion, you'll need to activate the search provider. More information: [Activate search providers](#activate-search-providers).
 
 ### Custom ingestion
 
