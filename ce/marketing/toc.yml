@@ -384,6 +384,10 @@
           href: real-time-marketing-business-unit-faq.md  
     - name: Developer
       items: 
+      - name: Trigger migration
+      items:
+      - name: Move triggers between environments-ALM process for triggers
+        href: move-triggers-between-environments.md
       - name: Manually add a custom channel
         items:
         - name: Overview
@@ -402,10 +406,6 @@
           href: real-time-marketing-custom-channel-custom-API.md
         - name: 7. Define your channel definition 
           href: real-time-marketing-define-channel-definition.md
-    - name: Trigger migration
-      items:
-      - name: Move triggers between environments-ALM process for triggers
-        href: move-triggers-between-environments.md
       - name: Push notification setup for application developers
         href: real-time-marketing-developer-push.md
       - name: Receive notifications and create interactions
