@@ -3,7 +3,7 @@ title: Manage overflow of work items in queues
 description: Learn how to manage overflow of work items in queues enabled for unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 04/05/2023
+ms.date: 05/02/2023
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -51,7 +51,7 @@ The following table lists the condition and action pairs available for different
 
 | Channel | Condition | Action|
 |---------|-----------|-------|
-| Voice | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li><li>Estimated wait time exceeds</li></ul> | <ul><li>Assign to queue anyway</li><li> Direct callback</li><li>End call</li><li>Transfer to a different queue</li><li>Transfer to an external number</li><li>Voicemail </li></ul> |
+| Voice | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li><li>Average wait time</li></ul> | <ul><li>Assign to queue anyway</li><li> Direct callback</li><li>End call</li><li>Transfer to a different queue</li><li>Transfer to an external number</li><li>Voicemail </li></ul> |
 | Live chat and other messaging channels | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li></ul> | <ul><li>End conversation</li><li>Transfer to a different queue</li><li>Assign to queue anyway</li></ul> |
 | Record | <ul><li> Out of operating hours</li></ul> | <ul><li>Assign to queue anyway</li><li>Transfer to a different queue</li></ul> |
 
@@ -100,7 +100,7 @@ Go to the Customer Service admin center app and perform the following steps:
         - **Transfer to an external number**
         - **Voicemail**
 
-    - **Estimated wait time exceeds**: This condition is available for voice queues only. Enter a value between 30 seconds and 60 minutes to denote the wait time. At runtime, if the predicted wait time for the queue is more than what you have configured, the system triggers one of the following overflow actions for the work item instead of adding it to the overflowing queue:
+    - **Average wait time**: This condition is available for voice queues only. Enter a value between 30 seconds and 60 minutes to denote the wait time. At runtime, if the predicted wait time for the queue is more than what you have configured, the system triggers one of the following overflow actions for the work item instead of adding it to the overflowing queue:
 
         - **Direct callback**
         - **End call**
@@ -109,7 +109,7 @@ Go to the Customer Service admin center app and perform the following steps:
         - **Voicemail**
 
         > [!NOTE]
-        > The estimated wait time is calculated for a queue by taking the average of the wait times for the previous 48 hours and a minimum of 50 conversations in the queue. <br>For example, if a customer calls on a Thursday at 5:00 PM, the estimated wait time is calculated by taking the average wait time of all the calls from 5:00 PM, Tuesday that denotes the previous 48 hours, provided 50 or more calls are in queue. If the number of calls is less than 50, the "Estimated wait time exceeds" overflow condition isn't evaluated because it doesn't meet the criteria to calculate the wait time.
+        > The average wait time is calculated for a queue by taking the average of the wait times for the previous 48 hours and a minimum of 50 conversations in the queue. <br>For example, if a customer calls on a Thursday at 5:00 PM, the wait time is calculated by taking the average wait time of all the calls from 5:00 PM, Tuesday that denotes the previous 48 hours, provided 50 or more calls are in queue. If the number of calls is less than 50, the "Average wait time" overflow condition isn't evaluated because it doesn't meet the criteria to calculate the wait time.
 
         :::image type="content" source="media/overflow-condition-action.png" alt-text="A screenshot of the condition and action pairs configured for the queue.":::
 
