@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/28/2023
+ms.date: 05/02/2023
 ms.custom: bap-template
 ---
 
@@ -41,7 +41,7 @@ If integrated search isn't enabled in your geographical region, contact Microsof
 
 ### Enable the Integrated Search API trigger flow
 
-To turn on the **Integrated Search API trigger** flow, make sure you have the **prvReadconnector** (Basic level) and the **prvReadWorkflow** (Global level) privileges.
+To turn on the **Integrated Search API trigger** flow, make sure you have the **prvReadWorkflow** (Global level) privileges.
 
 1. Go to [make.powerapps.com](https://make.powerapps.com).
 1. Go to **Solutions** > **Default Solution** > **Cloud flows** and turn on the **Integrated Search API trigger flow** flow.
