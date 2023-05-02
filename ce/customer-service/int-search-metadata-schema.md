@@ -5,21 +5,11 @@ author: gandhamm
 ms.author: mgandham 
 ms.reviewer: neeranelli
 ms.topic: conceptual 
-ms.date: 04/19/2023
-ms.custom: bap-template 
+ms.date: 05/02/2023
+ms.custom: bap-template
 ---
 
-# Schema details to build a metadata mapping template (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+# Schema details to build a metadata mapping template
 
 This article describes the schema details required to map information from external data providers to the knowledge article entities, and how you can prepare your own schema mapping JSON file using various fields and attributes.
 
@@ -213,5 +203,5 @@ When you're mapping information from external data providers to knowledge articl
 
 ## See Also
 
-[Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview)<br>
-[View and use insights for search providers (preview)](view-and-use-insights.md)
+[Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers)  
+[View and use insights for search providers](view-and-use-insights.md)
