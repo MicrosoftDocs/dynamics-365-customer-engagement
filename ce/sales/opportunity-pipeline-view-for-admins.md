@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 04/26/2023
+ms.date: 05/02/2023
 ms.custom: bap-template 
 ---
 # Configure the opportunity pipeline view

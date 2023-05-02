@@ -1,7 +1,7 @@
 ---
 title: Personalize the opportunity pipeline view
 description: As a seller, personalize the pipeline view depending on what you want to see, organize opportunities in a way that makes sense to you, and personalize your view.
-ms.date: 04/26/2023
+ms.date: 05/02/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
