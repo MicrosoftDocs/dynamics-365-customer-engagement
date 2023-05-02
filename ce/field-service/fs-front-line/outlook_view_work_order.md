@@ -11,11 +11,13 @@ ms.custom: bap-template
 
 # View existing work orders in Outlook
 
+While in Outlook, view work orders relevant to the open email.
+
 ## View work orders
 
-Work orders in Dynamics 365 Field Service appear... 
+While in an email, select **Dynamics 365 Field Service (Preview)**, and then **View relevant work orders**.
 
-By default, 50 work orders are displayed, sorted by the date and time they were last modified on.
+By default, 50 work orders display, sorted by the date and time they were last modified.
 
 ## Filter work orders
 

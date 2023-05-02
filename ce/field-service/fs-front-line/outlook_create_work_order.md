@@ -11,36 +11,26 @@ ms.custom: bap-template
 
 # Create a new work order in Outlook
 
-Once opened, the add-in will show a list of suggested actions. One of these actions is the "Create a work order" action.
+While in Outlook, create a work order.
 
-## Work order fields
+## Create a work order from an email
 
-- [System Status](/dynamics365/field-service/work-order-status-booking-status) (required, defaulted to *Unscheduled*)
-- Priority
-- Service Account (required)
-- Work Order Type (required)
-- Primary Incident Type 
-- Price List (required)
-- Description
-- Time From Promised
-- Time To Promised
+1. While in an email, select **Dynamics 365 Field Service (Preview)**, and then **Create work order**.
 
-To cancel, click the back button.
+1. At a minimum, enter information in the required fields:
+   - [System Status](/dynamics365/field-service/work-order-status-booking-status) (defaults to *Unscheduled*)
+   - Priority
+   - Service Account (required)
+   - Work Order Type (required)
+   - Primary Incident Type
+   - Price List (required)
+   - Description
+   - Time From Promised
+   - Time To Promised
 
-To learn more about these fields, view the Dynamics 365 Field Service documentation...
+1. Select **Save**. A confirmation displays indicating the work order has been successfully created.
 
-## Save the work order to D365 Field Service
+1. To view the work order in Field Service, select the pop-out icon.
 
-Pressing the **Save** button will create the work order. A confirmation banner will display indicating the work order has been successfully created. 
-Screenshot of work order confirmation
+## Edit the work order
 
-> [!WARNING]
-> Data will not be saved until the *Save* button is clicked 
-
-Once saved in Outlook, the work order is created and automatically synced with Dynamics 365 Field Service. 
-Screenshot of Dynamics 365 Field Service
-
-## Edit the created work order
-
-If any data is incorrectly filled, the work order can be edited from the next screen...
-Screenshot of Dynamics 365 Field Service

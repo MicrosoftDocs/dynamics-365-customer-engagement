@@ -28,7 +28,7 @@ ms.custom: bap-template
 
 ## Install the Outlook add-in
 
-1. [Install the Outlook add-in](https://support.microsoft.com/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8#:~:text=1%20In%20Outlook%2C%20click%20Home%20%3E%20Store%20on,trials%2C%20select%20Get%20it%20to%20...%20See%20More)
+1. [Install the Outlook add-in](https://support.microsoft.com/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8#:~:text=1%20In%20Outlook%2C%20click%20Home%20%3E%20Store%20on,trials%2C%20select%20Get%20it%20to%20...%20See%20More).
 
 1. In the **Add-Ins for Outlook** dialog, search for and select **Viva Frontline**.
 
