@@ -105,12 +105,12 @@ A phone call activity is created and displayed on the timeline of the record. If
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-While you're on a call with a customer, you can transfer the call to another user or a phone number.
+While you're on a call with a customer, you can transfer the call to another colleague's Teams line or a phone number.
 
-1. While you're on the call, select **More options** and select **Transfer**.
+1. While you're on the call, select **More options** and select **Transfer**.  
     The customer's call will be placed on hold.
 
-1. Enter the name or phone number of the user you want to transfer the call to or an external phone number.
+1. Enter the name of the colleague you want to transfer the call to or their phone number.  
 
 1. (Optional) If you're calling a system user, select **Ring back if there's no answer** for a safe transfer. Otherwise, the call will be disconnected if there's no answer.
 
@@ -123,12 +123,12 @@ While you're on a call with a customer, you can transfer the call to another use
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-While you're on a call with a customer, you can consult a user before transferring the call to them. You can also just consult the user and answer the customer directly without really transferring the call.
+While you're on a call with a customer, you can consult a colleague before transferring the call to them. You can also just consult the colleague and answer the customer directly without really transferring the call.
 
-1. While you're on the call, select **More options** and select **Consult then transfer**.
+1. While you're on the call, select **More options** and select **Consult then transfer**.  
     The customer will be placed on hold.
 
-1. Start typing the name of the user you want to transfer the call to or a phone number.
+1. Start typing the name of the colleague you want to transfer the call to or a phone number.  
 
 1. Select the person to consult. If the recipient is in a meeting or out of office, select **Cancel** and then **Resume** to talk to the customer.
 1. Select **Call**.  
