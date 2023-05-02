@@ -27,6 +27,14 @@ For information about other updates to Universal Resource Scheduling, visit the 
 
 **Dataverse:** 4.0.94.14
 
+- Using ctrl/cmd+scroll on the schedule board will now increase/decrease the date range granularity.
+- The error message received when encoding an address for a resource will now indicate when an error occurs due to the address being too long.
+- When manually creating bookings on the schedule board using the "Fixed" booking method, you can now partially fulfil a requirement by reducing the duration.
+- Bug fixes:
+   - The legacy schedule board will no longer show system tabs.
+   - On the legacy schedule board, changes to tab settings will now be saved correctly.
+
+
 ## 3.12.103.21
 
 **Resource Scheduling Controls:** 1.2.43.230971
@@ -71,6 +79,7 @@ This release is a hotfix on Unified resource scheduling [3.12.102.17](/dynamics3
 
 - Multiple performance improvements to reduce schedule board load times. Visible performance improvements vary depending on the amount of data loaded on the schedule board.
 - Replaced deprecated OData API calls across all Universal Resource Scheduling controls.
+- On the schedule board, the default unit for the duration field on the create and edit booking panels is now hours. Entering a number in that field without a unit 	will be interpreted as hours, instead of minutes.
 - Bug fixes:
   - Day names on the calendar control in the requirements sub-grid of the schedule board are now localized correctly.
   - Booking rules no longer block Schedule Assistant from closing.
