@@ -48,7 +48,7 @@ additionalContent:
         text: Browse more
     - title: Try/Buy/Deploy
       links: 
-      - url: sign-up-for-sales-trial
+      - url: sign-up-for-sales-trial.md
         text: Try Dynamics 365 Sales
       - url: buy-dynamics-365-sales.md
         text: Buy Dynamics 365 Sales
@@ -77,7 +77,7 @@ additionalContent:
         text: Conversation intelligence
     - title: Integrate
       links:
-      - url: enable-teams-chat.md 
+      - url: teams-integration/enable-teams-chat.md
         text: Microsoft Teams
       - url: /power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks
         text: Exchange
@@ -114,7 +114,7 @@ additionalContent:
       links: 
       - url: create-edit-quote-sales.md
         text: Quote management
-      - url: Create or edit orders
+      - url: create-edit-order-sales.md
         text: Order management
       - url: create-edit-invoice-sales.md
         text: Invoice management
@@ -128,7 +128,7 @@ additionalContent:
         text: Premium forecasts
     - title: Sales accelerator
       links: 
-      - url: prioritize-sales-pipeline-through-work-list
+      - url: prioritize-sales-pipeline-through-work-list.md
         text: Work lists
       - url: manage-segments.md
         text: Segments
@@ -159,7 +159,7 @@ additionalContent:
         text: Prepare for use
       - url: /sales-mobile/dynamics-365-sales-mobile-app
         text: Sales mobile app
-      - url: use-sales-hub-on-dynamics-365-mobile
+      - url: use-sales-hub-on-dynamics-365-mobile.md
         text: Dynamics 365 for phones and tablets app
 
   - title: Related products
@@ -180,4 +180,4 @@ additionalContent:
           url: /dynamics365/linkedin/integrate-sales-navigator
         - title: Power Platform
           summary: Build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, and analyze data for insights using Power BI, 
-          url: ../power-platform/
+          url: ../../power-platform/

@@ -28,4 +28,4 @@ To comply with GDPR guidelines, we've made it possible to update read-only recor
 
 ### Dynamics 365 Sales Premium and GDPR
 
-To ensure that your organization is GDPR compliant, you can view KPIs and retrieve data that's used to generate insights and analytics. For more information, see [Dynamics 365 Sales Premium and GDPR](embedded-intelligence-gdpr).
+To ensure that your organization is GDPR compliant, you can view KPIs and retrieve data that's used to generate insights and analytics. For more information, see [Dynamics 365 Sales Premium and GDPR](embedded-intelligence-gdpr.md).

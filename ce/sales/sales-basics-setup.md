@@ -26,7 +26,7 @@ Use the references in the following table to set up the basics for your sales or
 |Create your sales teams     | [Create or manage teams](manage-teams.md)        |
 |Set up sales territories to organize business markets by geographical area     |  [Set up sales territories](/power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area)       |
 |Set your fiscal period and how it should appear     |[Work with fiscal year settings](/power-platform/admin/work-fiscal-year-settings)         |
-|Transact in multiple currencies   | [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-multiple-currencies) |
+|Transact in multiple currencies   | [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies) |
 |Define your product catalog with pricing and discounts| [Set up a product catalog](set-up-product-catalog-walkthrough.md)
 
 ## Customize the  app
@@ -40,6 +40,6 @@ Use the references in the following table to set up the basics for your sales or
 |---------|---------|
 |Create a custom look and feel for your app     | [Set up branding and theming](change-color-scheme-logo.md)        |
 |Customize the tables, dashboards, business processes, and so on     |[Customize the Sales app](manage-app.md)         |
-|Customize forms to meet the specific needs of your organization.     | [Customize forms](customize-forms)        |
-|Customize view to meet the specific needs of your organization.     |[Customize views](customize-views)         |
+|Customize forms to meet the specific needs of your organization.     | [Customize forms](customize-forms.md)        |
+|Customize view to meet the specific needs of your organization.     |[Customize views](customize-views.md)         |
   

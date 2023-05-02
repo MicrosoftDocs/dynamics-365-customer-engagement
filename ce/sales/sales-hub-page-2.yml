@@ -29,7 +29,7 @@ highlightedContent:
     # Card
     - title: Troubleshoot
       itemType: concept
-      url: ../troubleshoot/dynamics-365/sales/welcome-sales
+      url: ../../troubleshoot/dynamics-365/sales/welcome-sales
       
 additionalContent: 
   sections:
@@ -47,7 +47,7 @@ additionalContent:
         text: Browse more
     - title: Try/Buy/Deploy
       links: 
-      - url: sign-up-for-sales-trial
+      - url: sign-up-for-sales-trial.md
         text: Try Dynamics 365 Sales
       - url: buy-dynamics-365-sales.md
         text: Buy Dynamics 365 Sales
@@ -109,8 +109,8 @@ additionalContent:
         text: Manage leads
       - url: opportunity-management-overview.md
         text: Manage opportunities
-      - url: Manage quote, order, and invoice
-        text: sales-transactions.md
+      - url: sales-transactions.md
+        text: Manage quote, order, and invoice
 
     - title: Sell smartly
       links:
@@ -133,7 +133,7 @@ additionalContent:
         text: Predict future revenue outcomes using premium forecasting
     - title: Accelerate Sales
       links: 
-      - url: prioritize-sales-pipeline-through-work-list
+      - url: prioritize-sales-pipeline-through-work-list.md
         text: Prioritize sales pipeline with work lists 
       - url: manage-segments.md
         text: Group records based on segments
@@ -160,9 +160,9 @@ additionalContent:
 
     - title: Go mobile
       links: 
-      - url: sales-mobile/prereq-sales-mobile
+      - url: sales-mobile/prereq-sales-mobile.md
         text: Prepare for use
-      - url: sales-mobile/install-mobile-app
+      - url: sales-mobile/install-mobile-app.md
         text: Install the mobile app
       - url: sales-mobile/use-sales-mobile-app.md
         text: Use the mobile app 
@@ -185,4 +185,4 @@ additionalContent:
           url: /dynamics365/linkedin/integrate-sales-navigator
         - title: Power Platform
           summary: Build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, and analyze data for insights using Power BI, 
-          url: ../power-platform/
+          url: ../../power-platform/
