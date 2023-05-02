@@ -1,5 +1,5 @@
 ---
-title: "Move Triggers between Environments – ALM process for Triggers in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Move triggers between environments – ALM process for triggers in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: " Learn how to Move Triggers between Environments – ALM process for Triggers in Dynamics 365 Marketing."
 ms.date: 05/01/2023
 ms.custom: 
@@ -13,7 +13,7 @@ search.audienceType:
   - enduser
 ---
 
-# Move Triggers between Environments – ALM process for Triggers
+# Move triggers between environments – ALM process for triggers
 
 Customers often use multiple Dynamics 365 environments to support different stages of their application lifecycle management process. For example, they may have a development environment for creating and testing new features, a staging environment for pre-production testing, and a production environment for  final application deployment. 
 
