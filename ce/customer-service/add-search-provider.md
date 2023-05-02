@@ -82,14 +82,14 @@ You can now add integrated search providers.
 
 1. Optionally, select **Save as draft**, if you still need to provide information for any of the sections. The status of the search provider will appear as **Inactive** with status reason as **Draft**.
 
-1. Run a custom or trial ingestion for your search providers.
+1. Run a **Time-range based ingestion** or **Trial ingestion** for your search providers.
 
 > [!NOTE]
 >  A unique combination of root URL, site map URL, and language filters only are allowed.
 
 ## Run ingestion for search providers
 
-Depending on the status of your search provider, you can either run a custom or a trial ingestion. When you initiate a trial ingestion, you'll be able to rectify errors that might come up when you add an integrated search provider. You can view the status of your ingestion on the **Insights** tab.
+Depending on the status of your search provider, you can either run a time-range based or a trial ingestion. When you initiate a trial ingestion, you'll be able to rectify errors that might come up when you add an integrated search provider. You can view the status of your ingestion on the **Insights** tab, **Crawl failures** column.
 
 You can't run ingestion for search providers that are **Inactive** with status reason as **Draft**.
 
@@ -101,15 +101,15 @@ If your search provider is **Inactive** with status reason as **Validated**, you
 1. Select **Run Ingestion**.
 1. On the **Run Ingestion** dialog, select the **Trial Ingestion** option, and then specify the number of articles to be selected from the **No of records** dropdown list. The maximum number of articles that you can select for the ingestion is 1000.
 
-If there are errors during the ingestion, you'll be able to view them on the **Insights** tab. If you don't see any errors after the trial ingestion and want to run a custom ingestion, you'll need to activate the search provider. More information: [Activate search providers](#activate-search-providers).
+If there are errors during the ingestion, you'll be able to view them on the **Insights** tab. If you don't see any errors after the trial ingestion and want to run a time-range based ingestion, you'll need to activate the search provider. More information: [Activate search providers](#activate-search-providers).
 
-### Custom ingestion
+### Time-range based ingestion
 
-If your search provider is **Active** with status reason as **Ingestion Ready**, you can initiate a custom ingestion, by performing the following steps:
+If your search provider is **Active** with status reason as **Ingestion Ready**, you can initiate a time-range based ingestion, by performing the following steps:
 
 1. Select the search provider from the **Knowledge** > **All integrated search providers** page.
 1. Select **Run Ingestion**.
-1. On the **Run Ingestion** dialog, select the **Custom Ingestion** option, and then specify the date range to pick up updated articles for the ingestion. The date range has to be 60 days from the **From** date.
+1. On the **Run Ingestion** dialog, select the **Time-range based ingestion** option, and then specify the date range to pick up updated articles for the ingestion. The date range has to be 60 days from the **From** date.
 
 ## Activate search providers
 

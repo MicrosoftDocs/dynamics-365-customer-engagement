@@ -4,7 +4,7 @@ description: Learn how you can view and use insights of your search providers.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi 
-ms.service: dynamics-365 
+ms.service: dynamics-365
 ms.topic: how-to 
 ms.date: 05/02/2023
 ms.custom: bap-template 
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # View and use insights for search providers
 
-After you have configured your search providers, you can view the insights for your search provider in the Customer Service admin center. The Insights tab provides the **Ingestion ID**, **Status**, **Recognized**, **Created**, **Updated**, and **Failed** details of the search provider.
+After you have configured your search providers, you can view the insights for your search provider in the Customer Service admin center app. The Insights tab provides the **Ingestion ID**, **Status**, **Crawl failures**, **Recognized**, **Created**, **Updated**, and **Failed** details of the search provider.
 
 ## View insights
 
@@ -25,9 +25,9 @@ You can see up to a maximum of 100 ingestion IDs. The data on the **Insights** t
 
 ## Use insights
 
-You can view the failed articles in the **Failed** column. The failed articles count helps you review the ingestion success status.
+You can view the failed articles in the **Failed** column. The failed articles count helps you review the ingestion success status. 
 
-To view the failed articles, select the ingestion ID.
+To view the failed articles, select the ingestion ID. The **Error type** column indicates whether the failure was a crawl error prior to ingestion or an ingestion run error.
 
 ## See Also
 
