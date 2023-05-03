@@ -60,10 +60,10 @@ On the required form, add the **Attachment Control** component.  More informatio
 
 |Property | Description | 
 |------ |----------|
-| Table Column | The column the component is bound to.<br> For case forms, set this field to **Pre Create Entity Attachments Id**, for agents to be able to upload attachments when a new case is created and before it's saved.<br> For other entity forms, this field can be set to any column, as attachments can't be uploaded to an entity record. |
-| Show Control Title | Displays or hides the **Attachments** label on the Case page when a new case is created.|
-| Show attachments from Conversation | Set this value to **Yes** or **No** to display or hide the attachments that were shared through conversations, for an existing case or a new case that's been saved.|
-| Show attachments directly uploaded to entity |  Set this value to **Yes** or **No** to display or hide the attachments that were directly uploaded when the case was created, for an existing case or a new case that's been saved.|  
+| Table Column | For case forms, set this field to **Pre Create Entity Attachments Id**, for agents to be able to upload attachments to a new case, before they've saved it.<br> For other entity forms this field can be set to any column, as attachments can't be uploaded directly to a new entity record before it's saved. |
+| Show Control Title | Displays or hides the **Attachments** label, when a new case is created.|
+| Show attachments from Conversation | Set this value to **Yes** or **No** to display or hide the attachments that were shared through conversations.|
+| Show attachments directly uploaded to entity |  Set this value to **Yes** or **No** to display or hide the attachments that were directly uploaded when the case was created.|  
 | Show attachments from email | Set this value to **Yes** or **No** to display or hide the attachments sent through email, for any entity.|  
 | Show attachments from notes | Set this value to **Yes** or **No** to display or hide the attachments that were added to notes on the timeline, for any entity.|  
 
