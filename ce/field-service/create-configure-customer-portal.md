@@ -16,7 +16,7 @@ The following sections guide you through the setup process and provide helpful i
 
 ## Create the Field Service customer experiences portal
 
-1. Go to the [Power Apps Maker portal](http://make.powerapps.com).
+1. Go to the [Power Apps Maker portal](https://make.powerapps.com).
 
 1. Choose an environment with Dynamics 365 Field Service and select **Create**.
 
