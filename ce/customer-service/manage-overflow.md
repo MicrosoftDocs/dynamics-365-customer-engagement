@@ -64,7 +64,7 @@ For overflow to work correctly, the following prerequisites must be met:
 
 ## Configure overflow conditions
 
-Go to the Customer Service admin center app and perform the following steps:
+In the Customer Service admin center app, do the following steps:
 
 1. In the site map, select **Queues** in **Customer support**.
 
@@ -100,7 +100,7 @@ Go to the Customer Service admin center app and perform the following steps:
         - **Transfer to an external number**
         - **Voicemail**
 
-    - **Average wait time**: This condition is available for voice queues only. Enter a value between 30 seconds and 60 minutes to denote the wait time. At runtime, if the predicted wait time for the queue is more than what you have configured, the system triggers one of the following overflow actions for the work item instead of adding it to the overflowing queue:
+    - **Average wait time**: This condition is available for voice queues only. Enter a value between 30 seconds and 60 minutes to denote the wait time. If the predicted wait time for the queue is more than what you have configured, the system triggers one of the following overflow actions for the work item instead of adding it to the overflowing queue:
 
         - **Direct callback**
         - **End call**
@@ -115,7 +115,7 @@ Go to the Customer Service admin center app and perform the following steps:
 
 ## Configure overflow override
 
-In certain cases, you might not want an overflow action to be run for specific types of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing as "end call" or "keep waiting in queue". This action might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure override conditions for those queues in the route-to-queue rules at the workstream level.
+Sometimes, you might not want an overflow action to run for specific types of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing as "end call" or "keep waiting in queue". This action might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure override conditions for those queues in the route-to-queue rules at the workstream level.
 
 1. In the Customer Service admin center, go to the required workstream and select the route-to-queue rule in which the queue is configured.
 
@@ -125,7 +125,7 @@ In certain cases, you might not want an overflow action to be run for specific t
 
 1. Select **Add queue overflow override**.
 
-1. Perform the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section in this article.
+1. Do the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section in this article.
 
 ## View diagnostics for overflow
 
