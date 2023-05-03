@@ -1,6 +1,6 @@
 ---
 title: Manage integrated search providers
-description: Learn how to provision, add, and manage integrated search providers.
+description: Learn how to provision, add, refresh, edit, and deactivate integrated search providers and configure them as search filters.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
@@ -11,162 +11,166 @@ ms.custom: bap-template
 
 # Manage integrated search providers
 
-With integrated search providers, you can configure external data providers such as enterprise websites based on the site map protocol. The articles from the external providers will be ingested into Microsoft Dataverse, so that agents can view a consolidated list of knowledge article search results and experience a single ranking of articles across search providers.
-
-As administrators, you can set up a data refresh schedule to specify the refresh frequency of the ingestion service. The ingestion service captures new or updated articles along with any data that might have been missed during ingestion.
+With integrated search providers in Dynamics 365 Customer Service, agents can search knowledge articles consolidated from external providers. Articles are ingested into Dataverse and refreshed on the schedule you specify.
 
 ## Prerequisites
 
-If you're a first time user, you must provision integrated search providers. Make sure you have the following privileges:
+To provision integrated search providers, you need the following privileges:
 
-- At Basic level: **prvReadconnector**
-- At Global level:
-    - **prvReadWorkflow**
-    - **prvWriteWorkflow**
-    - **prvCreatemsdyn_knowledgeconfiguration**
-    - **prvReadmsdyn_knowledgeconfiguration**
-    - **prvWritemsdyn_knowledgeconfiguration**
-    - **prvDeletemsdyn_knowledgeconfiguration**
+- Basic level: **prvReadconnector**
+- Global level:
+  - **prvReadWorkflow**
+  - **prvWriteWorkflow**
+  - **prvCreatemsdyn_knowledgeconfiguration**
+  - **prvReadmsdyn_knowledgeconfiguration**
+  - **prvWritemsdyn_knowledgeconfiguration**
+  - **prvDeletemsdyn_knowledgeconfiguration**
 
-More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges#security-roles-and-the-legacy-ui)
+[Learn more about security roles and privileges](/power-platform/admin/security-roles-privileges#security-roles-and-the-legacy-ui).
 
-### Provision integrated search providers
+## Enable the Integrated Search API trigger flow
 
-You must provision the integrated search provider from Customer Service admin center.
+Before you can provision integrated search providers, you need to enable the Integrated Search API trigger flow.
 
-1. On the Customer Service admin center site map, go to **Knowledge** > **Integrated Search providers (Preview)** > **Manage**.
+[!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
+
+1. Sign in to [make.powerapps.com](https://make.powerapps.com).
+1. Go to **Solutions** > **Default Solution** > **Cloud flows** and turn on **Integrated Search API trigger flow**.
+
+    :::image type="content" source="media/int-search-turn-on.jpg" alt-text="Screenshot of enabling the Integrated Search API trigger flow." lightbox="media/int-search-turn-on.jpg":::<!-- EDITOR'S NOTE: Please highlight the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main).-->
+
+## Provision integrated search providers
+
+1. Sign in to the Dynamics 365 Customer Service admin center.
+1. Go to **Knowledge** > **Integrated Search providers (Preview)** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
-
-If you aren't able to provision the integrated search provider, you'll need to [enable the Integrated Search API trigger flow](#enable-the-integrated-search-api-trigger-flow).
 
 If integrated search isn't enabled in your geographical region, contact Microsoft Support to provision the feature.
 
-### Enable the Integrated Search API trigger flow
-
-> [!NOTE]
-> To turn on the **Integrated Search API trigger** flow, make sure you have the **prvReadWorkflow** (Global level) privileges.
-
-1. Go to [make.powerapps.com](https://make.powerapps.com).
-1. Go to **Solutions** > **Default Solution** > **Cloud flows** and turn on the **Integrated Search API trigger flow** flow.
-:::image type="content" source="media/int-search-turn-on.jpg" alt-text="Turn on Integrated search API trigger flow":::
-
-You can now add integrated search providers.
-
 ## Add integrated search providers
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
-2.	In the **Integrated search providers** section, select **Manage**.
-3.	Select **New**. The **Add an integrated search provider** dialog appears.
-4.	In the **Provider info** section, do the following:
-    1. **Search provider name**: Enter the name of the search provider.
-    1. **Description**: Enter the description of the search provider.
-    The **Data source** and **Owner** are auto filled.
-    1. Select the authorization check box.
-    1. Select **Next**.
-    
-1.	In the **Authentication and testing** section, enter the following information:
-    1. **Root URL**: Provide the root URL of the website along with the protocol.
-    1. **Site map URL**: Provide the site map URL of the source website. To get the site map URL, for example, type https://www.contoso.com/robots.txt in the address bar.
+Dataverse data ingestion works with static websites only. Websites that return scripts to load content aren't supported for data ingestion. You must enter a unique combination of root URL, site map URL, and language filters.
+
+1. In the Customer Service admin center, under **Experiences**, select **Knowledge**.
+1. On the **Knowledge** page, in the **Integrated search providers** section, select **Manage**.
+1. Select **New**.
+1. In the **Provider info** section:
+
+    - **Search provider name**: Enter the name of the search provider.
+    - **Description**: Enter the description of the search provider.
+    - Select the authorization check box.
+
+1. Select **Next**.
+
+1. In the **Authentication and testing** section:
+
+    - **Root URL**: Enter the root URL of the search provider website, including the protocol.
+    - **Site map URL**: Enter the site map URL of the website. To get the site map URL, enter the root URL followed by `/robots.txt` in the address bar, and then search the file for "sitemapindex."<!-- EDITOR'S NOTE: I felt this needed a little more explanation. Is what I added correct? -->
+
         > [!NOTE]
-        > - The site map that you provide must have the **lastmod** tag within the article **url** tag.
-        > - The site map and the site index files must have content-type as either application/xml or text/xml.
-        > - You must provide static websites only for data ingestion. Websites that return scripts to load content aren't supported for data ingestion.
-    1. **Language filter for ingestion**: Select the languages you want to specifically map for the ingestion from the dropdown list. Select **Reset** to clear the language selection. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language code.
-    1. Select **Next**.
-1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you've saved it. For details on knowledge article schema mapping, go to [Configure knowledge article schema mapping](int-data-mapping.md#configure-knowledge-article-schema-mapping).
-1.	In the **Refresh Schedule** section, specify the refresh intervals:
-    1. **Refresh frequency**: Select a value from the dropdown list. Your selection specifies the frequency at which newly created or updated articles are ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
-    1. **Lookback period**: Select a value from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during ingestion.
-        
-        For example, if you set the refresh frequency at 15 minutes and lookback period at 2 hours, your data is refreshed for the last 2 hours and 15 minutes, in every 15 minutes.
-    1. Select **Next**.
-1.	In the **Summary** section, review your search provider setup and make changes, if any, to the **Search provider name**, **Root URL**, **Authentication type**, **Refresh frequency**, and **Lookback period**.
+        >
+        > - The site map that you provide must have the **lastmod** tag within the article **url** tag.<!-- EDITOR'S NOTE: Please clarify this. -->
+        > - The site map and the site index files must have content-type as either application/xml or text/xml.<!-- EDITOR'S NOTE: You didn't mention a site index file before. Do you need to? Also, how can the admin determine the content-type? -->
 
-1. Select **Save and close**. Your newly added search provider now appears on the **Knowledge** > **All integrated search providers** page. The status of the search provider will be **Inactive** with status reason as **Validated**.  
+    - **Language filter for ingestion**: Select the languages you want to map for the ingestion. Select **Reset** to clear your selection. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language code.<!-- EDITOR'S NOTE: Is there a word missing in "mapping for language code"? -->
 
-1. Optionally, select **Save as draft**, if you still need to provide information for any of the sections. The status of the search provider will appear as **Inactive** with status reason as **Draft**.
+1. Select **Next**.
 
-1. Run a **Time-range based ingestion** or **Trial ingestion** for your search providers.
+1. In the **Knowledge article schema** section, select either **Field Mapping** or **JSON Schema**.
 
-> [!NOTE]
->  A unique combination of root URL, site map URL, and language filters only are allowed.
+    You can't change the configuration method after you save it. [Learn more about knowledge article schema mapping](int-data-mapping.md#configure-knowledge-article-schema-mapping).
+
+1. In the **Refresh Schedule** section, specify the refresh intervals:
+
+    - **Refresh frequency**: Select a value from the list to specify the frequency at which new or updated articles are ingested from the search provider. To pause ingestion, select **No refresh**.
+    - **Lookback period**: Select a value from the list to specify an additional period over which articles should be ingested that might have been missed during the initial ingestion.
+
+        For example, if you set the refresh frequency at 15 minutes and lookback period at 2 hours, your data is refreshed for the last 2 hours and 15 minutes, every 15 minutes.
+
+1. Select **Next**.
+
+1. In the **Summary** section, review the information you entered and make any changes you need to.
+
+1. Select **Save and close**.
+
+    The new search provider appears on the **Knowledge** > **All integrated search providers** page. Its status is **Inactive** with status reason **Validated**.  
+
+    If you don't have some of the information, select **Save as draft**. The status is **Inactive** with status reason **Draft**.
 
 ## Run ingestion for search providers
 
-Depending on the status of your search provider, you can either run a time-range based or a trial ingestion. When you initiate a trial ingestion, you'll be able to rectify errors that might come up when you add an integrated search provider. You can view the status of your ingestion on the **Insights** tab, **Crawl failures** column.
+Depending on the search provider's status, run either a time-range based or a trial ingestion. When you start a trial ingestion, you can spot and correct any errors. View the status of your ingestion on the **Insights** tab in the **Crawl failures** column.
 
-You can't run ingestion for search providers that are **Inactive** with status reason as **Draft**.
+You can't run ingestion for search providers that are **Inactive** with status reason **Draft**.
 
 ### Trial ingestion
 
-If your search provider is **Inactive** with status reason as **Validated**, you can initiate an trial ingestion, by performing the following steps:
+If your search provider is **Inactive** with status reason **Validated**, you can run a trial ingestion.
 
-1. Select the search provider from the **Knowledge** > **All integrated search providers** page.
+1. On the **Knowledge** > **All integrated search providers** page, select the search provider.
 1. Select **Run Ingestion**.
-1. On the **Run Ingestion** dialog, select the **Trial Ingestion** option, and then specify the number of articles to be selected from the **No of records** dropdown list. The maximum number of articles that you can select for the ingestion is 1000.
+1. Select **Trial Ingestion**.
+1. Specify the number of articles to ingest from the **No of records** list. The maximum number of articles you can select is 1,000.
 
-If there are errors during the ingestion, you'll be able to view them on the **Insights** tab. If you don't see any errors after the trial ingestion and want to run a time-range based ingestion, you'll need to activate the search provider. More information: [Activate search providers](#activate-search-providers).
+Check the **Insights** tab for errors. If you don't see any and you want to run a time-range based ingestion, [activate the search provider](#activate-search-providers) first.
 
 ### Time-range based ingestion
 
-If your search provider is **Active** with status reason as **Ingestion Ready**, you can initiate a time-range based ingestion, by performing the following steps:
+If your search provider is **Active** with status reason **Ingestion Ready**, initiate a time-range based ingestion.
 
-1. Select the search provider from the **Knowledge** > **All integrated search providers** page.
+1. On the **Knowledge** > **All integrated search providers** page, select the search provider.
 1. Select **Run Ingestion**.
-1. On the **Run Ingestion** dialog, select the **Time-range based ingestion** option, and then specify the date range to pick up updated articles for the ingestion. The date range has to be 60 days from the **From** date.
+1. Select **Time-range based ingestion**.
+1. Specify the date range from which to pick up updated articles for the ingestion. The date range has to be 60 days from the **From** date.
 
 ## Activate search providers
 
-When you activate a search provider, the ingestion of newly created or updated articles from the search provider is initiated and articles starts appearing in the search results.
+When you activate a search provider, new and updated articles start ingesting from the provider, and articles start appearing in the search results.
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
-1. In the **Integrated search providers (Preview)** section, select **Manage**.
-1. From the **Inactive search providers** list, select the inactive search provider that you want to
-activate and then select **Activate**.
-1. On the confirmation dialog, select **Activate**. The search provider that you activated is added to the
-**Active search providers** list.
+1. In the Customer Service admin center, under **Experiences**, select **Knowledge**.
+1. On the **Knowledge** page, in the **Integrated search providers** section, select **Manage**.
+1. From the **Inactive search providers** list, select a search provider, and then select **Activate**.
+1. Select **Activate** again to confirm you want to activate the search provider.
 
 ## Edit search providers
 
-When you edit a search provider, your changes will appear in the subsequent ingestion run.
+When you edit a search provider, your changes take effect with the next ingestion.
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The Knowledge page appears.
-1. In the **Integrated search providers (Preview)** section, select **Manage**.
-1. Select the **Active integrated search providers** or the **Inactive integrated search providers** from the **All integrated search providers** dropdown list, and then select the search provider that you want to make changes to.
+1. In the Customer Service admin center, under **Experiences**, select **Knowledge**.
+1. On the **Knowledge** page, in the **Integrated search providers** section, select **Manage**.
+1. Select **Active integrated search providers** or **Inactive integrated search providers** from the **All integrated search providers** list, and then select the search provider that you want to make changes to.
 1. Select **Edit**.
-1. On the **Search provider details** page, select the specific tab where you want to make your changes and select **Save and Close** after you have made your changes.
+1. On the **Search provider details** page, select the tab where you want to make changes.
+1. Edit the information as needed.
+1. Select **Save and Close**.
 
 ## Deactivate search providers
 
-When you deactivate a search provider, the ingestion of newly created or updated articles from the search provider stops and the articles that have already been ingested won't appear in the search results.
+When you deactivate a search provider, ingestion of new and updated articles from the search provider stops. Articles that have already been ingested no longer appear in search results.
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The **Knowledge** page appears.
-2. In the **Integrated search providers (Preview)** section, select **Manage**.
-3. From the **Active search providers** list, select the active search provider that you want to deactivate and then select **Deactivate**.
-4. On the confirmation dialog, select **Deactivate**.
-The search provider that you deactivated is added to the **Inactive search providers** list.
+1. In the Customer Service admin center, under **Experiences**, select **Knowledge**.
+1. On the **Knowledge** page, in the **Integrated search providers** section, select **Manage**.
+1. From the **Active search providers** list, select a search provider.
+1. Select **Deactivate**.
+1. Select **Deactivate** again to confirm you want to deactivate the search provider.
 
 ## Configure search providers as search filters
 
 Configure search providers as filters to search knowledge articles only from selected data providers. The filter works only if you have Dataverse Search enabled.
 
 > [!NOTE]
-> If you have a custom layer on Knowledge Articles Quick find view, you will need to add msdyn_integratedsearchproviderid in View columns and Find columns for articles to stop appearing in the search results.
+> If you have a custom layer on the Knowledge Articles Quick Find view, add `msdyn_integratedsearchproviderid` in **View columns** and **Find columns** to make articles stop appearing in search results.
 
-To configure search providers as search filters for knowledge articles:
+1. In the Customer Service admin center, under **Experiences**, select **Knowledge**.
+1. In the **Filters** section, make sure that **Enable search filters** is set to **Yes**.
+1. From the **Select filter type** list, select **Integrated Search Dataprovider Id**, and then select **Add**.
+1. Select the **Search** icon.
+1. Select the search provider, and then select **Add**.
+1. Optionally, to set predetermined search providers to appear for agents by default, switch **Set as preselected filter** to **Yes**.
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Experiences**. The Knowledge page appears.
+If you select a deactivated data search provider, it might appear on the **Filter by** list, but no search results from the selected provider are returned.
 
-    In the **Filters** section, ensure that the **Enable search filters** toggle is switched to **Yes**.
-1. From the **Select filter type** dropdown list, select **Integrated Search Dataprovider Id**, and then select **Add**.
-1. From the **Lookup Records** dialog, select the **Search** icon.
-1. Select the search provider, and then select **Add**. The search provider gets added to your filters. 
-1. Optionally, to set predetermined search providers that'll appear for agents by default, switch the **Set as preselected filter** toggle to **Yes**.
+## Next steps
 
-If you select a deactivated data search provider, it might appear on the **Filter by** dropdown list, but you won't see any search results from the selected data provider.
-
-## Next Steps
-
- [View and use insights for search providers](view-and-use-insights.md)
-
+ [View and use insights for search providers](view-and-use-insights.md)  
  [Search knowledge articles](search-knowledge-articles-csh.md#search-knowledge-articles)
