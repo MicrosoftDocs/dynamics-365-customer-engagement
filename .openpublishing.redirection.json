@@ -2023,6 +2023,16 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/msdyn_WKWGDPRDeleteStatus.md",
+      "redirect_url": "msdyn_WKWPrivacyDeleteStatus",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/msdyn_WKWDeleteGDPRData.md",
+      "redirect_url": "msdyn_WKWDeletePrivacyData",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/dynamics-365-sales-gdpr.md",
       "redirect_url": "dynamics-365-sales-privacy",
       "redirect_document_id": "false"
