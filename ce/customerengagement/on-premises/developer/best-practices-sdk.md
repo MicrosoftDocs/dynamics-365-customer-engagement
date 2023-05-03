@@ -273,7 +273,7 @@ Best practices for use of the Dynamics 365 Customer Engagement (on-premises) sec
 
 - Strictly limit the number of people assigned the System Administrator role. Never remove this role.  
 - Create roles according to the security best practice of least privilege, providing access to the minimum amount of business data required for the task. Assign users the appropriate role for their job.
-- Create a new role with those specific privileges and add the user to the new role if a user needs additional access levels or rights. A user's rights are the union of all the roles to which he or she has been assigned. Do not grant the original role privileges that are needed by only one or several members.  
+- Create a new role with those specific privileges and add the user to the new role if a user needs additional access levels or rights. A user's rights are the union of all the roles to which they've been assigned. Do not grant the original role privileges that are needed by only one or several members.  
 - Use sharing, when appropriate, to give specific users specific rights on individual objects, instead of broader privileges on all objects of a given type.
 - Use teams to create cross-functional groups so that specific objects can be shared with the team.  
 - Train users who have sharing access rights to share the minimum information needed.  

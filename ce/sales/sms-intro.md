@@ -1,7 +1,7 @@
 ---
 title: Engage with customers through text messages
 description: Enable your sellers to send text messages (SMS) to customers and refer previous communications in context without leaving the application or losing view of customers' details.
-ms.date: 03/21/2023
+ms.date: 05/05/2023
 ms.topic: overview
 ms.custom: bap-template
 author: udaykirang
@@ -16,12 +16,6 @@ Sending and receiving text messages through SMS is an effective way for sellers 
 Dynamics 365 Sales enables your sellers to send and receive SMS from customers through the text message feature. Also, sellers can refer to their past communication in context without leaving the application or losing their view of their customers' details.   
 
 In the sequences, SMS can be included as a step to send reminders or updates about key events. 
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br> More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
 
 ## How can I use the text message feature?
 
@@ -67,9 +61,6 @@ The following roles are required along with the roles defined in the [salesperso
 | Custom Entities | Channel Instance | Business Unit | - Assign<br>- Write |
 | Custom Entities | - Channel Definition locale<br>- Telesign channel instance account<br>- Twilio channel instance account | Business Unit | Read |
 | Custom Entities | - Telesign channel instance<br>- Twilio channel instance | Business Unit | - Read<br>- Write<br>- Assign |
-
-
-[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

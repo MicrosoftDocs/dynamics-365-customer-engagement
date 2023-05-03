@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/27/2023
+ms.date: 05/02/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -173,21 +173,11 @@ The article you last marked as favorite appears first in your favorites list. If
 
 In Customer Service workspace and Omnichannel for Customer Service, when you select a favorite article, it opens in an app tab. In Customer Service Hub, the article opens in a new browser window.
 
-## Use integrated search providers (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+## Use integrated search providers
 
 View the most relevant search results for your query across search providers in a single ranking. With easy sorting, find the knowledge article that best suits your needs while dealing with a customer. The name of the source provider appears on the knowledge article card. You can hover over to get the full name of the source provider, if necessary.
 
-To enable the integrated search provider option, contact your administrator. More information: [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview). After your administrator enables the feature, you can view search results for your keywords across your configured search providers in both Customer Service Hub and Customer Service workspace.
+To enable the integrated search provider option, contact your administrator. More information: [Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers). After your administrator enables the feature, you can view search results for your keywords across your configured search providers in both Customer Service Hub and Customer Service workspace.
 
 To search from Customer Service workspace, for example:
 
