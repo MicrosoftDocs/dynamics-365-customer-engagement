@@ -460,8 +460,6 @@
         items:
         - name: Manage integrated search providers
           href: add-search-provider.md
-        - name: Apply authentication for search providers
-          href: apply-authentication-provider.md
         - name: Configure knowledge article schema mapping
           href: int-data-mapping.md
         - name: View and use insights for search providers
@@ -1110,8 +1108,8 @@
           href: intraday-conversation-insights.md
         - name: Set idle time threshold
           href: set-idle-time-threshold.md
-        - name: View and understand Omnichannel Ongoing Conversations dashboard
-          href: ongoing-conversations-dashboard.md
+      - name: View and understand Omnichannel Ongoing Conversations dashboard
+        href: ongoing-conversations-dashboard.md
       - name: Use Omnichannel for Customer Service metrics
         href: oc-metrics-dimensions.md
       - name: Personalize analytics
@@ -1800,7 +1798,7 @@
       href: troubleshoot-using-solution-health-hub.md
     - name: Report issues in Omnichannel for Customer Service
       href: report-issues.md
-    - name: Troubleshoot issues for integrated search providers
+    - name: Troubleshoot issues with integrated search providers
       href: int-search-troubleshoot.md
   - name: Share feedback in Customer Service
     href: cs-share-feedback.md

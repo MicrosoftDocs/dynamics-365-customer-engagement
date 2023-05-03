@@ -5,12 +5,10 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 02/06/2023
+ms.date: 05/02/2023
 ms.custom: bap-template 
 ---
 # Manage opportunities using pipeline view
-
-[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
 The opportunity pipeline view (formerly known as deal manager) helps you visualize the opportunities in your pipeline, and prioritize and manage them effectively. The charts in the view help you figure out which deals to follow up with next. The KPIs help determine the current status of deals in the pipeline, deals successfully closed, and deals lost, and their respective revenue.
 
