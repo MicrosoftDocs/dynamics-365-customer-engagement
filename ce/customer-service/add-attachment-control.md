@@ -14,8 +14,8 @@ ms.custom: bap-template
 
 You can add the **Attachment Control** component to case forms so that agents can view and upload attachments. You can also add the component to other entity forms, such as Account or Contact, so that agents can view attachments uploaded through notes or emails.
 
-   > [!NOTE]
-   > Agents can upload attachments directly only for cases and not on other entities. 
+> [!NOTE]
+> Agents can upload attachments directly only for cases and not on other entities. 
 
 ## Upload and view attachments on case forms
 
@@ -29,7 +29,7 @@ If you've enabled the enhanced full case form or added the **Attachment Control*
 
    :::image type="content" source="media/case-enh-save-mini.png" alt-text="Enhanced quick case form edit" lightbox="media/case-enh-save.png":::
 
-If agents need to upload attachments, grant permission on the Entity attachment custom entity to the applicable security role that's assigned to the agent. More information: [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role#create-a-security-role).
+If agents need to upload attachments, grant permission on the **Entity attachment** custom table to the applicable security role that's assigned to the agent. More information: [Create or edit a security role to manage access](/power-platform/admin/security-roles-privileges#security-roles-and-the-new-modern-ui-preview).
 
 ## View attachments on other entity forms
 

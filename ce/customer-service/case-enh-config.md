@@ -15,7 +15,7 @@ ms.custom: bap-template
 Enable the enhanced **Quick case form** and **Full case form**  options, so that your agents can see the enhanced quick case form and full case form, when they create a new case in Customer Service workspace.
 
 > [!NOTE]
-> The enhanced case creation experience is available only in the Customer Service workspace app only.
+> The enhanced case creation experience is available in the Customer Service workspace app only.
 
 ## Enable enhanced case experience
 To enable the enhanced case forms, perform the following steps:
@@ -45,11 +45,11 @@ The following components are available out-of-the box in the enhanced full case 
 |Legend|Component   | Description   | Entity   |  Additional actions| 
 |------ |----------|-----------|----------|-----------|
 | 1 |**Associated Grid Control** | Displays the relevant records linked to the current record as subgrids. You can configure up to four subgrids using this component. More information: [Configure components to display case associations](add-associated-grid-control.md)| Available for all entities.| Not Applicable. |
-| 2 | **Attachment Control** | Enables you to upload and display attachments. More information: [Use Attachment Control to customize forms](add-attachment-control.md)| You can use this control to upload and display attachments for case entities only.<br> For all other entities, use this component to display the uploaded attachments. | For a case entity, set the **Table Column** in the component to **Pre Create Entity Attachment Id**. |
+| 2 | **Attachment Control** | Enables you to upload and display attachments. More information: [Use Attachment Control to customize forms](add-attachment-control.md)| You can use this control to upload and display attachments only for the case entity.<br> For all other entities, use this component to display the attachments uploaded through email and notes. | For a case entity, set the **Table Column** in the component to **Pre Create Entity Attachment Id**. |
 | 3| **OptionSet Wrapper** | Displays the selected option set values as color-coded options on the form. For example, if you add **Priority** on a case, the application displays color-coded priority icons. If you add **Case Status**, color-coded status options are displayed.| Available for all entities. | Specify the required optionset in **Table Column**.|
 | 4 | **Queue Item Control** |  Displays the current queue a record belongs to and the **Worked by** field. You can edit the **Worked by** and save the changes.| Available for queue enabled entities.| Specify a value in **Table Column**.|
 |5 | **Due open activities control** |  Displays the activities that are due today or are overdue. More information: [Use the Due open activities control to customize forms](add-due-open-activities.md)  | Available for all entities.| **Table** must be set to **Activities**.|
-| | **Notes Control** | Allows you to take notes on a form before saving a record. The rich text editor tool is enabled by default.| Available for case entities only.| - Set the **Table Column** in the component to **Pre Create Notes Id**. <br> - To configure advanced rich text configurations, specify the **Rich text editor configuration URL**. More information: [Create and use advanced configuration for the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#create-and-use-advanced-configuration-for-the-rich-text-editor-control)|
+| | **Notes Control** | Allows you to take notes on a form before saving a record. The rich text editor tool is enabled by default.| Available for case entity only.| - Set the **Table Column** in the component to **Pre Create Notes Id**. <br> - To configure advanced rich text configurations, specify the **Rich text editor configuration URL**. More information: [Create and use advanced configuration for the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#create-and-use-advanced-configuration-for-the-rich-text-editor-control)|
 
 
 You can add these default components to other forms and customize them. More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
