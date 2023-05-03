@@ -142,7 +142,7 @@ You must validate the configuration and validation steps given in the following 
 
 A legacy ARC rule item using polymorphic lookups such as **Sender** results in an invalid lookup when assigned to a text field. 
 
-In legacy ARC rule items in Customer Service, to look up the entity (either contact or account) that sent an email, you can use the  **Sender (Email)** polymorphic lookup, which automatically fetches the appropriate entity and displays the entity's name. Polymorphic lookups are lookups where the target of the lookup is more than one kind of entity, for example, it can point to either a contact or an account. However, in modern ARC, this automatic display isn't supported. So, you'll need to specify the type of entity you want to retrieve along with the fields to display from that entity.
+In legacy ARC rule items in Customer Service, to look up the entity (either contact or account) that sent an email, you can use the  **Sender (Email)** polymorphic lookup, which automatically fetches the appropriate entity and displays the entity's name. Polymorphic lookups are lookups where the target of the lookup is more than one kind of entity. For example, it can point to either a contact or an account. However, in modern ARC, this automatic display isn't supported, so you'll need to specify the type of entity you want to retrieve along with the fields to display from that entity.
 
 ### Reason
 
