@@ -10,7 +10,7 @@ ms.date: 05/04/2023
 ms.custom: bap-template 
 ---
 
-# Customize forms to view and upload attachments
+# Use the attachment control to customize forms
 
 You can add the **Attachment Control** component to case forms so that agents can view and upload attachments. You can also add the component to other entity forms, such as Account or Contact, so that agents can view attachments uploaded through notes or emails.
 
