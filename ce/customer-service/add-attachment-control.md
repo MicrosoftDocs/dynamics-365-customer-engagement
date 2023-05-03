@@ -29,7 +29,8 @@ If you've enabled the enhanced full case form or added the **Attachment Control*
 
    :::image type="content" source="media/case-enh-save-mini.png" alt-text="Enhanced quick case form edit" lightbox="media/case-enh-save.png":::
 
-If agents need to upload attachments, grant permission on the **Entity attachment** custom table to the applicable security role that's assigned to the agent. More information: [Create or edit a security role to manage access](/power-platform/admin/security-roles-privileges#security-roles-and-the-new-modern-ui-preview).
+If agents need to upload attachments, follow the steps in [Create or edit a security role to manage access](/power-platform/admin/security-roles-privileges#security-roles-and-the-new-modern-ui-preview) to
+grant permissions on the **Entity attachment** custom table to the applicable security role that's assigned to the agent. 
 
 ## View attachments on other entity forms
 
