@@ -33,7 +33,7 @@ You can set up your Customer Service workspace environment so that agents who wo
 ## Customer Service workspace sessions and tabs
 
 Customer Service workspace allows agents to work on multiple sessions at a time in a single app while keeping the work organized.
-Agents can work on up to nine sessions and within a session, they can open up to 10 tabs. A new session is launched when an agent opens a case from the **Home** session or accepts an incoming conversation. If the agent opens the customer record from a session, a new tab opens in the same session. Agents can select the hamburger icon to access the sitemap. When you open a page from the sitemap, it will load in the current focused session.
+Agents can work on up to nine sessions and within a session, they can open up to 10 tabs. A new session is launched when an agent opens a case from the **Home** session or accepts an incoming conversation. If the agent opens the customer record from a session, a new tab opens in the same session. Agents can select the hamburger icon to access the site map. When an agent opens a page from the site map, the page loads in the current focused session.
 
 ### Navigate sessions and tabs
 
@@ -85,10 +85,10 @@ More information: [Agent experience profiles](/dynamics365/app-profile-manager/o
 Here are a few things to note when you use Customer Service workspace in your organization:
 
 - We recommend that you have only one browser instance accessing the app.
-- `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs will behave the same as the multisession navigation. For example:
+- `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs have a similar navigation as the multisession app. For example:
     - A new session is initiated if you open a form through `XRM.Navigation.openForm` from Home.
     - A new tab in the focused session is initiated if you open a form through `XRM.Navigation.openForm` from a case session.
-- Opening a WebResource through `Xrm.Navigation.openWebResource` will open a new browser window but will not remove the navigation and command bars. You can programmatically open web resources as session tabs using `Microsoft.Apm.createTab` method. More information: [createTab method](../app-profile-manager/reference/microsoft-apm/createTab.md) 
+- Opening a WebResource through `Xrm.Navigation.openWebResource` will open a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using `Microsoft.Apm.createTab` method. More information: [createTab method](../app-profile-manager/reference/microsoft-apm/createTab.md) 
 - You can open sessions and tabs using Microsoft.Apm APIs. More information: [App profile manager JavaScript API Reference](../app-profile-manager/reference/microsoft-apm.md)
 
 ### Limitations
