@@ -26,7 +26,7 @@ If you've enabled the enhanced full case form or added the **Attachment Control*
 
    ### [Edit workflow: Case](#tab/quickcreateform)
 
-   After agents save a new case or if they open an existing case, the attachments grid is displayed. For more information on the actions agents can perform on this tab in runtime, see: [View an existing case using enhanced Full case form](enh-casemgmt-csw.md#view-an-existing-case-using-enhanced-full-case-form).
+   After agents save a new case or if they open an existing case, the attachments grid is displayed. For more information on the actions agents can perform, see: [View an existing case using enhanced Full case form](enh-casemgmt-csw.md#view-an-existing-case-using-enhanced-full-case-form).
 
    :::image type="content" source="media/case-enh-save-mini.png" alt-text="Enhanced quick case form edit" lightbox="media/case-enh-save.png":::
 
