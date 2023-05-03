@@ -27,12 +27,12 @@ For information about other updates to Universal Resource Scheduling, visit the 
 
 **Dataverse:** 4.0.94.14
 
-- Using ctrl/cmd+scroll on the schedule board will now increase/decrease the date range granularity.
-- The error message received when encoding an address for a resource will now indicate when an error occurs due to the address being too long.
+- Using ctrl/cmd+scroll on the schedule board adjusts the date range granularity.
+- The error message when encoding an address for a resource now tells you when an error occurs because the address is too long.
 - When manually creating bookings on the schedule board using the "Fixed" booking method, you can now partially fulfil a requirement by reducing the duration.
 - Bug fixes:
-   - The legacy schedule board will no longer show system tabs.
-   - On the legacy schedule board, changes to tab settings will now be saved correctly.
+   - The legacy schedule board no longer shows system tabs.
+   - On the legacy schedule board, changes to tab settings are saved correctly.
 
 
 ## 3.12.103.21
