@@ -34,6 +34,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 ## 8.8.91.36
 (Includes Universal Resource Scheduling version [3.12.104.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210414) and Resource Scheduling controls version 1.2.44.231111).
 
+- Improved performance of booking creation.
 - Dynamics 365 Field Service Mobile: Updated solution package to ship standard forms for msdyn_bookableresourcebookingquicknote.
 
 ## 8.8.89.38
