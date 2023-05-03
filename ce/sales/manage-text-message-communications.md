@@ -13,12 +13,6 @@ ms.author: udag
 
 You can manage customer conversations through incoming and outgoing text messages as a part of your sales outreach.   
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
-
 ## Prerequisites
 
 Before you start using the inbound text message feature, verify that the following prerequisites are met:
@@ -105,8 +99,6 @@ The following image is an example of the conversation pane.
 2. **Manage templates**: Choose templates to send personalized messages to customers. Also, you can choose to create templates if any of the existing templates don't meet your requirements. More information: [Personalize text messages through templates](create-text-message-templates.md)  
 
 3. **Choose phone number**: If multiple phone numbers are assigned to you or your team, you can choose a number from which you want to send and receive the message. More information: [Set up the SMS provider in Dynamics 365 Sales](configure-sms-provider.md#set-up-the-sms-provider-in-dynamics-365-sales) 
-
-[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
