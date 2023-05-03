@@ -17,20 +17,16 @@ Customize the case resolution experience in Power apps as follows:
 - When agents try to close a case with open activities, the application displays a warning message with a redirect link. You can configure the tab agents view when they select this link.
 - Choose to display the legacy **Resolve case** dialog instead of the default minimal **Resolve case** dialog when an agent closes a case with open activities.
 
-## Specify tab to redirect users to close the open activities for a case
+##  Redirect users to a specific tab to close the open activities for a case
 
-You can configure the tab users must be redirected to when they select the open activities link on the  **Resolve Case** dialog. You can set this at an environment level or for a specific app.
+You can configure the tab users must be redirected to when they select the open activities link on the  **Resolve Case** dialog. You'll need to add and configure the **Redirect user to the specified tab to close open activities** setting definition in Power Apps to set the tab at an environment level or for a specific app.
 
-1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-2. Select **Solutions**, and then select the required solution.
-4. Select **Add Existing** > **More** > **Setting**.
-1. On the **Add existing Setting Definition** pane, select the **Redirect user to the specified tab to close open activities** option and then select **Next**.
-1. Select **Add** on the **Selected Setting Definition** to add the **Redirect user to the specified tab to close open activities** option to your solution.
-1.  Go to **Add Existing** > **App** > **Model-driven app**> **Add existing model-driven apps** pane.
-1. Select the **Redirect user to the specified tab to close open activities** option. The **Edit Redirect user to the specified tab to close open activities** pane appears.
-1. Set the **Setting environment value** option to the required tab. You can find the tab's name in the **Display options** > **Name** field of the corresponding form. In the **Setting app value** section, the Customer Service Hub and Customer Service workspace apps are displayed. 
-1. Optionally, select **New app value** for the app. For a specified app, the tab set at the application level overrides the environment level setting.
-
+1. In [Power Apps](https://make.powerapps.com/), add the **Redirect user to the specified tab to close open activities** setting definition. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition).
+1.  You'll need to update the setting definition with the tab name. To find the tab's name, perform the following steps:
+    - Navigate to a form which has the required tab.
+    - Select the tab, and then copy the value in **Name** in **Display options**.  
+1. In the **Edit Redirect user to the specified tab to close open activities** pane, paste the name in the **Setting environment value** option. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
+1. Optionally, in the **Setting app values** section, or a required app, you can set the tab in **New app value**. The tab set at the application level overrides the environment level setting.
 
     :::image type="content" source="media/powerapps-redirect-user-tab.png" alt-text="Redirect link to tab" lightbox="media/powerapps-redirect-user-tab.png":::
 
@@ -38,25 +34,21 @@ You can configure the tab users must be redirected to when they select the open 
 
 ## Disable the minimal case resolution dialog
 
-You can choose to display the legacy case resolution dialog box that appears when an agent selects **Resolve case**.
+You can choose to display the legacy case resolution dialog box that appears when an agent selects **Resolve case**. You'll need to add and configure the **Enable minimal case resolution dialog** setting definition in Power Apps to revert to the legacy case resolution dialog.
 
 > [!NOTE]
-> You can revert to the legacy case resolution dialog only if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Customer Service admin center.
+> - You can revert to the legacy case resolution dialog only if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Customer Service admin center.
+> - If **Resolve case dialog**  is set to **Customizable dialog** or **Quick create dialog**, to add **Duration**, **Billable TIme**, **Total Time** and other customizations, perform the steps in [Modify the case resolution dialog](modify-case-resolution-dialog.md).
 
 Perform the following steps:
 
-1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-2. Select **Solutions**, and then select the required solution.
-4. Select **Add Existing** > **More** > **Setting**.
-1. On the **Add existing Setting Definition** pane, select the **Enable minimal case resolution dialog** option and then select **Next**.
-1. Select **Add** on the **Selected Setting Definition** to add the **Enable minimal case resolution dialog** option to your solution. 
-1.  Go to **Add Existing** > **App** > **Model-driven app**> **Add existing model-driven apps** pane.
-1. Select the **Enable minimal case resolution dialog** option. The **Enable minimal case resolution dialog** pane appears.
-1. Set the **Setting environment value** option to **Yes**. In the **Setting app value** section, the Customer Service Hub and Customer Service workspace apps are displayed.
-1. Optionally, select **New app value** for the app, and set the value to **Yes** for the respective apps. For a specified app, the tab set at the application level overrides the environment level setting.
-1. Select **Publish All Customizations**.
+1. In [Power Apps](https://make.powerapps.com/), add the **Enable minimal case resolution dialog** setting definition. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition).
+1. In the **Edit Enable minimal case resolution dialog** pane, set the **Setting environment value** option to **No**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
+1. Optionally, in the **Setting app values** section, for a required app, you can set the value to **No** in **New app value**. The tab set at the application level overrides the environment level setting.
 
-   :::image type="content" source="media/powerapps-minimal-case.png" alt-text="disable the minimal case resolution dialog" lightbox="media/powerapps-minimal-case.png":::
+    :::image type="content" source="media/powerapps-minimal-case.png" alt-text="Revert to legacy setting":::
+
+1. Select **Publish All Customizations**.
 
 ### See also
 

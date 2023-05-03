@@ -4,7 +4,7 @@ description: Set the focused view as the default view for contact, account, lead
 author: udaykirang
 ms.author: udag
 ms.topic: how-to 
-ms.date: 03/28/2023
+ms.date: 05/05/2023
 ms.custom: bap-template 
 ---
 
@@ -14,13 +14,6 @@ The focused view allows sellers to view and manage account, contact, lead, and o
 
 >[!IMPORTANT]
 >When you set the focused view as the default, users can't switch to list view. To allow users to use both views, make the list view the default.  
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Set as default view
 
