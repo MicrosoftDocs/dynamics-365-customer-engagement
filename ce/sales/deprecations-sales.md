@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Sales | MicrosoftDocs
 description: Visit this page to see what's deprecated in Dynamics 365 Sales.
-ms.date: 07/01/2022
+ms.date: 05/03/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,6 +19,11 @@ The features that have been deprecated in Sales are listed in this article. For 
 > [!Important]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+<a name='playbooks'></a>
+## Playbooks will be deprecated
+
+Starting July 7, 2023, the playbooks feature will be discontinued region-wise. After the feature is discontinued, you can no longer access, create, or launch playbooks. Existing playbooks will not be migrated, hence we recommend that you define sequences for the playbook use cases that you want to carry over. Learn more about [sequences](create-manage-sequences.md).  
+
 <a name='talking-points'></a>
 ## Talking points is deprecated
 
@@ -26,7 +31,7 @@ Effective August 2022, the talking points feature is deprecated. After the featu
 
 ## Premium auto capture is deprecated
 
-Effective July 2022, premium auto capture will be deprecated. The deprecation will impact customers who have enabled the premium auto capture preview. This feature enables users to get activity and contact suggestions. 
+Effective July 2022, premium auto capture is deprecated. The deprecation impacts customers who have enabled the premium auto capture preview. This feature enables users to get activity and contact suggestions. 
 
 You can switch to basic auto capture to get activity suggestions. However, no alternative is available for contact suggestions currently. For more information about basic auto capture, see [Capture customer-related activities with auto capture](auto-capture.md). 
 
