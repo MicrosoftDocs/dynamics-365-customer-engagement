@@ -24,7 +24,7 @@ To enable the enhanced case forms, perform the following steps:
 1. Select **Manage** for **Enhanced case experience**.
 1. Switch the **Enhanced case experience** toggle to **Yes**.
    - To enable the enhanced full case form:
-      1. Switch the **Full case form** toggle to **Yes**, for your agents to see the enhanced full case form. 
+      1. Set the **Full case form** toggle to **Yes**, for your agents to see the enhanced full case form. 
       1. Select **Configure** to [customize the form in Power Apps](/power-apps/maker/model-driven-apps/create-and-edit-forms). The Power Apps form page opens on a new tab. 
    - To enable the enhanced quick case form:
       1. Switch the **Quick case form** toggle to **Yes**.

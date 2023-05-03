@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Customize forms to display open activities
 
-The **Due open activities control** helps agents see the activities that are either due today or overdue. The application displays the due or overdue activities as a hyperlink. This component is available out-of-the-box on the enhanced full case form.
+The **Due open activities control** helps agents see the activities that are either due today or overdue. The application displays the due or overdue activities as a hyperlink. This component is available out of the box on the enhanced full case form.
 
 ## Customize forms with Due open activities control
 

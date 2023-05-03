@@ -18,19 +18,13 @@ You can add the **Attachment Control** component to case forms so that agents ca
 
 If you've enabled the enhanced full case form or added the **Attachment Control** component to other case forms, the following actions are applicable:
 
-   ### [Create workflow: Case](#tab/createacase)
-
-   When agents create a new case, and before the case is saved, they can upload attachments to the case.
+- When agents create a new case, and before the case is saved, they can upload attachments to the case. 
     
    :::image type="content" source="media/enh-case-attach-mini.png" alt-text="Enhanced quick case form create" lightbox="media/enh-case-attach.png":::
 
-   ### [Edit workflow: Case](#tab/quickcreateform)
-
-   After agents save a new case or if they open an existing case, the attachments grid is displayed. For more information on the actions agents can perform, see: [View an existing case using enhanced Full case form](enh-casemgmt-csw.md#view-an-existing-case-using-enhanced-full-case-form).
+- After agents save a new case or if they open an existing case, the attachments grid is displayed. For more information on the actions agents can perform, see: [View an existing case using enhanced Full case form](enh-casemgmt-csw.md#view-an-existing-case-using-enhanced-full-case-form).
 
    :::image type="content" source="media/case-enh-save-mini.png" alt-text="Enhanced quick case form edit" lightbox="media/case-enh-save.png":::
-
----
 
 If agents need to upload attachments, grant permission on the Entity attachment custom entity to the applicable security role that's assigned to the agent. More information: [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role#create-a-security-role).
 
@@ -38,19 +32,13 @@ If agents need to upload attachments, grant permission on the Entity attachment 
 
 When you add the **Attachment Control** component to other entity forms such as Account or Customer, agents can only view and download attachments. The following actions are applicable:
 
-   ### [Create workflow: Other entities](#tab/createacase)
-
-   Agents can view attachments for saved records only.
+- Agents can view attachments for saved records only.
     
    :::image type="content" source="media/new-entity-create-mini.png" alt-text=" create record for an entity form" lightbox="media/new-entity-create.png":::
 
-   ### [Edit workflow: Other entities](#tab/quickcreateform)
-
-   After agents save a new record or open an existing record, the attachments grid is displayed. Agents can only view and download the attachments uploaded through notes and email related to that entity.
+ - After agents save a new record or open an existing record, the attachments grid is displayed. Agents can only view and download the attachments uploaded through notes and email related to that entity.
 
    :::image type="content" source="media/entity-rec-save.png" alt-text=" edit record for an entity form" lightbox="media/entity-rec-save-mini.png":::
-
----
 
 ## Customize forms with Attachment Control
 
