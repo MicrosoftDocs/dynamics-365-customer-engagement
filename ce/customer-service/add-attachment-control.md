@@ -12,7 +12,10 @@ ms.custom: bap-template
 
 # Customize forms to view and upload attachments
 
-You can add the **Attachment Control** component to case forms so that agents can view and upload attachments. You can also add the component to other entity forms, such as Account or Contact, so that agents can view attachments.
+You can add the **Attachment Control** component to case forms so that agents can view and upload attachments. You can also add the component to other entity forms, such as Account or Contact, so that agents can view attachments uploaded through notes or emails.
+
+   > [!NOTE]
+   > Agents can upload attachments directly only for cases and not on other entities. 
 
 ## Upload and view attachments on case forms
 
@@ -32,11 +35,11 @@ If agents need to upload attachments, grant permission on the Entity attachment 
 
 When you add the **Attachment Control** component to other entity forms such as Account or Contact, agents can only view and download attachments that are uploaded through notes or email. They can't upload attachments directly to other entity records. The following actions are applicable:
 
-- Agents can only view attachments for an entity record that's saved. When agents create a new entity record, before they save the record, attachments aren't displayed.
+- Agents can only view attachments for an entity record that's saved. When agents create a new entity record, before they save the record, attachments aren't displayed. The application displays the following message when agents create a new entity record, and haven't saved the record.
     
    :::image type="content" source="media/new-entity-create-mini.png" alt-text=" create record for an entity form" lightbox="media/new-entity-create.png":::
 
- - After agents save a new record or open an existing record, the attachments grid is displayed. Agents can only view and download the attachments uploaded through notes and email related to that entity.
+ - After agents save a new record or open an existing record, the attachments grid is displayed as follows:
 
    :::image type="content" source="media/entity-rec-save.png" alt-text=" edit record for an entity form" lightbox="media/entity-rec-save-mini.png":::
 
@@ -49,7 +52,7 @@ On the required form, add the **Attachment Control** component.  More informatio
 |------ |----------|
 | Table Column | For case forms, set this field to **Pre Create Entity Attachments Id**, for agents to be able to upload attachments to a new case, before they've saved it.<br> For other entity forms this field can be set to any column, as attachments can't be uploaded directly to an entity record. |
 | Show Control Title | Displays or hides the **Attachments** label, when a new case is created.|
-| Show attachments from Conversation | Set this value to **Yes** or **No** to display or hide the attachments that were shared through conversations.|
+| Show attachments from Conversation | Set this value to **Yes** or **No** to display or hide the attachments that were shared through conversations such as live chat and asynchronous messaging conversations.|
 | Show attachments directly uploaded to entity |  Set this value to **Yes** or **No** to display or hide the attachments that were directly uploaded when the case was created.|  
 | Show attachments from email | Set this value to **Yes** or **No** to display or hide the attachments sent through email, for any entity.|  
 | Show attachments from notes | Set this value to **Yes** or **No** to display or hide the attachments that were added to notes on the timeline, for any entity.|  
