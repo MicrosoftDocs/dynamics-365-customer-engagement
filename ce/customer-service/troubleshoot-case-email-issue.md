@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot an issue faced when converting an email to a case | Microsoft Docs
 description: Learn how you can fix an issue with converting an email to a case in Dynamics 365 Customer Service.
-ms.date: 05/02/2023
+ms.date: 05/03/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -150,8 +150,8 @@ The classic workflow behavior used by legacy ARC has many hidden behaviors. For 
 
 ### Resolution
 
-1. Update the lookup to a specific type.
-2. Use a different field on the incoming entity that contains the desired text.
+- Update the lookup to a specific type.
+- Use a different field on the incoming entity that contains the desired text.
 
 ## See also
 
