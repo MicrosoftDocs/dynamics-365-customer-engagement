@@ -226,7 +226,7 @@ To set up a recurring journey:
 > [!IMPORTANT]
 > When the last iteration of a recurring journey is complete, the journey will change to a **Stopped** state. When the journey is stopped, it is assumed that the iteration schedule is completed. Attempting to restart the stopped customer journey will immediately result in the journey transitioning back to the stopped state.
 >
-> You can extend the customer journey after the last iteration of a recurring journey by increasing the **Iterations count** value. After you've increased the iterations count, the customer journey will go back to a **Live** state.
+> You can extend the customer journey after the last iteration of a recurring journey by increasing the **Iterations count** value. After you've increased the iterations count, Go live with the journey then the customer journey will go back to a **Live** state.
 >
 > To see the iterations that are already executed and executing, go to **Related** > **Customer Journey Iterations**. For each iteration, the **Created On** value marks the time that the iteration was started.
 
