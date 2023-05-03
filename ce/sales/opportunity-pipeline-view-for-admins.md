@@ -16,7 +16,6 @@ The opportunity pipeline view (formerly known as deal manager) helps your seller
 
 If you've previously configured the deal manager workspace, review [this FAQ](faq-sales.yml#are-there-any-differences-between-the-opportunity-pipeline-view-and-the-deal-manager-workspace) to understand what has changed.
 
-
 ## License and role requirements
 
 | Requirement type | You must have |  
@@ -24,7 +23,7 @@ If you've previously configured the deal manager workspace, review [this FAQ](fa
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## Video: Opportunity pipeline view 
+## Video: Opportunity pipeline view
 
 Watch this short video to know how the opportunity pipeline view helps sellers be more productive and efficient.  
 
@@ -40,7 +39,7 @@ By default, the **Read-only Grid view** is set as the default view for opportuni
 1. From the Power Apps Default Solution page, select **Entities** > **Opportunity**.
 1. Select the **Controls** tab and select **Pipeline view** for web, phone, and tablet. If you don't see the **Pipeline view** in the **Control** list, select **Add Control**. From the **Add Control** dialog, select **Pipeline view** and then select **Add**.
 
-   :::image type="content" source="media/pipeline-set-as-default.png" alt-text="Screenshot of the Controls tab with the Pipeline view set as default for web, phone, and tablet."::: 
+   :::image type="content" source="media/pipeline-set-as-default.png" alt-text="Screenshot of the Controls tab with the Pipeline view set as default for web, phone, and tablet.":::
 
 1. Save the changes and select **Publish**.  
     The opportunities pipeline view is now set as the default view for opportunities.
@@ -50,7 +49,6 @@ By default, the **Read-only Grid view** is set as the default view for opportuni
 ## Customize charts
 
 The charts in the pipeline view help sellers visualize their pipeline better. As an administrator, you can customize various elements in the bubble chart, such as the data on the x-axis and y-axis, the size and color of the bubble, the sort order for the legend, and tooltips. Similarly, you can customize elements in the funnel chart, such as the field used for segmentation, the aggregate function used, and so on.  
-
 
 ### Customize the bubble chart
 
@@ -72,7 +70,7 @@ The charts in the pipeline view help sellers visualize their pipeline better. As
     - **Tooltips**  
         Select the details that you want users to see displayed as tooltips when they hover over each bubble.  
 
-1. Save the changes and select **Publish**. 
+1. Save the changes and select **Publish**.
 1. [Open the opportunity pipeline view](use-opportunity-pipeline-view.md#open-the-opportunity-pipeline-view) to verify whether the changes took effect.
 
 ### Customize the funnel chart
@@ -89,11 +87,11 @@ The charts in the pipeline view help sellers visualize their pipeline better. As
     - **Values**  
       Select the field to be used for sizing the bars in the funnel. **Default:** Est. revenue  
     - **Aggregation**  
-        Select the aggregate function to use for the **Values** field. This height of the bar is determined by this field. The aggregate value is displayed when you hover over a segment in the funnel chart. 
+        Select the aggregate function to use for the **Values** field. This height of the bar is determined by this field. The aggregate value is displayed when you hover over a segment in the funnel chart.
     - **Sort legend**  
-        Specify how you want to sort the segments. For example, selecting Finish to start for a funnel chart segmented by pipeline phase will display the funnel from the last phase to first phase, that is from Close to Qualify. 
-   
-1. Save the changes and select **Publish**. 
+        Specify how you want to sort the segments. For example, selecting Finish to start for a funnel chart segmented by pipeline phase will display the funnel from the last phase to first phase, that is from Close to Qualify.
+
+1. Save the changes and select **Publish**.
 1. [Open the opportunity pipeline view](use-opportunity-pipeline-view.md#open-the-opportunity-pipeline-view) to verify whether the changes took effect.
 
 ## Customize the editable grid
@@ -101,10 +99,9 @@ The charts in the pipeline view help sellers visualize their pipeline better. As
 The grid in the Opportunity pipeline view is implemented using the Power Apps editable grid control. The grid can be customized as well as personalized. As an administrator, you can customize the grid to include columns and filters that are applicable for the entire sales organization. Sellers can [personalize their view](personalize-pipeline-view.md#what-can-you-personalize) to include columns and filters that they would like to view.  
 
 > [!NOTE]
-> If you have previously customized the editable grid in the deal manager using JavaScript, you will need to redo those customizations for the editable grid in the pipeline view. 
+> If you have previously customized the editable grid in the deal manager using JavaScript, you will need to redo those customizations for the editable grid in the pipeline view.
 
 To customize the editable grid, see the [Power Apps documentation](/power-apps/developer/component-framework/customize-editable-grid-control). For information on grid events, see [Events in forms and grids in model-driven apps](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids).  
-
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

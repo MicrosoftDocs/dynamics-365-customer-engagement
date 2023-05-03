@@ -19,7 +19,6 @@ As a seller, you can personalize the pipeline view depending on what you want to
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson or higher <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-
 ## What can you personalize?
 
 You can:
@@ -119,7 +118,3 @@ From the view drop-down, select the view that you want to switch to.
 :::image type="content" source="media/views-dropdown.PNG" alt-text="Screenshot highlighting the views dropdown list in deal manager.":::
  
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
-
-
-
-

@@ -424,7 +424,7 @@ The following administrators can opt out users at different levels:
 | Manager coaching tools | No | Yes |
 | **Admin configuration** |
 | Storage of call recording and conversation intelligence insights | Teams storage only | Option of Microsoft storage or your own Azure storage |
-| Supported languages for conversation intelligence | [Supported languages in Viva Sales](/viva/sales/supported-languages) | [Supported languages in Sales Premium](faqs-sales-insights.md#what-languages-are-supported-now) |
+| Supported languages for conversation intelligence | [Supported languages in Viva Sales](/viva/sales/supported-languages) | [Supported languages in Sales Premium](faqs-sales-insights.md#what-languages-are-supported) |
 | Supported languages for UI | [Supported languages in Viva Sales](/viva/sales/supported-languages) | All languages supported in Dynamics 365 Sales |
 
 ### How long does it take for data updates to reflect in the app?

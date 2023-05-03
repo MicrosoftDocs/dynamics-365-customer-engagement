@@ -14,7 +14,7 @@ The who knows whom feature helps your sales organization quickly identify collea
 
 > [!NOTE]
 >
-> Who knows whom isn't available in all regions. [Learn whether who knows whom is available in your region](faqs-sales-insights.md#in-which-region-are-the-features-available).
+> Who knows whom isn't available in all regions. [Learn whether who knows whom is available in your country/region](faqs-sales-insights.md#in-which-countryregion-are-the-features-available).
 >
 > For Office 365 data, your organization's data location must be one of the following and not your region-specific datacenter location:
 >
