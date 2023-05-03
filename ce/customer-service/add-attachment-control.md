@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Customize forms to view and upload attachments
 
-You can add the **Attachment Control** component to case forms and other entity forms. Agents can either upload and view attachments, or only view attachments based on the entity form you add this component to.
+You can add the **Attachment Control** component to case forms and other entity forms. Agents can either upload and view attachments, or view only attachments based on the entity form you add this component to.
 
 ## Upload and view attachments on case forms
 
