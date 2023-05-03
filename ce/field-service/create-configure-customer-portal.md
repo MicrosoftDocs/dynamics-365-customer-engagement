@@ -1,7 +1,7 @@
 ---
 title: Create and configure the Field Service Portal
 description: Set up and configure the Field Service Portal.
-ms.date: 03/05/2023
+ms.date: 05/03/2023
 ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
@@ -34,6 +34,8 @@ The Power Pages portal site gets created in the background. This process can tak
 Admins can configure most customer portal settings directly in Field Service.
 
 In Field Service, open the **Settings** area. Under **Customer Portal**, select **Customer Portal** and open the settings record.
+
+:::image type="content" source="media/customer-portal-settings.svg" alt-text="Screenshot of the customer portal settings in Dynamics 365 Field Service.":::
 
 ### Configuration tab
 
@@ -81,7 +83,7 @@ If you enabled the Self Scheduling (Preview) option, this tab lets you configure
 
 - **Maximum lead time for new bookings (days)**: Sets the maximum time, in days from today, during which the customer can schedule their booking.
 
-- **Enable Asset Selection**: When this option is enabled, the customer can select a specific asset to associate with their account while they schedule their booking. <!--TODO: any asset in the asset list or only assets that are already linked to customer account?-->
+- **Enable Asset Selection**: When this option is enabled, the customer can select a specific asset to associate with their account while they schedule their booking.
 
 - **Enable Additional Details**: Enables the options to submit extra text while scheduling the booking. The system saves the text as a note on the booking timeline.
 

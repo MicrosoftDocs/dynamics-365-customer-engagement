@@ -1,7 +1,7 @@
 ---
 title: Track a technician on the Field Service portal
 description: Send your customers information about the location of a technician for their upcoming service appointment in the Power Pages portal for Dynamics 365 Field Service.
-ms.date: 03/05/2023
+ms.date: 05/03/2023
 ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
@@ -13,8 +13,6 @@ search.app:
 # Track a technician on the Field Service portal
 
 Provide your customers with automated service reminders and notifications that include estimated technician arrival times. Reminders help your customers better plan their time around service visits.
-
-<!--TODO: Track a tech is GA but only work for bookings through the portal, right? I'd like to call out specifically about the state of the feature. If it can be used with other features in Field Service, we need to mention that. If it only works with the portal, it's kind of pointless to call this a GA feature because it would not have any benefit for orgs don't want to try the portal as long as it's preview.-->
 
 > [!div class="mx-imgBorder"]
 > ![Branded service details portal, along with a device render showing technician location on a mobile phone.](./media/technician-locator-hero.jpg)

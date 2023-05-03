@@ -1,7 +1,7 @@
 ---
 title: Set up notifications for the Field Service Portal
 description: Configure notifications to keep your customers up to date on their bookings and appointments.
-ms.date: 03/05/2023
+ms.date: 05/03/2023
 ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
@@ -21,21 +21,30 @@ The portal uses Power Automate flows to trigger notifications for customers. Bef
 
 The Customer Portal settings in Field Service link directly to the default Power Automate flows for email and SMS.
 
-<!--TODO: can't repro these steps as I don't have flow quota in my trial env -->
-
 1. Access the flows by going to the [Power Apps Maker portal](https://make.powerapps.com) > **Solutions** > **Dynamics 365 Field Service PowerApps Portal – Flow**.
 1. Select **Objects** > **Cloud flows** to see the list of flows.
-1. *Field Service PowerApps Power Flow Email Notifications* and *Field Service PowerApps Power Flow SMS Notifications* flows are off by default. Configure the flows before turning them on.
-1. Select and open the flow you want to configure. On the flow, select **Save as** and create a copy of the default flow.
-1. Open the flow you created and select **Edit**. Authenticate or update the connections and **Save** the flow.
-1. Then, select **Turn on** to enable the flow.
+
+To configure email:
+
+   1. Select the *Field Service PowerApps Power Flow Email Notifications* flow, which is turned off by default.
+   1. Open the flow and configure it.
+   1. On the flow, select **Save as** and create a copy of the default flow.
+   1. Open the flow you created and select **Edit**. Authenticate or update the connections and **Save** the flow.
+    1. Then, select **Turn on** to enable the flow.
+
+To configure SMS:
+
+   1. Select the *Field Service PowerApps Power Flow SMS Notifications* flow, which is turned off by default.
+   1. On the flow, select **Save as** and create a copy of the default flow.
+   1. Open the flow you created and select **Edit**. Authenticate or update the connections and **Save** the flow.
+   1. Then, select **Turn on** to enable the flow.
 
 ## List of notifications
 
 After configuring your portal and enabling notifications, emails and SMS messages will be sent to the customer contact. You can [customize some aspects for the portal](create-configure-customer-portal.md#customize-the-portal-design), which also apply to the notifications.
 
 The portal sends a notification for the following events:
-<!--TODO: this seems wrong. the flow recurrence is set to 1 hour and I don't see a setting to change the time period (7 days)-->
+
 - **Upcoming Booking**: Reminder messages are sent seven days before the scheduled service time. This message includes the scheduled service time and a link to the portal with information about the booking. By default, reminders are sent daily at 10:00 AM UTC for any bookings in the time period. You can change this time by editing the **Create notification items for bookings** flow.
 
 - **Traveling**: Sent when the booking status changes to *Traveling*. This message communicates estimated time of arrival while considering traffic on the planned route. It links to the customer portal where your customer can see more details.
@@ -60,12 +69,3 @@ In Field Service, go to the **Settings** area. Under **Customer Portal**, select
 With booking notification codes, Field Service admins can extend, expire, or block access to a portal link that has been shared with a customer.
 
 In Field Service, go to the **Settings** area. Under **Customer Portal**, select **Booking Notification Codes** to create and manage codes.
-
-<!-- TODO: I don't understand how that works and can't repro notifications. I would need to create a share code first, then map this to a booking notification code. Why do this manually? Please provide details for this section. -->
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the list of active notifications, along with their codes.](./media/08_FSSettings_BookingNotifications.jpg)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of notification details in Field Service.](./media/09_FSSettings_BookingNotifications-details.jpg)
-
