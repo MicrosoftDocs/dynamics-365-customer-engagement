@@ -30,9 +30,9 @@ If agents need to upload attachments, grant permission on the Entity attachment 
 
 ## View attachments on other entity forms
 
-When you add the **Attachment Control** component to other entity forms such as Account or Customer, agents can only view and download attachments. The following actions are applicable:
+When you add the **Attachment Control** component to other entity forms such as Account or Contact, agents can only view and download attachments that are uploaded through notes or email. They can't upload attachments directly to other entity records. The following actions are applicable:
 
-- Agents can view attachments for saved records only.
+- Agents can only view attachments for an entity record that's saved. When agents create a new entity record, before they save the record, attachments aren't displayed.
     
    :::image type="content" source="media/new-entity-create-mini.png" alt-text=" create record for an entity form" lightbox="media/new-entity-create.png":::
 
@@ -47,7 +47,7 @@ On the required form, add the **Attachment Control** component.  More informatio
 
 |Property | Description | 
 |------ |----------|
-| Table Column | For case forms, set this field to **Pre Create Entity Attachments Id**, for agents to be able to upload attachments to a new case, before they've saved it.<br> For other entity forms this field can be set to any column, as attachments can't be uploaded directly to a new entity record before it's saved. |
+| Table Column | For case forms, set this field to **Pre Create Entity Attachments Id**, for agents to be able to upload attachments to a new case, before they've saved it.<br> For other entity forms this field can be set to any column, as attachments can't be uploaded directly to an entity record. |
 | Show Control Title | Displays or hides the **Attachments** label, when a new case is created.|
 | Show attachments from Conversation | Set this value to **Yes** or **No** to display or hide the attachments that were shared through conversations.|
 | Show attachments directly uploaded to entity |  Set this value to **Yes** or **No** to display or hide the attachments that were directly uploaded when the case was created.|  
