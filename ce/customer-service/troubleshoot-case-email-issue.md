@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot issues with automatic record creation | Microsoft Docs
 description: See how you can fix an issue converting an email to a case in Dynamics 365 Customer Service
-ms.date: 05/02/2023
+ms.date: 05/03/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
