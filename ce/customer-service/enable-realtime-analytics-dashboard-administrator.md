@@ -1,7 +1,7 @@
 ---
 title: "Manage real-time analytics for supervisors | MicrosoftDocs"
 description: "Learn how to configure real-time analytics for Omnichannel for Customer Service."
-ms.date: 04/27/2023
+ms.date: 05/03/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -16,6 +16,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 >
 > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
+> [!NOTE]
+>  Any visual customizations that you might have made on the preview version will be overwritten when your organization gets upgraded to the latest generally available version. Future updates to data model will be backward compatible and visual customizations will be retained. More information: [Future data model updates](customize-reports.md#future-data-model-updates)
+
 You can configure real-time analytics in Omnichannel for Customer Service and give your supervisors access to real-time metrics and KPIs that reflect the situation in the contact center as they oversee agents handling customer conversations coming through multiple channels.
 
 The following real-time analytics reports are available:
@@ -25,7 +28,7 @@ The following real-time analytics reports are available:
 - Agents
 - Ongoing conversation
 
-Omnichannel real-time analytics reports aren't enabled by default. Once you enable these reports, the reports are enabled for the System Administrator, Omnichannel Administrator, Analytics Reports author, and CSR manager roles, by default. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
+Omnichannel real-time analytics reports aren't enabled by default. Once you enable these reports, the reports are enabled for the System Administrator, Omnichannel Administrator, Omnichannel Supervisor, Analytics Reports author, and CSR manager roles, by default. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 ## Manage Omnichannel real-time analytics reports
 Use the Customer Service admin center app to enable or disable Omnichannel real-time analytics reports.
@@ -45,7 +48,7 @@ Use the Customer Service admin center app to enable or disable Omnichannel real-
 
 ## View Omnichannel real-time analytics reports
 
-To view the reports in Customer Service workspace or Omnichannel for Customer Service, see [Access reports](intro-realtime-analytics-dashboard.md#access-reports)
+To view the reports in Customer Service workspace or Omnichannel for Customer Service, see [Access reports](intro-realtime-analytics-dashboard.md#access-reports).
 
 ### See also
 
