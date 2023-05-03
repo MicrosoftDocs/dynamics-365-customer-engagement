@@ -644,8 +644,10 @@
         href: voice-channel-bring-your-own-number.md
       - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
-      - name: Supported cloud locations, languages, and locale codes
+      - name: Supported cloud locations
         href: voice-channel-region-availability.md
+      - name: Supported languages and locale
+        href: voice-channel-supported-languages.md
     - name: Agent experience
       items:
       - name: Call a customer
