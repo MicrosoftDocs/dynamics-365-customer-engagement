@@ -1,17 +1,10 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 01/30/2023
-ms.topic: article
+ms.date: 04/20/2023
 author: lalexms
 ms.author: laalexan
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-ms.custom: 
-  - dyn365-customerservice
-  - intro-internal
+ms.topic: article
 ---
 
 # Configure Microsoft Teams chat in Customer Service
@@ -332,6 +325,52 @@ The ability for users to join existing chats related to cases is especially usef
 
 1. Select **Save**.
 
+## Keep chat participants informed when fields are updated
+
+You can reduce the overhead on your agents by automatically updating all participants in a chat when an essential field on a connected record is updated. This time-saving feature helps keep everyone informed without manual effort and allows agents to focus on important matters. It also helps experts in the chat be aware of important updates.
+
+### Limitations for automatic event updates
+
+This section describes the limitations of the automatic event functionality.
+
+#### Entities and attribute type limitations
+
+The following entities aren’t configurable for automatic event updates:
+
+- Virtual entities
+- Entities that don’t have the Update SDKMessageFilter defined
+
+The following attribute types aren’t supported for automatic event updates:
+- PartyList
+- Image
+- Integer
+- File
+
+#### Inline image limitations
+
+Automatic event updates can’t fully render inline images in rich text fields.
+
+### Configure chat update when a field is changed
+
+1. In **Customer Service admin center**, select **Collaboration**, and then set the toggle to **On** for **Turn on Microsoft Teams chats inside Dynamics 365**. 
+1. Next to **Embed chat using Teams**, select **Manage**.
+1. On the **Microsoft Teams collaboration and chat** page under **Connect chats to Dynamics 365 records**, select the entity for which you want to enable automatic event updates, or create a new one if the one you want isn’t listed. The record settings pane for that entity is opened on the right side of the page.
+
+   > [!div class="mx-imgBorder"] 
+   > ![View of record settings pane.](media/auto-event-updates.png "View of record settings pane")
+   
+1. Set the **Receive notification on key updates** toggle to **On**.
+1. View the Suggested attributes list by placing your cursor in the field below the toggle, and then select up to five attributes for which you want notifications to be sent.
+   > [!NOTE]
+   > For the Case entity, the following settings are preconfigured:
+   > - Priority
+   > - Status
+   > - Status Reason
+  
+   > [!div class="mx-imgBorder"] 
+   > ![Suggested attributes for configuring chat updates when a field is changed.](media/suggested-attributes.png "Suggested attributes for configuring chat updates when a field is changed")
+   
+1. Save your changes. Automatic notifications will now be sent whenever the attributes you defined for the entities are updated.
 
 ### See also
 

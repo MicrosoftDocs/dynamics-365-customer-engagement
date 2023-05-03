@@ -36,12 +36,12 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed.
-    1. Set the **Enable Omnichannel historical analytics report** toggle to **On** to enable the reports or set the toggle to **No** to     disable the reports.
+     1. Set the **Enable Omnichannel historical analytics report** toggle to **On** to enable the reports or set the toggle to **No** to disable the reports.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
-     2. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. 
+     1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. 
      1. Set the **Status** toggle to **Enabled** to enable the reports or set the toggle to **Disabled** to disable the reports.
 
 1. Select **Save** or **Save and Close**.
@@ -70,7 +70,7 @@ You can enable historical analytics for unified routing in the Customer Service 
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      2. In the **Historical analytics for unified routing** section, select **Manage**.
 
-      The **Historical analytics for unified routing** page is displayed. Toggle the **Status** to **Enabled**.    
+      The **Historical analytics for unified routing** page appears. Toggle the **Status** to **Enabled**.    
 
 1. Select **Save** or **Save and Close**.
     
@@ -86,7 +86,7 @@ In Customer Service admin center, you can enable the historical analytics for bo
 
 - If you select this option, the Omnichannel Summary and Bot dashboards will be available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Power Virtual Agents bot.
 
- :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="PVA bot dashboard.":::
+ :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Power Virtual Agents bot dashboard.":::
   
 - If no Power Virtual Agents bots are integrated with the application or you haven't selected this option, then the Bot dashboard displays the key performance indicators (KPIs) and charts for all bots.
 
@@ -99,7 +99,7 @@ In Customer Service admin center, you can enable the historical analytics for bo
 1. Select the **Add historical analytics for bot** checkbox.
 1. Select **Save** or **Save and Close**.
 
-The Unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
+The unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
 
 ## Enable historical analytics for voice in Omnichannel for Customer Service
 
@@ -116,14 +116,14 @@ You can enable the historical analytics dashboard for voice in the Customer Serv
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Omnichannel historical analytics** section, select **Manage**.
 
-     The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for voice** checkbox.      
+     The **Omnichannel historical analytics** page appears. Select the **Add historical analytics for voice** checkbox.      
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      2. In the **Historical analytics for unified routing** section, select **Manage**.
 
-      The **Historical analytics for voice** page is displayed. Toggle the **Status** to **Enabled**.    
+      The **Historical analytics for voice** page appears. Toggle the **Status** to **Enabled**.    
 
 1. Select **Save** or **Save and Close**.
 

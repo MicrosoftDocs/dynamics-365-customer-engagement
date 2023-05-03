@@ -20,13 +20,13 @@ Consider the following scenarios for proactively starting a chat.
 
 ## Scenario 1: Customer wait time
 
-Amy has accidentally damaged her Surface Book and is on the product knowledge base trying to seek answers for about 20 seconds. A proactive chat request is triggered based on the product page that Amy was browsing and the time spent on the page.
+Amy has accidentally damaged a Surface Book and is on the product knowledge base trying to seek answers for about 20 seconds. A proactive chat request is triggered based on the product page that Amy was browsing and the time spent on the page.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have. 
 ```
 
-Amy can accept the chat offer and start the conversation to sort out her issue. 
+Amy can accept the chat offer and start the conversation to sort out the issue. 
 
 **Sample code**
 
@@ -166,7 +166,7 @@ VisitCounter();
 
 ## Scenario 3: Customer checks status of open support case
 
-Jacob is browsing through the support page for Microsoft Surface devices to find more information regarding his open support case. Jacob has been on the page for 10 seconds, and is then offered a proactive chat with the following message.
+Jacob is browsing through the support page for Microsoft Surface devices to find more information regarding the open support case. Jacob has been on the page for 10 seconds, and is then offered a proactive chat with the following message.
 
 ```
 Hi! How are you doing today? The status of the case:<caseid> is in progress. Would you like to get more details?
