@@ -138,7 +138,7 @@ You must validate the configuration and validation steps given in the following 
 
 ## Use of {Regarding(Email)} in legacy experience doesn't give the correct data in flow
 
-Use of **{Regarding(Email)}** value in legacy experience doesn't give the correct data in flow.
+In legacy ARC rule items in Customer Service, to look up the entity (either contact or account) that sent an email, you can use the  **Sender (Email)** polymorphic lookup, which automatically fetches the appropriate entity and displays the entity's name. Polymorphic lookups are lookups where the target of the lookup is more than one kind of entity. For example, it can point to either a contact or an account. However, in modern ARC, this automatic display isn't supported, so you'll need to specify the type of entity you want to retrieve along with the fields to display from that entity.
 
 ### Reason
 
