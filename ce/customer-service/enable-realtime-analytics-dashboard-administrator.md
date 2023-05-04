@@ -19,7 +19,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 > [!NOTE]
 >  Any visual customizations that you might have made on the preview version will be overwritten when your organization gets upgraded to the latest generally available version. Future updates to the data model will be backward compatible and visual customizations will be retained. More information: [Future data model updates](customize-reports.md#future-data-model-updates)
 
-You can configure real-time analytics in Omnichannel for Customer Service and give your supervisors access to real-time metrics and KPIs that reflect the situation in the contact center as they oversee agents handling customer conversations coming through multiple channels.
+You can configure real-time analytics in Omnichannel for Customer Service and give your supervisors access to real-time metrics and KPIs that reflect the situation in the contact center as they oversee agents who handle customer conversations that come through multiple channels.
 
 The following real-time analytics reports are available:
 
@@ -44,13 +44,13 @@ Use the Customer Service admin center app to enable or disable Omnichannel real-
 1. On the **Real-time analytics** page, turn on the **Enable Omnichannel real-time analytics** toggle.
 
 1. In the **Additional options** section, select the **Add real-time analytics for Omnichannel voice** option.
-    This option will be available only if your organization has the voice feature configured.
+    This option is available only if your organization has the voice feature configured.
 
 ## View Omnichannel real-time analytics reports
 
 To view the reports in Customer Service workspace, see [Access reports](intro-realtime-analytics-dashboard.md#access-reports).
 
-If you've customized the Customer Service workspace, you'll need to perform the following steps to be able to view the reports.
+If you've customized the Customer Service workspace, you need to perform the following steps to be able to view the reports.
 
 1. Go to [make.powerapps.com](https://make.powerapps.com).
 1. Select **Apps**.
