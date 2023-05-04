@@ -27,10 +27,35 @@ Learn more about what's new or changed in recent releases in the links in the fo
 
 | Version | Auto-update availability | Learn more |
 |---------|---------------|-------------|
-|9.0.23023.10001 |  March 2023    |[What's new or changed in Dynamics 365 Sales (March 2023)](march-2023-whatsnew.md)|
-| 9.0.23021.10001|  March 2023  | [What's new or changed in Dynamics 365 Sales (March 2023](march-2023-whatsnew.md) |
+| 9.0.23023.10001 | March 2023 | [What's new or changed in Dynamics 365 Sales (March 2023)](march-2023-whatsnew.md) |
+| 9.0.23021.10001 | March 2023 | [What's new or changed in Dynamics 365 Sales (March 2023](march-2023-whatsnew.md) |
 
 For earlier versions, see the archived release plans at [Release plans for Dynamics 365 and Power Platform](/dynamics365/release-plans/archived-plans).  
+
+## April 2023 release
+
+We're excited to announce our newest updates! This article summarizes early access, public preview, and general availability features that were released in the month of April.
+
+| Feature area | Feature | Description | Resources | Enabled by | Availability |
+|--------------|---------|-------------|-----------|------------|--------------|
+| Sales engagement | Segments | Set priority for segments when assigning records that match multiple segments. | [Documentation](prioritize-segment.md) | System Administrator, Sales Manager, or Sequence Manager | GA |
+| Lead management | Duplicate lead detection | The duplicate lead detection feature in Dynamics 365 Sales helps you to detect duplicate leads. If you have customized main lead form, you can enable it manually. | [Documentation](enable-duplicate-detection-custom-forms.md) | System Administrator | GA |
+| Lead management | Email validation | The email validation feature in Dynamics 365 Sales helps you to validate email addresses. If you have customized the main lead form, you can enable email validation manually. | [Documentation](enable-email-validation-custom-forms.md) |System Administrator | GA |
+| Contact management | Email validation | Enable email validation in Dynamics 365 Sales to remove invalid email addresses from your contact records. | [Documentation](enable-email-validation.md) | System Administrator | Public preview |
+
+
+## March 2023 release
+
+We're excited to announce our newest updates! This article summarizes early access, public preview, and general availability features that were released in the month of March.
+
+|Feature area  |Feature  |Description  |Resources  |Enabled by |Availability  |
+|---------|---------|---------|---------|---------|---------|
+| Sales engagement | Engage with your Customers using SMS conversation | Support for incoming SMS, routing them to appropriate records, and showing them in the timeline. | [Documentation](manage-text-message-communications.md) | Enabled by admin | Public preview |
+| Sales engagement | Engage with your Customers using SMS conversation | Support for sending and receiving SMS from Contact, Lead and Account forms. | [Documentation](sms-intro.md) | Enabled by default | GA |
+| Sales engagement | Prioritize segments | Set priority for the segments so that the records are connected to the right segment when there are multiple matching segments. | [Documentation](prioritize-segment.md) | Enabled by default | GA |
+| Collaboration | Linked chats in timeline | View linked chats in the timeline of a record. | [Documentation](teams-integration/join-chat.md) | Enabled by default | GA |
+| Predictive scoring | Real-time scoring | View prediction for a new lead in near real time. | [Documentation](work-predictive-lead-scoring.md#real-time-scoring) | Enabled by default | GA |
+| Sales engagement | Prioritize your engagements by using focused view | View and manage all your sales records and the associated activities on one page. | [Documentation](focused-view.md) | Enabled by default | Early access |
 
 ## Get the latest version
 
