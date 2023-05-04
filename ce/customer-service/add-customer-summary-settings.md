@@ -31,17 +31,11 @@ The enhanced Active Conversation experience enables you to customize the **Activ
 
 By default, the enhanced **Active Conversation** form doesn't display the form selector to switch between open and closed conversations. To allow your users to toggle between open and closed conversations, do the following steps:
 
-1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-2. Select **Solutions**, and then select the required solution.
-4. Select **Add Existing** > **More** > **Setting**.
-1. On the **Add existing Setting Definition** pane, select the **Unhide Conversation form selector** option and then select **Next**.
-1. Select **Add** on the **Selected Setting Definition** to add the **Unhide Conversation form selector** option to your solution.
-1.  Go to **Add Existing** > **App** > **Model-driven app**> **Add existing model-driven apps** pane.
-1. Select the **Unhide Conversation form selector** option. The **Edit Unhide Conversation form selector** pane appears.
-1. Set the **Setting environment value** option to **Yes**.
-1. Optionally, select **New app value** for the app. For a specified app, the value set at the application level overrides the environment level setting.
-1. Select **Publish All Customizations**.
- 
+1. In [Power Apps](https://make.powerapps.com/), add the **Unhide Conversation form selector** setting definition. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition)
+1. 
+1.  In the **Edit Unhide Conversation form selector**, set the **Setting environment value** option to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition)
+1. Optionally, in the **Setting app values** section, for a required app, you can set the value to **Yes** in the **New app value**. The tab set at the application level overrides the environment level setting.
+1. Save and publish your customizations.
      :::image type="content" source="media/powerapps-unhide-selector.png" alt-text="View the unhide selector" lightbox="media/powerapps-unhide-selector-mini.png"::: 
 
 
