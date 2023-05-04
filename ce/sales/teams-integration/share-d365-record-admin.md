@@ -32,6 +32,21 @@ While business users can access the feature themselves by adding, signing in, an
 - Preinstalling and pinning the app for business users who can benefit from the feature.
 - Encouraging business users to sign in and set up the app.
 
+## Dynamics 365 app for Teams auto-install
+
+In order to enhance the Teams experience for Dynamics 365 users, the Dynamics 365 app for Teams will be automatically installed to all the active Dynamics 365 users.
+
+> [!NOTE]
+> A user is considered as active after they successfully sign in to one of the Dynamics 365 applications or a model-driven Power Apps app. 
+
+With the Dynamics 365 app for Teams, users will have their collaboration in Teams enhanced with: 
+
+- Dynamics 365 links will automatically unfurl, showing useful record details.
+- Users will be able to view Dynamics 365 data in Teams, while continuing their chats.
+- Users can search, connect, and update Dynamics 365 records directly in Teams.
+
+The Dynamics 365 app for Teams will be installed automatically in all environments that have not disabled the installation of the Dynamics 365 app. For infomation to disable auto-install of Dynamics 365 app for Teams, see [Disbale auto-install of Dynamics 365 app for Teams](#disbale-auto-install-of-dynamics-365-app-for-teams).
+
 ## Familiarize yourself with the feature
 
 It's important to become familiar with the feature to understand the nuances of how it works and identify the business users for whom preinstalling and pinning the app will add value. 
@@ -141,6 +156,30 @@ After you create a custom policy and assign it to users, you must encourage your
 :::image type="content" source="media/sign-in-msg.png" alt-text="Sign in to Dynamics 365 app":::
 
 For information on how to sign in to the Dynamics 365 app, see [Sign in and set up the Dynamics 365 app for Teams](access-d365-app.md#set-up-the-dynamics-365-app).
+
+## Disbale auto-install of Dynamics 365 app for Teams
+
+The installation of the Dynamics 365 app can be disabled from Microsoft Teams admin center or Power Platform admin center.
+
+**Microsoft Teams admin center**
+
+1. In the left navigation pane, go to **Teams apps** > **Manage apps**.
+
+2. Search for the Dynamics 365 app, and select it.
+
+3. Turn off the **Status** toggle.
+
+    :::image type="content" source="media/auto-install-d365-teams-admin.png" alt-text="Disbale auto-install from Teams admin center":::
+
+**Power Platform admin center**
+
+1. Go to **Environments** > **Settings** > **Product** > **Collaboration**.
+
+2. Under **Teams Integration**, turn off the **Install the Dynamics 365 app for Teams for users in the organization. Lets people in your org see business data while working in Teams** toggle.
+
+3. Select **Save**.
+
+    :::image type="content" source="media/auto-install-d365-ppac.png" alt-text="Disbale auto-install from Power Platform admin center":::
 
 ### See also
 
