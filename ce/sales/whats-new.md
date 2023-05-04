@@ -40,9 +40,9 @@ We're excited to announce our newest updates! This article summarizes early acce
 |--------------|---------|-------------|-----------|------------|--------------|
 | Sales engagement | Segments | Set priority for segments when assigning records that match multiple segments. | [Documentation](prioritize-segment.md) | System Administrator, Sales Manager, or Sequence Manager | GA |
 | Sales engagement | Sales accelerator | The Up next widget is enhanced to show new suggestions and sequence preview. | [Documentation](understand-the-up-next-widget.md) | Enabled by default | GA |
-| Lead management | Duplicate lead detection | The duplicate lead detection feature in Dynamics 365 Sales helps you to detect duplicate leads. If you have customized main lead form, you can enable it manually. | [Documentation](enable-duplicate-detection-custom-forms.md) | System Administrator | GA |
-| Lead management | Email validation | The email validation feature in Dynamics 365 Sales helps you to validate email addresses. If you have customized the main lead form, you can enable email validation manually. | [Documentation](enable-email-validation-custom-forms.md) |System Administrator | GA |
-| Contact management | Email validation | Enable email validation in Dynamics 365 Sales to remove invalid email addresses from your contact records. | [Documentation](enable-email-validation.md) | System Administrator | Public preview |
+| Lead management | Duplicate lead detection | Enable the duplicate lead detection feature for the customized main lead form. | [Documentation](enable-duplicate-detection-custom-forms.md) | System Administrator | GA |
+| Lead management | Email validation | Enable the email validation feature for the customized main lead form. | [Documentation](enable-email-validation-custom-forms.md) |System Administrator | GA |
+| Contact management | Email validation | Email validation in Dynamics 365 Sales verifies the validness of contacts' email address. If the feature identifies a faulty email address, it's marked as invalid. | [Documentation](enable-email-validation.md) | System Administrator | Public preview |
 
 
 ## March 2023 release
