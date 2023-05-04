@@ -5,11 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
-<<<<<<< HEAD
 ms.date: 05/02/2023
-=======
-ms.date: 04/20/2023
->>>>>>> 62e26d4c65b712b6843c49ef9cf6835e739f6b78
 ms.custom: bap-template
 ---
 
@@ -20,11 +16,11 @@ ms.custom: bap-template
 > [!IMPORTANT]
 > The **Customer Summary** form is renamed as **Active Conversation** form.
 
-One of the major challenges that customers face when contacting customer support is repeatedly giving the same information about the issue to each support agent they talk to. And if they want to review the status of their request later, they'll have to share the same information with another support agent to explain the context of the engagement. To avoid this situation, support agents need access to all the information the customer has provided, including details about the product or service, issue, case history, related cases, and location.
+One of the major challenges that customers face when contacting customer support is repeatedly giving the same information about the issue to each support agent they talk to. And if they want to review the status of their request later, they have to share the same information with another support agent to explain the context of the engagement. To avoid this situation, support agents need access to all the information the customer has provided, including details about the product or service, issue, case history, related cases, and location.
 
 Having this information ready can help support agents reduce the hold time that they spend retrieving customer information, reduce average handling time, and increase customer satisfaction by resolving issues faster.
 
-## What is active conversation?
+## What is Active Conversation?
 
 **Active Conversation** (formerly **Customer Summary**) is a page that appears when you accept an incoming request from any channel and gives you complete information about a customer. The  **Active Conversation** view provides the following sections:
 
@@ -33,7 +29,6 @@ Having this information ready can help support agents reduce the hold time that 
 - Case
 - Recent cases
 - Timeline
-<<<<<<< HEAD
    
 Depending on the settings enabled for you, you'll see one of the following layouts:
 
@@ -60,20 +55,9 @@ For active conversations, you can view the **Active Conversation** form on the a
 ## View customer details
 
 This section provides details such as the contact name or account name. For a contact, you can view the location, email, and other details. For an account, you can view location, telephone number, and primary contact person for the account.
-=======
-
- :::image type="content" source="media/customer-summary.png" alt-text="View active conversations":::
-
-For active conversations, you can view the **Active Conversation** form on the agent dashboard of the Customer Service workspace. The **Active Conversation** form, however, doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard. More information: [View agent dashboard and conversations](oc-agent-dashboard.md).
-
-## View Customer (Contact or Account) details
-
-This section provides details such as the contact name or account name. For a contact, you can view the location, email, and other details. In case of an account, you can view location, telephone number, and primary contact person for the account.
->>>>>>> 62e26d4c65b712b6843c49ef9cf6835e739f6b78
 
 Use the customer section to search for an existing contact or account record, and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record by using the **Add Contact** or **Add Account** button, respectively. After you create it, search for the record and then select it to link it to the conversation.
 
-<<<<<<< HEAD
 Depending on the settings enabled for you, you'll see one of the following layouts:
  
   ### [Enhanced Active Conversation - Customer Details)](#tab/enhancedcustomer)
@@ -130,17 +114,12 @@ Depending on the settings enabled for you, you'll see one of the following layou
    :::image type="content" source="media/customer-summary-recent-cases.png" alt-text="enh Case details section of the active conversation page"::: 
   
  ---
-=======
-> [!div class='mx-imgBorder']
-> ![Customer profile section in the active conversation form.](media/customer-summary-customer-form.PNG "Customer profile section of the active conversation page")
-
->>>>>>> 62e26d4c65b712b6843c49ef9cf6835e739f6b78
 ## View Conversation summary
 
 The **Conversation summary** section provides detailed information about the conversation between the agent and customer. The information shown in the **Conversation details** area includes the following:
 
 - **Engagement channel:** The channel, such as live chat or custom channel, through which the conversation is taking place.
-- **Waiting time:** The duration in seconds between the conversation creation time and acceptance time.
+- **Waiting time:** The time the customer had to wait before the conversation was assigned to the agent.
 - **Skills:** The skills that had been attached for routing the conversation. If your administrator has enabled the setting for agents to update skills, you can add or remove skills.
 - **Queue:** The queue through which the conversation has been assigned to you.
 - **Start time:** The time when you started the conversation.
@@ -153,7 +132,7 @@ In addition, the **Conversation summary** section includes several tabs:
 - Pre-chat survey
 - Self service
 - Visitor details
-- Additional details, if they've been configured and additional context variables are available
+- Additional details, if they've been configured and other context variables are available
 
 These tabs are described in the following sections.
 
@@ -170,7 +149,7 @@ The **Self service** tab displays information about the activities that the cust
 | Page visited | The page visited on the portal, with time stamp.|
 | Phrase searched | The keyword or phrase that was searched for, with time stamp. |
 | Knowledge article viewed | The knowledge article viewed, with time stamp. |
-| Custom action performed | Any other custom action that's being tracked by your organization, with time stamp. |
+| Custom action performed | Any other custom action that's tracked by your organization, with time stamp. |
 
 To configure the appearance of the **Self service** tab, see [Enable self-service settings for customer actions in a conversation summary](enable-self-service-settings.md).
 
@@ -186,25 +165,11 @@ To learn more, see [Create chat authentication settings](create-chat-auth-settin
 
 ### View Additional details
 
-If your administrator or developer has configured the **Additional details** tab and if any additional context variables exist, they're displayed on the **Additional details** tab.
+If your administrator or developer has configured the **Additional details** tab and if any other context variables exist, they're displayed on the **Additional details** tab.
 
 To learn more, see [setContextProvider](developer/reference/methods/setContextProvider.md).
 
-## View Case details
-
-Use the **Case** section to search for an existing case in Omnichannel for Customer Service, and select the case to link it to the conversation. If the record doesn't exist, you can create a new case by using the **+ Add Case** button. After you create it, search for the record and then select it to link it to the conversation.
-
-> [!div class='mx-imgBorder']
-> ![Case section in the active conversation form.](media/customer-summary-issue-snapshot.PNG "Case section on the active conversation page")
-
-## View Recent cases
-
-This section displays recent cases related to the customer.
-
-> [!div class='mx-imgBorder']
-> ![Recent cases section in the active conversation form.](media/customer-summary-recent-cases.png "Recent cases section on the active conversation page")
-
-## View Timeline details
+## View Timeline
 
 This section displays case-related and customer-related activities in the form of a timeline. You can create quick notes based on your discussion with the customer. Use the **Linked records** field to switch the timeline based on the case, contact, or account record linked to the conversation.
 
@@ -215,10 +180,11 @@ The **Linked records** field shows the record that's linked to the conversation.
 
 ### See also
 
+
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [View communication panel](oc-conversation-control.md)  
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
-[View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+[View active conversation for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 [setContextProvider](developer/reference/methods/setContextProvider.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
