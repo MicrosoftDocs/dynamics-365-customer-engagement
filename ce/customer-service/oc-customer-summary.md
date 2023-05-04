@@ -85,7 +85,7 @@ Depending on the settings enabled for you, you'll see one of the following layou
 
   Displays the details, configured by the  of the case linked to the conversation. You can edit case details inline, without navigating to another tab. However, if you see the default **Issue Snapshot** card, your administrator has disabled the enhanced **Case Details** experience for the **Active Conversation** form.
 
-   :::image type="content" source="media/enh-custsummary-conv.png" alt-text="enh Case details section of the active conversation page" :::  
+   :::image type="content" source="media/enh-custsummary-casedetails.png" alt-text="enh Case details section of the active conversation page" :::  
    
    ### [Default Active Conversation &mdash; Case](#tab/case)
     
