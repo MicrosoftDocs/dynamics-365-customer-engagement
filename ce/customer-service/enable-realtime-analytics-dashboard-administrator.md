@@ -1,7 +1,7 @@
 ---
 title: "Manage real-time analytics for supervisors | MicrosoftDocs"
 description: "Learn how to configure real-time analytics for Omnichannel for Customer Service."
-ms.date: 05/03/2023
+ms.date: 05/04/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -48,7 +48,21 @@ Use the Customer Service admin center app to enable or disable Omnichannel real-
 
 ## View Omnichannel real-time analytics reports
 
-To view the reports in Customer Service workspace or Omnichannel for Customer Service, see [Access reports](intro-realtime-analytics-dashboard.md#access-reports).
+To view the reports in Customer Service workspace, see [Access reports](intro-realtime-analytics-dashboard.md#access-reports).
+
+If you have customized the Customer Service workspace, you'll need to perform the following steps to be able to view the reports.
+
+1. Go to [make.powerapps.com](https://make.powerapps.com).
+1. Select **Apps**.
+1. Select **Customer Service workspace** and then select **Edit**.
+1. On **Pages**, select **New**.
+1. On the **New page** dialog, select **URL** and then select **Next**. Fill in the following information:
+    1. **URL**: **/main.aspx?pagetype=control&controlName=MscrmControls.Analytics.ReportingControl&data={"featureIds":"e67a1ada-6c62-4b45-b758-0b246f32c1a5"}**
+    2. **Title**: Omnichannel real-time analytics (or any other sub area title you would want to add).
+1. Select **Add**.
+1. Optionally, on the **Omnichannel real-time analytics** pane, from the **Icon** drop down list, select **Use web resource**.
+1. On the **Select web resource image** dialog, search and select the **msdyn_/Analytics/imgs/RealtimeReportIcon.svg** display name, and then select **Apply**. The **Omnichannel real-time analytics** page gets displayed on Customer Service workspace.
+1. Select **Save** and then select **Publish**.
 
 ### See also
 
