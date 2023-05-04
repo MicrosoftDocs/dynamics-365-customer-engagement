@@ -41,7 +41,7 @@ We're excited to announce our newest updates! This article summarizes early acce
 | Sales engagement | Segments | Set priority for segments when assigning records that match multiple segments. | [Documentation](prioritize-segment.md) | System Administrator, Sales Manager, or Sequence Manager | GA |
 | Sales engagement | Sales accelerator | The Up next widget is enhanced to show new suggestions and sequence preview. | [Documentation](understand-the-up-next-widget.md) | Enabled by default | GA |
 | Lead management | Duplicate lead detection | Enable the duplicate lead detection feature for the customized main lead form. | [Documentation](enable-duplicate-detection-custom-forms.md) | System Administrator | GA |
-| Lead management | Email validation | Enable the email validation feature for the customized main lead form. | [Documentation](enable-email-validation-custom-forms.md) |System Administrator | GA |
+| Lead management | Email validation | Enable the email validation feature for the customized main lead form. | [Documentation](enable-email-validation-custom-forms.md) |System Administrator | Public preview |
 | Contact management | Email validation | Email validation in Dynamics 365 Sales verifies the validness of contacts' email address. If the feature identifies a faulty email address, it's marked as invalid. | [Documentation](enable-email-validation.md) | System Administrator | Public preview |
 
 
