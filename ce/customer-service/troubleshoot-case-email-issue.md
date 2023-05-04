@@ -1,6 +1,6 @@
 ---
-title: Troubleshoot an issue faced when converting an email to a case | Microsoft Docs
-description: Learn how you can fix an issue with converting an email to a case in Dynamics 365 Customer Service.
+title: Troubleshoot issues with automatic record creation | Microsoft Docs
+description: See how you can fix an issue converting an email to a case in Dynamics 365 Customer Service
 ms.date: 05/03/2023
 ms.topic: article
 author: neeranelli
@@ -14,8 +14,6 @@ ms.custom:
 ---
 
 # Troubleshoot issues with automatic record creation
-
-The article describes the troubleshooting steps to diagnose and fix issues with automatic record creation.
 
 ## Issue converting an email to a case
 
@@ -77,7 +75,7 @@ For more information about configuration failure scenarios and resolution for sa
 
 **Step 6**: Ensure that the queue email address is in the **To** or **Cc** fields of incoming mails. Emails sent with the queue address in the **Bcc** field won't be processed.
 
-### Configuration failure scenarios and resolutions
+#### Configuration failure scenarios and resolutions
 
 Given below is a list of some common issue scenarios and their resolutions.
  
@@ -137,21 +135,18 @@ You must validate the configuration and validation steps given in the following 
 |Create a case for activities associated with a resolved case     |    Yes     |   For an incoming email related to a resolved case      |    A case is created     |
 |   |    Yes      |   For an incoming email related to an active case         |   No case is created      |
 |  |         |         |         |
- 
-## Issues with rendering polymorphic lookups on non-lookup fields during migration from legacy to modern ARC
 
-A legacy ARC rule item using polymorphic lookups such as **Sender** results in an invalid lookup when assigned to a text field. 
+## Use of {Regarding(Email)} in legacy experience doesn't give the correct data in flow
 
-In legacy ARC rule items in Customer Service, to look up the entity (either contact or account) that sent an email, you can use the  **Sender (Email)** polymorphic lookup, which automatically fetches the appropriate entity and displays the entity's name. Polymorphic lookups are lookups where the target of the lookup is more than one kind of entity, for example, it can point to either a contact or an account. However, in modern ARC, this automatic display isn't supported. So, you'll need to specify the type of entity you want to retrieve along with the fields to display from that entity.
+Use of **{Regarding(Email)}** value in legacy experience doesn't give the correct data in flow.
 
 ### Reason
 
-The classic workflow behavior used by legacy ARC has many hidden behaviors. For example, automatically determining the type of entity and fetching a field as the display name if the parameter is used in a string, but returning the ID if assigned to a lookup field. The platform migration code that ARC uses when converting from legacy to modern workflows doesn't add the required steps and fields.
+Flow doesn't use the **{Regarding(Email)}** value like legacy workflow because flow expressions reference a data value from one of the previous flow steps payload. For example, if the **{Regarding(Email)}** value is empty when the flow begins, the value in the trigger step payload for **{Regarding(Email)}** will remain empty. Even if the **{Regarding(Email)}** value gets updated after a case is created, the email record data gets updated but the payload in flow doesn't. So, when the value from the payload is referenced in the subsequent flow steps, it remains empty.
 
 ### Resolution
 
-- Update the lookup to a specific type.
-- Use a different field on the incoming entity that contains the desired text.
+If the **{Regarding(Email)}** value is used in legacy rule items, you need to manually update the migrated flow to use the IncidentId or OData Id. Use the OData Id for fields that require entity reference or lookups. Use the Case unique identifier for fields that require GUID.
 
 ## See also
 
