@@ -60,13 +60,13 @@ Use the customer section to search for an existing contact or account record, an
 
 Depending on the settings enabled for you, you'll see one of the following layouts:
  
-  ### [Enhanced Active Conversation &mdash; Customer Details](#tab/enhancedcustomer)
+  ### [Enhanced Active Conversation&mdash;Customer Details](#tab/enhancedcustomer)
 
    Displays the customer or account details configured by your administrator. You can edit the customer or account details inline, without navigating to another tab. However, if you see the default **Customer(Contact or Account)** card, your administrator has disabled the enhanced **Customer Details** experience for the **Active Conversation** form.
  
    :::image type="content" source="media/enh-custsummary-conv.png" alt-text="View enhanced CustomerContact or Account" :::
 
-   ### [Default Active Conversation &mdash; Customer(Contact or Account)](#tab/customer)
+   ### [Default Active Conversation&mdash;Customer(Contact or Account)](#tab/customer)
     
    View customer details on the default Customer(Contact or Account) layout.
 
@@ -101,13 +101,13 @@ This section displays recent cases related to the customer.
 
 Depending on the settings enabled for you, you'll see one of the following layouts:
 
-   ### [Enhanced Active Conversation &mdash; Recent Case](#tab/enhancedrecentcases)
+   ### [Enhanced Active Conversation&mdash;Recent Case](#tab/enhancedrecentcases)
 
    Displays the recent cases raised by the customer. However, if you see the default **Recent Cases** card, your administrator has disabled the enhanced **Recent Case** experience for the **Active Conversation** form.
 
    :::image type="content" source="media/enh-custsummary-recent.png" alt-text="enh Case details section of the active conversation page"::: 
     
-   ### [Default Active Conversation &mdash; Recent case](#tab/recentcase)
+   ### [Default Active Conversation&mdash;Recent case](#tab/recentcase)
     
    View the default Recent cases experience.
 
