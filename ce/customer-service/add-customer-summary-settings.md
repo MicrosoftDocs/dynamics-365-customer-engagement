@@ -42,7 +42,7 @@ By default, the enhanced **Active Conversation** form doesn't display the form s
 1. Optionally, select **New app value** for the app. For a specified app, the value set at the application level overrides the environment level setting.
 1. Select **Publish All Customizations**.
  
-  :::image type="content" source="media/powerapps-unhide-selector.png" alt-text="View the unhide selector" lightbox="media/powerapps-unhide-selector-mini.png"::: 
+     :::image type="content" source="media/powerapps-unhide-selector.png" alt-text="View the unhide selector" lightbox="media/powerapps-unhide-selector-mini.png"::: 
 
 
 ## Customize recent cases
