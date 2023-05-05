@@ -206,3 +206,5 @@ OData-EntityId: <Organization URL>/api/data/v9.0/msdynmkt_segments(<Segment ID>)
     "ResultText": "{\"baseEntityLogicalName\":\"contact\",\"primaryKeyColumnName\":\"contactid\",\"members\":[\"<member GUID>, <member GUID>"],\"additionalProperties\":{}}"
 }
 ```
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

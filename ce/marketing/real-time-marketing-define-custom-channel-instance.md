@@ -1,10 +1,11 @@
 ---
-title: "Define your extended configuration entity for the channel instance (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to define your extended configuration entity for channel instance in Dynamics 365 Marketing."
+title: Define an extended configuration entity for the channel instance
+description: Learn how to define an extended configuration entity for a custom channel instance in Dynamics 365 Marketing.
 ms.date: 01/30/2023
 ms.custom: 
   - dyn365-marketing
-ms.topic: article
+  - bap-template
+ms.topic: how-to
 author: alfergus
 ms.author: alfergus
 search.audienceType: 
@@ -13,28 +14,26 @@ search.audienceType:
   - enduser
 ---
 
-# Define your extended configuration entity for the channel instance
+# Define an extended configuration entity for the channel instance
 
-## Applicable channels: SMS, Custom
+Applicable channels: SMS, custom
 
-### Why you need it:
-
-A **Channel Instance** is the representation of a channel in Marketing after an admin uses an installed custom channel package to create and set up a new custom channel.
-
-When creating a new custom channel, you need to set up a sender, for example, the sender of the WhatsApp message. Each **Channel Instance** for channels of **Custom type** represents a single sender.
+A *channel instance* is the representation of a custom channel in Dynamics 365 Marketing. When you create a custom channel, you need to configure a sender&mdash;for example, the sender of a WhatsApp message. Each instance of a custom channel&mdash;that is, the entity **Channel Instance**&mdash;represents a single sender.
 
 > [!IMPORTANT]
 > To allow Marketing to access the extended configuration entity during submission, you need to add **Read** privileges for the extended configuration entity to the "Cxp Channel Definitions Services User" role.
 
-### How to define it:
-
 For each custom channel solution, you need to:
 
-1. [Create your own custom entity](/dynamics365/customerengagement/on-premises/customize/create-entities) that will represent the extended configuration of the **Channel Instance** entity (**msdyn_channelinstance**), defined in the base solution. The name of the entity will be assigned to the attribute **msdyn_channeldefinitionexternalentity** at the [channel definition step](real-time-marketing-define-channel-definition.md).
+1. [Create a custom entity](/dynamics365/customerengagement/on-premises/customize/create-entities) to represent the extended configuration of the **Channel Instance** entity (**msdyn_channelinstance**) defined in the base solution.
 
-1. [Add a relationship](/dynamics365/customerengagement/on-premises/customize/create-and-edit-1n-relationships) to the base **Channel Instance** entity on **msdyn_extendedentityId** attribute. This attribute is a [polymorphic lookup](/power-apps/developer/data-platform/webapi/multitable-lookup). Example of the relationship in XML:
+    The name of the entity is assigned to the attribute **msdyn_channeldefinitionexternalentity** at the [channel definition step](real-time-marketing-define-channel-definition.md).
 
-```
+1. [Add a relationship](/dynamics365/customerengagement/on-premises/customize/create-and-edit-1n-relationships) to the base **Channel Instance** entity in the **msdyn_extendedentityid** attribute.\
+
+    This attribute is a [polymorphic lookup](/power-apps/developer/data-platform/webapi/multitable-lookup). Here's an example of the relationship in XML:
+
+```xml
 <EntityRelationship Name="msdyn_ChannelInstance_extendedentityid_cr65f_samplechannelinstance">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>0</IsCustomizable>
@@ -71,16 +70,20 @@ For each custom channel solution, you need to:
   </EntityRelationship>
 ```
 
-3. Create a form to expose the configuration fields. The form will be loaded at the Marketing setup wizard. The form ID will be assigned to attribute **msdyn_channeldefinitionexternalformid** at the [channel definition step](real-time-marketing-define-channel-definition.md).
+1. Create a form to expose the configuration fields.
 
-For example:
+    [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
 
-1. In **SMS**
+    The form is loaded in the Marketing setup wizard. The form ID is assigned to the attribute **msdyn_channeldefinitionexternalformid** at the [channel definition step](real-time-marketing-define-channel-definition.md).
 
-    > [!div class="mx-imgBorder"]
-    > ![sms](media/real-time-marketing-sms1.png "sms")
+    - SMS example:
 
-1. In **Custom** (The form doesn’t have to contain attributes like name or description since they come from Marketing Custom controls.)
+      :::image type="content" source="media/real-time-marketing-sms1.png" alt-text="Screenshot of a form for an SMS channel." lightbox="media/real-time-marketing-sms1.png":::
+    <!-- EDITOR'S NOTE: Please crop the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main).-->
 
-    > [!div class="mx-imgBorder"]
-    > ![custom channel](media/real-time-marketing-select-custom-channel1.png "custom channel")
+    - Custom example (the form doesn't have to contain attributes like name or description since they come from Marketing Custom controls):
+
+      :::image type="content" source="media/real-time-marketing-select-custom-channel1.png" alt-text="Screenshot of a form for a custom channel." lightbox="media/real-time-marketing-select-custom-channel1.png":::
+    <!-- EDITOR'S NOTE: Please crop the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main).-->
+
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,5 @@ Following the launch of the customer journey, the following measures can help yo
 If you notice a *No message sent* screen for one of the channels, that means that either the AI model has not routed customers down that channel or the message was sent but your customers have not yet interacted with it by opening the message or clicking the links.
 
 In some cases, the app might be able to fetch engagement data from one channel but not the other.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

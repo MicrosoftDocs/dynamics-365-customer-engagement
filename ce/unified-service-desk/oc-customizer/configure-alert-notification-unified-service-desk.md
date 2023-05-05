@@ -45,7 +45,7 @@ Consider a scenario where you receive an incoming chat conversation request. Wha
 
 ## Create an event to open a session when agent selects Accept 
 
-You must define an event and attach action calls so that an agent can accept an incoming request. When the agent selects the **Accept** button, he or she will experience the following actions:
+You must define an event and attach action calls so that an agent can accept an incoming request. When the agent selects the **Accept** button, they will experience the following actions:
 
 - The notification closes.
 

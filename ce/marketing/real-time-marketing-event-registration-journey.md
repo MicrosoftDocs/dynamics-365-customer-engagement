@@ -141,3 +141,5 @@ Real-time marketing triggers provide a straightforward solution if a journey par
 
 > [!div class="mx-imgBorder"]
 > ![registration canceled](media/event-engagement-create-canceled.png "registration canceled")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

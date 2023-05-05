@@ -2,7 +2,7 @@
 metadata:
   title: Frequently asked questions about Dynamics 365 Sales
   description: Find answers to frequently asked questions about Dynamics 365 Sales Enterprise.
-  ms.date: 03/31/2023
+  ms.date: 05/05/2023
   ms.topic: article
   author: udaykirang
   ms.author: udag
@@ -250,10 +250,6 @@ sections:
         answer: |
           No. Focused view is available out-of-the-box and doesn't require any setup. 
 
-      - question: Is focused view available for custom entities?
-        answer: |
-          No, currently focused view is available only for contact, account, lead, and opportunity entities.
-
       - question: Is focused view available on custom apps?
         answer: |
           Yes, focused view is available on custom apps.
@@ -269,10 +265,6 @@ sections:
       - question: What are the filter capabilities available in focused view?
         answer: |
           Currently, only the grid column-level filters are available for the columns in the primary entity. For example, Lead entity-related columns on lead grid.
-
-      - question: Can I set the focused view as the default view?
-        answer: |
-          Currently, you can't set the focused view as your default view. 
 
       - question: How can I disable focused view in my organization?
         answer: |

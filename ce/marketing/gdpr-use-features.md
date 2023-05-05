@@ -217,3 +217,5 @@ Once you've enabled auditing for contacts, you'll be able to view a record of ch
 
 [Manage user compliance settings](real-time-marketing-compliance-settings.md)  
 [Work with data protection and GDPR](gdpr.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

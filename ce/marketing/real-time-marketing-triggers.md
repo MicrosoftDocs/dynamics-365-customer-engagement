@@ -57,3 +57,5 @@ Business triggers represent changes in Dynamics 365 applications such as Sales o
 - *Marketing form submitted*
 
 You can also create your own triggers based on any Dataverse record change. Learn more: [Trigger a journey based on a Dataverse record change](real-time-marketing-dataverse-trigger.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
