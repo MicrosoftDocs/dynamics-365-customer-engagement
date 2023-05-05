@@ -1,7 +1,7 @@
 ---
 title: Resolve, cancel, and reassign a cases in Customer Service Hub | Microsoft Docs
 description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
-ms.date: 02/22/2023
+ms.date: 04/25/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -22,28 +22,39 @@ searchScope:
 
 # Resolve, cancel, and reassign cases
 
-Customer Service provides you with the ability to resolve, cancel, and reassign cases.
+Customer Service provides you with the ability to resolve, cancel, and reassign cases. 
 
 ## Resolve a case  
 
 1. In the list of active cases, open the one you want to resolve.  
 
-2. On the command bar, select **Resolve case**.  
+2. On the command bar, select **Resolve case**. The status of the case is set to **Resolved** only when you select **Resolve Case** and the case gets resolved. You can't set the value of the **Case Status** field to **Resolved**
 
   If you have open activities linked to the case, you’ll see a message with the following actions:
-  - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md)
+  - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md#redirect-users-to-a-specific-tab-to-close-the-open-activities-for-a-case)
   - **Confirm**: If you select **Confirm** on the warning, the system automatically cancels the open activities when the case is resolved.
   
       :::image type="content" source="media/resolve-case-after.png" alt-text="Open activity warning" lightbox="media/resolve-case.png":::
   
-3. By default, you will see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog. If your administrator has disabled the **Enable the minimal case resolution dialog** option the standard **Resolve Case** dialog is displayed with the following additional fields. More information: [Disable the standard case resolution dialog](add-enhanced-case-management.md):
+3. Depending on the settings enabled for you, you'll see the minimal case resolution dialog or legacy case resolution dialog that are explained as follows:
 
-     - **Duration**: The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** box.  
-     - **Billable Time**: The amount of time spent on the case to be billed to the customer.  
-     - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.  
+ ### [Default case resolution dialog](#tab/defaultcaseresolutionform)
+
+ By default, you will see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog.
+
+  :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case.png"::: 
+
+ ### [Legacy case resolution dialog](#tab/lagacycaseresolutiondialog)
     
-    :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case.png"::: 
+ The standard **Resolve Case** dialog is displayed with the **Resolution Type** and **Resolution** fields along with the following additional fields:
 
+   - **Duration**: The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** field.  
+   - **Billable Time**: The amount of time spent on the case to be billed to the customer. Your billable time is automatically populated only if the **Total Time** field is displayed on the **Resolve Case** dialog. Else, you'll have to manually add your billable time.
+   - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.
+         
+   :::image type="content" source="media/resolve-case-legacy.png" alt-text="Legacy resolve case" :::
+
+   ---
 6.  Select **Resolve**.
 
 > [!NOTE]

@@ -72,3 +72,5 @@ Now you can use the subscription center you've set up in a real-time marketing e
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of selecting the subscription center under Compliance.](media/outbound-subscription-compliance-select.png "Screenshot of selecting the subscription center under Compliance")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

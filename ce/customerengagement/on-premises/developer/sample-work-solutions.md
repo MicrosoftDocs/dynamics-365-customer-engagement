@@ -49,7 +49,7 @@ This sample shows how to perform the following actions with solutions:
 - Install or upgrade a solution.
 - Delete a solution.
 
-You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/WorkwithSolutions).
+You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/WorkwithSolutions).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

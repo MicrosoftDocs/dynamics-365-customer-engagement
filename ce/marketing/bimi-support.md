@@ -1,8 +1,7 @@
 ---
-title: "BIMI support (Dynamics 365 Marketing) | Microsoft Docs"
-description: "BIMI support in Dynamics 365 Marketing."
-ms.date: 03/07/2023
-
+title: BIMI support
+description: BIMI support in Dynamics 365 Marketing.
+ms.date: 05/01/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
@@ -44,11 +43,25 @@ Microsoft, on the other side, has its approach known as "**brand cards**," which
 > [!IMPORTANT]
 > If your organization uses **Domain-based Message Authentication, Reporting, and Conformance** ([DMARC](https://dmarc.org/wiki/FAQ)) to protect against phishing attacks involving your domain, then it's important to set up DKIM for your sending domains. This will help to prevent false positives during DMARC checks made by receiving systems.
 
-2. **Create a BIMI-compliant logo image**: To display your brand logo in email clients that support BIMI, you need to create a logo image that meets the BIMI specifications. BIMI requires that the logo image is a PNG file with a minimum resolution of 144x144 pixels and that the image file is hosted on a secure server (HTTPS). Additionally, the image file must be publicly accessible and located at a specific URL. **Learn more**: [Creating BIMI SVG Logo Files - BIMI Group](https://bimigroup.org/creating-bimi-svg-logo-files/)
+2. **Create a BIMI-compliant logo image**: To display your brand logo in email clients that support BIMI, you need to create a logo image that meets the BIMI specifications. BIMI requires that the logo image is a SVG file and that the image file is hosted on a secure server (HTTPS). Additionally, the SVG file must be publicly accessible and located at a specific URL. The SVG file size should be less than 32 kilobytes. **Learn more**: [Creating BIMI SVG Logo Files - BIMI Group](https://bimigroup.org/creating-bimi-svg-logo-files/)
 3. **Publish a BIMI record in DNS**: To set up BIMI, you need to publish a BIMI record in DNS. This involves adding a TXT record to your DNS zone file, which specifies the location of your brand logo image file and its dimensions. The format of the TXT record should be as follows:
-default._bimi.\<your-domain\> IN TXT "v=BIMI1; l=https://\<url-to-your-brand-logo\>; a=image/png; s=\<width\>x\<height\>;"
-Replace \<your-domain\> with your actual domain name, \<url-to-your-brand-logo\> with the URL to your brand logo image file, and \<width\> and \<height\> with the dimensions of your logo image in pixels. For example: default._bimi.contoso.com. IN TXT "v=BIMI1; l=[https://contoso.com/logo.png](https://contoso.com/logo.png); a=image/png; s=144x144;"
+
+    `default._bimi.<your-domain> IN TXT "v=BIMI1; l=https://<url-to-your-brand-logo>; a=<PEM URL>;"`
+
+    In most cases, you'll replace `<your-domain>` with your actual domain name and `<url-to-your-brand-logo>` with the URL to your brand logo SVG file. `<PEM URL>` is an optional field that points to where your Verified Mark Certificate (VMC) is hosted.
+
+    Putting it all together, you enter your BIMI record in two parts. The first part (the name) looks like this:
+
+    `default._bimi.contoso.com`
+
+    The text record (the TXT value) looks like this:
+
+   `v=BIMI1; l=https://contoso.com/logo.svg`
+
+    Alternatively, you can use the [BIMI record generator](https://bimigroup.org/bimi-generator/) to format all the information for you. You'll need to enter your domain, SVG image, and optional VMC file.
 
 4. **Validate your BIMI record**: Use the [BIMI Validator tool](https://bimigroup.org/bimi-generator/) to ensure that your BIMI record is correctly formatted and that your brand logo image file is accessible from the specified URL.
 
 BIMI support is currently limited, so not all email clients or providers display the BIMI logo. However, by using BIMI with Microsoft Dynamics 365 Marketing, organizations can enhance the effectiveness of their email marketing campaigns and strengthen their brand's reputation.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

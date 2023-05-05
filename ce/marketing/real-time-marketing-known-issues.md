@@ -64,3 +64,5 @@ As we continue to work on real-time marketing and refine the experience, we've b
 
 - Changing the data binding of existing dynamic text creates new dynamic text.
 - Even if you delete all usage of a piece of dynamic text from the current message, it is still shown and considered in use.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

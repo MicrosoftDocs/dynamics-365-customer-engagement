@@ -10,7 +10,6 @@ search.audienceType:
   - developer
 ms.custom: 
   - dyn365-USD
-monikerRange: '>= dynamics-usd-3'
 ---
 
 # Use Web Hosted Application to host web applications

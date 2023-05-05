@@ -31,3 +31,5 @@ Using the [attribute logic builder](real-time-marketing-build-segments.md), you 
 
 > [!div class="mx-imgBorder"]
 >![Create a static snapshot](media/real-time-marketing-static-snapshot-of-segment.png "Create a static snapshot")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,5 @@ Once you’ve selected a field, the full path to that field is displayed in the 
 ## Limitations
 
 - Option sets aren't supported for use in dynamic text. Option sets are supported in conditions, so an inline condition can be used to output option values in messages.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
