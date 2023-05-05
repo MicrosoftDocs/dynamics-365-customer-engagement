@@ -820,8 +820,6 @@
           href: configure-google-business-messages-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
-        - name: Configure a Twitter channel
-          href: configure-twitter-channel.md
         - name: Configure a WhatsApp channel
           href: configure-whatsapp-channel.md
         - name: Configure a WeChat channel
