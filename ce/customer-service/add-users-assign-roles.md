@@ -104,7 +104,6 @@ Administrator users will need column-level permissions on secure columns when th
 - [Google's Business Messages channel](configure-google-business-messages-channel.md)
 - [Payment profiles for Apple Messages for Business channel](configure-payment-profiles.md)
 - SMS channels through [TeleSign](configure-sms-channel.md) and [Twilio](Configure-sms-channel-twilio.md)
-- [Twitter channel](configure-twitter-channel.md)
 - [WeChat channel](configure-wechat-channel.md)
 - [WhatsApp channel](configure-whatsapp-channel.md)
 
