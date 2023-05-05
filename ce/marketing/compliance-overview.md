@@ -1,7 +1,7 @@
 ---
 title: "Compliance overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to manage compliance settings in Dynamics 365 Marketing."
-ms.date: 05/01/2022
+ms.date: 05/08/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -14,6 +14,9 @@ search.audienceType:
 ---
 
 # Manage user compliance settings
+
+> [!IMPORTANT]
+> This article applies to real-time marketing *and* outbound marketing.
 
 Real-time and outbound marketing have distinct but related constructs for supporting consent and regulatory compliance for communications with customers. This article provides an overview of these differences, along with references to more detailed information for ways to approach compliance.
 
