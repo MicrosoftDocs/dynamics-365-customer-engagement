@@ -368,6 +368,8 @@
           href: real-time-marketing-link-tracking-mechanics.md
       - name: Privacy and compliance
         items:
+        - name: "Preview: Manage user compliance settings in real-time marketing"
+          href: real-time-marketing-compliance-settings-preview.md
         - name: Manage consent for email and text messages in real-time marketing
           href: real-time-marketing-email-text-consent.md
         - name: Use outbound subscription centers in real-time journeys
