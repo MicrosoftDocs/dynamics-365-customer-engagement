@@ -190,6 +190,8 @@
         href: developer/email-designer-customization.md
     - name: Privacy and compliance
       items:
+      - name: Compliance overview
+        href: compliance-overview.md
       - name: Data protection and GDPR
         href: gdpr.md
       - name: Manage user compliance settings
