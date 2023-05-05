@@ -1,7 +1,7 @@
 ---
 title: "Configure outbound messaging in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about how to configure outbound messaging in Omnichannel for Customer Service."
-ms.date: 02/17/2023
+ms.date: 05/05/2023
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -14,7 +14,7 @@ ms.reviewer: nenellim
 
 ## Introduction
 
-Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for only SMS, Twitter, and WhatsApp channels.
+Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for only SMS and WhatsApp channels.
 
 As an administrator, you can do the following tasks:
 
@@ -29,7 +29,6 @@ The following prerequisites must be met.
 - The channel that you want to use must be provisioned in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 - To send outbound messages through SMS, you must configure the SMS channel using Twilio, TeleSign, or Azure Communication Services. More information: [Configure an SMS channel for Twilio](Configure-sms-channel-twilio.md), [Configure an SMS channel for TeleSign](configure-sms-channel.md), and [Configure an SMS channel using Azure Communication Services](configure-sms-channel-acs.md)
 - To send outbound messages through WhatsApp, you must [configure the WhatsApp channel](configure-whatsapp-channel.md) by using a Twilio account.
-- To send outbound messages through Twitter, you must [configure a Twitter Direct Message channel](configure-twitter-channel.md). 
 - You must have a Power Automate account.
 
 After meeting the prerequisites, you can send outbound messages from your organization by following these steps:
@@ -46,7 +45,7 @@ Set up templates to send outbound messages. To create a template, consider the s
 
 2. Create a template for your outbound message.
 
-    - [Create a template for SMS and Twitter](create-message-templates.md). 
+    - [Create a template for SMS](create-message-templates.md). 
     - [Create a template for WhatsApp](configure-whatsapp-channel.md#configure-whatsapp-message-templates).
 
 ## Set up outbound configuration
@@ -144,8 +143,8 @@ Power Automate provides a low-code platform for workflow and process automation.
     
    | Field | Requirement | Description |
    | --------- | --------- | ------------------- |
-   | **tocontactid** | Required | The customer's phone number that the outbound service uses to send messages. For Twitter, it's the customer’s Twitter handle. |
-   | **channelid** | Required | The customer's preferred social channel: SMS, WhatsApp, or Twitter. |
+   | **tocontactid** | Required | The customer's phone number that the outbound service uses to send messages. |
+   | **channelid** | Required | The customer's preferred social channel: SMS or WhatsApp. |
    | **option** | Required | The customer's preference to be contacted by phone.    This field can be set to **true** or **false**. |
    | **locale** | Chosen by default | Enable dynamic message languages, by replacing the default variable with a locale column reference, such as the customer's preferred language. If the locale value is missing, the fallback locale in the omnichannel message template will be applied. |
    | **context items** | NA | Contains values to be processed with individual messages as they're sent. |
