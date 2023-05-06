@@ -161,17 +161,9 @@ For information on how to sign in to the Dynamics 365 app, see [Sign in and set 
 
 The installation of the Dynamics 365 app can be disabled from Microsoft Teams admin center or Power Platform admin center.
 
-**Microsoft Teams admin center**
+### Power Platform admin center
 
-1. In the left navigation pane, go to **Teams apps** > **Manage apps**.
-
-2. Search for the Dynamics 365 app, and select it.
-
-3. Turn off the **Status** toggle.
-
-    :::image type="content" source="media/auto-install-d365-teams-admin.png" alt-text="Disbale auto-install from Teams admin center":::
-
-**Power Platform admin center**
+Power Platform admin center allows you to  disable the auto-installation of the Dynamics 365 app in Teams. This will prevent the app from being installed for all users in your organization. However, users can still install the app from the Teams app store.
 
 1. Go to **Environments** > **Settings** > **Product** > **Collaboration**.
 
@@ -180,6 +172,18 @@ The installation of the Dynamics 365 app can be disabled from Microsoft Teams ad
 3. Select **Save**.
 
     :::image type="content" source="media/auto-install-d365-ppac.png" alt-text="Disbale auto-install from Power Platform admin center":::
+
+### Microsoft Teams admin center
+
+Microsoft Teams admin center allows you to prevent users from manually installing the Dynamics 365 app from the Teams app store.
+
+1. In the left navigation pane, go to **Teams apps** > **Manage apps**.
+
+2. Search for the Dynamics 365 app, and select it.
+
+3. Turn off the **Status** toggle.
+
+    :::image type="content" source="media/auto-install-d365-teams-admin.png" alt-text="Disbale auto-install from Teams admin center":::
 
 ### See also
 
