@@ -159,7 +159,7 @@ For information on how to sign in to the Dynamics 365 app, see [Sign in and set 
 
 ## Disable auto-install of Dynamics 365 app for Teams
 
-The installation of the Dynamics 365 app can be disabled from Microsoft Teams admin center or Power Platform admin center.
+The installation of the Dynamics 365 app can be disabled from Power Platform admin center or Microsoft Teams admin center.
 
 ### Power Platform admin center
 
