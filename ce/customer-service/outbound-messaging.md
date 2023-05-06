@@ -82,7 +82,7 @@ You can set up the outbound configuration in the Customer Service admin center o
 
     The **Configuration ID** will be generated when you select **Save**. You'll use it later to identify this outbound configuration when you set up the flow in Power Automate.
 
-    You can choose a message template for the outbound message. The default message language and other localized message versions are part of the message template configuration, and will apply to outbound messages.
+    You can choose a message template for the outbound message. The default message language and other localized message versions are part of the message template configuration and will apply to outbound messages.
 
     > [!div class=mx-imgBorder]
     > ![Configure outbound messages.](media/outbound-configuration.png "Configure outbound messages")
@@ -97,7 +97,7 @@ Power Automate provides a low-code platform for workflow and process automation.
 
 **To set up a Power Automate flow**
 
-1. Go to one of the apps, and perform the following steps.
+1. Go to one of the apps and perform the following steps.
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
     
@@ -113,11 +113,11 @@ Power Automate provides a low-code platform for workflow and process automation.
 
       The **Message template view** page is displayed.
 
-1. select **Flow** at the top of the screen, and then select **Create a flow**.
+1. Select **Flow** at the top of the screen, and then select **Create a flow**.
 
     or
 
-    Go to https://us.flow.microsoft.com/, sign in to your account, and select **My flows**.
+    Go to https://us.flow.microsoft.com/, sign in to your account and select **My flows**.
 
 2. In Power Automate, set up a flow that aligns with your outbound messaging scenario:
 
