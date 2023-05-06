@@ -35,21 +35,19 @@ At the time of setup or later, an administrator will need visit **Compliance pro
 
 ### Contact point consent
 
-A contact point is the ultimate destination for a message (for example, an email address or phone number). Real-time marketing consent is contact point based. Customer consent is stored on a per-channel basis. For example, email somebody@example.com has consented to receive commercial communications about upcoming events. This is opposed to Outbound Marketing, where consent is stored per Contact entity record.  
+A contact point is the destination for a message. For example, an email address or phone number is a contact point. Real-time marketing consent is contact point based, which means consent is stored per destination and per channel. For example, email somebody@example.com has consented to receive commercial communications about upcoming events. This is opposed to Outbound Marketing, where consent is stored per Contact entity record.  
 
 The primary benefit of contact point consent is that it allows for real-time marketing to orchestrate journeys across any entity and enforce consent for Leads, Customer Insights profiles, Contacts, and any other entity.
 
 ### Compliance profiles
 
-Compliance profiles are the containers of consent settings. To start, there's a single default compliance profile, which contains three purposes: Commercial, Transactional, and Tracking.  
-
-In some instances, customers may want to separate consent for brands or lines-of-business (LOBs) by creating separate compliance profiles for each. Compliance profiles give marketers the ability to create specific consent settings for various LOBs. For instance, if there are headquarters in different regions whose physical address should show for recipients in that region, each compliance profile can have its own address.  
+Compliance profiles are the containers of consent settings. In some instances, customers may want to separate consent for brands or lines-of-business (LOBs) by creating separate compliance profiles for each. Compliance profiles give marketers the ability to create specific consent settings for various LOBs. For instance, if there are headquarters in different regions whose physical address should show for recipients in that region, each compliance profile can have its own address.  
 
 Another key reason for having multiple compliance profiles would be to support different compliance requirements across regions. For example, a company that operates in the United States and France may choose to have a separate compliance profile for those two locations. Within the United States version, the commercial purpose could be set to a nonrestrictive enforcement model, because the U.S. isn't subject to GDPR regulations. Within the France version, however, they may set the commercial purpose to the restrictive enforcement model to require explicit consent before sending any commercial or promotional materials.  
 
 ### Purposes
 
-Data Use Purpose Consent (hereafter called “purpose”) defines the specific reason for which consent is collected. It's often associated with a specific legal basis or reason – for example, consent to be contacted for commercial marketing purposes, or consent to use my data for AI processing. In Dynamics Marketing, we’re primarily concerned with three purposes consent scopes – (1) Commercial Communication, (2) Transactional Communication and (3) Tracking Consent.
+Data Use Purpose Consent (hereafter called “purpose”) defines the specific reason for which consent is collected. It's often associated with a specific legal basis or reason – for example, consent to be contacted for commercial marketing purposes. In Dynamics Marketing, we’re primarily concerned with three purposes consent scopes – (1) Commercial Communication, (2) Transactional Communication and (3) Tracking Consent. When a compliance profile is created there are three purposes created by default: a Commercial, Transactional, and Tracking purpose. But you can customize these to meet your specific needs.  
 
 Purpose consent also allows customers to create line-of-business (LOB) separation without using Dataverse business units or separate compliance profiles. Each LOB has a preference center configured for each business, and each LOB will have a set of purposes associated with it that's specific to each LOB. Each message (for example, email, text message) is tied to a single preference center and an associated purpose.
 
