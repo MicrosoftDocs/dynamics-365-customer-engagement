@@ -20,15 +20,18 @@ search.audienceType:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-Managing compliance settings is key to ensuring your business processes conform with privacy laws such as the GDPR. This article gives an overview of administrator compliance setup, preference centers, and real-time marketing concepts. Currently, the features described are in preview for customers who want to familiarize themselves with them. They aren't intended for production use until they're made generally available. For information on the current generally available compliance features for real-time marketing, visit [Real-time marketing compliance settings](real-time-marketing-compliance-settings.md) For information on outbound marketing compliance visit [Use GDPR Features](gdpr-use-features.md)  
+Managing compliance settings is key to ensuring your business processes conform with privacy laws such as the GDPR. This article gives an overview of administrator compliance setup, preference centers, and real-time marketing concepts. Currently, the features described are in preview for customers who want to familiarize themselves with them. They aren't intended for production use until they're made generally available. For information on the current generally available compliance features for real-time marketing, visit [Real-time marketing compliance settings](real-time-marketing-compliance-settings.md). For information on outbound marketing compliance visit [Use GDPR Features](gdpr-use-features.md).
+>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW137KU]
 
 ## Enabling multi-brand consent and customizable preference centers
 
-To enable this feature, an administrator needs to go to Settings > Overview > Feature switches and turn on the **Multi-brand consent and customizable preference centers (preview)** feature flag. Doing so triggers a pop up window that describes the feature. It’s important to note that once enabled, this feature flag can't be disabled. Existing consent data is migrated to the new consent entities described below. You can visit Real-time marketing > Get started to track the status of the migration. There will be no change to existing consent or journeys during the migration, and you can continue to use the system as usual during the migration.  
+To enable this feature, an administrator will need to navigate to **Feature switches** under the **Overview** section of **Settings** and turn on **Multi-brand consent and customizable preference centers (preview)**. A description of the feature will open describing the details of what will happen once the feature is enabled. It’s important to note that once enabled, this feature switch cannot be disabled. Existing consent data is migrated to the new consent entities described below. You can visit the **Get started** page of **Real-time marketing** to track the status of the migration. There will be no change to existing consent or journeys during the migration, and you can continue to use the system as usual during the migration.
 
 ## Real-time marketing compliance overview
 
-At the time of setup or later, an administrator needs to go to Settings > Customer engagement > Compliance profiles and define the consent model, the company address, and customize the preference center page for your end users.
+At the time of setup or later, an administrator will need visit **Compliance profiles** in the **Customer engagement** section of **Settings** to define the consent model, the company address, and customize the preference center page for your end users.
 
 ### Contact point consent
 
