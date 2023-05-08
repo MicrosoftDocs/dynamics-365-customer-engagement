@@ -41,6 +41,9 @@ In Field Service, open the **Settings** area. Under **Customer Portal**, select 
 
 - **Show Resource Phone**: When the technician is traveling, a phone icon shows in the portal. Customers can call or text the technician. This interaction will use the *Main Phone* value configured for the technician, if available.
 
+> [!NOTE]
+> Location tracking for a technician isn't available when the booking status changes to *In Progress*. The system assumes that the technician now performs work at the designated work location.
+
 ## Test the experience as a customer
 
 To review and test changes, set up an account and contact as if you were one of your customers. This procedure also lets you test rescheduling and cancellations of a booking through the portal.
