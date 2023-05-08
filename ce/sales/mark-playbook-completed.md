@@ -1,7 +1,7 @@
 ---
 title: "Mark a playbook as completed (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Close the playbook as completed to define if the playbook was successful or not."
-ms.date: 10/26/2021
+ms.date: 05/08/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

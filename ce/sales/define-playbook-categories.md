@@ -1,7 +1,7 @@
 ---
 title: "Define playbook categories | MicrosoftDocs"
 description: "Create playbook categories to classify playbooks based on the audience, objective, or any other criteria."
-ms.date: 10/25/2021
+ms.date: 05/08/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
