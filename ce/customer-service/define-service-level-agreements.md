@@ -1,7 +1,7 @@
 ---
 title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 11/18/2022
+ms.date: 05/08/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -175,7 +175,9 @@ You can create an SLA item from the Customer Service admin center or Customer Se
    - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that will be considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
    - **Business Hours**: (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
-4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied. We recommend that you don't use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
+4. In the **Applicable When** section, define the conditions  when the SLA can be applied for the entity.
+
+    SLA is triggered when the applicable when condition is met throughout. If the applicable when condition isn't met after an SLA is triggered, the SLA KPI instance gets canceled. We recommend that you don't use case fields that are updated quite frequently because any change to the field value might lead to the SLA item being canceled.
 
 5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
