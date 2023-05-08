@@ -18,7 +18,7 @@ Also, by analyzing sequence insights data, organizations  can identify successfu
 they can streamline their processes through common patterns and strategies that contribute to their success.
 
 >[!NOTE]
->- By default, sequence insights are available in your organization from version 9.1.23041 or later.
+>- By default, sequence insights are available in your organization from version 9.0.23041.10001 or later.
 >- After the sequence insights feature is available in your organization, any newly created or updated sequences display insights data.   
 >- Sequences that are active before the feature availability don't display insights data. To get insights data for these sequences, you must reactivate them.
 
