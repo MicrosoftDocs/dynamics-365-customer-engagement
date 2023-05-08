@@ -146,17 +146,17 @@ System and application users update certain entities with insights about the rec
 
 When you set up Sales Premium features using your Dynamics 365 Sales Enterprise license, the features are available with the following capacity limits:
 
-- Sales accelerator provides access to the workspace and up to 1,500 records connected to any defined sequence per environment per month. Manual activities not connected to a sequence will also be displayed without a capacity limit.
-- Users who access and utilize conversation intelligence will be able to do so with 3 hours per user per month.
-- View up to 1,500 leads or opportunity records scored per environment per month with predictive scoring.
+- Access to the workspace and up to 1,500 records connected to any defined sequence per environment per month. Manual activities not connected to a sequence will also be displayed without a capacity limit.
+- Three hours of conversation intelligence per user, per month.
+- Predictive scoring for 1,500 lead or opportunity records scored per environment, per month.
 
-### How to get full capacity of digital sales?
+### How can I get the full capacity of digital selling capabilities?
 
-If you need more capacity, upgrade to Dynamics 365 Sales Premium. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)
+If you need more capacity, upgrade to Dynamics 365 Sales Premium. [Learn more about Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/).
 
 ## Assistant
 
-### Why am I getting insufficient permissions alert while using an Insight card?
+### Why am I getting an "insufficient permissions" alert while using an insight card?
 
 If you see an alert about having insufficient permissions to use an Insight card, take these steps:    
 1. Go to **Settings** > **Security** > **Security Roles**.   
@@ -164,20 +164,18 @@ If you see an alert about having insufficient permissions to use an Insight card
 3. Select the **Core Records** tab.    
 4. Set the privileges to Read and Write access for **Action card** and **Action card User Settings**.  
 
-   ![Insight card security role privilege](media/action-card-permissions600.png "Insight card security role privilege")
+   :::image type="content" source="media/action-card-permissions600.png" alt-text="Screenshot of the insight card security role privilege.":::
 
-### Why am I getting contact administrator error while authenticating credentials in assistant studio?
+### Why am I getting a "contact administrator" error while authenticating credentials in assistant studio?
 
-The error is occurring due to your organization’s policies to restrict third-party tools to access user information. To resolve the issue, you can provide consent for yourself through the [Azure portal](https://portal.azure.com) for third-party tools to access your data. To provide consent for the entire organization, contact your tenant administrator. Select the enterprise application as **Dynamics 365 Sales Insights** in Azure portal while providing the consent. To learn more, see [Grant admin consent in Enterprise apps](/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-in-enterprise-apps).
+Your organization's policies are restricting third-party tools to access user information. To resolve the issue, use the [Azure portal](https://portal.azure.com) to provide consent for yourself for third-party tools to access your data. To provide consent for the entire organization, contact your tenant administrator. Select the enterprise application as **Dynamics 365 Sales Insights** in Azure portal while providing the consent. [Learn how to grant admin consent in Enterprise apps](/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-in-enterprise-apps).
 
-## Sales accelerator     
+## Sales accelerator
 
-### How do I add the Up next widget to an entity form?      
+### How do I add the Up next widget to an entity form?
 
 >[!NOTE]
->You can add the **Up next** widget only to managed entity forms.     
-
-To add the **Up next** widget to a managed entity form, follow these steps:  
+>You can add the **Up next** widget only to managed entity forms.
 
 1.	Go to **Settings** > **Solutions** and then create an empty solution. For example, **AddWidget**.  
 
@@ -186,12 +184,12 @@ To add the **Up next** widget to a managed entity form, follow these steps:
 4.	Export the created **AddWidget** solution as **UnManaged**.    
 5.	Delete the solution **AddWidget** from the organization.    
 6.	Extract the zip file of the downloaded solution.    
-7.	Change the ```<Managed>``` value to 1 in the file ```Solution.xml``` and then save.     
-    ```<Managed>1</Managed>```    
-8.	Open the ```customizations.xml``` file and remove the parameter ```<systemform unmodified="1">```.     
-9.	Choose the ```<column>``` under the **Summary** tab, where you want to add the widget.    
-10.	Add the ```<section>``` tag as follows:    
-    ```
+7.	In the file `Solution.xml`, change the `<Managed>` value to 1 and then save.     
+    `<Managed>1</Managed>`
+8.	In the `customizations.xml` file, remove the parameter `<systemform unmodified="1">`.     
+9.	Choose the `<column>` under the **Summary** tab, where you want to add the widget.    
+10.	Add the `<section>` tag as follows:    
+    ```xml
     <section name="CadenceWidget" showlabel="false" showbar="false" id="{<NEW_GUID_G1>}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{<NEW_GUID_G2> }">
       <labels>
           <label description="Cadence Widget" languagecode="1033" />
@@ -215,9 +213,9 @@ To add the **Up next** widget to a managed entity form, follow these steps:
       </rows>
     </section>
     ```      
-11.	Replace all the ```<NEW_GUID_G>``` occurrences by generating a new GUID for each place.     
-12.	For ```<controlDescriptions>``` node, add a child node as following:    
-    ```
+11.	Replace all the `<NEW_GUID_G>` occurrences by generating a new GUID for each place.     
+12.	For `<controlDescriptions>` node, add a child node as following:    
+    ```xml
     <controlDescription forControl="{<GUID_G5>}">
     <customControl formFactor="2" name="MscrmControls.AcceleratedSales.CadenceWidgetControl">
         <parameters />
@@ -230,14 +228,14 @@ To add the **Up next** widget to a managed entity form, follow these steps:
     </customControl>
     </controlDescription>
     ```     
-13.	Replace the ```<GUID_G5>``` in ```customizations.xml``` with the **GUID_G5** generated from **step 11**.    
-14.	Save the changes and zip the folder.     
-15.	Open Dynamics 365 and go to **Settings** > **Solutions**.     
-16.	Import the zipped solution.    
-17.	Publish all customizations.    
+13.	Replace the `<GUID_G5>` in `customizations.xml` with the **GUID_G5** generated from **step 11**.  
+14.	Save the changes and zip the folder.  
+15.	Open Dynamics 365 and go to **Settings** > **Solutions**.  
+16.	Import the zipped solution.  
+17.	Publish all customizations.  
 18.	Verify that the **Up next** widget successfully shows up on the form.
 
-### How to add sales accelerator site map to your custom app    
+### How to add sales accelerator to the site map in your custom app
 
 Use the site map designer from the app designer to add the sales accelerator site map to your custom app. More information: [Add the sales accelerator site map entry to custom app](add-sales-accelerator-sitemap-entry-custom-app.md).
 
@@ -269,11 +267,11 @@ Relationship health looks at activity, recency, engagement, and sentiment of act
 
 ### Is the Office 365 consent mandatory for the relationship intelligence feature to work?
  
-Office consent is not mandatory for relationship analytics, health score, and who knows whom. You’ll get basic relationship insights based on the data in Dynamics 365. When you provide consent in Office 365 to use the Exchange data, you’ll get more accurate and complete relationship information.
+Office consent isn't mandatory for relationship analytics, health score, and who knows whom. You’ll get basic relationship insights based on the data in Dynamics 365. When you provide consent in Office 365 to use Exchange data, you’ll get more accurate and complete relationship information.
 
 ### What happens if I select the Exchange checkbox but the Office 365 admin hasn’t provided the consent?
 
-The data from Exchange won't be collected until the consent is provided. Work with your Office 365 administrator to get the consent. More information: [Provide consent for collecting data from Office 365](provide-consent-office365.md)
+The data from Exchange isn't collected until the consent is provided. Work with your Office 365 administrator to get the consent. [Learn more about providing consent for collecting Office 365 data](provide-consent-office365.md)
 
 ### I see that the Exchange checkbox is selected, though I hadn't selected it or provided the required consent for it in the past.
 
@@ -285,22 +283,21 @@ An administrator can influence the relationship health score by changing the wei
 
 ### How are similar won deals identified? <a name="similar-won-deals-fields"></a> 
  
-AI models are used to identify the factors that impact the identification of similar won deals. The factors may differ from organization to organization based on the custom and out-of-the-box fields.
+AI models identify the factors that affect the identification of similar won deals. The factors may differ from organization to organization based on the custom and out-of-the-box fields.
 
-To view the fields that determine the similar won deals at that point in time, select the information icon corresponding to any section heading and a side pane opens with the field information.
+To view the fields that determined the similar won deals at that point in time, select the information icon corresponding to any section heading.
 
-> [!div class="mx-imgBorder"]
-> ![About relationship analytics side pane with fields](media/faq-sa-about-relationship-analytics-side-pane-fields.png "About relationship analytics side pane with fields")
+:::image type="content" source="media/faq-sa-about-relationship-analytics-side-pane-fields.png" alt-text="Screenshot of the relationship analytics side pane.":::
 
-## Predictive lead/opportunity scoring
+## Predictive lead and opportunity scoring
 
-### What do I need in order to use lead/opportunity scoring?​
+### What do I need in order to use lead and opportunity scoring?​
 
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use standard lead entity or standard opportunity entity.​  
+Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use the standard lead entity or the standard opportunity entity.​ A minimum number of leads or opportunities is required to build a scoring model:
 
-To build a lead score model, a minimum of 40 qualified and 40 disqualified leads are required.  
-To build an opportunity scoring model, a minimum of 40 won and 40 lost opportunities are required.  
-Verify that the leads and opportunities are created on or after January 01, in the previous year.
+To build a lead scoring model, you need to have a minimum of 40 qualified and 40 disqualified leads.  
+To build an opportunity scoring model, you need to have a minimum of 40 won and 40 lost opportunities.  
+The leads and opportunities must have been created on or after January 1, in the previous year.
 
 ### How frequently are the predictive scores updated?
 
@@ -317,7 +314,7 @@ Real-time scoring is supported only for new leads. If you don't see the score ev
 
 Yes, you are able to modify which attributes are selected to train the model. That said, the out-of-the-box model automatically selects the attributes it determines are most relevant for your business.
 
-### Can I create multiple models for leads/opportunities?​
+### Can I create multiple models for leads and opportunities?​
 
 Yes, you can add and publish multiple models that are specific to each line of business in your organization.
 
