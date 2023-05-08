@@ -29,27 +29,27 @@ search.audienceType:
 > [!IMPORTANT]
 > Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to allow for an email with a commercial purpose type to be sent to a contact. Only the **Allow email** field must be set to allow emails to be sent with a transactional purpose type selected. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (for example, Leads or Customer Insights profiles).
 
-Whether consent is checked before sending emails and text messages depends on the consent model that you select on the for a **Purpose** in a specific **Compliance Profile**. [Learn more about compliance settings.](real-time-marketing-compliance-settings.md)
+Whether consent is checked before sending emails and text messages depends on the consent model that you select for the **Purpose** in a specific **Compliance Profile**. [Learn more about compliance settings.](real-time-marketing-compliance-settings.md)
 
 ## How consent is respected for emails
 
-When creating a new email message, you choose a **Compliance Profile** and a **Purpose** from that profile in the **Compliance** section of the **Email header** settings. To set up message designation, select the gear icon ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") in the email header. This will open the **Email header** settings pane on the right side of the page. Navigate to the **Email settings** section.
+When creating a new email message, you choose a **Compliance Profile** and a **Purpose** from that profile in the **Compliance** section of the **Email header** settings. To set up message designation, select the gear icon ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") in the email header. This opens the **Email header** settings pane on the right side of the page. Navigate to the **Email settings** section.
 
 > [!div class="mx-imgBorder"]
 > ![Compliance profile and purpose screenshot.](media/real-time-marketing-email-compliance-settings.png " Compliance profile and purpose screenshot ")
 
 As required for commercial email, a **Company Address** placeholder and an **Unsubscribe** link are added to the email footer automatically. The company address reflects the value set on the **Compliance profile** page and can be edited directly from the email editor, if needed. The unsubscribe link leads to the preference center, where customers can review and change communication preferences.
 
-The presence of a company address and unsubscribe link is checked when you select **Ready to send**. The app will notify you if one of these parameters is missing.
+The presence of a company address and unsubscribe link is checked when you select **Ready to send**. The app notifies you if one of these parameters is missing.
 
 > [!NOTE]
 > The app will display warnings if, for example, you accidentally delete either the default company address or link to the default preference page. However, it will not block you from sending such an email. Thus, you are able to replace the given company address field with another one of your choice or add a link to a custom preference center if you like.
 
-If you want to send commercial email, the app will check whether the email addresses of the target audience have granted consent when the email is sent. In the restrictive model, messages will only be sent to customers whose email addresses were opted in. By default, the transactional message purpose will have a **Disabled** enforcement model, meaning that consent checks will not be run against contact points. The enforcement model can be changed in the compliance profile itself.
+If you want to send commercial email, the app checks whether the email addresses of the target audience have granted consent when the email is sent. In the restrictive model, messages will only be sent to customers whose email addresses were opted in. By default, the transactional message purpose has a **Disabled** enforcement model, meaning that consent checks won't be run against contact points. The enforcement model can be changed in the compliance profile itself.
 
 ## How consent is respected for text messages
 
-The real-time marketing rules for sending text messages are slightly different than the rules for sending emails. A user must always opt-in to consent to receive commercial text messages, irrespective of the consent enforcement model. Transactional text messages are always sent and don't have consent checked or enforced.
+The real-time marketing rules for sending text messages are slightly different than the rules for sending emails. A user must always opt in to consent to receive commercial text messages, irrespective of the consent enforcement model. Transactional text messages are always sent and don't have consent checked or enforced.
 
 ## View consent records
 
