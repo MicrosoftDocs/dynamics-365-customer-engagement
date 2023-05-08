@@ -17,13 +17,12 @@ ms.assetid: 768e2422-e725-4de4-85c9-17dff24ee69c
 caps.latest.revision: 18
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 ---
 # Sample: Create a reciprocal connection role (early bound)
 
-This sample shows how to create the reciprocal connection roles. It creates a connection role for an account and a connection role for a contact, and then makes them reciprocal by associating them with each other. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ReciprocalConnection
+This sample shows how to create the reciprocal connection roles. It creates a connection role for an account and a connection role for a contact, and then makes them reciprocal by associating them with each other. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ReciprocalConnection
 ).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]

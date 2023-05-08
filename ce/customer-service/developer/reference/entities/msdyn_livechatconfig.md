@@ -3,9 +3,8 @@ title: "msdyn_livechatconfig Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_livechatconfig entity."
 ms.date: 10/27/2022
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---

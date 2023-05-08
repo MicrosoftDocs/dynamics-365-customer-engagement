@@ -1,11 +1,10 @@
 ---
 title: Segment creation and activation in sales accelerator
 description: Create and activate segments by defining conditions to automatically add records that satisfy the conditions in Microsoft Dynamics 365 Sales.
-ms.date: 09/30/2022
+ms.date: 03/28/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Create and activate a segment
@@ -25,28 +24,20 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 1. Sign in to your Dynamics 365 Sales Hub app.
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 3. Under **Sales accelerator**, select **Segments**.
-4. On the **Segments** page, select **New segment**.
+4. On the **Segments** page, choose a record type from the **Record type** list.
+    By default, the lead and opportunity record types are available. The list displays all the record types that you've selected in the [Choose content and layout](enable-configure-sales-accelerator.md#choose-content-and-layout) section in the sales accelerator configuration.  
+5. Select **New segment**.
 
-    The **Create a segment** dialog opens.
-
-    >[!div class="mx-imgBorder"]
-    >![Create a segment](media/sa-segment-create-a-segment.png "Create a segment")
-
-5. In the **Create a segment** dialog, enter the following information:
-
-    | Parameter | Description |
-    |-----------|-------------|
-    | Segment name | The name of the segment. |
-    | Description | A description of the segment (optional). |
-    | Record type | The type of record to be grouped in this segment. By default, the lead and opportunity record type are available. For other record types, you must configure the record types in the **Choose content and layout** section while configuring the sales accelerator. More information: [Choose content and layout](enable-configure-sales-accelerator.md#choose-content-and-layout). |
+5. In the **Create a segment for *record type*** dialog, enter a name and description for the segment. In the Priority field, enter a priority.   
+    Give a priority for each segment. Records that meet the criteria for multiple segments are assigned to the one with the higher priority. You can change the priority of a segment at any time. By default, the priority is set to the last segment created. However, the default out-of-the-box segment is always prioritized last in the list.
 
 6. Select **Next**.
 
     The segment designer page opens.
-    >[!div class="mx-imgBorder"]
-    >![Segment condition builder page](media/sa-segment-condition-builder-home-page.png "Segment condition builder page")
 
-7. <a name="allow-records-move-from-another-segment"></a>(Optional) To allow records to move from another segment to this one, turn on **Allow records to be moved from other segments to this one**. The application validates the records for conditions defined in this segment and moves the records accordingly, although the records are connected to a different segment. When moved, the records will be connected to the sequence from this segment. However, the assignment rules won't be changed. To apply the current assignment rule to the moved records, select the **Update seller assignment as well** option.
+    :::image type="content" source="media/sa-segment-condition-builder-home-page.png" alt-text="Screenshot of segment condition builder page.":::
+
+7. <a name="allow-records-move-from-another-segment"></a>(Optional) To allow records from another segment to move to this one, turn on **Allow records to be moved from other segments to this one**. The application validates the records for conditions defined in this segment and moves the records accordingly, although the records are connected to a different segment. When moved, the records will be connected to the sequence from this segment. However, the assignment rules won't be changed. To apply the current assignment rule to the moved records, select the **Update seller assignment as well** option.
 
     :::image type="content" source="media/sa-segment-allow-records-to-move.png" alt-text="Screenshot illustrating the option to allow records to move tho this segment and apply the assignment rules.":::
 
@@ -126,7 +117,8 @@ The segment is activated. Now you can connect the segment to a sequence or a rec
 
 ### See also
 
-[Manage segments](manage-segments.md)
-[View details of a segment](view-details-segment.md)
+[Manage segments](manage-segments.md)   
+[View details of a segment](view-details-segment.md)  
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

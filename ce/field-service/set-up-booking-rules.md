@@ -1,17 +1,14 @@
 ---
-title: "Set up booking rules in Dynamics 365 Field Service | MicrosoftDocs"
+title: Set up booking rules
 description: Learn how to set up booking rules in Dynamics 365 Field Service.
 ms.date: 02/01/2022
 
 ms.topic: article
-author: ryanchen8
-ms.author: chenryan
-search.app: 
-  - D365CE
-  - D365FS
+author: clearab
+ms.author: anclear
 ---
 
-# Set up booking rules (Field Service)
+# Set up booking rules
 
 Booking rules in Field Service create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. For example, a booking rule could be created to warn a user when they attempt to book a work order to a resource on the schedule board that doesn't have the skills required for the job.  
 

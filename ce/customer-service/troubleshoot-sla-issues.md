@@ -1,18 +1,14 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Learn about SLA issues and how to troubleshoot them.
-ms.date: 01/17/2023
+ms.date: 04/18/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -87,6 +83,40 @@ Custom time calculation isn't configured correctly.
 
 Set up custom time calculation and troubleshoot issues. For information on setting up custom time calculation, go to: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis). For information on troubleshooting issues, go to: [Error codes for custom time calculation](/dynamics365/customer-service/enable-sla-custom-time-calculation#error-codes-for-custom-time-calculation)
 
+### For Unified Interface SLAs, onholdtime and lastonholdtime fields aren't populated on case records
+
+#### Reason
+
+This is due to the pause functionality difference between Unified Interface SLAs and legacy SLAs.
+
+In legacy SLAs, lastonholdtime and onholdtime attributes track the onHold duration for a case at case entity level. The onHold duration for a case is maintained irrespective of the state of the associated SLA instance. For example, even after the SLAKPIinstance gets expired, the onHold duration should still be calculated if the case is on hold.
+ 
+In Unified Interface SLAs, Elapsed time tracks the onHold duration and Active Duration tracks the active duration of that SLA KPI instance. This can't be maintained on the case entity level because one case can have multiple KPIs with different pause conditions and each SLA KPI instance may have different calendars associated with it.
+
+Legacy SLA doesn’t support pause conditions at the SLA item or SLA KPI level which is supported in Unified Interface SLAs. So, for Unified Interface SLAs, you shouldn't use onholdtime to determine the onHold duration for SLA KPI instance.
+ 
+Active Duration (minutes): Displays the time in which the SLA KPI Instance was active.
+Elapsed Time (minutes): Displays the time in which the SLA KPI Instance timer was paused
+
+#### Resolution
+
+For Unified Interface SLAs, use Elapsed Time and Active Duration to track Active and onHold time for SLA KPI Instances. More information: [Know active duration and elapsed time for SLA KPI Instances](customer-service-hub-user-guide-case-sla.md#know-active-duration-and-elapsed-time-for-sla-kpi-instances)
+
+You should write your own custom logic if you need to track the onhold time for a case, even after the SLA KPI instances are in the Expired or Succeeded terminal states.
+
+### For Unified Interface SLAs, Active Duration and Elapsed Time fields aren't carrying forward durations of previous SLA KPI Instances
+
+#### Reason
+
+While calculating Active Duration and Elapsed time, the respective Active Duration and Elapsed Time of previous SLA KPI Instances are also added to the current SLA KPI Instance.
+For example, if the SLA KPI Instance was created and was active for 10 minutes and then it was paused for 30 minutes, and then was again active for 15 minutes, the active duration of the final instance would be 25 (10 + 15) minutes, and the Elapsed Time would be 30 minutes.
+
+However, if the applicable SLA Item for that KPI changes, the carry forward functionality won't work. This is because the Active Duration or Elapsed Time of an SLA KPI Instance that comes from different SLAs Items can't be combined, as they might have different business calendars.
+
+#### Resolution
+
+You can write your own customizations to calculate Active Duration or Elapsed Time based on your business use case. For example, you can write a carry-forward logic for SLA KPI Instance on an SLA Item change.
+
 ## Troubleshoot issues with SLA timer
 
 ### SLA KPI instance doesn't reach Nearing Non-compliance or Non-compliant state, and the SLA KPI instance timer continues to run
@@ -95,7 +125,9 @@ The flow runs that are created for the SLA KPI Instances timer fail with a licen
 
 #### Reason
 
-The **SLAInstanceMonitoringWarningAndExpiryFlow** is required to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state. The flow always works in the context of the user who activates the first SLA in the organization. The user who activates the first SLA on the organization must have all the required licenses for the flow execution. The flow must only be turned off and on by a user who has the SLA KPI privileges at a global level for **prvReadSLAKPIInstance** and **prvWriteSLAKPIInstance**.
+Unified Interface SLAs use **SLAInstanceMonitoringWarningAndExpiryFlow** and legacy SLAs use legacy workflows to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state.
+
+The flow always works in the context of the user who activates the first SLA in the organization. The user who activates the first SLA on the organization must have all the required licenses for the flow execution. The flow must only be turned off and on by a user who has the SLA KPI privileges at a global level for **prvReadSLAKPIInstance** and **prvWriteSLAKPIInstance**.
 
 If the user is missing any of the required licenses, then the flow runs that are created for the corresponding SLA KPI instance will fail with a license required error: "The user with SystermUserId = XXXX in OrganizationContext = YYYY is not licensed". Thus, the SLA KPI instance will never reach the **Nearing non-compliance** or **Non-complaint** state and the SLA KPI instance timer will continue to run.
 
@@ -186,6 +218,16 @@ If the customizations.xml file has the SLAs and you select **Overwrite Customiza
 
 - If you want to import other customizations in the solution, the SLAs don't need to be re-imported. You can remove them from the customizations.xml file.
 
+### Changes to a SLAItem through an upgrade solution don't appear even after a successful upgrade
+
+Changes like Applicable when, Success, Pause conditions, or adding action flows through an upgrade solution don't appear in the SLA of the target organization. This is the expected behavior, and is applicable to both UCI and legacy SLAs.
+ 
+#### Reason 
+When an SLA is activated or an SLAItem is modified manually on the organization (for example, Applicable when conditions, Success, Warning, or Failure actions), the upgrade solution changes aren't reflected. This is because the active layer takes precedence over the upgrade solution.
+
+#### Resolution
+We recommend that you make changes to a SLA or a SLAItem only through an upgrade solution. If the issue persists even after importing the patch solution, you can opt for the overwrite customization option while importing the full solution. Overwriting customization removes all the active layer customizations on the SLA, and therefore, all the changes in the upgrade solution are reflected. Overwrite customization might only be visible in Legacy Solution import.
+
 ## Troubleshoot issues with entitlements
 
 ### Unable to create entitlements because Allocation Type dropdown doesn't show any options
@@ -250,7 +292,7 @@ When you define the **Applicable when** and **Success condition** on the same at
 
 #### Resolution
 
-In such scenarios, we recommend that you don't define the **Applicable when** and **Success condition** on the same attribute.
+In such scenarios, it is recommended that you don't define the **Applicable when** and **Success condition** on the same attribute.
 
 ### Success, warning, and failure actions are being run multiple times in web client
 
@@ -372,7 +414,7 @@ If the action flow associated with one or more SLA items are deleted or aren't i
 #### Resolution
 
 Avoid using the **modifiedon** and **modifiedby** fields for reporting because they get modified when calculating Next SLA on the enhanced case grid. If you want to know when the case was resolved, use the **incidentresolution** entity and avoid using **modifiedon** on the case entity.
-
+ 
 ### See also
 
 [Understand SLA details with Timer control](customer-service-hub-user-guide-case-sla.md#understand-sla-details-with-timer-control)

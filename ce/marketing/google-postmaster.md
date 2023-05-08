@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Google Postmaster Tools - What it is and how it can help you
@@ -159,3 +155,5 @@ This graph monitors what percentage of your total emails were rejected or tempor
 > ![Delivery errors screenshot.](media/postmaster-delivery-errors.png)
 
 That’s pretty much it. We hope this will help you getting Google Postmaster Tools up and running. If you need more insights into these tools, let us know. We can help.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

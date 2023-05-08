@@ -6,9 +6,6 @@ ms.date: 12/01/2021
 ms.topic: article
 author: Andrea-Orimoto
 ms.author: andreo
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Edit the booking and work order form

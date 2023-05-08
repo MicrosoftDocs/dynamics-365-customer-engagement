@@ -1,9 +1,8 @@
 ---
 title: "Get Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Use this topic to get the download link and prerequisites for Dynamics 365 Channel Integration Framework 2.0."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

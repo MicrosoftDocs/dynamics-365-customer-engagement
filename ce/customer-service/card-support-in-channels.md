@@ -1,10 +1,10 @@
 ---
 title: Support for live chat and asynchronous channels
 description: Get information on the support for adaptive cards, suggested actions, emojis, stickers, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service.
-ms.date: 01/17/2023
+ms.date: 05/07/2023
 ms.topic: conceptual
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 ms.custom: bap-template
 ms.reviewer: nenellim
 ---
@@ -36,12 +36,9 @@ The markdown element for adaptive cards is partially supported across all chat c
 
 Media or audio card and date input elements for adaptive cards are only supported in Live chat channels. Adaptive card elements like text block and images are also supported across channels.
 
-The Apple Messages for Business, Google's Business Messages, Twitter, SMS, WhatsApp, and WeChat social channels don't support any cards listed in the preceding table.
+The Apple Messages for Business, Google's Business Messages, SMS, WhatsApp, and WeChat social channels don't support any cards listed in the preceding table.
 
-For more information, see the following:
-
-- [Send and Receive Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-)
-- [Upload media, Twitter developer documentation](https://developer.twitter.com/docs/media/upload-media/uploading-media/media-best-practices)
+For more information, see the following: [Send and Receive Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-)
 
 > [!IMPORTANT]
 > The message size must be less than or equal to 28 KB in all messaging channels. The size limit includes metadata like timestamps and tags.
@@ -57,7 +54,6 @@ Suggested actions are supported fully with the exception that some channels migh
 | Facebook                       | Yes                             |
 | Google's Business Messages     | No                              |
 | LINE                           | Yes                             |
-| Twitter                        | No                              |
 | WeChat                         | No                              |
 | WhatsApp                       | No                              |
 | SMS                            | No                              |
@@ -75,7 +71,6 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Facebook             | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx, .xls |
 | Google's Business Messages | Image | Image will have preview. Audio, video, document only receive a link.<br><br> Allowed file extentions: .jpg, .jpeg, .png, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx |
 | LINE                 | Image, Audio, Video, and GIF                   | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif | 
-| Twitter              | Image, Video, GIF, and Emoji                   | Image, Video, and GIF  <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp4, .gif |
 | WeChat               | Image, Audio, and Video                        | Image, Audio, and Video <br><br> Allowed file extensions: .jpg, .jpeg, .png, .amr, .mp4 |
 | WhatsApp             | Image, Audio, Video, GIF, and PDF               | Image, Audio, Video, and PDF  <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf |
 | SMS (Twilio)         | Image, Video, GIF, and Emoji                   | Image, Audio, Video, and GIF   <br><br> Allowed file extensions: .jpg, .jpeg, .gif, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .csv |
@@ -98,7 +93,6 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Facebook           | Yes. Emoji in text like “😀”                                       |
 | Google's Business Messages | Yes. Emoji in text like “😀”                               |
 | LINE               | Yes. When an emoji is sent, the recipient sees a sticker.           |
-| Twitter            | Yes. Emoji in text like “😀”                                       |
 | WeChat             | Yes. When an emoji is sent, the recipient sees characters like :-) |
 | WhatsApp           | Not supported.                                                      |
 | SMS (Twilio)       | Yes. Emoji in text like “😀”                                       |
@@ -117,7 +111,6 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Facebook           | Yes, as a PNG image.                                                |
 | Google's Business Messages | Not supported.                                              |
 | LINE               | Not supported. Recipient sees "Sticker" text.                       |
-| Twitter            | Not supported.                                                      |
 | WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
 | WhatsApp           | Not supported.                                                      |
 | Custom messaging (Telegram) | Not supported.                                             |
@@ -147,7 +140,7 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 | unordered list       | ✔          | ✔              | ✖        |✖                               |✖       | ✖                          | ✔                             |
 
 > [!NOTE]
-> - Apple Messages for Business, Twitter, WeChat, and SMS channels don't support formatted messages.
+> - Apple Messages for Business, WeChat, and SMS channels don't support formatted messages.
 > - A few text styles such as blockquote, headers, numbered lists, and unordered lists, are currently not supported across some channels.
 
 

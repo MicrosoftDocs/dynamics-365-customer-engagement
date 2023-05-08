@@ -14,7 +14,6 @@ ms.assetid: 3a50694d-df1e-4da6-92f9-7a84364386d9
 caps.latest.revision: 16
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
 tags: 
   - aug2017
   - MigrationHO

@@ -6,14 +6,10 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Dynamics 365 Marketing trial FAQ

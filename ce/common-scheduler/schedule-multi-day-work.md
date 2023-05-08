@@ -10,10 +10,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Schedule multi-day work or requirements in Universal Resource Scheduling

@@ -13,7 +13,6 @@ ms.assetid: 5622050b-a0e8-40ca-9ed5-fc082d5212a8
 caps.latest.revision: 61
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Monitor and troubleshoot Dynamics 365 Customer Engagement (on-premises)
 

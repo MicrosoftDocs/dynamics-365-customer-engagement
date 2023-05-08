@@ -17,13 +17,12 @@ ms.assetid: 3df3e8c5-ff20-40c7-8ea8-e91001daebd1
 caps.latest.revision: 14
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 ---
 # Sample: Retrieve time zone information
 
-This sample shows how to retrieve time zone information. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveTimeZone).
+This sample shows how to retrieve time zone information. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/RetrieveTimeZone).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

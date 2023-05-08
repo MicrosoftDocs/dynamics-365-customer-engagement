@@ -1,9 +1,8 @@
 ---
 title: "canClose property of a tab (app profile manager) JavaScript API Reference | MicrosoftDocs"
 description: "Learn about the canClose tab property of app profile manager in Customer Service workspace."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---

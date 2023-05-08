@@ -3,8 +3,8 @@ title: Configure an SMS channel using Azure Communication Services | MicrosoftDo
 description: This article includes instructions for configuring an SMS channel using Azure Communication Services.
 ms.date: 02/17/2023
 ms.topic: how-to
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 ms.reviewer: nenellim
 ms.custom: bap-template
 ---

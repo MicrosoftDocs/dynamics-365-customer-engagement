@@ -14,7 +14,6 @@ ms.assetid: f2b7ddcc-6678-492f-8b4b-478e00049362
 caps.latest.revision: 39
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -41,7 +40,7 @@ Record-based security in Dynamics 365 Customer Engagement (on-premises) applies 
 |Delete|DeleteAccess|Controls whether the user can delete a record.|  
   
 ### Create access  
- The right to create a record for an entity type is not included in the previous table because this right does not apply to an individual record, but instead to a class of entities. Create is handled as a privilege instead of as an access right. The user who creates a record has all rights on that record, unless his or her other privileges forbid a specific right.  
+ The right to create a record for an entity type is not included in the previous table because this right does not apply to an individual record, but instead to a class of entities. Create is handled as a privilege instead of as an access right. The user who creates a record has all rights on that record, unless their other privileges forbid a specific right.  
   
  The Create privilege controls whether you can create a record. If you have the Create privilege with Local, Deep, or Global access, you can create records for other users. If you have Create and Read privileges with Basic access, you can create records for yourself.  
   
@@ -57,7 +56,7 @@ Record-based security in Dynamics 365 Customer Engagement (on-premises) applies 
   
 - **Share**. Any user who has share privileges on a given entity type can share records of that type with any other user or team in Dynamics 365 Customer Engagement (on-premises). To share a record, use <xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>.  
   
-     When you share a record with another user, indicate what access rights (Read, Write, Delete, Append, Assign, and Share) you want to grant to the other user. Access rights on a shared record can be different for each user with whom the record is shared. However, you cannot give a user any rights that he or she would not have for that type of entity, based on the role assigned to that user. For example, if a user does not have Read privileges on accounts and you share an account with that user, the user will be unable to see that account.  
+     When you share a record with another user, indicate what access rights (Read, Write, Delete, Append, Assign, and Share) you want to grant to the other user. Access rights on a shared record can be different for each user with whom the record is shared. However, you cannot give a user any rights that they would not have for that type of entity, based on the role assigned to that user. For example, if a user does not have Read privileges on accounts and you share an account with that user, the user will be unable to see that account.  
   
 - **Modify share**. You can modify the rights granted to a shared record after it has been shared. To modify sharing for a record, use the <xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>.  
   
@@ -66,13 +65,13 @@ Record-based security in Dynamics 365 Customer Engagement (on-premises) applies 
 > [!TIP]
 >  Use <xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>, <xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>, and <xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest> for sharing.  
   
- A user might have access to the same record in more than one context. For example, a user might share a record directly with specific access rights, and he or she might also be on a team in which the same record is shared with different access rights. In this case, the access rights that this user has on the record are the union of all the rights.  
+ A user might have access to the same record in more than one context. For example, a user might share a record directly with specific access rights, and they might also be on a team in which the same record is shared with different access rights. In this case, the access rights that this user has on the record are the union of all the rights.  
   
  For a list of entities that support sharing, see the <xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>.  
   
 <a name="BKMK_SharingAndInheritance"></a>   
 ### Sharing and inheritance  
- If a record is created and the parent record has certain sharing properties, the new record inherits those properties. For example, Joe and Mike are working on a high priority lead. Joe creates a new lead and two activities, shares the lead with Mike, and selects cascade sharing. Mike makes a telephone call and sends an email regarding the new lead. Joe sees that Mike has contacted the company two times, so he does not make another call.  
+ If a record is created and the parent record has certain sharing properties, the new record inherits those properties. For example, Joe and Mike are working on a high priority lead. Joe creates a new lead and two activities, shares the lead with Mike, and selects cascade sharing. Mike makes a telephone call and sends an email regarding the new lead. Joe sees that Mike has contacted the company two times, so Joe doesn't make another call.  
   
  Sharing is maintained on individual records. A record inherits the sharing properties from its parent and also maintains its own sharing properties. Therefore, a record can have two sets of sharing properties—one that it has on its own and one that it inherits from its parent.  
   
@@ -82,7 +81,7 @@ Record-based security in Dynamics 365 Customer Engagement (on-premises) applies 
 ## Assigning records  
  Anyone with Assign privileges on a record can assign that record to another user. When a record is assigned, the new user or team becomes the owner of the record and its related records. The original user or team loses ownership of the record, but automatically shares it with the new owner.  
   
- In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)], the system administrator can decide for an organization whether records should be shared with previous owners or not after the assign operation. If **Share with previous owner** is selected, then the previous owner shares the record with all access rights after the assign operation. Otherwise, the previous owner does not share the record and may not have access to the record, depending on his or her privileges. The `Organization.ShareRoPreviousOwnerOnAssign` attribute controls this setting.  
+ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)], the system administrator can decide for an organization whether records should be shared with previous owners or not after the assign operation. If **Share with previous owner** is selected, then the previous owner shares the record with all access rights after the assign operation. Otherwise, the previous owner does not share the record and may not have access to the record, depending on their privileges. The `Organization.ShareRoPreviousOwnerOnAssign` attribute controls this setting.  
   
  For a list of entities that support Assign, see the <xref:Microsoft.Crm.Sdk.Messages.AssignRequest>.  
   

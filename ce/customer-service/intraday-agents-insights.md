@@ -1,11 +1,10 @@
 ---
 title: "Omnichannel Intraday insights: Agents insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Agents insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 01/18/2023
+ms.date: 04/28/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom: intro-internal
 ---
@@ -13,6 +12,9 @@ ms.custom: intro-internal
 # View and understand the Agents insights report in Omnichannel intraday insights
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!NOTE]
+> With the release of [real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability, we announce that the intraday insights for Omnichannel for Customer Service will be deprecated as of May 1, 2023. We recommend that you use real-time analytics reports, which provide real-time information about the health and key performance indicators of your organization. For more information on the deprecation, go to [Intraday insights for Omnichannel for customer service to be deprecated](deprecations-customer-service.md#intraday-insights-for-omnichannel-for-customer-service-to-be-deprecated).
 
 ## Introduction
 

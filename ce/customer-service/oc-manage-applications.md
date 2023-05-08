@@ -5,7 +5,6 @@ ms.date: 08/03/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Manage applications in Omnichannel for Customer Service
@@ -39,7 +38,7 @@ Use a combination of keyboard and mouse-click gesture to start an application. Y
 
 ## Work with applications
 
-Every session has an application tab that is called the Anchor tab. A session can have a maximum of one Anchor tab and there is no close option on the application tab. When you are working on an Omnichannel conversation request, the customer summary page is the default anchor tab.
+Every session has an application tab that is called the Anchor tab. A session can have a maximum of one Anchor tab and there is no close option on the application tab. When you are working on an Omnichannel conversation request, the **Active Conversation** page is the default anchor tab.
 
 When you switch sessions or between applications in the current session, your unsaved changes are not lost and you can continue to work on them.
 

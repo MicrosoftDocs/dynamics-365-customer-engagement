@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 1ed89b35-a84d-488e-b58c-4ed6eb26018c
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -29,7 +28,7 @@ search.audienceType:
 
 # Sample: Import data using complex data map
 
-This sample shows how to create new records by using data import. The sample uses a complex data map. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ImportComplexDataMap).
+This sample shows how to create new records by using data import. The sample uses a complex data map. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ImportComplexDataMap).
 
 >[!NOTE]
 > The source data for this sample is contained in the following file `ImportComplexDataMap\import accounts.csv`.

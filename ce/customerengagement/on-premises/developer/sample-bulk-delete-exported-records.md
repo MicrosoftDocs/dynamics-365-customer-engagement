@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: d5483d27-ee03-428f-ad70-2765765ae262
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -26,7 +25,7 @@ search.audienceType:
 
 # Sample: Bulk delete exported records
 
-This sample shows how to perform a bulk deletion of records that were previously exported from Dataverse by using the **Export to Excel** option. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/BulkDeleteExported).
+This sample shows how to perform a bulk deletion of records that were previously exported from Dataverse by using the **Export to Excel** option. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/BulkDeleteExported).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

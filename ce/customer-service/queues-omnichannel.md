@@ -1,12 +1,11 @@
 ---
-title: Create and manage queues for unified routing | MicrosoftDocs
-description: "Use this article to understand how to create and manage queues for unified routing in Customer Service and Omnichannel for Customer Service apps."
+title: Create and manage queues for unified routing
+description: Learn about how to create and manage advanced queues for unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.topic: article
-ms.date: 11/03/2022
-ms.custom: intro-internal
+ms.topic: how-to
+ms.date: 04/26/2023
+ms.custom: bap-template
 searchScope:
 - D365-App-customerservice
 - D365-Entity-queueitem
@@ -98,21 +97,25 @@ You can manage queues on the **Queues** page, and perform operations such as sea
 
 ### How fallback queues work
 
-To efficiently manage the work items, you can configure a fallback queue per workstream. You can set an existing queue as the fallback queue or create a fallback queue with the required settings when you're creating a workstream.
+To efficiently manage the work items, you can configure a fallback queue per workstream that acts as a safety net. You can set an existing queue as the fallback queue or create a fallback queue with the required settings when you're creating a workstream.
 
 For existing workstreams, you can configure the fallback queue on the workstream page. If you choose to create a queue, you'll need to add users. By default, the assignment method for the fallback queue is highest capacity.
 
-Out of the box, the following queues are available. You can add and remove users from these queues.
+If any overflow settings exist, they are overruled and work items are routed to the fallback queues in the following scenarios:
+
+- Work item encounters an error during classification.
+- Work item encounters an error when running a route-to-queue rule.
+- Work item doesn't match any route-to-queue rules.
+
+### How default queues work
+
+Default queues are a finite set of queues that help you manage work items when other queues aren't available for routing them. All agents who have the Omnichannel agent role are a part of the default queues. Out of the box, the following default queues are available:
 
 - **Default entity queue** for routing entity records.
 - **Default messaging queue** for routing all messaging conversations pertaining to live chat, SMS, Microsoft Teams, and social channels.
 - **Default voice queue** for routing all voice calls.
 
-Work is routed to the fallback queues that act as a safety net in the following scenarios. The work item is assigned to the queue irrespective of the overflow settings that are configured for the fallback queue.
-
-- Work item encounters an error during classification.
-- Work item encounters an error when running a route-to-queue rule.
-- Work item doesn't match any route-to-queue rules.
+For a workstream, you can set any queue as a fallback queue, including a default queue but vice versa isn't possible. You can update the assignment method only for the default queues. No other settings are available for edit.
 
 ### See also
 

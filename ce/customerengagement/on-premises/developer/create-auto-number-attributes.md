@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: e97477d2-5509-9f5e-76e0-e0039b2e72c8
 author: nhelgren
 ms.author: kabala
-manager: kudesia
 topic-status: Drafting
 search.audienceType: 
   - developer

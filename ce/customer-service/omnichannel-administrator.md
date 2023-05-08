@@ -5,7 +5,6 @@ ms.date: 12/27/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Omnichannel for Customer Service for administrators
 

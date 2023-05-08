@@ -6,21 +6,11 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365 
 ms.topic: how-to
-ms.date: 03/01/2023
+ms.date: 04/10/2023
 ms.custom: bap-template
 ---
 
-# Apply authentication for search providers (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+# Apply authentication for search providers
 
 Use the following information to apply authentication as required by your organization.
 
@@ -65,4 +55,4 @@ If you're using an application as identity provider for your website as the reso
 
 ## Next steps
 
-For more information on adding integrated search providers, go to [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview)
+For more information on adding integrated search providers, go to [Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers).

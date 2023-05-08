@@ -14,14 +14,10 @@ ms.assetid: 0e35546e-766b-4f5a-aead-0e8219ecb7f2
 caps.latest.revision: 47
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
 # Install Microsoft Dynamics 365 for Outlook using a command prompt
 Installing [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] is a two-step procedure. First, you must run Setup to install the files on the computer. Next, run the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)][!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] to configure the application and complete the installation.

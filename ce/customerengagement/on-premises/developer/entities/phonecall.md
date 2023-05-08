@@ -6,11 +6,8 @@ ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "margoc"
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # PhoneCall entity reference
@@ -163,7 +160,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Enter the actual start date and time for the phone call. By default, it displays the date and time when the activity was created, but can be edited to capture the actual duration of the phone call.|
+|Description|Enter the actual start date and time for the phone call.|
 |DisplayName|Actual Start|
 |Format|DateOnly|
 |IsValidForForm|True|

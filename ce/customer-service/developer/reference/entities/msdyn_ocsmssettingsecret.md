@@ -3,9 +3,8 @@ title: "msdyn_ocsmssettingsecret Entity Reference (Microsoft Dataverse)| Microso
 description: "Includes schema information and supported messages for the msdyn_ocsmssettingsecret entity."
 ms.date: 10/27/2022
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 ---
 ---
 # msdyn_ocsmssettingsecret Entity Reference

@@ -17,7 +17,6 @@ ms.assetid: 918c0b7e-2850-40c5-8333-5dad6d83b850
 caps.latest.revision: 22
 author: Nkrb
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType:
   - developer
 ---

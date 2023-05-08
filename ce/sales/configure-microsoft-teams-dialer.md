@@ -1,13 +1,12 @@
 ---
-title: "Configure Microsoft Teams dialer in Dynamics 365 Sales | MicrosoftDocs"
-description: "Learn how to configure Microsoft Teams dialer in Dynamics 365 Sales."
-ms.date: 02/21/2023
-ms.topic: article
+title: Configure Microsoft Teams dialer in Dynamics 365 Sales
+description: Learn how to configure Microsoft Teams dialer in Dynamics 365 Sales.
+ms.date: 04/27/2023
+ms.topic: how-to
+ms.collection: 
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
-ms.custom: 
-  - dyn365-sales
+ms.custom: bap-template
 ---
 # Configure Microsoft Teams dialer
 
@@ -76,12 +75,13 @@ Ensure that you meet the following requirements before you configure Microsoft T
     | Option | Description |
     |--------|-------------|
     | All security roles | Allows all the security roles to access Microsoft Teams dialer. |
-    | Specific security roles | Allows only the selected security roles to access Microsoft Teams dialer.<br>**Note**:<br> - Ensure that the security roles you’ve selected are associated with the root business unit (top level in the business unit hierarchy). If not, the users will not see the Teams dialer in the Sales Hub app. More information: [Create or edit business units](/power-platform/admin/create-edit-business-units)|
+    | Specific security roles | Allows only the selected security roles to access Microsoft Teams dialer.<br>**Note**:<br> - Ensure that the security roles you've selected are associated with the root business unit (top level in the business unit hierarchy). If not, the users will not see the Teams dialer in the Sales Hub app. More information: [Create or edit business units](/power-platform/admin/create-edit-business-units)|
 
 7.	Select **Advanced options**, and in the **Select app** drop-down list, select the apps in which you want to make the dialer available. By default, **Sales Hub** is selected.  
     
     >[!NOTE]
     >Teams dialer is not supported for Dynamics 365 canvas apps.
+    
 8. (Optional) Enable call recording and get real-time transcription and insights through conversation intelligence:
     1. Turn on **Recording with real-time transcription and insights**.
     1. Select the security roles for which you want to enable recording. 
@@ -90,7 +90,8 @@ Ensure that you meet the following requirements before you configure Microsoft T
 7.	Save and publish the configuration.
     A confirmation message is displayed, and the Microsoft Teams dialer is enabled in your organization for selected security roles in the selected app. 
     >[!NOTE]
-    >You must refresh the configuration page to make the changes available in the application. Users must refresh their page to see the dialer.  
+    >- You must refresh the configuration page to make the changes available in the application. Users must refresh their page to see the dialer.  
+    >- If the dialer doesn't show up in a custom app that you've added it to, remove it from the app, save the changes, and then add the dialer again.
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

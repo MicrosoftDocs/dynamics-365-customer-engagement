@@ -5,7 +5,6 @@ ms.date: 04/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 searchScope: 
@@ -42,7 +41,7 @@ To understand which opportunities are affecting forecast values, select one of t
 
 The opportunities you see in the table depend on the role assigned to you in the hierarchy that was used to configure the forecast.
 
-For example, Alyce Durham is a manager and Nicolas Frizzell reports to her. Nicolas can see only his underlying opportunities, while Alyce can see her own and Nicolas's underlying opportunities.
+For example, Alyce Durham is a manager and Nicolas Frizzell reports to Alyce. Nicolas can see only their own underlying opportunities, while Alyce can their own and Nicolas's underlying opportunities.
 
 You can view and edit underlying opportunities in two ways:
 
@@ -74,7 +73,7 @@ When you select a row in the forecast grid, you see the underlying opportunities
 
 **To filter the underlying opportunities**
 
-1.	Open a forecast, and select a row. 
+1.	Open a forecast, and select a row.
     
     The underlying opportunities that contribute to the selected row are displayed.
 
@@ -110,9 +109,9 @@ For more information about filters, go to [Add conditions to a filter](/powerapp
 
 Let's understand grouping and filtering of underlying records with an example.
 
-Kenny Smith is a Vice President of the sales organization at Contoso Inc. He heads the Sales teams in North America (NA) and Europe regions. He wants to personally follow up with the customers of the high-value opportunities in the NA region so that the deals can be closed in time for Q2.  Following are the steps that Kenny should perform:
+Kenny Smith is a Vice President of the sales organization at Contoso Inc and heads the Sales teams in North America (NA) and Europe regions. Kenny wants to personally follow up with the customers of the high-value opportunities in the NA region so that the deals can be closed in time for Q2.  Following are the steps that Kenny should perform:
 
-1. Open the Q2 forecast for his org.
+1. Open the Q2 forecast for the org.
 1. Select **Account** in the **Group by** field. 
     All underlying opportunities of the forecast are grouped by their corresponding accounts.  
 1. Select **Filters** > **Add** > **Add row** and specify the following condition:  
@@ -130,23 +129,19 @@ Kenny Smith is a Vice President of the sales organization at Contoso Inc. He hea
     The high-value opportunities of the selected account are displayed. 
 
     > [!NOTE]
-    > The opportunities filter is persisted unless cleared manually. For example, when he opens the rollup records of another account in the NA region, the records are already filtered for high-value opportunities. Even if he changes the grouping to a User entity, the underlying opportunities filter persists and is automatically applied to the opportunities in the new group.  
+    > The opportunities filter is persisted unless cleared manually. For example, when Kenny opens the rollup records of another account in the NA region, the records are already filtered for high-value opportunities. Even if Kenny changes the grouping to a User entity, the underlying opportunities filter persists and is automatically applied to the opportunities in the new group.  
      
 
  
 ### View and edit in a kanban view
 
-1.	Open a forecast. In this example, we're opening **Kenny's Org FY 2020 Forecast** for current quarter **FY2020 Q1**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the forecast grid.](media/forecast-view-forecast-grid.png "Screenshot of the forecast grid")
+1.	Open a forecast. 
 
 2.	Select a row or a cell for any level of the hierarchy for which you want to see underlying opportunities. 
 
-    In this example, we're selecting **Alyce Durham**. Because she's a manager, all the underlying opportunities that are contributing to her team's forecast are listed. This view is opened in a table, by default.
+    In this example, we're selecting **Alyce Durham**. Because Alyce is a manager, all the underlying opportunities that are contributing to the team's forecast are listed. This view is opened in a table, by default.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the forecast underlying opportunities.](media/forecast-view-underlying-opportunities.png "Screenshot of the forecast underlying opportunities")
+    :::image type="content" source="media/forecast-view-underlying-opportunities.png" alt-text="Screenshot of the forecast underlying opportunities" lightbox="media/forecast-view-underlying-opportunities.png":::
 
     You can identify whether the selected opportunities belong to a team, an individual, a single cell value, or a full row by looking at the table heading. The format of the heading is described in the following table:
 
@@ -164,8 +159,7 @@ Kenny Smith is a Vice President of the sales organization at Contoso Inc. He hea
 
     The table view changes into a kanban view and the order of columns is displayed based on the order that's defined in the option set in the application. All the underlying opportunities are displayed as cards in their respective forecast categories. Each card displays attributes that you can edit. In this example, the opportunity name, **Owner**, **Est. Revenue**, and **Est. Close Date** are displayed.
 
-    > [!div class="mx-imgBorder"]
-    > ![View forecast underlying opportunities in kanban.](media/forecast-view-underlying-opportunities-kanban.png "View forecast underlying opportunities in a kanban view")
+    :::image type="content" source="media/forecast-view-underlying-opportunities-kanban.png" alt-text="View forecast underlying opportunities in a kanban view" lightbox="media/forecast-view-underlying-opportunities-kanban.png":::
 
     > [!NOTE]
     > The opportunities in columns **Won** and **Lost** are locked. You can't edit these values directly, because multiple attribute values must be set to enter an opportunity as **Won** or **Lost**. However, you can select the name of the opportunity, and the opportunity will open in a new page where you can edit the opportunity, and then save and close it.

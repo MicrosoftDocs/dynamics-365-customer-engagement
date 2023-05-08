@@ -6,7 +6,6 @@ ms.topic: get-started-article
 author: neeranelli
 ms.custom: intro-internal
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Get started with Omnichannel admin center

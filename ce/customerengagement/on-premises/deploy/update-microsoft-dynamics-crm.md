@@ -14,7 +14,6 @@ ms.assetid: 025396f7-bc98-44ba-9df9-677f0524edf3
 caps.latest.revision: 54
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Update your Dynamics 365 Customer Engagement (on-premises) deployment
 

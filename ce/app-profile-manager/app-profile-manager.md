@@ -3,7 +3,6 @@ title: "Create and use app profiles in Power Apps| MicrosoftDocs"
 description: "Learn how to create and manage app profiles for customized agent experiences."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 01/30/2023
 ms.topic: article
 ---

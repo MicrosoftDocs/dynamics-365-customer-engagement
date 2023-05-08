@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Raise triggers from a journey to run another journey or Power Automate flow
@@ -102,7 +98,7 @@ The screenshot below illustrates how the nurture journey is set up using the "Ad
 
 Custom triggers activated through a customer journey can also trigger Power Automate flows. In the example used here, the shopper is routed to a human agent via a Power Automate flow. This flow creates a phone call activity for sales agents using Dynamics 365 Sales. The sales agents then can be alerted that a new shopper needs to be called so that they can be made aware of the loyalty program. 
 
-To use a custom trigger with a Power Automate flow, navigate to [Power Apps Portal](http://make.powerapps.com):
+To use a custom trigger with a Power Automate flow, navigate to [Power Apps Portal](https://make.powerapps.com):
 
 > [!IMPORTANT]
 > Ensure that you're using the same **environment** in Power Automate as you are for your Dynamics 365 Marketing application. The environment can be viewed and switched in the top right corner of the Power Apps navigation bar (shown at the top of the screenshots in this section).
@@ -130,3 +126,5 @@ To use a custom trigger with a Power Automate flow, navigate to [Power Apps Port
 > If you can't find your custom trigger name in the **Action name** list, go to **Real-time marketing** > **Triggers**, select the custom trigger you want to use, then select **Go to code snippet**. The trigger name (beginning with "msdynmkt") is shown in the first line of the code.
 
 To learn more about this [Dataverse connector](/power-automate/dataverse/overview) action, see [Trigger flows with actions](/power-automate/dataverse/action-trigger).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

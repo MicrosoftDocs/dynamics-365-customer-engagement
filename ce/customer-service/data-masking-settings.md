@@ -4,7 +4,6 @@ description: "Learn how to create and manage data masking rules to block sensiti
 ms.date: 06/09/2022
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ms.topic: article
 ---
 

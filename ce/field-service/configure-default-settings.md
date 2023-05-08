@@ -6,9 +6,6 @@ ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ms.custom: bap-template
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Set defaults for work orders, bookings, the schedule board, and agreements
@@ -129,7 +126,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 | Auto Generate Work Order for Agreement Booking  |  Select whether the system should automatically generate work orders based on agreements. If set to *No*, users have to create the work orders manually. |
 | Generate Booking Dates X Months in Advance    | Agreement booking dates help organizations plan for maintenance. If an agreement spans a long time period, you may not want to generate all booking dates at once. Agreements generate booking dates based on the agreement booking setup recurrence schedule. With auto-generate enabled, the system creates a work order booking on these dates. This setting determines how many months in advance the system generates the work order booking. |
 |   Generate Invoice Dates X Months in Advance   | Agreements generate invoice dates based on the agreement invoice setup recurrence schedule. With auto-generate enabled, the system creates an invoice record on these dates. This setting determines how many months in advance the system generates the invoice dates.   |
-|  Pre/Post Booking Flexibility Date Field Population  | When configuring an agreement, you can define pre- and post-booking flexibility fields. These fields set the time frame in which each work order should get booked. This setting defines whether work orders generated from agreements will populate this time frame in the *Date Window Start/End* or the *Time From/To Promised* fields. |
+|  Pre/Post Booking Flexibility Date Field Population  | When configuring an agreement, you can define pre- and post-booking flexibility fields. These fields set the time frame in which each work order should get booked. This setting defines whether work orders generated from agreements will populate this time frame in the *Date Window Start/End* or the *Time From/To Promised* fields. This setting also controls whether the *Date Window Start/End* fields are visible on the work order. If the agreement is set to populate *Date Window Start/End*, these fields will be visible on the work order; otherwise, they are hidden by default.|
 |  Agreement Starting Number   | Provide number from which the system starts the count of agreements.   |
 | Generate Agreement Work Order X Days in Advance |  Number of days in before the booking date when the system generates the work order record.  |
 |  Generate Agreement Invoices X Days in Advance  |  Number of days in before the invoice date when the system generates the invoice record. |

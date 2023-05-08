@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Preview: Use natural language to create segments
@@ -46,3 +42,5 @@ If you select a new search, you'll notice that the **Use** button now has a drop
 
 > [!div class="mx-imgBorder"]
 > ![provide your feedback](media/real-time-marketing-provide-feedback.png "provide your feedback")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

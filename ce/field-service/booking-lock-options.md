@@ -5,9 +5,6 @@ ms.date: 11/02/2022
 ms.topic: article
 ms.author: chenryan
 author: ryanchen8
-search.app: 
-  - D365CE
-  - D365FS
 --- 
 
 # Understand the booking lock option in Resource Scheduling Optimization

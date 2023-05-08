@@ -13,7 +13,6 @@ ms.assetid: 9fa443ab-bcd1-43e3-9bc5-b9c6ceb28f0f
 caps.latest.revision: 25
 author: ReneeW-CPub
 ms.author: renwe
-manager: amyla
 robots: noindex,nofollow
 search.audienceType: 
   - developer

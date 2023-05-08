@@ -1,18 +1,20 @@
 ---
 title: "Notifications for agents working in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omnichannel for Customer Service."
-ms.date: 11/02/2022
+ms.date: 04/05/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # View notifications
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-A notification is a visual alert that appears each time you get a chat or an SMS conversation request from a customer. When you get the notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the Customer summary page.
+> [!IMPORTANT]
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+
+A notification is a visual alert that appears each time you get a chat or an SMS conversation request from a customer. When you get the notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the **Active Conversation** page.
 
 Here are some scenarios where you might receive notifications:
 
@@ -59,7 +61,12 @@ There are two types of notifications:
 
 - **Toast notifications:** Also known as a floating notification, is a notification message type where you receive information in a dialog that disappears after a stipulated time. This type of notification appears for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios.
 
-- **Alert notifications:** A type of notification where a dialog appears with action buttons. When you select **Accept**, a screen pops up with customer summary details. You need to take an action within the stipulated time, and the notification disappears when the time is up.
+- **Alert notifications:** A type of notification where a dialog appears with action buttons. When you select **Accept**, a screen pops up with the active conversation details. You need to take an action within the stipulated time, and the notification disappears when the time is up.
+
+Based on your organization's configurations, you can't reject conversations. The application performs one of the following actions when an incoming notification appears:
+
+- Creates a work item and assigns it to you automatically. 
+- Automatically accepts the conversation and opens a new session.
 
 ## Incoming voice call notifications
 
@@ -67,7 +74,7 @@ You'll receive a voice call notification for an incoming call request after an i
 
 ## Incoming chat notifications
 
-You receive a notification for an incoming chat request. When you accept the chat request, you'll see details about the customer in the Customer summary page. A simultaneous session starts, and a chat window expands so you can exchange messages with the customer.
+You receive a notification for an incoming chat request. When you accept the chat request, you'll see details about the customer in the **Active Conversation** page. A simultaneous session starts, and a chat window expands so you can exchange messages with the customer.
 
  > [!div class=mx-imgBorder]
  > ![Incoming chat notification.](media/chat-notification-request.png "Incoming chat notification")  
@@ -128,13 +135,13 @@ When you reject a work item notification, you'll see an alert at the top of your
 
 ### See also
 
-[View customer summary and know everything about customers](oc-customer-summary.md)  
+[View customer information on Active Conversation form](oc-customer-summary.md)  
 [View communication panel](oc-conversation-control.md)  
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
 [Manage presence status](oc-manage-presence-status.md)  
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [Take notes specific to conversation](oc-take-notes.md)  
-[View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+[View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 [Manage notification templates and settings](../app-profile-manager/notification-templates.md)  
 
 
