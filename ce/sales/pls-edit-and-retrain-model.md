@@ -2,15 +2,15 @@
 title: Edit and retrain a lead scoring model
 description: Learn how to edit and retrain a predictive lead scoring model in Dynamics 365 Sales when its prediction accuracy doesn't meet your expectations. 
 ms.date: 01/03/2023
-ms.custom: 
-ms.topic: article
+ms.custom: bap-template
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ---
 
 # Edit and retrain a lead scoring model
 
-When the prediction accuracy of a scoring model doesn't meet your expectations, or a model duplicates an existing one, you can edit the model's attributes and retrain it.
+When the prediction accuracy of a lead scoring model doesn't meet your expectations, or a model duplicates an existing one, you can edit the attributes it uses and retrain it.
 
 > [!NOTE]
 > Models that were published before the real-time scoring feature was rolled out need to be edited and published again to be used for real-time scoring. The real-time scoring feature is being rolled out in a phased manner across different geographic regions. To verify whether the feature is available in your region, look for version 9.0.22121.10001 in the [Latest version availability](/dynamics365/released-versions/dynamics365salesinsights) section. The feature will be enabled one week after the feature rollout. Real-time scoring will be available only after its enabled for your region.
