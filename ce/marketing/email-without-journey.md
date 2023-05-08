@@ -1,7 +1,7 @@
 ---
 title: "Send emails without building a journey"
 description: "Learn how to send emails in Dynamics 365 Marketing without building a journey."
-ms.date: 04/14/2023
+ms.date: 05/08/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,9 +17,6 @@ search.audienceType:
 
 > [!TIP]
 > If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to the **Email editor** area, enabling the **Send Now** feature switch, and saving the setting by selecting **Save** on the top right corner.
-
-> [!CAUTION]
-> Sending emails without building a journey currently only supports the [default consent profile](set-up-subscription-center.md#the-default-subscription-center). Custom subscription centers are not supported.
 
 You can now send an email directly from the email editor without the overhead of creating a journey. From the email editor, select the **Ready to Send** option. This directs you to select the **Send** the email option where you can select a segment, preview its contents, and then send the email. The process builds a simple journey in the background to assist you in sending your email.
 
