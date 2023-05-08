@@ -194,6 +194,8 @@
         href: compliance-overview.md
       - name: Manage user compliance settings
         href: real-time-marketing-compliance-settings.md
+      - name: "Preview: Manage user compliance settings in real-time marketing (update)"
+        href: real-time-marketing-compliance-settings-preview.md
       - name: Data protection and GDPR
         href: gdpr.md
       - name: Use GDPR features
@@ -368,10 +370,10 @@
           href: real-time-marketing-link-tracking-mechanics.md
       - name: Privacy and compliance
         items:
-        - name: "Preview: Manage user compliance settings in real-time marketing"
-          href: real-time-marketing-compliance-settings-preview.md
         - name: Manage consent for email and text messages in real-time marketing
           href: real-time-marketing-email-text-consent.md
+        - name: "Preview: Manage consent for email and text messages in real-time marketing (update)"
+          href: real-time-marketing-email-text-consent-preview.md
         - name: Use outbound subscription centers in real-time journeys
           href: real-time-marketing-outbound-subscription.md
       - name: Manage SMS (text message) keywords used in customer journeys

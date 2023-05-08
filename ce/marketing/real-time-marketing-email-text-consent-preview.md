@@ -1,7 +1,7 @@
 ---
-title: "Manage consent for email and text messages in real-time marketing (preview) (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to manage consent for messages in Dynamics 365 Marketing."
-ms.date: 05/01/2023
+title: "Preview: Manage consent for email and text messages in real-time marketing"
+description: Learn how to manage consent for messages in Dynamics 365 Marketing.
+ms.date: 05/08/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
@@ -13,13 +13,18 @@ search.audienceType:
   - enduser
 ---
 
-# Manage consent for email and text messages in real-time marketing (preview)
+# Preview: Manage consent for email and text messages in real-time marketing
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
 > [!NOTE]
 > Real-time marketing consent is contact-point based and works for messages sent to contacts, leads, and Customer Insights profiles. Customer consent is stored per email address or phone number, as opposed to being stored per contact record. Outbound marketing consent processes that you have already defined are not influenced by the real-time marketing settings.
 
 > [!IMPORTANT]
-> As of December 2022, consent enforcement for real-time customer journeys for **contacts** was changed to require opt-in for emails sent using the **Restrictive** consent enforcement model. If you would like to revert to the previous behavior, you can change your consent enforcement model to **Non-restrictive**. Alternatively, if you have previously captured consent on **contact** records in outbound marketing, you can **Load consent** to populate the contact point consent records used to enforce consent in real-time marketing.
+> As of December 2022, consent enforcement for real-time customer journeys for **Contacts** was changed to require opt-in for emails sent using the **Restrictive** consent enforcement model. If you would like to revert to the previous behavior, you can change your consent enforcement model to **Non-restrictive**. Alternatively, if you have previously captured consent on **Contact** records in outbound marketing, you can **Load consent** to populate the contact point consent records used to enforce consent in real-time marketing.
 
 > [!IMPORTANT]
 > Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to allow for an email with a commercial purpose type to be sent to a contact. Only the **Allow email** field must be set to allow emails to be sent with a transactional purpose type selected. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (for example, Leads or Customer Insights profiles).
@@ -61,3 +66,5 @@ You can keep track of all consent-related changes on a per contact record basis 
 [Grow your business with multi-brand, custom preference centers](real-time-marketing-compliance-settings-preview.md)
 [Work with data protection and GDPR](gdpr.md)  
 [Use GDPR features](gdpr-use-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
