@@ -1,6 +1,6 @@
 ---
 title: Configure knowledge article schema mapping
-description: Learn about knowledge article schema mapping.
+description: Learn how to configure knowledge article schema mapping as part of adding an integrated search provider for Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
@@ -11,68 +11,78 @@ ms.custom: bap-template
 
 # Configure knowledge article schema mapping
 
-To add an integrated search provider, you need to configure the knowledge article schema for data ingestion. You need to select an option from the **Knowledge article schema** section:
+As part of [adding an integrated search provider](add-search-provider.md#add-integrated-search-providers) in Customer Service, you need to tell the service how to ingest the knowledge articles it receives from the provider. You do that by selecting and configuring a knowledge article schema. You can't change the schema after you save the configuration.
 
-- **Field mapping**
-- **JSON Schema**
+If you applied a language filter in the **Authentication and Testing** section, you must maintain the [language locale mapping](/power-apps/developer/data-platform/reference/entities/languagelocale) in the knowledge article schema you select.
 
-> [!NOTE]
-> You won't be able to change the configuration method after you have saved it.
+To start, select an option in the **Knowledge article schema** section:
 
-## Language mapping
+- [**Field Mapping**](#field-mapping)
+- [**JSON Schema**](#json-schema)
 
-Irrespective of the configuration type that you use, if you have selected languages to be mapped in the **Authentication and testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).
+## Field mapping
 
-## Use field mapping
+With field mapping, you map a knowledge article received from the search provider (the source) to an attribute of the knowledge article entity (the target), based on an operation type. Article attributes are the fields that are mapped in a knowledge article entity. [Operation types](#operation-type-mapping-options) are the patterns that map a source article to article attributes.
 
-Through field mapping, you'll be able to map a value to the article attributes of the knowledge article entity from your source property or website. You need to use an operation type and then select the source property for the mapping.
+<!-- EDITOR'S NOTE: I think these instructions would benefit from a screenshot. They're really hard to visualize. -->
+1. Save the article<!-- EDITOR'S NOTE: What article? Save it where? --> as a **Web Page, HTML Only** file. Make sure the file name is fewer than 99 characters.
+1. To upload the file, select **Choose file**<!-- EDITOR'S NOTE: Where? -->.
 
-Article attributes are the knowledge article target field values. Operation types are the mapping patterns that map the source article to the article attributes of the knowledge article entity. More information: [Operation type mapping options](#operation-type-mapping-options). Source Property is the value that you define for each operation type. For example, if you select the **Direct** operation type, you'll have to select from the previously selected meta tags or the **HTML-Title** or **HTML-Body** tags.
+    All the meta tags that correspond to your HTML file are listed in the **Meta tags settings** section.<!-- EDITOR'S NOTE: Is "correspond to" the right phrasing here? Would "are found in" be more accurate? Also, are "meta tags" fields or attributes? -->
 
-1. Save the article as a **Web Page, HTML Only** file, and then upload the file by selecting **Choose file**. Make sure that the file name is fewer than 99 letters. You can view all the meta tags corresponding to your HTML file in the **Meta tags settings** section.
-1. You can select all the meta tags by selecting the **Select all below meta tags** checkbox or select only the required meta tags.
+1. Either select **Select all below meta tags** or select only the meta tags you need to map.
 
-    The meta tags that you select will be available in the **Mapping** section. If you don't select any meta tags, you only see the **HTML-Title** and **HTML-Body** source properties, which are available by default.
-1. Select **Next** to go the **Mapping** section, or select **Save as draft**, if you still need to provide information for the section. 
-1. On the **Mapping** section, select the **Operation Type** and **Source Property** for the mandatory knowledge article attributes, which are **External Reference Id**, **Title**, and **Content**. Make sure that the **External Reference Id** value is unique. For more information on the various operation types, go to [Operation type mapping options](#operation-type-mapping-options).
-1. To add more article attributes, select **Add Row**, and then select the **Article Attribute**, **Operation Type**, and the **Source Property** from the respective dropdown lists.
-1. You can also delete the article attributes, by selecting **Delete**.
-1. Select **Validate mapping**. The values provided are used to determine the values of the attributes against the HTML file that you uploaded.
-   The entries in the mapping table and the Regex patterns are validated. There are no validations for RegexUrl.
-1. Select **Next** to go the next section, or select **Save as draft**, if you still need to provide information for the section.
+    The meta tags you select here become attributes you can select as source properties in the **Mapping** section. If you don't select any, only the default source properties **HTML-Title** and **HTML-Body** are available to map.
 
-If the validation is successful, you'll see a confirmation message. If the validation is not successful, you'll see an error message. Depending on the error message, you'll need to either check the entries in the mapping table or the regex patterns that you have provided for the article attributes.
+1. To go on to the **Mapping** section, select **Next**. If you want to stop and come back to this point later, select **Save as draft**.
+1. In the **Mapping** section, the mandatory knowledge article attributes are **External Reference Id**, **Title**, and **Content**. For each, select an [**Operation Type**](#operation-type-mapping-options) and a **Source Property**.
 
-## Use JSON
+    Make sure the **External Reference Id** value is unique.
 
-1. Copy and paste your article properties and schema JSON in the field provided to you. For more information on creating the JSON schema, go to [Schema details to build a metadata mapping template](int-search-metadata-schema.md).
-1. Select **Validate json**.
- 
-    You'll get a message to denote whether the JSON validation has passed or failed. If there is an error, the error message will state the parameter with the incorrect value.
-1. After the validation is successful, select **Next** to go to the **Refresh Schedule** section, or select **Save as draft**, if you still need to provide information for the section.
+1. To add more article attributes, select **Add Row**, and then select an **Article Attribute**, **Operation Type**, and **Source Property**.
 
-### Operation type mapping options
+    You can also select **Delete** to delete an article attribute if needed.
 
-- **Regex**: Select when you want to use Regex patterns to extract values from the source website. The source property will be a text area where you can enter the regex pattern. The string from your website's HTML that matches this pattern will be used to map to the corresponding knowledge article field.
+1. Select **Validate mapping**.
 
-    The Regex patterns must have a capture group enclosed in parentheses that allows you to extract a specific portion of the matched text. Note that the text extracted will be from the first non-empty group of the first match. More information: [Grouping constructs](/dotnet/standard/base-types/regular-expression-language-quick-reference#grouping-constructs). Here are some examples of regex patterns to extract content from a specific div tag:
+    The service uses the values you entered to determine the values of the attributes against the HTML file you uploaded. It validates entries in the mapping table and Regex patterns. There are no validations for RegexUrl.
 
-     - Based on the div tag id:
-         `` <div\b[^>]*id=\"your-id-name-here\"[^>]*>([\s\S]*?)<\/div>``
-    - Based on the div tag class: `` <div\b[^>]*class=\"your-class-name-here\"[^>]*>([\s\S]*?)<\/div>``
-    - For content inside body tag: ``<body[^>]*>([\s\S]*)<\/body>``
-    - For content inside head tag: ``<head[^>]*>([\s\S]*)<\/head>``
-    
-    For more information on Regex, go to: [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference).
+    If validation succeeds, you see a confirmation message. If validation fails, you see an error message. Depending on the error message, check either the entries in the mapping table or the regex patterns you entered.
 
-- **Direct**: Select when you want to map the value of any meta tag from its source website directly to any knowledge article field. The **Source Property** dropdown list shows all the meta tags extracted from the sample website along with **HTML-Title** and **HTML-Body** source properties, which are available by default.
+1. Select **Next** to go the next section. If you want to stop and come back to this point later, select **Save as draft**.
 
-    If you select **Direct** operation type and the **og: url** from the source property, the value of the **og: url** meta tag from the source property gets mapped to the corresponding knowledge article attribute.
+## JSON schema
 
-- **Constant**: Select when you want to provide a constant value to any knowledge article field. The source property will be a text area where they can enter the constant value.
+[Learn more about schema details to build a metadata mapping template](int-search-metadata-schema.md).
 
-- **RegexUrl**: Similar to Regex, select when you want to find matches in the URL of the source website only. The Regex patterns must be created as described for the **Regex** operation type. For example, if you want to map the entire source website URL to a knowledge attribute field, select **Regexurl** in the operation type, and use the (. *) pattern in the source property.
+1. Copy and paste your article properties and schema JSON in the field provided to you<!-- EDITOR'S NOTE: Where? A screenshot will help here. -->.
+1. Select **Validate json**.<!-- EDITOR'S NOTE: Is "json" capitalized correctly? -->
+
+    If validation succeeds, you see a confirmation message. If validation fails, you see an error message that identifies the parameter that has an incorrect value.
+
+1. Select **Next** to go the next section. If you want to stop and come back to this point later, select **Save as draft**.
+
+## Operation type mapping options
+
+- **Regex**: Uses [regex patterns](/dotnet/standard/base-types/regular-expression-language-quick-reference) to extract values from the source website. The source property is a text field where you can enter the regex pattern. The string from your website's HTML that matches this pattern is mapped to the corresponding knowledge article field.
+
+    The regex patterns must have a [capture group](/dotnet/standard/base-types/regular-expression-language-quick-reference#grouping-constructs) enclosed in parentheses that allows you to extract a specific portion of the matched text. The text is extracted from the first nonempty group of the first match.
+
+    Here are some examples of regex patterns to extract content from a specific div tag:
+
+  - Based on the div tag ID: ``<div\b[^>]*id=\"your-id-name-here\"[^>]*>([\s\S]*?)<\/div>``
+  - Based on the div tag class: ``<div\b[^>]*class=\"your-class-name-here\"[^>]*>([\s\S]*?)<\/div>``
+  - For content inside the body tag: ``<body[^>]*>([\s\S]*)<\/body>``
+  - For content inside the head tag: ``<head[^>]*>([\s\S]*)<\/head>``
+
+- **Direct**: Maps the value of any meta tag from its source website directly to any knowledge article field. The **Source Property** list shows all the meta tags extracted from the sample website along with source properties **HTML-Title** and **HTML-Body**, which are available by default.
+
+    If you select **Direct** as the operation type and **og: url** as the source property, then the value of the **og: url** meta tag from the source property is mapped to the corresponding knowledge article attribute.
+
+- **Constant**: Enter a constant value in any knowledge article field. The source property is a text field where you can enter the constant value.
+
+- **RegexUrl**: Like Regex, but looks for matches in the URL of the source website only.
 
 ## Next steps
 
-For more information on adding an integrated search provider, go to: [Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers).
+[Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers)
