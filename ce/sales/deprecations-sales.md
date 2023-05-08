@@ -22,7 +22,7 @@ The features that have been deprecated in Sales are listed in this article. For 
 <a name='playbooks'></a>
 ## Playbooks will be deprecated
 
-Starting July 7, 2023, the playbooks feature will be discontinued region-wise. After the feature is discontinued, you can no longer access, create, or launch playbooks. Existing playbooks will not be migrated, hence we recommend that you define sequences for the playbook use cases that you want to carry over. Learn more about [sequences](create-manage-sequences.md).  
+Starting July 7, 2023, the playbooks feature will be deprecated region-wise. After the feature is deprecated, you can no longer access, create, or launch playbooks. Existing playbooks will not be migrated, hence we recommend that you define sequences for the playbook use cases that you want to carry over. Learn more about [sequences](create-manage-sequences.md).  
 
 <a name='talking-points'></a>
 ## Talking points is deprecated

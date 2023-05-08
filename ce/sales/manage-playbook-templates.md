@@ -19,7 +19,7 @@ searchScope:
 # Manage playbook templates 
 
 > [!NOTE]
-> Starting July 7, 2023, playbooks will be discontinued region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](create-manage-sequences.md)  
+> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](create-manage-sequences.md)  
 
 Playbooks provide users with guidance on recurring tasks in which consistent actions are expected. Playbooks can also contain best practices based on scenarios that have worked in similar situations before.
 

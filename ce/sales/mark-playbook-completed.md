@@ -20,7 +20,7 @@ searchScope:
 # Mark a playbook as completed 
 
 > [!NOTE]
-> Starting July 7, 2023, playbooks will be discontinued region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](create-manage-sequences.md)  
+> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](create-manage-sequences.md)  
 
 When you complete all the activities created for a playbook, you must mark the playbook as completed. This helps you to know if the playbook was successful or not.
 

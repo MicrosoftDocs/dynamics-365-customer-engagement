@@ -20,7 +20,7 @@ searchScope:
 # Track playbook activities
 
 > [!NOTE]
-> Starting July 7, 2023, playbooks will be discontinued region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](create-manage-sequences.md)  
+> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](create-manage-sequences.md)  
 
 When a playbook is launched, its related activities are created and associated with the record the playbook is launched from (also called the calling record). You must complete these activities to ensure every event is dealt with consistently.
 
