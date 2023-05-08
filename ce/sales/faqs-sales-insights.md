@@ -265,7 +265,7 @@ Updated every 24 hours. ​
 ​
 Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.
 
-### Is the Office 365 consent mandatory for the relationship intelligence feature to work?
+### Is Office 365 consent mandatory for the relationship intelligence feature to work?
  
 Office consent isn't mandatory for relationship analytics, health score, and who knows whom. You’ll get basic relationship insights based on the data in Dynamics 365. When you provide consent in Office 365 to use Exchange data, you’ll get more accurate and complete relationship information.
 
@@ -283,9 +283,7 @@ An administrator can influence the relationship health score by changing the wei
 
 ### How are similar won deals identified? <a name="similar-won-deals-fields"></a> 
  
-AI models identify the factors that affect the identification of similar won deals. The factors may differ from organization to organization based on the custom and out-of-the-box fields.
-
-To view the fields that determined the similar won deals at that point in time, select the information icon corresponding to any section heading.
+AI models identify the factors that affect the identification of similar won deals. The factors may differ from organization to organization based on the custom and out-of-the-box fields. To view the fields that determined the similar won deals at that point in time, select the information icon corresponding to any section heading.
 
 :::image type="content" source="media/faq-sa-about-relationship-analytics-side-pane-fields.png" alt-text="Screenshot of the relationship analytics side pane.":::
 
@@ -325,7 +323,8 @@ The grade is just grouping scores in four buckets that the admin can configure.
 
 ## Notes analysis
 
-### What does Notes analysis look at for the intent?​   
+### What does Notes analysis look at for the intent?​  
+
 Notes analysis looks at notes and posts on the timeline for the intent that may indicate a record should be created. Notes analysis looks for meeting requests, meetings, tasks, and contacts.
 
 ## Auto capture
@@ -337,7 +336,7 @@ For activities, the suggestions are displayed immediately.
 
 ## Who knows whom
 
-### Why am I not seeing some of my colleagues in the suggestions?
+### Why am I not seeing some of my colleagues in the who knows whom suggestions?
 
 If you know that a colleague has interacted with a customer but their information is not shown in Who Knows Whom widget, it could be due to the following reasons:
 
@@ -347,14 +346,14 @@ Displays only the top five users who contacted the customer the most through ema
 
 **Enhanced insights:**
 
-- Those colleagues are not a part of your Dynamics 365 org.
+- Those colleagues are not a part of your Dynamics 365 organization.
 - Those colleagues are not a part of the security role that's [enabled for relationship intelligence](enable-ri.md).  
 - Those colleagues are a part of the security group that your Office 365 admin has [opted out](provide-consent-office365.md).
 - Those colleagues have explicitly [opted out of sharing their data](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 See also [Which colleagues show up as connections?](#which-colleagues-show-up-as-connections)
 
-### How long does it take for suggestions to show up?
+### How long does it take for suggestions to appear?
 
 **Basic insights:**
  
@@ -362,7 +361,7 @@ See also [Which colleagues show up as connections?](#which-colleagues-show-up-as
 
 **Enhanced insights:**
 
-After your Microsoft 365 admin provides consent, you'll start seeing the results within a day but it may not be complete as the data will be processed in batches over a period of 4 days.  
+After your Microsoft 365 admin provides consent, you'll start seeing the results within a day. However, the suggestions may not be complete right away as the data will be processed in batches over a period of four days.  
 
 ### Which colleagues show up as connections?
 
@@ -372,7 +371,7 @@ Users who have contacted the customer the most through emails and appointments i
 
 **Enhanced insights:**
 
-Users in your org who have frequently and recently interacted with the contact or lead show up as connections, unless they have opted out. Administrators have the option to [opt out groups](provide-consent-office365.md) such as C-suite, M&A, finance, and so on. Users can opt out by [turning off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+Users in your organization who have frequently and recently interacted with the contact or lead show up as connections, unless they have opted out. Administrators have the option to [opt out groups](provide-consent-office365.md) such as C-suite, M&A, finance, and so on. Users can opt out by [turning off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 ### How are the connections weighted?
 
@@ -393,7 +392,7 @@ Collected in near real-time&mdash;as soon as a related activity is marked as com
 
 **Enhanced insights:**  ​  
 
-When you enable who knows whom and provide the required consent, Exchange data pertaining to the last one year is collected and insights are generated based on that data. After this, Exchange data is collected daily and insights are updated based on the latest data.  
+When you enable who knows whom and provide the required consent, Exchange data for the past year is collected and insights are generated based on that data. After this, Exchange data is collected daily and insights are updated based on the latest data.  
 
 ### What is the source for who knows whom data?
 
@@ -403,11 +402,11 @@ Emails and appointments sent and received in Dynamics 365.
 
 **Enhanced insights**
  ​  
-Emails and meeting information in Exchange Online is the source data. See also [​How are the connections weighted?](#how-are-the-connections-weighted)
+Emails and meeting information in Exchange Online is the source data. [Learn more about how connections weighted](#how-are-the-connections-weighted)
 
 ### Where are the insights from Exchange generated?
 
-After the Microsoft 365 admin provides consent, the Exchange data is collected and stored in Dynamics 365. The insights are then generated from the stored data in Dynamics 365.  
+After the Microsoft 365 admin provides consent, the Exchange data is collected and stored in Dynamics 365. Insights are generated from the stored data in Dynamics 365.  
 
 > [!IMPORTANT]
 > Microsoft 365 and Dynamics 365 each have their own service-specific licensing terms. The service-specific terms that apply depend on which service processes your data. For example, when a copy of your Microsoft 365 data is transferred to Dynamics 365, your Microsoft 365 data in that copy becomes Dynamics 365 data and the Dynamics 365 service-specific terms apply.
@@ -415,9 +414,9 @@ After the Microsoft 365 admin provides consent, the Exchange data is collected a
 
 ### When will my data be removed after I opt out of data sharing in Exchange?
 
-If you are part of a security group that has been opted out by your administrator, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
+If you're part of a security group that has been opted out by your administrator, the system can take up to 24 hours to remove data from all apps. It can take up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
 
-If you have [opted out on your own](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications), the data will be removed immediately.  
+If you've [opted out on your own](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications), the data is removed immediately.  
 
 ### How can an administrator opt out users?
 
@@ -453,7 +452,7 @@ The following administrators can opt out users at different levels:
 
 ### How long does it take for data updates to reflect in the app?
 
-The data is refreshed periodically and could take up to 12 hours to reflect. We continue to make improvements to reduce this delay.
+Conversation intelligence data is refreshed periodically and could take up to 12 hours to appear in the app. We continue to make improvements to reduce the delay.
 
 
 ### How many hours of conversation intelligence are available with Viva Sales?
@@ -462,25 +461,25 @@ You get unlimited call recording and processing hours with Viva Sales. You must 
 
 ### How do I buy more conversation intelligence hours?
 
-With the Sales Premium license, you get 10 hours of call recording and processing capacity per user, per month for conversation intelligence. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+If you have the Sales Premium license, you get 10 hours of call recording and processing capacity per user, per month for conversation intelligence. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
 If you have the Sales Enterprise license, upgrade to the Sales Premium license to buy more hours.  
 
 ### Can sellers (or non-managers) use this app?
 
-Yes, the application is also available for sellers to view their conversational insights.
+The application is available for sellers to view their conversational insights.
 
 ### Is an admin needed to enable the app for my organization?
 
-Yes. An administrator must configure the application for you to use. If an administrator didn't configure the application, you can explore the app with the demo data that is provided.
+An administrator must configure the application for you to use. If an administrator didn't configure the application, you can explore the app with the demo data that's provided.
 
 ### Which telephony system do you support?
 
 The application is independent of telephony systems. If you have stereo call recordings (two-channel stereo), we process them at scale to generate insights​.
 
-### What does the onboarding experience include?​
+### What does the onboarding experience require?​
 
-As part of the onboarding experience, you must provide the access key to the Azure blob location where you upload your call recording files for processing. You must adhere to standard metadata format (in JSON) of conversation intelligence and upload that along with every call recording file. Apart from this, you must share trackers that you care about along with the competitive brands and products for conversation intelligence to track these words across calls.
+As part of the onboarding experience, you must provide the access key to the Azure blob location where you upload your call recording files for processing. You must adhere to standard metadata format (in JSON) of conversation intelligence and upload that along with every call recording file. You must also share trackers that you care about, along with your competitive brands and products, for conversation intelligence to track these words across calls.
 
 ### How is the sentiment model built?
 
@@ -492,7 +491,7 @@ No, we **do not** process mono-channel call recording files. We only support ste
 
 ### How long does it take to see the results?
 
-Conversation intelligence takes a few minutes to process and display the data on the dashboard, depending on the size of the call recording files and format. You must have at least 10 call recording files to process and display the data.
+Conversation intelligence takes a few minutes to process and display the data on the dashboard, depending on the size and format of the call recording files. You must have at least 10 call recording files to process and display the data.
 
 ### Do you retain the call recordings?
 
