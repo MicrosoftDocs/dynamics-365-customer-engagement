@@ -1,11 +1,11 @@
 ---
 title: Model existing tables as skills
-description: Learn how you can use existing tables to model skills in Dynamics 365 Customer Service unified routing.
+description: Learn how you can use existing tables to model as skills and use in unified routing in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/23/2023
+ms.date: 05/09/2023
 ms.custom: bap-template
 ---
 
