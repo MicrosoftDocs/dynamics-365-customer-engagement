@@ -18,7 +18,7 @@ ms.custom:
 
 # Recalculate SLAs in terminal status
 
-By default, SLAs in the succeeded and noncompliant terminal statues aren't reevaluated, when the success condition changes, can't be paused, or resumed.
+By default, SLAs in the succeeded and noncompliant terminal statuses aren't reevaluated, when the success condition changes, can't be paused, or resumed.
 
 However, you can recalculate such SLAs when the applicable when and success criteria of the target entity changes, by enabling the recalculate SLA setting in the **Service Configuration Settings** view.
 
