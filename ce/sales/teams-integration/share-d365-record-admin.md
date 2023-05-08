@@ -1,7 +1,7 @@
 ---
 title: Enable sales teams to share and act on Dynamics 365 records within Microsoft Teams conversations
 description: Learn about enabling sales teams to share and act on Dynamics 365 records within Microsoft Teams conversations.
-ms.date: 08/09/2022
+ms.date: 05/09/2023
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -175,7 +175,7 @@ Power Platform admin center allows you to  disable the auto-installation of the 
 
 ### Microsoft Teams admin center
 
-Microsoft Teams admin center allows you to prevent users from manually installing the Dynamics 365 app from the Teams app store.
+Microsoft Teams admin center allows you to disable the auto-installation of the Dynamics 365 app in Teams and prevent users from manually installing it from the Teams app store.
 
 1. In the left navigation pane, go to **Teams apps** > **Manage apps**.
 
