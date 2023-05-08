@@ -41,7 +41,14 @@ However, if you model the "Product" and "Customer" columns in your tables as ski
 
 ## How to model a table as a skill
 
-To model data in a table as a skill, first you need to create a column for the new skill. Then you need to add the column to the Skill Main form so that it's visible in the app. After that, you need assign a value to the skill and assign the skill to agents. Finally, add the skill as a condition in an assignment rule. In this example, we model a skill on data in the **Products** table.
+To model data in a table as a skill, you'll need to do the following steps:
+
+1. Create a column for the new skill.
+1. Add the column to the Skill Main form so that it's visible in the Customer Service admin center app.
+1. Assign a value to the skill and assign the skill to agents.
+1. Finally, add the skill as a condition in an assignment rule.
+
+In this example, we model a skill on data in the **Products** table.
 
 ### Create a skill column
 
