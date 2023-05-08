@@ -192,10 +192,10 @@
       items:
       - name: Compliance overview
         href: compliance-overview.md
-      - name: Data protection and GDPR
-        href: gdpr.md
       - name: Manage user compliance settings
         href: real-time-marketing-compliance-settings.md
+      - name: Data protection and GDPR
+        href: gdpr.md
       - name: Use GDPR features
         href: gdpr-use-features.md
       - name: Set up global double opt-in
@@ -384,6 +384,8 @@
           href: real-time-marketing-business-units.md
         - name: Support for modernized business units 
           href: real-time-marketing-modernized-business-units.md
+        - name: Business units and compliance profiles for multi-brand businesses
+          href: real-time-marketing-business-unit-compliance.md
         - name: Business units FAQ for real-time marketing
           href: real-time-marketing-business-unit-faq.md  
     - name: Developer

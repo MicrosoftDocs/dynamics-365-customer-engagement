@@ -1,7 +1,7 @@
 ---
-title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing."
-ms.date: 03/02/2023
+title: Analyze marketing results and gain insights
+description: How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing.
+ms.date: 05/08/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -147,7 +147,7 @@ All types of tiles provide a **Volume** section on the **Data** panel with the f
 
 - **Volume** > **Total**: Shows the total number of contacts in the tile in all states. Processed , processing and not processed.
 - **Volume** > **In progress**: Shows the total number of contacts in progress. This number is the total of the following:
-  -  **Processing**: Counts how many contacts are still waiting for the tile to finish processing them. For trigger tiles, for example, this value indicates the number of contacts that are waiting for the trigger condition to be met or for the timeout to arrive. 
+  -  **Processing**: Counts how many contacts are still waiting for the tile to finish processing them. For trigger tiles, for example, this value indicates the number of contacts that are waiting for the trigger condition to be met or for the timeout to arrive.
   -  **Queued**: Shows the number of contacts in the customer journey that have not yet reached the selected tile.
 - **Volume** > **Not processed**: Shows the total number of contacts that have already entered the tile but are not processed due to one of the following reasons:
   - **Stopped**: Counts the number of contacts that were stopped from continuing the journey at this tile. There are three reasons that a contact might get stopped at a tile during a journey: (1) they [unsubscribed](customer-journeys-create-automated-campaigns.md#target-subscription-list) from the mailing list targeted by the journey, (2) they got added to the journey's [suppression segment](customer-journeys-create-automated-campaigns.md#general-options), or (3) they lowered their [consent level](gdpr-use-features.md#view-and-set-the-consent-level-for-each-contact) below the minimum threshold set for the journey. The stopped value is also displayed as the second value above the tile in the pipeline. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were stopped at this tile in the journey. You can see a detailed breakdown of which contacts were stopped here and why by going to the [Incomplete journeys](#incomplete) view.
@@ -277,6 +277,5 @@ Redirect URLs provide the following [categories](#categories) on the **Insights*
 
 - **Overview**: Displays a map that shows where people were when they selected the redirected link.
 - **Timeline**: Shows a table with details about each time the redirect URL was selected.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

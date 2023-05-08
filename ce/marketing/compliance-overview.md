@@ -1,7 +1,7 @@
 ---
 title: Compliance overview
 description: Learn how to manage compliance settings in Dynamics 365 Marketing.
-ms.date: 05/08/2022
+ms.date: 05/08/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
