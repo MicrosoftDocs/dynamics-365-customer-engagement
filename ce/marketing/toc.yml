@@ -374,6 +374,8 @@
           href: real-time-marketing-email-text-consent.md
         - name: "Preview: Manage consent for email and text messages in real-time marketing (update)"
           href: real-time-marketing-email-text-consent-preview.md
+        - name: Real-time marketing preference centers
+          href: real-time-marketing-preference-centers.md
         - name: Migrate consent records to real-time marketing
           href: real-time-marketing-migrate-consent.md
         - name: Use outbound subscription centers in real-time journeys
