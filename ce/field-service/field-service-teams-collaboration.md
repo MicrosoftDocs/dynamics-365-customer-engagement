@@ -5,9 +5,6 @@ ms.date: 02/27/2023
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Collaborate on work orders with Microsoft Teams

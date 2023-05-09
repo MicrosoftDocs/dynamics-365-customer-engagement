@@ -15,7 +15,6 @@ ms.assetid: 9f201f30-245a-458e-b15f-961a9d049ea7
 caps.latest.revision: 28
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Installing Dynamics 365 Customer Engagement (on-premises)
 

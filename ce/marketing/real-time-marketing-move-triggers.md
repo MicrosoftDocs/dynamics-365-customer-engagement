@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Move custom triggers between environments
@@ -45,3 +41,5 @@ To move draft custom trigger definitions between environments, use the following
         > You should move triggers in their own solution independent of any other components you wish to move between orgs.
 
 Learn more about managing environments and ALM operations: [Manage your Dynamics 365 Marketing environments](manage-marketing-environments.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

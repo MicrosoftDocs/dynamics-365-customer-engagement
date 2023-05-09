@@ -5,9 +5,6 @@ ms.author: jacoh
 author: jasonccohen
 ms.date: 04/01/2021
 ms.topic: conceptual
-search.app:
-  - D365CE
-  - D365FS
 ---
 
 # Set up frontline workers in your organization

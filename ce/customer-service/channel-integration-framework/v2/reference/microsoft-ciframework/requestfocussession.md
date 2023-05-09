@@ -5,7 +5,6 @@ ms.date: 03/03/2021
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.custom: 

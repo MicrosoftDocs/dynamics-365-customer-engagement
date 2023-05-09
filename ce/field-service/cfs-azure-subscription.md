@@ -10,9 +10,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: vhorvath
 author: vhorvathms
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 
@@ -40,7 +37,7 @@ When deploying and administering Connected Field Service with IoT Hub, there are
 
 3. You will only see subscriptions that are tied to your login's **primary active directory**. For example, david@contoso.com will only see subscriptions from the contoso.com directory. If jason@fabrikam.com invites David into their fabrikam.onmicrosoft.com subscription, David will not be able to use the fabrikam subscription on the deployment app.
 
-4. Only organizational Azure accounts can be used to deploy Connected Field Service with IoTHub; personal accounts such as Outlook or Gmail cannot be used.
+4. Only organizational Azure accounts can be used to deploy Connected Field Service with Azure IoT Hub; personal accounts such as Outlook or Gmail cannot be used.
 
 5. Your user must have permission to use the Dynamics API within the Azure active directory tenant.
 

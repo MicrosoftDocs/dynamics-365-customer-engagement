@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create consistent branding with brand profiles
@@ -59,3 +55,5 @@ And that’s it! Your profile is created and is ready to use in your emails. Lea
 
 > [!IMPORTANT]
 > The brand profile table is editable, so you can add new fields to it. For example, you could add fields to store URL links for more social platforms.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

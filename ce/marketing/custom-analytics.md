@@ -7,17 +7,16 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Prepare for analytic reporting with Power BI
+
+> [!IMPORTANT]
+> This documentation refers to the process of creating custom reports for outbound marketing only.
 
 Dynamics 365 Marketing provides a wide selection of built-in analytics throughout the application. But you can also create your own custom analytics and reports from your Dynamics 365 Marketing data by using Power BI. We provide endpoints that you can use to connect Power BI to Dynamics 365 Marketing, plus a downloadable Power BI template that you can open in Power BI Desktop, connect to your Dynamics 365 data sources, and then customize as needed. When you're done setting it up, you can publish and share your Power BI report using the standard Power BI online tools.
 
@@ -59,7 +58,7 @@ for a quick overview of all the data that is available for your marketing analyt
 > [!IMPORTANT]
 > Here are some considerations related to configuring the Azure Storage Account firewall (limited public network access) when exporting analytics data:
 >
-> 1. If you *do not* need to limit public network access to the Storage Account ([Configure Azure Storage firewalls and virtual networks](https://learn.microsoft.com/en-us/azure/storage/common/storage-network-security?tabs=azure-portal)), proceed with further configuration steps. **If you do not need to limit public network access, you can complete this guide and connect Azure Blob storage to Marketing**.
+> 1. If you *do not* need to limit public network access to the Storage Account ([Configure Azure Storage firewalls and virtual networks](/azure/storage/common/storage-network-security?tabs=azure-portal)), proceed with further configuration steps. **If you do not need to limit public network access, you can complete this guide and connect Azure Blob storage to Marketing**.
 > 1. If you need to limit public network access to the Storage Account&mdash;for example, if you want to limit access to selected virtual networks and IP addresses only&mdash;**you must [contact our customer support team](https://dynamics.microsoft.com/contact-us/) to assist you with the Azure Storage Account firewall configuration**. This is a complicated scenario and support team assistance is required based on the Storage Account location and service instance data. In the meantime, it is possible to continue with remaining steps, but the feature will only work once the firewall is properly configured.
 > 1. If the Storage Account is required to have public network access disabled entirely and you want to limit access to Private Link Endpoint only, **then this is not a supported scenario for this feature**. Consider using a different Storage Account with lower access restrictions.
 
@@ -130,10 +129,5 @@ More information: [Download and use marketing analytics templates and sample rep
 
 ![A collage of various Power BI reports.](media/pbi-gallery-overview.png)
 
-## Learn more
-
-Here are some advanced resources for this topic:
-
-- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

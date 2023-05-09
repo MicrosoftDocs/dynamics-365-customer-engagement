@@ -5,7 +5,6 @@ ms.date: 03/14/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -31,7 +30,7 @@ Configure drill-down entities to help sellers understand what values are constit
 
 Once you’ve configured the forecast page, you'll have a view into the pipeline amounts that your sellers are projecting for the period. Now you might want to know which accounts contribute to a specific seller’s Committed value or maybe you want to know which products are contributing to a different seller’s Won value. The drill-down feature allows you to break down your seller’s forecast projections as a function of the contributing factors that you care about such as Account and Product. The drill-down feature looks at the underlying records that are contributing to the value of the rollup column and groups them according to the drill-down selection. 
 
-Let’s look at an example. **Amber Rodriguez** is a seller who's associated with four accounts. Her projected revenue for the current period is $400,000. **Kevin Smith**, her sales manager, wants to understand how her revenue of $400,000 is broken down by each account. On the forecast page, Kevin chooses to drill down into Account from the drop-down menu. Then he selects the drill-down icon beside Amber’s record to view a list of accounts that make each of Amber’s forecast pipeline values.
+Let’s look at an example. **Amber Rodriguez** is a seller who's associated with four accounts. Amber's projected revenue for the current period is $400,000. **Kevin Smith**, Amber's sales manager, wants to understand how the revenue of $400,000 is broken down by each account. On the forecast page, Kevin chooses to drill down into Account from the drop-down menu. Kevin then selects the drill-down icon beside Amber’s record to view a list of accounts that make each of Amber’s forecast pipeline values.
 
 > [!div class="mx-imgBorder"]
 > ![Forecast drill-down view.](media/forecast-drill-down-view.png "Forecast drill-down view")

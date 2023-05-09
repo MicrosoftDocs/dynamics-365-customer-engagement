@@ -11,9 +11,6 @@ search.audienceType:
 ms.custom: 
   - dyn365-developer
   - dyn365-fieldservice
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Develop customized IoT solutions in Connected Field Service
 

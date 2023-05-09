@@ -14,7 +14,6 @@ ms.assetid: 507567f3-2354-4ef3-a093-0f209ebf2b29
 caps.latest.revision: 12
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Administration best practices for on-premises deployments of Dynamics 365 Customer Engagement (on-premises)
 

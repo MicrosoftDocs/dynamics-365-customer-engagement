@@ -7,9 +7,6 @@ ms.author: jasonshotts
 ms.reviewer: mhart
 ms.topic: conceptual
 ms.custom: bap-template
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Resource and utilization report
@@ -25,12 +22,12 @@ Resource managers can use the resource and utilization report to gather informat
 
 ## Common metrics
 
-- **Number of days**: Takes several factors into account. First, the system checks how many days a booking lasted and then determines how many of these days are considered work hours. For example, work days are defined Monday to Friday and a booking starts Thursday and ends Monday. The resulting number of days will be 3.
+- **Number of days**: Takes several factors into account. First, the system checks how many days a booking lasted and then determines how many of these days are considered work hours. For example, work days are defined as Monday to Friday and a booking starts Thursday and ends Monday. The resulting number of days will be 3.
 - **Work, travel, and break time**: Depends on the booking status. For scheduled bookings, the estimated duration is taken into account. For other booking statuses, such as *in progress* or *completed*, duration is calculated based on *Booking Timestamp* entity records. In other words, as soon as a technician starts working on a booking, reports consider the actual work duration.
 
 ## Report metrics
 
-To access the report, open the **Field Service** app, change to the **Resources** area, and go to ***Analytics and Insights** > **Reports**.
+To access the report, open the **Field Service** app, change to the **Resources** area, and go to **Analytics and Insights** > **Reports**.
 
 :::image type="content" source="media/resource-utilization-report.png" alt-text="Screenshot of a resource and utilization report.":::
 
@@ -51,13 +48,13 @@ Formula: Actual travel duration / Number of days
 
 ### Total miles traveled
 
-Total miles on traveled by the selected resources in the selected time range.
+Total miles traveled by the selected resources in the selected time range.
 
 Formula: Sum of miles traveled of the bookable resource bookings.
 
 ### Avg. miles traveled per day
 
-Average number of miles on traveled by the selected resources in the selected time range.
+Average number of miles traveled by the selected resources in the selected time range.
 
 Formula: Sum of miles traveled / Number of days
 
@@ -77,7 +74,7 @@ The percentage of completed bookings where the technician arrived late.
 Formula: (Number of bookable resource bookings with late arrival / Total number of completed bookings) x 100
 
 > [!NOTE]
-> Being late is defined by arriving after the *Time to Promise* value. if *Time to Promise* isn't set, the *Estimated arrival time* is taken into account.
+> Being late is defined as arriving after the *Time to Promise* value. If *Time to Promise* isn't set, the *Estimated arrival time* is taken into account.
 
 ### Booking cancellation rate
 

@@ -5,7 +5,6 @@ ms.date: 07/09/2021
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Overview of user management 

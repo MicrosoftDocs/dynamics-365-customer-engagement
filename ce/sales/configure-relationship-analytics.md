@@ -6,7 +6,6 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Configure relationship analytics and health
@@ -73,7 +72,7 @@ For more information about how to view the analytics, see [Use relationship anal
 
 ### See also
 
-
+[System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)  
 [GDPR for Sales Insights](embedded-intelligence-gdpr.md)  
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  

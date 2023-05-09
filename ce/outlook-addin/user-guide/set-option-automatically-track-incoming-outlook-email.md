@@ -18,14 +18,10 @@ ms.assetid: 893ce442-3fb7-48dd-9440-6fb5f169d064
 caps.latest.revision: 52
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook
 When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to track an email message, a copy of the email record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  

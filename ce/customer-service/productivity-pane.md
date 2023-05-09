@@ -5,7 +5,6 @@ ms.date: 10/09/2020
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 
 ---
 

@@ -5,13 +5,9 @@ ms.date: 06/03/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---
@@ -105,13 +101,6 @@ ms.custom:
 
 </tr>
 </table>
-
-::: moniker range="dynamics-usd-3"
-
-### Videos
-
-See the video to know [What's New in Unified Service Desk 3.3](https://go.microsoft.com/fwlink/?linkid=2008774).
-::: moniker-end
 
 ### See also
 

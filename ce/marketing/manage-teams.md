@@ -9,14 +9,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Manage and apply roles to teams
@@ -72,8 +68,5 @@ To apply security roles to teams, and to customize each role:
 For more information about managing teams and working with security roles, see [Manage teams](/power-platform/admin/manage-teams) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 For more information about the security roles included with the Dynamics 365 Marketing, see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md).
-
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

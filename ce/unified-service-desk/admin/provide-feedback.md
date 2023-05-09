@@ -5,12 +5,8 @@ ms.date: 04/24/2018
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ---
 # Provide feedback about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 

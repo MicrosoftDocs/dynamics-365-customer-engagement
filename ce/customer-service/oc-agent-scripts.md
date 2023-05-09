@@ -5,7 +5,6 @@ ms.date: 05/26/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Guide customer interaction with agent scripts
@@ -79,7 +78,7 @@ The step is used to load another agent script from the current agent script. Whe
 
 When you get an incoming conversation notification, you accept the conversation request and then a chat session starts. Now, the agent script is available in a form based on the administrator configuration. 
 
-For example, if the administrator has configured in the Customer Summary form, then you can view the agent script in the Customer Summary form.
+For example, if the administrator has configured agent scripts in the **Active Conversation** form, then you can view the agent script in the **Active Conversation** form.
 
 Let's see the sample agent script:
 

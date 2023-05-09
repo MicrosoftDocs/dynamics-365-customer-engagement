@@ -6,7 +6,6 @@ ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Work with activities during a meeting (preview)

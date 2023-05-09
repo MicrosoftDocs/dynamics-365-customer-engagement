@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Deprecation: Dynamics 365 for Customer Engagement
@@ -32,3 +28,5 @@ As of 2022, Dynamics 365 for Customer Engagement licenses purchased prior to the
 You can learn about migrating your data to a new Marketing instance in the [Tenant to tenant migration for Dynamics 365 Marketing](tenant-to-tenant.md) article.
 
 To start a free trial for the current version of Dynamics 365 Marketing, see [Sign up for a free Dynamics 365 Marketing trial](trial-signup.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

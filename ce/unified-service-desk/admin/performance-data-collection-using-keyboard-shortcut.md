@@ -5,17 +5,13 @@ ms.date: 10/31/2018
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-a11y
   - dyn365-USD
   - dyn365-admin
-monikerRange: '<= dynamics-usd-4'
+monikerRange: '= dynamics-usd-4'
 ---
 
 # Generate performance data logs (Performance data collection)

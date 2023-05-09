@@ -5,16 +5,12 @@ ms.date: 04/15/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.reviewer: nenellim
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
   - developer
   - customizer
-search.app: 
-  - D365CE
-  - D365CS
 ---
 # How to close live work items or deactivate queue items
 

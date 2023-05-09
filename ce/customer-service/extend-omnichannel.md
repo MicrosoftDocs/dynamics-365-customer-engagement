@@ -5,7 +5,6 @@ ms.date: 11/24/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.reviewer: nenellim
 ms.custom: 
   - intro-internal

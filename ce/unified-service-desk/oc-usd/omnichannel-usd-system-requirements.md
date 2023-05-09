@@ -5,7 +5,6 @@ ms.date: 02/24/2021
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 monikerRange: '>= dynamics-usd-4.1'
 ---
 

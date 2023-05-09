@@ -17,13 +17,12 @@ ms.assetid: d5e9b6e6-abf1-4d27-bed0-df2cd1006487
 caps.latest.revision: 25
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 ---
 # Sample: Send an email using a template
 
-This sample shows how to send an email message by using a template using the [SendEmailFromTemplateRequest](/dotnet/api/microsoft.crm.sdk.messages.sendemailfromtemplaterequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/SendEmailUsingTemp).
+This sample shows how to send an email message by using a template using the [SendEmailFromTemplateRequest](/dotnet/api/microsoft.crm.sdk.messages.sendemailfromtemplaterequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/SendEmailUsingTemp).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

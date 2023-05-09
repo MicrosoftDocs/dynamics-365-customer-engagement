@@ -7,9 +7,6 @@ ms.subservice: common-scheduler
 ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Schedule work using resource pools in Universal Resource Scheduling

@@ -5,16 +5,12 @@ ms.date: 08/17/2018
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-monikerRange: ">=dynamics-usd-4"
+
 ---
 
 # How to configure close confirmation window to prevent accidental closure of Unified Service Desk

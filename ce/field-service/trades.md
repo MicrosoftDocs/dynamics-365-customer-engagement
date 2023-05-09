@@ -7,9 +7,6 @@ ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
 ms.author: jasonshotts
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Use trades to group services

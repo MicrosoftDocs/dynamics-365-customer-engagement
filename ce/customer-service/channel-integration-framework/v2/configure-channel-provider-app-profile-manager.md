@@ -3,7 +3,6 @@ title: "Configure channel providers in Dynamics 365 Channel Integration Framewor
 description: "Learn how to configure channel providers using the app profile manager or the Customer Service admin center in Dynamics 365 Channel Integration Framework 2.0."
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.date: 02/22/2023
 ms.custom: 
   - "dyn365-a11y"
@@ -61,7 +60,7 @@ More information:
 |Name|Name of the channel provider.|
 |Unique Name|A unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT:** The following are required for the unique name:<ul><li> The prefix has to be alphanumeric with a length of 3-8 characters.</li><li>The prefix must include an underscore</li></ul>|
 |Label|The label is displayed as the title on the widget.|
-|Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widget with Dynamics 365 Channel Integration Framework.|
+|Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widget with Dynamics 365 Channel Integration Framework. If the URL isn't in the specified format, the application displays a warning. Select **Restore** to reset the URL to the expected value. |
 |Enable Outbound Communication|Selecting a phone number in the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
 |Channel Order|The order of precedence of the channel providers. That is, the priority to display the channel for the agents and Unified Interface apps.|
 |Api Version|The version of the Channel Integration Framework APIs.|
@@ -72,7 +71,8 @@ More information:
   > ![Configure channel provider.](../media/channel-provider-app-profile.png "Configure channel provider")
 
   > [!NOTE]
-  > The `Api Version` field is set to `2` when you navigate from the app profile manager.
+  > - The **Restore** button is available only for forms with the **Unique Name** set to **msdyn_omnichannel**.
+  > - The `Api Version` field is set to `2` when you navigate from the app profile manager.
 
 3. If you're using the app profile manager, add the channel provider to the app profile. If you're using Customer Service admin center, then select **Save & Close**.
 

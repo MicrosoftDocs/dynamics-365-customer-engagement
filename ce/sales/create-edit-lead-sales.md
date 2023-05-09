@@ -1,11 +1,10 @@
 ---
-title: "Create or edit leads in Dynamics 365 Sales"
-description: "Use leads to keep track of business prospects. A lead can be an existing client or someone you've never done business with before."
-ms.date: 03/23/2023
+title: Create or edit leads in Dynamics 365 Sales
+description: Use leads to keep track of business prospects. A lead can be an existing client or someone you've never done business with before.
+ms.date: 03/31/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -17,11 +16,12 @@ searchScope:
 
 # Create or edit leads
 
-Use leads to keep track of business prospects. This article explains when and how create leads.
+Use leads to keep track of business prospects. This article explains when and how to create leads.
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
 ## License and role requirements
+
 | Requirement type | You must have | 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -34,11 +34,11 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
   
 <a name="bkmk1"></a>   
   
-1. In the site map, select **Leads**. 
+1. From sales app, select **Leads**.
   
 2. Select **New**.
 
-3. Follow the process bar to enter data into fields to move the lead to the next stage. 
+3. Follow the process bar to enter data into fields to move the lead to the next stage.  
 
 4. If you're creating the lead for new customers, enter name, contact details, and company name in the **Lead** form.
 
@@ -47,12 +47,12 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
     If you're creating the lead for an existing account or contact, in the **Qualify** stage of the process bar, select the existing account or contact.
 
     - When you select an existing account while creating a lead record, the company name is automatically populated. 
-    
-    -    When you select an existing contact while creating a lead record, the following information is automatically populated in the **Lead** form: First Name, Last Name, Job Title, Business Phone, Mobile Phone and Email.
 
-           > [!NOTE]
-           > -  Auto-population happens only when creating a new lead and when the corresponding fields in the Lead form are empty. If fields are auto-populated or data is manually entered, the auto population doesn't override the existing values. 
-           >  -  On new (unsaved) lead records, the **Existing Contact** and **Existing Account** fields allow you to choose any records. Once you save the lead record, these fields are filtered to show only the records that meet the duplicate detection rules to avoid duplicates.    
+    - When you select an existing contact while creating a lead record, the following information is automatically populated in the **Lead** form: First Name, Last Name, Job Title, Business Phone, Mobile Phone and Email.
+
+      > [!NOTE]
+      > -  Auto-population happens only when creating a new lead and when the corresponding fields in the Lead form are empty. If fields are already auto-populated or data is manually entered, the auto population doesn't override the existing values. 
+      >  -  On new (unsaved) lead records, the **Existing Contact** and **Existing Account** fields allow you to choose any records. Once you save the lead record, these fields are filtered to show only the records that meet the duplicate detection rules to avoid duplicates.    
   
 5. In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Track and manage activities](manage-activities.md) 
 

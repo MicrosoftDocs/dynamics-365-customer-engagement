@@ -8,12 +8,8 @@ ms.custom:
 ms.topic: how-to
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Step 3: Create a workflow or plug-in to implement your custom logic

@@ -9,7 +9,6 @@ applies_to:
 ms.assetid: d329dade-16c5-46e9-8dec-4b8efb996d22
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -102,7 +101,7 @@ If for any reason your code cannot achieve the expected result, you must throw t
 
 Unlike an ordinary plugin, you will only use the _Plugin Registration Tool_ (PRT) to register the assembly and the plugins for each event. You will not register specific steps. Your plugin will run in stage 30, the main core transaction stage for the operation that is not available for ordinary plugin steps. Instead of registering steps, you will configure your data provider using the [Microsoft.Dynamics.CRM.EntityDataProvider](../entities/entitydataprovider.md) and [Microsoft.Dynamics.CRM.EntityDataSource](../entities/entitydatasource.md) entities. 
 
-<!-- TODO: If the PRT is essentially the same as past versions, then replace italics with link to current DOCS topic.  That topic might need updating.  If this is a special version of this tool only int he Data SDK, then it might need a separate topic. -->
+<!-- TODO: If the PRT is essentially the same as past versions, then replace italics with link to current DOCS topic.  That topic might need updating.  If this is a special version of this tool only in the Data SDK, then it might need a separate topic. -->
 
 |**Entity**|**Description**|
 |-----|-----|

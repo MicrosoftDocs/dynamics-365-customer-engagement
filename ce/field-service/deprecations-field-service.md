@@ -6,9 +6,6 @@ ms.topic: conceptual
 ms.custom: bap-template
 ms.author: vhorvath
 author: vhorvathms
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Feature deprecations

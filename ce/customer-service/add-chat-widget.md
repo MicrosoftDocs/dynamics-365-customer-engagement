@@ -1,10 +1,9 @@
 ---
 title: "Configure a chat widget | MicrosoftDocs"
 description: "Perform the steps mentioned in the article to configure a chat widget in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 04/25/2023
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.topic: article
 ---
 
@@ -46,7 +45,7 @@ To add a chat widget, you need to have configured a workstream that defines how 
    - **Logo URL:** Select the default value or enter the link to the logo that you want to be displayed.
    - **Agent display name:** Select a value from the list.
 
-1. Set the toggle to **Yes** to enable the following options:
+1. Switch the toggle to **Yes** to enable the following options:
    - [Proactive chat](proactive-chat.md)
    - [Reconnect to previous chat](configure-reconnect-chat.md)
    - Only show widget during operation hours
@@ -59,17 +58,21 @@ To add a chat widget, you need to have configured a workstream that defines how 
    - [Post-conversation survey](configure-post-conversation-survey.md)
    - [Authentication settings](create-chat-auth-settings.md)
    - Customer wait time
-         - **Show position in queue:** Select if you want to show customers their position in the queue when they're waiting to interact with an agent. More information: [Show customers their queue position](show-queue.md)
-         - **Show average wait time:** Select if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
+      
+      > [!Note] 
+      > These settings aren't configurable for the persistent chat feature. More information: [Configure persistent chat](persistent-chat.md)
+   
+       - **Show position in queue:** Select this if you want to show customers their position in the queue when they're waiting to interact with an agent. More information: [Show customers their queue position](show-queue.md)
+       - **Show average wait time:** Select this if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
    - **Customer location detection:** Select a location provider. More information: [Set up visitor location detection](geo-location-provider.md).
 
 1. On the **User features** page, configure the following options:
    - [File attachments](enable-file-attachments.md)
    - [Customer notifications](#configure-customer-notifications)
    - [Conversation transcripts](download-email-chat-transcripts.md)
-   - **Voice and video calls**: Set the toggle to **On** and select the calling option.
-   - **Screen sharing**: Set the toggle to **On** and select a provider.
-   - **Co-browse**: Set the toggle to **On** and select a provider if you want the agents to see and interact with a customer's web browse.
+   - **Voice and video calls**: Switch the toggle to **On** and select the calling option.
+   - **Screen sharing**: Switch the toggle to **On** and select a provider.
+   - **Co-browse**: Switch the toggle to **On** and select a provider if you want the agents to see and interact with a customer's web browse.
 
       > [!NOTE]
       > - You must install a third-party provider from AppSource to use the screen sharing or co-browse feature.
@@ -84,7 +87,7 @@ You can configure visual and sound notifications to be sent to customers when th
 Perform the following steps to enable the customer notifications:
 
 1. In Customer Service admin center or Omnichannel admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
-2. For **Customer notifications**, set the toggle to **On**. The following checkboxes are displayed as selected:
+2. For **Customer notifications**, switch the toggle to **On**. The following checkboxes are displayed as selected:
    - **Show number of new messages**
    - **Play sound notifications for new messages**
 3. Keep the default settings or select one of them depending on your requirement.

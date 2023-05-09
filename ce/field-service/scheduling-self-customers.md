@@ -5,9 +5,6 @@ ms.date: 09/07/2021
 ms.topic: article
 author: Deana-Fuller
 ms.author: drfuller
-search.app:
-  - D365CE
-  - D365FS
 ---
 
 
@@ -41,7 +38,7 @@ For a guided walkthrough, check out the following video.
 
 First, we need to set up the customer experience portal with Power Apps portals.
 
-1. Go to [http://make.powerapps.com](http://make.powerapps.com), and select **Create**.
+1. Go to [https://make.powerapps.com](https://make.powerapps.com), and select **Create**.
 
 1. Select **Field Service Portal**.
 
@@ -61,7 +58,7 @@ We provide links directly to the Power Automate flows for email and SMS via Fiel
 
 Alternately, you can access the Power Automate Flows for Email and SMS within Power Automate:
 
-Go to [http://make.powerapps.com](http://make.powerapps.com) > **Solutions**. Select **Dynamics 365 Field Service PowerApps Portal – Flow** in the list.
+Go to [https://make.powerapps.com](https://make.powerapps.com) > **Solutions**. Select **Dynamics 365 Field Service PowerApps Portal – Flow** in the list.
 
 > [!div class="mx-imgBorder"]
 > ![List of Power Apps solutions with "Dynamics 365 Field Service PowerApps Portal – Flow" selected.](./media/SS_paflow_solution.jpg)

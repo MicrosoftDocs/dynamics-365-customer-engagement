@@ -13,7 +13,6 @@ applies_to:
 ms.assetid: E197DEB3-7461-48D4-80D4-C0BFC8AC80A1
 author: phecke
 ms.author: pehecke
-manager: shujoshi
 search.audienceType: 
   - developer
 

@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create a static snapshot of a segment
@@ -35,3 +31,5 @@ Using the [attribute logic builder](real-time-marketing-build-segments.md), you 
 
 > [!div class="mx-imgBorder"]
 >![Create a static snapshot](media/real-time-marketing-static-snapshot-of-segment.png "Create a static snapshot")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

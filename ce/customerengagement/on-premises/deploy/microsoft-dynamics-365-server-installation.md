@@ -14,7 +14,6 @@ ms.assetid: 8a64a413-857f-40bd-b12b-f2c3fd68c591
 caps.latest.revision: 20
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Microsoft Dynamics 365 Server installation
 
