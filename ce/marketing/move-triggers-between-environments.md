@@ -91,19 +91,19 @@ Solution upgrades only change the state of the triggers when the triggers in the
 
 ## Common questions
 
-1. Can I import more than one trigger per solution?
+- Can I import more than one trigger per solution?
 
     **Yes**. You can import any number of triggers per solution. At the destination, triggers that were imported in a published state will transition from a "publishing" state to a "published" state over a few minutes.
 
-1. Do all triggers in a solution need to be in the same state when migrating?
+- Do all triggers in a solution need to be in the same state when migrating?
 
     **No**. You can choose which state to import triggers on. The state of the triggers is retained at the destination.
 
-1. My trigger kicks off a Power Automate flow. Will the Power Automate flow also be automatically added to the solution as a dependency once I add the trigger?
+- My trigger kicks off a Power Automate flow. Will the Power Automate flow also be automatically added to the solution as a dependency once I add the trigger?
 
     **No**. If you have a Power Automate flow that is started based on the trigger, ensure that you're adding it to the solution along with the trigger record to ensure consistency and ease of use at the destination.
 
-1. I want to move a custom trigger that is already integrated on my website. Are there some caveats that I need to know about?
+- I want to move a custom trigger that is already integrated on my website. Are there some caveats that I need to know about?
 
     Migrating custom triggers is different from other trigger migration. Custom triggers typically have a code snippet that needs to be instrumented to the website to start tracking customer action. These code snippets contain an ingestion key that is associated only with the environment where the trigger has been created.
 
@@ -111,17 +111,17 @@ Solution upgrades only change the state of the triggers when the triggers in the
 
     The ingestion key in the destination org will be different from the one for the source environment. Hence, this necessitates the need to re-instrument the code snippet where needed once the migration of the trigger is complete.
 
-1. I migrated a trigger to my destination organization using a managed solution. Now, I don't think this is what I need and I want to delete it. But the delete button has been greyed out. What do I do?
+- I migrated a trigger to my destination organization using a managed solution. Now, I don't think this is what I need and I want to delete it. But the delete button has been greyed out. What do I do?
 
     Managed triggers can't be deleted from the user interface. The reason for this is to account for the dependencies and ensure that you don't leave any orphan dependencies after deleting the trigger. Hence, a user who wants to delete a managed trigger can only do so by deleting the managed solution while all the triggers in the solution are in draft state.
 
     If the solution contains other components that you don't want removed, then the managed trigger can instead be deleted by upgrading to a new solution version that doesn't contain the managed trigger (and its related records when the trigger was added to the solution) but still contains the other components. The trigger intended to be deleted by this upgrade must be in draft state.
 
-1. Can I migrate a combination of triggers and Power Automate flows in the same solution?
+- Can I migrate a combination of triggers and Power Automate flows in the same solution?
 
     **Yes**. You can move more than just triggers in the solution between the source and destination environments.
 
-1. I imported many triggers in my solution in a published state. In the destination environment, I can see that some of them have come through in a published state while the others are showing up in a draft state. Is this an error?
+- I imported many triggers in my solution in a published state. In the destination environment, I can see that some of them have come through in a published state while the others are showing up in a draft state. Is this an error?
 
     When a set of triggers are imported in a published state to the destination environment, they go through the process of publishing (a process that happens sequentially, a few triggers at a time). During that period, the triggers that are waiting in line to get published will display that they are in a "draft" state for a short period on initial import before transitioning to a "publishing" state and finally a "published/Ready to Use" state.
 
