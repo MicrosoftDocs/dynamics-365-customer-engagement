@@ -324,6 +324,10 @@
           href: real-time-marketing-branches.md
         - name: Customize the journey designer in real-time Marketing
           href: real-time-marketing-journey-designer.md
+    - name: Lead generation and management
+      items:
+      - name: Optimize Lead management by engaging sellers right away
+        href: real-time-marketing-optimize-lead-management.md
     - name: Analytics
       items:
       - name: Access and interpret analytics
@@ -364,10 +368,10 @@
       items: 
       - name: Journeys
         items:
+        - name: Move triggers between environments
+          href: move-triggers-between-environments.md
         - name: Select the audience source for real-time journeys
           href: real-time-marketing-audience-data.md
-        - name: Move custom triggers between environments
-          href: real-time-marketing-move-triggers.md
         - name: Real-time marketing link tracking mechanics
           href: real-time-marketing-link-tracking-mechanics.md
       - name: Privacy and compliance
@@ -510,7 +514,7 @@
         href: dynamic-email-content.md
       - name: Set the sender, receiver, language, and legal designation
         href: email-properties.md
-      - name: "Preview: Use AI to kickstart email creation with content ideas"
+      - name: "Preview: Use AI to kickstart email creation with content ideas Copilot"
         href: content-ideas.md
       - name: Generate iCalendar files for events and sessions
         href: add-to-calendar.md
