@@ -1,7 +1,7 @@
 ---
 title: "Create a real-time marketing segment using the Web API (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create a real-time marketing segment using the Web API."
-ms.date: 04/10/2023
+ms.date: 05/09/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -19,7 +19,13 @@ You can create a real-time marketing segment using the Web API following the sam
 
 ## Create a segment definition entity
 
+Create a segment definition entity means to create a new instance of a segment definition in a system that supports such entities. In this case, the entity represents a marketing segment or list of target customers.
+
+To create a new segment definition entity, a POST request needs to be sent to the API endpoint. 
+
 `POST <Organization URL>/api/data/v9.0/msdynmkt_segmentdefinitions`
+
+This code represents a PATCH request to update an existing segment definition entity in a system that supports such entities. The <**Organization URL**> part should be replaced with the actual URL of the organization's API endpoint, and <**SegmentDefinitionID**> should be replaced with the unique identifier of the segment definition that you want to update.
 
 ### Payload
 
@@ -34,7 +40,7 @@ You can create a real-time marketing segment using the Web API following the sam
     msdynmkt_segmentrefreshintervalminutes: number
 }
 ```
-
+<!--
 ### Values
 
 ```
@@ -50,6 +56,17 @@ statuscode {
     deleted = 723270003
 }
 ```
+-->
+### Description
+
+The payload contains the following properties:
+- **msdynmkt_segmentquery**: a string that defines the query used to define the segment
+- **statecode**: an integer value that indicates the state of the segment definition (0 for active, 1 for inactive)
+- **statuscode**: an integer value that indicates the status of the segment definition 
+- **msdynmkt_includedmembers**: a string that contains a list of GUIDs of members that should be included in the segment
+- **msdynmkt_excludedmembers**: a string that contains a list of GUIDs of members that should be excluded from the segment
+- **msdynmkt_disablesegmentrefresh**: a boolean value that indicates whether automatic segment refreshing should be disabled
+- **msdynmkt_segmentrefreshintervalminutes**: an integer value that specifies the refresh interval in minutes
 
 ### Example request
 
@@ -88,7 +105,11 @@ After you create the segment definition, you'll need to create the segment entit
 
 ## Create a segment entity
 
+Create a segment entity refers to the process of creating a new segment record in Dynamics 365 Marketing. When you send this POST request to the Dynamics 365 Marketing API, it will create a new segment entity record in the specified organization, with the specified properties. This newly created segment can then be used for targeting and personalizing marketing activities based on the defined criteria.
+
 `POST <Organization URL>/api/data/v9.0/msdynmkt_segments`
+
+The URL for the POST request is <Organization URL>/api/data/v9.0/msdynmkt_segments. The <Organization URL> is the base URL for the Dynamics 365 Marketing organization where the segment entity will be created.
 
 ### Payload
 
@@ -104,7 +125,7 @@ After you create the segment definition, you'll need to create the segment entit
     "owningbusinessunit@odata.bind": string
 }
 ```
-
+<!--
 ### Values
 
 Values:
@@ -132,6 +153,23 @@ statuscode {
 } 
 
 ```
+-->
+### Description
+
+The properties included in the payload are:
+- **msdynmkt_displayname**: A string that represents the name of the segment.
+- **msdynmkt_type**: An integer that represents the type of the segment. The value can be one of the following:
+    - 0: Static segment
+    - 1: Dynamic segment
+    - 2: Compound segment
+- **msdynmkt_source**: An integer that represents the source of the segment. The value can be one of the following:
+    - 0: Manual
+    - 1: Automatic
+- **msdynmkt_baseentitylogicalname**: A string that represents the logical name of the entity that the segment is based on.
+- **statecode**: An integer that indicates the current status of the segment. It can have a value of 0 (Active) or 1 (Inactive).
+- **statuscode**: An integer that indicates the reason why the segment is in its current state.
+- **msdynmkt_sourcesegmentuid**: A string that represents the unique identifier of the segment that the current segment is based on.
+- **owningbusinessunit@odata.bind**: A string that represents the reference to the business unit that owns the segment.
 
 ### Example request
 
