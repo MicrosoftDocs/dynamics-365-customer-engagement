@@ -18,9 +18,9 @@ Also, by analyzing sequence insights data, organizations  can identify successfu
 they can streamline their processes through common patterns and strategies that contribute to their success.
 
 >[!NOTE]
->- By default, sequence insights are available in your organization from version 9.0.23041.10001 or later.
->- After the sequence insights feature is available in your organization, any newly created or updated sequences display insights data.   
->- Sequences that are active before the feature availability don't display insights data. To get insights data for these sequences, you must reactivate them.
+>- The sequence insights feature is being rolled out in version 9.0.23041.10001. More information: [Released Versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales)
+>- Insights data is available for only those sequences that were created or updated after the feature is rolled out to your organization.
+>- Sequences that were activated before the feature rollout won't display insights data. You must reactivate such sequences to view their insights.
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ This is an easy way to view the overall performance of the sequence. Moreover, y
 
 By default, the data is displayed for the entire duration that the sequence has been active. However, you can filter the data for a specific duration such as last 7 days. Select **All data** at the top-right corner of the page.
 
-The following image is an example of a sequence with insights displayed on the right pane 
+The following image is an example of a sequence with insights displayed on a right pane: 
 
 :::image type="content" source="media/si-insights-phone-call.png" alt-text="Sequence flow diagram with insights for a phone call step" lightbox="media/si-insights-phone-call-exp.png":::
 
