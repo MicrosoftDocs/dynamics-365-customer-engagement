@@ -27,8 +27,8 @@ Learn more about what's new or changed in recent releases in the links in the fo
 
 | Version | Auto-update availability | Learn more |
 |---------|---------------|-------------|
-| 9.0.23023.10001 | March 2023 | [What's new or changed in Dynamics 365 Sales (March 2023)](march-2023-whatsnew.md) |
-| 9.0.23021.10001 | March 2023 | [What's new or changed in Dynamics 365 Sales (March 2023](march-2023-whatsnew.md) |
+| 9.0.23043.10001 | April 2023 | [April 2023 release](#april-2023-release) |
+| 9.0.23041.10001 | April 2023 | [April 2023 release](#april-2023-release) |
 
 For earlier versions, see the archived release plans at [Release plans for Dynamics 365 and Power Platform](/dynamics365/release-plans/archived-plans).  
 
