@@ -15,8 +15,6 @@ search.audienceType:
 
 # Warm-up process for marketing senders
 
-## Warm-up definition
-
 Domain warming is the process of methodically adding email volume to a new domain over several days or weeks. Gradually “warming up" the domain establishes a positive sending reputation with mailbox providers.
 
 Whether you use shared or dedicated IP addresses, the initial warm-up process is important for every sender. Warming up your domain together with your ESP’s IP addresses is crucial, whether you use a brand new domain (with no reputation) or an already in use domain (with good reputation) for your email campaigns. Warm-up is especially critical for senders who plan to use brand new domains and send large volumes of emails in their customer journeys (up to 500,000 emails per day or customer journey).
@@ -30,10 +28,11 @@ You should start the warm-up process with your best performing messages – thos
 During the warm-up phase, the more consistent you are with volume, frequency, complaint, and bounce levels, the faster you establish a positive sending reputation. If you send infrequently (anything less than weekly), it takes longer to build a positive sender reputation.
 
 ## Warm-up plan
+
 ### Key to success
 - During weeks 1-2, send to your most active subscribers – those who have opened or clicked in the past 30 days.
 - During weeks 3-4, expand your reach to subscribers who have opened or clicked in the past 60 days.
-- During the first six weeks, don't send it to subscribers who haven't opened or clicked in the past 90 days.
+- During the first 6 weeks, don't send it to subscribers who haven't opened or clicked in the past 90 days.
 
 ### What to Expect
 As the warm-up process begins, expect some bulking (mailbox providers identifying marketing emails as spam) and blocking. The key is to stick with the plan. Below are details of what you can expect and actions to take.
@@ -48,8 +47,7 @@ As the warm-up process begins, expect some bulking (mailbox providers identifyin
 | Unknown senders | A good reputation develops over time |
 | Blocks, filtering,   and rate limiting will occur | Blocks, filtering, and rate limiting rarely occurs (only occurs when engagement rates are low and complaint rates are high) |
 
-Warm-up builds your sender reputation.
-Sender reputation is how mailbox providers view you and your mail.
+Warm-up builds your sender reputation. Sender reputation is how mailbox providers view you and your mail.
 - Email reputation controls access to the inbox
     - Bad reputation = spam folder or blocks
     - Good reputation = inbox
@@ -58,8 +56,8 @@ Sender reputation is how mailbox providers view you and your mail.
     - Invalid email addresses (hard bounces)
     - Spam trap hits
     - Authentication (SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail), DMARC (Domain-based Message Authentication, Reporting and Conformance))
--    Third-party block listing
--    Engagement
+    - Third-party block listing
+    - Engagement
 
 | Positive effects on your reputation are: | Negative effects on your reputation are: |
 |---|---|
