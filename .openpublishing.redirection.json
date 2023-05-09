@@ -25051,6 +25051,11 @@
       "source_path": "ce/marketing/svg-test.md",
       "redirect_url": "/dynamics365/marketing/help-hub",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/configure-twitter-channel.md",
+      "redirect_url": "/dynamics365/customer-service/channels",
+      "redirect_document_id": false
     }
   ]
 }

@@ -36,7 +36,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md
   
  ![Job Title field in Microsoft Dynamics 365 apps.](../media/crm-itpro-jobtitlefield.png "Job Title field in Microsoft Dynamics 365 apps")  
   
- He did the following steps:  
+ John did the following steps:  
   
 1. [!INCLUDE[proc_settings_customization](../../includes/proc-settings-customization.md)]  
   
@@ -59,7 +59,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md
   
  ![Field Security Profile in Dynamics 365 apps.](../media/crm-itpro-fieldsecurityprofile.png "Field Security Profile in Dynamics 365 apps")  
   
- He did the following to create the field security profile:  
+John did the following to create the field security profile:  
   
 1. [!INCLUDE[proc_settings_security](../../includes/proc-settings-security.md)]  
   
@@ -74,7 +74,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md
 6. Select users and then choose **Select** > **Add**.  
   
 ### Set field permissions  
- With a field security profile created and users added to the profile, John can now set permissions on the fields to match his organization’s requirements.  
+ With a field security profile created and users added to the profile, John can now set permissions on the fields to match the organization’s requirements.  
   
  ![Edit Field Security form in Dynamics 365 apps.](../media/crm-itpro-editfieldsecurity.png "Edit Field Security form in Dynamics 365 apps")  
   
@@ -91,7 +91,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md
   
  ![Contact Rene Valdes form in Dynamics 365 apps.](../media/crm-itpro-contactrenevaldes.png "Contact Rene Valdes form in Dynamics 365 apps")  
   
- When Nancy synchronizes with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], she notices that the Job Title field is gone from the contact. This is because Nancy doesn’t have update rights for the Job Title field.  
+ On synchronizing with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], Nancy notices that the Job Title field is gone from the contact. This is because Nancy doesn’t have update rights for the Job Title field.  
   
  ![Rene contact with no Job Title in Dynamics 365 apps.](../media/crm-itpro-contactnojobtitle.png "Rene contact with no Job Title in Dynamics 365 apps")  
   

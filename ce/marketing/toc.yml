@@ -190,10 +190,14 @@
         href: developer/email-designer-customization.md
     - name: Privacy and compliance
       items:
-      - name: Data protection and GDPR
-        href: gdpr.md
+      - name: Compliance overview
+        href: compliance-overview.md
       - name: Manage user compliance settings
         href: real-time-marketing-compliance-settings.md
+      - name: "Preview: Manage user compliance settings in real-time marketing (update)"
+        href: real-time-marketing-compliance-settings-preview.md
+      - name: Data protection and GDPR
+        href: gdpr.md
       - name: Use GDPR features
         href: gdpr-use-features.md
       - name: Set up global double opt-in
@@ -286,6 +290,8 @@
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
           href: real-time-marketing-segment-based-journey.md
+        - name: Improve targeting with the redesigned segment builder
+          href: real-time-marketing-redesigned-segment-builder.md
         - name: Create a static snapshot of a segment
           href: real-time-marketing-static-snapshot.md
         - name: Individually manage your customer list
@@ -318,6 +324,10 @@
           href: real-time-marketing-branches.md
         - name: Customize the journey designer in real-time Marketing
           href: real-time-marketing-journey-designer.md
+    - name: Lead generation and management
+      items:
+      - name: Optimize Lead management by engaging sellers right away
+        href: real-time-marketing-optimize-lead-management.md
     - name: Analytics
       items:
       - name: Access and interpret analytics
@@ -368,6 +378,12 @@
         items:
         - name: Manage consent for email and text messages in real-time marketing
           href: real-time-marketing-email-text-consent.md
+        - name: "Preview: Manage consent for email and text messages in real-time marketing (update)"
+          href: real-time-marketing-email-text-consent-preview.md
+        - name: Real-time marketing preference centers
+          href: real-time-marketing-preference-centers.md
+        - name: Migrate consent records to real-time marketing
+          href: real-time-marketing-migrate-consent.md
         - name: Use outbound subscription centers in real-time journeys
           href: real-time-marketing-outbound-subscription.md
       - name: Manage SMS (text message) keywords used in customer journeys
@@ -380,6 +396,8 @@
           href: real-time-marketing-business-units.md
         - name: Support for modernized business units 
           href: real-time-marketing-modernized-business-units.md
+        - name: Business units and compliance profiles for multi-brand businesses
+          href: real-time-marketing-business-unit-compliance.md
         - name: Business units FAQ for real-time marketing
           href: real-time-marketing-business-unit-faq.md  
     - name: Developer
@@ -496,7 +514,7 @@
         href: dynamic-email-content.md
       - name: Set the sender, receiver, language, and legal designation
         href: email-properties.md
-      - name: "Preview: Use AI to kickstart email creation with content ideas"
+      - name: "Preview: Use AI to kickstart email creation with content ideas Copilot"
         href: content-ideas.md
       - name: Generate iCalendar files for events and sessions
         href: add-to-calendar.md
