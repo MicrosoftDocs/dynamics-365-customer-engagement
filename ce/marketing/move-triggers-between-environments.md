@@ -129,3 +129,5 @@ Solution upgrades only change the state of the triggers when the triggers in the
 
     - **Self-serve**: One way to circumvent a potential issue where you see that imported "published" triggers are in a "draft" state for an extended period is to do a solution upgrade and reimport the trigger again.
     - **Reach out to your Microsoft representative**: Open a [support ticket](https://dynamics.microsoft.com/contact-us/) with the Microsoft support team to have one of the engineers investigate the issue and provide additional mitigation solutions.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
