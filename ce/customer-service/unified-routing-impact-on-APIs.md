@@ -63,8 +63,8 @@ This section describes how queue items and live work items are updated when you 
 
 
 > [!Note]
-> - Unified routing works upon the underlying entity record for the owner field also. Therefore, ensure that you provide Read privileges to the agents for that entity and any other dependent entity. For information on how to provide the accesses to different roles for the entities, see [Manage user accounts, user licenses, and security roles](/marketing/admin-users-licenses-roles).
-> - To get the capacity released for the agents for entities other than incident (via incident resolution or cancelation), add a custom logic to deactivate the corresponding queue item. More information: [Create and manage capacity profiles](capacity-profiles.md)
+> - Unified routing works upon the underlying entity record for the owner field also. Therefore, ensure that you provide Read privileges to the agents for that entity and any other dependent entity. For information on how to provide the accesses to different roles for the entities, see [Manage user accounts, user licenses, and security roles](../marketing/admin-users-licenses-roles.md).
+> - To get the capacity released for the agents for entities other than incident (via incident resolution or cancellation), add a custom logic to deactivate the corresponding queue item. More information: [Create and manage capacity profiles](capacity-profiles.md)
 > - For non-case records, we recommend that you deactivate the associated queue item before deleting it.
 
 ## Next steps
