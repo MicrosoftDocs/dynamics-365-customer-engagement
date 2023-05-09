@@ -91,7 +91,7 @@ If the Dynamics 365 organization has two-factor authentication enabled, but Micr
 
 To solve this problem, you must perform one of the following actions:
 
-- Enable two-factor authentication in [Dynamics 365](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#microsoft-cloud-applications) and [Teams](/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide). This is the preferred action. 
+- Enable two-factor authentication in [Dynamics 365](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#microsoft-cloud-applications) and [Teams](/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide&preserve-view=true). This is the preferred action. 
 - Disable two-factor authentication in Dynamics 365 and Teams.
 
 ### Dynamics 365 app doesn't populate environment list in settings
