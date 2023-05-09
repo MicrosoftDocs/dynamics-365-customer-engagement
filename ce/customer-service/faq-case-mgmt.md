@@ -9,6 +9,8 @@ ms.reviewer: shujoshi
 ms.custom: bap-template
 ---
 
+# FAQs and known issues about case management
+
 A few answers to common questions about the case management are listed here.
 
 ## An error occurs when agents try to resolve a case. What should I do?
@@ -19,7 +21,7 @@ If agents encounter the following error when they select **Resolve Case**, it in
 
 You need to make sure that your Dataverse search is configured. More information: [Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization).
 
-## I'm not able search using the required column values on the Case view.
+## I'm unable to search  by any other column apart from Subject in the Case view.
 
- You need to make sure that your quick find search is configured for the required search parameters. More information: [Use quick find search](/power-apps/user/quick-find).
+ You need to make sure that your quick find search is configured for the required search parameters. More information: [Use quick find search](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
 
