@@ -100,7 +100,7 @@ When an agent selects **New Email** from the Timeline, you can to choose to disp
 
 2. In the **System Settings** display window that appears, go to the **Email** tab.
 
-3. Select **Multitask, compose, and save drafts using email pop-up windows when creating email from timeline** in the  **Enhanced email for Timeline** section.
+3. Select **Multitask, compose, and save drafts using email pop-up windows when creating email from timeline** in the  **Enhanced email for Timeline** section, and then select **Ok**.
 
 ## Configure attachment tiles thumbnail layout
 
