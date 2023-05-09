@@ -1,7 +1,7 @@
 ---
 title: "Configure email | Microsoft Docs"
 description: "Learn how to configure email in customer engagement apps."
-ms.date: 04/05/2021
+ms.date: 05/09/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -91,6 +91,16 @@ You can manage file size limits for email file attachments by doing the followin
 
 > [!Note] 	
 > The default file size limit for attachments is 5 MB. The size limit for attachments can be increased to a maximum of 132 MB per file.
+
+## Configure email pop-up window
+
+When an agent selects **New Email** from the Timeline, you can to choose to display the email editor either as a pop-up window or in a new tab. Perform the following steps to display the email editor as a pop-up window:
+
+1. In Power Apps, select **System Settings**.
+
+2. In the **System Settings** display window that appears, go to the **Email** tab.
+
+3. Select **Multitask, compose, and save drafts using email pop-up windows when creating email from timeline** in the  **Enhanced email for Timeline** section.
 
 ## Configure attachment tiles thumbnail layout
 
