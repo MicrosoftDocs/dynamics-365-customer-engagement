@@ -55,5 +55,5 @@ Only the conversation ID is stored in Dynamics 365, by using a link entity to ma
 
 ## Is Teams chat integration supported on mobile devices?
 
-Teams chat integration is not supported on mobile devices.
+No, Teams chat integration is not supported on mobile devices.
  
