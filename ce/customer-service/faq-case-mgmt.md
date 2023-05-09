@@ -23,5 +23,5 @@ You need to make sure that your Dataverse search is configured. More information
 
 ## I can only search using a specific column in the Case view.
 
- You need to make sure that the Quick Find View for the Case table is configured with the required search parameters. More information: [Use quick find search](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
+ You need to make sure that the Quick Find View for the Case table is configured with the required search parameters. More information: [Select searchable fields and filters for each table](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
 
