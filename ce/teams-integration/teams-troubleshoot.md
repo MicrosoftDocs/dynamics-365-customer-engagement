@@ -105,7 +105,7 @@ This issue might occur if two-factor authentication is enabled in either Dynamic
 
 This behavior is by design where deleting a tab from Teams does not unlink the channel from Dynamics 365 record.
 
-To solve this problem, you must manually delete the association row.
+To resolve the issue, manually delete the association row.
 
 1. Sign in to [https://make.powerapps.com](https://make.powerapps.com).
 2. Select the environment that has the association row.
