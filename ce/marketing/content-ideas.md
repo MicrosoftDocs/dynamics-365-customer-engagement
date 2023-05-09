@@ -1,7 +1,7 @@
 ---
 title: "Preview: Use AI to kickstart email creation with content ideas Copilot (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use AI to kickstart email creation with content ideas Copilot in Dynamics 365 Marketing."
-ms.date: 05/01/2023
+ms.date: 05/08/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -53,7 +53,7 @@ The content ideas Copilot feature is like a brainstorming partner that can help 
 1. Choose the **Topic of your email** from the list of suggested ones or choose **Custom**.
  
 1. A) If you selected one of suggested topics – Copilot will automatically fill in sample key points for you, which you can modify according to your needs.
-1. B) If you selected custom topic – add up to five key points that you want to get across in your email (a minimum of three words per key point is recommended). You can also use pre-made examples (select the **See examples** link and then **Use this example** for a selected set of key points).
+1. B) If you selected custom topic – add up to five key points that you want to get across in your email (a minimum of three words per key point is recommended). You can also use premade examples (select the **See examples** link and then **Use this example** for a selected set of key points).
 1. Select **Tone of voice**.
 1. Select **Get ideas**.
 1. Copilot generates a set of text suggestions. It might take a short while to generate content (up to 15 seconds, depending on the usage).
@@ -87,7 +87,7 @@ Content ideas Copilot is built on a machine learning model called GPT-3.5. Train
 
 ## What data does Copilot collect?
 
-If you grant permission, Copilot will automatically review your organization’s recent (English) ready-to-send emails without any human review. The only time a human review the content of generated ideas is if you report it to Microsoft (using a quick feedback survey built into the content ideas feature).
+If you grant permission, Copilot will automatically review your organization’s recent (English) ready-to-send emails without any human review. The only time a human reviews the content of generated ideas is if you report it to Microsoft (using a quick feedback survey built into the content ideas feature).
 
 ## What if I'm not satisfied with the generated content?
 

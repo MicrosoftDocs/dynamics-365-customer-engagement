@@ -496,7 +496,7 @@
         href: dynamic-email-content.md
       - name: Set the sender, receiver, language, and legal designation
         href: email-properties.md
-      - name: "Preview: Use AI to kickstart email creation with content ideas"
+      - name: "Preview: Use AI to kickstart email creation with content ideas Copilot"
         href: content-ideas.md
       - name: Generate iCalendar files for events and sessions
         href: add-to-calendar.md
