@@ -42,96 +42,61 @@ Public preview features include AI-powered milestone attribution analysis, multi
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/leverage-interaction-data-improve-targeting-using-re-designed-segmentation-builder)
     - [Docs](real-time-marketing-redesigned-segment-builder.md)
 
-    > [!div class="mx-imgBorder"]
-    > ![Redesigned segment builder for effective interaction](media/real-time-marketing-redesigned-segment-builder.png "Redesigned segment builder for effective interaction")
-
 - **Save time by easily moving triggers between environments**
-    - With Dynamics 365 Marketing, you can create custom triggers in development or pre-production environments to securely test the intended behaviour before you use them in production for live marketing journeys and campaigns. You can then move the triggers to a production environment using Power Platform Solutions in any state. The ability to move published triggers enables you to align your testing workflow with your application lifecycle management process. Dynamics 365 Marketing automatically takes care of packaging the triggers and any related metadata when you export and import the solutions.
+    - With Dynamics 365 Marketing, you can create custom triggers in development or pre-production environments to securely test the intended behavior before you use them in production for live marketing journeys and campaigns. You can then move the triggers to a production environment using Power Platform Solutions in any state. The ability to move published triggers enables you to align your testing workflow with your application lifecycle management process. Dynamics 365 Marketing automatically takes care of packaging the triggers and any related metadata when you export and import the solutions.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/save-time-easily-moving-triggers-between-environments)
     - [Docs](move-triggers-between-environments.md)
 
-    > [!div class="mx-imgBorder"]
-    > ![Move custom triggers between development or pre-production environment before testing a live journey](media/move-triggers-between-environments.png "Move custom triggers between development or pre-production environment before testing a live journey")
-
 - **Boost your productivity with enhanced journey reminders**
-    - You can now create journeys that nudge and remind a customer to take a required action – such as completing an application/survey, filling a health check, checking out their cart and more. You can remind customers until they complete the call to action or until a certain date or time. Additionally, you can bypass certain journey steps when a customer action makes them irrelevant – for instance, if you’re welcoming/onboarding the customer to a product or service through daily messages, but they complete the onboarding before all the messages have been sent – you can skip the remaining messages by exiting the customer from that block. This simplifies not only the journey logic required to capture the whole scenario in a single journey but also makes a single block of journey actions (such as a series of reminders) easy to analyze and optimize.
+    - You can now create journeys that nudge and remind a customer to take a required action, such as completing an application/survey, filling a health check, checking out their cart, and more. You can remind customers until they complete the call to action or until a certain date or time. Additionally, you can bypass certain journey steps when a customer action makes them irrelevant. For instance, if you’re welcoming/onboarding the customer to a product or service through daily messages, but they complete the onboarding before all the messages have been sent – you can skip the remaining messages by exiting the customer from that block. This simplifies not only the journey logic required to capture the whole scenario in a single journey, but also makes a single block of journey actions (such as a series of reminders) easy to analyze and optimize.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/boost-productivity-enhanced-journey-reminders)
-    - [Docs](real-time-marketing-enhanced-journey-reminders.md) 
+    - [Docs](real-time-marketing-enhanced-journey-reminders.md)
 
-    > [!div class="mx-imgBorder"]
-    > ![Enhanced journey reminders to boost productivity](media/real-time-marketing-enhanced-journey-reminders.png "Enhanced journey reminders to boost productivity")
-
-- **Customize marketing strategies based on lead insights**
-    - You can now access lead-specific insights in real-time marketing and tailor your marketing experiences according to your leads’ behavior. Lead insights provide a holistic view of each lead's interactions with your marketing activities. This includes access to journey engagement history, encompassing past email sends, opens, clicks, form submissions, and other relevant data.
+- **•	Customize marketing strategies based on Lead insights**
+    - Access Lead-specific insights in real-time marketing and tailor your marketing experiences according to your Leads’ behavior. Lead insights provide a holistic view of each Lead's interactions with your marketing activities. This includes access to journey engagement history, encompassing past email sends, opens, clicks, form submissions, and other relevant data.
     - [Docs](real-time-marketing-analytics.md)
 
-    > [!div class="mx-imgBorder"]
-    > ![Access lead specific insights and tailor your marketing experiences](media/real-time-marketing-lead-insight.png "Access lead specific insights and tailor your marketing experiences")
-
-- **Surface the next best action to your sales team when a lead engages with Marketing**
-    - As you nurture leads and opportunities with real-time journeys, leads' signals might indicate an urgency to engage with your sales teams. With Dynamics 365 Marketing, you can now create sales activities such as tasks and phone calls directly from journeys so that leads get individualized attention when they’re most likely to engage. You can also activate a sales sequence to accelerate a deal, ensuring that sellers receive automated recommendations based on the sales playbook associated with the campaign. 
+- **Surface the next best action to your sales team when a Lead engages with Marketing**
+    - As you nurture Leads and opportunities with real-time journeys, the Leads' signals might indicate an urgency to engage with your sales teams. With Dynamics 365 Marketing, you can now create sales activities such as tasks and phone calls directly from journeys so that Leads get individualized attention when they’re most likely to engage. You can also activate a sales sequence to accelerate a deal, ensuring that sellers receive automated recommendations based on the sales playbook associated with the campaign.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/optimize-lead-management-process-engaging-sellers-right-away)
     - [Docs](real-time-marketing-optimize-lead-management.md)
-
-    > [!div class="mx-imgBorder"]
-    > ![Optimize lead management by engaging sales team](media/real-time-marketing-manage-lead-optimization.png "Optimize lead management by engaging sales team")
 
 ### Public preview
 
 - **Easily discover and use content ideas Copilot to create highly engaging emails**
     - With this enhancement you can easily start using Copilot to generate email content thanks to prefilled key points matching your selected topic, and by accessing it directly within your email flow.
-    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/generate-engaging-emails-easily-efficiently-chatting-copilot)
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/easily-create-engaging-content-using-ai-powered-content-ideas)
     - [Docs](content-ideas.md)
 
-    > [!div class="mx-imgBorder"]
-    > ![Create engaging emails using Copilot](media/real-time-marketing-copilot-content.png "Create engaging emails using Copilot")
-
 - **Understand how marketing activities contribute to defined milestones using AI**
-    - Dynamics 365 Marketing enables you to create highly personalized experiences to nudge customers toward important milestones in the buyer's journey such as completing a purchase, becoming a loyalty program member, or becoming a qualified sales opportunity. Now, you can define such milestones and measure them over time. You can then optimize your marketing mix using AI or rules-based attribution which quantifies the contribution of your real-time marketing journeys, channels and messages in driving customers to complete those milestones.
-    
-    **Note**: This feature will be gradually rolled out during the month and may have delayed availability compared to the other May releases.
+    - Dynamics 365 Marketing enables you to create highly personalized experiences to nudge customers toward important milestones in the buyer's journey such as completing a purchase, becoming a loyalty program member, or becoming a qualified sales opportunity. Now, you can define such milestones and measure them over time. You can then optimize your marketing mix using AI or rules-based attribution which quantifies the contribution of your real-time marketing journeys, channels, and messages in driving customers to complete those milestones.
+    > [!NOTE]
+    > This feature will be gradually rolled out during the month and may have delayed availability compared to the other May releases.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/understand-how-marketing-activities-contribute-defined-milestones)
     - [Docs](real-time-marketing-effectiveness.md)
-
-    > [!div class="mx-imgBorder"]
-    > ![Create personalized marketing activities using AI](media/real-time-marketing-effective-marketing-activities-using-ai.png "Create personalized marketing activities using AI")
 
 - **Match your business needs with multi-brand consent and customizable preference centers**
     - In real-time marketing, marketers can now fully customize out-of-the-box preference centers to better represent their brands and meet their business needs. Create separate preference centers per brand, allowing you to independently capture and manage consent for multiple lines of business. Keep your customers engaged by giving them control over the channels they want to connect to while ensuring that you capture the consent you need to satisfy legal and regulatory requirements.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/match-business-needs-more-granular-customizable-consent-preference-centers)
     - [Docs](compliance-overview.md)
 
-    > [!div class="mx-imgBorder"]
-    > ![Keep your customers engaged using fully customizable brand profiles and preference centers](media/real-time-marketing-customizable-preference-centers.png "Keep your customers engaged using fully customizable brand profiles and preference centers")
-
 ### Monthly enhancements
 
 - **Attribute branch supports complex conditions that can span multiple entity relationships**
-    - You can access attributes of entities related to a contact or lead, even if those entities are several hops away. For example, you can hop from the contact to the name of the account associated with that contact, making it easier to create more powerful and complex conditions.
-
-    > [!div class="mx-imgBorder"]
-    > ![Attribute branch supports complex conditions that can span multiple entity relationships](media/real-time-marketing-attributes-branch-support.jpg "Attribute branch supports complex conditions that can span multiple entity relationships")
+    - Access attributes of entities related to a Contact or Lead, even if those entities are several hops away. For example, you can hop from the contact to the name of the account associated with that contact, making it easier to create more powerful and complex conditions.
 
 - **Expanded audience insights: view text messages and push notifications engagement**
     - Now, in addition to email and form interactions, you can also access comprehensive insights for text messages, push notifications, and custom channels in real-time marketing contact and lead insights. Get a holistic view of how your audience engages with all your marketing channels, make data-driven decisions, and optimize your strategies for even better results.
 
-    > [!div class="mx-imgBorder"]
-    > ![Audience engagement with sms and push notifications](media/real-time-marketing-expanded-audience-insights-with-sms-push-features.png "Audience engagement with sms and push notifications")
-
 - **Clearly communicate dates and times in formats that match expectations of your audience**
-    - Different parts of the world use different formats for date and time, so it is critical to use the right format your audience expects to avoid confusion. We are expanding available time formats to add 12-hour formats in certain languages/countries where they officially follow 24-hour format but in practice also use 12 hour format (e.g., English (UK)). We also added recently used formats at the top. Not only does this save time, it also makes it easy to pick a single consistent format across the message.
-
-    > [!div class="mx-imgBorder"]
-    > ![Time format expansion with 12 hour formats in certain countries](media/real-time-marketing-time-format.png "Time format expansion with 12 hour formats in certain countries")
+    - Different parts of the world use different formats for date and time, so it is critical to use the right format your audience expects to avoid confusion. We are expanding available time formats to add 12-hour formats in certain languages/countries where they officially follow 24-hour format but in practice also use 12-hour format (for example, English (UK)). We also added recently used formats at the top. Not only does this save time, it also makes it easy to pick a single consistent format across the message.
+    - [Docs](real-time-marketing-predefined-dynamic-text.md#communicate-dates-and-times-in-various-formats)
 
 - **Create segments effortlessly using everyday language with the improved query assist experience**
     - The new query assist experience is designed to help marketers seamlessly switch between query assist and manual mode giving you more control over the segment creation process. We've also improved the feature ensures a more intuitive experience. With these updates, you can build segments using everyday language to target the right audience without requiring deep knowledge on the back-end data model.
     - [Docs](compliance-overview.md)
 
-    > [!div class="mx-imgBorder"]
-    > ![Improved query assist feature to simplify segment creation process](media/real-time-marketing-improved-query-assist-feature.png "Improved query assist feature to simplify segment creation process")
-
-- **Create segments using Marketing Lists and other entities that are related to contacts/leads with many:many relationships**
+- **Create segments using Marketing Lists and other entities that are related to Contacts/Leads with many:many relationships**
     - You can now create segments with data tables, such as Marketing Lists, that have N:N relationships with target entities like Leads and Contacts.
 
 ### New blogs and scenario docs

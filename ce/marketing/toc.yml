@@ -305,9 +305,11 @@
       - name: Enhance your journeys
         items:
         - name: Edit a live journey
-          href: real-time-marketing-edit-journey.md        
+          href: real-time-marketing-edit-journey.md
+        - name: Enhanced journey reminders
+          href: real-time-marketing-enhanced-journey-reminders.md
         - name: Add email CC recipients to journeys
-          href: real-time-marketing-add-cc-recipients.md         
+          href: real-time-marketing-add-cc-recipients.md
         - name: Real-time marketing journey tile reference
           href: real-time-marketing-tile-reference.md
       - name: Advanced journey capabilities
