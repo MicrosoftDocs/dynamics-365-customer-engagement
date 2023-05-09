@@ -21,7 +21,7 @@ If agents encounter the following error when they select **Resolve Case**, it in
 
 You need to make sure that your Dataverse search is configured. More information: [Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization).
 
-## I'm unable to search  by any other column apart from Subject in the Case view.
+## I can only search using a specific column in the Case view.
 
- You need to make sure that your quick find search is configured for the required search parameters. More information: [Use quick find search](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
+ You need to make sure that the Quick Find View for the Case table is configured with the required search parameters. More information: [Use quick find search](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
 
