@@ -96,8 +96,9 @@ You can manage file size limits for email file attachments by doing the followin
 
 When an agent selects **New Email** from the Timeline, you can to choose to display the email editor either as a pop-up window or in a new tab. Perform the following steps to display the email editor as a pop-up window:
 
-1. In Power Apps, select **System Settings**.
-
+1. Select  **Settings** > **Advanced Settings**.
+2. Select **System** > **Administration**. 
+3. Select **System Settings**. 
 2. In the **System Settings** display window that appears, go to the **Email** tab.
 
 3. Select **Multitask, compose, and save drafts using email pop-up windows when creating email from timeline** in the  **Enhanced email for Timeline** section, and then select **Ok**.
