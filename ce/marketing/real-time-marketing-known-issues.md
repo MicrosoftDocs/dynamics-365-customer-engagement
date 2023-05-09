@@ -20,7 +20,7 @@ As we continue to work on real-time marketing and refine the experience, we've b
 ## Analytics
 
 - In the aggregate cross-journey analytics dashboard, an extra step is needed to load the Power BI report in the Android and iPad native apps. To load the report, go to **Analytics**, then select a row, select the **Show as from** sub menu, then select **CC_Analytics_ReportingControl**.
-- Data retention is 12 months for Contact insights, Goal analytics, Channel analytics (including delivery and interaction details such as contacts impacted by delivery and interaction issues), and AI optimization analytics.
+- Data retention is 12 months for Contact and lead insights, goal analytics, channel analytics (including delivery and interaction details such as contacts impacted by delivery and interaction issues), and AI optimization analytics.
 - Some strings in the Power BI aggregate analytics dashboard aren’t localized.
 
 ## Consent
