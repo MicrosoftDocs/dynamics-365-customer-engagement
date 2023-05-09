@@ -27,7 +27,7 @@ We're excited to announce our newest updates! This article summarizes early acce
 
 | Feature area | Feature | Description | Resources | Enabled by | Availability |
 |--------------|---------|-------------|-----------|------------|--------------|
-| Sales engagement | Up next widget | The Up next widget is enhanced to show new suggestions and sequence preview. | [Documentation](understand-the-up-next-widget.md) | Enabled by default | GA |
+| Sales engagement | Up next widget | Shows new suggestions and sequence preview. | [Documentation](understand-the-up-next-widget.md) | Enabled by default | GA |
 | Lead management | Duplicate lead detection | Enable the duplicate lead detection feature for the customized main lead form. | [Documentation](enable-duplicate-detection-custom-forms.md) | Enabled by default | GA |
 | Lead management | Email validation | Enable the email validation feature for the customized main lead form. | [Documentation](enable-email-validation-custom-forms.md) | Enabled by default | Public preview |
 | Contact management | Email validation | Identifies invalid email addresses for contact records. | [Documentation](enable-email-validation.md) | Enabled by default | Public preview |
