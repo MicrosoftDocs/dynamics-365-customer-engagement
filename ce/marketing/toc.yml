@@ -358,10 +358,10 @@
       items: 
       - name: Journeys
         items:
+        - name: Move triggers between environments
+          href: move-triggers-between-environments.md
         - name: Select the audience source for real-time journeys
           href: real-time-marketing-audience-data.md
-        - name: Move custom triggers between environments
-          href: real-time-marketing-move-triggers.md
         - name: Real-time marketing link tracking mechanics
           href: real-time-marketing-link-tracking-mechanics.md
       - name: Privacy and compliance
@@ -384,10 +384,6 @@
           href: real-time-marketing-business-unit-faq.md  
     - name: Developer
       items: 
-      - name: Trigger migration
-      items:
-      - name: Move triggers between environments-ALM process for triggers
-        href: move-triggers-between-environments.md
       - name: Manually add a custom channel
         items:
         - name: Overview
