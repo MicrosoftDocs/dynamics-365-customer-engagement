@@ -140,8 +140,8 @@
         href: get-ready-email-marketing.md
       - name: Setup guides
         items:
-        - name: Dedicated vs shared IPs for email delivery
-          href: dedicated-vs-shared-ip.md
+        - name: Warm-up process for marketing senders
+          href: warmup-process-email-marketing.md
         - name: Email sending data access and privileges
           href: email-sending-data.md
         - name: Troubleshoot domain authentication errors
@@ -152,8 +152,6 @@
           href: email-bounce-categories.md
         - name: Fix a high email bounce rate
           href: fix-high-bounce-rate.md
-        - name: Warm up an IP or domain
-          href: email-warm-up.md
         - name: Public IP addresses used for sending e-mails
           href: public-ip-addresses-for-email-sending.md
         - name: Create an SPF TXT record
