@@ -21,17 +21,6 @@ Keep track of changes on the [Dynamics 365 Sales release planner](https://experi
 
 Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.microsoft.com/sales/overview/) site.
 
-## Releases of Dynamics 365 Sales
-
-Learn more about what's new or changed in recent releases in the links in the following table.
-
-| Version | Auto-update availability | Learn more |
-|---------|---------------|-------------|
-| 9.0.23043.10001 | April 2023 | [April 2023 release](#april-2023-release) |
-| 9.0.23041.10001 | April 2023 | [April 2023 release](#april-2023-release) |
-
-For earlier versions, see the archived release plans at [Release plans for Dynamics 365 and Power Platform](/dynamics365/release-plans/archived-plans).  
-
 ## April 2023 release
 
 We're excited to announce our newest updates! This article summarizes early access, public preview, and general availability features that were released in the month of April.
