@@ -52,7 +52,7 @@ Public preview features include AI-powered milestone attribution analysis, multi
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/boost-productivity-enhanced-journey-reminders)
     - [Docs](real-time-marketing-enhanced-journey-reminders.md)
 
-- **•	Customize marketing strategies based on Lead insights**
+- **Customize marketing strategies based on Lead insights**
     - Access Lead-specific insights in real-time marketing and tailor your marketing experiences according to your Leads’ behavior. Lead insights provide a holistic view of each Lead's interactions with your marketing activities. This includes access to journey engagement history, encompassing past email sends, opens, clicks, form submissions, and other relevant data.
     - [Docs](real-time-marketing-analytics.md)
 
