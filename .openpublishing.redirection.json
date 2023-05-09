@@ -2028,13 +2028,13 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/sales/msdyn_WKWDeleteGDPRData.md",
-      "redirect_url": "msdyn_WKWDeletePrivacyData",
+      "source_path": "ce/sales/developer/reference/custom-actions/msdyn_WKWDeleteGDPRData.md",
+      "redirect_url": "ce/sales/developer/reference/custom-actions/msdyn_WKWDeletePrivacyData",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/sales/dynamics-365-sales-gdpr.md",
-      "redirect_url": "dynamics-365-sales-privacy",
+      "source_path": "ce/sales/developer/reference/custom-actions/dynamics-365-sales-gdpr.md",
+      "redirect_url": "ce/sales/developer/reference/custom-actions/dynamics-365-sales-privacy",
       "redirect_document_id": "false"
     },
     {

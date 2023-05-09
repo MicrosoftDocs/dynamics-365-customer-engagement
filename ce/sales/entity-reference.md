@@ -22,5 +22,5 @@ Understand the operations you can perform for specific entities, each entity's d
 
 - [Predictive lead scoring](configure-predictive-lead-scoring.md)  
 - [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
-- [WKWDeleteGDPRData custom action](developer/reference/custom-actions/msdyn_WKWDeleteGDPRData.md)
-- [msdyn_WKWGDPRDeleteStatus custom action](developer/reference/custom-actions/msdyn_WKWGDPRDeleteStatus.md)
+- [WKWDeleteGDPRData custom action](developer/reference/custom-actions/msdyn_WKWDeletePrivacyData.md)
+- [msdyn_WKWGDPRDeleteStatus custom action](developer/reference/custom-actions/msdyn_WKWPrivacyDeleteStatus.md)
