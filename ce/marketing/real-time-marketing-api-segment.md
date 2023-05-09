@@ -161,7 +161,6 @@ The properties included in the payload are:
 - **msdynmkt_type**: An integer that represents the type of the segment. The value can be one of the following:
     - 0: Static segment
     - 1: Dynamic segment
-    - 2: Compound segment
 - **msdynmkt_source**: An integer that represents the source of the segment. The value can be one of the following:
     - 0: Manual
     - 1: Automatic
