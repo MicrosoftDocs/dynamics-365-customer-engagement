@@ -184,7 +184,7 @@ This is an API request to publish a marketing segment definition in Microsoft Dy
 
 `POST <Organization URL>/api/data/v9.0/msdynmkt_PublishSegmentDefinition`
 
-The API request is sent via HTTP POST to the API endpoint and the API method (msdynmkt_PublishSegmentDefinition) specified in the URL.
+The API request is sent via HTTP POST to the API endpoint. The API method `(msdynmkt_PublishSegmentDefinition)` is specified in the URL.
 
 ### Payload:
 
@@ -198,7 +198,7 @@ The API request is sent via HTTP POST to the API endpoint and the API method (ms
 
 The request payload contains a JSON object that includes the "SegmentId" field. You need to replace "<Segment ID>" with the actual ID of the marketing segment that you want to publish.
 
-When this request is sent to the Dynamics 365 Marketing server, it will validate the payload and publish the specified segment definition if it is valid. This will make the segment available for use in marketing activities such as customer journeys, email campaigns, and events. This API helps in automating and streamlining your marketing processes.
+When this request is sent to the Dynamics 365 Marketing server, it will validate the payload and publish the specified segment definition if it is valid. This will make the segment available for use in marketing activities such as customer journeys, email campaigns, and events.
 
 ## View members
 
@@ -206,7 +206,7 @@ This API request is used to view the members of a marketing segment in Dynamics 
 
 `POST: <Organizaiton URL>/api/data/v9.0/msdynmkt_MembersList`
 
-The API request is sent via HTTP POST to the API endpoint and the API method (msdynmkt_MembersList) specified in the URL.
+The API request is sent via HTTP POST to the API endpoint. The API method `(msdynmkt_MembersList)` is specified in the URL.
 
 ### Payload
 
