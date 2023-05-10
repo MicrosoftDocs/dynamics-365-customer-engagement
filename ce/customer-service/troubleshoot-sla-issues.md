@@ -57,6 +57,21 @@ If the number of SLAs being migrated is more than 1000, SLAs may not pass throug
 
 Skip Premigration checkup by using the following flag: use &flags=FCB.SkipPreMigrationCheckUp=true in the URL, when you select **Miscellaneous** > **ARC and SLA migration** **>  in the Customer Service admin center site map. Perform batch migration.
 
+### ServiceAnchor solution import\installation fails after onprem to online migration
+
+After on-prem to online migration, ServiceAnchor solution import\installation fails with below error.
+Message: Entity: SLAItem either has no primary field or has a logical primary field and therefore cannot be the referenced entity in an entity relationship.
+
+#### Reason 
+
+This issue is because of active layer formed on the name attribute of the slaitem entity.
+
+#### Resolution 
+
+We need to make API call as below to remove the active layer on the name attribute of slaitem entity.  It will help to resolve this issue. Below is the API call:
+https://<orgurl>/api/data/v9.1/RemoveActiveCustomizations(SolutionComponentName='Attribute',ComponentId=6FE93FC3-E9FB-4298-A3FF-4D7EDF8BAFE8)
+Note: Please replace <orgurl> with actual org url.
+
 ## Troubleshoot issues with SLA time calculation
 
 ### Warning and failure duration times are incorrect for the SLA
