@@ -204,7 +204,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Set the time after which a work item can be assigned to the agent again after he/she has declined the work item or the request has timed out|
+|Description|Set the time after which a work item can be assigned to the agent again after they have declined the work item or the request has timed out|
 |DisplayName|Assign WorkItem After Decline or Timeout|
 |Format|Duration|
 |IsValidForForm|True|
