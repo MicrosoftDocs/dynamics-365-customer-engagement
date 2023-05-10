@@ -19,7 +19,7 @@ search.audienceType:
 
 Search and view knowledge articles to help answer a customer's question or solve an issue.
 
-Knowledge base search is available in Customer Service Hub, Customer Service workspace, Omnichannel for Customer Service, and some versions of [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities). Customers can search your knowledge base on their own if your organization has provided a [self-service portal](knowledge-base-search-methods).
+Knowledge base search is available in Customer Service Hub, Customer Service workspace, Omnichannel for Customer Service, and some versions of [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities). Customers can search your knowledge base on their own if your organization has provided a [self-service portal](knowledge-base-search-methods.md).
 
 ## Prerequisites
 
