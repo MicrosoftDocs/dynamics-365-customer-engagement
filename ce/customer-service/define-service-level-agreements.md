@@ -187,7 +187,7 @@ You can create an SLA item from the Customer Service admin center or Customer Se
    2. Select **Add** to define the conditions for pausing the SLA item.
     > ![Pause settings at SLA item level.](media/csh-sla-item-pause.png "Pause settings at SLA item level")
 
-7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed. If you don't need **Warning Duration**, you can set it to null, so that SLAs don't reach the **Nearing noncompliance** status.
+7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed. If you don't need **Warning Duration**, you can set it to null so that SLAs don't reach the **Nearing noncompliance** status.
 
   > [!NOTE]
   > The failure and warning time is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
