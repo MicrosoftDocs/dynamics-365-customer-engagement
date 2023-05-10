@@ -26,7 +26,7 @@ System administrators define settings for work orders, bookings, agreements, and
 
 Several entities in Field Service use incremental numbers for distinction. Auto-numbering ensures that records get unique naming and that there are fewer gaps in the entity names because they're created when saving a record. You can configure the numbering settings for each supported entity.
 
-### Opt-in to auto-numbering
+### Opt in to auto-numbering
 
 1. In Field Service, change to the **Settings** area.
 
@@ -36,7 +36,7 @@ Several entities in Field Service use incremental numbers for distinction. Auto-
 
 1. In the dialog box, select **Opt-In**.
 
-During the initial opt-in process, creation of new records may fail. We recommend to enable the feature when there's no activity in the application. The process will take a few moments to complete.
+During the initial opt-in process, creation of new records may fail. We recommend enabling the feature when there's no activity in the application. The process will take a few moments to complete.
 
 ### Configure auto-numbering
 
