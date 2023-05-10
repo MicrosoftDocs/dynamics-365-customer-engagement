@@ -145,8 +145,6 @@ items:
       href: set-up-bookable-resource-categories.md
     - name: Characteristics
       href: set-up-characteristics.md
-    - name: Send technician arrival time and current map location
-      href: reminders-arrival-time.md
     - name: Resource pay types
       href: set-up-resource-pay-types.md
     - name: Submit and approve time-off requests
@@ -204,8 +202,6 @@ items:
         href: facility-scheduling.md
       - name: Advanced filters
         href: schedule-assistant-advanced-filters.md
-      - name: Self-scheduling for customers
-        href: scheduling-self-customers.md
       - name: Search resource availability API
         href: search-resource-availability-api.md
       - name: Schedule board
@@ -314,14 +310,18 @@ items:
     - name: Predictive work duration (Preview)
       href: analytics-predictive-work-duration.md
 
-- name: Field Service for end customers
+- name: Field Service Portal
   items: 
-    - name: Customer experience homepages
-      href: field-service-portal-homepage.md
-    - name: Self-scheduling for customers
-      href: scheduling-self-customers.md
+    - name: Overview
+      href: customer-portal-overview.md
+    - name: Create and configure the portal
+      href: create-configure-customer-portal.md
+    - name: Configure notification settings
+      href: customer-portal-notification-settings.md
     - name: Send technician arrival time and current map location
-      href: reminders-arrival-time.md
+      href: customer-portal-technician-tracking.md
+    - name: Let customers schedule service appointments
+      href: customer-portal-self-scheduling.md
 
 - name: Connected Field Service (IoT)
   items: 
