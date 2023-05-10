@@ -52,7 +52,7 @@ You can add the following customization for email validation:
 
 1. Save and publish the form.
 
-    Under the **Handlers** section, you can see the required event handler is added to the form. If the email validation feature is currently disabled, enable it. For more information, see [Enable email validation](enable-email-validation.md).
+    Under the **Handlers** section, you can see the required event handler is added to the form. Ensure that the email validation feature is enabled. For more information, see [Enable email validation](enable-email-validation.md).
 
 ### Add email control 
 
@@ -70,7 +70,7 @@ You must add the email control only to the primary email address field.
     >Verify that the **Show component on** options for **Email address (default)** are removed.
 1. Save and publish the form.  
 
-The email control is added to the email field. If the email validation feature is currently disabled, enable it. For more information, see [Enable email validation](enable-email-validation.md).
+The email control is added to the email field. Ensure that the email validation feature is enabled. For more information, see [Enable email validation](enable-email-validation.md).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
