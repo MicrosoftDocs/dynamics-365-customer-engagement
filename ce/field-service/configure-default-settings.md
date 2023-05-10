@@ -69,7 +69,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 |  Default Warehouse   |    Select the default warehouse that work order products will be taken from unless specified otherwise. For more information, go to [Create a warehouse](create-warehouse.md).   |
 | Suggest Reparenting Customer Assets | Warn users when a customer asset gets added to a work order that doesn't relate to the work order's service account. If it's set to *Yes*, the system offers to map the customer asset to the work order's service account. When set to *No*, the warning and suggestion won't show. |
 | Timestamp Frequency | Choose when the system updates the timestamp for a booking. |
-| Calculate Price | Work orders contain pricing-related fields and functions. By default, this field is set to *Yes*, which enables pricing-related fields and logic. Changing the setting to *No* removes all pricing-related fields and disables the pricing logic. So work orders won't generate invoices after completion.|
+| Calculate Price | Work orders contain pricing-related fields and functions. By default, this field is set to *Yes*, which enables pricing-related fields and logic. Changing the setting to *No* removes all pricing-related fields and disables the pricing logic, so work orders won't generate invoices after completion.|
 |Calculate Cost| Enabling work order costs adds cost fields on work order products, work order service, and summary fields on work orders. It lets you track estimated and actual costs per work order. Track costs to establish cost trends over time and review them based on work order categorizations such as trade and work order type to understand your business and where to optimize service delivery. If [Not-to-exceed is enabled](work-order-not-to-exceed.md), it's automatically added to the work orders based on not-to-exceed values in the system. Cost summaries on work orders appear in a summary card and are the sum of the costs of all work order products and services, including taxes. |
 | Show Simplified Work Order Commands | This setting influences the command bar on work order records and lists. By default, this field is set to *Yes*, which shows only the most relevant commands for work orders. The following commands will be hidden from the form: deactivate, check access, process, add to queue, queue item details, assign, share, email a link, flow, Word templates. The following commands will be hidden from the list view when no records are selected: email a link, flow, import from Excel. The following commands will be hidden from the list view when a record is selected: activate, deactivate, email a link, add to queue, flow, Word templates, Excel templates. When set to *No*, all commands are shown. |
 |Not-to-Exceed |Enables [not-to-exceed values to set an optional cost or price limit](work-order-not-to-exceed.md) for a work order.|
@@ -97,7 +97,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 Return merchandise authorization (RMA) is the return process for customers who have requested to return or exchange merchandise. For more information, go to [Process a return](process-return.md).
 
 This section won't show if you use the [new auto-numbering feature](#auto-numbering-settings) to manage record numbering.
-  
+
 |  Option  | Description |
 |-----------|-------------|
 | RMA Prefix| Select a prefix for RMAs. The system adds the prefix before the RMA number.|
@@ -113,7 +113,15 @@ This section won't show if you use the [new auto-numbering feature](#auto-number
 |-----------|---------------|
 | RTV Prefix| Select a prefix for RTVs. The system adds the prefix before the RTV number.|
 | RTV starting number |  Provide number from which the system starts the count of RTVs.  |
-  
+
+
+
+
+
+
+
+
+
 ## Agreement settings
 
 Field Service agreements allow organizations to automatically generate work orders and invoices. For more information, go to [Set up agreements](set-up-customer-agreements.md).
