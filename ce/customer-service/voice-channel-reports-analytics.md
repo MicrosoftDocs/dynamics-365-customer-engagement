@@ -1,7 +1,7 @@
 ---
 title: Voice channel historical analytics and call insights
 description: Learn about the analytics reports and call insights that are available in the voice channel in Omnichannel for Customer Service.
-ms.date: 03/29/2023
+ms.date: 04/26/2023
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -41,7 +41,7 @@ The following KPIs are displayed in the Voice dashboard.
 | Abandon rate | Percentage of conversations that are not engaged by agents.
 | Average wait time | The average time customers waited before connecting to agents. Similar to "speed to answer", but includes time waited on each session within a conversation. |
 | Average Speed to answer (sec) | The average time customers waited in the queue before connecting to an agent (the time for acceptance). |
-| Avg. CSAT <br> **Note:** Currently unavailable. | The average of customer satisfaction ratings provided by customers. Only available if customer voice is being configured as a post-conversation survey tool.   |
+| Avg. CSAT <br> **Note:** Currently unavailable. | The average of customer satisfaction ratings provided by customers.  |
 | Avg. Conversation sentiment | The average sentiment score based on the verbatim provided in customer voice survey. |
 | Avg. handle time | The average time that an agent spent on a conversation.  |
 | Transfer rate | The percentage of times a conversation was transferred from one agent to another agent. |

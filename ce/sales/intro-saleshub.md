@@ -1,7 +1,7 @@
 ---
 title: Use the Sales Hub app to access Dynamics 365 Sales features
 description: The Sales Hub app is preinstalled and comes with features to help you quickly start using sales and sales insights capabilities of Dynamics 365.
-ms.date: 11/15/2022
+ms.date: 05/04/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -25,18 +25,7 @@ We recommend you use the Sales Hub app unless your organization follows unique s
 
 ## Access the Sales Hub app
 
-1. Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select **[!INCLUDE[pn-dyn-365](../includes/pn-dyn-365.md)]**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Microsoft 365 App Launcher pane.](media/app-launcher-pane.png "Microsoft 365 App Launcher pane")  
-
-    The Dynamics 365 apps page opens.
-1. From the list published apps, select **Sales Hub**.
-
-    :::image type="content" source="media/saleshubcard.png" alt-text="The **Sales Hub** tile in the list of published apps":::  
-
-    > [!TIP]
-    > Alternatively, visit the [Apps page](https://office.com/apps) on office.com, select **Business Apps**, and then select **Sales Hub**. 
+Visit the [Apps page](https://office.com/apps) on office.com, select **Business Apps**, and then select **Sales Hub**.
 
 If you don't see the app, contact your administrator to grant you access. For more information, refer to [Grant or revoke access to the Sales Hub app](grant-access-saleshub.md).
 
