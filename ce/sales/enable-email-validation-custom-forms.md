@@ -44,6 +44,10 @@ You can add the following customization for email validation:
 1. Under the **On Load** section, select **+ Event Handler**.   
 1. On the **Configure Event** dialog box, select **+ Add library**.
 1. Add the **DataHygiene/Data/salesdatahygiene_form_notification_library.js** library and then select it from the list.  
+
+    >[!NOTE] 
+    >By default, the library that is added first to the list is always displayed on top, but this doesn't affect the function that you need to add.  
+
 1. In the **Function** name field, enter the **Mscrm.LeadHygiene.DataHygieneNotificationLibrary.emailAddressValidationFormOnLoad** value.
 1. Enable **Pass execution context as first parameter**.
 1. Select **Done**.  
@@ -52,7 +56,9 @@ You can add the following customization for email validation:
 
 1. Save and publish the form.
 
-    Under the **Handlers** section, you can see the required event handler is added to the form. Now, enable the email validation feature from the Sales Hub app. For more information, see [Enable email validation](enable-email-validation.md).
+    Under the **Handlers** section, you can see the required event handler is added to the form.
+
+Now, enable the email validation feature from the Sales Hub app. For more information, see [Enable email validation](enable-email-validation.md).
 
 ### Add email control 
 
