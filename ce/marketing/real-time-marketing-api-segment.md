@@ -1,7 +1,7 @@
 ---
 title: "Create a real-time marketing segment using the Web API (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create a real-time marketing segment using the Web API."
-ms.date: 05/09/2023
+ms.date: 05/10/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -212,7 +212,11 @@ OData-EntityId: <Organization URL>/api/data/v9.0/msdynmkt_segments(<Segment ID>)
 
 ## Publish
 
+This is an API request to publish a marketing segment definition in Microsoft Dynamics 365 Marketing.
+
 `POST <Organization URL>/api/data/v9.0/msdynmkt_PublishSegmentDefinition`
+
+The API request is sent via HTTP POST to the API endpoint and the API method (msdynmkt_PublishSegmentDefinition) specified in the URL.
 
 ### Payload:
 
@@ -222,9 +226,19 @@ OData-EntityId: <Organization URL>/api/data/v9.0/msdynmkt_segments(<Segment ID>)
 }
 ```
 
+### Description
+
+The request payload contains a JSON object that includes the "SegmentId" field. You need to replace "<Segment ID>" with the actual ID of the marketing segment that you want to publish.
+
+When this request is sent to the Dynamics 365 Marketing server, it will validate the payload and publish the specified segment definition if it is valid. This will make the segment available for use in marketing activities such as customer journeys, email campaigns, and events. This API helps in automating and streamlining your marketing processes.
+
 ## View members
 
+This API request is used to view the members of a marketing segment in Dynamics 365 Marketing.
+
 `POST: <Organizaiton URL>/api/data/v9.0/msdynmkt_MembersList`
+
+The API request is sent via HTTP POST to the API endpoint and the API method (msdynmkt_MembersList) specified in the URL.
 
 ### Payload
 
@@ -233,6 +247,14 @@ OData-EntityId: <Organization URL>/api/data/v9.0/msdynmkt_segments(<Segment ID>)
     "SegmentId: "<segment definition ID>"
 }
 ```
+
+### Description
+
+The request payload contains a JSON object with the ID of the segment definition that you want to view the members for. You need to replace <Organization URL> with the actual URL of your Dynamics 365 Marketing organization, and <segment definition ID> with the ID of the segment that you want to view members for.
+
+When the API request is received, it validates the payload and return a response containing the list of members for the specified segment definition. This API is useful to get insights into the composition of a segment and to troubleshoot any issues related to the segment membership.
+
+The response to the API request will include a JSON object containing the list of members along with their details.
 
 ### Response
 
