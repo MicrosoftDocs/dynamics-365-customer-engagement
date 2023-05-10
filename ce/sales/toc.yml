@@ -848,10 +848,6 @@
           items:
             - name: What is sales accelerator
               href: sales-accelerator-intro.md
-            - name: Create and connect sequences for yourself
-              href: create-sequence-seller.md
-            - name: Manage your sequences
-              href: manage-sequences-seller.md
             - name: Prioritize sales pipeline through work list
               href: prioritize-sales-pipeline-through-work-list.md
             - name: Customize work list card
@@ -864,6 +860,14 @@
               href: work-with-linkedin-activities.md
             - name: Personalize your sales accelerator
               href: personalize-sales-accelerator.md
+        - name: Sequences
+          items:
+            - name: Create and connect sequences for yourself
+              href: create-sequence-seller.md
+            - name: Manage your sequences
+              href: manage-sequences-seller.md
+            - name: Improve sequence efficiency with insights
+              href: sequence-insights.md
         - name: Engage with customers through text messages
           href: sms-intro.md
           items:
