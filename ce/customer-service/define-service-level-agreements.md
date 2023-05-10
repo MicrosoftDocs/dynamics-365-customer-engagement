@@ -175,9 +175,9 @@ You can create an SLA item from the Customer Service admin center or Customer Se
    - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that will be considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
    - **Business Hours**: (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
-4. In the **Applicable When** section, define the conditions  when the SLA can be applied for the entity.
+4. In the **Applicable When** section, define the conditions for when the SLA can be applied for the entity.
 
-    SLA is triggered when the applicable when condition is met throughout. If the applicable when condition isn't met after an SLA is triggered, the SLA KPI instance gets canceled. We recommend that you don't use case fields that are updated quite frequently because any change to the field value might lead to the SLA item being canceled.
+    The SLA is triggered when the applicable when condition is met throughout. If the applicable when condition isn't met after an SLA is triggered, the SLA KPI instance gets canceled. We recommend that you don't use case fields that are updated frequently because any change to the field value might lead to cancelation of the SLA item.
 
 5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
