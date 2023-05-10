@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page 
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 05/08/2023
+  ms.date: 05/10/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -85,49 +85,17 @@ additionalContent:
         text: Live chat SDK Reference
   - title: Use Customer Service
     items:
-    - title: Manage cases
+    - title: Engage with customers across channels
       links:
-      - url: /dynamics365/customer-service/customer-service-hub-user-guide-create-a-case
-        text: Create a case in Customer Service Hub
-      - url: /dynamics365/customer-service/enh-casemgmt-csw?tabs=enhancedquickcreateform%2Cenhancedfullcaseform
-        text: Enhanced case management in multisession apps
-      - url: /dynamics365/customer-service/case-grids
-        text: Manage cases with case grids
-      - url: /dynamics365/customer-service/automatically-create-update-records?tabs=customerserviceadmincenter
-        text: Use rules to automatically create or update records 
-    - title: Use AI capabilities
-      links:
-      - url: /dynamics365/customer-service/csw-view-ai-suggested-cases-knowledge-articles
-        text: View AI-suggested similar cases and knowledge articles 
-      - url: /dynamics365/customer-service/teams-use-suggested-contacts
-        text: Use suggested contacts
-      - url: /dynamics365/customer-service/cs-ai-generated-summary
-        text: Use auto-summarization for ongoing conversations
-      - url: /dynamics365/customer-service/use-ai-suggested-contacts-teams
-        text: Collaborate with AI-suggested contacts in Microsoft Teams
-    - title: Use unified routing 
-      links:
-      - url: /dynamics365/customer-service/create-workstreams?tabs=customerserviceadmincenter
-        text: Create and manage workstreams 
-      - url: /dynamics365/customer-service/queues-omnichannel?tabs=customerserviceadmincenter
-        text: Create and manage queues
-      - url: /dynamics365/customer-service/configure-work-classification
-        text: Configure work classification rulesets
-      - url: /dynamics365/customer-service/configure-assignment-rules?tabs=customerserviceadmincenter
-        text: Configure assignment methods for queues
-      - url: /dynamics365/customer-service/customer-service-hub-user-guide-case-queues-and-routing
-        text: Manage case queues and route cases
-    - title: Use chat, channels in Omnichannel for Customer Service
-      links:
-      - url: /dynamics365/customer-service/oc-introduction-agent-interface
-        text: Know the agent interface
-      - url: /dynamics365/customer-service/oc-agent-dashboard
-        text: View the agent dashboard and work items 
-      - url: /dynamics365/customer-service/oc-conversation-control
-        text: View the communication panel 
-      - url: /dynamics365/customer-service/oc-view-activity-types
-        text: View conversation and session forms, and activity types
-    - title: Enhance agent productivity 
+      - url: /dynamics365/customer-service/voice-channel-transfer-consult
+        text: Transfer calls and consult with users in the voice channel
+      - url: /dynamics365/customer-service/use-teams-chat
+        text: Leverage Microsoft Teams chat
+      - url: /power-apps/user/view-create-email?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
+        text: Use email to interact consistently with customers
+      - url: /power-apps/user/add-activities
+        text: Manage conversations and activities on the timeline
+    - title: Boost agent productivity
       links:
       - url: /dynamics365/customer-service/csw-productivity-pane
         text: Use the productivity pane to resolve customer issues
@@ -137,96 +105,29 @@ additionalContent:
         text: View the agent calendar
       - url: /dynamics365/customer-service/create-personal-quick-replies
         text: Create personal quick replies
-    - title: Use analytics and insights 
+      - url: /dynamics365/customer-service/enable-real-time-translation?tabs=customerserviceadmincenter
+        text: Enable real-time translation of conversations
+    - title:  Make data-driven decisions with analytics and insights 
       links:
       - url: /dynamics365/customer-service/configure-customer-service-analytics-insights-csh
-        text: Configure and use analytics and insights dashboards 
+        text: Configure and use analytics and insights dashboards
       - url: /dynamics365/customer-service/intro-realtime-analytics-dashboard
-        text: Use Omnichannel real-time analytics dashboards 
-      - url: /dynamics365/customer-service/manage-bookmarks
-        text: Personalize analytics 
-      - url: /dynamics365/customer-service/customize-reports
-        text: Customize analytics 
-    - title: Use email 
+        text: Use Omnichannel real-time analytics dashboards
+      - url: /dynamics365/customer-service/customer-service-analytics-insights-csh
+        text: Learn about Customer Service dashboards 
+      - url: /dynamics365/customer-service/omnichannel-analytics-insights
+        text: Leverage Omnichannel for Customer Service dashboards
+    - title: Enable intelligent self-service
       links:
-      - url: /power-apps/user/view-create-email?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
-        text: Use email to interact consistently with customers 
-      - url: /power-apps/user/email-template-create?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
-        text: Create an email template in model-driven apps 
-      - url: /power-apps/user/email-dynamic-text?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
-        text: Personalize emails with dynamic text 
-      - url: /power-apps/user/email-signature?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
-        text: Use an email signature 
-    - title: Use timeline
-      links:
-      - url: /power-apps/maker/model-driven-apps/custom-connectors-timeline-control
-        text: Use custom connectors with the timeline control 
-      - url: /power-apps/maker/model-driven-apps/set-up-timeline-control
-        text: Set up the timeline control 
-      - url: /power-apps/user/add-activities
-        text: Manage conversations and activities on the timeline
-    - title: Use knowledge management
-      links:
-      - url: /dynamics365/customer-service/set-up-knowledge-management-embedded-knowledge-search?tabs=customerserviceadmincenter
-        text: Configure and use knowledge management 
-      - url: /dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article
-        text: Create and manage knowledge articles 
-      - url: /dynamics365/customer-service/search-knowledge-articles-csh
-        text: Search and use knowledge articles
-      - url: /dynamics365/customer-service/add-search-provider
-        text: View knowledge article search results using integrated search providers 
-    - title: Use voice channel
-      links:
-      - url: /dynamics365/customer-service/voice-channel-agent-experience
-        text: Use agent dashboard and call controls 
-      - url: /dynamics365/customer-service/manage-voicemails
-        text: Manage voicemails 
-      - url: /dynamics365/customer-service/voice-channel-transfer-consult
-        text: Transfer calls and consult with users in the voice channel 
-    - title: Use Microsoft Teams for collaboration
-      links:
-      - url: /dynamics365/customer-service/use-teams-chat
-        text: Use Microsoft Teams chat 
-      - url: /dynamics365/customer-service/use-teams-meetings
-        text: Use Teams meetings 
-      - url: /dynamics365/customer-service/use-customer-support-swarming
-        text: Use customer support swarming to resolve issues
-    - title: Use service-level agreements
-      links:
-      - url: /dynamics365/customer-service/define-service-level-agreements?tabs=customerserviceadmincenter
-        text: Configure and use SLAs 
-      - url: /dynamics365/customer-service/create-customer-service-schedule-define-work-hours?tabs=customerserviceadmincenter
-        text: Manage customer service schedules for SLAs 
-      - url: /dynamics365/customer-service/export-import-solution?tabs=customerserviceadmincenter
-        text: Export and import a solution with SLAs 
-      - url: /dynamics365/customer-service/apply-slas?tabs=customerserviceadmincenter
-        text: Apply and use SLAs
-    - title: Use Community
-      links:
-      - url: /dynamics365/customer-service/community-moderator-experience
-        text: Moderate content in a community
-      - url: /dynamics365/customer-service/community-forum-setup
-        text: Create a Community forum 
+      - url: /dynamics365/customer-service/overview-bots
+        text: Resolve customer queries through automated responses
       - url: /dynamics365/customer-service/community-overview
-        text: Socialize ideas with other organizations using Community 
-    - title: Add-in solutions  
-      links: 
-      - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
-        text: Unified Service Desk
-      - url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
-        text: Channel Integration Framework
-    - title: Apps and personas
-      links:
-      - url: /dynamics365/customer-service/cs-admin-center
-        text: Use Customer Service admin center
-      - url: /dynamics365/customer-service/csw-overview?tabs=customerserviceadmincenter
-        text: Use Customer Service workspace
-      - url: /dynamics365/customer-service/customer-service-team-member
-        text: Use Customer Service Team Member 
+        text: Socialize ideas with other organizations using Community
+      - url: /dynamics365/customer-service/add-search-provider?branch=ss-3146216-cs-hub
+        text: Provide the right content and knowledge articles through integrated search
   - title: Related products
     items:
         # Card
-        
         - title: Microsoft Power Apps
           summary: Learn how to quickly build low-code apps that modernize processes and solve tough business challenges in your organization using Power Apps.
           url: /power-apps/
