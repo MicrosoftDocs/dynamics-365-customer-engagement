@@ -59,6 +59,7 @@ Sellers can view invalid email addresses on record forms, work list items, and t
 
 ## Limitations of email validation
 
+- Email validation works only for lead and contact records.
 - It checks only the primary email address in lead and contact records.
 - Leads and contacts that are older than 180 days aren't validated.
 
