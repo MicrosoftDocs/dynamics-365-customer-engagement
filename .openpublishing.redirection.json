@@ -25071,6 +25071,11 @@
       "source_path": "ce/marketing/dedicated-vs-shared-ip.md",
       "redirect_url": "/dynamics365/marketing/warmup-process-email-marketing",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-move-triggers.md",
+      "redirect_url": "/dynamics365/marketing/move-triggers-between-environments",
+      "redirect_document_id": false
     }
   ]
 }
