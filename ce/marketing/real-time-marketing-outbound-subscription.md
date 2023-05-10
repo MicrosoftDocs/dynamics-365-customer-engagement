@@ -1,7 +1,7 @@
 ---
 title: "Use outbound subscription centers in real-time journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use outbound marketing subscription centers in real-time journeys in Dynamics 365 Marketing."
-ms.date: 05/24/2022
+ms.date: 05/08/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -34,6 +34,9 @@ Before you can use subscription centers in real-time journeys, you must enable c
 
 1. Go to **Settings** > **Other settings** > **Feature switches**.
 1. Turn on the **Configurable compliance settings in email editor** feature switch.
+
+> [!NOTE]
+> If you enabled the "Multi-brand consent and customizable preference centers (preview)" feature switch, the "Configurable compliance settings" feature switch does not need to be enabled to create and leverage multiple compliance profiles.
 
 ## Set up subscription centers in real-time marketing
 

@@ -1,7 +1,7 @@
 ---
 title: Access and interpret analytics
 description: How to access and interpret real-time marketing analytics in Dynamics 365 Marketing.
-ms.date: 04/17/2023
+ms.date: 05/08/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -35,10 +35,17 @@ The following insights categories are provided:
 
 - **Overview**: View a chart of the engagement interactions and a summary of the most important KPIs for each channel for the selected contact.
 - **Email insights**: View complete details of email interactions for the selected contact, including a list of all messages sent to them, plus lists of all opens, clicks, bounces, and more. 
-- **Form insights**: See which marketing forms the contact has visited and submitted. View the content of each submission. 
+- **Form insights**: See which marketing forms the Contact has visited and submitted. View the content of each submission.
+- **Text message insights**: View complete details of text message interactions for the selected contact, including a list of all messages sent to them, plus lists of all clicks, replies, and more.
+- **Push notification insights**: See complete details of push notification interactions for the selected Contact, including a list of all messages sent to them and more.
+- **Custom channels insights**: View complete details of custom channel interactions for the selected Contact, including messages sent, clicked and more.
  
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of contact insights.](media/real-time-marketing-contact-insights.png "Screenshot of contact insights")
+    > ![Screenshot of custom channel contact insights.](media/real-time-marketing-custom-channel-contact-insights.png "Screenshot of custom channel contact insights")
+
+### Lead insights
+
+Just like with Contact insights, you can access a complete overview of your selected Lead's interactions with your marketing initiatives. The insights categories displayed for a Lead are the same as previously described in [Contact insights](#contact-insights). To view Lead insights, go to **Real-time marketing** > **Audience** > **Leads**, select a Lead record, and then open its Insights tab.
 
 ### Journey operational analytics
 
@@ -67,7 +74,7 @@ Select any journey component to view near real-time operational analytics in the
     > ![AI optimization screenshot.](media/real-time-marketing-ai-optimization.png "AI optimization screenshot")
 
 > [!NOTE]
-> Data retention is 12 months for Contact insights, Goal analytics, Channel analytics (including delivery and interaction details), and AI optimization analytics.
+> Data retention is 12 months for Contact insights, Lead insights, goal analytics, channel analytics (including delivery and interaction details), and AI optimization analytics.
 
 ### Aggregate cross-journey analytics
 

@@ -1,6 +1,6 @@
 ---
-title: "Manage user compliance settings (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to manage real-time marketing compliance settings in Dynamics 365 Marketing."
+title: Manage user compliance settings in real-time marketing
+description: Learn how to manage real-time marketing compliance settings in Dynamics 365 Marketing.
 ms.date: 10/04/2021
 ms.custom: 
   - dyn365-marketing
@@ -13,7 +13,7 @@ search.audienceType:
   - enduser
 ---
 
-# Manage user compliance settings
+# Manage user compliance settings in real-time marketing
 
 Managing compliance settings is key to ensuring your business processes conform with privacy laws such as the GDPR. This article gives an overview of administrator compliance setup, preference page setup, and outbound consent settings.
 
