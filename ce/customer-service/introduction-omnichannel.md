@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about Omnichannel for Customer Service, its features, and how they can be configured in your organization."
-ms.date: 12/15/2022
+ms.date: 05/08/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -48,7 +48,7 @@ Using Microsoft Teams as an engagement channel for support of internal functions
 
 ### Social channels
 
-Social channels such as Facebook, LINE, Twitter, and WeChat give you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to popular social channels, you can create your own custom messaging channel. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md).
+Social channels such as Facebook, LINE, and WeChat give you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to popular social channels, you can create your own custom messaging channel. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md).
 
 ### Inbox view
 

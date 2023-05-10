@@ -24528,6 +24528,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/march-2023-whatsnew.md",
+      "redirect_url": "whats-new",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/oc-search-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
       "redirect_document_id": "false"
@@ -24690,22 +24695,22 @@
     {
       "source_path": "ce/field-service/universal-resource-scheduling.md",
       "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
-      "redirect_document_id": "false"      
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/scheduling-roles-personas.md",
       "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
-      "redirect_document_id": "false"      
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/scheduling-capabilities.md",
       "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
-      "redirect_document_id": "false"      
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/5-stages-scheduling-adoption.md",
       "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
-      "redirect_document_id": "false"      
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/cfs-iot-central-alerts.md",
@@ -25055,6 +25060,16 @@
     {
       "source_path": "ce/customer-service/configure-twitter-channel.md",
       "redirect_url": "/dynamics365/customer-service/channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-warm-up.md",
+      "redirect_url": "/dynamics365/marketing/warmup-process-email-marketing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/dedicated-vs-shared-ip.md",
+      "redirect_url": "/dynamics365/marketing/warmup-process-email-marketing",
       "redirect_document_id": false
     }
   ]
