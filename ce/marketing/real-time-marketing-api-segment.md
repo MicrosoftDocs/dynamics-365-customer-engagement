@@ -98,7 +98,7 @@ Next, you need to create a new segment entity record. When you send the segment 
 
 `POST <Organization URL>/api/data/v9.0/msdynmkt_segments`
 
-The URL for the POST request is <Organization URL>/api/data/v9.0/msdynmkt_segments. The <Organization URL> is the base URL for the Dynamics 365 Marketing organization where the segment entity will be created.
+The URL for the POST request is `<Organization URL>/api/data/v9.0/msdynmkt_segments`. The `<Organization URL>` is the base URL for the Dynamics 365 Marketing organization where the segment entity will be created.
 
 ### Payload
 
@@ -196,7 +196,7 @@ The API request is sent via HTTP POST to the API endpoint. The API method `(msdy
 
 ### Description
 
-The request payload contains a JSON object that includes the "SegmentId" field. You need to replace "<Segment ID>" with the actual ID of the marketing segment that you want to publish.
+The request payload contains a JSON object that includes the "SegmentId" field. You need to replace `<Segment ID>` with the actual ID of the marketing segment that you want to publish.
 
 When this request is sent to the Dynamics 365 Marketing server, it will validate the payload and publish the specified segment definition if it is valid. This will make the segment available for use in marketing activities such as customer journeys, email campaigns, and events.
 
@@ -218,7 +218,7 @@ The API request is sent via HTTP POST to the API endpoint. The API method `(msdy
 
 ### Description
 
-The request payload contains a JSON object with the ID of the segment definition that you want to view the members for. You need to replace <Organization URL> with the actual URL of your Dynamics 365 Marketing organization, and <segment definition ID> with the ID of the segment that you want to view members for.
+The request payload contains a JSON object with the ID of the segment definition that you want to view the members for. You need to replace `<Organization URL>` with the actual URL of your Dynamics 365 Marketing organization, and `<segment definition ID>` with the ID of the segment that you want to view members for.
 
 When the API request is received, it validates the payload and return a response containing the list of members for the specified segment definition. This API is useful to get insights into the composition of a segment and to troubleshoot any issues related to the segment membership.
 
