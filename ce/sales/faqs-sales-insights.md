@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about Sales Premium
 description: Find answers to frequently asked questions about the Sales Insights add-in for Dynamics 365 Sales.
-ms.date: 04/24/2023
+ms.date: 05/11/2023
 ms.custom: bap-template
 ms.topic: faq
 author: udaykirang
@@ -446,7 +446,7 @@ The following administrators can opt out users at different levels:
 |Manager Coaching tools     |   No      |   Yes      |
 | **Admin configurations**   |    |
 |Storage of call recording and conversation intelligence insights    |   Teams storage only      |   Option of Microsoft provided storage, or your own Azure storage       |
-|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Viva Sales](/viva/sales/supported-languages)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faqs-sales-insights.md#what-languages-are-supported-now)       |
+|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Viva Sales](/viva/sales/supported-languages)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faqs-sales-insights.md#what-languages-are-supported)       |
 |Supported languages for UI      |   User interface languages listed in this article: [Supported languages in Viva Sales](/viva/sales/supported-languages)|   All languages supported in Dynamics 365 Sales       |
 
 

@@ -1,7 +1,7 @@
 ---
 title: Edit and retrain a lead scoring model
 description: Learn how to edit and retrain a predictive lead scoring model in Dynamics 365 Sales when its prediction accuracy doesn't meet your expectations. 
-ms.date: 05/10/2023
+ms.date: 05/11/2023
 ms.custom: bap-template
 ms.topic: how-to
 author: lavanyakr01
@@ -120,7 +120,7 @@ You can retrain a model manually in the following cases:
 - You want to edit the model for better accuracy and retrain it.
 - You've turned off **Retrain automatically**.
 
-In both cases, you have to [edit the model](#edit-the-model) to trigger manual retraining.  
+In both cases, you have to [edit the model](#edit-a-model) to trigger manual retraining.  
 
 
 

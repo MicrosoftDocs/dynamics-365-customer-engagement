@@ -87,7 +87,7 @@ For more information about the lead score, select the **About** tab. The **About
 ### See also
 
 [Configure predictive lead scoring](configure-predictive-lead-scoring.md)  
-[Predictive lead/opportunity scoring FAQs](faqs-sales-insights.md#predictive-leadopportunity-scoring)
+[Predictive lead and opportunity scoring](faqs-sales-insights.md#predictive-lead-and-opportunity-scoring)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
