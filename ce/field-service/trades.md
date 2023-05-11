@@ -57,7 +57,7 @@ Depending on the configuration of trade coverages, new work orders will check if
 If trade coverage is set to not cover a trade, a warning will show on the work order. However, you can still save the work order. If no trade coverage is defined, no warnings will show.
 The validation interprets service accounts and hierarchies in functional locations.
 
-:::image type="content" source="media/trades-work-order-validated.png" alt-text="Screenshot fo a work order record with a callout on the system message about trade coverage validation.":::
+:::image type="content" source="media/trades-work-order-validated.png" alt-text="Screenshot of a work order record with a callout on the system message about trade coverage validation.":::
 
 > [!NOTE]
 > If no trade coverage is defined for a trade, the system assumes that the trade is covered for all parameters. Work order won’t show any warnings if trade coverage isn’t defined.
