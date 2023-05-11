@@ -60,7 +60,7 @@ Legend:
 
 In forms, the Lead score widget displays the top positive and negative reasons that influence the score. These reasons come from the lead attributes and attributes from related entities. The reasons help you analyze and work on the lead to improve its score and convert it to a possible opportunity. The following image shows a typical **Lead score** widget.
 
-:::image type="content" source="media/predictive-lead-scoring-widget.png" alt-text="Screenshot of the predictive Lead score widget.":::
+:::image type="content" source="media/predictive-lead-scoring-widget-annotated.png" alt-text="Screenshot of the predictive Lead score widget.":::
 
 Legend:
 

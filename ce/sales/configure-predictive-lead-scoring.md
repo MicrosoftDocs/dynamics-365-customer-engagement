@@ -16,7 +16,7 @@ For example, say you have two leads, Lead A and Lead B, in your pipeline. The le
 
 The following image shows an example of a lead scoring widget:
 
-:::image type="content" source="media/predictive-lead-scoring-widget.png" alt-text="Screenshot of a predictive lead score widget.":::
+:::image type="content" source="media/predictive-lead-scoring-widget-plain.png" alt-text="Screenshot of a predictive lead score widget.":::
 
 Historical data collection begins when you create a scoring model. Historical data is stored in the data lake for analysis. If your Dynamics 365 Sales subscription expires or your org is deleted, the historical data is deleted after 30 days.
 
