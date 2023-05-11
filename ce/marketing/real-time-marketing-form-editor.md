@@ -1,7 +1,7 @@
 ---
-title: Create and manage real-time marketing forms
-description: Learn how to use create and manage forms in Dynamics 365 Marketing.
-ms.date: 05/08/2023
+title: Overview of real-time marketing forms
+description: Overview of real-time marketing forms in Dynamics 365 Marketing.
+ms.date: 05/11/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -13,7 +13,7 @@ search.audienceType:
   - enduser
 ---
 
-# Create and manage forms in real-time marketing
+# Overview of real-time marketing forms
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5dqbE]
 
@@ -113,6 +113,7 @@ Adding the Commercial communications and Tracking consent elements creates Conta
 
 1. Set up a "thank you" email for web page visitors who submitted the form. You can create a new journey using the *Marketing Form Submitted* trigger, which is executed every time your form is submitted. Learn more about creating a [trigger-based journey](real-time-marketing-trigger-based-journey.md).
 
+<!--
 ## Manage forms
 
 ### Publish your form
@@ -325,6 +326,8 @@ This feature uploads a page with form on CDN. If the operation fails, try to run
 ### Form editor removed my custom JavaScript or other custom code from the HTML body
 
 The form editor can remove unknown code from the body. [Learn more](#add-custom-javascript-to-your-form) about how to customize your form using JavaScript.
+
+-->
 
 ## Comparison of real-time and outbound marketing forms
 
