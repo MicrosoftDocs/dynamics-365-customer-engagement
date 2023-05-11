@@ -5,17 +5,17 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 05/09/2023
+ms.date: 05/11/2023
 ms.custom: bap-template
 ---
 
 # Model existing tables as skills
 
-Instead of [entering skills](setup-skills-assign-agents.md) from scratch to use with skill-based routing, model skills on your existing data to save time and effort. The following examples illustrate two common scenarios.
+Organizations can use existing data tables and model them as skills to perform skill-based routing. With this approach, you can avoid recreating data definitions as skills in Dynamics 365, and you won't need to write classification rules to stamp skills on the incoming work items. By modeling existing tables as skills, managing data becomes easier.  The following examples illustrate two common scenarios.
 
 - **Example 1**: Use an existing system table to model a skill
 
-   A customer calls a company's support line for help with a product. An agent creates a case in Dynamics 365 Customer Service. The case record includes the customer's product name and product type. The relationship between product name and product type is already established in the system. Agents are trained to troubleshoot issues with the company's products&mdash;that is, they're "skilled" on those product types. Therefore, the company can model "Product Type" in the Cases table as a skill and assign product types as skills to its agents.
+   A customer calls a company's support line for help with a product. An agent creates a case in Dynamics 365 Customer Service. The case is created with “Product” as one of the fields. The relationship between product name and product type is already established in the system. Agents are trained to troubleshoot issues with the company's products&mdash;that is, they're "skilled" on the product. Therefore, the company can model "Product" in the Cases table as a skill and assign product types as skills to its agents.
 
 - **Example 2**: Use an existing custom table to model a skill
 
@@ -23,7 +23,7 @@ Instead of [entering skills](setup-skills-assign-agents.md) from scratch to use 
 
 ## How modeling tables as skills differs from traditional skill-based routing
 
-To use traditional skill-based routing, you would:
+Say you have multiple product categories and attributes already configured in your system, such as all your cases populated with "Product" and "Customer" information. To use traditional skill-based routing, you would:
 
 - Enter all your products and customers as skills.
 - Assign those skills to agents.
@@ -35,7 +35,7 @@ Whenever you added a new product or customer, you'd have to:
 - Assign the new skill to agents.
 - Update your classification rules.
 
-But Customer Service already stores information about the customers you serve and the products you support. Traditional skill-based routing results in duplicated data and effort because you're creating skills from product and customer data you've already entered.
+Traditional skill-based routing results in duplicated data and effort because you're creating skills from product and customer data you've already entered.
 
 However, if you model the "Product" and "Customer" columns in your tables as skills, you eliminate duplication of both data and effort&mdash;and you don't need to write classification rules.
 
@@ -68,7 +68,7 @@ In this example, we model a skill on data in the **Products** table.
 
 ### Add the column to the Skill Main form
 
-1. In the left navigation pane, select **Tables**, and then select the **Characteristic** table.
+1. In Power Apps, in the left navigation pane, select **Tables**, and then select the **Characteristic** table.
 1. Under **Data experiences**, select **Forms**, and then select the **Skill Main Form**.
 1. Drag the new column from the list of table columns in the left panel to the form.
 
@@ -78,7 +78,7 @@ In this example, we model a skill on data in the **Products** table.
 
 ### Assign a value to the skill
 
-1. Open the Customer Service admin center. Under **Customer Support**, select **User management**.
+1. Open Customer Service admin center. Under **Customer Support**, select **User management**.
 1. To the right of **Skills**, select **Manage** to open the **Active Characteristics** view.
 1. Select **New**.
 1. Enter a name, and optionally a description, for the new skill.
