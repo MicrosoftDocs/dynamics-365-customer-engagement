@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms-service: dynamics-365
 ms.topic: conceptual
-ms.date: 04/28/2023
+ms.date: 05/11/2023
 ms.custom: bap-template
 ---
 
@@ -99,10 +99,9 @@ The Customer Service workspace legacy layout is deprecated as of April 2023, and
 
 ## Intraday insights for Omnichannel for customer service to be deprecated
 
-The [intraday insights for Omnichannel for Customer Service](intro-intraday-insights-dashboard.md) will be deprecated as of May 1, 2023. After the app is deprecated, support will be available until October 31, 2023. We won't release any new functionalities for intraday insights. 
+The [Omnichannel intraday insights reports](intro-intraday-insights-dashboard.md) will be deprecated as of May 1, 2023. After intraday insights is deprecated, support will be available until October 31, 2023. We won't release any new functionalities for intraday insights.
 
-Effective April 30, 2024, intraday insights for Omnichannel for Customer Service will no longer be available for customers.
-
+Effective April 30, 2024, Omnichannel intraday insights reports will no longer be available for existing organizations. Reports won’t be available for new organizations or tenants onboarded after May 01, 2023, and for organizations that haven’t used the reports in the last 30 days. To enable these reports, raise a ticket with [Microsoft Support](/admin.powerplatform.microsoft.com/support).
 
 ### See also
 
