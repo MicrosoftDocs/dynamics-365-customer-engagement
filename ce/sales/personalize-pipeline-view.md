@@ -1,7 +1,7 @@
 ---
 title: Personalize the opportunity pipeline view
 description: Personalize the pipeline view to see what you want to see and organize opportunities in a way that makes sense to you.
-ms.date: 02/06/2023
+ms.date: 05/11/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,9 +10,7 @@ ms.custom: bap-template
 
 # Personalize the opportunity pipeline view
 
-[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
-
-Personalize the pipeline view to organize opportunities in a way that makes sense to you and makes it easy to update information on the fly, add notes and tasks, and more:
+Personalize the pipeline view to organize opportunities in a way that makes sense to you and to make it easy to update information on the fly, add notes and tasks, and more:
 
 - Add, remove, rearrange, and sort columns in the editable grid.
 - Apply filters to view records that are important to you.

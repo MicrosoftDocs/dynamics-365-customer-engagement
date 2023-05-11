@@ -17,19 +17,25 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.89.34](/dynamics365/field-service/version-history#888934)  | TBD | 04/28/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.89.38](/dynamics365/field-service/version-history#888938)  | TBD | 05/05/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.88.56](/dynamics365/field-service/version-history#888856)  |  [8.8.89.38](/dynamics365/field-service/version-history#888938) | 04/28/2023 |
-| | *USG* | [8.8.89.38](/dynamics365/field-service/version-history#888938)  | TBD | 05/05/2023 |
-|**Station 4** |*Europe* |[8.8.88.56](/dynamics365/field-service/version-history#888856)  | [8.8.89.38](/dynamics365/field-service/version-history#888938) | 05/05/2023 |
+|**Station 1** |  *First Release*| [8.8.91.36](/dynamics365/field-service/version-history#889136)  | TBD | 05/12/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.91.36](/dynamics365/field-service/version-history#889136)  | TBD | 05/19/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.89.38](/dynamics365/field-service/version-history#888938)  | [8.8.91.36](/dynamics365/field-service/version-history#889136) | 05/12/2023 |
+| | *USG* |  [8.8.91.36](/dynamics365/field-service/version-history#889136)  | TBD | 05/19/2023 |
+|**Station 4** |*Europe* |[8.8.89.38](/dynamics365/field-service/version-history#888938)  | [8.8.91.36](/dynamics365/field-service/version-history#889136) | 05/12/2023 |
 |**Station 5** |  *North America*|[8.8.88.62](/dynamics365/field-service/version-history#888862)  | [8.8.89.38](/dynamics365/field-service/version-history#888938)  | 05/12/2023 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.62](/dynamics365/field-service/version-history#888862) | 04/28/2023 |
-| | *Dedicated Scale Groups* |    [8.8.84.16](/dynamics365/field-service/version-history#888416)  | [8.8.88.62](/dynamics365/field-service/version-history#888862) | 04/28/2023 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.88.62](/dynamics365/field-service/version-history#888862)  | [8.8.89.38](/dynamics365/field-service/version-history#888938)  | 05/12/2023 |
+| | *Dedicated Scale Groups* |[8.8.88.62](/dynamics365/field-service/version-history#888862)  | [8.8.89.38](/dynamics365/field-service/version-history#888938)  | 05/19/2023 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.91.36
+(Includes Universal Resource Scheduling version [3.12.104.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210414) and Resource Scheduling controls version 1.2.44.231111).
+
+- Improved performance of booking creation.
+- Dynamics 365 Field Service Mobile: Updated solution package to ship standard forms for msdyn_bookableresourcebookingquicknote.
 
 ## 8.8.89.38
 This release is a hotfix on Field Service version [8.8.89.34](/dynamics365/field-service/version-history#888934).

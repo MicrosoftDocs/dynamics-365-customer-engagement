@@ -1,7 +1,7 @@
 ---
-title: "Create and manage real-time marketing forms | Microsoft Docs"
-description: "Learn how to use create and manage forms in Dynamics 365 Marketing."
-ms.date: 04/04/2023
+title: Create and manage real-time marketing forms
+description: Learn how to use create and manage forms in Dynamics 365 Marketing.
+ms.date: 05/08/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -95,8 +95,7 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     > [!div class="mx-imgBorder"]
     > ![Add consent element to the form.](media/real-time-marketing-form-consent-element.png)
 
-    > [!NOTE]
-    > The *commercial communication* consent purpose used by the **Consent element** isn't linked to the *Do not bulk email* attribute of the Contact.
+Adding the Commercial communications and Tracking consent elements creates Contact point consent records for the chosen channels, email, and text. In addition, these fields will update the Contact's Bulk email and Tracking consent values based on the preferences submitted as a part of this form.
 
 1. Now it's time to preview your for to check the responsiveness. To open the form preview, select the **Preview and test** tab. You can select various platforms to check how the form renders on a mobile device or a tablet.
 

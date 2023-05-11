@@ -5,25 +5,15 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/01/2023
+ms.date: 05/02/2023
 ms.custom: bap-template
 ---
 
-# Troubleshoot issues with integrated search providers (preview)
+# Troubleshoot issues with integrated search providers
 
 The article describes the troubleshooting steps to diagnose and fix issues with integrated search providers.
 
-## Data doesn't get updated on the Insights tab for integrated search providers (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+## Data doesn't get updated on the Insights tab for integrated search providers
 
 ## Symptoms
 
@@ -40,4 +30,4 @@ Perform the following troubleshooting steps to diagnose and fix the issue:
 
 If the issue persists, raise a Microsoft Support ticket.
 
-For detailed information on managing a search provider, go to: [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview).
+For detailed information on managing a search provider, go to: [Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers).

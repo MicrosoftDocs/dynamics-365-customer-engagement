@@ -5,15 +5,15 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 03/07/2023
+ms.date: 05/11/2023
 ms.custom: bap-template 
 ---
 
 # Configure the opportunity pipeline view
 
-[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
+The opportunity pipeline view (formerly known as deal manager) helps your sellers visualize, prioritize, and manage the opportunities in their pipeline. More information: [Use the opportunity pipeline view](use-opportunity-pipeline-view.md)
 
-The opportunity pipeline view in Dynamics 365 Sales, formerly known as deal manager, helps your sellers [visualize, prioritize, and manage the opportunities in their pipeline](use-opportunity-pipeline-view.md). If you previously configured the deal manager workspace, learn about the [differences between the opportunity pipeline view and the deal manager workspace](faq-sales.yml#are-there-any-differences-between-the-opportunity-pipeline-view-and-the-deal-manager-workspace).
+If you previously configured the deal manager workspace, learn about the [differences between the opportunity pipeline view and the deal manager workspace](faq-sales.yml#are-there-any-differences-between-the-opportunity-pipeline-view-and-the-deal-manager-workspace).
 
 ## License and role requirements
 
