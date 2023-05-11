@@ -16,10 +16,9 @@ ms.custom: bap-template
 You can configure Omnichannel for Customer Service to send automated messages through chat, SMS, Microsoft Teams, or social channels. The **Automated messages** tab in each channel instance enables you to create channel-specific and locale-specific text. You can customize, deactivate, and activate customer and agent-facing messages at the channel level.
 As an administrator, you can also overwrite or deactivate the preconfigured, out-of-the-box automated messages for any channel instance. The preconfigured automated message triggers are listed in [this section](#preconfigured-automated-message-triggers).
 
-
 ## Display a list of all automated messages
 
-You can view a list of all agent and customer-facing automated messages in your Omnichannel for Customer Service environment. 
+You can view a list of all agent and customer-facing automated messages in your Omnichannel for Customer Service environment.
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -63,7 +62,7 @@ You can customize messages across instances within a channel. For example, you c
 
 You can customize automated messages at the channel instance level. For example, you can apply a change to a specific Facebook account or a specific SMS number. If you don't create customized automated messages at the channel instance level, each instance will inherit the channel-level settings. If you create customized automated messages at the channel instance level, then the channel-level settings are overwritten.
 
-### Add custom automated messages in Customer Service admin center or Omnichannel admin center
+### Add custom automated messages
 
 Do the following for the channel in which you want to create custom automated messages in the Customer Service admin center or Omnichannel admin center app:
 
@@ -93,7 +92,7 @@ Do the following for the channel in which you want to create custom automated me
 | Consult session ended  | Message displayed to the customer when consulted agent ends the session | When the consulted agent closes the session. |
 | Customer is next in line  |   Message displayed when the customer is next in line in the queue  |  When customer is next in line in the queue. |
 | Customer's position in queue |  Message displayed when the customer is waiting in queue at the second position or beyond | When customer is waiting in queue at the second position or beyond. |
-| Customer disconnected from conversation | Message displayed to the agent when the customer gets disconnected | When the customer gets disconnected due to browser tab closure, browser closure, or network issue.  |
+| Customer disconnected from conversation | Message displayed to the agent when the customer gets disconnected | When customer explicitly closes the browser tab or gets disconnected because of network issue.  |
 | Holiday message to customer | Message displayed to the customer on holidays | When the customer initiates a conversation on holidays set up for the Live Chat, channel, or queue.  |
 | Out of operating hour message to customer | Message displayed to the customer outside of the business hours  | When customer initiates a conversation outside of business hours set up for the Live Chat, channel, or queue. |
 | Session ended   | Message displayed to the customer when the agent ends the conversation and closes the session| When the agent ends the conversation and closes the session. |
