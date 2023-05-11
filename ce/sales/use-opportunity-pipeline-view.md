@@ -32,7 +32,7 @@ Watch this short video to learn how the opportunity pipeline view helps sellers 
 
 In the Sales Hub navigation panel, select **Opportunities**. If you don't see the opportunity pipeline view, select **Show As**, and then select **Pipeline view**.
 
-:::image type="content" source="media/opportunity-pipeline-view.png" alt-text="Screenshot of the opportunity pipeline view with its components highlighted and numbered." lightbox="media/opportunity-pipeline-view.png":::<!-- EDITOR'S NOTE: Please revise the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main).-->
+:::image type="content" source="media/opportunity-pipeline-view.png" alt-text="Screenshot of the opportunity pipeline view with its components highlighted and numbered." lightbox="media/opportunity-pipeline-view.png":::
 
 Legend:
 
