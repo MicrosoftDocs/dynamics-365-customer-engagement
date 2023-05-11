@@ -114,14 +114,6 @@ This section won't show if you use the [new auto-numbering feature](#auto-number
 | RTV Prefix| Select a prefix for RTVs. The system adds the prefix before the RTV number.|
 | RTV starting number |  Provide number from which the system starts the count of RTVs.  |
 
-
-
-
-
-
-
-
-
 ## Agreement settings
 
 Field Service agreements allow organizations to automatically generate work orders and invoices. For more information, go to [Set up agreements](set-up-customer-agreements.md).
@@ -168,7 +160,8 @@ This section won't show if you use the [new auto-numbering feature](#auto-number
   
 ## Intelligence settings
 
-Predictive work duration lets dispatchers predict the duration bookings. For more information, go to [Predictive work duration and resource proficiency suggestions](analytics-predictive-work-duration.md).
+Predictive work duration lets dispatchers predict the duration of bookings. For more information, go to [Predictive work duration and resource proficiency suggestions](analytics-predictive-work-duration.md).
+
 Incident type suggestions help administrators manage work order templates. For more information, go to [Use AI to get Incident Type suggestions](configure-incident-types.md#use-ai-to-get-incident-type-suggestions).
 
 |  Option  |  Description   |  
@@ -179,7 +172,7 @@ Incident type suggestions help administrators manage work order templates. For m
 
 ## Field Service SLA Configuration settings
 
-Use this tab to manage Service level agreements (SLAs) for work order. For more information, go to [Service level agreements (SLAs) for work orders](sla-work-orders.md).
+Use this tab to manage service level agreements (SLAs) for work orders. For more information, go to [Service level agreements (SLAs) for work orders](sla-work-orders.md).
 
 ## Time Entry settings
 
@@ -188,7 +181,7 @@ Time entries help track the time that technicians spend on various stages of a w
 |  Option  |  Description  |  
 |-------------|--------------|  
 | Time Entry Generation Strategy | Enable the system to automatically generate time entries based on booking timestamps. If the setting is empty or set to *Manual*, the system expects manual time entries. Regardless of the setting, you can always create time entries manually.|
-|Time Cost Actuals Source| Choose if cost actuals generate based on booking journals or time entries when the time entry is marked as approved. If this setting is empty, the system generates time and cost focused actuals from booking journals. Actuals are generated when a work order is set to *Closed - Posted*.  |
+|Time Cost Actuals Source| Choose if cost actuals generate based on booking journals or time entries when the time entry is marked as approved. If this setting is empty, the system generates time and cost-focused actuals from booking journals. Actuals are generated when a work order is set to *Closed - Posted*.  |
 
 ## Remote Assist settings
 
