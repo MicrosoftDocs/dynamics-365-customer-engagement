@@ -1,7 +1,7 @@
 ---
 title: "Manage text message conversations"
 description: "Manage customer conversations through incoming and outgoing text messages for your sales outreach."
-ms.date: 02/10/2023
+ms.date: 05/12/2023
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
@@ -99,6 +99,10 @@ The following image is an example of the conversation pane.
 2. **Manage templates**: Choose templates to send personalized messages to customers. Also, you can choose to create templates if any of the existing templates don't meet your requirements. More information: [Personalize text messages through templates](create-text-message-templates.md)  
 
 3. **Choose phone number**: If multiple phone numbers are assigned to you or your team, you can choose a number from which you want to send and receive the message. More information: [Set up the SMS provider in Dynamics 365 Sales](configure-sms-provider.md#set-up-the-sms-provider-in-dynamics-365-sales) 
+
+>[!NOTE]
+>- Delivery report of the text message is displayed below the message. The delivery report is displayed only if the SMS provider supports it. More information: [Configure SMS provider](configure-sms-provider.md)
+>- If the delivery of the message fails, an information icon is displayed next to the message. Hover over the icon to view the reason for the failure. Take appropriate action to resolve the failure. For example, if the message is sent to an invalid number, the reason for the failure is displayed as **InvalidRecipientPhoneNumber**. To resolve the failure, ensure that the number is valid and is in the international telephone numbering plan (E.164 format). 
 
 ### See also
 
