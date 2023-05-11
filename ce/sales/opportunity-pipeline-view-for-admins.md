@@ -22,9 +22,15 @@ If you previously configured the deal manager workspace, learn about the [differ
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
+## Video: Opportunity pipeline view
+
+Watch this short video to know how the opportunity pipeline view helps sellers be more productive and efficient.  
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWONpe]
+
 ## Set the pipeline view as the default opportunities view
 
-The **Read-only Grid view** is the default view for opportunities. You can set the **Opportunities pipeline view** as the default instead, so sellers don't have to switch to it each time they view their opportunities.  
+The **Read-only Grid view** is the default view for opportunities. You can set the **Opportunities pipeline view** as the default instead, so sellers don't have to switch to it each time they access their opportunities list.
 
 1. In the Sales Hub navigation panel, select **Settings** > **Advanced Settings**.
 1. In the **Settings** menu, select **Customizations** > **Customize the system**.
@@ -59,7 +65,7 @@ The charts in the pipeline view help sellers visualize their pipeline. You can c
     - **Size**  
         Select a numerical field to indicate the size of the bubble.
     - **Sort legend**  
-        Select how to sort the chart legend.
+        Select how to sort the chart legend. Legends indicate the color used for each segment. For example, if you select **Opportunity grade** as the segment, the legends will be sorted based on the chronological order of the grades.
     - **Tooltips**  
         Select the details that you want users to see displayed as tooltips when they hover over a bubble.  
 
@@ -84,7 +90,7 @@ The charts in the pipeline view help sellers visualize their pipeline. You can c
     - **Aggregation**  
         Select the aggregate function to use for the **Values** field. This field determines the height of the bar. The aggregate value is displayed when you hover over a segment in the funnel chart.
     - **Sort legend**  
-        Specify how to sort the segments.
+        Specify how to sort the segments. For example, selecting Finish to start for a funnel chart segmented by pipeline phase will display the funnel from the last phase to first phase, that is from Close to Qualify.
 
 1. Save the changes and select **Publish**.
 1. [Open the opportunity pipeline view](use-opportunity-pipeline-view.md#open-the-opportunity-pipeline-view) to verify the changes.

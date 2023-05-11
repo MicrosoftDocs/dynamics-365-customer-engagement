@@ -38,7 +38,7 @@ The opportunity pipeline view lists important metrics related to the sales pipel
 
    In the **Edit metrics** side panel, you can create, update, remove, or delete a metric.
 
-    :::image type="content" source="media/deal-manager-editmetrics-small.png" alt-text="Screenshot illustrating the Edit metrics option in deal manager and the edit metrics side panel with the Create a metric option and the list of metrics." lightbox="media/deal-manager-editmetrics.png":::<!-- EDITOR'S NOTE: The file name and alt text still say "deal manager." Should these references be changed? -->
+    :::image type="content" source="media/deal-manager-editmetrics-small.png" alt-text="Screenshot illustrating the Edit metrics option in deal manager and the edit metrics side panel with the Create a metric option and the list of metrics." lightbox="media/deal-manager-editmetrics.png":::
 
 - To create a metric:
     1. Select **Create a Metric**.
@@ -101,6 +101,6 @@ You can create multiple views with different personalizations and switch between
 
 From the view list, select the view that you want to switch to.
 
-:::image type="content" source="media/views-dropdown.PNG" alt-text="Screenshot highlighting the views list in deal manager.":::<!-- EDITOR'S NOTE: The alt text still refers to deal manager. Should this be changed? -->
+:::image type="content" source="media/views-dropdown.PNG" alt-text="Screenshot highlighting the views list in the Opportunity pipeline view.":::
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

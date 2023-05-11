@@ -11,8 +11,6 @@ ms.custom: bap-template
 
 # Manage opportunities using pipeline view
 
-[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
-
 The opportunity pipeline view, formerly known as deal manager, helps you visualize, prioritize, and manage the opportunities in your pipeline. The charts in the view help you figure out which deals to follow up with next. The metrics help you determine the current status of deals in the pipeline, deals successfully closed, and deals lost, and their respective revenue.
 
 ## License and role requirements
