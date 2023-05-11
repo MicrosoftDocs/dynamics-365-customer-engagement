@@ -14,7 +14,7 @@ ms.custom: intro-internal
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!NOTE]
-> With the release of [real-time analytics reports for Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability, we announce that the intraday insights reports for Omnichannel for Customer Service will be deprecated as of May 1, 2023. We recommend that you use real-time analytics reports, which provide real-time information about the health and key performance indicators of your organization. For more information on the deprecation, go to [Intraday insights for Omnichannel for customer service to be deprecated](deprecations-customer-service.md#intraday-insights-for-omnichannel-for-customer-service-to-be-deprecated).
+> With the release of [real-time analytics reports for Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability, we announce that the intraday insights reports for Omnichannel for Customer Service will be deprecated as of May 1, 2023. We recommend that you use real-time analytics reports, which provide real-time information about the health and key performance indicators of your organization. For more information on the deprecation, go to [Intraday insights for Omnichannel for customer service are deprecated](deprecations-customer-service.md#intraday-insights-for-omnichannel-for-customer-service-are-deprecated).
 
 ## Introduction
 
