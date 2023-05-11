@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service.
-ms.date: 02/10/2023
+ms.date: 05/12/2023
 author: lalexms
 ms.author: laalexan
 ms.reviewer: nenellim
