@@ -97,7 +97,7 @@ The charts in the pipeline view help sellers visualize their pipeline. You can c
 
 ## Customize the editable grid
 
-The grid in the opportunity pipeline view is an instance of the Power Apps editable grid control. The grid can be both customized and personalized. As an administrator, you can [customize the grid](/power-apps/developer/component-framework/customize-editable-grid-control) for the entire sales organization. Sellers can [personalize their view](personalize-pipeline-view.md#what-can-you-personalize) to include the columns and filters they want to see.  
+The grid in the opportunity pipeline view is an instance of the Power Apps editable grid control. The grid can be both customized and personalized. As an administrator, you can [customize the grid](/power-apps/developer/component-framework/customize-editable-grid-control) for the entire sales organization. Sellers can [personalize their view](personalize-pipeline-view.md) to include the columns and filters they want to see.  
 
 > [!NOTE]
 > If you customized the editable grid in the deal manager using JavaScript, you need to redo those customizations in the pipeline view.
