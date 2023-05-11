@@ -25086,6 +25086,11 @@
       "source_path": "ce/field-service/reminders-arrival-time.md",
       "redirect_url": "/dynamics365/field-service/customer-portal-overview",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-move-triggers.md",
+      "redirect_url": "/dynamics365/marketing/move-triggers-between-environments",
+      "redirect_document_id": false
     }
   ]
 }
