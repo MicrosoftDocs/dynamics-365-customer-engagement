@@ -45,7 +45,7 @@ Email validation is available in the following regions:
 
 ## What is email validation?
 
-Email validation analyzes the primary email address in lead records to identify the ones that can't receive email. You must enable the feature. It's turned off by default. 
+Email validation analyzes the primary email address in lead and contact records to identify the ones that can't receive email. You must enable the feature. It's turned off by default. 
 
 Email address validation looks for the following issues:
 
@@ -59,10 +59,9 @@ Sellers can view invalid email addresses on record forms, work list items, and t
 
 ## Limitations of email validation
 
-- Email validation works only for lead records.
-- It's not available in custom apps.
-- It checks only the primary email address in a lead record.
-- Leads that are older than 180 days aren't validated.
+- Email validation works only for lead and contact records.
+- It checks only the primary email address in lead and contact records.
+- Leads and contacts that are older than 180 days aren't validated.
 
 ## Enable email address validation
 
