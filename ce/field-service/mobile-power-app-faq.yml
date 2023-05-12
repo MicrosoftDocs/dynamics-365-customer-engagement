@@ -192,7 +192,7 @@ sections:
   
      - question: How do I change the language used within the app?
        answer: |
-          Users can personalize the language settings for themselves by using the [personalization options available in Power Platform.](../../../power-apps/user/set-personal-options#languages-tab-options) This setting is currently not available in the Field Service Mobile app itself.
+          Users can personalize the language settings for themselves by using the [personalization options available in Power Platform.](/power-apps/user/set-personal-options#languages-tab-options) This setting is currently not available in the Field Service Mobile app itself.
 
      - question: How do I enable native mobile date and time picker, and input-specific keyboards for my app module? 
        answer: |
