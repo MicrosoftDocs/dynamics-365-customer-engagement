@@ -1,18 +1,14 @@
 ---
 title: "Enable case grids for agents| MicrosoftDocs"
 description: "Learn how you can enable case grids and increase agent productivity."
-ms.date: 02/15/2023
+ms.date: 03/27/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
   - intro-internal
@@ -62,6 +58,9 @@ To make the **Enhanced Active Cases** view accessible to agents, you must enable
      1. To enable inline editing, do the following:
        1. In the **Property** section in **Enable editing**, select **Edit**. The **Configure property Enable Editing** dialog appears.
        1. In the **Configure property Enable Editing** dialog, select **Bind to static options**, select **Yes** from the dropdown list, and then select **OK**.
+     1. Set **Enable OptionSet colors** to **Yes** to display color coded case status fields.
+     > [!NOTE]
+     > Any changes made by Microsoft to the default color palette won't be available automatically if you've customized the colors that appear on the case status field.
 1. Select **Save**, and then select **Publish**.
 
 > [!NOTE]
@@ -95,7 +94,7 @@ To make the **Enhanced Active Cases** view accessible to agents in Customer Serv
 
 ### Add new icons for Origin and Priority Columns
 
-In the following example, you add a new **Option Set Value** with the label **Custom** for the **Priority** column.
+In the following example, you add a new **Option Set Value** for the **Priority** and **Origin** column.
 
 1. Go to https://make.powerapps.com portal.
 1. Select **Solutions**.
@@ -105,7 +104,7 @@ In the following example, you add a new **Option Set Value** with the label **Cu
 
    1. Upload your file by selecting the **Upload file** option.
    1. In the **Display name** field, enter a display name.
-   1. In the **Name** field, enter the name in the format: **Incident/Priority/{Option Set Value Label}PriorityIcon or Incident/Origin/{Option Set Value Label}OriginIcon**. For the given example, the name is **Incident/Priority/CustomPriorityIcon**.
+   1. In the **Name** field, enter the name in the format: **Incident/Priority/{Option Set Value}PriorityIcon.{File Extension}** or **Incident/Origin/{Option Set Value}OriginIcon.{File Extension}**. For example, **Incident/Priority/100000000PriorityIcon.png**.
 1. Select **Save**.
 
 ### See also

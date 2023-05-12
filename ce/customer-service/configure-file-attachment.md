@@ -1,12 +1,12 @@
 ---
-title: "Configure file attachment capability for a chat widget | MicrosoftDocs"
-description: "Instructions to configure file attachment capability for a chat widget in Omnichannel for Customer Service."
-ms.date: 10/19/2022
-ms.topic: article
+title: Configure file attachment capability for a chat widget
+description: Learn how to configure file attachments for a chat widget in Omnichannel for Customer Service.
+ms.date: 04/17/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.reviewer: nenellim
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Configure file attachment capability
@@ -35,23 +35,11 @@ If an agent transfers the chat to another agent, the agent who receives the chat
     - **Customers can send file attachments**: Allows your customers to send a file to the customer service agent during a conversation.
     - **Agents can send file attachments**: Allows your customer service agents to send a file to a customer during a conversation.
 
-    :::image type="content" source="media/file-attachment.png" alt-text="Enable file attachment settings.":::      
+    :::image type="content" source="media/file-attachment.png" alt-text="Enable file attachment settings.":::
 
-## Customer experience of attaching a file
+## Set size limit, supported file types for file attachments
 
-When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the **Attach** icon to send files. The drag-and-drop operation is not supported.
-
-When the conversation is going on, the attachment is uploaded to Async Media Storage/Service (AMS) and it will be retained for seven days. After the conversation ends, the attachment will be stored in the Annotations collection in Dataverse, which is an Azure BLOB-based entity. Customers can access attachments in transcripts by selecting the attachments, which are retrieved from the Dataverse entity.
-
-> [!div class=mx-imgBorder]
-> ![File attachment icon.](media/file-attach-icon.png "File attachment icon")
-
-If a customer tries to attach an unsupported file type, a file larger than the allowed size limit, or a file with malicious content, the file is not uploaded and a corresponding error message is displayed. 
-
-> [!div class=mx-imgBorder]
-> ![File attachment error.](media/file-attach-error.png "File attachment error")
-
-The file size limit for attachments and unsupported file types are defined in the advanced settings. To configure the file size limit and unsupported file types:
+You can define the file size limit for attachments and unsupported file types in the advanced settings of Dynamics 365.
 
 1. In the admin app, go to **Advanced Settings** on the top right, and then select **Settings** > **Administration** > **System Settings**.
 
@@ -59,8 +47,10 @@ The file size limit for attachments and unsupported file types are defined in th
 
 3. In the **Maximum file size (in kilobytes)** field, enter the value in kilobytes.
 
-    > [!div class=mx-imgBorder]
-    > ![Set file size limit for attachment.](media/file-size-limit.png "Set file size limit for attachment")
+    :::image type="content" source="media/file-size-limit.png" alt-text="Set file size limit for attachment.":::
+
+   > [!NOTE]
+   > By default, the size is set to 5 MB. You can specify up to 128 MB for all attachments. However, the maximum size for image files in live chat can be 20 MB only.
 
 4. To specify unsupported file types, go to the **General** tab.
 
@@ -73,6 +63,20 @@ The file size limit for attachments and unsupported file types are defined in th
 
 > [!NOTE]
 > Customers with Apple devices must have iOS version 13 to send file attachments.
+
+## Customer experience of attaching a file
+
+When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the **Attach** icon to send files. The drag-and-drop operation is not supported. The file attachment is scanned for malicious content and won't be uploaded if it poses a security threat. A message about the security concern is displayed to the agent.
+
+When the conversation is going on, the file attachment is scanned and then uploaded. After the conversation ends, the attachment will be stored in the Annotations collection in Dataverse, which is an Azure BLOB-based entity. Customers can access attachments in transcripts by selecting the attachments, which are retrieved from the Dataverse entity.
+
+> [!div class=mx-imgBorder]
+> ![File attachment icon.](media/file-attach-icon.png "File attachment icon")
+
+If a customer tries to attach an unsupported file type, a file larger than the allowed size limit, or a file with malicious content, the file is not uploaded and a corresponding error message is displayed.
+
+> [!div class=mx-imgBorder]
+> ![File attachment error.](media/file-attach-error.png "File attachment error")
 
 ### See also
 

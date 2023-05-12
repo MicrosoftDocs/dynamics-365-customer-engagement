@@ -17,14 +17,10 @@ ms.assetid: 2a46ffd4-9f2c-438e-a5c6-61e86d885949
 caps.latest.revision: 38
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
 # Track Outlook email by moving it to a tracked Exchange folder
 
@@ -116,15 +112,15 @@ search.app:
 
  Let's take a look at a scenario with folder-level tracking.
 
- Nancy, a dedicated sales rep, finds and qualifies leads. Nancy has just started to work on a new opportunity called Northwind Traders. She wants to track and associate all the emails that relate to this opportunity.
+ Nancy, a dedicated sales rep, finds and qualifies leads. Nancy has just started to work on a new opportunity called Northwind Traders and wants to track and associate all the emails related to this opportunity.
 
- First, Nancy needs to create a folder in [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]. She already has folders for her current accounts and opportunities, so she simply creates a new folder under the Opportunities folder. Then she needs to map the [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] folder she has just created to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].
+ First, Nancy needs to create a folder in [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]. The folders for current accounts and opportunities are already created, so Nancy simply creates a new folder under the Opportunities folder. Then Nancy maps the [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] newly created folder to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].
 
- Nancy clicks **Options**, and clicks the **Email** tab. She clicks **Configure** and creates a new mapping between the [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] folder and the requested [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record ‒ Northwind Traders in our example. Now, whenever Nancy gets an email that relates to Northwind Traders, she can simply drag and drop the email into the folder she created.
+ Nancy clicks **Options**, and clicks the **Email** tab. On clicking **Configure**, Nancy creates a new mapping between the [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] folder and the requested [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record ‒ Northwind Traders in our example. Now, whenever Nancy gets an email that relates to Northwind Traders, the email can be dragged and dropped into the folder.
 
- The new email will be associated to the Northwind Traders opportunity within [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. Also, Nancy can track emails while she's on the go by using her mobile device. She can simply move the email to the Northwind Traders folder using her native email application.
+ The new email will be associated to the Northwind Traders opportunity within [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. Also, Nancy can track emails on the go using a mobile device. Nancy can simply move the email to the Northwind Traders folder using the native email application.
 
- Finally, since Morgan is the main contact person in Northwind Traders, all the emails from him relate to this opportunity. Instead of manually copying the emails from Morgan, Nancy can create an [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] rule that will automatically copy all the emails that Morgan sends to the Northwind Traders' folder.
+ Finally, since Morgan is the main contact person in Northwind Traders, all the emails from Morgan relate to this opportunity. Instead of manually copying the emails from Morgan, Nancy can create an [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] rule that will automatically copy all the emails that Morgan sends to the Northwind Traders' folder.
 
  By doing so, the emails will be automatically tracked in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and will be associated to the Northwind Traders opportunity.
 

@@ -3,9 +3,8 @@ title: "Microsoft.CIFramework (JavaScript API Reference) for Dynamics 365 Channe
 description: "Includes reference information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0."
 ms.date: 03/14/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 applies_to: 
   - "Dynamics 365 for Customer Engagement (online)"
 ms.custom: 

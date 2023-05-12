@@ -1,251 +1,110 @@
 ---
-title: "Universal Resource Scheduling for Dynamics 365 Field Service | MicrosoftDocs"
+title: Universal Resource Scheduling for Dynamics 365 Field Service overview
 description: Learn all about Universal Resource Scheduling for Dynamics 365 Field Service
-ms.date: 08/12/2020
-
-ms.custom: intro-internal
+ms.date: 03/08/2023
+ms.custom: bap-template
 ms.topic: overview
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 
-# Universal Resource Scheduling for Dynamics 365 Field Service
+# Universal Resource Scheduling for Dynamics 365 Field Service overview
 
-This article describes how Dynamics 365 Field Service uses Universal Resource Scheduling. We'll also take a look at how to configure Universal Resource Scheduling for onsite field service scenarios.
+This article describes how Dynamics 365 Field Service uses [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
-## Overview
+Field service organizations often book technicians to complete work orders. Efficiently scheduling resources to requirements helps reduce travel time and costs.
 
-[Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md) is a Dynamics 365 solution that allows organizations from different industries with different scenarios to assign resources to jobs and tasks. 
+## Universal Resource Scheduling and Field Service work orders
 
-Universal Resource Scheduling assigns the best resources to jobs and tasks based on:
+When [installing Field Service](install-field-service.md), Universal Resource Scheduling gets added automatically.
 
-- Resource availability
-- Required skills
-- Promised time windows
-- Business unit
-- Geographic territory and more
+Work orders and related entities are a part of Field Service and work seamlessly with resources, requirements and bookings of Universal Resource Scheduling.
 
+In other words, Field Service defines **what** needs to be done and **where**, while Universal Resource Scheduling defines **who** can perform the work and **when**.
 
-**Field service organizations** most frequently use Universal Resource Scheduling to schedule mobile resources to location-specific jobs and tasks (known as work orders) as the resources travel to various customer locations. Because work orders are generally performed onsite, Universal Resource Scheduling schedules the resources with **closest proximity** to work orders, reducing travel time and costs. 
+### Generate requirements from a work order
 
-In this article, we'll take a quick look at: 
+For every work order, the system creates a related requirement. It outlines the specific details for resources that can perform the work order. Requirements will be scheduled to resources and reference the work order.
 
-- Universal Resource Scheduling components
-- How Universal Resource Scheduling works with Field Service work orders
-- How to schedule work orders with Universal Resource Scheduling
-- Basic configuration 
+By default, the system created one requirement for each work order. However, a work order can have multiple requirements or a requirement group with multiple requirements. [Create incident types to configure templates for work order](configure-incident-types.md).
 
-For more detailed information on Universal Resource Scheduling, visit the [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
+Requirements inherit attributes from the work order, such as name, location, duration, and more. Updating work order attributes will update requirement attributes. Manual edits to requirements can be made before scheduling, too.
 
-## Components 
-When Dynamics 365 Field Service is installed, Universal Resource Scheduling installs automatically, and appears in the menu as shown in the following screenshot.
- 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Screenshot of Universal Resource Scheduling and Field Service apps.](media/scheduling-urs-apps.png) 
+> [!CAUTION]
+> Manually created requirements for work order don't synchronize automatically.
 
-In general, work orders and related entities are a part of Field Service, while resource- and requirement-related entities are part of Universal Resource Scheduling. All work seamlessly together.
+### Book a resource for a requirement
 
-In other words, field service work orders define **what** work needs to be done and **where**, while Universal Resource Scheduling defines **who** can perform the work and **when**.
+After a work order and related requirement are ready for scheduling, dispatchers book the requirement to the most appropriate resource.
 
-The following list shows which components correspond to Field Service and Universal Resource Scheduling:
+Booking a requirement related to a work order creates a bookable resource booking record that keeps track of which resource will perform the work, the status of the booking, travel time, and start/end times.
 
-- Work orders (**Field Service**)
-- Bookable resources (**Universal Resource Scheduling**) 
-- Resource requirements (**Universal Resource Scheduling**)
-- Resource bookings (**Universal Resource Scheduling**)
-- Schedule tools - schedule board, schedule assistant (**Universal Resource Scheduling**)
-- Resource Scheduling Optimization (installed separately) (**Universal Resource Scheduling**)
+## Scheduling personas
 
-For more information, visit the [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
+Learn about the scheduling roles that are common in a typical field service organization.
 
+### Dispatcher or scheduler
 
-## How Universal Resource Scheduling works with Field Service work orders 
+The dispatcher or scheduler matches requirements with the right resources to create bookings. Common job titles for this role include service managers, customer service reps, or traditional dispatchers. Their responsibilities can range between manually assigning all requirements, having the system automatically schedule all requirements and simply managing exceptions, or somewhere in between.
 
-Now that we've looked at how the various components correspond with Field Service and Universal Resource Scheduling, let's look at what happens when Universal Resource Scheduling interacts with Field Service work orders.
+Even with a high level of automation, schedulers often manage exceptions and help ensure optimization and automation meet business objectives.
 
-### Creating work orders creates requirements
+### Scheduling analyst
 
-When a work order is created and saved, a related requirement automatically generates in the background. This requirement (which is a separate entity) outlines the specific details for resources that can perform the work order. The requirement is what will be scheduled to resources, and it simply references the work order.
+The scheduling analyst is an emerging role as organizations adopt advanced scheduling functions like optimization, automated scheduling, and analytics. The ideal scheduling analyst has a healthy mix of scheduling, analytics, and optimization knowledge.
 
-By default, one requirement is created but a single work order can have multiple requirements. Additionally, a requirement group with multiple requirements can also be added to a work order.
+This role owns optimization schedules, along with accompanying scope, goals, and parameters.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of related requirement.](media/scheduling-urs-work-order-related-requirement.png) 
+## Main scheduling capabilities
 
-### Fields passed from work order to requirements
+Dynamics 365 Field Service includes a broad set of scheduling capabilities.
 
-When a requirement is created, it inherits attributes from the work order, including but not limited to:
+### Manual scheduling on the schedule board
 
-- Name (work order number text)
-- Work order (look-up reference to work order)
-- Work location 
-- Latitude
-- Longitude
-- Service Territory
-- Duration 
-- Start / End date
-- Priority
-- Characteristics
-- Preferred/restricted resources
-- Fulfillment preference
+The schedule board plays an important role across all types of scheduling You can configure it ot meet your scheduling requirements. For basic service scheduling, match a requirement to a resource in a particular time slot on the schedule board.
 
+Manual scheduling wih the schedule board works especially well for emergency work or requirements with limited complexity.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Requirement data1.](media/scheduling-urs-work-order-related-requirement-number.png) 
+### Semi-automated scheduling with the schedule assistant
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Requirement data.](media/scheduling-urs-work-order-related-requirement-fields.png) 
+The schedule assistant uses requirement details to recommend times and resources for bookings. A dispatcher then chooses the best option for the booking and assigns the requirement.
 
-Updating work order attributes will update requirement attributes. Manual edits to requirements can be made before scheduling, too.
+You can launch the schedule assistant from the **Book** button on the ribbon from work orders, requirements, and also directly on the schedule board. Similar to the schedule board, it's customizable and you can also use it on other forms as needed.
 
-> [!NOTE]
-> Many work order attributes are added to the work order when work order incident types are created, including duration and characteristics. 
+### Automated scheduling with the Resource Scheduling Optimization add-in
 
-> [!Note]
-> Field Service keeps the **Work Order** and the primary resource requirement in sync. All of the scheduling impacting fields are automatically synchronized. If a customer manually creates multiple requirements against a work order, those are not automatically synchronized. 
+Resource Scheduling Optimization is an add-in for Dynamics 365 Field Service, which requires a separate license. It includes capabilities to automatically schedule requirements and optimize resource utilization based on custom logic. The add-in plays well with manual or semi-automated scheduling scenarios.
 
-## Scheduling work orders with Universal Resource Scheduling
+## Enable Universal Resource Scheduling for Field Service
 
-After a work order and related requirement are ready to be scheduled, Universal Resource Scheduling scheduling tools can be used to **book** the requirement to the most appropriate resource.
+There are a few things you'll need to configure to enable Universal Resource Scheduling for Field Service.
 
-After a work order requirement is booked, a bookable resource booking record is created documenting the resource, travel time, and start/end time. The booking relates to both the work order and requirement.
+1. [Enable Resource scheduling](schedule-new-entity.md) for the *msdyn_workorder* entity.
 
-You can book from: 
+1. [Enable location and map settings](field-service-maps-address-locations.md).
 
-- Work orders
-- Requirements
-- Schedule board
-- Resource Scheduling Optimization (RSO)
+1. [Configure booking statuses](set-up-booking-statuses.md) to let field technicians communicate the progress of their work to stakeholders.
 
-### Book from the work order
+1. [Enable auto-geocoding](turn-on-auto-geocoding.md) to account for start and end location of resources.
 
-Selecting **Book** from the work order will trigger the Universal Resource Scheduling schedule assistant to match the related work order requirement with available resources.
+  > [!TIP]
+  > Work orders or requirements without location are treated as location-agnostic and the system doesn't consider the location during scheduling.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of booking from work order.](media/scheduling-urs-work-order-book.png) 
+## Measure scheduling effectiveness
 
-### Book from the requirement
+[Look at pre-built reports and relevant KPIs](reports.md) to measure how scheduling influences your defined business objectives over time.
 
-Like with work orders, the same booking experience can be triggered from the requirement entity, by selecting **Book** while on the requirement.
+Take a staggered approach to implement scheduling processes in your organization.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of booking requirement.](media/scheduling-urs-work-order-related-requirement-book.png) 
+1. Start with [manual scheduling using the schedule board](preview-schedule-board.md) to familiarize with the system logic and establish business processes.
+1. Move to [semi-automated scheduling with the schedule assistant](schedule-assistant.md) to find resources that match the requirements faster.
+1. Consider using the R[esource Scheduling Optimization add-in](rso-overview.md) to enable more automation for your scheduling needs. Kick it off with [single resource optimization](single-resource-optimization.md) before rolling out [automation for your entire scheduling process.](rso-schedule-optimization.md)
+  
+## Next steps
 
-### Book from the schedule board
-
-The lower schedule board pane displays requirement records and can be configured to show only requirements related to work orders with a view filter.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of schedule board.](media/scheduling-urs-schedule-board-schedule-assistant.png) 
-
-The requirement can be dragged and dropped onto a resource on the schedule board to schedule the work order. Alternatively, selecting  **find availability** on the requirement in the lower pane will trigger the schedule assistant, which recommends the most appropriate resources. 
-
-### Book with Resource Scheduling Optimization
-
-Resource Scheduling Optimization can automatically schedule work order requirements based on predefined schedules or triggers. You can also manually accomplish this by selecting the **Run Now** button.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Resource scheduling Optimization schedule.](media/scheduling-urs-rso-schedule.png)
-
-## Configure Universal Resource Scheduling for Field Service 
-
-There are a few things you'll need to configure before getting started with Universal Resource Scheduling for Field Service.
-
-### Enable work orders for scheduling
-
-Go to **Resource Scheduling** > **Administration** > **Enable Resource Scheduling for Entities**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Enabling entities for scheduling.](media/Perform-Initial-Configurations-image8.png)
-
-This is where administrators decide which entities can be scheduled to resources. When Field Service is installed, work orders are enabled for resource scheduling by default. 
-
-Double-click work orders to define default behavior when scheduling work order requirements.
-
-### Connect to maps
-
-> [!Important]
-> By connecting to a mapping service, you are allowing the system to share your data, including but not limited to addresses and coordinates, with external systems outside of your Microsoft Dynamics 365 environment. (Mapping service refers to Bing Maps or other third-party mapping service designated by you or your operating system). This also applies to Government Cloud environments. Your use of the mapping service will also be subject to their separate terms of use. Data imported from such external systems into Microsoft Dynamics 365 are subject to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
-
-Connecting to a mapping service is critical if you want to geographically display work orders and route field technicians.
-
-1. To connect a mapping service, navigate to **Resource Scheduling > Administration > Scheduling Parameters**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu.](media/Perform-Initial-Configurations-image6.png)  
-
-1. Set **Connect to Maps** to **Yes**. Then save and close.
-
-The API key will populate automatically and use the Bing Maps API.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of setting Connect to Maps to yes.](media/Perform-Initial-Configurations-image7.png)  
-
-> [!Note]
-> In Field Service version 8.8.10.44+ the Bing Maps API key is hidden, and is unavailable for end users and external parties.   
-
-### Configure booking statuses
-
-Resources (field technicians) interact with booking statuses to communicate to stakeholders the progress of their work. For Field Service, booking statuses can update work order system statuses. This is done by noting a Field Service Status on the Booking Status.
-
-Navigate to **Resource Scheduling > Booking Statuses**
-
-See the following screenshot for the recommended out-of-the-box values.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Booking Statuses.](media/scheduling-booking-status-fs.png)
-
-### Geo-locate resources
-
-Work order locations are defined by the latitude / longitude of either the work order form, or the related service account. It's important to also geo-locate resources.
-
-Navigate to **Resource Scheduling > Resources**.
-
-To ensure resources can appear on the schedule board map, they must have a geocoded starting and ending location. 
-
-There are **two ways** to geocode your resources.
-
-#### Option one
-
-Set resource start/end location to **Resource address** and ensure the related resource record (User, Account, Contact) as defined by the resource type has latitude and longitude values.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Bookable Resource window, showing the Scheduling tab with the Start and End Location both set to the Resource Address.](media/scheduling-resource-address.png)
-
-For example, in the following screenshot, the bookable resource has resource type = Contact; this means the related contact record must be geo-coded, meaning latitude and longitude fields must have values. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Bookable Resource window, showing the General tab with the Resource Type and Contact highlighted with a red border.](media/scheduling-urs-resource-type.png)
-
-> [!NOTE]
-> For routing purposes, the location of a resource is defined as the current work order location, current location of the mobile device, or the start/end location defined here when the other options are not applicable.
-
-#### Option two
-
-Set resource start/end location to **Organizational Unit Address** and ensure the related organizational unit record is geo-coded, meaning latitude and longitude fields must have values.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Bookable Resource window, showing the Scheduling tab with the Start and End Location both set to Organizational Unit Address.](media/scheduling-urs-resource-organizational-unit.png)
-
-> [!NOTE] 
-> You may need to add the latitude/longitude fields to the organizational unit entity form.
-
-#### Confirm geocoding works appropriately
-
-To make sure resources are geocoded properly, navigate to **Universal Resource Scheduling** > **Schedule Board**. The resource should appear on the map. Select a resource's name to highlight their location pin on the map.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of geo coded resource on map.](media/scheduling-urs-schedule-board-locate-resource.png)
-
-## Additional notes
-
-If the work order or requirement doesn't have a latitude or longitude, the location is treated as location-agnostic, which means the location of resources isn't considered during scheduling. If the work order or requirement has a latitude and longitude and work location is set to **onsite**, resource locations, travel time, and routes are considered during scheduling.
+- [Use and configure the schedule board in Dynamics 365 Field Service](configure-schedule-board.md)
+- [Overview of the schedule assistant](schedule-assistant.md)
+- [Get Resource Scheduling Optimization](rso-get-install.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Use Customer Insights profiles and segments in real-time marketing
@@ -62,3 +58,5 @@ Marketing can automatically discover Customer Insights data and make it availabl
 When using Customer Insights customer profiles in real-time customer journeys, you'll be required to specify which attributes in the profile correspond to the customer’s preferred email and phone number. To eliminate the need for specifying this information every time, you can create default settings that customer journeys will automatically use from that point on.
 
 Learn more: [Audience configuration](real-time-marketing-audience-data.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

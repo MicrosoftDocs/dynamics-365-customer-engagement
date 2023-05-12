@@ -5,7 +5,6 @@ ms.date: 08/29/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 monikerRange: '>= dynamics-usd-4.1'
 ---
 

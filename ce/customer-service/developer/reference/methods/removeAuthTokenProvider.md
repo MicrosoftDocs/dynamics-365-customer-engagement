@@ -3,9 +3,8 @@ title: "removeAuthTokenProvider (Omnichannel for Customer Service JavaScript API
 description: "Includes reference information such as syntax and parameters for the removeAuthTokenProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
 ms.date: 04/04/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ---
 # removeAuthTokenProvider
 

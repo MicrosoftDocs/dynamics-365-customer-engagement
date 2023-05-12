@@ -10,9 +10,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Field Service technician service reports
@@ -49,7 +46,7 @@ For a guided walkthrough, check out the following video.
 3. After importing the reporting solution, open your Field Service mobile app module in the app designer and enable the reporting form for the bookable resource booking entity. Save and publish your changes. 
 
 > [!div class="mx-imgBorder"]
-> ![The app designer showing Field Service Mobile.](./media/mobile-2020-service-reports-enable-form.png)
+> ![The app designer showing Field Service Mobile.](./media/AppDesigner-Report-arrows.png)
 
 4. At this point you'll be able to view functionality of the report in your mobile app and evaluate changes necessary for your organization.
 

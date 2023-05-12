@@ -9,9 +9,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Field Service (Dynamics 365) app for Windows 10+ devices
@@ -53,7 +50,7 @@ Open the app and sign in with your username and password. The user account needs
 
 ## View bookings
 
-You can access your bookings from the **Home** screen or **Bookings** screen. On the bookings screen, you can see bookings on an agenda, day, week, month, or [map view](mobile-powerapp-booking-maps.md). You can [customize the agenda view](/mobile-powerapp-customize-booking-calendar.md) in the same way as iOS and Android apps.
+You can access your bookings from the **Home** screen or **Bookings** screen. On the bookings screen, you can see bookings on an agenda, day, week, month, or [map view](mobile-powerapp-booking-maps.md). You can [customize the agenda view](mobile-powerapp-customize-booking-calendar.md) in the same way as iOS and Android apps.
 
 > [!div class="mx-imgBorder"]
 > ![Bookings agenda view in the Field Service Windows app.](./media/mobile-2020-windows-agenda-view.jpg)

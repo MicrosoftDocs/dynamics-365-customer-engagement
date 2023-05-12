@@ -3,15 +3,11 @@ title: "Debugger (Hosted Control) | MicrosoftDocs"
 description: "Use this topic to get an overview of the Debugger hosted control type and the predefined UII actions associated with it."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---

@@ -4,17 +4,13 @@ description: "Learn how to edit and update live journeys in the real-time market
 ms.date: 10/05/2022
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started
+ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Edit a live journey in real-time marketing
@@ -50,3 +46,5 @@ Analytics results are kept for each version, enabling you to compare and optimiz
 
 > [!div class="mx-imgBorder"]
 > ![Analytics comparison between versions.](media/real-time-marketing-journey-edit-analytics.png "Analytics comparison between versions")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

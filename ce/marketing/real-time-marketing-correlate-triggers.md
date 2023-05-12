@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Use binding IDs to correlate across triggers
@@ -167,3 +163,5 @@ Trigger event: "incident/000"
 Resume event: ""
 Result: Case 3 resume
 ```
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

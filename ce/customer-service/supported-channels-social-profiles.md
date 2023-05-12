@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 12/23/2022
+ms.date: 05/07/2023
 ms.custom: bap-template 
 ---
 
@@ -31,7 +31,6 @@ The social profiles are supported for the following channels.
 | Facebook           | Yes                                                                 | User name |
 | Google's Business Messages | Yes                                                         | Display name |
 | LINE               | Yes                                                                 | Display name |
-| Twitter            | Yes                                                                 | Twitter handle name |
 | WeChat             | Yes                                                                 | Visitor |
 | WhatsApp           | Yes                                                                 | Phone number |
 | Custom messaging (Telegram) | Yes                                                        | User name |
@@ -54,4 +53,4 @@ Optionally, you can update the details and save the profile. You can also deacti
 
 ## Next steps
 
-[View customer summary to get available information about customers](oc-customer-summary.md)  
+[View customer information on Active Conversation form](oc-customer-summary.md)  

@@ -3,15 +3,11 @@ title: "Standard Web Application hosted control to load a non-model-driven app p
 description: "Learn to create the Standard Web Application hosted control. Also find information about the predefined UII actions supported by it."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---

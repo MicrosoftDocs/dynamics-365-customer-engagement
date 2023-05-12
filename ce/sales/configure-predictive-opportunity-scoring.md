@@ -6,7 +6,6 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Configure predictive opportunity scoring
@@ -149,9 +148,10 @@ You can create up to 10 models, both published and unpublished, for different se
 
 ### See also
 
+[System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md#edit-a-model)  
 [Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)  
-[Predictive lead/opportunity scoring FAQs](faqs-sales-insights.md#predictive-leadopportunity-scoring)
+[Predictive lead and opportunity scoring](faqs-sales-insights.md#predictive-lead-and-opportunity-scoring)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

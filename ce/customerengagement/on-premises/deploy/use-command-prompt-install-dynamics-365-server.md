@@ -14,7 +14,6 @@ ms.assetid: 04e55eb6-9d97-433f-abc5-f6ab55ef16ba
 caps.latest.revision: 17
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Use the command prompt to install Dynamics 365 Customer Engagement (on-premises) 
 

@@ -10,10 +10,6 @@ ms.subservice: common-scheduler
 ms.topic: conceptual
 author: m-hartmann
 ms.author: mhart
-search.app: 
-  - D365CE
-  - D365PS
-  - D365FS
 ---
 
 # Create custom plug-in to use your preferred geospatial data provider

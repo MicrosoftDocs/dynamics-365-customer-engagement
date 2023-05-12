@@ -5,7 +5,6 @@ ms.date: 02/28/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 # Compliance certifications of Omnichannel for Customer Service

@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Manage SMS (text message) keywords used in customer journeys
@@ -40,3 +36,5 @@ To update a keyword:
  The following screenshot shows the **SMS keywords** page. 
 
 > ![SMS keywords page screenshot.](media/sms-keywords-page.png "SMS keywords page screenshot")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

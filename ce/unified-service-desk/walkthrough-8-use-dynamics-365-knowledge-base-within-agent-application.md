@@ -3,15 +3,11 @@ title: "Walkthrough 8: Use knowledge base within your agent application | Micros
 description: "Use this walkthrough to understand the prerequisites and procedures for configuring panels to display knowledge base records."
 ms.date: 08/17/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---

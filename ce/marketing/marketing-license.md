@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Get started with Dynamics 365 Marketing licensing
@@ -59,3 +55,5 @@ As mentioned in the [purchase and set up article](purchase-setup.md), contacts t
 ## Next steps
 
 After you've purchased your Dynamics 365 Marketing license, you'll need to start setting it up. Learn more in the [purchase and set up Dynamics 365 Marketing](purchase-setup.md) article.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

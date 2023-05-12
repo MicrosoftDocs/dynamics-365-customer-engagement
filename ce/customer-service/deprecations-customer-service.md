@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms-service: dynamics-365
 ms.topic: conceptual
-ms.date: 01/13/2023
+ms.date: 04/28/2023
 ms.custom: bap-template
 ---
 
@@ -16,23 +16,22 @@ The features that have been deprecated in Customer Service are listed in this ar
 
 Administrators and IT professionals can use this information to prepare for future releases.
 
-> [!Important]
->
+> [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
 ## Some admin apps are deprecated
 
-With the release of the Customer Service admin center app that consolidates admin experiences across the Customer Service suite, we announce that the following admin experiences will be deprecated and support will end in April 2023.
+With the release of the Customer Service admin center app that consolidates admin experiences across the Customer Service suite, we announce that the following admin experiences are deprecated and no longer supported after April 2023.
 
 - Service Management area in the Customer Service Hub app
 - Omnichannel admin center
-- **App profile manager:** Will also be removed in April 2023.
+- **App profile manager:** Is removed in April 2023.
 
 Also, as of October 2022, the Omnichannel admin center and the service management area in Customer Service Hub are hidden by default in newly created organizations and environments. You can bring them back, but we recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
-## Omnichannel Administration app is deprecated
+## Omnichannel Administration app is deprecated and will be removed in July 2023
 
-Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Get started with Customer Service admin center](cs-admin-center.md)
+Support for the Omnichannel Administration app ended on April 30, 2022. The app will be removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
 ## Omnichannel for Customer Service agent-facing app to be deprecated
 
@@ -48,7 +47,7 @@ The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management enti
 
 ## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated
  
-Effective October 31, 2022, Dynamics 365 Customer Service and Power Platform are blocked in Internet Explorer. As of early October 2022, users are redirected to Microsoft Edge if it's installed on their device. Otherwise, they'll receive a non-dismissible message informing them why they're blocked and to use Customer Service on [Microsoft Edge](https://www.microsoft.com/edge). More information: [Support end for Internet Explorer](/power-platform/admin/support-end-internet-explorer.md) <br>
+Effective October 31, 2022, Dynamics 365 Customer Service and Power Platform are blocked in Internet Explorer. As of early October 2022, users are redirected to Microsoft Edge if it's installed on their device. Otherwise, they'll receive a non-dismissible message informing them why they're blocked and to use Customer Service on [Microsoft Edge](https://www.microsoft.com/edge). More information: [Support end for Internet Explorer](/power-platform/admin/support-end-internet-explorer) <br>
 
 For any questions, contact your Microsoft Customer Service representative or Microsoft Partner.
 
@@ -93,6 +92,17 @@ Standard service level agreements (SLA Type field is set to Standard) are deprec
 ## Customer Service Insights standalone app is deprecated
 
 The Customer Service Insights standalone app is deprecated. We recommend that you migrate to the [embedded experience](introduction-customer-service-analytics.md) within the core Dynamics 365 Customer Service applications.
+
+## Customer Service workspace legacy layout is deprecated
+
+The Customer Service workspace legacy layout is deprecated as of April 2023, and won't be supported after October 2023. For more information, see [Deprecated Customer Service workspace layout](csw-overview.md#deprecated-customer-service-workspace-layout)
+
+## Intraday insights for Omnichannel for customer service to be deprecated
+
+The [intraday insights for Omnichannel for Customer Service](intro-intraday-insights-dashboard.md) will be deprecated as of May 1, 2023. After the app is deprecated, support will be available until October 31, 2023. We won't release any new functionalities for intraday insights. 
+
+Effective April 30, 2024, intraday insights for Omnichannel for Customer Service will no longer be available for customers.
+
 
 ### See also
 

@@ -1,16 +1,13 @@
 ---
-title: "Set up resource pay types (Dynamics 365 Field Service) | MicrosoftDocs"
+title: Set up resource pay types
 description: Learn how to set up resource pay types track costs associated with resource bookings in Dynamics 365 Field Service
 ms.date: 07/28/2022
 
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
-search.app: 
-  - D365CE
-  - D365FS
 ---
-# Set up resource pay types to track costs associated with resource bookings in Dynamics 365 Field Service
+# Set up resource pay types
 
 Resource pay types can be used to track your company's costs associated with a resource booking. When the status of a resource booking record is set to "complete," the system generates booking journal records, according to the time that a field agent spent performing the work.  
   

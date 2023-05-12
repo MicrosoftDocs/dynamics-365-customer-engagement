@@ -4,7 +4,6 @@ description: "This article provides information on the basics of service and ser
 ms.date: 08/02/2022
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ms.topic: overview
 
 ---

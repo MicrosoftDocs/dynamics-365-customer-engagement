@@ -10,10 +10,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Enable an entity for scheduling in Universal Resource Scheduling

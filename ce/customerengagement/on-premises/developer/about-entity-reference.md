@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: b07033ee-97eb-4475-9d83-307201a05f1a
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
 search.audienceType: 
   - developer
 
@@ -75,6 +74,10 @@ In order to represent that there are no actual *Many-to-One* relationships with 
 
 ### Many-to-Many relationships
 Each Many-to-Many relationship includes <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity1LogicalName> and <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity2LogicalName>. For this documentation relationship details are only included in the topic for *Entity1*. Each Many-to-Many relationship where the entity is *Entity2* includes only a link to the details found in the topic for *Entity1*.
+
+>[!NOTE]
+>The developer concepts and operations related to sales in Dynamics 365 Customer Engagement (on-premises) are similar to Dynamics 365 Sales. For extensibility information about sales-related entities, see [Developer Guide for Dynamics 365 Sales](/dynamics365/sales/developer/developer-guide).
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

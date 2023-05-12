@@ -14,7 +14,6 @@ ms.assetid: 600f8305-bbe6-487b-a3bd-0249bb8e371f
 caps.latest.revision: 12
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Dynamics 365 VSS writer service
 

@@ -1,19 +1,12 @@
 ---
-title: "Edit the booking template in Universal Resource Scheduling"
-description: "The record that's created and displayed on the schedule board is built from the booking template. Learn how to edit the template using HTML and CSS."
-ms.date: 07/16/2019
+title: Edit the schedule board booking template in Universal Resource Scheduling
+description: Learn how to edit the booking template using custom HTML and CSS.
+ms.date: 02/14/2023
 ms.reviewer: mhart 
 ms.subservice: common-scheduler
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+ms.topic: how-to
+author: clearab
+ms.author: anclear
 ---
 
 # Edit the schedule board booking template in Universal Resource Scheduling

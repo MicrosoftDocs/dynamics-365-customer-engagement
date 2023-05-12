@@ -15,9 +15,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Insert sales literature or a knowledge base article in an email 
 

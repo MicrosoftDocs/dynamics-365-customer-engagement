@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: db508858-7386-44f3-9f91-29493e6fe2c4
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -26,7 +25,7 @@ search.audienceType:
 
 # Sample: Audit user access
 
-This sample code shows how to audit user access. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AuditUserAccess).
+This sample code shows how to audit user access. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/AuditUserAccess).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
