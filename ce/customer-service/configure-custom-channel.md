@@ -1,6 +1,6 @@
 ---
-title: Configure a custom messaging channel 
-description: Learn what a custom channel is and how to configure it, or bring your own channel, in Dynamics 365 Omnichannel for Customer Service.
+title: Configure custom messaging channels 
+description: Learn what a custom channel is and how to configure it, or bring your own channel, in Omnichannel for Customer Service.
 ms.date: 05/12/2023
 ms.topic: how-to
 author: neeranelli
@@ -9,7 +9,7 @@ ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
-# Configure a custom messaging channel
+# Configure custom messaging channels
 
 [!INCLUDE [cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
