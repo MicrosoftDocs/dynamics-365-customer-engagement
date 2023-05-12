@@ -1,7 +1,7 @@
 ---
 title: Configure a custom messaging channel 
 description: Learn what a custom channel is and how to configure it, or bring your own channel, in Dynamics 365 Omnichannel for Customer Service.
-ms.date: 02/23/2022
+ms.date: 05/12/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -29,7 +29,7 @@ In addition to built-in channels like chat and email, your organization can inte
 - [Have the app ID](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=userassigned#to-get-your-app-or-tenant-id&preserve-view=true).
 - [Have the client secret value](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=userassigned#to-generate-a-new-password&preserve-view=true).
 
-## Configure a custom messaging channel in the Customer Service admin center
+## Configure a custom messaging channel
 
 1. In the Customer Service admin center, under **Customer support**, select **Channels**. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
@@ -63,7 +63,7 @@ In addition to built-in channels like chat and email, your organization can inte
 
 1. [Configure callback information](#configure-callback-information)
 
-### Configure workstream and routing rules in the Customer Service admin center
+### Configure workstream and routing rules
 
 1. In Omnichannel for Customer Service, select **Workstreams**, and then [create a workstream](create-workstreams.md). Be sure to select **Messaging** for **Type** and **Custom** for **Channel**.
 
@@ -97,7 +97,7 @@ In addition to built-in channels like chat and email, your organization can inte
 1. Select **Apply**, and then close the Azure portal.
 
 1. Select **Save and close**.
-<!-- EDITOR'S NOTE: Since Omnichannel Administration has been deprecated for a year and is going away entirely in two months, do we even need to include instructions for using it? If we do need to, please rewrite them to have a more logical structure that's easier to follow. The current instructions seem illogically ordered: first create a workstream, then create a custom messaging account, followed by instructions for modifying custom channels. Please let me know if you revise the following section, or if these instructions really are correct as they are, and I'll edit the rest of this article from this point forward. -->
+
 #### Create a workstream in Omnichannel Administration
 
 **To create a workstream for custom channel in Omnichannel Administration**
@@ -115,13 +115,6 @@ In addition to built-in channels like chat and email, your organization can inte
 6. Select **Save** to save the changes.
 
 You've created a workstream for the custom channel. To learn more, see [Create workstreams](create-workstreams.md).
-
-To configure other options in the workstream, see the following:
-
-- [Skill-based routing](overview-skill-work-distribution.md)
-- [Productivity tools](../app-profile-manager/productivity-tools.md)
-- [Smart assist](../app-profile-manager/smart-assist.md)
-- [Templates](/dynamics365/app-profile-manager/templates-overview)
 
 #### Create a custom messaging account in Omnichannel Administration
 
@@ -142,7 +135,6 @@ To create a custom channel, follow these steps:
     | Account details |Name| Specify a name for the custom channel.| Contoso custom channel |
     | Account details |Microsoft app ID| Copy and paste the **Microsoft app ID** that you saved earlier from the Azure Bot Channel Registration page. <br> To learn more, see [Get registration password](/azure/bot-service/bot-service-quickstart-registration#get-registration-password). | cae1d83e-8b07-4fca-8072-c2eb3444vxyz |
     | Account details |Client secret| Copy and paste the **Client secret** that you saved earlier from the Azure Bot Channel Registration page.  <br> To learn more, see [Get registration password](/azure/bot-service/bot-service-quickstart-registration#get-registration-password).| |
-
 
 5. Select **Validate app ID + secret**  to validate the **Microsoft app ID** and **Client secret** values. After the validation, a toast notification is displayed. Also, the **Last validated** field shows time and date. This ensures that bots are active and client secret refreshes are consumed. 
 
