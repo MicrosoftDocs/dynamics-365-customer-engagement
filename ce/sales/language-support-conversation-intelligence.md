@@ -35,5 +35,9 @@ In the following table, **Y** indicates native support and **N** indicates non-n
 | Finnish       | Y         | Y         |  N   |  N  |  N  |  N  |    N    |  N |   N   |  N |
 | Norwegian     | Y         | Y         |  N   |  N  |  N  |  N  |    N    |  N |   N   |  N |
 | Arabic        | Y         | N         | Y   |  N  |  N  |  N  |    N    |  N |   N   |  N |
+| French (Canadian)       | Y         | N         | Y   |  N  |  N  |  N  |    N    |  N |   N   |  N |
+| Spanish (Mexico)       | Y         | N         | Y   |  N  |  N  |  N  |    N    |  N |   N   |  N |
+| English (UK)       | Y         | N         | Y   |  N  |  N  |  N  |    N    |  N |   N   |  N |
+
 
 All of the above insights are available in the **Call summary** page. For more information, see [View and understand call summary page in the Sales Hub app](view-and-understand-call-summary-sales-app.md).
