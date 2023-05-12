@@ -22,7 +22,7 @@ The following table shows the states in which the [!INCLUDE[pn-dyn-365-sales](..
 
 A system administrator can export read-only quote, order, and invoice records, update them, and import the updated records back to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
 
-It is also possible to update the read-only records programmatically with the SDK for Dynamics 365 Sales.
+It's also possible to update the read-only records programmatically with the SDK for Dynamics 365 Sales.
 
 ## Update read-only records through export or import
 
@@ -45,13 +45,13 @@ It is also possible to update the read-only records programmatically with the SD
 
 ## Important points
 
-- As a system administrator, you can edit any read-only field but changes will not reflect for the locked fields. 
+- As a system administrator, you can edit any read-only field but changes won't reflect for the locked fields. 
 
-- Non-admin users can't edit an active quote. However, an admin user can edit and save an active quote, although it is read-only for non-admin users.
+- Non-admin users can't edit an active quote. However, an admin user can edit and save an active quote, although it's read-only for non-admin users.
 
-- If configured, Plugins, Business processes and workflows will run on fields getting updated or becoming editable. 
+- If configured, Plugins, Business processes and workflows run on fields getting updated or becoming editable. 
 
-- In case of Dynamics 365 Sales integration with any third-party system, there is a chance that the privacy-related changes are overwritten if the correct sequence of updates is not followed. It's the responsibility of the system administrator of Dynamics 365 Sales to follow the correct order.  
+- If there is Dynamics 365 Sales integration with any third-party system, there's a chance that the privacy-related changes are overwritten if the correct sequence of updates isn't followed. It's the responsibility of the system administrator of Dynamics 365 Sales to follow the correct order.  
 
 
 
