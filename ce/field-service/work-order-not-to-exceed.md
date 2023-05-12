@@ -22,6 +22,10 @@ Service managers and frontline workers can optionally receive a warning when the
 
 A high-level work order process is outlined below.
 
+
+<!-- Note from editor: There's a typo in "technician" in the image below. It's in the box that says "Technican Dispatched & Performs Diagnosis" -->
+
+
 :::image type="content" source="media/NTE-flow-chart.png" alt-text="Flow chart of a work order process with cost considerations.":::
 
 ## Prerequisites
