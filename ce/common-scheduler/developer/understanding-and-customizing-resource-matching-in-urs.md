@@ -8,10 +8,6 @@ ms.reviewer: mhart
 
 ms.subservice: common-scheduler
 ms.topic: article
-search.app: 
-  - D365CE
-  - D365PS
-  - D365FS
 ---
 
 # Extend Universal Resource Scheduling with custom resource constraints

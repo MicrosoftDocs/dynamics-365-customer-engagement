@@ -3,15 +3,11 @@ title: "Customize themes in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use predefined and customized themes to define the look and feel of your agent application in Unified Service Desk."
 ms.date: 03/08/2022
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---
@@ -25,16 +21,12 @@ Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk
 
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] includes two predefined themes.
 
-::: moniker range=">=dynamics-usd-4"
-
 <a name="UnifiedBlueTheme"></a>
 ### Unified Blue theme
 
 This is the predefined theme for Unified Service Desk if you're using Unified Interface apps.
 
 ![Unified Blue in Unified Service Desk.](media/unified-blue-theme.png "Unified Blue in Unified Service Desk")
-
-::: moniker-end
 
 <a name="AirTheme"></a>   
 ### Air theme

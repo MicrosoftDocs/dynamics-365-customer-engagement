@@ -5,7 +5,6 @@ ms.date: 03/04/2021
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 

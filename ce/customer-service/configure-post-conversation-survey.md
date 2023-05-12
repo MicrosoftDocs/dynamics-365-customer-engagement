@@ -1,18 +1,17 @@
 ---
-title: "Configure post-conversation survey | MicrosoftDocs"
-description: "Instructions to configure a post-conversation survey in Omnichannel for Customer Service."
-ms.date: 07/18/2022
-ms.topic: article
+title: Configure post-conversation survey
+description: Learn how to configure a post-conversation survey in Omnichannel for Customer Service.
+ms.date: 03/08/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Configure a post-conversation survey
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 You can configure your chat widget to show users a survey that they can respond to after they finish a conversation.
 
@@ -52,8 +51,6 @@ The post-conversation survey uses Dynamics 365 Customer Voice to create surveys.
 ## Configure the post-conversation survey
 
 In the Customer Service admin center or Omnichannel admin center, you can set up surveys when configuring a channel or update an existing channel instance that is already configured.
-
-**To configure the survey**
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -126,7 +123,6 @@ For Live chat conversations, customers can receive survey questions within the s
    - **Insert survey in conversation:** At runtime, the agent can insert a survey link in an active conversation that results in the survey questions being displayed on the customer chat window. This option is available only for the Live chat channel.
 
 8. Select **Save**.
-
 
 ### See also
 

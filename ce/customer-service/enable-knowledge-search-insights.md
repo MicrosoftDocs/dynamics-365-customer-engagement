@@ -1,15 +1,14 @@
 ---
-title: "Configure knowledge analytics | MicrosoftDocs"
+title: "Manage knowledge analytics | MicrosoftDocs"
 description: "Learn how to configure Knowledge analytics dashboards."
 ms.date: 11/15/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Configure knowledge analytics
+# Manage knowledge analytics
 
 The Knowledge analytics dashboard is designed to provide your supervisors and knowledge workers with valuable insights into how your support agents are searching and using knowledge articles.
 

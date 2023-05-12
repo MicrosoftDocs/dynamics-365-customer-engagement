@@ -1,24 +1,23 @@
 ---
 title: "Dynamics 365 Marketing public IP addresses (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about the public IP addresses for Dynamics 365 Marketing clusters."
-ms.date: 12/07/2022
+ms.date: 03/17/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: overview
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Dynamics 365 Marketing public IP addresses
+
+> [!NOTE]
+> Dynamics 365 Marketing uses a set of dedicated IPv4 public network subnets for sending e-mails. [Learn more](public-ip-addresses-for-email-sending.md)
 
 The table below shows Marketing services public IP addresses listed by region.
 
@@ -36,3 +35,5 @@ The table below shows Marketing services public IP addresses listed by region.
 | South America (SAM)        | 191.234.179.19,<br>191.234.183.56,<br>4.201.64.2,<br>4.228.93.62,<br>4.228.93.69,<br>4.228.92.235,<br>4.228.92.245,<br>4.228.93.61,<br>191.232.176.65,<br>20.206.87.83,<br>20.226.27.26,<br>4.228.92.244,<br>4.228.93.60,<br>4.228.92.247 |
 | Switzerland (CHE)          | 51.103.161.238,<br>51.103.161.245,<br>20.250.43.56,<br>20.250.42.212,<br>20.250.44.9,<br>20.250.44.2,<br>20.250.43.102,<br>20.250.44.20,<br>51.103.129.87,<br>51.103.232.64,<br>51.107.82.106,<br>20.250.44.10,<br>20.250.43.155,<br>20.250.43.35 |
 | United Arab Emirates (UAE) | 40.123.196.88,<br>40.123.197.242,<br>20.74.174.154,<br>20.74.160.148,<br>20.74.149.223,<br>20.74.174.3,<br>20.74.173.117,<br>20.74.173.237,<br>20.74.247.106,<br>20.74.225.83,<br>20.216.34.248,<br>20.74.173.80,<br>20.74.174.136,<br>20.74.172.212 |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

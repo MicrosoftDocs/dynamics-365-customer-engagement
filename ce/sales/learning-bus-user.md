@@ -5,7 +5,6 @@ ms.date: 01/08/2020
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Business Users Learning Catalog for sales

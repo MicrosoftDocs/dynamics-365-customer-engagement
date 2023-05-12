@@ -7,7 +7,6 @@ ms.custom:
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 caps.latest.revision: 1
 ---
 # Create custom insight cards 

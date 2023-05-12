@@ -5,9 +5,6 @@ ms.date: 01/12/2023
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
-search.app: 
-  - D365CE
-  - D365FS
 ms.custom: bap-template
 ---
 # Use price lists

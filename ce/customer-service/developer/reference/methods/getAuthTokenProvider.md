@@ -3,9 +3,8 @@ title: "getAuthTokenProvider (Omnichannel for Customer Service JavaScript API re
 description: "Includes syntax and parameter information for the getAuthTokenProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
 ms.date: 07/01/2019
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ---
 
 # getAuthTokenProvider

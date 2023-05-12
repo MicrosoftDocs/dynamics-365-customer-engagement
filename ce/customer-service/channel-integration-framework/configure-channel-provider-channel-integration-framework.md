@@ -1,9 +1,8 @@
 ---
 title: "Configure channel providers for your Dynamics 365 organization | MicrosoftDocs"
 description: "Use this topic to understand how to configure channel providers in Dynamics 365 Channel Integration Framework 1.0."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.date: 10/21/2022
 ms.topic: article
 ms.custom: 

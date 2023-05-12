@@ -5,7 +5,6 @@ ms.date: 07/21/2020
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_salespro
   - D365-Entity-salesorder

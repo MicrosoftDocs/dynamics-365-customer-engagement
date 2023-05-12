@@ -2,20 +2,15 @@
 title: "User guide (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Contains topics that describe how to do common marketing tasks in Dynamics 365 Marketing."
 ms.date: 04/01/2018
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: hub-page
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Marketing user guide

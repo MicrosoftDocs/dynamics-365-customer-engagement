@@ -10,9 +10,6 @@ search.audienceType:
 ms.custom: 
   - dyn365-developer
   - dyn365-fieldservice
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # IoT - The Parent IoT Alerts workflow

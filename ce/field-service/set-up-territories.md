@@ -5,9 +5,6 @@ ms.date: 09/22/2022
 ms.topic: article
 author: ryanchen8
 ms.author: chenryan
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Territories for accounts, work orders, and resources
 
@@ -92,7 +89,7 @@ On a new schedule board tab, add one or more territories as filters, and the res
 
 :::image type="content" source="media/territory-filter-schedule-board.png" alt-text="Screenshot of the schedule board, showing the territory tab.":::
 
-To filter requirements by territories in the lower pane, select **Scheduler settings**. In **Board view settings**, set the **Apply territory** filter to **On**.
+To filter requirements by territories in the lower pane, select **Scheduler settings**. In **Board view settings**, set the **Apply territory filter to requirements** to **On**.
 
 ## Relate territories and postal codes
 

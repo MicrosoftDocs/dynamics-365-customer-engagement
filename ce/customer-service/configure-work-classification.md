@@ -1,11 +1,12 @@
 ---
-title: "Configure work classification rulesets | MicrosoftDocs"
-description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 07/18/2022
-ms.topic: article
+title: Configure work classification rulesets
+description: Learn how to configure work classification rulesets for unified routing.
+ms.date: 04/26/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 searchScope:
 - D365-App-customerservicehub
 - D365-Entity-queueitem
@@ -15,12 +16,6 @@ searchScope:
 - Customer Service
 ---
 # Configure work classification rulesets for unified routing
-
-## Introduction
-
-Use the CSR Manager or Omnichannel administrator role to configure the work classification rules for a workstream.
-
-You will do the tasks listed in this article in the Omnichannel admin center or Customer Service Hub app.
 
 In unified routing, work classification lets you define rules to add detailed information to incoming work items that can be used to route and assign the work items optimally.
 
@@ -43,13 +38,17 @@ In work classification rulesets, the values set in one of the rule items of a ru
 
 For a rule item, you can set the output values for up to five attributes.
 
+## Prerequisite
+
+You need the CSR Manager or Omnichannel administrator role to configure the work classification rules for a workstream.
+
 ## Create work classification rulesets
 
 Logical classification rules are run to update work item attributes. They are written in the format of "if defined condition satisfies, then set the output attributes to certain values." You can create conditions to define rules based on multiple entity attributes. Routing rules are written as rulesets that consist of rule items.
 
 To create a logical work classification ruleset, do the following steps:
 
-1. In Customer Service admin center, Omnichannel admin center, or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
+1. In Customer Service admin center or Omnichannel admin center (deprecated), select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
 
 2. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Logical rules** in **Rule type**, and enter a name and description. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule.
 
@@ -90,7 +89,8 @@ Follow these steps to create a logical skill classification ruleset:
 7. If you want to set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
 
    > [!Note]
-   > Ensure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the agent. Also, ensure that you don't attach the same skill with two different rating models.
+   > - Ensure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the agent. Also, ensure that you don't attach the same skill with two different rating models.
+   > - When you reroute a work item, new skills are appended to the existing ones if any.
 
 ## Create classification rulesets based on capacity profiles
 
@@ -99,7 +99,6 @@ Create work classification rulesets that are based on capacity profiles to route
 1. Perform the steps 1 through 5 in [Create logical skill classification rulesets](#create-logical-skill-classification-rulesets).
 2. In the **Output** area, select **Capacity profile**, and choose a capacity profile whose value should be set if the conditions are met.
    :::image type="content" source="media/capacity-profile-based-rule.png" alt-text="Capacity profile-based work classification rule.":::
-
 
 ## Create machine learning-based skill classification rulesets
 

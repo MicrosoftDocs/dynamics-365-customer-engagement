@@ -1,50 +1,50 @@
 ---
-title: Troubleshoot an issue faced when converting an email to a case | Microsoft Docs
+title: Troubleshoot issues with automatic record creation | Microsoft Docs
 description: See how you can fix an issue converting an email to a case in Dynamics 365 Customer Service
-ms.date: 10/11/2022
+ms.date: 05/04/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
 
-# Issue converting an email to a case
+# Troubleshoot issues with automatic record creation
 
-You can use the Activity monitor that is available on the **Record creation and update rules** page, and configure the options to view skipped scenarios, failed scenarios, or all scenarios for a time period. More information: [Use activity monitor to review and track rules](automatically-create-update-records.md#use-activity-monitor-to-review-and-track-rules).
+This article describes the troubleshooting steps to diagnose and fix issues with automatic record creation.
 
-## Case creation fails when mail is sent from queue address to same queue address on which automatic record creation rule is configured
+## Issue converting an email to a case
 
-### Scenario
+You can use the Activity monitor that is available on the **Record creation and update rules** page, and configure the options to view skipped scenarios, failed scenarios, or all scenarios for a time period. More information: [Use activity monitor to review and track rules](automatically-create-update-records.md#use-activity-monitor-to-review-and-track-rules)
+
+### Case creation fails when mail is sent from queue address to same queue address on which automatic record creation rule is configured
+
+#### Scenario
 
 1. Configure an automatic record creation rule for a queue in the web client.
 2. In the rule, set customer value as null (Channel properties).
 3. Send mail from sender as queue mail address to recipient as queue mail address. The case creation fails with the following error message: "Case is missing customer"
 
-### Reason
+#### Reason
 
 The automatic record creation rule in the web client considers the queue as a known sender and doesn't create a contact. Subsequently, the case creation fails because no account or contact is associated with the email.
 
 This is an expected behavior.
 
-### Resolution
+#### Resolution
 
 Perform the following steps as a workaround:
 
 1. Migrate your rule from the web client to Unified Interface. More information: [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md).
 2. Follow the information in [Configure advanced settings for rules](automatically-create-update-records.md#configure-advanced-settings-for-rules) to manage emails from unknown senders.
 
-## Incoming email not converted to a case
+### Incoming email not converted to a case
 
-### Troubleshooting steps
+#### Troubleshooting steps
  
 If the email to case conversion isn't working, follow the below troubleshooting steps to diagnose and fix the issue:
 
@@ -77,7 +77,7 @@ For more information about configuration failure scenarios and resolution for sa
 
 **Step 6**: Ensure that the queue email address is in the **To** or **Cc** fields of incoming mails. Emails sent with the queue address in the **Bcc** field won't be processed.
 
-### Configuration failure scenarios and resolutions
+#### Configuration failure scenarios and resolutions
 
 Given below is a list of some common issue scenarios and their resolutions.
  
@@ -122,7 +122,7 @@ This results in the following error in system jobs:
 
 To resolve this issue, leave contact field blank and set Customer field either to blank or to **{Sender(Email)}**.
 
-### Validation steps
+#### Validation steps
 
 You must validate the configuration and validation steps given in the following table to understand the main cause of the issue, and resolve it:
 
@@ -137,8 +137,35 @@ You must validate the configuration and validation steps given in the following 
 |Create a case for activities associated with a resolved case     |    Yes     |   For an incoming email related to a resolved case      |    A case is created     |
 |   |    Yes      |   For an incoming email related to an active case         |   No case is created      |
 |  |         |         |         |
- 
-### See also
+
+## Use of {Regarding(Email)} in legacy experience doesn't give the correct data in flow
+
+In legacy ARC rule items in Customer Service, to look up the entity (either contact or account) that sent an email, you can use the  **Sender (Email)** polymorphic lookup, which automatically fetches the appropriate entity and displays the entity's name. Polymorphic lookups are lookups where the target of the lookup is more than one kind of entity. For example, it can point to either a contact or an account. However, in modern ARC, this automatic display isn't supported, so you'll need to specify the type of entity you want to retrieve along with the fields to display from that entity.
+
+### Reason
+
+Flow doesn't use the **{Regarding(Email)}** value like legacy workflow because flow expressions reference a data value from one of the previous flow steps payload. For example, if the **{Regarding(Email)}** value is empty when the flow begins, the value in the trigger step payload for **{Regarding(Email)}** will remain empty. Even if the **{Regarding(Email)}** value gets updated after a case is created, the email record data gets updated but the payload in flow doesn't. So, when the value from the payload is referenced in the subsequent flow steps, it remains empty.
+
+### Resolution
+
+If the **{Regarding(Email)}** value is used in legacy rule items, you need to manually update the migrated flow to use the IncidentId or OData Id. Use the OData Id for fields that require entity reference or lookups. Use the Case unique identifier for fields that require GUID.
+
+## Issues with rendering polymorphic lookups on non-lookup fields during migration from legacy to modern ARC
+
+A legacy ARC rule item using polymorphic lookups such as **Sender** results in an invalid lookup when assigned to a text field. 
+
+In legacy ARC rule items in Customer Service, to look up the entity (either contact or account) that sent an email, you can use the  **Sender (Email)** polymorphic lookup, which automatically fetches the appropriate entity and displays the entity's name. Polymorphic lookups are lookups where the target of the lookup is more than one kind of entity, for example, it can point to either a contact or an account. However, in modern ARC, this automatic display isn't supported. So, you'll need to specify the type of entity you want to retrieve along with the fields to display from that entity.
+
+### Reason
+
+The classic workflow behavior used by legacy ARC has many hidden behaviors. For example, automatically determining the type of entity and fetching a field as the display name if the parameter is used in a string, but returning the ID if assigned to a lookup field. The platform migration code that ARC uses when converting from legacy to modern workflows doesn't add the required steps and fields.
+
+### Resolution
+
+- Update the lookup to a specific type.
+- Use a different field on the incoming entity that contains the desired text.
+
+## See also
 
 [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  
 [Automatically create a case from an email](automatically-create-case-from-email.md)  

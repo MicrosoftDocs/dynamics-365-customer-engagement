@@ -3,15 +3,11 @@ title: "Channel Integration Framework (Hosted Control) | MicrosoftDocs"
 description: "Learn about the Channel Integration Framework hosted control type and the predefined UII actions supported by it."
 ms.date: 04/10/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 monikerRange: '>= dynamics-usd-4.1'

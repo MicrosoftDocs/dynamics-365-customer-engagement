@@ -1,20 +1,16 @@
 ---
-title: "Access and interpret analytics (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to access and interpret real-time marketing analytics in Dynamics 365 Marketing."
-ms.date: 02/21/2023
+title: Access and interpret analytics
+description: How to access and interpret real-time marketing analytics in Dynamics 365 Marketing.
+ms.date: 05/08/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Access and interpret analytics
@@ -29,6 +25,27 @@ With real-time marketing analytics, you can:
 - Troubleshoot journeys by identifying areas of friction.
 - Discover what is working so that you can amplify or recreate the same approach elsewhere.
 - Understand the effectiveness of various messages and channels of communication through key delivery and engagement insights.
+- Gain insights into your audience's behavior and interests and tailor your marketing efforts to their specific needs. 
+
+### Contact insights
+
+Get a comprehensive view of how a contact has engaged with your journeys in real-time marketing, including all past email sends, opens, clicks, form submissions, and more. Better understand your audience's behavior and interests, make informed decisions based on past engagement, and tailor your marketing efforts to their needs and preferences. To view contact insights, go to **Real-time marketing** > **Audience** > **Contacts**, select a contact record, and then open its **Insights** tab.
+
+The following insights categories are provided:
+
+- **Overview**: View a chart of the engagement interactions and a summary of the most important KPIs for each channel for the selected contact.
+- **Email insights**: View complete details of email interactions for the selected contact, including a list of all messages sent to them, plus lists of all opens, clicks, bounces, and more. 
+- **Form insights**: See which marketing forms the Contact has visited and submitted. View the content of each submission.
+- **Text message insights**: View complete details of text message interactions for the selected contact, including a list of all messages sent to them, plus lists of all clicks, replies, and more.
+- **Push notification insights**: See complete details of push notification interactions for the selected Contact, including a list of all messages sent to them and more.
+- **Custom channels insights**: View complete details of custom channel interactions for the selected Contact, including messages sent, clicked and more.
+ 
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of custom channel contact insights.](media/real-time-marketing-custom-channel-contact-insights.png "Screenshot of custom channel contact insights")
+
+### Lead insights
+
+Just like with Contact insights, you can access a complete overview of your selected Lead's interactions with your marketing initiatives. The insights categories displayed for a Lead are the same as previously described in [Contact insights](#contact-insights). To view Lead insights, go to **Real-time marketing** > **Audience** > **Leads**, select a Lead record, and then open its Insights tab.
 
 ### Journey operational analytics
 
@@ -46,7 +63,7 @@ Select any journey component to view near real-time operational analytics in the
     > [!div class="mx-imgBorder"]
     > ![Email channel analytics screenshot.](media/real-time-marketing-channel-analytics.png "Email channel analytics screenshot")
 
-    To view delivery and interaction statistics, select the **Delivery and interaction details** link at the bottom of the channel analytics pane.
+    To view delivery and interaction statistics, select the **Delivery and interaction details** link at the bottom of the channel analytics pane. Delivery and interaction details allow you to analyze delivery, engagement, and performance data for your email, text, or push notification messages. The **Delivery** tab provides details on messages sent, delivered, blocked, or bounced along with the respective reasons. The **Interactions** tab provides detailed data on customers that opened or clicked a message, as well as unsubscription interaction data. It's important to note that a message’s unique opens and clicks are calculated based on the journey run of a customer. This means that if the same customer enters the same journey multiple times and opens or clicks the same message each time, the system will record multiple unique opens or clicks. For example, if a customer clicks the same message in two different journey executions, two unique clicks will be recorded. 
 
     > [!div class="mx-imgBorder"]
     > ![Delivery and interactions details screenshot.](media/real-time-marketing-analytics-interactions.png "Delivery and interactions details screenshot")
@@ -57,7 +74,7 @@ Select any journey component to view near real-time operational analytics in the
     > ![AI optimization screenshot.](media/real-time-marketing-ai-optimization.png "AI optimization screenshot")
 
 > [!NOTE]
-> Data retention is 12 months for Goal analytics, Channel analytics (including delivery and interaction details), and AI optimization analytics.
+> Data retention is 12 months for Contact insights, Lead insights, goal analytics, channel analytics (including delivery and interaction details), and AI optimization analytics.
 
 ### Aggregate cross-journey analytics
 
@@ -84,8 +101,19 @@ Learn more: [How to use aggregate channel analytics](real-time-marketing-channel
 > [!NOTE]
 > There is no retention policy for real-time marketing interactions in Aggregate cross-journey analytics and Aggregate channel analytics. Dataverse entities are limited to a two-year retention policy after their initial creation date. Keep in mind that the two-year Dataverse entity retention policy might impact analytics views associated with interaction data from Dataverse entities.
 
+### Marketing effectiveness analytics
+
+The marketing effectiveness analytics dashboard enables you to set up key milestones in your buyer’s journey and analyze how your real-time marketing activities are contributing to driving customers to those milestones. The dashboard uses AI-powered multi-touch and single-touch attribution models.
+
+> [!div class="mx-imgBorder"]
+> ![Marketing effectiveness analytics dashboard.](media/real-time-marketing-effectiveness-analytics-dashboard.png "Marketing effectiveness analytics dashboard")
+
+Learn more: [Preview: Marketing effectiveness analytics](real-time-marketing-effectiveness.md)
+
 ## Learn more
 
 Here are some advanced resources for this topic:
 
 - [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

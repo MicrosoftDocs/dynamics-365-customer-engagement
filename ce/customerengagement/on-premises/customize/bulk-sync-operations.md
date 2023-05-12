@@ -12,7 +12,6 @@ author: "msftman"
 ms.assetid: 
 caps.latest.revision:
 ms.author: "deonhe"
-manager: "kvivek"
 search.audienceType: 
   - admin
 ---

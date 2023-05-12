@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: overview
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Real-time marketing overview
@@ -62,3 +58,5 @@ Learn about making the move from outbound to real-time marketing in the free [Tr
 - Migrating your marketing artifacts
 - Identifying potential challenges
 - Retiring the use of outbound marketing
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

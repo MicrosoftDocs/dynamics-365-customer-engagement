@@ -5,7 +5,6 @@ ms.date: 02/02/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Create and activate an assignment rule 
 
