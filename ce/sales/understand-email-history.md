@@ -1,15 +1,16 @@
 ---
 title: Understand email interaction history
-description: Understand and view the email interaction history such as, alerts, clicked a link, opened an attachment, or sent a reply.
+description: Learn how to view the interaction history of your emails to customers, including alerts, link selections, opened attachments, and replies sent.
 author: udaykirang    
 ms.author: udag
 ms.reviewer: shujoshi
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/27/2023
 ms.custom: bap-template
 ---
 
-# Understand email interaction history 
+# Understand email interaction history
+<!-- EDITOR'S NOTE: I combined this file with email-engagement.md. When I read that article, I expected to find instructions for viewing email interaction history, which is the title of the article, but the content I expected there is in this article. Please delete and redirect this one. Thanks! -->
 
 Use email engagement to view the message interaction history such as, alerts, clicked a link, opened an attachment, or sent a reply on your emails.
 
