@@ -7,9 +7,7 @@ author: udaykirang
 ms.author: udag
 ---
 
-# Manage text message conversations (Preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Manage text message conversations
 
 You can manage customer conversations through incoming and outgoing text messages as a part of your sales outreach.   
 
@@ -81,6 +79,22 @@ You can only view conversations if the outbound phone number or record is assign
 
     Open the text message step from the **Up next** widget or the work list item. More information: [Send a text message to customers](connect-with-customers.md#send-a-text-message-to-customers)  
     
+## Move conversations to a different record
+
+The inbound text messages are connected to the record that has the most recent conversation between the seller and the customer. If the conversation is related to a different record, you can move the conversation to that record. It also helps in ensuring that relevant information is properly associated with the appropriate records and that communication history remains accessible. For example, if the conversation is related to an opportunity record, you can move the conversation to the contact record.
+
+1. From the conversation window, select the conversations.
+
+    :::image type="content" source="media/sms-move-conversation-select-message.png" alt-text="Screenshot of the conversation pane with messages select to move to a different record." lightbox="media/sms-move-conversation-select-message.png":::
+
+1. Select **Change**.
+
+1. Use the lookup field and select the record to which you want to move the conversation.
+    
+The conversation are moved to the selected record. To verify, go to record and open the conversation pane. In this example, we have moved the conversation from Nancy Anderson (contact record) to A. Datum Corporation (account record).
+
+    :::image type="content" source="media/sms-move-conversation-move-confirmation.png" alt-text="Screenshot of the conversation pane with the moved messages." lightbox="media/sms-move-conversation-move-confirmation.png":::
+
 ## Understand the conversation pane
 
 The conversation pane is where you, as a seller, interact with your customer. You can do the following tasks through the conversation pane:
@@ -100,10 +114,11 @@ The following image is an example of the conversation pane.
 
 3. **Choose phone number**: If multiple phone numbers are assigned to you or your team, you can choose a number from which you want to send and receive the message. More information: [Set up the SMS provider in Dynamics 365 Sales](configure-sms-provider.md#set-up-the-sms-provider-in-dynamics-365-sales) 
 
->[!NOTE]
->- Delivery report of the text message is displayed below the message. The delivery report is displayed only if the SMS provider supports it. More information: [Configure SMS provider](configure-sms-provider.md)
->- If the delivery of the message fails, an information icon is displayed next to the message. Hover over the icon to view the reason for the failure. Take appropriate action to resolve the failure. For example, if the message is sent to an invalid number, the reason for the failure is displayed as **InvalidRecipientPhoneNumber**. To resolve the failure, ensure that the number is valid and is in the international telephone numbering plan (E.164 format). 
-
+4. **Delivery report**: Delivery report of the text message is displayed below the message. The delivery report is displayed only if the SMS provider supports it. More information: [Configure SMS provider](configure-sms-provider.md).  
+    If the delivery of the message fails, hover over the delivery message to view the reason for the failure. Take appropriate action to resolve the failure. For example, if the message is sent to an invalid number, the reason for the failure is displayed as **InvalidSendingParameters**. To resolve the failure, ensure that the number is valid and is in the international telephone numbering plan (E.164 format).
+    
+    :::image type="content" source="media/sms-delivery-report-failed.png" alt-text="Screenshot of the text message with a failed delivery report." lightbox="media/sms-delivery-report-failed.png":::
+    
 ### See also
 
 [Engage with customers through text messages](sms-intro.md)   
