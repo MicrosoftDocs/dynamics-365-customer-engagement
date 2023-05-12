@@ -19,7 +19,7 @@ As an administrator, you can configure conversation intelligence with Microsoft 
 
 If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call recording through quick setup. Go to the **Get started with digital sales** page under **App Settings** in your sales app. Your sellers will get three hours of conversation intelligence per month.
 
-[Learn more about Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md).
+[Learn more about conversation intelligence for Sales Enterprise license](digital-selling-microsoft-teams-calls.md).
 
 ## License and role requirements
 
