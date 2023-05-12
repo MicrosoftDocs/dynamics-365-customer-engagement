@@ -32,7 +32,7 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     - **Lead**: Each form submission creates a new record, even if the same email address is used.
     - **Contact**: If a record with the same email address already exists, it's updated. No duplicate contact is created if the same email address is used.
 
-    You can change the duplicate record handling in the [form settings](#form-settings).
+    You can change the duplicate record handling in the [form settings](real-time-marketing-manage-forms.md#form-settings).
 
     In this example, enter a name for your new form and select **Contact** as the target audience.
 
@@ -54,7 +54,7 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     > [!div class="mx-imgBorder"]
     > ![Filter the list of fields.](media/real-time-marketing-form-last-name.png)
 
-1. **Drag a field from the list and drop it on the form canvas**. Once the field is added, the field's properties are shown in the right pane. The field properties can be used to set if it's a required field, configure validation, and more. Learn more about [form field properties](#form-field-properties). There are multiple types of fields available with different properties, check the list of [field types](#field-types).
+1. **Drag a field from the list and drop it on the form canvas**. Once the field is added, the field's properties are shown in the right pane. The field properties can be used to set if it's a required field, configure validation, and more. Learn more about [form field properties](real-time-marketing-manage-forms.md#form-field-properties). There are multiple types of fields available with different properties, check the list of [field types](real-time-marketing-manage-forms.md#field-types).
 
     > [!div class="mx-imgBorder"]
     > ![Field properties are opened once you add a field to the form.](media/real-time-marketing-form-properties.png)
@@ -102,14 +102,14 @@ Adding the Commercial communications and Tracking consent elements creates Conta
     > [!div class="mx-imgBorder"]
     > ![Preview the form.](media/real-time-marketing-form-preview.png)
 
-1. To publicly share your form, select the **Publish** button in the top right corner. The form is automatically saved and the [validation process](#form-validation) starts. You may need to add other required fields to your form to pass the validation. By default, the **Email** field is required to check if the same Contact already exists. Once the form is successfully validated, you see the following options on how to publish your form. Learn more on how to [publish the form](#publish-your-form).
+1. To publicly share your form, select the **Publish** button in the top right corner. The form is automatically saved and the [validation process](real-time-marketing-manage-forms.md#form-validation) starts. You may need to add other required fields to your form to pass the validation. By default, the **Email** field is required to check if the same Contact already exists. Once the form is successfully validated, you see the following options on how to publish your form. Learn more on how to [publish the form](real-time-marketing-manage-forms.md#publish-your-form).
 
     > [!div class="mx-imgBorder"]
     > ![Publish the form.](media/real-time-marketing-form-publish.png)
 
     > [!IMPORTANT]
     > Make sure the domain where you embedded your form is allowed for external form hosting. If the domain isn't allowed for external form hosting, the form won't be rendered on your web page and all form submissions will be rejected. Learn more about [domain authentication](domain-authentication.md).
-    > The out-of-box domain for a standalone page is enabled by default. [Learn more](#publish-your-form)
+    > The out-of-box domain for a standalone page is enabled by default. [Learn more](real-time-marketing-manage-forms.md#publish-your-form)
 
 1. Set up a "thank you" email for web page visitors who submitted the form. You can create a new journey using the *Marketing Form Submitted* trigger, which is executed every time your form is submitted. Learn more about creating a [trigger-based journey](real-time-marketing-trigger-based-journey.md).
 
