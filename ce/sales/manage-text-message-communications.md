@@ -81,7 +81,7 @@ You can only view conversations if the outbound phone number or record is assign
     
 ## Move conversations to a different record
 
-The inbound text messages are connected to the record that has the most recent conversation between the seller and the customer. If the conversation is related to a different record, you can move the conversation to that record. It also helps in ensuring that relevant information is properly associated with the appropriate records and that communication history remains accessible. For example, if the conversation is related to an opportunity record, you can move the conversation to the contact record.
+The inbound text messages are connected to the record that has the most recent conversation between the seller and the customer. If the conversation is related to a different record, you can move the conversation to that record. Also, you can move conversation from one record type to another. For example, if the conversation related to a contact record is associated with an account record, you can move the conversation to the contact record.
 
 1. From the conversation window, select the conversations.
 
@@ -91,9 +91,7 @@ The inbound text messages are connected to the record that has the most recent c
 
 1. Use the lookup field and select the record to which you want to move the conversation.
     
-The conversation are moved to the selected record. To verify, go to record and open the conversation pane. In this example, we have moved the conversation from Nancy Anderson (contact record) to A. Datum Corporation (account record).
-
-:::image type="content" source="media/sms-move-conversation-move-confirmation.png" alt-text="Screenshot of the conversation pane with the moved messages." lightbox="media/sms-move-conversation-move-confirmation.png":::
+The conversation are moved to the selected record. To verify, go to the target record and open the conversation pane.
 
 ## Understand the conversation pane
 
@@ -114,10 +112,8 @@ The following image is an example of the conversation pane.
 
 3. **Choose phone number**: If multiple phone numbers are assigned to you or your team, you can choose a number from which you want to send and receive the message. More information: [Set up the SMS provider in Dynamics 365 Sales](configure-sms-provider.md#set-up-the-sms-provider-in-dynamics-365-sales) 
 
-4. **Delivery report**: Delivery report of the text message is displayed below the message. The delivery report is displayed only if the SMS provider supports it. More information: [Configure SMS provider](configure-sms-provider.md).  
-    If the delivery of the message fails, hover over the delivery message to view the reason for the failure. Take appropriate action to resolve the failure. For example, if the message is sent to an invalid number, the reason for the failure is displayed as **InvalidSendingParameters**. To resolve the failure, ensure that the number is valid and is in the international telephone numbering plan (E.164 format).
-    
-    :::image type="content" source="media/sms-delivery-report-failed.png" alt-text="Screenshot of the text message with a failed delivery report." lightbox="media/sms-delivery-report-failed.png":::
+4. **Delivery report**: Delivery report of the text message is displayed below the message. It's displayed only if the SMS provider supports it. More information: [Configure SMS provider](configure-sms-provider.md).  
+    If the message is undelivered, hover over the delivery message to view the reason for the failure. Take appropriate action to resolve the failure. For example, if the message is sent to an invalid number, the reason for the failure is displayed as **InvalidSendingParameters**. To resolve the failure, ensure that the number is valid and is in the international telephone numbering plan (E.164 format).
     
 ### See also
 
