@@ -86,7 +86,7 @@ The following capabilities are available in the different app experiences, depen
 | Conversations (with Chat or Digital Messaging Offers)  | ✔ | ✔ |✖  | ✖ |✖  |
 | Channels (with Digital Messaging Offer)  | ✔ | ✔ |✖  | ✖ |✖  |
 |Voice channel (with Voice Channel for Dynamics 365 Customer Service)| ✔ | ✔ |✖  | ✖ |✖  |
-| Knowledge management  |  ✔  |  ✔  |✔| Read only | ✔ |
+| Knowledge management  |  ✔  |  ✔  |✔| Read-only | ✔ |
 | Insights, analytics, and dashboards | ✔ | ✔| ✔ | ✖ | ✖ |
 | Service scheduling  | ✔ | Not applicable | ✔ | ✖ | ✔ |
 | Connected Service with IoT  |✔  | ✖ | ✔  | ✖ |✖  |

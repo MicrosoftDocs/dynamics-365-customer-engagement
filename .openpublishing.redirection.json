@@ -2023,6 +2023,32 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/developer/reference/custom-actions/msdyn_WKWGDPRDeleteStatus.md",
+      "redirect_url": "msdyn_WKWPrivacyDeleteStatus",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/reference/custom-actions/msdyn_WKWDeleteGDPRData.md",
+      "redirect_url": "msdyn_WKWDeletePrivacyData",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/dynamics-365-sales-gdpr.md",
+      "redirect_url": "dynamics-365-sales-privacy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/embedded-intelligence-gdpr.md",
+      "redirect_url": "embedded-intelligence-privacy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/sales-gdpr-faqs.md",
+      "redirect_url": "sales-privacy-faqs",
+      "redirect_document_id": "false"
+    },
+    
+    {
       "source_path": "ce/sales/faqs-sales.md",
       "redirect_url": "faq-sales",
       "redirect_document_id": "false"
@@ -25086,6 +25112,11 @@
       "source_path": "ce/field-service/reminders-arrival-time.md",
       "redirect_url": "/dynamics365/field-service/customer-portal-overview",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-move-triggers.md",
+      "redirect_url": "/dynamics365/marketing/move-triggers-between-environments",
+      "redirect_document_id": false
     }
   ]
 }
