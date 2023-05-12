@@ -93,7 +93,7 @@ The inbound text messages are connected to the record that has the most recent c
     
 The conversation are moved to the selected record. To verify, go to record and open the conversation pane. In this example, we have moved the conversation from Nancy Anderson (contact record) to A. Datum Corporation (account record).
 
-    :::image type="content" source="media/sms-move-conversation-move-confirmation.png" alt-text="Screenshot of the conversation pane with the moved messages." lightbox="media/sms-move-conversation-move-confirmation.png":::
+:::image type="content" source="media/sms-move-conversation-move-confirmation.png" alt-text="Screenshot of the conversation pane with the moved messages." lightbox="media/sms-move-conversation-move-confirmation.png":::
 
 ## Understand the conversation pane
 
