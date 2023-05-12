@@ -31,7 +31,7 @@ The solution’s goal is to provide a reusable pattern incorporating multi-count
 The simplest scenario is to construct the solution on existing columns and tables in Dynamics 365 Marketing’s out of the box data model. We have a country's free text field in the Contact table, which allows us to profile the audience depending on their country of residence.  
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Screenshot showing conditional content free text country](media/real-time-marketing-country-free-text-field.png "Screenshot showing conditional content free text country")
 
 ### Create content block with conditional content
 
@@ -40,22 +40,22 @@ Because the terms and conditions is something we want reuse across multiple emai
 In this content block, we add a section and column where the text of the terms and conditions is placed. Next, different [conditions](conditional-content.md) are added for the various countries that are supported in the footer. In the example below we’re supporting three countries: UK, Spain, and Mexico. 
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Screenshot showing the country footer](media/real-time-marketing-content-block-country-footer.png "Screenshot showing the country footer")
 
 In each of the variations, we have a condition that compares the country field with the corresponding value of the country.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Add conditions as compared to the country field](media/real-time-marketing-define-condition.png "Add conditions as compared to the country field")
 
 Within each of the variations, we add the text appropriate for the country in the language corresponding to that country. Below is the example for the United Kingdom which is in English.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Add text as per the country's language](media/real-time-marketing-add-text-in-footer.png "Add text as per the country's language")
 
 And below is the equivalent content for Spain which is in Spanish.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Add text as per the country's language for Spain](media/real-time-marketing-add-text-in-footer1.png "Add text as per the country's language for Spain")
 
 Once all conditional blocks are complete, the content block can be marked “Ready to Send” which allows its use in emails.
 
@@ -68,7 +68,7 @@ The above scenario is dependent on the users entering the country in a free text
 The first step to implement the solution is to create a table to allows us to profile contacts based on their country. Using the [Maker Portal](https://make.powerapps.com/), create a [new table](https://learn.microsoft.com/power-apps/maker/data-platform/create-edit-entities-portal) for Country and populate with the countries that are supported by the solution. 
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Use lookup tables for countries](media/real-time-marketing-conditional-lookup-country.png "Use lookup tables for countries")
 
 Then we update the Contact table by adding a [table relationship](https://learn.microsoft.com/power-apps/maker/data-platform/data-platform-entity-lookup) between the Country table and the Contact table. With the relationship in place, the Form for the [Contact table](https://learn.microsoft.com/power-apps/maker/model-driven-apps/create-design-forms) is updated to allow users to specify the Country and Language of the Contact.
 
@@ -77,12 +77,12 @@ Then we update the Contact table by adding a [table relationship](https://learn.
 With that data model extension in place, we update the content block to be based on the custom column created. We continue to work with the same three countries but now each one of the conditions is looking at the Contact’s custom country column and refer to the country table.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Define condition using contact's custom country column](media/real-time-marketing-define-condition-using-related-table.png "Define condition using contact's custom country column")
 
 As with the previous scenario, we can specify the text desired for the terms and conditions for the language appropriate for the country.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Define country's terms and conditions as per it's language](media/real-time-marketing-define-terms-conditions-as-per-country.png "Define country's terms and conditions as per it's language")
 
 ## Scenario 3 – Multiple languages in same country
 
@@ -94,7 +94,7 @@ On some countries, there are multiple official languages or languages that are s
 To support the extra profiling needed, we create a new table for language, following the process done for countries. Then, we populate with the list of languages for which we want to create content.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Screenshot showing multiple languages of same country](media/real-time-marketing-multiple-languages-same-country.png "Screenshot showing multiple languages of same country")
 
 Then, we create an additional Many to One relationship between the Contact table and the Language table and expose the new field on the Contact form. 
 
@@ -103,12 +103,12 @@ Then, we create an additional Many to One relationship between the Contact table
 Now that we have two different angles (country and language) on which to personalize the content, we update the conditions within the variations of the content block to account for comparing two different fields to the attributes of the audience. We add a different variation for each country-language pair for which content is needed. The conditions look like as follows:
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Screenshot showing defining multiple conditions using content blocks for multiple languages](media/real-time-marketing-define-multiple-conditions-using-content-blocks.png "Screenshot showing defining multiple conditions using content blocks for multiple languages")
 
 Once all the variations have been configured, the content block looks like as follows:
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Screenshot showing the country footer with multiple languages in same country](media/real-time-marketing-ready-to-use-content-block.png "Screenshot showing the country footer with multiple languages in same country")
 
 ## Scenario 4 – Easing the administration of standard content
 
@@ -123,38 +123,38 @@ In addition, having a single variation in the content block where all languages 
 To support this scenario, we make one additional extension to Marketing. We create a table which holds the text that email communications use for the various country and language combinations. In this example, we are calling the table that will hold the terms and conditions Legal Text. In this table, we also add a Rich-Text Field (called Formatted Text in the screenshot below) that will allow the better formatting of the content to be added to the email. 
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Screenshot showing text formatting using Rich text field](media/real-time-marketing-better-text-formatting.png "Screenshot showing text formatting using Rich text field")
 
 In this table we can create all the necessary combinations which will be later used in the Content Block.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Screenshot showing formatted text that can be further used in content block](media/real-time-marketing-active-legal-text.png "Screenshot showing formatted text that can be further used in content block")
 
 #### Adding inline conditions and predefined dynamic text to content block
 
 In the previous scenarios we have been working with conditions added to content variations in the content block. However, to reduce the number of variations and facilitate the administration, we will now add [inline conditions](real-time-marketing-personalize-inline-conditions.md) in country variations that will be checking a contact’s language against each of the language options. The following example shows the check for the English language. 
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Add inline conditions to content block for contact's language as per their country](media/real-time-marketing-add-inline-condition-to-content-block.png "Add inline conditions to content block for contact's language as per their country")
 
 This will be complemented with an additional level of personalization will be require being able to dynamically read the formatted text of the terms and conditions from the [Legal Texts](real-time-marketing-predefined-dynamic-text#using-data-from-additional-tables-in-dynamic-text) table using data from additional tables feature.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Screenshot showing selecting attribute](media/real-time-marketing-select-attribute-text-formatting.png "Screenshot showing selecting attribute")
 
 After selecting the attribute with the text to select, it is necessary to pick the record with data to dynamically substitute in the email. Below it is shown how the “English text for the UK” is picked and the name “UKEnglishText” is given to the token for the personalization. 
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Screenshot showing selecting the text from a specific record](media/real-time-marketing-example-1.png "Screenshot showing selecting the text from a specific record")
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Screenshot showing selecting the text from a specific record and using it as a token for more personalization](media/real-time-marketing-example-2.png "Screenshot showing selecting the text from a specific record and using it as a token for more personalization")
 
 This process will need to be repeated for the various possible combinations of country and language that are possible. 
 With the tokens ready, we build the logic for each country’s conditional block. To do this, each desired combination will be placed within an {{#if}} condition as shown below.  
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Screenshot showing tokens ready to use](media/real-time-marketing-logic-build-country-conditional-content.png "Screenshot showing tokens ready to use")
 
 The benefit of structuring the conditional content in this manner is that we end up with one variation per country which easily shows all the language options for that country. In the above example, we can see the UK variation showing language options for English and Welsh. 
 
@@ -163,12 +163,15 @@ The benefit of structuring the conditional content in this manner is that we end
 Regardless of the scenario built, with the content block ready we can now use in an email, knowing that the terms and conditions will be sent according to the contact’s country and, if configured, the contact’s language. 
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Create email as per the country's language](media/real-time-marketing-create-email.png "Create email as per the country's language")
 
 This is an example will render for customers in United Kingdom and Spain with different text.
 
 > [!div class="mx-imgBorder"]
-> ![](media/real-time-marketing-.png "")
+> ![Screenshot showing email as per UK's language](media/real-time-marketing-email-created-1.png "Screenshot showing email as per UK's language")
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing email as per Spain's language](media/real-time-marketing-email-created-2.png "Screenshot showing email as per Spain's language")
 
 ### Next steps
 
