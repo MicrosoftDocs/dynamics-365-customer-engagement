@@ -1,6 +1,6 @@
 ---
-title: Sales Insights and privacy laws | Microsoft Docs"
-description: "Protect customer privacy and remain compliant with privacy rules and regulations when using Sales Insights add-in for Dynamics 365."
+title: Sales Insights and privacy laws
+description: Protect customer privacy and remain compliant with privacy rules and regulations when using Sales Insights add-in for Dynamics 365.
 ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang

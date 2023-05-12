@@ -123,7 +123,7 @@ landingContent:
   linkLists:
       - linkListType: concept
         links:
-        - text: Dynamics 365 Sales and and privacy laws 
+        - text: Dynamics 365 Sales and privacy laws 
           url: dynamics-365-sales-privacy.md
         - text: Sales Insights and and privacy laws 
           url: embedded-intelligence-privacy.md
