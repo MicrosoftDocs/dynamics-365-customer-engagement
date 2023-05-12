@@ -89,7 +89,7 @@ If you save the case using the enhanced full case form, you'll see the following
    - View details of the relevant records associated to a case on **Case associations**.  
    -  Timeline to view information related to the events that happened on the case.
    - Upload and view attachments linked to the case on the **Attachment** tab. You can also:
-      - See the source of the attachment such as direct upload, attachments uploaded through notes or shared through conversation and the user who uploaded the attachments.
+      - See the source of the attachment such as direct upload, attachments uploaded through notes, email, or shared through conversation and the user who uploaded the attachments.
       - Use the dropdown list to switch between grid and tile views.
       - Search for attachments
       - Sort and filter attachments based on **Name**, **Size**, **Uploaded on**, **Uploaded by**, and **Source**.
@@ -98,7 +98,7 @@ If you save the case using the enhanced full case form, you'll see the following
 
    > [!NOTE]
    > - You can delete only those attachments that have **Source** set to **Direct Upload**.
-   > - For an attachment shared over a conversation, **Uploaded By** is set to **Omnichannel User** and **Uploaded on** is the time when the conversation ended.
+   > - Attachments shared over a conversation will be displayed only if a case is linked to the conversation and the conversation has ended. The **Uploaded By** is set to **Omnichannel User** and **Uploaded on** is the time when the conversation ended.
    > - You'll see the enhanced full case form when you open an existing case only if your administrator has set enhanced **Full case form** as the default form.
 
 :::image type="content" source="media/edit-enh-fullcase.png" alt-text="Edit enhanced main case form" lightbox="media/edit-enh-fullcase.png":::

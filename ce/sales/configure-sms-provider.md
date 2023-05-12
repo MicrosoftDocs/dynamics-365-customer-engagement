@@ -18,12 +18,6 @@ Currently, the following providers are supported:
 - [Telesign](#sign-up-for-and-configure-a-telesign-account) 
 - [Twilio](#sign-up-for-and-configure-a-twilio-account) 
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System administrator<br> More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
-
 ## Prerequisites
 
 Before you configure the SMS provider, do the following:   
@@ -168,9 +162,6 @@ To set up the SMS provider number in Dynamics 365 Sales:
 9.	On the **Review and finish** page, review the information that you've provided for the channel and then select **Done**.
     
     The provider is added to your SMS provider list.
-
-
-[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
