@@ -57,6 +57,24 @@ Email address validation looks for the following issues:
 
 Sellers can view invalid email addresses on record forms, work list items, and the **Up next** widget in sales accelerator. More information: [Work with invalid email addresses](work-invalid-email-addresses.md)
 
+## Difference between Dynamics 365 Sales and Power Apps 
+
+The email validation feature in Power Apps works on the same principle as Dynamics 365 Sales. However, there are some differences in the implementation and are listed below. 
+
+- **Validation** 
+    - In Dynamics 365 Sales, the validation process runs every 30 minutes and targets only the primary email address in lead and contact records that are less than 180 days old. The feedback is displayed each time the form is loaded. 
+    - In Power App, the validation process dynamically runs on all email address fields, and the user is provided with feedback immediately.  
+
+- **Actions**
+    - In Dynamics 365 Sales, the user can mark the invalid email addresses as valid. More information: [Work with invalid email addresses](work-invalid-email-addresses.md)
+    - In Power Apps, the user can't mark the invalid email addresses as valid.
+
+- **Both features enabled**
+When the email validation feature is enabled in both Dynamics 365 Sales and Power Apps, the primary email addresses of leads and contacts are validated according to the Dynamics 365 Sales implementation. However, for other email addresses, validation is based on the Power Apps implementation.
+
+>[!NOTE]
+>To know more about the email validation feature in Power Apps, see [Email address validation for email columns](/power-apps/maker/data-platform/data-validation-email-column).        
+
 ## Limitations of email validation
 
 - Email validation works only for lead and contact records.
