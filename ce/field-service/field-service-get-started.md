@@ -18,11 +18,7 @@ This article helps organizations to get started. It guides you through the first
 
 ## Install Dynamics 365 Field Service
 
-
-<!-- The wording below is confusing: the admin needs to install the app that's installed? --> 
-
-
-A system administrator needs to install the Field Service application installed for your organization. For more information, see [How to install Dynamics 365 Field Service](install-field-service.md).
+A system administrator needs to install the Field Service application for your organization. For more information, see [How to install Dynamics 365 Field Service](install-field-service.md).
 
 ## Configure Field Service settings
 
