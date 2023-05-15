@@ -234,14 +234,6 @@
         href: real-time-marketing-ci-profile.md
       - name: Known issues in real-time marketing
         href: real-time-marketing-known-issues.md
-    - name: Real-time marketing forms 
-      items:
-      - name: Forms overview
-        href: real-time-marketing-form-overview.md
-      - name: Manage forms
-        href: real-time-marketing-manage-forms.md
-      - name: Troubleshoot real-time marketing forms
-        href: real-time-marketing-troubleshooting-forms.md
     - name: Communication channels
       items: 
       - name: Real-time marketing emails
@@ -254,6 +246,14 @@
           href: email-without-journey.md
         - name: Use brand profiles in real-time marketing email
           href: brand-profiles-email.md
+      - name: Real-time marketing forms 
+        items:
+        - name: Forms overview
+          href: real-time-marketing-form-overview.md
+        - name: Manage forms
+          href: real-time-marketing-manage-forms.md
+        - name: Troubleshoot real-time marketing forms
+          href: real-time-marketing-troubleshooting-forms.md
       - name: Text messages
         items:
         - name: Outbound text messages
