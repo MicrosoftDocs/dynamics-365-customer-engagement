@@ -35,13 +35,8 @@ To add or remove tables from the search index, see [Select tables for Dataverse 
 
 The following tables are indexed by default:
 
-
-<!-- Is the second bullet missing an s? bookablereourcebooking -->
-
-
-
 - account
-- bookablereourcebooking
+- bookableresourcebooking
 - contact
 - incident
 - invoice
