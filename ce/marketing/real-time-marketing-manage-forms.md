@@ -15,23 +15,9 @@ search.audienceType:
 
 # Manage real-time marketing forms
 
-## Publish your form
+This article explains how to edit, unpublish, and manage forms in real-time marketing.
 
-To publish your form, select the **Publish** button in the top right corner. There are three options to publish a form:
-
-- **Embed to an external page using JavaScript**: This is the most common way to integrate the form into your own web page. You can reuse the same code snippet on multiple web pages. The form submission data includes the URL of the page where the form is embedded. There's also a tracking script included to count the statistics of visitors to the page that the form is embedded on.
-- **Create a standalone page**: A new page is automatically created and the form is embedded into the page. As a result of this process, you get a public URL, which you can share to allow your visitors to visit and submit the form.
-
-Once the form is published, you can still access these options by selecting the **Publishing** options button in the top right corner. It's possible to use multiple publishing options for a single form.
-
-> [!NOTE]
-> The ontent delivery network (CDN) domain for your geographical area used by the *host form as Standalone page* feature is enabled for form hosting by default.
-> Example for USA:
-> `https://assets-usa.mkt.dynamics.com`
->
-> If you would like to disable the domain for form hosting, reach out to support.
-
-### Edit a live form
+## Edit a live form
 
 If your form has been already published and you need to update it, select the **Edit** button on the top ribbon. You can continue editing your live form and all changes are automatically published once you select the **Save** button.
 
@@ -40,11 +26,11 @@ If your form has been already published and you need to update it, select the **
 
 The form is stored on a CDN where all data is cached to provide to shortest possible loading times to the visitors of your webpage. It may take up to 10 minutes before the cache is refreshed and before you can see the changes on your webpage. You can check the result of the changes in your page if you add this parameter `#d365mkt-nocache` to your webpage URL. Never share the link to your page including this parameter with your customers. The parameter bypasses the CDN cache and slows down the page loading.
 
-### Unpublish a form
+## Unpublish a form
 
 To unpublish a live form, select the **Stop** button. The form is removed from the CDN, so your web page visitors are no longer able to submit it. The form may be still visible due to browser cache, but it can't be submitted. The form status is changed to *Draft*.
 
-### Form field properties
+## Form field properties
 
 Once you select a field on the canvas, you can see its properties in the right pane.
 
@@ -57,11 +43,11 @@ Once you select a field on the canvas, you can see its properties in the right p
 - **Validation**: Configure a rule that checks the content of the field. If the validation rule isn't met, the user can't submit the form. It's important to set the correct validation for email and phone number fields.
 - **Hide field**: If enabled, the field isn't visible in the form. You can use hidden fields to store extra metadata along with the form submission.
 
-#### Custom validation
+### Custom validation
 
 To create custom validation, enable the **Validation** option and select **Custom**. A pop-up dialog appears where you can enter a Regular Expression (RegExp). You can, for example, use a RegExp to check if the entered value matches a specific phone number format.
 
-### Form settings
+## Form settings
 
 Form settings allow you to configure advanced properties of your form and define what happens after the form submission.
 
@@ -73,7 +59,7 @@ Form settings allow you to configure advanced properties of your form and define
 - **Error notification**: This message appears if an error occurs when the form is submitted.
 - **Redirect after submission**: If enabled, you can enter a URL to which the user will be redirected after the form submission.
 
-### How to handle duplicate records
+## How to handle duplicate records
 
 The default approach to duplicate records is different for Contact and Lead entities.
 
@@ -82,7 +68,7 @@ The default approach to duplicate records is different for Contact and Lead enti
 
 You can change the default strategy using the **Duplicate records** drop-down in **Forms** settings. You can also create a [custom matching strategy](#create-a-custom-matching-strategy).
 
-#### Create a custom matching strategy
+### Create a custom matching strategy
 
 You can choose how to handle duplicate records by creating a new matching strategy.
 
@@ -95,7 +81,7 @@ You can choose how to handle duplicate records by creating a new matching strate
 1. Save your new matching strategy.
 1. The newly created matching strategy can now be selected in the **Duplicate records** list in the form settings.
 
-### Field types
+## Field types
 
 Field types and formats are defined by the attribute metadata. It isn't possible to change field types and formats. You can, however, change the rendering control for field types where the format isn't defined.
 
@@ -111,7 +97,7 @@ Field types and formats are defined by the attribute metadata. It isn't possible
 | Date and time          | Date and Time | Date-Time Picker      | Date and time picker to select a date from a pop-up calendar and a time from a drop-down list.                                                                   |
 | Lookup field          | n/a | Lookup      | A lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance to your form. [More information](#lookup-fields). |
 
-### Lookup fields
+## Lookup fields
 
 A lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance to your form. For example, you could use a lookup field called "Currency" to show a drop-down list of all currencies in your form.
 
@@ -211,3 +197,5 @@ You can [integrate custom captcha](real-time-marketing-form-custom-captcha.md) b
 ### Custom back-end validation of form submission
 
 It's possible to build custom back-end form submission validation that prevents form submission processing. It shows an error message to the user who tried to submit the form. You can find the inspiration for this back-end validation in the article about [integrating custom captcha](real-time-marketing-form-custom-captcha.md), where the form makes back-end validation to evaluate the result of a captcha challenge.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

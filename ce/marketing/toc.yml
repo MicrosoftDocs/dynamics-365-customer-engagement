@@ -250,6 +250,8 @@
         items:
         - name: Forms overview
           href: real-time-marketing-form-overview.md
+        - name: Create forms
+          href: real-time-marketing-form-create.md
         - name: Manage forms
           href: real-time-marketing-manage-forms.md
         - name: Troubleshoot real-time marketing forms
