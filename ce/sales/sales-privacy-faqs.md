@@ -1,16 +1,15 @@
 ---
-title: "Frequently asked questions on GDPR and Security"
-description: "Find a list of frequently asked questions that are related to GDPR for Dynamics 365 Sales."
+title: Frequently asked questions on privacy and security
+description: Find a list of frequently asked questions that are related to privacy and security in Dynamics 365 Sales.
 ms.date: 03/01/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ---
 
-# General Data Protection Regulation (GDPR) and security FAQs
+# Privacy and security FAQs
+
+[!INCLUDE [gdpr-intro](~/../shared-content/shared/privacy-includes/gdpr-intro.md)]
 
 ## Where is the Dynamics 365 Sales data stored?  
 
@@ -48,5 +47,5 @@ The following list includes services that currently don't support CMK:
 
 ### See also
 
-[Dynamics 365 Sales & GDPR](dynamics-365-sales-gdpr.md)  
-[GDPR for sales premium](embedded-intelligence-gdpr.md)  
+[Dynamics 365 Sales and privacy laws and regulations](dynamics-365-sales-privacy.md)
+[Sales Insights and privacy laws](embedded-intelligence-privacy.md)
