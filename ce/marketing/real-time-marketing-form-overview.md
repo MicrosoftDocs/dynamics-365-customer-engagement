@@ -326,7 +326,6 @@ This feature uploads a page with form on CDN. If the operation fails, try to run
 ### Form editor removed my custom JavaScript or other custom code from the HTML body
 
 The form editor can remove unknown code from the body. [Learn more](#add-custom-javascript-to-your-form) about how to customize your form using JavaScript.
-
 -->
 
 ## Comparison of real-time and outbound marketing forms
