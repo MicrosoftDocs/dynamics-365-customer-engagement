@@ -65,7 +65,7 @@ For more information on creating forms, see [Create and design model-driven app 
 
 To set a form as the default form in the app, see [Why isn't my form displayed as the default form in the app?](/powerapps/maker/model-driven-apps/create-design-forms#form-display-faq)
 
-
+---
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
