@@ -1,7 +1,7 @@
 ---
 title: Enable email validation (preview)
 description: Enable email validation for leads and contacts in Microsoft Dynamics 365 Sales to help your sellers keep their customer email addresses clean.
-ms.date: 04/04/2023
+ms.date: 05/15/2023
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
