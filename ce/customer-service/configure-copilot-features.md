@@ -28,7 +28,7 @@ Agents can use the following Copilot features to assist them to:
 
 - You have the System Administrator role.
  
-### Opt-in to the
+### Opt-in to continue with Copilot setup
 
  Before you enable a Copilot feature, review the terms and conditions and  provide your consent to use the Copilot features. You can navigate the corresponding setup pages for the Copilot features in  Customer Service admin center and Opt in to continue with the setup.
 
