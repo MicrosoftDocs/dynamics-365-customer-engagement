@@ -22,11 +22,11 @@ Agents can use the following Copilot features to assist them to:
 
 ## Regional availability and supported languages
 
-- The Copilot features are available only in the United States and supported only in English.
+The Copilot features are available only in the United States and supported only in English.
 
 ## Prerequisites
 
-- You have the System Administrator role.
+You have the System Administrator role.
  
 ### Opt-in to continue with Copilot setup
 
@@ -49,7 +49,7 @@ Perform the following steps to enable the Copilot features:
 
    :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="enable Copilot for customer summary" lightbox="media/copilot-admin-email.png":::
 
-### Configure agents
+### Enable Copilot in agent experience profilles   
 
 You can use agent experience profiles to control which agents get access to the Copilot help pane. To enable the Copilot features for an agent experience profile, perform the following steps:
 
