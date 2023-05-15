@@ -34,7 +34,7 @@ You have the System Administrator role.
 
    :::image type="content" source="media/copilot-opt-in-mini.png" alt-text="enable Copilot for customer summary" lightbox="media/copilot-opt-in.png":::
 
-## Enable Copilot to respond to questions, compose an email, and draft a chat response
+## Enable Copilot to respond to questions, compose an email, or a chat response
 
 Perform the following steps to enable the Copilot features:
 
@@ -49,7 +49,7 @@ Perform the following steps to enable the Copilot features:
 
    :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="enable Copilot for customer summary" lightbox="media/copilot-admin-email.png":::
 
-### Enable Copilot in agent experience profilles   
+### Enable Copilot in agent experience profiles
 
 You can use agent experience profiles to control which agents get access to the Copilot help pane. To enable the Copilot features for an agent experience profile, perform the following steps:
 
@@ -57,7 +57,7 @@ You can use agent experience profiles to control which agents get access to the 
 1. Select the required agent experience profile.
 1. In the **Productivity Pane**, select **Turn On** for **Copilot (preview)**.
 
- For more information, see: [Add users to agent experience profiles](add-profile-default.md) and [Assign users, templates, configure productivity pane, channels](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
+ For more information, see: [Add users to agent experience profiles](../app-profile-manager/add-profile-default.md) and [Assign users, templates, configure productivity pane, channels](../app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
 
 ## Enable summarization of conversations
 
