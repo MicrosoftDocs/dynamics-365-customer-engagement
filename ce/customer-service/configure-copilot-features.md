@@ -27,7 +27,10 @@ Agents can use the following Copilot features to assist them to:
 ## Prerequisites
 
 - You have the System Administrator role.
-- Before you enable a Copilot feature, you must consent to opt in to use the Copilot features in  Customer Service admin center.
+ 
+### Opt-in to the
+
+ Before you enable a Copilot feature, review the terms and conditions and  provide your consent to use the Copilot features. You can navigate the corresponding setup pages for the Copilot features in  Customer Service admin center and Opt in to continue with the setup.
 
    :::image type="content" source="media/copilot-opt-in-mini.png" alt-text="enable Copilot for customer summary" lightbox="media/copilot-opt-in.png":::
 
@@ -45,6 +48,16 @@ Perform the following steps to enable the Copilot features:
 1. You can add up to five web trusted web domains for Copilot to search when generating responses. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels – represented by back slashes (/) after the .com part of the address. 
 
    :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="enable Copilot for customer summary" lightbox="media/copilot-admin-email.png":::
+
+### Configure agents
+
+You can use agent experience profiles to control which agents get access to the Copilot help pane. To enable the Copilot features for an agent experience profile, perform the following steps:
+
+1. Go to **Agent experience profiles** in **Agent experience** > **Workspaces**.
+1. Select the required agent experience profile.
+1. In the **Productivity Pane**, select **Turn On** for **Copilot (preview)**.
+
+ For more information, see: [Add users to agent experience profiles](add-profile-default.md) and [Assign users, templates, configure productivity pane, channels](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
 
 ## Enable summarization of conversations
 
@@ -68,4 +81,4 @@ To allow Copilot to summarize conversations, perform the following steps:
 
 ### Record feedback
 
-You can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record how agents are interacting with Copilot and understand its impact. Agents can share feedback about Copilot actions. This helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports. 
+In the corresponding Copilot configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record how agents are interacting with Copilot and understand its impact. Agents can share feedback about Copilot actions. This helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports. 
