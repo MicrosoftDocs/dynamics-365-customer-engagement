@@ -13,7 +13,7 @@ metadata:
   ms.collection: collection
   author: lavanyakr01
   ms.author: lavanyakr
-  ms.date: 11/24/2021
+  ms.date: 03/24/2023
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -106,27 +106,27 @@ landingContent:
       - linkListType: concept
         links:
         - text: Sales entities (lead, opportunity, competitor, quote, order, invoice) 
-          url: ../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md
+          url: developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md
         - text: Enable sales order processing integration 
-          url: ../sales-enterprise/developer/enable-sales-order-processing-integration.md
+          url: developer/enable-sales-order-processing-integration.md
         - text: Marketing entities (campaign, list) 
-          url: ../customerengagement/on-premises/developer/marketing-entities-campaign-list.md
+          url: developer/marketing-entities-campaign-list.md
         - text: Goal management entities 
-          url: ../customerengagement/on-premises/developer/goal-management-entities.md
+          url: developer/goal-management-entities.md
         - text: Product catalog entities 
-          url: ../customerengagement/on-premises/developer/product-catalog-entities.md
+          url: developer/product-catalog-entities.md
         - text: More help resources for developers... 
           url: developer/developer-guide.md
 
 # Card 
-- title: GDPR
+- title: Privacy laws and regulations
   linkLists:
       - linkListType: concept
         links:
-        - text: Dynamics 365 Sales and GDPR 
-          url: ../sales-enterprise/dynamics-365-sales-gdpr.md
-        - text: Sales Insights add-in for Dynamics 365 and GDPR 
-          url: ../sales-enterprise/embedded-intelligence-gdpr.md
+        - text: Dynamics 365 Sales and privacy laws 
+          url: dynamics-365-sales-privacy.md
+        - text: Sales Insights and and privacy laws 
+          url: embedded-intelligence-privacy.md
 
 # Card 
 - title: Microsoft Learn resources

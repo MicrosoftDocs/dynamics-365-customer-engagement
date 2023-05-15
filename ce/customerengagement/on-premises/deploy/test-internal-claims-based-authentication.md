@@ -14,7 +14,6 @@ ms.assetid: f02dd026-70aa-4024-8491-42eeeca051df
 caps.latest.revision: 22
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Test internal claims-based authentication
 

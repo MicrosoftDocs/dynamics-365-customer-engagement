@@ -14,7 +14,6 @@ ms.assetid: 101ca4e9-9be2-45dc-a68b-72d9d15b0e30
 caps.latest.revision: 30
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Configure the Microsoft Dynamics 365 Server for claims-based authentication
 

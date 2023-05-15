@@ -1,21 +1,10 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 10/10/2022
-ms.topic: article
+ms.date: 04/20/2023
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365CS
-ms.custom: 
-  - dyn365-customerservice
-  - intro-internal
+ms.topic: article
 ---
 
 # Configure Microsoft Teams chat in Customer Service
@@ -25,7 +14,7 @@ You can configure the ability for agents to chat in Microsoft Teams from within 
 > [!NOTE]
 > Teams settings apply across all supported customer engagement apps. Whether you enable the feature from Customer Service Hub or a custom app, it'll be enabled for all supported customer engagement apps.
 
-When the feature is enabled, while working on customer records, agents can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating on Teams.
+When the feature is enabled, while working on customer records, agents can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating in Teams.
 
 ## Enable or disable Teams chat
 
@@ -42,6 +31,18 @@ As a tenant administrator, when you enable the Teams chat feature, the app has t
 |Presence.Read.All	|Reads presence information of all users to be displayed on the user avatars in chat list. |
 |User.Read.All	|Reads users’ display name and licenses to validate if the suggested participants have a Teams license assigned. This is used by the suggested section in the chat list.|
 |User.ReadBasic.All	|Reads users’ photos. |
+
+In order to use Teams chat in multisession environments, users must have the same permissions as available in the **Productivity tools user** role. 
+
+Users need read permission for the following entities to access the productivity pane for custom roles:
+
+- App profile
+- Application tab template
+- Notification field
+- Notification template
+- Pane tab configuration
+- Pane tool configuration
+- Productivity pane configuration
 
 ### Data security and privacy
 
@@ -104,23 +105,29 @@ To enable Teams chat settings for a custom multisession user, complete the follo
 
 1. Create the custom profile from the default profile in App profile manager. More info: [Create an app profile](/dynamics365/app-profile-manager/app-profile-manager#create-an-app-profile)
 
-1. Go to [Power Apps](https://make.powerapps.com/), and then under **Environments**, select your environment.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-1. In the left-side pane, select **Apps**, and then next to the custom app, select the **More Commands** ellipsis.
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-   > [!div class="mx-imgBorder"] 
-   > ![Configure Teams chat settings for specific multisession users.](media/teams-chat-more-commands.png "Configure Teams chat settings for custom profiles")
+    1. In the site map, in **Agent experience**, select **Collaboration**.
+    
+    1. In **Embedded chat using Teams**, select **Manage**.
+   
+   ### [Customer Service Hub](#tab/customerservicehub) 
 
-1. From the dropdown menu, select **App profile manager**, select the custom profile, and then select **Edit**.
+    1. In the site map, select **Service Management**.
+    2. In **Collaboration**, select **Embedded chat using Teams**.
+    
+1. Ensure that toggle for **Turn on Microsoft Teams chats inside Dynamics 365** is set to **Yes**, and then in **Turn on for specific multisession users**, select **Manage**. The **Agent experiences profiles** page is displayed.
 
-1. Select the **Productivity pane** tab, and then toggle **Turn on productivity pane** to **On**.
+1. Select the profile to open it.
 
-1. Under **Productivity tools**, toggle **Microsoft Teams collaboration** to **On**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Set Teams collaboration to On.](media/teams-chat-custom-profile.png "Turn on Teams collaboration")
-
-1. Select the **General** tab to assign users. More information: [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
+1. On the profile page, you can do the following:
+   - **Add users** More information: [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
+   - **Add an entity session template** More information: [Manage session templates](/dynamics365/app-profile-manager/session-templates?tabs=customerserviceadmincenter)
+   - **Enable the inbox** More information: [Configure the inbox for agents](configure-inbox.md)
+   - **Enable productivity pane features** More information: 
+   - **Set up channel providers** More information: [Overview of productivity tools](/dynamics365/app-profile-manager/productivity-tools)
 
 ## Configure the ability to connect chats to Dynamics 365 records
 
@@ -318,6 +325,52 @@ The ability for users to join existing chats related to cases is especially usef
 
 1. Select **Save**.
 
+## Keep chat participants informed when fields are updated
+
+You can reduce the overhead on your agents by automatically updating all participants in a chat when an essential field on a connected record is updated. This time-saving feature helps keep everyone informed without manual effort and allows agents to focus on important matters. It also helps experts in the chat be aware of important updates.
+
+### Limitations for automatic event updates
+
+This section describes the limitations of the automatic event functionality.
+
+#### Entities and attribute type limitations
+
+The following entities aren’t configurable for automatic event updates:
+
+- Virtual entities
+- Entities that don’t have the Update SDKMessageFilter defined
+
+The following attribute types aren’t supported for automatic event updates:
+- PartyList
+- Image
+- Integer
+- File
+
+#### Inline image limitations
+
+Automatic event updates can’t fully render inline images in rich text fields.
+
+### Configure chat update when a field is changed
+
+1. In **Customer Service admin center**, select **Collaboration**, and then set the toggle to **On** for **Turn on Microsoft Teams chats inside Dynamics 365**. 
+1. Next to **Embed chat using Teams**, select **Manage**.
+1. On the **Microsoft Teams collaboration and chat** page under **Connect chats to Dynamics 365 records**, select the entity for which you want to enable automatic event updates, or create a new one if the one you want isn’t listed. The record settings pane for that entity is opened on the right side of the page.
+
+   > [!div class="mx-imgBorder"] 
+   > ![View of record settings pane.](media/auto-event-updates.png "View of record settings pane")
+   
+1. Set the **Receive notification on key updates** toggle to **On**.
+1. View the Suggested attributes list by placing your cursor in the field below the toggle, and then select up to five attributes for which you want notifications to be sent.
+   > [!NOTE]
+   > For the Case entity, the following settings are preconfigured:
+   > - Priority
+   > - Status
+   > - Status Reason
+  
+   > [!div class="mx-imgBorder"] 
+   > ![Suggested attributes for configuring chat updates when a field is changed.](media/suggested-attributes.png "Suggested attributes for configuring chat updates when a field is changed")
+   
+1. Save your changes. Automatic notifications will now be sent whenever the attributes you defined for the entities are updated.
 
 ### See also
 

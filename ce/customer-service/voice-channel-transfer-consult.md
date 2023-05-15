@@ -1,19 +1,18 @@
 ---
 title: "Transfer calls and consult with users | MicrosoftDocs"
 description: "Use this article to understand how the agent can use the transfer and consult options to make and receive customer calls in Omnichannel for Customer Service."
-ms.date: 12/12/2022
+ms.date: 03/30/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Transfer calls and consult with users in the voice channel
 
 You can transfer calls or consult with other agents or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
 
-To familiarize yourself with the call controls, see [understand how to use the agent dashboard and call controls](voice-channel-agent-experience.md).
+To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](voice-channel-agent-experience.md).
 
 ## How you can transfer calls
 
@@ -37,7 +36,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
 
 3. Based on your requirement, perform one of the following steps.
 
-    - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The agent who picks up the transferred call will become the primary agent and you will become the secondary agent and will be removed from the call.<br>
+    - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The agent who picks up the transferred call will become the primary agent and you will become the secondary agent and will be removed from the call. The primary agent must manually remove the customer from hold.<br>
 
         > [!div class="mx-imgBorder"]
         > ![Screenshot of queue transfer](./media/oc-transfer-q.png)<br>
@@ -99,7 +98,6 @@ When you initiate a consult, the following actions occur:
 
 [Overview of the voice channel](voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](voice-consult-microsoft-teams-user.md)  
-[Make and receive your first call](voice-channel-first-call.md)  
 [Call a customer](voice-channel-call-customer.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

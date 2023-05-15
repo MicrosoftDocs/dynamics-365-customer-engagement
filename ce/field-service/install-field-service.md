@@ -4,11 +4,9 @@ description: Learn how to install Dynamics 365 Field Service.
 
 ms.topic: article
 ms.date: 11/30/2022
-ms.reviewer: mhart
 ms.author: jacoh
 author: jasonccohen
-ms.manager: shellyha
-search.app:
+ms.search.app:
   - D365CE
   - D365FS
 ---
@@ -43,9 +41,8 @@ Set up the mobile app that frontline workers will use to view and complete work 
 
 After installing Field Service and the Field Service mobile app, see the following articles to configure the system to create, schedule, view, and complete work orders.
 
-- [Perform initial configurations](perform-initial-configurations-setup.md)
 - [Set up users and security roles](view-user-accounts-security-roles.md)
 - [Create a bookable resource](set-up-bookable-resources.md)
-- [Schedule a work order and view it on the mobile application](quickstart-schedule-work-order.md)
+- [Get started with Dynamics 365 Field Service](field-service-get-started.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

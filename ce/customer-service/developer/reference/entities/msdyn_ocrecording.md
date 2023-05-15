@@ -5,14 +5,10 @@ ms.date: 11/01/2021
 
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "mh-jaya"
-ms.author: "v-jmh"
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: "mgandham"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # msdyn_ocrecording Entity Reference
 

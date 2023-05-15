@@ -14,7 +14,6 @@ ms.assetid: 3711daa2-27e8-494a-8e3b-52ba7c12022e
 caps.latest.revision: 28
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -40,7 +39,7 @@ Data filters for [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full
 ## Instantiate a filter  
  Default filter templates are automatically instantiated to the `UserQuery` entity for each user when the synchronization subscription is created. When synchronization to [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] or to the offline database is initiated, the filters for that user are collected and used to filter the collections of entries and attributes that are being synchronized. If multiple filters are specified for a particular entity, the resulting set of entries will be a union of results of individual filters.  
 
- There is a new privilege allowing the administrator to access other user's filters: `prvAdminFilter`. This is called Manage User Synchronization Filters in the Web application. The system administrator role includes this privilege because without it, only the user can see his or her filters. Calling the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method on the user query will retrieve records only for the owning user, unless the caller has the `prvAdminFilter` privilege The query must contain conditions where `QueryType` equals <xref:Microsoft.Crm.Sdk.SavedQueryQueryType.OutlookFilters> or <xref:Microsoft.Crm.Sdk.SavedQueryQueryType.OfflineFilters> AND `OwnerId` equals `UserId`, where the `UserId` is not equal to caller. If any other conditions are added to the query, this will not work.  
+ There is a new privilege allowing the administrator to access other user's filters: `prvAdminFilter`. This is called Manage User Synchronization Filters in the Web application. The system administrator role includes this privilege because without it, only the user can see their filters. Calling the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method on the user query will retrieve records only for the owning user, unless the caller has the `prvAdminFilter` privilege The query must contain conditions where `QueryType` equals <xref:Microsoft.Crm.Sdk.SavedQueryQueryType.OutlookFilters> or <xref:Microsoft.Crm.Sdk.SavedQueryQueryType.OfflineFilters> AND `OwnerId` equals `UserId`, where the `UserId` is not equal to caller. If any other conditions are added to the query, this will not work.  
 
  New users automatically are given the filters from the filter templates that are marked as default in the `SavedQuery.IsDefault` attribute. Administrators need to know that they can change this value to affect this. Each entity can have only one filter template that is marked as default. There can be no default filters, only filter templates. If you create a custom entity, and set the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsAvailableOffline> property, a default filter template is created automatically.  
 

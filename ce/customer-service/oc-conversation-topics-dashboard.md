@@ -5,7 +5,6 @@ ms.date: 10/12/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Conversation Topics dashboard
@@ -93,3 +92,4 @@ The topics capability in the Customer Service historical analytics reports comes
 [Agent dashboard](agent-dashboard.md)  
 [Bot dashboard](oc-bot-dashboard.md)  
 [Manage report bookmarks](manage-bookmarks.md)  
+[Tracked keywords in Dynamics 365 Sales](/dynamics365/sales/dynamics365-sales-insights-app-home-page#tracked-keywords)

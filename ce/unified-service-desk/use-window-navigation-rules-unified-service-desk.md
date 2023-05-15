@@ -1,17 +1,13 @@
 ---
 title: "Use window navigation rules in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use window navigation rules to define the interaction between various controls in Unified Service Desk."
-ms.date: 07/28/2021
+ms.date: 02/06/2023
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---
@@ -21,6 +17,8 @@ ms.custom:
 
 Window navigation rules define the interaction between various controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. You can use the rules to define the location of the sessions or the model-driven app pages to appear in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application when invoked from a hosted control or an entity search. For more information about hosted controls and entity searches in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Unified Service Desk Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md) and [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
 
+> [!NOTE]
+> Windows navigation rules don't work in the standard web application.
 
 <a name="Howtocreaterule"></a>   
 ## Create or edit a window navigation rule  

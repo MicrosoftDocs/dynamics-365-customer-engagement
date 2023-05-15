@@ -3,9 +3,8 @@ title: "Retrieve and format rich messages  | Microsoft Docs"
 description: "Learn about the MessageObject type used in the sendMessageToConversation method in Omnichannel JavaScript API."
 ms.date: 10/03/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.reviewer: nenellim
 ---
 # Retrieve and format rich messages

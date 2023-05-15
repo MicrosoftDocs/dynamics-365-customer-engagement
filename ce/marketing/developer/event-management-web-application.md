@@ -1,18 +1,14 @@
 ---
 title: "Event management web application overview (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how you can extend event management web application functionality in Dynamics 365 Marketing."
-ms.date: 10/03/2022
+ms.date: 03/31/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: overview
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Event management web application overview
@@ -22,14 +18,14 @@ The event management feature helps you to organize, manage, and process the even
 The event portal consists of two parts:
 
 1. Frontend
-2. REST API backend
+1. REST API backend
 
 You can implement the frontend using any of the available frameworks. The frontend part is a single page application and is fully customizable. The backend and the customization of the backend depends on the hosting type.
 
 You can host a custom event website in two ways:
 
 1. [Self-hosted](self-hosted.md)
-2. [Power Apps portal hosted](portal-hosted.md)
+1. [Power Apps portal hosted](portal-hosted.md)
 
 ## Prerequisites
 
@@ -42,7 +38,7 @@ To get started with customizing the demo event website, you need to follow these
 
 1. Download the [source code for the sample event website](#download-sample-event-website).
 
-2. Install [Node.js](https://nodejs.org/en/download) version 10.x or higher.
+2. Install [Node.js](https://nodejs.org/en/download/releases) between version 10.x and version 16.x. Deployment won't work with newer versions.
 
 3. Open Command Prompt or Windows PowerShell and run the command to check whether the installation was successful.
 
@@ -100,24 +96,24 @@ Select the version you would like to download from the table below.
 
 ## Environment Configuration parameters
 
- The **src\environments** folder contains sample configuration files for different environments (self-hosted, portal hosted, development). The configuration set up for the custom event website is made by creating an `environment.ts` file inside the `\src\environments` folder. You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for Portal hosted](portal-hosted.md).
+ The **src\environments** folder contains sample configuration files for different environments (self-hosted, portal hosted, development). The configuration set up for the custom event website is made by creating an `environment.ts` file inside the `\src\environments` folder. You can find instructions on how to change the configuration in the related articles [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for Portal hosted](portal-hosted.md).
 
 Some of the parameters that you need to understand before you start configuring your custom event website:
 
 |Parameter|Description|
 |-----|-----|
 |**production**| Enables or disables the production mode of the Angular application. More information: [Angular Documentation](https://angular.io/api/core/enableProdMode).|
-|**buildVersion** |This field links to the version specified in the `package.json` file by default. There is no need to change this property. However, if you prefer not to expose the version of the application, you can set it to `null`.|
+|**buildVersion** |This field links to the version specified in the `package.json` file by default. There's no need to change this property. However, if you prefer not to expose the version of the application, you can set it to `null`.|
 |**apiEndpoint** | The URL that points to the event management API endpoint (which is used to retrieve information of events and to make registrations).|
-|**localizationEndpoint** | Points to the URL where the localization files are stored (by default they are stored in the root directory).|
+|**localizationEndpoint** | Points to the URL where the localization files are stored (by default they're stored in the root directory).|
 |**imagesEndpoint** | Specifies the base URL from where images are served. This configuration enables you to serve images from a different location, which might be required if you want to use a content delivery network or image-processing service.|
 |**useRestStack** | This setting specifies which API is used. If set to true, then the new event management public API is used. If set to false, then the deprecated event management Portal API is used. This API can only be used if you host the custom event website on Portals. To use the new event management public API, you need to register the web application.|
-|**emApplicationtoken**| This token authenticates your web application against the event management public API. You can retrieve the application token by registering a new web application in Dynamics 365 Marketing instance. This token is not required if you're using the deprecated event management Portal API.
+|**emApplicationtoken**| This token authenticates your web application against the event management public API. You can retrieve the application token by registering a new web application in Dynamics 365 Marketing instance. This token isn't required if you're using the deprecated event management Portal API.
 |**isAuthenticationEnabled** | This flag specifies whether the user authentication is supported or not (that is, the user can register or sign in). If set to false, then the application doesn't display a way to sign in or register.|
 |**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Power Apps portals identity management**, this flag needs to be set to false. If AAD B2C is enabled, then you need to configure the `aadB2CConfig` variable.|
 |**aadB2CConfig** | Configuration object used by event management application when **AAD B2C identity management** is enabled. |
 |**useMockData** | This setting can be used to return mock objects instead of making real API calls.|
-|**dateSettings** | This setting can be used to configure how the dates will be formatted in the website. If `convertToLocalDate` flag is set to true, all dates will be automatically converted to the end users local time. |
+|**dateSettings** | This setting can be used to configure how the dates will be formatted in the website. If `convertToLocalDate` flag is set to true, all dates are automatically converted to the end users local time. |
 |**languageSettings** | This setting can be used to configure how languages will be loaded in the website. If `forceSingleLanguage` flag is set to true, the website will be loaded in the language specified in `websiteLanguageLcid`. The `showLanguageDropdown` flag allows to show or hide the language dropdown. By default, language dropdown is visible and the website will use the end users browser language. |
 
 ## Backend customization

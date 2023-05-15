@@ -5,7 +5,6 @@ keywords: Microsoft Dynamics 365 Customer Engagement (on-premises); Customer Ser
 author: sericks007
 applies_to: Dynamics 365 Customer Engagement (on-premises)
 ms.author: sericks
-manager: tapanm-MSFT
 ms.date: 03/24/2021
 ms.topic: article
 

@@ -1,11 +1,10 @@
 ---
-title: Create and manage capacity profiles | MicrosoftDocs
-description: "Know how to create and manage capacity profiles in Customer Service"
-ms.date: 12/08/2022
+title: Create and manage capacity profiles
+description: "Know how to create and manage capacity profiles for agents in Customer Service."
+ms.date: 02/24/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 
 ---
 
@@ -40,7 +39,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
    
-    - In the site map, select **User management** in **Customer support**. The **User management** page appears.    
+    - In the site map, select **User management** in **Customer support**. The **User management** page appears.
    
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
@@ -57,7 +56,12 @@ For a capacity profile, you can add or remove users and edit any setting except 
 4. On the **Details** tab of the **Create capacity profile** dialog box, enter the following details:
    - **Profile name**: Name for the capacity profile.
    - **Work item limit**: Number of units of the work type that the agent can be assigned.
-   - **Reset frequency**: Period after which capacity consumption can be reset for agents. If you select **Immediate**, capacity will be reset immediately. If you select **End of day**, capacity will be reset after the agent's shift ends. Once configured, you'll have to recreate the capacity profile if you want to change the reset frequency.
+   - **Reset frequency**: Period after which capacity consumption can be reset for agents. Select one of the following options:
+      - **Immediate**: Capacity will be reset immediately.
+      - **End of day**: Capacity will be reset after the agent's shift ends even if all the assigned conversations aren't closed. The open conversations are not counted in the work item limit and the agent will be assigned new work items in their next shift.
+
+     Once configured, you'll have to recreate the capacity profile if you want to change the reset frequency.
+
    - **Assignment blocking**: Set the toggle to **Yes**. When the work item limit is reached, a new work item won't be automatically assigned to the agent.
 
    :::image type="content" source="media/create-capacity-profile.png" alt-text="Create a capacity profile.":::
@@ -127,3 +131,4 @@ When a work item is labeled with multiple capacity profiles, the assignment stra
 [Create workstreams](create-workstreams.md)  
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
 [Map role personas](role-persona-mapping.md)  
+[Manage historical data of capacity updates for agents](manage-historical-data-capacity-updates.md)  

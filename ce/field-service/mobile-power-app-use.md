@@ -2,18 +2,13 @@
 title: "Use the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to use the Field Service (Dynamics 365) mobile app.
 ms.date: 11/18/2022
-ms.reviewer: mhart
 ms.topic: article
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: josephshum
+author: josephshum-msft
 ms.author: jshum
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 
@@ -25,6 +20,10 @@ Available natively for Apple iOS and Google Android phones and tablets, as well 
 - Support for picture, video, and asset barcode scanning.
 - Customer signature capture.
 - Offline capabilities so technicians can continue viewing and recording work in areas without internet.
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HKRL]
 
 ## Prerequisites
 

@@ -5,7 +5,6 @@ ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Attach skills to conversations in Omnichannel Administration
@@ -13,8 +12,8 @@ manager: shujoshi
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated).
-> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
+> - Support for the Omnichannel Administration app ended on April 30, 2022. The app will be removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Omnichannel Administration app is deprecated and will be removed in July 2023](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-will-be-removed-in-july-2023).
+> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the Customer Service admin center app. For more information, see [Customer Service admin center](cs-admin-center.md).
 
 ## Understand skill-based routing
 
@@ -62,10 +61,10 @@ The following table describes how exact skill matching works for a single or mul
 
 If no agent is available with any of the required skills, then the conversation might be assigned to an agent without the required skills.
 
-The closest skill match will order all agents based on their closeness to the required skill and proficiency. For example, if the required skills are four, then agents with four skills will be put on top (exact qualified), then agent with five skills (overqualified), and then agent with three skills (under qualified). In this scenario where closest match is chosen as the skill matching algorithm at workstream level; if more than one agent with same skill score are there; the system will not order them by round robin or highest capacity. The system will continue to assign all the incoming work items to the same agent till other constraints like capacity and presence are met.
+The closest skill match will order all agents based on their closeness to the required skill and proficiency. For example, if the required skills are four, then agents with four skills will be put on top (exact qualified), then agent with five skills (overqualified), and then agent with three skills (under qualified). In this scenario where closest match is chosen as the skill matching algorithm at workstream level; if more than one agent with same skill score are there; the system won't order them by round robin or highest capacity. The system will continue to assign all the incoming work items to the same agent until other constraints like capacity and presence are met.
 
 > [!NOTE]
-> If you do not intend to use skills based routing model, choose **None** in the **Default skill matching algorithm** option in the workstream settings.
+> If you don't intend to use skills based routing model, choose **None** in the **Default skill matching algorithm** option in the workstream settings.
 
 The following table describes how exact skill matching works for a single- or multiple-skill scenario.
 

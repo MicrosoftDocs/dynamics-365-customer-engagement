@@ -4,7 +4,6 @@ description: "This article provides information about the steps to embed a chat 
 ms.date: 04/22/2022
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Embed chat widget in your website or portal

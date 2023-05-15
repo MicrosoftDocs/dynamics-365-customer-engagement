@@ -13,7 +13,6 @@ caps.latest.revision: 14
 author: Mattp123
 ms.custom: intro-internal
 ms.author: matp
-manager: kvivek
 tags: 
   - MigrationHO
 search.audienceType: 

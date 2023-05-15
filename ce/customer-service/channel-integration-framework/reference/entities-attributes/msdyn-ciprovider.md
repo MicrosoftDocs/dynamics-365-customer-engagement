@@ -3,9 +3,8 @@ title: "msdyn_ciprovider Entity reference for Dynamics 365 Channel Integration F
 description: "Includes schema information and supported messages for the msdyn_ciprovider entity in Dynamics 365 Channel Integration Framework 1.0."
 ms.date: 12/31/2019
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

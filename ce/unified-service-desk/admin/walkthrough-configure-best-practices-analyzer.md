@@ -3,14 +3,10 @@ title: "Walkthrough: Configure Best Practices Analyzer in Unified Service Desk |
 description: "Demonstrates how you can configure and set up the Unified Service Desk Best Practices Analyzer in your agent application."
 ms.date: 05/15/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ---
 # Walkthrough: Configure [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 

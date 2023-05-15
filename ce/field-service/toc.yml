@@ -5,25 +5,20 @@ items:
 - name: Field Service documentation
   href: user-guide.md
 
-- name: Get started
+- name: Try for free
   items:
-    - name: Try for free
-      items:
-      - name: Sign up for free trial
-        href: trial-signup.md
-      - name: Trial FAQs
-        href: trial-faq.md
-    - name: Learn the basics
-      href: field-service-get-started.md
-    - name: Initial configuration
-      href: perform-initial-configurations-setup.md
-    - name: Set up a sample scenario
-      href: quickstart-schedule-work-order.md
+  - name: Sign up for free trial
+    href: trial-signup.md
+  - name: Trial FAQs
+    href: trial-faq.md
+
+- name: Get started
+  href: field-service-get-started.md
 
 - name: What's new
   items:
     - name: New and upcoming features
-      href: new-upcoming.md
+      href: https://experience.dynamics.com/releaseplans/?app=Field+Service
     - name: Version history (web + mobile)
       items:
         - name: Field Service
@@ -39,12 +34,12 @@ items:
   items:
     - name: Install Field Service
       href: install-field-service.md
-    - name: Upgrade Field Service
-      href: upgrade-field-service.md
+    - name: Update Field Service
+      href: update-field-service.md
     - name: Uninstall Field Service
       href: uninstall-field-service.md
     - name: Preview new features
-      href: field-service-preview.md
+      href: /dynamics365/get-started/release-schedule
 
 - name: Administration
   items:
@@ -74,6 +69,10 @@ items:
       href: set-up-service-task-types.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
+    - name: Use Dataverse search
+      href: search-dataverse-tables.md
+    - name: Customer asset validation
+      href: asset-validation.md
       
 - name: Work orders
   items:
@@ -85,30 +84,52 @@ items:
       href: work-order-status-booking-status.md
     - name: Add account details to a work order
       href: work-order-customer-account.md
+    - name: Travel charges
+      href: travel-charges.md
     - name: Knowledge articles
       href: field-service-knowledge-management.md
-    - name: Collaborate on work orders with Microsoft Teams
-      href: field-service-teams-collaboration.md
-    - name: Work order summary reports
-      href: reports.md
-    - name: Inspections
-      items:
-        - name: Create and view inspections
-          href: inspections.md
-        - name: Advanced inspection options
-          href: inspections-advanced.md
-        - name: Run reports on inspections
-          href: inspections-reporting.md
-        - name: Use inspections without work orders
-          href: inspections-customer-assets.md
-    - name: Predictive work duration and resource proficiency suggestions (Preview)
-      href: analytics-predictive-work-duration.md
     - name: Capture resolution details
       href: work-order-resolutions.md
     - name: Work order completion surveys
       href: work-order-surveys.md
+    - name: Trades
+      href: trades.md
+    - name: Not-to-exceed
+      href: work-order-not-to-exceed.md
 
-- name: Bookable resources
+- name: Inspections
+  items:
+    - name: Create and view inspections
+      href: inspections.md
+    - name: Advanced inspection options
+      href: inspections-advanced.md
+    - name: Run reports on inspections
+      href: inspections-reporting.md
+    - name: Use inspections without work orders
+      href: inspections-customer-assets.md
+  
+- name: Customers
+  items:
+    - name: Customer accounts
+      href: accounts.md
+    - name: Assets
+      items: 
+      - name: Configure customer assets
+        href: assets.md
+      - name: 3D asset models
+        href: 3D-viewer.md
+      - name: Build a service history
+        href: service-history.md
+      - name: Create functional locations
+        href: functional-locations.md
+      - name: Properties
+        items:
+        - name: Create properties and property templates
+          href: properties.md
+        - name: Property logs
+          href: property-logs.md
+
+- name: Frontline workers + bookable resources
   items:
     - name: Set up frontline workers
       href: frontline-worker-set-up.md
@@ -124,8 +145,6 @@ items:
       href: set-up-bookable-resource-categories.md
     - name: Characteristics
       href: set-up-characteristics.md
-    - name: Send technician arrival time and current map location
-      href: reminders-arrival-time.md
     - name: Resource pay types
       href: set-up-resource-pay-types.md
     - name: Submit and approve time-off requests
@@ -135,14 +154,8 @@ items:
 
 - name: Scheduling
   items:
-  - name: Universal Resource Scheduling for Field Service
+  - name: Universal Resource Scheduling for Field Service overview
     href: universal-resource-scheduling-for-field-service.md
-  - name: Types of scheduling
-    href: scheduling-capabilities.md
-  - name: Scheduling personas
-    href: scheduling-roles-personas.md
-  - name: The 5 stages of scheduling adoption
-    href: 5-stages-scheduling-adoption.md
   - name: Administration and configuration
     items:
       - name: Enable an entity for scheduling
@@ -173,7 +186,7 @@ items:
         href: schedule-with-travel-time.md
       - name: Time constraints
         href: schedule-time-constraints.md
-      - name: Resource preferences
+      - name: Preferred resources
         href: resource-preferences.md
       - name: Quick scheduling
         href: quick-scheduling.md
@@ -189,8 +202,6 @@ items:
         href: facility-scheduling.md
       - name: Advanced filters
         href: schedule-assistant-advanced-filters.md
-      - name: Self-scheduling for customers
-        href: scheduling-self-customers.md
       - name: Search resource availability API
         href: search-resource-availability-api.md
       - name: Schedule board
@@ -212,56 +223,10 @@ items:
           - name: Next-generation schedule board experience
             href: preview-schedule-board.md
 
-- name: Agreements and preventive maintenance
-  items:
-    - name: Agreements
-      href: set-up-customer-agreements.md
-    - name: Service level agreements
-      href: sla-work-orders.md
-    - name: Entitlements
-      href: work-order-entitlements.md
-
-- name: Asset servicing
-  items:
-    - name: Customer assets
-      href: configure-set-up-customer-assets.md
-    - name: Functional location
-      href: assets-functional-location.md
-    - name: Asset properties
-      href: asset-properties.md
-    - name: 3D asset models
-      href: 3D-viewer.md
-
-- name: Inventory and purchasing
-  items:
-    - name: Overview
-      href: inventory-purchasing-returns-overview.md
-    - name: Warehouses
-      href: create-warehouse.md
-    - name: Create a purchase order
-      href: create-purchase-order.md
-    - name: Process a return
-      href: process-return.md
-    - name: Manual inventory journals
-      href: manual-inventory-journals.md
-
-- name: Self-service capabilities for your customers
-  items: 
-    - name: Customer experience homepages
-      href: field-service-portal-homepage.md
-    - name: Self-scheduling for customers
-      href: scheduling-self-customers.md
-    - name: Send technician arrival time and current map location
-      href: reminders-arrival-time.md
-
 - name: Mobile app
   items: 
-    - name: Implement and adopt the mobile app
-      href: mobile-2020-power-platform.md
     - name: Overview
       href: mobile-power-app-overview.md
-    - name: System requirements
-      href: mobile-power-app-system-requirements.md
     - name: Install and setup
       href: mobile-power-app-get-started.md
     - name: Use the mobile app
@@ -317,17 +282,6 @@ items:
     - name: Entitlements
       href: work-order-entitlements.md
 
-- name: Asset servicing
-  items:
-    - name: Customer assets
-      href: configure-set-up-customer-assets.md
-    - name: Functional location
-      href: assets-functional-location.md
-    - name: Asset properties
-      href: asset-properties.md
-    - name: 3D asset models
-      href: 3D-viewer.md
-
 - name: Inventory and purchasing
   items:
     - name: Overview
@@ -341,14 +295,33 @@ items:
     - name: Manual inventory journals
       href: manual-inventory-journals.md
 
-- name: Field Service for end customers
+- name: Reports
+  items:
+    - name: Reports overview
+      href: reports.md
+    - name: Work order summary report
+      href: work-order-summary-report.md
+    - name: Resource and utilization report
+      href: resource-utilization-report.md
+    - name: Optimization summary report
+      href: rso-optimization-summary-report.md
+    - name: Admin report
+      href: rso-admin-report.md
+    - name: Predictive work duration (Preview)
+      href: analytics-predictive-work-duration.md
+
+- name: Field Service Portal
   items: 
-    - name: Customer experience homepages
-      href: field-service-portal-homepage.md
-    - name: Self-scheduling for customers
-      href: scheduling-self-customers.md
+    - name: Overview
+      href: customer-portal-overview.md
+    - name: Create and configure the portal
+      href: create-configure-customer-portal.md
+    - name: Configure notification settings
+      href: customer-portal-notification-settings.md
     - name: Send technician arrival time and current map location
-      href: reminders-arrival-time.md
+      href: customer-portal-technician-tracking.md
+    - name: Let customers schedule service appointments
+      href: customer-portal-self-scheduling.md
 
 - name: Connected Field Service (IoT)
   items: 
@@ -370,7 +343,9 @@ items:
             href: developer/connected-field-service-developer-guide.md
           - name: Prerequisites for Azure subscription
             href: cfs-azure-subscription.md
-          - name: Installation
+          - name: Create Iot provider for IoT Hub
+            href: cfs-provider-iot-hub.md
+          - name: Installation via IoT Hub
             href: installation-setup-iothub.md
           - name: Register IoT devices
             href: cfs-register-devices.md
@@ -378,16 +353,10 @@ items:
             href: cfs-pull-device-data.md
           - name: "Quickstart: Build your own IoT solution"
             href: connected-field-service-overview.md
-      - name: Azure IoT Central
-        href: cfs-iot-overview.md
       - name: Use custom IoT providers
         href: cfs-custom-iot-provider.md
   - name: Analyze
     items:
-      - name: Receive IoT alerts from Azure IoT Central
-        href: cfs-iot-central-alerts.md
-      - name: Associate devices with customer accounts
-        href: cfs-iot-central-associate-devices.md
       - name: Summary tiles
         href: cfs-summary-tiles.md
       - name: Visualizing device readings
@@ -404,8 +373,6 @@ items:
         href: cfs-mobile-powerapp.md
       - name: Send commands
         href: cfs-commands.md
-      - name: Receive IoT alerts from real MXChip device
-        href: cfs-iotcentral-mxchip.md
       - name: IoT - Parent IoT alerts workflow
         href: developer/iot-parent-iot-alerts-workflow.md
       - name: Extend standard components or add Azure services
@@ -453,13 +420,13 @@ items:
       href: booking-lock-options.md
     - name: Resolving conflicts for bookings
       href: rso-handling-resolving-booking-conflicts.md
-    - name: Analytics dashboard
-      href: scheduling-analytics-reports.md
 
 - name: Integrations
   items:
     - name: Overview of integrations
       href: field-service-integration-overview.md
+    - name: Collaborate with Microsoft Teams
+      href: field-service-teams-collaboration.md
     - name: Dynamics 365 Supply Chain Management
       href: supply-chain-field-service-integration.md
     - name: Dynamics 365 Remote Assist
@@ -468,6 +435,10 @@ items:
       href: mixed-reality-guides-integration.md
     - name: SAP integration
       href: field-service-sap-integration.md
+    - name: Apps on AppSource
+      href: https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services
+    - name: Dynamics 365 US Government cloud
+      href: /power-platform/admin/microsoft-dynamics-365-government
 
 - name: Customize Field Service
   items:
@@ -501,10 +472,8 @@ items:
       href: https://www.youtube.com/channel/UC7Rd031NCJZekAkNU2bb8Kg/
     - name: Learning paths
       href: /training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path
-    - name: AppSource add-ins for Field Service
-      href: appsource-addins.md
-    - name: Dynamics 365 US Government cloud (GCC) availability
-      href: field-service-dynamics365-government.md
+    - name: Submit a feature request
+      href: https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service
     - name: Get help
       href: field-service-get-help.md
 

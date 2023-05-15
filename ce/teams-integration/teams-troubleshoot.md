@@ -1,20 +1,17 @@
 ---
 title: "Troubleshoot Microsoft Teams integration with Dynamics 365 app"
 description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, and possible resolutions."
-ms.date: 11/17/2022
+ms.date: 05/09/2023
 ms.topic: article
 applies_to: 
   - Dynamics 365 apps
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
+
 # Troubleshoot Microsoft Teams integration with customer engagement apps in Dynamics 365
 
 This article provides information about the error messages you might face with possible resolutions and some known issues.
@@ -87,6 +84,38 @@ To fix the issue, do the following:
 9. Select **Save and Close**.
 
 Now, when the user tries to pin the entity to the required Microsoft Teams channel, it should work.
+
+### Dynamics 365 app for Teams doesn't connect to Dynamics 365 organization when two-factor authentication is enabled
+
+If the Dynamics 365 organization has two-factor authentication enabled, but Microsoft Teams does not, the **Dynamics 365** app for Teams will be unable to communicate with Dynamics 365. This is intended to prevent security incidents. When Dynamics 365 has two-factor authentication enabled, any communication from users that logged into an app without two-factor authentication will be considered as untrusted. 
+
+To solve this problem, you must perform one of the following actions:
+
+- Enable two-factor authentication in [Dynamics 365](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#microsoft-cloud-applications) and [Teams](/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide&preserve-view=true). This is the preferred action. 
+- Disable two-factor authentication in Dynamics 365 and Teams.
+
+### Dynamics 365 app doesn't populate environment list in settings
+
+This issue might occur if two-factor authentication is enabled in either Dynamics 365 or Teams. For more information, see [Dynamics 365 app for Teams doesn't connect to Dynamics 365 organization when two-factor authentication is enabled](#dynamics-365-app-for-teams-doesnt-connect-to-dynamics-365-organization-when-two-factor-authentication-is-enabled)
+
+> [!div class="mx-imgBorder"] 
+> ![Environment not getting populated.](media/teams-env-troubleshoot.png "Environment not getting populated")
+
+### Disconnected Teams channel keeps showing as a connected channel in Dynamics 365
+
+This behavior is by design where deleting a tab from Teams does not unlink the channel from Dynamics 365 record.
+
+To resolve the issue, manually delete the association row.
+
+1. Sign in to [https://make.powerapps.com](https://make.powerapps.com).
+2. Select the environment that has the association row.
+3. On the left navigation pane, select **Tables**.
+4. Enter **teams collab** in the search box.
+5. In the search result, select **Microsoft Teams Collaboration entity**.
+6. On the **Microsoft Teams Collaboration entity** page, select **Edit**.
+7. Find the name of team and channel you want to disconnect from Dynamics 365.
+8. Select the record, and then select **Delete**.
+9. Go to Dynamics 365 and refres the page. The team and channel will not be listed as connected channels.
 
 ## Troubleshoot errors in Microsoft Teams
 

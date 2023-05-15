@@ -1,21 +1,17 @@
 ---
-title: "ersonalize triggers using conditions (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Personalize triggers using conditions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize triggers using attributes from tables one hop away in real-time journeys in Dynamics 365 Marketing."
-ms.date: 10/28/2022
+ms.date: 12/16/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Personalize triggers using conditions
@@ -38,3 +34,5 @@ This enables you to create [journey variations](real-time-marketing-edit-journey
 
 > [!div class="mx-imgBorder"]
 > ![Create a variation based on the attribute.](media/real-time-marketing-tile-will-buy.png "Create a variation based on the attribute")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

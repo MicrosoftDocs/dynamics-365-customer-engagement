@@ -5,7 +5,6 @@ keywords:
 author: sericks007
 applies_to: Dynamics 365 Customer Engagement (on-premises)
 ms.author: sericks
-manager: tapanm-MSFT
 ms.date: 05/05/2020
 ms.topic: article
 

@@ -1,14 +1,13 @@
 ---
 title: Set up Microsoft Teams for conversation intelligence
 description: Learn how to set up conversation intelligence with Microsoft Teams in Dynamics 365 Sales.
-ms.date: 01/05/2023
+ms.date: 05/15/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Set up Microsoft Teams for conversation intelligence
@@ -96,13 +95,27 @@ A Teams administrator must set up the phone system and Teams for your organizati
 
 ## Hide personal data (preview)
 
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
 To comply with Payment Card Industry regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as the account number, expiration date, and CVV are masked before the call transcript is saved.
 
-- In step 9 above, select **Hide credit card info in transcripts** to mask credit card information in the transcripts of future calls before they're saved. If you don't select this option, credit card information in the call audio is visible in the transcript.
+- In step 9 above, select **Hide credit card info in transcripts** to mask credit card information in the transcripts of future calls before they're saved. Currently, the credit card number mentions in the audio are not redacted.
 
     :::image type="content" source="media/hide-pii.png" alt-text="Screenshot of the hide personal data option.":::
 
+
+
+#### Enable call categorization for short calls (preview)
+
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+If you have chosen **Automatic recording** to record all customer calls, you can enable call categorization to help your sales team to quickly identify calls that don't have useful content such as calls that went to voicemail and calls that were not answered. More information: [View categorization tag for short duration calls (Preview)](view-and-understand-call-summary-sales-app.md#view-categorization-tag-for-short-duration-calls-preview)
+
+1. Follow steps 1 through 4 in the [Configure Microsoft Teams call recording](#configure-microsoft-teams-call-recording) to open the Teams call recording options.
+
+1. Go to the **New and upcoming features** section, select **Call categorization (preview)**, select the type of calls you want the system to detect and tag.  
+
+    :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features":::
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
@@ -112,3 +125,5 @@ To comply with Payment Card Industry regulations, organizations must protect per
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+

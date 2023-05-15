@@ -2,7 +2,6 @@
 title: "Field Service (Dynamics 365) app for Windows 10+ devices (contains video) | MicrosoftDocs"
 description: Learn about the Field Service (Dynamics 365) app for Windows 10+ devices.
 ms.date: 09/17/2022
-ms.reviewer: mhart
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to:
@@ -10,10 +9,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Field Service (Dynamics 365) app for Windows 10+ devices
@@ -39,9 +34,6 @@ For a guided walkthrough, check out the following video.
 Device requirements:
 
 - Windows 10 or 11
-- A device with minimum 3-GB RAM and 64-GB storage.
-
-For more system requirements, see: [System requirements for the Field Service (Dynamics 365) mobile app](mobile-power-app-system-requirements.md)
 
 Also, be sure to [review installation and set up of the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
 
@@ -58,7 +50,7 @@ Open the app and sign in with your username and password. The user account needs
 
 ## View bookings
 
-You can access your bookings from the **Home** screen or **Bookings** screen. On the bookings screen, you can see bookings on an agenda, day, week, month, or [map view](mobile-powerapp-booking-maps.md). You can [customize the agenda view](/mobile-powerapp-customize-booking-calendar.md) in the same way as iOS and Android apps.
+You can access your bookings from the **Home** screen or **Bookings** screen. On the bookings screen, you can see bookings on an agenda, day, week, month, or [map view](mobile-powerapp-booking-maps.md). You can [customize the agenda view](mobile-powerapp-customize-booking-calendar.md) in the same way as iOS and Android apps.
 
 > [!div class="mx-imgBorder"]
 > ![Bookings agenda view in the Field Service Windows app.](./media/mobile-2020-windows-agenda-view.jpg)

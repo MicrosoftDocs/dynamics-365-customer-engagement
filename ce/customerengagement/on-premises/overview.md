@@ -1,5 +1,5 @@
 ---
-title: "Help for Dynamics 365 Customer Engagement (on-premises)"
+title: "Help for Dynamics 365 Customer Engagement (on-premises), version 9.x"
 description: "Find all the info you need to work with Dynamics 365 Customer Engagement (on-premises), version 9.1. Learn about deploying, customizing, reporting, and more."
 ms.custom: on-premises
 ms.date: 06/07/2021
@@ -8,7 +8,6 @@ ms.reviewer: "kvivek"
 ms.topic: overview
 author: "kvivek"
 ms.author: "kvivek"
-manager: "annbe"
 ---
 # Microsoft Dynamics 365 Customer Engagement (on-premises) Help, version 9.x
 
@@ -52,7 +51,7 @@ To avoid duplicating the common information between Customer Engagement (on-prem
 
 ## Documentation for previous version
 
-Documentation for previous version (8.x and earlier) is available here: </previous-versions/dynamics/>.
+Documentation for previous version (8.x and earlier) is available here: [https://learn.microsoft.com/previous-versions/dynamics](/previous-versions/dynamics).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,11 +5,8 @@ ms.date: 08/25/2022
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
-manager: "shujoshi"
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # msdyn_agentcapacityupdatehistory Entity Reference
 
@@ -928,5 +925,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 ### See also
-[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)  
+[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)  
+[Manage historical data of capacity updates for agents](../../../manage-historical-data-capacity-updates.md)  

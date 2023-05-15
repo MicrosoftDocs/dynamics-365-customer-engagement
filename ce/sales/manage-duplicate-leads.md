@@ -5,7 +5,6 @@ ms.date: 08/25/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Manage duplicate leads

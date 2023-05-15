@@ -7,7 +7,6 @@ ms.custom: bap-template
 ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # View and understand the call summary page
@@ -29,7 +28,7 @@ Call summaries are available from the conversation intelligence capabilities of 
 ## Prerequisites
 
 - [Configure conversation intelligence to process call recordings](intro-admin-guide-sales-insights.md#administer-conversation-intelligence).
-- To display the **Call Insights** tab in Sales Hub, make sure that [the latest version of Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) is installed in your organization.
+- To display the **Call summary** tab in Sales Hub, make sure that [the latest version of Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) is installed in your organization.
 
 ## View the call summary page
 
@@ -71,6 +70,21 @@ The **Overview** tab displays the following information about the conversation:
 
 :::image type="content" source="media/ci-summary-call-overview.png" alt-text="Screenshot of the Overview tab of the call summary page.":::
 
+##### View categorization tag for short duration calls (Preview)
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+Conversation intelligence can detect and tag short duration calls for the following categories:
+
+- Voicemail
+- Contact is unavailable
+- Short calls with reschedule requests
+- Short calls in which the contact indicates the call is unwanted
+
+If the tag is inappropriate, you can delete it.  
+
+Your administrator must [enable the **Call categorization (preview)**](fre-setup-ci-sales-app.md#enable-call-categorization-for-short-calls-preview) feature for the system to tag short duration calls. You can also view these tags in the [Conversation intelligence app](https://sales.ai.dynamics.com/) under **Seller Details** > **Call History** section. For more information, see [View a seller’s performance to identify best practices and coaching opportunities](conversation-intelligence-seller-details.md).  
+
 #### Notes tab
 
 The **Notes** tab helps reduce the time it takes you to summarize the call by offering intelligent suggestions, including action items, commitments, call minutes, and next steps. Writing a personalized summary of the call helps you to focus on the customer's need, quickly review key points, and understand the next course of action. You can share the summary with stakeholders through email.
@@ -79,14 +93,13 @@ The **Notes** tab helps reduce the time it takes you to summarize the call by of
 
 ##### Write a call summary
 
-1. On the **Notes** tab, edit any notes you took during the call, and check the **Suggested notes** pane for call highlights and action items.
+1. On the **Notes** tab, edit any notes you took during the call, and check the **Suggested notes** pane for call highlights and action items. If you don't see the **Suggested notes** pane, select the bulb icon to open the pane.
 
     - Select **Add** to add a call highlight or action item to your summary.
     - To add all the call highlights or action items, select **More options** (**&hellip;**), and then select **Add all**.
     - To understand the context of a call highlight or action item, select the timestamp to go to that point in the call transcript and playback.
 
     :::image type="content" source="media/ci-summary-call-summary-suggested-notes-sales-app.png" alt-text="Screenshot of Suggested notes in the Notes tab.":::
-    <!-- EDITOR'S NOTE: The screenshot calls out the lightbulb icon but doesn't explain it. Do you have to select the icon to open the Suggested notes pane? -->
 
 1. Select **Save**.
 
@@ -100,8 +113,6 @@ The **Notes** tab helps reduce the time it takes you to summarize the call by of
 
 1. Paste the notes in the body of an email.
 
-    :::image type="content" source="media/ci-summary-call-summary-copy-pasted-email-sales-app.png" alt-text="Screenshot of an email compose window with summary notes pasted.":::
-<!-- EDITOR'S NOTE: Screenshots should use the default Windows light theme. -->
 
 #### Action items tab
 

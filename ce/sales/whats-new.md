@@ -1,38 +1,54 @@
 ---
-title: "What's new in Dynamics 365 Sales"
-description: "Learn about what's new in the latest release of Dynamics 365 Sales."
-ms.date: 09/09/2022
-ms.topic: article
-ms.assetid: 6b697179-a0f0-4aee-b636-6cb7426212ec
-author: udaykirang
-ms.author: udag
-manager: shujoshi
+# required metadata
+title: What's new or changed in Dynamics 365 Sales
+description: This article points to articles that describe the new and changed features in each release of Dynamics 365 Sales.
+author: lavanyakr01
+ms.author: lavanyakr
+ms.date: 04/03/2023
+ms.custom: bap-template 
+ms.topic: whats-new 
 ---
+# What's new or changed in Dynamics 365 Sales
 
-# What's new in Dynamics 365 Sales 
+Wondering about upcoming and recently released capabilities in Dynamics 365 Sales? [Check out the release planner site](https://experience.dynamics.com/releaseplans/?app=sales). We've captured all the details, end to end, top to bottom, which you can use for planning.  
 
-This topic provides resources where you can learn about the new features that have recently released or new features that will be releasing over the next few months.
+See the release plans for what's coming. Choose the following links to learn about the latest versions of Dynamics 365 Sales.
 
-For information about new features releasing over the next few months that you can use for planning, see:
+- [2023 release wave 1](/dynamics365/release-plan/2023wave1/sales/dynamics365-sales/planned-features)  
+- [2022 release wave 2](/dynamics365-release-plan/2022wave2/sales/dynamics365-sales/planned-features)  
 
-- [2022 release wave 2 plan](/dynamics365-release-plan/2022wave2/sales/dynamics365-sales)  
+Keep track of changes on the [Dynamics 365 Sales release planner](https://experience.dynamics.com/releaseplans/?app=sales) site, or download the release plan as a single PDF.
 
-    To learn more about early access features in the 2022 wave 2 release and how to opt in to early access updates, see [2022 release wave 2 features available for early access](/dynamics365-release-plan/2022wave2/features-ready-early-access) and [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
+Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.microsoft.com/sales/overview/) site.
 
-- [2022 release wave 1 plan](/dynamics365-release-plan/2022wave1/sales/dynamics365-sales)
+## April 2023 release
 
-- [2021 release wave 2 plan](/dynamics365-release-plan/2021wave2/sales/dynamics365-sales/planned-features)
+We're excited to announce our newest updates! This article summarizes early access, public preview, and general availability features that were released in the month of April.
 
-- [2021 release wave 1 plan](/dynamics365-release-plan/2021wave1/sales/dynamics365-sales/planned-features)
+| Feature area | Feature | Description | Resources | Enabled by | Availability |
+|--------------|---------|-------------|-----------|------------|--------------|
+| Sales engagement | Up next widget | Shows new suggestions and sequence preview. | [Documentation](understand-the-up-next-widget.md) | Enabled by default | GA |
+| Contact management | Email validation | Identifies invalid email addresses for contact records. | [Documentation](enable-email-validation.md) | Enabled by default | Public preview |
+| Lead management | Duplicate lead detection | Enable the duplicate lead detection feature for the customized main lead form. | [Documentation](enable-duplicate-detection-custom-forms.md) | Enabled by default | GA |
+| Lead management | Email validation | Enable the email validation feature for the customized main lead form. | [Documentation](enable-email-validation-custom-forms.md) | Enabled by default | Public preview |
 
-- [2020 release wave 2 plan](/dynamics365-release-plan/2020wave2/sales/dynamics365-sales/planned-features)
+## March 2023 release
 
-- [2020 release wave 1 plan](/dynamics365-release-plan/2020wave1/dynamics365-sales/planned-features)  
+This article summarizes early access, public preview, and general availability features that were released in the month of March.
 
-> [!NOTE]
-> Releases are rolled out to different regions over several days. New or updated functionality might not appear immediately.
+|Feature area  |Feature  |Description  |Resources  |Enabled by |Availability  |
+|---------|---------|---------|---------|---------|---------|
+| Sales engagement | Engage with your Customers using SMS conversation | Support for incoming SMS, routing them to appropriate records, and showing them in the timeline. | [Documentation](manage-text-message-communications.md) | Enabled by admin | Public preview |
+| Sales engagement | Engage with your Customers using SMS conversation | Support for sending and receiving SMS from Contact, Lead and Account forms. | [Documentation](sms-intro.md) | Enabled by default | GA |
+| Sales engagement | Prioritize segments | Set priority for the segments so that the records are connected to the right segment when there are multiple matching segments. | [Documentation](prioritize-segment.md) | Enabled by default | GA |
+| Collaboration | Linked chats in timeline | View linked chats in the timeline of a record. | [Documentation](teams-integration/join-chat.md) | Enabled by default | GA |
+| Predictive scoring | Real-time scoring | View prediction for a new lead in near real time. | [Documentation](work-predictive-lead-scoring.md#real-time-scoring) | Enabled by default | GA |
+| Sales engagement | Prioritize your engagements by using focused view | View and manage all your sales records and the associated activities on one page. | [Documentation](focused-view.md) | Enabled by default | Early access |
 
-To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=5f82c7ac-92b0-e811-a96a-000d3a1bece3&forumName=Dynamics%20365%20Sales).
+## Get the latest version
 
+New customers automatically get the latest version. If you're an existing partner/customer, check your email for notifications about updates. 
+
+For the latest available version in your region, see [Released Versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

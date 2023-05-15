@@ -14,7 +14,6 @@ ms.assetid: 826ddda1-2038-40ba-a5a9-8b443a7a6b02
 caps.latest.revision: 61
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -77,11 +76,11 @@ For more information, see [Discover the URL for your organization using the Orga
 
 ## Organization service  
 
- The organization service provides access to the business data and metadata of your organization by using the SOAP protocol. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Organization Service to read and write data or metadata](org-service/use-organization-service-read-write-data-metadata.md).  
+The Organization service provides access to the business data and metadata of your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Organization Service to read and write data or metadata](org-service/use-organization-service-read-write-data-metadata.md).  
   
 ### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] 
 
- Use the following URLs to access the organization service (SOAP endpoint):  
+ Use the following URLs to access the Organization service:  
 
 |Region| URL|
 |---|---|
@@ -98,7 +97,7 @@ For more information, see [Discover the URL for your organization using the Orga
   
 ### For on-premises Dynamics 365 Customer Engagement (on-premises)
 
- Use the following URL to access the organization service (SOAP endpoint):  
+ Use the following URL to access the Organization service:  
   
  `http[s]://ServerName/OrganizationName/XRMServices/2011/Organization.svc`  
   

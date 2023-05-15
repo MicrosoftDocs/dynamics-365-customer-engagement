@@ -1,11 +1,10 @@
 ---
 title: "createTab (JavaScript API Reference) for Dynamics Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes description, syntax, and parameter information for the createTab method in JavaScript API Reference for Channel Integration Framework 2.0."
-ms.date: 11/19/2020
+ms.date: 02/20/2023
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -13,7 +12,7 @@ ms.custom:
 
 # createTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Creates a tab in a focused Session and returns the unique identifier of the created tab.
+Creates a tab in a focused session and returns the unique identifier of the created tab.
 
 ## Syntax
 
@@ -23,26 +22,26 @@ Creates a tab in a focused Session and returns the unique identifier of the crea
 
 | **Name**         | **Type** | **Required** | **Description**   |
 |------------------|----------|--------------|-----------------------------------------------------------------------------------------------------------------------|
-| Input            | String   | Yes          | JSON input                                                                                                            |
-| successCallback  | Function | No           | A function to call when a record is created. Unique identifier(TabId) of the created tab is returned in the response. |
+| input            | String   | Yes          | JSON input                                                                                                            |
+| successCallback  | Function | No           | A function to call when a record is created. Unique identifier (tab ID) of the created tab is returned in the response. |
 | errorCallback    | Function | No           | A function to call when the operation fails. An object with the following properties will be passed:<br />**errorCode**: Number. The error code.<br />**message**: String. An error message describing the issue.   |
 
-The structure of the `Input` parameter JSON is shown below.
+The structure of the `input` parameter JSON is as follows:
 
 ```json
-{ 
-   "templateName":"<unique name of session template>",
-   "templateTag":"<template tag>",
-   "templateParameters":{ 
-      "globalparam":"number value OR boolean value OR json string value OR parameterized string value",
-      "app template 1":{ 
-         "param 1":"number value OR boolean value OR json string value OR parameterized string value",
-         "param 2":"..."
-      },
-      "app template 2":"…."
-   }
+{
+    //Unique name of the tab 
+    // type = string
+    templateName: <unique name of the tab template>;
+    //additional context for tab creation and tab slugs
+    // type  Map<string, string>
+    appContext?:  Map<string, string>;
+    //should this tab be focused after creation
+    // type=boolean
+    isFocused?: <true or false>;
 }
 ```
+
 
 ## Return value
 

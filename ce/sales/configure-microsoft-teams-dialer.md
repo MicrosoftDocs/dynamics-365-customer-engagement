@@ -1,13 +1,12 @@
 ---
-title: "Configure Microsoft Teams dialer in Dynamics 365 Sales | MicrosoftDocs"
-description: "Learn how to configure Microsoft Teams dialer in Dynamics 365 Sales."
-ms.date: 11/08/2022
-ms.topic: article
+title: Configure Microsoft Teams dialer in Dynamics 365 Sales
+description: Learn how to configure Microsoft Teams dialer in Dynamics 365 Sales.
+ms.date: 04/27/2023
+ms.topic: how-to
+ms.collection: 
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
-ms.custom: 
-  - dyn365-sales
+ms.custom: bap-template
 ---
 # Configure Microsoft Teams dialer
 
@@ -68,8 +67,6 @@ Ensure that you meet the following requirements before you configure Microsoft T
     - **Answer incoming calls in Dynamics 365**
         Allows sellers to receive Teams calls in Dynamics 365 Sales. If you turn it off, sellers can only make outgoing Teams calls from within Dynamics 365.
 
-        > [!IMPORTANT]
-        > Currently, Dynamics 365 doesn't support incoming calls from Teams call queues. If your organization has set up call queues, turn off the **Answer incoming calls in Dynamics 365** option.  
     - **Internal call will ring only in the Teams app, not in Dynamics 365**
         Indicates that calls from internal users won't ring and won't be tracked in Dynamics 365. In this case, calls from external contacts will ring in Dynamics 365 and internal calls will ring only in Teams. You can clear the checkbox if you want sellers to receive both external and internal calls in Dynamics 365.  
  
@@ -78,12 +75,13 @@ Ensure that you meet the following requirements before you configure Microsoft T
     | Option | Description |
     |--------|-------------|
     | All security roles | Allows all the security roles to access Microsoft Teams dialer. |
-    | Specific security roles | Allows only the selected security roles to access Microsoft Teams dialer.<br>**Note**:<br> - Ensure that the security roles you’ve selected are associated with the root business unit (top level in the business unit hierarchy). If not, the users will not see the Teams dialer in the Sales Hub app. More information: [Create or edit business units](/power-platform/admin/create-edit-business-units)|
+    | Specific security roles | Allows only the selected security roles to access Microsoft Teams dialer.<br>**Note**:<br> - Ensure that the security roles you've selected are associated with the root business unit (top level in the business unit hierarchy). If not, the users will not see the Teams dialer in the Sales Hub app. More information: [Create or edit business units](/power-platform/admin/create-edit-business-units)|
 
 7.	Select **Advanced options**, and in the **Select app** drop-down list, select the apps in which you want to make the dialer available. By default, **Sales Hub** is selected.  
     
     >[!NOTE]
     >Teams dialer is not supported for Dynamics 365 canvas apps.
+    
 8. (Optional) Enable call recording and get real-time transcription and insights through conversation intelligence:
     1. Turn on **Recording with real-time transcription and insights**.
     1. Select the security roles for which you want to enable recording. 
@@ -92,7 +90,8 @@ Ensure that you meet the following requirements before you configure Microsoft T
 7.	Save and publish the configuration.
     A confirmation message is displayed, and the Microsoft Teams dialer is enabled in your organization for selected security roles in the selected app. 
     >[!NOTE]
-    >You must refresh the configuration page to make the changes available in the application. Users must refresh their page to see the dialer.  
+    >- You must refresh the configuration page to make the changes available in the application. Users must refresh their page to see the dialer.  
+    >- If the dialer doesn't show up in a custom app that you've added it to, remove it from the app, save the changes, and then add the dialer again.
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

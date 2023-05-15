@@ -1,23 +1,21 @@
 ---
 title: "Enable sales usage reports for sales managers"
 description: "Enable sales usage reports for sales managers to analyze the status of opportunities and leads in your organization."
-ms.date: 11/22/2022
+ms.date: 02/03/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Enable sales usage reports
 
-Sales usage reports provide a historical view of operational metrics and key performance indicators in Dynamics 365 Sales. This helps sales managers to view and analyze their team's operational metrics, and make decisions that improve sales performance.
+Sales usage reports provide a historical view of operational metrics and key performance indicators in Dynamics 365 Sales. This helps sales managers to view and analyze their team's operational metrics such as opportunities and leads usage, and make decisions that improve sales performance.
 
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Enable the reports
 
@@ -31,9 +29,6 @@ As an administrator, enable the sales usage reports in your organization for sal
 
 2.	On the site map, select **General settings** > **Sales usage reports**.
  
-    >[!div class="mx-imgBorder"]
-    >![Select sales usage reports through app settings.](media/sales-usage-reports-select.png "Select sales usage reports through app settings")        
-
 3.	On the **Sales usage reports** page, turn on the toggle to enable the reports.
 
     >[!div class="mx-imgBorder"]

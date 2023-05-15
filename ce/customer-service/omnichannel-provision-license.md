@@ -1,11 +1,10 @@
 ---
 title: "Provision Omnichannel for Customer Service and voice channel | MicrosoftDocs"
 description: "Perform the steps in this article to provision Omnichannel for Customer Service and add channels so that can you start using the product."
-ms.date: 11/24/2022
+ms.date: 02/17/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Provision Omnichannel for Customer Service
@@ -24,7 +23,7 @@ You can provision the following channels in Omnichannel for Customer Service:
 
 - [Chat](set-up-chat-widget.md)
 - [Voice](voice-channel.md)
-- [SMS](configure-sms-channel.md)
+- [SMS](sms-channel-overview.md)
 - [Social](channels.md)
 - [Microsoft Teams](configure-teams-chat.md)
 

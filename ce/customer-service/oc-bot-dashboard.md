@@ -5,15 +5,13 @@ ms.date: 10/12/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Bot dashboard
 
-In Omnichannel for Customer Service, you can integrate both Azure and Power Virtual Agents bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required. The Bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are performing in a support organization. 
+In Omnichannel for Customer Service, you can integrate both Azure and Power Virtual Agents bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required. The bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are performing in a support organization. 
 
-If your administrator has enabled **Add historical analytics for bots**  in Customer Service admin center, then the dashboard displays the metrics, KPIs, and charts specific to the type of bots integrated with the application.
-
+If your administrator has enabled **Add historical analytics for bots** in Customer Service admin center, then the dashboard displays the metrics, KPIs, and charts specific to the type of bots integrated with the application.
 
 ### Access the Bot dashboard
 
@@ -21,29 +19,29 @@ If your administrator has enabled **Add historical analytics for bots**  in Cust
 
 ## Power Virtual Agents bot dashboard
 
- The **Bot** dashboard displays metrics specific to Power Virtual Agents bots only if Power Virtual Agents bots are integrated with Omnichannel for Customer Service and the **Add historical analytics for bots** checkbox in Customer Service admin center is enabled.
+The bot dashboard displays metrics specific to Power Virtual Agents bots only if Power Virtual Agents bots are integrated with Omnichannel for Customer Service and the **Add historical analytics for bots** checkbox in Customer Service admin center is enabled.
 
- :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Screenshot that shows the Omnichannel Bot dashboard.":::
+ :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Screenshot showing the Omnichannel bot dashboard.":::
 
  ### Report details
 
-The report summarizes KPIs for the specified time period and the percentage change over a period. These metrics are specific to Power Virtual Agents bots. You can filter these areas by duration, channel, queue, or agent.
+The report summarizes KPIs for the specified time period and the percentage change over that period. These metrics are specific to Power Virtual Agents bots. You can filter these areas by duration, channel, queue, or agent.
 
- :::image type="content" source="media/oc-bot-KPI.png" alt-text="Screenshot that shows the PVA Bot dashboard KPIs.":::
+ :::image type="content" source="media/oc-bot-KPI.png" alt-text="Screenshot showing the Power Virtual Agents bot dashboard KPIs.":::
 
 | KPI | Description |
 | ------- | ------------------ |
 | Total bot conversations | The number of conversations initiated by the customer and engaged by a bot. |
 | Bot escalation rate |  The percentage of bot sessions that were escalated by a bot to a human agent.  |
 | Total bot sessions |  The total number of sessions within the specified time period. A bot session is defined as a conversation in which a bot is invoked. The bot can be invoked at the beginning, during, or end of a conversation. |
-| Bot engagement rate |  The percentage of total sessions that are engaged sessions. An engaged session is a session in which a user-created topic (as opposed to a system topic) is triggered, or the session ends in escalation. Engaged sessions can have one of three outcomes—they're either resolved, escalated, or abandoned. |
-| Bot resolution rate | The percentage of sessions that were closed by interacting with a bot, out of all the sessions engaged by a bot. |
+| Bot engagement rate |  The percentage of total sessions that are engaged sessions. An engaged session is a session in which a user-created topic (as opposed to a system topic) is triggered, or the session ends in escalation. Engaged sessions can have one of three outcomes: they're either resolved, escalated, or abandoned. |
+| Bot resolution rate | The percentage of sessions that were closed by interacting with a bot out of all the sessions engaged by a bot. |
 | Bot abandon rate  | The percentage of engaged sessions that are abandoned. An abandoned session is an engaged session that isn't resolved or escalated after one hour from the beginning of the session. |
 | Bot CSAT | The graphical view of the average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey. |
 
 The following table shows the bot KPI chart metrics.
 
- :::image type="content" source="media/oc-bot-summary-charts.png" alt-text="PVA bot chart description.":::
+ :::image type="content" source="media/oc-bot-summary-charts.png" alt-text="Power Virtual Agents bot chart description.":::
 
 | Title | Description |
 | --------------- | ----------------- |
@@ -104,8 +102,8 @@ The application displays the key performance metrics and charts for the individu
 | Total conversations | The number of conversations initiated by the customer and engaged by the bot. |
 | Total sessions | The total number of sessions within the specified time period. A bot session is defined as a conversation in which a bot is invoked. The bot can be invoked at the beginning, during, or end of a conversation. |
 | Engagement rate | The percentage of total sessions that are engaged by the bot. An engaged session is a session in which a user-created topic (as opposed to a system topic) is triggered, or the session ends in escalation. Engaged sessions can have one of three outcomes—they're either resolved, escalated, or abandoned. |
-| Resolution rate | The percentage of engaged sessions that are resolved. A resolved session is an engaged session in which the user receives an end-of-conversation survey that asks the question "Did that answer your question?" and the user either doesn't respond or responds Yes|
-| Escalation rate |The percentage of engaged sessions that are escalated by the bot. An escalated session is an engaged session that is escalated to a human agent. | 
+| Resolution rate | The percentage of engaged sessions that are resolved. A resolved session is an engaged session in which the user receives an end-of-conversation survey that asks the question "Did that answer your question?" and the user either doesn't respond or responds **Yes**.|
+| Escalation rate | The percentage of engaged sessions that are escalated by the bot. An escalated session is an engaged session that is escalated to a human agent. | 
 | Abandon rate | The percentage of engaged sessions that are abandoned. An abandoned session is an engaged session that isn't resolved or escalated after one hour from the beginning of the session.|
 | Bot CSAT | The average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey. | 
 
@@ -118,12 +116,13 @@ The following charts are displayed:
 | Session outcomes over time | Provides a graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period.|
 
 ### Metrics by bot topic
+
 The **Metrics by bot topic** section provides insights into the performance of individual bot topics and their key business metrics. The metrics give the supervisor an overview of which topics the bot was able to deflect or escalate. 
 
 You can also select a topic and drill down into the individual topic performance and metrics. The topic-level metrics help supervisors further analyze how the bot is handling the topic. 
 
 > [!div class="mx-imgBorder"]
-> ![Bot topic metrics.](media/oc-bot-topic-report.png "Individual bot report")
+> ![Screenshot of individual bot report.](media/oc-bot-topic-report.png "Individual bot report")
 
 The **Bot conversation metrics** section provides the topic transcripts, allowing supervisors to go through the bot's interactions for the topic and take corrective measures.
 
@@ -134,19 +133,19 @@ You can view and improve the performance of individual topics associated with a 
 1. On the bot drill-down page, for a bot, select the topic to view the topic-specific metrics. 
    You can also view and download up to seven days of bot conversation transcript sessions from the past 30 days.
    > [!div class="mx-imgBorder"]
-   > ![Bot transcripts.](media/oc-transcripts.png "transcript") 
+   > ![Screenshot of bot transcripts.](media/oc-transcripts.png "Bot transcript") 
 
-1. To edit the bot responses to a topic, select **Edit Power Virtual Agents** on the Topics metrics grid. This opens the corresponding Power Virtual Agents bot. You can modify both the topic name and trigger phrases, and for trigger phrases; you can add additional ones.
+1. To edit the bot responses to a topic, select **Edit Power Virtual Agents** on the Topics metrics grid. This opens the corresponding Power Virtual Agents bot. You can modify both the topic name and trigger phrases, and for trigger phrases, you can add more.
 
   > [!div class="mx-imgBorder"]
-  > ![Edit power virtual agents bot.](media/oc-pva-edit.png "Edit page") 
+  > ![Screenshot of Power Virtual Agents bot edit page.](media/oc-pva-edit.png "Edit page") 
 
 ## Dashboard for all bots 
 
- The **Bot** dashboard summarizes the KPIs for all the bots integrated with Omnichannel for Customer Service for the specified time period and percent change over a period. The application displays this view only if your administrator has disabled the **Add historical analytics for bots** checkbox in Customer Service admin center. You can filter these areas by duration, channel, queue, or agent.
+The **bot** dashboard summarizes the KPIs for all the bots integrated with Omnichannel for Customer Service for the specified time period and percent change over a period. The application displays this view only if your administrator has disabled the **Add historical analytics for bots** checkbox in Customer Service admin center. You can filter these areas by duration, channel, queue, or agent.
 
 > [!div class="mx-imgBorder"]
-> ![Bot dashboard.](media/bot-dashboard-oc.png "Bot dashboard")
+> ![Screenshot of bot dashboard.](media/bot-dashboard-oc.png "Bot dashboard")
 
 ### Report details
 
@@ -155,13 +154,13 @@ KPIs for the following areas are displayed.
 | KPI | Description |
 | ------- | ------------------ |
 | Bot conversations | The number of conversations initiated by the customer and engaged by a bot. |
-| Bot resolution rate | The percentage of conversations that were closed by interacting with a bot, out of all conversations engaged by a bot. |
-| Bot resolution time (min) | The time in minutes, for which a customer interacted with a bot before the conversation was closed. |
+| Bot resolution rate | The percentage of conversations that were closed by interacting with a bot out of all conversations engaged by a bot. |
+| Bot resolution time (min) | The time in minutes for which a customer interacted with a bot before the conversation was closed. |
 | Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent. |
-| Bot escalation time (min)  | The time in minutes, for which a customer interacted with a bot before the conversation was escalated to a human agent. |
+| Bot escalation time (min) | The time in minutes for which a customer interacted with a bot before the conversation was escalated to a human agent. |
 
 > [!div class="mx-imgBorder"]
-> ![Bot dashboard KPI.](media/bot-dashboard-KPI.png "Bot dashboard KPI")
+> ![Screenshot of bot dashboard KPI.](media/bot-dashboard-KPI.png "Bot dashboard KPI")
 
 The following table explains the bot KPI chart metrics.
 
@@ -174,18 +173,17 @@ The following table explains the bot KPI chart metrics.
 | Title | Description |
 | --------------- | --------------- |
 | Bot conversations | The number of conversations initiated by the customer and engaged by a bot. |
-| Bot resolution rate | The percentage of conversations that were closed by interacting with a bot, out of all conversations engaged by a bot. |
-| Bot resolution time | The time in minutes, for which a customer interacted with a bot before the conversation was closed. |
-| Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent.|
-| Bot escalation time (min) | The time in minutes, for which a customer interacted with a bot before the conversation was escalated to a human agent. | 
+| Bot resolution rate | The percentage of conversations that were closed by interacting with a bot out of all conversations engaged by a bot. |
+| Bot resolution time | The time in minutes for which a customer interacted with a bot before the conversation was closed. |
+| Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent. |
+| Bot escalation time (min) | The time in minutes for which a customer interacted with a bot before the conversation was escalated to a human agent. | 
 
 ## Bot hourly detail drill-down view
 
-The **Bot metrics by hour** drill-down view provides more granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The metrics are the same as the day-by-day view ensuring that supervisors can consistently analyze their contact center operation regardless of desired duration granularity. 
-To view the bot metrics by hour in the drill-down view, select any single metric value on the desired day, then select **Hourly details**.
+The **Bot metrics by hour** drill-down view provides more granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The metrics are the same as the day-by-day view ensuring that supervisors can consistently analyze their contact center operation regardless of desired duration granularity. To view the bot metrics by hour in the drill-down view, select any single metric value on the desired day, then select **Hourly details**.
 
 > [!div class="mx-imgBorder"]
-> ![Bot hourly detail drill-down view.](media/bot-hourly-drill-down.png "Bot hourly detail view") 
+> ![Screenshot of bot hourly detail drill-down view.](media/bot-hourly-drill-down.png "Bot hourly detail view") 
 
 
 ### See also

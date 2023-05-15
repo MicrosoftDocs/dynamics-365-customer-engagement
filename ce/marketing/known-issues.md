@@ -1,21 +1,17 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This article documents known issues and workarounds for Dynamics 365 Marketing."
-ms.date: 12/13/2022
+ms.date: 05/08/2023
 ms.custom:
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Known issues and workarounds
@@ -37,6 +33,7 @@ This document provides important, late-breaking information about known issues a
 - Insights for journeys, emails, and marketing pages may take up to six hours to display.
 - The date scheduler tile in customer journeys doesn't display dates according to the Japanese imperial calendar (including in Japanese localizations). <!--- 1460626 -->
 - [Export to Excel](export-journey.md) functionality is limited to 10,000 records. <!--- 1914934 -->
+- A journey with too many tiles can overload the Marketing services. To overcome potential service disruptions, use a [splitter tile](customer-journey-tiles-reference.md#branches).
 
 ## Designer feature protection
 
@@ -48,6 +45,7 @@ This document provides important, late-breaking information about known issues a
 - There are a few mismatches between the look of a Microsoft Teams webinar created from Dynamics 365 Marketing and a webinar created from the Teams calendar. The discrepancies will be minimized in future versions. Until then, note that they don't cause any functional limitations as to how you, as the organizer, can manage the webinar through Dynamics 365 Marketing. Refer to this section for more information: [Known issues with Teams webinars](teams-webinar.md#known-issues-with-teams-webinars).
 - In the **Registration and attendance** tab of an event, there's an issue with filtering registration responses. Once a custom filter is applied for any column, responses from all events are displayed instead of only the ones relevant to the event. As a workaround, the **Advanced find** functionality can be used to filter registration responses for a particular event. Using **Advanced find**, select “Registration Responses” in the **Look for** dropdown and “Detailed registration responses” in the **Use Saved View** dropdown, then apply the appropriate filters. You can restrict the results to a particular event by filtering by the “Event” attribute of the “Event registration” relationship.
 - Session passes aren't cloned in the **Save as** operation of an event. This will be fixed in future releases. Until then, manually add the passes for the sessions.
+- For on-premises mailboxes, you cannot create a calendar item for the Teams webinar event organizer or for the speakers. This is a known limitation of Exchange REST APIs for on-premises mailboxes. In this case, you should share the event details (such as the Teams meeting URL) through a standard email to the event speakers.
 
 ## General
 
@@ -63,6 +61,7 @@ This document provides important, late-breaking information about known issues a
 - Web interactions registered for an anonymous visitor (on a tracked website, marketing page, marketing form, or redirect URL) don't currently become attributed to a contact record if those visitors later become known contacts. Though these interactions remain anonymous, you can still see them under the related entity (marketing page, website, etc.) and they're leveraged to compute the insights for each record. More information: [Websites](#websites) <!--- 1276305 -->
 - Customer journey insights include a count of contacts that stopped their journey midway because the "Contact joined the suppression segment." In the current release,  this count may be unreliable. The suppression segment still works, and the contacts will be stopped correctly on joining it, but some of the contact numbers won't add up due to stopped contacts not getting counted here. <!--- 1348581 -->
 - Email insights include a map showing where recipients were when they opened your message. For Gmail addresses, this information will often be inaccurate because of the way that Gmail caches embedded images. Geographical information can also be inaccurate for recipients using a VPN or a widely distributed corporate network.
+- Date filtering doesn’t apply to top-10 links or links insights.
 
 ## Lead scoring and management
 
@@ -86,6 +85,7 @@ This document provides important, late-breaking information about known issues a
 - Due to a limitation in Outlook, the maximum divider height is 10 pixels.
 - Image placeholders for emails created before the April 2022 release are shown in blue. <!--- 2689328 -->
 - Adding a text link with **Add to calendar** functionality generates multiple errors. **Add to calendar** works properly for images and buttons. This error is related to event management only. <!--- 2965667 -->
+- Sending emails without building a journey will not stop the user from selecting an email and a segment from different business units.
 
 ## Marketing pages and forms
 
@@ -110,6 +110,7 @@ This document provides important, late-breaking information about known issues a
 ## Social posting
 
 - When opening an existing social post, the old UI momentarily displays. <!--- 1927648 -->
+- You cannot create a Facebook post that contains a GIF file *and* multiple images.
 
 ## Trials
 

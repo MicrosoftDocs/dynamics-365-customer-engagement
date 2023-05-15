@@ -1,11 +1,10 @@
 ---
 title: "Work with queues | MicrosoftDocs"
 description: "Use this article to learn how to work with queues, find queue items, and pick work items from queues."
-ms.date: 12/13/2022
+ms.date: 02/07/2023
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 searchScope:
 - D365-App-customerservicehub
 - D365-Entity-queueitem
@@ -94,9 +93,13 @@ Use the view list and queue list to filter and find items in queues.
 
 7. Optionally, select **No** to change it to **Yes** if you want item from the queue.
 8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected **Yes** in the previous step. Also, the following updates will happen if the item is in an advanced queue and is tracked through unified routing:
-   - The **Worked By** attribute of the queue item will be updated with your user ID. The unified routing system takes this as an indicator of work assignment.
+   - The **Worked By** attribute of the queue item will be updated with your user ID. The unified routing system takes this as an indicator of work assignment. To manually add another user or team, select the lookup for the **Worked By** field  from **Queue Item details** and then select the user. If the queue item is assigned to a private queue, the lookup displays only the members of that queue. 
+  
+     :::image type="content" source="media/private-queues-members-after.png" alt-text="Worked by field displaying only members of the private queue" lightbox="media/private-queues-members.png":::
+        
+    
    - Your capacity will be updated. If the work item indicated capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, the available units of capacity in that profile for you will be deducted by one.
-   - Your work schedule, assignment rules, skills, presence, or capacity constraints won't be evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item and start working on it. This ability to manually override preconfigured capacity is to ensure that you're able to pick up work beyond your normal capacity during contingencies. More information: [Capacity profiles](capacity-profiles.md)
+   - Your work schedule, assignment rules, skills, presence, or capacity constraints won't be evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item and start working on it. This ability to manually override pre-configured capacity is to ensure that you're able to pick up work beyond your normal capacity during contingencies. More information: [Capacity profiles](capacity-profiles.md)
    - Your presence will be updated. If you have further capacity left, your presence will be set to "Busy". If you have no capacity left, your presence will be set to "Do not disturb".
 
    > [!NOTE]
@@ -145,7 +148,7 @@ If you want another person in your organization to work on an activity, you can 
   
 3. In the **Assign to another user or team** field, select **Lookup**, and select the user or team you want to assign the activity to.  
   
-   If you don’t see the user or team you are looking for, select **Lookup**, and then select **Look Up More Records**. From the **Look for** dropdown list, select **User** or **Team**. In the **Search** box, type the name, select the search button, select the name, and then select **Add**.  
+   If you don’t see the user or team you're looking for, select **Lookup**, and then select **Look Up More Records**. From the **Look for** dropdown list, select **User** or **Team**. In the **Search** box, type the name, select the search button, select the name, and then select **Add**.  
   
 4. Select **Assign**.
   
@@ -155,7 +158,9 @@ If you want another person in your organization to work on an activity, you can 
   
 2. Select the activity you want, and then select **Add to Queue**.
   
-3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
+3. The **Queue** field displays the queue the activity belongs to. The queue lookup displays only the queues that the activity can be added to.
+
+1. Select the queue you want to route the activity to, and then select **Add**. 
 
 ### Pick a view for your queues
  

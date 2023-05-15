@@ -12,7 +12,6 @@ ms.assetid: ec4fd484-50e0-44a1-b336-7ff21a7b4054
 caps.latest.revision: 6
 author: JimDaly
 ms.author: jdaly
-manager: KumarVivek
 search.audienceType: 
   - developer
 

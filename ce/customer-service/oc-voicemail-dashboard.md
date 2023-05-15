@@ -5,23 +5,13 @@ ms.date: 10/17/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
-# Voicemail (preview) dashboard
+# Voicemail dashboard
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and agent.
 
-The Voicemail (preview) dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and agent.
-
-### Access the Voicemail (preview) dashboard
+## Access the Voicemail dashboard
 
 [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
@@ -30,7 +20,7 @@ The Voicemail (preview) dashboard provides a view of the voicemails with details
 The reports summarize the KPIs for the specified time and percentage change over a period of time. You can filter these areas by duration, queue, agent, and time zone.
 The charts display the following metrics.
 
-:::image type="content" source="media/voicemail-dasboard.png" alt-text="Screenshot shows a the voicemail dashboard":::
+:::image type="content" source="media/voicemail-dasboard.png" alt-text="Screenshot shows a the voicemail dashboard.":::
 
 | KPI | Description |
 | ------------------------ | ----------------- |

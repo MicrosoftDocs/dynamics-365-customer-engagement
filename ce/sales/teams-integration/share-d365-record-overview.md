@@ -6,7 +6,6 @@ ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Share and update Dynamics 365 records within Microsoft Teams conversations (production-ready preview)
@@ -37,7 +36,7 @@ The information in the interactive card is displayed using the view of type **Qu
 
 ### See also
 
-[Enable sales teams to work with Dynamics 365 records within Microsoft Teams conversations](share-d365-record-admin.md)
+[Enable sales teams to work with Dynamics 365 records within Microsoft Teams conversations](share-d365-record-admin.md)  
 [Access the Dynamics 365 app through messaging extensions](access-d365-app.md)   
 [Edit settings of the Dynamics 365 app](edit-d365-app.md)    
 [Share feedback](share-feedback-d365-app.md)    

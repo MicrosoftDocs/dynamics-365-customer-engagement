@@ -7,12 +7,8 @@ ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: josephshum
+author: josephshum-msft
 ms.author: jshum
-ms.reviewer: mhart
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 

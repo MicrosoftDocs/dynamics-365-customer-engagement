@@ -3,17 +3,13 @@ title: "Extend Connected Field Service solutions (Developer Guide for Dynamics 3
 description: "Connected Field Service supports the customization of each standard component or service and the easy addition of custom Azure-based components and services."
 ms.date: 09/07/2022
 ms.topic: article
-ms.author: keithh
-author: MSKeith
-ms.reviewer: mhart
+ms.author: vhorvath
+author: vhorvathms
 search.audienceType: 
   - developer
 ms.custom: 
   - dyn365-developer
   - dyn365-fieldservice
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Extend Connected Field Service solutions

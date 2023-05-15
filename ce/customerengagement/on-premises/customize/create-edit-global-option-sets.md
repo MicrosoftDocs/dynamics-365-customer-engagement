@@ -13,7 +13,6 @@ applies_to:
 ms.assetid: f06b8941-8dca-4601-b965-341cfb6fc3b2
 caps.latest.revision: 11
 ms.author: matp
-manager: kvivek
 author: Mattp123
 search.audienceType: 
   - customizer

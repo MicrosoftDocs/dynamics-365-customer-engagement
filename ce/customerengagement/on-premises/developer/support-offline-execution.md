@@ -13,7 +13,6 @@ applies_to:
 ms.assetid: f4f28db1-d744-462a-9eae-544106f95cb8
 author: phecke
 ms.author: pehecke
-manager: kvivek
 search.audienceType: 
   - developer
 

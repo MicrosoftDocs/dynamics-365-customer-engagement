@@ -5,12 +5,8 @@ ms.date: 10/28/2022
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
-manager: "shujoshi"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # msdyn_ocsessionparticipantevent Entity Reference
 

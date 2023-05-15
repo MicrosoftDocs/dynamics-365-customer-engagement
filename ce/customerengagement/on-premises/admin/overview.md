@@ -8,7 +8,6 @@ ms.reviewer: "kvivek"
 ms.topic: overview
 author: "kvivek"
 ms.author: "kvivek"
-manager: "kvivek"
 ---
 # Administrator guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
 
