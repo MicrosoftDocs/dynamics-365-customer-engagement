@@ -92,14 +92,14 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     > [!div class="mx-imgBorder"]
     > ![Preview the form.](media/real-time-marketing-form-preview.png)
 
-1. To publicly share your form, select the **Publish** button in the top right corner. The form is automatically saved and the [validation process](real-time-marketing-manage-forms.md#form-validation) starts. You may need to add other required fields to your form to pass the validation. By default, the **Email** field is required to check if the same Contact already exists. Once the form is successfully validated, you see the following options on how to publish your form. Learn more on how to [publish the form](real-time-marketing-manage-forms.md#publish-your-form).
+1. To publicly share your form, select the **Publish** button in the top right corner. The form is automatically saved and the [validation process](real-time-marketing-manage-forms.md#form-validation) starts. You may need to add other required fields to your form to pass the validation. By default, the **Email** field is required to check if the same Contact already exists. Once the form is successfully validated, you see the following options on how to publish your form. Learn more on how to [publish the form](real-time-marketing-form-create.md#publish-your-form).
 
     > [!div class="mx-imgBorder"]
     > ![Publish the form.](media/real-time-marketing-form-publish.png)
 
     > [!IMPORTANT]
     > Make sure the domain where you embedded your form is allowed for external form hosting. If the domain isn't allowed for external form hosting, the form won't be rendered on your web page and all form submissions will be rejected. Learn more about [domain authentication](domain-authentication.md).
-    > The out-of-box domain for a standalone page is enabled by default. [Learn more](real-time-marketing-manage-forms.md#publish-your-form)
+    > The out-of-box domain for a standalone page is enabled by default. [Learn more](real-time-marketing-form-create.md#publish-your-form)
 
 1. Set up a "thank you" email for web page visitors who submitted the form. You can create a new journey using the *Marketing Form Submitted* trigger, which is executed every time your form is submitted. Learn more about creating a [trigger-based journey](real-time-marketing-trigger-based-journey.md).
 
