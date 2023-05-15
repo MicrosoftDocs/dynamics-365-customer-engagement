@@ -1,0 +1,93 @@
+### YamlMime:Landing
+
+title: Marketing learning catalog
+summary: Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.
+metadata:
+  title: "Marketing learning catalog"
+  description: "Find all the training options for Dynamics 365 Marketing."
+  ms.date: 02/27/2023
+  ms.custom: 
+    - dyn365-marketing
+  ms.topic: hub-page
+  author: alfergus
+  ms.author: alfergus
+  manager: shellyha
+  search.audienceType: 
+    - admin
+    - customizer
+    - enduser
+  search.app: 
+    - D365CE
+    - D365Mktg
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+# Card 
+- title: Materials for functional consultants
+  linkLists:
+      - linkListType: learn
+        links:
+        - text: Functional consultants learning catalog
+          url: learning-functional-consultant.md
+        - text: Marketing
+          url: learning-functional-consultant.md#marketing
+        - text: Exams
+          url: learning-functional-consultant.md#exam
+
+# Card 
+- title: Materials for implementation project managers
+  linkLists:
+      - linkListType: learn
+        links:
+        - text: Project managers learning catalog
+          url: learning-project-manager.md
+        - text: Marketing
+          url: learning-project-manager.md#marketing
+        - text: Exams
+          url: learning-project-manager.md#exam
+
+# Card 
+- title: Materials for sales roles
+  linkLists:
+      - linkListType: learn
+        links:
+        - text: Sales learning catalog
+          url: learning-sales.md
+
+# Card 
+- title: Materials for business users
+  linkLists:
+      - linkListType: learn
+        links:
+        - text: Business users learning catalog
+          url: learning-bus-user.md
+        - text: Get started
+          url: learning-bus-user.md#get-started
+        - text: Marketing
+          url: learning-bus-user.md#marketing
+        - text: Exams
+          url: learning-bus-user.md#exam
+
+# Card
+- title: Materials for business and technical decision makers
+  linkLists:
+      - linkListType: learn
+        links:
+        - text: Business and technical decision makers learning catalog
+          url: learning-bdm.md
+
+# Card 
+- title: Materials for developers
+  linkLists:
+      - linkListType: learn
+        links:
+        - text: Developers learning catalog
+          url: learning-developer.md
+        - text: Build
+          url: learning-developer.md#build
+        - text: Extend
+          url: learning-developer.md#extend
+        - text: Exams
+          url: learning-developer.md#exam
