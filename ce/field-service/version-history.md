@@ -35,9 +35,9 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 (Includes Universal Resource Scheduling version [3.12.105.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210525) and Resource Scheduling controls version 1.2.45.231281).
 
 -	Fixed a problem preventing IoT device visualization from initializing.
--	Command lookup on the IoT Command form no longer now correctly appears as optional.
--	Fixed a problem improperly creating console errors when a user interacts with a work order that has a service or billing account that they do not have read permissions for.
-- Field Service Inspections: Fixed a bug in Inspections designer which was preventing access to all attributes when an Entity Lookup contained greater than 50 items. 
+-	Command lookup on the IoT Command form now correctly appears as optional.
+-	Fixed a problem with console errors when a user interacts with a work order that has a service or billing account that they do not have read permissions for.
+- Fixed a bug in the inspections designer which prevented access to all attributes when an entity lookup contained more than 50 items. 
 - Field Service (Dynamics 365) Mobile: Updated PowerApps Component Framework controls to adopt recent API changes related to nested linked entities.
 
 
