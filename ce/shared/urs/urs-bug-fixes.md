@@ -30,9 +30,9 @@ For information about other updates to Universal Resource Scheduling, visit the 
 - Additional performance improvements for loading daily/weekly/monthly views on the schedule board.
 - Bug fixes
 
-    - Custom schedulable entities were the relationship to the requirement entity was created manually will no longer be blocked from scheduling on the legacy schedule board.
-    - Colors across the resource card, summary row, and booking should now align correctly based on utilization.
-    - When scheduling entities that contain autonumber content in the name field, the name of the booking created will now be generated correctly.
+    - Custom schedulable entities where the relationship to the requirement entity was created manually are no longer be blocked from scheduling on the legacy schedule board.
+    - Colors across the resource card, summary row, and booking now align correctly based on utilization.
+    - When scheduling entities that contain autonumbered content in the name field, the name of the related booking created is now be generated correctly.
 
 ## 3.12.104.14
 
