@@ -23,20 +23,20 @@ To revert to the classic search experience, disable the Dataverse search feature
 
 ## Configure search index
 
-With Dataverse search enabled, some [Field Services tables are automatically added](#tables-indexed-by-default) to the search index.
+With Dataverse search enabled, some [Field Service tables are automatically added](#tables-indexed-by-default) to the search index.
 
-You can add or remove tables from the index. While there's no limit on the number of tables in the index, a limit applies to the number of columns you can add. The maximum number of columns shows when you configure the tables to be indexed for Dataverse search. By default, Field Services uses approximately one third the available column capacity.
+You can add or remove tables from the index. While there's no limit on the number of tables in the index, a limit applies to the number of columns you can add. The maximum number of columns shows when you configure the tables to be indexed for Dataverse search. By default, Field Service uses approximately one-third of the available column capacity.
 
 For example, add the *Work Order* table and the *Service Account* column to the search index to quickly find work orders related to a specific service account.
 
-To add or remove tables from the search index, see [Select tables for Dataverse search](/power-platform/admin/configure-relevance-search-organization#select-tables-for-dataverse-search)
+To add or remove tables from the search index, see [Select tables for Dataverse search](/power-platform/admin/configure-relevance-search-organization#select-tables-for-dataverse-search).
 
 ### Tables indexed by default
 
 The following tables are indexed by default:
 
 - account
-- bookablereourcebooking
+- bookableresourcebooking
 - contact
 - incident
 - invoice
