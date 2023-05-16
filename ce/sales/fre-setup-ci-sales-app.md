@@ -41,7 +41,7 @@ A Teams administrator must set up the phone system and Teams for your organizati
 
 ### Configure Microsoft Teams call recording
 
-1. Select the **change area** in the lower-left corner of the page, and then select **Sales Insights settings**.  
+1. Select **Change area** in the lower-left corner of the page, and then select **Sales Insights settings**.  
 
 1. Under **Productivity**, select **Conversation intelligence** to open the **Microsoft Teams call recordings** page.
 
