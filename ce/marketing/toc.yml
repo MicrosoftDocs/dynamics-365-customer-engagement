@@ -26,6 +26,8 @@
       href: real-time-marketing-event-registration-journey.md
     - name: Identify and resolve errors with real-time customer care journeys
       href: real-time-marketing-customer-care-journey.md
+    - name: Create dynamic content in multiple languages
+      href: real-time-marketing-dynamic-content-multiple-languages.md  
   - name: Installation and environment management
     items: 
     - name: Install or uninstall
@@ -140,8 +142,8 @@
         href: get-ready-email-marketing.md
       - name: Setup guides
         items:
-        - name: Dedicated vs shared IPs for email delivery
-          href: dedicated-vs-shared-ip.md
+        - name: Warm-up process for marketing senders
+          href: warmup-process-email-marketing.md
         - name: Email sending data access and privileges
           href: email-sending-data.md
         - name: Troubleshoot domain authentication errors
@@ -152,8 +154,6 @@
           href: email-bounce-categories.md
         - name: Fix a high email bounce rate
           href: fix-high-bounce-rate.md
-        - name: Warm up an IP or domain
-          href: email-warm-up.md
         - name: Public IP addresses used for sending e-mails
           href: public-ip-addresses-for-email-sending.md
         - name: Create an SPF TXT record
@@ -248,8 +248,6 @@
           href: email-without-journey.md
         - name: Use brand profiles in real-time marketing email
           href: brand-profiles-email.md
-      - name: "Real-time marketing forms"
-        href: real-time-marketing-form-editor.md
       - name: Text messages
         items:
         - name: Outbound text messages
@@ -307,9 +305,11 @@
       - name: Enhance your journeys
         items:
         - name: Edit a live journey
-          href: real-time-marketing-edit-journey.md        
+          href: real-time-marketing-edit-journey.md
+        - name: Enhanced journey reminders
+          href: real-time-marketing-enhanced-journey-reminders.md
         - name: Add email CC recipients to journeys
-          href: real-time-marketing-add-cc-recipients.md         
+          href: real-time-marketing-add-cc-recipients.md
         - name: Real-time marketing journey tile reference
           href: real-time-marketing-tile-reference.md
       - name: Advanced journey capabilities
@@ -324,6 +324,16 @@
           href: real-time-marketing-branches.md
         - name: Customize the journey designer in real-time Marketing
           href: real-time-marketing-journey-designer.md
+    - name: Real-time marketing forms 
+      items:
+      - name: Forms overview
+        href: real-time-marketing-form-overview.md
+      - name: Create forms
+        href: real-time-marketing-form-create.md
+      - name: Manage forms
+        href: real-time-marketing-manage-forms.md
+      - name: Troubleshoot real-time marketing forms
+        href: real-time-marketing-troubleshooting-forms.md
     - name: Lead generation and management
       items:
       - name: Optimize Lead management by engaging sellers right away
