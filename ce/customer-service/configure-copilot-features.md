@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 Copilot provides real-time AI powered assistance that helps agents resolve issues faster, handle cases more efficiently, and automate time-consuming tasks so that they can focus on delivering high-quality service to their customers.
 
-Agents can use the following Copilot features to assist them with: 
+When you enable the Copilot features, agents can use Copilot to assist them with: 
 - Responding to questions
 - Composing an email 
 - Drafting a chat response 
@@ -26,11 +26,13 @@ The Copilot features are available only in the United States and supported only 
 
 ## Prerequisites
 
-You have the System Administrator role.
+- You have the System Administrator role.
+- Knowledge management is configured in your environment. For more information, see: [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) and [Integrated search providers](add-search-provider.md).
+- 
  
 ### Opt-in to continue with Copilot setup
 
- Before you enable a Copilot feature, review the terms and conditions and  provide your consent to use the Copilot features. You can navigate the corresponding setup pages for the Copilot features in  Customer Service admin center and Opt in to continue with the setup.
+ Before you enable a Copilot feature, review the terms and conditions and  provide your consent to use Copilot. You can navigate the corresponding setup pages for the Copilot features in  Customer Service admin center and then select **Opt in** to continue with the setup.
 
    :::image type="content" source="media/copilot-opt-in-mini.png" alt-text="enable Copilot for customer summary" lightbox="media/copilot-opt-in.png":::
 
@@ -39,9 +41,9 @@ You have the System Administrator role.
 Perform the following steps to enable the Copilot features:
 
 1.	In Customer Service admin center select **Productivity** in Agent Experience.
-2.	In **Productivity**, select **Manage**  in **Copilot help pane (preview)**.
+2.	In **Productivity**, select **Manage** in **Copilot help pane (preview)**.
 1. Select the following options: 
-    - **Make Copilot available to agents**: To display the **Ask a question** tab on the **Copilot help pane (preview)** when agents login. Agents can ask questions conversationally, and the Copilot answers them based on the configured internal and external knowledge base sources and trusted domains. For more information to setup internal and external knowledge bases, see: [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) and [Integrated search providers](add-search-provider.md).
+    - **Make Copilot available to agents**: To display the **Ask a question** tab on the **Copilot help pane (preview)** when agents login. Agents can ask questions conversationally, and the Copilot answers them based on the configured internal and external knowledge base sources and trusted domains. 
     - **For customer chat**: To display the draft a response button on both the conversation panel and the productivity panel. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
     - **For email**:  To display the **Write an email** tab on the **Copilot help pane (preview)**. Copilot helps agents create email responses based on the context of the case.
 1. Copilot automatically refreshes your knowledge base and displays the date and time of when it was last updated. You can also use the **Update knowledge base** option to manually update the knowledge base.
@@ -61,13 +63,13 @@ You can use agent experience profiles to control which agents get access to the 
 
 ## Enable summarization of conversations
 
-Copilot case summaries are designed to help support agents quickly understand the context of a case, enabling them to resolve customer issues more efficiently. Agents get a concise summary of the case, which includes key information such as the case title, customer, case subject, product, priority, case type, and case description.
+Copilot case summaries are designed to help support agents quickly understand the context of a case, enabling them to resolve customer issues more efficiently. Agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description.
 
-To allow Copilot to summarize conversations, perform the following steps:
+To allow Copilot to summarize cases and conversations, perform the following steps:
 
 1.	In Customer Service admin center select **Productivity** in Agent Experience.
 2.	In **Productivity**, select **Manage**  in **Copilot help pane (preview)**.
-1. Select **Make case summaries available to agents** to display a summary of the case to on the Case page. 
+1. Select **Make case summaries available to agents** to display a summary of the case on the Case page. 
 1. Select the following options to define when you want the conversations to be summarized:
    - **When an agent joins the conversation**: To display the conversation summary when an agent has joined the conversation. This is applicable to conversations escalated to a human agent from a bot, transferred conversations, or when the agent invites a collaborator.
    - **When the conversation ends**: To display the summary when the conversation ends.
@@ -81,4 +83,4 @@ To allow Copilot to summarize conversations, perform the following steps:
 
 ### Record feedback
 
-In the corresponding Copilot configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record how agents are interacting with Copilot and understand its impact. Agents can share feedback about Copilot actions. This helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports. 
+In the corresponding Copilot configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record how agents are interacting with Copilot and understand its impact. Agents can share feedback about Copilot actions. This helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
