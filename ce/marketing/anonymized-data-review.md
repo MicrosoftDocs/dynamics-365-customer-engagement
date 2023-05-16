@@ -1,5 +1,5 @@
 ---
-title: Anonymized customer data human review notice (Dynamics 365 Marketing)
+title: Anonymized customer data human review notice
 description: Learn about Microsoft's human data review policy in Dynamics 365 Marketing.
 ms.date: 04/21/2023
 ms.custom: 
@@ -47,7 +47,7 @@ Engineers and data scientists from Microsoft and/or from Subprocessors will perf
 
 Microsoft and/or Subprocessors will access your Engagement Customer Data includes:
 
-1. Your contact information and marketing activity data (for example, email content, forms, webpages, events, customer journey) stored in Dataverse, as well as contact behavioral data stored in Dynamics 365 Marketing Interaction Data Blob Storage.  (collectively, "Marketing Data")
+1. Your contact information and marketing activity data (for example, email content, forms, webpages, events, customer journey) stored in Dataverse, and contact behavioral data stored in Dynamics 365 Marketing Interaction Data Blob Storage.  (collectively, "Marketing Data")
 1. Your users' queries from Dynamics 365 Marketing and Power Platform applications querying Dataverse data, related telemetry, and returned results of the queries (collectively, "Query Data"); and
 1. Dataverse database schema, which includes table names and column names, but no data associated with the tables and columns ("Data Schema").  For example, if you have a field called "Customer name," with various customer names in the field, Data Schema includes the term "Customer name," but it doesn't include the customer names themselves.
 
@@ -77,7 +77,7 @@ Access to anonymized customer data is strictly controlled; only the minimal numb
 
 ## What about data privacy?
 
-All proper tagging to handle DSRs is maintained. You can contact your Dynamics365 Marketing product team representative with any DSRs under various privacy laws and regulations.
+All proper tagging to handle DSRs is maintained. You can contact your Dynamics 365 Marketing product team representative with any DSRs under various privacy laws and regulations.
 
 ## Have more questions?
 
