@@ -39,9 +39,7 @@ Before you configure Teams with conversation intelligence, you must [enable and 
 <a name="teams-tenant-admin-contact"></a>
 A Teams administrator must set up the phone system and Teams for your organization.
 
-## Configure Microsoft Teams call recording
-
-1. Sign in to Dynamics 365 Sales Hub as an administrator.
+### Configure Microsoft Teams call recording
 
 1. Select the **change area** in the lower-left corner of the page, and then select **Sales Insights settings**.  
 
@@ -71,9 +69,7 @@ A Teams administrator must set up the phone system and Teams for your organizati
 
 1. Under **Business settings**, configure the following settings:
 
-    - In the **Conversation tracking** section, add the keywords and competitors that your organization wants to track during calls.
-
-        Adding keywords and competitors is a required global setting that's applied to all sales calls in the organization. To enable conversation intelligence, you must set at least one keyword and at least one competitor. You can update keywords and competitors later if necessary. [Learn more about configuring keywords and competitors in conversation content](configure-keywords-competitors.md).
+    - In the **Conversation tracking** section, add the keywords and competitors that your organization wants to track during calls. Adding keywords and competitors is a required global setting that's applied to all sales calls in the organization. To enable conversation intelligence, you must set at least one keyword and at least one competitor. You can update keywords and competitors later if necessary. [Learn more about configuring keywords and competitors in conversation content](configure-keywords-competitors.md).
 
     - In the **Automated summaries** section, leave **Enable call summary** selected to let your sellers view the notes after their calls. [Learn more about the call summary page](view-and-understand-call-summary-sales-app.md).
 
@@ -94,6 +90,8 @@ A Teams administrator must set up the phone system and Teams for your organizati
 1. Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement, and then select **Get started**.  
 
 ## Hide personal data (preview)
+
+To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as credit card number, expiry date, and CVV will be masked before saving a transcript.  Learn more about [call transcripts](view-and-understand-call-summary-sales-app.md#call-transcript-and-translation). 
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
@@ -125,5 +123,7 @@ If you have chosen **Automatic recording** to record all customer calls, you can
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+
 
 

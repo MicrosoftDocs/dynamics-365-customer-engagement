@@ -1,7 +1,7 @@
 ---
 title: "Preview: Marketing effectiveness analytics"
 description: Learn how to create personalized experiences with marketing effectiveness analytics in Dynamics 365 Marketing.
-ms.date: 04/19/2023
+ms.date: 05/15/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -19,6 +19,8 @@ search.audienceType:
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW14d7h]
 
 Dynamics 365 Marketing enables you to create highly personalized experiences to nudge customers toward important milestones in the buyer's journey. With the marketing effectiveness analytics dashboard, you can define key customer milestones, measure them over time, and assess the contribution and effectiveness of your journeys, channels, and marketing assets in driving customers to the milestones. The dashboard uses AI-powered multi-touch and single-touch attribution models. This provides you with a feedback loop to gain a comprehensive view of the effectiveness of your real-time marketing tactics in driving key business outcomes, empowering you to optimize your marketing mix by learning from tactics that worked well and improving or dropping tactics that didn’t.  
 
