@@ -20,10 +20,10 @@ Customers that work in multiple countries require email communications that pres
 
 Having different content sent to customers based on their profile is possible in two ways:
 - Create multiple branches leading to the email to send within the customer journey. The email logic is simple with this technique, but the number of emails is higher because each audience requires a different email.
-- Build the logic within the Email and/or Content Block. This approach simplifies journey authoring as the audience type complexities can be ignored and there’s a single email to prepare for the journey which adds to the benefits. However, the email authoring is more complex as it needs to account for the variations.
+- Build the logic within the Email and/or Content Block. This approach simplifies journey authoring as the audience type complexities can be ignored and there’s a single email to prepare for the journey, which adds to the benefits. However, the email authoring is more complex as it needs to account for the variations.
 
 ## Scenario
-In this article, we consider a scenario in which a company’s Terms and Conditions must be placed in the footer of every email. Those terms and conditions vary depending on the customer’s place of residency, as well as the preferred language. Since we want to apply the pattern to multiple emails and in multiple journeys, we’re putting the logic in a content block rather than consider putting it in the customer journey or email.
+In this article, we consider a scenario in which a company’s Terms and Conditions must be placed in the footer of every email. Those terms and conditions vary depending on the customer’s place of residency and the preferred language. Since we want to apply the pattern to multiple emails and in multiple journeys, we’re putting the logic in a content block rather than consider putting it in the customer journey or email.
 
 ## Solution 
 The solution’s goal is to provide a reusable pattern incorporating multi-country, multilingual content in email footers. The focus of the solution is on a common footer with terms and conditions in multiple languages and for multiple countries. However, the pattern can be applied to other scenarios where content variations are needed by country and language.
@@ -36,7 +36,7 @@ The simplest scenario is to construct the solution on existing columns and table
 
 ### Create content block with conditional content
 
-Because the terms and conditions is something we want reuse across multiple emails, we create a [content block](content-blocks.md), which is called “All Country Footer”.
+Because the terms and conditions are something we want reuse across multiple emails, we create a [content block](content-blocks.md), which is called “All Country Footer”.
 
 In this content block, we add a section and column where the text of the terms and conditions is placed. Next, different [conditions](conditional-content.md) are added for the various countries that are supported in the footer. In the example below we’re supporting three countries: UK, Spain, and Mexico. 
 
@@ -48,12 +48,12 @@ In each of the variations, we have a condition that compares the country field w
 > [!div class="mx-imgBorder"]
 > ![Add conditions as compared to the country field](media/real-time-marketing-define-condition.png "Add conditions as compared to the country field")
 
-Within each of the variations, we add the text appropriate for the country in the language corresponding to that country. Below is the example for the United Kingdom which is in English.
+Within each of the variations, we add the text appropriate for the country in the language corresponding to that country. Below is the example for the United Kingdom, which is in English.
 
 > [!div class="mx-imgBorder"]
 > ![Add text as per the country's language](media/real-time-marketing-add-text-in-footer.png "Add text as per the country's language")
 
-And below is the equivalent content for Spain which is in Spanish.
+And below is the equivalent content for Spain, which is in Spanish.
 
 > [!div class="mx-imgBorder"]
 > ![Add text as per the country's language for Spain](media/real-time-marketing-add-text-in-footer1.png "Add text as per the country's language for Spain")
@@ -121,19 +121,19 @@ In addition, having a single variation in the content block where all languages 
 
 ### Customize Dynamics 365 for Marketing
 
-To support this scenario, we make one additional extension to Marketing. We create a table which holds the text that email communications use for the various country and language combinations. In this example, we are calling the table that will hold the terms and conditions Legal Text. In this table, we also add a Rich-Text Field (called Formatted Text in the screenshot below) that will allow the better formatting of the content to be added to the email. 
+To support this scenario, we make one additional extension to Marketing. We create a table that holds the text that email communications use for the various country and language combinations. In this example, we are calling the table that holds the terms and conditions Legal Text. In this table, we also add a Rich-Text Field (called Formatted Text in the screenshot below) that will allow the better formatting of the content to be added to the email. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing text formatting using Rich text field](media/real-time-marketing-better-text-formatting.png "Screenshot showing text formatting using Rich text field")
 
-In this table we can create all the necessary combinations which will be later used in the Content Block.
+In this table we can create all the necessary combinations that will be later used in the Content Block.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing formatted text that can be further used in content block](media/real-time-marketing-active-legal-text.png "Screenshot showing formatted text that can be further used in content block")
 
 #### Adding inline conditions and predefined dynamic text to content block
 
-In the previous scenarios we have been working with conditions added to content variations in the content block. However, to reduce the number of variations and facilitate the administration, we will now add [inline conditions](real-time-marketing-personalize-inline-conditions.md) in country variations that will be checking a contact’s language against each of the language options. The following example shows the check for the English language. 
+In the previous scenarios we have been working with conditions added to content variations in the content block. However, to reduce the number of variations and facilitate the administration, we'll now add [inline conditions](real-time-marketing-personalize-inline-conditions.md) in country variations that will be checking a contact’s language against each of the language options. The following example shows the check for the English language. 
 
 > [!div class="mx-imgBorder"]
 > ![Add inline conditions to content block for contact's language as per their country](media/real-time-marketing-add-inline-condition-to-content-block.png "Add inline conditions to content block for contact's language as per their country")
@@ -143,7 +143,7 @@ This will be complemented with an additional level of personalization will be re
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing selecting attribute](media/real-time-marketing-select-attribute-text-formatting.png "Screenshot showing selecting attribute")
 
-After selecting the attribute with the text to select, it is necessary to pick the record with data to dynamically substitute in the email. Below it is shown how the “English text for the UK” is picked and the name “UKEnglishText” is given to the token for the personalization. 
+After selecting the attribute with the text to select, it's necessary to pick the record with data to dynamically substitute in the email. Below it's shown how the “English text for the UK” is picked and the name “UKEnglishText” is given to the token for the personalization. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing selecting the text from a specific record](media/real-time-marketing-example-1.png "Screenshot showing selecting the text from a specific record")
@@ -151,13 +151,13 @@ After selecting the attribute with the text to select, it is necessary to pick t
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing selecting the text from a specific record and using it as a token for more personalization](media/real-time-marketing-example-2.png "Screenshot showing selecting the text from a specific record and using it as a token for more personalization")
 
-This process will need to be repeated for the various possible combinations of country and language that are possible. 
+This process needs to be repeated for the various possible combinations of country and language that are possible. 
 With the tokens ready, we build the logic for each country’s conditional block. To do this, each desired combination will be placed within an {{#if}} condition as shown below.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing tokens ready to use](media/real-time-marketing-logic-build-country-conditional-content.png "Screenshot showing tokens ready to use")
 
-The benefit of structuring the conditional content in this manner is that we end up with one variation per country which easily shows all the language options for that country. In the above example, we can see the UK variation showing language options for English and Welsh. 
+The benefit of structuring the conditional content in this manner is that we end up with one variation per country that easily shows all the language options for that country. In the above example, we can see the UK variation showing language options for English and Welsh. 
 
 ### Create the email
 
