@@ -110,7 +110,7 @@ Teams call recording with conversation intelligence is now configured and ready 
 
 #### Hide personal data (preview)
 
-To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as credit card number, expiry date, and CVV will be masked before saving a transcript.  Learn more about [call transcripts](view-and-understand-call-summary-sales-app#call-transcript-and-translation). 
+To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as credit card number, expiry date, and CVV will be masked before saving a transcript.  Learn more about [call transcripts](view-and-understand-call-summary-sales-app.md#call-transcript-and-translation). 
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
@@ -144,6 +144,7 @@ If you have chosen **Automatic recording** to record all customer calls, you can
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
 
 
 
