@@ -26,6 +26,8 @@
       href: real-time-marketing-event-registration-journey.md
     - name: Identify and resolve errors with real-time customer care journeys
       href: real-time-marketing-customer-care-journey.md
+    - name: Create dynamic content in multiple languages
+      href: real-time-marketing-dynamic-content-multiple-languages.md  
   - name: Installation and environment management
     items: 
     - name: Install or uninstall
@@ -356,8 +358,6 @@
         href: real-time-marketing-personalize-lists.md
       - name: Preview personalized content
         href: real-time-marketing-preview-personalized-content.md
-      - name: Create dynamic content in multiple languages
-        href: real-time-marketing-dynamic-content-multiple-languages.md
     - name: Assets
       items: 
       - name: Asset libary add-on file migration
