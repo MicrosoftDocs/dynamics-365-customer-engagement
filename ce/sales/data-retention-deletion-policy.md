@@ -1,7 +1,7 @@
 ---
 title: Data retention and deletion policy in conversation intelligence
 description: Provide read-only access to your call data and determine how long you want to keep the analyzed call recording data in conversation intelligence.
-ms.date: 04/21/2023
+ms.date: 05/16/2023
 ms.custom: 
 ms.topic: article
 ms.assetid: c85b26ab-0150-454f-8767-6aed448529bc
@@ -55,7 +55,9 @@ When you configure conversation intelligence, sales call recordings of sellers a
 
 ### See also
 
-[Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)    
-[Prerequisites to use conversation intelligence](prereq-sales-insights-app.md)
+[Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
+[Prerequisites to use conversation intelligence](prereq-sales-insights-app.md)  
+[Dynamics 365 Sales and privacy laws and regulations](dynamics-365-sales-privacy.md)  
+[Sales Insights and privacy laws](embedded-intelligence-privacy.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Add custom KPIs to intraday insights dashboard | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to add custom KPIs to the intraday insights dashboard in Omnichannel for Customer Service."
-ms.date: 01/31/2023
+ms.date: 04/28/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,7 +11,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Customize KPIs for intraday insights
 
 > [!NOTE]
-> We recommend that you try out [real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability. These reports provide real-time information about the health and key performance indicators of your organization. You can adjust the filters to view relevant insights, personalize views of the reports as bookmarks, and even customize the visual display of the reports.
+> With the release of [real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability, we announce that the intraday insights for Omnichannel for Customer Service will be deprecated as of May 1, 2023. We recommend that you use real-time analytics reports, which provide real-time information about the health and key performance indicators of your organization. For more information on the deprecation, go to [Intraday insights for Omnichannel for customer service to be deprecated](deprecations-customer-service.md#intraday-insights-for-omnichannel-for-customer-service-to-be-deprecated).
 
 To cater to your organizational needs, intraday insights allows you to customize KPIs. This allows supervisors to adapt to your organizational parameters that are designed for your organization. Through the Power BI desktop application, you can customize these KPIs.
 

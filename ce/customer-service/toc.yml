@@ -297,7 +297,11 @@
       - name: Configure components to display case associations
         href: add-associated-grid-control.md 
       - name: Enable enhanced case forms for multisession apps
-        href: case-enh-config.md                
+        href: case-enh-config.md    
+      - name: Use Attachment Control to customize forms
+        href: add-attachment-control.md
+      - name: Use the Due open activities control to customize forms
+        href: add-due-open-activities.md                            
     - name: Agent experience
       items: 
       - name: Create cases
@@ -456,8 +460,6 @@
         items:
         - name: Manage integrated search providers
           href: add-search-provider.md
-        - name: Apply authentication for search providers
-          href: apply-authentication-provider.md
         - name: Configure knowledge article schema mapping
           href: int-data-mapping.md
         - name: View and use insights for search providers
@@ -694,6 +696,8 @@
         href: average-wait-time.md        
       - name: Delete a channel instance
         href: delete-channel.md
+      - name: Manage enhanced Active Conversation settings
+        href: add-customer-summary-settings.md
     - name: Agent experience
       items: 
       - name: Omnichannel for Customer Service for agents
@@ -816,8 +820,6 @@
           href: configure-google-business-messages-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
-        - name: Configure a Twitter channel
-          href: configure-twitter-channel.md
         - name: Configure a WhatsApp channel
           href: configure-whatsapp-channel.md
         - name: Configure a WeChat channel
@@ -1106,8 +1108,10 @@
           href: intraday-conversation-insights.md
         - name: Set idle time threshold
           href: set-idle-time-threshold.md
-        - name: View and understand Omnichannel Ongoing Conversations dashboard
-          href: ongoing-conversations-dashboard.md
+      - name: View and understand Omnichannel Ongoing Conversations dashboard
+        href: ongoing-conversations-dashboard.md
+      - name: Use Omnichannel for Customer Service metrics
+        href: oc-metrics-dimensions.md
       - name: Personalize analytics
         items: 
         - name: Manage report filters
@@ -1498,12 +1502,6 @@
         href: developer/reference/entities/msdyn_octag.md
       - name: msdyn_octeamschannelconfig
         href: developer/reference/entities/msdyn_octeamschannelconfig.md
-      - name: msdyn_octwitterapplication
-        href: developer/reference/entities/msdyn_octwitterapplication.md
-      - name: msdyn_octwitterhandle
-        href: developer/reference/entities/msdyn_octwitterhandle.md
-      - name: msdyn_octwitterhandlesecret
-        href: developer/reference/entities/msdyn_octwitterhandlesecret.md
       - name: msdyn_ocvoice
         href: developer/reference/entities/msdyn_ocvoice.md
       - name: msdyn_ocvoicechannellanguagesetting
@@ -1594,8 +1592,6 @@
         href: developer/reference/entities/msdyn_teamsengagementctx.md
       - name: msdyn_transcript
         href: developer/reference/entities/msdyn_transcript.md
-      - name: msdyn_twitterengagementctx
-        href: developer/reference/entities/msdyn_twitterengagementctx.md
       - name: msdyn_unifiedroutingdiagnostic
         href: developer/reference/entities/msdyn_unifiedroutingdiagnostic.md
       - name: msdyn_unifiedroutingrun
@@ -1794,7 +1790,7 @@
       href: troubleshoot-using-solution-health-hub.md
     - name: Report issues in Omnichannel for Customer Service
       href: report-issues.md
-    - name: Troubleshoot issues for integrated search providers
+    - name: Troubleshoot issues with integrated search providers
       href: int-search-troubleshoot.md
   - name: Share feedback in Customer Service
     href: cs-share-feedback.md

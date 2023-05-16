@@ -26,6 +26,8 @@
       href: real-time-marketing-event-registration-journey.md
     - name: Identify and resolve errors with real-time customer care journeys
       href: real-time-marketing-customer-care-journey.md
+    - name: Create dynamic content in multiple languages
+      href: real-time-marketing-dynamic-content-multiple-languages.md  
   - name: Installation and environment management
     items:
     - name: Install or uninstall
@@ -140,8 +142,8 @@
         href: get-ready-email-marketing.md
       - name: Setup guides
         items:
-        - name: Dedicated vs shared IPs for email delivery
-          href: dedicated-vs-shared-ip.md
+        - name: Warm-up process for marketing senders
+          href: warmup-process-email-marketing.md
         - name: Email sending data access and privileges
           href: email-sending-data.md
         - name: Troubleshoot domain authentication errors
@@ -152,8 +154,6 @@
           href: email-bounce-categories.md
         - name: Fix a high email bounce rate
           href: fix-high-bounce-rate.md
-        - name: Warm up an IP or domain
-          href: email-warm-up.md
         - name: Public IP addresses used for sending e-mails
           href: public-ip-addresses-for-email-sending.md
         - name: Create an SPF TXT record
@@ -192,10 +192,14 @@
       items:
       - name: Data protection and privacy
         href: privacy.md
-      - name: Manage user compliance settings
-        href: real-time-marketing-compliance-settings.md
       - name: Use privacy features
         href: privacy-use-features.md
+      - name: Compliance overview
+        href: compliance-overview.md
+      - name: Manage user compliance settings
+        href: real-time-marketing-compliance-settings.md
+      - name: "Preview: Manage user compliance settings in real-time marketing (update)"
+        href: real-time-marketing-compliance-settings-preview.md
       - name: Set up global double opt-in
         href: double-opt-in.md
       - name: Set up form double opt-in
@@ -244,8 +248,6 @@
           href: email-without-journey.md
         - name: Use brand profiles in real-time marketing email
           href: brand-profiles-email.md
-      - name: "Real-time marketing forms"
-        href: real-time-marketing-form-editor.md
       - name: Text messages
         items:
         - name: Outbound text messages
@@ -286,6 +288,8 @@
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
           href: real-time-marketing-segment-based-journey.md
+        - name: Improve targeting with the redesigned segment builder
+          href: real-time-marketing-redesigned-segment-builder.md
         - name: Create a static snapshot of a segment
           href: real-time-marketing-static-snapshot.md
         - name: Individually manage your customer list
@@ -302,6 +306,8 @@
         items:
         - name: Edit a live journey
           href: real-time-marketing-edit-journey.md
+        - name: Enhanced journey reminders
+          href: real-time-marketing-enhanced-journey-reminders.md
         - name: Add email CC recipients to journeys
           href: real-time-marketing-add-cc-recipients.md
         - name: Real-time marketing journey tile reference
@@ -318,6 +324,20 @@
           href: real-time-marketing-branches.md
         - name: Customize the journey designer in real-time Marketing
           href: real-time-marketing-journey-designer.md
+    - name: Real-time marketing forms 
+      items:
+      - name: Forms overview
+        href: real-time-marketing-form-overview.md
+      - name: Create forms
+        href: real-time-marketing-form-create.md
+      - name: Manage forms
+        href: real-time-marketing-manage-forms.md
+      - name: Troubleshoot real-time marketing forms
+        href: real-time-marketing-troubleshooting-forms.md
+    - name: Lead generation and management
+      items:
+      - name: Optimize Lead management by engaging sellers right away
+        href: real-time-marketing-optimize-lead-management.md
     - name: Analytics
       items:
       - name: Access and interpret analytics
@@ -358,16 +378,22 @@
       items:
       - name: Journeys
         items:
+        - name: Move triggers between environments
+          href: move-triggers-between-environments.md
         - name: Select the audience source for real-time journeys
           href: real-time-marketing-audience-data.md
-        - name: Move custom triggers between environments
-          href: real-time-marketing-move-triggers.md
         - name: Real-time marketing link tracking mechanics
           href: real-time-marketing-link-tracking-mechanics.md
       - name: Privacy and compliance
         items:
         - name: Manage consent for email and text messages in real-time marketing
           href: real-time-marketing-email-text-consent.md
+        - name: "Preview: Manage consent for email and text messages in real-time marketing (update)"
+          href: real-time-marketing-email-text-consent-preview.md
+        - name: Real-time marketing preference centers
+          href: real-time-marketing-preference-centers.md
+        - name: Migrate consent records to real-time marketing
+          href: real-time-marketing-migrate-consent.md
         - name: Use outbound subscription centers in real-time journeys
           href: real-time-marketing-outbound-subscription.md
       - name: Manage SMS (text message) keywords used in customer journeys
@@ -380,6 +406,8 @@
           href: real-time-marketing-business-units.md
         - name: Support for modernized business units
           href: real-time-marketing-modernized-business-units.md
+        - name: Business units and compliance profiles for multi-brand businesses
+          href: real-time-marketing-business-unit-compliance.md
         - name: Business units FAQ for real-time marketing
           href: real-time-marketing-business-unit-faq.md
     - name: Developer
@@ -496,7 +524,7 @@
         href: dynamic-email-content.md
       - name: Set the sender, receiver, language, and legal designation
         href: email-properties.md
-      - name: "Preview: Use AI to kickstart email creation with content ideas"
+      - name: "Preview: Use AI to kickstart email creation with content ideas Copilot"
         href: content-ideas.md
       - name: Generate iCalendar files for events and sessions
         href: add-to-calendar.md
@@ -646,6 +674,100 @@
           href: marketing-analytics/analytics-gallery-reach.md
         - name: "Gallery: Marketing form submission report"
           href: marketing-analytics/analytics-gallery-forms.md
+    - name: Developer guide
+      items: 
+      - name: Developer guide overview
+        href: developer/marketing-developer-guide.md
+      - name: Extend customer journeys using custom channels
+        items: 
+        - name: Extend customer journeys using custom channels
+          href: developer/extend-customer-journeys-custom-channels.md
+        - name: Overview of custom channel
+          href: developer/overview-custom-channel.md
+        - name: Create a custom channel
+          items: 
+          - name: Create a custom channel
+            href: developer/create-custom-channel.md
+          - name: "Step 1: Create required entities and forms"
+            href: developer/create-entities-forms.md
+          - name: "Step 2: Configure the tile for custom channel"
+            href: developer/configure-tile-custom-channel.md
+          - name: "Step 3: Create a workflow or plug-in to implement your custom logic"
+            href: developer/create-workflow-plugin-custom-channel.md
+          - name: "Step 4: Test your custom channel tile"
+            href: developer/test-custom-channel-tile.md
+        - name: Publish custom channel on AppSource
+          href: developer/publish-custom-channel-appsource.md
+        - name: Configure and use custom channel
+          href: developer/configure-use-custom-channel.md
+        - name: Remove custom channel
+          href: developer/remove-custom-channel.md
+      - name: Build an approval feature
+        items: 
+        - name: Overview
+          href: developer/marketing-approvals-feature.md
+        - name: Build approvals feature using Power Automate
+          href: developer/build-approval-feature-using-flow.md
+      - name: Create a custom event website
+        items: 
+        - name: Overview
+          href: developer/event-management-web-application.md
+        - name: Self-hosted
+          items: 
+          - name: Overview
+            href: developer/self-hosted.md
+          - name: Host your custom event website on Azure
+            href: developer/host-custom-event-website-on-azure.md
+        - name: Power Apps portal hosted
+          items: 
+          - name: Overview
+            href: developer/portal-hosted.md
+          - name: Manually overwriting sample website
+            href: developer/manually-overwriting-sample-website.md
+        - name: Events API
+          items: 
+          - name: Using the events API
+            href: developer/using-events-api.md
+          - name: Register your web application
+            href: developer/register-web-application-events-api.md
+          - name: User authentication
+            href: developer/user-authentication-events-api.md
+          - name: Customize the events API response
+            href: developer/customize-events-api-response.md
+        - name: Finalizing registration for paid events
+          href: developer/finalizing-registrations-for-paid-events.md
+        - name: Localization
+          href: developer/event-portal-localization.md
+      - name: Work with customer journeys using an API
+        items: 
+        - name: Work with customer journeys using an API
+          href: developer/basic-operations-on-customer-journey.md
+        - name: Extend customer journeys using code
+          href: developer/extend-customer-journey-using-code.md
+      - name: Metadata reference for your organization
+        items: 
+        - name: Metadata reference for your organization
+          href: developer/marketing-organization-metadata.md
+        - name: Dynamics 365 Marketing solutions
+          href: developer/marketing-solutions.md
+        - name: Dynamics 365 Marketing entity reference
+          href: developer/marketing-entity-reference.md
+      - name: Customize outbound marketing forms
+        items:
+        - name: Filter cities based on countries using lookup fields and custom entities
+          href: developer/filter-cities.md
+        - name: Extend Marketing forms using client side scripting
+          href: developer/marketing-form-client-side-extensibility.md
+      - name: Work with segments using code
+        href: developer/extend-segments.md
+      - name: Export Dynamics 365 Customer Voice survey responses to Microsoft Excel
+        href: developer/export-customer-voice.md
+      - name: Entity mapping with custom workflows
+        href: entity-mapping.md
+      - name: Limitations on migrating files between environments
+        href: developer/migrate-files.md
+      - name: Retrieve interactions for a contact
+        href: developer/retrieve-interactions-contact.md
     - name: Collaborate using Microsoft Teams chat
       href: teams-chat.md
     - name: "Customer interactions timeline"
@@ -716,100 +838,6 @@
         href: followup-after-event.md
     - name: Event troubleshoot + FAQ
       href: event-troubleshoot.md
-  - name: Developer guide
-    items:
-    - name: Developer guide overview
-      href: developer/marketing-developer-guide.md
-    - name: Extend customer journeys using custom channels
-      items:
-      - name: Extend customer journeys using custom channels
-        href: developer/extend-customer-journeys-custom-channels.md
-      - name: Overview of custom channel
-        href: developer/overview-custom-channel.md
-      - name: Create a custom channel
-        items:
-        - name: Create a custom channel
-          href: developer/create-custom-channel.md
-        - name: "Step 1: Create required entities and forms"
-          href: developer/create-entities-forms.md
-        - name: "Step 2: Configure the tile for custom channel"
-          href: developer/configure-tile-custom-channel.md
-        - name: "Step 3: Create a workflow or plug-in to implement your custom logic"
-          href: developer/create-workflow-plugin-custom-channel.md
-        - name: "Step 4: Test your custom channel tile"
-          href: developer/test-custom-channel-tile.md
-      - name: Publish custom channel on AppSource
-        href: developer/publish-custom-channel-appsource.md
-      - name: Configure and use custom channel
-        href: developer/configure-use-custom-channel.md
-      - name: Remove custom channel
-        href: developer/remove-custom-channel.md
-    - name: Build an approval feature
-      items:
-      - name: Overview
-        href: developer/marketing-approvals-feature.md
-      - name: Build approvals feature using Power Automate
-        href: developer/build-approval-feature-using-flow.md
-    - name: Create a custom event website
-      items:
-      - name: Overview
-        href: developer/event-management-web-application.md
-      - name: Self-hosted
-        items:
-        - name: Overview
-          href: developer/self-hosted.md
-        - name: Host your custom event website on Azure
-          href: developer/host-custom-event-website-on-azure.md
-      - name: Power Apps portal hosted
-        items:
-        - name: Overview
-          href: developer/portal-hosted.md
-        - name: Manually overwriting sample website
-          href: developer/manually-overwriting-sample-website.md
-      - name: Events API
-        items:
-        - name: Using the events API
-          href: developer/using-events-api.md
-        - name: Register your web application
-          href: developer/register-web-application-events-api.md
-        - name: User authentication
-          href: developer/user-authentication-events-api.md
-        - name: Customize the events API response
-          href: developer/customize-events-api-response.md
-      - name: Finalizing registration for paid events
-        href: developer/finalizing-registrations-for-paid-events.md
-      - name: Localization
-        href: developer/event-portal-localization.md
-    - name: Work with customer journeys using an API
-      items:
-      - name: Work with customer journeys using an API
-        href: developer/basic-operations-on-customer-journey.md
-      - name: Extend customer journeys using code
-        href: developer/extend-customer-journey-using-code.md
-    - name: Metadata reference for your organization
-      items:
-      - name: Metadata reference for your organization
-        href: developer/marketing-organization-metadata.md
-      - name: Dynamics 365 Marketing solutions
-        href: developer/marketing-solutions.md
-      - name: Dynamics 365 Marketing entity reference
-        href: developer/marketing-entity-reference.md
-    - name: Customize marketing forms
-      items:
-      - name: Filter cities based on countries using lookup fields and custom entities
-        href: developer/filter-cities.md
-      - name: Extend Marketing forms using client side scripting
-        href: developer/marketing-form-client-side-extensibility.md
-    - name: Work with segments using code
-      href: developer/extend-segments.md
-    - name: Export Dynamics 365 Customer Voice survey responses to Microsoft Excel
-      href: developer/export-customer-voice.md
-    - name: Entity mapping with custom workflows
-      href: entity-mapping.md
-    - name: Limitations on migrating files between environments
-      href: developer/migrate-files.md
-    - name: Retrieve interactions for a contact
-      href: developer/retrieve-interactions-contact.md
   - name: Learning catalog
     items:
     - name: Learning catalog overview

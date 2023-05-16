@@ -40,7 +40,7 @@ Business units affect messages (emails, text messages, and push notifications) a
 ## Forms
 
 Business units affect forms as follows:
-- When [scoping is enabled](real-time-marketing-business-units.md#enabling-business-unit-scopes-in-real-time-marketing) for your instance, each [form](real-time-marketing-form-editor.md) is automatically scoped to the form owner’s business unit. In addition:
+- When [scoping is enabled](real-time-marketing-business-units.md#enabling-business-unit-scopes-in-real-time-marketing) for your instance, each [form](real-time-marketing-form-overview.md) is automatically scoped to the form owner’s business unit. In addition:
     - Business unit scoped forms, when submitted, will create records in the form owner’s business unit.
 
 ## Enabling business unit scopes in real-time marketing
