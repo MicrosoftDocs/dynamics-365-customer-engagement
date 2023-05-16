@@ -22,11 +22,12 @@ Having different content sent to customers based on their profile is possible in
 - Create multiple branches leading to the email to send within the customer journey. The email logic is simple with this technique, but the number of emails is higher because each audience requires a different email.
 - Build the logic within the Email and/or Content Block. This approach simplifies journey authoring as the audience type complexities can be ignored and there’s a single email to prepare for the journey which adds to the benefits. However, the email authoring is more complex as it needs to account for the variations.
 
-### Scenario
+## Scenario
 In this article, we consider a scenario in which a company’s Terms and Conditions must be placed in the footer of every email. Those terms and conditions vary depending on the customer’s place of residency, as well as the preferred language. Since we want to apply the pattern to multiple emails and in multiple journeys, we’re putting the logic in a content block rather than consider putting it in the customer journey or email.
 
-### Solution 
-The solution’s goal is to provide a reusable pattern incorporating multi-country, multilingual content in email footers. The focus of the solution is on a common footer with terms and conditions in multiple languages and for multiple countries. However, the pattern can be applied to other scenarios where content variations are needed by country and language. 
+## Solution 
+The solution’s goal is to provide a reusable pattern incorporating multi-country, multilingual content in email footers. The focus of the solution is on a common footer with terms and conditions in multiple languages and for multiple countries. However, the pattern can be applied to other scenarios where content variations are needed by country and language.
+
 ## Scenario 1 – Conditional content by free text country
 The simplest scenario is to construct the solution on existing columns and tables in Dynamics 365 Marketing’s out of the box data model. We have a country's free text field in the Contact table, which allows us to profile the audience depending on their country of residence.  
 
@@ -65,12 +66,12 @@ The above scenario is dependent on the users entering the country in a free text
 
 ### Customize Dynamics 365 for Marketing
 
-The first step to implement the solution is to create a table to allows us to profile contacts based on their country. Using the [Maker Portal](https://make.powerapps.com/), create a [new table](https://learn.microsoft.com/power-apps/maker/data-platform/create-edit-entities-portal) for Country and populate with the countries that are supported by the solution. 
+The first step to implement the solution is to create a table to allows us to profile contacts based on their country. Using the [Maker Portal](https://make.powerapps.com/), create a [new table](/power-apps/maker/data-platform/create-edit-entities-portal) for Country and populate with the countries that are supported by the solution. 
 
 > [!div class="mx-imgBorder"]
 > ![Use lookup tables for countries](media/real-time-marketing-conditional-lookup-country.png "Use lookup tables for countries")
 
-Then we update the Contact table by adding a [table relationship](https://learn.microsoft.com/power-apps/maker/data-platform/data-platform-entity-lookup) between the Country table and the Contact table. With the relationship in place, the Form for the [Contact table](https://learn.microsoft.com/power-apps/maker/model-driven-apps/create-design-forms) is updated to allow users to specify the Country and Language of the Contact.
+Then we update the Contact table by adding a [table relationship](/power-apps/maker/data-platform/data-platform-entity-lookup) between the Country table and the Contact table. With the relationship in place, the Form for the [Contact table](/power-apps/maker/model-driven-apps/create-design-forms) is updated to allow users to specify the Country and Language of the Contact.
 
 #### Use related table in conditional content
 
@@ -137,7 +138,7 @@ In the previous scenarios we have been working with conditions added to content 
 > [!div class="mx-imgBorder"]
 > ![Add inline conditions to content block for contact's language as per their country](media/real-time-marketing-add-inline-condition-to-content-block.png "Add inline conditions to content block for contact's language as per their country")
 
-This will be complemented with an additional level of personalization will be require being able to dynamically read the formatted text of the terms and conditions from the [Legal Texts](real-time-marketing-predefined-dynamic-text#using-data-from-additional-tables-in-dynamic-text) table using data from additional tables feature.
+This will be complemented with an additional level of personalization will be require being able to dynamically read the formatted text of the terms and conditions from the [Legal Texts](real-time-marketing-predefined-dynamic-text.md#using-data-from-additional-tables-in-dynamic-text) table using data from additional tables feature.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing selecting attribute](media/real-time-marketing-select-attribute-text-formatting.png "Screenshot showing selecting attribute")
