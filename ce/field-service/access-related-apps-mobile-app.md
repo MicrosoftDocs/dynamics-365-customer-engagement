@@ -10,30 +10,40 @@ ms.author: jshum
 
 # Access related apps form the Field Service mobile app
 
-## IoT
+## IoT data from Connected Field Service
+
+Organizations using Connected Field Service to track their IoT devices find a subset of that information readily available in the mobile app. For more information, see [Connected Field Service for the Field Service (Dynamics 365) mobile app](cfs-mobile-powerapp.md).
+
+### [UCI app](#tab/vCurrent)
 
 Technicians can view and interact with IoT data and IoT actions like pulling live device data or registering new devices in the mobile app.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing three phones with Field Service mobile app and IoT device readings.](./media/mobile-2020-cfs.png)
 
-As seen in the following image, technicians can also view a chart of live IoT data from an IoT device, customer asset, or IoT alert record.
+Live charts for IoT data from an IoT device, customer asset, or IoT alert record are available at your fingertips.
 
-> [!div class="mx-imgBorder"]
-> ![Simulated image showing live device readings.](./media/cfs-device-readings-mobile.png)
+### [Native UX](#tab/vNext)
 
-For more information, see the article on [Connected Field Service for the Field Service (Dynamics 365) mobile app](cfs-mobile-powerapp.md).
+<!--- Content here  -->
+
+--- 
 
 ## Trigger Dynamics 365 Remote Assist for remote collaboration
 
-Organizations using Dynamics 365 Remote Assist will see technicians can trigger a deep link from the work order to open the Dynamics 365 Remote Assist mobile app.
+### [UCI app](#tab/vCurrent)
+
+
+Organizations using Dynamics 365 Remote Assist have a deep link from the work order to open the Dynamics 365 Remote Assist mobile app. For more information, see [Using Field Service with Dynamics 365 Remote Assist](remote-assist-hololens.md).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
 
-> [!div class="mx-imgBorder"]
-> ![Simulated image showing a phone with Field Service mobile and a menu option to launch Dynamics 365 Remote Assist.](./media/mobile-2020-remote-assist.png)
+### [Native UX](#tab/vNext)
 
-For more information, see the article: [Using Field Service with Dynamics 365 Remote Assist](remote-assist-hololens.md).
+<!--- Content here  -->
+
+--- 
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
