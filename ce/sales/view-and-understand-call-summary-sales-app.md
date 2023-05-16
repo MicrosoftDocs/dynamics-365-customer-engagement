@@ -135,7 +135,7 @@ If a call is mentioned in the transcript, the transcript is highlighted in blue 
 1. Select one of the following actions:
 
    - Select **Create** to create the call activity.
-   - Expand **Create** and then select **Create and Edit** to enter more details before saving the call activity.<!-- EDITOR'S NOTE: Please confirm the capitalization of "edit" on the button label. -->
+   - Expand **Create** and then select **Create and Edit** to enter more details before saving the call activity.
    - Select **Create task** if you think this action item would be better handled as a task than a call.
 
 You can view the call activity under the activities of the attached record entity and on the seller's activity list. After you create the call activity, select the call under **See call** and the call activity will open in a new browser tab.
@@ -143,8 +143,6 @@ You can view the call activity under the activities of the attached record entit
 ##### Create a task
 
 If something the seller commits to do is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a task is displayed.
-
-:::image type="content" source="media/ci-action-item-create-task.png" alt-text="Screenshot of a New task suggestion in the Action items tab of the call summary page.":::
 
 1. Enter the following details:
 
@@ -156,15 +154,13 @@ If something the seller commits to do is mentioned in the transcript, the transc
 1. Select one of the following actions:
 
    - Select **Create** to create the task activity.
-   - Expand **Create** and then select **Create and Edit** to enter more details before saving the task activity.<!-- EDITOR'S NOTE: Please confirm the capitalization of "edit" on the button label. -->
+   - Expand **Create** and then select **Create and Edit** to enter more details before saving the task activity.
 
 You can view the task activity under the activities of the attached record entity and on the owner's activity list. After you create the task activity, select the task under **See task** and the task activity will open in a new browser tab.
 
 ##### Send an email  
 
 If email is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to send an email is displayed.
-
-:::image type="content" source="media/ci-action-item-send-email.png" alt-text="Screenshot of an Email suggestion in the Action items tab of the call summary page.":::
 
 1. Enter the following details:
 
@@ -175,13 +171,11 @@ If email is mentioned in the transcript, the transcript is highlighted in blue a
 1. Select one of the following actions:
 
    - Select **Open email** to create the email.
-   - Expand **Open email** and then select **Create task** if you think this action item would be better handled as a task than an email.<!-- EDITOR'S NOTE: Please confirm the capitalization of "task" on the button label. -->
+   - Expand **Open email** and then select **Create task** if you think this action item would be better handled as a task than an email.
 
 ##### Set up a meeting
 
 If a meeting is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to set up a meeting is displayed.
-
-:::image type="content" source="media/ci-action-item-setup-meeting.png" alt-text="Screenshot of a Meeting suggestion in the Action items tab of the call summary page.":::<!-- EDITOR'S NOTE: The highlighted text in the transcript doesn't mention a meeting. Can you say more about what kinds of statements can trigger a meeting suggestion? -->
 
 1. Enter the following details:
 
@@ -193,19 +187,19 @@ If a meeting is mentioned in the transcript, the transcript is highlighted in bl
 1. Select one of the following actions:
 
    - Select **Open calendar** to open your default calendar and create the meeting invitation.
-   - Expand **Open calendar** and then select **Create task** if you think this action item would be better handled as a task than a meeting.<!-- EDITOR'S NOTE: Please confirm the capitalization of "task" on the button label. -->
+   - Expand **Open calendar** and then select **Create task** if you think this action item would be better handled as a task than a meeting.
 
-#### Highlights tab
+#### Mentions tab
 
-The **Highlights** tab displays talking points&mdash;keywords, stakeholders, products, questions, and competitors&mdash;that were mentioned during the call. When you select any of these items, the call transcript is highlighted and a pointer on the playback indicates when it was mentioned.
+The **Mentions** tab displays talking points&mdash;keywords, stakeholders, products, questions, and competitors&mdash;that were mentioned during the call. When you select any of these items, the call transcript is highlighted and a pointer on the playback indicates when it was mentioned.
 
-:::image type="content" source="media/ci-summary-keywords.png" alt-text="Screenshot of the Highlights tab of the call summary page.":::
+:::image type="content" source="media/ci-summary-keywords.png" alt-text="Screenshot of the Mentions tab of the call summary page.":::
 
 - **Tracked keywords**: Predefined keywords that customers mentioned during the call
 - **People**: The names of people mentioned during the call
 - **Products**: The names of the products mentioned during the call
 - **Competitors**: Predefined competitors that customers mentioned during the call
-- **Best-practice keywords**: Keywords that can be used as best practices during the call<!-- EDITOR'S NOTE: The call has ended. How can these keywords be used during the call? Can you please explain this in more detail? -->
+- **Best-practice keywords**: Keywords that can be used as best practices during the call
 - **Other brands and organizations**: Brand and organization names, other than your own, that the customer mentioned during the call
 - **Questions asked by sellers**: Questions that the Dynamics 365 user&mdash;the seller&mdash;asked during the call
 - **Questions asked by others**: Questions asked by the other participants during the call
@@ -251,6 +245,8 @@ The timeline shows how the conversation was segmented and the topics that were d
 ### See also
 
 [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)  
-[Track and manage activities](/dynamics365/sales-enterprise/manage-activities)
+[Track and manage activities](/dynamics365/sales-enterprise/manage-activities)  
+[View call recordings and transcripts in Dynamics 365 Customer Service](../customer-service/voice-channel-call-recordings-transcripts.md)  
+[View and share auto-summarized conversations in Dynamics 365 Customer Service](/dynamics365/customer-service/cs-ai-generated-summary)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
