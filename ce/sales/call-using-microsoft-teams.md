@@ -114,10 +114,10 @@ While you're on a call with a customer, you can transfer the call to another col
 
 1. (Optional) If you're calling a system user, select **Ring back if there's no answer** for a safe transfer. Otherwise, the call will be disconnected if there's no answer.
 
-    If the recipient is in a meeting or out of office, select **Cancel** and then **Resume** to go back to the customer.
+    If the recipient is unavailable to take the call, select **Cancel** and then **Resume** to go back to the customer.
 
-1. Select **Transfer**.  
-    The recipient will see the transfer notification with details of the original user and the customer. After you transfer the call, the call is treated as a new one and any notes or recordings made during the original call are not transferred to the recipient.
+1. If the recipient is available, select **Transfer**.  
+    If you've transferring to a Teams line, the recipient sees the transfer notification with details of the original user and the customer. After you transfer the call, the call is treated as a new one and any notes or recordings made during the original call are not transferred to the recipient.
 
 ## Consult and transfer a Teams call (preview)
 
