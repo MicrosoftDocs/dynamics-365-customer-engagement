@@ -73,7 +73,7 @@ Make sure the deployment is complete before you proceed.
 
 1. Enter the following information:
 
-    :::image type="content" source="media/cfs-iot-hub-provider-instance.png" alt-text="Screenshot of a new IoT Hub provider instance with sample data.":::<!-- EDITOR'S NOTE: Please crop the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main). -->
+    :::image type="content" source="media/cfs-iot-hub-provider-instance.png" alt-text="Screenshot of a new IoT Hub provider instance with sample data.":::
 
     - **Name**: The name of the resource group in Azure where you deployed IoT resources
     - **IoT Provider**: [The IoT provider for IoT Hub](cfs-provider-iot-hub.md)
@@ -230,7 +230,7 @@ console.log("Error: " + error.message);
 
 1. Run the script one more time. This time, replace `Key` with `TSI_PLUGIN_CLIENT_SECRET` and `Value` with the Client Secret from the Time Series Insights app registration you created as a [prerequisite](#prerequisites).
 
-1. Run the following script, using your Time Series Insights URL and the GUID of the IoT provider instance you created earlier.
+1. Run the following script, using your Time Series Insights URL and the GUID of the IoT provider instance row in the *msdyn_iotproviderinstance* table for the IoT provider instance you created earlier.
 
 ```javascript
 var data = {"msdyn_timeseriesinsightsurl": "Enter Data Access FQDN found on Time Series Insights environment overview"};
@@ -253,7 +253,7 @@ For this step, you need the simulator URL and the primary key for the `iothubown
 
 1. Select **Shared access policies**, and then copy the primary key for *iothubowner*.
 
-    :::image type="content" source="media/cfs-simulator-connection.png" alt-text="Screenshot of Azure IoT Hub resource shared access policy for iothubowner, with the primary key highlighted.":::<!-- EDITOR'S NOTE: Please crop and highlight the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main). -->
+    :::image type="content" source="media/cfs-simulator-connection.png" alt-text="Screenshot of Azure IoT Hub resource shared access policy for iothubowner, with the primary key highlighted.":::
 
 ### Get the simulator URL
 
@@ -265,7 +265,7 @@ For this step, you need the simulator URL and the primary key for the `iothubown
 
 1. Enter the host name from the IoT Hub resource and **iothubowner** as the policy name. In the **Key** field, paste the primary key you copied earlier.
 
-    :::image type="content" source="media/cfs-iothub-thermostadt-simulator.png" alt-text="Screenshot of the "configure connection" window in Azure.":::
+    :::image type="content" source="media/cfs-iothub-thermostadt-simulator.png" alt-text="Screenshot of the 'Configure connection' window in Azure.":::
 
 1. Make sure **Connection status** is **Connected** and then close the connection window.
 
@@ -276,14 +276,5 @@ Send a test command using the simulator. For example, select the temperature and
 - [Register devices](cfs-register-devices.md)  
 - [Pull device data](cfs-pull-device-data.md)  
 - [Visualize device readings](cfs-visualizations-iot-hub.md)
-
-## Privacy notice
-<!-- EDITOR'S NOTE: I agree, the privacy notices make this long article unnecessarily longer. I think they belong in an article that gives an overview of the Azure IoT Hub, maybe cfs-azure-subscription.md. -->
-
-[!INCLUDE [cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
-
-[Azure Time Series Insights](/azure/time-series-insights/)
-
-[Connected Field Service Device Readings](cfs-visualizations-iot-hub.md) uses Azure Time Series Insight to store, process, and query IoT devices measurements from IoT Hub.
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]

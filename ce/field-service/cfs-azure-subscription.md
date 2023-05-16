@@ -15,8 +15,6 @@ author: vhorvathms
 
 # Azure subscription prerequisites for Connected Field Service with IoT Hub
 
-<!--still needed?-->
-
 When deploying and administering Connected Field Service with IoT Hub, there are a few considerations and prerequisites for your Azure subscription. 
 
 ## Prerequisites 
@@ -44,6 +42,12 @@ When deploying and administering Connected Field Service with IoT Hub, there are
 > [!div class="mx-imgBorder"]
 > ![Screenshot of CRM API access.](./media/cfs-azure-api-management.png)
 
+## Privacy notice
 
+[!INCLUDE [cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
+
+[Azure Time Series Insights](/azure/time-series-insights/)
+
+[Connected Field Service Device Readings](cfs-visualizations-iot-hub.md) uses Azure Time Series Insight to store, process, and query IoT devices measurements from IoT Hub.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
