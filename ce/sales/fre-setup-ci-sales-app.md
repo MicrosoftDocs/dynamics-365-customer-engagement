@@ -45,7 +45,6 @@ Before you configure Teams with conversation intelligence, you must enable the T
 > [!NOTE]
 > To set up the phone system and Teams for your organization, contact your Teams administrator. 
 
-
 ### Configure Microsoft Teams call recording
 
 1.	Sign in to Dynamics 365 Sales Hub.
@@ -82,6 +81,7 @@ Before you configure Teams with conversation intelligence, you must enable the T
     >For Microsoft-provided storage, the available retention periods are 30 days and 90 days. If your organization requires longer retention periods, please consider using your own storage.
 
 6.	Under **Business settings**, configure the following settings:
+
 - In the **Conversation tracking** section, add the keywords and competitors that your organization wishes to track during calls. Each tracked keyword and competitor can only contain up to 50 characters.
    > [!Note]
    > Adding keywords and competitors is a required global setting that will be applied to all sales calls in the organization. To enable conversation intelligence, you must set at least one global keyword and at least one global competitor. You can update these keywords and competitors later if necessary. More information: [Configure keywords and competitors in conversation content](configure-keywords-competitors.md)
@@ -110,7 +110,7 @@ Teams call recording with conversation intelligence is now configured and ready 
 
 #### Hide personal data (preview)
 
-To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as, credit card number, expiry date, and CVV will be masked before saving a transcript. For more information, see 
+To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as credit card number, expiry date, and CVV will be masked before saving a transcript.  Learn more about [call transcripts](view-and-understand-call-summary-sales-app#call-transcript-and-translation). 
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
@@ -144,5 +144,6 @@ If you have chosen **Automatic recording** to record all customer calls, you can
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
 
 
