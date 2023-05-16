@@ -80,6 +80,9 @@ You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../inclu
 
 To learn more about adding a timer control to an SLA-enabled entity, go to [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md).
 
+
+
+
 ## Know active duration and elapsed time for SLA KPI Instances
 
 Track the time taken by SLA KPI Instances to reach their terminal status during business hours to evaluate whether the SLAs are realistic and take decisions about resourcing and efficiency.
