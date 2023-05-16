@@ -41,7 +41,7 @@ The following insights categories are provided:
 - **Custom channels insights**: View complete details of custom channel interactions for the selected Contact, including messages sent, clicked and more.
  
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of contact insights.](media/real-time-marketing-contact-insights.png "Screenshot of contact insights")
+    > ![Screenshot of custom channel contact insights.](media/real-time-marketing-custom-channel-contact-insights.png "Screenshot of custom channel contact insights")
 
 ### Lead insights
 
