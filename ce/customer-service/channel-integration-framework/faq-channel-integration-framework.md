@@ -57,7 +57,7 @@ No, Dynamics 365 Channel Integration Framework does not manage call or chat sess
 
 No, Dynamics 365 Channel Integration Framework is agnostic to operating systems and web browsers; you can integrate cloud-based channels of your choice that are best suited for your organization's requirements.
 
-### How can I get updated to Dynamics 365 Channel Integration Framework?
+### How can I get updates to Dynamics 365 Channel Integration Framework?
 
 Microsoft is continuously developing and improving online services. Updates to the Dynamics 365 Channel Integration Framework 1.0 are pushed to all customers automatically. 
 
