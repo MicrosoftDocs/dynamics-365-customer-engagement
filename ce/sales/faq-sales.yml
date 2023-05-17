@@ -225,10 +225,11 @@ sections:
           1. In the Sales Hub app, select **App Settings**.
           1. Under **Performance management**, select **Forecast configuration**.
           1. Select the forecast configuration that's related to the forecast, and then select the **Permissions** step.
-          1. Check the **Owner lookup field (Preview)** to determine who owns the forecast.
+          1. Check the **Owner lookup field (Preview)** field to determine who owns the forecast.
           
-              :::image type="content" source="media/user-security-field.png" alt-text="Screenshot of the Owner lookup field in the Permissions tab.":::
-          For more information, see [Define the forecast owner](provide-permissions-forecast.md#define-the-forecast-owner).
+              :::image type="content" source="media/user-security-field.png" alt-text="Screenshot of the Owner lookup field in the Permissions step.":::
+          
+          For more information, go to [Define the forecast owner](provide-permissions-forecast.md#define-the-forecast-owner).
            
         
       - question: How do I change the forecast calculation for lost opportunities?
