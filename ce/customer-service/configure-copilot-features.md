@@ -51,7 +51,71 @@ Perform the following steps to enable the Copilot features:
 
    :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="enable Copilot for customer summary" lightbox="media/copilot-admin-email.png":::
 
-### Enable Copilot in agent experience profiles
+## Enable summarization of cases
+
+Copilot case summaries are designed to help support agents quickly understand the context of a case, enabling them to resolve customer issues more efficiently. Agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description.
+
+To allow Copilot to summarize cases and conversations, perform the following steps:
+
+1.	In Customer Service admin center select **Productivity** in Agent Experience.
+2.	In **Productivity**, select **Manage**  in **Copilot help pane (preview)**.
+1. Select **Make case summaries available to agents** to display a summary of the case on the Case page. 
+
+   :::image type="content" source="media/copilot-admin-summary-mini.png" alt-text="enable Copilot for customer summary" lightbox="media/copilot-admin-summary.png":::
+
+### Display Copilot case summary on a custom case form
+
+When you enable the Copilot case summary capability, agents can see the case summary by default on the out-of-the-box case forms. You can perform the following steps to display the Copilot case summary on your custom case forms:
+
+1. In [Power Apps](https://make.powerapps.com/), add the **msdyn_CopilotCaseSummaryLibrary.js** web resource to your solution. For more information, see: [Add a web resource to a solution](/power-apps/maker/model-driven-apps/create-edit-web-resources#add-a-web-resource-to-a-solution).
+1. Select **Add existing** > **More** > **Developer** > **Custom Control**. Search for and add the **mscrmcontrols.csintelligence.copilotcasesummarycontrol** custom control.
+1. Select **Tables**, select **Case**, and then select **Forms**.
+1.  Create a new form or use an existing form. More information: [Create, edit, or configure forms using the model-driven form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms).
+1.  In the form designer, select **Components** from the left navigation, select **CopilotCaseSummaryControl** and drag it on to the form.
+1. Set the values of the following fields as:
+   - CC_CaseSummary: Any table column. Copy the unique name of the specified column.
+   - CC_IncidentId: Case (Text)
+   Set the Show hidden toggle to On.
+1. On the form navigation, in the **Events** tab, select **Add Event Handler**.
+1. In **Configure Event**, perform the following steps:
+
+  - Set the **Event Type** to **On load**.
+  - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
+  - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
+1. Save and publish the changes.
+
+
+### Display Copilot case summary on a custom case form
+
+When you enable the Copilot case summary capability, agents can see the case summary by default on the out-of-the-box case forms. You can perform the following steps to display the Copilot case summary on your custom case forms:
+
+1. In [Power Apps](https://make.powerapps.com/), add the **msdyn_CopilotCaseSummaryLibrary.js** web resource to your solution. For more information, see: [Add a web resource to a solution](/power-apps/maker/model-driven-apps/create-edit-web-resources#add-a-web-resource-to-a-solution).
+1. Select **Add existing** > **More** > **Developer** > **Custom Control**. Search for and add the **mscrmcontrols.csintelligence.copilotcasesummarycontrol** custom control.
+1. Select **Tables**, select **Case**, and then select **Forms**.
+1.  Create a new form or use an existing form. More information: [Create, edit, or configure forms using the model-driven form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms).
+1.  In the form designer, select **Components** from the left navigation, select **CopilotCaseSummaryControl** and drag it on to the form.
+1. Set the values of the following fields as:
+   - CC_CaseSummary: Any table column. Copy the unique name of the specified column.
+   - CC_IncidentId: Case (Text)
+   Set the Show hidden toggle to On.
+
+### View Copilot case summary in an app side pane on a custom case form
+
+Perform the following steps to view the Copilot case summary in an app side pane, on a custom case form:
+
+1. In Power Apps, you must add the event handler function for the On Change event. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui). 
+1. Specify the following details in **Configure Event**:
+  - **Event Type**: **On Change**
+  - Set the **Event Type** to **On load**.
+  - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
+  - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
+1. Save and publish the changes.
+
+## Record feedback
+
+In the corresponding Copilot configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record how agents are interacting with Copilot and understand its impact. Agents can share feedback about Copilot actions. This helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
+
+## Enable Copilot in agent experience profiles
 
 You can use agent experience profiles to control which agents get access to the Copilot help pane. To enable the Copilot features for an agent experience profile, perform the following steps:
 
@@ -61,26 +125,30 @@ You can use agent experience profiles to control which agents get access to the 
 
  For more information, see: [Add users to agent experience profiles](../app-profile-manager/add-profile-default.md) and [Assign users, templates, configure productivity pane, channels](../app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
 
-## Enable summarization of conversations
+## Enable Copilot capabilities for custom apps
 
-Copilot case summaries are designed to help support agents quickly understand the context of a case, enabling them to resolve customer issues more efficiently. Agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description.
+You can enable the Copilot capabilities for custom apps in your organization. Perform the following steps to add and configure the setting definition in Power Apps to enable the Copilot capabilities for a specific app. 
 
-To allow Copilot to summarize cases and conversations, perform the following steps:
+1. In [Power Apps](https://make.powerapps.com/), add the **Customer Service Copilot Enabled** setting definition. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition).
+1. In the **Edit Customer Service Copilot Enabled** pane, in set the **Setting app values** section, for a required app, set the  **New app value** to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
 
-1.	In Customer Service admin center select **Productivity** in Agent Experience.
-2.	In **Productivity**, select **Manage**  in **Copilot help pane (preview)**.
-1. Select **Make case summaries available to agents** to display a summary of the case on the Case page. 
-1. Select the following options to define when you want the conversations to be summarized:
-   - **When an agent joins the conversation**: To display the conversation summary when an agent has joined the conversation. This is applicable to conversations escalated to a human agent from a bot, transferred conversations, or when the agent invites a collaborator.
-   - **When the conversation ends**: To display the summary when the conversation ends.
-   - **Allow agents to create a case with a button in the summary**: To display the **Create Case** button in the summary generated when an agent ends the conversation.
-   - **On demand, by selecting a button to summarize the conversation**: To display the conversation summary when an agent selects the summarize button on the conversation panel.
-  
-   > [!NOTE]
-   > The conversation summary generated by Copilot might vary from the conversation summary generated by the existing AI model. For more information, see: [Set up auto-summarization for conversations](cs-enable-AI-generated-summary.md)
+## Assign roles and privileges
 
-   :::image type="content" source="media/copilot-admin-summary-mini.png" alt-text="enable Copilot for customer summary" lightbox="media/copilot-admin-summary.png":::
+Only users with the Customer Service Representative role can use the Copilot capabilities. If users have using custom roles, ensure that they have the following privileges: 
+- prvCreatemsdyn_copilotinteraction 
+- prvAppendmsdyn_copilotinteraction 
+- prvCreatemsdyn_copilotinteractiondata 
+- prvWritemsdyn_copilottranscriptdata 
+- prvAppendTomsdyn_copilottranscriptdata 
+- prvReadmsdyn_copilottranscript 
+- prvCreatemsdyn_copilottranscript 
+- prvWritemsdyn_copilottranscript 
+- prvAppendTomsdyn_copilottranscript 
+- prvReadmsdyn_copilottranscriptdata 
+- prvCreatemsdyn_copilottranscriptdata 
+- prvWritemsdyn_copilottranscriptdata 
+- prvAppendmsdyn_copilottranscriptdata 
+- prvReadmsdyn_agentcopilotsetting 
+- prvReadmsdyn_copilotsummarizationsetting 
+- prvIntelligenceUsage 
 
-### Record feedback
-
-In the corresponding Copilot configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record how agents are interacting with Copilot and understand its impact. Agents can share feedback about Copilot actions. This helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
