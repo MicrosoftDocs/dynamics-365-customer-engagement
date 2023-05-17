@@ -1,5 +1,5 @@
 ### YamlMime:Hub
-title:  Dynamics 365 Sales Documentation
+title:  Dynamics 365 Sales documentation
 summary:  Learn about how you can use Dynamics 365 Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
 brand: dynamics
 metadata:
@@ -33,7 +33,7 @@ highlightedContent:
       
 additionalContent: 
   sections:
-  - title: Implement Sales
+  - title: Implement sales
     items:
     - title: Guidance 
       links: 
@@ -45,14 +45,14 @@ additionalContent:
         text: Security and compliance
       - url: /dynamics365/guidance/overview
         text: Browse more
-    - title: Try/Buy/Deploy
+    - title: Try/Buy/Install
       links: 
       - url: sign-up-for-sales-trial.md
         text: Try Dynamics 365 Sales
       - url: buy-dynamics-365-sales.md
         text: Buy Dynamics 365 Sales
       - url:  install-overview.md
-        text: Install Dynamics 365 Sales 
+        text: Install Dynamics 365 Sales apps
     - title: Set up 
 
       links: 
@@ -62,7 +62,7 @@ additionalContent:
         text: Grant users access 
       - url: sales-basics-setup.md 
         text: Set up sales basics 
-  - title: Administer and develop Sales
+  - title: Administer and develop sales
     items:
     - title: Configure 
       links: 
@@ -97,7 +97,7 @@ additionalContent:
         text: Sales table reference
       - url: entity-reference.md
         text: Sales insights table reference 
-  - title: Use Sales
+  - title: Use sales
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
@@ -112,7 +112,7 @@ additionalContent:
       - url: sales-transactions.md
         text: Manage quote, order, and invoice
 
-    - title: Sell smartly
+    - title: Use predictions and insights
       links:
       - url: work-predictive-lead-scoring.md
         text: Prioritize leads through predictive scores 
@@ -131,7 +131,7 @@ additionalContent:
         text: Project accurate revenue with sales forecasting
       - url: configure-premium-forecasting.md
         text: Predict future revenue outcomes using premium forecasting
-    - title: Accelerate Sales
+    - title: Accelerate sales
       links: 
       - url: prioritize-sales-pipeline-through-work-list.md
         text: Prioritize sales pipeline with work lists 
