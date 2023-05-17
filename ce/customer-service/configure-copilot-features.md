@@ -63,27 +63,6 @@ To allow Copilot to summarize cases and conversations, perform the following ste
 
    :::image type="content" source="media/copilot-admin-summary-mini.png" alt-text="enable Copilot for customer summary" lightbox="media/copilot-admin-summary.png":::
 
-### Display Copilot case summary on a custom case form
-
-When you enable the Copilot case summary capability, agents can see the case summary by default on the out-of-the-box case forms. You can perform the following steps to display the Copilot case summary on your custom case forms:
-
-1. In [Power Apps](https://make.powerapps.com/), add the **msdyn_CopilotCaseSummaryLibrary.js** web resource to your solution. For more information, see: [Add a web resource to a solution](/power-apps/maker/model-driven-apps/create-edit-web-resources#add-a-web-resource-to-a-solution).
-1. Select **Add existing** > **More** > **Developer** > **Custom Control**. Search for and add the **mscrmcontrols.csintelligence.copilotcasesummarycontrol** custom control.
-1. Select **Tables**, select **Case**, and then select **Forms**.
-1.  Create a new form or use an existing form. More information: [Create, edit, or configure forms using the model-driven form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms).
-1.  In the form designer, select **Components** from the left navigation, select **CopilotCaseSummaryControl** and drag it on to the form.
-1. Set the values of the following fields as:
-   - CC_CaseSummary: Any table column. Copy the unique name of the specified column.
-   - CC_IncidentId: Case (Text)
-   Set the Show hidden toggle to On.
-1. On the form navigation, in the **Events** tab, select **Add Event Handler**.
-1. In **Configure Event**, perform the following steps:
-
-  - Set the **Event Type** to **On load**.
-  - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
-  - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
-1. Save and publish the changes.
-
 
 ### Display Copilot case summary on a custom case form
 
@@ -97,7 +76,8 @@ When you enable the Copilot case summary capability, agents can see the case sum
 1. Set the values of the following fields as:
    - CC_CaseSummary: Any table column. Copy the unique name of the specified column.
    - CC_IncidentId: Case (Text)
-   Set the Show hidden toggle to On.
+1. Set the Show hidden toggle to On.
+1. Save and publish the customizations.
 
 ### View Copilot case summary in an app side pane on a custom case form
 
@@ -134,7 +114,8 @@ You can enable the Copilot capabilities for custom apps in your organization. Pe
 
 ## Assign roles and privileges
 
-Only users with the Customer Service Representative role can use the Copilot capabilities. If users have using custom roles, ensure that they have the following privileges: 
+Only users with the Customer Service Representative role can use the Copilot capabilities. If users have using custom roles, ensure that they have the following privileges. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
+
 - prvCreatemsdyn_copilotinteraction 
 - prvAppendmsdyn_copilotinteraction 
 - prvCreatemsdyn_copilotinteractiondata 
