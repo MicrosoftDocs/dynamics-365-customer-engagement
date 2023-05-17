@@ -99,7 +99,7 @@ Legend:
 1. Links the article to the current case or conversation
 1. Status and visibility tags for the article
 1. Confirmation that the record is linked to a case
-1.Info card that displays search term matches from keywords, description, attachments, and any other custom fields
+1. Info card that displays search term matches from keywords, description, attachments, and any other custom fields
 1. Article date
 1. Article number
 
@@ -128,15 +128,18 @@ Legend:
 1. The number of times the article has been viewed
 1. Info card that displays search term matches from keywords, description, attachments, and any other custom fields
 1. Links the article to the current case or conversation. If the article is already linked, select the icon to unlink it from the current case or conversation.
-1. Status and visibility tags for the article.
-1. Search results across attachments. The attachment title appears only when the search term matches the content in the attachment
+1. Status and visibility tags for the article
+1. Search results across attachments. The attachment title appears only when the search term matches the content in the attachment.
 
 Select More options (**&hellip;**) to:
 
 - Select **Email Content** to open a new email, so that you can send the article to your customer.
-- In channels other than Voice in Omnichannel for Customer Service, you can also select **Send URL** to paste the article link in the conversation window.
+- In channels other than Voice in Omnichannel for Customer Service, select **Send URL** to paste the article link in the conversation window.
 
 These actions can be performed for only published or expired articles.
+
+
+
 
 ## Use smart assist
 
