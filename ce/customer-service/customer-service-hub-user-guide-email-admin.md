@@ -37,8 +37,8 @@ To enable email:
 
 6. The **Form Order** window appears, which displays the enabled email forms that are available. If **Enhanced email** doesn't display at the top of the list, use the arrows to move it up so it displays first on the list, and then select **OK**.
 
- > [!Note] 
- > Both the Navigate-to and Contextual (pop-up) email experience use the same **Form Order**.
+   > [!Note] 
+   > Both the Navigate-to and Contextual (pop-up) email experience use the same **Form Order**.
 
 7.	When you've completed your updates, select **Publish All Customizations** in the top-left corner in order for changes to be displayed.
 
@@ -69,8 +69,8 @@ You can manage file size limits for email file attachments by doing the followin
 
 3. Scroll down to the  **Set file size limit for attachments** section, set the file size you want to use for attachment, and then select **OK**.
 
-> [!Note] 	
-> The default file size limit for attachments is 5 MB. The size limit for attachments can be increased to a maximum of 132 MB per file.
+  > [!Note] 	
+  > The default file size limit for attachments is 5 MB. The size limit for attachments can be increased to a maximum of 132 MB per file.
 
 ## Configure email pop-up window
 
