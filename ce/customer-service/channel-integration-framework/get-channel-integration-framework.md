@@ -14,7 +14,9 @@ ms.custom:
 
 Dynamics 365 Channel Integration Framework is an application (solution) available in Microsoft AppSource.
 
-You can get the solution from within Dynamics 365 or directly from Microsoft AppSource. Download link for Dynamics 365 Channel Integration Framework solution: [Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102)
+You can get the solution from within Dynamics 365 or directly from Microsoft AppSource. Download link for Dynamics 365 Channel Integration Framework solution: [Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102).
+
+Updates to the solution are pushed to all customers automatically.
 
 ## Prerequisites
 
