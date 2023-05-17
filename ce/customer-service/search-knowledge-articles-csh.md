@@ -134,7 +134,7 @@ Legend:
 Select More options (**&hellip;**) to:
 
 - Select **Email Content** to open a new email, so that you can send the article to your customer.
-- In channels other than Voice in Omnichannel for Customer Service, select **Send URL** to paste the article link in the conversation window.
+- In channels other than Voice in Omnichannel for Customer Service, you can also select **Send URL** to paste the article link in the conversation window.
 
 These actions can be performed for only published or expired articles.
 
