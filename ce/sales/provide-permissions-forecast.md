@@ -32,16 +32,15 @@ A forecast owner can view, share, and adjust the forecast. You can assign a user
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-In the **Owner lookup field (preview)**, select who owns the forecast.
+In the **Owner lookup field (preview)** field, select who owns the forecast:
 
-- To assign ownership to all users in the BU, select an attribute of the business unit entity. Let's say, you select **Owning Business Unit** as the owner of an account-based hierarchy, all users in the BU can view, share, and adjust forecasts for all accounts in the BU. The BU ownership is only available to hierarchy entities that have a BU relationship. Entities such as territory and product are not connected to any BUs by default and hence can't be assigned BU ownership.
+- To assign ownership to all users in the BU, select an attribute of the business unit entity. For example, if you select **Owning Business Unit** as the owner of an account-based hierarchy, all users in the BU can view, share, and adjust forecasts for all accounts in the BU. The BU ownership is available only to hierarchy entities that have a BU relationship. By default, entities such as territory and product aren't connected to any BUs, and therefore can't be assigned BU ownership.
+- To assign ownership to a specific user, select an attribute of the user entity. For example, if you select the **Created by** user as the owner of an account-based hierarchy, users who created accounts will own the forecast for their respective accounts.
+- To assign ownership to a parent hierarchy, select **Manager** (user-based hierarchy) or **Parent Business** (BU-based hierarchy). For example, if you select **Parent Business** as the owner of a BU-based hierarchy, all users in the parent BU can view and update the forecasts of their child BU.
 
-- To assign ownership to a specific user, select an attribute of the user entity. For example, if you select **Created by** user as the owner of an account-based hierarchy, then users who created accounts will own the forecast for their respective accounts.  
+    :::image type="content" source="media/forecast-owner-lookup-field.png" alt-text="Screenshot of the Owner lookup field, where Parent Business is selected as the owner.":::
 
-- To assign ownership to a parent hierarchy, select **Manager** (user-based hierarchy) or **Parent Business** (BU-based hierarchy). For example, when you select **Parent Business** as the owner of a business unit-based hierarchy, all users in the parent BU can view and update the forecasts of their child BU.  
-    :::image type="content" source="media/forecast-owner-lookup-field.png" alt-text="Owner lookup field with Parent Business as the owner.":::
-
-If you change the default value in **Owner lookup field (preview)**, the corresponding column is added to the forecast grid.  
+If you change the default value of the **Owner lookup field (preview)** field, the corresponding column is added to the forecast grid.
 
 ## Provide access to additional roles
 
