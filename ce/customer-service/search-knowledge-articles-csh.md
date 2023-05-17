@@ -31,7 +31,7 @@ To use the various search options discussed in this article, one or more of the 
 - Your administrator has [enabled Dataverse search](/power-platform/admin/configure-relevance-search-organization). [Learn more about knowledge base search mechanisms](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals).
 
 - Your administrator has configured the following view columns for the **Quick Find View** by navigating to **Tables** > **Knowledge Article** > **Views** > **Quick Find Active Knowledge Articles**:
->
+
     - Article Public Number
     - Content: The **Content** field is hidden in the user interface to avoid unintentional deletion of content leading to disruption in the Dataverse search functionality.
     - Created On
