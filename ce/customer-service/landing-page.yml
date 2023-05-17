@@ -17,7 +17,7 @@ metadata:
   ms.custom: template-landing-page
 
   ms.service: service
-  
+
 
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
@@ -38,8 +38,8 @@ landingContent:
       - text: Overview of the voice channel
         url: voice-channel.md
       - text: Overview of collaboration
-        url: collaboration.md 
-      
+        url: collaboration.md
+
   - title: Learn what's new
     linkLists:
     - linkListType: whats-new
@@ -63,7 +63,7 @@ landingContent:
         url: /dynamics365/customer-service/customer-service-workspace-system-requirements
       - text: System requirements for Omnichannel for Customer Service
         url: /dynamics365/customer-service/system-requirements-omnichannel
-      
+
   - title: Get started
     linkLists:
     - linkListType: get-started
@@ -78,7 +78,7 @@ landingContent:
           url: csw-overview.md
         - text: Get started with Omnichannel admin center
           url: oc-admin-center.md
-        
+
   - title: Learn
     linkLists:
     - linkListType: how-to-guide
@@ -93,7 +93,7 @@ landingContent:
           url: /learn/modules/work-distribution-omnichannel/
         - text: Work with entitlements and service-level agreements in Dynamics 365 Customer Service
           url: /learn/paths/work-with-entitlements-and-slas-in-microsoft-dynamics-365-for-customer-service/
-        
+
   - title: Troubleshoot
     linkLists:
     - linkListType: how-to-guide
@@ -106,7 +106,7 @@ landingContent:
           url: troubleshoot-delete-managed-solution.md
         - text: Issue converting an email to a case
           url: troubleshoot-case-email-issue.md
-  
+
   - title: Extend Customer Service
     linkLists:
     - linkListType: how-to-guide
@@ -121,7 +121,7 @@ landingContent:
           url: /dynamics365/customer-service/develop-live-chat-widget
         - text: Customize live chat widgets using data tags
           url: /dynamics365/customer-service/customize-chat-widget
-  
+
   - title: Watch videos
     linkLists:
     - linkListType: video
@@ -132,7 +132,7 @@ landingContent:
           url: https://www.youtube.com/watch?v=uzUyJhKOySA
         - text: Introduction to Omnichannel for Customer Service
           url: https://www.youtube.com/watch?v=Y_eV4HeIm04
-        
+
   - title: Find accessibility and privacy information
     linkLists:
     - linkListType: concept
@@ -140,7 +140,7 @@ landingContent:
         - text: Accessibility in Dynamics 365 Customer Service
           url: /dynamics365/get-started/accessibility/customer-engagement/accessibility
         - text: Privacy and personal data for Microsoft Dynamics 365
-          url: /dynamics365/get-started/gdpr/
+          url: /dynamics365/get-started/privacy/
         - text: Keyboard navigation support for the Customer Service Hub
           url: /dynamics365/customer-service/keyboard-navigation-support-customer-service-hub
 
@@ -158,7 +158,7 @@ landingContent:
           url: faqs-custom-time-sla-kpis.md
         - text: FAQ about the voice channel in Omnichannel for Customer Service
           url: voice-channel-faqs.md
-        
+
 
   - title: Read blogs
     linkLists:
@@ -172,7 +172,7 @@ landingContent:
           url: https://cloudblogs.microsoft.com/dynamics365/it/2020/10/13/build-targeted-user-experiences-efficiently-by-using-app-profiles-in-multisession-apps/
         - text: New voice channel streamlines omnichannel customer experiences
           url: https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/
-        
+
   - title: Add-in solutions and apps
     linkLists:
     - linkListType: reference
@@ -183,4 +183,3 @@ landingContent:
           url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
         - text: Omnichannel for Customer Service
           url: /dynamics365/customer-service/introduction-omnichannel
-
