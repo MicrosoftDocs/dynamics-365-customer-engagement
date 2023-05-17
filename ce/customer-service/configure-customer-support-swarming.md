@@ -70,7 +70,6 @@ Use the following image and legend to understand the layout of the customer supp
 To configure customer support swarming, you must have administrator privileges and complete the following steps.
 
 1. [Turn on the Embedded chat using Teams feature](#turn-on-embedded-chat-using-teams) for Microsoft Teams desktop or web apps.
-1. [Activate case details on swarms](#activate-case-details-on-swarms)
 1. [Turn on the swarm expert notification flow in Power Automate](#turn-on-the-swarm-expert-notification-flow-in-power-automate)
 
 ### Turn on Embedded chat using Teams
