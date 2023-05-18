@@ -1,21 +1,19 @@
 ---
-title: Enable AI suggestions for cases, knowledge articles | MicrosoftDocs
+title: Enable AI suggestions for cases and knowledge articles
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/29/2022
-ms.topic: article
+ms.date: 05/18/2023
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 search.audienceType: 
   - admin
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+  - bap-template
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Enable AI suggestions for similar cases and knowledge articles
-
-## Introduction
 
 With the use of AI, suggestions about similar cases that were previously resolved successfully help agents find the right solutions quickly, increase their productivity, and provide better and faster service to customers.
 
@@ -25,10 +23,8 @@ The key highlights of the feature are as follows:
 - Secondary actions that agents can take, such as collaborating with an expert, after a similar case has been found.
 - Capability of the AI model to process up to 1 million of the most recent cases for listing them at runtime.
 
-
 > [!NOTE]
 > The AI suggestions feature is currently available in a few geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
-
 
 ## How AI suggestions for similar cases and knowledge articles work
 
@@ -44,7 +40,6 @@ The AI models work as follows:
 - A brief summary is auto-generated for each pre-processed knowledge article, based on its content. When the system suggests a knowledge article, both the article title and auto-generated summary are surfaced to agents. This data can help agents get a better idea about an article before they click through it.
 - In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlight the relevance between a suggestion and an active case or an ongoing conversation in addition to the confidence score (a percentage number that indicates the degree to which an article or similar case matches with the active case).
 - During an ongoing conversation, for the first three messages sent by the customer, the AI suggestions are triggered for each message. After these first three customer messages, AI suggestions are triggered for every third customer message. The AI suggestions are based on the context described in the last 18 messages.
-
 
 > [!NOTE]
 >
@@ -84,6 +79,7 @@ Make sure that the following requirements are met:
 - The System Administrator role is granted.
 - The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
 - If administration mode is enabled, make sure that background operations are also enabled. More information: [Administration Mode](/power-platform/admin/admin-mode).
+- For the AI suggestions to work, customer-managed keys should be disabled.
 
 
 ## Enable AI suggestions for similar cases
@@ -166,6 +162,7 @@ You can enable AI suggestions for knowledge articles in the Customer Service adm
 4. Select **Save**.
 
 ## Model pre-processing rules
+
 You can use model pre-processing rules to limit the pre-processed cases that the AI model will suggest to your agents. You can choose from a variety of conditions, such as sentiment value, associated with the resolved case, and so forth.
 
 You can also apply model pre-processing rules to knowledge articles to limit the suggestions to knowledge articles based on things such as keywords, language, the number of views on the knowledge article, and so forth.
