@@ -1,7 +1,7 @@
 ---
 title: "Guide your prospects through an interactive customer journey (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 Marketing."
-ms.date: 03/25/2022
+ms.date: 05/18/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -226,7 +226,7 @@ To set up a recurring journey:
 > [!IMPORTANT]
 > When the last iteration of a recurring journey is complete, the journey will change to a **Stopped** state. When the journey is stopped, it is assumed that the iteration schedule is completed. Attempting to restart the stopped customer journey will immediately result in the journey transitioning back to the stopped state.
 >
-> You can extend the customer journey after the last iteration of a recurring journey by increasing the **Iterations count** value. After you've increased the iterations count, the customer journey will go back to a **Live** state.
+> You can extend the customer journey after the last iteration of a recurring journey by increasing the **Iterations count** value. After you've increased the iterations count, select **Go live** to set the customer journey back to a **Live** state.
 >
 > To see the iterations that are already executed and executing, go to **Related** > **Customer Journey Iterations**. For each iteration, the **Created On** value marks the time that the iteration was started.
 
