@@ -25,7 +25,7 @@ This article explains how a channel is connected to the Microsoft Direct Line Bo
 
 When the user enters a message, the adapter API is invoked from the channel. It processes the inbound request and sends a success or failure status as response. The adapter API service must implement the `IChannelAdapter` interface, and sends the inbound request to the respective channel adapter to process the request.
 
-```javascript
+```csharp
 /// <summary>
 /// Accept an incoming web-hook request from MessageBird Channel
 /// </summary>
@@ -65,7 +65,7 @@ The channel adapter performs the following inbound activities:
 
 The inbound request from the channel is validated based on the signing key. If the request is invalid, an "invalid signature" exception message is thrown. If the request is valid, it proceeds as follows:
 
-```javascript
+```csharp
   /// <summary>
   /// Validate Message Bird Request
   /// </summary>
@@ -123,7 +123,7 @@ This Activity object includes the following attributes:
 |**conversationcontext**| Refers to a dictionary object that holds the context variables defined in the workstream. Omnichannel for Customer Service uses this information to route the conversation to the right agent. For example:<br>"conversationcontext ":{ "ProductName" : "Xbox", "Issue":"Installation" }<br>In this example, the context routes the conversation to the agent who deals with Xbox installation.|
 |**customercontext**| Refers to a dictionary object that holds the customer details such as phone number and email address. Omnichannel for Customer Service uses this information to identify the user's contact record.<br>"customercontext":{ "email":email@email.com, "phonenumber":"1234567890" }|
 
-```javascript
+```csharp
   /// <summary>
   /// Build Bot Activity type from the inbound MessageBird request payload<see cref="Activity"/>
   /// </summary>
@@ -202,7 +202,7 @@ The relay processor invokes the event handler to send outbound activities to the
 
 The Direct Line activities are converted to the channel-specific response model.
 
-```javascript
+```csharp
   /// <summary>
   /// Creates MessageBird response object from a Bot Framework <see cref="Activity"/>.
   /// </summary>
@@ -238,7 +238,7 @@ The Direct Line activities are converted to the channel-specific response model.
 
 The channel adapter calls the REST API to send an outbound response to the channel, which is then sent to the user.
 
-```javascript
+```csharp
   /// <summary>
   /// Send Outbound Messages to Message Bird
   /// </summary>
@@ -269,7 +269,7 @@ The message relay processor receives the inbound activity from the channel adapt
 
 To look up whether the conversation is active, the relay processor maintains a collection of active conversations in a dictionary. This dictionary contains key as User ID, which uniquely identifies the user and Value as an object of the following class:
 
-```javascript
+```csharp
  /// <summary>
 /// Direct Line Conversation to store as an Active Conversation
 /// </summary>
@@ -296,7 +296,7 @@ If conversation is not active for the activity received by the relay processor, 
 
 1. Starts a conversation with Direct Line and stores the conversation object sent by Direct Line against the user ID in the dictionary.
 
-```javascript
+```csharp
  /// <summary>
  /// Initiate Conversation with Direct Line Bot
  /// </summary>
@@ -334,7 +334,7 @@ If conversation is not active for the activity received by the relay processor, 
 
 2. Starts a new thread to poll the outbound activities from Direct Line bot based on the polling interval configured in the config file. The polling thread is active until the end of conversation activity is received from Direct Line.
 
-```javascript
+```csharp
 /// <summary>
 /// Polling the activities from BOT for the active conversation
 /// </summary>
@@ -392,7 +392,7 @@ private async Task PollActivitiesFromBotAsync(string conversationId, Activity in
 
 ### Send the activity to Direct Line
 
-```javascript
+```csharp
  /// <summary>
  /// Send the activity to the bot using Direct Line client
  /// </summary>
