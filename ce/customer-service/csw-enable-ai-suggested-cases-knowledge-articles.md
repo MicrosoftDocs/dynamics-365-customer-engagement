@@ -35,7 +35,7 @@ The AI suggestions use a set of pre-trained natural language understanding model
 The AI models work as follows:
 
 - Knowledge articles and similar cases can be suggested based on the semantic meaning in case context and knowledge article content.
-- The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. For the first time pre-processing, up to 1,500 published articles and 15,000 recently resolved cases will be processed. After, newly published articles and resolved cases will be processed up to the daily limit. Over time, accumulatively, up to 1 million of the latest resolved cases will be processed to serve suggestions.
+- The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. For the first time preprocessing, up to 1,500 published articles and 15,000 recently resolved cases will be processed. After, newly published articles and resolved cases will be processed up to the daily limit. Over time, accumulatively, up to 1 million of the latest resolved cases will be processed to serve suggestions.
 - After a case is created or updated, or during an ongoing conversation, the model finds out matching knowledge articles and similar cases from suggestion candidates.
 - A brief summary is auto-generated for each pre-processed knowledge article, based on its content. When the system suggests a knowledge article, both the article title and auto-generated summary are surfaced to agents. This data can help agents get a better idea about an article before they click through it.
 - In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlight the relevance between a suggestion and an active case or an ongoing conversation in addition to the confidence score (a percentage number that indicates the degree to which an article or similar case matches with the active case).
@@ -161,15 +161,15 @@ You can enable AI suggestions for knowledge articles in the Customer Service adm
 
 4. Select **Save**.
 
-## Model pre-processing rules
+## Model preprocessing rules
 
-You can use model pre-processing rules to limit the pre-processed cases that the AI model will suggest to your agents. You can choose from a variety of conditions, such as sentiment value, associated with the resolved case, and so forth.
+You can use model preprocessing rules to limit the pre-processed cases that the AI model will suggest to your agents. You can choose from a variety of conditions, such as sentiment value, associated with the resolved case, and so forth.
 
-You can also apply model pre-processing rules to knowledge articles to limit the suggestions to knowledge articles based on things such as keywords, language, the number of views on the knowledge article, and so forth.
+You can also apply model preprocessing rules to knowledge articles to limit the suggestions to knowledge articles based on things such as keywords, language, the number of views on the knowledge article, and so forth.
 
-## Model pre-processing status
+## Model preprocessing status
 
-The **Model pre-processing status** area displays the following metadata pertaining to the AI processing. The run frequency is set out of the box. Every day, the model pre-processes newly published or updated knowledge articles and resolved or updated cases to prepare the candidates for suggestions.
+The **Model preprocessing status** area displays the following metadata pertaining to the AI processing. The run frequency is set out of the box. Every day, the model pre-processes newly published or updated knowledge articles and resolved or updated cases to prepare the candidates for suggestions.
 
 - **Last successful run**: Displays the date and time the model was last run.
 - **Case records**: Displays the number of new or updated resolved case records that were processed.
