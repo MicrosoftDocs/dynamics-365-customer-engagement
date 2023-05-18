@@ -149,7 +149,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
 - **Easily create modern forms using the new intuitive form experience**
     - Lead capture forms are crucial for gathering marketing information, turning visitors into leads, and turning leads into valuable customers. With the new intuitive forms experience in real-time marketing, you can easily create modern forms with advanced capabilities without depending on developers. Effortlessly create smart forms to place on your websites and capture your customers’ attention while allowing them to input their details.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/easily-create-modern-forms-using-new-intuitive-form-experience)
-    - [Docs](real-time-marketing-form-editor.md)
+    - [Docs](real-time-marketing-form-overview.md)
  
     > [!div class="mx-imgBorder"]
     > ![Screenshot of real-time marketing forms.](media/whats-new-lead-capture-forms.png "Screenshot of real-time marketing forms") 
