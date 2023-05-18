@@ -23,7 +23,7 @@ search.audienceType:
 
 You can convert a trial app to a paid subscription using the in-app purchase process. Learn more: [Purchase a license directly from a Marketing trial](direct-purchase.md).
 
-If you already have a license, you can convert a trial directly in the Power Platform center using these instructions: [About trial environments: standard and subscription-based](/power-platform/admin/trial-environments.md#convert-either-type-of-trial-environment-to-a-production-environment).
+If you already have a license, you can convert a trial directly in the Power Platform center using these instructions: [About trial environments: standard and subscription-based](/power-platform/admin/trial-environments#convert-either-type-of-trial-environment-to-a-production-environment).
 
 ### How do I start using the trial?
 
