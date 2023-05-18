@@ -26,7 +26,7 @@ As an administrator, you can enable and configure the Sales Insights features as
 
 -    [Enable and configure standard Sales Insights features](#enable-and-configure-standard-sales-insights-features)
 -   [Get started with premium Sales Insights features](#get-started-with-premium-sales-insights-features)
--    [Install and configure premium Sales Insights features](#install-and-configure-premium-sales-insights-features)   
+-    [Enable and configure premium Sales Insights features](#enable-and-configure-premium-sales-insights-features)   
 -    [Administer conversation intelligence](#administer-conversation-intelligence)
 
 ## Enable and configure standard Sales Insights features
@@ -95,10 +95,10 @@ With your Dynamics 365 Sales Enterprise license, you can set up and experience S
 
 The premium Sales Insights features provide intelligent insights about sales data that help sellers take timely actions to close deals and generate revenue. The premium Sales Insights features include the premium assistant with assistant studio, notes analysis, relationship analytics, who knows whom, predictive lead scoring, predictive opportunity scoring, premium forecasting, and sales accelerator and sequence. You can configure these features as required in your organization.
 
-1.    [Review privacy and personal data requirements](#review-privacy-and-personal-data-requirements).   
-2.    [Review the prerequisites](#review-the-prerequisites).   
-3.    [Install premium Sales Insights](#install-premium-sales-insights).   
-4.    [Configure premium Sales Insights features](#configure-premium-sales-insights-features).
+1. [Review privacy and personal data requirements](#review-privacy-and-personal-data-requirements).  
+2. [Review the prerequisites](#review-the-prerequisites).  
+3. [Enable premium Sales Insights](#enable-premium-sales-insights).  
+4. [Configure premium Sales Insights features](#configure-premium-sales-insights-features).  
 
 ### Review privacy and personal data requirements
 
