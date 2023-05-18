@@ -1,15 +1,13 @@
 ---
-title: "Work with Predictive lead scoring"
-description: "Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates."
+title: Prioritize leads through predictive scores
+description: Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
 ms.date: 03/06/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-caps.latest.revision: 1
-topic-status: Drafting
 ---
-# Prioritize leads through predictive scores  
+# Prioritize leads through predictive scores
 
 Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
 

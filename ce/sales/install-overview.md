@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Install Dynamics 365 Sales apps
 
-Depending on your subscription, you can install the Sales Hub or Sales Professional app to get started with Dynamics 365 Sales immediately. If you've bought the team member licenses, install the Team member app.  
+Depending on your license, you can install the Sales Hub or Sales Professional app to get started with Dynamics 365 Sales immediately. If you've bought the team member licenses, install the Team member app.  
 
 ## System requirements
 
