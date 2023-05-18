@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/01/2023
+ms.date: 05/02/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -30,11 +30,10 @@ To use the various search options discussed in this article, one or more of the 
 
 - Your administrator has [enabled Dataverse search](/power-platform/admin/configure-relevance-search-organization). [Learn more about knowledge base search mechanisms](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals).
 
-- Your administrator has configured the following view columns for the **Quick Find View** in the advanced settings:
+- Your administrator has configured the following view columns for the **Quick Find View** by navigating to **Tables** > **Knowledge Article** > **Views** > **Quick Find Active Knowledge Articles**:
 
     - Article Public Number
-    - Content
-      The Content field is hidden in the user interface to avoid unintentional deletion of content leading to disruption in the Dataverse search functionality.
+    - Content: The **Content** field is hidden in the user interface to avoid unintentional deletion of content leading to disruption in the Dataverse search functionality.
     - Created On
     - Keywords
     - Knowledge Article Views
@@ -46,7 +45,7 @@ To use the various search options discussed in this article, one or more of the 
     - Status
     - Title
     
-- You have access to knowledge article entities, such as Knowledge Articles, Favorites, Attachments, and Views. Your administrator has granted the **Create**, **Read**, **Write**, **Append**, and **Appendto** privileges to any new custom roles that you've created.
+- You have access to knowledge article entities, such as Knowledge Article, Knowledge Article Views, Knowledge Article Attachment, Favorite Knowledge Article, and Knowledge Article Image. Your administrator has granted the **Create**, **Read**, **Write**, **Delete**, **Append**, and **Appendto** privileges to any new custom roles that you've created.
 
 - In Customer Service workspace and Omnichannel for Customer Service, your administrator has enabled the app side pane and knowledge search in Agent experience profiles.
 
@@ -159,9 +158,9 @@ Your administrator must [enable suggest-as-you-type](set-up-knowledge-management
 
 ## Use favorites
 
-You can save the knowledge articles you use most as favorites to access them quickly while you're working on a case. You can save up to 50 articles as favorites. Your administrator must provide [privileges to custom roles](#prerequisites) before you can use it.
+You can save the knowledge articles you use most as favorites to access them quickly while you're working on a case. You can save up to 50 articles as favorites. Your administrator must provide [privileges to custom roles](#prerequisites) before you can use favorites.
 
-After your administrator enables the feature,
+To mark an article as favorite:
 
 1. Select an article from the list of search results.
 1. Select the **Favorite** (heart) icon to add the article to your favorites list.
@@ -174,21 +173,11 @@ The article you last marked as favorite appears first in your favorites list. If
 
 In Customer Service workspace and Omnichannel for Customer Service, when you select a favorite article, it opens in an app tab. In Customer Service Hub, the article opens in a new browser window.
 
-## Use integrated search providers (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+## Use integrated search providers
 
 View the most relevant search results for your query across search providers in a single ranking. With easy sorting, find the knowledge article that best suits your needs while dealing with a customer. The name of the source provider appears on the knowledge article card. You can hover over to get the full name of the source provider, if necessary.
 
-To enable the integrated search provider option, contact your administrator. More information: [Manage integrated search providers (preview)](add-search-provider.md#manage-integrated-search-providers-preview). After your administrator enables the feature, you can view search results for your keywords across your configured search providers in both Customer Service Hub and Customer Service workspace.
+To enable the integrated search provider option, contact your administrator. More information: [Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers). After your administrator enables the feature, you can view search results for your keywords across your configured search providers in both Customer Service Hub and Customer Service workspace.
 
 To search from Customer Service workspace, for example:
 

@@ -1,7 +1,7 @@
 ---
-title: "Work with contact, account, and lead records (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to find, create and use contact, account, and lead records in Dynamics 365 Marketing."
-ms.date: 10/11/2021
+title: Work with contact, account, and lead records (Dynamics 365 Marketing)
+description: How to find, create and use contact, account, and lead records in Dynamics 365 Marketing.
+ms.date: 04/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -39,7 +39,7 @@ The contacts entity is common for and shared by most model-driven apps in Dynami
 
 - **Subscription lists**: The contact **Details** tab includes a section called **Subscription lists**, where you can see a list of each email subscription the contact has signed up for in Dynamics 365 Marketing. More information: [Set up subscription lists and subscription centers](set-up-subscription-center.md)
 
-- **Data protection**: The contact **Details** tab includes a section called **Data protection**, where you can see and set the data-privacy consent level granted by this contact, and also see whether the contact is a child and, if so, who their parent or guardian is. For more information about these features, see [Data protection and the GDPR](gdpr.md).
+- **Data protection**: The contact **Details** tab includes a section called **Data protection**, where you can see and set the data-privacy consent level granted by this contact, and also see whether the contact is a child and, if so, who their parent or guardian is. For more information about these features, see [Data protection and privacy](privacy.md).
 - **Event information**: Each contact record provides the following information about events the contact has registered for or attended:
     - The contact **Details** tab includes a section called **Event information**, where you can see basic information that was collected from the contact when they registered for an event.
     - The contact **Events attended** tab provides complete details of all event registrations and check-ins associated with this contact.
