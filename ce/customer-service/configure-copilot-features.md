@@ -1,24 +1,33 @@
 ---
-title: "Configure Copilot features in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Configure Copilot features."
+title: Enable Copilot capabilities in Customer Service
+description: Learn how to enable the various Copilot capabilities in Customer Service
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
 ms.date: 05/19/2023 
 ms.custom: bap-template 
-
+ms.collection: 
 ---
 
-# Configure Copilot features
+# Enable and manage Copilot capabilities in Customer Service
 
-Copilot provides real-time AI powered assistance that helps agents resolve issues faster, handle cases more efficiently, and automate time-consuming tasks so that they can focus on delivering high-quality service to their customers.
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-When you enable the Copilot features, agents can use Copilot to assist them with: 
-- Responding to questions
-- Composing an email 
-- Drafting a chat response 
-- Summarizing a case or a conversation 
+Copilot provides realtime AI assistance that helps agents resolve issues faster, handle cases more efficiently, and automate time consuming tasks so that they can deliver value to customers.
+
+When you enable the Copilot capabilities, agents can use Copilot to: 
+- Respond to questions
+- Compose an email 
+- Draft a chat response 
+- Summarize a case
 
 ## Regional availability and supported languages
 
@@ -28,11 +37,9 @@ The Copilot features are available only in the United States and supported only 
 
 - You have the System Administrator role.
 - Knowledge management is configured in your environment. For more information, see: [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) and [Integrated search providers](add-search-provider.md).
-- 
- 
 ### Opt-in to continue with Copilot setup
 
- Before you enable a Copilot feature, review the terms and conditions and  provide your consent to use Copilot. You can navigate the corresponding setup pages for the Copilot features in  Customer Service admin center and then select **Opt in** to continue with the setup.
+ Before you enable a Copilot capability, review the terms and conditions and  provide your consent to use Copilot. You can go to the corresponding setup pages for the Copilot features in Customer Service admin center and then select **Opt in** to continue with the setup.
 
    :::image type="content" source="media/copilot-opt-in-mini.png" alt-text="enable Copilot for customer summary" lightbox="media/copilot-opt-in.png":::
 
@@ -47,13 +54,13 @@ Perform the following steps to enable the Copilot features:
     - **For customer chat**: To display the draft a response button on both the conversation panel and the productivity panel. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
     - **For email**:  To display the **Write an email** tab on the **Copilot help pane (preview)**. Copilot helps agents create email responses based on the context of the case.
 1. Copilot automatically refreshes your knowledge base and displays the date and time of when it was last updated. You can also use the **Update knowledge base** option to manually update the knowledge base.
-1. You can add up to five web trusted web domains for Copilot to search when generating responses. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels – represented by back slashes (/) after the .com part of the address. 
+1. You can add up to five web trusted web domains for Copilot to search when generating responses. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels – represented by back slashes (/) after the .com part of the URL. 
 
    :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="enable Copilot for customer summary" lightbox="media/copilot-admin-email.png":::
 
 ## Enable summarization of cases
 
-Copilot case summaries are designed to help support agents quickly understand the context of a case, enabling them to resolve customer issues more efficiently. Agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description. 
+Copilot case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description.
 
 To allow Copilot to summarize cases and conversations, perform the following steps:
 
@@ -63,11 +70,11 @@ To allow Copilot to summarize cases and conversations, perform the following ste
 
    :::image type="content" source="media/copilot-admin-summary-mini.png" alt-text="enable Copilot for customer summary" lightbox="media/copilot-admin-summary.png":::
 
-Perform the steps in [display case summary on custom case forms](copilot-powerapps-settings.md) to ensure that the Copilot case summary is displayed in custom forms.
+Perform the steps in [display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
 
 ## Record feedback
 
-In the corresponding Copilot configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record how agents are interacting with Copilot and understand its impact. Agents can share feedback about Copilot actions. This helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
+In the corresponding Copilot configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record and understand how agents are interacting with Copilot and how Copilot is performing in a support organization. Agents can also share feedback about Copilot actions, that helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
 
 ## Enable Copilot in agent experience profiles
 
@@ -98,5 +105,8 @@ Only users with the Customer Service Representative role can use the Copilot cap
 - prvAppendmsdyn_copilottranscriptdata 
 - prvReadmsdyn_agentcopilotsetting 
 - prvReadmsdyn_copilotsummarizationsetting 
-- prvIntelligenceUsage 
+- prvIntelligenceUsage
 
+## Next steps
+
+[Display Copilot case summary on custom case forms](copilot-powerapps-settings.md)
