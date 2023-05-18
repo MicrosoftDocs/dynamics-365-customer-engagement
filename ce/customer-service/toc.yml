@@ -909,7 +909,9 @@
       - name: Configure Copilot in Customer Service
         href: configure-copilot-features.md
       - name: Use Copilot capabilities
-        href: use-copilot-capabilities.md  
+        href: use-copilot-capabilities.md
+      - name: Display Copilot case summary in custom case forms
+        href: copilot-powerapps-settings.md
     - name: Administrator experience
       items: 
       - name: Productivity pane

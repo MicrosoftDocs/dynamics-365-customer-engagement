@@ -1,19 +1,27 @@
 ---
-title: "Display Copilot case summary in custom case forms | MicrosoftDocs"
-description: "Configure Copilot case summary to be displayed on custom case forms ."
+title: Display Copilot case summary in custom case forms.
+description: Learn how to display Copilot case summary on custom case forms.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
 ms.date: 05/19/2023 
 ms.custom: bap-template 
-
+ms.collection: 
 ---
-
 
 # Display Copilot case summary on custom case forms
 
-When you enable the Copilot case summary capability, agents can see the case summary by default on the out-of-the-box case forms. You can perform the following steps to display the Copilot case summary on your custom case forms:
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+When you enable the Copilot case summary capability, agents can see the case summary by default on the out-of-the-box case forms. You can perform the following steps for the application to display the Copilot case summary on your custom case forms:
 
 1. In [Power Apps](https://make.powerapps.com/), add the **msdyn_CopilotCaseSummaryLibrary.js** web resource to your solution. For more information, see: [Add a web resource to a solution](/power-apps/maker/model-driven-apps/create-edit-web-resources#add-a-web-resource-to-a-solution).
 1. Select **Add existing** > **More** > **Developer** > **Custom Control**. Search for and add the **mscrmcontrols.csintelligence.copilotcasesummarycontrol** custom control.
@@ -21,23 +29,18 @@ When you enable the Copilot case summary capability, agents can see the case sum
 1.  Create a new form or use an existing form. More information: [Create, edit, or configure forms using the model-driven form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms).
 1.  In the form designer, select **Components** from the left navigation, select **CopilotCaseSummaryControl** and drag it on to the form.
 1. Set the values of the following fields as:
-   - CC_CaseSummary: Any table column. Copy the unique name of the specified column.
-   - CC_IncidentId: Case (Text)
-1. Set the Show hidden toggle to On.
+   - **CC_CaseSummary**: Any table column. Copy the unique name of the specified column.
+   - **CC_IncidentId**: **Case (Text)**
+1. Set the **Show hidden** toggle to On.
 1. Save and publish the customizations.
-
-## View Copilot case summary in an app side pane on a custom case form
-
-Perform the following steps to view the Copilot case summary in an app side pane, on a custom case form:
-
-1. In Power Apps, you must add the event handler function for the On Change event. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui). 
-1. Specify the following details in **Configure Event**:
-  - **Event Type**: **On Change**
-  - Set the **Event Type** to **On load**.
-  - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
-  - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
+1. To ensure that the case summary doesn't load on the form when the Copilot case summary capability isn't enabled, perform the following steps:
+  1. In Power Apps, you must add the event handler function for the On Change event. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui). 
+  1. Specify the following details in **Configure Event**:
+     - **Event Type**: **On Change**
+     - Set the **Event Type** to **On load**.
+     - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
+     - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
 1. Save and publish the changes.
-
 
 ## Enable Copilot capabilities for custom apps
 
