@@ -57,6 +57,15 @@ Azure Communication Services direct routing enables you to connect your existing
 4. Select **Add number**.
 
 The new phone number will be displayed in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-inbound-calling.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
+
+We recommend below practices 
+
+1.	You may use the same port number for Teams and Azure Communication Services (ACS) direct routing, but you must use a different Fully Qualified Domain Name (FQDN) in Teams and ACS.
+2.	To avoid call timeout, we recommend below settings of Secure Real-Time Protocol (SRTP):
+	- Reset SRTP Upon Re-key = Disable
+  - Generate SRTP Keys = Only if Required
+3.	Ensure that you have enough transcoding licenses if your telecom and Microsoft don't support the same codec.
+
   
 ### See also
 
