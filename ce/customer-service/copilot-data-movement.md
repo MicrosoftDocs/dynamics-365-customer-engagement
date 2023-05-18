@@ -22,7 +22,6 @@ ms.custom: bap-template
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-
 The Copilot capabilities are available by default to customers in the [North America region](/power-platform/admin/new-datacenter-regions) only because the capabilities use the Microsoft Azure OpenAI Service that's located in the United States. Customers who have their Dynamics 365 environment outside the North America region can enable access to the Copilot features after they explicitly opt-in to the “Terms of use for data movement across geographical boundaries” that permits their data to be shared with the Microsoft Azure Open AI service located in the United States.
 
 :::image type="content" source="media/copilot-data-boundaries-opt-in.png" alt-text="Copilot opt-in to let data movement outside geographical boundaries.":::
