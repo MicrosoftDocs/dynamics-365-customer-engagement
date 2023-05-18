@@ -902,18 +902,20 @@
       href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
+    - name: Copilot in Customer Service
+      items:
+      - name: Copilot data movement across geographies
+        href: copilot-data-movement.md
+      - name: Configure Copilot in Customer Service
+        href: configure-copilot-features.md
+      - name: Use Copilot capabilities
+        href: use-copilot-capabilities.md  
     - name: Administrator experience
       items: 
       - name: Productivity pane
         href: productivity-pane.md
       - name: Enable productivity pane and smart assist
         href: ../app-profile-manager/app-profile-manager.md#enable-prod-pane
-      - name: Copilot in Customer Service
-        items:
-        - name: Copilot data movement across geographies
-          href: copilot-data-movement.md
-        - name: Configure Copilot in Customer Service
-          href: configure-copilot-features.md  
       - name: Create quick replies
         href: create-quick-replies.md
       - name: Manage rich messages
