@@ -170,11 +170,11 @@ More information: [Account-based marketing](account-based-marketing.md)
 
 ### Set the minimum consent level
 
-If data protection is enabled for your instance (for example, because you need to comply with the GDPR), then use the **Minimum consent** setting to control the minimum level of consent that each contact must have provided to be included on this journey. The level you choose should depend on the types of operations your journey will execute.
+If data protection is enabled for your instance (for example, because you need to comply with certain privacy laws and regulations), then use the **Minimum consent** setting to control the minimum level of consent that each contact must have provided to be included on this journey. The level you choose should depend on the types of operations your journey will execute.
 
 It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data-privacy regulations when you use customer journeys and all other features of Dynamics 365 Marketing.
 
-More information: [Data protection and the GDPR](gdpr.md)
+More information: [Data protection and privacy](privacy.md)
 
 ### Set the business-unit scope
 
