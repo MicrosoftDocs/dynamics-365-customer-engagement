@@ -30,7 +30,7 @@ You can buy one of the following licenses depending on your organization's needs
 1. Open the [Dynamics 365 Sales pricing page](https://dynamics.microsoft.com/en-in/sales/pricing/).
 
 1. Select **Buy now** for the edition you want.
-1. Provide information to make the purchase, and then open the [Microsoft 365 admin center](https://admin.microsoft.com/) to assign the licenses to your users. [Learn more](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide).
+1. Provide information to make the purchase, and then open the [Microsoft 365 admin center](https://admin.microsoft.com/) to assign the licenses to your users. [Learn more](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
 
 ## Buy Dynamics 365 Sales through Microsoft 365
 
@@ -44,7 +44,7 @@ If your organization already has Microsoft 365 subscription, you can buy Dynamic
 1. Review the available subscriptions and select **Details** for the one you want to buy.
 1. Specify the license quantity and billing frequency, and then select **Buy**.
 1. Provide the billing and payment information to complete the purchase.
-1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/) to assign the licenses to your users. [Learn more](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide).
+1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/) to assign the licenses to your users. [Learn more](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
 
 ## Buy Dynamics 365 Sales through volume licensing
 
