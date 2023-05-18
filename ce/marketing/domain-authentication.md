@@ -1,7 +1,7 @@
 ---
 title: "Authenticate your domains (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to authenticate your domains in Dynamics 365 Marketing."
-ms.date: 03/07/2023
+ms.date: 05/18/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -113,7 +113,8 @@ Technically it is possible to add www.yourdomain.com to use it for sending email
 > The same scenario will work for a subdomain. For example, to validate domain mail.yourdomain.com you will need to add a TXT record to dynmktown.mail.yourdomain.com.
 
 ### Updating a domain's SPF record
-The domain authentication wizard described provides all the configuration needed according the RFC standards. However, there are a small number of email providers that decide not to follow RFCs and validate recieved emails by verifying the From address with the SPF record. To prevent email bounces due from these email providers, customers can opt to update the SPF record in their domain to include the Dynamics Marketing domain. To do this, the existing SPF record is updated by adding *include: &lt;dynamicssendingdomain&gt;*, where &lt;dynamicssendingdomain&gt; is the same value as obtained in the registration for the Envelope-From (*ind.pb-dynmktga.com* in the screenshot shown above).
+
+The domain authentication wizard described above provides all the configuration needed according the RFC standards. However, there are a small number of email providers that do not follow the RFCs and validate recieved emails by verifying the From address with the SPF record. To prevent email bounces from these email providers, you can update the SPF record in your domain to include the Dynamics Marketing domain. To do this, update the existing SPF record by adding `include: &lt;dynamicssendingdomain&gt;`, where `&lt;dynamicssendingdomain&gt;` is the value as obtained in the registration for the Envelope-From (*ind.pb-dynmktga.com* in the screenshot shown above).
 
 ### See also
 
