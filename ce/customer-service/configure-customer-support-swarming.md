@@ -55,7 +55,7 @@ If this is your first time accessing the guided setup, follow these steps:
 
 1. In Customer Service admin center, go to the sitemap, and then in **Agent experience**, select **Collaboration**. 
 
-1. On the **Collaboration** page, on the top banner, select **Get started**. The swarm set-up is displayed.
+1. On the **Collaboration** page, on the top banner, select **Get started**. The swarm set-up page is displayed.
 
 1. Follow the wizard to complete the setup.
 
@@ -63,11 +63,11 @@ You can alternatively choose to opt out of the wizard by selecting **Skip setup*
 
 If you’ve completed at least one setup, or previously chose to skip the setup, you can launch the guided experience again using the following steps: 
 
-1. On the Collaboration page, next to Customer support swarming (preview), select **Manage**. The Customer support swarming page is displayed. 
+1. On the Collaboration page, next to Customer support swarming (preview), select **Manage**. The Customer support swarming (preview) page is displayed. 
 
-1. Next to **Swarming setup**, select **Get started**. 
+1. On the right side of the page, select **Manage setups**. The Swarming setups page is displayed.
 
-1. Follow the wizard to complete the setup.
+1. Select **Start new**, and then follow the wizard to complete the setup.
 
 ## Overview of the customer support swarming page
 
