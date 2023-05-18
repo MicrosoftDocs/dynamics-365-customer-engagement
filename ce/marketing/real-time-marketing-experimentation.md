@@ -65,3 +65,5 @@ There are three possible A/B test result outcomes:
 ### See also
 
 [Create real-time marketing emails](real-time-marketing-email.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

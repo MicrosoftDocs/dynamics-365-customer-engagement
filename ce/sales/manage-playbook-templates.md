@@ -1,7 +1,7 @@
 ---
 title: "Manage playbook templates (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create and manage playbook templates to help your team consistently perform recurrent business processes such as a sales process."
-ms.date: 11/22/2021
+ms.date: 05/08/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,6 +17,9 @@ searchScope:
   - Customer Engagement
 ---
 # Manage playbook templates 
+
+> [!NOTE]
+> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](create-manage-sequences.md)  
 
 Playbooks provide users with guidance on recurring tasks in which consistent actions are expected. Playbooks can also contain best practices based on scenarios that have worked in similar situations before.
 

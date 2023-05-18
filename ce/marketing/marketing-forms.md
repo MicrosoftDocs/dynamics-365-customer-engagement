@@ -250,5 +250,4 @@ Once your form is part of a live marketing page, it will start to collect inform
 [Design elements reference](content-blocks-reference.md)  
 [Create input fields for forms](marketing-fields.md)
 
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

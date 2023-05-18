@@ -61,13 +61,13 @@ In Dynamics 365 Customer Engagement (on-premises), the Date and Time data type i
 ## Date Only example: birthdays and anniversaries  
  The Date Only behavior is good for cases when information about the time of the day and the time zone isn’t required, such as birthdays or anniversaries. With this selection, all app users around the world see the exact same date value.  
 
- For example, Kevin and Nancy work in the Contoso Corp sales department. The system stores their customer and sales data. Kevin, based in New York (GMT-5), creates the contact record with the birthdate 4/1/1970, and assigns the record to Nancy. Nancy, based in Seattle (GMT-8), opens the record on March 31st and, because there is no time zone conversion to her local time zone, sees the contact’s correct birthdate as 4/1/1970. All other users of the system, regardless of location, see the birthdate as 4/1/1970 when they open the contact’s record  
+ For example, Kevin and Nancy work in the Contoso Corp sales department. The system stores their customer and sales data. Kevin, based in New York (GMT-5), creates the contact record with the birthdate 4/1/1970, and assigns the record to Nancy. Nancy, based in Seattle (GMT-8), opens the record on March 31st and, because there is no time zone conversion to the local time zone, sees the contact’s correct birthdate as 4/1/1970. All other users of the system, regardless of location, see the birthdate as 4/1/1970 when they open the contact’s record  
 
 <a name="TZI"></a>   
 ## Time-Zone Independent example: hotel check-in  
  You can use this behavior when time zone information isn’t required, such as the hotel check-in time. With this selection, all app users around the world see the same date and time value.  
 
- For example, Lisa and Rebecca work for a hotel chain that uses the app to track reservations. Lisa is based in Seattle (GMT-8). Rebecca is based in New York (GMT-5). A customer calls Lisa to book a room in one of the company’s hotels in New York City.  Lisa creates a new reservation record, sets the expected check-in time to 12/10/2014 at 11:00 AM, and saves the record. The customer arrives at the hotel in New York City at the expected time. Rebecca, at the local hotel’s front desk, views the reservation record and sees the expected check-in time as 12/10/2014 at 11:00 AM. She welcomes the customer to the hotel.  
+ For example, Lisa and Rebecca work for a hotel chain that uses the app to track reservations. Lisa is based in Seattle (GMT-8). Rebecca is based in New York (GMT-5). A customer calls Lisa to book a room in one of the company’s hotels in New York City.  Lisa creates a new reservation record, sets the expected check-in time to 12/10/2014 at 11:00 AM, and saves the record. The customer arrives at the hotel in New York City at the expected time. Rebecca, at the local hotel’s front desk, views the reservation record, sees the expected check-in time as 12/10/2014 at 11:00 AM, and welcomes the customer to the hotel.  
 
 <a name="SpecialConsiderations"></a>   
 ## Special considerations for date and time fields  

@@ -114,6 +114,6 @@ The following screenshot illustrates the reason and tooltip for the time spent i
 ### See also
 
 [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)  
-[Predictive lead/opportunity scoring FAQs](faqs-sales-insights.md#predictive-leadopportunity-scoring)
+[Predictive lead and opportunity scoring](faqs-sales-insights.md#predictive-lead-and-opportunity-scoring)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

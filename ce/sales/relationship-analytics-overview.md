@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 02/07/2023
+ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
@@ -35,9 +35,7 @@ Depending on your license and configuration, you get the following insights:
 
 ## Basic relationship insights
 
-[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
-
-Basic relationship insights are generated out-of-the-box by using emails and appointments sent and received from Dynamics 365. The seller-customer interaction history is used to calculate KPIs and understand who knows whom. For information on how to view the insights, see [View analytics and KPIs for a record](relationship-analytics.md#view-analytics-and-kpis-for-a-record).
+Basic relationship insights are generated out-of-the-box by using emails and appointments sent and received from Dynamics 365. The seller-customer interaction history is used to calculate KPIs and understand who knows whom. For information on how to view the insights, see [View relationship analytics and KPIs](relationship-analytics.md#view-relationship-analytics-and-kpis). 
 
 The following screenshot displays the widgets that are available out-of-the-box in the **Relationship Analytics** tab of a lead. Similar widgets are also available in Contact, Account, and Opportunity entities.
 

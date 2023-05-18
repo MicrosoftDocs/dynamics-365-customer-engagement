@@ -1,7 +1,7 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This article documents known issues and workarounds for Dynamics 365 Marketing."
-ms.date: 01/13/2023
+ms.date: 05/08/2023
 ms.custom:
   - dyn365-admin
   - dyn365-marketing
@@ -85,7 +85,7 @@ This document provides important, late-breaking information about known issues a
 - Due to a limitation in Outlook, the maximum divider height is 10 pixels.
 - Image placeholders for emails created before the April 2022 release are shown in blue. <!--- 2689328 -->
 - Adding a text link with **Add to calendar** functionality generates multiple errors. **Add to calendar** works properly for images and buttons. This error is related to event management only. <!--- 2965667 -->
-- Sending emails without building a journey currently only supports the [default consent profile](set-up-subscription-center.md#the-default-subscription-center). Custom subscription centers are not supported.
+- Sending emails without building a journey will not stop the user from selecting an email and a segment from different business units.
 
 ## Marketing pages and forms
 

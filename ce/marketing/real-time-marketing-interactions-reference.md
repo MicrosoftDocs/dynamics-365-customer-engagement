@@ -103,3 +103,5 @@ The table below is sorted by real-time marketing channels (email, text message, 
 | msdynmkt_pushnotificationnotsent     | msdynmkt_reason          | Failure of reason codes with a root cause of submission failure.                       |
 | msdynmkt_pushnotificationopened      |                          |                                                                                        |
 | msdynmkt_pushnotificationsent        |                          |                                                                                        |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

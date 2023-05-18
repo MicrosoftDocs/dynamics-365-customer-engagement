@@ -41,3 +41,5 @@ Learn more: [Use segments from Dynamics 365 Customer Insights with Dynamics 365 
 You aren't limited to cloud storage if you want to use Customer Insights data with Marketing. If you already have your own Azure Data Lake Storage set up, you can connect with Customer Insights, then share the data with the Marketing app just as you would with a cloud-based setup.
 
 Learn more: [Enable data sharing with Dataverse from your own Azure Data Lake Storage](/dynamics365/customer-insights/audience-insights/manage-environments#enable-data-sharing-with-dataverse-from-your-own-azure-data-lake-storage-preview)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

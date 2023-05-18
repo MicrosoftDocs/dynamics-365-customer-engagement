@@ -1,7 +1,7 @@
 ---
 title: Enable and configure Sales Insights
 description: Learn about how to enable and configure Sales Insights capabilities in your organization.
-ms.date: 09/08/2022
+ms.date: 05/18/2023
 ms.custom: intro-internal
 ms.topic: article
 author: udaykirang
@@ -36,9 +36,9 @@ The standard Sales Insights features&mdash;assistant (standard), Auto capture (s
 >[!NOTE]
 >The standard Sales Insights features aren't available with the Sales Professional app. 
 
-1.	[Review requirements and prerequisites](#requirements-and-prerequisites).  
-2.	[Enable standard Sales Insights features](#enable-standard-sales-insights-features).    
-3.	[Configure standard features as required](#configure-standard-sales-insights-features).
+1.    [Review requirements and prerequisites](#requirements-and-prerequisites).  
+2.    [Enable standard Sales Insights features](#enable-standard-sales-insights-features).    
+3.    [Configure standard features as required](#configure-standard-sales-insights-features).
 
 ### Requirements and prerequisites
 
@@ -102,14 +102,14 @@ The premium Sales Insights features provide intelligent insights about sales dat
 
 ### Review privacy and personal data requirements
 
-To learn about requirements related to safeguarding customers' privacy and personal data, go to [Privacy and personal data for Microsoft Dynamics 365](/dynamics365/get-started/gdpr).
+To learn about requirements related to safeguarding customers' privacy and personal data, go to [Privacy and personal data for Microsoft Dynamics 365](/dynamics365/get-started/privacy).
 
 You can perform the following tasks in the auto capture, relationship analytics, and conversation intelligence features to ensure that you are complying with privacy and personal data requirements.
 
 |Task|Supported Feature|Topic|
 |--|--|--|
-|View KPI data stored for a contact, lead, and opportunity by using system views, and export it to Excel.|[Relationship Analytics](relationship-analytics.md)|[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)|
-|Retrieve data for an contact, lead, opportunity, and system user from Azure service that is used to compute and store data by using a custom action.|[Relationship Analytics](relationship-analytics.md) and [Introduction to Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)|[Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action (GDPR)](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  |
+|View KPI data stored for a contact, lead, and opportunity by using system views, and export it to Excel.|[Relationship Analytics](relationship-analytics.md)|[View and export KPI data](view-export-KPI-data.md)|
+|Retrieve data for an contact, lead, opportunity, and system user from Azure service that is used to compute and store data by using a custom action.|[Relationship Analytics](relationship-analytics.md) and [Introduction to Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)|[Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  |
 
 ### Review the prerequisites
 

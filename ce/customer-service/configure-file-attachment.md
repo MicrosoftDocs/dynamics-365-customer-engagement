@@ -1,11 +1,12 @@
 ---
-title: "Configure file attachment capability for a chat widget | MicrosoftDocs"
-description: "Instructions to configure file attachment capability for a chat widget in Omnichannel for Customer Service."
-ms.date: 02/28/2023
-ms.topic: article
+title: Configure file attachment capability for a chat widget
+description: Learn how to configure file attachments for a chat widget in Omnichannel for Customer Service.
+ms.date: 04/17/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: nenellim
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Configure file attachment capability
@@ -36,6 +37,33 @@ If an agent transfers the chat to another agent, the agent who receives the chat
 
     :::image type="content" source="media/file-attachment.png" alt-text="Enable file attachment settings.":::
 
+## Set size limit, supported file types for file attachments
+
+You can define the file size limit for attachments and unsupported file types in the advanced settings of Dynamics 365.
+
+1. In the admin app, go to **Advanced Settings** on the top right, and then select **Settings** > **Administration** > **System Settings**.
+
+2. In the **System Settings** window, go to the **Email** tab.
+
+3. In the **Maximum file size (in kilobytes)** field, enter the value in kilobytes.
+
+    :::image type="content" source="media/file-size-limit.png" alt-text="Set file size limit for attachment.":::
+
+   > [!NOTE]
+   > By default, the size is set to 5 MB. You can specify up to 128 MB for all attachments. However, the maximum size for image files in live chat can be 20 MB only.
+
+4. To specify unsupported file types, go to the **General** tab.
+
+5. In the **Set blocked file extensions for attachments** field, add or edit the file types.
+
+    > [!div class=mx-imgBorder]
+    > ![Specify unsupported file types.](media/unsupported-file-types.png "Specify unsupported file types")
+
+6. Select **OK**.
+
+> [!NOTE]
+> Customers with Apple devices must have iOS version 13 to send file attachments.
+
 ## Customer experience of attaching a file
 
 When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the **Attach** icon to send files. The drag-and-drop operation is not supported. The file attachment is scanned for malicious content and won't be uploaded if it poses a security threat. A message about the security concern is displayed to the agent.
@@ -49,29 +77,6 @@ If a customer tries to attach an unsupported file type, a file larger than the a
 
 > [!div class=mx-imgBorder]
 > ![File attachment error.](media/file-attach-error.png "File attachment error")
-
-The file size limit for attachments and unsupported file types are defined in the advanced settings. To configure the file size limit and unsupported file types:
-
-1. In the admin app, go to **Advanced Settings** on the top right, and then select **Settings** > **Administration** > **System Settings**.
-
-2. In the **System Settings** window, go to the **Email** tab.
-
-3. In the **Maximum file size (in kilobytes)** field, enter the value in kilobytes.
-
-    > [!div class=mx-imgBorder]
-    > ![Set file size limit for attachment.](media/file-size-limit.png "Set file size limit for attachment")
-
-4. To specify unsupported file types, go to the **General** tab.
-
-5. In the **Set blocked file extensions for attachments** field, add or edit the file types.
-
-    > [!div class=mx-imgBorder]
-    > ![Specify unsupported file types.](media/unsupported-file-types.png "Specify unsupported file types")
-
-6. Select **OK**.
-
-> [!NOTE]
-> Customers with Apple devices must have iOS version 13 to send file attachments.
 
 ### See also
 

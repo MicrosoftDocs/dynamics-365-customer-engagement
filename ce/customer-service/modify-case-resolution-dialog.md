@@ -60,6 +60,9 @@ You can modify the case resolution dialog and remove a field so that it no longe
 
 As an example, let's see how to remove the **Billable Time** field from the **Information** form.
 
+> [!NOTE]
+> Ensure that the **Total Time** field is  added to the case resolution dialog, for the **Billable Time** field to display the amount of time an agent worked on a case automatically. 
+
 1. In the solution explorer under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
 
 2. Open the form you want to edit. For this example, let's select the **Information** form.

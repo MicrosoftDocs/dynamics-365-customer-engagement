@@ -1,17 +1,20 @@
 ---
 title: Prioritize leads through predictive scores
 description: Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
-ms.date: 03/06/2023
-ms.custom: 
-ms.topic: article
+ms.date: 05/10/2023
 author: lavanyakr01
 ms.author: lavanyakr
+ms.custom: bap-template
+ms.topic: conceptual
+ms.service: dynamics-365-sales
 ---
-# Prioritize leads through predictive scores
+
+# Prioritize leads through scores  
 
 Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -20,15 +23,13 @@ Use the predictive lead scoring feature to prioritize your leads based on scores
 
 ## What is predictive lead scoring
 
-In a highly competitive market, it is important for you to spend time on quality leads to reach your sales targets. You must identify and prioritize leads to convert them onto opportunities. The predictive lead scoring feature provides a scoring model to generate scores for leads that are available for you in your pipeline. The out-of-the-box model chooses top factors that influence the score. An administrator can view and modify the top factors that influence the scores by customizing the model. To learn more, see [Configure predictive lead scoring](configure-predictive-lead-scoring.md).
+In a highly competitive market, you need to be sure you're spending your time on high-quality leads to reach your sales targets. The predictive lead scoring feature in Dynamics 365 Sales uses a model to generate scores for the leads in your pipeline. The out-of-the-box model chooses the top factors that influence the score. An administrator can view and modify the top influencing factors by customizing the model. [Learn how to configure predictive lead scoring](configure-predictive-lead-scoring.md).
 
-This model assigns a score between 0 to 100 for leads based on the signals from leads and related entities such as contact and account. Using these scores, you can identify and prioritize leads that have more chances of converting into opportunities. 
+The model assigns a score between 0 and 100 to leads based on the signals from leads and related entities, such as contact and account. Using these scores, you can identify and prioritize leads that have a higher chances of converting to opportunities.
 
-For example, say you have two leads - Lead A and Lead B - in your pipeline. The lead scoring model applies a score of 80 for Lead A and 50 for Lead B. By looking at the score, you can predict that Lead A has more chances of converting into an opportunity and you can engage it. Also, you can further analyze why the score of Lead B is low by looking at the top reasons influencing the score and deciding whether to improve this score.
+For example, say you have two leads - Lead A and Lead B - in your pipeline. The lead scoring model applies a score of 80 for Lead A and 50 for Lead B. Comparing the scores, you can predict that Lead A has a higher chance of converting to an opportunity. Also, you can analyze why Lead B scored low by looking at the top reasons influencing its score and decide whether to try to improve it.
  
-> [!IMPORTANT]
-> To enable Predictive lead scoring in your organization, contact your system administrator.
-> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive lead scoring](configure-predictive-lead-scoring.md)
+To use predictive lead scoring in your organization, ask your system administrator to [configure predictive lead scoring](configure-predictive-lead-scoring.md).
 
 ## Real-time scoring
 
@@ -36,80 +37,57 @@ With real-time scoring, new leads are scored in near real-time. The score will b
 
 The following considerations apply for real-time scoring:
 
-- Models that were created or edited, and published after the feature rollout are only used for scoring the new leads. So, if a new lead is not scored within 15 minutes of saving or importing the lead, verify that the models was published after the feature rollout.  
-    > [!NOTE]
-    > The feature is being rolled out in a phased manner across different geographic regions. To verify whether the feature is available in your region, look for version 9.0.22121.10001 in the [Latest version availability](/dynamics365/released-versions/dynamics365salesinsights) section. The feature will be enabled one week after the feature rollout. Real-time scoring will be available only after its enabled for your region.
+- Real-time scoring is available only for leads that are scored by models created or edited, and published after the real-time scoring was feature rolled out. So, if a new lead is not scored within 15 minutes of saving or importing, edit and retrain the model that's scoring the lead.
 
 - Business process flows are not taken into consideration for real-time scoring. Lets say you have different models for each business process flow, with the same filter condition. When a new lead that matches the filter condition is created, real-time scoring will use one of models to score the lead, ignoring the business process flow.
 - Real-time scoring works only for new leads. The scores for updated leads are refreshed only after every 24 hours.  
 
 ## Understand predictive lead scoring in views
 
-The **My Open Leads Scored** system view is available when predictive lead scoring is enabled in your organization. This view provides a list of leads with different parameters including lead score, lead grade, and lead score trend. By analyzing these parameters, you can identify and prioritize leads so you can convert them into opportunities.
+The **My Open Leads Scored** system view is available when predictive lead scoring is enabled in your organization. This view provides a list of leads with different parameters including lead score, lead grade, and lead score trend. 
 
-The following screen displays a typical view that consists of columns that can be used to analyze and prioritize the leads.
+:::image type="content" source="media/my-open-lead-score-view.png" alt-text="Screenshot of the My Open Leads Scored view.":::
 
-> [!div class="mx-imgBorder"]
-> ![My Open Leads Scored view](media/my-open-lead-score-view.png "My Open Leads Scored view")
+Legend:
 
-The numbered columns are:
+1.	**Score** shows the likelihood, on a scale of 1 to 100, that the lead will convert to an opportunity. A lead with a score of 100 has the highest likelihood of converting to an opportunity. The scores are refreshed after every 24 hours.
 
-1.	**Lead Score.** Specifies the value that represents the likelihood of the lead to convert into an opportunity on a scale of 1 to 100. A lead with a score of 100 has the highest likelihood of converting into an opportunity. The scores are refreshed after every 24 hours.
+1. **Score Trend** shows the direction in which a lead is trending, such as **Improving** (up arrow), **Declining** (down arrow), **Steady** (right arrow), or **Not enough info**. Trends are calculated by comparing the current lead score with the previous score. For example, if a lead was scored 65 and is now scored 45, the **Lead Score Trend** column displays a down arrow to indicate that the lead is losing traction and needs some action from you to improve the score.
 
-2.	**Lead Grade.** Specifies a ranks or level of quality that is given to a lead based on the generated score. Leads with higher grade have more chances of converting into opportunities. The grades of a lead are categorized into A, B, C, and D with colors green, purple, yellow, and red, respectively, where Grade A (green) is the lead with the highest likelihood for conversion into an opportunity followed by Grade B (purple), Grade C (yellow), and Grade D (red). System administrators can define lead score ranges for a grade, depending on your organizational requirements.
+1. **Grade** ranks leads based on the generated score. Leads with higher grades have more chances of converting to opportunities. Grades are categorized as A, B, C, and D, with colors green, purple, yellow, and red, respectively. Grade A (green) is the lead with the highest likelihood for conversion to an opportunity. Grade D (red) is least likely to convert. System administrators can define lead score ranges for a grade, depending on your organizational requirements.
 
-3. **Lead Score Trend.** Specifies the direction in which a lead is trending such as **Improving** (up arrow), **Declining** (down arrow), **Steady** (right arrow), or **Not enough info**. These trends are displayed by comparing the present lead score with the previous score. For example, the score of a lead was 65 and the present score is decreased to 45. A down arrow is displayed in the **Lead Score Trend** column specifying that the lead is losing traction and needs some action from you to improve the score. 
- 
 ## Understand lead scoring widget
 
-In forms, the lead score widget displays the top positive and negative reasons that influence the score. These reasons come from the lead attributes and attributes from related entities. The reasons help you analyze and work on the lead to improve the score and convert the lead into a possible opportunity. The following image shows a typical **Lead score** widget.
+In forms, the Lead score widget displays the top positive and negative reasons that influence the score. These reasons come from the lead attributes and attributes from related entities. The reasons help you analyze and work on the lead to improve its score and convert it to a possible opportunity. The following image shows a typical **Lead score** widget.
 
-> [!div class="mx-imgBorder"]
-> ![Predictive lead score widget](media/predictive-lead-scoring-widget.png "Predictive lead score widget")
+:::image type="content" source="media/predictive-lead-scoring-widget-annotated.png" alt-text="Screenshot of the predictive Lead score widget.":::
 
-Typically, the screen is organized into the following sections:
+Legend:
 
-- [Basic information](#basic-information)
+1. This section displays basic information such as lead score, lead grade, and score trend.
 
-- [Top reasons](#top-reasons)
+2. This section displays the most important reasons, both positive and negative, that affect the lead score. You can use these reasons to determine how you might convert the lead to an opportunity.
 
-### Basic information
-
-The information included in this section covers the lead score, lead grade, and score trend.
-
-> [!div class="mx-imgBorder"]
-> ![Predictive lead score basic information](media/predictive-lead-scoring-widget-basic-information.png "Predictive lead score basic information")
-
-### Top reasons
-
-The most important reasons&mdash;both positive and negative&mdash;that affect the lead score are listed here. You can use these reasons to analyze how you might convert the lead into an opportunity.
-
-> [!div class="mx-imgBorder"]
-> ![Predictive lead score top reasons](media/predictive-lead-scoring-widget-top-reasons.png "Predictive lead score top reasons")
-
-When you move your cursor over a reason, a tooltip displays an insight about what's causing the reason to be listed on top. You can work on this insight and take any necessary action to improve the lead.
+When you move your cursor over a reason, a tooltip displays an insight about what's causing the reason to be listed. You can work on this insight and take any necessary action to improve the lead.
 
 In the following example, for the reason "Finance is a strong industry," the tooltip displays the insight "64% of leads from the financial industry are qualified within 3 days." 
 
-> [!div class="mx-imgBorder"]
-> ![Predictive lead score top reasons tooltip](media/predictive-lead-scoring-widget-top-reasons-tool-tip.png "Predictive lead score top reasons tooltip")
+:::image type="content" source="media/predictive-lead-scoring-widget-top-reasons-tool-tip.png" alt-text="Screenshot of a predictive lead score reason tooltip.":::
 
-The **Lead score** widget displays only the top five positive and negative reasons. To view all the positive and negative reasons that are affecting the lead score, select **Details**. 
+The Lead score widget displays only the top five positive and negative reasons. To view all the positive and negative reasons that are affecting the lead score, select **Details**. 
 
-The **Lead score** pane opens with a list of all score improvers (positives) and harmers (negatives), along with a graph that shows how the lead score is trending over time.
+The Lead score pane shows a list of all factors that improved the score and those that harmed it, along with a graph that shows how the lead score is trending over time.
 
-> [!div class="mx-imgBorder"]
-> ![Predictive lead score Details tab](media/predictive-lead-scoring-widget-top-reasons-details-tab.png "Predictive lead score Details tab")
+:::image type="content" source="media/predictive-lead-scoring-widget-top-reasons-details-tab.png" alt-text="Screenshot of predictive lead score details.":::
 
 For more information about the lead score, select the **About** tab. The **About** tab helps you understand what the lead score is and how it works. Under **What does it mean?**, you'll find information about how lead scores are categorized by admins in your organization. Under **What impacts the score?**, you'll find the attributes that affect lead scores in your organization.
 
-> [!div class="mx-imgBorder"]
-> ![Predictive lead score About tab](media/predictive-lead-scoring-widget-top-reasons-about-tab.png "Predictive lead score About tab")
+:::image type="content" source="media/predictive-lead-scoring-widget-top-reasons-about-tab.png" alt-text="Screenshot of predictive lead score About tab.":::
 
 ### See also
 
 [Configure predictive lead scoring](configure-predictive-lead-scoring.md)  
-[Predictive lead/opportunity scoring FAQs](faqs-sales-insights.md#predictive-leadopportunity-scoring)
+[Predictive lead and opportunity scoring](faqs-sales-insights.md#predictive-lead-and-opportunity-scoring)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
