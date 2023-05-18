@@ -4,9 +4,8 @@ description: Use this topic to get information about features that are deprecate
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms-service: dynamics-365
 ms.topic: conceptual
-ms.date: 04/25/2023
+ms.date: 05/18/2023
 ms.custom: bap-template
 ---
 
@@ -18,6 +17,12 @@ Administrators and IT professionals can use this information to prepare for futu
 
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Intraday insights reports in Omnichannel for Customer Service are deprecated
+
+The [Omnichannel intraday insights reports](intro-intraday-insights-dashboard.md) are deprecated as of May 1, 2023. Support will continue to be available for the deprecated intraday insights reports until October 31, 2023. However, no new functionalities for intraday insights will be released henceforth.
+
+Effective April 30, 2024, Omnichannel intraday insights reports won't be available for existing organizations. Reports won’t be available for new organizations or tenants onboarded after May 01, 2023, or for those organizations that haven’t used the reports in the last 30 days.
 
 ## Some admin apps are deprecated
 

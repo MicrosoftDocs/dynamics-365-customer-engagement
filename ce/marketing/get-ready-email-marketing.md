@@ -1,7 +1,7 @@
 ---
-title: "Maximize email deliverability (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 Marketing."
-ms.date: 04/03/2023
+title: Maximize email deliverability (Dynamics 365 Marketing)
+description: How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 Marketing.
+ms.date: 04/21/2023
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-admin
@@ -29,7 +29,7 @@ When a message goes out over the internet, the IP address that sent it's availab
 
 Large email providers (such as Hotmail or Gmail), and private email systems at large organizations, use similar techniques to generate their own, internal, sender reputations and scores, which apply yet another layer of filtering.
 
-In addition to sender reputation, many countries and regions have laws that regulate commercial email messages, and breaking these laws can expose you to expensive litigation. Examples of these include CAN-SPAM in the United States and CASL in Canada. The new [GDPR regulations](gdpr.md) in the European Union also establish strict rules for how companies are permitted to handle data and communicate digitally with individuals.
+In addition to sender reputation, many countries and regions have laws that regulate commercial email messages, and breaking these laws can expose you to expensive litigation. Examples of these include CAN-SPAM in the United States and CASL in Canada. Other [privacy laws and regulations](privacy.md) establish strict rules for how companies are permitted to handle data and communicate digitally with individuals.
 
 So what can you do to maximize your deliverability and remain within the law, and how can Dynamics 365 Marketing help? Read the following subsections to find out. For more information about deliverability and sender reputation, search with Bing for many more good articles about this article.
 
@@ -72,9 +72,9 @@ Dynamics 365 Marketing provides detailed analytics and KPIs for how your contact
 
 ### Don't use purchased or rented mailing lists
 
-Dynamics 365 Marketing is designed to facilitate _opt-in marketing_, in which all contacts have chosen to receive marketing messages from your organization, and can easily choose to stop doing so at any time. The app helps you build your mailing lists organically and in collaboration with your current and prospective customers by providing features such as [double opt-in](double-opt-in.md), [subscription management](set-up-subscription-center.md), and [consent-management for GDPR compliance](gdpr.md). [Marketing pages](create-deploy-marketing-pages.md) and the [event website](set-up-event-portal.md) also provide avenues for new customers to join your database and sign up for mailing lists.
+Dynamics 365 Marketing is designed to facilitate _opt-in marketing_, in which all contacts have chosen to receive marketing messages from your organization, and can easily choose to stop doing so at any time. The app helps you build your mailing lists organically and in collaboration with your current and prospective customers by providing features such as [double opt-in](double-opt-in.md), [subscription management](set-up-subscription-center.md), and [consent-management for data privacy compliance](privacy.md). [Marketing pages](create-deploy-marketing-pages.md) and the [event website](set-up-event-portal.md) also provide avenues for new customers to join your database and sign up for mailing lists.
 
-We strongly recommend that you don't purchase or rent mailing lists because such lists may violate GDPR consent laws and other local laws in other countries/regions. Rented and purchased lists are also ineffective because they're likely to contain many expired addresses that will hard bounce, and they're likely to contain many contacts that aren't interested in your products and who may complain about receiving unsolicited email (possibly to legal authorities); both complaints and hard bounces will lower your sending reputation, and with it, your deliverability rate.
+We strongly recommend that you don't purchase or rent mailing lists because such lists may violate data privacy consent laws and regulations and other local laws in other countries/regions. Rented and purchased lists are also ineffective because they're likely to contain many expired addresses that will hard bounce, and they're likely to contain many contacts that aren't interested in your products and who may complain about receiving unsolicited email (possibly to legal authorities); both complaints and hard bounces will lower your sending reputation, and with it, your deliverability rate.
 
 ### Send consistent volumes
 

@@ -21,16 +21,29 @@ Keep track of changes on the [Dynamics 365 Sales release planner](https://experi
 
 Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.microsoft.com/sales/overview/) site.
 
-## Releases of Dynamics 365 Sales
+## April 2023 release
 
-Learn more about what's new or changed in recent releases in the links in the following table.
+We're excited to announce our newest updates! This article summarizes early access, public preview, and general availability features that were released in the month of April.
 
-| Version | Auto-update availability | Learn more |
-|---------|---------------|-------------|
-|9.0.23023.10001 |  March 2023    |[What's new or changed in Dynamics 365 Sales (March 2023)](march-2023-whatsnew.md)|
-| 9.0.23021.10001|  March 2023  | [What's new or changed in Dynamics 365 Sales (March 2023](march-2023-whatsnew.md) |
+| Feature area | Feature | Description | Resources | Enabled by | Availability |
+|--------------|---------|-------------|-----------|------------|--------------|
+| Sales engagement | Up next widget | Shows new suggestions and sequence preview. | [Documentation](understand-the-up-next-widget.md) | Enabled by default | GA |
+| Contact management | Email validation | Identifies invalid email addresses for contact records. | [Documentation](enable-email-validation.md) | Enabled by default | Public preview |
+| Lead management | Duplicate lead detection | Enable the duplicate lead detection feature for the customized main lead form. | [Documentation](enable-duplicate-detection-custom-forms.md) | Enabled by default | GA |
+| Lead management | Email validation | Enable the email validation feature for the customized main lead form. | [Documentation](enable-email-validation-custom-forms.md) | Enabled by default | Public preview |
 
-For earlier versions, see the archived release plans at [Release plans for Dynamics 365 and Power Platform](/dynamics365/release-plans/archived-plans).  
+## March 2023 release
+
+This article summarizes early access, public preview, and general availability features that were released in the month of March.
+
+|Feature area  |Feature  |Description  |Resources  |Enabled by |Availability  |
+|---------|---------|---------|---------|---------|---------|
+| Sales engagement | Engage with your Customers using SMS conversation | Support for incoming SMS, routing them to appropriate records, and showing them in the timeline. | [Documentation](manage-text-message-communications.md) | Enabled by admin | Public preview |
+| Sales engagement | Engage with your Customers using SMS conversation | Support for sending and receiving SMS from Contact, Lead and Account forms. | [Documentation](sms-intro.md) | Enabled by default | GA |
+| Sales engagement | Prioritize segments | Set priority for the segments so that the records are connected to the right segment when there are multiple matching segments. | [Documentation](prioritize-segment.md) | Enabled by default | GA |
+| Collaboration | Linked chats in timeline | View linked chats in the timeline of a record. | [Documentation](teams-integration/join-chat.md) | Enabled by default | GA |
+| Predictive scoring | Real-time scoring | View prediction for a new lead in near real time. | [Documentation](work-predictive-lead-scoring.md#real-time-scoring) | Enabled by default | GA |
+| Sales engagement | Prioritize your engagements by using focused view | View and manage all your sales records and the associated activities on one page. | [Documentation](focused-view.md) | Enabled by default | Early access |
 
 ## Get the latest version
 
