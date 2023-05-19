@@ -47,6 +47,28 @@ The following licenses are required for the swarm feature.
 - Agents who use the swarm feature must have both a Dynamics 365 Customer Service Enterprise license and Microsoft Teams license.
 - Experts who join a swarm must have a Teams license.
 
+## Guided setup experience for customer support swarming
+
+If you're new to using customer support swarming, you can use the step-by-step guided swarm setup wizard to help walk you quickly through the configuration using default settings.  
+
+If this is your first time accessing the guided setup, follow these steps: 
+
+1. In Customer Service admin center, go to the sitemap, and then in **Agent experience**, select **Collaboration**. 
+
+1. On the **Collaboration** page, on the top banner, select **Get started**. The swarm set-up page is displayed.
+
+1. Follow the wizard to complete the setup.
+
+You can alternatively choose to opt out of the wizard by selecting **Skip setup**. 
+
+If you’ve completed at least one setup, or previously chose to skip the setup, you can launch the guided experience again using the following steps: 
+
+1. On the Collaboration page, next to Customer support swarming (preview), select **Manage**. The Customer support swarming (preview) page is displayed. 
+
+1. On the right side of the page, select **Manage setups**. The Swarming setups page is displayed.
+
+1. Select **Start new**, and then follow the wizard to complete the setup.
+
 ## Overview of the customer support swarming page
 
 Use the following image and legend to understand the layout of the customer support swarming page.
