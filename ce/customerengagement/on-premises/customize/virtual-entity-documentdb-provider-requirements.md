@@ -12,7 +12,6 @@ applies_to:
 ms.assetid: d0031ffc-8754-4a12-b8c1-e08edc49ff73
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

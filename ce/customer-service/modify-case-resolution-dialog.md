@@ -5,7 +5,6 @@ ms.date: 05/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 searchScope: 
   - D365-App-customerservicehub
   - D365-Entity-incident
@@ -60,6 +59,9 @@ By default, the style of the **Resolve case** dialog is set to standard dialog. 
 You can modify the case resolution dialog and remove a field so that it no longer appears at runtime for the user.
 
 As an example, let's see how to remove the **Billable Time** field from the **Information** form.
+
+> [!NOTE]
+> Ensure that the **Total Time** field is  added to the case resolution dialog, for the **Billable Time** field to display the amount of time an agent worked on a case automatically. 
 
 1. In the solution explorer under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
 

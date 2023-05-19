@@ -5,7 +5,6 @@ ms.date: 10/17/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Voicemail dashboard
@@ -21,7 +20,7 @@ The Voicemail dashboard provides a view of the voicemails with details, such as 
 The reports summarize the KPIs for the specified time and percentage change over a period of time. You can filter these areas by duration, queue, agent, and time zone.
 The charts display the following metrics.
 
-:::image type="content" source="media/voicemail-dasboard.png" alt-text="Screenshot shows a the voicemail dashboard":::
+:::image type="content" source="media/voicemail-dasboard.png" alt-text="Screenshot shows a the voicemail dashboard.":::
 
 | KPI | Description |
 | ------------------------ | ----------------- |

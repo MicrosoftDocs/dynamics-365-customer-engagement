@@ -17,13 +17,12 @@ ms.assetid: b1155815-cab2-459f-b363-2b337dcfb453
 caps.latest.revision: 14
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 ---
 # Sample: Query connections by a record (early bound)
 
-This sample shows how to query connections for a particular record. It creates connections between a contact and two accounts, and then searches for the contact’s connections. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/QueryByRecord).
+This sample shows how to query connections for a particular record. It creates connections between a contact and two accounts, and then searches for the contact’s connections. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/QueryByRecord).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

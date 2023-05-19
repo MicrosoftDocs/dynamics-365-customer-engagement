@@ -10,9 +10,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: FeifeiQiu
 ms.author: feiqiu
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Get Resource Scheduling Optimization

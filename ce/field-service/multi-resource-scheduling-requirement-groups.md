@@ -6,9 +6,6 @@ ms.topic: how-to
 ms.custom: bap-template
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Schedule work with multiple requirements using requirement group

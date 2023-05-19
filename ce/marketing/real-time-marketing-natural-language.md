@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Preview: Use natural language in real-time marketing journeys
@@ -74,3 +70,5 @@ To provide feedback after you've entered a natural language clause:
 1. Select the **thumbs down** icon.
 1. Select **Send feedback**.
 1. Enter a short explanation of what happened. Add comments about what you would expect the phrase to look like.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

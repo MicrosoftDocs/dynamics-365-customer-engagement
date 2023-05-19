@@ -7,12 +7,8 @@ ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "udaykirang"
 ms.author: "udag"
-manager: "shujoshi"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 
 # Competitor table/entity reference
@@ -105,7 +101,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [EntityImage](#BKMK_EntityImage)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [KeyProduct](#BKMK_KeyProduct)
-- [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [Name](#BKMK_Name)
 - [Opportunities](#BKMK_Opportunities)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -875,31 +870,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
-
-
-### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
-
-**Added by**: Predictive Opportunity Scoring Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Describes whether competitor is opted out or not|
-|DisplayName|GDPR Optout|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_gdproptout|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_gdproptout Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|1|Yes||
-|0|No||
-
-**DefaultValue**: 0
-
 
 
 ### <a name="BKMK_Name"></a> Name

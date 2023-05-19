@@ -5,9 +5,6 @@ ms.date: 02/02/2023
 ms.topic: article
 author: clearab
 ms.author: anclear
-search.app: 
-  - D365CE
-  - D365FS
 ---
 # Use and configure the schedule board
 
@@ -195,9 +192,6 @@ You can use keyboard shortcuts when viewing the schedule board in the list view,
 | Collapse expanded row | SHIFT ALT - | 
 
 ## Enable the legacy schedule board
-
-> [!NOTE]
-> This functionality is available in the 2023 Wave 1 Early Access (EA) release, and not yet generally available.
 
 [!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)]
   

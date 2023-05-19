@@ -5,7 +5,6 @@ ms.date: 02/27/2023
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Overview of the Dynamics 365 Sales mobile app 

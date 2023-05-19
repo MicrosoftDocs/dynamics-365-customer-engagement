@@ -4,7 +4,6 @@ description: Permanently delete a segment that is no longer required in your org
 ms.date: 03/28/2023
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.topic: how-to
 ms.custom: bap-template
 ---

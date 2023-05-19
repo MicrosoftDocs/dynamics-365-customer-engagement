@@ -19,13 +19,12 @@ ms.assetid: 5b23d413-c69a-4568-a490-09454362417b
 caps.latest.revision: 16
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 ---
 # Sample: Retrieve field sharing records
 
-This sample shows how to retrieve the `PrincipalObjectAttributeAccess` (field sharing) records for an entity. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveFieldSharing).
+This sample shows how to retrieve the `PrincipalObjectAttributeAccess` (field sharing) records for an entity. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/RetrieveFieldSharing).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

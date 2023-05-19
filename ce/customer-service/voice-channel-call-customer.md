@@ -6,7 +6,6 @@ ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Call a customer
@@ -17,7 +16,7 @@ To be able to call customers, your administrator must configure outbound calling
 
 1. In Omnichannel for Customer Service, go to **Contacts**, and then select a customer to call.
 
-1. On the Customer Summary page, locate the **Mobile Phone** field, and then select the call icon to call the customer.
+1. On the **Active Conversation** page, locate the **Mobile Phone** field, and then select the call icon to call the customer.
    The phone dialer opens with the phone number.
    
     You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.

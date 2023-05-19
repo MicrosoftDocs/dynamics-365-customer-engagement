@@ -7,12 +7,8 @@ ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "udaykirang"
 ms.author: "udag"
-manager: "shujoshi"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 
 # msdyn_callablecontext table/entity reference
@@ -856,7 +852,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |10322|Forecast Recurrence|Forecast Recurrence|
 |10323|ShareAs Configuration|ShareAs Configuration|
 |10324|Customer email communication||
-|10325|GDPRData||
 |10326|Recurring Sales Action||
 |10327|msdyn_relationshipinsightsunifiedconfig||
 |10328|siconfig||

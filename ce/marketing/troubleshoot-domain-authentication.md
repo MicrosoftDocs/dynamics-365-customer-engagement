@@ -8,14 +8,10 @@ ms.custom:
   - dyn365-marketing
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Troubleshoot domain authentication errors
@@ -87,3 +83,5 @@ The final step is to check the [DNS confirmation status](mkt-settings-authentica
 The following video guide describes the domain authentication process in detail: [Domain Authentication in Dynamics 365 Marketing](https://community.dynamics.com/365/b/techtalks/posts/domain-authentication-in-dynamics-365-marketing-march-29-2021).
 
 If after trying these troubleshooting steps you still can't determine why your domain authentication is failing, reach out to the support team.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

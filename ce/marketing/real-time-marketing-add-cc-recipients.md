@@ -7,13 +7,9 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Add email carbon copy recipients to real-time journeys
@@ -30,16 +26,14 @@ You can add carbon copy (CC) recipients to your journeys when sending emails. Wh
 >- CC contacts are counted for marketable contact quota.
 >- CC contacts interactions are counted for interaction quota.
 >
-> CC recipients receive the same amount of emails as the overall emails sent to primary recipients, meaning, if you send 1,000 emails to primary recipients with two people in CC, your overall sent emails will be 3,000.
+> CC recipients will receive the same amount of emails as the overall emails sent to primary recipients, meaning, if you send 1,000 emails to primary recipients with two people in CC, your overall sent emails will be 3,000. It's recommended that you select people in the CC field who are aware of how this feature functions.  
 >
-
-It's recommend that you select people in CC who are aware of how this feature functions.  
 
 ## Enabling the CC feature
 
-The CC feature is disabled by default, to enable the feature:
+The CC feature is disabled by default. To enable the feature:
 
-1. Go to the **Settings** page and select **Feature Switches**.
+1. Go to **Settings** and select **Feature Switches**.
     > [!div class="mx-imgBorder"]
     > ![Select feature switches from settings.](media/real-time-email-cc-settings-feature-switches.png "Select feature switches from settings")
 
@@ -47,16 +41,21 @@ The CC feature is disabled by default, to enable the feature:
     > [!div class="mx-imgBorder"]
     > ![Screenshot of enabling the feature switch.](media/real-time-email-cc-enable-feature.png "Screenshot of enabling the feature switch")
 
-## How to use the CC feature in Customer Journey
+## How to use the CC feature in customer journeys
 
-In your journey, select the **Send an email** action.
-> [!div class="mx-imgBorder"]
-> ![Screenshot choosing the Send an email action.](media/real-time-email-cc-send-email.png "Screenshot choosing the Send an email action")
+1. In your journey, select the **Send an email** action.
 
-Select the **Select a recipient** to dynamically select the CC recipient. You'll then need to select the relation to your target audience (contact or lead).
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the recipient selection.](media/real-time-email-cc-select-recipient.png "Screenshot showing the recipient selection")
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot choosing the Send an email action.](media/real-time-email-cc-send-email.png "Screenshot choosing the Send an email action")
 
-You'll able to select up to five recipients. Make sure you're selecting entities that contain email addresses. If you select an entity that doesn't contain an email, it will be ignored when sending the email.
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing five recipients selected.](media/real-time-email-cc-select-recipient-up-to-5.png "Screenshot showing five recipients selected")
+1. Select the **Select a recipient** to dynamically select the CC recipient. You have to select the relation to your target audience (contact or lead).
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot showing the recipient selection.](media/real-time-email-cc-select-recipient.png "Screenshot showing the recipient selection")
+
+1. Select up to five recipients. Make sure you're selecting entities that contain email addresses. If you select an entity that doesn't contain an email, it's ignored when sending the email.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot showing five recipients selected.](media/real-time-email-cc-select-recipient-up-to-5.png "Screenshot showing five recipients selected")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

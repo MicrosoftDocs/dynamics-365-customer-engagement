@@ -12,7 +12,6 @@ applies_to:
 ms.assetid: 377198f5-ac08-40e1-a727-f3ac51e7a01e
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType:
   - developer
 ---

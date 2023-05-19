@@ -6,9 +6,6 @@ ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ms.custom: bap-template
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Set defaults for work orders, bookings, the schedule board, and agreements
@@ -29,7 +26,7 @@ System administrators define settings for work orders, bookings, agreements, and
 
 Several entities in Field Service use incremental numbers for distinction. Auto-numbering ensures that records get unique naming and that there are fewer gaps in the entity names because they're created when saving a record. You can configure the numbering settings for each supported entity.
 
-### Opt-in to auto-numbering
+### Opt in to auto-numbering
 
 1. In Field Service, change to the **Settings** area.
 
@@ -39,7 +36,7 @@ Several entities in Field Service use incremental numbers for distinction. Auto-
 
 1. In the dialog box, select **Opt-In**.
 
-During the initial opt-in process, creation of new records may fail. We recommend to enable the feature when there's no activity in the application. The process will take a few moments to complete.
+During the initial opt-in process, creation of new records may fail. We recommend enabling the feature when there's no activity in the application. The process will take a few moments to complete.
 
 ### Configure auto-numbering
 
@@ -72,7 +69,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 |  Default Warehouse   |    Select the default warehouse that work order products will be taken from unless specified otherwise. For more information, go to [Create a warehouse](create-warehouse.md).   |
 | Suggest Reparenting Customer Assets | Warn users when a customer asset gets added to a work order that doesn't relate to the work order's service account. If it's set to *Yes*, the system offers to map the customer asset to the work order's service account. When set to *No*, the warning and suggestion won't show. |
 | Timestamp Frequency | Choose when the system updates the timestamp for a booking. |
-| Calculate Price | Work orders contain pricing-related fields and functions. By default, this field is set to *Yes*, which enables pricing-related fields and logic. Changing the setting to *No* removes all pricing-related fields and disables the pricing logic. So work orders won't generate invoices after completion.|
+| Calculate Price | Work orders contain pricing-related fields and functions. By default, this field is set to *Yes*, which enables pricing-related fields and logic. Changing the setting to *No* removes all pricing-related fields and disables the pricing logic, so work orders won't generate invoices after completion.|
 |Calculate Cost| Enabling work order costs adds cost fields on work order products, work order service, and summary fields on work orders. It lets you track estimated and actual costs per work order. Track costs to establish cost trends over time and review them based on work order categorizations such as trade and work order type to understand your business and where to optimize service delivery. If [Not-to-exceed is enabled](work-order-not-to-exceed.md), it's automatically added to the work orders based on not-to-exceed values in the system. Cost summaries on work orders appear in a summary card and are the sum of the costs of all work order products and services, including taxes. |
 | Show Simplified Work Order Commands | This setting influences the command bar on work order records and lists. By default, this field is set to *Yes*, which shows only the most relevant commands for work orders. The following commands will be hidden from the form: deactivate, check access, process, add to queue, queue item details, assign, share, email a link, flow, Word templates. The following commands will be hidden from the list view when no records are selected: email a link, flow, import from Excel. The following commands will be hidden from the list view when a record is selected: activate, deactivate, email a link, add to queue, flow, Word templates, Excel templates. When set to *No*, all commands are shown. |
 |Not-to-Exceed |Enables [not-to-exceed values to set an optional cost or price limit](work-order-not-to-exceed.md) for a work order.|
@@ -100,7 +97,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 Return merchandise authorization (RMA) is the return process for customers who have requested to return or exchange merchandise. For more information, go to [Process a return](process-return.md).
 
 This section won't show if you use the [new auto-numbering feature](#auto-numbering-settings) to manage record numbering.
-  
+
 |  Option  | Description |
 |-----------|-------------|
 | RMA Prefix| Select a prefix for RMAs. The system adds the prefix before the RMA number.|
@@ -116,7 +113,7 @@ This section won't show if you use the [new auto-numbering feature](#auto-number
 |-----------|---------------|
 | RTV Prefix| Select a prefix for RTVs. The system adds the prefix before the RTV number.|
 | RTV starting number |  Provide number from which the system starts the count of RTVs.  |
-  
+
 ## Agreement settings
 
 Field Service agreements allow organizations to automatically generate work orders and invoices. For more information, go to [Set up agreements](set-up-customer-agreements.md).
@@ -129,7 +126,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 | Auto Generate Work Order for Agreement Booking  |  Select whether the system should automatically generate work orders based on agreements. If set to *No*, users have to create the work orders manually. |
 | Generate Booking Dates X Months in Advance    | Agreement booking dates help organizations plan for maintenance. If an agreement spans a long time period, you may not want to generate all booking dates at once. Agreements generate booking dates based on the agreement booking setup recurrence schedule. With auto-generate enabled, the system creates a work order booking on these dates. This setting determines how many months in advance the system generates the work order booking. |
 |   Generate Invoice Dates X Months in Advance   | Agreements generate invoice dates based on the agreement invoice setup recurrence schedule. With auto-generate enabled, the system creates an invoice record on these dates. This setting determines how many months in advance the system generates the invoice dates.   |
-|  Pre/Post Booking Flexibility Date Field Population  | When configuring an agreement, you can define pre- and post-booking flexibility fields. These fields set the time frame in which each work order should get booked. This setting defines whether work orders generated from agreements will populate this time frame in the *Date Window Start/End* or the *Time From/To Promised* fields. |
+|  Pre/Post Booking Flexibility Date Field Population  | When configuring an agreement, you can define pre- and post-booking flexibility fields. These fields set the time frame in which each work order should get booked. This setting defines whether work orders generated from agreements will populate this time frame in the *Date Window Start/End* or the *Time From/To Promised* fields. This setting also controls whether the *Date Window Start/End* fields are visible on the work order. If the agreement is set to populate *Date Window Start/End*, these fields will be visible on the work order; otherwise, they are hidden by default.|
 |  Agreement Starting Number   | Provide number from which the system starts the count of agreements.   |
 | Generate Agreement Work Order X Days in Advance |  Number of days in before the booking date when the system generates the work order record.  |
 |  Generate Agreement Invoices X Days in Advance  |  Number of days in before the invoice date when the system generates the invoice record. |
@@ -163,7 +160,8 @@ This section won't show if you use the [new auto-numbering feature](#auto-number
   
 ## Intelligence settings
 
-Predictive work duration lets dispatchers predict the duration bookings. For more information, go to [Predictive work duration and resource proficiency suggestions](analytics-predictive-work-duration.md).
+Predictive work duration lets dispatchers predict the duration of bookings. For more information, go to [Predictive work duration and resource proficiency suggestions](analytics-predictive-work-duration.md).
+
 Incident type suggestions help administrators manage work order templates. For more information, go to [Use AI to get Incident Type suggestions](configure-incident-types.md#use-ai-to-get-incident-type-suggestions).
 
 |  Option  |  Description   |  
@@ -174,7 +172,7 @@ Incident type suggestions help administrators manage work order templates. For m
 
 ## Field Service SLA Configuration settings
 
-Use this tab to manage Service level agreements (SLAs) for work order. For more information, go to [Service level agreements (SLAs) for work orders](sla-work-orders.md).
+Use this tab to manage service level agreements (SLAs) for work orders. For more information, go to [Service level agreements (SLAs) for work orders](sla-work-orders.md).
 
 ## Time Entry settings
 
@@ -183,7 +181,7 @@ Time entries help track the time that technicians spend on various stages of a w
 |  Option  |  Description  |  
 |-------------|--------------|  
 | Time Entry Generation Strategy | Enable the system to automatically generate time entries based on booking timestamps. If the setting is empty or set to *Manual*, the system expects manual time entries. Regardless of the setting, you can always create time entries manually.|
-|Time Cost Actuals Source| Choose if cost actuals generate based on booking journals or time entries when the time entry is marked as approved. If this setting is empty, the system generates time and cost focused actuals from booking journals. Actuals are generated when a work order is set to *Closed - Posted*.  |
+|Time Cost Actuals Source| Choose if cost actuals generate based on booking journals or time entries when the time entry is marked as approved. If this setting is empty, the system generates time and cost-focused actuals from booking journals. Actuals are generated when a work order is set to *Closed - Posted*.  |
 
 ## Remote Assist settings
 

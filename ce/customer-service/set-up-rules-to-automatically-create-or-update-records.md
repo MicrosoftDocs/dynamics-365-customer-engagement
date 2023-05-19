@@ -1,18 +1,14 @@
 ---
 title: Set up rules to automatically create or update records (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Automatically create or update records from incoming activities, such as emails, social activities, or custom activities, without the need for coding.
-ms.date: 04/26/2022
+ms.date: 04/12/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -46,7 +42,7 @@ These activities can be converted to any default (system) entity records or cust
 
 ## Capture data from external sources
 
-You can also capture additional valuable customer information provided by an external application in the form of JSON (a collection of name-value pairs), and use it to enhance the quality of the target records and set various conditions in the record creation and update rules.  
+You can also capture more valuable customer information provided by an external application in the form of JSON (a collection of name-value pairs), and use it to enhance the quality of the target records and set various conditions in the record creation and update rules.  
 
 Every default (out-of-the-box) activity or custom activity has an Additional Parameters attribute. This attribute stores the JSON payload received from an external application.  
 
@@ -162,7 +158,7 @@ If the source type for the rule is set to **Email**, specify the conditions for 
 
 3. **Create cases for activities associated with a resolved case**. If you select this check box, a case is created if the email is related to a resolved case. If the email is related to an active case, a new case won’t be created. However, if the email is related to a canceled case, a new case will be created.
 
-4. **Create case when the case associated with the activity is resolved since**. If you select the **Create cases for activities associated with a resolved case** check box, select the duration here. A case is created only if the case is resolved earlier than the duration you specify. If the incoming email is related to a case resolved later than the specified duration, the incoming email is associated with the existing resolved case; a new case won’t be created.  
+4. **Create case when the case associated with the activity is resolved since**. If you select the **Create cases for activities associated with a resolved case** check box, select the duration here. A case is created only if the case is resolved earlier than the duration you specify. If the incoming email is related to a case resolved later than the specified duration, the incoming email is associated with the existing resolved case; a new case won’t be created. The resolved case won't be re-opened automatically when the incoming email is associated with it. However, you can configure flows using Power Automate, to re-open a resolved case when an incoming email is associated with the resolved case.  
 
 5. **Send automatic email response to customer on record creation**. Select this check box if you want to automatically send email responses to the sender of the email after a target record for the email is created.  
 

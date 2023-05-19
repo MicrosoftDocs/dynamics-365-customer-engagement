@@ -14,7 +14,6 @@ ms.assetid: 51961448-d371-4cbd-a531-c98f0c7a99d6
 caps.latest.revision: 6
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Dynamics 365 Customer Engagement (on-premises) organization database indexes
 

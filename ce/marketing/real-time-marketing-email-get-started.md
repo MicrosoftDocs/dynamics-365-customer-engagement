@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: get-started
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Send a targeted email blast in real-time marketing
@@ -75,3 +71,5 @@ Learn more: [Create a segment-based journey](real-time-marketing-segment-based-j
 After your journey has been running for a while, you’ll start to receive analytics reports that you can use to measure the effectiveness of your journey. Learn more: [Access and interpret analytics](real-time-marketing-analytics.md).
 
 Once you’re ready to take your customer interactions to the next level, you can learn how to use triggers to reach customers in the moments that matter. Learn more: [Create a trigger-based journey](real-time-marketing-trigger-based-journey.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

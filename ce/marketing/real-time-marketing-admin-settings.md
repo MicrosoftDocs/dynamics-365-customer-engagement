@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Real-time marketing administrator settings
@@ -34,3 +30,5 @@ The **Business** categorization allows business data to be shared with Power Aut
 > The Marketing connector is only available to be used directly by the Dynamics 365 Marketing product and cannot be used by any user or service outside of the product. The connector is visible in the DLP connectors list to allow you to enable Marketing to work when you have explicit DLP policies configured.
 
 Learn more about connector settings and DLP policies: [Connector classification](/power-platform/admin/dlp-connector-classification).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

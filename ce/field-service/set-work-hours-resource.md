@@ -12,9 +12,6 @@ search.audienceType:
   - enduser
 ms.custom: 
   - dyn365-customerservice
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Set work hours for a resource (Customer Service)

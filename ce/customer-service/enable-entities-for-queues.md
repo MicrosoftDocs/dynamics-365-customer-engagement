@@ -5,7 +5,6 @@ ms.date: 07/21/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Enable entities for queues in unified routing

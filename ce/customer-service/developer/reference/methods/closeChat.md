@@ -5,7 +5,6 @@ ms.date: 07/09/2020
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 # closeChat
 

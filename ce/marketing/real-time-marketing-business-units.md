@@ -1,5 +1,5 @@
 ---
-title: "Preview: Business unit support in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Business unit support in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use business unit support in Dynamics 365 Marketing."
 ms.date: 01/27/2023
 ms.custom: 
@@ -7,23 +7,13 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
-# Preview: Business unit support in real-time marketing
-
-> [!Important]
->
-> A preview feature is a feature that is not yet complete but is made available to customers > to get early access before it’s officially included in a release  and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
->
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to assist you with issues or questions. Preview features aren’t meant for production use, particularly when processing personal data or other data subject to legal or regulatory compliance requirements.
+# Business unit support in real-time marketing
 
 Business unit scoping in real-time marketing can be enabled at an environment level by an administrator. Once this feature is enabled, all real-time journeys and segments created within the environment will be automatically scoped to the record owner’s business unit.
 
@@ -50,7 +40,7 @@ Business units affect messages (emails, text messages, and push notifications) a
 ## Forms
 
 Business units affect forms as follows:
-- When [scoping is enabled](real-time-marketing-business-units.md#enabling-business-unit-scopes-in-real-time-marketing) for your instance, each [form](real-time-marketing-form-editor.md) is automatically scoped to the form owner’s business unit. In addition:
+- When [scoping is enabled](real-time-marketing-business-units.md#enabling-business-unit-scopes-in-real-time-marketing) for your instance, each [form](real-time-marketing-form-overview.md) is automatically scoped to the form owner’s business unit. In addition:
     - Business unit scoped forms, when submitted, will create records in the form owner’s business unit.
 
 ## Enabling business unit scopes in real-time marketing
@@ -62,3 +52,9 @@ Business units affect forms as follows:
 1. Set the **Business Unit Scoping (Real-Time Marketing)** toggle to **On**.
 1. Read the customer agreement displayed in the prompt and select on **I Agree** to turn on the feature.
 1. Select **Save** in the upper right.
+
+### See also
+
+[Domain authentication for modernized business units](domain-authentication.md#domain-authentication-for-modernized-business-units)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

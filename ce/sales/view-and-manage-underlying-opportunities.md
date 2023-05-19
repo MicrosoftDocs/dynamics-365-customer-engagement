@@ -5,7 +5,6 @@ ms.date: 04/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 searchScope: 
@@ -42,7 +41,7 @@ To understand which opportunities are affecting forecast values, select one of t
 
 The opportunities you see in the table depend on the role assigned to you in the hierarchy that was used to configure the forecast.
 
-For example, Alyce Durham is a manager and Nicolas Frizzell reports to her. Nicolas can see only his underlying opportunities, while Alyce can see her own and Nicolas's underlying opportunities.
+For example, Alyce Durham is a manager and Nicolas Frizzell reports to Alyce. Nicolas can see only their own underlying opportunities, while Alyce can their own and Nicolas's underlying opportunities.
 
 You can view and edit underlying opportunities in two ways:
 
@@ -110,9 +109,9 @@ For more information about filters, go to [Add conditions to a filter](/powerapp
 
 Let's understand grouping and filtering of underlying records with an example.
 
-Kenny Smith is a Vice President of the sales organization at Contoso Inc. He heads the Sales teams in North America (NA) and Europe regions. He wants to personally follow up with the customers of the high-value opportunities in the NA region so that the deals can be closed in time for Q2.  Following are the steps that Kenny should perform:
+Kenny Smith is a Vice President of the sales organization at Contoso Inc and heads the Sales teams in North America (NA) and Europe regions. Kenny wants to personally follow up with the customers of the high-value opportunities in the NA region so that the deals can be closed in time for Q2.  Following are the steps that Kenny should perform:
 
-1. Open the Q2 forecast for his org.
+1. Open the Q2 forecast for the org.
 1. Select **Account** in the **Group by** field. 
     All underlying opportunities of the forecast are grouped by their corresponding accounts.  
 1. Select **Filters** > **Add** > **Add row** and specify the following condition:  
@@ -130,7 +129,7 @@ Kenny Smith is a Vice President of the sales organization at Contoso Inc. He hea
     The high-value opportunities of the selected account are displayed. 
 
     > [!NOTE]
-    > The opportunities filter is persisted unless cleared manually. For example, when he opens the rollup records of another account in the NA region, the records are already filtered for high-value opportunities. Even if he changes the grouping to a User entity, the underlying opportunities filter persists and is automatically applied to the opportunities in the new group.  
+    > The opportunities filter is persisted unless cleared manually. For example, when Kenny opens the rollup records of another account in the NA region, the records are already filtered for high-value opportunities. Even if Kenny changes the grouping to a User entity, the underlying opportunities filter persists and is automatically applied to the opportunities in the new group.  
      
 
  
@@ -140,7 +139,7 @@ Kenny Smith is a Vice President of the sales organization at Contoso Inc. He hea
 
 2.	Select a row or a cell for any level of the hierarchy for which you want to see underlying opportunities. 
 
-    In this example, we're selecting **Kenny Smith**. As Kenny is a manager, all the underlying opportunities that are contributing to his team's forecast are listed. This view is opened in a table, by default.
+    In this example, we're selecting **Alyce Durham**. Because Alyce is a manager, all the underlying opportunities that are contributing to the team's forecast are listed. This view is opened in a table, by default.
 
     :::image type="content" source="media/forecast-view-underlying-opportunities.png" alt-text="Screenshot of the forecast underlying opportunities" lightbox="media/forecast-view-underlying-opportunities.png":::
 

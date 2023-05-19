@@ -1,11 +1,12 @@
 ---
-title: "Enable the detection of duplicate leads"
-description: "Enable duplicate lead detection to help sellers identify and address potential duplicate leads and keep the leads database clean."
-ms.date: 08/25/2022
-ms.topic: article
+title: Enable the detection of duplicate leads
+description: Enable duplicate lead detection to help sellers identify and address potential duplicate leads and keep the leads database clean.
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.topic: how-to
+ms.date: 04/13/2023
+ms.custom: bap-template 
 ---
 
 # Enable duplicate lead detection 
@@ -111,4 +112,5 @@ More information: [Security roles and privileges](/power-platform/admin/security
 
 ### See also
 
-[Manage duplicate leads](manage-duplicate-leads.md)
+[Enable duplicate lead detection for custom forms](enable-duplicate-detection-custom-forms.md)   
+[Manage duplicate leads](manage-duplicate-leads.md)  

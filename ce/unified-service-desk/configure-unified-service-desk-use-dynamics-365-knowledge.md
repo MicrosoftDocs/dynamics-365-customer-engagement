@@ -5,13 +5,9 @@ ms.date: 12/31/2019
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---
@@ -22,13 +18,8 @@ ms.custom:
 
 The **KM Control** and **Unified Interface KM Control** types of hosted controls expose a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in Microsoft Dataverse from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  
   
-::: moniker range="dynamics-usd-3"
- Create an instance of the **KM Control** type of hosted control to begin with your configuration. After you have created an instance of the hosted control, you can configure things mentioned later in this topic.
-::: moniker-end
 
-::: moniker range=">=dynamics-usd-4"
  Create an instance of the **KM Control** or **Unified Interface KM Control** type of hosted control to begin with your configuration. After you have created an instance of the hosted control, you can configure things mentioned later in this topic.
- ::: moniker-end
   
 <a name="Search"></a>   
 ## Configure knowledge base search options  

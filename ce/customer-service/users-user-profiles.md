@@ -5,7 +5,6 @@ ms.date: 10/03/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Use the enhanced experience to manage users (preview)

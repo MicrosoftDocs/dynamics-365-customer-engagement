@@ -4,7 +4,6 @@ description: "This topic provides the steps you can perform to set up quick repl
 ms.date: 10/03/2022
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Create quick replies

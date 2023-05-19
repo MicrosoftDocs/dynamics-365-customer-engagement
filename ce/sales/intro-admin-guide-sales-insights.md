@@ -1,15 +1,15 @@
 ---
-title: "Introduction on how to install and administer Sales Insights | MicrosoftDocs"
-description: "Introduction page showing administration and application configurations for Sales Insights features in Dynamics 365 Sales."
-ms.date: 09/08/2022
+title: Introduction on how to install and administer Sales Insights
+description: Introduction page showing administration and application configurations for Sales Insights features in Dynamics 365 Sales.
+ms.date: 04/21/2023
 ms.custom: intro-internal
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
 ---
+
 # Install and administer Sales Insights features 
 
 Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] features helps sellers to build stronger relationships with their customers, save time, and stay on top of their deals with real-time AI-based insights. In Sales Insights, some features are available for free along with Dynamics 365 Sales and some require an additional Sales Insights license to use in your organization. More information: [Overview](overview.md) 
@@ -36,9 +36,9 @@ The standard Sales Insights features&mdash;assistant (standard), Auto capture (s
 >[!NOTE]
 >The standard Sales Insights features aren't available with the Sales Professional app. 
 
-1.	[Review requirements and prerequisites](#requirements-and-prerequisites).  
-2.	[Enable standard Sales Insights features](#enable-standard-sales-insights-features).    
-3.	[Configure standard features as required](#configure-standard-sales-insights-features).
+1.    [Review requirements and prerequisites](#requirements-and-prerequisites).  
+2.    [Enable standard Sales Insights features](#enable-standard-sales-insights-features).    
+3.    [Configure standard features as required](#configure-standard-sales-insights-features).
 
 ### Requirements and prerequisites
 
@@ -102,14 +102,14 @@ The premium Sales Insights features provide intelligent insights about sales dat
 
 ### Review privacy and personal data requirements
 
-To learn about requirements related to safeguarding customers' privacy and personal data, go to [Privacy and personal data for Microsoft Dynamics 365](/dynamics365/get-started/gdpr).
+To learn about requirements related to safeguarding customers' privacy and personal data, go to [Privacy and personal data for Microsoft Dynamics 365](/dynamics365/get-started/privacy).
 
 You can perform the following tasks in the auto capture, relationship analytics, and conversation intelligence features to ensure that you are complying with privacy and personal data requirements.
 
 |Task|Supported Feature|Topic|
 |--|--|--|
-|View KPI data stored for a contact, lead, and opportunity by using system views, and export it to Excel.|[Relationship Analytics](relationship-analytics.md)|[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)|
-|Retrieve data for an contact, lead, opportunity, and system user from Azure service that is used to compute and store data by using a custom action.|[Relationship Analytics](relationship-analytics.md) and [Introduction to Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)|[Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action (GDPR)](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  |
+|View KPI data stored for a contact, lead, and opportunity by using system views, and export it to Excel.|[Relationship Analytics](relationship-analytics.md)|[View and export KPI data](view-export-KPI-data.md)|
+|Retrieve data for an contact, lead, opportunity, and system user from Azure service that is used to compute and store data by using a custom action.|[Relationship Analytics](relationship-analytics.md) and [Introduction to Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)|[Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  |
 
 ### Review the prerequisites
 

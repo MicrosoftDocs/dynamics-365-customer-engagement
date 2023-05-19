@@ -6,7 +6,6 @@ ms.reviewer: lavanyakr
 ms.topic: sample
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 search.audienceType: 
   - developer
 ---

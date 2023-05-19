@@ -4,7 +4,6 @@ description: "This article provides information about the prerequisites and syst
 ms.date: 02/20/2023
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Omnichannel for Customer Service system requirements

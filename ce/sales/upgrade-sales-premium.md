@@ -6,7 +6,6 @@ ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Upgrade to Dynamics 365 Sales Premium
@@ -32,7 +31,7 @@ Sellers achieve more with Dynamics 365 Sales Premium as they align to new custom
 
 Using data from Dynamics 365 and the entire Microsoft 365 ecosystem, the Sales Insights add-in for Dynamics 365 Sales offers a comprehensive set of intelligent capabilities, including AI-powered insights and recommendations, to help sellers work less and sell more.
 
-The Sales Premium license includes both Sales Enterprise and Sales Insights. If you previously used [limited-capacity premium features with Sales Enterprise](faqs-sales-insights.md#whats-the-capacity-limit-in-using-digital-sales), upgrade to get the full capacity of sales accelerator, conversation intelligence, and predictive scoring, along with the following Sales Insights benefits:
+The Sales Premium license includes both Sales Enterprise and Sales Insights. If you've previously used [digital selling capabilities with limited capacity](digital-selling.md), upgrade to get the full capacity of sales accelerator, conversation intelligence, and predictive scoring, along with the following Sales Insights benefits:
 
 - **Guided selling** guides sellers on their next course of action with timely and actionable insights.
 

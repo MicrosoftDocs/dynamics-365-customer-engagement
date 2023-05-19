@@ -5,7 +5,6 @@ ms.date: 02/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Allow updates for resolved and canceled cases
