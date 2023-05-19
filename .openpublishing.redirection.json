@@ -24365,11 +24365,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/sales/index.yml",
-      "redirect_url": "/dynamics365/sales/overview",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/sales/developer/exportpdf-api.md",
       "redirect_url": "../create-quote-pdf",
       "redirect_document_id": "false"
