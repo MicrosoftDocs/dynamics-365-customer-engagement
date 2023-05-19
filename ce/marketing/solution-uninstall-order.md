@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Marketing solution uninstall order (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Lists the correct order in which to remove solutions when uninstalling Dynamics 365 Marketing."
-ms.date: 10/19/2022
+ms.date: 05/19/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -21,10 +21,10 @@ search.audienceType:
 
 To delete Dynamics 365 from an instance, first open the Marketing setup wizard and run the uninstall command. The uninstall command releases your Dynamics 365 license and disconnects the Marketing services. If you'd also like to remove all of the related solutions from your instance, you must manually delete them in the order listed below. (Some of the items listed here may not be present on your instance, so just skip any missing items.) For complete instructions, see [Uninstall Marketing](uninstall-marketing.md).
 
-Some solutions can be used outside of dynamics marketing (mostly for sales) - it is not safe to uninstall those as it can break those workloads.
+Some solutions can be used outside of Dynamics 365 Marketing (most commonly for Dynamics 365 Sales). It is not safe to uninstall those shared solutions, as it can break related workloads.
 
 Moments-based marketing:
-|Solution name | Used outside of marketing|
+|Solution name | Used outside of Marketing|
 |--------------| ------------------------------|
 |DynamicsMKT_AnchorSolution|No|
 |DynamicsMKT_CxpAnalytics|Yes|
@@ -193,7 +193,7 @@ Segment-based marketing:
 |MicrosoftDynamics_ManagedIdentity|No|
 |MicrosoftDynamics_PreImport|No|
 
-If you see any other "anchor" solutions that start with "MicrosoftDynamics_", you can delete these too. They are probably left over from an earlier version that you upgraded. You can remove these in any order after you've uninstalled the other solutions.
+If you see any other "anchor" solutions that start with "MicrosoftDynamics_", you can delete those too. They are likely left over from an earlier version that you upgraded. You can remove these in any order after you've uninstalled the other solutions.
 
 Marketing application dependencies are installed alongside the Marketing application. The following dependencies can only be uninstalled if they are not used by other solutions:
 
