@@ -84,10 +84,10 @@ Use the following image and legend to understand the layout of the customer supp
 |2 | Expert notifications | The Power Automate flow that turns on and manages swarm invitations that are sent to experts. |
 |3 | Case details | Add out-of-box case fields. Administrators can configure which case fields show on the form. |
 |4 | Skills | Add relevant skills to help match experts for swarming. Onboard coworkers outside of your team as experts (through mapping or bulk-importing) so they can be recommended for swarms. |
-| Experts | Displays a list of experts and their skills who are configured for swarming.
-|5 | Condition rules | Conditions that define which skills to attach to swarms. The attached skills are then used to find and invite experts to swarms. |
-|6 | Automatically add to swarm | Team contacts automatically added to swarms because of their relationship to the customer or the agent assigned to the issue. |
-|7 | Agent guide | Administrator-provided guidance to help agents know what content to include to begin a swarm or manage the swarm process. |
+|5 | Experts | Displays a list of experts and their skills who are configured for swarming.
+|6 | Condition rules | Conditions that define which skills to attach to swarms. The attached skills are then used to find and invite experts to swarms. |
+|7 | Automatically add to swarm | Team contacts automatically added to swarms because of their relationship to the customer or the agent assigned to the issue. |
+|8 | Agent guide | Administrator-provided guidance to help agents know what content to include to begin a swarm or manage the swarm process. |
 
 To configure customer support swarming, you must have administrator privileges and complete the following steps.
 
