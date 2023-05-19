@@ -33,7 +33,7 @@ highlightedContent:
       
 additionalContent: 
   sections:
-  - title: Implement Sales
+  - title: Implement
     items:
     - title: Guidance 
       links: 
@@ -62,7 +62,7 @@ additionalContent:
         text: Set up sales basics 
       - url: sales-mobile/prereq-sales-mobile.md
         text: Set up the mobile experience
-  - title: Administer and develop Sales
+  - title: Administer and develop
     items:
     - title: Configure 
       links: 
@@ -97,7 +97,7 @@ additionalContent:
         text: Sales table reference
       - url: entity-reference.md
         text: Sales insights table reference 
-  - title: Use sales
+  - title: Use
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
