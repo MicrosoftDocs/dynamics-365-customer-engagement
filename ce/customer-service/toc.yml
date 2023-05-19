@@ -904,8 +904,6 @@
     items: 
     - name: Copilot in Customer Service
       items:
-      - name: Copilot data movement across geographies
-        href: copilot-data-movement.md
       - name: Configure Copilot in Customer Service
         href: configure-copilot-features.md
       - name: Use Copilot capabilities
