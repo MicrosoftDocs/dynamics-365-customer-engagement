@@ -698,6 +698,8 @@
         href: average-wait-time.md        
       - name: Delete a channel instance
         href: delete-channel.md
+      - name: Manage enhanced Active Conversation settings
+        href: add-customer-summary-settings.md
     - name: Agent experience
       items: 
       - name: Omnichannel for Customer Service for agents
@@ -820,8 +822,6 @@
           href: configure-google-business-messages-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
-        - name: Configure a Twitter channel
-          href: configure-twitter-channel.md
         - name: Configure a WhatsApp channel
           href: configure-whatsapp-channel.md
         - name: Configure a WeChat channel
@@ -1504,12 +1504,6 @@
         href: developer/reference/entities/msdyn_octag.md
       - name: msdyn_octeamschannelconfig
         href: developer/reference/entities/msdyn_octeamschannelconfig.md
-      - name: msdyn_octwitterapplication
-        href: developer/reference/entities/msdyn_octwitterapplication.md
-      - name: msdyn_octwitterhandle
-        href: developer/reference/entities/msdyn_octwitterhandle.md
-      - name: msdyn_octwitterhandlesecret
-        href: developer/reference/entities/msdyn_octwitterhandlesecret.md
       - name: msdyn_ocvoice
         href: developer/reference/entities/msdyn_ocvoice.md
       - name: msdyn_ocvoicechannellanguagesetting
@@ -1600,8 +1594,6 @@
         href: developer/reference/entities/msdyn_teamsengagementctx.md
       - name: msdyn_transcript
         href: developer/reference/entities/msdyn_transcript.md
-      - name: msdyn_twitterengagementctx
-        href: developer/reference/entities/msdyn_twitterengagementctx.md
       - name: msdyn_unifiedroutingdiagnostic
         href: developer/reference/entities/msdyn_unifiedroutingdiagnostic.md
       - name: msdyn_unifiedroutingrun

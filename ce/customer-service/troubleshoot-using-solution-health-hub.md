@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot issues in Customer Service and Omnichannel for Customer Service with Solution Health Hub | MicrosoftDocs"
 description: "Learn how to troubleshoot issues in Customer Service and Omnichannel for Customer Service by using the Solution Health Hub."
-ms.date: 08/02/2022
+ms.date: 05/05/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -129,8 +129,6 @@ When you run the analysis job, the following out-of-the-box rules are run. These
 | SMS settings should have all required fields | Verifies that SMS settings don't have empty customer ID and API key fields. |
 |Teams channel configuration should have work stream | Verifies that the Microsoft Teams channel configuration has an active work stream. More information: [Configure a Microsoft Teams channel](configure-microsoft-teams.md) |
 |Teams settings should have all required fields | Verifies that the bot ID field is not missing from the Teams settings. |
-|Twitter handle configuration should have work stream | Verifies that al Twitter handles have an active work stream. More information: [Configure a Twitter channel](configure-twitter-channel.md) |
-| Twitter settings should have all required fields | Verifies that Twitter settings don't have an empty callback URL field. |
 |WeChat channel configuration should have work stream | Verifies that all WeChat channel configurations have an active work stream. |
 | WeChat settings should have all required fields | Verifies that the **IP allowlist** and **Server address (URL)** fields aren't empty in the WeChat settings. More information: [Configure a WeChat channel](configure-wechat-channel.md) |
 |WhatsApp channel configuration should have work stream | Verifies that all WhatsApp phone numbers have an active work stream. More information: [Configure a WhatsApp channel](configure-whatsapp-channel.md) |

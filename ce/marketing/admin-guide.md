@@ -1,7 +1,7 @@
 ---
 title: "Administrator Guide (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Index page showing administration, system, user and app configuration for Dynamics 365 Marketing."
-ms.date: 07/22/2022
+ms.date: 04/21/2023
 ms.custom: 
   - dyn365-marketing
   - intro-internal
@@ -67,7 +67,7 @@ search.audienceType:
 <tr><td>
 
 <h2>Privacy and compliance</h2>
-<li><a href="gdpr.md" data-raw-source="[Data protection and GDPR](gdpr.md)">Data protection and GDPR</a></li>
+<li><a href="privacy.md" data-raw-source="[Data protection and privacy](privacy.md)">Data protection and privacy</a></li>
 <li><a href="double-opt-in.md" data-raw-source="[Set up double opt-in](double-opt-in.md)">Set up double opt-in for new subscriptions and consent changes</a></li>
 <li><a href="cookies.md" data-raw-source="[How Marketing uses cookies](cookies.md)">How Marketing uses cookies</a></li>
 
