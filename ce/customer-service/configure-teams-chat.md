@@ -381,7 +381,7 @@ Additionally, if the agent assigned to the record changes, the new agent (who ma
 ### Prerequisites
 
 - Only global administrators can configure Teams chat data to sync with Dynamics 365 records.
-- Resource-specific consent is required before you can turn on this setting. More information: [Resource-specific consent](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+- For multisession users, you must enable Teams integration in the productivity pane for the app profile assigned to the signed-in user in order for them to be able to select **Open chat** on the timeline. 
 
 ### Enable agents to view Teams chats on a connected record’s timeline:
 1. In Dynamics 365, go to one of the apps, and then perform the following steps.
