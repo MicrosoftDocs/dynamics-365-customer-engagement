@@ -97,14 +97,14 @@ You can connect a chat to a single record or multiple records. For example, if y
 As an agent, you have the following three options for getting rights to disconnect chats, all of which are controlled by your administrator.
 
 - You're the record owner, and your administrator enables this capability.
-- You're the most recent user to connect the chat to the record, and your administratior enables this capability.
-- You're administrator assigns the right to disconnect chats to you if you need the ability to disconnect chats from records.
+- You're the most recent user to connect the chat to the record, and your administrator enables this capability.
+- Your administrator assigns the right to disconnect chats to you if you need the ability to disconnect chats from records.
 
 If your administrator hasn't assigned any of the above rights to you or your role, you won't be able to disconnect any chat that you or other users have connected to records. If you need the ability to disconnect chats from records, ask your administrator to set assign the rights to you.
 
 ## Use suggested contacts
 
-The suggested contacts list displays users who are connected or have interacted with the record. Suggested contacts might include a team administrator or members who've logged an activity in the record timeline, and so forth. There are two different types of suggestions: AI-based and rules-based. For more information, see [Use suggested contacts to collaborate with the right coworkers](/dynamics365/customer-service/teams-use-suggested-contacts).
+The suggested contacts list displays users who are connected or have interacted with the record. Suggested contacts might include a team administrator or members who have logged an activity in the record timeline, and so forth. There are two different types of suggestions: AI-based and rules-based. For more information, see [Use suggested contacts to collaborate with the right coworkers](/dynamics365/customer-service/teams-use-suggested-contacts).
 
 ## Connect a Teams channel to a record
 
