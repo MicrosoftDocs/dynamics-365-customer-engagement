@@ -166,7 +166,7 @@ As an agent, when you start a connected chat or connect an existing chat to a re
  > [!NOTE]
  > Your administrator must enable this feature before you can use it.
 
-1. Go to the record for which you want to view the timeline or start a chat.. In the timeline, you can view all chats that are associated with the record.
+1. Go to the record for which you want to view the timeline or start a chat. In the timeline, you can view all chats that are associated with the record.
 
    > [!div class="mx-imgBorder"] 
    > ![Timeline with Teams chat posts.](media/teams-chat-timeline-record.png "A record's timeline showing Teams chat posts")
