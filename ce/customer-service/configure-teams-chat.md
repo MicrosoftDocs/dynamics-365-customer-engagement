@@ -149,11 +149,13 @@ Once you’ve enabled Teams chats, you can connect the chats to different record
     2. In **Collaboration**, select **Embedded chat using Teams**.
 
 1. Under **Connect chats to Dynamics 365 records**, select the record type you want to configure.<br>
-   If you want to add a record type, see Add record types in the section below.
+   If you want to add a record type, see [Add record types](#add-record-types)
     
 1. Select **Save**.
 
-**To add a record type to connect chats to in Dynamics 365 records**
+#### Add record types
+
+To add a record type to connect chats to in Dynamics 365 records:
 
 1. In Dynamics 365, go to one of the apps, and then perform the following steps.
 
