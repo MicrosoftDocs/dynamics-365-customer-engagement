@@ -295,7 +295,7 @@ The following table summarizes whether a user can disconnect a connected chat ba
 
 ## Configure the ability for users to join chats
 
-As an admin, you can enable users to view and easily join chats that are connected to records they have write access to, even if they weren't orginally part of those chats. You can configure the ability for users to join connected chats at a record-type level. This functionality can help you tailor the user experience for your business processes.
+As an admin, you can enable users to view and easily join chats that are connected to records they have write access to, even if they weren't originally part of those chats. You can configure the ability for users to join connected chats at a record-type level. This functionality can help you tailor the user experience for your business processes.
 
 > [!NOTE]
 > The join chat feature only works for connected chats and is on by default for the case record type.
