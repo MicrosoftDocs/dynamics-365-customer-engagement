@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 04/20/2023
+ms.date: 05/19/2023
 author: lalexms
 ms.author: laalexan
 ms.topic: article
@@ -76,7 +76,7 @@ The following data security and privacy considerations apply for Teams chat func
 
 ### Access the Teams settings
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and then perform the following steps.
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -105,7 +105,7 @@ To enable Teams chat settings for a custom multisession user, complete the follo
 
 1. Create the custom profile from the default profile in App profile manager. More info: [Create an app profile](/dynamics365/app-profile-manager/app-profile-manager#create-an-app-profile)
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and then perform the following steps.
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -135,7 +135,7 @@ Once you’ve enabled Teams chats, you can connect the chats to different record
 
 **To configure the ability to connect a chat to a record type:**
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and then perform the following steps.
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -155,7 +155,7 @@ Once you’ve enabled Teams chats, you can connect the chats to different record
 
 **To add a record type to connect chats to in Dynamics 365 records**
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and then perform the following steps.
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -216,7 +216,7 @@ You can assign the ability to disconnect chats to record owners or users who con
 
 **To enable or disable user-specific rights to disconnect chats:**
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and then perform the following steps.
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -249,7 +249,7 @@ The following table details the apps and security roles where the disconnect cha
 
 **To edit disconnect chat rights to security roles:**
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and then perform the following steps.
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -371,6 +371,35 @@ Automatic event updates can’t fully render inline images in rich text fields.
    > ![Suggested attributes for configuring chat updates when a field is changed.](media/suggested-attributes.png "Suggested attributes for configuring chat updates when a field is changed")
    
 1. Save your changes. Automatic notifications will now be sent whenever the attributes you defined for the entities are updated.
+
+## Configure the ability for agents to view Teams chats on a connected record’s timeline (preview)
+
+You can configure the ability to sync data from Teams to Dataverse so that agents can see chat entries in the timeline when they start a connected chat or connect an existing chat to a record. Agents will see the chat appear as a new activity on the timeline. It will show details about who connected the chat and when they connected, as well as the last person to send a message in the chat and the time they sent it.
+
+Additionally, if the agent assigned to the record changes, the new agent (who may not have been part of the chat originally), can see the chat on the timeline. If the Join chat setting is turned on, the new agent can directly join the chat (and be added as a chat participant) to see the full chat exchange.
+
+### Prerequisites
+
+- Only global administrators can configure Teams chat data to sync with Dynamics 365 records.
+- Resource-specific consent is required before you can turn on this setting. More information: [Resource-specific consent](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+
+### Enable agents to view Teams chats on a connected record’s timeline:
+1. In Dynamics 365, go to one of the apps, and then perform the following steps.
+
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+    
+    1. In the site map, in **Agent experience**, select **Collaboration**.
+    
+    1. In **Embedded chat using Teams**, select **Manage**.
+   
+   ### [Customer Service Hub](#tab/customerservicehub) 
+    
+    1. In the site map, select **Service Management**.
+    
+    1. In **Collaboration**, select **Embedded chat using Teams**.
+    
+1. Set the toggle to **Yes** for **Turn on Microsoft Teams chats inside Dynamics 365**.
+1. Set the toggle to **Yes** for **Sync Teams chats with records (Preview)**.
 
 ### See also
 
