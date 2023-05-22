@@ -30,9 +30,9 @@ To use the Field Service (Preview) Outlook capability, enable it as an Outlook A
 
 1. Under the **Organization** section, select Add-ins.
 
-1. Select **Add from URL** and select your manifest file for the Outlook Add-in.
+1. Select **Add from the Office Store** and select the **Field Service (Preview) Outlook Add-in**.
 
-1. Select **Install**.
+1. Select **Save**.
 
    If you choose not to enable the Outlook Add-in for your organization, each user can enable it.
 
@@ -40,13 +40,13 @@ To use the Field Service (Preview) Outlook capability, enable it as an Outlook A
 
 The Field Service (Preview) Teams app requires the following setup:
 
-- Install and set up Viva Connections, if it’s not already installed
-- Create user groups, if they are not already set up
-- Deploy Viva Connections Cards for Field Service (Preview)
-- Add Field Service (Preview) cards to the dashboard
-- Deploy Teams Tab app package
-- Assign audiences
-- Sync Azure Active Directory groups and Dataverse security roles
+- [Install and set up Viva Connections](#install-and-set-up-viva-connections), if it’s not already installed
+- [Create user groups](#create-user-groups), if they are not already set up
+- [Deploy Viva Connections Cards for Field Service (Preview)](#deploy-viva-connections-cards-for-field-service-preview)
+- [Add Field Service (Preview) cards to the dashboard](#add-field-service-preview-cards-to-the-viva-connections-dashboard)
+- [Deploy Teams Tab app package](#deploy-teams-tab-app-package)
+- [Assign audiences](#assign-security-roles-and-field-security-profiles)
+- [Sync Azure Active Directory groups and Dataverse security roles](#sync-azure-active-directory-groups-and-dataverse-security-roles)
 
 ### Install and set up Viva Connections
 
@@ -54,11 +54,13 @@ Viva Connections is included as part of Microsoft Teams license. If you do not h
 
 1. Log into the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 
-1. [Add the Viva Connections app](/viva/connections/add-viva-connections-app), customize it, and make it available to your organization.
+1. [Add the Viva Connections app](/viva/connections/add-viva-connections-app), customize it, customize the app settings, and make it available to your organization.
 
-1. Log into Teams as an admin and select **Add** for **Viva Connections**.
+1. Log into Teams as an admin.
 
-1. Set up the dashboard. Choose between **Frontline workers** and **Information workers**.
+1. Under **Apps**, search for and select **Viva Connections**. Then select **Add**.
+
+1. Open Viva Connections in Teams. Set up the dashboard. Choose between **Frontline workers** and **Information workers**.
 
 1. Customize the dashboard with apps based on your organization’s needs.
 
@@ -86,15 +88,19 @@ For SharePoint, see the following steps.
 
 1. Find and select the Viva Connection dashboard you created when you set up Viva Connections.
 
+   :::image type="content" source="media/fsp-sharepoint-vc-dashboard.png" alt-text="SharePoint screenshot of created Viva Connections dashboard":::
+
 1. Select **Settings** and then **Manage Viva Connections**.
 
 1. In the **Manage Viva Connections** pane, select **View Dashboard**.
 
+   :::image type="content" source="media/fsp-sharepoint-manage-vc.png" alt-text="SharePoint screenshot of Manage Viva Connections pane":::
+
 1. Select **Edit** and scroll to add a new card.
 
-1. Select **Add card**. Add all four of the Field Service (Preview) cards.
+1. Select **Add a card**. Select and add each of the four Field Service (Preview) cards.
 
-1. Select the audience for each of the cards. Select the card to add it. For more information about audience targeting, see [Use audience targeting](/viva/connections/use-audience-targeting-in-viva-connections).
+1. [Set the target audience](/viva/connections/use-audience-targeting-in-viva-connections) for each card.
 
 1. Preview the experience and then select **Publish** or **Republish**.
 
@@ -117,6 +123,7 @@ The Field Service (Preview) app displays under **Built for your org** in Teams.
 Assign Azure Active Directory (AAD) permissions for your frontline managers and frontline workers in Field Service or Power Platform Admin Center. Although this step is optional, we recommend you assign AAD permissions to ensure that adding and removing users is reflected in both Azure Active Directory and Power Platform. For Field Service, see the following steps. For Power Platform Admin Center, see [Assign security roles and field security profiles](../view-user-accounts-security-roles.md#step-2-assign-security-roles-and-field-security-profiles). For more information about users and security roles, see [Set up users and security profiles](../view-user-accounts-security-roles.md).
 
 1. Go to Field Service **Get Started** page and [set up your frontline workers](../frontline-worker-set-up.md#get-started).
+
 1. Assign a **Security Role** and **Field Security** role. The other fields are optional.
 
 ### Sync Azure Active Directory groups and Dataverse security roles
@@ -136,8 +143,8 @@ If some of the permissions of a user are inadequate to view or create work order
 1. Depending on your environment go to Power Apps.
 
    - For Prod, go to [make.powerapps.com](https://make.powerapps.com/)
-   - For Test, go to [make.test.powerapps.com](make.test.powerapps.com).
-   - For PreProd, go to [make.preprod.powerapps.com](make.preprod.powerapps.com).
+   - For Test, go to [make.test.powerapps.com](https://make.test.powerapps.com).
+   - For PreProd, go to [make.preprod.powerapps.com](https://make.preprod.powerapps.com).
 
 1. Select your environment in the top bar.
 
@@ -145,8 +152,10 @@ If some of the permissions of a user are inadequate to view or create work order
 
 1. Find and select the **Default Solution**.
 
-1. Select Column security profiles.
+   :::image type="content" source="media/fsp-powerapps-default-solution.png" alt-text="PowerApps screenshot showing Default Solution":::
+
+1. Under **Object**, select **Column security profiles**.
+
+   :::image type="content" source="media/fsp-powerapps-column-security-profiles.png" alt-text="PowerApps screenshot showing Column security profiles selection":::
 
 1. Edit the desired column level profiles.
-
-
