@@ -37,7 +37,10 @@ When you enable the Copilot case summary feature, agents can see the case summar
    - **CC_IncidentId**: **Case (Text)**
 1. Set the **Show hidden** toggle to **On**.
 1. Save and publish the customizations.
-1. To ensure that the case summary doesn't load on the form when the Copilot case summary capability isn't enabled, perform the following steps:
+
+### Disable display of Copilot generated case summaries
+
+ To ensure that the case summary doesn't load on a custom case form when the Copilot case summary feature isn't enabled, perform the following steps:
   1. In Power Apps, you must add the event handler function for the On Change event. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui). 
   1. Specify the following details in **Configure Event**:
      - **Event Type**: **On Change**
@@ -46,9 +49,9 @@ When you enable the Copilot case summary feature, agents can see the case summar
      - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
 1. Save and publish the changes.
 
-## Enable Copilot capabilities for custom apps
+## Enable Copilot features for custom apps
 
-You can enable the Copilot capabilities for custom apps in your organization. Perform the following steps to add and configure the setting definition in Power Apps to enable the Copilot capabilities for a specific app. 
+You can enable the Copilot features for custom apps in your organization. Perform the following steps enable the Copilot features for a specific app: 
 
 1. In [Power Apps](https://make.powerapps.com/), add the **Customer Service Copilot Enabled** setting definition. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition).
 1. In the **Edit Customer Service Copilot Enabled** pane, in set the **Setting app values** section, for a required app, set the  **New app value** to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
@@ -56,4 +59,4 @@ You can enable the Copilot capabilities for custom apps in your organization. Pe
 
 ## Next steps
 
-[Use Copilot capabilities](use-copilot-capabilities.md)
+[Use Copilot to solve customer issues (preview)](use-copilot-capabilities.md)

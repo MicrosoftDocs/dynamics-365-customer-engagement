@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.collection: 
 ---
 
-# Enable and manage Copilot features in Customer Service (Preview)
+# Manage Copilot features in Customer Service (Preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -31,7 +31,7 @@ Enable the Copilot features for agents to use Copilot to:
 
 ## Regional availability and supported languages
 
-The Copilot features are available in the United States only and supported in English only.
+The Copilot features are available in the United States only and supported in the English language only.
 
 ## Prerequisites
 
