@@ -21,9 +21,9 @@ ms.collection:
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Copilot provides realtime AI assistance that helps agents resolve issues faster, handle cases efficiently, and automate time consuming tasks so that they can deliver value to customers.
+Copilot provides real-time AI assistance that helps agents automate time consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
 
-When you enable the Copilot features, agents can use Copilot to: 
+Enable the Copilot features for agents to use Copilot to: 
 - Respond to questions.
 - Compose an email. 
 - Draft a chat response. 
@@ -31,16 +31,16 @@ When you enable the Copilot features, agents can use Copilot to:
 
 ## Regional availability and supported languages
 
-The Copilot features are available only in the United States and supported only in English.
+The Copilot features are available in the United States only and supported in English only.
 
 ## Prerequisites
 
 - You have the System Administrator role.
-- Knowledge management is configured in your environment. For more information, see: [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) and [Integrated search providers](add-search-provider.md).
+- [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) and [Integrated search](add-search-provider.md) are configured in your environment.
 
 ### Opt-in to continue with Copilot setup
 
- Before you enable a Copilot feature, review the terms and conditions and  provide your consent to use Copilot. You can go to the corresponding Copilot setup page in Customer Service admin center and then select **Opt in** to continue with the setup.
+ Before you enable a Copilot feature, review the terms and conditions and provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center and then select **Opt in** to continue with the setup.
 
 ## Enable Copilot to respond to questions, compose an email, or a chat response
 
@@ -62,7 +62,7 @@ Copilot case summaries help agents understand the context of a case, enabling th
 To allow Copilot to summarize cases and conversations, perform the following steps:
 
 1.	In Customer Service admin center select **Productivity** in Agent Experience.
-2.	In **Productivity**, select **Manage**  in **Copilot help pane (preview)**.
+2.	In **Productivity**, select **Manage**  in **Summaries (preview)**.
 1. Select **Make case summaries available to agents** to display a summary of the case on the Case page. 
 
 Perform the steps in [display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
