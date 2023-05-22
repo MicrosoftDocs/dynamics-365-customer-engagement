@@ -1,6 +1,6 @@
 ---
-title: Display Copilot case summary in custom case forms.
-description: Learn how to display Copilot case summary on custom case forms.
+title: Configure Copilot settings for custom case forms and custom apps  
+description: Learn how to enable advanced Copilot settings.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.collection: 
 ---
 
-# Display Copilot case summary on custom case forms
+# Configure Copilot settings for custom case forms and custom apps
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -21,7 +21,11 @@ ms.collection:
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-When you enable the Copilot case summary capability, agents can see the case summary by default on the out-of-the-box case forms. You can perform the following steps for the application to display the Copilot case summary on your custom case forms:
+You can configure the Copilot case summary on custom case forms and enable the Copilot features for custom apps.
+
+## Display Copilot case summary on custom case forms
+
+When you enable the Copilot case summary feature, agents can see the case summary by default on out-of-the-box case forms. You can perform the following steps for the application to display the Copilot case summary on your custom case forms:
 
 1. In [Power Apps](https://make.powerapps.com/), add the **msdyn_CopilotCaseSummaryLibrary.js** web resource to your solution. For more information, see: [Add a web resource to a solution](/power-apps/maker/model-driven-apps/create-edit-web-resources#add-a-web-resource-to-a-solution).
 1. Select **Add existing** > **More** > **Developer** > **Custom Control**. Search for and add the **mscrmcontrols.csintelligence.copilotcasesummarycontrol** custom control.
@@ -31,7 +35,7 @@ When you enable the Copilot case summary capability, agents can see the case sum
 1. Set the values of the following fields as:
    - **CC_CaseSummary**: Any table column. Copy the unique name of the specified column.
    - **CC_IncidentId**: **Case (Text)**
-1. Set the **Show hidden** toggle to On.
+1. Set the **Show hidden** toggle to **On**.
 1. Save and publish the customizations.
 1. To ensure that the case summary doesn't load on the form when the Copilot case summary capability isn't enabled, perform the following steps:
   1. In Power Apps, you must add the event handler function for the On Change event. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui). 
@@ -48,3 +52,8 @@ You can enable the Copilot capabilities for custom apps in your organization. Pe
 
 1. In [Power Apps](https://make.powerapps.com/), add the **Customer Service Copilot Enabled** setting definition. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition).
 1. In the **Edit Customer Service Copilot Enabled** pane, in set the **Setting app values** section, for a required app, set the  **New app value** to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
+
+
+## Next steps
+
+[Use Copilot capabilities](use-copilot-capabilities.md)
