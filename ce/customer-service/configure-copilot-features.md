@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.collection: 
 ---
 
-# Enable and manage Copilot (Preview) features in Customer Service
+# Enable and manage Copilot features in Customer Service (Preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -42,6 +42,9 @@ The Copilot features are available in the United States only and supported in En
 
  Before you enable a Copilot feature, review the terms and conditions and provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center and then select **Opt in** to continue with the setup.
 
+:::image type="content" source="media/copilot-opt-in.png" alt-text="Opt in to get copilot features.":::
+
+
 ## Enable Copilot to respond to questions, compose an email, or a chat response
 
 Perform the following steps to enable the Copilot features:
@@ -54,6 +57,8 @@ Perform the following steps to enable the Copilot features:
     - **For email**:  To display the **Write an email** tab on the **Copilot help pane (preview)**. Copilot helps agents create email responses based on the context of the case.
 1. Copilot automatically refreshes your knowledge base and displays the date and time of when it was last updated. You can also select **Update knowledge base** to manually update the knowledge base.
 1. You can add up to five web trusted web domains for Copilot to search when generating responses. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels, represented by back slashes (/) after the .com part of the URL. 
+
+:::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
 
 ## Enable summarization of cases
 
