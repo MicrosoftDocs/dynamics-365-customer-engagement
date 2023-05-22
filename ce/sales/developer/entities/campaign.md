@@ -78,7 +78,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsTemplate](#BKMK_IsTemplate)
 - [Message](#BKMK_Message)
-- [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [Name](#BKMK_Name)
 - [Objective](#BKMK_Objective)
 - [OtherCost](#BKMK_OtherCost)
@@ -317,31 +316,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxLength|256|
 |RequiredLevel|None|
 |Type|String|
-
-
-### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
-
-**Added by**: Predictive Opportunity Scoring Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Describes whether campaign is opted out or not|
-|DisplayName|GDPR Optout|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_gdproptout|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_gdproptout Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|1|Yes||
-|0|No||
-
-**DefaultValue**: 0
-
 
 
 ### <a name="BKMK_Name"></a> Name
