@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.collection: 
 ---
 
-# Enable and manage Copilot (Preview) features in Customer Service
+# Enable and manage Copilot features in Customer Service (Preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
