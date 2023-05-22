@@ -1,16 +1,16 @@
 ---
-title: Configure Copilot settings for custom case forms and custom apps  
-description: Learn how to enable advanced Copilot settings.
+title: Configure Copilot features for custom case forms and custom apps  
+description: Learn how to enable Copilot features for custom case forms and custom apps.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 05/19/2023 
+ms.date: 05/22/2023 
 ms.custom: bap-template 
 ms.collection: 
 ---
 
-# Configure Copilot settings for custom case forms and custom apps
+# Configure Copilot features for custom case forms and custom apps
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
