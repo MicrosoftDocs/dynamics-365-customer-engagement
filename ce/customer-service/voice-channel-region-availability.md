@@ -4,7 +4,7 @@ description: Use this article to know about the supported cloud locations for th
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 05/19/2023
+ms.date: 05/22/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ---
