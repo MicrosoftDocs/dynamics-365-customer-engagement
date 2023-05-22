@@ -73,7 +73,7 @@ In the corresponding Copilot configuration pages, you can select **Record transc
 
 ## Make Copilot available to agents
 
-You can use agent experience profiles to control which agents get access to the Copilot help pane. To enable the Copilot features for an agent experience profile, perform the following steps:
+For agents to be able to use the Copilot help pane and Copilot case summaries, you need to enable the Copilot features in agent experience profiles.
 
 1. Go to **Agent experience profiles** in **Agent experience** > **Workspaces**.
 1. Select the required agent experience profile.
@@ -83,8 +83,7 @@ You can use agent experience profiles to control which agents get access to the 
 
 ## Assign roles and privileges
 
-Only users with the Customer Service Representative role can use the Copilot features. If users have using custom roles, ensure that they have the following privileges. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
-
+Out of the box, users with the Customer Service Representative role only can use the Copilot features. Therefore, make sure that users with custom roles have the following privileges: 
 - prvCreatemsdyn_copilotinteraction 
 - prvAppendmsdyn_copilotinteraction 
 - prvCreatemsdyn_copilotinteractiondata 
@@ -101,6 +100,9 @@ Only users with the Customer Service Representative role can use the Copilot fea
 - prvReadmsdyn_agentcopilotsetting 
 - prvReadmsdyn_copilotsummarizationsetting 
 - prvIntelligenceUsage
+
+More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
+
 
 ## Next steps
 
