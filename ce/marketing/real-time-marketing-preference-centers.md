@@ -33,6 +33,7 @@ The default preference center includes options for users to opt in or opt-out of
 - Update the page directly to change the text displayed for each purpose to make it clear to the user
 - Change whether checking the box opts the user in or out of communications
 - Add or remove a purposes so the preference center collects the right information
+- Add topics to the form to capture more granular preferences
 
 > [!div class="mx-imgBorder"]
 > ![Preference center screenshot.](media/real-time-marketing-preference-center.png "Preference center screenshot")
