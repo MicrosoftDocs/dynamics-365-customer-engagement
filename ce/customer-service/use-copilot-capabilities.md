@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection: 
-ms.date: 05/19/2023
+ms.date: 05/22/2023
 ms.custom: bap-template
 ---
 
@@ -30,7 +30,7 @@ Make sure that your administrator has enabled the Copilot features.
 
 ## Ask a question
 
-When you sign into any of the Customer Service agent app, Copilot becomes activated on the right pane with the **Ask a question** tab in focus. Copilot acts as your partner that can help answer questions without you having to search knowledge sources or other articles for information.
+When you sign into any of the Customer Service agent apps, Copilot becomes activated on the right pane with the **Ask a question** tab in focus. Copilot acts as your partner that can help answer questions without you having to search knowledge sources or other articles for information.
 
 ### Draft questions
 
@@ -41,18 +41,18 @@ You can ask free form questions just as you'd ask your colleague or supervisor w
 With Copilot, you can do the following:
 
 - **Ask a direct question**: Copilot will show the relevant answer from the trove of knowledge sources configured by your organization.
-- **Ask follow-up turn by turn questions**: If Copilot isn't able to generate the right answer immediately, you can engage in a conversation and guide Copilot to provide the correct answer. This is done in a natural conversational manner, just as you would engage in a conversation with a colleague.
+- **Ask follow-up turn by turn questions**: If Copilot isn't able to generate the right answer immediately, you can engage in a conversation and guide Copilot to provide the correct answer in a natural conversational manner.
 - **Ask Copilot to attempt a better response**: Copilot can also rephrase responses based on additional guidance such as “Can you summarize your response?” or “Can you attempt a response providing details for each of the steps you mentioned?”
 
 If you are satisfied with the response that Copilot provides, you can use the whole or a part of it to answer the customer question.
 
 ### Use the responses
 
-You can use the Copilot responses in multiple ways, such as follows:
+You can use the Copilot responses in multiple ways, such as:
 
 - Copy manually the parts that you find useful into your chat or read out from it during a voice conversation. You can select the copy icon also to directly copy to clipboard.  
-- The **Send to customer** option is available when there is an active digital messaging conversation. When you select **Send to customer**, an editing window opens within which you can make any modifications to the response provided by Copilot and send the response to the Customer directly without having to manually copy it. You can also change customer keywords based on which Copilot has generated the response to create a more accurate response.
-- Select **Check sources** to see the relevant knowledge or website links from which the response was drawn from by Copilot. This can help as supplemental information in case it needs to be referred to by you or to share with the customer.
+- The **Send to customer** option is available when there is an active digital messaging conversation. When you select **Send to customer**, an editing window opens within which you can make any modifications to the response provided by Copilot and send the response to the customer directly without having to copy it. You can also change customer keywords based on which Copilot has generated the response to create a more accurate response.
+- Select **Check sources** to see the relevant knowledge or website links from which Copilot has drawn the response. This can help as supplemental information when you want to refer to or share with the customer.
 
 ### Clear chat to start over
 
@@ -66,18 +66,18 @@ You can rate the usefulness of the Copilot responses by selecting the thumbs-up 
 
 With Copilot, you can craft email replies to customers quickly and be more effective in solving customer issues.
 
-c:::image type="content" source="media/copilot-email-draft.png" alt-text="Copilot draft emails to select from.":::
+:::image type="content" source="media/copilot-email-draft.png" alt-text="Copilot draft emails to select from.":::
 
 ### Write an email with Copilot
 
-When you start drafting an email, Copilot will automatically open on the right pane and presents five predefined prompts and one custom prompt as follows that you can select from:
+When you start drafting an email, Copilot automatically opens in the right pane and presents five predefined prompts and one custom prompt as follows:
 
 - **Suggest a call**: Writes a reply suggesting a call with the customer today or tomorrow.
-- **Request more information**: Writes a reply to collect additional details from the customer to help resolve their problem.
+- **Request more information**: Writes a reply to request additional details from the customer to help resolve their problem.
 - **Empathize with feedback**: Writes a reply to provide an empathetic response to a customer voicing a complaint about a situation.
 - **Provide product/service details**: Writes a reply to offer details or answer customer questions about a particular product or service.
 - **Resolve the customer's problem**: Writes a reply to provide a resolution and resolution steps if applicable to the customer problem.
-- **Custom**: Allows you to provide own prompt for the email reply.
+- **Custom**: Allows you to provide your own prompt for the email reply.
 
 ### Review and copy suggested replies
 
@@ -119,4 +119,6 @@ Select the card to expand the case summary. This action triggers the loading of 
 
 You can copy the summary, provide feedback, and refresh the summary.
 
-## Next steps
+### See also
+
+[Manage Copilot features in Customer Service](configure-copilot-features.md)  
