@@ -46,8 +46,8 @@ The Copilot features are available in the United States only and supported in En
 
 Perform the following steps to enable the Copilot features:
 
-1.	In Customer Service admin center select **Productivity** in **Agent Experience**.
-2.	In **Productivity**, select **Manage** in **Copilot help pane (preview)**.
+1. In Customer Service admin center select **Productivity** in **Agent Experience**.
+2. In **Productivity**, select **Manage** in **Copilot help pane (preview)**.
 1. Select the following options: 
     - **Make Copilot available to agents**: To display the **Ask a question** tab on the **Copilot help pane (preview)** when agents login. Agents can ask questions conversationally, and the Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
     - **For customer chat**: To display the one-click response generation button on both the conversation panel for a conversation and on the Ask a question tab on the Copilot help pane. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
@@ -61,8 +61,8 @@ Copilot case summaries help agents understand the context of a case, enabling th
 
 To allow Copilot to summarize cases and conversations, perform the following steps:
 
-1.	In Customer Service admin center select **Productivity** in Agent Experience.
-2.	In **Productivity**, select **Manage**  in **Summaries (preview)**.
+1. In Customer Service admin center select **Productivity** in Agent Experience.
+2. In **Productivity**, select **Manage**  in **Summaries (preview)**.
 1. Select **Make case summaries available to agents** to display a summary of the case on the Case page. 
 
 Perform the steps in [display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
