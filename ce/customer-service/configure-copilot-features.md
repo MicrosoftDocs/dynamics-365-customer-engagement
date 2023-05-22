@@ -7,7 +7,7 @@ ms.reviewer: neeranelli
 ms.topic: how-to
 ms.date: 05/22/2023 
 ms.custom: bap-template 
-ms.collection: 
+ms.collection:
 ---
 
 # Manage Copilot features in Customer Service (Preview)
@@ -23,10 +23,10 @@ ms.collection:
 
 Copilot provides real-time AI assistance that helps agents automate time consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
 
-Enable the Copilot features for agents to use Copilot to: 
+Enable the Copilot features for agents to use Copilot to:
 - Respond to questions.
-- Compose an email. 
-- Draft a chat response. 
+- Compose an email.
+- Draft a chat response.
 - Summarize a case.
 
 ## Regional availability and supported languages
@@ -50,7 +50,7 @@ The Copilot features are available in the United States only and supported in th
 Perform the following steps to enable the Copilot features:
 
 1. In Customer Service admin center select **Productivity** in **Agent Experience**.
-2. In **Productivity**, select **Manage** in **Copilot help pane (preview)**.
+1. In **Productivity**, select **Manage** in **Copilot help pane (preview)**.
 1. Select the following options: 
     - **Make Copilot available to agents**: To display the **Ask a question** tab on the **Copilot help pane (preview)** when agents login. Agents can ask questions conversationally, and the Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
     - **For customer chat**: To display the one-click response generation button on both the conversation panel for a conversation and on the Ask a question tab on the Copilot help pane. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
@@ -67,7 +67,7 @@ Copilot case summaries help agents understand the context of a case, enabling th
 To allow Copilot to summarize cases, perform the following steps:
 
 1. In Customer Service admin center select **Productivity** in Agent Experience.
-2. In **Productivity**, select **Manage**  in **Summaries (preview)**.
+1. In **Productivity**, select **Manage**  in **Summaries (preview)**.
 1. Select **Make case summaries available to agents** to display a summary of the case on the Case page. 
 
 Perform the steps in [display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
@@ -84,7 +84,7 @@ For agents to be able to use the Copilot help pane and Copilot case summaries, y
 1. Select the required agent experience profile.
 1. In the **Productivity Pane**, select **Turn On** for **Copilot (preview)**.
 
- For more information, see: [Add users to agent experience profiles](../app-profile-manager/add-profile-default.md) and [Assign users, templates, configure productivity pane, channels](../app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
+For more information, see: [Add users to agent experience profiles](../app-profile-manager/add-profile-default.md) and [Assign users, templates, configure productivity pane, channels](../app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
 
 ## Assign roles and privileges
 
@@ -108,7 +108,8 @@ Out of the box, users with the Customer Service Representative role only can use
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
+### Next steps
 
-## Next steps
+[Display Copilot case summary on custom case forms](copilot-powerapps-settings.md)  
+[Use Copilot features](use-copilot-features.md)  
 
-[Display Copilot case summary on custom case forms](copilot-powerapps-settings.md)

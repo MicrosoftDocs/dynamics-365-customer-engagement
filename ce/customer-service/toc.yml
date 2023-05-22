@@ -910,10 +910,10 @@
         href: configure-copilot-features.md
       - name: Configure Copilot settings for custom case forms and custom apps
         href: copilot-powerapps-settings.md
-      - name: Use Copilot capabilities
-        href: use-copilot-capabilities.md
+      - name: Use Copilot features
+        href: use-copilot-features.md
     - name: Administrator experience
-      items: 
+      items:
       - name: Productivity pane
         href: productivity-pane.md
       - name: Enable productivity pane and smart assist
