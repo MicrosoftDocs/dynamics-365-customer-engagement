@@ -65,7 +65,7 @@ The following table lists the sovereign region, URL, and general availability of
 |-------|---------|-----------|
 |Government Community Cloud (GCC) Moderate| To be announced |To be announced|
 |GCC High|To be announced |To be announced |
-|GCC DOD|To be announced |To be announced |
+|GCC Department of Defense (DoD)|To be announced |To be announced |
 |China | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 
