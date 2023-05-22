@@ -21,7 +21,8 @@ The pricing to forward calls are charged as per [PSTN inbound rate](voice-channe
 
 ## How you can forward Teams calls
 When you receive an incoming Teams calls, you can forward Teams user numbers calls, auto attendant calls, and calls in call queues to Microsoft Digital Contact Center. The call forwarded to Microsoft Digital Contact Center seems as it is from original caller. If you configure any identification record for the calls you receive, it helps to recognise the callers who called in the past. 
-To know how to forward the Teams calls, check below methods
+
+Check below options to know how to forward the Teams calls.
 - Forward the calls of Teams user numbers using Call forwarding in Microsoft Teams. To know how to forward the calls in Teams, see [Configure call settings for users - Microsoft Teams](microsoftteams/user-call-settings#use-the-teams-admin-center)
 - Forward the calls of Teams auto attendants using auto attendant settings in Teams. For more information, see [Set up a Microsoft Teams auto attendant - Microsoft Teams](microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details). You can also add Microsoft Digital Contact Center number in the call menu.
 
@@ -29,9 +30,10 @@ To know how to forward the Teams calls, check below methods
 
 - Forward the calls in Teams call queues by using call queue settings in Teams. For more information, see [Create a call queue in Microsoft Teams - Microsoft Teams](microsoftteams/create-a-phone-system-call-queue).
     - To enable the call forwarding for calls in the call queues, you can check below settings in Microsoft Teams admin center.
-      - In **Call overflow handling**, set the **Maximum calls in the queue** to zero to forward all calls. The default is 50, but it can range from 0 to 200.
+      - To forward all calls, set the **Maximum calls in the queue** to zero in **Call overflow handling**. The default is 50, but it can range from 0 to 200.
 
-   :::image type="content" source="media/max-call-queues.png" alt-text="Maximum calls in the queue":::
-       - In **Call timeout handling** set the **Maximum wait time** to five minutes to forward the calls in the call queues after five minutes.
+          :::image type="content" source="media/max-call-queues.png" alt-text="Maximum calls in the queue":::
 
-   :::image type="content" source="media/max-wait-time.png" alt-text="Maximum wait time":::
+      - To forward the calls in the call queues after five minutes, set the **Maximum wait time** to five minutes in **Call timeout handling**.
+
+         :::image type="content" source="media/max-wait-time.png" alt-text="Maximum wait time":::
