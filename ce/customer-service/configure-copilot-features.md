@@ -59,7 +59,7 @@ Perform the following steps to enable the Copilot features:
 
 Copilot case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description.
 
-To allow Copilot to summarize cases and conversations, perform the following steps:
+To allow Copilot to summarize cases, perform the following steps:
 
 1. In Customer Service admin center select **Productivity** in Agent Experience.
 2. In **Productivity**, select **Manage**  in **Summaries (preview)**.
@@ -71,7 +71,7 @@ Perform the steps in [display case summary on custom case forms](copilot-powerap
 
 In the corresponding Copilot configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record and understand how agents are interacting with Copilot and how Copilot is performing in a support organization. Agents can also share feedback about Copilot actions, that helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
 
-## Enable Copilot in agent experience profiles
+## Make Copilot available to agents
 
 You can use agent experience profiles to control which agents get access to the Copilot help pane. To enable the Copilot features for an agent experience profile, perform the following steps:
 

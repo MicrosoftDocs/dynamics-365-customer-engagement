@@ -1,6 +1,6 @@
 ---
-title: Use Copilot capabilities in Customer Service
-description: Learn about how you as agents can use the Copilot capabilities to enhance productivity when working on service requests.
+title: Use Copilot features in Customer Service
+description: Learn about how you as agents can use the Copilot features to enhance productivity when working on service requests.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -26,7 +26,7 @@ Copilot is an AI-powered tool that revolutionizes the agent experience in Dynami
 
 ## Prerequisites
 
-Make sure that your administrator has enabled the Copilot capabilities.
+Make sure that your administrator has enabled the Copilot features.
 
 ## Ask a question
 
