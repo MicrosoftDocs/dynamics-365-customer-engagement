@@ -428,7 +428,17 @@ items:
     - name: Collaborate with Microsoft Teams
       href: field-service-teams-collaboration.md
     - name: Dynamics 365 Field Service (Preview)
-      href: /fs-front-line/front-line-overview.md
+      items:
+        - name: Field Service (Preview) overview
+          href: ../fs-front-line/front-line-overview.md
+        - name: Field Service (Preview) for Administrators
+          href: ../fs-front-line/front-line-admin.md
+        - name: Field Service (Preview) Outlook add-in with Copilot for the Frontline Manager
+          href: ../fs-front-line/front-line-outlook.md
+        - name: Field Service (Preview) Teams app for the Frontline Manager
+          href: ../fs-front-line/front-line-teams-manager.md
+        - name: Field Service (Preview) Teams app for the Frontline Worker
+          href: ../fs-front-line/front-line-teams-worker.md
     - name: Dynamics 365 Supply Chain Management
       href: supply-chain-field-service-integration.md
     - name: Dynamics 365 Remote Assist

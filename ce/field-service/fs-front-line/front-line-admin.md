@@ -13,12 +13,16 @@ ms.custom: bap-template
 
 As an administrator for your organization, set up tasks for the Field Service (Preview) depends on which capabilities your organization chooses to use. You can use one or the other or both.
 
-- Set up the Field Service (Preview) Outlook Add-in
-- Set up the Field Service (Preview) Teams app
+- [Set up the Field Service (Preview) Outlook Add-in](#set-up-the-field-service-preview-outlook-add-in)
+- [Set up the Field Service (Preview) Teams app](#set-up-field-service-preview-teams-app)
 
 ## Set up the Field Service (Preview) Outlook Add-in
 
 The Field Service (Preview) Outlook Add-in requires the add-in to be enabled. You can quickly enable the Outlook Add-in for your organization and the frontline employees are ready to go.
+
+### Prerequisites
+
+- Global admin or Exchange admin permissions in the Microsoft 365 Admin Center
 
 ### Enable the Field Service (Preview) Outlook Add-in
 
@@ -47,6 +51,15 @@ The Field Service (Preview) Teams app requires the following setup:
 - [Deploy Teams Tab app package](#deploy-teams-tab-app-package)
 - [Assign audiences](#assign-security-roles-and-field-security-profiles)
 - [Sync Azure Active Directory groups and Dataverse security roles](#sync-azure-active-directory-groups-and-dataverse-security-roles)
+
+### Prerequisites
+
+Admin permissions for the following apps:
+
+- Microsoft Teams Admin Center
+- Microsoft Teams
+- Microsoft 365 Admin Center
+- SharePoint Admin Center
 
 ### Install and set up Viva Connections
 
@@ -159,3 +172,5 @@ If some of the permissions of a user are inadequate to view or create work order
    :::image type="content" source="media/fsp-powerapps-column-security-profiles.png" alt-text="PowerApps screenshot showing Column security profiles selection":::
 
 1. Edit the desired column level profiles.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,7 +41,8 @@ The Dynamics 365 Field Service (Preview) for Teams uses Viva Connection cards an
 
 1. Select **Save**. After the work order is created, the work order number displays. The **System Status** default is **Unscheduled**.
 
-   > [!TIP] If you want to open the work order in Field Service, select the pop-out icon.
+   > [!TIP]
+   > If you want to open the work order in Field Service, select the pop-out icon.
 
    :::image type="content" source="media/fsp-viva-pop-out-icon.png" alt-text="Screenshot of Field Service (Preview) Teams work orders highlighting pop-out icon":::
 
@@ -68,3 +69,5 @@ The Dynamics 365 Field Service (Preview) for Teams uses Viva Connection cards an
 1. Make the necessary changes and select **Save**.
 
    :::image type="content" source="media/fsp-viva-edit-work-order.png" alt-text="Screenshot of Field Service (Preview) Teams updated work order":::
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

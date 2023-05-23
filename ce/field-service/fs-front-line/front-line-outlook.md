@@ -139,3 +139,5 @@ See View work orders and Edit a work order for any work orders created by the Co
    :::image type="content" source="media/fsp-work-order-details.png" alt-text="Field Service (Preview) Outlook work order details":::
 
 1. Make the necessary changes and select **Save**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

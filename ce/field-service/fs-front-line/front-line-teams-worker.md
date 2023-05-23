@@ -51,7 +51,7 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
    - Open a map to locate the service address
    - View tasks and products in Field Service
-   - Launch Remote Assist for remote collaboration
+   - [Launch Remote Assist for remote collaboration](#call-for-remote-collaboration-through-remote-assist)
    - Change the Booking status
    - Change the Actual arrival or end time
 
@@ -65,4 +65,4 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
 1. Select **OK** for Remote Assist to access your camera and select **Launch call**.
 
-For more information about Dynamics 365 Remote Assist, see [Overview of Dynamics 365 Remote Assist](../dynamics365/mixed-reality/remote-assist/ra-overview).
+For more information about Dynamics 365 Remote Assist, see [Overview of Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/ra-overview).
