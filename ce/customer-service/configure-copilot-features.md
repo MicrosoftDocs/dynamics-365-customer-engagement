@@ -109,7 +109,7 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvReadmsdyn_conversationinsight
 
 > [!NOTE]
-> You must add the prvReadmsdyn_conversationinsight privilege to out of the box Customer Service Representative role.
+> You must add the prvReadmsdyn_conversationinsight privilege to the out-of-the-box Customer Service Representative role.
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
