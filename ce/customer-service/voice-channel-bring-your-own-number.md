@@ -60,11 +60,11 @@ The new phone number will be displayed in the **Phone numbers** list and is read
 
 We recommend below practices 
 
-1.	You may use the same port number for Teams and Azure Communication Services (ACS) direct routing, but you must use a different Fully Qualified Domain Name (FQDN) in Teams and ACS.
-2.	To avoid call timeout, we recommend below settings of Secure Real-Time Protocol (SRTP):
-	- Reset SRTP Upon Re-key = Disable
+-	You may use the same port number for Teams and Azure Communication Services direct routing, but you must use a different Fully Qualified Domain Name (FQDN) in Teams and Azure Communication Services.
+- To avoid call timeout, check below settings of Secure Real-Time Protocol (SRTP):
+  - Reset SRTP Upon Re-key = Disable
   - Generate SRTP Keys = Only if Required
-3.	Ensure that you have enough transcoding licenses if your telecom and Microsoft don't support the same codec.
+- Ensure that you have enough transcoding licenses if your service provider and Azure communication services don't support the same codec.
 
   
 ### See also
