@@ -73,6 +73,8 @@ First, make sure there is a barcode field on the record type you want to add the
 > [!div class="mx-imgBorder"]
 > ![Field properties for the barcode scanner control in Power Apps.](./media/enablefortabandmobile.png)
 
+> [!Note]
+> Currently the barcode scanner control does not support setting control-level error notifications. See [setNotification docs](/power-apps/developer/model-driven-apps/clientapi/reference/controls/setnotification) for details.
 
 ## Step 2: Test scanning a barcode to populate the field value
 
