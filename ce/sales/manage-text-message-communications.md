@@ -69,10 +69,6 @@ You can only view conversations if the outbound phone number or record is assign
     
     1. Select the notification.            
        
-       The **Activities** grid opens with the list of conversations related to you.       
-    
-    1. Double-click a conversation.    
-       
        The conversation pane opens on the right side of the page.
 
 - **Sales accelerator workspace**:
