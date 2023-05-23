@@ -42,5 +42,5 @@ Verify that the users who need to use the org chart feature have the following p
 |----------|-------------|--------------|---------------------|  
 | Custom Entities | Microsoft Orgchart node entity | Organization | - Create<br>- Write<br>- Read<br>- Delete |
 
-To know about security role permissions, see [Security roles and privileges](/power-platform/admin/security-roles-privileges)
+To know more about security role permissions, see [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
