@@ -46,7 +46,7 @@ To provision unified routing in Customer Service, do the following:
 
 1. Set the toggle to **Yes** for **Turn on unified routing**. A message that unified routing is being provisioned appears.
 
-After unified routing is provisioned, **Unified Routing** appears in the site map.
+After unified routing is provisioned, **Unified routing successfully provisioned** message appears above the toggle key.
 
 > ![Site map view for unified routing.](media/unified-routing-site-map.png)
 
