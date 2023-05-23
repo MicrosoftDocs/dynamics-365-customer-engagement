@@ -1,0 +1,180 @@
+### YamlMime:Hub
+
+# This template provides the structure of a product hub page. For additional guidance and information, see the article, Create a Dynamics 365 product hub page in the Contributors guide.
+# To provide feedback on this template, contact [bace feedback team](mailto:templateswg@microsoft.com).
+
+# Remove all comments and capitalized text in this template before you sign off or merge to the main branch
+
+title:  <product name> documentation # < 60 chars
+summary: Include this sentence: Discover how to make the most of Dynamics 365 <product> with online training courses, docs, and videos covering product capabilities and how-to articles. Then add a second sentence that starts with "Learn...." and explain what users will learn from your documentation # < 500 chars.
+# brand: aspnet | azure | dotnet | dynamics | m365 | office | sql | windows | visual-studio | xamarin
+brand: dynamics
+
+metadata:
+  title: <product name> documentation # Required; page title displayed in search results. Include the brand. For example, Dynamics 365 Commerce documentation < 60 chars.
+  description: Discover how to make the most of Dynamics 365 <product> with online training courses, docs, and videos covering product capabilities and how-to articles. Then add a second sentence that starts with "Learn...." and explain what users will learn from your documentation # Required; This text is displayed in search results. < 500 chars.
+  ms.topic: hub-page # Required
+  author: github author #Required; your GitHub user alias, with correct capitalization.
+  ms.author: msauthor #Required; microsoft alias of author; optional team alias.
+  ms.date: 01/10/2023 #Required; mm/dd/yyyy format.
+  ms.custom: bap-template
+  hide_bc: true
+
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+# Do not change the following cards. You should only need to update the URLs to provide the correct links to your product documentation.
+
+  items:
+    # Card
+    - title: Welcome to Dynamics 365 <product>
+      itemType: get-started
+      url: <link to "Welcome to..." article for your product>
+    # Card
+    - title: What's new
+      itemType: whats-new
+      url: <link to the main what's new article for your product>
+    # Card
+    - title: Training
+      itemType: training
+      url: <link to training main page for your product>
+    # Card
+    - title: Troubleshoot
+      itemType: concept
+      url: <link to troublshooting and faq page>
+      
+additionalContent: 
+  sections:
+  - title: Implement <product name>
+# Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
+# Each card should have at least three and no more than five links. Do not include a "See also" link.
+    items:
+    - title: Guidance 
+      links: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text:
+    - title: Try/Buy/Deploy
+      links: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+    - title: Set up 
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text:  
+  - title: Administer and develop <product name>
+    items:
+    - title: 
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+    - title: 
+      links: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+    - title: 
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+    - title: 
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+  - title: Use <product name>
+    items:
+    - title: 
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+    - title: 
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+    - title: 
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+    - title: 
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+    - title: 
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text:   
+  - title: Related products
+    items:
+        # Card
+        
+        - title: 
+          summary:
+          url: 
+        - title: 
+          summary: 
+          url:
+        - title: 
+          summary:
+          url:
+        - title: 
+          summary:
+          url:
+        - title:
+          summary: 
+          url:
