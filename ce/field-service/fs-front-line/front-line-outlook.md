@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Field Service (Preview) Outlook add-in with Copilot for the Frontline Manager
 
-The Dynamics 365 Field Service provides an Outlook add-in for frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly from your email without leaving Outlook. You can quickly respond to requests for service or questions about existing requests.
+The Dynamics 365 Field Service (Preview) provides an Outlook add-in for frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly from your email without leaving Outlook. You can quickly respond to requests for service or questions about existing requests.
 
 The Field Service Outlook Add-in (Preview) provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Or, you can create a work order manually.
 
@@ -34,20 +34,21 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 ## Open the Field Service (Preview) Outlook add-in
 
-1. Within an email in Outlook, select **More actions (...)**, and then select **Field Service (Preview)**.
+1. While in an email, select **More actions (...)**, and then select **Field Service (Preview)**.
 
    :::image type="content" source="media/fsp-outlook-sign-in.png" alt-text="Field Service (Preview) Outlook sign-in":::
 
 1. Select **Sign in to get started**.
 
-1. Select your environment. If you don’t know your environment, see [Find your environment and organization ID and name](https://learn.microsoft.com/en-us/power-platform/admin/determine-org-id-name).
+1. Select your environment. If you don’t know your environment, see [Find your environment and organization ID and name](/power-platform/admin/determine-org-id-name).
 
 1. Select **Get started**.
 
 1. Add **Field Service (Preview)** to your favorites.
    - Select **View** > **View settings**.
-   - Select **Customize actions**.
+   - Select **Mail** > **Customize actions**.
    - Under **Message surface**, select **Field Service (Preview)**.
+   - Select **Save**. Close settings.
 
    The Field Service (Preview) icon :::image type="icon" source="media/fsp-icon.png"::: displays in all your emails.
 
@@ -58,7 +59,7 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 ## Create a work order in Outlook using Copilot in Field Service (Preview)
 
-1. In your Outlook email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
+1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
 
 1. On the **Copilot** tab select **Create a work order from email**.
 
@@ -71,13 +72,15 @@ If you don’t already have Outlook and Field Service licenses, contact your org
    :::image type="content" source="media/fsp-copilot-review-work-order.png" alt-text="Field Service (Preview) Outlook pane showing an auto-generated work order for review":::
 
 1. At a minimum, ensure the required information is entered for the work order.
+
    - [Service Account](../accounts.md)
    - [Work Order Type](../create-work-order-types.md)
    - [Price List](../create-price-list.md)
 
 1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**.
 
-   > [!TIP] If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon.
+   > [!TIP]
+   > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon.
 
    :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service (Preview) Outlook pane highlighting the pop-out icon to go to Field Service":::
 
@@ -85,7 +88,7 @@ See View work orders and Edit a work order for any work orders created by the Co
 
 ## Create a work order manually in Outlook
 
-1. In your Outlook email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
+1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
 
 1. On the **Work orders** tab, select the **Create work order (+)** button.
 
@@ -110,7 +113,7 @@ See View work orders and Edit a work order for any work orders created by the Co
 
 ## View work orders in Outlook
 
-1. In your Outlook email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
+1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
 
 1. On the **Work orders** tab, a list of up to 50 work orders display. The most recent work order displays first.
 
@@ -127,7 +130,7 @@ See View work orders and Edit a work order for any work orders created by the Co
 
 ## Edit a work order in Outlook
 
-1. In your Outlook email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
+1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
 
 1. On the **Work orders** tab, a list of up to 50 work orders display.
 
