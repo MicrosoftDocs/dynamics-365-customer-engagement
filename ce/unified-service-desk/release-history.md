@@ -21,6 +21,17 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 <a name="Release_4_2"></a>
 
+## Release history for Unified Service Desk 4.2.0.57, May 2023
+
+This release includes a CefSharp upgrade from version 103.0.120 to 110.0.300, and EdgeWebView2 SDK Update.
+The list provides an overview of documentation updates made in this release of Unified Service Desk.
+
+| Topic | Updates |
+|---------------|-------------------|
+|[Add parameters using Edge WebView2 Process](edge-webview2-process.md#add-arguments-using-edge-webView2-process) |Added information about how to add parameters using **Edge WebView2 Process**. |
+|[Debug Edge WebView2 Process](edge-webview2-process.md#debug-edge-webview2-process) |Added information about how to access and debug all the **Edge WebView2 Process** instances running in a desktop locally and remotely.
+ 
+
 ## Release history for Unified Service Desk 4.2.0.51, January 2023
 
 This release includes the Newtonsoft.Json version upgrade to 13.0.2, and some accessibility and security fixes. 
