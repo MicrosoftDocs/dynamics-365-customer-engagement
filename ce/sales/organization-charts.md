@@ -34,7 +34,7 @@ Depending on your role, you can use the org charts feature as described in the l
 ## Permissions required
 
 >[!NOTE]
->By default, permissions to view enhamced org char are available for Salesperson or any other primary roles.
+>By default, permissions to view enhanced org chart are available for Salesperson and Sales Manager.
 
 Verify that the users who need to use the org chart feature have the following permissions.
 
