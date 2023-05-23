@@ -89,6 +89,7 @@ For more information, see: [Add users to agent experience profiles](../app-profi
 ## Assign roles and privileges
 
 Out of the box, users with the Customer Service Representative role only can use the Copilot features. Therefore, make sure that users with custom roles have the following privileges: 
+
 - prvCreatemsdyn_copilotinteraction 
 - prvAppendmsdyn_copilotinteraction 
 - prvCreatemsdyn_copilotinteractiondata 
@@ -105,6 +106,10 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvReadmsdyn_agentcopilotsetting 
 - prvReadmsdyn_copilotsummarizationsetting 
 - prvIntelligenceUsage
+- prvReadmsdyn_conversationinsight
+
+> [!NOTE]
+> You must add the prvReadmsdyn_conversationinsight privilege to out of the box Customer Service Representative role.
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
