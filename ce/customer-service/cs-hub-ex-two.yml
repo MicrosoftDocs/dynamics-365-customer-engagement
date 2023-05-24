@@ -142,11 +142,11 @@ additionalContent:
     - title: Use the app that's meant for you
       links:
       - url: https://learn.microsoft.com/en-us/dynamics365/customer-service/cs-admin-center
-        text: Admins: Use Customer Service admin center 
+        text: Admins - Use Customer Service admin center 
       - url: https://learn.microsoft.com/en-us/dynamics365/customer-service/csw-overview?tabs=customerserviceadmincenter
-        text: Agents: Use Customer Service workspace 
+        text: Agents - Use Customer Service workspace 
       - url: https://learn.microsoft.com/en-us/dynamics365/customer-service/introduction-omnichannel
-        text: Supervisors: Use Omnichannel for Customer Service  
+        text: Supervisors - Use Omnichannel for Customer Service  
     - title: Copilot in Customer Service
       links:
       - url: /dynamics365/customer-service/configure-copilot-features
