@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)https://c4-word-edit-15.cdn.office.net/we/s/161652341003_App_Scripts/sdxprefetcher.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>SDX Asset Prefetcher</title>
+<script>
+
+var validOriginDomain = new RegExp("^https://.*\\.officeapps\\.live\\.com$");
+window.addEventListener("message", function (event) {
+    if (validOriginDomain.test(event.origin)) {
+        try {
+            if (event.data.action == "prefetch") {
+                if (event.data.type == 'link') {
+                    event.data.urls.forEach(function (url) {
+                        var el = document.createElement('link');
+                        el.rel = 'prefetch';
+                        el.href = url;
+                        document.getElementsByTagName('head')[0].appendChild(el);
+                    });
+                }
+            }
+        } catch (e) {
+
+        }
+    }
+}, false);
+</script>
+<link rel="prefetch" href="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"><link rel="prefetch" href="https://appsforoffice.microsoft.com/lib/1/hosted/word-web-16.00.js"><link rel="prefetch" href="https://appsforoffice.microsoft.com/lib/1/hosted/en-us/office_strings.js"><link rel="prefetch" href="https://appsforoffice.microsoft.com/lib/1/hosted/telemetry/oteljs_agave.js"><link rel="prefetch" href="https://appsforoffice.microsoft.com/lib/1/hosted/webauth/webauth.browserauth.js"><link rel="prefetch" href="https://appsforoffice.microsoft.com/lib/beta/hosted/word.js"><link rel="prefetch" href="https://nleditor.osi.office.net/NlApps/Ideas"></head>
+<body>
+
+
+</body></html>
