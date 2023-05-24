@@ -70,4 +70,4 @@ The Dynamics 365 Field Service (Preview) for Teams uses Viva Connection cards an
 
    :::image type="content" source="media/fsp-viva-edit-work-order.png" alt-text="Screenshot of Field Service (Preview) Teams updated work order":::
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

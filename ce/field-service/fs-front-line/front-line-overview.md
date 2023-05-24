@@ -23,4 +23,4 @@ As an organization, you can use the capabilities of the Field Service (Preview) 
 
 Dynamics 365 Field Service (Preview) allows administrators and users to access content and share data outside of Microsoft 365 once consent is given to link their Microsoft work or school account with their Dynamics 365 account. See [Field Service (Preview) for Administrators](front-line-admin.md).
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

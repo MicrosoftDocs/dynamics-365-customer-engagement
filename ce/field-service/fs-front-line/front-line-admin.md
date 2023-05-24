@@ -173,4 +173,4 @@ If some of the permissions of a user are inadequate to view or create work order
 
 1. Edit the desired column level profiles.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

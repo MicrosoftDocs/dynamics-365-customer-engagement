@@ -66,3 +66,5 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 1. Select **OK** for Remote Assist to access your camera and select **Launch call**.
 
 For more information about Dynamics 365 Remote Assist, see [Overview of Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/ra-overview).
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

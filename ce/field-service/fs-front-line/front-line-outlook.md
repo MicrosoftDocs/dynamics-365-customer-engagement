@@ -84,7 +84,7 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
    :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service (Preview) Outlook pane highlighting the pop-out icon to go to Field Service":::
 
-See View work orders and Edit a work order for any work orders created by the Copilot or manually.
+See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#edit-a-work-order-in-outlook) for any work orders created by the Copilot or manually.
 
 ## Create a work order manually in Outlook
 
@@ -124,7 +124,7 @@ See View work orders and Edit a work order for any work orders created by the Co
 
 1. To find a particular work order, enter the work order ID in the **Find by ID** box and select **Search**.
 
-1. To filter the work orders by status or priority, select **Filter**, make your choice, and then select **Apply**.
+1. To filter the work orders by status or priority, select **Filter**, make your choice, and then select **Apply**. To remove a filter, select **Filter**, clear each selection, and then select **Apply**.
 
 1. Select a work order to view or edit the details.
 
@@ -140,4 +140,4 @@ See View work orders and Edit a work order for any work orders created by the Co
 
 1. Make the necessary changes and select **Save**.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
