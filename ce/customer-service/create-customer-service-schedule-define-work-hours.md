@@ -1,7 +1,7 @@
 ---
 title: "Create customer service schedule and define work hours (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to create a customer service schedule and define the work hours for Dynamics 365 Customer Service."
-ms.date: 03/20/2023
+ms.date: 05/24/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -27,7 +27,7 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
   
 ## Create a customer service schedule  
   
-1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
+1. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions assigned at the user level only.
   
     #### Check your security role
   
