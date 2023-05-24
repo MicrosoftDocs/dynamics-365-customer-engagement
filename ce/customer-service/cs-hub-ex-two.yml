@@ -90,11 +90,13 @@ additionalContent:
       - url: /power-apps/user/add-activities
         text: Use the timeline to quickly view activities 
       - url: /dynamics365/customer-service/overview-cases
-        text: Leverage case management
+        text: Track individual customer service issues through cases
       - url: /dynamics365/app-profile-manager/productivity-tools
         text: Use productivity tools
       - url: /dynamics365/customer-service/overview-knowledge-management#search-knowledge-articles
-        text: Search knowledge articles 
+        text: Search knowledge articles
+      - url: /dynamics365/customer-service/overview-unified-routing
+        text: Classify and assign using unified routing
     - title: Enable intelligent self-service 
       links:
       - url: https://learn.microsoft.com/en-us/dynamics365/customer-service/knowledge-base-search-methods
