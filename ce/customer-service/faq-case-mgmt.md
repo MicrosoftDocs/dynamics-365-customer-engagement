@@ -15,7 +15,7 @@ A few answers to common questions about the case management are listed here.
 
 ## An error occurs when agents try to resolve a case. What should I do?
 
-Agents encounter the following error when they select **Resolve Case**:
+Agents see the following error when they select **Resolve Case**:
 
 'Could not load type "Microsoft.crm.cdshttpContext" from assembly "Microsoft.Xrm.Kernal.Contacts.Internal.Version=9.0.0.0, Culture=neutral'
 
@@ -37,6 +37,6 @@ As part of April 2023 wave, agents see the minimal case resolution dialog instea
 
 Agents see the following permission errors when they access, create, delete, or update a case:
 
-Principal user (Id= &lt;<GUID>&gt;, type=8, roleCount=5, privilegeCount=465, accessMode=0), is missing prvReadincident privilege (Id=&lt;<GUID>&gt;) on OTC=112 for entity 'incident'. context.Caller=&lt;<GUID>&gt;
+Principal user (Id= \<GUID>, type=8, roleCount=5, privilegeCount=465, accessMode=0), is missing prvReadincident privilege (Id=\<GUID>) on OTC=112 for entity 'incident'. context.Caller=\<GUID>
 
 The role assigned to the user is missing security privileges. To resolve the error, ensure that role assigned to the user has read access to the case entity. More information, see: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
