@@ -1,6 +1,6 @@
 ---
-title: Forward your Teams call to Microsoft Digital Contact Center | MicrosoftDocs 
-description: Learn about forwarding Teams calls to Microsoft Digital Contact Center
+title: Forward your Teams call to Digital Contact Center Platform| MicrosoftDocs 
+description: Learn about forwarding Teams calls to Digital Contact Center Platform
 author: venki-ms 
 ms.author: v-duddupdiv
 ms.reviewer: neeranelli
@@ -10,9 +10,9 @@ ms.date: 05/29/2023
 ms.custom: bap-template 
 ---
 
-# Forward your Teams calls to Microsoft Digital Contact Center
+# Forward your Teams calls to Digital Contact Center Platform
 
-You can forward the Microsoft Teams calls to Microsoft Digital Contact Center.
+You can forward the Microsoft Teams calls to Digital Contact Center Platform.
 The charges for forward calls are based on [PSTN inbound rate](voice-channel-pricing-scenarios.md). The standard charges of Microsoft Teams calls are also applicable as the calls are transferred out of Teams.
 
 ## Prerequisites
@@ -20,9 +20,9 @@ The charges for forward calls are based on [PSTN inbound rate](voice-channel-pri
 - Configure auto attendants and call queues to send calls to external numbers. For more information, see [Plan for Teams auto attendants and call queues - Microsoft Teams](/microsoftteams/plan-auto-attendant-call-queue#prerequisites)
 
 ## How you can forward Teams calls
-When you receive an incoming Teams call, you can forward Teams user numbers calls, auto attendant calls, and calls in call queues to Microsoft Digital Contact Center. The same number from Teams is visible in Microsoft Digital Contact Center and it also supports record identifcation.
+When you receive an incoming Teams call, you can forward Teams user numbers calls, auto attendant calls, and calls in the call queues to Digital Contact Center Platform. The same number from Teams is visible in Digital Contact Center Platform and it also supports record identifcation.
 
-Check below options to know how to forward the Teams calls.
+You can enable following scenarios to forward Teams call to Digital Contact Centre Platform.
 - Forward the calls of Teams user numbers using Call forwarding in Microsoft Teams. To know how to forward the calls in Teams, see [Configure call settings for users - Microsoft Teams](/microsoftteams/user-call-settings#use-the-teams-admin-center)
 - Forward the calls of Teams auto attendants using auto attendant settings in Teams. For more information, see [Set up a Microsoft Teams auto attendant - Microsoft Teams](/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details). You can also add Microsoft Digital Contact Center number in the call menu.
 
