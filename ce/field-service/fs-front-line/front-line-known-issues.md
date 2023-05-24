@@ -1,7 +1,7 @@
 ---
-title: Dynamics 365 Field Service (Preview) overview
-description: Learn about the Dynamics 365 Field Service (Preview).
-ms.date: 05/19/2023
+title: Field Service (Preview) known issues
+description: Learn about the known issues in Dynamics 365 Field Service (Preview).
+ms.date: 05/24/2023
 ms.topic: faq
 author: jasonxian-msft
 ms.author: jasonxian
