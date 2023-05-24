@@ -13,23 +13,23 @@ ms.custom: bap-template
 # Forward your Teams calls to Digital Contact Center Platform
 
 You can forward the Microsoft Teams calls to Digital Contact Center Platform.
-The charges for forward calls are based on [PSTN inbound rate](voice-channel-pricing-scenarios.md). The standard charges of Microsoft Teams calls are also applicable as the calls are transferred out of Teams.
+The charges for the forwarded calls are calculated based on [PSTN inbound rate](voice-channel-pricing-scenarios.md). The standard charges of Microsoft Teams calls are also applicable for forwarded calls.
 
 ## Prerequisites
 
-- Configure auto attendants and call queues to send calls to external numbers. For more information, see [Plan for Teams auto attendants and call queues - Microsoft Teams](/microsoftteams/plan-auto-attendant-call-queue#prerequisites)
+Configure auto attendants and call queues to send calls to external numbers. For more information, see: [Plan for Teams auto attendants and call queues - Microsoft Teams](/microsoftteams/plan-auto-attendant-call-queue#prerequisites)
 
 ## How you can forward Teams calls
-When you receive an incoming Teams call, you can forward Teams user numbers calls, auto attendant calls, and calls in the call queues to Digital Contact Center Platform. The same number from Teams is visible in Digital Contact Center Platform and it also supports record identifcation.
+You can forward Teams user numbers calls, auto attendant calls, and calls in the call queues to Digital Contact Center Platform. The agent sees the same number from which the customer called the Teams Number. The application also identifies the customer once the ID record identification is enabled.
 
-You can enable following scenarios to forward Teams call to Digital Contact Centre Platform.
-- Forward the calls of Teams user numbers using Call forwarding in Microsoft Teams. To know how to forward the calls in Teams, see [Configure call settings for users - Microsoft Teams](/microsoftteams/user-call-settings#use-the-teams-admin-center)
-- Forward the calls of Teams auto attendants using auto attendant settings in Teams. For more information, see [Set up a Microsoft Teams auto attendant - Microsoft Teams](/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details). You can also add Microsoft Digital Contact Center number in the call menu.
+Call forwarding is supported for following scenarios:
+- Calls to Teams user numbers: Perform the steps in [Configure call settings for users - Microsoft Teams](/microsoftteams/user-call-settings#use-the-teams-admin-center) to enable call forwarding.
+- Calls to auto attendants: Perform the steps in [Set up a Microsoft Teams auto attendant - Microsoft Teams](/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) to enable call forwarding to auto attendants. You can also forward the calls directly to Digital Contact Center Platform number.
 
    :::image type="content" source="media/add-number-call-menu.png" alt-text="Adding Microsoft Digital Contact Center number in the call menu":::
 
-- Forward the calls in Teams call queues by using call queue settings in Teams. For more information, see [Create a call queue in Microsoft Teams - Microsoft Teams](/microsoftteams/create-a-phone-system-call-queue).
-    - To enable the call forwarding for calls in the call queues, you can check following settings in Microsoft Teams admin center.
+- Calls in call queues: Perform the steps in [Create a call queue in Microsoft Teams - Microsoft Teams](/microsoftteams/create-a-phone-system-call-queue) to enable call forwarding for calls in call queues.
+    - To enable the call forwarding for calls in the call queues, enable the following settings in Microsoft Teams admin center.
       - To forward all calls, set the **Maximum calls in the queue** to zero in **Call overflow handling**. The default is 50, but it can range from 0 to 200.
 
           :::image type="content" source="media/max-call-queues.png" alt-text="Maximum calls in the queue":::
