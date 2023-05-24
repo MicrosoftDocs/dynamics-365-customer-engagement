@@ -92,9 +92,9 @@ Moments-based marketing:
 | DynamicsMKT_EmailChannel | No |
 | DynamicsMKT_CxpEmailEditor | No |
 | DynamicsMKT_CxpEmailEditorCanvas | No |
-| MicrosoftDynamics_EmailEditorModule | No |
-| MicrosoftDynamics_EmailEditorCanvasModule | No |
-| DynamicsMKT_EmailEditorCanvasShared | No |
+| MicrosoftDynamics_EmailEditorModule | Yes |
+| MicrosoftDynamics_EmailEditorCanvasModule | Yes |
+| DynamicsMKT_EmailEditorCanvasShared | Yes |
 | DynamicsMKT_EmailEditorShared | No |
 | DynamicsMKT_OrchestrationActions | No |
 | DynamicsMKT_ImageGenerator | No |
@@ -182,7 +182,7 @@ Segment-based marketing:
 | MicrosoftDynamics_EventManagement | No |
 | DynamicsMKT_EmailEditorCanvasShared | No |
 | DynamicsMKT_EmailEditorShared | No |
-| MicrosoftDynamics_ContentEditor | No |
+| MicrosoftDynamics_ContentEditor | Yes |
 | MicrosoftDynamics_Orchestration | No |
 | MicrosoftDynamics_ReusableBlocks | No |
 | DynamicsMKT_SharedMarketingSettings | No |
