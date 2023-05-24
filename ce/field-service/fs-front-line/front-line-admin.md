@@ -93,7 +93,7 @@ Obtain the Viva Connections cards for Field Service (Preview) to make them avail
 
 You can set up the Field Service (Preview) cards to the Viva Connections Dashboard through SharePoint or Viva Connections. There are four cards available for the Field Service (Preview) for Teams. Determine the audience for each type of card. For frontline managers, we recommend the **Work orders all in one place** and **Remote Assist** cards. For frontline workers we recommend the **Upcoming work order**, **Work orders assigned**, and **Remote Assist** cards.
 
-If you organization has a SharePoint home site and wants to use it for Viva Connections or you already have Viva Connections with a home site, see [edit the dashboard and add cards using Viva Connections](/viva/connections/create-dashboard#how-to-edit-the-dashboard-from-sharepoint-when-you-have-a-home-site).
+If your organization has a SharePoint home site and wants to use it for Viva Connections or you already have Viva Connections with a home site, see [edit the dashboard and add cards using Viva Connections](/viva/connections/create-dashboard#how-to-edit-the-dashboard-from-sharepoint-when-you-have-a-home-site).
 
 For SharePoint, see the following steps.
 
@@ -101,9 +101,9 @@ For SharePoint, see the following steps.
 
 1. Find and select the Viva Connection dashboard you created when you set up Viva Connections.
 
-   :::image type="content" source="media/fsp-sharepoint-vc-dashboard.png" alt-text="SharePoint screenshot of created Viva Connections dashboard":::
-
 1. Select **Settings** and then **Manage Viva Connections**.
+
+   :::image type="content" source="media/fsp-sharepoint-vc-dashboard.png" alt-text="SharePoint screenshot of created Viva Connections dashboard":::
 
 1. In the **Manage Viva Connections** pane, select **View Dashboard**.
 

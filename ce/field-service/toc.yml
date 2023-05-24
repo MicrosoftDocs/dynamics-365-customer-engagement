@@ -430,15 +430,15 @@ items:
     - name: Dynamics 365 Field Service (Preview)
       items:
         - name: Overview
-          href: /fs-front-line/front-line-overview.md
+          href: fs-front-line/front-line-overview.md
         - name: Administrators
-          href: /fs-front-line/front-line-admin.md
+          href: fs-front-line/front-line-admin.md
         - name: Outlook add-in with Copilot for the Frontline Manager
-          href: /fs-front-line/front-line-outlook.md
+          href: fs-front-line/front-line-outlook.md
         - name: Teams app for the Frontline Manager
-          href: /fs-front-line/front-line-teams-manager.md
+          href: fs-front-line/front-line-teams-manager.md
         - name: Teams app for the Frontline Worker
-          href: /fs-front-line/front-line-teams-worker.md
+          href: fs-front-line/front-line-teams-worker.md
     - name: Dynamics 365 Supply Chain Management
       href: supply-chain-field-service-integration.md
     - name: Dynamics 365 Remote Assist
@@ -478,7 +478,7 @@ items:
   - name: Resource Scheduling Optimization FAQs
     href: rso-faq.yml
   - name: Field Service (Preview) known issues
-    href: /fs-front-line/front-line-known-issues.md
+    href: fs-front-line/front-line-known-issues.md
 
 - name: More resources
   items:

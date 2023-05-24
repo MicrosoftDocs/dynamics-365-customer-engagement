@@ -64,7 +64,7 @@ The Dynamics 365 Field Service (Preview) for Teams uses Viva Connection cards an
 
 1. Select the work order you want to edit. Use **Find by ID** or **Filter** to find the work order if necessary.
 
-<!--- Add screenshot --->
+   <!--- Add screenshot --->
 
 1. Make the necessary changes and select **Save**.
 
