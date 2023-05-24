@@ -6,6 +6,21 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/view-export-kpi-data-gdpr.md",
+      "redirect_url": "/dynamics365/sales/view-export-KPI-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/gdpr.md",
+      "redirect_url": "/dynamics365/marketing/privacy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/gdpr-use-features.md",
+      "redirect_url": "/dynamics365/marketing/privacy-use-features",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/design-digital-content.md",
       "redirect_url": "real-time-marketing-email",
       "redirect_document_id": "false"
@@ -2022,6 +2037,32 @@
       "redirect_url": "/dynamics365/customer-service/customer-service-hub-user-guide-email-overview",
       "redirect_document_id": "false"
     },
+    {
+      "source_path": "ce/sales/developer/reference/custom-actions/msdyn_WKWGDPRDeleteStatus.md",
+      "redirect_url": "msdyn_WKWPrivacyDeleteStatus",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/reference/custom-actions/msdyn_WKWDeleteGDPRData.md",
+      "redirect_url": "msdyn_WKWDeletePrivacyData",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/dynamics-365-sales-gdpr.md",
+      "redirect_url": "dynamics-365-sales-privacy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/embedded-intelligence-gdpr.md",
+      "redirect_url": "embedded-intelligence-privacy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/sales-gdpr-faqs.md",
+      "redirect_url": "sales-privacy-faqs",
+      "redirect_document_id": "false"
+    },
+    
     {
       "source_path": "ce/sales/faqs-sales.md",
       "redirect_url": "faq-sales",
@@ -24528,6 +24569,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/march-2023-whatsnew.md",
+      "redirect_url": "whats-new",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/oc-search-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
       "redirect_document_id": "false"
@@ -24690,22 +24736,22 @@
     {
       "source_path": "ce/field-service/universal-resource-scheduling.md",
       "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
-      "redirect_document_id": "false"      
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/scheduling-roles-personas.md",
       "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
-      "redirect_document_id": "false"      
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/scheduling-capabilities.md",
       "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
-      "redirect_document_id": "false"      
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/5-stages-scheduling-adoption.md",
       "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
-      "redirect_document_id": "false"      
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/cfs-iot-central-alerts.md",
@@ -25055,6 +25101,41 @@
     {
       "source_path": "ce/customer-service/configure-twitter-channel.md",
       "redirect_url": "/dynamics365/customer-service/channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-warm-up.md",
+      "redirect_url": "/dynamics365/marketing/warmup-process-email-marketing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/dedicated-vs-shared-ip.md",
+      "redirect_url": "/dynamics365/marketing/warmup-process-email-marketing",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "ce/field-service/scheduling-self-customers.md",
+      "redirect_url": "/dynamics365/field-service/customer-portal-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-portal-homepage.md",
+      "redirect_url": "/dynamics365/field-service/customer-portal-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/reminders-arrival-time.md",
+      "redirect_url": "/dynamics365/field-service/customer-portal-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-move-triggers.md",
+      "redirect_url": "/dynamics365/marketing/move-triggers-between-environments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-form-editor.md",
+      "redirect_url": "/dynamics365/marketing/real-time-marketing-form-overview",
       "redirect_document_id": false
     }
   ]
