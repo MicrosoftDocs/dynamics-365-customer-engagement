@@ -38,14 +38,14 @@ No. A migrated rule can be activated only when the **Mark as complete** toggle i
 
 ### What does an "incomplete" migration status mean?
 
-- In the **Summary** section, this status means that the overall migration process could not successfully complete the migration of all selected rules.
-- Next to a rule, this status means that the rule either failed or could not be fully migrated (that is, one or more items or conditions failed to be migrated).
+- **In the Summary section:** The overall migration process could not successfully complete the migration of all selected rules.
+- **Next to a rule:** Either the rule either failed, or the rule could not be fully migrated (that is, one or more items or conditions failed to be migrated).
 
 ### Where can I find a list of partially migrated rules that are tracked in the migration tool?
 
 Rules that are partially migrated, or that are identified as incompletely migrated, aren't considered fully migrated. Therefore, they are tracked under **Pending** in the **Summary** section. Only rules that successfully completed migration are counted under **Migrated**.
 
-### Are custom forms or fields supported by the migration tool?
+### Does the migration tool support custom forms or fields?
 
 - **For automatic record creation, yes.** The migration tool supports custom entities, fields, attributes, and configurations.
 - **For SLAs, no.** The migration tool doesn't fully support custom entities, fields, attributes, and configurations. To complete the migration, users must modify any existing customization flows, workflows, plugins, or other custom code on the custom entities, fields, attributes, and configurations.
@@ -195,17 +195,17 @@ No. The migration tool supports only enhanced SLA rules. Standard SLA rules have
 
 ### Channel property deprecation
 
-If you've used any channel properties in the customization of legacy rules, those rules won't be successfully migrated by the migration tool. There is no general workaround that can be applied to fix this gap for all users. The workaround highly depends on how you use the channel properties in the legacy rules.
+If you've used any channel properties in the customization of legacy rules, the migration tool won't successfully migrate those rules. There is no general workaround that can be applied to fix this gap for all users. The workaround highly depends on how you use the channel properties in the legacy rules.
 
 ### Behavior difference when the "Create cases for activities associated with a resolved case" option is selected
 
-- **Legacy behavior:** If the email has a related case that has been resolved since the specified time, the resolved case will be reactivated by default. No customization is required.
-- **Modern behavior:** If the email has a related case that has been resolved since the specified time, a new case will be created by default. Customization is required to reactivate an existing case instead of creating a new case.
+- **Legacy behavior:** If the email has a related case that has been resolved since the specified time, the resolved case is reactivated by default. No customization is required.
+- **Modern behavior:** If the email has a related case that has been resolved since the specified time, a new case is created by default. Customization is required to reactivate an existing case instead of creating a new case.
 
 ### Behavior difference when the "Create case if a valid entitlement exists for the customer" option is selected
 
-- **Legacy behavior:** If the email sender doesn't have a valid entitlement, and the email has a related case, the existing related case will be updated.
-- **Modern behavior:** If the email sender doesn't have a valid entitlement, no flow will be invoked.
+- **Legacy behavior:** If the email sender doesn't have a valid entitlement, and the email has a related case, the existing related case is updated.
+- **Modern behavior:** If the email sender doesn't have a valid entitlement, no flow is invoked.
 
 ### Parity gaps between workflows and Power Automate flows (applicable only to customization of rule item actions)
 
@@ -217,7 +217,7 @@ If you've used any channel properties in the customization of legacy rules, thos
 
 ### Migration doesn't support multiple items or conditions that have the same "applicable when" condition in the same SLA.
 
-In the web client, multiple items can be defined that have the same "applicable when" condition and different success criteria for an SLA. However, the same capability isn't supported in Unified Interface. Therefore, during migration, no subsequent SLA items of this type that have the same "applicable when" condition will be created.
+In the web client, multiple items can be defined that have the same "applicable when" condition and different success criteria for an SLA. However, the same capability isn't supported in Unified Interface. Therefore, during migration, no subsequent SLA items of this type that have the same "applicable when" condition are created.
 
 The following screenshots show the scenario that isn't supported in Unified Interface. The two "applicable when" conditions that are shown have different success criteria.
 
@@ -237,7 +237,7 @@ An activity party–type attribute that is assigned to another activity party–
 
 Legend:
 
-**a.** The **From** field is an activity party–type field that is assigned another activity party–type attribute, **\{Bcc(Email)\}**. It will be blank post-migration.
+**a.** The **From** field is an activity party–type field that is assigned another activity party–type attribute, **\{Bcc(Email)\}**. It will be blank after migration.
 
 **b.** The **To** field will be migrated.
 
