@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: overview
 ms.collection: get-started
-ms.date: 04/22/2023
+ms.date: 05/23/2023
 ms.custom: bap-template 
 ---
 
@@ -30,3 +30,14 @@ Depending on your role, you can use the org charts feature as described in the l
 -	Sales manager, seller, or any other similar role:  
     -	[Manage org charts](manage-org-charts.md)
     -	[View and understand the org charts](view-understand-org-charts.md)
+
+## Permissions required
+
+By default, permissions to view enhanced org chart are available for Salesperson and Sales Manager roles. For other roles, provide the following permissions to use the enhanced org chart.
+
+| Tab name | Entity name | Access level | Privileges required |
+|----------|-------------|--------------|---------------------|  
+| Custom Entities | Microsoft Orgchart node entity | Organization | - Create<br>- Write<br>- Read<br>- Delete |
+
+To know more about security role permissions, see [Security roles and privileges](/power-platform/admin/security-roles-privileges)
+
