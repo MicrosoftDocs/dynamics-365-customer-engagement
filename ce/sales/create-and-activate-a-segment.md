@@ -38,7 +38,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 
     :::image type="content" source="media/sa-segment-condition-builder-home-page.png" alt-text="Screenshot of segment condition builder page.":::
 
-1. <a name="allow-records-move-from-another-segment"></a>(Optional) To allow records from another segment to move to this one, turn on **Allow records to be moved from other segments to this one**. The application validates the records for conditions defined in this segment and moves the records accordingly, although the records are connected to a different segment. When moved, the records will be connected to the sequence from this segment. However, the assignment rules won't be changed. To apply the current assignment rule to the moved records, select the **Update seller assignment as well** option.
+1. <a name="allow-records-move-from-another-segment"></a>(Optional) To allow records from another segment to move to this one, turn on **Allow records to be moved from other segments to this one**. The application validates the records for conditions defined in this segment and moves the records accordingly, although the records are connected to a different segment. When moved, the records are connected to the sequence from this segment. However, the assignment rules won't be changed. To apply the current assignment rule to the moved records, select the **Update seller assignment as well** option.
 
     :::image type="content" source="media/sa-segment-allow-records-to-move.png" alt-text="Screenshot illustrating the option to allow records to move to this segment and apply the assignment rules.":::
 
@@ -79,6 +79,8 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 
         Define the condition as required.
 
+    At any given time, you can have a maximum of 10 conditions in a segment, including conditions defined within groups and related entities. The condition limit is added to optimize the runtime experience of segments, ensuring faster execution and improved efficiency. If you exceed the limit, a message is displayed stating that the limit is reached and can't save the segment. For best practices to add conditions, see [Recommendation to add conditions](#recommendation-to-add-conditions). 
+
 1. After defining the conditions, select **Simulate results** to verify that the conditions for the segment work as defined.
 
     >[!div class="mx-imgBorder"]
@@ -106,6 +108,20 @@ The segment is activated. Now you can connect the segment to a sequence or a rec
 
 >[!NOTE]
 >From the 9.3 release, all segments that are related to a primary entity (such as lead or opportunity) run every time you update the attributes of the primary entity that are added to the conditions.
+
+## Recommendation to add conditions
+
+You can have a maximum of 10 conditions in segments at any given time. However, you can optimize the conditions by following the recommendations described below:
+
+- **Distribute segments**: Create multiple segments with proper distribution of conditions and you can connect them to the same sequence. For example, you can create two segments, one for leads that are created by the user **John Thomas** and another for leads that are created by the user **Kenny Smith**. Then, you can connect both the segments to the same sequence. When a lead is created by **John Thomas**, the lead is added to the sequence, and the sequence is applied to the lead. Similarly, when a lead is created by **Kenny Smith**, the lead is added to the sequence and the sequence is applied to the lead.
+
+- **Create nested entities**: To add more conditions, create nested conditions through rollup entities with many-to-many or one-to-many relationships. More information: [Define rollup columns that aggregate values](/power-apps/maker/data-platform/define-rollup-fields) 
+
+- **Avoid simple conditions**: Don't use simple attributes in the segment conditions that are already used in the assignment rules such as Owner. For example, if you have an assignment rule that assigns leads to the user **Kenny Smith**, don't create a segment for leads that are created by the user **John Thomas**.
+
+- **Don't update data or metadata**:  Updating the data or metadata of a record that's already in a segment can cause unexpected behavior or bypass the validations. For example, if you update the owner of a lead that's already in a segment, the lead is removed from the segment. Similarly, if you update the metadata of a segment, the segment is deactivated. 
+
+- **Minimize overlapping segments**: Avoid creating segments that have overlapping conditions. For example, if you create a segment for leads that are created by the user **John Thomas** and another segment for leads that are created by the user **Kenny Smith**, don't create a third segment for leads that are created by the user **John Thomas** and **Kenny Smith**. 
 
 
 <table>
