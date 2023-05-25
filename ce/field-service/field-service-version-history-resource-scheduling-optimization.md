@@ -48,6 +48,11 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 3.4.0.254
+
+- Bug fix: Addressed an issue with using the Optimization panel in [Single Resource Optimizations](/dynamics365/field-service/single-resource-optimization#run-after-making-changes-to-defaults)
+- Behavior change: We are changing the behavior of how Resource Scheduling Optimization handles locks on bookings. Currently, if an optimization schedule is running, it may apply a lock to the bookings, which prevents a user from being able to delete the booking via Schedule Board. The user would be required to manually unlock the booking before deleting it. With this release, a request to delete a booking by a Schedule Board user will automatically override any locking by Resource Scheduling Optimization.
+
 ## 3.4.0.180
 
 - Bug fix: Addressed issue where certain schedule requests fail due to a timeout, with the message *Resource Scheduling Optimization failed to create, update or delete some of the bookings due to a system error*.

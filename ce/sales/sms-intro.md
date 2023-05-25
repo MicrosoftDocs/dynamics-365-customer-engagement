@@ -1,7 +1,7 @@
 ---
 title: Engage with customers through text messages
 description: Enable your sellers to send text messages (SMS) to customers and refer previous communications in context without leaving the application or losing view of customers' details.
-ms.date: 05/05/2023
+ms.date: 05/12/2023
 ms.topic: overview
 ms.custom: bap-template
 author: udaykirang
@@ -33,6 +33,26 @@ Depending on your role, you can use the text message feature as described in the
     -	Send SMS from the Sales accelerator workspace or the Up next widget. More information: [Send a text message to customers](connect-with-customers.md#send-a-text-message-to-customers)
     -	Access past SMS interactions in context with relevant sales records such as lead and opportunity. More information: [Manage text message conversations](manage-text-message-communications.md)
 
+## In which regions is the text message feature available?
+
+The text message feature is available in the following regions:
+
+- Asia Pacific (APAC)
+- Canada (CAN)
+- Europe (EUR)
+- France (FRA)
+- Great Britain (GBR)
+- India (IND)
+- Japan (JPN)
+- North America (NAM)
+- Oceania (OCE)
+- South America (SAM)
+- Switzerland (CHE)
+- United Arab Emirates (UAE)
+
+>[!NOTE]
+>Currently, the text message feature is not available in the following datacenters&mdash; Germany, China, South Africa, Korea, Norway, and Government Community Cloud (GCC), including USG, Department of Defense (DoD).
+
 ## Permissions required 
 
 Verify that the users who need to use the text message feature have the following permissions.
@@ -48,7 +68,11 @@ Verify that the users who need to use the text message feature have the followin
 | Core Records | - Activity<br>- Note | Business Unit | Read | 
 | Custom Entities | Channel Instance | User | Append To |
 | Custom Entities | - Channel Instance<br>- Channel Instance Account<br>- Consuming Application<br>- Channel Definition<br>- SalesOmnichannel Message<br>- Transcript | Business Unit | Read |
+| Custom Entities | Environment variable definition | Organization | Read |
+| Custom Entities | Model-driven App User Setting | Organization | - Create<br>- Read<br>- Write<br>- Append |
+| Custom Entities | Notification | User | Read |
 | Custom Entities | SalesOmnichannel Message | User | - Create<br>- Write<br>- Delete<br>- Append<br>- Assign |
+| Custom Entities | Setting definition | Organization | - Read<br>- Append |
 | Custom Entities | Text message template | Business Unit | - Create<br>- Write<br>- Read<br>- Delete |
 | Custom Entities | Transcript | User | - Create<br>- Write<br>- Delete<br>- Append<br>- Append To |
 

@@ -841,7 +841,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |10322|Forecast Recurrence|Forecast Recurrence|
 |10323|ShareAs Configuration|ShareAs Configuration|
 |10324|Customer email communication||
-|10325|GDPRData||
 |10326|Recurring Sales Action||
 |10327|msdyn_relationshipinsightsunifiedconfig||
 |10328|siconfig||

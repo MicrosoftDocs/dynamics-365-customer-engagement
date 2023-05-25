@@ -17,19 +17,29 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.91.36](/dynamics365/field-service/version-history#889136)  | TBD | 05/12/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.89.38](/dynamics365/field-service/version-history#888938)  | [8.8.91.36](/dynamics365/field-service/version-history#889136) | 05/05/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.89.38](/dynamics365/field-service/version-history#888938)  | [8.8.91.36](/dynamics365/field-service/version-history#889136) | 05/12/2023 |
-| | *USG* | [8.8.89.38](/dynamics365/field-service/version-history#888938)  | [8.8.91.36](/dynamics365/field-service/version-history#889136) | 05/05/2023 |
-|**Station 4** |*Europe* |[8.8.88.56](/dynamics365/field-service/version-history#888856)  | [8.8.89.38](/dynamics365/field-service/version-history#888938) | 05/05/2023 |
-|**Station 5** |  *North America*|[8.8.88.62](/dynamics365/field-service/version-history#888862)  | [8.8.89.38](/dynamics365/field-service/version-history#888938)  | 05/12/2023 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.88.62](/dynamics365/field-service/version-history#888862)  | [8.8.89.38](/dynamics365/field-service/version-history#888938)  | 05/12/2023 |
-| | *Dedicated Scale Groups* |[8.8.88.62](/dynamics365/field-service/version-history#888862)  | [8.8.89.38](/dynamics365/field-service/version-history#888938)  | 05/19/2023 |
+|**Station 1** |  *First Release*| [8.8.92.27](/dynamics365/field-service/version-history#889227)  | TBD | 05/26/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.92.27](/dynamics365/field-service/version-history#889227)  | TBD | 06/02/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.91.36](/dynamics365/field-service/version-history#889136)  | [8.8.92.27](/dynamics365/field-service/version-history#889227) | 05/26/2023 |
+| | *USG* |  [8.8.92.27](/dynamics365/field-service/version-history#889227)  | TBD | 06/02/2023 |
+|**Station 4** |*Europe* |[8.8.91.36](/dynamics365/field-service/version-history#889136)  | [8.8.92.27](/dynamics365/field-service/version-history#889227) | 06/02/2023 |
+|**Station 5** |  *North America*|[8.8.89.38](/dynamics365/field-service/version-history#888938)  | [8.8.91.36](/dynamics365/field-service/version-history#889136) | 05/26/2023 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.89.38](/dynamics365/field-service/version-history#888938)  | [8.8.91.36](/dynamics365/field-service/version-history#889136) | 05/26/2023 |
+| | *Dedicated Scale Groups* |[8.8.89.38](/dynamics365/field-service/version-history#888938)  | [8.8.91.36](/dynamics365/field-service/version-history#889136) | 06/02/2023 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.92.27
+(Includes Universal Resource Scheduling version [3.12.105.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210525) and Resource Scheduling controls version 1.2.45.231281).
+
+-	Fixed a problem preventing IoT device visualization from initializing.
+-	Command lookup on the IoT Command form now correctly appears as optional.
+-	Fixed a problem with console errors when a user interacts with a work order that has a service or billing account that they do not have read permissions for.
+- Fixed a bug in the inspections designer which prevented access to all attributes when an entity lookup contained more than 50 items. 
+- Field Service (Dynamics 365) Mobile: Updated PowerApps Component Framework controls to adopt recent API changes related to nested linked entities.
+
 
 ## 8.8.91.36
 (Includes Universal Resource Scheduling version [3.12.104.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210414) and Resource Scheduling controls version 1.2.44.231111).

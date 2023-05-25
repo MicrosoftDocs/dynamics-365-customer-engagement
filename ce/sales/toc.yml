@@ -43,7 +43,7 @@
           href: manage-sample-data.md
         - name: Add or remove sample data in Sales Professional
           href: install-sample-data.md
-    - name: Uninstall Sales Premium Add-ons      
+    - name: Uninstall Sales Premium Add-ons
       href: uninstall-sales-insights.md
     - name: Configure your sales organization
       items:
@@ -107,7 +107,7 @@
       href: print-records.md
     - name: Export sales records to PDF
       href: create-quote-pdf.md
-    - name: View and manage records in focused view  
+    - name: View and manage records in focused view
       href: focused-view.md
     - name: Set focused view as the default view
       href: set-focused-view-as-default.md
@@ -135,15 +135,15 @@
       items:
         - name: Enable or disable saving of business card image
           href: retain-business-card-image-after-scanning.md
-        - name: Organization charts 
+        - name: Organization charts
           href: organization-charts.md
           items:
             - name: Enable org chart
               href: enable-org-chart.md
         - name: Enable email validation
-          href: enable-email-validation.md         
-        - name: Enable email validation for custom forms 
-          href: enable-email-validation-custom-forms.md           
+          href: enable-email-validation.md
+        - name: Enable email validation for custom forms
+          href: enable-email-validation-custom-forms.md
         - name: Customize the business card scanner control
           href: customize-business-card-scan-control.md
         - name: Integrate LinkedIn Sales Insights
@@ -159,7 +159,7 @@
             - name: Customize the ZoomInfo app
               href: customize-zoominfo-app.md
         - name: Set focused view as the default view
-          href: set-focused-view-as-default.md              
+          href: set-focused-view-as-default.md
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -240,11 +240,11 @@
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
           href: enable-duplicate-lead-detection.md
-        - name: Enable duplicate lead detection for custom forms 
+        - name: Enable duplicate lead detection for custom forms
           href: enable-duplicate-detection-custom-forms.md
         - name: Enable email validation
           href: enable-email-validation.md
-        - name: Enable email validation for custom forms 
+        - name: Enable email validation for custom forms
           href: enable-email-validation-custom-forms.md
         - name: Integrate LinkedIn Sales Navigator solutions
           href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
@@ -293,7 +293,7 @@
         - name: Add the Kanban control to Opportunity or Activity entities
           href: add-kanban-control.md
         - name: Set focused view as the default view
-          href: set-focused-view-as-default.md          
+          href: set-focused-view-as-default.md
     - name: Product and price list management
       items:
         - name: Set up a product catalog
@@ -465,7 +465,7 @@
             - name: Edit a segment
               href: edit-a-segment.md
             - name: Prioritize segment
-              href: prioritize-segment.md  
+              href: prioritize-segment.md
             - name: Delete or deactivate a segment
               href: delete-deactivate-a-segment.md
         - name: Manage assignment rules
@@ -485,17 +485,17 @@
               href: manage-sales-teams.md
             - name: Manage seller attributes
               href: manage-seller-attributes.md
-            - name: Manage seller availability  
+            - name: Manage seller availability
               href: manage-seller-availability.md
         - name: Engage with customers through text messages
           href: sms-intro.md
           items:
             - name: Configure SMS provider
-              href: configure-sms-provider.md      
+              href: configure-sms-provider.md
             - name: Edit phone numbers
               href: edit-phone-numbers.md
             - name: Add text message option to custom forms
-              href: add-sms-option-custom-forms.md              
+              href: add-sms-option-custom-forms.md
         - name: Manage Campaigns
           href: configure-inapp-marketing.md
     - name: Guided selling
@@ -630,17 +630,17 @@
       items:
         - name: Work with accounts and contacts
           href: accounts-contacts.md
-        - name: Organization charts 
+        - name: Organization charts
           href: organization-charts.md
           items:
           - name: Manage org charts
             href: manage-org-charts.md
           - name: View and understand the org charts
             href: view-understand-org-charts.md
-        - name: View and manage records in focused view  
-          href: focused-view.md         
+        - name: View and manage records in focused view
+          href: focused-view.md
         - name: Work with invalid email addresses
-          href: work-invalid-email-addresses.md            
+          href: work-invalid-email-addresses.md
         - name: Organize contacts in live org charts for accounts
           href: live-org-chart.md
         - name: Use the LinkedIn Sales Insights tab
@@ -700,7 +700,7 @@
       - name: Microsoft Teams calls in Dynamics 365
         items:
         - name: Make and receive Teams calls in Dynamics 365
-          href: call-using-microsoft-teams.md   
+          href: call-using-microsoft-teams.md
       - name: Link Dynamics 365 records to Microsoft Teams channels
         items:
         - name: Basic vs Enhanced Collaboration Experience
@@ -728,14 +728,15 @@
           items:
             - name: Use auto capture
               href: free-auto-capture.md
-        - name: View message interactions with email engagement
-          href: email-engagement.md
+        - name: Email engagement
           items:
-            - name: Create and send email message 
+            - name: View message interactions
+              href: email-engagement.md
+            - name: Send email messages
               href: create-send-email-message.md
-            - name: Understand email history 
+            - name: Understand email history
               href: understand-email-history.md
-            - name: Configure privacy and preferences 
+            - name: Honor privacy preferences
               href: configure-individuals-privacy-preferences.md
         - name: How notes analysis assists you with suggestion
           href: notes-analysis.md
@@ -751,8 +752,8 @@
       items:
         - name: Create or edit leads
           href: create-edit-lead-sales.md
-        - name: View and manage records in focused view  
-          href: focused-view.md  
+        - name: View and manage records in focused view
+          href: focused-view.md
         - name: Manage duplicate leads
           href: manage-duplicate-leads.md
         - name: Work with invalid email addresses
@@ -778,8 +779,8 @@
               href: add-stakeholder.md
             - name: Move the opportunity through different stages
               href: move-opportunity-stages.md
-        - name: View and manage records in focused view  
-          href: focused-view.md               
+        - name: View and manage records in focused view
+          href: focused-view.md
         - name: Prioritize opportunities using predictive scores
           href: work-predictive-opportunity-scoring.md
         - name: Opportunity pipeline view
@@ -848,29 +849,33 @@
           items:
             - name: What is sales accelerator
               href: sales-accelerator-intro.md
-            - name: Create and connect sequences for yourself
-              href: create-sequence-seller.md
-            - name: Manage your sequences
-              href: manage-sequences-seller.md
             - name: Prioritize sales pipeline through work list
               href: prioritize-sales-pipeline-through-work-list.md
             - name: Customize work list card
               href: customize-work-list-card.md
             - name: Understand the Up next widget
-              href: understand-the-up-next-widget.md 
+              href: understand-the-up-next-widget.md
             - name: Connect with customers through a record
               href: connect-with-customers.md
             - name: Work with LinkedIn activities
               href: work-with-linkedin-activities.md
             - name: Personalize your sales accelerator
               href: personalize-sales-accelerator.md
+        - name: Sequences
+          items:
+            - name: Create and connect sequences for yourself
+              href: create-sequence-seller.md
+            - name: Manage your sequences
+              href: manage-sequences-seller.md
+            - name: Improve sequence efficiency with insights
+              href: sequence-insights.md
         - name: Engage with customers through text messages
           href: sms-intro.md
           items:
             - name: Personalize text messages through templates
-              href: create-text-message-templates.md      
+              href: create-text-message-templates.md
             - name: Manage text message communications
-              href: manage-text-message-communications.md  
+              href: manage-text-message-communications.md
         - name: Campaign management
           items:
             - name: Get started with in-app marketing
@@ -975,7 +980,7 @@
     - name: Resources for developers
       href: developer/developer-guide.md
     - name: Understand terminology
-      href: /power-apps/developer/data-platform/understand-terminology?context=/dynamics365/context/sales-context  
+      href: /power-apps/developer/data-platform/understand-terminology?context=/dynamics365/context/sales-context
     - name: Sales tables
       items:
         - name: Sales tables (lead, opportunity, competitor, quote, order, invoice)
@@ -1208,9 +1213,9 @@
             - name: msdyn_ConnectSequence
               href: developer-sp/msdyn-ConnectSequence-action.md
             - name: msdyn_WKWDeleteGDPRData
-              href: developer/reference/custom-actions/msdyn_WKWDeleteGDPRData.md
+              href: developer/reference/custom-actions/msdyn_WKWDeletePrivacyData.md
             - name: msdyn_WKWGDPRDeleteStatus
-              href: developer/reference/custom-actions/msdyn_WKWGDPRDeleteStatus.md
+              href: developer/reference/custom-actions/msdyn_WKWPrivacyDeleteStatus.md
         - name: Table Reference
           items:
             - name: Table reference
@@ -1232,19 +1237,19 @@
       items:
         - name: Custom plugin handling through shared variable
           href: developer/custom-plugin-handling-shared-variable.md
-- name: General Data Protection Regulation (GDPR) and privacy
+- name: Privacy laws and regulations
   items:
-    - name: Dynamics 365 Sales & GDPR
-      href: dynamics-365-sales-gdpr.md
-    - name: GDPR for sales premium
-      href: embedded-intelligence-gdpr.md
+    - name: Dynamics 365 Sales and privacy laws
+      href: dynamics-365-sales-privacy.md
+    - name: Sales insights and privacy laws
+      href: embedded-intelligence-privacy.md
       items:
         - name: View and export KPI data (GDPR)
           href: view-export-KPI-data-gdpr.md
         - name: Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
           href: retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md
-    - name: GDPR and Security FAQ
-      href: sales-gdpr-faqs.md
+    - name: Privacy and security FAQ
+      href: sales-privacy-faqs.md
     - name: Privacy notice
       href: privacy-notice.md
 - name: Learning Catalog
