@@ -130,7 +130,7 @@ additionalContent:
       - url: /dynamics365/customer-service/realtime-ongoing
         text: Understand customer sentiment in real time
       - url: /dynamics365/customer-service/oc-customer-summary?tabs=enhancedcustomersummarypage%2Cenhancedcustomer%2Cenhancedcase%2Cenhancedrecentcases
-        text: View customer summary and reduce average handling time
+        text: View customer summary before engaging with customers
       - url: /dynamics365/customer-service/enh-casemgmt-csw?tabs=enhancedquickcreateform%2Cenhancedfullcaseform
         text: Use enhanced case forms to manage cases
     - title: Collaborate over Teams chat
@@ -165,6 +165,10 @@ additionalContent:
         text: Experience a unified search experience for internal and integrated articles 
       - url: /power-apps/maker/model-driven-apps/custom-connectors-timeline-control
         text: Use custom connectors with the timeline control
+      - url: /dynamics365/customer-service/add-enhanced-case-management
+        text: Customize the case resolution experience
+      - url: /dynamics365/customer-service/omnichannel-customizer
+        text: Customize forms for your agents and supervisors
 
   - title: Related products
     items:
