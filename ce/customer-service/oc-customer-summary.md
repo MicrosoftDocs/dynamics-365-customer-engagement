@@ -34,13 +34,20 @@ Depending on the settings enabled for you, you'll see one of the following layou
 
   ### [Enhanced Active Conversation page](#tab/enhancedcustomersummarypage)
 
-  If your administrator has enabled the **Enhanced Active conversation form** in Customer Service admin center, you see the enhanced **Active Conversation** page. 
+  If your administrator has enabled the **Enhanced Active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. 
+  
+  If your administrator has enabled the **Customise active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. 
+  - The **Save** and **Refresh** options are available on **Active Conversation** form. You can edit and save standard and custom field values added to the **Active Conversation** form by your administrator. However, logical column names aren’t editable. More information: [Logical column names](supported-customizations.md#logical-column-names) If a default value is already set for a field, the application populates the value on the **Active Conversation** form.
+  - **Queue:** The queue through which the conversation has been assigned to you.
+  - **Start time:** The time when you started the conversation.
+
+  You can also use **Related** to select and navigate to the required entities.
 
    :::image type="content" source="media/enh-custsummary-overall-mini.png" alt-text="Enhanced quick case form" lightbox="media/enh-custsummary-overall.png":::
     
   > [!NOTE] 
-  > By default, the form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. However, you can switch between active and closed conversations if your administrator has enabled this control.
-
+  > -The form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. However, you can switch between active and closed conversations if your administrator has enabled this control.
+  > - You can't switch to closed conversation form from the **Active Conversation** form while the conversation is still active. Similarly, once the conversation and the session has ended, you can't switch from  the Closed Conversation form to the Active Conversation form.
 
   ### [Default Active Conversation page](#tab/customersummarypage)
     
@@ -50,7 +57,6 @@ Depending on the settings enabled for you, you'll see one of the following layou
 
 ---
 
-For active conversations, you can view the **Active Conversation** form on the agent dashboard of the Customer Service workspace. The **Active Conversation** form, however, doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard. More information: [View agent dashboard and conversations](oc-agent-dashboard.md).
 
 ## View customer details
 

@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 05/03/2023 
+ms.date: 05/29/2023 
 ms.custom: bap-template 
 ---
 
@@ -22,10 +22,12 @@ The enhanced Active Conversation experience enables you to customize the **Activ
 
 ## Enable enhanced Active Conversation
 
-1. In Customer Service admin center, go to **Customer Settings**.
-1. Select **Manage** for **Enhanced conversation form** in **Form Settings**.
-1. Set the **Enhanced Active conversation form** toggle to yes in **Enhanced conversation form**.
-2. Select **Configure** to further customize the enhanced Active Conversation form. More information: [Create and customize a model-driven app form](/power-apps/maker/model-driven-apps/create-and-edit-a-model-driven-form).
+1. In Customer Service admin center, go to **Workspaces**.
+1. Select **Manage** for **Active conversation form settings** in **Workspaces**.
+1. Select the following options:
+    - **Enhanced the enhanced active conversation form** to enable the enhanced Active Conversation experience.
+    - **Customise active conversation form** to display **Queue** , **Start time***, **Save**, and **Refresh** options on the Active Conversation form. You can also select **Power Apps** to customize the Active Conversation form in Power Apps. 
+1. Select **Configure** to further customize the enhanced Active Conversation form. More information: [Create and customize a model-driven app form](/power-apps/maker/model-driven-apps/create-and-edit-a-model-driven-form).
 
 ## Display the form selector on Active Conversation form
 
