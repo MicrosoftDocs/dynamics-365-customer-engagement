@@ -24155,6 +24155,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/understand-email-history.md",
+      "redirect_url": "/dynamics365/sales/email-engagement",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-professional/assign-records-sales-professional.md",
       "redirect_url": "/powerapps/user/assign-or-share-records",
       "redirect_document_id": "false"
