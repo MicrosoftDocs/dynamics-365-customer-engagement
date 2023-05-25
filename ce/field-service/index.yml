@@ -1,22 +1,16 @@
 ### YamlMime:Hub
 
-# This template provides the structure of a product hub page. For additional guidance and information, see the article, Create a Dynamics 365 product hub page in the Contributors guide.
-# To provide feedback on this template, contact [bace feedback team](mailto:templateswg@microsoft.com).
-
-# Remove all comments and capitalized text in this template before you sign off or merge to the main branch
-
-title:  <product name> documentation # < 60 chars
-summary: Include this sentence: Discover how to make the most of Dynamics 365 <product> with online training courses, docs, and videos covering product capabilities and how-to articles. Then add a second sentence that starts with "Learn...." and explain what users will learn from your documentation # < 500 chars.
-# brand: aspnet | azure | dotnet | dynamics | m365 | office | sql | windows | visual-studio | xamarin
+title:  Dynamics 365 Field Service documentation
+summary: Discover how to make the most of Dynamics 365 Field Service with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use features in Field Service and Field Service Mobile to deliver world-class onsite service to customer locations.
 brand: dynamics
 
 metadata:
-  title: <product name> documentation # Required; page title displayed in search results. Include the brand. For example, Dynamics 365 Commerce documentation < 60 chars.
-  description: Discover how to make the most of Dynamics 365 <product> with online training courses, docs, and videos covering product capabilities and how-to articles. Then add a second sentence that starts with "Learn...." and explain what users will learn from your documentation # Required; This text is displayed in search results. < 500 chars.
-  ms.topic: hub-page # Required
-  author: github author #Required; your GitHub user alias, with correct capitalization.
-  ms.author: msauthor #Required; microsoft alias of author; optional team alias.
-  ms.date: 01/10/2023 #Required; mm/dd/yyyy format.
+  title: Dynamics 365 Field Service documentation
+  description: Discover how to make the most of Dynamics 365 Field Service with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use features in Field Service and how to get the most out of the application.
+  ms.topic: hub-page
+  author: m-hartmann
+  ms.author: mhart
+  ms.date: 05/23/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -27,21 +21,21 @@ highlightedContent:
 
   items:
     # Card
-    - title: Welcome to Dynamics 365 <product>
+    - title: Welcome to Dynamics 365 Field Service
       itemType: get-started
-      url: <link to "Welcome to..." article for your product>
+      url: overview.md
     # Card
     - title: What's new
       itemType: whats-new
-      url: <link to the main what's new article for your product>
+      url: version-history.md
     # Card
     - title: Training
       itemType: training
-      url: <link to training main page for your product>
+      url: /training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path
     # Card
     - title: Troubleshoot
       itemType: concept
-      url: <link to troublshooting and faq page>
+      url: troubleshoot-field-service-solution-health.md
       
 additionalContent: 
   sections:
@@ -61,21 +55,21 @@ additionalContent:
         text:
     - title: Try/Buy/Deploy
       links: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
+      - url: trial-signup.md
+        text: Sign up for a trial
+      - url: install-field-service.md
+        text: Install Field Service
+      - url: /dynamics365/get-started/release-schedule
+        text: Get preview features
     - title: Set up 
       links:
       - url: 
-        text: 
+        text: Configure default settings
       - url: 
-        text: 
+        text: Set up users and permissions
       - url: 
-        text:  
-  - title: Administer and develop <product name>
+        text:  Set up frontline workers
+  - title: Administer and develop Field Service
     items:
     - title: 
       links:
@@ -107,9 +101,9 @@ additionalContent:
         text: 
       - url: 
         text: 
-  - title: Use <product name>
+  - title: Use Field Service
     items:
-    - title: 
+    - title: Work orders
       links:
       - url: 
         text: 
@@ -117,19 +111,7 @@ additionalContent:
         text: 
       - url: 
         text: 
-    - title: 
-      links:
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-    - title: 
+    - title: Bookable resources
       links:
       - url: 
         text: 
@@ -139,7 +121,9 @@ additionalContent:
         text: 
       - url: 
         text: 
-    - title: 
+      - url: 
+        text: 
+    - title: Customer accounts and assets
       links:
       - url: 
         text: 
@@ -147,7 +131,17 @@ additionalContent:
         text: 
       - url: 
         text: 
-    - title: 
+      - url: 
+        text: 
+    - title: Scheduling
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+    - title: Reports
       links:
       - url: 
         text: 
@@ -159,22 +153,70 @@ additionalContent:
         text: 
       - url: 
         text:   
+    - title: Integrations
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text:
+    - title: Mobile app
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text:   
+    - title: Connected Field Service (IoT)
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text:   
+    - title: Resource Scheduling Optimization Add-in
+      links:
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text: 
+      - url: 
+        text:      
   - title: Related products
     items:
         # Card
         
-        - title: 
+        - title: Dynamics 365 Guides
           summary:
           url: 
-        - title: 
+        - title: Dynamics 365 Remote Assist
           summary: 
           url:
-        - title: 
+        - title: Dynamics 365 Customer Service
           summary:
           url:
-        - title: 
+        - title: Microsoft Dataverse
           summary:
           url:
-        - title:
+        - title: Microsoft Power Platform
           summary: 
           url:
