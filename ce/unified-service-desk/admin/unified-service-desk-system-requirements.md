@@ -33,48 +33,48 @@ The following table lists the minimum and recommended hardware requirements to r
 <a name="client"></a>
 
 ::: moniker range=">=dynamics-usd-4.2"
-  ## Software requirements for the Unified Service Desk client
+## Software requirements for the Unified Service Desk client
 
-  To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, you need the following:  
+To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, you need the following:  
 
-  | Requirement | Recommended version | Supported version|
-  |---------------------------|---------------------------|-------------------------------------|
-  | Operating system | [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)]  |<ul><li> Windows 11 </li> <li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li></ul>  |
-  | Microsoft .NET Framework |[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] setup if missing) |  |
-  | Windows Identity Foundation  | Windows Identity Foundation 3.5 (installed during Unified Service Desk setup if missing) |  |
-  | Screen resolution |  1920 x 1080 (Pixels)  |  |
-  | Magnifier |  100 %  |
-  |||
+| Requirement | Recommended version | Supported version|
+|---------------------------|---------------------------|-------------------------------------|
+| Operating system | [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)]  |<ul><li> Windows 11 </li> <li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li></ul>  |
+| Microsoft .NET Framework |[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] setup if missing) |  |
+| Windows Identity Foundation  | Windows Identity Foundation 3.5 (installed during Unified Service Desk setup if missing) |  |
+| Screen resolution |  1920 x 1080 (Pixels)  |  |
+| Magnifier |  100 %  |
+|||
 ::: moniker-end
 
 ::: moniker range="=dynamics-usd-4.1"
-  ## Software requirements for the Unified Service Desk client
+## Software requirements for the Unified Service Desk client
 
-  To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, you need the following:  
+To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, you need the following:  
 
-  | Requirement | Recommended version | Supported version|
-  |---------------------------|---------------------------|-------------------------------------|
-  | Operating system | [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)]  |<ul><li> Windows 11 </li> <li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li><li> [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)]</li><li> [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)]</li><li> [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (SP1)</li></ul>  |
-  | Microsoft .NET Framework |[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] setup if missing) |  |
-  | Windows Identity Foundation  | Windows Identity Foundation 3.5 (installed during Unified Service Desk setup if missing) |  |
-  | Screen resolution |  1920 x 1080 (Pixels)  |  |
-  | Magnifier |  100 %  |
-  |||
+| Requirement | Recommended version | Supported version|
+|---------------------------|---------------------------|-------------------------------------|
+| Operating system | [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)]  |<ul><li> Windows 11 </li> <li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li><li> [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)]</li><li> [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)]</li><li> [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (SP1)</li></ul>  |
+| Microsoft .NET Framework |[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] setup if missing) |  |
+| Windows Identity Foundation  | Windows Identity Foundation 3.5 (installed during Unified Service Desk setup if missing) |  |
+| Screen resolution |  1920 x 1080 (Pixels)  |  |
+| Magnifier |  100 %  |
+|||
 ::: moniker-end
 
-::: moniker range="=dynamics-usd-4.0"
-  ## Software requirements for the Unified Service Desk client
+::: moniker range="=dynamics-usd-4"
+## Software requirements for the Unified Service Desk client
 
-  To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, you need the following:  
+To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, you need the following:  
 
-  | Requirement | Recommended version | Supported version|
-  |---------------------------|---------------------------|-------------------------------------|
-  | Operating system | [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)]  |<ul><li> Windows 11 </li> <li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li><li> [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)]</li><li> [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)]</li><li> [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (SP1)</li></ul>  |
-  | Microsoft .NET Framework |[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] setup if missing) |  |
-  | Windows Identity Foundation  | Windows Identity Foundation 3.5 (installed during Unified Service Desk setup if missing) |  |
-  | Screen resolution |  1920 x 1080 (Pixels)  |  |
-  | Magnifier |  100 %  |
-  |||
+| Requirement | Recommended version | Supported version|
+|---------------------------|---------------------------|-------------------------------------|
+| Operating system | [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)]  |<ul><li> Windows 11 </li> <li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li><li> [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)]</li><li> [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)]</li><li> [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (SP1)</li></ul>  |
+| Microsoft .NET Framework |[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] setup if missing) |  |
+| Windows Identity Foundation  | Windows Identity Foundation 3.5 (installed during Unified Service Desk setup if missing) |  |
+| Screen resolution |  1920 x 1080 (Pixels)  |  |
+| Magnifier |  100 %  |
+|||
 ::: moniker-end
 
 ## Support for Unified Service Desk
