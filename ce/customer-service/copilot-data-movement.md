@@ -21,26 +21,21 @@ ms.custom: bap-template
 > [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-The Copilot features are available by default to customers in the [North America region](/power-platform/admin/new-datacenter-regions) only because the features use the Microsoft Azure OpenAI Service that's located in the United States. Customers who have their Dynamics 365 environment outside the North America region can enable access to the Copilot features after they explicitly opt-in to the “Terms of use for data movement across geographical boundaries” that permits their data to be shared with the Microsoft Azure Open AI service located in the United States.
+
+The copilot AI features use the Microsoft Azure OpenAI Service, which is currently available only within the [United States geography](https://dynamics.microsoft.com/availability-reports/georeport). As a result, the copilot AI features are provided to only those customers who have selected the United States as their chosen geography for data processing and storage. However, customers outside of the United States can still make use of these features by opting in to share relevant data with the Azure OpenAI service in the United States. This opt-in may result in the transfer of relevant data outside of their default geography.
 
 :::image type="content" source="media/copilot-data-boundaries-opt-in.png" alt-text="Copilot opt-in to let data movement outside geographical boundaries.":::
 
 > [!NOTE]
-> The opt-in terms aren't applicable to organizations in the North America region and therefore won't be visible to them.
-When any Copilot feature is used, the customer content and end user identifiable information that's part of the prompts and completions will be in transit across the tenant’s geographic or compliance boundaries as shown in the following diagram.
+> The opt-in terms aren't applicable to organizations in the United States geography and therefore won't be visible to them.
+
+When any Copilot feature is used, your data, including personal data, used in prompts or returned in completions might be transmitted outside of the geographic locations that you have selected for your primary data residency.
 
 :::image type="content" source="media/copilot-compliance-boundaries.png" alt-text="Visual view of data movement and compliance boundaries.":::
 
-Azure OpenAI service also stores the prompts and completions for up to thirty days to prevent abuse and harmful content generation. The data is not used to train, retrain, or improve the classification models. More information: [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#preventing-abuse-and-harmful-content-generation)
+To learn more about how Azure OpenAI protects your data, read [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#preventing-abuse-and-harmful-content-generation).
 
-The data types that are shared with Azure OpenAI for each Copilot feature are as follows.
-
-|Capability|Data attributes|
-|-----|-----|
-|Chat replies|Relevant customer and agent chat messages, knowledge articles, Bing results|
-|Email replies|Relevant email and case attributes, knowledge articles, Bing results |
-|Ask a Question, conversational chat|Relevant agent messages to Copilot, knowledge articles|
-|Case and conversation  Summaries|Relevant case attributes, conversation content, emails, and notes|
+Examples of customer data, along with personal data that is shared with Azure OpenAI, include relevant customer and agent chat messages, emails, case attributes, knowledge articles, agent name, email address, and customer name. Personal information is used to provide replies to a specific user.
 
 ### See also
 
