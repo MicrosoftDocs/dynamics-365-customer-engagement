@@ -28,7 +28,7 @@ The list provides an overview of documentation updates made in this release of U
 
 | Topic | Updates |
 |---------------|-------------------|
-|[Add parameters using Edge WebView2 Process](edge-webview2-process.md#add-arguments-using-edge-webView2-process) |Added information about how to add parameters using **Edge WebView2 Process**. |
+|[Add parameters using Edge WebView2 Process](edge-webview2-process.md#add-parameters-using-edge-webView2-process) |Added information about how to add parameters using **Edge WebView2 Process**. |
 |[Debug Edge WebView2 Process](edge-webview2-process.md#debug-edge-webview2-process) |Added information about how to access and debug all the **Edge WebView2 Process** instances running in a desktop locally and remotely.
  
 
