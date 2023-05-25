@@ -59,7 +59,7 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 ::: moniker range="=dynamics-usd-4.2"
 
 > [!Important]
-> Clear the cache **before and after** you upgrade your Unified Service Desk client. The cache is located at: `%appData%\Roaming\Microsoft\USD`. More information: [Configure client caching](/unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
+> Clear the cache **before and after** you upgrade your Unified Service Desk client. The cache is located at: `%appData%\Roaming\Microsoft\USD`. More information: [Configure client caching](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
 
 ::: moniker-end
 

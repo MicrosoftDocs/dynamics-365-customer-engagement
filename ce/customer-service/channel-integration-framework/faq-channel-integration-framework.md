@@ -97,7 +97,7 @@ You don't need to choose the Unified Interface apps. The telephony channel provi
 	
 ### How do I select roles for the voice channel provider record?
 
-Telephony channel providers are associated with agent profiles, which in turn are assigned to users in your organization. You must assign the agent profiles to users who need access to the telephony channel provider. More information: [Assign users, templates, configure productivity pane, channels](/ce/app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
+Telephony channel providers are associated with agent profiles, which in turn are assigned to users in your organization. You must assign the agent profiles to users who need access to the telephony channel provider. More information: [Assign users, templates, configure productivity pane, channels](../../app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
 
 ### Will my existing communication widget, built using Dynamics 365 Channel Integration Framework 1.0 APIs, continue to work with the Dynamics 365 Channel Integration Framework 2.0 app?
 
