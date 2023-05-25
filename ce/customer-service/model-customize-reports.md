@@ -37,19 +37,19 @@ You can enable data model customization for historical analytics reports from th
 
 Before you begin, you must complete the following prerequisites:
 
-- Enable insights features in Dynamics 365 Customer Service: You must enable at least one of the historical reports (customer service historical analytics, Omnichannel historical analytics or knowledge analytics) for Customer Service Manager in Omnichannel for Customer Service. More information: [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md)  
+- Enable insights features in Dynamics 365 Customer Service: You must enable at least one of the historical reports (customer service historical analytics, Omnichannel historical analytics or knowledge analytics) for the Customer Service Manager role in Omnichannel for Customer Service. More information: [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md)  
 
 - Enable Power BI service features from the Power BI admin portal. The Power BI administrator must enable the following:  
 
-     - Enable **Create workspace (new workspace experience)**: The configuration process creates two workspaces; a managed workspace and a customer workspace to deploy Dynamics data model and reports. More information: [Create workspaces (new workspace experience)](/power-bi/admin/service-admin-portal-workspace#create-workspaces-new-workspace-experience)
+     - **Create workspace (new workspace experience)**: The configuration process creates two workspaces; a managed workspace and a customer workspace to deploy Dynamics data model and reports. More information: [Create workspaces (new workspace experience)](/power-bi/admin/service-admin-portal-workspace#create-workspaces-new-workspace-experience)
 
-    - Enable **Allow service principals to use Power BI APIs**: The configuration process leverages the Power BI APIs for creating workspaces, deploying reports and models. More information: [Enable service principals](/power-bi/enterprise/service-premium-service-principal#enable-service-principals)  
+    - **Allow service principals to use Power BI APIs**: The configuration process leverages the Power BI APIs for creating workspaces, deploying reports and models. More information: [Enable service principals](/power-bi/enterprise/service-premium-service-principal#enable-service-principals)  
 
-    - Enable **Allow DirectQuery connections to Power BI datasets**: When report authors build new metrics or bring additional data sources, they will create composite models which requires DirectQuery enabled. More information: [Managing composite models on Power BI datasets](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets)
+    - **Allow DirectQuery connections to Power BI datasets**: When report authors build new metrics or bring additional data sources, they will create composite models which requires DirectQuery enabled. More information: [Managing composite models on Power BI datasets](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets)
 
 - Provide **Dynamics 365 service principal** access to Power BI.  
 
-- Your Azure Active Directory administrators must create a security group in Microsoft Azure Active Directory with a preferred name of your choice. Add **Dynamics 365 Analytics** as a member of this security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+- Your Azure Active Directory administrators must create a security group in Microsoft Azure Active Directory with a preferred name of your choice. Add **Dynamics 365 Analytics** as a member of this security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 
 The out-of-box **Service Principal Dynamics 365 Analytics** is leveraged to deploy the data model and make changes to the Power BI workspace on behalf of Dynamics 365 Customer Service. Permissions within Power BI can be granted only to groups and not individual service principals, and therefore a group needs to be created.
 
@@ -58,8 +58,8 @@ The out-of-box **Service Principal Dynamics 365 Analytics** is leveraged to depl
 
 - Power BI administrators must add the security group created in Azure Active Directory to Power BI service settings enabled earlier.
 
-    - **Service Principal** in the **Developer settings**.
-    - Create **workspaces** in the **Tenant settings**.
+    - **Service Principal** in the **Developer settings**.
+    - Create **workspaces** in the **Tenant settings**.
 
 ## Enable Power BI data model customization
 
@@ -76,35 +76,37 @@ Specify the Power BI workspace where the Dynamics data model and reports will be
 
 ## Provision the data models and copy of reports
 
-It could take upto 24-hours for the provisioning to complete. You can refresh the page to check your status by selecting **Refresh**.
+It could take up to 24 hours for the provisioning to complete. Select **Refresh** to check the provisioning status.
 
 ## Grant permissions for data set and reports
 
-After the report is provisioned, you must provide write permissions for users who will be authoring reports in Power BI and and read permissions for supervisors and other consumers of the reports.
+After the report is provisioned, you must provide **Write** permissions for users who will be authoring reports in Power BI and **Read** permissions for supervisors and other consumers of the reports.
 
-You'll need to be a **Workspace Administrator** on both managed and customer workspace (configured in the step #1) in Power BI to complete this step. By default, the user who starts the provisioning (step #2) will have the necessary permissions added.
+You'll need to be a **Workspace Administrator** on both managed and customer workspaces (configured on the step 1) in Power BI to complete this step. By default, the user who starts the provisioning (step #2) will have the necessary permissions added.
 
   :::image type="content" source="media/enable-model-step2.png" alt-text="Grant permissions for data set and reports":::
 
 ### Grant access to the Power BI data model
 
-Report authors will be connecting to this data model to build custom reports. When you select the **Power BI Data model** link, the managed workspace opens up and the details of the data model are displayed. Use the share dialog to provide access to users by entering their name of email address. More information: Share access to a dataset (preview)  
+Report authors will connect to this data model to build custom reports. When you select the **Power BI Data model** link, the managed workspace opens up and the details of the data model are displayed. Use the **Share** dialog to provide access to users by entering their email address. More information: [Share access to a dataset](/power-bi/connect-data/service-datasets-share).
 
-- Provide report authors with **Allow recipients to build content with the data associated with this dataset**.
+You need to:
+
+- Provide Report Authors with **Allow recipients to build content with the data associated with this dataset**.
 
 - For report viewers like supervisors, you may choose to share the dataset without providing any additional permissions.
 
 ### Grant access to the customizable reports (optional)
 
-When you select the **Customized Power BI Report** link, the Power BI workspace where the sample reports will be provided appears in a lineage view. These reports are the copy of your out-of-the-box reports and can be edited and modified. You'll have to provide access to the workspace only if your organization is planning on using these copies to develop reports.
+When you select the **Customized Power BI Report** link, the Power BI workspace where the sample reports will be provided appears in a lineage view. These reports are the copy of your out-of-the-box reports and can be edited and modified. You'll have to provide access to the workspace only if your organization plans on using these copies to develop reports.
 
-From the lineage view, select **Manage access**, and provide contributor access to your report authors and viewer access to users who will be viewing these or any other reports  built in this workspace. You'll have to provide these permissions only if you plan to use these reports.
+From the lineage view, select **Manage access**, and provide **Contributor** access to your report authors and **Viewer** access to users who will be viewing these or any other reports built in this workspace. You'll have to provide these permissions only if you plan to use these reports.
 
 ## Embed customized reports back to Dynamics 365
 
-AFter your report authors have created and published the customized reports, you can allow Dynamics users to access these reports from within Customer service workspace by selecting the **Add report** dialog.
+After your Report Authors have created and published the customized reports, you can allow Dynamics users to access these reports from the Customer service workspace by selecting the **Add report** dialog.
 
-You'll be able to select the Power BI report in the workspace using the **Select Power BI report** dropdown and  enter a preferred name in the **Report name** text box. The drop-down list is populated with the reports in the workspace configured on Step 1 of this process. This preferred name will appear for your Dynamics users when they access the reports. When you are done entering these details select  and then **Save**. You can add a maximum of 40 reports.
+You'll be able to select the Power BI report in the workspace using the **Select Power BI report** dropdown and  enter a preferred name in the **Report name** text box. The drop-down list is populated with the reports in the workspace configured on Step 1. This preferred name will appear for your Dynamics users when they access the reports. When you are done entering these details select **Add** and then **Save**. You can add a maximum of 40 reports.
 
 > [!NOTE]
 > The customized reports site map in the Customer service workspace is shared between historical and real-time model customization features. You'll only be able to modify or delete reports added from the historical customer service model customization page. You'll be able to re-order the reports on both the admin pages.  
