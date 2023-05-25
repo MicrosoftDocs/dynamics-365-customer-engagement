@@ -1,6 +1,6 @@
 ---
 title: Copilot data movement across geographies
-description: Learn to understand how data used in Copilot features in Dynamics 365 Customer Service moves across geographies where it's features aren't available by default.
+description: Learn to understand how data used in copilot features in Dynamics 365 Customer Service moves across geographies where it's features aren't available by default.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -29,7 +29,7 @@ The copilot AI features use the Microsoft Azure OpenAI Service, which is current
 > [!NOTE]
 > The opt-in terms aren't applicable to organizations in the United States geography and therefore won't be visible to them.
 
-When any Copilot feature is used, your data, including personal data, used in prompts or returned in completions might be transmitted outside of the geographic locations that you have selected for your primary data residency.
+When you use any copilot feature in an organization that's outside the United States geography, your data, including personal data, used in prompts or returned in completions might be transmitted outside of the geographic locations that you have selected for your primary data residency.
 
 :::image type="content" source="media/copilot-compliance-boundaries.png" alt-text="Visual view of data movement and compliance boundaries.":::
 
