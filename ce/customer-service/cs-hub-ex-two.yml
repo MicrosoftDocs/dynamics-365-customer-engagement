@@ -87,16 +87,16 @@ additionalContent:
     items:
     - title: Make agent's work effortless
       links:
-      - url: /power-apps/user/add-activities
-        text: Use the timeline to quickly view activities 
       - url: /dynamics365/customer-service/overview-cases
         text: Track individual customer service issues through cases
       - url: /dynamics365/app-profile-manager/productivity-tools
         text: Use productivity tools
       - url: /dynamics365/customer-service/overview-knowledge-management#search-knowledge-articles
-        text: Search knowledge articles
+        text: Search knowledge articles effortlessly
+      - url: /power-apps/user/add-activities
+        text: Use the timeline to quickly view activities
       - url: /dynamics365/customer-service/overview-unified-routing
-        text: Classify and assign using unified routing
+        text: Classify and assign work items using unified routing 
     - title: Enable intelligent self-service 
       links:
       - url: https://learn.microsoft.com/en-us/dynamics365/customer-service/knowledge-base-search-methods
@@ -104,7 +104,7 @@ additionalContent:
       - url: https://learn.microsoft.com/en-us/dynamics365/customer-service/oc-view-ai-suggested-cases-articles
         text: View AI-suggestions for similar cases and knowledge articles 
       - url: /dynamics365/customer-service/overview-bots
-        text: Use bots
+        text: Use bots to resolve basic customer queries
       - url: /dynamics365/customer-service/cs-ai-generated-summary
         text: View and share auto-summarized conversations
     - title: Optimize service operations  
@@ -114,7 +114,7 @@ additionalContent:
       - url: /dynamics365/customer-service/knowledge-search-analytics-cs
         text: Analyze agent actions with knowledge search insights 
       - url: /dynamics365/customer-service/intro-realtime-analytics-dashboard
-        text: Monitor key operational metrics, make course corrections in real time 
+        text: Monitor key operational metrics in real time 
       - url: /dynamics365/customer-service/oc-conversation-dashboard
         text: Get insights into customer and channel analytics
     - title: Meet customers where they are 
@@ -123,18 +123,20 @@ additionalContent:
         text: Communicate over the voice channel
       - url: /dynamics365/customer-service/channels
         text:  Communicate across channels
+      - url: /dynamics365/customer-service/oc-real-time-translation
+        text: Engage with customers in a language they use
     - title: Show them you know them
       links:
       - url: /dynamics365/customer-service/realtime-ongoing
         text: Understand customer sentiment in real time
       - url: /dynamics365/customer-service/oc-customer-summary?tabs=enhancedcustomersummarypage%2Cenhancedcustomer%2Cenhancedcase%2Cenhancedrecentcases
-        text: View customer information on Active Conversation form
+        text: View customer summary and reduce average handling time
       - url: /dynamics365/customer-service/enh-casemgmt-csw?tabs=enhancedquickcreateform%2Cenhancedfullcaseform
         text: Use enhanced case forms to manage cases
-    - title: Collaborate
+    - title: Collaborate over Teams chat
       links:
       - url: /dynamics365/customer-service/use-teams-chat
-        text: Use Teams chat to collaborate without switching context or leaving the application
+        text: Collaborate without switching context or leaving the application
       - url: /dynamics365/customer-service/use-teams-meetings
         text: Use Teams meetings 
       - url: /dynamics365/customer-service/use-customer-support-swarming
@@ -147,7 +149,7 @@ additionalContent:
         text: Agents - Use Customer Service workspace 
       - url: https://learn.microsoft.com/en-us/dynamics365/customer-service/introduction-omnichannel
         text: Supervisors - Use Omnichannel for Customer Service  
-    - title: Copilot in Customer Service
+    - title: Leverage Copilot
       links:
       - url: /dynamics365/customer-service/configure-copilot-features
         text: Manage Copilot features in Customer Service
