@@ -1,7 +1,7 @@
 ---
 title: Use email engagement to view message interactions
 description: Learn how to use email engagement in Dynamics 365 Sales to track your customers' interactions with your messages, such as selected links, opened attachments, and replies, and to get alerts to help you remember to follow up.
-ms.date: 02/27/2023
+ms.date: 05/25/2023
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
@@ -61,7 +61,7 @@ You can view the number of opens, attachment views, link clicks, and replies for
 
 1. In the list at the top of the page, select **Email** > **All Followed Emails**.
 
-:::image type="content" source="media/email-kpi-email-list.png" alt-text="Screenshot of email KPIs in an email list."":::
+:::image type="content" source="media/email-kpi-email-list.png" alt-text="Screenshot of email KPIs in an email list.":::
 
 ### Message details <a name="MessageHistory"></a>
 
