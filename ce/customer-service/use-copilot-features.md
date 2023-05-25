@@ -29,7 +29,7 @@ Copilot is an AI-powered tool that revolutionizes the agent experience in Dynami
 
 ## Prerequisites
 
-Make sure that your administrator has enabled the Copilot features.
+Make sure that your administrator has enabled the copilot features.
 
 ## Ask a question
 
