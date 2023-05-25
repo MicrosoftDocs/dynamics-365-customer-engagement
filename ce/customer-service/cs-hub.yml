@@ -1,7 +1,7 @@
 ### YamlMime:Hub
 
 title:  Dynamics 365 Customer Service documentation
-summary: Learn about the suite of capabilities that Dynamics 365 Customer Service provides and ensure that your business delivers the best customer service experience to your customers.
+summary: Discover how to make the most of Dynamics 365 Customer Service with online training courses, docs, and videos covering product capabilities and how-to articles. Learn about the suite of capabilities that Dynamics 365 Customer Service provides and ensure that your business delivers the best customer service experience to your customers.
 brand: dynamics
 
 metadata:
@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page 
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 05/08/2023
+  ms.date: 05/25/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -23,7 +23,7 @@ highlightedContent:
     # Card
     - title: Get started
       itemType: get-started
-      url: configure-cs.md
+      url: overview.md
     # Card
     - title: What's new
       itemType: whats-new
@@ -39,7 +39,7 @@ highlightedContent:
       
 additionalContent: 
   sections:
-  - title: Implement Customer Service
+  - title: Implement
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
@@ -69,7 +69,7 @@ additionalContent:
         text: Set up personas and privileges in Customer Service and Omnichannel for Customer Service
       - url: /dynamics365/customer-service/customer-service-workspace-system-requirements
         text: System requirements for Customer Service workspace
-  - title: Administer and develop Customer Service
+  - title: Administer and develop
     items:
     - title: Administer
       links:
@@ -83,7 +83,7 @@ additionalContent:
         text: Omnichannel for Customer Service entity reference
       - url: /dynamics365/customer-service/developer/omnichannel-reference
         text: Live chat SDK Reference
-  - title: Use Customer Service
+  - title: Use
     items:
     - title: Manage cases
       links:
