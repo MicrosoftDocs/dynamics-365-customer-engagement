@@ -49,7 +49,7 @@ The status, interaction statistics, and key performance indicators (KPIs) for yo
 
 After you save or send a message, it appears in the **Activities** list for its **Regarding** record, which is usually the record you were viewing when you composed it. In some cases, it may be a related record.
 
-:::image type="content" source="media/email-messages-activities-list.png" alt-text="Screenshot of email messages in the Activities list.":::<!-- EDITOR'S NOTE: Please highlight the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main). -->
+:::image type="content" source="media/email-messages-activities-list.png" alt-text="Screenshot of email messages in the Activities list.":::
 
 Followed messages show their current interaction status on their tile in the **Activities** list. Use the buttons in the upper-right corner of an email tile to expand its content and interaction history right in the list or to open the full message page.
 
@@ -61,7 +61,7 @@ You can view the number of opens, attachment views, link clicks, and replies for
 
 1. In the list at the top of the page, select **Email** > **All Followed Emails**.
 
-:::image type="content" source="media/email-kpi-email-list.png" alt-text="Screenshot of email KPIs in an email list."":::<!-- EDITOR'S NOTE: Please highlight the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main). -->
+:::image type="content" source="media/email-kpi-email-list.png" alt-text="Screenshot of email KPIs in an email list."":::
 
 ### Message details <a name="MessageHistory"></a>
 

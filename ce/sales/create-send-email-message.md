@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 When your organization turns on email engagement, you get a few more choices when you compose an email in Dynamics 365 Sales.
 
-:::image type="content" source="media/new-email-page-email-engagement-callouts.png" alt-text="Screenshot of the New Email page in Dynamics 365 Sales, with email engagement features highlighted." lightbox="media/new-email-page-email-engagement-callouts.png":::<!-- EDITOR'S NOTE: Please highlight the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main). -->
+:::image type="content" source="media/new-email-page-email-engagement-callouts.png" alt-text="Screenshot of the New Email page in Dynamics 365 Sales, with email engagement features highlighted." lightbox="media/new-email-page-email-engagement-callouts.png":::
 
 Legend:
 
@@ -65,9 +65,9 @@ Email engagement analyzes the performance of all the messages your sales team ha
 
 1. In the **Email templates** window, select the language if needed, and then search for and select a template.
 
-  ![Select Template window](media/select-template-window.png "Select Template window")<!-- EDITOR'S NOTE: This UI is different from what I see in Sales Hub. Are there different apps or configurations this article needs to mention? -->
+  ![Select Template window](media/select-template-window.png "Select Template window")
 
-1. Select **Select**.<!-- EDITOR'S NOTE: My Sales Hub UI shows **Apply template**, not **Select**. -->
+1. Select **Apply template**.
 
 1. Customize the template content as needed.
 

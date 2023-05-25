@@ -28,7 +28,7 @@ Your customers who have privacy or security concerns may ask you not to use emai
 
 1. In the **Contact Preferences** section, set **Follow Email** to **Do Not Allow** or **Allow** as needed.
 
-    :::image type="content" source="media/contact-preferences-contact.png" alt-text="Screenshot of a record's contact preferences, with the Follow Email setting highlighted.":::<!-- EDITOR'S NOTE: Please crop and highlight the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main). -->
+    :::image type="content" source="media/contact-preferences-contact.png" alt-text="Screenshot of a record's contact preferences, with the Follow Email setting highlighted.":::
 
 1. Select **Save**.
 
