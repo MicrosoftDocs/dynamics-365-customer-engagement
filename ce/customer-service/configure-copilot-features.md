@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 05/23/2023 
+ms.date: 05/25/2023 
 ms.custom: bap-template 
 ms.collection:
 ---
@@ -64,6 +64,9 @@ Perform the following steps to enable the Copilot features:
 
 Copilot case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description.
 
+> [!IMPORTANT]
+> You must select **Make Copilot available to agents** in **Copilot help pane (preview)**  for Copilot case summaries to be available.
+
 To allow Copilot to summarize cases, perform the following steps:
 
 1. In Customer Service admin center select **Productivity** in Agent Experience.
@@ -108,8 +111,9 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvIntelligenceUsage
 - prvReadmsdyn_conversationinsight
 
-> [!NOTE]
-> You must add the prvReadmsdyn_conversationinsight privilege to the out-of-the-box Customer Service Representative role.
+> [!IMPORTANT]
+> For Copilot case summary to be displayed, you must add the prvReadmsdyn_conversationinsight privilege to the out-of-the-box Customer Service Representative role.
+
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
