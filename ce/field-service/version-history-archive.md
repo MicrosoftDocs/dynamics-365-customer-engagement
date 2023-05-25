@@ -1,6 +1,19 @@
+---
+title: Version history archive
+description: Archive of earlier release notes of the Dynamics 365 Field Service version history.
+ms.date: 05/25/2023
+ms.topic: conceptual
+author: mhart
+ms.author: m-hartmann
+---
+
 # Version history archive
 
-List of release notes from earlier waves.
+This article contains release notes from earlier release waves for the following apps and solutions:
+
+- [Dynamics 365 Field Service (web and mobile)](#dynamics-365-field-service)
+- [Universal Resource Scheduling](#universal-resource-scheduling)
+- [Resource Scheduling Optimization Add-in](#resource-scheduling-optimization-add-in)
 
 ## Dynamics 365 Field Service
 
@@ -1091,6 +1104,8 @@ All customers should upgrade all legacy versions of Field Service and Project Se
 
 ### Earlier release waves
 
+For release notes and version history of the current release wave, see [Universal Resource Scheduling version history](field-service-version-history-resource-scheduling.md).
+
 #### 3.12.83.6
 
 (Includes Resource Scheduling controls version 1.2.24.222144).
@@ -2154,7 +2169,7 @@ In addition, this release includes the following changes that have the potential
 - Warning message will now be displayed to a user if they try to change the latitude or longitude field on a booking.
 - Added validation to check if a resource is associated to a facility then it shouldn't be allowed to be a child resource of a pool that is associated to a facility or facility pool for the same time frame.
 
-## 2.4.11.59
+#### 2.4.11.59
 
 [Read a blog post about the bug fixes](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/14/enhancements-and-bug-fixes-in-universal-resource-scheduling-urs-version-2-4-11-59/).
 
@@ -2169,6 +2184,8 @@ In addition, this release includes the following changes that have the potential
 ## Resource Scheduling Optimization Add-in
 
 ### Earlier release waves
+
+For release notes and version history of the current release wave, see [Resource Scheduling Optimization version history](field-service-version-history-resource-scheduling-optimization.md).
 
 #### 3.3.5.199
 
@@ -2246,7 +2263,7 @@ In addition, this release includes the following changes that have the potential
 - Bug fix: where 'Created On' field in optimization panel of Resource Scheduling Optimization schedule board doesn't respect date format of user setting. 
 - Bug fix: issue where optimization request status wasn't set correctly when Resource Scheduling Optimization is run as a simulation. 
 
-##### 3.0.19316.2
+#### 3.0.19316.2
 
 - ConsiderTravelTime parameter for SA API msdyn_SearchResourceAvailability isn't working as expected. Use the following steps to understand the impact of this bug fix:
   - Create a resource requirement with four hours duration, and location set to **Onsite**. 
@@ -2256,11 +2273,11 @@ In addition, this release includes the following changes that have the potential
 - Booking status form showing false scheduling method the first time Resource Scheduling Optimization is opened after initial setup.
 - Bug fix: Fixed upgrade issue from Resource Scheduling Optimization v3.0.18341.1 to latest in-market version.
 
-##### 3.0.19263.1
+#### 3.0.19263.1
 
 [Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/10/03/whats-new-in-dynamics-365-resource-scheduling-optimization-version-3-0-19263-1/)
 
-##### 3.0.19109.3
+#### 3.0.19109.3
 
 [Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/01/whats-new-for-dynamics365-resource-scheduling-optimization-v3-0-update-release/)
 
