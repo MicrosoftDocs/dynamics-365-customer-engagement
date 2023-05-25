@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 03/09/2022
+ms.date: 05/25/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -12,17 +12,7 @@ search.audienceType:
   - customizer
 ---
 
-# Customize data models of historical analytics reports in Customer Service (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+# Customize data models of historical analytics reports in Customer Service
 
 Use the extensibility feature in Microsoft Power BI  to extend the out-of-the-box Dynamics 365 Customer Service Power BI data model and integrate with other datasets to create new custom metrics. You can customize the out-of-the-box standard reports and add your own KPIs and custom metrics to the reports to view the key metrics that are relevant to your organization. You can also drill down to add your metrics to the report as required.
 
@@ -36,12 +26,16 @@ The key capabilities of model customization include the ability to:
 
 - Customize the report site map and enable users to access the reports natively from Customer Service workspace.
 
-This article describes how to enable the data model customization feature and set up the workspace for Microsoft to provision the out-of-the-box data model in a read-only workspace, and a workspace where the customized report can be published to render it in Customer Service workspace. The tasks that you need to perform are as follows.
+You can enable data model customization for historical analytics reports from the Customer Service admin center. This following describes how you can perform data model customization.
 
-1. Select a Power BI workspace for historical analytics
-1. Grant permissions for data set and reports
-1. Add customized reports to Customer Service
-
+1. Understand how model customization works.
+1. Configure pre-requisites  
+1. Configure Power BI data model customization
+    1. Identify a Power BI workspace.
+    1. Provision the models and copy of reports.
+    1. Grant permissions for data set and reports.
+    1. Embed customized report back to Dynamics 365.
+    
 ## Prerequisites
 
 Before you begin with the customization, you must have the following prerequisites:
