@@ -156,11 +156,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |-----|-----|
-|192360000|Available||
-|192360001|Busy||
-|192360002|Busy - DND||
-|192360003|Away||
-|192360004|Offline||
+|192360000|Available|
+|192360001|Busy|
+|192360002|Busy - DND|
+|192360003|Away|
+|192360004|Offline|
 
 
 
