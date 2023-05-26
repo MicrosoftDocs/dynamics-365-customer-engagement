@@ -1,5 +1,5 @@
 ---
-title: Configure Copilot features for custom case forms and custom apps (Preview)
+title: Configure Copilot features for custom case forms and custom apps
 description: Learn how to enable Copilot features for custom case forms and custom apps.
 author: gandhamm
 ms.author: mgandham
