@@ -141,14 +141,14 @@ If you exceed the limit, a message is displayed stating that the limit is reache
 
 ### Recommendation to add conditions
 
-**Split condition between assignment rules and segments**: If you have conditions exceeding the limit, move some conditions to segments to improve the runtime efficiency of assignment rules. For example, if you have 15 conditions in the **Select eligible entity for this rule** section of an assignment rule, you can optimize it by moving five conditions to the associated segment. This approach helps streamline the conditions within the assignment rule and improve overall performance. 
+- **Split condition between assignment rules and segments**: If you have conditions exceeding the limit, move some conditions to segments to improve the runtime efficiency of assignment rules. For example, if you have 15 conditions in the **Select eligible entity for this rule** section of an assignment rule, you can optimize it by moving five conditions to the associated segment. This approach helps streamline the conditions within the assignment rule and improve overall performance. 
 
-**Create rollup attributes**: You might have performance issues using conditions involving related entities. Use rollup attributes to avoid adding conditions with related entities that have many-to-many, one-to-many relationships, or nested related entities.  
+- **Create rollup attributes**: You might have performance issues using conditions involving related entities. Use rollup attributes to avoid adding conditions with related entities that have many-to-many, one-to-many relationships, or nested related entities.  
 More information: [Define rollup columns that aggregate values](/power-apps/maker/data-platform/define-rollup-fields) 
 
-**Avoid duplicate conditions**: Avoid using attributes in conditions that are already used in the connected segment. For example, if you have a segment with the condition City (attribute) Equals (condition) Seattle (value), avoid using the same City attribute in the assignment rule. 
+- **Avoid duplicate conditions**: Avoid using attributes in conditions that are already used in the connected segment. For example, if you have a segment with the condition City (attribute) Equals (condition) Seattle (value), avoid using the same City attribute in the assignment rule. 
 
-**Use expression builder only**: Always use the expression builder on the UI to define or update the assignment rules. Don’t update assignment rules through Dataverse, as this can cause unexpected behavior impacting the records that are related to the assignment rules and the records may remain unassigned.
+- **Use expression builder only**: Always use the expression builder on the UI to define or update the assignment rules. Don’t update assignment rules through Dataverse, as this can cause unexpected behavior impacting the records that are related to the assignment rules and the records may remain unassigned.
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

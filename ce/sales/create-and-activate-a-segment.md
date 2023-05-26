@@ -121,7 +121,7 @@ You can have a maximum of 10 conditions in segments at any given time. However, 
 
 - **Distribute the segments**: Create multiple segments with proper distribution of conditions and you can connect them to the same or a different sequence and similar or different assignment rules. This helps in improving the performance of connecting sequences and assignment rules.
 
-- **Create rollup attributes**: To prevent performance issues when dealing with conditions involving related entities, it's recommended to use rollup attributes. This approach helps avoid the performance overhead of the conditions with related entities that have many-to-many, one-to-many relationships, or nested related entities.  
+- **Create rollup attributes**: Prevent performance issues when dealing with conditions involving related entities by using rollup attributes. This approach helps avoid the performance overhead of the conditions with related entities that have many-to-many, one-to-many relationships, or nested related entities.  
 More information: [Define rollup columns that aggregate values](/power-apps/maker/data-platform/define-rollup-fields) 
 
 - **Use expression builder only**: Always use the expression builder on the UI to define or update the segments. Don’t update segments through Dataverse, as this can cause unexpected behavior impacting the records that are related to the segment and the subsequent automations such as connecting sequences and assignment rules.
