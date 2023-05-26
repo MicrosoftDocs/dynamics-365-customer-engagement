@@ -149,9 +149,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |-----|-----|
-|192350000|Debit||
-|192350001|Credit||
-|192350002|3D Secure||
+|192350000|Debit|
+|192350001|Credit|
+|192350002|3D Secure|
 
 
 
