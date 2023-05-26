@@ -1,7 +1,7 @@
 ---
 title: "Use Microsoft Teams meetings in Customer Service | Microsoft Docs"
 description: "Learn how to use Microsoft Teams meetings integration in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 05/29/2023
+ms.date: 05/26/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan

@@ -1,7 +1,7 @@
 ---
 title: "msdyn_livechatconfig Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_livechatconfig entity."
-ms.date: 10/27/2022
+ms.date: 05/26/2023
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham

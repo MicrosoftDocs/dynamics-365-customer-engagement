@@ -1,7 +1,7 @@
 ---
 title: "Incident Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the Incident entity."
-ms.date: 10/12/2020
+ms.date: 05/26/2023
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"

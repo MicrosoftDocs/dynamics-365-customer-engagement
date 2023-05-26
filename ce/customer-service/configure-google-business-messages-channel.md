@@ -1,7 +1,7 @@
 ---
 title: "Configure a Google's Business Messages channel | MicrosoftDocs"
 description: "Perform the steps mentioned in this article to configure a Google Business Messages channel in Omnichannel for Customer Service."
-ms.date: 10/27/2022
+ms.date: 05/26/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan

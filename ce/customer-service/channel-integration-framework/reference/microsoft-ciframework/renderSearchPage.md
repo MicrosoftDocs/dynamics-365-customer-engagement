@@ -1,7 +1,7 @@
 ---
 title: "renderSearchPage (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Includes description, syntax, and parameter information for the renderSearchPage method in JavaScript API Reference for Channel Integration Framework 1.0."
-ms.date: 11/17/2022
+ms.date: 05/26/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham

@@ -1,7 +1,7 @@
 ---
 title: "msdyn_ocapplepay Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocapplepay entity."
-ms.date: 10/21/2022
+ms.date: 05/26/2023
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham

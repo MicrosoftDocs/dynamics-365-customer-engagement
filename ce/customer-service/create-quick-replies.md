@@ -1,7 +1,7 @@
 ---
 title: "Create quick replies | MicrosoftDocs"
 description: "This topic provides the steps you can perform to set up quick replies in Customer Service admin center."
-ms.date: 10/03/2022
+ms.date: 05/26/2023
 author: lalexms
 ms.author: laalexan
 ---
