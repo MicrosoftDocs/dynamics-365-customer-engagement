@@ -1,6 +1,6 @@
 ---
 title: Share and act on Dynamics 365 records within Microsoft Teams conversations
-description: Learn about enabling sales teams to share and act on Dynamics 365 records within Microsoft Teams conversations.
+description: Learn about enabling teams to share and act on Dynamics 365 records within Microsoft Teams conversations.
 ms.date: 05/09/2023
 ms.topic: article
 ms.service: dynamics-365-sales
