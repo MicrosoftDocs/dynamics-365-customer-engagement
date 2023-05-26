@@ -31,7 +31,7 @@ Enable the Copilot features for agents to use Copilot to:
 
 ## Regional availability and supported languages
 
-The copilot features are available in the United States only and supported in the English language only.
+The Copilot features are available in the United States only and supported in the English language only.
 
 ## Prerequisites
 
