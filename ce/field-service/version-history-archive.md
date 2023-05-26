@@ -23,23 +23,23 @@ For release notes and version history of the current release wave, see [Dynamics
 
 #### 8.8.71.55
 
- This release is a hotfix on Field Service version [8.8.71.41](/dynamics365/field-service/version-history#887141).
+ This release is a hotfix on Field Service version 8.8.71.41.
 
 - A bug in inspection flows prevented service tasks from being marked completed.
 
 #### 8.8.71.41
 
-(Includes Universal Resource Scheduling version [3.12.82.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3128214)).
+(Includes Universal Resource Scheduling version 3.12.82.14).
 
 #### 8.8.70.57
 
-This release is a hotfix on Field Service version [8.8.70.26](/dynamics365/field-service/version-history#887026).
+This release is a hotfix on Field Service version 8.8.70.26.
 
 - A bug in inspection flows prevented service tasks from being marked completed.
 
 #### 8.8.70.26
 
-(Includes Universal Resource Scheduling version [3.12.81.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#312813)).
+(Includes Universal Resource Scheduling version 3.12.81.3).
 
 - Fixed a bug preventing changes to currency exchange rates to be reflected in work order products.
 - Fixed a bug where inactive asset and functional location records showed in the asset tree view.
@@ -48,13 +48,13 @@ This release is a hotfix on Field Service version [8.8.70.26](/dynamics365/field
 
 #### 8.8.69.53
 
-(Includes Universal Resource Scheduling version [3.12.80.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#312809)).
+(Includes Universal Resource Scheduling version 3.12.80.9).
 
 No updates were made to Field Service (Dynamics 365) in this release.
 
 #### 8.8.68.25
 
-(Includes Universal Resource Scheduling version [3.12.79.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127916)).
+(Includes Universal Resource Scheduling version 3.12.79.16).
 
 - Field Service (Dynamics 365) mobile: Improved accessibility of Booking Status control with Talkback and VoiceOver enabled.
 - Field Service (Dynamics 365) mobile: Inspections File Picker will open correctly on the Windows application.
@@ -63,25 +63,25 @@ No updates were made to Field Service (Dynamics 365) in this release.
 
 #### 8.8.67.16
 
-(Includes Universal Resource Scheduling version [3.12.78.23](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127823)).
+(Includes Universal Resource Scheduling version 3.12.78.23).
 
 - Fixed a bug where screen readers were reading "Default value" text boxes as "Question edit" in inspections.
 
 #### 8.8.66.27
 
-(Includes Universal Resource Scheduling version [3.12.77.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127718)).
+(Includes Universal Resource Scheduling version 3.12.77.18).
 
 - Fixed a bug that prevented the assets and locations tab from being hidden via customization.
 
 #### 8.8.65.10
 
-(Includes Universal Resource Scheduling version [3.12.76.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312761)).
+(Includes Universal Resource Scheduling version 3.12.76.1).
 
 - Field Service (Dynamics 365) mobile offline: Fixed a bug where under some conditions, when multiple bookings are assigned to a work order, the resource wouldn't be able to complete service tasks.
 
 #### 8.8.64.13
 
-(Includes Universal Resource Scheduling version [3.12.75.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312752)).
+(Includes Universal Resource Scheduling version 3.12.75.2).
 
 - Fixed a bug that prevented bookings from being generated via agreement booking setups when the agreement is assigned to "SYSTEM" user.
 - Fixed a bug that prevented the checkbox question from focusing properly in the designer when navigating via keyboard.
@@ -91,13 +91,13 @@ No updates were made to Field Service (Dynamics 365) in this release.
 
 #### 8.8.63.22
 
-This release is a hotfix on Field Service version [8.8.63.20](/dynamics365/field-service/version-history#886320).
+This release is a hotfix on Field Service version 8.8.63.20.
 
 - Fixed a bug where opening the audit history on a work order would fail and show an error.
 
 #### 8.8.63.20
 
-(Includes Universal Resource Scheduling version [3.12.74.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312741)).
+(Includes Universal Resource Scheduling version 3.12.74.1).
 
 - Field Service (Dynamics 365) mobile will now use native mobile device controls when inputting date and time.
 - Field Service (Dynamics 365) mobile  will now display optimized mobile keyboards when interacting with fields of specific input type: numeric, decimal, telephone, email, and URL.
@@ -109,7 +109,7 @@ This release is a hotfix on Field Service version [8.8.63.20](/dynamics365/field
 
 #### 8.8.62.26
 
-(Includes Universal Resource Scheduling version [3.12.73.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127325)).
+(Includes Universal Resource Scheduling version 3.12.73.25).
 
 - Field Service (Dynamics 365) mobile: Fixed a bug so booking calendar control will no longer jump to incorrect date when scrolling through bookings on iOS.
 - Field Service (Dynamics 365) mobile: Enabled the agenda view on the booking calendar control for tablets and Windows devices.
@@ -118,13 +118,13 @@ This release is a hotfix on Field Service version [8.8.63.20](/dynamics365/field
 
 #### 8.8.61.21
 
-This release is a hotfix on Field Service version [8.8.61.14](/dynamics365/field-service/version-history#886114).
+This release is a hotfix on Field Service version 8.8.61.14.
 
 - Field Service (Dynamics 365) mobile: Fixed a bug so booking calendar control will no longer jump to incorrect date when scrolling through bookings on iOS.
 
 #### 8.8.61.14
 
-(Includes Universal Resource Scheduling version [3.12.72.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#312729)).
+(Includes Universal Resource Scheduling version 3.12.72.9).
 
 - Fixed a bug where a work order’s price list, set from a service account, is cleared when changing work order type.
 - Fixed a bug where the price list lookup on agreement invoice product form was showing units instead of price lists.
@@ -132,13 +132,13 @@ This release is a hotfix on Field Service version [8.8.61.14](/dynamics365/field
 
 #### 8.8.60.21
 
-This release is a hotfix on Field Service version [8.8.60.18](/dynamics365/field-service/version-history#886018).
+This release is a hotfix on Field Service version 8.8.60.18.
 
-(Includes Universal Resource Scheduling version [3.12.71.20](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127120)).
+(Includes Universal Resource Scheduling version 3.12.71.20).
 
 #### 8.8.60.18
 
-(Includes Universal Resource Scheduling version [3.12.71.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127116)).
+(Includes Universal Resource Scheduling version 3.12.71.16).
 
 - Field Service (Dynamics 365) mobile will correctly show times adjusted for daylight saving time on the booking calendar control.
 - Field Service admins will see a notification within Dynamics 365 Field Service if their organization is using Field Service Mobile (Xamarin app). This notification will inform users of the upcoming [end-of-Life](/dynamics365/field-service/activate-fs-mobile-app-license) timeline for Field Service Mobile (Xamarin app).
@@ -146,19 +146,19 @@ This release is a hotfix on Field Service version [8.8.60.18](/dynamics365/field
 
 #### 8.8.59.26
 
-This release is a hotfix on Field Service version [8.8.59.22](/dynamics365/field-service/version-history#885922).
+This release is a hotfix on Field Service version 8.8.59.22.
 
 - Fixed a bug in Field Service (Dynamics 365) mobile to correctly adjust times shown in the booking calendar control for daylight saving time.
 
 #### 8.8.59.22
 
-(Includes Universal Resource Scheduling version [3.12.70.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#312703)).
+(Includes Universal Resource Scheduling version 3.12.70.3).
 
 - Field Service (Dynamics 365) mobile where quick notes component will now respect maximum character length as defined in `msdyn_text`.
 
 #### 8.8.58.9
 
-(Includes Universal Resource Scheduling version [3.12.69.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312691)).
+(Includes Universal Resource Scheduling version 3.12.69.1).
 
 - Fixed bug: Estimated duration in the incident was incorrectly recalculated to zero even if it was originally set to one hour when work order service tasks with estimated       duration of zero are deleted.
 - Fixed bug: In the Field Service (Dynamics 365) mobile app, introduced a fix to prevent the booking calendar control from jumping or jittering when scrolling through bookings. 
