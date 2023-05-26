@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection: 
-ms.date: 05/22/2023
+ms.date: 05/26/2023
 ms.custom: bap-template
 ---
 
@@ -22,7 +22,7 @@ ms.custom: bap-template
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Copilot is an AI-powered tool that revolutionizes the agent experience in Dynamics 365 Customer Service. It provides real-time AI powered assistance that will help agents resolve issues faster, handle cases more efficiently, and automate time-consuming tasks so that they can focus on delivering high-quality service to their customers.
+Copilot for Customer Service is an AI-powered tool that revolutionizes the agent experience in Dynamics 365 Customer Service. It provides real-time AI powered assistance that will help agents resolve issues faster, handle cases more efficiently, and automate time-consuming tasks so that they can focus on delivering high-quality service to their customers.
 
 > [!IMPORTANT]
 > The AI-generated content is a suggestion. It's your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sharing the responses.
@@ -102,7 +102,7 @@ To return to the choice of six prompts, you can select **Start over** at the bot
 
 Use Copilot to draft chat responses when you are in a conversation with a customer.
 
-:::image type="content" source="media/copilot-suggested-responses.png" alt-text="Copilot suggested responses for conversations.":::
+:::image type="content" source="media/copilot-responses.png" alt-text="Copilot suggested responses for conversations.":::
 
 ### Generate a chat response
 
