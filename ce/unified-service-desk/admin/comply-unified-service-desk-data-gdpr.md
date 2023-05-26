@@ -76,11 +76,11 @@ The category of telemetry that [!INCLUDE[pn_unified_service_desk](../../includes
 - Freeze or performance data
 - Session start and end data
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft Dynamics 365 and GDPR](/dynamics365/get-started/gdpr/index)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft Dynamics 365 and privacy]((~/../shared-content/shared/privacy-includes/gdpr-intro.md))
 
 ## See also
 
-[Comply with General Data Protection Regulation (GDPR)](comply-gdpr.md)
+[Comply with privacy regulations](comply-gdpr.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
