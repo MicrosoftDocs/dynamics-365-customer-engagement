@@ -1,11 +1,11 @@
 ---
 title: Use the out-of-the-box data model in your reports
 description: How-to description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: rhanajoy #Required; your GitHub user alias, with correct capitalization.
-ms.author: rhcassid #Required; your Microsoft alias; optional team alias.
-ms.reviewer: kfend #Required; Microsoft alias of content publishing team member.
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: shujoshi
 ms.topic: how-to #Required; don't change.
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
+ms.collection: 
 ms.date: 05/26/2023
 ms.custom: bap-template #Required; don't change.
 ---
@@ -26,7 +26,7 @@ ms.custom: bap-template #Required; don't change.
 
 Creating a new report from scratch 
 
-If you wish to create a new report that leverages the out of box data model, then   
+If you wish to create a new report that leverages the out of box data model, then
 
 Open Power BI desktop  
 
@@ -36,9 +36,9 @@ Click on Get data, and then select Microsoft Fabric and from the list select Pow
 
 A screenshot of a computer
 
-Description automatically generated with medium confidence 
+Description automatically generated with medium confidence
 
-Select the appropriate data set, depending on your needs around historical metrics vs. real-time metrics. Make sure you pick the model in the managed workspaces. 
+Select the appropriate data set, depending on your needs around historical metrics vs. real-time metrics. Make sure you pick the model in the managed workspaces.
 
 The tables and attributes contained within the managed data model are now available for you to leverage within your report in the data panel  
 
