@@ -3,8 +3,8 @@ title: Version history archive
 description: Archive of earlier release notes of the Dynamics 365 Field Service version history.
 ms.date: 05/25/2023
 ms.topic: conceptual
-author: mhart
-ms.author: m-hartmann
+author: m-hartmann
+ms.author: mhart
 ---
 
 # Version history archive
@@ -587,7 +587,7 @@ Additional updates:
 
 #### 8.8.35.27
 
-(Includes Universal Resource Scheduling version [3.12.36.2](./field-service-version-history-resource-scheduling.md#312362))
+(Includes Universal Resource Scheduling version 3.12.36.2)
  
 - Fixed an issue where an error was being thrown when clicking on save and close button after creation of time entry record or clicking on save button and going back to time entry grid.
 - Fixed an issue with agreement booking setup when the currency in product and services wasn't getting picked up from its associated service account but the base currency in some cases. 
@@ -642,13 +642,13 @@ In addition, this release also includes the following changes:
 
 #### 8.8.34.63
 
-(Includes Universal Resource Scheduling version [3.12.35.6](./field-service-version-history-resource-scheduling.md#312356))
+(Includes Universal Resource Scheduling version 3.12.35.6)
 
 Includes all content from Field Service version 8.8.34.18
 
 #### 8.8.34.18
 
-(Includes Universal Resource Scheduling version [3.12.35.5](./field-service-version-history-resource-scheduling.md#312355))
+(Includes Universal Resource Scheduling version 3.12.35.5)
 
 - Fixed an issue regarding register devices command showing up in an asset form even though the environment isn't configured to use IoT.
 - Fixed an issue with device ID field getting cleared when the asset form is refreshed.
@@ -663,19 +663,19 @@ Includes all content from Field Service version 8.8.34.18
 
 #### 8.8.33.99
 
-(Includes Universal Resource Scheduling version [3.12.34.92](./field-service-version-history-resource-scheduling.md#3123492))
+(Includes Universal Resource Scheduling version 3.12.34.92)
 
 Includes all content from Field Service version 8.8.33.61
 
 #### 8.8.33.98
 
-(Includes Universal Resource Scheduling version [3.12.34.60](./field-service-version-history-resource-scheduling.md#3123460))
+(Includes Universal Resource Scheduling version 3.12.34.60)
 
 Includes all content from Field Service version 8.8.33.61
 
 #### 8.8.33.61
 
-(Includes Universal Resource Scheduling version [3.12.34.4](./field-service-version-history-resource-scheduling.md#312344))
+(Includes Universal Resource Scheduling version 3.12.34.4)
 
 - Allow technicians using the mobile app to quickly create follow up work orders.
 - Optimize unwanted calls for IoT entities during form loads of work order and case.
@@ -707,7 +707,7 @@ This release is a hotfix on Field Service version 8.8.32.59
 
 #### 8.8.32.59
 
-(Includes Universal Resource Scheduling version [3.12.33.8](./field-service-version-history-resource-scheduling.md#312338)) 
+(Includes Universal Resource Scheduling version 3.12.33.8) 
 
 ### Field Service
 
@@ -737,7 +737,7 @@ This release is a hotfix on Field Service version 8.8.32.59
 
 #### 8.8.31.60
 
-(Includes Universal Resource Scheduling version [3.12.32.1](./field-service-version-history-resource-scheduling.md#312321)) 
+(Includes Universal Resource Scheduling version 3.12.32.1) 
 
 - Improved error handling and messaging when the work order table is missing a booking setup metadata record. Previously, this scenario would throw a generic object reference error, which didn't help troubleshoot the issue.
 - Enabled viewing related agreement booking incident records from a customer asset. Previously, this relationship wasn't visible from the customer asset.
@@ -753,7 +753,7 @@ This release is a hotfix on Field Service version 8.8.32.59
 
 #### 8.8.30.113
 
-This release is a hotfix on Field Service version [8.8.30.103](#8830103).
+This release is a hotfix on Field Service version 8.8.30.103.
 
 - Resolved an issue with agreement invoice setups introduced during early access that caused an error in the primary invoice date and invoice generation process, which could stop invoice generation from agreements.
 - Corrected a JavaScript error when trying to create a work order through the quick create form.
@@ -787,7 +787,7 @@ In addition, this release includes the following changes:
 
 #### 8.8.26.24
 
-(Includes Universal Resource Scheduling version [3.12.25.5](./field-service-version-history-resource-scheduling.md#312255)) 
+(Includes Universal Resource Scheduling version 3.12.25.5) 
 
 - Corrected an issue: under certain circumstances, the **Discount %** in work order product form is automatically cleared on save.
 - Resolved an issue with agreement booking dates: when the booking dates are manually altered, the work orders weren't getting auto generated as expected relative to the **Generate Work Order Days in Advance** value of the related agreement booking setup.
@@ -867,13 +867,13 @@ In addition, this release includes the following changes that have the potential
 
 #### 8.8.25.30
 
-(Includes Universal Resource Scheduling version [3.12.24.5](./field-service-version-history-resource-scheduling.md#312245)) 
+(Includes Universal Resource Scheduling version 3.12.24.5) 
 
 - Includes all content from Field Service version 8.8.25.29
 
 #### 8.8.25.29
 
-(Includes Universal Resource Scheduling version [3.12.24.4](./field-service-version-history-resource-scheduling.md#312244)) 
+(Includes Universal Resource Scheduling version 3.12.24.4) 
 
 - Corrected an issue on bookable resource booking forms where the **Estimated Arrival Time** field can appear as if it has been edited immediately after save (when it hasn’t been), making the form behave as if it had unsaved changes.
 - Improved logic to allow for customizations to the work order form where the primary incident type is removed from the form to ensure that the out-of-the-box form logic has a null check for the **Primary Incident Type** field.
@@ -884,7 +884,7 @@ In addition, this release includes the following changes that have the potential
 
 #### 8.8.24.54
 
-(Includes Universal Resource Scheduling version [3.12.23.71](./field-service-version-history-resource-scheduling.md#3122371)) 
+(Includes Universal Resource Scheduling version 3.12.23.71) 
 
 - Includes all content from Field Service version 8.8.24.17
 
