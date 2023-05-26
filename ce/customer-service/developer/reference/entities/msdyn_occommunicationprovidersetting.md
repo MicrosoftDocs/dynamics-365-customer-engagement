@@ -126,7 +126,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |-----|-----|
-|192350000|Service||
+|192350000|Service|
 
 
 
