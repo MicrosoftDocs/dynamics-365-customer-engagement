@@ -393,10 +393,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |-----|-----|
-|192350000|American Express||
-|192350001|Visa||
-|192350002|Discover||
-|192350003|MasterCard||
+|192350000|American Express|
+|192350001|Visa|
+|192350002|Discover|
+|192350003|MasterCard|
 
 
 
