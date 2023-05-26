@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 05/22/2023 
+ms.date: 05/29/2023 
 ms.custom: bap-template 
 ms.collection: 
 ---
@@ -33,7 +33,7 @@ When you enable the Copilot case summary feature, agents can see the case summar
 1. Create a new form or use an existing form. More information: [Create, edit, or configure forms using the model-driven form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms).
 1. In the form designer, select **Components** from the left navigation, select **CopilotCaseSummaryControl** and drag it on to the form.
 1. Set the values of the following fields as:
-   - **CC_CaseSummary**: Any table column. Copy the unique name of the specified column.
+   - **CC_CaseSummary**: Any unused string column. Copy the unique name of the specified column.
    - **CC_IncidentId**: **Case (Text)**
 1. Set the **Show hidden** toggle to **On**.
 1. Save and publish the customizations.
@@ -44,8 +44,8 @@ When you enable the Copilot case summary feature, agents can see the case summar
 
 1. In Power Apps, you must add the event handler function for the On Change event. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui).
 1. Specify the following details in **Configure Event**:
-     - **Event Type**: **On Change**
      - Set the **Event Type** to **On load**.
+     - Set the **Library** to **msdyn_CopilptCaseSummaryLibrary.js**
      - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
      - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
 1. Save and publish the changes.
