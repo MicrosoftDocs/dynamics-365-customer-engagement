@@ -893,7 +893,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Omnichannel – Base Solution
 
-See msdyn_ocbotchannelregistration Entity [msdyn_msdyn_ocbotchannelregistration_msdyn_occustommessagingchannel_custombotchannelregistration](msdyn_ocbotchannelregistration.md#BKMK_msdyn_msdyn_ocbotchannelregistration_msdyn_occustommessagingchannel_custombotchannelregistration) One-To-Many relationship.
+See msdyn_ocbotchannelregistration Entity [msdyn_msdyn_ocbotchannelregistration_msdyn_occustommessagingchannel_custombotchannelregistration](msdyn_ocbotchannelregistration.md) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_occustommessagingchannel_custommessagingchannellanguage"></a> msdyn_msdyn_oclanguage_msdyn_occustommessagingchannel_custommessagingchannellanguage
 

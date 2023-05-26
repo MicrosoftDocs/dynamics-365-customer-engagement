@@ -709,7 +709,7 @@ Same as msdyn_octwitterhandle entity [msdyn_msdyn_oclanguage_msdyn_octwitterhand
 
 **Added by**: Omnichannel - SocialChannels Patch Solution
 
-Same as msdyn_ocwechatchannelconfig entity [msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage](msdyn_ocwechatchannelconfig.md#BKMK_msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage) Many-To-One relationship.
+Same as msdyn_ocwechatchannelconfig entity [msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage](msdyn_ocwechatchannelconfig.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
