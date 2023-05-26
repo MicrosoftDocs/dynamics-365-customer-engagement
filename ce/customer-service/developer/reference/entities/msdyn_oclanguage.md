@@ -1,7 +1,7 @@
 ---
 title: "msdyn_oclanguage Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_oclanguage entity."
-ms.date: 09/14/2020
+ms.date: 05/26/2023
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
@@ -630,7 +630,7 @@ Listed by **SchemaName**.
 - [msdyn_msdyn_oclanguage_msdyn_occustommessagingchannel_custommessagingchannellanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_occustommessagingchannel_custommessagingchannellanguage)
 - [msdyn_msdyn_oclanguage_msdyn_oclinechannelconfig_lineaccountlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_oclinechannelconfig_lineaccountlanguage)
 - [msdyn_msdyn_oclanguage_msdyn_octwitterhandle_twitterhandlelanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_octwitterhandle_twitterhandlelanguage)
-- [msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage)
+- msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage
 - [msdyn_msdyn_oclanguage_msdyn_ocwhatsappchannelnumber_whatsappnumberlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocwhatsappchannelnumber_whatsappnumberlanguage)
 - [msdyn_msdyn_oclanguage_msdyn_octeamschannelconfig_teamsaccountlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_octeamschannelconfig_teamsaccountlanguage)
 - [msdyn_msdyn_oclanguage_msdyn_ocoutboundconfiguration_defaultlocale](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocoutboundconfiguration_defaultlocale)
@@ -709,7 +709,7 @@ Same as msdyn_octwitterhandle entity [msdyn_msdyn_oclanguage_msdyn_octwitterhand
 
 **Added by**: Omnichannel - SocialChannels Patch Solution
 
-Same as msdyn_ocwechatchannelconfig entity [msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage](msdyn_ocwechatchannelconfig.md#BKMK_msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage) Many-To-One relationship.
+Same as msdyn_ocwechatchannelconfig entity [msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage](msdyn_ocwechatchannelconfig.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|

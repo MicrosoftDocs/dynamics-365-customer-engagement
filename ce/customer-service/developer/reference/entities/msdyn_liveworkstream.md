@@ -1,7 +1,7 @@
 ---
 title: "msdyn_liveworkstream Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_liveworkstream entity."
-ms.date: 10/27/2022
+ms.date: 05/26/2023
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
@@ -156,11 +156,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |-----|-----|
-|192360000|Available||
-|192360001|Busy||
-|192360002|Busy - DND||
-|192360003|Away||
-|192360004|Offline||
+|192360000|Available|
+|192360001|Busy|
+|192360002|Busy - DND|
+|192360003|Away|
+|192360004|Offline|
 
 
 
