@@ -25142,6 +25142,11 @@
       "source_path": "ce/marketing/real-time-marketing-form-editor.md",
       "redirect_url": "/dynamics365/marketing/real-time-marketing-form-overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/connected-field-service-overview.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": false
     }
   ]
 }
