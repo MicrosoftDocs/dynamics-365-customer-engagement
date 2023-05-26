@@ -12,19 +12,19 @@ ms.custom: bap-template
 
 # Forward your Teams calls to Digital Contact Center Platform
 
-You can forward the Microsoft Teams calls to Digital Contact Center Platform.
-The charges for the forwarded calls are calculated based on [PSTN inbound rate](voice-channel-pricing-scenarios.md). The standard charges of Microsoft Teams calls are also applicable for forwarded calls.
+You can forward the Microsoft Teams calls to digital contact center.
+The digital contact center charges for the forwarded calls are calculated based on [PSTN inbound rate](voice-channel-pricing-scenarios.md). The standard charges of Microsoft Teams calls are also applicable for forwarded calls.
 
 ## Prerequisites
 
-Configure auto attendants and call queues to send calls to external numbers. For more information, see: [Plan for Teams auto attendants and call queues - Microsoft Teams](/microsoftteams/plan-auto-attendant-call-queue#prerequisites)
+Configure auto attendants and call queues to send calls to external numbers (your digital contact center number). For more information, see: [Plan for Teams auto attendants and call queues - Microsoft Teams](/microsoftteams/plan-auto-attendant-call-queue#prerequisites)
 
 ## How you can forward Teams calls
-You can forward Teams user numbers calls, auto attendant calls, and calls in the call queues to Digital Contact Center Platform. The agent sees the same number from which the customer called the Teams Number. The application also identifies the customer once the ID record identification is enabled.
+You can forward Teams user numbers calls, auto attendant calls, and calls in the call queues to Digital Contact Center Platform. The digital contact center agent sees the same number from which the customer called the Teams Number. The application also identifies the customer once record identification is enabled.
 
-Call forwarding is supported for following scenarios:
+Call forwarding is supported for the following scenarios:
 - Calls to Teams user numbers: Perform the steps in [Configure call settings for users - Microsoft Teams](/microsoftteams/user-call-settings#use-the-teams-admin-center) to enable call forwarding.
-- Calls to auto attendants: Perform the steps in [Set up a Microsoft Teams auto attendant - Microsoft Teams](/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) to enable call forwarding to auto attendants. You can also forward the calls directly to Digital Contact Center Platform number.
+- Calls to auto attendants: Perform the steps in [Set up a Microsoft Teams auto attendant - Microsoft Teams](/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) to enable call forwarding to the auto attendant flow. You can also forward the calls directly to digital contact center number without going through the auto attendant flow.
 
    :::image type="content" source="media/add-number-call-menu.png" alt-text="Adding Microsoft Digital Contact Center number in the call menu":::
 
