@@ -48,8 +48,6 @@ To provision unified routing in Customer Service, do the following:
 
 After unified routing is provisioned, **Unified routing successfully provisioned** message appears above the toggle key.
 
-> ![Site map view for unified routing.](media/unified-routing-site-map.png)
-
 ### Provision unified routing in Customer Service with Omnichannel for Customer Service
 
 When Omnichannel for Customer Service is available but not deployed, in the **Service Configuration Settings** page, the following message will appear:
