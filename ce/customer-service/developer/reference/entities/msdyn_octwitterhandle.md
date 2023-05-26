@@ -906,7 +906,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_msdyn_msdyn_octwitterapplication_msdyn_octwitterhandle_octwitterapplicationid"></a> msdyn_msdyn_octwitterapplication_msdyn_octwitterhandle_octwitterapplicationid
 
-See msdyn_octwitterapplication Entity [msdyn_msdyn_octwitterapplication_msdyn_octwitterhandle_octwitterapplicationid](msdyn_octwitterapplication.md#BKMK_msdyn_msdyn_octwitterapplication_msdyn_octwitterhandle_octwitterapplicationid) One-To-Many relationship.
+See msdyn_octwitterapplication Entity [msdyn_msdyn_octwitterapplication_msdyn_octwitterhandle_octwitterapplicationid](msdyn_octwitterapplication.md) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_octwitterhandle_twitterhandlelanguage"></a> msdyn_msdyn_oclanguage_msdyn_octwitterhandle_twitterhandlelanguage
 
