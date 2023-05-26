@@ -644,8 +644,10 @@
         href: voice-channel-bring-your-own-number.md
       - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
-      - name: Supported cloud locations, languages, and locale codes
+      - name: Supported cloud locations
         href: voice-channel-region-availability.md
+      - name: Supported languages and locale codes
+        href: voice-channel-supported-languages.md
     - name: Agent experience
       items:
       - name: Call a customer
@@ -902,8 +904,16 @@
       href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
+    - name: Copilot in Customer Service
+      items:
+      - name: Configure Copilot in Customer Service
+        href: configure-copilot-features.md
+      - name: Configure Copilot settings for custom case forms and custom apps
+        href: copilot-powerapps-settings.md
+      - name: Use Copilot features
+        href: use-copilot-features.md
     - name: Administrator experience
-      items: 
+      items:
       - name: Productivity pane
         href: productivity-pane.md
       - name: Enable productivity pane and smart assist
