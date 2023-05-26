@@ -118,7 +118,7 @@ You'll be able to select the Power BI report in the workspace using the **Select
 
 ### See also
 
-[Customize the visual display of your analytics reports](customize-reports.md#customize-the-visual-display-of-your-analytics-reports)  
+[Customize the display of analytics reports](customize-reports.md#customize-the-display-of-analytics-reports)
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)  
 [Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md)  
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)  
