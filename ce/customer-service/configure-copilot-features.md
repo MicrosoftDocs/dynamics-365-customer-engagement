@@ -23,11 +23,11 @@ ms.collection:
 
 Copilot in Customer Service provides real-time AI assistance that helps agents automate time consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
 
-Enable the copilot features for agents to use Copilot to:
-- Respond to questions.
-- Compose an email.
-- Draft a chat response.
-- Summarize a case.
+Enable the Copilot features for agents to use Copilot to:
+- Respond to questions
+- Compose an email
+- Draft a chat response
+- Summarize a case
 
 ## Regional availability and supported languages
 
@@ -37,19 +37,19 @@ The copilot features are available in the United States only and supported in th
 
 - You have the System Administrator role.
 - [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) is configured in your environment. 
-- Make sure that your knowledge articles parameters are as follows:
-   - Are updated with the latest version.
-   - Have the state set to Published.
-   - Locale is set to English.
+- Your knowledge article parameters are as follows:
+   - Updated with the latest version
+   - The state is set to Published
+   - The locale is set to English
 
 ### Opt-in to continue with Copilot setup
 
- Before you enable a Copilot feature, review the terms and conditions and provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center and then select **Opt in** to continue with the setup.
+Before you enable a Copilot feature, review the terms and conditions and provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
 
 :::image type="content" source="media/copilot-opt-in.png" alt-text="Opt in to get copilot features.":::
 
 
-## Enable Copilot to respond to questions, compose an email, or a chat response
+## Enable Copilot to respond to questions, compose an email, or create a chat response
 
 Perform the following steps to enable the Copilot features:
 
@@ -58,11 +58,11 @@ Perform the following steps to enable the Copilot features:
       - **Operations** > **Insights** > **Copilot help pane (preview)**
 1. Select **Manage** in **Copilot help pane (preview)**.
 1. Select the following options: 
-    - **Make Copilot available to agents**: To display the **Ask a question** tab on the **Copilot help pane (preview)** when agents login. Agents can ask questions conversationally, and the Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
-    - **For customer chat**: To display the one-click response generation button on both the conversation panel for a conversation and on the Ask a question tab on the Copilot help pane. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
-    - **For email**:  To display the **Write an email** tab on the **Copilot help pane (preview)**. Copilot helps agents create email responses based on the context of the case.
+    - **Make Copilot available to agents**: Displays the **Ask a question** tab on the **Copilot help pane (preview)** when agents sign in. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
+    - **For customer chat**: Displays the one-click response generation button on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
+    - **For email**: Displays the **Write an email** tab on the **Copilot help pane (preview)**. Copilot helps agents create email responses based on the context of the case.
 1. Copilot automatically refreshes your knowledge base and displays the date and time of when it was last updated. By default, the knowledge articles are refreshed every week.
-1. You can add up to five web trusted web domains for Copilot to search when generating responses. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels, represented by forward slashes (/) after the .com part of the URL. 
+1. You can add up to five trusted web domains for Copilot to search when generating responses. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels, represented by forward slashes (/) after the .com part of the URL. 
 
 > [!NOTE]
 > Web domains are only used by Copilot to draft emails and chat replies.
@@ -88,7 +88,7 @@ Perform the steps in [display case summary on custom case forms](copilot-powerap
 
 ## Record feedback
 
-In the corresponding Copilot configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record and understand how agents are interacting with Copilot and how Copilot is performing in a support organization. Agents can also share feedback about Copilot actions, that helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
+In the corresponding Copilot configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record and understand how agents are interacting with Copilot and how Copilot is performing in a support organization. Agents can also share feedback about Copilot actions, which helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
 
 ## Make Copilot available to agents
 
@@ -123,7 +123,7 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvReadmsdyn_conversationinsight
 
 > [!IMPORTANT]
-> For Copilot case summary to be displayed, you must add the prvReadmsdyn_conversationinsight privilege to the out-of-the-box Customer Service Representative role.
+> For the Copilot case summary to be displayed, you must add the prvReadmsdyn_conversationinsight privilege to the out-of-the-box Customer Service Representative role.
 
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
