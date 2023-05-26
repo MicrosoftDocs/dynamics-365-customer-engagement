@@ -1,7 +1,7 @@
 ---
 title: "Use Microsoft Teams meetings in Customer Service | Microsoft Docs"
 description: "Learn how to use Microsoft Teams meetings integration in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 04/22/2022
+ms.date: 05/29/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -93,7 +93,7 @@ You can create a Teams meeting while creating a meeting either from the timeline
 
 You can create a Teams meeting in Microsoft Outlook, but the meeting will not be linked to a Dynamics 365 record automatically. You must install the Dynamics 365 app for Outlook to link the meeting to a Dynamics 365 record. After installing the app, open it, and search for the record in the **Set Regarding** field.
 
-For information on creating a Teams meeting in Microsoft Outlook, see [Schedule a Teams meeting from Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f.com).
+For information on creating a Teams meeting in Microsoft Outlook, see [Schedule a Teams meeting from Outlook](https://support.microsoft.com/en-us/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
 
 For information on using the Dynamics 365 App for Outlook, see [Basic navigation in App for Outlook (Dynamics 365 apps)](/dynamics365/outlook-app/user/basic-navigation).
 

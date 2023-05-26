@@ -18,7 +18,7 @@ Google's Business Messages channel gives you the opportunity to capitalize on th
 
 Complete the following steps before configuring Google's Business Messages channel in Omnichannel for Customer Service.
 
-- In Customer Service, provision the channels in your environment. More information: [Provision Omnichannel for Customer Service](/omnichannel-provision-license.md)
+- In Customer Service, provision the channels in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 
 - In Google's Business Messages, complete the following actions:
 
