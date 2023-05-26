@@ -24,7 +24,7 @@ ms.custom:
 |-----------------   |----------  |----------|---------------------------------------------------|
 | entityLogicalName  | String     | Yes      | The entity logical name of the record you want to query such as "account".  |
 | searchString       | String     | Yes      | String to search among the attributes of the entity records. |
-| searchType         | Boolean    | No       | Type of search page to open&mdash;0 for relevance search and 1 for categorized search. If no parameter is provided, the records are searched by category. For information on relevance search, see [Configure Dataverse search](/power-platform/admin/configure-relevance-search-organization.md). |
+| searchType         | Boolean    | No       | Type of search page to open&mdash;0 for relevance search and 1 for categorized search. If no parameter is provided, the records are searched by category. For information on relevance search, see [Configure Dataverse search](/power-platform/admin/configure-relevance-search-organization). |
 | successCallback    | Function   | No       | A function to call when some records are retrieved. |
 | errorCallback      | Function   | No       | A function to call when the operation fails.        |
 
