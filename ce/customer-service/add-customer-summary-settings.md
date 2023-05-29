@@ -22,19 +22,19 @@ The enhanced Active Conversation experience enables you to customize the **Activ
 
 ## Manage Active Conversation form settings
 
-To enable the enhanced Active Conversation form and customize the default form, perform the following steps:   
+To enable the enhanced Active Conversation form and customize the form, perform the following steps:   
 
 1. In Customer Service admin center, go to **Workspaces**.
 1. Select **Manage** for **Active conversation form settings** in **Workspaces**.
 1. Select the following options:
-    - **Enable the enhanced active conversation form** to enable the enhanced Active Conversation experience. This displays the following on the Active Conversation form:
-      - Configurable Customer 360 and Case details card with inline edit capabilities. 
-      - Recent cases card with color coded priority & status fields.
-      - The default form selector is hidden.
+    - **Enable the enhanced active conversation form** to enable the following feaatures as a part of the enhanced Active Conversation experience:
+      - View Configurable Customer 360 and Case details card with inline edit capabilities. 
+      - View Recent cases card with color coded priority and status fields.
+      - No longer switch between active and closed conversations as the default form selector is hidden.
     - **Customise active conversation form** to display **Queue** , **Start time**, **Save**, and **Refresh** options on the Active Conversation form. Select Power Apps to further customize the form. If you're customizing the form on Power Apps, we recommend the following guidelines:
        - Reduce the number of custom controls. Keep only the most frequently used of these controls on the default tab. The remaining data-driven controls should be distributed into secondary tabs to allow the default tab to load quickly. 
        - Limit the amount of customizations using the form Onload event.
-       - Limit the amount of external data coming from Canvas apps for highly efficient and productive forms.
+       - Limit the amount of external data coming from Canvas apps for efficient and productive forms.
        More information: [Design forms for performance in model-driven apps](/power-apps/maker/model-driven-apps/design-performant-forms)
 
    > [!NOTE] 
