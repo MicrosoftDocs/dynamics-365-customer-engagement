@@ -37,7 +37,7 @@ Depending on the settings enabled for you, you'll see one of the following layou
   If your administrator has enabled the **Enhanced Active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. 
   
   If your administrator has enabled the **Customise active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. 
-  - The **Save** and **Refresh** options are available on **Active Conversation** form. You can edit and save standard and custom field values added to the **Active Conversation** form by your administrator. However, logical column names aren’t editable. More information: [Logical column names](supported-customizations.md#logical-column-names) If a default value is already set for a field, the application populates the value on the **Active Conversation** form.
+  - The **Save** and **Refresh** options are available on **Active Conversation** form. 
   - **Queue:** The queue through which the conversation has been assigned to you.
   - **Start time:** The time when you started the conversation.
 
