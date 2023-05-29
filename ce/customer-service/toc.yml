@@ -632,6 +632,8 @@
         href: voice-channel-block-number.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
+      - name: Delete call recordings
+        href: voice-channel-delete-calls.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
