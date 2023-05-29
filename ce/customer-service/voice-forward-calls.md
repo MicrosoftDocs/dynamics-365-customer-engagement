@@ -1,5 +1,5 @@
 ---
-title: Forward your Teams call to Digital Contact Center Platform| MicrosoftDocs 
+title: Forward your Teams call to digital contact center| MicrosoftDocs 
 description: Learn about forwarding Teams calls to Digital Contact Center Platform
 author: venki-ms 
 ms.author: v-duddupdiv
@@ -10,7 +10,7 @@ ms.date: 05/29/2023
 ms.custom: bap-template 
 ---
 
-# Forward your Teams calls to Digital Contact Center Platform
+# Forward your Teams calls to digital contact center
 
 You can forward Microsoft Teams calls to digital contact center.
 The digital contact center charges for the forwarded calls are calculated based on [PSTN inbound rate](voice-channel-pricing-scenarios.md). The standard charges of Microsoft Teams calls are also applicable for forwarded calls.
@@ -20,7 +20,7 @@ The digital contact center charges for the forwarded calls are calculated based 
 Configure auto attendants and call queues to send calls to external numbers (your digital contact center number). For more information, see: [Plan for Teams auto attendants and call queues - Microsoft Teams](/microsoftteams/plan-auto-attendant-call-queue#prerequisites)
 
 ## How you can forward Teams calls
-You can forward Teams user numbers calls, auto attendant calls, and calls to the call queues to your digital contact center. The digital contact center agent sees the same number from which the customer called the Teams Number. The application also identifies the customer once record identification is enabled.
+You can forward Teams user numbers calls, auto attendant calls, and calls to the call queues to your digital contact center. The digital contact center agent sees the same number from which the customer called the Teams number. The application also identifies the customer once record identification is enabled.
 
 Call forwarding is supported for the following scenarios:
 - Calls to Teams user numbers: Perform the steps in [Configure call settings for users - Microsoft Teams](/microsoftteams/user-call-settings#use-the-teams-admin-center) to enable call forwarding.
