@@ -46,7 +46,7 @@ Depending on the settings enabled for you, you'll see one of the following layou
    :::image type="content" source="media/enh-custsummary-overall-mini.png" alt-text="Enhanced quick case form" lightbox="media/enh-custsummary-overall.png":::
     
   > [!NOTE] 
-  > -The form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. However, you can switch between active and closed conversations if your administrator has enabled this control.
+  > - The form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. However, you can switch between active and closed conversations if your administrator has enabled this control.
   > - You can't switch to closed conversation form from the **Active Conversation** form while the conversation is still active. Similarly, once the conversation and the session has ended, you can't switch from  the Closed Conversation form to the Active Conversation form.
 
   ### [Default Active Conversation page](#tab/customersummarypage)
