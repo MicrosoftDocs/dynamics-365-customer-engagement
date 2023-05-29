@@ -34,11 +34,11 @@ Depending on the settings enabled for you, you'll see one of the following layou
 
   ### [Enhanced Active Conversation page](#tab/enhancedcustomersummarypage)
 
- - If your administrator has enabled the **Enhanced Active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page, with the customer or account and case details cards with inline edit capabilities. You can also view the Recent cases card with color coded priority & status fields.  
+ - If your administrator has enabled the **Enhanced Active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page, with the customer or account,  and case details cards with inline edit capabilities. You can also view the Recent cases card with color coded priority and status fields.  
  
    > [!NOTE] 
    > - The form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. You can't switch to closed conversation form from the **Active Conversation** form while the conversation is still active.
-   > - You can see the form selector if your administrator has enabled it for you. More information: [Display the form selector on Active Conversation form](add-customer-summary-settings.md#display-the-form-selector-on-active-conversation-form)
+   > - You can see the form selector on the enhanced Active Conversation form if your administrator has enabled it for you. More information: [Display the form selector on Active Conversation form](add-customer-summary-settings.md#display-the-form-selector-on-active-conversation-form)
   
   If your administrator has enabled the **Customise active conversation form**  in Customer Service admin center, you see the following options on the **Active Conversation** page:  
   - The **Save** and **Refresh** options are available on **Active Conversation** form. 
