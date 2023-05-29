@@ -7,7 +7,7 @@ author: lalexms
 ms.author: laalexan
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Overview of Dynamics 365 Customer Service
