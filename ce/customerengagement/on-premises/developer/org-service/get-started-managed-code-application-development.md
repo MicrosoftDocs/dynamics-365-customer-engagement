@@ -1,7 +1,7 @@
 ---
 title: "Getting started with on-premise managed code application development (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This guide shows you how to write application code that connects to the Dynamics 365 Customer Engagement web services and invoke web methods to perform common business data operations like create, delete, update, and find"
-ms.custom: intro-internal
+ms.collection: get-started
 ms.date: 10/31/2017
 ms.reviewer: pehecke
 

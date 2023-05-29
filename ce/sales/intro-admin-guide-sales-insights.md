@@ -2,7 +2,7 @@
 title: Introduction on how to install and administer Sales Insights
 description: Introduction page showing administration and application configurations for Sales Insights features in Dynamics 365 Sales.
 ms.date: 04/21/2023
-ms.custom: intro-internal
+ms.collection: get-started
 ms.topic: article
 author: udaykirang
 ms.author: udag
