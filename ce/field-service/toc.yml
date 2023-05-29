@@ -327,6 +327,8 @@ items:
   items:
   - name: Overview
     href: connected-field-service.md
+  - name: Privacy notice
+    href: cfs-privacy-notice.md
   - name: Administration
     items:
       - name: Architecture

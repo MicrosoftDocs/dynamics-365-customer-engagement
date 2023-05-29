@@ -154,7 +154,7 @@ For information on data model and report mapping, see [Data models and report ma
 
 ### See also
 
-[Customize the visual display of your analytics reports](customize-reports.md#customize-the-visual-display-of-your-analytics-reports)  
+[Customize the display of analytics reports](customize-reports.md#customize-the-display-of-analytics-reports)
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)  
 [Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md)  
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)  
