@@ -29,7 +29,7 @@ highlightedContent:
     # Card
     - title: Troubleshoot
       itemType: concept
-      url: ../../troubleshoot/dynamics-365/sales/welcome-sales
+      url: ../../troubleshoot/dynamics-365/sales/welcome-sales.md
       
 additionalContent: 
   sections:
@@ -162,7 +162,7 @@ additionalContent:
       links: 
       - url: sales-mobile/install-mobile-app.md
         text: Install the mobile app
-      - url: sales-mobile/learn-basics-mobile-app
+      - url: sales-mobile/learn-basics-mobile-app.md
         text: Learn the basics
       - url: sales-mobile/use-sales-mobile-app.md
         text: Use the mobile app 
@@ -185,4 +185,4 @@ additionalContent:
           url: /dynamics365/linkedin/integrate-sales-navigator
         - title: Power Platform
           summary: Build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, and analyze data for insights using Power BI, 
-          url: ../../power-platform/
+          url: /power-platform
