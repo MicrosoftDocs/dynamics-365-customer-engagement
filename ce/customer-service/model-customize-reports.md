@@ -87,7 +87,7 @@ Specify the Power BI workspace where the Dynamics data model and reports will be
 > [!NOTE]
 > The specified workspace applies only to the customer's workspace. A new managed workspace will be created by Microsoft for historical and real-time reports each, when configured. For more information, go to: Understand how model customization works. You can also specify the same workspace for both historical and real-time analytics reports.
 
-## Provision the data models and copy of reports
+## Provision the data models
 
 It could take up to 24 hours for the provisioning to complete. You can leave the Settings page and check back after a few hours. Select **Refresh** to check the provisioning status.
 
