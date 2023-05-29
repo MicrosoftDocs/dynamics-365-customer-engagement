@@ -6,8 +6,30 @@
   items:
     - name: What's new or changed in Dynamics 365 sales
       href: whats-new.md
-    - name: March 2023 release
-      href: march-2023-whatsnew.md
+- name: Get started
+  items:
+    - name: Learn the basics
+      href: user-guide-learn-basics.md
+    - name: Understand the sales process
+      href: nurture-sales-from-lead-order-sales.md
+    - name: Import data
+      href: import-data.md
+    - name: Export data to Excel
+      href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
+    - name: Search for your data
+      href: /powerapps/user/search?context=/dynamics365/context/sales-context
+    - name: Assign or share records
+      href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
+    - name: Print quote, invoice, or other records
+      href: print-records.md
+    - name: Export sales records to PDF
+      href: create-quote-pdf.md
+    - name: View and manage records in focused view  
+      href: focused-view.md
+    - name: Set focused view as the default view
+      href: set-focused-view-as-default.md
+    - name: Work with views
+      href: work-with-views.md
 - name: Try, buy, and install
   items:
   - name: Try
@@ -97,30 +119,6 @@
         href: move-sales-enterprise-sales-professional.md
       - name: Upgrade to Sales Premium
         href: upgrade-sales-premium.md
-- name: Learn the basics
-  items:
-    - name: Learn the basics
-      href: user-guide-learn-basics.md
-    - name: Understand the sales process
-      href: nurture-sales-from-lead-order-sales.md
-    - name: Import data
-      href: import-data.md
-    - name: Export data to Excel
-      href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
-    - name: Search for your data
-      href: /powerapps/user/search?context=/dynamics365/context/sales-context
-    - name: Assign or share records
-      href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
-    - name: Print quote, invoice, or other records
-      href: print-records.md
-    - name: Export sales records to PDF
-      href: create-quote-pdf.md
-    - name: View and manage records in focused view  
-      href: focused-view.md
-    - name: Set focused view as the default view
-      href: set-focused-view-as-default.md
-    - name: Work with views
-      href: work-with-views.md
 - name: Administration guide
   items:
     - name: Administration overview

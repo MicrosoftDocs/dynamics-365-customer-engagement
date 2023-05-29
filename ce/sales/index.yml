@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title:  Dynamics 365 Sales documentation
-summary:  Discover how to make the most of Dynamics 365 Sales with online training courses, docs, and videos covering product capabilities and how-to guides.
+summary:  Discover how to make the most of Dynamics 365 Sales with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Dynamics 365 Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
 brand: dynamics
 metadata:
   title: Dynamics 365 Sales 
@@ -15,7 +15,7 @@ metadata:
 highlightedContent:
   items:
     # Card
-    - title: Get started
+    - title: Welcome to Dynamics 365 Sales
       itemType: get-started
       url: overview.md
     # Card
