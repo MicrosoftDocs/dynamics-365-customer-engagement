@@ -40,10 +40,10 @@ Depending on the settings enabled for you, you'll see one of the following layou
    > - The form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. You can't switch to closed conversation form from the **Active Conversation** form while the conversation is still active.
    > - You can see the form selector if your administrator has enabled it for you. More information: [Display the form selector on Active Conversation form](add-customer-summary-settings.md#display-the-form-selector-on-active-conversation-form)
   
-  - If your administrator has enabled the **Customise active conversation form**  in Customer Service admin center, you see the following options on the **Active Conversation** page. 
-    - The **Save** and **Refresh** options are available on **Active Conversation** form. 
-    - **Queue:** The queue through which the conversation has been assigned to you.
-    - **Start time:** The time when you started the conversation.
+  If your administrator has enabled the **Customise active conversation form**  in Customer Service admin center, you see the following options on the **Active Conversation** page:  
+  - The **Save** and **Refresh** options are available on **Active Conversation** form. 
+  - **Queue:** The queue through which the conversation has been assigned to you.
+  - **Start time:** The time when you started the conversation.
 
   You can also use **Related** to select and navigate to the required entities.
 
