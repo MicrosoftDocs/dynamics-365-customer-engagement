@@ -6,37 +6,37 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 05/26/2023
+ms.date: 05/29/2023
 ms.custom: bap-template
 ---
 
 # Overview of data model customization
 
-Data model customization helps you customize the out-of-the-box standard reports and add your own KPIs and custom metrics to the reports to view the key metrics that are relevant to your organization.
+Data model customization helps you customize the out-of-the-box standard reports and add your own (key performance indicators) KPI and custom metrics to the reports to view the key metrics that are relevant to your organization.
 
-As Dynamics evolves and new features get added, metric definitions and calculations constantly need to be updated to account for additional workflows enabled by new features. Using the out-of-box model and only creating the metrics that are unique to your organization reduces the risk of metric definitions going stale.
+As new features get added, metric definitions and calculations constantly need to be updated to account for additional workflows enabled by new features. Using the out-of-box model and creating only those metrics that are unique to your organization reduces the risk of metric definitions being outdated.
 
-## What is data model model customization and how does it help you
+## What is data model model customization
 
-Dynamics 365 Customer Service provides a suite of out-of-box analytic dashboards that are built on Power BI. These analytic solutions provide a plethora of industry standard KPIs and metrics that can help you monitor and improve the performance of your contact center.  Power BI solutions we deploy have two components – data model (sometimes referred as data set) and report. The data model houses the KPIs while reports are responsible for visualizing this data for viewers.  
+Dynamics 365 Customer Service provides a suite of out-of-box analytic dashboards that are built on Power BI. These analytic solutions provide industry standard KPIs and metrics that can help you monitor and improve the performance of your contact center. Power BI solutions deploy two components – data model (sometimes referred as data set) and report. The data model houses the KPI while reports  help visualize this data for supervisors.  
 
-Every organization that has analytics enabled gets their own copy of this solution deployed and available only to them. Dynamics 365 is responsible for reading the data from Dataverse, performing transformation logic for each of the KPIs and making these KPIs available for you within these data model, and hence is not editable. However, the reports that are deployed for your organization are editable and customizable. Visual customization allows you to edit the reports, visualizing the data available in the data set as fit for your organization. For example: Dynamics reads all the required data, performs the logic needed to calculate average handle time and makes it available for you in the data model. You can choose to visualize this as a chart or a table etc. as you see fit and drill down to see average handle time for a queue, user etc.   
-Also, not all metrics available in the model are leveraged on the out-of-box reports, and visual customizations give you the ability to leverage these metrics, in addition to creating new pivots, slicing data with additional dimensions etc.  
+### How does data model model customization help you
 
-Sometimes, you may run into scenarios where you would like to modify the data available in the data set or the logic used to calculate the metrics in the dataset. These are typically driven by processes unique to your organization. Some common scenarios are  
+Every organization that has analytics enabled gets the analytics solution deployed and available only to them. Dynamics 365 leverages the data from Dataverse, performs transformation logic for each of the KPIs and makes these KPIs available for you within these data model, thus making these uneditable.
 
-Scenario 1: You are trying to create variants of metrics that we provide in the data set, that are similar but differ a little in logic.  
+However, the reports that are deployed for your organization are editable and customizable. With visual customization, you can edit the reports to visualize the data available in the data set as required by your organization. For example, Dynamics 365 reads all the required data, performs the logic required to calculate the average handle time and makes it available for you in the data model. You can choose to edit and present this as a chart or a table, as required and drill down to see the average handle time for a queue or user. Visual customizations also give you the ability to reveal hidden metrics, create new pivots, and slice data with additional dimensions.  
 
-For example: While we provide Service level metrics for 10, 20, 30, 40, 60 and 120 seconds in the Omni-channel real-time reports, you have a team that promises service levels of 150 seconds and wants to see that metric on the reports.  
+### Scenario-based use cases
 
-Scenario 2: Your organization calculates a metric that is provided out-of-box differently (refer to OC metric) and would like to compute it based on your logic.   
-For example: Only the time spent by the primary agent (active agent who is owning and assigned to the conversation) is considered when calculating average handle time. Time spent by SMEs consulting is offered as a separate metric. Your organization wants to include this time in the handle time. 
+Sometimes, you may run into scenarios where you would like to modify the data available in the data set or the logic used to calculate the metrics in the dataset. These are typically driven by processes unique to your organization. Some common scenarios are:  
 
-Scenario 3: Your organization has customized attributes on out-of-box Dynamics entities or has custom entities to support your workflows and process and would like to include those attributes, metrics built on those attributes on the reports. In addition, your organization wants to report on out-of-box attributes that are not included in the reports or the data set by default.    
-For example: Your organization has customized user entity to include a region attribute and would like to get a drill down of resolution time by region.  
+- **Scenario 1**: You are trying to create variants of metrics that we provide in the data set, that are similar but differ a little in logic. For example, while we provide Service level metrics for 10, 20, 30, 40, 60 and 120 seconds in the Omnichannel real-time reports, you have a team that promises service levels of 150 seconds and wants to see that metric on the reports.  
 
-Scenario 4: Your organization wants to build custom dashboards that bring data from multiple applications your organization uses.  
-For example: You might have an existing Power BI dashboard that brings operational data from your workforce management systems, and you would like to show Dynamics data like agent presence on these dashboards.  
+- **Scenario 2**: Your organization calculates a metric that is provided out-of-box differently (refer to OC metric) and would like to compute it based on your logic. For example,only the time spent by the primary agent (active agent who is owning and assigned to the conversation) is considered when calculating average handle time. Time spent by SMEs consulting is offered as a separate metric. Your organization wants to include this time in the handle time.
+
+- **Scenario 3**: Your organization has customized attributes on out-of-box Dynamics entities or has custom entities to support your workflows and process and would like to include those attributes, metrics built on those attributes on the reports. In addition, your organization wants to report on out-of-box attributes that are not included in the reports or the data set by default. For example, your organization has customized user entity to include a region attribute and would like to get a drill down of resolution time by region.  
+
+- Scenario 4: Your organization wants to build custom dashboard**Scenario 4**s that bring data from multiple applications your organization uses. For example, you might have an existing Power BI dashboard that brings operational data from your workforce management systems, and you would like to show Dynamics data like agent presence on these dashboards.  
 
 ## How does data model customization work
 
