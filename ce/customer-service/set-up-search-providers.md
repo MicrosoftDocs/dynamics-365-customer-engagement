@@ -10,7 +10,7 @@ search.audienceType:
   - customizer
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 searchScope: 
  - D365-App-customerservicehub 
  - D365-Entity-msdyn_kmfederatedsearchconfig
