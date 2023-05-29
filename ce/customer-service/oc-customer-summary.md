@@ -36,7 +36,7 @@ Depending on the settings enabled for you, you'll see one of the following layou
 
   If your administrator has enabled the **Enhanced Active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. 
   
-  If your administrator has enabled the **Customise active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. 
+  If your administrator has enabled the **Customise active conversation form**  in Customer Service admin center, you see the following options on the **Active Conversation** page:  
   - The **Save** and **Refresh** options are available on **Active Conversation** form. 
   - **Queue:** The queue through which the conversation has been assigned to you.
   - **Start time:** The time when you started the conversation.
