@@ -1026,7 +1026,7 @@
           href: configure-customer-service-analytics-dashboard.md
         - name: Configure Omnichannel Insights dashboards
           href: configure-historical-sentiment-dashboard-supervisor.md
-      - name: Customize data models for historical analytics reports
+      - name: Customize data models of historical and real-time analytics reports
         href: model-customize-reports.md
       - name: Configure forecasting
         items:
