@@ -20,14 +20,27 @@ The enhanced Active Conversation experience enables you to customize the **Activ
 
  More information: [Configure components to display customer details and recent records](add-display-components-to-case-form.md).
 
-## Enable enhanced Active Conversation
+## Manage Active Conversation form settings
+
+To enable the enhanced Active Conversation form and customize the default form, perform the following steps:   
 
 1. In Customer Service admin center, go to **Workspaces**.
 1. Select **Manage** for **Active conversation form settings** in **Workspaces**.
 1. Select the following options:
-    - **Enhanced the enhanced active conversation form** to enable the enhanced Active Conversation experience.
-    - **Customise active conversation form** to display **Queue** , **Start time**, **Save**, and **Refresh** options on the Active Conversation form. You can also select **Power Apps** to customize the Active Conversation form in Power Apps. 
-1. Select **Configure** to further customize the enhanced Active Conversation form. More information: [Create and customize a model-driven app form](/power-apps/maker/model-driven-apps/create-and-edit-a-model-driven-form).
+    - **Enable the enhanced active conversation form** to enable the enhanced Active Conversation experience. This displays the following on the Active Conversation form:
+      - Configurable Customer 360 and Case details card with inline edit capabilities. 
+      - Recent cases card with color coded priority & status fields.
+      - The default form selector is hidden.
+    - **Customise active conversation form** to display **Queue** , **Start time**, **Save**, and **Refresh** options on the Active Conversation form. Select Power Apps to further customize the form. If you're customizing the form on Power Apps, we recommend the following guidelines:
+       - Reduce the number of custom controls. Keep only the most frequently used of these controls on the default tab. The remaining data-driven controls should be distributed into secondary tabs to allow the default tab to load quickly. 
+       - Limit the amount of customizations using the form Onload event.
+       - Limit the amount of external data coming from Canvas apps for highly efficient and productive forms.
+       More information: [Design forms for performance in model-driven apps](/power-apps/maker/model-driven-apps/design-performant-forms)
+
+   > [!NOTE] 
+   > If **Customise active conversation form** is enabled and a consult is initiated, agents who are from a different business unit and don't the required permissions for the activity can't access the conversation.
+
+    :::image type="content" source="media/enh-active-conv-config.png" alt-text="Configuration settings" ::: 
 
 ## Display the form selector on Active Conversation form
 
