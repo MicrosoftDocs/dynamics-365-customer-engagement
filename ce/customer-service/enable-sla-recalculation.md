@@ -13,7 +13,7 @@ search.audienceType:
 ms.custom: 
   - bap-template
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Recalculate SLAs in terminal status
