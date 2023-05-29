@@ -2,10 +2,6 @@
   href: index.yml
 - name: Welcome to Dynamics 365 Sales
   href: overview.md
-- name: What's new or changed
-  items:
-    - name: What's new or changed in Dynamics 365 sales
-      href: whats-new.md
 - name: Get started
   items:
     - name: Learn the basics
@@ -30,6 +26,10 @@
       href: set-focused-view-as-default.md
     - name: Work with views
       href: work-with-views.md
+- name: What's new or changed
+  items:
+    - name: What's new or changed in Dynamics 365 sales
+      href: whats-new.md
 - name: Try, buy, and install
   items:
   - name: Try
