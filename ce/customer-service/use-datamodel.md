@@ -52,29 +52,28 @@ The tables and attributes from the managed data model are now available for you 
 
 If you are looking to create a metric within the existing entities (as described in scenarios #1 and #2), you should  
 
-Open the report you want to edit in Power BI desktop. Make sure you use the steps described in Leveraging the out of box data model in your reports, to ensure that your report is connected to the dynamics data model  
+Open the report you want to edit in Power BI desktop. Make sure you use the steps described in Leveraging the out of box data model in your reports, to ensure that your report is connected to the dynamics data model.  
 
-Right click on the entity in which you want to create your new metric 
+1. Right click on the entity in which you want to create your new metric 
 
-Enter the DAX logic, after selecting the right attributes like name, data type etc. A screenshot of a computer
+2. Enter the DAX logic, after selecting the right attributes like name, data type.
 
-Description automatically generated 
+3. Save your measure and include it in your visualization as you see fit  
 
-Save your measure and include it in your visualization as you see fit  
-
-Publish your newer version to Power BI by clicking on File -> Publish 
+4. Publish your newer version to Power BI by clicking on File -> Publish 
  
 Note: If you choose to rename an existing column, you will have to create a new local model.  
 
-Let’s walk through this scenario with an example. Let us create a new Service level 150 seconds in real-time reports.  
+Let’s walkthrough this scenario with an example. Let us create a new Service level 150 seconds in real-time reports.  
 
-Open your Power BI service, and navigate to the customer workspace 
+1. Open your Power BI service, and navigate to the customer workspace 
 
-Download the real-time report with live connection and open it in Power BI   
+1. Download the real-time report with live connection and open it in Power BI   
 
-Right click on FactConversation entity and click on New measure.   
+1. Right-click on FactConversation entity and click on New measure.   
 
-Refer to the <doc on reference> to get the logic used to calculate the out-of-box metrics, which you can use to build your logic.  
+Refer to the <doc on reference> to get the logic used to calculate the out-of-box metrics, which you can use to build your logic. 
+
 In this case enter:
 ``` 
 Service level (150 seconds) =  
