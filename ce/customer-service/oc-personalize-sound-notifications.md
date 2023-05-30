@@ -1,8 +1,8 @@
 ---
-title: "Personalize sound notifications in Omnichannel for Customer Service | MicrosoftDocs"
-description: "How agents can personalize sound notification settings in Omnichannel for Customer Service."
-ms.date: 07/20/2022
-ms.topic: article
+title: Personalize sound notifications in Omnichannel for Customer Service.
+description: learn how agents can personalize sound notification settings in Omnichannel for Customer Service.
+ms.date: 05/31/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ---
@@ -10,8 +10,6 @@ ms.author: nenellim
 # Personalize sound notification settings
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 You can personalize sound notification settings for incoming conversation requests using the personalization menu available on the application tab panel. The sound notifications are available across all channels and can also be set for messages for ongoing conversations.
 
