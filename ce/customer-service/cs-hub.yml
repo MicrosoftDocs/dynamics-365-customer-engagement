@@ -101,8 +101,8 @@ additionalContent:
       links: 
       - url: /dynamics365/customer-service/voice-channel-contextual-transfer-external-ivr
         text: Integrate a third-party IVR system with voice channel
-      - url: Integrate a Power Virtual Agents bot
-        text: /dynamics365/customer-service/configure-bot-virtual-agent
+      - url: /dynamics365/customer-service/configure-bot-virtual-agent
+        text: Integrate a Power Virtual Agents bot
       - url: /dynamics365/customer-service/integrate-km-with-pva
         text: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
   - title: Use
@@ -125,8 +125,6 @@ additionalContent:
         text: Communicate over the voice channel
       - url: voice-channel-transfer-consult.md
         text: Transfer calls and consult with users in the voice channel
-      - url: /dynamics365/customer-service/oc-introduction-agent-interface
-        text: Know the agent interface
       - url: /dynamics365/customer-service/oc-agent-dashboard
         text: View the communication panel 
     - title: Use copilot
@@ -152,11 +150,7 @@ additionalContent:
       - url: /dynamics365/customer-service/csw-productivity-pane
         text: Use the productivity pane to resolve customer issues
       - url: /dynamics365/customer-service/create-personal-quick-replies
-        text: Create personal quick replies
-      - url: /power-apps/user/view-create-email?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
         text: Use email to interact consistently with customers
-      - url: /power-apps/user/email-dynamic-text?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context
-        text: Personalize emails with dynamic text
       - url: /power-apps/user/add-activities
         text: Manage conversations and activities on the timeline
       - url: search-knowledge-articles-csh.md

@@ -101,8 +101,8 @@ additionalContent:
       links: 
       - url: /dynamics365/customer-service/voice-channel-contextual-transfer-external-ivr
         text: Integrate a third-party IVR system with voice channel
-      - url: Integrate a Power Virtual Agents bot
-        text: /dynamics365/customer-service/configure-bot-virtual-agent
+      - url: /dynamics365/customer-service/configure-bot-virtual-agent
+        text: Integrate a Power Virtual Agents bot
       - url: /dynamics365/customer-service/integrate-km-with-pva
         text: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
   - title: Use
