@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Marketing solution uninstall order (Dynamics 365 Marketing)   |   Microsoft Docs"
 description: "Lists the correct order in which to remove solutions when uninstalling Dynamics 365 Marketing."
-ms.date: 05/19/2023
+ms.date: 05/30/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -21,7 +21,7 @@ search.audienceType:
 
 To delete Dynamics 365 from an instance, first open the Marketing setup wizard and run the uninstall command. The uninstall command releases your Dynamics 365 license and disconnects the Marketing services. If you'd also like to remove all of the related solutions from your instance, you must manually delete them in the order listed below. (Some of the items listed here may not be present on your instance, so just skip any missing items.) For complete instructions, see [Uninstall Marketing](uninstall-marketing.md).
 
-Solutions marked as 'Used outside of Marketing' are being outside of Dynamics 365 Marketing (Dynamics 365 Sales, Customer Service Hub, Intelligent Order Management Features and others). It is **not safe to uninstall those shared solutions** as it can break related workloads - so please just skip those.
+Solutions labelled "Used outside of Marketing" are used by other Dynamics 365 apps such as Dynamics 365 Sales, Customer Service Hub, Intelligent Order Management Features, and others. It's **not safe to uninstall the shared solutions** as it can break related workloads, so it's recommended to skip those.
 
 Moments-based marketing:
 
