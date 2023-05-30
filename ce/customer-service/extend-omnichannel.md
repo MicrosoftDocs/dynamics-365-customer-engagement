@@ -6,8 +6,7 @@ ms.topic: article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.custom: 
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Extend Omnichannel for Customer Service

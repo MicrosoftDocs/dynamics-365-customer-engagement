@@ -17,19 +17,27 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.92.27](/dynamics365/field-service/version-history#889227)  | TBD | 05/26/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.91.36](/dynamics365/field-service/version-history#889136)  | [8.8.92.27](/dynamics365/field-service/version-history#889227) | 05/19/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.91.36](/dynamics365/field-service/version-history#889136)  | [8.8.92.27](/dynamics365/field-service/version-history#889227) | 05/26/2023 |
-| | *USG* | [8.8.91.36](/dynamics365/field-service/version-history#889136)  | [8.8.92.27](/dynamics365/field-service/version-history#889227) | 05/19/2023 |
-|**Station 4** |*Europe* |[8.8.89.38](/dynamics365/field-service/version-history#888938)  | [8.8.91.36](/dynamics365/field-service/version-history#889136) | 05/19/2023 |
-|**Station 5** |  *North America*|[8.8.89.38](/dynamics365/field-service/version-history#888938)  | [8.8.91.36](/dynamics365/field-service/version-history#889136) | 05/26/2023 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.89.38](/dynamics365/field-service/version-history#888938)  | [8.8.91.36](/dynamics365/field-service/version-history#889136) | 05/26/2023 |
-| | *Dedicated Scale Groups* |[8.8.88.62](/dynamics365/field-service/version-history#888862)  | [8.8.89.38](/dynamics365/field-service/version-history#888938)  | 05/19/2023 |
+|**Station 1** |  *First Release*| [8.8.93.28](/dynamics365/field-service/version-history#889328)  | TBD | 06/16/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.92.27](/dynamics365/field-service/version-history#889227)  | [8.8.93.28](/dynamics365/field-service/version-history#889328) | 06/02/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.92.27](/dynamics365/field-service/version-history#889227)  | [8.8.93.28](/dynamics365/field-service/version-history#889328) | 06/09/2023 |
+| | *USG* |  [8.8.92.27](/dynamics365/field-service/version-history#889227)  | [8.8.93.28](/dynamics365/field-service/version-history#889328) | 06/02/2023 |
+|**Station 4** |*Europe* |[8.8.91.36](/dynamics365/field-service/version-history#889136)  | [8.8.92.27](/dynamics365/field-service/version-history#889227) | 06/02/2023 |
+|**Station 5** |  *North America*|[8.8.91.36](/dynamics365/field-service/version-history#889136)  | [8.8.92.27](/dynamics365/field-service/version-history#889227) | 06/09/2023 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.91.36](/dynamics365/field-service/version-history#889136)  | [8.8.92.27](/dynamics365/field-service/version-history#889227) | 06/09/2023 |
+| | *Dedicated Scale Groups* |[8.8.89.38](/dynamics365/field-service/version-history#888938)  | [8.8.91.36](/dynamics365/field-service/version-history#889136) | 06/02/2023 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.93.28
+(Includes Universal Resource Scheduling version [3.12.106.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210525) and Resource Scheduling controls version 1.2.46.231371).
+
+- Added graceful handling of addresses that are too long to be converted to latitude and longitude values.
+- Fixed a bug preventing time entry approval when a resource has a null hourly rate and the work pay type has a non-zero hourly markup.
+- Inspections: Fixed a bug where the incorrect UTC time offset was applied when writing Date Time inspection response data to Dataverse. Note this may have the side effect of surfacing in the UI the values that were previously incorrectly written.
+- Dynamics 365 Field Service Mobile: Updated the Quick Notes control to have verbose save failures in instances when the control is misconfigured and/or duplicate copies of the control is added to a single form. 
 
 ## 8.8.92.27
 (Includes Universal Resource Scheduling version [3.12.105.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210525) and Resource Scheduling controls version 1.2.45.231281).
