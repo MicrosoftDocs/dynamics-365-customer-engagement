@@ -27,7 +27,7 @@ items:
           href: field-service-version-history-resource-scheduling.md
         - name: Resource Scheduling Optimization
           href: field-service-version-history-resource-scheduling-optimization.md
-        - name: Archive
+        - name: Version history archive
           href: version-history-archive.md
     - name: Deprecations
       href: deprecations-field-service.md
