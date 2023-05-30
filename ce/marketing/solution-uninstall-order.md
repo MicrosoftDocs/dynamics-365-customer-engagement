@@ -33,7 +33,7 @@ Moments-based marketing:
 | DynamicsMKT_OcIntegration | No |
 | msdyn_InsightsAnalyticsMKTConfiguration | No |
 | msdyn_DataInsightsAndAnalyticsForMKT | No |
-| msdyn_DataInsightsAndAnalytics | No |
+| ~~msdyn_DataInsightsAndAnalytics~~ | Yes |
 | DynamicsMKT_Sitemap_RTMDefault | No |
 | DynamicsMKT_StandaloneSitemap | No |
 | DynamicsMKT_Sitemap | No |
