@@ -155,8 +155,6 @@ additionalContent:
         text: Manage conversations and activities on the timeline
       - url: search-knowledge-articles-csh.md
         text: Search and use knowledge articles
-      - url: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
-        text: Convert a case to a Knowledge article
     - title: Get insights and analyze service operations 
       links:
       - url: customer-service-analytics-insights-csh
@@ -180,11 +178,11 @@ additionalContent:
     - title: Apps and personas
       links:
       - url: /dynamics365/customer-service/cs-admin-center
-        text: Use Customer Service admin center
+        text: Admins-Use Customer Service admin center
       - url: /dynamics365/customer-service/csw-overview?tabs=customerserviceadmincenter
-        text: Use Customer Service workspace
+        text: Agents-Use Customer Service workspace
       - url: /dynamics365/customer-service/customer-service-team-member
-        text: Use Customer Service Team Member 
+        text: Team member-Use Customer Service Team Member 
     - title: Add-in solutions  
       links: 
       - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
