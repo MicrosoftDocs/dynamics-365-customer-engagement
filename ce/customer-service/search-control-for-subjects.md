@@ -1,6 +1,6 @@
 ---
 title: Search control for subject (Dynamics 365 Customer Service)
-description: Know how to enable the search option for the subject entity in custom forms in Dynamics 365 Customer Service.
+description: Learn how to enable the search option for the subject entity in custom forms in Dynamics 365 Customer Service.
 ms.date: 05/31/2023
 ms.topic: how-to
 author: neeranelli
