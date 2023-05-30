@@ -42,21 +42,26 @@ We recommend that:
 
 ## Customizations supported by the Conversation form
 
-If the [enhanced active conversation experience](add-customer-summary-settings.md) is enabled, you can customize the **Conversation** form to:
+You can customize the **Conversation** form to:
 
-- Add subgrids on the Conversation form and view data for related tables in the subgrid.
 - Load the **Active Conversation** form as an application tab instead of an anchor tab in a session.
 - Edit existing forms in the following ways:
-  - Add custom columns and allow saving of custom and standard columns on the form except some of the logical column names listed in the **Logical column** names section. 
   - Add custom controls. However, we recommend that you don't use custom controls to update a conversation because Omnichannel for Customer Service will overwrite the updates when the conversation ends.
   - Edit the quick view for customers and cases.
-  - Add canvas apps, web resources, and external website controls.
+  - Add web resources and external website controls.
   - Modify the form layout, resize controls, and create tabs and sections.
   - Edit the quick view for customers and cases.
-  - Render columns with values on the form.
-  - Configure **Customer 360** card and **Case details** card.
   - Move sections to different tabs.
   - Remove **Recent cases** subgrid.
+
+Additionally, if [customize active conversation form](add-customer-summary-settings.md) is enabled, you can:
+
+- Add subgrids on the **Conversation** form and view data for related tables in the subgrid.
+- Edit existing forms in the following ways:
+  - Add custom columns and allow saving of custom and standard columns on the form except some of the logical column names listed in the **Logical column** names section.
+  - Add canvas apps.
+  - Render columns with values on the form.
+  - Configure **Customer 360** card and **Case details** card.
 
 We also recommend that you don't:
 
