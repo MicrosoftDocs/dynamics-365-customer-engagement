@@ -5,7 +5,7 @@ ms.date: 10/01/2019
 
 ms.topic: article
 author: jimholtz
-ms.custom: intro-internal
+ms.collection: get-started
 ms.author: jimholtz
 ms.reviewer: 
 

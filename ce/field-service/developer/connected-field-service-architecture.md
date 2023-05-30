@@ -12,7 +12,7 @@ author: vhorvathms
 
 # Architecture of Connected Field Service with IoT Hub
 
-Connected Field Service with IoT Hub brings together AzureIoT and Dynamics 365 Field Service. In this article, you will find an explanation of the architecture and how it all works together.
+Connected Field Service with IoT Hub brings together Azure IoT and Dynamics 365 Field Service. In this article, you will find an explanation of the architecture and how it all works together.
 
 ## Prerequisites
 

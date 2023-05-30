@@ -11,7 +11,7 @@ author: vhorvathms
 ---
 # Connected Field Service - Overview
 
-Connected Field Service enables organizations to transform the way they provide service from a costly break-fix model to a proactive and predictive service model through the combination of IoT diagnostics, scheduling, asset maintenance, and inventory on the same platform. 
+Connected Field Service enables organizations to transform the way they provide service from a costly break-fix model to a proactive and predictive service model through the combination of IoT diagnostics, scheduling, asset maintenance, and inventory on the same platform.
 
 >[!Note]
 > To see a video overview of Connected Field Service, [you can watch one here](https://www.youtube.com/watch?v=iMZpr5wVD_Q).
@@ -34,12 +34,10 @@ Connected Field Service for Azure IoT Hub is an add-on solution that brings Azur
 All Azure IoT services run in your own Azure cloud subscription. Additionally, we provide an enterprise-ready template that you can customize for each Azure IoT service.
 
 > [!Note]
-> Currently, the Connected Field Service implementation with IoT Hub does not support splitting out telemetry data for IoT Edge modules. 
+> Currently, the Connected Field Service implementation with IoT Hub does not support splitting out telemetry data for IoT Edge modules.
 
-## Privacy details for Connected Field Service
+## Privacy notice
 
-[!INCLUDE[cc-privacy-crm-connected-field-service](../includes/cc-privacy-crm-connected-field-service.md)]
-
-- [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses [Azure Time Series Insight (Preview)](/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
+For more information, see [Privacy notice for Connected Field Service](cfs-privacy-notice.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -31,7 +31,7 @@ If you have a Dynamics 365 Sales Enterprise license, you can enable predictive l
 
 ## Prerequisites
 
-- [Advanced Sales Insights features must be enabled](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
+- [Advanced Sales Insights features must be enabled](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
 
 - You need to have enough leads to train the model based on past data. Your organization must have created at least 40 qualified and 40 disqualified leads in the past three months to two years. The more leads you can include to train the model, the better the prediction results will be. You can configure the time frame in the **Train with leads from the past** field of the scoring model.
 
@@ -138,7 +138,6 @@ If you create multiple scoring models, use the **Select model** list on the **Pr
 [Edit and retrain a lead scoring model](pls-edit-and-retrain-model.md)  
 [Prioritize leads through scores](../sales/work-predictive-lead-scoring.md)  
 [Predictive lead and opportunity scoring](faqs-sales-insights.md#predictive-lead-and-opportunity-scoring)  
-[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
