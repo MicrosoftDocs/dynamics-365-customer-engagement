@@ -33,7 +33,8 @@ If you have a Dynamics 365 Sales Enterprise license, you can enable predictive l
 
 - [Advanced Sales Insights features must be enabled](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
 
-- You need to have enough leads to train the model based on past data. Your organization must have created at least 40 qualified and 40 disqualified leads in the past three months to two years. The more leads you can include to train the model, the better the prediction results will be. You can configure the time frame in the **Train with leads from the past** field of the scoring model.
+- You need to have enough leads to train the model based on past data. Your organization must have created and closed at least 40 qualified and 40 disqualified leads during the time frame selected in the **Train with leads from the past** field of the scoring model. The time frame ranges from three months to two years.  The more leads you can include to train the model, the better the prediction results will be.
+- If you're planning to score leads that are using a specific business process flow, then leads that have abandoned the selected business process flow will not be considered for training, scoring, and for establishing the minimum requirement for model creation.
 
 ## Create your first scoring model
 
@@ -96,7 +97,7 @@ You can create up to 10 models, both published and unpublished, for different se
 
      By default, the name is **LeadScoring_**<***YYYYMMDD***><***Time***> (for example, **LeadScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
 
-1. In the **Business process flow** list, select a flow that's relevant for the leads that you're generating the model for.
+1. In the **Business process flow** list, select a flow that's relevant for the leads that you're generating the model for. Leads that have abandoned the selected business process flow will not be considered for training, scoring, and for establishing the minimum requirement for model creation.
 
     The list displays all the business process flows that are defined for leads in your organization.
 

@@ -36,7 +36,7 @@ If you have a Dynamics 365 Sales Enterprise license, you can enable predictive o
 
 - You need to have enough opportunities to train the model based on past data. Your organization must have created and closed at least 40 won and 40 lost opportunities during the time frame selected in the **Train with opportunities from the past** field of the scoring model. The time frame ranges from three months to two years. To define a [per stage model](#what-is-a-per-stage-model), you must have at least 40 closed opportunities in the last stage of the business process in the selected time frame. The more opportunities you can include to train the model, the better the prediction results will be.
 
-- If you've selected a business process flow, only opportunities that are active in the selected business process flow are considered for training.
+- If you're planning to score opportunities that are using a specific business process flow, then opportunities that have abandoned the selected business process flow will not be considered for training, scoring, and for establishing the minimum requirement for model creation.
 
     The system takes about four hours to sync the data with the data lake. If you've closed opportunities recently, the model won't consider them right away.
 
@@ -109,7 +109,7 @@ You can create up to 10 models, both published and unpublished, for different se
 
      By default, the name is **OpportunityScoring_**<***YYYYMMDD***><***Time***> (for example, **OpportunityScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
 
-1. In the **Business process flow** list, select a flow that's relevant for the opportunities that you're generating the model for. Only opportunities that are active in the selected business process flow are considered for training and scoring
+1. In the **Business process flow** list, select a flow that's relevant for the opportunities that you're generating the model for. Opportunities that have abandoned the selected business process flow will not be considered for training, scoring, and for establishing the minimum requirement for model creation.
 
     The list displays all the business process flows that are defined for opportunities in your organization. If you want to enable per stage modeling, you must select a business process flow.
 
