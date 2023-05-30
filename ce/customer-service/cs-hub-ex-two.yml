@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page 
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 05/25/2023
+  ms.date: 05/30/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -71,104 +71,104 @@ additionalContent:
         text: System requirements for Customer Service workspace
   - title: Administer and develop
     items:
-    - title: Administer
+    - title: Configure
       links:
       - url: /dynamics365/customer-service/omnichannel-provision-license#set-up-omnichannel-for-customer-service-
         text: Manage environments for Omnichannel for Customer Service
       - url: /dynamics365/customer-service/upgrade-omnichannel
         text: Upgrade Omnichannel for Customer Service
+      - url: provision-unified-routing.md
+        text: Provision unified routing for Customer Service
     - title: Develop
       links:
       - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
         text: Omnichannel for Customer Service entity reference
       - url: /dynamics365/customer-service/developer/omnichannel-reference
         text: Live chat SDK Reference
+      - url: develop-live-chat-widget.md
+        text: Develop a custom live chat widget
+    - title: Extend Customer Service
+      links:
+      - url: /dynamics365/customer-service/add-enhanced-case-management
+        text: Customize the case resolution experience
+      - url: /dynamics365/customer-service/omnichannel-customizer
+        text: Customize forms for your agents and supervisors
+      - url: /dynamics365/customer-service/model-customize-reports
+        text: Customize data models of historical analytics reports
+      - url: /power-apps/maker/model-driven-apps/custom-connectors-timeline-control
+        text: Use custom connectors with the timeline control
   - title: Use
     items:
-    - title: Make agent's work effortless
+    - title: Make agents' work effortless
       links:
       - url: /dynamics365/customer-service/overview-cases
-        text: Track individual customer service issues through cases
+        text: Track customer service issues through cases
       - url: /dynamics365/app-profile-manager/productivity-tools
         text: Use productivity tools
       - url: /dynamics365/customer-service/overview-knowledge-management#search-knowledge-articles
         text: Search knowledge articles effortlessly
       - url: /power-apps/user/add-activities
         text: Use the timeline to quickly view activities
-      - url: /dynamics365/customer-service/overview-unified-routing
-        text: Classify and assign work items using unified routing 
-    - title: Enable intelligent self-service 
+    - title: Use copilot features
       links:
-      - url: https://learn.microsoft.com/en-us/dynamics365/customer-service/knowledge-base-search-methods
-        text: Search the knowledge base on portals 
-      - url: https://learn.microsoft.com/en-us/dynamics365/customer-service/oc-view-ai-suggested-cases-articles
+      - url: /dynamics365/customer-service/configure-copilot-features
+        text: Manage copilot features in Customer Service
+      - url: /dynamics365/customer-service/copilot-powerapps-settings
+        text: Configure copilot features for custom case forms and custom apps
+      - url: /dynamics365/customer-service/use-copilot-features
+        text: Use Copilot to solve customer issues
+    - title: Enable intelligent self-service
+      links:
+      - url: oc-view-ai-suggested-cases-articles.md
         text: View AI-suggestions for similar cases and knowledge articles 
-      - url: /dynamics365/customer-service/overview-bots
-        text: Use bots to resolve basic customer queries
-      - url: /dynamics365/customer-service/cs-ai-generated-summary
+      - url: cs-ai-generated-summary.md
         text: View and share auto-summarized conversations
-    - title: Optimize service operations  
-      links:
-      - url: /dynamics365/customer-service/customer-service-analytics-insights-csh
-        text: Use Customer Service dashboards
-      - url: /dynamics365/customer-service/knowledge-search-analytics-cs
-        text: Analyze agent actions with knowledge search insights 
-      - url: /dynamics365/customer-service/intro-realtime-analytics-dashboard
-        text: Monitor key operational metrics in real time 
-      - url: /dynamics365/customer-service/oc-conversation-dashboard
-        text: Get insights into customer and channel analytics
+      - url: knowledge-base-search-methods.md
+        text: Search the knowledge base on portals 
+      - url: overview-bots.md
+        text: Use bots to resolve basic customer queries
     - title: Meet customers where they are 
       links:
       - url: /dynamics365/customer-service/voice-channel
         text: Communicate over the voice channel
       - url: /dynamics365/customer-service/channels
-        text:  Communicate across channels
+        text: Meet your customer via any channel
       - url: /dynamics365/customer-service/oc-real-time-translation
         text: Engage with customers in a language they use
     - title: Show them you know them
       links:
       - url: /dynamics365/customer-service/realtime-ongoing
         text: Understand customer sentiment in real time
-      - url: /dynamics365/customer-service/oc-customer-summary?tabs=enhancedcustomersummarypage%2Cenhancedcustomer%2Cenhancedcase%2Cenhancedrecentcases
-        text: View customer summary before engaging with customers
-      - url: /dynamics365/customer-service/enh-casemgmt-csw?tabs=enhancedquickcreateform%2Cenhancedfullcaseform
+      - url: /dynamics365/customer-service/oc-customer-summary
+        text: View customer summary holistically
+      - url: /dynamics365/customer-service/enh-casemgmt-csw
         text: Use enhanced case forms to manage cases
-    - title: Collaborate over Teams chat
+    - title: Optimize service operations  
       links:
-      - url: /dynamics365/customer-service/use-teams-chat
-        text: Collaborate without switching context or leaving the application
-      - url: /dynamics365/customer-service/use-teams-meetings
+      - url: /dynamics365/customer-service/intro-realtime-analytics-dashboard
+        text: Monitor key operational metrics in real time
+      - url: summary-dashboard-cs.md
+        text: Get insights into cases with Summary dashboard
+      - url: /dynamics365/customer-service/knowledge-search-analytics-cs
+        text: Analyze agent actions with knowledge search insights 
+      - url: /dynamics365/customer-service/oc-conversation-dashboard
+        text: Get insights into conversation volume drivers
+    - title: Collaborate over Teams chat
+      links:      
+      - url: use-teams-chat.md
+        text: Collaborate without switching context
+      - url: use-teams-meetings.md
         text: Use Teams meetings 
       - url: /dynamics365/customer-service/use-customer-support-swarming
         text: Use customer support swarming to resolve issues 
-    - title: Use the app that's meant for you
+    - title: Know your apps
       links:
-      - url: https://learn.microsoft.com/en-us/dynamics365/customer-service/cs-admin-center
-        text: Admins - Use Customer Service admin center 
-      - url: https://learn.microsoft.com/en-us/dynamics365/customer-service/csw-overview?tabs=customerserviceadmincenter
-        text: Agents - Use Customer Service workspace 
-      - url: https://learn.microsoft.com/en-us/dynamics365/customer-service/introduction-omnichannel
-        text: Supervisors - Use Omnichannel for Customer Service  
-    - title: Leverage Copilot
-      links:
-      - url: /dynamics365/customer-service/configure-copilot-features
-        text: Manage Copilot features in Customer Service
-      - url: /dynamics365/customer-service/copilot-powerapps-settings
-        text: Configure Copilot features for custom case forms and custom apps
-      - url: /dynamics365/customer-service/use-copilot-features
-        text: Use Copilot to solve customer issues
-    - title: Extend Customer Service
-      links:
-      - url: /dynamics365/customer-service/model-customize-reports
-        text: Customize data models of historical analytics reports
-      - url: /dynamics365/customer-service/search-knowledge-articles-csh#use-integrated-search-providers
-        text: Experience a unified search experience for internal and integrated articles 
-      - url: /power-apps/maker/model-driven-apps/custom-connectors-timeline-control
-        text: Use custom connectors with the timeline control
-      - url: /dynamics365/customer-service/add-enhanced-case-management
-        text: Customize the case resolution experience
-      - url: /dynamics365/customer-service/omnichannel-customizer
-        text: Customize forms for your agents and supervisors
+      - url: cs-admin-center.md
+        text: Admins-Use Customer Service admin center 
+      - url: csw-overview.md
+        text: Agents-Use Customer Service workspace 
+      - url: customer-service-team-member.md
+        text: Team Member-Use Customer Service Team Member
 
   - title: Related products
     items:
