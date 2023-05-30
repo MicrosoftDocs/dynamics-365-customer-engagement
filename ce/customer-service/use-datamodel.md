@@ -138,7 +138,7 @@ Here's an example, which describes how to create a new service level of 150 seco
 
 1. Select **Save**, and then select **File > Publish** to Power BI.
 
-## Add new metrics based on data unavailable within the Dynamics 365 customer service dataset
+### Add new metrics based on data unavailable within the Dynamics 365 customer service dataset
 
 If you need to get additional data, both from within Dynamics Customer Service and outside of it, as described in [Scenario 3 and Scenario 4](datamodel-overview.md#scenario-based-use-cases), perform the following steps:  
 
@@ -148,7 +148,7 @@ If you need to get additional data, both from within Dynamics Customer Service a
 
 1. Select the **Modeling** tab and then select **Make changes to this model**.
 
-You may be asked to create a local model to bring in additional data sources. This creates a data model within the workspace where the report exists. This local model (for the report) uses DirectQuery to connect to the Dynamics model. As a result, you can leverage metrics from the dynamics model while adding your own.  
+    You may be asked to create a local model to bring in additional data sources. This creates a data model within the workspace where the report exists. This local model (for the report) uses DirectQuery to connect to the Dynamics model. As a result, you can leverage metrics from the dynamics model while adding your own.  
 
 1. After the local model is created, select **Get data** and the appropriate data source.  
  
