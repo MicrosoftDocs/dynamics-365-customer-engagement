@@ -27,7 +27,7 @@ To enable the enhanced Active Conversation form and customize the form, perform 
 1. In Customer Service admin center, go to **Workspaces**.
 1. Select **Manage** for **Active conversation form settings** in **Workspaces**.
 1. Select the following options:
-    - **Enable the enhanced active conversation form** to enable the following feaatures as a part of the enhanced Active Conversation experience:
+    - **Enable the enhanced active conversation form** to enable the following features as a part of the enhanced Active Conversation experience:
       - View Configurable Customer 360 and Case details card with inline edit capabilities. 
       - View Recent cases card with color coded priority and status fields.
       - No longer switch between active and closed conversations as the default form selector is hidden.
@@ -38,7 +38,7 @@ To enable the enhanced Active Conversation form and customize the form, perform 
        More information: [Design forms for performance in model-driven apps](/power-apps/maker/model-driven-apps/design-performant-forms)
 
    > [!NOTE] 
-   > If **Customise active conversation form** is enabled and a consult is initiated, agents who are from a different business unit and don't the required permissions for the activity can't access the conversation.
+   > If **Customise active conversation form** is enabled and a consult is initiated, agents who are from a different business unit and don't have the read permissions at the organization level for the conversation entity can't access the conversation.
 
     :::image type="content" source="media/enh-active-conv-config.png" alt-text="Configuration settings" ::: 
 

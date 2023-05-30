@@ -22,7 +22,8 @@ You can customize the following for the **Active Conversation** page:
 - Add or remove custom controls
 - Add a web resource or iFrame to the form
 - Customize the layout
-
+- Add custom fields
+- Embed canvas apps
 
 > [!NOTE]
 > However, for a conversation entity, you can't add custom forms.
