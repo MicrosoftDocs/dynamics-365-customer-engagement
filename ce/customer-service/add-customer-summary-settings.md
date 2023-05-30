@@ -40,7 +40,7 @@ To enable the enhanced Active Conversation form and customize the form, perform 
    > [!NOTE] 
    > If **Customise active conversation form** is enabled and a consult is initiated, agents who are from a different business unit and don't have the read permissions at the organization level for the conversation entity can't access the conversation.
 
-    :::image type="content" source="media/enh-active-conv-config.png" alt-text="Configuration settings" lightbox="media/enh-active-conv-config-max"::: 
+    :::image type="content" source="media/enh-active-conv-config.png" alt-text="Configuration settings" lightbox="media/enh-active-conv-config-max.png"::: 
 
 ## Display the form selector on Active Conversation form
 
