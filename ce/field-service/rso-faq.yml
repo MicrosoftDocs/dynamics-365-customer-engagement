@@ -429,5 +429,8 @@ sections:
       - question: |
           Why were my existing bookings deleted? 
         answer: |
-          After optimization runs, Resource Scheduling Optimization can make decisions to create, update, or delete bookings as needed based on objective and constraints settings. Hence, it's expected to find booking deleted to optimize results throughout the schedule. IF you don't want Resource Scheduling Optimization to delete existing bookings, configure a booking lock as discussed in [Understand the booking lock option in Resource Scheduling Optimization](booking-lock-options.md).
+          After optimization runs, Resource Scheduling Optimization can make decisions to create, update, or delete bookings as needed based on objective and constraints settings. Hence, it's expected to find booking deleted to optimize results throughout the schedule. If you don't want Resource Scheduling Optimization to delete existing bookings, try the following options: 
+          - [Configure the scheduling method for the booking status](rso-configuration.md#make-data-changes-to-prepare-for-optimizations).
+          - [Exclude bookings from the optimization scope](rso-optimization-scope.md). 
+          - [Configure a booking lock](booking-lock-options.md).
 
