@@ -1,6 +1,6 @@
 ---
 title: Block spam numbers in the voice channel
-description: Use this topic to understand how to review, mark numbers as spam, and block the numbers in Omnichannel for Customer Service.
+description: Learn how to review, mark numbers as spam, and block the numbers in Omnichannel for Customer Service.
 ms.date: 05/31/2023
 ms.service: dynamics-365-customerservice
 ms.topic: how-to
