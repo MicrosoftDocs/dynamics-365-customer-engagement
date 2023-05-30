@@ -23,6 +23,9 @@ To delete Dynamics 365 from an instance, first open the Marketing setup wizard a
 
 Solutions labelled "Used outside of Marketing" are used by other Dynamics 365 apps such as Dynamics 365 Sales, Customer Service Hub, Intelligent Order Management Features, and others. It's **not safe to uninstall the shared solutions** as it can break related workloads, so it's recommended to skip those.
 
+> [!NOTE]
+> In the following tables, names of solutions used outside of Marketing are struck through, indicating that you should not delete them because they affect other apps.
+
 Moments-based marketing:
 
 | Solution name | Used outside of Marketing |
