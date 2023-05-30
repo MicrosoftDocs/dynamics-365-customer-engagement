@@ -22,7 +22,7 @@ You can customize the following for the **Active Conversation** page:
 - Add or remove custom controls
 - Add a web resource or iFrame to the form
 - Customize the layout
-- Add custom fields
+- Add custom fields if the **Customise active conversation form** in Customer Service admin center is enabled.
 - Embed canvas apps
 
 > [!NOTE]

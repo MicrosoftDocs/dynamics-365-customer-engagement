@@ -43,7 +43,7 @@ Depending on the settings enabled for you, you'll see one of the following layou
 
  - If your administrator has enabled the **Enhanced Active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. The application displays the customer or account, and case details cards with inline edit capabilities. You can also view the Recent cases card with color coded priority and status fields.  
    > [!NOTE] 
-   > - The form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. You can't switch to closed conversation form from the **Active Conversation** form or vice versa while the conversation is still active.
+   > - The form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. You can't switch to closed conversation form from the **Active Conversation** form while the conversation is still active or vice versa.
    > - You can see the form selector on the enhanced Active Conversation form if your administrator has enabled it for you. More information: [Display the form selector on Active Conversation form](add-customer-summary-settings.md#display-the-form-selector-on-active-conversation-form)
 
    :::image type="content" source="media/enh-custsummary-overall-mini.png" alt-text="Enhanced quick case form" lightbox="media/enh-custsummary-overall.png":::
