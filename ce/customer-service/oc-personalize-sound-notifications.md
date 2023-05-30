@@ -1,6 +1,6 @@
 ---
 title: Personalize sound notifications in Omnichannel for Customer Service.
-description: learn how agents can personalize sound notification settings in Omnichannel for Customer Service.
+description: Learn how agents can personalize sound notification settings in Omnichannel for Customer Service.
 ms.date: 05/31/2023
 ms.topic: how-to
 author: neeranelli
