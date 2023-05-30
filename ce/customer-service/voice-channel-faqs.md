@@ -3,7 +3,7 @@ title: FAQ about the voice channel
 description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 12/22/2022
+ms.date: 05/30/2023
 ms.topic: concept
 ms.reviewer: shujoshi
 ms.custom: bap-template
@@ -13,6 +13,10 @@ ms.custom: bap-template
 # FAQ about the voice channel in Omnichannel for Customer Service
 
 This article includes frequently asked questions (FAQ) about the voice channel.
+
+### Why is the agent unable to make an outbound call?
+
+The agent must be a part of the outbound voice queue to make an outbound call. To add the agent to the queue, see [Manage users](users-user-profiles.md).
 
 ### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
 
@@ -103,7 +107,6 @@ You can transfer conversations from one bot to another with different primary la
 ### Can I recover data and phone numbers from a voice trial organization after it has expired?
 
 No, you can't recover your data and phone numbers after the voice trial organization has expired and been deprovisioned. 
-
 
 ### Is disaster recovery supported for the voice channel?
 
