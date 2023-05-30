@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 05/04/2023
+ms.date: 05/30/2023
 ms.custom: bap-template
 ---
 
@@ -31,11 +31,11 @@ Having this information ready can help support agents reduce the hold time that 
 - Timeline
 
  If your administrator has enabled the **Customise active conversation form**  in Customer Service admin center, you'll see the following options on the **Active Conversation** page:  
-    - **Save**: You can edit and save standard and custom field values added to the **Active Conversation** form by your administrator. However, the following [Logical column names](supported-customizations.md#logical-column-names) aren't supported. If a default value is already set for a field, the value appears on the form automatically.
-    - **Refresh**: Refreshes the data in the form. 
-    - **Queue:** The queue through which the conversation has been assigned to you.
-    - **Start time:** The time when you started the conversation.
-    -  **Related**: To select and navigate to the required entities.
+   - **Save**: You can edit and save standard and custom field values added to the **Active Conversation** form by your administrator. However, the following [Logical column names](supported-customizations.md#logical-column-names) aren't supported. If a default value is already set for a field, the value appears on the form automatically.
+   -  **Refresh**: Refreshes the data in the form.
+   -  **Queue:** The queue through which the conversation has been assigned to you.
+   - **Start time:** The time when you started the conversation.
+   - **Related**: To select and navigate to the required entities.
 
 Depending on the settings enabled for you, you'll see one of the following layouts:
 
