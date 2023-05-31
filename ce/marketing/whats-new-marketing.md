@@ -39,22 +39,21 @@ Public preview features include tailoring communications as per the customers’
 
 - **Create better targeted segments using everyday language that include behavioral interactions with query assist, a copilot feature**
     - Marketers are now able to quickly build targeted segments using conversational everyday language that includes customer interactions with your marketing messages, websites, events, and other channels. With these updates, you can create complex segments that not only focus on demographic or firmographic data but also marketing behavioral data without requiring deep knowledge of the back-end data model.
-    - Release plan
     - Docs
 
 - **Easily tag and update assets and templates with an enhanced experience**
     - Swiftly manage and customize your assets and templates. Need to rename, tag, or update assets and templates? Now, it's just a matter of a few clicks. Our enhanced design ensures a visually appealing workspace, while the right-side pane provides quick previews of your files. Take control with editable property panes, allowing you to customize assets and templates effortlessly. The new tagging controls simplifies file organization, enabling efficient categorization and effortless searching.
-    - Docs
+    - [Docs](upload-images-files.md)
 
 - **Ability to assign specific business units to your authenticated domains**
     - When modernized business units are turned on, and business unit scoping is enabled, the domain authentication wizard allows users to specify what business unit they want their domain to be authenticated. When a business unit is selected for a domain, this domain is solely available for that business unit unless you want to make it shareable across your organization. 
-    - Docs
+    - [Docs](domain-authentication.md#domain-authentication-for-modernized-business-units)
 
 ### Public preview
 
 - **Tailor communications to the topics customers want to receive**
     - Improve customer engagement and reduce unsubscriptions by giving customers granular control over the real-time marketing messages they receive. Target your messages to the audience that wants to engage with your content the most by capturing detailed consent.  Allow customers to subscribe to the topics that matter to them while capturing the consent you need to satisfy legal and regulatory requirements. Avoid embarrassing and costly configuration mistakes by leveraging real-time marketing topic support, preventing the complications of maintaining and enforcing lists of subscribed customers, all while taking advantage of enhanced real-time marketing preference centers that better represent your brand.
-    - Release plan
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/tailor-communications-topics-customers-want-receive)
     - Docs
 
 ### Monthly enhancements
