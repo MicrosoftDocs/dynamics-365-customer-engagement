@@ -282,7 +282,7 @@
         items:
         - name: Build segments in real-time marketing
           href: real-time-marketing-build-segments.md
-        - name: "Preview: Use natural language to create segments"
+        - name: "Target the right customers using the query assist copilot"
           href: real-time-marketing-natural-language-segments.md
         - name: Work with segments in real-time marketing
           href: real-time-marketing-segments.md
