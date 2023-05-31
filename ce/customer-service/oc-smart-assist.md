@@ -11,8 +11,6 @@ ms.author: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 Smart assist is an intelligent assistant that provides real-time recommendations to you, thereby helping you take actions during your interactions with customers. It shows relevant recommendations such as knowledge articles, similar cases, and the next-best steps.
 
 By default, the productivity pane is enabled. The smart assist cards appear on the productivity pane.
