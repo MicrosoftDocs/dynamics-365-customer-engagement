@@ -4,8 +4,7 @@ description: "Use this article to understand how to integrate Azure bots with Om
 ms.date: 12/02/2022
 author: neeranelli
 ms.author: nenellim
-ms.custom: 
-  - intro-internal
+ms.collection: get-started
 ms.topic: article
 ---
 

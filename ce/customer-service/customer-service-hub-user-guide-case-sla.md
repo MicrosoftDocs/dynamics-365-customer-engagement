@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 03/29/2023
+ms.date: 05/26/2023
 search.audienceType: 
   - admin
   - customizer
@@ -48,7 +48,7 @@ A sample runtime view of the SLA Timer is as follows. The SLA KPIs displayed are
 
 ![Runtime view of SLA Timers.](media/sla-timer-runtime.png "Runtime view of SLA Timers")
 
-For SLAs that are in the expired status, your administrator can configure the SLA Timer to display the elapsed time. The timer will display the countdown using a negative value in the red color. Only those SLA Timers that have been configured to show the negative time will display the negative countdown time. More information: [Enable elapsed timer for SLA items in terminal or expired status](add-timer-control-case-form-track-time-against-sla.md#enable-elapsed-time-for-sla-timers-in-expired-status)
+For SLAs that are in the expired status, your administrator can configure the SLA Timer to display the elapsed time. The timer will display the countdown using a negative value in the red color. Only those SLA Timers that have been configured to show the negative time will display the negative countdown time. More information: [Enable elapsed time for SLA Timers in expired status](add-timer-control-case-form-track-time-against-sla.md#enable-elapsed-time-for-sla-timers-in-expired-status)
 
 :::image type="content" source="media/sla-negative-countdown-timer.png" alt-text="Display negative countdown for SLAs in expired or terminal status.":::
 
@@ -56,7 +56,7 @@ For SLAs that are in the expired status, your administrator can configure the SL
 
 Based on the business hours, the timer displays the time remaining to meet the SLA or the elapsed time since the SLA failed. For example, if failure time is set to 5 days and business hours are 9:00 AM to 5:00 PM, then you'll see 5 days on the timer. If failure time is set to 10 hours, then you'll see 1 day and 2 hours on the timer. Your system administrator or customizer can add a timer to the SLA-enabled entity form.
 
-When an SLA is applied to an entity, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that entity. The on-hold time is the time for which the case was set to a status that you defined as On-Hold in the System settings dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab.](/power-platform/admin/system-settings-dialog-box-service-tab)
+When an SLA is applied to an entity, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that entity. The on-hold time is the time for which the case was set to a status that you defined as On-Hold in the System settings dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)
 
 For example, when you put a case on hold, the status of the SLA KPI Instance is set to Paused. You can see the time for which a case was on hold and the last time the case was put on hold. These details aren't available on the case form by default but your system customizer can add these fields on the case form for you.
 
@@ -87,6 +87,7 @@ Track the time taken by SLA KPI Instances to reach their terminal status during 
 The **Active Duration (min)** and **Elapsed Time (min)** fields for an SLA KPI Instance help you derive the exact number of business hours that were spent. The **Active Duration (min)** field will show data only when the KPI is in a **Paused** or terminal state. **Elapsed Time (min)** will show data only when the KPI is in an **In progress** or terminal state. The final value will appear in the last KPI instance after the terminal state. The active duration and elapsed time data is shown in minutes.
 
 Active duration calculation will be asynchronous by default.
+
 You might need to refresh the views that have an **Active Duration (min)** field after any create or update operation. You may also need to review any customizations associated with the **Active Duration** attribute of the SLA KPI instance.
 
 You can view the active duration and elapsed time on the **SLA** tab of the custom entity as well.

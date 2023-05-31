@@ -8,16 +8,12 @@ ms.author: nenellim
 
 # Uninstall solutions in Omnichannel for Customer Service
 
-
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 When you uninstall Omnichannel for Customer Service from your organization, the omnichannel solutions are not removed. If you want to remove omnichannel solutions from your organization, you must use the same order as mentioned in the following table.
 
-> [!Important]
-> Some solutions are shared across apps, and should not be removed unless you intend to uninstall those apps too; skip those solutions.
+> [!IMPORTANT]
+> Some solutions are shared across apps, and shouldn't be removed unless you intend to uninstall those apps too; skip those solutions.
 >
 > For example, if you plan to remove omnichannel solutions from your organization, you must remember that the unified routing part of Omnichannel for Customer Service solutions might be used in unified routing for Customer Service. So you must ensure that you don't uninstall or delete the common solutions as it might affect the way unified routing works in Customer Service.
 
@@ -68,7 +64,7 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
     |	34	|	 `OmnichannelIntelligence` 	                    |		|
     |	35	|	 `OmnichannelConfiguration`                    	|		| 
     |	36	|	 `msdyn_MacrosDataOmnichannel`	                |		|
-    ||||
+
 
 5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
 
