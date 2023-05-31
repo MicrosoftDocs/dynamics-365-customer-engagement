@@ -3,7 +3,7 @@ title: FAQ about the voice channel
 description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 05/30/2023
+ms.date: 05/31/2023
 ms.topic: concept
 ms.reviewer: shujoshi
 ms.custom: bap-template
@@ -16,7 +16,7 @@ This article includes frequently asked questions (FAQ) about the voice channel.
 
 ### Why is the agent unable to make an outbound call?
 
-The agent must be a part of the outbound voice queue to make an outbound call. To add the agent to the queue, see [Manage users](users-user-profiles.md).
+The agent must be a part of the outbound voice queue to make an outbound call. See [Set up outbound calling](voice-channel-outbound-calling.md) for information.
 
 ### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
 
