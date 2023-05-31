@@ -1,7 +1,7 @@
 ---
-title: "Work with data protection and GDPR (Dynamics 365 Marketing) | Microsoft Docs"
+title: Data protection and privacy
 description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 Marketing."
-ms.date: 03/23/2022
+ms.date: 04/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
@@ -13,7 +13,7 @@ search.audienceType:
   - enduser
 ---
 
-# Data protection and the GDPR
+# Data protection and privacy
 
 The [General Data Protection Regulation (GDPR)](https://www.ecb.europa.eu/services/data-protection/) is a European Union (EU) directive that imposes rules on companies, government agencies, non-profits, and other organizations that offer goods and services to people in the EU, or that collect and analyze data tied to EU residents. The GDPR applies no matter where you're located.
 
@@ -23,7 +23,6 @@ Dynamics 365 Marketing is prepared to help organizations work in compliance with
 
 Here are some resources where you can learn more about how to bring your Dynamics 365 systems into compliance with the GDPR:
 
-- [Microsoft Dynamics 365 and GDPR](/dynamics365/get-started/gdpr/index). This webpage includes links to resources, white papers, blogs, and other information related to various Dynamics 365 applications and the GDPR.
 - [Supporting Your EU GDPR Compliance Journey with Dynamics 365 Marketing](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=b26973bd-68c3-4507-b446-61a7f1b1f1f2&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers). This white paper (downloadable PDF) will help you build a basic understanding of the GDPR and relate that to Dynamics 365 Marketing.
 - [Data Protection Resources](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ%20and%20White%20Papers). This webpage includes links to compliance guides, white papers, FAQs, security reports, penetration tests, risk assessment tools, and other resources that apply to a wide range of Microsoft products.
 - [Microsoft Trust Center](https://www.microsoft.com/trustcenter). This webpage includes links to information about how new features in Microsoft 365 help you secure personal data and meet strict GDPR privacy requirements.
@@ -54,7 +53,7 @@ To help you with consent management and other GDPR-related workloads, Dynamics 3
 - You can configure each customer journey to only process contacts that have given a minimum-required level of consent.
 - You can configure each lead-scoring model to only compute scores for leads associated with contacts that have given a minimum-required level of consent.
 - You can create marketing pages with marketing forms that encourage contacts to grant a level of consent while being unambiguously informed. The consent is stored in each contact's record.
-- You’ll be able to use various mechanics in Dynamics 365 Marketing to extract all information related to a specific contact and share relevant information with that contact when requested.
+- You'll be able to use various mechanics in Dynamics 365 Marketing to extract all information related to a specific contact and share relevant information with that contact when requested.
 - You'll be able to use mechanics to have Dynamics 365 Marketing "forget" (delete) all information about a specific contact when requested. To learn more about deleting customer data, see the [Deleting customer data](/compliance/regulatory/gdpr-dsr-Dynamics365#deleting-customer-data) section in the [Dynamics 365 Data Subject Requests for the GDPR and CCPA](/compliance/regulatory/gdpr-dsr-Dynamics365) article.
 - You'll be able to find and update information about a specific contact when requested.
 - You'll be able to provide means for your contacts to ask to view, retrieve, update, and delete their consent and data, and to use Dynamics 365 Marketing to model the fulfillment on your side.

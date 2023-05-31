@@ -1,7 +1,7 @@
 ---
-title: "Import contacts from a spreadsheet and then send email to them (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to send marketing email messages to all of the contacts listed in a Microsoft Excel spreadsheet using Dynamics 365 Marketing."
-ms.date: 08/15/2019
+title: Import contacts from a spreadsheet and then send email to them (Dynamics 365 Marketing)
+description: Learn how to send marketing email messages to all of the contacts listed in a Microsoft Excel spreadsheet using Dynamics 365 Marketing.
+ms.date: 04/21/2023
 
 ms.custom: 
   - dyn365-marketing
@@ -22,7 +22,7 @@ This tutorial provides an example of how to send marketing email messages to all
 > The scenario described here will import contacts from an Excel sheet into Dynamics 365, create a segment that finds those imported contacts, and then create a customer journey to email that segment. This scenario will only work when the incoming contacts aren't already present in your database. If you are using duplicate detection on import (which most people do), then any incoming contact that is found to match an existing contact will be dropped from the import and therefore not included in the segment of imported contacts. Please consider whether this scenario will meet your needs before trying to implement it.
 
 > [!IMPORTANT]
-> Never rent or buy mailing lists of contacts that haven't opted in to receive marketing emails from your organization. Using purchased or rented lists will likely produce a high number of hard bounces, spam complaints, spam-trap hits, and other issues that will reduce your sender reputation and with it your [email deliverability rates](get-ready-email-marketing.md). In many jurisdictions, sending unsolicited email without the recipient's consent will violate local regulations (such as the [GDPR](gdpr.md) in the European Union). If your email marketing campaigns generate too many bounces and spam complaints, you also risk losing your ability to send email with Dynamics 365 Marketing. It's your organization's responsibility to ensure that it complies with all relevant laws in the countries/regions targeted by your marketing campaigns.
+> Never rent or buy mailing lists of contacts that haven't opted in to receive marketing emails from your organization. Using purchased or rented lists will likely produce a high number of hard bounces, spam complaints, spam-trap hits, and other issues that will reduce your sender reputation and with it your [email deliverability rates](get-ready-email-marketing.md). In many jurisdictions, sending unsolicited email without the recipient's consent will violate various privacy laws and regulations. If your email marketing campaigns generate too many bounces and spam complaints, you also risk losing your ability to send email with Dynamics 365 Marketing. It's your organization's responsibility to ensure that it complies with all relevant laws in the countries/regions targeted by your marketing campaigns.
 
 ## Step 1: Customize your contact entity
 

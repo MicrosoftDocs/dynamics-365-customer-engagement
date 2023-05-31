@@ -1,13 +1,13 @@
 ---
-title: "Introduction to Customer Service | MicrosoftDocs"
-description: "Learn about Customer Service Hub."
-ms.date: 06/16/2022
+title: Introduction to Customer Service
+description: Learn about the Customer Service Hub in Microsoft Dynamics 365.
+ms.date: 04/21/2023
 ms.topic: get-started-article
 author: Soumyasd27
 ms.author: sdas
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Introduction to Customer Service Hub
@@ -34,7 +34,6 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 To learn how to install and use the Customer Service Hub app on a mobile device, see [Install and use the Customer Service Hub app on your mobile device](use-customer-service-hub-on-dynamics-365-mobile.md).
 
-  
 ## Know more about the Customer Service Hub
   
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
@@ -49,24 +48,23 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
 
 [Configure Customer Service](configure-cs.md)
 
-## Accessibility and GDPR
+## Accessibility and privacy
 
-Microsoft is committed towards making technology accessible to all and ensuring that its products and services are designed for everyone. Go to the [Trust Center](https://www.microsoft.com/trustcenter/compliance/accessibility) to learn about our industry-leading accessibility standards.
+Microsoft is committed to making technology accessible to all and ensuring that its products and services are designed for everyone. Go to the [Trust Center](https://www.microsoft.com/trustcenter/compliance/accessibility) to learn about our industry-leading accessibility standards.
 
-General Data Protection Regulation (GDPR) is a major step forward for clarifying and enabling individual privacy rights. Go to the [Trust Center](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx) to find resources to help you manage cloud-data security and compliance for your organization.
+General Data Protection Regulation (GDPR) is a major step forward for clarifying and enabling individual privacy rights. Go to the [Trust Center](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx) to find resources to help you manage cloud data security and compliance for your organization.
 
 Customer Service Hub advocates inclusive design and accessible content. The app is designed around accessibility so that all users can be effortlessly productive.
 
-Refer below to know how the Customer Service Hub app complies to accessibility and GDPR guidelines:
+Refer below to know how the Customer Service Hub app complies with accessibility and privacy guidelines:
 
 - [Accessibility features](/dynamics365/get-started/accessibility/customer-engagement/accessibility)
-- [Microsoft Dynamics 365 Customer Service and GDPR](/dynamics365/get-started/gdpr/index)
 - [Keyboard navigation support for the Customer Service Hub](keyboard-navigation-support-customer-service-hub.md)
+- [Privacy and personal data in Microsoft Dynamics 365](/dynamics365/get-started/privacy)
 
 ### See also
   
 [Overview of Customer Service and Customer Service Hub ](overview.md)  
 [Upgrade to the Customer Service Hub](upgrade-ish-csh.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
