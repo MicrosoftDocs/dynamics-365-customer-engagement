@@ -1,6 +1,6 @@
 ---
-title: "Events and context object for forecasting | MicrosoftDocs"
-description: Events and context object for forecasting in Dynamics 365 Sales
+title: Customize forecast grid using events and context object
+description: Customize the forecast grid to make the entire grid or specific fields read-only, disable fields, and show error notifications.
 ms.date: 01/20/2022
 ms.topic: article
 author: udaykirang
@@ -8,19 +8,16 @@ ms.author: udag
 ms.custom: 
   - dyn365-sales
 ---
-# Override save, update, load events for editable fields on underlying records grid
+# Customize forecast grid using events and context object
 
-As a developer, use this reference documentation to learn about the forecasting events and context object.
+As a developer, use this reference documentation to learn about the events and context object to customize the underlying records grid in your forecast. You can use the context object to make the entire grid or specific fields read-only, disable fields, and show error notifications.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
-
-
-
-
 
 >[!NOTE]
 >The *forecasting context object* that's referred to in this topic is different from the execution context of Microsoft Dataverse. The forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid.
@@ -38,7 +35,7 @@ The following samples scenarios are created based on the supported event handler
 -	[Always enable only a few fields based on entity](#always-enable-only-few-fields-based-on-entity).
 -	[Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
 -	[Show an error notification based on value](#show-error-notification-based-on-revenue-value). 
--	[Block autosave based on the estimated value by using preventDefault, and open a window event](#block-autosave-based-on-estimated-revenue-value). 
+-	[Block autosave based on the estimated value by using preventDefault, and open a window event](#block-autosave-based-on-estimated-revenue-value).
 
 ### OnRowLoad event
 
@@ -332,7 +329,7 @@ function OnSave(executionContext){
 
 ### See also
 
-[Customize underlying records](../../../forecast-configure-advanced-settings.md#customize-underlying-records)
+[Customize underlying records grid](../../../forecast-configure-advanced-settings.md#customize-underlying-records)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

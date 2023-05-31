@@ -1,7 +1,7 @@
 ---
-title: "Configure advanced settings for a forecast"
-description: "Configure advanced settings for a forecast in Dynamics 365 Sales."
-ms.date: 12/16/2022
+title: Configure advanced settings for a forecast
+description: Configure advanced settings for a forecast in Dynamics 365 Sales.
+ms.date: 05/31/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,10 +17,11 @@ When you're configuring forecasts in Sales Hub, use the **Advanced** step to:
 - [View prediction factors](#view-prediction-factors)
 - [Select the default attribute to group underlying records (preview)](#select-the-default-attribute-to-group-underlying-records-preview)
 - [Override column headers (preview)](#override-column-headers-preview)
-- [Customize underlying records](#customize-underlying-records)
+- [Customize underlying records grid](#customize-underlying-records-grid)
 
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -106,15 +107,15 @@ In the **Override column headers (Preview)** section, select the custom control 
 
 :::image type="content" source="media/fc-override-headers.png" alt-text="Screenshot of the **Override column headers** field in the **Advanced** step of forecast configuration.":::
 
-## Customize underlying records
+## Customize underlying records grid
 
-Add a JavaScript library to customize the underlying records in a forecast.
+Add a JavaScript library to customize the underlying records grid in a forecast.
 
 Before you upload the JavaScript library, it must be created according to the schemas defined in [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md).
 
 ### Create a JavaScript library
 
-Write your custom JavaScript code. The following example disables all fields except a few for the **Opportunity** entity:  
+Write your custom JavaScript code. The following example disables all fields except a few for the **Opportunity** entity.
 
 ```JavaScript
 function OnRowLoad(executionContext) {
@@ -138,6 +139,7 @@ var entityName = executionContext.getFormContext().data.entity.getEntityName();
     }
 }
 ```
+For more such customization examples, see [Override save, update, and load events for editable fields on forecasting grid](developer/reference/custom-actions/events-context.md).
 
 >[!NOTE]
 >
