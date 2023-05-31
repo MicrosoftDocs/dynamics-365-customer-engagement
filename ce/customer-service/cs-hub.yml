@@ -95,8 +95,6 @@ additionalContent:
         text: Customize forms for your agents and supervisors
       - url: /dynamics365/customer-service/model-customize-reports
         text: Customize data models of historical analytics reports
-      - url: /power-apps/maker/model-driven-apps/custom-connectors-timeline-control
-        text: Use custom connectors with the timeline control
     - title: Integrate
       links: 
       - url: /dynamics365/customer-service/voice-channel-contextual-transfer-external-ivr
@@ -105,6 +103,18 @@ additionalContent:
         text: Integrate a Power Virtual Agents bot
       - url: /dynamics365/customer-service/integrate-km-with-pva
         text: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
+    - title: Use copilot
+      links:
+      - url: /dynamics365/customer-service/configure-copilot-features
+        text: Manage copilot features in Customer Service
+      - url: /dynamics365/customer-service/copilot-powerapps-settings
+        text: Configure copilot features for custom case forms and custom apps
+    - title: Add-in solutions  
+      links: 
+      - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
+        text: Unified Service Desk
+      - url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
+        text: Channel Integration Framework
   - title: Use
     items:
     - title: Manage cases and solve issues within SLAs
@@ -127,14 +137,6 @@ additionalContent:
         text: Transfer calls and consult with users in the voice channel
       - url: /dynamics365/customer-service/oc-agent-dashboard
         text: View the communication panel 
-    - title: Use copilot
-      links:
-      - url: /dynamics365/customer-service/configure-copilot-features
-        text: Manage copilot features in Customer Service
-      - url: /dynamics365/customer-service/copilot-powerapps-settings
-        text: Configure copilot features for custom case forms and custom apps
-      - url: /dynamics365/customer-service/use-copilot-features
-        text: Use Copilot to solve customer issues
     - title: Use AI capabilities
       links:
       - url: /dynamics365/customer-service/csw-view-ai-suggested-cases-knowledge-articles
@@ -183,16 +185,9 @@ additionalContent:
         text: Agents-Use Customer Service workspace
       - url: /dynamics365/customer-service/customer-service-team-member
         text: Team member-Use Customer Service Team Member 
-    - title: Add-in solutions  
-      links: 
-      - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
-        text: Unified Service Desk
-      - url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
-        text: Channel Integration Framework
-  - title: Related products
-    items:
+    - title: Related products
+      items:
         # Card
-        
         - title: Microsoft Power Apps
           summary: Learn how to quickly build low-code apps that modernize processes and solve tough business challenges in your organization using Power Apps.
           url: /power-apps/
@@ -202,4 +197,7 @@ additionalContent:
         - title: Azure Communication Services
           summary: Build powerful, cloud-based communication and customer engagement experiences by adding voice, video, chat, sms, email, teams interoperability, call automation, and telephony to your apps.
           url: /azure/communication-services/
+        - title: Microsoft Power Virtual Agents
+          summary: Build chatbots easily with Power Virtual Agents.
+          url: /power-virtual-agents/
        

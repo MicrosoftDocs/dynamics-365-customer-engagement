@@ -95,8 +95,6 @@ additionalContent:
         text: Customize forms for your agents and supervisors
       - url: /dynamics365/customer-service/model-customize-reports
         text: Customize data models of historical analytics reports
-      - url: /power-apps/maker/model-driven-apps/custom-connectors-timeline-control
-        text: Use custom connectors with the timeline control
     - title: Integrate
       links: 
       - url: /dynamics365/customer-service/voice-channel-contextual-transfer-external-ivr
@@ -105,6 +103,18 @@ additionalContent:
         text: Integrate a Power Virtual Agents bot
       - url: /dynamics365/customer-service/integrate-km-with-pva
         text: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
+    - title: Use copilot
+      links:
+      - url: /dynamics365/customer-service/configure-copilot-features
+        text: Manage copilot features in Customer Service
+      - url: /dynamics365/customer-service/copilot-powerapps-settings
+        text: Configure copilot features for custom case forms and custom apps
+    - title: Add-in solutions  
+      links: 
+      - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
+        text: Unified Service Desk
+      - url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
+        text: Channel Integration Framework
   - title: Use
     items:
     - title: Make agents' work effortless
@@ -143,7 +153,7 @@ additionalContent:
         text: Meet your customer via any channel
       - url: /dynamics365/customer-service/oc-real-time-translation
         text: Engage with customers in a language they use
-    - title: Show them you know them
+    - title: Show customers you know them
       links:
       - url: /dynamics365/customer-service/realtime-ongoing
         text: Understand customer sentiment in real time
@@ -177,7 +187,6 @@ additionalContent:
         text: Agents-Use Customer Service workspace 
       - url: customer-service-team-member.md
         text: Team Member-Use Customer Service Team Member
-
   - title: Related products
     items:
         # Card
@@ -190,4 +199,7 @@ additionalContent:
         - title: Azure Communication Services
           summary: Build powerful, cloud-based communication and customer engagement experiences by adding voice, video, chat, sms, email, teams interoperability, call automation, and telephony to your apps.
           url: /azure/communication-services/
+        - title: Microsoft Power Virtual Agents
+          summary: Build chatbots easily with Power Virtual Agents.
+          url: /power-virtual-agents/
        
