@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 02/07/2023
+ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
@@ -35,9 +35,7 @@ Depending on your license and configuration, you get the following insights:
 
 ## Basic relationship insights
 
-[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
-
-Basic relationship insights are generated out-of-the-box by using emails and appointments sent and received from Dynamics 365. The seller-customer interaction history is used to calculate KPIs and understand who knows whom. For information on how to view the insights, see [View relationship analytics and KPIs](relationship-analytics.md#view-relationship-analytics-and-kpis). 
+Basic relationship insights are generated out-of-the-box by using emails and appointments sent and received from Dynamics 365. The seller-customer interaction history is used to calculate KPIs and understand who knows whom. For information on how to view the insights, [View analytics and KPIs for a record](relationship-analytics.md#view-analytics-and-kpis-for-a-record)
 
 The following screenshot displays the widgets that are available out-of-the-box in the **Relationship Analytics** tab of a lead. Similar widgets are also available in Contact, Account, and Opportunity entities.
 
@@ -56,7 +54,7 @@ The following screenshot displays the widgets that are available out-of-the-box 
 
 Enhanced relationship insights are available with the Sales Premium license and requires your administrator to enable and configure relationship intelligence. Your administrator can configure relationship intelligence to use the Exchange data as well. In this case, the insights will be generated based on emails and meetings information in Exchange and Dynamics 365.  More information: [Enable relationship intelligence](enable-ri.md)
 
-For information on how to view the insights, see [View relationship analytics and KPIs](relationship-analytics.md#view-relationship-analytics-and-kpis).
+For information on how to view the insights, see [View analytics and KPIs for a record](relationship-analytics.md#view-analytics-and-kpis-for-a-record).
 
 The following screenshot displays the  enhanced  relationship insights that are available in the **Relationship Analytics** tab of an opportunity. Similar widgets are also available in Contact, Account, and Lead entities. For Opportunity records, the KPIs are compared with similar won deals. For more information, see [Compare the KPIs of an opportunity with similar opportunities](relationship-analytics.md#compare-the-kpis-of-an-opportunity-with-similar-opportunities).
 

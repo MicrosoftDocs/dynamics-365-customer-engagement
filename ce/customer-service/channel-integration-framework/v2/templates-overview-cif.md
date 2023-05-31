@@ -8,7 +8,7 @@ ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-  - "intro-internal"
+ms.collection: get-started
 ---
 
 # Overview of templates in Dynamics 365 Channel Integration Framework 2.0

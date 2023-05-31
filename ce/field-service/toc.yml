@@ -19,7 +19,7 @@ items:
   items:
     - name: New and upcoming features
       href: https://experience.dynamics.com/releaseplans/?app=Field+Service
-    - name: Version history (web + mobile)
+    - name: Version history
       items:
         - name: Field Service
           href: version-history.md
@@ -27,8 +27,10 @@ items:
           href: field-service-version-history-resource-scheduling.md
         - name: Resource Scheduling Optimization
           href: field-service-version-history-resource-scheduling-optimization.md
+        - name: Version history archive
+          href: version-history-archive.md
     - name: Deprecations
-      href: deprecations-field-service.md 
+      href: deprecations-field-service.md
 
 - name: Install or uninstall
   items:
@@ -57,7 +59,7 @@ items:
       href: set-up-tax-codes.md
     - name: Price list
       href: create-price-list.md
-    - name: Products and services  
+    - name: Products and services
       href: create-product-or-service.md
     - name: Priorities
       href: set-priorities.md
@@ -73,7 +75,7 @@ items:
       href: search-dataverse-tables.md
     - name: Customer asset validation
       href: asset-validation.md
-      
+
 - name: Work orders
   items:
     - name: Work order process architecture
@@ -107,13 +109,13 @@ items:
       href: inspections-reporting.md
     - name: Use inspections without work orders
       href: inspections-customer-assets.md
-  
+
 - name: Customers
   items:
     - name: Customer accounts
       href: accounts.md
     - name: Assets
-      items: 
+      items:
       - name: Configure customer assets
         href: assets.md
       - name: 3D asset models
@@ -145,8 +147,6 @@ items:
       href: set-up-bookable-resource-categories.md
     - name: Characteristics
       href: set-up-characteristics.md
-    - name: Send technician arrival time and current map location
-      href: reminders-arrival-time.md
     - name: Resource pay types
       href: set-up-resource-pay-types.md
     - name: Submit and approve time-off requests
@@ -204,8 +204,6 @@ items:
         href: facility-scheduling.md
       - name: Advanced filters
         href: schedule-assistant-advanced-filters.md
-      - name: Self-scheduling for customers
-        href: scheduling-self-customers.md
       - name: Search resource availability API
         href: search-resource-availability-api.md
       - name: Schedule board
@@ -228,7 +226,7 @@ items:
             href: preview-schedule-board.md
 
 - name: Mobile app
-  items: 
+  items:
     - name: Overview
       href: mobile-power-app-overview.md
     - name: Install and setup
@@ -314,19 +312,25 @@ items:
     - name: Predictive work duration (Preview)
       href: analytics-predictive-work-duration.md
 
-- name: Field Service for end customers
-  items: 
-    - name: Customer experience homepages
-      href: field-service-portal-homepage.md
-    - name: Self-scheduling for customers
-      href: scheduling-self-customers.md
+- name: Field Service Portal
+  items:
+    - name: Overview
+      href: customer-portal-overview.md
+    - name: Create and configure the portal
+      href: create-configure-customer-portal.md
+    - name: Configure notification settings
+      href: customer-portal-notification-settings.md
     - name: Send technician arrival time and current map location
-      href: reminders-arrival-time.md
+      href: customer-portal-technician-tracking.md
+    - name: Let customers schedule service appointments
+      href: customer-portal-self-scheduling.md
 
 - name: Connected Field Service (IoT)
-  items: 
+  items:
   - name: Overview
     href: connected-field-service.md
+  - name: Privacy notice
+    href: cfs-privacy-notice.md
   - name: Administration
     items:
       - name: Architecture
@@ -338,14 +342,14 @@ items:
   - name: Connect your IoT data
     items:
       - name: Azure IoT Hub
-        items: 
-          - name: Azure IoT Hub
+        items:
+          - name: Develop customized IoT solutions
             href: developer/connected-field-service-developer-guide.md
-          - name: Prerequisites for Azure subscription
+          - name: Azure subscription prerequisites
             href: cfs-azure-subscription.md
-          - name: Create Iot provider for IoT Hub
+          - name: Create an IoT provider for IoT Hub
             href: cfs-provider-iot-hub.md
-          - name: Installation via IoT Hub
+          - name: Install and configure IoT Hub
             href: installation-setup-iothub.md
           - name: Register IoT devices
             href: cfs-register-devices.md
@@ -366,7 +370,7 @@ items:
       - name: AI for IoT alerts
         href: iot-alerts-ai-based-suggestions.md
   - name: Take action
-    items: 
+    items:
       - name: IoT alerts
         href: cfs-iot-alerts.md
       - name: Connected Field Service on mobile
@@ -461,7 +465,7 @@ items:
     - name: Customize columns (fields)
       href: field-service-customize-columns-fields.md
     - name: Customize forms
-      href: field-service-customize-forms.md  
+      href: field-service-customize-forms.md
     - name: Write complex business logic (plugins + JavaScript)
       href: field-service-customize-scripts.md
 
@@ -490,7 +494,3 @@ items:
       href: https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service
     - name: Get help
       href: field-service-get-help.md
-
-
-
-  
