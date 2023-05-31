@@ -159,7 +159,7 @@ additionalContent:
         text: Search and use knowledge articles
     - title: Get insights and analyze service operations 
       links:
-      - url: customer-service-analytics-insights-csh
+      - url: customer-service-analytics-insights-csh.md
         text: Use Customer Service dashboards
       - url: omnichannel-analytics-insights.md
         text: Use Omnichannel for Customer Service dashboards
