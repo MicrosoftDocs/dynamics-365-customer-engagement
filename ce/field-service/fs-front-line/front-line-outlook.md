@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) Outlook add-in with Copilot for the Frontline Manager
 description: Learn about the Dynamics 365 Field Service (Preview) Outlook add-in to create, view, and edit work orders.
-ms.date: 05/22/2023
+ms.date: 05/31/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 The Dynamics 365 Field Service (Preview) provides an Outlook add-in for frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly from your email without leaving Outlook. You can quickly respond to requests for service or questions about existing requests.
 
-The Field Service Outlook Add-in (Preview) provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Or, you can create a work order manually.
+The Field Service (Preview) Outlook Add-in provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Or, you can create a work order manually.
 
 ## Install the Field Service (Preview) Outlook add-in
 
@@ -53,7 +53,7 @@ If you don’t already have Outlook and Field Service licenses, contact your org
    The Field Service (Preview) icon :::image type="icon" source="media/fsp-icon.png"::: displays in all your emails.
 
 > [!TIP]
-> To keep the **Field Service (Preview)** pane open across all emails, select **Pin**.
+> To keep the **Field Service (Preview)** pane open across all emails, select the **Pin** icon.
 
 :::image type="content" source="media/fsp-email.png" alt-text="Field Service (Preview) Outlook icon highlighted on an open email":::
 
@@ -79,10 +79,10 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**.
 
+   :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service (Preview) Outlook pane highlighting the pop-out icon to go to Field Service":::
+
    > [!TIP]
    > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon.
-
-   :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service (Preview) Outlook pane highlighting the pop-out icon to go to Field Service":::
 
 See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#edit-a-work-order-in-outlook) for any work orders created by the Copilot or manually.
 
@@ -111,6 +111,8 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
 
    :::image type="content" source="media/fsp-pop-out-icon.png" alt-text="Field Service (Preview) Outlook Work Orders tab highlighting the pop-out icon":::
 
+See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#edit-a-work-order-in-outlook) for any work orders created by the Copilot or manually.
+
 ## View work orders in Outlook
 
 1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
@@ -123,6 +125,9 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
    :::image type="content" source="media/fsp-work-order-list.png" alt-text="Field Service (Preview) Outlook work order list":::
 
 1. To find a particular work order, enter the work order ID in the **Find by ID** box and select **Search**.
+
+   > [!TIP]
+   > The **Find by ID** box uses a strict match between what is typed in the box and the work order number. For example, “10” won’t find work order ID “00010”.
 
 1. To filter the work orders by status or priority, select **Filter**, make your choice, and then select **Apply**. To remove a filter, select **Filter**, clear each selection, and then select **Apply**.
 
@@ -138,6 +143,9 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
 
    :::image type="content" source="media/fsp-work-order-details.png" alt-text="Field Service (Preview) Outlook work order details":::
 
-1. Make the necessary changes and select **Save**.
+1. Make the necessary changes and select **Save**. Within the details of the work order, you can also:
+
+   - Open a map to locate the service address
+   - [Open the schedule board in Field Service](../configure-schedule-board.md#overview-of-the-schedule-board)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

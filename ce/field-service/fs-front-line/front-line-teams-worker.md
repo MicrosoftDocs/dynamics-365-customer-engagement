@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) Teams app for the Frontline Worker
 description: Learn about the Dynamics 365 Field Service (Preview) Teams and Viva Connections app to view and edit current work orders.
-ms.date: 05/23/2023
+ms.date: 05/31/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -37,13 +37,13 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
    :::image type="content" source="media/fsp-flw-viva-work-orders.png" alt-text="Field Service (Preview) Viva Connections mobile list of work orders":::
 
-1. To filter by **Booking status**, select **Filter**, make your selection, and then select **Apply**.
+1. To filter by **Booking status**, select **Filter**, make your selection, and then select **Apply**. For more information on booking status, see [Work order life cycle and statuses](../work-order-status-booking-status.md).
 
 ## View and manage your current work order
 
 1. From your mobile device, access the Microsoft Viva Dashboard.
 
-1. Under **Current Work Order**, select **Details**. If you only need to update the booking status, select **Update Status**.
+1. Under **Current Work Order**, if you only need to update the booking status, select **Update Status**. Otherwise, select **Details**.
 
    :::image type="content" source="media/fsp-flw-work-order-details.png" alt-text="Field Service (Preview) Viva Connections mobile work order details":::
 
@@ -52,7 +52,7 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
    - Open a map to locate the service address
    - View tasks and products in Field Service
    - [Launch Remote Assist for remote collaboration](#call-for-remote-collaboration-through-remote-assist)
-   - Change the Booking status
+   - Change the [Booking status](../work-order-status-booking-status.md)
    - Change the Actual arrival or end time
 
 1. If you made changes, select **Save**.

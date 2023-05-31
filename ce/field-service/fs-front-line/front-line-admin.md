@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) for Administrators
 description: Learn about the Dynamics 365 Field Service (Preview) from an Administer perspective.
-ms.date: 05/19/2023
+ms.date: 05/31/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -87,11 +87,11 @@ Obtain the Viva Connections cards for Field Service (Preview) to make them avail
 
 1. Log into the [SharePoint Admin Center](https://go.microsoft.com/fwlink/?linkid=2185219).
 
-1. [Add apps from the SharePoint store](/sharepoint/use-app-catalog#add-apps-from-the-sharepoint-store).
+1. [Add the Field Service (Preview) app from the SharePoint store](/sharepoint/use-app-catalog#add-apps-from-the-sharepoint-store).
 
 ### Add Field Service (Preview) cards to the Viva Connections dashboard
 
-You can set up the Field Service (Preview) cards to the Viva Connections Dashboard through SharePoint or Viva Connections. There are four cards available for the Field Service (Preview) for Teams. Determine the audience for each type of card. For frontline managers, we recommend the **Work orders all in one place** and **Remote Assist** cards. For frontline workers we recommend the **Upcoming work order**, **Work orders assigned**, and **Remote Assist** cards.
+You can set up the Field Service (Preview) cards to the Viva Connections Dashboard through SharePoint or Viva Connections. There are four cards available for the Field Service (Preview) for Teams.
 
 If your organization has a SharePoint home site and wants to use it for Viva Connections or you already have Viva Connections with a home site, see [edit the dashboard and add cards using Viva Connections](/viva/connections/create-dashboard#how-to-edit-the-dashboard-from-sharepoint-when-you-have-a-home-site).
 
@@ -113,7 +113,7 @@ For SharePoint, see the following steps.
 
 1. Select **Add a card**. Select and add each of the four Field Service (Preview) cards.
 
-1. [Set the target audience](/viva/connections/use-audience-targeting-in-viva-connections) for each card.
+1. [Set the target audience](/viva/connections/use-audience-targeting-in-viva-connections) for each card. For frontline managers, we recommend the **Work orders all in one place** and **Remote Assist** cards. For frontline workers we recommend the **Upcoming work order**, **Work orders assigned**, and **Remote Assist** cards.
 
 1. Preview the experience and then select **Publish** or **Republish**.
 
