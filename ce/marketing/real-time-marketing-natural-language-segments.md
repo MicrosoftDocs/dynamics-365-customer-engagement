@@ -32,7 +32,7 @@ On the right side of the next screen, you'll see a **Query Assist** panel. The Q
 Once you select **Use**, notice the copilot built the relationship for you in the canvas. 
 
 > [!div class="mx-imgBorder"]
-> ![Fill in the attributes in the canvas built by copilot](media/real-time-marketing-use-canvas-built-by-copilot.png "Fill in the attributes in the canvas built by copilot")
+> ![provide additional details](media/real-time-marketing-provide-additional-details-using-query-assist.png "provide additional details")
 
 You can provide feedback on the segment query by selecting the thumbs up or thumbs down button next to the result in the **Query Assist** pane.
 
@@ -41,6 +41,6 @@ You can add further details to your segment by entering additional searches into
 If you select a new search, you'll notice that by clicking the Use button it will always add the result as a new group at the bottom of what is already on the canvas. 
 
 > [!div class="mx-imgBorder"]
-> ![provide additional details](media/real-time-marketing-provide-additional-details-using-query-assist.png "provide additional details")
+> ![Fill in the attributes in the canvas built by copilot](media/real-time-marketing-use-canvas-built-by-copilot.png "Fill in the attributes in the canvas built by copilot")
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
