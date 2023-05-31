@@ -185,8 +185,8 @@ additionalContent:
         text: Agents-Use Customer Service workspace
       - url: /dynamics365/customer-service/customer-service-team-member
         text: Team member-Use Customer Service Team Member 
-    - title: Related products
-      items:
+  - title: Related products
+    items:
         # Card
         - title: Microsoft Power Apps
           summary: Learn how to quickly build low-code apps that modernize processes and solve tough business challenges in your organization using Power Apps.
