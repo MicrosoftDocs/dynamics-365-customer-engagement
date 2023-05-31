@@ -18,15 +18,14 @@ This article describes how you, as an administrator, can set up outbound calling
 If you don't have any phone numbers provisioned for your business, then see [Acquire a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers) to learn how you can acquire new phone numbers. Phone number calling plans must be provisioned to support making calls to be used for outbound voice.
 
 
-
 ## Prerequisites
 
 Before you set up outbound voice calls for your business, you must perform the following steps.
 
-- [Configure one or more phone numbers for outbound calling](#configure-phone-numbers-for-outbound-calling).
-- [Create a voice type queue](voice-channel-inbound-calling.md#create-queues-for-voice-channels) or use an existing voice queue to associate with the outbound profile.
-- [Configure capacity profiles and add users](#configure-capacity-profiles-and-assign-users).
-- [Create outbound profiles](configure-outbound-inbound-profiles.md#create-outbound-profiles)
+1. [Configure one or more phone numbers for outbound calling](#configure-phone-numbers-for-outbound-calling).
+1. [Create a voice type queue](voice-channel-inbound-calling.md#create-queues-for-voice-channels) or use an existing voice queue to associate with the outbound profile.
+1. [Configure capacity profiles and add users](#configure-capacity-profiles-and-assign-users).
+1. [Create outbound profiles](configure-outbound-inbound-profiles.md#create-outbound-profiles)
 
 ## Configure phone numbers for outbound calling
 
@@ -40,7 +39,7 @@ To check whether a phone number is enabled for outbound calling, go to **General
     
     1. Select **Manage** for **Phone numbers**.
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
     
     1. In the site map, select **Phone numbers** in **General settings**.
     
@@ -83,7 +82,7 @@ You can assign personal phone numbers to agents to make outbound calls to custom
     1. In the site map, select **Channels** in **Customer support**.
     1. On the **Channels** page, select **Manage** for **Phone numbers**.
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
     
     - In the site map, select **Phone numbers** in **General settings**.
 
