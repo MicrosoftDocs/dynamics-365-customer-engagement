@@ -50,7 +50,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
     > [!NOTE]
     >
     > - Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](#acquire-a-phone-number) if you want to configure a new number.    
-    > - The voice channel only supports anonymous inbound calls that use Direct Routing.
+    > - The voice channel supports anonymous inbound calls on those numbers only that are configured via Azure Communication Services direct routing.
 
 3. On the **Language** page, select **Add primary language** and perform the steps to configure the primary language. More information: [Allow customers to choose a language](voice-channel-multi-language-contact-center.md)
 
