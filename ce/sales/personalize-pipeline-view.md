@@ -54,6 +54,20 @@ The opportunity pipeline view lists important metrics related to the sales pipel
 - To edit a metric, hover over the metric and select the **Edit** icon.
 - To remove a metric temporarily, clear the checkbox against the metric.
 
+## Personalize the side panel
+
+Personalize the side panel to view it in different modes, depending on the details you'd like to see and your screen size.  
+
+1. In the opportunity pipeline view, select an opportunity from the grid to open the side panel.
+1. Select the wand icon to switch to one of the following modes:
+    - **Compact:** This is the default mode. It displays the most important fields in the opportunity table but doesn't include the business process flow.
+    - **Show BPF:** While you're in the compact mode, select this option to view the business process flow.
+    - **Extended:**  This model is ideal for large screens. It displays the business process flow and all the fields in the opportunity table.  
+
+    :::image type="content" source="media/side-panel-modes.PNG" alt-text="Screenshot of the side panel modes.":::
+
+    The selected mode is saved until you change it.
+
 ## Personalize the grid
 
 Personalize the grid to include columns that you want to see and update quickly.

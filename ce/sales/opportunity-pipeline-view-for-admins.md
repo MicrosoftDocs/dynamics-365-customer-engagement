@@ -46,14 +46,45 @@ The **Read-only Grid view** is the default view for opportunities. You can set t
 
     :::image type="content" source="media/deal-manager-overview-v1-small.png" alt-text="Screenshot of the opportunity pipeline view." lightbox="media/deal-manager-overview-v1.png":::
 
+## Open the opportunity pipeline view settings page
+
+Open the settings page to configure and customize the opportunity pipeline view experience for your sellers.
+
+1. In the Sales Hub Change area, select **App Settings**.
+1. Under **General Settings**, select **Opportunity pipeline view**.
+
+## Customize metrics
+
+The opportunity pipeline view lists important metrics related to the sales pipeline at the top of the view. You can customize this space to view metrics that you want sellers to track. Sellers will see these metrics by default; they can [personalize them](personalize-pipeline-view.md#personalize-metrics) if required.
+
+1. [Open the opportunity pipeline view settings page](#open-the-opportunity-pipeline-view-settings-page).
+1. Select **Combo** > **Edit Metrics**.
+
+   In the **Edit metrics** side panel, you can create, update, remove, or delete a metric.
+
+    :::image type="content" source="media/deal-manager-editmetrics-small.png" alt-text="Screenshot illustrating the Edit metrics option in deal manager and the edit metrics side panel with the Create a metric option and the list of metrics." lightbox="media/deal-manager-editmetrics.png":::
+
+    - To create a metric:
+        1. Select **Create a Metric**.
+        1. Select the field and the aggregate function that you want to use for calculating the metric.
+           The **Field** list displays all the numerical fields in the opportunity entity.
+        1. (Optional) Add filters to calculate metrics from specific records. For example, if you want to view the estimated revenue of all opportunities created this year and are in the **Develop** stage, create a metric with the following values:
+            - **Field:** Est. Revenue
+            - **Aggregate function:** Sum
+            - **Filters**
+                - **Created On**: This year  
+                - **Sales Stage**: Develop  
+    
+    - To edit a metric, hover over the metric and select the **Edit** icon.
+    - To remove a metric temporarily, clear the checkbox against the metric.
+    
 ## Customize charts
 
 The charts in the pipeline view help sellers visualize their pipeline. You can customize elements of the bubble chart and the funnel chart to change the information that sellers see.  
 
 ### Customize the bubble chart
 
-1. In the Sales Hub navigation panel, select **App Settings**.
-1. Under **General Settings**, select **Opportunity pipeline view**.
+1. [Open the opportunity pipeline view settings page](#open-the-opportunity-pipeline-view-settings-page).
 1. In the **Manage charts** section, edit **Deal tracker**.
 1. Customize the following elements:
     - **Horizontal (x) axis**  
@@ -74,8 +105,7 @@ The charts in the pipeline view help sellers visualize their pipeline. You can c
 
 ### Customize the funnel chart
 
-1. In the Sales Hub navigation panel, select **App Settings**.
-1. Under **General Settings**, select **Opportunity pipeline view**.
+1. [Open the opportunity pipeline view settings page](#open-the-opportunity-pipeline-view-settings-page).
 1. In the **Manage charts** section, edit **Sales funnel**.
 
     The following screenshot illustrates the parts of the funnel chart that you can customize:
