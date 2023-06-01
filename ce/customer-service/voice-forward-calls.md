@@ -25,18 +25,10 @@ You can forward Teams user numbers calls, auto attendant calls, and calls to the
 Call forwarding is supported for the following scenarios:
 - **Calls to Teams user numbers**: Perform the steps in [Configure call settings for users - Microsoft Teams](/microsoftteams/user-call-settings#use-the-teams-admin-center) to enable call forwarding.
 - **Calls to auto attendants**: Perform the steps in [Set up a Microsoft Teams auto attendant - Microsoft Teams](/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) to enable call forwarding to the auto attendant flow. You can also forward the calls directly to the digital contact center number without going through the auto attendant flow.
-
-   :::image type="content" source="media/add-number-call-menu.png" alt-text="Adding Microsoft Digital Contact Center number in the call menu":::
-
 - **Calls in call queues**: Perform the steps in [Create a call queue in Microsoft Teams - Microsoft Teams](/microsoftteams/create-a-phone-system-call-queue) to enable call forwarding for calls in call queues.
     - To enable the call forwarding for calls in the call queues, enable the following settings in Microsoft Teams admin center.
       - To forward all calls, set the **Maximum calls in the queue** to zero in **Call overflow handling**. The default is 50, but it can range from 0 to 200.
-
-          :::image type="content" source="media/max-call-queues.png" alt-text="Maximum calls in the queue":::
-
       - To forward the calls in the call queues after five minutes, set the **Maximum wait time** to five minutes in **Call timeout handling**.
-
-         :::image type="content" source="media/max-wait-time.png" alt-text="Maximum wait time":::
 
 ### See also
 
