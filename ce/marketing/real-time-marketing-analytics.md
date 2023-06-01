@@ -1,7 +1,7 @@
 ---
 title: Access and interpret analytics
 description: How to access and interpret real-time marketing analytics in Dynamics 365 Marketing.
-ms.date: 05/08/2023
+ms.date: 06/01/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -39,9 +39,8 @@ The following insights categories are provided:
 - **Text message insights**: View complete details of text message interactions for the selected contact, including a list of all messages sent to them, plus lists of all clicks, replies, and more.
 - **Push notification insights**: See complete details of push notification interactions for the selected Contact, including a list of all messages sent to them and more.
 - **Custom channels insights**: View complete details of custom channel interactions for the selected Contact, including messages sent, clicked and more.
- 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of custom channel contact insights.](media/real-time-marketing-custom-channel-contact-insights.png "Screenshot of custom channel contact insights")
+
+    :::image type="content" source="media/real-time-marketing-custom-channel-contact-insight.png" alt-text="Screenshot of custom channel contact insights." lightbox="media/real-time-marketing-custom-channel-contact-insight.png":::
 
 ### Lead insights
 
@@ -55,23 +54,19 @@ Select any journey component to view near real-time operational analytics in the
 
 - **Goal analytics**: If a goal has been defined a target set, you can view how the journey is progressing toward its goal and if it has met the goal.
 
-    > [!div class="mx-imgBorder"]
-    > ![Goal analytics screenshot.](media/real-time-marketing-goal-analytics.png "Goal analytics screenshot")
+    :::image type="content" source="media/real-time-marketing-goal-analytics.png" alt-text="Goal analytics screenshot." lightbox="media/real-time-marketing-goal-analytics.png":::
 
 - **Channel analytics**: For any message in the journey (email, text, or push notification), view the delivery funnel and additional metrics to diagnose the content performance.
 
-    > [!div class="mx-imgBorder"]
-    > ![Email channel analytics screenshot.](media/real-time-marketing-channel-analytics.png "Email channel analytics screenshot")
+    :::image type="content" source="media/real-time-marketing-channel-analytics.png" alt-text="Email channel analytics screenshot." lightbox="media/real-time-marketing-channel-analytics.png":::
 
-    To view delivery and interaction statistics, select the **Delivery and interaction details** link at the bottom of the channel analytics pane. Delivery and interaction details allow you to analyze delivery, engagement, and performance data for your email, text, or push notification messages. The **Delivery** tab provides details on messages sent, delivered, blocked, or bounced along with the respective reasons. The **Interactions** tab provides detailed data on customers that opened or clicked a message, as well as unsubscription interaction data. It's important to note that a message’s unique opens and clicks are calculated based on the journey run of a customer. This means that if the same customer enters the same journey multiple times and opens or clicks the same message each time, the system will record multiple unique opens or clicks. For example, if a customer clicks the same message in two different journey executions, two unique clicks will be recorded. 
+    To view delivery and interaction statistics, select the **Delivery and interaction details** link at the bottom of the channel analytics pane. Delivery and interaction details allow you to analyze delivery, engagement, and performance data for your email, text, or push notification messages. The **Delivery** tab provides details on messages sent, delivered, blocked, or bounced along with the respective reasons. The **Interactions** tab provides detailed data on customers that opened or clicked a message, as well as unsubscription interaction data. It's important to note that a message’s unique opens and clicks are calculated based on the journey run of a customer. This means that if the same customer enters the same journey multiple times and opens or clicks the same message each time, the system will record multiple unique opens or clicks. For example, if a customer clicks the same message in two different journey executions, two unique clicks will be recorded.
 
-    > [!div class="mx-imgBorder"]
-    > ![Delivery and interactions details screenshot.](media/real-time-marketing-analytics-interactions.png "Delivery and interactions details screenshot")
+    :::image type="content" source="media/real-time-marketing-analytics-interactions.png" alt-text="Delivery and interactions details screenshot." lightbox="media/real-time-marketing-analytics-interactions.png":::
 
 - **AI optimization**: Near real-time data to help you evaluate how applying AI optimization has helped your engagement rate.
 
-    > [!div class="mx-imgBorder"]
-    > ![AI optimization screenshot.](media/real-time-marketing-ai-optimization.png "AI optimization screenshot")
+    :::image type="content" source="media/real-time-marketing-ai-optimization.png" alt-text="AI optimization screenshot." lightbox="media/real-time-marketing-ai-optimization.png":::
 
 > [!NOTE]
 > Data retention is 12 months for Contact insights, Lead insights, goal analytics, channel analytics (including delivery and interaction details), and AI optimization analytics.
@@ -80,8 +75,7 @@ Select any journey component to view near real-time operational analytics in the
 
 The built-in aggregate cross-journey analytics dashboard shows relevant metrics and insights for all your journey orchestrations in one place.
 
-> [!div class="mx-imgBorder"]
-> ![Aggregate cross-journey analytics dashboard.](media/real-time-marketing-aggregate-analytics.png "Aggregate cross-journey analytics dashboard")
+:::image type="content" source="media/real-time-marketing-aggregate-analytics.png" alt-text="Aggregate cross-journey analytics dashboard." lightbox="media/real-time-marketing-aggregate-analytics.png":::
 
 Use the aggregate cross-journey analytics dashboard to review recent journey effectiveness and quickly share reports with stakeholders.
 
@@ -91,8 +85,7 @@ Learn more: [How to use aggregate cross-journey analytics](real-time-marketing-c
 
 The aggregate channel analytics dashboard shows metrics and insights related to delivery and engagement.
 
-> [!div class="mx-imgBorder"]
-> ![Aggregate channel analytics dashboard.](media/real-time-marketing-aggregate-channel-analytics.png "Aggregate channel analytics dashboard")
+:::image type="content" source="media/real-time-marketing-aggregate-channel-analytics.png" alt-text="Aggregate channel analytics dashboard." lightbox="media/real-time-marketing-aggregate-channel-analytics.png":::
 
 Use the aggregate channel analytics dashboard to measure campaign effectiveness and track the performance of your marketing assets.
 
@@ -105,8 +98,7 @@ Learn more: [How to use aggregate channel analytics](real-time-marketing-channel
 
 The marketing effectiveness analytics dashboard enables you to set up key milestones in your buyer’s journey and analyze how your real-time marketing activities are contributing to driving customers to those milestones. The dashboard uses AI-powered multi-touch and single-touch attribution models.
 
-> [!div class="mx-imgBorder"]
-> ![Marketing effectiveness analytics dashboard.](media/real-time-marketing-effectiveness-analytics-dashboard.png "Marketing effectiveness analytics dashboard")
+:::image type="content" source="media/real-time-marketing-effectiveness-analytics-dashboard.png" alt-text="Marketing effectiveness analytics dashboard." lightbox="media/real-time-marketing-effectiveness-analytics-dashboard.png":::
 
 Learn more: [Preview: Marketing effectiveness analytics](real-time-marketing-effectiveness.md)
 
