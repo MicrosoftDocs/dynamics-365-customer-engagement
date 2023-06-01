@@ -1,7 +1,7 @@
 ---
 title: "addHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Includes reference information such as description, syntax, and parameters for the addHandler method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0. "
-ms.date: 04/22/2022
+ms.date: 06/01/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
