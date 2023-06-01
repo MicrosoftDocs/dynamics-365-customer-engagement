@@ -6,7 +6,10 @@ ms.topic: overview
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
-ms.custom: bap-template
+ms.custom: 
+  - ai-gen-docs
+  - ai-gen-desc
+  - bap-template
 ---
 
 # Welcome to Dynamics 365 Sales  
