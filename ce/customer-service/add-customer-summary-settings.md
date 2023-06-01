@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 05/31/2023 
+ms.date: 06/01/2023
 ms.custom: bap-template 
 ---
 
@@ -31,14 +31,18 @@ To enable the enhanced Active Conversation form and customize the form, perform 
       - Configurable **Customer 360** and **Case details** card with inline edit capabilities. 
       - **Recent cases** card with color coded priority and status fields.
       - The default form selector to switch between active and closed conversations is hidden.
-    - **Customise active conversation form** to display **Queue**, **Start time**, options to save and refresh on the **Active Conversation** form, and enable customizations in [Customizations supported by the Conversation form]((supported-customizations.md#customizations-supported-by-the-conversation-form). Select **Power Apps** to further customize the form. If you're customizing the form in Power Apps, we recommend the following guidelines:
+    - **Customise active conversation form** to display **Queue**, **Start time**, options to save and refresh on the **Active Conversation** form, and enable customizations in [Customizations supported by the Conversation form](supported-customizations.md#customizations-supported-by-the-conversation-form). Select **Power Apps** to further customize the form. If you're customizing the form in Power Apps, we recommend the following guidelines:
        - Reduce the number of custom controls. Keep only the most frequently used controls on the default tab. The remaining data-driven controls should be distributed into secondary tabs to allow the default tab to load quickly. 
        - Limit the amount of customizations using the form Onload event.
        - Limit the amount of external data coming from Canvas apps for efficient and productive forms.
        More information: [Design forms for performance in model-driven apps](/power-apps/maker/model-driven-apps/design-performant-forms)
 
    > [!NOTE]
-   > If **Customise active conversation form** is enabled and an agent initiates a consult with other agents who are from a different business unit and don't have the read permissions at the organization level for the conversation entity, they won't have access to the conversation.
+   > If **Customise active conversation form** is enabled, then
+   >
+   > - emergency calling isn't supported.
+   > - if an agent initiates a consult with other agents who are from a different business unit and don't have the read permissions at the organization level for the conversation entity, they won't have access to the conversation.
+
 
     :::image type="content" source="media/enh-active-conv-config.png" alt-text="Configuration settings" lightbox="media/enh-active-conv-config-max.png"::: 
 
