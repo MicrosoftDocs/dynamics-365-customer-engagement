@@ -40,7 +40,7 @@ The following insights categories are provided:
 - **Push notification insights**: See complete details of push notification interactions for the selected Contact, including a list of all messages sent to them and more.
 - **Custom channels insights**: View complete details of custom channel interactions for the selected Contact, including messages sent, clicked and more.
 
-    :::image type="content" source="media/real-time-marketing-custom-channel-contact-insight.png" alt-text="Screenshot of custom channel contact insights." lightbox="media/real-time-marketing-custom-channel-contact-insight.png":::
+    :::image type="content" source="media/real-time-marketing-custom-channel-contact-insights.png" alt-text="Screenshot of custom channel contact insights." lightbox="media/real-time-marketing-custom-channel-contact-insights.png":::
 
 ### Lead insights
 
