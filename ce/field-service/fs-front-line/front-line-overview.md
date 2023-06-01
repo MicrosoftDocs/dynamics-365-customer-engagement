@@ -11,9 +11,9 @@ ms.custom: bap-template
 
 # Dynamics 365 Field Service (Preview) overview
 
-With Dynamics 365 Field Service (Preview), frontline workers and managers can create, view, and manage work orders within Microsoft Outlook and Teams. A frontline manager (FLM) is typically a service manager and dispatcher. A frontline worker (FLW) is a technician.
+With Dynamics 365 Field Service (Preview), frontline workers and managers can create, view, and manage work orders within Microsoft Outlook and Teams. A frontline manager is typically a service manager and dispatcher. A frontline worker is a technician, the one performing the work.
 
-An Outlook add-in allows frontline managers to view and create work orders in Outlook, so they can quickly respond to service requests and questions. A Viva Connections dashboard in Teams allows frontline workers to get an at-a-glance view of their workday and frontline managers to view and create work orders. Users can also initiate a Dynamics 365 Remote Assist call within Teams mobile.
+An Outlook add-in allows frontline managers to view and create work orders in Outlook, so they can quickly respond to service requests and questions. A Viva Connections dashboard in Teams provides frontline workers with an at-a-glance view of their workday and frontline managers with the ability to view and create work orders. Users can also initiate a Dynamics 365 Remote Assist call within Teams mobile.
 
 As an organization, you can use the capabilities of the Field Service (Preview) using Microsoft Outlook or Microsoft Teams or both. For more information about what Field Service (Preview) provides, see:
 

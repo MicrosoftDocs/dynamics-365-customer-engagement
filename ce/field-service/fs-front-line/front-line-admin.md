@@ -32,7 +32,7 @@ To use the Field Service (Preview) Outlook capability, enable it as an Outlook A
 
 1. In the left pane under the **Admin centers** section, select **Exchange**.
 
-1. Under the **Organization** section, select Add-ins.
+1. Under the **Organization** section, select **Add-ins**.
 
 1. Select **Add from the Office Store** and select the **Field Service (Preview) Outlook Add-in**.
 
@@ -91,7 +91,7 @@ Obtain the Viva Connections cards for Field Service (Preview) to make them avail
 
 ### Add Field Service (Preview) cards to the Viva Connections dashboard
 
-You can set up the Field Service (Preview) cards to the Viva Connections Dashboard through SharePoint or Viva Connections. There are four cards available for the Field Service (Preview) for Teams.
+You can set up the Field Service (Preview) cards to the Viva Connections dashboard through SharePoint or Viva Connections. There are four cards available for the Field Service (Preview) for Teams. For frontline managers, we recommend the **Work orders all in one place** and **Remote Assist** cards. For frontline workers we recommend the **Upcoming work order**, **Work orders assigned**, and **Remote Assist** cards.
 
 If your organization has a SharePoint home site and wants to use it for Viva Connections or you already have Viva Connections with a home site, see [edit the dashboard and add cards using Viva Connections](/viva/connections/create-dashboard#how-to-edit-the-dashboard-from-sharepoint-when-you-have-a-home-site).
 
@@ -113,7 +113,7 @@ For SharePoint, see the following steps.
 
 1. Select **Add a card**. Select and add each of the four Field Service (Preview) cards.
 
-1. [Set the target audience](/viva/connections/use-audience-targeting-in-viva-connections) for each card. For frontline managers, we recommend the **Work orders all in one place** and **Remote Assist** cards. For frontline workers we recommend the **Upcoming work order**, **Work orders assigned**, and **Remote Assist** cards.
+1. [Set the target audience](/viva/connections/use-audience-targeting-in-viva-connections) for each card.
 
 1. Preview the experience and then select **Publish** or **Republish**.
 
