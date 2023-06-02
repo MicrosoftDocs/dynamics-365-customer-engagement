@@ -1,7 +1,7 @@
 ---
 title: Use images, files, and videos in your content
 description: "How to Upload, manage and use images, files and videos in Dynamics 365 Marketing."
-ms.date: 06/01/2023
+ms.date: 06/02/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -27,7 +27,7 @@ Shareable assets are critical for meaningful and successful customer experiences
 > - 128MB for videos
 
 > [!TIP]
-> As files are stored in the organization’s Microsoft Dataverse storage, please ensure file types you want to use are not in the list of blocked files extension as described at [System Settings General tab - Power Platform | Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/system-settings-dialog-box-general-tab) or the list of blocked mime types as described here [https://learn.microsoft.com/en-us/power-platform/admin/settings-privacy-security#mime-type-validation]. Please note that SVG files are in that list by default.  
+> As files are stored in the organization’s Microsoft Dataverse storage, ensure that the file types you want to use are not in the list of blocked files extension described at [System Settings General tab - Power Platform](/power-platform/admin/system-settings-dialog-box-general-tab) or the list of blocked MIME types described [here](/power-platform/admin/settings-privacy-security#mime-type-validation). Note that SVG files are in that list by default.  
 
 ## Upload files
 
@@ -40,7 +40,7 @@ You can add **tags** when you upload a file so it’s easier to organize and fin
 When you add an image element to your content or need to [link to a file or video](/dynamics365/marketing/real-time-marketing-email#link-to-documents-and-videos-stored-in-the-asset-library), you can choose to use a file that already exists in your Marketing app library or upload a new one. After you've uploaded a file in this way, it will also be available in the library for use in other content.
 
 ## Edit assets 
-You can easily see and edit assets details in the side pane. Simply select the asset to rename, add tags and alt text, and copy the asset URL. 
+You can easily see and edit asset details in the side pane. Simply select the asset to rename, add tags and alt text, and copy the asset URL.
 
 You can **replace** your assets with newer versions whenever needed. To replace an asset:
 1. Select the image.
@@ -50,13 +50,11 @@ You can **replace** your assets with newer versions whenever needed. To replace 
 5. If you open the asset, you can see the version number, but you can't view the previous versions.
 
 ## Find assets
-Use the tabs to quickly switch between files categories such as images, videos or documents.
-You can use the search bar at the top to search assets by name or use the filter to quickly find assets by tag. 
-
+Use the tabs to quickly switch between files categories such as images, videos, or documents. You can use the search bar at the top to search assets by name or use the filter to quickly find assets by tag.
 
 ## Use images in your content
 
-To add an image, start by dragging an image element onto your design, which positions a placeholder. Then select the placeholder image to open the **Edit image** tab, where you can define the source, alt text, and link for the image. Select **Choose an image > Browse library** to find any image already uploaded to Dynamics 365 Marketing.
+To add an image, start by dragging an image element onto your design, which positions a placeholder. Then select the placeholder image to open the **Edit image** tab, where you can define the source, alt text, and link for the image. Select **Choose an image** > **Browse library** to find any image already uploaded to Dynamics 365 Marketing.
 
 > [!div class="mx-imgBorder"]
 > ![browse images from asset library and use them](media/use-images-from-library.png "browse images from asset library and use them")
