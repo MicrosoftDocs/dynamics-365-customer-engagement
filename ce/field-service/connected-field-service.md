@@ -9,7 +9,7 @@ ms.topic: overview
 ms.author: vhorvath
 author: vhorvathms
 ---
-# Connected Field Service - Overview
+# Connected Field Service overview
 
 Connected Field Service enables organizations to transform the way they provide service from a costly break-fix model to a proactive and predictive service model through the combination of IoT diagnostics, scheduling, asset maintenance, and inventory on the same platform.
 
