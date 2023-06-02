@@ -3,6 +3,7 @@
 When a new version of Universal Resource Scheduling releases, it becomes available in different geographic regions at different times. Use the table below to see estimates for when the next release will become available in the region of your environment.
 
 For information about other updates to Universal Resource Scheduling, visit the Field Service section of the [Dynamics 365 release plans](/dynamics365/release-plans/).
+For information about older versions, see [Version history archive](../../field-service/version-history-archive.md#universal-resource-scheduling).
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
