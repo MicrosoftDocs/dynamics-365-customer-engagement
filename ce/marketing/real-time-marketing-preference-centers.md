@@ -35,8 +35,7 @@ The default preference center includes options for users to opt in or opt-out of
 - Add or remove a purposes so the preference center collects the right information
 - Add topics to the form to capture more granular preferences
 
-> [!div class="mx-imgBorder"]
-> ![Preference center screenshot.](media/real-time-marketing-preference-center.png "Preference center screenshot")
+:::image type="content" source="media/real-time-marketing-preference-center.png" alt-text="Preference center screenshot." lightbox="media/real-time-marketing-preference-center.png":::
 
 In addition, you can add content and update the branding and styling of the page to make the experience seamless for your users.
 
