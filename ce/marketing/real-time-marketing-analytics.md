@@ -27,7 +27,7 @@ With real-time marketing analytics, you can:
 - Understand the effectiveness of various messages and channels of communication through key delivery and engagement insights.
 - Gain insights into your audience's behavior and interests and tailor your marketing efforts to their specific needs. 
 
-### Contact insights
+## Contact insights
 
 Get a comprehensive view of how a contact has engaged with your journeys in real-time marketing, including all past email sends, opens, clicks, form submissions, and more. Better understand your audience's behavior and interests, make informed decisions based on past engagement, and tailor your marketing efforts to their needs and preferences. To view contact insights, go to **Real-time marketing** > **Audience** > **Contacts**, select a contact record, and then open its **Insights** tab.
 
@@ -42,11 +42,11 @@ The following insights categories are provided:
 
     :::image type="content" source="media/real-time-marketing-custom-channel-contact-insights.png" alt-text="Screenshot of custom channel contact insights." lightbox="media/real-time-marketing-custom-channel-contact-insights.png":::
 
-### Lead insights
+## Lead insights
 
 Just like with Contact insights, you can access a complete overview of your selected Lead's interactions with your marketing initiatives. The insights categories displayed for a Lead are the same as previously described in [Contact insights](#contact-insights). To view Lead insights, go to **Real-time marketing** > **Audience** > **Leads**, select a Lead record, and then open its Insights tab.
 
-### Journey operational analytics
+## Journey operational analytics
 
 Evaluate journey performance in near real time using built-in operational analytics. The Sankey view in the designer helps you understand the user flow through the journey, highlighting which branches are working well.
 
@@ -71,7 +71,7 @@ Select any journey component to view near real-time operational analytics in the
 > [!NOTE]
 > Data retention is 12 months for Contact insights, Lead insights, goal analytics, channel analytics (including delivery and interaction details), and AI optimization analytics.
 
-### Aggregate cross-journey analytics
+## Aggregate cross-journey analytics
 
 The built-in aggregate cross-journey analytics dashboard shows relevant metrics and insights for all your journey orchestrations in one place.
 
@@ -81,7 +81,7 @@ Use the aggregate cross-journey analytics dashboard to review recent journey eff
 
 Learn more: [How to use aggregate cross-journey analytics](real-time-marketing-cross-journey-analytics.md).
 
-### Aggregate channel analytics
+## Aggregate channel analytics
 
 The aggregate channel analytics dashboard shows metrics and insights related to delivery and engagement.
 
@@ -94,7 +94,7 @@ Learn more: [How to use aggregate channel analytics](real-time-marketing-channel
 > [!NOTE]
 > There is no retention policy for real-time marketing interactions in Aggregate cross-journey analytics and Aggregate channel analytics. Dataverse entities are limited to a two-year retention policy after their initial creation date. Keep in mind that the two-year Dataverse entity retention policy might impact analytics views associated with interaction data from Dataverse entities.
 
-### Marketing effectiveness analytics
+## Marketing effectiveness analytics
 
 The marketing effectiveness analytics dashboard enables you to set up key milestones in your buyer’s journey and analyze how your real-time marketing activities are contributing to driving customers to those milestones. The dashboard uses AI-powered multi-touch and single-touch attribution models.
 
