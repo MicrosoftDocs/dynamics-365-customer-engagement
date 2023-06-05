@@ -35,11 +35,16 @@ As an administrator, you must configure Microsoft Teams dialer to enable sellers
 
 Ensure that you meet the following requirements before you configure Microsoft Teams dialer in the Sales Hub app:  
 
-- You have a license for using Microsoft Teams. Any Microsoft Teams license will work. For more information, see [Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).  
+- A license for using Microsoft Teams. Any Microsoft Teams license will work. For more information, see [Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).  
 
-- Your organization has a phone system installed, with a valid license to use it. For more information about setting up the phone system, see [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system).  
+- A phone system installed along with a valid license to use it. For more information about setting up the phone system, see [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system).  
+- A valid PSTN connection through Teams calling plan, your own PSTN carrier, or direct routing. [Learn more about PSTN connectivity options](/microsoftteams/pstn-connectivity?source=recommendations).
+- An assigned phone number. For more information, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
 
-- If you're planning to enable the dialer for specific security roles, ensure that users who need access to the dialer are assigned to one of those security roles. For more information, see [Assign security roles to users](security-roles-for-sales.md#assign-security-roles-to-users).  
+Additionally, you must grant the following permissions to your users: 
+
+- If you're planning to enable the dialer for specific security roles, ensure that users who need access to the dialer are assigned to one of those security roles. For more information, see [Assign security roles to users](security-roles-for-sales.md#assign-security-roles-to-users).
+
 - Ensure that the security roles of users who will be accessing the Teams dialer have read privileges to the following records:  
     - Under the **Core Records** tab, read access to **Note**
     - Under the **Custom Entities** tab, read access to **Teams Dialer Admin settings**  
@@ -59,7 +64,7 @@ Ensure that you meet the following requirements before you configure Microsoft T
     >     Alternatively, you can add the configuration page to your Sales Professional app's sitemap by [adding a subarea](/power-apps/maker/model-driven-apps/create-site-map-app#add-a-subarea-to-a-group-in-the-site-map).
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Teams calls configuration page.](media/teams-dialer-configuration-page.png "Microsoft Teams calls configuration page")  
+    > ![Microsoft Teams calls configuration page.](media/teams-dialer-configuration-page.svg "Microsoft Teams calls configuration page")  
 
 3. Turn on **Teams calls**.  
     
@@ -70,6 +75,7 @@ Ensure that you meet the following requirements before you configure Microsoft T
     - **Internal call will ring only in the Teams app, not in Dynamics 365**
         Indicates that calls from internal users won't ring and won't be tracked in Dynamics 365. In this case, calls from external contacts will ring in Dynamics 365 and internal calls will ring only in Teams. You can clear the checkbox if you want sellers to receive both external and internal calls in Dynamics 365.  
     - **Transfer calls (preview)**
+        [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
         Allows sellers to transfer a Teams call to another system user or a phone number either directly or after consulting the recipient.  
         More information: 
         [Transfer a Teams call (preview)](call-using-microsoft-teams.md#transfer-a-teams-call-preview)

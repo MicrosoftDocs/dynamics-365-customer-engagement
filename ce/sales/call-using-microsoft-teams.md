@@ -1,7 +1,7 @@
 ---
 title: Make and receive Teams calls in Dynamics 365
 description: Make and receive Teams calls in Dynamics 365 through the dialer, from a record or a work item.
-ms.date: 04/29/2023
+ms.date: 06/05/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -112,12 +112,12 @@ While you're on a call with a customer, you can transfer the call to another col
 
 1. Enter the name of the colleague you want to transfer the call to or their phone number.  
 
-1. (Optional) If you're calling a system user, select **Ring back if there's no answer** for a safe transfer. Otherwise, the call will be disconnected if there's no answer.
+1. (Optional) If you're calling a system user, select **Ring back if there's no answer** for a safe transfer. Otherwise, the call will be disconnected when it's unanswered.
 
     If the recipient is unavailable to take the call, select **Cancel** and then **Resume** to go back to the customer.
 
 1. If the recipient is available, select **Transfer**.  
-    If you've transferring to a Teams line, the recipient sees the transfer notification with details of the original user and the customer. After you transfer the call, the call is treated as a new one and any notes or recordings made during the original call are not transferred to the recipient.
+    If you're transferring to a Teams line, the recipient sees the transfer notification with details of the original user and the customer. After you transfer the call, the call is treated as a new one and any notes or recordings made during the original call are not transferred to the recipient.
 
 ## Consult and transfer a Teams call (preview)
 
