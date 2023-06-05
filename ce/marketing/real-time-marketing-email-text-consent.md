@@ -1,6 +1,6 @@
 ---
-title: "Manage consent for email and text messages in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to manage real-time marketing email and text consent settings in Dynamics 365 Marketing."
+title: Manage consent for email and text messages in real-time marketing
+description: Learn how to manage real-time marketing email and text consent settings in Dynamics 365 Marketing.
 ms.date: 12/12/2022
 ms.custom: 
   - dyn365-marketing
@@ -30,7 +30,7 @@ Whether consent is checked before sending emails and text messages depends on th
 
 ## How consent is respected for emails
 
-When creating a new email message, one of the parameters you need to set up is **Message designation**. To set up message designation, select the gear icon ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") in the email header. This will open the **Email header** settings pane on the right side of the page. Navigate to the **Email settings** section.
+When creating a new email message, one of the parameters you need to set up is **Message designation**. To set up message designation, select the gear icon ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") in the email header. This opens the **Email header** settings pane on the right side of the page. Navigate to the **Email settings** section.
 
 The message designation is a dropdown field in which you can choose **Commercial** or **Transactional**. By default, new email messages are designated as commercial.
 
@@ -39,16 +39,16 @@ The message designation is a dropdown field in which you can choose **Commercial
 
 As required for commercial email, a **Company Address** placeholder and an **Unsubscribe** link are added to the email footer automatically. The company address reflects the value set on the **Compliance** page and can be edited directly from the email editor, if needed. The unsubscribe link leads to the Preference page, where customers can review and change communication preferences.
 
-The presence of a company address and unsubscribe link is checked when you select **Ready to send**. The app will notify you if one of these parameters is missing.
+The presence of a company address and unsubscribe link is checked when you select **Ready to send**. The app notifies you if one of these parameters is missing.
 
 > [!NOTE]
 > The app will display warnings if, for example, you occasionally delete either the default Company address or link to the default Preference page. However, it will not block you from sending such an email. Thus, you are able to replace the given Company address field with another one on your choice, or add a link to the custom Preference page if you like.
 
-If you want to send commercial email, the app will check whether the email addresses of the target audience have granted consent when the email is sent. In the Restrictive model, messages will only be sent to customers whose email addresses were opted in. Transactional emails are always sent and don't have consent checked or enforced.
+If you want to send commercial email, the app checks whether the email addresses of the target audience have granted consent when the email is sent. In the Restrictive model, messages will only be sent to customers whose email addresses were opted in. Transactional emails are always sent and don't have consent checked or enforced.
 
 ## How consent is respected for text messages
 
-The real-time marketing rules for sending text messages are slightly different than the rules for sending emails. A user must always opt-in to consent to receive commercial text messages, irrespective of the consent enforcement model. Transactional text messages are always sent and don't have consent checked or enforced.
+The real-time marketing rules for sending text messages are slightly different than the rules for sending emails. A user must always opt in to consent to receive commercial text messages, irrespective of the consent enforcement model. Transactional text messages are always sent and don't have consent checked or enforced.
 
 ## Adding consent data
 
@@ -70,7 +70,7 @@ When you install real-time marketing, the real-time marketing consent center (**
 
 To load consent from contacts, an administrator must select **Load consent** from the top ribbon on the **Consent center** page.
 
-The following message will appear:
+The following message appears:
 
 > [!div class="mx-imgBorder"]
 > ![Load consent records screenshot.](media/real-time-marketing-load-consent.png "Load consent records screenshot")

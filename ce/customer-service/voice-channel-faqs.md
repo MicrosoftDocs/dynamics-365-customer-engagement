@@ -1,16 +1,22 @@
 ---
-title: "FAQ about the voice channel | MicrosoftDocs"
-description: "This article includes frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service."
+title: FAQ about the voice channel
+description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 12/22/2022
-ms.topic: article
+ms.date: 05/31/2023
+ms.topic: concept
+ms.reviewer: shujoshi
+ms.custom: bap-template
 
 ---
 
 # FAQ about the voice channel in Omnichannel for Customer Service
 
 This article includes frequently asked questions (FAQ) about the voice channel.
+
+### Why is the agent unable to make an outbound call?
+
+The agent must be a part of the outbound voice queue to make an outbound call. See [Set up outbound calling](voice-channel-outbound-calling.md) for information.
 
 ### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
 
@@ -49,11 +55,11 @@ Yes, you can bring your existing numbers to Omnichannel for Customer Service in 
 - **Configure Azure direct routing**
     1. Configure a Session Border Controller (SBC) that's connected to your local carrier with Azure Communication Services.
     1. Register the phone number in Dynamics 365. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
- 
+
 ### Can my SBC and DNS server be deployed in different regions?
 
 No. We recommend that the DNS server and SBC are deployed in the same region. More information:  [Bring your own carrier](voice-channel-bring-your-own-number.md#prerequisites)
- 
+
 ### How can I acquire extra phone numbers from Azure Communication Services?
 
 You can purchase one phone number per tenant for Azure Communication Services through the Azure portal. To acquire phone numbers in bulk or request a specific phone number, follow the instructions to create a special number request order [here](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
@@ -76,7 +82,7 @@ No, you don't have to. You can bring phone numbers from another carrier to use i
 
 If you've already brought numbers from another carrier into Microsoft Teams via Azure direct routing, then you can reuse your SBC and existing telephony infrastructure to bring those numbers into Azure Communication Services for use in the voice channel.  
 
-> [!Note]
+> [!NOTE]
 > Currently, you can't bring native Teams phone numbers to use in the voice channel.
 
 ### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app, such as, by adding omnichannel capabilities to a customer's Dynamics 365 app?
@@ -102,10 +108,9 @@ You can transfer conversations from one bot to another with different primary la
 
 No, you can't recover your data and phone numbers after the voice trial organization has expired and been deprovisioned. 
 
-
 ### Is disaster recovery supported for the voice channel?
 
-- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Region-specific deployments](voice-channel-region-availability.md#region-specific-deployments).
+- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Local cloud deployments](voice-channel-region-availability.md#local-cloud-deployments).
 - In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. For more information, see [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
 
 ### Do you provide voice quality SLA for voice in Omnichannel for Customer Service?

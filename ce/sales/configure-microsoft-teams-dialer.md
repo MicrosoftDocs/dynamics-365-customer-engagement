@@ -92,6 +92,7 @@ Additionally, you must grant the following permissions to your users:
     
     >[!NOTE]
     >Teams dialer is not supported for Dynamics 365 canvas apps.
+    
 8. (Optional) Enable call recording and get real-time transcription and insights through conversation intelligence:
     1. Turn on **Recording with real-time transcription and insights**.
     1. Select the security roles for which you want to enable recording. 
@@ -100,7 +101,8 @@ Additionally, you must grant the following permissions to your users:
 7.	Save and publish the configuration.
     A confirmation message is displayed, and the Microsoft Teams dialer is enabled in your organization for selected security roles in the selected app. 
     >[!NOTE]
-    >You must refresh the configuration page to make the changes available in the application. Users must refresh their page to see the dialer.  
+    >- You must refresh the configuration page to make the changes available in the application. Users must refresh their page to see the dialer.  
+    >- If the dialer doesn't show up in a custom app that you've added it to, remove it from the app, save the changes, and then add the dialer again.
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

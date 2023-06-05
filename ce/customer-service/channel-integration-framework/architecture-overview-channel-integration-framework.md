@@ -8,7 +8,7 @@ ms.date: 08/02/2022
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-  - "intro-internal"
+ms.collection: get-started
 ---
 
 # Architecture overview of Dynamics 365 Channel Integration Framework 1.0 
