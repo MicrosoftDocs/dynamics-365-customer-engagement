@@ -36,7 +36,7 @@ You can buy one of the following licenses depending on your organization's needs
 
 ## Buy Dynamics 365 Sales through Microsoft 365
 
-If your organization already has Microsoft 365 subscription, you can buy Dynamics 365 Sales subscription from the [Microsoft 365 admin center](https://admin.microsoft.com).
+If your organization already has Microsoft 365 subscription, you can buy Dynamics 365 Sales subscription from the Microsoft 365 admin center.
 
 1. Browse to the [Microsoft 365 admin center](https://admin.microsoft.com).
 
