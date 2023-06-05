@@ -1,7 +1,7 @@
 ---
 title: New and upcoming features
 description: Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases.
-ms.date: 05/09/2023
+ms.date: 06/02/2023
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -22,6 +22,51 @@ We're excited to announce our newest updates! This article summarizes early acce
 Marketing updates are [pushed to customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
 
 To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=dfa5b83d-9e4c-e811-a956-000d3a1bef07&forumName=Dynamics%20365%20Marketing).
+
+## June 2023 update
+
+General availability features include improved copilot assistance for the query assist segmentation builder, enhancements to the asset and templates libraries, and business unit domain support for emails.
+
+Public preview features include tailoring communications to improve customer engagement.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        |  1.95.2014.0    |
+
+### General availability
+
+- **Create better targeted segments using everyday language that include behavioral interactions with query assist, a copilot feature**
+    - Marketers are now able to quickly build targeted segments using conversational everyday language that includes customer interactions with your marketing messages, websites, events, and other channels. With these updates, you can create complex segments that not only focus on demographic or firmographic data but also marketing behavioral data without requiring deep knowledge of the back-end data model.
+    - [Docs](nl-segment-build.md)
+
+- **Easily tag and update assets and templates with an enhanced experience**
+    - Swiftly manage and customize your assets and templates. Need to rename, tag, or update assets and templates? Now, it's just a matter of a few clicks. Our enhanced design ensures a visually appealing workspace, while the right-side pane provides quick previews of your files. Take control with editable property panes, allowing you to customize assets and templates effortlessly. The new tagging controls simplifies file organization, enabling efficient categorization and effortless searching.
+    - [Docs](upload-images-files.md)
+
+- **Assign specific business units to your authenticated domains**
+    - When modernized business units are turned on, and business unit scoping is enabled, the domain authentication wizard allows users to specify what business unit they want their domain to be authenticated. When a business unit is selected for a domain, this domain is solely available for that business unit unless you want to make it shareable across your organization.
+    - [Docs](domain-authentication.md#domain-authentication-for-modernized-business-units)
+
+### Public preview
+
+- **Tailor communications to the topics customers want to receive**
+    - Improve customer engagement and reduce unsubscriptions by giving customers granular control over the real-time marketing messages they receive. Target your messages to the audience that wants to engage with your content the most by capturing detailed consent.  Allow customers to subscribe to the topics that matter to them while capturing the consent you need to satisfy legal and regulatory requirements. Avoid embarrassing and costly configuration mistakes by leveraging real-time marketing topic support, preventing the complications of maintaining and enforcing lists of subscribed customers, all while taking advantage of enhanced real-time marketing preference centers that better represent your brand.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/tailor-communications-topics-customers-want-receive)
+    - [Docs](real-time-marketing-email-text-consent-preview.md)
+
+### Monthly enhancements
+
+- **Achieve more accurate results in your A/B tests by specifying a control group**
+    - With the new control group features, marketers can now specify how many people to test a message on before releasing the remaining audience to the winning version. This update gives you more control over the testing process and helps ensure accurate results.
+
+### New blogs and scenario docs
+
+Learn how to make the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
+- [Create dynamic content for multiple countries and languages](real-time-marketing-dynamic-content-multiple-languages.md)
+- [Identify and resolve errors with real-time customer care journeys - Scenario docs](real-time-marketing-customer-care-journey.md)
+- [Deliver personalized customer experiences with Copilot in Dynamics 365 Marketing and Customer Insights - Microsoft Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/bdm/2023/03/14/deliver-personalized-customer-experiences-with-copilot-in-dynamics-365-marketing-and-customer-insights/)
 
 ## May 2023 update
 
