@@ -7,9 +7,10 @@ ms.topic: overview
 ms.author: vhorvath
 author: vhorvathms
 ---
+
 # Connected Field Service overview
 
-Connected Field Service is a set of capabilities in Dynamics 365 Field Service that enables organizations to transform the way they provide service with a proactive and predictive service model. Leveraging existing IoT devices, organizations can combineIoT diagnostics, scheduling, asset maintenance, and inventory in a single place.
+Connected Field Service is a set of capabilities in Dynamics 365 Field Service that enables organizations to transform the way they provide service with a proactive and predictive service model. Based on existing IoT devices, organizations can combineIoT diagnostics, scheduling, asset maintenance, and inventory in a single place.
 
 Check out the [video overview of Connected Field Service](https://www.youtube.com/watch?v=iMZpr5wVD_Q).
 
