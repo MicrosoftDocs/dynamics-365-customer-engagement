@@ -334,11 +334,9 @@ items:
     items:
       - name: Connect IoT data overview
         href: cfs-connect-data-overview.md
-      - name: Custom providers
-        items:
-        - name: Use custom IoT providers
-          href: cfs-custom-iot-provider.md
-      - name: Azure IoT Hub
+      - name: Use custom IoT providers
+        href: cfs-custom-iot-provider.md
+      - name: Use Azure IoT Hub
         items:
           - name: Azure subscription prerequisites
             href: cfs-azure-subscription.md

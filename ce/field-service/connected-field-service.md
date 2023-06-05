@@ -1,40 +1,28 @@
 ---
-title: "Connected Field Service - Overview | MicrosoftDocs"
-description: Learn all about Connected Field Service for Dynamics 365 Field Service
-ms.date: 09/30/2019
-
+title: Connected Field Service overview
+description: Transform service with Connected Field Service to diagnose problems, remotely monitor, and dispatch technicians.
+ms.date: 05/06/2023
 ms.subservice: connected-field-service
-
 ms.topic: overview
 ms.author: vhorvath
 author: vhorvathms
 ---
 # Connected Field Service overview
 
-Connected Field Service enables organizations to transform the way they provide service from a costly break-fix model to a proactive and predictive service model through the combination of IoT diagnostics, scheduling, asset maintenance, and inventory on the same platform.
+Connected Field Service is a set of capabilities in Dynamics 365 Field Service that enables organizations to transform the way they provide service with a proactive and predictive service model. Leveraging existing IoT devices, organizations can combineIoT diagnostics, scheduling, asset maintenance, and inventory in a single place.
 
->[!Note]
-> To see a video overview of Connected Field Service, [you can watch one here](https://www.youtube.com/watch?v=iMZpr5wVD_Q).
+Check out the [video overview of Connected Field Service](https://www.youtube.com/watch?v=iMZpr5wVD_Q).
 
 Key benefits of Connected Field Service:
 
-- Reduce downtime by connecting to IoT devices to diagnose problems before customers are aware of an issue
-- Address issues faster by remotely monitoring devices and keeping customers in the loop
-- Device data and service maintenance data help to make intelligent decisions around dispatching technicians with the right expertise, availability, and proximity to the job 
+- Connect to IoT devices to diagnose problems before they affect productivity.
+- Address issues faster by remotely monitoring and troubleshooting devices.
+- Make smart decisions around dispatching technicians with the right expertise, availability, and proximity to the job.
 
-There are two ways you can use to connect IoT-enabled devices into the Field Service solution:
+There are two ways to connect IoT-enabled devices with Field Service:
 
-- Connected Field Service for [**Azure IoT Hub**](https://azure.microsoft.com/services/iot-hub/)
-- Connected Field Service for non-Azure IoT providers using the extensible IoT provider framework
-
-## Connected Field Service for Azure IoT Hub
-
-Connected Field Service for Azure IoT Hub is an add-on solution that brings Azure IoT platform-as-a-service (PaaS) offering into Dynamics365 for Field Service. With this offering, you can run a deployment app to put all the Azure IoT services and Dynamics puzzles together.
-
-All Azure IoT services run in your own Azure cloud subscription. Additionally, we provide an enterprise-ready template that you can customize for each Azure IoT service.
-
-> [!Note]
-> Currently, the Connected Field Service implementation with IoT Hub does not support splitting out telemetry data for IoT Edge modules.
+- [Third-party and custom IoT providers, using the extensible IoT provider framework](cfs-custom-iot-provider.md).
+- Connected Field Service for Azure IoT Hub, an add-on solution using Azure IoT platform-as-a-service (PaaS). An [ARM template helps with the the deployment and the initial configuration of all required Azure IoT services](installation-setup-iothub.md) in your organization's subscriptions.
 
 ## Privacy notice
 
