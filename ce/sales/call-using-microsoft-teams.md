@@ -109,6 +109,7 @@ While you're on a call with a customer, you can transfer the call to another col
 
 1. While you're on the call, select **More options** and select **Transfer**.  
     The customer's call will be placed on hold.
+    :::image type="content" source="media/call-transfer-options.png" alt-text="Call transfer options":::
 
 1. Enter the name of the colleague you want to transfer the call to or their phone number.  
 
@@ -127,6 +128,8 @@ While you're on a call with a customer, you can consult a colleague before trans
 
 1. While you're on the call, select **More options** and select **Consult then transfer**.  
     The customer will be placed on hold.
+    :::image type="content" source="media/call-transfer-options.png" alt-text="Call transfer options":::
+
 
 1. Start typing the name of the colleague you want to transfer the call to or a phone number.  
 
