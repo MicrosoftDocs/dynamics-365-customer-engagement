@@ -29,7 +29,7 @@ The following table lists the Markdown formats that you can use for your chat me
 | strikethrough             | ~strikethrough text~                      | ~~strikethrough text~~                 |
 | blockquote                | > blockquote text                        | <blockquote>blockquote text</blockquote>  |
 | header (levels 1&ndash;4) | ### Header3 text                         | **Header 3 text** <br>                  |
-| hyperlink                 | https://www.microsoft.com            | <https://www.microsoft.com>    |
+| hyperlink                 | `https://www.microsoft.com`         | <https://www.microsoft.com>    |
 | hyperlink with text       | [Hyperlink with text]\(https://www.microsoft.com\)  | [Microsoft website](https://www.microsoft.com) |
 | monospace                 | \`\`\` <br>monospace text<br>\`\`\`           | ```monospace text```                     |
 | numbered list             |  \<number\> Item one                 |  <ol><li> Item one </li> <li> Item two</li></ol>  |
