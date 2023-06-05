@@ -24,9 +24,9 @@ The Field Service (Preview) Outlook Add-in requires the add-in to be enabled. Yo
 
 - Global admin or Exchange admin permissions in the Microsoft 365 Admin Center
 
-### Enable the Field Service (Preview) Outlook Add-in
+### Enable the Field Service (Preview) Outlook Add-in (optional)
 
-To use the Field Service (Preview) Outlook capability, enable it as an Outlook Add-in. For more information, see [Install or remove add-ins for Outlook for your Exchange 2013 organization](/exchange/install-or-remove-outlook-add-ins-2013-help).
+To set up the Field Service (Preview) Outlook capability for your organization, enable it as an Outlook Add-in. For more information, see [Install or remove add-ins for Outlook for your Exchange 2013 organization](/exchange/install-or-remove-outlook-add-ins-2013-help). If you choose not to enable the Outlook Add-in for your organization, each user can enable it.
 
 1. Log into the [Microsoft 365 Admin Center](https://admin.microsoft.com/) as a global admin or Exchange admin.
 
@@ -34,11 +34,11 @@ To use the Field Service (Preview) Outlook capability, enable it as an Outlook A
 
 1. Under the **Organization** section, select **Add-ins**.
 
+   :::image type="content" source="media/exchange-admin.png" alt-text="Microsoft Exchange admin center with Add-ins highlighted":::
+
 1. Select **Add from the Office Store** and select the **Field Service (Preview) Outlook Add-in**.
 
 1. Select **Save**.
-
-   If you choose not to enable the Outlook Add-in for your organization, each user can enable it.
 
 ## Set up Field Service (Preview) Teams app
 
@@ -71,11 +71,11 @@ Viva Connections is included as part of Microsoft Teams license. If you do not h
 
 1. Log into Teams as an admin.
 
-1. Under **Apps**, search for and select **Viva Connections**. Then select **Add**.
+1. Under **Apps**, search for and select the Viva Connections app with the name you gave it. Then select **Add**.
 
-1. Open Viva Connections in Teams. Set up the dashboard. Choose between **Frontline workers** and **Information workers**.
+1. Open the Viva Connections app in Teams. Set up the dashboard for **Frontline workers** and **Information workers**.
 
-1. Customize the dashboard with apps based on your organization’s needs.
+1. Customize each dashboard with apps based on your organization’s needs.
 
 ### Create user groups
 
@@ -95,11 +95,11 @@ You can set up the Field Service (Preview) cards to the Viva Connections dashboa
 
 If your organization has a SharePoint home site and wants to use it for Viva Connections or you already have Viva Connections with a home site, see [edit the dashboard and add cards using Viva Connections](/viva/connections/create-dashboard#how-to-edit-the-dashboard-from-sharepoint-when-you-have-a-home-site).
 
-For SharePoint, see the following steps.
+If your organization doesn't have a SharePoint home site and doesn't want one, see the following steps.
 
 1. In the [SharePoint Admin Center](https://go.microsoft.com/fwlink/?linkid=2185219), select **Sites** > **Active Sites**.
 
-1. Find and select the Viva Connection dashboard you created when you set up Viva Connections.
+1. Find and select the Viva Connections app you created when you set up Viva Connections.
 
 1. Select **Settings** and then **Manage Viva Connections**.
 
@@ -133,7 +133,7 @@ The Field Service (Preview) app displays under **Built for your org** in Teams.
 
 ### Assign security roles and field security profiles
 
-Assign Azure Active Directory (AAD) permissions for your frontline managers and frontline workers in Field Service or Power Platform Admin Center. Although this step is optional, we recommend you assign AAD permissions to ensure that adding and removing users is reflected in both Azure Active Directory and Power Platform. For Field Service, see the following steps. For Power Platform Admin Center, see [Assign security roles and field security profiles](../view-user-accounts-security-roles.md#step-2-assign-security-roles-and-field-security-profiles). For more information about users and security roles, see [Set up users and security profiles](../view-user-accounts-security-roles.md).
+Assign Azure Active Directory (AAD) permissions for your frontline managers and frontline workers in Field Service or Power Platform Admin Center. For Field Service, see the following steps. For Power Platform Admin Center, see [Assign security roles and field security profiles](../view-user-accounts-security-roles.md#step-2-assign-security-roles-and-field-security-profiles). For more information about users and security roles, see [Set up users and security profiles](../view-user-accounts-security-roles.md).
 
 1. Go to Field Service **Get Started** page and [set up your frontline workers](../frontline-worker-set-up.md#get-started).
 
@@ -141,7 +141,7 @@ Assign Azure Active Directory (AAD) permissions for your frontline managers and 
 
 ### Sync Azure Active Directory groups and Dataverse security roles
 
-Synchronize your AAD groups to the Dataverse security roles. To automate the process using the Web API, see [Assign a security role to an AAD group team](/power-apps/developer/data-platform/aad-group-team#assign-a-security-role-to-an-aad-group-team).
+Synchronize your AAD groups to the Dataverse security roles. Although this step is optional, we recommend you assign AAD permissions to ensure that adding and removing users is reflected in both Azure Active Directory and Power Platform. To automate the process using the Web API, see [Assign a security role to an AAD group team](/power-apps/developer/data-platform/aad-group-team#assign-a-security-role-to-an-aad-group-team).
 
 1. Log into the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
 
