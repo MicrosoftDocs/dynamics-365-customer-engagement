@@ -3,7 +3,7 @@ title: Markdown formats for agents
 description: Read this article to know about the Markdown formats that agents can use for chat messages in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.date: 01/17/2023
+ms.date: 06/05/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ms.reviewer: nenellim
@@ -24,7 +24,7 @@ The following table lists the Markdown formats that you can use for your chat me
 
 |  Text style               |    You type...                       | The text displays as...  |
 | ------------------------- | -------------------------------      | -----------------------  |
-| bold                      | \*\*bold\*\*                             | **text**                 |
+| bold                      | \*\*bold\*\*   or \*bold*                          | **text**                 |
 | italics                   | \_italics\_                          | *text*                   |
 | strikethrough             | ~strikethrough~                      | ~~text~~                 |
 | blockquote                | > blockquote                         | <blockquote>text</blockquote>  |
