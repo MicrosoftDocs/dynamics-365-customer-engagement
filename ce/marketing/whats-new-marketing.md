@@ -42,7 +42,7 @@ Public preview features include tailoring communications to improve customer eng
     - [Docs](nl-segment-build.md)
 
 - **Easily tag and update assets with an enhanced experience**
-    - Swiftly manage and customize your assets. Need to rename, tag, or update assets and templates? Now, it's just a matter of a few clicks. Our enhanced design ensures a visually appealing workspace, while the right-side pane provides quick previews of your files. Take control with editable property panes, allowing you to customize assets and templates effortlessly. The new tagging controls simplifies file organization, enabling efficient categorization and effortless searching.
+    - Swiftly manage and customize your assets. Need to rename, tag, or update assets? Now, it's just a matter of a few clicks. Our enhanced design ensures a visually appealing workspace, while the right-side pane provides quick previews of your files. Take control with editable property panes, allowing you to customize assets effortlessly. The new tagging controls simplifies file organization, enabling efficient categorization and effortless searching.
     - [Docs](upload-images-files.md)
 
 - **Assign specific business units to your authenticated domains**
