@@ -10,7 +10,7 @@ ms.author: jasonshotts
 
 # Not-to-exceed values on work orders
 
-Setting financial expectations with customers and vendors is critical for managing the company’s bottom line and maintaining successful relationships. The not-to-exceed capability helps service providers stay within the pre-approved price and cost for work orders.
+Setting financial expectations with customers and vendors is critical for managing the company’s bottom line and maintaining successful relationships. The not-to-exceed capability helps service providers stay within the preapproved price and cost for work orders.
 
 Different types of not-to-exceed (NTE) values are available. You can automatically apply them to the work order based on the customer, the incident type, or the location of the work.
 
@@ -21,6 +21,10 @@ Different types of not-to-exceed (NTE) values are available. You can automatical
 Service managers and frontline workers can optionally receive a warning when the not-to-exceed value is near or exceeds the limit, notifying the user they need to act.
 
 A high-level work order process is outlined below.
+
+
+<!-- Note from editor: There's a typo in "technician" in the image below. It's in the box that says "Technican Dispatched & Performs Diagnosis" -->
+
 
 :::image type="content" source="media/NTE-flow-chart.png" alt-text="Flow chart of a work order process with cost considerations.":::
 
@@ -80,7 +84,7 @@ NTEs match on the service account first. All other fields have equal priority. I
 
 NTE values are listed on [work orders](field-service-architecture.md) if the configuration of an NTE record matches a property of a work order. For example, if a work order maps to an incident type or a functional location for which an NTE value is configured.
 
-NTE values on work order are read-only and they'll show a warning when the actual cost or price approaches the defined NTE value or surpasses them. However, you can still update and save work order as usual if the warnings are shown.
+NTE values on work orders are read-only and they'll show a warning when the actual cost or price approaches the defined NTE value or surpasses them. However, you can still update and save a work order as usual if the warnings are shown.
 
 ### View NTE values
 
@@ -92,7 +96,7 @@ NTE values on work order are read-only and they'll show a warning when the actua
 
 ## Not-to-exceed on Field Service mobile
 
-Technicians that use the Field Service Mobile app can see the not-to-exceed value on the work order. The system shows warning icons to users when they get close to the specified NTE value or if they surpass it.
+Technicians who use the Field Service Mobile app can see the not-to-exceed value on the work order. The system shows warning icons to users when they get close to the specified NTE value or if they surpass it.
 
 However, you can still save work orders when ignoring the warning.
 
