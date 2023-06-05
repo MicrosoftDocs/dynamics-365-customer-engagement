@@ -63,8 +63,7 @@ Additionally, you must grant the following permissions to your users:
     >     `Example: https://contoso.crm.dynamics.com/main.aspx?pagetype=control&controlName=MscrmControls.TeamsDialerSettings.DialerSettingsHostControl`  
     >     Alternatively, you can add the configuration page to your Sales Professional app's sitemap by [adding a subarea](/power-apps/maker/model-driven-apps/create-site-map-app#add-a-subarea-to-a-group-in-the-site-map).
 
-    > [!div class="mx-imgBorder"]
-    > ![Microsoft Teams calls configuration page.](media/teams-dialer-configuration-page.svg "Microsoft Teams calls configuration page")  
+    :::image type="content" source="media/teams-dialer-configuration-page.svg" alt-text="Microsoft Teams calls configuration page" lightbox="media/teams-dialer-configuration-page.svg":::
 
 3. Turn on **Teams calls**.  
     
