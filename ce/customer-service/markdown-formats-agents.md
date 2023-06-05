@@ -24,22 +24,22 @@ The following table lists the Markdown formats that you can use for your chat me
 
 |  Text style               |    You type...                       | The text displays as...  |
 | ------------------------- | -------------------------------      | -----------------------  |
-| bold                      | \*\*bold\*\*   or \*bold*                          | **text**                 |
-| italics                   | \_italics\_                          | *text*                   |
-| strikethrough             | ~strikethrough~                      | ~~text~~                 |
-| blockquote                | > blockquote                         | <blockquote>text</blockquote>  |
-| header (levels 1&ndash;4) | ### header3                          | **Text** <br>                  |
+| bold                      | \*\*bold text\*\*   or \*bold text*                          | **bold text**                 |
+| italics                   | \_italic text\_                          | *italic text*                   |
+| strikethrough             | ~strikethrough text~                      | ~~strikethrough text~~                 |
+| blockquote                | > blockquote text                        | <blockquote>blockquote text</blockquote>  |
+| header (levels 1&ndash;4) | ### Header3 text                         | **Header 3 text** <br>                  |
 | hyperlink                 | https://www.microsoft.com            | <https://www.microsoft.com>    |
-| hyperlink with text       | [text]\(https://www.microsoft.com\)  | [Microsoft website](https://www.microsoft.com) |
-| monospace                 | \`\`\` <br> text<br>\`\`\`           | ```text```                     |
-| numbered list             |  \<number\> item one                 |  <ol><li> item one </li> <li> item two</li></ol>  |
-| unordered list            | \* item one <br> or <br> - item one  |  \* item one <br> \* item two  |
+| hyperlink with text       | [Hyperlink with text]\(https://www.microsoft.com\)  | [Microsoft website](https://www.microsoft.com) |
+| monospace                 | \`\`\` <br>monospace text<br>\`\`\`           | ```monospace text```                     |
+| numbered list             |  \<number\> Item one                 |  <ol><li> Item one </li> <li> Item two</li></ol>  |
+| unordered list            | \* Item one <br> or <br> - Item one  |  \* Item one <br> \* Item two  |
 | new line                | Paragraph 1 \<br\> Paragraph 2 \<\/br\>  | Paragraph 1 <br> Paragraph 2 </br>            |
 
-> [!Note]
+> [!NOTE]
 > Currently, we don't support the **<Shift + Enter>** key combination to add multiple line breaks.
 
-Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, Facebook, Telegram, and custom channels that use Direct Line. 
+Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, Facebook, Telegram, and custom channels that use Direct Line.
 
 ## Next steps
 
