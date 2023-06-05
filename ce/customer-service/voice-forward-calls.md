@@ -19,8 +19,8 @@ Perform the steps in [Set up auto attendants](/microsoftteams/create-a-phone-sys
 
 When you forward a Teams call, the digital contact center agent sees the caller number from which the customer has called the Teams number. The application also identifies the customer if their contact details are saved in Dynamics 365.
 
-Call forwarding supports in following scenarios:
-- [**Calls to Teams user numbers**](/microsoftteams/user-call-settings#use-the-teams-admin-center)
+Call forwarding is supported in the following scenarios:
+- [**Calls to Teams user numbers**](/microsoftteams/user-call-settings#use-the-teams-admin-center).
 - [**Calls to auto attendants**](/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details): Calls can also be forwarded directly to the digital contact center number without the auto attendant flow.
 - [**Calls in call queues**](/microsoftteams/create-a-phone-system-call-queue):
     - To forward the calls in the call queues, enable the following settings in Microsoft Teams admin center.
