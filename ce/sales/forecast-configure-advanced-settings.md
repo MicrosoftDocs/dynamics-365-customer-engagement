@@ -10,16 +10,7 @@ ms.reviewer: shujoshi
 
 # Configure advanced settings for forecasts
 
-When you're configuring forecasts in Sales Hub, use the **Advanced** step to:
-
-- [Automatically hide parent row](#automatically-hide-parent-row)
-- [Turn on multi-currency selection](#turn-on-multi-currency-selection)
-- [Set Kanban as the default view for underlying records (preview)](#set-kanban-as-the-default-view-for-underlying-records-preview)
-- [View prediction factors](#view-prediction-factors)
-- [Select the default attribute to group underlying records (preview)](#select-the-default-attribute-to-group-underlying-records-preview)
-- [Override column headers (preview)](#override-column-headers-preview)
-- [Customize underlying records grid](#customize-underlying-records-grid)
-
+Use the **Advanced** step of the forecast configuration to customize the forecast. You can enable features, such as multi-currency selection and Kanban view. You can also override column headers and customize the underlying records grid by using javascript. 
 
 ## License and role requirements
 
