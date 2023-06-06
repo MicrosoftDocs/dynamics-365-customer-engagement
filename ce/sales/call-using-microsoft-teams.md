@@ -125,7 +125,7 @@ You can transfer a customer's call to another colleague's Teams line or their ph
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-While you're on a call with a customer, you can consult a colleague before transferring the call to them. You can also just consult the colleague and answer the customer directly without really transferring the call.
+You can consult a colleague before transferring a customer's call to them. You can also just consult the colleague and answer the customer directly without really transferring the call.
 
 1. While you're on the call, select **More options** and select **Consult then transfer (preview)**.  
 
