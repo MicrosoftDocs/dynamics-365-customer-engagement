@@ -57,6 +57,12 @@ You can enable the Copilot features for custom apps in your organization. Perfor
 1. In [Power Apps](https://make.powerapps.com/), add the **Customer Service Copilot Enabled** setting definition. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition).
 1. In the **Edit Customer Service Copilot Enabled** pane, in set the **Setting app values** section, for a required app, set the  **New app value** to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
 
+## Add additional fields to case summary
+
+When you enable Copilot case summary, agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description. You can customize the case summary to display additional information. Perform the following steps to add additional fields:
+
+1. 
+
 ### Next steps
 
 [Use Copilot to solve customer issues (preview)](use-copilot-features.md)
