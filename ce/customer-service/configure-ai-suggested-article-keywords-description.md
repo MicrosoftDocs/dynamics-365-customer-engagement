@@ -15,8 +15,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure AI suggestions for article keywords and description
 
-## Introduction
-
 Correct metadata helps to locate articles that users search for. When authors create or update knowledge articles, AI suggestions for article keywords and descriptions can help them select the right metadata, thereby improving their productivity.
 
 The key highlights of the AI suggestions feature are as follows:

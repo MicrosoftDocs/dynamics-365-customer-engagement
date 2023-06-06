@@ -3,17 +3,18 @@
 When a new version of Universal Resource Scheduling releases, it becomes available in different geographic regions at different times. Use the table below to see estimates for when the next release will become available in the region of your environment.
 
 For information about other updates to Universal Resource Scheduling, visit the Field Service section of the [Dynamics 365 release plans](/dynamics365/release-plans/).
+For information about older versions, see [Version history archive](../../field-service/version-history-archive.md#universal-resource-scheduling).
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [3.12.106.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121067)  | TBD | 06/16/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[3.12.105.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210525)  | [3.12.106.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121067)  | 06/02/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[3.12.106.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121067)  | TBD | 06/23/2023 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.105.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210525)  | [3.12.106.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121067)  | 06/09/2023 |
-| | *USG* |[3.12.105.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210525)  | [3.12.106.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121067)  | 06/02/2023 |
-|**Station 4** |*Europe* |[3.12.104.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210414)  | [3.12.105.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210525) | 06/02/2023 |
+| | *USG* |[3.12.106.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121067)  | TBD | 06/23/2023 |
+|**Station 4** |*Europe* |[3.12.105.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210525)  | [3.12.106.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121067)  | 06/16/2023 |
 |**Station 5** |  *North America*|[3.12.104.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210414)  | [3.12.105.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210525) | 06/09/2023 |
 |**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.104.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210414)  | [3.12.105.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210525) | 06/09/2023 |
-| | *Dedicated Scale Groups* |[3.12.103.21](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210321)  | [3.12.104.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210414) | 06/02/2023 |
+| | *Dedicated Scale Groups* |[3.12.104.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210414)  | [3.12.105.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210525) | 06/16/2023 |
 
 
 >[!NOTE]

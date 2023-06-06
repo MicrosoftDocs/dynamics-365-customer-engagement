@@ -14,17 +14,18 @@ ms.author: jasonshotts
 When a new version of Dynamics 365 Field Service releases, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](/dynamics365/release-plans/).
+For information about older versions, see [Version history archive](version-history-archive.md#field-service).
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.93.28](/dynamics365/field-service/version-history#889328)  | TBD | 06/16/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.92.27](/dynamics365/field-service/version-history#889227)  | [8.8.93.28](/dynamics365/field-service/version-history#889328) | 06/02/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.93.28](/dynamics365/field-service/version-history#889328)  | TBD | 06/23/2023 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.92.27](/dynamics365/field-service/version-history#889227)  | [8.8.93.28](/dynamics365/field-service/version-history#889328) | 06/09/2023 |
-| | *USG* |  [8.8.92.27](/dynamics365/field-service/version-history#889227)  | [8.8.93.28](/dynamics365/field-service/version-history#889328) | 06/02/2023 |
-|**Station 4** |*Europe* |[8.8.91.36](/dynamics365/field-service/version-history#889136)  | [8.8.92.27](/dynamics365/field-service/version-history#889227) | 06/02/2023 |
-|**Station 5** |  *North America*|[8.8.91.36](/dynamics365/field-service/version-history#889136)  | [8.8.92.27](/dynamics365/field-service/version-history#889227) | 06/09/2023 |
+| | *USG* |  [8.8.93.28](/dynamics365/field-service/version-history#889328)  | TBD | 06/23/2023 |
+|**Station 4** |*Europe* |[8.8.92.27](/dynamics365/field-service/version-history#889227)  | [8.8.93.28](/dynamics365/field-service/version-history#889328) | 06/16/2023 |
+|**Station 5** | *North America*|[8.8.91.36](/dynamics365/field-service/version-history#889136)  | [8.8.92.27](/dynamics365/field-service/version-history#889227) | 06/09/2023 |
 |**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.91.36](/dynamics365/field-service/version-history#889136)  | [8.8.92.27](/dynamics365/field-service/version-history#889227) | 06/09/2023 |
-| | *Dedicated Scale Groups* |[8.8.89.38](/dynamics365/field-service/version-history#888938)  | [8.8.91.36](/dynamics365/field-service/version-history#889136) | 06/02/2023 |
+| | *Dedicated Scale Groups* |[8.8.91.36](/dynamics365/field-service/version-history#889136)  | [8.8.92.27](/dynamics365/field-service/version-history#889227) | 06/16/2023 |
 
 >[!NOTE]
 >
