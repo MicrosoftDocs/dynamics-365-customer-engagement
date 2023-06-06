@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: concept 
 ms.collection:
-ms.date: 06/05/2023
+ms.date: 06/06/2023
 ms.custom: bap-template
 ---
 
@@ -22,7 +22,7 @@ ms.custom: bap-template
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-The copilot AI features use the Microsoft Azure OpenAI Service, which is currently available only within the [United States geography](https://dynamics.microsoft.com/availability-reports/georeport). As a result, the copilot AI features are provided to only those customers who have selected the United States as their chosen geography for data processing and storage. However, customers outside of the United States can still use these features by opting in to share relevant data with the Azure OpenAI service in the United States. This opt-in may result in the transfer of relevant data outside of their default geography.
+The copilot AI features use the Microsoft Azure OpenAI Service, which is currently available only within the [United States geography](https://dynamics.microsoft.com/availability-reports/georeport). As a result, the copilot AI features are provided to only those customers who have selected the United States as their chosen geography for data processing and storage. However, customers outside of the United States can still use these features by opting in to share relevant data with the Azure OpenAI Service in the United States. This opt-in may result in the transfer of relevant data outside of their default geography.
 
 :::image type="content" source="media/copilot-data-boundaries-opt-in.png" alt-text="Copilot opt-in to let data movement outside geographical boundaries.":::
 
@@ -41,4 +41,4 @@ Examples of customer data, along with personal data that's shared with Azure Ope
 ### See also
 
 [Region availability of analytics and insights](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights)  
-[Configure Copilot capabilities](configure-copilot-features.md)  
+[Configure copilot capabilities](configure-copilot-features.md)  
