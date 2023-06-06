@@ -68,7 +68,7 @@ When you use the form selector on the **Enhanced full case form** to navigate to
 
 ### Agents see the Enhanced case form when they create a case even if I haven't enabled Enhanced case experience.
 
-If the **Enhanced full case form** has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than that of the default form. More information: [Control access to model-driven app forms](power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order).
+If the **Enhanced full case form** has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than that of the default form. More information: [Control access to model-driven app forms](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order).
 
 ### Why do my existing cases open in the default case form when I've enabled the enhanced case experience?
 
@@ -79,7 +79,7 @@ You must set the **Enhanced full case form** as the default form for your agents
 
 ### Why can't I see few buttons on the command bar of the case form?
 
-You can use the **Command Checker**[https://powerapps.microsoft.com/blog/introducing-command-checker-for-model-app-ribbons/] tool to understand why buttons are hidden.
+You can use the [**Command Checker**](https://powerapps.microsoft.com/blog/introducing-command-checker-for-model-app-ribbons/) tool to understand why buttons are hidden.
 
 ### How can I debug form issues effectively?
 
