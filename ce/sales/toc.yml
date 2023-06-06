@@ -1,16 +1,38 @@
+- name: Dynamics 365 Sales documentation
+  href: index.yml
 - name: Welcome to Dynamics 365 Sales
   href: overview.md
-- name: Dynamics 365 Sales documentation
-  href: help-hub.yml
+- name: Get started
+  items:
+    - name: Learn the basics
+      href: user-guide-learn-basics.md
+    - name: Understand the sales process
+      href: nurture-sales-from-lead-order-sales.md
+    - name: Import data
+      href: import-data.md
+    - name: Export data to Excel
+      href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
+    - name: Search for your data
+      href: /powerapps/user/search?context=/dynamics365/context/sales-context
+    - name: Assign or share records
+      href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
+    - name: Print quote, invoice, or other records
+      href: print-records.md
+    - name: Export sales records to PDF
+      href: create-quote-pdf.md
+    - name: View and manage records in focused view  
+      href: focused-view.md
+    - name: Set focused view as the default view
+      href: set-focused-view-as-default.md
+    - name: Work with views
+      href: work-with-views.md
 - name: What's new or changed
   items:
     - name: What's new or changed in Dynamics 365 sales
       href: whats-new.md
-    - name: March 2023 release
-      href: march-2023-whatsnew.md
-- name: Try, install, and manage
+- name: Try, buy, and install
   items:
-  - name: Sales trial
+  - name: Try
     items:
       - name: Sign up for a free trial
         href: sign-up-for-sales-trial.md
@@ -20,8 +42,12 @@
         href: features-in-trial.md
       - name: Trial FAQs
         href: sales-trial-faq.md
+  - name: Buy
+    href: buy-dynamics-365-sales.md 
   - name: Install and configure
     items:
+    - name: Install and use the Sales apps
+      href: install-overview.md
     - name: System requirements
       href: system-requirements-for-sales-apps.md
     - name: Use the Sales Hub app
@@ -31,10 +57,10 @@
           href: grant-access-saleshub.md
         - name: Sales Hub app versus custom app
           href: saleshub-customapp.md
-    - name: Install and administer Sales Insights features
-      href: intro-admin-guide-sales-insights.md
     - name: Install Sales Professional app
       href: provision-sales-professional-instance.md
+    - name: Use the Sales Team Member App
+      href: sales-team-member.md
     - name: Add sample data
       items:
         - name: Add or remove sample data in Sales Hub
@@ -43,10 +69,12 @@
           href: manage-sample-data.md
         - name: Add or remove sample data in Sales Professional
           href: install-sample-data.md
-    - name: Uninstall Sales Premium Add-ons      
+    - name: Uninstall Sales Premium Add-ons
       href: uninstall-sales-insights.md
     - name: Configure your sales organization
       items:
+        - name: Set up sales basics
+          href: sales-basics-setup.md 
         - name: System Settings - Sales
           href: system-settings-sales-tab.md
         - name: Create business units
@@ -71,6 +99,8 @@
               href: /power-platform/admin/work-fiscal-year-settings?context=/dynamics365/context/sales-context
             - name: Import data
               href: import-data.md
+        - name: Enable and administer Sales Insights features
+          href: intro-admin-guide-sales-insights.md
     - name: Customize your sales app
       items:
         - name: Create and customize a form
@@ -89,30 +119,6 @@
         href: move-sales-enterprise-sales-professional.md
       - name: Upgrade to Sales Premium
         href: upgrade-sales-premium.md
-- name: Learn the basics
-  items:
-    - name: Learn the basics
-      href: user-guide-learn-basics.md
-    - name: Understand the sales process
-      href: nurture-sales-from-lead-order-sales.md
-    - name: Import data
-      href: import-data.md
-    - name: Export data to Excel
-      href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
-    - name: Search for your data
-      href: /powerapps/user/search?context=/dynamics365/context/sales-context
-    - name: Assign or share records
-      href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
-    - name: Print quote, invoice, or other records
-      href: print-records.md
-    - name: Export sales records to PDF
-      href: create-quote-pdf.md
-    - name: View and manage records in focused view  
-      href: focused-view.md
-    - name: Set focused view as the default view
-      href: set-focused-view-as-default.md
-    - name: Work with views
-      href: work-with-views.md
 - name: Administration guide
   items:
     - name: Administration overview
@@ -135,15 +141,15 @@
       items:
         - name: Enable or disable saving of business card image
           href: retain-business-card-image-after-scanning.md
-        - name: Organization charts 
+        - name: Organization charts
           href: organization-charts.md
           items:
             - name: Enable org chart
               href: enable-org-chart.md
         - name: Enable email validation
-          href: enable-email-validation.md         
-        - name: Enable email validation for custom forms 
-          href: enable-email-validation-custom-forms.md           
+          href: enable-email-validation.md
+        - name: Enable email validation for custom forms
+          href: enable-email-validation-custom-forms.md
         - name: Customize the business card scanner control
           href: customize-business-card-scan-control.md
         - name: Integrate LinkedIn Sales Insights
@@ -159,7 +165,7 @@
             - name: Customize the ZoomInfo app
               href: customize-zoominfo-app.md
         - name: Set focused view as the default view
-          href: set-focused-view-as-default.md              
+          href: set-focused-view-as-default.md
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -236,15 +242,17 @@
           href: sample-softphone-integration.md
     - name: Lead management
       items:
+        - name: Lead management overview
+          href: lead-management-overview.md
         - name: Define lead qualification experience
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
           href: enable-duplicate-lead-detection.md
-        - name: Enable duplicate lead detection for custom forms 
+        - name: Enable duplicate lead detection for custom forms
           href: enable-duplicate-detection-custom-forms.md
         - name: Enable email validation
           href: enable-email-validation.md
-        - name: Enable email validation for custom forms 
+        - name: Enable email validation for custom forms
           href: enable-email-validation-custom-forms.md
         - name: Integrate LinkedIn Sales Navigator solutions
           href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
@@ -268,6 +276,8 @@
           href: set-focused-view-as-default.md
     - name: Opportunity management
       items:
+        - name: Opportunity management overview
+          href: opportunity-management-overview.md
         - name: Configure the opportunity pipeline view
           href: opportunity-pipeline-view-for-admins.md
         - name: Enable customization of the Opportunity Close form
@@ -293,7 +303,7 @@
         - name: Add the Kanban control to Opportunity or Activity entities
           href: add-kanban-control.md
         - name: Set focused view as the default view
-          href: set-focused-view-as-default.md          
+          href: set-focused-view-as-default.md
     - name: Product and price list management
       items:
         - name: Set up a product catalog
@@ -465,7 +475,7 @@
             - name: Edit a segment
               href: edit-a-segment.md
             - name: Prioritize segment
-              href: prioritize-segment.md  
+              href: prioritize-segment.md
             - name: Delete or deactivate a segment
               href: delete-deactivate-a-segment.md
         - name: Manage assignment rules
@@ -485,17 +495,17 @@
               href: manage-sales-teams.md
             - name: Manage seller attributes
               href: manage-seller-attributes.md
-            - name: Manage seller availability  
+            - name: Manage seller availability
               href: manage-seller-availability.md
         - name: Engage with customers through text messages
           href: sms-intro.md
           items:
             - name: Configure SMS provider
-              href: configure-sms-provider.md      
+              href: configure-sms-provider.md
             - name: Edit phone numbers
               href: edit-phone-numbers.md
             - name: Add text message option to custom forms
-              href: add-sms-option-custom-forms.md              
+              href: add-sms-option-custom-forms.md
         - name: Manage Campaigns
           href: configure-inapp-marketing.md
     - name: Guided selling
@@ -630,17 +640,17 @@
       items:
         - name: Work with accounts and contacts
           href: accounts-contacts.md
-        - name: Organization charts 
+        - name: Organization charts
           href: organization-charts.md
           items:
           - name: Manage org charts
             href: manage-org-charts.md
           - name: View and understand the org charts
             href: view-understand-org-charts.md
-        - name: View and manage records in focused view  
-          href: focused-view.md         
+        - name: View and manage records in focused view
+          href: focused-view.md
         - name: Work with invalid email addresses
-          href: work-invalid-email-addresses.md            
+          href: work-invalid-email-addresses.md
         - name: Organize contacts in live org charts for accounts
           href: live-org-chart.md
         - name: Use the LinkedIn Sales Insights tab
@@ -700,7 +710,7 @@
       - name: Microsoft Teams calls in Dynamics 365
         items:
         - name: Make and receive Teams calls in Dynamics 365
-          href: call-using-microsoft-teams.md   
+          href: call-using-microsoft-teams.md
       - name: Link Dynamics 365 records to Microsoft Teams channels
         items:
         - name: Basic vs Enhanced Collaboration Experience
@@ -728,14 +738,15 @@
           items:
             - name: Use auto capture
               href: free-auto-capture.md
-        - name: View message interactions with email engagement
-          href: email-engagement.md
+        - name: Email engagement
           items:
-            - name: Create and send email message 
+            - name: View message interactions
+              href: email-engagement.md
+            - name: Send email messages
               href: create-send-email-message.md
-            - name: Understand email history 
+            - name: Understand email history
               href: understand-email-history.md
-            - name: Configure privacy and preferences 
+            - name: Honor privacy preferences
               href: configure-individuals-privacy-preferences.md
         - name: How notes analysis assists you with suggestion
           href: notes-analysis.md
@@ -749,10 +760,12 @@
           href: /powerapps/user/collaborate-using-sharepoint?context=/dynamics365/context/sales-context
     - name: Lead management
       items:
+        - name: Lead management overview
+          href: lead-management-overview.md
         - name: Create or edit leads
           href: create-edit-lead-sales.md
-        - name: View and manage records in focused view  
-          href: focused-view.md  
+        - name: View and manage records in focused view
+          href: focused-view.md
         - name: Manage duplicate leads
           href: manage-duplicate-leads.md
         - name: Work with invalid email addresses
@@ -778,8 +791,8 @@
               href: add-stakeholder.md
             - name: Move the opportunity through different stages
               href: move-opportunity-stages.md
-        - name: View and manage records in focused view  
-          href: focused-view.md               
+        - name: View and manage records in focused view
+          href: focused-view.md
         - name: Prioritize opportunities using predictive scores
           href: work-predictive-opportunity-scoring.md
         - name: Opportunity pipeline view
@@ -853,7 +866,7 @@
             - name: Customize work list card
               href: customize-work-list-card.md
             - name: Understand the Up next widget
-              href: understand-the-up-next-widget.md 
+              href: understand-the-up-next-widget.md
             - name: Connect with customers through a record
               href: connect-with-customers.md
             - name: Work with LinkedIn activities
@@ -872,9 +885,9 @@
           href: sms-intro.md
           items:
             - name: Personalize text messages through templates
-              href: create-text-message-templates.md      
+              href: create-text-message-templates.md
             - name: Manage text message communications
-              href: manage-text-message-communications.md  
+              href: manage-text-message-communications.md
         - name: Campaign management
           items:
             - name: Get started with in-app marketing
@@ -979,7 +992,7 @@
     - name: Resources for developers
       href: developer/developer-guide.md
     - name: Understand terminology
-      href: /power-apps/developer/data-platform/understand-terminology?context=/dynamics365/context/sales-context  
+      href: /power-apps/developer/data-platform/understand-terminology?context=/dynamics365/context/sales-context
     - name: Sales tables
       items:
         - name: Sales tables (lead, opportunity, competitor, quote, order, invoice)
@@ -1313,5 +1326,3 @@
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)
       href: ../sales-professional/help-hub.md
-    - name: Sales Team Member app for users with Team Member license
-      href: sales-team-member.md

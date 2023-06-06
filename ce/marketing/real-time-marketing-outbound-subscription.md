@@ -18,7 +18,7 @@ search.audienceType:
 This article explains how to use outbound marketing subscription centers in real-time journeys. Outbound subscription centers give you consent management flexibility, enabling you to have multiple subscription centers customized and branded to your needs.
 
 > [!IMPORTANT]
-> You can only use subscription centers in real-time journeys that target contacts. Journeys that target leads or customer profiles will continue to use the default preference center.
+> You can only use subscription centers in real-time journeys that target contacts. Journeys that target leads or customer profiles will continue to use the default preference page.
 
 ## Prerequisites
 

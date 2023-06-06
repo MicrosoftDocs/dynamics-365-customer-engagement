@@ -4,7 +4,7 @@ description: "Index page showing administration, system, user and app configurat
 ms.date: 04/21/2023
 ms.custom: 
   - dyn365-marketing
-  - intro-internal
+ms.collection: get-started
 ms.topic: overview
 author: alfergus
 ms.author: alfergus
