@@ -9,7 +9,7 @@ ms.reviewer: neeranelli
 ms.custom: bap-template
 ---
 
-# FAQs and known issues about case management
+# FAQs about case management
 
 A few answers to common questions about the case management are listed here.
 
