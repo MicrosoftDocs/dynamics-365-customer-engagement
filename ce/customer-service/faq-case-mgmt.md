@@ -18,7 +18,7 @@ A few answers to common questions about the case management are listed here.
 ### How can I create a case when the contact isn't linked to the customer organization?
 
 Out-of-the-box, agents can't create a case because the contact isn't associated with the customer organization. However, you can customize
-case forms and remove the validation and allow unrelated contacts be linked with the case. More information: [Remove validation on contact and customer for cases in Customer Service](remove-validation-contact.md). This allows agents to create cases when a contact belongs to an external organization.
+case forms and remove the validation and allow unrelated contacts be linked with the case. More information: [Remove validation on contact and customer for cases in Customer Service](remove-validation-contact.md).
 
 ### Why can I use only few columns to search in the Case view?
 
@@ -30,27 +30,10 @@ If the role assigned to agents is missing security privileges, permission errors
 
 Principal user (Id= \<GUID>, type=8, roleCount=5, privilegeCount=465, accessMode=0), is missing prvReadincident privilege (Id=\<GUID>) on OTC=112 for entity 'incident'. context.Caller=\<GUID>
 
-To resolve the error, ensure that role assigned to the agent has read access to the case entity. More information, see: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+To resolve the error, ensure that role assigned to the agent has read access to the case entity. More information, see: [Security roles and privileges](/power-platform/admin/security-roles-privileges). You can also refer to the out-of-the-box [Customer Service Representative](role-persona-mapping.md) role before you create custom roles or modify permissions of roles assigned to agents. 
 
 
 ## Case resolution
-
-### when I try to resolve the case, billable time isn't automatically updated on the case resolution dialog 
-
-Billable time is the amount of time the agent spent on the case and can be billed to the customer. The application automatically calculates and displays the **Billable Time** value on the case resolution dialog, only if the **Total Time** field is also available on the dialog. If **Total Time** isn't displayed, agents have to manually add the billable time. More information: [Add or remove fields from the case resolution dialog](modify-case-resolution-dialog.md#add-or-remove-fields-from-the-case-resolution-dialog).
-
-
-### Can I update cases after they're resolved or cancelled?
-
-Yes, you can update the case description or other information after the case has been resolved or cancelled. You must configure and run flows in Power Automate or an API to update the case without having to reopen the case records. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md).
-
-### Why can't I set the Case Status field on a case to Resolved?
-
-A case is resolved only when you select **Resolve case** on the command bar. You can't set the value of the **Case Status** field to **Resolved**. More information: [Resolve a case](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md#resolve-a-case).
-
-### Can I customize the case resolution dialog?
-
-Yes. More information: [Modify the case resolution dialog](modify-case-resolution-dialog.md).
 
 ### I can't see Billable time, Remarks, or Total time fields on the case resolution dialog box.
 
@@ -58,8 +41,33 @@ As part of April 2023 wave, by default, agents see the minimal case resolution d
 
    > [!NOTE]
    > - You can revert to the legacy case resolution dialog only if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Customer Service admin center.
-   > - If **Resolve case dialog**  is set to **Customizable dialog** or **Quick create dialog**, to add **Duration**, **Billable TIme**, **Total Time** and other customizations, perform the steps in [Add or remove fields from the case resolution dialog](modify-case-resolution-dialog.md#add-or-remove-fields-from-the-case-resolution-dialog).
- 
+   > - If **Resolve case dialog**  is set to **Customizable dialog** or **Quick create dialog**, to add **Duration**, **Billable Time**, **Total Time** and other customizations, perform the steps in [Add or remove fields from the case resolution dialog](modify-case-resolution-dialog.md#add-or-remove-fields-from-the-case-resolution-dialog).
+
+
+### Can I update cases after they're resolved or cancelled?
+
+Yes, agents can update the case description or other information after the case has been resolved or cancelled. You must configure and run flows in Power Automate or an API to update the case without having to reopen the case records. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md).
+
+### When I try to resolve the case, billable time isn't automatically updated on the case resolution dialog 
+
+Billable time is the amount of time the agent spent on the case and can be billed to the customer. The application automatically calculates and displays the **Billable Time** value on the case resolution dialog, only if the **Total Time** field is also available on the dialog. If **Total Time** isn't displayed, agents have to manually add the billable time. More information: [Add or remove fields from the case resolution dialog](modify-case-resolution-dialog.md#add-or-remove-fields-from-the-case-resolution-dialog).
+
+### Can I customize the case resolution dialog?
+
+Yes. More information: [Modify the case resolution dialog](modify-case-resolution-dialog.md).
+
+### I can't see the custom value I added to Case resolution type field in the case resolution dialog.
+
+Make sure that you've added the custom value to both the **Case** and **Case Resolution** entity for the custom value to be displayed on the case resolution dialog. More information: [Add custom values to the case resolution dialog](modify-case-resolution-dialog.md).
+
+### Why can't I set the Case Status field on a case to Resolved?
+
+A case is resolved only when you select **Resolve case** on the command bar. You can't set the value of the **Case Status** field to **Resolved**. More information: [Resolve a case](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md#resolve-a-case).
+
+### I see errors when I try to resolve a case.
+
+Agents see errors when they try to resolve a case that has the **Regarding** field configured on the case resolution dialog.  Resolving a case with **Regarding** field on case resolution dialog is not supported.
+
 ## Enhanced case experience
 
 ### I can't switch back to the Enhanced full case form using the form selector when I used it to navigate to another form.
@@ -76,10 +84,11 @@ You must set the **Enhanced full case form** as the default form for your agents
 
 ## Troubleshoot form issues
 
+### I see discrepancies in the number of buttons displayed on the command bar and ribbon issues in my case form
 
-### Why can't I see few buttons on the command bar of the case form?
+If agents see buttons being hidden or extra buttons displayed on the form, you can use the [**Command Checker**](https://powerapps.microsoft.com/blog/introducing-command-checker-for-model-app-ribbons/) tool to troubleshoot the issue and also see what command will run when a button is clicked.
 
-You can use the [**Command Checker**](https://powerapps.microsoft.com/blog/introducing-command-checker-for-model-app-ribbons/) tool to understand why buttons are hidden.
+You can follow the steps in [Troubleshooting ribbon issues in Power Apps](/troubleshoot/power-platform/power-apps/create-and-use-apps/ribbon-issues) to resolve ribbon issues.
 
 ### How can I debug form issues effectively?
 
