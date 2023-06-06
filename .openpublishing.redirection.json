@@ -25142,6 +25142,11 @@
       "source_path": "ce/field-service/connected-field-service-overview.md",
       "redirect_url": "/dynamics365/field-service/connected-field-service",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/updatecontextindex.md",
+      "redirect_url": "/dynamics365/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/updatecontext",
+      "redirect_document_id": "false"
     }
   ]
 }
