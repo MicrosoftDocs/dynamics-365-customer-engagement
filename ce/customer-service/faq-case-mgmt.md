@@ -1,7 +1,7 @@
 ---
-title: FAQ about case management
+title: FAQ on managing cases
 description: Learn about the frequently asked questions (FAQ) on the different features in case management.
-ms.date: 06/07/2023
+ms.date: 06/06/2023
 ms.topic: concept
 author: gandhamm
 ms.author: mgandham
@@ -9,20 +9,19 @@ ms.reviewer: neeranelli
 ms.custom: bap-template
 ---
 
-# FAQs about case management
+# FAQ on managing cases
 
-A few answers to common questions about the case management are listed here.
+A few answers to common questions on the various scenarios in managing cases are listed here.
 
 ## General
 
 ### How can I create a case when the contact isn't linked to the customer organization?
 
-Out-of-the-box, agents can't create a case because the contact isn't associated with the customer organization. However, you can customize
-case forms and remove the validation and allow unrelated contacts be linked with the case. More information: [Remove validation on contact and customer for cases in Customer Service](remove-validation-contact.md).
+Out of the box, agents can't create a case because the contact isn't associated with the customer organization. However, you can [customize case forms and remove the validation on contact](remove-validation-contact.md) and allow unrelated contacts be linked with the case. 
 
 ### Why can I use only few columns to search in the Case view?
 
- You need to make sure that the quick find search is configured for the required search parameters. More information: [Use quick find search](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
+ To search on columns of your choice, make sure that the quick find search is configured for the required search parameters. More information: [Use quick find search](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
 
 ### Agents get permission errors when they try to access, create, delete, or update a case.
 
@@ -33,7 +32,7 @@ Principal user (Id= \<GUID>, type=8, roleCount=5, privilegeCount=465, accessMode
 To resolve the error, ensure that role assigned to the agent has read access to the case entity. More information, see: [Security roles and privileges](/power-platform/admin/security-roles-privileges). You can also refer to the out-of-the-box Customer Service Representative role before you create custom roles or modify permissions of roles assigned to agents. More information: [Roles and personas](role-persona-mapping.md)
 
 
-## Case resolution
+## FAQ on resolving cases
 
 ### I can't see Billable time, Remarks, or Total time fields on the case resolution dialog box.
 
@@ -44,9 +43,9 @@ As part of April 2023 wave, by default, agents see the minimal case resolution d
    > - If **Resolve case dialog**  is set to **Customizable dialog** or **Quick create dialog**, to add **Duration**, **Billable Time**, **Total Time** and other customizations, perform the steps in [Add or remove fields from the case resolution dialog](modify-case-resolution-dialog.md#add-or-remove-fields-from-the-case-resolution-dialog).
 
 
-### Can I update cases after they're resolved or cancelled?
+### Can I update cases after they're resolved or canceled?
 
-Yes, agents can update the case description or other information after the case has been resolved or cancelled. You must configure and run flows in Power Automate or an API to update the case without having to reopen the case records. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md).
+Yes, agents can update the case description or other information after the case has been resolved or canceled. You must configure and run flows in Power Automate or an API to update the case without having to reopen the case records. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md).
 
 ### When I try to resolve the case, billable time isn't automatically updated on the case resolution dialog 
 
@@ -66,13 +65,13 @@ A case is resolved only when you select **Resolve case** on the command bar. You
 
 ### I see errors when I try to resolve a case.
 
-Agents see errors when they try to resolve a case that has the **Regarding** field configured on the case resolution dialog.  Resolving a case with **Regarding** field on case resolution dialog is not supported.
+Agents see errors when they try to resolve a case that has the **Regarding** field configured on the case resolution dialog.  Resolve a case isn't supported if **Regarding** is configured in **Case resolution dialog**.
 
 ## Enhanced case experience
 
-### I can't switch back to the Enhanced full case form using the form selector when I used it to navigate to another form.
+### I used the form selector on the Enhanced full case form to navigate to another form, but can't go back to the enhanced form.
 
-When you use the form selector on the **Enhanced full case form** to navigate to another form, and you want to switch back, the **Enhanced full case form** option isn't available because the **ShowInFormSelector** option in Enhanced full case form is set to **False**, by default. Set **ShowInFormSelector** to **True**, to see the **Enhanced full case form** option in the form selector. 
+The **ShowInFormSelector** option in Enhanced full case form is set to **False**, by default.  Set **ShowInFormSelector** to **True**, to see the **Enhanced full case form** option in the form selector and navigate back to it.
 
 ### Agents see the Enhanced case form when they create a case even if I haven't enabled Enhanced case experience.
 
@@ -82,7 +81,7 @@ If the **Enhanced full case form** has a higher form order than the default case
 
 You must set the **Enhanced full case form** as the default form for your agents to see the enhanced full case form when they open an existing case. More information: [Control access to model-driven app forms](/power-apps/maker/model-driven-apps/control-access-forms).
 
-## Troubleshoot form issues
+## Resolve form issues
 
 ### I see discrepancies in the number of buttons displayed on the command bar and ribbon issues in my case form
 
@@ -90,6 +89,6 @@ If agents see buttons being hidden or extra buttons displayed on the form, you c
 
 You can follow the steps in [Troubleshooting ribbon issues in Power Apps](/troubleshoot/power-platform/power-apps/create-and-use-apps/ribbon-issues) to resolve ribbon issues.
 
-### How can I debug form issues effectively?
+### How can I identify and resolve form issues effectively?
 
 Form issues occur because of business rules, JavaScript, form events, or client API that administrators and makers have set. Monitor is a tool that can help you debug and diagnose problems, and can also help identify whether the issue experienced is designed out-of-the-box or due to a customization. More information: [Use Monitor to troubleshoot model-driven app form behavior](/power-apps/maker/model-driven-apps/monitor-form-checker).
