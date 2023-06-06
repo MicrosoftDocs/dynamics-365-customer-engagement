@@ -12,19 +12,11 @@ ms.author: vhorvath
 author: vhorvathms
 ---
 
-# Extensible IoT data sources for Connected Field Service
+# IoT provider for custom IoT solutions
 
-The IoT providers feature in Connected Field Service allows different IoT vendors to seamlessly integrate their device capabilities within the Dynamics 365 Field Service experience. For example, IoT alerts can appear in the same list, regardless of where the alerts originated. When you select the **Pull Device Data** button on an IoT device record, Connected Field Service looks up the provider of the device and routes the command appropriately to the corresponding IoT system. This action allows users to interact with IoT devices in a consistent way, regardless of the underlying provider.
+Dynamics 365 Field Service allows seamless integration with IoT-enabled devices from any IoT vendor through the *IoT provider* feature. The IoT provider allows the integration of IoT alerts from various vendors into a unified list, regardless of their origin. When interacting with an IoT device, Field Service identifies the device's provider and routes the command to the corresponding IoT system.
 
-By default, Connected Field Service uses IoT providers to integrate with Azure IoT Hub. Now this feature is available for developers and independent software vendors (ISVs) to build their own IoT provider model, integrating any IoT provider with Connected Field Service. ISVs can also publish their custom IoT provider as a solution in [Microsoft AppSource](https://appsource.microsoft.com/) for easier distribution and usage by customers.
-
-## When to use custom IoT providers
-
-Consider using a custom IoT provider:
-
-- If you're using an IoT system from a vendor that doesn’t use Azure IoT.
-- When you use multiple Azure IoT Hub instances connected to a common Connected Field Service organization.
-- If you have multiple IoT vendors that you need to manage in a single Connected Field Service organization. For example, your organization’s HVAC alerts and devices might be handled by Azure IoT, while your organization’s security alerts might be handled by a different IoT system. While the alerts from both systems come into the same instance, Connected Field Service can route the actions to the appropriate system based on the configured providers.
+In Field Service, the [out-of-box deployment experience integrates with Azure IoT Hub](installation-setup-iothub.md). However, custom IoT providers let developers, partners, and independent software vendors build on this framework to to include their custom IoT solutions.  These custom IoT providers can then be published as solutions in Microsoft AppSource for easier distribution and usage by customers. 
 
 ## Prerequisites
 
