@@ -27,7 +27,7 @@ Enable the Copilot features for agents to use Copilot to:
 - Respond to questions
 - Compose an email
 - Draft a chat response
-- Summarize a case
+- Summarize a case or conversation
 
 ## Regional availability and supported languages
 
@@ -69,20 +69,28 @@ Perform the following steps to enable the Copilot features:
 
 :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
 
-## Enable summarization of cases
+## Enable summarization of cases and conversations
 
-Copilot case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description.
+The following summary features are available in Copilot:
+
+- Case summaries allows agents to understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description.
+- Conversation summaries enable agents to collaborate effectively with other agents and contacts,by enabling agents to easily recap an ongoing chat or a transcribed voice conversation. 
 
 > [!IMPORTANT]
 > You must select **Make Copilot available to agents** in **Copilot help pane (preview)**  for Copilot case summaries to be available.
 
-To allow Copilot to summarize cases, perform the following steps:
+To allow Copilot to summarize cases or conversations, perform the following steps:
 
 1. In Customer Service admin center, use one of the following navigation options: 
     - **Agent Experience** > **Productivity** > **Summaries (preview)**
     - **Operations** > **Insights** > **Summaries (preview)**
 1. Select **Manage**  in **Summaries (preview)**.
 1. Select **Make case summaries available to agents** to display a summary of the case on the Case page. 
+1. For Copilot to automatically trigger a conversation summary, select the following options:
+   - **When an agent joins a conversation**: Generates a summary when a consulting agent joins the conversation.
+   - **When a conversation ends**: Generates a summary when the conversation ends. 
+      - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
+   -  **On demand, by selecting an button to summarize the conversation** : Generates a summary at any point in the conversation, whenever the agent selects the Copilot summarize conversation.
 
 Perform the steps in [display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
 
