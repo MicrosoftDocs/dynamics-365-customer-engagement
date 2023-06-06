@@ -30,7 +30,7 @@ If the role assigned to agents is missing security privileges, permission errors
 
 Principal user (Id= \<GUID>, type=8, roleCount=5, privilegeCount=465, accessMode=0), is missing prvReadincident privilege (Id=\<GUID>) on OTC=112 for entity 'incident'. context.Caller=\<GUID>
 
-To resolve the error, ensure that role assigned to the agent has read access to the case entity. More information, see: [Security roles and privileges](/power-platform/admin/security-roles-privileges). You can also refer to the out-of-the-box [Customer Service Representative](role-persona-mapping.md) role before you create custom roles or modify permissions of roles assigned to agents. 
+To resolve the error, ensure that role assigned to the agent has read access to the case entity. More information, see: [Security roles and privileges](/power-platform/admin/security-roles-privileges). You can also refer to the out-of-the-box Customer Service Representative role before you create custom roles or modify permissions of roles assigned to agents. More information: [Roles and personas](role-persona-mapping.md)
 
 
 ## Case resolution
@@ -58,7 +58,7 @@ Yes. More information: [Modify the case resolution dialog](modify-case-resolutio
 
 ### I can't see the custom value I added to Case resolution type field in the case resolution dialog.
 
-Make sure that you've added the custom value to both the **Case** and **Case Resolution** entity for the custom value to be displayed on the case resolution dialog. More information: [Add custom values to the case resolution dialog](modify-case-resolution-dialog.md).
+Make sure that you've added the custom value to both the **Case** and **Case Resolution** entity for the custom value to be displayed on the case resolution dialog. More information: [Add custom values to the case resolution dialog](modify-case-resolution-dialog.md#add-custom-values-to-the-case-resolution-dialog).
 
 ### Why can't I set the Case Status field on a case to Resolved?
 
