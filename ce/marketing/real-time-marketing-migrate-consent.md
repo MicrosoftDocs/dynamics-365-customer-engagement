@@ -32,7 +32,7 @@ When you install real-time marketing, the real-time marketing consent center (**
 ## Loading consent from contacts
 
 > [!NOTE]
-> The **Load consent** button loads consent information for email addresses that is stored in Contact records in Dynamics 365 Marketing. It's not intended to load consent from other data sources.
+> The **Load consent** button loads consent information for email addresses that are stored in Contact records in Dynamics 365 Marketing and set up in the audience configuration in settings. It's not intended to load consent from other data sources.
 
 To load consent from contacts, an administrator must select **Load consent** from the top ribbon on the **Consent center** page.
 
@@ -54,10 +54,10 @@ Consent loaded from contacts and leads relates to the email set in audience conf
 
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
+>
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements
 
-If you've enabled the "Multi-brand consent and customizable preference centers (preview)" feature switch, you'll have the ability to load consent from both Contacts and Leads. In addition, you are able to specify which compliance profile and purpose to load the consent information into. The same prerequisites apply as outlined above.
+If you've enabled the "Multi-brand consent and customizable preference centers (preview)" feature switch, you'll have the ability to load consent from both Contacts and Leads. In addition, you are able to specify which compliance profile and purpose  or topic to load the consent information into. The same prerequisites apply as outlined above.
 
 > [!div class="mx-imgBorder"]
 > ![Load consent for contacts and leads screenshot.](media/real-time-marketing-load-contact-and-lead-consent.png "Load consent for contacts and leads screenshot")
