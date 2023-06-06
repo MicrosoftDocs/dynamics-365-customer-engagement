@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to #Required; don't change.
 ms.collection: 
-ms.date: 05/30/2023
+ms.date: 06/06/2023
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -17,22 +17,24 @@ This articles describes how you can create a new report that leverages the out-o
 
 ## Prerequisites
 
-Do we have prerequisites?
+- Your administrator must have enabled data model customization. More information: [Enable Power BI data model customization](model-customize-reports.md#enable-power-bi-data-model-customization)
+- You need to have the required [Power BI permissions](model-customize-reports.md#prerequisites).
 
-## Create a new report
+## Create a new report based on Dynamics data
 
 1. Go to Power BI desktop and then go to **File** >**New**.  
 
-1. Select **Get data**, and then select **Microsoft Fabric**, and from the list, select **Power BI dataset** or **Search for Power BI datasets**.
+1. Select **Get data**, and then select **Microsoft Fabric (Preview)**, and from the list, select **Power BI dataset** or **Search for Power BI datasets**.
 
 1. Select the appropriate data set, depending on whether you require historical or real-time metrics. Make sure you select the data model from managed workspaces.
 
     The tables and attributes from the managed data model are now available for you to use in your report in the data panel.
 
+1. Select **Connect**.
 1. After you are done with your edits, select **File** > **Publish**, to publish the new report back to Power BI.  
 
 > [!NOTE]
-> We recommend that you cautiously use hidden out-of-box facts or dimension fields in your custom reports, as these fields might get modified or deleted in future updates.
+> We recommend that you use hidden out-of-box facts or dimension fields in your custom reports cautiously, as these fields might get modified or deleted in future updates.
 
 ## Add Dynamics data to existing reports
  
@@ -144,11 +146,11 @@ If you need to get additional data, both from within Dynamics Customer Service a
 
 1. Open the report you want to edit in Power BI desktop.
 
-    Make sure you use the steps described in [Add Dynamics data to existing reports](#add-dynamics-data-to-existing-reports), to ensure that your report is connected to the dynamics data model. 
+    Make sure you use the steps described in [Add Dynamics data to existing reports](#add-dynamics-data-to-existing-reports), to ensure that your report is connected to the dynamics data model.
 
 1. Select the **Modeling** tab and then select **Make changes to this model**.
 
-    You may be asked to create a local model to bring in additional data sources. This creates a data model within the workspace where the report exists. This local model (for the report) uses DirectQuery to connect to the Dynamics model. As a result, you can leverage metrics from the dynamics model while adding your own.  
+    You may be asked to create a local model to bring in additional data sources. This creates a data model within the workspace where the report exists. This local model (for the report) uses DirectQuery to connect to the Dynamics model. So, you can leverage metrics from the dynamics model while adding your own.  
 
 1. After the local model is created, select **Get data** and the appropriate data source.  
  
@@ -188,10 +190,6 @@ Here's an example, which describes how to filter the out-of-the-box Customer ser
 
 1. Select **Save** and then select **File** **>** **Publish to Power BI**.
  
-## DevOps guidelines when leveraging model customization
-
-To be added with inputs from Power BI team.  
-
 ## Publish reports back to Dynamics 365 Customer Service  
 
 After you have created the new reports, you can enable your Dynamics users to view these reports from the Customer Service workspace. Work with your administrators to ensure the viewers have appropriate access to [view and then embed](configure-customer-service-analytics-insights-csh.md) these reports on Dynamics.  

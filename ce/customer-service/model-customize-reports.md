@@ -79,19 +79,19 @@ Specify the Power BI workspace where the Dynamics data model and reports will be
 
 1. Go to the data model for which you want to select a Power BI workspace.
 
-### [Historical data model customization](#tab/historicaldatamodelcustomization)
+### [Historical data model](#tab/historicaldatamodel)
 
   1. On the **Embedded Power BI extensibility - Historical data model customization** page:
-  1. To use an existing workspace, select the workspace from the dropdown list.
-  1. To create a new workspace, select **Create new workspace**.
+      - To use an existing workspace, select the workspace from the dropdown list.
+      - To create a new workspace, select **Create new workspace**.
   
-       :::image type="content" source="media/workspace-historical.png" alt-text="Select a workspace to configure historical data model customization"::: 
+      :::image type="content" source="media/workspace-historical.png" alt-text="Select a workspace to configure historical data model customization"::: 
 
-### [Real-time data model customization](#tab/realtimedatamodelcustomization)
+### [Real-time data model](#tab/realtimedatamodel)
 
-  1. On the **Embedded Power BI extensibility - Historical data model customization** page:
-  1. To use an existing workspace, select the workspace from the dropdown list.
-  1. To create a new workspace, select **Create new workspace**.
+  1. On the **Embedded Power BI extensibility - Real-time data model customization** page:
+      - To use an existing workspace, select the workspace from the dropdown list.
+      - To create a new workspace, select **Create new workspace**.
   
       :::image type="content" source="media/workspace-realtime.png" alt-text="Select a workspace to configure real-time data model customization":::  
 
@@ -111,8 +111,6 @@ It could take up to 24 hours for the provisioning to complete. You can leave the
 After the report is provisioned, you must provide **Write** permissions for users who will be authoring reports in Power BI and **Read** permissions for supervisors and other consumers of the reports.
 
 You'll need to be a **Workspace Administrator** on both managed and customer workspaces (configured on Step 1) in Power BI to complete this step. By default, the user who starts the provisioning (Step 2) will have the necessary permissions added.
-
-:::image type="content" source="media/dataset_permissions.png" alt-text="Grant permissions for dataset and reports":::
 
 ### Grant access to the Power BI data model
 
@@ -134,24 +132,24 @@ From the lineage view, select **Access**, and provide **Contributor** access to 
 
 After your report authors have created and published the customized reports, you can allow Dynamics users to access these reports from the Customer service workspace.
 
-1. Go to the **Embedded customized report back to Dynamics 365** step.
+1. Select the data model reports.
 
 ### [Historical data model customization](#tab/historicaldatamodelcustomization)
 
-  1. From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
+  - From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
     :::image type="content" source="media/embed-historical.png" alt-text="Select the historical reports you want to view on the site map.":::
 
 ### [Real-time data model customization](#tab/realtimedatamodelcustomization)
 
-  1. From the **Embedded Power BI extensibility - Real-time data model customization** page, go to Step 4.
+  - From the **Embedded Power BI extensibility - Real-time data model customization** page, go to Step 4.
     :::image type="content" source="media/embed-realtime.png" alt-text="Select the real-time reports you want to view on the site map.":::
 
 ---
 
-1. Select **Add report**. The **Add report** dialog appears.
-1. Enter a preferred name in the **Report name** text box.
-1. From the **Select Power BI report** dropdown list, select the Power BI report in the workspace.
-1. Select **Add** and **Save**.
+2. Select **Add report**. The **Add report** dialog appears.
+3. Enter a preferred name in the **Report name** text box.
+4. From the **Select Power BI report** dropdown list, select the Power BI report in the workspace.
+5. Select **Add** and **Save**.
 
 The dropdown list is populated with the reports in the workspace configured on Step 1. The preferred report name will appear for your Dynamics users when they access the reports. You can add a maximum of 40 reports.
 
