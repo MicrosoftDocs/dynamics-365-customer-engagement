@@ -87,7 +87,7 @@ To allow Copilot to summarize cases or conversations, perform the following step
 1. Select **Manage**  in **Summaries (preview)**.
 1. Select **Make case summaries available to agents** to display a summary of the case on the Case page. 
 1. For Copilot to automatically trigger a conversation summary, select the following options:
-   - **When an agent joins a conversation**: Generates a summary when a consulting agent joins the conversation.
+   - **When an agent joins a conversation**: Generates a summary when an agent joins the conversation. This is applicable to transferred conversation or when an agent invites a collaborator to join the conversation.
    - **When a conversation ends**: Generates a summary when the conversation ends. 
       - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
    -  **On demand, by selecting an button to summarize the conversation** : Generates a summary at any point in the conversation, whenever the agent selects the Copilot summarize conversation.

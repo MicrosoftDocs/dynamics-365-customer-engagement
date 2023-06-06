@@ -126,22 +126,21 @@ You can copy the summary, provide feedback, and refresh the summary.
 
 Copilot conversation summaries quickly provide context and relays steps that you've already taken to solve the issue. You can summarize chat and transcribed voice conversations.
 
-### How to get a Copilot case summary
+### How to get a Copilot conversation summary
 
 Based on the triggers enabled by your administrator, the Copilot conversation summary is generated as follows:
 - Automatically when you request a consultation with another agent, transfer the conversation, or end the conversation.
-- You can select the copilot summary icon on the ongoing conversation to generate a summary.
+- When you select  **Summarize conversation** on the ongoing conversation.
 
 You can also perform the following actions:
 
-Copy the summary
-Select **Create case**. The application creates a new case and populates the case description with the summary. This is available only if your administrator has enabled this feature for you.
-Share feedback about the summary.
+- Copy the summary.
+- Select **Create case**. The application creates a new case and populates the case description with the summary. **Create case** is available only if your administrator has enabled this feature for you.
+- Share feedback about the summary.
+- Close the summary card.
 
+:::image type="content" source="media/copilot-conv-summary.png" alt-text="View of the Copilot case summary.":::
 
-:::image type="content" source="media/copilot-case-summary.png" alt-text="View of the Copilot case summary.":::
-
-You can copy the summary, provide feedback, and refresh the summary
 
 ### See also
 
