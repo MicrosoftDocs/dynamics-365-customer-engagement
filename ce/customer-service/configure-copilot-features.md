@@ -71,10 +71,10 @@ Perform the following steps to enable the Copilot features:
 
 ## Enable summarization of cases and conversations
 
-The following summary features are available in Copilot:
+Copilot generated case and conversation summaries enhances agent collaboration and productivity as follows:
 
-- Case summaries allows agents to understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description.
-- Conversation summaries enable agents to collaborate effectively with other agents and contacts,by enabling agents to easily recap an ongoing chat or a transcribed voice conversation. 
+- Case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description.
+- Conversation summaries enable agents to collaborate effectively with other agents and contacts, by enabling agents to easily recap an ongoing chat or a transcribed voice conversation. 
 
 > [!IMPORTANT]
 > You must select **Make Copilot available to agents** in **Copilot help pane (preview)**  for Copilot case summaries to be available.
