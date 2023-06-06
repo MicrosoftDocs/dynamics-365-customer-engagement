@@ -41,8 +41,8 @@ Public preview features include tailoring communications to improve customer eng
     - Marketers are now able to quickly build targeted segments using conversational everyday language that includes customer interactions with your marketing messages, websites, events, and other channels. With these updates, you can create complex segments that not only focus on demographic or firmographic data but also marketing behavioral data without requiring deep knowledge of the back-end data model.
     - [Docs](nl-segment-build.md)
 
-- **Easily tag and update assets and templates with an enhanced experience**
-    - Swiftly manage and customize your assets and templates. Need to rename, tag, or update assets and templates? Now, it's just a matter of a few clicks. Our enhanced design ensures a visually appealing workspace, while the right-side pane provides quick previews of your files. Take control with editable property panes, allowing you to customize assets and templates effortlessly. The new tagging controls simplifies file organization, enabling efficient categorization and effortless searching.
+- **Easily tag and update assets with an enhanced experience**
+    - Swiftly manage and customize your assets. Need to rename, tag, or update assets? Now, it's just a matter of a few clicks. Our enhanced design ensures a visually appealing workspace, while the right-side pane provides quick previews of your files. Take control with editable property panes, allowing you to customize assets effortlessly. The new tagging controls simplifies file organization, enabling efficient categorization and effortless searching.
     - [Docs](upload-images-files.md)
 
 - **Assign specific business units to your authenticated domains**
