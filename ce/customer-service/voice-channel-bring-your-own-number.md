@@ -26,11 +26,6 @@ Azure Communication Services direct routing enables you to connect your existing
   - [Connect the SBC to Azure Communication Services](/azure/communication-services/concepts/telephony/direct-routing-provisioning).
   - Ensure that the phone number of your Dynamics 365 organization is encoded in E.164 format so that the calls can be forwarded by your SBC.
   - Deploy the SBC and DNS server in the same region. Azure Communication Services hosts group calls in the region where the DNS server is deployed. If the SBC and DNS server are in different regions, users can experience a delay. Ensure that your DNS server is not delegated to a sub domain.
--	For Teams and Azure Communication Services direct routing, you may use the same port number, but you must use a different Fully Qualified Domain Name (FQDN).
-- To avoid call timeout, ensure that the following settings for Secure Real-Time Protocol (SRTP) are enabled:
-  - Reset SRTP Upon Re-key = Disable
-  - Generate SRTP Keys = Only if Required
-- Ensure that you have sufficient transcoding licenses if your service provider and Azure communication services don't support the same codec.
 
 ## Bring your own phone number via direct routing
 
@@ -62,6 +57,14 @@ Azure Communication Services direct routing enables you to connect your existing
 4. Select **Add number**.
 
 The new phone number will be displayed in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-inbound-calling.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
+
+## SBC best practices
+
+-	For Teams and Azure Communication Services direct routing, you may use the same port number, but you must use a different Fully Qualified Domain Name (FQDN).
+- To avoid call timeout, ensure that the following settings for Secure Real-time Transport Protocol (SRTP) are enabled:
+  - Reset SRTP Upon Re-key = Disable
+  - Generate SRTP Keys = Only if Required
+- Ensure that you have sufficient transcoding licenses if your service provider and Azure communication services don't support the same codec.
 
   
 ### See also
