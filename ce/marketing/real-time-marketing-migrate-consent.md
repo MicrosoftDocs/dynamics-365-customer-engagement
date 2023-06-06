@@ -1,7 +1,7 @@
 ---
 title: Migrate consent records to real-time marketing
 description: Learn how to migrate existing consent records to real-time marketing from outbound marketing and other sources.
-ms.date: 05/08/2023
+ms.date: 06/06/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
@@ -56,6 +56,9 @@ Consent loaded from contacts and leads relates to the email set in audience conf
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
 >
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements
+
+> [!IMPORTANT]
+> If you segregate data across business units, you need to load consent from your sources (Contacts, Leads, and/or subscription lists) into each business unit's compliance profile(s) individually. This will ensure that valid consent records are created for each business unit and compliance profile combination.
 
 If you've enabled the "Multi-brand consent and customizable preference centers (preview)" feature switch, you'll have the ability to load consent from both Contacts and Leads. In addition, you are able to specify which compliance profile and purpose  or topic to load the consent information into. The same prerequisites apply as outlined above.
 
