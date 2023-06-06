@@ -3964,11 +3964,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/field-service/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/field-service/overview",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/gamification/index.md",
       "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
       "redirect_document_id": "false"
