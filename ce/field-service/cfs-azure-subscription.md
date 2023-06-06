@@ -1,11 +1,12 @@
 ---
-title: "Microsoft Azure subscription prerequisites for Connected Field Service with IoT Hub | MicrosoftDocs"
-description: Learn about Microsoft Azure subscription prerequisites for Connected Field Service with IoT Hub
-ms.date: 05/16/2023
+title: Azure subscription prerequisites for Connected Field Service with IoT Hub
+description: Deploy Connected Field Service with Azure IoT Hub by reviewing prerequisites and assigning necessary Azure security roles.
+ms.date: 06/06/2023
 ms.subservice: connected-field-service
-ms.topic: article
+ms.topic: conceptual
 ms.author: vhorvath
 author: vhorvathms
+ms.custom: bap-template
 ---
 
 
@@ -19,19 +20,23 @@ Before an administrator deploys Connected Field Service with Azure IoT Hub, revi
 
 1. In order to deploy and administer IoT Hub, you need one of the following Azure security roles:
 
-- Owner
-- One of the following administrator roles:
-  - Co-administrator
-  - Service administrator
-  - Account administrator
+    - Owner
+    - Co-administrator
+    - Service administrator
+    - Account administrator
 
-1. You'll only see subscriptions that are tied to the primary directory of your sign-in. For example, `david@contoso.com` only sees subscriptions from the contoso.com directory. If `jason@fabrikam.com` invites David into their fabrikam.onmicrosoft.com subscription, David won't be able to use the fabrikam subscription on the deployment app.
+1. You only see subscriptions that are tied to the primary directory of your work or school account. For example, `david@contoso.com` only sees subscriptions from the `contoso.com` directory. If `jason@fabrikam.com` invites David into their `fabrikam.onmicrosoft.com` subscription, David con't use the Fabrikam subscription on the deployment app.
 
-1. Only work or school accounts can be used to deploy Connected Field Service with Azure IoT Hub.
+1. Only work or school accounts can deploy Connected Field Service with Azure IoT Hub.
 
-1. Your user account needs permission to use the Dynamics API within the Azure active directory tenant.
+1. Your user account needs permission to use the `CRM API Management Access` within the Azure Active Directory tenant.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of CRM API access.](./media/cfs-azure-api-management.png)
+
+## Next steps
+
+- [Install and configure Connected Field Service for Azure IoT Hub](installation-setup-iothub.md)
+- [Create IoT Provider for Azure IoT Hub](cfs-provider-iot-hub.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

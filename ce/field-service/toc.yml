@@ -338,10 +338,10 @@ items:
         href: cfs-custom-iot-provider.md
       - name: Use Azure IoT Hub
         items:
-          - name: Azure subscription prerequisites
-            href: cfs-azure-subscription.md
           - name: Components and architecture
             href: connected-field-service-architecture.md
+          - name: Azure subscription prerequisites
+            href: cfs-azure-subscription.md
           - name: Create an IoT provider for IoT Hub
             href: cfs-provider-iot-hub.md
           - name: Install and configure IoT Hub
