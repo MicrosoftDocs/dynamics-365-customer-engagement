@@ -1,11 +1,11 @@
 ---
 title: FAQ about case management
 description: Learn about the frequently asked questions (FAQ) on the different features in case management.
-ms.date: 04/18/2023
+ms.date: 06/07/2023
 ms.topic: concept
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: shujoshi
+ms.reviewer: neeranelli
 ms.custom: bap-template
 ---
 
