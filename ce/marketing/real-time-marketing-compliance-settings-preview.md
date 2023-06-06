@@ -52,6 +52,12 @@ Purpose consent also allows customers to create line-of-business (LOB) separatio
 
 Each organization may need to define separate purposes for each of their LOBs individually – for example, Contoso Northwest may want to manage consent independently from Contoso East. They would create a Commercial Communication Purpose for each LOB so they could manage opt-in / opt-out of Commercial Communication independently for each LOB.
 
+### Topics
+
+Each Purpose can contain Topics to add additional communications types to allow customers to refine their communications preferences. For example, Contoso Northwest may want to add topics such as "Newsletters," "Daily Deals," and "Product Announcements" to the Commercial purpose to allow their customers to decide which specific topics interest them. When creating a message to send, marketers must choose a Purpose and can optionally choose a Topic that has been created. Recipients can then choose to opt-in or out of the topics that interest them.
+
+Messages that have a topic chosen will respect the enforcement model of the parent purpose. For example, if the parent purpose has a Restrictive enforcement model, a contact point must have an opt-in record for both the purpose and the topic associated with the email.
+
 ### Enforcement model
 
 There are three enforcement models for purposes that can be chosen depending on compliance regulations:
@@ -61,11 +67,11 @@ There are three enforcement models for purposes that can be chosen depending on 
 - **Disabled**: The communications for this purpose won't be checked for consent and sent to the entire audience.
 
 > [!NOTE]
-> Currently, all SMS messages are subject to the Restrictive enforcement model even if their designated purpose has a Non-restrictive enforcement model set. This behavior will change in a future release.
+> Currently, all SMS and custom messages are subject to the Restrictive enforcement model even if their designated purpose has a Non-restrictive enforcement model set. This behavior will change in a future release.
 
 ### Preference centers
 
-Each compliance profile has its own preference center. When you create a new compliance profile, a default preference center is created that you can customize with your own branding, along with adding different purposes to collect consent from that compliance profile. The unsubscribe links in emails direct recipients to the preference center from the compliance profile chosen on the email they received.
+Each compliance profile has its own preference center. When you create a new compliance profile, a default preference center is created that you can customize with your own branding, along with adding different purposes and topics to collect consent from that compliance profile. The unsubscribe links in emails direct recipients to the preference center from the compliance profile chosen on the email they received.
 
 To learn more about preference centers, visit [Real-time marketing preference centers](real-time-marketing-preference-centers.md)
 

@@ -908,10 +908,12 @@
       items:
       - name: Configure Copilot in Customer Service
         href: configure-copilot-features.md
-      - name: Configure Copilot settings for custom case forms and custom apps
+      - name: Configure copilot settings for custom case forms and custom apps
         href: copilot-powerapps-settings.md
-      - name: Use Copilot features
+      - name: Use copilot features
         href: use-copilot-features.md
+      - name: Copilot data movement across geographies
+        href: copilot-data-movement.md  
     - name: Administrator experience
       items:
       - name: Productivity pane
