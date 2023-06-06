@@ -124,4 +124,4 @@ You can copy the summary, provide feedback, and refresh the summary.
 
 ### See also
 
-[Manage Copilot features in Customer Service](configure-copilot-features.md)  
+[Manage copilot features in Customer Service](configure-copilot-features.md)  
