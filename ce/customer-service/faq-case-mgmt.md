@@ -64,7 +64,7 @@ As part of April 2023 wave, by default, agents see the minimal case resolution d
 
 ### I can't switch back to the Enhanced full case form using the form selector when I used it to navigate to another form.
 
-When you use the form selector on the **Enhanced full case form** to navigate to another form, when you want to switch back, you can't see the Enhanced full case form option. This is because the **ShowInFormSelector** option in Enhanced full case form is set to **False**, by default. Set **ShowInFormSelector** to **True**, to see the **Enhanced full case form** option in the form selector. 
+When you use the form selector on the **Enhanced full case form** to navigate to another form, and you want to switch back, the **Enhanced full case form** option isn't available because the **ShowInFormSelector** option in Enhanced full case form is set to **False**, by default. Set **ShowInFormSelector** to **True**, to see the **Enhanced full case form** option in the form selector. 
 
  ### Agents see the Enhanced case form when they create a case even if I haven't enabled Enhanced case experience.
 
@@ -72,7 +72,7 @@ If the **Enhanced full case form** has a higher form order than the default case
 
 ### Why do my existing cases open in the default case form when I've enabled the enhanced case experience?
 
-You must set the Enhanced full case form as the default form for your agents to see the enhanced full case form when they open an existing case. More information: [Control access to model-driven app forms](/power-apps/maker/model-driven-apps/control-access-forms).
+You must set the **Enhanced full case form** as the default form for your agents to see the enhanced full case form when they open an existing case. More information: [Control access to model-driven app forms](/power-apps/maker/model-driven-apps/control-access-forms).
 
 ## Troubleshoot form issues
 
