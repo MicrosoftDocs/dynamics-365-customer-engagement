@@ -16,7 +16,7 @@ author: vhorvathms
 
 Dynamics 365 Field Service allows seamless integration with IoT-enabled devices from any IoT vendor through the *IoT provider* feature. The IoT provider allows the integration of IoT alerts from various vendors into a unified list, regardless of their origin. When interacting with an IoT device, Field Service identifies the device's provider and routes the command to the corresponding IoT system.
 
-In Field Service, the [out-of-box deployment experience integrates with Azure IoT Hub](installation-setup-iothub.md). However, custom IoT providers let developers, partners, and independent software vendors build on this framework to to include their custom IoT solutions.  These custom IoT providers can then be published as solutions in Microsoft AppSource for easier distribution and usage by customers. 
+In Field Service, the [out-of-box deployment experience integrates with Azure IoT Hub](installation-setup-iothub.md). However, custom IoT providers let developers, partners, and independent software vendors build on this framework to to include their custom IoT solutions. These custom IoT providers can then be published as solutions in Microsoft AppSource for easier distribution and usage by customers.
 
 ## Prerequisites
 
@@ -26,38 +26,61 @@ In Field Service, the [out-of-box deployment experience integrates with Azure Io
 
 ## Architecture and entity model
 
-The following diagram offers a quick glimpse of the IoT provider entity model and its relationship across various entities in Connected Field Service. Let’s review each of these entities and how they could be used in your custom IoT provider.
+In this article we focus on the integration of IoT solutions.
 
-> [!div class="mx-imgBorder"]
-> ![Diagram showing the architecture and entity model.](./media/custom-iot-entity-model.png)
+There are several methods to integrate external IoT services with Field Service. However, they all must fit the Field Service IoT provider entity model. The following sections discuss the entities in detail.
+
+// Diagram showing the architecture and entity model.
 
 ### IoT provider entity
 
-This new entity is for identifying various IoT providers and their associated actions for various supported actions. The list of supported actions is covered in the following sections in this article.
+This entity identifies the IoT provider and its supported actions.
 
-By default, this entity is not available in sitemap out of the box. It will usually be included as part of a solution installation, but you can also access it through advanced find.
+// Screenshot?
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the I o T Hub provider entity in Dynamics 365.](./media/custom-iot-hub-provider.png)
+Required information:
+
+- **Entity name**
+- **IoT source**
+  - Other
+  - IoT Suite
+  - IoT Central
+- **Action names**. For more information about actions, see [Configure IoT provider actions](cfs-configure-actions.md).
 
 ### IoT provider instance entity
 
-As shown in the diagram, the IoT provider instance is the organization's instance of the provider. For example, if your Connected Field Service organization is connected to two different Azure IoT hub applications, then you’ll have two IoT provider instance records, one for each of your IoT hub applications. You can see the list of IoT provider instances within your Field Service app by going to **Settings** > **IoT** > **Providers**.
+As shown in the diagram, the IoT provider instance is the organization's instance of the provider. For example, if your Connected Field Service organization is connected to two different Azure IoT Hubs, you have two IoT provider instance records, one for each of your IoT Hub instances. You can see the list of IoT provider instances within your Field Service app by going to **Settings** > **IoT** > **Providers**.
 
-You'll find the following fields on the entity:
 
-- **Provider Instance ID**: Indicates the identifier within your source IoT system.
-- **URL**: A URL that could be used in your provider code or the user experience. For example, it could be an API endpoint or a link to the Azure resource group of the deployment.
+// Screenshot?
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an I o T provider instance in Field Service.](./media/custom-iot-provider-instance.png)
+Required information:
+
+- **Provider Instance ID**. Indicates the identifier within your source IoT system.
+- **URL**: A URL that could be used in your provider code or the user experience. For example, an API endpoint or a link to the Azure resource group of the deployment.
 
 ### IoT device
 
-In the IoT device entity included in Connected Field Service, we’ve added the IoT provider instance mapping, so each device can be uniquely associated with a provider instance.
+In the IoT device entity maps each device to an IoT provider instance.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an I o T device screen in Field Service.](./media/custom-iot-device.png)
+// Screenshot
+
+Required information:
+
+- **Name**.
+- **Account**. Customer account in Field Service that the IoT device maps to.
+- **Category**. The device category that the IoT device belongs to.
+- **Time Zone**. The IoT device time zone.
+- **Device ID**. The IoT device ID used to register with the IoT provider.
+- **Simulated**. Used for development and testing purposes.
+- **IoT Provider Instance**. The IoT provider instance that the IoT device is assigned to.
+
+## Connection methods and development tools
+
+
+
+
+----
 
 ### IoT settings
 

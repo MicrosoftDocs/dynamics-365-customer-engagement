@@ -352,7 +352,7 @@ items:
       - name: Register IoT devices
         href: cfs-register-devices.md
       - name: Configure actions
-        href: tbd.md
+        href: cfs-configure-actions.md
       - name: Send commands to IoT devices
         href: cfs-commands.md
       - name: Pull device data
