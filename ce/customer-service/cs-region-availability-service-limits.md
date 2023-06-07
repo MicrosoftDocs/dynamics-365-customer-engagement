@@ -1,7 +1,7 @@
 ---
 title: "Supported regions and languages, and service limits for analytics and insights | MicrosoftDocs"
 description: "Learn about region availability, languages supported, and service limits for analytics and insights."
-ms.date: 06/02/2023
+ms.date: 06/07/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -66,6 +66,7 @@ The following table lists the language availability of the other Customer Servic
 
 | Feature name | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
 | ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |
+| Copilot | ✔ | ✖ | ✖ |✖ | ✖ |✖ | ✖ | ✖ | ✖ | ✖ |
 | Intelligent skill finder for unified routing | ✔ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | Effort estimation model for routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | AI suggestions for cases and knowledge articles | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
