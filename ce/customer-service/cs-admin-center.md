@@ -65,6 +65,9 @@ On the **Home** page, use the **Create your contact center** wizard to set up a 
 
 :::image type="content" source="media/create-contact-center.png" alt-text="Use create contact center to set up a contact center in one click.":::
 
+> [!NOTE]
+> The create your contact center feature is available for new organizations only.
+
 ## Guided channel setup
 
 You can use the guided channel setup wizard to configure channels, such as a channel for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
