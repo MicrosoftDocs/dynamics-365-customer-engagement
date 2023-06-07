@@ -35,7 +35,7 @@ For region availability of Copilot, see [Region availability of analytics and in
 
 For enabling the copilot features outside the United States, see [Copilot data movement across geographies](copilot-data-movement.md).
 
-To know the languages supported in Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
+To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
 ## Prerequisites
 
