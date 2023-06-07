@@ -1,9 +1,11 @@
 ---
-title: "Delete call recordings | MicrosoftDocs"
+title: "Delete call recordings"
 description: "Learn how to delete call recordings in the voice channel in Omnichannel for Customer Service."
 author: venki-ms
 ms.author: v-duddupdiv
+ms.reviewer: nenellim
 ms.date: 06/07/2023
+ms.custom: bap-template
 ms.topic: how-to
 ---
 
@@ -18,3 +20,7 @@ You can delete call recordings that are no longer required. To delete the call r
 Alternatively, you can delete the recordings from the [msdyn_ocrecording](developer/reference/entities/msdyn_ocrecording.md) entity by using the [DELETE](/power-apps/developer/data-platform/webapi/update-delete-entities-using-web-api) request.
 
 You can also delete call recordings in bulk. More information: [Bulk deletion](/power-platform/admin/delete-bulk-records)
+
+### See also
+
+[Configure call recording, transcription, and real-time translation](voice-channel-configure-transcripts.md)
