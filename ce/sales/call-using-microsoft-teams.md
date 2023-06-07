@@ -1,12 +1,12 @@
 ---
-title: "Make and receive Teams calls in Dynamics 365"
-description: "Make and receive Teams calls in Dynamics 365 through the dialer, a record, or a work item."
-ms.date: 02/21/2023
-ms.topic: article
+title: Make and receive Teams calls in Dynamics 365
+description: Make and receive Teams calls in Dynamics 365 through the dialer, from a record or a work item.
+ms.date: 06/07/2023
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.custom: 
-  - dyn365-sales
+ms.custom: bap-template 
+ms.collection:
 ---
 
 # Make and receive Teams calls in Dynamics 365  
@@ -99,7 +99,49 @@ The caller name is automatically displayed when the phone number is associated w
 
 To receive the call, select **Answer**. The Teams telephony panel opens and the call is connected. 
 
-A phone call activity is created and displayed on the timeline of the record. If the phone number is automatically resolved to a record, the **Call From** and **Regarding** fields of the phone call activity are automatically populated. If the received call isn't associated with any record, only a phone call activity is created. To associate the call with a record during the call, select the **Details** tab and then select **Connect a record**. 
+A phone call activity is created and displayed on the timeline of the record. If the phone number is automatically resolved to a record, the **Call From** and **Regarding** fields of the phone call activity are automatically populated. If the received call isn't associated with any record, only a phone call activity is created. To associate the call with a record during the call, select the **Details** tab and then select **Connect a record**.
+
+## Transfer a Teams call (preview)
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+You can transfer a customer's call to another colleague's Teams line or their phone number.
+
+1. While you're on the call, select **More options** and select **Transfer (preview)**.  
+    :::image type="content" source="media/call-transfer-options.png" alt-text="Call transfer options":::
+
+    The customer's call will be placed on hold.
+1. In the dial pad, enter the name of the colleague or their phone number.  
+
+1. (Optional) If you're calling the Teams line of your colleague, select **Ring back if there's no answer** for a safe transfer. Otherwise, the call will be disconnected when it's unanswered. This option is not available when you transfer to a phone number.
+
+1. Do one of the following steps:
+    - Select **Transfer** if the recipient is available.
+    - Select **Cancel** and then **Resume** to go back to the customer if the recipient is unavailable.  
+
+    If you're transferring to a Teams line, the recipient sees the transfer notification with information about you and the customer. After you transfer the call, the call is treated as a new one and any notes or recordings made during the original call are not transferred to the recipient.
+
+## Consult and transfer a Teams call (preview)
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+You can consult a colleague before transferring a customer's call to them. You can also just consult the colleague and answer the customer directly without really transferring the call.
+
+1. While you're on the call, select **More options** and select **Consult then transfer (preview)**.  
+
+    :::image type="content" source="media/call-transfer-options.png" alt-text="Call transfer options":::
+
+    The customer will be placed on hold.
+
+1. Enter the name of the colleague or their phone number.  
+
+1. If the recipient is available, perform the following actions:
+    1. Select **Call**.  
+       The duration of the hold is displayed so that you know how long the customer has been waiting.
+    2. Consult with your colleague. If they're ready to take the call, select **Transfer**.  
+        If you're transferring to a Teams line, the recipient sees the transfer notification with information about you and the customer. After you transfer the call, the call is treated as a new one and any notes or recordings made during the original call are not transferred to the recipient.
+ 
+1. If the recipient is unavailable or you want to answer the customer directly, select **Cancel** and then **Resume** to go back to the customer.  
 
 ## Call analysis
 
