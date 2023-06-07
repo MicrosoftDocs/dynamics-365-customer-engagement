@@ -64,7 +64,7 @@ If you need to create a metric within the existing entities (as described in [Sc
 
 1. Right-click on the entity for which you want to create your new metric.
 
-2. Enter the DAX logic, after selecting the right attributes such as name and data type.
+2. Enter the Data Analysis Expressions (DAX) logic for real-time metrics after selecting the required attributes such as name and data type. For more information on DAX, go to [Data Analysis Expressions (DAX) Reference](https://learn.microsoft.com/en-us/dax/).
 
 3. Save your measure and include it in your visualization as required.
 
@@ -87,50 +87,28 @@ Here's an example, which describes how to create a new service level of 150 seco
 
     ``` 
     Service level (150 seconds) =  
-    
-    DIVIDE ( 
-    
-        SUMX ( 
-    
-            FactConversation, 
-    
-            IF ( 
-    
-                FactConversation[ConversationFirstWaitTimeInSeconds] <= 150 
-    
-                    && FactConversation[IsAgentAccepted] 
-    
-                    && NOT FactConversation[DirectionCode], 
-    
-                1, 
-    
-                0 
-    
-            ) 
-    
-        ), 
-    
-        SUMX ( 
-    
-            FactConversation, 
-    
-            IF ( 
-    
-                FactConversation[IsAgentAccepted] 
-    
-                    && NOT FactConversation[DirectionCode], 
-    
-                1, 
-    
-                0 
-    
-            ) 
-    
-        ), 
-    
-        BLANK () 
-    
-    ) 
+        DIVIDE ( 
+            SUMX ( 
+                FactConversation, 
+                IF ( 
+                    FactConversation[ConversationFirstWaitTimeInSeconds] <= 150 
+                        && FactConversation[IsAgentAccepted] 
+                        && NOT FactConversation[DirectionCode], 
+                    1, 
+                    0 
+                ) 
+            ), 
+          SUMX ( 
+                FactConversation, 
+                IF ( 
+                    FactConversation[IsAgentAccepted] 
+                        && NOT FactConversation[DirectionCode], 
+                    1, 
+                    0 
+                ) 
+            ), 
+            BLANK () 
+        ) 
     
     ```
 
@@ -140,7 +118,7 @@ Here's an example, which describes how to create a new service level of 150 seco
 
 1. Select **Save**, and then select **File > Publish** to Power BI.
 
-### Add new metrics based on data unavailable within the Dynamics 365 customer service dataset
+### Add new metrics based on Dynamics 365 Customer Service dataset and external data
 
 If you need to get additional data, both from within Dynamics Customer Service and outside of it, as described in [Scenario 3 and Scenario 4](datamodel-overview.md#scenario-based-use-cases), perform the following steps:  
 
@@ -150,11 +128,15 @@ If you need to get additional data, both from within Dynamics Customer Service a
 
 1. Select the **Modeling** tab and then select **Make changes to this model**.
 
-    You may be asked to create a local model to bring in additional data sources. This creates a data model within the workspace where the report exists. This local model (for the report) uses DirectQuery to connect to the Dynamics model. So, you can leverage metrics from the dynamics model while adding your own.  
+    You may be asked to create a local model to bring in additional data sources. This creates a data model within the workspace where the report exists. This local model (for the report) uses DirectQuery connection to connect to the Dynamics model, so, you can leverage metrics from the dynamics model while adding your own.  
+
+1. Select **Add a local model**.
+1. On the **Connect to your data** dialog, select **Submit**.
+1. If you need to bring additional attributes from Dynamics, select **Dataverse**. For other applications, use the appropriate source.
+1. On the **Navigator** pane, select the entity and then select **Transform data**.
+1. On the **Connection Settings** dialog, select **DirectQuery** and then select **OK**.
 
 1. After the local model is created, select **Get data** and the appropriate data source.  
- 
-    If you need to bring additional attributes from Dynamics, use the Dataverse connector. For other applications, use the appropriate source.  
 
 1. On the **Modeling** tab, select **Manage relationship**, to create relationships between the new entities that you have added with existing entities.  
 
@@ -172,21 +154,21 @@ Here's an example, which describes how to filter the out-of-the-box Customer ser
 
 1. Download the Customer service historical analytics report with live connection and open it in Power BI.
 
-1. Create the local model by following the steps outlined earlier.
+1. Create the local model by following the steps explained earlier.
 
-1. In the navigator pane, select the appropriate Dynamics Customer Service organization. As the metrics will be based on Dynamics data, Dataverse connector is used.
+1. In the **Navigator** pane, select the appropriate Dynamics Customer Service organization. As the metrics will be based on Dynamics data, Dataverse connector is used.
 
-1. From the list of entities, select the entity (or entities) that you need. Use the system user entity.  
+1. From the list of entities, select the entity (or entities) that you need. Use the **system user** entity.  
  
-1. Use transform data to apply the necessary filters and to remove unwanted columns.
+1. Select **Transform data** to apply the necessary filters and to remove unwanted columns.
 
     As a best practice, make sure you pull only the data that is necessary to ensure optimal performance and refresh rates. You can choose to use **Import** mode or **DirectQuery** mode depending on the your needs. In case of real-time reports, you may choose to use **DirectQuery** as you'll get the latest data every time. To prevent any confusion, this entity can be named as **UserTitle**.
  
-    The new entity UserTitle and the Title attribute are loaded and available for you. To successfully create a relationship between this new entity and existing data, we need the User Id as well.  
+    The new entity **UserTitle** and the **Title** attribute are loaded and available for you. To successfully create a relationship between this new entity and existing data, we need the User Id as well.  
 
 1. Select the **Modeling** tab, and **Manage relationship** to create a new relationship between **DimAgent** entity and  the newly created **UserTitle** entity using the agent Id attribute.  
 
-    You can then add this as a filter to the existing report or can add newer metrics if required based on this attribute.  
+    You can then add this as a filter to the existing report or add newer metrics if required based on this attribute.  
 
 1. Select **Save** and then select **File** **>** **Publish to Power BI**.
  
@@ -196,4 +178,4 @@ After you have created the new reports, you can enable your Dynamics users to vi
 
 ## Next steps
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+[Customize data models of historical and real-time analytics reports](model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)
