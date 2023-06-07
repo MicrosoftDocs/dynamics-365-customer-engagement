@@ -60,7 +60,7 @@ The new phone number will be displayed in the **Phone numbers** list and is read
 
 ## SBC best practices
 
--	For Microsoft Teams and Azure Communication Services direct routing, you may use the same port number, but you must use a different Fully Qualified Domain Name (FQDN).
+-	For Microsoft Teams and Azure Communication Services direct routing, you might use the same port number, but you must use a different fully qualified domain name (FQDN).
 - To avoid call timeout, ensure that the following settings for Secure Real-time Transport Protocol (SRTP) are configured:
   - Reset SRTP Upon Re-key = Disable
   - Generate SRTP Keys = Only if Required
