@@ -87,6 +87,11 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
 
     Adding the Commercial communications and Tracking consent elements creates Contact point consent records for the chosen channels, email, and text. In addition, these fields will update the Contact's Bulk email and Tracking consent values based on the preferences submitted as a part of this form.
 
+    If you have enabled the Multi-brand consent and customizable preference centers (preview) feature switch, you'll be able to add purposes and topics from your compliance profiles onto the form directly to capture consent for any purposes and topics that have been configured.
+
+> [!NOTE]
+> Customers who adopted the Real-time marketing forms preview may need to remove and re-add consent elements to forms created during the preview due to underlying changes with the consent entities. This has no impact on consent captured by preview forms.
+
 1. Now it's time to preview your for to check the responsiveness. To open the form preview, select the **Preview and test** tab. You can select various platforms to check how the form renders on a mobile device or a tablet.
 
     > [!div class="mx-imgBorder"]

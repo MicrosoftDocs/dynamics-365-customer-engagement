@@ -29,7 +29,7 @@ Copilot for Customer Service is an AI-powered tool that revolutionizes the agent
 
 ## Prerequisites
 
-Make sure that your administrator has enabled the Copilot features.
+Make sure that your administrator has enabled the copilot features.
 
 ## Ask a question
 
@@ -124,4 +124,4 @@ You can copy the summary, provide feedback, and refresh the summary.
 
 ### See also
 
-[Manage Copilot features in Customer Service](configure-copilot-features.md)  
+[Manage copilot features in Customer Service](configure-copilot-features.md)  
