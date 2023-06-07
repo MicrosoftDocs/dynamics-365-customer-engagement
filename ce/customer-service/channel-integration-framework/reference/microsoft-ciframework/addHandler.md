@@ -1,7 +1,7 @@
 ---
 title: "addHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Includes reference information such as description, syntax, and parameters for the addHandler method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0. "
-ms.date: 06/01/2023
+ms.date: 06/06/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -29,7 +29,7 @@ ms.custom:
 
 ## Example
 
-The sample code demonstrates setting the addHandler method for the `onModeChanged` event.
+The sample code demonstrates setting the addHandler method for the `onmodechanged` event.
 
 ```JavaScript
 handlerFunction = function(eventData) {
@@ -42,10 +42,10 @@ Microsoft.CIFramework.addHandler("onmodechanged", handlerFunction);
 
 ### See also
 
-[onClickToAct](../events/onclicktoact.md)  
-[onModeChanged](../events/onmodechanged.md)  
-[onSizeChanged](../events/onsizechanged.md)  
-[onPageNavigate](../events/onpagenavigate.md)  
-[onSendKBArticle](../events/onsendkbarticle.md)  
+[onclicktoact](../events/onclicktoact.md)  
+[onmodechanged](../events/onmodechanged.md)  
+[onsizechanged](../events/onsizechanged.md)  
+[onpagenavigate](../events/onpagenavigate.md)  
+[onsendkbarticle](../events/onsendkbarticle.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
