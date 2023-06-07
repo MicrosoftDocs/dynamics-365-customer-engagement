@@ -11,7 +11,7 @@ search.audienceType:
   - enduser
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Enable Microsoft Teams meeting integration in Customer Service (preview)

@@ -1,20 +1,18 @@
 ---
-title: Introduction on how to install and administer Sales Insights
-description: Introduction page showing administration and application configurations for Sales Insights features in Dynamics 365 Sales.
-ms.date: 04/21/2023
-ms.custom: intro-internal
+title: Enable and configure Sales Insights
+description: Learn about how to enable and configure Sales Insights capabilities in your organization.
+ms.date: 05/18/2023
+ms.collection: get-started
 ms.topic: article
 author: udaykirang
 ms.author: udag
-caps.latest.revision: 1
-topic-status: Drafting
 ---
-
-# Install and administer Sales Insights features 
+# Enable and configure Sales Insights features 
 
 Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] features helps sellers to build stronger relationships with their customers, save time, and stay on top of their deals with real-time AI-based insights. In Sales Insights, some features are available for free along with Dynamics 365 Sales and some require an additional Sales Insights license to use in your organization. More information: [Overview](overview.md) 
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise and Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -26,7 +24,7 @@ As an administrator, you can enable and configure the Sales Insights features as
 
 -    [Enable and configure standard Sales Insights features](#enable-and-configure-standard-sales-insights-features)
 -   [Get started with premium Sales Insights features](#get-started-with-premium-sales-insights-features)
--    [Install and configure premium Sales Insights features](#install-and-configure-premium-sales-insights-features)   
+-    [Enable and configure premium Sales Insights features](#enable-and-configure-premium-sales-insights-features)   
 -    [Administer conversation intelligence](#administer-conversation-intelligence)
 
 ## Enable and configure standard Sales Insights features
@@ -91,14 +89,14 @@ After you enable the standard Sales Insights features, you can configure the fea
 
 With your Dynamics 365 Sales Enterprise license, you can set up and experience Sales Premium features such as Sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
 
-## Install and configure premium Sales Insights features
+## Enable and configure premium Sales Insights features
 
 The premium Sales Insights features provide intelligent insights about sales data that help sellers take timely actions to close deals and generate revenue. The premium Sales Insights features include the premium assistant with assistant studio, notes analysis, relationship analytics, who knows whom, predictive lead scoring, predictive opportunity scoring, premium forecasting, and sales accelerator and sequence. You can configure these features as required in your organization.
 
-1.    [Review privacy and personal data requirements](#review-privacy-and-personal-data-requirements).   
-2.    [Review the prerequisites](#review-the-prerequisites).   
-3.    [Install premium Sales Insights](#install-premium-sales-insights).   
-4.    [Configure premium Sales Insights features](#configure-premium-sales-insights-features).
+1. [Review privacy and personal data requirements](#review-privacy-and-personal-data-requirements).  
+2. [Review the prerequisites](#review-the-prerequisites).  
+3. [Enable premium Sales Insights](#enable-premium-sales-insights).  
+4. [Configure premium Sales Insights features](#configure-premium-sales-insights-features).  
 
 ### Review privacy and personal data requirements
 
@@ -124,7 +122,7 @@ Review the following requirements before you install and configure the premium S
 - Assign licenses to each individual user to utilize the features. This is executed within the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home?#/homepage). More information: [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true).     
 - Exchange email server is configured, and a mailbox is enabled using **Email Configurations** in **Settings**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab).
 
-### Install premium Sales Insights
+### Enable premium Sales Insights
 
 > [!NOTE]
 > To install and configure three premium features (Sales accelerator, conversation intelligence, and predictive scoring) that are available with the Sales Enterprise license, you must go to the **Get started with digital sales page** under **App Settings**. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
