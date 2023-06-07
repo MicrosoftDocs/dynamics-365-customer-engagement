@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 05/29/2023 
+ms.date: 06/07/2023 
 ms.custom: bap-template 
 ms.collection:
 ---
@@ -29,31 +29,34 @@ Enable the Copilot features for agents to use Copilot to:
 - Draft a chat response
 - Summarize a case
 
-## Regional availability and supported languages
+## Region availability and supported languages
 
-The Copilot features are available in the United States only and supported in the English language only.
+For region availability of Copilot, see [Region availability of analytics and insights](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights).
+
+For enabling the copilot features outside the United States, see [Copilot data movement across geographies](copilot-data-movement.md).
+
+To know the languages supported in Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
 ## Prerequisites
 
 - You have the System Administrator role.
 - [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) is configured in your environment. 
 - Your knowledge article parameters are as follows:
-   - Updated with the latest version
-   - The state is set to Published
-   - The locale is set to English
+  - Updated with the latest version
+  - The state is set to Published
+  - The locale is set to English
 
 ### Opt-in to continue with Copilot setup
 
-Before you enable a Copilot feature, review the terms and conditions and provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
+Before you enable a copilot feature, review the terms and conditions and provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
 
 :::image type="content" source="media/copilot-opt-in.png" alt-text="Opt in to get copilot features.":::
 
-
 ## Enable Copilot to respond to questions, compose an email, or create a chat response
 
-Perform the following steps to enable the Copilot features:
+Perform the following steps to enable the copilot features:
 
-1. In Customer Service admin center, use one of the following navigation options: 
+1. In Customer Service admin center, use one of the following navigation options:
       - **Agent Experience** > **Productivity** > **Copilot help pane (preview)**
       - **Operations** > **Insights** > **Copilot help pane (preview)**
 1. Select **Manage** in **Copilot help pane (preview)**.
@@ -65,7 +68,7 @@ Perform the following steps to enable the Copilot features:
 1. You can add up to five trusted web domains for Copilot to search when generating responses. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels, represented by forward slashes (/) after the .com part of the URL. 
 
 > [!NOTE]
-> Web domains are only used by Copilot to draft emails and chat replies.
+> Web domains are used by Copilot to draft emails and chat replies only.
 
 :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
 
