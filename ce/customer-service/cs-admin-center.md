@@ -59,6 +59,12 @@ More information: [Assign roles and enable users for Omnichannel for Customer Se
 
 The app is automatically installed in all the Customer Service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
 
+## Create your contact center
+
+On the **Home** page, use the **Create your contact center** wizard to set up a new contact center with one click. When you select **Create**, the wizard automatically sets up the live chat and voice channels, a default agent experience profile, and the recommended AI features and reports. After the setup is complete, the summary page displays the channels and features that you can try. You can also customize the settings by following the bubble tour, which requires the Omnichannel administrator and Omnichannel agent roles.
+
+:::image type="content" source="media/create-contact-center.png" alt-text="Use create contact center to set up a contact center in one click.":::
+
 ## Guided channel setup
 
 You can use the guided channel setup wizard to configure channels, such as a channel for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
@@ -67,12 +73,6 @@ You can use the guided channel setup wizard to configure channels, such as a cha
 
 > [!IMPORTANT]
 > To successfully create a guided setup for each channel, you must have full privileges to all the tables used in the setup.
-
-## Create your contact center
-
-On the **Home** page, use the **Create your contact center** wizard to set up a new contact center with one click. When you select **Create**, the wizard automatically sets up the live chat and voice channels, a default agent experience profile, and the recommended AI features and reports. After the setup is complete, the summary page displays the channels and features that you can try. You can also customize the settings by following the bubble tour, which requires the Omnichannel administrator and Omnichannel agent roles.
-
-:::image type="content" source="media/create-contact-center.png" alt-text="Use create contact center to set up a contact center in one click.":::
 
 ## Navigate the site map in Customer Service admin center
 
