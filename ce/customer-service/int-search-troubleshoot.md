@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot issues with integrated search providers
-description: Learn how to troubleshoot issues with integrated search providers. 
+description: Learn how to troubleshoot issues with integrated search providers.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
@@ -11,23 +11,23 @@ ms.custom: bap-template
 
 # Troubleshoot issues with integrated search providers
 
-The article describes the troubleshooting steps to diagnose and fix issues with integrated search providers.
+The article describes troubleshooting steps that you can use to diagnose and fix issues with integrated search providers.
 
-## Data doesn't get updated on the Insights tab for integrated search providers
+## Data on the Insights tab isn't updated for integrated search providers.
 
-## Symptoms
+### Symptoms
 
-Data isn't updated on the **Insights** tab even after the scheduled refresh interval time.
+Data on the **Insights** tab isn't updated, even after the scheduled refresh interval.
 
-## Resolution
+### Resolution
 
-Perform the following troubleshooting steps to diagnose and fix the issue:
+Follow these troubleshooting steps to diagnose and fix the issue:
 
-- Check whether the root URL and the sitemap URL are configured correctly. There is a possibility that there is some misconfiguration or the URLs provided don't exist. Check the URLs on the browser to make sure that they are valid ones.
-- Check if the **External Reference Id** field is mapped to a unique field in the source property. As the ID is expected to be unique, mapping repeated or non-unique fields for this field from the source will cause issues when articles are ingested.
-- Make sure that you haven't selected the **No refresh** option for **Refresh interval** for a data provider.
-- If the source is authenticated, make sure that the secret provided is correct.
+- Make sure that the root URL and the sitemap URL are correctly configured. There might be some misconfiguration, or the URLs that are provided might not exist. Test the URLs in a browser to ensure that they are valid.
+- Make sure that the **External Reference Id** field is mapped to a unique field in the source property. Because the ID is expected to be unique, repeated or non-unique fields that are mapped from the source will cause issues when articles are ingested.
+- Make sure that you haven't selected **No refresh** in the **Refresh interval** field for a data provider.
+- If the source is authenticated, make sure that the correct secret is provided.
 
 If the issue persists, raise a Microsoft Support ticket.
 
-For detailed information on managing a search provider, go to: [Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers).
+[Learn more about how to manage search providers.](add-search-provider.md#manage-integrated-search-providers)
