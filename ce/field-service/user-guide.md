@@ -3,8 +3,7 @@ title: "User guide for Dynamics 365 Field Service (contains video)"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
 ms.date: 02/11/2021
 ms.topic: overview
-
-ms.custom: intro-internal
+ms.collection: get-started
 author: jshotts
 ms.author: jasonshotts
 ---

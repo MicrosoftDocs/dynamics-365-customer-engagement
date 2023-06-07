@@ -47,6 +47,9 @@ The presence of a company address and unsubscribe link is checked when you selec
 
 If you want to send commercial email, the app checks whether the email addresses of the target audience have granted consent when the email is sent. In the restrictive model, messages will only be sent to customers whose email addresses were opted in. By default, the transactional message purpose has a **Disabled** enforcement model, meaning that consent checks won't be run against contact points. The enforcement model can be changed in the compliance profile itself.
 
+> [!NOTE]
+> If you have enabled the **Multi-brand consent and customizable preference centers (preview)** feature switch, you will be able to choose which purpose and, optionally, which topic the email should check for consent. [Learn more about the Multi-brand consent and customizable preference centers (preview).](real-time-marketing-compliance-settings-preview.md)
+
 ## How consent is respected for text messages
 
 The real-time marketing rules for sending text messages are slightly different than the rules for sending emails. A user must always opt in to consent to receive commercial text messages, irrespective of the consent enforcement model. Transactional text messages are always sent and don't have consent checked or enforced.

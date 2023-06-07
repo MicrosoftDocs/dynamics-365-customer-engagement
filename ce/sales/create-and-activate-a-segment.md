@@ -1,7 +1,7 @@
 ---
 title: Segment creation and activation in sales accelerator
 description: Create and activate segments by defining conditions to automatically add records that satisfy the conditions in Microsoft Dynamics 365 Sales.
-ms.date: 03/28/2023
+ms.date: 05/26/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -10,6 +10,9 @@ ms.author: udag
 # Create and activate a segment
 
 As a sequence manager, you create segments&mdash;groups of records&mdash;by defining different conditions for each segment. After a segment is activated and a record satisfies the conditions that are defined in the segment, the record becomes a member of the segment. A sequence that's connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.
+
+>[!NOTE]
+>At any given time, you can have a maximum of 250 active segments in an organization. To increase the limit of active segments, contact Microsoft Support for assistance.
 
 ## License and role requirements
 
@@ -38,7 +41,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 
     :::image type="content" source="media/sa-segment-condition-builder-home-page.png" alt-text="Screenshot of segment condition builder page.":::
 
-1. <a name="allow-records-move-from-another-segment"></a>(Optional) To allow records from another segment to move to this one, turn on **Allow records to be moved from other segments to this one**. The application validates the records for conditions defined in this segment and moves the records accordingly, although the records are connected to a different segment. When moved, the records will be connected to the sequence from this segment. However, the assignment rules won't be changed. To apply the current assignment rule to the moved records, select the **Update seller assignment as well** option.
+1. <a name="allow-records-move-from-another-segment"></a>(Optional) To allow records from another segment to move to this one, turn on **Allow records to be moved from other segments to this one**. The application validates the records for conditions defined in this segment and moves the records accordingly, although the records are connected to a different segment. When moved, the records are connected to the sequence from this segment. However, the assignment rules won't be changed. To apply the current assignment rule to the moved records, select the **Update seller assignment as well** option.
 
     :::image type="content" source="media/sa-segment-allow-records-to-move.png" alt-text="Screenshot illustrating the option to allow records to move to this segment and apply the assignment rules.":::
 
@@ -79,6 +82,11 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 
         Define the condition as required.
 
+    At any given time, you can have a maximum of 10 conditions in a segment, including conditions defined within groups and related entities. The condition limit is added to optimize the runtime experience of segments, ensuring faster execution and improved efficiency. If you exceed the limit, a message is displayed stating that the limit is reached and can't save the segment. For best practices to add conditions, see [Recommendation to add conditions](#recommendation-to-add-conditions).
+
+    >[!NOTE]
+    > To increase the limit of conditions in segments, contact Microsoft Support for assistance.  
+
 1. After defining the conditions, select **Simulate results** to verify that the conditions for the segment work as defined.
 
     >[!div class="mx-imgBorder"]
@@ -107,6 +115,16 @@ The segment is activated. Now you can connect the segment to a sequence or a rec
 >[!NOTE]
 >From the 9.3 release, all segments that are related to a primary entity (such as lead or opportunity) run every time you update the attributes of the primary entity that are added to the conditions.
 
+## Recommendation to add conditions
+
+You can have a maximum of 10 conditions in segments at any given time. However, you can optimize the conditions by following the recommendations that help in improving the runtime efficiency of segments.  
+
+- **Distribute the segments**: Create multiple segments with proper distribution of conditions and you can connect them to the same or a different sequence and similar or different assignment rules. This helps in improving the performance of connecting sequences and assignment rules.
+
+- **Create rollup attributes**: Prevent performance issues when dealing with conditions involving related entities by using rollup attributes. This approach helps avoid the performance overhead of the conditions with related entities that have many-to-many, one-to-many relationships, or nested related entities.  
+More information: [Define rollup columns that aggregate values](/power-apps/maker/data-platform/define-rollup-fields) 
+
+- **Use expression builder only**: Always use the expression builder on the UI to define or update the segments. Don’t update segments through Dataverse, as this can cause unexpected behavior impacting the records that are related to the segment and the subsequent automations such as connecting sequences and assignment rules.
 
 <table>
 <tr><td>
