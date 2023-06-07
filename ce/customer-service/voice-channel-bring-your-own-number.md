@@ -1,7 +1,7 @@
 ---
 title: "Bring your own carrier | MicrosoftDocs"
 description: "Use this article to understand how you can bring your own carrier to Dynamics 365 via Azure Direct Routing."
-ms.date: 12/13/2022
+ms.date: 06/07/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -57,6 +57,15 @@ Azure Communication Services direct routing enables you to connect your existing
 4. Select **Add number**.
 
 The new phone number will be displayed in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-inbound-calling.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
+
+## SBC best practices
+
+-	For Microsoft Teams and Azure Communication Services direct routing, you might use the same port number, but you must use a different fully qualified domain name (FQDN).
+- To avoid call timeout, ensure that the following settings for Secure Real-time Transport Protocol (SRTP) are configured:
+  - Reset SRTP Upon Re-key = Disable
+  - Generate SRTP Keys = Only if Required
+- Ensure that you have sufficient transcoding licenses if your service provider and Azure Communication Services don't support the same codec.
+
   
 ### See also
 
