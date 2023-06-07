@@ -44,7 +44,7 @@ Abandoned conversations =
 
 |Attribute Name | DAX logic |
 |---------------|----------------------------------|
-|Abandoned conversations | |
+|Abandoned conversations |  |
 |Abandoned rate  | |
 |Active conversations awaiting agent acceptance | |
 | Active conversations with agent acceptance | |
