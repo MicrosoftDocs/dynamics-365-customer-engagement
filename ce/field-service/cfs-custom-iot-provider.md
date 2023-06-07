@@ -16,17 +16,17 @@ author: vhorvathms
 
 Dynamics 365 Field Service allows seamless integration with IoT-enabled devices from any IoT vendor through the *IoT provider* feature. The IoT provider allows the integration of IoT alerts from various vendors into a unified list, regardless of their origin. When interacting with an IoT device, Field Service identifies the device's provider and routes the command to the corresponding IoT system.
 
-In Field Service, the [out-of-box deployment experience integrates with Azure IoT Hub](installation-setup-iothub.md). However, custom IoT providers let developers, partners, and independent software vendors build on this framework to to include their custom IoT solutions. These custom IoT providers can then be published as solutions in Microsoft AppSource for easier distribution and usage by customers.
+In Field Service, the [out-of-box deployment experience integrates with Azure IoT Hub](installation-setup-iothub.md). However, custom IoT providers let developers, partners, and independent software vendors build on this framework to include their custom IoT solutions. These custom IoT providers can then be published as solutions in the [Microsoft commercial marketplace](https://appsource.microsoft.com/) for easier distribution and usage by customers.
 
 ## Prerequisites
 
-- Development experience in model-driven apps that connect to Dynamics 365 and Common Data Service. For more information, see the [overview on model-driven apps](/powerapps/developer/model-driven-apps/overview).
+- Development experience in model-driven apps that connect to Dynamics 365 and Microsoft Dataverse. For more information, see the [overview on model-driven apps](/powerapps/developer/model-driven-apps/overview).
 - Programming experience with C#, .NET, and Visual Studio.
 - Knowledge of REST/OData API.
 
 ## Architecture and entity model
 
-In this article we focus on the integration of IoT solutions.
+In this article, we focus on the integration of IoT solutions.
 
 There are several methods to integrate external IoT services with Field Service. However, they all must fit the Field Service IoT provider entity model. The following sections discuss the entities in detail.
 
@@ -61,7 +61,7 @@ Required information:
 
 ### IoT device
 
-In the IoT device entity maps each device to an IoT provider instance.
+The IoT device entity maps each device to an IoT provider instance.
 
 // Screenshot
 
@@ -77,21 +77,33 @@ Required information:
 
 ## Connection methods and development tools
 
+Connection methods for custom solutions come with pros and cons. The following table lists common connection methods.
 
+|       Method    |     Advantages    |     Risks    |
+|---|---|---|
+|     [Dataverse APIs](/power-apps/developer/data-platform/overview)          |   Allows direct communication between Connected Field Service and external services. It's a robust protocol for building software applications.   |   External services need to have capability to integrate with APIs. This method requires strong understanding of Connected Field Service API capabilities.   |
+|     Webhooks     |   Sends real-time updates to an external service when specific actions are taken in Connected Field Service.    |   External service needs to be able to receive and process webhook messages.   |
+|     Connectors     |   Provides seamless integration experience, acts as a bridge between Connected Field Service and the external service.   |   Requires more robust technical knowledge and development resources.   |
+|     Custom code     |   Highly tailored and effective integration.     |   Requires high level of technical expertise, may involve more risk than other methods.   |
 
+Commonly used development tools to build custom solutions for Connected Field Service:
 
-----
+- **Power Apps**, a low-code development platform provided by Microsoft that allows developers to create custom business applications quickly and easily. With Power Apps, developers can build custom solutions for Connected Field Service without the need for extensive coding skills.
 
-### IoT settings
+- **Azure Functions**, a serverless computing service provided by Microsoft that allows developers to run code on-demand without the need for dedicated servers. Azure Functions can be used to create custom integrations and automate tasks in Connected Field Service.
 
-The IoT settings entity now has an option to choose a default IoT provider instance; when populated, all new IoT devices will use this default provider. Users can always switch the provider instance for devices.
+- **.NET Framework**, a software development framework provided by Microsoft that supports building and running applications on Windows. It can be used to build custom applications and integrations for Connected Field Service.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the I o T settings in Field Service.](./media/custom-iot-settings.png)
+- **JavaScript**, a widely used programming language that can be used to create custom applications and integrations for Connected Field Service. It's often used with other tools and frameworks, such as Node.js and React.
+
+- **REST APIs** provide a standardized way for applications to communicate with each other over the web. Connected Field Service provides many REST APIs that can be used to integrate with external services and build custom solutions.
+
+- **Visual Studio**, a popular integrated development environment (IDE) provided by Microsoft that can be used to build custom applications and integrations for Connected Field Service. It supports a wide range of programming languages and frameworks, including .NET, JavaScript, and Python.
+
 
 ## Supported actions
 
-When you create a custom IoT provider, you'll specify a set of actions associated with that provider. Actions in Dynamics 365 are custom code that will run when you invoke them. For more information, see [this article on custom actions in Dynamics 365](/powerapps/developer/common-data-service/custom-actions).
+When you create a custom IoT provider, you specify a set of actions associated with that provider. Actions in Dynamics 365 are custom code that runs when you invoke them. For more information, see [this article on custom actions in Dynamics 365](/powerapps/developer/common-data-service/custom-actions).
 
 For example, if you specify ```msdyn_MockProviderPullDeviceDataAction``` as the action for "Pull device data" in your provider, Connected Field Service will look for an action with the name ```msdyn_MockProviderPullDeviceDataAction``` and run that action's code when a user selects the **Pull device data** button on the asset or device form or views in Connected Field Service.
 
