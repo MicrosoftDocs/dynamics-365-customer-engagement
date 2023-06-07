@@ -44,7 +44,7 @@ For historical data model, the dataset connects to the Azure Data Lake that host
 
 By creating a local model within your workspace that connects to the Dynamics data model, you can create new metrics while retaining all the out-of-the-box metrics, thus saving time and effort. You can add the Dynamics data model to existing reports without having to rebuild them.  
  
-By leveraging the model and not recreating metrics that are available in out-of-the-box model, also ensures that the logic used to calculate these metrics always stay updated.
+By leveraging the model and not recreating metrics that are available in out-of-the-box model, you also ensure that the logic used to calculate these metrics always stay updated.
   
 ## How data model customization works
 
@@ -68,7 +68,7 @@ Each time the out-of-the-box data model is updated because of newer release vers
 
 ### Customer workspace
 
-A copy of the out-of-the-box reports are created in this workspace. During the configuration, you can either create a new workspace or can specify an existing workspace. 
+A copy of the out-of-the-box reports are created in this workspace. During the configuration, you can either create a new workspace or can specify an existing workspace.
 
 Depending on the features you have enabled, you may see up to three different reports created in the workspace you selected for historical model customization and one report in the real-time model customization. Each report is connected to its own composite data set, which in turn connects to the data model in the managed workspace.
  
