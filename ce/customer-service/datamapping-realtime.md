@@ -16,26 +16,36 @@ This article describes the DAX logic for the real-time metrics. For details on r
 
 ## FactConversation
 
-```
-Abandoned conversations =  
+- Abandoned conversations
 
+``` 
     SUMX ( 
-
         FactConversation, 
-
         IF ( 
-
             FactConversation[IsAbandoned] 
-
                 && FactConversation[StatusCode] == 4 
-
                 && NOT FactConversation[DirectionCode], 
-
             1, 
-
             0 
-
         ) 
-
     ) 
 ```
+- Abandoned rate
+
+ ```
+DIVIDE ( 
+    SUMX ( 
+        FactConversation, 
+        IF ( 
+            FactConversation[IsAbandoned] 
+                && NOT FactConversation[DirectionCode], 
+            1, 
+            0 
+        ) 
+    ), 
+    SUMX ( 
+        FactConversation, 
+        IF ( NOT FactConversation[DirectionCode], 1, BLANK () ) 
+    ), 
+    BLANK () 
+) 
