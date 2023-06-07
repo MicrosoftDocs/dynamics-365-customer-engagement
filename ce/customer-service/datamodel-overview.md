@@ -20,11 +20,9 @@ As new features get added, metric definitions and calculations constantly need t
 
 Dynamics 365 Customer Service provides a suite of out-of-box analytic dashboards that are built on Power BI. These analytic solutions provide industry standard KPIs and metrics that can help you monitor and improve the performance of your contact center. Power BI solutions deploy two components – data model (sometimes referred as data set) and report. The data model houses the KPI while reports  help visualize this data for supervisors.  
 
-## How data model model customization helps you
-
 Every organization that has analytics enabled gets the analytics solution deployed and available only to them. Dynamics 365 leverages the data from Dataverse, performs transformation logic for each of the KPIs and makes these KPIs available for you within these data model, thus making these uneditable.
 
-However, the reports that are deployed for your organization are editable and customizable. With visual customization, you can edit the reports to present the available data available as per your organizational requirements. For example, Dynamics 365 reads all the required data, performs the logic required to calculate the average handle time and makes it available for you in the data model. You can choose to edit and present this as a chart or a table, as required and drill down to see the average handle time for a queue or user. Visual customizations also give you the ability to reveal hidden metrics, create new pivots, and analyze data with additional dimensions.  
+However, the reports that are deployed for your organization are editable and customizable. With visual customization, you can edit the reports to present the available data available as per your organizational requirements. For example, Dynamics 365 reads all the required data, performs the logic required to calculate the average handle time and makes it available for you in the data model. You can choose to edit and present this as a chart or a table, as required and drill down to see the average handle time for a queue or user. Visual customizations also give you the ability to reveal hidden metrics, create new pivots, and analyze data with additional dimensions. 
 
 ### Scenario-based use cases
 
@@ -36,8 +34,18 @@ The following section describes scenarios where you might need to modify the ava
 
 - **Scenario 3**: Your organization has customized attributes on the out-of-the-box Dynamics entities or has custom entities to support your workflows and process and would like to include those attributes, metrics built on those attributes on the reports. In addition, your organization wants to report on out-of-box attributes that aren't included in the reports or the data set by default. For example, your organization has customized user entity to include a region attribute and would like to get a drill down of the resolution time by region.  
 
-- **Scenario 4**: Your organization wants to build custom dashboards that bring data from multiple applications that your organization uses. For example, you might have an existing Power BI dashboard that brings operational data from your workforce management systems, and you would like to show Dynamics data like agent presence on these dashboards.  
+- **Scenario 4**: Your organization wants to build custom dashboards that bring data from multiple applications that your organization uses. For example, you might have an existing Power BI dashboard that brings operational data from your workforce management systems, and you would like to show Dynamics data like agent presence on these dashboards.
 
+## How data model customization helps you
+
+Data model customization helps you with [scenarios](#scenario-based-use-cases) and more. Data model customization deploys a copy of data set used by out-of-the-box reports into your organization’s Power BI workspace, allowing you to build [composite models](/power-bi/transform-model/desktop-composite-models#enable-the-preview-feature).
+
+For historical data model, the dataset connects to the Azure Data Lake that hosts the transformed historical Dynamics data and exposes the metrics. For real-time data model, the data set uses TDS connectors to connect directly to your Dynamics database and executes the logic needed to compute the real-time metrics.
+
+By creating a local model within your workspace that connects to the Dynamics data model, you can create new metrics while retaining all the out-of-the-box metrics, thus saving time and effort. You can add the Dynamics data model to existing reports without having to rebuild them.  
+ 
+By leveraging the model and not recreating metrics that are available in out-of-the-box model, also ensures that the logic used to calculate these metrics always stay updated.
+  
 ## How data model customization works
 
 Data model customization requires your organization to have a paid Power BI service and uses two workspaces within your Power BI service.
