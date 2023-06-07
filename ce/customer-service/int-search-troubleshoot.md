@@ -24,7 +24,7 @@ Data on the **Insights** tab isn't updated, even after the scheduled refresh int
 Follow these troubleshooting steps to diagnose and fix the issue:
 
 - Make sure that the root URL and the sitemap URL are correctly configured. There might be some misconfiguration, or the URLs that are provided might not exist. Test the URLs in a browser to ensure that they are valid.
-- Make sure that the **External Reference Id** field is mapped to a unique field in the source property. Because the ID is expected to be unique, repeated or non-unique fields that are mapped from the source will cause issues when articles are ingested.
+- Make sure that the **External Reference Id** field is mapped to a unique field in the source property. The ID is expected to be unique. Therefore, repeated or non-unique fields that are mapped from the source will cause issues when articles are ingested.
 - Make sure that you haven't selected **No refresh** in the **Refresh interval** field for a data provider.
 - If the source is authenticated, make sure that the correct secret is provided.
 
