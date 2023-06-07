@@ -1814,6 +1814,8 @@
       href: faq-customer-service-admin-center.md
     - name: FAQ about unified routing
       href: unified-routing-faqs.md
+    - name: FAQ about case management
+      href: faq-case-mgmt.md  
     - name: FAQ about automatic record creation
       href: arc-faqs.md        
     - name: FAQ about AI suggestions for cases and knowledge articles
