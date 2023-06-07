@@ -3,7 +3,7 @@ title: "Set up inbound calling for the voice channel"
 description: "Learn about how to set up workstreams and queues for inbound calling in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-ms.date: 10/26/2022
+ms.date: 06/07/2023
 ms.topic: article
 
 ---
