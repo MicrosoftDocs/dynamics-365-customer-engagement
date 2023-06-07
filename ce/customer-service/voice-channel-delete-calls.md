@@ -3,7 +3,7 @@ title: "Delete call recordings | MicrosoftDocs"
 description: "Learn how to delete call recordings in the voice channel in Omnichannel for Customer Service."
 author: venki-ms
 ms.author: v-duddupdiv
-ms.date: 05/29/2023
+ms.date: 06/07/2023
 ms.topic: how-to
 ---
 
