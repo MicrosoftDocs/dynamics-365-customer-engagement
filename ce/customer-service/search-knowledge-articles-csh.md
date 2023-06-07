@@ -52,7 +52,7 @@ The different search options that are described in this article have one or more
 - In Customer Service workspace and Omnichannel for Customer Service, your administrator must enable the app side pane and knowledge search in agent experience profiles.
 - To open the knowledge pane, you must be working with a case or conversation. Before you can open the knowledge pane for any other entity, your administrator must enable it in the [knowledge management configuration](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management).
 
-## Use direct knowledge base search in Customer Service Hub
+## Use the direct knowledge base search in Customer Service Hub
 
 In Customer Service Hub, you can search the knowledge base directly, without first viewing a case or conversation.
 
