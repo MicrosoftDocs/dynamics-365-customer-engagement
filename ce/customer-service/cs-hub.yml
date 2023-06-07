@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page 
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 05/31/2023
+  ms.date: 06/07/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -35,7 +35,7 @@ highlightedContent:
     # Card
     - title: Troubleshoot
       itemType: concept
-      url: troubleshoot-omnichannel-customer-service.md
+      url: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
       
 additionalContent: 
   sections:
