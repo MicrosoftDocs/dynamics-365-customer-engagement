@@ -1,6 +1,6 @@
 ---
 title: View and use insights for search providers
-description: Learn how you can view and use insights of your search providers.
+description: Learn how you can view and use insights for your search providers.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi 
@@ -12,23 +12,22 @@ ms.custom: bap-template
 
 # View and use insights for search providers
 
-After you have configured your search providers, you can view the insights for your search provider in the Customer Service admin center app. The Insights tab provides the **Ingestion ID**, **Status**, **Crawl failures**, **Recognized**, **Created**, **Updated**, and **Failed** details of the search provider.
+After you configure your search providers, you can view the insights for each provider in the Customer Service admin center app. In the **Search provider details** dialog box, the **Insights** tab includes **Ingestion ID**, **Status**, **Crawl failures**, **Recognized**, **Created**, **Updated**, and **Failed** columns that show data for the search provider.
 
 ## View insights
 
-1. In the Customer Service admin center site map, go to **Knowledge > Integrated search providers (Preview) > Manage**.
-1. Select the **Active integrated search providers** or the **Inactive integrated search providers** from the dropdown list, and then select the search provider that you want to view.
-1. On the **Search provider details** dialog, select the **Insights** tab.
-The  ingestion metrics for that search provider are displayed.
+1. In Customer Service admin center, in the site map, go to **Knowledge** \> **Integrated search providers (Preview)** \> **Manage**.
+1. In the dropdown list, select either **Active integrated search providers** or **Inactive integrated search providers**, and then select the search provider that you want to view.
+1. In the **Search provider details** dialog box, select the **Insights** tab to view the ingestion metrics for the selected search provider.
 
-You can see up to a maximum of 100 ingestion IDs. The data on the **Insights** tab is refreshed every 30min.
+A maximum of 100 ingestion IDs are shown. The data on the **Insights** tab is updated every 30 minutes.
 
 ## Use insights
 
-You can view the failed articles in the **Failed** column. The failed articles count helps you review the ingestion success status. 
+The **Failed** column on the **Insights** tab shows the articles that failed. The count of failed articles can help you review the ingestion success status.
 
-To view the failed articles, select the ingestion ID. The **Error type** column indicates whether the failure was a crawl error prior to ingestion or an ingestion run error.
+To view the failed articles, select the ingestion ID. The **Error type** column indicates whether the failure was a crawl error that occurred before ingestion or an ingestion run error.
 
-## See Also
+## See also
 
-[Troubleshoot issues with integrated search providers](int-search-troubleshoot.md#troubleshoot-issues-with-integrated-search-providers)
+[Troubleshoot issues with integrated search providers](int-search-troubleshoot.md)
