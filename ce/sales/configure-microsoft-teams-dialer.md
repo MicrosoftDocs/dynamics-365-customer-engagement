@@ -75,9 +75,9 @@ Additionally, you must grant the following permissions to your users:
         Indicates that calls from internal users won't ring and won't be tracked in Dynamics 365. In this case, calls from external contacts will ring in Dynamics 365 and internal calls will ring only in Teams. You can clear the checkbox if you want sellers to receive both external and internal calls in Dynamics 365.  
     - **Transfer calls (preview)**
         [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
-        Allows sellers to transfer a Teams call to another system user or a phone number either directly or after consulting the recipient.  
-        More information: 
-        [Transfer a Teams call (preview)](call-using-microsoft-teams.md#transfer-a-teams-call-preview)
+        Allows sellers to transfer a Teams call to another colleague or their phone number either directly or after consulting the recipient.  
+        **More information:** 
+        [Transfer a Teams call (preview)](call-using-microsoft-teams.md#transfer-a-teams-call-preview)  
         [Consult and transfer a Teams call (preview)](call-using-microsoft-teams.md#consult-and-transfer-a-teams-call-preview)
 
 6. In the **Security role** section, select one of the following options to provide permissions to users to access Microsoft Teams dialer.  

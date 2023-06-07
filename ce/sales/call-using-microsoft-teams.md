@@ -136,7 +136,7 @@ You can consult a colleague before transferring a customer's call to them. You c
 1. Enter the name of the colleague or their phone number.  
 
 1. If the recipient is available, perform the following actions:
-    1. Select **Call**.
+    1. Select **Call**.  
        The duration of the hold is displayed so that you know how long the customer has been waiting.
     2. Consult with your colleague. If they're ready to take the call, select **Transfer**.  
         If you're transferring to a Teams line, the recipient sees the transfer notification with information about you and the customer. After you transfer the call, the call is treated as a new one and any notes or recordings made during the original call are not transferred to the recipient.
