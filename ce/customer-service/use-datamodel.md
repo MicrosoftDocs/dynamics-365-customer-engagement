@@ -1,6 +1,6 @@
 ---
-title: Use the out-of-the-box data model in your reports
-description: Learn how to use the out-of-the-box data model in your reports. 
+title: Use the out-of-the-box data model in your custom reports
+description: Learn how to use the out-of-the-box data model in your custom reports. 
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
@@ -10,7 +10,7 @@ ms.date: 06/08/2023
 ms.custom: bap-template
 ---
 
-# Use the out-of-the-box data model in your reports
+# Use the out-of-the-box data model in your custom reports
 
 This articles describes how you can create a new report that leverages the out-of-the-box data model. You can also extend this report and add new metrics based on data available within the Dynamics 365 Customer Service dataset.
 
@@ -37,13 +37,14 @@ This articles describes how you can create a new report that leverages the out-o
 
 ## Add Dynamics data to existing reports
  
-To add Dynamics data to existing reports:
-
 - Download a copy of the report. Make sure you download with live connection to data online.
 - If you would like to edit the out-of-box copy of the report, then download the report from the customer workspace.
 
-1. In Power BI, open the downloaded file.  
+To add Dynamics data to existing reports:
 
+1. In Power BI, select the report from your custom workspace.
+1. Select **File > Download this file**.
+1. Select the option to download a copy of your report with a live connection to data online.
 1. Select **Get data** **>** **Power BI data sets**.
 
 1. Select the appropriate data set, depending on whether you require historical or real-time metrics. Make sure you select the data model from managed workspaces.
@@ -119,7 +120,7 @@ Here's an example, which describes how to create a new service level of 150 seco
 
 ### Add new metrics based on Dynamics 365 Customer Service dataset and external data
 
-If you need to get additional data, both from within Dynamics Customer Service and outside of it, as described in [Scenario 3 and Scenario 4](datamodel-overview.md#scenario-based-use-cases), perform the following steps:  
+If you need to get additional data, both from within Dynamics Customer Service as well as external data, as described in [Scenario 3 and Scenario 4](datamodel-overview.md#scenario-based-use-cases), perform the following steps:  
 
 1. Open the report you want to edit in Power BI desktop.
 

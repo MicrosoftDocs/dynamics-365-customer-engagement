@@ -1140,14 +1140,20 @@
         items:
         - name: Forecast agent, case, and conversation volumes
           href: use-volume-forecasting.md
-    - name: Customize analytics
-      items: 
+    - name: Report author experience
+      items:
       - name: Customize visual display
         href: customize-reports.md
       - name: Overview of data model customization
         href: datamodel-overview.md
+      - name: Use the out-of-the-box data model in your custom reports
+        href: use-datamodel.md
       - name: Data models and report mappings for historical analytics reports
         href: oob-data-models.md
+      - name: Data mapping for real-time analytics
+        href: datamapping-realtime.md
+    - name: Customize analytics
+      items: 
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
       - name: Customize interactive dashboards based on Unified Interface
