@@ -1,7 +1,7 @@
 ---
 title: BIMI support
 description: BIMI support in Dynamics 365 Marketing.
-ms.date: 06/05/2023
+ms.date: 06/06/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
@@ -16,7 +16,7 @@ search.audienceType:
 # BIMI support
 
 > [!IMPORTANT]
-> This article *only* applies to emails sent from Dynamics 365 Marketing. Emails sent from other Microsoft products, such as Exchange Online, do not yet support BIMI. Refer to the documentation for other Microsoft email-related products for more information.
+> **This article *only* applies to emails sent from Dynamics 365 Marketing.** Emails sent from other Microsoft products, such as Exchange Online, do not yet support BIMI. Refer to the documentation for other Microsoft email-related products for more information.
 
 Microsoft Dynamics 365 is a powerful platform for managing customer relationships and marketing campaigns. Email is one of the most crucial components of marketing, and making sure that your emails reach their recipients and stand out in their inboxes is essential to effective email marketing. This is where Brand Indicators for Message Identification (BIMI) comes in. BIMI allows you to display your brand logo next to your email messages in the recipient’s inbox, improving the effectiveness of your email marketing campaigns. 
 
