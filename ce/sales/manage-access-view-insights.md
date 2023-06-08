@@ -1,20 +1,20 @@
 ---
 title: Manage access to view insights
-description: 
+description: Restrict the access to seller insights to a specific security group within your organization.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection: 
-ms.date: 06/07/2023
+ms.date: 06/09/2023
 ms.custom: bap-template 
 ---
 
-# Manage access to view insights (preview)
+# Manage access permissions to view insights (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can grant permissions to a specific group of users to view insights within your organization by choosing the security roles. By default, all security roles in your organization have permission to view insights.
+By default, all security roles in your organization have permission to view seller insights. You can restrict the access to seller insights to a specific security group within your organization.
 
 ## License and role requirements
 
@@ -32,8 +32,8 @@ You can grant permissions to a specific group of users to view insights within y
 
     | Security roles | Description |
     |----------------|-------------|
-    | All security roles | Select this option to give access to view the insights to all the security roles in your organization. |
-    | Specific security roles | Select this option to specify security roles to give access to view the insights to just a few users. Use the lookup box to add the security roles. |
+    | All security roles | Select this option to allow all the security roles in your organization to view seller insights. |
+    | Specific security roles | Select this option to allow only users from specific security roles to view the insights. |
 
 5.	Select **Publish**.
 

@@ -509,11 +509,11 @@
         - name: Get intelligent insights to improve sales
           href: seller-insights-intro.md        
           items:
-            - name: Import insights model into Dataverse
+            - name: Import custom insights model into Dataverse
               href: import-insights-model-into-dataverse.md
             - name: Enable seller insights
               href: enable-seller-insights.md
-            - name: Manage access to view insights
+            - name: Manage access permissions to view insights
               href: manage-access-view-insights.md
             - name: Configure assignment rule to auto assign insights
               href: configure-assignment-rule-auto-assign-insights.md
@@ -899,6 +899,11 @@
               href: create-text-message-templates.md
             - name: Manage text message communications
               href: manage-text-message-communications.md
+        - name: Get intelligent insights to improve sales
+          href: seller-insights-intro.md        
+          items:
+            - name: View and understand insights
+              href: view-understand-insights.md
         - name: Campaign management
           items:
             - name: Get started with in-app marketing

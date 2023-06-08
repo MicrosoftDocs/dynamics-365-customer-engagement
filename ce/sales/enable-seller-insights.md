@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection: 
-ms.date: 06/07/2023
+ms.date: 06/09/2023
 ms.custom: bap-template
 ---
 
@@ -25,8 +25,6 @@ The seller insights feature provides intelligent insights on customers that allo
 
 ## Prerequisites
 
-Before configuring and use the seller insights feature in your organization, make sure to meet the following requirements:
-
 -	[Enable sales accelerator](enable-configure-sales-accelerator.md).
 -	[Custom insights data is imported into Microsoft Dataverse](import-insights-model-into-dataverse.md).
 
@@ -34,13 +32,12 @@ Before configuring and use the seller insights feature in your organization, mak
 
 1.	Sign into your sales app. In the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
 1.	Under **Productivity**, select **Insights (preview)**.
-1.	On the **Insights (preview)** page, select **Enable**.
-1.	On the confirmation message, select **Enable**.
+1.	On the **Insights (preview)** page, enable the feature.
 
-The insight feature is enabled for all users in your organization and insights are displayed for records. To provide access to selected users in your organization to use the insights feature, see [Manage access to use insights](manage-access-view-insights.md)
+By default, the feature is enabled for all users in your organization and insights are displayed for records. To restrict access to selected users in your organization, see [Manage access to view insights](manage-access-view-insights.md)
 
 ### See also
 
 [Get intelligent insights to improve sales](seller-insights-intro.md)  
-[Manage access to use insights](manage-access-view-insights.md)
+[Manage access to view insights](manage-access-view-insights.md)
 
