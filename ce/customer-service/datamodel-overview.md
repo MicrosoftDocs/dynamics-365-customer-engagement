@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 05/29/2023
+ms.date: 06/08/2023
 ms.custom: bap-template
 ---
 
@@ -22,11 +22,11 @@ Dynamics 365 Customer Service provides a suite of out-of-box analytic dashboards
 
 Every organization that has analytics enabled gets the analytics solution deployed and available only to them. Dynamics 365 leverages the data from Dataverse, performs transformation logic for each of the KPIs and makes these KPIs available for you within these data model, thus making these uneditable.
 
-However, the reports that are deployed for your organization are editable and customizable. With visual customization, you can edit the reports to present the available data available as per your organizational requirements. For example, Dynamics 365 reads all the required data, performs the logic required to calculate the average handle time and makes it available for you in the data model. You can choose to edit and present this as a chart or a table, as required and drill down to see the average handle time for a queue or user. Visual customizations also give you the ability to reveal hidden metrics, create new pivots, and analyze data with additional dimensions. 
+However, the reports that are deployed for your organization are editable and customizable. With [visual customization](customize-reports.md), you can edit the reports to present the available data available as per your organizational requirements. For example, Dynamics 365 reads all the required data, performs the logic required to calculate the average handle time and makes it available for you in the data model. You can choose to edit and present this as a chart or a table, as required and drill down to see the average handle time for a queue or user. Visual customizations also give you the ability to leverage out-of-the-box metrics that aren't directly exposed, create new pivots, and analyze data with additional dimensions.
+
+Sometimes, you may run into scenarios where you would like to modify the data available in the data set or the logic used to calculate the metrics in the dataset. The following section describes scenarios where you might need to modify the available data or the logic used to calculate the metrics in the dataset. These are typically driven by processes unique to your organization.
 
 ### Scenario-based use cases
-
-The following section describes scenarios where you might need to modify the available data or the logic used to calculate the metrics in the dataset. These are typically driven by processes unique to your organization.
 
 - **Scenario 1**: You need to create variants of the default metrics provided in the data set, that are similar, but are different in the logic used. For example, while service-level metrics for 10, 20, 30, 40, 60 and 120 sec are provided in the Omnichannel real-time reports, you have a team that works on service levels of 150 seconds and wants to see that metric on the reports.  
 

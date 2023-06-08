@@ -1,15 +1,14 @@
 ---
 title: Use the out-of-the-box data model in your reports
-description: How-to description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
+description: Learn how to use the out-of-the-box data model in your reports. 
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
-ms.topic: how-to #Required; don't change.
+ms.topic: how-to 
 ms.collection: 
-ms.date: 06/06/2023
-ms.custom: bap-template #Required; don't change.
+ms.date: 06/08/2023
+ms.custom: bap-template
 ---
-
 
 # Use the out-of-the-box data model in your reports
 
@@ -34,7 +33,7 @@ This articles describes how you can create a new report that leverages the out-o
 1. After you are done with your edits, select **File** > **Publish**, to publish the new report back to Power BI.  
 
 > [!NOTE]
-> We recommend that you use hidden out-of-box facts or dimension fields in your custom reports cautiously, as these fields might get modified or deleted in future updates.
+> We recommend that you don't use hidden out-of-box facts or dimension fields in your custom reports, as these fields might get modified or deleted in future updates.
 
 ## Add Dynamics data to existing reports
  
@@ -64,7 +63,7 @@ If you need to create a metric within the existing entities (as described in [Sc
 
 1. Right-click on the entity for which you want to create your new metric.
 
-2. Enter the Data Analysis Expressions (DAX) logic for real-time metrics after selecting the required attributes such as name and data type. For more information on DAX, go to [Data Analysis Expressions (DAX) Reference](https://learn.microsoft.com/en-us/dax/).
+2. Enter the Data Analysis Expressions (DAX) logic for real-time metrics after selecting the required attributes such as name and data type. For more information on DAX, go to [DAX function reference](/dax/dax-function-reference).
 
 3. Save your measure and include it in your visualization as required.
 
@@ -134,7 +133,7 @@ If you need to get additional data, both from within Dynamics Customer Service a
 1. On the **Connect to your data** dialog, select **Submit**.
 1. If you need to bring additional attributes from Dynamics, select **Dataverse**. For other applications, use the appropriate source.
 1. On the **Navigator** pane, select the entity and then select **Transform data**.
-1. On the **Connection Settings** dialog, select **DirectQuery** and then select **OK**.
+1. On the **Connection Settings** dialog, select the preferred connection and then select **OK**.
 
 1. After the local model is created, select **Get data** and the appropriate data source.  
 
