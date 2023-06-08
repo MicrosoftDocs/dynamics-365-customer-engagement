@@ -50,7 +50,7 @@ Out of the box, agents see the case summary with the following title, customer, 
     1. Go to **Tables** and then select **Account**.
     1. Select **Columns** in **Schema**.
     1. Search for the **customerid** column and copy the **Name** associated with it. In this example, the Name is **accountnumber**.
-    1. Combine the names. In our example, this will be customerid_account.accountnumber.
+    1. Combine the relationship names. In our example, this is **customerid_account.accountnumber**.
 1. Open your browser, press the F12 key to open the developer tools window.
 1. In the console window, enter the following command to display the customerid column on the case summary card:
    
