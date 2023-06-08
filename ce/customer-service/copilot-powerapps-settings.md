@@ -59,9 +59,38 @@ You can enable the Copilot features for custom apps in your organization. Perfor
 
 ## Add additional fields to case summary
 
-When you enable Copilot case summary, agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description. You can customize the case summary to display additional information. Perform the following steps to add additional fields:
+Out of the box, agents see the case summary with the following title, customer, case subject, product, priority, case type, and case description. You can customize the case summary to display additional information. Perform the following steps to add additional fields:
 
-1. 
+1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
+1. You'll need to find the table relationship between the required column you'd like to add to the summary card and the **Case** table. For example, you'd like to add the customerid column in the Account table to the case summary, do the following steps:
+    1. Go to **Tables** and select **Case**.
+    1. Select **Relationships** in **Schema**.
+    1. Search for the **Account** table, and copy the **Name** associated with it. In this example, the Name is **customerid_account**.
+    1. Go to **Tables** and then select **Account**.
+    1. Select **Columns** in **Schema**.
+    1. Search for the **customerid** column and copy the **Name** associated with it. In this example, the Name is **accountnumber**.
+    1. Combine the names. In our example, this will be customerid_account.accountnumber.
+1. Open your browser, press the F12 key to open the developer tools window.
+1. In the console window, enter the following command:
+   
+   ```
+    var data =
+    // update data
+    Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "7fa56176-c226-45e5-b8fa-25d56e0dcc21", 
+    {
+        "msdyn_casesummaryconfiguration": "{\"case_attributes\": \"title=title,description=description,product_name=customerid_account.accountnumber,priority=prioritycode,subject=subjectid.title,customer=customerid_contact.fullname,casetype=casetypecode\"}"
+    }).then(
+    function success(result) {
+        console.log("Record updated");
+        // perform operations on record update
+    },
+    function (error) {
+        console.log(error.message);
+        // handle error conditions
+    }
+    );
+  ```
+1. Repeat the steps for the rest of the columns you want to add to the case summary. 
 
 ### Next steps
 
