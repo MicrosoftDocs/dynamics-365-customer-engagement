@@ -265,10 +265,7 @@ Here are the output parameters for this action. The below parameters are returne
 
 | Output parameters  | Type   | Details                                                                                                                                                                             |
 |---------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|AggregatedDeviceReadings         | String | 
-
-
-
+|AggregatedDeviceReadings         | String |
 
 Sample output:
 

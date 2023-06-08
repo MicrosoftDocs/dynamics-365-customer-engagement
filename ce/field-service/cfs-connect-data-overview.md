@@ -16,7 +16,7 @@ Choosing the right IoT solution for your business is a challenge. Often, there's
 
 [Azure IoT Hub](/azure/iot-hub/iot-concepts-and-iot-hub) is a cloud-based platform-as-a-service (PaaS) solution that provides a secure and scalable platform for connecting, monitoring, and managing IoT devices. It's also our out of the box solution for Connected Field Services. With Azure IoT Hub, you can [collect data from millions of devices and send that data to the cloud](/azure/iot-hub/iot-hub-devguide-endpoints) for analysis, insights, and action. Azure IoT Hub also enables bidirectional communication between IoT devices and the cloud, allowing you to remotely monitor and control your devices from anywhere.
 
-// A picture containing circle, colorfulness, graphics
+:::image type="content" source="IoT-Hub-diagram.svg" alt-text="Diagram with the architecture for Connected Field Service that uses Azure IoT Hub as IoT provider.":::
 
 ## Microsoft services using service endpoints
 
