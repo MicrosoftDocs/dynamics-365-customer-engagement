@@ -75,7 +75,7 @@ You can add multiple bots to a workstream based on your business requirements.
 
 ### Region availability and language support
 
-To know about the regions and supported languages, see [Supported regions and languages](../customer-service/cs-region-availability-service-limits.md).
+To learn about the regions and supported languages, see [Supported regions and languages](../customer-service/cs-region-availability-service-limits.md).
 
 ### See also
 
