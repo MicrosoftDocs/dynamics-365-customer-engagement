@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Dynamics 365 Customer Service | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 04/20/2023
+ms.date: 06/08/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -257,9 +257,9 @@ By default, a contact for unknown email sender is created with the email owner c
 
  You can create or manage an automatic record creation and update rule from a queue form. To learn more, see [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
 
-## Use activity monitor to review and track rules
+## Manage activity monitor to review and track rules
 
-You can review and track the health of the automatic record creation rules and resolve issues around them. By default, the activity monitor captures failed events. You can customize the events that you want to monitor by using the monitor options in the application.
+You can review and track the health of the automatic record creation rules and resolve issues around them. By default, the activity monitor captures all the states. You can customize the events that you want to monitor by deselecting the monitor options in the application.
 
 > [!NOTE]
 > - Activity monitor is supported only with online environments, such as cloud applications, and not with on-premises environments.
@@ -291,13 +291,10 @@ Perform the following steps to use the activity monitor for the rules:
     > - If you navigate to an active rule from the activity monitor page, a message appears stating that the rule is active and therefore is read-only.
     > - The legacy rules will also be monitored and listed on the activity monitor view.
 
-4. Perform the following steps to turn on or off monitoring for the states:
-   1. Select **Monitor options** on the command bar. The **Monitor options** dialog appears.
-   2. Select any or all the following states:
+4. If you don't want to monitor any of the following states, you can deselect the state on the **Monitor options** dialog.
       - Ready for Power Automate / workflow
       - Failed
       - Skipped
-
 
 ### Troubleshoot cases
 
