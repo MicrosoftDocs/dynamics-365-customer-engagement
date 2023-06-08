@@ -22,13 +22,13 @@ Choosing the right IoT solution for your business is a challenge. Often, there's
 
 Service endpoints are a popular hybrid integration pattern used to connect your IoT solution with Field Service, allowing your organization to collect and analyze real-time data from IoT devices. For example, using [Azure Event Hubs, a cloud-based service that is designed for large-scale event ingestion and processing scenarios](/azure/iot-hub/iot-hub-compare-event-hubs) for significant data volume that gets generated from a large number of devices or systems. It's ideal for scenarios where the focus is on ingesting and processing data quickly and then sending it to other services for further processing or analysis. Azure Event Hubs is scalable and fully managed, providing a reliable event ingestion service that can process and store millions of events per second.  
 
-// A picture containing circle, colorfulness, graphics
+:::image type="content" source="media/IoT-ServiceEndpoint-diagram.svg" alt-text="Diagram with the Connected Field Service architecture using service endpoints.":::
 
 ## Multicloud strategy
 
 With a multicloud strategy, you can choose the cloud provider that best fits your needs for each application or service. Take advantage of the unique strengths and capabilities of each provider, and quickly adapt to changing business needs.
 
-// A picture containing yellow, circle, amber
+:::image type="content" source="media/IoT-multicloud-diagram.svg" alt-text="Diagram with simplified architecture for multicloud solutions.":::
 
 <!--
 ## Supported Developer Scenarios
