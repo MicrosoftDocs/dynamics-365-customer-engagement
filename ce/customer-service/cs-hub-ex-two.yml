@@ -1,7 +1,7 @@
 ### YamlMime:Hub
 
 title:  Dynamics 365 Customer Service documentation
-summary: Discover how to make the most of Dynamics 365 Customer Service with online training courses, docs, and videos covering product capabilities and how-to articles. Learn about the suite of capabilities that Dynamics 365 Customer Service provides and ensure that your business delivers the best customer service experience to your customers.
+summary: Discover how to make the most of Dynamics 365 Customer Service with training, docs, and videos covering product capabilities and how-to articles. Learn about the suite of capabilities that Customer Service provides and ensure that your business delivers the best customer service experience to your customers.
 brand: dynamics
 
 metadata:
@@ -87,7 +87,7 @@ additionalContent:
         text: Live chat SDK Reference
       - url: develop-live-chat-widget.md
         text: Develop a custom live chat widget
-    - title: Extend
+    - title: Customize
       links:
       - url: /dynamics365/customer-service/add-enhanced-case-management
         text: Customize the case resolution experience
@@ -127,14 +127,6 @@ additionalContent:
         text: Search knowledge articles effortlessly
       - url: /power-apps/user/add-activities
         text: Use the timeline to quickly view activities
-    - title: Use copilot features
-      links:
-      - url: /dynamics365/customer-service/configure-copilot-features
-        text: Manage copilot features in Customer Service
-      - url: /dynamics365/customer-service/copilot-powerapps-settings
-        text: Configure copilot features for custom case forms and custom apps
-      - url: /dynamics365/customer-service/use-copilot-features
-        text: Use Copilot to solve customer issues
     - title: Enable intelligent self-service
       links:
       - url: oc-view-ai-suggested-cases-articles.md
@@ -171,7 +163,7 @@ additionalContent:
         text: Analyze agent actions with knowledge search insights 
       - url: /dynamics365/customer-service/oc-conversation-dashboard
         text: Get insights into conversation volume drivers
-    - title: Collaborate over Teams chat
+    - title: Collaborate using Teams chat
       links:      
       - url: use-teams-chat.md
         text: Collaborate without switching context
@@ -179,7 +171,7 @@ additionalContent:
         text: Use Teams meetings 
       - url: /dynamics365/customer-service/use-customer-support-swarming
         text: Use customer support swarming to resolve issues 
-    - title: Know your apps
+    - title: Do more with apps
       links:
       - url: cs-admin-center.md
         text: Admins-Use Customer Service admin center 
@@ -202,4 +194,7 @@ additionalContent:
         - title: Microsoft Power Virtual Agents
           summary: Build chatbots easily with Power Virtual Agents.
           url: /power-virtual-agents/
+        - title: Digital Contact Center Platform
+          summary: Learn about Microsoft Digital Contact Center Platform, and how to deploy and configure Nuance IVR and Gatekeeper, Microsoft Dynamics 365, Power Virtual Agents, Azure Communication Services, and Teams to enhance and support your digital contact center.
+          url: /digital-contact-center-platform/
        
