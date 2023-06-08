@@ -47,10 +47,10 @@ additionalContent:
       links: 
       - url: trial-signup.md
         text: Sign up for a trial
+      - url: buy-fs.md
+        text: Buy a subscription
       - url: install-field-service.md
-        text: Install Field Service web app
-      - url: mobile-power-app-get-started.md
-        text: Install Field Service mobile app
+        text: Install Field Service
       - url: /dynamics365/get-started/release-schedule
         text: Get preview features
     - title: Set up 
@@ -70,7 +70,7 @@ additionalContent:
       
   - title: Administer and develop Field Service
     items:
-    - title: Administer
+    - title: Administer service
       links:
       - url: field-service-maps-address-locations.md
         text: Set up location and map settings
@@ -94,6 +94,22 @@ additionalContent:
         text: Enable push notifications
       - url: mobile-power-app-system-offline.md
         text: Configure offline capabilities
+    - title: Administer and develop Connected Field Service
+      links:
+      - url: /developer/connected-field-service-architecture.md
+        text: Architecture of Connected Field Service
+      - url: /installation-setup-iothub.md
+        text: Configure Connected Field Service for Azure IoT Hub
+      - url: /developer/connected-field-service-developer-guide.md
+        text: Develop customized IoT solutions
+    - title: Administer Resource Scheduling Optimization Add-in
+      links:
+      - url: rso-overview.md
+        text: Resource Scheduling Optimization Add-in overview
+      - url: rso-get-install.md
+        text: Get Resource Scheduling Optimization
+      - url: rso-quickstart.md
+        text: Deploy and set up Resource Scheduling Optimization
   - title: Use Field Service
     items:
     - title: Work orders

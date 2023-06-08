@@ -5,15 +5,18 @@ items:
 - name: Field Service documentation
   href: index.yml
 
-- name: Try for free
-  items:
-  - name: Sign up for free trial
-    href: trial-signup.md
-  - name: Trial FAQs
-    href: trial-faq.md
-
 - name: Get started
-  href: field-service-get-started.md
+  items:
+  - name: Try for free
+    items:
+      - name: Sign up for free trial
+        href: trial-signup.md
+      - name: Trial FAQs
+        href: trial-faq.md
+  - name: Buy a subscription
+    href: buy-fs.md
+  - name: Get started
+    href: field-service-get-started.md
 
 - name: What's new
   items:
