@@ -55,7 +55,7 @@ Out of the box, agents see the case summary with the following title, customer, 
 1. In the console window, enter the following command to display the customerid column on the case summary card:
    
    ```
-    var data =
+        var data =
     // update data
     Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "7fa56176-c226-45e5-b8fa-25d56e0dcc21", 
     {
@@ -70,9 +70,9 @@ Out of the box, agents see the case summary with the following title, customer, 
         // handle error conditions
     }
     );
-  ```
-1. Repeat the steps for the rest of the columns you want to add to the case summary. 
 
+   ```
+1. Repeat the steps for the rest of the columns you want to add to the case summary. 
 
 ## Disable display of Copilot-generated case summaries
 
