@@ -154,7 +154,7 @@ additionalContent:
         text: Connected Field Service on mobile
     - title: Resource Scheduling Optimization Add-in
       links:
-      - url: rso-overview
+      - url: rso-overview.md
         text: Resource Scheduling Optimization overview
       - url: rso-schedule-optimization.md
         text: Schedule optimization
