@@ -1,10 +1,10 @@
 ---
 title: Smart assist for agent efficiency 
-description: "Learn how to smartly assist agents with the next-best steps in Customer Service workspace and Omnichannel for Customer Service apps."
+description: Learn how to smartly assist agents with the next-best steps in Customer Service workspace and Omnichannel for Customer Service apps.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 02/28/2023
+ms.date: 06/08/2023
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -50,9 +50,10 @@ To enable AI-suggested similar cases and knowledge articles, see [Enable AI sugg
 ## Enable smart assist for the bot framework in Omnichannel for Customer Service
 
 To enable smart assist for the bot framework in Omnichannel for Customer Service, perform the following steps:
+
 1. [Create a bot user](#step-1-create-a-bot-user)
 
-2. [Add smart assist bot to a workstream](#step-2-add-smart-assist-bot-to-a-workstream)
+1. [Add smart assist bot to a workstream](#step-2-add-smart-assist-bot-to-a-workstream)
 
 ### Create a bot user<a name="step-1-create-a-bot-user"></a>
 
@@ -71,6 +72,10 @@ After you create a bot user, you need to add the bot to the workstream so that a
 3. In the **Add from existing** panel, select a bot user from the list, and then select **Add**.
 
 You can add multiple bots to a workstream based on your business requirements.
+
+### Region availability and language support
+
+To know about the regions and supported languages, see [Supported regions and languages](../customer-service/cs-region-availability-service-limits.md).
 
 ### See also
 
