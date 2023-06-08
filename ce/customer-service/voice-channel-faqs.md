@@ -134,9 +134,9 @@ More information:
 
 Yes, the voice channel supports emergency calling; agents can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
 
-### What are the charges applicable for using voice channel?
+### Are charges applicable for using the voice channel?
 
-The Dynamics 365 Customer Service voice channel is built on Azure Communication Services. Billing for Azure Communication Services uses a pay-as-you-go model and varies per country. Calling and screen-sharing services are billed per minute per participant. More information: [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md)
+Yes. To understand the pricing calculation of various scenarios, see: [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md)
 
 ### See also
 
