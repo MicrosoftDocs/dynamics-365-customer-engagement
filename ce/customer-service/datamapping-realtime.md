@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Data mapping for real-time analytics
 
-This article describes the Data Analysis Expressions (DAX) logic for real-time metrics. More information: [Data Analysis Expressions (DAX) Reference](https://learn.microsoft.com/en-us/dax/)
+This article describes the Data Analysis Expressions (DAX) logic for real-time metrics. More information: [DAX function reference](/dax/dax-function-reference)
 
 For details on real-time metrics, go to [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
@@ -93,7 +93,7 @@ FactConversation[ConversationFirstWaitTimeInSeconds]
 - Avg. conversation time (sec): `AVERAGE ( FactConversation[ConversationTimeInSeconds] )`
 - Avg. conversation wrap up time: ` AVERAGE(FactConversation[ConversationWrapUpTimeInSeconds])`
 - Avg. handle time (sec): `AVERAGE(FactConversation[ConversationHandleTimeInSeconds])`
-- Avg. speed to answer time (sec):
+- Avg. speed to answer time (sec)
 ```
 AVERAGEX ( 
     FactConversation, 
@@ -106,7 +106,7 @@ AVERAGEX (
 ) 
 ```
 - Closed conversation: `SUMX ( FactConversation, IF ( FactConversation[StatusCode] == 4, 1, 0 ) )`
-- Conversation first wait time (sec): 
+- Conversation first wait time (sec) 
 ```
 SUMX ( 
     FactConversation, 
@@ -118,8 +118,7 @@ SUMX (
 ) 
 ```
 - Conversation handle time (sec): `SUM(FactConversation[ConversationHandleTimeInSeconds]`
-- Conversation id: Attribute
-- Conversations in queue: 
+- Conversations in queue 
 ```
 Conversations in queue =  
     SUMX ( 
@@ -134,31 +133,28 @@ Conversations in queue =
         ) 
     )
 ```
-- ConversationTalkTimeInSeconds: Attribute 
-- Created on: Attribute 
-- Incoming conversation: 
+- Incoming conversation 
 ```
 SUMX ( FactConversation, IF ( NOT 
 FactConversation[DirectionCode], 1, 0 ) )
 ```
-- Longest wait time (sec):
+- Longest wait time (sec)
 ```
 AXX(FactConversation, IF(NOT 
 FactConversation[DirectionCode], 
 FactConversation[CurrentWaitTimeInSeconds], BLANK())) 
 ```
-- Ongoing conversations:
+- Ongoing conversations
 ```
 SUMX ( FactConversation, IF (
  FactConversation[IsOngoing], 1, 0 ) ) 
 ```
-- Open conversations: 
+- Open conversations 
 ```
 SUMX ( FactConversation, IF (
  FactConversation[statuscode] == 1, 1, 0 ) )
 ```
-- Sentiment: Attribute
-- Service level (10 seconds): 
+- Service level (10 seconds) 
 ```
 DIVIDE ( 
     SUMX ( 
@@ -183,20 +179,274 @@ DIVIDE (
     BLANK () 
 ) 
 ```
-- Service level (120 seconds): Similar to Service level (10 seconds)  
-- Service level (20 seconds): Similar to Service level (10 seconds)  
-- Service level (30 seconds): Similar to Service level (10 seconds)  
-- Service level (40 seconds): Similar to Service level (10 seconds)  
-- Service level (60 seconds): Similar to Service level (10 seconds)  
-- Title: Attribute
 - Total conversations: `COUNTROWS(FactConversation)`
-- Waiting conversations: 
+- Waiting conversations
 ```
 SUMX ( FactConversation, IF ( 
 FactConversation[statuscode] == 3, 1, 0 ) )
 ```
-- Wrap-up conversations:
+- Wrap-up conversations
 ```
  SUMX ( FactConversation, IF ( 
 FactConversation[statuscode] == 5, 1, 0 ) )
+```
+
+## FactSession
+
+- Active sessions: `SUMX(FactSession, IF(FactSession[SessionStateCode] = 192350001, 1, 0))`
+
+- Avg. session handle time (sec): `AVERAGE(FactSession[AgentHandlingTimeInSeconds])`
+
+- Closed sessions: `SUMX(FactSession, IF(FactSession[SessionStateCode] = 192350002, 1, 0))`
+
+- Engaged sessions: `SUMX(FactSession, IF(ISBLANK(FactSession[AgentAcceptedOn]), 0, 1))`
+
+- Rejected sessions: ` SUMX(FactSession, IF(FactSession[SessionClosureReasonCode] == 192350001, 1, 0))`
+
+- Session handle time (sec): `SUM(FactSession[AgentHandlingTimeInSeconds])`
+
+- Session rejection rate: 
+```
+DIVIDE ( 
+
+    SUMX ( 
+
+        FactSession, 
+
+        IF ( FactSession[SessionClosureReasonCode] == 192350001, 1, 0 ) 
+
+    ), 
+
+    SUMX ( 
+
+        FactSession, 
+
+        IF ( FactSession[SessionStateCode] == 192350002, 1, BLANK () ) 
+
+    ), 
+
+    BLANK () 
+
+) 
+```
+- Session time to accept (sec): `SUM(FactSession[TimeToAcceptInSeconds])`
+- Session time to reject (sec): `SUM(FactSession[TimeToRejectInSeconds])`
+- Session timeout rate:
+```
+DIVIDE ( 
+
+    SUMX ( 
+
+        FactSession, 
+
+        IF ( FactSession[SessionClosureReasonCode] == 192350002, 1, 0 ) 
+
+    ), 
+
+    SUMX ( 
+
+        FactSession, 
+
+        IF ( FactSession[SessionStateCode] == 192350002, 1, BLANK () ) 
+
+    ), 
+
+    BLANK () 
+
+) 
+```
+- Session transfer rate
+```
+DIVIDE ( 
+
+    SUMX ( FactSession, IF ( FactSession[IsTransferredOut], 1, 0 ) ), 
+
+    SUMX ( 
+
+        FactSession, 
+
+        IF ( ISBLANK ( FactSession[AgentAcceptedOn] ), BLANK (), 1 ) 
+
+    ), 
+
+    BLANK () 
+
+) 
+```
+- Session wait time (sec): `SUM(FactSession[SessionWaitTimeInSeconds])`
+- Timeout sessions: 
+```
+SUMX(FactSession, IF(FactSession[SessionStateCode] = 192350002 && FactSession[SessionClosureReasonCode] = 192350002, 1, 0))
+```
+- Total sessions: `COUNTROWS()`
+- Transferred sessions: 
+```
+ SUMX ( FactSession, IF ( FactSession[IsTransferredOut], 1, 0 ) )
+```
+
+## FactSessionParticipant 
+- Session participant count: `COUNTROWS(FactSessionParticipant)`
+
+## FactAgentStatusHistory 
+- Status duration (mins):
+```
+CALCULATE ( 
+
+    SUM ( FactAgentStatusHistory[DuringInSeconds] ) / 60.00, 
+
+    USERELATIONSHIP ( FactAgentStatusHistory[PresenceId], DimAgentPresence[PresenceId] ) 
+
+) 
+```
+
+## FactAgentCapacityProfile
+
+- Assigned capacity profile count 
+```
+SUMX ( 
+
+        FactAgentCapacityProfile, 
+
+        IF ( NOT RELATED ( DimAgentPresence[BasePresenceStatusId] ) == 192360004, 1, 0 ) 
+
+    ) 
+```
+- Available capacity
+```
+SUMX ( 
+
+        FactAgentCapacityProfile, 
+
+        IF ( 
+
+            NOT RELATED ( DimAgentPresence[BasePresenceStatusId] ) == 192360004, 
+
+            FactAgentCapacityProfile[AvailableProfileUnits], 
+
+            0 
+
+        ) 
+
+    )
+```
+- Total capacity: `SUM ( FactAgentCapacityProfile[DefaultMaxProfileUnits] )`
+- Total work item capacity in use: `SUM ( FactAgentCapacityProfile[OccupiedProfileUnits] )`
+
+### FactAgentCapacityUnit
+
+- Logged in agents:
+```
+SUMX ( 
+
+        FactAgentCapacityUnit, 
+
+        IF ( NOT RELATED ( DimAgentPresence[BasePresenceStatusId] ) == 192360004, 1, 0 ) 
+
+    ) 
+```
+- Total agents: `COUNTROWS ( FactAgentCapacityUnit )`
+- Total capacity: `SUM ( FactAgentCapacityUnit[DefaultMaxCapacityUnits] )`
+- Units available:
+```
+SUMX ( 
+
+        FactAgentCapacityUnit, 
+
+        IF ( 
+
+            NOT RELATED ( DimAgentPresence[BasePresenceStatusId] ) == 192360004, 
+
+            FactAgentCapacityUnit[AvailableCapacityUntis], 
+
+            0 
+
+        ) 
+
+    )
+```
+- Units occupied: `SUM ( FactAgentCapacityUnit[OccupiedCapacityUnits] )`
+
+## FactConversationMessageBlock 
+
+- Agent response service level (60 seconds): 
+
+```
+DIVIDE ( 
+
+    SUMX ( 
+
+        FactConversationMessageBlock, 
+
+        IF ( 
+
+            FactConversationMessageBlock[ReponseTimeInSecondsAdjustedForOperationHour] <= 60, 
+
+            1, 
+
+            0 
+
+        ) 
+
+    ), 
+
+    COUNTROWS ( FactConversationMessageBlock ), 
+
+    BLANK () 
+
+)
+```
+- Average agent response time (sec): `AVERAGE( FactConversationMessageBlock[AgentReponseTimeInSecondsAdjustedForOperationHour])`
+
+- Average first response time (sec): 
+```
+AVERAGEX ( 
+
+    FactConversationMessageBlock, 
+
+    IF ( 
+
+        FactConversationMessageBlock[IsFirstResponseTime], 
+
+        FactConversationMessageBlock[ReponseTimeInSecondsAdjustedForOperationHour], 
+
+        BLANK () 
+
+    ) 
+
+) 
+```
+- First response time:
+
+```
+DIVIDE ( 
+
+    SUMX ( 
+
+        FactConversationMessageBlock, 
+
+        IF ( 
+
+            FactConversationMessageBlock[ReponseTimeInSecondsAdjustedForOperationHour] <= 60 
+
+                && FactConversationMessageBlock[IsFirstResponseTime], 
+
+            1, 
+
+            BLANK () 
+
+        ) 
+
+    ), 
+
+    SUMX ( 
+
+        FactConversationMessageBlock, 
+
+        IF ( FactConversationMessageBlock[IsFirstResponseTime], 1, BLANK () ) 
+
+    ), 
+
+    BLANK () 
+
+)
 ```
