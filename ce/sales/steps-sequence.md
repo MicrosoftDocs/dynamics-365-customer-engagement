@@ -32,7 +32,7 @@ When creating a sequence, you can add the following types of activities as steps
 ## A/B test
 
 The A/B tests help you to examine your trigger-based sequence path, allowing you to gain insights into how best to reach your customers.  
-Using A/B tests, you can measure which channel or content messaging strategy leads to higher success. Each test compares a control group of users (version A) against a variant (version B). The control group receives a default experience. The variant group receives a different experience or message. By comparing the results of the groups, you can determine which is the most effective.  
+Using A/B tests, you can measure which channel or content messaging strategy leads to higher success. Each test compares a control group of users (version A) against a variant (version B). The control group receives a default experience. The variant group receives a different experience or message. By comparing the results of the groups, you can determine which one is the most effective.  
 The sequence usually runs the entire test automatically. The test starts by sending versions A and B to a small part of your audience as they funnel through the sequence. The sequence then analyzes the interaction results and chooses a winner based on your selected criteria (click through, open rate, or sequence goal). The sequence then sends the winning version to the rest of your audience automatically.  
 
 To create and add A/B test:
