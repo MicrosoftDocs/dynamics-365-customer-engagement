@@ -205,7 +205,7 @@ FactConversation[statuscode] == 5, 1, 0 ) )
 
 - Session handle time (sec): `SUM(FactSession[AgentHandlingTimeInSeconds])`
 
-- Session rejection rate: 
+- Session rejection rate
 ```
 DIVIDE ( 
 
@@ -231,7 +231,7 @@ DIVIDE (
 ```
 - Session time to accept (sec): `SUM(FactSession[TimeToAcceptInSeconds])`
 - Session time to reject (sec): `SUM(FactSession[TimeToRejectInSeconds])`
-- Session timeout rate:
+- Session timeout rate
 ```
 DIVIDE ( 
 
@@ -274,21 +274,19 @@ DIVIDE (
 ) 
 ```
 - Session wait time (sec): `SUM(FactSession[SessionWaitTimeInSeconds])`
-- Timeout sessions: 
+- Timeout sessions 
 ```
 SUMX(FactSession, IF(FactSession[SessionStateCode] = 192350002 && FactSession[SessionClosureReasonCode] = 192350002, 1, 0))
 ```
 - Total sessions: `COUNTROWS()`
-- Transferred sessions: 
-```
- SUMX ( FactSession, IF ( FactSession[IsTransferredOut], 1, 0 ) )
-```
+- Transferred sessions: `
+ SUMX ( FactSession, IF ( FactSession[IsTransferredOut], 1, 0 ) )`
 
 ## FactSessionParticipant 
 - Session participant count: `COUNTROWS(FactSessionParticipant)`
 
 ## FactAgentStatusHistory 
-- Status duration (mins):
+- Status duration (mins)
 ```
 CALCULATE ( 
 
@@ -334,7 +332,7 @@ SUMX (
 
 ### FactAgentCapacityUnit
 
-- Logged in agents:
+- Logged in agents
 ```
 SUMX ( 
 
@@ -346,7 +344,7 @@ SUMX (
 ```
 - Total agents: `COUNTROWS ( FactAgentCapacityUnit )`
 - Total capacity: `SUM ( FactAgentCapacityUnit[DefaultMaxCapacityUnits] )`
-- Units available:
+- Units available
 ```
 SUMX ( 
 
@@ -368,7 +366,7 @@ SUMX (
 
 ## FactConversationMessageBlock 
 
-- Agent response service level (60 seconds): 
+- Agent response service level (60 seconds) 
 
 ```
 DIVIDE ( 
@@ -397,7 +395,7 @@ DIVIDE (
 ```
 - Average agent response time (sec): `AVERAGE( FactConversationMessageBlock[AgentReponseTimeInSecondsAdjustedForOperationHour])`
 
-- Average first response time (sec): 
+- Average first response time (sec) 
 ```
 AVERAGEX ( 
 
@@ -415,7 +413,7 @@ AVERAGEX (
 
 ) 
 ```
-- First response time:
+- First response time
 
 ```
 DIVIDE ( 
