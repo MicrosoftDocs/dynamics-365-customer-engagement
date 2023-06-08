@@ -40,7 +40,7 @@ When you enable the Copilot case summary feature, agents can see the case summar
 
 ### Add additional fields to case summary
 
-Out of the box, agents see the case summary with the following title, customer, case subject, product, priority, case type, and case description. You can customize the case summary to display additional information. Perform the following steps to add additional fields:
+Out of the box, agents see the case summary with the case title, customer, case subject, product, priority, case type, and case description. You can customize the case summary to display additional information. Perform the following steps to add additional fields:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. You'll need to find the table relationship between the required column you'd like to add to the summary card and the **Case** table. For example, you'd like to add the customerid column in the Account table to the case summary, do the following steps:
