@@ -21,6 +21,10 @@ Keep track of changes on the [Dynamics 365 Sales release planner](https://experi
 
 Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.microsoft.com/sales/overview/) site.
 
+## May 2023 release
+
+No new features or enhancements were released in May 2023. We'll be back in June with more updates.
+
 ## April 2023 release
 
 We're excited to announce our newest updates! This article summarizes early access, public preview, and general availability features that were released in the month of April.
