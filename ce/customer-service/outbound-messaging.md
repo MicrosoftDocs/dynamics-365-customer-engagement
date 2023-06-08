@@ -12,8 +12,6 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for only SMS and WhatsApp channels.
 
 As an administrator, you can do the following tasks:
@@ -61,7 +59,7 @@ You can set up the outbound configuration in the Customer Service admin center o
 
      The **Active Outbound Configurations** page is displayed.      
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
     
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Outbound** section, select **Manage**.
