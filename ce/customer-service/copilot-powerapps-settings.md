@@ -38,21 +38,32 @@ When you enable the Copilot case summary feature, agents can see the case summar
 1. Set the **Show hidden** toggle to **On**.
 1. Save and publish the customizations.
 
-### Add additional fields to case summary
+### Modify fields used to generate case summary
 
-Out of the box, agents see the case summary with the case title, customer, case subject, product, priority, case type, and case description. You can customize the case summary to display additional information. Perform the following steps to add additional fields:
+Out of the box, the following keys are supported to generate the case summary:
+
+- title=title
+- description = description
+- product_name =productid.name
+- priority=prioritycode
+- subject=subjectid.title
+- customer=customerid_contact.fullname
+- casetype=casetypecode
+
+You can customize what agents see on the case summary card by modifying these key values. Perform the following steps to modify the default case summary:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-1. You'll need to find the table relationship between the required column you'd like to add to the summary card and the **Case** table. For example, you'd like to add the customerid column in the Account table to the case summary, do the following steps:
+1. You'll need to find the relationship between the value you'd like to see to the summary card and the **Case** table. For example, you'd like agents to see Customer id on the case summary instead of the product name. The customer id should populate the value of the **customerid** column in the **Account table**. To create a relationship between customer id and case, do the following steps:
     1. Go to **Tables** and select **Case**.
     1. Select **Relationships** in **Schema**.
-    1. Search for the **Account** table, and copy the **Name** associated with it. In this example, the Name is **customerid_account**.
+    1. Search for the **Account** table, and copy the **Name** associated with it. In the example, the Name is **customerid_account**.
     1. Go to **Tables** and then select **Account**.
     1. Select **Columns** in **Schema**.
-    1. Search for the **customerid** column and copy the **Name** associated with it. In this example, the Name is **accountnumber**.
+    1. Search for the **customerid** column and copy the **Name** associated with it. In the example, the Name is **accountnumber**.
     1. Combine the relationship names. In our example, this is **customerid_account.accountnumber**.
-1. Open your browser, press the F12 key to open the developer tools window.
-1. In the console window, enter the following command to display the customerid column on the case summary card:
+1. Replace the default configuration keys in `msdyn_casesummaryconfiguration` with the required value. Perform the following steps to update the value: 
+    1. Open your browser, press the F12 key to open the developer tools window.
+    1. In the console window, enter the following command to display the customerid column on the case summary card:
    
    ```
         var data =
@@ -72,7 +83,8 @@ Out of the box, agents see the case summary with the case title, customer, case 
     );
 
    ```
-1. Repeat the steps for the rest of the columns you want to add to the case summary. 
+
+Repeat the steps to replace other key values.
 
 ## Disable display of Copilot-generated case summaries
 
