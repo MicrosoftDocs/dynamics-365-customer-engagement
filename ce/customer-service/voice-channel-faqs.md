@@ -134,9 +134,9 @@ More information:
 
 Yes, the voice channel supports emergency calling; agents can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
 
-### Are charges applicable for using the voice channel?
+### What are the applicable pricing scenarios for using the voice channel?
 
-Yes. To understand the pricing calculation of various scenarios, see: [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md)
+To understand the pricing calculation of various scenarios, see [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
 
 ### See also
 
