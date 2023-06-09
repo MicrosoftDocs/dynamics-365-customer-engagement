@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: m-hartmann
   ms.author: mhart
-  ms.date: 05/23/2023
+  ms.date: 06/09/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -68,44 +68,24 @@ additionalContent:
       - url: /power-platform/admin/microsoft-dynamics-365-government
         text: Dynamics 365 US Government
       
-  - title: Administer and develop Field Service
+  - title: Administer Field Service
     items:
-    - title: Administer service
+    - title: Administer
       links:
       - url: field-service-maps-address-locations.md
         text: Set up location and map settings
-      - url: set-up-tax-codes.md
-        text: Set up tax codes
       - url: create-price-list.md
         text: Set up price lists
-    - title: Administer resource scheduling
-      links:
       - url: schedule-new-entity.md
         text: Enable an entity for scheduling
       - url: set-up-booking-statuses.md
         text: Set up booking statuses
-      - url: turn-on-auto-geocoding.md
-        text: Enable automatic geocoding
-    - title: Administer mobile app
+    - title: Administer add-ons
       links:
-      - url: mobile-powerapp-location-auditing.md
-        text: Enable location tracking
-      - url: mobile-power-app-push-notifications.md
-        text: Enable push notifications
-      - url: mobile-power-app-system-offline.md
-        text: Configure offline capabilities
-    - title: Administer and develop Connected Field Service
-      links:
-      - url: /developer/connected-field-service-architecture.md
-        text: Architecture of Connected Field Service
-      - url: /installation-setup-iothub.md
-        text: Configure Connected Field Service for Azure IoT Hub
-      - url: /developer/connected-field-service-developer-guide.md
-        text: Develop customized IoT solutions
-    - title: Administer Resource Scheduling Optimization Add-in
-      links:
-      - url: rso-overview.md
-        text: Resource Scheduling Optimization Add-in overview
+      - url: connected-field-service.md
+        text: Connected Field Service overview
+      - url: cfs-security-roles.md
+        text: Configure security roles for Connected Field Service
       - url: rso-get-install.md
         text: Get Resource Scheduling Optimization
       - url: rso-quickstart.md
@@ -144,14 +124,6 @@ additionalContent:
         text: Quick scheduling
       - url: configure-schedule-board.md
         text: Use and configure the schedule board
-    - title: Integrations
-      links:
-      - url: field-service-teams-collaboration.md
-        text: Collaborate with Teams
-      - url: supply-chain-field-service-integration.md
-        text: Integrate with Dynamics 365 Supply Chain Management
-      - url: mixed-reality-guides-integration.md
-        text: Integrate with Dynamics 365 Guides
     - title: Mobile app
       links:
       - url: mobile-power-app-overview.md
@@ -160,6 +132,22 @@ additionalContent:
         text: Use the mobile app
       - url: mobile-powerapp-booking-maps.md#view-booking-map-on-mobile-app
         text: View booking map
+    - title: Agreements, inventory, and purchasing
+      links:
+      - url: set-up-customer-agreements.md
+        text: Agreements to automatically generate work orders and invoices
+      - url: sla-work-orders.md
+        text: Service level agreements
+      - url: inventory-purchasing-returns-overview.md
+        text: Inventory, purchasing, and returns
+    - title: Integrations
+      links:
+      - url: field-service-teams-collaboration.md
+        text: Collaborate with Teams
+      - url: supply-chain-field-service-integration.md
+        text: Integrate with Dynamics 365 Supply Chain Management
+      - url: mixed-reality-guides-integration.md
+        text: Integrate with Dynamics 365 Guides
     - title: Connected Field Service (IoT)
       links:
       - url: connected-field-service.md

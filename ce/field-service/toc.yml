@@ -1,9 +1,9 @@
 items:
-- name: Welcome to Field Service
-  href: overview.md
-
-- name: Field Service documentation
+- name: Dynamics 365 Field Service documentation
   href: index.yml
+
+- name: Welcome to Dynamics 365 Field Service
+  href: overview.md
 
 - name: Get started
   items:
@@ -477,8 +477,8 @@ items:
   items:
     - name: Video library
       href: https://www.youtube.com/channel/UC7Rd031NCJZekAkNU2bb8Kg/
-    - name: Learning paths
-      href: /training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path
+    - name: Community forum
+      href: https://community.dynamics.com/365/fieldservice
     - name: Submit a feature request
       href: https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service
     - name: Get help
