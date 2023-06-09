@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Overview of data model customization
 
-Data model customization helps you customize the out-of-the-box standard reports and add your own (key performance indicators) KPI and custom metrics to the reports to view the key metrics that are relevant to your organization.
+Data model customization helps you customize the out-of-the-box standard reports and add your own (key performance indicators) KPI and custom metrics, so that you can metrics that are relevant to your organization.
 
 As new features get added, metric definitions and calculations constantly need to be updated to account for additional workflows enabled by new features. Using the out-of-the-box model and creating only those metrics that are unique to your organization reduces the risk of metric definitions being outdated.
 
@@ -24,15 +24,15 @@ Every organization that has analytics enabled gets the analytics solution deploy
 
 However, the reports that are deployed for your organization are editable and customizable. With [visual customization](customize-reports.md), you can edit the reports to present the available data available as per your organizational requirements. For example, Dynamics 365 reads all the required data, performs the logic required to calculate the average handle time and makes it available for you in the data model. You can choose to edit and present this as a chart or a table, as required and drill down to see the average handle time for a queue or user. Visual customizations also give you the ability to leverage out-of-the-box metrics that aren't directly exposed, create new pivots, and analyze data with additional dimensions.
 
-Sometimes, you may run into scenarios where you would like to modify the data available in the dataset or the logic used to calculate the metrics in the dataset. The following section describes scenarios where you might need to modify the available data or the logic used to calculate the metrics in the dataset. These are typically driven by processes unique to your organization.
+Sometimes, you may have scenarios where you would like to modify the data available in the dataset or the logic used to calculate the metrics in the dataset. The following section describes scenarios where you might need to modify the available data or the logic used to calculate the metrics in the dataset. These are typically driven by processes unique to your organization.
 
 ### Scenario-based use cases
 
-- **Scenario 1**: You need to create variants of the default metrics provided in the datset, that are similar, but are different in the logic used. For example, while service-level metrics for 10, 20, 30, 40, 60 and 120 sec are provided in the Omnichannel real-time reports, you have a team that works on service levels of 150 seconds and wants to see that metric on the reports.  
+- **Scenario 1**: You need to create variants of the default metrics provided in the dataset, that are similar, but use a different logic. For example, while service-level metrics for 10, 20, 30, 40, 60 and 120 sec are provided in the Omnichannel real-time reports, you have a team that works on service levels of 150 seconds and wants to see that metric on the reports.  
 
-- **Scenario 2**: Your organization calculates a metric that is provided differently by default, but would like to compute it based on your organization's logic. For example, only the time spent by the primary agent (active agent who is owning and assigned to the conversation) is considered when calculating average handle time. For more information,on metrics, go to: [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics). Time spent by SMEs consulting is offered as a separate metric. Your organization wants to include this time in the handle time.
+- **Scenario 2**: Your organization calculates a metric that is provided differently by default, but would like to compute it based on your organization's logic. For example, only the time spent by the primary agent (active agent who is owning and assigned to the conversation) is considered when calculating average handle time. For more information on metrics, go to: [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics). Time spent by SMEs consulting is offered as a separate metric. Your organization wants to include this time in the handle time.
 
-- **Scenario 3**: Your organization has customized attributes on the out-of-the-box Dynamics entities or has custom entities to support your workflows and process and would like to include those attributes, metrics built on those attributes on the reports. In addition, your organization wants to report on out-of-the-box attributes that aren't included in the reports or the dataset by default. For example, your organization has customized user entity to include a region attribute and would like to get a drill down of the resolution time by region.  
+- **Scenario 3**: Your organization has customized attributes on the out-of-the-box Dynamics entities or has custom entities to support your workflows and process and would like to include those attributes, or metrics built on those attributes on the reports. In addition, your organization wants to report on out-of-the-box attributes that aren't included in the reports or the dataset by default. For example, your organization has customized user entity to include a region attribute and would like to get a drill down of the resolution time by region.  
 
 - **Scenario 4**: Your organization wants to build custom dashboards that bring data from multiple applications that your organization uses. For example, you might have an existing Power BI dashboard that brings operational data from your workforce management systems, and you would like to show Dynamics data like agent presence on these dashboards.
 
@@ -40,7 +40,7 @@ Sometimes, you may run into scenarios where you would like to modify the data av
 
 Data model customization helps you with [scenarios](#scenario-based-use-cases) and more. Data model customization deploys a copy of dataset used by out-of-the-box reports into your organization’s Power BI workspace, allowing you to build [composite models](/power-bi/transform-model/desktop-composite-models#enable-the-preview-feature).
 
-For historical data model, the dataset connects to the Azure Data Lake that hosts the transformed historical Dynamics data and exposes the metrics. For real-time data model, the dataset uses TDS connectors to connect directly to your Dynamics database and executes the logic needed to compute the real-time metrics.
+For historical data model, the dataset connects to the Azure Data Lake that hosts the transformed historical Dynamics data and exposes the metrics. For real-time data model, the dataset uses TDS connectors to connect directly to your Dynamics database and executes the logic required to compute the real-time metrics.
 
 By creating a local model within your workspace that connects to the Dynamics data model, you can create new metrics while retaining all the out-of-the-box metrics, thus saving time and effort. You can add the Dynamics data model to existing reports without having to rebuild them.  
  
@@ -89,5 +89,5 @@ These report copies can be edited and updated to suit your needs and are provide
 You can choose to specify the same workspace for both historical and real-time analytics.
 
 ## See also
-[Customize data models of historical analytics reports in Customer Service](model-customize-reports.md#customize-data-models-of-historical-analytics-reports-in-customer-service)  
+[Customize data models of historical and real-time analytics reports](model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)  
 [Customize visual display](customize-reports.md#customize-visual-display)

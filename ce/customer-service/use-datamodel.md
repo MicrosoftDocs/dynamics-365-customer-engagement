@@ -60,7 +60,7 @@ To add Dynamics 365 Customer Service dataset to existing reports:
 If you need to create a metric within the existing entities (as described in [Scenario 1 and Scenario 2](datamodel-overview.md#scenario-based-use-cases), perform the following steps:
 
 1. Go to [Power BI desktop](/power-bi/fundamentals/desktop-get-the-desktop) and open the report you want to edit.
-    Make sure you use the steps described in [Add Dynamics data to existing reports](#add-dynamics-data-to-existing-reports), to ensure that your report is connected to the Dynamics 365 Customer Service dataset.  
+    Make sure you use the steps described in [Add Dynamics 365 Customer Service dataset to existing reports](#add-dynamics-365-customer-service-dataset-to-existing-reports), to ensure that your report is connected to the Dynamics 365 Customer Service dataset.  
 
 1. Right-click on the entity for which you want to create your new metric.
 
@@ -124,7 +124,7 @@ If you need to get additional data, both from within Dynamics Customer Service a
 
 1. Go to [Power BI desktop](/power-bi/fundamentals/desktop-get-the-desktop) and open the report you want to edit.
 
-    Make sure you use the steps described in [Add Dynamics data to existing reports](#add-dynamics-data-to-existing-reports), to ensure that your report is connected to the dynamics data model.
+    Make sure you use the steps described in [Add Dynamics 365 Customer Service dataset to existing reports](#add-dynamics-365-customer-service-dataset-to-existing-reports), to ensure that your report is connected to the dynamics data model.
 
 1. Select the **Modeling** tab and then select **Make changes to this model**.
 
