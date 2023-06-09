@@ -65,10 +65,10 @@ Perform the following steps to enable the copilot features:
        - The state is set to Published
        - The locale is set to English
     - **SharePoint**: Use the federated search results from files, documents, or articles uploaded to a SharePoint site as a source. Supported files include: .doc, .docx, .pdf, .ppt, .pptx, .txt. When you enable this option, the top three relevant results are retrieved and Copilot generates the response based on these results.<br>
-    Select **Manage SharePoint providers** to add your SharePoint URL. See: [Set up a search provider](set-up-search-providers.md#set-up-a-search-provider). Make sure that your SearchPoint site is a part of the same tenant as the current organization.
+    Select **Manage SharePoint providers** to add your SharePoint URL. See: [Set up a search provider](set-up-search-providers.md#set-up-a-search-provider). Make sure that your SharePoint site is a part of the same tenant as the current organization.
 
     > [!NOTE]
-    > If SharePoint is configured as the knowledge source, when you ask follow up turn by turn questions, Copilot might not generate the responses that you're expecting. There, ee recommend that you ask individual direct questions.  
+    > If SharePoint is configured as the knowledge source, when you ask follow up turn by turn questions, Copilot might not generate the responses that you're expecting. Therefore, we recommend that you ask individual direct questions.  
 
 1. Copilot automatically refreshes your knowledge base and displays the date and time of when it was last updated. By default, the knowledge articles are refreshed every week.
 1. You can add up to five trusted web domains for Copilot to search when generating responses. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels, represented by forward slashes (/) after the .com part of the URL. 
