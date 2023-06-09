@@ -136,7 +136,7 @@ Yes, the voice channel supports emergency calling; agents can call the emergency
 
 ### What are the applicable pricing scenarios for using the voice channel?
 
-To understand the pricing calculation of various scenarios, see [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
+To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
 
 ### See also
 
