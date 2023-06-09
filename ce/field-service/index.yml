@@ -80,6 +80,16 @@ additionalContent:
         text: Enable an entity for scheduling
       - url: set-up-booking-statuses.md
         text: Set up booking statuses
+    - title: Administer mobile app
+      links:
+      - url: mobile-power-app-get-started.md
+        text: Install Field Service mobile app
+      - url: mobile-powerapp-booking-maps.md
+        text: Enable booking maps
+      - url: mobile-power-app-system-offline.md
+        text: Configure offline capabilities
+      - url: mobile-power-app-push-notifications.md
+        text: Enable push notifications
     - title: Administer add-ons
       links:
       - url: connected-field-service.md
@@ -98,8 +108,8 @@ additionalContent:
         text: Create a work order
       - url: work-order-status-booking-status.md
         text: Work order life cycle and statuses
-      - url: field-service-knowledge-management.md
-        text: Share information through knowledge articles
+      - url: inspections.md
+        text: Add inspections
     - title: Bookable resources
       links:
       - url: set-up-characteristics.md
