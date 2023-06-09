@@ -54,23 +54,6 @@ A work order is often created from a case, an agreement, or an opportunity. It g
   
 1. Select **Save** or **Save and close**.
 
-<!-- 
-## Work order user default settings
-
-### Open work order subgrids as popups
-
-Configure work order subentities to pop out as dialog boxes and edit them without having to leave the work order form. This configuration helps dispatchers keep the work order context. Administrators can enable the **Work Order Subgrid Records Open as Popups** setting in the settings area. For more information, go to [Other settings](configure-default-settings.md#other-settings).
-
-### Show simplified work order commands
-
-Since Field Service version 8.8.47, the work order ribbon is simplified by default. It shows only the most relevant commands. An administrator can disable the **Show Simplified Work Order Commands** setting to show all commands. For more information, go to [Work Order / Booking settings](configure-default-settings.md#work-order--booking-settings).
-
-Check out the following video on simplified work order commands and more updates to work orders.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWP4vU]
-
-->
-
 ## Next steps
 
 - [Create work order types](create-work-order-types.md)

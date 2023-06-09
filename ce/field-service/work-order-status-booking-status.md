@@ -58,12 +58,6 @@ Work orders use system statuses, work order substatuses, and booking statuses to
 |**Work order status**|Open - unscheduled|Open - scheduled|Open - scheduled|Open - scheduled, then open-completed|Open - completed then closed-posted|Closed-posted|  
 |**Work order schedule status**|N/A|Scheduled|Scheduled|Scheduled<br /><br /> Accepted/Declined<br /><br /> Custom Status|Completed|Completed|  
 
-<!--
-## Prerequisites
-
-> [!NOTE]
-> Work order system statuses should *never* be edited because system jobs and plug-ins rely on these statuses. Instead, administrators should create custom work order substatuses that relate to work order system statuses. -->
-
 ## Statuses in the work order lifecycle
 
 Field Service uses standard work order system statuses and booking statuses that map to a default work order lifecycle without any customizations. Many processes are triggered based on those statuses. A status change can automatically fill in data on the work order and trigger the next step in the work order process.
