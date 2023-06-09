@@ -23,7 +23,7 @@ The **Summary** report provides a summary of customer conversations over time, b
 
 Additionally, you can track customer sentiment to analyze whether customers are getting adequate support. For example, a high average handle time might indicate that agents are taking more than the required time to resolve customer issues. Depending on the issue, you can provide the required training or support to help agents resolve customer issues faster.
 
-By editing the visual display, you can add metrics to those that are already shown on the **Summary** report. For more information, go to [Customize visual display.](customize-reports.md)
+By editing the visual display, you can add metrics to the ones that are already shown on the **Summary** report. For more information, go to [Customize visual display](customize-reports.md).
 
 [Learn more about the metrics that are shown on the Summary report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
@@ -47,7 +47,7 @@ To view conversation analytics, select the **Show more** link on the **Conversat
 
 ### Agent availability status drill-down report
 
-To view additional details about agent analytics by queue, select the **Show more** link on the **Agent availability status** KPI. You can drill through agent analytics by selecting the **Availability status** or **Capacity unit** tab. These tabs will help you effectively manage agent activity in real time.
+To view more details about agent analytics by queue, select the **Show more** link on the **Agent availability status** KPI. You can drill through agent analytics by selecting the **Availability status** or **Capacity unit** tab. These tabs will help you effectively manage agent activity in real time.
 
 :::image type="content" source="media/realtime_summary-agent-analytics.png" alt-text="Screenshot of the Availability status tab on the drill-down report for the Agent availability status KPI.":::
 
