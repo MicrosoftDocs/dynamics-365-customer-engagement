@@ -48,8 +48,7 @@ Let’s understand the `msdyn_salessuggestion` entity attributes in detail.
 | Solution area | `msdyn_solutionarea` | Optionset | Broad category of the product or SKU. |
 | Sales play | `msdyn_salesplay` | Optionset | Narrow category of product, SKU, or sales strategy. |
 | Suggestion reason | `msdyn_suggestionreason` | String | Rationale or justification behind a particular insight that is provided. |
-| Suggestion insights | `msdyn_insight` | Multiline string | List of insights (the multi-line text is separated by Windows or Unix newline \r\n or \n). For example:
-Line1\nLine2\nLine3 is displayed in the widget as:<br>•	Line1<br>•	Line2<br>•	Line3 |
+| Suggestion insights | `msdyn_insight` | Multiline string | List of insights (the multi-line text is separated by Windows or Unix newline \r\n or \n). For example:<br>Line1\nLine2\nLine3 is displayed in the widget as:<br>•	Line1<br>•	Line2<br>•	Line3 |
 | Potential revenue | `msdyn_potentialrevenue` | Currency | The estimated revenue that this insight can bring. |
 | Owner | `ownerid` | User/team lookup | Owner's name on the record. |
 | statecode<br>statuscode | `statecode` <br> `statuscode`| Optionset | Customizable state and status of insight. The out-of-the-box values for `statcode` is:<br>•	Open (shown in worklist)<br>•	Completed (positive disposition)<br>•	Declined (negative disposition)<br>•	Qualified (converted to opportunity or engagement) |

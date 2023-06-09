@@ -31,6 +31,8 @@ Depending on your role, you can use the seller insights feature as described in 
     -	Configure who can use the seller insights feature. More information: [Manage access to view insights](manage-access-view-insights.md)
     -	Configure assignment rules to auto assign insights to sellers. More information: [Configure assignment rule to auto assign insights](configure-assignment-rule-auto-assign-insights.md)
 -	**Sales manager, seller, or any other similar role**:  
-    -	View insights on records. More information: 
-    -	Perform actions based on insights such as connecting a sequence, creating an activity, assigning to a seller, reassigning to self, and declining or closing. More information: 
+    -	View insights on records.  
+    -	Perform actions based on insights such as connecting a sequence, creating an activity, assigning to a seller, reassigning to self, and declining or closing.  
+    More information: [View and work on seller insights](view-understand-insights.md)
+    
 
