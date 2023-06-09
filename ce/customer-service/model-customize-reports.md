@@ -87,7 +87,7 @@ Specify the Power BI workspace where the Dynamics data model and reports will be
       - To use an existing workspace, select the workspace from the dropdown list.
       - To create a new workspace, select **Create new workspace**.
   
-      :::image type="content" source="media/workspace-historical.png" alt-text="Select a workspace to configure historical data model customization"::: 
+      :::image type="content" source="media/workspace-historical.png" alt-text="Select a workspace to configure historical data model customization":::
 
 ### [Real-time data model](#tab/realtimedatamodel)
 
