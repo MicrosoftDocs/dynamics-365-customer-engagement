@@ -42,7 +42,7 @@ This articles describes how you can create a new report that leverages the out-o
 
 To add Dynamics 365 Customer Service dataset to existing reports:
 
-1. Go to [Power BI service](app.powerbi.com), and then select the report from your custom workspace.
+1. Go to [Power BI service](https://msit.powerbi.com/), and then select the report from your custom workspace.
 1. Select **File > Download this file**.
 1. Select the option to download a copy of your report with a live connection to data online.
 1. Select **Get data** **>** **Power BI datasets**.
@@ -75,7 +75,7 @@ If you need to create a metric within the existing entities (as described in [Sc
 
 Here's an example, which describes how to create a new service level of 150 seconds for real-time reports.  
 
-1. Go to [Power BI service](app.powerbi.com), and then select the report from your custom workspace.
+1. Go to [Power BI service](https://msit.powerbi.com/), and then select the report from your custom workspace.
 
 1. Download the real-time report with live connection and open it in Power BI.
 
@@ -150,7 +150,7 @@ If you need to get additional data, both from within Dynamics Customer Service a
 
 Here's an example, which describes how to filter the out-of-the-box Customer service historical reports by a user’s title.  
 
-1. Go to [Power BI service](app.powerbi.com), and then select the report from your custom workspace.
+1. Go to [Power BI service](https://msit.powerbi.com/), and then select the report from your custom workspace.
 
 1. Download the Customer service historical analytics report with live connection and open it in Power BI.
 
