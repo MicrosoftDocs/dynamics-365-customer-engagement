@@ -109,8 +109,8 @@ Assign the Contoso insights for an account with potential revenue between 0 to 3
     1. To add the seller attributes, select **+ Seller attributes**.
     1. Enter a name and add row as Title > Equal > Area manager.
     1. Repeat the step 3 and add the rows as defined:
-        - Title > Equal > Specialist
-        - Title > Equal > Sales representative
+        - Title > Equals > Specialist
+        - Title > Equals > Sales representative
 
         Here, the area manager role can have multiple users in the team where a user is picked randomly to assign insights as a primary owner, and other users in the same group are secondary. Similarly, Specialist and Sales representative roles may have multiple users and they're all considered secondary.
 
