@@ -208,7 +208,7 @@ The mails from known senders only will be processed.
 
 The steps in this section are applicable only when you select the option to manually map in Power Automate in the **Manage unknown senders by** field on the **Advanced** tab of the record creation and update rule.
 
-The option to create the contact is based on the email sender's permission. If the email sender doesn't have permission to create a contact and you prefer to not give them this permission, you can configure an environment variable to use the permissions of the rule owner. More information: [Create contacts for unknown senders using rule owner context](#create-contacts-for-unknown-senders-using-rule-owner-context)
+The option to create the contact is based on the email recipient's permission. If the email recipient doesn't have permission to create a contact and you prefer to not give them this permission, you can configure an environment variable to use the permissions of the rule owner. More information: [Create contacts for unknown senders using rule owner context](#create-contacts-for-unknown-senders-using-rule-owner-context)
 
 To create a contact for unknown senders of mail, configure the following options in Power Automate for the associated rule item:
 
@@ -234,7 +234,7 @@ To create a contact for unknown senders of mail, configure the following options
 
 ### Create contacts for unknown senders using rule owner context
 
-By default, a contact for unknown email sender is created with the email owner context. To switch to use the rule owner permissions to create the new contact, you can configure the msdyn_ArcCreateContactWithRuleOwner environment variable as follows:
+By default, a contact for unknown email sender is created with the email recipient's context. To switch to use the rule owner permissions to create the new contact, you can configure the msdyn_ArcCreateContactWithRuleOwner environment variable as follows:
 
 1. Go to the [Power Apps](https://make.powerapps.com) portal.
 
