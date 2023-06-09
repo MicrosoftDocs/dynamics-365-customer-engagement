@@ -92,6 +92,8 @@ items:
       href: field-service-architecture.md
     - name: Create a new work order
       href: create-work-order.md
+    - name: Work order customization considerations
+      href: work-order-customization.md
 
 - name: Inspections
   items:
