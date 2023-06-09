@@ -7,7 +7,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Introduction to Customer Service Hub

@@ -22,7 +22,7 @@ items:
   items:
     - name: New and upcoming features
       href: https://experience.dynamics.com/releaseplans/?app=Field+Service
-    - name: Version history (web + mobile)
+    - name: Version history
       items:
         - name: Field Service
           href: version-history.md
@@ -30,6 +30,8 @@ items:
           href: field-service-version-history-resource-scheduling.md
         - name: Resource Scheduling Optimization
           href: field-service-version-history-resource-scheduling-optimization.md
+        - name: Version history archive
+          href: version-history-archive.md
     - name: Deprecations
       href: deprecations-field-service.md
 
@@ -330,6 +332,8 @@ items:
   items:
   - name: Overview
     href: connected-field-service.md
+  - name: Privacy notice
+    href: cfs-privacy-notice.md
   - name: Administration
     items:
       - name: Architecture

@@ -24150,6 +24150,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/understand-email-history.md",
+      "redirect_url": "/dynamics365/sales/email-engagement",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-professional/assign-records-sales-professional.md",
       "redirect_url": "/powerapps/user/assign-or-share-records",
       "redirect_document_id": "false"
@@ -24357,11 +24362,6 @@
     {
       "source_path": "ce/sales-professional/sample-softphone-integration-sp.md",
       "redirect_url": "/dynamics365/sales/sample-softphone-integration",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales/index.yml",
-      "redirect_url": "/dynamics365/sales/overview",
       "redirect_document_id": "false"
     },
     {
@@ -25132,6 +25132,16 @@
       "source_path": "ce/marketing/real-time-marketing-form-editor.md",
       "redirect_url": "/dynamics365/marketing/real-time-marketing-form-overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/connected-field-service-overview.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/updateContext.md",
+      "redirect_url": "/dynamics365/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/updateContext",
+      "redirect_document_id": "false"
     }
   ]
 }

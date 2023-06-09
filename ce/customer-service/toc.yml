@@ -614,6 +614,8 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Forward your Teams calls to digital contact center
+        href: voice-forward-calls.md
       - name: Configure voicemail to manage inbound calls
         href: voice-channel-voicemail.md
       - name: Configure direct callback
@@ -632,6 +634,8 @@
         href: voice-channel-block-number.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
+      - name: Delete call recordings
+        href: voice-channel-delete-calls.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
@@ -908,10 +912,12 @@
       items:
       - name: Configure Copilot in Customer Service
         href: configure-copilot-features.md
-      - name: Configure Copilot settings for custom case forms and custom apps
+      - name: Configure copilot settings for custom case forms and custom apps
         href: copilot-powerapps-settings.md
-      - name: Use Copilot features
+      - name: Use copilot features
         href: use-copilot-features.md
+      - name: Copilot data movement across geographies
+        href: copilot-data-movement.md  
     - name: Administrator experience
       items:
       - name: Productivity pane
@@ -1810,6 +1816,8 @@
       href: faq-customer-service-admin-center.md
     - name: FAQ about unified routing
       href: unified-routing-faqs.md
+    - name: FAQ about case management
+      href: faq-case-mgmt.md  
     - name: FAQ about automatic record creation
       href: arc-faqs.md        
     - name: FAQ about AI suggestions for cases and knowledge articles

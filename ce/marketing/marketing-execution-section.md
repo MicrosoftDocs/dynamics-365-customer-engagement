@@ -5,7 +5,7 @@ ms.date: 04/01/2018
 
 ms.custom: 
   - dyn365-marketing
-  - intro-internal
+ms.collection: get-started
 ms.topic: overview
 author: alfergus
 ms.author: alfergus

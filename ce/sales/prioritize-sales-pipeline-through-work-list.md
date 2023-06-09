@@ -1,6 +1,6 @@
 ---
-title: "Prioritize your sales pipeline through the work list"
-description: "Use work lists in the sales accelerator to prioritize your sales pipeline and ensure important records aren't left behind."
+title: Prioritize sales pipeline with work lists
+description: Use work lists in the sales accelerator to prioritize your sales pipeline and ensure important records aren't left behind.
 ms.date: 12/09/2022
 ms.topic: article
 author: udaykirang
@@ -9,7 +9,7 @@ products:
 - Sales premium 
 - Sales enterprise
 ---
-# Prioritize your sales pipeline by using the work list  
+# Prioritize sales pipeline with work lists  
 
 Use work lists in the sales accelerator to prioritize your sales pipeline and ensure that important records aren't left behind.
 
