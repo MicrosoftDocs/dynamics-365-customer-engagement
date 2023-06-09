@@ -51,13 +51,13 @@ For the **Seller insights** option to appear in assignment rules, ensure that th
         **Primary owner**:
         - Identified by the star icon corresponding to the name.
         - Each rule can have only one primary owner at a time. 
-        - Always gets the insights displayed in the records they are assigned to and can do the following tasks:  
+        - Always gets the insights displayed in the records they're assigned to and can do the following tasks:  
             - View and accept the insights.
             - Decline the insights.
             - Assign insights to secondary owners or other sellers.
 
         **Secondary owner**:  
-        - In the account team, the secondary owners can view the insights but can’t work on them until they are assigned by the primary owner. 
+        - In the account team, the secondary owners can view the insights but can’t work on them until they're assigned by the primary owner. 
         - You can add multiple secondary owners to the rule or assign a security role as the secondary owner.
 
 1.	Select **Create rule**.  
@@ -69,7 +69,7 @@ To understand the suggestion rules, let’s look at some examples with scenarios
 
 ### Scenario 1: Account has a single owner or a team
 
-Assign the Contoso insights for an account where potential revenue is between 0 to 30,000 US Dollars to the account owner. A single owner will be assigned to the relevant insights, and primary ownership will be given to the first identified seller.
+Assign the Contoso insights for an account where potential revenue is between 0 to 30,000 US Dollars to the account owner. A single owner is assigned to the relevant insights, and primary ownership will be given to the first identified seller.
 
 - **Rule name**: Contoso insight rule
 - **Create a segment to select eligible insights**:
@@ -112,7 +112,7 @@ Assign the Contoso insights for an account with potential revenue between 0 to 3
         - Title > Equal > Specialist
         - Title > Equal > Sales representative
 
-        Here, the area manager role can have multiple users in the team where a user is picked randomly to assign insights as a primary owner, and other users in the same group will be secondary. Similarly, Specialist and Sales representative roles may have multiple users and they are all considered secondary.
+        Here, the area manager role can have multiple users in the team where a user is picked randomly to assign insights as a primary owner, and other users in the same group are secondary. Similarly, Specialist and Sales representative roles may have multiple users and they're all considered secondary.
 
 ### See also
 
