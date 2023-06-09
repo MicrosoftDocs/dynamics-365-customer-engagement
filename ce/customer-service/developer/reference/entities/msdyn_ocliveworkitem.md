@@ -1,21 +1,20 @@
 ---
 title: "msdyn_ocliveworkitem Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocliveworkitem entity."
-ms.date: 09/14/2020
+ms.date: 05/23/2023
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
-# msdyn_ocliveworkitem table/entity reference
+# msdyn_ocliveworkitem entity reference
 
-> [!NOTE]
-> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
+[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
+
 Tracks the interaction between the agents and customer
 
 **Added by**: Omnichannel – Base Solution
-
 
 ## Messages
 
@@ -540,7 +539,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Agent currently assigned to the conversation and last agent assigned for closed conversations|
+|Description|Indicates the agent currently assigned to the conversation or last assigned agent for a closed conversation. It is populated as empty or null if the customer(C2) ends or is disconnected before the agent accepts conversation.|
 |DisplayName|Active Agent|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -2599,6 +2598,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |MinValue|-9223372036854775808|
 |RequiredLevel|None|
 |Type|BigInt|
+
+
 
 
 

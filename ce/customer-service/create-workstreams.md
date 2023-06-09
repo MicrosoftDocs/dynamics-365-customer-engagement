@@ -5,7 +5,7 @@ ms.date: 05/05/2023
 author: neeranelli
 ms.author: nenellim
 ms.topic: article
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 
 # Create and manage workstreams

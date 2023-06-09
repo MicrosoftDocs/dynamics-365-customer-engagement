@@ -5,7 +5,7 @@ ms.date: 05/08/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 # Introduction to Omnichannel for Customer Service
 

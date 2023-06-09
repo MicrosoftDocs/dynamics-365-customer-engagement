@@ -9,7 +9,7 @@ search.audienceType:
   - admin
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 searchScope:
 - D365-App-customerservice
 - D365-Entity-incident
