@@ -53,16 +53,21 @@ Open the settings page to configure and customize the opportunity pipeline view 
 1. In the Sales Hub Change area, select **App Settings**.
 1. Under **General Settings**, select **Opportunity pipeline view**.
 
-## Customize metrics
+## Set the default form for side panel
+
+When sellers open an opportunity from the pipeline view, the side panel displays the opportunity details in the Sales Insights form. You can change the default form to the main opportunity form or a custom form for your organization. Sellers can switch to a different form if they prefer and their selection will be remembered and set as a default for them.  
+
+1. [Open the opportunity pipeline view settings page](#open-the-opportunity-pipeline-view-settings-page).
+1. In the **Set the default form for side panel** section, select the form that you want to set as the default for your organization.  
+
+## Customize metrics and set them as default
 
 The opportunity pipeline view lists important metrics related to the sales pipeline at the top of the view. You can customize this space to view metrics that you want sellers to track. Sellers will see these metrics by default; they can [personalize them](personalize-pipeline-view.md#personalize-metrics) if required.
 
 1. [Open the opportunity pipeline view settings page](#open-the-opportunity-pipeline-view-settings-page).
-1. Select **Combo** > **Edit Metrics**.
+1. In the **Set default metrics for sellers** section, select **Edit metrics**.
 
-   In the **Edit metrics** side panel, you can create, update, remove, or delete a metric.
-
-    :::image type="content" source="media/deal-manager-editmetrics-small.png" alt-text="Screenshot illustrating the Edit metrics option in deal manager and the edit metrics side panel with the Create a metric option and the list of metrics." lightbox="media/deal-manager-editmetrics.png":::
+   Create, update, remove, or delete a metric in the **Edit metrics** side panel.
 
     - To create a metric:
         1. Select **Create a Metric**.
@@ -75,17 +80,20 @@ The opportunity pipeline view lists important metrics related to the sales pipel
                 - **Created On**: This year  
                 - **Sales Stage**: Develop  
     
-    - To edit a metric, hover over the metric and select the **Edit** icon.
-    - To remove a metric temporarily, clear the checkbox against the metric.
+    - To edit a metric, hover over the metric in the **Edit metrics** side panel, and select the **Edit** icon.
+    - To remove a metric temporarily, clear the checkbox against the metric in **Edit metrics** side panel.
     
 ## Customize charts
 
-The charts in the pipeline view help sellers visualize their pipeline. You can customize elements of the bubble chart and the funnel chart to change the information that sellers see.  
+The charts in the pipeline view help sellers visualize their pipeline. You can customize elements of the bubble chart and the funnel chart to change the information that sellers see. You can also hide the charts if you don't want sellers to see them.  
 
 ### Customize the bubble chart
 
 1. [Open the opportunity pipeline view settings page](#open-the-opportunity-pipeline-view-settings-page).
-1. In the **Manage charts** section, edit **Deal tracker**.
+
+1. In the **Manage charts** section, edit **Deal tracker**. 
+   > [!NOTE]
+   > You can turn off the corresponding **Status** toggle to hide the bubble chart.
 1. Customize the following elements:
     - **Horizontal (x) axis**  
       Select any field of type `DateTime`. For example, you can plot the chart based on the delivered date instead of the closed date.  
@@ -107,6 +115,8 @@ The charts in the pipeline view help sellers visualize their pipeline. You can c
 
 1. [Open the opportunity pipeline view settings page](#open-the-opportunity-pipeline-view-settings-page).
 1. In the **Manage charts** section, edit **Sales funnel**.
+   > [!NOTE]
+   > You can turn off the corresponding **Status** toggle to hide the funnel chart.
 
     The following screenshot illustrates the parts of the funnel chart that you can customize:
 

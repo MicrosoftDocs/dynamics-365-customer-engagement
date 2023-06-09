@@ -36,10 +36,10 @@ In the Sales Hub navigation panel, select **Opportunities**. If you don't see th
 
 Legend:
 
-1. Metrics: View the key metrics or KPIs that you want to track. Select a metric to view the underlying data.
-1. Charts: Get a visual representation of the pipeline.
-1. Editable grid: View a list of opportunities and edit them inline. Select any linked column to view and edit details in the side panel.
-1. Side panel: View and quickly edit details of the linked values. You can also navigate from one object to another in the side panel. For example, while you're looking at the opportunity, you can select a contact to view their details, quickly make updates, and then return to the opportunity.
+1. **Metrics**: View the key metrics or KPIs that you want to track. Select a metric to view the underlying data.
+1. **Charts**: Get a visual representation of the pipeline.
+1. **Editable grid**: View a list of opportunities and edit them inline. Select any linked column to view and edit details in the side panel. Select the three-dot menu against an opportunity to perform common actions, such as closing the opportunity as won or lost, or reopening the opportunity.
+1. **Side panel**: View and quickly edit details of the linked record. You can also navigate from one object to another in the side panel. For example, while you're looking at the opportunity, you can select a contact to view their details, quickly make updates, and then return to the opportunity. 
 
 You can [personalize the opportunity pipeline view](personalize-pipeline-view.md) to add, remove, resize, hide, rearrange, and sort the columns in the editable opportunity grid and select the metrics you want to track.
 
