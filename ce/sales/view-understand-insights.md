@@ -1,6 +1,6 @@
 ---
 title: View and work on seller insights
-description: 
+description: The seller insights feature displays contextual and intelligent insights about Dynamics 365 Sales records based on certain criteria. 
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi

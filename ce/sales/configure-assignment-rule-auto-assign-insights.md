@@ -1,6 +1,6 @@
 ---
 title: Configure assignment rule to auto assign insights 
-description: 
+description: Create assignment rules to assign insights to sellers so that the insights displayed to the sellers are relevant for them.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
