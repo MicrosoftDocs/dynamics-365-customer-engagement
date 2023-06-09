@@ -24,7 +24,7 @@ Azure Communication Services direct routing enables you to connect your existing
   - Check your [direct routing infrastructure requirements](/azure/communication-services/concepts/telephony/direct-routing-infrastructure).
   - [Get a certified Session Border Controller (SBC)](/azure/communication-services/concepts/telephony/certified-session-border-controllers).
   - [Connect the SBC to Azure Communication Services](/azure/communication-services/concepts/telephony/direct-routing-provisioning).
-  - Ensure that the SBC responds with a Session Initiation Protocol (SIP) status code in the 100s to the invite request from Direct Routing. SIP status codes beginning with 4, 5, or 6 indicate failures.
+  - Ensure that the SBC responds with a Session Initiation Protocol (SIP) status code in the 100s to the invite request from direct routing. SIP status codes beginning with 4, 5, or 6 indicate failures.
   - Ensure that the phone number of your Dynamics 365 organization is encoded in E.164 format so that the calls can be forwarded by your SBC.
   - Deploy the SBC and DNS server in the same region. Azure Communication Services hosts group calls in the region where the DNS server is deployed. If the SBC and DNS server are in different regions, users can experience a delay. Ensure that your DNS server is not delegated to a sub domain.
 
