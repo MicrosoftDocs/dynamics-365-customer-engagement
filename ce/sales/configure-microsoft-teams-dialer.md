@@ -94,7 +94,7 @@ Additionally, you must grant the following permissions to your users:
     | Option | Description |
     |--------|-------------|
     | All security roles | Allows all the security roles to access Microsoft Teams dialer. |
-    | Specific security roles | <p>Allows only the selected security roles to access Microsoft Teams dialer.</p><p>**Note**: Ensure that the security roles you've selected are associated with the root business unit (top level in the business unit hierarchy). If not, the users will not see the Teams dialer in the Sales Hub app. More information: [Create or edit business units](/power-platform/admin/create-edit-business-units)</p> |
+    | Specific security roles | <p>Allows only the selected security roles to access Microsoft Teams dialer.</p><p>**Note**: Ensure that the security roles you've selected are associated with the root business unit (top level in the business unit hierarchy). Otherwise, the users won't see the Teams dialer in the Sales Hub app. More information: [Create or edit business units](/power-platform/admin/create-edit-business-units)</p> |
 
 1. Select **Advanced options**, and in the **Select app** drop-down list, select the apps in which you want to make the dialer available. By default, **Sales Hub** is selected.
 
