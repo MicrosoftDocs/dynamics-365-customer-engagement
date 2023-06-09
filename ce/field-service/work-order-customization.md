@@ -1,6 +1,6 @@
 ---
 title: Customization considerations for the work order form
-description: 
+description: Commonly mentioned considerations for customizations of the work order form in Dynamics 365 Field Service.
 ms.date: 06/09/2023
 ms.topic: conceptual
 author: lmasieri
@@ -10,7 +10,7 @@ ms.custom: bap-template
 
 # Customization considerations for the work order form
 
-This article lists common considerations when customizing the work order form.
+This article lists common considerations when customizing the work order form in Dynamics 365 Field Service.
 
 ## Open work order subgrids as popups
 
@@ -31,8 +31,6 @@ Work order system statuses should *never* be edited because system jobs and plug
 If the Bing Maps control is manually removed from the out-of-the-box work order form, it can't be added back.
 
 To enable Bing Maps button in form designer, at least one of the attributes of type address should have the mask *ValidForMap* added in the form.
-
-Below is the XML for the account form where we see *ValidForMap* added to its address attribute.
 
 ```xml
 <DisplayMask>ValidForAdvancedFind\|ValidForForm\|ValidForGrid\|ValidForMap</DisplayMask>
