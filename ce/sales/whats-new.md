@@ -4,7 +4,7 @@ title: What's new or changed in Dynamics 365 Sales
 description: This article points to articles that describe the new and changed features in each release of Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 04/03/2023
+ms.date: 06/08/2023
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
@@ -20,6 +20,10 @@ See the release plans for what's coming. Choose the following links to learn abo
 Keep track of changes on the [Dynamics 365 Sales release planner](https://experience.dynamics.com/releaseplans/?app=sales) site, or download the release plan as a single PDF.
 
 Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.microsoft.com/sales/overview/) site.
+
+## May 2023 release
+
+No new features or enhancements were released in May 2023. We'll be back in June with more updates.
 
 ## April 2023 release
 
