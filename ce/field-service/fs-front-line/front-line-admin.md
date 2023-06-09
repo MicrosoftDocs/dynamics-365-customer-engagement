@@ -87,7 +87,11 @@ Obtain the Viva Connections cards for Field Service (Preview) to make them avail
 
 1. Log into the [SharePoint Admin Center](https://go.microsoft.com/fwlink/?linkid=2185219).
 
+   :::image type="content" source="media/sharepoint-admin-center.png.png" alt-text="SharePoint screenshot highlighting More features and Open under Apps":::
+
 1. [Add the Field Service (Preview) app from the SharePoint store](/sharepoint/use-app-catalog#add-apps-from-the-sharepoint-store).
+
+1. Go to the **API access** page and click **Approve**.  
 
 ### Add Field Service (Preview) cards to the Viva Connections dashboard
 
@@ -99,11 +103,14 @@ If your organization doesn't have a SharePoint home site and doesn't want one, s
 
 1. In the [SharePoint Admin Center](https://go.microsoft.com/fwlink/?linkid=2185219), select **Sites** > **Active Sites**.
 
-1. Find and select the Viva Connections app you created when you set up Viva Connections.
+1. Find and select the Viva Connections site name you created when you set up Viva Connections. If you didn’t customize the name, look for a Communications Site called Viva Home.
 
 1. Select **Settings** and then **Manage Viva Connections**.
 
    :::image type="content" source="media/fsp-sharepoint-vc-dashboard.png" alt-text="SharePoint screenshot of created Viva Connections dashboard":::
+
+   > [!TIP]
+   > An alternative is select the **Pages** tab and select **Dashboard.aspx**.
 
 1. In the **Manage Viva Connections** pane, select **View Dashboard**.
 
