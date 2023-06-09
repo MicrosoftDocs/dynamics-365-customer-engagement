@@ -63,8 +63,6 @@ items:
       href: create-product-or-service.md
     - name: Priorities
       href: set-priorities.md
-    - name: Work order system statuses
-      href: work-order-status-booking-status.md
     - name: Work order types
       href: create-work-order-types.md
     - name: Work order templates (incident types)
@@ -90,6 +88,8 @@ items:
   items:
     - name: Work order process overview
       href: field-service-architecture.md
+    - name: Lifecylce and system statuses
+      href: work-order-status-booking-status.md
     - name: Create a new work order
       href: create-work-order.md
     - name: Work order customization considerations
