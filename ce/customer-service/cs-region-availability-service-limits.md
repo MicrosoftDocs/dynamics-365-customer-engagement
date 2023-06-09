@@ -1,7 +1,7 @@
 ---
 title: "Supported regions and languages, and service limits for analytics and insights | MicrosoftDocs"
 description: "Learn about region availability, languages supported, and service limits for analytics and insights."
-ms.date: 11/04/2022
+ms.date: 06/07/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -31,6 +31,7 @@ The following table lists the region availability of analytics and insights.
 
 | Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | Government Community Cloud|
 | ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
+| Copilot | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
 | Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Case topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
@@ -65,6 +66,7 @@ The following table lists the language availability of the other Customer Servic
 
 | Feature name | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
 | ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |
+| Copilot | ✔ | ✖ | ✖ |✖ | ✖ |✖ | ✖ | ✖ | ✖ | ✖ |
 | Intelligent skill finder for unified routing | ✔ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | Effort estimation model for routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | AI suggestions for cases and knowledge articles | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
@@ -75,7 +77,6 @@ The following table lists the language availability of the other Customer Servic
 
 ✔ : Available  
 ✖ : Not available
-
 
 ## Service limits for analytics and insights
 
@@ -105,12 +106,13 @@ Enabling the insights feature will affect Dataverse entitlements. For more infor
 
 ### See also
 
-[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)<br>
-[Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)<br> 
-[Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model)<br>
-[Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)<br>
-[Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)<br>
-[Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md)<br>
-[Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)
+[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)  
+[Copilot data movement across geographies](copilot-data-movement.md)  
+[Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)  
+[Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model)  
+[Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
+[Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)  
+[Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md)  
+[Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)  
 
 
