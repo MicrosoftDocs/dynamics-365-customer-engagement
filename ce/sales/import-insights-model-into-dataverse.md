@@ -30,7 +30,7 @@ The following diagram illustrates the process of importing the custom model into
 :::image type="content" source="media/si-import-suggesstions-model.svg" alt-text="An flow diagram of importing custom data model into Microsoft Dataverse.":::  
 
 To import and map the attributes, follow these steps:
-1.	[Understand the `msdyn_salessuggestion` entity](#import-insights-model-into-dataverse-preview).
+1.	[Understand the `msdyn_salessuggestion` entity](#understand-the-msdyn_salessuggestion-entity).
 1.	Map the attributes from your custom model with attributes in the `msdyn_salessuggestion` entity. You can use various methods to map the custom attributes such as Web APIs, comma-separated values (.csv), or XML Spreadsheet 2003 (.xml).
 1.	Import your mapped attribute schema into Dataverse for Dynamics 365 Sales to access your data and show the insights. More information: [Map and import schema into Dataverse](#map-and-import-schema-into-dataverse).
 
