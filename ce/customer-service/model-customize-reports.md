@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical and real-time analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 06/06/2023
+ms.date: 06/09/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -64,6 +64,8 @@ Before you begin, you must complete the following prerequisites:
 
         - **Service Principal** in the **Developer settings**.
         - Create **workspaces** in the **Tenant settings**.
+        
+    - If you plan to use an existing Power BI workspace to host the copy of the out-of-the-box reports (customer workspace), make sure that the Dynamics Administrator (user login) enabling the model customization is a workspace administrator of that Power BI workspace.
 
 ## Enable Power BI data model customization
 

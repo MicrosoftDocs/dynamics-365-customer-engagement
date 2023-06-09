@@ -1144,14 +1144,16 @@
       items:
       - name: Customize visual display
         href: customize-reports.md
-      - name: Overview of data model customization
-        href: datamodel-overview.md
-      - name: Use the out-of-the-box data model in your custom reports
-        href: use-datamodel.md
-      - name: Data models and report mappings for historical analytics reports
-        href: oob-data-models.md
-      - name: Data mapping for real-time analytics
-        href: datamapping-realtime.md
+      - name: Customize data models
+        items:
+        - name: Overview of data model customization
+          href: datamodel-overview.md
+        - name: Use the out-of-the-box data model in your custom reports
+          href: use-datamodel.md
+        - name: Data models and report mappings for historical analytics reports
+          href: oob-data-models.md
+        - name: Data mapping for real-time analytics
+          href: datamapping-realtime.md
     - name: Customize analytics
       items: 
       - name: Customize KPIs for intraday insights
