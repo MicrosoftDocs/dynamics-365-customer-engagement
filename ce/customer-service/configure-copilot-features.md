@@ -64,7 +64,7 @@ Perform the following steps to enable the copilot features:
        - Updated with the latest version
        - The state is set to Published
        - The locale is set to English
-    - **SharePoint**: Use files, documents, or articles from a SharePoint site which is a part of the same tenant as that of the current organization. Supported files include: .doc, .docx, .pdf, .ppt, .pptx, .txt. When you enable this option, the top three relevant results are retrieved and Copilot generates the response based on these results.
+    - **SharePoint**: Use files, documents, or articles from a SharePoint site which is a part of the same tenant as that of the current organization. Supported files include: .doc, .docx, .pdf, .ppt, .pptx, .txt. When you enable this option, the top three relevant results are retrieved and Copilot generates the response based on these results.<br>
     Select **Manage SharePoint providers** to add your SharePoint URL. See: [Set up a search provider](set-up-search-providers.md#set-up-a-search-provider).
 
     > [!NOTE]
