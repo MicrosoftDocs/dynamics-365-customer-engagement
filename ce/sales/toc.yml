@@ -506,7 +506,7 @@
               href: edit-phone-numbers.md
             - name: Add text message option to custom forms
               href: add-sms-option-custom-forms.md
-        - name: Get intelligent insights to improve seller effectiveness
+        - name: Get seller insights to improve seller effectiveness
           href: seller-insights-intro.md        
           items:
             - name: Import custom insights model into Dataverse
@@ -899,7 +899,7 @@
               href: create-text-message-templates.md
             - name: Manage text message communications
               href: manage-text-message-communications.md
-        - name: Get intelligent insights to improve sales
+        - name: Get seller insights to improve seller effectiveness
           href: seller-insights-intro.md        
           items:
             - name: View and work on seller insights

@@ -42,7 +42,7 @@ Let’s understand the `msdyn_salessuggestion` entity attributes in detail.
 
 | Attribute | Logical or schema name | Attribute type | Description |
 |-----------|------------------------|----------------|-------------|
-| Related record | `msdyn_relatedrecord` | Lookup | Store the parent record for insight and customized for other entities that support 1:N relationships.<br>By default, the relationship is provided with the Account entity. |
+| Related record | `msdyn_relatedrecord` | Lookup | Stores the parent record for insight and customized for other entities that support 1:N relationships.<br>By default, the relationship is provided with the Account entity. |
 | Name | `msdyn_name` | Primary field | Name of the suggestion. |
 | Sales motion | `msdyn_salesmotion` | Optionset | Type of insight.<br>For example, New, Relationship Management, or True Up. |
 | Solution area | `msdyn_solutionarea` | Optionset | Broad category of the product or SKU. |

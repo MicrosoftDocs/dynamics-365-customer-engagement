@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The seller insights feature provides intelligent insights on customers that allow sellers to focus on the proper tasks to close deals and enhance productivity.
+The seller insights feature provides intelligent insights on customers that allow sellers to focus on tasks that matter and to close deals and enhance seller productivity.
 
 ## License and role requirements
 
@@ -28,7 +28,7 @@ The seller insights feature provides intelligent insights on customers that allo
 -	[Enable sales accelerator](enable-configure-sales-accelerator.md).
 -	[Custom insights data is imported into Microsoft Dataverse](import-insights-model-into-dataverse.md).
 
-## Enable the Seller insights feature
+## Enable the seller insights feature
 
 1.	Sign into your sales app. In the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
 1.	Under **Productivity**, select **Insights (preview)**.

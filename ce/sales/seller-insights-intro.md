@@ -14,9 +14,9 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Seller insights provides sellers with valuable insights and workflows for customer engagement. These insights enable sellers to engage with customers efficiently, save time on information gathering, and increase productivity by focusing on tasks that matter.
+Seller insights provide sellers with valuable insights and workflows for customer engagement. These insights enable sellers to engage with customers efficiently, save time on information gathering, and increase productivity by focusing on tasks that matter.
 
-Seller insights are generated based on data from custom insight models. These models are imported into Microsoft Dataverse to generate contextual and intelligent insights. Based on these insights, sellers can assign tasks, create activities, or establish connections with other sellers. For example, there is a risk with an account that is not engaged. The suggestions displayed for this account are:
+Seller insights are generated based on data from custom insight models. These models are imported into Microsoft Dataverse to generate contextual and intelligent insights. Based on these insights, sellers can assign tasks, create activities, or establish connections with other sellers. For example, if there's a risk with an account that is not well engaged, the suggestions displayed for this account could be:
 - Engagement is low as number of activities are going down.
 - Customer did not respond to the last email since 3 weeks.
 - Negative intent detected in last call. Check call summary.

@@ -42,7 +42,7 @@ When insights are displayed, as an owner, you can do basic tasks such as accepti
     - [Connect to a sequence](#connect-to-a-sequence). 
     - [Create an activity](#create-an-activity).
     - [Close the insight](#close-the-insight).
-    - [Assign it to another seller](#assign-it-to-another-seller).
+
 - **Decline**: If you find that an insight isn't relevant to the record, do the following:  
     1.	Select **Decline**.
     1.	On the confirmation message, enter the reason to decline the insight and select **Submit**.
@@ -81,26 +81,16 @@ After you complete the activities defined for the insights, mark the insight as 
 
 The insight is marked as complete and removed from the record. The timeline of the record is updated accordingly.
 
-### Assign it to another seller
-
-If you find that an insight is relevant to another seller who might be better suited to work on it and make them as primary owner, do the following:
-
-1.	Select **More option** (**…**) > **Assign**.
-2.	In the **Assign Insight** dialog, select **User or team** from the **Assign to** list and then use the **User or team** lookup to add users or team to whom you want to assign the insight.
-3.	Select **Assign**.
-
-The insight is assigned to the selected users or team and removed from your list. If you’re the owner of the insight and the assignee didn’t accept the insights, you can assign it back to yourself.
-
 ## Filter insights
 
 The work list displays all records based on your related work items. To view the insights that you're interested in, you can filter the records. 
 
 Select the **Filter** icon from the work list command bar and choose the filters that meet your requirements. The following default insights filters are available:
 
-- **Insights view type**: To view only the work items with insights, select View type as Insights.
-- **Insights status**: To view work items that are in active or in progress status, select Insights status and then choose Active or In Progress.
-- **Insights with activities**: To view work item that has activities defined for the insights, select Insights with activities. 
-- **Insights assigned to others**. To view work items that are assigned to other sellers, select Insights assigned to other.
+- **Insights view type**: Select the view type to view only the work items with insights. Select **View type** as **Insights**.
+- **Insights status**: Select the filter to view work items that are in active or in progress status. 
+- **Insights with activities**: Select the filter to view work item that has activities defined for the insights.  
+- **Insights assigned to others**: Select the filter to view work items that are assigned to other sellers.
 
 Also, you can create custom filters for insights. More information: [Custom filters](prioritize-sales-pipeline-through-work-list.md#custom-filters).
 
