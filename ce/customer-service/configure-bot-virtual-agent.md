@@ -53,7 +53,7 @@ To do so, perform the following steps:
 
 Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-your-bot-to-omnichannel-for-customer-service) to connect your Power Virtual Agents bot to the omnichannel instance.
 
-## Configure your Power Virtual Agents bot in the admin app
+## Add your Power Virtual Agents bot to a workstream
 
 In Customer Service admin center or Omnichannel admin center, select the Power Virtual Agents bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
 
@@ -117,8 +117,6 @@ This conversation will then appear in the **Closed** state in the Omnichannel fo
 You must configure the Power Virtual Agents web app bot to end a conversation. More information: [End conversation](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation)
 
 After a customer closes the chat window, you must also configure a context variable that explicitly ends the conversation in Omnichannel for Customer Service.
-
-**To end a bot conversation**
 
 1. In Power Virtual Agents, for the selected bot, add a new topic.
 
