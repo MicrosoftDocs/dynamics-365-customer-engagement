@@ -25,7 +25,7 @@ This articles describes how you can create a new report that leverages the out-o
 
 1. Select **Get data**, and then select **Microsoft Fabric (Preview)**, and from the list, select **Power BI dataset** or **Search for Power BI datasets**.
 
-1. Select the appropriate data set, depending on whether you require historical or real-time metrics. Make sure you select the data model from managed workspaces.
+1. Select the appropriate dataset, depending on whether you require historical or real-time metrics. Make sure you select the data model from managed workspaces.
 
     The tables and attributes from the managed data model are now available for you to use in your report in the data panel.
 
@@ -33,27 +33,27 @@ This articles describes how you can create a new report that leverages the out-o
 1. After you are done with your edits, select **File** > **Publish**, to publish the new report back to Power BI.  
 
 > [!NOTE]
-> We recommend that you don't use hidden out-of-box facts or dimension fields in your custom reports, as these fields might get modified or deleted in future updates.
+> We recommend that you don't use hidden out-of-the-box facts or dimension fields in your custom reports, as these fields might get modified or deleted in future updates.
 
 ## Add Dynamics data to existing reports
  
 - Download a copy of the report. Make sure you download with live connection to data online.
-- If you would like to edit the out-of-box copy of the report, then download the report from the customer workspace.
+- If you would like to edit the out-of-the-box copy of the report, then download the report from the customer workspace.
 
 To add Dynamics data to existing reports:
 
 1. In Power BI, select the report from your custom workspace.
 1. Select **File > Download this file**.
 1. Select the option to download a copy of your report with a live connection to data online.
-1. Select **Get data** **>** **Power BI data sets**.
+1. Select **Get data** **>** **Power BI datasets**.
 
-1. Select the appropriate data set, depending on whether you require historical or real-time metrics. Make sure you select the data model from managed workspaces.
+1. Select the appropriate dataset, depending on whether you require historical or real-time metrics. Make sure you select the data model from managed workspaces.
 
     The tables and attributes from the managed data model are now available for you to use in your report in the data panel.
 
 1. After you are done with your edits, select **File > Publish**, to publish the updated report back to Power BI.  
 
-## Extend the out-of-box data model
+## Extend the out-of-the-box data model
 
 ### Add new metrics based on data available in the Dynamics 365 Customer Service dataset
 
@@ -81,7 +81,7 @@ Here's an example, which describes how to create a new service level of 150 seco
 
 1. Right-click on **FactConversation** entity and select **New measure**.
 
-    Refer to the **Data mappings for real-time reports** to get the logic used to calculate the out-of-box metrics, which you can use to build your logic.
+    Refer to the **Data mappings for real-time reports** to get the logic used to calculate the out-of-the-box metrics, which you can use to build your logic.
 
 1. Enter the following code:
 
@@ -178,4 +178,7 @@ After you have created the new reports, you can enable your Dynamics users to vi
 
 ## Next steps
 
-[Customize data models of historical and real-time analytics reports](model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)
+[Customize data models of historical and real-time analytics reports](model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)  
+[Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service)  
+[Data mapping for real-time analytics](datamapping-realtime.md#data-mapping-for-real-time-analytics)  
+[Overview of data model customization](datamodel-overview.md#overview-of-data-model-customization)

@@ -30,7 +30,7 @@ You can enable data model customization for historical and real-time analytics r
 
 1. Select a Power BI workspace
 1. Provision the data models and copy of reports
-1. Grant permissions for data set and reports
+1. Grant permissions for dataset and reports
 1. Embed customized reports back to Dynamics 365
     
 ## Prerequisites
@@ -55,7 +55,7 @@ Before you begin, you must complete the following prerequisites:
 
      - Your Azure Active Directory administrators must create a security group in Microsoft Azure Active Directory with a preferred name of your choice. Add **Dynamics 365 Analytics** as a member of this security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 
-        The out-of-box **Service Principal Dynamics 365 Analytics** is leveraged to deploy the data model and make changes to the Power BI workspace on behalf of Dynamics 365 Customer Service. Permissions within Power BI can be granted only to groups and not individual service principals, and therefore a group needs to be created.
+        The out-of-the-box **Service Principal Dynamics 365 Analytics** is leveraged to deploy the data model and make changes to the Power BI workspace on behalf of Dynamics 365 Customer Service. Permissions within Power BI can be granted only to groups and not individual service principals, and therefore a group needs to be created.
         
     > [!NOTE]
     > In organizations where Dynamics 365 Analytics may not be available, you need to use Dynamics CCA Data Analytics.
@@ -83,7 +83,7 @@ Specify the Power BI workspace where the Dynamics data model and reports will be
 
 ### [Historical data model](#tab/historicaldatamodel)
 
-  1. On the **Embedded Power BI extensibility - Historical data model customization** page:
+  - On the **Embedded Power BI extensibility - Historical data model customization** page:
       - To use an existing workspace, select the workspace from the dropdown list.
       - To create a new workspace, select **Create new workspace**.
   
@@ -102,13 +102,13 @@ Specify the Power BI workspace where the Dynamics data model and reports will be
 2. Select **Save**. This initiates the provisioning of the reports.
  
 > [!NOTE]
-> The specified workspace applies only to the customer's workspace. A new managed workspace will be created by Microsoft for historical and real-time reports each, when configured. For more information, go to: Understand how model customization works. You can also specify the same workspace for both historical and real-time analytics reports.
+> The specified workspace applies only to the customer's workspace. A new managed workspace will be created by Microsoft for historical and real-time reports each, when configured. For more information, go to: [How data model customization works](datamodel-overview.md#how-data-model-customization-works). You can also specify the same workspace for both historical and real-time analytics reports.
 
 ## Step 2: Provision the data models
 
-It could take up to 24 hours for the provisioning to complete. You can leave the Settings page and check back after a few hours. Select **Refresh** to check the provisioning status.
+It could take up to 24 hours for the provisioning to complete. You can leave the **Settings** page and check back after a few hours. Select **Refresh** to check the provisioning status.
 
-## Step 3: Grant permissions for data set and reports
+## Step 3: Grant permissions for dataset and reports
 
 After the report is provisioned, you must provide **Write** permissions for users who will be authoring reports in Power BI and **Read** permissions for supervisors and other consumers of the reports.
 
