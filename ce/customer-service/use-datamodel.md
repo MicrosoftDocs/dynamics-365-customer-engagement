@@ -19,9 +19,9 @@ This articles describes how you can create a new report that leverages the out-o
 - Your administrator must have enabled data model customization. More information: [Enable Power BI data model customization](model-customize-reports.md#enable-power-bi-data-model-customization)
 - You need to have the required [Power BI permissions](model-customize-reports.md#prerequisites).
 
-## Create a new report based on Dynamics data
+## Create a new report based on Dynamics 365 Customer Service dataset
 
-1. Go to Power BI desktop and then go to **File** >**New**.  
+1. Go to [Power BI desktop](/power-bi/fundamentals/desktop-get-the-desktop), and then go to **File** >**New**.  
 
 1. Select **Get data**, and then select **Microsoft Fabric (Preview)**, and from the list, select **Power BI dataset** or **Search for Power BI datasets**.
 
@@ -35,14 +35,14 @@ This articles describes how you can create a new report that leverages the out-o
 > [!NOTE]
 > We recommend that you don't use hidden out-of-the-box facts or dimension fields in your custom reports, as these fields might get modified or deleted in future updates.
 
-## Add Dynamics data to existing reports
+## Add Dynamics 365 Customer Service dataset to existing reports
  
 - Download a copy of the report. Make sure you download with live connection to data online.
 - If you would like to edit the out-of-the-box copy of the report, then download the report from the customer workspace.
 
-To add Dynamics data to existing reports:
+To add Dynamics 365 Customer Service dataset to existing reports:
 
-1. In Power BI, select the report from your custom workspace.
+1. Go to [Power BI service](app.powerbi.com), and then select the report from your custom workspace.
 1. Select **File > Download this file**.
 1. Select the option to download a copy of your report with a live connection to data online.
 1. Select **Get data** **>** **Power BI datasets**.
@@ -59,8 +59,8 @@ To add Dynamics data to existing reports:
 
 If you need to create a metric within the existing entities (as described in [Scenario 1 and Scenario 2](datamodel-overview.md#scenario-based-use-cases), perform the following steps:
 
-1. Open the report you want to edit on Power BI desktop.
-    Make sure you use the steps described in [Add Dynamics data to existing reports](#add-dynamics-data-to-existing-reports), to ensure that your report is connected to the dynamics data model.  
+1. Go to [Power BI desktop](/power-bi/fundamentals/desktop-get-the-desktop) and open the report you want to edit.
+    Make sure you use the steps described in [Add Dynamics data to existing reports](#add-dynamics-data-to-existing-reports), to ensure that your report is connected to the Dynamics 365 Customer Service dataset.  
 
 1. Right-click on the entity for which you want to create your new metric.
 
@@ -75,7 +75,7 @@ If you need to create a metric within the existing entities (as described in [Sc
 
 Here's an example, which describes how to create a new service level of 150 seconds for real-time reports.  
 
-1. Open your Power BI service, and navigate to the customer workspace.
+1. Go to [Power BI service](app.powerbi.com), and then select the report from your custom workspace.
 
 1. Download the real-time report with live connection and open it in Power BI.
 
@@ -122,7 +122,7 @@ Here's an example, which describes how to create a new service level of 150 seco
 
 If you need to get additional data, both from within Dynamics Customer Service as well as external data, as described in [Scenario 3 and Scenario 4](datamodel-overview.md#scenario-based-use-cases), perform the following steps:  
 
-1. Open the report you want to edit in Power BI desktop.
+1. Go to [Power BI desktop](/power-bi/fundamentals/desktop-get-the-desktop) and open the report you want to edit.
 
     Make sure you use the steps described in [Add Dynamics data to existing reports](#add-dynamics-data-to-existing-reports), to ensure that your report is connected to the dynamics data model.
 
@@ -150,7 +150,7 @@ If you need to get additional data, both from within Dynamics Customer Service a
 
 Here's an example, which describes how to filter the out-of-the-box Customer service historical reports by a user’s title.  
 
-1. Open your Power BI service, and navigate to the customer workspace.
+1. Go to [Power BI service](app.powerbi.com), and then select the report from your custom workspace.
 
 1. Download the Customer service historical analytics report with live connection and open it in Power BI.
 

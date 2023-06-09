@@ -1,7 +1,7 @@
 ---
 title: "Data model and report mapping for historical analytics reports| MicrosoftDocs"
 description: "View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service."
-ms.date: 10/03/2022
+ms.date: 06/09/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -440,7 +440,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 
 ### See also
 
-[Customize visual display](customize-reports.md#customize-visual-display)  
+[Customize visual display](customize-reports.md#customize-visual-display)    
 [Overview of data model customization](datamodel-overview.md#overview-of-data-model-customization)  
 [Customize data models of historical and real-time analytics reports](model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)  
 [Data mapping for real-time analytics](datamapping-realtime.md#data-mapping-for-real-time-analytics)

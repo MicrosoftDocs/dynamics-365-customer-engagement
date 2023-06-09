@@ -91,7 +91,7 @@ Specify the Power BI workspace where the Dynamics data model and reports will be
 
 ### [Real-time data model](#tab/realtimedatamodel)
 
-  1. On the **Embedded Power BI extensibility - Real-time data model customization** page:
+  - On the **Embedded Power BI extensibility - Real-time data model customization** page:
       - To use an existing workspace, select the workspace from the dropdown list.
       - To create a new workspace, select **Create new workspace**.
   
@@ -159,7 +159,7 @@ The customized reports site map in the Customer service workspace is shared betw
 
 ### See also
 
-[Customize the display of analytics reports](customize-reports.md#customize-the-display-of-analytics-reports)
+[Customize the display of analytics reports](customize-reports.md#customize-the-display-of-analytics-reports)  
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)  
 [Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md)  
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)  

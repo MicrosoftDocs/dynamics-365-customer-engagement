@@ -80,6 +80,8 @@ Depending on the features you have enabled, you may see up to three different re
 
 :::image type="content" source="media/custom-realtime.png" alt-text="Customer workspace for real-time data model":::
 
+---
+
 Each report is connected to its own composite dataset, which in turn connects to the data model in the managed workspace.
  
 These report copies can be edited and updated to suit your needs and are provided as a base for you to build upon, instead of having to build entire reports from scratch. These reports are created only when the feature is configured and are never updated. These reports won't be overwritten when out-of-the-box reports are updated.  
