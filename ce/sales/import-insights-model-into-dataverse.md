@@ -59,8 +59,7 @@ Line1\nLine2\nLine3 is displayed in the widget as:<br>•	Line1<br>•	Line2<br>
 
 ## Map and import schema into Dataverse
 
-<!-- add information on mapping the data.-->
-After you’ve mapped the custom attributes with the `msdyn_salessuggestion` entity, you must import the schema into Dataverse. This enables the insights to be displayed in the records in Dynamics 365 Sales.
+Use methods such as Web APIs, comma-separated values (.csv), or XML Spreadsheet 2003 (.xml) format to map custom attributes and create the schema. After mapping the custom attributes with the `msdyn_salessuggestion` entity, you must import the schema into Dataverse. This enables the insights to be displayed in the records in Dynamics 365 Sales.
 
 To know more on how to import data into Dataverse, see:
 -	For Web APIs: [Work with data using code in Microsoft Dataverse](/power-apps/developer/data-platform/work-with-data).
