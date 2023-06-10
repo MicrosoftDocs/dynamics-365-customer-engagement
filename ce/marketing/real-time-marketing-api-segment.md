@@ -1,7 +1,7 @@
 ---
 title: "Create a real-time marketing segment using the Web API (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create a real-time marketing segment using the Web API."
-ms.date: 05/10/2023
+ms.date: 06/09/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -212,13 +212,13 @@ The API request is sent via HTTP POST to the API endpoint. The API method `(msdy
 
 ```
 {
-    "SegmentId: "<segment definition ID>"
+    "SegmentId: "<Segment ID>"
 }
 ```
 
 ### Description
 
-The request payload contains a JSON object with the ID of the segment definition that you want to view the members for. You need to replace `<Organization URL>` with the actual URL of your Dynamics 365 Marketing organization, and `<segment definition ID>` with the ID of the segment that you want to view members for.
+The request payload contains a JSON object with the ID of the segment that you want to view the members for. You need to replace `<Organization URL>` with the actual URL of your Dynamics 365 Marketing organization, and `<Segment ID>` with the ID of the segment that you want to view members for.
 
 When the API request is received, it validates the payload and return a response containing the list of members for the specified segment definition. This API is useful to get insights into the composition of a segment and to troubleshoot any issues related to the segment membership.
 
