@@ -12,17 +12,17 @@ ms.custom: bap-template
 
 # Overview of data model customization
 
-Data model customization helps you customize the out-of-the-box standard reports and add your own KPIs (key performance indicators) and custom metrics so that you can work leverage the data that's most relevant to your organization.
+Data model customization helps you customize the out-of-the-box standard reports and add your own KPIs (key performance indicators) and custom metrics so that you can use the data that's most relevant to your organization.
 
 As new features are added, metric definitions and calculations continually need to be updated to account for additional workflows that are enabled by new features. Using the out-of-the-box model and creating only those metrics that are unique to your organization reduces the risk of metric definitions becoming outdated.
 
-## What is data model model customization?
+## What is data model customization?
 
-Dynamics 365 Customer Service provides a suite of out-of-the-box analytic dashboards that are built on Power BI. These analytic solutions provide industry standard KPIs and metrics that can help you monitor and improve the performance of your contact center. Power BI solutions deploy two components – data model (sometimes referred as dataset) and report. The data model houses the KPI while reports  help visualize this data for supervisors.  
+Dynamics 365 Customer Service provides a suite of out-of-the-box analytic dashboards that are built on Power BI. These analytic solutions provide industry standard KPIs and metrics that can help you monitor and improve the performance of your contact center. Power BI solutions deploy two components: a data model (sometimes referred as a dataset) and a report. The data model houses the KPIs, while reports help visualize this data for supervisors.  
 
-Every organization that has analytics enabled gets the analytics solution deployed and available only to them. Dynamics 365 leverages the data from Dataverse, performs transformation logic for each of the KPIs, and makes these KPIs available for you within these data model, which makes them uneditable.
+Every organization that has analytics enabled gets the analytics solution deployed and available only to them. Dynamics 365 leverages the data from Dataverse, performs transformation logic for each of the KPIs, and makes these KPIs available for you within these data model, which also means they can't be edited.
 
-However, the reports that are deployed for your organization are editable and customizable. With [visual customization](customize-reports.md), you can edit the reports to present the available data as per your organizational requirements. For example, Dynamics 365 reads all the required data, performs the logic required to calculate the average handle time, and makes it available for you in the data model. You can choose to edit and present this as a chart or a table as required, and drill down to see the average handle time for a queue or user. Visual customizations also give you the ability to leverage out-of-the-box metrics that aren't directly exposed, create new pivots, and analyze data with additional dimensions.
+However, the reports that are deployed for your organization can be edited and customized. With [visual customization](customize-reports.md), you can edit the reports to present the available data as per your organizational requirements. For example, Dynamics 365 reads all the required data, performs the logic required to calculate the average handle time, and makes it available for you in the data model. You can choose to edit and present this as a chart or a table as required, and drill down to see the average handle time for a queue or user. Visual customizations also give you the ability to leverage out-of-the-box metrics that aren't directly exposed, create new pivots, and analyze data with additional dimensions.
 
 At times, you might have scenarios where you'd like to modify the data that's available in the dataset or the logic used to calculate the metrics in the dataset. The following section describes scenarios where you might need to modify the available data or the logic used to calculate the metrics in the dataset. These scenarios are typically driven by processes that are unique to your organization.
 
@@ -34,7 +34,7 @@ At times, you might have scenarios where you'd like to modify the data that's av
 
 - **Scenario 3**: Your organization has customized attributes on the out-of-the-box Dynamics 365 entities, or has custom entities to support your workflows and process and would like to include those attributes, or has metrics built on those attributes in the reports. In addition, your organization wants to report on out-of-the-box attributes that aren't included by default in the reports or the dataset. For example, your organization has a customized user entity to include a region attribute and would like to get a drill-down of the resolution time by region.  
 
-- **Scenario 4**: Your organization wants to build a custom dashboards that brings data from multiple applications that your organization uses. For example, you might have an existing Power BI dashboard that brings operational data from your workforce management systems, and you'd like to show Dynamics 365 data, like agent presence, on these dashboards.
+- **Scenario 4**: Your organization wants to build a custom dashboard that brings data from multiple applications that your organization uses. For example, you might have an existing Power BI dashboard that brings operational data from your workforce management systems, and you'd like to show Dynamics 365 data, like agent presence, on this dashboard.
 
 ## How data model customization helps you
 
