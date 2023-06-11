@@ -178,7 +178,7 @@ Here's an example that describes how to filter the out-of-the-box Customer Servi
  
 ## Publish reports back to Dynamics 365 Customer Service  
 
-After you've created the new reports, you can enable your Dynamics 365 users to be able to view these reports from the Customer Service workspace app. Work with your administrator to ensure that the viewers have appropriate access to [view and then embed](configure-customer-service-analytics-insights-csh.md) these reports in Dynamics 365.  
+After you've created the new reports, you can enable your Dynamics 365 users to be able to view these reports from the Customer Service workspace app. Work with your administrator to ensure that the viewers have appropriate access to [view and embed](configure-customer-service-analytics-insights-csh.md) these reports in Dynamics 365.  
 
 ## Next steps
 
