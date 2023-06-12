@@ -83,7 +83,7 @@ Here's an example that describes how to create a new service level of 150 second
 
 1. Right-click the **FactConversation** entity and select **New measure**.
 
-    Refer to the [Data model mapping for real-time analytics reports in Customer Service](datamapping-realtime.md#data-model-mapping-for-real-time-analytics-reports-in-customer-service) to get the logic used to calculate the out-of-the-box metrics, which you can use to build your logic.
+    Refer to the [Data model mapping for real-time analytics reports in Omnichannel for Customer Service](datamapping-realtime.md#data-model-mapping-for-real-time-analytics-reports-in-omnichannel-for-customer-service) to get the logic used to calculate the out-of-the-box metrics, which you can use to build your logic.
 
 1. Enter the following code:
 
@@ -184,5 +184,5 @@ After you've created the new reports, you can enable your Dynamics 365 users to 
 
 [Customize data models of historical and real-time analytics reports](model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)  
 [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service)  
-[Data mapping for real-time analytics](datamapping-realtime.md#data-mapping-for-real-time-analytics)  
+[Data model mapping for real-time analytics reports in Omnichannel for Customer Service](datamapping-realtime.md#data-model-mapping-for-real-time-analytics-reports-in-omnichannel-for-customer-service)
 [Overview of data model customization](datamodel-overview.md#overview-of-data-model-customization)

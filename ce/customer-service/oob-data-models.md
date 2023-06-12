@@ -443,4 +443,5 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 [Customize visual display](customize-reports.md#customize-visual-display)    
 [Overview of data model customization](datamodel-overview.md#overview-of-data-model-customization)  
 [Customize data models of historical and real-time analytics reports](model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)  
-[Data mapping for real-time analytics](datamapping-realtime.md#data-mapping-for-real-time-analytics)
+[Data model mapping for real-time analytics reports in Customer Service](datamapping-realtime.md#data-model-mapping-for-real-time-analytics-reports-in-customer-service)
+[Data model mapping for real-time analytics reports in Omnichannel for Customer Service](datamapping-realtime.md#data-model-mapping-for-real-time-analytics-reports-in-omnichannel-for-customer-service)

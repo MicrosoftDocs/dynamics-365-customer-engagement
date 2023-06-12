@@ -1,5 +1,5 @@
 ---
-title: Data model mapping for real-time analytics reports in Customer Service
+title: Data model mapping for real-time analytics reports in Omnichannel for Customer Service
 description: Learn about data model mapping for real-time analytics reports.
 author: Soumyasd27
 ms.author: sdas
@@ -10,7 +10,7 @@ ms.date: 06/12/2023
 ms.custom: bap-template
 ---
 
-# Data model mapping for real-time analytics reports in Customer Service
+# Data model mapping for real-time analytics reports in Omnichannel for Customer Service
 
 This article describes the Data Analysis Expressions (DAX) logic for real-time metrics, which you can use to build your logic and create your own metrics. More information: [DAX function reference](/dax/dax-function-reference)
 
