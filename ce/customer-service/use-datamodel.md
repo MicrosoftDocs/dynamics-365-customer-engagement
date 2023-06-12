@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection: 
-ms.date: 06/09/2023
+ms.date: 06/12/2023
 ms.custom: bap-template
 ---
 
@@ -83,7 +83,7 @@ Here's an example that describes how to create a new service level of 150 second
 
 1. Right-click the **FactConversation** entity and select **New measure**.
 
-    Refer to the **Data mappings for real-time reports** to get the logic used to calculate the out-of-the-box metrics, which you can use to build your logic.
+    Refer to the [Data mapping for real-time analytics](datamapping-realtime.md#data-mapping-for-real-time-analytics) to get the logic used to calculate the out-of-the-box metrics, which you can use to build your logic.
 
 1. Enter the following code:
 
