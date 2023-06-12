@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: overview
 ms.collection: get-started
-ms.date: 05/23/2023
+ms.date: 06/12/2023
 ms.custom: bap-template 
 ---
 
@@ -21,6 +21,10 @@ By visualizing the hierarchy and relationships between different departments and
 With Dynamics 365 Sales, you can build an entire organization chart with ease and precision by simple drag-and-drop actions. The org chart also provides easy access to an embedded LinkedIn Sales Navigator widget, helping to ensure that contacts are kept up to date.
 
 The enhanced org charts are supported for accounts and contacts. 
+
+## Understand org charts
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW166iv]
 
 ## How can I use the org charts feature?
 
