@@ -1,7 +1,7 @@
 ---
 title: "Modify case resolution dialog in Customer Service Hub | MicrosoftDocs"
 description: "Learn to customize the case resolution dialog in Customer Service Hub to support varied business needs."
-ms.date: 05/18/2022
+ms.date: 06/12/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

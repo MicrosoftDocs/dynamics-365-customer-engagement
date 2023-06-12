@@ -1,7 +1,7 @@
 ---
 title: "Allow updates to resolved and canceled cases | Microsoft Docs"
 description: "Allow resolved and canceled cases to be updated through Power Automate flows, API"
-ms.date: 02/18/2022
+ms.date: 06/12/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
