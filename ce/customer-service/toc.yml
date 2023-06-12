@@ -49,7 +49,7 @@
     - name: Accessibility
       href: /dynamics365/get-started/accessibility/customer-engagement/accessibility
     - name: Privacy and personal data
-      href: /dynamics365/get-started/gdpr/
+      href: /dynamics365/get-started/privacy/
     - name: Keyboard navigation support
       href: keyboard-navigation-support-customer-service-hub.md
   - name: Installation and upgrade
