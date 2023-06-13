@@ -253,6 +253,8 @@ items:
       href: mobile-powerapp-windows.md
     - name: Use Microsoft Power Platform
       href: mobile-power-utilize-platform.md
+    - name: IoT signals on mobile
+      href: cfs-mobile-powerapp.md
     - name: Customize the mobile app
       items:
         - name: Customize the home screen (Site Map)
@@ -385,8 +387,6 @@ items:
         href: cfs-security-roles.md
       - name: Device categories
         href: cfs-device-categories.md
-  - name: Connected Field Service on mobile
-    href: cfs-mobile-powerapp.md
   - name: Privacy notice
     href: cfs-privacy-notice.md
 
