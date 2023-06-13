@@ -47,7 +47,7 @@ Before you enable a copilot feature, review the terms and conditions and provide
 
 :::image type="content" source="media/copilot-opt-in.png" alt-text="Opt in to get copilot features.":::
 
-## Enable Copilot to respond to questions, compose an email, or create a chat response
+## Enable copilot features
 
 Perform the following steps to enable the copilot features:
 
@@ -59,7 +59,7 @@ Perform the following steps to enable the copilot features:
     - **Make Copilot available to agents**: Displays the **Ask a question** tab on the **Copilot help pane (preview)** when agents sign in. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
     - **For customer chat**: Displays the one-click response generation button on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
     - **For email**: Displays the **Write an email** tab on the **Copilot help pane (preview)**. Copilot helps agents create email responses based on the context of the case.
-1. **Knowledge sources**: Specify the knowledge source Copilot has to use to generate responses when agents ask questions, draft emails, or chat responses. You can either select **Knowledge base** or **SharePoint**.<br>
+1. **Knowledge sources**: Specify the knowledge source Copilot has to use to generate responses. You can either select **Knowledge base** or **SharePoint**.<br>
     - **Knowledge base**: Copilot generates responses using the internal knowledge base as the source. [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) should be configured. Knowledge articles should have the following parameters:
        - The version is up to date.
        - The state is set to **Published**
@@ -69,7 +69,7 @@ Perform the following steps to enable the copilot features:
 
     - **SharePoint**: Copilot generates responses using the content uploaded to SharePoint as the source. Supported files include: .doc, .docx, .pdf, .ppt, .pptx, .txt. You can add multiple SharePoint URLs. The SharePoint sites must belong to the same tenant as the current organization.<br>
     Select **Manage SharePoint providers** to add your SharePoint URL. See: [Set up a search provider](set-up-search-providers.md#set-up-a-search-provider). Make sure that your SearchPoint site is a part of the same tenant as the current organization.
-    - You can add up to five trusted web domains for Copilot to search when generating responses. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels, represented by forward slash (/) after the .com part of the URL. 
+    - You can add up to five trusted web domains for Copilot to search and generate responses from. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels, represented by forward slash (/) after the .com part of the URL. 
 
 > [!NOTE]
 > Web domains are used by Copilot to draft emails and chat replies only.
@@ -96,8 +96,6 @@ Copilot generated case and conversation summaries enhances agent collaboration a
 
 > [!IMPORTANT]
 > You must select **Make Copilot available to agents** in **Copilot help pane (preview)**  for Copilot case summaries to be available.
-
-To allow Copilot to summarize cases or conversations, perform the following steps:
 
 1. In Customer Service admin center, use one of the following navigation options: 
     - **Agent Experience** > **Productivity** > **Summaries (preview)**
