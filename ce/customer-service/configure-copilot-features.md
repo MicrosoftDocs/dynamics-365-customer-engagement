@@ -74,9 +74,9 @@ Perform the following steps to enable the copilot features:
 
  ### [SharePoint](#tab/sharepoint)
     
-    Select **SharePoint** if Copilot should generate responses using the content uploaded to SharePoint as the source. Supported files include: .doc, .docx, .pdf, .ppt, .pptx, .txt. You can add multiple SharePoint URLs. The SharePoint sites must all be in the same tenant as the current organization.
+   Select **SharePoint** if Copilot should generate responses using the content uploaded to SharePoint as the source. Supported files include: .doc, .docx, .pdf, .ppt, .pptx, .txt. You can add multiple SharePoint URLs. The SharePoint sites must all be in the same tenant as the current organization.
 
-    When an agents asks a question,the application searches for the keywords in each of the configured sites, and retrieves the top three results, which are then made into snippets. Copilot generates the response based on these snippets.
+   When an agents asks a question,the application searches for the keywords in each of the configured sites, and retrieves the top three results, which are then made into snippets. Copilot generates the response based on these snippets.
 
    > [!NOTE]
    > We recommend the following:
