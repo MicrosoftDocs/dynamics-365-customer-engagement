@@ -1,6 +1,6 @@
 ---
-title: "Target the right customers using the query assist copilot (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Target the right customers using the query assist copilot in the real-time marketing area of Dynamics 365 Marketing."
+title: Target the right customers using the query assist copilot
+description: Target the right customers using the query assist copilot in the real-time marketing area of Dynamics 365 Marketing.
 ms.date: 06/02/2023
 ms.custom: 
   - dyn365-marketing
