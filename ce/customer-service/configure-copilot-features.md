@@ -59,16 +59,33 @@ Perform the following steps to enable the copilot features:
     - **Make Copilot available to agents**: Displays the **Ask a question** tab on the **Copilot help pane (preview)** when agents sign in. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
     - **For customer chat**: Displays the one-click response generation button on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
     - **For email**: Displays the **Write an email** tab on the **Copilot help pane (preview)**. Copilot helps agents create email responses based on the context of the case.
-1. Specify the knowledge source Copilot has to use to generate responses when agents ask questions, draft emails, or chat responses:
-    - **Knowledge base**: Use your organization's internal knowledge base as the source. Ensure that the [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) is configured and the knowledge article parameters are as follows:
-       - Updated with the latest version
-       - The state is set to Published
-       - The locale is set to English
-    - **SharePoint**: Use the federate search results from files, documents, or articles uploaded to a SharePoint site as a source. Supported files include: .doc, .docx, .pdf, .ppt, .pptx, .txt. When you enable this option, the top three relevant results are retrieved and Copilot generates the response based on these results.<br>
-    Select **Manage SharePoint providers** to add your SharePoint URL. See: [Set up a search provider](set-up-search-providers.md#set-up-a-search-provider). Make sure that your SearchPoint site is a part of the same tenant as the current organization.
+1. **Knowledge sources**: Specify the knowledge source Copilot has to use to generate responses when agents ask questions, draft emails, or chat responses. You can either select **Knowlege base** or **SharePoint**.
 
-    > [!NOTE]
-    > If SharePoint is configured as the knowledge source, when you ask follow up turn by turn questions, Copilot might not generate the responses that you're expecting. There, ee recommend that you ask individual direct questions.  
+ ### [Knowledge base](#tab/knowledgebase)
+
+   Select **Knowledge base** if Copilot should generate responses using the internal knowledge base as the source. [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) should be configured. Knowledge articles should have the following parameters:
+       - The version is up to date.
+       - The state is set to **Published**
+       - The locale is set to **English**
+
+  When an agents asks a question, the application triggers the `tprompt` API to search the internal knowledge base, retrieves and summarizes the relevant knowledge articles. Copilot uses the summary to generate a response.
+    
+   :::image type="content" source="media/copilot-km-mini.png" alt-text="Copilot internal km" lightbox="media/copilot-km-main.png":::
+
+   ### [SharePoint](#tab/sharepoint)
+    
+    Select **SharePoint** if Copilot should generate responses using the content uploaded to SharePoint as the source. Supported files include: .doc, .docx, .pdf, .ppt, .pptx, .txt. You can add multiple SharePoint URLs. The SharePoint sites must all be in the same tenant as the current organization.
+
+    When an agents asks a question,the application searches for the keywords in each of the configured sites, and retrieves the top three results, which are then made into snippets. Copilot generates the response based on these snippets.
+
+   > [!NOTE]
+   > We recommend the following:
+   > - Ensure that the keywords you search with are as precise as possible. If the keywords you've used aren't present in the SharePoint documents, the Copilot can't generate responses. 
+   > - Ask individual when you ask follow up turn by turn questions, Copilot might not generate the responses that you're expecting. Therefore, we recommend that you ask individual direct questions.  
+ 
+   :::image type="content" source="media/copilot-sharepoint-main.png" alt-text="Sharepoint copilot responses":::
+
+   --- 
 
 1. Copilot automatically refreshes your knowledge base and displays the date and time of when it was last updated. By default, the knowledge articles are refreshed every week.
 1. You can add up to five trusted web domains for Copilot to search when generating responses. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels, represented by forward slashes (/) after the .com part of the URL. 
