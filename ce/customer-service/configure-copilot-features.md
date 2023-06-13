@@ -71,8 +71,8 @@ Perform the following steps to enable the copilot features:
     Select **Manage SharePoint providers** to add your SharePoint URL. See: [Set up a search provider](set-up-search-providers.md#set-up-a-search-provider). Make sure that your SearchPoint site is a part of the same tenant as the current organization.
     - You can add up to five trusted web domains for Copilot to search and generate responses from. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels, represented by forward slash (/) after the .com part of the URL. 
 
-> [!NOTE]
-> Web domains are used by Copilot to draft emails and chat replies only.
+     > [!NOTE]
+     > Web domains are used by Copilot to draft emails and chat replies only.
 
 :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
 
