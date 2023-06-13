@@ -1,15 +1,16 @@
 ---
 title: Configure automated greeting messages
 description: Learn how to configure automated greeting messages
-author: v-duddupdiv
-ms.author: venki-MS
+author: venki-MS
+ms.author: v-duddupdiv
+ms.reviewer: nenellim
 ms.date: 06/16/2023
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Configure automated greeting messages
 
-Configure automated messages to greet customers once the call connects. The configured greeting message is played with system voice message.
+Configure automated messages to greet customers. The configured greeting message is played with system voice once the call connects.
 
 > [!Note]
 
