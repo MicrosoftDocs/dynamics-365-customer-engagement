@@ -200,4 +200,7 @@ additionalContent:
         - title: Microsoft Power Virtual Agents
           summary: Build chatbots easily with Power Virtual Agents.
           url: /power-virtual-agents/
+        - title: Digital Contact Center Platform
+          summary: Learn about Microsoft Digital Contact Center Platform, and how to deploy and configure Nuance IVR and Gatekeeper, Microsoft Dynamics 365, Power Virtual Agents, Azure Communication Services, and Teams to enhance and support your digital contact center.
+          url: /digital-contact-center-platform/
        

@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page 
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 06/09/2023
+  ms.date: 06/13/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -103,7 +103,7 @@ additionalContent:
         text: Integrate a Power Virtual Agents bot
       - url: /dynamics365/customer-service/integrate-km-with-pva
         text: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
-    - title: Use copilot
+    - title: Configure AI features
       links:
       - url: /dynamics365/customer-service/configure-copilot-features
         text: Manage copilot features in Customer Service
