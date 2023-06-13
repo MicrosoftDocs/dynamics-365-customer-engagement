@@ -34,11 +34,11 @@ The following diagram illustrates how organizations integrate with a combination
 
 :::image type="content" source="media/IoT-multicloud-diagram.svg" alt-text="Diagram with a hybrid architecture for multicloud solutions.":::
 
-In the next diagram, Field Service takes advantage of the powerful Dataverse platform to unlock its full extensibility potential. This flexibility allows you to tailor your IoT solution to your specific needs, whether you prefer a simple or complex implementation.  
+In the next diagram, Field Service takes advantage of the [Dataverse platform](/power-apps/maker/data-platform/data-platform-intro) to unlock its full extensibility potential. This flexibility allows you to tailor your IoT solution to your specific needs, whether you prefer a simple or complex implementation.  
 
 :::image type="content" source="media/IoT-multicloud-diagram-simple.svg" alt-text="Diagram with simplified architecture for multicloud solutions.":::
 
-To gain a deeper understanding of making API calls into Dataverse, see the Microsoft Dataverse Developer Guide. Additionally, see Use Postman with the Web API, which provides valuable instructions for setting up Postman and conducting API testing with Dataverse.
+To gain a deeper understanding of making API calls into Dataverse, see the [Microsoft Dataverse Developer Guide](/power-apps/developer/data-platform/overview). Additionally, see [Use Postman with the Web API](/power-apps/developer/data-platform/webapi/use-postman-web-api), which provides valuable instructions for setting up Postman and conducting API testing with Dataverse.
 
 ## Next steps
 

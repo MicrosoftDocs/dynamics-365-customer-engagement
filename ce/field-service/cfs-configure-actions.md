@@ -18,7 +18,7 @@ After setting up an IoT provider, you specify a set of actions associated with t
 The *Pull Device Data* actions fetches the latest device data from the IoT provider and appears in the Device Data History tab with updated properties of an IoT device. This action pulls data for a single device or a collection of devices.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an I o T device in Field Service, with emphasis on the pull data option.](./media/custom-iot-pull-data.png)
+> ![Screenshot of an IoT device in Field Service, with emphasis on the pull data option.](./media/custom-iot-pull-data.png)
 
 The *Pull Devices Data* action requires an input of an *EntityCollection*. The following table displays the parameters for the *EntityCollection* for this action.
 
@@ -261,6 +261,20 @@ Here are the input parameters for this action.
 | IoTDeviceId         | string | Identifier of the device (msdyn_iotdevice) within Connected Field Service. A GUID that needs to be converted to string. For example:   “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                  |
 | Interval            | string | Interval size of the plotting   point specified in ISO-8601 duration format. For example: 1 minute is "PT1M", 1 millisecond is "PT0.001S".  </br>**Note**: All intervals are the same size. One month is always converted to 30 days, and one year is always 365 days. |
 
+Sample input:
+
+```json
+{
+    "From":"2023-04-01T18:05:37.661Z", 
+
+    "To":"2023-05-31T18:05:37.661Z", 
+
+    "IotDeviceId":"50fce36f-9e3e-ed11-bba3-000d3a8b1de9", 
+
+    "Interval":"P1D"
+} 
+```
+
 Here are the output parameters for this action. The below parameters are returned in serialized JSON format as part of the action results.
 
 | Output parameters  | Type   | Details                                                                                                                                                                             |
@@ -316,6 +330,9 @@ The device readings control in Connected Field Service also allows IoT providers
 > [!div class="mx-imgBorder"]
 > ![Screenshot of device readings showing events.](./media/custom-iot-device-events.png)
 
+> [!NOTE]
+> You don't need to create a new action. Register a custom plug-in on the *msdyn_IoTGetDeviceEvents* action, like plug-ins for create events.
+
 Here are the input parameters for the msdyn_IoTGetDeviceEvents action.
 
 | Input parameters  | Type   | Details                                                                                                                                                                             |
@@ -324,11 +341,21 @@ Here are the input parameters for the msdyn_IoTGetDeviceEvents action.
 | To                  | DateTime | Ending time of the reading (measurement) point within the chart in ISO format. For example: “2020-04-10T14:51:55.781Z”                                                       |
 | IoTDeviceId         | string | Identifier of the device (msdyn_iotdevice) within Connected Field Service. A GUID that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4” |
 
+Sample input:
+
+```json
+{ 
+    "IotDeviceId": "50fce36f-9e3e-ed11-bba3-000d3a8b1de9", 
+    "From": "2023-06-12T18:57:54.864Z", 
+    "To": "2023-06-12T19:57:54.864Z" 
+} 
+```
+
 Here are the output parameters for this action. The below parameters are returned in serialized JSON format as part of the action results.
 
 | Output parameters  | Type   | Details                                                                                                                                                                             |
 |---------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|EventsData         | String | 
+|EventsData         | String |
 
 Here are the output parameters for this event.
 
