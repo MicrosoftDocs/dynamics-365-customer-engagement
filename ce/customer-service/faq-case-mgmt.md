@@ -65,7 +65,7 @@ A case is resolved only when you select **Resolve case** on the command bar. You
 
 ### Why do I see errors when I try to resolve a case?
 
-Agents see errors when they try to resolve a case that has the **Regarding** field configured on the case resolution dialog.  Resolve a case isn't supported if **Regarding** is configured in **Case resolution dialog**.
+ Resolve a case isn't supported if **Regarding** is configured in **Case resolution dialog**, and agents will see errors if they try to resolve the case.
 
 ## Enhanced case experience
 
