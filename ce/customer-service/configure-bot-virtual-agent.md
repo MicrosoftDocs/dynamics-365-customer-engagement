@@ -53,6 +53,9 @@ To do so, perform the following steps:
 
 Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-your-bot-to-omnichannel-for-customer-service) to connect your Power Virtual Agents bot to the omnichannel instance.
 
+> [!NOTE]
+> If you're using multiple Azure bots, unique application and application ID are required for each bot.
+
 ## Configure your Power Virtual Agents bot in the admin app
 
 In Customer Service admin center or Omnichannel admin center, select the Power Virtual Agents bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
