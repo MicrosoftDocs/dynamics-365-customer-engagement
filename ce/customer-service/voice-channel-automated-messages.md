@@ -12,8 +12,7 @@ ms.topic: how-to
 
 Configure automated messages to greet customers. The configured greeting message is played with system voice once the call connects.
 
-> [!Note]
-
+> [!NOTE]
 > If the bot is enabled, ensure that automated greeting message and the bot message are different.
 
 ## Enable automated greeting message for voice
@@ -37,5 +36,5 @@ Configure automated messages to greet customers. The configured greeting message
 
 ### See also
 
-[Overview of the voice channel](voice-channel.md)
+[Overview of the voice channel](voice-channel.md)  
 [Configure call recording, transcription, and real-time translation](voice-channel-configure-transcripts.md)
