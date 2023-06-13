@@ -29,7 +29,7 @@ The following illustration is an example of the Omnichannel Insights for Dynamic
    > [!div class=mx-imgBorder]
    > ![Omnichannel for Customer Service dashboard.](media/oc-full-dashboard.png "Omnichannel for Customer Service dashboard")
 
-This section consists of the following conversation KPIs.
+The following table describes the conversation KPIs.
 
 | KPI                  | Description              |
 |----------------------|--------------------------|
