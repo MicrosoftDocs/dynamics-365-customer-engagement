@@ -481,8 +481,8 @@ items:
     href: cfs-troubleshoot.md
   - name: Resource Scheduling Optimization FAQs
     href: rso-faq.yml
-  - name: Field Service (Preview) known issues
-    href: fs-front-line/front-line-known-issues.md
+  - name: Field Service (Preview) troubleshooting
+    href: fs-front-line/front-line-troubleshooting.md
 
 - name: More resources
   items:

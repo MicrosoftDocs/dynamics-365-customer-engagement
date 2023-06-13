@@ -87,7 +87,7 @@ Obtain the Viva Connections cards for Field Service (Preview) to make them avail
 
 1. Log into the [SharePoint Admin Center](https://go.microsoft.com/fwlink/?linkid=2185219).
 
-   :::image type="content" source="media/sharepoint-admin-center.png.png" alt-text="SharePoint screenshot highlighting More features and Open under Apps":::
+   :::image type="content" source="media/sharepoint-admin-center.png" alt-text="SharePoint screenshot highlighting More features and Open under Apps":::
 
 1. [Add the Field Service (Preview) app from the SharePoint store](/sharepoint/use-app-catalog#add-apps-from-the-sharepoint-store).
 

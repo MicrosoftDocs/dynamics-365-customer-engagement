@@ -32,6 +32,9 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 1. Select **Add**.
 
+> [!NOTE]
+> Switching to a different theme in Outlook is not supported in Outlook add-ins.
+
 ## Open the Field Service (Preview) Outlook add-in
 
 1. While in an email, select **More actions (...)**, and then select **Field Service (Preview)**.
