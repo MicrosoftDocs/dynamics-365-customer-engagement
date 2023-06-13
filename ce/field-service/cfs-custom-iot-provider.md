@@ -1,7 +1,7 @@
 ---
 title: IoT provider for custom IoT solutions
 description: Understand how to integrate external IoT solutions with Connected Field Service using dataverse APIs, webhooks, connectors, custom code, and more.
-ms.date: 06/08/2023
+ms.date: 06/13/2023
 ms.subservice: connected-field-service
 ms.topic: conceptual
 ms.author: vhorvath
@@ -27,13 +27,13 @@ In this article, we focus on the integration of IoT solutions.
 
 There are several methods to integrate external IoT services with Field Service. However, they all must fit the Field Service IoT provider entity model. The following sections discuss the entities in detail.
 
-// Diagram showing the architecture and entity model.
+:::image type="content" source="media/cfs-entity-model.svg" alt-text="Diagram showing the entity model and relationships between entities.":::
 
 ### IoT provider entity
 
 This entity identifies the IoT provider and its supported actions.
 
-// Screenshot?
+:::image type="content" source="media/iot-hub-provider.png" alt-text="Screenshot of an IoT provider record.":::
 
 Required information:
 
@@ -48,19 +48,16 @@ Required information:
 
 As shown in the diagram, the IoT provider instance is the organization's instance of the provider. For example, if your Connected Field Service organization is connected to two different Azure IoT Hubs, you have two IoT provider instance records, one for each of your IoT Hub instances. You can see the list of IoT provider instances within your Field Service app by going to **Settings** > **IoT** > **Providers**.
 
-
-// Screenshot?
+:::image type="content" source="media/cfs-iot-hub-provider-instance.png" alt-text="Screenshot of an IoT Provider Instance record.":::
 
 Required information:
 
 - **Provider Instance ID**. Indicates the identifier within your source IoT system.
-- **URL**: A URL that could be used in your provider code or the user experience. For example, an API endpoint or a link to the Azure resource group of the deployment.
+- **URL**. A URL that could be used in your provider code or the user experience. For example, an API endpoint or a link to the Azure resource group of the deployment.
 
 ### IoT device
 
 The IoT device entity maps each device to an IoT provider instance.
-
-// Screenshot
 
 Required information:
 
