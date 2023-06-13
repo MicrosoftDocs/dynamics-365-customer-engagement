@@ -1,7 +1,7 @@
 ---
 title: Use agent dashboard and call controls in the voice channel
 description: Learn how you can use the agent dashboard, call controls, and make and receive customer calls in Omnichannel for Customer Service.
-ms.date: 05/02/2023
+ms.date: 06/13/2023
 ms.service: dynamics-365-customerservice
 ms.topic: how-to
 author: gandhamm
@@ -68,8 +68,7 @@ Avoid the following actions to prevent call drops:
 
 ## Best practices
 
-- Make sure that you have notifications enabled.
-- Make sure that you have enabled the audio and video options in the browser.
+- Make sure that you have enabled notifications, and audio and video options in the browser.
 - When your shift ends, ensure that you sign out and close your browser through which you access Customer Service workspace. Doing so helps avoid work items being incorrectly assigned to you.
 
 ### See also
