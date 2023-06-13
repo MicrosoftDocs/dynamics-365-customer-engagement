@@ -1,7 +1,7 @@
 ---
 title: IoT integration with Connected Field Service
 description: Integrate your IoT solution with Microsoft services or a multicloud strategy for a scalable, customized solution.
-ms.date: 05/06/2023
+ms.date: 06/13/2023
 ms.subservice: connected-field-service
 ms.topic: overview
 ms.author: vhorvath
@@ -26,29 +26,24 @@ Service endpoints are a popular hybrid integration pattern used to connect your 
 
 ## Multicloud strategy
 
-With a multicloud strategy, you can choose the cloud provider that best fits your needs for each application or service. Take advantage of the unique strengths and capabilities of each provider, and quickly adapt to changing business needs.
+A multicloud strategy lets you choose the cloud provider that best suits the specific requirements of each application or service. This flexibility uses the unique strengths and capabilities of different cloud providers, enabling you to tailor your infrastructure to meet your evolving business needs.
 
-:::image type="content" source="media/IoT-multicloud-diagram.svg" alt-text="Diagram with simplified architecture for multicloud solutions.":::
+With a multicloud approach, you can adapt quickly to changes in your organization, industry, or market conditions. As your business evolves, applications or services may perform better or offer more cost-effective solutions on one cloud provider compared to another. A multicloud strategy lets you seamlessly migrate or deploy workloads to the most suitable cloud environment.
 
-<!--
-## Supported Developer Scenarios
+The following diagram illustrates how organizations integrate with a combination of Microsoft services and their preferred cloud provider. Make use of Microsoft's extensive offerings while still benefiting from the unique capabilities of your cloud provider. This hybrid approach enables customized solutions that best align with your business goals and technical requirements.
 
-Connected Field Service supports the following two primary development scenarios:  
-  
-- Extend Dynamics 365 Field Service so that manufacturers and hardware service organizations can register, monitor, and manage—including controlling and correcting—IoT devices. 
-  
-- Provide an IoT Platform that ISVs and partners can build on to IOT-enable their custom entities and managed solutions.  
-  
- To enable the first scenario, the following capabilities are supported:  
-  
-- Abstract device registration in an action, so that devices can be easily registered using the CRM web client or the mobile client  
-  
-- Enable any CRM entity to be IOT-enabled, enabling straightforward IoT integration within existing business processes by using [Connection entities](../developer/connection-entities.md)  
-  
-- Receive service alerts and automating their response with a customized workflow  
-  
-- Send remote commands to IoT devices, for example after diagnosing a problem to correct a malfunctioning device  
-  
-- Analyze incoming device data, and displaying aggregate, trend and other metrics in custom dashboards  
-- 
-- -->
+:::image type="content" source="media/IoT-multicloud-diagram.svg" alt-text="Diagram with a hybrid architecture for multicloud solutions.":::
+
+In the next diagram, Field Service takes advantage of the powerful Dataverse platform to unlock its full extensibility potential. This flexibility allows you to tailor your IoT solution to your specific needs, whether you prefer a simple or complex implementation.  
+
+:::image type="content" source="media/IoT-multicloud-diagram-simple.svg" alt-text="Diagram with simplified architecture for multicloud solutions.":::
+
+To gain a deeper understanding of making API calls into Dataverse, see the Microsoft Dataverse Developer Guide. Additionally, see Use Postman with the Web API, which provides valuable instructions for setting up Postman and conducting API testing with Dataverse.
+
+## Next steps
+
+- [Connected Field Service overview](connected-field-service.md)
+- [IoT provider for custom IoT solutions](cfs-custom-iot-provider.md)
+- [Architecture of Connected Field Service with IoT Hub](connected-field-service-architecture.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
