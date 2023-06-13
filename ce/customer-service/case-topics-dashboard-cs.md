@@ -1,7 +1,7 @@
 ---
 title: Topics Dashboard | Microsoft Docs
 description: Learn about the Topics dashboard insights to better understand agent performance in your organization.
-ms.date: 04/05/2021
+ms.date: 06/13/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -53,8 +53,8 @@ The topics dashboard report has the following KPIs.
 |------------|--------------|
 | Total cases   |  The number of cases created to support customers.     |
 | Active cases  |  The number of cases that are currently opened.      |
-| Escalated cases   | The percentage of cases that have been escalated.     |
-| Average handle time   | The average time taken by an agent to resolve the case.   |
+| Escalated rate   | The percentage of cases that have been escalated.     |
+| Avg. resolve time (hrs)   | The average time taken by an agent to resolve the case.   |
 | Average CSAT    | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.   |
 | Average sentiment    |  The average sentiment score, based on written feedback submitted by the customer in the Customer Voice survey.    |
 
@@ -68,10 +68,10 @@ The topic metrics chart has the following metrics displayed:
 | Average resolution time  | Month over month trend of case resolution time in minutes.   |
 | Average CSAT    | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
 | CSAT impact     | The amount that the given topic is driving the overall CSAT trend for the organization.     |
-| Average sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.      |
-| Sentiment impact    | The amount that the given topic is driving the overall sentiment trend for the organization.     |
+| Avg. survey sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.      |
+| Survey sentiment impact    | The amount that the given topic is driving the overall sentiment trend for the organization.     |
 
-### Case topics drill down view
+### Case topics drill-down view
 
 The case topics drill down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end customers are contacting support. 
 
