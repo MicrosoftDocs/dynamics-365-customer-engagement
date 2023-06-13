@@ -4,7 +4,7 @@ description: "Learn about the different channels that are available in Omnichann
 author: neeranelli
 ms.author: nenellim
 ms.topic: overview
-ms.date: 08/04/2022
+ms.date: 05/05/2023
 ---
 
 # Overview of channels
@@ -48,7 +48,6 @@ If you want to help your customers using social media, you can use the following
 - [Facebook](configure-facebook-channel.md)
 - [Google's Business Messages](configure-google-business-messages-channel.md)
 - [WhatsApp through Twilio](configure-whatsapp-channel.md)
-- [Twitter](configure-twitter-channel.md)
 - [WeChat](configure-wechat-channel.md)
 - [LINE](configure-line-channel.md)
 

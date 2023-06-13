@@ -10,28 +10,26 @@ ms.custom: bap-template
 
 # Set focused view as the default view
 
-The focused view allows sellers to view and manage account, contact, lead, and opportunity records and their associated activities on one page.
+In the focused view, sellers can view and manage account, contact, lead, and opportunity records, and their associated activities, on one page.
 
->[!IMPORTANT]
->When you set the focused view as the default, users can't switch to list view. To allow users to use both views, make the list view the default.  
+> [!IMPORTANT]
+> When you set the focused view as the default view, users can't switch to the list view. If users must be able to use both views, set the list view as the default view.
 
-## Set as default view
+## Set the focused view as the default view
 
-By default, the **Read-only Grid view** is set as the default view for accounts, contacts, leads, and opportunities. As an administrator, you can set the focused view as the default, so sellers don't have to switch to it each time they access their respective entity list.  
+By default, **Read-only Grid view** is used for accounts, contacts, leads, and opportunities. However, as an administrator, you can set the focused view as the default view. Then sellers don't have to switch to the focused view each time they access their entity list.
 
->[!NOTE]
->In this procedure, we are using opportunity as example. 
+> [!NOTE]
+> This procedure uses opportunities as an example. 
 
-1. From the Sales Hub app, select **Settings** > **Advanced Settings**.
+1. In the Sales Hub app, select **Settings** > **Advanced Settings**.
+1. On the **Settings** menu, select **Customizations** > **Customize the system**.
+1. On the Power Apps Default Solution page, select **Entities** > **Opportunity**.
+1. On the **Controls** tab, select **Focused view** for web, phone, and tablet. 
 
-1. From the **Settings** menu, select **Customizations** > **Customize the system**.
+    If **Focused view** doesn't appear in the **Control** list, select **Add Control**. In the **Add Control** dialog box, select **Focused view**, and then select **Add**.
 
-1. From the Power Apps Default Solution page, select **Entities** > **Opportunity**.
-
-1. Select the **Controls** tab and select **Focused view** for web, phone, and tablet. 
-    If you don't see the **Focused view** in the **Control** list, select **Add Control**. From the **Add Control** dialog, select **Focused view** and then select **Add**.
-
-1. Save and publish the changes.  
+1. Save and publish your changes.
 
     The focused view is now set as the default view for opportunities.
 
@@ -39,4 +37,3 @@ By default, the **Read-only Grid view** is set as the default view for accounts,
 
 [View and manage records in focused view](focused-view.md)  
 [Focused view FAQs](faq-sales.yml#focused-view)
-

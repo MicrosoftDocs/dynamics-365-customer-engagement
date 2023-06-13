@@ -1,7 +1,7 @@
 ---
 title: "Install the Unified Service Desk client | MicrosoftDocs"
 description: "Learn how to install and upgrade Unified Service Desk client using the Setup Wizard and using the command line."
-ms.date: 06/21/2022
+ms.date: 05/26/2023
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -59,7 +59,7 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 ::: moniker range="=dynamics-usd-4.2"
 
 > [!Important]
-> Clear the cache **before and after** you upgrade your Unified Service Desk client. The cache is located at: `%appData%\Roaming\Microsoft\USD`. More information: [Configure client caching](/unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
+> Clear the cache **before and after** you upgrade your Unified Service Desk client. The cache is located at: `%appData%\Roaming\Microsoft\USD`. More information: [Configure client caching](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
 
 ::: moniker-end
 

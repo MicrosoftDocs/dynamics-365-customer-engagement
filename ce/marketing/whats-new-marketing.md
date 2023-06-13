@@ -1,7 +1,7 @@
 ---
-title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 04/14/2023
+title: New and upcoming features
+description: Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases.
+ms.date: 06/02/2023
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -22,6 +22,135 @@ We're excited to announce our newest updates! This article summarizes early acce
 Marketing updates are [pushed to customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
 
 To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=dfa5b83d-9e4c-e811-a956-000d3a1bef07&forumName=Dynamics%20365%20Marketing).
+
+## June 2023 update
+
+General availability features include improved copilot assistance for the query assist segmentation builder, enhancements to the asset and templates libraries, and business unit domain support for emails.
+
+Public preview features include tailoring communications to improve customer engagement.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        |  1.95.2014.0    |
+
+### General availability
+
+- **Create better targeted segments using everyday language that include behavioral interactions with query assist, a copilot feature**
+    - Marketers are now able to quickly build targeted segments using conversational everyday language that includes customer interactions with your marketing messages, websites, events, and other channels. With these updates, you can create complex segments that not only focus on demographic or firmographic data but also marketing behavioral data without requiring deep knowledge of the back-end data model.
+    - [Docs](nl-segment-build.md)
+
+- **Easily tag and update assets with an enhanced experience**
+    - Swiftly manage and customize your assets. Need to rename, tag, or update assets? Now, it's just a matter of a few clicks. Our enhanced design ensures a visually appealing workspace, while the right-side pane provides quick previews of your files. Take control with editable property panes, allowing you to customize assets effortlessly. The new tagging controls simplifies file organization, enabling efficient categorization and effortless searching.
+    - [Docs](upload-images-files.md)
+
+- **Assign specific business units to your authenticated domains**
+    - When modernized business units are turned on, and business unit scoping is enabled, the domain authentication wizard allows users to specify what business unit they want their domain to be authenticated. When a business unit is selected for a domain, this domain is solely available for that business unit unless you want to make it shareable across your organization.
+    - [Docs](domain-authentication.md#domain-authentication-for-modernized-business-units)
+
+### Public preview
+
+- **Tailor communications to the topics customers want to receive**
+    - Improve customer engagement and reduce unsubscriptions by giving customers granular control over the real-time marketing messages they receive. Target your messages to the audience that wants to engage with your content the most by capturing detailed consent.  Allow customers to subscribe to the topics that matter to them while capturing the consent you need to satisfy legal and regulatory requirements. Avoid embarrassing and costly configuration mistakes by leveraging real-time marketing topic support, preventing the complications of maintaining and enforcing lists of subscribed customers, all while taking advantage of enhanced real-time marketing preference centers that better represent your brand.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/tailor-communications-topics-customers-want-receive)
+    - [Docs](real-time-marketing-email-text-consent-preview.md)
+
+### Monthly enhancements
+
+- **Achieve more accurate results in your A/B tests by specifying a control group**
+    - With the new control group features, marketers can now specify how many people to test a message on before releasing the remaining audience to the winning version. This update gives you more control over the testing process and helps ensure accurate results.
+
+### New blogs and scenario docs
+
+Learn how to make the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
+- [Create dynamic content for multiple countries and languages](real-time-marketing-dynamic-content-multiple-languages.md)
+- [Identify and resolve errors with real-time customer care journeys - Scenario docs](real-time-marketing-customer-care-journey.md)
+- [Deliver personalized customer experiences with Copilot in Dynamics 365 Marketing and Customer Insights - Microsoft Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/bdm/2023/03/14/deliver-personalized-customer-experiences-with-copilot-in-dynamics-365-marketing-and-customer-insights/)
+
+## May 2023 update
+
+The May 2023 release general availability features include the availability of interaction data in the segment builder, the ability to move custom triggers between environments, journey reminders, lead insights, and the ability to surface the next best action for leads with your sales team.
+
+Public preview features include AI-powered milestone attribution analysis, multi-brand consent and customizable preference centers. We also continue to improve the content ideas and query assist Copilot features.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        |  1.94.2009.0    |
+
+### General availability
+
+- **Use interaction data to improve targeting in the redesigned segment builder**
+    - Segments are critical for targeting the right customers and personalizing their experience. The redesigned real-time marketing segment builder allows you to create segments based on customer interactions and engagement with your marketing messages, websites, events, or other channels. Combined with the demographic and firmographic attributes already available for segmentation, the segment builder enables you to reach the right customers at the right time. You can then use these segments for targeting, journey branching or content variants to personalize the experience for each customer.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/leverage-interaction-data-improve-targeting-using-re-designed-segmentation-builder)
+    - [Docs](real-time-marketing-redesigned-segment-builder.md)
+
+- **Save time by easily moving triggers between environments**
+    - With Dynamics 365 Marketing, you can create custom triggers in development or pre-production environments to securely test the intended behavior before you use them in production for live marketing journeys and campaigns. You can then move the triggers to a production environment using Power Platform Solutions in any state. The ability to move published triggers enables you to align your testing workflow with your application lifecycle management process. Dynamics 365 Marketing automatically takes care of packaging the triggers and any related metadata when you export and import the solutions.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/save-time-easily-moving-triggers-between-environments)
+    - [Docs](move-triggers-between-environments.md)
+
+- **Boost your productivity with enhanced journey reminders**
+    - You can now create journeys that nudge and remind a customer to take a required action, such as completing an application/survey, filling a health check, checking out their cart, and more. You can remind customers until they complete the call to action or until a certain date or time. Additionally, you can bypass certain journey steps when a customer action makes them irrelevant. For instance, if you’re welcoming/onboarding the customer to a product or service through daily messages, but they complete the onboarding before all the messages have been sent – you can skip the remaining messages by exiting the customer from that block. This simplifies not only the journey logic required to capture the whole scenario in a single journey, but also makes a single block of journey actions (such as a series of reminders) easy to analyze and optimize.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/boost-productivity-enhanced-journey-reminders)
+    - [Docs](real-time-marketing-enhanced-journey-reminders.md)
+
+- **Customize marketing strategies based on Lead insights**
+    - Access Lead-specific insights in real-time marketing and tailor your marketing experiences according to your Leads’ behavior. Lead insights provide a holistic view of each Lead's interactions with your marketing activities. This includes access to journey engagement history, encompassing past email sends, opens, clicks, form submissions, and other relevant data.
+    - [Docs](real-time-marketing-analytics.md)
+
+- **Surface the next best action to your sales team when a Lead engages with Marketing**
+    - As you nurture Leads and opportunities with real-time journeys, the Leads' signals might indicate an urgency to engage with your sales teams. With Dynamics 365 Marketing, you can now create sales activities such as tasks and phone calls directly from journeys so that Leads get individualized attention when they’re most likely to engage. You can also activate a sales sequence to accelerate a deal, ensuring that sellers receive automated recommendations based on the sales playbook associated with the campaign.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/optimize-lead-management-process-engaging-sellers-right-away)
+    - [Docs](real-time-marketing-optimize-lead-management.md)
+
+### Public preview
+
+- **Easily discover and use content ideas Copilot to create highly engaging emails**
+    - With this enhancement you can easily start using Copilot to generate email content thanks to prefilled key points matching your selected topic, and by accessing it directly within your email flow.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/easily-create-engaging-content-using-ai-powered-content-ideas)
+    - [Docs](content-ideas.md)
+
+- **Understand how marketing activities contribute to defined milestones using AI**
+    - Dynamics 365 Marketing enables you to create highly personalized experiences to nudge customers toward important milestones in the buyer's journey such as completing a purchase, becoming a loyalty program member, or becoming a qualified sales opportunity. Now, you can define such milestones and measure them over time. You can then optimize your marketing mix using AI or rules-based attribution which quantifies the contribution of your real-time marketing journeys, channels, and messages in driving customers to complete those milestones.
+    > [!NOTE]
+    > This feature will be gradually rolled out during the month and may have delayed availability compared to the other May releases.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/understand-how-marketing-activities-contribute-defined-milestones)
+    - [Docs](real-time-marketing-effectiveness.md)
+
+- **Match your business needs with multi-brand consent and customizable preference centers**
+    - In real-time marketing, marketers can now fully customize out-of-the-box preference centers to better represent their brands and meet their business needs. Create separate preference centers per brand, allowing you to independently capture and manage consent for multiple lines of business. Keep your customers engaged by giving them control over the channels they want to connect to while ensuring that you capture the consent you need to satisfy legal and regulatory requirements.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/match-business-needs-more-granular-customizable-consent-preference-centers)
+    - [Docs](compliance-overview.md)
+
+### Monthly enhancements
+
+- **Attribute branch supports complex conditions that can span multiple entity relationships**
+    - Access attributes of entities related to a Contact or Lead, even if those entities are several hops away. For example, you can hop from the contact to the name of the account associated with that contact, making it easier to create more powerful and complex conditions.
+
+- **Expanded audience insights: view text messages and push notifications engagement**
+    - Now, in addition to email and form interactions, you can also access comprehensive insights for text messages, push notifications, and custom channels in real-time marketing contact and lead insights. Get a holistic view of how your audience engages with all your marketing channels, make data-driven decisions, and optimize your strategies for even better results.
+
+- **Clearly communicate dates and times in formats that match expectations of your audience**
+    - Different parts of the world use different formats for date and time, so it is critical to use the right format your audience expects to avoid confusion. We are expanding available time formats to add 12-hour formats in certain languages/countries where they officially follow 24-hour format but in practice also use 12-hour format (for example, English (UK)). We also added recently used formats at the top. Not only does this save time, it also makes it easy to pick a single consistent format across the message.
+    - [Docs](real-time-marketing-predefined-dynamic-text.md#communicate-dates-and-times-in-various-formats)
+
+- **Create segments effortlessly using everyday language with the improved query assist experience**
+    - The new query assist experience is designed to help marketers seamlessly switch between query assist and manual mode giving you more control over the segment creation process. We've also improved the feature ensures a more intuitive experience. With these updates, you can build segments using everyday language to target the right audience without requiring deep knowledge on the back-end data model.
+    - [Docs](compliance-overview.md)
+
+- **Create segments using Marketing Lists and other entities that are related to Contacts/Leads with many:many relationships**
+    - You can now create segments with data tables, such as Marketing Lists, that have N:N relationships with target entities like Leads and Contacts.
+
+### New blogs and scenario docs
+
+Learn how to make the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
+- [Identify and resolve errors with real-time customer care journeys - Scenario docs](real-time-marketing-customer-care-journey.md)
+- [Deliver personalized customer experiences with Copilot in Dynamics 365 Marketing and Customer Insights - Microsoft Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/bdm/2023/03/14/deliver-personalized-customer-experiences-with-copilot-in-dynamics-365-marketing-and-customer-insights/)
+- [Use generative AI to drive customer engagement with 2023 release wave 1 for Dynamics 365 Marketing and Customer Insights](https://cloudblogs.microsoft.com/dynamics365/bdm/2023/04/19/use-generative-ai-to-drive-customer-engagement-with-2023-release-wave-1-for-dynamics-365-marketing-and-customer-insights/)
+- [Drive customer engagement with 2023 release wave 1 - Microsoft Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/bdm/2023/04/19/use-generative-ai-to-drive-customer-engagement-with-2023-release-wave-1-for-dynamics-365-marketing-and-customer-insights/)
 
 ## April 2023 update
 
@@ -65,7 +194,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
 - **Easily create modern forms using the new intuitive form experience**
     - Lead capture forms are crucial for gathering marketing information, turning visitors into leads, and turning leads into valuable customers. With the new intuitive forms experience in real-time marketing, you can easily create modern forms with advanced capabilities without depending on developers. Effortlessly create smart forms to place on your websites and capture your customers’ attention while allowing them to input their details.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/easily-create-modern-forms-using-new-intuitive-form-experience)
-    - [Docs](real-time-marketing-form-editor.md)
+    - [Docs](real-time-marketing-form-overview.md)
  
     > [!div class="mx-imgBorder"]
     > ![Screenshot of real-time marketing forms.](media/whats-new-lead-capture-forms.png "Screenshot of real-time marketing forms") 

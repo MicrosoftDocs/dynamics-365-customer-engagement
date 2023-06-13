@@ -1,16 +1,13 @@
 ---
-title: "Work with Predictive opportunity scoring"
-description: "Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates."
-keywords: ""
+title: Prioritize opportunities through predictive scores
+description: Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates.
 ms.date: 03/06/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-caps.latest.revision: 1
-
 ---
-# Prioritize opportunities through scores 
+# Prioritize opportunities through predictive scores
 
 Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates.
 
@@ -117,6 +114,6 @@ The following screenshot illustrates the reason and tooltip for the time spent i
 ### See also
 
 [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)  
-[Predictive lead/opportunity scoring FAQs](faqs-sales-insights.md#predictive-leadopportunity-scoring)
+[Predictive lead and opportunity scoring](faqs-sales-insights.md#predictive-lead-and-opportunity-scoring)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

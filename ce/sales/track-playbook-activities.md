@@ -1,7 +1,7 @@
 ---
 title: "Track playbook activities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Carry out the playbook activities to ensure every event or scenario is dealt with consistently."
-ms.date: 10/26/2021
+ms.date: 05/08/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,7 +17,10 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
-# Track playbook activities 
+# Track playbook activities
+
+> [!NOTE]
+> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](deprecations-sales.md#playbooks-will-be-deprecated)  
 
 When a playbook is launched, its related activities are created and associated with the record the playbook is launched from (also called the calling record). You must complete these activities to ensure every event is dealt with consistently.
 

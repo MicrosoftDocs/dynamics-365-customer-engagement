@@ -153,7 +153,7 @@ Suggest-as-you-type suggests up to six knowledge articles. Text that matches you
 
 :::image type="content" source="media/autosuggest-ka-csw.png" alt-text="Screenshot of the suggest-as-you-type feature in action.":::<!-- EDITOR'S NOTE: Please crop and add callouts to the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main).-->
 
-## Find frequently used articles quickly
+## Use favorites
 
 If your administrator has provided [privileges to custom roles](#prerequisites), you can mark the knowledge articles you use most often as favorites to get back to them quickly while you're working on a case. You can mark up to 50 articles as favorites.
 

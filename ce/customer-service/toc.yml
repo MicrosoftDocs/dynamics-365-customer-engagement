@@ -49,7 +49,7 @@
     - name: Accessibility
       href: /dynamics365/get-started/accessibility/customer-engagement/accessibility
     - name: Privacy and personal data
-      href: /dynamics365/get-started/gdpr/
+      href: /dynamics365/get-started/privacy/
     - name: Keyboard navigation support
       href: keyboard-navigation-support-customer-service-hub.md
   - name: Installation and upgrade
@@ -614,6 +614,8 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Forward your Teams calls to digital contact center
+        href: voice-forward-calls.md
       - name: Configure voicemail to manage inbound calls
         href: voice-channel-voicemail.md
       - name: Configure direct callback
@@ -632,6 +634,8 @@
         href: voice-channel-block-number.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
+      - name: Delete call recordings
+        href: voice-channel-delete-calls.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
@@ -644,8 +648,10 @@
         href: voice-channel-bring-your-own-number.md
       - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
-      - name: Supported cloud locations, languages, and locale codes
+      - name: Supported cloud locations
         href: voice-channel-region-availability.md
+      - name: Supported languages and locale codes
+        href: voice-channel-supported-languages.md
     - name: Agent experience
       items:
       - name: Call a customer
@@ -696,6 +702,8 @@
         href: average-wait-time.md        
       - name: Delete a channel instance
         href: delete-channel.md
+      - name: Manage enhanced Active Conversation settings
+        href: add-customer-summary-settings.md
     - name: Agent experience
       items: 
       - name: Omnichannel for Customer Service for agents
@@ -818,8 +826,6 @@
           href: configure-google-business-messages-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
-        - name: Configure a Twitter channel
-          href: configure-twitter-channel.md
         - name: Configure a WhatsApp channel
           href: configure-whatsapp-channel.md
         - name: Configure a WeChat channel
@@ -902,8 +908,18 @@
       href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
+    - name: Copilot in Customer Service
+      items:
+      - name: Configure Copilot in Customer Service
+        href: configure-copilot-features.md
+      - name: Configure copilot settings for custom case forms and custom apps
+        href: copilot-powerapps-settings.md
+      - name: Use copilot features
+        href: use-copilot-features.md
+      - name: Copilot data movement across geographies
+        href: copilot-data-movement.md  
     - name: Administrator experience
-      items: 
+      items:
       - name: Productivity pane
         href: productivity-pane.md
       - name: Enable productivity pane and smart assist
@@ -1016,6 +1032,8 @@
           href: configure-customer-service-analytics-dashboard.md
         - name: Configure Omnichannel Insights dashboards
           href: configure-historical-sentiment-dashboard-supervisor.md
+      - name: Customize data models of historical and real-time analytics reports
+        href: model-customize-reports.md
       - name: Configure forecasting
         items:
         - name: Configure case forecasting
@@ -1122,14 +1140,22 @@
         items:
         - name: Forecast agent, case, and conversation volumes
           href: use-volume-forecasting.md
-    - name: Customize analytics
-      items: 
+    - name: Report author experience
+      items:
       - name: Customize visual display
         href: customize-reports.md
-      - name: Customize data models for historical analytics reports
-        href: model-customize-reports.md
-      - name: Data models and report mappings for historical analytics reports
-        href: oob-data-models.md
+      - name: Customize data models
+        items:
+        - name: Overview of data model customization
+          href: datamodel-overview.md
+        - name: Use the out-of-the-box data model in your custom reports
+          href: use-datamodel.md
+        - name: Data models and report mappings for historical analytics reports
+          href: oob-data-models.md
+        - name: Data model mapping for real-time analytics reports
+          href: datamapping-realtime.md
+    - name: Customize analytics
+      items: 
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
       - name: Customize interactive dashboards based on Unified Interface
@@ -1502,12 +1528,6 @@
         href: developer/reference/entities/msdyn_octag.md
       - name: msdyn_octeamschannelconfig
         href: developer/reference/entities/msdyn_octeamschannelconfig.md
-      - name: msdyn_octwitterapplication
-        href: developer/reference/entities/msdyn_octwitterapplication.md
-      - name: msdyn_octwitterhandle
-        href: developer/reference/entities/msdyn_octwitterhandle.md
-      - name: msdyn_octwitterhandlesecret
-        href: developer/reference/entities/msdyn_octwitterhandlesecret.md
       - name: msdyn_ocvoice
         href: developer/reference/entities/msdyn_ocvoice.md
       - name: msdyn_ocvoicechannellanguagesetting
@@ -1598,8 +1618,6 @@
         href: developer/reference/entities/msdyn_teamsengagementctx.md
       - name: msdyn_transcript
         href: developer/reference/entities/msdyn_transcript.md
-      - name: msdyn_twitterengagementctx
-        href: developer/reference/entities/msdyn_twitterengagementctx.md
       - name: msdyn_unifiedroutingdiagnostic
         href: developer/reference/entities/msdyn_unifiedroutingdiagnostic.md
       - name: msdyn_unifiedroutingrun
@@ -1808,6 +1826,8 @@
       href: faq-customer-service-admin-center.md
     - name: FAQ about unified routing
       href: unified-routing-faqs.md
+    - name: FAQ on managing cases
+      href: faq-case-mgmt.md  
     - name: FAQ about automatic record creation
       href: arc-faqs.md        
     - name: FAQ about AI suggestions for cases and knowledge articles
