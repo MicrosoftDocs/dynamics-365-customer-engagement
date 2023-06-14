@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection: 
-ms.date: 06/09/2023
+ms.date: 06/15/2023
 ms.custom: bap-template
 ---
 
@@ -14,11 +14,11 @@ ms.custom: bap-template
 
 In Omnichannel for Customer Service, you can seamlessly add a bot and get it up and running within a few minutes while the integration is taken care of in the background.
 
-You can manage your Power Virtual Agents bots on the **Bots** page.
+You can manage your Power Virtual Agents bots, such as connect and disconnect them on the **Bots** page.
 
 ## Prerequisites
 
-Power Virtual Agents bots must be available in the same tenant.
+Power Virtual Agents bots must be available in the same tenant where Omnichannel for Customer Service is available.
 
 ## Add a bot
 
@@ -34,7 +34,11 @@ Some of the information that's listed on the **Bots** page includes the bot name
 - Disconnect the bot.
 - Select the bot name and you'll navigate to the Power Virtual Agents app to configure topics and other settings for the bot.
 
-## Next steps
+### Next steps
 
-[Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream) 
+[Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream)  
 [End bot conversation](configure-bot-virtual-agent.md#end-bot-conversation)  
+
+### See also
+
+[Get started with Customer Service admin center](cs-admin-center.md)  

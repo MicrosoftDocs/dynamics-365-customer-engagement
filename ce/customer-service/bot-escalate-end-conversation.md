@@ -23,7 +23,7 @@ This article explains how you can program an Azure bot to route a conversation t
 
 ## Escalate a conversation to a human agent
 
-In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing of the conversation depends on the routing rule that's configured for the workstream. 
+In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing of the conversation depends on the routing rule that's configured for the workstream.
 
 When the conversation is transferred from the bot to a human agent, the customer and case details are [automatically identified](record-identification-rule.md) when the agent accepts the escalation request. The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the conversation. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. The bot can also set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated conversation is routed to the right queue. For information on the context items and variable names, see [Link customer and case to conversations when bot escalates or ends conversations](record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations).
 

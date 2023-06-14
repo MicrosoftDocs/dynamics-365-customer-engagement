@@ -131,4 +131,5 @@ See the [FAQ about Customer Service admin center](faq-customer-service-admin-cen
 [Help resources for Customer Service](help-hub.md)  
 [Sign up for a free Dynamics 365 Customer Service trial](try-customer-service.md)  
 [Overview of user management](overview-users.md)  
+[Manage your bots in Omnichannel for Customer Service](manage-your-bots.md)  
 
