@@ -38,7 +38,55 @@ When you enable the Copilot case summary feature, agents can see the case summar
 1. Set the **Show hidden** toggle to **On**.
 1. Save and publish the customizations.
 
-### Disable display of Copilot-generated case summaries
+### Modify fields used to generate case summary
+
+Out of the box, the following keys are supported to generate the case summary:
+
+- title=title
+- description = description
+- product_name =productid.name
+- priority=prioritycode
+- subject=subjectid.title
+- customer=customerid_contact.fullname
+- casetype=casetypecode
+
+You can customize what agents see on the case summary card by modifying these key values. Perform the following steps to modify the default case summary:
+
+1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
+1. You'll need to find the relationship between the value you'd like to see to the summary card and the **Case** table. For example, you'd like agents to see Customer Id on the case summary instead of the product name. The customer id should populate the value of the **customerid** column in the **Account table**. To create a relationship between customer id and case, do the following steps:
+    1. Go to **Tables** and select **Case**.
+    1. Select **Relationships** in **Schema**.
+    1. Search for the **Account** table, and copy the **Name** associated with it. In the example, the Name is **customerid_account**.
+    1. Go to **Tables** and then select **Account**.
+    1. Select **Columns** in **Schema**.
+    1. Search for the **customerid** column and copy the **Name** associated with it. In the example, the Name is **accountnumber**.
+    1. Combine the relationship names. In our example, this is **customerid_account.accountnumber**.
+1. Replace the default configuration keys in `msdyn_casesummaryconfiguration` with the required value. Perform the following steps to update the value: 
+    1. Open your browser, press the F12 key to open the developer tools window.
+    1. In the console window, enter the following command to display the customerid column on the case summary card:
+   
+   ```
+        var data =
+    // update data
+    Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "7fa56176-c226-45e5-b8fa-25d56e0dcc21", 
+    {
+        "msdyn_casesummaryconfiguration": "{\"case_attributes\": \"title=title,description=description,product_name=customerid_account.accountnumber,priority=prioritycode,subject=subjectid.title,customer=customerid_contact.fullname,casetype=casetypecode\"}"
+    }).then(
+    function success(result) {
+        console.log("Record updated");
+        // perform operations on record update
+    },
+    function (error) {
+        console.log(error.message);
+        // handle error conditions
+    }
+    );
+
+   ```
+
+Repeat the steps to replace other key values.
+
+## Disable display of Copilot-generated case summaries
 
  To ensure that the case summary doesn't load on a custom case form when the Copilot case summary feature isn't enabled, perform the following steps:
 
@@ -56,6 +104,7 @@ You can enable the Copilot features for custom apps in your organization. Perfor
 
 1. In [Power Apps](https://make.powerapps.com/), add the **Customer Service Copilot Enabled** setting definition. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition).
 1. In the **Edit Customer Service Copilot Enabled** pane, in set the **Setting app values** section, for a required app, set the  **New app value** to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
+
 
 ### Next steps
 
