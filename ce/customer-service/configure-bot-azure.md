@@ -63,7 +63,7 @@ The bot user is first created as an application user and then assigned the **Omn
 
 1. On the **Application users** page, select **New app user** and in the **Create a new app user** dialog that opens, do the following:
 
-    a. Select a **Business unit** from the dropdown list and add the bot user to top-level business unit.
+    a. Select a **Business unit** in the list. Make sure that you select the top-level business unit.
     
     b. Edit the **Security roles** field, and in the **Add security roles** page, select **Omnichannel agent** from the dropdown list and select **Save** to go back to the **Create a new app user** dialog.
     
