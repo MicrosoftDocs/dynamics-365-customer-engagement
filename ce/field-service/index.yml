@@ -63,10 +63,14 @@ additionalContent:
         text: Set up bookable resources
       - url: configure-default-settings.md
         text: Configure default settings
-    - title: Guidance 
+    - title: Customize 
       links: 
-      - url: /power-platform/admin/microsoft-dynamics-365-government
-        text: Dynamics 365 US Government
+      - url: field-service-customizations.md
+        text: Customize Field Service
+      - url: field-service-customization-best-practices.md
+        text: Best practices
+      - url: field-service-customize-forms.md
+        text: Customize forms
       
   - title: Administer Field Service
     items:
@@ -108,8 +112,8 @@ additionalContent:
         text: Create a work order
       - url: work-order-status-booking-status.md
         text: Work order life cycle and statuses
-      - url: inspections.md
-        text: Add inspections
+      - url: field-service-architecture.md
+        text: Work order architecture
     - title: Bookable resources
       links:
       - url: set-up-characteristics.md
@@ -153,19 +157,19 @@ additionalContent:
     - title: Integrations
       links:
       - url: field-service-teams-collaboration.md
-        text: Collaborate with Teams
+        text: Collaborate using Microsoft Teams
       - url: supply-chain-field-service-integration.md
         text: Integrate with Dynamics 365 Supply Chain Management
       - url: mixed-reality-guides-integration.md
         text: Integrate with Dynamics 365 Guides
-    - title: Connected Field Service (IoT)
+    - title: IoT in Field Service
       links:
       - url: connected-field-service.md
-        text: Connected Field Service overview
+        text: IoT integration overview
+      - url: cfs-custom-iot-provider.md
+        text: Create IoT providers
       - url: cfs-iot-alerts.md
         text: Create IoT alerts and convert to work orders
-      - url: cfs-mobile-powerapp.md
-        text: Connected Field Service on mobile
     - title: Resource Scheduling Optimization Add-in
       links:
       - url: rso-overview.md
@@ -174,6 +178,7 @@ additionalContent:
         text: Schedule optimization
       - url: rso-simulation.md
         text: Run as a simulation
+
   - title: Related products
     items:
         # Card
@@ -188,8 +193,11 @@ additionalContent:
           summary: Help your business deliver the best customer service experience possible to your customers.
           url: /dynamics365/customer-service/overview
         - title: Microsoft Dataverse
-          summary: Securely store and manage data that's been used by business applications
+          summary: Securely store and manage data that's been used by business applications.
           url: /power-apps/maker/data-platform/
         - title: Microsoft Power Platform
-          summary: Lets your business deploy Field Service 
+          summary: Lets your business deploy Field Service. 
           url: /power-platform/
+        - title: Microsoft Power Apps
+          summary: Build low-code apps that modernize processes and solve tough business challenges in your organization.
+          url: /power-apps/
