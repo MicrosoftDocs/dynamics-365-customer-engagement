@@ -53,7 +53,7 @@ Out of the box, the following keys are supported to generate the case summary:
 You can customize what agents see on the case summary card by modifying these key values. Perform the following steps to modify the default case summary:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-1. You'll need to find the relationship between the value you'd like to see to the summary card and the **Case** table. For example, you'd like agents to see Customer id on the case summary instead of the product name. The customer id should populate the value of the **customerid** column in the **Account table**. To create a relationship between customer id and case, do the following steps:
+1. You'll need to find the relationship between the value you'd like to see to the summary card and the **Case** table. For example, you'd like agents to see Customer Id on the case summary instead of the product name. The customer id should populate the value of the **customerid** column in the **Account table**. To create a relationship between customer id and case, do the following steps:
     1. Go to **Tables** and select **Case**.
     1. Select **Relationships** in **Schema**.
     1. Search for the **Account** table, and copy the **Name** associated with it. In the example, the Name is **customerid_account**.
