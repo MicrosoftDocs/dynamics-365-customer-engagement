@@ -49,7 +49,7 @@
     - name: Accessibility
       href: /dynamics365/get-started/accessibility/customer-engagement/accessibility
     - name: Privacy and personal data
-      href: /dynamics365/get-started/gdpr/
+      href: /dynamics365/get-started/privacy/
     - name: Keyboard navigation support
       href: keyboard-navigation-support-customer-service-hub.md
   - name: Installation and upgrade
@@ -614,6 +614,8 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Forward your Teams calls to digital contact center
+        href: voice-forward-calls.md
       - name: Configure voicemail to manage inbound calls
         href: voice-channel-voicemail.md
       - name: Configure direct callback
@@ -632,6 +634,8 @@
         href: voice-channel-block-number.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
+      - name: Delete call recordings
+        href: voice-channel-delete-calls.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
@@ -1028,6 +1032,8 @@
           href: configure-customer-service-analytics-dashboard.md
         - name: Configure Omnichannel Insights dashboards
           href: configure-historical-sentiment-dashboard-supervisor.md
+      - name: Customize data models of historical and real-time analytics reports
+        href: model-customize-reports.md
       - name: Configure forecasting
         items:
         - name: Configure case forecasting
@@ -1134,14 +1140,22 @@
         items:
         - name: Forecast agent, case, and conversation volumes
           href: use-volume-forecasting.md
-    - name: Customize analytics
-      items: 
+    - name: Report author experience
+      items:
       - name: Customize visual display
         href: customize-reports.md
-      - name: Customize data models for historical analytics reports
-        href: model-customize-reports.md
-      - name: Data models and report mappings for historical analytics reports
-        href: oob-data-models.md
+      - name: Customize data models
+        items:
+        - name: Overview of data model customization
+          href: datamodel-overview.md
+        - name: Use the out-of-the-box data model in your custom reports
+          href: use-datamodel.md
+        - name: Data models and report mappings for historical analytics reports
+          href: oob-data-models.md
+        - name: Data model mapping for real-time analytics reports
+          href: datamapping-realtime.md
+    - name: Customize analytics
+      items: 
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
       - name: Customize interactive dashboards based on Unified Interface
@@ -1812,7 +1826,7 @@
       href: faq-customer-service-admin-center.md
     - name: FAQ about unified routing
       href: unified-routing-faqs.md
-    - name: FAQ about case management
+    - name: FAQ on managing cases
       href: faq-case-mgmt.md  
     - name: FAQ about automatic record creation
       href: arc-faqs.md        
