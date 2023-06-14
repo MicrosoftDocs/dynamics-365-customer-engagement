@@ -15,7 +15,7 @@ search.audienceType:
 
 # Adding consent data to Real-time marketing
 
-When you install real-time marketing, the real-time marketing consent center (**Real-time marketing** > **Audience** > **Consent center**) contains no records, even if you already gathered consent in outbound marketing. You don't need to re-enter contact consent data from outbound marketing if you plan to run real-time journeys for contacts. If you want to reuse contact consent data for leads or profiles, or wish to add new consents, you can use one of three methods:
+When you install real-time marketing, the real-time marketing consent center (**Real-time marketing** > **Audience** > **Consent center**) contains no records, even if you already gathered consent in outbound marketing. You don't need to reenter contact consent data from outbound marketing if you plan to run real-time journeys for contacts. If you want to reuse contact consent data for leads or profiles, or wish to add new consents, you can use one of three methods:
 
 - Add new consent records for email and text messages manually by selecting the corresponding option from the top ribbon.
 
@@ -29,7 +29,7 @@ When you install real-time marketing, the real-time marketing consent center (**
 
 - Load consent information that was already captured for contacts or leads in Dynamics 365 Marketing.
 
-## Loading consent from contacts, leads, and subscription lists
+## Loading consent from contacts, leads and subscription lists
 
 > [!IMPORTANT]
 > If you segregate data across business units, you need to load consent from your sources (Contacts, Leads, and/or subscription lists) into each business unit's compliance profile(s) individually. This will ensure that valid consent records are created for each business unit and compliance profile combination.
@@ -43,23 +43,23 @@ The following message appears:
 
 To load consent from contacts or leads, the following conditions apply:
 
-1. Only one email address from a contact or lead record will be loaded. This field is defined in the [Audience configuration](real-time-marketing-audience-data.md) and can be changed by the administrator.
-1. For the Commercial purpose, the system checks whether the Contact has both the Bulk Email and Email fields set to *Allow*, meaning that if either of those fields is set to *Do Not Allow*, the contact point consent record is set to *Opted out*.
-1. If you load consent from Contacts, new "Tracking" consent records will be created based on the value in the Tracking field on the contact.
-1. If two or more contacts or leads share the same email address, consent for the email will be set to *Opted in* **only** when all contacts or leads contain the value *Bulk email=Allow*. In all other cases, consent for the email address will be set to *Opted out*.
-1. If consent for the email already exists in real-time marketing (for example, you decide to load consent from contacts or leads after some email consent items were already manually added), the above-listed rule applies. The email address is only opted in if **both** email consent values are set to *Allow* **and** all consent records from contacts that share the same email address are set to *Allow*.
+1. Only one email address from a contact or lead record is loaded. This field is defined in the [Audience configuration](real-time-marketing-audience-data.md) and an administrator can change it.
+1. For the Commercial purpose, the system checks whether the Contact has both the Bulk Email and Email fields set to *Allow*. If either of those fields is set to *Do Not Allow*, the contact point consent record is set to *Opted out*.
+1. If you load consent from Contacts, new "Tracking" consent records are created based on the value in the Tracking field on the contact.
+1. If two or more contacts or leads share the same email address, consent for the email is set to *Opted in* **only** when all contacts or leads contain the value *Bulk email=Allow*. In all other cases, consent for the email address is set to *Opted out*.
+1. If consent for the email already exists in real-time marketing, the above-listed rule applies. The email address is only opted in if **both** email consent values are set to *Allow* **and** all consent records from contacts that share the same email address are set to *Allow*.
 
 Consent loaded from contacts and leads relates to the email set in audience configuration and includes the following fields: *Allow email*, *Allow bulk email*, and *Allow tracking*.
 
-Loading consent will allow you to choose the Compliance profile and the Purpose where the consent should be loaded. Typically, you'll want to load consent from contacts and/or leads into the Commercial and Transactional purposes for the Compliance profile you have set up with a Preference center.
+Loading consent allows you to choose the Compliance profile and the Purpose where the consent should be loaded. Typically, you want to load consent from contacts or leads into the Commercial and Transactional purposes for the Compliance profile with a Preference center.
 
 ## Loading consent from Subscription lists
 
-If you used Subscription lists in Outbound marketing to manage consent, these will typically map to Topics within a specific Purpose. For instance, if you had two subscription lists, one for Newsletters and one for Product Announcement, you should create two Topics within the Commercial purpose of your Compliance profile and then load consent from those Subscription lists directly into the topics.
+Subscription lists in Outbound marketing typically map to Topics within a specific Purpose. For instance, if you had two subscription lists you should create two Topics within the Commercial purpose of your Compliance profile and then load consent from the Subscription lists directly into the topics.
 
 In addition, if you used Outbound marketing Subscription lists as "do not email" lists, you can load those records into the topics as "Opted out" records to preserve that behavior.
 
-Loading consent from subscription lists does not look at the Bulk email or Email fields on the contact or lead. It simply replicates the Subscription list membership into the chosen Purpose or Topic with the selected consent value.
+Loading consent from subscription lists doesn't look at the Bulk email or Email fields on the contact or lead. It simply replicates the Subscription list membership into the chosen Purpose or Topic with the selected consent value.
 
 ## Scenarios
 
@@ -68,24 +68,24 @@ Loading consent from subscription lists does not look at the Bulk email or Email
 > [!NOTE]
 > Leads do not contain a field for Tracking consent, so Real-time marketing Tracking consent records will not be created.
 
-1. Choose whether you are loading consent from Contacts or Leads
-1. Choose the appropriate Compliance profile, which is likely a new profile with a Preference center. 
-1. Choose the purpose which should reflect the Bulk email field. Typically, this is the Commercial purpose if it hasn't been renamed
-1. Choose the purpose which should reflect the Email field. Typically, this is the Transactional purpose if it hasn't been renamed.
+1. Choose whether you're loading consent from Contacts or Leads
+1. Choose the appropriate Compliance profile, which is likely a new profile with a Preference center.
+1. Choose the purpose that should reflect the Bulk email field. Typically, this is the Commercial purpose if it hasn't been renamed
+1. Choose the purpose that should reflect the Email field. Typically, this is the Transactional purpose if it hasn't been renamed.
 
 ### Loading contact and subscription list consent records into Real-time marketing
 
 If you managed consent in Outbound marketing using Subscription lists while also allowing people to opt-out of communications using the Bulk email and Email fields on contacts or leads, this scenario may apply.
 
-1. First, load consent records from your Subscription lists into the Topics that will replace those lists. This will create the equivalent consent records in Real-time marketing.
-1. Next, load consent records from either the Contacts or Leads into the parent purpose of those Topics. This will ensure that the existing Bulk email and Email field values are respected.
+1. First, load consent records from your Subscription lists into the Topics that replace those lists. This creates the equivalent consent records in Real-time marketing.
+1. Next, load consent records from either the Contacts or Leads into the parent purpose of those Topics. This ensures that the existing Bulk email and Email field values are respected.
 
 ### Loading "do not contact" Subscription lists
 
 If you have set up a Subscription list to track individuals who don't wish to be contacted, you can migrate this data in a couple of ways
 
-1. If you have 1 Subscription list that tracks everyone who has opted out of marketing messages, you should load that as "Opted out" into the Commercial purpose of the Compliance profile
-1. If you have 1 Subscription list that tracks everyone who does not want to receive any messages, you should load that as "Opted out" into the Commercial and Transactional purpose of the Compliance profile
+1. If you have one Subscription list that tracks everyone who has opted out of marketing messages, you should load that as "Opted out" into the Commercial purpose of the Compliance profile
+1. If you have one Subscription list that tracks everyone who doesn't want to receive any messages, you should load that as "Opted out" into the Commercial and Transactional purpose of the Compliance profile
 1. If you have multiple Subscription lists that track individuals who have opted out of specific communication themes or topics, you should load those as "Opted out" into the equivalent Topics within the Commercial Purpose of the Compliance profile
 
 > [!IMPORTANT]

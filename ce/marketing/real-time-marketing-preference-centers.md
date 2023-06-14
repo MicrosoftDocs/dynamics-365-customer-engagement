@@ -27,12 +27,12 @@ In real-time marketing, each compliance profile starts with a default preference
 > [!NOTE]
 > Customers who have used real-time marketing preference pages prior to the introduction of the preference center will have a compliance profile already created with the previously configured preference page in place of a preference center. There is no change to those existing preference pages.
 
-The default preference center includes options for users to opt in or opt-out of the **Commercial** and **Tracking** purposes, as well as the default contact point of the user’s email address. You can update how the purposes capture consent in various ways to ensure you capture consent appropriately:
+The default preference center includes options for users to opt in or opt out of the **Commercial** and **Tracking** purposes, along with the default contact point of the user’s email address. You can update how the purposes capture consent in various ways to ensure you capture consent appropriately:
 
 - Update the contact point(s) for which consent is captured
 - Update the page directly to change the text displayed for each purpose to make it clear to the user
 - Change whether checking the box opts the user in or out of communications
-- Add or remove a purposes so the preference center collects the right information
+- Add or remove a purpose so the preference center collects the right information
 - Add topics to the form to capture more granular preferences
 
 :::image type="content" source="media/real-time-marketing-preference-center.png" alt-text="Preference center screenshot." lightbox="media/real-time-marketing-preference-center.png":::

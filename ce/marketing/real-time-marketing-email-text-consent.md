@@ -38,9 +38,9 @@ As required for commercial email, a **Company Address** placeholder and an **Uns
 The presence of a company address and unsubscribe link is checked when you select **Ready to send**. The app notifies you if one of these parameters is missing.
 
 > [!NOTE]
-> The app will display warnings if, for example, you accidentally delete either the default company address or link to the default preference page. However, it will not block you from sending such an email. Thus, you are able to replace the given company address field with another one of your choice or add a link to a custom preference center if you like.
+> The app will display warnings if, for example, you accidentally delete either the default company address or link to the default preference page. However, it does not block you from sending such an email. Thus, you are able to replace the given company address field with another one of your choice or add a link to a custom preference center if you like.
 
-If you want to send commercial email, the app checks whether the email addresses of the target audience have granted consent when the email is sent. In the restrictive model, messages will only be sent to customers whose email addresses were opted in. By default, the transactional message purpose has a **Disabled** enforcement model, meaning that consent checks won't be run against contact points. The enforcement model can be changed in the compliance profile itself.
+If you want to send commercial email, the app checks whether the email addresses of the target audience have granted consent when the email is sent. In the restrictive model, messages only send to customers whose email addresses were opted in. By default, the transactional message purpose has a **Disabled** enforcement model, meaning that consent checks won't run against contact points. The enforcement model can be changed in the compliance profile itself.
 
 ## How consent is respected for text messages
 
@@ -48,7 +48,7 @@ The real-time marketing rules for sending text messages are slightly different t
 
 ## Consent to track user behavior
 
-Each Compliance profile has its own Purpose specifically for tracking user interactions, such as message opens and link clicks. Like the Commercial and Transactional purposes, the enforcement model for tracking consent can be Restrictive, Non-restrictive, or disabled. If the tracking purpose is set to a disabled enforcement model, no tracking consent checks will be made for messages sent as part of that compliance profile, meaning all interactions will be tracked. 
+Each Compliance profile has its own Purpose specifically for tracking user interactions, such as message opens and link clicks. Like the Commercial and Transactional purposes, the enforcement model for tracking consent can be Restrictive, Non-restrictive, or disabled. If the tracking purpose is set to a disabled enforcement model, no tracking consent checks are made for messages sent as part of that compliance profile, meaning all interactions are tracked. 
 
 If you would like to collect tracking consent, you can add the tracking purpose to Forms and Preference centers.  
 
