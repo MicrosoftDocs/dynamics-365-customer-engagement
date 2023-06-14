@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection: 
-ms.date: 05/26/2023
+ms.date: 06/14/2023
 ms.custom: bap-template
 ---
 
@@ -143,9 +143,6 @@ You can also perform the following actions:
 - Select **Create case**. The application creates a new case and populates the case description with the summary. **Create case** is available only if your administrator has enabled this feature for you.
 - Share feedback about the summary.
 - Close the summary card.
-
-:::image type="content" source="media/copilot-conv-summary.png" alt-text="View of the Copilot conversation summary.":::
-
 
 ### See also
 
