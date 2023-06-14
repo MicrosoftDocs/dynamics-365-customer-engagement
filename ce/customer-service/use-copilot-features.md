@@ -144,6 +144,9 @@ You can also perform the following actions:
 - Share feedback about the summary.
 - Close the summary card.
 
+:::image type="content" source="media/copilot-conv-summary.png" alt-text="View of the Copilot conversation summary.":::
+
+
 ### See also
 
 [Manage copilot features in Customer Service](configure-copilot-features.md)  
