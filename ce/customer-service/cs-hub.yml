@@ -180,9 +180,9 @@ additionalContent:
     - title: Do more with apps
       links:
       - url: /dynamics365/customer-service/cs-admin-center
-        text: Admins-Use Customer Service admin center
+        text: Admins&mdashUse Customer Service admin center
       - url: /dynamics365/customer-service/csw-overview?tabs=customerserviceadmincenter
-        text: Agents-Use Customer Service workspace
+        text: Agents---Use Customer Service workspace
       - url: /dynamics365/customer-service/customer-service-team-member
         text: Team member-Use Customer Service Team Member 
   - title: Related products
