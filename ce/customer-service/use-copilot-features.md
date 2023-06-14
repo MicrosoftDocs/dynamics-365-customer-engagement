@@ -135,7 +135,7 @@ Based on the triggers enabled by your administrator, the Copilot conversation su
 - Automatically when you request a consultation with another agent, transfer the conversation, or end the conversation.
 - When you select  **Summarize conversation** on the ongoing conversation.
 
-:::image type="content" source="media/copilot-conv-summary.png" alt-text="View of the Copilot case summary.":::
+:::image type="content" source="media/copilot-conv-summary.png" alt-text="View of the Copilot conversation summary.":::
 
 You can also perform the following actions:
 
