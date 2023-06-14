@@ -41,7 +41,8 @@ In addition, you can add content and update the branding and styling of the page
 
 ### See also
 
-[Work with data protection and GDPR](gdpr.md)
-[Use GDPR features](gdpr-use-features.md)
+[Manage user compliance settings in real-time marketing](real-time-marketing-compliance-settings.md)
+[Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md)
+[Outbound marketing compliance settings](privacy-use-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

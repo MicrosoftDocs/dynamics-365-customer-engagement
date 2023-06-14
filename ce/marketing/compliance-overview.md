@@ -22,11 +22,11 @@ Real-time and outbound marketing have distinct but related constructs for suppor
 
 ## Consent data capture and storage
 
-In real-time marketing, consent is captured and stored at the contact point. A contact point is the destination for a message (for example, an email address or phone number). Customer consent is stored on a per-channel basis. For example, the email `somebody@example.com` has consented to receive commercial communications about upcoming events.  
+In Real-time marketing, consent is captured and stored at the contact point. A contact point is the destination for a message (for example, an email address or phone number). Customer consent is stored on a per-channel basis. For example, the email `somebody@example.com` has consented to receive commercial communications about upcoming events.  
 
 The primary benefit of contact point consent is that it allows real-time marketing to orchestrate journeys across any entity. Orchestrating across journeys means you can enforce consent for Leads, Customer Insights profiles, Contacts, and any other entity. This approach is opposed to outbound marketing journeys, which can only orchestrate journeys for Contact entities.
 
-In outbound marketing, consent is captured and stored on the Contact entity in fields like `DoNotEmail` and `DoNotBulkEmail` that apply to the entire Contact record and all its email addresses. This approach doesn't allow for different consent to be captured for a contact’s multiple email addresses, phone numbers, etc.
+In Outbound marketing, consent is captured and stored on the Contact entity in fields like `DoNotEmail` and `DoNotBulkEmail` that apply to the entire Contact record and all its email addresses. This approach doesn't allow for different consent to be captured for a contact’s multiple email addresses, phone numbers, etc.
 
 ## Compliance profiles
 
@@ -62,8 +62,8 @@ Learn more: [Real-time marketing preference pages](real-time-marketing-complianc
 
 ### See also
 
-[Grow your business with multi-brand, custom preference centers](real-time-marketing-compliance-settings-preview.md)
-[Work with data protection and GDPR](gdpr.md)  
+[Grow your business with multi-brand, custom preference centers](real-time-marketing-compliance-settings.md)
+[Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md)
 [Use GDPR features](gdpr-use-features.md)
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)

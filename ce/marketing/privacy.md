@@ -76,9 +76,9 @@ In addition, special privacy protection is required for minors (children), requi
 
 ### See also
 
-[Manage user compliance settings](real-time-marketing-compliance-settings.md)  
-[Use GDPR features](gdpr-use-features.md)  
+[Manage user compliance settings](compliance-overview.md)
+[Manage user compliance settings in real-time marketing](real-time-marketing-compliance-settings.md)
+[Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md)
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
-[Set up a subscription center](set-up-subscription-center.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

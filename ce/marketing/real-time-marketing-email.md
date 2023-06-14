@@ -66,6 +66,10 @@ The **Link to** dropdown allows the following options for Teams check-ins and ca
     - **Event and sessions registered**: The file contains information for the event and the sessions the contact has registered for.
     - **Only sessions registered**: The file contains only the event sessions the contact has registered for.
 
+### Select a Compliance profile, Purpose, and Topic for the message
+
+Within the Compliance section of the email settings, you need to choose a Compliance profile and Purpose for the email. This ensures that consent checks are performed as required by the Compliance profile and Purpose's enforcement model. Optionally, you can choose a Topic for the email, which allows you to collect more granular consent data to enable your customers to receive exactly the communications they want. [Learn more about Real-time marketing consent settings.](real-time-marketing-email-and-text-consent.md)
+
 ## Preview and test your email
 
 Before sending emails to a large number of recipients, it's important to test the email with sample audience members to ensure that the content, layout, and design are displayed correctly. This can be easily accomplished using the **Preview and Test** tab in the email designer tool. In the **Preview and Test** tab, you can select a sample audience member (for example, a Contact or Lead) record and preview the exact content that will be delivered to that recipient. The preview includes dynamically generated content based on the selected audience member data, providing a realistic preview of what the recipient will see.
@@ -83,5 +87,9 @@ To see preview for a specific audience member:
 > For dynamic text that is not bound to the audience, you can enter sample values to see how the content will look.
 
 You can send the preview email to yourself or another test email address to verify how the received email renders on different devices and different email apps. Preview emails automatically include “[Test]” in the subject header.
+
+### See also
+
+[Grow your business with multi-brand, custom preference centers](real-time-marketing-compliance-settings.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

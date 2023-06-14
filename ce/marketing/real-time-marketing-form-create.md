@@ -85,9 +85,7 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     > [!div class="mx-imgBorder"]
     > ![Add consent element to the form.](media/real-time-marketing-form-consent-element.png)
 
-    Adding the Commercial communications and Tracking consent elements creates Contact point consent records for the chosen channels, email, and text. In addition, these fields will update the Contact's Bulk email and Tracking consent values based on the preferences submitted as a part of this form.
-
-    If you have enabled the Multi-brand consent and customizable preference centers (preview) feature switch, you'll be able to add purposes and topics from your compliance profiles onto the form directly to capture consent for any purposes and topics that have been configured.
+    Adding Purpose and Topics consent elements creates Contact point consent records for the chosen channels, email, and text.
 
 > [!NOTE]
 > Customers who adopted the Real-time marketing forms preview may need to remove and re-add consent elements to forms created during the preview due to underlying changes with the consent entities. This has no impact on consent captured by preview forms.
@@ -123,5 +121,10 @@ Once the form is published, you can still access these options by selecting the 
 > `https://assets-usa.mkt.dynamics.com`
 >
 > If you would like to disable the domain for form hosting, reach out to support.
+
+### See also
+
+[Grow your business with multi-brand, custom preference centers](real-time-marketing-compliance-settings.md)
+[Real-time marketing preference centers](real-time-marketing-preference-centers.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
