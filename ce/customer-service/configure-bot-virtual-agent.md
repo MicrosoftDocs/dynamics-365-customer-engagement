@@ -1,7 +1,7 @@
 ---
 title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
 description: "Use this article to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
-ms.date: 12/01/2022
+ms.date: 06/16/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
