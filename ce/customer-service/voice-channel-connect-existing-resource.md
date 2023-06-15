@@ -30,8 +30,8 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 1. Go to **Resource groups** and select the required resource group. 
 1. Select the required **Resource** from the resource group.
-1. Select **Properties** in **Settings**. On the **Properties** page,  copy the **Name** and **Resource ID** field values. You'll use these as the **ACS Resource Name** and **ACS Resource ID** in Customer Service admin center.
-1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, You'll specify this value as the **Connection string** value in Customer Service admin center. 
+1. Select **Properties** in **Settings**. On the **Properties** page,  copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center.
+1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center. 
 
 #### Get application and tenant IDs from the Azure portal
 
