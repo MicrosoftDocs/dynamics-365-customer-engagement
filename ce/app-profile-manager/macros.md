@@ -236,9 +236,11 @@ As an administrator, you can use the actions any number of times across differen
 
    :::image type="content" source="../customer-service/media/macro-omnichannel-connector.png" alt-text="Macro actions Omnichannel connector.":::
 
-#### Send KB article URL in chat
+#### Send knowledge base article link in chat
 
-This action pastes a knowledge base article URL in the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. The action contains the following field.
+This action sends a knowledge base article link to the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. Make sure that your admin has switched the **Use an external portal** toggle to **Yes**. More information: [Set up knowledge management](../customer-service/set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management)
+
+The action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
