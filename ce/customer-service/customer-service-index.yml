@@ -1,23 +1,20 @@
 ### YamlMime:Hub
 
-title:  Dynamics 365 Customer Service documentation
+title: Dynamics 365 Customer Service documentation
 summary: Discover how to make the most of Dynamics 365 Customer Service with training, docs, and videos covering product capabilities and how-to articles. Learn about the suite of capabilities that Customer Service provides and ensure that your business delivers the best customer service experience to your customers.
 brand: dynamics
 
 metadata:
   title: Dynamics 365 Customer Service
-  description: products description # Required; product description that is displayed in search results. < 160 chars. 
-  ms.topic: hub-page 
+  description: Discover how to make the most of Dynamics 365 Customer Service with training, docs, and videos covering product capabilities and how-to articles. Learn about the suite of capabilities that Customer Service provides and ensure that your business delivers the best customer service experience to your customers.
+  ms.topic: hub-page
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 06/13/2023
+  ms.date: 06/15/2023
   ms.custom: bap-template
   hide_bc: true
 
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
-
-# Do not change the following cards. You should only need to update the URLs to provide the correct links to your product documentation.
 
   items:
     # Card
@@ -35,13 +32,10 @@ highlightedContent:
     # Card
     - title: Troubleshoot
       itemType: concept
-      url: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
-      
+      url: /troubleshoot/dynamics-365/customer-service/welcome-customer-service      
 additionalContent: 
   sections:
   - title: Implement
-# Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
-# Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
     - title: Guidance 
       links: 
@@ -57,9 +51,9 @@ additionalContent:
         text: Try Customer Service
       - url: https://dynamics.microsoft.com/en-us/customer-service/pricing/
         text: Buy Customer Service
-      - url: /dynamics365/customer-service/omnichannel-provision-license
+      - url: omnichannel-provision-license.md
         text: Provision Omnichannel for Customer Service
-      - url: /dynamics365/customer-service/voice-channel-install
+      - url: voice-channel-install.md
         text: Provision the voice channel
     - title: Set up 
       links:
@@ -67,15 +61,15 @@ additionalContent:
         text: Set up roles and enable users in Omnichannel for Customer Service
       - url: persona-privilege-mapping.md
         text: Set up personas and privileges in Customer Service and Omnichannel for Customer Service
-      - url: /dynamics365/customer-service/customer-service-workspace-system-requirements
-        text: System requirements for Customer Service workspace
+      - url: customer-service-workspace-system-requirements.md
+        text: System requirements for Customer Service workspace  
   - title: Administer and develop
     items:
     - title: Configure
       links:
       - url: /dynamics365/customer-service/omnichannel-provision-license#set-up-omnichannel-for-customer-service-
         text: Manage environments for Omnichannel for Customer Service
-      - url: /dynamics365/customer-service/upgrade-omnichannel
+      - url: upgrade-omnichannel.md
         text: Upgrade Omnichannel for Customer Service
       - url: provision-unified-routing.md
         text: Provision unified routing for Customer Service
@@ -89,33 +83,35 @@ additionalContent:
         text: Develop a custom live chat widget
     - title: Customize
       links:
-      - url: /dynamics365/customer-service/add-enhanced-case-management
+      - url: add-enhanced-case-management.md
         text: Customize the case resolution experience
-      - url: /dynamics365/customer-service/omnichannel-customizer
+      - url: omnichannel-customizer.md
         text: Customize forms for your agents and supervisors
-      - url: /dynamics365/customer-service/model-customize-reports
-        text: Customize data models of historical analytics reports
+      - url: model-customize-reports.md
+        text: Customize data models of historical and real-time analytics reports
     - title: Integrate
       links: 
-      - url: /dynamics365/customer-service/voice-channel-contextual-transfer-external-ivr
+      - url: voice-channel-contextual-transfer-external-ivr.md
         text: Integrate a third-party IVR system with voice channel
-      - url: /dynamics365/customer-service/configure-bot-virtual-agent
+      - url: configure-bot-virtual-agent.md
         text: Integrate a Power Virtual Agents bot
-      - url: /dynamics365/customer-service/integrate-km-with-pva
+      - url: integrate-km-with-pva.md
         text: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
     - title: Configure AI features
       links:
-      - url: /dynamics365/customer-service/configure-copilot-features
+      - url: configure-copilot-features.md
         text: Manage copilot features in Customer Service
-      - url: /dynamics365/customer-service/copilot-powerapps-settings
+      - url: copilot-powerapps-settings.md
         text: Configure copilot features for custom case forms and custom apps
+      - url: csw-enable-ai-suggested-cases-knowledge-articles.md
+        text: Enable AI suggestions for similar cases and knowledge articles
     - title: Add-in solutions  
       links: 
       - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
         text: Unified Service Desk
       - url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
-        text: Channel Integration Framework
-  - title: Use
+        text: Channel Integration Framework 
+  - title: Manage your contact center
     items:
     - title: Manage cases and solve issues within SLAs
       links:
@@ -129,19 +125,19 @@ additionalContent:
         text: Work with SLAs
     - title: Communicate over channels that customers prefer
       links:
-      - url: /dynamics365/customer-service/channels
+      - url: channels.md
         text: Communicate over multiple channels
       - url: voice-channel.md
         text: Communicate over the voice channel
       - url: voice-channel-transfer-consult.md
         text: Transfer calls and consult with users in the voice channel
-      - url: /dynamics365/customer-service/oc-agent-dashboard
+      - url: oc-agent-dashboard.md
         text: View the communication panel 
     - title: Increase productivity and customer satisfaction 
       links:
-      - url: /dynamics365/customer-service/csw-productivity-pane
+      - url: csw-productivity-pane.md
         text: Use the productivity pane to resolve customer issues
-      - url: /dynamics365/customer-service/create-personal-quick-replies
+      - url: create-personal-quick-replies.md
         text: Use email to interact consistently with customers
       - url: /power-apps/user/add-activities
         text: Manage conversations and activities on the timeline
@@ -149,13 +145,13 @@ additionalContent:
         text: Search and use knowledge articles
     - title: Use AI capabilities
       links:
-      - url: /dynamics365/customer-service/csw-view-ai-suggested-cases-knowledge-articles
+      - url: csw-view-ai-suggested-cases-knowledge-articles.md
         text: View AI-suggested similar cases and knowledge articles 
-      - url: /dynamics365/customer-service/teams-use-suggested-contacts
+      - url: teams-use-suggested-contacts.md
         text: Use suggested contacts
-      - url: /dynamics365/customer-service/cs-ai-generated-summary
+      - url: cs-ai-generated-summary.md
         text: Use auto-summarization for ongoing conversations
-      - url: /dynamics365/customer-service/use-ai-suggested-contacts-teams
+      - url: use-ai-suggested-contacts-teams.md
         text: Collaborate with AI-suggested contacts in Microsoft Teams
     - title: Get insights and analyze service operations 
       links:
@@ -163,11 +159,11 @@ additionalContent:
         text: Use Customer Service dashboards
       - url: omnichannel-analytics-insights.md
         text: Use Omnichannel for Customer Service dashboards
-      - url: /dynamics365/customer-service/intro-realtime-analytics-dashboard
+      - url: intro-realtime-analytics-dashboard.md
         text: Use Omnichannel real-time analytics dashboards 
-      - url: /dynamics365/customer-service/manage-bookmarks
+      - url: manage-bookmarks.md
         text: Use bookmarks for reports 
-      - url: /dynamics365/customer-service/customize-reports
+      - url: customize-reports.md
         text: Customize visual display
     - title: Collaborate using Microsoft Teams
       links:      
@@ -175,16 +171,16 @@ additionalContent:
         text: Collaborate without switching context
       - url: use-teams-meetings.md
         text: Use Teams meetings 
-      - url: /dynamics365/customer-service/use-customer-support-swarming
+      - url: use-customer-support-swarming.md
         text: Use customer support swarming to resolve issues 
-    - title: Do more with apps
+    - title: Explore your apps
       links:
-      - url: /dynamics365/customer-service/cs-admin-center
-        text: Admins&mdash:Use Customer Service admin center
+      - url: cs-admin-center.md
+        text: Admins: Use Customer Service admin center
       - url: /dynamics365/customer-service/csw-overview?tabs=customerserviceadmincenter
-        text: AgentsAlt+0151Use Customer Service workspace
-      - url: /dynamics365/customer-service/customer-service-team-member
-        text: Team member-Use Customer Service Team Member 
+        text: Agents: Use Customer Service workspace
+      - url: customer-service-team-member.md
+        text: Team member: Use Customer Service Team Member  
   - title: Related products
     items:
         # Card
@@ -203,4 +199,5 @@ additionalContent:
         - title: Digital Contact Center Platform
           summary: Learn about Microsoft Digital Contact Center Platform, and how to deploy and configure Nuance IVR and Gatekeeper, Microsoft Dynamics 365, Power Virtual Agents, Azure Communication Services, and Teams to enhance and support your digital contact center.
           url: /digital-contact-center-platform/
-       
+
+
