@@ -39,15 +39,15 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-      - url: /dynamics365/guidance/implementation-guide/security
+      - url: /guidance/implementation-guide/security
         text: Security and compliance
-      - url: /dynamics365/guidance/implementation-guide/overview
+      - url: /guidance/implementation-guide/overview
         text: Implementation
-      - url: /dynamics365/adoption/adoption-guide
+      - url: /adoption/adoption-guide
         text: Adoption guide
     - title: Try/Buy/Provision
       links: 
-      - url: /dynamics365/customer-service/try-customer-service
+      - url: try-customer.md
         text: Try Customer Service
       - url: https://dynamics.microsoft.com/en-us/customer-service/pricing/
         text: Buy Customer Service
@@ -177,7 +177,7 @@ additionalContent:
       links:
       - url: cs-admin-center.md
         text: Admins, use Customer Service admin center
-      - url: /dynamics365/customer-service/csw-overview?tabs=customerserviceadmincenter
+      - url: csw-overview.md
         text: Agents, use Customer Service workspace
       - url: customer-service-team-member.md
         text: Team members, use Customer Service Team Member  
@@ -189,7 +189,7 @@ additionalContent:
           url: /power-apps/
         - title: Microsoft Power Platform
           summary: Learn how to quickly and easily build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, analyze data for insights using Power BI, rapidly design, configure, and publish modern websites using Power Pages, and build intelligent bots with a no-code interface using Power Virtual Agents.
-          url: /power-platform/?WT.mc_id=webupdates_GEP_Powerplatformlearn-web-wwl
+          url: /power-platform/
         - title: Azure Communication Services
           summary: Build powerful, cloud-based communication and customer engagement experiences by adding voice, video, chat, sms, email, teams interoperability, call automation, and telephony to your apps.
           url: /azure/communication-services/
