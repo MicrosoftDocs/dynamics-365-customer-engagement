@@ -24,7 +24,7 @@ You can connect your voice or SMS channels to Azure Communication Services using
 - Your active Azure subscription must be in the same tenant as your Dynamics 365 account.
 - Your role has **Contributor** privileges.
 
-#### Obtain Azure resource information
+#### Get Azure resource information
 
 Before you connect an existing Azure resource to Azure Communication Services, you must retrieve the following information from the Azure portal:
 
