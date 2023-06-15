@@ -39,15 +39,15 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-      - url: /guidance/implementation-guide/security
+      - url: /dynamics365/guidance/implementation-guide/security
         text: Security and compliance
-      - url: /guidance/implementation-guide/overview
+      - url: /dynamics365/guidance/implementation-guide/overview
         text: Implementation
-      - url: /adoption/adoption-guide
+      - url: /dynamics365/adoption/adoption-guide
         text: Adoption guide
     - title: Try/Buy/Provision
       links: 
-      - url: try-customer.md
+      - url: try-customer-service.md
         text: Try Customer Service
       - url: https://dynamics.microsoft.com/en-us/customer-service/pricing/
         text: Buy Customer Service
