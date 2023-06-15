@@ -67,7 +67,7 @@ additionalContent:
     items:
     - title: Configure
       links:
-      - url: /omnichannel-provision-license.md#set-up-omnichannel-for-customer-service-
+      - url: omnichannel-provision-license.md#set-up-omnichannel-for-customer-service-
         text: Manage environments for Omnichannel for Customer Service
       - url: upgrade-omnichannel.md
         text: Upgrade Omnichannel for Customer Service
@@ -75,9 +75,9 @@ additionalContent:
         text: Provision unified routing for Customer Service
     - title: Develop
       links:
-      - url: /developer/reference/entities/overview-entity-ref.md
+      - url: developer/reference/entities/overview-entity-ref.md
         text: Omnichannel for Customer Service entity reference
-      - url: /developer/omnichannel-reference.md
+      - url: developer/omnichannel-reference.md
         text: Live chat SDK Reference
       - url: develop-live-chat-widget.md
         text: Develop a custom live chat widget
@@ -109,7 +109,7 @@ additionalContent:
       links: 
       - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
         text: Unified Service Desk
-      - url: /channel-integration-framework/channel-integration-framework.md
+      - url: channel-integration-framework/channel-integration-framework.md
         text: Channel Integration Framework 
   - title: Manage your contact center
     items:
