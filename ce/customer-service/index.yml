@@ -49,7 +49,7 @@ additionalContent:
       links: 
       - url: try-customer-service.md
         text: Try Customer Service
-      - url: https://dynamics.microsoft.com/en-us/customer-service/pricing/
+      - url: https://dynamics.microsoft.com/customer-service/pricing/
         text: Buy Customer Service
       - url: omnichannel-provision-license.md
         text: Provision Omnichannel for Customer Service
@@ -67,7 +67,7 @@ additionalContent:
     items:
     - title: Configure
       links:
-      - url: /dynamics365/customer-service/omnichannel-provision-license#set-up-omnichannel-for-customer-service-
+      - url: /omnichannel-provision-license.md#set-up-omnichannel-for-customer-service-
         text: Manage environments for Omnichannel for Customer Service
       - url: upgrade-omnichannel.md
         text: Upgrade Omnichannel for Customer Service
@@ -75,9 +75,9 @@ additionalContent:
         text: Provision unified routing for Customer Service
     - title: Develop
       links:
-      - url: /dynamics365/customer-service/developer/reference/entities/overview-entity-ref
+      - url: /developer/reference/entities/overview-entity-ref.md
         text: Omnichannel for Customer Service entity reference
-      - url: /dynamics365/customer-service/developer/omnichannel-reference
+      - url: /developer/omnichannel-reference.md
         text: Live chat SDK Reference
       - url: develop-live-chat-widget.md
         text: Develop a custom live chat widget
@@ -109,7 +109,7 @@ additionalContent:
       links: 
       - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
         text: Unified Service Desk
-      - url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
+      - url: /channel-integration-framework/channel-integration-framework.md
         text: Channel Integration Framework 
   - title: Manage your contact center
     items:
