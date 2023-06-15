@@ -131,7 +131,7 @@ additionalContent:
         text: Communicate over the voice channel
       - url: voice-channel-transfer-consult.md
         text: Transfer calls and consult with users in the voice channel
-      - url: oc-agent-dashboard.md
+      - url: oc-conversation-control.md
         text: View the communication panel 
     - title: Increase productivity and customer satisfaction 
       links:
