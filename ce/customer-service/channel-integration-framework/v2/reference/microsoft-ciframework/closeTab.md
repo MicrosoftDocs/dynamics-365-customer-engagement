@@ -1,7 +1,7 @@
 ---
 title: "closeTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes reference information such as description, syntax, and parameters for the closeTab method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/22/2022
+ms.date: 06/19/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -11,6 +11,9 @@ ms.custom:
 ---
 
 # closeTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
+
+ >[!NOTE]  
+ > Use this API only when the focused session is either the home/default session or it belongs to the provider.
 
 Closes the specified app tab in the current session.
 

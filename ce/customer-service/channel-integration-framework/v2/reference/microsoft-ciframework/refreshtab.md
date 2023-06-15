@@ -1,7 +1,7 @@
 ---
 title: "refreshTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about refreshTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 11/02/2020
+ms.date: 06/19/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -12,7 +12,8 @@ ms.custom:
 
 # refreshTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
- 
+ >[!NOTE]  
+ > Use this API only when the focused session is either the home/default session or it belongs to the provider.
 
 Refreshes the tab.
 
