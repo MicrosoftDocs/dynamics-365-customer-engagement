@@ -391,8 +391,13 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/landing-page.yml",
+      "redirect_url": "index",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/help-hub.md",
-      "redirect_url": "landing-page",
+      "redirect_url": "index",
       "redirect_document_id": "false"
     },
     {
@@ -2791,6 +2796,11 @@
     {
       "source_path": "ce/sales/access-deal-manager.md",
       "redirect_url": "/dynamics365/sales/use-opportunity-pipeline-view",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/help-hub.yml",
+      "redirect_url": "/dynamics365/sales/index",
       "redirect_document_id": "false"
     },
     {
