@@ -27,11 +27,7 @@ Enable the Copilot features for agents to use Copilot to:
 - Respond to questions
 - Compose an email
 - Draft a chat response
-<<<<<<< HEAD
-- Summarize a case or conversation
-=======
 - Summarize a case and conversation
->>>>>>> 93a9e579dda666b9a5302570684dd44adefd9784
 
 ## Region availability and supported languages
 
