@@ -10,7 +10,7 @@ ms.date: 07/15/2023
 ms.custom: bap-template
 ---
 
-# Configure digital contact center for Nuance Gatekeeper integration (preview)
+# Configure contact center for Nuance Gatekeeper integration (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
