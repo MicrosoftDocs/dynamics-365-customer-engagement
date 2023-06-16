@@ -154,6 +154,11 @@ items:
     - name: Time entry
       href: field-service-time-entry.md
 
+- name: Copilot in Field Service
+  items:
+    - name: Copilot in Field Service overview
+      href: copliot-in-fs.md
+
 - name: Scheduling
   items:
   - name: Universal Resource Scheduling for Field Service overview
