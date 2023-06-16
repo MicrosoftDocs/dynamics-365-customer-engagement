@@ -1,7 +1,7 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
 description: "Use this article to understand how to integrate Azure bots with Omnichannel for Customer Service."
-ms.date: 12/02/2022
+ms.date: 06/16/2023
 author: neeranelli
 ms.author: nenellim
 ms.collection: get-started
@@ -21,6 +21,10 @@ In Omnichannel for Customer Service, you can integrate Azure bots seamlessly wit
     To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 - Set the messaging endpoint in your bot configuration. More information: [Configure bot settings](/azure/bot-service/bot-service-manage-settings?view=azure-bot-service-4.0&preserve-view=true&tabs=userassigned)
 - [Register your app on the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-an-application). Make a note of the registered app name.
+
+> [!NOTE]
+> If you're using multiple bots, make sure that you create unique applications and have unique application IDs for each bot.
+
 - To use the bot over messaging channels:
     - Add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) as a supported channel, if you're using public cloud services.
     - Add both [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels, if you're using GCC (Government Community Cloud) services.
@@ -59,7 +63,7 @@ The bot user is first created as an application user and then assigned the **Omn
 
 1. On the **Application users** page, select **New app user** and in the **Create a new app user** dialog that opens, do the following:
 
-    a. Select a **Business unit** from the dropdown list.
+    a. Select a **Business unit** in the list. Make sure that you select the top-level business unit.
     
     b. Edit the **Security roles** field, and in the **Add security roles** page, select **Omnichannel agent** from the dropdown list and select **Save** to go back to the **Create a new app user** dialog.
     
