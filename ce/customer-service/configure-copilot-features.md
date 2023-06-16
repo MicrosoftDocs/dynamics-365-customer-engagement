@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 06/07/2023 
+ms.date: 06/14/2023 
 ms.custom: bap-template 
 ms.collection:
 ---
@@ -27,7 +27,11 @@ Enable the Copilot features for agents to use Copilot to:
 - Respond to questions
 - Compose an email
 - Draft a chat response
+<<<<<<< HEAD
 - Summarize a case or conversation
+=======
+- Summarize a case and conversation
+>>>>>>> 93a9e579dda666b9a5302570684dd44adefd9784
 
 ## Region availability and supported languages
 
@@ -64,9 +68,7 @@ Perform the following steps to enable the copilot features:
        - The version is up to date.
        - The state is set to **Published**
        - The locale is set to **English**
-
-      By default, the knowledge articles are refreshed automatically every week and the date and time of when the knowledge base was last updated is displayed.
-
+      By default, the knowledge base content is refreshed every week.
     - **SharePoint**: Copilot generates responses using the content uploaded to SharePoint as the source. Supported files include: .doc, .docx, .pdf, .ppt, .pptx, .txt. You can add multiple SharePoint URLs. The SharePoint sites must belong to the same tenant as the current organization.<br>
     Select **Manage SharePoint providers** to add your SharePoint URL. See: [Set up a search provider](set-up-search-providers.md#set-up-a-search-provider). Make sure that your SearchPoint site is a part of the same tenant as the current organization.
     - You can add up to five trusted web domains for Copilot to search and generate responses from. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels, represented by forward slash (/) after the .com part of the URL. 
@@ -84,14 +86,14 @@ For example, an agent asks a question about an espresso issue in the coffee mach
 
 |Knowledge base | SharePoint|
 |----------------|--------------|
-|When an agent asks a question, the application triggers the `tprompt` API to search the internal knowledge base, retrieves and summarizes the relevant knowledge articles. Copilot uses the summary to generate a response. |  When an agents asks a question,the application searches for the keywords in each of the configured sites, and retrieves the top three results, which are then made into snippets. Copilot generates the response based on these snippets.<br><b>NOTE</b><br> We recommend the following:<br>- Ensure that the keywords you search with are as precise as possible. If the keywords you've used aren't present in the SharePoint documents, the Copilot can't generate responses.<br> - When you ask follow up turn by turn questions, Copilot might not generate the responses that you're expecting. Therefore, we recommend that you ask individual direct questions.|
+|When an agent asks a question, the application triggers an API to search the internal knowledge base, retrieves and summarizes the relevant knowledge articles. Copilot uses the summary to generate a response. |  When an agents asks a question,the application searches for the keywords in each of the configured sites, and retrieves the top three results, which are then made into snippets. Copilot generates the response based on these snippets.<br><b>NOTE</b><br> We recommend the following:<br>- Ensure that the keywords you search with are as precise as possible. If the keywords you've used aren't present in the SharePoint documents, then Copilot can't generate responses.<br> - When you ask follow up turn by turn questions, Copilot might not generate the responses that you're expecting.|
 |:::image type="content" source="media/copilot-km-mini.png" alt-text="Copilot internal km" lightbox="media/copilot-km-main.png":::|:::image type="content" source="media/copilot-sharepoint-mini.png" alt-text="Sharepoint copilot responses" lightbox="media/copilot-sharepoint-main.png":::|
 
 ## Enable summarization of cases and conversations
 
-Copilot generated case and conversation summaries enhances agent collaboration and productivity as follows:
+Copilot generated case and conversation summaries enhance agent collaboration and productivity as follows:
 
-- Case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description.
+- Case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with the case title, customer, case subject, product, priority, case type, and case description.
 - Conversation summaries enable agents to collaborate effectively with other agents and contacts, by enabling agents to easily recap an ongoing chat or a transcribed voice conversation. 
 
 > [!IMPORTANT]
@@ -106,7 +108,7 @@ Copilot generated case and conversation summaries enhances agent collaboration a
    - **When an agent joins a conversation**: Generates a summary when an agent joins the conversation. This is applicable to transferred conversation or when an agent invites a collaborator to join the conversation.
    - **When a conversation ends**: Generates a summary when the conversation ends. 
       - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
-   -  **On demand, by selecting an button to summarize the conversation** : Generates a summary at any point in the conversation, whenever the agent selects the Copilot summarize conversation.
+   -  **On demand, by selecting an button to summarize the conversation** : Generates a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
 
 Perform the steps in [display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
 
