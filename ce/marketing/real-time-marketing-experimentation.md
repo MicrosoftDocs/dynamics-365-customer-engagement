@@ -1,8 +1,7 @@
 ---
-title: "Experiment and refine real-time marketing journeys (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Experiment and refine real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 12/06/2021
-
+title: Experiment and refine real-time marketing journeys
+description: Experiment and refine real-time marketing journeys in Dynamics 365 Marketing.
+ms.date: 12/06/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -55,6 +54,8 @@ After you have published your journey, you can open it to track the lifecycle of
 - **Ended**: These are tests were completed by finding a statistically significant winner or by timing out when scheduled to end at a set date and time. Ended tests cannot be reused.
 
 ## Understand your results
+
+:::image type="content" source="media/real-time-marketing-goal-analytics.png" alt-text="Goal analytics screenshot." lightbox="media/real-time-marketing-goal-analytics.png":::
 
 There are three possible A/B test result outcomes:
 
