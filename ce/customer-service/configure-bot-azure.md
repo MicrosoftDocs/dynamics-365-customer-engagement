@@ -23,7 +23,7 @@ In Omnichannel for Customer Service, you can integrate Azure bots seamlessly wit
 - [Register your app on the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-an-application). Make a note of the registered app name.
 
 > [!NOTE]
-> If you're using multiple bots, make sure that you have unique application and application IDs for each bot.
+> If you're using multiple bots, make sure that you create unique applications and have unique application IDs for each bot.
 
 - To use the bot over messaging channels:
     - Add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) as a supported channel, if you're using public cloud services.
