@@ -215,9 +215,9 @@ You can deactivate or reactivate a filter configuration in the Customer Service 
 
 ## Allow agents to personalize their knowledge article search filters
 
-You may have scenarios within your organization where agents are working on different areas and don’t all need the same filter settings. For example, an organization may have agents working on different product areas. One agent might need to see knowledge articles for Product A, while another agent might only want knowledge articles for Product B, and so forth. You can allow your agents to personalize the knowledge article search filters for their areas.
+You may have scenarios within your organization where agents are working on different areas and don’t all need the same filter settings. For example, an organization may have agents working on different product areas. One agent might need to see knowledge articles for Product A, while another agent might only want knowledge articles for Product B, and so forth.
 
-You can allow agents to personalize their knowledge article search filters in the Customer Service admin center or Customer Service Hub app by performing the following steps:
+You can allow your agents to personalize the knowledge article search filters for their areas, from the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Settings** page.
 
@@ -238,4 +238,4 @@ You can allow agents to personalize their knowledge article search filters in th
 
 3. Select **Save**.
 
-After you've enabled the option to personalize the knowledge search filters for your agents, your agents will be able to view all the configurations that you previously set for them. Agents can [select the filters](filter-articles.md#personalize-your-knowledge-search-article-filters) they want to use.
+After you've enabled the option, your agents will be able to view all the configurations that you previously set for them and [personalize the knowledge search filters for their areas](filter-articles.md#personalize-your-knowledge-search-article-filters).
