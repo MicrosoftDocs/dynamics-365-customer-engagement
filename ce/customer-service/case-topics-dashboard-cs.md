@@ -1,7 +1,7 @@
 ---
 title: Topics Dashboard | Microsoft Docs
 description: Learn about the Topics dashboard insights to better understand agent performance in your organization.
-ms.date: 06/13/2023
+ms.date: 06/16/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -31,7 +31,13 @@ To view the Topics dashboard, go to customer service historical analytics and se
 
 ### Access the Topics dashboard
 
-[!INCLUDE[cc-navigation-cs](../includes/cc-navigation-cs.md)]
+In the Customer Service workspace app, do one of the following to view the dashboard:
+
+- In the default view, select the plus (+) icon, and then select Customer Service historical analytics.
+
+- If the enhanced multisession workspace view is enabled, select the site map and then select Customer Service historical analytics.
+
+On the page that appears, select the dashboard.
 
 ## Key insights card
 
@@ -45,7 +51,7 @@ The Key insights discovered card has three areas:
 
 ## Report details
 
-The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
+The key performance indicator (KPI) summary charts summarize the KPIs for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
 
 The topics dashboard report has the following KPIs.
 
@@ -73,23 +79,12 @@ The topic metrics chart has the following metrics displayed:
 
 ### Case topics drill-down view
 
-The case topics drill down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end customers are contacting support. 
+The case topics drill-down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end customers are contacting support.
 
 To access the case topics drill down, select any metric value for the required topic and select **Details**.
 
 > [!div class="mx-imgBorder"] 
 > ![Case topics drill down view.](media/case-topics-drill-down-view.png "Case topics drill view")
-
-### Automation of case topics for Power Virtual Agents bots
-
-AI-discovered topics in Customer Service historical analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents bot is available in the region in which your Customer Service organization is located, the feature can be enabled by the administrator for use. 
-
-After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting **Power Virtual Agents** icon on the **Topic metrics** grid or select **Details** and then select **Automate to bot** within the drill down view. This will launch the topic editing form.  
-
-The suggested trigger phases as well as the topic based on the case title is provided. The first step is to select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, selecting **Create Bot** will redirect to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added.
-
-> [!NOTE]
-> Any bots created through the Microsoft Teams channel will not be listed in the bot selection list. Users who create bots by using the drill down page for a topic in Customer Service workspace will be redirected to Customer Service Hub for form completion. 
 
 ## Language availability for topics 
 
@@ -105,8 +100,7 @@ The topics capability in the Customer Service historical analytics reports comes
 - Spanish 
 
 > [!NOTE]
-> While topic discovery is not prevented and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
-
+> While topic discovery isn't prevented and still possible in languages that aren't listed above, there may be differences in experience for users who leverage topics in unsupported languages.
 
 ### See also
 
