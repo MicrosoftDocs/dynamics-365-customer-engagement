@@ -1,7 +1,7 @@
 ---
 title: Customize knowledge article search filters | MicrosoftDocs
 description: "Learn how to enable knowledge article search filters in Dynamics 365 Customer Service."
-ms.date: 10/03/2022
+ms.date: 06/16/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -238,4 +238,4 @@ You can allow agents to personalize their knowledge article search filters in th
 
 3. Select **Save**.
 
-After you've enabled the option to personalize the knowledge search filters for your agents, your agents will be able to view all the configurations that you previously set for them.
+After you've enabled the option to personalize the knowledge search filters for your agents, your agents will be able to view all the configurations that you previously set for them. Agents can [select the filters](filter-articles.md#personalize-your-knowledge-search-article-filters) they want to use.
