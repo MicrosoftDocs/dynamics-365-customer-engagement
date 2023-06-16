@@ -1,7 +1,7 @@
 ---
 title: Experiment and refine real-time marketing journeys
 description: Experiment and refine real-time marketing journeys in Dynamics 365 Marketing.
-ms.date: 12/06/2023
+ms.date: 06/16/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
