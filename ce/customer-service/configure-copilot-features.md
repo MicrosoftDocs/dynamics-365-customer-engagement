@@ -74,6 +74,17 @@ Perform the following steps to enable the copilot features:
 
 :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
 
+#### Features supported with different knowledge sources
+
+The following table summarizes the copilot features supported for a configured knowledge source.
+
+| Feature|Knowledge base | SharePoint | External web resources |
+|-------|----------|---------|--------|
+|Ask a question |✔|✔|X|
+|Write an email | ✔|✔|✔|
+|Draft a response |✔|✔|✔|
+
+
 ## Manage knowledge sources
 
 Based on the knowledge source you select, the Copilot responses vary.
