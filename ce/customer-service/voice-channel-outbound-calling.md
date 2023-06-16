@@ -1,7 +1,7 @@
 ---
 title: "Set up outbound calling in the voice channel | MicrosoftDocs"
 description: "Use this article to understand how you can set up outbound calling for phone numbers in your organization."
-ms.date: 10/03/2022
+ms.date: 06/16/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -94,7 +94,9 @@ You can assign personal phone numbers to agents to make outbound calls to custom
    The phone number is now assigned exclusively to the agent to call customers.
 
 > [!NOTE]
-> You can assign to agents local phone numbers only as personal phone numbers; toll-free numbers can’t be assigned. Personal agent phone number calls always apply the default scoped outbound profile.
+> - You can assign to agents local phone numbers only as personal phone numbers; toll-free numbers can’t be assigned. Personal agent phone number calls always apply the default scoped outbound profile.
+> - You can add only those users who are configured for unified routing.
+> - After 20 minutes of being added to a queue, agents must refresh their dashboards to be able to make calls.
 
 ### See also
 
