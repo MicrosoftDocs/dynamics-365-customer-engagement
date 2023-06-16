@@ -1,9 +1,35 @@
 - name: Dynamics 365 Customer Service documentation
   items: 
   - name: Dynamics 365 Customer Service documentation
-    href: landing-page.yml
-  - name: Introduction
+    href: index.yml
+  - name: Welcome to Dynamics 365 Customer Service
     href: overview.md
+  - name: Get started
+    items:
+    - name: Use Customer Service workspace
+      href: csw-overview.md
+    - name: Use Customer Service Team Member
+      href: customer-service-team-member.md
+    - name: Use Customer Service admin center
+      href: cs-admin-center.md
+    - name: Omnichannel admin center
+      href: oc-admin-center.md
+    - name: Customer Service Hub
+      href: customer-service-hub-user-guide-basics.md
+    - name: Configure Customer Service
+      href: configure-cs.md
+    - name: Omnichannel Administration
+      href: omnichannel-administrator.md  
+    - name: Omnichannel for Customer Service
+      items: 
+      - name: Omnichannel for Customer Service
+        href: introduction-omnichannel.md
+      - name: Demo data for Chat for Dynamics 365 Customer Service
+        href: chat-dynamics365-customer-service-demo-data.md
+      - name: Quickly configure a chat widget
+        href: configure-live-chat.md
+    - name: Get started with Customer Service
+      href: /training/modules/get-started-with-dynamics-365-for-customer-service/
   - name: Release plans
     href: whats-new-customer-service.md
   - name: Sign up for a free Customer Service trial
@@ -74,32 +100,6 @@
       href: try-channels.md
     - name: Provide consent to access data
       href: data-access-consent.md
-  - name: Get started
-    items:
-    - name: Use Customer Service workspace
-      href: csw-overview.md
-    - name: Use Customer Service Team Member
-      href: customer-service-team-member.md
-    - name: Use Customer Service admin center
-      href: cs-admin-center.md
-    - name: Omnichannel admin center
-      href: oc-admin-center.md
-    - name: Customer Service Hub
-      href: customer-service-hub-user-guide-basics.md
-    - name: Configure Customer Service
-      href: configure-cs.md
-    - name: Omnichannel Administration
-      href: omnichannel-administrator.md  
-    - name: Omnichannel for Customer Service
-      items: 
-      - name: Omnichannel for Customer Service
-        href: introduction-omnichannel.md
-      - name: Demo data for Chat for Dynamics 365 Customer Service
-        href: chat-dynamics365-customer-service-demo-data.md
-      - name: Quickly configure a chat widget
-        href: configure-live-chat.md
-    - name: Get started with Customer Service
-      href: /training/modules/get-started-with-dynamics-365-for-customer-service/
   - name: User management
     items: 
     - name: Overview of user management

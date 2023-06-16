@@ -1,7 +1,7 @@
 ---
 title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
 description: "Use this article to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
-ms.date: 12/01/2022
+ms.date: 06/16/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -52,6 +52,9 @@ To do so, perform the following steps:
 ## Connect your Power Virtual Agents bot to omnichannel instance
 
 Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-your-bot-to-omnichannel-for-customer-service) to connect your Power Virtual Agents bot to the omnichannel instance.
+
+> [!NOTE]
+> If you're using multiple bots, make sure that you create unique applications and have unique application IDs for each bot.
 
 ## Configure your Power Virtual Agents bot in the admin app
 

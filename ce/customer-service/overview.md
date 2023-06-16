@@ -1,7 +1,7 @@
 ---
-title: Customer Service Overview (Dynamics 365 Customer Service)
+title: Welcome to Dynamics 365 Customer Service
 description: Overview of Dynamics 365 Customer Service.
-ms.date: 05/16/2023
+ms.date: 06/15/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -10,7 +10,7 @@ ms.custom:
 ms.collection: get-started
 ---
 
-# Overview of Dynamics 365 Customer Service
+# Welcome to Dynamics 365 Customer Service
 
 [!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
