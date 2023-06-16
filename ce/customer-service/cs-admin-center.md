@@ -1,7 +1,7 @@
 ---
 title: Customer Service admin center
 description: Get started with Customer Service admin center.
-ms.date: 06/15/2023
+ms.date: 06/16/2023
 ms.topic: conceptual
 ms.collection: get-started
 author: neeranelli
@@ -132,4 +132,3 @@ See the [FAQ about Customer Service admin center](faq-customer-service-admin-cen
 [Sign up for a free Dynamics 365 Customer Service trial](try-customer-service.md)  
 [Overview of user management](overview-users.md)  
 [Manage your bots in Omnichannel for Customer Service](manage-your-bots.md)  
-

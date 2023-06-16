@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection: 
-ms.date: 06/15/2023
+ms.date: 06/16/2023
 ms.custom: bap-template
 ---
 
@@ -42,3 +42,4 @@ Some of the information that's listed on the **Bots** page includes the bot name
 ### See also
 
 [Get started with Customer Service admin center](cs-admin-center.md)  
+[Configure Power Virtual Agents bots for voice channel](voice-channel-pva-bots.md)  
