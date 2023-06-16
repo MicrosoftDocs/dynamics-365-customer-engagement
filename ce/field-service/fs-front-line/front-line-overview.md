@@ -1,7 +1,7 @@
 ---
-title: Dynamics 365 Field Service (Preview) overview
-description: Learn about the Dynamics 365 Field Service (Preview).
-ms.date: 05/31/2023
+title: Dynamics 365 Field Service in Microsoft 365 apps
+description: Learn about the Dynamics 365 Field Service (Preview) which integrates with Microsoft Outlook and Teams.
+ms.date: 06/16/2023
 ms.topic: overview
 author: jasonxian-msft
 ms.author: jasonxian
@@ -9,15 +9,17 @@ ms.reviewer: v-wendysmith
 ms.custom: bap-template
 ---
 
-# Dynamics 365 Field Service (Preview) overview
+# Dynamics 365 Field Service in Microsoft 365 apps
 
-With Dynamics 365 Field Service (Preview), frontline workers and managers can create, view, and manage work orders within Microsoft Outlook and Teams. A frontline manager is typically a service manager and dispatcher. A frontline worker is a technician, the one performing the work.
+Dynamics 365 Field Service (Preview) integrates Field Service with Microsoft Outlook and Teams so that frontline workers and managers can create, view, and manage work orders within Outlook and Teams. A frontline manager is typically a service manager and dispatcher. A frontline worker is a technician, the one performing the work.
 
-An Outlook add-in allows frontline managers to view and create work orders in Outlook, so they can quickly respond to service requests and questions. A Viva Connections dashboard in Teams provides frontline workers with an at-a-glance view of their workday and frontline managers with the ability to view and create work orders. Users can also initiate a Dynamics 365 Remote Assist call within Teams mobile.
+An Outlook add-in allows frontline managers to view and create work orders in Outlook, so they can quickly respond to service requests and questions. The Outlook add-in also provides copilot capabilities to create work orders in Outlook.
+
+A Viva Connections dashboard in Teams provides frontline workers with an at-a-glance view of their workday and frontline managers with the ability to view and create work orders. Users can also initiate a Dynamics 365 Remote Assist call within Teams mobile.
 
 As an organization, you can use the capabilities of the Field Service (Preview) using Microsoft Outlook or Microsoft Teams or both. For more information about what Field Service (Preview) provides, see:
 
-- [Field Service (Preview) Outlook overview](front-line-outlook.md)
+- [Field Service (Preview) Outlook overview with Copilot for the Frontline Manager](front-line-outlook.md)
 - [Field Service (Preview) Teams overview for the Frontline Manager](front-line-teams-manager.md)
 - [Field Service (Preview) Teams overview for the Frontline Worker](front-line-teams-worker.md)
 
