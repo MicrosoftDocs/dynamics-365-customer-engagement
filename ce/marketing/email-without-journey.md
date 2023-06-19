@@ -1,7 +1,7 @@
 ---
-title: "Send emails without building a journey"
-description: "Learn how to send emails in Dynamics 365 Marketing without building a journey."
-ms.date: 05/08/2023
+title: Use "Send now" to send emails instantly in real-time marketing
+description: Learn how to send emails in Dynamics 365 Marketing without building a journey.
+ms.date: 06/09/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -13,10 +13,13 @@ search.audienceType:
   - enduser
 ---
 
-# Send emails without building a journey
+# Use "Send now" to send emails instantly in real-time marketing
+
+> [!IMPORTANT]
+> The "Send now" functionality described in this article, **only** applies to real-time marketing.
 
 > [!TIP]
-> If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to the **Email editor** area, enabling the **Send Now** feature switch, and saving the setting by selecting **Save** on the top right corner.
+> If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to the **Email editor** area, enabling the **Send now** feature switch, and saving the setting by selecting **Save** on the top right corner.
 
 You can now send an email directly from the email editor without the overhead of creating a journey. From the email editor, select the **Ready to Send** option. This directs you to select the **Send** the email option where you can select a segment, preview its contents, and then send the email. The process builds a simple journey in the background to assist you in sending your email.
 

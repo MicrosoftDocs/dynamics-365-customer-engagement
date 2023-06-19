@@ -19,7 +19,7 @@ searchScope:
 # Define playbook categories 
 
 > [!NOTE]
-> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](create-manage-sequences.md)  
+> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](deprecations-sales.md#playbooks-will-be-deprecated)  
 
 You can create categories to classify playbooks. For example, categories could be contract renewals or decision maker departures.
 
