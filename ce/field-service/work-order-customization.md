@@ -145,4 +145,4 @@ To enable Bing Maps button in form designer, at least one of the attributes of t
 - [Set up booking statuses](set-up-booking-statuses.md)
 - [Create a work order](create-work-order.md)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWP4vU]
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]

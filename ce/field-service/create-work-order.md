@@ -58,5 +58,5 @@ A work order is often created from a case, an agreement, or an opportunity. It g
 
 - [Create work order types](create-work-order-types.md)
 - [Set up booking statuses](set-up-booking-statuses.md)
-- 
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
