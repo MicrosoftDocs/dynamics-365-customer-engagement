@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 ## Enable address suggestions
 
-Enable address suggestions to help sellers save time and reduce errors while entering address information. When a seller starts typing in the address field, a list of possible addresses based on the entered text are displayed. Once the seller selects the correct address from the list of suggestions, the address fields in the form are filled out automatically. This feature is available for contact, lead, and account forms.
+Enable address suggestions to help sellers save time and reduce errors while entering address information in the contact, lead, and account form. When a seller starts typing in the address field, Bing Maps displays a list of possible addresses based on the entered text. Once the seller selects the correct address from the list of suggestions, the address fields in the form are filled automatically. 
 
 ## License and role requirements
 
@@ -32,7 +32,7 @@ Enable address suggestions to help sellers save time and reduce errors while ent
 1. Go to **General Settings** > **Productivity Tools** > **Enable address suggestions**.
 1. Turn on the toggle and save the changes.
 1. Verify the changes by opening a contact, lead, or account form.
-    You'll see a new **Address** field and a Bing map after all the address fields as shown in the following image.
+    You'll see a new **Address** field and a Bing map after all the address fields. The field suggests addresses as you type and will populate address fields once you select an address, as shown in the following image.
     :::image type="content" source="media/address-suggestion-field.png" alt-text="Screenshot of the new address field in a form":::
 
 
