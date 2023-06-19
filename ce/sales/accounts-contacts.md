@@ -45,11 +45,11 @@ You can create accounts and contacts manually or import them from a spreadsheet 
 ### Auto-populate address fields with address suggestions
 
 > [!NOTE]
-> Your administrator must have enable address suggestion for you to use this feature. See [Enable address suggestions](enable-address-suggestion.md) for more information.  
+> Your administrator must have enabled address suggestion for you to use this feature. See [Enable address suggestions](enable-address-suggestion.md) for more information.  
 
 1. Open a contact, lead, or account form that has address fields.
 1. Scroll down to the **Address** field and start typing the address.
-1. Select an address from the list of suggestions provided by Bing Maps and press the **Enter** key.
+1. Select an address from the list of suggestions provided by Bing Maps and press the **Enter** key.  
     The address fields are auto-populated with the details in the selected address and Bing Map is also updated to point to the selected address.
 
 ### Add contacts to an account
