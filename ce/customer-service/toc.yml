@@ -976,6 +976,8 @@
       href: configure-bot-best-practices.md   
     - name: Administrator experience
       items:
+      - name: Manage your bots
+        href: manage-your-bots.md
       - name: Configure context variables for bots
         href: context-variables-for-bot.md      
       - name: Configure Azure bots
