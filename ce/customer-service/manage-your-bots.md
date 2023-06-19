@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 In Omnichannel for Customer Service, you can seamlessly add a bot and get it up and running within a few minutes while the integration is taken care of in the background.
 
-You can manage your Power Virtual Agents bots, such as connect and disconnect them on the **Bots** page.
+You can manage your Power Virtual Agents bots on the **Bots** page.
 
 ## Prerequisites
 
@@ -22,7 +22,7 @@ Power Virtual Agents bots must be available in the tenant where Omnichannel for 
 
 ## Add a bot
 
-When you add a bot by using the steps outlined in this section, the Power Virtual Agents bot is automatically registered in Azure and connected to Omnichannel for Customer Service. You'll then configure greetings topics in Power Virtual Agents for the scenarios that you want the bot to handle.
+When you add a bot by using the steps outlined in this section, the Power Virtual Agents bot is automatically registered in Azure and connected to Omnichannel for Customer Service. You'll then configure topics in Power Virtual Agents for the scenarios that you want the bot to handle.
 
 1. In Customer Service admin center, select **Bots** under **Customer support**.
 1. On the **Bots** page, select **Add**, and on the **Add a bot** page, select **Create new bot**, and then select **Next**.
@@ -31,7 +31,7 @@ When you add a bot by using the steps outlined in this section, the Power Virtua
 
 ## Manage your bots
 
-Some of the information that's listed on the **Bots** page includes the bot name, the type, whether voice is enabled, the workstreams to which the bot is connected, the queues to which the bot belongs, and its status. You can use the various options on the **Bots** page to manage your bots in the following ways:
+On the **Bots** page, you can review the bot details and also perform the following actions:
 
 - Disconnect the bot.
 - Select the bot name and you'll navigate to the Power Virtual Agents app to configure topics and other settings for the bot.
