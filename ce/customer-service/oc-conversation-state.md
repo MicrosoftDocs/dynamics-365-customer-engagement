@@ -131,6 +131,9 @@ The following table describes the channel, status reason, and default configured
 
 A conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. The inactive time can be set in the workstream for the **Auto-close after inactivity** option, based on which the conversation will be moved to the closed state after the criteria is met.
 
+> [!NOTE]
+The **Auto-close after inactivity**  option is available for persistent chat, SMS, social, and Microsoft Teams channels only.
+
 For example, when you set **Auto-close after inactivity** to 5 minutes, the conversation is moved to the **Closed** state if it has been in **Waiting** for more than 5 minutes.
 
 To learn more, see [Create a workstream](../customer-service/create-workstreams.md).
