@@ -63,7 +63,7 @@ If you signed into Teams as one user and switched to another user, your dashboar
 
 ### Resolution
 
-Sign out of the original account and close the Teams app or browser. Then open Teams and sign in as the other user.
+Sign out of the original account and close the Teams app or browser completely. Then open Teams and sign in as the other user.
 
 ## I can't find a work order with the work order ID
 
@@ -80,7 +80,7 @@ I search for a work order by ID using the **Find by ID** box, but no results dis
 
 ### Symptoms
 
-A user ID is listed in an error message that I can't identify.
+As an admin, a user ID is listed in an error message that I can't identify.
 
 ### Resolution
 
@@ -110,7 +110,7 @@ An error message displays indicating the currency entered on the work order does
 
 ### Resolution
 
-Change the currency on the work order to match the price list. If the price list is not available, contact your admin.
+Change the currency on the work order to match the price list. Or contact your admin to check the [settings on the specific price list](../create-price-list.md) on the Field Service Web.
 
 ## User has not been assigned any roles error
 
