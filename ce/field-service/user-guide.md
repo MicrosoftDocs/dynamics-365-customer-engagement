@@ -90,7 +90,7 @@ The purpose of this section is to help you configure work order management, whic
    <li><a href="universal-resource-scheduling-for-field-service.md" data-raw-source="[Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)">Universal Resource Scheduling for Field Service</a></li>
  <li><a href="create-work-order.md" data-raw-source="[[Create a work order](create-work-order.md)]">Create a Work Order</a></li>
 <li><a href="configure-incident-types.md" data-raw-source="[[Create work order templates with incident types](configure-incident-types.md)]">Create work order templates with incident types</a></li>
-  <li><a href="work-order-customer-account.md" data-raw-source="[Add a customer, location, and related account details to a work order](work-order-customer-account.md)">Add a customer, location, and related account details to a work order</a></li>
+  <li><a href="accounts.md" data-raw-source="[Add a customer, location, and related account details to a work order](accounts.md)">Add a customer, location, and related account details to a work order</a></li>
   </ul><br/>  
   </td>
 

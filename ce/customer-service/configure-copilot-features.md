@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 06/16/2023 
+ms.date: 06/19/2023 
 ms.custom: bap-template 
 ms.collection:
 ---
@@ -57,7 +57,7 @@ Perform the following steps to enable the copilot features:
     - **Make Copilot available to agents**: Will display the **Ask a question** tab on the **Copilot help pane (preview)** when agents sign in. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
     - **For customer chat**: Will display the one-click response generation button on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
     - **For email**: Will display the **Write an email** tab on the **Copilot help pane (preview)**. Copilot helps agents create email responses based on the context of the case.
-1. **Knowledge sources**: Select one of the following options that Copilot will use to generate responses.<br>
+1. Select one of the following options that Copilot will use to generate responses.<br>
     - **Knowledge base**: Copilot generates responses using the internal knowledge base as the source. [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) should be configured. Knowledge articles should have the following parameters:
        - The version is up to date.
        - The state is set to **Published**
@@ -90,7 +90,7 @@ For example, an agent asks a question about an espresso issue in the coffee mach
 
 |Knowledge base | SharePoint|
 |----------------|--------------|
-|When th agent asks a question, the application triggers an API to search the internal knowledge base, retrieves and summarizes the relevant knowledge articles. Copilot uses the summary to generate a response. |  When the agent asks a question, the application searches for the keywords in each of the configured sites, and retrieves the top three results, which are then made into snippets. Copilot generates the response based on these snippets.<br><b>NOTE</b><br> We recommend the following:<br>- Ensure that the keywords you search with are as precise as possible. If the keywords you've used aren't present in the SharePoint documents, then Copilot can't generate responses.<br> - When you ask follow up turn by turn questions, Copilot might not generate the responses that you're expecting.|
+|When the agent asks a question, the application triggers an API to search the internal knowledge base, retrieves and summarizes the relevant knowledge articles. Copilot uses the summary to generate a response. |  When the agent asks a question, the application searches for the keywords in each of the configured sites, and retrieves the top three results, which are then made into snippets. Copilot generates the response based on these snippets.<br><b>NOTE</b><br> We recommend the following:<br>- Ensure that the keywords you search with are as precise as possible. If the keywords you've used aren't present in the SharePoint documents, then Copilot can't generate responses.<br> - When you ask follow up turn by turn questions, Copilot might not generate the responses that you're expecting.|
 |:::image type="content" source="media/copilot-km-mini.png" alt-text="Copilot internal km" lightbox="media/copilot-km-main.png":::|:::image type="content" source="media/copilot-sharepoint-mini.png" alt-text="Sharepoint copilot responses" lightbox="media/copilot-sharepoint-main.png":::|
 
 ## Enable summarization of cases and conversations
@@ -109,10 +109,10 @@ Copilot generated case and conversation summaries enhance agent collaboration an
 1. Select **Manage**  in **Summaries (preview)**.
 1. Select **Make case summaries available to agents** to display a summary of the case on the Case page. 
 1. For Copilot to automatically trigger a conversation summary, select the following options:
-   - **When an agent joins a conversation**: Will generates a summary when an agent joins the conversation. This is applicable to transferred conversation or when an agent invites a collaborator to join the conversation.
+   - **When an agent joins a conversation**: Will generate a summary when an agent joins the conversation. This is applicable to transferred conversation or when an agent invites a collaborator to join the conversation.
    - **When a conversation ends**: Will generate a summary when the conversation ends. 
       - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
-   -  **On demand, by selecting an button to summarize the conversation** : Will generates a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
+   -  **On demand, by selecting an button to summarize the conversation** : Will generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
 
 Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
 

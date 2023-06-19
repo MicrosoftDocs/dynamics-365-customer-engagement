@@ -25162,6 +25162,11 @@
       "source_path": "ce/marketing/email-send-now.md",
       "redirect_url": "/dynamics365/marketing/email-quick-send",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/work-order-customer-account.md",
+      "redirect_url": "/dynamics365/field-service/accounts",
+      "redirect_document_id": "false"
     }
   ]
 }
