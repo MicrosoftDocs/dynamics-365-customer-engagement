@@ -76,7 +76,6 @@ The inbound custom API calls the **msdyn_D365ChannelsInbound** API with the cont
 - inboundPayLoad is a serialized JSON  with the following contract:
 
   - **ChannelDefinitionId**: GUID – The channel definition ID.
-  - **From**: string – The sender (channel instance).
   - **To**: string - The C1 phone number (channel instance).
   - **From**: string - C2 user contact point.
   - **OrganizationId**: string – The organization ID.
