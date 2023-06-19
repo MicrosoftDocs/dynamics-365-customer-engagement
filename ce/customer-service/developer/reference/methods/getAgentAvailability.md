@@ -40,7 +40,7 @@ None
 ## Example
 
 ```JavaScript
-window.addEventListener("lcw:ready", function handleLiveChatReadyEvent(){
+window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
                // Gets the agent availability
                Microsoft.Omnichannel.LiveChatWidget.SDK.getAgentAvailability();
 });
