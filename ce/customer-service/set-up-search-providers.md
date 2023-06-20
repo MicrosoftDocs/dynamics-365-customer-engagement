@@ -52,10 +52,10 @@ You can set up a search provider in the Customer Service admin center or Custome
 ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
 > [!NOTE]
-  > The **Search Providers** option has been renamed as **External search providers**.
+  > **Search Providers** on the **Knowledge** page has been renamed as **External search providers**.
 
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  2. In the **Search providers** section, select **Manage**.
+  2. In the **External search providers** section, select **Manage**.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
