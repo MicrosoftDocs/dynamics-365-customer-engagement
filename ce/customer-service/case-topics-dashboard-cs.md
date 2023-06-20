@@ -51,7 +51,7 @@ The Key insights discovered card has three areas:
 
 ## Report details
 
-The key performance indicator (KPI) summary charts summarize the KPIs for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
+The key performance indicator (KPI) summary charts summarize the KPIs for the specified time period and the percentage of change over the period. You can filter these areas by duration, channel, queue, and agent.
 
 The topics dashboard report has the following KPIs.
 
@@ -60,7 +60,7 @@ The topics dashboard report has the following KPIs.
 | Total cases   |  The number of cases created to support customers.     |
 | Active cases  |  The number of cases that are currently opened.      |
 | Escalated rate   | The percentage of cases that have been escalated.     |
-| Avg. resolve time (hrs)   | The average time taken by an agent to resolve the case.   |
+| Avg. resolve time (hrs)   | The average time an agent took to resolve the case.   |
 | Average CSAT    | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.   |
 | Average sentiment    |  The average sentiment score, based on written feedback submitted by the customer in the Customer Voice survey.    |
 
@@ -79,9 +79,9 @@ The topic metrics chart has the following metrics displayed:
 
 ### Case topics drill-down view
 
-The case topics drill-down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end customers are contacting support.
+The case topics drill-down view provides supervisors with a holistic look into individual topics in reference to key business metrics, and can be valuable in understanding why end customers are contacting support.
 
-To access the case topics drill down, select any metric value for the required topic and select **Details**.
+To access the case topics drill down, select any metric value for the required topic, and then select **Details**.
 
 > [!div class="mx-imgBorder"] 
 > ![Case topics drill down view.](media/case-topics-drill-down-view.png "Case topics drill view")
@@ -100,7 +100,7 @@ The topics capability in the Customer Service historical analytics reports comes
 - Spanish 
 
 > [!NOTE]
-> While topic discovery isn't prevented and still possible in languages that aren't listed above, there may be differences in experience for users who leverage topics in unsupported languages.
+> While topic discovery isn't prevented and is still possible in languages that aren't listed above, there may be differences in what users experience if they leverage topics in unsupported languages.
 
 ### See also
 
