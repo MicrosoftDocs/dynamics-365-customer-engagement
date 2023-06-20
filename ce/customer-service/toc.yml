@@ -282,6 +282,8 @@
       href: overview-cases.md
     - name: Administrator experience
       items: 
+      - name: Define status reason transitions for case management
+        href: define-status-reason-transitions-case-management.md
       - name: Define parent and child cases
         href: define-settings-parent-child-cases.md
       - name: View similar case suggestions
@@ -974,6 +976,8 @@
       href: configure-bot-best-practices.md   
     - name: Administrator experience
       items:
+      - name: Manage your bots
+        href: manage-your-bots.md
       - name: Configure context variables for bots
         href: context-variables-for-bot.md      
       - name: Configure Azure bots

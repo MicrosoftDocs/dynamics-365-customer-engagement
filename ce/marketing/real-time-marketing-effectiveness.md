@@ -24,6 +24,8 @@ search.audienceType:
 
 Dynamics 365 Marketing enables you to create highly personalized experiences to nudge customers toward important milestones in the buyer's journey. With the marketing effectiveness analytics dashboard, you can define key customer milestones, measure them over time, and assess the contribution and effectiveness of your journeys, channels, and marketing assets in driving customers to the milestones. The dashboard uses AI-powered multi-touch and single-touch attribution models. This provides you with a feedback loop to gain a comprehensive view of the effectiveness of your real-time marketing tactics in driving key business outcomes, empowering you to optimize your marketing mix by learning from tactics that worked well and improving or dropping tactics that didn’t.  
 
+:::image type="content" source="media/real-time-marketing-effectiveness-analytics-dashboard.png" alt-text="Marketing effectiveness analytics dashboard." lightbox="media/real-time-marketing-effectiveness-analytics-dashboard.png":::
+
 ## How to use the dashboard
 
 ### Enable the dashboard
@@ -110,9 +112,6 @@ This section provides you with insights into the effectiveness and contribution 
 1. **Last touch model**: This is a single-touch model and allocates all credit for milestone attainment to the last customer interaction before the milestone is completed. It can be used to understand the most common last journey, channel, or marketing asset that customers interacted with before completing a milestone.
 
 Select a milestone and an attribution model from the dropdown to see the corresponding effectiveness analysis. Based on the selection, a percentage score is allocated to each journey, channel, and marketing asset and displayed in the corresponding effectiveness charts.  
-
-> [!div class="mx-imgBorder"]
-> ![Select a milestone and attribution model to get detailed analytics report](media/real-time-marketing-effective-analytics-dashboard-in-detailed-version.png "Select a milestone and attribution model to get detailed analytics report")
 
 Only actual customer interactions due to real-time marketing-initiated activities are considered for the attribution analysis. The following are the types of customer interactions for each marketing asset that are considered for attribution analysis:
 - **Email**: Email opens and clicks.
