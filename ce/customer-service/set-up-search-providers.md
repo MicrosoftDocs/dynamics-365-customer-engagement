@@ -1,7 +1,7 @@
 ---
 title: Set up external knowledge search providers (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service
-ms.date: 11/29/2022
+ms.date: 06/20/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -37,6 +37,8 @@ You can set up the following search providers:
   
 From an authentication perspective, your agents must have access to external content, or they won't be able to view search results.
 
+You can also set up additional search providers such as enterprise websites based on the site map protocol by integrating search providers. Setting up external search providers doesn't require an ingestion, whereas setting up integrated search providers requires ingesting articles from  external providers into Microsoft Dataverse. For more information on integrated search providers, go to: [Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers).
+
 ## Set up a search provider
 
 > [!NOTE]
@@ -45,9 +47,12 @@ From an authentication perspective, your agents must have access to external con
 
 You can set up a search provider in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
-1. Go to **Search providers**.
+1. Go to **External search providers**.
   
 ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+> [!NOTE]
+  > The **Search Providers** option has been renamed as **External search providers**.
 
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   2. In the **Search providers** section, select **Manage**.
