@@ -1,7 +1,7 @@
 ---
 title: Submit feedback about knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can submit feedback about knowledge articles in Dynamics 365 Customer Service.
-ms.date: 08/25/2022
+ms.date: 06/20/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -16,6 +16,8 @@ ms.custom:
 # Submit ratings and feedback for knowledge articles
 
 You can easily provide feedback on knowledge articles with the help of knowledge article rating. Knowledge article rating lets you provide feedback on knowledge articles within the context of case resolution. Knowledge managers can capture and review the feedback on the articles to improve and maintain a healthy knowledge base.
+
+The like for an article indicates the normalized rating for an article. The normalized rating helps to normalize or even out the specified rating value for different rating ranges (minimum and maximum rating values). The value can be between 0 to 1, for example, 0.5 or 0.3. The normalized rating is calculated as follows: (Rating - Minimum Rating) / (Maximum Rating - Minimum Rating). More information: [Feedback](/power-apps/maker/data-platform/configure-entity-feedback#about-the-feedback-table-form)
 
 When you are working on a case and refer to an article from the **Knowledge** tab, you'll be presented with an option to rate whether the article is helpful and provides relevant information to assist customers quickly. If you think it’s not helpful, you can rate the article accordingly and provide comments on how it can be improved.
 
