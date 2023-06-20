@@ -37,7 +37,7 @@ You can set up the following search providers:
   
 From an authentication perspective, your agents must have access to external content, or they won't be able to view search results.
 
-You can also set up additional search providers such as enterprise websites based on the site map protocol by integrating search providers. Setting up external search providers doesn't require an ingestion, whereas setting up integrated search providers requires ingesting articles from  external providers into Microsoft Dataverse. For more information on integrated search providers, go to: [Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers).
+You can also set up additional search providers such as enterprise websites based on the site map protocol by integrating search providers. Setting up external search providers doesn't require an ingestion, whereas setting up integrated search providers requires ingesting articles from external providers into Microsoft Dataverse. For more information on integrated search providers, go to: [Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers).
 
 ## Set up a search provider
 
