@@ -35,9 +35,9 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.94.28
 (Includes Universal Resource Scheduling version [3.12.107.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121072) and Resource Scheduling controls version 1.2.47.231641).
 
-- Fixed a problem causing a duplicate ‘confirm invoice’ ribbon button to appear in non-FS entities.
-- Dynamics 365 Field Service Mobile: Enabled Windows app commanding button “Update Geo Location” on Customer Asset.
-- Inspections: Fixed a bug in the Inspections Template Designer where the template was not accessible after changing device orientation from landscape to portrait.
+- Fixed an issue that duplicated the *Confirm invoice* button in non-Field Service entities.
+- Field Service (Dynamics 365) Mobile: Fixed a bug in the Inspections Template Designer where the template was not accessible after changing device orientation from landscape to portrait.
+- Field Service (Dynamics 365) Mobile: Enabled Windows app button *Update Geo Location* on customer asset entity.
 
 ## 8.8.93.28
 (Includes Universal Resource Scheduling version [3.12.106.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121067) and Resource Scheduling controls version 1.2.46.231371).
