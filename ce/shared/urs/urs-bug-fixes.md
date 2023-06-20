@@ -22,6 +22,16 @@ For information about older versions, see [Version history archive](../../field-
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 3.12.107.7
+
+**Resource Scheduling Controls:** 1.2.47.231641
+
+**Dataverse:** 4.0.97.2
+
+- The duration field in the Create Booking pane now populates correctly when launched from the schedule assistant.
+- Characters no longer dropped when typing quickly in the filter field on the open requirements sub-grid on the schedule board.
+
+
 ## 3.12.106.7
 
 **Resource Scheduling Controls:** 1.2.46.231371
