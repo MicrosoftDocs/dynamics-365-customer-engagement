@@ -52,6 +52,16 @@ Each Compliance profile has its own Purpose specifically for tracking user inter
 
 If you would like to collect tracking consent, you can add the tracking purpose to Forms and Preference centers.  
 
+## Consent enforcement diagram
+
+The following diagram provides a visual representation of how consent will be enforced in Real-time marketing.
+
+> [!div class="mx-imgBorder"]
+> ![Consent enforcement model.](media/real-time-marketing-consent-enforcement-table.png " Consent enforcement model ")
+
+> [!IMPORTANT]
+> Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to allow for an email with a commercial purpose type to be sent to a contact. Only the **Allow email** field must be set to allow emails to be sent with a transactional purpose type selected. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (for example, Leads or Customer Insights profiles).
+
 ## View consent records
 
 In the consent center, you can view a list of all contact-point consents and their related attributes (type, status, source of consent data, and date modified).

@@ -39,6 +39,9 @@ The default preference center includes options for users to opt in or opt out of
 
 In addition, you can add content and update the branding and styling of the page to make the experience seamless for your users.
 
+> [+NOTE]
+> Real-time marketing preference centers will update the contact point consent record for the email and phone number channels. It will not make updates to the DoNotEmail and DoNotBulkEmail fields on the contact or lead record. This is because there is no mapping between Real-time marketing purposes and topics to the fields on the contact or lead.
+
 ### See also
 
 [Manage user compliance settings in real-time marketing](real-time-marketing-compliance-settings.md)
