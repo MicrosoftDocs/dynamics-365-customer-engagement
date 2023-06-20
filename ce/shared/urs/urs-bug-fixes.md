@@ -28,9 +28,8 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.97.2
 
-- Bug fixes
-     - The duration field in the create booking panel should now populate correctly when launching from the schedule assistant.
-     - Characters should no longer be dropped when typing quickly in the filter field on the open requirements sub-grid on the schedule board.
+- The duration field in the Create Booking pane now populates correctly when launched from the schedule assistant.
+- Characters no longer dropped when typing quickly in the filter field on the open requirements sub-grid on the schedule board.
 
 
 ## 3.12.106.7
