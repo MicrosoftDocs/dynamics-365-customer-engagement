@@ -25197,6 +25197,26 @@
       "source_path": "ce/field-service/work-order-customer-account.md",
       "redirect_url": "/dynamics365/field-service/accounts",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/developer/connected-field-service-architecture.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service-architecture",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/developer/connected-field-service-developer-guide.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/developer/extend-connected-field-service-solutions.md",
+      "redirect_url": "/dynamics365/field-service/extend-connected-field-service-solutions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/developer/iot-parent-iot-alerts-workflow.md",
+      "redirect_url": "/dynamics365/field-service/iot-parent-iot-alerts-workflow",
+      "redirect_document_id": "false"
     }
   ]
 }
