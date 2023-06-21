@@ -52,7 +52,7 @@ After you have configured knowledge management on your app, you must also set up
 - [Create and manage categories](create-manage-categories.md#create-and-manage-categories)
 - [Create templates for knowledge articles](create-templates-knowledge-article.md#create-templates-for-knowledge-articles)
 - [Set up AI suggestions for article keywords and description](#set-up-ai-suggestions-for-article-keywords-and-description)
-- [Set up external knowledge search providers](set-up-search-providers.md#set-up-external-knowledge-search-providers)
+- [Set up external search providers](set-up-search-providers.md#set-up-external-search-providers)
 
 ## Set up knowledge management
   
@@ -84,7 +84,7 @@ After you have configured knowledge management on your app, you must also set up
           * **URL Format**: Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: https://support portal URL/kb/{kbnum}. The placeholder, "{kbnum}", is replaced by an actual knowledge article number.
       1.	In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to the portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](#update-knowledge-article-attachments-for-portal)
   7. Optionally, in the **Article templates** section, select **Manage**. The **Article Templates System Views** page appears. You can create templates to help knowledge authors use consistent language and messaging. More information: [Create templates for articles](/power-platform/admin/create-templates-articles).
-  8. Optionally, in the **Search providers** section, select **Manage**. The **Search providers System Views** page appears. You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization. More information: [Set up external knowledge search providers](set-up-search-providers.md#set-up-external-knowledge-search-providers)
+  8. Optionally, in the **Search providers** section, select **Manage**. The **Search providers System Views** page appears. You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization. More information: [Set up external search providers](set-up-search-providers.md#set-up-external-search-providers)
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
