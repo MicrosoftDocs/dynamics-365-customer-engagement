@@ -1,6 +1,6 @@
 ---
 title: Enable an entity for scheduling
-description: Learn how to enable an entity for scheduling in Dynamics 365 Field Service
+description: Learn how to enable an entity for scheduling in Dynamics 365 Customer Service
 author: lalexms 
 ms.author: laalexan
 ms.reviewer: shujoshi
