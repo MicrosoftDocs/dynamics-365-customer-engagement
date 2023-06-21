@@ -13,7 +13,7 @@ ms.custom:
 # setTabTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 Sets the title of the tab, if:
-- The focused session is either the home/default session or it belongs to the channel provider.
+- The focused session belongs to the channel provider or if it is either the home or default session.
 - The tab belongs to the session in focus.
 
 ## Syntax

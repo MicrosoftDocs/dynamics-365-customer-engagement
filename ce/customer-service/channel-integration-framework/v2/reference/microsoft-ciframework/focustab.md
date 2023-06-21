@@ -14,7 +14,7 @@ ms.custom:
 
 
 Sets the focus on a tab, if:
-- The focused session is either the home/default session or it belongs to the channel provider.
+- Use this API only when the focused session belongs to the provider or if it is either the home or default session.
 - The tab belongs to the session in focus.
 
 ## Syntax

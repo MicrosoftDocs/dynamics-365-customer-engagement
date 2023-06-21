@@ -19,7 +19,7 @@ ms.custom:
 [!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
 
  >[!NOTE]  
- > Use this API only when the focused session is either the home/default session or it belongs to the provider.
+ > Use this API only when the focused session belongs to the provider or if it is either the home or default session.
 
 Sets the session title, if the session belongs to the channel provider.
 

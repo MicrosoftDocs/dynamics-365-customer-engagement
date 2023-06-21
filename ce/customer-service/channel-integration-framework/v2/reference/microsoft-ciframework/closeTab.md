@@ -13,7 +13,7 @@ ms.custom:
 # closeTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
  >[!NOTE]  
- > Use this API only when the focused session is either the home/default session or it belongs to the provider.
+ > Use this API only when the focused session belongs to the provider or if it is the home or default session.
 
 Closes the specified app tab in the current session.
 
