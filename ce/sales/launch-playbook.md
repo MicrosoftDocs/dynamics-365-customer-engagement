@@ -20,7 +20,7 @@ searchScope:
 # Launch a playbook to carry out activities consistently 
 
 > [!NOTE]
-> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](create-manage-sequences.md)  
+> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](deprecations-sales.md#playbooks-will-be-deprecated)
 
 To ensure consistency in your business process or to know what steps to follow in certain scenarios or events, rely on the playbooks prepared by your managers that guide you with the actions you can take. Playbooks can also contain best practices based on practices that have worked in similar situations before.
 

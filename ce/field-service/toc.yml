@@ -75,29 +75,25 @@ items:
       href: search-dataverse-tables.md
     - name: Customer asset validation
       href: asset-validation.md
-
-- name: Work orders
-  items:
-    - name: Work order process architecture
-      href: field-service-architecture.md
-    - name: Create a new work order
-      href: create-work-order.md
-    - name: Work order life cycle and statuses
-      href: work-order-status-booking-status.md
-    - name: Add account details to a work order
-      href: work-order-customer-account.md
-    - name: Travel charges
-      href: travel-charges.md
-    - name: Knowledge articles
-      href: field-service-knowledge-management.md
-    - name: Capture resolution details
-      href: work-order-resolutions.md
-    - name: Work order completion surveys
-      href: work-order-surveys.md
     - name: Trades
       href: trades.md
     - name: Not-to-exceed
       href: work-order-not-to-exceed.md
+    - name: Create work order resolutions
+      href: work-order-resolutions.md
+    - name: Knowledge articles
+      href: field-service-knowledge-management.md
+
+- name: Work orders
+  items:
+    - name: Work order process overview
+      href: field-service-architecture.md
+    - name: Lifecylce and system statuses
+      href: work-order-status-booking-status.md
+    - name: Create a new work order
+      href: create-work-order.md
+    - name: Work order customization considerations
+      href: work-order-customization.md
 
 - name: Inspections
   items:
@@ -153,6 +149,8 @@ items:
       href: submit-approve-time-off-requests.md
     - name: Time entry
       href: field-service-time-entry.md
+    - name: Travel charges
+      href: travel-charges.md
 
 - name: Scheduling
   items:

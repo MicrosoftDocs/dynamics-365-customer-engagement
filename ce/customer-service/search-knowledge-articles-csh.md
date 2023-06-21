@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 05/02/2023
+ms.date: 06/21/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -175,6 +175,20 @@ Favorite articles are saved in the language in which you viewed them when you ma
 
 In Customer Service workspace and Omnichannel for Customer Service, when you select a favorite article, it opens in an app tab. In Customer Service Hub, the article opens in a new browser window.
 
+## Use external search providers
+
+In Customer Service Hub and Customer Service workspace, you may be able to search for files, documents, and articles from data sources outside your Dynamics 365 organization, if your administrator configured the option. To view those results, select the source from the list under **Knowledge**.
+
+In Customer Service Hub:
+
+   > [!div class=mx-imgBorder]
+   > ![Agent view of search providers.](media/search-provider-agent.png "Agent view of available search providers")
+
+In Customer Service workspace: 
+:::image type="content" source="media/csw-external-sources.png" alt-text="Search results for external sources in Customer Service workspace":::
+
+For more information on setting up search providers, see [Set up a search provider in Customer Service Hub](set-up-search-providers.md).
+
 ## Use integrated search providers
 
 View the most relevant search results for your query across search providers in a single ranking. With easy sorting, find the knowledge article that best suits your needs while dealing with a customer. The name of the source provider appears on the knowledge article card. You can hover over to get the full name of the source provider, if necessary.
@@ -227,20 +241,6 @@ In this view mode, you can perform actions such as linking the knowledge article
 In Customer Service Hub, in the **Knowledge Search** reference pane, a pop-out option is displayed for every search article result. When you select the pop-out option for an article, the article opens in a new window.
 
 :::image type="content" source="media/knowledge-search-pop-out-csh.png" alt-text="View knowledge article in a new window":::
-
-### View search results from external sources
-
-In Customer Service Hub and Customer Service workspace, you may be able to search for files, documents, and articles from data sources outside your Dynamics 365 organization, if your administrator configured the option. To view those results, select the source from the list under **Knowledge**.
-
-In Customer Service Hub:
-
-   > [!div class=mx-imgBorder]
-   > ![Agent view of search providers.](media/search-provider-agent.png "Agent view of available search providers")
-
-In Customer Service workspace: 
-:::image type="content" source="media/csw-external-sources.png" alt-text="Search results for external sources in Customer Service workspace":::
-
-For more information on setting up search providers, see [Set up a search provider in Customer Service Hub](set-up-search-providers.md).
 
 ### See also
 

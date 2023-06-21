@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 05/29/2023 
+ms.date: 06/21/2023 
 ms.custom: bap-template 
 ms.collection:
 ---
@@ -27,11 +27,15 @@ Enable the Copilot features for agents to use Copilot to:
 - Respond to questions
 - Compose an email
 - Draft a chat response
-- Summarize a case
+- Summarize a case and conversation
 
-## Regional availability and supported languages
+## Region availability and supported languages
 
-The Copilot features are available in the United States only and supported in the English language only.
+For region availability of Copilot, see [Region availability of analytics and insights](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights).
+
+For enabling the copilot features outside the United States, see [Copilot data movement across geographies](copilot-data-movement.md).
+
+To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
 ## Prerequisites
 
@@ -42,16 +46,13 @@ The Copilot features are available in the United States only and supported in th
    - The state is set to Published
    - The locale is set to English
 
-### Opt-in to continue with Copilot setup
+## Opt-in to continue with Copilot setup
 
-Before you enable a Copilot feature, review the terms and conditions and provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
+Before you enable a copilot feature, review the terms and conditions and provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
 
-:::image type="content" source="media/copilot-opt-in.png" alt-text="Opt in to get copilot features.":::
+## Enable copilot features
 
-
-## Enable Copilot to respond to questions, compose an email, or create a chat response
-
-Perform the following steps to enable the Copilot features:
+Perform the following steps to enable the copilot features:
 
 1. In Customer Service admin center, use one of the following navigation options: 
       - **Agent Experience** > **Productivity** > **Copilot help pane (preview)**
@@ -61,30 +62,46 @@ Perform the following steps to enable the Copilot features:
     - **Make Copilot available to agents**: Displays the **Ask a question** tab on the **Copilot help pane (preview)** when agents sign in. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
     - **For customer chat**: Displays the one-click response generation button on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
     - **For email**: Displays the **Write an email** tab on the **Copilot help pane (preview)**. Copilot helps agents create email responses based on the context of the case.
-1. Copilot automatically refreshes your knowledge base and displays the date and time of when it was last updated. By default, the knowledge articles are refreshed every week.
-1. You can add up to five trusted web domains for Copilot to search when generating responses. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels, represented by forward slashes (/) after the .com part of the URL. 
+1. Select **Add web address** in **Web resources** to add trusted domains. You can add up to five trusted web domains for Copilot to search and generate responses from. To limit the content you want Copilot to use, specify up to two levels, represented by forward slash (/) after the .com part of the URL.
 
 > [!NOTE]
-> Web domains are only used by Copilot to draft emails and chat replies.
+> - By default, the knowledge base content is refreshed every week.
+> - Web domains are only used by Copilot to draft emails and chat replies.
 
 :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
 
-## Enable summarization of cases
+### Features supported with different knowledge sources
 
-Copilot case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with key information such as the case title, customer, case subject, product, priority, case type, and case description.
+The following table summarizes the copilot features supported for a configured knowledge source.
+
+| Feature|Knowledge base | External web resources |
+|-------|----------|---------|--------|
+|Ask a question |✔|X|
+|Write an email | ✔|✔|
+|Draft a response |✔|✔|
+
+## Enable summarization of cases and conversations
+
+Copilot generated case and conversation summaries enhance agent collaboration and productivity as follows:
+
+- Case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with the case title, customer, case subject, product, priority, case type, and case description.
+- Conversation summaries enable agents to collaborate effectively with other agents and contacts, by enabling agents to easily recap an ongoing chat or a transcribed voice conversation. 
 
 > [!IMPORTANT]
 > You must select **Make Copilot available to agents** in **Copilot help pane (preview)**  for Copilot case summaries to be available.
-
-To allow Copilot to summarize cases, perform the following steps:
 
 1. In Customer Service admin center, use one of the following navigation options: 
     - **Agent Experience** > **Productivity** > **Summaries (preview)**
     - **Operations** > **Insights** > **Summaries (preview)**
 1. Select **Manage**  in **Summaries (preview)**.
 1. Select **Make case summaries available to agents** to display a summary of the case on the Case page. 
+1. For Copilot to automatically trigger a conversation summary, select the following options:
+   - **When an agent joins a conversation**: Will generate a summary when an agent joins the conversation. This is applicable to transferred conversation or when an agent invites a collaborator to join the conversation.
+   - **When a conversation ends**: Will generate a summary when the conversation ends. 
+      - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
+   -  **On demand, by selecting an button to summarize the conversation** : Will generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
 
-Perform the steps in [display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
+Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
 
 ## Record feedback
 
