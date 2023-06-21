@@ -1,6 +1,6 @@
 ---
-title: "Preview: Use AI to kickstart email creation with content ideas Copilot (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to use AI to kickstart email creation with content ideas Copilot in Dynamics 365 Marketing."
+title: "Preview: Use Copilot to generate email content ideas"
+description: Learn how to use Copilot to kickstart email content ideas in Dynamics 365 Marketing.
 ms.date: 05/08/2023
 ms.custom: 
   - dyn365-marketing
@@ -13,7 +13,7 @@ search.audienceType:
   - enduser
 ---
 
-# Preview: Use AI to kickstart email creation with content ideas Copilot
+# Preview: Use Copilot to generate email content ideas
 
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
@@ -21,18 +21,18 @@ search.audienceType:
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
 > [!NOTE]
-> The content ideas preview is currently only available in North America.
+> The Copilot content ideas preview is currently only available in North America.
 
 > [!Tip]
-> Learn about using content ideas to create inspiring emails in our latest blog: [Make email creation fun and more efficient with AI-powered content ideas in Dynamics 365 Marketing](https://cloudblogs.microsoft.com/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/).
+> Learn about using Copilot to create inspiring email content ideas in our latest blog: [Make email creation fun and more efficient with AI-powered content ideas in Dynamics 365 Marketing](https://cloudblogs.microsoft.com/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/).
 
-Content ideas help you discover new ways to express your thoughts, helping you move from email concept to completion faster. This article explains how content ideas works and how you can start using it to kickstart your emails.
+Copilot-powered content ideas help you discover new ways to express your thoughts, helping you move from email concept to completion faster. This article explains how the content ideas copilot works and how you can start using it to kickstart your emails.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWZDEE]
 
-## What is content ideas Copilot?
+## What is the content ideas copilot?
 
-The content ideas Copilot feature is like a brainstorming partner that can help inspire you while you’re writing an email. You provide a short list of initial thoughts (key points) and select a tone of voice, and Copilot generates a range of longer content suggestions that you can build on. You can add these suggestions to your draft, use them as inspiration to write a new draft, or go in a different direction altogether.
+The content ideas copilot is like a brainstorming partner that can help inspire you while you’re writing an email. You provide a short list of initial thoughts (key points) and select a tone of voice, and Copilot generates a range of longer content suggestions that you can build on. You can add these suggestions to your draft, use them as inspiration to write a new draft, or go in a different direction altogether.
 
 > [!div class="mx-imgBorder"]
 > ![Content ideas copilot screenshot](media/real-time-marketing-copilot-content-ideas.png "Content ideas copilot screenshot")
@@ -40,20 +40,19 @@ The content ideas Copilot feature is like a brainstorming partner that can help 
 ## Enable Copilot
 
 > [!NOTE]
-> The content ideas feature is enabled by default and is visible in the email editor toolbox (in English environments only).
+> The content ideas copilot feature is enabled by default and is visible in the email editor toolbox (in English environments only).
 
-### Turn on or off the content ideas feature switch
+### Turn on or off the content ideas copilot feature switch
 
 1. Go to **Settings** > **Overview** > **Feature switches**.
 1. Enable/disable the **Copilot (preview)** feature switch toggle.
 
-## How to use Copilot
+## How to use Copilot to generate content ideas
 
 1. Select the **Copilot** button in the email editor toolbox or the Copilot button above editing text on canvas to open the Copilot pane.
 1. Choose the **Topic of your email** from the list of suggested ones or choose **Custom**.
- 
-1. A) If you selected one of suggested topics – Copilot will automatically fill in sample key points for you, which you can modify according to your needs.
-1. B) If you selected custom topic – add up to five key points that you want to get across in your email (a minimum of three words per key point is recommended). You can also use premade examples (select the **See examples** link and then **Use this example** for a selected set of key points).
+    1. If you selected one of suggested topics, Copilot will automatically fill in sample key points for you, which you can modify according to your needs.
+    1. If you selected custom topic, add up to five key points that you want to get across in your email (a minimum of three words per key point is recommended). You can also use premade examples (select the **See examples** link and then **Use this example** for a selected set of key points).
 1. Select **Tone of voice**.
 1. Select **Get ideas**.
 1. Copilot generates a set of text suggestions. It might take a short while to generate content (up to 15 seconds, depending on the usage).
@@ -68,9 +67,9 @@ The content ideas Copilot feature is like a brainstorming partner that can help 
 
 ## Generate ideas using your organization's emails
 
-You can provide personalized context to the content ideas feature. Content ideas analyze your organization’s ready-to-send/live marketing existing emails (minimum 20) in addition to a wide range of internet sources to increase the relevancy of generated ideas. The analysis is a one-time process that can take up to a few hours.
+You can provide personalized context to the content ideas copilot feature. The content ideas copilot analyzes your organization’s ready-to-send/live marketing existing emails (minimum 20) in addition to a wide range of internet sources to increase the relevancy of generated ideas. The analysis is a one-time process that can take up to a few hours.
 
-To begin the content ideas analysis:
+To begin the Copilot analysis:
 
 1. Select the **Copilot** button in the email editor toolbox to display the content ideas pane.
 1. If there are enough ready-to-send/live marketing emails in your organization to start the analysis process (minimum 20) and you have read permission to access all the emails, select the **Enable** button.
@@ -83,7 +82,7 @@ To begin the content ideas analysis:
 
 ## How does the Copilot technology work?
 
-Content ideas Copilot is built on a machine learning model called GPT-3.5. Trained on a vast number of text samples from the internet, GPT-3.5 generates new text in English that looks and sounds similar to text that was written by a human. Copilot uses GPT-3.5 as a foundation, then considers your organization’s recent (English) ready-to-send emails and the key messaging points that you share for each new email draft. Copilot masks any personal data in generated ideas and shows only the results that are long enough and unique enough to be useful.
+The content ideas copilot assistant is built on a machine learning model called GPT-3.5. Trained on a vast number of text samples from the internet, GPT-3.5 generates new text in English that looks and sounds similar to text that was written by a human. Copilot uses GPT-3.5 as a foundation, then considers your organization’s recent (English) ready-to-send emails and the key messaging points that you share for each new email draft. Copilot masks any personal data in generated ideas and shows only the results that are long enough and unique enough to be useful.
 
 ## What data does Copilot collect?
 
