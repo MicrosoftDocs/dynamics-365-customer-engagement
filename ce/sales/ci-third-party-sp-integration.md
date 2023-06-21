@@ -113,6 +113,114 @@ The following metadata are required for conversation intelligence:
 
 Here are examples of invite and bye messages with the required headers and metadata:
 
+**INVITE message:**
+
+```
+INVITE sip:SRS@media.recording.dynamics.com:5061;transport=tls SIP/2.0 
+Via: SIP/2.0/TLS 84.172.x.x:5061;branch=z9hG4bK4fa2.cdabfe83d76d3c41987802096d3b342a.0;received=172.16.x.x;rport=40334 
+Via: SIP/2.0/UDP 172.25.x.x:5060;rport=5060;branch=z9hG4bK917ce574-0345-4c3d-9b63-d98c2c57dbe6_c3356d0b_599-10236398515455707148 
+To: <sip:SRS@media.recording.dynamics.com:5061;transport=tls> 
+From: <sip:SRC@sip.provider.com>;tag=66790678_c3356d0b_917ce574-0345-4c3d-9b63-d98c2c57dbe6 
+Call-ID: efab0870bc597cb3fb56010921e2f57f 
+CSeq: 1 INVITE 
+Contact: <sip:SRC@172.25.x.x:5060;transport=udp>;+sip.src 
+Max-Forwards: 67 
+Record-Route: <sip:84.172.x.x:5061;transport=tls;r2=on;lr>,<sip:84.172.x.x;r2=on;lr> 
+User-Agent: provider Gateway 
+Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,REFER,NOTIFY 
+Require: siprec 
+Content-Length: 3194 
+Content-Type: multipart/mixed;boundary=\"----=_Part_1253_283419664.1674116473425\" 
+Min-SE: 35 
+X-AccountId: ACxxxxxxxxxxxxxxxxxxxx 
+------=_Part_1253_283419664.1674116473425 
+
+Content-Type: application/sdp 
+v=0 
+o=root 1176539620 1176539620 IN IP4 172.18.x.x 
+s=provider Media Gateway 
+c=IN IP4 84.172.x.x 
+t=0 0 
+m=audio 15352 RTP/SAVP 0 8 101 
+a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:bckPlyxG6j4/3JzzT4wXPyJ7hYHdYCTy3IPtkjfk 
+a=rtpmap:0 PCMU/8000 
+a=rtpmap:8 PCMA/8000 
+a=rtpmap:101 telephone-event/8000 
+a=fmtp:101 0-16 
+a=ptime:20 
+a=maxptime:20 
+a=sendonly 
+a=label:inbound 
+m=audio 16022 RTP/SAVP 0 8 101 
+a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:Prim5f8HmxbSyFEHhCv2wOpDoeTaYPExJNKBgljj 
+a=rtpmap:0 PCMU/8000 
+a=rtpmap:8 PCMA/8000 
+a=rtpmap:101 telephone-event/8000 
+a=fmtp:101 0-16 
+a=ptime:20 
+a=maxptime:20 
+a=sendonly 
+a=label:outbound 
+------=_Part_1253_283419664.1674116473425 
+
+Content-Type: application/rs-metadata+xml 
+Content-Disposition: recording-session 
+<?xml version=\"1.0\" encoding=\"UTF-8\"?> 
+<recording xmlns='urn:ietf:params:xml:ns:recording:1'> 
+    <datamode>complete</datamode> 
+    <session session_id=\"Wd/putWgTWCW2z1lI5Db9w==\"> 
+            <ExtensionParameters  xmlns=\"http://provider.com/siprec\"> 
+                    <Parameter name=\"Role\" value=\"inbound\"/> 
+                    <Parameter name=\"CallerDisplayName\" value=\"Kiana Anderson\"/> 
+                    <Parameter name=\"CalleeDisplayName\" value=\"Tomas Richardson\"/> 
+            </ExtensionParameters> 
+    </session> 
+        <participant participant_id=\"bXCloPcETS6P/kfeeJtiow==\"> 
+            <nameID aor=\"EE5C7EF0\"/> 
+        </participant> 
+        <participant participant_id=\"3nPi8XzBSzWrtSLlkU8Gjw==\"> 
+            <nameID aor=\"230908\"/> 
+        </participant> 
+        <stream stream_id=\"9xff8FcdRUaJCSTxWFbV9g==\" session_id=\"Wd/putWgTWCW2z1lI5Db9w==\"><label>inbound</label></stream> 
+        <stream stream_id=\"f/Qezx4jTMqiWSB1vW7oJA==\" session_id=\"Wd/putWgTWCW2z1lI5Db9w==\"><label>outbound</label></stream> 
+    <sessionrecordingassoc session_id=\"Wd/putWgTWCW2z1lI5Db9w==\"> 
+        <associate-time>2023-01-19T08:21:13.382512Z</associate-time> 
+    </sessionrecordingassoc> 
+        <participantsessionassoc participant_id=\"bXCloPcETS6P/kfeeJtiow==\" session_id=\"Wd/putWgTWCW2z1lI5Db9w==\"> 
+            <associate-time>2023-01-19T08:21:13.382512Z</associate-time> 
+        </participantsessionassoc> 
+        <participantsessionassoc participant_id=\"3nPi8XzBSzWrtSLlkU8Gjw==\" session_id=\"Wd/putWgTWCW2z1lI5Db9w==\"> 
+            <associate-time>2023-01-19T08:21:13.382512Z</associate-time> 
+        </participantsessionassoc> 
+        <participantstreamassoc participant_id=\"bXCloPcETS6P/kfeeJtiow==\"> 
+                <send>9xff8FcdRUaJCSTxWFbV9g==</send> 
+                <recv>f/Qezx4jTMqiWSB1vW7oJA==</recv> 
+        </participantstreamassoc> 
+        <participantstreamassoc participant_id=\"3nPi8XzBSzWrtSLlkU8Gjw==\"> 
+                <send>f/Qezx4jTMqiWSB1vW7oJA==</send> 
+                <recv>9xff8FcdRUaJCSTxWFbV9g==</recv> 
+        </participantstreamassoc> 
+</recording> 
+------=_Part_1253_283419664.1674116473425--
+```
+
+**BYE message:**
+```
+BYE sip:SRS@media.recording.dynamics.com:5061;transport=tls SIP/2.0 
+Via: SIP/2.0/TLS 84.172.x.x:5061;branch=z9hG4bK1fa2.d03c36b567136fcfae84281e926cda62.0;received=172.16.x.x;rport=40334 
+Via: SIP/2.0/UDP 172.25.x.x:5060;rport=5060;received=84.144.x.x;branch=z9hG4bK917ce574-0345-4c3d-9b63-d98c2c57dbe6_c3356d0b_600-2513288074170844985 
+To: <sip:SRS@media.recording.dynamics.com:5061;transport=tls>;tag=OXFWHPJQTL 
+From: <sip:SRC@sip.provider.com>;tag=66790678_c3356d0b_917ce574-0345-4c3d-9b63-d98c2c57dbe6 
+Call-ID: efab0870bc597cb3fb56010921e2f57f 
+CSeq: 2 BYE 
+Max-Forwards: 68 
+User-Agent: provider Gateway 
+Require: siprec 
+Content-Length: 901 
+Content-Type: multipart/mixed;boundary=\"----=_Part_29418_1017575873.1674116842924\" 
+X-AccountId: ACxxxxxxxxxxxxx 
+```
+
 ### Recorder endpoints and regions supported
 
 The following table lists the supported recorder endpoints and their regions. You can configure the recorders you want to use in your telephony provider settings. To learn about how this is done for Twilio Flex, see <<Editor's note: Add link to Twlilo article>>
@@ -149,78 +257,47 @@ Here's a sample code snippet to send the events:
 
 ```java
 export interface CallStartedEvent { 
-
   callId: string; 
-
   startTime: Date; 
-
   isIncomingCall: boolean; 
-
   contactNumber: string; 
-
   contactName: string; 
-
 } 
 
 export interface CallEndedEvent { 
-
   callId: string; 
-
   callDurationInSeconds: number; 
-
   callTerminationReason: string; // ['success', 'error'] 
-
   callEndTime: Date; 
-
   isCallStarted: boolean; 
-
 } 
 
 dialer.Actions.addListener('onCallStarted', (payload: any) => { 
-
   const callStartedEvent : CallStartedEvent = { 
-
     callId: payload.call_sid, 
-
     startTime: new Date(), 
-
     isIncomingCall: payload.attributes.is_incoming_call, 
-
     contactName: payload.attributes.caller_name, 
-
     contactNumber: payload.attributes.caller_phone_number 
-
   }; 
 
   // @ts-ignore 
-
   Microsoft.CIFramework.raiseEvent('WIDGET_CALL_STARTED', callStartedEvent); 
-
 }); 
 
 dialer.Actions.addListener('onCallEnded', (payload: any) => { 
-
   const callEndedEvent : CallEndedEvent = { 
-
     callId: payload.call_sid, 
-
     callEndTime: new Date(), 
-
     callTerminationReason: 'success', 
-
     isCallStarted: true, 
-
     callDurationInSeconds: payload.attributes.call_length 
-
   }; 
 
   // @ts-ignore 
-
   Microsoft.CIFramework.raiseEvent('WIDGET_CALL_ENDED', callEndedEvent); 
-
 });
 ```
-
 
 ## Test the integration
 
