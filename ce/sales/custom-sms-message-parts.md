@@ -1,5 +1,5 @@
 ---
-title: Define the message parts
+title: Define message parts
 description: Learn how to define the message parts for the SMS channel in Dynamics 365 Sales. 
 author: udaykirang
 ms.author: udag
@@ -9,7 +9,7 @@ ms.date: 06/23/2023
 ms.custom: bap-template 
 ---
 
-# Define the message parts
+# Define message parts
 
 When you create a custom SMS channel, you need to define a record in the **Channel Message Part** entity for each message part that the channel operates with (for example, title, subtitle, text). A custom SMS channel requires at least one message part. When your solution is imported, a new row for every message part is created in the **msdyn_channelmessagepart** table.
 
