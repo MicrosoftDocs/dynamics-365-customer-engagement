@@ -1,7 +1,7 @@
 ---
 title: Architecture of Connected Field Service with IoT Hub
 description: Learn about how Connected Field Service uses IoT Hub architecture.
-ms.date: 06/06/2023
+ms.date: 06/21/2023
 ms.subservice: connected-field-service
 ms.author: vhorvath
 author: vhorvathms
@@ -15,18 +15,18 @@ Connected Field Service with IoT Hub brings together Azure IoT and Dynamics 365 
 
 Connected Field Service is a set of solutions, entities, and processes built on top of Dynamics 365 Field Service.
 
-For this article, *data* and *telemetry* refer to information sent from an IoT device to the cloud. *Devices** and *sensors* refer to internet-connected things that take measurements like thermometers, gyroscopes, or pressure readers. An *asset* is a piece of equipment that can have one or more sensors connected to it.
+For this article, *data* refers to information sent from an IoT device to the cloud. *Devices** and *sensors* refer to internet-connected things that take measurements like thermometers, gyroscopes, or pressure readers. An *asset* is a piece of equipment that can have one or more sensors connected to it.
 
 ## Architecture
 
-:::image type="content" source="media/cfs-iothub-architecture.png" alt-text="Diagram illustrating the connections between Connected Field Service with IoT Hub architecture, and how each element relate to each other.":::
+:::image type="content" source="media/cfs-iothub-architecture.png" alt-text="Diagram illustrating the connections between Connected Field Service with IoT Hub architecture, and how each element relates to others.":::
 
-- **IoT Devices & Edge**: Internet-connected sensors on equipment send data to IoT Hub over a network. A single asset can have multiple sensors for different measurements. If a location has a collection of assets with multiple sensors, an *Edge device* can be used to organize them and broker telemetry sent to IoT Hub.
+- **IoT Devices & Edge**: Internet-connected sensors on equipment send data to IoT Hub over a network. A single asset can have multiple sensors for different measurements. If a location has a collection of assets with multiple sensors, an *Edge device* can be used to organize them and broker data sent to IoT Hub.
   
   > [!NOTE]
   > Currently, the Connected Field Service implementation with IoT Hub doesn't support splitting the telemetry data for IoT Edge modules.
 
-- **Device Simulator**: Administrators can simulate devices and telemetry to the cloud setup and how simulated alerts flow to Dynamics 365 to create work orders before the hardware gets installed.
+- **Device Simulator**: Administrators can simulate devices in the cloud setup and how simulated alerts flow to Dynamics 365 to create work orders before the hardware gets installed.
 
 - **IoT Hub**: The gateway to the cloud, capable of ingesting data on a large scale. Azure IoT Hub is a collection of applications and processes tailored to connected device scenarios that are also customizable.
 

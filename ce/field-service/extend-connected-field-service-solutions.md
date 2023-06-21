@@ -56,7 +56,7 @@ The following table lists the custom entities and processes that Connected Field
   
 ### IoT enabling an entity type
 
-Dynamics 365 entities can be associated to IoT entities listed above so that within Dynamics 365 they can participate in IoT-related business processes and analyses. There are two methods of “IoT enabling” a Dynamics 365 entity; you can:  
+Dynamics 365 entities can be associated to IoT entities listed in the previous section so that within Dynamics 365 they can participate in IoT-related business processes and analyses. There are two methods of “IoT enabling” a Dynamics 365 entity; you can:  
   
 - Programmatically form an association through the standard Dynamics 365 [Connection entities](../developer/connection-entities.md) capability. You can alternatively accomplish this same association through the administration UI; for more information, see [Create connections to view relationships between records](/dynamics365/customerengagement/on-premises/basics/create-connections-view-relationships-between-records).  
   

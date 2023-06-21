@@ -1,7 +1,7 @@
 ---
 title: IoT provider for custom IoT solutions
-description: Understand how to integrate external IoT solutions with Connected Field Service using dataverse APIs, webhooks, connectors, custom code, and more.
-ms.date: 06/13/2023
+description: Understand how to integrate external IoT solutions with Connected Field Service using Dataverse APIs, webhooks, connectors, custom code, and more.
+ms.date: 06/21/2023
 ms.subservice: connected-field-service
 ms.topic: conceptual
 ms.author: vhorvath
@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # IoT provider for custom IoT solutions
 
-Dynamics 365 Field Service allows seamless integration with IoT-enabled devices from any IoT vendor through the *IoT provider* feature. The IoT provider allows the integration of IoT alerts from various vendors into a unified list, regardless of their origin. When interacting with an IoT device, Field Service identifies the device's provider and routes the command to the corresponding IoT system.
+Dynamics 365 Field Service allows seamless integration with IoT-enabled devices from any IoT vendor through the *IoT provider* feature. The IoT provider allows the integration of IoT alerts from various vendors into a unified list, regardless of their origin. When users interact with an IoT device, Field Service identifies the device's provider and routes the command to the corresponding IoT system.
 
 In Field Service, the [out-of-box deployment experience integrates with Azure IoT Hub](installation-setup-iothub.md). However, custom IoT providers let developers, partners, and independent software vendors build on this framework to include their custom IoT solutions. These custom IoT providers can then be published as solutions in the [Microsoft commercial marketplace](https://appsource.microsoft.com/) for easier distribution and usage by customers.
 

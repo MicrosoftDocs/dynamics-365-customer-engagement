@@ -1,7 +1,7 @@
 ---
 title: Azure subscription prerequisites for Connected Field Service with IoT Hub
 description: Deploy Connected Field Service with Azure IoT Hub by reviewing prerequisites and assigning necessary Azure security roles.
-ms.date: 06/06/2023
+ms.date: 06/21/2023
 ms.subservice: connected-field-service
 ms.topic: conceptual
 ms.author: vhorvath
@@ -21,11 +21,11 @@ Before an administrator deploys Connected Field Service with Azure IoT Hub, revi
 1. In order to deploy and administer IoT Hub, you need one of the following Azure security roles:
 
     - Owner
-    - Co-administrator
+    - Coadministrator
     - Service administrator
     - Account administrator
 
-1. You only see subscriptions that are tied to the primary directory of your work or school account. For example, `david@contoso.com` only sees subscriptions from the `contoso.com` directory. If `jason@fabrikam.com` invites David into their `fabrikam.onmicrosoft.com` subscription, David con't use the Fabrikam subscription on the deployment app.
+1. You only see subscriptions that are tied to the primary directory of your work or school account. For example, `david@contoso.com` only sees subscriptions from the `contoso.com` directory. If `jason@fabrikam.com` invites David into their `fabrikam.onmicrosoft.com` subscription, David can't use the Fabrikam subscription on the deployment app.
 
 1. Only work or school accounts can deploy Connected Field Service with Azure IoT Hub.
 

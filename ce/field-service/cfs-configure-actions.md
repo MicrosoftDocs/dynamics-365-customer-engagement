@@ -1,7 +1,7 @@
 ---
 title: Configure IoT provider actions
 description: Specify actions that are sent to the IoT provider to trigger processes or actions on an IoT device.
-ms.date: 06/08/2023
+ms.date: 06/21/2023
 ms.subservice: connected-field-service
 ms.topic: conceptual
 ms.author: vhorvath
@@ -108,7 +108,7 @@ Here are the input parameters for this action. Since this action supports multip
 Here are the input parameters for this action. Since this action supports multiple devices, the parameters need to be sent as EntityCollection.
 
 | Entity collection properties | 	Type  | Details | 
-|--|--| -- |--| 
+|--|--|--|--| 
 | msdyn_iotdeviceid	| string	| Identifier of the device (msdyn_iotdevice) within Connected Field Service. A GUID that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”
 | msdyn_name	| string	| Name of the device.| 
 | @odata.type	| 	string	| OData type of the entity </br>For example: "Microsoft.Dynamics.CRM." + entityLogicalName | 
@@ -170,7 +170,7 @@ Once you've successfully registered a device, you can see it in the **Registrati
 
 ## Aggregated device readings action
 
-This action retrieves the aggregated readings (such as average, min, and max) for devices from the IoT provider, so users can get a quick snapshot of the condition of the device within Connected Field Service through summary tiles. Aggregate device readings are strings.
+This action retrieves the aggregated readings for devices from the IoT provider. Users can get a quick snapshot of the condition of the device within Connected Field Service through summary tiles. Aggregate device readings are strings.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an IoT device in Field Service, showing aggregate readings.](./media/custom-iot-aggregate-readings.png)
@@ -316,7 +316,7 @@ Sample output:
 
 ## Device readings – events
 
-The device readings control in Connected Field Service also allows IoT providers to plot discrete events from service history, such as the creation and closure of work orders, scheduled start and end of bookings, and much more. For example, the following screenshot shows the out-of-the-box work order events as "pins" at the bottom of the chart. You can include any custom entities such as the last time you performed an asset upgrade.
+The device readings control plots events from the [service history](service-history.md). For example, the following screenshot shows the out-of-the-box work order events as "pins" at the bottom of the chart. You can include any custom entities such as the last time you performed an asset upgrade.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of device readings showing events.](./media/custom-iot-device-events.png)
@@ -359,7 +359,7 @@ Here are the output parameters for this event.
 | Description          | string | Short description for the event. This description is displayed when the user hovers over the pin or when the user selects the pin to see the details dialog.                |
 | ID                   | string | The ID value of the event can be a name or user-friendly value. For example, the work order number, booking confirmation code, and so on. |
 | Entity               | string | Dataverse entity name related to the event. For example: "msdyn_workorder"                                                                                                            |
-| URL                  | string | URL for navigating to details of the event. For example, a link to the work order form for more details on the work order. If you don't pass in a URL, but do pass in an entity and GUID, a hyperlink is automatically generated that lets users open the record.                            |
+| URL                  | string | URL for navigating to details of the event. For example, a link to the work order form for more details on the work order. If you pass an entity and GUID, the system automatically generates a hyperlink.                            |
 | GUID                 | string | GUID (converted as a string) that indicates the identifier of the entity record within Dataverse.                                                                                          |
 
 Sample output:

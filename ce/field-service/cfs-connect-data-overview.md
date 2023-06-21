@@ -1,7 +1,7 @@
 ---
 title: IoT integration with Connected Field Service
 description: Integrate your IoT solution with Microsoft services or a multicloud strategy for a scalable, customized solution.
-ms.date: 06/13/2023
+ms.date: 06/21/2023
 ms.subservice: connected-field-service
 ms.topic: overview
 ms.author: vhorvath
