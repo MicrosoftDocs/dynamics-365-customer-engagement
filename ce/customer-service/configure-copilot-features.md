@@ -75,18 +75,6 @@ The following table summarizes the copilot features supported for a configured k
 |Write an email | ✔|✔|
 |Draft a response |✔|✔|
 
-
-### How Copilot uses knowledge sources
-
-Based on the knowledge source you select, the Copilot responses vary.
-
-For example, an agent asks a question about an espresso issue in the coffee machine, SmartBrew 3000. The following table summarizes the interaction between an agent and Copilot, based on the option enabled.
-
-|Knowledge base | SharePoint|
-|----------------|--------------|
-|When the agent asks a question, the application triggers an API to search the internal knowledge base, retrieves and summarizes the relevant knowledge articles. Copilot uses the summary to generate a response. |  When the agent asks a question, the application searches for the keywords in each of the configured sites, and retrieves the top three results, which are then made into snippets. Copilot generates the response based on these snippets.<br><b>NOTE</b><br> We recommend the following:<br>- Ensure that the keywords you search with are as precise as possible. If the keywords you've used aren't present in the SharePoint documents, then Copilot can't generate responses.<br> - When you ask follow up turn by turn questions, Copilot might not generate the responses that you're expecting.|
-|:::image type="content" source="media/copilot-km-mini.png" alt-text="Copilot internal km" lightbox="media/copilot-km-main.png":::|:::image type="content" source="media/copilot-sharepoint-mini.png" alt-text="Sharepoint copilot responses" lightbox="media/copilot-sharepoint-main.png":::|
-
 ## Enable summarization of cases and conversations
 
 Copilot generated case and conversation summaries enhance agent collaboration and productivity as follows:
