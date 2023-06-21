@@ -56,7 +56,7 @@ Agents can work on up to nine sessions and within a session, they can open up to
 
 If your administrator has turned on the inbox for your profile, you can select the **Inbox** tab to view all the cases, conversations, and activities that are assigned to you. Use the inbox to work on high-velocity tasks. You can also promote inbox sessions to regular sessions when you need more time to resolve a case or complete a conversation.
 
-The asynchronous channels available in the conversation inbox are: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Microsoft Teams.
+The asynchronous channels available in the conversation inbox are: SMS, persistent chat, Facebook, WeChat, LINE, WhatsApp, and Microsoft Teams.
 
 More information: [Configure the inbox view](configure-inbox.md)
 
