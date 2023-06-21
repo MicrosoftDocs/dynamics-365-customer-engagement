@@ -20,6 +20,9 @@ As an administrator for your organization, the set up tasks for the Field Servic
 
 The Field Service (Preview) Outlook Add-in requires the add-in to be enabled. You can quickly enable the Outlook Add-in for your organization and the frontline employees are ready to go.
 
+> [!NOTE]
+> Outlook Preview is not supported.
+
 ### Prerequisites
 
 - Global admin or Exchange admin permissions in the Microsoft 365 Admin Center
@@ -51,6 +54,9 @@ The Field Service (Preview) Teams app requires the following setup:
 - [Deploy Teams Tab app package](#deploy-teams-tab-app-package)
 - [Assign audiences](#assign-security-roles-and-field-security-profiles)
 - [Sync Azure Active Directory groups and Dataverse security roles](#sync-azure-active-directory-groups-and-dataverse-security-roles)
+
+> [!NOTE]
+> Teams Preview is not supported.
 
 ### Prerequisites
 
@@ -91,7 +97,7 @@ Obtain the Viva Connections cards for Field Service (Preview) to make them avail
 
 1. [Add the Field Service (Preview) app from the SharePoint store](/sharepoint/use-app-catalog#add-apps-from-the-sharepoint-store).
 
-1. Go to the **API access** page and click **Approve**.  
+1. Go to the **API access** page and click **Approve**. For more information, see [Manage API access](/sharepoint/api-access#approve-a-pending-request).
 
 ### Add Field Service (Preview) cards to the Viva Connections dashboard
 

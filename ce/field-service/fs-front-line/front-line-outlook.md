@@ -21,8 +21,11 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 ### Prerequisites
 
-- Outlook on the Web
+- Outlook on the web
 - Outlook 2013 or later on Windows (or Mac)
+
+> [!NOTE]
+> Outlook Preview is not supported.
 
 ### Install the Outlook Add-in
 

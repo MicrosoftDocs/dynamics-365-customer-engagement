@@ -1,5 +1,5 @@
 ---
-title: Field Service in Microsoft 365 apps
+title: Field Service in Microsoft 365 apps (preview)
 description: Learn about the Dynamics 365 Field Service (Preview) which integrates with Microsoft Outlook and Teams.
 ms.date: 06/16/2023
 ms.topic: overview
@@ -9,7 +9,7 @@ ms.reviewer: v-wendysmith
 ms.custom: bap-template
 ---
 
-# Field Service in Microsoft 365 apps
+# Field Service in Microsoft 365 apps (preview)
 
 Dynamics 365 Field Service (Preview) integrates Field Service with Microsoft Outlook and Teams so that frontline workers and managers can create, view, and manage work orders within Outlook and Teams. A frontline manager is typically a service manager and dispatcher. A frontline worker is a technician, the one performing the work.
 
