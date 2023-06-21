@@ -1,5 +1,35 @@
 {
   "redirections": [
+   {
+      "source_path": "ce/customerengagement/on-premises/developer/asynchronous-service-architecture.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/asyncoperation-system-job-entity.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/asynchronous-operation-states.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/dependency-execution-order-asynchronous-operations.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/recurrence-pattern-asynchronous-job-execution.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/supported-entities-asynchronous-operations.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },   
     {
       "source_path": "ce/customerengagement/on-premises/admin/connect-to-imap-servers.md",
       "redirect_url": "connect-gmail-oauth2",
