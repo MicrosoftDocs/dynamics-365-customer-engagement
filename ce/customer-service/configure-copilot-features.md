@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 06/19/2023 
+ms.date: 06/21/2023 
 ms.custom: bap-template 
 ms.collection:
 ---
@@ -39,7 +39,12 @@ To learn about supported languages for Copilot, see [Language support for AI-bas
 
 ## Prerequisites
 
-You have the System Administrator role.
+- You have the System Administrator role.
+- [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) is configured in your environment. 
+- Your knowledge article parameters are as follows:
+   - Updated with the latest version
+   - The state is set to Published
+   - The locale is set to English
 
 ## Opt-in to continue with Copilot setup
 
@@ -49,25 +54,19 @@ Before you enable a copilot feature, review the terms and conditions and provide
 
 Perform the following steps to enable the copilot features:
 
-1. In Customer Service admin center, use one of the following navigation options:
+1. In Customer Service admin center, use one of the following navigation options: 
       - **Agent Experience** > **Productivity** > **Copilot help pane (preview)**
       - **Operations** > **Insights** > **Copilot help pane (preview)**
 1. Select **Manage** in **Copilot help pane (preview)**.
 1. Select the following options: 
-    - **Make Copilot available to agents**: Will display the **Ask a question** tab on the **Copilot help pane (preview)** when agents sign in. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
-    - **For customer chat**: Will display the one-click response generation button on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
-    - **For email**: Will display the **Write an email** tab on the **Copilot help pane (preview)**. Copilot helps agents create email responses based on the context of the case.
-1. Select one of the following options that Copilot will use to generate responses.<br>
-    - **Knowledge base**: Copilot generates responses using the internal knowledge base as the source. [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) should be configured. Knowledge articles should have the following parameters:
-       - The version is up to date.
-       - The state is set to **Published**
-       - The locale is set to **English**
-      By default, the knowledge base content is refreshed every week.
-    - **SharePoint**: Copilot generates responses using the content uploaded to SharePoint as the source. Supported files include: .doc, .docx, .pdf, .ppt, .pptx, .txt. You can add multiple SharePoint URLs. The SharePoint sites must belong to the same tenant as the current organization.<br>
-    If you don't have a SharePoint site configured, the **SharePoint** option is disabled. You can select **Manage SharePoint providers** to add your SharePoint URL. See: [Set up a search provider](set-up-search-providers.md#set-up-a-search-provider). Make sure that your SearchPoint site is a part of the same tenant as the current organization.
+    - **Make Copilot available to agents**: Displays the **Ask a question** tab on the **Copilot help pane (preview)** when agents sign in. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
+    - **For customer chat**: Displays the one-click response generation button on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
+    - **For email**: Displays the **Write an email** tab on the **Copilot help pane (preview)**. Copilot helps agents create email responses based on the context of the case.
 1. Select **Add web address** in **Web resources** to add trusted domains. You can add up to five trusted web domains for Copilot to search and generate responses from. To limit the content you want Copilot to use, specify up to two levels, represented by forward slash (/) after the .com part of the URL.
+
 > [!NOTE]
-> Web domains are used by Copilot to draft emails and chat replies only.
+> - By default, the knowledge base content is refreshed every week.
+> - Web domains are only used by Copilot to draft emails and chat replies.
 
 :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
 
@@ -75,23 +74,11 @@ Perform the following steps to enable the copilot features:
 
 The following table summarizes the copilot features supported for a configured knowledge source.
 
-| Feature|Knowledge base | SharePoint | External web resources |
+| Feature|Knowledge base | External web resources |
 |-------|----------|---------|--------|
-|Ask a question |✔|✔|X|
-|Write an email | ✔|✔|✔|
-|Draft a response |✔|✔|✔|
-
-
-### How Copilot uses knowledge sources
-
-Based on the knowledge source you select, the Copilot responses vary.
-
-For example, an agent asks a question about an espresso issue in the coffee machine, SmartBrew 3000. The following table summarizes the interaction between an agent and Copilot, based on the option enabled.
-
-|Knowledge base | SharePoint|
-|----------------|--------------|
-|When the agent asks a question, the application triggers an API to search the internal knowledge base, retrieves and summarizes the relevant knowledge articles. Copilot uses the summary to generate a response. |  When the agent asks a question, the application searches for the keywords in each of the configured sites, and retrieves the top three results, which are then made into snippets. Copilot generates the response based on these snippets.<br><b>NOTE</b><br> We recommend the following:<br>- Ensure that the keywords you search with are as precise as possible. If the keywords you've used aren't present in the SharePoint documents, then Copilot can't generate responses.<br> - When you ask follow up turn by turn questions, Copilot might not generate the responses that you're expecting.|
-|:::image type="content" source="media/copilot-km-mini.png" alt-text="Copilot internal km" lightbox="media/copilot-km-main.png":::|:::image type="content" source="media/copilot-sharepoint-mini.png" alt-text="Sharepoint copilot responses" lightbox="media/copilot-sharepoint-main.png":::|
+|Ask a question |✔|X|
+|Write an email | ✔|✔|
+|Draft a response |✔|✔|
 
 ## Enable summarization of cases and conversations
 
