@@ -1180,6 +1180,8 @@
         href: set-when-business-closed-csh.md
       - name: Schedule entities
         items: 
+        - name: Create an entity for scheduling
+          href: entity-schedule-enable.md
         - name: Create bookable resources
           href: resources-service-scheduling.md
         - name: Add facilities and equipment
