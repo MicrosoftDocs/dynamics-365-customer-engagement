@@ -20,7 +20,7 @@ searchScope:
 # Associate documents with playbook activities 
 
 > [!NOTE]
-> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](create-manage-sequences.md)  
+> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](deprecations-sales.md#playbooks-will-be-deprecated)  
 
 Ensure sales reps always have the latest sales and training materials to close a deal by associating documents with playbook activities that you add to a playbook template.
 For example, create a playbook template that sales reps can follow when the decision maker they are working with leaves the organization. While adding activities to this template, you can also attach documents that help the sales rep bring the new decision maker up to speed. 
