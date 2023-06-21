@@ -80,7 +80,7 @@ Now that the view is created, edit the schedule board that will use the new view
 
 ### See also
 
-[Work with cases](customer-service-hub-user-guide-create-a-case.md)  
-[Work with queues](work-with-queues.md) 
+[Create bookable resources](resources-service-scheduling.md)  
+[Overview of service scheduling](basics-service-service-scheduling.md) 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
