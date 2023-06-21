@@ -15,10 +15,7 @@ After setting up an IoT provider, you specify a set of actions associated with t
 
 ## Pull Device Data action
 
-The *Pull Device Data* actions fetches the latest device data from the IoT provider and appears in the Device Data History tab with updated properties of an IoT device. This action pulls data for a single device or a collection of devices.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an IoT device in Field Service, with emphasis on the pull data option.](./media/custom-iot-pull-data.png)
+The [**Pull Device Data** action fetches the latest device data from the IoT provider](cfs-pull-device-data.md) and appears in the **Device Data History** tab with updated properties of an IoT device. This action pulls data for a single device or a collection of devices.
 
 The *Pull Devices Data* action requires an input of an *EntityCollection*. The following table displays the parameters for the *EntityCollection* for this action.
 
@@ -79,11 +76,11 @@ Sample output:
 		"DeviceReportedProperties":{
 			"temperature":65.6366305680316,
 			"humidity":21.3333366666
-		},
+		  },
 		"LastActivityTime": "2019-08-2011:00:00"
-	   },
-	   {
-		"Id":"B25B5E21-326E-4C36-9296-C195286DGEE9,
+	  },
+	  {
+		"Id":"B25B5E21-326E-4C36-9296-C195286DGEE9",
 		"ConnectionState":true,
 		"ConnectionStateUpdatedTime":"2019-08-2911:00:00",
 		"DeviceReportedProperties":{
@@ -96,10 +93,7 @@ Sample output:
 }
 ```
 
-The result of pulling device data appears in the Device Data History tab and updates the property information of the device.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the device data history.](./media/custom-iot-device-data-history.png)
+The result of pulling device data appears in the **Device Data History** tab and updates the property information of the device.
 
 ## Register Device action
 
@@ -172,10 +166,7 @@ Sample output:
 }
 ```
 
-Once you've successfully registered a device, you can see it in the registration history, as seen in the following screenshot and on the device record itself.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an IoT device in Field Service, showing registration history.](./media/custom-iot-registration-history.png)
+Once you've successfully registered a device, you can see it in the **Registration History** tab of the *IoT Device* record.
 
 ## Aggregated device readings action
 
