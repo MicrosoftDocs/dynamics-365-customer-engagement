@@ -1,7 +1,7 @@
 ---
 title: "Configure rules-based suggested contacts when starting a Microsoft Teams chat in Dynamics 365 Customer Service | Microsoft Docs"
 description: "Learn how to configure the ability to use rules-based suggested contacts."
-ms.date: 04/05/2023
+ms.date: 06/21/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -60,6 +60,36 @@ A maximum of 10 rules are supported per record type.
    - **Custom**: You can use your own custom logic with a record type, and then apply it.
 
 1. Select **Save**.
+
+### Use a custom action
+
+> [!IMPORTANT]
+> We recommend that you have previous experience working with custom actions before configuring them for rules-based suggestions. More information: [Create or edit custom actions from a workflow](/customerengagement/on-premises/customize/configure-actions)
+
+You can call a custom action to handle advanced scenarios. The suggested contacts identifier will pass along the ID and entity type as arguments, and will expect the custom action to return users. In the rule settings section, type the name of an existing action.
+
+To use the custom rule type, you must have an existing custom action that has the following arguments:
+
+alt text
+
+*alt text*
+
+The output, CustomActionSuggestedUsers, is a list of objects that follow this contract:
+```
+public class ContactSuggestionCustomActionOutput
+  {
+    public Guid AADUserId { get; set; }
+    public Guid systemUserId { get; set; }
+    public string description { get; set; }
+
+    public ContactSuggestionCustomActionOutput(Guid AADUserId, Guid systemUserId, string description)
+    {
+        this.AADUserId = AADUserId;
+        this.systemUserId = systemUserId;
+        this.description = description;
+    }
+  }
+```
 
 ### See also
 
