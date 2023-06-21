@@ -37,6 +37,8 @@ The Copilot report can be filtered on the following fields:
 
 The Copilot report displays the following metrics.
 
+:::image type="content" source="media/copilot-analytics-report.png" alt-text="A screenshot of the Copilot report for cases.":::
+
 ### Usage
 
 |Metric  |Description  |Derivation  |
@@ -45,16 +47,6 @@ The Copilot report displays the following metrics.
 |Total copilot AI responses| The total number of responses that Copilot provided. ||
 |Number of responses used| The number of times text from a copilot response was used.||
 |Percentage of copilot AI responses used| The percentage of responses that were used. ||
-
-### Productivity: Conversations
-
-|Metric  |Description  |Derivation  |
-|---------|---------|---------|
-|Total conversations|The total number of conversations in which the agent engaged with the customer at least once while Copilot was available. Doesn't include email and voice.||
-|Number of conversations using copilot AI| The number of engaged conversations that have used Copilot. Lists only those conversations that have ended.||
-|Percentage of conversations using copilot AI| The percentage of engaged conversations that have used Copilot.||
-|Avg conversation handle time|The average time that elapsed after conversation started until it ended. The chart displays data when Copilot was used and when it wasn't used.||
-|Conversation throughput|The number of conversations, excluding email and voice, completed on an average per day. The chart displays data when Copilot was used and when it wasn't used. ||
 
 ### Productivity: Cases
 
@@ -65,6 +57,16 @@ The Copilot report displays the following metrics.
 |Percentage of cases resolved using copilot AI|The percentage of cases that were resolved when Copilot was used.||
 |Avg. days to close for cases|The Average time that elapsed after case was created and until it was resolved. The chart displays data when Copilot was used and when it wasn't used.||
 |Case throughput|The number of cases that were resolved on an average per day. The chart displays data when Copilot was used and when it wasn't used.||
+
+### Productivity: Conversations
+
+|Metric  |Description  |Derivation  |
+|---------|---------|---------|
+|Total conversations|The total number of conversations in which the agent engaged with the customer at least once while Copilot was available. Doesn't include email and voice.||
+|Number of conversations using copilot AI| The number of engaged conversations that have used Copilot. Lists only those conversations that have ended.||
+|Percentage of conversations using copilot AI| The percentage of engaged conversations that have used Copilot.||
+|Avg conversation handle time|The average time that elapsed after conversation started until it ended. The chart displays data when Copilot was used and when it wasn't used.||
+|Conversation throughput|The number of conversations, excluding email and voice, completed on an average per day. The chart displays data when Copilot was used and when it wasn't used. ||
 
 ### Satisfaction
 
