@@ -52,7 +52,7 @@ Before you enable a copilot feature, review the terms and conditions and provide
 
 ## Enable copilot features
 
-Perform the following steps to enable the Copilot features:
+Perform the following steps to enable the copilot features:
 
 1. In Customer Service admin center, use one of the following navigation options: 
       - **Agent Experience** > **Productivity** > **Copilot help pane (preview)**
@@ -66,7 +66,7 @@ Perform the following steps to enable the Copilot features:
 
 > [!NOTE]
 > - By default, the knowledge base content is refreshed every week.
-> - Web domains are used by Copilot only to draft emails and chat replies.
+> - Web domains are only used by Copilot to draft emails and chat replies.
 
 :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
 
