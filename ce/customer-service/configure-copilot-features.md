@@ -39,7 +39,12 @@ To learn about supported languages for Copilot, see [Language support for AI-bas
 
 ## Prerequisites
 
-You have the System Administrator role.
+- You have the System Administrator role.
+- [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) is configured in your environment. 
+- Your knowledge article parameters are as follows:
+   - Updated with the latest version
+   - The state is set to Published
+   - The locale is set to English
 
 ## Opt-in to continue with Copilot setup
 
@@ -57,11 +62,11 @@ Perform the following steps to enable the Copilot features:
     - **Make Copilot available to agents**: Displays the **Ask a question** tab on the **Copilot help pane (preview)** when agents sign in. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
     - **For customer chat**: Displays the one-click response generation button on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
     - **For email**: Displays the **Write an email** tab on the **Copilot help pane (preview)**. Copilot helps agents create email responses based on the context of the case.
-1. Copilot automatically refreshes your knowledge base and displays the date and time of when it was last updated. By default, the knowledge articles are refreshed every week.
-1. You can add up to five trusted web domains for Copilot to search when generating responses. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels, represented by forward slashes (/) after the .com part of the URL. 
+1. Select **Add web address** in **Web resources** to add trusted domains. You can add up to five trusted web domains for Copilot to search and generate responses from. To limit the content you want Copilot to use, specify up to two levels, represented by forward slash (/) after the .com part of the URL.
 
 > [!NOTE]
-> Web domains are used by Copilot only to draft emails and chat replies.
+> - By default, the knowledge base content is refreshed every week.
+> - Web domains are used by Copilot only to draft emails and chat replies.
 
 :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
 
