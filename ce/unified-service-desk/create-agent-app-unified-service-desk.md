@@ -3,15 +3,11 @@ title: "Create agent application using Unified Service Desk | MicrosoftDocs"
 description: "Learn two ways to create a customized agent application for your organization, either by using Dataverse or by using the UII framework."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 tags: NoHandoff
 ---
 # Create agent application using Unified Service Desk

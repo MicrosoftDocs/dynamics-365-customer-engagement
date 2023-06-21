@@ -7,7 +7,6 @@ ms.topic: article
 ms.assetid: 08662c5d-1809-44fd-81d9-dc12774eb5e8
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -27,7 +26,7 @@ To help users with intelligent suggestions when they enter an activity in the ti
 
 ## To configure notes analysis 
 
-1. Verify that premium Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+1. Verify that premium Sales Insights features are enabled. More information: [Enable and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features)
 
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
@@ -48,8 +47,7 @@ To help users with intelligent suggestions when they enter an activity in the ti
 
 ### See also
 
-[How notes analysis assists you with intelligent suggestion](notes-analysis.md)  
-[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)  
+[How notes analysis assists you with intelligent suggestion](notes-analysis.md)    
 [Notes analysis FAQs](faqs-sales-insights.md#notes-analysis)
 
 

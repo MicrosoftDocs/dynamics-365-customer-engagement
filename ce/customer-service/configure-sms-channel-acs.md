@@ -1,10 +1,10 @@
 ---
 title: Configure an SMS channel using Azure Communication Services | MicrosoftDocs
 description: This article includes instructions for configuring an SMS channel using Azure Communication Services.
-ms.date: 02/17/2023
+ms.date: 06/20/2023
 ms.topic: how-to
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 ms.reviewer: nenellim
 ms.custom: bap-template
 ---
@@ -25,25 +25,23 @@ This article discusses how you can configure an SMS channel using Azure Communic
    
     If you're using an existing phone number that's not enabled for SMS, then you can upgrade your plan. More information: [Edit phone numbers](voice-channel-manage-phone-numbers.md#edit-phone-numbers)
 
-- Create a workstream for the SMS channel. More information: [Create a workstream for the SMS channel](create-workstreams.md)
-
 ## Configure a workstream for the SMS channel
 
 1. Go to the **Workstreams** page, and open the workstream that you created.
-2. In the **Set up your SMS channel** section, select **Set up SMS**, and then configure the following options.
+1. In the **Set up your SMS channel** section, select **Set up SMS**, and then configure the following options.
    1. On the **SMS setup** page, select a number from the list.
    2. On the **Language** page, select the language that you want to set as the default.
    3. On the **Behaviors** page, configure the following options:
      - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. More information: [Configure operating hours](create-operating-hours.md)
      - [Configure custom automated messages](configure-automated-message.md).
      - [Configure post-conversation survey](configure-post-conversation-survey.md).
-      > [!NOTE]
-      > File attachments aren't supported in the SMS channel using Azure Communication Services. <br>
+          > [!NOTE]
+          > File attachments aren't supported in the SMS channel using Azure Communication Services. <br>
    4. Verify the settings on the **Summary** page, and then select **Finish**. The SMS channel is now configured.
-3. [Configure routing rules](configure-work-classification.md).
-4. [Configure work distribution](create-workstreams.md#configure-work-distribution).
-5. [Add a bot](create-workstreams.md#add-a-bot-to-a-workstream).
-6. In **Advanced settings**, configure the following options based on your business needs.
+1. [Configure routing rules](configure-work-classification.md).
+1. [Configure work distribution](create-workstreams.md#configure-work-distribution).
+1. [Add a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+1. In **Advanced settings**, configure the following options based on your business needs.
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
    - [Context variables](manage-context-variables.md#add-context-variables)

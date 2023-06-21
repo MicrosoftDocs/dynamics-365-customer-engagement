@@ -3,13 +3,9 @@ title: "User guide for Dynamics 365 Field Service (contains video)"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
 ms.date: 02/11/2021
 ms.topic: overview
-
-ms.custom: intro-internal
+ms.collection: get-started
 author: jshotts
 ms.author: jasonshotts
-search.app:
-  - D365CE
-  - D365FS
 ---
 # Dynamics 365 Field Service user guide
 
@@ -80,7 +76,6 @@ The purpose of this section is to help you set up a Field Service environment.
    <ul>
 <li><a href="install-field-service.md" data-raw-source="[Install Field Service (web + mobile)](install-field-service.md)">Install Field Service (web + mobile)</a></li>
    <li><a href="view-user-accounts-security-roles.md" data-raw-source="[Setup Users and Security roles](view-user-accounts-security-roles.md)">Setup Users and Security roles</a></li>
-  <li><a href="perform-initial-configurations-setup.md" data-raw-source="[Perform initial configurations](perform-initial-configurations-setup.md)">Perform initial configurations</a></li>
   <li><a href="set-up-bookable-resources.md" data-raw-source="[Set up bookable resources](set-up-bookable-resources.md)">Set up bookable resources</a></li>
   <li><a href="mobile-power-app-get-started.md" data-raw-source="[Get started with Microsoft Dynamics 365 Field Service mobile app](mobile-power-app-get-started.md)">Get started with Microsoft Dynamics 365 Field Service mobile app</a></li>
   </ul>
@@ -92,11 +87,10 @@ The purpose of this section is to help you set up a Field Service environment.
 
 The purpose of this section is to help you configure work order management, which is a core capability of Field Service.
    <ul>
-  <li><a href="quickstart-schedule-work-order.md" data-raw-source="[Quickstart - Create and schedule a work order](quickstart-schedule-work-order.md)">Quickstart - Create and schedule a work order</a></li>
    <li><a href="universal-resource-scheduling-for-field-service.md" data-raw-source="[Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)">Universal Resource Scheduling for Field Service</a></li>
  <li><a href="create-work-order.md" data-raw-source="[[Create a work order](create-work-order.md)]">Create a Work Order</a></li>
 <li><a href="configure-incident-types.md" data-raw-source="[[Create work order templates with incident types](configure-incident-types.md)]">Create work order templates with incident types</a></li>
-  <li><a href="work-order-customer-account.md" data-raw-source="[Add a customer, location, and related account details to a work order](work-order-customer-account.md)">Add a customer, location, and related account details to a work order</a></li>
+  <li><a href="accounts.md" data-raw-source="[Add a customer, location, and related account details to a work order](accounts.md)">Add a customer, location, and related account details to a work order</a></li>
   </ul><br/>  
   </td>
 
@@ -126,7 +120,7 @@ The purpose of this section is to help you explore all the features of Field Ser
 
  <li><a href="https://youtu.be/3W7hI-6dZhg" data-raw-source="[What is Resource Scheduling Optimization?](https://youtu.be/3W7hI-6dZhg)">What is Resource Scheduling Optimization?</a></li>
  <li><a href="https://youtu.be/oJ-3HTJWRMo" data-raw-source="[Quickstart: Auto schedule a list of work orders](https://youtu.be/oJ-3HTJWRMo)">Quickstart: Auto schedule a list of work orders</a></li>
- <li><a href="rso-overview.md" data-raw-source="[Deploy, configure, and run RSO](rso-overview.md)">Deploy, configure, and run RSO</a></li>
+ <li><a href="rso-overview.md" data-raw-source="[Deploy, configure, and run Resource Scheduling Optimization](rso-overview.md)">Deploy, configure, and run Resource Scheduling Optimization</a></li>
 </ul>
 </td>
 
@@ -160,8 +154,6 @@ The purpose of this section is to help you explore all the features of Field Ser
 The purpose of this section is to provide implementation guidance and best practices, both technical and strategic. It also points toward extensibility and developer instructions.
    <ul>
   <li><a href="https://youtu.be/LQXpjMMrJIo" data-raw-source="[General Field Service implementation best practices](https://youtu.be/LQXpjMMrJIo)">General Field Service implementation best practices</a>
-  <li><a href="5-stages-scheduling-adoption.md" data-raw-source="[The five stages of scheduling adoption](5-stages-scheduling-adoption.md)">The five stages of scheduling adoption</a>
-</li>
   <li><a href="configure-default-settings.md" data-raw-source="[Field Service Settings](configure-default-settings.md)">Field Service Settings</a></li>
    <li><a href="version-history.md" data-raw-source="[Version history](version-history.md)">Version history</a></li>
     <li><a href="appsource-addins.md" data-raw-source="[AppSource add-ins for Field Service](appsource-addins.md)">AppSource add-ins for Field Service</a></li>

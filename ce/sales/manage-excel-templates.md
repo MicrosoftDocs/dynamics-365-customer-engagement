@@ -5,7 +5,6 @@ ms.date: 12/16/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---

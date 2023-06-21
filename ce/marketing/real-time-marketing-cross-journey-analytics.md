@@ -1,28 +1,23 @@
 ---
 title: "How to use aggregate cross-journey analytics (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use and interpret real-time marketing aggregate cross-journey analytics in Dynamics 365 Marketing."
-ms.date: 05/20/2022
+ms.date: 02/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # How to use aggregate cross-journey analytics
 
 Aggregate cross-journey analytics allow you to analyze your orchestrated journeys and evaluate their performance. Cross-journey analytics address your reporting needs by providing a performance dashboard out of the box with beautiful Power BI visuals. Use the dashboard to enhance stakeholder presentations regarding your journey's performance.
 
-> [!div class="mx-imgBorder"]
-> ![Aggregate cross-journey analytics dashboard.](media/real-time-marketing-aggregate-analytics.png "Aggregate cross-journey analytics dashboard")
+:::image type="content" source="media/real-time-marketing-aggregate-analytics.png" alt-text="Screenshot of aggregate cross-journey analytics." lightbox="media/real-time-marketing-aggregate-analytics.png":::
 
 The cross-journey analytics dashboard allows you to check in on the performance of all your orchestrated journeys in one place. This allows you to discontinue underperforming journeys early, or identify ways to optimize and increase a journey’s performance as it continues. Within the dashboard, there are widgets to:
 
@@ -65,3 +60,11 @@ With more out-of-the-box channels available in real-time marketing, you can comp
 ## Experimentation
 
 Here, you can see an overview of all the experiments that have been run for the journey and the outcomes. Use this information to gain further insights into your audience preferences.
+
+## Learn more
+
+Here are some advanced resources for this topic:
+
+- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

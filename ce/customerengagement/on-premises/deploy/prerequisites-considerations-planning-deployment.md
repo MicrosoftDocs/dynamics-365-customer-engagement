@@ -14,7 +14,6 @@ ms.assetid: c47192d9-2fa4-408f-bf8a-13e55c0a4797
 caps.latest.revision: 14
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Prerequisites and considerations for planning your deployment of Dynamics 365 Customer Engagement (on-premises)
 

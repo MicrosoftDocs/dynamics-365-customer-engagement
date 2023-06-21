@@ -8,12 +8,8 @@ ms.reviewer: "kvivek"
 ms.topic: "article"
 author: "Mattp123"
 ms.author: "haybass"
-manager: "kvivek"
 search.audienceType: 
   - maker
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 
 # Checklist for Unified Interface transition

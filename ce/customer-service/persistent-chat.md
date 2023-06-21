@@ -5,8 +5,7 @@ ms.date: 07/28/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 
 # Configure persistent chat

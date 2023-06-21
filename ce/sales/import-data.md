@@ -1,11 +1,10 @@
 ---
-title: "Import data into Dynamics 365 Sales | MicrosoftDocs"
-description: "Get your data in bulk into Dynamics 365 Sales by importing it."
-ms.date: 1/28/2022
+title: Import data into Dynamics 365 Sales
+description: Get your data in bulk into Dynamics 365 Sales by importing it.
+ms.date: 03/30/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 searchScope: 
@@ -22,6 +21,7 @@ searchScope:
 Bring customer and sales data quickly into your app by importing it. Dynamics 365 Sales processes import in the background. After an import completes, you can review which records succeeded, failed to import, or were partially imported. To fix the records that failed to import, export them into a separate file, fix them, and then try to import them again. You can delete all records associated with an import.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -34,9 +34,9 @@ You can import data from the following file types and sources:
 
 - Comma-separated value (CSV) files.
 
-- Microsoft Excel templates available in Dynamics 365 Sales. 
-- XML (Supported only for Sales Premium and Sales Enterprise)  
-- Exchange
+- Microsoft Excel templates available in Dynamics 365 Sales.  
+- XML (Supported only for Sales Premium and Sales Enterprise) 
+- Exchange  
 
 ## Import data
 
@@ -60,8 +60,7 @@ successfully:
 
 2.  Make sure that the file is in one of the following formats:
 
-    -   Comma-separated value (CSV) file, a data file with a .csv file extension. Typically, a CSV file consists of fields and records, stored as text, in
-    which the fields are separated from one another by commas. 
+    -   Comma-separated value (CSV) file, a data file with a .csv file extension. Typically, a CSV file consists of fields and records, stored as text, in which the fields are separated from one another by commas. 
 
     -   Excel template.
 
@@ -69,8 +68,7 @@ successfully:
 
     -   Make sure that the first line of a file contains the column headings.
 
-    -   Edit your file and add column headings (text used in the first row of a spreadsheet or file that labels the data in each column) if they are not
-        already present.
+    -   Edit your file and add column headings (text used in the first row of a spreadsheet or file that labels the data in each column) if they are not already present.
 
         >[!NOTE]
         >Make sure that the CSV file does not contain:

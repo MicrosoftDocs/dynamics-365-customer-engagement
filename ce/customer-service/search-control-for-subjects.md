@@ -1,26 +1,21 @@
 ---
-title: Search control for subject (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Know how to enable the search option for the subject entity in custom forms in Dynamics 365 Customer Service
-ms.date: 10/01/2021
-ms.topic: article
+title: Search control for subject (Dynamics 365 Customer Service)
+description: Learn how to enable the search option for the subject entity in custom forms in Dynamics 365 Customer Service.
+ms.date: 05/31/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
+  - bap-template
 ---
 
 # Enable search control for subjects in custom forms
-
-
-## Introduction
 
 The search control for the subject entity provides intuitive and fast search results, the search term is highlighted in the results, and allows for easy removal of the search string with a single click.
 
@@ -35,7 +30,7 @@ The search control for the subject entity is available out of the box in the fol
 
 Perform the following steps to enable the search control for subjects on custom forms:
 
-> [!Important]
+> [!IMPORTANT]
 > The search control provides optimal performance for subject hierarchies with less than 2,000 subjects.
 
 1. In Dynamics 365, go to **Customizations** in **Advanced Settings**.

@@ -7,14 +7,6 @@ ms.custom: "dyn365-ai-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365SE
 ---
 
 
@@ -60,8 +52,10 @@ Azure components and services that are involved with conversation intelligence a
 **Installation and removal of conversation intelligence**    
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users and administrators who are allowed to register new applications in Azure Active Directory, can enable conversation intelligence by signing in to the app and consenting to the required permissions. Administrators can change these permissions, which can include removing access to the app, at https://myapps.microsoft.com 
 
-**Handling GDPR for conversation intelligence**    
-It is the enterprise customer’s responsibility to comply with the GDPR. If you choose to honor and execute a data subject rights (DSR) request for delete or edit, please email [Microsoft](mailto:D365callintelligence@microsoft.com) and Microsoft will manually process the DSR to delete and edit.
+**Handling privacy laws for conversation intelligence data**    
+It is the enterprise customer’s responsibility to comply with the privacy laws and regulations. If you choose to honor and execute a data subject rights (DSR) request for delete or edit, review the information in the following note:
+
+[!INCLUDE [gdpr-dsr-azure-note](~/../shared-content/shared/privacy-includes/gdpr-dsr-azure-note.md)]
 
 ## Data protection
 

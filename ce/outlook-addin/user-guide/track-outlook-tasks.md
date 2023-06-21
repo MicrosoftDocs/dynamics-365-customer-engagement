@@ -19,14 +19,10 @@ ms.assetid: 213803dc-9096-4ffa-a3cb-ca57794372c6
 caps.latest.revision: 28
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
 # Track Outlook tasks in Dynamics 365 for Outlook
 When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)], a copy of the task record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. You can then work on the task in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. If you sync [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on your mobile device, you can also access your task records on that device.

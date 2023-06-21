@@ -1,19 +1,15 @@
 ---
 title: "Data model and report mapping for historical analytics reports| MicrosoftDocs"
 description: "View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service."
-ms.date: 10/03/2022
+ms.date: 06/12/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Data models and report mappings for historical analytics reports in Customer Service
@@ -444,8 +440,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 
 ### See also
 
-[Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service)  
-[Introduction to Customer Service Insights](introduction-customer-service-analytics.md) <br>
-[Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md) <br>
-[Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md) <br>
-[Configure Omnichannel historical analytics](oc-historical-analytics-reports.md)   
+[Customize visual display](customize-reports.md#customize-visual-display)    
+[Overview of data model customization](datamodel-overview.md#overview-of-data-model-customization)  
+[Customize data models of historical and real-time analytics reports](model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)  
+[Data model mapping for real-time analytics reports in Omnichannel for Customer Service](datamapping-realtime.md#data-model-mapping-for-real-time-analytics-reports-in-omnichannel-for-customer-service)

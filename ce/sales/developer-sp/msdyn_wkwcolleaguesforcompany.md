@@ -7,12 +7,8 @@ ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 
 # msdyn_wkwcolleaguesforcompany table/entity reference

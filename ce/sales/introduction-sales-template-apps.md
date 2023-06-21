@@ -1,18 +1,18 @@
 ---
-title: "Analyze your sales data by using Power BI template apps | MicrosoftDocs"
-description: "Learn about analyzing your sales data by using Power BI template apps."
-ms.date: 10/25/2021
-ms.custom: intro-internal
+title: Analyze your sales data with Power BI
+description: Learn about analyzing your sales data by using Power BI template apps.
+ms.date: 03/31/2023
+ms.collection: get-started
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
-# Analyze your sales data by using Power BI template apps 
+# Analyze your sales data with Power BI
 
 [Power BI template apps](/power-bi/service-template-apps-overview) are integrated packages of pre-built Power BI dashboards and reports. Using Power BI template apps with Dynamics 365 Sales provides a convenient, powerful, and quick way to access and analyze your sales data.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -41,7 +41,8 @@ As a sales manager, use this dashboard to perform the following tasks:
 
 ## Process Analytics for Dynamics 365
 
-The Process Analytics for Dynamics 365 Power BI template app is designed to help sales enablement managers get insights into the performance of their business process flows.  
+The Process Analytics for Dynamics 365 Power BI template app is designed to help sales enablement managers get insights into the performance of their business process flows.
+
 Sales enablement managers can track key performance indicators, including the velocity of records through process stages to understand how efficient their organizational processes are, and fine-tune process definitions to achieve maximum efficiency.
 
 As a sales enablement manager, use this template app to perform the following tasks:

@@ -3,14 +3,10 @@ title: "Export Unified Service Desk configuration data | MicrosoftDocs"
 description: "Learn how to prepare a file for use with another instance using the Configuration Migration Tool and configuration data schema file."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin

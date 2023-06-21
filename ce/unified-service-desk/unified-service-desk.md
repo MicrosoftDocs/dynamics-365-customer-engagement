@@ -3,15 +3,11 @@ title: "Unified Service Desk Guide | MicrosoftDocs"
 description: "Use this topic as a starting point to understand Unified Service Desk and its features. Also find useful links for configuring and administering the product."
 ms.date: 06/03/2022
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---
@@ -105,13 +101,6 @@ ms.custom:
 
 </tr>
 </table>
-
-::: moniker range="dynamics-usd-3"
-
-### Videos
-
-See the video to know [What's New in Unified Service Desk 3.3](https://go.microsoft.com/fwlink/?linkid=2008774).
-::: moniker-end
 
 ### See also
 

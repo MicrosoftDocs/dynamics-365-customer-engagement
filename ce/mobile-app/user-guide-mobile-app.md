@@ -13,14 +13,10 @@ ms.assetid: 6828238b-1545-4719-a192-0014acb03196
 caps.latest.revision: 1
 ms.author: sericks
 author: sericks007
-manager: tapanm-MSFT
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Basic navigation on Dynamics 365 for phones and tablets

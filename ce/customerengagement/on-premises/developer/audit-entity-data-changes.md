@@ -13,7 +13,6 @@ helpviewer_keywords:
   - auditing entity data changes in Microsoft Dynamics CRM, introduction
 author: Bluebear7
 ms.author: munzinge
-manager: mayadu
 search.audienceType:
   - developer
 ---

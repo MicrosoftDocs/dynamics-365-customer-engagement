@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: a88d9a7c-865c-45cc-be2a-fb5693a58268
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
 helpviewer_keywords: 
   - user settings
   - users, significant attributes

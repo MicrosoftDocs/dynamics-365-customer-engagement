@@ -1,11 +1,10 @@
 ---
 title: "Configure email | Microsoft Docs"
 description: "Learn how to configure email in customer engagement apps."
-ms.date: 04/05/2021
+ms.date: 05/09/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ms.reviewer: lalexms
 ---
 
@@ -30,33 +29,19 @@ Email must be enabled for users so they can view and access it. When email is en
 To enable email:
 
 1. In Power Apps, go to **Settings** > **Advanced Settings**.
-
-    ![Navigate to advanced settings.](media\email-how-to-enable-email-1z.png "Navigate to advanced settings.")	
-
 2. From the top menu, select **Settings** > **Customizations**.
-
-    ![Navigate to Customizations.](media\email-how-to-enable-email-2z.png "Select the Settings carat and then select Customizations.")	
-
 3. Select **Customize the System**.
-
-    ![Select Customize the System.](media\email-how-to-enable-email-2az.png "Select Customize the System.")
-
 4. Expand **Entities**, select and expand **Email**, and then select **Forms**.
 
 5. On the command bar, select **Form Order**, and then select **Main Form Set** from the drop-down list.
 
-    ![Navigate to Main Form Set.](media\email-how-to-enable-email-2bz.png "Select Form Order and then select Main Form Set.")
-
 6. The **Form Order** window appears, which displays the enabled email forms that are available. If **Enhanced email** doesn't display at the top of the list, use the arrows to move it up so it displays first on the list, and then select **OK**.
 
-    ![Form Order window.](media\email-how-to-enable-email-2cz.png "Reorder Enhanced email if it doesn't display at the top of the list.")
-
-    > [!Note] 
-    > Both the Navigate-to and Contextual (pop-up) email experience use the same **Form Order**.
+   > [!Note] 
+   > Both the Navigate-to and Contextual (pop-up) email experience use the same **Form Order**.
 
 7.	When you've completed your updates, select **Publish All Customizations** in the top-left corner in order for changes to be displayed.
 
-    ![Select Publish All Customizations.](media\email-how-to-enable-email-5az.png "Select Publish All Customizations.")	
 
 ## Enable the enhanced email experience	
 
@@ -68,13 +53,9 @@ Sign in to https://`<YourOrgURL>`.dynamics.com/apps and open a customer engageme
 
 2. Select **Settings** > **Administration**.
 
-   ![Navigate to Administration settings.](media\email-how-to-enable-email-5a.png "Navigate to the administration settings.")	
-
 3. Select **System Settings**. The **System Settings** window is displayed.
  
 4. Select the **Email** tab, scroll down to the **Enhanced email for Timeline** section, and then select the check box.  
-
-    ![Navigate to the Enhanced email for Timeline option.](media\email-how-to-enable-the-enhanced-email-experience-3az.png "Select the Enhanced email for Timeline option.")	
 
 5.	Select **OK** to save your global organizational setting and close the window.	
 
@@ -88,10 +69,22 @@ You can manage file size limits for email file attachments by doing the followin
 
 3. Scroll down to the  **Set file size limit for attachments** section, set the file size you want to use for attachment, and then select **OK**.
 
-    ![Set size limits for attachments.](media\email-how-to-configure-email-attachment-size-limitations-1z.png "Set size limits for attachments.")	
+  > [!Note] 	
+  > The default file size limit for attachments is 5 MB. The size limit for attachments can be increased to a maximum of 132 MB per file.
 
-> [!Note] 	
-> The default file size limit for attachments is 5 MB. The size limit for attachments can be increased to a maximum of 132 MB per file.
+## Configure email pop-up window
+
+When an agent selects **New Email** from the Timeline, you can to choose to display the email editor either as a pop-up window or in a new tab. If you enable the email pop-up editor setting, agents see the following experience:
+
+   :::image type="content" source="media/email-popup-mini.png" alt-text="Enhanced quick case form" lightbox="media/email-popup.png":::
+
+Perform the following steps to display the email editor as a pop-up window:
+
+1. Select  **Settings** > **Advanced Settings**.
+2. Select **System** > **Administration**. 
+3. Select **System Settings**. 
+2. In the **System Settings** display window that appears, go to the **Email** tab.
+3. Select **Multitask, compose, and save drafts using email pop-up windows when creating email from timeline** in the  **Enhanced email for Timeline** section, and then select **Ok**.
 
 ## Configure attachment tiles thumbnail layout
 
@@ -116,7 +109,7 @@ You can configure the attachment tiles thumbnail layout in email by selecting th
     - **Grid**: Shown in block with multiple attachments per row.
     - **Rows**: Default experience with a single attachments per row.
 
-For example, we'll set **Reflow behavior** to **List Only** and **Attachment list style** to **Rows**, as follows:
+For example, we'll set **Reflow behavior** to **List Only** and **Attachment list style** to **Rows**.
 
    ![Set Reflow behavior and Attachment list style.](media\list-attachment-style.png "Set Reflow behavior and Attachment list style.")
 
@@ -132,11 +125,6 @@ Changing to **List** and **Grid** shows the following attachment layout:
 
 You can configure the maximum number of attachments to show per page. Adjust the settings on the **Formatting** tab of the **List or Chart properties** dialog. For example, if you set the **Number of Rows** property to 4, and then have more than four attachments per email, the rest of the attachments will paginate and you can then use the arrow buttons to view them.  
 
- ![Change attachments to show per page.](media\email-row-layout.png "Change the number of attachments to show per page.")
- 
- ![Pagination display.](media\pagination-display.png "Pagination display.")
- 
-
 ## Manage blocked attachment file types
 
 You can configure the attachment file types you want to block to prevent users from uploading certain files. 
@@ -147,13 +135,7 @@ You can configure the attachment file types you want to block to prevent users f
 
 3. On the **General** tab, scroll down to **Set blocked file extensions for attachments**.
 
-4. Type the file extension(s) you want to block.
-
-   ![Write the file extensions to block.](media\set-blocked-extensions-attachments.png "Write the file extensions to block.")
- 
-   Users who try to upload a blocked file type will see an error message that tells them the attachment is blocked, as follows:
-
-   ![Attachment blocked.](media\attachment-blocked-message.png "Attachment blocked message.")
+4. Type the file extension(s) you want to block. Users who try to upload a blocked file type will see an error message that tells them the attachment is blocked.
 
 ### See Also
 

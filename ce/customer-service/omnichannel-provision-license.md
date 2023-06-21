@@ -5,7 +5,6 @@ ms.date: 02/17/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Provision Omnichannel for Customer Service

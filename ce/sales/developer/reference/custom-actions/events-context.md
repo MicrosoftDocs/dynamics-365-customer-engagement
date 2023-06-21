@@ -1,30 +1,27 @@
 ---
-title: "Events and context object for forecasting | MicrosoftDocs"
-description: Events and context object for forecasting in Dynamics 365 Sales
-ms.date: 01/20/2022
+title: Customize the underlying records grid in forecasts 
+description: Customize the underlying records grid in forecasts to make the entire grid or specific fields read-only, disable fields, and show error notifications.
+ms.date: 06/05/2023
 ms.topic: article
-author: udaykirang
-ms.author: udag
-manager: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: shujoshi 
 ms.custom: 
   - dyn365-sales
 ---
-# Override save, update, load events for editable fields on underlying records grid
+# Customize the underlying records grid in forecasts
 
-As a developer, use this reference documentation to learn about the forecasting events and context object.
+As a developer, use this reference documentation to learn about the events and context object to customize the underlying records grid in your forecast. You can use the context object to perform customizations such as making the entire grid or specific fields read-only, disabling fields, showing error notifications, and so on.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
 
-
-
-
-
 >[!NOTE]
->The *forecasting context object* that's referred to in this topic is different from the execution context of Microsoft Dataverse. The forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid.
+>The *forecasting context object* that's referred to in this topic is different from the execution context of Microsoft Dataverse. The forecasting context object is specific to forecasting and supports the advanced configurations for the underlying records grid.
 
 ## Events for the underlying records grid
 
@@ -39,7 +36,7 @@ The following samples scenarios are created based on the supported event handler
 -	[Always enable only a few fields based on entity](#always-enable-only-few-fields-based-on-entity).
 -	[Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
 -	[Show an error notification based on value](#show-error-notification-based-on-revenue-value). 
--	[Block autosave based on the estimated value by using preventDefault, and open a window event](#block-autosave-based-on-estimated-revenue-value). 
+-	[Block autosave based on the estimated value by using preventDefault, and open a window event](#block-autosave-based-on-estimated-revenue-value).
 
 ### OnRowLoad event
 
@@ -52,14 +49,14 @@ The following are the sample scenarios that you can perform using `OnRowLoad` ha
 -	[Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
 
 >[!NOTE]
->For forecast configuration, underlying records of different entities are viewed by selecting the **Groupby** attribute in the forecasting editable grid. To handle logic based on these entities, see the samples [Always enable only a few fields based on entity](#always-enable-only-few-fields-based-on-entity) and [Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
+>For forecast configuration, underlying records of different entities are viewed by selecting the **Groupby** attribute in the underlying records grid. To handle logic based on these entities, see the samples [Always enable only a few fields based on entity](#always-enable-only-few-fields-based-on-entity) and [Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
 
 ### OnChange event
 
-The `OnChange` event is triggered when the value of a cell in the forecasting editable grid is updated and the cell is out of focus.
+The `OnChange` event is triggered when the value of a cell in the underlying records grid is updated and the cell is out of focus.
 
 >[!NOTE]
->- For the forecasting editable grid, any field change will trigger `OnChange` and `OnSave` event handlers, if they exist.
+>- For the underlying records grid, any field change will trigger `OnChange` and `OnSave` event handlers, if they exist.
 >- The save won't be triggered if a field is set with an error notifications by using the client API in the `OnChange` handler. For notifications related to forecasting client APIs, go to the `setNotification` API in [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
 >- There is no mapping between attributes to the `OnChange` handler, and any field change will trigger the `OnChange` handler with the context object parameter. To identify the attribute that triggered the handler, use the `getIsDirty` function on the attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
 
@@ -69,12 +66,12 @@ The following is a sample scenario that you can perform by using the `OnChange` 
 
 ### OnSave event
 
-The `OnSave` event is triggered when a value is changed in a cell of the forecasting editable grid and the cell is out of focus. However, if the `OnChange` handler exists for the same forecast configuration, the `OnSave` handler is invoked after the `OnChange` handler.
+The `OnSave` event is triggered when a value is changed in a cell of the underlying records grid and the cell is out of focus. However, if the `OnChange` handler exists for the same forecast configuration, the `OnSave` handler is invoked after the `OnChange` handler.
 
 The `OnSave` handler is invoked before the actual save of the field.
 
 >[!NOTE]
->- For the forecasting editable grid, any field change will trigger `OnChange` and `OnSave` event handlers, if they exist.
+>- For the underlying records grid, any field change will trigger `OnChange` and `OnSave` event handlers, if they exist.
 >- The save won't be triggered if a field is set with an error notifications by using the client API in the `OnSave` handler. For notification related to forecasting client APIs, go to the `setNotification` API in [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
 >- There's no mapping between attributes to the `OnSave` handler, and any field change will trigger the `OnSave` handler with the context object parameter. To identify the attribute that triggered the handler, use the `getIsDirty` function on the attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
 
@@ -82,9 +79,9 @@ The following is a sample scenario that you can perform by using the `OnSave` ha
 
 -	[Block autosave based on the estimated value using preventDefault, and open a window event](#block-autosave-based-on-estimated-revenue-value). 
 
-## Context object for event handlers in the editable grid
+## Context object for event handlers in the underlying records grid
 
-The context object contains a set of APIs to perform operations specific to an underlying record in a forecast. This context object is passed as a parameter to the event handlers in the forecasting editable grid view.
+The context object contains a set of APIs to perform operations specific to an underlying record in a forecast. This context object is passed as a parameter to the event handlers in the underlying records grid view.
 
 The following APIs are supported:
 
@@ -95,7 +92,7 @@ The following APIs are supported:
 <a name=api-context-getformcontext></a>
 ### context.getFormContext method
 
-Returns a reference to a record on the forecasting editable grid.
+Returns a reference to a record on the underlying records grid.
 
 #### context.getFormContext().data.entity
 
@@ -105,7 +102,7 @@ This returns an entity object and has the following methods:
 |--------|-------------|-------------|
 | `getEntityName()` | String | Returns a string representing the logical name of the entity for the record. |
 | `getId()` | String | Returns a string representing the GUID value for the record. |
-| `attributes` | List |Returns a list of attributes that are related to the view and an entity that's loaded as part of the forecasting editable grid. You can perform the following operations:<br>- `context.getFormContext().data.entity.attributes.forEach` <br>- `context.getFormContext().data.entity.attributes.getByName(arg)`<br>- `context.getFormContext().data.entity.attributes.get(index)` |
+| `attributes` | List |Returns a list of attributes that are related to the view and an entity that's loaded as part of the underlying records grid. You can perform the following operations:<br>- `context.getFormContext().data.entity.attributes.forEach` <br>- `context.getFormContext().data.entity.attributes.getByName(arg)`<br>- `context.getFormContext().data.entity.attributes.get(index)` |
 
 <a name=context-getformcontext-data-entity-attributes-getbyname></a>
 #### context.getFormContext().data.entity.attributes.getByName("Attribute Name")
@@ -138,7 +135,7 @@ This returns a control object mapping to the attribute and has the following met
 <a name=make-grid-read-only></a>
 **Example 1:**
 
-Let's create JavaScript code to make an editable forecasting grid READ-ONLY. Also, we'll call the `OnRowLoad` function for each row when the grid is loaded and saved successfully.
+Let's create JavaScript code to make all the fields in the underlying records grid as READ-ONLY. Also, we'll call the `OnRowLoad` function for each row when the grid is loaded and saved successfully.
  
 ```JavaScript
 function OnRowLoad(executionContext) {
@@ -159,7 +156,7 @@ Let's create JavaScript code to disable all fields except a few for the Opportun
 ```JavaScript
 function OnRowLoad(executionContext) {
 
-    // Get the logical name of the loaded entity as part of forecasting editable grid.
+    // Get the logical name of the loaded entity as part of underlying records grid.
     var entityName = executionContext.getFormContext().data.entity.getEntityName();
 
     if (entityName === "opportunity") {
@@ -199,10 +196,10 @@ Also, we'll call the `OnRowLoad` function for each row when the grid is loaded a
 
 function OnRowLoad(executionContext) {
 		 
-    // Get the logical name of the loaded entity as part of forecasting editable grid.
+    // Get the logical name of the loaded entity as part of underlying records grid.
     var entityName = executionContext.getFormContext().data.entity.getEntityName();
     
-    // If loaded logical name of entity in editable grid is opportunity.
+    // If loaded logical name of entity in underlying records grid is opportunity.
     if (entityName === "opportunity") {
         
        var allAttrs = executionContext.getFormContext().data.entity.attributes;
@@ -254,16 +251,16 @@ function OnRowLoad(executionContext) {
 <a name=show-error-notification-based-on-revenue-value> </a>
 **Example 4:**
 
-Let's create a validation JavaScript file that will block save and show an error notification on the estimated revenue column when the value is less than 10. Also, we'll remove the error notification and allow save when the estimated revenue column value is corrected to be greater than or equal to 10. Here, the `OnChange` function is invoked when any field's value is updated on the editable grid.
+Let's create a validation JavaScript file that will block save and show an error notification on the estimated revenue column when the value is less than 10. Also, we'll remove the error notification and allow save when the estimated revenue column value is corrected to be greater than or equal to 10. Here, the `OnChange` function is invoked when any field's value is updated on the underlying records grid of a forecast.
 
 ```JavaScript
 
-// OnChange function is invoked when any field's value is updated on the editable grid
+// OnChange function is invoked when any field's value is updated on the underlying records grid of the forecast
 function OnChange(executionContext) {
 
     let entity = executionContext.getFormContext().data.entity;
 
-    // Verify the logical name of the entity and load as part of the editable grid.
+    // Verify the logical name of the entity and load as part of the underlying records grid.
     if (entity.getEntityName() === "opportunity") {
 
         // Verify estimated revenue value
@@ -314,7 +311,7 @@ function OnSave(executionContext){
 
     let entity = executionContext.getFormContext().data.entity;
 
-    // Verify the logical name of the entity and load as part of the editable grid.
+    // Verify the logical name of the entity and load as part of the underlying records grid.
     if (entity.getEntityName() === "opportunity") {
 
         // Verify estimated revenue value
@@ -333,7 +330,7 @@ function OnSave(executionContext){
 
 ### See also
 
-[Customize underlying records](../../../forecast-configure-advanced-settings.md#customize-underlying-records)
+[Customize underlying records grid](../../../forecast-configure-advanced-settings.md#customize-underlying-records-grid)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

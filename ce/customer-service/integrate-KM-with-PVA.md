@@ -5,7 +5,6 @@ ms.date: 11/17/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 ---
 
 # Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots

@@ -1,11 +1,10 @@
 ---
 title: "msdyn_ocapplepay Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocapplepay entity."
-ms.date: 10/21/2022
+ms.date: 05/26/2023
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 ---
 # msdyn_ocapplepay Entity Reference
 
@@ -150,9 +149,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |-----|-----|
-|192350000|Debit||
-|192350001|Credit||
-|192350002|3D Secure||
+|192350000|Debit|
+|192350001|Credit|
+|192350002|3D Secure|
 
 
 
@@ -394,10 +393,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |-----|-----|
-|192350000|American Express||
-|192350001|Visa||
-|192350002|Discover||
-|192350003|MasterCard||
+|192350000|American Express|
+|192350001|Visa|
+|192350002|Discover|
+|192350003|MasterCard|
 
 
 

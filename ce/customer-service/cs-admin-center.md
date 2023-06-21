@@ -1,11 +1,13 @@
 ---
-title: "Customer Service admin center | MicrosoftDocs"
-description: "Get started with Customer Service admin center"
-ms.date: 09/30/2022
-ms.topic: get-started
+title: Customer Service admin center
+description: Get started with Customer Service admin center.
+ms.date: 06/16/2023
+ms.topic: conceptual
+ms.collection: get-started
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Get started with Customer Service admin center
@@ -45,7 +47,7 @@ You'll need one or more of the following security roles to access this app to pe
 
 - **App Profile Manager administrator and Basic User**: To access the app and edit app profile-related entities.
 
-- **Omnichannel Administrator and Basic User**: To access the app and edit all the omnichannel-related entities, like chat and voice and queues, and workstreams.
+- **Omnichannel administrator and Basic User**: To access the app and edit all the omnichannel-related entities, like chat and voice and queues, and workstreams.
 
 Also, to create a shared mailbox, you need the Microsoft 365 tenant admin privileges.
 
@@ -56,6 +58,15 @@ More information: [Assign roles and enable users for Omnichannel for Customer Se
 ## Access the app
 
 The app is automatically installed in all the Customer Service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
+
+## Create your contact center
+
+On the **Home** page, use the **Create your contact center** wizard to set up a new contact center with one click. When you select **Create**, the wizard automatically sets up the live chat and voice channels, a default agent experience profile, and the recommended AI features and reports. After the setup is complete, the summary page displays the channels and features that you can try. You can also customize the settings by following the bubble tour, which requires the Omnichannel administrator and Omnichannel agent roles.
+
+:::image type="content" source="media/create-contact-center.png" alt-text="Use create contact center to set up a contact center in one click.":::
+
+> [!NOTE]
+> The create your contact center feature is available for new organizations only.
 
 ## Guided channel setup
 
@@ -120,4 +131,4 @@ See the [FAQ about Customer Service admin center](faq-customer-service-admin-cen
 [Help resources for Customer Service](help-hub.md)  
 [Sign up for a free Dynamics 365 Customer Service trial](try-customer-service.md)  
 [Overview of user management](overview-users.md)  
-
+[Manage your bots in Omnichannel for Customer Service](manage-your-bots.md)  

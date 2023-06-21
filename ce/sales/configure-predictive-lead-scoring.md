@@ -1,12 +1,11 @@
 ---
 title: Configure predictive lead scoring
 description: Configure predictive lead scoring to help sellers prioritize leads.
-ms.date: 11/30/2022
+ms.date: 05/30/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Configure predictive lead scoring
@@ -17,7 +16,7 @@ For example, say you have two leads, Lead A and Lead B, in your pipeline. The le
 
 The following image shows an example of a lead scoring widget:
 
-:::image type="content" source="media/predictive-lead-scoring-widget.png" alt-text="Screenshot of a predictive lead score widget.":::
+:::image type="content" source="media/predictive-lead-scoring-widget-plain.png" alt-text="Screenshot of a predictive lead score widget.":::
 
 Historical data collection begins when you create a scoring model. Historical data is stored in the data lake for analysis. If your Dynamics 365 Sales subscription expires or your org is deleted, the historical data is deleted after 30 days.
 
@@ -32,9 +31,14 @@ If you have a Dynamics 365 Sales Enterprise license, you can enable predictive l
 
 ## Prerequisites
 
-- [Advanced Sales Insights features must be enabled](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
+- [Advanced Sales Insights features must be enabled](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
 
-- You need to have enough leads to train the model based on past data. Your organization must have created at least 40 qualified and 40 disqualified leads in the past three months to two years. The more leads you can include to train the model, the better the prediction results will be. You can configure the time frame in the **Train with leads from the past** field of the scoring model.
+- You need to have enough leads to train the model based on past data. Your organization must have created and closed at least 40 qualified and 40 disqualified leads during the time frame selected in the **Train with leads from the past** field of the scoring model. The time frame ranges from three months to two years.  The more leads you can include to train the model, the better the prediction results will be.
+
+  > [!NOTE]
+  > If you're planning to use a business process flow for your model, then leads that have abandoned the selected business process flow will not be considered for training, scoring, and for establishing the minimum requirement for model creation.
+
+The system takes about four hours to sync the data with the data lake. If you've closed leads recently, the model won't consider them right away.
 
 ## Create your first scoring model
 
@@ -97,7 +101,7 @@ You can create up to 10 models, both published and unpublished, for different se
 
      By default, the name is **LeadScoring_**<***YYYYMMDD***><***Time***> (for example, **LeadScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
 
-1. In the **Business process flow** list, select a flow that's relevant for the leads that you're generating the model for.
+1. In the **Business process flow** list, select a flow that's relevant for the leads that you're generating the model for. Leads that have abandoned the selected business process flow will not be considered for training, scoring, and for establishing the minimum requirement for model creation.
 
     The list displays all the business process flows that are defined for leads in your organization.
 
@@ -135,9 +139,10 @@ If you create multiple scoring models, use the **Select model** list on the **Pr
 
 ### See also
 
-[Edit and retrain a lead scoring model](pls-edit-and-retrain-model.md)
+[System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
+[Edit and retrain a lead scoring model](pls-edit-and-retrain-model.md)  
 [Prioritize leads through scores](../sales/work-predictive-lead-scoring.md)  
-[Predictive lead/opportunity scoring FAQs](faqs-sales-insights.md#predictive-leadopportunity-scoring)  
-[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+[Predictive lead and opportunity scoring](faqs-sales-insights.md#predictive-lead-and-opportunity-scoring)  
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

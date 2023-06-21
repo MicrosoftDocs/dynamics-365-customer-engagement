@@ -1,17 +1,14 @@
 ---
-title: Create functional locations in Field Service (contains video)
+title: Create functional locations (contains video)
 description: Learn how to create and use functional locations for assets in Dynamics 365 Field Service.
 ms.date: 01/24/2023
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
 ms.custom: bap-template
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Create functional locations in Field Service
+# Create functional locations
 
 Field service organizations often work with customers that have large or complex worksites like a warehouse or a multi-story office building. Technicians can't waste time looking for a worksite. They need to know exactly where to go to perform their work. That's the purpose of the functional location on a work order.
 
@@ -22,14 +19,12 @@ In Field Service, functional locations allow you to specify granular, hierarchic
     - Floor 3
       - Printer Acct-10
 
-In this article, we'll look at how to define functional locations and relationships in Field Service.
-
 ## Prerequisites
 
 - Field Service v8.8.x or later
 - [Service accounts are created](accounts.md)
 
-## Create functional locations
+## Create a functional location
 
 1. In Field Service, select the **Service** area. Under **Customers**, select **Accounts**, and then open a service account record.
 
@@ -74,13 +69,16 @@ In the **Assets and Locations** tab, select **Show assets** to view the list of 
 
         :::image type="content" source="media/assets-functional-location-new-asset.png" alt-text="Screenshot of the Quick Create: Customer Asset pane on an account record.":::
 
-### Search for a functional location
+### Search for a functional location or asset
 
 Use the search box to look for a functional location. To search for assets and locations, select **Show assets**. Matching search results are highlighted.
 
 For larger or more complex hierarchies, expand or collapse the results by using the **Expand all** (**&plus;**) and **Collapse all** (**&minus;**) icons.
 
 :::image type="content" source="media/assets-functional-location-search.png" alt-text="Screenshot of the results of a functional location search, with the Expand all and Collapse all icons highlighted.":::
+
+> [!TIP]
+> For asset hierarchies, the info icon next to an asset informs you about the location of the related asset.
 
 Watch the following video to learn more about searching functional locations and assets.
 

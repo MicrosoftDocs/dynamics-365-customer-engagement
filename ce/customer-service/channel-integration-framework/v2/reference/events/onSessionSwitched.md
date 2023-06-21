@@ -3,9 +3,8 @@ title: "onSessionSwitched event (JavaScript API Reference) for Dynamics 365 Chan
 description: "Learn about onSessionSwitched event and its syntax for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 03/20/2020
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

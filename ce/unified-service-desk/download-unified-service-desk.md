@@ -3,15 +3,11 @@ title: "Download Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to download Unified Service Desk, client applications, and other tools to manage your Unified Service Desk implementation."
 ms.date: 06/21/2021
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 monikerRange: '>= dynamics-usd-4'
 ms.custom: 
   - dyn365-USD
@@ -59,13 +55,6 @@ This topic provides information about the location from where you can download v
 
 ::: moniker-end
 
-::: moniker range="dynamics-usd-3"
-
-|  Version  |  Download Location |
-|------------------|---------------|
-| [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] | [Download](https://go.microsoft.com/fwlink/p/?linkid=872261) |
-
-::: moniker-end
 
 ## Download administration tools
 

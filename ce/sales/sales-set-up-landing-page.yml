@@ -1,0 +1,61 @@
+### YamlMime:Landing
+
+title: Set up Dynamics 365 Sales
+summary: Find resources to set up Dynamics 365 Sales for first use.
+metadata:
+  title: Set up Dynamics 365 Sales
+  description: Resources to set up Dynamics 365 Sales for first use.
+  services: service
+  ms.topic: landing-page
+  ms.collection: collection
+  author: lavanyakr01
+  ms.author: lavanyakr
+  ms.date: 04/08/2023
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+
+
+# Card 
+  - title: Set up sales basics 
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+
+          - text: Create business units 
+            url: /power-platform/admin/create-edit-business-units
+          - text: Add sales teams 
+            url: manage-teams.md
+          - text: Set up sales territories 
+            url: /power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area
+          - text: Define fiscal year settings 
+            url: /power-platform/admin/work-fiscal-year-settings?context=/dynamics365/context/sales-context
+          - text: Define currency settings
+            url: /power-platform/admin/manage-transactions-with-multiple-currencies
+          - text: Define product catalog
+            url: set-up-product-catalog-walkthrough.md
+
+# Card 
+  - title: Add Sample data 
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+
+          - text: Add or remove sample data in Sales Hub 
+            url: /power-platform/admin/add-remove-sample-data?context=/dynamics365/context/sales-context
+          - text: Add or remove sample data in Sales accelerator
+            url: manage-sample-data.md
+          - text: Add or remove sample data in Sales Professional
+            url: install-sample-data.md
+
+# Card 
+  - title: Customize your app
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+
+          - text: Set up branding and theming 
+            url: change-color-scheme-logo.md
+          - text: Customize the app
+            url: manage-app.md

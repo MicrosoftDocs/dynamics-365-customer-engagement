@@ -1,5 +1,55 @@
 {
   "redirections": [
+   {
+      "source_path": "ce/customerengagement/on-premises/developer/asynchronous-service-architecture.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/asyncoperation-system-job-entity.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/asynchronous-operation-states.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/dependency-execution-order-asynchronous-operations.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/recurrence-pattern-asynchronous-job-execution.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/supported-entities-asynchronous-operations.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },   
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/connect-to-imap-servers.md",
+      "redirect_url": "connect-gmail-oauth2",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/view-export-kpi-data-gdpr.md",
+      "redirect_url": "/dynamics365/sales/view-export-KPI-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/gdpr.md",
+      "redirect_url": "/dynamics365/marketing/privacy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/gdpr-use-features.md",
+      "redirect_url": "/dynamics365/marketing/privacy-use-features",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/marketing/design-digital-content.md",
       "redirect_url": "real-time-marketing-email",
@@ -371,18 +421,23 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/landing-page.yml",
+      "redirect_url": "index",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/help-hub.md",
-      "redirect_url": "landing-page",
+      "redirect_url": "index",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/customer-service/cs-email-template-builder.md",
-      "redirect_url": "/powerapps-docs/user/cs-email-template-builder.md",
+      "redirect_url": "/power-apps/user/cs-email-template-builder",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/customize-insert-email-template.md",
-      "redirect_url": "/powerapps-docs/user/customize-insert-email-template.md",
+      "redirect_url": "/power-apps/user/customize-insert-email-template",
       "redirect_document_id": "false"
     },
     {
@@ -2018,6 +2073,32 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/developer/reference/custom-actions/msdyn_WKWGDPRDeleteStatus.md",
+      "redirect_url": "msdyn_WKWPrivacyDeleteStatus",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/reference/custom-actions/msdyn_WKWDeleteGDPRData.md",
+      "redirect_url": "msdyn_WKWDeletePrivacyData",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/dynamics-365-sales-gdpr.md",
+      "redirect_url": "dynamics-365-sales-privacy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/embedded-intelligence-gdpr.md",
+      "redirect_url": "embedded-intelligence-privacy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/sales-gdpr-faqs.md",
+      "redirect_url": "sales-privacy-faqs",
+      "redirect_document_id": "false"
+    },
+    
+    {
       "source_path": "ce/sales/faqs-sales.md",
       "redirect_url": "faq-sales",
       "redirect_document_id": "false"
@@ -2745,6 +2826,11 @@
     {
       "source_path": "ce/sales/access-deal-manager.md",
       "redirect_url": "/dynamics365/sales/use-opportunity-pipeline-view",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/help-hub.yml",
+      "redirect_url": "/dynamics365/sales/index",
       "redirect_document_id": "false"
     },
     {
@@ -3693,11 +3779,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/index.md",
-      "redirect_url": "/powerapps/developer/common-data-service/best-practices/",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/mobile-app/configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md",
       "redirect_url": "setup-mobile-offline-for-admin",
       "redirect_document_id": "false"
@@ -4017,6 +4098,7 @@
       "redirect_url": "/dynamics365/customer-engagement/sales-enterprise/help-hub",
       "redirect_document_id": "false"
     },
+
     {
       "source_path": "ce/social-engagement/ebooks-and-videos.md",
       "redirect_url": "/dynamics365/customer-engagement/social-engagement/help-hub",
@@ -14479,12 +14561,12 @@
     },
     {
       "source_path": "ce/developer/sample-audit-entity-data-changes.md",
-      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AuditEntityData",
+      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/AuditEntityData",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/developer/sample-audit-user-access.md",
-      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AuditUserAccess",
+      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/AuditUserAccess",
       "redirect_document_id": "false"
     },
     {
@@ -14519,12 +14601,12 @@
     },
     {
       "source_path": "ce/developer/sample-bulk-delete-exported-records.md",
-      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/BulkDeleteExported",
+      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/BulkDeleteExported",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/developer/sample-bulk-delete-records-match-common-criteria.md",
-      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/BulkDeleteMatchCriteria",
+      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/BulkDeleteMatchCriteria",
       "redirect_document_id": "false"
     },
     {
@@ -14749,7 +14831,7 @@
     },
     {
       "source_path": "ce/developer/sample-export-import-data-map.md",
-      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ExportImportDataMap",
+      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ExportImportDataMap",
       "redirect_document_id": "false"
     },
     {
@@ -14759,7 +14841,7 @@
     },
     {
       "source_path": "ce/developer/sample-import-data-complex-data-map.md",
-      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ImportComplexDataMap",
+      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ImportComplexDataMap",
       "redirect_document_id": "false"
     },
     {
@@ -14939,7 +15021,7 @@
     },
     {
       "source_path": "ce/developer/sample-retrieve-valid-status-transitions.md",
-      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveValidTransitions",
+      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/RetrieveValidTransitions",
       "redirect_document_id": "false"
     },
     {
@@ -14954,7 +15036,7 @@
     },
     {
       "source_path": "ce/developer/sample-rollup-records-related-specific-record.md",
-      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RollupSpecificRecords",
+      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/RollupSpecificRecords",
       "redirect_document_id": "false"
     },
     {
@@ -14994,7 +15076,7 @@
     },
     {
       "source_path": "ce/developer/sample-set-retrieve-entity-images.md",
-      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/SetRetrieveImages",
+      "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/SetRetrieveImages",
       "redirect_document_id": "false"
     },
     {
@@ -23107,6 +23189,47 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/integrate-sample-softphone.md",
+      "redirect_url": "/dynamics365/sales/sample-softphone-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/manage-custom-cards-flow.md",
+      "redirect_url": "/dynamics365/sales/create-insight-cards-flow",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/collaborate-using-sharepoint-sales.md",
+      "redirect_url": "/power-apps/user/collaborate-using-sharepoint",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/overview-premium-capabilities.md",
+      "redirect_url": "/dynamics365/sales/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/find-your-way-around-sales-hub-app.md",
+      "redirect_url": "/dynamics365/sales/intro-saleshub",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/no-longer-working-lead-sales.md",
+      "redirect_url": "/dynamics365/sales/qualify-lead-convert-opportunity-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/use-sales-hub-on-mobile-app.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/dynamics-365-sales-mobile-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/connect-share-feedback.md",
+      "redirect_url": "/dynamics365/sales/overview",
+      "redirect_document_id": "false"
+    },
+
+    {
       "source_path": "ce/sales-enterprise/help-hub.md",
       "redirect_url": "/dynamics365/sales/help-hub",
       "redirect_document_id": "false"
@@ -23717,6 +23840,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/developer/reference/custom-actions/events-context-deal-manager.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/clientapi/events-forms-grids",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-enterprise/developer/developer-guide.md",
       "redirect_url": "/dynamics365/sales/developer/developer-guide",
       "redirect_document_id": "false"
@@ -24067,6 +24195,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/understand-email-history.md",
+      "redirect_url": "/dynamics365/sales/email-engagement",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-professional/assign-records-sales-professional.md",
       "redirect_url": "/powerapps/user/assign-or-share-records",
       "redirect_document_id": "false"
@@ -24277,11 +24410,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/sales/index.yml",
-      "redirect_url": "/dynamics365/sales/overview",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/sales/developer/exportpdf-api.md",
       "redirect_url": "../create-quote-pdf",
       "redirect_document_id": "false"
@@ -24481,6 +24609,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/march-2023-whatsnew.md",
+      "redirect_url": "whats-new",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/oc-search-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
       "redirect_document_id": "false"
@@ -24641,6 +24774,26 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/universal-resource-scheduling.md",
+      "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/scheduling-roles-personas.md",
+      "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/scheduling-capabilities.md",
+      "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/5-stages-scheduling-adoption.md",
+      "redirect_url": "/dynamics365/field-service/universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/cfs-iot-central-alerts.md",
       "redirect_url": "/dynamics365/field-service/connected-field-service",
       "redirect_document_id": "false"
@@ -24678,6 +24831,391 @@
     {
       "source_path": "ce/field-service/upgrade-field-service.md",
       "redirect_url": "/dynamics365/field-service/update-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/lead-entity.md",
+      "redirect_url": "/dynamics365/sales/developer/lead-entity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/list-marketing-list-entity.md",
+      "redirect_url": "/dynamics365/sales/developer/list-marketing-list-entity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/localize-product-property-values.md",
+      "redirect_url": "/dynamics365/sales/developer/localize-product-property-values",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/product-discounting-methods.md",
+      "redirect_url": "/dynamics365/sales/developer/product-discounting-methods",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/product-pricing-methods.md",
+      "redirect_url": "/dynamics365/sales/developer/product-pricing-methods",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-clone-product-records.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-clone-product-records",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-fulfill-sales-order.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-fulfill-sales-order",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-qualify-lead.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-qualify-lead",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-retrieve-opportunity-early-bound.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-retrieve-opportunity-early-bound",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/use-custom-pricing-products.md",
+      "redirect_url": "/dynamics365/sales/developer/use-custom-pricing-products",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/developer/reference/playbooks-entities/msdyn_callablecontext.md",
+      "redirect_url": "/dynamics365/sales/developer/entities/msdyn_callablecontext",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/developer/reference/playbooks-entities/msdyn_playbookactivity.md",
+      "redirect_url": "/dynamics365/sales/developer/entities/msdyn_playbookactivity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/developer/reference/playbooks-entities/msdyn_playbookactivityattribute.md",
+      "redirect_url": "/dynamics365/sales/developer/entities/msdyn_playbookactivityattribute",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/developer/reference/playbooks-entities/msdyn_playbookcategory.md",
+      "redirect_url": "/dynamics365/sales/developer/entities/msdyn_playbookcategory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/developer/reference/playbooks-entities/msdyn_playbookinstance.md",
+      "redirect_url": "/dynamics365/sales/developer/entities/msdyn_playbookinstance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/developer/reference/playbooks-entities/msdyn_playbooktemplate.md",
+      "redirect_url": "/dynamics365/sales/developer/entities/msdyn_playbooktemplate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/add-complex-goal-criteria.md",
+      "redirect_url": "/dynamics365/sales/developer/add-complex-goal-criteria",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/campaign-entities.md",
+      "redirect_url": "/dynamics365/sales/developer/campaign-entities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/competitor-entity.md",
+      "redirect_url": "/dynamics365/sales/developer/competitor-entity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/convert-opportunity-quote-sales-order-invoice.md",
+      "redirect_url": "/dynamics365/sales/developer/convert-opportunity-quote-sales-order-invoice",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/create-goal-hierarchy-goals-targets.md",
+      "redirect_url": "/dynamics365/sales/developer/create-goal-hierarchy-goals-targets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/create-manage-product-families-products-bundles-product-properties.md",
+      "redirect_url": "/dynamics365/sales/developer/create-manage-product-families-products-bundles-product-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/create-opportunity.md",
+      "redirect_url": "/dynamics365/sales/developer/create-opportunity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/define-goal-metric-rollup-fields.md",
+      "redirect_url": "/dynamics365/sales/developer/define-goal-metric-rollup-fields",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/opportunity-entities.md",
+      "redirect_url": "/dynamics365/sales/developer/opportunity-entities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/publish-revise-revert-retire-activate-products.md",
+      "redirect_url": "/dynamics365/sales/developer/publish-revise-revert-retire-activate-products",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/quote-order-invoice-entities.md",
+      "redirect_url": "/dynamics365/sales/developer/quote-order-invoice-entities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/roll-up-goal-totals.md",
+      "redirect_url": "/dynamics365/sales/developer/roll-up-goal-totals",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-add-products-bundle.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-add-products-bundle",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-calculate-price-plugin.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-calculate-price-plugin",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-convert-opportunity-quote-early-bound.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-convert-opportunity-quote-early-bound",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-create-opportunity-early-bound.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-create-opportunity-early-bound",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-create-publish-products.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-create-publish-products",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-distribute-a-quick-campaign.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-distribute-a-quick-campaign",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-distribute-campaign-activities-dynamic-static-lists.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-distribute-campaign-activities-dynamic-static-lists",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-distribute-campaign-activities-qualified-marketing-list.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-distribute-campaign-activities-qualified-marketing-list",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-override-goal-total-count-close-goal.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-override-goal-total-count-close-goal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-process-quotes-sales-orders-invoices.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-process-quotes-sales-orders-invoices",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-rollup-goal-data-custom-period-target-revenue.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-rollup-goal-data-custom-period-target-revenue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-rollup-goal-data-fiscal-period-stretch-target-count.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-rollup-goal-data-fiscal-period-stretch-target-count",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-set-negative-prices-opportunities-quotes-sales-orders.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-set-negative-prices-opportunities-quotes-sales-orders",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-use-rollup-queries-track-goals.md",
+      "redirect_url": "/dynamics365/sales/developer/sample-use-rollup-queries-track-goals",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/set-default-price-level-for-opportunity-quote-order-invoice.md",
+      "redirect_url": "/dynamics365/sales/developer/set-default-price-level-for-opportunity-quote-order-invoice",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/perform-initial-configurations-setup.md",
+      "redirect_url": "/dynamics365/field-service/field-service-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/quickstart-schedule-work-order.md",
+      "redirect_url": "/dynamics365/field-service/field-service-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-domain.md",
+      "redirect_url": "/dynamics365/marketing/domain-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/add-facilities-equipment-service-scheduling.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/create-edit-resource-group.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/create-edit-service.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-videos.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/new-upcoming.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/restrict-resource-from-performing-service.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/schedule-time-off.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/set-capacity-required-service-resource.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/set-when-business-closed.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/use-sites-manage-service-locations.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/whats-new-field-service-project-service.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-preview.md",
+      "redirect_url": "/dynamics365/get-started/release-schedule",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/content-ideas-terms.md",
+      "redirect_url": "/dynamics365/marketing/content-ideas",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/forwarding-and-replies.md",
+      "redirect_url": "/dynamics365/marketing/email-troubleshooting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/svg-test.md",
+      "redirect_url": "/dynamics365/marketing/help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/configure-twitter-channel.md",
+      "redirect_url": "/dynamics365/customer-service/channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-warm-up.md",
+      "redirect_url": "/dynamics365/marketing/warmup-process-email-marketing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/dedicated-vs-shared-ip.md",
+      "redirect_url": "/dynamics365/marketing/warmup-process-email-marketing",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "ce/field-service/scheduling-self-customers.md",
+      "redirect_url": "/dynamics365/field-service/customer-portal-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-portal-homepage.md",
+      "redirect_url": "/dynamics365/field-service/customer-portal-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/reminders-arrival-time.md",
+      "redirect_url": "/dynamics365/field-service/customer-portal-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-move-triggers.md",
+      "redirect_url": "/dynamics365/marketing/move-triggers-between-environments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-form-editor.md",
+      "redirect_url": "/dynamics365/marketing/real-time-marketing-form-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/connected-field-service-overview.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/updateContext.md",
+      "redirect_url": "/dynamics365/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/updateContext",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/email-send-now.md",
+      "redirect_url": "/dynamics365/marketing/email-quick-send",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/work-order-customer-account.md",
+      "redirect_url": "/dynamics365/field-service/accounts",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/developer/connected-field-service-architecture.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service-architecture",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/developer/connected-field-service-developer-guide.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/developer/extend-connected-field-service-solutions.md",
+      "redirect_url": "/dynamics365/field-service/extend-connected-field-service-solutions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/developer/iot-parent-iot-alerts-workflow.md",
+      "redirect_url": "/dynamics365/field-service/iot-parent-iot-alerts-workflow",
       "redirect_document_id": "false"
     }
   ]

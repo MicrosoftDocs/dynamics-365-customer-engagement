@@ -3,11 +3,9 @@ title: "View minutes used in voice calls | MicrosoftDocs"
 description: "View the report to see the minutes used in voice calls in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 04/04/2022
 ms.topic: article
-ms.custom: intro-internal
-
+ms.collection: get-started
 ---
 
 

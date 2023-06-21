@@ -1,15 +1,14 @@
 ---
-title: "Improve seller coaching and sales potential"
-description: "Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence."
+title: Coach sellers with conversation intelligence
+description: Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence.
 ms.date: 10/31/2022
 ms.topic: overview
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
-# Improve seller coaching and sales potential with conversation intelligence
+# Coach sellers with conversation intelligence
 
 Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your sales team and proactively coach sellers. To achieve this, conversation intelligence displays relevant key performance indicators (KPIs) and intelligent call data KPIs by team, seller, and call.
 
@@ -95,8 +94,6 @@ Conversation intelligence for your Teams calls is available from the following a
 - [Sales Hub app](view-and-understand-call-summary-sales-app.md)
 - [Standalone conversation intelligence app](dynamics365-sales-insights-app-home-page.md)
 
-
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

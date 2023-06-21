@@ -7,12 +7,8 @@ ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # msdyn_ocgooglebusinessmessagespartneraccount table/entity reference
 
@@ -756,6 +752,5 @@ Same as msdyn_ocbotchannelregistration table [msdyn_msdyn_ocgbmpartneraccount_ms
 
 ### See also
 
-[About the Entity Reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_ocgooglebusinessmessagespartneraccount?text=msdyn_ocgooglebusinessmessagespartneraccount EntityType" />
+[About the Entity Reference](overview-entity-ref.md)  
+[Web API Reference](/dynamics365/customer-engagement/web-api/about)  

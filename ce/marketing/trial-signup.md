@@ -7,14 +7,10 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Sign up for a free Dynamics 365 Marketing trial

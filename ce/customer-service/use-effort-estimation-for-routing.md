@@ -5,7 +5,6 @@ ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Use effort estimation model in unified routing (preview)
@@ -20,9 +19,6 @@ manager: shujoshi
 > [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
-
-## Introduction
 
 You can use the effort estimation model to classify and route work items.
 
@@ -42,15 +38,13 @@ Some examples of how effort can be defined are as follows:
 
 You can create the effort estimation models for any record that is enabled for unified routing. You can provide the context to the model for training by selecting the attributes. At least two attributes are mandatory, and you can specify up to 10 attributes. Attributes that indicate severity and priority are useful.
 
-**To create an effort estimation model**
-
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     - In the site map, select **Routing**. The **Routing** page appears.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
     - In the site map, select **User attributes** in **Advanced settings**.
 
@@ -98,8 +92,6 @@ The performance grade of the model is indicated by A, B, C, D, E, or F. The lett
 ## Create classification rules based on effort estimation model
 
 After you train the effort estimation models, you can create classification rules based on the models and use the rules with other rules to help categorize the work items to be routed to the right agents who will help with the issues.
-
-**To create a rule based on effort estimation**
 
 1. Create or edit a workstream. More information: [Create workstreams](create-workstreams.md)
 

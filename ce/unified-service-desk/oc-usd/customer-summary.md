@@ -5,7 +5,6 @@ ms.date: 01/13/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View a customer summary to get available information about a customer

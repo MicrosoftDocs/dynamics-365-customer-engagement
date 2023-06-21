@@ -4,18 +4,14 @@ description: "Get a quick overview of the major capabilities, features, and bene
 ms.date: 08/17/2022
 ms.custom: 
   - dyn365-marketing
-  - intro-internal
+ms.collection: get-started
 ms.topic: overview
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Dynamics 365 Marketing overview

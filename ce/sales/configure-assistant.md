@@ -8,7 +8,6 @@ ms.topic: article
 ms.assetid: 7170bd24-0252-4158-9e31-42004847ecbb
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -100,7 +99,7 @@ The premium assistant that's part of the Sales Insights add-on offers advanced c
 > [!NOTE]
 > You can create custom cards not only from the assistant studio but also directly by using the solution. More information: [Create custom cards in the assistant](extend-relationship-assistant-card.md)
 
-1. Verify that you have [installed and configured premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
+1. Verify that you have [enabled and configured premium Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features)
 
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 

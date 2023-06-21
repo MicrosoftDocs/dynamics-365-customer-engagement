@@ -15,7 +15,6 @@ ms.assetid: fdeb81bd-ee6a-4a8c-9e33-311297c585ed
 caps.latest.revision: 17
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Microsoft Dynamics 365 Server hardware requirements
 

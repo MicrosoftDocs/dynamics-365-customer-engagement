@@ -1,13 +1,15 @@
 ---
-title: "How are prices calculated for product bundles? (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Understand how pricing of product bundles is determined in Dynamics 365 Sales."
-ms.date: 11/15/2022
+title: How are prices calculated for product bundles?
+description: Calculate prices for bundled products with optional items in the Sales app.
+ms.date: 02/28/2023
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
+ms.custom: 
+  - ai-gen-docs
+  - ai-gen-desc
 ---
-# How are prices calculated for product bundles? 
+# How are prices calculated for product bundles?
 
 Typically, the pricing of products in bundles is different than for individual products. You can set a total, potentially discounted, price for the bundle. Or&mdash;if the bundle includes optional products&mdash;you can add those products to the price list as price list items.
 
@@ -44,6 +46,5 @@ Because the pricing-related fields for a product that's required for the bundle 
 ### See also
 
 [Set up product bundles to sell multiple items together](create-product-bundles-sell-multiple-items-together.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

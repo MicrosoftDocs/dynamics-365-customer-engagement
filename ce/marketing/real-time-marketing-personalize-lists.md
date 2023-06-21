@@ -1,20 +1,16 @@
 ---
 title: "Personalize lists (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize lists in Dynamics 365 Marketing."
-ms.date: 12/06/2022
+ms.date: 04/10/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Personalize lists of content in emails
@@ -88,26 +84,14 @@ For lists, you can add or delete additional attributes (these changes will be sa
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing added attributes.](media/real-time-marketing-personalization-codegenerator4.png)
 
-## Preview: Filter list output in emails
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
-
-### Enable the preview for list filtering
-
-This article refers to a feature that is in preview and may not be enabled in your environment. If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to **Personalization** area, enabling the **Filter on list** feature switch, and saving the setting by clicking on **“Save”** on the top right corner.
-
-> [!div class="mx-imgBorder"]
-> ![filter on list](media/real-time-marketing-filter-on-list.png "filter on list")
+## Define a list filter
 
 > [!NOTE]
-> This feature is available only in Real-time marketing.  
-
-### Define a list filter
+> This feature is available only in Real-time marketing.
 
 Sometimes when creating a list in an email, you'd like to only include items that meet certain conditions. For example, a confirmation email about an order may be most effective if it separately lists items that are back ordered or need special handling. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track, filtering the list of sessions based on certain criteria.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW10RFA]
 
 To filter a list, select a list you've already created in an email. In this example, the email contains a list of winery tours:
 
@@ -122,3 +106,5 @@ To add a filter condition, select **+Add list filter** in the list editing pane.
 > ![add a filter](media/real-time-marketing-add-a-filter.png "add a filter")
 
 With this condition defined, only the items that meet the condition will be included. Note that the generated code for the list doesn’t change as the filter condition is stored within the list definition and isn't needed as inline code.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

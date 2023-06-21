@@ -6,9 +6,7 @@ ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.custom: 
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Configure outbound and inbound profiles

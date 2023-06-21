@@ -9,14 +9,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Email sending data access and privileges
@@ -41,3 +37,5 @@ If there is a data access issue, one of the following errors may occur:
 - During email sending, if the data cannot be acquired one of two potential interactions will be shown: either a `MissingDataAccessRights` interaction, or an `Other` interaction specifying `MissingPrivilegesError`.
 
 To resolve the above-listed errors, ensure that the Marketing user has the necessary access rights to all the entities inside the email by following the steps described above.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

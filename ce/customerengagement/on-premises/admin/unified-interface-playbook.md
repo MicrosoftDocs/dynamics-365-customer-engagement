@@ -12,12 +12,8 @@ author: "Mattp123"
 ms.assetid: 
 caps.latest.revision: 25
 ms.author: "matp"
-manager: "kvivek"
 search.audienceType: 
   - maker
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # Unified Interface Playbook
 

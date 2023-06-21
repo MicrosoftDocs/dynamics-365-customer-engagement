@@ -1,12 +1,11 @@
 ---
 title: "Bring your own carrier | MicrosoftDocs"
 description: "Use this article to understand how you can bring your own carrier to Dynamics 365 via Azure Direct Routing."
-ms.date: 12/13/2022
+ms.date: 06/09/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Bring your own carrier
@@ -25,6 +24,7 @@ Azure Communication Services direct routing enables you to connect your existing
   - Check your [direct routing infrastructure requirements](/azure/communication-services/concepts/telephony/direct-routing-infrastructure).
   - [Get a certified Session Border Controller (SBC)](/azure/communication-services/concepts/telephony/certified-session-border-controllers).
   - [Connect the SBC to Azure Communication Services](/azure/communication-services/concepts/telephony/direct-routing-provisioning).
+  - Ensure that the SBC responds with a Session Initiation Protocol (SIP) status code in the 100s to the invite request from direct routing. SIP status codes beginning with 4, 5, or 6 indicate failures.
   - Ensure that the phone number of your Dynamics 365 organization is encoded in E.164 format so that the calls can be forwarded by your SBC.
   - Deploy the SBC and DNS server in the same region. Azure Communication Services hosts group calls in the region where the DNS server is deployed. If the SBC and DNS server are in different regions, users can experience a delay. Ensure that your DNS server is not delegated to a sub domain.
 
@@ -58,6 +58,15 @@ Azure Communication Services direct routing enables you to connect your existing
 4. Select **Add number**.
 
 The new phone number will be displayed in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-inbound-calling.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
+
+## SBC best practices
+
+-	For Microsoft Teams and Azure Communication Services direct routing, you might use the same port number, but you must use a different fully qualified domain name (FQDN).
+- To avoid call timeout, ensure that the following settings for Secure Real-time Transport Protocol (SRTP) are configured:
+  - Reset SRTP Upon Re-key = Disable
+  - Generate SRTP Keys = Only if Required
+- Ensure that you have sufficient transcoding licenses if your service provider and Azure Communication Services don't support the same codec.
+
   
 ### See also
 

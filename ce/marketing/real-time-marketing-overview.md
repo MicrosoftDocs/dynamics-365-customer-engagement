@@ -1,20 +1,16 @@
 ---
 title: "Real-time marketing overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn general information about the new real-time marketing features in Dynamics 365 Marketing."
-ms.date: 09/29/2022
+ms.date: 02/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: overview
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Real-time marketing overview
@@ -53,3 +49,14 @@ The **when** can be as straightforward as a planned time when you want to send t
 
 > [!NOTE]
 > Real-time customer journey orchestration features are available in all geographies where Dynamics 365 Marketing is available. You can find a list of geographies on [Product Availability by Geography](https://dynamics.microsoft.com/availability-reports/).
+
+## Transition from outbound to real-time marketing
+
+Learn about making the move from outbound to real-time marketing in the free [Transition from outbound to real-time marketing playbook](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/transition-from-outbound-to-real-time-marketing-playbook). The playbook covers key information, including:
+
+- Setting up and configuring Dynamics 365 real-time marketing
+- Migrating your marketing artifacts
+- Identifying potential challenges
+- Retiring the use of outbound marketing
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

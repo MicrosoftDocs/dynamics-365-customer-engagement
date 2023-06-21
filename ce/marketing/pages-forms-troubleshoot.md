@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Troubleshoot pages and forms
@@ -71,3 +67,5 @@ Additional notes:
 - If the Content Security Policy is defined as a `content-security-policy` header:
     - For externally hosted websites, update your webserver configuration.
     - For forms hosted on a Portal, the response headers are defined in the Site Settings entity. You'll need to change the **HTTP/Content-Security-Policy** site settings. Learn more: [Manage portal site settings](/power-apps/maker/portals/configure/configure-site-settings#manage-portal-site-settings) and [Setup HTTP headers in portals](/power-apps/maker/portals/configure/cors-support).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

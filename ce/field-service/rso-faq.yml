@@ -4,7 +4,7 @@ metadata:
   description: Find answers to common issues with Resource Scheduling Optimization in Dynamics 365 Field Service
   author: FeifeiQiu
   ms.author: feiqiu
-  ms.date: 09/08/2022
+  ms.date: 05/26/2023
   ms.topic: faq
   ms.subservice: resource-scheduling-optimization
   search.app: 
@@ -19,12 +19,12 @@ sections:
       - question: |
           Why doesn’t Resource Scheduling Optimization on Org B work anymore after I copied Dynamics 365 Org A to Org B (with Resource Scheduling Optimization deployed)? 
         answer: |
-          Resource scheduling optimization Endpoint, which is used for connecting Dynamics 365 org and Resource Scheduling Optimization Azure resources on Org B, will be broken after copying an org or rest org. We recommend deleting the current Resource Scheduling Optimization deployment, which won't delete anything else in the Dynamics 365 org. Then, copy and reset the org and then redeploy Resource Scheduling Optimization to target the Dynamics 365 org as needed.
+          Resource scheduling optimization Endpoint, which is used for connecting Dynamics 365 org and Resource Scheduling Optimization Azure resources on Org B, will be broken after copying an org or rest org. We recommend deleting the current Resource Scheduling Optimization deployment, which doesn't delete anything else in the Dynamics 365 org. Then, copy and reset the org and then redeploy Resource Scheduling Optimization to target the Dynamics 365 org as needed.
 
       - question: |
-          My Resource Scheduling Optimization deployment takes a long time and won’t finish. What should I do?
+          My Resource Scheduling Optimization deployment takes a long time and doesn't finish. What should I do?
         answer: |
-          If your Resource Scheduling Optimization deployment won’t complete, you'll need to contact the Microsoft Support team.
+          If your Resource Scheduling Optimization deployment doesn't complete, you need to contact the Microsoft Support team.
 
       - question: |
           My Resource Scheduling Optimization deployment or upgrade failed. What should I do?
@@ -51,7 +51,7 @@ sections:
       - question: |
           How do I cancel a long-running schedule or blocked schedule?
         answer: |
-          If your schedule has been running for a long time and seems stuck, select **Reset Resource Scheduling Optimization**. This option clears the blocked job and resets the schedules into a good state.
+          If your schedule has been running for a long time and seems stuck, select **Reset Resource Scheduling Optimization**. This option clears the blocked job and resets the schedules into a good state. When resetting a single optimization schedule doesn't work or gets blocked too, reset all schedules and republish them. 
 
       - question: |
           I’m seeing the message “SAS Key hasn't been configured” when I publish a schedule. Is this ok?
@@ -226,7 +226,7 @@ sections:
           - If Booking Status is set to **Don't Move**, Resource Scheduling Optimization won't move or optimize
               those bookings.
           - If Booking Status is set to **Ignore**, Resource Scheduling Optimization won't consider that booking
-              record; it will be as if the booking record doesn’t exist.
+              record; it's as if the booking record doesn’t exist.
           
             > [!NOTE]
             > Typical setup would dictate:
@@ -253,15 +253,15 @@ sections:
           Can I have my resources start and end their day at different locations?
         answer: |
           Yes, you can, as long as neither locations are location agnostic. For more information on the configuration, see start/end location section of [this article](/dynamics365/field-service/set-up-bookable-resources#create-frontline-workers-and-other-bookable-resources-manually). 
-          Additionally, if the resource is required to start/end from a location that is not resource address or organizational unit address, there is a workaround that can be used: 
+          Additionally, if the resource is required to start/end from a location that isn't resource address or organizational unit address, there's a workaround that can be used: 
            1. Extend the resource work hours by 10 minutes at the start and end of the shift. For example, if the resource's shift is from 9AM to 5PM, change it to 8:50 AM to 5:10 PM. 
            2. Create bookings that are locked to resource and time for these two 10-minute time slots. Work with dummy requirements located at the place the resource is expected to start/end. 
-          Using this temporary work-around, your resources can start and end at locations other than just their resource address or organizational unit address.  
+          With this temporary work-around, your resources can start and end at locations other than just their resource address or organizational unit address.  
           
       - question: |
           What happens if I remove the "Schedule within Working Hours" constraint?
         answer: |
-          When you remove this constraint, Resource Scheduling Optimization will still respect working hours and create bookings within the resource's working hours but _can_ schedule travel outside of working hours. It might not leave time at the end of the day to travel to the resource's end location. All bookings will end within a resource's working hours. 
+          When you remove this constraint, Resource Scheduling Optimization will still respect working hours and create bookings within the resource's working hours but _can_ schedule travel outside of working hours. It might not leave time at the end of the day to travel to the resource's end location. All bookings end within a resource's working hours. 
 
       - question: |
           Why are some of my past or future bookings that are outside of the optimization start and end range being removed?
@@ -272,7 +272,7 @@ sections:
               the following screenshot. There are five bookings (A, B, C, D, E) included
               in the **Scheduling Summary – Scheduled by RSO-WA** booking view when they're being scheduled, with this configuration:
             - All five bookings will possibly be moved into the optimization range start/end area if there's enough capacity.
-            - If a booking locked to **Time Range** overlaps with the optimization range, the booking will be moved. If the locked time range is outside of the optimization range, the booking will be ignored.
+            - If a booking locked to **Time Range** overlaps with the optimization range, the booking is moved. If the locked time range is outside of the optimization range, the booking is ignored.
           
               > [!div class="mx-imgBorder"]
               > ![](media/c159161ca58dafa8a23d6ab26652119b.png)
@@ -289,7 +289,7 @@ sections:
             - Booking A is in the past before **Now or After** will be excluded from
                   the scope.
             - Booking B is overlapping with the **Now or After** line and will be considered as locked.
-            - For a booking locked to **Time Range**, if a locked time range overlaps with the optimization range, the booking will be moved. If the locked time range is outside of the optimization range, the booking will be ignored.
+            - For a booking locked to **Time Range**, if a locked time range overlaps with the optimization range, the booking is moved. If the locked time range is outside of the optimization range, the booking is ignored.
           
               > [!div class="mx-imgBorder"]
               > ![](media/e82afdbb4400441f0b017c94fc4888ae.png)
@@ -306,7 +306,7 @@ sections:
             - Bookings A and B are in the past before **Now or After** will be
                   excluded from the scope.
             - Booking C is overlapping with the **Now or After** line and will be considered as locked.
-            - For a booking locked to **Time Range**, if a locked time range overlaps with the optimization range, the booking will be moved. If the locked time range is outside of the optimization range, the booking will be ignored.
+            - For a booking locked to **Time Range**, if a locked time range overlaps with the optimization range, the booking is moved. If the locked time range is outside of the optimization range, the booking is ignored.
           
               > [!div class="mx-imgBorder"]
               > ![](media/218b39ff875c0414710b4ab54509e555.png)
@@ -318,7 +318,7 @@ sections:
             - Only one booking (E) will possibly be moved into the optimization range
                   start/end area if there's enough capacity.
             - Bookings A, B, C, and D are in the past before **Now or After** will be excluded from the scope.
-            - For a booking locked to **Time Range**, if the locked time range overlaps with the optimization range, the booking will be moved. If the locked time range is outside of the optimization range, the booking will be ignored.
+            - For a booking locked to **Time Range**, if the locked time range overlaps with the optimization range, the booking is moved. If the locked time range is outside of the optimization range, the booking is ignored.
           
               > [!div class="mx-imgBorder"]
               > ![](media/9353549197ca4e3cb80867d3001d4ea5.png)
@@ -326,7 +326,7 @@ sections:
       - question: |
           Why are so many bookings in simulation status? 
         answer: |
-          If any exception or error happens when an optimization schedule is still running, you might see some overlap on the schedule board. Some bookings are created or updated from the latest run while other bookings from the previous run failed to be deleted due to an exception. To avoid this issue, the optimization process becomes transactional in the **Simulation** status. During the optimization process, the create, update, and deleted operations are now visible. All new, updated, and to-be-deleted bookings are in a **Simulation** staging area. If the whole optimization request is completed and correct, these simulation bookings will be flipped into real bookings. Before the optimization request completes, you can see some simulation status (transparent) bookings move around the schedule board until the run is complete. Then all simulation bookings will be flipped into real bookings (solid blue). If an exception occurs and the optimization request fails, these simulation bookings will remain in simulation status for troubleshooting purposes unless you manually delete them. Otherwise, a system job will delete them automatically every two weeks.
+          If any exception or error happens when an optimization schedule is still running, you might see some overlap on the schedule board. Some bookings are created or updated from the latest run while other bookings from the previous run failed to be deleted due to an exception. To avoid this issue, the optimization process becomes transactional in the **Simulation** status. During the optimization process, the create, update, and deleted operations are now visible. All new, updated, and to-be-deleted bookings are in a **Simulation** staging area. If the whole optimization request is completed and correct, these simulation bookings are flipped into real bookings. Before the optimization request completes, you can see some simulation status (transparent) bookings move around the schedule board until the run is complete. Then all simulation bookings are flipped into real bookings (solid blue). If an exception occurs and the optimization request fails, these simulation bookings remain in simulation status for troubleshooting purposes unless you manually delete them. Otherwise, a system job deletes them automatically every two weeks.
           
           > [!NOTE]
           > You can hide simulation bookings by changing the schedule board settings. Select the gear icon on the top right and select the **Hide Canceled** option. 
@@ -419,9 +419,18 @@ sections:
         answer: |
           If you run Resource Scheduling Optimization and get an error like the one below, add the system administrator security role to the user running Resource Scheduling Optimization.
           
-          ```[External Exception [Microsoft.Dynamics.FieldService: Microsoft.Dynamics.FieldService.FieldServicePlugin]]Principal user (Id=c4c45efe-866d-eb11-a812-000d3a8eefe9, type=8, roleCount=1, privilegeCount=110, accessMode=4), is missing prvReadmsdyn_workorder privilege (Id=912a06d3-4545-4bea-bbd1-18661ff70424) on OTC=10425 for entity 'msdyn_workorder'. context.Caller=c4c45efe-866d-eb11-a812-000d3a8eefe9. Or identityUser.SystemUserId=dd1c82e4-ddf4-45fd-a1bf-4efd51274d04, identityUser.Privileges.Count=5978, identityUser.Roles.Count=0 is missing prvReadmsdyn_workorder privilege (Id=912a06d3-4545-4bea-bbd1-18661ff70424) on OTC=10425 for entity 'msdyn_workorder'.```
+          ```[External Exception [Microsoft.Dynamics.FieldService: Microsoft.Dynamics.FieldService.FieldServicePlugin]]Principal user (ID=c4c45efe-866d-eb11-a812-000d3a8eefe9, type=8, roleCount=1, privilegeCount=110, accessMode=4), is missing prvReadmsdyn_workorder privilege (ID=912a06d3-4545-4bea-bbd1-18661ff70424) on OTC=10425 for entity 'msdyn_workorder'. context.Caller=c4c45efe-866d-eb11-a812-000d3a8eefe9. Or identityUser.SystemUserId=dd1c82e4-ddf4-45fd-a1bf-4efd51274d04, identityUser.Privileges.Count=5978, identityUser.Roles.Count=0 is missing prvReadmsdyn_workorder privilege (ID=912a06d3-4545-4bea-bbd1-18661ff70424) on OTC=10425 for entity 'msdyn_workorder'.```
 
       - question: |
           Can I use Resource Scheduling Optimization in more than one Dynamics 365 organization?
         answer: |
           You can deploy multiple instances for Resource Scheduling Optimization in the same Microsoft 365 tenant. A Resource Scheduling Optimization instance can connect to one Dynamics 365 organization only. For more information, see [Deployment information for Resource Scheduling Optimization](rso-deployment.md).
+
+      - question: |
+          Why were my existing bookings deleted? 
+        answer: |
+          After optimization runs, Resource Scheduling Optimization can make decisions to create, update, or delete bookings as needed based on objective and constraints settings. Hence, it's expected to find booking deleted to optimize results throughout the schedule. If you don't want Resource Scheduling Optimization to delete existing bookings, try the following options: 
+          - [Configure the scheduling method for the booking status](rso-configuration.md#make-data-changes-to-prepare-for-optimizations).
+          - [Exclude bookings from the optimization scope](rso-optimization-scope.md). 
+          - [Configure a booking lock](booking-lock-options.md).
+

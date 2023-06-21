@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 4ee28c9c-4d78-47b1-911b-782527bcda45
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 ms.reviewer: pehecke
 ms.suite:
 ms.tgt_pltfrm:

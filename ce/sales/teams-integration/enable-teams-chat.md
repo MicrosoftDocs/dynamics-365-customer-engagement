@@ -1,17 +1,13 @@
 ---
-title: "Enable or disable Teams chat in Sales Hub | MicrosoftDocs"
-description: "Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application."
-ms.date: 09/09/2022
+title: Configure Microsoft Teams chat in Dynamics 365 Sales 
+description: Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application.
+ms.date: 03/31/2023
 ms.topic: article
-search.app: 
-  - D365CE
-  - Powerplatform
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
-# Configure Microsoft Teams chat in Sales Hub
+# Configure Microsoft Teams chat in Dynamics 365 Sales
 
 Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application.
 

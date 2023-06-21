@@ -4,7 +4,6 @@ description: "This article lists the best practices that you can follow when you
 ms.date: 08/30/2022
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.topic: article
 ---
 

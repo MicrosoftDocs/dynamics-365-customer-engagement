@@ -15,9 +15,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 
 # Basic navigation in App for Outlook

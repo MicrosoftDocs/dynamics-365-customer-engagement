@@ -1,10 +1,9 @@
 ---
 title: "Configure channel providers in Dynamics 365 Channel Integration Framework 2.0| MicrosoftDocs"
 description: "Learn how to configure channel providers using the app profile manager or the Customer Service admin center in Dynamics 365 Channel Integration Framework 2.0."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
-ms.date: 09/27/2022
+author: gandhamm
+ms.author: mgandham
+ms.date: 02/22/2023
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -19,10 +18,10 @@ searchScope:
 
 # Configure channel providers in Dynamics 365 Channel Integration Framework 2.0
 
-Dynamics 365 Channel Integration Framework 2.0 is intended for multisession applications such as Omnichannel for Customer Service and Customer Service workspace. You can configure channel providers for multisession applications either using the app profile manager or using the Customer Service admin center.
+Dynamics 365 Channel Integration Framework 2.0 is intended for multisession applications such as Omnichannel for Customer Service and Customer Service workspace. You can configure channel providers for multisession applications either using Customer Service admin center or Power Apps.
 
 More information: 
-- [App profile manager](../../../app-profile-manager/overview.md)
+- [Agent experience profiles](../../../app-profile-manager/overview.md)
 - [Customer Service admin center](../../../customer-service/cs-admin-center.md)
 
 ## Configure a third-party channel provider
@@ -37,7 +36,7 @@ More information:
     
     3. Select a provider from the **Active Channel Providers** list and select **Edit**, or select **New** to add a new channel provider.
 
-    ### [App profile manager](#tab/appprofilemanager)    
+    ### [Power Apps](#tab/appprofilemanager)    
     1. Sign in to the [Power Apps](https://make.powerapps.com) portal.
 
     2. Under the available apps, select the ellipses next to **Omnichannel for Customer Service** or **Customer Service workspace**.
@@ -61,7 +60,7 @@ More information:
 |Name|Name of the channel provider.|
 |Unique Name|A unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT:** The following are required for the unique name:<ul><li> The prefix has to be alphanumeric with a length of 3-8 characters.</li><li>The prefix must include an underscore</li></ul>|
 |Label|The label is displayed as the title on the widget.|
-|Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widget with Dynamics 365 Channel Integration Framework.|
+|Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widget with Dynamics 365 Channel Integration Framework. If the URL isn't in the specified format, the application displays a warning. Select **Restore** to reset the URL to the expected value. |
 |Enable Outbound Communication|Selecting a phone number in the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
 |Channel Order|The order of precedence of the channel providers. That is, the priority to display the channel for the agents and Unified Interface apps.|
 |Api Version|The version of the Channel Integration Framework APIs.|
@@ -72,13 +71,25 @@ More information:
   > ![Configure channel provider.](../media/channel-provider-app-profile.png "Configure channel provider")
 
   > [!NOTE]
-  > The `Api Version` field is set to `2` when you navigate from the app profile manager.
+  > - The **Restore** button is available only for forms with the **Unique Name** set to **msdyn_omnichannel**.
+  > - The `Api Version` field is set to `2` when you navigate from the app profile manager.
 
 3. If you're using the app profile manager, add the channel provider to the app profile. If you're using Customer Service admin center, then select **Save & Close**.
-  
+
+## Deactivate or delete a channel provider
+
+1. In the site map of Customer Service admin center, select **Workspaces** in **Agent experience**. The **Workspaces** page opens.
+    
+2. Select **Manage** for **Third party voice channel provider**.
+    
+3. Select a provider from the **Active Channel Providers** list, and do one of the following:
+
+    - To deactivate the channel provider, select **Deactivate**. In the **Confirm Deactivation** dialog, select **Yes**. You can reactivate the channel later by selecting **Activate**.
+    - To delete the channel provider, select **Delete**. In the **Confirm Deletion** dialog, select **Yes** if you're sure you want to delete the channel provider. Note that you can't reactivate the channel provider after it's deleted.
+
 ### See also
 
-[App profile manager](../../../app-profile-manager/overview.md)  
+[Overview of agent experience](../../../app-profile-manager/overview.md)  
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)  
 [Microsoft.CIFramework.getEnvironment](../v2/reference/microsoft-ciframework/getEnvironment.md)  
 

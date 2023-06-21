@@ -5,7 +5,6 @@ ms.date: 05/20/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Migrate sequences from one environment to another

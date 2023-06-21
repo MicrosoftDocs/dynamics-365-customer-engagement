@@ -4,13 +4,12 @@ description: Learn how to get started with virtual entities to integrate data re
 ms.date: 06/21/2019
 
 ms.topic: get-started-article
-ms.custom: intro-internal
+ms.collection: get-started
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 14c5fbbc-98db-4e49-b245-2c84c1cd11cd
 author: jimdaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

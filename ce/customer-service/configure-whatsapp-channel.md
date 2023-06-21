@@ -5,7 +5,6 @@ ms.date: 10/27/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Configure a WhatsApp channel through Twilio

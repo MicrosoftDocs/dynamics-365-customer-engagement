@@ -3,7 +3,6 @@ title: "Use automation dictionary to pass parameter keys | MicrosoftDocs"
 description: "Learn about the supported formats to pass parameter values in the templates and macros."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 02/13/2023
 ms.topic: article
 ---

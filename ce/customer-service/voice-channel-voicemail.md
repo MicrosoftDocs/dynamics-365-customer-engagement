@@ -3,7 +3,6 @@ title: "Configure voicemail to manage inbound calls"
 description: "Learn how to configure and use voicemails in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 02/02/2023
 ms.topic: article
 ---
@@ -15,7 +14,7 @@ Voicemails help your customers leave messages for agents when they come across l
 The salient features of voicemail are as follows:
 
 - Voicemails can be recorded for up to five minutes only.
-- If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the automated message or workstream settings.
+- If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the [automated message](configure-automated-message.md#customize-automated-messages-at-the-channel-level) or [workstream settings](voice-channel-inbound-calling.md).
 - Voicemails will always be transcribed irrespective of whether you've enabled the voice call transcription. The transcript includes any conversation, such as conversation with the bot that occurs before the voicemail. However, the recording will include voicemail only.
 - If the customer is unable to record the voicemail, an automated message is played for the customer that informs the voicemail couldn't be recorded and they should call back again.
 - The bot can't offer to take a voicemail. The call must be escalated to an agent. The voicemail will be offered if the agent isn't available.

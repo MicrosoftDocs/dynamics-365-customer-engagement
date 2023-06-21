@@ -1,12 +1,11 @@
 ---
 title: Connect using an existing Azure resource
 description: Learn how to connect your voice and SMS channels to Azure Communication Services using an existing Azure resource.
-ms.date: 02/07/2023
+ms.date: 02/20/2023
 ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Advanced: Connect using an existing Azure resource
@@ -25,7 +24,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
   - You've [disconnected from the Azure resource](voice-channel-disconnect-from-acs.md).
 - Get the name and ID of your Azure resource from the Azure portal > **Settings** > **Properties**.
 - [Get the connection string of your Azure resource](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints).
-- [Get the application (client) ID and tenant (directory) ID for your registered app](#get-application-and-tenant-ids).
+- [Get the application (client) ID and tenant (directory) ID for your registered app](#get-application-and-tenant-ids-from-the-azure-portal).
 - Confirm that you have [permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns).
 
 ## Connect using an existing Azure resource
@@ -37,7 +36,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
         1. In the site map, under **Customer support**, select **Channels**.
         2. To the right of **Phone numbers**, select **Manage**.
 
-    - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.<!-- EDITOR'S NOTE: Omnichannel admin center has been deprecated. Please note that or remove the Omnichannel admin center instructions. -->
+    - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
 
 1. Select **Use existing resource**.
 
@@ -45,8 +44,8 @@ Before you connect an existing Azure resource to Azure Communication Services, y
    - **ACS Resource Name**: Enter the resource name.
    - **ACS Resource ID**: Enter the resource ID.
    - **Connection string**: Enter the connection string.
-   - **Event grid app ID**: Enter the application (client) ID.
-   - **Event grid app tenant ID**: Enter the tenant (directory) ID.
+   - **Event grid app id**: Enter the application (client) ID.
+   - **Event grid app tenant id**: Enter the tenant (directory) ID.
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
@@ -65,7 +64,7 @@ To enable call recording and SMS services, you must first configure your applica
 > [!IMPORTANT]
 >
 > - You can only set one web hook endpoint at a time using the following procedure. To enable both SMS and call recording services, you must perform the procedure two times to set a web hook endpoint for each service.
-> - When you connect your event subscription, you must use the same application ID and directory ID for the app registration as you did when you first connected to your Azure resource. To check which app ID and directory ID you used, select the filter icon in the top right and search for communication provider setting entries.
+> - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-ids-from-the-power-apps-portal).
 
 1. Open the **Event Grid System Topics** service on the Azure portal.
 
@@ -104,7 +103,7 @@ To enable call recording and SMS services, you must first configure your applica
 
 [Learn more about configuring call recording and transcription for a voice workstream in Omnichannel for Customer Service](voice-channel-configure-transcripts.md).
 
-#### Get application and tenant IDs
+#### Get application and tenant IDs from the Azure portal
 
 1. Open the **App registrations** page on the Azure portal in a separate window or tab.
 
@@ -121,6 +120,16 @@ To enable call recording and SMS services, you must first configure your applica
 
 1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value.
 
+#### Get event grid app and tenant IDs from the Power Apps portal
+
+1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
+
+1. In the site map, select **Dataverse** > **Tables** > **All**.
+
+1. Search for the **Communication Provider Setting Entry** table and open it.
+
+1. In the **Communication Provider Setting Entry columns and data** section, view the **EventGridAppID** and **EventGripAppTenantID** fields in the **Key** column, and note down the corresponding ID values from the **Values** column.
+
 #### Get the subscriber endpoint for recording
 
 1. In Dynamics 365 Customer Service admin center or Omnichannel admin center, open the phone number settings.
@@ -130,7 +139,7 @@ To enable call recording and SMS services, you must first configure your applica
         1. In the site map, under **Customer support**, select **Channels**.
         2. To the right of **Phone numbers**, select **Manage**.
 
-    - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.<!-- EDITOR'S NOTE: Omnichannel admin center has been deprecated. Please note that or remove the Omnichannel admin center instructions. -->
+    - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
 
 1. Select a phone number, and then select **Advanced**.
 
@@ -145,11 +154,12 @@ To enable call recording and SMS services, you must first configure your applica
         1. In the site map, under **Customer support**, select **Channels**.
         2. To the right of **Phone numbers**, select **Manage**.
 
-    - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.<!-- EDITOR'S NOTE: Omnichannel admin center has been deprecated. Please note that or remove the Omnichannel admin center instructions. -->
+    - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
 
 1. Select a phone number, and then select **Advanced**.
 
 1. Select **Copy** next to **SMS Web Hook Endpoint** and note the value.
+
 
 ## Next steps
 

@@ -14,7 +14,6 @@ ms.assetid: fadb3c51-6fa8-4fd4-992c-d413e4cd9433
 caps.latest.revision: 32
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -35,7 +34,7 @@ In Dynamics 365 Customer Engagement (on-premises) the fundamental concept in rol
 
  You can assign one or more roles to a user or to a team. For example, a user can have the Sales Manager role in addition to being a Customer Service Representative, in which case that user has all the privileges of both roles.  
 
- You cannot modify privileges at the user level, but you can create a new role with the desired privileges. For example, John is given a Salesperson role, which requires him to accept all leads assigned to him. However, the administrator wants John to be able to reassign leads assigned to him. As a result, the administrator either has to modify the Salesperson role to allow this or create a new role that incorporates this specific privilege and add John to this role. Creating a new role is the recommended option unless you think it necessary that all users who are assigned the Salesperson role now have this additional privilege.  
+ You cannot modify privileges at the user level, but you can create a new role with the desired privileges. For example, John is given a Salesperson role, which requires them to accept all leads assigned to them. However, the administrator wants John to be able to reassign leads assigned to John. As a result, the administrator either has to modify the Salesperson role to allow this or create a new role that incorporates this specific privilege and add John to this role. Creating a new role is the recommended option unless you think it necessary that all users who are assigned the Salesperson role now have this additional privilege.  
 
 <a name="bkmk_privileges"></a>   
 ## Privileges  
@@ -62,23 +61,23 @@ In Dynamics 365 Customer Engagement (on-premises) the fundamental concept in rol
 |![Access level global.](../media/access-level-global.gif "Access level global")|**Global**. This access level gives a user access to all records within the organization, regardless of the business unit hierarchical level to which the instance or the user belongs. Users who have Global access automatically have Deep, Local, and Basic access, also.<br /><br /> Because this access level gives access to information throughout the organization, it should be restricted to match the organization's data security plan. This level of access is usually reserved for managers with authority over the organization.<br /><br /> The application refers to this access level as **Organization**.|  
 |![Access level deep.](../media/access-deep.png "Access level deep")|**Deep**. This access level gives a user access to records in the user's business unit and all business units subordinate to the user's business unit.<br /><br /> Users who have Deep access automatically have Local and Basic access, also.<br /><br /> Because this access level gives access to information throughout the business unit and subordinate business units, it should be restricted to match the organization's data security plan. This level of access is usually reserved for managers with authority over the business units.<br /><br /> The application refers to this access level as **Parent: Child Business Units**.|  
 |![Access level local.](../media/access-local.gif "Access level local")|**Local**. This access level gives a user access to records in the user's business unit.<br /><br /> Users who have Local access automatically have Basic access, also.<br /><br /> Because this access level gives access to information throughout the business unit, it should be restricted to match the organization's data security plan. This level of access is usually reserved for managers with authority over the business unit.<br /><br /> The application refers to this access level as **Business Unit**.|  
-|![Access level basic.](../media/access-level-basic.gif "Access level basic")|**Basic**.<br /><br /> This access level gives a user access to records he or she owns, objects that are shared with the user, and objects that are shared with a team of which the user is a member.<br /><br /> This is the typical level of access for sales and service representatives.<br /><br /> The application refers to this access level as **User**.|  
+|![Access level basic.](../media/access-level-basic.gif "Access level basic")|**Basic**.<br /><br /> This access level gives a user access to records they own, objects that are shared with the user, and objects that are shared with a team of which the user is a member.<br /><br /> This is the typical level of access for sales and service representatives.<br /><br /> The application refers to this access level as **User**.|  
 |![Access level none.](../media/access-level-none.gif "Access level none")|**None**. No access is allowed.|  
 
 <a name="bkmk_all"></a>   
 ## Putting it all together  
 
--   If a user has the `Deep Read Account` privilege, this user can read all accounts in his or her business unit, and all accounts in any child business unit of that business unit.  
+-   If a user has the `Deep Read Account` privilege, this user can read all accounts in their business unit, and all accounts in any child business unit of that business unit.  
 
 -   If a user has `Local Read Account` privileges, this user can read all accounts in the local business unit.  
 
--   If a user is assigned the `Basic Read Account` privilege, this user can read only the accounts that he or she owns or the accounts that are shared with him or her.  
+-   If a user is assigned the `Basic Read Account` privilege, this user can read only the accounts that they own or the accounts that are shared with them.  
 
--   A customer service representative with the `Basic Read Account` privilege can view accounts that he or she owns and any accounts another user has shared with this user. This makes it possible for the representative to read the account data that is relevant to a service request, but not to change the data.  
+-   A customer service representative with the `Basic Read Account` privilege can view accounts that they own and any accounts another user has shared with this user. This makes it possible for the representative to read the account data that is relevant to a service request, but not to change the data.  
 
--   A data analyst with the `Local Read Account` privilege can view account data and run account-related reports for all accounts in his or her business unit.  
+-   A data analyst with the `Local Read Account` privilege can view account data and run account-related reports for all accounts in their business unit.  
 
--   A finance officer for the company with the `Deep Read Account` privilege can view account data and run account-related reports for all accounts in his or her business unit and accounts in any child business unit.  
+-   A finance officer for the company with the `Deep Read Account` privilege can view account data and run account-related reports for all accounts in their business unit and accounts in any child business unit.  
 
 <a name="bkmk_list"></a>   
 

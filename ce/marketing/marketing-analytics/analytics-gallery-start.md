@@ -1,21 +1,18 @@
 ---
-title: "Download and use marketing analytics templates and sample reports for Power BI (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Browse our Power BI template gallery, download relevant templates and sample reports, and connect them to your Dynamics 365 Marketing instance."
-ms.date: 05/05/2022
+title: Download and use marketing analytics templates and sample reports for Power BI
+description: Download and use Power BI templates and sample reports to create custom analytics reports for your Marketing organization.
+ms.date: 02/28/2023
 ms.custom: 
-  - dyn365-marketing
+  - ai-gen-docs
+  - ai-gen-desc
 ms.topic: article
 author: cabeln
 ms.author: cabeln
-manager: shellyha
 ms.reviewer: alfergus
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Download and use marketing analytics templates and sample reports for Power BI
@@ -85,8 +82,10 @@ for a quick overview of all the data that's available for your marketing analyti
 
 <div class="embeddedvideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/pBrB1BohUrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> -->
 
-### See also
+## Learn more
 
-[Data sources for custom analytics](../custom-analytics.md#data-sources)  
+Here are some advanced resources for this topic:
+
+- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

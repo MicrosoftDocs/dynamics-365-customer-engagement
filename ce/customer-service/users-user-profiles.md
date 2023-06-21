@@ -1,26 +1,17 @@
 ---
-title: "Create and manage users and user profiles | MicrosoftDocs"
-description: "This article provides steps that you can perform to manage users in Omnichannel for Customer Service."
-ms.date: 10/03/2022
-ms.topic: article
+title: Create and manage users and user profiles
+description: This article provides steps that you can perform to manage users in Omnichannel for Customer Service.
+ms.date: 06/07/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
-# Use the enhanced experience to manage users (preview)
+# Use the enhanced experience to manage users
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
->
-> The enhanced user management feature is in preview. [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 Use the information in this article to manage your agent users for Customer Service. The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your agent users to provide customer service optimally.
 
@@ -39,15 +30,15 @@ On the user management page, the following three views are available:
 
 The enhanced user management experience is available in Customer Service admin center only.
 
-**To manage the contact center users**
+## Manage contact center users
 
-The attributes that you want to add must be configured in the system. You can update up to 25 users in a single step. For the selected users, you can update up to five attributes in a single step. If you need to update more than five attributes for the selected users, you can save the changes and then update the next set of attributes.
+The attributes that you want to add must be configured in the system. You can update up to 200 users in a single step. For the selected users, you can update up to five attributes in a single step. If you need to update more than five attributes for the selected users, you can save the changes and then update the next set of attributes.
 
-1. Sign in to Dynamics 365, and go to the Customer Service admin app.
+1. Sign in to Dynamics 365, and go to the Customer Service admin center app.
 
 1. Select **User management** under **Customer support** in the site map.
 
-1. On the page that appears, select **Manage** for **Enhanced user management (Preview)**. The **Contact center users** view displays the users that have been configured in Power Platform admin center.
+1. On the page that appears, select **Manage** for **Enhanced user management**. The **Contact center users** view displays the users that have been configured in Power Platform admin center.
 
 1. Hover the pointer over the rows of the users that you want to update and select the check boxes.
 
@@ -82,11 +73,11 @@ Users should be configured as a bookable resource so that they can be assigned w
     
     1. On the **User management** page, select **Manage** for **Users**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
     - In the site map, select **Users** in **General settings**.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub (deprecated)](#tab/customerservicehub)
 
     - Go to the **Service Management** site map, and in **Unified Routing**, select **Users**.
 
@@ -106,20 +97,20 @@ Users should be configured as a bookable resource so that they can be assigned w
 6. Do the following:
    1. Specify the name of agent in the **Name** field.
 
-   2. Select **Save**. The **Work Hours** tab is enabled.
+   1. Select **Save**. The **Work Hours** tab is enabled.
  
     > [!IMPORTANT]
     > To add the work hours for a bookable resource, universal resource scheduling must be available in your organization. Universal resource scheduling is available with Dynamics 365 Field Service, Dynamics 365 Project Service, or Dynamics 365 Service Scheduling. More information: [Overview of Service Scheduling](/dynamics365/customer-service/basics-service-service-scheduling)
 
-   3. You can update the existing work hours or create work hours for the user.
+   1. You can update the existing work hours or create work hours for the user.
 
-   4. On the **Omnichannel** tab of the **Bookable Resource** page for the user, select **New Bookable Resource Characteristic**.
+   1. On the **Omnichannel** tab of the **Bookable Resource** page for the user, select **New Bookable Resource Characteristic**.
    
-   5. In **Skill Name**, search for and select a skill.
+   1. In **Skill Name**, search for and select a skill.
    
-   6. In **Rating Value**, select the rating value that the user has on the skill.
+   1. In **Rating Value**, select the rating value that the user has on the skill.
    
-   7. Save and close to return to the **Omnichannel** tab of the **User** page.
+   1. Save and close to return to the **Omnichannel** tab of the **User** page.
 
 7. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
 
@@ -129,7 +120,7 @@ Users should be configured as a bookable resource so that they can be assigned w
 8. To use the user schedule for assignment, set up the bookable resource calendar. More information: [Apply a calendar to a resource](../field-service/calendar-resource.md)
 
 9. Add the user to the required queue that's configured for unified routing. More information: [Configure queues for unified routing](queues-omnichannel.md)
-   
+
    > [!NOTE]
    > Bots in a queue are modeled as a bookable resource and therefore will be considered for assignment. However, we recommend that you don't add bots to queues that are used for routing records.
 

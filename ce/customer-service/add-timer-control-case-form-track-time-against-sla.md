@@ -1,18 +1,14 @@
 ---
 title: "Timer control for SLA-enabled entities | Microsoft Docs"
 description: "Learn how to add timer control in the case form to track time against a SLA in Dynamics 365 Customer Service."
-ms.date: 08/02/2022
+ms.date: 05/23/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -27,6 +23,10 @@ After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can
 
 For information on how the SLA KPIs are displayed at runtime when agents view the case to work on in Customer Service Hub, go to [Timer for SLA-enabled entities](customer-service-hub-user-guide-case-sla.md#timer-control-for-sla-enabled-entities).
 
+> [!NOTE]
+> - The SLA Timer control displays SLA KPIs that are created in Unified Interface only.
+> - The SLA Timer control displays  **No Applicable SLA** when there aren't any applicable SLAs.
+
 A sample runtime view of the SLA Timer is as follows.
 
 ![Runtime view of the SLA timers.](media/sla-timer-runtime.png "Runtime view of the SLA timers")
@@ -35,9 +35,6 @@ However, SLA KPI Instances won't reach a **Nearing non-compliance** or **Non-com
 "The SLA instances may be incorrect because workflow <*workflow ID*> is turned off. Please contact your admin to turn the workflow on." The workflow ID will vary from system to system as it corresponds to **SLAWarningAndExpiryMonitoringFlow**. For more information on how to enable **SLAWarningAndExpiryMonitoringFlow**, see [ Warning message appears on slakpiinstances](troubleshoot-sla-issues.md#warning-message-appears-on-slakpiinstances).
 
 For more information on why an SLA KPI Instance doesn't reach **Nearing Non-compliance** or **Non-compliant** state and how you can resolve it, see [SLA KPI Instance doesn't reach Nearing Non-compliance or Non-compliant state, and the SLA KPI Instance timer continues to run](troubleshoot-sla-issues.md#sla-kpi-instance-doesnt-reach-nearing-non-compliance-or-non-compliant-state-and-the-sla-kpi-instance-timer-continues-to-run).
-
-> [!NOTE]
-> The SLA Timer control displays SLA KPIs that are created in Unified Interface only.
 
 Do the following steps to add the SLA timer control for the case entity.
 
