@@ -2,7 +2,7 @@
 title: Define the message parts
 description: Learn how to define the message parts for the SMS channel in Dynamics 365 Sales. 
 author: udaykirang
-ms.author: udayg
+ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.date: 06/23/2023
@@ -66,4 +66,4 @@ Example of **customizations.xml** including message parts:
 
 ## Next step
 
-[Define the localization for the admin interface](custom-sms-localization-admin.md)
+[Define localization for the admin interface](custom-sms-localization-admin.md)

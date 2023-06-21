@@ -2,7 +2,7 @@
 title: Add custom SMS channel provider 
 description: Learn how to add a custom SMS provider to Dynamics 365 Sales.
 author: udaykirang
-ms.author: udayg
+ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection: get-started 

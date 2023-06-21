@@ -1,15 +1,15 @@
 ---
-title: Define custom APIs
+title: Define custom APIs for SMS channel
 description: Define custom APIs for custom SMS channels in Dynamics 365 Sales.
 author: udaykirang
-ms.author: udayg
+ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.date: 06/23/2023
 ms.custom: bap-template 
 ---
 
-# Define custom APIs
+# Define custom APIs for SMS channel
 
 ## Outbound custom API
 

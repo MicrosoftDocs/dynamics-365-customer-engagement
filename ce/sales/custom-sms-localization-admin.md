@@ -1,15 +1,15 @@
 ---
-title: Define the localization for the admin interface
+title: Define localization for the admin interface
 description: Learn how to define the localization for the admin interface.
 author: udaykirang
-ms.author: udayg
+ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.date: 06/23/2023
 ms.custom: bap-template 
 ---
 
-# Define the localization for the admin interface (optional)
+# Define localization for the admin interface (optional)
 
 If you want to localize your admin interface for a diverse audience, you need to define a **Channel Definition Locale** entity. When your solution is imported, a new row for every [message part](custom-sms-message-parts.md) is created in the **msdyn_channeldefinitionlocale** table.
 
@@ -51,4 +51,4 @@ Example of **customizations.xml** including channel definition locales:
 
 ## Next steps
 
-[Define the message editor interface](custom-sms-message-editor.md)
+[Define message editor interface](custom-sms-message-editor.md)

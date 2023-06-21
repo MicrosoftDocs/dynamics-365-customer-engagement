@@ -1,15 +1,15 @@
 ---
-title: Define the message editor interface
+title: Define message editor interface
 description: Learn how to define the message editor interface.
 author: udaykirang
-ms.author: udayg
+ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.date: 06/23/2023
 ms.custom: bap-template 
 ---
 
-# Define the message editor interface (optional)
+# Define message editor interface (optional)
 
 With the unlimited variety of custom channels you can create, you may need to provide different message template editors. You can define how a message template editor should look and what attributes it contains to match the needs of a specific channel.
 
@@ -88,4 +88,4 @@ You can use custom controls on the form or out-of-the-box controls like **Msdynm
 
 ## Next step
 
-[Define custom APIs](custom-sms-custom-api.md)
+[Define custom APIs for SMS channel](custom-sms-custom-api.md)
