@@ -72,7 +72,7 @@ After you create a requirement for the lead, it will appear in the **Open Requir
 
 1. Select **Save** > **Close & Publish**.
 
-Now that the view is created, edit the schedule board that will use the new view by completing the following steps.
+Now that the view is created, edit the schedule board that uses the new view by completing the following steps.
 
 1. Open the board settings, and then in the **Requirement panels** section, add a new panel.
 1. Type a **Title**, and then select the view to use.
