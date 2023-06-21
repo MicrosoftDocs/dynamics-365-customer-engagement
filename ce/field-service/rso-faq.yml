@@ -44,11 +44,6 @@ sections:
           Don’t install the Resource Scheduling Optimization solution from the solution management page. Use the Resource Scheduling Optimization deployment app to deploy Resource Scheduling Optimization. The deployment includes the Dynamics 365 solution and Azure resources. 
 
       - question: |
-          Can I modify the out-of-box Resource Scheduling Optimization security role?
-        answer: |
-          We don’t recommend changing the out-of-box security role directly. A modified out-of-box security role can cause issues like upgrade failures, jobs not pulling requirements/bookings as expected, and more. Instead, copy it as a new role and customize as needed.
-
-      - question: |
           How do I cancel a long-running schedule or blocked schedule?
         answer: |
           If your schedule has been running for a long time and seems stuck, select **Reset Resource Scheduling Optimization**. This option clears the blocked job and resets the schedules into a good state. When resetting a single optimization schedule doesn't work or gets blocked too, reset all schedules and republish them. 
@@ -248,21 +243,7 @@ sections:
           - Lock the booking to a time or time range in the past.
           - Set a promised date from/to or date from/to while enabling the time window
               constraint.
-              
-      - question: |
-          Can I have my resources start and end their day at different locations?
-        answer: |
-          Yes, you can, as long as neither locations are location agnostic. For more information on the configuration, see start/end location section of [this article](/dynamics365/field-service/set-up-bookable-resources#create-frontline-workers-and-other-bookable-resources-manually). 
-          Additionally, if the resource is required to start/end from a location that isn't resource address or organizational unit address, there's a workaround that can be used: 
-           1. Extend the resource work hours by 10 minutes at the start and end of the shift. For example, if the resource's shift is from 9AM to 5PM, change it to 8:50 AM to 5:10 PM. 
-           2. Create bookings that are locked to resource and time for these two 10-minute time slots. Work with dummy requirements located at the place the resource is expected to start/end. 
-          With this temporary work-around, your resources can start and end at locations other than just their resource address or organizational unit address.  
-          
-      - question: |
-          What happens if I remove the "Schedule within Working Hours" constraint?
-        answer: |
-          When you remove this constraint, Resource Scheduling Optimization will still respect working hours and create bookings within the resource's working hours but _can_ schedule travel outside of working hours. It might not leave time at the end of the day to travel to the resource's end location. All bookings end within a resource's working hours. 
-
+     
       - question: |
           Why are some of my past or future bookings that are outside of the optimization start and end range being removed?
         answer: |
@@ -420,11 +401,6 @@ sections:
           If you run Resource Scheduling Optimization and get an error like the one below, add the system administrator security role to the user running Resource Scheduling Optimization.
           
           ```[External Exception [Microsoft.Dynamics.FieldService: Microsoft.Dynamics.FieldService.FieldServicePlugin]]Principal user (ID=c4c45efe-866d-eb11-a812-000d3a8eefe9, type=8, roleCount=1, privilegeCount=110, accessMode=4), is missing prvReadmsdyn_workorder privilege (ID=912a06d3-4545-4bea-bbd1-18661ff70424) on OTC=10425 for entity 'msdyn_workorder'. context.Caller=c4c45efe-866d-eb11-a812-000d3a8eefe9. Or identityUser.SystemUserId=dd1c82e4-ddf4-45fd-a1bf-4efd51274d04, identityUser.Privileges.Count=5978, identityUser.Roles.Count=0 is missing prvReadmsdyn_workorder privilege (ID=912a06d3-4545-4bea-bbd1-18661ff70424) on OTC=10425 for entity 'msdyn_workorder'.```
-
-      - question: |
-          Can I use Resource Scheduling Optimization in more than one Dynamics 365 organization?
-        answer: |
-          You can deploy multiple instances for Resource Scheduling Optimization in the same Microsoft 365 tenant. A Resource Scheduling Optimization instance can connect to one Dynamics 365 organization only. For more information, see [Deployment information for Resource Scheduling Optimization](rso-deployment.md).
 
       - question: |
           Why were my existing bookings deleted? 
