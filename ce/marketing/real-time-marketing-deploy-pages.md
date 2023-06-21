@@ -27,7 +27,9 @@ Currently we have the following options to publish a form:
 
 Although this looks like only two options, the JavaScript code option could be used in different ways and helps to publish the form basically anywhere. To publish a form in your own CMS however, it is required to authenticate the domains with Dynamics 365 Marketing. To authenticate domains, please follow the documentation.
 It is worth mentioning that those options are not exclusive to a given location, which means we can publish the same form in multiple locations. Let’s take a closer look at the options. 
-Important: The ability to capture the content of forms not created with Dynamics 365 Marketing does not currently exist.
+
+> [!IMPORTANT]
+> The ability to capture the content of forms not created with Dynamics 365 Marketing does not currently exist.
 
 ## Use a standalone page
 
@@ -38,7 +40,9 @@ There are situations where there is no other publishing option available or not 
 
 Today, the domain provided for the standalone page is provided by Dynamics Marketing. Coming soon, customers will be able to add their own domain for use with these standalone pages.
 One thing to notice here is that there is a caching mechanism in the background to deliver the page as fast as possible. But this also means that if the form is changed, those changes are not reflected immediately on the page. It could take up to 10 minutes for the cache to be updated. This effect is always present, no matter which method is used to include the form.
-There is a URL parameter which can be appended to given URL to get around the cached version and force the infrastructure to load the updated version of the form. Just append “#d365mkt-nocache” to the URL and the page ignores the cache and loads the form from Dynamics Marketing. 
+
+> [!NOTE]
+> There is a URL parameter which can be appended to given URL to get around the cached version and force the infrastructure to load the updated version of the form. Just append “#d365mkt-nocache” to the URL and the page ignores the cache and loads the form from Dynamics Marketing. 
 
 ## Single page application (SPA)
 
