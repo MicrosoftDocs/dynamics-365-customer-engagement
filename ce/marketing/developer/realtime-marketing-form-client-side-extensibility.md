@@ -43,9 +43,23 @@ Real-time marketing forms consist of two parts:
 |`d365mkt-formrender`|Triggered after the form content is fetched and right before it is injected into the form placeholder. |
 |`d365mkt-afterformload`|Triggered after the form is injected into the placeholder. |
 |`d365mkt-formsubmit`| Triggered when the form is submitted, cancellable. |
+|`d365mkt-afterformsubmit`| Triggered after form is submitted |
+
+#### Form submit - d365mkt-formsubmit detail object properties
+| Name | Type | Desription |
+| ----- | ---- | ---- |
+| payload | Object | Dictionary with form properties about to being send to server |
+
+
+#### After form submit - d365mkt-afterformsubmit detail object properties
+| Name | Type | Desription |
+| ----- | ---- | ---- |
+| success | boolean | Indicates whether the server accepted the submission or if the submission was rejected |
+| payload | Object | Dictionary with form properties as they were send to server |
   
 You can attach custom events using the standard event attach mechanics:
 
+##### Sample code
   ```HTML
   <script>
 document.addEventListener("d365mkt-beforeformload", function() { console.log("d365mkt-beforeformload") });
@@ -58,7 +72,11 @@ document.addEventListener("d365mkt-formsubmit", function(event) {
       console.log("blocked mkt-formsubmit"); 
       return;
     }
-    console.log("mkt-formsubmit"); 
+    console.log("mkt-formsubmit" + JSON.stringify(event.detail.payload)); 
+});
+document.addEventListener("d365mkt-afterformsubmit", function(event) {
+    console.log("success - " + event.detail.successful);
+    console.log("payload - " + JSON.stringify(event.detail.payload));
 });
 </script>
 ```
