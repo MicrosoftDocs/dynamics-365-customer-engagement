@@ -10,14 +10,14 @@ ms.date: 06/21/2023
 ms.custom: bap-template 
 ---
 
-# Enable an entity for scheduling
+# Enable an entity for resource scheduling
 Enabling an entity for scheduling allows agents to schedule the requirements related to that entity to the matching resources.
 
 ## Prerequisites
 
 You must have the System Administrator role to enable an entity for scheduling.
 
-## Enable an entity for scheduling
+## Enable an entity for resource scheduling
 
 1. In **Resource Scheduling**, change to the **Settings** area, and then under **Scheduling**, select **Administration** > **Enable Resource Scheduling for Entities**.
 1. In the **Enable New Entity** section, under **Add Entity**, select an entity from the list.
@@ -28,7 +28,7 @@ You must have the System Administrator role to enable an entity for scheduling.
 1. For **Booking Relationship** and **Requirement Relationship**, select **Create New Relationship**. Select an existing relationship if you've previously created relationships to the bookable resource booking or resource requirement entities.
 1. Select **Publish Customization**.
 
-## Disable scheduling for an enabled entity
+## Disable resource scheduling for an enabled entity
 
 To turn off scheduling for a previously enabled entity, select **Deactivate** in the ribbon on the **Booking Setup Metadata** record of the enabled entity.
 
