@@ -61,7 +61,7 @@ Perform the following steps to enable the Copilot features:
 1. You can add up to five trusted web domains for Copilot to search when generating responses. Select **Add web address** in **Web resources** to add trusted external domains. To limit the content you want Copilot to use, specify up to two levels, represented by forward slashes (/) after the .com part of the URL. 
 
 > [!NOTE]
-> Web domains are only used by Copilot to draft emails and chat replies.
+> Web domains are used by Copilot only to draft emails and chat replies.
 
 :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
 
