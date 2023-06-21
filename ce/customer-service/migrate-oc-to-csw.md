@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Migrate from Omnichannel for Customer Service to Customer Service workspace
 
-This article contains configuration information for migrating from the Omnichannel for Customer Service agent-facing app to Customer Service Workspace. The Omnichannel for Customer Service agent-facing app was [deprecated](/deprecations-customer-service#omnichannel-for-customer-service-agent-facing-app-to-be-deprecated) on April 1, 2023.
+This article contains configuration information for migrating from the Omnichannel for Customer Service agent-facing app to Customer Service Workspace. The Omnichannel for Customer Service agent-facing app was [deprecated](/deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-to-be-deprecated) on April 1, 2023.
 
 ## Prerequisites
 
