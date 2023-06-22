@@ -108,7 +108,7 @@ The following metadata are required for conversation intelligence:
 
 | **Metadata key name** | **Description**                                                        | **Value Example**         |
 |-----------------------|------------------------------------------------------------------------|---------------------------|
-| Role                  | Indicates whether it is an inbound or outbound call for the seller.    | \["inbound", "outbound"\] |
+| Role                  | Indicates whether it is an inbound or outbound call for the seller.    | ["inbound", "outbound"] |
 | CallerDisplayName     | Caller display name. If not available, phone number is displayed.      | Kenny Smith               |
 | CalleeDisplayName     | Recipient's display name. If not available, phone number is displayed. | Alex Baker                |
 
@@ -143,7 +143,7 @@ s=provider Media Gateway
 c=IN IP4 84.172.x.x 
 t=0 0 
 m=audio 15352 RTP/SAVP 0 8 101 
-a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:bckPlyxG6j4/3JzzT4wXPyJ7hYHdYCTy3IPtkjfk 
+a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:<Encryption_key>
 a=rtpmap:0 PCMU/8000 
 a=rtpmap:8 PCMA/8000 
 a=rtpmap:101 telephone-event/8000 
@@ -153,7 +153,7 @@ a=maxptime:20
 a=sendonly 
 a=label:inbound 
 m=audio 16022 RTP/SAVP 0 8 101 
-a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:Prim5f8HmxbSyFEHhCv2wOpDoeTaYPExJNKBgljj 
+a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:<Encryption_key> 
 a=rtpmap:0 PCMU/8000 
 a=rtpmap:8 PCMA/8000 
 a=rtpmap:101 telephone-event/8000 
