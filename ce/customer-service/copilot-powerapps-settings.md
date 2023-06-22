@@ -38,7 +38,8 @@ When you enable the Copilot case summary feature, agents can see the case summar
 1. Set the **Show hidden** toggle to **On**.
 1. Save and publish the customizations.
 
-The case summary must not load on a custom case form if the Copilot case summary feature or **Copilot** option in the agent experience profile linked to the agent isn't enabled. To ensure that the case summary doesn't load in such scenarios, perform the following steps:
+You must also configure the following settings to make sure that copilot summary doesn't load on the custom case form when the Copilot case summary feature isn't enabled or the agent experience profile linked to the agent doesn't have **Copilot** option enabled:
+
 1. In Power Apps, you must add the event handler function for the On Change event. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui).
 1. Specify the following details in **Configure Event**:
      - Set the **Event Type** to **On load**.
