@@ -43,7 +43,6 @@ In the following example, note that:
 
 - The **msdyn_channeldefinitionexternalentity** and the **msdyn_channeldefinitionexternalformid** contain the name and the form ID of the entity you created when you [defined the channel instance](custom-define-sms-instance.md).
 - The **msdyn_channeldefinitionaccountexternalentity** and the **msdyn_channeldefinitionaccountexternalformid** contain the name and the form ID of the entity you created when you [defined the channel instance account](custom-define-sms-account.md).
-- The **msdyn_messageformid** contains the form ID that you created if you [defined a custom message editor](custom-sms-message-editor.md).
 - The **msdyn_outboundendpointurltemplate** contains the custom API that you created when you [defined custom APIs](custom-sms-custom-api.md).
 
 Example of customizations.xml including channel definition:
