@@ -505,9 +505,9 @@
             - name: Add custom SMS channel
               href: add-custom-sms-provider-intro.md  
               items:
-                - name: Define an extended configuration entity for the SMS instance
+                - name: Define an extended configuration entity for the channel instance
                   href: custom-define-sms-instance.md
-                - name: Define an extended configuration entity for the SMS instance account
+                - name: Define an extended configuration entity for the channel instance account
                   href: custom-define-sms-account.md
                 - name: Define the message parts
                   href: custom-sms-message-parts.md

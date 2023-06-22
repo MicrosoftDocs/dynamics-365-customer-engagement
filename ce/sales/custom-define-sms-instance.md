@@ -68,4 +68,4 @@ For each channel solution, you need to:
 
 ## Next steps
 
-[Define an extended configuration entity for the SMS instance account](custom-define-sms-account.md)
+[Define an extended configuration entity for the channel instance account](custom-define-sms-account.md)
