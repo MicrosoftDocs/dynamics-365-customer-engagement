@@ -1,7 +1,7 @@
 ---
 title: "Manage historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to configure Customer Service historical analytics reports in Omnichannel for Customer Service."
-ms.date: 06/23/2023
+ms.date: 06/22/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -18,7 +18,7 @@ The historical reports include:
 
 - [Summary report](summary-dashboard-cs.md)
 - [Agent report](agent-dashboard-cs.md)
-- [Topics report](case-topics-dashboard-cs.md) 
+- [Topics report](case-topics-dashboard-cs.md)
 - [Unified routing](cs-historical-analytics-unified-routing.md)
 
 After you enable the reports, you can access them in one of the following ways:
