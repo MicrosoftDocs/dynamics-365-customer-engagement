@@ -78,7 +78,7 @@ Do the following for the channel in which you want to create custom automated me
 
 | **Message trigger** | **Definition** | **When to trigger** |
 |-----------------|------------|-----------------|
-| Agent assigned to a conversation | Message displayed to the customer when the agent is assigned to the conversation | When the agent is assigned to the conversation. |
+| Greeting message | The automated message played for the customer as soon as the call connects <br>**Note**<br> If the bot is enabled, ensure that automated greeting message and the bot message are different. | When the customer calls to digital contact center. |
 | Agent couldn’t be assigned to conversation   | Message displayed to the customer when agent assignment fails | When work distribution fails or when routing is unable to add the agent to the chat due to system (CBB/IC3) failure. For example, no agents are linked to the queue, or the default queue isn't found. <br>**Note**<br> This trigger isn't applicable to a scenario when a matching agent can't be identified based on the assignment configuration. |
 | Agent disconnected from conversation | Message displayed to the customer when the agent gets disconnected | When the agent gets disconnected due to browser tab closure, browser closure, offline agent presence, or network issue.  |
 | Agent ended conversation | Message displayed to the customer when the agent ends the conversation | When the agent selects the End button |
