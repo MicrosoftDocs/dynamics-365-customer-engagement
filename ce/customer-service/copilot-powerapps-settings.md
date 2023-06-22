@@ -37,14 +37,15 @@ When you enable the Copilot case summary feature, agents can see the case summar
    - **CC_IncidentId**: **Case (Text)**
 1. Set the **Show hidden** toggle to **On**.
 1. Save and publish the customizations.
-1. The case summary must not load on a custom case form if the Copilot case summary feature isn't enabled or the agent experience profile linked to the agent doesn't have the **Copilot** option enabled. To ensure that the case summary doesn't load in such scenarios, perform the following steps:
-  1. In Power Apps, you must add the event handler function for the On Change event. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui).
-  1. Specify the following details in **Configure Event**:
+
+The case summary must not load on a custom case form if the Copilot case summary feature or **Copilot** option in the agent experience profile linked to the agent isn't enabled. To ensure that the case summary doesn't load in such scenarios, perform the following steps:
+1. In Power Apps, you must add the event handler function for the On Change event. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui).
+1. Specify the following details in **Configure Event**:
      - Set the **Event Type** to **On load**.
      - Set the **Library** to **msdyn_CopilptCaseSummaryLibrary.js**
      - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
      - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
-  1. Save and publish the changes.
+1. Save and publish the changes.
 
 ### Modify fields used to generate case summary
 
