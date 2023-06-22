@@ -51,40 +51,4 @@ The following diagram illustrates how the integration works:
 
     ```curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token -d 'client_id=<your app id>' -d 'grant_type=client_credentials' -d 'scope=f448d7e5-e313-4f90-a3eb-5dbb3277e4b3/.default' -d 'client_secret=<your app secret>'```
 
-    For more information about the curl command, see [Get Azure AD tokens for service principals](/azure/databricks/dev-tools/api/latest/aad/service-prin-aad-token).
-
-1. Call the following conversation intelligence API to register the third-party service provider:  
-    ```POST /api/v1.0/providers/tenants```  
-    The following snippet is an example of the request body:
- 
-     ```java
-    
-    {
-        "orgId": "ad3dca46-962a-4895-9f85-d25f3828781f",
-        "Type": "custom",
-        "hosting": "cloud",
-        "displayName": "Test Custom Provider",
-        "AuthenticationDetails": 
-        {
-            "AccountId":"adxxxxx-xxxx-xxxx-xxxx-xxxxxxxx",
-            "CertificateSubjectName": "certSubject",
-            "CertificateIssuer": "issuer",
-            "SourceIPNetwork": "0.0.0.0"
-        }
-    }
-    ```
-    For more information about the API, see the [Swagger documentation](https://api.media.recording.dynamics.com/api/specification.providers.json).
- 
-   After the request is successful, the Dynamics 365 Sales admin can create a recording policy for the new provider.
-
-    <<Editor's note: Need info about the parameters and where they can get it from. Also, the request body in swagger doc is different from the above.>>
-
-3. Call the following conversation intelligence API to get the list of users to record: 
-    ```GET /api/v1.0/providers/users```
-
-After the Dynamics 365 Sales admin creates the recording policy, the provider can use this endpoint to filter the media that will be forked to conversation intelligence recorders.
-
-
-### See also
-
-[View and understand the call summary page](view-and-understand-call-summary-sales-app.md)
+   
