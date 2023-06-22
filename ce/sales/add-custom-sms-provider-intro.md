@@ -22,8 +22,8 @@ Dynamics 365 Sales supports **SMS** channels natively and can add SMS channels t
 
 ## Steps to add custom SMS channels
 
-1. [Define an extended configuration entity for the channel instance](custom-define-sms-instance.md)
-1. [Define an extended configuration entity for the channel instance account](custom-define-sms-account.md)
+1. [Define an extended configuration entity for a channel instance](custom-define-sms-instance.md)
+1. [Define an extended configuration entity for a channel instance account](custom-define-sms-account.md)
 1. [Define the message parts](custom-sms-message-parts.md) (solution-aware component)
 1. [Define the localization for the admin interface](custom-sms-localization-admin.md) (optional)
 1. [Define custom APIs](custom-sms-custom-api.md)
@@ -59,6 +59,6 @@ The following sample includes unpacked solutions for Dataverse and plugins proje
     - [pac CLI](/power-platform/developer/cli/reference/solution#pac-solution-pack) (**preferred**)
     - [Solution packager](/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager)  
 
-    `pac solution pack --zipfile C:\tmp\SampleSMSChannelSolution.zip -f src\Solutions\Samples\SampleSMSChannel\SampleSMSChannel.Solution\unmanaged --packagetype Both`
+    `pac solution pack --zipfile C:\tmp\SampleSmsChannelSolution.zip -f src\Solutions\Samples\SampleSmsChannel\SampleSmsChannel.Solution\unmanaged --packagetype Both`
 
 

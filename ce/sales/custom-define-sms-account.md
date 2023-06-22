@@ -9,7 +9,7 @@ ms.date: 06/23/2023
 ms.custom: bap-template 
 ---
 
-# Define an extended configuration entity for the channel instance account
+# Define an extended configuration entity for a channel instance account
 
 When you create a custom SMS channel, you need to define an entity to represent the extended configuration for the *channel instance account* (**msdyn_channelinstanceaccount**). For example, you might have a **MessageBird** account for which you've enabled multiple phone numbers. The channel instance account has a 1:N relationship with the [channel instances you created](custom-define-sms-instance.md) (in this example, the **MessageBird** phone numbers).
 

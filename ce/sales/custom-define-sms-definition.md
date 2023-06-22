@@ -91,7 +91,7 @@ The following sample includes unpacked solutions for Dataverse and plugins proje
     - [pac CLI](/power-platform/developer/cli/reference/solution#pac-solution-pack) (**preferred**)
     - [Solution packager](/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager)
 
-    `pac solution pack --zipfile C:\tmp\SampleSMSChannelSolution.zip -f src\Solutions\Samples\SampleSMSChannel\SampleSMSChannel.Solution\unmanaged --packagetype Both`
+    `pac solution pack --zipfile C:\tmp\SampleSmsChannelSolution.zip -f src\Solutions\Samples\SampleSmsChannel\SampleSmsChannel.Solution\unmanaged --packagetype Both`
 
 ### See also
 

@@ -13,10 +13,6 @@ ms.custom: bap-template
 
 When you create a custom SMS channel, you need to define a record in the **Channel Message Part** entity for each message part that the channel operates with (for example, title, subtitle, text). A custom SMS channel requires at least one message part. When your solution is imported, a new row for every message part is created in the **msdyn_channelmessagepart** table.
 
-> [!IMPORTANT]
-> - The SMS channel type requires just one message part with the name **text** and type **192350000**, which is used by the default Dynamics 365 Sales SMS editor. No other types of message parts are supported for SMS channels.
-> - If you're setting up metadata records directly in the customization file, make sure that the GUIDs are lowercase.
-
 ## Message Part contract
 
 Entity logical name: **msdyn_channelmessagepart**

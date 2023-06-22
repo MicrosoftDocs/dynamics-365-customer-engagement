@@ -9,7 +9,7 @@ ms.date: 06/23/2023
 ms.custom: bap-template 
 ---
 
-# Define an extended configuration entity for the channel instance
+# Define an extended configuration entity for a channel instance
 
 A *Custom instance* is the representation of a provider in Dynamics 365 Sales. When you create the channel, you need to configure a sender&mdash;for example, the sender of a text message. Each instance of a channel&mdash;that is, the entity **Channel Instance**&mdash;represents a single sender.
 
@@ -68,4 +68,4 @@ For each channel solution, you need to:
 
 ## Next steps
 
-[Define an extended configuration entity for the channel instance account](custom-define-sms-account.md)
+[Define an extended configuration entity for a channel instance account](custom-define-sms-account.md)
