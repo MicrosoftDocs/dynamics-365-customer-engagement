@@ -1,7 +1,7 @@
 ---
 title: Work with invalid email addresses (preview)
 description: View and work with invalid email addresses for leads and contacts in Microsoft Dynamics 365 Sales.
-ms.date: 04/14/2023
+ms.date: 06/23/2023
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -14,6 +14,8 @@ ms.custom: bap-template
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Email validation in Dynamics 365 Sales identifies and removes non-working or invalid email addresses in your leads and contacts. This proactive validation helps you prioritize customers who have a valid email address, which in turn results in lower email bounce rates, improved engagement, and increased value for your time.
+
+As you enter the email address in the primary email field, the validation process starts automatically. If the email address is valid, the envelope icon turns green. If the email address is invalid, the envelope icon turns red. You can view the reason for the invalid email address by hovering over the envelope icon. For more information on error messages, see [Understand email error messages](#understand-email-error-messages).
 
 Email address validation looks for the following errors:
 

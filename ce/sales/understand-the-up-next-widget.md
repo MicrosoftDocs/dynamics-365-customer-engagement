@@ -1,7 +1,7 @@
 ---
 title: "Understand the up next widget on records"
 description: "Understand on how to use the up next widget to do activities on your records through sales accelerator."
-ms.date: 12/09/2022
+ms.date: 06/22/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -36,6 +36,8 @@ The following image shows an example of the **Up next** widget.
    After you complete the action, select **Mark complete**, and the activity is closed and moved automatically to completed items and is displayed on the timeline.
 
    You can choose to skip the activity if you think it's not relevant to the record or you don't want to perform the action. Select **More options**, and then select **Skip**. The activity is skipped and moved to completed items.
+   
+    Also, you can view suggestions for the record and preview the sequence to get an overview of the sequence steps. More infomration: [Preview a sequence](#preview-a-sequence) 
 
 2. **Upcoming activity**: The upcoming activity section is view-only, and you can't perform an action on these tasks. This section is displayed so you know which activity will appear next when you complete the current activity.
 
@@ -55,6 +57,16 @@ Only one manual activity is displayed in the **Up next** widget at a time. After
 The characteristics of manual activities are similar to an activity defined in a sequence. Sellers must perform the activity and mark it as complete. Then the activity will be moved to the list of completed activities in the **Up next** widget. A sales manager or you, as a seller, can add the manual activity to the records that you or your security role owns.
 
 To add manual activities, see [Track and manage activities](manage-activities.md). After the activity is added to the record, based on its due date, the activity will be displayed in the **Up next** widget.   
+
+## Preview a sequence
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+To preview a sequence, select the name of the sequence in the **Up next** widget. The sequence opens in a pane displaying the list of activities that are defined within the sequence.  
+
+Using this information, you can understand the progress of the sequence and 
+
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 

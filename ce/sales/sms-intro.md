@@ -1,12 +1,12 @@
 ---
 title: Engage with customers through text messages
 description: Enable your sellers to send text messages (SMS) to customers and refer previous communications in context without leaving the application or losing view of customers' details.
-ms.date: 05/12/2023
+ms.date: 06/23/2023
 ms.topic: overview
 ms.custom: bap-template
 author: udaykirang
 ms.author: udag
-
+ms.reviewer: shujoshi
 ---
 
 # Engage with customers through text messages
@@ -90,4 +90,3 @@ The following roles are required along with the roles defined in the [salesperso
 
 [Configure SMS provider](configure-sms-provider.md)    
 [Edit phone numbers](edit-phone-numbers.md)  
-
