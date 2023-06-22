@@ -12,10 +12,9 @@ ms.custom: bap-template
 
 # View analytics for Copilot impact (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[This article is prerelease documentation and is subject to change.]
 
-> [!IMPORTANT]
-> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 The Copilot report in Customer Service historical analytics empowers supervisors and customer service managers to identify the impact that Copilot helps create across their entire customer service operation. With Copilot, customer service agents are able to complete various tasks related to conversations, cases, and email more easily.
 
@@ -67,7 +66,7 @@ The Copilot report displays the following metrics.
 |---------|---------|---------|
 |Agent ratings| The graph displays the number of times agents rated a copilot response positively or negatively  ||
 
-## See also
+### See also
 
 [Use copilot features](use-copilot-features.md)  
 [Configure copilot](configure-copilot-features.md)  
