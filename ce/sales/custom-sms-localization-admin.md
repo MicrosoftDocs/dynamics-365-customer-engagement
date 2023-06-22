@@ -51,4 +51,4 @@ Example of **customizations.xml** including channel definition locales:
 
 ## Next steps
 
-[Define message editor interface](custom-sms-message-editor.md)
+[Define custom APIs for SMS channel](custom-sms-custom-api.md)

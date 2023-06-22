@@ -9,14 +9,11 @@ ms.date: 06/23/2023
 ms.custom: bap-template 
 ---
 
-# Define an extended configuration entity for the SMS instance
+# Define an extended configuration entity for the channel instance
 
-A *SMS instance* is the representation of a channel in Dynamics 365 Sales. When you create the channel, you need to configure a sender&mdash;for example, the sender of a text message. Each instance of a SMS channel&mdash;that is, the entity **Channel Instance**&mdash;represents a single sender.
+A *Custom instance* is the representation of a provider in Dynamics 365 Sales. When you create the channel, you need to configure a sender&mdash;for example, the sender of a text message. Each instance of a channel&mdash;that is, the entity **Channel Instance**&mdash;represents a single sender.
 
-> [!IMPORTANT]
-> To allow Dynamics 365 Sales to access the extended configuration entity during submission, you need to add **Read** privileges for the extended configuration entity to the **Cxp Channel Definitions Services User** role.
-
-For each SMS channel solution, you need to:
+For each channel solution, you need to:
 
 1. [Create a custom table](/power-apps/maker/data-platform/data-platform-create-entity) to represent the extended configuration of the **Channel Instance** table (**msdyn_channelinstance**) defined in the base solution.
 
@@ -66,6 +63,8 @@ For each SMS channel solution, you need to:
 1. Create a form to expose the configuration fields.
 
     The form is loaded in the Sales setup wizard. The form ID is assigned to the attribute **msdyn_channeldefinitionexternalformid** at the [channel definition step](custom-define-sms-definition.md).
+
+    :::image type="content" source="media/sms-custom-form.png" alt-text="Screenshot of a form for an SMS channel.":::
 
 ## Next steps
 

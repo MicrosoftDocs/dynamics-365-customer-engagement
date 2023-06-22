@@ -1,5 +1,5 @@
 ---
-title: Define an extended configuration entity for the SMS instance account
+title: Define an extended configuration entity for the channel instance account
 description: Learn how to define an extended configuration entity for the custom SMS channel instance account in Dynamics 365 Sales. 
 author: udaykirang
 ms.author: udag
@@ -9,12 +9,9 @@ ms.date: 06/23/2023
 ms.custom: bap-template 
 ---
 
-# Define an extended configuration entity for the SMS instance account
+# Define an extended configuration entity for the channel instance account
 
 When you create a custom SMS channel, you need to define an entity to represent the extended configuration for the *channel instance account* (**msdyn_channelinstanceaccount**). For example, you might have a **MessageBird** account for which you've enabled multiple phone numbers. The channel instance account has a 1:N relationship with the [channel instances you created](custom-define-sms-instance.md) (in this example, the **MessageBird** phone numbers).
-
-> [!IMPORTANT]
-> To allow Dynamics 365 Sales to access the extended configuration entity during submission, you need to add **Read** privileges for the extended configuration entity to the **Cxp Channel Definitions Services User** role.
 
 For each custom SMS channel solution, you need to:
 
@@ -69,6 +66,8 @@ For each custom SMS channel solution, you need to:
 1. Create a form to expose the configuration fields.
 
     The form doesn't have to contain attributes like name or description since they come from Sales Custom controls. The form is loaded in the Sales SMS setup wizard (settings step). The form ID is assigned to the attribute **msdyn_channeldefinitionaccountexternalformid** at the [channel definition step](custom-define-sms-definition.md).  
+
+    :::image type="content" source="media/sms-custom-form-account.png" alt-text="Screenshot of a form for an SMS channel with account details.":::
 
 ## Next step
 

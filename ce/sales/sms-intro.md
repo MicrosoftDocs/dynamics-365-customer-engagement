@@ -66,6 +66,7 @@ Verify that the users who need to use the text message feature have the followin
 |----------|-------------|--------------|---------------------|  
 | Core Records | - Activity<br>- Note | User | - Create<br>- Write<br>- Delete<br>- Append |
 | Core Records | - Activity<br>- Note | Business Unit | Read | 
+| Core Records | Lead | Business Unit | Read | 
 | Custom Entities | Channel Instance | User | Append To |
 | Custom Entities | - Channel Instance<br>- Channel Instance Account<br>- Consuming Application<br>- Channel Definition<br>- SalesOmnichannel Message<br>- Transcript | Business Unit | Read |
 | Custom Entities | Environment variable definition | Organization | Read |

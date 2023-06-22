@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 ## Outbound custom API
 
-When you create a custom SMS channel in Dynamics 365 Sales, you need to define an [outbound custom API](/power-apps/developer/data-platform/custom-api) to call during the journey runtime. The custom API is the entry point for executing custom code. It calls the provider's APIs and must accept the contract defined by the Sales journey and return the response. The outbound custom API is assigned to the attribute **msdyn_outboundendpointurltemplate** at the [channel definition step](custom-define-sms-definition.md).
+When you create a custom SMS channel in Dynamics 365 Sales, you need to define an [outbound custom API](/power-apps/developer/data-platform/custom-api) to call during the journey runtime. The custom API is the entry point for executing custom code. It calls the provider's APIs and must accept the contract defined by the Sales SMS and return the response. The outbound custom API is assigned to the attribute **msdyn_outboundendpointurltemplate** at the [channel definition step](custom-define-sms-definition.md).
 
 The contract that the outbound custom API should implement must have one input parameter (payload) and one output attribute (response).
 
@@ -24,11 +24,6 @@ The contract that the outbound custom API should implement must have one input p
   - **From**: string – The sender (channel instance).
   - **To**: string – The recipient.
   - **Message**: Dictionary <string, string> - Contains all the message parts for a channel. Keys are the message part names, such as the values of the corresponding `msdyn_name` attribute.
-  - **SalesAppContext**: object - An object representing the context of the submission. This object is only available when the submission is executed from the Sales application. The object contains the following fields:
-    - **CustomerJourneyId**: string - The ID of the customer journey initiating the call. Null when the submission is requested from a test send.
-    - **UserId**: GUID - ID of the user who is receiving the message. Null when the submission is requested from a test send.
-    - **UserEntityType**: string - Type of entity representing a user who is receiving the message. Null when the submission is requested from a test send.
-    - **IsTestSend**: boolean - True when submission was initiated from a test send, False otherwise.
 
 - The response is a serialized JSON with the following contract:
 
@@ -41,7 +36,7 @@ The contract that the outbound custom API should implement must have one input p
 
 ## Delivery report custom API
 
-If your channel supports message delivery reports or statuses, you need to define a [delivery report custom API](/power-apps/developer/data-platform/custom-api). Your API is called by the provider and it must call the base solution's **msdyn_D365ChannelsNotification** API, which returns the information to Dataverse. This information is available in Sales analytics.
+If your channel supports message delivery reports or statuses, you need to define a [delivery report custom API](/power-apps/developer/data-platform/custom-api). Your API is called by the provider and it must call the base solution's **msdyn_D365ChannelsNotification** API, which returns the information to Dataverse. This information is available in Sales chat editor.
 
 The delivery report custom API calls the **msdyn_D365ChannelsNotification** API with the contract as one input parameter:
 

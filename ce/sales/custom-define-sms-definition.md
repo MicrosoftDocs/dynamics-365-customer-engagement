@@ -76,10 +76,9 @@ Example of customizations.xml including channel definition:
 
 ## Sample solutions
 
-The following samples include unpacked solutions for Dataverse and plugins projects. To pack and import these solutions, first build the plugin project. The project copies the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/power-platform/alm/solution-packager-tool).
+The following sample includes unpacked solutions for Dataverse and plugins projects. To pack and import these solutions, first build the plugin project. The project copies the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/power-platform/alm/solution-packager-tool).
 
 - [SampleSmsChannel.zip](https://download.microsoft.com/download/c/c/6/cc6fed59-f95a-4577-aed5-49daa62b1f66/SampleSmsChannel-2022.12.zip)
-- [SampleCustomChannel.zip](https://download.microsoft.com/download/5/8/6/586e2d47-ac82-48e9-9cc4-066c141e0649/SampleCustomChannel-2022.12.zip)
 
 ### How to build the plugins project and pack the solution
 
@@ -92,9 +91,9 @@ The following samples include unpacked solutions for Dataverse and plugins proje
     - [pac CLI](/power-platform/developer/cli/reference/solution#pac-solution-pack) (**preferred**)
     - [Solution packager](/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager)
 
-    `pac solution pack --zipfile C:\tmp\SampleCustomChannelSolution.zip -f src\Solutions\Samples\SampleCustomChannel\SampleCustomChannel.Solution\unmanaged --packagetype Both`
+    `pac solution pack --zipfile C:\tmp\SampleSMSChannelSolution.zip -f src\Solutions\Samples\SampleSMSChannel\SampleSMSChannel.Solution\unmanaged --packagetype Both`
 
 ### See also
 
-[Add custom SMS channel provider](add-custom-sms-provider-intro.md)  
+[Add custom SMS channel](add-custom-sms-provider-intro.md)  
 [Configure SMS provider](configure-sms-provider.md)
