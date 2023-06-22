@@ -91,7 +91,7 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-Customer Service historical analytics must be enabled and you must opt in to Copilot help pane and Copilot summaries to turn on analytics for Copilot.
+Customer Service historical analytics must be enabled and you must opt in to the Copilot help pane and Copilot summaries to turn on analytics for Copilot.
 
 1. In the Customer Service admin center, go to Insights, and on the page that appears, select **Manage** for **Customer Service historical analytics**.
 
