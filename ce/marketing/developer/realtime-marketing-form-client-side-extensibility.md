@@ -1,7 +1,7 @@
 ---
 title: "Extend real-time marketing forms using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Extend real-time marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
-ms.date: 04/05/2023
+ms.date: 06/21/2023
 ms.custom:
 - dyn365-marketing
 ms.topic: article
@@ -46,16 +46,17 @@ Real-time marketing forms consist of two parts:
 |`d365mkt-afterformsubmit`| Triggered after form is submitted |
 
 #### Form submit - d365mkt-formsubmit detail object properties
+
 | Name | Type | Desription |
 | ----- | ---- | ---- |
-| payload | Object | Dictionary with form properties about to being send to server |
-
+| Payload | Object | Dictionary with form properties to be sent to the server |
 
 #### After form submit - d365mkt-afterformsubmit detail object properties
+
 | Name | Type | Desription |
 | ----- | ---- | ---- |
-| success | boolean | Indicates whether the server accepted the submission or if the submission was rejected |
-| payload | Object | Dictionary with form properties as they were send to server |
+| Success | Boolean | Indicates whether the server accepted the submission or if the submission was rejected |
+| Payload | Object | Dictionary with form properties as they were sent to the server |
   
 You can attach custom events using the standard event attach mechanics:
 
