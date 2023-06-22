@@ -49,7 +49,7 @@ The following diagram illustrates how the integration works:
 
 2. Get the token to run the Conversation Intelligence APIs using the app created in the previous section:
 
-
+    ```curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token -d 'client_id=<your app id>' -d 'grant_type=client_credentials' -d 'scope=f448d7e5-e313-4f90-a3eb-5dbb3277e4b3/.default' -d 'client_secret=<your app secret>'```
 
     For more information about the curl command, see [Get Azure AD tokens for service principals](/azure/databricks/dev-tools/api/latest/aad/service-prin-aad-token).
 
@@ -101,7 +101,7 @@ The following metadata are required for conversation intelligence:
 | **Header Name** | **Description**                                                                                                                                                            | **Value Example**                  |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
 | Call-ID         | Unique identifier of the call. This is used to correlate SIP signals and user actions such as start/stop recording.                                                       | efab0870bc597cb3fb56010921e2f57f   |
-| X-AccountId     | Unique identifier of the account the call belongs to. This is used for authentication and authorization. This is the same account Id registered in the API for the tenant. | ACd6bfacf4fea1e2b3db9e783d4949e91d |
+| X-AccountId     | Unique identifier of the account the call belongs to. This is used for authentication and authorization. This is the same account Id registered in the API for the tenant. | ACxxxxxxxxxxxxxxxxxxxxxxx |
 
 2. Metadata –
 
