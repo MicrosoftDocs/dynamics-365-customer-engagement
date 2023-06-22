@@ -56,8 +56,94 @@ If you would like to collect tracking consent, you can add the tracking purpose 
 
 The following diagram provides a visual representation of how consent will be enforced in Real-time marketing.
 
-> [!div class="mx-imgBorder"]
-> ![Consent enforcement model.](media/real-time-marketing-consent-enforcement-table.png " Consent enforcement model ")
+<table>
+  <tr>
+    <th style="text-align: center" colspan="4">Restrictive enforcement model</th>
+  </tr>
+  <tr>
+  	<td></td>
+    <td>Opted out</td>
+    <td>None/Not-set</td>
+    <td>Opted in</td>
+  </tr>
+  <tr>
+  	<td><b>Email channel</b></td>
+    <td style="background-color:lightcoral;">Blocked</td>
+    <td style="background-color:lightcoral;">Blocked</td>
+    <td style="background-color:lightgreen;">Sent</td>
+  </tr>
+  <tr>
+  	<td><b>SMS/Custom channel</b></td>
+    <td style="background-color:lightcoral;">Blocked</td>
+    <td style="background-color:lightcoral;">Blocked</td>
+    <td style="background-color:lightgreen;">Sent</td>
+  </tr>
+  <tr>
+  	<td><b>Tracking purpose<b></td>
+    <td style="background-color:lightcoral;">No</td>
+    <td style="background-color:lightcoral;">No</td>
+    <td style="background-color:lightgreen;">Yes</td>
+  </tr>
+</table>
+<table style="width:100%";>
+  <tr>
+    <th style="text-align: center" colspan="4">Non-restrictive enforcement model</th>
+  </tr>
+  <tr>
+  	<td></td>
+    <td>Opted out</td>
+    <td>None/Not-set</td>
+    <td>Opted in</td>
+  </tr>
+  <tr>
+  	<td><b>Email channel</b></td>
+    <td style="background-color:lightcoral;">Blocked</td>
+    <td style="background-color:lightgreen;">Sent</td>
+    <td style="background-color:lightgreen;">Sent</td>
+  </tr>
+  <tr>
+  	<td><b>SMS/Custom channel</b></td>
+    <td style="background-color:lightcoral;">Blocked</td>
+    <td style="background-color:lightcoral;">Blocked</td>
+    <td style="background-color:lightgreen;">Sent</td>
+  </tr>
+  <tr>
+  	<td><b>Tracking purpose<b></td>
+    <td style="background-color:lightcoral;">No</td>
+    <td style="background-color:lightgreen;">Yes</td>
+    <td style="background-color:lightgreen;">Yes</td>
+  </tr>
+</table>
+
+<table style="width:100%";>
+  <tr>
+    <th style="text-align: center" colspan="4">Disabled enforcement model</th>
+  </tr>
+  <tr>
+  	<td></td>
+    <td>Opted out</td>
+    <td>None/Not-set</td>
+    <td>Opted in</td>
+  </tr>
+  <tr>
+  	<td><b>Email channel</b></td>
+    <td style="background-color:lightgreen;">Sent</td>
+    <td style="background-color:lightgreen;">Sent</td>
+    <td style="background-color:lightgreen;">Sent</td>
+  </tr>
+  <tr>
+  	<td><b>SMS/Custom channel</b></td>
+    <td style="background-color:lightgreen;">Sent</td>
+    <td style="background-color:lightgreen;">Sent</td>
+    <td style="background-color:lightgreen;">Sent</td>
+  </tr>
+  <tr>
+  	<td><b>Tracking purpose<b></td>
+    <td style="background-color:lightgreen;">Yes</td>
+    <td style="background-color:lightgreen;">Yes</td>
+    <td style="background-color:lightgreen;">Yes</td>
+  </tr>
+</table>
 
 > [!IMPORTANT]
 > Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to allow for an email with a commercial purpose type to be sent to a contact. Only the **Allow email** field must be set to allow emails to be sent with a transactional purpose type selected. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (for example, Leads or Customer Insights profiles).
