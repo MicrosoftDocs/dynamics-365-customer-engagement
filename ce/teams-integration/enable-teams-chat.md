@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable Teams chat in Dynamics 365 | MicrosoftDocs"
 description: "Enable Teams chat to help users effectively collaborate on their Dynamics 365 customer engagement records without having to leave the application."
-ms.date: 04/11/2023
+ms.date: 06/22/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -51,6 +51,9 @@ You must be a global administrator (tenant administrator) to enable Teams chat s
 1.	In the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), select an environment.
 2.	On the command bar, select **Settings** > **Integration** > **Teams integration settings**.
 3.	On the **Microsoft Teams collaboration and chat** page, turn on **Sync Teams chat data with Dynamics 365 records**.
+4. Save the changes.
+
+The feature is now enabled for all the customer engagement apps.
 
 ### Sync of chat data from Teams to Dynamics 365
 
