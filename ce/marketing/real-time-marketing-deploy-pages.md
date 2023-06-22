@@ -17,7 +17,7 @@ search.audienceType:
 
 To capture the interests of customers, Marketing forms are the tool of choice. Dynamics 365 Marketing recently added this capability natively to the Real-time engine of the product (RTM forms). While the form creation and designer experience have been aligned to the general concept of Real-time Marketing, we also now have more capabilities to publish those forms. In this article, we want to explore those possibilities in depth. 
 
-# Hosting options
+## Hosting options
 
 After the form is created and designed, it must be published so that customers can access and complete it. Typically, forms are included on CMS systems where, in the context of a product or service, they allow the customer to request further information or to be regularly informed.
 Currently we have the following options to publish a form:
@@ -85,7 +85,7 @@ RTM forms can also be hosted on Power Pages (formerly known as Power Apps Portal
 
 One caveat here's that the form won’t show up in the design mode in the Power Pages Studio. But if we choose to preview the page in the browser, the form shows up and can be used. It's planned to improve this authoring experience in the future so you would be able to add the marketing form using UI of Power Pages Studio.
 
-# Summary
+## Summary
 
 The new real-time Form designer offers a pleasant and easy way to create forms for the real-time Marketing module. The publishing options and better scripting possibilities offer much flexibility to provide forms on web pages for customers. As a general guidance, we can state the following: 
 - There's no need to connect Dynamics Marketing with Power Portals / Power Pages
