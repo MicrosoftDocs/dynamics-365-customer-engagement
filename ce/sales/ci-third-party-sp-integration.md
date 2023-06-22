@@ -49,6 +49,5 @@ The following diagram illustrates how the integration works:
 
 2. Get the token to run the Conversation Intelligence APIs using the app created in the previous section:
 
-    ```curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token -d 'client_id=<your app id>' -d 'grant_type=client_credentials' -d 'scope=xxxxxxx-xxxx-xxxx-xxxxxxxxxxxx/.default' -d 'client_secret=<your app secret>'```
 
    
