@@ -1,7 +1,7 @@
 ---
 title: "Apply SLAs | MicrosoftDocs"
 description: "Learn how to apply service-level agreements in Dynamics 365 Customer Service."
-ms.date: 06/16/2022
+ms.date: 06/22/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -29,7 +29,7 @@ When the SLA is reapplied, all the items of that SLA are evaluated based on the 
 
 In Unified Interface, by default, when the SLA moves to a terminal status (non-compliant or succeeded), the **Applicable When** and **Success Criteria** won't be evaluated again on the SLA. If you want the SLA to be reevaluated, you can enable the reevaluation setting in the service configuration settings. More information: [Enable SLA recalculation](enable-sla-recalculation.md)
 
-When UCI-SLA is reevaluated, it creates a new SLAKPIInstance and cancels the previous instance. This is new feature in UCI-SLA and does not happen for legacy SLA.
+When an Unified Interface SLA is reevaluated, a new SLAKPIInstance gets created and the previous instance gets cancelled. This isn't applicable to legacy SLAs.
 
 During maintenance activities or when you're importing records and you don't want the SLAs to be applied, you can disable SLAs for your organization. A system administrator can disable SLAs from the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab) 
 
