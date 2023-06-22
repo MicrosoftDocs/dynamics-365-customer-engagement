@@ -1,7 +1,7 @@
 ---
 title: "Manage historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to configure Customer Service historical analytics reports in Omnichannel for Customer Service."
-ms.date: 11/15/2022
+ms.date: 06/23/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -21,6 +21,12 @@ The historical reports include:
 - [Topics report](case-topics-dashboard-cs.md) 
 - [Unified routing](cs-historical-analytics-unified-routing.md)
 
+After you enable the reports, you can access them in one of the following ways:
+
+- In Customer Service workspace, select the hamburger menu, and then select **Customer Service historical analytics** in the site map.
+
+- In Customer Service Hub, in **Service**, in the site map, select **Customer Service historical analytics**.
+
 ## Manage Customer Service historical analytics reports
 
 Use the Customer Service admin center or Customer Service Hub app to enable or disable the reports.
@@ -35,7 +41,7 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
      
      1. On the **Customer Service historical analytics** page, set the **Enable Customer Service historical analytics report** toggle to **On** to enable the reports or set the toggle to **Off** to disable the reports.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub (deprecated) ](#tab/customerservicehub)
     
      1. In the site map, select **Service Management**.
      
@@ -67,7 +73,7 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
 
      1. Select the **Add historical analytics for unified routing** check box.  
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub (deprecated)](#tab/customerservicehub)
     
      1. In the site map, select **Service Management**.
      
@@ -79,14 +85,20 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
 
 1. Select **Save and Close**.
 
-After you enable the setting, you can access the report in one of the following ways:
+## Enable historical analytics for Copilot (preview)
 
-- In Customer Service workspace, select the plus (+) icon, and then select **Customer Service historical analytics**.
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-- In Customer Service Hub, in **Service**, in the site map, select **Customer Service historical analytics**.
+> [!IMPORTANT]
+> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
+Customer Service historical analytics must be enabled and you must opt in to Copilot help pane and Copilot summaries to turn on analytics for Copilot.
 
+1. In the Customer Service admin center, go to Insights, and on the page that appears, select **Manage** for **Customer Service historical analytics**.
 
+1. On the **Customer Service historical analytics** page, select the **Add historical analytics for Copilot (Preview)** checkbox, and then save the changes.
+
+You'll see a message on the command bar that your reports are being provisioned and it might take up to 24 hours for the process to complete.
 
 ### See also
 
@@ -94,6 +106,7 @@ After you enable the setting, you can access the report in one of the following 
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Knowledge search analytics](knowledge-search-analytics-cs.md)  
 [Historical analytics for unified routing in Customer Service](cs-historical-analytics-unified-routing.md)  
+[View analytics for Copilot impact](copilot-analytics-report.md)  
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 

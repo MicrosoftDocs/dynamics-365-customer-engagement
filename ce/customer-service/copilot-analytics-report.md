@@ -6,23 +6,16 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 06/21/2023
+ms.date: 06/23/2023
 ms.custom: bap-template
 ---
 
 # View analytics for Copilot impact (preview)
 
-[This article is prerelease documentation and is subject to change.]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 > [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 The Copilot report in Customer Service historical analytics empowers supervisors and customer service managers to identify the impact that Copilot helps create across their entire customer service operation. With Copilot, customer service agents are able to complete various tasks related to conversations, cases, and email more easily.
 
@@ -78,3 +71,4 @@ The Copilot report displays the following metrics.
 
 [Use copilot features](use-copilot-features.md)  
 [Configure copilot](configure-copilot-features.md)  
+[Enable historical analytics for Copilot](configure-cs-historical-analytics-csh.md#enable-historical-analytics-for-copilot-preview)
