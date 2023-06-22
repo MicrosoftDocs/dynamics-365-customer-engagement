@@ -66,7 +66,7 @@ The following diagram illustrates how the integration works:
         "displayName": "Test Custom Provider",
         "AuthenticationDetails": 
         {
-            "AccountId":"ad3dca46-962a-4895-9f85-d25f3828781f",
+            "AccountId":"adxxxxx-xxxx-xxxx-xxxx-xxxxxxxx",
             "CertificateSubjectName": "certSubject",
             "CertificateIssuer": "issuer",
             "SourceIPNetwork": "0.0.0.0"
