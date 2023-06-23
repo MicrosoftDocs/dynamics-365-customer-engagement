@@ -16,26 +16,24 @@ ms.custom:
 
 # Submit ratings and feedback for knowledge articles
 
-You can easily provide feedback on knowledge articles with the help of knowledge article rating. Knowledge managers can capture and review the feedback on the articles to improve and maintain a healthy knowledge base.
+You can easily provide feedback on knowledge articles with the help of knowledge article rating. Knowledge managers can capture and review the feedback on the articles to improve and maintain a relevant knowledge base.
 
-When open an article from the **Knowledge** tab in the context of a case, you can select either the **Thumbs up** or the **Thumbs down**. If you select the **Thumbs down** option, you'll see a **Comments** box, where you can enter your feedback as to why the article wasn't helpful to you.
+In Customer Service workspace, when you open an article from the **Knowledge** tab, you can select either the **Thumbs up** or the **Thumbs down** option to state whether the article was helpful. If you select the **Thumbs down** option, you'll see a **Comments** box, where you can also enter your feedback for an article.
 
-However, note that the **Thumbs up** icon at the top of an article doesn't represent the total number of likes for an article. The number that you see might range from 0-5 and can include decimals such as 0.75. This is because the **Thumbs up** icon indicates calculates the average rating of the article based on the feedback and the number of ratings received. The **knowledgearticle.rating** field is a rollup field defined as Aggregate(Average(feedback.normalizedrating)).
-
-> [!NOTE]
-> Rating and view count numbers are rollup fields that are not updated instantly. For more details, see [Define rollup fields](../customerengagement/on-premises/customize/define-rollup-fields.md).
+However, note that the **Thumbs up** icon at the top of an article doesn't represent the total number of likes for an article. The number that you see might range from 0-5 and can include decimals such as 0.75. This is because the **Thumbs up** icon indicates the average rating of the article based on the feedback and the number of ratings received. The **knowledgearticle.rating** field is a rollup field defined as Aggregate(Average(feedback.normalizedrating)).
 
 > [!NOTE]
+> - Rating and view count numbers are rollup fields that are not updated instantly. For more details, see [Define rollup fields](../customerengagement/on-premises/customize/define-rollup-fields.md).> 
 > - Ensure that the knowledge article entity is enabled for feedback. To learn more, see [Enable an entity for feedback/ratings](/dynamics365/customer-engagement/customize/enable-entity-feedback).
 > - Customer service agents and customer service managers can create, or view feedbacks based on their role and privileges on the feedback entity. Out of the box, customer service agents can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all agents.
 
 ## Submit ratings and feedback
 
-1. Go to the Customer Service workspace app and on the site map, select **Knowledge Search**.
+1. On the Customer Service workspace site map, select **Knowledge Search**.
 
-1. From the Search tab, select and open an article from search results.
+1. From the **Search** tab, select and open an article from the search results.
 
-1. Optionally, select **Thumbs up** if the article was helpful to you or select **Thumbs down**, if it wasn't. You can also submit your feedback.
+1. Select **Thumbs up** if the article was helpful to you, or select **Thumbs down**, if it wasn't. You can also submit your feedback in the **Comments** box.
 
     ![Provide comments.](media/ka-rating-feedback-provide-comments.png "Provide comments")
 
