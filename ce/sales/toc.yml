@@ -735,7 +735,7 @@
         - name: Activity management
           items:
             - name: Add activities to the timeline
-              href: /powerapps/user/add-activities?context=/dynamics365/context/sales-context
+              href: timeline-activities.md
             - name: Track and manage activities
               href: manage-activities.md
             - name: Access Dynamics 365 app from Outlook
