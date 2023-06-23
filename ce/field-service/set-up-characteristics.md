@@ -3,6 +3,7 @@ title: Specify characteristics for resources
 description: Assign characteristics to resources and work orders to list the skills needed to complete the job.
 ms.date: 06/23/2023
 ms.topic: how-to
+ms.custom: bap-template
 author: ryanchen8
 ms.author: chenryan
 ---
