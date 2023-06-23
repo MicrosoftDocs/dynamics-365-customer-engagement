@@ -62,7 +62,7 @@ To add manual activities, see [Track and manage activities](manage-activities.md
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The sequence preview gives you a complete overview of the sequence, including the progress and the activities related to different paths. To preview a sequence, select the name of the sequence in the **Up next** widget. The sequence opens in a pane displaying the list of activities that have been defined within the sequence.
+The sequence preview gives you a complete overview of the sequence, including the progress and activities related to different paths. To preview a sequence, select the name of the sequence in the **Up next** widget. The sequence opens in a pane displaying the list of activities that have been defined within the sequence.
 
 The following image shows an example of a sequence preview.
 
@@ -70,10 +70,10 @@ The following image shows an example of a sequence preview.
 
 Using sequence preview, you get the following information of the sequence:  
 
-- View the total number of steps along with the number of steps that have been completed and the number of steps remaining. 
-- View the number of days spent on each activity, along with the days required for completion.
+- View the total number of steps along with the number of steps that have been completed and remaining. 
+- View the number of days spent on each activity and along with the days required for completion.
 
-By analyzing this information, you can track the progress made throughout the sequence and make necessary adjustments to ensure you reach your goal. Also, you can review the activities that have been completed to ensure nothing has been missed.
+By analyzing this information, you can track the progress made throughout the sequence and make necessary adjustments to ensure that you reach your goal. Also, you can review the activities that have been completed to ensure that nothing has been missed.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
