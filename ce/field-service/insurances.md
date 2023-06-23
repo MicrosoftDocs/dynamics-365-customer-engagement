@@ -1,5 +1,5 @@
 ---
-title: Create insurances and define coverage (Preview)
+title: Create insurances (Preview)
 description: Create an insurance in Field Service to protect from financial loss.
 ms.date: 06/23/2023
 author: jshotts
@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.custom: bap-template
 ---
 
-# Create insurances and define coverage (Preview)
+# Create insurances (Preview)
 
 An insurance protects from financial loss in which in exchange for a fee. An insurance provider agrees to compensate the insurance holder in the event of a certain loss or damage. Insurance is a contract, represented by a policy, in which a policy holder gets protection for a fee from an insurance company.
 
