@@ -33,5 +33,20 @@ Returns an array of session identifiers for a provider.
 
 Promise with the value as array of strings.
 
+## Examples
+
+The sample code demonstrates how to create a sample contact record.
+
+```Javascript
+Microsoft.CIFramework.getAllSessions().then(
+    function (result) {
+        // result will have array of session Ids, which are created by the provider and still at active state.
+        console.log(result)
+    },
+    function (error) {
+        // code handling for promise failure
+        console.log(error)
+    });
+
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

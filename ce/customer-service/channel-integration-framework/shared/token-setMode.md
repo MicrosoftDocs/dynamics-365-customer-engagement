@@ -13,3 +13,19 @@
 ## Return value
 
 Returns a promise object with a value.
+
+## Examples
+
+The sample code demonstrates how to create a sample contact record.
+
+```Javascript
+// Setting Panel to minimize mode.
+Microsoft.CIFramework.setMode(0).then(
+    function (result) {
+        // result will have current state of the panel.
+        console.log(result)
+    },
+    function (error) {
+        // code handling for promise failure
+        console.log(error)
+    });

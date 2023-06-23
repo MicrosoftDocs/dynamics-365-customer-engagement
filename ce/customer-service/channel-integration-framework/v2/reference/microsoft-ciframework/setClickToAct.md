@@ -1,7 +1,7 @@
 ---
 title: "setClickToAct (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about setClickToAct (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 11/17/2022
+ms.date: 06/27/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -33,6 +33,31 @@ ms.custom:
 
 A Promise object with a null value if the request is successful. The API returns an error if the request fails.
 
+## Examples
 
+The sample code demonstrates how to create a sample contact record.
+
+```Javascript
+// To disable outbound communication.
+Microsoft.CIFramework.setClickToAct(false).then(
+    function (result) {
+        // result will indicate whether the outbound communication is enabled or not.
+        console.log(result)
+    },
+    function (error) {
+        // code handling for promise failure
+        console.log(error)
+    });
+
+// To Enable outbound communication.
+Microsoft.CIFramework.setClickToAct(true).then(
+    function (result) {
+        // result will indicate whether the outbound communication is enabled or not.
+        console.log(result)
+    },
+    function (error) {
+        // code handling for promise failure
+        console.log(error)
+    });
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

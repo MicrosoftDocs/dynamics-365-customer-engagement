@@ -308,3 +308,41 @@ An object returned with the following properties in addition to the <i>base</i> 
 </td>
 </tr>
 </table>
+
+## Examples
+
+The sample code demonstrates how to create a sample contact record.
+
+```Javascript
+// Get the metadata of "account" entity    
+Microsoft.CIFramework.getEntityMetadata("account").then(
+    function (result) {
+        // result will have metadata of account, no attribute information will be fetched as the optional list is not passed.
+        console.log(result)
+    },
+    function (error) {
+        // code handling for promise failure
+        console.log(error)
+    });
+
+// Get the metadata of "account" entity with empty attributes list.  
+Microsoft.CIFramework.getEntityMetadata("account", []).then(
+    function (result) {
+        // result will have metadata of account, no attribute information will be fetched as the attributes list passed is empty.
+        console.log(result)
+    },
+    function (error) {
+        // code handling for promise failure
+        console.log(error)
+    });
+
+// Get the metadata of "account" entity with specific attributes "createdon" and "name" info.  
+Microsoft.CIFramework.getEntityMetadata("account", ['createdon', 'name']).then(
+    function (result) {
+        // result will have metadata of account, as well as attribute information for "createdon" and "name".
+        console.log(result)
+    },
+    function (error) {
+        // code handling for promise failure
+        console.log(error)
+    });

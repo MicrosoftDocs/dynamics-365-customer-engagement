@@ -1,7 +1,7 @@
 ---
 title: "getEnvironment (JavaScript API Reference) for Microsoft Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes reference information such as description, syntax, and parameters for the getEnvironment method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 03/14/2022
+ms.date: 06/27/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -17,8 +17,5 @@ ms.custom:
 [!INCLUDE[getEnvironment](includes/getEnvironment-description.md)]
 
 [!INCLUDE[token-getEnvironment](../../../shared/token-getEnvironment.md)]
-
-> [!Note]
-> The details like `etn`, `id`, `appid`, and `pagetype` will be available in the response object of the API only if the underlying focused session belongs to the channel provider.
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
