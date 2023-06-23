@@ -15,7 +15,7 @@ The timeline control lets you create and view all the activities related to a re
 
 For account and contact records, you can also view activities from Dynamics 365 Customer Insights and get the most recent and complete picture about activities related to your customers. Contact your administrator to understand whether the integration is configured for your organization. Learn more: [Integrate Customer Insights activities with Dynamics 365 timelines](dynamics365/customer-insights/activities-in-d365-timeline).
 
-## View activities in timeline
+## Manage activities in the timeline
 
-Open a record to view the Timeline control and the activities related to the record. You can sort and filter the timeline based on your preferences.
+Open a record to view the timeline control and the activities related to the record. You can sort and filter the timeline based on your preferences.
 [Learn more about timelines](/power-apps/user/add-activities).
