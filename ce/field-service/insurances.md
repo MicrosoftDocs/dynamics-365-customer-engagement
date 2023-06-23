@@ -2,9 +2,10 @@
 title: Create insurances and define coverage (Preview)
 description: Create an insurance in Field Service to protect from financial loss.
 ms.date: 06/23/2023
+author: jshotts
+ms.author: jasonshotts
 ms.topic: how-to
-author: ryanchen8
-ms.author: chenryan
+ms.custom: bap-template
 ---
 
 # Create insurances and define coverage (Preview)
