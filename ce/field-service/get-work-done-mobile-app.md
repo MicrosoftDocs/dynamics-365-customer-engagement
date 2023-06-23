@@ -30,6 +30,7 @@ The functional location field on the work order tells the technician exactly whe
 
 ## [Native UX (preview)](#tab/vNext)
 
+Select a booking to see more details about the booking time and the work order. Update the status to indicate you're driving to the customer location. On the **Customer** tab, you can see the work order location on a map to launch turn-by-turn driving directions on your preferred maps app.
 <!--- Content here  -->
 
 ---
