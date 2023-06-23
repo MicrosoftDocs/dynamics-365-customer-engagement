@@ -2,9 +2,10 @@
 title: Create warranties and define coverage
 description: Create warranties to define coverage for assets, locations, and accounts.
 ms.date: 06/23/2023
+author: jshotts
+ms.author: jasonshotts
 ms.topic: how-to
-author: ryanchen8
-ms.author: chenryan
+ms.custom: bap-template
 ---
 
 # Create warranties and define coverage (Preview)
