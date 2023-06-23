@@ -34,7 +34,7 @@ To share feedback and ideas for how we can improve Customer Service, go to the [
 [Community overview](community-overview.md)<br>
 [Get started with Community](community-get-started.md)<br>
 [Create a Community forum](community-forum-setup.md)<br>
-[Content moderation and management](community-moderator-experience.md)
+[Content moderation and management](community-moderator-experience.md)<br>
 [Create new websites in Community](community-create-websites.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
