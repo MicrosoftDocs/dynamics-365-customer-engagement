@@ -500,8 +500,23 @@
         - name: Engage with customers through text messages
           href: sms-intro.md
           items:
-            - name: Configure SMS provider
+            - name: Configure SMS channel
               href: configure-sms-provider.md
+            - name: Add custom SMS channel
+              href: add-custom-sms-provider-intro.md  
+              items:
+                - name: Define an extended configuration entity for a channel instance
+                  href: custom-define-sms-instance.md
+                - name: Define an extended configuration entity for a channel instance account
+                  href: custom-define-sms-account.md
+                - name: Define the message parts
+                  href: custom-sms-message-parts.md
+                - name: Define the localization for the admin interface
+                  href: custom-sms-localization-admin.md
+                - name: Define custom APIs
+                  href: custom-sms-custom-api.md
+                - name: Define the custom channel
+                  href: custom-define-sms-definition.md
             - name: Edit phone numbers
               href: edit-phone-numbers.md
             - name: Add text message option to custom forms
