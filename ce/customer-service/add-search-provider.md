@@ -5,13 +5,13 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 05/02/2023
+ms.date: 06/21/2023
 ms.custom: bap-template
 ---
 
 # Manage integrated search providers
 
-With integrated search providers, you can configure external data providers such as enterprise websites based on the site map protocol. The articles from the external providers will be ingested into Microsoft Dataverse, so that agents can view a consolidated list of knowledge article search results and experience a single ranking of articles across search providers.
+With integrated search providers, you can configure third-party sources, such as enterprise websites that are based on the site map protocol. The articles from the providers will be ingested into Microsoft Dataverse, so that agents can view a consolidated list of knowledge article search results and experience a single ranking of articles across search providers.
 
 As administrators, you can set up a data refresh schedule to specify the refresh frequency of the ingestion service. The ingestion service captures new or updated articles along with any data that might have been missed during ingestion.
 
@@ -75,7 +75,7 @@ You can now add integrated search providers.
     1. Select **Next**.
 1.	In the **Knowledge article schema** section, select from either the **Field Mapping** or **JSON Schema** configuration options. You won't be able to change the configuration method after you've saved it. For details on knowledge article schema mapping, go to [Configure knowledge article schema mapping](int-data-mapping.md#configure-knowledge-article-schema-mapping).
 1.	In the **Refresh Schedule** section, specify the refresh intervals:
-    1. **Refresh frequency**: Select a value from the dropdown list. Your selection specifies the frequency at which newly created or updated articles are ingested from the external search provider. If you want to pause ingestion, select **No refresh**.
+    1. **Refresh frequency**: Select a value from the dropdown list. Your selection specifies the frequency at which newly created or updated articles are ingested from the search provider. If you want to pause ingestion, select **No refresh**.
     1. **Lookback period**: Select a value from the dropdown list. Your selection specifies the additional time period for which the articles would be ingested that might have been missed during ingestion.
         
         For example, if you set the refresh frequency at 15 minutes and lookback period at 2 hours, your data is refreshed for the last 2 hours and 15 minutes, in every 15 minutes.

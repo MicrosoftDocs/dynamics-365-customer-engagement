@@ -251,6 +251,8 @@ items:
       href: mobile-powerapp-windows.md
     - name: Use Microsoft Power Platform
       href: mobile-power-utilize-platform.md
+    - name: IoT signals on mobile
+      href: cfs-mobile-powerapp.md
     - name: Customize the mobile app
       items:
         - name: Customize the home screen (Site Map)
@@ -327,37 +329,47 @@ items:
   items:
   - name: Overview
     href: connected-field-service.md
-  - name: Privacy notice
-    href: cfs-privacy-notice.md
-  - name: Administration
+
+  - name: Connect your IoT devices
     items:
-      - name: Architecture
-        href: developer/connected-field-service-architecture.md
-      - name: Security roles for Connected Field Service
-        href: cfs-security-roles.md
-      - name: Device categories
-        href: cfs-device-categories.md
-  - name: Connect your IoT data
-    items:
-      - name: Azure IoT Hub
+      - name: Connect IoT data overview
+        href: cfs-connect-data-overview.md
+      - name: Use custom IoT providers
+        href: cfs-custom-iot-provider.md
+      - name: Use Azure IoT Hub
         items:
-          - name: Develop customized IoT solutions
-            href: developer/connected-field-service-developer-guide.md
+          - name: Components and architecture
+            href: connected-field-service-architecture.md
           - name: Azure subscription prerequisites
             href: cfs-azure-subscription.md
           - name: Create an IoT provider for IoT Hub
             href: cfs-provider-iot-hub.md
           - name: Install and configure IoT Hub
             href: installation-setup-iothub.md
-          - name: Register IoT devices
-            href: cfs-register-devices.md
-          - name: Pull device data
-            href: cfs-pull-device-data.md
-          - name: "Quickstart: Build your own IoT solution"
-            href: connected-field-service-overview.md
-      - name: Use custom IoT providers
-        href: cfs-custom-iot-provider.md
-  - name: Analyze
+
+  - name: Work with IoT devices
+    items:
+      - name: Register IoT devices
+        href: cfs-register-devices.md
+      - name: Configure actions
+        href: cfs-configure-actions.md
+      - name: Send commands to IoT devices
+        href: cfs-commands.md
+      - name: Pull device data
+        href: cfs-pull-device-data.md
+      - name: IoT alerts
+        items:
+        - name: Set up IoT alerts
+          href: cfs-iot-alerts.md
+        - name: Use AI for IoT alerts
+          href: iot-alerts-ai-based-suggestions.md
+
+        - name: IoT - Parent IoT alerts workflow
+          href: iot-parent-iot-alerts-workflow.md
+      - name: Extend standard components or add Azure services
+        href: extend-connected-field-service-solutions.md
+      
+  - name: Analyze IoT data
     items:
       - name: Summary tiles
         href: cfs-summary-tiles.md
@@ -365,20 +377,16 @@ items:
         href: cfs-visualizations-iot-hub.md
       - name: Reports
         href: cfs-powerbi.md
-      - name: AI for IoT alerts
-        href: iot-alerts-ai-based-suggestions.md
-  - name: Take action
+
+  
+  - name: Administration
     items:
-      - name: IoT alerts
-        href: cfs-iot-alerts.md
-      - name: Connected Field Service on mobile
-        href: cfs-mobile-powerapp.md
-      - name: Send commands
-        href: cfs-commands.md
-      - name: IoT - Parent IoT alerts workflow
-        href: developer/iot-parent-iot-alerts-workflow.md
-      - name: Extend standard components or add Azure services
-        href: developer/extend-connected-field-service-solutions.md
+      - name: Security roles for Connected Field Service
+        href: cfs-security-roles.md
+      - name: Device categories
+        href: cfs-device-categories.md
+  - name: Privacy notice
+    href: cfs-privacy-notice.md
 
 - name: Resource Scheduling Optimization Add-in
   items:

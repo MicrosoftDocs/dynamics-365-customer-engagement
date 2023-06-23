@@ -1,5 +1,5 @@
 ---
-title: "Extend Connected Field Service solutions (Developer Guide for Dynamics 365) | MicrosoftDocs"
+title: Extend Connected Field Service solutions
 description: "Connected Field Service supports the customization of each standard component or service and the easy addition of custom Azure-based components and services."
 ms.date: 09/07/2022
 ms.topic: article
@@ -14,7 +14,7 @@ ms.custom:
 
 # Extend Connected Field Service solutions
 
-[!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)] supports the customization of each standard component or service and the easy addition of custom Azure-based components and services. This flexible architecture is required to support the wide range of current and future IoT devices and the envisioned supporting services for these devices.  
+[!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] supports the customization of each standard component or service and the easy addition of custom Azure-based components and services. This flexible architecture is required to support the wide range of current and future IoT devices and the envisioned supporting services for these devices.  
   
 ## Extend Azure Services
 
@@ -22,7 +22,7 @@ Azure services and components, including the ones detailed in [Connected Field S
   
  After the standard installation, Connected Field Services will configure your resource group with a set of Azure services similar to the following screenshot.  
   
- ![Connected Field Service Standard Azure Services.](../media/iot-standard-azure-service.jpg "Connected Field Service Standard Azure Services")  
+ ![Connected Field Service Standard Azure Services.](media/iot-standard-azure-service.jpg "Connected Field Service Standard Azure Services")  
   
  Although extending these Azure services or adding other ones is beyond the scope of this article, there are several resources available:  
   
@@ -54,12 +54,12 @@ The following table lists the custom entities and processes that Connected Field
 |IoT Device Command (`Microsoft.Dynamics.CRM.msdyn_iotdevicecommand`)|Entity|Represents an outgoing message to a device connected to the IoT Hub|  
 |IoT Device Registration History (`Microsoft.Dynamics.CRM.msdyn_iotdeviceregistrationhistory`)|Entity|Tracks registration activities of an IoT device|  
   
-### IOT enabling an entity type
+### IoT enabling an entity type
 
- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] entities can be associated to IoT entities listed above so that within [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] they can participate in IoT-related business processes and analyses. There are two methods of “IoT enabling” a [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] entity; you can:  
+Dynamics 365 entities can be associated to IoT entities listed in the previous section so that within Dynamics 365 they can participate in IoT-related business processes and analyses. There are two methods of “IoT enabling” a Dynamics 365 entity; you can:  
   
-- Programmatically form an association through the standard Dynamics 365 [Connection entities](../../developer/connection-entities.md) capability. You can alternatively accomplish this same association through the administration UI; for more information, see [Create connections to view relationships between records](/dynamics365/customerengagement/on-premises/basics/create-connections-view-relationships-between-records).  
+- Programmatically form an association through the standard Dynamics 365 [Connection entities](../developer/connection-entities.md) capability. You can alternatively accomplish this same association through the administration UI; for more information, see [Create connections to view relationships between records](/dynamics365/customerengagement/on-premises/basics/create-connections-view-relationships-between-records).  
   
 - Call the `IoT – Register Custom Entity` action to associate an entity with an existing or new `IoT Device`.  
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
