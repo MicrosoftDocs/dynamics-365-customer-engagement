@@ -1,7 +1,7 @@
 ---
 title: "Understand the up next widget on records"
 description: "Understand on how to use the up next widget to do activities on your records through sales accelerator."
-ms.date: 12/09/2022
+ms.date: 06/23/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -36,6 +36,8 @@ The following image shows an example of the **Up next** widget.
    After you complete the action, select **Mark complete**, and the activity is closed and moved automatically to completed items and is displayed on the timeline.
 
    You can choose to skip the activity if you think it's not relevant to the record or you don't want to perform the action. Select **More options**, and then select **Skip**. The activity is skipped and moved to completed items.
+   
+    Also, you can view suggestions for the record and preview the sequence to get an overview of the sequence steps. More information: [Preview a sequence](#preview-a-sequence) 
 
 2. **Upcoming activity**: The upcoming activity section is view-only, and you can't perform an action on these tasks. This section is displayed so you know which activity will appear next when you complete the current activity.
 
@@ -54,7 +56,24 @@ Only one manual activity is displayed in the **Up next** widget at a time. After
 
 The characteristics of manual activities are similar to an activity defined in a sequence. Sellers must perform the activity and mark it as complete. Then the activity will be moved to the list of completed activities in the **Up next** widget. A sales manager or you, as a seller, can add the manual activity to the records that you or your security role owns.
 
-To add manual activities, see [Track and manage activities](manage-activities.md). After the activity is added to the record, based on its due date, the activity will be displayed in the **Up next** widget.   
+To add manual activities, see [Track and manage activities](manage-activities.md). After the activity is added to the record, based on its due date, the activity will be displayed in the **Up next** widget.  
+
+## Preview a sequence
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+The sequence preview gives you a complete overview of the sequence, including the progress and activities related to different paths. To preview a sequence, select the name of the sequence in the **Up next** widget. The sequence opens in a pane displaying the list of activities that have been defined within the sequence.
+
+The following image shows an example of a sequence preview.
+
+:::image type="content" source="media/sequence-sequence-preview.png" alt-text="Screenshot of with sequence preview pane.":::
+
+Using sequence preview, you get the following information of the sequence:  
+
+- View the total number of steps along with the number of steps that have been completed and remaining. 
+- View the number of days spent on each activity and along with the days required for completion.
+
+By analyzing this information, you can track the progress made throughout the sequence and make necessary adjustments to ensure that you reach your goal. Also, you can review the activities that have been completed to ensure that nothing has been missed.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
