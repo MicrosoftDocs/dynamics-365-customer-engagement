@@ -14,7 +14,7 @@ ms.custom: bap-template
 Now that you've defined the parts of your custom SMS channel, it's time to define the channel. This step is where you connect all the previous pieces in one metadata file, which is a record of the **Channel Definition** entity (`msdyn_channeldefinition`).
 
 > [!IMPORTANT]
-> If you're configuring metadata records directly in the customization file, make sure that the GUIDs are lowercase.
+> If you're configuring metadata records directly in the customization file, make sure that the GUIDs are in lowercase.
 
 ## Channel Definition contract
 
