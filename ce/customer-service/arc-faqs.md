@@ -1,7 +1,7 @@
 ---
 title: FAQ about automatic record creation
 description: Learn answers to frequently asked questions about automatic record creation.
-ms.date: 04/18/2023
+ms.date: 06/23/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -87,3 +87,9 @@ No, runtime or create duplicate cases won't be affected. The flow with name **AR
 ### Can I turn off or on ARC flows directly in the Power Automate portal?  
 
 No, don't turn off or on any ARC flows directly in the Power Automate portal. Only enable or disable ARC flows from Microsoft Dataverse.
+
+## See Also
+
+[Troubleshoot common configuration issues with automatic record creation and update rules](/troubleshoot/dynamics-365/customer-service/email/common-email-error-messages)
+
+[Incoming email isn't converted to a case](/troubleshoot/dynamics-365/customer-service/email/incoming-email-not-converted-case)
