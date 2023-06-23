@@ -1,5 +1,5 @@
 ---
-title: Define an extended configuration entity for the channel instance account
+title: Define an extended configuration entity for a channel instance account
 description: Learn how to define an extended configuration entity for the custom SMS channel instance account in Dynamics 365 Sales. 
 author: udaykirang
 ms.author: udag
