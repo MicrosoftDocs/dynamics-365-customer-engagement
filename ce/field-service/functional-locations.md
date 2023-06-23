@@ -1,7 +1,7 @@
 ---
 title: Create functional locations (contains video)
 description: Learn how to create and use functional locations for assets in Dynamics 365 Field Service.
-ms.date: 01/24/2023
+ms.date: 06/23/2023
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -36,9 +36,13 @@ In Field Service, functional locations allow you to specify granular, hierarchic
 
 1. Enter a **Name** and **Service Address**.
 
-1. (Optional) If this location is part of a hierarchy, enter its **Parent Functional Location**.
-
-    You can skip this step and drag the location into its place in an existing hierarchy later.
+1. Optional:
+   - If this location is part of a hierarchy, enter its **Parent Functional Location**. You can skip this step and drag the location into its place in an existing hierarchy later.
+   - Choose a **Functional Location Type** that helps you categorize locations of the same type. For example, warehouses or office buildings.
+   - Enter a **Cost center** for bills related to a location.
+   - Note an **Email address** for the right contact person of the location.
+   - Set an **Open date** to indicate when a location first opened.
+   - Choose **Primary time zone** for the location.
 
 1. Select **Save**.
 
