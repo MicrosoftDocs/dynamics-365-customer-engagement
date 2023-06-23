@@ -14,7 +14,7 @@ A warranty is a guarantee to repair or replace a product if it develops a failur
 
 ## Enable warranties
 
-Before users can warranties, a Field Service administrator has to enable the feature after [updating to the early access release](/dynamics365/get-started/release-schedule).
+Before users can work with warranties, a Field Service administrator has to enable the feature after [updating to the early access release](/dynamics365/get-started/release-schedule).
 
 In Field Service, change to the **Settings** area. Under **General**, select **Field Service Settings**. On the **Features** tab, set **Warranties** to **On**.
 
