@@ -1,7 +1,7 @@
 ---
 title: Personalize the opportunity pipeline view
 description: Personalize the pipeline view to see what you want to see and organize opportunities in a way that makes sense to you.
-ms.date: 05/11/2023
+ms.date: 06/23/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
