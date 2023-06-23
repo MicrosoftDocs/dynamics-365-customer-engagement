@@ -283,6 +283,8 @@ items:
       href: set-up-agreement-sub-statuses.md
     - name: Entitlements
       href: work-order-entitlements.md
+    - name: Insurances
+      href: insurances.md
 
 - name: Inventory and purchasing
   items:
