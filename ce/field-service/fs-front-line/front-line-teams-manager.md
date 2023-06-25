@@ -13,6 +13,8 @@ ms.custom: bap-template
 
 The Dynamics 365 Field Service (Preview) for Teams uses Viva Connection cards and a Teams tab to enable frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly in Teams. You can quickly respond to requests for service or questions about existing requests.
 
+[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+
 ## Select your environment to open your dashboard the first time
 
 1. In Teams, select **Apps** and select the name of the Viva Connections app provided by your admin. Your dashboard displays.

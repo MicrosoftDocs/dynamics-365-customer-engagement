@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Field Service (Preview) troubleshooting
 
+[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+
 ## As an admin, I can't find users when setting up frontline workers in the Field Service web app
 
 ### Prerequisites

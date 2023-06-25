@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) for Administrators
-description: Learn about the Dynamics 365 Field Service (Preview) from an Administer perspective.
-ms.date: 05/31/2023
+description: Learn about the Dynamics 365 Field Service (Preview) from an Administrator perspective.
+ms.date: 06/30/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -15,6 +15,8 @@ As an administrator for your organization, the set up tasks for the Field Servic
 
 - [Set up the Field Service (Preview) Outlook Add-in](#set-up-the-field-service-preview-outlook-add-in)
 - [Set up the Field Service (Preview) Teams app](#set-up-field-service-preview-teams-app)
+
+[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
 
 ## Set up the Field Service (Preview) Outlook Add-in
 
@@ -71,9 +73,9 @@ Admin permissions for the following apps:
 
 Viva Connections is included as part of Microsoft Teams license. If you do not have Viva Connections set up for your organization, install and set it up.
 
-1. Log into the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
+1. As a Global admin, log into the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 
-1. [Add the Viva Connections app](/viva/connections/add-viva-connections-app), customize it, customize the app settings, and make it available to your organization.
+1. [Add the Viva Connections app](/viva/connections/add-viva-connections-app), customize it, and make it available to your organization.
 
 1. Log into Teams as an admin.
 
@@ -105,7 +107,9 @@ You can set up the Field Service (Preview) cards to the Viva Connections dashboa
 
 If your organization has a SharePoint home site and wants to use it for Viva Connections or you already have Viva Connections with a home site, see [edit the dashboard and add cards using Viva Connections](/viva/connections/create-dashboard#how-to-edit-the-dashboard-from-sharepoint-when-you-have-a-home-site).
 
-If your organization doesn't have a SharePoint home site and doesn't want one, see the following steps.
+If your organization doesn't have a SharePoint home site and doesn't want one, see [Set up Viva Connections without a home site](/viva/connections/viva-connections-setup-guide#set-up-viva-connections-without-a-home-site).
+
+To set up a home site, see the following steps:
 
 1. In the [SharePoint Admin Center](https://go.microsoft.com/fwlink/?linkid=2185219), select **Sites** > **Active Sites**.
 

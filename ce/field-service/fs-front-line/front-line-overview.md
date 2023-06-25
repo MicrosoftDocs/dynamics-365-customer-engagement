@@ -13,6 +13,10 @@ ms.custom: bap-template
 
 Dynamics 365 Field Service (Preview) integrates Field Service with Microsoft Outlook and Teams so that frontline workers and managers can create, view, and manage work orders within Outlook and Teams. A frontline manager is typically a service manager and dispatcher. A frontline worker is a technician, the one performing the work.
 
+[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+
+[!INCLUDE[public-preview-note](../../includes/public-preview-note.md)]
+
 An Outlook add-in allows frontline managers to view and create work orders in Outlook, so they can quickly respond to service requests and questions. The Outlook add-in also provides copilot capabilities to create work orders in Outlook.
 
 A Viva Connections dashboard in Teams provides frontline workers with an at-a-glance view of their workday and frontline managers with the ability to view and create work orders. Users can also initiate a Dynamics 365 Remote Assist call within Teams mobile.
