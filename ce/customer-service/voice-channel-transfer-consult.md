@@ -44,7 +44,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
     - **Transfer to an external PSTN number**: Select **Number pad**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. <br>
 
         > [!NOTE]
-        > Once the number is added, the maximum waiting time to transfer the call is eight minutes. If you fail to transfer the call within eight minutes, enter the number again and start over in the queue.
+        > After you add the number, the maximum wait time to transfer the call is eight minutes. If you're unable to transfer the call in eight minutes, enter the number again and restart the queue.
 
     - **Transfer to Teams user via PSTN**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
         > [!div class="mx-imgBorder"]
