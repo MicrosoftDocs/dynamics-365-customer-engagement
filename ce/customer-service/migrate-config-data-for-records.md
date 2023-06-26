@@ -85,9 +85,9 @@ The assignment rulesets must be available in the system before the Configutation
 
 > [!IMPORTANT]
 >
-- For every import of queue records, you must either create new queue records or update existing queue records. You must not mix the actions in the same data import.
-> - When all records in the data.xml of queue entity are for creation, ensure that the following line is present in the schema.xml: <field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/> and correspondingly data will also have the field for msdyn_queuetype.
-> - When all records in the data.xml of queue entity are for update, ensure that you remove the following line in the schema.xml: <field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/> and correspondingly data will also not have that field for msdyn_queuetype.
+> - For every import of queue records, you must either create new queue records or update existing queue records. You must not mix the actions in the same data import.
+> - When all records in the data.xml of queue entity are for creation, ensure that the following line is present in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>` and correspondingly data will also have the field for msdyn_queuetype.
+> - When all records in the data.xml of queue entity are for update, ensure that you remove the following line in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>` and correspondingly data will also not have that field for msdyn_queuetype.
 
 |S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
 |-----|---------|---------|---------|
