@@ -34,8 +34,11 @@ The following table summarizes the pricing for each scenario.The prices in the f
 |PSTN outbound    | $0.013 per minute      |
 |VOIP inbound| $0.004 per minute   |
 |SBC to Azure Communication Services | $0.004 per minute   |
-
-
+|ROW Consumption Unit – Inbound -> PSTN inbound rate |  $0.022 per minute |
+| App to App Group Calling User Minute –> VOIP rate | $0.004 per minute |
+|ROW Consumption Unit – Outbound –> PSTN outbound rate | $0.013 per minute|
+|Single Channel Mixed Audio Recording –> Recording rate| $0.004 per minute   |
+ 
 ## Inbound: Customer calls from a mobile, call is escalated to a human agent from an IVR bot
 
 Mae calls your Azure Communication Services US toll-free number from a mobile device. The call is routed to a Power Virtual Agents interactive voice response (IVR) bot. Mae interacts with the bot for two minutes. The bot escalates the call to a human agent, Matias. This call lasts eight minutes.
