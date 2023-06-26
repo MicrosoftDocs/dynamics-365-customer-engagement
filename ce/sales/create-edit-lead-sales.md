@@ -40,7 +40,7 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
 
 3. Follow the process bar to enter data into fields to move the lead to the next stage.  
 
-4. If you're creating the lead for new customers, enter name, contact details, and company name in the **Lead** form. You can [auto-populate the address fields](accounts-contacts.md#auto-populate-address-fields-with-address-suggestions) by using the address suggestion feature.  
+4. If you're creating the lead for new customers, enter name, contact details, and company name in the **Lead** form. You can [populate the address fields](accounts-contacts.md#populate-address-fields-using-address-suggestions) by using the address suggestion feature.  
 
     -OR-
     

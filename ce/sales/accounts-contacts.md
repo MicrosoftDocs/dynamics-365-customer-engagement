@@ -41,9 +41,9 @@ You can create accounts and contacts manually or import them from a spreadsheet 
 
 1. Specify the details that you know about the company and save the changes. 
 
-### Auto-populate address fields with address suggestions
+### Populate address fields using address suggestions
 
-Instead of typing the address manually, you can use the address suggestion feature to auto-populate the address fields in the contact, account, and lead forms.  
+Instead of typing the address manually, you can use the address suggestion feature to populate the address fields in the contact, account, and lead forms.  
 
 > [!NOTE]
 > Your administrator must have enabled address suggestion for you to use this feature. See [Enable address suggestions](enable-address-suggestion.md) for more information.  
