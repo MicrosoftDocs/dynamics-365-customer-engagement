@@ -45,7 +45,7 @@ Bing Maps is enabled by default for new environments outside the EU. EU customer
 1. Go to **General Settings** > **Productivity Tools** > **Enable address suggestions**.
 1. Turn on the toggle and save the changes.
 1. Verify the changes by opening a contact, lead, or account form.
-    You'll see a new **Address** field and a Bing map after all the address fields. The field suggests addresses as you type and will populate address fields once you select an address, as shown in the following image.
+    You'll see a new **Address** field and a Bing map after all the address fields. The field suggests addresses as you type and will populate address fields once you select an address, as shown in the following image.  
     :::image type="content" source="media/address-suggestion-field.png" alt-text="Screenshot of the new address field in a form" lightbox="media/address-suggestion-field.png":::
 
 > [!NOTE]

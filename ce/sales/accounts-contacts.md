@@ -52,7 +52,7 @@ Instead of typing the address manually, you can use the address suggestion featu
 
 1. Scroll down to the **Address** field and start typing the address.
 1. Select an address from the list of suggestions provided by Bing Maps and press the **Enter** key.  
-    The address fields are auto-populated with the details in the selected address and Bing Map is also updated to point to the selected address.
+    The address fields are auto-populated with the details in the selected address and Bing Map is also updated to point to the selected address.  
     :::image type="content" source="media/address-suggestion-field.png" alt-text="Screenshot of the new address field in a form" lightbox="media/address-suggestion-field.png":::
 
 ### Add contacts to an account
