@@ -15,24 +15,17 @@ metadata:
   hide_bc: true
 
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
-
-# Do not change the following cards. You should only need to update the URLs to provide the correct links to your product documentation.
 
   items:
-    # Card
     - title: Welcome to Dynamics 365 Field Service
       itemType: get-started
       url: overview.md
-    # Card
     - title: What's new
       itemType: whats-new
       url: version-history.md
-    # Card
     - title: Training
       itemType: training
       url: /training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path
-    # Card
     - title: Troubleshoot
       itemType: concept
       url: troubleshoot-field-service-solution-health.md
@@ -40,8 +33,6 @@ highlightedContent:
 additionalContent: 
   sections:
   - title: Implement
-# Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
-# Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
     - title: Try/buy/install
       links: 
