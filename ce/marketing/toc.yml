@@ -244,7 +244,7 @@
           href: real-time-marketing-email.md
         - name: "Preview: Use AI to kickstart email creation with content ideas"
           href: content-ideas.md
-        - name: Send emails without building a journey
+        - name: Use "Send now" to send emails instantly in real-time marketing
           href: email-without-journey.md
         - name: Use brand profiles in real-time marketing email
           href: brand-profiles-email.md
@@ -534,8 +534,8 @@
         href: email-accessibility.md
       - name: Check for errors, go live, and deliver
         href: email-check-golive.md
-      - name: Quickly design and deliver marketing emails with "send now"
-        href: email-send-now.md
+      - name: Quickly design and deliver outbound marketing emails with quick send
+        href: email-quick-send.md
       - name: Check your spam score
         href: spam-checker.md
       - name: Design and run A/B tests on your email designs
