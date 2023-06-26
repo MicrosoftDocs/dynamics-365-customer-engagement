@@ -62,27 +62,27 @@ The following diagram provides a visual representation of how consent will be en
   </tr>
   <tr>
   	<td></td>
-    <td>Opted out</td>
-    <td>None/Not-set</td>
-    <td>Opted in</td>
+    <td><b>Opted out</b></td>
+    <td><b>None/Not-set</b></td>
+    <td><b>Opted in</b></td>
   </tr>
   <tr>
   	<td><b>Email channel</b></td>
-    <td style="background-color:lightcoral;">Blocked</td>
-    <td style="background-color:lightcoral;">Blocked</td>
-    <td style="background-color:lightgreen;">Sent</td>
+    <td>Blocked</td>
+    <td>Blocked</td>
+    <td>Sent</td>
   </tr>
   <tr>
   	<td><b>SMS/Custom channel</b></td>
-    <td style="background-color:lightcoral;">Blocked</td>
-    <td style="background-color:lightcoral;">Blocked</td>
-    <td style="background-color:lightgreen;">Sent</td>
+    <td>Blocked</td>
+    <td>Blocked</td>
+    <td>Sent</td>
   </tr>
   <tr>
   	<td><b>Tracking purpose<b></td>
-    <td style="background-color:lightcoral;">No</td>
-    <td style="background-color:lightcoral;">No</td>
-    <td style="background-color:lightgreen;">Yes</td>
+    <td>Not tracked</td>
+    <td>Not tracked</td>
+    <td>Tracked</td>
   </tr>
 </table>
 <table style="width:100%";>
@@ -91,27 +91,27 @@ The following diagram provides a visual representation of how consent will be en
   </tr>
   <tr>
   	<td></td>
-    <td>Opted out</td>
-    <td>None/Not-set</td>
-    <td>Opted in</td>
+    <td><b>Opted out</b></td>
+    <td><b>None/Not-set</b></td>
+    <td><b>Opted in</b></td>
   </tr>
   <tr>
   	<td><b>Email channel</b></td>
-    <td style="background-color:lightcoral;">Blocked</td>
-    <td style="background-color:lightgreen;">Sent</td>
-    <td style="background-color:lightgreen;">Sent</td>
+    <td>Blocked</td>
+    <td>Sent</td>
+    <td>Sent</td>
   </tr>
   <tr>
   	<td><b>SMS/Custom channel</b></td>
-    <td style="background-color:lightcoral;">Blocked</td>
-    <td style="background-color:lightcoral;">Blocked</td>
-    <td style="background-color:lightgreen;">Sent</td>
+    <td>Blocked</td>
+    <td>Blocked</td>
+    <td>Sent</td>
   </tr>
   <tr>
   	<td><b>Tracking purpose<b></td>
-    <td style="background-color:lightcoral;">No</td>
-    <td style="background-color:lightgreen;">Yes</td>
-    <td style="background-color:lightgreen;">Yes</td>
+    <td>Not tracked</td>
+    <td>Tracked</td>
+    <td>Tracked</td>
   </tr>
 </table>
 
@@ -121,27 +121,27 @@ The following diagram provides a visual representation of how consent will be en
   </tr>
   <tr>
   	<td></td>
-    <td>Opted out</td>
-    <td>None/Not-set</td>
-    <td>Opted in</td>
+    <td><b>Opted out</b></td>
+    <td><b>None/Not-set</b></td>
+    <td><b>Opted in</b></td>
   </tr>
   <tr>
   	<td><b>Email channel</b></td>
-    <td style="background-color:lightgreen;">Sent</td>
-    <td style="background-color:lightgreen;">Sent</td>
-    <td style="background-color:lightgreen;">Sent</td>
+    <td>Sent</td>
+    <td>Sent</td>
+    <td>Sent</td>
   </tr>
   <tr>
   	<td><b>SMS/Custom channel</b></td>
-    <td style="background-color:lightgreen;">Sent</td>
-    <td style="background-color:lightgreen;">Sent</td>
-    <td style="background-color:lightgreen;">Sent</td>
+    <td>Sent</td>
+    <td>Sent</td>
+    <td>Sent</td>
   </tr>
   <tr>
   	<td><b>Tracking purpose<b></td>
-    <td style="background-color:lightgreen;">Yes</td>
-    <td style="background-color:lightgreen;">Yes</td>
-    <td style="background-color:lightgreen;">Yes</td>
+    <td>Tracked</td>
+    <td>Tracked</td>
+    <td>Tracked</td>
   </tr>
 </table>
 
