@@ -1,7 +1,7 @@
 ---
 title: "Transfer calls and consult with users | MicrosoftDocs"
 description: "Use this article to understand how the agent can use the transfer and consult options to make and receive customer calls in Omnichannel for Customer Service."
-ms.date: 03/30/2023
+ms.date: 06/27/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -42,6 +42,10 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
         > ![Screenshot of queue transfer](./media/oc-transfer-q.png)<br>
     
     - **Transfer to an external PSTN number**: Select **Number pad**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. <br>
+
+        > [!NOTE]
+        > Once the number is added, the maximum waiting time to transfer the call is eight minutes. If you fail to transfer the call within eight minutes, enter the number again and start over in the queue.
+
     - **Transfer to Teams user via PSTN**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
         > [!div class="mx-imgBorder"]
         > ![Screenshot of teams transfer](./media/oc-teams-transfer.png) <br>
