@@ -1,6 +1,11 @@
 {
   "redirections": [
-   {
+    {
+      "source_path": "ce/field-service/user-guide.md",
+      "redirect_url": "/dynamics365/field-service/",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/asynchronous-service-architecture.md",
       "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
       "redirect_document_id": "false"
@@ -4001,11 +4006,6 @@
     {
       "source_path": "ce/developer/webapi/index.md",
       "redirect_url": "/dynamics365/developer/use-microsoft-dynamics-365-web-api",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/field-service/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/field-service/overview",
       "redirect_document_id": "false"
     },
     {
