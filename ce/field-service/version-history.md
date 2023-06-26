@@ -19,12 +19,12 @@ For information about older versions, see [Version history archive](version-hist
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.94.28](/dynamics365/field-service/version-history#889428)  | TBD | 06/30/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.93.28](/dynamics365/field-service/version-history#889328)  | [8.8.94.28](/dynamics365/field-service/version-history#889428) | 06/23/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.94.28](/dynamics365/field-service/version-history#889428)  | TBD | 06/30/2023 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.93.28](/dynamics365/field-service/version-history#889328)  | [8.8.94.28](/dynamics365/field-service/version-history#889428) | 06/30/2023 |
-| | *USG* |  [8.8.93.28](/dynamics365/field-service/version-history#889328)  | [8.8.94.28](/dynamics365/field-service/version-history#889428) | 06/23/2023 |
+| | *USG* |  [8.8.94.28](/dynamics365/field-service/version-history#889428)  | TBD | 06/30/2023 |
 |**Station 4** |*Europe* |[8.8.93.28](/dynamics365/field-service/version-history#889328)  | [8.8.94.28](/dynamics365/field-service/version-history#889428) | 07/07/2023 |
-|**Station 5** | *North America*|[8.8.92.27](/dynamics365/field-service/version-history#889227)  | [8.8.93.28](/dynamics365/field-service/version-history#889328) | 06/23/2023 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.92.27](/dynamics365/field-service/version-history#889227)  | [8.8.93.28](/dynamics365/field-service/version-history#889328) | 06/23/2023 |
+|**Station 5** | *North America*|[8.8.93.28](/dynamics365/field-service/version-history#889328)  | [8.8.94.28](/dynamics365/field-service/version-history#889428) | 07/07/2023 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.93.28](/dynamics365/field-service/version-history#889328)  | [8.8.94.28](/dynamics365/field-service/version-history#889428) | 07/07/2023 |
 | | *Dedicated Scale Groups* |[8.8.92.27](/dynamics365/field-service/version-history#889227)  | [8.8.93.28](/dynamics365/field-service/version-history#889328) | 06/30/2023 |
 
 >[!NOTE]
