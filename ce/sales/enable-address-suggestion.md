@@ -10,7 +10,7 @@ ms.date: 06/26/2023
 ms.custom: bap-template
 ---
 
-## Enable address suggestions
+# Enable address suggestions
 
 Enable address suggestions to help sellers save time and reduce errors while entering address information in the contact, lead, and account form. When a seller starts typing in the address field, Bing Maps displays a list of possible addresses based on the entered text. Once the seller selects the correct address from the list of suggestions, the address fields in the form are filled automatically.  
 
