@@ -1,8 +1,7 @@
 ---
-title: "Manage your customers using accounts and contacts"
-description: "Use accounts to store information about companies that you do business with and contacts to store information about people that you work with."
-keywords: ""
-ms.date: 03/23/2023
+title: Manage your customers using accounts and contacts
+description: Use accounts to store information about companies that you do business with and contacts to store information about people that you work with.
+ms.date: 06/26/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -43,6 +42,8 @@ You can create accounts and contacts manually or import them from a spreadsheet 
 1. Specify the details that you know about the company and save the changes. 
 
 ### Auto-populate address fields with address suggestions
+
+Instead of typing the address manually, you can use the address suggestion feature to auto-populate the address fields in the contact, account, and lead forms.  
 
 > [!NOTE]
 > Your administrator must have enabled address suggestion for you to use this feature. See [Enable address suggestions](enable-address-suggestion.md) for more information.  

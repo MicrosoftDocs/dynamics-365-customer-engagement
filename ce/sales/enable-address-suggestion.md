@@ -6,13 +6,13 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection: get-started 
-ms.date: 06/14/2023
+ms.date: 06/26/2023
 ms.custom: bap-template
 ---
 
 ## Enable address suggestions
 
-Enable address suggestions to help sellers save time and reduce errors while entering address information in the contact, lead, and account form. When a seller starts typing in the address field, Bing Maps displays a list of possible addresses based on the entered text. Once the seller selects the correct address from the list of suggestions, the address fields in the form are filled automatically. 
+Enable address suggestions to help sellers save time and reduce errors while entering address information in the contact, lead, and account form. When a seller starts typing in the address field, Bing Maps displays a list of possible addresses based on the entered text. Once the seller selects the correct address from the list of suggestions, the address fields in the form are filled automatically.  
 
 ## License and role requirements
 
@@ -35,10 +35,5 @@ Enable address suggestions to help sellers save time and reduce errors while ent
     You'll see a new **Address** field and a Bing map after all the address fields. The field suggests addresses as you type and will populate address fields once you select an address, as shown in the following image.
     :::image type="content" source="media/address-suggestion-field.png" alt-text="Screenshot of the new address field in a form":::
 
-
-## Auto-populate address fields with address suggestions
-
-1. Open a contact, lead, or account form that has address fields.
-1. Scroll down to the **Address** field and start typing the address.
-1. Select an address from the list of suggestions and press the Enter key.
-    The address fields are auto-populated with the details in the selected address.
+> [!NOTE]
+> If your organization is using Dynamics 365 Field Service and has [enabled address suggestions](/dynamics365/field-service/field-service-maps-address-locations#enable-address-suggestions), then the address suggestions for the main contact, account forms will be controlled by the Field Service settings.
