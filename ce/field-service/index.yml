@@ -1,16 +1,16 @@
 ### YamlMime:Hub
 
 title:  Dynamics 365 Field Service documentation
-summary: Discover how to make the most of Dynamics 365 Field Service with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use features in Field Service and Field Service Mobile to deliver world-class onsite service to customer locations.
+summary: Discover how to make the most of Dynamics 365 Field Service with training, docs, and videos covering product capabilities and how-to articles. Learn how to use features in Field Service and Field Service Mobile to deliver world-class onsite service to customer locations.
 brand: dynamics
 
 metadata:
   title: Dynamics 365 Field Service documentation
-  description: Discover how to make the most of Dynamics 365 Field Service with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use features in Field Service and how to get the most out of the application.
+  description: Discover how to make the most of Dynamics 365 Field Service with training, docs, and videos covering product capabilities and how-to articles. Learn how to use features in Field Service and how to get the most out of the application.
   ms.topic: hub-page
   author: m-hartmann
   ms.author: mhart
-  ms.date: 06/09/2023
+  ms.date: 06/26/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -39,11 +39,11 @@ highlightedContent:
       
 additionalContent: 
   sections:
-  - title: Implement Field Service
+  - title: Implement
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
-    - title: Try, buy, and install
+    - title: Try/buy/install
       links: 
       - url: trial-signup.md
         text: Sign up for a trial
@@ -72,7 +72,7 @@ additionalContent:
       - url: field-service-customize-forms.md
         text: Customize forms
       
-  - title: Administer Field Service
+  - title: Administer
     items:
     - title: Administer
       links:
@@ -104,7 +104,7 @@ additionalContent:
         text: Get Resource Scheduling Optimization
       - url: rso-quickstart.md
         text: Deploy and set up Resource Scheduling Optimization
-  - title: Use Field Service
+  - title: Use
     items:
     - title: Work orders
       links:
