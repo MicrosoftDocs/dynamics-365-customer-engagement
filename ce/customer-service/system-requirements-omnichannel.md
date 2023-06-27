@@ -131,7 +131,7 @@ Location-specific links that should be made accessible are as follows.
 | Asia-Pacific and Japan | `oc-cdn-public-apj.azureedge.net/*`|
 | Australia | `oc-cdn-public-oce.azureedge.net/*`|
 | France | `oc-cdn-public-fra.azureedge.net/*`|
-| UAE | `oc-cdn-ocuae-uae.azureedge.net/*`|
+| United Arab Emirates | `oc-cdn-ocuae-uae.azureedge.net/*`|
 
 ### Government Community Cloud (GCC)
 
