@@ -1,5 +1,5 @@
 
-When a requirement is scheduled to a resource, the system creates a booking record. The schedule board displays bookings grouped by resources. The fields displayed in the schedule board booking are called a *Booking Template*, which you can customize.
+When a requirement is scheduled to a resource, the system creates a booking record. The schedule board displays bookings grouped by resources. The fields displayed in the schedule board booking are called a *Booking Template*, which you can customize wioth fields from out-of-box entities.
 
 ## Edit work order booking template
 
@@ -36,6 +36,8 @@ Here's an example that pulls values from the work order that relates to the book
 ```
 
 > [!TIP]
+> Use out-of-box system entities only. Pulling values from custom entities isn't supported.
+>
 > To avoid typing mistakes, go to **Customization** > **Entities** > **Bookable Resource Bookings** and copy the field names. Fields from the *Bookable Resource Booking* entity can be referenced directly using the field name in curly brackets. Example: `{duration}`.
 >
 > If you want to display a field from a linked entity, find the name of the N:1 relationship and add a period (.) followed by the field name of the target entity. For example, the work order relationship path is *msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder* and the primary incident type field is *msdyn_primaryincidenttype*. This results in field reference `{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}`.
