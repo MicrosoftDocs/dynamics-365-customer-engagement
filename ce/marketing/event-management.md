@@ -1,7 +1,7 @@
 ---
 title: "Plan, publicize, and collect registrations for events (Dynamics 365 Marketing) | Microsoft Docs"
 description: "An overview of event-management features (including planning, logistics, sponsors, speakers, promotion, and registration) in  Dynamics 365 Marketing."
-ms.date: 10/23/2020
+ms.date: 06/27/2023
 
 ms.custom: 
   - dyn365-marketing
@@ -41,9 +41,33 @@ Use other parts of the **Events** work area to work with specific record types t
 
 After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event website, where attendees can read about the event and register for it. You must also publish each related session and track that you want to show on the website for each event. More information: [Publish events, sessions, tracks, and related records to the website](set-up-event-portal.md#publish-event)
 
+Dynamics 365 Marketing offers two solutions for Event Management: outbound and real time marketing.
+
 > [!NOTE]
 > If you have created a [Portal hosted event website](./developer/portal-hosted.md), you must [manually overwrite your sample website with the latest version](./developer/manually-overwriting-sample-website.md) to maintain functionality after applying any Dynamics 365 Marketing update.
 >
 > If your event website is [self-hosted](./developer/self-hosted.md), you must [install the latest self-hosted sample website](./developer/event-management-web-application.md) to maintain functionality after applying any Marketing update.
+
+## When to use real-time marketing and when to use outbound marketing Event Management
+
+Real time marketing solution for event management is a new solution of event management that currently has a subset of features of outbound version and several improvements. 
+
+Key features availability:
+
+|          |     Outbound Marketing    |     Real-Time Marketing    |
+|---|---|---|
+|     Single session event    |     Yes    |     Yes    |
+|     Multi-session event          |     Yes    |     Yes    |
+|     Recurring event    |     Yes    |     N/A    |
+|     Event level templates    |     Yes    |     N/A    |
+|     Sessions, session tracks, speaker management    |     Yes    |     Yes    |
+|     Venue management    |     Yes    |     Yes    |
+|     Tracking sponsors    |     Yes    |     Yes    |
+|     Creating Teams Meetings/Live Events/Webinars    |     Yes    |     Yes    |
+|     Support of On24 and other Generic Webinar Providers      |     Yes    |     N/A    |
+|     Using Marketing forms for registrations    |     Yes    |     Yes    |
+|     Waitlist    |     Yes    |     N/A    |
+|     Payments    |     Yes    |     N/A    |
+|     Lead Entity Registration    |     Yes    |     N/A    |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
