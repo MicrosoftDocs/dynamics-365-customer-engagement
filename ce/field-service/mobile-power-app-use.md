@@ -20,7 +20,7 @@ The following articles describe how frontline workers or technicians get the mos
 - [Work offline and update offline data](work-offline-mobile-app.md)
 - [Access related apps form the Field Service mobile app](access-related-apps-mobile-app.md)
 
-We have recently released Public Preview features in the app, learn more about it [here](mobile-public-preview-overview.md))
+We have recently released Public Preview features in the app, learn more about it [here](mobile-public-preview-overview.md).
 
 The documentation articles let you change between the default and the Public Preview experience with tabs in the sections that describe a feature. Switching tabs in one section will automatically switch the content for the other sections too.
 
