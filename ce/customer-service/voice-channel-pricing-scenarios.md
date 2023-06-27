@@ -26,7 +26,7 @@ The Dynamics 365 Customer Service voice channel is built on Azure Communication 
 - [Inbound: Azure direct routing](#inbound-azure-direct-routing)
 - [Outbound: Azure direct routing](#outbound-azure-direct-routing)
 
-The following table summarizes the pricing for each scenario.The prices in the following examples are for illustrative purposes and may not reflect the latest Azure pricing in your region.
+The following table summarizes the pricing for each scenario. The prices in the following examples are for illustrative purposes and might not reflect the latest Azure pricing in your region.
 
 |Scenario  | Price   |
 |----------|-----------|
@@ -47,11 +47,11 @@ Mae calls your Azure Communication Services US toll-free number from a mobile de
 
 Cost calculation:
 
-- One participant on PSTN (inbound from Mae)x 10 minutes x 0.022 per participant per minute = $0.22.
+- One participant on PSTN (inbound from Mae) x 10 minutes x 0.022 per participant per minute = $0.22.
 - One participant on Voice over Internet Protocol (VOIP) (inbound to Power Virtual Agents bot) X 2 x $0.004 per minute = $0.008.
   > [!NOTE]
-  > The VOIP call to the Power Virtual Agents bot isn't covered by the intelligent voice bot minutes included in the Voice Channel for Dynamics 365 Customer Service license.
-- One participant on VOIP (inbound to Matias)x 8 x $0.004 per participant per minute= $0.032.
+  > The VOIP call to the Power Virtual Agents bot isn't covered by the intelligent voice bot minutes included in the Voice Channel Add-in license.
+- One participant on VOIP (inbound to Matias) x 8 x $0.004 per participant per minute= $0.032.
 
 **Total cost for the call**: $0.22 + $0.008 + $0.032 = $0.26.
 
