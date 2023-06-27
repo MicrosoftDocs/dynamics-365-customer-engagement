@@ -19,7 +19,8 @@ This document describes how to manage the Field Service Mobile app navigation me
 
 To access the app navigation in the current production app simply tap on the top left menu icon.
 
-Screenshot
+> [!div class="mx-imgBorder"]
+> ![Two mobile devices showing the Field Service (Dynamics 365) mobile app. The device on the left shows the full menu for Field Service (Dynamics 365). The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
 
 ## [Public Preview app](#tab/vNext)
 

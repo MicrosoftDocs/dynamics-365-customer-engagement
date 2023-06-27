@@ -43,7 +43,13 @@ In the footer, select **More** > **Show as** > **Read-only Grid** to see the boo
 
 ## [Public Preview app](#tab/vNext)
 
-<!--- Content here  -->
+The first screen shows the list of all scheduled work orders for today for the logged in technician. The list can be filtered by work order status and sorted by various dimensions.
+
+<!-- screenshots: bookings home page, filter, sort -->
+
+Each work order in the list exposes some quick actions in the contextual menu or by swiping from left to right.
+
+<!-- screenshots: quick actions, swiping -->
 
 ---
 
