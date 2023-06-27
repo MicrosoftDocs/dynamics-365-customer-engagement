@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 05/02/2023
+ms.date: 06/27/2023
 ms.custom: bap-template
 ---
 
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 As part of [adding an integrated search provider](add-search-provider.md#add-integrated-search-providers) in Customer Service, you need to tell the service how to ingest the knowledge articles it receives from the provider. You do that by selecting and configuring a knowledge article schema. You can't change the schema after you save the configuration.
 
-If you applied a language filter in the **Authentication and Testing** section, you must maintain the [language locale mapping](/power-apps/developer/data-platform/reference/entities/languagelocale) in the knowledge article schema you select.
+If you applied a language filter in the **Authentication and Testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).
 
 To start, select an option in the **Knowledge article schema** section:
 
@@ -22,13 +22,14 @@ To start, select an option in the **Knowledge article schema** section:
 
 ## Field mapping
 
-With field mapping, you map a knowledge article received from the search provider (the source) to an attribute of the knowledge article entity (the target), based on an operation type. Article attributes are the fields that are mapped in a knowledge article entity. [Operation types](#operation-type-mapping-options) are the patterns that map a source article to article attributes.
+With field mapping, you map a knowledge article received from the search provider (the source) to an attribute of the knowledge article entity (the target), based on an operation type.
 
-<!-- EDITOR'S NOTE: I think these instructions would benefit from a screenshot. They're really hard to visualize. -->
-1. Save the article<!-- EDITOR'S NOTE: What article? Save it where? --> as a **Web Page, HTML Only** file. Make sure the file name is fewer than 99 characters.
-1. To upload the file, select **Choose file**<!-- EDITOR'S NOTE: Where? -->.
+Article attributes are the knowledge article target field values. Operation types are the mapping patterns that map the source article to the article attributes of the knowledge article entity. More information: [Operation type mapping options](#operation-type-mapping-options). Source Property is the value that you define for each operation type. For example, if you select the **Direct** operation type, you'll have to select from the previously selected meta tags or the **HTML-Title** or **HTML-Body** tags.
 
-    All the meta tags that correspond to your HTML file are listed in the **Meta tags settings** section.<!-- EDITOR'S NOTE: Is "correspond to" the right phrasing here? Would "are found in" be more accurate? Also, are "meta tags" fields or attributes? -->
+1. Save the article locally as a **Web Page, HTML Only** file. Make sure the file name is fewer than 99 characters.
+1. In the Customer Service admin center site map, **Knowledge article schema** > **Field Mapping** section, upload the file by selecting **Choose file**.
+
+    All the meta tags found in your HTML file are listed in the **Meta tags settings** section.
 
 1. Either select **Select all below meta tags** or select only the meta tags you need to map.
 
@@ -55,8 +56,8 @@ With field mapping, you map a knowledge article received from the search provide
 
 [Learn more about schema details to build a metadata mapping template](int-search-metadata-schema.md).
 
-1. Copy and paste your article properties and schema JSON in the field provided to you<!-- EDITOR'S NOTE: Where? A screenshot will help here. -->.
-1. Select **Validate json**.<!-- EDITOR'S NOTE: Is "json" capitalized correctly? -->
+1. Copy and paste your article properties and schema JSON in the field provided to you
+1. Select **Validate JSON**.
 
     If validation succeeds, you see a confirmation message. If validation fails, you see an error message that identifies the parameter that has an incorrect value.
 

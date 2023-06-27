@@ -6,12 +6,11 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365 
 ms.topic: how-to
-ms.date: 04/10/2023
+ms.date: 06/27/2023
 ms.custom: bap-template
 ---
 
 # Apply authentication for search providers
-<!-- EDITOR'S NOTE: This article isn't in the TOC. Should it be? -->
 
 Apply authentication for your search providers as required by your organization. If you authenticate using OAuth 2.0 with Azure Active Directory (Azure AD), you need the resource ID, client ID, and client secret from your configuration of Azure AD authentication for your website. OAuth 2.0 only works with cloud mode.
 
@@ -20,7 +19,7 @@ The values of the resource ID, client ID, and client secret depend on your scena
 - **Scenario 1:** You're using the same application for the identity provider and the client app to access the website.
   - The client ID and the resource ID are the application's application ID.
   - The client secret is the secret that you generated in the app.
-  - After you configure the client app, make sure to create a new client secret in the app's **Certificates & Secrets** settings.<!-- EDITOR'S NOTE: Is it "&" or "and" and is "secrets" capitalized? It's "and secrets" in line 41. -->
+  - After you configure the client app, make sure to create a new client secret in the app's **Certificates and secrets** settings.
 
 - **Scenario 2:** You're using different applications for the identity provider and the client app.
   - The client ID is the application ID of the client app.
@@ -29,14 +28,14 @@ The values of the resource ID, client ID, and client secret depend on your scena
 
 ## Apply OAuth 2.0 authentication
 
-1. In the **Branding and Properties** tab, enter the **Home page URL**.<!-- EDITOR'S NOTE: Please identify the application the admin should be signed in to. -->
+1. In the **Branding and Properties** tab, enter the **Home page URL**.
 
-    :::image type="content" source="media/homepageurl.png" alt-text="Screenshot of the Branding and Properties tab, with the Home page URL highlighted.":::<!-- EDITOR'S NOTE: Please crop the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main).-->
+    :::image type="content" source="media/homepageurl.png" alt-text="Screenshot of the Branding and Properties tab, with the Home page URL highlighted.":::
 
 1. In the **Authentication** tab, select **Add a platform**.
 1. Select **Web**.
 
-    :::image type="content" source="media/configure-web_new.png" alt-text="Screenshot of web platform settings.":::<!-- EDITOR'S NOTE: Please crop the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main).-->
+    :::image type="content" source="media/configure-web_new.png" alt-text="Screenshot of web platform settings.":::
 
 1. If you use the user token that's sent by Azure for authentication, enter the **Redirect URIs**. Otherwise, this field is optional.
 
