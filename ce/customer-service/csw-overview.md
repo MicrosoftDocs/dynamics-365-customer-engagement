@@ -1,7 +1,7 @@
 ---
 title: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service."
-ms.date: 04/11/2023
+ms.date: 06/27/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -11,7 +11,7 @@ search.audienceType:
   - enduser
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Get started with Customer Service workspace
@@ -26,14 +26,12 @@ For more information about licensing and system requirements, see [Customer Serv
 
 You can set up your Customer Service workspace environment so that agents who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
 
-
 :::image type="content" source="media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace"::: 
-
 
 ## Customer Service workspace sessions and tabs
 
 Customer Service workspace allows agents to work on multiple sessions at a time in a single app while keeping the work organized.
-Agents can work on up to nine sessions and within a session, they can open up to 10 tabs. A new session is launched when an agent opens a case from the **Home** session or accepts an incoming conversation. If the agent opens the customer record from a session, a new tab opens in the same session. 
+Agents can work on up to nine sessions and within a session, they can open up to 10 tabs. A new session is launched when an agent opens a case from the **Home** session or accepts an incoming conversation. If the agent opens the customer record from a session, a new tab opens in the same session. Agents can select the hamburger icon to access the site map. When an agent opens a page from the site map, the page loads in the current focused session.
 
 ### Navigate sessions and tabs
 
@@ -51,12 +49,11 @@ Agents can work on up to nine sessions and within a session, they can open up to
 | Open a view from the Sitemap | View opens in a new tab in the focused session |
 | Open a dashboard from the Sitemap | Dashboard opens in a new tab in the focused session|
 
-
 ### Use the Inbox
 
 If your administrator has turned on the inbox for your profile, you can select the **Inbox** tab to view all the cases, conversations, and activities that are assigned to you. Use the inbox to work on high-velocity tasks. You can also promote inbox sessions to regular sessions when you need more time to resolve a case or complete a conversation.
 
-The asynchronous channels available in the conversation inbox are: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Microsoft Teams.
+The asynchronous channels available in the conversation inbox are: SMS, persistent chat, Facebook, WeChat, LINE, WhatsApp, and Microsoft Teams.
 
 More information: [Configure the inbox view](configure-inbox.md)
 
@@ -85,7 +82,10 @@ More information: [Agent experience profiles](/dynamics365/app-profile-manager/o
 Here are a few things to note when you use Customer Service workspace in your organization:
 
 - We recommend that you have only one browser instance accessing the app.
-- The results of navigation actions when you use the app or the `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs are the same.
+- `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs have a similar navigation as the multisession app. For example:
+    - A new session is initiated if you open a form through `XRM.Navigation.openForm` from Home.
+    - A new tab in the focused session is initiated if you open a form through `XRM.Navigation.openForm` from a case session.
+- Opening a WebResource through `Xrm.Navigation.openWebResource` will open a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using the `Microsoft.Apm.createTab` method. More information: [createTab method](../app-profile-manager/reference/microsoft-apm/createTab.md) 
 - You can open sessions and tabs using Microsoft.Apm APIs. More information: [App profile manager JavaScript API Reference](../app-profile-manager/reference/microsoft-apm.md)
 
 ### Limitations
@@ -93,7 +93,7 @@ Here are a few things to note when you use Customer Service workspace in your or
 The following limitations apply to Customer Service workspace:
 - When you switch between tabs or sessions:
      - Sub grid controls don't retain the filter or sort conditions.
-     - Web resources, form components, and third-party websites don't retain the state of the page.
+     - Web resources, form components, custom pages, and third-party websites don't retain the state of the page.
 - Customer Service workspace isn't supported in mobile devices, Unified Service Desk, and with Dynamics 365 Customer Engagement (on-premises).
 
 ## Deprecated Customer Service workspace layout
@@ -117,7 +117,7 @@ You can enable the legacy layout in one of the following ways:
 ### [Browser developer tools](#tab/broswerdevtools)
 
  1. With Customer Service workspace open, press the F12 key to open the developer tools window.
- 1. In the console window, type the following command and press **Enter**. `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
+ 1. In the console window, type the following command and press **Enter**. `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionLayoutImprovements",false)`
  1. Refresh the app page.
 
 ---

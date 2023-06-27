@@ -90,7 +90,7 @@ Use general properties and scheduling options to define a forecast model.
 
     The list of values depends on the hierarchy entity you selected. For example, if you select **User** as the hierarchy entity, the list displays active users in your organization.
 
-    Let's say that Kenny Smith, a sales director, wants to see a forecast for his team. He builds a forecast based on the **Org chart** template and selects his name as the top of the hierarchy. His team's hierarchy is previewed to the right of the forecast options.
+    Let's say that Kenny Smith, a sales director, wants to see a forecast for the team. Kenny builds a forecast based on the **Org chart** template and selects their own name as the top of the hierarchy. The team's hierarchy is previewed to the right of the forecast options.
 
     :::image type="content" source="./media/forecast-general-tab-configuration-section.png" alt-text="A screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
 

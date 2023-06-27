@@ -1,7 +1,7 @@
 ---
 title: Configure work classification rulesets
 description: Learn how to configure work classification rulesets for unified routing.
-ms.date: 03/08/2023
+ms.date: 04/26/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -48,7 +48,7 @@ Logical classification rules are run to update work item attributes. They are wr
 
 To create a logical work classification ruleset, do the following steps:
 
-1. In Customer Service admin center, Omnichannel admin center, or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
+1. In Customer Service admin center or Omnichannel admin center (deprecated), select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
 
 2. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Logical rules** in **Rule type**, and enter a name and description. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule.
 
@@ -89,7 +89,8 @@ Follow these steps to create a logical skill classification ruleset:
 7. If you want to set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
 
    > [!Note]
-   > Ensure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the agent. Also, ensure that you don't attach the same skill with two different rating models.
+   > - Ensure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the agent. Also, ensure that you don't attach the same skill with two different rating models.
+   > - When you reroute a work item, new skills are appended to the existing ones if any.
 
 ## Create classification rulesets based on capacity profiles
 

@@ -1,7 +1,7 @@
 ---
 title: "Define playbook categories | MicrosoftDocs"
 description: "Create playbook categories to classify playbooks based on the audience, objective, or any other criteria."
-ms.date: 10/25/2021
+ms.date: 05/08/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,6 +17,9 @@ searchScope:
   - Customer Engagement
 ---
 # Define playbook categories 
+
+> [!NOTE]
+> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](deprecations-sales.md#playbooks-will-be-deprecated)  
 
 You can create categories to classify playbooks. For example, categories could be contract renewals or decision maker departures.
 

@@ -2,7 +2,7 @@
 title: "Get session ID and logs to help troubleshoot your issue | MicrosoftDocs"
 ms.custom:
 description: Get logs and session ID to help troubleshoot your issue.
-ms.date: 10/27/2021
+ms.date: 06/05/2023
 ms.reviewer:
 
 ms.suite:
@@ -17,6 +17,9 @@ search.audienceType:
   - admin
   - customizer
   - enduser
+ms.contributors:
+ - bwalters
+ - trdehove
 ---
 # Get session ID and logs to help troubleshoot your issue
 
@@ -48,11 +51,10 @@ On the sign in screen, select the clipboard icon and then select **Copy session 
 Send logs directly to Microsoft, so we can help troubleshoot your issue.
 
 1. On the sign in screen, select the clipboard icon and then select **Share logs**.
-2. Select a sharing option such as Outlook and then email the logs to: dynmobisup@microsoft.com
+2. Select a sharing option such as Outlook and then attach the logs to a support ticket. See [Customer Support Plans](https://dynamics.microsoft.com/support/) for details.
 
-Alternatively, You can also share logs from Home screen.
+Alternatively, you can also share logs from the home screen.
 
 1. Select the site map ![Site map.](media/d365_mobile_sitemap_icon.png "Site map"), and then select your picture or the profile button.
-2. Under **Help** select, **Share logs** and then email the logs to: dynmobisup@microsoft.com
-
+2. Under **Help** select, **Share logs** and then attach the logs to a support ticket. See [Customer Support Plans](https://dynamics.microsoft.com/support/) for details.
    

@@ -1,7 +1,7 @@
 ---
-title: "Preview: Enhanced journey reminders (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to boost your productivity with enhanced journey reminders in Dynamics 365 Marketing."
-ms.date: 04/04/2023
+title: Enhanced journey reminders
+description: Learn how to boost your productivity with enhanced journey reminders in Dynamics 365 Marketing.
+ms.date: 05/09/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started
@@ -13,13 +13,7 @@ search.audienceType:
   - enduser
 ---
 
-# Preview: Enhanced journey reminders
-
-> [!Important]
->
-> A preview feature is a feature that is not yet complete but is made available to customers > to get early access before it’s officially included in a release  and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
->
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to assist you with issues or questions. Preview features aren’t meant for production use, particularly when processing personal data or other data subject to legal or regulatory compliance requirements.
+# Enhanced journey reminders
 
 Create action-oriented journeys that remind customers to complete a call to action until a certain date or time. Built-in reminder orchestration eliminates the need to create cascading branches that check for the qualifying action after each step or specify conditions with more than two possibilities. This simplifies not only the journey logic required to capture the whole scenario in a single journey, but also preserves all analytics for the journey actions in a single place when journeys are live.
 

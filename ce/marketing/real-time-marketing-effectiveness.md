@@ -1,7 +1,7 @@
 ---
 title: "Preview: Marketing effectiveness analytics"
 description: Learn how to create personalized experiences with marketing effectiveness analytics in Dynamics 365 Marketing.
-ms.date: 04/17/2023
+ms.date: 05/15/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -20,7 +20,11 @@ search.audienceType:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW14d7h]
+
 Dynamics 365 Marketing enables you to create highly personalized experiences to nudge customers toward important milestones in the buyer's journey. With the marketing effectiveness analytics dashboard, you can define key customer milestones, measure them over time, and assess the contribution and effectiveness of your journeys, channels, and marketing assets in driving customers to the milestones. The dashboard uses AI-powered multi-touch and single-touch attribution models. This provides you with a feedback loop to gain a comprehensive view of the effectiveness of your real-time marketing tactics in driving key business outcomes, empowering you to optimize your marketing mix by learning from tactics that worked well and improving or dropping tactics that didn’t.  
+
+:::image type="content" source="media/real-time-marketing-effectiveness-analytics-dashboard.png" alt-text="Marketing effectiveness analytics dashboard." lightbox="media/real-time-marketing-effectiveness-analytics-dashboard.png":::
 
 ## How to use the dashboard
 
@@ -55,7 +59,7 @@ For the example scenario, you need to create a trigger that gets raised when the
 > ![Select different attributes for trigger](media/real-time-marketing-select-different-attributes-for-trigger.png "Select different attributes for trigger")
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing that trigger is ready to use with all the attributes](media/real-time-marketing-trigger-ready-to-use.png "Screenshot showing that trigger is ready to use with all the attributes")
+> ![Screenshot showing that trigger is ready to use with all the attributes](media/real-time-marketing-trigger-is-ready-to-use.png "Screenshot showing that trigger is ready to use with all the attributes")
 
 As shown above, a business trigger has been created that gets raised every time a lead’s status or rating attributes are updated in the system. The business trigger is now ready to use to create the milestone. 
 
@@ -70,7 +74,7 @@ Next, to start creating a milestone, go to the **Marketing effectiveness analyti
 Next, to start creating a milestone, select **“+ Add”** in the “Define milestones” table.
 
 > [!div class="mx-imgBorder"]
-> ![Define milestones using analytics dashboard settings](media/real-time-marketing-setup-dashboard-settings.png "Define milestones using analytics dashboard settings")
+> ![Define milestones using analytics dashboard settings](media/real-time-marketing-setup-your-dashboard-settings.png "Define milestones using analytics dashboard settings")
 
 To define the milestone, add the following details:  
 - Name: **High-quality qualified lead**
@@ -83,7 +87,7 @@ To define the milestone, add the following details:
 Next, select **“Add”** to complete the milestone creation. You’ll now see the milestone show up in the milestones table with details of the milestone definition along with its tracking start date (this is the date when you created the milestone and from this date onwards, the system starts tracking customers that reach this milestone and show corresponding analytics in the dashboard).
 
 > [!div class="mx-imgBorder"]
-> ![Add more milestones using the same procedure](media/real-time-marketing-milestone-creation.png "Add more milestones using the same procedure")
+> ![Add more milestones using the same procedure](media/real-time-marketing-milestone-creation-done.png "Add more milestones using the same procedure")
 
 In this way, you can create up to five milestones by leveraging business or custom triggers. Select **“Done”** once you’ve created the milestones to exit the dashboard settings page. You can access the dashboard settings page to create new milestones or delete existing ones at any point by selecting **“Edit dashboard”** in the upper right corner of the dashboard.
 
@@ -108,9 +112,6 @@ This section provides you with insights into the effectiveness and contribution 
 1. **Last touch model**: This is a single-touch model and allocates all credit for milestone attainment to the last customer interaction before the milestone is completed. It can be used to understand the most common last journey, channel, or marketing asset that customers interacted with before completing a milestone.
 
 Select a milestone and an attribution model from the dropdown to see the corresponding effectiveness analysis. Based on the selection, a percentage score is allocated to each journey, channel, and marketing asset and displayed in the corresponding effectiveness charts.  
-
-> [!div class="mx-imgBorder"]
-> ![Select a milestone and attribution model to get detailed analytics report](media/real-time-marketing-effective-analytics-dashboard-in-detail.png "Select a milestone and attribution model to get detailed analytics report")
 
 Only actual customer interactions due to real-time marketing-initiated activities are considered for the attribution analysis. The following are the types of customer interactions for each marketing asset that are considered for attribution analysis:
 - **Email**: Email opens and clicks.

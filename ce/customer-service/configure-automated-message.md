@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service.
-ms.date: 02/10/2023
+ms.date: 06/27/2023
 author: lalexms
 ms.author: laalexan
 ms.reviewer: nenellim
@@ -16,10 +16,9 @@ ms.custom: bap-template
 You can configure Omnichannel for Customer Service to send automated messages through chat, SMS, Microsoft Teams, or social channels. The **Automated messages** tab in each channel instance enables you to create channel-specific and locale-specific text. You can customize, deactivate, and activate customer and agent-facing messages at the channel level.
 As an administrator, you can also overwrite or deactivate the preconfigured, out-of-the-box automated messages for any channel instance. The preconfigured automated message triggers are listed in [this section](#preconfigured-automated-message-triggers).
 
-
 ## Display a list of all automated messages
 
-You can view a list of all agent and customer-facing automated messages in your Omnichannel for Customer Service environment. 
+You can view a list of all agent and customer-facing automated messages in your Omnichannel for Customer Service environment.
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -63,13 +62,13 @@ You can customize messages across instances within a channel. For example, you c
 
 You can customize automated messages at the channel instance level. For example, you can apply a change to a specific Facebook account or a specific SMS number. If you don't create customized automated messages at the channel instance level, each instance will inherit the channel-level settings. If you create customized automated messages at the channel instance level, then the channel-level settings are overwritten.
 
-### Add custom automated messages in Customer Service admin center or Omnichannel admin center
+### Add custom automated messages
 
 Do the following for the channel in which you want to create custom automated messages in the Customer Service admin center or Omnichannel admin center app:
 
 1. Go to the workstream, and edit the channel instance.
 2. On the **Behaviors** page, select **Add message** in the **Custom automated messages** area.
-3. On the **Add automated message** pane, select a trigger from the **Message trigger** dropdown list.
+3. On the **Add automated message** pane, select a trigger from the **Select a message trigger** dropdown list.
 4. In the **Automated message** box, type the message that should be displayed.
 5. Select **Confirm**.
 6. Repeat steps 3 through 5 to create multiple messages.
@@ -79,7 +78,8 @@ Do the following for the channel in which you want to create custom automated me
 
 | **Message trigger** | **Definition** | **When to trigger** |
 |-----------------|------------|-----------------|
-| Agent assigned to a conversation | Message displayed to the customer when the agent is assigned to the conversation | When the agent is assigned to the conversation. |
+| Greeting Message for Async Channels and Voice | The automated message played for the customer as soon as the call is connected <br>**Note**<br> If the bot is enabled, ensure that the automated greeting message is different from the bot message. | You can set it up to be played as the first message that the customer should hear when they call the digital contact center. |
+| Agent assigned to a conversation | Message displayed to the customer when the agent is assigned to the conversation | When the agent is assigned to the conversation.
 | Agent couldn’t be assigned to conversation   | Message displayed to the customer when agent assignment fails | When work distribution fails or when routing is unable to add the agent to the chat due to system (CBB/IC3) failure. For example, no agents are linked to the queue, or the default queue isn't found. <br>**Note**<br> This trigger isn't applicable to a scenario when a matching agent can't be identified based on the assignment configuration. |
 | Agent disconnected from conversation | Message displayed to the customer when the agent gets disconnected | When the agent gets disconnected due to browser tab closure, browser closure, offline agent presence, or network issue.  |
 | Agent ended conversation | Message displayed to the customer when the agent ends the conversation | When the agent selects the End button |
@@ -93,7 +93,7 @@ Do the following for the channel in which you want to create custom automated me
 | Consult session ended  | Message displayed to the customer when consulted agent ends the session | When the consulted agent closes the session. |
 | Customer is next in line  |   Message displayed when the customer is next in line in the queue  |  When customer is next in line in the queue. |
 | Customer's position in queue |  Message displayed when the customer is waiting in queue at the second position or beyond | When customer is waiting in queue at the second position or beyond. |
-| Customer disconnected from conversation | Message displayed to the agent when the customer gets disconnected | When the customer gets disconnected due to browser tab closure, browser closure, or network issue.  |
+| Customer disconnected from conversation | Message displayed to the agent when the customer gets disconnected | When customer explicitly closes the browser tab or gets disconnected because of network issue.  |
 | Holiday message to customer | Message displayed to the customer on holidays | When the customer initiates a conversation on holidays set up for the Live Chat, channel, or queue.  |
 | Out of operating hour message to customer | Message displayed to the customer outside of the business hours  | When customer initiates a conversation outside of business hours set up for the Live Chat, channel, or queue. |
 | Session ended   | Message displayed to the customer when the agent ends the conversation and closes the session| When the agent ends the conversation and closes the session. |

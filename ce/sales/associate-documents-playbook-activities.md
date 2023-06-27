@@ -1,7 +1,7 @@
 ---
 title: "Associate documents with playbook activities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Associate documents with playbook activities to help your team access accurate and current sales materials or training content to close a deal."
-ms.date: 10/26/2021
+ms.date: 05/08/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,6 +18,9 @@ searchScope:
   - Sales
 ---
 # Associate documents with playbook activities 
+
+> [!NOTE]
+> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](deprecations-sales.md#playbooks-will-be-deprecated)  
 
 Ensure sales reps always have the latest sales and training materials to close a deal by associating documents with playbook activities that you add to a playbook template.
 For example, create a playbook template that sales reps can follow when the decision maker they are working with leaves the organization. While adding activities to this template, you can also attach documents that help the sales rep bring the new decision maker up to speed. 

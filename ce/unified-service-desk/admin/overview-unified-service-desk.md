@@ -10,7 +10,7 @@ search.audienceType:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-  - intro-internal
+ms.collection: get-started
 tags: MigrationHO
 ---
 

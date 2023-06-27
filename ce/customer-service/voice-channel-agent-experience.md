@@ -1,7 +1,7 @@
 ---
 title: Use agent dashboard and call controls in the voice channel
 description: Learn how you can use the agent dashboard, call controls, and make and receive customer calls in Omnichannel for Customer Service.
-ms.date: 04/18/2023
+ms.date: 06/13/2023
 ms.service: dynamics-365-customerservice
 ms.topic: how-to
 author: gandhamm
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The voice channel in Omnichannel for Customer Service is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers you as an agent a consolidated view of the calling interface, the customer summary, case history, and timeline. This helps you provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
+The voice channel in Omnichannel for Customer Service is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers you a consolidated view of the calling interface, the customer summary, case history, and timeline. The dashboard helps you provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
 
 ## Make and receive customer calls
 
@@ -36,7 +36,7 @@ The conversation panel in the agent dashboard includes the following call contro
   > [!NOTE]
   > When you initiate a consult, you are the primary agent and the new participant has a consult role. Select **Transfer** next to the participant to transfer the call to the consulting agent or supervisor. Once the call is transferred, you are the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call will end for the customer.
 
-- **Transfer**: Select this option is to transfer the call to an agent, queue, a Teams user, or an external phone number. Once you transfer the call, the agent to whom the call is transferred is the primary agent and you will no longer be on the call. 
+- **Transfer**: Select this option is to transfer the call to an agent, queue, a Teams user, or an external phone number. After you transfer the call, the agent to whom the call is transferred is the primary agent and you'll no longer be on the call.
     During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls will continue if the administrator has enabled the [option](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice). You can disable recording from the dashboard. See: [Transfer and consult scenarios](voice-channel-transfer-consult.md)
 - **End**: End the call.
 - **Show number pad**: Open the number pad to dial an extension number. If you must use the dial pad to send a response while navigating an IVR, select the dial pad icon next to the external participant in the participant list.
@@ -61,10 +61,15 @@ You can add notes to help your administrator review and block numbers. After you
 
 Avoid the following actions to prevent call drops:
 
-- Refresh your browser or select browser bookmark icons when you're in an active call. When you select refresh, even if you select cancel on the confirm refresh dialog, the page is unloaded. You will be disconnected from the call, and the customer will hear hold music until you rejoin the call from the **My work items** section of **Omnichannel Agent Dashboard**. If you're disconnected from your browser for a longer duration than a few minutes, the call is reassigned to another agent in the queue.
-- Open other apps that will need access to the microphone. It'll result in loss of your audio connection, and the customer won't be able to hear you.
+- Refresh your browser or select browser bookmark icons when you're in an active call. When you select refresh, even if you select cancel on the confirm refresh dialog, the page is unloaded. You'll be disconnected from the call, and the customer will hear hold music until you rejoin the call from the **My work items** section of **Omnichannel Agent Dashboard**. If you're disconnected from your browser for a longer duration than a few minutes, the call is reassigned to another agent in the queue.
+- Open other apps that will need access to the microphone. It will result in loss of your audio connection, and the customer won't be able to hear you.
 - Open the Customer Service workspace or Omnichannel for Customer Service app in more than one tab in the browser. It causes issues in agent presence.
-- Close the session directly to end call. If you do, the conversation moves from active to wrap up. Then if you close the session, the state goes from wrap up to closed. Therefore, we recommend that you go through the conversation status route and select the **End** button and then close the session to be able to take care of the wrap up activities.
+- Close the session directly to end call. If you do, the conversation moves from active to wrap up. Then if you close the session, the state goes from wrap up to closed. So, we recommend that you go through the conversation status route and select the **End** button and then close the session to take care of the wrap-up activities.
+
+## Best practices
+
+- Make sure that you have enabled notifications, and audio and video options in the browser.
+- When your shift ends, ensure that you sign out and close your browser through which you access Customer Service workspace. Doing so helps avoid work items being incorrectly assigned to you.
 
 ### See also
 
