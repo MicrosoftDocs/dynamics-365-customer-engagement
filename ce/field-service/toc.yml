@@ -1,19 +1,22 @@
 items:
-- name: Welcome to Field Service
+- name: Dynamics 365 Field Service documentation
+  href: index.yml
+
+- name: Welcome to Dynamics 365 Field Service
   href: overview.md
 
-- name: Field Service documentation
-  href: user-guide.md
-
-- name: Try for free
-  items:
-  - name: Sign up for free trial
-    href: trial-signup.md
-  - name: Trial FAQs
-    href: trial-faq.md
-
 - name: Get started
-  href: field-service-get-started.md
+  items:
+  - name: Try for free
+    items:
+      - name: Sign up for free trial
+        href: trial-signup.md
+      - name: Trial FAQs
+        href: trial-faq.md
+  - name: Buy a subscription
+    href: buy-fs.md
+  - name: Get started
+    href: field-service-get-started.md
 
 - name: What's new
   items:
@@ -75,29 +78,25 @@ items:
       href: search-dataverse-tables.md
     - name: Customer asset validation
       href: asset-validation.md
-
-- name: Work orders
-  items:
-    - name: Work order process architecture
-      href: field-service-architecture.md
-    - name: Create a new work order
-      href: create-work-order.md
-    - name: Work order life cycle and statuses
-      href: work-order-status-booking-status.md
-    - name: Add account details to a work order
-      href: work-order-customer-account.md
-    - name: Travel charges
-      href: travel-charges.md
-    - name: Knowledge articles
-      href: field-service-knowledge-management.md
-    - name: Capture resolution details
-      href: work-order-resolutions.md
-    - name: Work order completion surveys
-      href: work-order-surveys.md
     - name: Trades
       href: trades.md
     - name: Not-to-exceed
       href: work-order-not-to-exceed.md
+    - name: Create work order resolutions
+      href: work-order-resolutions.md
+    - name: Knowledge articles
+      href: field-service-knowledge-management.md
+
+- name: Work orders
+  items:
+    - name: Work order process overview
+      href: field-service-architecture.md
+    - name: Lifecylce and system statuses
+      href: work-order-status-booking-status.md
+    - name: Create a new work order
+      href: create-work-order.md
+    - name: Work order customization considerations
+      href: work-order-customization.md
 
 - name: Inspections
   items:
@@ -153,6 +152,8 @@ items:
       href: submit-approve-time-off-requests.md
     - name: Time entry
       href: field-service-time-entry.md
+    - name: Travel charges
+      href: travel-charges.md
 
 - name: Scheduling
   items:
@@ -253,6 +254,8 @@ items:
       href: mobile-powerapp-windows.md
     - name: Use Microsoft Power Platform
       href: mobile-power-utilize-platform.md
+    - name: IoT signals on mobile
+      href: cfs-mobile-powerapp.md
     - name: Customize the mobile app
       items:
         - name: Customize the home screen (Site Map)
@@ -329,37 +332,47 @@ items:
   items:
   - name: Overview
     href: connected-field-service.md
-  - name: Privacy notice
-    href: cfs-privacy-notice.md
-  - name: Administration
+
+  - name: Connect your IoT devices
     items:
-      - name: Architecture
-        href: developer/connected-field-service-architecture.md
-      - name: Security roles for Connected Field Service
-        href: cfs-security-roles.md
-      - name: Device categories
-        href: cfs-device-categories.md
-  - name: Connect your IoT data
-    items:
-      - name: Azure IoT Hub
+      - name: Connect IoT data overview
+        href: cfs-connect-data-overview.md
+      - name: Use custom IoT providers
+        href: cfs-custom-iot-provider.md
+      - name: Use Azure IoT Hub
         items:
-          - name: Develop customized IoT solutions
-            href: developer/connected-field-service-developer-guide.md
+          - name: Components and architecture
+            href: connected-field-service-architecture.md
           - name: Azure subscription prerequisites
             href: cfs-azure-subscription.md
           - name: Create an IoT provider for IoT Hub
             href: cfs-provider-iot-hub.md
           - name: Install and configure IoT Hub
             href: installation-setup-iothub.md
-          - name: Register IoT devices
-            href: cfs-register-devices.md
-          - name: Pull device data
-            href: cfs-pull-device-data.md
-          - name: "Quickstart: Build your own IoT solution"
-            href: connected-field-service-overview.md
-      - name: Use custom IoT providers
-        href: cfs-custom-iot-provider.md
-  - name: Analyze
+
+  - name: Work with IoT devices
+    items:
+      - name: Register IoT devices
+        href: cfs-register-devices.md
+      - name: Configure actions
+        href: cfs-configure-actions.md
+      - name: Send commands to IoT devices
+        href: cfs-commands.md
+      - name: Pull device data
+        href: cfs-pull-device-data.md
+      - name: IoT alerts
+        items:
+        - name: Set up IoT alerts
+          href: cfs-iot-alerts.md
+        - name: Use AI for IoT alerts
+          href: iot-alerts-ai-based-suggestions.md
+
+        - name: IoT - Parent IoT alerts workflow
+          href: iot-parent-iot-alerts-workflow.md
+      - name: Extend standard components or add Azure services
+        href: extend-connected-field-service-solutions.md
+      
+  - name: Analyze IoT data
     items:
       - name: Summary tiles
         href: cfs-summary-tiles.md
@@ -367,20 +380,16 @@ items:
         href: cfs-visualizations-iot-hub.md
       - name: Reports
         href: cfs-powerbi.md
-      - name: AI for IoT alerts
-        href: iot-alerts-ai-based-suggestions.md
-  - name: Take action
+
+  
+  - name: Administration
     items:
-      - name: IoT alerts
-        href: cfs-iot-alerts.md
-      - name: Connected Field Service on mobile
-        href: cfs-mobile-powerapp.md
-      - name: Send commands
-        href: cfs-commands.md
-      - name: IoT - Parent IoT alerts workflow
-        href: developer/iot-parent-iot-alerts-workflow.md
-      - name: Extend standard components or add Azure services
-        href: developer/extend-connected-field-service-solutions.md
+      - name: Security roles for Connected Field Service
+        href: cfs-security-roles.md
+      - name: Device categories
+        href: cfs-device-categories.md
+  - name: Privacy notice
+    href: cfs-privacy-notice.md
 
 - name: Resource Scheduling Optimization Add-in
   items:
@@ -474,8 +483,8 @@ items:
   items:
     - name: Video library
       href: https://www.youtube.com/channel/UC7Rd031NCJZekAkNU2bb8Kg/
-    - name: Learning paths
-      href: /training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path
+    - name: Community forum
+      href: https://community.dynamics.com/forums/thread/?groupid=74407f3d-21f7-403c-a59d-456e2a7dd7f9
     - name: Submit a feature request
       href: https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service
     - name: Get help

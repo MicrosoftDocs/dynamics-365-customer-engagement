@@ -5,13 +5,13 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 05/02/2023
+ms.date: 06/21/2023
 ms.custom: bap-template
 ---
 
 # Manage integrated search providers
 
-With integrated search providers in Dynamics 365 Customer Service, agents can search knowledge articles consolidated from external providers. Articles are ingested into Dataverse and refreshed on the schedule you specify.
+With integrated search providers in Dynamics 365 Customer Service, agents can search knowledge articles consolidated from third-party sources, such as enterprise websites that are based on the site map protocol, and experience a single ranking of articles across search providers. Articles are ingested into Dataverse and refreshed on the schedule you specify.
 
 ## Prerequisites
 

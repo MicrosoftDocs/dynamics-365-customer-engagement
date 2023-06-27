@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 05/02/2023
+ms.date: 06/21/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -170,6 +170,20 @@ If you create a major or minor version of a favorite article, then the new versi
 
 In Customer Service workspace and Omnichannel for Customer Service, when you select a favorite article, it opens in an app tab. In Customer Service Hub, the article opens in a new browser window.
 
+## Use external search providers
+
+In Customer Service Hub and Customer Service workspace, you may be able to search for files, documents, and articles from data sources outside your Dynamics 365 organization, if your administrator configured the option. To view those results, select the source from the list under **Knowledge**.
+
+In Customer Service Hub:
+
+   > [!div class=mx-imgBorder]
+   > ![Agent view of search providers.](media/search-provider-agent.png "Agent view of available search providers")
+
+In Customer Service workspace: 
+:::image type="content" source="media/csw-external-sources.png" alt-text="Search results for external sources in Customer Service workspace":::
+
+For more information on setting up search providers, see [Set up a search provider in Customer Service Hub](set-up-search-providers.md).
+
 ## Search across integrated providers in Customer Service Hub and Customer Service workspace
 
 In Customer Service Hub and Customer Service workspace, view and sort search results from [any providers your administrator has added](add-search-provider.md) for you. The name of the search provider the article was pulled from appears on the knowledge article card. If it's truncated, hover over it to view the full name.
@@ -209,14 +223,6 @@ You can perform the following actions on knowledge articles you view inline:
 - Select the **Copy Link** icon ![Copy knowledge article link button Dynamics 365 Customer Service](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 Customer Service") to copy the external URL of the article to share with your customer in channels like chat or email. If you use a browser other than Internet Explorer, this option isn't available.<!-- EDITOR'S NOTE: Internet Explorer, really? Can you please confirm this shouldn't be Edge (and maybe Chrome)? -->
 
 The copy and email options are available only if the knowledge article is [published on an external portal](set-up-knowledge-management-embedded-knowledge-search.md).
-
-The **Copy Link**, **Email Link**, and **Email** actions can be used only on published or expired articles.<!-- EDITOR'S NOTE: Expired articles? -->
-
-### View the knowledge article in a new window in Customer Service Hub
-
-In the **Knowledge Search** reference pane in Customer Service Hub, select the pop-out icon to open the article in a new window.
-
-:::image type="content" source="media/knowledge-search-pop-out-csh.png" alt-text="Screenshot of the reference pane in Customer Service Hub, with the pop-out icon highlighted.":::<!-- EDITOR'S NOTE: Please crop the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main) and highlight the pop-out icon.-->
 
 ### See also
 
