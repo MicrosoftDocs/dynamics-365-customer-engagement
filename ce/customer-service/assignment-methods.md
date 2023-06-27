@@ -38,7 +38,7 @@ For records channel, each assignment cycle prioritizes up to 2000 work items and
 
 The following assignment methods are available out of the box:
 
-- **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and who have the presence as specified in the allowed presence option of the workstream. In this assignment method, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity, the work item is assigned based on the round-robin order of the agents whose highest capacity is the same.
+- **Highest capacity**: Assigns work item to the agent with the highest available capacity, among those who have the skills identified during the classification stage, and who have the presence as specified in the allowed presence option of the workstream. In this assignment method, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity, the work item is assigned based on the round-robin order of the agents whose highest capacity is the same.
 
   If you want to use skill-based routing and set the default skill-matching algorithm for the workstream as exact match and choose highest capacity as the assignment method, then the system will filter agents using exact skill match, workstream’s presence, and capacity requirements, and order the filtered agents by available capacity.
 
