@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing.
-ms.date: 04/10/2023
+ms.date: 06/27/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -127,9 +127,8 @@ In the assignment rule, the system user attributes are matched with the requirem
 
 :::image type="content" source="media/assignment-rule-root-entity.png" alt-text="Assignment rule with dynamic match and static match conditions.":::
 
-In scenarios when more than one agent matches the requirement of the work item, the system resolves the assignment in a round robin manner, based on the earliest time of the last assignment—in other words, the agent who has been idle for the longest time since their last assignment. For example, three agents Lesa, Alicia, and Alan are available with the coffee refund skill and 100 units capacity, and their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM respectively. A work item on coffee refund arrives in the queue. The system assigns the work item to Lesa because Lesa's last assignment was the earliest at 10:30 AM. Meanwhile, if another coffee refund work item comes in, the system will assign it to Alicia and not to Lesa or Alan.
+In scenarios when more than one agent matches the requirement of the work item and there's a tie in the order by as well, like, more than one matching agent has the same available capacity, the system resolves the assignment in a round robin manner based on the earliest time of the last assignment. For example, three agents Lesa, Alicia, and Alan are available with the coffee refund skill and can handle up to three chats at a time, and their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM respectively. A work item on coffee refund arrives in the queue at 10:40 AM. With the order by set to "profile-based available capacity", all the agents at 10:40 AM have the same available capacity of 2 each. To break the tie between the agents, the system uses round robin. Therefore the incoming chat is assigned to Lesa because her last assignment was the earliest at 10:30 AM. Later at 10:45 AM, if another coffee refund work item comes, the system will assign it to Alicia.  This is also based on the round robin order of assignment between Alicia and Alan, because their available capacities were the same and Alicia had an earlier assignment than Alan at 10:35 AM.
 
-However, if there's a tie between the availability of agents, the agent who has been idle for the longest time will be assigned the work item if all other conditions remain the same.
 
 ### Components of an assignment rule
 
