@@ -12,9 +12,16 @@ ms.author: andreo
 
 The Field Service (Dynamics 365) mobile app enables technicians to view and update work orders, customer assets, accounts, and more on the go. The app is available for Windows 10+, Apple iOS, and Google Android devices at no extra charge.
 
+## Public Preview content in the docs
+Explain how to find the public preview content in the docs (tabs)
+
+## Guides?
+
 ## Enabling the Public Preview features (admin)
 
 ## Known limitations
+- offline
+- customizations
 
 ## Public Preview FAQ
 
