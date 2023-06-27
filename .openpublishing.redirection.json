@@ -1,6 +1,11 @@
 {
   "redirections": [
-   {
+    {
+      "source_path": "ce/field-service/user-guide.md",
+      "redirect_url": "/dynamics365/field-service/",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/asynchronous-service-architecture.md",
       "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
       "redirect_document_id": "false"
@@ -3110,17 +3115,17 @@
     },
     {
       "source_path": "ce/developer/org-service/helper-code-enumerations-option-sets.md",
-      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/developer/org-service/helper-code-serverconnection-class.md",
-      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/developer/org-service/helper-code-systemuserprovider-class.md",
-      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs",
       "redirect_document_id": "false"
     },
     {
@@ -4001,11 +4006,6 @@
     {
       "source_path": "ce/developer/webapi/index.md",
       "redirect_url": "/dynamics365/developer/use-microsoft-dynamics-365-web-api",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/field-service/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/field-service/overview",
       "redirect_document_id": "false"
     },
     {
@@ -7996,17 +7996,17 @@
     },
     {
       "source_path": "ce/customerengagement/on-premises/developer/org-service/helper-code-enumerations-option-sets.md",
-      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/customerengagement/on-premises/developer/org-service/helper-code-serverconnection-class.md",
-      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/customerengagement/on-premises/developer/org-service/helper-code-systemuserprovider-class.md",
-      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs",
       "redirect_document_id": "false"
     },
     {
