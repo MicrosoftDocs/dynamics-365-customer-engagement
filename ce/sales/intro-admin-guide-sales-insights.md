@@ -65,7 +65,7 @@ Before you can configure these features, you must accept the privacy notice. To 
 
 1. Sign in to Dynamics 365 Sales, and go to the Sales Hub app.
 
-2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
+2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
    :::image type="content" source="media/si-admin-change-area-sales-insights-settings.png" alt-text="Select Sales Insights settings"::: 
  
 3. In the **Terms of service** section, select **I agree**.

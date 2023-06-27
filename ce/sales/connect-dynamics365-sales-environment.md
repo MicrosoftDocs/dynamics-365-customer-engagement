@@ -1,5 +1,5 @@
 ---
-title: "Connect conversation intelligence to an environment"
+title: "Connect Conversation intelligence app to an environment"
 description: "Use data source to connect or disconnect multiple environments with conversation intelligence."
 ms.date: 09/30/2022
 ms.custom: 
@@ -7,7 +7,7 @@ ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 ---
-# Connect conversation intelligence to an environment  
+# Connect Conversation intelligence app to an environment  
 
 If you have multiple environments in your organization, you can connect the Conversation intelligence app to more than one environment. This will allow you to switch to different environments from the Conversation intelligence app and view the call insights. 
 
@@ -25,9 +25,9 @@ will be displayed on the application.
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 
-## To connect to an environment 
+## To connect to an environment
 
-1.	Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
+1.	[Review the prerequisites](prereq-sales-insights-app.md) that the environment must meet.
 
 2.	Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/). 
 
@@ -40,7 +40,7 @@ will be displayed on the application.
  
 5.	In the **Dynamics 365 environment** section, select **Add an environment**.
  
-6.	In the **Connect your data** dialog box, select the Power Platform environment that hosts Dynamics 365 Sales, to connect with the application.
+6.	Select the Power Platform environment that hosts Dynamics 365 Sales, to connect with the application.
 
     > [!div class="mx-imgBorder"]
     > ![Select the environment](media/si-app-admin-connect-d365-organization.png "Select the environment")

@@ -28,9 +28,7 @@ The call processing information you can view and track on the page depends on th
 | Sales Manager | Call processing information of your and your teams'. |
 | Seller | Call processing information of your calls. |
 
-1.	Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
-
-2.	Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/) and select **System Monitoring** to open the system monitoring page.
+1.	Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/) and select **System Monitoring** to open the system monitoring page.
 
     > [!div class="mx-imgBorder"]
     > ![Select system monitoring](media/si-app-admin-select-system-monitoring.png "Select system monitoring")

@@ -10,7 +10,7 @@ ms.reviewer: shujoshi
 ---
 # Prerequisites to configure Conversation intelligence app
 
-Verify the prerequisites that are necessary to configure the Conversation intelligence in your Dynamics 365 Sales organization.
+Verify the prerequisites that are necessary to configure the Conversation intelligence app.
 
 ## License and role requirements
 
@@ -25,7 +25,7 @@ Verify the prerequisites that are necessary to configure the Conversation intell
 
 ## Prerequisites
 
-Verify the following requirements before setting up the Conversation Intelligence app for your organization:  
+Verify the following requirements before setting up the Conversation intelligence app for your organization:  
 
 -	You must have an administrator or similar role.  
 

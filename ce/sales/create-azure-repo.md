@@ -27,8 +27,8 @@ Create a call recording repository (blob container) in an Azure storage account 
 1. Specify the container information, such as name and public access level.  
 1. Select **OK**.  
    The container is created. To learn more, see [Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container)  
-1. From **Settings**, go to **Access keys** and note the **Connection string** of the storage account. This connection string is used to connect **Call intelligence** to your Azure storage account.  
+1. From **Settings**, go to **Access keys** and note the **Connection string** of the storage account. This connection string is used to connect conversation intelligence to your Azure storage account.  
     > [!div class="mx-imgBorder"]
     > ![Note connection string](media/azure-connectionstring.png "Note the connection string")  
 
-Now you are ready to upload call recordings to the blob container and configure conversation intelligence to use your [own Azure storage](fre-setup-sales-insight-app.md#configure-conversation-intelligence).
+Now you are ready to configure conversation intelligence to use your [own Azure storage](fre-setup-sales-insight-app.md#configure-conversation-intelligence).  
