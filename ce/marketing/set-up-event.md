@@ -42,6 +42,8 @@ Only live events, sessions, and tracks are shown on the event website. When you'
 
 ### The General tab
 
+### [Outbound](#tab/GitHub)  [Real-time marketing](#tab/GitHub)
+
 Here you can see and edit your basic event information, including:
 
 - **Key information**: Includes the name of your event and other basic details. The following settings are provided:
