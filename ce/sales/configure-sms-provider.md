@@ -139,7 +139,7 @@ To set up the SMS provider number in Dynamics 365 Sales:
 
 6.	On the **Add phone number** pane, enter the following details:
 
-    -	**Phone number**: Specify the SMS number that you purchased from the provider in the <*country_code*><*phone_number*> format; for example, 12345678910. Make sure not to enter blank spaces or special characters.
+    -	**Phone number**: Specify the SMS number that you purchased from the provider in the <*country_code*><*phone_number*> format; for example, +12345678910. Make sure not to enter blank spaces or special characters.
     
         >[!NOTE]
         >The phone number should be unique for Dynamics 365 Sales. Don’t include numbers that were used to configure message features in other Dynamics 365 apps. 
