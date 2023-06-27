@@ -225,6 +225,8 @@ items:
 
 - name: Mobile app
   items:
+    - name: Public Preview
+      href: mobile-public-preview-overview.md
     - name: Overview
       href: mobile-power-app-overview.md
     - name: Install and setup
