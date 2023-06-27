@@ -32,7 +32,7 @@ If you don't want the Customer Service workspace app to be visible for any of th
 
 1. On the site map, select **Apps**, and then select the ellipsis next to **Omnichannel for Customer Service**.
 
-1. Select **Activate**. Omnichannel will then become visible on your environment's apps page.
+1. Select **Activate**. Omnichannel then becomes visible on your environment's apps page.
     
 
 ## Disable the Customer Service workspace app
