@@ -13,22 +13,7 @@ ms.author: andreo
 
 # Edit Sitemap entities (tables) on the home screen
 
-This document describes how to manage the Field Service Mobile app navigation menu. 
-
-## [Unified Interface app](#tab/vCurrent)
-
-To access the app navigation in the current production app simply tap on the top left menu icon.
-
-> [!div class="mx-imgBorder"]
-> ![Two mobile devices showing the Field Service (Dynamics 365) mobile app. The device on the left shows the full menu for Field Service (Dynamics 365). The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
-
-## [Public Preview app](#tab/vNext)
-
-To access the app navigation in the Public Preview app simply tap on the "More..." button on the bottom right.
-
-Screenshot
-
----
+This document describes how to manage the Field Service Mobile app navigation menu. To see how it looks in the app please refer to [this doc](download-get-started-mobile-app.md#navigate-the-app)
 
 
 Sign in to Dynamics 365 as a system administrator.

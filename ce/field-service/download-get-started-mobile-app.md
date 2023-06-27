@@ -64,7 +64,9 @@ To get to the sitemap, select the menu icon. The sitemap quickly gets you to imp
 
 ## [Public Preview app](#tab/vNext)
 
-<!--- Content here  -->
+To access the app navigation in the Public Preview app simply tap on the "More..." button on the bottom right.
+
+Screenshot
 
 ---
 
