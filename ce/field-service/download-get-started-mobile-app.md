@@ -41,7 +41,7 @@ The first screen shows a calendar view of your scheduled work orders.
 
 In the footer, select **More** > **Show as** > **Read-only Grid** to see the bookings as a list instead.
 
-## [Native UX (preview)](#tab/vNext)
+## [Public Preview app](#tab/vNext)
 
 <!--- Content here  -->
 
@@ -56,7 +56,7 @@ To get to the sitemap, select the menu icon. The sitemap quickly gets you to imp
 > [!div class="mx-imgBorder"]
 > ![Two mobile devices showing the Field Service (Dynamics 365) mobile app. The device on the left shows the full menu for Field Service (Dynamics 365). The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
 
-## [Native UX (preview)](#tab/vNext)
+## [Public Preview app](#tab/vNext)
 
 <!--- Content here  -->
 
@@ -73,7 +73,7 @@ You can also **Pin** important records for quick access.
 > [!div class="mx-imgBorder"]
 > ![Device render showing the Field Service (Dynamics 365) mobile app, showing the recent and pin icons in the menu.](./media/mobile-2020-menu-pin.png)
 
-## [Native UX (preview)](#tab/vNext)
+## [Public Preview app](#tab/vNext)
 
 <!--- Content here  -->
 

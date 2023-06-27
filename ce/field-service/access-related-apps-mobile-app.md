@@ -23,7 +23,7 @@ Technicians can view and interact with IoT data and IoT actions like pulling liv
 
 Live charts for IoT data from an IoT device, customer asset, or IoT alert record are available at your fingertips.
 
-### [Native UX (preview)](#tab/vNext)
+### [Public Preview app](#tab/vNext)
 
 <!--- Content here  -->
 
@@ -38,7 +38,7 @@ Organizations using Dynamics 365 Remote Assist have a deep link from the work or
 > [!div class="mx-imgBorder"]
 > ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
 
-### [Native UX (preview)](#tab/vNext)
+### [Public Preview app](#tab/vNext)
 
 <!--- Content here  -->
 

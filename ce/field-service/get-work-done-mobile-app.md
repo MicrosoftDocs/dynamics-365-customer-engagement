@@ -28,7 +28,7 @@ Select a booking to see more details about the booking time and the work order. 
 
 The functional location field on the work order tells the technician exactly where to go within an address.
 
-## [Native UX (preview)](#tab/vNext)
+## [Public Preview app](#tab/vNext)
 
 Select a booking to see more details about the booking time and the work order. Update the status to indicate you're driving to the customer location. On the **Customer** tab, you can see the work order location on a map to launch turn-by-turn driving directions on your preferred maps app.
 <!--- Content here  -->
@@ -44,7 +44,7 @@ On the **Service tab**, you see work order details like work order service tasks
 > [!div class="mx-imgBorder"]
 > ![Three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes-new.jpg)
 
-## [Native UX (preview)](#tab/vNext)
+## [Public Preview app](#tab/vNext)
 
 <!--- Content here  -->
 
@@ -64,7 +64,7 @@ The **Timeline** tab is available for other historical data related to the booki
 > Notes are only available when included with the Bookable Resource Booking form. The control doesn't support other entities.
 > Notes taken in the Field Service mobile app are stored in the `msdyn_bookableresourcebookingquicknotes` table. The default **Field Service - Resource** security role includes permissions to this table. If your app users do not have the out-of-the-box **Field Service - Resource** security role, you may have to include access to this table for these users. Follow the best practices described in the [Field Service security roles documentation](/dynamics365/field-service/view-user-accounts-security-roles#q--a) to make sure your app users have access to this table.
 
-## [Native UX (preview)](#tab/vNext)
+## [Public Preview app](#tab/vNext)
 
 <!--- Content here  -->
 
@@ -83,7 +83,7 @@ For a guided walkthrough of functional locations on the Field Service mobile app
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
 
-## [Native UX (preview)](#tab/vNext)
+## [Public Preview app](#tab/vNext)
 
 <!--- Content here  -->
 
@@ -100,7 +100,7 @@ Select the search icon to find records from any entity. You can also search by s
 
 For more information, see the article on [configuring global search](mobile-power-app-system-barcode-scanning.md).
 
-## [Native UX (preview)](#tab/vNext)
+## [Public Preview app](#tab/vNext)
 
 <!--- Content here  -->
 
@@ -123,7 +123,7 @@ For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mQ]
 
-## [Native UX (preview)](#tab/vNext)
+## [Public Preview app](#tab/vNext)
 
 <!--- Content here  -->
 
@@ -157,7 +157,7 @@ The following fields are already filled in based on the current work order:
 
 Once the technician saves the work order, it's uploaded and available for booking to the dispatcher.
 
-## [Native UX (preview)](#tab/vNext)
+## [Public Preview app](#tab/vNext)
 
 <!--- Content here  -->
 
