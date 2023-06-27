@@ -134,7 +134,7 @@ The `c1Language` parameter in resolved JavaScript object represents a Locale ID 
 |`"1058"`|Ukrainian|
 |`"1066"`|Vietnamese|
 |`"2052"`|Chinese - China|  
-|`"3076"`|Chinese - Hong Kong|
+|`"3076"`|Chinese - Hong Kong SAR|
 ||
 
 **Sample expected response**

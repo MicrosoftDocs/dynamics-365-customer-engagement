@@ -90,7 +90,7 @@ The Sales Premium features support the following versions of Exchange:
 >- For relationship analytics, support for Exchange Online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
 >- For who knows whom, the organization's Office 365 data location must be in one of the following locations and not in your region specific data canter location:
 >   - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
->   - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
+>   - Global Geography 2 – Asia Pacific	(Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
 >   - Global Geography 3 – Americas (Brazil, Chile, United States).<br>
 > To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 

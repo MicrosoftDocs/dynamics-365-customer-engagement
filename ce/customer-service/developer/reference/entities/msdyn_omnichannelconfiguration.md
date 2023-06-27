@@ -160,7 +160,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |2052|Chinese - China|
 |2070|Portuguese - Portugal|
 |2074|Serbian (Latin) - Serbia|
-|3076|Chinese - Hong Kong|
+|3076|Chinese - Hong Kong SAR|
 |3082|Spanish - Spain|
 |3098|Serbian (Cyrillic) - Serbia|
 

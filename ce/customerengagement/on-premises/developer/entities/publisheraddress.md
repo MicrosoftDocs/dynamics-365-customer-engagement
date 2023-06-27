@@ -140,7 +140,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Country/region name in the publisher address.|
-|DisplayName|Country|
+|DisplayName|Country/Region|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
