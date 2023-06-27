@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Enable the Omnichannel for Customer Service app and disable the Customer Service workspace app
 
-With the [previously announced deprecation](deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-to-be-deprecated) of the Omnichannel for Customer Service agent-facing app, the app is now hidden in environments. By default, Customer Service workspace is shown to the following user profiles:
+With the [previously announced deprecation](deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-is-deprecated-and-will-be-removed-in-june-2024) of the Omnichannel for Customer Service agent-facing app, the app is now hidden in environments. By default, Customer Service workspace is shown to the following user profiles:
 
 - Omnichannel Agent
 - Omnichannel Supervisor
