@@ -75,7 +75,7 @@ You can also **Pin** important records for quick access.
 
 ## [Public Preview app](#tab/vNext)
 
-<!--- Content here  -->
+This feature is not currently available in the Public Preview app. 
 
 ---
 
