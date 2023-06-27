@@ -1,12 +1,10 @@
 ---
-title: "Monitor call and insight processing in conversation intelligence"
-description: "Monitor the processing status of call to verify the call is processed successfully or an error is occurred."
+title: Monitor call and insight processing in conversation intelligence
+description: Monitor the processing status of call to verify the call is processed successfully or an error is occurred.
 ms.date: 09/30/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-caps.latest.revision: 1
-topic-status: Drafting
 ---
 # Monitor call and insight processing  
 
@@ -45,11 +43,6 @@ The call processing information you can view and track on the page depends on th
     | 4 | View list of calls | This table lists the total number of calls that are uploaded for processing. The table has four columns: Call process date, File name, Seller, and Status. By default, the calls are sorted according to the date they are processed in descending order. You can also sort the call list according to file name, seller name, or status.<br>The **Status** column helps you identify the status of a call, such as completed, in progress, or failed. If a call is failed, an error is displayed.<br>When you select the error, a pop-up window is displayed with information such as why the call failed to process, what you can do to resolve the error, and an **Activity ID**.<br>You can copy the activity ID and provide it to your support team (or Microsoft Support) for further investigation, which can help you to debug the call process and resolve the error.<br>![Select settings option](media/si-app-admin-call-process-error.png "Select settings option")<br>**Note**: To view the list of calls according to their status, select one of the tabs: **Completed**, **In progress**, or **Failed**. |
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
-
-### See also
-
-[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)   
-[Improve seller coaching and sales potential with conversation intelligence](../sales/configure-conversation-intelligence-call-data.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

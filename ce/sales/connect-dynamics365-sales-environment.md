@@ -38,9 +38,6 @@ As an administrator, you must configure the environment to connect to conversati
     > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
 
 4.	On the **Settings** page, select **Data source**. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Data source section](media/si-app-admin-select-data-source.png "Data source section")
  
 5.	In the **Dynamics 365 environment** section, select **Add an environment**.
 
@@ -72,7 +69,7 @@ As an administrator, you must configure the environment to connect to conversati
     > [!NOTE]
     > If you have already added this environment, the step to grant permissions for the application to access the data will be skipped.
 
-9.	In the **Connect your call data** dialog box, enter the **Storage connection string** and **Container name**, and then select **Connect**. To learn more on how to get the **Storage connection string** and **Container name** values, see [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
+9.	In the **Connect your call data** dialog box, enter the **Storage connection string** and **Container name**, and then select **Connect**. To learn more on how to get the **Storage connection string** and **Container name** values, see [Create a call recording repository in Azure](create-azure-repo.md).
 
     > [!div class="mx-imgBorder"]
     > ![Enter values to connect call data](media/si-app-admin-connect-call-data.png "Enter values to connect call data")

@@ -38,7 +38,7 @@ As an administrator, you can set up conversation intelligence&mdash;select stora
     The application takes a few minutes to connect to your data, during which a progress dialog is displayed.
     > [!div class="mx-imgBorder"]
     > ![Environment connection progress.](media/si-app-admin-connection-progress-d365-org.png "Environment connection progress")    
-6.	In the **Connect your call data** dialog, enter the **Storage connection string** and **Container name**, and then select **Connect**. More information: [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)  
+6.	In the **Connect your call data** dialog, enter the **Storage connection string** and **Container name**, and then select **Connect**. To learn more on how to get these **Storage connection string** and **Container name** values, see [Create a call recording repository in Azure](create-azure-repo.md)
     > [!div class="mx-imgBorder"]
     > ![Enter values to connect call data.](media/si-app-admin-connect-call-data.png "Enter values to connect call data")   
 
