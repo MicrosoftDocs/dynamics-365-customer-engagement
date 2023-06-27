@@ -44,7 +44,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
     - **Transfer to an external PSTN number**: Select **Number pad**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. <br>
 
         > [!NOTE]
-        > After you transfer the call, if the secondary agent doesn't accept the call within eight minutes, the secondary agent is disconnected from the call.
+        > After you transfer the call, the secondary agent is disconnected from the call if they doesn't accept the call within eight minutes.
 
     - **Transfer to Teams user via PSTN**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
         > [!div class="mx-imgBorder"]
