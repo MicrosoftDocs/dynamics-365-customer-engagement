@@ -1,5 +1,5 @@
 
-When a requirement is scheduled to a resource, the system creates a booking record. The schedule board displays bookings grouped by resources. The fields displayed in the schedule board booking are called a *Booking Template*, which you can customize wioth fields from out-of-box entities.
+When a requirement is scheduled to a resource, the system creates a booking record. The schedule board displays bookings grouped by resources. The fields displayed in the schedule board booking are called a *Booking Template*, which you can customize with fields from out-of-box entities.
 
 ## Edit work order booking template
 
