@@ -44,11 +44,6 @@ sections:
           Don’t install the Resource Scheduling Optimization solution from the solution management page. Use the Resource Scheduling Optimization deployment app to deploy Resource Scheduling Optimization. The deployment includes the Dynamics 365 solution and Azure resources. 
 
       - question: |
-          How do I cancel a long-running schedule or blocked schedule?
-        answer: |
-          If your schedule has been running for a long time and seems stuck, select **Reset Resource Scheduling Optimization**. This option clears the blocked job and resets the schedules into a good state. When resetting a single optimization schedule doesn't work or gets blocked too, reset all schedules and republish them. 
-
-      - question: |
           I’m seeing the message “SAS Key hasn't been configured” when I publish a schedule. Is this ok?
         answer: |
           The message means the Resource Scheduling Optimization Azure resources aren't set up correctly. We recommend going to the Resource Scheduling Optimization deployment app to check the Resource Scheduling Optimization deployment status. Redeploy as needed to fix the issue.
