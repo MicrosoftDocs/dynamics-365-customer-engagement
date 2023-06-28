@@ -92,11 +92,8 @@ The **Agenda** tab includes details about the schedule of sessions happening dur
 - **Speaker engagements**: Each [speaker engagement](#speakers) maps a speaker to a session occurring at your event.
 - **Sponsors**: Companies who are [sponsoring the event](manage-event-sponsorships.md).
 
-<a name="websiteandform-tab"></a>
-
 ### The Website and form tab
-
-# [Real-time marketing](#tab/real-time)
+Real-time marketing
 
 The Website and form tab provides options to set registration parameters. First, you can decide where do you want attendees to register for your event:
 - On a standalone registration page:
@@ -110,7 +107,7 @@ The Website and form tab provides options to set registration parameters. First,
 - This event does not have a website:
     - Use this option if you want to collect registrations elsewhere or not collect them at all.
 
-# [Outbound marketing](#tab/outbound)
+Outbound marketing
 
 The **Website and form** tab provides options for creating a custom [event website](set-up-event-portal.md) and integrating [marketing forms](marketing-forms.md) for event registration. In this tab you can set a custom event URL, set a registration end date, and set registration parameters. The following options are available:
 
@@ -132,17 +129,15 @@ The **Website and form** tab provides options for creating a custom [event websi
     > As mentioned, the **Registration count** and **Check-in count** fields can each count up to a maximum of 50,000 contacts. The system can easily handle more registrations and/or check-ins than this, but for values higher than 50,000, these fields are no longer accurate.
 - **Custom registration fields**: Here you can [view and create custom registration fields](custom-registration-fields.md), which enable registrants to provide extra information  (such as dietary restrictions or gift options) when they register for the event.
 
-<a name="registrationandattendance-tab"></a>
-
 ### The Registration and attendance tab
 
-# [Real-time marketing](#tab/real-time)
+Real-time marketing
 
 Use the **Registration and attendance** tab to see who registered for the event and who attended. You can also create registrations and check-ins here. The following sections are available:
 - Event registration: This table provides a list of people who [registered](invite-register-house-event-attendees.md) for your event. You can also [register people manually](invite-register-house-event-attendees.md) here. If you are using [custom registration fields](custom-registration-fields.md), then you can also view the values submitted by each attendee here.
 - Event check-ins: Here you can see who attended the event and enter attendance records.
 
-# [Outbound marketing](#tab/outbound)
+Outbound marketing
 
 Use the **Registration and attendance** tab to see who registered for the event, who attended, and who canceled. You can also create registrations and check-ins here. The following sections are available:
 
@@ -243,11 +238,11 @@ When setting up a speaker engagement, you map a speaker to a specific session fo
 
 ## Set up event passes
 
-# [Real-time marketing](#tab/real-time)
+Real-time marketing
 
 Event passes are not supported in Real Time Marketing Event Management.
 
-# [Outbound marketing](#tab/outbound)
+Outbound marketing
 
 Event passes are essentially tickets that you can sell or give away to grant access to your event and/or its various sessions and tracks. Passes are optional, but if you want to use them, you'll start by setting up the basic types of passes that you need for an event and adding the applicable sessions to each of them. Later, you'll assign a pass of the appropriate type to each attendee by mapping each event registration to one or more pass types. Passes can also be shown on the event website, so attendees can register for the passes they want while registering for the event itself; in this case, the registration/pass mapping is made automatically. For each assigned pass, Dynamics 365 Marketing generates a unique QR code, which you can print onto a physical badge that event personnel can quickly scan on entrance to confirm eligibility and record attendance.
 
