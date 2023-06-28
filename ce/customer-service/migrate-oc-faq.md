@@ -32,7 +32,7 @@ Yes, support is available until June 2024.
 
 ### Can I continue to use the Omnichannel for Customer Service app?
 
-Yes, you can. Omnichannel for Customer Service will continue to be supported until June 2024. More information: [Enable the Omnichannel for Customer Service app and disable the Customer Service workspace app for Omnichannel users](enable-oc-disable-csw.md)
+Yes, you can. Omnichannel for Customer Service will continue to be supported until June 2024. More information: [Enable the Omnichannel for Customer Service app and disable the Customer Service workspace app](enable-oc-disable-csw.md)
 
 ### What is the end-of-support date?
 
