@@ -1,26 +1,21 @@
 ---
-title: " Customize App for Outlook to auto populate data from an Outlook item to a quick create case table (Dynamics 365 apps) | MicrosoftDocs"
+title: "Customize App for Outlook to auto populate data from an Outlook item to a quick create case table (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-description:  Customize App for Outlook to auto populate data from an Outlook item to a quick create case table in Dynamics 365 App for Outlook.
+description: Customize App for Outlook to auto populate data from an Outlook item to a quick create case table in Dynamics 365 App for Outlook.
 ms.date: 05/20/2021
-ms.reviewer: 
-
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Customize App for Outlook to auto populate data from an Outlook item to a quick create case table 
 
@@ -46,7 +41,7 @@ These fields that will be populated automatically:
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 2. On the left nav, select **Solution**.
-3. Select an existing unmanaged solution or create a new one and then select **Edit** on the command bar. For more information on solutions, see [Solutions overview](/maker/data-platform/solutions-overview.md).
+3. Select an existing unmanaged solution or create a new one and then select **Edit** on the command bar. For more information on solutions, see [Solutions overview](/power-apps/maker/data-platform/solutions-overview).
 
    > [!div class="mx-imgBorder"]
    > ![Edit the solution.](media/edit-mailapp-solution.png)

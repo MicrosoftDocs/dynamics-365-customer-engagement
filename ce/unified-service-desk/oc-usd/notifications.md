@@ -5,7 +5,6 @@ ms.date: 01/31/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View alert and toast notifications
@@ -69,7 +68,7 @@ The details you’ll see for a SMS channel are:
  - Wait time
 
 
- ## Incoming Facebook notification
+## Incoming Facebook notification
 
 You receive a notification for a Facebook conversation request. When you accept the Facebook request, a session is started, and the communication panel appears where you can exchange messages with the customer.
 
@@ -88,10 +87,10 @@ There are two themes for the notification - Dark and Light. You'll see the theme
 ![Dark theme](../../customer-service/media/chat-notification-request.png "Dark theme") ![Light theme](../../customer-service/media/chat-notification-request-light.png "Light theme")
 
 
-## See also
+### See also
 
-- [View communication panel](left-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
+[View communication panel](left-control-panel.md)  
+[View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

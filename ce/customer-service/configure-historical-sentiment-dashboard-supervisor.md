@@ -1,11 +1,10 @@
 ---
 title: "Configure Omnichannel Insights dashboards | MicrosoftDocs"
 description: "How to configure the Intraday insights dashboard for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
-ms.date: 09/28/2020
+ms.date: 01/09/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -13,10 +12,13 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+> [!NOTE]
+> We recommend that you try out the latest analytics capabilities from Dynamics 365 Customer Service. The out-of-the-box reporting capabilities include [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical analytics](customer-service-analytics-insights-csh.md). The reports can be [visually customized](customize-reports.md) and extended to add your additional data sources and metrics through [data model customization](model-customize-reports.md).
+
 Customer service managers or supervisors are responsible for managing agents who work to resolve customer queries every day through various service channels. They need to know key operational metrics to ensure that their agents are providing quality support. Omnichannel Insights consists of channels and sentiment analysis dashboards that can help with this.
 
 > [!IMPORTANT]
-> The supervisor dashboards that are based on Power BI, such as Omnichannel Insights and sentiment analysis, are not available on Government Community Cloud (GCC).
+> The supervisor dashboards that are based on Power BI, such as Omnichannel Insights and sentiment analysis, aren't available on Government Community Cloud (GCC).
 
 ## Configure Omnichannel Insights
 
@@ -166,7 +168,7 @@ You must share the configured application with your entire organization for supe
 
 ### Step 6: Add Power BI Dashboards to Omnichannel for Customer Service
 
-Each supervisor must configure their Dynamics 365 Customer Service environment to integrate the Omnichannel Insights and Omnichannel Sentiment Analysis dashboards.
+Each supervisor must configure their Power Platform environment to integrate the Omnichannel Insights and Omnichannel Sentiment Analysis dashboards.
 
 1. Sign in to the Omnichannel for Customer Service app.
 
@@ -248,12 +250,12 @@ Before customizing the template app, read the following information and perform 
 
 4. In the left dropwdown menu under Transformation Data, select **Edit Paramaters**.
 
-5. In the source definition, replace **https://kucustomerservice.crm.dynamics.com/api/data/v9.1** with your apps instance URL.
+5. In the source definition, replace `**https://kucustomerservice.crm.dynamics.com/api/data/v9.1**` with your apps instance URL.
 
     Example: if the organization name is Contoso, the URL looks like this:
-    Source = https://contoso.crm.dynamics.com/api/data/v9.1/
+    Source = `https://contoso.crm.dynamics.com/api/data/v9.1/`
     
-    For GCC users the format is: **https://yourserver.crm9.dynamics.com/api/data/v9.1**
+    For GCC users the format is: `**https://yourserver.crm9.dynamics.com/api/data/v9.1**`
     
 7. Select **Done**.
 

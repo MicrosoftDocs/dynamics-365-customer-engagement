@@ -14,13 +14,12 @@ ms.assetid: f715ab04-f78f-4bcb-b260-4807091cf7d6
 caps.latest.revision: 25
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Update deployment configuration settings
 
 You can use the `Microsoft.Crm.PowerShell.Get-CrmSetting` and `Microsoft.Crm.PowerShell.Set-CrmSetting` cmdlets to retrieve and update many different settings properties for your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment. The `Get-CrmSetting` cmdlet retrieves a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment setting object, such as `IfdSettings`. The `Set-CrmSetting` cmdlet updates the deployment setting.  
   
- This topic lists the setting types with their parameters. For more information about these settings, see [Microsoft.Xrm.Sdk.Deployment Namespace](/dotnet/api/microsoft.xrm.sdk.deployment?view=dynamics-deployment-ce-9). For an example of code using the `Get-CrmSetting` and `Set-CrmSetting` cmdlets see [Change monitoring settings](microsoft-dynamics-365-monitoring-service.md#BKMK_changemon).  
+ This topic lists the setting types with their parameters. For more information about these settings, see [Microsoft.Xrm.Sdk.Deployment Namespace](/dotnet/api/microsoft.xrm.sdk.deployment?view=dynamics-deployment-ce-9&preserve-view=true). For an example of code using the `Get-CrmSetting` and `Set-CrmSetting` cmdlets see [Change monitoring settings](microsoft-dynamics-365-monitoring-service.md#BKMK_changemon).  
   
 <a name="async"></a>   
 ## AsyncSettings  
@@ -228,7 +227,7 @@ You can use the `Microsoft.Crm.PowerShell.Get-CrmSetting` and `Microsoft.Crm.Pow
 ## WebAddressSettings  
  For an example of code you can use to update web address settings in your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment, see [Configure web address settings](configure-web-address-settings.md). The following settings are available.  
   
-|Name|Description||  
+|Name|Description|Type|  
 |----------|-----------------|-|  
 |DeploymentSdkRootDomain|Gets or sets the root domain for the deployment web service (SDK).|String|  
 |DiscoveryRootDomain|Gets or sets the root domain for the discovery web service.|String|  
@@ -259,7 +258,7 @@ You can use the `Microsoft.Crm.PowerShell.Get-CrmSetting` and `Microsoft.Crm.Pow
   
 ## See Also  
  [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md) </br>
- [Microsoft Dynamics 365 (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/?view=dynamics365ce-ps)
+ [Microsoft Dynamics 365 (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/?view=dynamics365ce-ps&preserve-view=true)
 
 
 

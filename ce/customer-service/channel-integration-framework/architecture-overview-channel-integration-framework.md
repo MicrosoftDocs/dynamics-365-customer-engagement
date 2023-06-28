@@ -1,15 +1,14 @@
 ---
 title: "Architecture overview of Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Get an overview of Dynamics 365 Channel Integration Framework 1.0 and its architecture that lets you integrate with third-party channel providers."
-author: mh-jaya
+author: gandhamm
 ms.topic: overview
-ms.author: v-jmh
-manager: shujoshi
-ms.date: 01/21/2022
+ms.author: mgandham
+ms.date: 08/02/2022
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-  - "intro-internal"
+ms.collection: get-started
 ---
 
 # Architecture overview of Dynamics 365 Channel Integration Framework 1.0 
@@ -20,7 +19,7 @@ Dynamics 365 Channel Integration Framework version 1.0 provides an extensible fr
 > ![High-level architecture diagram of Dynamics 365 Channel Integration Framework.](media/cif-high-level-architecture.png "High-level architecture diagram of Dynamics 365 Channel Integration Framework")
 
 **1 - Microsoft Dynamics 365**<br>
-Dynamics 365 environment where the Dynamics 365 Channel Integration Framework app is present to create and manage the configurations required for a third-party communication widget to interact with the Dynamics 365 model-driven app.
+Power Platform environment where the Dynamics 365 Channel Integration Framework app is present to create and manage the configurations required for a third-party communication widget to interact with the Dynamics 365 model-driven app.
 
 **2 - Dynamics 365 model-driven app**<br>
 The single-session Dynamics 365 model-driven app exposes the Dynamics 365 Channel Integration Framework panel to host the third-party communication widget (channel provider).

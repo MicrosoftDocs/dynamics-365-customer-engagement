@@ -1,33 +1,26 @@
 ---
-title: "Add a chat widget | MicrosoftDocs"
-description: "Perform the steps mentioned in the article to add a chat widget in Omnichannel for Customer Service."
-ms.date: 02/25/2022
+title: "Configure a chat widget | MicrosoftDocs"
+description: "Perform the steps mentioned in the article to configure a chat widget in Omnichannel for Customer Service."
+ms.date: 04/25/2023
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.topic: article
 ---
 
-# Add a chat widget
+# Configure a chat widget
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 You can configure a live chat widget that can be displayed on your portal for customers to interact with bots and human agents.
 
-To add a chat widget, you need to have configured a workstream that defines how chat conversations are routed to queues. More information: [Create a workstream](create-workstreams.md).
+To add a chat widget, you need to have configured a workstream that defines how chat conversations are routed to queues. More information: [Create a workstream](create-workstreams.md)
 
 ## Configure a chat widget
 
-**To configure the chat widget**
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     
@@ -52,7 +45,7 @@ To add a chat widget, you need to have configured a workstream that defines how 
    - **Logo URL:** Select the default value or enter the link to the logo that you want to be displayed.
    - **Agent display name:** Select a value from the list.
 
-1. Set the toggle to **Yes** to enable the following options:
+1. Switch the toggle to **Yes** to enable the following options:
    - [Proactive chat](proactive-chat.md)
    - [Reconnect to previous chat](configure-reconnect-chat.md)
    - Only show widget during operation hours
@@ -65,17 +58,21 @@ To add a chat widget, you need to have configured a workstream that defines how 
    - [Post-conversation survey](configure-post-conversation-survey.md)
    - [Authentication settings](create-chat-auth-settings.md)
    - Customer wait time
-         - **Show position in queue:** Select if you want to show customers their position in the queue when they're waiting to interact with an agent. More information: [Show customers their queue position](show-queue.md)
-         - **Show average wait time:** Select if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
+      
+      > [!Note] 
+      > These settings aren't configurable for the persistent chat feature. More information: [Configure persistent chat](persistent-chat.md)
+   
+       - **Show position in queue:** Select this if you want to show customers their position in the queue when they're waiting to interact with an agent. More information: [Show customers their queue position](show-queue.md)
+       - **Show average wait time:** Select this if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
    - **Customer location detection:** Select a location provider. More information: [Set up visitor location detection](geo-location-provider.md).
 
 1. On the **User features** page, configure the following options:
    - [File attachments](enable-file-attachments.md)
    - [Customer notifications](#configure-customer-notifications)
    - [Conversation transcripts](download-email-chat-transcripts.md)
-   - **Voice and video calls**: Set the toggle to **On** and select the calling option.
-   - **Screen sharing**: Set the toggle to **On** and select a provider.
-   - **Co-browse**: Set the toggle to **On** and select a provider if you want the agents to see and interact with a customer's web browse.
+   - **Voice and video calls**: Switch the toggle to **On** and select the calling option.
+   - **Screen sharing**: Switch the toggle to **On** and select a provider.
+   - **Co-browse**: Switch the toggle to **On** and select a provider if you want the agents to see and interact with a customer's web browse.
 
       > [!NOTE]
       > - You must install a third-party provider from AppSource to use the screen sharing or co-browse feature.
@@ -89,15 +86,15 @@ You can configure visual and sound notifications to be sent to customers when th
 
 Perform the following steps to enable the customer notifications:
 
-1. In Customer Service admin center (preview) or Omnichannel admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
-2. For **Customer notifications**, set the toggle to **On**. The following checkboxes are displayed as selected:
+1. In Customer Service admin center or Omnichannel admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
+2. For **Customer notifications**, switch the toggle to **On**. The following checkboxes are displayed as selected:
    - **Show number of new messages**
    - **Play sound notifications for new messages**
 3. Keep the default settings or select one of them depending on your requirement.
 
 You can also configure the customer notifications when you're configuring the chat channel.
 
-### Configure a chat widget in Omnichannel Administration
+#### Configure a chat widget in Omnichannel Administration
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
@@ -169,9 +166,6 @@ The information in this section is not applicable if you are using the Omnichann
     | Pre-conversation survey | Pre-conversation survey | Select whether to set up a pre-chat survey in the chat widget. The survey will be shown to users before a conversation is initiated. | Yes |
     | Pre-chat unauthenticated questions | Pre-chat unauthenticated questions | If you set **Yes** for the **Pre-conversation survey** field, the **Pre-chat unauthenticated questions** section is displayed. <br> Add the pre-chat questionnaires <br> More information: [Configure a pre-conversation survey](configure-pre-chat-survey.md) | Product |
     |Post-conversation survey| Turn on | If you set to **Yes**, you can configure a post-conversation survey to be presented to customers. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md) |
-
-    > [!div class=mx-imgBorder]
-    > ![Configure a pre-conversation survey in a chat widget.](media/oc-chat-widget-survey-tab.png "Configure a pre-conversation survey in a chat widget")
 
 6. On the **Conversation options** tab, specify the information for the following fields.
 

@@ -1,11 +1,10 @@
 ---
 title: "What's new in Dynamics 365 Channel Integration Framework | MicrosoftDocs"
-description: "Read about the new features available in the latest version of Dynamics 365 Channel Integration Framework."
+description: "Read about the new features available in the latest versions of Dynamics 365 Channel Integration Framework."
 ms.date: 01/21/2022
 ms.topic: get-started-article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -13,20 +12,16 @@ ms.custom:
 
 # What's new in Dynamics 365 Channel Integration Framework
 
-
-
-This topic provides a list of features that are introduced in the latest version of Dynamics 365 Channel Integration Framework.
+This topic provides a list of features introduced in Dynamics 365 Channel Integration Framework versions 1.0 and 2.0.
 
 ## What's new in Dynamics 365 Channel Integration Framework 2.0
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
 > All APIs released for Dynamics 365 Channel Integration Framework 1.0 can be used with the latest version. The APIs for managing tabs and sessions are not supported on single session apps.
 
 Dynamics 365 Channel Integration Framework 2.0 provides multiple enhancements over version 1.0, particularly in terms of its ability to integrate with the latest multisession agent experiences for customer service. Following are the key new features in Dynamics 365 Channel Integration Framework 2.0 over Channel Integration Framework 1.0.
 
-### Integration with the multisession experiences
+### Integration with multisession experiences
 
 Dynamics 365 Channel Integration Framework 2.0 provides APIs to integrate with the multisession experiences in the Omnichannel for Dynamics 365 Customer Service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed. For more information, see [Integration with multisession experiences](./v2/integration-multi-session-experiences.md).
 
@@ -97,7 +92,6 @@ More information: [Configure channel provider in Dynamics 365 Channel Integratio
 
 ### See also
 
-[Download Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102)
-
+[Download Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

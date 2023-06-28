@@ -1,27 +1,22 @@
 ---
 title: "Set expiration dates on email messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Prevent customer journeys from delivering out-of-date information by assigning an expiration date for email tiles."
-ms.date: 10/20/2020
-
+ms.date: 09/06/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Set expiration dates for selected email tiles in a customer journey
 
-Some of your customer journeys may include email messages with time-sensitive content. Time-sensitive emails could include time-limited offers, holiday promotions, or a two-week reminder for an upcoming event. Because contacts might join the journey at any time, you can now prevent delivering outdated information by setting an expiration date for one or more selected email messages. Any contact who enters an email tile after its expiration date has passed will pass through the tile without being sent the message.
+Some of your customer journeys may include email messages with time-sensitive content. Time-sensitive emails could include time-limited offers, holiday promotions, or a two-week reminder for an upcoming event. Because contacts might join the journey at any time, you can now prevent delivering outdated information by setting an expiration date for one or more selected email messages. Any contact who enters an email tile after its expiration date has passed will pass through the tile without being sent the message. In other words, any contact who enters an email tile after the expiration date will not receive any message produced by the expired email tile and will continue to be processed by the subsequent tiles.
 
 ## Set an expiration date for an email message
 

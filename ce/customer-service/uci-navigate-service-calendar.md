@@ -1,35 +1,31 @@
 ---
 title: Navigate the service calendar | Microsoft Docs
 description: Learn about the various features of the service calendar in Dynamics 365 Customer Service.
-ms.date: 02/05/2021
+ms.date: 04/29/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
 
 # Navigate the service calendar
 
-In the Service calendar, you can do the following tasks and activities: 
+In the Service calendar, you can do the following tasks and activities:
 
-- View your organization's hourly schedule of appointments and service activities. 
+- View your organization's hourly schedule of appointments and service activities.
 
-- View work schedules and service activity schedules for a variety of resources. 
+- View work schedules and service activity schedules for a variety of resources.
 
-- Create new appointments and schedule service activities. 
+- Create new appointments and schedule service activities.
 
-- Change the status of an existing service activity. 
+- Change the status of an existing service activity.
 
-- Search for conflicts in the schedule. 
+- Search for conflicts in the schedule.
 
 You can’t customize the service calendar or change the default view with the application. However, you can ask your system administrator to change the colors of the time blocks.
 
@@ -42,7 +38,7 @@ You can’t customize the service calendar or change the default view with the a
 2. Under the Tools section, select the service calendar.
     A list of resources opens in alphabetical order on the left side of the calendar.
 
-3. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list, select the resource view.
+3. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list, select the resource view.
 
 4. To find a specific resource, in the **Search** field, enter the first few letters of a name.
 
@@ -53,29 +49,28 @@ You can’t customize the service calendar or change the default view with the a
 ## Calendar legend of colors and statuses
 
    ![View the calendar legend.](media/uci-color-legend.png "View legend of calendar colors and statuses")
+
    
-## Preview: View resources in a list view
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## View resources in a list view (Preview)
 
 > [!IMPORTANT]
 >
+> - This topic is pre-release documentation and is subject to change.
 > - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
 You can view the number of records in a list by selecting **List view**.
 
+Users who use keyboard shortcuts or a screen reader can access the information in **List view**. Switch to **List view** to see the availabile resources and bookings in a list format.
+
   ![View resources in a list.](media/resources-list-view.png "View resources in a list")
 
-## Preview: Configure the number of records shown
+## Configure the number of records shown (Preview)
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
+
 
 Administrators can configure the number of records that are listed in the resources view as follows:
 

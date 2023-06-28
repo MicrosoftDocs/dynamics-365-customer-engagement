@@ -27,8 +27,8 @@
   - name: Developer tools
     href: developer-tools.md
     items:
-    - name: Download tools from NuGet
-      href: download-tools-nuget.md
+    - name: Download developer tools
+      href: /powerapps/developer/data-platform/download-tools-nuget
     - name: Visual Studio and the .NET Framework
       href: visual-studio-dot-net-framework.md
     - name: Browse the metadata for your organization
@@ -92,8 +92,6 @@
 - name: Extend Customer Engagement (on-premises)
   href: extend-customer-engagement.md
   items:
-  - name: Building extended xRM applications
-    href: building-extended-xrm-applications.md
   - name: Supported extensions
     href: supported-extensions.md
   - name: Metadata and data models
@@ -209,58 +207,10 @@
     - name: Asynchronous service
       href: asynchronous-service.md
       items:
-      - name: Asynchronous service architecture
-        href: asynchronous-service-architecture.md
-      - name: AsyncOperation (system job) entity
-        href: asyncoperation-system-job-entity.md
-      - name: Asynchronous operation states
-        href: asynchronous-operation-states.md
-      - name: Dependency and execution order in asynchronous operations
-        href: dependency-execution-order-asynchronous-operations.md
-      - name: Recurrence pattern in asynchronous job execution
-        href: recurrence-pattern-asynchronous-job-execution.md
-      - name: Supported entities for asynchronous operations
-        href: supported-entities-asynchronous-operations.md
       - name: Stop and start the asynchronous service
         href: stop-start-asynchronous-service.md
-    - name: Azure extensions
+    - name: Azure integration
       href: azure-extensions.md
-      items:
-      - name: Azure integration
-        href: azure-integration.md
-      - name: Configure Azure integration with Customer Engagement (on-premises)
-        href: configure-azure-integration.md
-      - name: Work with data in your Azure solution
-        href: work-data-azure-solution.md
-      - name: Work with event data in your Azure Event Hub solution
-        href: work-event-data-azure-event-hub-solution.md
-      - name: Write a custom Azure-aware plug-in
-        href: write-custom-azure-aware-plugin.md
-      - name: Write a listener application for a Microsoft Azure solution
-        href: write-listener-application-azure-solution.md
-      - name: 'Walkthrough: Configure Microsoft Azure (SAS) for integration with Customer Engagement (on-premises)'
-        href: walkthrough-configure-azure-sas-integration.md
-      - name: 'Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool'
-        href: walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md
-      - name: 'Walkthrough: Update a service endpoint from ACS to SAS authorization'
-        href: walkthrough-update-service-endpoint-acs-sas-authorization.md
-      - name: 'Walkthrough: Update a service endpoint imported from a solution'
-        href: walkthrough-update-service-endpoint-imported-solution.md
-      - name: Sample code for Customer Engagement (on-premises) and Azure integration
-        href: sample-code-azure-integration.md
-        items:
-        - name: 'Sample: Azure aware custom plug-in'
-          href: sample-azure-aware-custom-plugin.md
-        - name: 'Sample: Azure aware custom workflow activity'
-          href: sample-azure-aware-custom-workflow-activity.md
-        - name: 'Sample: One-way listener'
-          href: sample-one-way-listener.md
-        - name: 'Sample: Two-way listener'
-          href: sample-two-way-listener.md
-        - name: 'Sample: REST listener'
-          href: sample-rest-listener.md
-        - name: 'Sample: Persistent queue listener'
-          href: sample-persistent-queue-listener.md
     - name: Use WebHooks
       href: use-webhooks.md
   - name: Extend Customer Engagement (on-premises) on the client
@@ -388,43 +338,6 @@
         href: customize-dev/sitemap-schema.md
     - name: Customize commands and the ribbon
       href: customize-dev/customize-commands-ribbon.md
-      items:
-      - name: Ribbons available in Dynamics 365
-        href: customize-dev/ribbons-available-microsoft-dynamics-365.md
-      - name: Command bar or ribbon presentation
-        href: customize-dev/command-bar-ribbon-presentation.md
-      - name: Export ribbon definitions
-        href: customize-dev/export-ribbon-definitions.md
-      - name: Export, prepare to edit, and import the ribbon
-        href: customize-dev/export-prepare-edit-import-ribbon.md
-      - name: Use localized labels with ribbons
-        href: customize-dev/use-localized-labels-ribbons.md
-      - name: Define ribbon commands
-        href: customize-dev/define-ribbon-commands.md
-      - name: Define ribbon enable rules
-        href: customize-dev/define-ribbon-enable-rules.md
-      - name: Define ribbon display rules
-        href: customize-dev/define-ribbon-display-rules.md
-      - name: Define ribbon actions
-        href: customize-dev/define-ribbon-actions.md
-      - name: Pass Dynamics 365 data from a page as a parameter to Ribbon Actions
-        href: customize-dev/pass-dynamics-365-data-page-parameter-ribbon-actions.md
-      - name: Define custom actions to modify the ribbon
-        href: customize-dev/define-custom-actions-modify-ribbon.md
-      - name: Define scaling for ribbon elements
-        href: customize-dev/define-scaling-ribbon-elements.md
-      - name: Define ribbon tab display rules
-        href: customize-dev/define-ribbon-tab-display-rules.md
-      - name: Pass parameters to a URL by using the ribbon
-        href: customize-dev/pass-parameters-url-by-using-ribbon.md
-      - name: 'Sample: Export ribbon definitions'
-        href: customize-dev/sample-export-ribbon-definitions.md
-      - name: Ribbon core schema
-        href: customize-dev/ribbon-core-schema.md
-      - name: Ribbon types schema
-        href: customize-dev/ribbon-types-schema.md
-      - name: Ribbon WSS schema
-        href: customize-dev/ribbon-wss-schema.md
     - name: Service calendar appearance configuration
       href: customize-dev/service-calendar-appearance-configuration.md
       items:
@@ -518,17 +431,6 @@
   items:
   - name: Introduction to entities
     href: introduction-entities.md
-    items:
-    - name: Use metadata to generate entity diagrams
-      href: use-metadata-generate-entity-diagrams.md
-    - name: Key to entity diagrams
-      href: key-entity-diagrams.md
-    - name: 'Sample: Merge two records'
-      href: sample-merge-two-records.md
-    - name: 'Sample: Validate record state and set the state of the record'
-      href: sample-validate-record-state-set-state-record.md
-    - name: 'Sample: Rollup records related to a specific record'
-      href: sample-rollup-records-related-specific-record.md
   - name: Introduction to entity attributes
     href: introduction-entity-attributes.md
     items:
@@ -677,49 +579,8 @@
         href: sample-retrieve-currency-exchange-rate.md
   - name: Sales entities (lead, opportunity, competitor, quote, order, invoice)
     href: sales-entities-lead-opportunity-competitor-quote-order-invoice.md
-    items:
-    - name: Competitor entity
-      href: competitor-entity.md
-    - name: Lead entity
-      href: lead-entity.md
-      items:
-      - name: 'Sample: Qualify a lead'
-        href: sample-qualify-lead.md
-    - name: Opportunity entities
-      href: opportunity-entities.md
-      items:
-      - name: Create an opportunity
-        href: create-opportunity.md
-      - name: Convert an opportunity to a quote, sales order or invoice
-        href: convert-opportunity-quote-sales-order-invoice.md
-      - name: 'Sample: Create an opportunity (early bound)'
-        href: sample-create-opportunity-early-bound.md
-      - name: 'Sample: Retrieve an opportunity (early bound)'
-        href: sample-retrieve-opportunity-early-bound.md
-      - name: 'Sample: Convert an opportunity to a quote (early bound)'
-        href: sample-convert-opportunity-quote-early-bound.md
-    - name: Quote, order, and invoice entities
-      href: quote-order-invoice-entities.md
-      items:
-      - name: 'Sample: Set negative prices in opportunities, quotes, and sales orders'
-        href: sample-set-negative-prices-opportunities-quotes-sales-orders.md
-      - name: 'Sample: Process quotes, sales orders and invoices'
-        href: sample-process-quotes-sales-orders-invoices.md
-      - name: 'Sample: Fulfill a sales order'
-        href: sample-fulfill-sales-order.md
   - name: Marketing entities (campaign, list)
     href: marketing-entities-campaign-list.md
-    items:
-    - name: Campaign entities
-      href: campaign-entities.md
-    - name: List (marketing list) entity
-      href: list-marketing-list-entity.md
-    - name: 'Sample: Distribute a quick campaign'
-      href: sample-distribute-a-quick-campaign.md
-    - name: 'Sample: Distribute campaign activities to dynamic and static lists'
-      href: sample-distribute-campaign-activities-dynamic-static-lists.md
-    - name: 'Sample: Distribute campaign activities to qualified marketing list'
-      href: sample-distribute-campaign-activities-qualified-marketing-list.md
   - name: Service entities in Customer Engagement (on-premises)
     href: service-entities.md
     items:
@@ -795,48 +656,8 @@
       href: configure-exchange-folder-level-tracking-rules.md
   - name: Goal management entities
     href: goal-management-entities.md
-    items:
-    - name: Create goal hierarchy, goals, and targets
-      href: create-goal-hierarchy-goals-targets.md
-    - name: Define goal metric and rollup fields
-      href: define-goal-metric-rollup-fields.md
-    - name: Add complex goal criteria
-      href: add-complex-goal-criteria.md
-    - name: Roll up goal totals
-      href: roll-up-goal-totals.md
-    - name: 'Sample: Rollup goal data for a custom period against the target revenue'
-      href: sample-rollup-goal-data-custom-period-target-revenue.md
-    - name: 'Sample: Rollup goal data for a fiscal period against the stretch target count'
-      href: sample-rollup-goal-data-fiscal-period-stretch-target-count.md
-    - name: 'Sample: Use rollup queries to track goals'
-      href: sample-use-rollup-queries-track-goals.md
-    - name: 'Sample: Override goal total count and close the goal'
-      href: sample-override-goal-total-count-close-goal.md
   - name: Product catalog entities
     href: product-catalog-entities.md
-    items:
-    - name: Manage products, families, bundles, and properties
-      href: create-manage-product-families-products-bundles-product-properties.md
-    - name: Publish, revise, revert, retire, and activate products
-      href: publish-revise-revert-retire-activate-products.md
-    - name: Product pricing methods
-      href: product-pricing-methods.md
-    - name: Use custom pricing
-      href: use-custom-pricing-products.md
-    - name: Set default price levels
-      href: set-default-price-level-for-opportunity-quote-order-invoice.md
-    - name: Product discounting methods
-      href: product-discounting-methods.md
-    - name: Localize product property values
-      href: localize-product-property-values.md
-    - name: 'Sample: Create and publish products'
-      href: sample-create-publish-products.md
-    - name: 'Sample: Clone product records'
-      href: sample-clone-product-records.md
-    - name: 'Sample: Add products to a bundle'
-      href: sample-add-products-bundle.md
-    - name: 'Sample: Calculate Price plug-in'
-      href: sample-calculate-price-plugin.md
   - name: Sales literature entities
     href: sales-literature-entities.md
   - name: Schedule and appointment entities
@@ -936,20 +757,18 @@
     href: entities/toc.yml
   - name: Web API Reference
     href: /dynamics365/customer-engagement/web-api/about
-  - name: Organization Service 9.x
-    href: /dotnet/api/?view=dynamics-general-ce-9
-  - name: XRM Tooling 9.x
-    href: /dotnet/api/?view=dynamics-xrmtooling-ce-9
-  - name: Virtual Entity 9.x
-    href: /dotnet/api/?view=dynamics-virtualentity-ce-9
-  - name: Workflow 9.x
-    href: /dotnet/api/?view=dynamics-workflow-ce-9
-  - name: Package Deployer 9.x
-    href: /dotnet/api/?view=dynamics-deployer-ce-9
-  - name: Outlook Client 9.x
-    href: /dotnet/api/?view=dynamics-outlookclient-ce-9
-  - name: Deployment Service 9.x
-    href: /dotnet/api/?view=dynamics-deployment-ce-9
+  - name: Organization Service
+    href: /dotnet/api/microsoft.crm.sdk
+  - name: XRM Tooling
+    href: /dotnet/api/microsoft.xrm.tooling.connector
+  - name: Workflow
+    href: /dotnet/api/microsoft.xrm.sdk.workflow
+  - name: Package Deployer
+    href: /dotnet/api/microsoft.xrm.tooling.packagedeployment.crmpackageextentionbase
+  - name: Outlook Client
+    href: /dotnet/api/microsoft.crm.outlook.sdk
+  - name: Deployment Service
+    href: /dotnet/api/microsoft.xrm.sdk.deployment
   - name: Client API Reference
     href: clientapi/reference.md
   - name: Schemas used in Dynamics 365

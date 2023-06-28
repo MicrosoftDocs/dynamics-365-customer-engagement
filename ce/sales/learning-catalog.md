@@ -1,6 +1,6 @@
 ---
 title: Learning Catalog for sales
-description: Find all the training options for Dynamics 365 Sales. 
+description: Find all the training options for Dynamics 365 Sales.
 author: MargoC
 ms.topic: article
 ms.date: 11/23/2021
@@ -9,6 +9,7 @@ ms.author: margoc
 ---
 
 # Learning Catalog for sales
+
 Find the right online training, in person workshops, and events for your role in Dynamics 365 Sales.
 
 :::row:::
@@ -25,9 +26,9 @@ Find the right online training, in person workshops, and events for your role in
     [Core Platform Knowledge](learning-bdm.md#core-platform)
 
     [Exam](learning-bdm.md#exam)
-   
+
     :::column-end:::
-    
+
     :::column:::
 
     ### Business users
@@ -44,7 +45,7 @@ Find the right online training, in person workshops, and events for your role in
 :::row-end:::
 :::row:::
     :::column:::
-        
+
     ### Implementation project managers
 
     Are you in charge of making sure your company’s implementation goes smoothly?
@@ -55,7 +56,7 @@ Find the right online training, in person workshops, and events for your role in
 
     [Core Platform Knowlege](learning-project-manager.md#core-platform)
 
-    [Exams](learning-project-manager.md#exams)
+    [Exams](learning-project-manager.md#exam)
 
     :::column-end:::
 
@@ -86,7 +87,7 @@ Find the right online training, in person workshops, and events for your role in
     :::column:::
 
     ### Functional consultants
-    
+
     Are you an implementation expert for a business domain?
 
     [Functional Consultants Learning Catalog](learning-functional-consultant.md)
@@ -114,8 +115,7 @@ Find the right online training, in person workshops, and events for your role in
     [Exam](learning-sales.md#exam)
 
     :::column-end:::
-    
-:::row-end:::
 
+:::row-end:::
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

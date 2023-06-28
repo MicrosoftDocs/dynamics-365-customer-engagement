@@ -1,30 +1,28 @@
 ---
-title: "ImportLog Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ImportLog entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the ImportLog entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# ImportLog Entity Reference
+
+# ImportLog entity reference
 
 Failure reason and other detailed information for a record that failed to import.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Retrieve|GET [*org URI*]/api/data/v9.0/importlogs(*importlogid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/importlogs<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -211,14 +209,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### LogPhaseCode Options
+#### LogPhaseCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Parse|
-|1|Transform|
-|2|Import Create|
-|3|Import Update|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Parse||
+|1|Transform||
+|2|Import Create||
+|3|Import Update||
 
 
 
@@ -263,7 +261,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -649,7 +647,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -668,7 +666,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_ImportLog_BulkDeleteFailures"></a> ImportLog_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [ImportLog_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ImportLog_BulkDeleteFailures) Many-To-One relationship.
+Same as the [ImportLog_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ImportLog_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -683,7 +681,7 @@ Same as bulkdeletefailure entity [ImportLog_BulkDeleteFailures](bulkdeletefailur
 
 ### <a name="BKMK_ImportLog_AsyncOperations"></a> ImportLog_AsyncOperations
 
-Same as asyncoperation entity [ImportLog_AsyncOperations](asyncoperation.md#BKMK_ImportLog_AsyncOperations) Many-To-One relationship.
+Same as the [ImportLog_AsyncOperations](asyncoperation.md#BKMK_ImportLog_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -713,41 +711,37 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_importlog_createdonbehalfby"></a> lk_importlog_createdonbehalfby
 
-See systemuser Entity [lk_importlog_createdonbehalfby](systemuser.md#BKMK_lk_importlog_createdonbehalfby) One-To-Many relationship.
+See the [lk_importlog_createdonbehalfby](systemuser.md#BKMK_lk_importlog_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_BusinessUnit_ImportLogs"></a> BusinessUnit_ImportLogs
 
-See businessunit Entity [BusinessUnit_ImportLogs](businessunit.md#BKMK_BusinessUnit_ImportLogs) One-To-Many relationship.
+See the [BusinessUnit_ImportLogs](businessunit.md#BKMK_BusinessUnit_ImportLogs) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_SystemUser_ImportLogs"></a> SystemUser_ImportLogs
 
-See systemuser Entity [SystemUser_ImportLogs](systemuser.md#BKMK_SystemUser_ImportLogs) One-To-Many relationship.
+See the [SystemUser_ImportLogs](systemuser.md#BKMK_SystemUser_ImportLogs) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_importlogbase_modifiedby"></a> lk_importlogbase_modifiedby
 
-See systemuser Entity [lk_importlogbase_modifiedby](systemuser.md#BKMK_lk_importlogbase_modifiedby) One-To-Many relationship.
+See the [lk_importlogbase_modifiedby](systemuser.md#BKMK_lk_importlogbase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_importlogbase_createdby"></a> lk_importlogbase_createdby
 
-See systemuser Entity [lk_importlogbase_createdby](systemuser.md#BKMK_lk_importlogbase_createdby) One-To-Many relationship.
+See the [lk_importlogbase_createdby](systemuser.md#BKMK_lk_importlogbase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_ImportLog_ImportFile"></a> ImportLog_ImportFile
 
-See importfile Entity [ImportLog_ImportFile](importfile.md#BKMK_ImportLog_ImportFile) One-To-Many relationship.
+See the [ImportLog_ImportFile](importfile.md#BKMK_ImportLog_ImportFile) one-to-many relationship for the [importfile](importfile.md) entity.
 
 ### <a name="BKMK_team_ImportLogs"></a> team_ImportLogs
 
-See team Entity [team_ImportLogs](team.md#BKMK_team_ImportLogs) One-To-Many relationship.
+See the [team_ImportLogs](team.md#BKMK_team_ImportLogs) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_lk_importlog_modifiedonbehalfby"></a> lk_importlog_modifiedonbehalfby
 
-See systemuser Entity [lk_importlog_modifiedonbehalfby](systemuser.md#BKMK_lk_importlog_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_importlog_modifiedonbehalfby](systemuser.md#BKMK_lk_importlog_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.importlog?text=importlog EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

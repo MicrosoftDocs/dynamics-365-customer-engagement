@@ -1,41 +1,39 @@
 ---
-title: "UserQuery Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the UserQuery entity."
-ms.date: 04/02/2019
-
+title: "Saved View (UserQuery)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Saved View (UserQuery)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# UserQuery Entity Reference
+
+# Saved View (UserQuery)  entity reference
 
 Saved database query that is owned by a user.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/userqueries(*userqueryid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/userqueries<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/userqueries(*userqueryid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|ExecuteByIdUserQuery|[Retrieve and execute predefined queries](/powerapps/developer/common-data-service/webapi/retrieve-and-execute-predefined-queries)|<xref:Microsoft.Crm.Sdk.Messages.ExecuteByIdUserQueryRequest>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/userqueries(*userqueryid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/userqueries<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/userqueries(*userqueryid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/userqueries(*userqueryid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|ExecuteByIdUserQuery|<xref:Microsoft.Crm.Sdk.Messages.ExecuteByIdUserQueryRequest>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -304,7 +302,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -326,7 +324,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -692,7 +690,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_UserQuery_BulkDeleteFailures"></a> UserQuery_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [UserQuery_BulkDeleteFailures](bulkdeletefailure.md#BKMK_UserQuery_BulkDeleteFailures) Many-To-One relationship.
+Same as the [UserQuery_BulkDeleteFailures](bulkdeletefailure.md#BKMK_UserQuery_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -707,7 +705,7 @@ Same as bulkdeletefailure entity [UserQuery_BulkDeleteFailures](bulkdeletefailur
 
 ### <a name="BKMK_UserQuery_SyncErrors"></a> UserQuery_SyncErrors
 
-Same as syncerror entity [UserQuery_SyncErrors](syncerror.md#BKMK_UserQuery_SyncErrors) Many-To-One relationship.
+Same as the [UserQuery_SyncErrors](syncerror.md#BKMK_UserQuery_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -722,7 +720,7 @@ Same as syncerror entity [UserQuery_SyncErrors](syncerror.md#BKMK_UserQuery_Sync
 
 ### <a name="BKMK_UserQuery_AsyncOperations"></a> UserQuery_AsyncOperations
 
-Same as asyncoperation entity [UserQuery_AsyncOperations](asyncoperation.md#BKMK_UserQuery_AsyncOperations) Many-To-One relationship.
+Same as the [UserQuery_AsyncOperations](asyncoperation.md#BKMK_UserQuery_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -751,37 +749,33 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_userquery_modifiedonbehalfby"></a> lk_userquery_modifiedonbehalfby
 
-See systemuser Entity [lk_userquery_modifiedonbehalfby](systemuser.md#BKMK_lk_userquery_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_userquery_modifiedonbehalfby](systemuser.md#BKMK_lk_userquery_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_business_unit_userquery"></a> business_unit_userquery
 
-See businessunit Entity [business_unit_userquery](businessunit.md#BKMK_business_unit_userquery) One-To-Many relationship.
+See the [business_unit_userquery](businessunit.md#BKMK_business_unit_userquery) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_user_userquery"></a> user_userquery
 
-See systemuser Entity [user_userquery](systemuser.md#BKMK_user_userquery) One-To-Many relationship.
+See the [user_userquery](systemuser.md#BKMK_user_userquery) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_userquery"></a> team_userquery
 
-See team Entity [team_userquery](team.md#BKMK_team_userquery) One-To-Many relationship.
+See the [team_userquery](team.md#BKMK_team_userquery) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_lk_userquery_modifiedby"></a> lk_userquery_modifiedby
 
-See systemuser Entity [lk_userquery_modifiedby](systemuser.md#BKMK_lk_userquery_modifiedby) One-To-Many relationship.
+See the [lk_userquery_modifiedby](systemuser.md#BKMK_lk_userquery_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_userquery_createdby"></a> lk_userquery_createdby
 
-See systemuser Entity [lk_userquery_createdby](systemuser.md#BKMK_lk_userquery_createdby) One-To-Many relationship.
+See the [lk_userquery_createdby](systemuser.md#BKMK_lk_userquery_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_userquery_createdonbehalfby"></a> lk_userquery_createdonbehalfby
 
-See systemuser Entity [lk_userquery_createdonbehalfby](systemuser.md#BKMK_lk_userquery_createdonbehalfby) One-To-Many relationship.
+See the [lk_userquery_createdonbehalfby](systemuser.md#BKMK_lk_userquery_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.userquery?text=userquery EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -1,31 +1,29 @@
 ---
-title: "ActivityPointer Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the ActivityPointer entity."
-ms.date: 04/02/2019
-
+title: "Activity (ActivityPointer)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Activity (ActivityPointer)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# ActivityPointer Entity Reference
+
+# Activity (ActivityPointer)  entity reference
 
 Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Retrieve|GET [*org URI*]/api/data/v9.0/activitypointers(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/activitypointers<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Rollup|<xref href="Microsoft.Dynamics.CRM.Rollup?text=Rollup Function" />|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
+|Message|SDK class or method|
+|-|-|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Rollup|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -174,13 +172,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Community Options
+#### Community Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Other|
-|1|Facebook|
-|2|Twitter|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Other|Other default|
+|1|Facebook|Facebook item.|
+|2|Twitter|Twitter.|
 
 
 
@@ -197,13 +195,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### DeliveryPriorityCode Options
+#### DeliveryPriorityCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Low|
-|1|Normal|
-|2|High|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Low||
+|1|Normal||
+|2|High||
 
 
 
@@ -267,14 +265,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsBilled Options
+#### IsBilled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -290,14 +288,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsMapiPrivate Options
+#### IsMapiPrivate Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -313,14 +311,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsWorkflowCreated Options
+#### IsWorkflowCreated Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -351,14 +349,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### LeftVoiceMail Options
+#### LeftVoiceMail Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -403,13 +401,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PriorityCode Options
+#### PriorityCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Low|
-|1|Normal|
-|2|High|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Low||
+|1|Normal||
+|2|High||
 
 
 
@@ -436,7 +434,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_fieldservicesetting,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_playbookinstance,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,quote,salesorder,site|
+|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_postalbum,opportunity,quote,salesorder,site|
 |Type|Lookup|
 
 
@@ -581,7 +579,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the Stage.|
-|DisplayName|(Deprecated) Process Stage|
+|DisplayName|Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -602,7 +600,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -625,7 +623,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -647,7 +645,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|subject|
-|MaxLength|400|
+|MaxLength|200|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 
@@ -687,7 +685,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -935,15 +933,15 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### InstanceTypeCode Options
+#### InstanceTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Not Recurring|
-|1|Recurring Master|
-|2|Recurring Instance|
-|3|Recurring Exception|
-|4|Recurring Future Exception|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Not Recurring||
+|1|Recurring Master||
+|2|Recurring Instance||
+|3|Recurring Exception||
+|4|Recurring Future Exception||
 
 
 
@@ -959,14 +957,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsRegularActivity Options
+#### IsRegularActivity Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -1351,8 +1349,6 @@ Listed by **SchemaName**.
 - [activity_pointer_opportunity_close](#BKMK_activity_pointer_opportunity_close)
 - [activity_pointer_order_close](#BKMK_activity_pointer_order_close)
 - [activity_pointer_quote_close](#BKMK_activity_pointer_quote_close)
-- [activity_pointer_msdyn_bookingalert](#BKMK_activity_pointer_msdyn_bookingalert)
-- [activity_pointer_msdyn_approval](#BKMK_activity_pointer_msdyn_approval)
 - [activity_pointer_fax](#BKMK_activity_pointer_fax)
 - [activity_pointer_recurrencerule](#BKMK_activity_pointer_recurrencerule)
 - [activity_pointer_letter](#BKMK_activity_pointer_letter)
@@ -1376,7 +1372,7 @@ Listed by **SchemaName**.
 
 **Added by**: Marketing Solution
 
-Same as bulkoperation entity [activity_pointer_BulkOperation](bulkoperation.md#BKMK_activity_pointer_BulkOperation) Many-To-One relationship.
+Same as the [activity_pointer_BulkOperation](bulkoperation.md#BKMK_activity_pointer_BulkOperation) many-to-one relationship for the [bulkoperation](bulkoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1393,7 +1389,7 @@ Same as bulkoperation entity [activity_pointer_BulkOperation](bulkoperation.md#B
 
 **Added by**: Marketing Solution
 
-Same as campaignactivity entity [activity_pointer_campaignactivity](campaignactivity.md#BKMK_activity_pointer_campaignactivity) Many-To-One relationship.
+Same as the [activity_pointer_campaignactivity](campaignactivity.md#BKMK_activity_pointer_campaignactivity) many-to-one relationship for the [campaignactivity](campaignactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1410,7 +1406,7 @@ Same as campaignactivity entity [activity_pointer_campaignactivity](campaignacti
 
 **Added by**: Marketing Solution
 
-Same as campaignresponse entity [activity_pointer_campaignresponse](campaignresponse.md#BKMK_activity_pointer_campaignresponse) Many-To-One relationship.
+Same as the [activity_pointer_campaignresponse](campaignresponse.md#BKMK_activity_pointer_campaignresponse) many-to-one relationship for the [campaignresponse](campaignresponse.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1427,7 +1423,7 @@ Same as campaignresponse entity [activity_pointer_campaignresponse](campaignresp
 
 **Added by**: Marketing Solution
 
-Same as bulkoperationlog entity [activity_pointer_BulkOperation_logs](bulkoperationlog.md#BKMK_activity_pointer_BulkOperation_logs) Many-To-One relationship.
+Same as the [activity_pointer_BulkOperation_logs](bulkoperationlog.md#BKMK_activity_pointer_BulkOperation_logs) many-to-one relationship for the [bulkoperationlog](bulkoperationlog.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1444,7 +1440,7 @@ Same as bulkoperationlog entity [activity_pointer_BulkOperation_logs](bulkoperat
 
 **Added by**: Marketing Solution
 
-Same as bulkoperationlog entity [CreatedActivity_BulkOperationLogs](bulkoperationlog.md#BKMK_CreatedActivity_BulkOperationLogs) Many-To-One relationship.
+Same as the [CreatedActivity_BulkOperationLogs](bulkoperationlog.md#BKMK_CreatedActivity_BulkOperationLogs) many-to-one relationship for the [bulkoperationlog](bulkoperationlog.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1461,7 +1457,7 @@ Same as bulkoperationlog entity [CreatedActivity_BulkOperationLogs](bulkoperatio
 
 **Added by**: Marketing Solution
 
-Same as campaignresponse entity [activity_campaignresponse](campaignresponse.md#BKMK_activity_campaignresponse) Many-To-One relationship.
+Same as the [activity_campaignresponse](campaignresponse.md#BKMK_activity_campaignresponse) many-to-one relationship for the [campaignresponse](campaignresponse.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1478,7 +1474,7 @@ Same as campaignresponse entity [activity_campaignresponse](campaignresponse.md#
 
 **Added by**: Service Solution
 
-Same as incidentresolution entity [activity_pointer_incident_resolution](incidentresolution.md#BKMK_activity_pointer_incident_resolution) Many-To-One relationship.
+Same as the [activity_pointer_incident_resolution](incidentresolution.md#BKMK_activity_pointer_incident_resolution) many-to-one relationship for the [incidentresolution](incidentresolution.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1495,7 +1491,7 @@ Same as incidentresolution entity [activity_pointer_incident_resolution](inciden
 
 **Added by**: Service Solution
 
-Same as serviceappointment entity [activity_pointer_service_appointment](serviceappointment.md#BKMK_activity_pointer_service_appointment) Many-To-One relationship.
+Same as the [activity_pointer_service_appointment](serviceappointment.md#BKMK_activity_pointer_service_appointment) many-to-one relationship for the [serviceappointment](serviceappointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1512,7 +1508,7 @@ Same as serviceappointment entity [activity_pointer_service_appointment](service
 
 **Added by**: Sales Solution
 
-Same as opportunityclose entity [activity_pointer_opportunity_close](opportunityclose.md#BKMK_activity_pointer_opportunity_close) Many-To-One relationship.
+Same as the [activity_pointer_opportunity_close](opportunityclose.md#BKMK_activity_pointer_opportunity_close) many-to-one relationship for the [opportunityclose](opportunityclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1529,7 +1525,7 @@ Same as opportunityclose entity [activity_pointer_opportunity_close](opportunity
 
 **Added by**: Sales Solution
 
-Same as orderclose entity [activity_pointer_order_close](orderclose.md#BKMK_activity_pointer_order_close) Many-To-One relationship.
+Same as the [activity_pointer_order_close](orderclose.md#BKMK_activity_pointer_order_close) many-to-one relationship for the [orderclose](orderclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1546,7 +1542,7 @@ Same as orderclose entity [activity_pointer_order_close](orderclose.md#BKMK_acti
 
 **Added by**: Sales Solution
 
-Same as quoteclose entity [activity_pointer_quote_close](quoteclose.md#BKMK_activity_pointer_quote_close) Many-To-One relationship.
+Same as the [activity_pointer_quote_close](quoteclose.md#BKMK_activity_pointer_quote_close) many-to-one relationship for the [quoteclose](quoteclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1559,43 +1555,9 @@ Same as quoteclose entity [activity_pointer_quote_close](quoteclose.md#BKMK_acti
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_activity_pointer_msdyn_bookingalert"></a> activity_pointer_msdyn_bookingalert
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bookingalert entity [activity_pointer_msdyn_bookingalert](msdyn_bookingalert.md#BKMK_activity_pointer_msdyn_bookingalert) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bookingalert|
-|ReferencingAttribute|activityid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|activity_pointer_msdyn_bookingalert|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_activity_pointer_msdyn_approval"></a> activity_pointer_msdyn_approval
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_approval entity [activity_pointer_msdyn_approval](msdyn_approval.md#BKMK_activity_pointer_msdyn_approval) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_approval|
-|ReferencingAttribute|activityid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|activity_pointer_msdyn_approval|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_activity_pointer_fax"></a> activity_pointer_fax
 
-Same as fax entity [activity_pointer_fax](fax.md#BKMK_activity_pointer_fax) Many-To-One relationship.
+Same as the [activity_pointer_fax](fax.md#BKMK_activity_pointer_fax) many-to-one relationship for the [fax](fax.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1610,7 +1572,7 @@ Same as fax entity [activity_pointer_fax](fax.md#BKMK_activity_pointer_fax) Many
 
 ### <a name="BKMK_activity_pointer_recurrencerule"></a> activity_pointer_recurrencerule
 
-Same as recurrencerule entity [activity_pointer_recurrencerule](recurrencerule.md#BKMK_activity_pointer_recurrencerule) Many-To-One relationship.
+Same as the [activity_pointer_recurrencerule](recurrencerule.md#BKMK_activity_pointer_recurrencerule) many-to-one relationship for the [recurrencerule](recurrencerule.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1625,7 +1587,7 @@ Same as recurrencerule entity [activity_pointer_recurrencerule](recurrencerule.m
 
 ### <a name="BKMK_activity_pointer_letter"></a> activity_pointer_letter
 
-Same as letter entity [activity_pointer_letter](letter.md#BKMK_activity_pointer_letter) Many-To-One relationship.
+Same as the [activity_pointer_letter](letter.md#BKMK_activity_pointer_letter) many-to-one relationship for the [letter](letter.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1640,7 +1602,7 @@ Same as letter entity [activity_pointer_letter](letter.md#BKMK_activity_pointer_
 
 ### <a name="BKMK_activitypointer_connections1"></a> activitypointer_connections1
 
-Same as connection entity [activitypointer_connections1](connection.md#BKMK_activitypointer_connections1) Many-To-One relationship.
+Same as the [activitypointer_connections1](connection.md#BKMK_activitypointer_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1655,7 +1617,7 @@ Same as connection entity [activitypointer_connections1](connection.md#BKMK_acti
 
 ### <a name="BKMK_activity_pointer_phonecall"></a> activity_pointer_phonecall
 
-Same as phonecall entity [activity_pointer_phonecall](phonecall.md#BKMK_activity_pointer_phonecall) Many-To-One relationship.
+Same as the [activity_pointer_phonecall](phonecall.md#BKMK_activity_pointer_phonecall) many-to-one relationship for the [phonecall](phonecall.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1670,7 +1632,7 @@ Same as phonecall entity [activity_pointer_phonecall](phonecall.md#BKMK_activity
 
 ### <a name="BKMK_activity_pointer_email"></a> activity_pointer_email
 
-Same as email entity [activity_pointer_email](email.md#BKMK_activity_pointer_email) Many-To-One relationship.
+Same as the [activity_pointer_email](email.md#BKMK_activity_pointer_email) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1685,7 +1647,7 @@ Same as email entity [activity_pointer_email](email.md#BKMK_activity_pointer_ema
 
 ### <a name="BKMK_activitypointer_activity_parties"></a> activitypointer_activity_parties
 
-Same as activityparty entity [activitypointer_activity_parties](activityparty.md#BKMK_activitypointer_activity_parties) Many-To-One relationship.
+Same as the [activitypointer_activity_parties](activityparty.md#BKMK_activitypointer_activity_parties) many-to-one relationship for the [activityparty](activityparty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1700,7 +1662,7 @@ Same as activityparty entity [activitypointer_activity_parties](activityparty.md
 
 ### <a name="BKMK_activity_pointer_activity_mime_attachment"></a> activity_pointer_activity_mime_attachment
 
-Same as activitymimeattachment entity [activity_pointer_activity_mime_attachment](activitymimeattachment.md#BKMK_activity_pointer_activity_mime_attachment) Many-To-One relationship.
+Same as the [activity_pointer_activity_mime_attachment](activitymimeattachment.md#BKMK_activity_pointer_activity_mime_attachment) many-to-one relationship for the [activitymimeattachment](activitymimeattachment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1715,7 +1677,7 @@ Same as activitymimeattachment entity [activity_pointer_activity_mime_attachment
 
 ### <a name="BKMK_activity_pointer_appointment"></a> activity_pointer_appointment
 
-Same as appointment entity [activity_pointer_appointment](appointment.md#BKMK_activity_pointer_appointment) Many-To-One relationship.
+Same as the [activity_pointer_appointment](appointment.md#BKMK_activity_pointer_appointment) many-to-one relationship for the [appointment](appointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1730,7 +1692,7 @@ Same as appointment entity [activity_pointer_appointment](appointment.md#BKMK_ac
 
 ### <a name="BKMK_activitypointer_connections2"></a> activitypointer_connections2
 
-Same as connection entity [activitypointer_connections2](connection.md#BKMK_activitypointer_connections2) Many-To-One relationship.
+Same as the [activitypointer_connections2](connection.md#BKMK_activitypointer_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1745,7 +1707,7 @@ Same as connection entity [activitypointer_connections2](connection.md#BKMK_acti
 
 ### <a name="BKMK_slakpiinstance_activitypointer"></a> slakpiinstance_activitypointer
 
-Same as slakpiinstance entity [slakpiinstance_activitypointer](slakpiinstance.md#BKMK_slakpiinstance_activitypointer) Many-To-One relationship.
+Same as the [slakpiinstance_activitypointer](slakpiinstance.md#BKMK_slakpiinstance_activitypointer) many-to-one relationship for the [slakpiinstance](slakpiinstance.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1760,7 +1722,7 @@ Same as slakpiinstance entity [slakpiinstance_activitypointer](slakpiinstance.md
 
 ### <a name="BKMK_ActivityPointer_QueueItem"></a> ActivityPointer_QueueItem
 
-Same as queueitem entity [ActivityPointer_QueueItem](queueitem.md#BKMK_ActivityPointer_QueueItem) Many-To-One relationship.
+Same as the [ActivityPointer_QueueItem](queueitem.md#BKMK_ActivityPointer_QueueItem) many-to-one relationship for the [queueitem](queueitem.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1775,7 +1737,7 @@ Same as queueitem entity [ActivityPointer_QueueItem](queueitem.md#BKMK_ActivityP
 
 ### <a name="BKMK_activity_pointer_task"></a> activity_pointer_task
 
-Same as task entity [activity_pointer_task](task.md#BKMK_activity_pointer_task) Many-To-One relationship.
+Same as the [activity_pointer_task](task.md#BKMK_activity_pointer_task) many-to-one relationship for the [task](task.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1790,7 +1752,7 @@ Same as task entity [activity_pointer_task](task.md#BKMK_activity_pointer_task) 
 
 ### <a name="BKMK_activity_pointer_socialactivity"></a> activity_pointer_socialactivity
 
-Same as socialactivity entity [activity_pointer_socialactivity](socialactivity.md#BKMK_activity_pointer_socialactivity) Many-To-One relationship.
+Same as the [activity_pointer_socialactivity](socialactivity.md#BKMK_activity_pointer_socialactivity) many-to-one relationship for the [socialactivity](socialactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1805,7 +1767,7 @@ Same as socialactivity entity [activity_pointer_socialactivity](socialactivity.m
 
 ### <a name="BKMK_ActivityPointer_AsyncOperations"></a> ActivityPointer_AsyncOperations
 
-Same as asyncoperation entity [ActivityPointer_AsyncOperations](asyncoperation.md#BKMK_ActivityPointer_AsyncOperations) Many-To-One relationship.
+Same as the [ActivityPointer_AsyncOperations](asyncoperation.md#BKMK_ActivityPointer_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1820,7 +1782,7 @@ Same as asyncoperation entity [ActivityPointer_AsyncOperations](asyncoperation.m
 
 ### <a name="BKMK_ActivityPointer_BulkDeleteFailures"></a> ActivityPointer_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [ActivityPointer_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ActivityPointer_BulkDeleteFailures) Many-To-One relationship.
+Same as the [ActivityPointer_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ActivityPointer_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1835,7 +1797,7 @@ Same as bulkdeletefailure entity [ActivityPointer_BulkDeleteFailures](bulkdelete
 
 ### <a name="BKMK_activity_pointer_recurringappointmentmaster"></a> activity_pointer_recurringappointmentmaster
 
-Same as recurringappointmentmaster entity [activity_pointer_recurringappointmentmaster](recurringappointmentmaster.md#BKMK_activity_pointer_recurringappointmentmaster) Many-To-One relationship.
+Same as the [activity_pointer_recurringappointmentmaster](recurringappointmentmaster.md#BKMK_activity_pointer_recurringappointmentmaster) many-to-one relationship for the [recurringappointmentmaster](recurringappointmentmaster.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1853,6 +1815,7 @@ Same as recurringappointmentmaster entity [activity_pointer_recurringappointment
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
+- [interactionforemail_ActivityPointers](#BKMK_interactionforemail_ActivityPointers)
 - [Lead_ActivityPointers](#BKMK_Lead_ActivityPointers)
 - [bookableresourcebooking_ActivityPointers](#BKMK_bookableresourcebooking_ActivityPointers)
 - [bookableresourcebookingheader_ActivityPointers](#BKMK_bookableresourcebookingheader_ActivityPointers)
@@ -1865,75 +1828,11 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [Incident_ActivityPointers](#BKMK_Incident_ActivityPointers)
 - [site_ActivityPointers](#BKMK_site_ActivityPointers)
 - [service_activity_pointers](#BKMK_service_activity_pointers)
-- [msdyn_playbookinstance_ActivityPointers](#BKMK_msdyn_playbookinstance_ActivityPointers)
 - [Invoice_ActivityPointers](#BKMK_Invoice_ActivityPointers)
 - [Opportunity_ActivityPointers](#BKMK_Opportunity_ActivityPointers)
 - [Quote_ActivityPointers](#BKMK_Quote_ActivityPointers)
 - [SalesOrder_ActivityPointers](#BKMK_SalesOrder_ActivityPointers)
 - [msdyn_postalbum_ActivityPointers](#BKMK_msdyn_postalbum_ActivityPointers)
-- [msdyn_bookingalertstatus_ActivityPointers](#BKMK_msdyn_bookingalertstatus_ActivityPointers)
-- [msdyn_bookingrule_ActivityPointers](#BKMK_msdyn_bookingrule_ActivityPointers)
-- [msdyn_resourceterritory_ActivityPointers](#BKMK_msdyn_resourceterritory_ActivityPointers)
-- [msdyn_systemuserschedulersetting_ActivityPointers](#BKMK_msdyn_systemuserschedulersetting_ActivityPointers)
-- [msdyn_timegroup_ActivityPointers](#BKMK_msdyn_timegroup_ActivityPointers)
-- [msdyn_timegroupdetail_ActivityPointers](#BKMK_msdyn_timegroupdetail_ActivityPointers)
-- [msdyn_processnotes_ActivityPointers](#BKMK_msdyn_processnotes_ActivityPointers)
-- [msdyn_projectteam_ActivityPointers](#BKMK_msdyn_projectteam_ActivityPointers)
-- [msdyn_agreement_ActivityPointers](#BKMK_msdyn_agreement_ActivityPointers)
-- [msdyn_agreementbookingdate_ActivityPointers](#BKMK_msdyn_agreementbookingdate_ActivityPointers)
-- [msdyn_agreementbookingincident_ActivityPointers](#BKMK_msdyn_agreementbookingincident_ActivityPointers)
-- [msdyn_agreementbookingproduct_ActivityPointers](#BKMK_msdyn_agreementbookingproduct_ActivityPointers)
-- [msdyn_agreementbookingservice_ActivityPointers](#BKMK_msdyn_agreementbookingservice_ActivityPointers)
-- [msdyn_agreementbookingservicetask_ActivityPointers](#BKMK_msdyn_agreementbookingservicetask_ActivityPointers)
-- [msdyn_agreementbookingsetup_ActivityPointers](#BKMK_msdyn_agreementbookingsetup_ActivityPointers)
-- [msdyn_agreementinvoicedate_ActivityPointers](#BKMK_msdyn_agreementinvoicedate_ActivityPointers)
-- [msdyn_agreementinvoiceproduct_ActivityPointers](#BKMK_msdyn_agreementinvoiceproduct_ActivityPointers)
-- [msdyn_agreementinvoicesetup_ActivityPointers](#BKMK_msdyn_agreementinvoicesetup_ActivityPointers)
-- [msdyn_bookingtimestamp_ActivityPointers](#BKMK_msdyn_bookingtimestamp_ActivityPointers)
-- [msdyn_customerasset_ActivityPointers](#BKMK_msdyn_customerasset_ActivityPointers)
-- [msdyn_fieldservicesetting_ActivityPointers](#BKMK_msdyn_fieldservicesetting_ActivityPointers)
-- [msdyn_incidenttypecharacteristic_ActivityPointers](#BKMK_msdyn_incidenttypecharacteristic_ActivityPointers)
-- [msdyn_incidenttypeproduct_ActivityPointers](#BKMK_msdyn_incidenttypeproduct_ActivityPointers)
-- [msdyn_incidenttypeservice_ActivityPointers](#BKMK_msdyn_incidenttypeservice_ActivityPointers)
-- [msdyn_inventoryadjustment_ActivityPointers](#BKMK_msdyn_inventoryadjustment_ActivityPointers)
-- [msdyn_inventoryadjustmentproduct_ActivityPointers](#BKMK_msdyn_inventoryadjustmentproduct_ActivityPointers)
-- [msdyn_inventoryjournal_ActivityPointers](#BKMK_msdyn_inventoryjournal_ActivityPointers)
-- [msdyn_inventorytransfer_ActivityPointers](#BKMK_msdyn_inventorytransfer_ActivityPointers)
-- [msdyn_payment_ActivityPointers](#BKMK_msdyn_payment_ActivityPointers)
-- [msdyn_paymentdetail_ActivityPointers](#BKMK_msdyn_paymentdetail_ActivityPointers)
-- [msdyn_paymentmethod_ActivityPointers](#BKMK_msdyn_paymentmethod_ActivityPointers)
-- [msdyn_paymentterm_ActivityPointers](#BKMK_msdyn_paymentterm_ActivityPointers)
-- [msdyn_postalcode_ActivityPointers](#BKMK_msdyn_postalcode_ActivityPointers)
-- [msdyn_productinventory_ActivityPointers](#BKMK_msdyn_productinventory_ActivityPointers)
-- [msdyn_purchaseorder_ActivityPointers](#BKMK_msdyn_purchaseorder_ActivityPointers)
-- [msdyn_purchaseorderbill_ActivityPointers](#BKMK_msdyn_purchaseorderbill_ActivityPointers)
-- [msdyn_purchaseorderproduct_ActivityPointers](#BKMK_msdyn_purchaseorderproduct_ActivityPointers)
-- [msdyn_purchaseorderreceipt_ActivityPointers](#BKMK_msdyn_purchaseorderreceipt_ActivityPointers)
-- [msdyn_purchaseorderreceiptproduct_ActivityPointers](#BKMK_msdyn_purchaseorderreceiptproduct_ActivityPointers)
-- [msdyn_purchaseordersubstatus_ActivityPointers](#BKMK_msdyn_purchaseordersubstatus_ActivityPointers)
-- [msdyn_quotebookingincident_ActivityPointers](#BKMK_msdyn_quotebookingincident_ActivityPointers)
-- [msdyn_quotebookingproduct_ActivityPointers](#BKMK_msdyn_quotebookingproduct_ActivityPointers)
-- [msdyn_quotebookingservice_ActivityPointers](#BKMK_msdyn_quotebookingservice_ActivityPointers)
-- [msdyn_quotebookingservicetask_ActivityPointers](#BKMK_msdyn_quotebookingservicetask_ActivityPointers)
-- [msdyn_rma_ActivityPointers](#BKMK_msdyn_rma_ActivityPointers)
-- [msdyn_rmaproduct_ActivityPointers](#BKMK_msdyn_rmaproduct_ActivityPointers)
-- [msdyn_rmareceipt_ActivityPointers](#BKMK_msdyn_rmareceipt_ActivityPointers)
-- [msdyn_rmareceiptproduct_ActivityPointers](#BKMK_msdyn_rmareceiptproduct_ActivityPointers)
-- [msdyn_rmasubstatus_ActivityPointers](#BKMK_msdyn_rmasubstatus_ActivityPointers)
-- [msdyn_rtv_ActivityPointers](#BKMK_msdyn_rtv_ActivityPointers)
-- [msdyn_rtvproduct_ActivityPointers](#BKMK_msdyn_rtvproduct_ActivityPointers)
-- [msdyn_rtvsubstatus_ActivityPointers](#BKMK_msdyn_rtvsubstatus_ActivityPointers)
-- [msdyn_shipvia_ActivityPointers](#BKMK_msdyn_shipvia_ActivityPointers)
-- [msdyn_timeoffrequest_ActivityPointers](#BKMK_msdyn_timeoffrequest_ActivityPointers)
-- [msdyn_warehouse_ActivityPointers](#BKMK_msdyn_warehouse_ActivityPointers)
-- [msdyn_workorder_ActivityPointers](#BKMK_msdyn_workorder_ActivityPointers)
-- [msdyn_workordercharacteristic_ActivityPointers](#BKMK_msdyn_workordercharacteristic_ActivityPointers)
-- [msdyn_workorderincident_ActivityPointers](#BKMK_msdyn_workorderincident_ActivityPointers)
-- [msdyn_workorderproduct_ActivityPointers](#BKMK_msdyn_workorderproduct_ActivityPointers)
-- [msdyn_workorderresourcerestriction_ActivityPointers](#BKMK_msdyn_workorderresourcerestriction_ActivityPointers)
-- [msdyn_workorderservice_ActivityPointers](#BKMK_msdyn_workorderservice_ActivityPointers)
-- [msdyn_workorderservicetask_ActivityPointers](#BKMK_msdyn_workorderservicetask_ActivityPointers)
-- [interactionforemail_ActivityPointers](#BKMK_interactionforemail_ActivityPointers)
 - [KnowledgeBaseRecord_ActivityPointers](#BKMK_KnowledgeBaseRecord_ActivityPointers)
 - [KnowledgeArticle_ActivityPointers](#BKMK_KnowledgeArticle_ActivityPointers)
 - [activitypointer_sendermailboxid_mailbox](#BKMK_activitypointer_sendermailboxid_mailbox)
@@ -1951,555 +1850,173 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [user_activity](#BKMK_user_activity)
 
 
+### <a name="BKMK_interactionforemail_ActivityPointers"></a> interactionforemail_ActivityPointers
+
+See the [interactionforemail_ActivityPointers](interactionforemail.md#BKMK_interactionforemail_ActivityPointers) one-to-many relationship for the [interactionforemail](interactionforemail.md) entity.
+
 ### <a name="BKMK_Lead_ActivityPointers"></a> Lead_ActivityPointers
 
 **Added by**: Lead Management Solution
 
-See lead Entity [Lead_ActivityPointers](lead.md#BKMK_Lead_ActivityPointers) One-To-Many relationship.
+See the [Lead_ActivityPointers](lead.md#BKMK_Lead_ActivityPointers) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_bookableresourcebooking_ActivityPointers"></a> bookableresourcebooking_ActivityPointers
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebooking Entity [bookableresourcebooking_ActivityPointers](bookableresourcebooking.md#BKMK_bookableresourcebooking_ActivityPointers) One-To-Many relationship.
+See the [bookableresourcebooking_ActivityPointers](bookableresourcebooking.md#BKMK_bookableresourcebooking_ActivityPointers) one-to-many relationship for the [bookableresourcebooking](bookableresourcebooking.md) entity.
 
 ### <a name="BKMK_bookableresourcebookingheader_ActivityPointers"></a> bookableresourcebookingheader_ActivityPointers
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebookingheader Entity [bookableresourcebookingheader_ActivityPointers](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_ActivityPointers) One-To-Many relationship.
+See the [bookableresourcebookingheader_ActivityPointers](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_ActivityPointers) one-to-many relationship for the [bookableresourcebookingheader](bookableresourcebookingheader.md) entity.
 
 ### <a name="BKMK_BulkOperation_ActivityPointers"></a> BulkOperation_ActivityPointers
 
 **Added by**: Marketing Solution
 
-See bulkoperation Entity [BulkOperation_ActivityPointers](bulkoperation.md#BKMK_BulkOperation_ActivityPointers) One-To-Many relationship.
+See the [BulkOperation_ActivityPointers](bulkoperation.md#BKMK_BulkOperation_ActivityPointers) one-to-many relationship for the [bulkoperation](bulkoperation.md) entity.
 
 ### <a name="BKMK_Campaign_ActivityPointers"></a> Campaign_ActivityPointers
 
 **Added by**: Marketing Solution
 
-See campaign Entity [Campaign_ActivityPointers](campaign.md#BKMK_Campaign_ActivityPointers) One-To-Many relationship.
+See the [Campaign_ActivityPointers](campaign.md#BKMK_Campaign_ActivityPointers) one-to-many relationship for the [campaign](campaign.md) entity.
 
 ### <a name="BKMK_CampaignActivity_ActivityPointers"></a> CampaignActivity_ActivityPointers
 
 **Added by**: Marketing Solution
 
-See campaignactivity Entity [CampaignActivity_ActivityPointers](campaignactivity.md#BKMK_CampaignActivity_ActivityPointers) One-To-Many relationship.
+See the [CampaignActivity_ActivityPointers](campaignactivity.md#BKMK_CampaignActivity_ActivityPointers) one-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_Contract_ActivityPointers"></a> Contract_ActivityPointers
 
 **Added by**: Service Solution
 
-See contract Entity [Contract_ActivityPointers](contract.md#BKMK_Contract_ActivityPointers) One-To-Many relationship.
+See the [Contract_ActivityPointers](contract.md#BKMK_Contract_ActivityPointers) one-to-many relationship for the [contract](contract.md) entity.
 
 ### <a name="BKMK_entitlement_ActivityPointers"></a> entitlement_ActivityPointers
 
 **Added by**: Service Solution
 
-See entitlement Entity [entitlement_ActivityPointers](entitlement.md#BKMK_entitlement_ActivityPointers) One-To-Many relationship.
+See the [entitlement_ActivityPointers](entitlement.md#BKMK_entitlement_ActivityPointers) one-to-many relationship for the [entitlement](entitlement.md) entity.
 
 ### <a name="BKMK_entitlementtemplate_ActivityPointers"></a> entitlementtemplate_ActivityPointers
 
 **Added by**: Service Solution
 
-See entitlementtemplate Entity [entitlementtemplate_ActivityPointers](entitlementtemplate.md#BKMK_entitlementtemplate_ActivityPointers) One-To-Many relationship.
+See the [entitlementtemplate_ActivityPointers](entitlementtemplate.md#BKMK_entitlementtemplate_ActivityPointers) one-to-many relationship for the [entitlementtemplate](entitlementtemplate.md) entity.
 
 ### <a name="BKMK_Incident_ActivityPointers"></a> Incident_ActivityPointers
 
 **Added by**: Service Solution
 
-See incident Entity [Incident_ActivityPointers](incident.md#BKMK_Incident_ActivityPointers) One-To-Many relationship.
+See the [Incident_ActivityPointers](incident.md#BKMK_Incident_ActivityPointers) one-to-many relationship for the [incident](incident.md) entity.
 
 ### <a name="BKMK_site_ActivityPointers"></a> site_ActivityPointers
 
 **Added by**: Service Solution
 
-See site Entity [site_ActivityPointers](site.md#BKMK_site_ActivityPointers) One-To-Many relationship.
+See the [site_ActivityPointers](site.md#BKMK_site_ActivityPointers) one-to-many relationship for the [site](site.md) entity.
 
 ### <a name="BKMK_service_activity_pointers"></a> service_activity_pointers
 
 **Added by**: Service Solution
 
-See service Entity [service_activity_pointers](service.md#BKMK_service_activity_pointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_playbookinstance_ActivityPointers"></a> msdyn_playbookinstance_ActivityPointers
-
-**Added by**: Playbook Solution
-
-See msdyn_playbookinstance Entity [msdyn_playbookinstance_ActivityPointers](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_ActivityPointers) One-To-Many relationship.
+See the [service_activity_pointers](service.md#BKMK_service_activity_pointers) one-to-many relationship for the [service](service.md) entity.
 
 ### <a name="BKMK_Invoice_ActivityPointers"></a> Invoice_ActivityPointers
 
 **Added by**: Sales Solution
 
-See invoice Entity [Invoice_ActivityPointers](invoice.md#BKMK_Invoice_ActivityPointers) One-To-Many relationship.
+See the [Invoice_ActivityPointers](invoice.md#BKMK_Invoice_ActivityPointers) one-to-many relationship for the [invoice](invoice.md) entity.
 
 ### <a name="BKMK_Opportunity_ActivityPointers"></a> Opportunity_ActivityPointers
 
 **Added by**: Sales Solution
 
-See opportunity Entity [Opportunity_ActivityPointers](opportunity.md#BKMK_Opportunity_ActivityPointers) One-To-Many relationship.
+See the [Opportunity_ActivityPointers](opportunity.md#BKMK_Opportunity_ActivityPointers) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_Quote_ActivityPointers"></a> Quote_ActivityPointers
 
 **Added by**: Sales Solution
 
-See quote Entity [Quote_ActivityPointers](quote.md#BKMK_Quote_ActivityPointers) One-To-Many relationship.
+See the [Quote_ActivityPointers](quote.md#BKMK_Quote_ActivityPointers) one-to-many relationship for the [quote](quote.md) entity.
 
 ### <a name="BKMK_SalesOrder_ActivityPointers"></a> SalesOrder_ActivityPointers
 
 **Added by**: Sales Solution
 
-See salesorder Entity [SalesOrder_ActivityPointers](salesorder.md#BKMK_SalesOrder_ActivityPointers) One-To-Many relationship.
+See the [SalesOrder_ActivityPointers](salesorder.md#BKMK_SalesOrder_ActivityPointers) one-to-many relationship for the [salesorder](salesorder.md) entity.
 
 ### <a name="BKMK_msdyn_postalbum_ActivityPointers"></a> msdyn_postalbum_ActivityPointers
 
 **Added by**: Activity Feeds Solution
 
-See msdyn_postalbum Entity [msdyn_postalbum_ActivityPointers](msdyn_postalbum.md#BKMK_msdyn_postalbum_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingalertstatus_ActivityPointers"></a> msdyn_bookingalertstatus_ActivityPointers
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingalertstatus Entity [msdyn_bookingalertstatus_ActivityPointers](msdyn_bookingalertstatus.md#BKMK_msdyn_bookingalertstatus_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingrule_ActivityPointers"></a> msdyn_bookingrule_ActivityPointers
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingrule Entity [msdyn_bookingrule_ActivityPointers](msdyn_bookingrule.md#BKMK_msdyn_bookingrule_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourceterritory_ActivityPointers"></a> msdyn_resourceterritory_ActivityPointers
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_resourceterritory Entity [msdyn_resourceterritory_ActivityPointers](msdyn_resourceterritory.md#BKMK_msdyn_resourceterritory_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_systemuserschedulersetting_ActivityPointers"></a> msdyn_systemuserschedulersetting_ActivityPointers
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_systemuserschedulersetting Entity [msdyn_systemuserschedulersetting_ActivityPointers](msdyn_systemuserschedulersetting.md#BKMK_msdyn_systemuserschedulersetting_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroup_ActivityPointers"></a> msdyn_timegroup_ActivityPointers
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroup Entity [msdyn_timegroup_ActivityPointers](msdyn_timegroup.md#BKMK_msdyn_timegroup_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroupdetail_ActivityPointers"></a> msdyn_timegroupdetail_ActivityPointers
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroupdetail Entity [msdyn_timegroupdetail_ActivityPointers](msdyn_timegroupdetail.md#BKMK_msdyn_timegroupdetail_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_processnotes_ActivityPointers"></a> msdyn_processnotes_ActivityPointers
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_processnotes Entity [msdyn_processnotes_ActivityPointers](msdyn_processnotes.md#BKMK_msdyn_processnotes_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projectteam_ActivityPointers"></a> msdyn_projectteam_ActivityPointers
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projectteam Entity [msdyn_projectteam_ActivityPointers](msdyn_projectteam.md#BKMK_msdyn_projectteam_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreement_ActivityPointers"></a> msdyn_agreement_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_agreement Entity [msdyn_agreement_ActivityPointers](msdyn_agreement.md#BKMK_msdyn_agreement_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingdate_ActivityPointers"></a> msdyn_agreementbookingdate_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingdate Entity [msdyn_agreementbookingdate_ActivityPointers](msdyn_agreementbookingdate.md#BKMK_msdyn_agreementbookingdate_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingincident_ActivityPointers"></a> msdyn_agreementbookingincident_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingincident Entity [msdyn_agreementbookingincident_ActivityPointers](msdyn_agreementbookingincident.md#BKMK_msdyn_agreementbookingincident_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingproduct_ActivityPointers"></a> msdyn_agreementbookingproduct_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingproduct Entity [msdyn_agreementbookingproduct_ActivityPointers](msdyn_agreementbookingproduct.md#BKMK_msdyn_agreementbookingproduct_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingservice_ActivityPointers"></a> msdyn_agreementbookingservice_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingservice Entity [msdyn_agreementbookingservice_ActivityPointers](msdyn_agreementbookingservice.md#BKMK_msdyn_agreementbookingservice_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingservicetask_ActivityPointers"></a> msdyn_agreementbookingservicetask_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingservicetask Entity [msdyn_agreementbookingservicetask_ActivityPointers](msdyn_agreementbookingservicetask.md#BKMK_msdyn_agreementbookingservicetask_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingsetup_ActivityPointers"></a> msdyn_agreementbookingsetup_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingsetup Entity [msdyn_agreementbookingsetup_ActivityPointers](msdyn_agreementbookingsetup.md#BKMK_msdyn_agreementbookingsetup_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicedate_ActivityPointers"></a> msdyn_agreementinvoicedate_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicedate Entity [msdyn_agreementinvoicedate_ActivityPointers](msdyn_agreementinvoicedate.md#BKMK_msdyn_agreementinvoicedate_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoiceproduct_ActivityPointers"></a> msdyn_agreementinvoiceproduct_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoiceproduct Entity [msdyn_agreementinvoiceproduct_ActivityPointers](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_agreementinvoiceproduct_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicesetup_ActivityPointers"></a> msdyn_agreementinvoicesetup_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicesetup Entity [msdyn_agreementinvoicesetup_ActivityPointers](msdyn_agreementinvoicesetup.md#BKMK_msdyn_agreementinvoicesetup_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingtimestamp_ActivityPointers"></a> msdyn_bookingtimestamp_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_bookingtimestamp Entity [msdyn_bookingtimestamp_ActivityPointers](msdyn_bookingtimestamp.md#BKMK_msdyn_bookingtimestamp_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_customerasset_ActivityPointers"></a> msdyn_customerasset_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_customerasset Entity [msdyn_customerasset_ActivityPointers](msdyn_customerasset.md#BKMK_msdyn_customerasset_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_fieldservicesetting_ActivityPointers"></a> msdyn_fieldservicesetting_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_fieldservicesetting Entity [msdyn_fieldservicesetting_ActivityPointers](msdyn_fieldservicesetting.md#BKMK_msdyn_fieldservicesetting_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypecharacteristic_ActivityPointers"></a> msdyn_incidenttypecharacteristic_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypecharacteristic Entity [msdyn_incidenttypecharacteristic_ActivityPointers](msdyn_incidenttypecharacteristic.md#BKMK_msdyn_incidenttypecharacteristic_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypeproduct_ActivityPointers"></a> msdyn_incidenttypeproduct_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypeproduct Entity [msdyn_incidenttypeproduct_ActivityPointers](msdyn_incidenttypeproduct.md#BKMK_msdyn_incidenttypeproduct_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypeservice_ActivityPointers"></a> msdyn_incidenttypeservice_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypeservice Entity [msdyn_incidenttypeservice_ActivityPointers](msdyn_incidenttypeservice.md#BKMK_msdyn_incidenttypeservice_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryadjustment_ActivityPointers"></a> msdyn_inventoryadjustment_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryadjustment Entity [msdyn_inventoryadjustment_ActivityPointers](msdyn_inventoryadjustment.md#BKMK_msdyn_inventoryadjustment_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryadjustmentproduct_ActivityPointers"></a> msdyn_inventoryadjustmentproduct_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryadjustmentproduct Entity [msdyn_inventoryadjustmentproduct_ActivityPointers](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_inventoryadjustmentproduct_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryjournal_ActivityPointers"></a> msdyn_inventoryjournal_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryjournal Entity [msdyn_inventoryjournal_ActivityPointers](msdyn_inventoryjournal.md#BKMK_msdyn_inventoryjournal_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventorytransfer_ActivityPointers"></a> msdyn_inventorytransfer_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_inventorytransfer Entity [msdyn_inventorytransfer_ActivityPointers](msdyn_inventorytransfer.md#BKMK_msdyn_inventorytransfer_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_payment_ActivityPointers"></a> msdyn_payment_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_payment Entity [msdyn_payment_ActivityPointers](msdyn_payment.md#BKMK_msdyn_payment_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentdetail_ActivityPointers"></a> msdyn_paymentdetail_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentdetail Entity [msdyn_paymentdetail_ActivityPointers](msdyn_paymentdetail.md#BKMK_msdyn_paymentdetail_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentmethod_ActivityPointers"></a> msdyn_paymentmethod_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentmethod Entity [msdyn_paymentmethod_ActivityPointers](msdyn_paymentmethod.md#BKMK_msdyn_paymentmethod_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentterm_ActivityPointers"></a> msdyn_paymentterm_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentterm Entity [msdyn_paymentterm_ActivityPointers](msdyn_paymentterm.md#BKMK_msdyn_paymentterm_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_postalcode_ActivityPointers"></a> msdyn_postalcode_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_postalcode Entity [msdyn_postalcode_ActivityPointers](msdyn_postalcode.md#BKMK_msdyn_postalcode_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_productinventory_ActivityPointers"></a> msdyn_productinventory_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_productinventory Entity [msdyn_productinventory_ActivityPointers](msdyn_productinventory.md#BKMK_msdyn_productinventory_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorder_ActivityPointers"></a> msdyn_purchaseorder_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorder Entity [msdyn_purchaseorder_ActivityPointers](msdyn_purchaseorder.md#BKMK_msdyn_purchaseorder_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderbill_ActivityPointers"></a> msdyn_purchaseorderbill_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderbill Entity [msdyn_purchaseorderbill_ActivityPointers](msdyn_purchaseorderbill.md#BKMK_msdyn_purchaseorderbill_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderproduct_ActivityPointers"></a> msdyn_purchaseorderproduct_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderproduct Entity [msdyn_purchaseorderproduct_ActivityPointers](msdyn_purchaseorderproduct.md#BKMK_msdyn_purchaseorderproduct_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderreceipt_ActivityPointers"></a> msdyn_purchaseorderreceipt_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderreceipt Entity [msdyn_purchaseorderreceipt_ActivityPointers](msdyn_purchaseorderreceipt.md#BKMK_msdyn_purchaseorderreceipt_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderreceiptproduct_ActivityPointers"></a> msdyn_purchaseorderreceiptproduct_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderreceiptproduct Entity [msdyn_purchaseorderreceiptproduct_ActivityPointers](msdyn_purchaseorderreceiptproduct.md#BKMK_msdyn_purchaseorderreceiptproduct_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseordersubstatus_ActivityPointers"></a> msdyn_purchaseordersubstatus_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseordersubstatus Entity [msdyn_purchaseordersubstatus_ActivityPointers](msdyn_purchaseordersubstatus.md#BKMK_msdyn_purchaseordersubstatus_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingincident_ActivityPointers"></a> msdyn_quotebookingincident_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingincident Entity [msdyn_quotebookingincident_ActivityPointers](msdyn_quotebookingincident.md#BKMK_msdyn_quotebookingincident_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingproduct_ActivityPointers"></a> msdyn_quotebookingproduct_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingproduct Entity [msdyn_quotebookingproduct_ActivityPointers](msdyn_quotebookingproduct.md#BKMK_msdyn_quotebookingproduct_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingservice_ActivityPointers"></a> msdyn_quotebookingservice_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingservice Entity [msdyn_quotebookingservice_ActivityPointers](msdyn_quotebookingservice.md#BKMK_msdyn_quotebookingservice_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingservicetask_ActivityPointers"></a> msdyn_quotebookingservicetask_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingservicetask Entity [msdyn_quotebookingservicetask_ActivityPointers](msdyn_quotebookingservicetask.md#BKMK_msdyn_quotebookingservicetask_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rma_ActivityPointers"></a> msdyn_rma_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_rma Entity [msdyn_rma_ActivityPointers](msdyn_rma.md#BKMK_msdyn_rma_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmaproduct_ActivityPointers"></a> msdyn_rmaproduct_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_rmaproduct Entity [msdyn_rmaproduct_ActivityPointers](msdyn_rmaproduct.md#BKMK_msdyn_rmaproduct_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmareceipt_ActivityPointers"></a> msdyn_rmareceipt_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_rmareceipt Entity [msdyn_rmareceipt_ActivityPointers](msdyn_rmareceipt.md#BKMK_msdyn_rmareceipt_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmareceiptproduct_ActivityPointers"></a> msdyn_rmareceiptproduct_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_rmareceiptproduct Entity [msdyn_rmareceiptproduct_ActivityPointers](msdyn_rmareceiptproduct.md#BKMK_msdyn_rmareceiptproduct_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmasubstatus_ActivityPointers"></a> msdyn_rmasubstatus_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_rmasubstatus Entity [msdyn_rmasubstatus_ActivityPointers](msdyn_rmasubstatus.md#BKMK_msdyn_rmasubstatus_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtv_ActivityPointers"></a> msdyn_rtv_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_rtv Entity [msdyn_rtv_ActivityPointers](msdyn_rtv.md#BKMK_msdyn_rtv_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtvproduct_ActivityPointers"></a> msdyn_rtvproduct_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_rtvproduct Entity [msdyn_rtvproduct_ActivityPointers](msdyn_rtvproduct.md#BKMK_msdyn_rtvproduct_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtvsubstatus_ActivityPointers"></a> msdyn_rtvsubstatus_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_rtvsubstatus Entity [msdyn_rtvsubstatus_ActivityPointers](msdyn_rtvsubstatus.md#BKMK_msdyn_rtvsubstatus_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_shipvia_ActivityPointers"></a> msdyn_shipvia_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_shipvia Entity [msdyn_shipvia_ActivityPointers](msdyn_shipvia.md#BKMK_msdyn_shipvia_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timeoffrequest_ActivityPointers"></a> msdyn_timeoffrequest_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_timeoffrequest Entity [msdyn_timeoffrequest_ActivityPointers](msdyn_timeoffrequest.md#BKMK_msdyn_timeoffrequest_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_warehouse_ActivityPointers"></a> msdyn_warehouse_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_warehouse Entity [msdyn_warehouse_ActivityPointers](msdyn_warehouse.md#BKMK_msdyn_warehouse_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorder_ActivityPointers"></a> msdyn_workorder_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_workorder Entity [msdyn_workorder_ActivityPointers](msdyn_workorder.md#BKMK_msdyn_workorder_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workordercharacteristic_ActivityPointers"></a> msdyn_workordercharacteristic_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_workordercharacteristic Entity [msdyn_workordercharacteristic_ActivityPointers](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderincident_ActivityPointers"></a> msdyn_workorderincident_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderincident Entity [msdyn_workorderincident_ActivityPointers](msdyn_workorderincident.md#BKMK_msdyn_workorderincident_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderproduct_ActivityPointers"></a> msdyn_workorderproduct_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderproduct Entity [msdyn_workorderproduct_ActivityPointers](msdyn_workorderproduct.md#BKMK_msdyn_workorderproduct_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderresourcerestriction_ActivityPointers"></a> msdyn_workorderresourcerestriction_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderresourcerestriction Entity [msdyn_workorderresourcerestriction_ActivityPointers](msdyn_workorderresourcerestriction.md#BKMK_msdyn_workorderresourcerestriction_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservice_ActivityPointers"></a> msdyn_workorderservice_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservice Entity [msdyn_workorderservice_ActivityPointers](msdyn_workorderservice.md#BKMK_msdyn_workorderservice_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservicetask_ActivityPointers"></a> msdyn_workorderservicetask_ActivityPointers
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_ActivityPointers](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_ActivityPointers) One-To-Many relationship.
-
-### <a name="BKMK_interactionforemail_ActivityPointers"></a> interactionforemail_ActivityPointers
-
-See interactionforemail Entity [interactionforemail_ActivityPointers](interactionforemail.md#BKMK_interactionforemail_ActivityPointers) One-To-Many relationship.
+See the [msdyn_postalbum_ActivityPointers](msdyn_postalbum.md#BKMK_msdyn_postalbum_ActivityPointers) one-to-many relationship for the [msdyn_postalbum](msdyn_postalbum.md) entity.
 
 ### <a name="BKMK_KnowledgeBaseRecord_ActivityPointers"></a> KnowledgeBaseRecord_ActivityPointers
 
-See knowledgebaserecord Entity [KnowledgeBaseRecord_ActivityPointers](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_ActivityPointers) One-To-Many relationship.
+See the [KnowledgeBaseRecord_ActivityPointers](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_ActivityPointers) one-to-many relationship for the [knowledgebaserecord](knowledgebaserecord.md) entity.
 
 ### <a name="BKMK_KnowledgeArticle_ActivityPointers"></a> KnowledgeArticle_ActivityPointers
 
-See knowledgearticle Entity [KnowledgeArticle_ActivityPointers](knowledgearticle.md#BKMK_KnowledgeArticle_ActivityPointers) One-To-Many relationship.
+See the [KnowledgeArticle_ActivityPointers](knowledgearticle.md#BKMK_KnowledgeArticle_ActivityPointers) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### <a name="BKMK_activitypointer_sendermailboxid_mailbox"></a> activitypointer_sendermailboxid_mailbox
 
-See mailbox Entity [activitypointer_sendermailboxid_mailbox](mailbox.md#BKMK_activitypointer_sendermailboxid_mailbox) One-To-Many relationship.
+See the [activitypointer_sendermailboxid_mailbox](mailbox.md#BKMK_activitypointer_sendermailboxid_mailbox) one-to-many relationship for the [mailbox](mailbox.md) entity.
 
 ### <a name="BKMK_lk_activitypointer_createdonbehalfby"></a> lk_activitypointer_createdonbehalfby
 
-See systemuser Entity [lk_activitypointer_createdonbehalfby](systemuser.md#BKMK_lk_activitypointer_createdonbehalfby) One-To-Many relationship.
+See the [lk_activitypointer_createdonbehalfby](systemuser.md#BKMK_lk_activitypointer_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_Contact_ActivityPointers"></a> Contact_ActivityPointers
 
-See contact Entity [Contact_ActivityPointers](contact.md#BKMK_Contact_ActivityPointers) One-To-Many relationship.
+See the [Contact_ActivityPointers](contact.md#BKMK_Contact_ActivityPointers) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_lk_activitypointer_modifiedonbehalfby"></a> lk_activitypointer_modifiedonbehalfby
 
-See systemuser Entity [lk_activitypointer_modifiedonbehalfby](systemuser.md#BKMK_lk_activitypointer_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_activitypointer_modifiedonbehalfby](systemuser.md#BKMK_lk_activitypointer_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_ActivityPointer"></a> TransactionCurrency_ActivityPointer
 
-See transactioncurrency Entity [TransactionCurrency_ActivityPointer](transactioncurrency.md#BKMK_TransactionCurrency_ActivityPointer) One-To-Many relationship.
+See the [TransactionCurrency_ActivityPointer](transactioncurrency.md#BKMK_TransactionCurrency_ActivityPointer) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_sla_activitypointer"></a> sla_activitypointer
 
-See sla Entity [sla_activitypointer](sla.md#BKMK_sla_activitypointer) One-To-Many relationship.
+See the [sla_activitypointer](sla.md#BKMK_sla_activitypointer) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_business_unit_activitypointer"></a> business_unit_activitypointer
 
-See businessunit Entity [business_unit_activitypointer](businessunit.md#BKMK_business_unit_activitypointer) One-To-Many relationship.
+See the [business_unit_activitypointer](businessunit.md#BKMK_business_unit_activitypointer) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_Account_ActivityPointers"></a> Account_ActivityPointers
 
-See account Entity [Account_ActivityPointers](account.md#BKMK_Account_ActivityPointers) One-To-Many relationship.
+See the [Account_ActivityPointers](account.md#BKMK_Account_ActivityPointers) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_manualsla_activitypointer"></a> manualsla_activitypointer
 
-See sla Entity [manualsla_activitypointer](sla.md#BKMK_manualsla_activitypointer) One-To-Many relationship.
+See the [manualsla_activitypointer](sla.md#BKMK_manualsla_activitypointer) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_team_activity"></a> team_activity
 
-See team Entity [team_activity](team.md#BKMK_team_activity) One-To-Many relationship.
+See the [team_activity](team.md#BKMK_team_activity) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_lk_activitypointer_modifiedby"></a> lk_activitypointer_modifiedby
 
-See systemuser Entity [lk_activitypointer_modifiedby](systemuser.md#BKMK_lk_activitypointer_modifiedby) One-To-Many relationship.
+See the [lk_activitypointer_modifiedby](systemuser.md#BKMK_lk_activitypointer_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_activitypointer_createdby"></a> lk_activitypointer_createdby
 
-See systemuser Entity [lk_activitypointer_createdby](systemuser.md#BKMK_lk_activitypointer_createdby) One-To-Many relationship.
+See the [lk_activitypointer_createdby](systemuser.md#BKMK_lk_activitypointer_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_user_activity"></a> user_activity
 
-See systemuser Entity [user_activity](systemuser.md#BKMK_user_activity) One-To-Many relationship.
+See the [user_activity](systemuser.md#BKMK_user_activity) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.activitypointer?text=activitypointer EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

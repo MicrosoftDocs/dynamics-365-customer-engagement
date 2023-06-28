@@ -5,7 +5,6 @@ ms.date: 11/12/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -23,12 +22,11 @@ searchScope:
 Add all items to the campaign that your organization needs in this marketing context. Usually you need to add marketing lists, but you might also want to refer campaigns to products and related campaigns, or you might want to add sales literature that documents sales procedures.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Add product list, product, or sales literature to a campaign
 

@@ -1,5 +1,5 @@
 ---
-title: "Help for Dynamics 365 Customer Engagement (on-premises)"
+title: "Help for Dynamics 365 Customer Engagement (on-premises), version 9.x"
 description: "Find all the info you need to work with Dynamics 365 Customer Engagement (on-premises), version 9.1. Learn about deploying, customizing, reporting, and more."
 ms.custom: on-premises
 ms.date: 06/07/2021
@@ -8,7 +8,6 @@ ms.reviewer: "kvivek"
 ms.topic: overview
 author: "kvivek"
 ms.author: "kvivek"
-manager: "annbe"
 ---
 # Microsoft Dynamics 365 Customer Engagement (on-premises) Help, version 9.x
 
@@ -21,11 +20,11 @@ Dynamics 365 Customer Engagement (on-premises) is a customer relationship manage
 Dynamics 365 Customer Engagement (on-premises), version 9.1 update introduces many feature enhancements designed to empower your marketing, sales, and customer service teams. For a list of new features available with this update, see [New features in Dynamics 365 Customer Engagement (on-premises), version 9.x](whats-new.md).
 
 > [!NOTE]
-> Dynamics 365 Customer Engagement (on-premises) shares shares many features in common with Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Power Apps, and Microsoft Dataverse.<br/>To avoid duplicating the common information between Customer Engagement (on-premises) and other documentation, you will find a lot of references and links throughout this guide pointing to the common information in the respective feature's documentation.
+> Dynamics 365 Customer Engagement (on-premises) shares many features in common with Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Power Apps, and Microsoft Dataverse.<br/>To avoid duplicating the common information between Customer Engagement (on-premises) and other documentation, you will find a lot of references and links throughout this guide pointing to the common information in the respective feature's documentation.
 
 To view information about Dynamics 365 Customer Engagement (on-premises), version 9.0, select 9.0 from the **Version** selector located above the left navigation pane.
 
-![Version selector on Microsoft Docs.](deploy/media/docs-version-picker.png "Version selector on Microsoft Docs")
+![Screenshot of the version selector.](deploy/media/docs-version-picker.png "Version selector")
 
 ::: moniker-end
 
@@ -52,7 +51,7 @@ To avoid duplicating the common information between Customer Engagement (on-prem
 
 ## Documentation for previous version
 
-Documentation for previous version (8.x and earlier) is available here: </previous-versions/dynamics/>.
+Documentation for previous version (8.x and earlier) is available here: [https://learn.microsoft.com/previous-versions/dynamics](/previous-versions/dynamics).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

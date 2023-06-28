@@ -1,16 +1,16 @@
 ---
 title: "Sample: Work with views (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to perform various actions on views. "
-ms.custom: 
+ms.custom:
 ms.date: 10/31/2017
 ms.reviewer: pehecke
 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: samples
-applies_to: 
+ms.suite:
+ms.tgt_pltfrm:
+ms.topic: sample
+applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
-helpviewer_keywords: 
+helpviewer_keywords:
   - working with views sample
   - performing actions on views sample
   - sample for performing actions on views
@@ -20,14 +20,13 @@ ms.assetid: bb59d373-0d8c-48c0-86e4-bc7ff6d240ce
 caps.latest.revision: 13
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
-search.audienceType: 
+search.audienceType:
   - developer
-
 ---
+
 # Sample: Work with views
 
-This sample shows how to perform various actions on views.  You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/WorkWithViews). 
+This sample shows how to perform various actions on views. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/WorkWithViews).
 
 [!include[cc-sample-note](../includes/cc-sample-note.md)]
 
@@ -56,11 +55,10 @@ Checks for the current version of the org.
 ### Clean up
 
 Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
- 
-  
-### See also  
- [Customize Entity Views in Microsoft Dynamics 365 Customer Engagement](customize-entity-views.md)    
- [SavedQuery Entity](../entities/savedquery.md)
 
+### See also
+
+[Customize Entity Views in Microsoft Dynamics 365 Customer Engagement](customize-entity-views.md)  
+ [SavedQuery Entity](../entities/savedquery.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

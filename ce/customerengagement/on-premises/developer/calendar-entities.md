@@ -1,5 +1,6 @@
 ---
 title: "Calendar entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: Learn about calendar entities and the two types of calendar rules for Dynamics 365 Customer Engagement (on-premises).
 ms.custom: 
 ms.date: 10/10/2018
 ms.reviewer: pehecke
@@ -13,7 +14,6 @@ ms.assetid: aee14c98-38c7-4c47-850d-74ccc630735b
 caps.latest.revision: 21
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

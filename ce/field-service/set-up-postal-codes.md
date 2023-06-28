@@ -1,38 +1,52 @@
 ---
-title: "Set up postal codes (Dynamics 365 Field Service) | MicrosoftDocs"
-description: Learn how to set up postal codes and relate them to territories in Dynamics 365 Field Service
-ms.date: 09/30/2017
-ms.reviewer: krbjoran
-
+title: Set up postal codes
+description: Learn how to set up postal codes and relate them to territories in Dynamics 365 Field Service.
+ms.date: 09/22/2022
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: ryanchen8
+ms.author: chenryan
 ---
-# Set up postal codes and relate them to service territories in Dynamics 365 Field Service
+# Create and manage postal codes
 
-Creating postal code records and relating them to service territories lets an account be automatically assigned to a service territory when the account address is entered. When a user tabs out of the postal code field on the account record form, the system automatically populates the service territory field if it finds a match to the postal code.  
+Create postal code records to automatically assign accounts to a [service territory](set-up-territories.md). Enter the address on the [account form](accounts.md) and the system automatically populates the service territory if the postal code matches.  
   
- Postal codes can be assigned to territories, but it is not necessary for the territories feature to work.  
-  
-> [!NOTE]
->  You can't have the same postal code assigned to multiple territories.  
-  
-1.  From the main menu, go to **Field Service** > **Administration**, and then choose **Postal Codes**.  
-  
-2.  On the **Postal Codes** screen, select **+New** in the upper-left corner.  
-  
-     Use the tooltips to help fill in your information, and then select **Save**.  
-  
-### See also    
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Set up territories](../field-service/set-up-territories.md)   
- [Set up booking rules](../field-service/set-up-booking-rules.md)   
- [Set up booking statuses](../field-service/set-up-booking-statuses.md)<br>
- [User's Guide](../field-service/user-guide.md)
+Postal codes relate to territories. However, they aren't required for the territories feature to work.
 
+:::image type="content" source="media/work-order-territory-postal-codes.png" alt-text="Screenshot of a territory entity showing postal codes under the related tab.":::
+  
+You can't assign a postal code to multiple territories.  
 
+## Create a postal code
+  
+1. In **Field Service**, open the **Settings** area.
+
+1. In the **General** section, select **Postal Codes**.
+  
+1. Select **New** to create a postal code record.
+
+   - **Name**: Enter the postal code.
+   - **Service Territory**: Choose an existing territory or create one.
+  
+1. Select **Save**.
+
+## Edit a postal code
+
+1. In **Field Service**, open the **Settings** area.
+
+1. In the **General** section, select **Postal Codes**.
+
+1. Select the postal code you want to change and edit the record. You can also select multiple records and select **Edit** if you want to change the territory in bulk.
+
+1. Select **Save**.
+
+## Delete a postal code
+
+1. In **Field Service**, open the **Settings** area.
+
+1. In the **General** section, select **Postal Codes**.
+
+1. Select the postal code you want to remove. You can also select multiple records for deletion.
+
+1. Select **Delete** and confirm the deletion.
+  
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

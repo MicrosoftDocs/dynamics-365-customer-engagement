@@ -1,5 +1,6 @@
 ---
 title: "Integrate Dynamics 365 Customer Engagement with SharePoint (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: Learn about the two types of integration that Dynamics 365 Customer Engagement (on-premises) supports with Microsoft SharePoint. 
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
@@ -13,7 +14,6 @@ ms.assetid: fc7f8994-a531-48d1-8495-3f8663f6c3e3
 caps.latest.revision: 52
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
 search.audienceType: 
   - developer
 

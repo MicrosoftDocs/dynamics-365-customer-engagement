@@ -1,3 +1,4 @@
-Add the subscriber to the events.
+Adds the subscriber to the events.
 
-[!INCLUDE[footer-include](../../../../../../includes/footer-banner.md)]
+> [!Note]
+> This API can be used on both the widget and Unified Interface page.

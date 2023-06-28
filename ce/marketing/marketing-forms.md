@@ -1,21 +1,16 @@
 ---
 title: "Set up and manage marketing forms for use in marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about various types of marketing forms and how to create them in Dynamics 365 Marketing."
-ms.date: 07/22/2021
-
+ms.date: 12/22/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create, view, and manage marketing forms
@@ -146,7 +141,7 @@ You can also collect form data, but choose not to create new contacts or update 
 > [!IMPORTANT]
 > Forms created without updating contacts or leads cannot be used in customer journeys, as the contact or lead will not be mapped and the journey cannot provide a matching strategy. The submission record created can, however, be exported to Excel, or be linked to update any entity record via a Workflow or a Flow.
 
-To prevent mapping form data to contacts or leads, go to **Settings** > **Advanced settings** > **Marketing settings** > **Landing pages** > **Default Marketing page configuration** and switch on **Allow for form submissions without update to contact/lead**.
+To prevent mapping form data to contacts or leads, go to **Settings** > **Email marketing** > **Landing pages** > **Default Marketing page configuration** and switch on **Allow form submissions without updating the contact or lead**.
 
 ![Enable allowing form submissions without updating contact/lead.](media/marketing-forms-allow-no-update.png "Enable allowing form submissions without updating contact/lead")
 
@@ -157,6 +152,7 @@ After you enable allowing form submissions without updating contacts or leads, y
 When a landing page type form is submitted with **Update contact/leads** set to **No update**:
 
 - Contacts and leads are not created or updated, so the **Lead matching strategy** and **Contact matching strategy** setting is not required and has no effect.
+- The form submission is always stored, regardless of the **Store form submission** settings in the summary.
 - The system generates a form-submitted interaction record with the field submission values, but leaves the lead ID null. The contact ID will also be left null unless it is available from previous interactions such as a form submission or email link click.
 - The no update setting only works with landing page form types.
 - While not updating any contact or lead, no update enables selection of form fields of entities other than a contact or lead. This provides users with a rich selection of form fields and allows the possibility to use the option sets under these fields. The no update setting does not map the fields or create any matching strategy, and works as a prototype selection for data collection purposes only.
@@ -253,6 +249,5 @@ Once your form is part of a live marketing page, it will start to collect inform
 [Design your digital content](design-digital-content.md)  
 [Design elements reference](content-blocks-reference.md)  
 [Create input fields for forms](marketing-fields.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

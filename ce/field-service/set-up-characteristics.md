@@ -1,66 +1,77 @@
 ---
-title: "Set up characteristics (Dynamics 365 Field Service) | MicrosoftDocs"
+title: Specify skills for resources
 description: Learn how to set up characteristics in Dynamics 365 Field Service
-ms.date: 09/10/2019
-ms.reviewer: krbjoran
-
+ms.date: 09/26/2022
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: ryanchen8
+ms.author: chenryan
 ---
-# Specify skills for resources in Dynamics 365 Field Service
 
-Characteristics are skills that resources possess. For example, they can be used to indicate a license or certification is needed for certain types of work.  
+# Specify skills for resources
+
+Characteristics are skills or attributes that resources possess. For example, they can be used to indicate a license or certification is needed for certain types of work.  
   
- Adding characteristics to work orders allows you to document which knowledge or expertise is needed by a resource to complete the job, and to filter the list of available resources to the resources that have the matching characteristics when scheduling the work order.   
+Add characteristics to work orders to list skills a resource needs to complete the job. It helps finding the right resources that have the matching characteristics when scheduling the work order.
   
-<a name="BKMK_AddCharacteristics"></a>   
 ## Add characteristics  
   
-1.  From the main menu, open **Resource Scheduling** and then choose **Settings**.  
+1. In Resource Scheduling, change to the **Settings** area.
+
+1. In the **Resource** section, go to **Skills**.
+
+1. Select **New** to add a characteristic.
+
+1. Provide a **Name** and an optional **Description**.
+
+1. Choose a **Characteristic Type**. You can choose between two options:
+
+   - Skill: Classifies the characteristic as a skill that is rated with a [proficiency level](#create-a-proficiency-model).
+   - Certification: Choose between boolean true/false options for the characteristic.
+
+## Create a proficiency model
+
+You can define rating values in a proficiency model that's used to indicate the skill level of a resource.
+
+1. In Resource Scheduling, change to the **Settings** area.
+
+1. In the **Resource** section, go to **Proficiency Models**.
   
-2.  Under the **Resource** section, choose **Skills.**  
-  
-3.  Select **New** to add characteristics.
-  
-<a name="BKMK_AssignCharacteristicsToResources"></a>   
+1. Select **New** to create a new model or select an existing model.
+
+1. Provide a **Name** for the rating model.
+
+1. Set a minimum and maximum rating value and **Save** the rating model.
+
+1. In the **Rating Values** section, select **New Rating Value**.
+
+1. Provide a **Name** and a **Value**.
+
+1. **Save & Close** the rating value. Add more rating values for your rating model.
+
 ## Assign characteristics to resources  
   
-1. From the main menu, go to **Field Service** > **Administration**, and then choose **Bookable Resources**. You'll then see the **Active Bookable Resources** screen, where there's a list of all available resources in the system.  
+1. In Field Service, change to the **Resources** area.
+
+1. In the **Resource** section, go to **Resources**.
   
-   **Note**: More information: [Set up bookable resources](../field-service/set-up-bookable-resources.md)  
+1. From the list, select a [bookable resource name](set-up-bookable-resources.md).  
   
-2. From the list, select a bookable resource name.  
+1. In the **Field Service** tab, in the **Characteristics** section, select **New Bookable Resource Characteristic**.  
   
-3. Go to the **Characteristics** section, and on the left, select **+Add Bookable Resource Characteristics record**.  
+1. Find and select the required **Characteristics** and add a **Rating Value** for the resource.  
   
-4. Find and select the required **Characteristics** and add a **Rating Value** for the resource.  
+1. Select **Save & Close**.  
   
-5. Select **Save & Close**.  
-  
-<a name="BKMK_AssignCharacteristicsToWorkOrders"></a>   
 ## Assign characteristics to work orders  
   
-1.  Open a work order.  More information: [Create a work order](../field-service/create-work-order.md)  
+1. Open a [work order](create-work-order.md).
   
-2.  From the top bar, select the drop-down arrow next to the work order number, and then select **Characteristics**.  
+1. Select **Related** > **Characteristics**.  
   
-3.  On the **Work Order Characteristics Associated View** screen, select **+Add new Work Order Characteristics to this record**.  
+1. On the **Requirement Characteristic Associated View** view, select **Add New Requirement Characteristic**.  
   
-4.  Find and select the required **Characteristics** and add a **Rating Value**.  
+1. Choose the **Characteristics**, an optional **Rating Value** and the related **Resource Requirement**.
   
-5.  Select **Save & Close**.  
+1. Select **Save & Close**.
   
-### See also    
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
- [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
- [Set up resource pay types](../field-service/set-up-resource-pay-types.md)
- [User's Guide](../field-service/user-guide.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

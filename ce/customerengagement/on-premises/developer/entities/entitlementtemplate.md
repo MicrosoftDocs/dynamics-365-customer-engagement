@@ -1,18 +1,16 @@
 ---
-title: "EntitlementTemplate Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "EntitlementTemplate entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the EntitlementTemplate entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# EntitlementTemplate Entity Reference
+
+# EntitlementTemplate entity reference
 
 Contains predefined customer support terms that can be used to created entitlements for customers.
 
@@ -21,15 +19,15 @@ Contains predefined customer support terms that can be used to created entitleme
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/entitlementtemplates<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/entitlementtemplates(*entitlementtemplateid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/entitlementtemplates(*entitlementtemplateid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/entitlementtemplates<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/entitlementtemplates(*entitlementtemplateid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -56,7 +54,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [Description](#BKMK_Description)
 - [EndDate](#BKMK_EndDate)
 - [EntitlementTemplateId](#BKMK_EntitlementTemplateId)
-- [entitytype](#BKMK_entitytype)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [KbAccessLevel](#BKMK_KbAccessLevel)
 - [Name](#BKMK_Name)
@@ -82,12 +79,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### AllocationTypeCode Options
+#### AllocationTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Number of cases|
-|1|Number of hours|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Number of cases|Number of cases|
+|1|Number of hours|Number of hours|
 
 
 
@@ -103,12 +100,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### DecreaseRemainingOn Options
+#### DecreaseRemainingOn Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Case Resolution|
-|1|Case Creation|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Case Resolution||
+|1|Case Creation||
 
 
 
@@ -157,29 +154,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_entitytype"></a> entitytype
-
-**Added by**: Service Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Entity type for which the entitlement template applies|
-|DisplayName|Entity Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|entitytype|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### entitytype Options
-
-|Value|Label|
-|-----|-----|
-|0|Case|
-|192350000|Work Order|
-
-
-
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
 |Property|Value|
@@ -209,13 +183,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### KbAccessLevel Options
+#### KbAccessLevel Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Standard|
-|1|Premium|
-|2|None|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Standard|Standard|
+|1|Premium|Premium|
+|2|None|None|
 
 
 
@@ -263,14 +237,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### RestrictCaseCreation Options
+#### RestrictCaseCreation Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -729,15 +703,13 @@ Listed by **SchemaName**.
 - [entitlementtemplate_OpportunityCloses](#BKMK_entitlementtemplate_OpportunityCloses)
 - [entitlementtemplate_OrderCloses](#BKMK_entitlementtemplate_OrderCloses)
 - [entitlementtemplate_QuoteCloses](#BKMK_entitlementtemplate_QuoteCloses)
-- [entitlementtemplate_msdyn_bookingalerts](#BKMK_entitlementtemplate_msdyn_bookingalerts)
-- [entitlementtemplate_msdyn_approvals](#BKMK_entitlementtemplate_msdyn_approvals)
 
 
 ### <a name="BKMK_entitlementtemplate_ActivityPointers"></a> entitlementtemplate_ActivityPointers
 
 **Added by**: System Solution Solution
 
-Same as activitypointer entity [entitlementtemplate_ActivityPointers](activitypointer.md#BKMK_entitlementtemplate_ActivityPointers) Many-To-One relationship.
+Same as the [entitlementtemplate_ActivityPointers](activitypointer.md#BKMK_entitlementtemplate_ActivityPointers) many-to-one relationship for the [activitypointer](activitypointer.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -754,7 +726,7 @@ Same as activitypointer entity [entitlementtemplate_ActivityPointers](activitypo
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [EntitlementTemplate_SyncErrors](syncerror.md#BKMK_EntitlementTemplate_SyncErrors) Many-To-One relationship.
+Same as the [EntitlementTemplate_SyncErrors](syncerror.md#BKMK_EntitlementTemplate_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -771,7 +743,7 @@ Same as syncerror entity [EntitlementTemplate_SyncErrors](syncerror.md#BKMK_Enti
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [entitlementtemplate_AsyncOperations](asyncoperation.md#BKMK_entitlementtemplate_AsyncOperations) Many-To-One relationship.
+Same as the [entitlementtemplate_AsyncOperations](asyncoperation.md#BKMK_entitlementtemplate_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -788,7 +760,7 @@ Same as asyncoperation entity [entitlementtemplate_AsyncOperations](asyncoperati
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [EntitlementTemplate_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_EntitlementTemplate_MailboxTrackingFolder) Many-To-One relationship.
+Same as the [EntitlementTemplate_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_EntitlementTemplate_MailboxTrackingFolder) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -805,7 +777,7 @@ Same as mailboxtrackingfolder entity [EntitlementTemplate_MailboxTrackingFolder]
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [entitlementtemplate_ProcessSession](processsession.md#BKMK_entitlementtemplate_ProcessSession) Many-To-One relationship.
+Same as the [entitlementtemplate_ProcessSession](processsession.md#BKMK_entitlementtemplate_ProcessSession) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -822,7 +794,7 @@ Same as processsession entity [entitlementtemplate_ProcessSession](processsessio
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [entitlementtemplate_BulkDeleteFailures](bulkdeletefailure.md#BKMK_entitlementtemplate_BulkDeleteFailures) Many-To-One relationship.
+Same as the [entitlementtemplate_BulkDeleteFailures](bulkdeletefailure.md#BKMK_entitlementtemplate_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -839,7 +811,7 @@ Same as bulkdeletefailure entity [entitlementtemplate_BulkDeleteFailures](bulkde
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [entitlementtemplate_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_entitlementtemplate_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [entitlementtemplate_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_entitlementtemplate_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -856,7 +828,7 @@ Same as principalobjectattributeaccess entity [entitlementtemplate_PrincipalObje
 
 **Added by**: System Solution Solution
 
-Same as appointment entity [entitlementtemplate_Appointments](appointment.md#BKMK_entitlementtemplate_Appointments) Many-To-One relationship.
+Same as the [entitlementtemplate_Appointments](appointment.md#BKMK_entitlementtemplate_Appointments) many-to-one relationship for the [appointment](appointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -873,7 +845,7 @@ Same as appointment entity [entitlementtemplate_Appointments](appointment.md#BKM
 
 **Added by**: System Solution Solution
 
-Same as email entity [entitlementtemplate_Emails](email.md#BKMK_entitlementtemplate_Emails) Many-To-One relationship.
+Same as the [entitlementtemplate_Emails](email.md#BKMK_entitlementtemplate_Emails) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -890,7 +862,7 @@ Same as email entity [entitlementtemplate_Emails](email.md#BKMK_entitlementtempl
 
 **Added by**: System Solution Solution
 
-Same as fax entity [entitlementtemplate_Faxes](fax.md#BKMK_entitlementtemplate_Faxes) Many-To-One relationship.
+Same as the [entitlementtemplate_Faxes](fax.md#BKMK_entitlementtemplate_Faxes) many-to-one relationship for the [fax](fax.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -907,7 +879,7 @@ Same as fax entity [entitlementtemplate_Faxes](fax.md#BKMK_entitlementtemplate_F
 
 **Added by**: System Solution Solution
 
-Same as letter entity [entitlementtemplate_Letters](letter.md#BKMK_entitlementtemplate_Letters) Many-To-One relationship.
+Same as the [entitlementtemplate_Letters](letter.md#BKMK_entitlementtemplate_Letters) many-to-one relationship for the [letter](letter.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -924,7 +896,7 @@ Same as letter entity [entitlementtemplate_Letters](letter.md#BKMK_entitlementte
 
 **Added by**: System Solution Solution
 
-Same as phonecall entity [entitlementtemplate_PhoneCalls](phonecall.md#BKMK_entitlementtemplate_PhoneCalls) Many-To-One relationship.
+Same as the [entitlementtemplate_PhoneCalls](phonecall.md#BKMK_entitlementtemplate_PhoneCalls) many-to-one relationship for the [phonecall](phonecall.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -941,7 +913,7 @@ Same as phonecall entity [entitlementtemplate_PhoneCalls](phonecall.md#BKMK_enti
 
 **Added by**: System Solution Solution
 
-Same as task entity [entitlementtemplate_Tasks](task.md#BKMK_entitlementtemplate_Tasks) Many-To-One relationship.
+Same as the [entitlementtemplate_Tasks](task.md#BKMK_entitlementtemplate_Tasks) many-to-one relationship for the [task](task.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -958,7 +930,7 @@ Same as task entity [entitlementtemplate_Tasks](task.md#BKMK_entitlementtemplate
 
 **Added by**: System Solution Solution
 
-Same as recurringappointmentmaster entity [entitlementtemplate_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_entitlementtemplate_RecurringAppointmentMasters) Many-To-One relationship.
+Same as the [entitlementtemplate_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_entitlementtemplate_RecurringAppointmentMasters) many-to-one relationship for the [recurringappointmentmaster](recurringappointmentmaster.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -975,7 +947,7 @@ Same as recurringappointmentmaster entity [entitlementtemplate_RecurringAppointm
 
 **Added by**: System Solution Solution
 
-Same as socialactivity entity [entitlementtemplate_SocialActivities](socialactivity.md#BKMK_entitlementtemplate_SocialActivities) Many-To-One relationship.
+Same as the [entitlementtemplate_SocialActivities](socialactivity.md#BKMK_entitlementtemplate_SocialActivities) many-to-one relationship for the [socialactivity](socialactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -992,7 +964,7 @@ Same as socialactivity entity [entitlementtemplate_SocialActivities](socialactiv
 
 **Added by**: System Solution Solution
 
-Same as annotation entity [entitlementtemplate_Annotations](annotation.md#BKMK_entitlementtemplate_Annotations) Many-To-One relationship.
+Same as the [entitlementtemplate_Annotations](annotation.md#BKMK_entitlementtemplate_Annotations) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1007,7 +979,7 @@ Same as annotation entity [entitlementtemplate_Annotations](annotation.md#BKMK_e
 
 ### <a name="BKMK_entitlementtemplate_IncidentResolutions"></a> entitlementtemplate_IncidentResolutions
 
-Same as incidentresolution entity [entitlementtemplate_IncidentResolutions](incidentresolution.md#BKMK_entitlementtemplate_IncidentResolutions) Many-To-One relationship.
+Same as the [entitlementtemplate_IncidentResolutions](incidentresolution.md#BKMK_entitlementtemplate_IncidentResolutions) many-to-one relationship for the [incidentresolution](incidentresolution.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1022,7 +994,7 @@ Same as incidentresolution entity [entitlementtemplate_IncidentResolutions](inci
 
 ### <a name="BKMK_entitlementtemplate_ServiceAppointments"></a> entitlementtemplate_ServiceAppointments
 
-Same as serviceappointment entity [entitlementtemplate_ServiceAppointments](serviceappointment.md#BKMK_entitlementtemplate_ServiceAppointments) Many-To-One relationship.
+Same as the [entitlementtemplate_ServiceAppointments](serviceappointment.md#BKMK_entitlementtemplate_ServiceAppointments) many-to-one relationship for the [serviceappointment](serviceappointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1037,7 +1009,7 @@ Same as serviceappointment entity [entitlementtemplate_ServiceAppointments](serv
 
 ### <a name="BKMK_entitlementtemplateid_RelationShip"></a> entitlementtemplateid_RelationShip
 
-Same as entitlement entity [entitlementtemplateid_RelationShip](entitlement.md#BKMK_entitlementtemplateid_RelationShip) Many-To-One relationship.
+Same as the [entitlementtemplateid_RelationShip](entitlement.md#BKMK_entitlementtemplateid_RelationShip) many-to-one relationship for the [entitlement](entitlement.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1052,7 +1024,7 @@ Same as entitlement entity [entitlementtemplateid_RelationShip](entitlement.md#B
 
 ### <a name="BKMK_entitlementtemplate_entitlementchannel_entitlementtemplateid"></a> entitlementtemplate_entitlementchannel_entitlementtemplateid
 
-Same as entitlementtemplatechannel entity [entitlementtemplate_entitlementchannel_entitlementtemplateid](entitlementtemplatechannel.md#BKMK_entitlementtemplate_entitlementchannel_entitlementtemplateid) Many-To-One relationship.
+Same as the [entitlementtemplate_entitlementchannel_entitlementtemplateid](entitlementtemplatechannel.md#BKMK_entitlementtemplate_entitlementchannel_entitlementtemplateid) many-to-one relationship for the [entitlementtemplatechannel](entitlementtemplatechannel.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1069,7 +1041,7 @@ Same as entitlementtemplatechannel entity [entitlementtemplate_entitlementchanne
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [entitlementtemplate_DuplicateMatchingRecord](duplicaterecord.md#BKMK_entitlementtemplate_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [entitlementtemplate_DuplicateMatchingRecord](duplicaterecord.md#BKMK_entitlementtemplate_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1086,7 +1058,7 @@ Same as duplicaterecord entity [entitlementtemplate_DuplicateMatchingRecord](dup
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [entitlementtemplate_DuplicateBaseRecord](duplicaterecord.md#BKMK_entitlementtemplate_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [entitlementtemplate_DuplicateBaseRecord](duplicaterecord.md#BKMK_entitlementtemplate_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1103,7 +1075,7 @@ Same as duplicaterecord entity [entitlementtemplate_DuplicateBaseRecord](duplica
 
 **Added by**: Sales Solution
 
-Same as opportunityclose entity [entitlementtemplate_OpportunityCloses](opportunityclose.md#BKMK_entitlementtemplate_OpportunityCloses) Many-To-One relationship.
+Same as the [entitlementtemplate_OpportunityCloses](opportunityclose.md#BKMK_entitlementtemplate_OpportunityCloses) many-to-one relationship for the [opportunityclose](opportunityclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1120,7 +1092,7 @@ Same as opportunityclose entity [entitlementtemplate_OpportunityCloses](opportun
 
 **Added by**: Sales Solution
 
-Same as orderclose entity [entitlementtemplate_OrderCloses](orderclose.md#BKMK_entitlementtemplate_OrderCloses) Many-To-One relationship.
+Same as the [entitlementtemplate_OrderCloses](orderclose.md#BKMK_entitlementtemplate_OrderCloses) many-to-one relationship for the [orderclose](orderclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1137,7 +1109,7 @@ Same as orderclose entity [entitlementtemplate_OrderCloses](orderclose.md#BKMK_e
 
 **Added by**: Sales Solution
 
-Same as quoteclose entity [entitlementtemplate_QuoteCloses](quoteclose.md#BKMK_entitlementtemplate_QuoteCloses) Many-To-One relationship.
+Same as the [entitlementtemplate_QuoteCloses](quoteclose.md#BKMK_entitlementtemplate_QuoteCloses) many-to-one relationship for the [quoteclose](quoteclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1146,40 +1118,6 @@ Same as quoteclose entity [entitlementtemplate_QuoteCloses](quoteclose.md#BKMK_e
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|entitlementtemplate_QuoteCloses|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_entitlementtemplate_msdyn_bookingalerts"></a> entitlementtemplate_msdyn_bookingalerts
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bookingalert entity [entitlementtemplate_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_entitlementtemplate_msdyn_bookingalerts) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bookingalert|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|entitlementtemplate_msdyn_bookingalerts|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_entitlementtemplate_msdyn_approvals"></a> entitlementtemplate_msdyn_approvals
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_approval entity [entitlementtemplate_msdyn_approvals](msdyn_approval.md#BKMK_entitlementtemplate_msdyn_approvals) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_approval|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|entitlementtemplate_msdyn_approvals|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
@@ -1202,43 +1140,43 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_entitlementtemplate_createdby](systemuser.md#BKMK_lk_entitlementtemplate_createdby) One-To-Many relationship.
+See the [lk_entitlementtemplate_createdby](systemuser.md#BKMK_lk_entitlementtemplate_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_entitlementtemplate_createdonbehalfby"></a> lk_entitlementtemplate_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_entitlementtemplate_createdonbehalfby](systemuser.md#BKMK_lk_entitlementtemplate_createdonbehalfby) One-To-Many relationship.
+See the [lk_entitlementtemplate_createdonbehalfby](systemuser.md#BKMK_lk_entitlementtemplate_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_entitlementtemplate_modifiedby"></a> lk_entitlementtemplate_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_entitlementtemplate_modifiedby](systemuser.md#BKMK_lk_entitlementtemplate_modifiedby) One-To-Many relationship.
+See the [lk_entitlementtemplate_modifiedby](systemuser.md#BKMK_lk_entitlementtemplate_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_entitlementtemplate_modifiedonbehalfby"></a> lk_entitlementtemplate_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_entitlementtemplate_modifiedonbehalfby](systemuser.md#BKMK_lk_entitlementtemplate_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_entitlementtemplate_modifiedonbehalfby](systemuser.md#BKMK_lk_entitlementtemplate_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_entitlementtemplate_organization"></a> entitlementtemplate_organization
 
 **Added by**: System Solution Solution
 
-See organization Entity [entitlementtemplate_organization](organization.md#BKMK_entitlementtemplate_organization) One-To-Many relationship.
+See the [entitlementtemplate_organization](organization.md#BKMK_entitlementtemplate_organization) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_sla_entitlementtemplate"></a> sla_entitlementtemplate
 
 **Added by**: System Solution Solution
 
-See sla Entity [sla_entitlementtemplate](sla.md#BKMK_sla_entitlementtemplate) One-To-Many relationship.
+See the [sla_entitlementtemplate](sla.md#BKMK_sla_entitlementtemplate) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_entitlementtemplate"></a> TransactionCurrency_entitlementtemplate
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [TransactionCurrency_entitlementtemplate](transactioncurrency.md#BKMK_TransactionCurrency_entitlementtemplate) One-To-Many relationship.
+See the [TransactionCurrency_entitlementtemplate](transactioncurrency.md#BKMK_TransactionCurrency_entitlementtemplate) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
@@ -1248,13 +1186,9 @@ Relationship details provided where the EntitlementTemplate entity is the first 
 
 ### <a name="BKMK_product_entitlementtemplate_association"></a> product_entitlementtemplate_association
 
-See product Entity [product_entitlementtemplate_association](product.md#BKMK_product_entitlementtemplate_association) Many-To-Many Relationship.
+See the [product_entitlementtemplate_association](product.md#BKMK_product_entitlementtemplate_association) many-to-many relationship for the [product](product.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.entitlementtemplate?text=entitlementtemplate EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

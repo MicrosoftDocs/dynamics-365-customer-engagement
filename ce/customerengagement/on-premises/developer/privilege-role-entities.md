@@ -18,7 +18,6 @@ helpviewer_keywords:
 ms.assetid: 3b566768-60e2-4c06-bb99-e6b0aacc0bc9
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -31,7 +30,7 @@ A *privilege* is a permission to perform an action on a specific entity type in 
   
  For more information about access levels and roles, see [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 Customer Engagement (on-premises)](security-dev/how-role-based-security-control-access-entities.md).  
   
- The following illustration shows the entity relationships for this area. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Key to Entity Diagrams](key-entity-diagrams.md)  
+ The following illustration shows the entity relationships for this area. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Key to Entity Diagrams](/powerapps/developer/data-platform/use-metadata-generate-entity-diagrams#about-the-diagrams)  
   
  ![Privilege and role entity relationship diagram.](media/role.png "Privilege and role entity relationship diagram")  
   

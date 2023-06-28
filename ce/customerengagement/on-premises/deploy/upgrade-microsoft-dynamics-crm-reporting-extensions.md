@@ -14,7 +14,6 @@ ms.assetid: 46ee23c4-f2d5-4744-83c0-e05f21385346
 caps.latest.revision: 18
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Upgrade Microsoft Dynamics 365 Reporting Extensions
 

@@ -1,23 +1,21 @@
 ---
 title: Configure Dynamics 365 Customer Service | MicrosoftDocs
 description: Configure Dynamics 365 Customer Service.
-ms.date: 12/21/2020
+ms.date: 09/30/2022
 ms.topic: get-started-article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
 
 # Configure Customer Service
+
+[!INCLUDE[cc-oc-admin-csh-deprecation.md](../includes/cc-oc-admin-csh-deprecation.md)]
 
 Use the Customer Service Hub app to set up everything related to customer service, like defining parent-child case hierarchy, creating queues, routing rule sets, rules for automatic case creation, service-level agreements (SLAs), entitlements, and customer service schedules. 
 

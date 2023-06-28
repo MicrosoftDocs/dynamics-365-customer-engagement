@@ -14,7 +14,6 @@ ms.assetid: cb1bb002-8300-43bb-ab75-99e7a9c9c35d
 caps.latest.revision: 11
 author: Mattp123
 ms.author: matp
-manager: amyla
 tags: 
   - MigrationHO
 search.audienceType: 
@@ -59,7 +58,7 @@ Microsoft Dynamics 365 Customer Engagement (on-premises) have a number of capabi
 > [!IMPORTANT]
 >  When you use these tools, we recommend you move or synchronize data during nonbusiness hours.  
   
- If needed, there are many Microsoft partners who can help provide a solution for your specific reporting needs, such as creating an offline copy of the data specifically used for running large reports.  These partners are knowledgeable with the data integration tools available. More information: [Find the right partner](https://dynamics-crm.pinpoint.microsoft.com/companies/search?q=)  
+ If needed, there are many Microsoft partners who can help provide a solution for your specific reporting needs, such as creating an offline copy of the data specifically used for running large reports.  These partners are knowledgeable with the data integration tools available. More information: [Find the right partner](https://dynamics.microsoft.com/partners/find-a-partner/)  
   
 <a name="BKMK_ThirdPartyAdapt"></a>   
 ## Third-party adapters for SSIS  
@@ -68,7 +67,7 @@ Microsoft Dynamics 365 Customer Engagement (on-premises) have a number of capabi
   
 -   [KingswaySoft SSIS Integration Toolkit for Microsoft Dynamics CRM](https://www.kingswaysoft.com/products/ssis-integration-toolkit-for-microsoft-dynamics-crm/)  
   
--   [RSSBus SSIS task for Microsoft Dynamics CRM](https://www.rssbus.com/ssis/mscrm/)  
+-   [RSSBus SSIS task for Microsoft Dynamics CRM](https://www.arcesb.com/)  
   
 -   [Team4 SSIS Connector for Microsoft CRM](https://www.team4.com/ssismicrosoftcrm/index.html)  
   

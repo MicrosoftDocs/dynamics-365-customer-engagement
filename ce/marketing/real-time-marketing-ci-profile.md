@@ -7,25 +7,21 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Use Customer Insights profiles and segments in real-time marketing
 
 Real-time marketing enables you to deeply personalize your customer engagement using transactional, behavioral, and demographic data from [Dynamics 365 Customer Insights](/dynamics365/customer-insights). With Customer Insights data, you can:
 - Target unified Customer Insights customer profiles and segments. This enables you to engage every customer, regardless of whether the customer's data is in Marketing or Customer Insights.
-- Base dynamic content (such as personalized tokens) in emails, SMS, and push notifications on measures such as loyalty status, subscription renewal date, parent account, or any other measure you have captured in the unified customer profile.
+- Base dynamic content (such as personalized dynamic text) in emails, text messages, and push notifications on measures such as loyalty status, subscription renewal date, parent account, or any other measure you have captured in the unified customer profile.
 
 For example, let's say you have an e-commerce website. You capture information about the visitors and shoppers on the website as customer profiles in Customer Insights. You decide you want to target visitors who have abandoned their carts while shopping.
 
-To target visitors with abandoned carts, you first need to define a [custom trigger](real-time-marketing-custom-triggers.md) for any shopper who abandons a cart. You'll need to set the **Data type** field for the trigger's **Customer Data** property to **Profile (Customer Insights)**. You'll then need to set up an [event-based journey](real-time-marketing-event-based-journey.md) using the abandoned cart trigger.
+To target visitors with abandoned carts, you first need to define a [custom trigger](real-time-marketing-custom-triggers.md) for any shopper who abandons a cart. You'll need to set the **Data type** field for the trigger's **Customer Data** property to **Profile (Customer Insights)**. You'll then need to set up a [trigger-based journey](real-time-marketing-trigger-based-journey.md) using the abandoned cart trigger.
 
 > [!div class="mx-imgBorder"]
 > ![Cart custom event screenshot.](media/real-time-marketing-ci-profile-cart-event.png)
@@ -62,3 +58,5 @@ Marketing can automatically discover Customer Insights data and make it availabl
 When using Customer Insights customer profiles in real-time customer journeys, you'll be required to specify which attributes in the profile correspond to the customer’s preferred email and phone number. To eliminate the need for specifying this information every time, you can create default settings that customer journeys will automatically use from that point on.
 
 Learn more: [Audience configuration](real-time-marketing-audience-data.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

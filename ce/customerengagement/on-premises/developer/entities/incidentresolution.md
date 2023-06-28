@@ -1,18 +1,16 @@
 ---
-title: "IncidentResolution Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the IncidentResolution entity."
-ms.date: 04/02/2019
-
+title: "Case Resolution (IncidentResolution)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Case Resolution (IncidentResolution)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# IncidentResolution Entity Reference
+
+# Case Resolution (IncidentResolution)  entity reference
 
 Special type of activity that includes description of the resolution, billing status, and the duration of the case.
 
@@ -21,22 +19,22 @@ Special type of activity that includes description of the resolution, billing st
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/incidentresolutions(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/incidentresolutions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/incidentresolutions(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/incidentresolutions(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/incidentresolutions<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/incidentresolutions(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/incidentresolutions(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -244,13 +242,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Community Options
+#### Community Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Other|
-|1|Facebook|
-|2|Twitter|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Other|Other default|
+|1|Facebook|Facebook item.|
+|2|Twitter|Twitter.|
 
 
 
@@ -281,13 +279,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### DeliveryPriorityCode Options
+#### DeliveryPriorityCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Low|
-|1|Normal|
-|2|High|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Low||
+|1|Normal||
+|2|High||
 
 
 
@@ -396,14 +394,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsBilled Options
+#### IsBilled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -419,14 +417,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsMapiPrivate Options
+#### IsMapiPrivate Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -442,14 +440,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsWorkflowCreated Options
+#### IsWorkflowCreated Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -480,14 +478,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### LeftVoiceMail Options
+#### LeftVoiceMail Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -588,13 +586,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PriorityCode Options
+#### PriorityCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Low|
-|1|Normal|
-|2|High|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Low||
+|1|Normal||
+|2|High||
 
 
 
@@ -776,7 +774,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the Stage.|
-|DisplayName|(Deprecated) Process Stage|
+|DisplayName|Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -797,7 +795,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -819,7 +817,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -926,7 +924,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -1243,15 +1241,15 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### InstanceTypeCode Options
+#### InstanceTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Not Recurring|
-|1|Recurring Master|
-|2|Recurring Instance|
-|3|Recurring Exception|
-|4|Recurring Future Exception|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Not Recurring||
+|1|Recurring Master||
+|2|Recurring Instance||
+|3|Recurring Exception||
+|4|Recurring Future Exception||
 
 
 
@@ -1267,14 +1265,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsRegularActivity Options
+#### IsRegularActivity Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1722,7 +1720,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as activityparty entity [incidentresolution_activity_parties](activityparty.md#BKMK_incidentresolution_activity_parties) Many-To-One relationship.
+Same as the [incidentresolution_activity_parties](activityparty.md#BKMK_incidentresolution_activity_parties) many-to-one relationship for the [activityparty](activityparty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1739,7 +1737,7 @@ Same as activityparty entity [incidentresolution_activity_parties](activityparty
 
 **Added by**: Marketing Solution
 
-Same as campaignresponse entity [CampaignResponse_IncidentResolutions](campaignresponse.md#BKMK_CampaignResponse_IncidentResolutions) Many-To-One relationship.
+Same as the [CampaignResponse_IncidentResolutions](campaignresponse.md#BKMK_CampaignResponse_IncidentResolutions) many-to-one relationship for the [campaignresponse](campaignresponse.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1756,7 +1754,7 @@ Same as campaignresponse entity [CampaignResponse_IncidentResolutions](campaignr
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [IncidentResolution_SyncErrors](syncerror.md#BKMK_IncidentResolution_SyncErrors) Many-To-One relationship.
+Same as the [IncidentResolution_SyncErrors](syncerror.md#BKMK_IncidentResolution_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1773,7 +1771,7 @@ Same as syncerror entity [IncidentResolution_SyncErrors](syncerror.md#BKMK_Incid
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [IncidentResolution_AsyncOperations](asyncoperation.md#BKMK_IncidentResolution_AsyncOperations) Many-To-One relationship.
+Same as the [IncidentResolution_AsyncOperations](asyncoperation.md#BKMK_IncidentResolution_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1790,7 +1788,7 @@ Same as asyncoperation entity [IncidentResolution_AsyncOperations](asyncoperatio
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [incidentresolution_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_incidentresolution_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [incidentresolution_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_incidentresolution_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1807,7 +1805,7 @@ Same as mailboxtrackingfolder entity [incidentresolution_MailboxTrackingFolders]
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [IncidentResolution_BulkDeleteFailures](bulkdeletefailure.md#BKMK_IncidentResolution_BulkDeleteFailures) Many-To-One relationship.
+Same as the [IncidentResolution_BulkDeleteFailures](bulkdeletefailure.md#BKMK_IncidentResolution_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1824,7 +1822,7 @@ Same as bulkdeletefailure entity [IncidentResolution_BulkDeleteFailures](bulkdel
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [incidentresolution_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_incidentresolution_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [incidentresolution_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_incidentresolution_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1841,7 +1839,7 @@ Same as principalobjectattributeaccess entity [incidentresolution_PrincipalObjec
 
 **Added by**: System Solution Solution
 
-Same as annotation entity [IncidentResolution_Annotation](annotation.md#BKMK_IncidentResolution_Annotation) Many-To-One relationship.
+Same as the [IncidentResolution_Annotation](annotation.md#BKMK_IncidentResolution_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1859,6 +1857,7 @@ Same as annotation entity [IncidentResolution_Annotation](annotation.md#BKMK_Inc
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
+- [interactionforemail_IncidentResolutions](#BKMK_interactionforemail_IncidentResolutions)
 - [lead_IncidentResolutions](#BKMK_lead_IncidentResolutions)
 - [bookableresourcebooking_IncidentResolutions](#BKMK_bookableresourcebooking_IncidentResolutions)
 - [bookableresourcebookingheader_IncidentResolutions](#BKMK_bookableresourcebookingheader_IncidentResolutions)
@@ -1867,7 +1866,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [campaignactivity_IncidentResolutions](#BKMK_campaignactivity_IncidentResolutions)
 - [entitlement_IncidentResolutions](#BKMK_entitlement_IncidentResolutions)
 - [entitlementtemplate_IncidentResolutions](#BKMK_entitlementtemplate_IncidentResolutions)
-- [interactionforemail_IncidentResolutions](#BKMK_interactionforemail_IncidentResolutions)
 - [knowledgebaserecord_IncidentResolutions](#BKMK_knowledgebaserecord_IncidentResolutions)
 - [account_IncidentResolutions](#BKMK_account_IncidentResolutions)
 - [lk_incidentresolution_createdby](#BKMK_lk_incidentresolution_createdby)
@@ -1887,159 +1885,155 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [service_incidentresolutions](#BKMK_service_incidentresolutions)
 
 
+### <a name="BKMK_interactionforemail_IncidentResolutions"></a> interactionforemail_IncidentResolutions
+
+**Added by**: System Solution Solution
+
+See the [interactionforemail_IncidentResolutions](interactionforemail.md#BKMK_interactionforemail_IncidentResolutions) one-to-many relationship for the [interactionforemail](interactionforemail.md) entity.
+
 ### <a name="BKMK_lead_IncidentResolutions"></a> lead_IncidentResolutions
 
 **Added by**: Lead Management Solution
 
-See lead Entity [lead_IncidentResolutions](lead.md#BKMK_lead_IncidentResolutions) One-To-Many relationship.
+See the [lead_IncidentResolutions](lead.md#BKMK_lead_IncidentResolutions) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_bookableresourcebooking_IncidentResolutions"></a> bookableresourcebooking_IncidentResolutions
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebooking Entity [bookableresourcebooking_IncidentResolutions](bookableresourcebooking.md#BKMK_bookableresourcebooking_IncidentResolutions) One-To-Many relationship.
+See the [bookableresourcebooking_IncidentResolutions](bookableresourcebooking.md#BKMK_bookableresourcebooking_IncidentResolutions) one-to-many relationship for the [bookableresourcebooking](bookableresourcebooking.md) entity.
 
 ### <a name="BKMK_bookableresourcebookingheader_IncidentResolutions"></a> bookableresourcebookingheader_IncidentResolutions
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebookingheader Entity [bookableresourcebookingheader_IncidentResolutions](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_IncidentResolutions) One-To-Many relationship.
+See the [bookableresourcebookingheader_IncidentResolutions](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_IncidentResolutions) one-to-many relationship for the [bookableresourcebookingheader](bookableresourcebookingheader.md) entity.
 
 ### <a name="BKMK_bulkoperation_IncidentResolutions"></a> bulkoperation_IncidentResolutions
 
 **Added by**: Marketing Solution
 
-See bulkoperation Entity [bulkoperation_IncidentResolutions](bulkoperation.md#BKMK_bulkoperation_IncidentResolutions) One-To-Many relationship.
+See the [bulkoperation_IncidentResolutions](bulkoperation.md#BKMK_bulkoperation_IncidentResolutions) one-to-many relationship for the [bulkoperation](bulkoperation.md) entity.
 
 ### <a name="BKMK_campaign_IncidentResolutions"></a> campaign_IncidentResolutions
 
 **Added by**: Marketing Solution
 
-See campaign Entity [campaign_IncidentResolutions](campaign.md#BKMK_campaign_IncidentResolutions) One-To-Many relationship.
+See the [campaign_IncidentResolutions](campaign.md#BKMK_campaign_IncidentResolutions) one-to-many relationship for the [campaign](campaign.md) entity.
 
 ### <a name="BKMK_campaignactivity_IncidentResolutions"></a> campaignactivity_IncidentResolutions
 
 **Added by**: Marketing Solution
 
-See campaignactivity Entity [campaignactivity_IncidentResolutions](campaignactivity.md#BKMK_campaignactivity_IncidentResolutions) One-To-Many relationship.
+See the [campaignactivity_IncidentResolutions](campaignactivity.md#BKMK_campaignactivity_IncidentResolutions) one-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_entitlement_IncidentResolutions"></a> entitlement_IncidentResolutions
 
-See entitlement Entity [entitlement_IncidentResolutions](entitlement.md#BKMK_entitlement_IncidentResolutions) One-To-Many relationship.
+See the [entitlement_IncidentResolutions](entitlement.md#BKMK_entitlement_IncidentResolutions) one-to-many relationship for the [entitlement](entitlement.md) entity.
 
 ### <a name="BKMK_entitlementtemplate_IncidentResolutions"></a> entitlementtemplate_IncidentResolutions
 
-See entitlementtemplate Entity [entitlementtemplate_IncidentResolutions](entitlementtemplate.md#BKMK_entitlementtemplate_IncidentResolutions) One-To-Many relationship.
-
-### <a name="BKMK_interactionforemail_IncidentResolutions"></a> interactionforemail_IncidentResolutions
-
-**Added by**: System Solution Solution
-
-See interactionforemail Entity [interactionforemail_IncidentResolutions](interactionforemail.md#BKMK_interactionforemail_IncidentResolutions) One-To-Many relationship.
+See the [entitlementtemplate_IncidentResolutions](entitlementtemplate.md#BKMK_entitlementtemplate_IncidentResolutions) one-to-many relationship for the [entitlementtemplate](entitlementtemplate.md) entity.
 
 ### <a name="BKMK_knowledgebaserecord_IncidentResolutions"></a> knowledgebaserecord_IncidentResolutions
 
 **Added by**: System Solution Solution
 
-See knowledgebaserecord Entity [knowledgebaserecord_IncidentResolutions](knowledgebaserecord.md#BKMK_knowledgebaserecord_IncidentResolutions) One-To-Many relationship.
+See the [knowledgebaserecord_IncidentResolutions](knowledgebaserecord.md#BKMK_knowledgebaserecord_IncidentResolutions) one-to-many relationship for the [knowledgebaserecord](knowledgebaserecord.md) entity.
 
 ### <a name="BKMK_account_IncidentResolutions"></a> account_IncidentResolutions
 
 **Added by**: System Solution Solution
 
-See account Entity [account_IncidentResolutions](account.md#BKMK_account_IncidentResolutions) One-To-Many relationship.
+See the [account_IncidentResolutions](account.md#BKMK_account_IncidentResolutions) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_lk_incidentresolution_createdby"></a> lk_incidentresolution_createdby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_incidentresolution_createdby](systemuser.md#BKMK_lk_incidentresolution_createdby) One-To-Many relationship.
+See the [lk_incidentresolution_createdby](systemuser.md#BKMK_lk_incidentresolution_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_incidentresolution_mailbox_sendermailboxid"></a> incidentresolution_mailbox_sendermailboxid
 
 **Added by**: System Solution Solution
 
-See mailbox Entity [incidentresolution_mailbox_sendermailboxid](mailbox.md#BKMK_incidentresolution_mailbox_sendermailboxid) One-To-Many relationship.
+See the [incidentresolution_mailbox_sendermailboxid](mailbox.md#BKMK_incidentresolution_mailbox_sendermailboxid) one-to-many relationship for the [mailbox](mailbox.md) entity.
 
 ### <a name="BKMK_incidentresolution_transactioncurrency_transactioncurrencyid"></a> incidentresolution_transactioncurrency_transactioncurrencyid
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [incidentresolution_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_incidentresolution_transactioncurrency_transactioncurrencyid) One-To-Many relationship.
+See the [incidentresolution_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_incidentresolution_transactioncurrency_transactioncurrencyid) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_user_incidentresolution"></a> user_incidentresolution
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_incidentresolution](systemuser.md#BKMK_user_incidentresolution) One-To-Many relationship.
+See the [user_incidentresolution](systemuser.md#BKMK_user_incidentresolution) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_incidentresolution_sla_slaid"></a> incidentresolution_sla_slaid
 
 **Added by**: System Solution Solution
 
-See sla Entity [incidentresolution_sla_slaid](sla.md#BKMK_incidentresolution_sla_slaid) One-To-Many relationship.
+See the [incidentresolution_sla_slaid](sla.md#BKMK_incidentresolution_sla_slaid) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_business_unit_incident_resolution_activities"></a> business_unit_incident_resolution_activities
 
 **Added by**: System Solution Solution
 
-See businessunit Entity [business_unit_incident_resolution_activities](businessunit.md#BKMK_business_unit_incident_resolution_activities) One-To-Many relationship.
+See the [business_unit_incident_resolution_activities](businessunit.md#BKMK_business_unit_incident_resolution_activities) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_knowledgearticle_IncidentResolutions"></a> knowledgearticle_IncidentResolutions
 
 **Added by**: System Solution Solution
 
-See knowledgearticle Entity [knowledgearticle_IncidentResolutions](knowledgearticle.md#BKMK_knowledgearticle_IncidentResolutions) One-To-Many relationship.
+See the [knowledgearticle_IncidentResolutions](knowledgearticle.md#BKMK_knowledgearticle_IncidentResolutions) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### <a name="BKMK_lk_incidentresolution_modifiedonbehalfby"></a> lk_incidentresolution_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_incidentresolution_modifiedonbehalfby](systemuser.md#BKMK_lk_incidentresolution_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_incidentresolution_modifiedonbehalfby](systemuser.md#BKMK_lk_incidentresolution_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_incidentresolution_createdonbehalfby"></a> lk_incidentresolution_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_incidentresolution_createdonbehalfby](systemuser.md#BKMK_lk_incidentresolution_createdonbehalfby) One-To-Many relationship.
+See the [lk_incidentresolution_createdonbehalfby](systemuser.md#BKMK_lk_incidentresolution_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_incidentresolution_modifiedby"></a> lk_incidentresolution_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_incidentresolution_modifiedby](systemuser.md#BKMK_lk_incidentresolution_modifiedby) One-To-Many relationship.
+See the [lk_incidentresolution_modifiedby](systemuser.md#BKMK_lk_incidentresolution_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_incidentresolution"></a> team_incidentresolution
 
 **Added by**: System Solution Solution
 
-See team Entity [team_incidentresolution](team.md#BKMK_team_incidentresolution) One-To-Many relationship.
+See the [team_incidentresolution](team.md#BKMK_team_incidentresolution) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_incidentresolution_sla_slainvokedid"></a> incidentresolution_sla_slainvokedid
 
 **Added by**: System Solution Solution
 
-See sla Entity [incidentresolution_sla_slainvokedid](sla.md#BKMK_incidentresolution_sla_slainvokedid) One-To-Many relationship.
+See the [incidentresolution_sla_slainvokedid](sla.md#BKMK_incidentresolution_sla_slainvokedid) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_activity_pointer_incident_resolution"></a> activity_pointer_incident_resolution
 
 **Added by**: System Solution Solution
 
-See activitypointer Entity [activity_pointer_incident_resolution](activitypointer.md#BKMK_activity_pointer_incident_resolution) One-To-Many relationship.
+See the [activity_pointer_incident_resolution](activitypointer.md#BKMK_activity_pointer_incident_resolution) one-to-many relationship for the [activitypointer](activitypointer.md) entity.
 
 ### <a name="BKMK_Incident_IncidentResolutions"></a> Incident_IncidentResolutions
 
-See incident Entity [Incident_IncidentResolutions](incident.md#BKMK_Incident_IncidentResolutions) One-To-Many relationship.
+See the [Incident_IncidentResolutions](incident.md#BKMK_Incident_IncidentResolutions) one-to-many relationship for the [incident](incident.md) entity.
 
 ### <a name="BKMK_service_incidentresolutions"></a> service_incidentresolutions
 
-See service Entity [service_incidentresolutions](service.md#BKMK_service_incidentresolutions) One-To-Many relationship.
+See the [service_incidentresolutions](service.md#BKMK_service_incidentresolutions) one-to-many relationship for the [service](service.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.incidentresolution?text=incidentresolution EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

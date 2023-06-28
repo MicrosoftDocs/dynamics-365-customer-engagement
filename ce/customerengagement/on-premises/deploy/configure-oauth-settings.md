@@ -12,14 +12,13 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Configure OAuth settings to change the client session timeout
 
 By default, the session lifetime is 24 hours for all Dynamics 365 Customer Engagement (on-premises) clients. You can change the session lifetime by setting the SessionSecurityTokenLifetimeInHours setting to a different value. 
 
 ## Requirements  
- - To set up the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] cmdlets, see [Get started using the Dynamics 365 Customer Engagement Management (on-premises) PowerShell cmdlets](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps&branch=master#get-started-using-the-dynamics-365-customer-engagement-management-on-premises-powershell-cmdlets).  
+ - To set up the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] cmdlets, see [Get started using the Dynamics 365 Customer Engagement Management (on-premises) PowerShell cmdlets](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps&branch=master&preserve-view=true#get-started-using-the-dynamics-365-customer-engagement-management-on-premises-powershell-cmdlets).  
 - To change the session lifetime the deployment must be enabled for claims-based authentication. 
   
 ## Demonstrates

@@ -5,7 +5,6 @@ ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -24,12 +23,11 @@ The live org chart lets salespeople maintain external organization charts for th
 > When using the org chart, the hierarchy settings will be auto-enabled if they weren't enabled before. A relationship with schema name `contact_parent_contact` will be created with the parent attribute schema name `parent_contactid`. If you wish to use a different relationship for the org chart, please contact your admin to create a new [hierarchical relationship](/archive/blogs/lystavlen/how-to-enable-hierarchy-to-contacts-in-dynamics-crm-2015).
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 
 ## Accessing the Org Chart

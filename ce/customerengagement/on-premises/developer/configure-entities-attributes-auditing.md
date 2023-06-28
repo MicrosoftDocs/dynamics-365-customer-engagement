@@ -27,7 +27,6 @@ helpviewer_keywords:
 ms.assetid: 4e36f9d4-08cd-4f57-a02b-33581e54ce5f
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -55,39 +54,37 @@ There are three levels where auditing can be configured: organization, entity, a
   
  The following table lists the non-customizable entities that cannot be audited. This table was obtained by testing for a `CanModifyAuditSettings` attribute value of `false` on each entity’s metadata.  
   
-||  
-|-|  
-|ActivityPointer|  
-|Annotation|  
-|BulkOperation|  
-|Calendar|  
-|CalendarRule|  
-|CustomerOpportunityRole|  
-|Discount|  
-|DiscountType|  
-|IncidentResolution|  
-|KbArticle|  
-|KbArticleComment|  
-|KbArticleTemplate|  
-|Notification|  
-|OpportunityClose|  
-|OrderClose|  
-|ProductPriceLevel|  
-|QuoteClose|  
-|RecurrenceRule|  
-|Resource|  
-|ResourceGroup|  
-|ResourceGroupExpansion|  
-|ResourceSpec|  
-|SalesLiteratureItem|  
-|SalesProcessInstance|  
-|Service|  
-|Subject|  
-|Template|  
-|UoM|  
-|UoMSchedule|  
-|Workflow|  
-|WorkflowLog|  
+- ActivityPointer
+- Annotation
+- BulkOperation
+- Calendar
+- CalendarRule
+- CustomerOpportunityRole
+- Discount
+- DiscountType
+- IncidentResolution
+- KbArticle
+- KbArticleComment
+- KbArticleTemplate
+- Notification
+- OpportunityClose
+- OrderClose
+- ProductPriceLevel
+- QuoteClose
+- RecurrenceRule
+- Resource
+- ResourceGroup
+- ResourceGroupExpansion
+- ResourceSpec
+- SalesLiteratureItem
+- SalesProcessInstance
+- Service
+- Subject
+- Template
+- UoM
+- UoMSchedule
+- Workflow
+- WorkflowLog
   
 ### See also  
  [Data Management in Dynamics 365 Customer Engagement (on-premises)](manage-data.md)   

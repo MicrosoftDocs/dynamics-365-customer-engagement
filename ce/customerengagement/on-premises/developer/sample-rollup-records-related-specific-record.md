@@ -1,29 +1,29 @@
 ---
 title: "Sample: Rollup records related to a specific record (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample demonstrates how to roll up opportunities by the parent account. "
-ms.custom: 
+ms.custom:
 ms.date: 10/31/2017
 ms.reviewer: pehecke
 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: sample
-applies_to: 
+applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
-helpviewer_keywords: 
+helpviewer_keywords:
   - related records sample, rolling up
   - rolling up records sample
 ms.assetid: 59c8a58c-1add-4c29-915f-8aa0ae07f30c
 caps.latest.revision: 16
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
-search.audienceType: 
+search.audienceType:
   - developer
 ---
+
 # Sample: Rollup records related to a specific record
 
-This sample shows how to roll up opportunities by the parent account. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RollupSpecificRecords).
+This sample shows how to roll up opportunities by the parent account. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/RollupSpecificRecords).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
@@ -52,6 +52,5 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Clean up
 
 Display an option to delete the records in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

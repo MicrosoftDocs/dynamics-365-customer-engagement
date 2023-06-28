@@ -5,7 +5,6 @@ ms.date: 07/01/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View call scripts, take notes, and search knowledge articles
@@ -14,14 +13,14 @@ monikerRange: '>= dynamics-usd-4.1'
 
 The right panel consists of agent scripts, notes, and knowledge management search controls.
 
-### Call script control
+## Call script control
 
 The **Call script** section in the right panel provides guidance about what you should say during calls, or what you should type during chat conversations.
 
 > [!div class=mx-imgBorder]
 > ![Omnichannel call script.](../media/oc-usd-call-script.png "Omnichannel call script")  
 
-### Search for knowledge articles
+## Search for knowledge articles
 
 Knowledge management plays an important part in the customer service process. Access to up-to-date information can help you provide quick and accurate answers to your customers, and therefore help reduce the average handling time.
 
@@ -35,15 +34,15 @@ You can search for a KB article and open it as a tab on the Application tab mana
 > [!div class="nextstepaction"]
 > [Next topic: View conversation and session forms in the model-driven apps](view-omnichannel-conversation-session.md)
 
-## See also
+### See also
 
-- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md) 
-- [View customer summary and know everything about customers](customer-summary.md)
-- [View communication panel](left-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
-- [Create a record](create-record.md)
-- [Search for records](search-record.md)
-- [Link and unlink a record](link-unlink-record.md)
+[Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)  
+[View customer summary and know everything about customers](customer-summary.md)  
+[View communication panel](left-control-panel.md)  
+[View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)  
+[Create a record](create-record.md)  
+[Search for records](search-record.md)  
+[Link and unlink a record](link-unlink-record.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

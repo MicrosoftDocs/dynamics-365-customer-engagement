@@ -3,15 +3,11 @@ title: "Walkthrough: Create a UII Application Adapter in Unified Service Desk | 
 description: "Use this walkthrough to understand the prerequisites and procedures for hosting and interacting with external applications in Unified Service Desk."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---
@@ -141,7 +137,7 @@ You can create an application adapter if you want to integrate an external appli
            int intIDCoordY = 126;  
    ```  
   
-5. Add the following code to the definition of `NotifyContextChange` to notify the application that the context has changed. For more information, see [Context)](/dotnet/api/microsoft.uii.csr.hostedapplicationadapter.notifycontextchange(microsoft.uii.csr.context))  
+5. Add the following code to the definition of `NotifyContextChange` to notify the application that the context has changed. For more information, see [Context)](/dotnet/api/microsoft.uii.csr.hostedwebapplication.notifycontextchange)  
   
    ```csharp  
    public override bool NotifyContextChange(Context context)  

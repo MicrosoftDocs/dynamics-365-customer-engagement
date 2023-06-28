@@ -3,9 +3,8 @@ title: "msdyn_sessionevent Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_sessionevent entity."
 ms.date: 03/23/2020
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 ---
 # msdyn_sessionevent Entity Reference
 
@@ -154,7 +153,21 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192350025|BotEndConversation |
 |192350026|AssignToAgentBySupervisor  |
 |192350027|AssignToQueueBySupervisor  |
-
+|192350028|CustomerRejoin|
+|192350029|CustomerEndConversation|
+|192350030|AgentEndConversation|
+|192350031|SupervisorTransferToAgent|
+|192350032|AgentEndConsult|
+|192350033|ForceClose|
+|192350034|OverflowQueueTransfer|
+|192350035|OverflowEndConversation|
+|192350036|OverflowAssignToQueue|
+|192350037|SessionEndAfterWrapUp|
+|192350038|ConversationExpired|
+|192350039|Consult|
+|192350040|AgentMonitor|
+|192350041|AgentConversationJoin|
+|192350042|Preview|
 
 
 ### <a name="BKMK_msdyn_eventtime"></a> msdyn_eventtime
@@ -209,6 +222,16 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192350018|TransferedToAgent|
 |192350019|TransferedToQueue|
 |192350020|ParticipantLeft|
+|192350021|BotTransferSession|
+|192350022|BotEndConversation|
+|192350023|AssignToAgentBySupervisor|
+|192350024|AssignToQueueBySupervisor|
+|192350025|CustomerEndConversation|
+|192350026|AgentEndConversation|
+|192350027|AgentAddedToC2Chat|
+|192350028|AgentRemovedFromC2Chat|
+|192350029|AgentEndConsult|
+|192350030|SupervisorForceClose|
 
 
 

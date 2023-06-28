@@ -1,22 +1,17 @@
 ---
 title: "Administrator Guide (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Index page showing administration, system, user and app configuration for Dynamics 365 Marketing."
-ms.date: 04/01/2018
-
+ms.date: 04/21/2023
 ms.custom: 
   - dyn365-marketing
-  - intro-internal
+ms.collection: get-started
 ms.topic: overview
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Administrator guide (Marketing)
@@ -39,10 +34,10 @@ search.app:
 </td><td>
 
 <h2>Work with data</h2>
-<li><a href="additional-settings.md" data-raw-source="[Manage sample data](additional-settings.md)">Manage sample data</a></li>
-<li><a href="business-management-settings.md#import" data-raw-source="[Import data and manage imports](business-management-settings.md#import)">Import data and manage imports</a></li>
-<li><a href="business-management-settings.md#export" data-raw-source="[Export data or templates](business-management-settings.md#export)">Export data or templates</a></li>
-<li><a href="business-management-settings.md#duplicate-detection" data-raw-source="[Manage duplicate detection](business-management-settings.md#duplicate-detection)">Manage duplicate detection</a></li>
+<li><a href="/power-platform/admin/add-remove-sample-data" data-raw-source="[Add or remove sample data](/power-platform/admin/add-remove-sample-data)">Add or remove sample data</a></li>
+<li><a href="data-management-settings.md#import" data-raw-source="[Import data and manage imports](data-management-settings.md#import)">Import data and manage imports</a></li>
+<li><a href="data-management-settings.md#export" data-raw-source="[Export data or templates](data-management-settings.md#export)">Export data or templates</a></li>
+<li><a href="data-management-settings.md#duplicate-detection" data-raw-source="[Manage duplicate detection](data-management-settings.md#duplicate-detection)">Manage duplicate detection</a></li>
 <li><a href="manage-excel-templates.md" data-raw-source="[Manage Excel templates](manage-excel-templates.md)">Manage Excel templates</a></li>
 <li><a href="manage-word-templates.md" data-raw-source="[Manage Word templates](manage-word-templates.md)">Manage Word templates</a></li>
 
@@ -72,7 +67,7 @@ search.app:
 <tr><td>
 
 <h2>Privacy and compliance</h2>
-<li><a href="gdpr.md" data-raw-source="[Data protection and GDPR](gdpr.md)">Data protection and GDPR</a></li>
+<li><a href="privacy.md" data-raw-source="[Data protection and privacy](privacy.md)">Data protection and privacy</a></li>
 <li><a href="double-opt-in.md" data-raw-source="[Set up double opt-in](double-opt-in.md)">Set up double opt-in for new subscriptions and consent changes</a></li>
 <li><a href="cookies.md" data-raw-source="[How Marketing uses cookies](cookies.md)">How Marketing uses cookies</a></li>
 

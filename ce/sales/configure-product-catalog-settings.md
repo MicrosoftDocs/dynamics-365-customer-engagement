@@ -5,19 +5,17 @@ ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Configure product catalog settings
 
 Configure the settings to change the seller experience while selecting products from the catalog
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Configure the settings
 
@@ -35,10 +33,10 @@ You can configure the product catalog settings to change the experience sellers 
 
 | **Setting** | **Description** |
 |-------------------------|-------------------------|
-| **Adding products (preview)** | Turn on this option to enable the enhanced **Add products** dialog box that sellers can use to efficiently search, compare, and select products while they're creating an opportunity, quote, invoice, or order. </br> When you turn on this option, you'll see additional customization options you can use to customize the information you need in the **Add products** dialog box. You can either add more columns to the dialog box or add more information to the **Product** column. More information: [Preview: Customize the Add products dialog box](customize-add-products-dialog-box.md). |
+| **Adding products** | Turn on this option to enable the enhanced **Add products** dialog box that sellers can use to efficiently search, compare, and select products while they're creating an opportunity, quote, invoice, or order. </br> When you turn on this option, you'll see additional customization options you can use to customize the information you need in the **Add products** dialog box. You can either add more columns to the dialog box or add more information to the **Product** column. More information: [Preview: Customize the Add products dialog box](customize-add-products-dialog-box.md). |
 | **Create products in active state** | Turn on this option to set the products to the `active` state upon creation. This option applies only to products that don't have a parent product family. To create products in the `draft` state, turn this option off. |
 | **Allow selection of default price list** | Turn on this option if you want the default price list to be selected for an opportunity based on the inbuilt rule (that is, using the default price lists that have been defined for territories). Otherwise, turn this option off. |
-| **Use system pricing calculation** | Turn on this option to use the system pricing engine to calculate prices for opportunities, quotes, orders, and invoices. Turn the option off to use custom pricing. More information: [Use custom pricing for products](../customerengagement/on-premises/developer/use-custom-pricing-products.md)  |
+| **Use system pricing calculation** | Turn on this option to use the system pricing engine to calculate prices for opportunities, quotes, orders, and invoices. Turn the option off to use custom pricing. More information: [Use custom pricing for products](developer/use-custom-pricing-products.md)  |
 | **Make pricing list optional** | Turn on this option if you want to allow sellers to add products to opportunities, quotes, invoices, or orders without associating a price list. |
 | **Maximum number of products in a bundle** | Specify the maximum number of products that can be added in a bundle.</br>**Default**: 15 |
 | **Maximum number of properties that are allowed for a product or bundle** | Specify the maximum number of properties that can be associated with a product or bundle.<br /></br>Product properties are added to the product family record, and all the child products and bundles under the product family inherit the properties added to the parent product family.</br>**Note:** The number specified in this setting comes into effect only when you publish a product or a bundle with the associated properties, and not at the time when you add the properties to a draft product family record.</br>**Default**: 50 | 
@@ -56,6 +54,6 @@ The following table shows the difference between discounts calculated for a line
 ### See also
 
 [Set up a product catalog](set-up-product-catalog-walkthrough.md)  
-[Preview: Enable the enhanced experience of adding products (Sales Hub)](enable-enhanced-add-product-experience.md)  
+[Enable the enhanced experience of adding products (Sales Hub)](enable-enhanced-add-product-experience.md)  
 
 

@@ -1,40 +1,38 @@
 ---
-title: "Feedback Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Feedback entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Feedback entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Feedback Entity Reference
+
+# Feedback entity reference
 
 Container for feedback and ratings for knowledge articles.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/feedback(*feedbackid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/feedback<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/feedback(*feedbackid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/feedback(*feedbackid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/feedback<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/feedback(*feedbackid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/feedback(*feedbackid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -252,7 +250,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|contact,feedback,knowledgearticle,msfp_surveyinvite,msfp_surveyresponse|
+|Targets|contact,feedback,knowledgearticle|
 |Type|Lookup|
 
 
@@ -281,12 +279,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Source Options
+#### Source Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Internal|
-|1|Portal|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Internal||
+|1|Portal||
 
 
 
@@ -303,7 +301,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -324,7 +322,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -908,7 +906,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_Feedback_SyncErrors"></a> Feedback_SyncErrors
 
-Same as syncerror entity [Feedback_SyncErrors](syncerror.md#BKMK_Feedback_SyncErrors) Many-To-One relationship.
+Same as the [Feedback_SyncErrors](syncerror.md#BKMK_Feedback_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -923,7 +921,7 @@ Same as syncerror entity [Feedback_SyncErrors](syncerror.md#BKMK_Feedback_SyncEr
 
 ### <a name="BKMK_feedback_feedback"></a> feedback_feedback
 
-Same as feedback entity [feedback_feedback](feedback.md#BKMK_feedback_feedback) Many-To-One relationship.
+Same as the [feedback_feedback](feedback.md#BKMK_feedback_feedback) many-to-one relationship for the [feedback](feedback.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -938,7 +936,7 @@ Same as feedback entity [feedback_feedback](feedback.md#BKMK_feedback_feedback) 
 
 ### <a name="BKMK_feedback_principalobjectattributeaccess"></a> feedback_principalobjectattributeaccess
 
-Same as principalobjectattributeaccess entity [feedback_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_feedback_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [feedback_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_feedback_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -972,57 +970,53 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_feedback_modifiedby"></a> lk_feedback_modifiedby
 
-See systemuser Entity [lk_feedback_modifiedby](systemuser.md#BKMK_lk_feedback_modifiedby) One-To-Many relationship.
+See the [lk_feedback_modifiedby](systemuser.md#BKMK_lk_feedback_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_Contact_Feedback"></a> Contact_Feedback
 
-See contact Entity [Contact_Feedback](contact.md#BKMK_Contact_Feedback) One-To-Many relationship.
+See the [Contact_Feedback](contact.md#BKMK_Contact_Feedback) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_lk_feedback_closedby"></a> lk_feedback_closedby
 
-See systemuser Entity [lk_feedback_closedby](systemuser.md#BKMK_lk_feedback_closedby) One-To-Many relationship.
+See the [lk_feedback_closedby](systemuser.md#BKMK_lk_feedback_closedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_feedback_feedback"></a> feedback_feedback
 
-See feedback Entity [feedback_feedback](feedback.md#BKMK_feedback_feedback) One-To-Many relationship.
+See the [feedback_feedback](feedback.md#BKMK_feedback_feedback) one-to-many relationship for the [feedback](feedback.md) entity.
 
 ### <a name="BKMK_lk_feedback_createdonbehalfby"></a> lk_feedback_createdonbehalfby
 
-See systemuser Entity [lk_feedback_createdonbehalfby](systemuser.md#BKMK_lk_feedback_createdonbehalfby) One-To-Many relationship.
+See the [lk_feedback_createdonbehalfby](systemuser.md#BKMK_lk_feedback_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_KnowledgeArticle_Feedback"></a> KnowledgeArticle_Feedback
 
-See knowledgearticle Entity [KnowledgeArticle_Feedback](knowledgearticle.md#BKMK_KnowledgeArticle_Feedback) One-To-Many relationship.
+See the [KnowledgeArticle_Feedback](knowledgearticle.md#BKMK_KnowledgeArticle_Feedback) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### <a name="BKMK_transactioncurrency_feedback"></a> transactioncurrency_feedback
 
-See transactioncurrency Entity [transactioncurrency_feedback](transactioncurrency.md#BKMK_transactioncurrency_feedback) One-To-Many relationship.
+See the [transactioncurrency_feedback](transactioncurrency.md#BKMK_transactioncurrency_feedback) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_lk_feedback_modifiedonbehalfby"></a> lk_feedback_modifiedonbehalfby
 
-See systemuser Entity [lk_feedback_modifiedonbehalfby](systemuser.md#BKMK_lk_feedback_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_feedback_modifiedonbehalfby](systemuser.md#BKMK_lk_feedback_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_business_unit_feedback"></a> business_unit_feedback
 
-See businessunit Entity [business_unit_feedback](businessunit.md#BKMK_business_unit_feedback) One-To-Many relationship.
+See the [business_unit_feedback](businessunit.md#BKMK_business_unit_feedback) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_lk_contact_feedback_createdonbehalfby"></a> lk_contact_feedback_createdonbehalfby
 
-See contact Entity [lk_contact_feedback_createdonbehalfby](contact.md#BKMK_lk_contact_feedback_createdonbehalfby) One-To-Many relationship.
+See the [lk_contact_feedback_createdonbehalfby](contact.md#BKMK_lk_contact_feedback_createdonbehalfby) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_lk_contact_feedback_createdby"></a> lk_contact_feedback_createdby
 
-See contact Entity [lk_contact_feedback_createdby](contact.md#BKMK_lk_contact_feedback_createdby) One-To-Many relationship.
+See the [lk_contact_feedback_createdby](contact.md#BKMK_lk_contact_feedback_createdby) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_lk_feedback_createdby"></a> lk_feedback_createdby
 
-See systemuser Entity [lk_feedback_createdby](systemuser.md#BKMK_lk_feedback_createdby) One-To-Many relationship.
+See the [lk_feedback_createdby](systemuser.md#BKMK_lk_feedback_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.feedback?text=feedback EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

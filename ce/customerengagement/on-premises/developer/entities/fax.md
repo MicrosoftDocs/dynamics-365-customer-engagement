@@ -1,43 +1,41 @@
 ---
-title: "Fax Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Fax entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Fax entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Fax Entity Reference
+
+# Fax entity reference
 
 Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/faxes(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/faxes<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/faxes(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/faxes(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/faxes<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SendEmail|<xref href="Microsoft.Dynamics.CRM.SendEmail?text=SendEmail Action" />|<xref:Microsoft.Crm.Sdk.Messages.SendEmailRequest>|
-|SendFax|<xref href="Microsoft.Dynamics.CRM.SendFax?text=SendFax Action" />|<xref:Microsoft.Crm.Sdk.Messages.SendFaxRequest>|
-|SendTemplate|<xref href="Microsoft.Dynamics.CRM.SendTemplate?text=SendTemplate Action" />|<xref:Microsoft.Crm.Sdk.Messages.SendTemplateRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/faxes(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/faxes(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SendEmail|<xref:Microsoft.Crm.Sdk.Messages.SendEmailRequest>|
+|SendFax|<xref:Microsoft.Crm.Sdk.Messages.SendFaxRequest>|
+|SendTemplate|<xref:Microsoft.Crm.Sdk.Messages.SendTemplateRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -237,14 +235,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### DirectionCode Options
+#### DirectionCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Outgoing|
-|0|Incoming|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Outgoing||
+|0|Incoming||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -307,14 +305,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsBilled Options
+#### IsBilled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -330,14 +328,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsWorkflowCreated Options
+#### IsWorkflowCreated Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -427,13 +425,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PriorityCode Options
+#### PriorityCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Low|
-|1|Normal|
-|2|High|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Low||
+|1|Normal||
+|2|High||
 
 
 
@@ -460,7 +458,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_fieldservicesetting,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_playbookinstance,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,quote,salesorder,site|
+|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_postalbum,opportunity,quote,salesorder,site|
 |Type|Lookup|
 
 
@@ -557,7 +555,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Shows the ID of the stage.|
-|DisplayName|(Deprecated) Process Stage|
+|DisplayName|Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -578,7 +576,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -600,7 +598,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -707,7 +705,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -937,14 +935,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsRegularActivity Options
+#### IsRegularActivity Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1314,7 +1312,7 @@ Listed by **SchemaName**.
 
 **Added by**: Marketing Solution
 
-Same as campaignresponse entity [fax_campaignresponse](campaignresponse.md#BKMK_fax_campaignresponse) Many-To-One relationship.
+Same as the [fax_campaignresponse](campaignresponse.md#BKMK_fax_campaignresponse) many-to-one relationship for the [campaignresponse](campaignresponse.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1329,7 +1327,7 @@ Same as campaignresponse entity [fax_campaignresponse](campaignresponse.md#BKMK_
 
 ### <a name="BKMK_fax_principalobjectattributeaccess"></a> fax_principalobjectattributeaccess
 
-Same as principalobjectattributeaccess entity [fax_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_fax_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [fax_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_fax_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1344,7 +1342,7 @@ Same as principalobjectattributeaccess entity [fax_principalobjectattributeacces
 
 ### <a name="BKMK_Fax_AsyncOperations"></a> Fax_AsyncOperations
 
-Same as asyncoperation entity [Fax_AsyncOperations](asyncoperation.md#BKMK_Fax_AsyncOperations) Many-To-One relationship.
+Same as the [Fax_AsyncOperations](asyncoperation.md#BKMK_Fax_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1359,7 +1357,7 @@ Same as asyncoperation entity [Fax_AsyncOperations](asyncoperation.md#BKMK_Fax_A
 
 ### <a name="BKMK_slakpiinstance_fax"></a> slakpiinstance_fax
 
-Same as slakpiinstance entity [slakpiinstance_fax](slakpiinstance.md#BKMK_slakpiinstance_fax) Many-To-One relationship.
+Same as the [slakpiinstance_fax](slakpiinstance.md#BKMK_slakpiinstance_fax) many-to-one relationship for the [slakpiinstance](slakpiinstance.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1374,7 +1372,7 @@ Same as slakpiinstance entity [slakpiinstance_fax](slakpiinstance.md#BKMK_slakpi
 
 ### <a name="BKMK_Fax_DuplicateBaseRecord"></a> Fax_DuplicateBaseRecord
 
-Same as duplicaterecord entity [Fax_DuplicateBaseRecord](duplicaterecord.md#BKMK_Fax_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [Fax_DuplicateBaseRecord](duplicaterecord.md#BKMK_Fax_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1389,7 +1387,7 @@ Same as duplicaterecord entity [Fax_DuplicateBaseRecord](duplicaterecord.md#BKMK
 
 ### <a name="BKMK_Fax_BulkDeleteFailures"></a> Fax_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [Fax_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Fax_BulkDeleteFailures) Many-To-One relationship.
+Same as the [Fax_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Fax_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1404,7 +1402,7 @@ Same as bulkdeletefailure entity [Fax_BulkDeleteFailures](bulkdeletefailure.md#B
 
 ### <a name="BKMK_fax_activity_parties"></a> fax_activity_parties
 
-Same as activityparty entity [fax_activity_parties](activityparty.md#BKMK_fax_activity_parties) Many-To-One relationship.
+Same as the [fax_activity_parties](activityparty.md#BKMK_fax_activity_parties) many-to-one relationship for the [activityparty](activityparty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1419,7 +1417,7 @@ Same as activityparty entity [fax_activity_parties](activityparty.md#BKMK_fax_ac
 
 ### <a name="BKMK_fax_connections2"></a> fax_connections2
 
-Same as connection entity [fax_connections2](connection.md#BKMK_fax_connections2) Many-To-One relationship.
+Same as the [fax_connections2](connection.md#BKMK_fax_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1434,7 +1432,7 @@ Same as connection entity [fax_connections2](connection.md#BKMK_fax_connections2
 
 ### <a name="BKMK_Fax_SyncErrors"></a> Fax_SyncErrors
 
-Same as syncerror entity [Fax_SyncErrors](syncerror.md#BKMK_Fax_SyncErrors) Many-To-One relationship.
+Same as the [Fax_SyncErrors](syncerror.md#BKMK_Fax_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1449,7 +1447,7 @@ Same as syncerror entity [Fax_SyncErrors](syncerror.md#BKMK_Fax_SyncErrors) Many
 
 ### <a name="BKMK_Fax_DuplicateMatchingRecord"></a> Fax_DuplicateMatchingRecord
 
-Same as duplicaterecord entity [Fax_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Fax_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [Fax_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Fax_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1464,7 +1462,7 @@ Same as duplicaterecord entity [Fax_DuplicateMatchingRecord](duplicaterecord.md#
 
 ### <a name="BKMK_Fax_Annotation"></a> Fax_Annotation
 
-Same as annotation entity [Fax_Annotation](annotation.md#BKMK_Fax_Annotation) Many-To-One relationship.
+Same as the [Fax_Annotation](annotation.md#BKMK_Fax_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1479,7 +1477,7 @@ Same as annotation entity [Fax_Annotation](annotation.md#BKMK_Fax_Annotation) Ma
 
 ### <a name="BKMK_Fax_ProcessSessions"></a> Fax_ProcessSessions
 
-Same as processsession entity [Fax_ProcessSessions](processsession.md#BKMK_Fax_ProcessSessions) Many-To-One relationship.
+Same as the [Fax_ProcessSessions](processsession.md#BKMK_Fax_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1494,7 +1492,7 @@ Same as processsession entity [Fax_ProcessSessions](processsession.md#BKMK_Fax_P
 
 ### <a name="BKMK_fax_connections1"></a> fax_connections1
 
-Same as connection entity [fax_connections1](connection.md#BKMK_fax_connections1) Many-To-One relationship.
+Same as the [fax_connections1](connection.md#BKMK_fax_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1509,7 +1507,7 @@ Same as connection entity [fax_connections1](connection.md#BKMK_fax_connections1
 
 ### <a name="BKMK_Fax_QueueItem"></a> Fax_QueueItem
 
-Same as queueitem entity [Fax_QueueItem](queueitem.md#BKMK_Fax_QueueItem) Many-To-One relationship.
+Same as the [Fax_QueueItem](queueitem.md#BKMK_Fax_QueueItem) many-to-one relationship for the [queueitem](queueitem.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1524,7 +1522,7 @@ Same as queueitem entity [Fax_QueueItem](queueitem.md#BKMK_Fax_QueueItem) Many-T
 
 ### <a name="BKMK_fax_actioncard"></a> fax_actioncard
 
-Same as actioncard entity [fax_actioncard](actioncard.md#BKMK_fax_actioncard) Many-To-One relationship.
+Same as the [fax_actioncard](actioncard.md#BKMK_fax_actioncard) many-to-one relationship for the [actioncard](actioncard.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1555,74 +1553,11 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [Incident_Faxes](#BKMK_Incident_Faxes)
 - [site_Faxes](#BKMK_site_Faxes)
 - [service_faxes](#BKMK_service_faxes)
-- [msdyn_playbookinstance_Faxes](#BKMK_msdyn_playbookinstance_Faxes)
 - [Invoice_Faxes](#BKMK_Invoice_Faxes)
 - [Opportunity_Faxes](#BKMK_Opportunity_Faxes)
 - [Quote_Faxes](#BKMK_Quote_Faxes)
 - [SalesOrder_Faxes](#BKMK_SalesOrder_Faxes)
 - [msdyn_postalbum_Faxes](#BKMK_msdyn_postalbum_Faxes)
-- [msdyn_bookingalertstatus_Faxes](#BKMK_msdyn_bookingalertstatus_Faxes)
-- [msdyn_bookingrule_Faxes](#BKMK_msdyn_bookingrule_Faxes)
-- [msdyn_resourceterritory_Faxes](#BKMK_msdyn_resourceterritory_Faxes)
-- [msdyn_systemuserschedulersetting_Faxes](#BKMK_msdyn_systemuserschedulersetting_Faxes)
-- [msdyn_timegroup_Faxes](#BKMK_msdyn_timegroup_Faxes)
-- [msdyn_timegroupdetail_Faxes](#BKMK_msdyn_timegroupdetail_Faxes)
-- [msdyn_processnotes_Faxes](#BKMK_msdyn_processnotes_Faxes)
-- [msdyn_projectteam_Faxes](#BKMK_msdyn_projectteam_Faxes)
-- [msdyn_agreement_Faxes](#BKMK_msdyn_agreement_Faxes)
-- [msdyn_agreementbookingdate_Faxes](#BKMK_msdyn_agreementbookingdate_Faxes)
-- [msdyn_agreementbookingincident_Faxes](#BKMK_msdyn_agreementbookingincident_Faxes)
-- [msdyn_agreementbookingproduct_Faxes](#BKMK_msdyn_agreementbookingproduct_Faxes)
-- [msdyn_agreementbookingservice_Faxes](#BKMK_msdyn_agreementbookingservice_Faxes)
-- [msdyn_agreementbookingservicetask_Faxes](#BKMK_msdyn_agreementbookingservicetask_Faxes)
-- [msdyn_agreementbookingsetup_Faxes](#BKMK_msdyn_agreementbookingsetup_Faxes)
-- [msdyn_agreementinvoicedate_Faxes](#BKMK_msdyn_agreementinvoicedate_Faxes)
-- [msdyn_agreementinvoiceproduct_Faxes](#BKMK_msdyn_agreementinvoiceproduct_Faxes)
-- [msdyn_agreementinvoicesetup_Faxes](#BKMK_msdyn_agreementinvoicesetup_Faxes)
-- [msdyn_bookingtimestamp_Faxes](#BKMK_msdyn_bookingtimestamp_Faxes)
-- [msdyn_customerasset_Faxes](#BKMK_msdyn_customerasset_Faxes)
-- [msdyn_fieldservicesetting_Faxes](#BKMK_msdyn_fieldservicesetting_Faxes)
-- [msdyn_incidenttypecharacteristic_Faxes](#BKMK_msdyn_incidenttypecharacteristic_Faxes)
-- [msdyn_incidenttypeproduct_Faxes](#BKMK_msdyn_incidenttypeproduct_Faxes)
-- [msdyn_incidenttypeservice_Faxes](#BKMK_msdyn_incidenttypeservice_Faxes)
-- [msdyn_inventoryadjustment_Faxes](#BKMK_msdyn_inventoryadjustment_Faxes)
-- [msdyn_inventoryadjustmentproduct_Faxes](#BKMK_msdyn_inventoryadjustmentproduct_Faxes)
-- [msdyn_inventoryjournal_Faxes](#BKMK_msdyn_inventoryjournal_Faxes)
-- [msdyn_inventorytransfer_Faxes](#BKMK_msdyn_inventorytransfer_Faxes)
-- [msdyn_payment_Faxes](#BKMK_msdyn_payment_Faxes)
-- [msdyn_paymentdetail_Faxes](#BKMK_msdyn_paymentdetail_Faxes)
-- [msdyn_paymentmethod_Faxes](#BKMK_msdyn_paymentmethod_Faxes)
-- [msdyn_paymentterm_Faxes](#BKMK_msdyn_paymentterm_Faxes)
-- [msdyn_postalcode_Faxes](#BKMK_msdyn_postalcode_Faxes)
-- [msdyn_productinventory_Faxes](#BKMK_msdyn_productinventory_Faxes)
-- [msdyn_purchaseorder_Faxes](#BKMK_msdyn_purchaseorder_Faxes)
-- [msdyn_purchaseorderbill_Faxes](#BKMK_msdyn_purchaseorderbill_Faxes)
-- [msdyn_purchaseorderproduct_Faxes](#BKMK_msdyn_purchaseorderproduct_Faxes)
-- [msdyn_purchaseorderreceipt_Faxes](#BKMK_msdyn_purchaseorderreceipt_Faxes)
-- [msdyn_purchaseorderreceiptproduct_Faxes](#BKMK_msdyn_purchaseorderreceiptproduct_Faxes)
-- [msdyn_purchaseordersubstatus_Faxes](#BKMK_msdyn_purchaseordersubstatus_Faxes)
-- [msdyn_quotebookingincident_Faxes](#BKMK_msdyn_quotebookingincident_Faxes)
-- [msdyn_quotebookingproduct_Faxes](#BKMK_msdyn_quotebookingproduct_Faxes)
-- [msdyn_quotebookingservice_Faxes](#BKMK_msdyn_quotebookingservice_Faxes)
-- [msdyn_quotebookingservicetask_Faxes](#BKMK_msdyn_quotebookingservicetask_Faxes)
-- [msdyn_rma_Faxes](#BKMK_msdyn_rma_Faxes)
-- [msdyn_rmaproduct_Faxes](#BKMK_msdyn_rmaproduct_Faxes)
-- [msdyn_rmareceipt_Faxes](#BKMK_msdyn_rmareceipt_Faxes)
-- [msdyn_rmareceiptproduct_Faxes](#BKMK_msdyn_rmareceiptproduct_Faxes)
-- [msdyn_rmasubstatus_Faxes](#BKMK_msdyn_rmasubstatus_Faxes)
-- [msdyn_rtv_Faxes](#BKMK_msdyn_rtv_Faxes)
-- [msdyn_rtvproduct_Faxes](#BKMK_msdyn_rtvproduct_Faxes)
-- [msdyn_rtvsubstatus_Faxes](#BKMK_msdyn_rtvsubstatus_Faxes)
-- [msdyn_shipvia_Faxes](#BKMK_msdyn_shipvia_Faxes)
-- [msdyn_timeoffrequest_Faxes](#BKMK_msdyn_timeoffrequest_Faxes)
-- [msdyn_warehouse_Faxes](#BKMK_msdyn_warehouse_Faxes)
-- [msdyn_workorder_Faxes](#BKMK_msdyn_workorder_Faxes)
-- [msdyn_workordercharacteristic_Faxes](#BKMK_msdyn_workordercharacteristic_Faxes)
-- [msdyn_workorderincident_Faxes](#BKMK_msdyn_workorderincident_Faxes)
-- [msdyn_workorderproduct_Faxes](#BKMK_msdyn_workorderproduct_Faxes)
-- [msdyn_workorderresourcerestriction_Faxes](#BKMK_msdyn_workorderresourcerestriction_Faxes)
-- [msdyn_workorderservice_Faxes](#BKMK_msdyn_workorderservice_Faxes)
-- [msdyn_workorderservicetask_Faxes](#BKMK_msdyn_workorderservicetask_Faxes)
 - [KnowledgeBaseRecord_Faxes](#BKMK_KnowledgeBaseRecord_Faxes)
 - [KnowledgeArticle_Faxes](#BKMK_KnowledgeArticle_Faxes)
 - [manualsla_fax](#BKMK_manualsla_fax)
@@ -1642,553 +1577,171 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_business_unit_fax_activities"></a> business_unit_fax_activities
 
-See businessunit Entity [business_unit_fax_activities](businessunit.md#BKMK_business_unit_fax_activities) One-To-Many relationship.
+See the [business_unit_fax_activities](businessunit.md#BKMK_business_unit_fax_activities) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_Lead_Faxes"></a> Lead_Faxes
 
 **Added by**: Lead Management Solution
 
-See lead Entity [Lead_Faxes](lead.md#BKMK_Lead_Faxes) One-To-Many relationship.
+See the [Lead_Faxes](lead.md#BKMK_Lead_Faxes) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_bookableresourcebooking_Faxes"></a> bookableresourcebooking_Faxes
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebooking Entity [bookableresourcebooking_Faxes](bookableresourcebooking.md#BKMK_bookableresourcebooking_Faxes) One-To-Many relationship.
+See the [bookableresourcebooking_Faxes](bookableresourcebooking.md#BKMK_bookableresourcebooking_Faxes) one-to-many relationship for the [bookableresourcebooking](bookableresourcebooking.md) entity.
 
 ### <a name="BKMK_bookableresourcebookingheader_Faxes"></a> bookableresourcebookingheader_Faxes
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebookingheader Entity [bookableresourcebookingheader_Faxes](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_Faxes) One-To-Many relationship.
+See the [bookableresourcebookingheader_Faxes](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_Faxes) one-to-many relationship for the [bookableresourcebookingheader](bookableresourcebookingheader.md) entity.
 
 ### <a name="BKMK_BulkOperation_Faxes"></a> BulkOperation_Faxes
 
 **Added by**: Marketing Solution
 
-See bulkoperation Entity [BulkOperation_Faxes](bulkoperation.md#BKMK_BulkOperation_Faxes) One-To-Many relationship.
+See the [BulkOperation_Faxes](bulkoperation.md#BKMK_BulkOperation_Faxes) one-to-many relationship for the [bulkoperation](bulkoperation.md) entity.
 
 ### <a name="BKMK_Campaign_Faxes"></a> Campaign_Faxes
 
 **Added by**: Marketing Solution
 
-See campaign Entity [Campaign_Faxes](campaign.md#BKMK_Campaign_Faxes) One-To-Many relationship.
+See the [Campaign_Faxes](campaign.md#BKMK_Campaign_Faxes) one-to-many relationship for the [campaign](campaign.md) entity.
 
 ### <a name="BKMK_CampaignActivity_Faxes"></a> CampaignActivity_Faxes
 
 **Added by**: Marketing Solution
 
-See campaignactivity Entity [CampaignActivity_Faxes](campaignactivity.md#BKMK_CampaignActivity_Faxes) One-To-Many relationship.
+See the [CampaignActivity_Faxes](campaignactivity.md#BKMK_CampaignActivity_Faxes) one-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_Contract_Faxes"></a> Contract_Faxes
 
 **Added by**: Service Solution
 
-See contract Entity [Contract_Faxes](contract.md#BKMK_Contract_Faxes) One-To-Many relationship.
+See the [Contract_Faxes](contract.md#BKMK_Contract_Faxes) one-to-many relationship for the [contract](contract.md) entity.
 
 ### <a name="BKMK_entitlement_Faxes"></a> entitlement_Faxes
 
 **Added by**: Service Solution
 
-See entitlement Entity [entitlement_Faxes](entitlement.md#BKMK_entitlement_Faxes) One-To-Many relationship.
+See the [entitlement_Faxes](entitlement.md#BKMK_entitlement_Faxes) one-to-many relationship for the [entitlement](entitlement.md) entity.
 
 ### <a name="BKMK_entitlementtemplate_Faxes"></a> entitlementtemplate_Faxes
 
 **Added by**: Service Solution
 
-See entitlementtemplate Entity [entitlementtemplate_Faxes](entitlementtemplate.md#BKMK_entitlementtemplate_Faxes) One-To-Many relationship.
+See the [entitlementtemplate_Faxes](entitlementtemplate.md#BKMK_entitlementtemplate_Faxes) one-to-many relationship for the [entitlementtemplate](entitlementtemplate.md) entity.
 
 ### <a name="BKMK_Incident_Faxes"></a> Incident_Faxes
 
 **Added by**: Service Solution
 
-See incident Entity [Incident_Faxes](incident.md#BKMK_Incident_Faxes) One-To-Many relationship.
+See the [Incident_Faxes](incident.md#BKMK_Incident_Faxes) one-to-many relationship for the [incident](incident.md) entity.
 
 ### <a name="BKMK_site_Faxes"></a> site_Faxes
 
 **Added by**: Service Solution
 
-See site Entity [site_Faxes](site.md#BKMK_site_Faxes) One-To-Many relationship.
+See the [site_Faxes](site.md#BKMK_site_Faxes) one-to-many relationship for the [site](site.md) entity.
 
 ### <a name="BKMK_service_faxes"></a> service_faxes
 
 **Added by**: Service Solution
 
-See service Entity [service_faxes](service.md#BKMK_service_faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_playbookinstance_Faxes"></a> msdyn_playbookinstance_Faxes
-
-**Added by**: Playbook Solution
-
-See msdyn_playbookinstance Entity [msdyn_playbookinstance_Faxes](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_Faxes) One-To-Many relationship.
+See the [service_faxes](service.md#BKMK_service_faxes) one-to-many relationship for the [service](service.md) entity.
 
 ### <a name="BKMK_Invoice_Faxes"></a> Invoice_Faxes
 
 **Added by**: Sales Solution
 
-See invoice Entity [Invoice_Faxes](invoice.md#BKMK_Invoice_Faxes) One-To-Many relationship.
+See the [Invoice_Faxes](invoice.md#BKMK_Invoice_Faxes) one-to-many relationship for the [invoice](invoice.md) entity.
 
 ### <a name="BKMK_Opportunity_Faxes"></a> Opportunity_Faxes
 
 **Added by**: Sales Solution
 
-See opportunity Entity [Opportunity_Faxes](opportunity.md#BKMK_Opportunity_Faxes) One-To-Many relationship.
+See the [Opportunity_Faxes](opportunity.md#BKMK_Opportunity_Faxes) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_Quote_Faxes"></a> Quote_Faxes
 
 **Added by**: Sales Solution
 
-See quote Entity [Quote_Faxes](quote.md#BKMK_Quote_Faxes) One-To-Many relationship.
+See the [Quote_Faxes](quote.md#BKMK_Quote_Faxes) one-to-many relationship for the [quote](quote.md) entity.
 
 ### <a name="BKMK_SalesOrder_Faxes"></a> SalesOrder_Faxes
 
 **Added by**: Sales Solution
 
-See salesorder Entity [SalesOrder_Faxes](salesorder.md#BKMK_SalesOrder_Faxes) One-To-Many relationship.
+See the [SalesOrder_Faxes](salesorder.md#BKMK_SalesOrder_Faxes) one-to-many relationship for the [salesorder](salesorder.md) entity.
 
 ### <a name="BKMK_msdyn_postalbum_Faxes"></a> msdyn_postalbum_Faxes
 
 **Added by**: Activity Feeds Solution
 
-See msdyn_postalbum Entity [msdyn_postalbum_Faxes](msdyn_postalbum.md#BKMK_msdyn_postalbum_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingalertstatus_Faxes"></a> msdyn_bookingalertstatus_Faxes
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingalertstatus Entity [msdyn_bookingalertstatus_Faxes](msdyn_bookingalertstatus.md#BKMK_msdyn_bookingalertstatus_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingrule_Faxes"></a> msdyn_bookingrule_Faxes
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingrule Entity [msdyn_bookingrule_Faxes](msdyn_bookingrule.md#BKMK_msdyn_bookingrule_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourceterritory_Faxes"></a> msdyn_resourceterritory_Faxes
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_resourceterritory Entity [msdyn_resourceterritory_Faxes](msdyn_resourceterritory.md#BKMK_msdyn_resourceterritory_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_systemuserschedulersetting_Faxes"></a> msdyn_systemuserschedulersetting_Faxes
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_systemuserschedulersetting Entity [msdyn_systemuserschedulersetting_Faxes](msdyn_systemuserschedulersetting.md#BKMK_msdyn_systemuserschedulersetting_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroup_Faxes"></a> msdyn_timegroup_Faxes
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroup Entity [msdyn_timegroup_Faxes](msdyn_timegroup.md#BKMK_msdyn_timegroup_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroupdetail_Faxes"></a> msdyn_timegroupdetail_Faxes
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroupdetail Entity [msdyn_timegroupdetail_Faxes](msdyn_timegroupdetail.md#BKMK_msdyn_timegroupdetail_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_processnotes_Faxes"></a> msdyn_processnotes_Faxes
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_processnotes Entity [msdyn_processnotes_Faxes](msdyn_processnotes.md#BKMK_msdyn_processnotes_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projectteam_Faxes"></a> msdyn_projectteam_Faxes
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projectteam Entity [msdyn_projectteam_Faxes](msdyn_projectteam.md#BKMK_msdyn_projectteam_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreement_Faxes"></a> msdyn_agreement_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_agreement Entity [msdyn_agreement_Faxes](msdyn_agreement.md#BKMK_msdyn_agreement_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingdate_Faxes"></a> msdyn_agreementbookingdate_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingdate Entity [msdyn_agreementbookingdate_Faxes](msdyn_agreementbookingdate.md#BKMK_msdyn_agreementbookingdate_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingincident_Faxes"></a> msdyn_agreementbookingincident_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingincident Entity [msdyn_agreementbookingincident_Faxes](msdyn_agreementbookingincident.md#BKMK_msdyn_agreementbookingincident_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingproduct_Faxes"></a> msdyn_agreementbookingproduct_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingproduct Entity [msdyn_agreementbookingproduct_Faxes](msdyn_agreementbookingproduct.md#BKMK_msdyn_agreementbookingproduct_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingservice_Faxes"></a> msdyn_agreementbookingservice_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingservice Entity [msdyn_agreementbookingservice_Faxes](msdyn_agreementbookingservice.md#BKMK_msdyn_agreementbookingservice_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingservicetask_Faxes"></a> msdyn_agreementbookingservicetask_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingservicetask Entity [msdyn_agreementbookingservicetask_Faxes](msdyn_agreementbookingservicetask.md#BKMK_msdyn_agreementbookingservicetask_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingsetup_Faxes"></a> msdyn_agreementbookingsetup_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingsetup Entity [msdyn_agreementbookingsetup_Faxes](msdyn_agreementbookingsetup.md#BKMK_msdyn_agreementbookingsetup_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicedate_Faxes"></a> msdyn_agreementinvoicedate_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicedate Entity [msdyn_agreementinvoicedate_Faxes](msdyn_agreementinvoicedate.md#BKMK_msdyn_agreementinvoicedate_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoiceproduct_Faxes"></a> msdyn_agreementinvoiceproduct_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoiceproduct Entity [msdyn_agreementinvoiceproduct_Faxes](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_agreementinvoiceproduct_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicesetup_Faxes"></a> msdyn_agreementinvoicesetup_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicesetup Entity [msdyn_agreementinvoicesetup_Faxes](msdyn_agreementinvoicesetup.md#BKMK_msdyn_agreementinvoicesetup_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingtimestamp_Faxes"></a> msdyn_bookingtimestamp_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_bookingtimestamp Entity [msdyn_bookingtimestamp_Faxes](msdyn_bookingtimestamp.md#BKMK_msdyn_bookingtimestamp_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_customerasset_Faxes"></a> msdyn_customerasset_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_customerasset Entity [msdyn_customerasset_Faxes](msdyn_customerasset.md#BKMK_msdyn_customerasset_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_fieldservicesetting_Faxes"></a> msdyn_fieldservicesetting_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_fieldservicesetting Entity [msdyn_fieldservicesetting_Faxes](msdyn_fieldservicesetting.md#BKMK_msdyn_fieldservicesetting_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypecharacteristic_Faxes"></a> msdyn_incidenttypecharacteristic_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypecharacteristic Entity [msdyn_incidenttypecharacteristic_Faxes](msdyn_incidenttypecharacteristic.md#BKMK_msdyn_incidenttypecharacteristic_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypeproduct_Faxes"></a> msdyn_incidenttypeproduct_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypeproduct Entity [msdyn_incidenttypeproduct_Faxes](msdyn_incidenttypeproduct.md#BKMK_msdyn_incidenttypeproduct_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypeservice_Faxes"></a> msdyn_incidenttypeservice_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypeservice Entity [msdyn_incidenttypeservice_Faxes](msdyn_incidenttypeservice.md#BKMK_msdyn_incidenttypeservice_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryadjustment_Faxes"></a> msdyn_inventoryadjustment_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryadjustment Entity [msdyn_inventoryadjustment_Faxes](msdyn_inventoryadjustment.md#BKMK_msdyn_inventoryadjustment_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryadjustmentproduct_Faxes"></a> msdyn_inventoryadjustmentproduct_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryadjustmentproduct Entity [msdyn_inventoryadjustmentproduct_Faxes](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_inventoryadjustmentproduct_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryjournal_Faxes"></a> msdyn_inventoryjournal_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryjournal Entity [msdyn_inventoryjournal_Faxes](msdyn_inventoryjournal.md#BKMK_msdyn_inventoryjournal_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventorytransfer_Faxes"></a> msdyn_inventorytransfer_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_inventorytransfer Entity [msdyn_inventorytransfer_Faxes](msdyn_inventorytransfer.md#BKMK_msdyn_inventorytransfer_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_payment_Faxes"></a> msdyn_payment_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_payment Entity [msdyn_payment_Faxes](msdyn_payment.md#BKMK_msdyn_payment_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentdetail_Faxes"></a> msdyn_paymentdetail_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentdetail Entity [msdyn_paymentdetail_Faxes](msdyn_paymentdetail.md#BKMK_msdyn_paymentdetail_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentmethod_Faxes"></a> msdyn_paymentmethod_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentmethod Entity [msdyn_paymentmethod_Faxes](msdyn_paymentmethod.md#BKMK_msdyn_paymentmethod_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentterm_Faxes"></a> msdyn_paymentterm_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentterm Entity [msdyn_paymentterm_Faxes](msdyn_paymentterm.md#BKMK_msdyn_paymentterm_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_postalcode_Faxes"></a> msdyn_postalcode_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_postalcode Entity [msdyn_postalcode_Faxes](msdyn_postalcode.md#BKMK_msdyn_postalcode_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_productinventory_Faxes"></a> msdyn_productinventory_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_productinventory Entity [msdyn_productinventory_Faxes](msdyn_productinventory.md#BKMK_msdyn_productinventory_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorder_Faxes"></a> msdyn_purchaseorder_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorder Entity [msdyn_purchaseorder_Faxes](msdyn_purchaseorder.md#BKMK_msdyn_purchaseorder_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderbill_Faxes"></a> msdyn_purchaseorderbill_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderbill Entity [msdyn_purchaseorderbill_Faxes](msdyn_purchaseorderbill.md#BKMK_msdyn_purchaseorderbill_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderproduct_Faxes"></a> msdyn_purchaseorderproduct_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderproduct Entity [msdyn_purchaseorderproduct_Faxes](msdyn_purchaseorderproduct.md#BKMK_msdyn_purchaseorderproduct_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderreceipt_Faxes"></a> msdyn_purchaseorderreceipt_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderreceipt Entity [msdyn_purchaseorderreceipt_Faxes](msdyn_purchaseorderreceipt.md#BKMK_msdyn_purchaseorderreceipt_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderreceiptproduct_Faxes"></a> msdyn_purchaseorderreceiptproduct_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderreceiptproduct Entity [msdyn_purchaseorderreceiptproduct_Faxes](msdyn_purchaseorderreceiptproduct.md#BKMK_msdyn_purchaseorderreceiptproduct_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseordersubstatus_Faxes"></a> msdyn_purchaseordersubstatus_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseordersubstatus Entity [msdyn_purchaseordersubstatus_Faxes](msdyn_purchaseordersubstatus.md#BKMK_msdyn_purchaseordersubstatus_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingincident_Faxes"></a> msdyn_quotebookingincident_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingincident Entity [msdyn_quotebookingincident_Faxes](msdyn_quotebookingincident.md#BKMK_msdyn_quotebookingincident_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingproduct_Faxes"></a> msdyn_quotebookingproduct_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingproduct Entity [msdyn_quotebookingproduct_Faxes](msdyn_quotebookingproduct.md#BKMK_msdyn_quotebookingproduct_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingservice_Faxes"></a> msdyn_quotebookingservice_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingservice Entity [msdyn_quotebookingservice_Faxes](msdyn_quotebookingservice.md#BKMK_msdyn_quotebookingservice_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingservicetask_Faxes"></a> msdyn_quotebookingservicetask_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingservicetask Entity [msdyn_quotebookingservicetask_Faxes](msdyn_quotebookingservicetask.md#BKMK_msdyn_quotebookingservicetask_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rma_Faxes"></a> msdyn_rma_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_rma Entity [msdyn_rma_Faxes](msdyn_rma.md#BKMK_msdyn_rma_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmaproduct_Faxes"></a> msdyn_rmaproduct_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_rmaproduct Entity [msdyn_rmaproduct_Faxes](msdyn_rmaproduct.md#BKMK_msdyn_rmaproduct_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmareceipt_Faxes"></a> msdyn_rmareceipt_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_rmareceipt Entity [msdyn_rmareceipt_Faxes](msdyn_rmareceipt.md#BKMK_msdyn_rmareceipt_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmareceiptproduct_Faxes"></a> msdyn_rmareceiptproduct_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_rmareceiptproduct Entity [msdyn_rmareceiptproduct_Faxes](msdyn_rmareceiptproduct.md#BKMK_msdyn_rmareceiptproduct_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmasubstatus_Faxes"></a> msdyn_rmasubstatus_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_rmasubstatus Entity [msdyn_rmasubstatus_Faxes](msdyn_rmasubstatus.md#BKMK_msdyn_rmasubstatus_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtv_Faxes"></a> msdyn_rtv_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_rtv Entity [msdyn_rtv_Faxes](msdyn_rtv.md#BKMK_msdyn_rtv_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtvproduct_Faxes"></a> msdyn_rtvproduct_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_rtvproduct Entity [msdyn_rtvproduct_Faxes](msdyn_rtvproduct.md#BKMK_msdyn_rtvproduct_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtvsubstatus_Faxes"></a> msdyn_rtvsubstatus_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_rtvsubstatus Entity [msdyn_rtvsubstatus_Faxes](msdyn_rtvsubstatus.md#BKMK_msdyn_rtvsubstatus_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_shipvia_Faxes"></a> msdyn_shipvia_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_shipvia Entity [msdyn_shipvia_Faxes](msdyn_shipvia.md#BKMK_msdyn_shipvia_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timeoffrequest_Faxes"></a> msdyn_timeoffrequest_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_timeoffrequest Entity [msdyn_timeoffrequest_Faxes](msdyn_timeoffrequest.md#BKMK_msdyn_timeoffrequest_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_warehouse_Faxes"></a> msdyn_warehouse_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_warehouse Entity [msdyn_warehouse_Faxes](msdyn_warehouse.md#BKMK_msdyn_warehouse_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorder_Faxes"></a> msdyn_workorder_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_workorder Entity [msdyn_workorder_Faxes](msdyn_workorder.md#BKMK_msdyn_workorder_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workordercharacteristic_Faxes"></a> msdyn_workordercharacteristic_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_workordercharacteristic Entity [msdyn_workordercharacteristic_Faxes](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderincident_Faxes"></a> msdyn_workorderincident_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderincident Entity [msdyn_workorderincident_Faxes](msdyn_workorderincident.md#BKMK_msdyn_workorderincident_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderproduct_Faxes"></a> msdyn_workorderproduct_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderproduct Entity [msdyn_workorderproduct_Faxes](msdyn_workorderproduct.md#BKMK_msdyn_workorderproduct_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderresourcerestriction_Faxes"></a> msdyn_workorderresourcerestriction_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderresourcerestriction Entity [msdyn_workorderresourcerestriction_Faxes](msdyn_workorderresourcerestriction.md#BKMK_msdyn_workorderresourcerestriction_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservice_Faxes"></a> msdyn_workorderservice_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservice Entity [msdyn_workorderservice_Faxes](msdyn_workorderservice.md#BKMK_msdyn_workorderservice_Faxes) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservicetask_Faxes"></a> msdyn_workorderservicetask_Faxes
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_Faxes](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_Faxes) One-To-Many relationship.
+See the [msdyn_postalbum_Faxes](msdyn_postalbum.md#BKMK_msdyn_postalbum_Faxes) one-to-many relationship for the [msdyn_postalbum](msdyn_postalbum.md) entity.
 
 ### <a name="BKMK_KnowledgeBaseRecord_Faxes"></a> KnowledgeBaseRecord_Faxes
 
-See knowledgebaserecord Entity [KnowledgeBaseRecord_Faxes](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_Faxes) One-To-Many relationship.
+See the [KnowledgeBaseRecord_Faxes](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_Faxes) one-to-many relationship for the [knowledgebaserecord](knowledgebaserecord.md) entity.
 
 ### <a name="BKMK_KnowledgeArticle_Faxes"></a> KnowledgeArticle_Faxes
 
-See knowledgearticle Entity [KnowledgeArticle_Faxes](knowledgearticle.md#BKMK_KnowledgeArticle_Faxes) One-To-Many relationship.
+See the [KnowledgeArticle_Faxes](knowledgearticle.md#BKMK_KnowledgeArticle_Faxes) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### <a name="BKMK_manualsla_fax"></a> manualsla_fax
 
-See sla Entity [manualsla_fax](sla.md#BKMK_manualsla_fax) One-To-Many relationship.
+See the [manualsla_fax](sla.md#BKMK_manualsla_fax) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_sla_fax"></a> sla_fax
 
-See sla Entity [sla_fax](sla.md#BKMK_sla_fax) One-To-Many relationship.
+See the [sla_fax](sla.md#BKMK_sla_fax) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_activity_pointer_fax"></a> activity_pointer_fax
 
-See activitypointer Entity [activity_pointer_fax](activitypointer.md#BKMK_activity_pointer_fax) One-To-Many relationship.
+See the [activity_pointer_fax](activitypointer.md#BKMK_activity_pointer_fax) one-to-many relationship for the [activitypointer](activitypointer.md) entity.
 
 ### <a name="BKMK_processstage_faxes"></a> processstage_faxes
 
-See processstage Entity [processstage_faxes](processstage.md#BKMK_processstage_faxes) One-To-Many relationship.
+See the [processstage_faxes](processstage.md#BKMK_processstage_faxes) one-to-many relationship for the [processstage](processstage.md) entity.
 
 ### <a name="BKMK_user_fax"></a> user_fax
 
-See systemuser Entity [user_fax](systemuser.md#BKMK_user_fax) One-To-Many relationship.
+See the [user_fax](systemuser.md#BKMK_user_fax) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_Account_Faxes"></a> Account_Faxes
 
-See account Entity [Account_Faxes](account.md#BKMK_Account_Faxes) One-To-Many relationship.
+See the [Account_Faxes](account.md#BKMK_Account_Faxes) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_lk_fax_createdonbehalfby"></a> lk_fax_createdonbehalfby
 
-See systemuser Entity [lk_fax_createdonbehalfby](systemuser.md#BKMK_lk_fax_createdonbehalfby) One-To-Many relationship.
+See the [lk_fax_createdonbehalfby](systemuser.md#BKMK_lk_fax_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_fax"></a> team_fax
 
-See team Entity [team_fax](team.md#BKMK_team_fax) One-To-Many relationship.
+See the [team_fax](team.md#BKMK_team_fax) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_lk_fax_createdby"></a> lk_fax_createdby
 
-See systemuser Entity [lk_fax_createdby](systemuser.md#BKMK_lk_fax_createdby) One-To-Many relationship.
+See the [lk_fax_createdby](systemuser.md#BKMK_lk_fax_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_Fax"></a> TransactionCurrency_Fax
 
-See transactioncurrency Entity [TransactionCurrency_Fax](transactioncurrency.md#BKMK_TransactionCurrency_Fax) One-To-Many relationship.
+See the [TransactionCurrency_Fax](transactioncurrency.md#BKMK_TransactionCurrency_Fax) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_lk_fax_modifiedby"></a> lk_fax_modifiedby
 
-See systemuser Entity [lk_fax_modifiedby](systemuser.md#BKMK_lk_fax_modifiedby) One-To-Many relationship.
+See the [lk_fax_modifiedby](systemuser.md#BKMK_lk_fax_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_Contact_Faxes"></a> Contact_Faxes
 
-See contact Entity [Contact_Faxes](contact.md#BKMK_Contact_Faxes) One-To-Many relationship.
+See the [Contact_Faxes](contact.md#BKMK_Contact_Faxes) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_lk_fax_modifiedonbehalfby"></a> lk_fax_modifiedonbehalfby
 
-See systemuser Entity [lk_fax_modifiedonbehalfby](systemuser.md#BKMK_lk_fax_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_fax_modifiedonbehalfby](systemuser.md#BKMK_lk_fax_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.fax?text=fax EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

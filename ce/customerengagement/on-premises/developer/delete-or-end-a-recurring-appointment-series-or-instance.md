@@ -1,5 +1,6 @@
 ---
 title: "Delete or end a recurring appointment series or instance | MicrosoftDocs"
+description: Learn how to delete or end a recurring appointment series or instance in Dynamics 365 Customer Engagement (on-premises).
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
@@ -19,7 +20,6 @@ ms.assetid: c07ed908-effe-404b-9925-467b31a29766
 caps.latest.revision: 18
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

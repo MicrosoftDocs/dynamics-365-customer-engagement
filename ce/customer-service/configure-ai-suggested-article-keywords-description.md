@@ -1,25 +1,19 @@
 ---
 title: Configure AI suggestions for article keywords and description | MicrosoftDocs
 description: Configure AI suggestions for article keywords and description in Dynamics 365 Customer Service.
-ms.date: 12/03/2021
+ms.date: 04/04/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Configure AI suggestions for article keywords and description
-
-## Introduction
 
 Correct metadata helps to locate articles that users search for. When authors create or update knowledge articles, AI suggestions for article keywords and descriptions can help them select the right metadata, thereby improving their productivity.
 
@@ -29,8 +23,7 @@ The key highlights of the AI suggestions feature are as follows:
 - Enable admins to select the source data (text only) fields that the AI model will use; the default fields are **Title** and **Content**.
 
 > [!NOTE]
-> The AI suggestions feature is currently available only in specific geographical locations. More information: [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md)
-
+> The AI suggestions feature is currently available only in specific geographical locations. More information: [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md).
 
 ## How AI suggestions for article keywords and descriptions work
 
@@ -63,15 +56,27 @@ The language used in AI-generated suggestions is based on the language that the 
 Ensure to meet the following requirements:
 
 - You have the System Administrator role.
-- Authors have the "AIB Roles" and "AIB SML Roles".
+- Authors have **Read** access to the **Keywords Description Suggestion Setting** custom entity.
 
 ## Enable AI suggestions for article keywords and description
 
-1. In Customer Service Hub, go to the **Service Management** site map, and select **Settings** under **Insights**.
+You can enable AI suggestions for article keywords and description in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
-2. In the **Suggestions for knowledge article authors** area, select **Manage**.
+1. Go to the **Insights** page.
 
-3. On the **Settings** tab in the **Summary** area, turn on the **Enable keywords and description suggestions** toggle. By default, the model is based on the **Title** and **Content** values specified in the **Data mapping** area under **Knowledge article data fields**.
+### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+* In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+  
+### [Customer Service Hub](#tab/customerservicehub)
+
+* In the site map, go to **Service Management**, and select **Settings** in **Insights**. The **Insights** page appears.
+
+---
+
+2. On the Insights page, in the **Suggestions for knowledge article authors** section, select **Manage**. The **Suggestions for knowledge article authors** page appears.
+
+3. On the **Settings** tab in the **Summary** area, set the **Enable keywords and description suggestions** toggle to **Yes**. By default, the model is based on the **Title** and **Content** values specified in the **Data mapping** area in **Knowledge article data fields**.
 
 4. Optional: Change the values for **Article title** and **Article content** if you don't want the model to use the default values. The AI model will use the data that corresponds to the values you select.
 

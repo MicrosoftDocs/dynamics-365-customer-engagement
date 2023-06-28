@@ -1,11 +1,10 @@
 ---
 title: "Set up skill-based routing | MicrosoftDocs"
 description: "Use the information to set up skill-based routing for unified routing in Customer Service."
-ms.date: 02/11/2022
+ms.date: 07/07/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Set up skill-based routing for unified routing
@@ -19,7 +18,7 @@ The steps to configure skill-based routing are as follows:
 3. [Assign agents to skills](setup-skills-assign-agents.md#assign-agents-to-skill).
 4. [Set exact or closest match as the default skill-matching algorithm for a workstream](create-workstreams.md#configure-work-distribution).
 5. Choose one of the following skill-classification methods:
-   - [Author manual classification rules to attach skills for a workstream](configure-work-classification.md#create-manual-skill-classification-rulesets).
+   - [Author logical classification rules to attach skills for a workstream](configure-work-classification.md#create-logical-skill-classification-rulesets).
    - [Set up intelligent skill finder model](#set-up-intelligent-skill-finder-model) and [author machine learning-based classification rules to attach skills](configure-work-classification.md#create-machine-learning-based-skill-classification-rulesets).
 6. [Choose out-of-the-box assignment method or author a custom assignment method for a queue](assignment-methods.md).
 7. [Enable skill control for the agent](allow-agents-update-skills.md).
@@ -123,17 +122,14 @@ Intelligent skill finder depends upon the custom AI Builder category classificat
 
  ## Create skill finder models
    
-You can set up the intelligent skill finder model rating models in the Customer Service admin center (preview) or Omnichannel admin center app. You can create as many models as your business requires.
+You can set up the intelligent skill finder model rating models in the Customer Service admin center or Omnichannel admin center app. You can create as many models as your business requires.
 
 **To create the skill finder model**
 
 1. In Dynamices 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
      - In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
@@ -181,6 +177,8 @@ To use the data from the Excel files, you must make sure of the following:
 - The model name in the application should match the name in the Training record column of the Excel file.
 
 - Name the files as msdyn_ocsitrainingdata.csv and msdyn_ocsitdskill.csv.
+
+- Ensure that the input data string is less than or equal to 5000 characters to avoid truncation.
   
 A sample of each file is as follows.
 
@@ -222,6 +220,6 @@ Perform the following steps to upload the data for training your model:
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Overview of unified routing](overview-unified-routing.md)  
-[FAQs on unified routing](unified-routing-faqs.md)  
+[FAQ on unified routing](unified-routing-faqs.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]  

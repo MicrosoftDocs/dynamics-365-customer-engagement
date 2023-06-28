@@ -9,14 +9,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Manage and apply roles to teams
@@ -33,7 +29,16 @@ To create a new team:
 1. The **Add new team** page opens. Enter the following details.
     - **Team name**: Give the team a name
     - **Business unit**: Select the business unit that members of this team belong to.
-    - **Administrator**: Select the person who will perform administrative tasks for the team, such as adding or removing members. The team admin has access to team-owned records, just like team members do, but the admin isn't shown elsewhere as a member of the team unless you also add them as a member.
+    - **Administrator**: Select the person who will perform administrative tasks for the team, such as adding or removing members. The team admin does not have access to team-owned records. To access team-owned records, the team admin needs to be added as a team member. 
+
+        The following lists the required privileges for a team admin to add or remove team members:
+       
+        **Team** table = **Append** and **Append To**
+        
+        **User** table = **Append** and **Append To**
+        
+        The privilege depth of these tables is dependent on the team membership of Team. Use **Organization** depth if Team members can be from different business units otherwise use **Business Unit** depth if Team members are only from the same business unit as the team admin.
+        
     - **Team type**: Select the type of team you are creating. For details about the various types, see [Manage teams](/power-platform/admin/manage-teams).
     - **Azure AD object ID for a group**: If you are using an AAD-related **Team type**, then specify the relevant Azure AD object ID here.
     - **Description**: Describe the team.
@@ -63,8 +68,5 @@ To apply security roles to teams, and to customize each role:
 For more information about managing teams and working with security roles, see [Manage teams](/power-platform/admin/manage-teams) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 For more information about the security roles included with the Dynamics 365 Marketing, see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md).
-
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

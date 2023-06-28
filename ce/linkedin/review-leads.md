@@ -5,7 +5,6 @@ ms.date: 04/02/2018
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-LinkedIn
 keywords: lead, lead gen form, sponsored content, linkedin, dashboard
@@ -13,9 +12,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365LinkedIn
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: c372e325-991c-4178-a507-f7f4dfcc0dd5
@@ -56,7 +52,7 @@ To see all form submissions, go to **Sales** > **[!include[LinkedIn](../includes
 
 ## Establish and grow relationships with [!include[LinkedIn](../includes/pn-linkedin.md)] Sales Navigator
 
-The [LinkedIn Sales Navigator for Microsoft Dynamics](https://appsource.microsoft.com/product/dynamics-365/linkedin.acdbc404-e99f-4c3e-927f-52fa28a6a682) is an additional integration with separate requirements which might be a useful addition if your organization is already using [!include[LinkedIn](../includes/pn-linkedin.md)] Sales Navigator.
+The [LinkedIn Sales Navigator for Microsoft Dynamics](https://appsource.microsoft.com/product/dynamics-365/mscrm.5ba43194-adc5-4c13-b40d-af04f549d5da?tab=overview) is an additional integration with separate requirements which might be a useful addition if your organization is already using [!include[LinkedIn](../includes/pn-linkedin.md)] Sales Navigator.
 
 To find out more about the capabilities or request a demo, head over to [Sales Navigator from LinkedIn Sales Solutions](https://business.linkedin.com/sales-solutions/sales-navigator). 
 

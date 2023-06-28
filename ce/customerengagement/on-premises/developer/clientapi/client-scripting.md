@@ -1,12 +1,11 @@
 ---
 title: "Client scripting in Customer Engagement using JavaScript | MicrosoftDocs"
-description: "Learn how to use Client API in Dynamics 365 Customer Engagement (on-premises) to apply custom business process logic for displaying data on a form."
+description: Learn about using JavaScript client-side scripting in Customer Engagement (on-premises) to apply custom business process logic for displaying data on a form.
 ms.date: 06/27/2019
 
 ms.topic: article
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
 search.audienceType: 
   - developer
 

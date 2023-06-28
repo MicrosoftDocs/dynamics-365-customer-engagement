@@ -1,11 +1,10 @@
 ---
 title: "Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Learn what Dynamics 365 Channel Integration Framework 1.0 is and how to get started using it."
-ms.date: 01/21/2022
+ms.date: 09/21/2022
 ms.topic: overview
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -32,7 +31,7 @@ Organizations expect their call centers to do more with fewer resources, and the
   - The dependency of telephony providers on the operating system and web browsers.
   - Customizing the telephony provider based on the business and process workflows.
 
-## Advantages and value propositions of the Dynamics 365 Channel Integration Framework
+## Advantages and value propositions of Dynamics 365 Channel Integration Framework 1.0
 
 Here are the capabilities offered by Dynamics 365 Channel Integration Framework 1.0:
 
@@ -76,13 +75,9 @@ Here are the capabilities offered by Dynamics 365 Channel Integration Framework 
 
 ### See also
 
-[Architecture overview of Channel Integration Framework](architecture-overview-channel-integration-framework.md)
-
-[System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)
-
-[FAQs](faq-channel-integration-framework.md)
-
-[Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
-
+[Architecture of Dynamics 365 Channel Integration Framework 1.0](architecture-overview-channel-integration-framework.md)  
+[System requirements of Dynamics 365 Channel Integration Framework 1.0](system-requirements-channel-integration-framework.md)  
+[FAQs](faq-channel-integration-framework.md)  
+[Get Dynamics 365 Channel Integration Framework 1.0](get-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

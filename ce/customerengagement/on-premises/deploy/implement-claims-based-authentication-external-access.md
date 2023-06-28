@@ -14,7 +14,6 @@ ms.assetid: d3fc4925-4aaa-4f42-bd5b-2efeab0dd7c2
 caps.latest.revision: 13
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Implement claims-based authentication: external access
 

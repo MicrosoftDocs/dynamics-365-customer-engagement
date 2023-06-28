@@ -1,24 +1,22 @@
 ---
 title: "Add Relationship intelligence widgets to custom forms"
 description: "If you're using custom forms, add the health score and who knows whom widgets manually to the form."
-ms.date: 02/08/2022
+ms.date: 09/19/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Add Relationship intelligence widgets to custom forms
 
 By default, the health score widget and who knows whom widget are available only in the out-of-the-box **Sales Insights** form. If you're using customized forms, you can display these widgets on your custom forms by manually adding them to your form.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Add widgets to a custom form
 
@@ -81,6 +79,8 @@ To add the health score widget or who knows whom widget to your custom form, fol
     >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.
 
 9. Save and publish the form.
+    > [!NOTE]
+    > If you'd like roles other than Salesperson and Sales Manager to access the who knows whom widget, [grant access to those roles](grant-access-wkw.md). 
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

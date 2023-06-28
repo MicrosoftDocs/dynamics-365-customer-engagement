@@ -1,24 +1,19 @@
 ---
-title: "Manage user compliance settings (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to manage real-time marketing compliance settings in Dynamics 365 Marketing."
+title: Manage user compliance settings in real-time marketing
+description: Learn how to manage real-time marketing compliance settings in Dynamics 365 Marketing.
 ms.date: 10/04/2021
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
-# Manage user compliance settings
+# Manage user compliance settings in real-time marketing
 
 Managing compliance settings is key to ensuring your business processes conform with privacy laws such as the GDPR. This article gives an overview of administrator compliance setup, preference page setup, and outbound consent settings.
 
@@ -121,8 +116,8 @@ After making changes to the **Outbound consent** settings, select **Save** in th
 
 To use this feature in customer journeys:
 
-1) Gather consent from your end users. Consent should be captured in the *Consent given* field.
-2) Set a minimum consent level for the customer journey.
+1. Gather consent from your end users. Consent should be captured in the *Consent given* field.
+1. Set a minimum consent level for the customer journey.
 
 You can find the audit data for the *Consent given* field in a user's contact record.
 
@@ -130,3 +125,5 @@ You can find the audit data for the *Consent given* field in a user's contact re
 
 [Work with data protection and GDPR](gdpr.md)  
 [Use GDPR features](gdpr-use-features.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

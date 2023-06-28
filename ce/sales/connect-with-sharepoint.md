@@ -1,33 +1,43 @@
 ---
-title: "Configure Dynamics 365 Sales to integrate with SharePoint | MicrosoftDocs"
+title: "Integrate with SharePoint | MicrosoftDocs"
 description: "Allow your users to store sales documents in SharePoint and collaborate on them by integrating Dynamics 365 Sales with SharePoint."
-ms.date: 10/01/2019
+ms.date: 07/06/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
 
-# Configure Dynamics 365 Sales to integrate with SharePoint
+# Integrate with SharePoint
 
 Store the documents related to Dynamics 365 Sales entity records in SharePoint. Quickly access, share, and manage these documents from
 the Sales app by integrating with SharePoint Online.
 
 ## License and role requirements
 
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrtor, Sales Manager, Sales Professional Manager, or Vice President of Sales <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Configure the integration
 
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
+
+### Prerequisites
+
+To be able to configure SharePoint, you must have:
+
+-   Microsoft 365 subscription
+
+-   SharePoint Online subscription
+
+
+### Steps to integrate
 
 1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**. 
 
@@ -41,11 +51,10 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 To be able to configure SharePoint, you must have:
 
--   Sales Professional Manager or System Administrator role
-
 -   Microsoft 365 subscription
 
 -   SharePoint Online subscription
+
 
 ### Integrate with SharePoint
 

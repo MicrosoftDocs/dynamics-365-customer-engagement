@@ -1,11 +1,10 @@
 ---
 title: "Edit an active sequence (Sales Insights)"
 description: "Edit an active sequence by creating new versions of the sequence without deactivating it in sales accelerator."
-ms.date: 10/26/2021
+ms.date: 08/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Edit an active sequence and view version history 
 
@@ -15,37 +14,34 @@ When you've changed the process of an active sequence, you can create a new vers
 >The records that were connected to a previous version of the sequence remain connected to that previous version.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Edit an active sequence
 
 1.	Sign in to your Dynamics 365 Sales Hub app.   
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
 3.	Under **Sales accelerator**, select **Sequences**.   
-4.	On the **Sequences** page, go to the **Active** tab, and open the sequence for which you want to create a new version.   
-
-    > [!div class="mx-imgBorder"]
-    > ![Select an active sequence to edit](media/sequence-edit-active-select-sequence.png "Select an active sequence to edit")    
- 
+4.	On the **Sequences** page, open the sequence that is in active state.    
 5.	On the sequence view page, select **Edit sequence**.
 
     > [!div class="mx-imgBorder"]
     > ![Edit a sequence](media/sequence-edit-active-select-edit-sequence.png "Edit a sequence")    
  
-    A confirmation message is displayed. Select **OK**.
+1. On the confirmation message, select **OK**.
 
     > [!div class="mx-imgBorder"]
     > ![Confirmation message to edit a sequence](media/sequence-edit-active-sequence-confirmation.png "Confirmation message to edit a sequence")    
+
+    A version is created for the sequence.
  
-6.	Edit the sequence as required, and then select **Save**.
+6.	Edit the sequence as required, and then select **Activate**.
 
     > [!div class="mx-imgBorder"]
-    > ![Save the edited sequence](media/sequence-edit-active-sequence-save.png "Save the edited sequence")     
+    > ![Activate the edited sequence](media/sequence-edit-active-sequence-activate.png "Activate the edited sequence")     
 
 7.	On the confirmation message, provide a description of the change, and then select **Save**.
 
@@ -58,30 +54,34 @@ A new version of the existing sequence is created and saved.
 
 Viewing the version history helps you to understand the number of versions that have been created for a sequence, and view the records that are connected to each version.    
 
-1.	Open the sequence for which you want to view the version history.
-2.	On the sequence view page, select the **Connected *records*** tab. In this example, we selected the **Connected leads** tab.    
+1.	Open the sequence.
 
-    A list of leads that are connected to the sequence is displayed, along with the version to which they're connected.   
-
-    > [!div class="mx-imgBorder"]
-    > ![View the list of leads with associated versions](media/sequence-version-view-leads-list.png "View the list of leads with associated versions")     
- 
-3.	Select **Version history**.   
+1.	To view the version history, select **Version history**.   
 
     A list of versions that exist for the sequence is displayed on the right pane.
 
     > [!div class="mx-imgBorder"]
     > ![Select version history option](media/sequence-version-select-version-history.png "Select version history option")
 
+    The current selected version is highlight with a Blue line corresponding to the version name.  
+
     >[!NOTE]
     >If there are no leads connected to the sequence, and you created a new version, only the latest version is displayed in the list.
+
+1.	To view the version of the sequence to which a record is connected, go to the **Connected *records*** tab. In this example, we selected the **Connected leads** tab.    
+
+    A list of leads that are connected to the sequence is displayed, along with the version to which they're connected.   
+
+    > [!div class="mx-imgBorder"]
+    > ![View the list of leads with associated versions](media/sequence-version-view-leads-list.png "View the list of leads with associated versions")     
+ 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 
-[Edit a sequence](edit-a-sequence.md)  
-
+[Edit a sequence](edit-a-sequence.md)    
+[Create and activate a sequence](create-and-activate-a-sequence.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

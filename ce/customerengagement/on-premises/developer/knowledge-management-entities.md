@@ -1,6 +1,6 @@
 ---
 title: "Knowledge management entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: ""
+description: Learn about knowledge management entities and how to insert and configure a knowledge base search control in Customer Engagement (on-premises).
 ms.custom: 
 ms.date: 03/09/2021
 ms.reviewer: pehecke
@@ -21,7 +21,6 @@ helpviewer_keywords:
 ms.assetid: 7f481592-217a-45a7-9604-4995c142d295
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
 search.audienceType: 
   - developer
 

@@ -2,7 +2,7 @@
 title: "Connect Exchange Online to Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Exchange Online."
 ms.custom: ""
-ms.date: "03/08/2022"
+ms.date: "10/07/2022"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -25,6 +25,7 @@ This topic describes how to configure server-based authentication between Dynami
 ![Dynamics 365 (on-premises) and Exchange Online.](media/dynamics-365-onprem-exchange-online.png)
 
 ## Permissions required
+
 Microsoft Dynamics 365
 - System Administrator security role.
 - If you are using a self-signed certificate for evaluation purposes, you must have local Administrators group membership on the computer where Microsoft Dynamics 365 Server is running.
@@ -44,21 +45,22 @@ Follow the steps in the order provided to set up Dynamics 365 (on-premises) with
 > The steps described here must be completed in the order provided. If a task is not completed, such as a Windows PowerShell command that returns an error message, the issue must be resolved before you continue to the next command, task, or step.
 
 ### Verify prerequisites
+
 Before you configure Dynamics 365 (on-premises) and Exchange Online for server-based authentication, the following prerequisites must be met:
-- The Dynamics 365 (on-premises) deployment must already be configured and available through the Internet. More information: [Configure IFD for Dynamics 365 Customer Engagement (on-premises)](../deploy/configure-ifd-for-dynamics-365.md)
 - Microsoft Dynamics 365 Hybrid Connector. The Microsoft Dynamics 365 Hybrid Connector is a free connector that lets you use server-based authentication with Microsoft Dynamics 365 (on-premises) and Exchange Online. More information: [Microsoft Dynamics 365 Hybrid Connector](https://signup.microsoft.com/Signup?OfferId=2d11d538-945d-48c6-b609-a5ce54ce7b18&pc=76ac7a4d-8346-4419-959c-d3896e89b3c9)
 - An x509 digital certificate issued by a trusted certificate authority that will be used to authenticate between Dynamics 365 (on-premises) and Exchange Online. The certificate should have a [KeySpec value](/windows-server/identity/ad-fs/technical-reference/ad-fs-and-keyspec-property) of 1. If you are evaluating server-based authentication, you can use a self-signed certificate.
 - Verify that all servers that run the Asynchronous Processing Service have the certificate that is used for Server-to-Server authentication.
-- Verify that the account that runs the Asynchronous Processing Service has read access to private keys of the certificate.
+- Verify that the account that runs the Asynchronous Processing Service has read access to private keys of the certificate. More information: [Grant the Asynchronous Processing Service service account read access to the certificate](#grant-the-asynchronous-processing-service-service-account-read-access-to-the-certificate)
 
 ### Configure server-based authentication
+
 1. On the Microsoft Dynamics 365 Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
 2. Prepare the certificate.
 
    Change the directory to the location of the CertificateReconfiguration.ps1 file (by default it is C:\Program Files\Microsoft Dynamics CRM\Tools).
 
 ```powershell
-.\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName
+$CertificateScriptWithCommand = ".\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName"
 Invoke-Expression -command $CertificateScriptWithCommand
 ```
 
@@ -183,6 +185,7 @@ If you’ve run **Test Connection** and have issues with the Exchange Online (Hy
 You can find information on recurring issues and other troubleshooting information in [Blog: Test and Enable Mailboxes in Microsoft Dynamics CRM 2015](https://blogs.msdn.com/b/crm/archive/2015/08/31/test-and-enable-mailboxes-in-microsoft-dynamics-crm-2015.aspx) and [Troubleshooting and monitoring server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md).
 
 ## Configure default email processing and synchronization
+
 Set server-side synchronization to be the default configuration method.
 
 1. Go to **Settings** > **Email Configuration** > **Email Configuration Settings**.
@@ -202,6 +205,7 @@ Set server-side synchronization to be the default configuration method.
 3. Select **OK**.
  
 ## Configure mailboxes
+
 To set mailboxes to use the default profile, you must first set the Server Profile and the delivery method for email, appointments, contacts, and tasks.
 
 In addition to administrator permissions, you must have Read and Write privileges on the Mailbox entity to set the delivery method for the mailbox.
@@ -225,6 +229,7 @@ Select one of the following methods:
 7. Select **Change**.
  
 ## Approve email
+
 You need to approve each user mailbox or queue before that mailbox can process email. 
 1. Go to **Settings** > **Email Configuration** > **Mailboxes**.
 2. Select **Active Mailboxes**.
@@ -232,6 +237,7 @@ You need to approve each user mailbox or queue before that mailbox can process e
 4. Select **OK**. 
 
 ## Test configuration of mailboxes
+
 1. Go to **Settings** > **Email Configuration** > **Mailboxes**.
 2. Select **Active Mailboxes**.
 3. Select the mailboxes you want to test, and then select **Test & Enable Mailboxes**.
@@ -254,7 +260,21 @@ When you test the email configuration, an asynchronous job runs in the backgroun
 > [!TIP]
 > If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](../admin/when-would-want-use-check-box.md).
 
+## Grant the Asynchronous Processing Service service account read access to the certificate
+
+This procedure explains how to grant the Asynchronous Processing Service service account read access to private keys of the certificate.
+
+1. On the computer where the certificate is located, in the search box enter mmc.exe, and then press Enter.
+1. In Microsoft Management Console, select **File**, and then select **Add/Remove Snap-in**.
+1. Select **Certificates**, select **Add**, select **Computer account**, select **Next**, select **Local computer**, and then select **Finish**.
+1. Select **OK** to close the **Add or Remove Snap-ins** dialog.
+1. Expand **Certificates – (Local Computer)**, expand **Personal**, and then select **Certificates**.
+1. Right-click the certificate you're using for authentication with Exchange Online, then select **All Tasks** > **Manage Private Keys**.
+1. Select **Add**, search for and select the service account the Asynchronous Processing Service runs under, **Allow Read** permission, and then select **OK**.
+1. Restart the **Microsoft Dynamics CRM Asynchronous Processing Service** and the **Microsoft Dynamics CRM Asynchronous Processing Service (maintenance)** services.
+
 ## See also
+
 [Server-side synchronization](../admin/server-side-synchronization.md) </br>
 [Troubleshooting and monitoring server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)
 

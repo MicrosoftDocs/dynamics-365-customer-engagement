@@ -1,32 +1,30 @@
 ---
-title: "TraceLog Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the TraceLog entity."
-ms.date: 04/02/2019
-
+title: "Trace (TraceLog)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Trace (TraceLog)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# TraceLog Entity Reference
+
+# Trace (TraceLog)  entity reference
 
 A trace log.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/tracelogs<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/tracelogs(*tracelogid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/tracelogs(*tracelogid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/tracelogs<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -82,14 +80,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### CanBeDeleted Options
+#### CanBeDeleted Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -155,14 +153,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsUnique Options
+#### IsUnique Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -179,13 +177,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-#### Level Options
+#### Level Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Information|
-|2|Warning|
-|3|Error|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Information||
+|2|Warning||
+|3|Error||
 
 
 
@@ -376,14 +374,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### TraceStatus Options
+#### TraceStatus Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Success|
-|0|Failure|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Success||
+|0|Failure||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -788,7 +786,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_tracelog_parent_tracelog"></a> tracelog_parent_tracelog
 
-Same as tracelog entity [tracelog_parent_tracelog](tracelog.md#BKMK_tracelog_parent_tracelog) Many-To-One relationship.
+Same as the [tracelog_parent_tracelog](tracelog.md#BKMK_tracelog_parent_tracelog) many-to-one relationship for the [tracelog](tracelog.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -818,41 +816,37 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_tracelog_EmailServerProfile"></a> tracelog_EmailServerProfile
 
-See emailserverprofile Entity [tracelog_EmailServerProfile](emailserverprofile.md#BKMK_tracelog_EmailServerProfile) One-To-Many relationship.
+See the [tracelog_EmailServerProfile](emailserverprofile.md#BKMK_tracelog_EmailServerProfile) one-to-many relationship for the [emailserverprofile](emailserverprofile.md) entity.
 
 ### <a name="BKMK_tracelog_Mailbox"></a> tracelog_Mailbox
 
-See mailbox Entity [tracelog_Mailbox](mailbox.md#BKMK_tracelog_Mailbox) One-To-Many relationship.
+See the [tracelog_Mailbox](mailbox.md#BKMK_tracelog_Mailbox) one-to-many relationship for the [mailbox](mailbox.md) entity.
 
 ### <a name="BKMK_organization_tracelog"></a> organization_tracelog
 
-See organization Entity [organization_tracelog](organization.md#BKMK_organization_tracelog) One-To-Many relationship.
+See the [organization_tracelog](organization.md#BKMK_organization_tracelog) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_lk_tracelog_createdonbehalfby"></a> lk_tracelog_createdonbehalfby
 
-See systemuser Entity [lk_tracelog_createdonbehalfby](systemuser.md#BKMK_lk_tracelog_createdonbehalfby) One-To-Many relationship.
+See the [lk_tracelog_createdonbehalfby](systemuser.md#BKMK_lk_tracelog_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_tracelog_modifiedby"></a> lk_tracelog_modifiedby
 
-See systemuser Entity [lk_tracelog_modifiedby](systemuser.md#BKMK_lk_tracelog_modifiedby) One-To-Many relationship.
+See the [lk_tracelog_modifiedby](systemuser.md#BKMK_lk_tracelog_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_tracelog_createdby"></a> lk_tracelog_createdby
 
-See systemuser Entity [lk_tracelog_createdby](systemuser.md#BKMK_lk_tracelog_createdby) One-To-Many relationship.
+See the [lk_tracelog_createdby](systemuser.md#BKMK_lk_tracelog_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_tracelog_parent_tracelog"></a> tracelog_parent_tracelog
 
-See tracelog Entity [tracelog_parent_tracelog](tracelog.md#BKMK_tracelog_parent_tracelog) One-To-Many relationship.
+See the [tracelog_parent_tracelog](tracelog.md#BKMK_tracelog_parent_tracelog) one-to-many relationship for the [tracelog](tracelog.md) entity.
 
 ### <a name="BKMK_lk_tracelog_modifiedonbehalfby"></a> lk_tracelog_modifiedonbehalfby
 
-See systemuser Entity [lk_tracelog_modifiedonbehalfby](systemuser.md#BKMK_lk_tracelog_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_tracelog_modifiedonbehalfby](systemuser.md#BKMK_lk_tracelog_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.tracelog?text=tracelog EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

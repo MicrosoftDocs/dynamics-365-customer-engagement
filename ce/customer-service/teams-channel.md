@@ -1,14 +1,13 @@
 ---
-title: "Teams channel | MicrosoftDocs"
-description: "This topic provides an overview about Teams channel and incoming chat notifications in the agent dashboard for Omnichannel for Customer Service."
-ms.date: 10/12/2020
+title: "Use Microsoft Teams channel | MicrosoftDocs"
+description: "This article provides an overview of Microsoft Teams channel and incoming chat notifications in the agent dashboard for Omnichannel for Customer Service."
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
-# Use a Microsoft Teams channel
+# Use Microsoft Teams channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -24,12 +23,13 @@ Make sure that your administrator has configured a Teams channel.
 
 You'll receive a notification when a customer requests a conversation through Teams. When you accept the Teams chat request, a session is started, and you'll see the communication panel in which you can exchange messages with the customer.
 
+
 > [!div class=mx-imgBorder]
 > ![Teams chat agent notification.](media/incoming-chat-teams.png "Teams chat agent notification")
 
 In Omnichannel for Customer Service, you can:
 
-- [View a customer summary](oc-customer-summary.md).
+- [View customer information on Active Conversation form](oc-customer-summary.md).
 - [View the communication panel](oc-conversation-control.md).
 - [Use call options and visual engagement in live chat](call-options-visual-engagement.md).
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md).
@@ -47,8 +47,10 @@ In Omnichannel for Customer Service, you can:
 - [Manage presence status](oc-manage-presence-status.md).
 - [Search for transcripts](oc-search-transcipts.md).
 - [View conversation and session forms](oc-view-activity-types.md).
-- [View the customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md).
+- [View the active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md).
 - [Search for transcripts](oc-search-transcipts.md).
+
+If your administrator has enabled the option to initiate voice and video calls (in preview) during the conversation, the options to use voice and video will be available on the communication panel menu.
 
 ### See also
 

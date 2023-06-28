@@ -14,7 +14,6 @@ ms.assetid: 1ac6ca26-0326-4b56-8708-70f6dff845c9
 caps.latest.revision: 69
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 tags: 
   - aug2017
   - MigrationHO
@@ -81,7 +80,7 @@ Looking for more than just developer information? Here are other sites and point
 - [Dynamics 365 Customer Engagement Documentation](/dynamics365/)
 - [Dynamics 365 Customer Engagement pre-sales information](https://www.microsoft.com/dynamics/default.aspx)
 - [Dynamics 365 Customer Engagement: Deployment Forum](https://social.microsoft.com/Forums/crmdeployment/home/)
-- [Certification Training](https://www.microsoft.com/learning/dynamics-certification.aspx)
+- [Certification Training](/dynamics365/get-started/training/)
 - [Contact Dynamics 365 Customer Engagement Customer Support](https://go.microsoft.com/fwlink/p/?LinkID=394391)
 - [Dynamics 365 Customer Engagement on Facebook](https://www.facebook.com/msftdynamics)
 - [Dynamics 365 Customer Engagement group on Linkedin](https://www.linkedin.com/groups/21231)

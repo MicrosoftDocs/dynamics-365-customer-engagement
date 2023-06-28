@@ -1,25 +1,29 @@
 ---
-title: "Bring your custom messaging channel: Direct Line bot | MicrosoftDocs"
-description: "This article provides information on how you can integrate custom messaging channels using Direct Line API 3.0."
-ms.date: 11/24/2021
-ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+title: Integrate your own custom channel using Direct Line
+description: This article provides information on how you can integrate custom messaging channels using Direct Line API 3.0.
+ms.date: 07/19/2022
+ms.topic: how-to
+author: gandhamm
+ms.author: mgandham
+ms.custom: bap-template
+ms.reviewer: nenellim
 ---
-# Bring your custom messaging channel&mdash;Direct Line
+# Integrate your own custom channel using Direct Line
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 With Omnichannel for Customer Service, you can implement a connector to integrate custom messaging channels by using Direct Line API 3.0, that's part of .NET SDK. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. To learn more about the Direct Line API 3.0, see [Key concepts in Direct Line 3.0 API](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true).
 
-The following section includes code snippets that use Direct Line API 3.0 to create a Direct Line client and the `IChannelAdapter` interface to build a sample connector.
+This article explains how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to Omnichannel for Customer Service. The following section includes code snippets that use Direct Line API 3.0 to create a Direct Line client and the `IChannelAdapter` interface to build a sample connector.
+
+> [!Note]
+> The source code and documentation describe the overall flow of how the channel can connect to Omnichannel for Customer Service through Direct Line, and don't focus on aspects of reliability and scalability.
 
 ## Components
 
 ### Adapter Webhook API Service
 
-When the user enters a message, the adapter API is invoked from the channel. It processes the inbound request and sends either success or failure status as a response. The adapter API service must implement the `IChannelAdapter` interface, and sends the inbound request to the respective channel adapter to process the request.
+When the user enters a message, the adapter API is invoked from the channel. It processes the inbound request and sends a success or failure status as response. The adapter API service must implement the `IChannelAdapter` interface, and sends the inbound request to the respective channel adapter to process the request.
 
 ```javascript
 /// <summary>
@@ -51,15 +55,15 @@ When the user enters a message, the adapter API is invoked from the channel. It 
 
 ### Channel adapters
 
-The channel adapter must implement the `IAdapterBuilder` interface. The channel adapter is responsible for processing inbound and outbound activities.
+The channel adapter processes the inbound and outbound activities, and must implement the `IAdapterBuilder` interface.
 
 #### Process inbound activities
 
-The channel adapters perform the following inbound activities:
+The channel adapter performs the following inbound activities:
 
 1. Validate the inbound message request signature.
 
-The inbound request from the channel is validated based on the signing key, and if the request is invalid, it throws an "invalid signature" exception message. If the request is valid, it proceeds with following steps:
+The inbound request from the channel is validated based on the signing key. If the request is invalid, an "invalid signature" exception message is thrown. If the request is valid, it proceeds as follows:
 
 ```javascript
   /// <summary>
@@ -99,20 +103,25 @@ The inbound request from the channel is validated based on the signing key, and 
 
 2. Convert the inbound request to a bot activity.
 
-The inbound request payload is converted into an activity that the Bot Framework can understand. This Activity object includes the following attributes.
+The inbound request payload is converted into an activity that the Bot Framework can understand. 
 
-|Attribute    |Description       |
+> [!Note]
+> The activity payload must not exceed the message size limit of 28 KB.
+
+This Activity object includes the following attributes:
+
+| Attribute    | Description       |
 |-------------|------------------|
-|**from**| Stores the channel account information, which consists of the unique identifier of the user and name (combination of first name and last name, separated by a space delimiter).|
+|**from**| Stores the channel account information that consists of the unique identifier of the user and name (combination of first name and last name, separated by a space delimiter).|
 |**channelId**| Indicates the channel identifier. For inbound requests, the channel ID is `directline`.|
 |**serviceUrl**| Indicates the service URL. For inbound requests, the service URL is `https://directline.botframework.com/`.|
 |**type**| Indicates the activity type. For message activities, the type is `message`. |
-|**text**|Stores the message content. |
+|**text**| Stores the message content. |
 |**id**| Indicates the identifier that the adapter uses to respond to outbound messages. |
-|**channelData**| Indicates channel data, which consists of `channelType`, `conversationcontext`, and `customercontext`. |
+|**channelData**| Indicates channel data that consists of `channelType`, `conversationcontext`, and `customercontext`. |
 |**channelType**| Indicates the channel name through which the customer is sending messages. For example, MessageBird, KakaoTalk, Snapchat |
 |**conversationcontext**| Refers to a dictionary object that holds the context variables defined in the workstream. Omnichannel for Customer Service uses this information to route the conversation to the right agent. For example:<br>"conversationcontext ":{ "ProductName" : "Xbox", "Issue":"Installation" }<br>In this example, the context routes the conversation to the agent who deals with Xbox installation.|
-|**customercontext**| Refers to a dictionary object that holds the customer details such as phone number and email address. Omnichannel for Customer Service uses this information to identify the user's contact record.<br>"customercontext":{ "email":"email@email.com", "phonenumber":"1234567890" }|
+|**customercontext**| Refers to a dictionary object that holds the customer details such as phone number and email address. Omnichannel for Customer Service uses this information to identify the user's contact record.<br>"customercontext":{ "email":email@email.com, "phonenumber":"1234567890" }|
 
 ```javascript
   /// <summary>
@@ -159,7 +168,7 @@ The sample JSON payload is as follows:
 {
     "type": "message",
     "id": "bf3cc9a2f5de...",    
-    "serviceUrl": "https://directline.botframework.com/",
+    "serviceUrl": https://directline.botframework.com/,
     "channelId": "directline",
     "from": {
         "id": "1234abcd",// userid which uniquely identify the user
@@ -173,7 +182,7 @@ The sample JSON payload is as follows:
             "Issue":"Installation"
         },
         "customercontext":{            
-            "email":"email@email.com",
+            "email":email@email.com,
             "phonenumber":"1234567890"           
         }
     }
@@ -285,7 +294,7 @@ public class DirectLineConversation
 
 If conversation is not active for the activity received by the relay processor, it does the following steps:
 
-Start a conversation with Direct Line and store the conversation object sent by Direct Line against the user ID in the dictionary.
+1. Starts a conversation with Direct Line and stores the conversation object sent by Direct Line against the user ID in the dictionary.
 
 ```javascript
  /// <summary>
@@ -323,7 +332,7 @@ Start a conversation with Direct Line and store the conversation object sent by 
  }
  ```
 
-Starts a new thread to poll the outbound activities from Direct Line based on the polling interval configured in the config file. The polling thread is active until the end of conversation activity is received from Direct Line.
+2. Starts a new thread to poll the outbound activities from Direct Line bot based on the polling interval configured in the config file. The polling thread is active until the end of conversation activity is received from Direct Line.
 
 ```javascript
 /// <summary>
@@ -379,7 +388,7 @@ private async Task PollActivitiesFromBotAsync(string conversationId, Activity in
 ```
 
 > [!NOTE]
-> At the heart of the code that receives the message is the GetActivityAsync method, passing the ConversationId and watermark. The purpose of the watermark is to retrieve only the messages that aren't yet delivered by Direct Line. If the watermark parameter is specified, the conversation replays from the watermark, guaranteeing that no messages are lost.
+> At the heart of the code that receives the message is the GetActivitiesAsync method that takes `ConversationId` and `watermark` as parameters. The purpose of the `watermark` parameter is to retrieve the messages that aren't yet delivered by Direct Line. If the watermark parameter is specified, the conversation replays from the watermark, so that no messages are lost.
 
 ### Send the activity to Direct Line
 
@@ -401,17 +410,23 @@ private async Task PollActivitiesFromBotAsync(string conversationId, Activity in
  }
  ```
 
-If the conversation is active for the activity received by the relay processor, it sends the activity to the message relay processor. For information about how to configure a custom messaging channel, see [Configure custom messaging channel](configure-custom-channel.md).
+If the conversation is active for the activity received by the relay processor, it sends the activity to the message relay processor.
 
-This page briefly explained how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to Omnichannel for Customer Service. This source code and documentation describe the overall flow of how the channel can connect to Omnichannel for Customer Service through Direct Line, and don't focus on aspects of reliability and scalability.
+## End a conversation
+
+To end the conversation, see [End a conversation in Direct Line](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-end-conversation?view=azure-bot-service-4.0&preserve-view=true).
+
+## Next steps
+
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
+[Markdown formats in custom channels that use Direct Line](markdown-formats-dev.md)   
 
 ### See also
 
-[Configure custom messaging channel](configure-custom-channel.md)
-[Sample code: Bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)  
-[Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true)  
+[Configure custom messaging channel](configure-custom-channel.md)  
 [MessageBird API reference](https://developers.messagebird.com/api)  
-[Support for live chat and asynchronous channels](card-support-in-channels.md)  
-[Markdown formats](markdown-formats-dev.md)  
+[Best practices for configuring bots](configure-bot-best-practices.md) 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+

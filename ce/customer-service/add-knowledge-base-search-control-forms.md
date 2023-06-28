@@ -5,21 +5,15 @@ ms.date: 08/12/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
 
 # Add the Knowledge Base Search control to forms
-
-
 
 Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] forms to make it easy for users in your organization to find knowledge articles so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.  
   
@@ -167,7 +161,7 @@ Open the **Knowledge Base Search** control and edit its properties to configure 
       > [!div class="mx-imgBorder"]
       > ![Configure auto filtering.](media/ka-config-auto-filtering.png "Configure auto filtering")
 
-To learn more about how to use the automatic filtering option, go to [View filtered articles in the Related section](search-knowledge-articles-csh.md#view-auto-filtered-results)
+To learn more about how to use the automatic filtering option, go to [View auto-filtered results](filter-articles.md#view-auto-filtered-results)
 
 ## Add a knowledge article subgrid to a form
 
@@ -208,6 +202,6 @@ You can use the knowledge search control either on the app side pane or embed it
 [Reduce call handling times with Knowledge articles in the Customer Service Hub](customer-service-hub-user-guide-knowledge-article.md)  
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)  
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  
-[Linked knowledge articles subgrid](search-knowledge-articles-csh.md#linked-knowledge-articles-subgrid)
+[Linked knowledge articles subgrid](link-articles.md#linked-knowledge-articles-subgrid)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

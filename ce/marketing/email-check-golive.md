@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Check for errors, go live, and deliver the messages
@@ -30,8 +26,8 @@ Before you can go-live with or test-send your message, it must pass an error che
 
 All messages must include the following:
 
-- Subscription center link, using a URL taken from the [content settings](dynamic-email-content.md#content-settings) using the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` (required for commercial messages only). More information: [Add standard, required, and specialized links to your message](email-design.md#required-links) and [Use assist edit to place dynamic field values](dynamic-email-content.md#assist-edit)
-- Sender's physical address, taken from the [content settings](dynamic-email-content.md#content-settings) using the expression `{{msdyncrm_contentsettings.msdyncrm_addressmain}}`. More information: [Use assist edit to place dynamic field values](dynamic-email-content.md#assist-edit)
+- Subscription center link, using a URL taken from the [content settings](dynamic-email-content.md#content-settings) using the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` (required for commercial messages only). More information: [Add standard, required, and specialized links to your message](email-design.md#required-links) and [Use assist edit to place dynamic field values](dynamic-email-content.md#personalization)
+- Sender's physical address, taken from the [content settings](dynamic-email-content.md#content-settings) using the expression `{{msdyncrm_contentsettings.msdyncrm_addressmain}}`. More information: [Use assist edit to place dynamic field values](dynamic-email-content.md#personalization)
 - A **Subject** entered as static text or a [dynamic expression](dynamic-email-content.md) that resolves to valid text.
 - A **From name** and valid **From address** entered as static text or [dynamic expressions](dynamic-email-content.md) that resolve to a valid name and address.
 - An HTML body (your message content).
@@ -45,7 +41,7 @@ The following are also confirmed by the check:
 - The **From address** should use a domain that is authenticated and registered using DKIM as belonging to your organization. You can go live with a **From address** that uses an unauthenticated domain, but you'll get a warning because this isn't recommended. You can't go live with a domain that is authenticated as belonging to another organization (this generates an error). More information: [Authenticate your domains](mkt-settings-authenticate-domains.md)
 
 > [!NOTE]
-> Errors that result from problems with your dynamic expressions are described in detail and provide a code sample that should help you locate the problem. However, one message, which shows the text "Dynamic content references a static entity that's missing a record ID", can appear for two different reasons. The first reason is the one implied by the text, which means you included a [reference to a specific record](dynamic-email-content.md#assist-edit-expressions), but left out the ID of the record you want to show. The second reason (which is only loosely related to the displayed text) is that you are referencing an entity that isn't yet synced with the marketing-insights service and therefore isn't available to the error checker; to fix this, ask your admin to confirm whether the required entity is synced, and to add it if it isn't. More information: [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md) 
+> Errors that result from problems with your dynamic expressions are described in detail and provide a code sample that should help you locate the problem. However, one message, which shows the text "Dynamic content references a static entity that's missing a record ID", can appear for two different reasons. The first reason is the one implied by the text, which means you included a [reference to a specific record](dynamic-email-content.md#personalization-expressions), but left out the ID of the record you want to show. The second reason (which is only loosely related to the displayed text) is that you are referencing an entity that isn't yet synced with the marketing-insights service and therefore isn't available to the error checker; to fix this, ask your admin to confirm whether the required entity is synced, and to add it if it isn't. More information: [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md) 
 
 <a name="go-live-journey"></a>
 

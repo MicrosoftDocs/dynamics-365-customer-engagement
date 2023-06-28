@@ -1,18 +1,11 @@
 ---
 title: "Configure keywords and competitors in Dynamics 365 Sales"
 description: "Configure conversation content such as, keywords and competitors to track in conversation intelligence in Dynamics 365 Sales."
-ms.date: 11/26/2021
+ms.date: 09/30/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: 2d1fb7e4-f059-4e9b-b52e-f6023bc57ab2
-author: udaykirang
-ms.author: udag
-manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 1
-topic-status: Drafting
+author: lavanyakr01
+ms.author: lavanyakr
 ---
 
 # Configure conversation content in Sales Hub app    
@@ -21,11 +14,11 @@ Configure conversation content such as, keywords and competitors to track in con
 
 ## License and role requirements
 
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Add keywords and competitors      
 Configure tracked keywords and competitors that are relevant to you and your organization so you can track them in calls. Whenever the defined keywords or competitors are mentioned in a call, conversation intelligence will gather the data and display it appropriately on the dashboard.  

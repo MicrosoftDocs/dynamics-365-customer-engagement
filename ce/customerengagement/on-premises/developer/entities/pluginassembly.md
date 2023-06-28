@@ -1,33 +1,31 @@
 ---
-title: "PluginAssembly Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the PluginAssembly entity."
-ms.date: 04/02/2019
-
+title: "Plug-in Assembly (PluginAssembly)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Plug-in Assembly (PluginAssembly)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# PluginAssembly Entity Reference
+
+# Plug-in Assembly (PluginAssembly)  entity reference
 
 Assembly that contains one or more plug-in types.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/pluginassemblies<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/pluginassemblies(*pluginassemblyid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/pluginassemblies(*pluginassemblyid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/pluginassemblies<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/pluginassemblies(*pluginassemblyid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -81,11 +79,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### AuthType Options
+#### AuthType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|BasicAuth|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|BasicAuth||
 
 
 
@@ -192,13 +190,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### IsolationMode Options
+#### IsolationMode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|None|
-|2|Sandbox|
-|3|External|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|None||
+|2|Sandbox||
+|3|External||
 
 
 
@@ -308,14 +306,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### SourceType Options
+#### SourceType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Database|
-|1|Disk|
-|2|Normal|
-|3|AzureWebApp|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Database||
+|1|Disk||
+|2|Normal||
+|3|AzureWebApp||
 
 
 
@@ -410,14 +408,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ComponentState Options
+#### ComponentState Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Published|
-|1|Unpublished|
-|2|Deleted|
-|3|Deleted Unpublished|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Published||
+|1|Unpublished||
+|2|Deleted||
+|3|Deleted Unpublished||
 
 
 
@@ -540,14 +538,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsManaged Options
+#### IsManaged Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Managed|
-|0|Unmanaged|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Managed||
+|0|Unmanaged||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -563,14 +561,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsPasswordSet Options
+#### IsPasswordSet Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -788,7 +786,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_pluginassembly_plugintype"></a> pluginassembly_plugintype
 
-Same as plugintype entity [pluginassembly_plugintype](plugintype.md#BKMK_pluginassembly_plugintype) Many-To-One relationship.
+Same as the [pluginassembly_plugintype](plugintype.md#BKMK_pluginassembly_plugintype) many-to-one relationship for the [plugintype](plugintype.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -815,29 +813,25 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_modifiedby_pluginassembly"></a> modifiedby_pluginassembly
 
-See systemuser Entity [modifiedby_pluginassembly](systemuser.md#BKMK_modifiedby_pluginassembly) One-To-Many relationship.
+See the [modifiedby_pluginassembly](systemuser.md#BKMK_modifiedby_pluginassembly) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_createdby_pluginassembly"></a> createdby_pluginassembly
 
-See systemuser Entity [createdby_pluginassembly](systemuser.md#BKMK_createdby_pluginassembly) One-To-Many relationship.
+See the [createdby_pluginassembly](systemuser.md#BKMK_createdby_pluginassembly) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_pluginassembly"></a> organization_pluginassembly
 
-See organization Entity [organization_pluginassembly](organization.md#BKMK_organization_pluginassembly) One-To-Many relationship.
+See the [organization_pluginassembly](organization.md#BKMK_organization_pluginassembly) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_lk_pluginassembly_modifiedonbehalfby"></a> lk_pluginassembly_modifiedonbehalfby
 
-See systemuser Entity [lk_pluginassembly_modifiedonbehalfby](systemuser.md#BKMK_lk_pluginassembly_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_pluginassembly_modifiedonbehalfby](systemuser.md#BKMK_lk_pluginassembly_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_pluginassembly_createdonbehalfby"></a> lk_pluginassembly_createdonbehalfby
 
-See systemuser Entity [lk_pluginassembly_createdonbehalfby](systemuser.md#BKMK_lk_pluginassembly_createdonbehalfby) One-To-Many relationship.
+See the [lk_pluginassembly_createdonbehalfby](systemuser.md#BKMK_lk_pluginassembly_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.pluginassembly?text=pluginassembly EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

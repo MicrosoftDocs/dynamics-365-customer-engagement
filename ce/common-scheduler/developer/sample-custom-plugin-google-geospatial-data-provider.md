@@ -5,16 +5,12 @@ ms.date: 04/01/2020
 searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: common-scheduler
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
-search.app: 
-  - D365CE
-  - D365PS
-  - D365FS
+author: m-hartmann
+ms.author: mhart
 ---
 # Sample: Create custom plug-in to use Google Maps API as your geospatial data provider
 

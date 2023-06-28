@@ -1,18 +1,14 @@
 ---
 title: Create and manage categories (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create and manage categories for Customer Service.
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
-manager: shujoshi
+author: Soumyasd27
+ms.author: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 searchScope: 
@@ -40,14 +36,11 @@ Categories are useful for reporting, sorting, segmenting, and categorization of 
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-You can create a category in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+You can create a category in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Categories** page.
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   1. In the **Categories** section, select **Manage**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
@@ -55,8 +48,6 @@ You can create a category in the Customer Service admin center (preview) or Cust
 ### [Customer Service Hub](#tab/customerservicehub)
 
    * In the site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
-
----
   
 2. On the command bar, select **New** to create a new category record.  
  

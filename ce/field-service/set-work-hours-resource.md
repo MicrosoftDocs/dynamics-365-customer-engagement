@@ -4,19 +4,14 @@ description: Understand how to set work hours for a resource in Dynamics 365 Cus
 ms.date: 09/15/2017
 
 ms.topic: article
-ms.assetid: 97634d1f-1e31-4f0e-a7f0-82b4940aeee9
-author: lalexms
-ms.author: laalexan
-manager: shellyha
+author: ryanchen8
+ms.author: chenryan
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Set work hours for a resource (Customer Service)
@@ -200,11 +195,5 @@ You can set the hours a user works or set the operating hours for a facility or 
 13. To define a time when a service won’t be available, on the **Service Restrictions** tab, click **New**. In the **Edit a Service Restriction** dialog box, select the service, and select the start and end time between which the service will be unavailable, and then click **OK**.  
   
 14. To close the **Weekly Schedule** dialog box, click **Save and Close**.  
-  
-### See also  
- [Set the capacity required for a service or resource](../field-service/set-capacity-required-service-resource.md)   
- [Set when your business is closed](../field-service/set-when-business-closed.md)   
- 
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

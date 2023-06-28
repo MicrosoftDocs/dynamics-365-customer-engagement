@@ -1,18 +1,16 @@
 ---
-title: "LeadToOpportunitySalesProcess Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "LeadToOpportunitySalesProcess entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the LeadToOpportunitySalesProcess entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# LeadToOpportunitySalesProcess Entity Reference
+
+# LeadToOpportunitySalesProcess entity reference
 
 Lead To Opportunity Sales Process Business Process Flow
 
@@ -21,16 +19,16 @@ Lead To Opportunity Sales Process Business Process Flow
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/leadtoopportunitysalesprocesses<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/leadtoopportunitysalesprocesses(*businessprocessflowinstanceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/leadtoopportunitysalesprocesses(*businessprocessflowinstanceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/leadtoopportunitysalesprocesses<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/leadtoopportunitysalesprocesses(*businessprocessflowinstanceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/leadtoopportunitysalesprocesses(*businessprocessflowinstanceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -232,7 +230,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -253,7 +251,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -762,7 +760,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [LeadToOpportunitySalesProcess_SyncErrors](syncerror.md#BKMK_LeadToOpportunitySalesProcess_SyncErrors) Many-To-One relationship.
+Same as the [LeadToOpportunitySalesProcess_SyncErrors](syncerror.md#BKMK_LeadToOpportunitySalesProcess_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -779,7 +777,7 @@ Same as syncerror entity [LeadToOpportunitySalesProcess_SyncErrors](syncerror.md
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [leadtoopportunitysalesprocess_AsyncOperations](asyncoperation.md#BKMK_leadtoopportunitysalesprocess_AsyncOperations) Many-To-One relationship.
+Same as the [leadtoopportunitysalesprocess_AsyncOperations](asyncoperation.md#BKMK_leadtoopportunitysalesprocess_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -796,7 +794,7 @@ Same as asyncoperation entity [leadtoopportunitysalesprocess_AsyncOperations](as
 
 **Added by**: System Solution Solution
 
-Same as workflowlog entity [lk_leadtoopportunitysalesprocess_workflowlogs](workflowlog.md#BKMK_lk_leadtoopportunitysalesprocess_workflowlogs) Many-To-One relationship.
+Same as the [lk_leadtoopportunitysalesprocess_workflowlogs](workflowlog.md#BKMK_lk_leadtoopportunitysalesprocess_workflowlogs) many-to-one relationship for the [workflowlog](workflowlog.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -813,7 +811,7 @@ Same as workflowlog entity [lk_leadtoopportunitysalesprocess_workflowlogs](workf
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [leadtoopportunitysalesprocess_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_leadtoopportunitysalesprocess_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [leadtoopportunitysalesprocess_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_leadtoopportunitysalesprocess_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -830,7 +828,7 @@ Same as mailboxtrackingfolder entity [leadtoopportunitysalesprocess_MailboxTrack
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [leadtoopportunitysalesprocess_ProcessSession](processsession.md#BKMK_leadtoopportunitysalesprocess_ProcessSession) Many-To-One relationship.
+Same as the [leadtoopportunitysalesprocess_ProcessSession](processsession.md#BKMK_leadtoopportunitysalesprocess_ProcessSession) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -847,7 +845,7 @@ Same as processsession entity [leadtoopportunitysalesprocess_ProcessSession](pro
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [leadtoopportunitysalesprocess_BulkDeleteFailures](bulkdeletefailure.md#BKMK_leadtoopportunitysalesprocess_BulkDeleteFailures) Many-To-One relationship.
+Same as the [leadtoopportunitysalesprocess_BulkDeleteFailures](bulkdeletefailure.md#BKMK_leadtoopportunitysalesprocess_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -864,7 +862,7 @@ Same as bulkdeletefailure entity [leadtoopportunitysalesprocess_BulkDeleteFailur
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [leadtoopportunitysalesprocess_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_leadtoopportunitysalesprocess_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [leadtoopportunitysalesprocess_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_leadtoopportunitysalesprocess_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -898,65 +896,61 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_leadtoopportunitysalesprocess_createdby](systemuser.md#BKMK_lk_leadtoopportunitysalesprocess_createdby) One-To-Many relationship.
+See the [lk_leadtoopportunitysalesprocess_createdby](systemuser.md#BKMK_lk_leadtoopportunitysalesprocess_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_createdonbehalfby"></a> lk_leadtoopportunitysalesprocess_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_leadtoopportunitysalesprocess_createdonbehalfby](systemuser.md#BKMK_lk_leadtoopportunitysalesprocess_createdonbehalfby) One-To-Many relationship.
+See the [lk_leadtoopportunitysalesprocess_createdonbehalfby](systemuser.md#BKMK_lk_leadtoopportunitysalesprocess_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_modifiedby"></a> lk_leadtoopportunitysalesprocess_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_leadtoopportunitysalesprocess_modifiedby](systemuser.md#BKMK_lk_leadtoopportunitysalesprocess_modifiedby) One-To-Many relationship.
+See the [lk_leadtoopportunitysalesprocess_modifiedby](systemuser.md#BKMK_lk_leadtoopportunitysalesprocess_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_modifiedonbehalfby"></a> lk_leadtoopportunitysalesprocess_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_leadtoopportunitysalesprocess_modifiedonbehalfby](systemuser.md#BKMK_lk_leadtoopportunitysalesprocess_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_leadtoopportunitysalesprocess_modifiedonbehalfby](systemuser.md#BKMK_lk_leadtoopportunitysalesprocess_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_leadtoopportunitysalesprocess"></a> organization_leadtoopportunitysalesprocess
 
 **Added by**: System Solution Solution
 
-See organization Entity [organization_leadtoopportunitysalesprocess](organization.md#BKMK_organization_leadtoopportunitysalesprocess) One-To-Many relationship.
+See the [organization_leadtoopportunitysalesprocess](organization.md#BKMK_organization_leadtoopportunitysalesprocess) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_activestageid"></a> lk_leadtoopportunitysalesprocess_activestageid
 
 **Added by**: System Solution Solution
 
-See processstage Entity [lk_leadtoopportunitysalesprocess_activestageid](processstage.md#BKMK_lk_leadtoopportunitysalesprocess_activestageid) One-To-Many relationship.
+See the [lk_leadtoopportunitysalesprocess_activestageid](processstage.md#BKMK_lk_leadtoopportunitysalesprocess_activestageid) one-to-many relationship for the [processstage](processstage.md) entity.
 
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_processid"></a> lk_leadtoopportunitysalesprocess_processid
 
 **Added by**: System Solution Solution
 
-See workflow Entity [lk_leadtoopportunitysalesprocess_processid](workflow.md#BKMK_lk_leadtoopportunitysalesprocess_processid) One-To-Many relationship.
+See the [lk_leadtoopportunitysalesprocess_processid](workflow.md#BKMK_lk_leadtoopportunitysalesprocess_processid) one-to-many relationship for the [workflow](workflow.md) entity.
 
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_opportunityid"></a> lk_leadtoopportunitysalesprocess_opportunityid
 
-See opportunity Entity [lk_leadtoopportunitysalesprocess_opportunityid](opportunity.md#BKMK_lk_leadtoopportunitysalesprocess_opportunityid) One-To-Many relationship.
+See the [lk_leadtoopportunitysalesprocess_opportunityid](opportunity.md#BKMK_lk_leadtoopportunitysalesprocess_opportunityid) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_leadid"></a> lk_leadtoopportunitysalesprocess_leadid
 
 **Added by**: Lead Management Solution
 
-See lead Entity [lk_leadtoopportunitysalesprocess_leadid](lead.md#BKMK_lk_leadtoopportunitysalesprocess_leadid) One-To-Many relationship.
+See the [lk_leadtoopportunitysalesprocess_leadid](lead.md#BKMK_lk_leadtoopportunitysalesprocess_leadid) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_transactioncurrency_leadtoopportunitysalesprocess"></a> transactioncurrency_leadtoopportunitysalesprocess
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [transactioncurrency_leadtoopportunitysalesprocess](transactioncurrency.md#BKMK_transactioncurrency_leadtoopportunitysalesprocess) One-To-Many relationship.
+See the [transactioncurrency_leadtoopportunitysalesprocess](transactioncurrency.md#BKMK_transactioncurrency_leadtoopportunitysalesprocess) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.leadtoopportunitysalesprocess?text=leadtoopportunitysalesprocess EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

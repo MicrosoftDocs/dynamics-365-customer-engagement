@@ -14,7 +14,6 @@ ms.assetid: cc75c4fc-ec07-4bc6-b56d-37ec2edbd2af
 caps.latest.revision: 45
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Security considerations for Dynamics 365 Customer Engagement (on-premises) 
 

@@ -4,11 +4,10 @@ description: "Learn how to authorize the API connection between Dynamics 365 and
 ms.date: 04/03/2020
 ms.topic: article
 author: lalexms
-ms.author: lalexms
-manager: shujoshi
+ms.author: laalexan
 ---
 
-# Authorize API connection between Dynamics 365 and Azure IoT
+# Authorizing API connections between Dynamics 365 and Azure IoT
 
 In order to begin using Connected Customer Service (CCS) with IoTHub, you need to authorize CRM API Management Access, which is the final step when deploying from [https://iotdeployment.dynamics.com/](https://iotdeployment.dynamics.com/). This allows data and actions to be passed between Azure IoTHub and Dynamics 365. More specifically, it allows LogicApps to read and write Dynamics 365 data bi-directionally. 
 

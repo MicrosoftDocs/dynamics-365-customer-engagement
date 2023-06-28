@@ -14,7 +14,6 @@ ms.assetid: 6235894d-218b-4ac7-8edd-0dd0517a5f0d
 caps.latest.revision: 22
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -60,7 +59,7 @@ When you include web resources that provide user interface elements in your solu
  [Visual Studio Accessibility Checker](/previous-versions/ms228004(v=vs.140))  
  If you are using [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] to edit your HTML web resource files, you will find that there are built-in tools to check for issues related to accessibility. In the **Tools** menu, select **Check Accessibility** to see a report that will provide guidance about accessibility related issues.  
   
- [UI Accessibility Checker](https://acccheck.codeplex.com/)  
+ [UI Accessibility Checker](/windows/win32/winauto/ui-accessibility-checker)  
  UI Accessibility Checker (or AccChecker) enables testers to easily discover accessibility problems with [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] Active Accessibility (MSAA) and other user interface (UI) implementations for [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)]. AccChecker was born from the realization that existing [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] Automation API tools, such as Inspect, provided in-depth details on the implementation, but no information about whether that implementation is correct or not.  
   
  [Inspect (Inspect.exe)](https://msdn.microsoft.com/library/windows/desktop/dd318521\(v=vs.85\).aspx)  

@@ -3,15 +3,11 @@ title: "Unified Service Desk configuration walkthroughs | MicrosoftDocs"
 description: "Get an overview about the walkthroughs that you can use to learn about configuring your agent applications."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---
@@ -23,10 +19,11 @@ Each walkthrough in this section covers an area or a combination of areas in [!I
   
  These walkthroughs are created using the “New Environment” sample application package deployed on Customer Engagement (on-premises). Before you begin these walkthroughs, ensure that you have deployed one of the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] applications, have installed the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and have appropriate security access in Microsoft Dataverse to configure [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell)  
   
-## Related topics  
+## Related topics
+
  [Install, upgrade and deploy Unified Service Desk](../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
   
- [Sample Unified Service Desk applications](../unified-service-desk/admin/sample-unified-service-desk-applications.md )  
+ [Sample Unified Service Desk applications](../unified-service-desk/admin/sample-unified-service-desk-applications.md)
   
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)  
   

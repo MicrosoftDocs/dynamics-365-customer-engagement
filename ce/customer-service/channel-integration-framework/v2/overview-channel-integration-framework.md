@@ -1,11 +1,10 @@
 ---
 title: "Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Learn about Dynamics 365 Channel Integration Framework 2.0 is and how to get started using it."
-ms.date: 11/02/2020
+description: "Get an overview of Dynamics 365 Channel Integration Framework 2.0 and how to get started using it."
+ms.date: 02/18/2023
 ms.topic: overview
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -30,7 +29,7 @@ Organizations expect their call centers to do more while using fewer resources. 
 -  The dependency of the telephony channel on the operating system and web browsers.
 -  Customizing the telephony channel based on business needs and process workflows.
 
-## Advantages and value propositions of Dynamics 365 Channel Integration Framework
+## Advantages and value propositions of Dynamics 365 Channel Integration Framework 2.0
 
 > [!NOTE]
 > Dynamics 365 Channel Integration Framework 2.0 supports only telephony channels.
@@ -39,7 +38,7 @@ Dynamics 365 Channel Integration Framework 2.0, provides multiple enhancements o
 
 Key new features in Dynamics 365 Channel Integration Framework 2.0 include: 
 
-- **Integration with the multisession experiences**
+- **Integration with multisession apps**
 
   Dynamics 365 Channel Integration Framework 2.0 provides APIs to integrate your telephony channel with multisession web experiences (Omnichannel for Customer Service and Customer Service workspace). These APIs allow the telephony channel to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed.
 
@@ -92,7 +91,7 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 
 - **Customizable agent experience**
 
-  - You can customize the custom channel to provide an enhanced agent experience with capabilities like maximize, minimize, show, hide, height, width, and pop-out windows.
+  - You can customize the custom channel to provide an enhanced agent experience with capabilities to maximize, minimize, show, hide, pop out windows, or change the window height or width.
   - Agents can configure to use productivity tools with multiple sessions. They can create new scripts or reuse the existing ones.
 
 - **Upgrading to new versions**
@@ -101,11 +100,11 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 
 ### See also
 
-[Architecture overview of Dynamics 365 Channel Integration Framework](architecture-overview-channel-integration-framework-v2.md)  
-[System requirements of Dynamics 365 Channel Integration Framework](../system-requirements-channel-integration-framework.md)  
-[FAQ](../faq-channel-integration-framework.md)  
-[Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)  
-[Support multiple providers](support-multiple-providers.md)  
+[Architecture of Dynamics 365 Channel Integration Framework 2.0](architecture-overview-channel-integration-framework-v2.md)  
+[System requirements of Dynamics 365 Channel Integration Framework 2.0](system-requirements-channel-integration-framework-v2.md)  
+[FAQ about Dynamics 365 Channel Integration Framework](../faq-channel-integration-framework.md)  
+[Get Dynamics 365 Channel Integration Framework 2.0](get-channel-integration-framework.md)  
+[Support multiple channel providers](support-multiple-providers.md)  
 [Bring your own channel](../../bring-your-own-channel.md)  
 
 

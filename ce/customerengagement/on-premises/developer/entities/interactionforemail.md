@@ -1,30 +1,28 @@
 ---
-title: "InteractionForEmail Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "InteractionForEmail entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the InteractionForEmail entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# InteractionForEmail Entity Reference
+
+# InteractionForEmail entity reference
 
 
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Delete|DELETE [*org URI*]/api/data/v9.0/interactionforemails(*interactionforemailid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/interactionforemails<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -264,7 +262,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -285,7 +283,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -580,14 +578,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### InteractionType Options
+#### InteractionType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|EmailOpen|
-|1|LinkOpen|
-|2|AttachmentOpen|
-|3|EmailReply|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|EmailOpen||
+|1|LinkOpen||
+|2|AttachmentOpen||
+|3|EmailReply||
 
 
 
@@ -808,6 +806,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
+- [interactionforemail_ActivityPointers](#BKMK_interactionforemail_ActivityPointers)
+- [interactionforemail_AsyncOperations](#BKMK_interactionforemail_AsyncOperations)
 - [interactionforemail_BulkOperations](#BKMK_interactionforemail_BulkOperations)
 - [interactionforemail_CampaignResponses](#BKMK_interactionforemail_CampaignResponses)
 - [interactionforemail_IncidentResolutions](#BKMK_interactionforemail_IncidentResolutions)
@@ -815,17 +815,43 @@ Listed by **SchemaName**.
 - [interactionforemail_OpportunityCloses](#BKMK_interactionforemail_OpportunityCloses)
 - [interactionforemail_OrderCloses](#BKMK_interactionforemail_OrderCloses)
 - [interactionforemail_QuoteCloses](#BKMK_interactionforemail_QuoteCloses)
-- [interactionforemail_msdyn_bookingalerts](#BKMK_interactionforemail_msdyn_bookingalerts)
-- [interactionforemail_msdyn_approvals](#BKMK_interactionforemail_msdyn_approvals)
-- [interactionforemail_ActivityPointers](#BKMK_interactionforemail_ActivityPointers)
-- [interactionforemail_AsyncOperations](#BKMK_interactionforemail_AsyncOperations)
+
+
+### <a name="BKMK_interactionforemail_ActivityPointers"></a> interactionforemail_ActivityPointers
+
+Same as the [interactionforemail_ActivityPointers](activitypointer.md#BKMK_interactionforemail_ActivityPointers) many-to-one relationship for the [activitypointer](activitypointer.md) entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|activitypointer|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|new_interactionforemail_ActivityPointers|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_interactionforemail_AsyncOperations"></a> interactionforemail_AsyncOperations
+
+Same as the [interactionforemail_AsyncOperations](asyncoperation.md#BKMK_interactionforemail_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|new_interactionforemail_AsyncOperations|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_interactionforemail_BulkOperations"></a> interactionforemail_BulkOperations
 
 **Added by**: Marketing Solution
 
-Same as bulkoperation entity [interactionforemail_BulkOperations](bulkoperation.md#BKMK_interactionforemail_BulkOperations) Many-To-One relationship.
+Same as the [interactionforemail_BulkOperations](bulkoperation.md#BKMK_interactionforemail_BulkOperations) many-to-one relationship for the [bulkoperation](bulkoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -842,7 +868,7 @@ Same as bulkoperation entity [interactionforemail_BulkOperations](bulkoperation.
 
 **Added by**: Marketing Solution
 
-Same as campaignresponse entity [interactionforemail_CampaignResponses](campaignresponse.md#BKMK_interactionforemail_CampaignResponses) Many-To-One relationship.
+Same as the [interactionforemail_CampaignResponses](campaignresponse.md#BKMK_interactionforemail_CampaignResponses) many-to-one relationship for the [campaignresponse](campaignresponse.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -859,7 +885,7 @@ Same as campaignresponse entity [interactionforemail_CampaignResponses](campaign
 
 **Added by**: Service Solution
 
-Same as incidentresolution entity [interactionforemail_IncidentResolutions](incidentresolution.md#BKMK_interactionforemail_IncidentResolutions) Many-To-One relationship.
+Same as the [interactionforemail_IncidentResolutions](incidentresolution.md#BKMK_interactionforemail_IncidentResolutions) many-to-one relationship for the [incidentresolution](incidentresolution.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -876,7 +902,7 @@ Same as incidentresolution entity [interactionforemail_IncidentResolutions](inci
 
 **Added by**: Service Solution
 
-Same as serviceappointment entity [interactionforemail_ServiceAppointments](serviceappointment.md#BKMK_interactionforemail_ServiceAppointments) Many-To-One relationship.
+Same as the [interactionforemail_ServiceAppointments](serviceappointment.md#BKMK_interactionforemail_ServiceAppointments) many-to-one relationship for the [serviceappointment](serviceappointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -893,7 +919,7 @@ Same as serviceappointment entity [interactionforemail_ServiceAppointments](serv
 
 **Added by**: Sales Solution
 
-Same as opportunityclose entity [interactionforemail_OpportunityCloses](opportunityclose.md#BKMK_interactionforemail_OpportunityCloses) Many-To-One relationship.
+Same as the [interactionforemail_OpportunityCloses](opportunityclose.md#BKMK_interactionforemail_OpportunityCloses) many-to-one relationship for the [opportunityclose](opportunityclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -910,7 +936,7 @@ Same as opportunityclose entity [interactionforemail_OpportunityCloses](opportun
 
 **Added by**: Sales Solution
 
-Same as orderclose entity [interactionforemail_OrderCloses](orderclose.md#BKMK_interactionforemail_OrderCloses) Many-To-One relationship.
+Same as the [interactionforemail_OrderCloses](orderclose.md#BKMK_interactionforemail_OrderCloses) many-to-one relationship for the [orderclose](orderclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -927,7 +953,7 @@ Same as orderclose entity [interactionforemail_OrderCloses](orderclose.md#BKMK_i
 
 **Added by**: Sales Solution
 
-Same as quoteclose entity [interactionforemail_QuoteCloses](quoteclose.md#BKMK_interactionforemail_QuoteCloses) Many-To-One relationship.
+Same as the [interactionforemail_QuoteCloses](quoteclose.md#BKMK_interactionforemail_QuoteCloses) many-to-one relationship for the [quoteclose](quoteclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -938,70 +964,6 @@ Same as quoteclose entity [interactionforemail_QuoteCloses](quoteclose.md#BKMK_i
 |ReferencedEntityNavigationPropertyName|interactionforemail_QuoteCloses|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_interactionforemail_msdyn_bookingalerts"></a> interactionforemail_msdyn_bookingalerts
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bookingalert entity [interactionforemail_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_interactionforemail_msdyn_bookingalerts) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bookingalert|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|interactionforemail_msdyn_bookingalerts|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_interactionforemail_msdyn_approvals"></a> interactionforemail_msdyn_approvals
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_approval entity [interactionforemail_msdyn_approvals](msdyn_approval.md#BKMK_interactionforemail_msdyn_approvals) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_approval|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|interactionforemail_msdyn_approvals|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_interactionforemail_ActivityPointers"></a> interactionforemail_ActivityPointers
-
-Same as activitypointer entity [interactionforemail_ActivityPointers](activitypointer.md#BKMK_interactionforemail_ActivityPointers) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|activitypointer|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|new_interactionforemail_ActivityPointers|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_interactionforemail_AsyncOperations"></a> interactionforemail_AsyncOperations
-
-Same as asyncoperation entity [interactionforemail_AsyncOperations](asyncoperation.md#BKMK_interactionforemail_AsyncOperations) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|asyncoperation|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|new_interactionforemail_AsyncOperations|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -1021,41 +983,37 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_interactionforemail_createdby"></a> lk_interactionforemail_createdby
 
-See systemuser Entity [lk_interactionforemail_createdby](systemuser.md#BKMK_lk_interactionforemail_createdby) One-To-Many relationship.
+See the [lk_interactionforemail_createdby](systemuser.md#BKMK_lk_interactionforemail_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_interactionforemail_createdonbehalfby"></a> lk_interactionforemail_createdonbehalfby
 
-See systemuser Entity [lk_interactionforemail_createdonbehalfby](systemuser.md#BKMK_lk_interactionforemail_createdonbehalfby) One-To-Many relationship.
+See the [lk_interactionforemail_createdonbehalfby](systemuser.md#BKMK_lk_interactionforemail_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_interactionforemail_modifiedby"></a> lk_interactionforemail_modifiedby
 
-See systemuser Entity [lk_interactionforemail_modifiedby](systemuser.md#BKMK_lk_interactionforemail_modifiedby) One-To-Many relationship.
+See the [lk_interactionforemail_modifiedby](systemuser.md#BKMK_lk_interactionforemail_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_interactionforemail_modifiedonbehalfby"></a> lk_interactionforemail_modifiedonbehalfby
 
-See systemuser Entity [lk_interactionforemail_modifiedonbehalfby](systemuser.md#BKMK_lk_interactionforemail_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_interactionforemail_modifiedonbehalfby](systemuser.md#BKMK_lk_interactionforemail_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_user_interactionforemail"></a> user_interactionforemail
 
-See systemuser Entity [user_interactionforemail](systemuser.md#BKMK_user_interactionforemail) One-To-Many relationship.
+See the [user_interactionforemail](systemuser.md#BKMK_user_interactionforemail) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_interactionforemail"></a> team_interactionforemail
 
-See team Entity [team_interactionforemail](team.md#BKMK_team_interactionforemail) One-To-Many relationship.
+See the [team_interactionforemail](team.md#BKMK_team_interactionforemail) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_business_unit_interactionforemail"></a> business_unit_interactionforemail
 
-See businessunit Entity [business_unit_interactionforemail](businessunit.md#BKMK_business_unit_interactionforemail) One-To-Many relationship.
+See the [business_unit_interactionforemail](businessunit.md#BKMK_business_unit_interactionforemail) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_InteractionForEmail"></a> TransactionCurrency_InteractionForEmail
 
-See transactioncurrency Entity [TransactionCurrency_InteractionForEmail](transactioncurrency.md#BKMK_TransactionCurrency_InteractionForEmail) One-To-Many relationship.
+See the [TransactionCurrency_InteractionForEmail](transactioncurrency.md#BKMK_TransactionCurrency_InteractionForEmail) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.interactionforemail?text=interactionforemail EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

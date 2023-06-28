@@ -1,18 +1,16 @@
 ---
-title: "ConstraintBasedGroup Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the ConstraintBasedGroup entity."
-ms.date: 04/02/2019
-
+title: "Resource Group (ConstraintBasedGroup)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Resource Group (ConstraintBasedGroup)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# ConstraintBasedGroup Entity Reference
+
+# Resource Group (ConstraintBasedGroup)  entity reference
 
 Group or collection of people, equipment, and/or facilities that can be scheduled.
 
@@ -21,15 +19,15 @@ Group or collection of people, equipment, and/or facilities that can be schedule
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/constraintbasedgroups<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/constraintbasedgroups(*constraintbasedgroupid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/constraintbasedgroups(*constraintbasedgroupid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/constraintbasedgroups<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/constraintbasedgroups(*constraintbasedgroupid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -135,13 +133,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### GroupTypeCode Options
+#### GroupTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Static|
-|1|Dynamic|
-|2|Hidden|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Static||
+|1|Dynamic||
+|2|Hidden||
 
 
 
@@ -547,7 +545,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [constraintbasedgroup_SyncErrors](syncerror.md#BKMK_constraintbasedgroup_SyncErrors) Many-To-One relationship.
+Same as the [constraintbasedgroup_SyncErrors](syncerror.md#BKMK_constraintbasedgroup_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -564,7 +562,7 @@ Same as syncerror entity [constraintbasedgroup_SyncErrors](syncerror.md#BKMK_con
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [ConstraintBasedGroup_AsyncOperations](asyncoperation.md#BKMK_ConstraintBasedGroup_AsyncOperations) Many-To-One relationship.
+Same as the [ConstraintBasedGroup_AsyncOperations](asyncoperation.md#BKMK_ConstraintBasedGroup_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -581,7 +579,7 @@ Same as asyncoperation entity [ConstraintBasedGroup_AsyncOperations](asyncoperat
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [constraintbasedgroup_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_constraintbasedgroup_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [constraintbasedgroup_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_constraintbasedgroup_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -598,7 +596,7 @@ Same as mailboxtrackingfolder entity [constraintbasedgroup_MailboxTrackingFolder
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [ConstraintBasedGroup_ProcessSessions](processsession.md#BKMK_ConstraintBasedGroup_ProcessSessions) Many-To-One relationship.
+Same as the [ConstraintBasedGroup_ProcessSessions](processsession.md#BKMK_ConstraintBasedGroup_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -615,7 +613,7 @@ Same as processsession entity [ConstraintBasedGroup_ProcessSessions](processsess
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [ConstraintBasedGroup_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ConstraintBasedGroup_BulkDeleteFailures) Many-To-One relationship.
+Same as the [ConstraintBasedGroup_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ConstraintBasedGroup_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -632,7 +630,7 @@ Same as bulkdeletefailure entity [ConstraintBasedGroup_BulkDeleteFailures](bulkd
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [constraintbasedgroup_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_constraintbasedgroup_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [constraintbasedgroup_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_constraintbasedgroup_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -649,7 +647,7 @@ Same as principalobjectattributeaccess entity [constraintbasedgroup_PrincipalObj
 
 **Added by**: System Solution Solution
 
-Same as connection entity [constraintbasedgroup_connections1](connection.md#BKMK_constraintbasedgroup_connections1) Many-To-One relationship.
+Same as the [constraintbasedgroup_connections1](connection.md#BKMK_constraintbasedgroup_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -666,7 +664,7 @@ Same as connection entity [constraintbasedgroup_connections1](connection.md#BKMK
 
 **Added by**: System Solution Solution
 
-Same as connection entity [constraintbasedgroup_connections2](connection.md#BKMK_constraintbasedgroup_connections2) Many-To-One relationship.
+Same as the [constraintbasedgroup_connections2](connection.md#BKMK_constraintbasedgroup_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -681,7 +679,7 @@ Same as connection entity [constraintbasedgroup_connections2](connection.md#BKMK
 
 ### <a name="BKMK_constraintbasedgroup_resource_groups"></a> constraintbasedgroup_resource_groups
 
-Same as resourcegroup entity [constraintbasedgroup_resource_groups](resourcegroup.md#BKMK_constraintbasedgroup_resource_groups) Many-To-One relationship.
+Same as the [constraintbasedgroup_resource_groups](resourcegroup.md#BKMK_constraintbasedgroup_resource_groups) many-to-one relationship for the [resourcegroup](resourcegroup.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -696,7 +694,7 @@ Same as resourcegroup entity [constraintbasedgroup_resource_groups](resourcegrou
 
 ### <a name="BKMK_constraint_based_group_resource_specs"></a> constraint_based_group_resource_specs
 
-Same as resourcespec entity [constraint_based_group_resource_specs](resourcespec.md#BKMK_constraint_based_group_resource_specs) Many-To-One relationship.
+Same as the [constraint_based_group_resource_specs](resourcespec.md#BKMK_constraint_based_group_resource_specs) many-to-one relationship for the [resourcespec](resourcespec.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -727,49 +725,45 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_constraintbasedgroup_createdby](systemuser.md#BKMK_lk_constraintbasedgroup_createdby) One-To-Many relationship.
+See the [lk_constraintbasedgroup_createdby](systemuser.md#BKMK_lk_constraintbasedgroup_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_constraintbasedgroup_createdonbehalfby"></a> lk_constraintbasedgroup_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_constraintbasedgroup_createdonbehalfby](systemuser.md#BKMK_lk_constraintbasedgroup_createdonbehalfby) One-To-Many relationship.
+See the [lk_constraintbasedgroup_createdonbehalfby](systemuser.md#BKMK_lk_constraintbasedgroup_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_constraintbasedgroup_modifiedby"></a> lk_constraintbasedgroup_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_constraintbasedgroup_modifiedby](systemuser.md#BKMK_lk_constraintbasedgroup_modifiedby) One-To-Many relationship.
+See the [lk_constraintbasedgroup_modifiedby](systemuser.md#BKMK_lk_constraintbasedgroup_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_constraintbasedgroup_modifiedonbehalfby"></a> lk_constraintbasedgroup_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_constraintbasedgroup_modifiedonbehalfby](systemuser.md#BKMK_lk_constraintbasedgroup_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_constraintbasedgroup_modifiedonbehalfby](systemuser.md#BKMK_lk_constraintbasedgroup_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_business_unit_constraint_based_groups"></a> business_unit_constraint_based_groups
 
 **Added by**: System Solution Solution
 
-See businessunit Entity [business_unit_constraint_based_groups](businessunit.md#BKMK_business_unit_constraint_based_groups) One-To-Many relationship.
+See the [business_unit_constraint_based_groups](businessunit.md#BKMK_business_unit_constraint_based_groups) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_organization_constraint_based_groups"></a> organization_constraint_based_groups
 
 **Added by**: System Solution Solution
 
-See organization Entity [organization_constraint_based_groups](organization.md#BKMK_organization_constraint_based_groups) One-To-Many relationship.
+See the [organization_constraint_based_groups](organization.md#BKMK_organization_constraint_based_groups) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_constraintbasedgroup_systemuser"></a> constraintbasedgroup_systemuser
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [constraintbasedgroup_systemuser](systemuser.md#BKMK_constraintbasedgroup_systemuser) One-To-Many relationship.
+See the [constraintbasedgroup_systemuser](systemuser.md#BKMK_constraintbasedgroup_systemuser) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.constraintbasedgroup?text=constraintbasedgroup EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

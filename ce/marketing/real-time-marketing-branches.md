@@ -2,21 +2,16 @@
 title: "When to use attribute versus if/then branches (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to select the correct branching to use for real-time journeys in Dynamics 365 Marketing."
 ms.date: 01/12/2022
-
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # When to use attribute versus if/then branches
@@ -31,7 +26,7 @@ Let’s see some use cases:
 
 Let’s assume you want to branch your audience based on a specific contact profile attribute like a birthday. You can use the relative date format to add contacts to a journey on a yearly cycle.
 
-The relative date format will evaluate birthdays when the customer reaches this point of the journey, irrespective of when the journey goes live. Assume the journey goes live on February 1 and John Doe was born on March 1 (one month from February 1). If he goes through the attribute branch on March 1, he will go through the **yes** branch. But if John reaches the attribute branch before or after March 1, or the journey goes live after March 1, he will always be directed to the no branch.
+The relative date format will evaluate birthdays when the customer reaches this point of the journey, irrespective of when the journey goes live. Assume the journey goes live on February 1 and John Doe was born on March 1 (one month from February 1). If John goes through the attribute branch on March 1, they will go through the **yes** branch. But if John reaches the attribute branch before or after March 1, or the journey goes live after March 1, John will always be directed to the no branch.
 
 > [!div class="mx-imgBorder"]
 > ![Birthday attribute screenshot.](media/real-time-marketing-branches-birthday.png "Birthday attribute screenshot")
@@ -47,7 +42,7 @@ Actual dates add contacts to a journey on a specific day, month, and year, so th
 
 Now, let’s assume you are creating an onboarding journey. You might start the journey with an event when an opportunity is created and send two different messages when the opportunity is won versus when it’s still open.
 
-You can use an attribute branch to check the attribute values for a trigger that starts an event-based journey.
+You can use an attribute branch to check the attribute values for a trigger that starts a trigger-based journey.
 
 > [!div class="mx-imgBorder"]
 > ![Trigger attribute screenshot.](media/real-time-marketing-branches-trigger.png "Trigger attribute screenshot")
@@ -60,3 +55,5 @@ You can use an if/then branch to wait for a survey email open event. If you set 
 
 > [!div class="mx-imgBorder"]
 > ![Email survey if/then screenshot.](media/real-time-marketing-branches-if-then.png "Email survey if/then screenshot")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

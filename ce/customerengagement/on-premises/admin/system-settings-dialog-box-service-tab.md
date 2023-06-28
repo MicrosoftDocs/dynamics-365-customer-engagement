@@ -15,7 +15,6 @@ author: shubhadaj
 ms.assetid: 926c05fe-4499-4f5b-ab0c-39d29589f094
 caps.latest.revision: 29
 ms.author: shujoshi
-manager: shujoshi
 search.audienceType: 
   - admin
 ---
@@ -57,7 +56,7 @@ Use the Service tab in System Settings to set preferences for the customer servi
   
 ### See also  
 
-[Service Manager guide (Customer Service Hub)](/dynamics365/customer-servi/app-profile-manager/configure-cs) <br>
+[Service Manager guide (Customer Service Hub)](/dynamics365/app-profile-manager/overview) <br>
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

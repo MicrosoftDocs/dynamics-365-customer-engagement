@@ -1,31 +1,29 @@
 ---
-title: "DisplayString Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "DisplayString entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the DisplayString entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# DisplayString Entity Reference
+
+# DisplayString entity reference
 
 Customized messages for an entity that has been renamed.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Retrieve|GET [*org URI*]/api/data/v9.0/displaystrings(*displaystringid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/displaystrings<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/displaystrings(*displaystringid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -160,14 +158,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ComponentState Options
+#### ComponentState Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Published|
-|1|Unpublished|
-|2|Deleted|
-|3|Deleted Unpublished|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Published||
+|1|Unpublished||
+|2|Deleted||
+|3|Deleted Unpublished||
 
 
 
@@ -335,14 +333,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsManaged Options
+#### IsManaged Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Managed|
-|0|Unmanaged|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Managed||
+|0|Unmanaged||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -566,7 +564,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_DisplayString_AsyncOperations"></a> DisplayString_AsyncOperations
 
-Same as asyncoperation entity [DisplayString_AsyncOperations](asyncoperation.md#BKMK_DisplayString_AsyncOperations) Many-To-One relationship.
+Same as the [DisplayString_AsyncOperations](asyncoperation.md#BKMK_DisplayString_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -581,7 +579,7 @@ Same as asyncoperation entity [DisplayString_AsyncOperations](asyncoperation.md#
 
 ### <a name="BKMK_DisplayString_BulkDeleteFailures"></a> DisplayString_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [DisplayString_BulkDeleteFailures](bulkdeletefailure.md#BKMK_DisplayString_BulkDeleteFailures) Many-To-One relationship.
+Same as the [DisplayString_BulkDeleteFailures](bulkdeletefailure.md#BKMK_DisplayString_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -608,29 +606,25 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_organization_custom_displaystrings"></a> organization_custom_displaystrings
 
-See organization Entity [organization_custom_displaystrings](organization.md#BKMK_organization_custom_displaystrings) One-To-Many relationship.
+See the [organization_custom_displaystrings](organization.md#BKMK_organization_custom_displaystrings) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_lk_DisplayStringbase_createdby"></a> lk_DisplayStringbase_createdby
 
-See systemuser Entity [lk_DisplayStringbase_createdby](systemuser.md#BKMK_lk_DisplayStringbase_createdby) One-To-Many relationship.
+See the [lk_DisplayStringbase_createdby](systemuser.md#BKMK_lk_DisplayStringbase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_DisplayStringbase_modifiedby"></a> lk_DisplayStringbase_modifiedby
 
-See systemuser Entity [lk_DisplayStringbase_modifiedby](systemuser.md#BKMK_lk_DisplayStringbase_modifiedby) One-To-Many relationship.
+See the [lk_DisplayStringbase_modifiedby](systemuser.md#BKMK_lk_DisplayStringbase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_DisplayStringbase_modifiedonbehalfby"></a> lk_DisplayStringbase_modifiedonbehalfby
 
-See systemuser Entity [lk_DisplayStringbase_modifiedonbehalfby](systemuser.md#BKMK_lk_DisplayStringbase_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_DisplayStringbase_modifiedonbehalfby](systemuser.md#BKMK_lk_DisplayStringbase_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_DisplayStringbase_createdonbehalfby"></a> lk_DisplayStringbase_createdonbehalfby
 
-See systemuser Entity [lk_DisplayStringbase_createdonbehalfby](systemuser.md#BKMK_lk_DisplayStringbase_createdonbehalfby) One-To-Many relationship.
+See the [lk_DisplayStringbase_createdonbehalfby](systemuser.md#BKMK_lk_DisplayStringbase_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.displaystring?text=displaystring EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -1,43 +1,41 @@
 ---
-title: "Template Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the Template entity."
-ms.date: 04/02/2019
-
+title: "Email Template (Template)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Email Template (Template)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Template Entity Reference
+
+# Email Template (Template)  entity reference
 
 Template for an email message that contains the standard attributes of an email message.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/templates(*templateid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/templates<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/templates(*templateid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|InstantiateTemplate|<xref href="Microsoft.Dynamics.CRM.InstantiateTemplate?text=InstantiateTemplate Action" />|<xref:Microsoft.Crm.Sdk.Messages.InstantiateTemplateRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/templates(*templateid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/templates<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SendEmail|<xref href="Microsoft.Dynamics.CRM.SendEmail?text=SendEmail Action" />|<xref:Microsoft.Crm.Sdk.Messages.SendEmailRequest>|
-|SendFax|<xref href="Microsoft.Dynamics.CRM.SendFax?text=SendFax Action" />|<xref:Microsoft.Crm.Sdk.Messages.SendFaxRequest>|
-|SendTemplate|<xref href="Microsoft.Dynamics.CRM.SendTemplate?text=SendTemplate Action" />|<xref:Microsoft.Crm.Sdk.Messages.SendTemplateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/templates(*templateid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|InstantiateTemplate|<xref:Microsoft.Crm.Sdk.Messages.InstantiateTemplateRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SendEmail|<xref:Microsoft.Crm.Sdk.Messages.SendEmailRequest>|
+|SendFax|<xref:Microsoft.Crm.Sdk.Messages.SendFaxRequest>|
+|SendTemplate|<xref:Microsoft.Crm.Sdk.Messages.SendTemplateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -186,14 +184,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsPersonal Options
+#### IsPersonal Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Individual|
-|0|Organization|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Individual||
+|0|Organization||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -398,14 +396,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ComponentState Options
+#### ComponentState Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Published|
-|1|Unpublished|
-|2|Deleted|
-|3|Deleted Unpublished|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Published||
+|1|Unpublished||
+|2|Deleted||
+|3|Deleted Unpublished||
 
 
 
@@ -528,14 +526,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsManaged Options
+#### IsManaged Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Managed|
-|0|Unmanaged|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Managed||
+|0|Unmanaged||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -551,14 +549,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsRecommended Options
+#### IsRecommended Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -908,7 +906,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_template_activity_mime_attachments"></a> template_activity_mime_attachments
 
-Same as activitymimeattachment entity [template_activity_mime_attachments](activitymimeattachment.md#BKMK_template_activity_mime_attachments) Many-To-One relationship.
+Same as the [template_activity_mime_attachments](activitymimeattachment.md#BKMK_template_activity_mime_attachments) many-to-one relationship for the [activitymimeattachment](activitymimeattachment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -923,7 +921,7 @@ Same as activitymimeattachment entity [template_activity_mime_attachments](activ
 
 ### <a name="BKMK_Template_SyncErrors"></a> Template_SyncErrors
 
-Same as syncerror entity [Template_SyncErrors](syncerror.md#BKMK_Template_SyncErrors) Many-To-One relationship.
+Same as the [Template_SyncErrors](syncerror.md#BKMK_Template_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -938,7 +936,7 @@ Same as syncerror entity [Template_SyncErrors](syncerror.md#BKMK_Template_SyncEr
 
 ### <a name="BKMK_Template_AsyncOperations"></a> Template_AsyncOperations
 
-Same as asyncoperation entity [Template_AsyncOperations](asyncoperation.md#BKMK_Template_AsyncOperations) Many-To-One relationship.
+Same as the [Template_AsyncOperations](asyncoperation.md#BKMK_Template_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -953,7 +951,7 @@ Same as asyncoperation entity [Template_AsyncOperations](asyncoperation.md#BKMK_
 
 ### <a name="BKMK_Email_EmailTemplate"></a> Email_EmailTemplate
 
-Same as email entity [Email_EmailTemplate](email.md#BKMK_Email_EmailTemplate) Many-To-One relationship.
+Same as the [Email_EmailTemplate](email.md#BKMK_Email_EmailTemplate) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -968,7 +966,7 @@ Same as email entity [Email_EmailTemplate](email.md#BKMK_Email_EmailTemplate) Ma
 
 ### <a name="BKMK_Template_Organization"></a> Template_Organization
 
-Same as organization entity [Template_Organization](organization.md#BKMK_Template_Organization) Many-To-One relationship.
+Same as the [Template_Organization](organization.md#BKMK_Template_Organization) many-to-one relationship for the [organization](organization.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -983,7 +981,7 @@ Same as organization entity [Template_Organization](organization.md#BKMK_Templat
 
 ### <a name="BKMK_Template_ProcessSessions"></a> Template_ProcessSessions
 
-Same as processsession entity [Template_ProcessSessions](processsession.md#BKMK_Template_ProcessSessions) Many-To-One relationship.
+Same as the [Template_ProcessSessions](processsession.md#BKMK_Template_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -998,7 +996,7 @@ Same as processsession entity [Template_ProcessSessions](processsession.md#BKMK_
 
 ### <a name="BKMK_Template_BulkDeleteFailures"></a> Template_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [Template_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Template_BulkDeleteFailures) Many-To-One relationship.
+Same as the [Template_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Template_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1027,37 +1025,33 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_templatebase_createdby"></a> lk_templatebase_createdby
 
-See systemuser Entity [lk_templatebase_createdby](systemuser.md#BKMK_lk_templatebase_createdby) One-To-Many relationship.
+See the [lk_templatebase_createdby](systemuser.md#BKMK_lk_templatebase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_templatebase_modifiedby"></a> lk_templatebase_modifiedby
 
-See systemuser Entity [lk_templatebase_modifiedby](systemuser.md#BKMK_lk_templatebase_modifiedby) One-To-Many relationship.
+See the [lk_templatebase_modifiedby](systemuser.md#BKMK_lk_templatebase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_email_templates"></a> team_email_templates
 
-See team Entity [team_email_templates](team.md#BKMK_team_email_templates) One-To-Many relationship.
+See the [team_email_templates](team.md#BKMK_team_email_templates) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_business_unit_templates"></a> business_unit_templates
 
-See businessunit Entity [business_unit_templates](businessunit.md#BKMK_business_unit_templates) One-To-Many relationship.
+See the [business_unit_templates](businessunit.md#BKMK_business_unit_templates) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_system_user_email_templates"></a> system_user_email_templates
 
-See systemuser Entity [system_user_email_templates](systemuser.md#BKMK_system_user_email_templates) One-To-Many relationship.
+See the [system_user_email_templates](systemuser.md#BKMK_system_user_email_templates) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_templatebase_modifiedonbehalfby"></a> lk_templatebase_modifiedonbehalfby
 
-See systemuser Entity [lk_templatebase_modifiedonbehalfby](systemuser.md#BKMK_lk_templatebase_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_templatebase_modifiedonbehalfby](systemuser.md#BKMK_lk_templatebase_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_templatebase_createdonbehalfby"></a> lk_templatebase_createdonbehalfby
 
-See systemuser Entity [lk_templatebase_createdonbehalfby](systemuser.md#BKMK_lk_templatebase_createdonbehalfby) One-To-Many relationship.
+See the [lk_templatebase_createdonbehalfby](systemuser.md#BKMK_lk_templatebase_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.template?text=template EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -1,21 +1,16 @@
 ---
 title: "Set up input fields for marketing forms (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to set up a form input field and map it to a database field in Dynamics 365 Marketing."
-ms.date: 10/21/2021
-
+ms.date: 07/25/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create and manage input fields for use in forms
@@ -76,7 +71,7 @@ The following table describes all configuration settings that are available for 
 | Decimal number         | n/a           | Number Input          | Creates a simple input field that accepts a floating-point (decimal) number. Supports a level of precision up to 10 decimal places and can range from -100,000,000,000 to 100,000,000,000. |
 | Date and time          | Date Only     | Date Picker           | Creates a date picker, which lets visitors choose a date from a pop-up calendar display. Does not accept a time.                                                                           |
 | Date and time          | Date and Time | Date-Time Picker      | Creates a date and time picker, which lets visitors choose a date from a pop-up calendar and a time from a drop-down list.                                                                   |
-| Lookup field          | n/a | Lookup      | Creates a field that is linked to a particular entity type, enabling you to create a drop-down list of options that were created in advance. For example, you could use a lookup field to create a drop-down list of all accounts. More information: [Adding lookup fields](marketing-fields.md#adding-lookup-fields-and-troubleshooting).<br><br>Lookup fields *are not* supported when integrating an external form page using the form capture method. Instead, you should use an embedded marketing form. More information: [Embed forms on external websites](https://docs.microsoft.com/dynamics365/marketing/embed-forms).                                                                   |
+| Lookup field          | n/a | Lookup      | Creates a field that is linked to a particular entity type, enabling you to create a drop-down list of options that were created in advance. For example, you could use a lookup field to create a drop-down list of all accounts. More information: [Adding lookup fields](marketing-fields.md#adding-lookup-fields-and-troubleshooting).<br><br>Lookup fields *are not* supported when integrating an external form page using the form capture method. Instead, you should use an embedded marketing form. More information: [Embed forms on external websites](/dynamics365/marketing/embed-forms).                                                                   |
 
 When you publish a marketing page, Dynamics 365 Marketing hosts it by using its portals feature at a public URL that you can share with prospects. When you first create the page, Dynamics 365 Marketing automatically creates a new website record for it, where you can go to analyze its traffic and performance. More information: [Register link clicks and website visits](register-engagement.md)
 
@@ -110,16 +105,31 @@ After creating a custom entity to use with a lookup field, or if your lookup fie
     -  The attribute used for searching. For example, the **Account name** could be used for an **Account** lookup.
 1. Check the security roles for the configuration you selected.
 
-If the lookup field that you want to set up is a custom field you've created, ensure that Service User Roles are set up for the entity. For a new custom entity, you will need to enable the proper Security Role permission for your org. You will often need to set the Security Role manually.
+    > [!TIP]
+    > If the lookup field that you want to set up is a custom field you've created, ensure that Service User Roles are set up for the entity. For a new custom entity, you will need to enable the proper Security Role permission for your org. You will often need to set the Security Role manually.
+    > 
+    > To set the Security Role manually:
+    > 
+    > 1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+    > 1. The advanced settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+    > 1. Select the **Security roles** icon.
+    > 1. Go to **Marketing Services User Extensible Role** > **Custom Entities**.
+    > 1. Under the **Custom Entities** tab, find the name of your custom entity and mark the **Read** column box (the second column) green.
+    > 1. If you use a filter, make sure the **Marketing Services User Extensible Role** has read permissions for entities used in the corresponding view. For example, if you use the view “Accounts being followed” as an Account filter, you need to ensure that the role has a read privilege for the custom entity.
 
-To set the Security Role manually:
+1. Check field-level security access.
 
-1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
-1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
-1. Select the **Security roles** icon.
-1. Go to **Marketing Services User Extensible Role** > **Custom Entities**.
-1. Under the **Custom Entities** tab, find the name of your custom entity and mark the **Read** column box (the second column) green.
-1. If you use a filter, make sure the **Marketing Services User Extensible Role** has read permissions for entities used in the corresponding view. For example, if you use the view “Accounts being followed” as an Account filter, you need to ensure that the role has a read privilege for the entity **Post**.
+    > [!TIP]
+    > If a custom field is used as a lookup field or in a filter view, ensure that field-level security is correctly set up. This applies only, if “Field Security” is enabled for the custom field. Learn more: [Column-level security to control access](/power-platform/admin/field-level-security).
+    >
+    > To set up field-level security:
+    >
+    > 1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+    > 1. The advanced settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+    > 1. Select the **Field Security Profiles** icon.
+    > 1. Select the **New** icon to create a new Field Security profile and enter a name in the General section.
+    > 1. In the **Users** section, add the system user "**# D365 Marketing**".
+    > 1. In the **Field Permissions** section, add the **Read** permission to all required fields.
 
 ### Set lookup fields via API
 

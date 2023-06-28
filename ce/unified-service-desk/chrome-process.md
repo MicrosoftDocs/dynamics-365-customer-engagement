@@ -1,17 +1,13 @@
 ---
 title: "Chrome Process hosting method for controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Chrome Process hosting method in Unified Service Desk. Also, learn how to enable the process and recover unresponsive process instances."
-ms.date: 11/24/2021
+ms.date: 08/02/2022
 ms.topic: "article"
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 monikerRange: '>= dynamics-usd-4.1'
@@ -19,13 +15,10 @@ monikerRange: '>= dynamics-usd-4.1'
 
 # Use Chrome Process to host web applications
 
-
-
 The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. Chrome Process is based on **CefSharp**, an open source framework that uses the Chromium core that powers many modern browsers. More information: [CefSharp](https://cefsharp.github.io/)
 
-> [!IMPORTANT]
-> - Unified Service Desk 4.1.1.1433 supports CefSharp 84.4.10.
-> - Unified Service Desk 4.2.0.29 supports CefSharp 94.4.50.
+> [!Important]
+> The support for hosting Unified Interface pages using Chrome Process (CefSharp) in Unified Service Desk 4.1.1.1397 and earlier versions is based on the Power Apps system requirements and limits. More information: [Supported browsers for running Power Apps](/power-apps/limits-and-config#supported-browsers-for-running-power-apps)
 
 The advantages of using the Chrome process hosting method are as follows:
 
@@ -36,6 +29,10 @@ The advantages of using the Chrome process hosting method are as follows:
 - The Chrome Process pooling feature that reuses the Chrome processes and mimics inline navigation provides enhanced performance and memory optimization.
 
 You can select **Chrome Process** as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, **CRM Page**, **Channel Integration Framework**, and **Standard Web Application** types of hosted controls.
+
+> [!Note]
+> - Unified Service Desk 4.1.1.1433 includes CefSharp 84.4.10.
+> - Unified Service Desk 4.2.0.29 includes CefSharp 94.4.50.
 
 ## Chrome Process settings
 

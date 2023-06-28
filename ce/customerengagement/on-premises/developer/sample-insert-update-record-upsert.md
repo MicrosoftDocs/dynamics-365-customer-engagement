@@ -1,27 +1,26 @@
 ---
 title: "Sample: Insert or update a record using Upsert (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This sample code shows how to insert or update records by using the Upsert message"
-ms.custom: 
+ms.custom:
 ms.date: 10/31/2017
 ms.reviewer: pehecke
 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: sample
-applies_to: 
+applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 5aac6430-5d98-4e50-94f9-c2f6ce5cee62
 caps.latest.revision: 24
 author: JimDaly
-ms.author: nkrb
-manager: kvivek
-search.audienceType: 
+ms.author: jdaly
+search.audienceType:
   - developer
 ---
 
 # Sample: Insert or update a record using Upsert
 
-This sample code shows how to insert or update records by using the [UpsertRequest](/dotnet/api/microsoft.xrm.sdk.messages.upsertrequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/InsertRecordUsingUpsert).  
+This sample code shows how to insert or update records by using the [UpsertRequest](/dotnet/api/microsoft.xrm.sdk.messages.upsertrequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/InsertRecordUsingUpsert).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
@@ -45,12 +44,11 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Demonstrate
 
 1. The `ProcessUpsert` method processes data in the `newsampleproduct.xml` to represent new products and creates 13 new records.
-1. The second time when the `ProcessUpsert` method is called, it processes data in `updatedsampleproduct.xml` to represent updates to products previously created. 
-1. The `UpsertRequest` method creates 6 updated records. 
+1. The second time when the `ProcessUpsert` method is called, it processes data in `updatedsampleproduct.xml` to represent updates to products previously created.
+1. The `UpsertRequest` method creates 6 updated records.
 
 ### Clean up
 
 Display an option to delete the managed solution created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,15 +3,11 @@ title: "Configure notifications in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to configure global or session-based notifications in Unified Service Desk to display popup messages to your agents or customers."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---
@@ -23,7 +19,7 @@ Configure notifications in [!INCLUDE[pn_unified_service_desk](../includes/pn-uni
   
  Notifications can be global or session-based. Global notifications are displayed outside of a session and will hide only if it times out or is explicitly closed by the user. Session-based notifications appear only within a session, and switching to another session will hide the notification. Switching back to the session with notification displays the notification again until it times out or is explicitly closed by the user.
 
-::: moniker range="<=dynamics-usd-4"
+::: moniker range="=dynamics-usd-4"
 
 ## Navigate on the notifications using keyboard shortcuts
 
@@ -222,10 +218,7 @@ The added custom parameter can be used in the form XAML as replacement parameter
   
 <a name="Multiple"></a>   
 ## Multiple notification controls
- 
-::: moniker range="dynamics-usd-3" 
- You can  configure multiple notification controls and invoke actions independently of each other. When multiple notifications are shown at the same time, all the notifications are visible in the order in which they were invoked. If two global notifications are configured to be displayed at the same  position, the latest one will overlay on top of the earlier notification. Similarly, if a global and session-based notifications or multiple session-based notifications are  configured to be displayed at the same  position in a session, the latest one will overlay on top of the earlier notification in the session.
-::: moniker-end
+
 
 ::: moniker range=">=dynamics-usd-4" 
  You can  configure multiple notification controls and invoke actions independently of each other. <!--When multiple notifications are shown at the same time, all the notifications are visible in the order in which they were invoked.--> If two global notifications are configured to be displayed at the same  position, the latest one will overlay on top of the earlier notification. Similarly, if a global and session-based notifications or multiple session-based notifications are  configured to be displayed at the same  position in a session, the latest one will overlay on top of the earlier notification in the session.
@@ -245,20 +238,6 @@ The added custom parameter can be used in the form XAML as replacement parameter
  > [!Note]
  > When there are more than 5 notifications, the new notification overlays the recently shown notification.</br> For example, you see 5 notifications in stack. Now, 6th notification is incoming, then the 6th notification overlays the 5th notification. Similarly, when the 7th notification is incoming, it overlays the 6th notification.<br/>
  ![New notification replacing the recent notification in the stack.](../unified-service-desk/media/stack-notification.PNG "New notification replacing the recent notification in the stack")
-::: moniker-end
-
-::: moniker range="dynamics-usd-3"  
-<a name="HowTo"></a>   
-## How to configure a notification?  
- These are the broad steps for displaying a notification:  
-  
-1. Create a **Form** record with your notification definition (XAML). For example, create a form with the example XAML illustrated earlier and with the following name: `MaxSessionNotificationForm`.  
-  
-2. Create a `Popup Notification` control, and keep it global. For example, create a control with the following name: `MaxSessionNotificationControl`.  
-  
-3. Create an action call to display the notification by specifying the form name to display along with other parameters in the **Data** field of the `Show` action. For example,  create an action call with the following name: `Action Call for Max Sessions Notification`.
-  
-4. Finally, add the action call to an event to execute the action. As we are checking for maximum number of sessions on the creation of a new session to show the notification, add the action call to the `SessionNew` event of the [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md). 
 ::: moniker-end
 
 ::: moniker range=">=dynamics-usd-4"  

@@ -1,20 +1,14 @@
 ---
 title: "Privacy note for Field Service Mobile Push Notifications | MicrosoftDocs"
+description: Learn about the privacy note for Field Service mobile push notifications enabling authorized users to access the online service.
 ms.date: 03/14/2019
 
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-ms.reviewer: krbjoran
-ms.custom: 
-  - dyn365-fieldservice
-search.app: 
-  - D365CE
-  - D365FS
+  - "Dynamics 9.x"
+author: JonBaker007
+ms.author: jobaker
 ---
 
 # Privacy note for Field Service Mobile push notifications
@@ -40,9 +34,5 @@ Google Cloud Messaging, Apple Push Notification, and Windows Push Notification s
 **Processing of Personal Data**. To the extent Microsoft is a processor or subprocessor of personal data in connection with the software, Microsoft makes the commitments in the European Union General Data Protection Regulation Terms of the Online Services Terms to all customers effective May 25, 2018, at [https://go.microsoft.com/?linkid=9840733](https://go.microsoft.com/?linkid=9840733).
 
 You may not reverse engineer, decompile or disassemble the software, or otherwise attempt to derive the source code for the software except, and solely to the extent: (i) permitted by applicable law, despite this limitation; or (ii) required to debug changes to any libraries licensed under the GNU Lesser General Public License which are included with and linked to by the software.
-
-### See also
-[Third-party notices](/dynamics365/resources/field_services_third_party_notice.htm)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

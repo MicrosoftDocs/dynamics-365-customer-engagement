@@ -1,33 +1,41 @@
 ---
-title: "Sequence creation and activation in the sales accelerator | MicrosoftDocs"
+title: "Sequence creation and activation in the sales accelerator"
 description: "Create and activate a sequence by defining a set of activities as steps that sellers should follow while handling records in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 08/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Create and activate a sequence 
 
 Every organization has its own selling processes for sellers to follow. A sequence helps sellers overcome any inconsistencies in training or lack of documentation as they progress through the sales journey. When you create a sequence, you define the activities you want your sellers to perform&mdash;and the order to perform them in&mdash;as they handle records. This lets sellers concentrate on selling and gives them a better understanding of what to do next.
 
+Also, sellers can create and activate sequences for themselves and use the sequences to work on their assigned records. More information: [Create and connect sequence for yourself](create-sequence-seller.md) 
+
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## To create and activate a sequence
+## Create a sequence
 
-1. Sign in to your sales app.   
-2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
-3. Under **Sales accelerator**, select **Sequence**.  
-4. On the **Sequences** page, select **+ New sequence**.   
+1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
+2. Under **Sales accelerator**, select **Sequence**.  
+3. On the **Sequences** page, select **New sequence**.   
     > [!div class="mx-imgBorder"]
-    > ![Select new to create a sequence.](media/sequence-select-new-sequence.png "Select new to create a sequence")   
-5. In the **Create a sequence** dialog, enter the following information:   
+    > ![Select New to create a sequence.](media/sequence-select-new-sequence.png "Select New to create a sequence")   
+
+4. In the **Create a sequence** dialog, select one of the following options to create the sequence:  
+
+    - **Use template**: Use the templates to quickly set up sequences. Sequence templates provide a set of activities to guide sellers with the next best action to take to achieve a task, such as getting introduced to a lead and winning the deal. More information: [Sequence templates](sequence-templates.md)  
+    
+    - **Use blank sequence**: Use a blank sequence to create a sequence from scratch.   
+        
+    > [!div class="mx-imgBorder"]
+    > ![Select an option to create a sequence.](media/sequence-select-option-create-sequence.png "Select an option to create a sequence")     
+
+5. In the **Define sequence properties** dialog, enter the following information.
 
     | Parameter | Description |
     |-----------|-------------|
@@ -38,177 +46,64 @@ Every organization has its own selling processes for sellers to follow. A sequen
     > [!div class="mx-imgBorder"]
     > ![Create a sequence dialog.](media/sequence-create-sequence.png "Create a sequence dialog")   
 
-6. Select **Next**.   
-7. Choose and configure one of the following steps:      
-    - [Email activity](#email-activity)
-    - [Automated email activity](#automated-email-activity)
-    - [Phone call activity](#phone-call-activity)
-    - [Task activity](#task-activity)
-    - [Set wait time](#set-wait-time)
-    - [Advance to another sequence](#advance-to-another-sequence)
-    - [Update field](#update-field)
-    
+6. Select **Next**.     
+    The sequence designer page opens.
+
     > [!div class="mx-imgBorder"]
-    > ![Choose an activity type.](media/sequence-choose-activity.png "Choose an activity type")       
+    > ![The sequence designer page.](media/sequence-designer-page.png "The sequence designer page")   
+
+    By default, the **Sequence start here** step is added to sequence as the first step.  
+
+7. After the **Sequence start here** step, select the **Add** icon (**+**) and configure the sequence steps.
     
-8. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.    
-9. Select **More options** in the upper-right corner of the page, and then select **Save**.    
-10. Select **More options** again, and then select **Activate** to activate the sequence.   
+    For a sequence, the steps are categorized into the following four groups:
+    - **Steps**: The step in a sequence is an engagement task that a seller performs for sales outreach such as, email, phone call, and task. More information: [Add steps to sequence](steps-sequence.md)
+    - **Conditions**: The condition step in a sequence determines the next course of action that the sequence will take after the condition is either met or not, based on the completed activity. More information: [Add the conditions steps](adaptive-sequence.md)
+    - **Commands**: The command step in a sequence determines the next course of action according to the value given in the field or the stage of a business process. More information: [Add command steps to sequences](command-sequence.md)  
+    - **LinkedIn**: The LinkedIn activity step in a sequence allows sellers to diversify their day-to-day activities by including the social selling functions. You can use LinkedIn's vast network with recommended actions that your sellers can take to build deeper connections. More information: [Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
+       
+8. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.
+9. Save the sequence.  
+
+Now, you can activate the sequence. 
+
+## Activate a sequence
+
+1. Open a sequence and then select **Activate**.
     >[!NOTE]
     >You can have up to 250 active sequences at a time in your organization.        
-11. Select **Yes** in the confirmation message that appears.   
+
+    > [!div class="mx-imgBorder"]
+    > ![Select activate sequence.](media/sequence-select-activate-sequence.png "Select activate sequence")  
+
+1. Select **Activate** in the confirmation message that appears.   
     > [!NOTE]
     > An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.       
 
-    The sequence is activated and listed in the sequence designer home page. 
-
-    > [!NOTE]
-    > On the sequence home page, you can do the following tasks:
-    > - Sort and filter the records based on the column options. Select the down arrow icon corresponding to column header, and then select the sort and filter options that are available.
-    > - Reorder the columns by dragging-and-dropping at the location you want in the grid.
-    > - Search is available only on the name and description of the sequence.
-   
-    > [!div class="mx-imgBorder"]
-    > ![Sequence designer home page.](media/sequence-home-page.png "Sequence designer home page")    
-
-Next, you connect the active sequence to lead or opportunity records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
-
-## Email activity  
-Creates an email activity for sellers to communicate with customers. When this activity is shown to the seller, an envelope icon is displayed on the record. When a seller selects the icon, an email composer opens with a template, if one was selected. If no template was selected, an empty email composer opens.  
-> [!div class="mx-imgBorder"]
-> ![Add an email activity.](media/sequence-activity-add-email.png "Add an email activity")    
-
-Enter the following information to configure the email activity, and then select **Save**:   
-   1. A name and description for the activity. The information you enter here will be displayed to sellers.   
-   2. (Optional) If templates are available for your organization, in the **Assign email template** box, select the template you want to assign for this step. To know more about email templates, see the step to [add email template](#automated-email) in the **Automated email** section.  
-        > [!div class="mx-imgBorder"]
-        > ![Example email activity.](media/sequence-activity-email-created.png "Example email activity")   
-
-You can define conditions for an email activity to determine the branch that the sequence moves to as the next step. More information: [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity)      
-
-## Automated email activity   
-Creates an automated email activity for sellers to communicate with customers. When this activity is shown to the seller, a send icon ![Send icon.](media/send-icon.png "Send icon") is displayed on the record. The email is automatically sent to the customer based on the selected template.     
->[!TIP]
->Add a **Set wait time** activity before the **Automated email** activity. Adding wait time provides a time gap between the previous step and sending the automated email. If the time gap isn't configured, the automated email will be sent immediately after the previous activity is completed, which won't give sellers the time they might need to take action on the automated email activity.    
-
->[!NOTE]
->- Verify that required email templates are created in your organization. More information: [Create templates for email](/power-platform/admin/create-templates-email)   
->- Configure [the email engagement feature](configure-email-engagement.md) in your organization before you start using the automated email step.
-
-> [!div class="mx-imgBorder"]
-> ![Add an automated email activity.](media/sequence-activity-add-automated-email.png "Add an automated email activity")   
-
-Enter the following information to configure the automated email activity, and then select **Save**:    
--	A name and description for the activity. The information you enter here will be displayed to sellers.
--	<a name=automated-email></a>An email template that you want to assign for this step. 
-    1. Select **Add email template**. 
-    2. In the **Email templates** dialog, select the language and then choose a template. When a template is chosen, you can see the preview.     
-        > [!div class="mx-imgBorder"]
-        > ![Choose an email template.](media/sequence-activity-automated-email-choose-template.png "Choose an email template")     
-    3. Select **Apply template**.   
-        The template is selected step is created as displayed in the following example image.   
-        > [!div class="mx-imgBorder"]
-        > ![Example automated email activity.](media/sequence-activity-automated-email-created.png "Example automated email activity")   
-                
-        >[!NOTE]
-        >You can also view the preview of selected email template on the created step. Select the preview icon ![Automated email template preview icon.](media/sequence-activity-automated-email-preview-icon.png "Automated email template preview icon").
-
-You can define conditions for automated email activity to determine the branch that sequence moves to next step. More information: [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity).   
-
-## Phone call activity   
-Creates a phone call activity for sellers to communicate with customers. When this activity is shown to the seller, a phone icon is displayed on the record. When sellers select the icon, a softphone appears on the app to dial the customer.    
-> [!div class="mx-imgBorder"]
-> ![Add a phone call activity.](media/sequence-activity-add-phone-call.png "Add a phone call activity")    
-
-Enter a name and description for the phone call activity, and then select **Save**. The information you enter here will be displayed to sellers.   
-> [!div class="mx-imgBorder"]
-> ![Example phone call activity.](media/sequence-activity-phone-call-created.png "Example phone call activity")    
-
-You can define conditions for phone call activity to determine the branch that sequence moves to next step. More information: [Define conditions for phone call activity](adaptive-sequence.md#define-conditions-for-phone-call-activity).      
-
-## Task activity  
-Creates a custom activity that you define&mdash;such as scheduling a meeting with the customer&mdash;that isn't specified in the activity selector.   
-> [!div class="mx-imgBorder"]
-> ![Add a custom task activity.](media/sequence-activity-add-task.png "Add a custom task activity")    
-
-Enter the name and description of the custom activity, and then select **Save**. The information you enter here will be displayed to sellers.   
-> [!div class="mx-imgBorder"]
-> ![Example task activity.](media/sequence-activity-task-created.png "Example task activity")   
-
-## Set wait time  
-Specifies the interval between activities&mdash;that is, after an activity is completed and before the next activity occurs&mdash;during which sellers need to wait. A sequence can't end with this activity.     
-When this activity is shown to sellers on a record, they don't need to perform any action; they simply need to wait until the wait time expires before they perform the next activity.   
-> [!div class="mx-imgBorder"]
-> ![Set wait time.](media/sequence-activity-add-set-wait-time.png "Set wait time")   
-
-Choose the duration in days and hours that you want sellers to wait before they perform the next activity, and then select **Save**. The maximum wait time is 30 days.   
-> [!div class="mx-imgBorder"]
-> ![Example wait time.](media/sequence-activity-set-wait-time-created.png "Example wait time")   
-
-## Advance to another sequence    
-Transfers the sequence control from the current sequence to the selected sequence. For example, you defined a sequence **S1** and attached a sequence **S2** after an initial activity of sending an introduction email. when **S1** is attached to a record and seller completes the initial task of sending an introduction email, the record starts displaying the activities defined in **S2**. The following are the considerations to use this activity:   
-- A sequence can't start with this activity
-- Other steps can't be added after this activity
-
-> [!div class="mx-imgBorder"]
-> ![Advance to another sequence activity.](media/sequence-activity-advance-to-another-sequence.png "Advance to another sequence activity")        
-
-From the **Connect to** list, choose a sequence to attach. The list consists of the sequences that are active and related to the record type. Select **Save** and the activity is created.
-> [!div class="mx-imgBorder"]
-> ![Example for advance to another sequence activity.](media/sequence-activity-advance-to-another-sequence-created.png "Example for advance to another sequence activity")    
-
-## Update field
-
-Creates a step that automatically updates a record by using a configured value for a field. When the activity is displayed to the seller in the record, the field automatically gets updated with the value you configured. The following types of fields are supported (including custom fields):
- 
-- Two options (for example, a **Do Not Email** field that contains the values **Allow** and **Do Not Allow**)    
-- Option set (for example, a **Budget** field that contains the values **No Committed Budget**, **May Buy**, **Can Buy**, and **Will Buy**)
-
-You can add this activity anywhere in the sequence. As soon as the previous activity is completed, the **Update field** activity is executed automatically and the sequence moves on to the next activity. To avoid executing the **Update field** step immediately after the previous activity is completed, add the [Set wait time](#set-wait-time) activity (described earlier in this topic) before the **Update field** activity. 
-
-Sellers can see the activity on the timeline of the record.
-
-> [!div class="mx-imgBorder"]
-> ![Update field activity.](media/sequence-activity-update-field.png "Update field activity")  
-
-Under **Automatically update this field**, select a field. Under **With this value**, select a value to use to update the record automatically. Select **Save**, and the activity is created.
-
-> [!div class="mx-imgBorder"]
-> ![Example of the update field activity.](media/sequence-activity-update-field-created.png "Example of the update field activity")  
-
-## Exit a sequence during the flow
-
-By enabling the option to exit a sequence, you disconnect the sequence from its records when the criteria is met. For example, if the flow includes an email reply from the customer, the record will be disconnected from the sequence.
-
-**Prerequisites**
-
-Review the following requirements before you enable the **Exit the sequence** option:
-
-- At least one email activity step is created in the sequence. 
-- The sequence must be in inactive or revision state.
-- [Configure the email engagement feature](configure-email-engagement.md) in your organization before you start using this option for the email activity.
-
-**To configure the exit sequence criteria**
-
-1.	Open the sequence, and then select **Options**.
+    The sequence is activated and listed in the sequence designer home page. Also, you can see the status of the sequence beside the name and a confirmation message.  
 
     > [!div class="mx-imgBorder"]
-    > ![Sequence designer with Options.](media/sequence-designer-select-options.png "Sequence designer with Options")
+    > ![Sequence activated and status.](media/sequence-activate-sequence-confirmation.png "Sequence activated and status")  
 
-2.	On the **Sequence Options** pane, turn on the **Exit a sequence** toggle to exit a sequence when a customer replies to any email in the sequence.  
+Next, you connect the active sequence to records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
-    > [!div class="mx-imgBorder"]
-    > ![Enable exiting a sequence on the Sequence Options pane.](media/sequence-sequence-options-pane.png "Enable exiting a sequence on the Sequence Options pane")
+## Sequence home page
 
-3.	Select **Save**.
+On the sequence home page, you can do the following tasks:
+- Sort and filter the records based on the column options. Expand the column header, and then select the sort and filter options that are available.
+- Reorder the columns by dragging them to the location you want in the grid.
+- Search is available only on the name and description of the sequence.
+
+> [!div class="mx-imgBorder"]
+> ![Sequence designer home page.](media/sequence-home-page.png "Sequence designer home page")    
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Create and manage sequences](create-manage-sequences.md)     
-[Adaptive sequences](adaptive-sequence.md)    
-[Manage tags for sequences](manage-tags-for-sequences.md) 
-
+[Sequences](create-manage-sequences.md)     
+[Add steps to sequence](steps-sequence.md)  
+[Manage tags for sequences](manage-tags-for-sequences.md)     
+[Migrate sequences from one environment to another](migrate-sequence.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -13,7 +13,6 @@ applies_to:
 ms.assetid: 81816457-c963-46ca-b350-615fa75f56a7
 caps.latest.revision: 27
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 
@@ -105,7 +104,7 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
 > [!IMPORTANT]
 > Before using the `Get-CrmConnection` cmdlet, ensure that you use the following command to enforce usage of TLS 1.2 by PowerShell to connect to your  Dynamics 365 Customer Engagement (on-premises) instance:<br/>
 > `[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12`<br/>
-> More information about TLS 1.2 requirement for Customer Engagement connection: [Blog Post: Updates coming to Dynamics 365 Customer Engagement (on-premises) connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)   
+> More information about TLS 1.2 requirement for Customer Engagement connection: [Blog Post: Updates coming to Dynamics 365 Customer Engagement (on-premises) connection security](https://cloudblogs.microsoft.com/dynamics365/bdm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)   
   
 ### Connect to  Dynamics 365 Customer Engagement (on-premises) by using the common login control  
   
@@ -149,7 +148,7 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
 
 [Use XRM Tooling API to connect to Dataverse](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect)<br />
 [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)<br /> 
-[Blog: PowerShell module for performing data operations and manipulating user and system settings in Dynamics 365 Customer Engagement (on-premises)](https://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)
+[Blog: PowerShell module for performing data operations and manipulating user and system settings in CRM](https://cloudblogs.microsoft.com/dynamics365/no-audience/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm/)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

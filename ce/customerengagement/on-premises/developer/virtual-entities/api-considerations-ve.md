@@ -1,5 +1,6 @@
 ---
 title: "API considerations of virtual entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: Learn about API considerations for virtual entities in Dynamics 365 Customer Engagement (on-premises).
 ms.date: 10/31/2017
 
 ms.topic: article
@@ -8,7 +9,6 @@ applies_to:
 ms.assetid: d329dade-16c5-46e9-8dec-4b8efb996dea
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -83,7 +83,7 @@ Two new entity types, [EntityDataProvider](../entities/entitydataprovider.md) an
 
 The following table details how the behavior of standard [EntityMetadata properties](https://msdn.microsoft.com/library/microsoft.xrm.sdk.metadata.entitymetadata_properties.aspx) are modified when applied to virtual entities. Some properties are not valid for virtual entities, whereas others are limited in scope or value.
 
-<!-- TODO: Above link URL needs to be changed to docs.microsoft.com -->
+<!-- TODO: Above link URL needs to be changed to learn.microsoft.com -->
 
 |**Metadata Property**|**Applies?**|**Notes**|
 |---------------------|------------|---------|
@@ -180,9 +180,9 @@ The following table details how the behavior of standard [EntityMetadata propert
 
 ### Attribute metadata property behavior changes
 
-The following table explains how the behavior of standard [AttributeMetadata properties]( https://msdn.microsoft.com/library/microsoft.xrm.sdk.metadata.attributemetadata_properties.aspx) are modified when applied to virtual entities. Some properties are not valid for virtual entities, whereas others are limited in scope or value.
+The following table explains how the behavior of standard [AttributeMetadata properties](/dotnet/api/microsoft.xrm.sdk.metadata.attributemetadata?view=dataverse-sdk-latest#properties) are modified when applied to virtual entities. Some properties are not valid for virtual entities, whereas others are limited in scope or value.
 
-<!-- TODO: Above link URL needs to be changed to docs.microsoft.com -->
+<!-- TODO: Above link URL needs to be changed to learn.microsoft.com -->
 
 |**Metadata Property**|**Applies?**|**Notes**|
 |---------------------|------------|---------|

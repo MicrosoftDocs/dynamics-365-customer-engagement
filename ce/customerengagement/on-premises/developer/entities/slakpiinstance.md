@@ -1,39 +1,37 @@
 ---
-title: "SLAKPIInstance Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "SLAKPIInstance entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the SLAKPIInstance entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# SLAKPIInstance Entity Reference
+
+# SLAKPIInstance entity reference
 
 Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/slakpiinstances(*slakpiinstanceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/slakpiinstances<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/slakpiinstances(*slakpiinstanceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/slakpiinstances(*slakpiinstanceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/slakpiinstances<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/slakpiinstances(*slakpiinstanceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -274,16 +272,16 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Status Options
+#### Status Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|In Progress|
-|1|Noncompliant|
-|2|Nearing Noncompliance|
-|3|Paused|
-|4|Succeeded|
-|5|Canceled|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|In Progress||
+|1|Noncompliant||
+|2|Nearing Noncompliance||
+|3|Paused||
+|4|Succeeded||
+|5|Canceled||
 
 
 
@@ -343,12 +341,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### WarningTimeReached Options
+#### WarningTimeReached Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|No|
-|1|Yes|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|No||
+|1|Yes||
 
 
 <a name="read-only-attributes"></a>
@@ -729,8 +727,6 @@ Listed by **SchemaName**.
 
 - [slakpiinstance_incident_firstresponsebykpi](#BKMK_slakpiinstance_incident_firstresponsebykpi)
 - [slakpiinstance_incident_resolvebykpi](#BKMK_slakpiinstance_incident_resolvebykpi)
-- [msdyn_slakpiinstance_msdyn_workorder_arrival_timekpi](#BKMK_msdyn_slakpiinstance_msdyn_workorder_arrival_timekpi)
-- [msdyn_slakpiinstance_msdyn_workorder_resolutionkpiid](#BKMK_msdyn_slakpiinstance_msdyn_workorder_resolutionkpiid)
 - [SLAKPIInstance_SyncErrors](#BKMK_SLAKPIInstance_SyncErrors)
 
 
@@ -738,7 +734,7 @@ Listed by **SchemaName**.
 
 **Added by**: Service Solution
 
-Same as incident entity [slakpiinstance_incident_firstresponsebykpi](incident.md#BKMK_slakpiinstance_incident_firstresponsebykpi) Many-To-One relationship.
+Same as the [slakpiinstance_incident_firstresponsebykpi](incident.md#BKMK_slakpiinstance_incident_firstresponsebykpi) many-to-one relationship for the [incident](incident.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -755,7 +751,7 @@ Same as incident entity [slakpiinstance_incident_firstresponsebykpi](incident.md
 
 **Added by**: Service Solution
 
-Same as incident entity [slakpiinstance_incident_resolvebykpi](incident.md#BKMK_slakpiinstance_incident_resolvebykpi) Many-To-One relationship.
+Same as the [slakpiinstance_incident_resolvebykpi](incident.md#BKMK_slakpiinstance_incident_resolvebykpi) many-to-one relationship for the [incident](incident.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -768,43 +764,9 @@ Same as incident entity [slakpiinstance_incident_resolvebykpi](incident.md#BKMK_
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_msdyn_slakpiinstance_msdyn_workorder_arrival_timekpi"></a> msdyn_slakpiinstance_msdyn_workorder_arrival_timekpi
-
-**Added by**: Field Service Solution
-
-Same as msdyn_workorder entity [msdyn_slakpiinstance_msdyn_workorder_arrival_timekpi](msdyn_workorder.md#BKMK_msdyn_slakpiinstance_msdyn_workorder_arrival_timekpi) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_workorder|
-|ReferencingAttribute|msdyn_workorderarrivaltimekpiid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_slakpiinstance_msdyn_workorder_arrival_timekpi|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_slakpiinstance_msdyn_workorder_resolutionkpiid"></a> msdyn_slakpiinstance_msdyn_workorder_resolutionkpiid
-
-**Added by**: Field Service Solution
-
-Same as msdyn_workorder entity [msdyn_slakpiinstance_msdyn_workorder_resolutionkpiid](msdyn_workorder.md#BKMK_msdyn_slakpiinstance_msdyn_workorder_resolutionkpiid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_workorder|
-|ReferencingAttribute|msdyn_workorderresolutionkpiid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_slakpiinstance_msdyn_workorder_resolutionkpiid|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_SLAKPIInstance_SyncErrors"></a> SLAKPIInstance_SyncErrors
 
-Same as syncerror entity [SLAKPIInstance_SyncErrors](syncerror.md#BKMK_SLAKPIInstance_SyncErrors) Many-To-One relationship.
+Same as the [SLAKPIInstance_SyncErrors](syncerror.md#BKMK_SLAKPIInstance_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -851,113 +813,109 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Lead Management Solution
 
-See lead Entity [slakpiinstance_lead](lead.md#BKMK_slakpiinstance_lead) One-To-Many relationship.
+See the [slakpiinstance_lead](lead.md#BKMK_slakpiinstance_lead) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_slakpiinstance_incident"></a> slakpiinstance_incident
 
 **Added by**: Service Solution
 
-See incident Entity [slakpiinstance_incident](incident.md#BKMK_slakpiinstance_incident) One-To-Many relationship.
+See the [slakpiinstance_incident](incident.md#BKMK_slakpiinstance_incident) one-to-many relationship for the [incident](incident.md) entity.
 
 ### <a name="BKMK_slakpiinstance_serviceappointment"></a> slakpiinstance_serviceappointment
 
 **Added by**: Service Solution
 
-See serviceappointment Entity [slakpiinstance_serviceappointment](serviceappointment.md#BKMK_slakpiinstance_serviceappointment) One-To-Many relationship.
+See the [slakpiinstance_serviceappointment](serviceappointment.md#BKMK_slakpiinstance_serviceappointment) one-to-many relationship for the [serviceappointment](serviceappointment.md) entity.
 
 ### <a name="BKMK_slakpiinstance_invoice"></a> slakpiinstance_invoice
 
 **Added by**: Sales Solution
 
-See invoice Entity [slakpiinstance_invoice](invoice.md#BKMK_slakpiinstance_invoice) One-To-Many relationship.
+See the [slakpiinstance_invoice](invoice.md#BKMK_slakpiinstance_invoice) one-to-many relationship for the [invoice](invoice.md) entity.
 
 ### <a name="BKMK_slakpiinstance_opportunity"></a> slakpiinstance_opportunity
 
 **Added by**: Sales Solution
 
-See opportunity Entity [slakpiinstance_opportunity](opportunity.md#BKMK_slakpiinstance_opportunity) One-To-Many relationship.
+See the [slakpiinstance_opportunity](opportunity.md#BKMK_slakpiinstance_opportunity) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_slakpiinstance_quote"></a> slakpiinstance_quote
 
 **Added by**: Sales Solution
 
-See quote Entity [slakpiinstance_quote](quote.md#BKMK_slakpiinstance_quote) One-To-Many relationship.
+See the [slakpiinstance_quote](quote.md#BKMK_slakpiinstance_quote) one-to-many relationship for the [quote](quote.md) entity.
 
 ### <a name="BKMK_slakpiinstance_salesorder"></a> slakpiinstance_salesorder
 
 **Added by**: Sales Solution
 
-See salesorder Entity [slakpiinstance_salesorder](salesorder.md#BKMK_slakpiinstance_salesorder) One-To-Many relationship.
+See the [slakpiinstance_salesorder](salesorder.md#BKMK_slakpiinstance_salesorder) one-to-many relationship for the [salesorder](salesorder.md) entity.
 
 ### <a name="BKMK_slakpiinstance_activitypointer"></a> slakpiinstance_activitypointer
 
-See activitypointer Entity [slakpiinstance_activitypointer](activitypointer.md#BKMK_slakpiinstance_activitypointer) One-To-Many relationship.
+See the [slakpiinstance_activitypointer](activitypointer.md#BKMK_slakpiinstance_activitypointer) one-to-many relationship for the [activitypointer](activitypointer.md) entity.
 
 ### <a name="BKMK_slakpiinstance_email"></a> slakpiinstance_email
 
-See email Entity [slakpiinstance_email](email.md#BKMK_slakpiinstance_email) One-To-Many relationship.
+See the [slakpiinstance_email](email.md#BKMK_slakpiinstance_email) one-to-many relationship for the [email](email.md) entity.
 
 ### <a name="BKMK_slakpiinstance_fax"></a> slakpiinstance_fax
 
-See fax Entity [slakpiinstance_fax](fax.md#BKMK_slakpiinstance_fax) One-To-Many relationship.
+See the [slakpiinstance_fax](fax.md#BKMK_slakpiinstance_fax) one-to-many relationship for the [fax](fax.md) entity.
 
 ### <a name="BKMK_lk_slakpiinstancebase_createdonbehalfby"></a> lk_slakpiinstancebase_createdonbehalfby
 
-See systemuser Entity [lk_slakpiinstancebase_createdonbehalfby](systemuser.md#BKMK_lk_slakpiinstancebase_createdonbehalfby) One-To-Many relationship.
+See the [lk_slakpiinstancebase_createdonbehalfby](systemuser.md#BKMK_lk_slakpiinstancebase_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_slakpiinstancebase_modifiedonbehalfby"></a> lk_slakpiinstancebase_modifiedonbehalfby
 
-See systemuser Entity [lk_slakpiinstancebase_modifiedonbehalfby](systemuser.md#BKMK_lk_slakpiinstancebase_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_slakpiinstancebase_modifiedonbehalfby](systemuser.md#BKMK_lk_slakpiinstancebase_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_slakpiinstance_account"></a> slakpiinstance_account
 
-See account Entity [slakpiinstance_account](account.md#BKMK_slakpiinstance_account) One-To-Many relationship.
+See the [slakpiinstance_account](account.md#BKMK_slakpiinstance_account) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_slakpiinstance_letter"></a> slakpiinstance_letter
 
-See letter Entity [slakpiinstance_letter](letter.md#BKMK_slakpiinstance_letter) One-To-Many relationship.
+See the [slakpiinstance_letter](letter.md#BKMK_slakpiinstance_letter) one-to-many relationship for the [letter](letter.md) entity.
 
 ### <a name="BKMK_slakpiinstance_phonecall"></a> slakpiinstance_phonecall
 
-See phonecall Entity [slakpiinstance_phonecall](phonecall.md#BKMK_slakpiinstance_phonecall) One-To-Many relationship.
+See the [slakpiinstance_phonecall](phonecall.md#BKMK_slakpiinstance_phonecall) one-to-many relationship for the [phonecall](phonecall.md) entity.
 
 ### <a name="BKMK_business_unit_slakpiinstance"></a> business_unit_slakpiinstance
 
-See businessunit Entity [business_unit_slakpiinstance](businessunit.md#BKMK_business_unit_slakpiinstance) One-To-Many relationship.
+See the [business_unit_slakpiinstance](businessunit.md#BKMK_business_unit_slakpiinstance) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_slakpiinstance_socialactivity"></a> slakpiinstance_socialactivity
 
-See socialactivity Entity [slakpiinstance_socialactivity](socialactivity.md#BKMK_slakpiinstance_socialactivity) One-To-Many relationship.
+See the [slakpiinstance_socialactivity](socialactivity.md#BKMK_slakpiinstance_socialactivity) one-to-many relationship for the [socialactivity](socialactivity.md) entity.
 
 ### <a name="BKMK_slakpiinstance_task"></a> slakpiinstance_task
 
-See task Entity [slakpiinstance_task](task.md#BKMK_slakpiinstance_task) One-To-Many relationship.
+See the [slakpiinstance_task](task.md#BKMK_slakpiinstance_task) one-to-many relationship for the [task](task.md) entity.
 
 ### <a name="BKMK_lk_slakpiinstancebase_modifiedby"></a> lk_slakpiinstancebase_modifiedby
 
-See systemuser Entity [lk_slakpiinstancebase_modifiedby](systemuser.md#BKMK_lk_slakpiinstancebase_modifiedby) One-To-Many relationship.
+See the [lk_slakpiinstancebase_modifiedby](systemuser.md#BKMK_lk_slakpiinstancebase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_slakpiinstance"></a> TransactionCurrency_slakpiinstance
 
-See transactioncurrency Entity [TransactionCurrency_slakpiinstance](transactioncurrency.md#BKMK_TransactionCurrency_slakpiinstance) One-To-Many relationship.
+See the [TransactionCurrency_slakpiinstance](transactioncurrency.md#BKMK_TransactionCurrency_slakpiinstance) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_slakpiinstance_contact"></a> slakpiinstance_contact
 
-See contact Entity [slakpiinstance_contact](contact.md#BKMK_slakpiinstance_contact) One-To-Many relationship.
+See the [slakpiinstance_contact](contact.md#BKMK_slakpiinstance_contact) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_lk_slakpiinstancebase_createdby"></a> lk_slakpiinstancebase_createdby
 
-See systemuser Entity [lk_slakpiinstancebase_createdby](systemuser.md#BKMK_lk_slakpiinstancebase_createdby) One-To-Many relationship.
+See the [lk_slakpiinstancebase_createdby](systemuser.md#BKMK_lk_slakpiinstancebase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_slakpiinstance_appointment"></a> slakpiinstance_appointment
 
-See appointment Entity [slakpiinstance_appointment](appointment.md#BKMK_slakpiinstance_appointment) One-To-Many relationship.
+See the [slakpiinstance_appointment](appointment.md#BKMK_slakpiinstance_appointment) one-to-many relationship for the [appointment](appointment.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.slakpiinstance?text=slakpiinstance EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

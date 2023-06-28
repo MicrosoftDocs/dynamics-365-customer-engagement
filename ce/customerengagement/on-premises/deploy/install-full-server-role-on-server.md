@@ -14,7 +14,6 @@ ms.assetid: a9325e0d-b020-4f0f-a339-9eaf2d6387d2
 caps.latest.revision: 38
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Install Dynamics 365 Customer Engagement (on-premises) Full Server role on a server without Dynamics 365 Customer Engagement (on-premises) installed
 
@@ -55,7 +54,7 @@ manager: kvivek
 10. The **Specify Server Roles** page appears. By default, Full Server is selected and will install all server roles on the computer. Alternatively, you can select a predefined group of server roles or one or more individual server roles. Notice that all server roles must be deployed on the network in the same [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain for the deployment to operate correctly. For more information, see [Planning your deployment of Dynamics 365 Customer Engagement (on-premises)](planning-your-deployment-of-microsoft-dynamics-365.md). Select **Next**.  
   
     > [!IMPORTANT]
-    >  When you select a server role other than Full Server, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] does not create an organization database during the installation. If the deployment does not have an organization database, you must use the [New-CrmOrganization](/powershell/module/microsoft.crm.powershell/new-crmorganization?view=dynamics365ce-ps) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet or [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] to create a new organization.  
+    >  When you select a server role other than Full Server, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] does not create an organization database during the installation. If the deployment does not have an organization database, you must use the [New-CrmOrganization](/powershell/module/microsoft.crm.powershell/new-crmorganization?view=dynamics365ce-ps&preserve-view=true) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet or [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] to create a new organization.  
   
 11. On the **Specify Deployment Options** page, if Setup detects an existing deployment, you can select whether you want to create a new deployment or connect to an existing deployment. In the **Enter or select the name of the computer that is running SQL Server to use with the deployment** box, type or select the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that will be used to store the configuration database (MSCRM_CONFIG).  
   
@@ -122,7 +121,7 @@ manager: kvivek
   
          The default SQL collation changes based on the base language selection.  
   
-         For more information, see [Collation and Unicode support](/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-2017).  
+         For more information, see [Collation and Unicode support](/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-2017&preserve-view=true).  
   
     6.  Select **Next**.  
   

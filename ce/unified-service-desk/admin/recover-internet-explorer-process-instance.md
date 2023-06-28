@@ -1,16 +1,12 @@
 ---
 title: "Recover Internet Explorer process instances | MicrosoftDocs"
 description: "Learn how to recover Internet Explorer process instances in Unified Service Desk. Also, know how to use keyboard shortcuts to terminate and recover such instances."
-ms.date: 09/08/2021
+ms.date: 09/20/2022
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
@@ -19,14 +15,7 @@ ms.custom:
 
 
 
->[!Important]
->
-> - From 2022 release wave 1, Unified Interface-based apps will not be accessible in Internet Explorer and classic Microsoft Edge browsers. The users of Internet Explorer will see an error message similar to the following:
-> "Model-driven apps require Microsoft Edge or a supported browser. Please switch to a modern browser."
->
-> - To continue to use Unified Interface-based apps in Unified Service Desk, we recommend that you use the latest browser control host such as Edge WebView2. Because Unified Service Desk supports a mix of browser control hosts, you can still use the IE process for hosting apps that are not based on Unified Interface.
->
-> - Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11)
+[!INCLUDE[cc_internet_explorer_deprecation](../../../ce/includes/cc-internet-explorer-deprecation.md)]
 
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Internet Explorer process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].

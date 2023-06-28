@@ -1,18 +1,17 @@
 ---
 title: "Customer Service Insights | MicrosoftDocs"
 description: "Learn about Customer Service Insights"
-ms.date: 04/05/2021
+ms.date: 04/05/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 
 # Customer Service Insights
 
-Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and improve customer satisfaction. Agents and customers can use use AI and analytics capabilities for Customer Service Insights and Omnichannel for Customer Service. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers.
+Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and improve customer satisfaction. Agents and customer service managers can use AI and analytics capabilities for Customer Service Insights and Omnichannel for Customer Service. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers.
 
 The premium AI capabilities in Customer Service Insights use advanced AI technology in natural language understanding and natural language generation to help your service team focus on what matters and guide them to success. As an agent, you can use real-time similar cases and knowledge article suggestions that are customized for the current context. The AI-driven technology allows agents to help solve customer issues more quickly, improving resolution rates, and customer satisfaction. 
 
@@ -61,8 +60,8 @@ If you're a customer who uses the Customer Service Insights standalone web appli
 
 [Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md) <br>
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md) <br>
-[Send a survey automatically when case is resolved](https://go.microsoft.com/fwlink/p/?linkid=2153819)
-[Configure Omnichannel historical analytics](oc-historical-analytics-reports.md)
+[Send a survey automatically when case is resolved](https://go.microsoft.com/fwlink/p/?linkid=2153819) <br>
+[Configure Omnichannel historical analytics](oc-historical-analytics-reports.md) <br>
 [Configure AI topic clustering for conversation](ai-topic-clustering-conversations.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

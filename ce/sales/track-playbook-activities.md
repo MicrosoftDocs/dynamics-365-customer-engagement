@@ -1,11 +1,10 @@
 ---
 title: "Track playbook activities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Carry out the playbook activities to ensure every event or scenario is dealt with consistently."
-ms.date: 10/26/2021
+ms.date: 05/08/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -18,7 +17,10 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
-# Track playbook activities 
+# Track playbook activities
+
+> [!NOTE]
+> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](deprecations-sales.md#playbooks-will-be-deprecated)  
 
 When a playbook is launched, its related activities are created and associated with the record the playbook is launched from (also called the calling record). You must complete these activities to ensure every event is dealt with consistently.
 
@@ -27,12 +29,11 @@ If the playbook template used for the playbook has its **Track progress** field 
 To see the activities created by the playbook when the **Track progress** field in the playbook template is set to **Yes**:
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson, Playbook User, and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Playbook User or Playbook Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Track activities in a playbook
 

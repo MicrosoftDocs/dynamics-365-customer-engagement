@@ -1,15 +1,13 @@
 ---
-title: "msdyn_ocwechatchannelconfig Entity Reference | MicrosoftDocs"
+title: "msdyn_ocwechatchannelconfig Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocwechatchannelconfig entity."
-ms.date: 09/14/2020
+ms.date: 10/21/2022
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
-applies_to: 
-  - "Dynamics 365 (online)"
+author: "gandhamm"
+ms.author: mgandham
 ---
-# msdyn_ocwechatchannelconfig Entity Reference
+
+# msdyn_ocwechatchannelconfig Entity Reference 
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
@@ -22,21 +20,23 @@ WeChat accounts for Omnichannel integration
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_ocwechatchannelconfigs(*msdyn_ocwechatchannelconfigid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_ocwechatchannelconfigs<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_ocwechatchannelconfigs(*msdyn_ocwechatchannelconfigid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocwechatchannelconfigs(*msdyn_ocwechatchannelconfigid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocwechatchannelconfigs<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocwechatchannelconfigs(*msdyn_ocwechatchannelconfigid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_ocwechatchannelconfigs(*msdyn_ocwechatchannelconfigid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_ocwechatchannelconfigs<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocwechatchannelconfigs(*msdyn_ocwechatchannelconfigid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocwechatchannelconfigs<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_ocwechatchannelconfigs(*msdyn_ocwechatchannelconfigid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_ocwechatchannelconfigs(*msdyn_ocwechatchannelconfigid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocwechatchannelconfigs(*msdyn_ocwechatchannelconfigid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocwechatchannelconfigs(*msdyn_ocwechatchannelconfigid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -54,9 +54,9 @@ WeChat accounts for Omnichannel integration
 
 <a name="writable-attributes"></a>
 
-## Writable attributes
+## Writable columns/attributes
 
-These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
+These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_applicationid](#BKMK_msdyn_applicationid)
@@ -71,9 +71,16 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_ocwechatchannelconfigId](#BKMK_msdyn_ocwechatchannelconfigId)
 - [msdyn_ocwidgetlanguage](#BKMK_msdyn_ocwidgetlanguage)
 - [msdyn_PostConversationSurvey](#BKMK_msdyn_PostConversationSurvey)
+- [msdyn_PostConversationSurveyBotSurvey](#BKMK_msdyn_PostConversationSurveyBotSurvey)
+- [msdyn_PostConversationSurveyBotSurveyMessageText](#BKMK_msdyn_PostConversationSurveyBotSurveyMessageText)
+- [msdyn_PostConversationSurveyBotSurveyMode](#BKMK_msdyn_PostConversationSurveyBotSurveyMode)
 - [msdyn_PostConversationSurveyEnable](#BKMK_msdyn_PostConversationSurveyEnable)
 - [msdyn_PostConversationSurveyMessageText](#BKMK_msdyn_PostConversationSurveyMessageText)
 - [msdyn_PostConversationSurveyMode](#BKMK_msdyn_PostConversationSurveyMode)
+- [msdyn_PostConversationSurveySeparateBotSurvey](#BKMK_msdyn_PostConversationSurveySeparateBotSurvey)
+- [msdyn_secureapplicationsecret](#BKMK_msdyn_secureapplicationsecret)
+- [msdyn_secureencodingaeskey](#BKMK_msdyn_secureencodingaeskey)
+- [msdyn_securetoken](#BKMK_msdyn_securetoken)
 - [msdyn_serviceaccount](#BKMK_msdyn_serviceaccount)
 - [msdyn_token](#BKMK_msdyn_token)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -164,7 +171,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_enablefileattachmentsforagents Options
+#### msdyn_enablefileattachmentsforagents Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -189,7 +196,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_enablefileattachmentsforcustomers Options
+#### msdyn_enablefileattachmentsforcustomers Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -298,7 +305,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Lookup to Forms Pro survey field|
+|Description|Lookup to Dynamics 365 Customer Voice survey field|
 |DisplayName|Survey|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -306,6 +313,72 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Targets|msfp_survey|
 |Type|Lookup|
+
+
+### <a name="BKMK_msdyn_PostConversationSurveyBotSurvey"></a> msdyn_PostConversationSurveyBotSurvey
+
+**Added by**: Omnichannel - SocialChannels Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Enable or disable bot survey|
+|DisplayName|Bot Survey|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurveybotsurvey|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_PostConversationSurveyBotSurvey Choices/Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_PostConversationSurveyBotSurveyMessageText"></a> msdyn_PostConversationSurveyBotSurveyMessageText
+
+**Added by**: Omnichannel - SocialChannels Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Prefix text for survey link message that will be sent to the user.|
+|DisplayName|Message|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurveybotsurveymessagetext|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_PostConversationSurveyBotSurveyMode"></a> msdyn_PostConversationSurveyBotSurveyMode
+
+**Added by**: Omnichannel - SocialChannels Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Mode of the survey to be sent|
+|DisplayName|Survey Mode|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurveybotsurveymode|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_PostConversationSurveyBotSurveyMode Choices/Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Insert survey in conversation|
+|192350001|Send survey link to conversation|
+
 
 
 ### <a name="BKMK_msdyn_PostConversationSurveyEnable"></a> msdyn_PostConversationSurveyEnable
@@ -322,7 +395,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_PostConversationSurveyEnable Options
+#### msdyn_PostConversationSurveyEnable Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -365,13 +438,83 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### msdyn_PostConversationSurveyMode Options
+#### msdyn_PostConversationSurveyMode Choices/Options
 
 |Value|Label|
 |-----|-----|
 |192350000|Insert survey in conversation|
 |192350001|Send survey link to conversation|
 
+
+
+### <a name="BKMK_msdyn_PostConversationSurveySeparateBotSurvey"></a> msdyn_PostConversationSurveySeparateBotSurvey
+
+**Added by**: Omnichannel - SocialChannels Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Lookup to Dynamics 365 Customer Voice survey field|
+|DisplayName|Survey|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurveyseparatebotsurvey|
+|RequiredLevel|None|
+|Targets|msfp_survey|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_secureapplicationsecret"></a> msdyn_secureapplicationsecret
+
+**Added by**: Omnichannel - SocialChannels Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Secure Application Secret of WeChat Channel|
+|DisplayName|Secure Developer password (AppSecret)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_secureapplicationsecret|
+|MaxLength|225|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_secureencodingaeskey"></a> msdyn_secureencodingaeskey
+
+**Added by**: Omnichannel - SocialChannels Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Secure Message encryption key (EncodingAESKey) for WeChat|
+|DisplayName|Secure Message encryption key (EncodingAESKey)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_secureencodingaeskey|
+|MaxLength|200|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_securetoken"></a> msdyn_securetoken
+
+**Added by**: Omnichannel - SocialChannels Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Secure Token of WeChat Channel|
+|DisplayName|Secure Token|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_securetoken|
+|MaxLength|1000|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_serviceaccount"></a> msdyn_serviceaccount
@@ -466,7 +609,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -487,7 +630,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -529,9 +672,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 <a name="read-only-attributes"></a>
 
-## Read-only attributes
+## Read-only columns/attributes
 
-These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
+These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
@@ -550,9 +693,11 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [msdyn_liveworkstreamidName](#BKMK_msdyn_liveworkstreamidName)
 - [msdyn_ocwidgetlanguageName](#BKMK_msdyn_ocwidgetlanguageName)
 - [msdyn_PostConversationSurveyName](#BKMK_msdyn_PostConversationSurveyName)
+- [msdyn_PostConversationSurveySeparateBotSurveyName](#BKMK_msdyn_PostConversationSurveySeparateBotSurveyName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
+- [OwningBusinessUnitName](#BKMK_OwningBusinessUnitName)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
 - [VersionNumber](#BKMK_VersionNumber)
@@ -848,6 +993,24 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_PostConversationSurveySeparateBotSurveyName"></a> msdyn_PostConversationSurveySeparateBotSurveyName
+
+**Added by**: Omnichannel - SocialChannels Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurveyseparatebotsurveyname|
+|MaxLength|450|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
@@ -892,12 +1055,30 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
 |DisplayName|Owning Business Unit|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|owningbusinessunit|
 |RequiredLevel|None|
 |Targets|businessunit|
 |Type|Lookup|
+
+
+### <a name="BKMK_OwningBusinessUnitName"></a> OwningBusinessUnitName
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunitname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
@@ -948,18 +1129,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="manytoone"></a>
 
-## Many-To-One Relationships
-
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
-
-
-### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage"></a> msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage
-
-**Added by**: Omnichannel - Base Patch Solution
-
-See msdyn_oclanguage Entity [msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage](msdyn_oclanguage.md#BKMK_msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage) One-To-Many relationship.
 
 ### See also
 

@@ -5,8 +5,7 @@ ms.date: 12/27/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 
 # Introduction to the agent interface of Omnichannel for Customer Service
@@ -34,7 +33,7 @@ Omnichannel for Customer Service provides the following key capabilities:
 - Agent dashboard
 - Multiple sessions
 - Application tabs associated with sessions
-- Customer summary
+- Active Conversation
 - Communication panel
 - Presence management
 - Notifications

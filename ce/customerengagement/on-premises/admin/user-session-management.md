@@ -2,7 +2,7 @@
 title: "Manage user sessions in Dynamics 365 Customer Engagement (on-premises)"
 description: "Manage user access and sessions, such as when a session times out, by enabling security enhancements in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 01/07/2021
+ms.date: 07/19/2022
 ms.reviewer: 
 
 ms.suite: 
@@ -14,7 +14,6 @@ ms.assetid: 599f849d-c4cb-4b1c-84a0-9fde48a1601a
 caps.latest.revision: 59
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
 ---
@@ -67,6 +66,9 @@ The Customer Engagement (on-premises) portal has its own settings to manage its 
 > - Maximum Duration of Inactivity: less than Maximum Session length or 1440 minutes
 
 ## Steps for enabling security enhancements for Dynamics 365 for Customer Engagement apps (on-premises) deployments
+
+> [!IMPORTANT]
+> As of Dynamics 365 for Customer Engagement  Version 9.0 or greater, the [Dynamics 365 for Customer Engagement apps Software Development Kit (SDK)](/dynamics365/customer-engagement/developer/download-dynamics-365-sdk-v9) steps described below are no longer available.
 
 These security enhancements are shipped disabled by default.  Administrators can enable these enhancements when using one of the supported Dynamics 365 for Customer Engagement apps (on-premises) builds listed below.
 

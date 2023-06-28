@@ -5,7 +5,6 @@ ms.date: 03/23/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
@@ -15,12 +14,11 @@ ms.custom:
 In Dynamics 365 Sales, use views to define how a list of records for a specific entity is displayed. 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## What's a view
 
@@ -250,7 +248,6 @@ As you are working on your view, save it often to avoid losing any changes. 
     >To make a copy of your view, select **Save As** to save the current view with a different name.   
 
 ### Publish a system view 
-----------------------
 
 When you're finished creating or updating a view, you need to publish it so people in your organization can use it: 
 

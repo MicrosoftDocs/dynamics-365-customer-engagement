@@ -2,23 +2,16 @@
 title: "Build an approvals feature using Power Automate (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to build an approvals feature using Power Automate and Dynamics 365 Marketing."
 ms.date: 08/01/2019
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Build approvals feature using Power Automate
-
-
 
 By integrating your approvals feature with Power Automate, you can implement features such as these:
 
@@ -42,11 +35,9 @@ To set up an approval workflow in Power Automate:
 
 1. In the **Choose an action** step, search for **Common Data Service** and select **Condition** from the **Actions** tab.
 
-   
     ![Actions tab.](../media/new-step-select-condition.png "Actions tab")
 
 1. In the **Condition** section, enter the condition parameters as shown here.
-
 
    > [!NOTE]
    > The value of the Approval requested should be entered in the value parameter.
@@ -54,7 +45,6 @@ To set up an approval workflow in Power Automate:
     ![Condition parameters.](../media/condition-parameter-values.png "Condition parameters")
 
 1. Select **Add an action** in the **If yes** tab, search for **approvals**, and then select **Start and wait for an approval** from the list.
-
 
     ![Start and wait for approval.](../media/start-and-wait-for-approval.png "Start and wait for approval")
 
@@ -73,7 +63,6 @@ To set up an approval workflow in Power Automate:
 
 1. Select **Add an action** in the **If yes** tab, select **Common Data Service**, and then select **Update a record**.
 
-
     ![Update a record.](../media/select-cds-from-list.png "Update a record")
 
 1. Enter the details as shown here:
@@ -85,9 +74,7 @@ To set up an approval workflow in Power Automate:
       
        ![Enter record details.](../media/update-a-record-enter-values.png "Enter record details")
 
-
 1. In the **If no** tab, select **Add an action**, select **Common Data Service**, and then select **Get record** from **Actions** tab.
-
 
     ![Get record.](../media/if-no-select-cds-get-record.png "Get record")
 
@@ -96,7 +83,6 @@ To set up an approval workflow in Power Automate:
     ![Enter get record details.](../media/enter-details-for-the-record.png "Enter get record details")
 
 1. Select **Add an action**, select **Common Data Service**, and then select **Update a record** from the **Actions** tab.
-
 
     ![If no, update a record.](../media/if-no-cds-update-record.png "If no, update a record")
 
@@ -108,6 +94,5 @@ To set up an approval workflow in Power Automate:
 
 ## See also
 [Build an approvals feature](marketing-approvals-feature.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

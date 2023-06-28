@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn about troubleshooting common Microsoft Dynamics 365 for Outlook installation and upgrade issues.
 ms.custom:
 ms.date: 09/17/2018
 ms.reviewer:
@@ -13,14 +14,10 @@ ms.assetid: b61a8103-1686-47ef-ab28-1a547d61f8f8
 caps.latest.revision: 80
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
 # Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook
 This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installation and upgrade issues.

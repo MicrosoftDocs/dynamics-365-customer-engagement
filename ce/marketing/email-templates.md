@@ -1,21 +1,16 @@
 ---
 title: "Work with email, page, and form templates (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 Marketing."
-ms.date: 12/10/2019
-
+ms.date: 05/04/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Work with email, page, and form templates
@@ -33,7 +28,7 @@ The templates included with Dynamics 365 Marketing provide:
 
 The first thing you do each time you create a new message, page, or form is to choose a template.  You can easily work with the supplied content and styles using the designer, but the column layout is semi-permanently established by the template you choose (you can only change it using the HTML code editor).
 
-![Dialog for choosing an email template.](media/email-template-dialog2.png "Dialog box for choosing an email template")
+![Dialog for choosing an email template.](media/email-template-dialog.png "Dialog box for choosing an email template")
 
 When you create a new design, the selected template's content is copied into it. The design and template aren't linked, so when you edit the design, the template won't change; likewise, any future changes that you make to a template won't affect any existing designs that were created using it.
 

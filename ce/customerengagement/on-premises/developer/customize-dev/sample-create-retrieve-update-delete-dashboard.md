@@ -1,37 +1,35 @@
 ---
 title: "Sample: Create, retrieve, update, and delete a dashboard (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to create, retrieve, update, and delete an organization-owned dashboard. As part of updating the dashboard, it’s set to be the default dashboard for the organization."
-keywords: 
+keywords:
 ms.date: 10/31/2017
 
-ms.custom: 
-ms.topic: samples
-applies_to: 
+ms.custom:
+ms.topic: sample
+applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: eac23f38-e682-40b8-aa6a-b8145ebf7764
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 ms.reviewer: pehecke
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 caps.latest.revision: 25
 topic-status: Drafting
-search.audienceType: 
+search.audienceType:
   - developer
-
 ---
 
 # Sample: Create, retrieve, update, and delete a dashboard
 
 This sample shows how to create, retrieve, update, and delete an user-owned dashboard using the following methods:
 
-- [IOrganizationService.Create](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.create?view=dynamics-general-ce-9)
-- [IOrganizationService.Retrieve](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrieve?view=dynamics-general-ce-9)
-- [IOrganizationService.Update](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9)
-- [IOrganizationService.Delete](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.delete?view=dynamics-general-ce-9)
+- [IOrganizationService.Create](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.create?view=dynamics-general-ce-9&preserve-view=true)
+- [IOrganizationService.Retrieve](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrieve?view=dynamics-general-ce-9&preserve-view=true)
+- [IOrganizationService.Update](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9&preserve-view=true)
+- [IOrganizationService.Delete](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.delete?view=dynamics-general-ce-9&preserve-view=true)
 
-You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CRUDOperationsDashboard).
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/CRUDOperationsDashboard).
 
 [!include[cc-sample-note](../includes/cc-sample-note.md)]
 
@@ -53,8 +51,8 @@ Checks for the current version of the org.
 
 ### Demonstrate
 
-1. The `mySavedQuery` method grabs the default public view for opportunities. 
-2. The `visualizationQuery` method retrieves the visualizations out of the system. This sample assumes that you have the **Top opportunities**. 
+1. The `mySavedQuery` method grabs the default public view for opportunities.
+2. The `visualizationQuery` method retrieves the visualizations out of the system. This sample assumes that you have the **Top opportunities**.
 3. The `dashboard` method sets the dashboard and specifies the FormXml.
 4. The `chartPicker` method enables the chart picker on the chart.
 

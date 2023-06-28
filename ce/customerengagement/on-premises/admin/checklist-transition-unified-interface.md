@@ -8,12 +8,8 @@ ms.reviewer: "kvivek"
 ms.topic: "article"
 author: "Mattp123"
 ms.author: "haybass"
-manager: "kvivek"
 search.audienceType: 
   - maker
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 
 # Checklist for Unified Interface transition
@@ -194,9 +190,9 @@ This is the opportunity to rethink the experience in the context of business pro
 
 -   Leverage **Reference Panels** on forms to bundle multiple views, quick views, and KB search feature in a single place. More information: [Section properties](../customize/section-properties-legacy.md)
 
-<!--   Leverage the [Power Apps Component Framework](https://docs.microsoft.com/powerapps/developer/component-framework/overview) to add even more custom controls. You can get some from the community or from partners and ISVs. 
+<!--   Leverage the [Power Apps Component Framework](https://learn.microsoft.com/powerapps/developer/component-framework/overview) to add even more custom controls. You can get some from the community or from partners and ISVs. 
 
--   Embed [canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started) in your forms to easily extend your application. No-code or low-code extension of your app without the need to develop custom HTML/JS web resources. 
+-   Embed [canvas apps](https://learn.microsoft.com/powerapps/maker/canvas-apps/getting-started) in your forms to easily extend your application. No-code or low-code extension of your app without the need to develop custom HTML/JS web resources. 
 
 -   Embed **Power BI** reports and tiles in forms: consolidate data across multiple systems in a single view. -->
 
@@ -216,7 +212,7 @@ Conduct a review of your existing and planned training materials to ensure they 
 
 <!--## Check your transition date
 
-On December 1, 2020, [the legacy web client will no longer be available](https://docs.microsoft.com/power-platform/important-changes-coming#legacy-web-client-is-deprecated). Be sure to migrate well in advance to ensure there’s time for any issues to be addressed. -->
+On December 1, 2020, [the legacy web client will no longer be available](https://learn.microsoft.com/power-platform/important-changes-coming#legacy-web-client-is-deprecated). Be sure to migrate well in advance to ensure there’s time for any issues to be addressed. -->
 
 ### See also
 [About Unified Interface in Dynamics 365 Customer Engagement (on-premises)](about-unified-interface.md) <br />

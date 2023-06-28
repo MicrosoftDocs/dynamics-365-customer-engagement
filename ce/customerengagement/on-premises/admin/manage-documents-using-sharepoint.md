@@ -15,7 +15,6 @@ ms.assetid: 15bcc3ff-01cf-4973-831a-7529c0fe951b
 caps.latest.revision: 12
 author: Mattp123
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - admin
 
@@ -32,8 +31,8 @@ Depending on your environment, there are several Customer Engagement (on-premise
 
 |Configuration  |More information  |
 |---------|---------|
-|Customer Engagement (on-premises) with with SharePoint Online     |  [Configure server-based authentication with Customer Engagement (on-premises) and SharePoint Online](on-prem-server-based-sharepoint-online.md)       |
-|Customer Engagement (on-premises) with with SharePoint on-premises     | [Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)        |
+|Customer Engagement (on-premises) with SharePoint Online     |  [Configure server-based authentication with Customer Engagement (on-premises) and SharePoint Online](on-prem-server-based-sharepoint-online.md)       |
+|Customer Engagement (on-premises) with SharePoint on-premises     | [Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)        |
 
 Administrators set up document management, specify permissions for managing tasks, and ensure that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site URLs are correct.  
   

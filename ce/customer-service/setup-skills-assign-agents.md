@@ -1,22 +1,21 @@
 ---
-title: "Set up skills and assign agents | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to create skills and assign agents to those skills in Omnichannel for Customer Service."
+title: Set up skills and assign agents
+description: Perform the steps mentioned in the topic to create skills and assign agents to those skills in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.date: 02/25/2022
-ms.topic: article
+ms.reviewer: shujoshi
+ms.date: 06/07/2023
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Set up skills, create a rating model, and assign agents
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Set up skills
-
 As an administrator, to create skills, you need at least one skill type in the system. For example, to add **Spanish** as a skill, you need a skill type called **Language**. You must first create a skill type and then create skills.
 
-### Create skill types
+## Create skill types
 
 1. Sign in to the Dynamics 365 instance.
 
@@ -39,21 +38,64 @@ As an administrator, to create skills, you need at least one skill type in the s
     > [!div class=mx-imgBorder] 
     > ![Create skill type.](media/create-skill-type.png "Create skill type")
 
-### Create skills
+## Manage skill settings in skills hub
 
-**To create skills**
+Skills hub in Customer Service admin center helps you seamlessly create and assign skills to your agents. Use the **Skills hub** page to create and edit, add and remove users to skills and manage their proficiency.
+
+1. In Dynamics 365, go to Customer Service admin center.
+
+1. In the site map, select **User management** under **Customer Support**.
+
+1. Select **Manage** for **Skills hub**. The Skills hub page displays the skills, skill types, proficiency scales, and intelligent skill find models.
+
+### Manage proficiency scales
+
+Create or update proficiency scales that are used to rate agent proficiency in the assigned skills.
+
+1. On the **Skills hub** page, select **Manage** in **Proficiency scale** area.
+
+1. To create a proficiency scale, on the **Proficiency scale** dialog, select **Create**, and do the following:
+
+   - **Scale name**: Enter a scale name.
+   - **Minimum rating value**: Enter the minimum value.
+   - **Maximum rating value**: Enter the maximum value.
+
+   > [!NOTE]
+   > You can enter positive values only as minimum and maximum rating values.
+
+   - **Level names**: Enter names for each rating value, such as average, good, and excellent.
+
+1. Select Create.
+
+If you'd created proficiency scales in the classic experience, you can update them in the classic experience only.
+
+### Create skills in skills hub
+
+1. On the **Skills hub** page, select **Manage** in the **Skills** area.
+
+1. On the **Skills** page, select **Create**.
+
+1. On the **Create Skill** dialog, select a skill type in the **Skill type** list, and then enter a name for it in **Skill name**.
+
+1. To add the skill to users, in the **Users** section, select **Add**, and then select the users.
+
+1. Select **Add selected users**.
+
+1. To add proficiency, select the users who will be assigned the same proficiency, select **Update proficiency**, and select a value from the dropdown list. The proficiency value is assigned for the selected users.
+
+1. Select **Create**. The skill is created and assigned to the selected users.
+
+1. To update the users for a skill, select a skill, and on the **Edit Skill** dialog, perform the steps to add users and attach a proficiency value.
+
+## Create skills using the classic experience
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-     
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   
      - In the site map, select **User management** in **Customer Support**.
      
-
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
     
      - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
      
@@ -74,7 +116,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 After you save, the **Users (Agents)** section appears. In this section, you add the agents and rating value. More information: [Assign agents to the skill](#assign-agents-to-skill)
 
-## Rating value of skills
+### Rating value of skills
 
 When you add a skill to an agent, you also need to rate the proficiency of the skill. This enables the system to do an exact or closest match against the requirement of a conversation and distribute the conversation accordingly. You can use the default rating model, edit it, or create a new one to match the needs of your organization.
 
@@ -82,18 +124,13 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 ### Create a rating model
 
-You can create rating models in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub apps.
-
-**To create the rating model**
+You can create rating models in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub apps.
 
 1. Perform the steps by using one of the following apps.
-      
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-   - In the site map of Customer Service admin center (preview), select **Insights** in **Operations**. 
+   - In the site map of Customer Service admin center, select **Insights** in **Operations**.
 
-   - In the site map of Omnichannel admin center, select **User attributes** in **Advanced settings**. 
+   - In the site map of Omnichannel admin center, select **User attributes** in **Advanced settings**.
 
    - In the site map of Customer Service Hub, go to **Service Management**, and select **User attributes** in **Unified Routing**. 
 
@@ -108,7 +145,6 @@ You can create rating models in the Customer Service admin center (preview), Omn
    | General | Name | Specify a name for the rating model. | Language rating model |
    | General | Min Rating Value | Provide a minimum rating value. | 1 |
    | General | Max Rating Value | Provide a maximum rating value. | 10 |
-   ||||
 
 1. Select **Save**. The **Rating Values** section appears.
 
@@ -120,7 +156,7 @@ You can create rating models in the Customer Service admin center (preview), Omn
    |-----------------|----------------|--------------------------------------------|
    | Name | Specify a name for the rating value. | ★★★★★★★★★★ <br> **Note:** <br>This is an example value.|
    | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
-   |||
+
 
 1. Select **Save and Close** to save and add the rating value to the grid.
 
@@ -147,9 +183,9 @@ For example:
 | ★★ | 2 star|
 | ★ | 1 star|
 
-## Add agents as bookable resource
+### Add agents as bookable resource in the classic experience
 
-Add the agents as a bookable resource so that you can assign skills to them.
+Add the agents as a bookable resource so that you can assign skills to them. This task is required for classic experience only and not for the new skills hub experience.
 
 1. Go to the users page in any of the administrator apps.
 
@@ -161,11 +197,11 @@ Add the agents as a bookable resource so that you can assign skills to them.
 
 5. Select **Save**.
 
-## Assign agents to skill
+### Assign agents to skill
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-1. In the site map of Omnichannel admin center, select **User attributes** under **Advanced settings**, and then select **Manage** for **Skills**. If you're using Omnichannel Administration, select **Skills** under **Users & Queues** in the site map.
+1. In the site map of Omnichannel admin center, select **User attributes** under **Advanced settings**, and then select **Manage** for **Skills**.
 
 2. Select a skill from the list for which you want to assign the agents.
 
@@ -190,5 +226,6 @@ Alternatively, you can also add a skill to the user (agent). More information: [
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Manage users](users-user-profiles.md)  
+[Model data tables as skills](model-tables-as-skills-ur.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

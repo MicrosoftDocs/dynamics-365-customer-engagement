@@ -3,23 +3,18 @@ title: "Supported features (Dynamics 365 apps) | MicrosoftDocs"
 description: Supported features using App for Outlook on Outlook desktop client, Outlook Web Access, and a mobile device.
 ms.custom: 
 ms.date: 02/11/2022
-ms.reviewer: 
-
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 
 # Supported features 

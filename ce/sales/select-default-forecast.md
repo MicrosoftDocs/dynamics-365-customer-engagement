@@ -5,7 +5,6 @@ ms.date: 03/15/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastconfiguration
@@ -22,11 +21,13 @@ If your organization has configured multiple forecasts, save your users time and
 > You can also specify the default experience for the underlying records of the forecast. More information: [Configure advanced settings for forecasts](forecast-configure-advanced-settings.md).
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br>See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | System Administrator or Forecast Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
+
+## To select a default forecast
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 

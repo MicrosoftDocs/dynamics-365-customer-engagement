@@ -1,27 +1,26 @@
 ---
 title: "Sample: Make a report available or unavailable to organization | MicrosoftDocs"
 description: "This sample shows how make a report available or unavailable to an organization."
-ms.custom: 
+ms.custom:
 ms.date: 01/28/2020
 ms.reviewer: pehecke
 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: sample
-applies_to: 
+applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 69763a0a-af67-48b8-adf2-470c1cdf6196
 caps.latest.revision: 22
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
-search.audienceType: 
+search.audienceType:
   - developer
 ---
 
 # Make a report available or unavailable to organization
 
-This sample shows how to make a report available or unavailable to an organization. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/MakeReportAvailableToOrganization).
+This sample shows how to make a report available or unavailable to an organization. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/MakeReportAvailableToOrganization).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

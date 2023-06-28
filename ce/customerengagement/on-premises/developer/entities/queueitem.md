@@ -1,39 +1,37 @@
 ---
-title: "QueueItem Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "QueueItem entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the QueueItem entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# QueueItem Entity Reference
+
+# QueueItem entity reference
 
 A specific item in a queue, such as a case record or an activity record.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|AddToQueue|<xref href="Microsoft.Dynamics.CRM.AddToQueue?text=AddToQueue Action" />|<xref:Microsoft.Crm.Sdk.Messages.AddToQueueRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/queueitems<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/queueitems(*queueitemid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|PickFromQueue|<xref href="Microsoft.Dynamics.CRM.PickFromQueue?text=PickFromQueue Action" />|<xref:Microsoft.Crm.Sdk.Messages.PickFromQueueRequest>|
-|ReleaseToQueue|<xref href="Microsoft.Dynamics.CRM.ReleaseToQueue?text=ReleaseToQueue Action" />|<xref:Microsoft.Crm.Sdk.Messages.ReleaseToQueueRequest>|
-|RemoveFromQueue|<xref href="Microsoft.Dynamics.CRM.RemoveFromQueue?text=RemoveFromQueue Action" />|<xref:Microsoft.Crm.Sdk.Messages.RemoveFromQueueRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/queueitems(*queueitemid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/queueitems<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RouteTo|<xref href="Microsoft.Dynamics.CRM.RouteTo?text=RouteTo Action" />|<xref:Microsoft.Crm.Sdk.Messages.RouteToRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/queueitems(*queueitemid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/queueitems(*queueitemid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|AddToQueue|<xref:Microsoft.Crm.Sdk.Messages.AddToQueueRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|PickFromQueue|<xref:Microsoft.Crm.Sdk.Messages.PickFromQueueRequest>|
+|ReleaseToQueue|<xref:Microsoft.Crm.Sdk.Messages.ReleaseToQueueRequest>|
+|RemoveFromQueue|<xref:Microsoft.Crm.Sdk.Messages.RemoveFromQueueRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RouteTo|<xref:Microsoft.Crm.Sdk.Messages.RouteToRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -103,7 +101,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForUpdate|False|
 |LogicalName|objectid|
 |RequiredLevel|ApplicationRequired|
-|Targets|activitypointer,appointment,bulkoperation,campaignactivity,campaignresponse,email,fax,incident,knowledgearticle,letter,msdyn_agreementbookingdate,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoicesetup,msdyn_approval,msdyn_bookingalert,msdyn_inventoryadjustment,msdyn_inventorytransfer,msdyn_iotalert,msdyn_project,msdyn_projecttask,msdyn_resourcerequest,msdyn_timegroup,msdyn_timegroupdetail,msdyn_workorder,msdyn_workorderincident,msdyn_workorderservice,msdyn_workorderservicetask,msfp_surveyinvite,msfp_surveyresponse,phonecall,recurringappointmentmaster,serviceappointment,socialactivity,task|
+|Targets|activitypointer,appointment,bulkoperation,campaignactivity,campaignresponse,email,fax,incident,knowledgearticle,letter,phonecall,recurringappointmentmaster,serviceappointment,socialactivity,task|
 |Type|Lookup|
 
 
@@ -227,7 +225,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -264,7 +262,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -673,45 +671,25 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### ObjectTypeCode Options
+#### ObjectTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|112|Case|
-|4200|Activity|
-|4201|Appointment|
-|4202|Email|
-|4204|Fax|
-|4207|Letter|
-|4210|Phone Call|
-|4212|Task|
-|4214|Service Activity|
-|4216|Social Activity|
-|4251|Recurring Appointment|
-|4401|Campaign Response|
-|4402|Campaign Activity|
-|4406|Quick Campaign|
-|9953|Knowledge Article|
-|10036|Survey invite|
-|10037|Survey response|
-|10042|Booking Alert|
-|10065|Fulfillment Preference|
-|10066|Time Group Detail|
-|10070|Project Service Approval|
-|10109|Project|
-|10114|Project Task|
-|10132|Resource Request|
-|10157|Agreement Booking Date|
-|10162|Agreement Booking Setup|
-|10163|Agreement Invoice Date|
-|10165|Agreement Invoice Setup|
-|10187|Inventory Adjustment|
-|10190|Inventory Transfer|
-|10230|Work Order|
-|10233|Work Order Incident|
-|10236|Work Order Service|
-|10237|Work Order Service Task|
-|10241|IoT Alert|
+|Value|Label|Description|
+|-----|-----|--------|
+|112|Case|Service request case associated with a contract.|
+|4200|Activity|Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.|
+|4201|Appointment|Commitment representing a time interval with start/end times and duration.|
+|4202|Email|Activity that is delivered using email protocols.|
+|4204|Fax|Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.|
+|4207|Letter|Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.|
+|4210|Phone Call|Activity to track a telephone call.|
+|4212|Task|Generic activity representing work needed to be done.|
+|4214|Service Activity|Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.|
+|4216|Social Activity|For internal use only.|
+|4251|Recurring Appointment|The Master appointment of a recurring appointment series.|
+|4401|Campaign Response|Response from an existing or a potential new customer for a campaign.|
+|4402|Campaign Activity|Task performed, or to be performed, by a user for planning or running a campaign.|
+|4406|Quick Campaign|System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.|
+|9953|Knowledge Article|Organizational knowledge for internal and external use.|
 
 
 
@@ -924,7 +902,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_QueueItem_AsyncOperations"></a> QueueItem_AsyncOperations
 
-Same as asyncoperation entity [QueueItem_AsyncOperations](asyncoperation.md#BKMK_QueueItem_AsyncOperations) Many-To-One relationship.
+Same as the [QueueItem_AsyncOperations](asyncoperation.md#BKMK_QueueItem_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -939,7 +917,7 @@ Same as asyncoperation entity [QueueItem_AsyncOperations](asyncoperation.md#BKMK
 
 ### <a name="BKMK_QueueItem_SyncErrors"></a> QueueItem_SyncErrors
 
-Same as syncerror entity [QueueItem_SyncErrors](syncerror.md#BKMK_QueueItem_SyncErrors) Many-To-One relationship.
+Same as the [QueueItem_SyncErrors](syncerror.md#BKMK_QueueItem_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -954,7 +932,7 @@ Same as syncerror entity [QueueItem_SyncErrors](syncerror.md#BKMK_QueueItem_Sync
 
 ### <a name="BKMK_QueueItem_BulkDeleteFailures"></a> QueueItem_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [QueueItem_BulkDeleteFailures](bulkdeletefailure.md#BKMK_QueueItem_BulkDeleteFailures) Many-To-One relationship.
+Same as the [QueueItem_BulkDeleteFailures](bulkdeletefailure.md#BKMK_QueueItem_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -969,7 +947,7 @@ Same as bulkdeletefailure entity [QueueItem_BulkDeleteFailures](bulkdeletefailur
 
 ### <a name="BKMK_queueitem_principalobjectattributeaccess"></a> queueitem_principalobjectattributeaccess
 
-Same as principalobjectattributeaccess entity [queueitem_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_queueitem_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [queueitem_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_queueitem_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -984,7 +962,7 @@ Same as principalobjectattributeaccess entity [queueitem_principalobjectattribut
 
 ### <a name="BKMK_QueueItem_ProcessSessions"></a> QueueItem_ProcessSessions
 
-Same as processsession entity [QueueItem_ProcessSessions](processsession.md#BKMK_QueueItem_ProcessSessions) Many-To-One relationship.
+Same as the [QueueItem_ProcessSessions](processsession.md#BKMK_QueueItem_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1002,30 +980,12 @@ Same as processsession entity [QueueItem_ProcessSessions](processsession.md#BKMK
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
+- [knowledgearticle_QueueItems](#BKMK_knowledgearticle_QueueItems)
 - [CampaignActivity_QueueItem](#BKMK_CampaignActivity_QueueItem)
 - [CampaignResponse_QueueItem](#BKMK_CampaignResponse_QueueItem)
 - [BulkOperation_QueueItem](#BKMK_BulkOperation_QueueItem)
 - [Incident_QueueItem](#BKMK_Incident_QueueItem)
 - [ServiceAppointment_QueueItem](#BKMK_ServiceAppointment_QueueItem)
-- [msdyn_bookingalert_QueueItems](#BKMK_msdyn_bookingalert_QueueItems)
-- [msdyn_timegroup_QueueItems](#BKMK_msdyn_timegroup_QueueItems)
-- [msdyn_timegroupdetail_QueueItems](#BKMK_msdyn_timegroupdetail_QueueItems)
-- [msdyn_approval_QueueItems](#BKMK_msdyn_approval_QueueItems)
-- [msdyn_project_QueueItems](#BKMK_msdyn_project_QueueItems)
-- [msdyn_projecttask_QueueItems](#BKMK_msdyn_projecttask_QueueItems)
-- [msdyn_resourcerequest_QueueItems](#BKMK_msdyn_resourcerequest_QueueItems)
-- [msdyn_agreementbookingdate_QueueItems](#BKMK_msdyn_agreementbookingdate_QueueItems)
-- [msdyn_agreementbookingsetup_QueueItems](#BKMK_msdyn_agreementbookingsetup_QueueItems)
-- [msdyn_agreementinvoicedate_QueueItems](#BKMK_msdyn_agreementinvoicedate_QueueItems)
-- [msdyn_agreementinvoicesetup_QueueItems](#BKMK_msdyn_agreementinvoicesetup_QueueItems)
-- [msdyn_inventoryadjustment_QueueItems](#BKMK_msdyn_inventoryadjustment_QueueItems)
-- [msdyn_inventorytransfer_QueueItems](#BKMK_msdyn_inventorytransfer_QueueItems)
-- [msdyn_workorder_QueueItems](#BKMK_msdyn_workorder_QueueItems)
-- [msdyn_workorderincident_QueueItems](#BKMK_msdyn_workorderincident_QueueItems)
-- [msdyn_workorderservice_QueueItems](#BKMK_msdyn_workorderservice_QueueItems)
-- [msdyn_workorderservicetask_QueueItems](#BKMK_msdyn_workorderservicetask_QueueItems)
-- [msdyn_iotalert_QueueItems](#BKMK_msdyn_iotalert_QueueItems)
-- [knowledgearticle_QueueItems](#BKMK_knowledgearticle_QueueItems)
 - [lk_queueitem_createdonbehalfby](#BKMK_lk_queueitem_createdonbehalfby)
 - [lk_queueitembase_workerid](#BKMK_lk_queueitembase_workerid)
 - [ActivityPointer_QueueItem](#BKMK_ActivityPointer_QueueItem)
@@ -1046,225 +1006,113 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [lk_queueitembase_modifiedby](#BKMK_lk_queueitembase_modifiedby)
 
 
+### <a name="BKMK_knowledgearticle_QueueItems"></a> knowledgearticle_QueueItems
+
+See the [knowledgearticle_QueueItems](knowledgearticle.md#BKMK_knowledgearticle_QueueItems) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
+
 ### <a name="BKMK_CampaignActivity_QueueItem"></a> CampaignActivity_QueueItem
 
 **Added by**: Marketing Solution
 
-See campaignactivity Entity [CampaignActivity_QueueItem](campaignactivity.md#BKMK_CampaignActivity_QueueItem) One-To-Many relationship.
+See the [CampaignActivity_QueueItem](campaignactivity.md#BKMK_CampaignActivity_QueueItem) one-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_CampaignResponse_QueueItem"></a> CampaignResponse_QueueItem
 
 **Added by**: Marketing Solution
 
-See campaignresponse Entity [CampaignResponse_QueueItem](campaignresponse.md#BKMK_CampaignResponse_QueueItem) One-To-Many relationship.
+See the [CampaignResponse_QueueItem](campaignresponse.md#BKMK_CampaignResponse_QueueItem) one-to-many relationship for the [campaignresponse](campaignresponse.md) entity.
 
 ### <a name="BKMK_BulkOperation_QueueItem"></a> BulkOperation_QueueItem
 
 **Added by**: Marketing Solution
 
-See bulkoperation Entity [BulkOperation_QueueItem](bulkoperation.md#BKMK_BulkOperation_QueueItem) One-To-Many relationship.
+See the [BulkOperation_QueueItem](bulkoperation.md#BKMK_BulkOperation_QueueItem) one-to-many relationship for the [bulkoperation](bulkoperation.md) entity.
 
 ### <a name="BKMK_Incident_QueueItem"></a> Incident_QueueItem
 
 **Added by**: Service Solution
 
-See incident Entity [Incident_QueueItem](incident.md#BKMK_Incident_QueueItem) One-To-Many relationship.
+See the [Incident_QueueItem](incident.md#BKMK_Incident_QueueItem) one-to-many relationship for the [incident](incident.md) entity.
 
 ### <a name="BKMK_ServiceAppointment_QueueItem"></a> ServiceAppointment_QueueItem
 
 **Added by**: Service Solution
 
-See serviceappointment Entity [ServiceAppointment_QueueItem](serviceappointment.md#BKMK_ServiceAppointment_QueueItem) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingalert_QueueItems"></a> msdyn_bookingalert_QueueItems
-
-**Added by**: Active Solution Solution
-
-See msdyn_bookingalert Entity [msdyn_bookingalert_QueueItems](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroup_QueueItems"></a> msdyn_timegroup_QueueItems
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroup Entity [msdyn_timegroup_QueueItems](msdyn_timegroup.md#BKMK_msdyn_timegroup_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroupdetail_QueueItems"></a> msdyn_timegroupdetail_QueueItems
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroupdetail Entity [msdyn_timegroupdetail_QueueItems](msdyn_timegroupdetail.md#BKMK_msdyn_timegroupdetail_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_approval_QueueItems"></a> msdyn_approval_QueueItems
-
-**Added by**: Active Solution Solution
-
-See msdyn_approval Entity [msdyn_approval_QueueItems](msdyn_approval.md#BKMK_msdyn_approval_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_project_QueueItems"></a> msdyn_project_QueueItems
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_project Entity [msdyn_project_QueueItems](msdyn_project.md#BKMK_msdyn_project_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projecttask_QueueItems"></a> msdyn_projecttask_QueueItems
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projecttask Entity [msdyn_projecttask_QueueItems](msdyn_projecttask.md#BKMK_msdyn_projecttask_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourcerequest_QueueItems"></a> msdyn_resourcerequest_QueueItems
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_resourcerequest Entity [msdyn_resourcerequest_QueueItems](msdyn_resourcerequest.md#BKMK_msdyn_resourcerequest_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingdate_QueueItems"></a> msdyn_agreementbookingdate_QueueItems
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingdate Entity [msdyn_agreementbookingdate_QueueItems](msdyn_agreementbookingdate.md#BKMK_msdyn_agreementbookingdate_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingsetup_QueueItems"></a> msdyn_agreementbookingsetup_QueueItems
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingsetup Entity [msdyn_agreementbookingsetup_QueueItems](msdyn_agreementbookingsetup.md#BKMK_msdyn_agreementbookingsetup_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicedate_QueueItems"></a> msdyn_agreementinvoicedate_QueueItems
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicedate Entity [msdyn_agreementinvoicedate_QueueItems](msdyn_agreementinvoicedate.md#BKMK_msdyn_agreementinvoicedate_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicesetup_QueueItems"></a> msdyn_agreementinvoicesetup_QueueItems
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicesetup Entity [msdyn_agreementinvoicesetup_QueueItems](msdyn_agreementinvoicesetup.md#BKMK_msdyn_agreementinvoicesetup_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryadjustment_QueueItems"></a> msdyn_inventoryadjustment_QueueItems
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryadjustment Entity [msdyn_inventoryadjustment_QueueItems](msdyn_inventoryadjustment.md#BKMK_msdyn_inventoryadjustment_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventorytransfer_QueueItems"></a> msdyn_inventorytransfer_QueueItems
-
-**Added by**: Field Service Solution
-
-See msdyn_inventorytransfer Entity [msdyn_inventorytransfer_QueueItems](msdyn_inventorytransfer.md#BKMK_msdyn_inventorytransfer_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorder_QueueItems"></a> msdyn_workorder_QueueItems
-
-**Added by**: Field Service Solution
-
-See msdyn_workorder Entity [msdyn_workorder_QueueItems](msdyn_workorder.md#BKMK_msdyn_workorder_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderincident_QueueItems"></a> msdyn_workorderincident_QueueItems
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderincident Entity [msdyn_workorderincident_QueueItems](msdyn_workorderincident.md#BKMK_msdyn_workorderincident_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservice_QueueItems"></a> msdyn_workorderservice_QueueItems
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservice Entity [msdyn_workorderservice_QueueItems](msdyn_workorderservice.md#BKMK_msdyn_workorderservice_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservicetask_QueueItems"></a> msdyn_workorderservicetask_QueueItems
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_QueueItems](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotalert_QueueItems"></a> msdyn_iotalert_QueueItems
-
-**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
-
-See msdyn_iotalert Entity [msdyn_iotalert_QueueItems](msdyn_iotalert.md#BKMK_msdyn_iotalert_QueueItems) One-To-Many relationship.
-
-### <a name="BKMK_knowledgearticle_QueueItems"></a> knowledgearticle_QueueItems
-
-See knowledgearticle Entity [knowledgearticle_QueueItems](knowledgearticle.md#BKMK_knowledgearticle_QueueItems) One-To-Many relationship.
+See the [ServiceAppointment_QueueItem](serviceappointment.md#BKMK_ServiceAppointment_QueueItem) one-to-many relationship for the [serviceappointment](serviceappointment.md) entity.
 
 ### <a name="BKMK_lk_queueitem_createdonbehalfby"></a> lk_queueitem_createdonbehalfby
 
-See systemuser Entity [lk_queueitem_createdonbehalfby](systemuser.md#BKMK_lk_queueitem_createdonbehalfby) One-To-Many relationship.
+See the [lk_queueitem_createdonbehalfby](systemuser.md#BKMK_lk_queueitem_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_queueitembase_workerid"></a> lk_queueitembase_workerid
 
-See systemuser Entity [lk_queueitembase_workerid](systemuser.md#BKMK_lk_queueitembase_workerid) One-To-Many relationship.
+See the [lk_queueitembase_workerid](systemuser.md#BKMK_lk_queueitembase_workerid) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_ActivityPointer_QueueItem"></a> ActivityPointer_QueueItem
 
-See activitypointer Entity [ActivityPointer_QueueItem](activitypointer.md#BKMK_ActivityPointer_QueueItem) One-To-Many relationship.
+See the [ActivityPointer_QueueItem](activitypointer.md#BKMK_ActivityPointer_QueueItem) one-to-many relationship for the [activitypointer](activitypointer.md) entity.
 
 ### <a name="BKMK_queue_entries"></a> queue_entries
 
-See queue Entity [queue_entries](queue.md#BKMK_queue_entries) One-To-Many relationship.
+See the [queue_entries](queue.md#BKMK_queue_entries) one-to-many relationship for the [queue](queue.md) entity.
 
 ### <a name="BKMK_lk_queueitembase_createdby"></a> lk_queueitembase_createdby
 
-See systemuser Entity [lk_queueitembase_createdby](systemuser.md#BKMK_lk_queueitembase_createdby) One-To-Many relationship.
+See the [lk_queueitembase_createdby](systemuser.md#BKMK_lk_queueitembase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_queueitems"></a> organization_queueitems
 
-See organization Entity [organization_queueitems](organization.md#BKMK_organization_queueitems) One-To-Many relationship.
+See the [organization_queueitems](organization.md#BKMK_organization_queueitems) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_QueueItem"></a> TransactionCurrency_QueueItem
 
-See transactioncurrency Entity [TransactionCurrency_QueueItem](transactioncurrency.md#BKMK_TransactionCurrency_QueueItem) One-To-Many relationship.
+See the [TransactionCurrency_QueueItem](transactioncurrency.md#BKMK_TransactionCurrency_QueueItem) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_Appointment_QueueItem"></a> Appointment_QueueItem
 
-See appointment Entity [Appointment_QueueItem](appointment.md#BKMK_Appointment_QueueItem) One-To-Many relationship.
+See the [Appointment_QueueItem](appointment.md#BKMK_Appointment_QueueItem) one-to-many relationship for the [appointment](appointment.md) entity.
 
 ### <a name="BKMK_Fax_QueueItem"></a> Fax_QueueItem
 
-See fax Entity [Fax_QueueItem](fax.md#BKMK_Fax_QueueItem) One-To-Many relationship.
+See the [Fax_QueueItem](fax.md#BKMK_Fax_QueueItem) one-to-many relationship for the [fax](fax.md) entity.
 
 ### <a name="BKMK_team_queueitembase_workerid"></a> team_queueitembase_workerid
 
-See team Entity [team_queueitembase_workerid](team.md#BKMK_team_queueitembase_workerid) One-To-Many relationship.
+See the [team_queueitembase_workerid](team.md#BKMK_team_queueitembase_workerid) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_Email_QueueItem"></a> Email_QueueItem
 
-See email Entity [Email_QueueItem](email.md#BKMK_Email_QueueItem) One-To-Many relationship.
+See the [Email_QueueItem](email.md#BKMK_Email_QueueItem) one-to-many relationship for the [email](email.md) entity.
 
 ### <a name="BKMK_SocialActivity_QueueItem"></a> SocialActivity_QueueItem
 
-See socialactivity Entity [SocialActivity_QueueItem](socialactivity.md#BKMK_SocialActivity_QueueItem) One-To-Many relationship.
+See the [SocialActivity_QueueItem](socialactivity.md#BKMK_SocialActivity_QueueItem) one-to-many relationship for the [socialactivity](socialactivity.md) entity.
 
 ### <a name="BKMK_lk_queueitem_modifiedonbehalfby"></a> lk_queueitem_modifiedonbehalfby
 
-See systemuser Entity [lk_queueitem_modifiedonbehalfby](systemuser.md#BKMK_lk_queueitem_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_queueitem_modifiedonbehalfby](systemuser.md#BKMK_lk_queueitem_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_PhoneCall_QueueItem"></a> PhoneCall_QueueItem
 
-See phonecall Entity [PhoneCall_QueueItem](phonecall.md#BKMK_PhoneCall_QueueItem) One-To-Many relationship.
+See the [PhoneCall_QueueItem](phonecall.md#BKMK_PhoneCall_QueueItem) one-to-many relationship for the [phonecall](phonecall.md) entity.
 
 ### <a name="BKMK_Task_QueueItem"></a> Task_QueueItem
 
-See task Entity [Task_QueueItem](task.md#BKMK_Task_QueueItem) One-To-Many relationship.
+See the [Task_QueueItem](task.md#BKMK_Task_QueueItem) one-to-many relationship for the [task](task.md) entity.
 
 ### <a name="BKMK_RecurringAppointmentMaster_QueueItem"></a> RecurringAppointmentMaster_QueueItem
 
-See recurringappointmentmaster Entity [RecurringAppointmentMaster_QueueItem](recurringappointmentmaster.md#BKMK_RecurringAppointmentMaster_QueueItem) One-To-Many relationship.
+See the [RecurringAppointmentMaster_QueueItem](recurringappointmentmaster.md#BKMK_RecurringAppointmentMaster_QueueItem) one-to-many relationship for the [recurringappointmentmaster](recurringappointmentmaster.md) entity.
 
 ### <a name="BKMK_Letter_QueueItem"></a> Letter_QueueItem
 
-See letter Entity [Letter_QueueItem](letter.md#BKMK_Letter_QueueItem) One-To-Many relationship.
+See the [Letter_QueueItem](letter.md#BKMK_Letter_QueueItem) one-to-many relationship for the [letter](letter.md) entity.
 
 ### <a name="BKMK_lk_queueitembase_modifiedby"></a> lk_queueitembase_modifiedby
 
-See systemuser Entity [lk_queueitembase_modifiedby](systemuser.md#BKMK_lk_queueitembase_modifiedby) One-To-Many relationship.
+See the [lk_queueitembase_modifiedby](systemuser.md#BKMK_lk_queueitembase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.queueitem?text=queueitem EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

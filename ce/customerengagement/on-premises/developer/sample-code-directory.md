@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: ce3c5bdf-0fe8-424b-96bc-ce3fe7adcd2e
 author: JimDaly
 ms.author: jdaly
-manager: jdaly
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -239,9 +238,9 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 ## Marketing  
 
 
-[Sample: Distribute a Quick Campaign](sample-distribute-a-quick-campaign.md)<br />
-[Sample: Distribute Campaign Activities to Dynamic and Static Lists](sample-distribute-campaign-activities-dynamic-static-lists.md)<br />
-[Sample: Distribute Campaign Activities to Qualified Marketing List](sample-distribute-campaign-activities-qualified-marketing-list.md)<br />
+[Sample: Distribute a quick campaign](../../../sales/developer/sample-distribute-a-quick-campaign.md)  
+[Sample: Distribute Campaign Activities to Dynamic and Static Lists](../../../sales/developer/sample-distribute-campaign-activities-dynamic-static-lists.md)<br />
+[Sample: Distribute Campaign Activities to Qualified Marketing List](../../../sales/developer/sample-distribute-campaign-activities-qualified-marketing-list.md)<br />
   
 <a name="BKMK_Organization"></a>   
 ## Organization web service  
@@ -250,7 +249,7 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 [Sample: Authenticate Users with Dynamics 365 Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br />
 [Sample: Execute Multiple Requests](/powerapps/developer/data-platform/org-service/execute-multiple-requests#exampleexample)<br />
 [Sample: Execute multiple requests in transaction](/powerapps/developer/data-platform/org-service/use-executetransaction)<br />
-[Helper Code: SystemUserProvider class](https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs#/SampleHelpers.cs)<br />
+[Helper Code: SystemUserProvider class](https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs#/SampleHelpers.cs)<br />
 [Sample: Impersonation using the ActOnBehalfOf privilege](/powerapps/developer/data-platform/impersonate-another-user)<br />
 [Sample: Quick Start for Dynamics 365 Customer Engagement (on-premises)](sample-quick-start.md)<br />
 [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/data-platform/xrm-tooling/sample-simplified-connection-quick-start)<br />
@@ -260,7 +259,7 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 ## Plug-ins  
 
 
-[Sample: Calculate Price plug-in](sample-calculate-price-plugin.md)<br />
+[Sample: Calculate Price plug-in](../../../sales/developer/sample-calculate-price-plugin.md)<br />
 [Sample: Create a basic plug-in](/powerapps/developer/common-data-service/org-service/samples/basic-followup-plugin)<br />
 [Sample: Web Access from a Sandboxed Plug-in](/powerapps/developer/common-data-service/org-service/samples/web-access-plugin)<br />
   
@@ -268,10 +267,10 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 ## Product catalog  
 
 
-[Sample: Add products to a bundle](sample-add-products-bundle.md)<br />
-[Sample: Calculate Price plug-in](sample-calculate-price-plugin.md)<br />
-[Sample: Clone product records](sample-clone-product-records.md)<br />
-[Sample: Create and publish products](sample-create-publish-products.md)<br />
+[Sample: Add products to a bundle](../../../sales/developer/sample-add-products-bundle.md)<br />
+[Sample: Calculate Price plug-in](../../../sales/developer/sample-calculate-price-plugin.md)<br />
+[Sample: Clone product records](../../../sales/developer/sample-clone-product-records.md)<br />
+[Sample: Create and publish products](../../../sales/developer/sample-create-publish-products.md)<br />
   
 <a name="BKMK_Processes"></a>   
 ## Processes, workflows and dialogs  
@@ -330,23 +329,23 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 ## Sales: Leads, opportunities, quotes, orders, invoices, connections  
 
 
-[Sample: Convert an Opportunity to a Quote (Early Bound)](sample-convert-opportunity-quote-early-bound.md)<br />
+[Sample: Convert an Opportunity to a Quote (Early Bound)](../../../sales/developer/sample-convert-opportunity-quote-early-bound.md)<br />
 [Sample: Create a Connection (Early Bound)](sample-create-connection-early-bound.md)<br />
 [Sample: Create a Connection Role (Early Bound)](sample-create-connection-role-early-bound.md)<br />
 [Sample: Create Reciprocal Connection Role (Early Bound)](sample-create-reciprocal-connection-role-early-bound.md)<br />
-[Sample: Create an Opportunity (Early Bound)](sample-create-opportunity-early-bound.md)<br />
-[Sample: Fulfill a Sales Order](sample-fulfill-sales-order.md)<br />
-[Sample: Override Goal Total Count and Close the Goal](sample-override-goal-total-count-close-goal.md)<br />
-[Sample: Process Quotes, Sales Orders and Invoices](sample-process-quotes-sales-orders-invoices.md)<br />
-[Sample: Qualify a Lead](sample-qualify-lead.md)<br />
+[Sample: Create an Opportunity (Early Bound)](../../../sales/developer/sample-create-opportunity-early-bound.md)<br />
+[Sample: Fulfill a Sales Order](../../../sales/developer/sample-fulfill-sales-order.md)<br />
+[Sample: Override Goal Total Count and Close the Goal](../../../sales/developer/sample-override-goal-total-count-close-goal.md)<br />
+[Sample: Process Quotes, Sales Orders and Invoices](../../../sales/developer/sample-process-quotes-sales-orders-invoices.md)<br />
+[Sample: Qualify a Lead](../../../sales/developer/sample-qualify-lead.md)<br />
 [Sample: Query Connection Roles by Entity Type Code (Early Bound)](sample-query-connection-roles-entity-type-code-early-bound.md)<br />
 [Sample: Query Connections by Reciprocal Roles (Early Bound)](sample-query-connections-reciprocal-roles-early-bound.md)<br />
-[Sample: Retrieve an Opportunity (Early Bound)](sample-retrieve-opportunity-early-bound.md)<br />
-[Sample: Roll Up Goal Data for a Custom Period Against the Target Revenue](sample-rollup-goal-data-custom-period-target-revenue.md)<br />
-[Sample: Roll Up Goal Data for a Fiscal Period Against the Stretch Target Count](sample-rollup-goal-data-fiscal-period-stretch-target-count.md)<br />
-[Sample: Set Negative Prices in Opportunities, Quotes and Sales Orders](sample-set-negative-prices-opportunities-quotes-sales-orders.md)<br />
+[Sample: Retrieve an Opportunity (Early Bound)](../../../sales/developer/sample-retrieve-opportunity-early-bound.md)<br />
+[Sample: Roll Up Goal Data for a Custom Period Against the Target Revenue](../../../sales/developer/sample-rollup-goal-data-custom-period-target-revenue.md)<br />
+[Sample: Roll Up Goal Data for a Fiscal Period Against the Stretch Target Count](../../../sales/developer/sample-rollup-goal-data-fiscal-period-stretch-target-count.md)<br />
+[Sample: Set Negative Prices in Opportunities, Quotes and Sales Orders](../../../sales/developer/sample-set-negative-prices-opportunities-quotes-sales-orders.md)<br />
 [Sample: Update a Connection Role (Early Bound)](sample-update-connection-role-early-bound.md)<br />
-[Sample: Use Rollup Queries to Track Goals](sample-use-rollup-queries-track-goals.md)<br />
+[Sample: Use Rollup Queries to Track Goals](../../../sales/developer/sample-use-rollup-queries-track-goals.md)<br />
   
 ## Sample data  
 

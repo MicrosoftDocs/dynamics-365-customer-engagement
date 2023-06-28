@@ -1,19 +1,16 @@
 ---
 title: "Unified Service Desk system requirements | MicrosoftDocs"
 description: "This topic lists the software and hardware requirements you need to install and use Unified Service Desk."
-ms.date: 12/15/2021
+ms.date: 05/30/2023
 ms.topic: get-started-article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
 ---
 
 # System requirements
-
-
 
 This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications on the Microsoft Dataverse instance.  
 
@@ -26,7 +23,7 @@ The following table lists the minimum and recommended hardware requirements to r
 | Component    | Minimum requirements     | Recommended requirements  |
 |-----------|-----------------|--------------|
 | Processor | x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor |   x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor     |
-|  Memory   |   ^4 GB RAM or more            |  8 GB RAM more    |
+|  Memory   |   ^4 GB RAM or more            |  8 GB RAM or more    |
 | Hard disk |  \*1.5 GB of available hard disk space             | 12 GB of available hard disk space: 2 GB of available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application files and 10 GB additional available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client log files<br /><br /> 7200 RPM or more |
 
 ^The minimum memory is for running basic scenarios. The actual memory required for Unified Service Desk increases with complex configurations and custom development (UI experience).
@@ -35,6 +32,22 @@ The following table lists the minimum and recommended hardware requirements to r
 
 <a name="client"></a>
 
+::: moniker range=">=dynamics-usd-4.2"
+## Software requirements for the Unified Service Desk client
+
+To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, you need the following:  
+
+| Requirement | Recommended version | Supported version|
+|---------------------------|---------------------------|-------------------------------------|
+| Operating system | [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)]  |<ul><li> Windows 11 </li> <li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li></ul>  |
+| Microsoft .NET Framework |[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] setup if missing) |  |
+| Windows Identity Foundation  | Windows Identity Foundation 3.5 (installed during Unified Service Desk setup if missing) |  |
+| Screen resolution |  1920 x 1080 (Pixels)  |  |
+| Magnifier |  100 %  |
+|||
+::: moniker-end
+
+::: moniker range="=dynamics-usd-4.1"
 ## Software requirements for the Unified Service Desk client
 
 To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, you need the following:  
@@ -47,6 +60,22 @@ To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-serv
 | Screen resolution |  1920 x 1080 (Pixels)  |  |
 | Magnifier |  100 %  |
 |||
+::: moniker-end
+
+::: moniker range="=dynamics-usd-4"
+## Software requirements for the Unified Service Desk client
+
+To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, you need the following:  
+
+| Requirement | Recommended version | Supported version|
+|---------------------------|---------------------------|-------------------------------------|
+| Operating system | [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)]  |<ul><li> Windows 11 </li> <li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li><li> [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)]</li><li> [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)]</li><li> [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (SP1)</li></ul>  |
+| Microsoft .NET Framework |[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] setup if missing) |  |
+| Windows Identity Foundation  | Windows Identity Foundation 3.5 (installed during Unified Service Desk setup if missing) |  |
+| Screen resolution |  1920 x 1080 (Pixels)  |  |
+| Magnifier |  100 %  |
+|||
+::: moniker-end
 
 ## Support for Unified Service Desk
 
@@ -75,7 +104,9 @@ The supported versions of Unified Service Desk are 4.2, 4.1, and 4.0.
 
 > [!Note]
 >
-> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11)
+> - Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
+>
+> - The support for hosting Unified Interface pages using Chrome Process (CefSharp) in Unified Service Desk 4.1.1.1397 and earlier versions is based on the Power Apps system requirements and limits. More information: [Supported browsers for running Power Apps](/power-apps/limits-and-config#supported-browsers-for-running-power-apps)
 
 ## Impact of Unified Interface Only availability with Unified Service Desk
 
@@ -96,5 +127,6 @@ After you enable the web client experience, go to the Window Navigation Rules an
  [Install Unified Service Desk client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)  
  [Deploy Unified Service Desk packages to Dataverse using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
  [Install and deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
+[Upgrade a Unified Service Desk solution](upgrade-unified-service-desk-solution.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,7 +14,6 @@ author: Mattp123
 ms.assetid: 68ca9059-cc5a-45e7-88bd-cc57186bbb48
 caps.latest.revision: 18
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - customizer
 
@@ -31,10 +30,14 @@ search.audienceType:
 ## Entities with quick create forms  
  By default only the following system entities have quick create forms.  
   
-|||||  
-|-|-|-|-|  
-|Account|Campaign Response|Case|Competitor|  
-|Contact|Lead|Opportunity| Activity |  
+- Account
+- Campaign Response
+- Case
+- Competitor
+- Contact
+- Lead
+- Opportunity
+- Activity
   
 <!-- Although you can create quick create forms for system activity entities, with the exception of the appointment entity, they do not support quick create forms. With the release of Dynamics 365 for Customer Engagement, version 9.0, the appointment entity includes a quick create form for use with the Unified Interface. Currently, the option to disable the quick create form for the appointment entity is not supported.--> 
 Any of the [updated entities](../customize/create-design-forms.md) and any custom entities can be enabled to support these forms by selecting **Allow Quick Create** in the entity definition and creating a quick create form for the entity. 

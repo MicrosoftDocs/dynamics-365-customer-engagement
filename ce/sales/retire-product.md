@@ -1,15 +1,14 @@
 ---
 title: "Retire products (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Retire a product in Dynamics 365 Sales so that it is no longer available to your sales agents for selling."
-ms.date: 09/02/2021
+ms.date: 12/05/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 ---
-# Retire products 
+# Retire products  
 
 If your organization doesn't sell a product, bundle, or family anymore, retire it so that the product record is no longer available to your sales agents. 
 
@@ -17,12 +16,11 @@ If your organization doesn't sell a product, bundle, or family anymore, retire i
 > Product families are only supported for Sales Enterprise and Sales Premium. 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Retire a product
 
@@ -39,14 +37,18 @@ If your organization doesn't sell a product, bundle, or family anymore, retire i
    > [!div class="mx-imgBorder"]
    > ![Product form with the Retire button.](media/retire-product.png "Product form with the Retire button")
 
+    > [!NOTE]
+    > Retired product families cannot be reactivated. Unparent a product before retiring if you think you may need to reactivate it later.  
+
 4. In the **Confirm Retire** dialog box, select **Confirm**.
  
    ![Confirm retire.](media/confirm-retire.png "Confirm retire")
 
-## Revive/restore a retired product
+## Reactivate a retired product
 
-If you have retired a product inadvertently or want to revive a product that was retired earlier, open the product and select **Activate**.  
+If you have retired a product inadvertently or want to restore a product that was retired earlier, open the product and select **Activate**.  
 
+You can only reactivate a standalone product. If a product has a parent, you'll not see the **Activate** option. You cannot reactivate a product family either.
 
 ## Typical next steps  
  ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)  

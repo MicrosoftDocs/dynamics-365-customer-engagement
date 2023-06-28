@@ -2,19 +2,12 @@
 metadata:
   title: "Frequently asked questions for Field Service (Dynamics 365) mobile app | MicrosoftDocs"
   description: Find answers to commonly asked questions about the Field Service (Dynamics 365) mobile app.
-  ms.date: 08/09/2021
-  ms.reviewer: krbjoran
+  ms.date: 05/11/2023
   ms.subservice: field-service-mobile
   ms.topic: faq
-  applies_to: 
-    - "Dynamics 365 (online)"
-    - "Dynamics 365 Version 9.x"
-  author: FieldServiceDave
-  ms.author: daclar
-  manager: shellyha
-  search.app: 
-    - D365CE
-    - D365FS
+  author: JonBaker007
+  ms.author: jobaker
+
 title: Frequently asked questions for the Field Service (Dynamics 365) mobile app
 summary: |
 sections:
@@ -30,6 +23,14 @@ sections:
       - question: Can I customize the default booking calendar control, such as by changing the booking cell content?
         answer: |
           Yes, you can customize the calendar to replace the existing primary field and add up to three custom fields. For more information, see [edit the booking calendar control](/dynamics365/field-service/mobile-power-app-configure#edit-the-bookings-calendar-control).
+      
+      - question: I created a custom view for my Booking Calendar. Why is the data or certain elements like address aren't displayed for each booking?
+        answer: |
+          The Booking Calendar control requires certain columns in the view to render all data. Best practice is to start from the Out of the Box view, "Bookings" and use "Save As" in the form designer to create a duplicate with required columns. Modifications can be done from there while not removing default columns.
+          If a field such as "Address" is missing from all Bookings on the calendar, it's likely that the Work Order table has been renamed, or modified and the Calendar control won't be able to find the address columns. In this case you need to add proper fields from the renamed entity back into the view.
+          > [!div class="mx-imgBorder"]
+          > ![Screenshot of columns related to address for booking calendar.](./media/address_Items.png)
+
   - name: Maps and locations
     questions:          
       - question: How do I enable address suggestions?
@@ -50,10 +51,10 @@ sections:
     questions:
       - question: Is there a maximum number of records supported by the offline profile?
         answer: |
-          There's no limit to the number of records that can be downloaded in offline mode, outside of the limitations of the physical device. We recommend that you limit the size of each record to 2 MB. Keep in mind that the sync duration will depend on the number and size of the records being synced, in addition to the quality of the network that the mobile device is connected to. For a good user experience, make sure the offline profile only includes data that's relevant to the user. The configuration of the out-of-the-box offline profile takes into account the common scenarios faced by field service technicians and mobile app users.
+          For optimal performance we recommend that you follow the [offline profile guidelines](/power-apps/mobile/mobile-offline-guidelines).
           
-          There's currently no limit to the number of entities, custom or otherwise, that you can add to the mobile offline profile. However, we strongly recommend that you minimize the number of entities and records downloaded to the device to shorten load times, shorten sync times, and improve overall performance.
-          For more information, review the [platform documentation](../mobile-app/mobile-offline-capabilities.md).  
+          In general, there’s no limit to the number of records that can be downloaded in offline mode, outside of the limitations of the physical device. Keep in mind that the sync duration will depend on the number and size of the records being synced, in addition to the quality of the network that the mobile device is connected to. For a good user experience, make sure the offline profile only includes data that's relevant to the user. The configuration of the out-of-the-box offline profile takes into account the common scenarios faced by field service technicians and mobile app users. There's also no limit to the number of entities, custom or otherwise, that you can add to the mobile offline profile. However, we strongly recommend that you follow the [offline profile guidelines](/power-apps/mobile/mobile-offline-guidelines).
+          
       - question: Is there a way to choose the columns ("fields") that are downloaded as part of a mobile offline profile?
         answer: |
           Offline profiles are filtered at the row level, which adjusts the number of records that are downloaded. There's currently no way to filter by column.
@@ -62,11 +63,19 @@ sections:
           Search from the offline application will always search the local device database for data, which is defined within the mobile offline profile.
       - question: Do WebResources work in offline mode?
         answer: |
-          There are currently limitations in support of WebReources while using the mobile app in offline and online modes. These limitations vary by device operating system. For more information, see the table in [Platform Documentation](/dynamics365/mobile-app/mobile-offline-capabilities#limitations)
+          There are currently limitations in support of WebReources while using the mobile app in offline and online modes. These limitations vary by device operating system. For more information, see [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities#limitations)
           For this reason, we recommend you develop using the [Power Apps component framework](/powerapps/developer/component-framework/overview), which will have broad cross-platform support on mobile and browser.
       - question: Where can I find information on mobile app offline security and encryption?
         answer: |
           Field Service mobile follows the same architecture and security as the Power Apps mobile app. For more information, see: [Overview of Power Platform security](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
+      - question: Where are some Commanding options hidden while the application is in Online versus Offline mode?
+        answer: |
+          Commanding options, which aren't supported in Offline mode, are hidden from the UI after the application transitions to Offline mode. A list of Offline supported Command bar options is available from [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities).
+      - question: How can I debug offline JavaScript?
+        answer: |
+          You can use your Android device to [debug JavaScript in mobile apps](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-mobile-apps).
+
+  
   - name: Sign in
     questions:     
         - question: What do the "Reconfigure" and "Sign out" options do?
@@ -103,13 +112,17 @@ sections:
             3. Sign in again, pull down the screen to refresh, and wait for at least a few minutes.
           
             If completing steps 1 and 2 doesn't resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
-        - question: Can external users access the Field Service (Dynamics 365) mobile app?  
+        - question: Can external guest users access the Field Service (Dynamics 365) mobile app?  
           answer: |
-           Currently, external users can't access the Field Service (Dynamics 365) mobile app.
+           Yes, frontline workers [enabled as Azure AD B2B collaborator](/azure/active-directory/external-identities/what-is-b2b) (guest) can access the mobile app by [switching to the guest tenant](/power-apps/mobile/tenant-switcher).
            
+           If a guest user needs to access the application with a personal account, use a formatted deep link to access the guest tenant.
+           ```
+           https://apps.powerapps.com/mobile/redirect?appid=<app-id>&tenantid=<tenant-id>&playerchannel=FieldServiceMobile&sourceurl=https%3A%2F%2F<org-url-without-https>%2Fmain.aspx%3Fappid%<app-id>
+           ```
         - question: Can I access SharePoint documents in offline mode?
           answer: |
-           Access to SharePoint documents is not currently supported in offline mode. 
+           Access to SharePoint documents isn't currently supported in offline mode. 
 
   - name: Entities, forms, views, and fields 
     questions:
@@ -127,7 +140,7 @@ sections:
 
           
       - question: |
-          Why doesn't the bookable resource booking form show work order details like Customer, Service, and Notes?
+          Why doesn't the bookable resource booking form show work order details like customer, service, and notes?
         answer: |
           Sometimes you might not see the correct booking form. You might see a screen resembling the following image.
          
@@ -148,14 +161,18 @@ sections:
           3. Within field properties, select the option "Automatically expand to use available space."
           4. Save and publish.
           
-          Note: When using the legacy form designer, there is a restriction of only one text field per tab can autoexpand. Switch to the modern designer to enable more than one field.
-  
+          Note: When using the legacy form designer, there's a restriction of only one text field per tab can autoexpand. Switch to the modern designer to enable more than one field.
+
+      - question: |
+         When working in the mobile application, why do users sometimes see “Validations have been restarted in the background…”?
+        answer: |
+         This error is commonly caused by a timing issue when using synchronous OnSave events. Starting with version 8.8.88.56 of the Field Service (Dynamics 365) Mobile app uses AsyncOnSave to mitigate validation errors for out-of-box scripts. If users continue to see this error, evaluate custom validations and use OnChange events.
 
   - name: Other
     questions:       
-     - question: Can I connect the Field Service (Dynamics 365) mobile app tos GCC, GCC high, DoD, or China (21Vianet) environments?
+     - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC high, DoD, or China (21Vianet) environments?
        answer: |
-          Yes.  To connect to the specific data center end points select **Region settings** from initial app sign-in screen.
+          Yes.  To connect to the specific data center end points select **Region settings** from initial app sign-in screen. 
       
           > [!div class="mx-imgBorder"]
           > ![Screenshot of Region Selector Option.](./media/Mobile-PowerApps-RegionSelector.png)
@@ -167,23 +184,73 @@ sections:
 
      - question: Can I download the Field Service (Dynamics 365) app in China market app stores?
        answer: |
-          Yes, the Field Service (Dynamics 365) app is available in the following China market app stores: Xiamoi, Lenovo, Baidu, Meizu.
+          Yes, the Field Service (Dynamics 365) app is available in the following China market app stores: Xiaomi, Lenovo, Baidu, Meizu, and Apple.
           
      - question: How do I change the time zone for the app?
        answer: |
-          While signed into the app, select the three vertical lines or swipe from the left to access the sitemap. Select the settings icon to find **Time Zone**. Change to desired time zone. Fully close and reopen the application for time zone changes to take effect. 
+          While signed into the app, select the three vertical lines open the sitemap. Select the settings icon to find **Time Zone**. Change to desired time zone. Fully close and reopen the application for time zone changes to take effect. 
   
+     - question: How do I change the language used within the app?
+       answer: |
+          Users can personalize the language settings for themselves by using the [personalization options available in Power Platform.](/power-apps/user/set-personal-options#languages-tab-options) This setting is currently not available in the Field Service Mobile app itself.
+
+     - question: How do I enable native mobile date and time picker, and input-specific keyboards for my app module? 
+       answer: |
+          New capabilities to use the native device date and time experience, along with input-specific mobile keyboards, were added to Platform release version 9.2.22033.00153+. These capabilities are enabled by default for the Field Service Mobile app module, but can be enabled for other App Modules with the following steps:
+          1. With an admin account, sign in to https://make.powerapps.com. After signing in, be sure to select the correct organization you're targeting from dropdown list.
+          2. Select the `...` next to the App Module for which you want to enable the feature. 
+          3. Expand **Settings** to **Edit in Preview**. In the resulting screen, select **Settings** from the top navigation.
+          4. Drill into **Feature Settings** where you'll find the toggle for these features.
+          5. **Save and Publish** your app module.
+
+          > [!div class="mx-imgBorder"]
+          > ![Screenshot of app settings.](./media/mobile-powerapps-appsettings.jpg)
+          
+          After making changes, when interacting with date and time fields on your mobile device they'll use the native device date and time experience. 
+          Similarly, after enabling native mobile inputs, the device will raise a specific keyboard depending on the input type of the field for numeric, phone, email, and URL fields.
+
+          
+          > [!div class="mx-imgBorder"]
+          > ![Screenshot of native input on iOS.](./media/mobile-powerapps-datetime.jpg)
+
      - question: Can I use drip scheduling with the Field Service mobile app?
        answer: |
           Drip scheduling is currently not supported with the Field Service (Dynamics 365) mobile app. 
          
      - question: Where can I find the app version and session ID for debugging purposes?
        answer: |
-        When opening a case with Microsoft Support, you will often be asked for details about your app, including the app version and session detail. To find the session and app version details:
-        1. After signing into the app, swipe from the left to see the main app menu.
+        When opening a case with Microsoft Support, you'll often be asked for details about your app, including the app version and session detail. To find the session and app version details:
+        1. After signing into the app, open the main app menu.
         2. Scroll to the bottom of the menu see **General** settings, and then **Session details**.
-        3. Open session details where you will see the app version, along with the current session identifier.
+        3. Open session details where you'll see the app version, along with the current session identifier.
         > [!div class="mx-imgBorder"]
         > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-SessionDetails.png)
-        
 
+     - question: How is data on the device secured and encrypted?
+       answer: |
+        For more information, see [details on security and encryption](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
+
+     - question: How do I enable Wave 2 2022 enhancements for command bar and form tabs for my Field Service Mobile application?
+       answer: |
+          As part of Wave 2 2022, the command bar for Field Service mobile has changed in the following ways:
+          - Command bar on Tablets has moved to the top of the view.
+          - Certain commands (Delete, Process) are removed for users without access to act on those commands.
+          - Rarely used commands are moved to the end of the command bar for easier access to more broadly used commands.
+          
+          Also as part of Wave 2, form tabs will now lock in place at the top of the screen while navigating down the view, removing the need to scroll to the top of the form to navigate between tabs. 
+          
+          By default, these changes are enabled for the Field Service Mobile app module. If you're using a custom app module, or want to revert the changes to the previous experience, these changes can be enabled or disabled via App Settings.
+
+          1. With an admin account, sign in to https://make.powerapps.com. After signing in, select the correct organization you're targeting from dropdown list.
+          2. Select the `...` next to the App Module for which you want to enable or disable the feature. 
+          3. Expand **Settings** to **Edit in Preview**. In the resulting screen, select **Settings** from the top navigation.
+          4. Go to **Feature Settings** where you'll find the toggle for these features with the following labels:
+          - Lock tabs at the top of forms on mobile and tablets
+          - Mobile Commanding Improvements
+          - Tablet Optimization for Command Bar
+ 
+          5. Select **Save and Publish** to update your app module.
+
+          
+
+          

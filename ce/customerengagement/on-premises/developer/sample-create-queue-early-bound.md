@@ -1,31 +1,31 @@
 ---
 title: "Sample: Create a queue (early bound) | MicrosoftDocs"
-decription: The sample code demonstrates how to create a simple queue and set the required attributes.
-ms.custom: 
+description: The sample code demonstrates how to create a simple queue and set the required attributes.
+ms.custom:
 ms.date: 12/18/2017
 ms.reviewer: pehecke
 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: sample
-applies_to: 
+applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
-helpviewer_keywords: 
+helpviewer_keywords:
   - sample for creating queues (early bound) and setting required attributes
   - creating simple queues (early bound) and setting required attributes, sample
 ms.assetid: 88018e90-23f6-460b-b641-e875008b8588
 caps.latest.revision: 20
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
-search.audienceType: 
+search.audienceType:
   - developer
 ---
+
 # Sample: Create a queue (early bound)
 
-This sample shows how to create a simple queue and set the required attributes using the [IOrganizationService.Create](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.create?view=dynamics-general-ce-9) message.
+This sample shows how to create a simple queue and set the required attributes using the [IOrganizationService.Create](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.create?view=dynamics-general-ce-9&preserve-view=true) message.
 
-You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CreateQueue).
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/CreateQueue).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
@@ -47,7 +47,7 @@ Checks for the current version of the org.
 
 ### Demonstrate
 
-1. The `newQueue` method creates a queue instance and set its property values. 
+1. The `newQueue` method creates a queue instance and set its property values.
 2. The `IncomingEmailDeliveryMethods` defines the anonymous types to define the range of possible queue property values.
 
 ### Clean up

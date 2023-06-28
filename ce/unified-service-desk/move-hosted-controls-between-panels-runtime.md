@@ -3,15 +3,11 @@ title: "Move hosted controls across panels at runtime in Unified Service Desk | 
 description: "Learn to move hosted controls across panels at runtime using the MoveToPanel action and the IDesktopFeatureAccess class."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---
@@ -32,7 +28,7 @@ if (desktop != null)
 }  
 ```  
   
- The [IDesktopFeatureAccess](/dotnet/api/microsoft.crm.unifiedservicedesk.basecontrol.idesktopfeatureaccess) class has another function, [String)](/dotnet/api/microsoft.crm.unifiedservicedesk.basecontrol.idesktopfeatureaccess.moveapplicationtopanel(microsoft.uii.csr.ihostedapplication,system.string)), which allows you to move a hosted control from and to arbitrary panels. This function takes a reference to the hosted application you wish to move and a string that represents the panel name, which is the name of the hosted control defined as a panel layout.  
+ The [IDesktopFeatureAccess](/dotnet/api/microsoft.crm.unifiedservicedesk.basecontrol.idesktopfeatureaccess) class has another function, [String)](/dotnet/api/microsoft.crm.unifiedservicedesk.basecontrol.idesktopfeatureaccess.moveapplicationtopanel), which allows you to move a hosted control from and to arbitrary panels. This function takes a reference to the hosted application you wish to move and a string that represents the panel name, which is the name of the hosted control defined as a panel layout.  
   
 ### See also  
  [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md)   

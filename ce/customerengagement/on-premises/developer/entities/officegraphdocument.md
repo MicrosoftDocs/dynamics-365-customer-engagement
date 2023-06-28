@@ -1,29 +1,27 @@
 ---
-title: "OfficeGraphDocument Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "OfficeGraphDocument entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the OfficeGraphDocument entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# OfficeGraphDocument Entity Reference
+
+# OfficeGraphDocument entity reference
 
 Office Graph Documents Description
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/officegraphdocuments<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -665,25 +663,21 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_officegraphdocument_createdonbehalfby"></a> lk_officegraphdocument_createdonbehalfby
 
-See systemuser Entity [lk_officegraphdocument_createdonbehalfby](systemuser.md#BKMK_lk_officegraphdocument_createdonbehalfby) One-To-Many relationship.
+See the [lk_officegraphdocument_createdonbehalfby](systemuser.md#BKMK_lk_officegraphdocument_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_officegraphdocument_modifiedonbehalfby"></a> lk_officegraphdocument_modifiedonbehalfby
 
-See systemuser Entity [lk_officegraphdocument_modifiedonbehalfby](systemuser.md#BKMK_lk_officegraphdocument_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_officegraphdocument_modifiedonbehalfby](systemuser.md#BKMK_lk_officegraphdocument_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_officegraphdocument"></a> organization_officegraphdocument
 
-See organization Entity [organization_officegraphdocument](organization.md#BKMK_organization_officegraphdocument) One-To-Many relationship.
+See the [organization_officegraphdocument](organization.md#BKMK_organization_officegraphdocument) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_officegraphdocument"></a> TransactionCurrency_officegraphdocument
 
-See transactioncurrency Entity [TransactionCurrency_officegraphdocument](transactioncurrency.md#BKMK_TransactionCurrency_officegraphdocument) One-To-Many relationship.
+See the [TransactionCurrency_officegraphdocument](transactioncurrency.md#BKMK_TransactionCurrency_officegraphdocument) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.officegraphdocument?text=officegraphdocument EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

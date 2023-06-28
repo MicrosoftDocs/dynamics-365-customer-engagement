@@ -1,11 +1,10 @@
 ---
 title: "Roles and personas | MicrosoftDocs"
 description: "Get information about how custom security roles can be mapped to personas in Customer Service and Omnichannel for Customer Service."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Manage personas and custom security roles in Customer Service
@@ -95,19 +94,15 @@ After persona mapping is enabled, it'll automatically assign default roles depen
 
 ### Manage personas
 
-You can customize the roles to persona mapping in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app.
+You can customize the roles to persona mapping in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 
 **To customize the role to persona mapping**
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
    
-    - In the site map, select **User management** in **Customer support**. The **User management** page appears.
-    
+    - In the site map, select **User management** in **Customer support**. The **User management** page appears.    
    
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 

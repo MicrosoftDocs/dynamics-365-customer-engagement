@@ -3,9 +3,8 @@ title: "msdyn_ocsentimentdailytopic Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocsentimentdailytopic entity."
 ms.date: 09/14/2020
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -228,9 +227,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|The topic cluster id from clustering algorithm
--1 represent outlier cluster
-Positive number like 5 represent topic cluster|
+|Description|The topic cluster id from clustering algorithm<br>-1 represent outlier cluster.<br>Positive number like 5 represent topic cluster|
 |DisplayName|Topic index|
 |Format|None|
 |IsValidForForm|True|

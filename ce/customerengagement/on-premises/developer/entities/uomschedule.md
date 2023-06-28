@@ -1,18 +1,16 @@
 ---
-title: "UoMSchedule Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the UoMSchedule entity."
-ms.date: 04/02/2019
-
+title: "Unit Group (UoMSchedule)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Unit Group (UoMSchedule)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# UoMSchedule Entity Reference
+
+# Unit Group (UoMSchedule)  entity reference
 
 Grouping of units.
 
@@ -21,16 +19,16 @@ Grouping of units.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/uomschedules<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/uomschedules(*uomscheduleid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/uomschedules(*uomscheduleid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/uomschedules<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/uomschedules(*uomscheduleid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/uomschedules(*uomscheduleid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -159,7 +157,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -180,7 +178,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -630,25 +628,13 @@ Listed by **SchemaName**.
 - [unit_of_measure_schedule_conversions](#BKMK_unit_of_measure_schedule_conversions)
 - [unit_of_measure_schedule_product_price_level](#BKMK_unit_of_measure_schedule_product_price_level)
 - [contract_detail_unit_of_measure_schedule](#BKMK_contract_detail_unit_of_measure_schedule)
-- [msdyn_uomschedule_msdyn_actual_UnitSchedule](#BKMK_msdyn_uomschedule_msdyn_actual_UnitSchedule)
-- [msdyn_uomschedule_msdyn_estimateline_UnitSchedule](#BKMK_msdyn_uomschedule_msdyn_estimateline_UnitSchedule)
-- [msdyn_uomschedule_msdyn_expense_UnitGroup](#BKMK_msdyn_uomschedule_msdyn_expense_UnitGroup)
-- [msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule](#BKMK_msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule)
-- [msdyn_uomschedule_msdyn_journalline_UnitSchedule](#BKMK_msdyn_uomschedule_msdyn_journalline_UnitSchedule)
-- [msdyn_uomschedule_msdyn_opportunitylinetransaction_UnitSchedule](#BKMK_msdyn_uomschedule_msdyn_opportunitylinetransaction_UnitSchedule)
-- [msdyn_uomschedule_msdyn_orderlinetransaction_UnitSchedule](#BKMK_msdyn_uomschedule_msdyn_orderlinetransaction_UnitSchedule)
-- [msdyn_uomschedule_msdyn_quotelinetransaction_UnitSchedule](#BKMK_msdyn_uomschedule_msdyn_quotelinetransaction_UnitSchedule)
-- [msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule](#BKMK_msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule)
-- [msdyn_uomschedule_msdyn_transactioncategory_UnitGroup](#BKMK_msdyn_uomschedule_msdyn_transactioncategory_UnitGroup)
-- [msdyn_uomschedule_msdyn_transactioncategorypricelevel_UnitSchedule](#BKMK_msdyn_uomschedule_msdyn_transactioncategorypricelevel_UnitSchedule)
-- [msdyn_uomschedule_msdyn_transactiontype_UnitGroup](#BKMK_msdyn_uomschedule_msdyn_transactiontype_UnitGroup)
 
 
 ### <a name="BKMK_UoMSchedule_SyncErrors"></a> UoMSchedule_SyncErrors
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [UoMSchedule_SyncErrors](syncerror.md#BKMK_UoMSchedule_SyncErrors) Many-To-One relationship.
+Same as the [UoMSchedule_SyncErrors](syncerror.md#BKMK_UoMSchedule_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -665,7 +651,7 @@ Same as syncerror entity [UoMSchedule_SyncErrors](syncerror.md#BKMK_UoMSchedule_
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [UoMSchedule_AsyncOperations](asyncoperation.md#BKMK_UoMSchedule_AsyncOperations) Many-To-One relationship.
+Same as the [UoMSchedule_AsyncOperations](asyncoperation.md#BKMK_UoMSchedule_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -682,7 +668,7 @@ Same as asyncoperation entity [UoMSchedule_AsyncOperations](asyncoperation.md#BK
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [uomschedule_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_uomschedule_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [uomschedule_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_uomschedule_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -699,7 +685,7 @@ Same as mailboxtrackingfolder entity [uomschedule_MailboxTrackingFolders](mailbo
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [UoMSchedule_BulkDeleteFailures](bulkdeletefailure.md#BKMK_UoMSchedule_BulkDeleteFailures) Many-To-One relationship.
+Same as the [UoMSchedule_BulkDeleteFailures](bulkdeletefailure.md#BKMK_UoMSchedule_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -716,7 +702,7 @@ Same as bulkdeletefailure entity [UoMSchedule_BulkDeleteFailures](bulkdeletefail
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [uomschedule_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_uomschedule_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [uomschedule_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_uomschedule_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -731,7 +717,7 @@ Same as principalobjectattributeaccess entity [uomschedule_PrincipalObjectAttrib
 
 ### <a name="BKMK_unit_of_measurement_schedule_products"></a> unit_of_measurement_schedule_products
 
-Same as product entity [unit_of_measurement_schedule_products](product.md#BKMK_unit_of_measurement_schedule_products) Many-To-One relationship.
+Same as the [unit_of_measurement_schedule_products](product.md#BKMK_unit_of_measurement_schedule_products) many-to-one relationship for the [product](product.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -746,7 +732,7 @@ Same as product entity [unit_of_measurement_schedule_products](product.md#BKMK_u
 
 ### <a name="BKMK_unit_of_measure_schedule_conversions"></a> unit_of_measure_schedule_conversions
 
-Same as uom entity [unit_of_measure_schedule_conversions](uom.md#BKMK_unit_of_measure_schedule_conversions) Many-To-One relationship.
+Same as the [unit_of_measure_schedule_conversions](uom.md#BKMK_unit_of_measure_schedule_conversions) many-to-one relationship for the [uom](uom.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -761,7 +747,7 @@ Same as uom entity [unit_of_measure_schedule_conversions](uom.md#BKMK_unit_of_me
 
 ### <a name="BKMK_unit_of_measure_schedule_product_price_level"></a> unit_of_measure_schedule_product_price_level
 
-Same as productpricelevel entity [unit_of_measure_schedule_product_price_level](productpricelevel.md#BKMK_unit_of_measure_schedule_product_price_level) Many-To-One relationship.
+Same as the [unit_of_measure_schedule_product_price_level](productpricelevel.md#BKMK_unit_of_measure_schedule_product_price_level) many-to-one relationship for the [productpricelevel](productpricelevel.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -778,7 +764,7 @@ Same as productpricelevel entity [unit_of_measure_schedule_product_price_level](
 
 **Added by**: Service Solution
 
-Same as contractdetail entity [contract_detail_unit_of_measure_schedule](contractdetail.md#BKMK_contract_detail_unit_of_measure_schedule) Many-To-One relationship.
+Same as the [contract_detail_unit_of_measure_schedule](contractdetail.md#BKMK_contract_detail_unit_of_measure_schedule) many-to-one relationship for the [contractdetail](contractdetail.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -788,210 +774,6 @@ Same as contractdetail entity [contract_detail_unit_of_measure_schedule](contrac
 |IsCustomizable|False|
 |ReferencedEntityNavigationPropertyName|contract_detail_unit_of_measure_schedule|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uomschedule_msdyn_actual_UnitSchedule"></a> msdyn_uomschedule_msdyn_actual_UnitSchedule
-
-**Added by**: Universal Resource Scheduling Solution
-
-Same as msdyn_actual entity [msdyn_uomschedule_msdyn_actual_UnitSchedule](msdyn_actual.md#BKMK_msdyn_uomschedule_msdyn_actual_UnitSchedule) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_actual|
-|ReferencingAttribute|msdyn_unitschedule|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uomschedule_msdyn_actual_UnitSchedule|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uomschedule_msdyn_estimateline_UnitSchedule"></a> msdyn_uomschedule_msdyn_estimateline_UnitSchedule
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_estimateline entity [msdyn_uomschedule_msdyn_estimateline_UnitSchedule](msdyn_estimateline.md#BKMK_msdyn_uomschedule_msdyn_estimateline_UnitSchedule) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_estimateline|
-|ReferencingAttribute|msdyn_unitschedule|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uomschedule_msdyn_estimateline_UnitSchedule|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uomschedule_msdyn_expense_UnitGroup"></a> msdyn_uomschedule_msdyn_expense_UnitGroup
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_expense entity [msdyn_uomschedule_msdyn_expense_UnitGroup](msdyn_expense.md#BKMK_msdyn_uomschedule_msdyn_expense_UnitGroup) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_expense|
-|ReferencingAttribute|msdyn_unitgroup|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uomschedule_msdyn_expense_UnitGroup|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule"></a> msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_invoicelinetransaction entity [msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule](msdyn_invoicelinetransaction.md#BKMK_msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_invoicelinetransaction|
-|ReferencingAttribute|msdyn_unitschedule|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uomschedule_msdyn_journalline_UnitSchedule"></a> msdyn_uomschedule_msdyn_journalline_UnitSchedule
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_journalline entity [msdyn_uomschedule_msdyn_journalline_UnitSchedule](msdyn_journalline.md#BKMK_msdyn_uomschedule_msdyn_journalline_UnitSchedule) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_journalline|
-|ReferencingAttribute|msdyn_unitschedule|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uomschedule_msdyn_journalline_UnitSchedule|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uomschedule_msdyn_opportunitylinetransaction_UnitSchedule"></a> msdyn_uomschedule_msdyn_opportunitylinetransaction_UnitSchedule
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_opportunitylinetransaction entity [msdyn_uomschedule_msdyn_opportunitylinetransaction_UnitSchedule](msdyn_opportunitylinetransaction.md#BKMK_msdyn_uomschedule_msdyn_opportunitylinetransaction_UnitSchedule) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_opportunitylinetransaction|
-|ReferencingAttribute|msdyn_unitschedule|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uomschedule_msdyn_opportunitylinetransaction_UnitSchedule|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uomschedule_msdyn_orderlinetransaction_UnitSchedule"></a> msdyn_uomschedule_msdyn_orderlinetransaction_UnitSchedule
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_orderlinetransaction entity [msdyn_uomschedule_msdyn_orderlinetransaction_UnitSchedule](msdyn_orderlinetransaction.md#BKMK_msdyn_uomschedule_msdyn_orderlinetransaction_UnitSchedule) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_orderlinetransaction|
-|ReferencingAttribute|msdyn_unitschedule|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uomschedule_msdyn_orderlinetransaction_UnitSchedule|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uomschedule_msdyn_quotelinetransaction_UnitSchedule"></a> msdyn_uomschedule_msdyn_quotelinetransaction_UnitSchedule
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_quotelinetransaction entity [msdyn_uomschedule_msdyn_quotelinetransaction_UnitSchedule](msdyn_quotelinetransaction.md#BKMK_msdyn_uomschedule_msdyn_quotelinetransaction_UnitSchedule) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_quotelinetransaction|
-|ReferencingAttribute|msdyn_unitschedule|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uomschedule_msdyn_quotelinetransaction_UnitSchedule|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule"></a> msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_resourcecategorypricelevel entity [msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule](msdyn_resourcecategorypricelevel.md#BKMK_msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_resourcecategorypricelevel|
-|ReferencingAttribute|msdyn_unitschedule|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uomschedule_msdyn_transactioncategory_UnitGroup"></a> msdyn_uomschedule_msdyn_transactioncategory_UnitGroup
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_transactioncategory entity [msdyn_uomschedule_msdyn_transactioncategory_UnitGroup](msdyn_transactioncategory.md#BKMK_msdyn_uomschedule_msdyn_transactioncategory_UnitGroup) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_transactioncategory|
-|ReferencingAttribute|msdyn_unitgroup|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uomschedule_msdyn_transactioncategory_UnitGroup|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uomschedule_msdyn_transactioncategorypricelevel_UnitSchedule"></a> msdyn_uomschedule_msdyn_transactioncategorypricelevel_UnitSchedule
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_transactioncategorypricelevel entity [msdyn_uomschedule_msdyn_transactioncategorypricelevel_UnitSchedule](msdyn_transactioncategorypricelevel.md#BKMK_msdyn_uomschedule_msdyn_transactioncategorypricelevel_UnitSchedule) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_transactioncategorypricelevel|
-|ReferencingAttribute|msdyn_unitschedule|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uomschedule_msdyn_transactioncategorypricelevel_UnitSchedule|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uomschedule_msdyn_transactiontype_UnitGroup"></a> msdyn_uomschedule_msdyn_transactiontype_UnitGroup
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_transactiontype entity [msdyn_uomschedule_msdyn_transactiontype_UnitGroup](msdyn_transactiontype.md#BKMK_msdyn_uomschedule_msdyn_transactiontype_UnitGroup) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_transactiontype|
-|ReferencingAttribute|msdyn_unitgroup|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uomschedule_msdyn_transactiontype_UnitGroup|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
@@ -1011,37 +793,33 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_uomschedulebase_createdby](systemuser.md#BKMK_lk_uomschedulebase_createdby) One-To-Many relationship.
+See the [lk_uomschedulebase_createdby](systemuser.md#BKMK_lk_uomschedulebase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_uomschedule_createdonbehalfby"></a> lk_uomschedule_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_uomschedule_createdonbehalfby](systemuser.md#BKMK_lk_uomschedule_createdonbehalfby) One-To-Many relationship.
+See the [lk_uomschedule_createdonbehalfby](systemuser.md#BKMK_lk_uomschedule_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_uomschedulebase_modifiedby"></a> lk_uomschedulebase_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_uomschedulebase_modifiedby](systemuser.md#BKMK_lk_uomschedulebase_modifiedby) One-To-Many relationship.
+See the [lk_uomschedulebase_modifiedby](systemuser.md#BKMK_lk_uomschedulebase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_uomschedule_modifiedonbehalfby"></a> lk_uomschedule_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_uomschedule_modifiedonbehalfby](systemuser.md#BKMK_lk_uomschedule_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_uomschedule_modifiedonbehalfby](systemuser.md#BKMK_lk_uomschedule_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_uof_schedules"></a> organization_uof_schedules
 
 **Added by**: System Solution Solution
 
-See organization Entity [organization_uof_schedules](organization.md#BKMK_organization_uof_schedules) One-To-Many relationship.
+See the [organization_uof_schedules](organization.md#BKMK_organization_uof_schedules) one-to-many relationship for the [organization](organization.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.uomschedule?text=uomschedule EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

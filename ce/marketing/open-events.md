@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Open the event management work area
@@ -26,7 +22,7 @@ To find the event management work area:
 
 1. If you haven't already done so, sign in to Dynamics 365 as a user with [event-management privileges](admin-users-licenses-roles.md). Then use the app-selector menu to open the **Marketing** app.
 
-    ![The app-selector menu.](media/nav-apps-ill.png "The app-selector menu")
+    ![The app-selector menu.](media/nav-apps-ill2.png)
 
 1. Expand the work-area area menu at the bottom of the side navigator and select **Events**.
 

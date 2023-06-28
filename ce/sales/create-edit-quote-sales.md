@@ -5,7 +5,6 @@ ms.date: 10/25/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -18,15 +17,16 @@ searchScope:
 ---
 # Create or edit quotes
 
-Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it.
+Quotes include the pricing details of products that your potential customer is interested in.  
+
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## How to create or edit quotes 
 
@@ -42,7 +42,7 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
 2. Select the opportunity you want to create a quote for.
 
-3. Go to the **Quotes** tab and then select **+ New Quote**.
+3. Go to the **Quotes** tab and then select **New Quote**.
 
     The quote form opens. The quote form is prefilled with important details from the opportunity record.
 
@@ -64,7 +64,7 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
 1. Select the site map ![Site Map icon.](media/site-map-icon.png "site map icon"), and then select **Quotes**.
 
-2. Select **+ New**.
+2. Select **New**.
 
 3. On the **Quote** form, enter data in the following required fields:
 

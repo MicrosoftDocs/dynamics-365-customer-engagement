@@ -1,17 +1,16 @@
 ---
 title: "Sample: Create, retrieve, update, and delete a SharePoint location record (Dynamics 365 Customer Engagement (on-premises) SDK)| MicrosoftDocs"
-description: ""
+description: Learn how to create, retrieve, update, and delete a SharePoint location record with this sample code for Dynamics 365 Customer Engagement (on-premises).
 keywords: 
 ms.date: 10/31/2017
 
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: bc1c1d14-4be9-48fb-a7dd-bccbacd722f8
 author: KumarVivek
 ms.author: kvivek
-manager: jdaly
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 

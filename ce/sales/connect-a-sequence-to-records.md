@@ -1,28 +1,20 @@
 ---
 title: "Connect sequence to records in the sales accelerator"
 description: "Connect a sequence to a record based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 08/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Connect a sequence to records 
 
 After you create and activate a sequence for the selling process, you connect the sequence to records depending on the entity that you've created the sequence for. When a sequence is connected to an entity, the activities defined in the sequence will be shown in order on the record's **Summary** under **Up next** in **My work**.   
-> [!NOTE]
-> You can connect a sequence to the following types of records only:
-> - Leads that are in a **New** state.
-> - Opportunities that are in an **Open** state.    
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
+| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator, Sequence Manager, or Salesperson <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Ways to connect sequence to records
 
@@ -32,8 +24,7 @@ You can connect a sequence to records in the following ways:
 - [Through a record](#ContactThroughARecord)
 - [Through Power Automate](#through-power-automate)
 
-<a name="ContactThroughASequence"></a>
-
+<a name='ContactThroughASequence'></a>
 ## Through a sequence   
 
 >[!NOTE]
@@ -42,21 +33,18 @@ You can connect a sequence to records in the following ways:
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
 3. Under **Sales accelerator**, select **Sequences**.   
-4. On the **Sequences** page, select a sequence that is active state.    
+4. On the **Sequences** page, select and open the sequence that is active state.<br>or<br>Hover over the sequence, and then select **More options** > **View sequence**.    
+    The sequence opens.    
     >[!NOTE]
-    > You can assign records only to sequences that are in an **Active** state.
-
-5. Select and open the sequence for which you want to assign records.<br>or<br>Hover over a sequence, and then select **More options** > **View sequence**.    
-    The sequence opens. On the **Manage sequence** tab, you can view the activities that are defined for the sequence.     
-    > [!div class="mx-imgBorder"]
-    > ![Manage sequence tab of a sequence](media/sequence-manage-sequence-tab.png "Manage sequence tab of a sequence")     
-6. Select the **Connected leads** tab.    
+    >You can assign records only to sequences that are in an **Active** state.
+  
+5. Select the **Connected *record*** tab. In this example, we're selecting a sequence with record type lead.     
     You can see the list of records that are connected to the sequence. If no records are connected, an empty section is displayed.   
-7.	In the **Connect leads** section, select **+ Connect leads**.     
 
     > [!div class="mx-imgBorder"]
-    > ![Connected leads tab of a sequence](media/sequence-connected-leads-tab.png "Connected leads tab of a sequence")   
+    > ![Connected leads tab of a sequence](media/sequence-connected-sequence-tab.png "Connected leads tab of a sequence") 
 
+7.	In the **Connected leads** section, select **+ Connect leads**.     
     The list that appears shows available lead records that aren't connected to any sequence.
 
     > [!div class="mx-imgBorder"]
@@ -77,12 +65,12 @@ You can connect a sequence to records in the following ways:
     > [!div class="mx-imgBorder"]
     > ![Lead records connected to sequence](media/sequence-leads-connected.png "Lead records connected to sequence")       
     
-<a name="ContactThroughGridView"></a>
-## Through the lead or opportunity grid view   
+<a name='ContactThroughGridView'></a>
+## Through the record type grid view   
 
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales**.   
-3. Under **Sales**, select **Leads** or **Opportunities**, depending on the records you want to connect.   
+3. Under **Sales**, select the record type such as, **Leads** or **Opportunities**, depending on the records you want to connect.   
     In this example, we select **Leads**.   
     > [!div class="mx-imgBorder"]
     > ![Lead view](media/sequence-connect-lead-view.png "Lead view")        
@@ -101,7 +89,7 @@ You can connect a sequence to records in the following ways:
 
 A confirmation message appears at the bottom of the page, and the sequence is connected to the selected lead records. Now, sellers who have access to the lead record can see the activities connected with it.   
 
-<a name="ContactThroughARecord"></a>
+<a name='ContactThroughARecord'></a>
 ## Through a record   
 
 1. Sign in to your sales app.   
@@ -138,7 +126,7 @@ You can create a flow based on a sequence. The flow connects the records automat
     > [!div class="mx-imgBorder"]
     > ![Search for your solution](media/si-admin-view-flows-search-solution.png "Search for your solution")
 4. Configure a trigger to the flow.    
-5. Select **+ New step**.   
+5. Select **New step**.   
 6. In the **Search connectors and actions** box, select **Microsoft Dataverse**, and then search for and add the action **Perform an unbound action**.     
     > [!div class="mx-imgBorder"]
     > ![Search and add Perform an unbound action](media/sequence-add-an-unbound-action.png "Search and add Perform an unbound action")     
@@ -166,7 +154,8 @@ You can create a flow based on a sequence. The flow connects the records automat
 
 ### See also
 
-[Create and manage sequences](create-manage-sequences.md)
+[Sequences](create-manage-sequences.md)   
+[Create and activate a sequence](create-and-activate-a-sequence.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

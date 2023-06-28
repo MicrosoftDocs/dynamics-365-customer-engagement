@@ -14,7 +14,6 @@ ms.assetid: 11c1d485-e5e9-40ac-8ac1-76504ba8bef5
 caps.latest.revision: 29
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -87,10 +86,14 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
   The following table lists <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> properties that cannot be used in a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression>:  
   
-|||||  
-|-|-|-|-|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Attributes>|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Description>|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.DisplayCollectionName>|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.DisplayName>|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.ManyToManyRelationships>|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.ManyToOneRelationships>|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.OneToManyRelationships>|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Privileges>|  
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Attributes>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Description>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.DisplayCollectionName>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.DisplayName>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.ManyToManyRelationships>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.ManyToOneRelationships>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.OneToManyRelationships>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Privileges>
   
  The following example shows a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression> that will return a set of non-intersect, user-owned entities not included in a list of entities to exclude:  
   
@@ -194,10 +197,10 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
  The following table lists <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata> properties that cannot be used in a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression>  
   
-|||  
-|-|-|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.Description>|<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.DisplayName>|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EnumAttributeMetadata.OptionSet>|<xref:Microsoft.Xrm.Sdk.Metadata.LookupAttributeMetadata.Targets>|  
+- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.Description>
+- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.DisplayName>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EnumAttributeMetadata.OptionSet>
+- <xref:Microsoft.Xrm.Sdk.Metadata.LookupAttributeMetadata.Targets>
   
  The following example will limit Attributes returned to only those that have an `OptionSet` and will only return the <xref:Microsoft.Xrm.Sdk.Metadata.EnumAttributeMetadata.OptionSet> and <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.AttributeType> properties for those attributes:  
   
@@ -211,12 +214,10 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
  The following table lists Relationship metadata properties that cannot be used in a MetadataFilterExpression:  
   
-||  
-|-|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.AssociatedMenuConfiguration>|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.CascadeConfiguration>|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity1AssociatedMenuConfiguration>|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity2AssociatedMenuConfiguration>|  
+- <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.AssociatedMenuConfiguration>
+- <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.CascadeConfiguration>
+- <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity1AssociatedMenuConfiguration>  
+ -<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity2AssociatedMenuConfiguration>
   
 ### Retrieve labels
   

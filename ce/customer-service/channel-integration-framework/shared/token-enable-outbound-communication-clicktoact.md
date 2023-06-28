@@ -1,21 +1,32 @@
 
-You can enable outbound communication by these two options:
+You can enable outbound communication either with or without customization, as follows:
 
-1. Using customizations on the phone control. Follow steps 1 through 4.
-2. Without any customizations. Follow steps 1, 3, and 4.
-
+- To enable outbound communication using customizations on the phone control, follow steps 1 through 4.
+- To enable outbound communication without any customizations, follow steps 1, 3, and 4.
 
 To enable outbound communication for your channel, you must perform the following:
 
-- **Step 1:** In the channel provider configurations, set the **Enable Outbound Communication** field to **Yes**.
+1. Using app profile manager or Customer Service admin center, enable outbound communication for the specific channel provider. More information: [Configure channel provider for outbound communication](#configure-channel-provider-for-outbound-communication)
 
-- **Step 2:** In the Unified Interface form, add the **Channel communication control** to the **Phone** field for which you want to enable outbound communication (ClickToAct), and publish the customizations.
+2. In the Unified Interface form, add the **Channel communication control** to the **Phone** field for which you want to enable outbound communication (ClickToAct), and publish the customizations. More information: [Add the Channel Communication Control to the Unified Interface form](#add-the-channel-communication-control-to-the-unified-interface-form)
 
-- **Step 3:** Register the addhandler in your JavaScript code using `Microsoft.CIFramework.addHandler("onclicktoact", <handlerFunction>)` 
+3. Register the event handler in your JavaScript code using `Microsoft.CIFramework.addHandler` method. More information: [Register the event handler in JavaScript code using the onclicktoact event](#register-the-event-handler-in-javascript-code-using-the-onclicktoact-event) 
 
-- **Step 4:** Select on the mobile phone icon to trigger the `onclicktoact` event.
+4. Select the mobile phone icon to trigger the `onclicktoact` event. More information: [Trigger the onclicktoact event](#trigger-the-onclicktoact-event)
 
-## Step 1: Set the Enable Outbound Communication field value in the channel provider configuration
+## Configure channel provider for outbound communication
+   
+If you're using Customer Service admin center, do the following:
+   
+1. In the site map, select **Workspaces** in **Agent experience**. The **Workspaces** page opens.
+    
+2. Select **Manage** for **Third party voice channel provider**.
+    
+3. Select a provider from the **Active Channel Providers** list, and select **Edit**.
+    
+4. In the **General** tab, set the **Enable Out Bound** field to **Yes**.
+
+If you're using the app profile manager, then do the following:
 
 1. Sign in to your [Power Apps](https://make.powerapps.com/) portal.
 
@@ -27,9 +38,9 @@ To enable outbound communication for your channel, you must perform the followin
  
 5. Select your channel provider from the list, and set the **Enable Outbound Communication** field to **Yes**.
 
-## Step 2: Add the Channel Communication Control to the Unified Interface form
+## Add the Channel Communication Control to the Unified Interface form
 
-You can add the Channel Communication Control based on your organization and business requirements. The steps below describe how to add the Channel Communication Control for the Contact form of Main type under the Contact entity.
+You can add the Channel Communication Control based on your organization and business requirements. The following steps describe how you can add the Channel Communication Control for the Contact form of Main type under the Contact entity.
 
 1. Sign in to Dynamics 365.
 
@@ -54,7 +65,7 @@ You can add the Channel Communication Control based on your organization and bus
 
 9. Select **Save**, and then select **Publish** to publish all customizations.
 
-## Step 3: Register the addHandler in JavaScript code using the onclicktoact event
+## Register the event handler in JavaScript code using the onclicktoact event
 
 During the initialization of the function, register the handler for the `onlicktoact` event.
 
@@ -67,7 +78,7 @@ function initCTI() {
 ```
 Make sure to add `initCTI`, which is an initialization method in the softphone sample code, in your own initialization code.
 
-## Step 4: Select the mobile phone icon to trigger the onclicktoact event
+## Trigger the onclicktoact event
 
 Select the mobile phone icon to trigger the `onclicktoact` event, as shown below.
 
@@ -76,4 +87,4 @@ Select the mobile phone icon to trigger the `onclicktoact` event, as shown below
 |![Select mobile phone icon to trigger the onclicktoact event](../media/custom-control-phone-icon.PNG "Select mobile phone icon to trigger the onclicktoact event") |![Select the mobile phone icon to trigger the onclicktoact event](../media/oob-phone-icon.PNG "Select the mobile phone icon to trigger the onclicktoact event")|
 
 > [!Note]
-> Dynamics 365 Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or by configuring the **Enable Outbound Communication** to **Yes** in the channel provider configurations.
+> Dynamics 365 Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or configure the **Enable Outbound Communication** to **Yes** in the channel provider configurations.

@@ -1,21 +1,16 @@
 ---
 title: "Customer journey tiles reference (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Details for how to use each tile that is available for assembling a customer journey pipeline for Dynamics 365 Marketing."
-ms.date: 10/01/2020
-
+ms.date: 09/14/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Customer journey tiles reference
@@ -39,6 +34,9 @@ The content that your customer journey delivers to contacts as they traverse the
 - **If/then**: This tile has replaced the **Trigger** tile. The If/then tile holds contacts either until a defined condition is true, or until a defined amount of time expires. The If/then tile splits the path. Contacts who fulfill the conditions in time will follow the true path. Contacts who haven't met the conditions when the time expires will follow the false path.
 
     > [!IMPORTANT]
+    > The defined expiration time applies to each contact separately.  A new trigger tile expiration timer starts for each contact who arrives at the trigger tile. The timer waits for each contact with the same expiration time amount.
+
+    > [!IMPORTANT]
     > To be able to define a condition, you need to first define at least one other tile in a journey. This is necessary so that its entity (or any of the entity’s dependencies) can be selected as a condition source.
 
 - **Split**: This tile has replaced the **Splitter** and **Splitter-branch** tiles. The Split tile adds a fork to the customer journey pipeline, sending a random selection of contacts along each available path.
@@ -51,7 +49,7 @@ The content that your customer journey delivers to contacts as they traverse the
 ### Actions
 
 - **Create lead**: The create-lead tile creates a new lead for each contact or account that enters the tile. It doesn't try to match any existing leads, so it always creates a new one. Each lead created will be linked either to the contact who entered the tile, or to the account that contact belongs to (the company or organization they work for).
-- **Run workflow**: Use a Run workflow tile to invoke a [custom workflow](../customerengagement/on-premises/customize/workflow-processes.md) at any point in the customer journey. You can use this tile to advance a process stage, create alerts, and more. Workflows are highly customizable. Many organizations work with internal or external consultants to optimize workflows for their own unique, internal business requirements.
+- **Run workflow**: Use a Run workflow tile to invoke a [custom workflow](../customerengagement/on-premises/customize/workflow-processes.md) at any point in the customer journey. You can use this tile to advance a process stage, create alerts, and more. To use a workflow tile, a workflow process must be active, marked as on-demand, and use "Contact" as the primary entity. Workflows are highly customizable. Many organizations work with internal or external consultants to optimize workflows for their own unique, internal business requirements.
 - **LinkedIn campaign**: The LinkedIn campaign tile links each contact who passes through it to a specific LinkedIn campaign. Thus, this tile makes it possible for a subsequent trigger tile to react to submissions of any LinkedIn Lead Gen Forms that belong to that campaign on LinkedIn.
 
 ### Sales activities
@@ -73,13 +71,19 @@ The content that your customer journey delivers to contacts as they traverse the
 
   In the new designer, the same can be achieved by adding a given event as a dependency to an email (in the properties of the email tile). <br>
     
-- **Marketing form**: The marketing form tile represents an embedded or captured form hosted on an external website. In the old designer, this tile could be used as a nested tile under email tiles to represent a link to an external page that is included in the email message’s content (the external page had to include the captured or embedded marketing form represented by the tile). The marketing form tile could also be used to enable trigger tiles placed later in the pipeline to “know” about the external-page link and to react to contact interactions with the link. 
+- **Marketing form**: The marketing form tile represents an embedded or captured form hosted on an external website. 
 
-  In the new designer, the same can be achieved by adding a Marketing form entity as a dependency to an email (in the properties of the email tile). 
+  In the old designer, a marketing form could be used as a nested property under an email tile as a representee link to an external page. The external page included the email message's content (the external page had to include the captured or embedded marketing form represented by the tile). The marketing form tile could also be used to enable trigger tiles placed later in the pipeline to “know” about the external page link and to react to contact interactions with the link.
 
-  In the old designer, the marketing form tile was also placed at the start of a journey to create an inbound campaign. When placed at the start of a journey, all new or existing contacts who submitted the form were sent on that journey. 
-    
-  With the new designer, this is no longer needed as the audience can be defined using a form, by selecting the form submitted as a source. Alternatively, an audience can be defined by using a segment of all the people who submitted a given form. 
+  In the new designer, a marketing form can be used only as a nested property under the marketing page property which is a representee link to an external page in email tiles.
+
+  In the old designer, the marketing form tile was also placed at the start of a journey to create an inbound campaign. When placed at the start of a journey, all new or existing contacts who submitted the form were sent on that journey. With the new designer, this is no longer needed as the audience can be defined using a form by selecting the form submitted as a source under a marketing page. Alternatively, an audience can be defined by using a segment of all the people who submitted a given form with condition tiles.
+  
+> [!NOTE]
+> To link an email in a condition tile, the following pre-requisites are required: 
+> - The selected email needs to be live
+> - Content settings need to be selected for the journey
+> - The selected content settings need to be live
 
 - **Marketing page**: The marketing page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Power Apps portal. In the old designer, this tile could be used as a nested tile under email tiles to represent a marketing page link that is included in the email message’s content. It could also be used to enable trigger tiles placed later in the pipeline to “know” about the marketing link and to react to contact interactions with it. 
 

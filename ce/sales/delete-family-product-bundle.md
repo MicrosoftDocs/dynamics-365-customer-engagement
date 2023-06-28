@@ -1,11 +1,10 @@
 ---
 title: "Delete a family, product, or bundle | MicrosoftDocs"
 description: "To stop selling a product, delete it. If you delete a parent family, its child products, families, and bundles are also deleted."
-ms.date: 10/26/2021
+ms.date: 02/28/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 ---
@@ -14,15 +13,15 @@ ms.custom:
 To stop selling a product, bundle, or family, delete it. If you delete a parent family, its child products, families, and bundles are also deleted.
 
 > [!IMPORTANT]
->  You can't recover a deleted record. If you don't want to delete a product record but want to temporarily unpublish it, then [retire the product record](retire-product.md).
+>  You can't restore a deleted product record. If you don't want to delete a product record but want to temporarily remove it from the catalog, then [retire the product record](retire-product.md).
 
 ## License and role requirements
 
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Delete a product record
 

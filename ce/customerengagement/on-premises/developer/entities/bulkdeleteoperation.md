@@ -1,31 +1,29 @@
 ---
-title: "BulkDeleteOperation Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "BulkDeleteOperation entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the BulkDeleteOperation entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# BulkDeleteOperation Entity Reference
+
+# BulkDeleteOperation entity reference
 
 User-submitted bulk deletion job.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Delete|DELETE [*org URI*]/api/data/v9.0/bulkdeleteoperations(*bulkdeleteoperationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/bulkdeleteoperations(*bulkdeleteoperationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bulkdeleteoperations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -281,14 +279,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsRecurring Options
+#### IsRecurring Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -529,7 +527,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -552,7 +550,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -593,7 +591,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_BulkDeleteOperation_BulkDeleteFailure"></a> BulkDeleteOperation_BulkDeleteFailure
 
-Same as bulkdeletefailure entity [BulkDeleteOperation_BulkDeleteFailure](bulkdeletefailure.md#BKMK_BulkDeleteOperation_BulkDeleteFailure) Many-To-One relationship.
+Same as the [BulkDeleteOperation_BulkDeleteFailure](bulkdeletefailure.md#BKMK_BulkDeleteOperation_BulkDeleteFailure) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -621,33 +619,29 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_bulkdeleteoperationbase_modifiedby"></a> lk_bulkdeleteoperationbase_modifiedby
 
-See systemuser Entity [lk_bulkdeleteoperationbase_modifiedby](systemuser.md#BKMK_lk_bulkdeleteoperationbase_modifiedby) One-To-Many relationship.
+See the [lk_bulkdeleteoperationbase_modifiedby](systemuser.md#BKMK_lk_bulkdeleteoperationbase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_AsyncOperation_BulkDeleteOperation"></a> AsyncOperation_BulkDeleteOperation
 
-See asyncoperation Entity [AsyncOperation_BulkDeleteOperation](asyncoperation.md#BKMK_AsyncOperation_BulkDeleteOperation) One-To-Many relationship.
+See the [AsyncOperation_BulkDeleteOperation](asyncoperation.md#BKMK_AsyncOperation_BulkDeleteOperation) one-to-many relationship for the [asyncoperation](asyncoperation.md) entity.
 
 ### <a name="BKMK_lk_bulkdeleteoperation_createdonbehalfby"></a> lk_bulkdeleteoperation_createdonbehalfby
 
-See systemuser Entity [lk_bulkdeleteoperation_createdonbehalfby](systemuser.md#BKMK_lk_bulkdeleteoperation_createdonbehalfby) One-To-Many relationship.
+See the [lk_bulkdeleteoperation_createdonbehalfby](systemuser.md#BKMK_lk_bulkdeleteoperation_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_bulkdeleteoperation_modifiedonbehalfby"></a> lk_bulkdeleteoperation_modifiedonbehalfby
 
-See systemuser Entity [lk_bulkdeleteoperation_modifiedonbehalfby](systemuser.md#BKMK_lk_bulkdeleteoperation_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_bulkdeleteoperation_modifiedonbehalfby](systemuser.md#BKMK_lk_bulkdeleteoperation_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_bulkdeleteoperationbase_createdby"></a> lk_bulkdeleteoperationbase_createdby
 
-See systemuser Entity [lk_bulkdeleteoperationbase_createdby](systemuser.md#BKMK_lk_bulkdeleteoperationbase_createdby) One-To-Many relationship.
+See the [lk_bulkdeleteoperationbase_createdby](systemuser.md#BKMK_lk_bulkdeleteoperationbase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_BulkDeleteOperation_BusinessUnit"></a> BulkDeleteOperation_BusinessUnit
 
-See businessunit Entity [BulkDeleteOperation_BusinessUnit](businessunit.md#BKMK_BulkDeleteOperation_BusinessUnit) One-To-Many relationship.
+See the [BulkDeleteOperation_BusinessUnit](businessunit.md#BKMK_BulkDeleteOperation_BusinessUnit) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.bulkdeleteoperation?text=bulkdeleteoperation EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

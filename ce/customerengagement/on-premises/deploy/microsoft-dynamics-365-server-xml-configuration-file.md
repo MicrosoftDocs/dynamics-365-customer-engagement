@@ -14,7 +14,6 @@ ms.assetid: df2d641a-ede9-494c-82a2-b1ac448c5f88
 caps.latest.revision: 32
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Microsoft Dynamics 365 Server XML configuration file
 
@@ -146,7 +145,7 @@ The /config [drive:] [[path] configfilename.xml]] command-line parameter provide
  You must specify the precision for the base currency that you specified in the **currencycode** attribute. Valid values depend on the type of currency that you specify. For example, USD valid values are 1 – 9 and the default value is 2.  
   
  **\<OrganizationCollation>CollationName\</OrganizationCollation>**  
- This optional element specifies the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] database collation name to use for the organization database. The default collation depends on the language of Dynamics 365 Customer Engagement (on-premises) that you’re installing, for example, Latin1_General_Cl_Al, which is the default collation for English (US) language deployments. For more information about database collation, see  [Collation and Unicode Support](/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-2016).  
+ This optional element specifies the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] database collation name to use for the organization database. The default collation depends on the language of Dynamics 365 Customer Engagement (on-premises) that you’re installing, for example, Latin1_General_Cl_Al, which is the default collation for English (US) language deployments. For more information about database collation, see  [Collation and Unicode Support](/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-2016&preserve-view=true).  
   
  **\<CrmServiceAccount type="DomainUser"/"NetworkService">**   
  **\<ServiceAccountLogin>Domain\User\</ServiceAccountLogin>**   

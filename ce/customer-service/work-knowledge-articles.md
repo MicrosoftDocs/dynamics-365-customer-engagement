@@ -4,7 +4,6 @@ description: "This topic provides information about working with the new native 
 ms.date: 03/05/2021
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - developer
 searchScope: 

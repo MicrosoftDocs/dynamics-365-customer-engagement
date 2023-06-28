@@ -1,11 +1,10 @@
 ---
 title: "Define lead qualification experience in Dynamics 365 Sales"
 description: "Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified."
-ms.date: 10/26/2021
+ms.date: 05/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -20,12 +19,11 @@ searchScope:
 Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified. 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Define the experience  
 
@@ -61,6 +59,7 @@ To go to this setting:
 ### See also
 [Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)  
 [Create or edit leads](create-edit-lead-sales.md)  
+[Troubleshoot issues with lead qualification](/troubleshoot/dynamics-365/sales/troubleshoot-lead-qualification-issues-for-system-admin)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

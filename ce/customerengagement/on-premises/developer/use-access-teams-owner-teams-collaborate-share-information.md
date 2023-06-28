@@ -19,7 +19,6 @@ ms.assetid: 16f99b97-6ce5-4f65-abdd-f836dc54f9d3
 caps.latest.revision: 75
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -43,7 +42,7 @@ With *owner* teams or *access* teams, you can easily share business objects and 
   
 ### When to use owner teams  
   
-- Owning records by entities other than users is required by your company’s business policies.  
+- Table records need to be owned by a group of users and not just by an individual.  
   
 - The number of teams is known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system.  
   
@@ -69,7 +68,7 @@ With *owner* teams or *access* teams, you can easily share business objects and 
  In addition to owner and access team types, the access teams are further subdivided into user-created and auto-created (system-managed) teams. The setup information is specific to each team type.  
   
 ### Owner team  
- An owner team can own multiple records. To create an owner team, use the `Team` entity and set the `Team.TeamType` attribute to `Owner`. For a list of the `TeamType` values, refer to the `Team` entity metadata.  
+ An owner team can own multiple records of one or more tables. To create an owner team, use the `Team` entity and set the `Team.TeamType` attribute to `Owner`. For a list of the `TeamType` values, refer to the `Team` entity metadata.  
   
 > [!NOTE]
 > [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  

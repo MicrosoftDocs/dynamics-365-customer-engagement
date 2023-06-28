@@ -4,8 +4,7 @@ description: "Learn about prerequisites and considerations for your Azure subscr
 ms.date: 04/03/2020
 ms.topic: article
 author: lalexms
-ms.author: lalexms
-manager: shujoshi
+ms.author: laalexan
 ---
 
 # Azure subscription prerequisites for Connected Customer Service with IoTHub

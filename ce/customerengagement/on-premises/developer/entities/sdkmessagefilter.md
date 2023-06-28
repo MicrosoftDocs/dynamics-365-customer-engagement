@@ -1,30 +1,28 @@
 ---
-title: "SdkMessageFilter Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "SdkMessageFilter entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the SdkMessageFilter entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# SdkMessageFilter Entity Reference
+
+# SdkMessageFilter entity reference
 
 Filter that defines which SDK messages are valid for each type of entity.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Retrieve|GET [*org URI*]/api/data/v9.0/sdkmessagefilters(*sdkmessagefilterid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/sdkmessagefilters<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -99,14 +97,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsCustomProcessingStepAllowed Options
+#### IsCustomProcessingStepAllowed Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -201,14 +199,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ComponentState Options
+#### ComponentState Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Published|
-|1|Unpublished|
-|2|Deleted|
-|3|Deleted Unpublished|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Published||
+|1|Unpublished||
+|2|Deleted||
+|3|Deleted Unpublished||
 
 
 
@@ -331,14 +329,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsManaged Options
+#### IsManaged Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Managed|
-|0|Unmanaged|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Managed||
+|0|Unmanaged||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -354,14 +352,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsVisible Options
+#### IsVisible Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -593,14 +591,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### WorkflowSdkStepEnabled Options
+#### WorkflowSdkStepEnabled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 <a name="onetomany"></a>
@@ -612,7 +610,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_sdkmessagefilterid_sdkmessageprocessingstep"></a> sdkmessagefilterid_sdkmessageprocessingstep
 
-Same as sdkmessageprocessingstep entity [sdkmessagefilterid_sdkmessageprocessingstep](sdkmessageprocessingstep.md#BKMK_sdkmessagefilterid_sdkmessageprocessingstep) Many-To-One relationship.
+Same as the [sdkmessagefilterid_sdkmessageprocessingstep](sdkmessageprocessingstep.md#BKMK_sdkmessagefilterid_sdkmessageprocessingstep) many-to-one relationship for the [sdkmessageprocessingstep](sdkmessageprocessingstep.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -640,33 +638,29 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_createdby_sdkmessagefilter"></a> createdby_sdkmessagefilter
 
-See systemuser Entity [createdby_sdkmessagefilter](systemuser.md#BKMK_createdby_sdkmessagefilter) One-To-Many relationship.
+See the [createdby_sdkmessagefilter](systemuser.md#BKMK_createdby_sdkmessagefilter) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_modifiedby_sdkmessagefilter"></a> modifiedby_sdkmessagefilter
 
-See systemuser Entity [modifiedby_sdkmessagefilter](systemuser.md#BKMK_modifiedby_sdkmessagefilter) One-To-Many relationship.
+See the [modifiedby_sdkmessagefilter](systemuser.md#BKMK_modifiedby_sdkmessagefilter) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_sdkmessageid_sdkmessagefilter"></a> sdkmessageid_sdkmessagefilter
 
-See sdkmessage Entity [sdkmessageid_sdkmessagefilter](sdkmessage.md#BKMK_sdkmessageid_sdkmessagefilter) One-To-Many relationship.
+See the [sdkmessageid_sdkmessagefilter](sdkmessage.md#BKMK_sdkmessageid_sdkmessagefilter) one-to-many relationship for the [sdkmessage](sdkmessage.md) entity.
 
 ### <a name="BKMK_lk_sdkmessagefilter_createdonbehalfby"></a> lk_sdkmessagefilter_createdonbehalfby
 
-See systemuser Entity [lk_sdkmessagefilter_createdonbehalfby](systemuser.md#BKMK_lk_sdkmessagefilter_createdonbehalfby) One-To-Many relationship.
+See the [lk_sdkmessagefilter_createdonbehalfby](systemuser.md#BKMK_lk_sdkmessagefilter_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_sdkmessagefilter"></a> organization_sdkmessagefilter
 
-See organization Entity [organization_sdkmessagefilter](organization.md#BKMK_organization_sdkmessagefilter) One-To-Many relationship.
+See the [organization_sdkmessagefilter](organization.md#BKMK_organization_sdkmessagefilter) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_lk_sdkmessagefilter_modifiedonbehalfby"></a> lk_sdkmessagefilter_modifiedonbehalfby
 
-See systemuser Entity [lk_sdkmessagefilter_modifiedonbehalfby](systemuser.md#BKMK_lk_sdkmessagefilter_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_sdkmessagefilter_modifiedonbehalfby](systemuser.md#BKMK_lk_sdkmessagefilter_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.sdkmessagefilter?text=sdkmessagefilter EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

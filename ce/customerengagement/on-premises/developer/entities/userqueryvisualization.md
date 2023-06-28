@@ -1,39 +1,37 @@
 ---
-title: "UserQueryVisualization Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the UserQueryVisualization entity."
-ms.date: 04/02/2019
-
+title: "User Chart (UserQueryVisualization)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the User Chart (UserQueryVisualization)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# UserQueryVisualization Entity Reference
+
+# User Chart (UserQueryVisualization)  entity reference
 
 Chart attached to an entity.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/userqueryvisualizations(*userqueryvisualizationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/userqueryvisualizations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/userqueryvisualizations(*userqueryvisualizationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/userqueryvisualizations(*userqueryvisualizationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/userqueryvisualizations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/userqueryvisualizations(*userqueryvisualizationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -80,12 +78,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-#### ChartType Options
+#### ChartType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|ASP.NET Charts|
-|1|Power BI|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|ASP.NET Charts||
+|1|Power BI||
 
 
 
@@ -133,14 +131,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsDefault Options
+#### IsDefault Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -567,7 +565,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_UserQueryVisualization_SyncErrors"></a> UserQueryVisualization_SyncErrors
 
-Same as syncerror entity [UserQueryVisualization_SyncErrors](syncerror.md#BKMK_UserQueryVisualization_SyncErrors) Many-To-One relationship.
+Same as the [UserQueryVisualization_SyncErrors](syncerror.md#BKMK_UserQueryVisualization_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -597,41 +595,37 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_userqueryvisualizationbase_modifiedonbehalfby"></a> lk_userqueryvisualizationbase_modifiedonbehalfby
 
-See systemuser Entity [lk_userqueryvisualizationbase_modifiedonbehalfby](systemuser.md#BKMK_lk_userqueryvisualizationbase_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_userqueryvisualizationbase_modifiedonbehalfby](systemuser.md#BKMK_lk_userqueryvisualizationbase_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_user_userqueryvisualizations"></a> user_userqueryvisualizations
 
-See systemuser Entity [user_userqueryvisualizations](systemuser.md#BKMK_user_userqueryvisualizations) One-To-Many relationship.
+See the [user_userqueryvisualizations](systemuser.md#BKMK_user_userqueryvisualizations) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_webresource_userqueryvisualizations"></a> webresource_userqueryvisualizations
 
-See webresource Entity [webresource_userqueryvisualizations](webresource.md#BKMK_webresource_userqueryvisualizations) One-To-Many relationship.
+See the [webresource_userqueryvisualizations](webresource.md#BKMK_webresource_userqueryvisualizations) one-to-many relationship for the [webresource](webresource.md) entity.
 
 ### <a name="BKMK_lk_userqueryvisualizationbase_createdonbehalfby"></a> lk_userqueryvisualizationbase_createdonbehalfby
 
-See systemuser Entity [lk_userqueryvisualizationbase_createdonbehalfby](systemuser.md#BKMK_lk_userqueryvisualizationbase_createdonbehalfby) One-To-Many relationship.
+See the [lk_userqueryvisualizationbase_createdonbehalfby](systemuser.md#BKMK_lk_userqueryvisualizationbase_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_userqueryvisualizations"></a> team_userqueryvisualizations
 
-See team Entity [team_userqueryvisualizations](team.md#BKMK_team_userqueryvisualizations) One-To-Many relationship.
+See the [team_userqueryvisualizations](team.md#BKMK_team_userqueryvisualizations) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_business_unit_userqueryvisualizations"></a> business_unit_userqueryvisualizations
 
-See businessunit Entity [business_unit_userqueryvisualizations](businessunit.md#BKMK_business_unit_userqueryvisualizations) One-To-Many relationship.
+See the [business_unit_userqueryvisualizations](businessunit.md#BKMK_business_unit_userqueryvisualizations) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_lk_userqueryvisualization_createdby"></a> lk_userqueryvisualization_createdby
 
-See systemuser Entity [lk_userqueryvisualization_createdby](systemuser.md#BKMK_lk_userqueryvisualization_createdby) One-To-Many relationship.
+See the [lk_userqueryvisualization_createdby](systemuser.md#BKMK_lk_userqueryvisualization_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_userqueryvisualization_modifiedby"></a> lk_userqueryvisualization_modifiedby
 
-See systemuser Entity [lk_userqueryvisualization_modifiedby](systemuser.md#BKMK_lk_userqueryvisualization_modifiedby) One-To-Many relationship.
+See the [lk_userqueryvisualization_modifiedby](systemuser.md#BKMK_lk_userqueryvisualization_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.userqueryvisualization?text=userqueryvisualization EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

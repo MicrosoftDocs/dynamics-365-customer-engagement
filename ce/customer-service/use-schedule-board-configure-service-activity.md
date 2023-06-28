@@ -5,14 +5,10 @@ ms.date: 12/06/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -222,7 +218,7 @@ Organizations often use appointments in Dynamics 365. For example, an agent migh
 
 Dynamics 365 Appointments (Microsoft Dataverse appointments) can be displayed on the Customer Service schedule board alongside bookings, and can be considered during scheduling to understand whether an agent or bookable resource is available.
 
-For information on how to configure and use appointment scheduling, see [Include appointments in scheduling](/field-service/appointment-scheduling).
+For information on how to configure and use appointment scheduling, see [Include appointments in scheduling](/dynamics365/field-service/appointment-scheduling).
 
 ## Configuration considerations
 

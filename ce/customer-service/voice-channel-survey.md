@@ -3,11 +3,9 @@ title: "Configure a post-call survey in the voice channel | MicrosoftDocs"
 description: "Learn about how to configure a post-call survey for the voice channel in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ms.date: 03/25/2022
 ms.topic: article
-ms.custom: intro-internal
-
+ms.collection: get-started
 ---
 
 

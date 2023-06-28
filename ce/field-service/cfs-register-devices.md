@@ -1,23 +1,18 @@
 ---
-title: "Register IoT devices in Dynamics 365 Field Service (contains video) | Microsoft Docs"
+title: Register IoT devices (contains video)
 description: Learn about IoT devices and how to register them in Dynamics 365 Field Service.
-ms.date: 10/19/2020
-ms.reviewer: krbjoran
+ms.date: 06/20/2022
 
 ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+ms.author: vhorvath
+author: vhorvathms
 ---
 
-# Register IoT devices in Dynamics 365 Field Service
+# Register IoT devices
 
 In order for an appliance or other asset to become "smart" and connect to an IoT backend, it must have sensors that can take device readings and send that information to the cloud. We call these sensors IoT devices.
 
@@ -37,7 +32,7 @@ For a guided walkthrough, check out the following video.
 
 ## Prerequisites
 
-- Connected Field Service must be connected to Azure IoT Hub or another custom IoT provider. For more information, see the [article on getting set up with Azure IoT Hub](installation-setup-iothub.md), or the article on [setting up custom IoT providers](cfs-custom-iot-provider.md).
+Connected Field Service must be connected to Azure IoT Hub or another custom IoT provider. For more information, see the [article on getting set up with Azure IoT Hub](installation-setup-iothub.md), or the article on [setting up custom IoT providers](cfs-custom-iot-provider.md).
 
 
 ## Create and register an IoT device from IoT Hub
@@ -109,7 +104,10 @@ Once the IoT device has been associated with the asset, a new section will appea
 > ![Screenshot of the Connected Devices section on the customer asset record in Field Service.](./media/cfs-register-device-fs-associate-asset-more.png)
 
 > [!Note]
-> Multiple IoT devices can be associated with a single customer asset. On the asset, go to **Related** > **Connections** to associate additional IoT devices.
+>
+> - Multiple IoT devices can be associated with a single customer asset. On the asset, go to **Related** > **Connections** to associate additional IoT devices.
+> - When you're associating a device with an asset, you can set a primary device ID for the asset. If you associate multiple devices with the asset, the primary device ID for the asset won't be displayed in the form; however, a device ID link'll still exist in the background. Also, the first or the oldest device that's associated with the asset will be the primary device ID for the asset. If you delete the link to the primary device ID, then the next oldest-connected device ID will be set as the primary ID.
+
 
 ## Registration error
 

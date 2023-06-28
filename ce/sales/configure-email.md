@@ -1,11 +1,10 @@
 ---
 title: "Set up email by integrating with Exchange | MicrosoftDocs"
 description: "Configure email by integrating with Exchange that enables users to store email and other messaging records in Dynamics 365 Sales."
-ms.date: 10/01/2019
+ms.date: 04/05/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 ---
@@ -16,12 +15,11 @@ To store email and other messaging records in Dynamics 365 Sales, you need to sy
 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 
 ## What is server-side synchronization?
@@ -104,7 +102,7 @@ For more information about managing subscriptions, go to [Manage Microsoft Dynam
 
     > [!Note]
     > If an error occurs in a mailbox, an alert is sent to the user of the mailbox. You can also see the alert when you open the mailbox record. The **Test Run Status** column is set to **Failure** for the mailbox. Select **Approve and test mailboxes** to test and approve the mailboxes.
----
+
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

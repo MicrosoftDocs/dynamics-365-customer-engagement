@@ -5,14 +5,10 @@ ms.date: 04/05/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 searchScope:
@@ -36,6 +32,10 @@ To view the Agent dashboard, go to Customer Service historical analytics and sel
 
 > [!div class="mx-imgBorder"]
 > ![Agent dashboard Insights](media/customer-service-analytics-agent-dashboard.png "Agent dashboard insights")
+
+### Access the Agent dashboard
+
+[!INCLUDE[cc-navigation-cs](../includes/cc-navigation-cs.md)]
 
 ## Report details
 
@@ -80,6 +80,7 @@ To access the drill down report, select any metric value for the required agent,
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Summary dashboard](summary-dashboard-cs.md)  
 [Topics dashboard](case-topics-dashboard-cs.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

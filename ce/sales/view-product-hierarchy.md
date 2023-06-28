@@ -1,11 +1,10 @@
 ---
 title: "View product hierarchy (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Get a visual snapshot of the products your organization sells by looking at the product hierarchy in Dynamics 365 Sales."
-ms.date: 10/01/2019
+ms.date: 03/13/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
@@ -15,12 +14,11 @@ ms.custom:
 Get a visual snapshot of the products your organization sells by looking at the product hierarchy.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## What is a product hierarchy
 
@@ -36,10 +34,7 @@ A product hierarchy gives you a visual snapshot of the products your organizatio
   
    ![The product in the hierarchy in Dynamics 365 Sales.](media/v7-product-hierarchy-view.png "The product in the hierarchy in Dynamics 365 Sales")  
   
-3. To find out more about a product, family, or bundle, select its corresponding **Open this record** button.  
-  
-   > [!TIP]
-   >  You can also select a product and use one of the common command bar actions on the product, family, or bundle such as **Email a link** or **Edit**.  
+ 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

@@ -1,21 +1,20 @@
 ---
 title: Conversation dashboard in Omnichannel for Customer Service | Microsoft Docs
 description: Learn about the Conversation dashboard insights to better understand agent performance in your organization.
-ms.date: 10/07/2021
+ms.date: 11/24/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Conversation dashboard
 
-The Conversation dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to surface insights into the topics that  are generating the highest volume and the topics that are emerging with the fastest increase in volume.
+The Conversation dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to surface insights into the topics that generate the highest volume and the topics that're emerging with the fastest increase in volume.
 
 > [!div class="mx-imgBorder"]
 > ![Conversation dashboard in Omnichannel for Customer Service.](media/oc-Conversation-dashboard.png "Conversation dashboard in Omnichannel for Customer Service")
 
-You can view the Conversation dashboard in the Omnichannel for Customer Service app. Select the plus (**+**) icon, and then select **Analytics and insights**. The **Conversation** tab is displayed in the default view in your workspace. The dashboard includes a variety of charts with graphical views of your organization's key performance indicators (KPIs).
+The dashboard includes a variety of charts with graphical views of your organization's key performance indicators (KPIs).
 
 The charts for conversation volume drivers and emerging conversation volume by topic charts use natural language understanding to group support conversations as topics that are a collection of related conversations. These charts display the customer support topics that are generating the most volume and emerging topics that are increasing rapidly in volume, helping you identify areas for improvement that can have the greatest impact on support performance.
 
@@ -24,9 +23,18 @@ By default, the dashboard shows you KPIs for the past month and for all channels
 > [!NOTE]
 > If you switch to a different dashboard, the filter you specified will persist, and be applied to the data on all dashboards.
 
+
+### Access the Conversation dashboard
+
+ [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+
 ## Report details
 
-The following table displays the KPIs Conversation dashboard.
+The conversation lifecycle and the metrics that can be derived in the different statuses is represented in the following diagram.
+
+:::image type="content" source="media/conversation-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the conversation lifecycle and the metrics that can be derived." lightbox="media/conversation-lifecycle-metrics-diagram-large.png":::
+
+The following table lists the KPIs in the Conversation dashboard.
 
 | Metric | Description | Derivation |
 | -------- | --------------------- | --------------------------- |
@@ -34,17 +42,19 @@ The following table displays the KPIs Conversation dashboard.
 | Engaged conversations | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point. | All conversations are considered. |
 | Abandon rate | The percentage of conversations that aren't engaged by agents.| All conversations are considered. |
 | Avg. speed to answer (seconds) | The average time customers waited in the queue before connecting to an agent. (time for acceptance) | Conversations engaged and conversations that are in the closed state are considered. |
-| Avg. CSAT | The average of the customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice has been configured as a post-conversation survey tool. |
-| Avg. conversation sentiment | The average sentiment score based on the customer's conversation experience. |
+| Avg. CSAT | The average of the customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice has been configured as a post-conversation survey tool. ||
+| Avg. conversation sentiment | The average sentiment score based on the customer's conversation experience. For information on how the sentiment data is derived, see [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md). ||
 
 
 > [!div class="mx-imgBorder"]
 > ![Omnichannel conversation report.](media/oc-report.png "Omnichannel conversation report")
 
-Conversation charts are displayed as shown in the image and described in the tables.
+Conversation charts are displayed as shown in the following image.
 
 > [!div class="mx-imgBorder"]
 > ![Omnichannel conversation chart.](media/oc-conversation-chart.png "Omnichannel conversation chart")
+
+The KPIs in the conversation chart are as follows.
 
 | Title | Description |
 | -------------------- | ----------------- |
@@ -62,6 +72,8 @@ Conversation charts are displayed as shown in the image and described in the tab
 
 > [!div class="mx-imgBorder"]
 > ![Omnichannel conversation summary chart.](media/oc-conversation-summary.png "Omnichannel conversation summary chart")
+
+The KPIs for the conversation summary are as follows.
 
 | Conversation summary | Description |
 | ------------------------ | --------------------- |
@@ -103,3 +115,9 @@ To view the drill-down, select any single metric value on the day you're interes
 > [!div class="mx-imgBorder"]
 > ![Conversation hourly drill down view.](media/conversation-hourly-drill-down-view.png "Conversation hourly drill down view")
 
+### See also
+
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Agent dashboard](agent-dashboard.md)  
+[Bot dashboard](oc-bot-dashboard.md)  
+[Manage report bookmarks](manage-bookmarks.md)  

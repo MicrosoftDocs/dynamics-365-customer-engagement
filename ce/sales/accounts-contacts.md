@@ -1,13 +1,11 @@
 ---
-title: "Manage your customers using accounts and contacts"
-description: "Use accounts to store information about companies that you do business with and contacts to store information about people that you work with."
-keywords: ""
-ms.date: 11/25/2021
+title: Manage your customers using accounts and contacts
+description: Use accounts to store information about companies that you do business with and contacts to store information about people that you work with.
+ms.date: 06/26/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Manage your customers using accounts and contacts
@@ -15,12 +13,11 @@ manager: shujoshi
 Use accounts to store information about companies that you do business with and contacts to store information about people that you work with.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Difference between accounts and contacts
 
@@ -36,13 +33,27 @@ You can create accounts and contacts manually or import them from a spreadsheet 
 - [View opportunities associated with an account](#view-opportunities-associated-with-an-account)
 - [View invoices associated with an account](#view-invoices-associated-with-an-account)
 - [View invoices associated with an account](#view-invoices-associated-with-an-account)
-
+- [View relationship analytics and KPIs for an account](relationship-analytics.md)
 
 ### Create an account 
 
 1. In the site map, select **Accounts**.
 
 1. Specify the details that you know about the company and save the changes. 
+
+### Populate address fields using address suggestions
+
+Instead of typing the address manually, you can use the address suggestion feature to populate the address fields in the contact, account, and lead forms.  
+
+> [!NOTE]
+> Your administrator must have enabled address suggestion for you to use this feature. See [Enable address suggestions](enable-address-suggestion.md) for more information.  
+
+1. Open a contact, lead, or account form that has address fields.
+
+1. Scroll down to the **Address** field and start typing the address.
+1. Select an address from the list of suggestions provided by Bing Maps and press the **Enter** key.  
+    The address fields are auto-populated with the details in the selected address and Bing Map is also updated to point to the selected address.  
+    :::image type="content" source="media/address-suggestion-field.png" alt-text="Screenshot of the new address field in a form" lightbox="media/address-suggestion-field.png":::
 
 ### Add contacts to an account
 
@@ -73,6 +84,8 @@ You can create accounts and contacts manually or import them from a spreadsheet 
 - [Create a contact](#create-a-contact)
 - [View opportunities associated with a contact](#view-opportunities-associated-with-a-contact)
 - [View invoices associated with a contact](#view-invoices-associated-with-a-contact)
+- [Get introduced to a contact](who-knows-whom.md)
+- [View relationship analytics and KPIs for a contact](relationship-analytics.md)
 
 ### Create a contact
 

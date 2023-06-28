@@ -1,5 +1,6 @@
 ---
 title: "Create a virtual entity data provider (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: Learn about the two general categories of data provider that can be created using the virtual entity SDK assemblies in Customer Engagement (on-premises).
 ms.date: 10/31/2017
 
 ms.topic: article
@@ -8,7 +9,6 @@ applies_to:
 ms.assetid: d329dade-16c5-46e9-8dec-4b8efb996d01
 author: jimdaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

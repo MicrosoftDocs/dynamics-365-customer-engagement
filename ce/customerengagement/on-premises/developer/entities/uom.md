@@ -1,18 +1,16 @@
 ---
-title: "UoM Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the UoM entity."
-ms.date: 04/02/2019
-
+title: "Unit (UoM)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Unit (UoM)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# UoM Entity Reference
+
+# Unit (UoM)  entity reference
 
 Unit of measure.
 
@@ -21,15 +19,15 @@ Unit of measure.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/uoms<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/uoms(*uomid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/uoms(*uomid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/uoms<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/uoms(*uomid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -415,14 +413,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsScheduleBaseUoM Options
+#### IsScheduleBaseUoM Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -642,45 +640,13 @@ Listed by **SchemaName**.
 - [unit_of_measurement_opportunity_products](#BKMK_unit_of_measurement_opportunity_products)
 - [unit_of_measurement_order_details](#BKMK_unit_of_measurement_order_details)
 - [unit_of_measurement_quote_details](#BKMK_unit_of_measurement_quote_details)
-- [msdyn_uom_msdyn_actual_Unit](#BKMK_msdyn_uom_msdyn_actual_Unit)
-- [msdyn_uom_msdyn_estimateline_Unit](#BKMK_msdyn_uom_msdyn_estimateline_Unit)
-- [msdyn_uom_msdyn_expense_Unit](#BKMK_msdyn_uom_msdyn_expense_Unit)
-- [msdyn_uom_msdyn_invoicelinetransaction_Unit](#BKMK_msdyn_uom_msdyn_invoicelinetransaction_Unit)
-- [msdyn_uom_msdyn_journalline_Unit](#BKMK_msdyn_uom_msdyn_journalline_Unit)
-- [msdyn_uom_msdyn_opportunitylinetransaction_Unit](#BKMK_msdyn_uom_msdyn_opportunitylinetransaction_Unit)
-- [msdyn_uom_msdyn_orderlinetransaction_Unit](#BKMK_msdyn_uom_msdyn_orderlinetransaction_Unit)
-- [msdyn_uom_msdyn_quotelinetransaction_Unit](#BKMK_msdyn_uom_msdyn_quotelinetransaction_Unit)
-- [msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit](#BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit)
-- [msdyn_uom_msdyn_resourcecategorypricelevel_Unit](#BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_Unit)
-- [msdyn_uom_msdyn_transactioncategory_DefaultUnit](#BKMK_msdyn_uom_msdyn_transactioncategory_DefaultUnit)
-- [msdyn_uom_msdyn_transactioncategorypricelevel_Unit](#BKMK_msdyn_uom_msdyn_transactioncategorypricelevel_Unit)
-- [msdyn_uom_msdyn_transactiontype_DefaultUnit](#BKMK_msdyn_uom_msdyn_transactiontype_DefaultUnit)
-- [msdyn_uom_pricelevel_TimeUnit](#BKMK_msdyn_uom_pricelevel_TimeUnit)
-- [msdyn_uom_msdyn_agreementbookingproduct_Unit](#BKMK_msdyn_uom_msdyn_agreementbookingproduct_Unit)
-- [msdyn_uom_msdyn_agreementbookingservice_Unit](#BKMK_msdyn_uom_msdyn_agreementbookingservice_Unit)
-- [msdyn_uom_msdyn_agreementinvoiceproduct_Unit](#BKMK_msdyn_uom_msdyn_agreementinvoiceproduct_Unit)
-- [msdyn_uom_msdyn_incidenttypeproduct_Unit](#BKMK_msdyn_uom_msdyn_incidenttypeproduct_Unit)
-- [msdyn_uom_msdyn_incidenttypeservice_Unit](#BKMK_msdyn_uom_msdyn_incidenttypeservice_Unit)
-- [msdyn_uom_msdyn_inventoryadjustmentproduct_Unit](#BKMK_msdyn_uom_msdyn_inventoryadjustmentproduct_Unit)
-- [msdyn_uom_msdyn_inventoryjournal_Unit](#BKMK_msdyn_uom_msdyn_inventoryjournal_Unit)
-- [msdyn_uom_msdyn_orderinvoicingproduct_Unit](#BKMK_msdyn_uom_msdyn_orderinvoicingproduct_Unit)
-- [msdyn_uom_msdyn_productinventory_Unit](#BKMK_msdyn_uom_msdyn_productinventory_Unit)
-- [msdyn_uom_msdyn_purchaseorderproduct_Unit](#BKMK_msdyn_uom_msdyn_purchaseorderproduct_Unit)
-- [msdyn_uom_msdyn_quotebookingproduct_Unit](#BKMK_msdyn_uom_msdyn_quotebookingproduct_Unit)
-- [msdyn_uom_msdyn_quotebookingservice_Unit](#BKMK_msdyn_uom_msdyn_quotebookingservice_Unit)
-- [msdyn_uom_msdyn_quoteinvoicingproduct_Unit](#BKMK_msdyn_uom_msdyn_quoteinvoicingproduct_Unit)
-- [msdyn_uom_msdyn_rmaproduct_Unit](#BKMK_msdyn_uom_msdyn_rmaproduct_Unit)
-- [msdyn_uom_msdyn_rtvproduct_Unit](#BKMK_msdyn_uom_msdyn_rtvproduct_Unit)
-- [msdyn_uom_msdyn_workorderproduct_Unit](#BKMK_msdyn_uom_msdyn_workorderproduct_Unit)
-- [msdyn_uom_msdyn_workorderservice_Unit](#BKMK_msdyn_uom_msdyn_workorderservice_Unit)
-- [msdyn_uom_msdyn_geofencingsettings_DistanceUnit](#BKMK_msdyn_uom_msdyn_geofencingsettings_DistanceUnit)
 
 
 ### <a name="BKMK_UoM_SyncErrors"></a> UoM_SyncErrors
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [UoM_SyncErrors](syncerror.md#BKMK_UoM_SyncErrors) Many-To-One relationship.
+Same as the [UoM_SyncErrors](syncerror.md#BKMK_UoM_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -697,7 +663,7 @@ Same as syncerror entity [UoM_SyncErrors](syncerror.md#BKMK_UoM_SyncErrors) Many
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [UoM_AsyncOperations](asyncoperation.md#BKMK_UoM_AsyncOperations) Many-To-One relationship.
+Same as the [UoM_AsyncOperations](asyncoperation.md#BKMK_UoM_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -714,7 +680,7 @@ Same as asyncoperation entity [UoM_AsyncOperations](asyncoperation.md#BKMK_UoM_A
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [uom_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_uom_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [uom_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_uom_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -731,7 +697,7 @@ Same as mailboxtrackingfolder entity [uom_MailboxTrackingFolders](mailboxtrackin
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [UoM_BulkDeleteFailures](bulkdeletefailure.md#BKMK_UoM_BulkDeleteFailures) Many-To-One relationship.
+Same as the [UoM_BulkDeleteFailures](bulkdeletefailure.md#BKMK_UoM_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -748,7 +714,7 @@ Same as bulkdeletefailure entity [UoM_BulkDeleteFailures](bulkdeletefailure.md#B
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [uom_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_uom_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [uom_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_uom_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -763,7 +729,7 @@ Same as principalobjectattributeaccess entity [uom_PrincipalObjectAttributeAcces
 
 ### <a name="BKMK_unit_of_measurement_base_unit"></a> unit_of_measurement_base_unit
 
-Same as uom entity [unit_of_measurement_base_unit](uom.md#BKMK_unit_of_measurement_base_unit) Many-To-One relationship.
+Same as the [unit_of_measurement_base_unit](uom.md#BKMK_unit_of_measurement_base_unit) many-to-one relationship for the [uom](uom.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -778,7 +744,7 @@ Same as uom entity [unit_of_measurement_base_unit](uom.md#BKMK_unit_of_measureme
 
 ### <a name="BKMK_unit_of_measurement_products"></a> unit_of_measurement_products
 
-Same as product entity [unit_of_measurement_products](product.md#BKMK_unit_of_measurement_products) Many-To-One relationship.
+Same as the [unit_of_measurement_products](product.md#BKMK_unit_of_measurement_products) many-to-one relationship for the [product](product.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -793,7 +759,7 @@ Same as product entity [unit_of_measurement_products](product.md#BKMK_unit_of_me
 
 ### <a name="BKMK_unit_of_measurement_productassociation"></a> unit_of_measurement_productassociation
 
-Same as productassociation entity [unit_of_measurement_productassociation](productassociation.md#BKMK_unit_of_measurement_productassociation) Many-To-One relationship.
+Same as the [unit_of_measurement_productassociation](productassociation.md#BKMK_unit_of_measurement_productassociation) many-to-one relationship for the [productassociation](productassociation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -808,7 +774,7 @@ Same as productassociation entity [unit_of_measurement_productassociation](produ
 
 ### <a name="BKMK_unit_of_measurement_product_price_levels"></a> unit_of_measurement_product_price_levels
 
-Same as productpricelevel entity [unit_of_measurement_product_price_levels](productpricelevel.md#BKMK_unit_of_measurement_product_price_levels) Many-To-One relationship.
+Same as the [unit_of_measurement_product_price_levels](productpricelevel.md#BKMK_unit_of_measurement_product_price_levels) many-to-one relationship for the [productpricelevel](productpricelevel.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -825,7 +791,7 @@ Same as productpricelevel entity [unit_of_measurement_product_price_levels](prod
 
 **Added by**: Service Solution
 
-Same as contractdetail entity [unit_of_measurement_contract_line_items](contractdetail.md#BKMK_unit_of_measurement_contract_line_items) Many-To-One relationship.
+Same as the [unit_of_measurement_contract_line_items](contractdetail.md#BKMK_unit_of_measurement_contract_line_items) many-to-one relationship for the [contractdetail](contractdetail.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -842,7 +808,7 @@ Same as contractdetail entity [unit_of_measurement_contract_line_items](contract
 
 **Added by**: Sales Solution
 
-Same as invoicedetail entity [unit_of_measurement_invoice_details](invoicedetail.md#BKMK_unit_of_measurement_invoice_details) Many-To-One relationship.
+Same as the [unit_of_measurement_invoice_details](invoicedetail.md#BKMK_unit_of_measurement_invoice_details) many-to-one relationship for the [invoicedetail](invoicedetail.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -859,7 +825,7 @@ Same as invoicedetail entity [unit_of_measurement_invoice_details](invoicedetail
 
 **Added by**: Sales Solution
 
-Same as opportunityproduct entity [unit_of_measurement_opportunity_products](opportunityproduct.md#BKMK_unit_of_measurement_opportunity_products) Many-To-One relationship.
+Same as the [unit_of_measurement_opportunity_products](opportunityproduct.md#BKMK_unit_of_measurement_opportunity_products) many-to-one relationship for the [opportunityproduct](opportunityproduct.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -876,7 +842,7 @@ Same as opportunityproduct entity [unit_of_measurement_opportunity_products](opp
 
 **Added by**: Sales Solution
 
-Same as salesorderdetail entity [unit_of_measurement_order_details](salesorderdetail.md#BKMK_unit_of_measurement_order_details) Many-To-One relationship.
+Same as the [unit_of_measurement_order_details](salesorderdetail.md#BKMK_unit_of_measurement_order_details) many-to-one relationship for the [salesorderdetail](salesorderdetail.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -893,7 +859,7 @@ Same as salesorderdetail entity [unit_of_measurement_order_details](salesorderde
 
 **Added by**: Sales Solution
 
-Same as quotedetail entity [unit_of_measurement_quote_details](quotedetail.md#BKMK_unit_of_measurement_quote_details) Many-To-One relationship.
+Same as the [unit_of_measurement_quote_details](quotedetail.md#BKMK_unit_of_measurement_quote_details) many-to-one relationship for the [quotedetail](quotedetail.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -904,550 +870,6 @@ Same as quotedetail entity [unit_of_measurement_quote_details](quotedetail.md#BK
 |ReferencedEntityNavigationPropertyName|unit_of_measurement_quote_details|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_actual_Unit"></a> msdyn_uom_msdyn_actual_Unit
-
-**Added by**: Universal Resource Scheduling Solution
-
-Same as msdyn_actual entity [msdyn_uom_msdyn_actual_Unit](msdyn_actual.md#BKMK_msdyn_uom_msdyn_actual_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_actual|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_actual_Unit|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_estimateline_Unit"></a> msdyn_uom_msdyn_estimateline_Unit
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_estimateline entity [msdyn_uom_msdyn_estimateline_Unit](msdyn_estimateline.md#BKMK_msdyn_uom_msdyn_estimateline_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_estimateline|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_estimateline_Unit|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_expense_Unit"></a> msdyn_uom_msdyn_expense_Unit
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_expense entity [msdyn_uom_msdyn_expense_Unit](msdyn_expense.md#BKMK_msdyn_uom_msdyn_expense_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_expense|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_expense_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_invoicelinetransaction_Unit"></a> msdyn_uom_msdyn_invoicelinetransaction_Unit
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_invoicelinetransaction entity [msdyn_uom_msdyn_invoicelinetransaction_Unit](msdyn_invoicelinetransaction.md#BKMK_msdyn_uom_msdyn_invoicelinetransaction_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_invoicelinetransaction|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_invoicelinetransaction_Unit|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_journalline_Unit"></a> msdyn_uom_msdyn_journalline_Unit
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_journalline entity [msdyn_uom_msdyn_journalline_Unit](msdyn_journalline.md#BKMK_msdyn_uom_msdyn_journalline_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_journalline|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_journalline_Unit|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_opportunitylinetransaction_Unit"></a> msdyn_uom_msdyn_opportunitylinetransaction_Unit
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_opportunitylinetransaction entity [msdyn_uom_msdyn_opportunitylinetransaction_Unit](msdyn_opportunitylinetransaction.md#BKMK_msdyn_uom_msdyn_opportunitylinetransaction_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_opportunitylinetransaction|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_opportunitylinetransaction_Unit|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_orderlinetransaction_Unit"></a> msdyn_uom_msdyn_orderlinetransaction_Unit
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_orderlinetransaction entity [msdyn_uom_msdyn_orderlinetransaction_Unit](msdyn_orderlinetransaction.md#BKMK_msdyn_uom_msdyn_orderlinetransaction_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_orderlinetransaction|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_orderlinetransaction_Unit|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_quotelinetransaction_Unit"></a> msdyn_uom_msdyn_quotelinetransaction_Unit
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_quotelinetransaction entity [msdyn_uom_msdyn_quotelinetransaction_Unit](msdyn_quotelinetransaction.md#BKMK_msdyn_uom_msdyn_quotelinetransaction_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_quotelinetransaction|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_quotelinetransaction_Unit|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit"></a> msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_resourcecategorypricelevel entity [msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit](msdyn_resourcecategorypricelevel.md#BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_resourcecategorypricelevel|
-|ReferencingAttribute|msdyn_primaryunit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_Unit"></a> msdyn_uom_msdyn_resourcecategorypricelevel_Unit
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_resourcecategorypricelevel entity [msdyn_uom_msdyn_resourcecategorypricelevel_Unit](msdyn_resourcecategorypricelevel.md#BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_resourcecategorypricelevel|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_resourcecategorypricelevel_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_transactioncategory_DefaultUnit"></a> msdyn_uom_msdyn_transactioncategory_DefaultUnit
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_transactioncategory entity [msdyn_uom_msdyn_transactioncategory_DefaultUnit](msdyn_transactioncategory.md#BKMK_msdyn_uom_msdyn_transactioncategory_DefaultUnit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_transactioncategory|
-|ReferencingAttribute|msdyn_defaultunit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_transactioncategory_DefaultUnit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_transactioncategorypricelevel_Unit"></a> msdyn_uom_msdyn_transactioncategorypricelevel_Unit
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_transactioncategorypricelevel entity [msdyn_uom_msdyn_transactioncategorypricelevel_Unit](msdyn_transactioncategorypricelevel.md#BKMK_msdyn_uom_msdyn_transactioncategorypricelevel_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_transactioncategorypricelevel|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_transactioncategorypricelevel_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_transactiontype_DefaultUnit"></a> msdyn_uom_msdyn_transactiontype_DefaultUnit
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_transactiontype entity [msdyn_uom_msdyn_transactiontype_DefaultUnit](msdyn_transactiontype.md#BKMK_msdyn_uom_msdyn_transactiontype_DefaultUnit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_transactiontype|
-|ReferencingAttribute|msdyn_defaultunit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_transactiontype_DefaultUnit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_pricelevel_TimeUnit"></a> msdyn_uom_pricelevel_TimeUnit
-
-**Added by**: Project Service Automation Solution
-
-Same as pricelevel entity [msdyn_uom_pricelevel_TimeUnit](pricelevel.md#BKMK_msdyn_uom_pricelevel_TimeUnit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|pricelevel|
-|ReferencingAttribute|msdyn_timeunit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_pricelevel_TimeUnit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_agreementbookingproduct_Unit"></a> msdyn_uom_msdyn_agreementbookingproduct_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_agreementbookingproduct entity [msdyn_uom_msdyn_agreementbookingproduct_Unit](msdyn_agreementbookingproduct.md#BKMK_msdyn_uom_msdyn_agreementbookingproduct_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_agreementbookingproduct|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_agreementbookingproduct_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_agreementbookingservice_Unit"></a> msdyn_uom_msdyn_agreementbookingservice_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_agreementbookingservice entity [msdyn_uom_msdyn_agreementbookingservice_Unit](msdyn_agreementbookingservice.md#BKMK_msdyn_uom_msdyn_agreementbookingservice_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_agreementbookingservice|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_agreementbookingservice_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_agreementinvoiceproduct_Unit"></a> msdyn_uom_msdyn_agreementinvoiceproduct_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_agreementinvoiceproduct entity [msdyn_uom_msdyn_agreementinvoiceproduct_Unit](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_uom_msdyn_agreementinvoiceproduct_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_agreementinvoiceproduct|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_agreementinvoiceproduct_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_incidenttypeproduct_Unit"></a> msdyn_uom_msdyn_incidenttypeproduct_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_incidenttypeproduct entity [msdyn_uom_msdyn_incidenttypeproduct_Unit](msdyn_incidenttypeproduct.md#BKMK_msdyn_uom_msdyn_incidenttypeproduct_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_incidenttypeproduct|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_incidenttypeproduct_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_incidenttypeservice_Unit"></a> msdyn_uom_msdyn_incidenttypeservice_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_incidenttypeservice entity [msdyn_uom_msdyn_incidenttypeservice_Unit](msdyn_incidenttypeservice.md#BKMK_msdyn_uom_msdyn_incidenttypeservice_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_incidenttypeservice|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_incidenttypeservice_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_inventoryadjustmentproduct_Unit"></a> msdyn_uom_msdyn_inventoryadjustmentproduct_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_inventoryadjustmentproduct entity [msdyn_uom_msdyn_inventoryadjustmentproduct_Unit](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_uom_msdyn_inventoryadjustmentproduct_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_inventoryadjustmentproduct|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_inventoryadjustmentproduct_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_inventoryjournal_Unit"></a> msdyn_uom_msdyn_inventoryjournal_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_inventoryjournal entity [msdyn_uom_msdyn_inventoryjournal_Unit](msdyn_inventoryjournal.md#BKMK_msdyn_uom_msdyn_inventoryjournal_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_inventoryjournal|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_inventoryjournal_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_orderinvoicingproduct_Unit"></a> msdyn_uom_msdyn_orderinvoicingproduct_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_orderinvoicingproduct entity [msdyn_uom_msdyn_orderinvoicingproduct_Unit](msdyn_orderinvoicingproduct.md#BKMK_msdyn_uom_msdyn_orderinvoicingproduct_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_orderinvoicingproduct|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_orderinvoicingproduct_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_productinventory_Unit"></a> msdyn_uom_msdyn_productinventory_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_productinventory entity [msdyn_uom_msdyn_productinventory_Unit](msdyn_productinventory.md#BKMK_msdyn_uom_msdyn_productinventory_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_productinventory|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_productinventory_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_purchaseorderproduct_Unit"></a> msdyn_uom_msdyn_purchaseorderproduct_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_purchaseorderproduct entity [msdyn_uom_msdyn_purchaseorderproduct_Unit](msdyn_purchaseorderproduct.md#BKMK_msdyn_uom_msdyn_purchaseorderproduct_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_purchaseorderproduct|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_purchaseorderproduct_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_quotebookingproduct_Unit"></a> msdyn_uom_msdyn_quotebookingproduct_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_quotebookingproduct entity [msdyn_uom_msdyn_quotebookingproduct_Unit](msdyn_quotebookingproduct.md#BKMK_msdyn_uom_msdyn_quotebookingproduct_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_quotebookingproduct|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_quotebookingproduct_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_quotebookingservice_Unit"></a> msdyn_uom_msdyn_quotebookingservice_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_quotebookingservice entity [msdyn_uom_msdyn_quotebookingservice_Unit](msdyn_quotebookingservice.md#BKMK_msdyn_uom_msdyn_quotebookingservice_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_quotebookingservice|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_quotebookingservice_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_quoteinvoicingproduct_Unit"></a> msdyn_uom_msdyn_quoteinvoicingproduct_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_quoteinvoicingproduct entity [msdyn_uom_msdyn_quoteinvoicingproduct_Unit](msdyn_quoteinvoicingproduct.md#BKMK_msdyn_uom_msdyn_quoteinvoicingproduct_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_quoteinvoicingproduct|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_quoteinvoicingproduct_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_rmaproduct_Unit"></a> msdyn_uom_msdyn_rmaproduct_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_rmaproduct entity [msdyn_uom_msdyn_rmaproduct_Unit](msdyn_rmaproduct.md#BKMK_msdyn_uom_msdyn_rmaproduct_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_rmaproduct|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_rmaproduct_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_rtvproduct_Unit"></a> msdyn_uom_msdyn_rtvproduct_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_rtvproduct entity [msdyn_uom_msdyn_rtvproduct_Unit](msdyn_rtvproduct.md#BKMK_msdyn_uom_msdyn_rtvproduct_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_rtvproduct|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_rtvproduct_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_workorderproduct_Unit"></a> msdyn_uom_msdyn_workorderproduct_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_workorderproduct entity [msdyn_uom_msdyn_workorderproduct_Unit](msdyn_workorderproduct.md#BKMK_msdyn_uom_msdyn_workorderproduct_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_workorderproduct|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_workorderproduct_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_workorderservice_Unit"></a> msdyn_uom_msdyn_workorderservice_Unit
-
-**Added by**: Field Service Solution
-
-Same as msdyn_workorderservice entity [msdyn_uom_msdyn_workorderservice_Unit](msdyn_workorderservice.md#BKMK_msdyn_uom_msdyn_workorderservice_Unit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_workorderservice|
-|ReferencingAttribute|msdyn_unit|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_workorderservice_Unit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_uom_msdyn_geofencingsettings_DistanceUnit"></a> msdyn_uom_msdyn_geofencingsettings_DistanceUnit
-
-**Added by**: Geofence Management Solution
-
-Same as msdyn_geofencingsettings entity [msdyn_uom_msdyn_geofencingsettings_DistanceUnit](msdyn_geofencingsettings.md#BKMK_msdyn_uom_msdyn_geofencingsettings_DistanceUnit) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_geofencingsettings|
-|ReferencingAttribute|msdyn_unitofmeasure|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_geofencingsettings_DistanceUnit|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -1467,39 +889,35 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_uombase_createdby](systemuser.md#BKMK_lk_uombase_createdby) One-To-Many relationship.
+See the [lk_uombase_createdby](systemuser.md#BKMK_lk_uombase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_uom_createdonbehalfby"></a> lk_uom_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_uom_createdonbehalfby](systemuser.md#BKMK_lk_uom_createdonbehalfby) One-To-Many relationship.
+See the [lk_uom_createdonbehalfby](systemuser.md#BKMK_lk_uom_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_uombase_modifiedby"></a> lk_uombase_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_uombase_modifiedby](systemuser.md#BKMK_lk_uombase_modifiedby) One-To-Many relationship.
+See the [lk_uombase_modifiedby](systemuser.md#BKMK_lk_uombase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_uom_modifiedonbehalfby"></a> lk_uom_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_uom_modifiedonbehalfby](systemuser.md#BKMK_lk_uom_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_uom_modifiedonbehalfby](systemuser.md#BKMK_lk_uom_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_unit_of_measurement_base_unit"></a> unit_of_measurement_base_unit
 
-See uom Entity [unit_of_measurement_base_unit](uom.md#BKMK_unit_of_measurement_base_unit) One-To-Many relationship.
+See the [unit_of_measurement_base_unit](uom.md#BKMK_unit_of_measurement_base_unit) one-to-many relationship for the [uom](uom.md) entity.
 
 ### <a name="BKMK_unit_of_measure_schedule_conversions"></a> unit_of_measure_schedule_conversions
 
-See uomschedule Entity [unit_of_measure_schedule_conversions](uomschedule.md#BKMK_unit_of_measure_schedule_conversions) One-To-Many relationship.
+See the [unit_of_measure_schedule_conversions](uomschedule.md#BKMK_unit_of_measure_schedule_conversions) one-to-many relationship for the [uomschedule](uomschedule.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.uom?text=uom EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

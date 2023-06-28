@@ -14,7 +14,6 @@ ms.assetid: 42dcebf5-a624-45b9-b719-20e5882d5ca2
 caps.latest.revision: 89
 author: JimDaly
 ms.author: jdaly
-manager: annbe
 search.audienceType: 
   - developer
 
@@ -175,7 +174,7 @@ In addition, monitor your [!INCLUDE[pn_WCF_short](../includes/pn-wcf-short.md)] 
 and refresh it before it expires so that you do not lose the token and have to start over with authentication. 
 To check the token, create a custom class that inherits from the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> or 
 <xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy> class and that implements the business logic to check the token. 
-Or wrap the proxy classes in a new class. Another technique is to explicitly check the token before each call to the web service. Example code that demonstrates these techniques can be found in the `ManagedTokenDiscoveryServiceProxy`, `ManagedTokenOrganizationServiceProxy`, and `AutoRefreshSecurityToken` classes in the [Helper Code: ServerConnection Class](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs) topic.  
+Or wrap the proxy classes in a new class. Another technique is to explicitly check the token before each call to the web service. Example code that demonstrates these techniques can be found in the `ManagedTokenDiscoveryServiceProxy`, `ManagedTokenOrganizationServiceProxy`, and `AutoRefreshSecurityToken` classes in the [Helper Code: ServerConnection Class](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs) topic.  
 
 <a name="CustomizationBestPractices"></a>
 
@@ -274,7 +273,7 @@ Best practices for use of the Dynamics 365 Customer Engagement (on-premises) sec
 
 - Strictly limit the number of people assigned the System Administrator role. Never remove this role.  
 - Create roles according to the security best practice of least privilege, providing access to the minimum amount of business data required for the task. Assign users the appropriate role for their job.
-- Create a new role with those specific privileges and add the user to the new role if a user needs additional access levels or rights. A user's rights are the union of all the roles to which he or she has been assigned. Do not grant the original role privileges that are needed by only one or several members.  
+- Create a new role with those specific privileges and add the user to the new role if a user needs additional access levels or rights. A user's rights are the union of all the roles to which they've been assigned. Do not grant the original role privileges that are needed by only one or several members.  
 - Use sharing, when appropriate, to give specific users specific rights on individual objects, instead of broader privileges on all objects of a given type.
 - Use teams to create cross-functional groups so that specific objects can be shared with the team.  
 - Train users who have sharing access rights to share the minimum information needed.  
@@ -324,9 +323,8 @@ Best practices for developing customizations for the [!INCLUDE[pn_crm_shortest](
 
   For more information, see the following:  
 
-- [Overview of Web Application Security Threats](/previous-versions/f13d73y6(v=vs.140))  
-- [Download: Microsoft Anti-Cross Site Scripting Library V4.2](https://www.microsoft.com/download/details.aspx?id=28589)  
-- [ASP.NET Web Application Security](https://msdn.microsoft.com/library/330a99hc.aspx)  
+- [Overview of Web Application Security Threats](/previous-versions/f13d73y6(v=vs.140)  
+- [ASP.NET Web Application Security](/troubleshoot/developer/webapps/aspnet/development/security-overview)  
 - [Introduction to Web Application Security](https://msdn.microsoft.com/library/aa711426\(VS.71\).aspx)  
 
 <a name="ISV"></a>

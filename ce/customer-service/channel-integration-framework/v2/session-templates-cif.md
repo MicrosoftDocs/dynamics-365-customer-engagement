@@ -3,9 +3,8 @@ title: "Manage session templates using app profile manager | MicrosoftDocs"
 description: "Learn how to manage session templates in Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 04/05/2021
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 searchScope: 
  - D365-App-msdyn_channelintegrationframeworkapp 
  - D365-Entity-msdyn_consoleapplicationsessiontemplate

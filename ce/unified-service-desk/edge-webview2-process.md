@@ -1,17 +1,13 @@
 ---
 title: "Use the Edge WebView2 Process hosting method for hosting web applications  | MicrosoftDocs"
 description: "Learn about the Edge WebView2 Process hosting method and its advantages for hosting your controls in Unified Service Desk."
-ms.date: 06/21/2021
+ms.date: 05/30/2023
 ms.topic: "article"
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 monikerRange: '>= dynamics-usd-4.2'
@@ -317,6 +313,68 @@ Edge WebView2 Process supports the ability to switch languages on webpages withi
     > Only the locales available in the path <C:\Program Files\Microsoft Dynamics CRM USD\USD\locales> are supported.
 
 8. Select **Save**.
+
+## Add parameters using Edge WebView2 Process
+
+The Microsoft Edge browser provides many options that can be used on the webpages within Unified Service Desk. The **EdgeWebView2AdditionalBrowserArguments** option helps to add the parameters. 
+
+**To add the EdgeWebView2AdditionalBrowserArguments UII option**
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Go to **Settings** > **Unified Service Desk**.
+
+3. Select **Options**.
+
+4. On the **Active UII Options** page, select **New**.
+
+5. For the **Global Option** field, select **Others**.
+
+6. For the **Name** field, enter **EdgeWebView2AdditionalBrowserArguments**.
+
+7. For the **Value** field, enter a valid Edge WebView2 process parameter.
+
+    The format to add the parameters is:<br> ` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `.
+  
+    Note that the parameters are separated by semicolons. More information: [Chromium command-line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189)
+
+8. Select **Save**.
+
+## Debug Edge WebView2 Process
+
+You can debug Edge WebView2 Process in two ways:
+
+- Remotely
+
+- Locally
+
+### Debug Edge WebView2 Process remotely
+
+When you want to access and debug all the Edge WebView2 Process instances running in a desktop remotely, you need to have remote debugging access along with the port number.
+
+Use the **EdgeWebView2RemoteDebuggingPort** UII option and add the port number as the value. After setting this value, from the web browser, go to the `<IP address>:<\port number>` of the remote desktop. You can see all the Edge WebView2 Process instances running in that desktop, and then you can proceed with debugging.
+
+### Debug Edge WebView2 Process locally
+
+When you want to access and debug all the Edge WebView2 Process instances running in a desktop locally, you need to have access along with the port number to connect to.
+
+Use the **EdgeWebView2RemoteDebuggingPort** UII option and add the port number as the value. After setting this value, from the web browser, go to the `localhost:<\port number>` of the local desktop. You can see all the Edge WebView2 Process instances running in that desktop, and then you can proceed with debugging.
+
+Also, within the Unified Service Desk client application, you can debug a Edge WebView2 Process instance by using the keyboard shortcut **F12** to open **Developer Tools**. More information: [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md)
+
+**To add the EdgeWebView2RemoteDebuggingPort UII option**
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
+
+3. On the **Active UII Options** page, select **New**.
+
+4. For the **Global Option** field, select **Others**.
+
+5. For the **Name** field, enter **EdgeWebView2RemoteDebuggingPort**. For the **Value** field, enter the port number (for example, **1030**).
+
+6. Select **Save**.
 
 ### See also
 

@@ -98,7 +98,7 @@ The sample given below covers four scenarios:
             // Search and show search results on console
             var contactno = "555-5555"; // The contact number to be searched
 
-            // Set the value of searchOnly parameter to True if you only want to get results of the search as a promise result and not open the record or search page. More information: https://docs.microsoft.com/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/searchandopenrecords#parameters.
+            // Set the value of searchOnly parameter to True if you only want to get results of the search as a promise result and not open the record or search page. More information: https://learn.microsoft.com/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/searchandopenrecords#parameters.
             Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'"  + "&$search=" + `${contactno}`, true).then(
                 function success(result) {
                     res = JSON.parse(result);

@@ -1,11 +1,10 @@
 ---
 title: "Configure proactive chat | MicrosoftDocs"
 description: "Learn how to enable and configure proactive chat in Omnichannel for Customer Service and how it works at runtime."
-ms.date: 05/06/2021
+ms.date: 04/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Configure proactive chat
@@ -21,7 +20,7 @@ Information about the user journey, time spent on a web page, and more can be us
 
 ## Enable proactive chat in new admin apps
 
-In Customer Service admin center (preview) or Omnichannel admin center, go to the workstream of the chat widget in which you need to configure the settings, select edit for the required chat widget, and on the **Chat widget** tab of the **Chat channel settings** page, set the toggle for **Proactive chat** to **On**.
+In Customer Service admin center or Omnichannel admin center, go to the workstream of the chat widget in which you need to configure the settings, select edit for the required chat widget, and on the **Chat widget** tab of the **Chat channel settings** page, set the toggle for **Proactive chat** to **On**.
 
 ## Enable proactive chat in Omnichannel Administration
 
@@ -54,7 +53,7 @@ When a customer accepts the proactive chat invitation, an agent receives the not
 > [!div class=mx-imgBorder]
 > ![Agent experience of proactive chat agent notification.](media/proactive-chat-agent.png "Agent experience of proactive chat agent notification")
 
-The agent then accepts the chat request and starts conversing with the customer to provide the required help. The [customer summary](oc-customer-summary.md) is loaded and displayed if the customer’s details match the stored data. 
+The agent then accepts the chat request and starts conversing with the customer to provide the required help. The [**Active Conversation**](oc-customer-summary.md) is loaded and displayed if the customer’s details match the stored data. 
 
 If your administrator or developer configures the **Additional details** tab and if there are additional context variables, such as time spent on a page and the page URL from where the chat is initiated, they are displayed on the **Additional details** tab. 
 

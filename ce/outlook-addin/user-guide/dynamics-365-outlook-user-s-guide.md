@@ -1,5 +1,6 @@
 ---
 title: "Dynamics 365 for Outlook User Guide | MicrosoftDocs"
+description: Learn how to transition from the legacy Dynamics 365 for Outlook to the modern Dynamics 365 App for Outlook with this user guide.
 ms.custom: 
 ms.date: 12/11/2020
 ms.reviewer: 
@@ -18,14 +19,10 @@ ms.assetid: 7221711f-f4f2-47e0-8a05-f5c30952e846
 caps.latest.revision: 62
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Dynamics 365 for Outlook User Guide
 

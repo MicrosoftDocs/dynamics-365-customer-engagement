@@ -1,36 +1,34 @@
 ---
-title: "Audit Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the Audit entity."
-ms.date: 04/02/2019
-
+title: "Auditing (Audit)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Auditing (Audit)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Audit Entity Reference
+
+# Auditing (Audit)  entity reference
 
 Track changes to records for analysis, record keeping, and compliance.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|DeleteAuditData|<xref href="Microsoft.Dynamics.CRM.DeleteAuditData?text=DeleteAuditData Action" />|<xref:Microsoft.Crm.Sdk.Messages.DeleteAuditDataRequest>|
-|DeleteRecordChangeHistory|<xref href="Microsoft.Dynamics.CRM.DeleteRecordChangeHistory?text=DeleteRecordChangeHistory Action" />|<xref:Microsoft.Crm.Sdk.Messages.DeleteRecordChangeHistoryRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/audits(*auditid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveAttributeChangeHistory|<xref href="Microsoft.Dynamics.CRM.RetrieveAttributeChangeHistory?text=RetrieveAttributeChangeHistory Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAttributeChangeHistoryRequest>|
-|RetrieveAuditDetails|<xref href="Microsoft.Dynamics.CRM.RetrieveAuditDetails?text=RetrieveAuditDetails Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAuditDetailsRequest>|
-|RetrieveAuditPartitionList|<xref href="Microsoft.Dynamics.CRM.RetrieveAuditPartitionList?text=RetrieveAuditPartitionList Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAuditPartitionListRequest>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/audits<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrieveRecordChangeHistory|<xref href="Microsoft.Dynamics.CRM.RetrieveRecordChangeHistory?text=RetrieveRecordChangeHistory Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveRecordChangeHistoryRequest>|
+|Message|SDK class or method|
+|-|-|
+|DeleteAuditData|<xref:Microsoft.Crm.Sdk.Messages.DeleteAuditDataRequest>|
+|DeleteRecordChangeHistory|<xref:Microsoft.Crm.Sdk.Messages.DeleteRecordChangeHistoryRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveAttributeChangeHistory|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAttributeChangeHistoryRequest>|
+|RetrieveAuditDetails|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAuditDetailsRequest>|
+|RetrieveAuditPartitionList|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAuditPartitionListRequest>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrieveRecordChangeHistory|<xref:Microsoft.Crm.Sdk.Messages.RetrieveRecordChangeHistoryRequest>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -137,84 +135,84 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-#### Action Options
+#### Action Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Unknown|
-|1|Create|
-|2|Update|
-|3|Delete|
-|4|Activate|
-|5|Deactivate|
-|11|Cascade|
-|12|Merge|
-|13|Assign|
-|14|Share|
-|15|Retrieve|
-|16|Close|
-|17|Cancel|
-|18|Complete|
-|20|Resolve|
-|21|Reopen|
-|22|Fulfill|
-|23|Paid|
-|24|Qualify|
-|25|Disqualify|
-|26|Submit|
-|27|Reject|
-|28|Approve|
-|29|Invoice|
-|30|Hold|
-|31|Add Member|
-|32|Remove Member|
-|33|Associate Entities|
-|34|Disassociate Entities|
-|35|Add Members|
-|36|Remove Members|
-|37|Add Item|
-|38|Remove Item|
-|39|Add Substitute|
-|40|Remove Substitute|
-|41|Set State|
-|42|Renew|
-|43|Revise|
-|44|Win|
-|45|Lose|
-|46|Internal Processing|
-|47|Reschedule|
-|48|Modify Share|
-|49|Unshare|
-|50|Book|
-|51|Generate Quote From Opportunity|
-|52|Add To Queue|
-|53|Assign Role To Team|
-|54|Remove Role From Team|
-|55|Assign Role To User|
-|56|Remove Role From User|
-|57|Add Privileges to Role|
-|58|Remove Privileges From Role|
-|59|Replace Privileges In Role|
-|60|Import Mappings|
-|61|Clone|
-|62|Send Direct Email|
-|63|Enabled for organization|
-|64|User Access via Web|
-|65|User Access via Web Services|
-|100|Delete Entity|
-|101|Delete Attribute|
-|102|Audit Change at Entity Level|
-|103|Audit Change at Attribute Level|
-|104|Audit Change at Org Level|
-|105|Entity Audit Started|
-|106|Attribute Audit Started|
-|107|Audit Enabled|
-|108|Entity Audit Stopped|
-|109|Attribute Audit Stopped|
-|110|Audit Disabled|
-|111|Audit Log Deletion|
-|112|User Access Audit Started|
-|113|User Access Audit Stopped|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Unknown||
+|1|Create||
+|2|Update||
+|3|Delete||
+|4|Activate||
+|5|Deactivate||
+|11|Cascade||
+|12|Merge||
+|13|Assign||
+|14|Share||
+|15|Retrieve||
+|16|Close||
+|17|Cancel||
+|18|Complete||
+|20|Resolve||
+|21|Reopen||
+|22|Fulfill||
+|23|Paid||
+|24|Qualify||
+|25|Disqualify||
+|26|Submit||
+|27|Reject||
+|28|Approve||
+|29|Invoice||
+|30|Hold||
+|31|Add Member||
+|32|Remove Member||
+|33|Associate Entities||
+|34|Disassociate Entities||
+|35|Add Members||
+|36|Remove Members||
+|37|Add Item||
+|38|Remove Item||
+|39|Add Substitute||
+|40|Remove Substitute||
+|41|Set State||
+|42|Renew||
+|43|Revise||
+|44|Win||
+|45|Lose||
+|46|Internal Processing||
+|47|Reschedule||
+|48|Modify Share||
+|49|Unshare||
+|50|Book||
+|51|Generate Quote From Opportunity||
+|52|Add To Queue||
+|53|Assign Role To Team||
+|54|Remove Role From Team||
+|55|Assign Role To User||
+|56|Remove Role From User||
+|57|Add Privileges to Role||
+|58|Remove Privileges From Role||
+|59|Replace Privileges In Role||
+|60|Import Mappings||
+|61|Clone||
+|62|Send Direct Email||
+|63|Enabled for organization||
+|64|User Access via Web||
+|65|User Access via Web Services||
+|100|Delete Entity||
+|101|Delete Attribute||
+|102|Audit Change at Entity Level||
+|103|Audit Change at Attribute Level||
+|104|Audit Change at Org Level||
+|105|Entity Audit Started||
+|106|Attribute Audit Started||
+|107|Audit Enabled||
+|108|Entity Audit Stopped||
+|109|Attribute Audit Stopped||
+|110|Audit Disabled||
+|111|Audit Log Deletion||
+|112|User Access Audit Started||
+|113|User Access Audit Stopped||
 
 
 
@@ -363,14 +361,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### Operation Options
+#### Operation Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Create|
-|2|Update|
-|3|Delete|
-|4|Access|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Create||
+|2|Update||
+|3|Delete||
+|4|Access||
 
 
 
@@ -428,17 +426,13 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_audit_userid"></a> lk_audit_userid
 
-See systemuser Entity [lk_audit_userid](systemuser.md#BKMK_lk_audit_userid) One-To-Many relationship.
+See the [lk_audit_userid](systemuser.md#BKMK_lk_audit_userid) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_audit_callinguserid"></a> lk_audit_callinguserid
 
-See systemuser Entity [lk_audit_callinguserid](systemuser.md#BKMK_lk_audit_callinguserid) One-To-Many relationship.
+See the [lk_audit_callinguserid](systemuser.md#BKMK_lk_audit_callinguserid) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.audit?text=audit EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

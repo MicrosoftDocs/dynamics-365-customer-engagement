@@ -3,7 +3,6 @@ title: "Start writing reports with Dynamics 365 Customer Engagement (on-premises
 description: "Start here to learn about writing reports with Dynamics 365 Customer Engagement (on-premises). Get information on report types, ownership, security, and more."
 ms.date: 06/28/2021
 ms.reviewer: 
-
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -12,9 +11,8 @@ applies_to:
 ms.assetid: 7e593f9d-5003-4115-ab6f-a1f4ce188fab
 caps.latest.revision: 14
 author: Mattp123
-ms.custom: intro-internal
+ms.collection: get-started
 ms.author: matp
-manager: kvivek
 tags: 
   - MigrationHO
 search.audienceType: 
@@ -77,7 +75,7 @@ Customer Engagement (on-premises) uses [!INCLUDE[pn_SQL_Server_Reporting](../inc
   
  To create or modify existing RDL reports that can be used with your apps, use FetchXML, which is then converted to RDL by using report authoring tools. 
   
- If you want, you can use a third-party tool, SQL2FetchXML, to convert your SQL scripts to FetchXML, and then use the FetchXML query in your Fetch-based reports. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SQL2FetchXML Help](https://www.sql2fetchxml.com/help.aspx)  
+ If you want, you can use a third-party tool, SQL2FetchXML, to convert your SQL scripts to FetchXML, and then use the FetchXML query in your Fetch-based reports. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SQL2FetchXML Help](http://sql2fetchxml.com/Help.aspx)  
 
 <a name="creating"></a>   
 ### Options for creating new reports  

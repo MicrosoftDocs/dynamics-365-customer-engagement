@@ -1,11 +1,10 @@
 ---
 title: "Create customized IoT solutions in Connected Customer Service | MicrosoftDocs"
 description: "Understand how to create customized IoT solutions in Connected Customer Service for Azure IoT Central."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: lalexms
-ms.author: lalexms
-manager: shujoshi
+ms.author: laalexan
 ---
 
 # Installation and setup - Connected Customer Service for IoT Hub
@@ -23,7 +22,7 @@ This guide provides the steps required for getting up and running with Connected
   
 - Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Download the Power BI Template for Connected Customer Service](https://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
   
-<a name="bkmk_install"></a>   
+<a name="bkmk_install"></a>
 
 ## Install Connected Customer Service  
  
@@ -45,7 +44,8 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
 
   
 ### Set up the sample simulator (optional)  
- To find the simulator URL, sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. You’ll see the URL is in the top-right corner. Copy the URL and complete the following steps:  
+
+To find the simulator URL, sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. You’ll see the URL is in the top-right corner. Copy the URL and complete the following steps:  
   
 1. Paste the URL into your browser’s address bar to load the page.  
   
@@ -72,7 +72,8 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
 <a name="bkmk_register"></a>   
 
 ### Set up a Power BI chart (optional)  
- Set up Power BI accounts and open the sample .pbix report.  
+
+Set up Power BI accounts and open the sample .pbix report.  
   
 1. Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com) and create a free Power BI account.  
   
@@ -86,13 +87,13 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
   
 #### Update the query to point to your SQL database  
   
-1. Click **Edit Queries**.  
+1. Select **Edit Queries**.  
   
-2. Click **Advanced Editor**.  
+2. Select **Advanced Editor**.  
   
 3. Replace the source SQL database with the database provisioned in your Azure resource group.  
   
-4. Click **Close and Apply**.  
+4. Select **Close and Apply**.  
   
     You can find your SQL server name in the SQL database in the Azure portal.  
   
@@ -107,59 +108,57 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
   
 #### Publish to your Power BI account  
   
-1.  Save your changes and publish.  
+1. Save your changes and publish.  
   
-2.  Once you publish, Power BI Desktop will provide a link and message that instructs you to open the report and provide credentials.  
+2. Once you publish, Power BI Desktop will provide a link and message that instructs you to open the report and provide credentials.  
   
-3.  Once the report is open, you’ll see notifications to edit your credentials.  
+3. Once the report is open, you’ll see notifications to edit your credentials.  
   
-4.  Enter the SQL server admin user name and password to allow Power BI to access your database.  
+4. Enter the SQL server admin user name and password to allow Power BI to access your database.  
   
-5.  In the Power BI  sidebar, open the report and pin these tiles to a dashboard. You can create a dashboard or pin to an existing one.  
+5. In the Power BI  sidebar, open the report and pin these tiles to a dashboard. You can create a dashboard or pin to an existing one.  
   
-6.  Save the dashboard, and then share it with any users who have permissions to see the dashboard and tiles.  
+6. Save the dashboard, and then share it with any users who have permissions to see the dashboard and tiles.  
   
     -   In the top-right corner of the dashboard, click **Share**, enter the users email address, and click the **Share** button.  
   
 #### Pin the tile in Dynamics 365  
   
-1.  Open the device, alert, or asset form.  
+1. Open the device, alert, or asset form.  
   
     > [!IMPORTANT]
     >  The device that is related to any of the open forms must have a device ID and be registered; otherwise, the PowerBI section will be hidden.
 
-2.  The first time you will need to specify the tile you want pinned. After that, the tile will load when you go to the page.
+2. The first time you will need to specify the tile you want pinned. After that, the tile will load when you go to the page.
 
-    1.  Click the **Add** button.
+    1. Select the **Add** button.
 
-    2.  A configuration window displays. Sign in if prompted.
+    2. A configuration window displays. Sign in if prompted.
 
-    3.  Pick your dashboard and tile.
+    3. Pick your dashboard and tile.
 
          A preview of the tile will load; however, if you have not run the simulator for that device, there will be no data, as shown here.
 
-3.  Save the tile.
+3. Save the tile.
 
-4.  The config window closes, and the Power BI section reloads with the pinned tile.
+4. The config window closes, and the Power BI section reloads with the pinned tile.
 
-5.  The tile is filtered to the device ID of the current entity.
+5. The tile is filtered to the device ID of the current entity.
 
-6.  The next time you load any of the device, alert, or asset forms, the Power BI section will load the tile automatically, filtered to the current entity device ID (if there is a device ID and the device has been registered).
+6. The next time you load any of the device, alert, or asset forms, the Power BI section will load the tile automatically, filtered to the current entity device ID (if there is a device ID and the device has been registered).
 
 
 ## Categorize devices  
- You can also manage devices by categorizing them. For example, you can categorize devices by the commands they support, the type of device, or by devices that break down more often.  
+
+You can also manage devices by categorizing them. For example, you can categorize devices by the commands they support, the type of device, or by devices that break down more often.  
   
 ### Create a new IoT device category  
   
-You can create a new IoT device category in the Customer Service Hub or on Customer Service admin center (preview) app.
+You can create a new IoT device category in the Customer Service Hub or on Customer Service admin center app.
 
 1. Go to one of the apps, and perform the following steps.
 
-    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
       1. In the site map, select **Miscellaneous** in **Operations**.
       1.  In the **Device Categories** section, select **Manage**.
@@ -174,41 +173,45 @@ You can create a new IoT device category in the Customer Service Hub or on Custo
         The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list. 
    
 
-2.  On the command bar, select **New**.  
+2. On the command bar, select **New**.  
   
-3.  Enter a **Name** for the device category.  
+3. Enter a **Name** for the device category.  
   
 4.  Use the helpful tooltips to fill in information.  
   
-5.  When you're done, select **Save**.  
+5. When you're done, select **Save**.  
   
-6.  Open the IoT device category record that you created.  
+6. Open the IoT device category record that you created.  
   
-7.  In the **Devices** section, click **Add IoT Device record**, and then add a device to the category.  
+7. In the **Devices** section, click **Add IoT Device record**, and then add a device to the category.  
   
 ### Add devices to an existing category  
   
-1.  From the main menu, select **Internet of Things** > **Registered Devices**.  
+1. From the main menu, select **Internet of Things** > **Registered Devices**.  
   
-2.  Click an IoT device record to open it.  
+2. Select an IoT device record to open it.  
   
-3.  In the **Category** field, use the search button to find and add the device to a category.  
+3. In the **Category** field, use the search button to find and add the device to a category.  
   
 <a name="bkmk_deviceReading"></a>   
-## View device readings  
- Once a device is registered, you can open the record to view the readings sent by the device. For example, if you’re monitoring a thermostat, your reading will show the thermostat temperature.  
+
+## View device readings
+
+After a device is registered, you can open the record to view the readings sent by the device. For example, if you’re monitoring a thermostat, your reading will show the thermostat temperature.  
   
  By default, you can view the last 20 readings. You can change the default setting in the Power BI report by using Power BI Desktop.  
   
-1.  To view a device reading, from the main menu, click **Customer Service** > **Devices**.  
+1. To view a device reading, from the main menu, click **Customer Service** > **Devices**.  
   
-2.  From the list of devices, choose a device and open the record.  
+2. From the list of devices, choose a device and open the record.  
   
-3.  Refer to the **Connect Device Readings** section to view the device readings.  
+3. Refer to the **Connect Device Readings** section to view the device readings.  
   
 <a name="bkmk_remotely"></a>   
+
 ## Remotely send commands to a registered device  
- When a device isn’t working properly, the system receives an alert. To troubleshoot the issue remotely, you can send a command by choosing a registered device or by using an existing IoT alert.  
+
+When a device isn’t working properly, the system receives an alert. To troubleshoot the issue remotely, you can send a command by choosing a registered device or by using an existing IoT alert.  
   
 
 > [!NOTE]
@@ -216,15 +219,15 @@ You can create a new IoT device category in the Customer Service Hub or on Custo
 
 ### Send commands from a registered device
 
-1.  From the main menu, click **Customer Service** > **Devices**.
+1. From the main menu, click **Customer Service** > **Devices**.
 
-2.  From the list of devices, choose a registered device.
+2. From the list of devices, choose a registered device.
 
-3.  On the command bar, click **Send Command**.
+3. On the command bar, click **Send Command**.
 
-4.  Enter a **Name** for the command.
+4. Enter a **Name** for the command.
 
-5.  In the **MESSAGE TO SEND** box, copy and paste one of these supported commands. `{"CommandName":"Reset Thermostat","Parameters":{}}` `{"CommandName":"Notification","Parameters":{"Message":"Technician has been dispatched"}}` `{"CommandName":"Set Values","Parameters":{"Reading":{"Temperature":"30","Humidity":"30"}}}`
+5. In the **MESSAGE TO SEND** box, copy and paste one of these supported commands. `{"CommandName":"Reset Thermostat","Parameters":{}}` `{"CommandName":"Notification","Parameters":{"Message":"Technician has been dispatched"}}` `{"CommandName":"Set Values","Parameters":{"Reading":{"Temperature":"30","Humidity":"30"}}}`
 
     > [!NOTE]
     >  Before sending a command, make sure there are no spaces or extra characters in the command.
@@ -233,38 +236,42 @@ You can create a new IoT device category in the Customer Service Hub or on Custo
 
 ### Respond to an alert
 
-1.  Navigate to **Customer Service** > **IoT Alerts**.
+1. Navigate to **Customer Service** > **IoT Alerts**.
 
-2.  Choose an existing IoT alert record.
+2. Choose an existing IoT alert record.
 
-3.  On the command bar, select **Send Command**.
+3. On the command bar, select **Send Command**.
 
-4.  Enter a **Name** for the command.
+4. Enter a **Name** for the command.
 
-5.  In the **MESSAGE TO SEND** box, copy and paste one of the supported commands listed in the section above.
+5. In the **MESSAGE TO SEND** box, copy and paste one of the supported commands listed in the section above.
 
-6.  On the command bar, click **Send & Close** to send the command.
+6. On the command bar, click **Send & Close** to send the command.
 
 ### View history of commands sent to a device
 
-1.  From the main menu, click **Customer Service** > **Devices**.
+1. From the main menu, click **Customer Service** > **Devices**.
 
-2.  From the list, choose a device.
+2. From the list, choose a device.
 
-3.  Scroll down to the **Command** section to view the history.
+3. Scroll down to the **Command** section to view the history.
 
 <a name="bkmk_bussinessFlow"></a>
+
 ## Create business process flows to automatically handle incoming IoT alerts
- When you receive an alert from a device, your service team can manually monitor the alerts and troubleshoot the issue remotely. If the issue is not resolved by sending a remote command, the service rep can create a case or work order and dispatch a field tech. The provided business process flow guides you through the process of manually responding to IoT alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a business process flow](../customerengagement/on-premises/customize/create-business-process-flow.md)
+
+When you receive an alert from a device, your service team can manually monitor the alerts and troubleshoot the issue remotely. If the issue is not resolved by sending a remote command, the service rep can create a case or work order and dispatch a field tech. The provided business process flow guides you through the process of manually responding to IoT alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a business process flow](../customerengagement/on-premises/customize/create-business-process-flow.md)
 
  
 <a name="bkmk_IOTDashboard"></a>
+
 ## View the IoT dashboard
- The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customerengagement/on-premises/customize/create-edit-dashboards.md)
 
-1.  From the main menu, click **Customer Service** or **Internet of Things**.
+The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customerengagement/on-premises/customize/create-edit-dashboards.md)
 
-2.  Click **Dashboard**.
+1. From the main menu, click **Customer Service** or **Internet of Things**.
+
+2. Select **Dashboard**.
 
     -   The first chart shows alerts that you can sort by clicking the IoT **Alerts by** menu.
 
@@ -273,7 +280,9 @@ You can create a new IoT device category in the Customer Service Hub or on Custo
     -   The third chart shows alerts along with the action taken to resolve the issue.
 
 <a name="bkmk_step3 "></a>
+
 ## Privacy notice
+
 By installing Connected Customer Service for Dynamics 365, when you provide your Azure subscription information, the required Azure resources (listed below) will be deployed and your Dynamics 365 for Customer Engagement instance will send data (such as commands and registrations) to Azure to enable IoT–enabled scenarios that register devices and then send and receive commands to the registered devices. An administrator can uninstall Connected Customer Service to remove the functionality and then navigate to the Azure portal to manage any related Azure services that are no longer needed. 
 
 Azure components and services that are involved with Connected Customer Service functionality are detailed in the following sections. 

@@ -1,42 +1,40 @@
 ---
-title: "BookableResourceBookingHeader Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "BookableResourceBookingHeader entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the BookableResourceBookingHeader entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# BookableResourceBookingHeader Entity Reference
 
-Shows the reservation table where the summary of resource bookings are persisted.
+# BookableResourceBookingHeader entity reference
+
+Reservation entity representing the summary of the associated resource bookings.
 
 **Added by**: Scheduling Solution
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/bookableresourcebookingheaders(*bookableresourcebookingheaderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/bookableresourcebookingheaders<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/bookableresourcebookingheaders(*bookableresourcebookingheaderid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/bookableresourcebookingheaders(*bookableresourcebookingheaderid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bookableresourcebookingheaders<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/bookableresourcebookingheaders(*bookableresourcebookingheaderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/bookableresourcebookingheaders(*bookableresourcebookingheaderid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -62,13 +60,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [Duration](#BKMK_Duration)
 - [EndTime](#BKMK_EndTime)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_bookableresourceid](#BKMK_msdyn_bookableresourceid)
-- [msdyn_bookingstatusid](#BKMK_msdyn_bookingstatusid)
-- [msdyn_BookingType](#BKMK_msdyn_BookingType)
-- [msdyn_projectid](#BKMK_msdyn_projectid)
-- [msdyn_projectteamid](#BKMK_msdyn_projectteamid)
-- [msdyn_resourcecategoryid](#BKMK_msdyn_resourcecategoryid)
-- [msdyn_ResourceRequirement](#BKMK_msdyn_ResourceRequirement)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -144,125 +135,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MinValue|-2147483648|
 |RequiredLevel|None|
 |Type|Integer|
-
-
-### <a name="BKMK_msdyn_bookableresourceid"></a> msdyn_bookableresourceid
-
-**Added by**: Universal Resource Scheduling Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the resource.|
-|DisplayName|Bookable Resource|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_bookableresourceid|
-|RequiredLevel|None|
-|Targets|bookableresource|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_bookingstatusid"></a> msdyn_bookingstatusid
-
-**Added by**: Universal Resource Scheduling Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Booking Status|
-|DisplayName|Booking Status|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_bookingstatusid|
-|RequiredLevel|None|
-|Targets|bookingstatus|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_BookingType"></a> msdyn_BookingType
-
-**Added by**: Universal Resource Scheduling Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Select whether the booking is solid or liquid. Solid bookings are firm and cannot be changed whereas liquid bookings can be changed.|
-|DisplayName|Booking Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_bookingtype|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### msdyn_BookingType Options
-
-|Value|Label|
-|-----|-----|
-|1|Solid|
-|2|Liquid|
-
-
-
-### <a name="BKMK_msdyn_projectid"></a> msdyn_projectid
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Project|
-|DisplayName|Project|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_projectid|
-|RequiredLevel|None|
-|Targets|msdyn_project|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_projectteamid"></a> msdyn_projectteamid
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Project Team|
-|DisplayName|Project Team Member|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_projectteamid|
-|RequiredLevel|None|
-|Targets|msdyn_projectteam|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_resourcecategoryid"></a> msdyn_resourcecategoryid
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Resource Category|
-|DisplayName|Resource Category|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_resourcecategoryid|
-|RequiredLevel|None|
-|Targets|bookableresourcecategory|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_ResourceRequirement"></a> msdyn_ResourceRequirement
-
-**Added by**: Universal Resource Scheduling Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Resource Requirement|
-|DisplayName|Resource Requirement|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_resourcerequirement|
-|RequiredLevel|None|
-|Targets|msdyn_resourcerequirement|
-|Type|Lookup|
 
 
 ### <a name="BKMK_Name"></a> Name
@@ -344,7 +216,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Contains the id of the stage where the entity is located.|
-|DisplayName|(Deprecated) Stage Id|
+|DisplayName|Stage Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -380,7 +252,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -401,7 +273,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -445,7 +317,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -492,12 +364,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_bookableresourceidName](#BKMK_msdyn_bookableresourceidName)
-- [msdyn_bookingstatusidName](#BKMK_msdyn_bookingstatusidName)
-- [msdyn_projectidName](#BKMK_msdyn_projectidName)
-- [msdyn_projectteamidName](#BKMK_msdyn_projectteamidName)
-- [msdyn_resourcecategoryidName](#BKMK_msdyn_resourcecategoryidName)
-- [msdyn_ResourceRequirementName](#BKMK_msdyn_ResourceRequirementName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -737,114 +603,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_bookableresourceidName"></a> msdyn_bookableresourceidName
-
-**Added by**: Universal Resource Scheduling Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_bookableresourceidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_bookingstatusidName"></a> msdyn_bookingstatusidName
-
-**Added by**: Universal Resource Scheduling Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_bookingstatusidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_projectidName"></a> msdyn_projectidName
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_projectidname|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_projectteamidName"></a> msdyn_projectteamidName
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_projectteamidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_resourcecategoryidName"></a> msdyn_resourcecategoryidName
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_resourcecategoryidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ResourceRequirementName"></a> msdyn_ResourceRequirementName
-
-**Added by**: Universal Resource Scheduling Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_resourcerequirementname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 |Property|Value|
@@ -982,15 +740,13 @@ Listed by **SchemaName**.
 - [bookableresourcebookingheader_OpportunityCloses](#BKMK_bookableresourcebookingheader_OpportunityCloses)
 - [bookableresourcebookingheader_OrderCloses](#BKMK_bookableresourcebookingheader_OrderCloses)
 - [bookableresourcebookingheader_QuoteCloses](#BKMK_bookableresourcebookingheader_QuoteCloses)
-- [bookableresourcebookingheader_msdyn_bookingalerts](#BKMK_bookableresourcebookingheader_msdyn_bookingalerts)
-- [bookableresourcebookingheader_msdyn_approvals](#BKMK_bookableresourcebookingheader_msdyn_approvals)
 
 
 ### <a name="BKMK_bookableresourcebookingheader_ActivityPointers"></a> bookableresourcebookingheader_ActivityPointers
 
 **Added by**: System Solution Solution
 
-Same as activitypointer entity [bookableresourcebookingheader_ActivityPointers](activitypointer.md#BKMK_bookableresourcebookingheader_ActivityPointers) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_ActivityPointers](activitypointer.md#BKMK_bookableresourcebookingheader_ActivityPointers) many-to-one relationship for the [activitypointer](activitypointer.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1007,7 +763,7 @@ Same as activitypointer entity [bookableresourcebookingheader_ActivityPointers](
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [BookableResourceBookingHeader_SyncErrors](syncerror.md#BKMK_BookableResourceBookingHeader_SyncErrors) Many-To-One relationship.
+Same as the [BookableResourceBookingHeader_SyncErrors](syncerror.md#BKMK_BookableResourceBookingHeader_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1024,7 +780,7 @@ Same as syncerror entity [BookableResourceBookingHeader_SyncErrors](syncerror.md
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [bookableresourcebookingheader_DuplicateMatchingRecord](duplicaterecord.md#BKMK_bookableresourcebookingheader_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_DuplicateMatchingRecord](duplicaterecord.md#BKMK_bookableresourcebookingheader_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1041,7 +797,7 @@ Same as duplicaterecord entity [bookableresourcebookingheader_DuplicateMatchingR
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [bookableresourcebookingheader_DuplicateBaseRecord](duplicaterecord.md#BKMK_bookableresourcebookingheader_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_DuplicateBaseRecord](duplicaterecord.md#BKMK_bookableresourcebookingheader_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1058,7 +814,7 @@ Same as duplicaterecord entity [bookableresourcebookingheader_DuplicateBaseRecor
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [bookableresourcebookingheader_AsyncOperations](asyncoperation.md#BKMK_bookableresourcebookingheader_AsyncOperations) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_AsyncOperations](asyncoperation.md#BKMK_bookableresourcebookingheader_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1075,7 +831,7 @@ Same as asyncoperation entity [bookableresourcebookingheader_AsyncOperations](as
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [bookableresourcebookingheader_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bookableresourcebookingheader_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bookableresourcebookingheader_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1092,7 +848,7 @@ Same as mailboxtrackingfolder entity [bookableresourcebookingheader_MailboxTrack
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [bookableresourcebookingheader_ProcessSession](processsession.md#BKMK_bookableresourcebookingheader_ProcessSession) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_ProcessSession](processsession.md#BKMK_bookableresourcebookingheader_ProcessSession) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1109,7 +865,7 @@ Same as processsession entity [bookableresourcebookingheader_ProcessSession](pro
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [bookableresourcebookingheader_BulkDeleteFailures](bulkdeletefailure.md#BKMK_bookableresourcebookingheader_BulkDeleteFailures) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_BulkDeleteFailures](bulkdeletefailure.md#BKMK_bookableresourcebookingheader_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1126,7 +882,7 @@ Same as bulkdeletefailure entity [bookableresourcebookingheader_BulkDeleteFailur
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [bookableresourcebookingheader_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_bookableresourcebookingheader_PrincipalObjectAttributeAccess) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_bookableresourcebookingheader_PrincipalObjectAttributeAccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1143,7 +899,7 @@ Same as principalobjectattributeaccess entity [bookableresourcebookingheader_Pri
 
 **Added by**: System Solution Solution
 
-Same as appointment entity [bookableresourcebookingheader_Appointments](appointment.md#BKMK_bookableresourcebookingheader_Appointments) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_Appointments](appointment.md#BKMK_bookableresourcebookingheader_Appointments) many-to-one relationship for the [appointment](appointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1160,7 +916,7 @@ Same as appointment entity [bookableresourcebookingheader_Appointments](appointm
 
 **Added by**: System Solution Solution
 
-Same as email entity [bookableresourcebookingheader_Emails](email.md#BKMK_bookableresourcebookingheader_Emails) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_Emails](email.md#BKMK_bookableresourcebookingheader_Emails) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1177,7 +933,7 @@ Same as email entity [bookableresourcebookingheader_Emails](email.md#BKMK_bookab
 
 **Added by**: System Solution Solution
 
-Same as fax entity [bookableresourcebookingheader_Faxes](fax.md#BKMK_bookableresourcebookingheader_Faxes) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_Faxes](fax.md#BKMK_bookableresourcebookingheader_Faxes) many-to-one relationship for the [fax](fax.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1194,7 +950,7 @@ Same as fax entity [bookableresourcebookingheader_Faxes](fax.md#BKMK_bookableres
 
 **Added by**: System Solution Solution
 
-Same as letter entity [bookableresourcebookingheader_Letters](letter.md#BKMK_bookableresourcebookingheader_Letters) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_Letters](letter.md#BKMK_bookableresourcebookingheader_Letters) many-to-one relationship for the [letter](letter.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1211,7 +967,7 @@ Same as letter entity [bookableresourcebookingheader_Letters](letter.md#BKMK_boo
 
 **Added by**: System Solution Solution
 
-Same as phonecall entity [bookableresourcebookingheader_PhoneCalls](phonecall.md#BKMK_bookableresourcebookingheader_PhoneCalls) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_PhoneCalls](phonecall.md#BKMK_bookableresourcebookingheader_PhoneCalls) many-to-one relationship for the [phonecall](phonecall.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1228,7 +984,7 @@ Same as phonecall entity [bookableresourcebookingheader_PhoneCalls](phonecall.md
 
 **Added by**: System Solution Solution
 
-Same as task entity [bookableresourcebookingheader_Tasks](task.md#BKMK_bookableresourcebookingheader_Tasks) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_Tasks](task.md#BKMK_bookableresourcebookingheader_Tasks) many-to-one relationship for the [task](task.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1245,7 +1001,7 @@ Same as task entity [bookableresourcebookingheader_Tasks](task.md#BKMK_bookabler
 
 **Added by**: System Solution Solution
 
-Same as recurringappointmentmaster entity [bookableresourcebookingheader_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_bookableresourcebookingheader_RecurringAppointmentMasters) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_bookableresourcebookingheader_RecurringAppointmentMasters) many-to-one relationship for the [recurringappointmentmaster](recurringappointmentmaster.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1262,7 +1018,7 @@ Same as recurringappointmentmaster entity [bookableresourcebookingheader_Recurri
 
 **Added by**: System Solution Solution
 
-Same as socialactivity entity [bookableresourcebookingheader_SocialActivities](socialactivity.md#BKMK_bookableresourcebookingheader_SocialActivities) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_SocialActivities](socialactivity.md#BKMK_bookableresourcebookingheader_SocialActivities) many-to-one relationship for the [socialactivity](socialactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1279,7 +1035,7 @@ Same as socialactivity entity [bookableresourcebookingheader_SocialActivities](s
 
 **Added by**: System Solution Solution
 
-Same as annotation entity [bookableresourcebookingheader_Annotations](annotation.md#BKMK_bookableresourcebookingheader_Annotations) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_Annotations](annotation.md#BKMK_bookableresourcebookingheader_Annotations) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1294,7 +1050,7 @@ Same as annotation entity [bookableresourcebookingheader_Annotations](annotation
 
 ### <a name="BKMK_bookableresourcebookingheader_bookableresourcebooking_Header"></a> bookableresourcebookingheader_bookableresourcebooking_Header
 
-Same as bookableresourcebooking entity [bookableresourcebookingheader_bookableresourcebooking_Header](bookableresourcebooking.md#BKMK_bookableresourcebookingheader_bookableresourcebooking_Header) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_bookableresourcebooking_Header](bookableresourcebooking.md#BKMK_bookableresourcebookingheader_bookableresourcebooking_Header) many-to-one relationship for the [bookableresourcebooking](bookableresourcebooking.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1311,7 +1067,7 @@ Same as bookableresourcebooking entity [bookableresourcebookingheader_bookablere
 
 **Added by**: Marketing Solution
 
-Same as bulkoperation entity [bookableresourcebookingheader_BulkOperations](bulkoperation.md#BKMK_bookableresourcebookingheader_BulkOperations) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_BulkOperations](bulkoperation.md#BKMK_bookableresourcebookingheader_BulkOperations) many-to-one relationship for the [bulkoperation](bulkoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1328,7 +1084,7 @@ Same as bulkoperation entity [bookableresourcebookingheader_BulkOperations](bulk
 
 **Added by**: Marketing Solution
 
-Same as campaignactivity entity [bookableresourcebookingheader_CampaignActivities](campaignactivity.md#BKMK_bookableresourcebookingheader_CampaignActivities) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_CampaignActivities](campaignactivity.md#BKMK_bookableresourcebookingheader_CampaignActivities) many-to-one relationship for the [campaignactivity](campaignactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1345,7 +1101,7 @@ Same as campaignactivity entity [bookableresourcebookingheader_CampaignActivitie
 
 **Added by**: Marketing Solution
 
-Same as campaignresponse entity [bookableresourcebookingheader_CampaignResponses](campaignresponse.md#BKMK_bookableresourcebookingheader_CampaignResponses) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_CampaignResponses](campaignresponse.md#BKMK_bookableresourcebookingheader_CampaignResponses) many-to-one relationship for the [campaignresponse](campaignresponse.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1362,7 +1118,7 @@ Same as campaignresponse entity [bookableresourcebookingheader_CampaignResponses
 
 **Added by**: Service Solution
 
-Same as incidentresolution entity [bookableresourcebookingheader_IncidentResolutions](incidentresolution.md#BKMK_bookableresourcebookingheader_IncidentResolutions) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_IncidentResolutions](incidentresolution.md#BKMK_bookableresourcebookingheader_IncidentResolutions) many-to-one relationship for the [incidentresolution](incidentresolution.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1379,7 +1135,7 @@ Same as incidentresolution entity [bookableresourcebookingheader_IncidentResolut
 
 **Added by**: Service Solution
 
-Same as serviceappointment entity [bookableresourcebookingheader_ServiceAppointments](serviceappointment.md#BKMK_bookableresourcebookingheader_ServiceAppointments) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_ServiceAppointments](serviceappointment.md#BKMK_bookableresourcebookingheader_ServiceAppointments) many-to-one relationship for the [serviceappointment](serviceappointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1396,7 +1152,7 @@ Same as serviceappointment entity [bookableresourcebookingheader_ServiceAppointm
 
 **Added by**: Sales Solution
 
-Same as opportunityclose entity [bookableresourcebookingheader_OpportunityCloses](opportunityclose.md#BKMK_bookableresourcebookingheader_OpportunityCloses) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_OpportunityCloses](opportunityclose.md#BKMK_bookableresourcebookingheader_OpportunityCloses) many-to-one relationship for the [opportunityclose](opportunityclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1413,7 +1169,7 @@ Same as opportunityclose entity [bookableresourcebookingheader_OpportunityCloses
 
 **Added by**: Sales Solution
 
-Same as orderclose entity [bookableresourcebookingheader_OrderCloses](orderclose.md#BKMK_bookableresourcebookingheader_OrderCloses) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_OrderCloses](orderclose.md#BKMK_bookableresourcebookingheader_OrderCloses) many-to-one relationship for the [orderclose](orderclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1430,7 +1186,7 @@ Same as orderclose entity [bookableresourcebookingheader_OrderCloses](orderclose
 
 **Added by**: Sales Solution
 
-Same as quoteclose entity [bookableresourcebookingheader_QuoteCloses](quoteclose.md#BKMK_bookableresourcebookingheader_QuoteCloses) Many-To-One relationship.
+Same as the [bookableresourcebookingheader_QuoteCloses](quoteclose.md#BKMK_bookableresourcebookingheader_QuoteCloses) many-to-one relationship for the [quoteclose](quoteclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1439,40 +1195,6 @@ Same as quoteclose entity [bookableresourcebookingheader_QuoteCloses](quoteclose
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|bookableresourcebookingheader_QuoteCloses|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_bookableresourcebookingheader_msdyn_bookingalerts"></a> bookableresourcebookingheader_msdyn_bookingalerts
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bookingalert entity [bookableresourcebookingheader_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_bookableresourcebookingheader_msdyn_bookingalerts) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bookingalert|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|bookableresourcebookingheader_msdyn_bookingalerts|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_bookableresourcebookingheader_msdyn_approvals"></a> bookableresourcebookingheader_msdyn_approvals
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_approval entity [bookableresourcebookingheader_msdyn_approvals](msdyn_approval.md#BKMK_bookableresourcebookingheader_msdyn_approvals) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_approval|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|bookableresourcebookingheader_msdyn_approvals|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
@@ -1491,113 +1213,63 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [business_unit_bookableresourcebookingheader](#BKMK_business_unit_bookableresourcebookingheader)
 - [processstage_BookableResourceBookingHeader](#BKMK_processstage_BookableResourceBookingHeader)
 - [TransactionCurrency_bookableresourcebookingheader](#BKMK_TransactionCurrency_bookableresourcebookingheader)
-- [msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid](#BKMK_msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid)
-- [msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid](#BKMK_msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid)
-- [msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement](#BKMK_msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement)
-- [msdyn_bookableresourcecategory_bookableresourcebookingheader_resourcecategoryid](#BKMK_msdyn_bookableresourcecategory_bookableresourcebookingheader_resourcecategoryid)
-- [msdyn_msdyn_project_bookableresourcebookingheader_projectid](#BKMK_msdyn_msdyn_project_bookableresourcebookingheader_projectid)
-- [msdyn_msdyn_projectteam_bookableresourcebookingheader_projectteamid](#BKMK_msdyn_msdyn_projectteam_bookableresourcebookingheader_projectteamid)
 
 
 ### <a name="BKMK_lk_bookableresourcebookingheader_createdby"></a> lk_bookableresourcebookingheader_createdby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_bookableresourcebookingheader_createdby](systemuser.md#BKMK_lk_bookableresourcebookingheader_createdby) One-To-Many relationship.
+See the [lk_bookableresourcebookingheader_createdby](systemuser.md#BKMK_lk_bookableresourcebookingheader_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_bookableresourcebookingheader_createdonbehalfby"></a> lk_bookableresourcebookingheader_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_bookableresourcebookingheader_createdonbehalfby](systemuser.md#BKMK_lk_bookableresourcebookingheader_createdonbehalfby) One-To-Many relationship.
+See the [lk_bookableresourcebookingheader_createdonbehalfby](systemuser.md#BKMK_lk_bookableresourcebookingheader_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_bookableresourcebookingheader_modifiedby"></a> lk_bookableresourcebookingheader_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_bookableresourcebookingheader_modifiedby](systemuser.md#BKMK_lk_bookableresourcebookingheader_modifiedby) One-To-Many relationship.
+See the [lk_bookableresourcebookingheader_modifiedby](systemuser.md#BKMK_lk_bookableresourcebookingheader_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_bookableresourcebookingheader_modifiedonbehalfby"></a> lk_bookableresourcebookingheader_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_bookableresourcebookingheader_modifiedonbehalfby](systemuser.md#BKMK_lk_bookableresourcebookingheader_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_bookableresourcebookingheader_modifiedonbehalfby](systemuser.md#BKMK_lk_bookableresourcebookingheader_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_user_bookableresourcebookingheader"></a> user_bookableresourcebookingheader
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_bookableresourcebookingheader](systemuser.md#BKMK_user_bookableresourcebookingheader) One-To-Many relationship.
+See the [user_bookableresourcebookingheader](systemuser.md#BKMK_user_bookableresourcebookingheader) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_bookableresourcebookingheader"></a> team_bookableresourcebookingheader
 
 **Added by**: System Solution Solution
 
-See team Entity [team_bookableresourcebookingheader](team.md#BKMK_team_bookableresourcebookingheader) One-To-Many relationship.
+See the [team_bookableresourcebookingheader](team.md#BKMK_team_bookableresourcebookingheader) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_business_unit_bookableresourcebookingheader"></a> business_unit_bookableresourcebookingheader
 
 **Added by**: System Solution Solution
 
-See businessunit Entity [business_unit_bookableresourcebookingheader](businessunit.md#BKMK_business_unit_bookableresourcebookingheader) One-To-Many relationship.
+See the [business_unit_bookableresourcebookingheader](businessunit.md#BKMK_business_unit_bookableresourcebookingheader) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_processstage_BookableResourceBookingHeader"></a> processstage_BookableResourceBookingHeader
 
 **Added by**: System Solution Solution
 
-See processstage Entity [processstage_BookableResourceBookingHeader](processstage.md#BKMK_processstage_BookableResourceBookingHeader) One-To-Many relationship.
+See the [processstage_BookableResourceBookingHeader](processstage.md#BKMK_processstage_BookableResourceBookingHeader) one-to-many relationship for the [processstage](processstage.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_bookableresourcebookingheader"></a> TransactionCurrency_bookableresourcebookingheader
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [TransactionCurrency_bookableresourcebookingheader](transactioncurrency.md#BKMK_TransactionCurrency_bookableresourcebookingheader) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid"></a> msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid
-
-See bookableresource Entity [msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid](bookableresource.md#BKMK_msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid"></a> msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid
-
-See bookingstatus Entity [msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid](bookingstatus.md#BKMK_msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement"></a> msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_resourcerequirement Entity [msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement](msdyn_resourcerequirement.md#BKMK_msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookableresourcecategory_bookableresourcebookingheader_resourcecategoryid"></a> msdyn_bookableresourcecategory_bookableresourcebookingheader_resourcecategoryid
-
-See bookableresourcecategory Entity [msdyn_bookableresourcecategory_bookableresourcebookingheader_resourcecategoryid](bookableresourcecategory.md#BKMK_msdyn_bookableresourcecategory_bookableresourcebookingheader_resourcecategoryid) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_msdyn_project_bookableresourcebookingheader_projectid"></a> msdyn_msdyn_project_bookableresourcebookingheader_projectid
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_project Entity [msdyn_msdyn_project_bookableresourcebookingheader_projectid](msdyn_project.md#BKMK_msdyn_msdyn_project_bookableresourcebookingheader_projectid) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_msdyn_projectteam_bookableresourcebookingheader_projectteamid"></a> msdyn_msdyn_projectteam_bookableresourcebookingheader_projectteamid
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projectteam Entity [msdyn_msdyn_projectteam_bookableresourcebookingheader_projectteamid](msdyn_projectteam.md#BKMK_msdyn_msdyn_projectteam_bookableresourcebookingheader_projectteamid) One-To-Many relationship.
-<a name="manytomany"></a>
-
-## Many-To-Many Relationships
-
-Relationship details provided where the BookableResourceBookingHeader entity is the first entity in the relationship. Listed by **SchemaName**.
-
-
-### <a name="BKMK_msdyn_resourcerequirement_bookingheader"></a> msdyn_resourcerequirement_bookingheader
-
-See msdyn_resourcerequirement Entity [msdyn_resourcerequirement_bookingheader](msdyn_resourcerequirement.md#BKMK_msdyn_resourcerequirement_bookingheader) Many-To-Many Relationship.
+See the [TransactionCurrency_bookableresourcebookingheader](transactioncurrency.md#BKMK_TransactionCurrency_bookableresourcebookingheader) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.bookableresourcebookingheader?text=bookableresourcebookingheader EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

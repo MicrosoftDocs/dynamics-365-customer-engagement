@@ -1,18 +1,16 @@
 ---
-title: "msdyn_solutioncomponentsummary Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_solutioncomponentsummary entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the msdyn_solutioncomponentsummary entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# msdyn_solutioncomponentsummary Entity Reference
+
+# msdyn_solutioncomponentsummary entity reference
 
 
 
@@ -21,15 +19,15 @@ search.audienceType:
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_solutioncomponentsummaries<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_solutioncomponentsummaries(*msdyn_solutioncomponentsummaryid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_solutioncomponentsummaries(*msdyn_solutioncomponentsummaryid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_solutioncomponentsummaries<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_solutioncomponentsummaries(*msdyn_solutioncomponentsummaryid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -52,7 +50,6 @@ search.audienceType:
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [msdyn_componenttype](#BKMK_msdyn_componenttype)
-- [msdyn_componenttypename](#BKMK_msdyn_componenttypename)
 - [msdyn_createdon](#BKMK_msdyn_createdon)
 - [msdyn_culture](#BKMK_msdyn_culture)
 - [msdyn_deployment](#BKMK_msdyn_deployment)
@@ -61,23 +58,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_eventhandler](#BKMK_msdyn_eventhandler)
 - [msdyn_executionorder](#BKMK_msdyn_executionorder)
 - [msdyn_executionstage](#BKMK_msdyn_executionstage)
-- [msdyn_fieldsecurity](#BKMK_msdyn_fieldsecurity)
-- [msdyn_fieldtype](#BKMK_msdyn_fieldtype)
 - [msdyn_isappaware](#BKMK_msdyn_isappaware)
-- [msdyn_isappawarename](#BKMK_msdyn_isappawarename)
 - [msdyn_isauditenabled](#BKMK_msdyn_isauditenabled)
-- [msdyn_isauditenabledname](#BKMK_msdyn_isauditenabledname)
 - [msdyn_iscustom](#BKMK_msdyn_iscustom)
 - [msdyn_iscustomizable](#BKMK_msdyn_iscustomizable)
-- [msdyn_iscustomizablename](#BKMK_msdyn_iscustomizablename)
-- [msdyn_iscustomname](#BKMK_msdyn_iscustomname)
-- [msdyn_isdefault](#BKMK_msdyn_isdefault)
-- [msdyn_isdefaultname](#BKMK_msdyn_isdefaultname)
 - [msdyn_ismanaged](#BKMK_msdyn_ismanaged)
-- [msdyn_ismanagedname](#BKMK_msdyn_ismanagedname)
 - [msdyn_isolationmode](#BKMK_msdyn_isolationmode)
 - [msdyn_istableenabled](#BKMK_msdyn_istableenabled)
-- [msdyn_logicalcollectionname](#BKMK_msdyn_logicalcollectionname)
 - [msdyn_modifiedon](#BKMK_msdyn_modifiedon)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_objectid](#BKMK_msdyn_objectid)
@@ -86,14 +73,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_owningbusinessunit](#BKMK_msdyn_owningbusinessunit)
 - [msdyn_primaryentityname](#BKMK_msdyn_primaryentityname)
 - [msdyn_publickeytoken](#BKMK_msdyn_publickeytoken)
-- [msdyn_relatedentity](#BKMK_msdyn_relatedentity)
-- [msdyn_relatedentityattribute](#BKMK_msdyn_relatedentityattribute)
 - [msdyn_schemaname](#BKMK_msdyn_schemaname)
 - [msdyn_sdkmessagename](#BKMK_msdyn_sdkmessagename)
 - [msdyn_solutioncomponentsummaryId](#BKMK_msdyn_solutioncomponentsummaryId)
 - [msdyn_solutionid](#BKMK_msdyn_solutionid)
 - [msdyn_status](#BKMK_msdyn_status)
-- [msdyn_statusname](#BKMK_msdyn_statusname)
 - [msdyn_subtype](#BKMK_msdyn_subtype)
 - [msdyn_synctoexternalsearchindex](#BKMK_msdyn_synctoexternalsearchindex)
 - [msdyn_total](#BKMK_msdyn_total)
@@ -101,8 +85,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_uniquename](#BKMK_msdyn_uniquename)
 - [msdyn_version](#BKMK_msdyn_version)
 - [msdyn_workflowcategory](#BKMK_msdyn_workflowcategory)
-- [msdyn_workflowcategoryname](#BKMK_msdyn_workflowcategoryname)
-- [msdyn_workflowidunique](#BKMK_msdyn_workflowidunique)
 
 
 ### <a name="BKMK_msdyn_componenttype"></a> msdyn_componenttype
@@ -119,22 +101,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Precision|2|
 |RequiredLevel|None|
 |Type|Decimal|
-
-
-### <a name="BKMK_msdyn_componenttypename"></a> msdyn_componenttypename
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Component Type Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_componenttypename|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
 
 
 ### <a name="BKMK_msdyn_createdon"></a> msdyn_createdon
@@ -265,38 +231,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_fieldsecurity"></a> msdyn_fieldsecurity
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Field Security|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_fieldsecurity|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_fieldtype"></a> msdyn_fieldtype
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Field Type|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_fieldtype|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_msdyn_isappaware"></a> msdyn_isappaware
 
 |Property|Value|
@@ -313,22 +247,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_isappawarename"></a> msdyn_isappawarename
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|App Aware Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_isappawarename|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_msdyn_isauditenabled"></a> msdyn_isauditenabled
 
 |Property|Value|
@@ -340,22 +258,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_isauditenabled|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_isauditenabledname"></a> msdyn_isauditenabledname
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Audit Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_isauditenabledname|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
@@ -393,70 +295,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_iscustomizablename"></a> msdyn_iscustomizablename
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Customizable Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_iscustomizablename|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_iscustomname"></a> msdyn_iscustomname
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Is Custom Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_iscustomname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_isdefault"></a> msdyn_isdefault
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Default|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_isdefault|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_isdefaultname"></a> msdyn_isdefaultname
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Default Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_isdefaultname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_msdyn_ismanaged"></a> msdyn_ismanaged
 
 |Property|Value|
@@ -468,22 +306,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_ismanaged|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ismanagedname"></a> msdyn_ismanagedname
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Managed Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_ismanagedname|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
@@ -516,22 +338,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_istableenabled|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_logicalcollectionname"></a> msdyn_logicalcollectionname
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Logical Collection Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_logicalcollectionname|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
@@ -665,38 +471,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_relatedentity"></a> msdyn_relatedentity
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Related Entity|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_relatedentity|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_relatedentityattribute"></a> msdyn_relatedentityattribute
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Related Entity Attribute Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_relatedentityattribute|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_msdyn_schemaname"></a> msdyn_schemaname
 
 |Property|Value|
@@ -770,22 +544,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_status|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_statusname"></a> msdyn_statusname
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Status Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_statusname|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
@@ -903,44 +661,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_workflowcategoryname"></a> msdyn_workflowcategoryname
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Workflow Category Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_workflowcategoryname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_workflowidunique"></a> msdyn_workflowidunique
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Workflow Id Unique|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_workflowidunique|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_solutioncomponentsummary?text=msdyn_solutioncomponentsummary EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

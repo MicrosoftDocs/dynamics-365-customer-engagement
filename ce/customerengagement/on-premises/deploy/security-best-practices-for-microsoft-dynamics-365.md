@@ -14,7 +14,6 @@ ms.assetid: 7f994f43-58d2-44c9-bbce-54baa3278d29
 caps.latest.revision: 22
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Security best practices for Dynamics 365 Customer Engagement (on-premises)
 

@@ -5,7 +5,6 @@ ms.date: 03/11/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
@@ -15,8 +14,7 @@ ms.custom:
 Know how to add the sales accelerator site map entry to your custom app.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
@@ -32,7 +30,7 @@ Know how to add the sales accelerator site map entry to your custom app.
 2. Open the site map designer. Select the pencil icon corresponding to the **Site Map** section.     
     > [!div class="mx-imgBorder"]
     > ![Open site map designer](media/faq-sa-open-site-map-designer.png "Open site map designer")     
-3. Select the area in which you want to add the work list entry and then select **+ Add** > **Subarea**.    
+3. Select the area in which you want to add the work list entry and then select **Add** > **Subarea**.    
     > [!div class="mx-imgBorder"]
     > ![Add subarea to an area](media/faq-sa-select-sub-area.png "Add subarea to an area")      
     In the following example, subarea entry is added to the **Sales** area under **Sales records**.     
@@ -57,6 +55,6 @@ Know how to add the sales accelerator site map entry to your custom app.
 
 ### See also
 
-[Configure sales accelerator](enable-configure-sales-accelerator.md)
+[Configure sales accelerator](enable-configure-sales-accelerator.md)  
 [Add the Up next widget to an entity form](add-upnext-widget-form.md)
 

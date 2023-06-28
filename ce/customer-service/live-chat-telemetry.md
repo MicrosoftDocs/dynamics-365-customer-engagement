@@ -1,11 +1,10 @@
 ---
 title: "Live chat widget telemetry| MicrosoftDocs"
 description: "Learn about the telemetry data collected by the live chat widget. Also learn how to disable automatic data collection by the chat widget."
-ms.date: 05/15/2020
+ms.date: 06/17/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Live chat widget telemetry
 
@@ -34,7 +33,7 @@ data-disable-telemetry = "true"
 
 ### See also
 
-[Customize a chat widget](customize-chat-widget.md)
-
+[Customize live chat widgets using data tags](customize-chat-widget.md)  
+[Customize live chat widgets for mobile apps](render-live-chat-widget-mobile.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

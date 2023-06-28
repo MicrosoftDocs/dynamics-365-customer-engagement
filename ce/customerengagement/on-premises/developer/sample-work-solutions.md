@@ -1,6 +1,6 @@
 ---
 title: "Sample: Work with solutions (Dynamics 365 Customer Engagement (on-premises) SDK)| MicrosoftDocs"
-description: ""
+description: Learn how to create a publisher, retrieve the default publisher, and more with solutions in this code sample for Dynamics 365 Customer Engagement (on-premises).
 keywords: 
 ms.date: 04/02/2020
 
@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: a3008ed8-a934-4790-9979-43be7b5e7aaf
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -50,7 +49,7 @@ This sample shows how to perform the following actions with solutions:
 - Install or upgrade a solution.
 - Delete a solution.
 
-You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/WorkwithSolutions).
+You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/WorkwithSolutions).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

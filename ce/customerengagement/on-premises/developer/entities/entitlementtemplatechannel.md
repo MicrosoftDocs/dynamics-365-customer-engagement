@@ -1,18 +1,16 @@
 ---
-title: "EntitlementTemplateChannel Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "EntitlementTemplateChannel entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the EntitlementTemplateChannel entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# EntitlementTemplateChannel Entity Reference
+
+# EntitlementTemplateChannel entity reference
 
 Contains predefined support terms for a channel to create entitlements for customers.
 
@@ -21,15 +19,15 @@ Contains predefined support terms for a channel to create entitlements for custo
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/entitlementtemplatechannels<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/entitlementtemplatechannels(*entitlementtemplatechannelid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/entitlementtemplatechannels(*entitlementtemplatechannelid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/entitlementtemplatechannels<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/entitlementtemplatechannels(*entitlementtemplatechannelid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -75,15 +73,15 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### Channel Options
+#### Channel Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Phone|
-|2|Email|
-|3|Web|
-|2483|Facebook|
-|3986|Twitter|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Phone||
+|2|Email||
+|3|Web||
+|2483|Facebook||
+|3986|Twitter||
 
 
 
@@ -578,7 +576,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [entitlementtemplatechannel_SyncErrors](syncerror.md#BKMK_entitlementtemplatechannel_SyncErrors) Many-To-One relationship.
+Same as the [entitlementtemplatechannel_SyncErrors](syncerror.md#BKMK_entitlementtemplatechannel_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -595,7 +593,7 @@ Same as syncerror entity [entitlementtemplatechannel_SyncErrors](syncerror.md#BK
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [entitlementtemplatechannel_AsyncOperations](asyncoperation.md#BKMK_entitlementtemplatechannel_AsyncOperations) Many-To-One relationship.
+Same as the [entitlementtemplatechannel_AsyncOperations](asyncoperation.md#BKMK_entitlementtemplatechannel_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -612,7 +610,7 @@ Same as asyncoperation entity [entitlementtemplatechannel_AsyncOperations](async
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [entitlementtemplatechannel_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_entitlementtemplatechannel_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [entitlementtemplatechannel_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_entitlementtemplatechannel_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -629,7 +627,7 @@ Same as mailboxtrackingfolder entity [entitlementtemplatechannel_MailboxTracking
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [entitlementtemplatechannel_BulkDeleteFailures](bulkdeletefailure.md#BKMK_entitlementtemplatechannel_BulkDeleteFailures) Many-To-One relationship.
+Same as the [entitlementtemplatechannel_BulkDeleteFailures](bulkdeletefailure.md#BKMK_entitlementtemplatechannel_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -646,7 +644,7 @@ Same as bulkdeletefailure entity [entitlementtemplatechannel_BulkDeleteFailures]
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [entitlementtemplatechannel_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_entitlementtemplatechannel_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [entitlementtemplatechannel_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_entitlementtemplatechannel_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -663,7 +661,7 @@ Same as principalobjectattributeaccess entity [entitlementtemplatechannel_Princi
 
 **Added by**: System Solution Solution
 
-Same as connection entity [entitlementtemplatechannel_connections1](connection.md#BKMK_entitlementtemplatechannel_connections1) Many-To-One relationship.
+Same as the [entitlementtemplatechannel_connections1](connection.md#BKMK_entitlementtemplatechannel_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -680,7 +678,7 @@ Same as connection entity [entitlementtemplatechannel_connections1](connection.m
 
 **Added by**: System Solution Solution
 
-Same as connection entity [entitlementtemplatechannel_connections2](connection.md#BKMK_entitlementtemplatechannel_connections2) Many-To-One relationship.
+Same as the [entitlementtemplatechannel_connections2](connection.md#BKMK_entitlementtemplatechannel_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -711,47 +709,43 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_entitlementtemplatechannel_createdby](systemuser.md#BKMK_lk_entitlementtemplatechannel_createdby) One-To-Many relationship.
+See the [lk_entitlementtemplatechannel_createdby](systemuser.md#BKMK_lk_entitlementtemplatechannel_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_entitlementtemplatechannel_createdonbehalfby"></a> lk_entitlementtemplatechannel_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_entitlementtemplatechannel_createdonbehalfby](systemuser.md#BKMK_lk_entitlementtemplatechannel_createdonbehalfby) One-To-Many relationship.
+See the [lk_entitlementtemplatechannel_createdonbehalfby](systemuser.md#BKMK_lk_entitlementtemplatechannel_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_entitlementtemplatechannel_modifiedby"></a> lk_entitlementtemplatechannel_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_entitlementtemplatechannel_modifiedby](systemuser.md#BKMK_lk_entitlementtemplatechannel_modifiedby) One-To-Many relationship.
+See the [lk_entitlementtemplatechannel_modifiedby](systemuser.md#BKMK_lk_entitlementtemplatechannel_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_entitlementtemplatechannel_modifiedonbehalfby"></a> lk_entitlementtemplatechannel_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_entitlementtemplatechannel_modifiedonbehalfby](systemuser.md#BKMK_lk_entitlementtemplatechannel_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_entitlementtemplatechannel_modifiedonbehalfby](systemuser.md#BKMK_lk_entitlementtemplatechannel_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_entitlementtemplate_entitlementchannel_entitlementtemplateid"></a> entitlementtemplate_entitlementchannel_entitlementtemplateid
 
-See entitlementtemplate Entity [entitlementtemplate_entitlementchannel_entitlementtemplateid](entitlementtemplate.md#BKMK_entitlementtemplate_entitlementchannel_entitlementtemplateid) One-To-Many relationship.
+See the [entitlementtemplate_entitlementchannel_entitlementtemplateid](entitlementtemplate.md#BKMK_entitlementtemplate_entitlementchannel_entitlementtemplateid) one-to-many relationship for the [entitlementtemplate](entitlementtemplate.md) entity.
 
 ### <a name="BKMK_entitlementtemplatechannel_organization"></a> entitlementtemplatechannel_organization
 
 **Added by**: System Solution Solution
 
-See organization Entity [entitlementtemplatechannel_organization](organization.md#BKMK_entitlementtemplatechannel_organization) One-To-Many relationship.
+See the [entitlementtemplatechannel_organization](organization.md#BKMK_entitlementtemplatechannel_organization) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_entitlementtemplatechannel"></a> TransactionCurrency_entitlementtemplatechannel
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [TransactionCurrency_entitlementtemplatechannel](transactioncurrency.md#BKMK_TransactionCurrency_entitlementtemplatechannel) One-To-Many relationship.
+See the [TransactionCurrency_entitlementtemplatechannel](transactioncurrency.md#BKMK_TransactionCurrency_entitlementtemplatechannel) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.entitlementtemplatechannel?text=entitlementtemplatechannel EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -18,14 +18,10 @@ ms.assetid: 893ce442-3fb7-48dd-9440-6fb5f169d064
 caps.latest.revision: 52
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook
 When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to track an email message, a copy of the email record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
@@ -53,9 +49,6 @@ When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-
 
    > [!NOTE]
    >  By default email in your Sent Items folder within Outlook will not automatically appear as tracked in Dynamics 365. An optional setting is available to automatically track items from the Sent Items folder. If an administrator enables this setting, the personal options mentioned above will be used to determine which sent emails are automatically tracked. For more information, see [Automatically track sent folder items with server-side synchronization](/power-platform/admin/track-sent-folder-items)
-  
-   > [!NOTE]
-   >  By default email in your Sent Items folder within Outlook will not automatically appear as tracked in Dynamics 365. An optional setting is available to automatically track items from the Sent Items folder. If an administrator enables this setting, the personal options mentioned above will be used to determine which sent emails are automatically tracked. For more information, see [Automatically track sent folder items with server-side synchronization](track-sent-folder-items)
   
    > [!NOTE]
    >  Keep in mind that the more you use the same email address for tracking purposes, the less useful it becomes since it will be mapped to many records.  

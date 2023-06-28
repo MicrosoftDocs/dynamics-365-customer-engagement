@@ -14,7 +14,6 @@ ms.assetid: 29ba2ff1-8391-4b42-be1c-6bc1b3e4d14d
 caps.latest.revision: 25
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Configure the AD FS server for IFD
 
@@ -34,7 +33,7 @@ After you have enabled IFD on the [!INCLUDE[pn_microsoftcrm_server](../includes/
   
 5.  On the **Select Data Source** page, select **Import data about the relying party published online or on a local network**, and then type the URL to locate the federationmetadata.xml file.  
   
-     This federation metadata is created during IFD Setup, for example, https://auth.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml.  
+     This federation metadata is created during IFD Setup, for example, `https://auth.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml`
   
      Type this URL in your browser and verify that no certificate-related warnings appear.  
   
@@ -48,11 +47,11 @@ After you have enabled IFD on the [!INCLUDE[pn_microsoftcrm_server](../includes/
   
 10. On the **Ready to Add Trust** page, on the **Identifiers** tab, verify that **Relying party identifiers** has three identifiers such as the following:  
   
-    -   https://auth.contoso.com  
+    -   `https://auth.contoso.com`
   
-    -   https://orgname.contoso.com  
+    -   `https://orgname.contoso.com`  
   
-    -   https://dev.contoso.com  
+    -   `https://dev.contoso.com`  
   
      If your identifiers differ from the above example, select **Previous** in the **Add Relying Party Trust Wizard** and check the Federation metadata address.  
   
@@ -116,7 +115,7 @@ Grant-AdfsApplicationPermission -ClientRoleIdentifier "<ClientRoleIdentifier>" -
   
 1.  ClientRoleIdentifier :  the ClientId of your Adfsclient. For example: e8ab36af-d4be-4833-a38b-4d6cf1cfd525  
   
-2.  ServerroleIdentified :  the Identifier of your relying party. For example: https://adventureworkscycle3.crm.crmifd.com/  
+2.  ServerroleIdentified :  the Identifier of your relying party. For example: `https://adventureworkscycle3.crm.crmifd.com/`  
   
  For more information, see [Grant-AdfsApplicationPermission](/powershell/module/adfs/grant-adfsapplicationpermission).  
   

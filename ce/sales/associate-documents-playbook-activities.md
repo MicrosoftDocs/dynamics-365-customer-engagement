@@ -1,11 +1,10 @@
 ---
 title: "Associate documents with playbook activities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Associate documents with playbook activities to help your team access accurate and current sales materials or training content to close a deal."
-ms.date: 10/26/2021
+ms.date: 05/08/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -20,16 +19,18 @@ searchScope:
 ---
 # Associate documents with playbook activities 
 
+> [!NOTE]
+> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](deprecations-sales.md#playbooks-will-be-deprecated)  
+
 Ensure sales reps always have the latest sales and training materials to close a deal by associating documents with playbook activities that you add to a playbook template.
 For example, create a playbook template that sales reps can follow when the decision maker they are working with leaves the organization. While adding activities to this template, you can also attach documents that help the sales rep bring the new decision maker up to speed. 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Playbook Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Playbook Manager <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Prerequisites
 

@@ -1,5 +1,6 @@
 ---
-title: "Sample: Disable a user (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: How to disable a user (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: Learn how to create and disable a user in an Active Directory environment with this code sample for Dynamics 365 Customer Engagement (on-premises).
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
@@ -13,11 +14,10 @@ ms.assetid: 082fc88f-a951-41c2-85ae-4b5e69e9917c
 caps.latest.revision: 15
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
 search.audienceType: 
   - developer
 ---
-# Sample: Disable a user
+# Sample: How to disable a user
 
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Users and Roles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/UsersAndRoles).   
   

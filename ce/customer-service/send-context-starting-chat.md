@@ -5,13 +5,12 @@ ms.date: 01/20/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Send custom context
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys must correspond to context variables that are created for the associated workstream. If no context variables have been created under live workstream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by the live chat widget when a new chat is started. Because the values are case-sensitive, use exact match to pass them to the context variables. More information: [Context variables](context-variables-for-bot.md)
+The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys must correspond to context variables that are created for the associated workstream. If no context variables have been created under live workstream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by the live chat widget when a new chat is started. Because the values are case-sensitive, use exact match to pass them to the context variables. More information: [Considerations for context variables](manage-context-variables.md#considerations)
 
 > [!IMPORTANT]
 >

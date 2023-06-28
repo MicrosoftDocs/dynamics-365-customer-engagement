@@ -1,11 +1,10 @@
 ---
 title: "View and understand data through drill-down entities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "View and understand drill-down entities in a forecast in Dynamics 365 Sales."
-ms.date: 10/26/2020
+ms.date: 05/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-forecast
@@ -18,12 +17,11 @@ searchScope:
 The drill-down feature lets you break down the seller's forecast projections as a function of the contributing factors that you care about, such as Account and Product.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## How does forecast drill-down helps?
 
@@ -31,7 +29,7 @@ Through a forecast, you'll have visibility into the pipeline amounts that your s
 
 By viewing drill-down data, you can understand how the records in each group are performing and set the next course of action. This helps you to plan better and achieve the targets as set in the forecast.
 
-Let's look at an example. **Amber Rodriguez** is a seller who's associated with four accounts. Her projected revenue for the current period is $400,000. **Kevin Smith**, her sales manager, wants to understand how her revenue of $400,000 is broken down by each account. On the forecast page, Kevin chooses the Account drill-down option from the drop-down menu. Then he selects the drill-down icon beside Amber's record to view a list of accounts that make each of Amber's forecast pipeline values.
+Let's look at an example. **Amber Rodriguez** is a seller who's associated with four accounts. Amber's projected revenue for the current period is $400,000. **Kevin Smith**, Amber's sales manager, wants to understand how the revenue of $400,000 is broken down by each account. On the forecast page, Kevin chooses the Account drill-down option from the drop-down menu. Kevin, then selects the drill-down icon beside Amber's record to view a list of accounts that make each of Amber's forecast pipeline values.
 
 > [!div class="mx-imgBorder"]
 > ![Forecast drill-down view.](media/forecast-drill-down-view.png "Forecast drill-down view")
@@ -91,7 +89,8 @@ More information: [View and manage underlying opportunities](view-and-manage-und
 ## See also
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
-[Configure and manage drill-down entities](configure-manage-drill-downs.md)
+[Configure and manage drill-down entities](configure-manage-drill-downs.md)   
+[Troubleshoot issues with forecasting](/troubleshoot/dynamics-365/sales/troubleshoot-forecast-issues)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

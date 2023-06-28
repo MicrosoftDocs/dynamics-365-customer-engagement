@@ -1,21 +1,17 @@
 ---
-title: FAQs for AI suggestions for cases, knowledge articles | MicrosoftDocs
-description: FAQs for AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/17/2020
+title: FAQ for AI suggestions for cases, knowledge articles | MicrosoftDocs
+description: FAQ for AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
+ms.date: 05/27/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
 
-# FAQs on AI suggestions for cases and knowledge articles
+# FAQ on AI suggestions for cases and knowledge articles
 
 A few answers to common questions about the AI-suggested similar cases and knowledge articles are listed here.
 
@@ -56,7 +52,7 @@ Make sure that the case is opened in a session tab. To open it in a session tab,
 
 ### See also
 
-[Enable AI-suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
+[Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)  
 
 

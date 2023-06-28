@@ -1,18 +1,16 @@
 ---
-title: "OpportunityProduct Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "OpportunityProduct entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the OpportunityProduct entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# OpportunityProduct Entity Reference
+
+# OpportunityProduct entity reference
 
 Association between an opportunity and a product.
 
@@ -21,22 +19,22 @@ Association between an opportunity and a product.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|CalculatePrice|<xref href="Microsoft.Dynamics.CRM.CalculatePrice?text=CalculatePrice Action" />|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/opportunityproducts<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/opportunityproducts(*opportunityproductid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/opportunityproducts(*opportunityproductid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/opportunityproducts<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/opportunityproducts(*opportunityproductid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|CalculatePrice|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|OpportunityProducts|
-|DisplayCollectionName|Opportunity Lines|
-|DisplayName|Opportunity Line|
+|DisplayCollectionName|Opportunity Products|
+|DisplayName|Opportunity Product|
 |EntitySetName|opportunityproducts|
 |IsBPFEntity|False|
 |LogicalCollectionName|opportunityproducts|
@@ -61,17 +59,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [IsProductOverridden](#BKMK_IsProductOverridden)
 - [LineItemNumber](#BKMK_LineItemNumber)
 - [ManualDiscountAmount](#BKMK_ManualDiscountAmount)
-- [msdyn_BillingMethod](#BKMK_msdyn_BillingMethod)
-- [msdyn_BudgetAmount](#BKMK_msdyn_BudgetAmount)
-- [msdyn_CostAmount](#BKMK_msdyn_CostAmount)
-- [msdyn_CostPricePerUnit](#BKMK_msdyn_CostPricePerUnit)
-- [msdyn_Duration](#BKMK_msdyn_Duration)
-- [msdyn_enddate](#BKMK_msdyn_enddate)
-- [msdyn_LineType](#BKMK_msdyn_LineType)
-- [msdyn_pricelist](#BKMK_msdyn_pricelist)
-- [msdyn_Project](#BKMK_msdyn_Project)
-- [msdyn_serviceaccount](#BKMK_msdyn_serviceaccount)
-- [msdyn_startdate](#BKMK_msdyn_startdate)
 - [OpportunityId](#BKMK_OpportunityId)
 - [OpportunityProductId](#BKMK_OpportunityProductId)
 - [OpportunityProductName](#BKMK_OpportunityProductName)
@@ -88,7 +75,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [PropertyConfigurationStatus](#BKMK_PropertyConfigurationStatus)
 - [Quantity](#BKMK_Quantity)
 - [SequenceNumber](#BKMK_SequenceNumber)
-- [SkipPriceCalculation](#BKMK_SkipPriceCalculation)
 - [Tax](#BKMK_Tax)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
 - [TransactionCurrencyId](#BKMK_TransactionCurrencyId)
@@ -195,14 +181,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsPriceOverridden Options
+#### IsPriceOverridden Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Override Price|
-|0|Use Default|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Override Price||
+|0|Use Default||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -219,14 +205,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsProductOverridden Options
+#### IsProductOverridden Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Write-In|
-|0|Existing|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Write-In||
+|0|Existing||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -261,209 +247,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |PrecisionSource|2|
 |RequiredLevel|None|
 |Type|Money|
-
-
-### <a name="BKMK_msdyn_BillingMethod"></a> msdyn_BillingMethod
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Billing method for the project opportunity line. Valid values are Time and Material and Fixed Price|
-|DisplayName|Billing Method|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_billingmethod|
-|RequiredLevel|Recommended|
-|Type|Picklist|
-
-#### msdyn_BillingMethod Options
-
-|Value|Label|
-|-----|-----|
-|192350000|Time and Material|
-|192350001|Fixed Price|
-
-
-
-### <a name="BKMK_msdyn_BudgetAmount"></a> msdyn_BudgetAmount
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Enter the customer budget amount for this opportunity line.|
-|DisplayName|Budget Amount|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_budgetamount|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_CostAmount"></a> msdyn_CostAmount
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the total cost price of the product based on the cost price per unit and quantity.|
-|DisplayName|Cost Amount|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_costamount|
-|MaxValue|922337203685477|
-|MinValue|0|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_CostPricePerUnit"></a> msdyn_CostPricePerUnit
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Cost price per unit of the product. The default is the cost price of the product.|
-|DisplayName|Cost Price Per Unit|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_costpriceperunit|
-|MaxValue|922337203685477|
-|MinValue|0|
-|Precision|2|
-|PrecisionSource|1|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_Duration"></a> msdyn_Duration
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Enter the duration of the agreement|
-|DisplayName|Duration|
-|Format|Duration|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_duration|
-|MaxValue|2147483647|
-|MinValue|0|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_enddate"></a> msdyn_enddate
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Enter the end date of the agreement|
-|DisplayName|End Date|
-|Format|DateOnly|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_enddate|
-|RequiredLevel|None|
-|Type|DateTime|
-
-
-### <a name="BKMK_msdyn_LineType"></a> msdyn_LineType
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|The field to distinguish the order lines to be of project service or field service|
-|DisplayName|Line Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_linetype|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_LineType Options
-
-|Value|Label|
-|-----|-----|
-|690970000|Project Service Line|
-|690970001|Field Service Line|
-
-
-
-### <a name="BKMK_msdyn_pricelist"></a> msdyn_pricelist
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Select a price list for the opportunity line|
-|DisplayName|Price List|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_pricelist|
-|RequiredLevel|None|
-|Targets|pricelevel|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_Project"></a> msdyn_Project
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Select the project for this opportunity line.|
-|DisplayName|Project|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_project|
-|RequiredLevel|None|
-|Targets|msdyn_project|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_serviceaccount"></a> msdyn_serviceaccount
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Select the service account for the opportunity line|
-|DisplayName|Service Account|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_serviceaccount|
-|RequiredLevel|None|
-|Targets|account|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_startdate"></a> msdyn_startdate
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Start date of the Agreement|
-|DisplayName|Start Date|
-|Format|DateOnly|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_startdate|
-|RequiredLevel|None|
-|Type|DateTime|
 
 
 ### <a name="BKMK_OpportunityId"></a> OpportunityId
@@ -587,49 +370,48 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PricingErrorCode Options
+#### PricingErrorCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|None|
-|1|Detail Error|
-|2|Missing Price Level|
-|3|Inactive Price Level|
-|4|Missing Quantity|
-|5|Missing Unit Price|
-|6|Missing Product|
-|7|Invalid Product|
-|8|Missing Pricing Code|
-|9|Invalid Pricing Code|
-|10|Missing UOM|
-|11|Product Not In Price Level|
-|12|Missing Price Level Amount|
-|13|Missing Price Level Percentage|
-|14|Missing Price|
-|15|Missing Current Cost|
-|16|Missing Standard Cost|
-|17|Invalid Price Level Amount|
-|18|Invalid Price Level Percentage|
-|19|Invalid Price|
-|20|Invalid Current Cost|
-|21|Invalid Standard Cost|
-|22|Invalid Rounding Policy|
-|23|Invalid Rounding Option|
-|24|Invalid Rounding Amount|
-|25|Price Calculation Error|
-|26|Invalid Discount Type|
-|27|Discount Type Invalid State|
-|28|Invalid Discount|
-|29|Invalid Quantity|
-|30|Invalid Pricing Precision|
-|31|Missing Product Default UOM|
-|32|Missing Product UOM Schedule |
-|33|Inactive Discount Type|
-|34|Invalid Price Level Currency|
-|35|Price Attribute Out Of Range|
-|36|Base Currency Attribute Overflow|
-|37|Base Currency Attribute Underflow|
-|38|Transaction currency is not set for the product price list item|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|None||
+|1|Detail Error||
+|2|Missing Price Level||
+|3|Inactive Price Level||
+|4|Missing Quantity||
+|5|Missing Unit Price||
+|6|Missing Product||
+|7|Invalid Product||
+|8|Missing Pricing Code||
+|9|Invalid Pricing Code||
+|10|Missing UOM||
+|11|Product Not In Price Level||
+|12|Missing Price Level Amount||
+|13|Missing Price Level Percentage||
+|14|Missing Price||
+|15|Missing Current Cost||
+|16|Missing Standard Cost||
+|17|Invalid Price Level Amount||
+|18|Invalid Price Level Percentage||
+|19|Invalid Price||
+|20|Invalid Current Cost||
+|21|Invalid Standard Cost||
+|22|Invalid Rounding Policy||
+|23|Invalid Rounding Option||
+|24|Invalid Rounding Amount||
+|25|Price Calculation Error||
+|26|Invalid Discount Type||
+|27|Discount Type Invalid State||
+|28|Invalid Discount||
+|29|Invalid Quantity||
+|30|Invalid Pricing Precision||
+|31|Missing Product Default UOM||
+|32|Missing Product UOM Schedule ||
+|33|Inactive Discount Type||
+|34|Invalid Price Level Currency||
+|35|Price Attribute Out Of Range||
+|36|Base Currency Attribute Overflow||
+|37|Base Currency Attribute Underflow||
 
 
 
@@ -706,15 +488,15 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ProductTypeCode Options
+#### ProductTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Product|
-|2|Bundle|
-|3|Required Bundle Product|
-|4|Optional Bundle Product|
-|5|Project-based Service|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Product||
+|2|Bundle||
+|3|Required Bundle Product||
+|4|Optional Bundle Product||
+|5|Project-based Service||
 
 
 
@@ -730,13 +512,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### PropertyConfigurationStatus Options
+#### PropertyConfigurationStatus Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Edit|
-|1|Rectify|
-|2|Not Configured|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Edit||
+|1|Rectify||
+|2|Not Configured||
 
 
 
@@ -770,30 +552,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MinValue|-2147483648|
 |RequiredLevel|None|
 |Type|Integer|
-
-
-### <a name="BKMK_SkipPriceCalculation"></a> SkipPriceCalculation
-
-**Added by**: Sales Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Skip price calculation. Used with bulk update and bulk insert operations.|
-|DisplayName|Skip Price Calculation|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|skippricecalculation|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### SkipPriceCalculation Options
-
-|Value|Label|
-|-----|-----|
-|0|DoPriceCalcAlways|
-|1|SkipPriceCalcOnCreate|
-|2|SkipPriceCalcOnUpdate|
-
 
 
 ### <a name="BKMK_Tax"></a> Tax
@@ -900,13 +658,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_budgetamount_Base](#BKMK_msdyn_budgetamount_Base)
-- [msdyn_costamount_Base](#BKMK_msdyn_costamount_Base)
-- [msdyn_costpriceperunit_Base](#BKMK_msdyn_costpriceperunit_Base)
-- [msdyn_pricelistName](#BKMK_msdyn_pricelistName)
-- [msdyn_ProjectName](#BKMK_msdyn_ProjectName)
-- [msdyn_serviceaccountName](#BKMK_msdyn_serviceaccountName)
-- [msdyn_serviceaccountYomiName](#BKMK_msdyn_serviceaccountYomiName)
 - [OpportunityIdName](#BKMK_OpportunityIdName)
 - [OpportunityStateCode](#BKMK_OpportunityStateCode)
 - [OwnerId](#BKMK_OwnerId)
@@ -1253,135 +1004,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_budgetamount_Base"></a> msdyn_budgetamount_Base
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Value of the Budget Amount in base currency.|
-|DisplayName|Budget Amount (Base)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_budgetamount_base|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_costamount_Base"></a> msdyn_costamount_Base
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Value of the Cost Amount in base currency.|
-|DisplayName|Cost Amount (Base)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_costamount_base|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_costpriceperunit_Base"></a> msdyn_costpriceperunit_Base
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Value of the Cost Price Per Unit in base currency.|
-|DisplayName|Cost Price Per Unit (Base)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_costpriceperunit_base|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|2|
-|PrecisionSource|1|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_pricelistName"></a> msdyn_pricelistName
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_pricelistname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ProjectName"></a> msdyn_ProjectName
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_projectname|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_serviceaccountName"></a> msdyn_serviceaccountName
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_serviceaccountname|
-|MaxLength|160|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_serviceaccountYomiName"></a> msdyn_serviceaccountYomiName
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_serviceaccountyominame|
-|MaxLength|160|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_OpportunityIdName"></a> OpportunityIdName
 
 |Property|Value|
@@ -1410,10 +1032,10 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### OpportunityStateCode Options
+#### OpportunityStateCode Choices/Options
 
-|Value|Label|
-|-----|-----|
+|Value|Label|Description|
+|-----|-----|--------|
 
 
 
@@ -1670,7 +1292,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [OpportunityProduct_SyncErrors](syncerror.md#BKMK_OpportunityProduct_SyncErrors) Many-To-One relationship.
+Same as the [OpportunityProduct_SyncErrors](syncerror.md#BKMK_OpportunityProduct_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1687,7 +1309,7 @@ Same as syncerror entity [OpportunityProduct_SyncErrors](syncerror.md#BKMK_Oppor
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [OpportunityProduct_AsyncOperations](asyncoperation.md#BKMK_OpportunityProduct_AsyncOperations) Many-To-One relationship.
+Same as the [OpportunityProduct_AsyncOperations](asyncoperation.md#BKMK_OpportunityProduct_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1704,7 +1326,7 @@ Same as asyncoperation entity [OpportunityProduct_AsyncOperations](asyncoperatio
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [opportunityproduct_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_opportunityproduct_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [opportunityproduct_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_opportunityproduct_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1721,7 +1343,7 @@ Same as mailboxtrackingfolder entity [opportunityproduct_MailboxTrackingFolders]
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [OpportunityProduct_ProcessSessions](processsession.md#BKMK_OpportunityProduct_ProcessSessions) Many-To-One relationship.
+Same as the [OpportunityProduct_ProcessSessions](processsession.md#BKMK_OpportunityProduct_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1738,7 +1360,7 @@ Same as processsession entity [OpportunityProduct_ProcessSessions](processsessio
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [OpportunityProduct_BulkDeleteFailures](bulkdeletefailure.md#BKMK_OpportunityProduct_BulkDeleteFailures) Many-To-One relationship.
+Same as the [OpportunityProduct_BulkDeleteFailures](bulkdeletefailure.md#BKMK_OpportunityProduct_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1755,7 +1377,7 @@ Same as bulkdeletefailure entity [OpportunityProduct_BulkDeleteFailures](bulkdel
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [opportunityproduct_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_opportunityproduct_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [opportunityproduct_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_opportunityproduct_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1770,7 +1392,7 @@ Same as principalobjectattributeaccess entity [opportunityproduct_principalobjec
 
 ### <a name="BKMK_opportunityproduct_parent_opportunityproduct"></a> opportunityproduct_parent_opportunityproduct
 
-Same as opportunityproduct entity [opportunityproduct_parent_opportunityproduct](opportunityproduct.md#BKMK_opportunityproduct_parent_opportunityproduct) Many-To-One relationship.
+Same as the [opportunityproduct_parent_opportunityproduct](opportunityproduct.md#BKMK_opportunityproduct_parent_opportunityproduct) many-to-one relationship for the [opportunityproduct](opportunityproduct.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1785,7 +1407,7 @@ Same as opportunityproduct entity [opportunityproduct_parent_opportunityproduct]
 
 ### <a name="BKMK_OpportunityProduct_Dynamicpropertyinstance"></a> OpportunityProduct_Dynamicpropertyinstance
 
-Same as dynamicpropertyinstance entity [OpportunityProduct_Dynamicpropertyinstance](dynamicpropertyinstance.md#BKMK_OpportunityProduct_Dynamicpropertyinstance) Many-To-One relationship.
+Same as the [OpportunityProduct_Dynamicpropertyinstance](dynamicpropertyinstance.md#BKMK_OpportunityProduct_Dynamicpropertyinstance) many-to-one relationship for the [dynamicpropertyinstance](dynamicpropertyinstance.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1802,7 +1424,7 @@ Same as dynamicpropertyinstance entity [OpportunityProduct_Dynamicpropertyinstan
 
 **Added by**: Sales Patch Solution
 
-Same as opportunityproduct entity [opportunityproduct_parentref_opportunityproduct](opportunityproduct.md#BKMK_opportunityproduct_parentref_opportunityproduct) Many-To-One relationship.
+Same as the [opportunityproduct_parentref_opportunityproduct](opportunityproduct.md#BKMK_opportunityproduct_parentref_opportunityproduct) many-to-one relationship for the [opportunityproduct](opportunityproduct.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1833,106 +1455,81 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [productAssociation_opportunity_product](#BKMK_productAssociation_opportunity_product)
 - [unit_of_measurement_opportunity_products](#BKMK_unit_of_measurement_opportunity_products)
 - [opportunityproduct_parentref_opportunityproduct](#BKMK_opportunityproduct_parentref_opportunityproduct)
-- [msdyn_msdyn_project_opportunityproduct_Project](#BKMK_msdyn_msdyn_project_opportunityproduct_Project)
-- [msdyn_account_opportunityproduct_ServiceAccount](#BKMK_msdyn_account_opportunityproduct_ServiceAccount)
-- [msdyn_pricelevel_opportunityproduct_PriceList](#BKMK_msdyn_pricelevel_opportunityproduct_PriceList)
 
 
 ### <a name="BKMK_lk_opportunityproductbase_createdby"></a> lk_opportunityproductbase_createdby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_opportunityproductbase_createdby](systemuser.md#BKMK_lk_opportunityproductbase_createdby) One-To-Many relationship.
+See the [lk_opportunityproductbase_createdby](systemuser.md#BKMK_lk_opportunityproductbase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_opportunityproduct_createdonbehalfby"></a> lk_opportunityproduct_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_opportunityproduct_createdonbehalfby](systemuser.md#BKMK_lk_opportunityproduct_createdonbehalfby) One-To-Many relationship.
+See the [lk_opportunityproduct_createdonbehalfby](systemuser.md#BKMK_lk_opportunityproduct_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_opportunityproductbase_modifiedby"></a> lk_opportunityproductbase_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_opportunityproductbase_modifiedby](systemuser.md#BKMK_lk_opportunityproductbase_modifiedby) One-To-Many relationship.
+See the [lk_opportunityproductbase_modifiedby](systemuser.md#BKMK_lk_opportunityproductbase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_opportunityproduct_modifiedonbehalfby"></a> lk_opportunityproduct_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_opportunityproduct_modifiedonbehalfby](systemuser.md#BKMK_lk_opportunityproduct_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_opportunityproduct_modifiedonbehalfby](systemuser.md#BKMK_lk_opportunityproduct_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_user_opportunityproduct"></a> user_opportunityproduct
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_opportunityproduct](systemuser.md#BKMK_user_opportunityproduct) One-To-Many relationship.
+See the [user_opportunityproduct](systemuser.md#BKMK_user_opportunityproduct) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_opportunityproduct"></a> team_opportunityproduct
 
 **Added by**: System Solution Solution
 
-See team Entity [team_opportunityproduct](team.md#BKMK_team_opportunityproduct) One-To-Many relationship.
+See the [team_opportunityproduct](team.md#BKMK_team_opportunityproduct) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_transactioncurrency_opportunityproduct"></a> transactioncurrency_opportunityproduct
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [transactioncurrency_opportunityproduct](transactioncurrency.md#BKMK_transactioncurrency_opportunityproduct) One-To-Many relationship.
+See the [transactioncurrency_opportunityproduct](transactioncurrency.md#BKMK_transactioncurrency_opportunityproduct) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_product_opportunities"></a> product_opportunities
 
-See opportunity Entity [product_opportunities](opportunity.md#BKMK_product_opportunities) One-To-Many relationship.
+See the [product_opportunities](opportunity.md#BKMK_product_opportunities) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_opportunityproduct_parent_opportunityproduct"></a> opportunityproduct_parent_opportunityproduct
 
-See opportunityproduct Entity [opportunityproduct_parent_opportunityproduct](opportunityproduct.md#BKMK_opportunityproduct_parent_opportunityproduct) One-To-Many relationship.
+See the [opportunityproduct_parent_opportunityproduct](opportunityproduct.md#BKMK_opportunityproduct_parent_opportunityproduct) one-to-many relationship for the [opportunityproduct](opportunityproduct.md) entity.
 
 ### <a name="BKMK_opportunity_products"></a> opportunity_products
 
 **Added by**: Product Management Solution
 
-See product Entity [opportunity_products](product.md#BKMK_opportunity_products) One-To-Many relationship.
+See the [opportunity_products](product.md#BKMK_opportunity_products) one-to-many relationship for the [product](product.md) entity.
 
 ### <a name="BKMK_productAssociation_opportunity_product"></a> productAssociation_opportunity_product
 
 **Added by**: Product Management Solution
 
-See productassociation Entity [productAssociation_opportunity_product](productassociation.md#BKMK_productAssociation_opportunity_product) One-To-Many relationship.
+See the [productAssociation_opportunity_product](productassociation.md#BKMK_productAssociation_opportunity_product) one-to-many relationship for the [productassociation](productassociation.md) entity.
 
 ### <a name="BKMK_unit_of_measurement_opportunity_products"></a> unit_of_measurement_opportunity_products
 
 **Added by**: Product Management Solution
 
-See uom Entity [unit_of_measurement_opportunity_products](uom.md#BKMK_unit_of_measurement_opportunity_products) One-To-Many relationship.
+See the [unit_of_measurement_opportunity_products](uom.md#BKMK_unit_of_measurement_opportunity_products) one-to-many relationship for the [uom](uom.md) entity.
 
 ### <a name="BKMK_opportunityproduct_parentref_opportunityproduct"></a> opportunityproduct_parentref_opportunityproduct
 
-See opportunityproduct Entity [opportunityproduct_parentref_opportunityproduct](opportunityproduct.md#BKMK_opportunityproduct_parentref_opportunityproduct) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_msdyn_project_opportunityproduct_Project"></a> msdyn_msdyn_project_opportunityproduct_Project
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_project Entity [msdyn_msdyn_project_opportunityproduct_Project](msdyn_project.md#BKMK_msdyn_msdyn_project_opportunityproduct_Project) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_account_opportunityproduct_ServiceAccount"></a> msdyn_account_opportunityproduct_ServiceAccount
-
-**Added by**: System Solution Solution
-
-See account Entity [msdyn_account_opportunityproduct_ServiceAccount](account.md#BKMK_msdyn_account_opportunityproduct_ServiceAccount) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_pricelevel_opportunityproduct_PriceList"></a> msdyn_pricelevel_opportunityproduct_PriceList
-
-**Added by**: Product Management Solution
-
-See pricelevel Entity [msdyn_pricelevel_opportunityproduct_PriceList](pricelevel.md#BKMK_msdyn_pricelevel_opportunityproduct_PriceList) One-To-Many relationship.
+See the [opportunityproduct_parentref_opportunityproduct](opportunityproduct.md#BKMK_opportunityproduct_parentref_opportunityproduct) one-to-many relationship for the [opportunityproduct](opportunityproduct.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.opportunityproduct?text=opportunityproduct EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

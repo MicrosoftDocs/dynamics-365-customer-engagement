@@ -1,27 +1,22 @@
 ---
-title: "Work with Predictive opportunity scoring"
-description: "Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates."
-keywords: ""
-ms.date: 01/25/2022
+title: Prioritize opportunities through predictive scores
+description: Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates.
+ms.date: 03/06/2023
 ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
-manager: shujoshi
-caps.latest.revision: 1
-
+author: lavanyakr01
+ms.author: lavanyakr
 ---
-# Prioritize opportunities through scores 
+# Prioritize opportunities through predictive scores
 
 Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above  <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## What is predictive opportunity scoring
 
@@ -119,6 +114,6 @@ The following screenshot illustrates the reason and tooltip for the time spent i
 ### See also
 
 [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)  
-[Predictive lead/opportunity scoring FAQs](faqs-sales-insights.md#predictive-leadopportunity-scoring)
+[Predictive lead and opportunity scoring](faqs-sales-insights.md#predictive-lead-and-opportunity-scoring)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

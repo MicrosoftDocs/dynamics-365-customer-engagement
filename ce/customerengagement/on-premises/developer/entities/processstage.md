@@ -1,31 +1,29 @@
 ---
-title: "ProcessStage Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ProcessStage entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the ProcessStage entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# ProcessStage Entity Reference
+
+# ProcessStage entity reference
 
 Stage associated with a process.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Retrieve|GET [*org URI*]/api/data/v9.0/processstages(*processstageid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveActivePath|<xref href="Microsoft.Dynamics.CRM.RetrieveActivePath?text=RetrieveActivePath Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveActivePathRequest>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/processstages<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveActivePath|<xref:Microsoft.Crm.Sdk.Messages.RetrieveActivePathRequest>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -109,18 +107,18 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### StageCategory Options
+#### StageCategory Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Qualify|
-|1|Develop|
-|2|Propose|
-|3|Close|
-|4|Identify|
-|5|Research|
-|6|Resolve|
-|7|Approval|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Qualify||
+|1|Develop||
+|2|Propose||
+|3|Close||
+|4|Identify||
+|5|Research||
+|6|Resolve||
+|7|Approval||
 
 
 
@@ -245,6 +243,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
+- [processstage_knowledgearticle](#BKMK_processstage_knowledgearticle)
 - [processstage_lead](#BKMK_processstage_lead)
 - [processstage_products](#BKMK_processstage_products)
 - [processstage_productpricelevels](#BKMK_processstage_productpricelevels)
@@ -267,29 +266,6 @@ Listed by **SchemaName**.
 - [processstage_salesliteratures](#BKMK_processstage_salesliteratures)
 - [processstage_salesorders](#BKMK_processstage_salesorders)
 - [processstage_competitors](#BKMK_processstage_competitors)
-- [processstage_msdyn_timegroup](#BKMK_processstage_msdyn_timegroup)
-- [processstage_msdyn_timegroupdetail](#BKMK_processstage_msdyn_timegroupdetail)
-- [lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_activestageid](#BKMK_lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_activestageid)
-- [lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_activestageid](#BKMK_lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_activestageid)
-- [processstage_msdyn_expense](#BKMK_processstage_msdyn_expense)
-- [processstage_msdyn_journal](#BKMK_processstage_msdyn_journal)
-- [processstage_msdyn_project](#BKMK_processstage_msdyn_project)
-- [processstage_msdyn_timeentry](#BKMK_processstage_msdyn_timeentry)
-- [processstage_msdyn_agreement](#BKMK_processstage_msdyn_agreement)
-- [processstage_msdyn_agreementbookingsetup](#BKMK_processstage_msdyn_agreementbookingsetup)
-- [processstage_msdyn_agreementinvoicesetup](#BKMK_processstage_msdyn_agreementinvoicesetup)
-- [lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_activestageid](#BKMK_lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_activestageid)
-- [lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_activestageid](#BKMK_lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_activestageid)
-- [lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_activestageid](#BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_activestageid)
-- [lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_activestageid](#BKMK_lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_activestageid)
-- [processstage_msdyn_purchaseorder](#BKMK_processstage_msdyn_purchaseorder)
-- [processstage_msdyn_purchaseorderbill](#BKMK_processstage_msdyn_purchaseorderbill)
-- [processstage_msdyn_purchaseorderreceipt](#BKMK_processstage_msdyn_purchaseorderreceipt)
-- [processstage_msdyn_quotebookingsetup](#BKMK_processstage_msdyn_quotebookingsetup)
-- [processstage_msdyn_workorder](#BKMK_processstage_msdyn_workorder)
-- [processstage_msdyn_iotalert](#BKMK_processstage_msdyn_iotalert)
-- [lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_activestageid](#BKMK_lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_activestageid)
-- [processstage_knowledgearticle](#BKMK_processstage_knowledgearticle)
 - [processstage_contact](#BKMK_processstage_contact)
 - [processstage_teams](#BKMK_processstage_teams)
 - [ProcessStage_SyncErrors](#BKMK_ProcessStage_SyncErrors)
@@ -307,11 +283,26 @@ Listed by **SchemaName**.
 - [lk_expiredprocess_activestageid](#BKMK_lk_expiredprocess_activestageid)
 
 
+### <a name="BKMK_processstage_knowledgearticle"></a> processstage_knowledgearticle
+
+Same as the [processstage_knowledgearticle](knowledgearticle.md#BKMK_processstage_knowledgearticle) many-to-one relationship for the [knowledgearticle](knowledgearticle.md) entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|knowledgearticle|
+|ReferencingAttribute|stageid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|processstage_knowledgearticle|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
 ### <a name="BKMK_processstage_lead"></a> processstage_lead
 
 **Added by**: Lead Management Solution
 
-Same as lead entity [processstage_lead](lead.md#BKMK_processstage_lead) Many-To-One relationship.
+Same as the [processstage_lead](lead.md#BKMK_processstage_lead) many-to-one relationship for the [lead](lead.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -328,7 +319,7 @@ Same as lead entity [processstage_lead](lead.md#BKMK_processstage_lead) Many-To-
 
 **Added by**: Product Management Solution
 
-Same as product entity [processstage_products](product.md#BKMK_processstage_products) Many-To-One relationship.
+Same as the [processstage_products](product.md#BKMK_processstage_products) many-to-one relationship for the [product](product.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -345,7 +336,7 @@ Same as product entity [processstage_products](product.md#BKMK_processstage_prod
 
 **Added by**: Product Management Solution
 
-Same as productpricelevel entity [processstage_productpricelevels](productpricelevel.md#BKMK_processstage_productpricelevels) Many-To-One relationship.
+Same as the [processstage_productpricelevels](productpricelevel.md#BKMK_processstage_productpricelevels) many-to-one relationship for the [productpricelevel](productpricelevel.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -362,7 +353,7 @@ Same as productpricelevel entity [processstage_productpricelevels](productpricel
 
 **Added by**: Scheduling Solution
 
-Same as bookableresource entity [processstage_BookableResource](bookableresource.md#BKMK_processstage_BookableResource) Many-To-One relationship.
+Same as the [processstage_BookableResource](bookableresource.md#BKMK_processstage_BookableResource) many-to-one relationship for the [bookableresource](bookableresource.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -379,7 +370,7 @@ Same as bookableresource entity [processstage_BookableResource](bookableresource
 
 **Added by**: Scheduling Solution
 
-Same as bookableresourcebooking entity [processstage_BookableResourceBooking](bookableresourcebooking.md#BKMK_processstage_BookableResourceBooking) Many-To-One relationship.
+Same as the [processstage_BookableResourceBooking](bookableresourcebooking.md#BKMK_processstage_BookableResourceBooking) many-to-one relationship for the [bookableresourcebooking](bookableresourcebooking.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -396,7 +387,7 @@ Same as bookableresourcebooking entity [processstage_BookableResourceBooking](bo
 
 **Added by**: Scheduling Solution
 
-Same as bookableresourcebookingheader entity [processstage_BookableResourceBookingHeader](bookableresourcebookingheader.md#BKMK_processstage_BookableResourceBookingHeader) Many-To-One relationship.
+Same as the [processstage_BookableResourceBookingHeader](bookableresourcebookingheader.md#BKMK_processstage_BookableResourceBookingHeader) many-to-one relationship for the [bookableresourcebookingheader](bookableresourcebookingheader.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -413,7 +404,7 @@ Same as bookableresourcebookingheader entity [processstage_BookableResourceBooki
 
 **Added by**: Scheduling Solution
 
-Same as bookableresourcecharacteristic entity [processstage_BookableResourceCharacteristic](bookableresourcecharacteristic.md#BKMK_processstage_BookableResourceCharacteristic) Many-To-One relationship.
+Same as the [processstage_BookableResourceCharacteristic](bookableresourcecharacteristic.md#BKMK_processstage_BookableResourceCharacteristic) many-to-one relationship for the [bookableresourcecharacteristic](bookableresourcecharacteristic.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -430,7 +421,7 @@ Same as bookableresourcecharacteristic entity [processstage_BookableResourceChar
 
 **Added by**: Marketing Solution
 
-Same as campaign entity [processstage_campaigns](campaign.md#BKMK_processstage_campaigns) Many-To-One relationship.
+Same as the [processstage_campaigns](campaign.md#BKMK_processstage_campaigns) many-to-one relationship for the [campaign](campaign.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -447,7 +438,7 @@ Same as campaign entity [processstage_campaigns](campaign.md#BKMK_processstage_c
 
 **Added by**: Marketing Solution
 
-Same as campaignactivity entity [processstage_campaignactivities](campaignactivity.md#BKMK_processstage_campaignactivities) Many-To-One relationship.
+Same as the [processstage_campaignactivities](campaignactivity.md#BKMK_processstage_campaignactivities) many-to-one relationship for the [campaignactivity](campaignactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -464,7 +455,7 @@ Same as campaignactivity entity [processstage_campaignactivities](campaignactivi
 
 **Added by**: Marketing Solution
 
-Same as campaignresponse entity [processstage_campaignresponses](campaignresponse.md#BKMK_processstage_campaignresponses) Many-To-One relationship.
+Same as the [processstage_campaignresponses](campaignresponse.md#BKMK_processstage_campaignresponses) many-to-one relationship for the [campaignresponse](campaignresponse.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -481,7 +472,7 @@ Same as campaignresponse entity [processstage_campaignresponses](campaignrespons
 
 **Added by**: Marketing Solution
 
-Same as list entity [processstage_lists](list.md#BKMK_processstage_lists) Many-To-One relationship.
+Same as the [processstage_lists](list.md#BKMK_processstage_lists) many-to-one relationship for the [list](list.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -498,7 +489,7 @@ Same as list entity [processstage_lists](list.md#BKMK_processstage_lists) Many-T
 
 **Added by**: Service Solution
 
-Same as entitlement entity [processstage_Entitlement](entitlement.md#BKMK_processstage_Entitlement) Many-To-One relationship.
+Same as the [processstage_Entitlement](entitlement.md#BKMK_processstage_Entitlement) many-to-one relationship for the [entitlement](entitlement.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -515,7 +506,7 @@ Same as entitlement entity [processstage_Entitlement](entitlement.md#BKMK_proces
 
 **Added by**: Service Solution
 
-Same as incident entity [processstage_incident](incident.md#BKMK_processstage_incident) Many-To-One relationship.
+Same as the [processstage_incident](incident.md#BKMK_processstage_incident) many-to-one relationship for the [incident](incident.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -532,7 +523,7 @@ Same as incident entity [processstage_incident](incident.md#BKMK_processstage_in
 
 **Added by**: Service Solution
 
-Same as phonetocaseprocess entity [lk_phonetocaseprocess_activestageid](phonetocaseprocess.md#BKMK_lk_phonetocaseprocess_activestageid) Many-To-One relationship.
+Same as the [lk_phonetocaseprocess_activestageid](phonetocaseprocess.md#BKMK_lk_phonetocaseprocess_activestageid) many-to-one relationship for the [phonetocaseprocess](phonetocaseprocess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -549,7 +540,7 @@ Same as phonetocaseprocess entity [lk_phonetocaseprocess_activestageid](phonetoc
 
 **Added by**: Sales Solution
 
-Same as invoice entity [processstage_invoices](invoice.md#BKMK_processstage_invoices) Many-To-One relationship.
+Same as the [processstage_invoices](invoice.md#BKMK_processstage_invoices) many-to-one relationship for the [invoice](invoice.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -566,7 +557,7 @@ Same as invoice entity [processstage_invoices](invoice.md#BKMK_processstage_invo
 
 **Added by**: Sales Solution
 
-Same as leadtoopportunitysalesprocess entity [lk_leadtoopportunitysalesprocess_activestageid](leadtoopportunitysalesprocess.md#BKMK_lk_leadtoopportunitysalesprocess_activestageid) Many-To-One relationship.
+Same as the [lk_leadtoopportunitysalesprocess_activestageid](leadtoopportunitysalesprocess.md#BKMK_lk_leadtoopportunitysalesprocess_activestageid) many-to-one relationship for the [leadtoopportunitysalesprocess](leadtoopportunitysalesprocess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -583,7 +574,7 @@ Same as leadtoopportunitysalesprocess entity [lk_leadtoopportunitysalesprocess_a
 
 **Added by**: Sales Solution
 
-Same as opportunity entity [processstage_opportunity](opportunity.md#BKMK_processstage_opportunity) Many-To-One relationship.
+Same as the [processstage_opportunity](opportunity.md#BKMK_processstage_opportunity) many-to-one relationship for the [opportunity](opportunity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -600,7 +591,7 @@ Same as opportunity entity [processstage_opportunity](opportunity.md#BKMK_proces
 
 **Added by**: Sales Solution
 
-Same as opportunitysalesprocess entity [lk_opportunitysalesprocess_activestageid](opportunitysalesprocess.md#BKMK_lk_opportunitysalesprocess_activestageid) Many-To-One relationship.
+Same as the [lk_opportunitysalesprocess_activestageid](opportunitysalesprocess.md#BKMK_lk_opportunitysalesprocess_activestageid) many-to-one relationship for the [opportunitysalesprocess](opportunitysalesprocess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -617,7 +608,7 @@ Same as opportunitysalesprocess entity [lk_opportunitysalesprocess_activestageid
 
 **Added by**: Sales Solution
 
-Same as quote entity [processstage_quotes](quote.md#BKMK_processstage_quotes) Many-To-One relationship.
+Same as the [processstage_quotes](quote.md#BKMK_processstage_quotes) many-to-one relationship for the [quote](quote.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -634,7 +625,7 @@ Same as quote entity [processstage_quotes](quote.md#BKMK_processstage_quotes) Ma
 
 **Added by**: Sales Solution
 
-Same as salesliterature entity [processstage_salesliteratures](salesliterature.md#BKMK_processstage_salesliteratures) Many-To-One relationship.
+Same as the [processstage_salesliteratures](salesliterature.md#BKMK_processstage_salesliteratures) many-to-one relationship for the [salesliterature](salesliterature.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -651,7 +642,7 @@ Same as salesliterature entity [processstage_salesliteratures](salesliterature.m
 
 **Added by**: Sales Solution
 
-Same as salesorder entity [processstage_salesorders](salesorder.md#BKMK_processstage_salesorders) Many-To-One relationship.
+Same as the [processstage_salesorders](salesorder.md#BKMK_processstage_salesorders) many-to-one relationship for the [salesorder](salesorder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -668,7 +659,7 @@ Same as salesorder entity [processstage_salesorders](salesorder.md#BKMK_processs
 
 **Added by**: Sales Solution
 
-Same as competitor entity [processstage_competitors](competitor.md#BKMK_processstage_competitors) Many-To-One relationship.
+Same as the [processstage_competitors](competitor.md#BKMK_processstage_competitors) many-to-one relationship for the [competitor](competitor.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -681,398 +672,9 @@ Same as competitor entity [processstage_competitors](competitor.md#BKMK_processs
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_processstage_msdyn_timegroup"></a> processstage_msdyn_timegroup
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_timegroup entity [processstage_msdyn_timegroup](msdyn_timegroup.md#BKMK_processstage_msdyn_timegroup) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_timegroup|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_timegroup|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_timegroupdetail"></a> processstage_msdyn_timegroupdetail
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_timegroupdetail entity [processstage_msdyn_timegroupdetail](msdyn_timegroupdetail.md#BKMK_processstage_msdyn_timegroupdetail) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_timegroupdetail|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_timegroupdetail|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_activestageid"></a> lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_activestageid
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bpf_665e73aa18c247d886bfc50499c73b82 entity [lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_activestageid](msdyn_bpf_665e73aa18c247d886bfc50499c73b82.md#BKMK_lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_activestageid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bpf_665e73aa18c247d886bfc50499c73b82|
-|ReferencingAttribute|activestageid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_activestageid|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_activestageid"></a> lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_activestageid
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d entity [lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_activestageid](msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d.md#BKMK_lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_activestageid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d|
-|ReferencingAttribute|activestageid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_activestageid|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_expense"></a> processstage_msdyn_expense
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_expense entity [processstage_msdyn_expense](msdyn_expense.md#BKMK_processstage_msdyn_expense) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_expense|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_expense|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_journal"></a> processstage_msdyn_journal
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_journal entity [processstage_msdyn_journal](msdyn_journal.md#BKMK_processstage_msdyn_journal) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_journal|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_journal|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_project"></a> processstage_msdyn_project
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_project entity [processstage_msdyn_project](msdyn_project.md#BKMK_processstage_msdyn_project) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_project|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_project|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_timeentry"></a> processstage_msdyn_timeentry
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_timeentry entity [processstage_msdyn_timeentry](msdyn_timeentry.md#BKMK_processstage_msdyn_timeentry) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_timeentry|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_timeentry|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_agreement"></a> processstage_msdyn_agreement
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_agreement entity [processstage_msdyn_agreement](msdyn_agreement.md#BKMK_processstage_msdyn_agreement) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_agreement|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_agreement|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_agreementbookingsetup"></a> processstage_msdyn_agreementbookingsetup
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_agreementbookingsetup entity [processstage_msdyn_agreementbookingsetup](msdyn_agreementbookingsetup.md#BKMK_processstage_msdyn_agreementbookingsetup) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_agreementbookingsetup|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_agreementbookingsetup|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_agreementinvoicesetup"></a> processstage_msdyn_agreementinvoicesetup
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_agreementinvoicesetup entity [processstage_msdyn_agreementinvoicesetup](msdyn_agreementinvoicesetup.md#BKMK_processstage_msdyn_agreementinvoicesetup) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_agreementinvoicesetup|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_agreementinvoicesetup|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_activestageid"></a> lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_activestageid
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bpf_2c5fe86acc8b414b8322ae571000c799 entity [lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_activestageid](msdyn_bpf_2c5fe86acc8b414b8322ae571000c799.md#BKMK_lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_activestageid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bpf_2c5fe86acc8b414b8322ae571000c799|
-|ReferencingAttribute|activestageid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_activestageid|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_activestageid"></a> lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_activestageid
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bpf_989e9b1857e24af18787d5143b67523b entity [lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_activestageid](msdyn_bpf_989e9b1857e24af18787d5143b67523b.md#BKMK_lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_activestageid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bpf_989e9b1857e24af18787d5143b67523b|
-|ReferencingAttribute|activestageid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_activestageid|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_activestageid"></a> lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_activestageid
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 entity [lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_activestageid](msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3.md#BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_activestageid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3|
-|ReferencingAttribute|activestageid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_activestageid|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_activestageid"></a> lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_activestageid
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 entity [lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_activestageid](msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39.md#BKMK_lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_activestageid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39|
-|ReferencingAttribute|activestageid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_activestageid|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_purchaseorder"></a> processstage_msdyn_purchaseorder
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_purchaseorder entity [processstage_msdyn_purchaseorder](msdyn_purchaseorder.md#BKMK_processstage_msdyn_purchaseorder) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_purchaseorder|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_purchaseorder|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_purchaseorderbill"></a> processstage_msdyn_purchaseorderbill
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_purchaseorderbill entity [processstage_msdyn_purchaseorderbill](msdyn_purchaseorderbill.md#BKMK_processstage_msdyn_purchaseorderbill) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_purchaseorderbill|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_purchaseorderbill|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_purchaseorderreceipt"></a> processstage_msdyn_purchaseorderreceipt
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_purchaseorderreceipt entity [processstage_msdyn_purchaseorderreceipt](msdyn_purchaseorderreceipt.md#BKMK_processstage_msdyn_purchaseorderreceipt) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_purchaseorderreceipt|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_purchaseorderreceipt|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_quotebookingsetup"></a> processstage_msdyn_quotebookingsetup
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_quotebookingsetup entity [processstage_msdyn_quotebookingsetup](msdyn_quotebookingsetup.md#BKMK_processstage_msdyn_quotebookingsetup) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_quotebookingsetup|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_quotebookingsetup|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_workorder"></a> processstage_msdyn_workorder
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_workorder entity [processstage_msdyn_workorder](msdyn_workorder.md#BKMK_processstage_msdyn_workorder) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_workorder|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_workorder|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_msdyn_iotalert"></a> processstage_msdyn_iotalert
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_iotalert entity [processstage_msdyn_iotalert](msdyn_iotalert.md#BKMK_processstage_msdyn_iotalert) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_iotalert|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_msdyn_iotalert|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_activestageid"></a> lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_activestageid
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b entity [lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_activestageid](msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b.md#BKMK_lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_activestageid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b|
-|ReferencingAttribute|activestageid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_activestageid|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_processstage_knowledgearticle"></a> processstage_knowledgearticle
-
-Same as knowledgearticle entity [processstage_knowledgearticle](knowledgearticle.md#BKMK_processstage_knowledgearticle) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|knowledgearticle|
-|ReferencingAttribute|stageid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|processstage_knowledgearticle|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_processstage_contact"></a> processstage_contact
 
-Same as contact entity [processstage_contact](contact.md#BKMK_processstage_contact) Many-To-One relationship.
+Same as the [processstage_contact](contact.md#BKMK_processstage_contact) many-to-one relationship for the [contact](contact.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1087,7 +689,7 @@ Same as contact entity [processstage_contact](contact.md#BKMK_processstage_conta
 
 ### <a name="BKMK_processstage_teams"></a> processstage_teams
 
-Same as team entity [processstage_teams](team.md#BKMK_processstage_teams) Many-To-One relationship.
+Same as the [processstage_teams](team.md#BKMK_processstage_teams) many-to-one relationship for the [team](team.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1102,7 +704,7 @@ Same as team entity [processstage_teams](team.md#BKMK_processstage_teams) Many-T
 
 ### <a name="BKMK_ProcessStage_SyncErrors"></a> ProcessStage_SyncErrors
 
-Same as syncerror entity [ProcessStage_SyncErrors](syncerror.md#BKMK_ProcessStage_SyncErrors) Many-To-One relationship.
+Same as the [ProcessStage_SyncErrors](syncerror.md#BKMK_ProcessStage_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1117,7 +719,7 @@ Same as syncerror entity [ProcessStage_SyncErrors](syncerror.md#BKMK_ProcessStag
 
 ### <a name="BKMK_processstage_recurringappointmentmasters"></a> processstage_recurringappointmentmasters
 
-Same as recurringappointmentmaster entity [processstage_recurringappointmentmasters](recurringappointmentmaster.md#BKMK_processstage_recurringappointmentmasters) Many-To-One relationship.
+Same as the [processstage_recurringappointmentmasters](recurringappointmentmaster.md#BKMK_processstage_recurringappointmentmasters) many-to-one relationship for the [recurringappointmentmaster](recurringappointmentmaster.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1132,7 +734,7 @@ Same as recurringappointmentmaster entity [processstage_recurringappointmentmast
 
 ### <a name="BKMK_processstage_letters"></a> processstage_letters
 
-Same as letter entity [processstage_letters](letter.md#BKMK_processstage_letters) Many-To-One relationship.
+Same as the [processstage_letters](letter.md#BKMK_processstage_letters) many-to-one relationship for the [letter](letter.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1147,7 +749,7 @@ Same as letter entity [processstage_letters](letter.md#BKMK_processstage_letters
 
 ### <a name="BKMK_processstage_faxes"></a> processstage_faxes
 
-Same as fax entity [processstage_faxes](fax.md#BKMK_processstage_faxes) Many-To-One relationship.
+Same as the [processstage_faxes](fax.md#BKMK_processstage_faxes) many-to-one relationship for the [fax](fax.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1162,7 +764,7 @@ Same as fax entity [processstage_faxes](fax.md#BKMK_processstage_faxes) Many-To-
 
 ### <a name="BKMK_processstage_tasks"></a> processstage_tasks
 
-Same as task entity [processstage_tasks](task.md#BKMK_processstage_tasks) Many-To-One relationship.
+Same as the [processstage_tasks](task.md#BKMK_processstage_tasks) many-to-one relationship for the [task](task.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1177,7 +779,7 @@ Same as task entity [processstage_tasks](task.md#BKMK_processstage_tasks) Many-T
 
 ### <a name="BKMK_processstage_account"></a> processstage_account
 
-Same as account entity [processstage_account](account.md#BKMK_processstage_account) Many-To-One relationship.
+Same as the [processstage_account](account.md#BKMK_processstage_account) many-to-one relationship for the [account](account.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1192,7 +794,7 @@ Same as account entity [processstage_account](account.md#BKMK_processstage_accou
 
 ### <a name="BKMK_lk_translationprocess_activestageid"></a> lk_translationprocess_activestageid
 
-Same as translationprocess entity [lk_translationprocess_activestageid](translationprocess.md#BKMK_lk_translationprocess_activestageid) Many-To-One relationship.
+Same as the [lk_translationprocess_activestageid](translationprocess.md#BKMK_lk_translationprocess_activestageid) many-to-one relationship for the [translationprocess](translationprocess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1207,7 +809,7 @@ Same as translationprocess entity [lk_translationprocess_activestageid](translat
 
 ### <a name="BKMK_processstage_systemusers"></a> processstage_systemusers
 
-Same as systemuser entity [processstage_systemusers](systemuser.md#BKMK_processstage_systemusers) Many-To-One relationship.
+Same as the [processstage_systemusers](systemuser.md#BKMK_processstage_systemusers) many-to-one relationship for the [systemuser](systemuser.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1222,7 +824,7 @@ Same as systemuser entity [processstage_systemusers](systemuser.md#BKMK_processs
 
 ### <a name="BKMK_lk_newprocess_activestageid"></a> lk_newprocess_activestageid
 
-Same as newprocess entity [lk_newprocess_activestageid](newprocess.md#BKMK_lk_newprocess_activestageid) Many-To-One relationship.
+Same as the [lk_newprocess_activestageid](newprocess.md#BKMK_lk_newprocess_activestageid) many-to-one relationship for the [newprocess](newprocess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1237,7 +839,7 @@ Same as newprocess entity [lk_newprocess_activestageid](newprocess.md#BKMK_lk_ne
 
 ### <a name="BKMK_processstage_emails"></a> processstage_emails
 
-Same as email entity [processstage_emails](email.md#BKMK_processstage_emails) Many-To-One relationship.
+Same as the [processstage_emails](email.md#BKMK_processstage_emails) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1252,7 +854,7 @@ Same as email entity [processstage_emails](email.md#BKMK_processstage_emails) Ma
 
 ### <a name="BKMK_processstage_appointments"></a> processstage_appointments
 
-Same as appointment entity [processstage_appointments](appointment.md#BKMK_processstage_appointments) Many-To-One relationship.
+Same as the [processstage_appointments](appointment.md#BKMK_processstage_appointments) many-to-one relationship for the [appointment](appointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1267,7 +869,7 @@ Same as appointment entity [processstage_appointments](appointment.md#BKMK_proce
 
 ### <a name="BKMK_processstage_phonecalls"></a> processstage_phonecalls
 
-Same as phonecall entity [processstage_phonecalls](phonecall.md#BKMK_processstage_phonecalls) Many-To-One relationship.
+Same as the [processstage_phonecalls](phonecall.md#BKMK_processstage_phonecalls) many-to-one relationship for the [phonecall](phonecall.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1282,7 +884,7 @@ Same as phonecall entity [processstage_phonecalls](phonecall.md#BKMK_processstag
 
 ### <a name="BKMK_lk_expiredprocess_activestageid"></a> lk_expiredprocess_activestageid
 
-Same as expiredprocess entity [lk_expiredprocess_activestageid](expiredprocess.md#BKMK_lk_expiredprocess_activestageid) Many-To-One relationship.
+Same as the [lk_expiredprocess_activestageid](expiredprocess.md#BKMK_lk_expiredprocess_activestageid) many-to-one relationship for the [expiredprocess](expiredprocess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1303,13 +905,9 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_process_processstage"></a> process_processstage
 
-See workflow Entity [process_processstage](workflow.md#BKMK_process_processstage) One-To-Many relationship.
+See the [process_processstage](workflow.md#BKMK_process_processstage) one-to-many relationship for the [workflow](workflow.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.processstage?text=processstage EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

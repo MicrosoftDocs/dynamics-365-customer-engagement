@@ -5,16 +5,12 @@ ms.date: 01/29/2018
 searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: common-scheduler
 ms.topic: conceptual
-author: FieldServiceDave
-ms.author: daclar
-search.app: 
-  - D365CE
-  - D365PS
-  - D365FS
+author: m-hartmann
+ms.author: mhart
 ---
 # Extend Universal Resource Scheduling actions to use your preferred geospatial data provider
 

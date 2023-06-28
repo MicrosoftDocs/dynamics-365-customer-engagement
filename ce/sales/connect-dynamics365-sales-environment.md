@@ -1,36 +1,36 @@
 ---
-title: "Connect or disconnect to your Dynamics 365 Sales environment"
-description: "Use data source to connect or disconnect multiple Dynamics 365 Sales environment with your conversation intelligence."
-ms.date: 01/10/2022
+title: "Connect conversation intelligence to an environment"
+description: "Use data source to connect or disconnect multiple environments with conversation intelligence."
+ms.date: 09/30/2022
 ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
-manager: shujoshi
-caps.latest.revision: 1
-topic-status: Drafting
+author: lavanyakr01
+ms.author: lavanyakr
 ---
-# Connect to Dynamics 365 Sales environment 
+# Connect conversation intelligence to an environment  
 
-The **Data sources** section helps you to disconnect or connect a Dynamics 365 Sales environment with your conversation intelligence. If you have multiple environments in your organization and want to activate another environment to display data in the application, use this section. 
+The **Data sources** section helps you to disconnect or connect an environment with conversation intelligence. If you have multiple environments in your organization and want to activate another environment to display data in the application, use this section. 
 
-At a time, you can have only one active Dynamics 365 Sales environment that is connected to the application. When you activate an environment, the existing environment will automatically deactivate, and the new environment’s data will be displayed on the application. Also, you must add tracked keywords and competitors as well as provide permission to access the data to the added environment.
+> [!NOTE]
+> Throughout this article, environment refers to a [Power Platform environment with a Dataverse database](/power-platform/admin/create-environment#create-an-environment-with-a-database) that hosts Dynamics 365 Sales.
 
-As an administrator, you must configure the Dynamics 365 Sales environment to connect to conversation intelligence.
+At a time, you can have only one active environment that is connected to the application. When you activate an environment, the existing environment will automatically deactivate, and the new environment’s data will be displayed on the application. Also, you must add tracked keywords and competitors as well as provide permission to access the data to the added environment.
+
+As an administrator, you must configure the environment to connect to conversation intelligence.
 
 ## License and role requirements
 
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## To connect to a Dynamics 365 Sales environment 
+
+## To connect to an environment 
 
 1.	Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
 
-2.	Open the **Conversation intelligence** application. 
+2.	Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/). 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
@@ -42,15 +42,15 @@ As an administrator, you must configure the Dynamics 365 Sales environment to co
     > [!div class="mx-imgBorder"]
     > ![Data source section](media/si-app-admin-select-data-source.png "Data source section")
  
-5.	In the **Dynamics 365 environment** section, select **+ Add an environment**.
+5.	In the **Dynamics 365 environment** section, select **Add an environment**.
 
     > [!div class="mx-imgBorder"]
     > ![Select an environment to add](media/si-app-admin-select-add-an-environment.png "Select an environment to add")
  
-6.	In the **Connect your data** dialog box, select your Dynamics 365 Sales environment to connect with the application.
+6.	In the **Connect your data** dialog box, select the Power Platform environment that hosts Dynamics 365 Sales, to connect with the application.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Dynamics 365 Sales environment](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 Sales environment")
+    > ![Select the environment](media/si-app-admin-connect-d365-organization.png "Select the environment")
 
     The application now detects your environment.
 

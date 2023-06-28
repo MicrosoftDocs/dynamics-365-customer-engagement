@@ -5,7 +5,6 @@ ms.date: 07/01/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -41,12 +40,12 @@ To unlink a record, select the **X** button next to the customer name in the **C
 > [Understand conversation states](conversation-state.md)
 
 
-## See also
+### See also
 
-- [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
-- [Create a record](create-record.md)
-- [Search for records](search-record.md)
+[View call scripts, take notes, and search knowledge articles](right-control-panel.md)
+[View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
+[Create a record](create-record.md)
+[Search for records](search-record.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

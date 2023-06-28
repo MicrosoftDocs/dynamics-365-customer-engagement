@@ -1,11 +1,10 @@
 ---
 title: "Define playbook categories | MicrosoftDocs"
 description: "Create playbook categories to classify playbooks based on the audience, objective, or any other criteria."
-ms.date: 10/25/2021
+ms.date: 05/08/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -19,15 +18,17 @@ searchScope:
 ---
 # Define playbook categories 
 
+> [!NOTE]
+> Starting July 7, 2023, playbooks will be deprecated region-wise. Move your playbook templates to sequences to create scheduled and conditional workflows. [Learn more](deprecations-sales.md#playbooks-will-be-deprecated)  
+
 You can create categories to classify playbooks. For example, categories could be contract renewals or decision maker departures.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Playbook Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Playbook Manager <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 
 ## Create playbook categories

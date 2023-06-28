@@ -1,5 +1,6 @@
 ---
 title: "Control field synchronization between Dynamics 365 apps and Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn about how admins can use field synchronization to set the sync direction between Dynamics 365 apps and Dynamics 365 for Outlook fields.
 ms.custom: 
 ms.date: 11/28/2016
 ms.reviewer: 
@@ -13,14 +14,10 @@ ms.assetid: d570e1f0-d319-46c6-a247-00c32c78df3b
 caps.latest.revision: 20
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Control field synchronization between Dynamics 365 apps and Dynamics 365 for Outlook
 With field synchronization, admins can set the sync direction between Dynamics 365 and [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] fields. You can control synchronization when using either [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] synchronization or server-side synchronization ([!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]).  

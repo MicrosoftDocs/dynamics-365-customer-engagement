@@ -1,18 +1,16 @@
 ---
-title: "BulkOperationLog Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "BulkOperationLog entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the BulkOperationLog entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# BulkOperationLog Entity Reference
+
+# BulkOperationLog entity reference
 
 Log used to track bulk operation execution, successes, and failures.
 
@@ -21,13 +19,13 @@ Log used to track bulk operation execution, successes, and failures.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/bulkoperationlogs<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/bulkoperationlogs(*bulkoperationlogid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bulkoperationlogs<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -55,8 +53,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [BulkOperationLogId](#BKMK_BulkOperationLogId)
 - [CreatedObjectId](#BKMK_CreatedObjectId)
 - [CreatedObjectIdTypeCode](#BKMK_CreatedObjectIdTypeCode)
-- [ErrorDescriptionFormatted](#BKMK_ErrorDescriptionFormatted)
-- [ErrorNumberFormatted](#BKMK_ErrorNumberFormatted)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -158,42 +154,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|EntityName|
 
 
-### <a name="BKMK_ErrorDescriptionFormatted"></a> ErrorDescriptionFormatted
-
-**Added by**: Marketing Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|The error description formatted.|
-|DisplayName|Error description formatted|
-|Format|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|errordescriptionformatted|
-|MaxLength|2000|
-|RequiredLevel|None|
-|Type|Memo|
-
-
-### <a name="BKMK_ErrorNumberFormatted"></a> ErrorNumberFormatted
-
-**Added by**: Marketing Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|The error number formatted.|
-|DisplayName|Error number formatted|
-|Format|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|errornumberformatted|
-|MaxLength|2000|
-|RequiredLevel|None|
-|Type|Memo|
-
-
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
 |Property|Value|
@@ -248,7 +208,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Choose the account, contact, lead, or list that the bulk operation log item applies to.|
-|DisplayName|Customers|
+|DisplayName|Customers Excluded|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
@@ -572,7 +532,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [bulkoperationlog_SyncErrors](syncerror.md#BKMK_bulkoperationlog_SyncErrors) Many-To-One relationship.
+Same as the [bulkoperationlog_SyncErrors](syncerror.md#BKMK_bulkoperationlog_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -589,7 +549,7 @@ Same as syncerror entity [bulkoperationlog_SyncErrors](syncerror.md#BKMK_bulkope
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [BulkOperationLog_AsyncOperations](asyncoperation.md#BKMK_BulkOperationLog_AsyncOperations) Many-To-One relationship.
+Same as the [BulkOperationLog_AsyncOperations](asyncoperation.md#BKMK_BulkOperationLog_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -606,7 +566,7 @@ Same as asyncoperation entity [BulkOperationLog_AsyncOperations](asyncoperation.
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [bulkoperationlog_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bulkoperationlog_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [bulkoperationlog_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bulkoperationlog_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -623,7 +583,7 @@ Same as mailboxtrackingfolder entity [bulkoperationlog_MailboxTrackingFolders](m
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [BulkOperationLog_BulkDeleteFailures](bulkdeletefailure.md#BKMK_BulkOperationLog_BulkDeleteFailures) Many-To-One relationship.
+Same as the [BulkOperationLog_BulkDeleteFailures](bulkdeletefailure.md#BKMK_BulkOperationLog_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -640,7 +600,7 @@ Same as bulkdeletefailure entity [BulkOperationLog_BulkDeleteFailures](bulkdelet
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [bulkoperationlog_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_bulkoperationlog_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [bulkoperationlog_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_bulkoperationlog_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -676,77 +636,73 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_bulkoperationlog](systemuser.md#BKMK_user_bulkoperationlog) One-To-Many relationship.
+See the [user_bulkoperationlog](systemuser.md#BKMK_user_bulkoperationlog) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_bulkoperationlog"></a> team_bulkoperationlog
 
 **Added by**: System Solution Solution
 
-See team Entity [team_bulkoperationlog](team.md#BKMK_team_bulkoperationlog) One-To-Many relationship.
+See the [team_bulkoperationlog](team.md#BKMK_team_bulkoperationlog) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_CreatedAccount_BulkOperationLogs2"></a> CreatedAccount_BulkOperationLogs2
 
 **Added by**: System Solution Solution
 
-See account Entity [CreatedAccount_BulkOperationLogs2](account.md#BKMK_CreatedAccount_BulkOperationLogs2) One-To-Many relationship.
+See the [CreatedAccount_BulkOperationLogs2](account.md#BKMK_CreatedAccount_BulkOperationLogs2) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_SourceAccount_BulkOperationLogs"></a> SourceAccount_BulkOperationLogs
 
 **Added by**: System Solution Solution
 
-See account Entity [SourceAccount_BulkOperationLogs](account.md#BKMK_SourceAccount_BulkOperationLogs) One-To-Many relationship.
+See the [SourceAccount_BulkOperationLogs](account.md#BKMK_SourceAccount_BulkOperationLogs) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_activity_pointer_BulkOperation_logs"></a> activity_pointer_BulkOperation_logs
 
 **Added by**: System Solution Solution
 
-See activitypointer Entity [activity_pointer_BulkOperation_logs](activitypointer.md#BKMK_activity_pointer_BulkOperation_logs) One-To-Many relationship.
+See the [activity_pointer_BulkOperation_logs](activitypointer.md#BKMK_activity_pointer_BulkOperation_logs) one-to-many relationship for the [activitypointer](activitypointer.md) entity.
 
 ### <a name="BKMK_CreatedActivity_BulkOperationLogs"></a> CreatedActivity_BulkOperationLogs
 
 **Added by**: System Solution Solution
 
-See activitypointer Entity [CreatedActivity_BulkOperationLogs](activitypointer.md#BKMK_CreatedActivity_BulkOperationLogs) One-To-Many relationship.
+See the [CreatedActivity_BulkOperationLogs](activitypointer.md#BKMK_CreatedActivity_BulkOperationLogs) one-to-many relationship for the [activitypointer](activitypointer.md) entity.
 
 ### <a name="BKMK_BulkOperation_logs"></a> BulkOperation_logs
 
-See bulkoperation Entity [BulkOperation_logs](bulkoperation.md#BKMK_BulkOperation_logs) One-To-Many relationship.
+See the [BulkOperation_logs](bulkoperation.md#BKMK_BulkOperation_logs) one-to-many relationship for the [bulkoperation](bulkoperation.md) entity.
 
 ### <a name="BKMK_CreatedContact_BulkOperationLogs"></a> CreatedContact_BulkOperationLogs
 
 **Added by**: System Solution Solution
 
-See contact Entity [CreatedContact_BulkOperationLogs](contact.md#BKMK_CreatedContact_BulkOperationLogs) One-To-Many relationship.
+See the [CreatedContact_BulkOperationLogs](contact.md#BKMK_CreatedContact_BulkOperationLogs) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_SourceContact_BulkOperationLogs"></a> SourceContact_BulkOperationLogs
 
 **Added by**: System Solution Solution
 
-See contact Entity [SourceContact_BulkOperationLogs](contact.md#BKMK_SourceContact_BulkOperationLogs) One-To-Many relationship.
+See the [SourceContact_BulkOperationLogs](contact.md#BKMK_SourceContact_BulkOperationLogs) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_CreatedLead_BulkOperationLogs"></a> CreatedLead_BulkOperationLogs
 
 **Added by**: Lead Management Solution
 
-See lead Entity [CreatedLead_BulkOperationLogs](lead.md#BKMK_CreatedLead_BulkOperationLogs) One-To-Many relationship.
+See the [CreatedLead_BulkOperationLogs](lead.md#BKMK_CreatedLead_BulkOperationLogs) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_SourceLead_BulkOperationLogs"></a> SourceLead_BulkOperationLogs
 
 **Added by**: Lead Management Solution
 
-See lead Entity [SourceLead_BulkOperationLogs](lead.md#BKMK_SourceLead_BulkOperationLogs) One-To-Many relationship.
+See the [SourceLead_BulkOperationLogs](lead.md#BKMK_SourceLead_BulkOperationLogs) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_CreatedOpportunity_BulkOperationLogs"></a> CreatedOpportunity_BulkOperationLogs
 
 **Added by**: Sales Solution
 
-See opportunity Entity [CreatedOpportunity_BulkOperationLogs](opportunity.md#BKMK_CreatedOpportunity_BulkOperationLogs) One-To-Many relationship.
+See the [CreatedOpportunity_BulkOperationLogs](opportunity.md#BKMK_CreatedOpportunity_BulkOperationLogs) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.bulkoperationlog?text=bulkoperationlog EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

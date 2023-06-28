@@ -1,5 +1,6 @@
 ---
 title: "Custom virtual entity data providers (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: Learn about creating and using custom virtual entity data providers in Dynamics 365 Customer Engagement (on-premises).
 ms.date: 10/31/2017
 
 ms.topic: article
@@ -8,7 +9,6 @@ applies_to:
 ms.assetid: d329dade-16c5-46e9-8dec-4b8efb996d22
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -19,7 +19,7 @@ search.audienceType:
 Using the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises) Data SDK, .NET Developers have the option of creating custom virtual entity data providers to help integrate external data source types that are not supported by an existing data provider. Each data provider is composed of a reusable set of [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises) plug-ins that implement the supported CRUD operations. (The initial release is limited to the **Retrieve** and **RetrieveMultiple** read operations.)  This section provides fundamental information about data providers and approaches to developing custom providers, including example code.
 
 > [!NOTE]
-> As an alternative to creating a custom data source provider, you should consider adapting your data source to an existing data provider. For example, if you create an OData v4 interface to your external data source, then you can directly access it with the supplied standard OData v4 Data Provider. The mechanism of adding this REST interface varies with the underlying data service technology, for example see [WCF Data Services 4.5](https://docs.microsoft.com/dotnet/framework/data/wcf/). OData has broad industry support, with a wide range of dedicated tools and compatible technologies.
+> As an alternative to creating a custom data source provider, you should consider adapting your data source to an existing data provider. For example, if you create an OData v4 interface to your external data source, then you can directly access it with the supplied standard OData v4 Data Provider. The mechanism of adding this REST interface varies with the underlying data service technology, for example see [WCF Data Services 4.5](/previous-versions/dotnet/framework/data/wcf/). OData has broad industry support, with a wide range of dedicated tools and compatible technologies.
 
 
 ## Prerequisites
@@ -44,7 +44,7 @@ There are two general categories of data provider you can create using the virtu
 |**Category**|**Dev Model**|**Description**|
 |------------|-------------|---------------|
 |Generic|"Bare metal" provider|These providers can flexibly translate FetchXML query expressions to the associated request to the external data source, then return the resulting entity instances. Such a provider can be reused for all instances of this data source type. This approach is the most general but is more complicated to develop.  If the schema of the data source changes, the affected virtual entities must only be remapped.|
-|Targeted|LINQ provider for known schema|Such a provider only narrowly translates queries into the associated LINQ call to a known, existing data source instance. The data source must be a LINQ provider as described in the topic [Enabling a Data Source for LINQ Querying](https://docs.microsoft.com/dotnet/csharp/programming-guide/concepts/linq/enabling-a-data-source-for-linq-querying1). This approach is limited to a specific data source instance, but requires much less coding. If the schema of the data source changes, the data provider must be updated and rebuilt.|
+|Targeted|LINQ provider for known schema|Such a provider only narrowly translates queries into the associated LINQ call to a known, existing data source instance. The data source must be a LINQ provider as described in the topic [Enabling a Data Source for LINQ Querying](/dotnet/csharp/programming-guide/concepts/linq/enabling-a-data-source-for-linq-querying1). This approach is limited to a specific data source instance, but requires much less coding. If the schema of the data source changes, the data provider must be updated and rebuilt.|
 | | | |
 
 <!-- TODO: Couldn't find the above link as a .md file in current repo. -->
@@ -101,7 +101,7 @@ If for any reason your code cannot achieve the expected result, you must throw t
 
 Unlike an ordinary plugin, you will only use the _Plugin Registration Tool_ (PRT) to register the assembly and the plugins for each event. You will not register specific steps. Your plugin will run in stage 30, the main core transaction stage for the operation that is not available for ordinary plugin steps. Instead of registering steps, you will configure your data provider using the [Microsoft.Dynamics.CRM.EntityDataProvider](../entities/entitydataprovider.md) and [Microsoft.Dynamics.CRM.EntityDataSource](../entities/entitydatasource.md) entities. 
 
-<!-- TODO: If the PRT is essentially the same as past versions, then replace italics with link to current DOCS topic.  That topic might need updating.  If this is a special version of this tool only int he Data SDK, then it might need a separate topic. -->
+<!-- TODO: If the PRT is essentially the same as past versions, then replace italics with link to current DOCS topic.  That topic might need updating.  If this is a special version of this tool only in the Data SDK, then it might need a separate topic. -->
 
 |**Entity**|**Description**|
 |-----|-----|

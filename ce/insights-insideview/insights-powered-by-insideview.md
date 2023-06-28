@@ -1,12 +1,11 @@
 ---
 title: "Insights, powered by InsideView (Dynamics 365 Sales) | MicrosoftDocs"
-description: ""
+description: Learn how InsideView Insights for Dynamics 365 can help you find more leads, win more deals, grow your business, and retain your accounts.
 ms.date: 09/30/2017
 ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.reviewer: 
 ms.custom: 
   - "dyn365-insightsinsideview"

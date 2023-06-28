@@ -10,7 +10,6 @@ applies_to:
 ms.assetid: 2f601c9e-b1d1-47be-a8ea-afca16780751
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -64,12 +63,16 @@ search.audienceType:
 <a name="BKMK_ExportAndImportTranslations"></a>   
 ## Export and import translations  
  Localizable labels for the solution components in the following table can be exported for localization.  
-  
-||||  
-|-|-|-|  
-|Entities|Attributes|Relationships|  
-|Global Option Sets|Entity Messages|Entity Forms|  
-|Entity Views (SavedQuery)|Charts|Dashboards|  
+
+- Entities
+- Attributes
+- Relationships
+- Global Option Sets
+- Entity Messages
+- Entity Forms
+- Entity Views (SavedQuery)
+- Charts
+- Dashboards
   
 ### Translating labels and display strings  
  You can only perform customizations in the application by using the base language. Therefore, when you want to provide localized labels and display strings for these customizations, you must export the text of the labels so that they can be localized for any other languages enabled for the organization. Use the following steps:  
@@ -340,7 +343,7 @@ protected void ExecutePreValidateAccountDelete(LocalPluginContext localContext)
  [Create, Install, and Update a Managed Solution](create-install-update-managed-solution.md)   
  [Uninstall or Delete a solution](uninstall-delete-solution.md)   
  [Solution entities](solution-entities.md)   
- [Localize product property values](localize-product-property-values.md)
+ [Localize product property values](/sales/developer/localize-product-property-values)
  
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

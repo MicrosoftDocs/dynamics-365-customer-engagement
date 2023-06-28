@@ -1,19 +1,13 @@
 ---
 title: "Search resource availability API in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to use an API to find eligible resources in Field Service. 
-ms.date: 08/11/2021
-ms.reviewer: krbjoran
-
+ms.date: 08/04/2022
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: ryanchen8
+ms.author: chenryan
 ---
 
 # Search resource availability API
@@ -42,11 +36,12 @@ The settings entity is not an entity that exists in the Dataverse; however, it's
 | ConsiderSlotsWithLessThanRequiredDuration | Boolean | Set this to _True_ if a time slot with less than the required duration should be considered when computing potential available time slots on the resource's calendar. | No | False
 | ConsiderSlotsWithOverlappingBooking | Boolean | Set this to _True_ if a time slot with overlapping bookings should be considered when computing potential available time slots on the resource's calendar. | No | False
 | ConsiderSlotsWithProposedBookings | Boolean | Set this to _True_ if a time slot with proposed bookings should be considered when computing potential available time slots on the resource's calendar. | No | False
+| ConsiderAppointments | Boolean | Set this to _True_ for search resource availability API to respect existing Dataverse appointments as bookings on the resource, provided the [organization and resource level settings have been set](appointment-scheduling.md). Appointments with statuses _Busy_ or _Completed_ will be considered as unavailable for scheduling operations. | No | False
 | ConsiderTravelTime | Boolean | Set this to _True_ if travel time should be considered when computing potential time slots on the resource's calendar. | No | True
 | MovePastStartDateToCurrentDate | Boolean | Set this to _True_ to move a start date in the past to the current date. | No | False
 | UseRealTimeResourceLocation | Boolean | Set this to _True_ if the real-time location of resources should be used when computing potential time slots on the resource's calendar. | No | False
 | SortOrder | Entity | The sort order can be specified using an entity collection. Each entity in the collection will represent one sort criteria. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Name** (_String_): The sort criteria <li>**SortOrder** (_Integer_): The sort direction (0 for ascending and 1 for descending) | No | None
-| MaxResourceTravelRadius | Entity | This attribute specifies the maximum This attribute can be defined in an Entity. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Value** (_Decimal_): The radius <li> **Unit** (_Integer_): The distance unit. See msdyn_distance unit option set for possible values. | No| 0 km
+| MaxResourceTravelRadius | Entity | This attribute specifies the maximum that can be defined in an entity. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Value** (_Decimal_): The radius <li> **Unit** (_Integer_): The distance unit. See msdyn_distance unit option set for possible values. | No| 0 km. If that's the case, no resources will be returned for onsite requirements.
 | MaxNumberOfResourcesToEvaluate | Integer | This attribute defines a limit on the number of resources that are considered for the request. | No | Resource Availability Retrieval Limit from schedulable entity definition
 
 ### Resource specification entity
@@ -135,64 +130,48 @@ At the highest level, the output has the following four parameters. The results 
   
 In this example, v3 of schedule assistant API which allows for web API calls is being used for a requirement of duration 60 minutes. Using the settings attribute, the results are being filtered down. Two resource types are being considered for the final results: 1 and 2 (in other words, generic and contact). 
 
-```
-   {
-
+``` json
+{
     "Version": "3",
-
     "IsWebApi": true,
-
     "Requirement": {
-
         "msdyn_fromdate": "2021-07-14T00:00:00Z",
-
         "msdyn_todate": "2021-07-15T23:59:00Z",
-
         "msdyn_remainingduration": 60,
-
         "msdyn_duration": 60,
-
         "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourcerequirement"
-
     },
-
     "Settings": {
-
         "ConsiderSlotsWithProposedBookings": false,
-
         "MovePastStartDateToCurrentDate": true,
-
         "@odata.type": "Microsoft.Dynamics.CRM.expando"
-
     },
-
     "ResourceSpecification": {
-
         "@odata.type": "Microsoft.Dynamics.CRM.expando",
-
         "ResourceTypes@odata.type": "Collection(Microsoft.Dynamics.CRM.expando)",
-
         "ResourceTypes": [
-
             {
-
                 "@odata.type": "Microsoft.Dynamics.CRM.expando",
-
                 "value": "1"
-
             },
-
             {
-
                 "@odata.type": "Microsoft.Dynamics.CRM.expando",
-
                 "value": "2"
-
             }
-
-        ]
-
+        ],
+        "Constraints": {
+            "@odata.type": "Microsoft.Dynamics.CRM.expando",
+            "Characteristics@odata.type": "Collection(Microsoft.Dynamics.CRM.expando)",
+            "Characteristics": [
+                {
+                    "@odata.type": "Microsoft.Dynamics.CRM.expando",
+                    "characteristic": {
+                        "@odata.type": "Microsoft.Dynamics.CRM.expando",
+                        "value": "67387f9f-12e2-ec11-bb43-000d3aed25f7"
+                    }
+                }
+            ]
+        }
     }
-
 }
 ```

@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Customize your Teams webinar participant follow-up
@@ -105,8 +101,10 @@ Marketing uses different terminology than Teams for your participant information
 
 ## Additional resources
 
-- [Explore training on Microsoft Learn](/learn/browse/?products=dynamics-marketing)
+- [Explore Microsoft Learn training](/training/browse/?products=dynamics-marketing)
 - [Watch videos on the product playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_cV1n1es1YJt_T2A5u-XpR)
 
 > [!NOTE]
 > Microsoft Teams and Dynamics 365 Marketing each have their own [service-specific licensing terms](https://www.microsoft.com/licensing/terms/productoffering). The service-specific terms that apply depend on which service processes your data. For example, when you transition from Microsoft Teams to Dynamics 365 Marketing, your Microsoft Teams data related to the webinar (such as the attendance report, engagement data, etc.) is transferred to Dynamics 365 Marketing whereupon it becomes Dynamics 365 Marketing data and the Dynamics 365 service-specific terms apply.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

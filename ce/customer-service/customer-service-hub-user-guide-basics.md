@@ -1,11 +1,10 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 08/23/2021
+ms.date: 03/20/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 
@@ -27,7 +26,7 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
    ![Navigate to the application settings for Customer Service Hub.](media/open-csh.png "Open the Customer Service Hub")
  
   
-- If you are on the Settings page, then in the Dynamics 365 Customer Service site map, navigate to the app switcher, and then select **Customer Service Hub**.
+- If you're on the Settings page, then in the Dynamics 365 Customer Service site map, navigate to the app switcher, and then select **Customer Service Hub**.
 
   ![Open the Customer Service Hub site map.](media/open-csh-sitemap.png "Customer Service Hub site map")
   
@@ -45,7 +44,7 @@ To access the Customer Service Hub app on a mobile device:
 
 ## Work with case management record types, dashboards, and tools
 
- In the Customer Service Hub, you will find everything you need to easily manage customer service at your organization:  
+ In the Customer Service Hub, you'll find everything you need to easily manage customer service for your organization:  
   
 - Dashboards  
 - Activities: Email, Task, Appointment, Phone Call, Social Activity  
@@ -56,11 +55,11 @@ To access the Customer Service Hub app on a mobile device:
 - Queues  
 - Knowledge Articles
 
-The Customer Service Hub comes with an enhanced site map to enable easy navigation of the interface. To learn more, see [Understand the site map navigation](#understand-the-site-map-navigation).
+The Customer Service Hub app comes with an enhanced site map to enable easy navigation of the interface. More information: [Understand the site map navigation](#understand-the-site-map-navigation).
   
 ## Understand the site map navigation
 
-1. Select the site map icon ![site map icon.](media/sitemap-icon.png "Site map"). Select Service, and then select an entity record type.
+1. Select the site map icon ![site map icon.](media/sitemap-icon.png "Site map"), select **Service**, and then select an entity record type.
 
   > ![Navigate Records.](media/v9-navigate-records.png "Navigate Records")
 
@@ -68,7 +67,7 @@ When you select a record type from the menu, such as Accounts, Contacts, or Case
 
 To view recently opened records, select the down-arrow next to the record type in the site map.
 
-Here is what each entity record type is used for:
+Here's what each entity record type is used for:
 
   - **Dashboards** collect all your most important data in one place. You can select from multiple dashboards as per your role.
   - **Activities** help you keep track of tasks, email messages, appointments, phone calls and much more.
@@ -143,7 +142,7 @@ The stages in the business process flow are displayed in floating mode, or docke
 
 ![Business process flows.](media/business-process-flow.png "Business process flows")
   
-If there is more than one process to follow, you can switch between them by selecting **Process** > **Switch Process** on the command bar, and then selecting the process you want to use.  Or you can choose to abandon the process if it no longer applies.
+If there's more than one process to follow, you can switch between them by selecting **Process** > **Switch Process** on the command bar, and then selecting the process you want to use.  Or you can choose to abandon the process if it no longer applies.
   
  When a business process flow based on multiple entities is applied to a case or a knowledge article, the following limitations apply:  
   
@@ -165,10 +164,10 @@ For example, here's a view of how the tabs appear on the case form:
   
 |Record type|Default tabs|  
 |-----------------|------------------|  
-|Case|**Summary**. Includes the customer card, Timeline, and the Related section.<br />   **Details**. Tracks Case details, additional details, and social response details of the case. <br />**Case Relationships**. Shows merged cases, child cases, and associated knowledge articles. You can add a child case to the current case from the Child Cases list. It also shows a list of knowledge articles associated with the case.<br />**SLA**. Shows the related SLA KPI Instance records that are created for each SLA KPI that is tracked for the case. <br />**Related**. Shows related entities, such as activities and connections.|
-|Account|**Summary**. Includes the customer card, Timeline, and the Related section.<br />**Details**. Tracks additional details like company profile, marketing details, contact preferences, and billing and shipping.<br />**Related**. Shows related common entities.| 
-|Contact|**Summary**. Includes the customer card, Timeline, and the Related section.<br />**Details**. Tracks additional details like personal information, marketing details, contact preferences, and billing and shipping. <br />**Related**. Shows related common entities.| 
-|Activities|Activity forms shows a tab called Task for the respective activity and a Related tab for common entities. |  
+|Case|**Summary**. Includes the customer card, Timeline, and the Related section.<br />   **Details**. Tracks Case details, other details, and social response details of the case. <br />**Case Relationships**. Shows merged cases, child cases, and associated knowledge articles. You can add a child case to the current case from the Child Cases list. It also shows a list of knowledge articles associated with the case.<br />**SLA**. Shows the related SLA KPI Instance records that are created for each SLA KPI that is tracked for the case. <br />**Related**. Shows related entities, such as activities and connections.|
+|Account|**Summary**. Includes the customer card, Timeline, and the Related section.<br />**Details**. Tracks other details like company profile, marketing details, contact preferences, and billing and shipping.<br />**Related**. Shows related common entities.| 
+|Contact|**Summary**. Includes the customer card, Timeline, and the Related section.<br />**Details**. Tracks other details like personal information, marketing details, contact preferences, and billing and shipping. <br />**Related**. Shows related common entities.| 
+|Activities|Activity forms show a tab called Task for the respective activity and a Related tab for common entities. |  
 |Knowledge Articles|**Content**. Lets you write and edit the content for the article.<br />**Summary**. Tracks basic settings, Timeline, publishing settings, and related information.<br />**Analytics**. Shows the number of views, feedback, and a list of cases using the article.<br />**Related**. Shows related common entities.|  
 |Social Profiles|**Social Profile**. Captures general information, and social profile details along with related social profiles.<br />**Related**. Shows related common entities.|  
 
@@ -184,7 +183,7 @@ For account records, the card shows contact details for the primary contact asso
 
 ## Work with Queues
 
-Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
+Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers that are used to store anything that needs to be completed or requires an action. For example, you could use queues for completing a task or closing a case. To learn more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 ![Work with queues.](media/queues-view.png "Queues view")
 
@@ -192,7 +191,7 @@ To know how to add a case to a queue, see [Add a case to a queue](customer-servi
 
 ## Understand Site
 
-To create a new site, you need to go to **Advanced find** ![Advanced find.](media/advanced-find-icon.png "Advanced find").  Then you can customize other entity forms (e.g. Account) by adding this site field.
+To create a new site, you need to go to **Advanced find** ![Advanced find.](media/advanced-find-icon.png "Advanced find").  Then you can customize other entity forms (for example, Account) by adding this site field.
 
   ![Create New Site.](media/add-site-to-any-entity-1a.png "Create New Site")
  
@@ -236,7 +235,7 @@ Similarly,
 
 #### Reference Panel reflow
 
-The Customer Service Hub is available to use on a desktop browser, and on a mobile device. Depending on the zoom level and the resolution of the system on which you are accessing the hub interface, the Reference panel adjusts the tabs and records for an optimum experience.
+The Customer Service Hub is available to use on a desktop browser, and on a mobile device. Depending on the zoom level and the resolution of the system on which you're accessing the hub interface, the Reference panel adjusts the tabs and records for an optimum experience.
 
 For example, on a browser, if you zoom in to about 100% or more, the tabs get docked on the top of the panel.
 
@@ -248,7 +247,7 @@ Similarly, if you zoom out to about 60-70%, the records appear in grid form.
 
 ## Understand Activities
 
-Activities are the tasks that you or your team perform while interacting with customers. An activity is any action which can be entered on a calendar and has time dimensions (start time, stop time, due date, and duration) that help determine when the action occurred or is planned to occur.
+Activities are the tasks that you or your team perform while interacting with customers. An activity is any action that can be entered on a calendar and has time dimensions (start time, stop time, due date, and duration) that help determine when the action occurred or is planned to occur.
 
 For example, you can make a record to track a phone call with a customer, or list an appointment scheduled with a customer to discuss a certain issue. You can create activities for yourself, or assign them to other service reps.
 
@@ -286,9 +285,9 @@ In the Customer Service Hub site map, select **Service** > **Activities**. The *
 
 While working on an email, you can quickly help customers by searching and selecting a relevant knowledge article to include in your email. You can insert the article and/or share a link to it in the body of your message.
 
-You can insert a knowledge article in an email in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#insert-knowledge-articles-into-an-email)
+You can insert a knowledge article in an email in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#insert-knowledge-articles-into-an-email)
 
-1. From an email form where you are drafting, place your cursor where you want to place the knowledge article or its link, and then select **Insert Knowledge Article**.
+1. On an email form where you're drafting, place your cursor where you want to place the knowledge article or its link, and then select **Insert Knowledge Article**.
 
    The **Select knowledge article to insert** screen is displayed. 
    
@@ -299,7 +298,7 @@ You can insert a knowledge article in an email in Dynamics 365 Customer Engageme
 
    A list of available articles will be displayed. You can select an article in the search results to view it in the preview pane.
   
-3. When you have found the article you want to include, do one of the following :
+3. When you've found the article you want to include, do one of the following actions:
 
    - To insert an article into the email, select the **Insert content** icon for the article in the search results or in the article preview pane, select **Insert article content** at the top of the pane. This will insert the content into the body of your email and close the **Select knowledge article to insert** page.
    
@@ -319,7 +318,7 @@ You can insert a knowledge article in an email in Dynamics 365 Customer Engageme
 
 ## Create and Manage Queues
 
-Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
+Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers that are used to store anything that needs to be completed or requires an action. For example, you might use a queue for completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 **Open Queues view**
 
@@ -334,7 +333,7 @@ In the Customer Service Hub site map, select **Service** > **Queues**. The queue
     - **Pick** the record. It will be assigned to you and will be moved to your queue.
     - **Release** the record. It will be assigned back to the queue owner for other's to pick up.
 
-To know how to add a case to a queues, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
+To learn how to add a case to a queue, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
 
 ## Create a new site
 

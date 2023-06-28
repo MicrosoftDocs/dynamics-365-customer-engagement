@@ -1,18 +1,16 @@
 ---
-title: "Entitlement Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Entitlement entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Entitlement entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Entitlement Entity Reference
+
+# Entitlement entity reference
 
 Defines the amount and type of support a customer should receive.
 
@@ -21,23 +19,23 @@ Defines the amount and type of support a customer should receive.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/entitlements(*entitlementid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/entitlements<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/entitlements(*entitlementid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|RenewEntitlement|<xref href="Microsoft.Dynamics.CRM.RenewEntitlement?text=RenewEntitlement Action" />|<xref:Microsoft.Crm.Sdk.Messages.RenewEntitlementRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/entitlements(*entitlementid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/entitlements<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/entitlements(*entitlementid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/entitlements(*entitlementid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|RenewEntitlement|<xref:Microsoft.Crm.Sdk.Messages.RenewEntitlementRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -68,14 +66,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [EndDate](#BKMK_EndDate)
 - [EntitlementId](#BKMK_EntitlementId)
 - [EntitlementTemplateId](#BKMK_EntitlementTemplateId)
-- [entitytype](#BKMK_entitytype)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsDefault](#BKMK_IsDefault)
 - [KbAccessLevel](#BKMK_KbAccessLevel)
-- [msdyn_AppliesTo](#BKMK_msdyn_AppliesTo)
-- [msdyn_EntitlementPrioritization](#BKMK_msdyn_EntitlementPrioritization)
-- [msdyn_PercentDiscount](#BKMK_msdyn_PercentDiscount)
-- [msdyn_PriceListToApply](#BKMK_msdyn_PriceListToApply)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -107,13 +100,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-#### AllocationTypeCode Options
+#### AllocationTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Number of cases|
-|1|Number of hours|
-|192350000|Discount % and Price List|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Number of cases|Number of cases|
+|1|Number of hours|Number of hours|
 
 
 
@@ -158,12 +150,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-#### DecreaseRemainingOn Options
+#### DecreaseRemainingOn Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Case Resolution|
-|1|Case Creation|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Case Resolution||
+|1|Case Creation||
 
 
 
@@ -242,29 +234,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Lookup|
 
 
-### <a name="BKMK_entitytype"></a> entitytype
-
-**Added by**: Service Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Entity type for which the entitlement applies|
-|DisplayName|Entity Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|entitytype|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### entitytype Options
-
-|Value|Label|
-|-----|-----|
-|0|Case|
-|192350000|Work Order|
-
-
-
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
 |Property|Value|
@@ -294,14 +263,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### IsDefault Options
+#### IsDefault Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -317,90 +286,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### KbAccessLevel Options
+#### KbAccessLevel Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Standard|
-|1|Premium|
-|2|None|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Standard|Standard|
+|1|Premium|Premium|
+|2|None|None|
 
-
-
-### <a name="BKMK_msdyn_AppliesTo"></a> msdyn_AppliesTo
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|The work order entities to which the entitlement is applicable.|
-|DisplayName|Applies To|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_appliesto|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### msdyn_AppliesTo Options
-
-|Value|Label|
-|-----|-----|
-|690970000|Work Order Products|
-|690970001|Work Order Services|
-|690970002|Both Work Order Products & Services|
-
-
-
-### <a name="BKMK_msdyn_EntitlementPrioritization"></a> msdyn_EntitlementPrioritization
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|The priority level when considering which eligible entitlement to apply, where the lower the number the higher the priority.|
-|DisplayName|Entitlement Prioritization|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_entitlementprioritization|
-|MaxValue|2147483647|
-|MinValue|-2147483648|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_PercentDiscount"></a> msdyn_PercentDiscount
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|The percent discount the entitlement applies to the work order.|
-|DisplayName|% Discount|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_percentdiscount|
-|MaxValue|100|
-|MinValue|0|
-|Precision|2|
-|RequiredLevel|None|
-|Type|Double|
-
-
-### <a name="BKMK_msdyn_PriceListToApply"></a> msdyn_PriceListToApply
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|The price list that the entitlement applies to the work order.|
-|DisplayName|Price List To Apply|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_pricelisttoapply|
-|RequiredLevel|None|
-|Targets|pricelevel|
-|Type|Lookup|
 
 
 ### <a name="BKMK_Name"></a> Name
@@ -505,14 +398,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### RestrictCaseCreation Options
+#### RestrictCaseCreation Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -535,7 +428,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Contains the id of the stage where the entity is located.|
-|DisplayName|(Deprecated) Stage Id|
+|DisplayName|Stage Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -571,7 +464,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -595,7 +488,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -658,7 +551,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -714,7 +607,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_PriceListToApplyName](#BKMK_msdyn_PriceListToApplyName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -1095,24 +987,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_PriceListToApplyName"></a> msdyn_PriceListToApplyName
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_pricelisttoapplyname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 |Property|Value|
@@ -1267,18 +1141,13 @@ Listed by **SchemaName**.
 - [entitlement_OpportunityCloses](#BKMK_entitlement_OpportunityCloses)
 - [entitlement_OrderCloses](#BKMK_entitlement_OrderCloses)
 - [entitlement_QuoteCloses](#BKMK_entitlement_QuoteCloses)
-- [entitlement_msdyn_bookingalerts](#BKMK_entitlement_msdyn_bookingalerts)
-- [entitlement_msdyn_approvals](#BKMK_entitlement_msdyn_approvals)
-- [msdyn_entitlement_msdyn_entitlementapplication_entitlement](#BKMK_msdyn_entitlement_msdyn_entitlementapplication_entitlement)
-- [msdyn_entitlement_msdyn_workorderproduct_Entitlement](#BKMK_msdyn_entitlement_msdyn_workorderproduct_Entitlement)
-- [msdyn_entitlement_msdyn_workorderservice_entitlement](#BKMK_msdyn_entitlement_msdyn_workorderservice_entitlement)
 
 
 ### <a name="BKMK_entitlement_ActivityPointers"></a> entitlement_ActivityPointers
 
 **Added by**: System Solution Solution
 
-Same as activitypointer entity [entitlement_ActivityPointers](activitypointer.md#BKMK_entitlement_ActivityPointers) Many-To-One relationship.
+Same as the [entitlement_ActivityPointers](activitypointer.md#BKMK_entitlement_ActivityPointers) many-to-one relationship for the [activitypointer](activitypointer.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1295,7 +1164,7 @@ Same as activitypointer entity [entitlement_ActivityPointers](activitypointer.md
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [Entitlement_SyncErrors](syncerror.md#BKMK_Entitlement_SyncErrors) Many-To-One relationship.
+Same as the [Entitlement_SyncErrors](syncerror.md#BKMK_Entitlement_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1312,7 +1181,7 @@ Same as syncerror entity [Entitlement_SyncErrors](syncerror.md#BKMK_Entitlement_
 
 **Added by**: System Solution Solution
 
-Same as activityparty entity [entitlement_ActivityParties](activityparty.md#BKMK_entitlement_ActivityParties) Many-To-One relationship.
+Same as the [entitlement_ActivityParties](activityparty.md#BKMK_entitlement_ActivityParties) many-to-one relationship for the [activityparty](activityparty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1329,7 +1198,7 @@ Same as activityparty entity [entitlement_ActivityParties](activityparty.md#BKMK
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [entitlement_AsyncOperations](asyncoperation.md#BKMK_entitlement_AsyncOperations) Many-To-One relationship.
+Same as the [entitlement_AsyncOperations](asyncoperation.md#BKMK_entitlement_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1346,7 +1215,7 @@ Same as asyncoperation entity [entitlement_AsyncOperations](asyncoperation.md#BK
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [Entitlement_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Entitlement_MailboxTrackingFolder) Many-To-One relationship.
+Same as the [Entitlement_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Entitlement_MailboxTrackingFolder) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1363,7 +1232,7 @@ Same as mailboxtrackingfolder entity [Entitlement_MailboxTrackingFolder](mailbox
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [entitlement_ProcessSession](processsession.md#BKMK_entitlement_ProcessSession) Many-To-One relationship.
+Same as the [entitlement_ProcessSession](processsession.md#BKMK_entitlement_ProcessSession) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1380,7 +1249,7 @@ Same as processsession entity [entitlement_ProcessSession](processsession.md#BKM
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [entitlement_BulkDeleteFailures](bulkdeletefailure.md#BKMK_entitlement_BulkDeleteFailures) Many-To-One relationship.
+Same as the [entitlement_BulkDeleteFailures](bulkdeletefailure.md#BKMK_entitlement_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1397,7 +1266,7 @@ Same as bulkdeletefailure entity [entitlement_BulkDeleteFailures](bulkdeletefail
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [entitlement_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_entitlement_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [entitlement_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_entitlement_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1414,7 +1283,7 @@ Same as principalobjectattributeaccess entity [entitlement_PrincipalObjectAttrib
 
 **Added by**: System Solution Solution
 
-Same as appointment entity [entitlement_Appointments](appointment.md#BKMK_entitlement_Appointments) Many-To-One relationship.
+Same as the [entitlement_Appointments](appointment.md#BKMK_entitlement_Appointments) many-to-one relationship for the [appointment](appointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1431,7 +1300,7 @@ Same as appointment entity [entitlement_Appointments](appointment.md#BKMK_entitl
 
 **Added by**: System Solution Solution
 
-Same as email entity [entitlement_Emails](email.md#BKMK_entitlement_Emails) Many-To-One relationship.
+Same as the [entitlement_Emails](email.md#BKMK_entitlement_Emails) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1448,7 +1317,7 @@ Same as email entity [entitlement_Emails](email.md#BKMK_entitlement_Emails) Many
 
 **Added by**: System Solution Solution
 
-Same as fax entity [entitlement_Faxes](fax.md#BKMK_entitlement_Faxes) Many-To-One relationship.
+Same as the [entitlement_Faxes](fax.md#BKMK_entitlement_Faxes) many-to-one relationship for the [fax](fax.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1465,7 +1334,7 @@ Same as fax entity [entitlement_Faxes](fax.md#BKMK_entitlement_Faxes) Many-To-On
 
 **Added by**: System Solution Solution
 
-Same as letter entity [entitlement_Letters](letter.md#BKMK_entitlement_Letters) Many-To-One relationship.
+Same as the [entitlement_Letters](letter.md#BKMK_entitlement_Letters) many-to-one relationship for the [letter](letter.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1482,7 +1351,7 @@ Same as letter entity [entitlement_Letters](letter.md#BKMK_entitlement_Letters) 
 
 **Added by**: System Solution Solution
 
-Same as phonecall entity [entitlement_PhoneCalls](phonecall.md#BKMK_entitlement_PhoneCalls) Many-To-One relationship.
+Same as the [entitlement_PhoneCalls](phonecall.md#BKMK_entitlement_PhoneCalls) many-to-one relationship for the [phonecall](phonecall.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1499,7 +1368,7 @@ Same as phonecall entity [entitlement_PhoneCalls](phonecall.md#BKMK_entitlement_
 
 **Added by**: System Solution Solution
 
-Same as task entity [entitlement_Tasks](task.md#BKMK_entitlement_Tasks) Many-To-One relationship.
+Same as the [entitlement_Tasks](task.md#BKMK_entitlement_Tasks) many-to-one relationship for the [task](task.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1516,7 +1385,7 @@ Same as task entity [entitlement_Tasks](task.md#BKMK_entitlement_Tasks) Many-To-
 
 **Added by**: System Solution Solution
 
-Same as recurringappointmentmaster entity [entitlement_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_entitlement_RecurringAppointmentMasters) Many-To-One relationship.
+Same as the [entitlement_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_entitlement_RecurringAppointmentMasters) many-to-one relationship for the [recurringappointmentmaster](recurringappointmentmaster.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1533,7 +1402,7 @@ Same as recurringappointmentmaster entity [entitlement_RecurringAppointmentMaste
 
 **Added by**: System Solution Solution
 
-Same as socialactivity entity [entitlement_SocialActivities](socialactivity.md#BKMK_entitlement_SocialActivities) Many-To-One relationship.
+Same as the [entitlement_SocialActivities](socialactivity.md#BKMK_entitlement_SocialActivities) many-to-one relationship for the [socialactivity](socialactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1550,7 +1419,7 @@ Same as socialactivity entity [entitlement_SocialActivities](socialactivity.md#B
 
 **Added by**: System Solution Solution
 
-Same as connection entity [entitlement_connections1](connection.md#BKMK_entitlement_connections1) Many-To-One relationship.
+Same as the [entitlement_connections1](connection.md#BKMK_entitlement_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1567,7 +1436,7 @@ Same as connection entity [entitlement_connections1](connection.md#BKMK_entitlem
 
 **Added by**: System Solution Solution
 
-Same as connection entity [entitlement_connections2](connection.md#BKMK_entitlement_connections2) Many-To-One relationship.
+Same as the [entitlement_connections2](connection.md#BKMK_entitlement_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1584,7 +1453,7 @@ Same as connection entity [entitlement_connections2](connection.md#BKMK_entitlem
 
 **Added by**: System Solution Solution
 
-Same as annotation entity [entitlement_Annotations](annotation.md#BKMK_entitlement_Annotations) Many-To-One relationship.
+Same as the [entitlement_Annotations](annotation.md#BKMK_entitlement_Annotations) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1599,7 +1468,7 @@ Same as annotation entity [entitlement_Annotations](annotation.md#BKMK_entitleme
 
 ### <a name="BKMK_entitlement_IncidentResolutions"></a> entitlement_IncidentResolutions
 
-Same as incidentresolution entity [entitlement_IncidentResolutions](incidentresolution.md#BKMK_entitlement_IncidentResolutions) Many-To-One relationship.
+Same as the [entitlement_IncidentResolutions](incidentresolution.md#BKMK_entitlement_IncidentResolutions) many-to-one relationship for the [incidentresolution](incidentresolution.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1614,7 +1483,7 @@ Same as incidentresolution entity [entitlement_IncidentResolutions](incidentreso
 
 ### <a name="BKMK_entitlement_ServiceAppointments"></a> entitlement_ServiceAppointments
 
-Same as serviceappointment entity [entitlement_ServiceAppointments](serviceappointment.md#BKMK_entitlement_ServiceAppointments) Many-To-One relationship.
+Same as the [entitlement_ServiceAppointments](serviceappointment.md#BKMK_entitlement_ServiceAppointments) many-to-one relationship for the [serviceappointment](serviceappointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1629,7 +1498,7 @@ Same as serviceappointment entity [entitlement_ServiceAppointments](serviceappoi
 
 ### <a name="BKMK_entitlement_cases"></a> entitlement_cases
 
-Same as incident entity [entitlement_cases](incident.md#BKMK_entitlement_cases) Many-To-One relationship.
+Same as the [entitlement_cases](incident.md#BKMK_entitlement_cases) many-to-one relationship for the [incident](incident.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1644,7 +1513,7 @@ Same as incident entity [entitlement_cases](incident.md#BKMK_entitlement_cases) 
 
 ### <a name="BKMK_entitlement_entitlementchannel_EntitlementId"></a> entitlement_entitlementchannel_EntitlementId
 
-Same as entitlementchannel entity [entitlement_entitlementchannel_EntitlementId](entitlementchannel.md#BKMK_entitlement_entitlementchannel_EntitlementId) Many-To-One relationship.
+Same as the [entitlement_entitlementchannel_EntitlementId](entitlementchannel.md#BKMK_entitlement_entitlementchannel_EntitlementId) many-to-one relationship for the [entitlementchannel](entitlementchannel.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1661,7 +1530,7 @@ Same as entitlementchannel entity [entitlement_entitlementchannel_EntitlementId]
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [entitlement_DuplicateBaseRecord](duplicaterecord.md#BKMK_entitlement_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [entitlement_DuplicateBaseRecord](duplicaterecord.md#BKMK_entitlement_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1678,7 +1547,7 @@ Same as duplicaterecord entity [entitlement_DuplicateBaseRecord](duplicaterecord
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [entitlement_DuplicateMatchingRecord](duplicaterecord.md#BKMK_entitlement_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [entitlement_DuplicateMatchingRecord](duplicaterecord.md#BKMK_entitlement_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1695,7 +1564,7 @@ Same as duplicaterecord entity [entitlement_DuplicateMatchingRecord](duplicatere
 
 **Added by**: Sales Solution
 
-Same as opportunityclose entity [entitlement_OpportunityCloses](opportunityclose.md#BKMK_entitlement_OpportunityCloses) Many-To-One relationship.
+Same as the [entitlement_OpportunityCloses](opportunityclose.md#BKMK_entitlement_OpportunityCloses) many-to-one relationship for the [opportunityclose](opportunityclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1712,7 +1581,7 @@ Same as opportunityclose entity [entitlement_OpportunityCloses](opportunityclose
 
 **Added by**: Sales Solution
 
-Same as orderclose entity [entitlement_OrderCloses](orderclose.md#BKMK_entitlement_OrderCloses) Many-To-One relationship.
+Same as the [entitlement_OrderCloses](orderclose.md#BKMK_entitlement_OrderCloses) many-to-one relationship for the [orderclose](orderclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1729,7 +1598,7 @@ Same as orderclose entity [entitlement_OrderCloses](orderclose.md#BKMK_entitleme
 
 **Added by**: Sales Solution
 
-Same as quoteclose entity [entitlement_QuoteCloses](quoteclose.md#BKMK_entitlement_QuoteCloses) Many-To-One relationship.
+Same as the [entitlement_QuoteCloses](quoteclose.md#BKMK_entitlement_QuoteCloses) many-to-one relationship for the [quoteclose](quoteclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1740,91 +1609,6 @@ Same as quoteclose entity [entitlement_QuoteCloses](quoteclose.md#BKMK_entitleme
 |ReferencedEntityNavigationPropertyName|entitlement_QuoteCloses|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_entitlement_msdyn_bookingalerts"></a> entitlement_msdyn_bookingalerts
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bookingalert entity [entitlement_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_entitlement_msdyn_bookingalerts) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bookingalert|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|entitlement_msdyn_bookingalerts|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_entitlement_msdyn_approvals"></a> entitlement_msdyn_approvals
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_approval entity [entitlement_msdyn_approvals](msdyn_approval.md#BKMK_entitlement_msdyn_approvals) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_approval|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|entitlement_msdyn_approvals|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_entitlement_msdyn_entitlementapplication_entitlement"></a> msdyn_entitlement_msdyn_entitlementapplication_entitlement
-
-**Added by**: Field Service Solution
-
-Same as msdyn_entitlementapplication entity [msdyn_entitlement_msdyn_entitlementapplication_entitlement](msdyn_entitlementapplication.md#BKMK_msdyn_entitlement_msdyn_entitlementapplication_entitlement) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_entitlementapplication|
-|ReferencingAttribute|msdyn_entitlement|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_entitlement_msdyn_entitlementapplication_entitlement|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_entitlement_msdyn_workorderproduct_Entitlement"></a> msdyn_entitlement_msdyn_workorderproduct_Entitlement
-
-**Added by**: Field Service Solution
-
-Same as msdyn_workorderproduct entity [msdyn_entitlement_msdyn_workorderproduct_Entitlement](msdyn_workorderproduct.md#BKMK_msdyn_entitlement_msdyn_workorderproduct_Entitlement) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_workorderproduct|
-|ReferencingAttribute|msdyn_entitlement|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_entitlement_msdyn_workorderproduct_Entitlement|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_entitlement_msdyn_workorderservice_entitlement"></a> msdyn_entitlement_msdyn_workorderservice_entitlement
-
-**Added by**: Field Service Solution
-
-Same as msdyn_workorderservice entity [msdyn_entitlement_msdyn_workorderservice_entitlement](msdyn_workorderservice.md#BKMK_msdyn_entitlement_msdyn_workorderservice_entitlement) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_workorderservice|
-|ReferencingAttribute|msdyn_entitlement|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_entitlement_msdyn_workorderservice_entitlement|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -1847,102 +1631,95 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [entitlementtemplateid_RelationShip](#BKMK_entitlementtemplateid_RelationShip)
 - [sla_entitlement](#BKMK_sla_entitlement)
 - [TransactionCurrency_Entitlement](#BKMK_TransactionCurrency_Entitlement)
-- [msdyn_pricelevel_entitlement_PriceListToApply](#BKMK_msdyn_pricelevel_entitlement_PriceListToApply)
 
 
 ### <a name="BKMK_lk_entitlement_createdby"></a> lk_entitlement_createdby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_entitlement_createdby](systemuser.md#BKMK_lk_entitlement_createdby) One-To-Many relationship.
+See the [lk_entitlement_createdby](systemuser.md#BKMK_lk_entitlement_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_entitlement_createdonbehalfby"></a> lk_entitlement_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_entitlement_createdonbehalfby](systemuser.md#BKMK_lk_entitlement_createdonbehalfby) One-To-Many relationship.
+See the [lk_entitlement_createdonbehalfby](systemuser.md#BKMK_lk_entitlement_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_entitlement_modifiedby"></a> lk_entitlement_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_entitlement_modifiedby](systemuser.md#BKMK_lk_entitlement_modifiedby) One-To-Many relationship.
+See the [lk_entitlement_modifiedby](systemuser.md#BKMK_lk_entitlement_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_entitlement_modifiedonbehalfby"></a> lk_entitlement_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_entitlement_modifiedonbehalfby](systemuser.md#BKMK_lk_entitlement_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_entitlement_modifiedonbehalfby](systemuser.md#BKMK_lk_entitlement_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_user_entitlement"></a> user_entitlement
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_entitlement](systemuser.md#BKMK_user_entitlement) One-To-Many relationship.
+See the [user_entitlement](systemuser.md#BKMK_user_entitlement) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_entitlement"></a> team_entitlement
 
 **Added by**: System Solution Solution
 
-See team Entity [team_entitlement](team.md#BKMK_team_entitlement) One-To-Many relationship.
+See the [team_entitlement](team.md#BKMK_team_entitlement) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_business_unit_entitlement"></a> business_unit_entitlement
 
 **Added by**: System Solution Solution
 
-See businessunit Entity [business_unit_entitlement](businessunit.md#BKMK_business_unit_entitlement) One-To-Many relationship.
+See the [business_unit_entitlement](businessunit.md#BKMK_business_unit_entitlement) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_processstage_Entitlement"></a> processstage_Entitlement
 
 **Added by**: System Solution Solution
 
-See processstage Entity [processstage_Entitlement](processstage.md#BKMK_processstage_Entitlement) One-To-Many relationship.
+See the [processstage_Entitlement](processstage.md#BKMK_processstage_Entitlement) one-to-many relationship for the [processstage](processstage.md) entity.
 
 ### <a name="BKMK_account_entitlement_Account"></a> account_entitlement_Account
 
 **Added by**: System Solution Solution
 
-See account Entity [account_entitlement_Account](account.md#BKMK_account_entitlement_Account) One-To-Many relationship.
+See the [account_entitlement_Account](account.md#BKMK_account_entitlement_Account) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_account_entitlement_Customer"></a> account_entitlement_Customer
 
 **Added by**: System Solution Solution
 
-See account Entity [account_entitlement_Customer](account.md#BKMK_account_entitlement_Customer) One-To-Many relationship.
+See the [account_entitlement_Customer](account.md#BKMK_account_entitlement_Customer) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_contact_entitlement_ContactId"></a> contact_entitlement_ContactId
 
 **Added by**: System Solution Solution
 
-See contact Entity [contact_entitlement_ContactId](contact.md#BKMK_contact_entitlement_ContactId) One-To-Many relationship.
+See the [contact_entitlement_ContactId](contact.md#BKMK_contact_entitlement_ContactId) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_contact_entitlement_Customer"></a> contact_entitlement_Customer
 
 **Added by**: System Solution Solution
 
-See contact Entity [contact_entitlement_Customer](contact.md#BKMK_contact_entitlement_Customer) One-To-Many relationship.
+See the [contact_entitlement_Customer](contact.md#BKMK_contact_entitlement_Customer) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_entitlementtemplateid_RelationShip"></a> entitlementtemplateid_RelationShip
 
-See entitlementtemplate Entity [entitlementtemplateid_RelationShip](entitlementtemplate.md#BKMK_entitlementtemplateid_RelationShip) One-To-Many relationship.
+See the [entitlementtemplateid_RelationShip](entitlementtemplate.md#BKMK_entitlementtemplateid_RelationShip) one-to-many relationship for the [entitlementtemplate](entitlementtemplate.md) entity.
 
 ### <a name="BKMK_sla_entitlement"></a> sla_entitlement
 
 **Added by**: System Solution Solution
 
-See sla Entity [sla_entitlement](sla.md#BKMK_sla_entitlement) One-To-Many relationship.
+See the [sla_entitlement](sla.md#BKMK_sla_entitlement) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_Entitlement"></a> TransactionCurrency_Entitlement
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [TransactionCurrency_Entitlement](transactioncurrency.md#BKMK_TransactionCurrency_Entitlement) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_pricelevel_entitlement_PriceListToApply"></a> msdyn_pricelevel_entitlement_PriceListToApply
-
-**Added by**: Product Management Solution
-
-See pricelevel Entity [msdyn_pricelevel_entitlement_PriceListToApply](pricelevel.md#BKMK_msdyn_pricelevel_entitlement_PriceListToApply) One-To-Many relationship.
+See the [TransactionCurrency_Entitlement](transactioncurrency.md#BKMK_TransactionCurrency_Entitlement) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
@@ -1955,17 +1732,13 @@ Relationship details provided where the Entitlement entity is the first entity i
 
 ### <a name="BKMK_entitlementcontacts_association"></a> entitlementcontacts_association
 
-See contact Entity [entitlementcontacts_association](contact.md#BKMK_entitlementcontacts_association) Many-To-Many Relationship.
+See the [entitlementcontacts_association](contact.md#BKMK_entitlementcontacts_association) many-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_product_entitlement_association"></a> product_entitlement_association
 
-See product Entity [product_entitlement_association](product.md#BKMK_product_entitlement_association) Many-To-Many Relationship.
+See the [product_entitlement_association](product.md#BKMK_product_entitlement_association) many-to-many relationship for the [product](product.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.entitlement?text=entitlement EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -1,18 +1,14 @@
 ---
 title: "Set up a holiday schedule (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to set up a holiday schedule in Dynamics 365 Customer Service."
-ms.date: 02/11/2022
+ms.date: 09/08/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -28,7 +24,7 @@ For example, if your service organization has an SLA to reply to email cases wit
  
 ## Create a holiday schedule 
 
-You can create a holiday schedule in the Customer Service admin center (preview) or Customer Service Hub app
+You can create a holiday schedule in the Customer Service admin center or Customer Service Hub app
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
@@ -36,10 +32,7 @@ You can create a holiday schedule in the Customer Service admin center (preview)
 
 2. Go to one of the apps, and perform the following steps.
 
-    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
       1. In the site map, select **Calendar** in **Operations**. The **Calendar** page appears.
       1. In the **Holiday calendar** section, select **Manage**.                                                                         
@@ -84,15 +77,16 @@ To resolve any issues with the SLA during holidays, see [SLA timer does not paus
   
 7. In the **Add a Holiday** dialog box, specify the name and select the time of the holiday, and then select **OK**.  
   
-   The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define service level agreements](../customer-service/define-service-level-agreements.md)  
+   The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure service-level agreements](../customer-service/define-service-level-agreements.md)  
 
 ## Additional actions
 
-- To edit an existing holiday schedule, go to the **All Holiday Schedules** view is displayed. Select the holiday schedule you want to edit from the list of holiday schedules and select **Edit** in the command bar.
+- To edit an existing holiday schedule, go to **Service Management** > **Holiday Schedule**. The **All Holiday Schedules** view is displayed. Select the holiday schedule you want to edit from the list of holiday schedules and select **Edit** in the command bar.
     - You can edit the **Name** or **Description**, or add new holidays for the holiday schedule. 
     - By default, all the holidays of the current year are displayed. To switch to a different year, select and type the year in the **Holidays** grid:
     
 - To print a holiday schedule, select **Print Preview** in the **Holidays** section of the holiday schedule.
+- To import or export a holiday schedule, use the Calendar import or export feature as you can't import or export a holiday schedule in the Excel format.
 
 ### See also
 

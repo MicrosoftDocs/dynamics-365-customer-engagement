@@ -1,5 +1,6 @@
 ---
 title: "Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 apps and Dynamics 365 apps Online | MicrosoftDocs"
+description: Learn about planning and installing Dynamics 365 for Outlook to enable user access to Dynamics 365 for Customer Engagement data.
 ms.custom: 
 ms.date: 11/28/2016
 ms.reviewer:
@@ -13,14 +14,10 @@ ms.assetid: 0e6157ee-a9fc-4da2-8ade-9199a405db05
 caps.latest.revision: 40
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
 # Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 apps and Dynamics 365 apps Online
 [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] enables access to the same data through [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] as the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Web client. [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users who need access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while they are using the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] application.  

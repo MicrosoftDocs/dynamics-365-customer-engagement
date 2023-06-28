@@ -1,11 +1,10 @@
 ---
 title: "setContextProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
-description: "Includes syntax and parameter information for the setContextProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
+description: "Includes reference information such as syntax and parameters for the setContextProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
 ms.date: 01/21/2022
-ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+ms.topic: reference
+author: gandhamm
+ms.author: mgandham
 ---
 # setContextProvider 
 
@@ -29,7 +28,7 @@ manager: shujoshi
 | ---- | ---- | ---- |
 | contextProvider | Function | Function that when invoked, returns the custom context |
 
-## Return Value
+## Return value
 
 None
 
@@ -49,13 +48,14 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
         });
 });
 ```
+
 In the preceding sample code, the `value` attribute contains the value of the context variables.
 
 The `isDisplayable` attribute, if set to `true`, will display the passed items in the third tab on the Conversation Summary Control for a conversation.
 
 > [!NOTE]
 >
-> If no context variables have been created under live workstream with a matching logical name, then the variables are created at runtime with the type String. More information: [Context variables](../../../context-variables-for-bot.md#add-context-variables)
+> If no context variables have been created under live workstream with a matching logical name, then the variables are created at runtime with the type String. More information: [Context variables](../../../manage-context-variables.md#add-context-variables)
 
 ![Display context keys.](../../../media/context-variable-display.png "Display context keys")
 
@@ -92,7 +92,7 @@ For the sample script to track self service actions that can be included in the 
 
 ## Error codes
 
-Here's the error code and message for this method.
+The following error can occur for this method.
 
 |Error code|Error message|
 |-----|-----|

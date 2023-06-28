@@ -1,24 +1,22 @@
 ---
-title: "Domain authentication (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Domain authentication (old version) (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Authenticate your domains to maximize email deliverability with DKIM and enable embedding of Dynamics 365 Marketing forms on your own website in Dynamics 365 Marketing."
-ms.date: 10/08/2021
-
+ms.date: 03/10/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
-# Authenticate your domains
+# Authenticate your domains (old version)
+
+> [!IMPORTANT]
+> This section explains the old domain authentication for outbound marketing; for an updated version based on real-time marketing, see "[new version](domain-authentication.md)".
 
 Domain authentication is important for two reasons:
 
@@ -31,9 +29,12 @@ When you error check or go live with a marketing email message, the verification
 
 To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md). To learn more about embedded forms and pre-filling, see [Integrate with landing pages on external websites](embed-forms.md).
 
+> [!NOTE]
+> When real-time marketing features are installed, a wizard is included to authenticate domains for both real-time marketing and outbound marketing. To learn how to use the real-time marketing domain authentication wizard, see the [Real-time marketing domain authentication](domain-authentication.md) article. If real-time marketing is not installed, you must follow the setup described below in this article to authenticate domains for use in outbound marketing features.
+
 ## The default authenticated domain
 
-By default, all new Dynamics 365 Marketing installations come with a pre-authenticated sending domain ending in `-dyn365mktg.com`. The pre-authenticated domain means that you can begin sending authenticated emails right away. But you should still authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients will recognize as coming from your organization.
+By default, all new Dynamics 365 Marketing installations come with a pre-authenticated sending domain ending in `-dyn365mktg.com`. The pre-authenticated domain means that you can begin sending authenticated emails right away. This domain is designed only for testing or demo purposes as it doesn’t have an email reputation and is not connected to your organization. It is recommended that you authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients will recognize as coming from your organization. Authenticating your own domain will allow you to manage your sending reputation and will improve brand recognition and deliverability results.
 
 When a user creates a new email, the **From address** is automatically set to the email address registered for that user's Dynamics 365 Marketing user account. However, if that email address uses a domain that is not yet authenticated using DKIM, then the initial **From address** will be modified to use an authenticated domain (email addresses use the form `account-name*@*domain-name`). The resulting **From address** will still show the *account-name* of the user creating the message, but will now show a DKIM-authenticated *domain-name* that's registered for your Marketing instance (for example, `MyName@contoso-dyn365mktg.com`), which will provide the deliverability benefit, but probably isn't a valid return address. Users can overrule this by editing the **From address** after creating the message, but this will lower message deliverability.
 
@@ -80,8 +81,7 @@ To set up Dynamics 365 Marketing and the DNS to authenticate marketing email mes
 ## Envelope-from domain
 
 If you want to go further with the domain authentication process, you should look at **Envelope-from domain** feature. Every email has two **From** addresses. The first one (described in RFC5322) is the main **From** address,
-or, simply, the “friendly from” address. The second From address (RFC5321), is a
-so-called **Envelope From** address, or “Return-Path” address.
+or, simply, the “friendly from” address. The second From address (RFC5321), is a so-called **Envelope From** address, or “Return-Path” address.
 
 To ensure good deliverability, the domains that you use for sending should be aligned. *Alignment* of domains means that the SPF and DKIM domains
 match the **From** address, at least partially. For SPF *alignment*, the
@@ -217,5 +217,7 @@ To benefit from DKIM, the from-address for each message you send must show a dom
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Integrate with landing pages on external websites](embed-forms.md)  
 [page personalization](personalized-page-content.md)  
+[Domain authentication in real-time marketing](domain-authentication.md)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

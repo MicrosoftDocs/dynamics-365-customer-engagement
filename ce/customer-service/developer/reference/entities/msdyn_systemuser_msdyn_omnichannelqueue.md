@@ -3,9 +3,8 @@ title: "msdyn_systemuser_msdyn_omnichannelqueue Entity Reference | MicrosoftDocs
 description: "Includes schema information and supported messages for the msdyn_systemuser_msdyn_omnichannelqueue entity."
 ms.date: 03/23/2020
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 ---
 # msdyn_systemuser_msdyn_omnichannelqueue Entity Reference
 
@@ -15,7 +14,7 @@ manager: "shujoshi"
 
 
 > [!IMPORTANT]
-> This entity has been deprecated. It will still be visible in the [$metadata](/powerapps/developer/common-data-service/web-api-types-operations#csdl-metadata-document) document of your environment but using it to access Microsoft Dataverse data is not supported.
+> This entity has been deprecated. It will still be visible in the [$metadata](/power-apps/developer/data-platform/webapi/web-api-service-documents#csdl-metadata-document) document of your environment but using it to access Microsoft Dataverse data is not supported.
 
 **Added by**: Omnichannel – Base Solution
 

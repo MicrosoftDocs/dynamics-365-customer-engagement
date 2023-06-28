@@ -2,19 +2,13 @@
 title: "Edit Sitemap entities (tables) on the home screen | MicrosoftDocs"
 description: Learn about how to change the sitemap, forms, and views in the Field Service (Dynamics 365) mobile app.
 ms.date: 11/09/2021
-ms.reviewer: krbjoran
 ms.topic: article
-
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: Andrea-Orimoto
+ms.author: andreo
 ---
 
 # Edit Sitemap entities (tables) on the home screen
@@ -60,14 +54,6 @@ You can even create entirely new groups with more subareas to display different 
 
 - [Customize entity views](/powerapps/developer/model-driven-apps/customize-entity-views)
 
-> [!Note]
-> Currently, the booking calendar view is not editable. You cannot edit the fields displayed in the time slots on the calendar.
-
-### See also
-
-- [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
-- [Model-driven apps developer documentation](/powerapps/developer/model-driven-apps/)
-- [Enable entities for mobile offline synchronization](../mobile-app/setup-mobile-offline-for-admin.md#step-1-enable-entities-for-mobile-offline-synchronization)
-- [Editing related table records directly from another table’s main form](/powerapps/maker/model-driven-apps/form-component-control)
+- [Customize Booking Calendar](/dynamics365/field-service/mobile-powerapp-customize-booking-calendar)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

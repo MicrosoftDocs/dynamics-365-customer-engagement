@@ -1,11 +1,10 @@
 ---
 title: "Create or edit invoices in Dynamics 365 Sales"
 description: "An invoice is an order that has been billed to the customer. You can either convert an order into an invoice or create an invoice separately."
-ms.date: 10/25/2021
+ms.date: 05/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -21,12 +20,11 @@ searchScope:
 When a customer places an order, you can create an invoice to bill them for the upcoming sale. Typically, you convert an order into an invoice; however, you can also create an invoice that does not originate from an order.  
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 <a name="bkmk1"></a>   
 
@@ -51,7 +49,7 @@ When a customer places an order, you can create an invoice to bill them for the 
   
 1. Select the site map ![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Invoices**. 
   
-2.  Select **+ New**.
+2.  Select **New**.
 
     The Invoice form opens.
 
@@ -76,7 +74,7 @@ When a customer places an order, you can create an invoice to bill them for the 
 6. To add products from your opportunity to your order, select the **More options** icon ![More commands icon](media/more-commands-button.png "More commands icon") and then choose **Get Products**, select your opportunity, and select **OK**.  
   
     -OR-
-    To manually add other products, In the **Products** section, select the **+ Add Product**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add products to Quote, invoice, or order records](add-product-quote-order-invoice.md)
+    To manually add other products, In the **Products** section, select the **Add Product**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add products to Quote, invoice, or order records](add-product-quote-order-invoice.md)
     
     You need to enter the tax amount when you add a product to a quote, order, or invoice. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] doesn't automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.  
 
@@ -155,7 +153,8 @@ To directly send an email to a customer with an invoice attached, open the invoi
 ### See also  
 
 [Nurture sales from lead to order](nurture-sales-from-lead-order-sales.md)  
-[Print quote, invoice, or other records](print-records.md)
+[Print quote, invoice, or other records](print-records.md)   
+[Troubleshoot issues with orders](/troubleshoot/dynamics-365/sales/troubleshoot-orders-issues)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

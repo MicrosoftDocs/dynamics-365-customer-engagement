@@ -5,7 +5,6 @@ ms.date: 03/11/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 products: 
     - Sales premium
 ---
@@ -24,12 +23,11 @@ You can use the **Team settings** page to:
 Before you start using the sales teams designer, verify that the security roles that are assigned to your sellers were selected when the sales accelerator was configured. More information: step 4 in [Set up the sales accelerator](enable-configure-sales-accelerator.md)
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Grant permissions to use assignment rules
 
@@ -108,7 +106,7 @@ The filters you apply are available only for that session and can’t be saved. 
     >[!div class="mx-imgBorder"]
     >![The Filter by seller properties pane](media/sa-ar-sales-team-advanced-filters-pane.png "The Filter by seller properties pane")  
     
-5.	Select **+ Add** and then choose the filter options as described in the following table:
+5.	Select **Add** and then choose the filter options as described in the following table:
 
     | Filter option | Description |
     |---------------|-------------|
@@ -149,7 +147,7 @@ You can apply attributes in bulk by selecting multiple sellers at a time.
     -	**Replace existing attributes with new attributes**: This option replaces the existing attributes that were already applied to the seller. If any leads were assigned to the seller based on the previous attributes, those leads won't be affected.
     -	**Keep existing attributes and add more**: This option adds more attributes to the seller, in addition to the attributes that were already applied.
 
-7.	Select **+ Add attribute**, and then choose the attribute and its corresponding values. Repeat this step for each attribute you want to add.
+7.	Select **Add attribute**, and then choose the attribute and its corresponding values. Repeat this step for each attribute you want to add.
 
     >[!div class="mx-imgBorder"]
     >![Select Add attribute](media/sa-ar-sales-team-add-attribute.png "Select Add attribute")
@@ -162,7 +160,7 @@ The attributes are applied to the sellers.
 
 When you set capacity, you set a combined upper limit of leads and opportunities that a seller can be assigned at any given time. When a seller reaches this limit, even though a lead or an opportunity record is created and ready to be automatically assigned to the seller, the record won't be assigned. You can view unassigned records for leads and opportunities in their respective open record views.
 
-For example, Kenny is a seller, and his capacity limit is set to 10. A new lead is generated, and the assignment rule qualifies the lead to be assigned to Kenny. However, Kenny is currently handling his maximum of 10, so the newly generated lead won't be assigned to him.
+For example, Kenny is a seller whose capacity limit is set to 10. A new lead is generated, and the assignment rule qualifies the lead to be assigned to Kenny. However, Kenny is currently handling a maximum of 10, so the newly generated lead won't be assigned to Kenny.
 
 **To set capacity**
 

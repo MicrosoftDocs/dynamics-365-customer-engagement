@@ -1,40 +1,38 @@
 ---
-title: "Task Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Task entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Task entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Task Entity Reference
+
+# Task entity reference
 
 Generic activity representing work needed to be done.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/tasks(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/tasks<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/tasks(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/tasks(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/tasks<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/tasks(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/tasks(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -243,14 +241,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsBilled Options
+#### IsBilled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -266,14 +264,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsWorkflowCreated Options
+#### IsWorkflowCreated Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -363,13 +361,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PriorityCode Options
+#### PriorityCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Low|
-|1|Normal|
-|2|High|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Low||
+|1|Normal||
+|2|High||
 
 
 
@@ -396,7 +394,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_fieldservicesetting,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_playbookinstance,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,quote,salesorder,site|
+|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_postalbum,opportunity,quote,salesorder,site|
 |Type|Lookup|
 
 
@@ -493,7 +491,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Shows the ID of the stage.|
-|DisplayName|(Deprecated) Process Stage|
+|DisplayName|Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -514,7 +512,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -536,7 +534,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -630,7 +628,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -844,14 +842,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsRegularActivity Options
+#### IsRegularActivity Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1219,7 +1217,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_task_PostFollows"></a> task_PostFollows
 
-Same as postfollow entity [task_PostFollows](postfollow.md#BKMK_task_PostFollows) Many-To-One relationship.
+Same as the [task_PostFollows](postfollow.md#BKMK_task_PostFollows) many-to-one relationship for the [postfollow](postfollow.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1234,7 +1232,7 @@ Same as postfollow entity [task_PostFollows](postfollow.md#BKMK_task_PostFollows
 
 ### <a name="BKMK_Task_SyncErrors"></a> Task_SyncErrors
 
-Same as syncerror entity [Task_SyncErrors](syncerror.md#BKMK_Task_SyncErrors) Many-To-One relationship.
+Same as the [Task_SyncErrors](syncerror.md#BKMK_Task_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1249,7 +1247,7 @@ Same as syncerror entity [Task_SyncErrors](syncerror.md#BKMK_Task_SyncErrors) Ma
 
 ### <a name="BKMK_Task_QueueItem"></a> Task_QueueItem
 
-Same as queueitem entity [Task_QueueItem](queueitem.md#BKMK_Task_QueueItem) Many-To-One relationship.
+Same as the [Task_QueueItem](queueitem.md#BKMK_Task_QueueItem) many-to-one relationship for the [queueitem](queueitem.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1264,7 +1262,7 @@ Same as queueitem entity [Task_QueueItem](queueitem.md#BKMK_Task_QueueItem) Many
 
 ### <a name="BKMK_Task_DuplicateBaseRecord"></a> Task_DuplicateBaseRecord
 
-Same as duplicaterecord entity [Task_DuplicateBaseRecord](duplicaterecord.md#BKMK_Task_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [Task_DuplicateBaseRecord](duplicaterecord.md#BKMK_Task_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1279,7 +1277,7 @@ Same as duplicaterecord entity [Task_DuplicateBaseRecord](duplicaterecord.md#BKM
 
 ### <a name="BKMK_task_connections2"></a> task_connections2
 
-Same as connection entity [task_connections2](connection.md#BKMK_task_connections2) Many-To-One relationship.
+Same as the [task_connections2](connection.md#BKMK_task_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1294,7 +1292,7 @@ Same as connection entity [task_connections2](connection.md#BKMK_task_connection
 
 ### <a name="BKMK_Task_DuplicateMatchingRecord"></a> Task_DuplicateMatchingRecord
 
-Same as duplicaterecord entity [Task_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Task_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [Task_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Task_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1309,7 +1307,7 @@ Same as duplicaterecord entity [Task_DuplicateMatchingRecord](duplicaterecord.md
 
 ### <a name="BKMK_task_activity_parties"></a> task_activity_parties
 
-Same as activityparty entity [task_activity_parties](activityparty.md#BKMK_task_activity_parties) Many-To-One relationship.
+Same as the [task_activity_parties](activityparty.md#BKMK_task_activity_parties) many-to-one relationship for the [activityparty](activityparty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1324,7 +1322,7 @@ Same as activityparty entity [task_activity_parties](activityparty.md#BKMK_task_
 
 ### <a name="BKMK_Task_ProcessSessions"></a> Task_ProcessSessions
 
-Same as processsession entity [Task_ProcessSessions](processsession.md#BKMK_Task_ProcessSessions) Many-To-One relationship.
+Same as the [Task_ProcessSessions](processsession.md#BKMK_Task_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1339,7 +1337,7 @@ Same as processsession entity [Task_ProcessSessions](processsession.md#BKMK_Task
 
 ### <a name="BKMK_Task_BulkDeleteFailures"></a> Task_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [Task_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Task_BulkDeleteFailures) Many-To-One relationship.
+Same as the [Task_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Task_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1354,7 +1352,7 @@ Same as bulkdeletefailure entity [Task_BulkDeleteFailures](bulkdeletefailure.md#
 
 ### <a name="BKMK_task_principalobjectattributeaccess"></a> task_principalobjectattributeaccess
 
-Same as principalobjectattributeaccess entity [task_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_task_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [task_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_task_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1369,7 +1367,7 @@ Same as principalobjectattributeaccess entity [task_principalobjectattributeacce
 
 ### <a name="BKMK_task_actioncard"></a> task_actioncard
 
-Same as actioncard entity [task_actioncard](actioncard.md#BKMK_task_actioncard) Many-To-One relationship.
+Same as the [task_actioncard](actioncard.md#BKMK_task_actioncard) many-to-one relationship for the [actioncard](actioncard.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1384,7 +1382,7 @@ Same as actioncard entity [task_actioncard](actioncard.md#BKMK_task_actioncard) 
 
 ### <a name="BKMK_slakpiinstance_task"></a> slakpiinstance_task
 
-Same as slakpiinstance entity [slakpiinstance_task](slakpiinstance.md#BKMK_slakpiinstance_task) Many-To-One relationship.
+Same as the [slakpiinstance_task](slakpiinstance.md#BKMK_slakpiinstance_task) many-to-one relationship for the [slakpiinstance](slakpiinstance.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1399,7 +1397,7 @@ Same as slakpiinstance entity [slakpiinstance_task](slakpiinstance.md#BKMK_slakp
 
 ### <a name="BKMK_Task_Annotation"></a> Task_Annotation
 
-Same as annotation entity [Task_Annotation](annotation.md#BKMK_Task_Annotation) Many-To-One relationship.
+Same as the [Task_Annotation](annotation.md#BKMK_Task_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1414,7 +1412,7 @@ Same as annotation entity [Task_Annotation](annotation.md#BKMK_Task_Annotation) 
 
 ### <a name="BKMK_task_connections1"></a> task_connections1
 
-Same as connection entity [task_connections1](connection.md#BKMK_task_connections1) Many-To-One relationship.
+Same as the [task_connections1](connection.md#BKMK_task_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1429,7 +1427,7 @@ Same as connection entity [task_connections1](connection.md#BKMK_task_connection
 
 ### <a name="BKMK_Task_AsyncOperations"></a> Task_AsyncOperations
 
-Same as asyncoperation entity [Task_AsyncOperations](asyncoperation.md#BKMK_Task_AsyncOperations) Many-To-One relationship.
+Same as the [Task_AsyncOperations](asyncoperation.md#BKMK_Task_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1459,74 +1457,11 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [Incident_Tasks](#BKMK_Incident_Tasks)
 - [site_Tasks](#BKMK_site_Tasks)
 - [service_tasks](#BKMK_service_tasks)
-- [msdyn_playbookinstance_Tasks](#BKMK_msdyn_playbookinstance_Tasks)
 - [Invoice_Tasks](#BKMK_Invoice_Tasks)
 - [Opportunity_Tasks](#BKMK_Opportunity_Tasks)
 - [Quote_Tasks](#BKMK_Quote_Tasks)
 - [SalesOrder_Tasks](#BKMK_SalesOrder_Tasks)
 - [msdyn_postalbum_Tasks](#BKMK_msdyn_postalbum_Tasks)
-- [msdyn_bookingalertstatus_Tasks](#BKMK_msdyn_bookingalertstatus_Tasks)
-- [msdyn_bookingrule_Tasks](#BKMK_msdyn_bookingrule_Tasks)
-- [msdyn_resourceterritory_Tasks](#BKMK_msdyn_resourceterritory_Tasks)
-- [msdyn_systemuserschedulersetting_Tasks](#BKMK_msdyn_systemuserschedulersetting_Tasks)
-- [msdyn_timegroup_Tasks](#BKMK_msdyn_timegroup_Tasks)
-- [msdyn_timegroupdetail_Tasks](#BKMK_msdyn_timegroupdetail_Tasks)
-- [msdyn_processnotes_Tasks](#BKMK_msdyn_processnotes_Tasks)
-- [msdyn_projectteam_Tasks](#BKMK_msdyn_projectteam_Tasks)
-- [msdyn_agreement_Tasks](#BKMK_msdyn_agreement_Tasks)
-- [msdyn_agreementbookingdate_Tasks](#BKMK_msdyn_agreementbookingdate_Tasks)
-- [msdyn_agreementbookingincident_Tasks](#BKMK_msdyn_agreementbookingincident_Tasks)
-- [msdyn_agreementbookingproduct_Tasks](#BKMK_msdyn_agreementbookingproduct_Tasks)
-- [msdyn_agreementbookingservice_Tasks](#BKMK_msdyn_agreementbookingservice_Tasks)
-- [msdyn_agreementbookingservicetask_Tasks](#BKMK_msdyn_agreementbookingservicetask_Tasks)
-- [msdyn_agreementbookingsetup_Tasks](#BKMK_msdyn_agreementbookingsetup_Tasks)
-- [msdyn_agreementinvoicedate_Tasks](#BKMK_msdyn_agreementinvoicedate_Tasks)
-- [msdyn_agreementinvoiceproduct_Tasks](#BKMK_msdyn_agreementinvoiceproduct_Tasks)
-- [msdyn_agreementinvoicesetup_Tasks](#BKMK_msdyn_agreementinvoicesetup_Tasks)
-- [msdyn_bookingtimestamp_Tasks](#BKMK_msdyn_bookingtimestamp_Tasks)
-- [msdyn_customerasset_Tasks](#BKMK_msdyn_customerasset_Tasks)
-- [msdyn_fieldservicesetting_Tasks](#BKMK_msdyn_fieldservicesetting_Tasks)
-- [msdyn_incidenttypecharacteristic_Tasks](#BKMK_msdyn_incidenttypecharacteristic_Tasks)
-- [msdyn_incidenttypeproduct_Tasks](#BKMK_msdyn_incidenttypeproduct_Tasks)
-- [msdyn_incidenttypeservice_Tasks](#BKMK_msdyn_incidenttypeservice_Tasks)
-- [msdyn_inventoryadjustment_Tasks](#BKMK_msdyn_inventoryadjustment_Tasks)
-- [msdyn_inventoryadjustmentproduct_Tasks](#BKMK_msdyn_inventoryadjustmentproduct_Tasks)
-- [msdyn_inventoryjournal_Tasks](#BKMK_msdyn_inventoryjournal_Tasks)
-- [msdyn_inventorytransfer_Tasks](#BKMK_msdyn_inventorytransfer_Tasks)
-- [msdyn_payment_Tasks](#BKMK_msdyn_payment_Tasks)
-- [msdyn_paymentdetail_Tasks](#BKMK_msdyn_paymentdetail_Tasks)
-- [msdyn_paymentmethod_Tasks](#BKMK_msdyn_paymentmethod_Tasks)
-- [msdyn_paymentterm_Tasks](#BKMK_msdyn_paymentterm_Tasks)
-- [msdyn_postalcode_Tasks](#BKMK_msdyn_postalcode_Tasks)
-- [msdyn_productinventory_Tasks](#BKMK_msdyn_productinventory_Tasks)
-- [msdyn_purchaseorder_Tasks](#BKMK_msdyn_purchaseorder_Tasks)
-- [msdyn_purchaseorderbill_Tasks](#BKMK_msdyn_purchaseorderbill_Tasks)
-- [msdyn_purchaseorderproduct_Tasks](#BKMK_msdyn_purchaseorderproduct_Tasks)
-- [msdyn_purchaseorderreceipt_Tasks](#BKMK_msdyn_purchaseorderreceipt_Tasks)
-- [msdyn_purchaseorderreceiptproduct_Tasks](#BKMK_msdyn_purchaseorderreceiptproduct_Tasks)
-- [msdyn_purchaseordersubstatus_Tasks](#BKMK_msdyn_purchaseordersubstatus_Tasks)
-- [msdyn_quotebookingincident_Tasks](#BKMK_msdyn_quotebookingincident_Tasks)
-- [msdyn_quotebookingproduct_Tasks](#BKMK_msdyn_quotebookingproduct_Tasks)
-- [msdyn_quotebookingservice_Tasks](#BKMK_msdyn_quotebookingservice_Tasks)
-- [msdyn_quotebookingservicetask_Tasks](#BKMK_msdyn_quotebookingservicetask_Tasks)
-- [msdyn_rma_Tasks](#BKMK_msdyn_rma_Tasks)
-- [msdyn_rmaproduct_Tasks](#BKMK_msdyn_rmaproduct_Tasks)
-- [msdyn_rmareceipt_Tasks](#BKMK_msdyn_rmareceipt_Tasks)
-- [msdyn_rmareceiptproduct_Tasks](#BKMK_msdyn_rmareceiptproduct_Tasks)
-- [msdyn_rmasubstatus_Tasks](#BKMK_msdyn_rmasubstatus_Tasks)
-- [msdyn_rtv_Tasks](#BKMK_msdyn_rtv_Tasks)
-- [msdyn_rtvproduct_Tasks](#BKMK_msdyn_rtvproduct_Tasks)
-- [msdyn_rtvsubstatus_Tasks](#BKMK_msdyn_rtvsubstatus_Tasks)
-- [msdyn_shipvia_Tasks](#BKMK_msdyn_shipvia_Tasks)
-- [msdyn_timeoffrequest_Tasks](#BKMK_msdyn_timeoffrequest_Tasks)
-- [msdyn_warehouse_Tasks](#BKMK_msdyn_warehouse_Tasks)
-- [msdyn_workorder_Tasks](#BKMK_msdyn_workorder_Tasks)
-- [msdyn_workordercharacteristic_Tasks](#BKMK_msdyn_workordercharacteristic_Tasks)
-- [msdyn_workorderincident_Tasks](#BKMK_msdyn_workorderincident_Tasks)
-- [msdyn_workorderproduct_Tasks](#BKMK_msdyn_workorderproduct_Tasks)
-- [msdyn_workorderresourcerestriction_Tasks](#BKMK_msdyn_workorderresourcerestriction_Tasks)
-- [msdyn_workorderservice_Tasks](#BKMK_msdyn_workorderservice_Tasks)
-- [msdyn_workorderservicetask_Tasks](#BKMK_msdyn_workorderservicetask_Tasks)
 - [KnowledgeBaseRecord_Tasks](#BKMK_KnowledgeBaseRecord_Tasks)
 - [business_unit_task_activities](#BKMK_business_unit_task_activities)
 - [TransactionCurrency_Task](#BKMK_TransactionCurrency_Task)
@@ -1549,551 +1484,169 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Lead Management Solution
 
-See lead Entity [Lead_Tasks](lead.md#BKMK_Lead_Tasks) One-To-Many relationship.
+See the [Lead_Tasks](lead.md#BKMK_Lead_Tasks) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_bookableresourcebooking_Tasks"></a> bookableresourcebooking_Tasks
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebooking Entity [bookableresourcebooking_Tasks](bookableresourcebooking.md#BKMK_bookableresourcebooking_Tasks) One-To-Many relationship.
+See the [bookableresourcebooking_Tasks](bookableresourcebooking.md#BKMK_bookableresourcebooking_Tasks) one-to-many relationship for the [bookableresourcebooking](bookableresourcebooking.md) entity.
 
 ### <a name="BKMK_bookableresourcebookingheader_Tasks"></a> bookableresourcebookingheader_Tasks
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebookingheader Entity [bookableresourcebookingheader_Tasks](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_Tasks) One-To-Many relationship.
+See the [bookableresourcebookingheader_Tasks](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_Tasks) one-to-many relationship for the [bookableresourcebookingheader](bookableresourcebookingheader.md) entity.
 
 ### <a name="BKMK_bulkoperation_Tasks"></a> bulkoperation_Tasks
 
 **Added by**: Marketing Solution
 
-See bulkoperation Entity [bulkoperation_Tasks](bulkoperation.md#BKMK_bulkoperation_Tasks) One-To-Many relationship.
+See the [bulkoperation_Tasks](bulkoperation.md#BKMK_bulkoperation_Tasks) one-to-many relationship for the [bulkoperation](bulkoperation.md) entity.
 
 ### <a name="BKMK_Campaign_Tasks"></a> Campaign_Tasks
 
 **Added by**: Marketing Solution
 
-See campaign Entity [Campaign_Tasks](campaign.md#BKMK_Campaign_Tasks) One-To-Many relationship.
+See the [Campaign_Tasks](campaign.md#BKMK_Campaign_Tasks) one-to-many relationship for the [campaign](campaign.md) entity.
 
 ### <a name="BKMK_CampaignActivity_Tasks"></a> CampaignActivity_Tasks
 
 **Added by**: Marketing Solution
 
-See campaignactivity Entity [CampaignActivity_Tasks](campaignactivity.md#BKMK_CampaignActivity_Tasks) One-To-Many relationship.
+See the [CampaignActivity_Tasks](campaignactivity.md#BKMK_CampaignActivity_Tasks) one-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_Contract_Tasks"></a> Contract_Tasks
 
 **Added by**: Service Solution
 
-See contract Entity [Contract_Tasks](contract.md#BKMK_Contract_Tasks) One-To-Many relationship.
+See the [Contract_Tasks](contract.md#BKMK_Contract_Tasks) one-to-many relationship for the [contract](contract.md) entity.
 
 ### <a name="BKMK_entitlement_Tasks"></a> entitlement_Tasks
 
 **Added by**: Service Solution
 
-See entitlement Entity [entitlement_Tasks](entitlement.md#BKMK_entitlement_Tasks) One-To-Many relationship.
+See the [entitlement_Tasks](entitlement.md#BKMK_entitlement_Tasks) one-to-many relationship for the [entitlement](entitlement.md) entity.
 
 ### <a name="BKMK_entitlementtemplate_Tasks"></a> entitlementtemplate_Tasks
 
 **Added by**: Service Solution
 
-See entitlementtemplate Entity [entitlementtemplate_Tasks](entitlementtemplate.md#BKMK_entitlementtemplate_Tasks) One-To-Many relationship.
+See the [entitlementtemplate_Tasks](entitlementtemplate.md#BKMK_entitlementtemplate_Tasks) one-to-many relationship for the [entitlementtemplate](entitlementtemplate.md) entity.
 
 ### <a name="BKMK_Incident_Tasks"></a> Incident_Tasks
 
 **Added by**: Service Solution
 
-See incident Entity [Incident_Tasks](incident.md#BKMK_Incident_Tasks) One-To-Many relationship.
+See the [Incident_Tasks](incident.md#BKMK_Incident_Tasks) one-to-many relationship for the [incident](incident.md) entity.
 
 ### <a name="BKMK_site_Tasks"></a> site_Tasks
 
 **Added by**: Service Solution
 
-See site Entity [site_Tasks](site.md#BKMK_site_Tasks) One-To-Many relationship.
+See the [site_Tasks](site.md#BKMK_site_Tasks) one-to-many relationship for the [site](site.md) entity.
 
 ### <a name="BKMK_service_tasks"></a> service_tasks
 
 **Added by**: Service Solution
 
-See service Entity [service_tasks](service.md#BKMK_service_tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_playbookinstance_Tasks"></a> msdyn_playbookinstance_Tasks
-
-**Added by**: Playbook Solution
-
-See msdyn_playbookinstance Entity [msdyn_playbookinstance_Tasks](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_Tasks) One-To-Many relationship.
+See the [service_tasks](service.md#BKMK_service_tasks) one-to-many relationship for the [service](service.md) entity.
 
 ### <a name="BKMK_Invoice_Tasks"></a> Invoice_Tasks
 
 **Added by**: Sales Solution
 
-See invoice Entity [Invoice_Tasks](invoice.md#BKMK_Invoice_Tasks) One-To-Many relationship.
+See the [Invoice_Tasks](invoice.md#BKMK_Invoice_Tasks) one-to-many relationship for the [invoice](invoice.md) entity.
 
 ### <a name="BKMK_Opportunity_Tasks"></a> Opportunity_Tasks
 
 **Added by**: Sales Solution
 
-See opportunity Entity [Opportunity_Tasks](opportunity.md#BKMK_Opportunity_Tasks) One-To-Many relationship.
+See the [Opportunity_Tasks](opportunity.md#BKMK_Opportunity_Tasks) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_Quote_Tasks"></a> Quote_Tasks
 
 **Added by**: Sales Solution
 
-See quote Entity [Quote_Tasks](quote.md#BKMK_Quote_Tasks) One-To-Many relationship.
+See the [Quote_Tasks](quote.md#BKMK_Quote_Tasks) one-to-many relationship for the [quote](quote.md) entity.
 
 ### <a name="BKMK_SalesOrder_Tasks"></a> SalesOrder_Tasks
 
 **Added by**: Sales Solution
 
-See salesorder Entity [SalesOrder_Tasks](salesorder.md#BKMK_SalesOrder_Tasks) One-To-Many relationship.
+See the [SalesOrder_Tasks](salesorder.md#BKMK_SalesOrder_Tasks) one-to-many relationship for the [salesorder](salesorder.md) entity.
 
 ### <a name="BKMK_msdyn_postalbum_Tasks"></a> msdyn_postalbum_Tasks
 
 **Added by**: Activity Feeds Solution
 
-See msdyn_postalbum Entity [msdyn_postalbum_Tasks](msdyn_postalbum.md#BKMK_msdyn_postalbum_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingalertstatus_Tasks"></a> msdyn_bookingalertstatus_Tasks
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingalertstatus Entity [msdyn_bookingalertstatus_Tasks](msdyn_bookingalertstatus.md#BKMK_msdyn_bookingalertstatus_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingrule_Tasks"></a> msdyn_bookingrule_Tasks
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingrule Entity [msdyn_bookingrule_Tasks](msdyn_bookingrule.md#BKMK_msdyn_bookingrule_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourceterritory_Tasks"></a> msdyn_resourceterritory_Tasks
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_resourceterritory Entity [msdyn_resourceterritory_Tasks](msdyn_resourceterritory.md#BKMK_msdyn_resourceterritory_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_systemuserschedulersetting_Tasks"></a> msdyn_systemuserschedulersetting_Tasks
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_systemuserschedulersetting Entity [msdyn_systemuserschedulersetting_Tasks](msdyn_systemuserschedulersetting.md#BKMK_msdyn_systemuserschedulersetting_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroup_Tasks"></a> msdyn_timegroup_Tasks
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroup Entity [msdyn_timegroup_Tasks](msdyn_timegroup.md#BKMK_msdyn_timegroup_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroupdetail_Tasks"></a> msdyn_timegroupdetail_Tasks
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroupdetail Entity [msdyn_timegroupdetail_Tasks](msdyn_timegroupdetail.md#BKMK_msdyn_timegroupdetail_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_processnotes_Tasks"></a> msdyn_processnotes_Tasks
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_processnotes Entity [msdyn_processnotes_Tasks](msdyn_processnotes.md#BKMK_msdyn_processnotes_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projectteam_Tasks"></a> msdyn_projectteam_Tasks
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projectteam Entity [msdyn_projectteam_Tasks](msdyn_projectteam.md#BKMK_msdyn_projectteam_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreement_Tasks"></a> msdyn_agreement_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_agreement Entity [msdyn_agreement_Tasks](msdyn_agreement.md#BKMK_msdyn_agreement_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingdate_Tasks"></a> msdyn_agreementbookingdate_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingdate Entity [msdyn_agreementbookingdate_Tasks](msdyn_agreementbookingdate.md#BKMK_msdyn_agreementbookingdate_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingincident_Tasks"></a> msdyn_agreementbookingincident_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingincident Entity [msdyn_agreementbookingincident_Tasks](msdyn_agreementbookingincident.md#BKMK_msdyn_agreementbookingincident_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingproduct_Tasks"></a> msdyn_agreementbookingproduct_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingproduct Entity [msdyn_agreementbookingproduct_Tasks](msdyn_agreementbookingproduct.md#BKMK_msdyn_agreementbookingproduct_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingservice_Tasks"></a> msdyn_agreementbookingservice_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingservice Entity [msdyn_agreementbookingservice_Tasks](msdyn_agreementbookingservice.md#BKMK_msdyn_agreementbookingservice_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingservicetask_Tasks"></a> msdyn_agreementbookingservicetask_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingservicetask Entity [msdyn_agreementbookingservicetask_Tasks](msdyn_agreementbookingservicetask.md#BKMK_msdyn_agreementbookingservicetask_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingsetup_Tasks"></a> msdyn_agreementbookingsetup_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingsetup Entity [msdyn_agreementbookingsetup_Tasks](msdyn_agreementbookingsetup.md#BKMK_msdyn_agreementbookingsetup_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicedate_Tasks"></a> msdyn_agreementinvoicedate_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicedate Entity [msdyn_agreementinvoicedate_Tasks](msdyn_agreementinvoicedate.md#BKMK_msdyn_agreementinvoicedate_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoiceproduct_Tasks"></a> msdyn_agreementinvoiceproduct_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoiceproduct Entity [msdyn_agreementinvoiceproduct_Tasks](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_agreementinvoiceproduct_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicesetup_Tasks"></a> msdyn_agreementinvoicesetup_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicesetup Entity [msdyn_agreementinvoicesetup_Tasks](msdyn_agreementinvoicesetup.md#BKMK_msdyn_agreementinvoicesetup_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingtimestamp_Tasks"></a> msdyn_bookingtimestamp_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_bookingtimestamp Entity [msdyn_bookingtimestamp_Tasks](msdyn_bookingtimestamp.md#BKMK_msdyn_bookingtimestamp_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_customerasset_Tasks"></a> msdyn_customerasset_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_customerasset Entity [msdyn_customerasset_Tasks](msdyn_customerasset.md#BKMK_msdyn_customerasset_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_fieldservicesetting_Tasks"></a> msdyn_fieldservicesetting_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_fieldservicesetting Entity [msdyn_fieldservicesetting_Tasks](msdyn_fieldservicesetting.md#BKMK_msdyn_fieldservicesetting_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypecharacteristic_Tasks"></a> msdyn_incidenttypecharacteristic_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypecharacteristic Entity [msdyn_incidenttypecharacteristic_Tasks](msdyn_incidenttypecharacteristic.md#BKMK_msdyn_incidenttypecharacteristic_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypeproduct_Tasks"></a> msdyn_incidenttypeproduct_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypeproduct Entity [msdyn_incidenttypeproduct_Tasks](msdyn_incidenttypeproduct.md#BKMK_msdyn_incidenttypeproduct_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypeservice_Tasks"></a> msdyn_incidenttypeservice_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypeservice Entity [msdyn_incidenttypeservice_Tasks](msdyn_incidenttypeservice.md#BKMK_msdyn_incidenttypeservice_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryadjustment_Tasks"></a> msdyn_inventoryadjustment_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryadjustment Entity [msdyn_inventoryadjustment_Tasks](msdyn_inventoryadjustment.md#BKMK_msdyn_inventoryadjustment_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryadjustmentproduct_Tasks"></a> msdyn_inventoryadjustmentproduct_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryadjustmentproduct Entity [msdyn_inventoryadjustmentproduct_Tasks](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_inventoryadjustmentproduct_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryjournal_Tasks"></a> msdyn_inventoryjournal_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryjournal Entity [msdyn_inventoryjournal_Tasks](msdyn_inventoryjournal.md#BKMK_msdyn_inventoryjournal_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventorytransfer_Tasks"></a> msdyn_inventorytransfer_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_inventorytransfer Entity [msdyn_inventorytransfer_Tasks](msdyn_inventorytransfer.md#BKMK_msdyn_inventorytransfer_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_payment_Tasks"></a> msdyn_payment_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_payment Entity [msdyn_payment_Tasks](msdyn_payment.md#BKMK_msdyn_payment_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentdetail_Tasks"></a> msdyn_paymentdetail_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentdetail Entity [msdyn_paymentdetail_Tasks](msdyn_paymentdetail.md#BKMK_msdyn_paymentdetail_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentmethod_Tasks"></a> msdyn_paymentmethod_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentmethod Entity [msdyn_paymentmethod_Tasks](msdyn_paymentmethod.md#BKMK_msdyn_paymentmethod_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentterm_Tasks"></a> msdyn_paymentterm_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentterm Entity [msdyn_paymentterm_Tasks](msdyn_paymentterm.md#BKMK_msdyn_paymentterm_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_postalcode_Tasks"></a> msdyn_postalcode_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_postalcode Entity [msdyn_postalcode_Tasks](msdyn_postalcode.md#BKMK_msdyn_postalcode_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_productinventory_Tasks"></a> msdyn_productinventory_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_productinventory Entity [msdyn_productinventory_Tasks](msdyn_productinventory.md#BKMK_msdyn_productinventory_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorder_Tasks"></a> msdyn_purchaseorder_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorder Entity [msdyn_purchaseorder_Tasks](msdyn_purchaseorder.md#BKMK_msdyn_purchaseorder_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderbill_Tasks"></a> msdyn_purchaseorderbill_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderbill Entity [msdyn_purchaseorderbill_Tasks](msdyn_purchaseorderbill.md#BKMK_msdyn_purchaseorderbill_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderproduct_Tasks"></a> msdyn_purchaseorderproduct_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderproduct Entity [msdyn_purchaseorderproduct_Tasks](msdyn_purchaseorderproduct.md#BKMK_msdyn_purchaseorderproduct_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderreceipt_Tasks"></a> msdyn_purchaseorderreceipt_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderreceipt Entity [msdyn_purchaseorderreceipt_Tasks](msdyn_purchaseorderreceipt.md#BKMK_msdyn_purchaseorderreceipt_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderreceiptproduct_Tasks"></a> msdyn_purchaseorderreceiptproduct_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderreceiptproduct Entity [msdyn_purchaseorderreceiptproduct_Tasks](msdyn_purchaseorderreceiptproduct.md#BKMK_msdyn_purchaseorderreceiptproduct_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseordersubstatus_Tasks"></a> msdyn_purchaseordersubstatus_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseordersubstatus Entity [msdyn_purchaseordersubstatus_Tasks](msdyn_purchaseordersubstatus.md#BKMK_msdyn_purchaseordersubstatus_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingincident_Tasks"></a> msdyn_quotebookingincident_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingincident Entity [msdyn_quotebookingincident_Tasks](msdyn_quotebookingincident.md#BKMK_msdyn_quotebookingincident_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingproduct_Tasks"></a> msdyn_quotebookingproduct_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingproduct Entity [msdyn_quotebookingproduct_Tasks](msdyn_quotebookingproduct.md#BKMK_msdyn_quotebookingproduct_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingservice_Tasks"></a> msdyn_quotebookingservice_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingservice Entity [msdyn_quotebookingservice_Tasks](msdyn_quotebookingservice.md#BKMK_msdyn_quotebookingservice_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingservicetask_Tasks"></a> msdyn_quotebookingservicetask_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingservicetask Entity [msdyn_quotebookingservicetask_Tasks](msdyn_quotebookingservicetask.md#BKMK_msdyn_quotebookingservicetask_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rma_Tasks"></a> msdyn_rma_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_rma Entity [msdyn_rma_Tasks](msdyn_rma.md#BKMK_msdyn_rma_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmaproduct_Tasks"></a> msdyn_rmaproduct_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_rmaproduct Entity [msdyn_rmaproduct_Tasks](msdyn_rmaproduct.md#BKMK_msdyn_rmaproduct_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmareceipt_Tasks"></a> msdyn_rmareceipt_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_rmareceipt Entity [msdyn_rmareceipt_Tasks](msdyn_rmareceipt.md#BKMK_msdyn_rmareceipt_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmareceiptproduct_Tasks"></a> msdyn_rmareceiptproduct_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_rmareceiptproduct Entity [msdyn_rmareceiptproduct_Tasks](msdyn_rmareceiptproduct.md#BKMK_msdyn_rmareceiptproduct_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmasubstatus_Tasks"></a> msdyn_rmasubstatus_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_rmasubstatus Entity [msdyn_rmasubstatus_Tasks](msdyn_rmasubstatus.md#BKMK_msdyn_rmasubstatus_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtv_Tasks"></a> msdyn_rtv_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_rtv Entity [msdyn_rtv_Tasks](msdyn_rtv.md#BKMK_msdyn_rtv_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtvproduct_Tasks"></a> msdyn_rtvproduct_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_rtvproduct Entity [msdyn_rtvproduct_Tasks](msdyn_rtvproduct.md#BKMK_msdyn_rtvproduct_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtvsubstatus_Tasks"></a> msdyn_rtvsubstatus_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_rtvsubstatus Entity [msdyn_rtvsubstatus_Tasks](msdyn_rtvsubstatus.md#BKMK_msdyn_rtvsubstatus_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_shipvia_Tasks"></a> msdyn_shipvia_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_shipvia Entity [msdyn_shipvia_Tasks](msdyn_shipvia.md#BKMK_msdyn_shipvia_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timeoffrequest_Tasks"></a> msdyn_timeoffrequest_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_timeoffrequest Entity [msdyn_timeoffrequest_Tasks](msdyn_timeoffrequest.md#BKMK_msdyn_timeoffrequest_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_warehouse_Tasks"></a> msdyn_warehouse_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_warehouse Entity [msdyn_warehouse_Tasks](msdyn_warehouse.md#BKMK_msdyn_warehouse_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorder_Tasks"></a> msdyn_workorder_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_workorder Entity [msdyn_workorder_Tasks](msdyn_workorder.md#BKMK_msdyn_workorder_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workordercharacteristic_Tasks"></a> msdyn_workordercharacteristic_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_workordercharacteristic Entity [msdyn_workordercharacteristic_Tasks](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderincident_Tasks"></a> msdyn_workorderincident_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderincident Entity [msdyn_workorderincident_Tasks](msdyn_workorderincident.md#BKMK_msdyn_workorderincident_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderproduct_Tasks"></a> msdyn_workorderproduct_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderproduct Entity [msdyn_workorderproduct_Tasks](msdyn_workorderproduct.md#BKMK_msdyn_workorderproduct_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderresourcerestriction_Tasks"></a> msdyn_workorderresourcerestriction_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderresourcerestriction Entity [msdyn_workorderresourcerestriction_Tasks](msdyn_workorderresourcerestriction.md#BKMK_msdyn_workorderresourcerestriction_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservice_Tasks"></a> msdyn_workorderservice_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservice Entity [msdyn_workorderservice_Tasks](msdyn_workorderservice.md#BKMK_msdyn_workorderservice_Tasks) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservicetask_Tasks"></a> msdyn_workorderservicetask_Tasks
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_Tasks](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_Tasks) One-To-Many relationship.
+See the [msdyn_postalbum_Tasks](msdyn_postalbum.md#BKMK_msdyn_postalbum_Tasks) one-to-many relationship for the [msdyn_postalbum](msdyn_postalbum.md) entity.
 
 ### <a name="BKMK_KnowledgeBaseRecord_Tasks"></a> KnowledgeBaseRecord_Tasks
 
-See knowledgebaserecord Entity [KnowledgeBaseRecord_Tasks](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_Tasks) One-To-Many relationship.
+See the [KnowledgeBaseRecord_Tasks](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_Tasks) one-to-many relationship for the [knowledgebaserecord](knowledgebaserecord.md) entity.
 
 ### <a name="BKMK_business_unit_task_activities"></a> business_unit_task_activities
 
-See businessunit Entity [business_unit_task_activities](businessunit.md#BKMK_business_unit_task_activities) One-To-Many relationship.
+See the [business_unit_task_activities](businessunit.md#BKMK_business_unit_task_activities) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_Task"></a> TransactionCurrency_Task
 
-See transactioncurrency Entity [TransactionCurrency_Task](transactioncurrency.md#BKMK_TransactionCurrency_Task) One-To-Many relationship.
+See the [TransactionCurrency_Task](transactioncurrency.md#BKMK_TransactionCurrency_Task) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_lk_task_createdby"></a> lk_task_createdby
 
-See systemuser Entity [lk_task_createdby](systemuser.md#BKMK_lk_task_createdby) One-To-Many relationship.
+See the [lk_task_createdby](systemuser.md#BKMK_lk_task_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_user_task"></a> user_task
 
-See systemuser Entity [user_task](systemuser.md#BKMK_user_task) One-To-Many relationship.
+See the [user_task](systemuser.md#BKMK_user_task) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_KnowledgeArticle_Tasks"></a> KnowledgeArticle_Tasks
 
-See knowledgearticle Entity [KnowledgeArticle_Tasks](knowledgearticle.md#BKMK_KnowledgeArticle_Tasks) One-To-Many relationship.
+See the [KnowledgeArticle_Tasks](knowledgearticle.md#BKMK_KnowledgeArticle_Tasks) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### <a name="BKMK_team_task"></a> team_task
 
-See team Entity [team_task](team.md#BKMK_team_task) One-To-Many relationship.
+See the [team_task](team.md#BKMK_team_task) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_lk_task_createdonbehalfby"></a> lk_task_createdonbehalfby
 
-See systemuser Entity [lk_task_createdonbehalfby](systemuser.md#BKMK_lk_task_createdonbehalfby) One-To-Many relationship.
+See the [lk_task_createdonbehalfby](systemuser.md#BKMK_lk_task_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_activity_pointer_task"></a> activity_pointer_task
 
-See activitypointer Entity [activity_pointer_task](activitypointer.md#BKMK_activity_pointer_task) One-To-Many relationship.
+See the [activity_pointer_task](activitypointer.md#BKMK_activity_pointer_task) one-to-many relationship for the [activitypointer](activitypointer.md) entity.
 
 ### <a name="BKMK_Account_Tasks"></a> Account_Tasks
 
-See account Entity [Account_Tasks](account.md#BKMK_Account_Tasks) One-To-Many relationship.
+See the [Account_Tasks](account.md#BKMK_Account_Tasks) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_Contact_Tasks"></a> Contact_Tasks
 
-See contact Entity [Contact_Tasks](contact.md#BKMK_Contact_Tasks) One-To-Many relationship.
+See the [Contact_Tasks](contact.md#BKMK_Contact_Tasks) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_lk_task_modifiedby"></a> lk_task_modifiedby
 
-See systemuser Entity [lk_task_modifiedby](systemuser.md#BKMK_lk_task_modifiedby) One-To-Many relationship.
+See the [lk_task_modifiedby](systemuser.md#BKMK_lk_task_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_processstage_tasks"></a> processstage_tasks
 
-See processstage Entity [processstage_tasks](processstage.md#BKMK_processstage_tasks) One-To-Many relationship.
+See the [processstage_tasks](processstage.md#BKMK_processstage_tasks) one-to-many relationship for the [processstage](processstage.md) entity.
 
 ### <a name="BKMK_sla_task"></a> sla_task
 
-See sla Entity [sla_task](sla.md#BKMK_sla_task) One-To-Many relationship.
+See the [sla_task](sla.md#BKMK_sla_task) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_manualsla_task"></a> manualsla_task
 
-See sla Entity [manualsla_task](sla.md#BKMK_manualsla_task) One-To-Many relationship.
+See the [manualsla_task](sla.md#BKMK_manualsla_task) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_lk_task_modifiedonbehalfby"></a> lk_task_modifiedonbehalfby
 
-See systemuser Entity [lk_task_modifiedonbehalfby](systemuser.md#BKMK_lk_task_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_task_modifiedonbehalfby](systemuser.md#BKMK_lk_task_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.task?text=task EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

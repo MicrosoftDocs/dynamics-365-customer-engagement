@@ -1,30 +1,20 @@
 ---
 title: "Back up the Dynamics 365 Customer Engagement (on-premises) system | Microsoft Docs"
-description: Learn hos to back up your Dynamics 365 Customer Engagement (on-premises) databases
+description: Learn how to back up your Dynamics 365 Customer Engagement (on-premises) databases
 ms.custom: ""
-ms.date: "10/01/2018"
-
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.date: "04/27/2023"
+ms.reviewer: "matp"
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (on-premises)"
-ms.assetid: 30f8e3fe-972f-4bf8-9f53-e9218ca432be
-caps.latest.revision: 27
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Back up the Dynamics 365 Customer Engagement (on-premises) system
 
-
-
-To recover from any scenario, you must back up all needed information and store a copy off site. A backup plan should be created and rehearsed for all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] components and services to make sure that, if a disk or other failure occurs, the maximum amount of data is recoverable.  
+To recover from any scenario, you must back up all needed information and store a copy off site. A backup plan should be created and rehearsed for all Dynamics 365 Customer Engagement (on-premises) components and services to make sure that if a disk or other failure occurs, the maximum amount of data is recoverable.  
   
 <a name="BKMK_Backup"></a>   
 ## Backup requirements summary  
- Backup requirements vary according to the servers involved. The following table is a summary of what to back up for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+ Backup requirements vary according to the servers involved. The following table is a summary of what to back up for Dynamics 365 Customer Engagement (on-premises).  
   
 |Server|What to back up|Comments|  
 |------------|---------------------|--------------|  
@@ -65,7 +55,7 @@ To recover from any scenario, you must back up all needed information and store 
 ## Backing up SQL Server, including Reporting Services  
  Windows Server Backup uses Volume Shadow Copy Services (VSS) to protect [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] application data. An alternative solution that can be used while [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] runs is the built-in backup features of [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)].  
   
- If you use [!INCLUDE[pn_SQL_Server_Management_Studio](../includes/pn-sql-server-management-studio.md)] to create a backup of the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] databases, you can run a backup job from the [!INCLUDE[pn_Backup_and_Restore_Wizard](../includes/pn-backup-and-restore-wizard.md)] to include database backups that [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] created. Schedule the backup routing in [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] to run first, followed by a backup job run in the [!INCLUDE[pn_Backup_and_Restore_Wizard](../includes/pn-backup-and-restore-wizard.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Back Up and Restore of SQL Server Databases](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases?view=sql-server-2016)  
+ If you use [!INCLUDE[pn_SQL_Server_Management_Studio](../includes/pn-sql-server-management-studio.md)] to create a backup of the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] databases, you can run a backup job from the [!INCLUDE[pn_Backup_and_Restore_Wizard](../includes/pn-backup-and-restore-wizard.md)] to include database backups that [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] created. Schedule the backup routing in [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] to run first, followed by a backup job run in the [!INCLUDE[pn_Backup_and_Restore_Wizard](../includes/pn-backup-and-restore-wizard.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Back Up and Restore of SQL Server Databases](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases?view=sql-server-2016&preserve-view=true)  
   
  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] creates at least two [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]-specific databases on [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. In addition, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] requires the default master and msdb[!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] databases for database services and the default report server [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] databases for [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)]. The databases that make up a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system on [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] are as follows:  
   

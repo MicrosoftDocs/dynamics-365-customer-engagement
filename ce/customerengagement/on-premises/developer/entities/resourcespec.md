@@ -1,18 +1,16 @@
 ---
-title: "ResourceSpec Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the ResourceSpec entity."
-ms.date: 04/02/2019
-
+title: "Resource Specification (ResourceSpec)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Resource Specification (ResourceSpec)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# ResourceSpec Entity Reference
+
+# Resource Specification (ResourceSpec)  entity reference
 
 Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.
 
@@ -21,15 +19,15 @@ Selection rule that allows the scheduling engine to select a number of resources
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/resourcespecs<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/resourcespecs(*resourcespecid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/resourcespecs(*resourcespecid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/resourcespecs<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/resourcespecs(*resourcespecid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -263,14 +261,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### SameSite Options
+#### SameSite Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -626,7 +624,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [resourcespec_SyncErrors](syncerror.md#BKMK_resourcespec_SyncErrors) Many-To-One relationship.
+Same as the [resourcespec_SyncErrors](syncerror.md#BKMK_resourcespec_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -643,7 +641,7 @@ Same as syncerror entity [resourcespec_SyncErrors](syncerror.md#BKMK_resourcespe
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [ResourceSpec_AsyncOperations](asyncoperation.md#BKMK_ResourceSpec_AsyncOperations) Many-To-One relationship.
+Same as the [ResourceSpec_AsyncOperations](asyncoperation.md#BKMK_ResourceSpec_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -660,7 +658,7 @@ Same as asyncoperation entity [ResourceSpec_AsyncOperations](asyncoperation.md#B
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [resourcespec_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_resourcespec_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [resourcespec_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_resourcespec_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -677,7 +675,7 @@ Same as mailboxtrackingfolder entity [resourcespec_MailboxTrackingFolders](mailb
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [ResourceSpec_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ResourceSpec_BulkDeleteFailures) Many-To-One relationship.
+Same as the [ResourceSpec_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ResourceSpec_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -694,7 +692,7 @@ Same as bulkdeletefailure entity [ResourceSpec_BulkDeleteFailures](bulkdeletefai
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [resourcespec_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_resourcespec_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [resourcespec_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_resourcespec_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -711,7 +709,7 @@ Same as principalobjectattributeaccess entity [resourcespec_PrincipalObjectAttri
 
 **Added by**: System Solution Solution
 
-Same as annotation entity [ResourceSpec_Annotation](annotation.md#BKMK_ResourceSpec_Annotation) Many-To-One relationship.
+Same as the [ResourceSpec_Annotation](annotation.md#BKMK_ResourceSpec_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -726,7 +724,7 @@ Same as annotation entity [ResourceSpec_Annotation](annotation.md#BKMK_ResourceS
 
 ### <a name="BKMK_ActivityPartyResourceSpec"></a> ActivityPartyResourceSpec
 
-Same as activityparty entity [ActivityPartyResourceSpec](activityparty.md#BKMK_ActivityPartyResourceSpec) Many-To-One relationship.
+Same as the [ActivityPartyResourceSpec](activityparty.md#BKMK_ActivityPartyResourceSpec) many-to-one relationship for the [activityparty](activityparty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -741,7 +739,7 @@ Same as activityparty entity [ActivityPartyResourceSpec](activityparty.md#BKMK_A
 
 ### <a name="BKMK_resourcespec_resources"></a> resourcespec_resources
 
-Same as resource entity [resourcespec_resources](resource.md#BKMK_resourcespec_resources) Many-To-One relationship.
+Same as the [resourcespec_resources](resource.md#BKMK_resourcespec_resources) many-to-one relationship for the [resource](resource.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -756,7 +754,7 @@ Same as resource entity [resourcespec_resources](resource.md#BKMK_resourcespec_r
 
 ### <a name="BKMK_resource_spec_services"></a> resource_spec_services
 
-Same as service entity [resource_spec_services](service.md#BKMK_resource_spec_services) Many-To-One relationship.
+Same as the [resource_spec_services](service.md#BKMK_resource_spec_services) many-to-one relationship for the [service](service.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -788,53 +786,49 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_resourcespec_createdby](systemuser.md#BKMK_lk_resourcespec_createdby) One-To-Many relationship.
+See the [lk_resourcespec_createdby](systemuser.md#BKMK_lk_resourcespec_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_resourcespec_createdonbehalfby"></a> lk_resourcespec_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_resourcespec_createdonbehalfby](systemuser.md#BKMK_lk_resourcespec_createdonbehalfby) One-To-Many relationship.
+See the [lk_resourcespec_createdonbehalfby](systemuser.md#BKMK_lk_resourcespec_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_resourcespec_modifiedby"></a> lk_resourcespec_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_resourcespec_modifiedby](systemuser.md#BKMK_lk_resourcespec_modifiedby) One-To-Many relationship.
+See the [lk_resourcespec_modifiedby](systemuser.md#BKMK_lk_resourcespec_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_resourcespec_modifiedonbehalfby"></a> lk_resourcespec_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_resourcespec_modifiedonbehalfby](systemuser.md#BKMK_lk_resourcespec_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_resourcespec_modifiedonbehalfby](systemuser.md#BKMK_lk_resourcespec_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_business_unit_resource_specs"></a> business_unit_resource_specs
 
 **Added by**: System Solution Solution
 
-See businessunit Entity [business_unit_resource_specs](businessunit.md#BKMK_business_unit_resource_specs) One-To-Many relationship.
+See the [business_unit_resource_specs](businessunit.md#BKMK_business_unit_resource_specs) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_constraint_based_group_resource_specs"></a> constraint_based_group_resource_specs
 
-See constraintbasedgroup Entity [constraint_based_group_resource_specs](constraintbasedgroup.md#BKMK_constraint_based_group_resource_specs) One-To-Many relationship.
+See the [constraint_based_group_resource_specs](constraintbasedgroup.md#BKMK_constraint_based_group_resource_specs) one-to-many relationship for the [constraintbasedgroup](constraintbasedgroup.md) entity.
 
 ### <a name="BKMK_organization_resource_specs"></a> organization_resource_specs
 
 **Added by**: System Solution Solution
 
-See organization Entity [organization_resource_specs](organization.md#BKMK_organization_resource_specs) One-To-Many relationship.
+See the [organization_resource_specs](organization.md#BKMK_organization_resource_specs) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_team_resource_specs"></a> team_resource_specs
 
 **Added by**: System Solution Solution
 
-See team Entity [team_resource_specs](team.md#BKMK_team_resource_specs) One-To-Many relationship.
+See the [team_resource_specs](team.md#BKMK_team_resource_specs) one-to-many relationship for the [team](team.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.resourcespec?text=resourcespec EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

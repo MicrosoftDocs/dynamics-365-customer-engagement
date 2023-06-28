@@ -3,24 +3,19 @@ title: "Limitations when customizing Dynamics 365 App for Outlook (Dynamics 365 
 ms.custom: 
 ms.date: 05/20/2021
 description: When customizing the app you make run into these limitations.
-ms.reviewer: 
-
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: Dynamics 365 apps
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Limitations when customizing Dynamics 365 App for Outlook
 

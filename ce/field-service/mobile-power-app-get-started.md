@@ -1,26 +1,21 @@
 ---
 title: "Install the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to install and set up the Field Service (Dynamics 365) mobile app.
-ms.date: 06/04/2021
-ms.reviewer: krbjoran
+ms.date: 11/30/2022
 ms.topic: article
 
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.custom: intro-internal
-ms.author: daclar
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+ms.collection: get-started
+author: Andrea-Orimoto
+ms.author: andreo
 ---
 
 # Install and set up the Field Service (Dynamics 365) mobile app
 
-The Field Service (Dynamics 365) mobile app is designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. This mobile app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview) and you can customize it to your business needs by using the same admin console as all Dynamics 365 business apps.
+The Field Service (Dynamics 365) mobile app is designed and optimized for technicians. They can work with Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. The app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). You can customize it to your business needs.
 
 For a guided walkthrough, check out the following video.
 
@@ -28,24 +23,7 @@ For a guided walkthrough, check out the following video.
 
 ## Prerequisites
 
-To use the Field Service (Dynamics 365) mobile app, you must have Field Service installed and set up.
-
-See the following articles if you haven't yet set up Field Service:
-
-- [How to install Dynamics 365 Field Service](install-field-service.md)
-- [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
-- [Perform initial configurations](perform-initial-configurations-setup.md)
-- [Create a Bookable Resource](set-up-bookable-resources.md)
-
-
-## Install or upgrade Field Service
-
-After you install or upgrade to Field Service v8.8.22+, the **Field Service** and **Field Service Mobile** apps will appear in the list of apps when you sign in. You can find these apps by going to:
-
-```https://[your-environment-name].crm.dynamics.com/apps```
-
-> [!div class="mx-imgBorder"]
-> ![Field Service apps on mobile devices.](media/admin-apps.png)
+To use the Field Service (Dynamics 365) mobile app, you must have [Field Service installed](install-field-service.md) and [set up](field-service-get-started.md).
 
 ## Assign mobile app users appropriate security roles
 
@@ -54,7 +32,7 @@ Set up a Dynamics 365 Field Service user with the **Field Service-Resource** sec
 > [!div class="mx-imgBorder"]
 > ![The Manage User Roles dialog in Dynamics 365.](./media/mobile-2020-resource-security-role.png)
 
->[!TIP] 
+>[!TIP]
 > Use the [frontline worker setup](frontline-worker-set-up.md) to quickly create a frontline worker and automate setup steps.
 
 ## Assign security roles to the Field Service mobile app
@@ -68,9 +46,9 @@ Find the **Field Service Mobile** model-driven app and select the ellipses (...)
 
 ## Download the app and sign in
 
-Go to the app store on your iOS or Android device, and search for **Dynamics 365 Field Service**.
+Go to the app store on your iOS, Android or Windows device, and search for **Dynamics 365 Field Service**.
 
-Download the app named **Field Service (Dynamics 365)**, as seen in the following screenshot. This is the mobile app built on Microsoft Power Platform.
+Download the app named **Field Service (Dynamics 365)**, the mobile app built on Microsoft Power Platform.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a mobile device app store, showing two Field Service Mobile apps in the list, and highlighting the Field Service (Dynamics 365) app.](./media/mobile-2020-download-signin.jpg)
@@ -87,7 +65,7 @@ To view work orders on the mobile app, you must also [set up a frontline worker]
 ## Next steps
 
 - [Set up offline data and sync filters](mobile-power-app-system-offline.md)
-- [5 tips for implementing the Field Service (Dynamics 365) mobile app](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
-- [Quickstart: Schedule a work order and view it on the mobile application](quickstart-schedule-work-order.md)
+- [Five tips for implementing the Field Service (Dynamics 365) mobile app](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
+- [Get started with Dynamics 365 Field Service](field-service-get-started.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

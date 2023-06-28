@@ -1,11 +1,10 @@
 ---
 title: "Enable missed notification in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about managing notifications that are missed in Omnichannel Administration app"
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Enable missed notifications
@@ -23,11 +22,8 @@ With the missed notifications feature, you can choose to automatically set agent
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
      - In the site map, select **Workspaces** in **Agent experience**, and then select **Notification templates**.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)

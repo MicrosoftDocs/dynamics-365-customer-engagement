@@ -1,11 +1,10 @@
 ---
 title: "Decimal precision in currency and pricing (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how decimal precision is used in currency and pricing in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 05/6/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -86,9 +85,10 @@ To apply this precision setting to any of the currency field in the system, go t
 > This setting supports values between 0 and 4.
 
 ### See also
+
 [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
 [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies)  
-[Troubleshooting the Product entity](ts-products.md)
+[Troubleshoot issues with products](/troubleshoot/dynamics-365/sales/troubleshoot-products-issues)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,30 +1,28 @@
 ---
-title: "AppModuleComponent Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "AppModuleComponent entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the AppModuleComponent entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# AppModuleComponent Entity Reference
+
+# AppModuleComponent entity reference
 
 A component available in a business app such as entity, dashboard, form, view, chart, and business process.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Retrieve|GET [*org URI*]/api/data/v9.0/appmodulecomponents(*appmodulecomponentid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/appmodulecomponents<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -113,17 +111,17 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-#### ComponentType Options
+#### ComponentType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Entities|
-|26|Views|
-|29|Business Process Flows|
-|48|Command (Ribbon) for Forms, Grids, sub grids|
-|59|Charts|
-|60|Forms|
-|62|Sitemap|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Entities||
+|26|Views||
+|29|Business Process Flows||
+|48|Command (Ribbon) for Forms, Grids, sub grids||
+|59|Charts||
+|60|Forms||
+|62|Sitemap||
 
 
 
@@ -156,14 +154,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### IsDefault Options
+#### IsDefault Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -179,14 +177,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsMetadata Options
+#### IsMetadata Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Metadata|
-|0|Data|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Metadata||
+|0|Data||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -228,13 +226,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### RootComponentBehavior Options
+#### RootComponentBehavior Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Include Subcomponents|
-|1|Do not include subcomponents|
-|2|Include As Shell Only|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Include Subcomponents||
+|1|Do not include subcomponents||
+|2|Include As Shell Only||
 
 
 
@@ -585,29 +583,25 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_appmodule_appmodulecomponent"></a> appmodule_appmodulecomponent
 
-See appmodule Entity [appmodule_appmodulecomponent](appmodule.md#BKMK_appmodule_appmodulecomponent) One-To-Many relationship.
+See the [appmodule_appmodulecomponent](appmodule.md#BKMK_appmodule_appmodulecomponent) one-to-many relationship for the [appmodule](appmodule.md) entity.
 
 ### <a name="BKMK_lk_appmodulecomponent_createdonbehalfby"></a> lk_appmodulecomponent_createdonbehalfby
 
-See systemuser Entity [lk_appmodulecomponent_createdonbehalfby](systemuser.md#BKMK_lk_appmodulecomponent_createdonbehalfby) One-To-Many relationship.
+See the [lk_appmodulecomponent_createdonbehalfby](systemuser.md#BKMK_lk_appmodulecomponent_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_appmodulecomponent_modifiedonbehalfby"></a> lk_appmodulecomponent_modifiedonbehalfby
 
-See systemuser Entity [lk_appmodulecomponent_modifiedonbehalfby](systemuser.md#BKMK_lk_appmodulecomponent_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_appmodulecomponent_modifiedonbehalfby](systemuser.md#BKMK_lk_appmodulecomponent_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_appmodulecomponent_createdby"></a> lk_appmodulecomponent_createdby
 
-See systemuser Entity [lk_appmodulecomponent_createdby](systemuser.md#BKMK_lk_appmodulecomponent_createdby) One-To-Many relationship.
+See the [lk_appmodulecomponent_createdby](systemuser.md#BKMK_lk_appmodulecomponent_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_appmodulecomponent_modifiedby"></a> lk_appmodulecomponent_modifiedby
 
-See systemuser Entity [lk_appmodulecomponent_modifiedby](systemuser.md#BKMK_lk_appmodulecomponent_modifiedby) One-To-Many relationship.
+See the [lk_appmodulecomponent_modifiedby](systemuser.md#BKMK_lk_appmodulecomponent_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.appmodulecomponent?text=appmodulecomponent EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

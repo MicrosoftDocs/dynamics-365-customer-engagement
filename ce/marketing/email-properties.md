@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Set the sender, receiver, language and legal designation for a message
@@ -79,10 +75,10 @@ In addition to the message description and plain-text version, the **Summary** t
 
 The following **Sender and receiver** settings are available:
 
-- **From name**: This is the name shown to recipients as the person who sent the email. By default, this is the name of the user who created the email. You can edit this to use a static value, or choose the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button") to define an alternative dynamic value.
-- **From address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the email address of user who created the message. You can edit this to use a static value, or choose the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button") button to define an alternative dynamic value. (See also the **IMPORTANT** box at top of this section.)
+- **From name**: This is the name shown to recipients as the person who sent the email. By default, this is the name of the user who created the email. You can edit this to use a static value, or choose the **[Personalization](dynamic-email-content.md#personalization)** button ![The personalization button.](media/button-personalization.png "The personalization button") to define an alternative dynamic value.
+- **From address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the email address of user who created the message. You can edit this to use a static value, or choose the **[Assist edit](dynamic-email-content.md#personalization)** button ![The personalization button.](media/button-personalization.png "The personalization button") button to define an alternative dynamic value. (See also the **IMPORTANT** box at top of this section.)
 - **To address**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields. Don't enter a static email address here because that will cause customer journeys to send the message just once to that static address rather than to each contact processed by the journey (insights will show that all other contacts were blocked).
-- **Reply-to address**: This should usually be blank, which means that replies to the message will be sent to the **From address**. If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button") to define an alternative dynamic value. If you use this setting, we recommend that you use the same domain for the reply-to address as for the from address (email addresses use the form *account-name*@*domain-name*).
+- **Reply-to address**: This should usually be blank, which means that replies to the message will be sent to the **From address**. If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the **[Assist edit](dynamic-email-content.md#personalization)** button ![The personalization button.](media/button-personalization.png "The personalization button") to define an alternative dynamic value. If you use this setting, we recommend that you use the same domain for the reply-to address as for the from address (email addresses use the form *account-name*@*domain-name*).
 
 <a name="text-only"></a>
 

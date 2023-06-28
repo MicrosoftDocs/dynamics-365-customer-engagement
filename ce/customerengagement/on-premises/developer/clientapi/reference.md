@@ -1,6 +1,6 @@
 ---
 title: "Client scripting reference for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to use Client API in Dynamics 365 Customer Engagement (on-premises) to apply custom business process logic for displaying data on a form."
+description: Learn about the Power Apps client APIs that are not supported in Customer Engagement (on-premises) with a reference table of unsupported client APIs.
 ms.date: 06/24/2021
 
 ms.topic: article

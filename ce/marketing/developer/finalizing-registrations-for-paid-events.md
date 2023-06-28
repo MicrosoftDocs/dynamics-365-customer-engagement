@@ -1,44 +1,43 @@
 ---
 title: "Finalizing registrations for paid events (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information about how to finalize registrations for paid events."
-ms.date: 07/12/2019
-
+ms.date: 02/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Finalizing registration for paid events
 
 This topic walks you through the process of developing a .NET Core application that authenticates against Dynamics 365 Marketing and triggers a custom action that finalizes the registration process for paid events. Before going through the topic, make sure that you read and understand [Set up online payments for events](/dynamics365/customer-engagement/marketing/event-payment-gateway#develop-a-service-to-finalize-event-registration).  
 
-In this topic, we use [OAuth]( https://docs.microsoft.com/powerapps/developer/common-data-service/authenticate-oauth) as an authentication mechanism and [Dynamics 365 Web API](/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action. This approach works universally with most of the programming languages and frameworks, which means that you’re not forced to use C# or .NET Core for building the service that finalize the paid registrations. 
+In this topic, we use [OAuth](/power-apps/developer/data-platform/authenticate-oauth) as an authentication mechanism and [Dynamics 365 Web API](/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action. This approach works universally with most of the programming languages and frameworks, which means that you’re not forced to use C# or .NET Core for building the service that finalize the paid registrations. 
 
 > [!NOTE]
-> If you choose to use .NET Framework for developing your service, you can use the XRM tooling library to authenticate and connect to the organization service. This library makes it more convenient to communicate with Dynamics 365 Marketing. More information: [Authenticate with .NET Framework applications](/powerapps/developer/common-data-service/authenticate-dot-net-framework) 
- 
-## Prerequisites 
+> If you choose to use .NET Framework for developing your service, you can use the XRM tooling library to authenticate and connect to the organization service. This library makes it more convenient to communicate with Dynamics 365 Marketing. More information: [Authenticate with .NET Framework applications](/powerapps/developer/common-data-service/authenticate-dot-net-framework)
 
-1. Create a .NET Core CLI project. 
+## Prerequisites
 
-2. Install all the required dependencies.
+1. Create a .NET Core CLI project.
 
-3. Install the following NuGet packages: 
-   - [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory) is used to simplify the authentication with OData. If you’re using a programming language that is not supported by this library, you need to use another library that supports your programming language or take care of the authentication manually.
+1. Install all the required dependencies.
+
+1. Install the following NuGet package:
    
-   - [Newtonsoft.Json]( https://www.nuget.org/packages/Newtonsoft.Json/) is used to serialize and deserialize the data. 
- 
-## Step 1: Register your application 
+   - [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/) is used to serialize and deserialize the data.
 
-Before we start to authenticate against Dynamics 365 Marketing, we need to register the application in the **Azure Active Directory** to get the authentication credentials. More information: [How to register an application in Azure Active Directory](/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication) 
+1. If you are using Azure AD Authentication Library (ADAL), follow the [migration guide](/azure/active-directory/develop/msal-migration) to upgrade to the Microsoft Authentication Library (MSAL).
+
+    > [!IMPORTANT]
+    > The [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory) NuGet package and Azure AD Authentication Library (ADAL) have been deprecated. No new features have been added since June 30, 2020. We strongly encourage you to upgrade, see the [migration guide](/azure/active-directory/develop/msal-migration) for more details.
+
+## Step 1: Register your application
+
+Before we start to authenticate against Dynamics 365 Marketing, we need to register the application in the **Azure Active Directory** to get the authentication credentials. More information: [How to register an application in Azure Active Directory](/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication)
 
 Follow these steps to register your application:
 
@@ -53,6 +52,7 @@ Follow these steps to register your application:
     ![Supported account types.](../media/supported-account-types.png "Supported account types")
 
 1. Select **Register**. 
+
 1. After the application is registered, you should be redirected to the **Overview** page. Look for the **application ID** and **tenant ID** values and save them. 
 
 1. Navigate to **Certificates & secrets** and select **New client secret**. Make note of the client secret value.  
@@ -182,14 +182,9 @@ Implement the custom logic to authenticate against Dynamics 365 Marketing. The o
 > For a fully working example, check the code from the [Sample Code](#sample-code) section. More information: [Authenticate using OAuth](/powerapps/developer/common-data-service/authenticate-oauth#use-the-accesstoken-with-your-requests)
 
 ```csharp
-public static string AuthenticateToDynamics365()
+public static string GetToken()
 {
-    var authContext = new AuthenticationContext($"https://login.microsoftonline.com/{tenantId}", false);
-    var credential = new ClientCredential(clientId, clientSecret);
-
-    var authenticationResult = authContext.AcquireTokenAsync(organizationUrl, credential).Result;
-
-    return authenticationResult.AccessToken;
+    // Get Dataverse access token - https://docs.microsoft.com/power-apps/developer/data-platform/authenticate-oauth#use-the-accesstoken-with-your-requests
 }
 ``` 
  
@@ -244,7 +239,7 @@ The following sample code shows how to authenticate and trigger the custom actio
 > You should not enter either client ID or client secret values directly in code. This is only done to improve the readability of the sample code. 
 
 ```csharp 
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using Microsoft.Identity.Client;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -287,7 +282,7 @@ namespace TriggerFinalizeRegistration
 
         static void Main(string[] args)
         {
-            var accessToken = AuthenticateToDynamics365();
+            var accessToken = GetToken();
             var response = FinalizeRegistration(accessToken);
 
             if (response.IsSuccessStatusCode)
@@ -306,15 +301,11 @@ namespace TriggerFinalizeRegistration
             Console.WriteLine(response.StatusCode);
         }
 
-        public static string AuthenticateToDynamics365()
+        public static string GetToken()
         {
-            var authContext = new AuthenticationContext($"https://login.microsoftonline.com/{tenantId}", false);
-            var credential = new ClientCredential(clientId, clientSecret);
-
-            var authenticationResult = authContext.AcquireTokenAsync(organizationUrl, credential).Result;
-
-            return authenticationResult.AccessToken;
+            // Get Dataverse access token - https://docs.microsoft.com/power-apps/developer/data-platform/authenticate-oauth#use-the-accesstoken-with-your-requests
         }
+
 
         private static HttpResponseMessage FinalizeRegistration(string accessToken)
         {
@@ -356,6 +347,5 @@ namespace TriggerFinalizeRegistration
 [Power Apps portal hosted](portal-hosted.md)<br/>
 [Customer Event Portal Localization](event-portal-localization.md)<br />
 [Host your custom event website on Azure](host-custom-event-website-on-azure.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

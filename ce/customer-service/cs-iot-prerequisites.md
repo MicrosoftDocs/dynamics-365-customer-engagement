@@ -4,8 +4,7 @@ description: "Prerequisites for setting up Connected Customer Service for Azure 
 ms.date: 02/03/2020
 ms.topic: article
 author: lalexms
-ms.author: lalexms
-manager: shujoshi
+ms.author: laalexan
 ---
 
 

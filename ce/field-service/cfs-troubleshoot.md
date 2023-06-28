@@ -1,20 +1,15 @@
 ---
 title: "Troubleshoot Connected Field Service | Microsoft Docs"
 description: Troubleshoot issues with Connected Field Service
-ms.date: 11/19/2020
-ms.reviewer: krbjoran
+ms.date: 06/20/2022
 ms.topic: troubleshooting
 
 ms.subservice: connected-field-service
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
+ms.author: vhorvath
+author: vhorvathms
 ---
 
 # Troubleshoot Connected Field Service
@@ -25,23 +20,27 @@ You may encounter unexpected behavior when using Connected Field Service, like a
 
 2. There are two sets of logic apps between IoT and Field Service. Select one depending on if you think the issue originates in Field Service (named "CRM" in the image below), or if it originates in Azure IoT.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Azure resource groups.](./media/cfs-troubleshoot-resource-group.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of Azure resource groups.](./media/cfs-troubleshoot-resource-group.png)
 
 3. See the list of jobs that run when the system performs actions. For example, when you attempt to register a device, the logic app will run.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Azure showing a list of jobs that have run.](./media/cfs-troubleshoot-logic-app-runs.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of Azure showing a list of jobs that have run.](./media/cfs-troubleshoot-logic-app-runs.png)
 
 4. Select a failed run and view the logic app to understand where an error may have occurred.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Azure showing a failed run.](./media/cfs-troubleshoot-logic-app-fail.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of Azure showing a failed run.](./media/cfs-troubleshoot-logic-app-fail.png)
 
 Use the information in failed logic apps to diagnose the issue and to provide to the Microsoft support team. [Create a Dynamics 365 support ticket](https://dynamics.microsoft.com/contact-us/).
 
 > [!Note]
 > We don't recommend editing the logic apps that are deployed by the solution.
+
+## How do I change my application's TSI instance?
+
+If you'd like to change your Time Series Insights (TSI) instance to a different one after you've deployed connected field service, open a support ticket; our support team will assist you in changing your instance.
 
 ## Why can't I pull device data?
 
@@ -53,5 +52,9 @@ Go to the Azure portal, find your IoT Hub resource, then set pricing and scale t
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the pricing and scale tier settings in IoT Hub.](./media/cfs-pricing-tier.png)
+
+## Why do I see IoT Edge module data aggregated in charts?
+
+Currently, the Connected Field Service implementation with IoT Hub does not support splitting out telemetry data for IoT Edge modules.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

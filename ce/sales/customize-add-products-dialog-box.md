@@ -1,11 +1,10 @@
 ---
-title: "Preview  Customize the Add Products dialog box | MicrosoftDocs"
-description: "Customize the Add Products dialog box so that salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales."
+title: "Customize the Add Products dialog | MicrosoftDocs"
+description: "Customize the Add Products dialog so that salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales."
 ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -17,19 +16,16 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Customize the Add Products dialog box
+# Customize the Add Products dialog
 
-Customize the Add Products dialog box so that salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales.
+Customize the Add Products dialog so that salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
 > Customizations described in this topic must be done within a custom solution. For more information see, [Why you shouldn't use the default solutions to manage customizations](/power-platform/alm/use-solutions-for-your-customizations#why-you-shouldnt-use-the-default-solutions-to-manage-customizations)
@@ -45,14 +41,9 @@ You can customize the following components of the **Add product** dialog to help
     > Attributes in the **Product** column help sellers get more information *before* choosing a product. So, if you want to add a category or product ID to help distinguish products from each other, add it to the **Product** column. On the other hand, if sellers need to perform an action *after* selecting a product&mdash;for example, choosing delivery priority (a custom attribute)&mdash;add that attribute to the grid.
 - Customize the fields to search. More information: [Customize the fields to search](#customize-the-fields-to-search)
 
->[!IMPORTANT]
->- The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->- [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->- [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 ## Add or remove columns in the grid
 
-By default, the **Add products** dialog box displays the following columns in the grid:
+By default, the **Add products** dialog displays the following columns in the grid:
 
 - Product name
 - Unit
@@ -71,28 +62,28 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 2. Under **Product Catalog**, select **Product Catalog Settings**.  
 
-3. Turn on the **Adding products (preview)** option, if you haven't already.  
-    You'll see additional options to customize the Add products dialog box for
+3. Turn on the **Enhanced experience for adding products** option, if you haven't already.  
+    You'll see additional options to customize the Add products dialog for
     opportunity, quote, invoice, and order.  
 
-4. Select the add products view of the entity that you want to customize. For example, select **Quote 'add products'** view to customize the Add products dialog for quotes.  
+4. Select the add products view of the entity that you want to customize. For example, select **Quote 'add products' view**  to customize the Add products dialog for quotes.  
     You will be redirected to the corresponding view in Power Apps.
 
-5. Select **+ View Column** and then select the columns you want to add to the grid. Or, simply drag-and-drop the columns into the grid.
+5. Select **View Column** and then select the columns you want to add to the grid. Or, simply drag-and-drop the columns into the grid.
 
 6. To remove a column, select the column in the grid and select **Remove**.
 
 7. Select **Publish** to save and publish the customizations.
     The changes are applicable to the Add products dialog of the selected entity.
 
-8. Open the entity that you've customized. If you customized the add products view for quotes, open a quote and then select **Add products**. Verify whether the customizations to the grid are reflected in the dialog box.
+8. Open the entity that you've customized. If you customized the add products view for quotes, open a quote and then select **Add products**. Verify whether the customizations to the grid are reflected in the dialog.
 
 # [Sales Professional](#tab/SPAddColumns)
 
 **To add or remove columns in the grid**
 
 1. Sign in to Power Apps and open the view editor. For step-by-step instructions, see [Choose and configure columns in views](/powerapps/maker/model-driven-apps/choose-and-configure-columns#open-the-view-editor).  
-1. Select the following tables and views to configure the Add products dialog box for opportunity, quote, order, and invoice:
+1. Select the following tables and views to configure the Add products dialog for opportunity, quote, order, and invoice:
    
     |Table Name  |View Name  |
     |---------|---------|
@@ -103,7 +94,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 2. Add or remove columns as per your requirement. For step-by-step instructions, see [Choose and configure columns in views](/powerapps/maker/model-driven-apps/choose-and-configure-columns#add-columns-to-views).
 1. Publish the customization.  
-     The changes should now be visible in the Add products dialog of the corresponding entity. See, [Preview: Find and add multiple products to an opportunity](add-products-enhanced-experience.md)
+     The changes should now be visible in the Add products dialog of the corresponding entity. See, [Find and add multiple products to an opportunity](add-products-enhanced-experience.md)
    
 ---
 
@@ -128,8 +119,8 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 2. Under **Product Catalog**, select **Product Catalog Settings**.
 
-3. Turn on **Adding products (preview)**, if you haven't already.
-    You'll see additional options for customizing the Add products dialog box.
+3. Turn on **Enhanced experience for adding products**, if you haven't already.
+    You'll see additional options for customizing the Add products dialog.
 
 4. Select **Customize Product lookup view.**
     You'll be redirected to the **Product Lookup View** in Power Apps.
@@ -153,7 +144,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 1. Add or remove columns as per your requirement. For step-by-step instructions, see [Choose and configure columns in views](/powerapps/maker/model-driven-apps/choose-and-configure-columns#add-columns-to-views).  
 
 1. Save and publish the customization.
-     The changes should now be visible in the Product column of the Add products dialog for all entities. See, [Preview: Find and add multiple products to an opportunity](add-products-enhanced-experience.md)
+     The changes should now be visible in the Product column of the Add products dialog for all entities. See, [Find and add multiple products to an opportunity](add-products-enhanced-experience.md)
 --- 
 
 ## Customize the fields to search  

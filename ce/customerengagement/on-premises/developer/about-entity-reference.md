@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: b07033ee-97eb-4475-9d83-307201a05f1a
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
 search.audienceType: 
   - developer
 
@@ -41,7 +40,7 @@ The messages in this list are applicable for the entity. For example, user-owned
 ### Organization service
 When using the Organization service, you can usually invoke the corresponding request class which will belong to either the <xref:Microsoft.Crm.Sdk.Messages> or <xref:Microsoft.Xrm.Sdk.Messages> namespaces. These classes have names that include the `Request` prefix added to the message name.
 
-Some messages are added as custom actions for the solutions they support. These messages are not defined within the SDK assemblies but .NET developers can generate strongly typed classes for actions by using the code generation tool (CrmSvcUtil.exe) or by using the <xref:Microsoft.Xrm.Sdk.OrganizationRequest> class. More information: [Generate early-bound types for an action](create-own-actions.md#generate-early-bound-types-for-an-action) and .
+Some messages are added as custom actions for the solutions they support. These messages are not defined within the SDK assemblies but .NET developers can generate strongly typed classes for actions by using the code generation tool (CrmSvcUtil.exe) or by using the <xref:Microsoft.Xrm.Sdk.OrganizationRequest> class. More information: [Generate early-bound types for an action](create-own-actions.md#generate-early-bound-types-for-an-action).
 
 ### Web API
 When using the Web API, you can usually invoke the corresponding Function or Action with the same name as the message. Not every message that can be invoked using the SDK assemblies have a corresponding Web API function or action. For example, the `SetState` message is deprecated and was not implemented for the Web API.
@@ -75,6 +74,10 @@ In order to represent that there are no actual *Many-to-One* relationships with 
 
 ### Many-to-Many relationships
 Each Many-to-Many relationship includes <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity1LogicalName> and <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity2LogicalName>. For this documentation relationship details are only included in the topic for *Entity1*. Each Many-to-Many relationship where the entity is *Entity2* includes only a link to the details found in the topic for *Entity1*.
+
+>[!NOTE]
+>The developer concepts and operations related to sales in Dynamics 365 Customer Engagement (on-premises) are similar to Dynamics 365 Sales. For extensibility information about sales-related entities, see [Developer Guide for Dynamics 365 Sales](/dynamics365/sales/developer/developer-guide).
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

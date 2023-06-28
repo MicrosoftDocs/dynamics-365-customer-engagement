@@ -152,6 +152,8 @@
       href: export-import-remove-app.md
     - name: Accessibility
       href: accessibility-app-designer-site-map-designer-my-apps-page.md
+  - name: Distribute a managed app
+    href: install-uninstall-app.md
 - name: Create custom business logic through processes
   items: 
   - name: Create custom business logic through processes

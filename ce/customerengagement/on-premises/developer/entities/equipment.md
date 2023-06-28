@@ -1,18 +1,16 @@
 ---
-title: "Equipment Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the Equipment entity."
-ms.date: 04/02/2019
-
+title: "Facility/Equipment (Equipment)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Facility/Equipment (Equipment)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Equipment Entity Reference
+
+# Facility/Equipment (Equipment)  entity reference
 
 Resource that can be scheduled.
 
@@ -21,17 +19,17 @@ Resource that can be scheduled.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/equipments<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/equipments(*equipmentid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/equipments(*equipmentid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/equipments<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetBusinessEquipment|<xref href="Microsoft.Dynamics.CRM.SetBusinessEquipment?text=SetBusinessEquipment Action" />|<xref:Microsoft.Crm.Sdk.Messages.SetBusinessEquipmentRequest>|
-|SetBusinessSystemUser|<xref href="Microsoft.Dynamics.CRM.SetBusinessSystemUser?text=SetBusinessSystemUser Action" />|<xref:Microsoft.Crm.Sdk.Messages.SetBusinessSystemUserRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/equipments(*equipmentid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetBusinessEquipment|<xref:Microsoft.Crm.Sdk.Messages.SetBusinessEquipmentRequest>|
+|SetBusinessSystemUser|<xref:Microsoft.Crm.Sdk.Messages.SetBusinessSystemUserRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -127,14 +125,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### DisplayInServiceViews Options
+#### DisplayInServiceViews Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -197,14 +195,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsDisabled Options
+#### IsDisabled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -710,7 +708,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [Equipment_SyncErrors](syncerror.md#BKMK_Equipment_SyncErrors) Many-To-One relationship.
+Same as the [Equipment_SyncErrors](syncerror.md#BKMK_Equipment_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -727,7 +725,7 @@ Same as syncerror entity [Equipment_SyncErrors](syncerror.md#BKMK_Equipment_Sync
 
 **Added by**: System Solution Solution
 
-Same as activityparty entity [equipment_activity_parties](activityparty.md#BKMK_equipment_activity_parties) Many-To-One relationship.
+Same as the [equipment_activity_parties](activityparty.md#BKMK_equipment_activity_parties) many-to-one relationship for the [activityparty](activityparty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -744,7 +742,7 @@ Same as activityparty entity [equipment_activity_parties](activityparty.md#BKMK_
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [Equipment_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Equipment_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [Equipment_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Equipment_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -761,7 +759,7 @@ Same as duplicaterecord entity [Equipment_DuplicateMatchingRecord](duplicatereco
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [Equipment_DuplicateBaseRecord](duplicaterecord.md#BKMK_Equipment_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [Equipment_DuplicateBaseRecord](duplicaterecord.md#BKMK_Equipment_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -778,7 +776,7 @@ Same as duplicaterecord entity [Equipment_DuplicateBaseRecord](duplicaterecord.m
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [Equipment_AsyncOperations](asyncoperation.md#BKMK_Equipment_AsyncOperations) Many-To-One relationship.
+Same as the [Equipment_AsyncOperations](asyncoperation.md#BKMK_Equipment_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -795,7 +793,7 @@ Same as asyncoperation entity [Equipment_AsyncOperations](asyncoperation.md#BKMK
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [equipment_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_equipment_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [equipment_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_equipment_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -812,7 +810,7 @@ Same as mailboxtrackingfolder entity [equipment_MailboxTrackingFolders](mailboxt
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [Equipment_ProcessSessions](processsession.md#BKMK_Equipment_ProcessSessions) Many-To-One relationship.
+Same as the [Equipment_ProcessSessions](processsession.md#BKMK_Equipment_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -829,7 +827,7 @@ Same as processsession entity [Equipment_ProcessSessions](processsession.md#BKMK
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [Equipment_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Equipment_BulkDeleteFailures) Many-To-One relationship.
+Same as the [Equipment_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Equipment_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -846,7 +844,7 @@ Same as bulkdeletefailure entity [Equipment_BulkDeleteFailures](bulkdeletefailur
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [equipment_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_equipment_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [equipment_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_equipment_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -863,7 +861,7 @@ Same as principalobjectattributeaccess entity [equipment_principalobjectattribut
 
 **Added by**: System Solution Solution
 
-Same as connection entity [equipment_connections1](connection.md#BKMK_equipment_connections1) Many-To-One relationship.
+Same as the [equipment_connections1](connection.md#BKMK_equipment_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -880,7 +878,7 @@ Same as connection entity [equipment_connections1](connection.md#BKMK_equipment_
 
 **Added by**: System Solution Solution
 
-Same as connection entity [equipment_connections2](connection.md#BKMK_equipment_connections2) Many-To-One relationship.
+Same as the [equipment_connections2](connection.md#BKMK_equipment_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -897,7 +895,7 @@ Same as connection entity [equipment_connections2](connection.md#BKMK_equipment_
 
 **Added by**: System Solution Solution
 
-Same as annotation entity [Equipment_Annotation](annotation.md#BKMK_Equipment_Annotation) Many-To-One relationship.
+Same as the [Equipment_Annotation](annotation.md#BKMK_Equipment_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -914,7 +912,7 @@ Same as annotation entity [Equipment_Annotation](annotation.md#BKMK_Equipment_An
 
 **Added by**: System Solution Solution
 
-Same as email entity [Equipment_Email_EmailSender](email.md#BKMK_Equipment_Email_EmailSender) Many-To-One relationship.
+Same as the [Equipment_Email_EmailSender](email.md#BKMK_Equipment_Email_EmailSender) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -929,7 +927,7 @@ Same as email entity [Equipment_Email_EmailSender](email.md#BKMK_Equipment_Email
 
 ### <a name="BKMK_equipment_accounts"></a> equipment_accounts
 
-Same as account entity [equipment_accounts](account.md#BKMK_equipment_accounts) Many-To-One relationship.
+Same as the [equipment_accounts](account.md#BKMK_equipment_accounts) many-to-one relationship for the [account](account.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -944,7 +942,7 @@ Same as account entity [equipment_accounts](account.md#BKMK_equipment_accounts) 
 
 ### <a name="BKMK_equipment_contacts"></a> equipment_contacts
 
-Same as contact entity [equipment_contacts](contact.md#BKMK_equipment_contacts) Many-To-One relationship.
+Same as the [equipment_contacts](contact.md#BKMK_equipment_contacts) many-to-one relationship for the [contact](contact.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -959,7 +957,7 @@ Same as contact entity [equipment_contacts](contact.md#BKMK_equipment_contacts) 
 
 ### <a name="BKMK_equipment_resources"></a> equipment_resources
 
-Same as resource entity [equipment_resources](resource.md#BKMK_equipment_resources) Many-To-One relationship.
+Same as the [equipment_resources](resource.md#BKMK_equipment_resources) many-to-one relationship for the [resource](resource.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -993,65 +991,61 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_equipment_createdby](systemuser.md#BKMK_lk_equipment_createdby) One-To-Many relationship.
+See the [lk_equipment_createdby](systemuser.md#BKMK_lk_equipment_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_equipment_createdonbehalfby"></a> lk_equipment_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_equipment_createdonbehalfby](systemuser.md#BKMK_lk_equipment_createdonbehalfby) One-To-Many relationship.
+See the [lk_equipment_createdonbehalfby](systemuser.md#BKMK_lk_equipment_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_equipment_modifiedby"></a> lk_equipment_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_equipment_modifiedby](systemuser.md#BKMK_lk_equipment_modifiedby) One-To-Many relationship.
+See the [lk_equipment_modifiedby](systemuser.md#BKMK_lk_equipment_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_equipment_modifiedonbehalfby"></a> lk_equipment_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_equipment_modifiedonbehalfby](systemuser.md#BKMK_lk_equipment_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_equipment_modifiedonbehalfby](systemuser.md#BKMK_lk_equipment_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_business_unit_equipment"></a> business_unit_equipment
 
 **Added by**: System Solution Solution
 
-See businessunit Entity [business_unit_equipment](businessunit.md#BKMK_business_unit_equipment) One-To-Many relationship.
+See the [business_unit_equipment](businessunit.md#BKMK_business_unit_equipment) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_calendar_equipment"></a> calendar_equipment
 
 **Added by**: System Solution Solution
 
-See calendar Entity [calendar_equipment](calendar.md#BKMK_calendar_equipment) One-To-Many relationship.
+See the [calendar_equipment](calendar.md#BKMK_calendar_equipment) one-to-many relationship for the [calendar](calendar.md) entity.
 
 ### <a name="BKMK_organization_equipment"></a> organization_equipment
 
 **Added by**: System Solution Solution
 
-See organization Entity [organization_equipment](organization.md#BKMK_organization_equipment) One-To-Many relationship.
+See the [organization_equipment](organization.md#BKMK_organization_equipment) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_equipment_systemuser"></a> equipment_systemuser
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [equipment_systemuser](systemuser.md#BKMK_equipment_systemuser) One-To-Many relationship.
+See the [equipment_systemuser](systemuser.md#BKMK_equipment_systemuser) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_Equipment"></a> TransactionCurrency_Equipment
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [TransactionCurrency_Equipment](transactioncurrency.md#BKMK_TransactionCurrency_Equipment) One-To-Many relationship.
+See the [TransactionCurrency_Equipment](transactioncurrency.md#BKMK_TransactionCurrency_Equipment) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_site_equipment"></a> site_equipment
 
-See site Entity [site_equipment](site.md#BKMK_site_equipment) One-To-Many relationship.
+See the [site_equipment](site.md#BKMK_site_equipment) one-to-many relationship for the [site](site.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.equipment?text=equipment EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

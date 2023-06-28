@@ -1,41 +1,39 @@
 ---
-title: "SocialProfile Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "SocialProfile entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the SocialProfile entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# SocialProfile Entity Reference
+
+# SocialProfile entity reference
 
 This entity is used to store social profile information of its associated account and contacts on different social channels.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/socialprofiles(*socialprofileid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/socialprofiles<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/socialprofiles(*socialprofileid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GenerateSocialProfile|<xref href="Microsoft.Dynamics.CRM.GenerateSocialProfile?text=GenerateSocialProfile Action" />|<xref:Microsoft.Crm.Sdk.Messages.GenerateSocialProfileRequest>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/socialprofiles(*socialprofileid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/socialprofiles<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/socialprofiles(*socialprofileid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/socialprofiles(*socialprofileid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GenerateSocialProfile|<xref:Microsoft.Crm.Sdk.Messages.GenerateSocialProfileRequest>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -91,14 +89,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### Blocked Options
+#### Blocked Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -115,13 +113,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Community Options
+#### Community Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Other|
-|1|Facebook|
-|2|Twitter|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Other|Other default|
+|1|Facebook|Facebook item.|
+|2|Twitter|Twitter.|
 
 
 
@@ -325,7 +323,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -346,7 +344,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -751,7 +749,7 @@ Listed by **SchemaName**.
 
 **Added by**: Service Solution
 
-Same as incident entity [socialprofile_cases](incident.md#BKMK_socialprofile_cases) Many-To-One relationship.
+Same as the [socialprofile_cases](incident.md#BKMK_socialprofile_cases) many-to-one relationship for the [incident](incident.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -766,7 +764,7 @@ Same as incident entity [socialprofile_cases](incident.md#BKMK_socialprofile_cas
 
 ### <a name="BKMK_SocialProfile_ProcessSessions"></a> SocialProfile_ProcessSessions
 
-Same as processsession entity [SocialProfile_ProcessSessions](processsession.md#BKMK_SocialProfile_ProcessSessions) Many-To-One relationship.
+Same as the [SocialProfile_ProcessSessions](processsession.md#BKMK_SocialProfile_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -781,7 +779,7 @@ Same as processsession entity [SocialProfile_ProcessSessions](processsession.md#
 
 ### <a name="BKMK_SocialProfile_DuplicateBaseRecord"></a> SocialProfile_DuplicateBaseRecord
 
-Same as duplicaterecord entity [SocialProfile_DuplicateBaseRecord](duplicaterecord.md#BKMK_SocialProfile_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [SocialProfile_DuplicateBaseRecord](duplicaterecord.md#BKMK_SocialProfile_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -796,7 +794,7 @@ Same as duplicaterecord entity [SocialProfile_DuplicateBaseRecord](duplicatereco
 
 ### <a name="BKMK_SocialProfile_DuplicateMatchingRecord"></a> SocialProfile_DuplicateMatchingRecord
 
-Same as duplicaterecord entity [SocialProfile_DuplicateMatchingRecord](duplicaterecord.md#BKMK_SocialProfile_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [SocialProfile_DuplicateMatchingRecord](duplicaterecord.md#BKMK_SocialProfile_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -811,7 +809,7 @@ Same as duplicaterecord entity [SocialProfile_DuplicateMatchingRecord](duplicate
 
 ### <a name="BKMK_Socialprofile_SocialActivities"></a> Socialprofile_SocialActivities
 
-Same as socialactivity entity [Socialprofile_SocialActivities](socialactivity.md#BKMK_Socialprofile_SocialActivities) Many-To-One relationship.
+Same as the [Socialprofile_SocialActivities](socialactivity.md#BKMK_Socialprofile_SocialActivities) many-to-one relationship for the [socialactivity](socialactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -826,7 +824,7 @@ Same as socialactivity entity [Socialprofile_SocialActivities](socialactivity.md
 
 ### <a name="BKMK_socialprofile_principalobjectattributeaccess"></a> socialprofile_principalobjectattributeaccess
 
-Same as principalobjectattributeaccess entity [socialprofile_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_socialprofile_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [socialprofile_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_socialprofile_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -841,7 +839,7 @@ Same as principalobjectattributeaccess entity [socialprofile_principalobjectattr
 
 ### <a name="BKMK_SocialProfile_SyncErrors"></a> SocialProfile_SyncErrors
 
-Same as syncerror entity [SocialProfile_SyncErrors](syncerror.md#BKMK_SocialProfile_SyncErrors) Many-To-One relationship.
+Same as the [SocialProfile_SyncErrors](syncerror.md#BKMK_SocialProfile_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -856,7 +854,7 @@ Same as syncerror entity [SocialProfile_SyncErrors](syncerror.md#BKMK_SocialProf
 
 ### <a name="BKMK_socialprofile_connections2"></a> socialprofile_connections2
 
-Same as connection entity [socialprofile_connections2](connection.md#BKMK_socialprofile_connections2) Many-To-One relationship.
+Same as the [socialprofile_connections2](connection.md#BKMK_socialprofile_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -871,7 +869,7 @@ Same as connection entity [socialprofile_connections2](connection.md#BKMK_social
 
 ### <a name="BKMK_SocialProfile_AsyncOperations"></a> SocialProfile_AsyncOperations
 
-Same as asyncoperation entity [SocialProfile_AsyncOperations](asyncoperation.md#BKMK_SocialProfile_AsyncOperations) Many-To-One relationship.
+Same as the [SocialProfile_AsyncOperations](asyncoperation.md#BKMK_SocialProfile_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -886,7 +884,7 @@ Same as asyncoperation entity [SocialProfile_AsyncOperations](asyncoperation.md#
 
 ### <a name="BKMK_socialprofile_connections1"></a> socialprofile_connections1
 
-Same as connection entity [socialprofile_connections1](connection.md#BKMK_socialprofile_connections1) Many-To-One relationship.
+Same as the [socialprofile_connections1](connection.md#BKMK_socialprofile_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -915,37 +913,33 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_transactioncurrency_SocialProfile"></a> transactioncurrency_SocialProfile
 
-See transactioncurrency Entity [transactioncurrency_SocialProfile](transactioncurrency.md#BKMK_transactioncurrency_SocialProfile) One-To-Many relationship.
+See the [transactioncurrency_SocialProfile](transactioncurrency.md#BKMK_transactioncurrency_SocialProfile) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_business_unit_socialprofiles"></a> business_unit_socialprofiles
 
-See businessunit Entity [business_unit_socialprofiles](businessunit.md#BKMK_business_unit_socialprofiles) One-To-Many relationship.
+See the [business_unit_socialprofiles](businessunit.md#BKMK_business_unit_socialprofiles) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_Socialprofile_customer_contacts"></a> Socialprofile_customer_contacts
 
-See contact Entity [Socialprofile_customer_contacts](contact.md#BKMK_Socialprofile_customer_contacts) One-To-Many relationship.
+See the [Socialprofile_customer_contacts](contact.md#BKMK_Socialprofile_customer_contacts) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_lk_SocialProfile_createdonbehalfby"></a> lk_SocialProfile_createdonbehalfby
 
-See systemuser Entity [lk_SocialProfile_createdonbehalfby](systemuser.md#BKMK_lk_SocialProfile_createdonbehalfby) One-To-Many relationship.
+See the [lk_SocialProfile_createdonbehalfby](systemuser.md#BKMK_lk_SocialProfile_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_socialProfile_owning_user"></a> socialProfile_owning_user
 
-See systemuser Entity [socialProfile_owning_user](systemuser.md#BKMK_socialProfile_owning_user) One-To-Many relationship.
+See the [socialProfile_owning_user](systemuser.md#BKMK_socialProfile_owning_user) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_SocialProfile_modifiedonbehalfby"></a> lk_SocialProfile_modifiedonbehalfby
 
-See systemuser Entity [lk_SocialProfile_modifiedonbehalfby](systemuser.md#BKMK_lk_SocialProfile_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_SocialProfile_modifiedonbehalfby](systemuser.md#BKMK_lk_SocialProfile_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_Socialprofile_customer_accounts"></a> Socialprofile_customer_accounts
 
-See account Entity [Socialprofile_customer_accounts](account.md#BKMK_Socialprofile_customer_accounts) One-To-Many relationship.
+See the [Socialprofile_customer_accounts](account.md#BKMK_Socialprofile_customer_accounts) one-to-many relationship for the [account](account.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.socialprofile?text=socialprofile EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

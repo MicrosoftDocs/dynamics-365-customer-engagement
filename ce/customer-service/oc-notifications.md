@@ -1,33 +1,29 @@
 ---
 title: "Notifications for agents working in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omnichannel for Customer Service."
-ms.date: 03/23/2022
+ms.date: 04/05/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # View notifications
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-A notification is a visual alert that appears each time you get a chat or an SMS conversation request from a customer. When you get the notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the Customer summary page.
+> [!IMPORTANT]
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+
+A notification is a visual alert that appears each time you get a chat or an SMS conversation request from a customer. When you get the notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the **Active Conversation** page.
 
 Here are some scenarios where you might receive notifications:
 
 - Case assignment if record routing is configured using workstreams for unified routing
-
 - Incoming chat conversation
-
 - Incoming SMS conversation
-
 - Conversation (work item) assignment
-
 - Conversation transfer
-
 - Conversation escalation
-
 - Conversation escalation from a bot
 
 ## Receive notifications when the app is in the background
@@ -43,18 +39,18 @@ You'll receive desktop notifications when the Customer Service workspace or Omni
 
 You can accept or reject the conversation request by selecting a button on the desktop notification. When you accept the conversation request, the app is made active and displayed to you, and a session is started.
 
-If you select the notification message body and not a button, the app is made active and the notification is displayed to you in the app. Then you can choose to accept or reject the conversation by selecting the appropriate button.
+If you select the notification message body and not a button, the app is made active, and the notification is displayed to you in the app. Then you can choose to accept or reject the conversation by selecting the appropriate button.
 
-The wait time that's configured by your administrator applies to the desktop notification, but doesn't display the wait time on the desktop notification.
+The wait time that's configured by your administrator applies to the desktop notification but doesn't display on it.
 
-That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you've 90 seconds to take action. More information: [Manage notification templates and settings](../app-profile-manager/notification-templates.md)
+That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you have 90 seconds to take action. More information: [Manage notification templates and settings](../app-profile-manager/notification-templates.md)
 
-> [!Note]
+> [!NOTE]
 > The desktop notification theme is based on the Windows operating system theme and settings.
 
 ### Allow your browser to show notifications
 
-To get desktop notifications, you need to allow your browser to show notifications. When you get a browser notification, you need to select **Allow**.
+To get desktop notifications, you need to allow your browser to show notifications. When you get a browser notification, select **Allow**.
 
  > [!div class=mx-imgBorder]
  > ![Allow desktop notification.](media/allow-desktop-notification.png "Allow desktop notification")
@@ -63,13 +59,22 @@ To get desktop notifications, you need to allow your browser to show notificatio
 
 There are two types of notifications:
 
-- **Toast notifications:** Also known as floating notification is a notification message type where you receive information in a dialog that disappears after a stipulated time. This type of notification appears for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios.
+- **Toast notifications:** Also known as a floating notification, is a notification message type where you receive information in a dialog that disappears after a stipulated time. This type of notification appears for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios.
 
-- **Alert notifications:** Is a type of notification where a dialog appears with action buttons. When you select the **Accept** button, a screen pops up with the customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
+- **Alert notifications:** A type of notification where a dialog appears with action buttons. When you select **Accept**, a screen pops up with the active conversation details. You need to take an action within the stipulated time, and the notification disappears when the time is up.
+
+Based on your organization's configurations, you can't reject conversations. The application performs one of the following actions when an incoming notification appears:
+
+- Creates a work item and assigns it to you automatically. 
+- Automatically accepts the conversation and opens a new session.
+
+## Incoming voice call notifications
+
+You'll receive a voice call notification for an incoming call request after an intelligent bot processes the call. For information on how the call is processed and the call controls that are available to you, see [Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md).
 
 ## Incoming chat notifications
 
-You receive a notification for an incoming chat request. When you accept the chat request, you'll see details about the customer in the Customer summary page. A simultaneous session starts, and a chat window expands so you can exchange messages with the customer.
+You receive a notification for an incoming chat request. When you accept the chat request, you'll see details about the customer in the **Active Conversation** page. A simultaneous session starts, and a chat window expands so you can exchange messages with the customer.
 
  > [!div class=mx-imgBorder]
  > ![Incoming chat notification.](media/chat-notification-request.png "Incoming chat notification")  
@@ -81,7 +86,6 @@ The details you'll see for a chat channel are as configured by your administrato
 If record routing is configured using unified routing and notifications are enabled, then when a case is assigned to you, you'll receive a notification with the open item option. You can't reject the assignment, and irrespective of the notification timeout, the case will be assigned to you.
 
   > ![Case assignment notification.](media/case-assignment-notification.png "Case assignment notification")
-
 
 ## Incoming SMS notification
 
@@ -110,7 +114,7 @@ When you don't respond to an incoming conversation notification, you'll see an a
 
 When you don't respond to an incoming conversation notification, the conversation will time out based on the time-out settings configured by your administrator and be rerouted.
 
-Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system, but they aren't seen because you had either closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversations are then rerouted after eight minutes.
+Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system but they aren't seen because you had either closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversations are then rerouted after eight minutes.
 
 ## Maximum session limit notifications
 
@@ -131,13 +135,13 @@ When you reject a work item notification, you'll see an alert at the top of your
 
 ### See also
 
-[View customer summary and know everything about customers](oc-customer-summary.md)  
+[View customer information on Active Conversation form](oc-customer-summary.md)  
 [View communication panel](oc-conversation-control.md)  
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
 [Manage presence status](oc-manage-presence-status.md)  
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [Take notes specific to conversation](oc-take-notes.md)  
-[View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+[View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 [Manage notification templates and settings](../app-profile-manager/notification-templates.md)  
 
 

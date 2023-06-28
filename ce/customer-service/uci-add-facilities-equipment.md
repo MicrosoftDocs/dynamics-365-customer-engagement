@@ -1,18 +1,14 @@
 ---
 title: Add facilities and equipment | Microsoft Docs
 description: How to add facilities and equipment in Unified Interface-based Scheduling Service for Dynamics 365 Customer Service.
-ms.date: 10/05/2020
+ms.date: 04/04/2020
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -27,12 +23,9 @@ Facilities and equipment are resources you use to perform services for your cust
 
 Before you begin, make sure you have the **System Administrator** security role or equivalent permissions in Microsoft Dynamics 365. 
 
-1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+1. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     1. In the **Facilities/Equipment** section, select **Manage**.

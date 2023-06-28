@@ -3,14 +3,10 @@ title: "Read Best Practices Analyzer Report | MicrosoftDocs"
 description: "Use this topic to understand the layout of the Best Practices Analyzer report and analyze the results of the report."
 ms.date: 05/15/2018
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ---
 
 # Read Best Practices Analyzer report
@@ -26,7 +22,7 @@ The report displays the following elements:
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |      Downloads      |                                 This is the location where the generated report is maintained.<br><br>`C:\Users\<User>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>\BPA\BPALogs\`                                  |
 |    Computer name    |                                                         Local computer name on which [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] performed the analysis.                                                          |
-| Analysis Start Time |                                                       The time at which the you start analysis. The format of the Analysis Start Time appears as a timestamp in the format <MM-DD-YYYY> <HH:MM:SS>.                                                        |
+| Analysis Start Time |                                                       The time at which the you start analysis. The format of the Analysis Start Time appears as a timestamp in the format \<MM-DD-YYYY> <HH:MM:SS>.                                                        |
 |    Analysis Time    |                                                                                                    The time taken in seconds to complete the analysis.                                                                                                     |
 |        Score        |                                                                                                 Number of parameters passed / Total number of parameters.                                                                                                  |
 |      Parameter      |                                                          The parameter name against which [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] performs analysis.                                                          |

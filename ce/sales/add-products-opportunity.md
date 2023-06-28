@@ -1,12 +1,11 @@
 ---
 title: "Add products to an opportunity | MicrosoftDocs"
 description: "Develop your opportunity by defining product bundles or families that makes easier for you to choose products for upsell and cross-sell."
-ms.date: 10/26/2021
+ms.date: 04/05/2023
 ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Add products to an opportunity
@@ -15,12 +14,11 @@ Develop your opportunity by adding products, bundles or families that you want t
 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Find and add products to an opportunity 
 
@@ -30,16 +28,16 @@ You can add a product that already exists in the [!INCLUDE[pn-dyn-365-sales](../
 
 1. From the list of opportunities, open the opportunity to which you want to add products.
 
-2. Go to the **Product Line Items** tab.
+2. Go to the **Product line items** tab.
 
-3. Select a **Price List**. The price list determines the cost of the product. 
+3. Select a **Price list**. The price list determines the cost of the product. 
   
     > [!NOTE]
-    > By default, you must select a price list to be able to add products to an opportunity; however, your administrator can change your organization settings to make the **Price List** field optional.
+    > By default, you must select a price list to be able to add products to an opportunity; however, your administrator can change your organization settings to make the **Price list** field optional.
 
 4. If you want the estimated revenue of the opportunity to be calculated based on the total number of products, set **Revenue** to **System Calculated**. If you want to use a custom estimated revenue, set it to **User Provided**.
 
-5. In the **Product Line Items** grid, select **Add Product**.
+5. Select **Add product**.
 
 6. In the **Quick Create: Opportunity Product** form, do the following:  
 

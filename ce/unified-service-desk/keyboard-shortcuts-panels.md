@@ -3,15 +3,11 @@ title: "Keyboard shortcuts for panels in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to traverse through active panels using predefined keyboard shortcuts. Also find information about defining new keyboard shortcuts."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-a11y
   - dyn365-USD

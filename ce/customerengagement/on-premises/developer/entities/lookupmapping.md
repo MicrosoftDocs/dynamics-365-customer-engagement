@@ -1,32 +1,30 @@
 ---
-title: "LookUpMapping Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "LookUpMapping entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the LookUpMapping entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# LookUpMapping Entity Reference
+
+# LookUpMapping entity reference
 
 In a data map, maps a lookup attribute in a source file to Microsoft Dynamics 365.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/lookupmappings<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/lookupmappings(*lookupmappingid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/lookupmappings(*lookupmappingid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/lookupmappings<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -148,12 +146,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### LookUpSourceCode Options
+#### LookUpSourceCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Source|
-|1|System|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Source||
+|1|System||
 
 
 
@@ -169,13 +167,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ProcessCode Options
+#### ProcessCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Process|
-|2|Ignore|
-|3|Internal|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Process||
+|2|Ignore||
+|3|Internal||
 
 
 
@@ -191,7 +189,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -270,14 +268,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ComponentState Options
+#### ComponentState Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Published|
-|1|Unpublished|
-|2|Deleted|
-|3|Deleted Unpublished|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Published||
+|1|Unpublished||
+|2|Deleted||
+|3|Deleted Unpublished||
 
 
 
@@ -400,14 +398,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsManaged Options
+#### IsManaged Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Managed|
-|0|Unmanaged|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Managed||
+|0|Unmanaged||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -571,7 +569,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -607,33 +605,29 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_lookupmapping_createdby"></a> lk_lookupmapping_createdby
 
-See systemuser Entity [lk_lookupmapping_createdby](systemuser.md#BKMK_lk_lookupmapping_createdby) One-To-Many relationship.
+See the [lk_lookupmapping_createdby](systemuser.md#BKMK_lk_lookupmapping_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_lookupmapping_createdonbehalfby"></a> lk_lookupmapping_createdonbehalfby
 
-See systemuser Entity [lk_lookupmapping_createdonbehalfby](systemuser.md#BKMK_lk_lookupmapping_createdonbehalfby) One-To-Many relationship.
+See the [lk_lookupmapping_createdonbehalfby](systemuser.md#BKMK_lk_lookupmapping_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_LookUpMapping_ColumnMapping"></a> LookUpMapping_ColumnMapping
 
-See columnmapping Entity [LookUpMapping_ColumnMapping](columnmapping.md#BKMK_LookUpMapping_ColumnMapping) One-To-Many relationship.
+See the [LookUpMapping_ColumnMapping](columnmapping.md#BKMK_LookUpMapping_ColumnMapping) one-to-many relationship for the [columnmapping](columnmapping.md) entity.
 
 ### <a name="BKMK_lk_lookupmapping_modifiedby"></a> lk_lookupmapping_modifiedby
 
-See systemuser Entity [lk_lookupmapping_modifiedby](systemuser.md#BKMK_lk_lookupmapping_modifiedby) One-To-Many relationship.
+See the [lk_lookupmapping_modifiedby](systemuser.md#BKMK_lk_lookupmapping_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_LookUpMapping_TransformationParameterMapping"></a> LookUpMapping_TransformationParameterMapping
 
-See transformationparametermapping Entity [LookUpMapping_TransformationParameterMapping](transformationparametermapping.md#BKMK_LookUpMapping_TransformationParameterMapping) One-To-Many relationship.
+See the [LookUpMapping_TransformationParameterMapping](transformationparametermapping.md#BKMK_LookUpMapping_TransformationParameterMapping) one-to-many relationship for the [transformationparametermapping](transformationparametermapping.md) entity.
 
 ### <a name="BKMK_lk_lookupmapping_modifiedonbehalfby"></a> lk_lookupmapping_modifiedonbehalfby
 
-See systemuser Entity [lk_lookupmapping_modifiedonbehalfby](systemuser.md#BKMK_lk_lookupmapping_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_lookupmapping_modifiedonbehalfby](systemuser.md#BKMK_lk_lookupmapping_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.lookupmapping?text=lookupmapping EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

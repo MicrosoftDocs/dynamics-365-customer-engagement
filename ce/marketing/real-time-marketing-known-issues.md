@@ -1,20 +1,16 @@
 ---
 title: "Known issues in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about known issues in real-time marketing and how to work around them."
-ms.date: 02/23/2022
+ms.date: 05/09/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Known issues in real-time marketing
@@ -24,7 +20,7 @@ As we continue to work on real-time marketing and refine the experience, we've b
 ## Analytics
 
 - In the aggregate cross-journey analytics dashboard, an extra step is needed to load the Power BI report in the Android and iPad native apps. To load the report, go to **Analytics**, then select a row, select the **Show as from** sub menu, then select **CC_Analytics_ReportingControl**.
-- Data retention is 12 months for details of operational data (such as contacts impacted by delivery and interaction issues) and for all other metrics (including operational and aggregate analytics).
+- Data retention is 12 months for Contact and Lead insights, goal analytics, channel analytics (including delivery and interaction details such as contacts impacted by delivery and interaction issues), and AI optimization analytics.
 - Some strings in the Power BI aggregate analytics dashboard aren’t localized.
 
 ## Consent
@@ -41,20 +37,20 @@ As we continue to work on real-time marketing and refine the experience, we've b
 
 ## Dynamics 365 Customer Insights
 
--	Data from Customer Insights environments that use the Azure Data Lake Gen v2 storage isn’t accessible in real-time marketing. To use Customer Insights data in real-time marketing, you must create a new environment using a copy of the existing environment, then use the Customer Insights storage option and enable data sharing with the Dataverse org on which Dynamics 365 Marketing is installed.
 -	Segments and profiles in Customer Insights aren’t evaluated in real time. Segments and profiles can be set to refresh on a schedule defined by the Customer Insights admin. When a customer journey uses profiles from Customer Insights, the earliest you can engage with a new customer is when their profile is created on the next scheduled refresh. Similarly, when you use segments from Customer Insights, new customers will only enter the journey on the next scheduled refresh.
 -	Once you start using Customer Insights data in customer journeys, you can’t remove the profile attributes being used from the data unification process (Map-Match-Merge). Doing so might break customer journeys and personalization tokens that reference those attributes.
-- Customer Insights segments used in customer journeys can’t currently exceed one million profiles. A segment of larger size may get truncated to the first one million profiles only.
+- Customer Insights segments used in customer journeys can’t currently exceed 10 million profiles. A larger sized segment may get truncated to the first 10 million profiles only.
 
 ## Email editor
 
 - The real-time marketing email editor *doesn’t* contain the following capabilities from the outbound marketing email editor: video, content blocks, QR codes, Teams check-in links, marketing page links, or the Send now function.
 - Emails created in outbound marketing need to be recreated in the real-time marketing email designer to be used in real-time marketing.
+- Content blocks may not be editable immediately after inserting into an email. When a content block is added to an email, its content may not be editable (cannot be selected). To work around this issue, refresh the page.
 
 ## Triggers
 
 - You can’t instrument C# apps in real-time marketing. If you choose to use an alternate language like Python, you’ll have to manage an infra to run Python.
-- Triggers can’t be migrated when moving data between environments. Any events in the old environment need to be re-created in the new environment.
+- Published triggers can’t be migrated when moving data between environments. Any published triggers in the old environment need to be re-created in the new environment. Draft triggers, however, can be migrated as described in [Move custom triggers between environments](real-time-marketing-move-triggers.md).
 
 ## Natural language
 
@@ -66,10 +62,7 @@ As we continue to work on real-time marketing and refine the experience, we've b
 
 ## Personalization
 
-- Changing the data binding of an existing token creates a new token.
-- Even if you delete all usage of a token from the current message, it is still shown and considered in use.
+- Changing the data binding of existing dynamic text creates new dynamic text.
+- Even if you delete all usage of a piece of dynamic text from the current message, it is still shown and considered in use.
 
-## SMS
-
-- Currently limited to one phone number.
-- Only United States numbers are issued (even when using the app in the United Kingdom).
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

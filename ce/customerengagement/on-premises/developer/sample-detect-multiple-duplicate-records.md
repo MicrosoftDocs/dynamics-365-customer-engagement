@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 5c83c1c2-25ef-480b-9195-6eabe9f6c4c7
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -23,7 +22,7 @@ search.audienceType:
 
 # Sample: Detect multiple duplicate records
 
-This sample shows how to detect and log multiple duplicate records for a specified entity type. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DetectMultipleDuplicateRecords).
+This sample shows how to detect and log multiple duplicate records for a specified entity type. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/DetectMultipleDuplicateRecords).
 
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]

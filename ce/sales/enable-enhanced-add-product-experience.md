@@ -1,11 +1,10 @@
 ---
-title: "Enable or disable the enhanced add products experience | MicrosoftDocs"
+title: Enable or disable the enhanced add products experience
 description: "Enable your salespeople to quickly find and add multiple products to an opportunity, quote, order, or invoice by enabling the enhanced add product experience."
-ms.date: 10/26/2021
+ms.date: 05/30/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -17,36 +16,30 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Preview: Enable or disable the enhanced experience for adding products
+# Enable or disable the enhanced experience for adding products
 
 Enable your salespeople to quickly find and add multiple products to an opportunity, quote, order, or invoice by enabling the enhanced add product experience.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## What's in the enhanced experience?
 
  By using the enhanced experience, salespeople can do the following:
 
-- Quickly search for products and filter by product families.
+- Quickly search for products and add them to opportunity, quote, order, or invoice.  
+- Filter by product families if you have the Sales Enterprise or Sales Premium license.
 - View product details inline.
 - Compare products before selecting them.
 - Add multiple products in one go.
 
 [!INCLUDE [add-products-experience-on-mobile](../includes/add-products-experience-on-mobile.md)]
 
-> [!IMPORTANT]
->
-> - The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
 
 ## Enable or disable the enhanced experience
 
@@ -60,14 +53,14 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 2. Under **Product Catalog**, select **Product Catalog Settings**.
 
-3. On the **Product Catalog Settings** page, toggle **Adding products (preview)** to enable or disable the preview.  
-    If you enable the preview, you'll see additional options for customizing the new **Add products** dialog box.
+3. On the **Product Catalog Settings** page, turn on **Enhanced experience for adding products** to enable the enhanced experience. 
+    When you enable the enhanced experience, you'll see additional options for customizing the **Add products** dialog box.
 
-    ![Product catalog settings page with the Adding products preview enabled.](media/EnableAddProductPreview.png)
+    ![Product catalog settings page with the **Enhanced experience for adding products** enabled.](media/EnableAddProductPreview.png)
 
-     You can either add more columns to the grid or add more attributes to the **Product** column in the dialog box. For more information, see [Preview: Customize the Add Products dialog box](customize-add-products-dialog-box.md).
+     You can either add more columns to the grid or add more attributes to the **Product** column in the dialog box. For more information, see [Customize the Add Products dialog box](customize-add-products-dialog-box.md).
     
-    If you disable the preview, the **Add products** option in the opportunity, quote, order, and invoice will switch back to **Quick create** form.
+    If you turn off the enhanced experience, the **Add products** option in the opportunity, quote, order, and invoice will switch back to **Quick create** form.
 
 # [Sales Professional](#tab/SP)
 
@@ -83,7 +76,7 @@ If you're using a custom app or Sales Professional app, you can enable or disabl
 
 3. Select **System Settings**.
 
-4. In the **System Settings** dialog box, go to the **Sales** tab and set **Enhanced add product experience** to **Yes** to enable the enhanced experience. Set it to **No** to disable. 
+4. In the **System Settings** dialog box, go to the **Sales** tab and set **Adding products** to **Yes** to enable the enhanced experience. Set it to **No** to disable. 
 
 5. Select **OK**.
 

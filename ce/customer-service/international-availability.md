@@ -1,77 +1,67 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
 description: "This article contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
-ms.date: 02/01/2022
+ms.date: 12/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # International availability of Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 The purpose of this document is to provide information about the geographic location and language availability of live chat and digital messaging channels.
 
-
 > [!NOTE]
-> For information about the availability of the voice channel, see [Regional availability and supported languages for the voice channel](voice-channel-region-availability.md).
-
+> For information about the supported regions and languages in the voice channel, see [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md).
 
 ## Geographic location availability
 
-Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
+Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Power Platform environment or org instance resides.
 
-> [!Note]
+> [!NOTE]
 >
-> In the South America, Europe, and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, and Singapore respectively.
+> In the Europe and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Norway, Sweden, and Singapore.
 
-### October 2021 update
+### October 2022 update
 
-Omnichannel for Customer Service October 2021 update is available in the following regions.
-
-|   Geographic location                     |            Date      |
-|-------------------------------------------|----------------------|
-| Asia Pacific                              |   October 08, 2021   |
-| Australia                                 |   October 08, 2021   |
-| Canada                                    |   October 01, 2021   |  
-| Europe                                    |   October 15, 2021   |
-| France                                    |   October 01, 2021   |
-| Germany                                   |   October 01, 2021   |
-| Government Community Cloud (GCC)          |   January 09, 2022   |
-| India                                     |  October 01, 2021    |
-| Japan                                     |   October 08, 2021   |
-| North America                             |   October 22, 2021   |
-| South America                             |   October 01, 2021   |
-| Switzerland                               |   October 01, 2021   |
-| UAE                                       |   October 08, 2021   |
-| United Kingdom                            |   October 08, 2021   |
-|||
-
-### April 2021 update
-
-Omnichannel for Customer Service April 2021 update is available in the following regions.
+The October 2022 update of Omnichannel for Customer Service is available in the following regions.
 
 |   Geographic location                     |   Date             |
 |-------------------------------------------|--------------------|
-| Asia Pacific                              |   April 13, 2021   |
-| Australia                                 |   April 14, 2021   |
-| Canada                                    |   April 07, 2021   |
-| Europe                                    |   April 17, 2021   |
-| France                                    |   April 09, 2021   |
-| Germany                                   |   April 09, 2021   |
-| GCC                                       |   May 15, 2021     |
-| India                                     |   April 08, 2021   |
-| Japan                                     |   April 15, 2021   |
-| North America                             |   April 24, 2021   |
-| South America                             |   April 08, 2021   |
-| Switzerland                               |   April 10, 2021   |
-| United Arab Emirates (UAE)                |   April 08, 2021   |
-| United Kingdom                            |   April 12, 2021   |
-|||
+| Asia Pacific                              |  October 14, 2022  |
+| Australia                                 |  October 14, 2022  |
+| Canada                                    |  October 01, 2022  |
+| Europe                                    |  October 17, 2022  |
+| France                                    |  October 10, 2022  |
+| Germany                                   |  October 01, 2022  |
+| India                                     |  October 01, 2022  |
+| Japan                                     |  October 14, 2022  |
+| North America                             |  October 23, 2022  |
+| South America                             |  October 10, 2022  |
+| Switzerland                               |  October 01, 2022  |
+| United Arab Emirates (UAE)                |  October 10, 2022  |
+| United Kingdom                            |  October 14, 2022  |
 
+### April 2022 update
+
+The April 2022 update of Omnichannel for Customer Service is available in the following regions.
+
+|   Geographic location                     |   Date             |
+|-------------------------------------------|--------------------|
+| Asia Pacific                              |   April 09, 2022   |
+| Australia                                 |   April 09, 2022   |
+| Canada                                    |   April 02, 2022   |
+| Europe                                    |    April 16, 2022  |
+| France                                    |   April 02, 2022   |
+| Germany                                   |   April 02, 2022   |
+| India                                     |   April 02, 2022   |
+| Japan                                     |   April 09, 2022   |
+| North America                             |    April 23, 2022  |
+| South America                             |   April 02, 2022   |
+| Switzerland                               |   April 02, 2022   |
+| United Arab Emirates (UAE)                |   April 09, 2022   |
+| United Kingdom                            |   April 09, 2022   |
 
 ## Language availability
 
@@ -91,13 +81,13 @@ The product user interface (UI) is available in the following languages.
 | Danish                  | Korean            | Turkish             |
 | Dutch                   | Latvian           | Ukrainian           |
 | English                 | Lithuanian        | Vietnamese          |
-| Estonian                |Malay (Malaysia)   |                     |
+| Estonian                | Malay (Malaysia)  |                     |
 | Finnish                 | Norwegian         |                     |
 | French                  | Polish            |                     |
 | Galician                | Portuguese        |                     |
-|                         |                   |                     |
 
-To know the languages that are supported in analytics, see [Multi-language sentiment](enable-sentiment-analysis.md#multi-language-sentiment).
+
+To know the languages that are supported in analytics, see [Multilingual sentiment](enable-sentiment-analysis.md#multilingual-sentiment).
 
 ### See also
 

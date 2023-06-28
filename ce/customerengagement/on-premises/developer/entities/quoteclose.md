@@ -1,18 +1,16 @@
 ---
-title: "QuoteClose Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "QuoteClose entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the QuoteClose entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# QuoteClose Entity Reference
+
+# QuoteClose entity reference
 
 Activity generated when a quote is closed.
 
@@ -21,22 +19,22 @@ Activity generated when a quote is closed.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/quotecloses(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/quotecloses<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/quotecloses(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/quotecloses(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/quotecloses<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/quotecloses(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/quotecloses(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -245,13 +243,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Community Options
+#### Community Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Other|
-|1|Facebook|
-|2|Twitter|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Other|Other default|
+|1|Facebook|Facebook item.|
+|2|Twitter|Twitter.|
 
 
 
@@ -282,13 +280,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### DeliveryPriorityCode Options
+#### DeliveryPriorityCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Low|
-|1|Normal|
-|2|High|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Low||
+|1|Normal||
+|2|High||
 
 
 
@@ -383,14 +381,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsBilled Options
+#### IsBilled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -406,14 +404,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsMapiPrivate Options
+#### IsMapiPrivate Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -429,14 +427,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsWorkflowCreated Options
+#### IsWorkflowCreated Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -467,14 +465,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### LeftVoiceMail Options
+#### LeftVoiceMail Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -575,13 +573,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PriorityCode Options
+#### PriorityCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Low|
-|1|Normal|
-|2|High|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Low||
+|1|Normal||
+|2|High||
 
 
 
@@ -638,7 +636,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,entitlement,entitlementtemplate,incident,interactionforemail,knowledgearticle,knowledgebaserecord,lead,msdyn_playbookinstance,opportunity,quote,site|
+|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,entitlement,entitlementtemplate,incident,interactionforemail,knowledgearticle,knowledgebaserecord,lead,opportunity,quote,site|
 |Type|Lookup|
 
 
@@ -809,7 +807,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the Stage.|
-|DisplayName|(Deprecated) Process Stage|
+|DisplayName|Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -830,7 +828,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -852,7 +850,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -943,7 +941,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -1237,15 +1235,15 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### InstanceTypeCode Options
+#### InstanceTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Not Recurring|
-|1|Recurring Master|
-|2|Recurring Instance|
-|3|Recurring Exception|
-|4|Recurring Future Exception|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Not Recurring||
+|1|Recurring Master||
+|2|Recurring Instance||
+|3|Recurring Exception||
+|4|Recurring Future Exception||
 
 
 
@@ -1261,14 +1259,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsRegularActivity Options
+#### IsRegularActivity Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1751,7 +1749,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as activityparty entity [quoteclose_activity_parties](activityparty.md#BKMK_quoteclose_activity_parties) Many-To-One relationship.
+Same as the [quoteclose_activity_parties](activityparty.md#BKMK_quoteclose_activity_parties) many-to-one relationship for the [activityparty](activityparty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1768,7 +1766,7 @@ Same as activityparty entity [quoteclose_activity_parties](activityparty.md#BKMK
 
 **Added by**: Marketing Solution
 
-Same as campaignresponse entity [CampaignResponse_QuoteCloses](campaignresponse.md#BKMK_CampaignResponse_QuoteCloses) Many-To-One relationship.
+Same as the [CampaignResponse_QuoteCloses](campaignresponse.md#BKMK_CampaignResponse_QuoteCloses) many-to-one relationship for the [campaignresponse](campaignresponse.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1785,7 +1783,7 @@ Same as campaignresponse entity [CampaignResponse_QuoteCloses](campaignresponse.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [QuoteClose_SyncErrors](syncerror.md#BKMK_QuoteClose_SyncErrors) Many-To-One relationship.
+Same as the [QuoteClose_SyncErrors](syncerror.md#BKMK_QuoteClose_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1802,7 +1800,7 @@ Same as syncerror entity [QuoteClose_SyncErrors](syncerror.md#BKMK_QuoteClose_Sy
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [QuoteClose_AsyncOperations](asyncoperation.md#BKMK_QuoteClose_AsyncOperations) Many-To-One relationship.
+Same as the [QuoteClose_AsyncOperations](asyncoperation.md#BKMK_QuoteClose_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1819,7 +1817,7 @@ Same as asyncoperation entity [QuoteClose_AsyncOperations](asyncoperation.md#BKM
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [quoteclose_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_quoteclose_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [quoteclose_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_quoteclose_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1836,7 +1834,7 @@ Same as mailboxtrackingfolder entity [quoteclose_MailboxTrackingFolders](mailbox
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [QuoteClose_BulkDeleteFailures](bulkdeletefailure.md#BKMK_QuoteClose_BulkDeleteFailures) Many-To-One relationship.
+Same as the [QuoteClose_BulkDeleteFailures](bulkdeletefailure.md#BKMK_QuoteClose_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1853,7 +1851,7 @@ Same as bulkdeletefailure entity [QuoteClose_BulkDeleteFailures](bulkdeletefailu
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [quoteclose_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_quoteclose_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [quoteclose_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_quoteclose_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1870,7 +1868,7 @@ Same as principalobjectattributeaccess entity [quoteclose_PrincipalObjectAttribu
 
 **Added by**: System Solution Solution
 
-Same as annotation entity [QuoteClose_Annotation](annotation.md#BKMK_QuoteClose_Annotation) Many-To-One relationship.
+Same as the [QuoteClose_Annotation](annotation.md#BKMK_QuoteClose_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1888,6 +1886,7 @@ Same as annotation entity [QuoteClose_Annotation](annotation.md#BKMK_QuoteClose_
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
+- [interactionforemail_QuoteCloses](#BKMK_interactionforemail_QuoteCloses)
 - [lead_QuoteCloses](#BKMK_lead_QuoteCloses)
 - [bookableresourcebooking_QuoteCloses](#BKMK_bookableresourcebooking_QuoteCloses)
 - [bookableresourcebookingheader_QuoteCloses](#BKMK_bookableresourcebookingheader_QuoteCloses)
@@ -1899,10 +1898,8 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [incident_QuoteCloses](#BKMK_incident_QuoteCloses)
 - [site_QuoteCloses](#BKMK_site_QuoteCloses)
 - [service_quoteclose](#BKMK_service_quoteclose)
-- [msdyn_playbookinstance_QuoteCloses](#BKMK_msdyn_playbookinstance_QuoteCloses)
 - [opportunity_QuoteCloses](#BKMK_opportunity_QuoteCloses)
 - [quote_QuoteCloses](#BKMK_quote_QuoteCloses)
-- [interactionforemail_QuoteCloses](#BKMK_interactionforemail_QuoteCloses)
 - [knowledgebaserecord_QuoteCloses](#BKMK_knowledgebaserecord_QuoteCloses)
 - [account_QuoteCloses](#BKMK_account_QuoteCloses)
 - [lk_quoteclose_createdby](#BKMK_lk_quoteclose_createdby)
@@ -1921,191 +1918,181 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [Quote_QuoteClose](#BKMK_Quote_QuoteClose)
 
 
+### <a name="BKMK_interactionforemail_QuoteCloses"></a> interactionforemail_QuoteCloses
+
+**Added by**: System Solution Solution
+
+See the [interactionforemail_QuoteCloses](interactionforemail.md#BKMK_interactionforemail_QuoteCloses) one-to-many relationship for the [interactionforemail](interactionforemail.md) entity.
+
 ### <a name="BKMK_lead_QuoteCloses"></a> lead_QuoteCloses
 
 **Added by**: Lead Management Solution
 
-See lead Entity [lead_QuoteCloses](lead.md#BKMK_lead_QuoteCloses) One-To-Many relationship.
+See the [lead_QuoteCloses](lead.md#BKMK_lead_QuoteCloses) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_bookableresourcebooking_QuoteCloses"></a> bookableresourcebooking_QuoteCloses
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebooking Entity [bookableresourcebooking_QuoteCloses](bookableresourcebooking.md#BKMK_bookableresourcebooking_QuoteCloses) One-To-Many relationship.
+See the [bookableresourcebooking_QuoteCloses](bookableresourcebooking.md#BKMK_bookableresourcebooking_QuoteCloses) one-to-many relationship for the [bookableresourcebooking](bookableresourcebooking.md) entity.
 
 ### <a name="BKMK_bookableresourcebookingheader_QuoteCloses"></a> bookableresourcebookingheader_QuoteCloses
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebookingheader Entity [bookableresourcebookingheader_QuoteCloses](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_QuoteCloses) One-To-Many relationship.
+See the [bookableresourcebookingheader_QuoteCloses](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_QuoteCloses) one-to-many relationship for the [bookableresourcebookingheader](bookableresourcebookingheader.md) entity.
 
 ### <a name="BKMK_bulkoperation_QuoteCloses"></a> bulkoperation_QuoteCloses
 
 **Added by**: Marketing Solution
 
-See bulkoperation Entity [bulkoperation_QuoteCloses](bulkoperation.md#BKMK_bulkoperation_QuoteCloses) One-To-Many relationship.
+See the [bulkoperation_QuoteCloses](bulkoperation.md#BKMK_bulkoperation_QuoteCloses) one-to-many relationship for the [bulkoperation](bulkoperation.md) entity.
 
 ### <a name="BKMK_campaign_QuoteCloses"></a> campaign_QuoteCloses
 
 **Added by**: Marketing Solution
 
-See campaign Entity [campaign_QuoteCloses](campaign.md#BKMK_campaign_QuoteCloses) One-To-Many relationship.
+See the [campaign_QuoteCloses](campaign.md#BKMK_campaign_QuoteCloses) one-to-many relationship for the [campaign](campaign.md) entity.
 
 ### <a name="BKMK_campaignactivity_QuoteCloses"></a> campaignactivity_QuoteCloses
 
 **Added by**: Marketing Solution
 
-See campaignactivity Entity [campaignactivity_QuoteCloses](campaignactivity.md#BKMK_campaignactivity_QuoteCloses) One-To-Many relationship.
+See the [campaignactivity_QuoteCloses](campaignactivity.md#BKMK_campaignactivity_QuoteCloses) one-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_entitlement_QuoteCloses"></a> entitlement_QuoteCloses
 
 **Added by**: Service Solution
 
-See entitlement Entity [entitlement_QuoteCloses](entitlement.md#BKMK_entitlement_QuoteCloses) One-To-Many relationship.
+See the [entitlement_QuoteCloses](entitlement.md#BKMK_entitlement_QuoteCloses) one-to-many relationship for the [entitlement](entitlement.md) entity.
 
 ### <a name="BKMK_entitlementtemplate_QuoteCloses"></a> entitlementtemplate_QuoteCloses
 
 **Added by**: Service Solution
 
-See entitlementtemplate Entity [entitlementtemplate_QuoteCloses](entitlementtemplate.md#BKMK_entitlementtemplate_QuoteCloses) One-To-Many relationship.
+See the [entitlementtemplate_QuoteCloses](entitlementtemplate.md#BKMK_entitlementtemplate_QuoteCloses) one-to-many relationship for the [entitlementtemplate](entitlementtemplate.md) entity.
 
 ### <a name="BKMK_incident_QuoteCloses"></a> incident_QuoteCloses
 
 **Added by**: Service Solution
 
-See incident Entity [incident_QuoteCloses](incident.md#BKMK_incident_QuoteCloses) One-To-Many relationship.
+See the [incident_QuoteCloses](incident.md#BKMK_incident_QuoteCloses) one-to-many relationship for the [incident](incident.md) entity.
 
 ### <a name="BKMK_site_QuoteCloses"></a> site_QuoteCloses
 
 **Added by**: Service Solution
 
-See site Entity [site_QuoteCloses](site.md#BKMK_site_QuoteCloses) One-To-Many relationship.
+See the [site_QuoteCloses](site.md#BKMK_site_QuoteCloses) one-to-many relationship for the [site](site.md) entity.
 
 ### <a name="BKMK_service_quoteclose"></a> service_quoteclose
 
 **Added by**: Service Solution
 
-See service Entity [service_quoteclose](service.md#BKMK_service_quoteclose) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_playbookinstance_QuoteCloses"></a> msdyn_playbookinstance_QuoteCloses
-
-**Added by**: Playbook Solution
-
-See msdyn_playbookinstance Entity [msdyn_playbookinstance_QuoteCloses](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_QuoteCloses) One-To-Many relationship.
+See the [service_quoteclose](service.md#BKMK_service_quoteclose) one-to-many relationship for the [service](service.md) entity.
 
 ### <a name="BKMK_opportunity_QuoteCloses"></a> opportunity_QuoteCloses
 
-See opportunity Entity [opportunity_QuoteCloses](opportunity.md#BKMK_opportunity_QuoteCloses) One-To-Many relationship.
+See the [opportunity_QuoteCloses](opportunity.md#BKMK_opportunity_QuoteCloses) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_quote_QuoteCloses"></a> quote_QuoteCloses
 
-See quote Entity [quote_QuoteCloses](quote.md#BKMK_quote_QuoteCloses) One-To-Many relationship.
-
-### <a name="BKMK_interactionforemail_QuoteCloses"></a> interactionforemail_QuoteCloses
-
-**Added by**: System Solution Solution
-
-See interactionforemail Entity [interactionforemail_QuoteCloses](interactionforemail.md#BKMK_interactionforemail_QuoteCloses) One-To-Many relationship.
+See the [quote_QuoteCloses](quote.md#BKMK_quote_QuoteCloses) one-to-many relationship for the [quote](quote.md) entity.
 
 ### <a name="BKMK_knowledgebaserecord_QuoteCloses"></a> knowledgebaserecord_QuoteCloses
 
 **Added by**: System Solution Solution
 
-See knowledgebaserecord Entity [knowledgebaserecord_QuoteCloses](knowledgebaserecord.md#BKMK_knowledgebaserecord_QuoteCloses) One-To-Many relationship.
+See the [knowledgebaserecord_QuoteCloses](knowledgebaserecord.md#BKMK_knowledgebaserecord_QuoteCloses) one-to-many relationship for the [knowledgebaserecord](knowledgebaserecord.md) entity.
 
 ### <a name="BKMK_account_QuoteCloses"></a> account_QuoteCloses
 
 **Added by**: System Solution Solution
 
-See account Entity [account_QuoteCloses](account.md#BKMK_account_QuoteCloses) One-To-Many relationship.
+See the [account_QuoteCloses](account.md#BKMK_account_QuoteCloses) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_lk_quoteclose_createdby"></a> lk_quoteclose_createdby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_quoteclose_createdby](systemuser.md#BKMK_lk_quoteclose_createdby) One-To-Many relationship.
+See the [lk_quoteclose_createdby](systemuser.md#BKMK_lk_quoteclose_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_quoteclose_mailbox_sendermailboxid"></a> quoteclose_mailbox_sendermailboxid
 
 **Added by**: System Solution Solution
 
-See mailbox Entity [quoteclose_mailbox_sendermailboxid](mailbox.md#BKMK_quoteclose_mailbox_sendermailboxid) One-To-Many relationship.
+See the [quoteclose_mailbox_sendermailboxid](mailbox.md#BKMK_quoteclose_mailbox_sendermailboxid) one-to-many relationship for the [mailbox](mailbox.md) entity.
 
 ### <a name="BKMK_quoteclose_transactioncurrency_transactioncurrencyid"></a> quoteclose_transactioncurrency_transactioncurrencyid
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [quoteclose_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_quoteclose_transactioncurrency_transactioncurrencyid) One-To-Many relationship.
+See the [quoteclose_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_quoteclose_transactioncurrency_transactioncurrencyid) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_user_quoteclose"></a> user_quoteclose
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_quoteclose](systemuser.md#BKMK_user_quoteclose) One-To-Many relationship.
+See the [user_quoteclose](systemuser.md#BKMK_user_quoteclose) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_quoteclose_sla_slaid"></a> quoteclose_sla_slaid
 
 **Added by**: System Solution Solution
 
-See sla Entity [quoteclose_sla_slaid](sla.md#BKMK_quoteclose_sla_slaid) One-To-Many relationship.
+See the [quoteclose_sla_slaid](sla.md#BKMK_quoteclose_sla_slaid) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_business_unit_quote_close_activities"></a> business_unit_quote_close_activities
 
 **Added by**: System Solution Solution
 
-See businessunit Entity [business_unit_quote_close_activities](businessunit.md#BKMK_business_unit_quote_close_activities) One-To-Many relationship.
+See the [business_unit_quote_close_activities](businessunit.md#BKMK_business_unit_quote_close_activities) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_knowledgearticle_QuoteCloses"></a> knowledgearticle_QuoteCloses
 
 **Added by**: System Solution Solution
 
-See knowledgearticle Entity [knowledgearticle_QuoteCloses](knowledgearticle.md#BKMK_knowledgearticle_QuoteCloses) One-To-Many relationship.
+See the [knowledgearticle_QuoteCloses](knowledgearticle.md#BKMK_knowledgearticle_QuoteCloses) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### <a name="BKMK_lk_quoteclose_modifiedonbehalfby"></a> lk_quoteclose_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_quoteclose_modifiedonbehalfby](systemuser.md#BKMK_lk_quoteclose_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_quoteclose_modifiedonbehalfby](systemuser.md#BKMK_lk_quoteclose_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_quoteclose_createdonbehalfby"></a> lk_quoteclose_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_quoteclose_createdonbehalfby](systemuser.md#BKMK_lk_quoteclose_createdonbehalfby) One-To-Many relationship.
+See the [lk_quoteclose_createdonbehalfby](systemuser.md#BKMK_lk_quoteclose_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_quoteclose_modifiedby"></a> lk_quoteclose_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_quoteclose_modifiedby](systemuser.md#BKMK_lk_quoteclose_modifiedby) One-To-Many relationship.
+See the [lk_quoteclose_modifiedby](systemuser.md#BKMK_lk_quoteclose_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_quoteclose"></a> team_quoteclose
 
 **Added by**: System Solution Solution
 
-See team Entity [team_quoteclose](team.md#BKMK_team_quoteclose) One-To-Many relationship.
+See the [team_quoteclose](team.md#BKMK_team_quoteclose) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_quoteclose_sla_slainvokedid"></a> quoteclose_sla_slainvokedid
 
 **Added by**: System Solution Solution
 
-See sla Entity [quoteclose_sla_slainvokedid](sla.md#BKMK_quoteclose_sla_slainvokedid) One-To-Many relationship.
+See the [quoteclose_sla_slainvokedid](sla.md#BKMK_quoteclose_sla_slainvokedid) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_activity_pointer_quote_close"></a> activity_pointer_quote_close
 
 **Added by**: System Solution Solution
 
-See activitypointer Entity [activity_pointer_quote_close](activitypointer.md#BKMK_activity_pointer_quote_close) One-To-Many relationship.
+See the [activity_pointer_quote_close](activitypointer.md#BKMK_activity_pointer_quote_close) one-to-many relationship for the [activitypointer](activitypointer.md) entity.
 
 ### <a name="BKMK_Quote_QuoteClose"></a> Quote_QuoteClose
 
-See quote Entity [Quote_QuoteClose](quote.md#BKMK_Quote_QuoteClose) One-To-Many relationship.
+See the [Quote_QuoteClose](quote.md#BKMK_Quote_QuoteClose) one-to-many relationship for the [quote](quote.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.quoteclose?text=quoteclose EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -1,26 +1,19 @@
 ---
 title: "Use segments from Dynamics 365 Customer Insights (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to integrate Dynamics 365 Marketing with Dynamics 365 Customer Insights so you can share data and segments between the two systems."
-ms.date: 01/21/2021
-
+ms.date: 10/20/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Use segments from Dynamics 365 Customer Insights with Dynamics 365 Marketing
-
-
 
 Dynamics 365 Customer Insights applies artificial intelligence to analyze rich pools of customer data collected from across other apps like Dynamics 365 Sales, Service, and Marketing. Its standard functionality generates powerful analytical displays for each contact, which makes the information easy to understand and use. The integrated solution can:
 
@@ -28,7 +21,7 @@ Dynamics 365 Customer Insights applies artificial intelligence to analyze rich p
 - Apply data cleansing, enrichment, fuzzy matching, and more.
 - Use segments created by Customer Insights to target customer journeys in Dynamics 365 Marketing.
 
-For complete details, see the [Customer Insights documentation](/dynamics365/ai/customer-insights/overview).
+For complete details, see the [Customer Insights documentation](/dynamics365/customer-insights/overview).
 
 ## Prerequisites
 
@@ -42,7 +35,7 @@ Read this section for an overview of how to work with segments shared between Cu
 
 Customer Insights has its own database for holding contact records and other information, and its own tools for working with that information, including tools for creating segments. That means that Customer Insights requires access to your Marketing database to enable it to work with your marketing contacts. You set this up by adding your Marketing instance as a data source in Customer Insights.
 
-For complete instructions, see [Add a data source](/dynamics365/customer-insights/audience-insights/data-sources#add-a-data-source) in the Customer Insights documentation.
+For complete instructions, see [Add a data source](/dynamics365/customer-insights/data-sources#add-a-data-source) in the Customer Insights documentation.
 
 ### Export Customer Insights segments to get them into Marketing
 
@@ -93,13 +86,13 @@ Though you can use the native tools in Marketing to add and remove contacts for 
 
 ## Bring your Marketing contacts into Customer Insights
 
-To make your Marketing contacts available in Customer Insights, you must set Customer Insights to use your Marketing database up as a data source. From Customer Insights, use the **Common Data Service** connector to connect to Marketing and sign in using your usual Marketing credentials.
+To make your Marketing contacts available in Customer Insights, you must set Customer Insights to use your Marketing database up as a data source. From Customer Insights, use the **Microsoft Dataverse** data source type to connect to Marketing and sign in using your usual Marketing credentials.
 
-![The Common Data Service connector in Customer Insights.](media/ci-data-source-cds.png "The Common Data Service connector in Customer Insights")
+![The Common Data Service connector in Customer Insights.](media/ci-data-source-dataverse.png "The Dataverse data source in Customer Insights")
 
-For complete instructions, see [Add a data source](/dynamics365/customer-insights/audience-insights/data-sources#add-a-data-source) in the Customer Insights documentation.
+For complete instructions, see [Import data from Dataverse to Customer Insights](/dynamics365/customer-insights/connect-dataverse-managed-lake).
 
-Once your Marketing instance is connected as a data source, you'll probably also need to _unify_ the data with your Customer Insights customers. For details about this, see the [Unify](/dynamics365/ai/customer-insights/pm-configure-data) topic in the Customer Insights documentation.
+Once your Marketing instance is connected as a data source, you'll probably also need to _unify_ the data with your Customer Insights customers. For details about this, see the [Data unification](/dynamics365/customer-insights/data-unification) topic in the Customer Insights documentation.
 
 Once the data source is set up, it will continue to work and refresh automatically. Usually, you'll only need to do this once.
 
@@ -110,7 +103,7 @@ To make the segments you create in Customer Insights available in Dynamics 365 M
 To configure your Dynamics 365 Marketing instance as an export destination in Customer Insights:
 
 1. Sign into Customer Insights.
-1. Go to **Admin** > **Export destinations**.
+1. Go to **Data** > **Export destinations**.
 1. Select **Add destination** on the command bar.
 1. The **Edit destination** dialog opens. Make the following settings:
    - **Type**: Select **Dynamics 365 Marketing (Segments)**.
@@ -169,7 +162,7 @@ You can edit the list of Customer Insights segments being exported to any destin
 Although your segments will automatically refresh a few times a day based on your [refresh schedule](/dynamics365/ai/customer-insights/pm-settings) in Customer Insights, you can manually refresh your segments at any time. To do so:
 
 1. Sign into Customer Insights.
-1. Go to **Admin** > **Export** destinations.
+1. Go to **Data** > **Export destinations**.
 1. Select the **Export** button at the top of the destinations list. This will trigger an export to all available destinations.
 
 <!--    ![Manually export to a destination.](media/ci-export-destination.png "Manually export to a destination") -->

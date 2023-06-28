@@ -14,7 +14,6 @@ ms.assetid: 833034aa-73b6-475a-8fde-0060ebeb7726
 caps.latest.revision: 28
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Operating system and platform technology security considerations for Dynamics 365 Customer Engagement (on-premises)
 
@@ -58,7 +57,7 @@ In the broadest sense, security involves planning and considering tradeoffs betw
   
 -   At a minimum, enable auditing of failed sign-ins. By default, [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] system auditing is disabled, and no conditions are audited. This makes intrusion detection difficult and helps attackers cover their tracks.  
   
--   [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)] administrators should enable RDL Sandboxing to restrict access to the [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Enabling and Disabling RDL Sandboxing](/sql/reporting-services/report-server-sharepoint/enable-and-disable-rdl-sandboxing?view=sql-server-2017)  
+-   [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)] administrators should enable RDL Sandboxing to restrict access to the [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Enabling and Disabling RDL Sandboxing](/sql/reporting-services/report-server-sharepoint/enable-and-disable-rdl-sandboxing?view=sql-server-2017&preserve-view=true)  
   
 -   Configure each SQL logon to use the master database as the default database. Although users shouldn’t have rights to the master database, as a best practice, you should change the default for every SQL logon (except those with the SYSADMIN role) to use *OrganizationName*_MSCRM as the default database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Securing SQL Server](/sql/relational-databases/security/securing-sql-server)  
   

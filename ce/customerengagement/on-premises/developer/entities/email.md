@@ -1,52 +1,50 @@
 ---
-title: "Email Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Email entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Email entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Email Entity Reference
+
+# Email entity reference
 
 Activity that is delivered using email protocols.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/emails(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|BackgroundSendEmail|<xref href="Microsoft.Dynamics.CRM.BackgroundSendEmail?text=BackgroundSendEmail Action" />|<xref:Microsoft.Crm.Sdk.Messages.BackgroundSendEmailRequest>|
-|CheckIncomingEmail|<xref href="Microsoft.Dynamics.CRM.CheckIncomingEmail?text=CheckIncomingEmail Function" />|<xref:Microsoft.Crm.Sdk.Messages.CheckIncomingEmailRequest>|
-|CheckPromoteEmail|<xref href="Microsoft.Dynamics.CRM.CheckPromoteEmail?text=CheckPromoteEmail Function" />|<xref:Microsoft.Crm.Sdk.Messages.CheckPromoteEmailRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/emails<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/emails(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|DeliverIncomingEmail|<xref href="Microsoft.Dynamics.CRM.DeliverIncomingEmail?text=DeliverIncomingEmail Action" />|<xref:Microsoft.Crm.Sdk.Messages.DeliverIncomingEmailRequest>|
-|DeliverPromoteEmail|<xref href="Microsoft.Dynamics.CRM.DeliverPromoteEmail?text=DeliverPromoteEmail Action" />|<xref:Microsoft.Crm.Sdk.Messages.DeliverPromoteEmailRequest>|
-|GetTrackingTokenEmail|<xref href="Microsoft.Dynamics.CRM.GetTrackingTokenEmail?text=GetTrackingTokenEmail Action" />|<xref:Microsoft.Crm.Sdk.Messages.GetTrackingTokenEmailRequest>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|ProcessInboundEmail|<xref href="Microsoft.Dynamics.CRM.ProcessInboundEmail?text=ProcessInboundEmail Action" />|<xref:Microsoft.Crm.Sdk.Messages.ProcessInboundEmailRequest>|
-|PropagateByExpression|<xref href="Microsoft.Dynamics.CRM.PropagateByExpression?text=PropagateByExpression Action" />|<xref:Microsoft.Crm.Sdk.Messages.PropagateByExpressionRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/emails(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/emails<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SendEmail|<xref href="Microsoft.Dynamics.CRM.SendEmail?text=SendEmail Action" />|<xref:Microsoft.Crm.Sdk.Messages.SendEmailRequest>|
-|SendEmailFromTemplate|<xref href="Microsoft.Dynamics.CRM.SendEmailFromTemplate?text=SendEmailFromTemplate Action" />|<xref:Microsoft.Crm.Sdk.Messages.SendEmailFromTemplateRequest>|
-|SendFax|<xref href="Microsoft.Dynamics.CRM.SendFax?text=SendFax Action" />|<xref:Microsoft.Crm.Sdk.Messages.SendFaxRequest>|
-|SendTemplate|<xref href="Microsoft.Dynamics.CRM.SendTemplate?text=SendTemplate Action" />|<xref:Microsoft.Crm.Sdk.Messages.SendTemplateRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/emails(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/emails(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|BackgroundSendEmail|<xref:Microsoft.Crm.Sdk.Messages.BackgroundSendEmailRequest>|
+|CheckIncomingEmail|<xref:Microsoft.Crm.Sdk.Messages.CheckIncomingEmailRequest>|
+|CheckPromoteEmail|<xref:Microsoft.Crm.Sdk.Messages.CheckPromoteEmailRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|DeliverIncomingEmail|<xref:Microsoft.Crm.Sdk.Messages.DeliverIncomingEmailRequest>|
+|DeliverPromoteEmail|<xref:Microsoft.Crm.Sdk.Messages.DeliverPromoteEmailRequest>|
+|GetTrackingTokenEmail|<xref:Microsoft.Crm.Sdk.Messages.GetTrackingTokenEmailRequest>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|ProcessInboundEmail|<xref:Microsoft.Crm.Sdk.Messages.ProcessInboundEmailRequest>|
+|PropagateByExpression|<xref:Microsoft.Crm.Sdk.Messages.PropagateByExpressionRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SendEmail|<xref:Microsoft.Crm.Sdk.Messages.SendEmailRequest>|
+|SendEmailFromTemplate|<xref:Microsoft.Crm.Sdk.Messages.SendEmailFromTemplateRequest>|
+|SendFax|<xref:Microsoft.Crm.Sdk.Messages.SendFaxRequest>|
+|SendTemplate|<xref:Microsoft.Crm.Sdk.Messages.SendTemplateRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -347,13 +345,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### DeliveryPriorityCode Options
+#### DeliveryPriorityCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Low|
-|1|Normal|
-|2|High|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Low||
+|1|Normal||
+|2|High||
 
 
 
@@ -369,14 +367,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### DeliveryReceiptRequested Options
+#### DeliveryReceiptRequested Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -408,14 +406,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### DirectionCode Options
+#### DirectionCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Outgoing|
-|0|Incoming|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Outgoing||
+|0|Incoming||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -462,13 +460,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### EmailReminderType Options
+#### EmailReminderType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|If I do not receive a reply by|
-|1|If the email is not opened by|
-|2|Remind me anyways at|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|If I do not receive a reply by||
+|1|If the email is not opened by||
+|2|Remind me anyways at||
 
 
 
@@ -515,14 +513,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### FollowEmailUserPreference Options
+#### FollowEmailUserPreference Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|True|
-|0|False|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|True||
+|0|False||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -569,14 +567,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsBilled Options
+#### IsBilled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -592,14 +590,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsWorkflowCreated Options
+#### IsWorkflowCreated Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -707,13 +705,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Notifications Options
+#### Notifications Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|None|
-|1|The message was saved as a Microsoft Dynamics 365 email record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.|
-|2|Truncated body.|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|None||
+|1|The message was saved as a Microsoft Dynamics 365 email record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.||
+|2|Truncated body.||
 
 
 
@@ -804,13 +802,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PriorityCode Options
+#### PriorityCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Low|
-|1|Normal|
-|2|High|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Low||
+|1|Normal||
+|2|High||
 
 
 
@@ -839,14 +837,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### ReadReceiptRequested Options
+#### ReadReceiptRequested Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -860,7 +858,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,asyncoperation,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_fieldservicesetting,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_playbookinstance,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,quote,salesorder,site|
+|Targets|account,asyncoperation,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_postalbum,opportunity,quote,salesorder,site|
 |Type|Lookup|
 
 
@@ -1003,7 +1001,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Shows the ID of the stage.|
-|DisplayName|(Deprecated) Process Stage|
+|DisplayName|Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -1024,7 +1022,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -1046,7 +1044,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -1088,7 +1086,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|subject|
-|MaxLength|400|
+|MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
 
@@ -1204,7 +1202,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -1334,14 +1332,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### Compressed Options
+#### Compressed Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Compressed|
-|0|Not compressed|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Compressed||
+|0|Not compressed||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1373,18 +1371,18 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### CorrelationMethod Options
+#### CorrelationMethod Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|None|
-|1|Skipped|
-|2|XHeader|
-|3|InReplyTo|
-|4|TrackingToken|
-|5|ConversationIndex|
-|6|SmartMatching|
-|7|CustomCorrelation|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|None||
+|1|Skipped||
+|2|XHeader||
+|3|InReplyTo||
+|4|TrackingToken||
+|5|ConversationIndex||
+|6|SmartMatching||
+|7|CustomCorrelation||
 
 
 
@@ -1507,14 +1505,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### EmailReminderStatus Options
+#### EmailReminderStatus Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|NotSet|
-|1|ReminderSet|
-|2|ReminderExpired|
-|3|ReminderInvalid|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|NotSet||
+|1|ReminderSet||
+|2|ReminderExpired||
+|3|ReminderInvalid||
 
 
 
@@ -1605,14 +1603,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsEmailFollowed Options
+#### IsEmailFollowed Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1628,14 +1626,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsEmailReminderSet Options
+#### IsEmailReminderSet Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1651,14 +1649,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsRegularActivity Options
+#### IsRegularActivity Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -2213,7 +2211,7 @@ Listed by **SchemaName**.
 
 **Added by**: Marketing Solution
 
-Same as campaignresponse entity [email_campaignresponse](campaignresponse.md#BKMK_email_campaignresponse) Many-To-One relationship.
+Same as the [email_campaignresponse](campaignresponse.md#BKMK_email_campaignresponse) many-to-one relationship for the [campaignresponse](campaignresponse.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2228,7 +2226,7 @@ Same as campaignresponse entity [email_campaignresponse](campaignresponse.md#BKM
 
 ### <a name="BKMK_email_actioncard"></a> email_actioncard
 
-Same as actioncard entity [email_actioncard](actioncard.md#BKMK_email_actioncard) Many-To-One relationship.
+Same as the [email_actioncard](actioncard.md#BKMK_email_actioncard) many-to-one relationship for the [actioncard](actioncard.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2243,7 +2241,7 @@ Same as actioncard entity [email_actioncard](actioncard.md#BKMK_email_actioncard
 
 ### <a name="BKMK_email_activity_parties"></a> email_activity_parties
 
-Same as activityparty entity [email_activity_parties](activityparty.md#BKMK_email_activity_parties) Many-To-One relationship.
+Same as the [email_activity_parties](activityparty.md#BKMK_email_activity_parties) many-to-one relationship for the [activityparty](activityparty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2258,7 +2256,7 @@ Same as activityparty entity [email_activity_parties](activityparty.md#BKMK_emai
 
 ### <a name="BKMK_Email_DuplicateMatchingRecord"></a> Email_DuplicateMatchingRecord
 
-Same as duplicaterecord entity [Email_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Email_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [Email_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Email_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2273,7 +2271,7 @@ Same as duplicaterecord entity [Email_DuplicateMatchingRecord](duplicaterecord.m
 
 ### <a name="BKMK_Email_SyncErrors"></a> Email_SyncErrors
 
-Same as syncerror entity [Email_SyncErrors](syncerror.md#BKMK_Email_SyncErrors) Many-To-One relationship.
+Same as the [Email_SyncErrors](syncerror.md#BKMK_Email_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2288,7 +2286,7 @@ Same as syncerror entity [Email_SyncErrors](syncerror.md#BKMK_Email_SyncErrors) 
 
 ### <a name="BKMK_Email_DuplicateBaseRecord"></a> Email_DuplicateBaseRecord
 
-Same as duplicaterecord entity [Email_DuplicateBaseRecord](duplicaterecord.md#BKMK_Email_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [Email_DuplicateBaseRecord](duplicaterecord.md#BKMK_Email_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2303,7 +2301,7 @@ Same as duplicaterecord entity [Email_DuplicateBaseRecord](duplicaterecord.md#BK
 
 ### <a name="BKMK_Email_AsyncOperations"></a> Email_AsyncOperations
 
-Same as asyncoperation entity [Email_AsyncOperations](asyncoperation.md#BKMK_Email_AsyncOperations) Many-To-One relationship.
+Same as the [Email_AsyncOperations](asyncoperation.md#BKMK_Email_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2318,7 +2316,7 @@ Same as asyncoperation entity [Email_AsyncOperations](asyncoperation.md#BKMK_Ema
 
 ### <a name="BKMK_Email_ProcessSessions"></a> Email_ProcessSessions
 
-Same as processsession entity [Email_ProcessSessions](processsession.md#BKMK_Email_ProcessSessions) Many-To-One relationship.
+Same as the [Email_ProcessSessions](processsession.md#BKMK_Email_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2333,7 +2331,7 @@ Same as processsession entity [Email_ProcessSessions](processsession.md#BKMK_Ema
 
 ### <a name="BKMK_slakpiinstance_email"></a> slakpiinstance_email
 
-Same as slakpiinstance entity [slakpiinstance_email](slakpiinstance.md#BKMK_slakpiinstance_email) Many-To-One relationship.
+Same as the [slakpiinstance_email](slakpiinstance.md#BKMK_slakpiinstance_email) many-to-one relationship for the [slakpiinstance](slakpiinstance.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2348,7 +2346,7 @@ Same as slakpiinstance entity [slakpiinstance_email](slakpiinstance.md#BKMK_slak
 
 ### <a name="BKMK_Email_Annotation"></a> Email_Annotation
 
-Same as annotation entity [Email_Annotation](annotation.md#BKMK_Email_Annotation) Many-To-One relationship.
+Same as the [Email_Annotation](annotation.md#BKMK_Email_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2363,7 +2361,7 @@ Same as annotation entity [Email_Annotation](annotation.md#BKMK_Email_Annotation
 
 ### <a name="BKMK_email_activity_mime_attachment"></a> email_activity_mime_attachment
 
-Same as activitymimeattachment entity [email_activity_mime_attachment](activitymimeattachment.md#BKMK_email_activity_mime_attachment) Many-To-One relationship.
+Same as the [email_activity_mime_attachment](activitymimeattachment.md#BKMK_email_activity_mime_attachment) many-to-one relationship for the [activitymimeattachment](activitymimeattachment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2378,7 +2376,7 @@ Same as activitymimeattachment entity [email_activity_mime_attachment](activitym
 
 ### <a name="BKMK_email_email_parentactivityid"></a> email_email_parentactivityid
 
-Same as email entity [email_email_parentactivityid](email.md#BKMK_email_email_parentactivityid) Many-To-One relationship.
+Same as the [email_email_parentactivityid](email.md#BKMK_email_email_parentactivityid) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2393,7 +2391,7 @@ Same as email entity [email_email_parentactivityid](email.md#BKMK_email_email_pa
 
 ### <a name="BKMK_email_principalobjectattributeaccess"></a> email_principalobjectattributeaccess
 
-Same as principalobjectattributeaccess entity [email_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_email_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [email_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_email_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2408,7 +2406,7 @@ Same as principalobjectattributeaccess entity [email_principalobjectattributeacc
 
 ### <a name="BKMK_Email_BulkDeleteFailures"></a> Email_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [Email_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Email_BulkDeleteFailures) Many-To-One relationship.
+Same as the [Email_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Email_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2423,7 +2421,7 @@ Same as bulkdeletefailure entity [Email_BulkDeleteFailures](bulkdeletefailure.md
 
 ### <a name="BKMK_email_connections1"></a> email_connections1
 
-Same as connection entity [email_connections1](connection.md#BKMK_email_connections1) Many-To-One relationship.
+Same as the [email_connections1](connection.md#BKMK_email_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2438,7 +2436,7 @@ Same as connection entity [email_connections1](connection.md#BKMK_email_connecti
 
 ### <a name="BKMK_email_connections2"></a> email_connections2
 
-Same as connection entity [email_connections2](connection.md#BKMK_email_connections2) Many-To-One relationship.
+Same as the [email_connections2](connection.md#BKMK_email_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2453,7 +2451,7 @@ Same as connection entity [email_connections2](connection.md#BKMK_email_connecti
 
 ### <a name="BKMK_Email_QueueItem"></a> Email_QueueItem
 
-Same as queueitem entity [Email_QueueItem](queueitem.md#BKMK_Email_QueueItem) Many-To-One relationship.
+Same as the [Email_QueueItem](queueitem.md#BKMK_Email_QueueItem) many-to-one relationship for the [queueitem](queueitem.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2485,74 +2483,11 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [site_Emails](#BKMK_site_Emails)
 - [Equipment_Email_EmailSender](#BKMK_Equipment_Email_EmailSender)
 - [service_emails](#BKMK_service_emails)
-- [msdyn_playbookinstance_Emails](#BKMK_msdyn_playbookinstance_Emails)
 - [Invoice_Emails](#BKMK_Invoice_Emails)
 - [Opportunity_Emails](#BKMK_Opportunity_Emails)
 - [Quote_Emails](#BKMK_Quote_Emails)
 - [SalesOrder_Emails](#BKMK_SalesOrder_Emails)
 - [msdyn_postalbum_Emails](#BKMK_msdyn_postalbum_Emails)
-- [msdyn_bookingalertstatus_Emails](#BKMK_msdyn_bookingalertstatus_Emails)
-- [msdyn_bookingrule_Emails](#BKMK_msdyn_bookingrule_Emails)
-- [msdyn_resourceterritory_Emails](#BKMK_msdyn_resourceterritory_Emails)
-- [msdyn_systemuserschedulersetting_Emails](#BKMK_msdyn_systemuserschedulersetting_Emails)
-- [msdyn_timegroup_Emails](#BKMK_msdyn_timegroup_Emails)
-- [msdyn_timegroupdetail_Emails](#BKMK_msdyn_timegroupdetail_Emails)
-- [msdyn_processnotes_Emails](#BKMK_msdyn_processnotes_Emails)
-- [msdyn_projectteam_Emails](#BKMK_msdyn_projectteam_Emails)
-- [msdyn_agreement_Emails](#BKMK_msdyn_agreement_Emails)
-- [msdyn_agreementbookingdate_Emails](#BKMK_msdyn_agreementbookingdate_Emails)
-- [msdyn_agreementbookingincident_Emails](#BKMK_msdyn_agreementbookingincident_Emails)
-- [msdyn_agreementbookingproduct_Emails](#BKMK_msdyn_agreementbookingproduct_Emails)
-- [msdyn_agreementbookingservice_Emails](#BKMK_msdyn_agreementbookingservice_Emails)
-- [msdyn_agreementbookingservicetask_Emails](#BKMK_msdyn_agreementbookingservicetask_Emails)
-- [msdyn_agreementbookingsetup_Emails](#BKMK_msdyn_agreementbookingsetup_Emails)
-- [msdyn_agreementinvoicedate_Emails](#BKMK_msdyn_agreementinvoicedate_Emails)
-- [msdyn_agreementinvoiceproduct_Emails](#BKMK_msdyn_agreementinvoiceproduct_Emails)
-- [msdyn_agreementinvoicesetup_Emails](#BKMK_msdyn_agreementinvoicesetup_Emails)
-- [msdyn_bookingtimestamp_Emails](#BKMK_msdyn_bookingtimestamp_Emails)
-- [msdyn_customerasset_Emails](#BKMK_msdyn_customerasset_Emails)
-- [msdyn_fieldservicesetting_Emails](#BKMK_msdyn_fieldservicesetting_Emails)
-- [msdyn_incidenttypecharacteristic_Emails](#BKMK_msdyn_incidenttypecharacteristic_Emails)
-- [msdyn_incidenttypeproduct_Emails](#BKMK_msdyn_incidenttypeproduct_Emails)
-- [msdyn_incidenttypeservice_Emails](#BKMK_msdyn_incidenttypeservice_Emails)
-- [msdyn_inventoryadjustment_Emails](#BKMK_msdyn_inventoryadjustment_Emails)
-- [msdyn_inventoryadjustmentproduct_Emails](#BKMK_msdyn_inventoryadjustmentproduct_Emails)
-- [msdyn_inventoryjournal_Emails](#BKMK_msdyn_inventoryjournal_Emails)
-- [msdyn_inventorytransfer_Emails](#BKMK_msdyn_inventorytransfer_Emails)
-- [msdyn_payment_Emails](#BKMK_msdyn_payment_Emails)
-- [msdyn_paymentdetail_Emails](#BKMK_msdyn_paymentdetail_Emails)
-- [msdyn_paymentmethod_Emails](#BKMK_msdyn_paymentmethod_Emails)
-- [msdyn_paymentterm_Emails](#BKMK_msdyn_paymentterm_Emails)
-- [msdyn_postalcode_Emails](#BKMK_msdyn_postalcode_Emails)
-- [msdyn_productinventory_Emails](#BKMK_msdyn_productinventory_Emails)
-- [msdyn_purchaseorder_Emails](#BKMK_msdyn_purchaseorder_Emails)
-- [msdyn_purchaseorderbill_Emails](#BKMK_msdyn_purchaseorderbill_Emails)
-- [msdyn_purchaseorderproduct_Emails](#BKMK_msdyn_purchaseorderproduct_Emails)
-- [msdyn_purchaseorderreceipt_Emails](#BKMK_msdyn_purchaseorderreceipt_Emails)
-- [msdyn_purchaseorderreceiptproduct_Emails](#BKMK_msdyn_purchaseorderreceiptproduct_Emails)
-- [msdyn_purchaseordersubstatus_Emails](#BKMK_msdyn_purchaseordersubstatus_Emails)
-- [msdyn_quotebookingincident_Emails](#BKMK_msdyn_quotebookingincident_Emails)
-- [msdyn_quotebookingproduct_Emails](#BKMK_msdyn_quotebookingproduct_Emails)
-- [msdyn_quotebookingservice_Emails](#BKMK_msdyn_quotebookingservice_Emails)
-- [msdyn_quotebookingservicetask_Emails](#BKMK_msdyn_quotebookingservicetask_Emails)
-- [msdyn_rma_Emails](#BKMK_msdyn_rma_Emails)
-- [msdyn_rmaproduct_Emails](#BKMK_msdyn_rmaproduct_Emails)
-- [msdyn_rmareceipt_Emails](#BKMK_msdyn_rmareceipt_Emails)
-- [msdyn_rmareceiptproduct_Emails](#BKMK_msdyn_rmareceiptproduct_Emails)
-- [msdyn_rmasubstatus_Emails](#BKMK_msdyn_rmasubstatus_Emails)
-- [msdyn_rtv_Emails](#BKMK_msdyn_rtv_Emails)
-- [msdyn_rtvproduct_Emails](#BKMK_msdyn_rtvproduct_Emails)
-- [msdyn_rtvsubstatus_Emails](#BKMK_msdyn_rtvsubstatus_Emails)
-- [msdyn_shipvia_Emails](#BKMK_msdyn_shipvia_Emails)
-- [msdyn_timeoffrequest_Emails](#BKMK_msdyn_timeoffrequest_Emails)
-- [msdyn_warehouse_Emails](#BKMK_msdyn_warehouse_Emails)
-- [msdyn_workorder_Emails](#BKMK_msdyn_workorder_Emails)
-- [msdyn_workordercharacteristic_Emails](#BKMK_msdyn_workordercharacteristic_Emails)
-- [msdyn_workorderincident_Emails](#BKMK_msdyn_workorderincident_Emails)
-- [msdyn_workorderproduct_Emails](#BKMK_msdyn_workorderproduct_Emails)
-- [msdyn_workorderresourcerestriction_Emails](#BKMK_msdyn_workorderresourcerestriction_Emails)
-- [msdyn_workorderservice_Emails](#BKMK_msdyn_workorderservice_Emails)
-- [msdyn_workorderservicetask_Emails](#BKMK_msdyn_workorderservicetask_Emails)
 - [KnowledgeBaseRecord_Emails](#BKMK_KnowledgeBaseRecord_Emails)
 - [lk_email_modifiedby](#BKMK_lk_email_modifiedby)
 - [Account_Email_SendersAccount](#BKMK_Account_Email_SendersAccount)
@@ -2584,599 +2519,217 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Lead Management Solution
 
-See lead Entity [Lead_Emails](lead.md#BKMK_Lead_Emails) One-To-Many relationship.
+See the [Lead_Emails](lead.md#BKMK_Lead_Emails) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_Lead_Email_EmailSender"></a> Lead_Email_EmailSender
 
 **Added by**: Lead Management Solution
 
-See lead Entity [Lead_Email_EmailSender](lead.md#BKMK_Lead_Email_EmailSender) One-To-Many relationship.
+See the [Lead_Email_EmailSender](lead.md#BKMK_Lead_Email_EmailSender) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_bookableresourcebooking_Emails"></a> bookableresourcebooking_Emails
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebooking Entity [bookableresourcebooking_Emails](bookableresourcebooking.md#BKMK_bookableresourcebooking_Emails) One-To-Many relationship.
+See the [bookableresourcebooking_Emails](bookableresourcebooking.md#BKMK_bookableresourcebooking_Emails) one-to-many relationship for the [bookableresourcebooking](bookableresourcebooking.md) entity.
 
 ### <a name="BKMK_bookableresourcebookingheader_Emails"></a> bookableresourcebookingheader_Emails
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebookingheader Entity [bookableresourcebookingheader_Emails](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_Emails) One-To-Many relationship.
+See the [bookableresourcebookingheader_Emails](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_Emails) one-to-many relationship for the [bookableresourcebookingheader](bookableresourcebookingheader.md) entity.
 
 ### <a name="BKMK_BulkOperation_Email"></a> BulkOperation_Email
 
 **Added by**: Marketing Solution
 
-See bulkoperation Entity [BulkOperation_Email](bulkoperation.md#BKMK_BulkOperation_Email) One-To-Many relationship.
+See the [BulkOperation_Email](bulkoperation.md#BKMK_BulkOperation_Email) one-to-many relationship for the [bulkoperation](bulkoperation.md) entity.
 
 ### <a name="BKMK_Campaign_Emails"></a> Campaign_Emails
 
 **Added by**: Marketing Solution
 
-See campaign Entity [Campaign_Emails](campaign.md#BKMK_Campaign_Emails) One-To-Many relationship.
+See the [Campaign_Emails](campaign.md#BKMK_Campaign_Emails) one-to-many relationship for the [campaign](campaign.md) entity.
 
 ### <a name="BKMK_CampaignActivity_Emails"></a> CampaignActivity_Emails
 
 **Added by**: Marketing Solution
 
-See campaignactivity Entity [CampaignActivity_Emails](campaignactivity.md#BKMK_CampaignActivity_Emails) One-To-Many relationship.
+See the [CampaignActivity_Emails](campaignactivity.md#BKMK_CampaignActivity_Emails) one-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_Contract_Emails"></a> Contract_Emails
 
 **Added by**: Service Solution
 
-See contract Entity [Contract_Emails](contract.md#BKMK_Contract_Emails) One-To-Many relationship.
+See the [Contract_Emails](contract.md#BKMK_Contract_Emails) one-to-many relationship for the [contract](contract.md) entity.
 
 ### <a name="BKMK_entitlement_Emails"></a> entitlement_Emails
 
 **Added by**: Service Solution
 
-See entitlement Entity [entitlement_Emails](entitlement.md#BKMK_entitlement_Emails) One-To-Many relationship.
+See the [entitlement_Emails](entitlement.md#BKMK_entitlement_Emails) one-to-many relationship for the [entitlement](entitlement.md) entity.
 
 ### <a name="BKMK_entitlementtemplate_Emails"></a> entitlementtemplate_Emails
 
 **Added by**: Service Solution
 
-See entitlementtemplate Entity [entitlementtemplate_Emails](entitlementtemplate.md#BKMK_entitlementtemplate_Emails) One-To-Many relationship.
+See the [entitlementtemplate_Emails](entitlementtemplate.md#BKMK_entitlementtemplate_Emails) one-to-many relationship for the [entitlementtemplate](entitlementtemplate.md) entity.
 
 ### <a name="BKMK_Incident_Emails"></a> Incident_Emails
 
 **Added by**: Service Solution
 
-See incident Entity [Incident_Emails](incident.md#BKMK_Incident_Emails) One-To-Many relationship.
+See the [Incident_Emails](incident.md#BKMK_Incident_Emails) one-to-many relationship for the [incident](incident.md) entity.
 
 ### <a name="BKMK_site_Emails"></a> site_Emails
 
 **Added by**: Service Solution
 
-See site Entity [site_Emails](site.md#BKMK_site_Emails) One-To-Many relationship.
+See the [site_Emails](site.md#BKMK_site_Emails) one-to-many relationship for the [site](site.md) entity.
 
 ### <a name="BKMK_Equipment_Email_EmailSender"></a> Equipment_Email_EmailSender
 
 **Added by**: Service Solution
 
-See equipment Entity [Equipment_Email_EmailSender](equipment.md#BKMK_Equipment_Email_EmailSender) One-To-Many relationship.
+See the [Equipment_Email_EmailSender](equipment.md#BKMK_Equipment_Email_EmailSender) one-to-many relationship for the [equipment](equipment.md) entity.
 
 ### <a name="BKMK_service_emails"></a> service_emails
 
 **Added by**: Service Solution
 
-See service Entity [service_emails](service.md#BKMK_service_emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_playbookinstance_Emails"></a> msdyn_playbookinstance_Emails
-
-**Added by**: Playbook Solution
-
-See msdyn_playbookinstance Entity [msdyn_playbookinstance_Emails](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_Emails) One-To-Many relationship.
+See the [service_emails](service.md#BKMK_service_emails) one-to-many relationship for the [service](service.md) entity.
 
 ### <a name="BKMK_Invoice_Emails"></a> Invoice_Emails
 
 **Added by**: Sales Solution
 
-See invoice Entity [Invoice_Emails](invoice.md#BKMK_Invoice_Emails) One-To-Many relationship.
+See the [Invoice_Emails](invoice.md#BKMK_Invoice_Emails) one-to-many relationship for the [invoice](invoice.md) entity.
 
 ### <a name="BKMK_Opportunity_Emails"></a> Opportunity_Emails
 
 **Added by**: Sales Solution
 
-See opportunity Entity [Opportunity_Emails](opportunity.md#BKMK_Opportunity_Emails) One-To-Many relationship.
+See the [Opportunity_Emails](opportunity.md#BKMK_Opportunity_Emails) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_Quote_Emails"></a> Quote_Emails
 
 **Added by**: Sales Solution
 
-See quote Entity [Quote_Emails](quote.md#BKMK_Quote_Emails) One-To-Many relationship.
+See the [Quote_Emails](quote.md#BKMK_Quote_Emails) one-to-many relationship for the [quote](quote.md) entity.
 
 ### <a name="BKMK_SalesOrder_Emails"></a> SalesOrder_Emails
 
 **Added by**: Sales Solution
 
-See salesorder Entity [SalesOrder_Emails](salesorder.md#BKMK_SalesOrder_Emails) One-To-Many relationship.
+See the [SalesOrder_Emails](salesorder.md#BKMK_SalesOrder_Emails) one-to-many relationship for the [salesorder](salesorder.md) entity.
 
 ### <a name="BKMK_msdyn_postalbum_Emails"></a> msdyn_postalbum_Emails
 
 **Added by**: Activity Feeds Solution
 
-See msdyn_postalbum Entity [msdyn_postalbum_Emails](msdyn_postalbum.md#BKMK_msdyn_postalbum_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingalertstatus_Emails"></a> msdyn_bookingalertstatus_Emails
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingalertstatus Entity [msdyn_bookingalertstatus_Emails](msdyn_bookingalertstatus.md#BKMK_msdyn_bookingalertstatus_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingrule_Emails"></a> msdyn_bookingrule_Emails
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingrule Entity [msdyn_bookingrule_Emails](msdyn_bookingrule.md#BKMK_msdyn_bookingrule_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourceterritory_Emails"></a> msdyn_resourceterritory_Emails
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_resourceterritory Entity [msdyn_resourceterritory_Emails](msdyn_resourceterritory.md#BKMK_msdyn_resourceterritory_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_systemuserschedulersetting_Emails"></a> msdyn_systemuserschedulersetting_Emails
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_systemuserschedulersetting Entity [msdyn_systemuserschedulersetting_Emails](msdyn_systemuserschedulersetting.md#BKMK_msdyn_systemuserschedulersetting_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroup_Emails"></a> msdyn_timegroup_Emails
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroup Entity [msdyn_timegroup_Emails](msdyn_timegroup.md#BKMK_msdyn_timegroup_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroupdetail_Emails"></a> msdyn_timegroupdetail_Emails
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroupdetail Entity [msdyn_timegroupdetail_Emails](msdyn_timegroupdetail.md#BKMK_msdyn_timegroupdetail_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_processnotes_Emails"></a> msdyn_processnotes_Emails
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_processnotes Entity [msdyn_processnotes_Emails](msdyn_processnotes.md#BKMK_msdyn_processnotes_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projectteam_Emails"></a> msdyn_projectteam_Emails
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projectteam Entity [msdyn_projectteam_Emails](msdyn_projectteam.md#BKMK_msdyn_projectteam_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreement_Emails"></a> msdyn_agreement_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_agreement Entity [msdyn_agreement_Emails](msdyn_agreement.md#BKMK_msdyn_agreement_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingdate_Emails"></a> msdyn_agreementbookingdate_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingdate Entity [msdyn_agreementbookingdate_Emails](msdyn_agreementbookingdate.md#BKMK_msdyn_agreementbookingdate_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingincident_Emails"></a> msdyn_agreementbookingincident_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingincident Entity [msdyn_agreementbookingincident_Emails](msdyn_agreementbookingincident.md#BKMK_msdyn_agreementbookingincident_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingproduct_Emails"></a> msdyn_agreementbookingproduct_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingproduct Entity [msdyn_agreementbookingproduct_Emails](msdyn_agreementbookingproduct.md#BKMK_msdyn_agreementbookingproduct_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingservice_Emails"></a> msdyn_agreementbookingservice_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingservice Entity [msdyn_agreementbookingservice_Emails](msdyn_agreementbookingservice.md#BKMK_msdyn_agreementbookingservice_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingservicetask_Emails"></a> msdyn_agreementbookingservicetask_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingservicetask Entity [msdyn_agreementbookingservicetask_Emails](msdyn_agreementbookingservicetask.md#BKMK_msdyn_agreementbookingservicetask_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingsetup_Emails"></a> msdyn_agreementbookingsetup_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingsetup Entity [msdyn_agreementbookingsetup_Emails](msdyn_agreementbookingsetup.md#BKMK_msdyn_agreementbookingsetup_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicedate_Emails"></a> msdyn_agreementinvoicedate_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicedate Entity [msdyn_agreementinvoicedate_Emails](msdyn_agreementinvoicedate.md#BKMK_msdyn_agreementinvoicedate_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoiceproduct_Emails"></a> msdyn_agreementinvoiceproduct_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoiceproduct Entity [msdyn_agreementinvoiceproduct_Emails](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_agreementinvoiceproduct_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicesetup_Emails"></a> msdyn_agreementinvoicesetup_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicesetup Entity [msdyn_agreementinvoicesetup_Emails](msdyn_agreementinvoicesetup.md#BKMK_msdyn_agreementinvoicesetup_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingtimestamp_Emails"></a> msdyn_bookingtimestamp_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_bookingtimestamp Entity [msdyn_bookingtimestamp_Emails](msdyn_bookingtimestamp.md#BKMK_msdyn_bookingtimestamp_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_customerasset_Emails"></a> msdyn_customerasset_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_customerasset Entity [msdyn_customerasset_Emails](msdyn_customerasset.md#BKMK_msdyn_customerasset_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_fieldservicesetting_Emails"></a> msdyn_fieldservicesetting_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_fieldservicesetting Entity [msdyn_fieldservicesetting_Emails](msdyn_fieldservicesetting.md#BKMK_msdyn_fieldservicesetting_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypecharacteristic_Emails"></a> msdyn_incidenttypecharacteristic_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypecharacteristic Entity [msdyn_incidenttypecharacteristic_Emails](msdyn_incidenttypecharacteristic.md#BKMK_msdyn_incidenttypecharacteristic_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypeproduct_Emails"></a> msdyn_incidenttypeproduct_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypeproduct Entity [msdyn_incidenttypeproduct_Emails](msdyn_incidenttypeproduct.md#BKMK_msdyn_incidenttypeproduct_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypeservice_Emails"></a> msdyn_incidenttypeservice_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypeservice Entity [msdyn_incidenttypeservice_Emails](msdyn_incidenttypeservice.md#BKMK_msdyn_incidenttypeservice_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryadjustment_Emails"></a> msdyn_inventoryadjustment_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryadjustment Entity [msdyn_inventoryadjustment_Emails](msdyn_inventoryadjustment.md#BKMK_msdyn_inventoryadjustment_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryadjustmentproduct_Emails"></a> msdyn_inventoryadjustmentproduct_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryadjustmentproduct Entity [msdyn_inventoryadjustmentproduct_Emails](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_inventoryadjustmentproduct_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryjournal_Emails"></a> msdyn_inventoryjournal_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryjournal Entity [msdyn_inventoryjournal_Emails](msdyn_inventoryjournal.md#BKMK_msdyn_inventoryjournal_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventorytransfer_Emails"></a> msdyn_inventorytransfer_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_inventorytransfer Entity [msdyn_inventorytransfer_Emails](msdyn_inventorytransfer.md#BKMK_msdyn_inventorytransfer_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_payment_Emails"></a> msdyn_payment_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_payment Entity [msdyn_payment_Emails](msdyn_payment.md#BKMK_msdyn_payment_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentdetail_Emails"></a> msdyn_paymentdetail_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentdetail Entity [msdyn_paymentdetail_Emails](msdyn_paymentdetail.md#BKMK_msdyn_paymentdetail_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentmethod_Emails"></a> msdyn_paymentmethod_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentmethod Entity [msdyn_paymentmethod_Emails](msdyn_paymentmethod.md#BKMK_msdyn_paymentmethod_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentterm_Emails"></a> msdyn_paymentterm_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentterm Entity [msdyn_paymentterm_Emails](msdyn_paymentterm.md#BKMK_msdyn_paymentterm_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_postalcode_Emails"></a> msdyn_postalcode_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_postalcode Entity [msdyn_postalcode_Emails](msdyn_postalcode.md#BKMK_msdyn_postalcode_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_productinventory_Emails"></a> msdyn_productinventory_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_productinventory Entity [msdyn_productinventory_Emails](msdyn_productinventory.md#BKMK_msdyn_productinventory_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorder_Emails"></a> msdyn_purchaseorder_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorder Entity [msdyn_purchaseorder_Emails](msdyn_purchaseorder.md#BKMK_msdyn_purchaseorder_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderbill_Emails"></a> msdyn_purchaseorderbill_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderbill Entity [msdyn_purchaseorderbill_Emails](msdyn_purchaseorderbill.md#BKMK_msdyn_purchaseorderbill_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderproduct_Emails"></a> msdyn_purchaseorderproduct_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderproduct Entity [msdyn_purchaseorderproduct_Emails](msdyn_purchaseorderproduct.md#BKMK_msdyn_purchaseorderproduct_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderreceipt_Emails"></a> msdyn_purchaseorderreceipt_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderreceipt Entity [msdyn_purchaseorderreceipt_Emails](msdyn_purchaseorderreceipt.md#BKMK_msdyn_purchaseorderreceipt_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderreceiptproduct_Emails"></a> msdyn_purchaseorderreceiptproduct_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderreceiptproduct Entity [msdyn_purchaseorderreceiptproduct_Emails](msdyn_purchaseorderreceiptproduct.md#BKMK_msdyn_purchaseorderreceiptproduct_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseordersubstatus_Emails"></a> msdyn_purchaseordersubstatus_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseordersubstatus Entity [msdyn_purchaseordersubstatus_Emails](msdyn_purchaseordersubstatus.md#BKMK_msdyn_purchaseordersubstatus_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingincident_Emails"></a> msdyn_quotebookingincident_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingincident Entity [msdyn_quotebookingincident_Emails](msdyn_quotebookingincident.md#BKMK_msdyn_quotebookingincident_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingproduct_Emails"></a> msdyn_quotebookingproduct_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingproduct Entity [msdyn_quotebookingproduct_Emails](msdyn_quotebookingproduct.md#BKMK_msdyn_quotebookingproduct_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingservice_Emails"></a> msdyn_quotebookingservice_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingservice Entity [msdyn_quotebookingservice_Emails](msdyn_quotebookingservice.md#BKMK_msdyn_quotebookingservice_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingservicetask_Emails"></a> msdyn_quotebookingservicetask_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingservicetask Entity [msdyn_quotebookingservicetask_Emails](msdyn_quotebookingservicetask.md#BKMK_msdyn_quotebookingservicetask_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rma_Emails"></a> msdyn_rma_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_rma Entity [msdyn_rma_Emails](msdyn_rma.md#BKMK_msdyn_rma_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmaproduct_Emails"></a> msdyn_rmaproduct_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_rmaproduct Entity [msdyn_rmaproduct_Emails](msdyn_rmaproduct.md#BKMK_msdyn_rmaproduct_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmareceipt_Emails"></a> msdyn_rmareceipt_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_rmareceipt Entity [msdyn_rmareceipt_Emails](msdyn_rmareceipt.md#BKMK_msdyn_rmareceipt_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmareceiptproduct_Emails"></a> msdyn_rmareceiptproduct_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_rmareceiptproduct Entity [msdyn_rmareceiptproduct_Emails](msdyn_rmareceiptproduct.md#BKMK_msdyn_rmareceiptproduct_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmasubstatus_Emails"></a> msdyn_rmasubstatus_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_rmasubstatus Entity [msdyn_rmasubstatus_Emails](msdyn_rmasubstatus.md#BKMK_msdyn_rmasubstatus_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtv_Emails"></a> msdyn_rtv_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_rtv Entity [msdyn_rtv_Emails](msdyn_rtv.md#BKMK_msdyn_rtv_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtvproduct_Emails"></a> msdyn_rtvproduct_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_rtvproduct Entity [msdyn_rtvproduct_Emails](msdyn_rtvproduct.md#BKMK_msdyn_rtvproduct_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtvsubstatus_Emails"></a> msdyn_rtvsubstatus_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_rtvsubstatus Entity [msdyn_rtvsubstatus_Emails](msdyn_rtvsubstatus.md#BKMK_msdyn_rtvsubstatus_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_shipvia_Emails"></a> msdyn_shipvia_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_shipvia Entity [msdyn_shipvia_Emails](msdyn_shipvia.md#BKMK_msdyn_shipvia_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timeoffrequest_Emails"></a> msdyn_timeoffrequest_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_timeoffrequest Entity [msdyn_timeoffrequest_Emails](msdyn_timeoffrequest.md#BKMK_msdyn_timeoffrequest_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_warehouse_Emails"></a> msdyn_warehouse_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_warehouse Entity [msdyn_warehouse_Emails](msdyn_warehouse.md#BKMK_msdyn_warehouse_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorder_Emails"></a> msdyn_workorder_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_workorder Entity [msdyn_workorder_Emails](msdyn_workorder.md#BKMK_msdyn_workorder_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workordercharacteristic_Emails"></a> msdyn_workordercharacteristic_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_workordercharacteristic Entity [msdyn_workordercharacteristic_Emails](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderincident_Emails"></a> msdyn_workorderincident_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderincident Entity [msdyn_workorderincident_Emails](msdyn_workorderincident.md#BKMK_msdyn_workorderincident_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderproduct_Emails"></a> msdyn_workorderproduct_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderproduct Entity [msdyn_workorderproduct_Emails](msdyn_workorderproduct.md#BKMK_msdyn_workorderproduct_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderresourcerestriction_Emails"></a> msdyn_workorderresourcerestriction_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderresourcerestriction Entity [msdyn_workorderresourcerestriction_Emails](msdyn_workorderresourcerestriction.md#BKMK_msdyn_workorderresourcerestriction_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservice_Emails"></a> msdyn_workorderservice_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservice Entity [msdyn_workorderservice_Emails](msdyn_workorderservice.md#BKMK_msdyn_workorderservice_Emails) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservicetask_Emails"></a> msdyn_workorderservicetask_Emails
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_Emails](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_Emails) One-To-Many relationship.
+See the [msdyn_postalbum_Emails](msdyn_postalbum.md#BKMK_msdyn_postalbum_Emails) one-to-many relationship for the [msdyn_postalbum](msdyn_postalbum.md) entity.
 
 ### <a name="BKMK_KnowledgeBaseRecord_Emails"></a> KnowledgeBaseRecord_Emails
 
-See knowledgebaserecord Entity [KnowledgeBaseRecord_Emails](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_Emails) One-To-Many relationship.
+See the [KnowledgeBaseRecord_Emails](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_Emails) one-to-many relationship for the [knowledgebaserecord](knowledgebaserecord.md) entity.
 
 ### <a name="BKMK_lk_email_modifiedby"></a> lk_email_modifiedby
 
-See systemuser Entity [lk_email_modifiedby](systemuser.md#BKMK_lk_email_modifiedby) One-To-Many relationship.
+See the [lk_email_modifiedby](systemuser.md#BKMK_lk_email_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_Account_Email_SendersAccount"></a> Account_Email_SendersAccount
 
-See account Entity [Account_Email_SendersAccount](account.md#BKMK_Account_Email_SendersAccount) One-To-Many relationship.
+See the [Account_Email_SendersAccount](account.md#BKMK_Account_Email_SendersAccount) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_Email_EmailTemplate"></a> Email_EmailTemplate
 
-See template Entity [Email_EmailTemplate](template.md#BKMK_Email_EmailTemplate) One-To-Many relationship.
+See the [Email_EmailTemplate](template.md#BKMK_Email_EmailTemplate) one-to-many relationship for the [template](template.md) entity.
 
 ### <a name="BKMK_Queue_Email_EmailSender"></a> Queue_Email_EmailSender
 
-See queue Entity [Queue_Email_EmailSender](queue.md#BKMK_Queue_Email_EmailSender) One-To-Many relationship.
+See the [Queue_Email_EmailSender](queue.md#BKMK_Queue_Email_EmailSender) one-to-many relationship for the [queue](queue.md) entity.
 
 ### <a name="BKMK_Contact_Email_EmailSender"></a> Contact_Email_EmailSender
 
-See contact Entity [Contact_Email_EmailSender](contact.md#BKMK_Contact_Email_EmailSender) One-To-Many relationship.
+See the [Contact_Email_EmailSender](contact.md#BKMK_Contact_Email_EmailSender) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_Account_Email_EmailSender"></a> Account_Email_EmailSender
 
-See account Entity [Account_Email_EmailSender](account.md#BKMK_Account_Email_EmailSender) One-To-Many relationship.
+See the [Account_Email_EmailSender](account.md#BKMK_Account_Email_EmailSender) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_Email"></a> TransactionCurrency_Email
 
-See transactioncurrency Entity [TransactionCurrency_Email](transactioncurrency.md#BKMK_TransactionCurrency_Email) One-To-Many relationship.
+See the [TransactionCurrency_Email](transactioncurrency.md#BKMK_TransactionCurrency_Email) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_Contact_Emails"></a> Contact_Emails
 
-See contact Entity [Contact_Emails](contact.md#BKMK_Contact_Emails) One-To-Many relationship.
+See the [Contact_Emails](contact.md#BKMK_Contact_Emails) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_user_email"></a> user_email
 
-See systemuser Entity [user_email](systemuser.md#BKMK_user_email) One-To-Many relationship.
+See the [user_email](systemuser.md#BKMK_user_email) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_SystemUser_Email_EmailSender"></a> SystemUser_Email_EmailSender
 
-See systemuser Entity [SystemUser_Email_EmailSender](systemuser.md#BKMK_SystemUser_Email_EmailSender) One-To-Many relationship.
+See the [SystemUser_Email_EmailSender](systemuser.md#BKMK_SystemUser_Email_EmailSender) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_AsyncOperation_Emails"></a> AsyncOperation_Emails
 
-See asyncoperation Entity [AsyncOperation_Emails](asyncoperation.md#BKMK_AsyncOperation_Emails) One-To-Many relationship.
+See the [AsyncOperation_Emails](asyncoperation.md#BKMK_AsyncOperation_Emails) one-to-many relationship for the [asyncoperation](asyncoperation.md) entity.
 
 ### <a name="BKMK_lk_email_createdonbehalfby"></a> lk_email_createdonbehalfby
 
-See systemuser Entity [lk_email_createdonbehalfby](systemuser.md#BKMK_lk_email_createdonbehalfby) One-To-Many relationship.
+See the [lk_email_createdonbehalfby](systemuser.md#BKMK_lk_email_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_KnowledgeArticle_Emails"></a> KnowledgeArticle_Emails
 
-See knowledgearticle Entity [KnowledgeArticle_Emails](knowledgearticle.md#BKMK_KnowledgeArticle_Emails) One-To-Many relationship.
+See the [KnowledgeArticle_Emails](knowledgearticle.md#BKMK_KnowledgeArticle_Emails) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### <a name="BKMK_email_sendermailboxid_mailbox"></a> email_sendermailboxid_mailbox
 
-See mailbox Entity [email_sendermailboxid_mailbox](mailbox.md#BKMK_email_sendermailboxid_mailbox) One-To-Many relationship.
+See the [email_sendermailboxid_mailbox](mailbox.md#BKMK_email_sendermailboxid_mailbox) one-to-many relationship for the [mailbox](mailbox.md) entity.
 
 ### <a name="BKMK_activity_pointer_email"></a> activity_pointer_email
 
-See activitypointer Entity [activity_pointer_email](activitypointer.md#BKMK_activity_pointer_email) One-To-Many relationship.
+See the [activity_pointer_email](activitypointer.md#BKMK_activity_pointer_email) one-to-many relationship for the [activitypointer](activitypointer.md) entity.
 
 ### <a name="BKMK_lk_email_modifiedonbehalfby"></a> lk_email_modifiedonbehalfby
 
-See systemuser Entity [lk_email_modifiedonbehalfby](systemuser.md#BKMK_lk_email_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_email_modifiedonbehalfby](systemuser.md#BKMK_lk_email_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_email"></a> team_email
 
-See team Entity [team_email](team.md#BKMK_team_email) One-To-Many relationship.
+See the [team_email](team.md#BKMK_team_email) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_manualsla_email"></a> manualsla_email
 
-See sla Entity [manualsla_email](sla.md#BKMK_manualsla_email) One-To-Many relationship.
+See the [manualsla_email](sla.md#BKMK_manualsla_email) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_business_unit_email_activities"></a> business_unit_email_activities
 
-See businessunit Entity [business_unit_email_activities](businessunit.md#BKMK_business_unit_email_activities) One-To-Many relationship.
+See the [business_unit_email_activities](businessunit.md#BKMK_business_unit_email_activities) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_Account_Emails"></a> Account_Emails
 
-See account Entity [Account_Emails](account.md#BKMK_Account_Emails) One-To-Many relationship.
+See the [Account_Emails](account.md#BKMK_Account_Emails) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_email_email_parentactivityid"></a> email_email_parentactivityid
 
-See email Entity [email_email_parentactivityid](email.md#BKMK_email_email_parentactivityid) One-To-Many relationship.
+See the [email_email_parentactivityid](email.md#BKMK_email_email_parentactivityid) one-to-many relationship for the [email](email.md) entity.
 
 ### <a name="BKMK_processstage_emails"></a> processstage_emails
 
-See processstage Entity [processstage_emails](processstage.md#BKMK_processstage_emails) One-To-Many relationship.
+See the [processstage_emails](processstage.md#BKMK_processstage_emails) one-to-many relationship for the [processstage](processstage.md) entity.
 
 ### <a name="BKMK_sla_email"></a> sla_email
 
-See sla Entity [sla_email](sla.md#BKMK_sla_email) One-To-Many relationship.
+See the [sla_email](sla.md#BKMK_sla_email) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_lk_email_createdby"></a> lk_email_createdby
 
-See systemuser Entity [lk_email_createdby](systemuser.md#BKMK_lk_email_createdby) One-To-Many relationship.
+See the [lk_email_createdby](systemuser.md#BKMK_lk_email_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.email?text=email EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -3,15 +3,12 @@ title: "Overview of the security roles for app profile manager | MicrosoftDocs"
 description: "Overview of the security roles for app profile manager."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 06/09/2022
 ms.topic: article
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 
 # Roles and privileges associated with app profile manager
-
-## Introduction
 
 The following roles are available with the app profile manager:
 

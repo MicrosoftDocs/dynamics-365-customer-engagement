@@ -1,27 +1,28 @@
 ---
 title: "Sample: Determine whether a user has a role| MicrosoftDocs"
-ms.custom: 
+description: Learn how to determine whether a user has been associated with a role in Dataverse with this code sample for Dynamics 365 Customer Engagement (on-premises).
+ms.custom:
 ms.date: 10/31/2017
 ms.reviewer: pehecke
 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: sample
-applies_to: 
+applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8976b75c-197d-4d80-b9fe-d4d7a4dfc0f5
 caps.latest.revision: 18
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
-search.audienceType: 
+search.audienceType:
   - developer
 ---
+
 # Sample: Determine whether a user has a role
 
-This sample shows how to determine whether a user in Dataverse has been associated with a specific role. This is performed by using a query with the [IOrganizationService.RetrieveMultiple](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) method.  You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DetermineWhetherUserHasRole).
+This sample shows how to determine whether a user in Dataverse has been associated with a specific role. This is performed by using a query with the [IOrganizationService.RetrieveMultiple](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9&preserve-view=true) method. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/DetermineWhetherUserHasRole).
 
-This sample requires an additional user that isn't available in your system. Create the required user manually in **Office 365** in order to run the sample without any errors. For this sample create a user profile **as is** shown below. 
+This sample requires an additional user that isn't available in your system. Create the required user manually in **Office 365** in order to run the sample without any errors. For this sample create a user profile **as is** shown below.
 
 **First Name**: Dan<br/>
 **Last Name**: Park<br/>
@@ -36,7 +37,7 @@ This sample requires an additional user that isn't available in your system. Cre
 
 ## What this sample does
 
-The [IOrganizationService.RetrieveMultiple](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) message is intended to be used in a scenario where it retrieves a collection of records.
+The [IOrganizationService.RetrieveMultiple](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9&preserve-view=true) message is intended to be used in a scenario where it retrieves a collection of records.
 
 ## How this sample works
 
@@ -45,7 +46,7 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Setup
 
 1. Checks for the current version of the org.
-2. The `CreateRequiredRecords` method creates a user with no security role assigned to him as shown above.
+2. The `CreateRequiredRecords` method creates a user with no security role assigned to them as shown above.
 
 ### Demonstrate
 
@@ -55,6 +56,5 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Clean up
 
 This sample creates no records. No cleanup is required.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

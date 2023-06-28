@@ -1,19 +1,14 @@
 ---
-title: "Single resource optimization for resource scheduling optimization | MicrosoftDocs"
-description: Learn about single resource optimization for resource scheduling optimization in Dynamics 365 Field Service
+title: "Single resource optimization for Resource Scheduling Optimization | MicrosoftDocs"
+description: Learn about single resource optimization for Resource Scheduling Optimization in Dynamics 365 Field Service
 ms.date: 11/04/2019
-ms.reviewer: krbjoran
 
 ms.topic: article 
-author: FieldServiceDave
-ms.author: daclar
-ms.manager: shellyhaverkamp
-search.app: 
-  - D365CE
-  - D365FS
+author: FeifeiQiu
+ms.author: feiqiu
 --- 
 
-# Single resource optimization for resource scheduling optimization
+# Single resource optimization for Resource Scheduling Optimization
 
 
 Resource scheduling optimization is flexible and can be configured to run optimizations based on your organization's scheduling needs. Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources.
@@ -30,7 +25,7 @@ This is helpful for when a resource:
 If an individual resource's schedule needs to be reoptimized, a dispatcher can manually run single resource optimization. It can also be triggered by a workflow. 
 
 > [!Note]
-> Unlike other resource scheduling optimization scenarios, single resource optimization runs can't be scheduled.
+> Unlike other Resource Scheduling Optimization scenarios, single resource optimization runs can't be scheduled.
 
 
 > [!div class="mx-imgBorder"]
@@ -46,9 +41,9 @@ If an individual resource's schedule needs to be reoptimized, a dispatcher can m
 ## Step 1: Set up a goal
 
 > [!Note]
-> Single resource optimization is the only resource scheduling optimization scenario that doesn't require you to first set up an optimization scope. This is because the scope is automatically defined as *bookings for the resource in a defined date range*.
+> Single resource optimization is the only Resource Scheduling Optimization scenario that doesn't require you to first set up an optimization scope. This is because the scope is automatically defined as *bookings for the resource in a defined date range*.
  
-Goals define what resource scheduling optimization should consider and prioritize.
+Goals define what Resource Scheduling Optimization should consider and prioritize.
 
 Go to **Resource Scheduling Optimization** > **Optimization Goals** > **+New**.
 
@@ -59,7 +54,7 @@ When creating a goal for single resource optimization, keep in mind that single 
 
 1. Set **Engine Effort Level** to **Very Light**. This will hasten the single resource optimization run, which helps dispatchers react more quickly to scheduling needs.
 
-2. Remove the **Schedule Within Working Hours** constraint to allow more bookings to fit in the resource's schedule. This can be helpful if a  dispatcher adds an additional emergency work order to the schedule. When this constraint is removed, the start time of a booking must fall within working hours and can spill over into non-working hours. When this constraint is added, resource scheduling optimization ensures there is time to travel back to the resource's ending location.
+2. Remove the **Schedule Within Working Hours** constraint to allow more bookings to fit in the resource's schedule. This can be helpful if a  dispatcher adds an additional emergency work order to the schedule. When this constraint is removed, the start time of a booking must fall within working hours and can spill over into non-working hours. When this constraint is added, Resource Scheduling Optimization ensures there is time to travel back to the resource's ending location.
 
 3. Remove constraints related to matching territory, roles, and characteristics because the scenario assumes the *dispatcher knows best*. This could lead to a situation where the dispatcher assigns a work order to a resource, runs single resource optimization, and single resource optimization deletes the booking because it does not match the resource's attributes. 
 
@@ -75,12 +70,12 @@ Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling
 > ![Screenshot of the default goal on a scheduling parameter set to single resource optimization.](./media/rso-sro-default-goal.png)
 
 > [!Note]
-> A default goal is created automatically when resource scheduling optimization is deployed.
+> A default goal is created automatically when Resource Scheduling Optimization is deployed.
 
 ## Step 2: Run and view results
 
 > [!Note]
-> Most resource scheduling optimization scenarios require that you also set up a schedule, but this isn't necessary for single resource optimizations. This is because the single resource optimization is manually run from the schedule board or through a workflow.
+> Most Resource Scheduling Optimization scenarios require that you also set up a schedule, but this isn't necessary for single resource optimizations. This is because the single resource optimization is manually run from the schedule board or through a workflow.
 
 There are three ways to run single resource optimization:
 
@@ -107,7 +102,7 @@ You will now see:
 
 
 > [!Note]
-> Optimization side panel is only displayed in schedule board tabs created by resource scheduling optimization scopes.
+> Optimization side panel is only displayed in schedule board tabs created by Resource Scheduling Optimization scopes.
 
    
 ### Run after making changes to defaults

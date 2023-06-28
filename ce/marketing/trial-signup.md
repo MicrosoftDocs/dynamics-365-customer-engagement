@@ -7,14 +7,10 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Sign up for a free Dynamics 365 Marketing trial
@@ -41,7 +37,7 @@ Your trial environment includes many of the same features as the paid version. T
 ## Additional resources
 
 - [Dynamics 365 Marketing free trial sign up page](https://dynamics.microsoft.com/marketing/marketing-tool/free-trial)
-- [Explore training on Microsoft Learn](/learn/browse/?products=dynamics-marketing)
+- [Explore Microsoft Learn training](/training/browse/?products=dynamics-marketing)
 - [Watch videos on the product playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_cV1n1es1YJt_T2A5u-XpR)
 - [Trial FAQ](trial-faq.md)
 

@@ -1,18 +1,16 @@
 ---
-title: "msdyn_PostConfig Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_PostConfig entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the msdyn_PostConfig entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# msdyn_PostConfig Entity Reference
+
+# msdyn_PostConfig entity reference
 
 Enable or disable entities for Activity Feeds and Yammer collaboration.
 
@@ -21,17 +19,17 @@ Enable or disable entities for Activity Feeds and Yammer collaboration.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_postconfigs<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_postconfigs(*msdyn_postconfigid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_postconfigs(*msdyn_postconfigid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_postconfigs<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_postconfigs(*msdyn_postconfigid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_postconfigs(*msdyn_postconfigid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|IsValidStateTransition|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -98,14 +96,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### msdyn_ConfigureWall Options
+#### msdyn_ConfigureWall Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -248,7 +246,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -269,7 +267,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -642,7 +640,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [msdyn_postconfig_SyncErrors](syncerror.md#BKMK_msdyn_postconfig_SyncErrors) Many-To-One relationship.
+Same as the [msdyn_postconfig_SyncErrors](syncerror.md#BKMK_msdyn_postconfig_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -659,7 +657,7 @@ Same as syncerror entity [msdyn_postconfig_SyncErrors](syncerror.md#BKMK_msdyn_p
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [msdyn_postconfig_AsyncOperations](asyncoperation.md#BKMK_msdyn_postconfig_AsyncOperations) Many-To-One relationship.
+Same as the [msdyn_postconfig_AsyncOperations](asyncoperation.md#BKMK_msdyn_postconfig_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -676,7 +674,7 @@ Same as asyncoperation entity [msdyn_postconfig_AsyncOperations](asyncoperation.
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [msdyn_postconfig_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_postconfig_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [msdyn_postconfig_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_postconfig_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -693,7 +691,7 @@ Same as mailboxtrackingfolder entity [msdyn_postconfig_MailboxTrackingFolders](m
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [msdyn_postconfig_ProcessSession](processsession.md#BKMK_msdyn_postconfig_ProcessSession) Many-To-One relationship.
+Same as the [msdyn_postconfig_ProcessSession](processsession.md#BKMK_msdyn_postconfig_ProcessSession) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -710,7 +708,7 @@ Same as processsession entity [msdyn_postconfig_ProcessSession](processsession.m
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [msdyn_postconfig_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_postconfig_BulkDeleteFailures) Many-To-One relationship.
+Same as the [msdyn_postconfig_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_postconfig_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -727,7 +725,7 @@ Same as bulkdeletefailure entity [msdyn_postconfig_BulkDeleteFailures](bulkdelet
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [msdyn_postconfig_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_postconfig_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [msdyn_postconfig_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_postconfig_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -742,7 +740,7 @@ Same as principalobjectattributeaccess entity [msdyn_postconfig_PrincipalObjectA
 
 ### <a name="BKMK_msdyn_postconfig_msdyn_postruleconfig"></a> msdyn_postconfig_msdyn_postruleconfig
 
-Same as msdyn_postruleconfig entity [msdyn_postconfig_msdyn_postruleconfig](msdyn_postruleconfig.md#BKMK_msdyn_postconfig_msdyn_postruleconfig) Many-To-One relationship.
+Same as the [msdyn_postconfig_msdyn_postruleconfig](msdyn_postruleconfig.md#BKMK_msdyn_postconfig_msdyn_postruleconfig) many-to-one relationship for the [msdyn_postruleconfig](msdyn_postruleconfig.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -757,7 +755,7 @@ Same as msdyn_postruleconfig entity [msdyn_postconfig_msdyn_postruleconfig](msdy
 
 ### <a name="BKMK_msdyn_postconfig_wallsavedquery"></a> msdyn_postconfig_wallsavedquery
 
-Same as msdyn_wallsavedquery entity [msdyn_postconfig_wallsavedquery](msdyn_wallsavedquery.md#BKMK_msdyn_postconfig_wallsavedquery) Many-To-One relationship.
+Same as the [msdyn_postconfig_wallsavedquery](msdyn_wallsavedquery.md#BKMK_msdyn_postconfig_wallsavedquery) many-to-one relationship for the [msdyn_wallsavedquery](msdyn_wallsavedquery.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -786,37 +784,33 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_postconfig_createdby](systemuser.md#BKMK_lk_msdyn_postconfig_createdby) One-To-Many relationship.
+See the [lk_msdyn_postconfig_createdby](systemuser.md#BKMK_lk_msdyn_postconfig_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_msdyn_postconfig_createdonbehalfby"></a> lk_msdyn_postconfig_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_postconfig_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_postconfig_createdonbehalfby) One-To-Many relationship.
+See the [lk_msdyn_postconfig_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_postconfig_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_msdyn_postconfig_modifiedby"></a> lk_msdyn_postconfig_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_postconfig_modifiedby](systemuser.md#BKMK_lk_msdyn_postconfig_modifiedby) One-To-Many relationship.
+See the [lk_msdyn_postconfig_modifiedby](systemuser.md#BKMK_lk_msdyn_postconfig_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_msdyn_postconfig_modifiedonbehalfby"></a> lk_msdyn_postconfig_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_postconfig_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_postconfig_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_msdyn_postconfig_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_postconfig_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_msdyn_postconfig"></a> organization_msdyn_postconfig
 
 **Added by**: System Solution Solution
 
-See organization Entity [organization_msdyn_postconfig](organization.md#BKMK_organization_msdyn_postconfig) One-To-Many relationship.
+See the [organization_msdyn_postconfig](organization.md#BKMK_organization_msdyn_postconfig) one-to-many relationship for the [organization](organization.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_postconfig?text=msdyn_postconfig EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

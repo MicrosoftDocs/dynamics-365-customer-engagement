@@ -8,12 +8,8 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Publish custom channel on AppSource
@@ -25,7 +21,6 @@ To do so, add all the components for the custom channel in a solution, and then 
 ## See also
 
 [Video: Microsoft AppSource: find the right app for your business](https://youtu.be/hpq_Y9LuIB8)
-
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

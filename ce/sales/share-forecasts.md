@@ -6,23 +6,21 @@ ms.topic: article
 
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Share a forecast
 
-Share the forecasts that you own, with anyone in your hierarchy or outside of your hierarchy. You can specify the access level (such as read, or read and adjust rollup) that you want to give the user. For example, Henry, the Sales Manager wants one of his direct reports, Serena Davis, to manage the forecasts while he's on vacation. He can share his forecast hierarchy with Serena and assign the appropriate permissions. Depending on the permissions granted, Serena can view or adjust the forecast. However, she cannot share Henry's forecast with any other user as she's not the owner of the forecast.  
+Share the forecasts that you own, with anyone in your hierarchy or outside of your hierarchy. You can specify the access level (such as read, or read and adjust rollup) that you want to give the user. For example, Henry, the Sales Manager, wants to go on a vacation and wants one of the direct reports, Serena Davis, to manage the forecasts. Henry can share the forecast hierarchy with Serena and assign the appropriate permissions. Depending on the permissions granted, Serena can view or adjust the forecast. However, Serena cannot share the forecast with any other user as Henry is the owner of the forecast.  
 
 > [!NOTE]
 > Only a forecast owner can share their forecast. To know more, see [Who owns the forecast?](faqs-sales.md#who-owns-the-forecast).
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Share a forecast or forecast hierarchy
 
@@ -53,4 +51,5 @@ To stop sharing the entire forecast hierarchy from all the users, your administr
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
-[Enable or disable forecast sharing](provide-permissions-forecast.md#enable-or-disable-forecast-sharing)
+[Enable or disable forecast sharing](provide-permissions-forecast.md#enable-or-disable-forecast-sharing)  
+[Provide permissions to access and share a forecast](provide-permissions-forecast.md)  

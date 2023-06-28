@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Improve email deliverability to China
@@ -95,3 +91,5 @@ The following URL can be useful depending on your target ISP: http://www.blocked
 
 > [!IMPORTANT]
 > Being blocklisted is usually temporary. The length can vary depending on your past history. Delisting is usually not possible. Follow the best practice tips in this article to improve your sending reputation.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

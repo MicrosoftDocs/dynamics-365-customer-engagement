@@ -12,7 +12,6 @@ applies_to:
 author: Mattp123
 ms.assetid: 734b4ffa-5543-4f88-8517-299589f433f7
 ms.author: matp
-manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -172,16 +171,30 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 ### Image fields  
  Use image fields to display a single image per record in the application. Each entity can have one image field. You can add an image field to custom entities but not to system entities. The following system entities have an image field. Those marked with an asterisk are enabled by default.  
 
-||||  
-|-|-|-|  
-|Account *|Article|Campaign|  
-|Case|Competitor *|Connection|  
-|Contact *|Contract|Currency|  
-|Email Server Profile|Goal|Invoice|  
-|Lead *|Mailbox|Opportunity Product|  
-|Order|Organization|Product *|  
-|Publisher *|Queue|Resource *|  
-|Sales Literature|Territory|User*|  
+- Account *
+- Article
+- Campaign
+- Case
+- Competitor *
+- Connection  
+- Contact *
+- Contract
+- Currency
+- Email Server Profile
+- Goal
+- Invoice|  
+- Lead *
+- Mailbox
+- Opportunity Product|  
+- Order
+- Organization
+- Product *|  
+- Publisher *
+- Queue
+- Resource *|  
+- Sales Literature
+- Territory
+- User*
 
  Even though an entity has an image field, displaying that image in the application requires an additional step. In the entity definition the **Primary Image** field values are either **[None]** or **Entity Image**. Select **Entity Image** to display the image in the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing entities](../customize/create-edit-entities.md)  
 

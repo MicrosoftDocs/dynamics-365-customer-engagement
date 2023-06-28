@@ -1,37 +1,35 @@
 ---
-title: "Role Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the Role entity."
-ms.date: 04/02/2019
-
+title: "Security Role (Role)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Security Role (Role)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Role Entity Reference
+
+# Security Role (Role)  entity reference
 
 Grouping of security privileges. Users are assigned roles that authorize their access to the Microsoft CRM system.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|AddPrivilegesRole|<xref href="Microsoft.Dynamics.CRM.AddPrivilegesRole?text=AddPrivilegesRole Action" />|<xref:Microsoft.Crm.Sdk.Messages.AddPrivilegesRoleRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/roles<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/roles(*roleid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|RemovePrivilegeRole|<xref href="Microsoft.Dynamics.CRM.RemovePrivilegeRole?text=RemovePrivilegeRole Action" />|<xref:Microsoft.Crm.Sdk.Messages.RemovePrivilegeRoleRequest>|
-|ReplacePrivilegesRole|<xref href="Microsoft.Dynamics.CRM.ReplacePrivilegesRole?text=ReplacePrivilegesRole Action" />|<xref:Microsoft.Crm.Sdk.Messages.ReplacePrivilegesRoleRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/roles(*roleid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/roles<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrieveRolePrivilegesRole|<xref href="Microsoft.Dynamics.CRM.RetrieveRolePrivilegesRole?text=RetrieveRolePrivilegesRole Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveRolePrivilegesRoleRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/roles(*roleid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|AddPrivilegesRole|<xref:Microsoft.Crm.Sdk.Messages.AddPrivilegesRoleRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|RemovePrivilegeRole|<xref:Microsoft.Crm.Sdk.Messages.RemovePrivilegeRoleRequest>|
+|ReplacePrivilegesRole|<xref:Microsoft.Crm.Sdk.Messages.ReplacePrivilegesRoleRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrieveRolePrivilegesRole|<xref:Microsoft.Crm.Sdk.Messages.RetrieveRolePrivilegesRoleRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -57,7 +55,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [CanBeDeleted](#BKMK_CanBeDeleted)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
-- [IsInherited](#BKMK_IsInherited)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [RoleId](#BKMK_RoleId)
@@ -119,27 +116,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|iscustomizable|
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
-
-
-### <a name="BKMK_IsInherited"></a> IsInherited
-
-|Property|Value|
-|--------|-----|
-|Description|Role is inherited by users from team membership, if role associated with team.|
-|DisplayName|Is Inherited|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|isinherited|
-|RequiredLevel|SystemRequired|
-|Type|Picklist|
-
-#### IsInherited Options
-
-|Value|Label|
-|-----|-----|
-|0|Default - Team privileges only|
-|1|Direct User (Read) access level and Team privileges|
-
 
 
 ### <a name="BKMK_Name"></a> Name
@@ -252,14 +228,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ComponentState Options
+#### ComponentState Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Published|
-|1|Unpublished|
-|2|Deleted|
-|3|Deleted Unpublished|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Published||
+|1|Unpublished||
+|2|Deleted||
+|3|Deleted Unpublished||
 
 
 
@@ -382,14 +358,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsManaged Options
+#### IsManaged Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Managed|
-|0|Unmanaged|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Managed||
+|0|Unmanaged||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -686,7 +662,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_role_parent_role"></a> role_parent_role
 
-Same as role entity [role_parent_role](role.md#BKMK_role_parent_role) Many-To-One relationship.
+Same as the [role_parent_role](role.md#BKMK_role_parent_role) many-to-one relationship for the [role](role.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -701,7 +677,7 @@ Same as role entity [role_parent_role](role.md#BKMK_role_parent_role) Many-To-On
 
 ### <a name="BKMK_Role_AsyncOperations"></a> Role_AsyncOperations
 
-Same as asyncoperation entity [Role_AsyncOperations](asyncoperation.md#BKMK_Role_AsyncOperations) Many-To-One relationship.
+Same as the [Role_AsyncOperations](asyncoperation.md#BKMK_Role_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -716,7 +692,7 @@ Same as asyncoperation entity [Role_AsyncOperations](asyncoperation.md#BKMK_Role
 
 ### <a name="BKMK_role_parent_root_role"></a> role_parent_root_role
 
-Same as role entity [role_parent_root_role](role.md#BKMK_role_parent_root_role) Many-To-One relationship.
+Same as the [role_parent_root_role](role.md#BKMK_role_parent_root_role) many-to-one relationship for the [role](role.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -731,7 +707,7 @@ Same as role entity [role_parent_root_role](role.md#BKMK_role_parent_root_role) 
 
 ### <a name="BKMK_Role_BulkDeleteFailures"></a> Role_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [Role_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Role_BulkDeleteFailures) Many-To-One relationship.
+Same as the [Role_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Role_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -746,7 +722,7 @@ Same as bulkdeletefailure entity [Role_BulkDeleteFailures](bulkdeletefailure.md#
 
 ### <a name="BKMK_Role_SyncErrors"></a> Role_SyncErrors
 
-Same as syncerror entity [Role_SyncErrors](syncerror.md#BKMK_Role_SyncErrors) Many-To-One relationship.
+Same as the [Role_SyncErrors](syncerror.md#BKMK_Role_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -771,45 +747,40 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [lk_role_createdonbehalfby](#BKMK_lk_role_createdonbehalfby)
 - [lk_role_modifiedonbehalfby](#BKMK_lk_role_modifiedonbehalfby)
 - [role_parent_root_role](#BKMK_role_parent_root_role)
-- [solution_role](#BKMK_solution_role)
 - [lk_rolebase_createdby](#BKMK_lk_rolebase_createdby)
 
 
 ### <a name="BKMK_lk_rolebase_modifiedby"></a> lk_rolebase_modifiedby
 
-See systemuser Entity [lk_rolebase_modifiedby](systemuser.md#BKMK_lk_rolebase_modifiedby) One-To-Many relationship.
+See the [lk_rolebase_modifiedby](systemuser.md#BKMK_lk_rolebase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_role_parent_role"></a> role_parent_role
 
-See role Entity [role_parent_role](role.md#BKMK_role_parent_role) One-To-Many relationship.
+See the [role_parent_role](role.md#BKMK_role_parent_role) one-to-many relationship for the [role](role.md) entity.
 
 ### <a name="BKMK_organization_roles"></a> organization_roles
 
-See organization Entity [organization_roles](organization.md#BKMK_organization_roles) One-To-Many relationship.
+See the [organization_roles](organization.md#BKMK_organization_roles) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_business_unit_roles"></a> business_unit_roles
 
-See businessunit Entity [business_unit_roles](businessunit.md#BKMK_business_unit_roles) One-To-Many relationship.
+See the [business_unit_roles](businessunit.md#BKMK_business_unit_roles) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_lk_role_createdonbehalfby"></a> lk_role_createdonbehalfby
 
-See systemuser Entity [lk_role_createdonbehalfby](systemuser.md#BKMK_lk_role_createdonbehalfby) One-To-Many relationship.
+See the [lk_role_createdonbehalfby](systemuser.md#BKMK_lk_role_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_role_modifiedonbehalfby"></a> lk_role_modifiedonbehalfby
 
-See systemuser Entity [lk_role_modifiedonbehalfby](systemuser.md#BKMK_lk_role_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_role_modifiedonbehalfby](systemuser.md#BKMK_lk_role_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_role_parent_root_role"></a> role_parent_root_role
 
-See role Entity [role_parent_root_role](role.md#BKMK_role_parent_root_role) One-To-Many relationship.
-
-### <a name="BKMK_solution_role"></a> solution_role
-
-See solution Entity [solution_role](solution.md#BKMK_solution_role) One-To-Many relationship.
+See the [role_parent_root_role](role.md#BKMK_role_parent_root_role) one-to-many relationship for the [role](role.md) entity.
 
 ### <a name="BKMK_lk_rolebase_createdby"></a> lk_rolebase_createdby
 
-See systemuser Entity [lk_rolebase_createdby](systemuser.md#BKMK_lk_rolebase_createdby) One-To-Many relationship.
+See the [lk_rolebase_createdby](systemuser.md#BKMK_lk_rolebase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
@@ -824,25 +795,21 @@ Relationship details provided where the Role entity is the first entity in the r
 
 ### <a name="BKMK_systemuserroles_association"></a> systemuserroles_association
 
-See systemuser Entity [systemuserroles_association](systemuser.md#BKMK_systemuserroles_association) Many-To-Many Relationship.
+See the [systemuserroles_association](systemuser.md#BKMK_systemuserroles_association) many-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_roleprivileges_association"></a> roleprivileges_association
 
-See privilege Entity [roleprivileges_association](privilege.md#BKMK_roleprivileges_association) Many-To-Many Relationship.
+See the [roleprivileges_association](privilege.md#BKMK_roleprivileges_association) many-to-many relationship for the [privilege](privilege.md) entity.
 
 ### <a name="BKMK_appmoduleroles_association"></a> appmoduleroles_association
 
-See appmodule Entity [appmoduleroles_association](appmodule.md#BKMK_appmoduleroles_association) Many-To-Many Relationship.
+See the [appmoduleroles_association](appmodule.md#BKMK_appmoduleroles_association) many-to-many relationship for the [appmodule](appmodule.md) entity.
 
 ### <a name="BKMK_teamroles_association"></a> teamroles_association
 
-See team Entity [teamroles_association](team.md#BKMK_teamroles_association) Many-To-Many Relationship.
+See the [teamroles_association](team.md#BKMK_teamroles_association) many-to-many relationship for the [team](team.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.role?text=role EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

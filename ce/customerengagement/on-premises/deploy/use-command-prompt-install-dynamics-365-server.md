@@ -14,7 +14,6 @@ ms.assetid: 04e55eb6-9d97-433f-abc5-f6ab55ef16ba
 caps.latest.revision: 17
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Use the command prompt to install Dynamics 365 Customer Engagement (on-premises) 
 
@@ -73,7 +72,7 @@ You can install Dynamics 365 Server and Dynamics 365 Reporting Extensions from t
   
 ```  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [RSReportServer Configuration File](/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-2016)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [RSReportServer Configuration File](/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-2016&preserve-view=true)  
   
  After you make the RSServer.config file change, run [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] again.  
   

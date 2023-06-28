@@ -1,23 +1,22 @@
 ---
-title: "Enable agents to update skills | MicrosoftDocs"
-description: "Learn how to enable the setting that allows agents to update skills at runtime in Customer Service Hub and Omnichannel for Customer Service."
-ms.date: 03/04/2022
+title: Enable agents to update skills
+description: Learn how to enable the setting that allows agents to update skills at runtime in Customer Service Hub and Omnichannel for Customer Service.
+ms.date: 03/08/2023
 ms.service: dynamics-365-customerservice
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Enable agents to update skills
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
+By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model. You can also enable your agents to add or remove skills for their assigned work items at runtime. To do this, you must enable the update skill control toggle in the Customer Service admin center or Omnichannel admin center app.
 
-By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model. You can also enable your agents to add or remove skills for their assigned work items at runtime. To do this, you must enable the update skill control toggle in the Customer Service admin center (preview) or Omnichannel admin center app.
-
-> [!Note]
+> [!NOTE]
 > By default, the skill control is available only for messaging channels. For the records channel, you'll need to customize the form to add the skill control. More information: [Add a skill control for routed records](add-skill-control.md)
 
 ## Prerequisite
@@ -26,18 +25,12 @@ To ensure that the skill control is loaded and displayed properly for the routed
 
 ## Enable agents to update skills at runtime
 
-**To enable your agents to update skills for their work items**
-
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
    
     - In the site map, select **User management** in **Customer support**. The **User management** page appears.
-    
-   
+       
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
     - In the site map, select **User attributes** under **Advanced settings**.
@@ -50,8 +43,7 @@ To ensure that the skill control is loaded and displayed properly for the routed
 
 3. On the **Skill based routing** tab, set the **Enable update skill control** toggle to **Yes**.
 
-    > [!div class=mx-imgBorder]
-    > ![Enable update skill control toggle.](enable-update-skill-control.png "Enable update skill control toggle")
+:::image type="content" source="media/enable-update-skill-control.png" alt-text="Enable update skill control toggle":::
 
 By enabling your agents to evaluate and update skills required for their work items, you make use of your agents' experience to identify the actual skills that are required for the work items. These skills are also used in training the skill finder model. Accurate data on skills improves the model accuracy and prediction. More information: [Retrain skill finder model](set-up-skill-based-routing.md#retrain-the-model-iteratively)
 

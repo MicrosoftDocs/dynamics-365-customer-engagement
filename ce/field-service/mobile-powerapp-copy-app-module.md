@@ -2,19 +2,14 @@
 title: "Add a custom app module to the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to make a custom app module for the Field Service (Dynamics 365) mobile app.
 ms.date: 05/21/2021
-ms.reviewer: krbjoran
 
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
+author: Andrea-Orimoto
+ms.author: andreo
 ---
 
 # Add a custom app module to the Field Service (Dynamics 365) mobile app
@@ -78,7 +73,7 @@ To make the app module available to the Field Service mobile app:
 
 3.  Once the app is added to the solution, **Save and Close**, which will add your app module to the solution you created.
 
-4.  After adding your add module to a solution, export the solution. From the solutions list, select the solution you created and **Export** from the command bar. Follow on-screen steps to export the solution package.
+4.  After adding your app module to a solution, export the solution. From the solutions list, select the solution you created and **Export** from the command bar. Follow on-screen steps to export the solution package.
 
 5.  Open the exported solution (.zip) and edit the file ```Customizations.xml```.
 
@@ -101,7 +96,7 @@ To make the app module available to the Field Service mobile app:
 
 ```
                 <appsettings>
-                <appsetting uniquename="new_CustomAppModule_ChannelAvailability">
+                <appsetting uniquename="new_CustomAppModule_ChannelAvailability">
                 <value>FieldServiceMobile</value>
                 <iscustomizable>1</iscustomizable>
                 <settingdefinitionid>
@@ -109,7 +104,7 @@ To make the app module available to the Field Service mobile app:
                 </settingdefinitionid>
                 </appsetting>
                 
-                <appsetting uniquename="new_CustomAppModule_ServerMode">
+                <appsetting uniquename="new_CustomAppModule_ServerMode">
                 <value>false</value>
                 <iscustomizable>1</iscustomizable>
                 <settingdefinitionid>

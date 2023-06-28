@@ -1,17 +1,14 @@
 ---
 title: "Historical analytics for unified routing in Customer Service | MicrosoftDocs"
 description: "Learn about the KPIs that are available in the historical analytics report for Customer Service."
-ms.date: 10/12/2021
+ms.date: 08/01/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Historical analytics for unified routing in Customer Service
-
-## Introduction
 
 With the introduction of unified routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
 
@@ -23,7 +20,10 @@ The Unified routing report provides routing-specific KPIs and metrics that can b
 
 The report appears as a tab in the Customer Service historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in Customer Service Hub. You can access the report in Service. In the site map, select **Customer Service historical analytics**, and then select **Unified routing**.
 
-In Customer Service workspace, select the (+) icon, and then select **Customer Service historical analytics**.
+### Access the Unified routing dashboard
+
+[!INCLUDE[cc-navigation-cs](../includes/cc-navigation-cs.md)]
+
 
 :::image type="content" source="media/cs-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Customer Service.":::
 
@@ -68,3 +68,4 @@ You can select a date, and then select **Details** to view the routing metrics b
 [Enable Historical analytics for unified routing](configure-cs-historical-analytics-csh.md#enable-historical-analytics-for-unified-routing)  
 [Unified routing report in Omnichannel historical analytics](oc-historical-analytics-unified-routing.md)  
 [Diagnostics for unified routing](unified-routing-diagnostics.md)  
+[Manage report bookmarks](manage-bookmarks.md)  

@@ -1,34 +1,32 @@
 ---
-title: "ServiceEndpoint Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ServiceEndpoint entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the ServiceEndpoint entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# ServiceEndpoint Entity Reference
+
+# ServiceEndpoint entity reference
 
 Service endpoint that can be contacted.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/serviceendpoints<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/serviceendpoints(*serviceendpointid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/serviceendpoints(*serviceendpointid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/serviceendpoints<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|TriggerServiceEndpointCheck|<xref href="Microsoft.Dynamics.CRM.TriggerServiceEndpointCheck?text=TriggerServiceEndpointCheck Action" />|<xref:Microsoft.Crm.Sdk.Messages.TriggerServiceEndpointCheckRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/serviceendpoints(*serviceendpointid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|TriggerServiceEndpointCheck|<xref:Microsoft.Crm.Sdk.Messages.TriggerServiceEndpointCheckRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -83,16 +81,16 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### AuthType Options
+#### AuthType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|ACS|
-|2|SAS Key|
-|3|SAS Token|
-|4|Webhook Key|
-|5|Http Header|
-|6|Http Query String|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|ACS||
+|2|SAS Key||
+|3|SAS Token||
+|4|Webhook Key||
+|5|Http Header||
+|6|Http Query String||
 
 
 
@@ -124,12 +122,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ConnectionMode Options
+#### ConnectionMode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Normal|
-|2|Federated|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Normal||
+|2|Federated||
 
 
 
@@ -145,18 +143,18 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### Contract Options
+#### Contract Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|OneWay|
-|2|Queue|
-|3|Rest|
-|4|TwoWay|
-|5|Topic|
-|6|Queue (Persistent)|
-|7|Event Hub|
-|8|Webhook|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|OneWay||
+|2|Queue||
+|3|Rest||
+|4|TwoWay||
+|5|Topic||
+|6|Queue (Persistent)||
+|7|Event Hub||
+|8|Webhook||
 
 
 
@@ -218,13 +216,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### MessageFormat Options
+#### MessageFormat Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Binary XML|
-|2|Json|
-|3|Text XML|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Binary XML||
+|2|Json||
+|3|Text XML||
 
 
 
@@ -272,12 +270,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### NamespaceFormat Options
+#### NamespaceFormat Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Namespace Name|
-|2|Namespace Address|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Namespace Name||
+|2|Namespace Address||
 
 
 
@@ -403,13 +401,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### UserClaim Options
+#### UserClaim Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|None|
-|2|UserId|
-|3|UserInfo|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|None||
+|2|UserId||
+|3|UserInfo||
 
 
 <a name="read-only-attributes"></a>
@@ -452,14 +450,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ComponentState Options
+#### ComponentState Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Published|
-|1|Unpublished|
-|2|Deleted|
-|3|Deleted Unpublished|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Published||
+|1|Unpublished||
+|2|Deleted||
+|3|Deleted Unpublished||
 
 
 
@@ -550,14 +548,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsAuthValueSet Options
+#### IsAuthValueSet Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -573,14 +571,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsManaged Options
+#### IsManaged Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Managed|
-|0|Unmanaged|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Managed||
+|0|Unmanaged||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -596,14 +594,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsSASKeySet Options
+#### IsSASKeySet Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -619,14 +617,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsSASTokenSet Options
+#### IsSASTokenSet Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -781,7 +779,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_serviceendpoint_sdkmessageprocessingstep"></a> serviceendpoint_sdkmessageprocessingstep
 
-Same as sdkmessageprocessingstep entity [serviceendpoint_sdkmessageprocessingstep](sdkmessageprocessingstep.md#BKMK_serviceendpoint_sdkmessageprocessingstep) Many-To-One relationship.
+Same as the [serviceendpoint_sdkmessageprocessingstep](sdkmessageprocessingstep.md#BKMK_serviceendpoint_sdkmessageprocessingstep) many-to-one relationship for the [sdkmessageprocessingstep](sdkmessageprocessingstep.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -808,29 +806,25 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_createdby_serviceendpoint"></a> createdby_serviceendpoint
 
-See systemuser Entity [createdby_serviceendpoint](systemuser.md#BKMK_createdby_serviceendpoint) One-To-Many relationship.
+See the [createdby_serviceendpoint](systemuser.md#BKMK_createdby_serviceendpoint) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_serviceendpointbase_modifiedonbehalfby"></a> lk_serviceendpointbase_modifiedonbehalfby
 
-See systemuser Entity [lk_serviceendpointbase_modifiedonbehalfby](systemuser.md#BKMK_lk_serviceendpointbase_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_serviceendpointbase_modifiedonbehalfby](systemuser.md#BKMK_lk_serviceendpointbase_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_modifiedby_serviceendpoint"></a> modifiedby_serviceendpoint
 
-See systemuser Entity [modifiedby_serviceendpoint](systemuser.md#BKMK_modifiedby_serviceendpoint) One-To-Many relationship.
+See the [modifiedby_serviceendpoint](systemuser.md#BKMK_modifiedby_serviceendpoint) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_serviceendpoint"></a> organization_serviceendpoint
 
-See organization Entity [organization_serviceendpoint](organization.md#BKMK_organization_serviceendpoint) One-To-Many relationship.
+See the [organization_serviceendpoint](organization.md#BKMK_organization_serviceendpoint) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_lk_serviceendpointbase_createdonbehalfby"></a> lk_serviceendpointbase_createdonbehalfby
 
-See systemuser Entity [lk_serviceendpointbase_createdonbehalfby](systemuser.md#BKMK_lk_serviceendpointbase_createdonbehalfby) One-To-Many relationship.
+See the [lk_serviceendpointbase_createdonbehalfby](systemuser.md#BKMK_lk_serviceendpointbase_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.serviceendpoint?text=serviceendpoint EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

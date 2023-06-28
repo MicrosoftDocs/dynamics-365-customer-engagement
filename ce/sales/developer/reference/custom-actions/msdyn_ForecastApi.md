@@ -5,11 +5,8 @@ ms.date: 01/20/2022
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ms.custom: 
   - dyn365-sales
 ---
@@ -18,12 +15,11 @@ ms.custom:
 As a developer, use this reference documentation to use the `msdyn_ForecastApi` custom action to retrieve and update forecasting data.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
-|||
+| **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
+
 
 ## Parameters
 

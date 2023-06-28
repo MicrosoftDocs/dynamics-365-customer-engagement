@@ -1,6 +1,6 @@
 ---
 title: "Sample: Specify a queue item to work on (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-decription: The sample code demonstrates how to use PickFromQueueRequest to specify a user who will work on a queue item.
+description: The sample code demonstrates how to use PickFromQueueRequest to specify a user who will work on a queue item.
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
@@ -17,14 +17,13 @@ ms.assetid: be171519-f8d0-43e6-b5a7-770802da47db
 caps.latest.revision: 18
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 ---
 
 # Sample: Specify a queue item to work on (early bound)
 
-This sample shows how to use [PickFromQueueRequest](/dotnet/api/microsoft.crm.sdk.messages.pickfromqueuerequest?view=dynamics-general-ce-9) to specify a user who will work on a queue item. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/SpecifyQueueItem).
+This sample shows how to use [PickFromQueueRequest](/dotnet/api/microsoft.crm.sdk.messages.pickfromqueuerequest?view=dynamics-general-ce-9&preserve-view=true) to specify a user who will work on a queue item. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/SpecifyQueueItem).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

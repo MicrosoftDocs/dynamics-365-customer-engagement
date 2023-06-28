@@ -1,41 +1,39 @@
 ---
-title: "Import Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the Import entity."
-ms.date: 04/02/2019
-
+title: "Data Import (Import)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Data Import (Import)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Import Entity Reference
+
+# Data Import (Import)  entity reference
 
 Status and ownership information for an import job.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/imports<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/imports(*importid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ImportRecordsImport|<xref href="Microsoft.Dynamics.CRM.ImportRecordsImport?text=ImportRecordsImport Action" />|<xref:Microsoft.Crm.Sdk.Messages.ImportRecordsImportRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|ParseImport|<xref href="Microsoft.Dynamics.CRM.ParseImport?text=ParseImport Action" />|<xref:Microsoft.Crm.Sdk.Messages.ParseImportRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/imports(*importid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/imports<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|TransformImport|<xref href="Microsoft.Dynamics.CRM.TransformImport?text=TransformImport Action" />|<xref:Microsoft.Crm.Sdk.Messages.TransformImportRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/imports(*importid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ImportRecordsImport|<xref:Microsoft.Crm.Sdk.Messages.ImportRecordsImportRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|ParseImport|<xref:Microsoft.Crm.Sdk.Messages.ParseImportRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|TransformImport|<xref:Microsoft.Crm.Sdk.Messages.TransformImportRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -110,14 +108,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsImport Options
+#### IsImport Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Is Import|
-|0|Is Migration|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Is Import||
+|0|Is Migration||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -134,12 +132,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ModeCode Options
+#### ModeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Create|
-|1|Update|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Create||
+|1|Update||
 
 
 
@@ -200,14 +198,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### SendNotification Options
+#### SendNotification Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -223,7 +221,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -580,7 +578,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -600,7 +598,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_Import_ImportFile"></a> Import_ImportFile
 
-Same as importfile entity [Import_ImportFile](importfile.md#BKMK_Import_ImportFile) Many-To-One relationship.
+Same as the [Import_ImportFile](importfile.md#BKMK_Import_ImportFile) many-to-one relationship for the [importfile](importfile.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -615,7 +613,7 @@ Same as importfile entity [Import_ImportFile](importfile.md#BKMK_Import_ImportFi
 
 ### <a name="BKMK_Import_BulkDeleteFailures"></a> Import_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [Import_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Import_BulkDeleteFailures) Many-To-One relationship.
+Same as the [Import_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Import_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -630,7 +628,7 @@ Same as bulkdeletefailure entity [Import_BulkDeleteFailures](bulkdeletefailure.m
 
 ### <a name="BKMK_Import_AsyncOperations"></a> Import_AsyncOperations
 
-Same as asyncoperation entity [Import_AsyncOperations](asyncoperation.md#BKMK_Import_AsyncOperations) Many-To-One relationship.
+Same as the [Import_AsyncOperations](asyncoperation.md#BKMK_Import_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -659,37 +657,33 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_import_modifiedonbehalfby"></a> lk_import_modifiedonbehalfby
 
-See systemuser Entity [lk_import_modifiedonbehalfby](systemuser.md#BKMK_lk_import_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_import_modifiedonbehalfby](systemuser.md#BKMK_lk_import_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_Imports"></a> team_Imports
 
-See team Entity [team_Imports](team.md#BKMK_team_Imports) One-To-Many relationship.
+See the [team_Imports](team.md#BKMK_team_Imports) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_lk_importbase_modifiedby"></a> lk_importbase_modifiedby
 
-See systemuser Entity [lk_importbase_modifiedby](systemuser.md#BKMK_lk_importbase_modifiedby) One-To-Many relationship.
+See the [lk_importbase_modifiedby](systemuser.md#BKMK_lk_importbase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_BusinessUnit_Imports"></a> BusinessUnit_Imports
 
-See businessunit Entity [BusinessUnit_Imports](businessunit.md#BKMK_BusinessUnit_Imports) One-To-Many relationship.
+See the [BusinessUnit_Imports](businessunit.md#BKMK_BusinessUnit_Imports) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_SystemUser_Imports"></a> SystemUser_Imports
 
-See systemuser Entity [SystemUser_Imports](systemuser.md#BKMK_SystemUser_Imports) One-To-Many relationship.
+See the [SystemUser_Imports](systemuser.md#BKMK_SystemUser_Imports) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_import_createdonbehalfby"></a> lk_import_createdonbehalfby
 
-See systemuser Entity [lk_import_createdonbehalfby](systemuser.md#BKMK_lk_import_createdonbehalfby) One-To-Many relationship.
+See the [lk_import_createdonbehalfby](systemuser.md#BKMK_lk_import_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_importbase_createdby"></a> lk_importbase_createdby
 
-See systemuser Entity [lk_importbase_createdby](systemuser.md#BKMK_lk_importbase_createdby) One-To-Many relationship.
+See the [lk_importbase_createdby](systemuser.md#BKMK_lk_importbase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.import?text=import EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

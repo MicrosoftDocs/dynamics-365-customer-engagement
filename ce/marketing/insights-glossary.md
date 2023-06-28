@@ -1,21 +1,16 @@
 ---
 title: "Glossary of common insights terms (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Definitions of terms commonly used to describe marketing results, insights, and KPIs in Dynamics 365 Marketing."
-ms.date: 12/15/2021
-
+ms.date: 05/20/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Insights glossary
@@ -44,7 +39,9 @@ Each reported email click indicates that a contact clicked on a link sent to the
 The email click-through rate indicates how often a message delivery resulted in at least one click on any of the links it contains. It’s reported as a percentage of total deliveries. Only unique clicks are counted, so after the first click, it doesn’t matter how many links a recipient clicks on, or how many times. For more information about how clicks are counted, see [Email clicked](insights-glossary.md#email-clicked) in this glossary.<br/>
 ``EmailCTR = (UniqueMessageClicks/TotalDelivered) * 100%``
 
-<!-- add CTOR here -->
+### Email click-to-open rate (CTOR)
+The email click-to-open rate indicates how often a message that was opened also resulted in at least one click on any of the links it contains. It’s reported as a percentage of the total number of unique messages that were opened. Only unique clicks are counted, so after the first click, it doesn’t matter how many links a recipient clicks on, or how many times. For more information about how clicks are counted, see [Email clicked](insights-glossary.md#email-clicked) in this glossary.<br/>
+``EmailCTOR = (UniqueMessageClicks/UniqueMessageOpens) * 100%``
 
 ### Email delivered
 A marketing email message is considered to have been delivered if it was sent (not blocked) by Dynamics 365 Marketing and no bounce was reported. Messages reported as delivered might still end up unopened or caught in a spam filter along the way.<br/>

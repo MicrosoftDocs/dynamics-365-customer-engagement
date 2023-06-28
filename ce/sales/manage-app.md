@@ -5,7 +5,6 @@ ms.date: 11/23/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
@@ -15,12 +14,11 @@ ms.custom:
 The Dynamics 365 Sales application is a modular app built to provide capabilities tailored for sales professionals and sales managers. As an administrator or customizer, you can easily customize the tables, dashboards, forms, views, charts, and business processes included in the Sales application using the app designer, without having to write any code.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or System Customizer <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or System Customizer <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Customize the app
 
