@@ -150,6 +150,8 @@
           href: enable-email-validation.md
         - name: Enable email validation for custom forms
           href: enable-email-validation-custom-forms.md
+        - name: Enable address suggestion
+          href: enable-address-suggestion.md
         - name: Customize the business card scanner control
           href: customize-business-card-scan-control.md
         - name: Integrate LinkedIn Sales Insights
