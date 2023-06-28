@@ -85,9 +85,7 @@ In the **Layout** step of the forecast configuration, you can configure each col
     > [!div class="mx-imgBorder"]
     > ![Select configuration option for a column.](media/forecast-layout-column-configuration-selection-opens.png "Select a configuration option for a column")
 
-    On the column configuration page, the **Name** specifies the name of the column. The **Unique name** field is auto-populated with the name of the column and supports only English characters  
-    > [!IMPORTANT]
-    > If you use non-English characters in the **Name** field, the **Unique name** field isn't auto-populated. You must manually enter a unique name for such columns in English.  
+    On the column configuration page, the **Name** field specifies the display name of the column. The **Unique name** field is auto-populated based on the display name you've specified and supports only English characters. If you use non-English characters in the **Name** field, the **Unique name** field isn't auto-populated. You must manually enter a unique name in English for such columns.  
 
 3.	Select the **Type** of column. The options that appear depend on the type of column you select. For example, when you select a column of type **Calculated**, a text box appears for you to enter a formula to use for calculating the value of the column. 
 
@@ -124,7 +122,7 @@ Select the column **Type** as **Rollup**. The following options are available to
 | Allow adjustments | Enable this setting to let users manually edit a system-calculated value directly in the forecast grid. When this setting is enabled, you'll see a pencil icon next to the forecasted value in that column. To learn more, see [Adjust values in a forecast](adjust-values-in-forecast.md). |
 | Show progress compared to quota | Enable this option to compare the column's value against the quota column. When this is enabled, a progress bar indicating the attainment percentage is shown below the column's value.|
 | Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend charts](/dynamics365/sales/understand-forecast-projection-through-trend-chart). |
-| Unique name | The unique name is used to identify the column to use when you're writing a formula for a **Calculated** column. This field is auto-populated with the name of the column and supports only English characters.  <br>  **Important!** If you use non-English characters in the **Name** field, the **Unique name** field is not auto-populated. You must manually enter a unique name for such columns in English.   |
+
 
 <a name="configure-calculated-type"> </a>
 ### Calculated type
@@ -139,7 +137,6 @@ Calculated columns can be identified in your forecast by looking for the informa
 | Allow adjustments | Enable this setting to let users manually edit the value of a calculated column directly in the forecast grid. When you select the column as adjustable, the formula you have created for this column must satisfy certain conditions that allow a proper rollup of values in the forecast. If not satisfied, an error is displayed, and you can't proceed to the next step. To learn more about the conditions and its corresponding errors, see [Adjustment column conditions](#adjustment-column-conditions).<br> When this setting is enabled, you'll see a pencil icon next to the forecasted value in that column. To learn more, see [Adjust values in a forecast](adjust-values-in-forecast.md). |
 | Show progress compared to quota | Enable this option to compare the column's value against the quota column. When enabled, a progress bar indicating the attainment percentage is shown below the forecast value in that column.|
 | Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend chart](/dynamics365/sales/understand-forecast-projection-through-trend-chart). |
-| Unique name | The unique name is used to identify the column when you're writing a formula for a **Calculated** column. This field is auto-populated with the name of the column and supports only English characters  <br>  **Important!** If you use non-English characters in the **Name** field, the **Unique name** field is not auto-populated. You must manually enter a unique name for such columns in English. |	
 
 #### Adjustment column conditions
 
@@ -165,7 +162,6 @@ For example, **Quota** is a simple column type where you can manually upload dat
 |-----------|-------------|
 | Data type	| Select the data type of a column of which the aggregated value is displayed in the forecast grid. The supported values are currency, integer, and decimal. You can use integer or decimal data type for quantity-based forecast. Depending on the type of value that you'll be uploading data through an Excel workbook. By default, the value is selected as **Currency**. If the forecast contains both currency and numeric columns, then you must select the primary data type to activate the forecast. More information: [Forecast with different data type](forecast-different-data-types.md). |
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
-| Unique name | The unique name is used to identify the column to use when you're writing a formula for a **Calculated** column. This field is auto-populated with the name of the column and supports only English characters  <br>  **Important!** If you use non-English characters in the **Name** field, the **Unique name** field is not auto-populated. You must manually enter a unique name for such columns in English. |
 
 <a name="configure-hierarchy-related-type"> </a>
 ### Hierarchy related type
@@ -177,7 +173,6 @@ When you select column **Type** as **Hierarchy related**, the column helps you p
 | Data type	| Data type of the column that you want to display on the forecast grid. By default, the value is selected as **Single line of text** and can't be changed. |
 | Attribute field | Select an attribute to display in the column. For example, you can select **Email**, which will be unique to each user in your organization and can help you identify to whom the record belongs. |
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
-| Unique name | The unique name is used to identify the column to use when you're writing a formula for a **Calculated** column. This field is auto-populated with the name of the column and supports only English characters  <br>  **Important!** If you use non-English characters in the **Name** field, the **Unique name** field is not auto-populated. You must manually enter a unique name for such columns in English. |
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
