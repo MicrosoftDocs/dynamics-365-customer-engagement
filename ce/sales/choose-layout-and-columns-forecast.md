@@ -1,7 +1,7 @@
 ---
 title: Configure columns and layouts in forecast grid
 description: Configure columns and layouts you want sellers to see in the forecast grid. Add from option set, change column type, show columns in chart, and more.
-ms.date: 08/24/2022
+ms.date: 06/28/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
