@@ -6,7 +6,7 @@ ms.author: laalexan
 ms.reviewer: shujoshi
 ms-service: dynamics-365
 ms.topic: conceptual
-ms.date: 03/15/2023
+ms.date: 06/27/2023
 ms.custom: bap-template
 ---
 
@@ -24,25 +24,22 @@ No, omnichannel is a platform feature that's accessed through applications. One 
 
 ### What does deprecation mean?
 
-Deprecation means Microsoft plans to stop investing in a feature or app after the deprecation date. In this case, the Omnichannel for Customer Service app will be deprecated on April 1, 2023.
+Deprecation means Microsoft plans to stop investing in a feature or app after the deprecation date. In this case, the Omnichannel for Customer Service app is deprecated as of April 1, 2023.
 
-### Is the Omnichannel for Customer Service app deprecated now?
+### Is the Omnichannel for Customer Service app still supported now that it's deprecated?
 
-No, the app will be deprecated on April 1, 2023.
-
-### Will the Omnichannel for Customer Service app still be supported after the planned deprecation date?
-
-Yes, after the app is deprecated, support will still be available until June 2024.
+Yes, support is available until June 2024.
 
 ### Can I continue to use the Omnichannel for Customer Service app?
 
-Yes, you can. Omnichannel for Customer Service will continue to be supported until June 2024.
+Yes, you can. Omnichannel for Customer Service will continue to be supported until June 2024. More information: [Enable the Omnichannel for Customer Service app and disable the Customer Service workspace app for Omnichannel users]
+(customer-service/enable-oc-disable-csw.md)
 
 ### What is the end-of-support date?
 
 End of support for the Omnichannel for Customer Service app is planned for June 2024.
 
-### If Omnichannel for Customer Service won't be invested in after deprecation, what app should I use?
+### Since Omnichannel for Customer Service is no longer being invested in now that it's deprecated, what app should I use?
 
 You can use the Customer Service workspace app, which has feature-level parity with the Omnichannel for Customer Service app.
 
