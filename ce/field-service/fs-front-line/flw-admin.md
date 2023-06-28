@@ -49,11 +49,12 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
 
 The Field Service (Preview) Teams app requires the following setup:
 
-- [Install and set up Viva Connections](#install-and-set-up-viva-connections), if it’s not already installed
 - [Create user groups](#create-user-groups), if they are not already set up
+- [Deploy Teams Tab app package](#deploy-teams-tab-app-package)
+- [Select an environment](#select-an-environment)
+- [Install and set up Viva Connections](#install-and-set-up-viva-connections), if it’s not already installed
 - [Deploy Viva Connections Cards for Field Service (Preview)](#deploy-viva-connections-cards-for-field-service-preview)
 - [Add Field Service (Preview) cards to the dashboard](#add-field-service-preview-cards-to-the-viva-connections-dashboard)
-- [Deploy Teams Tab app package](#deploy-teams-tab-app-package)
 - [Assign audiences](#assign-security-roles-and-field-security-profiles)
 - [Sync Azure Active Directory groups and Dataverse security roles](#sync-azure-active-directory-groups-and-dataverse-security-roles)
 
@@ -69,25 +70,61 @@ Admin permissions for the following apps:
 - Microsoft 365 Admin Center
 - SharePoint Admin Center
 
+### Create user groups
+
+If you have not created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups?view=o365-worldwide) or [create an Azure Active Directory group](/azure/active-directory/fundamentals/how-to-manage-groups).
+
+### Deploy Teams Tab app package
+
+Make the Field Service (Preview) app available in Teams.
+
+1. Log in to the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
+
+1. [Auto install the Field Service (Preview) Teams app](/microsoftteams/auto-install-approved-apps).
+
+1. After the app is added, select the link to manage it.
+
+   :::image type="content" source="media/fsp-teams-link-manage.png" alt-text="Teams screenshot highlighting select link to manage the app.":::
+
+1. [Grant permissions to use the app](/microsoftteams/app-permissions-admin-center#view-resource-specific-consent-permissions-of-an-app).
+
+1. Optionally, [pre-pin and pre-install the app](/microsoftteams/teams-app-setup-policies#pin-apps) for your organization.
+
+The Field Service (Preview) app displays under **Built for your org** in Teams.
+
+:::image type="content" source="media/fsp-teams-app.png" alt-text="Teams screenshot highlighting Field Service (Preview) app":::
+
+### Select an environment
+
+You must select your environment before you install and set up Viva Connections.
+
+1. Log into [Microsoft Teams](https://teams.microsoft.com) as an admin.
+
+1. Select **Apps**.
+
+1. Select **Add** on the Field Service (Preview) app, and then **Add**.
+
+1. Select the **Settings** tab, and then select your environment.
+
+   :::image type="content" source="media/fsp-environment.png" alt-text="Teams screenshot highlighting Environment selection":::
+
 ### Install and set up Viva Connections
 
 Viva Connections is included as part of Microsoft Teams license. If you do not have Viva Connections set up for your organization, install and set it up.
 
-1. As a Global admin, log into the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
+1. Log in to the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 
-1. [Add the Viva Connections app](/viva/connections/add-viva-connections-app), customize it, and make it available to your organization.
+1. [Add the Viva Connections app](/viva/connections/set-up-admin-center).
 
 1. Log into Teams as an admin.
 
 1. Under **Apps**, search for and select the Viva Connections app with the name you gave it. Then select **Add**.
 
-1. Open the Viva Connections app in Teams. Set up the dashboard for **Frontline workers** and **Information workers**.
+1. Open the Viva Connections app in Teams.
+
+1. On the dashboard, select **Edit**. Set up the dashboard for **Frontline workers** and **Information workers**.
 
 1. Customize each dashboard with apps based on your organization’s needs.
-
-### Create user groups
-
-If you have not created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups?view=o365-worldwide) or [create an Azure Active Directory group](/azure/active-directory/fundamentals/how-to-manage-groups).
 
 ### Deploy Viva Connections cards for Field Service (Preview)
 
@@ -133,20 +170,6 @@ To set up a home site, see the following steps:
 1. [Set the target audience](/viva/connections/use-audience-targeting-in-viva-connections) for each card.
 
 1. Preview the experience and then select **Publish** or **Republish**.
-
-### Deploy Teams Tab app package
-
-Make the Field Service (Preview) app available in Teams.
-
-1. Log into the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
-
-1. [Auto install the Field Service (Preview) Teams app](/microsoftteams/auto-install-approved-apps).
-
-1. After the app is added, select the link to manage it.
-
-1. [Grant permissions to use the app](/microsoftteams/app-permissions-admin-center#view-resource-specific-consent-permissions-of-an-app).
-
-The Field Service (Preview) app displays under **Built for your org** in Teams.
 
 ### Assign security roles and field security profiles
 

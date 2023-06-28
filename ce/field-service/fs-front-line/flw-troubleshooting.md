@@ -21,7 +21,7 @@ Administrator permissions in Dynamics 365 Field Service (Preview)
 
 ### Symptoms
 
-As an admin, when using a new Field Service environment and trying to [assign security roles for my users](front-line-admin.md#assign-security-roles-and-field-security-profiles), I can't find a user in the **Users** field.
+As an admin, when using a new Field Service environment and trying to [assign security roles for my users](flw-admin.md#assign-security-roles-and-field-security-profiles), I can't find a user in the **Users** field.
 
    :::image type="content" source="media/fsp-assign-roles.png" alt-text="Screenshot of adding frontline workers in Field Service.":::
 
@@ -45,7 +45,7 @@ As a Field Service dispatcher, I can't create work orders.
 
 ### Resolution
 
-An admin must update the [Column level security](front-line-admin.md#set-up-column-level-security-optional) for the dispatcher role and provide **Create** permission for - **Time Promised (from)** and **Time Promised (to)**.
+An admin must update the [Column level security](flw-admin.md#set-up-column-level-security-optional) for the dispatcher role and provide **Create** permission for - **Time Promised (from)** and **Time Promised (to)**.
 
 ## I can't change my Outlook Web theme in the Field Service (Preview) Outlook Add-in
 
@@ -126,6 +126,6 @@ An error message displays indicating the user has not been granted the correct p
 
 ### Resolution
 
-An admin must [assign the correct security role and field security profile](front-line-admin.md#assign-security-roles-and-field-security-profiles).
+An admin must [assign the correct security role and field security profile](flw-admin.md#assign-security-roles-and-field-security-profiles).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

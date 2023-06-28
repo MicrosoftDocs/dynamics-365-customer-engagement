@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) Teams app for the Frontline Manager
 description: Learn about the Dynamics 365 Field Service (Preview) Teams and Viva Connections app to create, view, and edit work orders.
-ms.date: 05/31/2023
+ms.date: 06/28/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -64,10 +64,8 @@ The Dynamics 365 Field Service (Preview) for Teams uses Viva Connection cards an
 
 1. Select the work order you want to edit. Use **Find by ID** or **Filter** to find the work order if necessary.
 
-   <!--- Add screenshot --->
+   :::image type="content" source="media/fsp-viva-edit-work-order.png" alt-text="Screenshot of Field Service (Preview) Teams work order to edit":::
 
 1. Make the necessary changes and select **Save**.
-
-   :::image type="content" source="media/fsp-viva-edit-work-order.png" alt-text="Screenshot of Field Service (Preview) Teams updated work order":::
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
