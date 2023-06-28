@@ -158,15 +158,15 @@ items:
 - name: Field Service in Microsoft 365 apps (preview)
   items:
     - name: Overview
-      href: fs-front-line/front-line-overview.md
+      href: fs-front-line/flw-overview.md
     - name: Administrators
-      href: fs-front-line/front-line-admin.md
+      href: fs-front-line/flw-admin.md
     - name: Outlook add-in with Copilot for the Frontline Manager
-      href: fs-front-line/front-line-outlook.md
+      href: fs-front-line/flw-outlook.md
     - name: Teams app for the Frontline Manager
-      href: fs-front-line/front-line-teams-manager.md
+      href: fs-front-line/flw-teams-manager.md
     - name: Teams app for the Frontline Worker
-      href: fs-front-line/front-line-teams-worker.md
+      href: fs-front-line/flw-teams-worker.md
 
 - name: Scheduling
   items:

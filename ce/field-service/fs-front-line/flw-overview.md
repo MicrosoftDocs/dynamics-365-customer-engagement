@@ -23,10 +23,10 @@ A Viva Connections dashboard in Teams provides frontline workers with an at-a-gl
 
 As an organization, you can use the capabilities of the Field Service (Preview) using Microsoft Outlook or Microsoft Teams or both. For more information about what Field Service (Preview) provides, see:
 
-- [Field Service (Preview) Outlook overview with Copilot for the Frontline Manager](front-line-outlook.md)
-- [Field Service (Preview) Teams overview for the Frontline Manager](front-line-teams-manager.md)
-- [Field Service (Preview) Teams overview for the Frontline Worker](front-line-teams-worker.md)
+- [Field Service (Preview) Outlook overview with Copilot for the Frontline Manager](flw-outlook.md)
+- [Field Service (Preview) Teams overview for the Frontline Manager](flw-teams-manager.md)
+- [Field Service (Preview) Teams overview for the Frontline Worker](flw-teams-worker.md)
 
-Dynamics 365 Field Service (Preview) allows administrators and users to access content and share data outside of Microsoft 365 once consent is given to link their Microsoft work or school account with their Dynamics 365 account. See [Field Service (Preview) for Administrators](front-line-admin.md).
+Dynamics 365 Field Service (Preview) allows administrators and users to access content and share data outside of Microsoft 365 once consent is given to link their Microsoft work or school account with their Dynamics 365 account. See [Field Service (Preview) for Administrators](flw-admin.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
