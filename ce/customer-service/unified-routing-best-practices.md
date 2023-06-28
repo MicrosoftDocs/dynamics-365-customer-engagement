@@ -60,10 +60,9 @@ For information on using the API, see [Use the Microsoft Dataverse Web API](/pow
 
 ### Monitor agent capacity
 
-You can use the **Agents insights** report to view details such as the agent's presence, current conversations, and the sentiments of those conversations, as well as an agent's available capacity across different capacity profiles.
-
-If you'd like to create a custom report to monitor the agent capacity, you must use the following entities:
-- the [agent status](/developer/reference/entities/msdyn_agentstatus.md) entity to get the latest capacity profile and presence status of an agent. 
+Use the **Agents insights** report to view details such as the agent's presence, current conversations, and the sentiments of those conversations, and an agent's available capacity across different capacity profiles.
+To create a custom report to monitor the agent capacity, use the following entities:
+- The [agent status](/developer/reference/entities/msdyn_agentstatus.md) entity to get the latest capacity profile and presence status of an agent. 
 - The [status history](/developer/reference/entities/msdyn_agentcapacityupdatehistory.md) entity to get the history or audit trail of the presence and capacity profile changes for an agent.
 
 ## Manage queues
