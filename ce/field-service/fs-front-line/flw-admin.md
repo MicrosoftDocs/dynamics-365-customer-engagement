@@ -20,7 +20,7 @@ As an administrator for your organization, the set up tasks for the Field Servic
 
 ## Set up the Field Service (Preview) Outlook Add-in
 
-The Field Service (Preview) Outlook Add-in requires the add-in to be enabled. You can quickly enable the Outlook Add-in for your organization and the frontline employees are ready to go.
+The Field Service (Preview) Outlook Add-in requires the add-in to be enabled. You can quickly enable the Outlook Add-in for your organization and the frontline employees are ready to go. The Outlook add-in also includes copilot capabilities to create work orders in Outlook. If you want to opt out of using Copilot, please fill out the following form: https://go.microsoft.com/fwlink/?linkid=2240475.
 
 > [!NOTE]
 > Outlook Preview is not supported.
@@ -116,9 +116,9 @@ Viva Connections is included as part of Microsoft Teams license. If you do not h
 
 1. [Add the Viva Connections app](/viva/connections/set-up-admin-center).
 
-1. Log into Teams as an admin.
+1. Log into [Microsoft Teams](https://teams.microsoft.com) as an admin.
 
-1. Under **Apps**, search for and select the Viva Connections app with the name you gave it. Then select **Add**.
+1. Under **Apps**, search for and select the Viva Connections app. Then select **Add**.
 
 1. Open the Viva Connections app in Teams.
 

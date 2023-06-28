@@ -75,6 +75,9 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
    A message displays that the work order is being generated.
 
+   > [!TIP]
+   > If the email does not meet Microsoft Responsible AI guidelines, an error displays. You can create the work order manually.
+
 1. Review the work order to ensure all AI-generated content is accurate and fill in any additional information.
 
    :::image type="content" source="media/fsp-copilot-review-work-order.png" alt-text="Field Service (Preview) Outlook pane showing an auto-generated work order for review":::

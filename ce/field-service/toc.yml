@@ -492,7 +492,7 @@ items:
   - name: Resource Scheduling Optimization FAQs
     href: rso-faq.yml
   - name: Field Service (Preview) troubleshooting
-    href: fs-front-line/front-line-troubleshooting.md
+    href: fs-front-line/flw-troubleshooting.md
 
 - name: More resources
   items:
