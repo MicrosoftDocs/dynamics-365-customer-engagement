@@ -1,7 +1,7 @@
 ---
 title: Initial and ongoing event planning
 description: How to plan an event, register basic info, set up your team, manage sessions and speakers, set the event schedule, issue passes,  and manage venues in Dynamics 365 Marketing.
-ms.date: 06/27/2023
+ms.date: 06/28/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -94,6 +94,22 @@ The **Agenda** tab includes details about the schedule of sessions happening dur
 
 ### The Website and form tab
 
+# [Real-time marketing](#tab/real-time)
+
+The Website and form tab provides options to set registration parameters. First, you can decide where do you want attendees to register for your event:
+- On a standalone registration page:
+    - Use this option if you want to create a registration page using Dynamics 365 Marketing registration forms and use Marketing to host the page.
+      > [!div class="mx-imgBorder"]
+      > ![Screenshot of the website form to fill registration](media/real-time-marketing-registration-parameters.png "Screenshot of the website form to fill registration")
+- On your own website:
+    - Use this option if you want to use your own website to collect registrations. In this case, you need to provide the event URL, and decide if you want to use Dynamics 365 Marketing registration forms. In this case, you can copy Java scrip code of the form to embed it on your website.
+      > [!div class="mx-imgBorder"]
+      > ![Screenshot of using personal website form to fill registration](media/real-time-marketing-personal-website-registration-details.png "Screenshot of using personal website form to fill registration")
+- This event does not have a website:
+    - Use this option if you want to collect registrations elsewhere or not collect them at all.
+
+# [Outbound marketing](#tab/outbound)
+
 The **Website and form** tab provides options for creating a custom [event website](set-up-event-portal.md) and integrating [marketing forms](marketing-forms.md) for event registration. In this tab you can set a custom event URL, set a registration end date, and set registration parameters. The following options are available:
 
 - **Custom event URL**: If you are [hosting your event website](set-up-event-portal.md) on your own server, or in a custom location of your Power Apps portals solution, select this check box and edit the **Event URL** as needed.
@@ -115,6 +131,14 @@ The **Website and form** tab provides options for creating a custom [event websi
 - **Custom registration fields**: Here you can [view and create custom registration fields](custom-registration-fields.md), which enable registrants to provide extra information  (such as dietary restrictions or gift options) when they register for the event.
 
 ### The Registration and attendance tab
+
+# [Real-time marketing](#tab/real-time)
+
+Use the **Registration and attendance** tab to see who registered for the event and who attended. You can also create registrations and check-ins here. The following sections are available:
+- Event registration: This table provides a list of people who [registered](invite-register-house-event-attendees.md) for your event. You can also [register people manually](invite-register-house-event-attendees.md) here. If you are using [custom registration fields]((custom-registration-fields.md)), then you can also view the values submitted by each attendee here.
+- Event check-ins: Here you can see who attended the event and enter attendance records.
+
+# [Outbound marketing](#tab/outbound)
 
 Use the **Registration and attendance** tab to see who registered for the event, who attended, and who canceled. You can also create registrations and check-ins here. The following sections are available:
 
@@ -214,6 +238,12 @@ When setting up a speaker engagement, you map a speaker to a specific session fo
 <a name="event-passes"></a>
 
 ## Set up event passes
+
+# [Real-time marketing](#tab/real-time)
+
+Event passes are not supported in Real Time Marketing Event Management.
+
+# [Outbound marketing](#tab/outbound)
 
 Event passes are essentially tickets that you can sell or give away to grant access to your event and/or its various sessions and tracks. Passes are optional, but if you want to use them, you'll start by setting up the basic types of passes that you need for an event and adding the applicable sessions to each of them. Later, you'll assign a pass of the appropriate type to each attendee by mapping each event registration to one or more pass types. Passes can also be shown on the event website, so attendees can register for the passes they want while registering for the event itself; in this case, the registration/pass mapping is made automatically. For each assigned pass, Dynamics 365 Marketing generates a unique QR code, which you can print onto a physical badge that event personnel can quickly scan on entrance to confirm eligibility and record attendance.
 

@@ -32,6 +32,8 @@ To find the event management work area:
 
     ![Open the work area menu.](media/events-nav.png "Open the work area menu")
 
+1. If you have outbound and real-time marketing installed, there is a drop-down menu to the right of the **New Event** button where you can create an event inside real-time marketing. When outbound and real-time marketing are installed, you’ll see outbound and real-time marketing events in the same events list.    
+
 For more information about how to get around in Dynamics 365 Marketing and work with its common features, see [Find your way around Marketing](navigation.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
