@@ -92,6 +92,8 @@ The **Agenda** tab includes details about the schedule of sessions happening dur
 - **Speaker engagements**: Each [speaker engagement](#speakers) maps a speaker to a session occurring at your event.
 - **Sponsors**: Companies who are [sponsoring the event](manage-event-sponsorships.md).
 
+<a name="websiteandform-tab"></a>
+
 ### The Website and form tab
 
 # [Real-time marketing](#tab/real-time)
@@ -129,6 +131,8 @@ The **Website and form** tab provides options for creating a custom [event websi
     > [!NOTE]
     > As mentioned, the **Registration count** and **Check-in count** fields can each count up to a maximum of 50,000 contacts. The system can easily handle more registrations and/or check-ins than this, but for values higher than 50,000, these fields are no longer accurate.
 - **Custom registration fields**: Here you can [view and create custom registration fields](custom-registration-fields.md), which enable registrants to provide extra information  (such as dietary restrictions or gift options) when they register for the event.
+
+<a name="registrationandattendance-tab"></a>
 
 ### The Registration and attendance tab
 
