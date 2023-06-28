@@ -47,7 +47,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
         > [!div class="mx-imgBorder"]
         > ![Screenshot of teams transfer](./media/oc-teams-transfer.png) <br>
 
-    If you've selected either the external PSTN number or Teams to transfer the call, you can talk to the secondary agent who picks up the call, while the customer is on hold. To complete the call transfer, you must select the transfer button next to the secondary agent name in the call window. The secondary agent is now the primary agent and you will be removed from the call. However, the secondary agent is disconnected from the call if they don't accept the call within eight minutes.
+    If you've selected either the external PSTN number or Teams to transfer the call, you can talk to the secondary agent who picks up the call, while the customer is on hold. To complete the call transfer, you must select the transfer button next to the secondary agent name in the call window. The secondary agent is now the primary agent and you will be removed from the call. However, the secondary agent is disconnected from the call if the transfer is not completed by primary agent within eight minutes.
 
     > [!NOTE]
     > The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.
