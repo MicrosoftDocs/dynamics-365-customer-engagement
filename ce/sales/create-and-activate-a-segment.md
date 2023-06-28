@@ -12,7 +12,8 @@ ms.author: udag
 As a sequence manager, you create segments&mdash;groups of records&mdash;by defining different conditions for each segment. After a segment is activated and a record satisfies the conditions that are defined in the segment, the record becomes a member of the segment. A sequence that's connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.
 
 >[!NOTE]
->At any given time, you can have a maximum of 250 active segments in an organization. To increase the limit of active segments, contact Microsoft Support for assistance.
+>- Only active records are assigned to segments. For example, when a lead is qualified, it becomes a read-only record and creates a new opportunity record. This lead is not considered for segmentation as it turned read-only and not active anymore.
+>- At any given time, you can have a maximum of 250 active segments in an organization. To increase the limit of active segments, contact Microsoft Support for assistance.
 
 ## License and role requirements
 
