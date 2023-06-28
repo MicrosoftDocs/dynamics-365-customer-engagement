@@ -94,7 +94,8 @@ The **Agenda** tab includes details about the schedule of sessions happening dur
 - **Sponsors**: Companies who are [sponsoring the event](manage-event-sponsorships.md).
 
 ### The Website and form tab
-Real-time marketing
+
+# [Real-time marketing](#tab/real-time)
 
 The Website and form tab provides options to set registration parameters. First, you can decide where do you want attendees to register for your event:
 - On a standalone registration page:
@@ -108,7 +109,7 @@ The Website and form tab provides options to set registration parameters. First,
 - This event does not have a website:
     - Use this option if you want to collect registrations elsewhere or not collect them at all.
 
-Outbound marketing
+# [Outbound marketing](#tab/outbound)
 
 The **Website and form** tab provides options for creating a custom [event website](set-up-event-portal.md) and integrating [marketing forms](marketing-forms.md) for event registration. In this tab you can set a custom event URL, set a registration end date, and set registration parameters. The following options are available:
 
@@ -130,15 +131,17 @@ The **Website and form** tab provides options for creating a custom [event websi
     > As mentioned, the **Registration count** and **Check-in count** fields can each count up to a maximum of 50,000 contacts. The system can easily handle more registrations and/or check-ins than this, but for values higher than 50,000, these fields are no longer accurate.
 - **Custom registration fields**: Here you can [view and create custom registration fields](custom-registration-fields.md), which enable registrants to provide extra information  (such as dietary restrictions or gift options) when they register for the event.
 
+---
+
 ### The Registration and attendance tab
 
-Real-time marketing
+# [Real-time marketing](#tab/real-time)
 
 Use the **Registration and attendance** tab to see who registered for the event and who attended. You can also create registrations and check-ins here. The following sections are available:
 - Event registration: This table provides a list of people who [registered](invite-register-house-event-attendees.md) for your event. You can also [register people manually](invite-register-house-event-attendees.md) here. If you are using [custom registration fields](custom-registration-fields.md), then you can also view the values submitted by each attendee here.
 - Event check-ins: Here you can see who attended the event and enter attendance records.
 
-Outbound marketing
+# [Outbound marketing](#tab/outbound)
 
 Use the **Registration and attendance** tab to see who registered for the event, who attended, and who canceled. You can also create registrations and check-ins here. The following sections are available:
 
@@ -152,6 +155,8 @@ Use the **Registration and attendance** tab to see who registered for the event,
     > With the February 2020 Marketing release, canceled event registrations are deactivated, not deleted. To cancel an event registration from within Marketing, simply deactivate the record.
     >
     >To determine your current Marketing version, refer to [Find out which version of Dynamics 365 Marketing you are running](apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+--- 
 
 ### The Additional information tab
 
@@ -239,11 +244,11 @@ When setting up a speaker engagement, you map a speaker to a specific session fo
 
 ## Set up event passes
 
-Real-time marketing
+# [Real-time marketing](#tab/real-time)
 
 Event passes are not supported in Real Time Marketing Event Management.
 
-Outbound marketing
+# [Outbound marketing](#tab/outbound)
 
 Event passes are essentially tickets that you can sell or give away to grant access to your event and/or its various sessions and tracks. Passes are optional, but if you want to use them, you'll start by setting up the basic types of passes that you need for an event and adding the applicable sessions to each of them. Later, you'll assign a pass of the appropriate type to each attendee by mapping each event registration to one or more pass types. Passes can also be shown on the event website, so attendees can register for the passes they want while registering for the event itself; in this case, the registration/pass mapping is made automatically. For each assigned pass, Dynamics 365 Marketing generates a unique QR code, which you can print onto a physical badge that event personnel can quickly scan on entrance to confirm eligibility and record attendance.
 
@@ -257,6 +262,8 @@ To view and create passes for an event, open the appropriate event record and go
 > You can add sessions to a pass individually or add an entire track at once. If you choose to add a track, all of the sessions that currently belong to that track will be added to your pass. However, when you add by track, you won't create a link to the track itself; instead, you just add all the sessions that currently belong to that track to the current pass. Future edits to the track won't affect the pass, so you must edit each existing pass specifically if you need to change the sessions that belong to it.
 
 When setting up a pass, pay attention to the **Passes Allocated** field, where you set the number of passes available, and its related fields: **Passes Sold** and **Passes Remaining**. Each time a pass is granted to an attendee, the **Passes Sold** number automatically increases and the **Passes Remaining** number decreases. When **Passes Remaining** reaches zero, that pass will be shown on the event website as "sold out" and will no longer be available for purchase by further attendees. If you set **Passes Allocated** to zero, that pass won't be shown on the website at all; you might do this for VIP passes, or to keep a pass as a draft until you're ready to publish it by setting **Passes Allocated** to a positive value.
+
+--- 
 
 <a name="venues"></a>
 
