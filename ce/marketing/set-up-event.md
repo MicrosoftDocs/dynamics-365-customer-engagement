@@ -1,7 +1,7 @@
 ---
-title: "Initial and ongoing event planning (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to plan an event, register basic info, set up your team, manage sessions and speakers, set the event schedule, issue passes,  and manage venues in Dynamics 365 Marketing."
-ms.date: 10/19/2022
+title: Initial and ongoing event planning
+description: How to plan an event, register basic info, set up your team, manage sessions and speakers, set the event schedule, issue passes,  and manage venues in Dynamics 365 Marketing.
+ms.date: 06/27/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -42,7 +42,24 @@ Only live events, sessions, and tracks are shown on the event website. When you'
 
 ### The General tab
 
-### [Outbound](#tab/GitHub)  [Real-time marketing](#tab/GitHub)
+# [Real-time marketing](#tab/real-time)
+
+Here you can see and edit your basic event information, including:
+
+- **Key information**: Includes the name of your event and other basic details. The following settings are provided:
+    - **Event name**: Enter a name for the event.
+    - **Event type**: Choose the type of event. The event type is for information only and won't affect any features. Use it to make your event easier to find and identify.
+    - **Registration count**: Shows the number of people who registered for the event. The maximum value that can be shown here is 50,000, but you can still store more registrations in the system.
+    - **Check-in count**: Shows the number of attendees that checked in during the event. The maximum value that can be shown here is 50,000, but you can still store more check-ins in the system.
+    - **Event URL**: Shows the address of your event website. If you're using the default location on your Power Apps portals solution, the event URL value is read-only and provided automatically. If you are hosting your website at a custom location, then select the Custom event URL check box and edit the value here. Select the globe button next the event URL field to open the site. More information: Open the event website
+- **Schedule**: Provides settings for specifying the time zone, start, and end dates for your event. The schedule section also provides a countdown of the days until your event. You can also set up a recurring event here. If you change the start date for an event that's already been saved, you'll be asked whether you want to change the end date and the session schedule to match it.
+- **Timeline**: As with most types of entities in Dynamics 365, you can use this section to build a record of the activities (such as calls, emails, and appointments) that you and others do in relation to the current record. You can also share notes here. Use the links, buttons, and menus at the top of this area to create new items and to search and sort the list.
+- **Stream this event online**: Set up your event as a Microsoft Teams webinar,a Teams Live Event, a Teams Meeting, or on-site only.
+- **Location**: Specify the location where your event will take place. The location is hierarchical, and you can specify only as much detail as you need. For example, you can specify just a building. But to specify a room, you must first choose the building that contains that room. You can assign a separate location to each session if applicable. You can create location records from here, or choose from among existing venue records. Each location record can contain useful information such as address, facilities, capacity, and more.
+- **Venue constraints**: The venue constraints section only appears for on-site events. Each time you set a new Location, the Maximum event capacity value shown here updates to match the capacity configured for your last selected building, room, or layout (if available). You can then edit the value manually to override the capacity figure if needed. You can also enable the waitlist here to handle registrations that arrive after the event is full.
+- **Webinar setup**: The webinar setup section only appears for webinar and hybrid events. Use the settings here to set up your webinar configuration and find the URLs for viewing and presenting the webinar.
+
+# [Outbound marketing](#tab/outbound)
 
 Here you can see and edit your basic event information, including:
 
