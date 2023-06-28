@@ -46,7 +46,7 @@ Time entries are automatically created during the work order process. As a work 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of booking timestamps.](./media/work-order-time-entry-booking-statuses.png)
 
-When the work order booking status is changed to **Completed**, time entries are created based on the booking timestamps. If a dispatcher updates the booking status to *Completed* on behalf of a technician, the booking keeps the the estimated end time value. 
+When the work order booking status is changed to **Completed**, time entries are created based on the booking timestamps. If another user updates the booking status to *Completed* on behalf of a technician, the booking keeps the the estimated end time value. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of time entries for one person.](./media/work-order-time-entry-work-order.png)
